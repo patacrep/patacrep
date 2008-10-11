@@ -19,14 +19,14 @@
 % http://songs.sourceforge.net.
 
 \documentclass[letterpaper]{article}
-\usepackage[bookmarks]{hyperref}
+\usepackage[bookmarks,bookmarksopen]{hyperref}
 \usepackage[chorded]{songs}
 %\includeonlysongs{1}
 
 %my packages
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx, color}
-\usepackage[english,frenchb]{babel}
+\usepackage[english,french]{babel}
 \usepackage{fancybox}
 
 \setlength{\oddsidemargin}{0in}
@@ -105,6 +105,7 @@
 \showindex{Index par titre des chansons}{titleidx}
 \showindex{Index par titre des auteurs}{authidx}
 
+\songsection{Chansons}
 \begin{songs}{titleidx,authidx}
   \input{songs.sbd}
 \end{songs}

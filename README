@@ -1,0 +1,15 @@
+Chordbook Compilation Chain (v0.2)
+
+This package provides a compilation toolchain for latex
+chordbook. Some modifications have been done to the different files in
+order to match my desire. The main goal of this package is to have a
+simple make that allow to build a good looking chordbook without the
+all the c code to compile as provided in the original songs
+distribution.
+
+Currently this package is distribued with a chordbook written and
+desinged by one of my co-worker at the lab. It is provided with
+respect to its Creative Commons Licence.
+
+All other files are subject to the GNU GPLv2 except if another licence
+is precised.

@@ -1,0 +1,75 @@
+\songcolumns{2}
+\beginsong{La chanson du h\'erisson}[by=Georges Brassens \& Philippe Chatel]
+
+\gtab{Sim}{2,002210}
+\gtab{Sol}{3,022100}
+\gtab{Fa#7}{2,020100}
+
+\beginchorus
+\[Sim]Oh! Qu'est-ce qu'il pique \[Sol]ce hérisson!
+\[Fa#7]Oh! Qu'elle est triste sa chan\[Sim]son!
+\endchorus
+
+\beginverse*
+Oh! Qu'est-ce qu'il pique ce hérisson!
+Oh! Qu'elle est triste sa chanson!
+\endverse
+
+\beginverse
+C'est un hérisson, qui piquait, qui piquait
+Et qui voulait qu'on l'caresse-resse-resse
+On l'caressait pas pas-pas-pas-pas
+Non pas parce qu'il piquait pas,
+Mais parce qu'il piquait
+\endverse
+
+\beginverse*
+C'est un hérisson, qui piquait, qui piquait
+Et qui voulait qu'on l'caresse-resse-resse
+On l'caressait pas-pas-pas-pas-pas
+Non pas parce qu'il piquait pas,
+Mais parce qu'il piquait
+\endverse
+
+\beginverse
+Quelle est la fée dans ce livre,
+Qui me donnera l'envie d'vivre?
+Quelle est la petite fille aux yeux bleus,
+Qui va m'rendre heureux?
+\endverse
+
+\beginverse*
+Quelle est la fée dans ce livre,
+Qui lui donnera l'envie d'vivre?
+Quelle est la petite fille aux yeux bleus,
+Qui l'rendra heureux?
+\endverse
+
+\beginverse
+Moi, je ne vois que moi,
+Il n'y a que moi,
+Dans ce livre là.
+Moi, je ne vois que moi,
+Il n'y a que moi, dans ce livre la la la la.
+La-la-la-la-la-la
+La la-la-la-la-la-la-la-la-la-la-la \dots
+\endverse
+
+\beginverse*
+Émilie est allée caresser le hérisson.
+\endverse
+
+\beginverse
+Elle n'est plus triste
+Cette chanson
+J'ai caressé le hérisson
+\endverse
+
+\beginverse*
+Il n'est plus triste
+Le hérisson
+Elle a caressé la chanson
+Mais non! Le hérisson!\echo{Mais non! Le hérisson!}
+Pom pom
+\endverse
+\endsong

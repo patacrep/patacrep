@@ -1,0 +1,63 @@
+\songcolumns{2}
+\beginsong{Les souliers rouges}[by=Mes souliers sont rouges]
+
+
+\gtab{Do}{032010}
+\gtab{Sol7}{320001}
+\gtab{Fa}{1,022100}
+
+
+\beginverse
+Ah si j'a\[Do]vais les beaux souliers que ma mi\[Sol7]gnonne, ma mi\[Do]gnonne,
+Si j'a\[Fa]vais les beaux sou\[Do]liers que m'a mi\[Sol7]gnonne m'a don\[Do]nés.
+\rep{2}
+Les souliers du vieux Poirier;
+\endverse
+
+\beginchorus
+Mes souliers \[Fa]sont \[Do]rouges ma mi\[Sol7]gnonne, ma mi\[Do]gnonne
+Mes sou\[Fa]liers sont \[Do]rouges ma mi\[Sol7]gnonne mes a\[Do]mours.
+\rep{2}
+\endchorus
+
+\beginverse
+Si j'avais les beaux chaussons \dots
+Les chaussons du vieux Gagnon, les souliers \dots
+\endverse
+
+\beginverse
+Si j'avais les belles jar'tières \dots
+Les jar'tières du vieux Giguère, les chaussons \dots
+\endverse
+
+\beginverse
+Si j'avais la belle culotte \dots
+La culotte du vieux Mayotte, les jar'tières \dots
+\endverse
+
+\beginverse
+Si j'avais la belle chemise \dots
+La chemise du vieux Laprise, la culotte \dots
+\endverse
+
+\beginverse
+Si j'avais les belles bretelles \dots
+Les bretelles du vieux Roussel, la chemise \dots
+\endverse
+
+\beginverse
+Si j'avais le beau collet \dots
+Le collet du vieux Forest, les bretelles \dots
+\endverse
+
+\beginverse
+Si j'avais le beau capot \dots
+Le capot du vieux Thibault, le collet \dots
+\endverse
+
+\beginverse
+Si j'avais le beau chapeau \dots
+Le chapeau du vieux Garneau, le capot \dots
+\endverse
+
+\endsong

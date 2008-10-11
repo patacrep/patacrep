@@ -1,0 +1,3334 @@
+%%
+%% This is file `songs.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% songs.dtx  (with options: `package')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright (C) 2008 by Kevin W. Hamlen
+%% 
+%% This file may be distributed and/or modified under the conditions of
+%% the LaTeX Project Public License, either version 1.3a of this license
+%% or (at your option) any later version.  The latest version of this
+%% license is in:
+%% 
+%%    http://www.latex-project.org/lppl.txt
+%% 
+%% and version 1.3a or later is part of all distributions of LaTeX version
+%% 2004/10/01 or later.
+%% 
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{songs}
+  [2008/03/27 v2.6 Songs package]
+\newif\ifSB@etex
+\ifx\eTeXversion\undefined\else
+  \ifx\eTeXversion\relax\else
+    \SB@etextrue
+    \IfFileExists{etex.sty}{\RequirePackage{etex}}{}
+  \fi
+\fi
+\newif\ifSB@pdf\SB@pdffalse
+\ifx\pdfoutput\undefined\else
+  \ifx\pdfoutput\relax\else
+    \ifnum\pdfoutput<\@ne\else
+      \SB@pdftrue
+    \fi
+  \fi
+\fi
+\newif\ifSB@preamble
+\SB@preambletrue
+\newif\ifSB@test
+\newcommand\SB@temp{}
+\newcommand\SB@tempii{}
+\newcommand\SB@tempiii{}
+\newcommand\SB@tempiv{}
+\newcommand\SB@tempv{}
+\newdimen\SB@dimen
+\newdimen\SB@dimenii
+\newdimen\SB@dimeniii
+\newdimen\SB@dimeniv
+\newdimen\SB@dimenv
+\newbox\SB@box
+\newbox\SB@boxii
+\newbox\SB@boxiii
+\newtoks\SB@toks
+\newcount\SB@cnt
+\newcount\SB@cntii
+\newskip\SB@skip
+\RequirePackage{keyval}
+\newcommand\lyricfont{\normalfont\normalsize}
+\newcommand\stitlefont{%
+  \ifslides\sffamily\Huge\else\sffamily\slshape\Large\fi%
+}
+\newcommand\versefont{}
+\newcommand\chorusfont{}
+\newcommand\notefont{}
+\newcommand\scripturefont{%
+  \usefont{OT1}{pzc}{mb}{it}%
+  \shiftdblquotes{-1.1\p@}\z@{-2\p@}\z@%
+}
+\newcommand\printscrcite[1]{{\sffamily\small#1}}
+\newcommand\versejustify{\justifyleft}
+\newcommand\chorusjustify{\justifyleft}
+\newcommand\notejustify{%
+  \advance\baselineskip\p@\relax%
+  \leftskip\z@skip\rightskip\z@skip%
+  \parfillskip\@flushglue\parindent\z@%
+}
+\newcommand\placenote[1]{%
+  \leftskip\z@skip\rightskip\@flushglue\SB@cbarshift%
+  \noindent#1\par%
+}
+\newcommand\songnumstyle[1]{\arabic{#1}}
+\newcommand\versenumstyle[1]{\arabic{#1}}
+\newcommand\printsongnum[1]{\sffamily\bfseries\LARGE#1}
+\newcommand\printversenum[1]{\lyricfont#1.\ }
+\newcommand\placeversenum[1]{%
+  \hskip-\leftskip\hskip-\parindent\relax%
+  \box#1%
+}
+\newcommand\everyverse{}
+\newcommand\everychorus{}
+\newcommand\printchord[1]{\sffamily\slshape\large#1}
+\newcommand\chordlocals{}
+\newskip\versesep
+\versesep123456789sp\relax
+\newskip\baselineadj
+\baselineadj\z@skip
+\parindent.25in
+\newlength\idxheadwidth
+\setlength\idxheadwidth{1.5cm}
+\newlength\songnumwidth
+\settowidth\songnumwidth{\printsongnum{999.}}
+\newlength\versenumwidth
+\settowidth\versenumwidth{\printversenum{9\kern1em}}
+\newlength\cbarwidth
+\setlength\cbarwidth\p@
+\newlength\sbarheight
+\setlength\sbarheight\p@
+\newcount\vvpenalty\vvpenalty-100
+\newcount\ccpenalty\ccpenalty-100
+\newcount\vcpenalty\vcpenalty-100
+\newcount\cvpenalty\cvpenalty-100
+\newcount\spenalty\spenalty0
+\newcommand\songmark{}
+\newcommand\versemark{}
+\newcommand\chorusmark{}
+\newcommand\extendprelude{\showrefs\showauthors}
+\newcommand\extendpostlude{\songcopyright\ \songlicense\unskip}
+\newlength\colminheight
+\setlength\colminheight{123456789sp}
+\newdimen\SB@colwidth
+\DeclareOption{slides}{\slides}
+\newcommand\slides{%
+  \slidestrue%
+  \def\lyricfont{\normalfont\huge}%
+  \def\chorusfont{\slshape}%
+  \def\versejustify{\justifycenter}%
+  \let\chorusjustify\versejustify
+  \def\placenote##1{\justifycenter\noindent##1\par}%
+  \scriptureoff%
+  \onesongcolumn%
+  \ifSB@preamble\ifSB@chordedspec\else\SB@chordsoff\fi\fi%
+  \spenalty-\@M%
+  \setlength\cbarwidth\z@%
+  \setlength\sbarheight\z@%
+}
+\newcommand\justifyleft{%
+  \leftskip\parindent%
+  \ifSB@inverse\advance\leftskip\versenumwidth\fi%
+  \SB@cbarshift%
+  \parindent-\parindent%
+}
+\newcommand\justifycenter{%
+  \centering\SB@cbarshift\rightskip\leftskip%
+  \def\placeversenum##1{%
+    \hskip-\leftskip\hskip-\parindent\relax%
+    \hangindent-\wd##1\hangafter\m@ne%
+    \box##1\hfil%
+  }%
+}
+\newcommand\SB@outer{\outer}
+\DeclareOption{unouter}{\let\SB@outer\relax}
+\DeclareOption{rawtext}{\rawtexttrue\indexesoff}
+\DeclareOption{nopdfindex}{\pdfindexfalse}
+\DeclareOption{noshading}{\SB@colorboxesfalse}
+\DeclareOption{noindexes}{\indexesoff}
+\newcommand\indexeson{%
+  \ifSB@preamble%
+    \SB@genindexestrue%
+  \else%
+    \ifSB@genindexes\else\SB@warnigen\fi%
+  \fi%
+  \songindexestrue%
+}
+\newcommand\indexesoff{%
+  \ifSB@preamble\SB@genindexesfalse\fi%
+  \songindexesfalse%
+}
+\newif\ifSB@measurespec
+\newif\ifSB@chordedspec
+\DeclareOption{chorded}{\chordson}
+\DeclareOption{lyric}{\chordsoff}
+\newcommand\chordson{\SB@chordedspectrue\SB@chordson}
+\newcommand\chordsoff{\SB@chordedspectrue\SB@chordsoff}
+\newcommand\SB@chordson{%
+  \ifrawtext%
+    \SB@errrtopt%
+  \else%
+    \chordedtrue\lyricfalse%
+    \let\SB@bracket\SB@chord%
+    \let\SB@rechord\SB@@rechord%
+    \let\SB@ch\SB@ch@on%
+    \ifSB@measurespec%
+      \ifmeasures\SB@measureson\else\SB@measuresoff\fi%
+    \else%
+      \SB@measureson%
+    \fi%
+    \SB@setbaselineskip%
+  \fi%
+}
+\newcommand\SB@chordsoff{%
+  \chordedfalse\lyrictrue%
+  \def\SB@bracket##1]{\ignorespaces}%
+  \let\SB@rechord\relax%
+  \let\SB@ch\SB@ch@off%
+  \ifSB@measurespec%
+    \ifmeasures\SB@measureson\else\SB@measuresoff\fi%
+  \else%
+    \SB@measuresoff%
+  \fi%
+  \SB@setbaselineskip%
+}
+\DeclareOption{showmeasures}{\measureson}
+\DeclareOption{nomeasures}{\measuresoff}
+\newcommand\measureson{\SB@measurespectrue\SB@measureson}
+\newcommand\measuresoff{\SB@measurespectrue\SB@measuresoff}
+\newcommand\SB@measureson{%
+  \measurestrue%
+  \let\SB@mbar\SB@makembar%
+  \ifchorded%
+    \let\SB@mch\SB@mch@on%
+  \else%
+    \let\SB@mch\SB@mch@m%
+  \fi%
+  \ifSB@inverse\SB@loadactives\fi%
+  \ifSB@inchorus\SB@loadactives\fi%
+}
+\newcommand\SB@measuresoff{%
+  \measuresfalse%
+  \let\SB@mbar\@gobbletwo%
+  \ifchorded%
+    \let\SB@mch\SB@ch@on%
+  \else%
+    \let\SB@mch\SB@ch@off%
+  \fi%
+  \ifSB@inverse\SB@loadactives\fi%
+  \ifSB@inchorus\SB@loadactives\fi%
+}
+\DeclareOption{transposecapos}{\transcapostrue}
+\DeclareOption{noscripture}{\SB@omitscriptrue}
+\newcommand\scriptureon{\SB@omitscripfalse}
+\newcommand\scriptureoff{\SB@omitscriptrue}
+\DeclareOption{twosongcolumns}{\SB@numcols\tw@}
+\DeclareOption{onesongcolumn}{\SB@numcols\@ne}
+\newcommand\songcolumns[1]{%
+  \SB@cnt#1\relax%
+  \ifnum\SB@cnt<\@ne\SB@errcol\else%
+    \ifnum\SB@cnt=\SB@numcols\else%
+      \ifSB@preamble\else\SB@clearpage\fi%
+    \fi%
+    \SB@toks{}%
+    \SB@cntii0 %
+    \loop%
+      \expandafter\SB@alloccol\csname SB@cbox\the\SB@cntii\endcsname%
+      \advance\SB@cntii\@ne%
+    \ifnum\SB@cntii<\SB@cnt\repeat%
+    \expandafter\def\expandafter\SB@forallcols%
+      \expandafter##\expandafter1\expandafter{\the\SB@toks}%
+    \SB@setcbox%
+    \SB@numcols\SB@cnt%
+    \SB@colwidth-\columnsep%
+    \multiply\SB@colwidth\SB@numcols%
+    \advance\SB@colwidth\columnsep%
+    \advance\SB@colwidth\textwidth%
+    \divide\SB@colwidth\SB@numcols%
+  \fi%
+}
+\newcommand\SB@alloccol[1]{%
+  \ifx#1\undefined\newbox#1\else\ifx#1\relax\newbox#1\fi\fi%
+  \SB@toks\expandafter{\the\SB@toks##1#1}%
+}
+\newcommand\onesongcolumn{\songcolumns\@ne}
+\newcommand\twosongcolumns{\songcolumns\tw@}
+\newcommand\songlist{}
+\newcommand\includeonlysongs[1]{%
+  \ifSB@songsenv\SB@errpl\else%
+    \partiallisttrue%
+    \renewcommand\songlist{#1}%
+  \fi%
+}
+\newcommand\noversenumbers{%
+  \renewcommand\printversenum[1]{}%
+  \setlength\versenumwidth\z@%
+}
+\ifSB@etex
+  \newcommand\repchoruses{\repchorustrue}
+\else
+  \newcommand\repchoruses{\SB@erretex}
+\fi
+\newcommand\norepchoruses{\repchorusfalse}
+\newcommand\sepverses{%
+  \vvpenalty-\@M%
+  \ccpenalty-100 %
+  \vcpenalty\vvpenalty%
+  \cvpenalty\vvpenalty%
+}
+\AtBeginDocument{
+  \ifchorded
+    \SB@maxcoldiff.8in
+  \else
+    \SB@maxcoldiff2in
+  \fi
+  \ifdim\colminheight=123456789sp
+    \ifchorded
+      \setlength\colminheight\z@
+    \else\ifslides
+      \setlength\colminheight\z@
+    \else
+      \setlength\colminheight\textheight
+    \fi\fi
+  \fi
+  \SB@setversesep
+  \songcolumns\SB@numcols
+  \SB@preamblefalse
+}
+\newbox\SB@songbox
+\newcount\SB@numcols\SB@numcols\tw@
+\newcount\SB@colnum
+\newcommand\SB@colbox{}
+\newcommand\SB@forallcols[1]{}
+\newdimen\SB@maxcoldiff
+\newcommand\SB@maxmin[3]{\ifdim#1#2#3#1#3\fi}
+\newcommand\SB@emitpage{%
+  \unvbox\voidb@x%
+  \SB@dimenii\textheight%
+  \SB@dimeniii\colminheight%
+  \ifinner\else%
+    \kern\z@%
+    \advance\SB@dimenii-\pagetotal%
+    \advance\SB@dimeniii-\pagetotal%
+  \fi%
+  \SB@maxmin\SB@dimeniii<\z@%
+  \SB@forallcols\SB@epfindmax%
+  \SB@maxmin\SB@dimeniii>\SB@dimenii%
+  \let\SB@temp\@gobble%
+  \hbox{\SB@forallcols\SB@epmakecol}%
+  \vfil\break%
+  \ifinner\else\vskip\vsize\relax\fi%
+}
+\newcommand\SB@epfindmax[1]{%
+  \ifvoid#1\else%
+    \global\setbox#1\vbox{\unvbox#1}%
+  \fi%
+  \SB@dimen\ht#1%
+  \ifdim\dp#1>\maxdepth%
+    \advance\SB@dimen\dp#1%
+    \advance\SB@dimen-\maxdepth%
+  \fi%
+  \SB@maxmin\SB@dimeniii<\SB@dimen%
+}
+\newcommand\SB@epmakecol[1]{%
+  \SB@dimen\SB@dimeniii%
+  \advance\SB@dimeniii-\SB@maxcoldiff%
+  \ifdim\ht#1<\SB@dimeniii\SB@dimen\ht#1\fi%
+  \advance\SB@dimeniii2\SB@maxcoldiff%
+  \ifdim\ht#1>\SB@dimeniii\SB@dimen\ht#1\fi%
+  \advance\SB@dimeniii-\SB@maxcoldiff%
+  \SB@maxmin\SB@dimen>\SB@dimenii%
+  \ifdim\dp#1>\maxdepth%
+    \advance\SB@dimen-\dp#1%
+    \advance\SB@dimen\maxdepth%
+  \fi%
+  \SB@dimeniv\SB@dimenii%
+  \advance\SB@dimeniv-\SB@dimen%
+  \SB@temp\columnsep\let\SB@temp\hskip%
+  \ifvoid#1\hskip\SB@colwidth\else%
+    \raise\SB@dimeniv\vbox to\SB@dimen{\unvbox#1}%
+  \fi%
+}
+\newcommand\SB@setcbox{%
+  \global\expandafter\let\expandafter\SB@colbox%
+    \csname SB@cbox\the\SB@colnum\endcsname%
+}
+\newcommand\SB@clearpage{%
+  \SB@testfalse%
+  \SB@forallcols\SB@cpnonvoid%
+  \ifSB@test\SB@emitpage\fi%
+  \ifinner\else\ifdim\pagetotal>\z@%
+    \vskip\z@skip%
+    \nointerlineskip%
+    \null%
+    \nointerlineskip%
+  \fi\fi%
+  \global\SB@colnum0 %
+  \SB@setcbox%
+}
+\newcommand\SB@cpnonvoid[1]{\ifvoid#1\else\SB@testtrue\fi}
+\newcommand\SB@nextcol{%
+  \ifnum\SB@numcols=\@ne%
+    \SB@clearpage%
+  \else%
+    \global\advance\SB@colnum\@ne%
+    \ifnum\SB@colnum=\SB@numcols%
+      \SB@emitpage%
+      \global\SB@colnum0 %
+    \fi%
+    \SB@setcbox%
+  \fi%
+}
+\newcommand\SB@selectcol{%
+  \begingroup%
+    \SB@cnt\vbadness%
+    \vbadness\@M\vfuzz\maxdimen%
+    \splitmaxdepth\maxdepth\splittopskip\topskip%
+    \SB@dimen\textheight%
+    \ifinner\else\advance\SB@dimen-\pagetotal\fi%
+    \setbox\SB@box\vbox{\unvcopy\SB@colbox\unvcopy\SB@songbox\vfil}%
+    \setbox\SB@boxii\vsplit\SB@box to\SB@dimen%
+    \ifvoid\SB@box%
+      \ifnum\badness>\SB@cnt\SB@trynxtcol\fi%
+    \else%
+      \SB@trynxtcol%
+    \fi%
+  \endgroup%
+}
+\newcommand\SB@trynxtcol{%
+  \SB@cntii\SB@colnum%
+  \advance\SB@cntii\@ne%
+  \SB@dimenii\ifnum\SB@cntii=\SB@numcols%
+    \textheight\else\SB@dimen%
+  \fi%
+  \setbox\SB@box\vbox{\unvcopy\SB@songbox\vfil}%
+  \setbox\SB@boxii\vsplit\SB@box to\SB@dimenii%
+  \ifvoid\SB@box%
+    \ifnum\badness>\SB@cnt\SB@tryspan\else\SB@nextcol\fi%
+  \else%
+    \SB@tryspan%
+  \fi%
+}
+\newcommand\SB@tryspan{%
+  \setbox\SB@box\vbox{\unvcopy\SB@colbox\unvcopy\SB@songbox\vfil}%
+  \setbox\SB@boxii\vsplit\SB@box to\SB@dimen%
+  \ifnum\badness>\SB@cnt\SB@trynxtpg\else%
+    \SB@testfalse%
+    \SB@cntii\SB@colnum%
+    \loop%
+      \advance\SB@cntii\@ne%
+      \ifnum\SB@cntii<\SB@numcols%
+        \setbox\SB@boxii\vsplit\SB@box to\SB@dimenii%
+        \ifnum\badness>\SB@cnt\SB@testtrue\fi%
+    \repeat%
+    \ifvoid\SB@box%
+      \ifSB@test\SB@trynxtpg\fi%
+    \else%
+      \SB@trynxtpg%
+    \fi%
+  \fi%
+}
+\newcommand\SB@trynxtpg{%
+  \setbox\SB@box\vbox{\unvcopy\SB@songbox\vfil}%
+  \SB@forallcols\SB@tnpsplit%
+  \ifvoid\SB@box%
+    \loop\SB@nextcol\ifnum\SB@colnum>0 \repeat%
+  \else%
+    \SB@trydblpg%
+  \fi%
+}
+\newcommand\SB@tnpsplit[1]{%
+  \setbox\SB@boxii\vsplit\SB@box to\textheight%
+}
+\newcommand\SB@trydblpg{%
+  \if@twoside%
+    \SB@forallcols\SB@tnpsplit%
+    \ifvoid\SB@box%
+      \loop\SB@nextcol\ifnum\SB@colnum>0 \repeat%
+      \ifodd\count0 %
+        \loop\SB@nextcol\ifnum\SB@colnum>0 \repeat%
+      \fi%
+    \fi%
+  \fi%
+}
+\newcommand\SB@dosubmitsong{%
+  \SB@selectcol%
+  \begingroup%
+    \splitmaxdepth\maxdepth\splittopskip\topskip%
+    \setbox\SB@box\vbox{%
+      \unvbox\SB@colbox%
+      \unvbox\SB@songbox%
+      \vfil%
+    }%
+    \loop%
+      \SB@dimen\textheight%
+      \ifinner\else\advance\SB@dimen-\pagetotal\fi%
+      \setbox\SB@boxii\copy\SB@box%
+      \global\setbox\SB@colbox\vsplit\SB@box to\SB@dimen%
+      \edef\SB@temp{\splitfirstmark}%
+      \ifx\SB@temp\@empty\else\mark{\splitfirstmark}\fi%
+      \edef\SB@temp{\splitbotmark}%
+      \ifx\SB@temp\@empty\else\mark{\splitbotmark}\fi%
+      \ifvoid\SB@box\else%
+        \SB@nextcol%
+        \ifrepchorus\ifvoid\SB@chorusbox\else\SB@insertchorus\fi\fi%
+    \repeat%
+    \global\setbox\SB@colbox\vbox{\unvbox\SB@boxii\unskip}%
+  \endgroup%
+}
+\newcommand\SB@submitsong{%
+  \ifSB@songsenv%
+    \ifpartiallist%
+      \edef\SB@tempii{\songnumstyle{songnum}}%
+      \@for\SB@temp:=\songlist\do{%
+        \ifx\SB@temp\SB@tempii%
+          \expandafter\newbox\csname songbox@\SB@temp\endcsname%
+          \global\expandafter\setbox\csname songbox@\SB@temp\endcsname%
+          \box\SB@songbox%
+          \ifrepchorus\ifvoid\SB@chorusbox\else%
+            \expandafter\newbox\csname chbox@\SB@temp\endcsname%
+            \global\expandafter\setbox\csname chbox@\SB@temp\endcsname%
+            \box\SB@chorusbox%
+          \fi\fi%
+        \fi%
+      }%
+      \setbox\SB@songbox\box\voidb@x%
+      \setbox\SB@chorusbox\box\voidb@x%
+    \else%
+      \SB@dosubmitsong%
+    \fi%
+  \else%
+    \unvbox\SB@songbox%
+  \fi%
+}
+\newcommand\SB@finalizesonglist{%
+  \ifpartiallist%
+    \@for\SB@temp:=\songlist\do{%
+      \expandafter\ifx\csname songbox@\SB@temp\endcsname\relax\else%
+        \setbox\SB@songbox%
+          \expandafter\box\csname songbox@\SB@temp\endcsname%
+        \expandafter\ifx\csname chbox@\SB@temp\endcsname\relax%
+          \repchorusfalse%
+        \else%
+          \repchorustrue%
+          \setbox\SB@chorusbox%
+            \expandafter\box\csname chbox@\SB@temp\endcsname%
+        \fi%
+        \SB@dosubmitsong%
+      \fi%
+    }%
+  \fi%
+}
+\newcommand\SB@insertchorus{{%
+  \vbadness\@M\vfuzz\maxdimen%
+  \setbox\SB@boxii\copy\SB@box%
+  \setbox\SB@boxii\vsplit\SB@boxii to\maxdimen%
+  \edef\SB@temp{\splitfirstmarks\SB@nocmarkclass}%
+  \ifx\SB@temp\SB@nocmark\else%
+    \edef\SB@temp{\splitfirstmarks\SB@cmarkclass}%
+    \ifx\SB@temp\SB@cmark%
+      \SB@dimen4096\p@%
+      \SB@dimenii\maxdimen%
+      \SB@dimeniii\SB@dimen%
+      \loop%
+        \SB@dimeniii.5\SB@dimeniii%
+        \setbox\SB@boxii\copy\SB@box%
+        \setbox\SB@boxii\vsplit\SB@boxii to\SB@dimen%
+        \edef\SB@temp{\splitfirstmarks\SB@cmarkclass}%
+        \ifx\SB@temp\SB@cmark%
+          \SB@dimenii\SB@dimen%
+          \advance\SB@dimen-\SB@dimeniii%
+        \else%
+          \advance\SB@dimen\SB@dimeniii%
+        \fi%
+      \ifdim\SB@dimeniii>2\p@\repeat%
+      \setbox\SB@boxii\vsplit\SB@box to\SB@dimenii%
+      \global\setbox\SB@box\vbox{%
+        \unvbox\SB@boxii\unskip%
+        \SB@inversefalse\SB@prevversetrue\SB@stanzabreak%
+        \SB@putbox\unvcopy\SB@chorusbox%
+        \SB@inversetrue\SB@prevversefalse\SB@stanzabreak%
+        \unvbox\SB@box%
+      }%
+    \else\ifx\SB@temp\SB@lastcmark%
+      \global\setbox\SB@box\vbox{%
+        \unvbox\SB@box%
+        \unskip%
+        \ifnum\spenalty<-9999\unpenalty\unskip\fi%
+        \ifdim\sbarheight>\z@%
+          \unskip\unpenalty%
+          \setbox\SB@boxii\lastbox%
+          \unskip\unpenalty%
+        \fi%
+        \setbox\SB@boxii\lastbox%
+        \unskip\unskip%
+        \SB@inversefalse\SB@prevversetrue\SB@stanzabreak%
+        \marks\SB@nocmarkclass{\SB@nocmark}%
+        \unvcopy\SB@chorusbox%
+        \vskip\versesep\vskip2\p@\@plus4\p@%
+        \nointerlineskip\box\SB@boxii%
+        \ifdim\sbarheight>\z@%
+          \nobreak\vskip2\p@\@plus\p@%
+          \hrule\@height\sbarheight\@width\SB@colwidth%
+          \vskip-\p@%
+        \fi%
+        \ifnum\spenalty<-9999\vfil\break\fi%
+        \vfil%
+      }%
+    \fi\fi%
+  \fi%
+}}
+\newcommand\nextcol{\ifpartiallist\else\SB@nextcol\fi}
+\newcounter{songnum}
+\newcounter{versenum}
+\newcommand\SB@lop[1]{\expandafter\SB@@lop\the#1\SB@@lop#1}
+\newcommand\SB@@lop{}
+\def\SB@@lop\\#1\\#2\SB@@lop#3#4{\global#4{#1}\global#3{\\#2}}
+\newcommand\SB@emptylist{}
+\def\SB@emptylist{\\}
+\newcommand\SB@ifempty[3]{%
+  \edef\SB@temp{\the#1}%
+  \ifx\SB@temp\SB@emptylist#2\else#3\fi%
+}
+\newtoks\SB@titlelist
+\newtoks\SB@titletail
+\newcommand\songtitle{}
+\newcommand\resettitles{%
+  \global\SB@titletail\SB@titlelist%
+  \nexttitle%
+}
+\newcommand\nexttitle{%
+  \SB@ifempty\SB@titletail{%
+    \global\let\songtitle\relax%
+  }{%
+    \SB@lop\SB@titletail\SB@toks%
+    \edef\songtitle{\the\SB@toks}%
+  }%
+}
+\newcommand\foreachtitle[1]{%
+  \ifx\songtitle\relax\else%
+    \loop#1\nexttitle\ifx\songtitle\relax\else\repeat%
+  \fi%
+}
+\newif\ifSB@songsenv\SB@songsenvfalse
+\newif\ifSB@insong\SB@insongfalse
+\newif\ifSB@inscripture\SB@inscripturefalse
+\newif\ifSB@inverse\SB@inversefalse
+\newif\ifSB@inchorus\SB@inchorusfalse
+\newcommand\SB@rawrefs{}
+\newcommand\songauthors{}
+\newcommand\songcopyright{}
+\newcommand\songlicense{}
+\newcommand\songrefs{%
+  \expandafter\SB@parsesrefs\expandafter{\SB@rawrefs}%
+}
+\newcommand\SB@prevsong{0}
+\newcommand\setlicense{\gdef\songlicense}
+\newcommand\SB@clearbskeys{}
+\newcommand\newsongkey[2]{%
+  \expandafter\gdef\expandafter\SB@clearbskeys\expandafter%
+    {\SB@clearbskeys#2}%
+  \define@key{beginsong}{#1}%
+}
+\newsongkey{sr}{\def\SB@rawrefs{}}{\def\SB@rawrefs{#1}}
+\newsongkey{by}{\def\songauthors{}}{\def\songauthors{#1}}
+\newsongkey{cr}{\def\songcopyright{}}{\def\songcopyright{#1}}
+\newsongkey{li}{\setlicense{}}{\setlicense{#1}}
+\newsongkey{index}{}{\indexentry{#1}}
+\newsongkey{ititle}{}{\indextitleentry{#1}}
+\newcommand\beginsong[1]{%
+  \ifSB@insong%
+    \SB@errboo%
+    \ifSB@inverse\endverse\fi%
+    \ifSB@inchorus\endchorus\fi%
+    \endsong%
+  \fi%
+  \ifSB@inscripture%
+    \SB@errbor\endscripture%
+  \fi%
+  \SB@insongtrue%
+  \SB@parsetitles{#1}%
+  \SB@clearbskeys%
+  \@ifnextchar[\SB@bskvfmt\SB@@beginsong%
+}
+\newcommand\SB@@beginsong{%
+  \@ifnextchar\bgroup\SB@bsoldfmt\SB@@@beginsong%
+}
+\newcommand\SB@bsoldfmt[3]{%
+  \SB@bskvfmt[sr={#1},by={#2},cr={#3}]%
+}
+\newcommand\SB@bskvfmt{}
+\def\SB@bskvfmt[#1]{%
+  \setkeys{beginsong}{#1}%
+  \SB@@@beginsong%
+}
+\newcommand\SB@@@beginsong{%
+  \global\SB@stanzafalse%
+  \setbox\SB@chorusbox\box\voidb@x%
+  \SB@gotchorusfalse%
+  \resettitles%
+  \SB@addtoindexes\songtitle\SB@rawrefs\songauthors%
+  \nexttitle%
+  \foreachtitle{\expandafter\SB@addtotitles\expandafter{\songtitle}}%
+  \resettitles%
+  \setbox\SB@songbox\vbox\bgroup%
+    \hsize\SB@colwidth%
+    \leftskip\z@skip\rightskip\z@skip%
+    \parfillskip\@flushglue\parskip\z@skip%
+    \SB@raggedright%
+    \global\SB@transposefactor0 %
+    \global\SB@cr@{\\}%
+    \setcounter{versenum}{1}%
+    \SB@prevversetrue%
+    \meter44%
+    \lyricfont%
+    \SB@setbaselineskip%
+}
+\def\endsong{%
+  \ifSB@insong%
+    \ifSB@inverse%
+      \SB@erreov\endverse%
+    \fi%
+    \ifSB@inchorus%
+      \SB@erreoc\endchorus%
+    \fi%
+      \global\SB@skip\versesep%
+      \unskip%
+      \ifrepchorus\ifvoid\SB@chorusbox\else%
+        \ifSB@prevverse\ifvnumbered%
+          \marks\SB@cmarkclass{\SB@lastcmark}%
+        \fi\fi%
+      \fi\fi%
+    \egroup%
+    \setbox\SB@songbox\vbox{%
+      \songmark%
+      \hsize\SB@colwidth%
+      \leftskip\z@skip\rightskip\z@skip%
+      \parfillskip\@flushglue\parskip\z@skip\parindent\z@%
+      \ifdim\sbarheight>\z@%
+        \hrule\@height\sbarheight\@width\SB@colwidth%
+        \nobreak\vskip5\p@%
+      \fi%
+      \ifpdfindex\begingroup%
+        \ifx\pdfbookmark\undefined\else%
+        \ifx\pdfbookmark\relax\else%
+          \resettitles%
+          \pdfbookmark[\ifnum\arabic{section}=0 1\else2\fi]%
+            {\songnumstyle{songnum}. \songtitle}%
+            {song\arabic{SB@songsnum}-\songnumstyle{songnum}}%
+        \fi\fi%
+      \endgroup\fi%
+      \vbox{\makeprelude}%
+      \nobreak\vskip\SB@skip%
+      \vskip2\p@\@plus4\p@%
+      \unvbox\SB@songbox%
+      \nobreak\vskip\SB@skip%
+      \vskip2\p@\@plus4\p@%
+      \nointerlineskip%
+      \vbox{\makepostlude}%
+      \ifdim\sbarheight>\z@%
+        \nobreak\vskip2\p@\@plus\p@%
+        \nointerlineskip%
+        \hbox{\vrule\@height\sbarheight\@width\SB@colwidth}%
+        \nobreak%
+        \vskip-\p@\relax%
+      \fi%
+      \ifnum\spenalty<-9999\vfil\break\fi%
+    }%
+    \SB@insongfalse%
+    \SB@submitsong%
+    \edef\SB@prevsong{\songnumstyle{songnum}}%
+    \stepcounter{songnum}%
+  \else%
+    \ifSB@inscripture%
+      \SB@erreor\endscripture%
+    \else%
+      \SB@erreot%
+    \fi%
+  \fi%
+}
+\newcommand\SB@setbaselineskip{%
+  \SB@dimen\f@size\p@%
+  \baselineskip\SB@dimen\relax%
+  \ifchorded%
+    \setbox\SB@box\hbox{\printchord{ABCDEFG\shrp\flt/j7}}%
+    \advance\baselineskip\ht\SB@box%
+  \fi%
+  \ifslides%
+    \advance\baselineskip.2\SB@dimen\@plus.5\SB@dimen%
+    \@minus.2\SB@dimen%
+  \else%
+    \advance\baselineskip\z@\@plus.1\SB@dimen\relax%
+  \fi%
+  \advance\baselineskip\baselineadj%
+}
+\newcommand\SB@setversesep{%
+  \SB@dimen123456789sp%
+  \edef\SB@temp{\the\SB@dimen}%
+  \edef\SB@tempii{\the\versesep}%
+  \ifx\SB@temp\SB@tempii%
+    \begingroup%
+      \lyricfont%
+      \SB@dimen\f@size\p@%
+      \ifchorded%
+        \setbox\SB@box\hbox{\printchord{ABCDEFG\shrp\flt/j7}}%
+        \advance\SB@dimen\ht\SB@box%
+      \fi%
+      \ifslides%
+        \global\versesep1.2\SB@dimen\@plus.3\SB@dimen%
+        \@minus.3\SB@dimen%
+      \else%
+        \global\versesep.75\SB@dimen\@plus.25\SB@dimen%
+        \@minus.13\SB@dimen%
+      \fi%
+    \endgroup%
+  \fi%
+}
+\newcommand\makeprelude{%
+  \resettitles%
+  \ifslides%
+    \hbox to\hsize{%
+      \hfil\stitlefont\songtitle\hfil%
+    }%
+    \vskip5\p@%
+    \hbox to\hsize{%
+      \hfil%
+      \vbox{%
+        \divide\hsize\tw@\parskip\p@\relax%
+        \centering\small\extendprelude%
+      }%
+      \hfil%
+    }%
+  \else%
+    \setbox\SB@boxii\hbox{\SB@colorbox{%
+      \hbox to\songnumwidth{%
+        \printsongnum{\songnumstyle{songnum}}\hfil%
+      }%
+    }}%
+    \setbox\SB@box\vbox{%
+      \hsize\SB@colwidth%
+      \advance\hsize-\wd\SB@boxii%
+      \advance\hsize-3\p@%
+      \SB@raggedright\offinterlineskip\lineskip\p@%
+      {\stitlefont%
+       \songtitle\par%
+       \nexttitle%
+       \foreachtitle{(\songtitle)\par}}%
+      \ifdim\prevdepth=\z@\kern\p@\fi%
+      \parskip\p@\relax\tiny%
+      \extendprelude%
+      \kern\z@%
+    }%
+    \hbox{%
+      \ifdim\ht\SB@boxii>\ht\SB@box%
+        \box\SB@boxii%
+        \kern3\p@%
+        \vtop{\box\SB@box}%
+      \else%
+        \SB@colorbox{\vbox to\ht\SB@box{%
+          \hbox to\songnumwidth{%
+            \printsongnum{\songnumstyle{songnum}}\hfil%
+          }\vfil%
+        }}%
+        \kern3\p@%
+        \box\SB@box%
+      \fi%
+    }%
+  \fi%
+}
+\newcommand\makepostlude{%
+  \SB@raggedright\baselineskip\z@skip\parskip\z@skip\parindent\z@%
+  \tiny\extendpostlude%
+}
+\newcommand\showauthors{%
+  \setbox\SB@box\hbox{\bfseries\sfcode`.\@m\normalsize\songauthors}%
+  \ifdim\wd\SB@box>\z@\unhbox\SB@box\par\fi%
+}
+\newcommand\showrefs{%
+  \setbox\SB@box\hbox{\slshape\songrefs\vphantom,}%
+  \ifdim\wd\SB@box>\z@\unhbox\SB@box\par\fi%
+}
+\newcommand\SB@next{}
+\newcommand\SB@donext{}
+\newcommand\SB@dothis{}
+\newcommand\SB@nextname{}
+\newcommand\SB@appendsp[1]{#1\expandafter{\the#1 }}
+\newcommand\SB@parsetitles[1]{%
+  \begingroup%
+    \global\SB@titlelist{\\}%
+    \SB@toks{}%
+    \let\\\SB@titlesep%
+    \let\SB@dothis\SB@pthead%
+    \SB@ptstart#1\SB@endparse%
+  \endgroup%
+}
+\newcommand\SB@ptstart{\futurelet\SB@next\SB@dothis}
+\newcommand\SB@pthead{%
+  \ifcat\noexpand\SB@next\noexpand\@sptoken%
+    \expandafter\SB@ptsp%
+  \else%
+    \SB@toks{}%
+    \let\SB@dothis\SB@ptmain%
+    \expandafter\SB@ptmain%
+  \fi%
+}
+\newcommand\SB@ptmain{%
+  \ifcat\noexpand\SB@next\noexpand\@sptoken%
+    \let\SB@donext\SB@ptsp%
+  \else\ifcat\noexpand\SB@next\noexpand\bgroup%
+    \let\SB@donext\SB@ptbg%
+  \else\ifx\SB@next\SB@endparse%
+    \global\SB@titlelist\expandafter{\the\SB@titlelist\\}%
+    \let\SB@donext\@gobble%
+  \else%
+    \ifx\SB@next\\%
+      \SB@toks{}%
+      \let\SB@dothis\SB@pthead%
+    \fi%
+    \let\SB@donext\SB@ptstep%
+  \fi\fi\fi%
+  \SB@donext%
+}
+\newcommand\SB@ptstep[1]{%
+  \global\SB@titlelist\expandafter\expandafter\expandafter{%
+    \expandafter\the\expandafter\SB@titlelist\the\SB@toks#1}%
+  \SB@toks{}%
+  \SB@ptstart%
+}
+\newcommand\SB@ptbg[1]{\SB@ptstep{{#1}}}
+\newcommand\SB@ptsp{
+  \SB@appendsp\SB@toks%
+  \afterassignment\SB@ptstart%
+  \let\SB@next= }
+\newcommand\SB@titlesep{SB@titlesep}
+\newcommand\SB@endparse{%
+  \SB@Error{Title parsing failed}{This error should not occur.}%
+}
+\newcommand\SB@parsesrefs[1]{%
+  \begingroup%
+    \let\SB@temp\relax%
+    \let\SB@tempii\relax%
+    \afterassignment\SB@prloop%
+    \let\SB@tempiii= #1\SB@endparse\relax\relax%
+  \endgroup%
+}
+\newcommand\SB@prloop{\futurelet\SB@next\SB@prstep}
+\newcommand\SB@testdigit[1]{%
+  \SB@testfalse%
+  \ifx0#1\SB@testtrue\fi%
+  \ifx1#1\SB@testtrue\fi%
+  \ifx2#1\SB@testtrue\fi%
+  \ifx3#1\SB@testtrue\fi%
+  \ifx4#1\SB@testtrue\fi%
+  \ifx5#1\SB@testtrue\fi%
+  \ifx6#1\SB@testtrue\fi%
+  \ifx7#1\SB@testtrue\fi%
+  \ifx8#1\SB@testtrue\fi%
+  \ifx9#1\SB@testtrue\fi%
+}
+\newcommand\SB@prstep{%
+  \ifcat\noexpand\SB@tempii\noexpand\@sptoken%
+    \ifcat\noexpand\SB@tempiii A%
+      \ifcat\noexpand\SB@temp A~%
+      \else\ifx\SB@temp;%
+        \penalty-5\hskip.5em\relax%
+      \else%
+        \SB@testdigit\SB@temp%
+        \ifSB@test\nobreak\ \else\SB@tempii\fi%
+      \fi\fi%
+    \else\ifcat\noexpand\SB@temp A%
+      \SB@testdigit\SB@tempiii%
+      \ifSB@test\nobreak\ \else\SB@tempii\fi%
+    \else\ifx\SB@temp;%
+      \ifcat\noexpand\SB@next\noexpand\@sptoken%
+        \SB@testdigit\SB@tempiii%
+        \ifSB@test\penalty-5\hskip.5em\relax\else\SB@tempii\fi%
+      \else%
+        \SB@tempii%
+      \fi%
+    \else%
+      \SB@tempii%
+    \fi\fi\fi%
+  \else\ifx\SB@tempii-%
+    \ifx\SB@temp-\SB@tempii\else%
+      \ifx\SB@tempiii-\SB@tempii\else--\fi%
+    \fi%
+  \else\ifx\SB@temp,%
+    \SB@testdigit\SB@tempii%
+    \ifSB@test\nobreak\thinspace\fi%
+    \SB@tempii%
+  \else%
+    \SB@tempii%
+  \fi\fi\fi%
+  \let\SB@temp= \SB@tempii%
+  \let\SB@tempii= \SB@tempiii%
+  \ifx\SB@tempiii\SB@endparse\else%
+    \afterassignment\SB@prloop%
+  \fi%
+  \let\SB@tempiii= %
+}
+\newcommand\brk{%
+  \ifhmode\penalty-5 %
+  \else\ifSB@inchorus%
+    \ifdim\cbarwidth=\z@%
+      \ifrepchorus\marks\SB@cmarkclass{}\fi%
+      \SB@breakpoint{-50}%
+    \else%
+      \egroup%
+      \ifrepchorus\ifSB@gotchorus\else%
+        \global\setbox\SB@chorusbox\vbox{%
+          \unvbox\SB@chorusbox%
+          \SB@chorusbar\SB@box%
+          \unvcopy\SB@box%
+          \SB@breakpoint{-50}%
+        }%
+      \fi\fi%
+      \SB@chorusbar\SB@box%
+      \unvbox\SB@box%
+      \SB@breakpoint{-50}%
+      \SB@chorustopfalse%
+      \SB@@beginchorus%
+    \fi%
+  \else%
+    \SB@breakpoint{-50}%
+  \fi\fi%
+}
+\newcommand\rep[1]{%
+  (\raise.25ex\hbox{%
+    \fontencoding{OMS}\fontfamily{cmsy}\selectfont\char\tw@%
+   }#1)%
+}
+\newif\ifSB@stanza
+\newcommand\SB@stanzabreak{%
+  \ifhmode\par\fi%
+  \ifSB@stanza%
+    \SB@breakpoint{%
+      \ifSB@inverse%
+        \ifSB@prevverse\vvpenalty\else\cvpenalty\fi%
+      \else%
+        \ifSB@prevverse\vcpenalty\else\ccpenalty\fi%
+      \fi%
+    }%
+    \vskip\versesep%
+  \fi%
+}
+\newcommand\SB@breakpoint[1]{%
+  \nobreak%
+  \ifdim\colminheight=\z@\vfil\else%
+    \SB@dimen\textheight%
+    \advance\SB@dimen-\colminheight%
+    \vskip\z@\@plus\SB@dimen%
+  \fi%
+  \penalty#1%
+  \ifdim\colminheight=\z@\vfilneg\else%
+    \vskip\z@\@plus-\SB@dimen%
+  \fi%
+}
+\newcommand\SB@putbox[2]{%
+  \begingroup%
+    \SB@dimen\dp#2%
+    #1#2%
+    \setbox\SB@box\hbox{\lyricfont p}%
+    \ifdim\SB@dimen<\dp\SB@box%
+      \advance\SB@dimen-\dp\SB@box%
+      \vskip-\SB@dimen%
+    \fi%
+    \setbox\SB@box\box\voidb@x%
+  \endgroup%
+}
+\newcommand\SB@obeylines{%
+  \let\par\SB@outerpar%
+  \obeylines%
+  \let\par\SB@par%
+  \let\@par\SB@@par%
+}
+\newcommand\SB@par{%
+  \endgraf%
+  \ifSB@inchorus\ifdim\cbarwidth>\z@\nobreak\fi\fi%
+}
+\newcommand\SB@@par{\let\par\SB@par\par}
+\newcommand\SB@outerpar{}
+\AtEndOfPackage{%
+  \SB@outer\expandafter\def\expandafter\SB@outerpar%
+    \expandafter{\SB@par}%
+}
+\newcommand\SB@makecond[1]{%
+  \SB@@makecond\SB@condyes{#1}{only}%
+  \SB@@makecond\SB@condno{#1}{never}%
+}
+\newcommand\SB@@makecond[3]{%
+  \@ifundefined{begin#2#3}{%
+    \expandafter\edef\csname begin#2#3\endcsname{%
+      \noexpand#1%
+      \expandafter\noexpand\csname if#2\endcsname%
+      \expandafter\noexpand\csname begin#2#3\endcsname%
+      \expandafter\noexpand\csname end#2#3\endcsname%
+    }%
+  }{}%
+  \@ifundefined{end#2#3}{%
+    \expandafter\let\csname end#2#3\endcsname\@empty%
+  }{}%
+}
+\SB@makecond{chorded}
+\SB@makecond{lyric}
+\SB@makecond{slides}
+\SB@makecond{partiallist}
+\SB@makecond{songindexes}
+\SB@makecond{measures}
+\SB@makecond{pdfindex}
+\SB@makecond{rawtext}
+\SB@makecond{transcapos}
+\SB@makecond{vnumbered}
+\newcommand\SB@condyes[1]{%
+  #1\expandafter\@gobbletwo\else\expandafter\SB@iffalse\fi%
+}
+\newcommand\SB@condno[1]{%
+  #1\expandafter\SB@iffalse\else\expandafter\@gobbletwo\fi%
+}
+\newcommand\SB@iffalse[2]{%
+  \begingroup%
+    \let#1\iffalse%
+    \let#2\fi%
+    \catcode`\^^M9 %
+  \expandafter\endgroup\iffalse%
+}
+\newdimen\SB@parindent
+\newcommand\SB@everypar{}
+\newcommand\SB@raggedright{%
+  \SB@parindent\parindent%
+  \raggedright%
+  \parindent\SB@parindent%
+}
+\newif\ifvnumbered
+\newif\ifSB@prevverse
+\newcommand\beginverse{%
+  \ifSB@insong%
+    \ifSB@inverse%
+      \SB@errbvv\endverse%
+    \fi%
+    \ifSB@inchorus%
+      \SB@errbvc\endchorus%
+    \fi%
+  \else%
+    \SB@errbvt\beginsong{Unknown Song}%
+  \fi%
+  \ifrepchorus\ifvoid\SB@chorusbox\else%
+    \SB@gotchorustrue%
+    \ifSB@prevverse\ifvnumbered%
+      \marks\SB@cmarkclass{\SB@cmark}%
+    \fi\fi%
+  \fi\fi%
+  \begingroup%
+    \SB@loadactives%
+    \@ifstar{\global\vnumberedfalse\SB@@beginverse}%
+            {\global\vnumberedtrue\SB@@beginverse}%
+}
+\newcommand\SB@@beginverse{%
+  \endgroup%
+  \SB@inversetrue%
+  \SB@stanzabreak%
+  \versemark\nobreak%
+  \global\SB@stanzatrue%
+  \SB@ifempty\SB@cr@\memorize{\replay[]}%
+  \setbox\SB@box\vbox\bgroup%
+    \ifvnumbered%
+      \def\SB@everypar{%
+        \setbox\SB@box\hbox{%
+          \printversenum{\versenumstyle{versenum}}%
+        }%
+        \ifdim\wd\SB@box<\versenumwidth%
+          \setbox\SB@box%
+          \hbox to\versenumwidth{\unhbox\SB@box\hfil}%
+        \fi%
+        \ifchorded\vrule\@height\baselineskip\@width\z@\@depth\z@\fi%
+        \placeversenum\SB@box%
+        \gdef\SB@everypar{}%
+      }%
+    \else%
+      \def\SB@everypar{%
+        \ifchorded\vrule\@height\baselineskip\@width\z@\@depth\z@\fi%
+        \gdef\SB@everypar{}%
+      }%
+    \fi%
+    \everypar{\SB@everypar\everypar{}}%
+    \interlinepenalty\@M%
+    \versefont\versejustify%
+    \SB@loadactives%
+    \SB@obeylines%
+    \penalty12345 %
+    \everyverse\relax%
+}
+\def\endverse{%
+  \ifSB@insong%
+    \ifSB@inverse%
+      \egroup%
+      \SB@putbox\unvbox\SB@box%
+      \SB@inversefalse%
+      \ifvnumbered\stepcounter{versenum}\fi%
+      \SB@prevversetrue%
+    \else\ifSB@inchorus%
+      \SB@errevc\endchorus%
+    \else%
+      \SB@errevo%
+    \fi\fi%
+  \else%
+    \SB@errevt%
+  \fi%
+}
+\newif\ifSB@chorustop
+\newbox\SB@chorusbox
+\newif\ifSB@gotchorus
+\ifSB@etex
+  \@ifundefined{newmarks}{
+    \@ifundefined{newmark}{
+      \mathchardef\SB@cmarkclass83
+      \mathchardef\SB@nocmarkclass84
+    }{
+      \newmark\SB@cmarkclass
+      \newmark\SB@nocmarkclass
+    }
+  }{
+    \newmarks\SB@cmarkclass
+    \newmarks\SB@nocmarkclass
+  }
+\fi
+\newcommand\SB@cmark{}
+\def\SB@cmark{SB@cmark}
+\newcommand\SB@lastcmark{}
+\def\SB@lastcmark{SB@lastcmark}
+\newcommand\SB@nocmark{}
+\def\SB@nocmark{SB@nocmark}
+\newcommand\beginchorus{%
+  \ifSB@insong
+    \ifSB@inverse%
+      \SB@errbcv\endverse%
+    \fi%
+    \ifSB@inchorus%
+      \SB@errbcc\endchorus%
+    \fi%
+  \else%
+    \SB@errbct\beginsong{Unknown Song}%
+  \fi%
+  \SB@inchorustrue%
+  \SB@chorustoptrue%
+  \vnumberedfalse%
+  \SB@stanzabreak%
+  \chorusmark%
+  \ifrepchorus%
+    \ifSB@gotchorus\else\ifSB@prevverse\else%
+      \global\setbox\SB@chorusbox\vbox{%
+        \unvbox\SB@chorusbox%
+        \SB@stanzabreak%
+        \chorusmark%
+      }%
+    \fi\fi%
+  \fi%
+  \global\SB@stanzatrue%
+  \replay[]%
+  \SB@@beginchorus%
+  \everychorus\relax%
+}
+\newcommand\SB@@beginchorus{%
+  \ifrepchorus\marks\SB@cmarkclass{}\fi%
+  \setbox\SB@box\vbox\bgroup%
+    \interlinepenalty\@M%
+    \ifchorded%
+      \def\SB@everypar{%
+        \vrule\@height\baselineskip\@width\z@\@depth\z@%
+        \gdef\SB@everypar{}%
+      }%
+      \everypar{\SB@everypar\everypar{}}%
+    \fi%
+    \chorusfont\chorusjustify%
+    \SB@loadactives%
+    \SB@obeylines%
+    \penalty12345 %
+}
+\def\endchorus{%
+  \ifSB@insong%
+    \ifSB@inchorus%
+      \egroup%
+      \SB@inchorusfalse%
+      \setbox\SB@box\vbox{%
+        \SB@chorusbar\SB@box%
+        \SB@putbox\unvbox\SB@box%
+      }
+      \ifrepchorus\ifSB@gotchorus\else%
+        \global\setbox\SB@chorusbox\vbox{%
+          \unvbox\SB@chorusbox%
+          \unvcopy\SB@box%
+        }%
+      \fi\fi%
+      \unvbox\SB@box%
+      \SB@prevversefalse%
+    \else\ifSB@inverse%
+      \SB@errecv\endverse%
+    \else%
+      \SB@erreco%
+    \fi\fi%
+  \else%
+    \SB@errect%
+  \fi%
+}
+\newcommand\SB@cbarshift{%
+  \ifSB@inchorus\ifdim\cbarwidth>\z@%
+    \advance\leftskip\cbarwidth%
+    \advance\leftskip5\p@\relax%
+  \fi\fi%
+}
+\newcommand\SB@chorusbar[1]{%
+  \ifdim\cbarwidth>\z@%
+    \SB@dimen\ht#1%
+    \SB@dimenii\dp#1%
+    \advance\SB@dimen%
+      \ifSB@chorustop\ifchorded\else2\fi\fi\SB@dimenii%
+    \SB@skip\SB@dimen\relax%
+    \SB@computess\SB@skip1\@plus#1%
+    \SB@computess\SB@skip{-1}\@minus#1%
+    \nointerlineskip\null\nobreak%
+    \leaders\vrule\@width\cbarwidth\vskip\SB@skip%
+    \ifSB@chorustop\ifchorded\else%
+      \advance\SB@skip-\SB@dimenii%
+    \fi\fi%
+    \vskip-\SB@skip%
+  \fi%
+}
+\newcommand\SB@computess[4]{%
+  \begingroup%
+    \vbadness\@M\vfuzz\maxdimen%
+    \SB@dimen4096\p@%
+    \setbox\SB@box\vbox spread#2\SB@dimen{\unvcopy#4}%
+    \ifnum\badness=0 %
+      \global\advance#1\z@#31fil\relax%
+    \else%
+      \SB@dimenii\SB@dimen%
+      \loop%
+        \SB@dimenii.5\SB@dimenii%
+        \ifnum\badness<100 %
+          \advance\SB@dimen\SB@dimenii%
+        \else
+          \advance\SB@dimen-\SB@dimenii%
+        \fi%
+        \setbox\SB@box\vbox spread#2\SB@dimen{\unvcopy#4}%
+        \ifnum\badness=100 \SB@dimenii\z@\fi%
+      \ifdim\SB@dimenii>.1\p@\repeat%
+      \ifdim\SB@dimen<.1\p@\SB@dimen\z@\fi%
+      \global\advance#1\z@#3\SB@dimen\relax%
+    \fi%
+  \endgroup%
+}
+\newbox\SB@srbox
+\newcommand\beginscripture[1]{%
+  \ifSB@insong%
+    \SB@errbro%
+    \ifSB@inverse\endverse\fi%
+    \ifSB@inchorus\endchorus\fi%
+    \endsong%
+  \fi%
+  \ifSB@inscripture%
+    \SB@errbrr\endscripture%
+  \fi%
+  \SB@inscripturetrue%
+  \ifSB@omitscrip%
+    \setbox\SB@box\vbox\bgroup%
+  \else%
+    \setbox\SB@srbox\hbox{\printscrcite{\SB@parsesrefs{#1}}}%
+    \setbox\SB@songbox\vbox\bgroup%
+      \hsize\SB@colwidth%
+      \hrule\@height\p@\@width\SB@colwidth%
+      \nobreak\vskip5\p@%
+      \SB@parindent\parindent\parindent\z@%
+      \parskip\z@skip\parfillskip\@flushglue%
+      \leftskip\SB@parindent\rightskip\SB@parindent\relax%
+      \scripturefont%
+      \baselineskip\f@size\p@\@plus\p@\relax%
+      \advance\baselineskip\p@\relax%
+      \emergencystretch.3em%
+  \fi%
+}
+\newcommand\scitehere{%
+  \ifSB@inscripture%
+    \ifvoid\SB@srbox\else%
+      \ifvmode%
+        \setbox\SB@box\lastbox%
+        \nointerlineskip\noindent\hskip-\leftskip%
+        \unhbox\SB@box\unskip%
+      \fi%
+      \unskip\nobreak\hfil\penalty50\hskip.8em\null\nobreak\hfil%
+      \box\SB@srbox\kern-\SB@parindent%
+      {\parfillskip\z@\finalhyphendemerits2000\par}%
+    \fi%
+  \else%
+    \SB@errscrip\scitehere%
+  \fi%
+}
+\def\endscripture{%
+  \ifSB@inscripture
+    \ifSB@omitscrip%
+      \egroup%
+      \setbox\SB@box\box\voidb@x%
+    \else%
+        \scitehere%
+        \ifhmode\par\fi%
+        \nobreak\kern-4.5\p@%
+        \hbox{\vrule\@height\p@\@width\SB@colwidth}%
+        \kern-\p@%
+      \egroup%
+      \ifpartiallist\else%
+        \SB@submitsong%
+      \fi%
+    \fi%
+    \SB@inscripturefalse%
+  \else%
+    \ifSB@insong%
+      \SB@errero%
+      \ifSB@inverse\endverse\fi%
+      \ifSB@inchorus\endchorus\fi%
+      \endsong%
+    \else%
+      \SB@errert%
+    \fi%
+  \fi%
+}
+\newcommand\Acolon{\SB@colon2\Acolon}
+\newcommand\Bcolon{\SB@colon1\Bcolon}
+\newcommand\SB@colon[2]{%
+  \ifSB@inscripture\else%
+    \SB@errscrip#2%
+    \beginscripture{Unknown}%
+  \fi%
+  \ifhmode\par\fi%
+  \begingroup%
+    \rightskip\SB@parindent\@plus4em%
+    \advance\leftskip2\SB@parindent%
+    \advance\parindent-#1\SB@parindent%
+    \def\par{\endgraf\endgroup}%
+    \obeylines%
+}
+\newcommand\strophe{%
+  \ifSB@inscripture\else%
+    \SB@errscrip\strophe\beginscripture{Unknown}%
+  \fi%
+  \vskip.9ex\@plus.45ex\@minus.68ex\relax%
+}
+\newcommand\SB@scripdent[2]{%
+  \ifSB@inscripture\else%
+    \SB@errscrip#2\beginscripture{Unknown}%
+  \fi%
+  \ifhmode\par\fi%
+  \advance\leftskip#1\SB@parindent\relax%
+}
+\newcommand\scripindent{\SB@scripdent1\scripindent}
+\newcommand\scripoutdent{\SB@scripdent-\scripoutdent}
+\newcommand\SB@quotesactive{%
+  \catcode`'\active%
+  \catcode``\active%
+}
+\newcommand\shiftdblquotes[4]{}
+\newcommand\SB@ldqleft{}
+\newcommand\SB@ldqright{}
+\newcommand\SB@rdqleft{}
+\newcommand\SB@rdqright{}
+\newcommand\SB@scanlq{}
+\newcommand\SB@scanrq{}
+\newcommand\SB@dolq{}
+\newcommand\SB@dorq{}
+{
+  \SB@quotesactive
+  \gdef\shiftdblquotes#1#2#3#4{%
+    \def\SB@ldqleft{\kern#1}%
+    \def\SB@ldqright{\kern#2}%
+    \def\SB@rdqleft{\kern#3}%
+    \def\SB@rdqright{\kern#4}%
+    \SB@quotesactive%
+    \def`{\futurelet\SB@next\SB@scanlq}%
+    \def'{\futurelet\SB@next\SB@scanrq}%
+  }
+  \gdef\SB@scanlq{%
+    \ifx\SB@next`%
+      \expandafter\SB@dolq%
+    \else%
+      \expandafter\lq%
+    \fi%
+  }
+  \gdef\SB@scanrq{%
+    \ifx\SB@next'%
+      \expandafter\SB@dorq%
+    \else%
+      \expandafter\rq%
+    \fi%
+  }
+  \gdef\SB@dolq`{%
+    \ifvmode\leavevmode\else\/\fi%
+    \vadjust{}%
+    \SB@ldqleft\lq\lq\SB@ldqright%
+    \vadjust{}%
+  }
+  \gdef\SB@dorq'{%
+    \ifvmode\leavevmode\else\/\fi%
+    \vadjust{}%
+    \SB@rdqleft\rq\rq\SB@rdqright%
+    \vadjust{}%
+  }
+}
+\newcommand\SB@boxup[1]{%
+  \setbox\SB@box\hbox{\notefont#1}%
+  \SB@dimen\wd\SB@box%
+  \advance\SB@dimen6\p@%
+  \advance\SB@dimen\leftskip%
+  \advance\SB@dimen\rightskip%
+  \ifdim\SB@dimen>\SB@colwidth%
+    \vbox{%
+      \advance\hsize-6\p@%
+      \advance\hsize-\leftskip%
+      \advance\hsize-\rightskip%
+      \notejustify%
+      \unhbox\SB@box\par%
+      \kern\z@%
+    }%
+  \else%
+    \vbox{\box\SB@box\kern\z@}%
+  \fi%
+}
+\newcommand\textnote[1]{%
+  \ifhmode\par\fi%
+  \ifnum\lastpenalty=12345\else%
+    \ifSB@inverse%
+      \vskip2\p@\relax%
+    \else\ifSB@inchorus%
+      \vskip2\p@\relax%
+    \else\ifSB@stanza%
+      \nobreak\vskip\versesep%
+    \fi\fi\fi%
+  \fi%
+  \begingroup%
+    \everypar{}%
+    \ifchorded\chordedfalse\SB@setbaselineskip\chordedtrue\fi%
+    \placenote{\SB@colorbox{\SB@boxup{#1}}}%
+  \endgroup%
+  \nobreak%
+  \ifSB@inverse%
+    \vskip2\p@\relax%
+  \else\ifSB@inchorus%
+    \vskip2\p@\relax%
+  \else\ifSB@stanza\else%
+    \nobreak\vskip\versesep%
+  \fi\fi\fi%
+}
+\newcommand\musicnote[1]{\ifchorded\textnote{#1}\fi}
+\ifSB@etex
+  \newcommand\echo[1]{%
+    \begingroup%
+      \ifdim\fontdimen\@ne\font>\z@\upshape\else\slshape\fi%
+      \endlinechar-1 %
+      \scantokens{(#1)}%
+    \endgroup%
+  }
+\else
+  \newcommand\echo{%
+    \begingroup%
+      \ifdim\fontdimen\@ne\font>\z@\upshape\else\slshape\fi%
+      \afterassignment\SB@echo%
+      \setbox\SB@box\hbox%
+  }
+  \newcommand\SB@echo{\aftergroup\SB@@echo(}
+  \newcommand\SB@@echo{\unhbox\SB@box)\endgroup}
+\fi
+\newcount\SB@transposefactor
+\newif\ifSB@convertnotes
+\newcommand\notenameA{}
+\newcommand\notenameB{}
+\newcommand\notenameC{}
+\newcommand\notenameD{}
+\newcommand\notenameE{}
+\newcommand\notenameF{}
+\newcommand\notenameG{}
+\newcommand\printnoteA{}
+\newcommand\printnoteB{}
+\newcommand\printnoteC{}
+\newcommand\printnoteD{}
+\newcommand\printnoteE{}
+\newcommand\printnoteF{}
+\newcommand\printnoteG{}
+\newcommand\notenamesin[7]{%
+  \def\notenameA{#1}%
+  \def\notenameB{#2}%
+  \def\notenameC{#3}%
+  \def\notenameD{#4}%
+  \def\notenameE{#5}%
+  \def\notenameF{#6}%
+  \def\notenameG{#7}%
+  \SB@convertnotestrue%
+}
+\newcommand\notenamesout[7]{%
+  \def\printnoteA{#1}%
+  \def\printnoteB{#2}%
+  \def\printnoteC{#3}%
+  \def\printnoteD{#4}%
+  \def\printnoteE{#5}%
+  \def\printnoteF{#6}%
+  \def\printnoteG{#7}%
+  \SB@convertnotestrue%
+}
+\newcommand\notenames[7]{%
+  \notenamesin{#1}{#2}{#3}{#4}{#5}{#6}{#7}%
+  \notenamesout{#1}{#2}{#3}{#4}{#5}{#6}{#7}%
+  \SB@convertnotesfalse%
+}
+\newcommand\alphascale{\notenames ABCDEFG}
+\newcommand\solfedge{\notenames{LA}{SI}{DO}{RE}{MI}{FA}{SOL}}
+\alphascale
+\newif\ifSB@prefshrps
+\newif\ifSB@needkey
+\newcommand\transpose[1]{%
+  \advance\SB@transposefactor by#1\relax%
+  \SB@cnt\SB@transposefactor%
+  \divide\SB@cnt12 %
+  \multiply\SB@cnt12 %
+  \advance\SB@transposefactor-\SB@cnt%
+  \SB@needkeytrue%
+}
+\newcommand\capo[1]{%
+  \iftranscapos\transpose{#1}\else\musicnote{capo #1}\fi%
+}
+\newcommand\prefersharps{\SB@prefshrpstrue\SB@needkeyfalse}
+\newcommand\preferflats{\SB@prefshrpsfalse\SB@needkeyfalse}
+\newcommand\transposehere[1]{%
+  \ifnum\SB@transposefactor=0 %
+    \ifSB@convertnotes%
+      \SB@dotranspose{#1}%
+      \the\SB@toks%
+    \else%
+      #1%
+    \fi%
+  \else%
+    \ifSB@convertnotes%
+      {\SB@transposefactor0 %
+       \SB@dotranspose{#1}%
+       \xdef\SB@tempv{\the\SB@toks}}%
+    \else%
+      \def\SB@tempv{#1}%
+    \fi%
+    \SB@dotranspose{#1}%
+    \expandafter\trchordformat\expandafter{\SB@tempv}{\the\SB@toks}%
+  \fi%
+}
+\newcommand\SB@dotranspose[1]{%
+  \SB@toks{}%
+  \let\SB@dothis\SB@trmain%
+  \SB@trscan#1\SB@trend%
+}
+\newcommand\trchordformat[2]{#2}
+\newcommand\SB@trscan{\futurelet\SB@next\SB@dothis}
+\newcommand\SB@trmain{%
+  \ifx\SB@next\bgroup%
+    \let\SB@donext\SB@trgroup%
+  \else\ifx\SB@next\egroup%
+    \SB@toks\expandafter{\the\SB@toks\egroup}%
+    \let\SB@donext\SB@trskip%
+  \else\ifcat\noexpand\SB@next\noexpand\@sptoken%
+    \SB@appendsp\SB@toks%
+    \let\SB@donext\SB@trskip%
+  \else%
+    \let\SB@donext\SB@trstep%
+  \fi\fi\fi%
+  \SB@donext%
+}
+\newcommand\SB@trgroup[1]{%
+  \SB@toks\expandafter{\the\SB@toks{#1}}%
+  \SB@trscan%
+}
+\newcommand\SB@trskip{%
+  \afterassignment\SB@trscan%
+  \let\SB@next= }
+\newcommand\SB@trstep[1]{%
+  \let\SB@donext\SB@trscan%
+  \ifcat\noexpand\SB@next A%
+    \ifnum\uccode`#1=`#1%
+      \def\SB@temp{#1}%
+      \let\SB@dothis\SB@trnote%
+    \else%
+      \SB@toks\expandafter{\the\SB@toks#1}%
+    \fi%
+  \else\ifx\SB@next\gtab%
+    \let\SB@donext\SB@trtab%
+  \else\ifx\SB@next\SB@trend
+    \let\SB@donext\relax%
+  \else%
+    \SB@toks\expandafter{\the\SB@toks#1}%
+  \fi\fi\fi%
+  \SB@donext%
+}
+\newcommand\SB@trnote{%
+  \ifcat\noexpand\SB@next A%
+    \let\SB@donext\SB@trnotestep%
+  \else\ifnum\SB@transposefactor=0 %
+    \SB@cnt0 %
+    \let\SB@donext\SB@trtrans%
+  \else\ifx\SB@next\flt%
+    \SB@cnt\m@ne%
+    \let\SB@donext\SB@tracc%
+  \else\ifx\SB@next\shrp%
+    \SB@cnt\@ne%
+    \let\SB@donext\SB@tracc%
+  \else%
+    \SB@cnt0 %
+    \let\SB@donext\SB@trtrans%
+  \fi\fi\fi\fi%
+  \SB@donext%
+}
+\newcommand\SB@trnotestep[1]{%
+  \ifnum\uccode`#1=`#1%
+    \expandafter\def\expandafter\SB@temp\expandafter{\SB@temp#1}%
+    \expandafter\SB@trscan%
+  \else%
+    \SB@cnt0 %
+    \expandafter\SB@trtrans\expandafter#1%
+  \fi%
+}
+\newcommand\SB@tracc[1]{\futurelet\SB@next\SB@trtrans}
+\newcommand\SB@trtrans{%
+  \advance\SB@cnt%
+    \ifx\SB@temp\notenameA0 %
+    \else\ifx\SB@temp\notenameB2 %
+    \else\ifx\SB@temp\notenameC3 %
+    \else\ifx\SB@temp\notenameD5 %
+    \else\ifx\SB@temp\notenameE7 %
+    \else\ifx\SB@temp\notenameF8 %
+    \else\ifx\SB@temp\notenameG10 %
+    \else-99 \fi\fi\fi\fi\fi\fi\fi%
+  \ifnum\SB@cnt<\m@ne%
+    \SB@toks\expandafter\expandafter\expandafter{%
+      \expandafter\the\expandafter\SB@toks\SB@temp}%
+  \else%
+    \advance\SB@cnt\SB@transposefactor%
+    \ifnum\SB@cnt<0 \advance\SB@cnt12 \fi%
+    \ifnum\SB@cnt>11 \advance\SB@cnt-12 \fi%
+    \ifSB@needkey\ifnum\SB@transposefactor=0 \else\SB@setkeysig\fi\fi%
+    \edef\SB@temp{%
+      \the\SB@toks%
+      \ifSB@prefshrps%
+        \ifcase\SB@cnt\printnoteA\or\printnoteA\noexpand\shrp\or%
+          \printnoteB\or\printnoteC\or\printnoteC\noexpand\shrp\or%
+          \printnoteD\or\printnoteD\noexpand\shrp\or\printnoteE\or%
+          \printnoteF\or\printnoteF\noexpand\shrp\or\printnoteG\or%
+          \printnoteG\noexpand\shrp\fi%
+      \else%
+        \ifcase\SB@cnt\printnoteA\or\printnoteB\noexpand\flt\or%
+          \printnoteB\or\printnoteC\or\printnoteD\noexpand\flt\or%
+          \printnoteD\or\printnoteE\noexpand\flt\or\printnoteE\or%
+          \printnoteF\or\printnoteG\noexpand\flt\or\printnoteG\or%
+          \printnoteA\noexpand\flt\fi%
+      \fi}%
+    \SB@toks\expandafter{\SB@temp}%
+  \fi%
+  \let\SB@dothis\SB@trmain%
+  \SB@trscan%
+}
+\newcommand\SB@setkeysig{%
+  \global\SB@needkeyfalse%
+  \ifcase\SB@cnt%
+    \global\SB@prefshrpstrue\or% A
+    \global\SB@prefshrpsfalse\or% Bb
+    \global\SB@prefshrpstrue\or% B
+    \ifx\SB@next m% C
+      \global\SB@prefshrpsfalse%
+    \else%
+      \global\SB@prefshrpstrue%
+    \fi\or%
+    \global\SB@prefshrpstrue\or% C#
+    \ifx\SB@next m% D
+      \global\SB@prefshrpsfalse%
+    \else%
+      \global\SB@prefshrpstrue%
+    \fi\or%
+    \global\SB@prefshrpsfalse\or% Eb
+    \global\SB@prefshrpstrue\or% E
+    \global\SB@prefshrpsfalse\or% F
+    \global\SB@prefshrpstrue\or% F#
+    \ifx\SB@next m% G
+      \global\SB@prefshrpsfalse%
+    \else%
+      \global\SB@prefshrpstrue%
+    \fi\or%
+    \global\SB@prefshrpsfalse\else% Ab
+    \global\SB@needkeytrue% non-chord
+  \fi%
+}
+\newcommand\SB@trtab{\expandafter\SB@trscan\@firstoftwo}
+\newcommand\SB@trend{%
+  \SB@Error{Internal Error: Transposition failed}%
+           {This error should not occur.}%
+}
+\newcommand\SB@metertop{}
+\newcommand\SB@meterbot{}
+\newcommand\meter[2]{\gdef\SB@metertop{#1}\gdef\SB@meterbot{#2}}
+\newcommand\SB@measuremark{SB@IsMeasure}
+\newcommand\SB@makembar[2]{%
+  \ifSB@inverse\else%
+    \ifSB@inchorus\else\SB@errmbar\fi%
+  \fi%
+  \ifhmode%
+    \SB@skip\lastskip\unskip%
+    \setbox\SB@box\lastbox%
+    \copy\SB@box%
+    \ifvbox\SB@box%
+      \begingroup%
+        \setbox\SB@boxii\copy\SB@box%
+        \vbadness\@M\vfuzz\maxdimen%
+        \setbox\SB@boxii%
+          \vsplit\SB@boxii to\maxdimen%
+      \endgroup%
+      \long\edef\SB@temp{\splitfirstmark}%
+      \ifx\SB@temp\SB@measuremark%
+        \penalty100\hskip1em%
+      \else%
+        \penalty100\hskip\SB@skip%
+      \fi%
+    \else%
+      \penalty100\hskip\SB@skip%
+    \fi%
+  \fi%
+  \setbox\SB@box\hbox{\tiny\sffamily{#1}}%
+  \setbox\SB@boxii\hbox{\tiny\sffamily{#2}}%
+  \ifdim\wd\SB@box>\wd\SB@boxii%
+    \SB@dimen\wd\SB@box\relax%
+  \else%
+    \SB@dimen\wd\SB@boxii\relax%
+  \fi%
+  \ifdim\SB@dimen<.5\p@%
+    \SB@dimen.5\p@%
+  \fi%
+  \SB@dimenii\baselineskip%
+  \advance\SB@dimenii-2\p@%
+  \advance\SB@dimenii-\ht\SB@box%
+  \advance\SB@dimenii-\dp\SB@box%
+  \advance\SB@dimenii-\ht\SB@boxii%
+  \advance\SB@dimenii-\dp\SB@boxii%
+  \ifvmode\leavevmode\fi%
+  \vbox{%
+    \mark{\SB@measuremark}%
+    \hbox to\SB@dimen{%
+      \hfil%
+      \box\SB@box%
+      \hfil%
+    }%
+    \nointerlineskip%
+    \hbox to\SB@dimen{%
+      \hfil%
+      \box\SB@boxii%
+      \hfil%
+    }%
+    \nointerlineskip%
+    \hbox to\SB@dimen{%
+      \hfil%
+      \vrule\@width.5\p@\@height\SB@dimenii%
+      \hfil%
+    }%
+  }%
+}
+\newcommand\mbar{\SB@mbar}
+\newcommand\measurebar{%
+  \mbar\SB@metertop\SB@meterbot%
+  \meter{}{}%
+}
+\newif\ifSB@wordends
+\newif\ifSB@brokenword
+\newtoks\SB@lyric
+\newcount\SB@numhyps
+\newtoks\SB@lyricnohyp
+\newbox\SB@lyricbox
+\newbox\SB@chordbox
+\newcommand\SB@chbstok{}
+\newcommand\SB@setchord{}
+{
+  \catcode`^\active
+  \catcode`!7
+  \gdef\SB@setchord#1{%
+    \SB@gettabindtrue\SB@nohattrue%
+    \setbox\SB@chordbox\hbox{\begingroup%
+      \ifSB@trackch%
+        \def\SB@activehat{\ifmmode!\else\global\SB@nohatfalse\fi}%
+      \else%
+        \def\SB@activehat{%
+          \ifmmode!\else\SB@lop\SB@ctail\SB@toks\the\SB@toks\fi%
+        }%
+      \fi%
+      \let^\SB@activehat%
+      \printchord{\vphantom/\transposehere{#1}\kern.2em}%
+    \endgroup}%
+    \SB@gettabindfalse%
+    \ifSB@trackch\ifSB@nohat%
+      \global\SB@creg\expandafter{\the\SB@creg#1\\}%
+    \fi\fi%
+    \let\SB@noreplay\@firstofone%
+  }
+}
+\newcommand\SB@outertest{}
+\edef\SB@outertest#1{%
+  \noexpand\SB@@outertest#1%
+  \string\outer%
+  \noexpand\SB@@outertest%
+}
+\newcommand\SB@@outertest{}
+\expandafter\def\expandafter\SB@@outertest%
+\expandafter#\expandafter1\string\outer#2\SB@@outertest{%
+  \def\SB@temp{#2}%
+  \ifx\SB@temp\@empty\else\SB@testtrue\fi%
+}
+\newcommand\SB@UTFtest{}
+\edef\SB@UTFtest#1{%
+  \noexpand\SB@UTFtester#1%
+  \string\UTFviii@zero@octets%
+  \noexpand\SB@UTFtester%
+}
+\begingroup
+  \escapechar\m@ne
+  \xdef\SB@two{\string\two}
+  \xdef\SB@three{\string\three}
+  \xdef\SB@four{\string\four}
+  \xdef\SB@temp{\string\@octets}
+\endgroup
+\edef\SB@temp{##1\string\UTFviii@##2\SB@temp##3}
+\expandafter\def\expandafter\SB@UTFtester\SB@temp\SB@UTFtester{%
+  \def\SB@temp{#2}%
+  \ifx\SB@temp\SB@two%
+    \SB@cnt\tw@%
+  \else\ifx\SB@temp\SB@three%
+    \SB@cnt\thr@@%
+  \else\ifx\SB@temp\SB@four%
+    \SB@cnt4 %
+  \else%
+    \SB@cnt0 %
+  \fi\fi\fi%
+}
+\newcommand\SB@declare[3]{%
+  \afterassignment\iffalse\let\SB@next= #3\relax\fi%
+  \expandafter\SB@UTFtest\expandafter{\meaning\SB@next}%
+  \ifcase\SB@cnt%
+    \ifcat\noexpand#3\relax%
+      \SB@addNtest\SB@macrotests#1#2#3%
+    \else\ifcat\noexpand#3.%
+      \SB@addDtest\SB@othertests#1#2#3%
+    \else\ifcat\noexpand#3A%
+      \SB@addDtest\SB@lettertests#1#2#3%
+    \else%
+      \SB@addDtest\relax0#2#3%
+    \fi\fi\fi%
+  \or%
+    \SB@addNtest\SB@macrotests#1#2#3%
+  \else%
+    \SB@addMtest\SB@multitests#1#2{#3}%
+  \fi%
+}
+\newcommand\DeclareLyricChar{\SB@declare\SB@testtrue0}
+\newcommand\DeclareNonLyric{%
+  \SB@declare\SB@testfalse\SB@testfalse%
+}
+\newcommand\DeclareNoHyphen{%
+  \SB@declare\SB@testfalse\SB@testtrue%
+}
+\newcommand\SB@lettertests{}
+\newcommand\SB@macrotests{}
+\newcommand\SB@multitests{}
+\newcommand\SB@othertests{}
+\newcommand\SB@hyphtests{}
+\newcommand\SB@addtest[2]{%
+  \expandafter\gdef\expandafter#1\expandafter{#1#2}%
+}
+\newcommand\SB@addDtest[4]{%
+  \ifx0#2\else\SB@addtest#1{\ifx\SB@next#4#2\fi}\fi%
+  \ifx0#3\else\SB@addtest\SB@hyphtests{\ifx\SB@next#4#3\fi}\fi%
+}
+\newcommand\SB@addNtest[4]{%
+  \ifx0#2\else%
+    \SB@addtest#1{%
+      \edef\SB@temp{\string#4}\ifx\SB@temp\SB@nextname#2\fi%
+    }%
+  \fi%
+  \ifx0#3\else%
+    \SB@addtest\SB@hyphtests{%
+      \edef\SB@temp{\string#4}\ifx\SB@temp\SB@nextname#3\fi%
+    }%
+  \fi%
+}
+\newcommand\SB@addMtest[4]{%
+  \ifx0#2\else%
+    \SB@addtest#1{\def\SB@temp{#4}\ifx\SB@next\SB@temp#2\fi}%
+  \fi%
+  \ifx0#3\else\SB@addtest\SB@hyphtests{%
+    \def\SB@temp{#4}\ifx\SB@next\SB@temp#3\fi}%
+  \fi%
+}
+\DeclareLyricChar\`
+\DeclareLyricChar\'
+\DeclareLyricChar\^
+\DeclareLyricChar\"
+\DeclareLyricChar\~
+\DeclareLyricChar\=
+\DeclareLyricChar\.
+\DeclareLyricChar\u
+\DeclareLyricChar\v
+\DeclareLyricChar\H
+\DeclareLyricChar\t
+\DeclareLyricChar\c
+\DeclareLyricChar\d
+\DeclareLyricChar\b
+\DeclareLyricChar\oe
+\DeclareLyricChar\OE
+\DeclareLyricChar\ae
+\DeclareLyricChar\AE
+\DeclareLyricChar\aa
+\DeclareLyricChar\AA
+\DeclareLyricChar\o
+\DeclareLyricChar\O
+\DeclareLyricChar\l
+\DeclareLyricChar\L
+\DeclareLyricChar\ss
+\DeclareLyricChar\i
+\DeclareLyricChar\j
+\DeclareLyricChar\/
+\DeclareLyricChar\-
+\DeclareLyricChar\discretionary
+\DeclareNoHyphen\par
+\newcommand\SB@bracket{}
+\newcommand\SB@chord{\SB@begincname\SB@@chord}
+\newcommand\SB@begincname{%
+  \begingroup%
+    \catcode`##\active\catcode`&\active%
+    \chordlocals%
+}
+\newcommand\SB@endcname{}
+\let\SB@endcname\endgroup
+\newcommand\SB@nbsp{}
+\def\SB@nbsp{\nobreakspace{}}
+\newcommand\SB@@chord{}
+\def\SB@@chord#1]{%
+  \endgroup%
+  \SB@setchord{#1}%
+  \setbox\SB@lyricbox\hbox{\kern\SB@tabindent}%
+  \global\SB@tabindent\z@%
+  \SB@lyric{}%
+  \SB@numhyps0 %
+  \SB@spcinit%
+  \let\SB@dothis\SB@chstart%
+  \SB@chscan%
+}
+\newcommand\SB@spcinit{}
+\newcommand\MultiwordChords{%
+  \def\SB@spcinit{%
+    \let\SB@chdone\SB@chlyrdone%
+    \def\SB@chimpspace{\let\SB@donext\SB@chdone}%
+    \def\SB@chexpspace{\let\SB@donext\SB@chdone}%
+    \let\SB@chespace\SB@chendspace%
+  }%
+}
+\newcommand\SB@chscan{%
+  \let\SB@nextname\relax%
+  \futurelet\SB@next\SB@chmain%
+}
+\newcommand\SB@chmain{\SB@dothis\SB@donext}
+\newcommand\SB@chstart{%
+  \ifx\SB@next`%
+    \let\SB@donext\SB@chstep%
+  \else\ifx\SB@next'%
+    \let\SB@donext\SB@chstep%
+  \else\ifx\SB@next"%
+    \let\SB@donext\SB@chstep%
+  \else%
+    \the\SB@lyric%
+    \SB@lyric{}%
+    \let\SB@dothis\SB@chnorm%
+    \SB@chnorm%
+  \fi\fi\fi%
+}
+\newcommand\SB@chnorm{%
+  \ifcat\noexpand\SB@next A%
+    \SB@testtrue\SB@lettertests%
+    \ifSB@test%
+      \SB@chespace\let\SB@donext\SB@chstep%
+    \else%
+      \let\SB@donext\SB@chdone%
+    \fi%
+  \else%
+    \SB@chtrymacro%
+  \fi%
+}
+\newcommand\SB@chtrymacro{%
+  \ifcat\noexpand\SB@next\relax%
+    \SB@chmacro%
+  \else%
+    \SB@chother%
+  \fi%
+}
+\newcommand\SB@chother{%
+  \ifcat\noexpand\SB@next\noexpand\@sptoken%
+    \SB@chexpspace%
+  \else\ifcat\noexpand\SB@next\noexpand\bgroup%
+    \SB@chespace\let\SB@donext\SB@chbgroup%
+  \else\ifcat\noexpand\SB@next\noexpand\egroup%
+    \SB@chespace\let\SB@donext\SB@chegroup%
+  \else\ifx\SB@next-%
+    \SB@numhyps\@ne\relax%
+    \SB@lyricnohyp\expandafter{\the\SB@lyric}%
+    \let\SB@dothis\SB@chhyph%
+    \SB@chespace\let\SB@donext\SB@chstep%
+  \else\ifcat\noexpand\SB@next.%
+    \SB@testtrue\SB@othertests%
+    \ifSB@test%
+      \SB@chespace\let\SB@donext\SB@chstep%
+    \else%
+      \let\SB@donext\SB@chdone%
+    \fi%
+  \else%
+    \SB@chespace\let\SB@donext\SB@chstep%
+  \fi\fi\fi\fi\fi%
+}
+\newcommand\SB@chmacro{%
+  \SB@testfalse%
+  \expandafter\SB@outertest\expandafter{\meaning\SB@next}%
+  \ifSB@test%
+    \let\SB@donext\SB@chdone%
+  \else%
+    \let\SB@donext\SB@chgetname%
+  \fi%
+}
+\newcommand\SB@chgetname[1]{%
+  \edef\SB@nextname{\string#1}%
+  \SB@@chmacro\SB@donext#1%
+}
+\newcommand\SB@@chmacro{%
+  \ifx\SB@next\SB@activehat%
+    \let\SB@donext\SB@chdone%
+  \else\ifx\SB@next\measurebar%
+    \SB@chmbar%
+  \else\ifx\SB@next\mbar%
+    \SB@chmbar%
+  \else\ifx\SB@next\ch%
+    \SB@chespace\let\SB@donext\SB@chlig%
+  \else\ifx\SB@next\mch%
+    \SB@chespace\let\SB@donext\SB@mchlig%
+  \else\ifx\SB@next\ %
+    \SB@chimpspace%
+  \else\ifx\SB@next\SB@nbsp%
+    \SB@chimpspace%
+  \else%
+    \expandafter\SB@UTFtest\expandafter{\meaning\SB@next}%
+    \ifcase\SB@cnt\SB@chothermac%
+    \or\or\SB@chespace\let\SB@donext\SB@chsteptwo%
+    \or\SB@chespace\let\SB@donext\SB@chstepthree%
+    \or\SB@chespace\let\SB@donext\SB@chstepfour\fi%
+  \fi\fi\fi\fi\fi\fi\fi%
+}
+\newcommand\SB@chothermac{%
+  \SB@testfalse%
+  \afterassignment\iffalse%
+  \SB@cnt\expandafter`\SB@nextname x\fi%
+  \ifnum\the\catcode\SB@cnt=0\else\SB@testtrue\fi%
+  \SB@macrotests%
+  \ifSB@test%
+    \SB@chespace\let\SB@donext\SB@chstep%
+  \else%
+    \let\SB@donext\SB@chdone%
+  \fi%
+}
+\newcommand\SB@chstep[1]{%
+  \SB@lyric\expandafter{\the\SB@lyric#1}%
+  \SB@chscan%
+}
+\newcommand\SB@chsteptwo[2]{\SB@chmulti{#1#2}}
+\newcommand\SB@chstepthree[3]{\SB@chmulti{#1#2#3}}
+\newcommand\SB@chstepfour[4]{\SB@chmulti{#1#2#3#4}}
+\newcommand\SB@chmulti[1]{%
+  \def\SB@next{#1}%
+  \let\SB@nextname\relax%
+  \SB@testtrue\SB@multitests%
+  \ifSB@test%
+    \SB@lyric\expandafter{\the\SB@lyric#1}%
+    \expandafter\SB@chscan%
+  \else%
+    \expandafter\SB@chmstop%
+  \fi%
+}
+\newcommand\SB@chmstop{\expandafter\SB@chdone\SB@next}
+\newcommand\SB@chhyph{%
+  \ifx\SB@next-%
+    \advance\SB@numhyps\@ne\relax%
+    \let\SB@donext\SB@chstep%
+  \else%
+    \let\SB@donext\SB@chdone%
+  \fi%
+}
+\newcommand\SB@chimpspace{\let\SB@donext\SB@chdone}
+\newcommand\SB@chexpspace{\let\SB@donext\SB@chdone}
+\newcommand\SB@chespace{}
+\newcommand\SB@chendspace{%
+  \let\SB@chdone\SB@chlyrdone%
+  \def\SB@chexpspace{\SB@chbspace\SB@chexpspace}%
+  \def\SB@chimpspace{\SB@chbspace\SB@chimpspace}%
+  \def\SB@chespace{}%
+}
+\newcommand\SB@chbspace{%
+  \setbox\SB@lyricbox\hbox{%
+    \unhbox\SB@lyricbox%
+    \the\SB@lyric%
+  }%
+  \SB@lyric{}%
+  \ifdim\wd\SB@lyricbox<\wd\SB@chordbox%
+    \let\SB@chbstok= \SB@next%
+    \def\SB@chexpspace{\let\SB@donext\SB@chgetspace}%
+    \def\SB@chimpspace{\let\SB@donext\SB@chstep}%
+    \let\SB@chespace\SB@chendspace%
+    \let\SB@chdone\SB@chspcdone%
+  \else%
+    \def\SB@chimpspace{\let\SB@donext\SB@chdone}%
+    \def\SB@chexpspace{\let\SB@donext\SB@chdone}%
+  \fi%
+}
+\newcommand\SB@chgetspace{%
+  \SB@appendsp\SB@lyric%
+  \let\SB@nextname\relax%
+  \afterassignment\SB@chscan%
+  \let\SB@next= }
+\newcommand\SB@chmbar{%
+  \ifmeasures%
+    \let\SB@donext\SB@chdone%
+  \else%
+    \SB@chespace\let\SB@donext\SB@chstep%
+  \fi%
+}
+\newcommand\SB@chbgroup[1]{%
+  \SB@lyric\expandafter{\the\SB@lyric{#1}}%
+  \SB@chscan%
+}
+\newcommand\SB@chegroup{%
+  \let\SB@nextname\relax%
+  \afterassignment\SB@chegrpscan%
+  \let\SB@next= }
+\newcommand\SB@chegrpscan{%
+  \futurelet\SB@next\SB@chegrpmacro%
+}
+\newcommand\SB@chegrpmacro{%
+  \ifcat\noexpand\SB@next\relax%
+    \expandafter\SB@chegrpouter%
+  \else%
+    \expandafter\SB@chegrpdone%
+  \fi%
+}
+\newcommand\SB@chegrpouter{%
+  \SB@testfalse%
+  \expandafter\SB@outertest\expandafter{\meaning\SB@next}%
+  \ifSB@test%
+    \expandafter\SB@chegrpdone%
+  \else%
+    \expandafter\SB@chegrpname%
+  \fi%
+}
+\newcommand\SB@chegrpname[1]{%
+  \edef\SB@nextname{\string#1}%
+  \SB@chegrpdone#1%
+}
+\newcommand\SB@chegrpdone{\SB@chdone\egroup}
+\newcommand\SB@chlig[5]{%
+  \gdef\SB@ligpre{{#3}}%
+  \gdef\SB@ligpost{\[#2]{#4}}%
+  \gdef\SB@ligfull{\[\SB@noreplay{\hphantom{#3}}#2]{#5}}%
+  \SB@chdone%
+}
+\newcommand\SB@mchlig[5]{%
+  \SB@lyric\expandafter{\the\SB@lyric#3}%
+  \let\SB@next\measurebar%
+  \edef\SB@nextname{\string\measurebar}%
+  \gdef\SB@ligpost{\measurebar\[#2]{#4}}%
+  \gdef\SB@ligfull{\measurebar\[#2]{#4}}%
+  \SB@chdone%
+}
+\newcommand\SB@chlyrdone{%
+  \setbox\SB@lyricbox\hbox{%
+    \unhbox\SB@lyricbox%
+    \ifnum\SB@numhyps=\@ne%
+      \the\SB@lyricnohyp%
+    \else%
+      \the\SB@lyric%
+    \fi%
+  }%
+  \SB@emitchord%
+}
+\newcommand\SB@chspcdone{%
+  \let\SB@nextname\relax%
+  \let\SB@next= \SB@chbstok%
+  \expandafter\SB@emitchord\the\SB@lyric%
+}
+\newcommand\SB@chdone{}
+\let\SB@chdone\SB@chlyrdone
+\newcommand\SB@ligpre{}
+\newcommand\SB@ligpost{}
+\newcommand\SB@ligfull{}
+\newcommand\SB@clearlig{%
+  \gdef\SB@ligpre{}%
+  \gdef\SB@ligpost{}%
+  \gdef\SB@ligfull{}%
+}
+\newcommand\SB@emitchord{%
+  \ifSB@inverse\else\ifSB@inchorus\else\SB@errchord\fi\fi%
+  \SB@testfalse%
+  \ifcat\noexpand\SB@next\noexpand\@sptoken\SB@testtrue\fi%
+  \ifcat\noexpand\SB@next.\SB@testtrue\fi%
+  \ifx\SB@next\SB@outerpar\SB@testtrue\fi%
+  \ifx\SB@next\egroup\SB@testtrue\fi%
+  \SB@hyphtests%
+  \ifSB@test\SB@wordendstrue\else\SB@wordendsfalse\fi%
+  \SB@dimen\wd\SB@chordbox%
+  \ifvmode\leavevmode\fi%
+  \SB@brokenwordfalse%
+  \ifdim\wd\SB@lyricbox>\z@%
+    \ifdim\SB@dimen>\wd\SB@lyricbox%
+      \ifSB@wordends\else\SB@brokenwordtrue\fi%
+    \fi%
+  \else%
+    \SB@skip\lastskip%
+    \unskip\penalty200\hskip\SB@skip%
+  \fi%
+  \ifnum\SB@numhyps>0 %
+    \ifnum\SB@numhyps>\@ne\relax%
+      \SB@brokenwordfalse%
+    \else%
+      \SB@brokenwordtrue%
+    \fi%
+  \fi%
+  \vbox{\baselineskip\f@size\p@\kern2\p@%
+    \ifSB@brokenword%
+      \global\setbox\SB@lyricbox\hbox{%
+        \unhbox\SB@lyricbox%
+        \SB@ligpre%
+      }%
+      \ifdim\wd\SB@lyricbox>\SB@dimen%
+        \SB@dimen\wd\SB@lyricbox%
+      \fi%
+      \advance\SB@dimen.5em%
+      \hbox to\SB@dimen{\unhbox\SB@chordbox\hfil}%
+      \kern-2\p@%
+      \hbox to\SB@dimen{%
+        \unhcopy\SB@lyricbox\hfil\char\hyphenchar\font\hfil%
+      }%
+      \global\SB@cnt\@m%
+      \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligpost}%
+    \else%
+      \hbox{\unhbox\SB@chordbox\hfil}%
+      \kern-2\p@%
+      \hbox{%
+        \unhcopy\SB@lyricbox%
+        \global\SB@cnt\spacefactor%
+        \hfil%
+      }%
+      \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligfull}%
+    \fi%
+  }%
+  \ifSB@wordends%
+    \ifdim\wd\SB@lyricbox>\z@\else\nobreak\fi%
+  \else%
+    \nobreak\spacefactor\SB@cnt%
+  \fi%
+  \SB@temp%
+}
+\newcommand\shrp{\raise3\p@\hbox{\small\#}\kern-\p@}
+\newcommand\flt{\thinspace\raise3\p@\hbox{\normalsize$\flat$}}
+\newcommand\ch{\SB@ch}
+\newcommand\SB@ch{}
+\newcommand\SB@ch@on{\SB@begincname\SB@@ch}
+\newcommand\SB@@ch[1]{\SB@endcname\SB@@@ch{#1}}
+\newcommand\SB@@@ch[4]{\[\SB@noreplay{\hphantom{#2}}#1]#4}
+\newcommand\SB@ch@off[4]{#4}
+\newcommand\mch{\SB@mch}
+\newcommand\SB@mch{}
+\newcommand\SB@mch@m[4]{#2\measurebar#3}
+\newcommand\SB@mch@on{\SB@begincname\SB@@mch}
+\newcommand\SB@@mch[1]{\SB@endcname\SB@@@mch{#1}}
+\newcommand\SB@@@mch[4]{#2\measurebar\[#1]#3}
+\newcommand\SB@activehat{%
+  \ifmmode^\else\expandafter\SB@rechord\fi%
+}
+\newcommand\SB@loadactives{}
+{
+  \catcode`&\active
+  \catcode`#\active
+  \catcode`|\active
+  \catcode`^\active
+  \global\let&\flt
+  \global\let#\shrp
+  \global\let|\measurebar
+  \global\let^\SB@activehat
+  \gdef\SB@loadactives{%
+    \catcode`^\ifchorded\active\else9 \fi%
+    \catcode`|\ifmeasures\active\else9 \fi%
+    \def\[{\SB@bracket}%
+  }
+}
+\newif\ifSB@trackch
+\newtoks\SB@cr@
+\newtoks\SB@ctail
+\newcommand\SB@creg{}
+\newcommand\newchords[1]{%
+  \@ifundefined{SB@cr@#1}{%
+    \expandafter\newtoks\csname SB@cr@#1\endcsname%
+    \global\csname SB@cr@#1\endcsname{\\}%
+  }{\SB@errdup{#1}}%
+}
+\newcommand\memorize{%
+  \@ifnextchar[\SB@memorize{\SB@memorize[]}%
+}
+\newcommand\SB@memorize{}
+\def\SB@memorize[#1]{%
+  \@ifundefined{SB@cr@#1}{\SB@errreg{#1}}{%
+    \SB@trackchtrue%
+    \global\expandafter\let\expandafter\SB@creg%
+      \csname SB@cr@#1\endcsname%
+    \global\SB@creg{\\}%
+  }%
+}
+\newcommand\replay{\@ifnextchar[\SB@replay\SB@@replay}
+\newcommand\SB@replay{}
+\def\SB@replay[#1]{%
+  \@ifundefined{SB@cr@#1}{\SB@errreg{#1}}{%
+    \SB@trackchfalse%
+    \global\expandafter\let\expandafter\SB@creg%
+      \csname SB@cr@#1\endcsname%
+    \global\SB@ctail\SB@creg%
+  }%
+}
+\newcommand\SB@@replay{%
+  \SB@trackchfalse%
+  \global\SB@ctail\SB@creg%
+}
+\newcommand\SB@rechord{}
+\newcommand\SB@@rechord{%
+  \SB@ifempty\SB@ctail{%
+    \SB@errreplay%
+    \SB@toks{}%
+    \let\SB@donext\@gobble%
+  }{%
+    \SB@lop\SB@ctail\SB@toks%
+    \let\SB@donext\SB@chord%
+    \let\SB@noreplay\@gobble%
+  }%
+  \expandafter\SB@donext\the\SB@toks]%
+}
+\newif\ifSB@nohat
+\newcommand\SB@noreplay{}
+\let\SB@noreplay\@firstofone
+\newlength\SB@fretwidth
+\setlength\SB@fretwidth{6\p@}
+\newcommand\SB@fretnum[1]{{%
+  \sffamily\fontsize{10}{10}\selectfont#1%
+}}
+\newcommand\SB@onfret[1]{%
+  \rlap{\hbox to\SB@fretwidth{\hfil\vrule\@height6\p@\hfil}}%
+  \hbox to\SB@fretwidth{\hfil#1\hfil}%
+}
+\newcommand\SB@atopfret[1]{%
+  \hbox to\SB@fretwidth{\hfil#1\hfil}%
+}
+\newcommand\SB@fretbar{%
+  \nointerlineskip%
+  \SB@dimen5\SB@fretwidth%
+  \advance\SB@dimen.4\p@%
+  \hbox to6\SB@fretwidth{%
+    \hfil%
+    \vrule\@width\SB@dimen\@height.4\p@\@depth\z@%
+    \hfil%
+  }%
+  \nointerlineskip%
+}
+\newcommand\SB@topempty{\SB@atopfret{}}
+\newcommand\SB@topX{\SB@atopfret{%
+  \hbox{%
+    \kern-.2\p@%
+    \fontencoding{OMS}\fontfamily{cmsy}%
+    \fontseries{m}\fontshape{n}%
+    \fontsize{7}{7}\selectfont\char\tw@%
+    \kern-.2\p@%
+  }%
+}}
+\newcommand\SB@topO{\SB@atopfret{%
+  \vrule\@width\z@\@height4.3333\p@\@depth.8333\p@%
+  \lower.74\p@\hbox{%
+    \fontencoding{OMS}\fontfamily{cmsy}%
+    \fontseries{m}\fontshape{n}%
+    \fontsize{10}{10}\selectfont\char14%
+  }%
+}}
+\newcommand\SB@fretempty{\SB@onfret{}}
+\newcommand\SB@frethit{\SB@onfret{%
+  \hbox{%
+    \fontencoding{OMS}\fontfamily{cmsy}%
+    \fontseries{m}\fontshape{n}%
+    \fontsize{12}{12}\selectfont\char15%
+  }%
+}}
+\newcommand\SB@finger[1]{%
+  \SB@atopfret{\sffamily\fontsize{6}{6}\selectfont#1}%
+}
+\newif\ifSB@gettabind\SB@gettabindfalse
+\newdimen\SB@tabindent
+\newcommand\SB@targfret{}
+\newcommand\SB@targstr{}
+\newcommand\SB@targfing{}
+\newcommand\gtab{\SB@begincname\SB@gtab}
+\newcommand\SB@gtab[1]{\SB@endcname\SB@@gtab{#1}}
+\newcommand\SB@@gtab[2]{%
+  \SB@tabargs#2\relax\relax\relax\relax\relax\relax\relax\fi%
+  \ifvmode\leavevmode\fi%
+  \vbox{%
+    \normalfont\normalsize%
+    \setbox\SB@box\hbox{%
+      \thinspace{\printchord{#1\strut}}\thinspace%
+    }%
+    \setbox\SB@boxii\hbox{\SB@fretnum{\SB@targfret}}%
+    \hsize\wd\SB@box%
+    \SB@dimen\wd\SB@boxii%
+    \ifSB@gettabind%
+      \global\SB@tabindent\SB@dimen%
+      \global\advance\SB@tabindent.5\SB@fretwidth%
+      \global\advance\SB@tabindent-.5\p@%
+    \fi%
+    \advance\SB@dimen6\SB@fretwidth%
+    \ifdim\hsize<\SB@dimen%
+      \hsize\SB@dimen%
+    \else\ifSB@gettabind%
+      \SB@dimenii\hsize%
+      \advance\SB@dimenii-\SB@dimen%
+      \divide\SB@dimenii\tw@%
+      \global\advance\SB@tabindent\SB@dimenii%
+    \fi\fi%
+    \hbox to\hsize{\hfil\unhbox\SB@box\hfil}%
+    \kern-2\p@%
+    \hbox to\hsize{%
+      \hfil%
+      \vbox{\box\SB@boxii\kern18\p@}%
+      \vbox{%
+        \let\X\SB@topX\let\0\SB@topO%
+        \let\1\SB@topempty\let\2\SB@topempty%
+        \let\3\SB@topempty\let\4\SB@topempty%
+        \hbox to6\SB@fretwidth{\SB@targstr}%
+        \nointerlineskip%
+        \let\X\SB@fretempty\let\0\SB@fretempty%
+        \let\1\SB@frethit\let\2\SB@fretempty%
+        \let\3\SB@fretempty\let\4\SB@fretempty%
+        \SB@fretbar\hbox{\SB@targstr}%
+        \let\1\SB@fretempty\let\2\SB@frethit%
+        \SB@fretbar\hbox{\SB@targstr}%
+        \let\2\SB@fretempty\let\3\SB@frethit%
+        \SB@fretbar\hbox{\SB@targstr}%
+        \let\3\SB@fretempty\let\4\SB@frethit%
+        \SB@fretbar\hbox{\SB@targstr}%
+        \SB@fretbar%
+        \ifx\SB@targsfing\@empty\else%
+          \let\X\SB@topempty\let\0\SB@topempty%
+          \def\1{\SB@finger1}\def\2{\SB@finger2}%
+          \def\3{\SB@finger3}\def\4{\SB@finger4}%
+          \kern1.5\p@%
+          \hbox to6\SB@fretwidth{\SB@targfing}%
+        \fi%
+      }%
+      \hfil%
+    }%
+    \kern3\p@%
+  }%
+  \SB@gettabindfalse%
+}
+\newcommand\SB@ctoken{} \def\SB@ctoken{,}
+\newcommand\SB@xtoken{} \def\SB@xtoken{X}
+\newcommand\SB@otoken{} \def\SB@otoken{O}
+\newcommand\SB@tokenz{} \def\SB@tokenz{0}
+\newcommand\SB@tokeni{} \def\SB@tokeni{1}
+\newcommand\SB@tokenii{} \def\SB@tokenii{2}
+\newcommand\SB@tokeniii{} \def\SB@tokeniii{3}
+\newcommand\SB@tokeniv{} \def\SB@tokeniv{4}
+\newcommand\SB@tdone{} \def\SB@tdone{\relax}
+
+\newcommand\SB@tabargs[2]{%
+  \def\SB@targfret{#1}%
+  \ifx\SB@targfret\SB@ctoken%
+    \let\SB@targfret\@empty%
+    \def\SB@donext{\SB@@tabargs{#2}}%
+  \else%
+    \def\SB@temp{#2}%
+    \ifx\SB@temp\SB@ctoken%
+      \let\SB@donext\SB@@tabargs%
+    \else%
+      \let\SB@targfret\@empty%
+      \def\SB@donext{\SB@@tabargs{#1}{#2}}%
+    \fi%
+  \fi%
+  \SB@donext%
+}
+\newcommand\SB@@tabargs[7]{%
+  \let\SB@targstr\@empty%
+  \let\SB@targfing\@empty%
+  \SB@tabarg\SB@targstr{#1}%
+  \SB@tabarg\SB@targstr{#2}%
+  \SB@tabarg\SB@targstr{#3}%
+  \SB@tabarg\SB@targstr{#4}%
+  \SB@tabarg\SB@targstr{#5}%
+  \SB@tabarg\SB@targstr{#6}%
+  \def\SB@temp{#7}%
+  \ifx\SB@temp\SB@ctoken%
+    \let\SB@donext\SB@@@tabargs%
+  \else%
+    \ifx\SB@temp\SB@tdone\else\SB@errtabx\fi%
+    \def\SB@donext{\iffalse}%
+    \@gobble\fi%
+  \fi%
+  \SB@donext%
+}
+\newcommand\SB@@@tabargs[7]{%
+  \def\SB@temp{#1}%
+  \ifx\SB@temp\SB@tdone\else%
+    \SB@tabarg\SB@targfing{#1}%
+    \SB@tabarg\SB@targfing{#2}%
+    \SB@tabarg\SB@targfing{#3}%
+    \SB@tabarg\SB@targfing{#4}%
+    \SB@tabarg\SB@targfing{#5}%
+    \SB@tabarg\SB@targfing{#6}%
+    \def\SB@temp{#7}%
+    \ifx\SB@temp\SB@tdone\else\SB@errtabx\fi%
+  \fi%
+  \iffalse%
+}
+\newcommand\SB@tabarg[2]{%
+  \def\SB@temp{#2}%
+  \ifx\SB@temp\SB@xtoken\SB@@tabarg#1\X\else%
+  \ifx\SB@temp\SB@ytoken\SB@@tabarg#1\0\else%
+  \ifx\SB@temp\SB@tokenz\SB@@tabarg#1\0\else%
+  \ifx\SB@temp\SB@tokeni\SB@@tabarg#1\1\else%
+  \ifx\SB@temp\SB@tokenii\SB@@tabarg#1\2\else%
+  \ifx\SB@temp\SB@tokeniii\SB@@tabarg#1\3\else%
+  \ifx\SB@temp\SB@tokeniv\SB@@tabarg#1\4\else%
+    \SB@errtab\SB@@tabarg#1\0%
+  \fi\fi\fi\fi\fi\fi\fi%
+}
+\newcommand\SB@@tabarg[2]{%
+  \expandafter\def\expandafter#1\expandafter{#1#2}%
+}
+\newcommand\songchapter{%
+  \let\SB@temp\@seccntformat%
+  \def\@seccntformat##1{}%
+  \@startsection{chapter}{0}{\z@}%
+    {3.5ex\@plus1ex\@minus.2ex}%
+    {.4ex\let\@seccntformat\SB@temp}%
+    {\sffamily\bfseries\LARGE\centering}%
+}
+\newcommand\songsection{%
+  \let\SB@temp\@seccntformat%
+  \def\@seccntformat##1{}%
+  \@startsection{section}{1}{\z@}%
+    {3.5ex\@plus1ex\@minus.2ex}%
+    {.4ex\let\@seccntformat\SB@temp}%
+    {\sffamily\bfseries\LARGE\centering}%
+}
+\newenvironment{songs}[1]{%
+  \SB@clearpage%
+  \gdef\SB@indexlist{#1}%
+  \SB@chkidxlst%
+  \stepcounter{SB@songsnum}%
+  \setcounter{songnum}{1}%
+  \SB@songsenvtrue%
+}{%
+  \SB@finalizesonglist%
+  \SB@clearpage%
+  \clearpage%
+  \thispagestyle{empty}%
+  \cleardoublepage%
+  \SB@songsenvfalse%
+}
+\newcounter{SB@songsnum}
+\newcommand\SB@indexlist{}
+\newcommand\SB@newindex[4]{%
+  \expandafter\newcommand\csname SB@idxfilename@#3\endcsname{#4}%
+  \ifSB@genindexes\begingroup%
+    \newwrite\SB@theindex%
+    \immediate\openout\SB@theindex=#4.sxd%
+    #2%
+    \global\expandafter\let\csname SB@index@#3\endcsname\SB@theindex%
+  \endgroup\fi%
+  \expandafter\newcommand\csname SB@idxsel@#3\endcsname[3]{###1}%
+}
+\newcommand\newindex[2]{%
+  \AtBeginDocument{\SB@newindex1\SB@titleinit{#1}{#2}}%
+}
+\@onlypreamble\newindex
+\newcommand\SB@titleinit{%
+  \immediate\write\SB@theindex{TITLE INDEX DATA FILE}%
+}
+\newcommand\newscripindex[2]{%
+  \AtBeginDocument{\SB@newindex2\SB@scripinit{#1}{#2}}%
+}
+\@onlypreamble\newscripindex
+\newcommand\SB@scripinit{%
+  \immediate\write\SB@theindex{SCRIPTURE INDEX DATA FILE}%
+}
+\newcommand\newauthorindex[2]{%
+  \AtBeginDocument{\SB@newindex3\SB@authinit{#1}{#2}}%
+}
+\@onlypreamble\newauthorindex
+\newcommand\SB@authinit{%
+  \immediate\write\SB@theindex{AUTHOR INDEX DATA FILE}%
+}
+\newcommand\SB@percent{}
+{\catcode`\%=12\gdef\SB@percent{%}}
+\newcommand\SB@idxcmd[2]{%
+  \expandafter\gdef\expandafter#1\expandafter{%
+    #1\immediate\write\SB@theindex{\SB@percent#2}%
+  }%
+}
+\newcommand\authsepword[1]{\SB@idxcmd\SB@authinit{sep #1}}
+\@onlypreamble\authsepword
+\newcommand\authbyword[1]{\SB@idxcmd\SB@authinit{after #1}}
+\@onlypreamble\authbyword
+\newcommand\authignoreword[1]{\SB@idxcmd\SB@authinit{ignore #1}}
+\@onlypreamble\authignoreword
+\newcommand\titleprefixword[1]{\SB@idxcmd\SB@titleinit{prefix #1}}
+\@onlypreamble\titleprefixword
+\newcommand\SB@addtoindex[2]{%
+  \ifSB@genindexes%
+    \immediate\write#1{#2}%
+    \immediate\write#1{\songnumstyle{songnum}}%
+    \immediate\write#1{%
+      song\arabic{SB@songsnum}-\songnumstyle{songnum}.%
+      \ifnum\arabic{section}=0 1\else2\fi}%
+  \fi%
+}
+\newcommand\SB@addtoindexes[3]{%
+  \@for\SB@temp:=\SB@indexlist\do{%
+    \csname SB@idxsel@\SB@temp\endcsname{\SB@toks\expandafter{#1}}%
+      {\SB@toks\expandafter{#2}}{\SB@toks\expandafter{#3}}%
+    \SB@addtoindex{\csname SB@index@\SB@temp\endcsname}{\the\SB@toks}%
+  }%
+}
+\newcommand\SB@addtotitles[1]{%
+  \SB@toks{#1}%
+  \@for\SB@temp:=\SB@indexlist\do{%
+    \csname SB@idxsel@\SB@temp\endcsname{%
+      \SB@addtoindex{\csname SB@index@\SB@temp\endcsname}{\the\SB@toks}%
+    }{}{}%
+  }%
+}
+\newcommand\SB@chkidxlst{%
+  \let\SB@temp\SB@indexlist%
+  \let\SB@indexlist\@empty%
+  \@for\SB@tempii:=\SB@temp\do{%
+    \@ifundefined{SB@idxsel@\SB@tempii}{\SB@errnoidx\SB@tempii}{%
+      \ifx\SB@indexlist\@empty%
+        \SB@toks\expandafter{\SB@tempii}%
+      \else%
+        \SB@toks\expandafter\expandafter\expandafter{%
+          \expandafter\SB@indexlist\expandafter,\SB@tempii}%
+      \fi%
+      \edef\SB@indexlist{\the\SB@toks}%
+    }%
+  }%
+}
+\newcommand\indexentry{\@ifnextchar[{\SB@idxentry*}{\SB@@idxentry*}}
+\newcommand\SB@idxentry{}
+\def\SB@idxentry#1[#2]#3{{%
+  \def\SB@indexlist{#2}%
+  \SB@chkidxlst%
+  \SB@addtoindexes{#1#3}{#3}{#3}%
+}}
+\newcommand\SB@@idxentry[2]{\SB@addtotitles{#1#2}}
+\newcommand\indextitleentry{%
+  \@ifnextchar[{\SB@idxentry{}}{\SB@@idxentry{}}%
+}
+\newbox\SB@idxtitlebox
+\newcommand\SB@idxlineskip[1]{%
+  \vskip#1\p@\@plus#1\p@\@minus#1\p@%
+}
+\newcommand\SB@multiline{%
+  \begingroup%
+    \hbadness\@M\hfuzz\maxdimen%
+    \SB@dimenii\hsize%
+    \advance\SB@dimenii-\SB@dimen%
+    \SB@dimeniii\SB@dimenii%
+    \advance\SB@dimeniii-\wd\SB@box%
+    \interlinepenalty\@M%
+    \parshape\tw@\z@\hsize\SB@dimenii\SB@dimen\relax%
+    \noindent\unhcopy\SB@box%
+    \leaders\hbox to.5em{\hss.\hss}\hskip\SB@dimeniii\@plus1fil%
+    \unhcopy\SB@boxii%
+    \par%
+  \endgroup%
+}%
+\newcommand\SB@balancerows{%
+  \SB@dimen\hsize%
+  \advance\SB@dimen-\wd\SB@box%
+  \advance\SB@dimen-2em%
+  \settoheight\SB@dimenii{\vbox{\SB@multiline}}%
+  \SB@dimeniii.5\SB@dimen%
+  \SB@dimeniv\SB@dimeniii%
+  \loop%
+    \SB@dimeniv.5\SB@dimeniv%
+    \settoheight\SB@dimenv{\vbox{%
+      \SB@dimen\SB@dimeniii%
+      \SB@multiline%
+    }}%
+    \ifdim\SB@dimenv>\SB@dimenii%
+      \advance\SB@dimeniii\SB@dimeniv%
+    \else%
+      \SB@dimen\SB@dimeniii%
+      \advance\SB@dimeniii-\SB@dimeniv%
+    \fi%
+  \ifdim\SB@dimeniv>2\p@\repeat%
+  \SB@multiline%
+}
+\newcommand\SB@ellipspread[2]{%
+  \begingroup%
+    \setbox\SB@box\hbox{#1}%
+    \setbox\SB@boxii\hbox{#2}%
+    \SB@dimen\wd\SB@box%
+    \advance\SB@dimen2em%
+    \advance\SB@dimen\wd\SB@boxii%
+    \ifdim\SB@dimen>\hsize%
+      \SB@balancerows%
+    \else%
+      \hbox to\hsize{%
+        \unhbox\SB@box%
+        \leaders\hbox to.5em{\hss.\hss}\hfil%
+        \unhbox\SB@boxii%
+      }\par%
+    \fi%
+  \endgroup%
+}
+\newcommand\SB@idxitemsep{%
+  ,\penalty0\hskip.33em\@minus.11em\hfilneg\vadjust{}\hfil%
+}
+\newenvironment{idxblock}[1]{}{}
+\newcommand\idxentry[2]{}
+\newcommand\idxaltentry[2]{}
+\newenvironment{SB@lgidx}[1]{}{}
+\newenvironment{SB@smidx}[1]{}{}
+\newcommand\SB@idxsetup[1]{%
+  \hsize\textwidth%
+  \parskip\z@skip\parfillskip\z@skip%
+  \baselineskip\f@size\p@\@plus\p@\@minus\p@%
+  \lineskiplimit\z@\lineskip\p@\@plus\p@\@minus\p@%
+  \ifnum\SB@numcols>\@ne%
+    \advance\hsize\columnsep%
+    \advance\hsize-#1\columnsep%
+    \divide\hsize#1\relax%
+  \fi%
+}
+\newcommand\SB@makeidxcolumn[1]{%
+  \ifdim\ht\SB@box=\z@%
+    \hskip\hsize\relax%
+  \else%
+    \splittopskip\topskip\splitmaxdepth\maxdepth%
+    \vsplit\SB@box to\SB@dimen%
+    \global\setbox\SB@box\vbox{%
+      \SB@idxsetup{#1}%
+      \splitbotmark%
+      \unvbox\SB@box%
+    }%
+  \fi%
+}
+\newcommand\SB@oneidxpage{}
+\newcommand\SB@displayindex[3]{%
+  \ifsongindexes\begingroup%
+    \setbox\SB@idxtitlebox\vbox{%
+      \let\SB@temp\songsection%
+      \ifx\chapter\undefined\else%
+        \ifx\chapter\relax\else%
+          \let\SB@temp\songchapter%
+        \fi%
+      \fi%
+      \SB@temp{#1}%
+    }%
+    \IfFileExists{\csname SB@idxfilename@#2\endcsname.sbx}{%
+      \ifx\hyperlink\undefined\let\hyperlink\@secondoftwo\fi%
+      \ifx\hyperlink\relax\let\hyperlink\@secondoftwo\fi%
+      \global\setbox\SB@box\vbox{%
+        \null%
+        \vfil%
+        \unvcopy\SB@idxtitlebox%
+        \vskip.5in\@minus.3in\relax%
+        \hbox to\hsize{%
+          \hfil%
+          \vbox{%
+            \hsize\SB@colwidth%
+            \renewenvironment{idxblock}[1]%
+              {\begin{SB@smidx}{####1}}{\end{SB@smidx}}%
+            \let\\\SB@idxitemsep%
+            \input{\csname SB@idxfilename@#2\endcsname.sbx}%
+          }%
+          \hfil%
+        }%
+        \vskip\z@\@plus2fil\relax%
+      }%
+      {\vbadness\@M\vfuzz\maxdimen%
+       \splitmaxdepth\maxdepth\splittopskip\topskip%
+       \global\setbox\SB@boxii\vsplit\SB@box to\textheight}%
+      \ifvoid\SB@box%
+        \box\SB@boxii%
+      \else%
+        \global\setbox\SB@box\vbox{%
+          \renewenvironment{idxblock}[1]%
+            {\begin{SB@lgidx}{####1}}{\end{SB@lgidx}}%
+          \let\\\SB@idxitemsep%
+          \SB@idxsetup{#3}%
+          \input{\csname SB@idxfilename@#2\endcsname.sbx}%
+          \unskip%
+        }%
+        \SB@toks{\SB@makeidxcolumn{#3}}%
+        \ifnum\SB@numcols>\@ne%
+          \SB@cnt#3\relax%
+          \loop\ifnum\SB@cnt>\@ne%
+            \SB@toks\expandafter{\the\SB@toks%
+              \kern\columnsep\SB@makeidxcolumn{#3}}%
+            \advance\SB@cnt\m@ne%
+          \repeat%
+        \fi%
+        \edef\SB@oneidxpage{\the\SB@toks}%
+        \unvbox\SB@idxtitlebox%
+        \vskip.2in\relax%
+        \nointerlineskip%
+        \null%
+        \nointerlineskip%
+        \SB@cnt\vbadness\vbadness\@M%
+        \SB@dimenii\vfuzz\vfuzz\maxdimen%
+        \loop%
+          \SB@dimen\textheight%
+          \ifinner\else\kern\z@\advance\SB@dimen-\pagetotal\fi%
+          \global\setbox\SB@boxii\copy\SB@box%
+          \global\setbox\SB@boxiii\hbox{\SB@oneidxpage}%
+          \ifdim\ht\SB@box>\z@%
+            \box\SB@boxiii%
+            \vfil\break%
+        \repeat%
+        \SB@dimenii\ht\SB@boxii%
+        \divide\SB@dimenii#3\relax%
+        \SB@maxmin\SB@dimen>\SB@dimenii%
+        \loop%
+          \global\setbox\SB@box\copy\SB@boxii%
+          \global\setbox\SB@boxiii\hbox{\SB@oneidxpage}%
+          \ifdim\ht\SB@box>\z@%
+            \advance\SB@dimen\p@%
+        \repeat%
+        \box\SB@boxiii%
+        \global\setbox\SB@boxii\box\voidb@x%
+        \vbadness\SB@cnt\vfuzz\SB@dimenii%
+      \fi%
+    }{%
+      \vbox to\textheight{%
+        \vfil%
+        \unvbox\SB@idxtitlebox%
+        \vskip1em\relax%
+        \hbox to\textwidth{\hfil[Index not yet generated.]\hfil}%
+        \vskip\z@\@plus2fil\relax%
+      }%
+    }%
+    \cleardoublepage%
+  \endgroup\fi%
+}
+\newcommand\showindex[2]{%
+  \@ifundefined{SB@idxsel@#2}{\SB@errnoidx{#2}}{%
+    \csname SB@idxsel@#2\endcsname%
+    \SB@makesongindex\SB@makescripindex\SB@makeauthorindex%
+    {#1}{#2}%
+  }%
+}
+\newcommand\SB@makesongindex[2]{%
+  \renewenvironment{SB@lgidx}[1]{
+    \parindent\z@%
+    \hbox{\SB@colorbox{\vbox{%
+      \hbox to\idxheadwidth{\sffamily\bfseries\LARGE##1\hfil}%
+    }}}%
+    \nobreak\vskip3\p@\@plus2\p@\@minus2\p@\nointerlineskip%
+  }{\penalty-50\vskip5\p@\@plus5\p@\@minus4\p@}%
+  \renewenvironment{SB@smidx}[1]{}{}%
+  \renewcommand\idxentry[2]{%
+    \SB@ellipspread{\sffamily\slshape\ignorespaces##1\unskip}{##2}%
+  }%
+  \renewcommand\idxaltentry[2]{%
+    \SB@ellipspread{\rmfamily\ignorespaces##1\unskip}{##2}%
+  }%
+  \SB@displayindex{#1}{#2}{2}%
+}
+\newcommand\SB@idxcolhead{}
+\newcommand\idxcont[1]{#1 {\mdseries(continued)}}
+\newcommand\SB@idxcont[1]{%
+  \hbox to\hsize{\small\bfseries\idxcont{#1}\hfil}%
+  \nobreak%
+  \ifdim\prevdepth>4\p@\prevdepth4\p@\fi%
+  \vskip-\prevdepth%
+  \vskip4\p@\@plus\p@\@minus\p@\nointerlineskip%
+}
+\newcommand\SB@makescripindex[2]{%
+  \renewenvironment{SB@lgidx}[1]{%
+    \gdef\SB@idxcolhead{##1}%
+    \hbox to\hsize{\small\bfseries##1\hfil}%
+    \nobreak%
+    \ifdim\prevdepth>4\p@\prevdepth4\p@\fi%
+    \vskip-\prevdepth%
+    \vskip4\p@\@plus\p@\@minus\p@\nointerlineskip%
+  }{%
+    \mark{\noexpand\relax}%
+    \penalty-20\vskip3\p@\@plus3\p@\relax%
+  }%
+  \renewenvironment{SB@smidx}[1]
+    {\begin{SB@lgidx}{##1}}{\end{SB@lgidx}}%
+  \renewcommand\idxentry[2]{%
+    \parindent.25cm%
+    \SB@ellipspread{\sffamily\small\slshape\indent##1}{##2}%
+    \SB@toks\expandafter{\SB@idxcolhead}%
+    \mark{\noexpand\SB@idxcont{\the\SB@toks}}%
+  }%
+  \renewcommand\idxaltentry[2]{\SB@erridx{a scripture}}%
+  \SB@displayindex{#1}{#2}{3}%
+}
+\newcommand\SB@makeauthorindex[2]{%
+  \renewenvironment{SB@lgidx}[1]{\parindent\z@}{}%
+  \renewenvironment{SB@smidx}[1]{\parindent\z@}{}%
+  \renewcommand\idxentry[2]{%
+    \SB@ellipspread{\small\bfseries\sfcode`.\@m##1}{##2}%
+  }%
+  \renewcommand\idxaltentry[2]{\SB@erridx{an author}}%
+  \SB@displayindex{#1}{#2}{2}%
+}
+\newcommand\SB@Error{\PackageError{songs}}
+\newcommand\SB@Warn{\PackageWarning{songs}}
+\newcommand\SB@errpl{%
+  \SB@Error{\protect\includeonlysongs\space not permitted with%
+  in a songs environment}{\protect\includeonlysongs\space can o%
+  nly be used in the document preamble or between songs environ%
+  ments in the document body.}%
+}
+\newcommand\SB@warnigen{%
+  \PackageWarning{songs}{Indexes shown but index-generation inh%
+  ibited. Index files may be out of date.}{Indexes were initial%
+  ly turned off by the end of the document preamble, which mean%
+  s that the auxilliary files used to keep the indexes up-to-da%
+  te were not generated. However, indexes were turned on withi%
+  n the document body using \protect\indexeson, which means th%
+  e indexes shown in the resulting document are being created f%
+  rom outdated files. To correct the problem, be sure that inde%
+  xes are turned on by the end of the preamble so that the auxi%
+  lliary files will be updated.}%
+}
+\newcommand\SB@errrtopt{%
+  \SB@Error{Cannot display chords in a rawtext dump}{You have u%
+  sed the rawtext option in the \protect\usepackage\space lin%
+  e and have either used the chorded option as well or have use%
+  d the \protect\chordson\space macro subsequently.}%
+}
+\newcommand\SB@errcol{%
+  \SB@Error{Illegal number of columns}{The number of columns mu%
+  st be at least 1.}%
+}
+\newcommand\SB@errboo{%
+  \SB@Error{Encountered \protect\beginsong\space without seein%
+  g an \protect\endsong\space for the previous song}%
+  {Song \songnumstyle{songnum} might be missing a%
+  n \protect\endsong\space line.}%
+}
+\newcommand\SB@errbor{%
+  \SB@Error{Encountered \protect\beginsong\space without seein%
+  g an \protect\endscripture\space for the preceeding scriptur%
+  e quotation}{A scripture quotation appearing after son%
+  g \songnumstyle{songnum} might be missing a%
+  n \protect\endscripture\space line.}%
+}
+\newcommand\SB@erreov{%
+  \SB@Error{Encountered \protect\endsong\space without seein%
+  g an \protect\endverse\space for the preceding verse}{Son%
+  g \songnumstyle{songnum} has a \protect\beginverse\space%
+  line with no matching \protect\endverse\space line.}%
+}
+\newcommand\SB@erreoc{%
+  \SB@Error{Encountered \protect\endsong\space without seein%
+  g an \protect\endchorus\space for the preceding chorus}{Son%
+  g \songnumstyle{songnum} has a \protect\beginchorus\space%
+  line with no matching \protect\endchorus\space line.}%
+}
+\newcommand\SB@erreor{%
+  \SB@Error{Encountered \protect\endsong\space without seein%
+  g an \protect\endscripture for the preceding scripture quot%
+  e}{A scripture quote appearing after song \SB@prevsong\space%
+  ended with \protect\endsong\space instead of wit%
+  h \protect\endscripture.}%
+}
+\newcommand\SB@erreot{%
+  \SB@Error{Encountered \protect\endsong\space with no matchin%
+  g \protect\beginsong}{After song \SB@prevsong\space there wa%
+  s an \protect\endsong\space with no matchin%
+  g \protect\beginsong.}%
+}
+\newcommand\SB@errbvv{%
+  \SB@Error{Encountered \protect\beginverse\space without seein%
+  g an \protect\endverse\space for the preceding verse}{Son%
+  g \songnumstyle{songnum} might have a verse that has n%
+  o \protect\endendverse\space line.}%
+}
+\newcommand\SB@errbvc{%
+  \SB@Error{Encountered \protect\beginverse\space without seein%
+  g an \protect\endchorus\space for the preceding chorus}{Son%
+  g \songnumstyle{songnum} might have a chorus that has n%
+  o \protect\endchorus\space line.}%
+}
+\newcommand\SB@errbvt{%
+  \SB@Error{Encountered \protect\beginverse\space without firs%
+  t seeing a \protect\beginsong\space line}{After son%
+  g \SB@prevsong, there is a \protect\beginverse\space line no%
+  t contained in any song.}%
+}
+\newcommand\SB@errevc{%
+  \SB@Error{Encountered \protect\endverse\space while process%
+  ing a chorus}{Song \songnumstyle{songnum} might hav%
+  e a \protect\beginchorus\space concluded by a%
+  n \protect\endverse\space instead of an \protect\endchorus.}%
+}
+\newcommand\SB@errevo{%
+  \SB@Error{Encountered \protect\endverse\space without firs%
+  t seeing a \protect\beginverse}{Song \songnumstyle{songnum} m%
+  ight have an \protect\endverse\space with no matchin%
+  g \protect\beginverse.}%
+}
+\newcommand\SB@errevt{%
+  \SB@Error{Encountered an \protect\endverse\space outside o%
+  f any song}{After song \SB@prevsong, there is a%
+  n \protect\endverse\space line not preceded b%
+  y a \protect\beginsong\space line.}%
+}
+\newcommand\SB@erretex{%
+  \SB@Error{The \protect\repchoruses\space feature requires e-%
+  TeX compatibility}{Your version of LaTeX2e does not appear t%
+  o be e-TeX compatible. Find a distribution that includes e-T%
+  eX support in order to use this feature.}%
+}
+\newcommand\SB@errbcv{%
+  \SB@Error{Encountered \protect\beginchorus\space without see%
+  ing an \protect\endverse\space for the preceding verse}{Son%
+  g \songnumstyle{songnum} might hav%
+  e a \protect\beginverse\space with no match%
+  ing \protect\endverse.}%
+}
+\newcommand\SB@errbcc{%
+  \SB@Error{Encountered \protect\beginchorus\space without see%
+  ing an \protect\endchorus\space for the preceding chorus}%
+  {Song \songnumstyle{songnum} might have a \protect\beginchorus%
+  \space with no matching \protect\endchorus.}%
+}
+\newcommand\SB@errbct{%
+  \SB@Error{Encountered \protect\beginchorus\space without see%
+  ing a \protect\beginsong\space line first}{After son%
+  g \songnumstyle{songnum} there is a \protect\beginchorus\space%
+  line outside of any song.}%
+}
+\newcommand\SB@errecv{%
+  \SB@Error{Encountered an \protect\endchorus\space while proc%
+  essing a verse}{Song \songnumstyle{songnum} might hav%
+  e a \protect\beginverse\space concluded by \protect\endchorus%
+  \space instead of \protect\endverse.}%
+}
+\newcommand\SB@erreco{%
+  \SB@Error{Encountered \protect\endchorus\space without firs%
+  t seeing a \protect\beginchorus}{Song \songnumstyle{songnum} m%
+  ight have an \protect\endchorus\space with no match%
+  ing \protect\beginchorus.}%
+}
+\newcommand\SB@errect{%
+  \SB@Error{Encountered an \protect\endchorus\space outside o%
+  f any song}{After song \SB@prevsong, there is a%
+  n \protect\endchorus\space line not preceded b%
+  y a \protect\beginsong\space line.}%
+}
+\newcommand\SB@errbro{%
+  \SB@Error{Encountered a \protect\beginscripture\space insid%
+  e a song}{Song \songnumstyle{songnum} might be missing a%
+  n \protect\endsong\space line.}%
+}
+\newcommand\SB@errbrr{%
+  \SB@Error{Encountered a \protect\beginscripture\space with%
+  out seeing an \protect\endscripture\space for the precedin%
+  g scripture quote}{A scripture quote after song \SB@prevsong%
+  \space is missing an \protect\endscripture\space line.}%
+}
+\newcommand\SB@errero{%
+  \SB@Error{Encountered an \protect\endscripture\space whil%
+  e processing a song}{Song \songnumstyle{songnum} ends wit%
+  h \protect\endscripture\space when it should end wit%
+  h \protect\endsong.}%
+}
+\newcommand\SB@errert{%
+  \SB@Error{Encountered an \protect\endscripture\space with%
+  out first seeing a \protect\beginscripture}{After son%
+  g \SB@prevsong, there is an \protect\endscripture\space w%
+  ith no matching \protect\beginscripture.}%
+}
+\newcommand\SB@errscrip[1]{%
+  \SB@Error{Encountered a \protect#1\space outside a scriptu%
+  re quote}{\protect#1\space can only appear betwee%
+  n \protect\beginscripture\space an%
+  d \protect\endscripture\space lines.}%
+}
+\newcommand\SB@errchord{%
+  \SB@Error{Song \songnumstyle{songnum} seems to have chord%
+  s that appear outside of any verse or chorus}{All chords a%
+  nd lyrics should appear between \protect\beginverse\space%
+  and \protect\endverse, or between \protect\beginchorus\space%
+  and \protect\endchorus.}%
+}
+\newcommand\SB@errreplay{%
+  \SB@Error{Replayed chord has no matching chord}{Son%
+  g \songnumstyle{songnum} uses \protect^ more times than the%
+  re are chords in the previously memorized verse.}%
+}
+\newcommand\SB@errreg[1]{%
+  \SB@Error{Unknown chord-replay register name: #1}{Chord-re%
+  play registers must be declared with \protect\newchords.}%
+}
+\newcommand\SB@errdup[1]{%
+  \SB@Error{Duplicate definition of chord-replay register%
+  : #1}{\protect\newchords\space was used to declare the sa%
+  me chord-replay register twice.}%
+}
+\newcommand\SB@errmbar{%
+  \SB@Error{Song \songnumstyle{songnum} seems to have measur%
+  e bars that appear outside of any verse or chorus}{All mea%
+  sure bars (produced with \protect\mbar\space or |) must ap%
+  pear between \protect\beginverse\space an%
+  d \protect\endverse, or between \protect\beginchorus\space%
+  and \protect\endchorus.}%
+}
+\newcommand\SB@errtab{%
+  \SB@Error{Invalid argument to \protect\gtab\space macro. R%
+   eplacing it with \protect\0.}{Valid arguments consist onl%
+   y of: X, O, 0, 1, 2, 3, or 4.}%
+}
+\newcommand\SB@errtabx{%
+  \SB@Error{Argument to \protect\gtab\space has extra tokens%
+   . Ignoring them.}{The strings and fingering portions of t%
+   he second argument should consist of exactly six symbols e%
+   ach.}%
+}
+\newcommand\SB@errnoidx[1]{%
+  \SB@Error{Unknown index identifier: #1}{This index identifie%
+  r was never declared using \protect\newindex.}%
+}
+\newcommand\SB@erridx[1]{%
+  \SB@Error{\protect\idxaltentry\space not allowed in #1 index}%
+  {This error should not occur. The index generation routines ha%
+  ve malfunctioned. Try deleting all temporary files and then re%
+  compiling.}%
+}
+\newif\ifchorded
+\newif\iflyric\lyrictrue
+\newif\ifslides
+\newif\ifmeasures
+\newif\ifpartiallist
+\newif\ifrepchorus
+\newif\iftranscapos
+\newif\ifrawtext
+\newif\ifpdfindex\pdfindextrue
+\newif\ifsongindexes\songindexestrue
+\newif\ifSB@colorboxes\SB@colorboxestrue
+\newif\ifSB@genindexes\SB@genindexestrue
+\newif\ifSB@omitscrip
+\SB@chordson
+\ProcessOptions\relax
+\ifSB@pdf\else\pdfindexfalse\fi
+\ifSB@colorboxes
+  \RequirePackage{color}
+  \definecolor{SongbookShade}{gray}{.80}
+  \newcommand\SB@colorbox[1]{\colorbox{SongbookShade}{#1}}
+\else
+  \newcommand\SB@colorbox[1]{\vbox{%
+    \kern3\p@%
+    \hbox{\kern3\p@{#1}\kern3\p@}%
+    \kern3\p@%
+  }}
+\fi
+\ifrawtext
+  \newwrite\SB@txtout
+  \immediate\openout\SB@txtout=\jobname.txt
+  \newif\ifSB@doEOL
+  {\catcode`\^^M12 %
+   \catcode`\^^J12 %
+   \gdef\SB@printEOL{\ifSB@doEOL^^M^^J\fi}}
+  {\catcode`#12\gdef\SB@hash{#}}
+  {\catcode`&12\gdef\SB@amp{&}}
+  \def\SB@@@beginsong{%
+    \begingroup%
+      \def\'{}\def\`{}\def\v{}\def\u{}\def\={}\def\^{}%
+      \def\.{}\def\H{}\def\~{}\def\"{}\def\t{}%
+      \def\copyright{(c)}%
+      \let~\space%
+      \let\par\SB@printEOL%
+      \let\#\SB@hash%
+      \let\&\SB@amp%
+      \catcode`|9 %
+      \catcode`*9 %
+      \catcode`^9 %
+      \def\[##1]{}%
+      \resettitles%
+      \immediate\write\SB@txtout{\songnumstyle{songnum}. \songtitle}%
+      \nexttitle%
+      \foreachtitle{\immediate\write\SB@txtout{(\songtitle)}}%
+      \ifx\songauthors\@empty\else%
+         \immediate\write\SB@txtout{\songauthors}%
+      \fi%
+      \ifx\SB@rawrefs\@empty\else%
+         \immediate\write\SB@txtout{\SB@rawrefs}%
+      \fi%
+      \immediate\write\SB@txtout{}%
+      \SB@doEOLfalse%
+      \obeylines%
+  }
+  \def\endsong{%
+      \SB@doEOLtrue%
+      \immediate\write\SB@txtout{\songcopyright\space%
+        \songlicense\SB@printEOL}%
+    \endgroup%
+    \SB@insongfalse%
+    \stepcounter{songnum}%
+  }
+  \def\SB@parsesrefs#1{#1}
+  \long\def\beginverse#1#2\endverse{%
+    \SB@doEOLtrue\begingroup%
+      \def\textnote##1{##1}%
+      \def\SB@temp{#1}%
+      \def\SB@star{*}%
+      \ifx\SB@temp\SB@star%
+        \immediate\write\SB@txtout{\@gobble#2}%
+      \else%
+        \immediate\write\SB@txtout{#2}%
+      \fi%
+    \endgroup\SB@doEOLfalse}
+  \long\def\beginchorus#1\endchorus{%
+    \SB@doEOLtrue\begingroup%
+      \def\textnote##1{##1}%
+      \immediate\write\SB@txtout{Chorus:#1}%
+    \endgroup\SB@doEOLfalse}
+  \long\def\beginscripture#1\endscripture{}
+  \def\musicnote#1{}
+  \def\textnote#1{%
+    \SB@doEOLtrue%
+    \immediate\write\SB@txtout{#1\SB@printEOL}%
+    \SB@doEOLfalse}
+  \renewcommand\brk{}
+  \def\rep#1{(x#1)}
+  \def\echo#1{(#1)}
+  \def\mbar#1#2{}
+\fi
+\endinput
+%%
+%% End of file `songs.sty'.

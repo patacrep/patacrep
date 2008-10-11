@@ -1,3 +1,4 @@
+% Copyright (C) 2008 Romain Goffe, Alexandre Dupas
 % Copyright (C) 2008 Kevin W. Hamlen
 %
 % This program is free software; you can redistribute it and/or
@@ -17,16 +18,18 @@
 %
 % The latest version of this program can be obtained from
 % http://songs.sourceforge.net.
+%
+% Modified to serve personnal purposes. Newer versions can be 
+% obtained from http://www.lohrun.net.
 
 \documentclass[letterpaper]{article}
-\usepackage[bookmarks]{hyperref}
+\usepackage[bookmarks,bookmarksopen]{hyperref}
 \usepackage[lyric]{songs}
-%\includeonlysongs{1}
 
 %my packages
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx, color}
-\usepackage[english,frenchb]{babel}
+\usepackage[english,french]{babel}
 \usepackage{fancybox}
 
 \setlength{\oddsidemargin}{0in}
@@ -41,54 +44,29 @@
 \addtolength{\voffset}{-1cm}
 \pagestyle{empty}
 
-\newindex{titleidx}{lbtitle}
-\newauthorindex{authidx}{lbauth}
+\newindex{titleidx}{cbtitle}
+\newauthorindex{authidx}{cbauth}
 
 %Remove comment to include pictures in the songbook
 %\newcommand{\image}[2]{\begin{flushright} \includegraphics[width=#2cm]{#1}\end{flushright}}
 \newcommand{\image}[2]{}
+\renewcommand{\gtab}[2]{}
 
 \graphicspath{
   {img/}
 }
 
 %my renew
+%\includeonlysongs{1}
 \titleprefixword{}
 \renewcommand{\stitlefont}{\LARGE\bf}
 \renewcommand{\printchord}[1]{\small{\it#1}}
 \renewcommand{\chorusfont}{\it}
-\renewcommand{\everychorus}{\textnote{Refrain:}}
+%\renewcommand{\everychorus}{\textnote{Refrain:}}
 \baselineadj=-2.5pt plus 1pt minus 0pt
 \versesep=8pt plus 2pt minus 2pt
 
-\newlength{\larg}
-\setlength{\larg}{14.5cm}
-
-\title{
-{\rule{\larg}{1mm}}\vspace{7mm}
-\begin{tabular}{p{4cm} r}
-   & {\Huge {Carnet de bord}} \\
-   & \\
-   & {\Large Recueil de chansons pour guitare}
-\end{tabular}\\
-\vspace{2mm}
-{\rule{\larg}{1mm}}
-\vspace{2mm} \\
-\begin{tabular}{p{11cm} r}
-   & {\large \bf Version 3.0} \\
-   & {\large  \today} \\
-   & \\
-   \small auteur : Romain Goffe & \\
-   \small tel : 06 99 57 67 68 & \\
-   \small contact : crep@team-on-fire.com& \\
-   \small illustrations : \href{http://tux.crystalxp.net/}{CrystalXP.net}
-   & \\
-   \hline
-\end{tabular}\\
-%\begin{flushright} \includegraphics[width=7cm]{mawie-mexitux-1894} \end{flushright}
-%\begin{figure} \includegraphics[width=6cm]{on-fire} \end{figure}
-}
-\date{}
+\input{title.tex}
 
 \begin{document}
 
@@ -104,9 +82,9 @@
 \showindex{Index par titre des chansons}{titleidx}
 \showindex{Index par titre des auteurs}{authidx}
 
+\songsection{Chansons}
 \begin{songs}{titleidx,authidx}
   \input{songs.sbd}
 \end{songs}
 
 \end{document}
-

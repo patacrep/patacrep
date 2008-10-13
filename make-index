@@ -17,15 +17,6 @@ sub uppercase($)
     return $letter;
 }
 
-sub get_first_letter($)
-{
-    my $string = shift;
-    $string =~ /([\w\d])/;
-    my $letter = $1;
-    $letter = "0-9" if ( $letter =~ /\d/ ); # group every numer into one category
-    return uppercase $letter;	
-}
-
 sub usage 
 { 
     print "usage: make-index source\n";
@@ -54,30 +45,53 @@ my $link;
 my $letter;
 my $ref;
 
+my @prefix = ();
+
+while( @data &&  ( $data[0] =~ /^\s*%prefix (.*)$/ ) )
+{
+    push @prefix, $1;
+    shift @data;
+}
+
+# Create the prefix rule
+my $prefix = '('. join ("|", @prefix) . ')';
+
+# Create the filter function
+sub filter($)
+{
+    my $string = shift;
+    $string =~ /^$prefix?[^\w]*([\w])/;
+    my $letter = $2;
+    $letter = "0-9" if ( $letter =~ /\d/ ); # group every numbers
+    
+    $string =~ s/^$prefix?\s?(.*)/$2, $1/ unless $prefix  eq "()";
+
+    return (uppercase $letter, $string);	
+}
+
+# Process data
 while( @data )
 {
     $item = shift @data;
-    unless( $item =~ /^\s*%/ ) # ignore a line starting with %
-    {
-	chomp $item;
-	$index = shift @data;
-	chomp $index;
-	$link = shift @data;
-	chomp $link;
+    # entry goes on three lines
+    chomp $item;
+    $index = shift @data;
+    chomp $index;
+    $link = shift @data;
+    chomp $link;
     
-	# Get the first letter or number of the current item
-	$letter = get_first_letter $item;
-
-	# Create empty data index if needed
-	$table{$letter} = {} unless exists $table{$letter};
-    	$table{$letter}{$item} = [] unless exists $table{$letter}{$item};
-
-	# Create reference for the current item
-	$ref = { num => $index, link => $link };
+    # Get the first letter or number of the current item
+    ($letter, $item) = filter $item;
     
-	# Add the reference to the index
-	push @{$table{$letter}{$item}}, $ref;
-    }
+    # Create empty data index if needed
+    $table{$letter} = {} unless exists $table{$letter};
+    $table{$letter}{$item} = [] unless exists $table{$letter}{$item};
+    
+    # Create reference for the current item
+    $ref = { num => $index, link => $link };
+    
+    # Add the reference to the index
+    push @{$table{$letter}{$item}}, $ref;
 }
 
 # Create the index formated file

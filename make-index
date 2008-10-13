@@ -26,24 +26,6 @@ sub get_first_letter($)
     return uppercase $letter;	
 }
 
-#sub get_first_letter_wo_article($)
-#{
-#    my $string = shift;
-#    my $letter;
-#    if( $string =~ /^(The |L\'|Les |Le |La |Une |Un )/ ) # if there is an article before the name
-#    {
-#	$string =~ /$1([\w\d])/;
-#	$letter = $1;
-#    }
-#    else
-#    {
-#	$string =~ /([\w\d])/;
-#	$letter = $1;
-#    }
-#    $letter = "0-9" if ( $letter =~ /\d/ ); # group every numer into one category
-#    return uppercase $letter;	
-#}
-
 sub usage 
 { 
     print "usage: make-index source\n";

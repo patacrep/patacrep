@@ -1,12 +1,10 @@
 \songcolumns{2}
 \beginsong{Manu}[by=Renaud]
 
-
 \gtab{Lam}{002210}
 \gtab{Mim}{022000}
 \gtab{Sol}{320003}
 \gtab{Do}{032010}
-
 
 \beginverse
 \[Lam]Eh Manu rentre chez t\[Mim]oi,
@@ -17,10 +15,10 @@ J'croyais qu'un mec en c\[Sol]uir,
 Ca pouvait pas chia\[Do]ler.
 J'pensais même que souf\[Sol]frir,
 Ca pouvait pas t'arri\[Do]ver.
-J'oubliais tes tatou\[Sol]ages,
-Et ta lame de cout\[Do]eau,
-C'est surtout un blind\[Sol]age,
-Pour ton c\oe{}ur d'artich\[Do]aut.
+J'oubliais tes ta\[Sol]touages,
+Et ta lame de cou\[Do]teau,
+C'est surtout un blin\[Sol]dage,
+Pour ton c\oe{}ur d'arti\[Do]chaut.
 \endverse
 
 \beginchorus
@@ -86,7 +84,7 @@ Dès qu'elle est dans ton pieu.
 Dis lui qu't'es désolé,
 Qu't'as dû t'gourer d'trottoir.
 Quand tu l'as rencontrée,
-T'as dû t'tromper d'histoire.
+T'as d\^u t'tromper d'histoire.
 \endverse
 
 \endsong

@@ -22,6 +22,9 @@ C'est mon chat \[Mi7]noir qu'ils ont piéti\[Lam]né.
 Jamais ce ne serait \[Sol7]arri\[Do]vé
 Si j'avais su ce sortilège,
 \[Mi7]Malheureusement je l'avais \[Do]ou\[Mi7]bli\[Lam]é.
+\endchorus
+
+\beginchorus*
 Mais ce sortilège que j'avais oublié!
 \endchorus
 
@@ -35,7 +38,11 @@ C'est le voleur qui a été tué.
 \beginchorus
 Si j'avais eu mon parchemin
 J'aurais bien pu le détecter
+Si j'avais eu mon parchemin
 Mais il est couvert partout de tâches de vin.
+\endchorus
+
+\beginchorus*
 Et ce parchemin, couvert de tâches de vin
 Mais ce sortilège que j'avais oublié!
 \endchorus
@@ -52,6 +59,9 @@ Si j'avais eu ce vieux grimoire
 J'aurai sans doute mieux visé.
 Si j'avais eu ce vieux grimoire
 Celui que j'ai paumé avant hier au soir.
+\endchorus
+
+\beginchorus*
 Et ce vieux grimoire égaré l'autre au soir,
 Et ce parchemin couvert de tâches de vin,
 Mais ce sortilège que j'avais oublié!
@@ -69,6 +79,9 @@ Si j'avais saisi ma baguette
 Elle aurait pu le pétrifier.
 Si j'avais saisi ma baguette
 Je ne l'ai pas fait car elle était en miettes.
+\endchorus
+
+\beginchorus*
 Et cette baguette qui était en miettes,
 Et ce vieux grimoire, égaré l'autre au soir,
 Et ce parchemin, couvert de tâches de vin,
@@ -84,13 +97,17 @@ Fit du guerrier son petit déjeuner.
 
 \beginchorus
 Si j'avais eu l'anneau unique
-Ce dragon j'l'aurai bousillé.
+Ce dragon j'l'aurais bousillé.
 Si j'avais eu l'anneau unique
 Qui m'a été volé un jour par un hobbit.
+\endchorus
+
+\beginchorus*
 Et l'anneau unique, volé par un hobbit,
 Et cette baguette qui était en miettes,
 Et ce vieux grimoire, égaré l'autre au soir,
 Et ce parchemin, couvert de tâches de vin,
 Mais ce sortilège que j'avais oublié!
 \endchorus
+
 \endsong

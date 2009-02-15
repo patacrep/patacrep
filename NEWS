@@ -3,8 +3,9 @@ songbook (0.3)
   (crep, lohrun) Major update with many new songs.
   (crep) Corrections of a lot of mistakes.
   (crep) Include image support.
+  (lohrun) Add make-html utility.
 
- -- Alexandre Dupas <alexandre.dupas@gmail.com> ???
+ -- Alexandre Dupas <alexandre.dupas@gmail.com> Sun, 15 Feb 2009 18:34:59 +0100
 
 songbook (0.2)
 

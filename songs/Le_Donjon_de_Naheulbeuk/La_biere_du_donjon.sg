@@ -1,13 +1,11 @@
 \songcolumns{2}
 \beginsong{La bi\`ere du donjon}[by=Le Donjon de Naheulbeuk]
 
-
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
 \gtab{Mim}{022000}
 \gtab{Fa}{1,022100}
 \gtab{Mi}{022100}
-
 
 \beginverse
 La \[Lam]bière du donjon, c'est \[Sol]nous qui la bra\[Lam]ssène,
@@ -25,43 +23,32 @@ Servons, servons la bière du donjon.
 
 \beginverse
 La bière du donjon, c'est nous qui la vendène,
-La bière du donjon, c'est nous qui la vendons.
-Vendons, vendons la bière du donjène,
-Vendons, vendons la bière du donjon.
+La bière du donjon, c'est nous qui la vendons \dots
 \endverse
 
 \beginverse
 La bière du donjon, c'est nous qui la buvène,
-La bière du donjon, c'est nous qui la buvons.
-Buvons, buvons la bière du donjène,
-Buvons, buvons la bière du donjon.
+La bière du donjon, c'est nous qui la buvons \dots
 \endverse
 
 \beginverse
 La bière du donjon, c'est nous qui la rotène,
-La bière du donjon, c'est nous qui la rotons.
-Rotons, rotons la bière du donjène,
-Rotons, rotons la bière du donjon.
+La bière du donjon, c'est nous qui la rotons \dots
 \endverse
 
 \beginverse
 La bière du donjon, c'est nous qui la pissène,
-La bière du donjon, c'est nous qui la pissons.
-Pissons, pissons la bière du donjène,
-Pissons, pissons la bière du donjon.
+La bière du donjon, c'est nous qui la pissons \dots
 \endverse
 
 \beginverse
 La bière du donjon, c'est nous qui la chantène,
-La bière du donjon, c'est nous qui la chantons.
-Chantons, chantons la bière du donjène,
-Chantons, chantons la bière du donjon.
+La bière du donjon, c'est nous qui la chantons \dots
 \endverse
 
 \beginverse
 La bière du donjon, c'est nous qui la gerbène,
-La bière du donjon, c'est nous qui la gerbons.
-{\ldots}
+La bière du donjon, c'est nous qui la gerbons \dots
 Et même qu'après, hé bien on en r'prend !!!
 \endverse
 

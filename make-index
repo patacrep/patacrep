@@ -9,6 +9,7 @@
 
 use warnings;
 use strict;
+use utf8;
 
 sub uppercase($)
 {
@@ -17,11 +18,23 @@ sub uppercase($)
     return $letter;
 }
 
-sub usage 
+sub usage ()
 { 
-    print "usage: make-index source\n";
-    exit 1;
+    die "usage: make-index [options] source", "\n";
 }
+
+my %options;
+
+sub getoptions ()
+{
+    eval q{use Getopt::Long};
+    Getopt::Long::Configure('pass_through');
+    GetOptions(
+#	       "verbose|v!" => \$options{verbose},
+	       ) || usage();
+}
+
+getoptions();
 
 # Process command line
 usage() unless @ARGV;
@@ -54,17 +67,18 @@ while( @data &&  ( $data[0] =~ /^\s*%prefix (.*)$/ ) )
 }
 
 # Create the prefix rule
-my $prefix = '('. join ("|", @prefix) . ')';
+my $prefix = '(('. join ("|", @prefix) . ')[\s])';
 
 # Create the filter function
 sub filter($)
 {
     my $string = shift;
     $string =~ /^$prefix?[^\w]*([\w])/;
-    my $letter = $2;
-    $letter = "0-9" if ( $letter =~ /\d/ ); # group every numbers
     
-    $string =~ s/^$prefix?\s?(.*)/$2, $1/ unless $prefix  eq "()";
+    my $letter = uppercase $3;
+    $string =~ s/^$prefix\W*\w(.*)/$letter$3, $1/;
+
+    $letter = "0-9" if ( $letter =~ /\d/ ); # group every numbers
 
     return (uppercase $letter, $string);	
 }

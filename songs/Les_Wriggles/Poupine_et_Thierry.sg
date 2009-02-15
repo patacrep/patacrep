@@ -5,7 +5,8 @@
 \gtab{Lam}{002210}
 \gtab{Mim}{022000}
 \gtab{Fa}{1,022100}
-\gtab{Sol}{3,022100}
+\gtab{Sol}{320003}
+\gtab{Do}{032010}
 \gtab{Sol7}{3,020100}
 
 
@@ -19,13 +20,13 @@ Parce qu'en \[Fa]fait Poupi\[Sol]nette c'était \[Do]une \[Sol]be\[Do]lette.
 \beginchorus
 \[Do]Thierry le chasseur est \[Sol]comme tous les chasseurs
 Il est \[Do]con-\[Sol]tent d'aller chasser
-\[Do]Il aime les fleurs connaît \[Sol]la forêt par c\oe{}ur
-Il est \[Do]con-\[Sol]centré sur son gibier.
+\[Do]Il aime les fleurs, connaît \[Sol]la forêt par c\oe{}ur
+Il est \[Do]con-cen\[Sol]tré sur son gibier.
 \endchorus
 
 \beginverse
-Poupine le lapin papouille l'arrière train de Poupinette
-Qui s'écrit: ``Oh vas y fais-moi mal''
+Poupine le lapin papouille l'arrière train
+De Poupinette qui s'écrit: ``Oh! Vas y, fais-moi mal!''
 Ca réveille Bernadette, Bernadette la vieille chouette
 Qui bondit: ``Une belette, un lapin, c'est pas normal!''
 \endverse
@@ -34,14 +35,14 @@ Qui bondit: ``Une belette, un lapin, c'est pas normal!''
 Thierry le chasseur n'est pas un gros bourrin 
 Puisqu'il est con-forme à la tradition
 Si il écrase les fleurs, c'est à cause de son tout-terrain
-Puisqu'il est con-\[Sol7]ducteur
+Puisqu'il est con-\[Sol7]ducteur attention
 \endchorus
 
 \beginverse
-Attention petit lapin, derrière toi
-C'est toute la forêt qui commence a s'ébranler
-Prévenu par la chouette voilà le papa de ta Poupinette
-Qui vient te coller une branlée.
+Petit lapin, derrière toi
+C'est toute la forêt qui commence à s'ébranler
+Prévenu par la chouette, voilà le papa,
+De ta Poupinette qui vient te coller une branlée.
 \endverse
 
 \beginchorus
@@ -53,8 +54,8 @@ Il est con-trarié d'avoir pas pu
 
 \beginverse
 Sortir son fusil pour s'payer une grosse boucherie
-Puisqu'il est con-voqué au commando spécial
-De son parti pour aller j'ter des \oe{}ufs pourris
+Puisqu'il est con-voqué au commando
+Spécial de son parti pour aller j'ter des \oe{}ufs pourris
 Sur les con-gres-sistes écolos!
 \endverse
 

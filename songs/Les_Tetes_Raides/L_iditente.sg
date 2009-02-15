@@ -1,20 +1,18 @@
 \beginsong{L'iditent\'e}[by=Les T\^etes Raides]
 
-
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
 \gtab{Do}{032010}
 \gtab{Mi7}{020100}
 \gtab{Rém}{X00231}
 
-
 \beginverse
-\[Lam]Les clans des rues les clandestins
+\[Lam]Les clans des rues, les clandestins
 Les cris des chiens hurlent à la \[Sol]ronde
 J'\[Do]suis pas inscrit sur la mappe\[Mi7]monde
 \[Lam]Y'a pas d'pays pour les vauriens
 Les poètes et les bala\[Sol]dins
-Y'a pas d'\[Do]pays, si tu le \[Mi7]veux prends le \[Lam]mien
+Y'a pas d'\[Do]pays, si tu le \[Mi7]veux, prends le \[Lam]mien
 \endverse
 
 \beginchorus
@@ -27,7 +25,7 @@ Y'a pas d'\[Do]pays, si tu le \[Mi7]veux prends le \[Lam]mien
 Avec ses sans-pa\[Mi7]pirs
 Qui vont bientôt r'par\[Lam]tir
 Vers leur pays les \[Mi7]chiens
-On a tout pris chez eux y a plus \[Lam]rien
+On a tout pris chez eux y'a plus \[Lam]rien
 \endverse
 
 \beginverse
@@ -45,7 +43,7 @@ L'iditenté l'idétitan
 L'itendidé, à la ronde
 Et dans ce flot d'une idée rien
 J'aurai plus d'nom j'aurai plus rien
-Dis moi c'est quand tu reviens
+Dis moi c'est quand \echo{Dis moi c'est quand} que tu reviens
 \endverse
 
 \beginchorus
@@ -61,7 +59,7 @@ C'est plus du gros sel
 C'est des \[Lam]tomawaks
 Ou des missiles sol-\[Mi7]air
 Ou des \[Lam]skuds
-Et \[Rém]moi avec mon pistolet à bou\[Mi7]chon
+Et \[Rém]moi, avec mon pistolet à bou\[Mi7]chon
 Je pars au front
 \endverse
 

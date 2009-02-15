@@ -1,6 +1,5 @@
-\songcolumns{2}
+\songcolumns{1}
 \beginsong{J'ai 10 sous dans ma poche}[by=Le Donjon de Naheulbeuk]
-
 
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
@@ -19,7 +18,7 @@ Et tou\[Lam]jours gai gai et tou\[Mim]jours gaiement
 J'ai 8 sous dans ma poche{\ldots}
 \endverse
 
-\beginverse
+\beginverse*
 J'ai pas d'sous dans ma poche j'ai aucun argent
 Et mes poches sont vides et oui c'est emmerdant
 Car c'est le nain dans mon village qui a tout l'argent.

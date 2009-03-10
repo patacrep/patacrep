@@ -1,3 +1,3 @@
-A new presentation is used for the website. Now, upates will be provided toward a [[news]] page. Feeds are available on them to stay current on news for this site. An other section has appeared: [[songs]].
+A new presentation is used for the website. Now, updates will be provided toward a [[/news]] page. Feeds are available on them to stay current on news for this site.
 
-Soon, a download section will appear as well as a much more detailled manual.
+Soon, a download section will appear as well as a much more detailed manual.

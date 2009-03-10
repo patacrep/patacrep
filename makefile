@@ -52,7 +52,7 @@ endef
 ############################################################
 ### Cibles
 
-default: pdf documentation
+default: pdf
 
 ps: LATEX = latex
 ps: $(PSF)

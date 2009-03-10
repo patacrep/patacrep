@@ -1,5 +1,7 @@
 Songbook is a set of tools used to produce lyricbooks and guitar chordbooks from latex songs file. It is shipped with Crep's and Lohrun's chordbook containing more than 125 songs. Crep's website, <http://patacrep.com>, gives more information about this project.
 
+This website is both a wiki and the documentation of the songbook project. You are welcome to contribute in any way (you have to register in order to edit pages).
+
 * [[download]]
 * [[news]]
 * [[documentation|doc]]

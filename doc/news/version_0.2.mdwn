@@ -1,0 +1,7 @@
+songbook 0.2 released with [[!toggle text="these changes"]]
+
+[[!toggleable text="""
+ + make-index: Alphabetical ordering and hierachy by the first letter now for both title and authors. Do not ignore article before a song's or author's name.
+ + makefile: Simplified makefile (do not use songs/song.sbd anymore).
+ + songs: New version from Crep with tabs for every songs.
+"""]]

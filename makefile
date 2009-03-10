@@ -29,6 +29,12 @@ SONGS_SRC = $(shell ls songs/*/*.sg)
 
 MAKE_INDEX=./make-index
 
+ifeq ($(shell which ikiwiki),)
+IKIWIKI=echo "** ikiwiki not found" >&2 ; echo ikiwiki
+else
+IKIWIKI=ikiwiki
+endif
+
 # Get dependencies (that can also have dependencies)
 define get_dependencies
 	deps=`perl -ne '($$_)=/^[^%]*\\\(?:include|input)\{(.*?)\}/;@_=split /,/; foreach $$t (@_) { print "$$t "}' $<`
@@ -46,7 +52,7 @@ endef
 ############################################################
 ### Cibles
 
-default: pdf
+default: pdf documentation
 
 ps: LATEX = latex
 ps: $(PSF)
@@ -56,7 +62,7 @@ pdf: LATEX = pdflatex
 pdf: $(PDF)
 	xpdf $<
 
-clean:
+clean: cleandoc
 	@rm -f $(SRC:%.tex=%.d)
 	@rm -f $(CIBLE:%=%.aux) 
 	@rm -f $(CIBLE:%=%.toc)
@@ -69,6 +75,12 @@ cleanall: clean
 	@rm -f $(PDF) $(PSF)
 
 depend:
+
+documentation:
+	$(IKIWIKI) doc html -v --wikiname "Songbook Documentation" --plugin=goodstuff
+
+cleandoc:
+	@rm -rf "doc/.ikiwiki" html
 
 ############################################################
 

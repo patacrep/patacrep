@@ -1,0 +1,23 @@
+Songbook frequently asked questions.
+
+[[!toc ]]
+
+## Can I propose my own song?
+
+Yes please do. 
+
+## Can I suggest a song?
+
+Yes the bug tracker is the right place to do so.
+
+## Where did you find the latex style used to produce the books?
+
+We use a slighlty modified version of the [Songs](http://songs.sourceforge.net/) project.
+
+## What is the licence of this software?
+
+All pieces of software including Makefile, index scripts and latex style are distribued under the GPL2 licence. 
+
+## What is the licence of the songs files?
+
+Song files transcribe copyrighted material. The transcription is the result of our own work. We believe that the non-commercial use of this work is fair. Copyright holders wanting us to remove songs from beeing distributed have simply to formulate their demand by email at <alexandre.dupas@gmail.com> of <crep@team-on-fire.com>.

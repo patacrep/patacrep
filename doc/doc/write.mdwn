@@ -1,0 +1,84 @@
+At one point you may want to write and add your own songs to the chordbook. Let us explain how to do this in an easy way.
+
+The first thing to know is that we use latex, a powerfull text processing software that produce nice looking output allowing the writter to focus on the content rather than the format. This is a programming language based on command that act as a markup.
+
+Command start with a backslash '\' followed by the command name. Then comes arguments of the command, if any, either between braces or square brackets. Enough for the theory, let us present the mostly common used command to produce well formated songs.
+
+## Main elements
+
+Every songs start with the following declaration where you have to replace the title and the author according to the song you are writting.
+
+    \beginsong{Title}[by=Author]
+
+Then the song is composed of a succession of verses and chorus. A verse start with *\beginverse* and finish with *\endverse*. In a same way, a chorus start with *\beginchorus* and finish with *\endchorus*.
+
+The lyrics are typed normally between *\begin* and *\end*, but to add some chords information, you have to use a special command: for instance \[Mi] produce a **Mi** chord above the lyrics where the command is inserted. You can use whatever text as chord definition (see examples for flat, sharp or other classical notations). The following verse obtained from the song *Where is my mind* by the Pixies shows the use of these commands.
+
+    \beginverse
+    With your \[Mi]feet in the air and your \[Do#m]head on the ground \[La&m] \[La]
+    \[Mi] Try this trick\[Do#m] and s\[La&m]pin it   Ye\[La]ah,
+    \[Mi] Your head will coll\[Do#m]apse but there's \[La&m]nothing in it And you'll \[La]ask yourself
+    \endverse
+
+Some character have to be typed differently using latex command to produce a perfect results. The two main examples used in the current songbook are the three dots (...) and the oe character. To represent such character you have to respectively used the *{\dots}* command and the *{\oe}* command. We use braces arround the command so the command can be inserted wherever you want. Some songs use other notation for the same characters, please report any problem you may find in the current source files.
+
+Every songs end with the following declaration so you sould add it at the end of your file.
+
+    \endsong
+
+## Chord notation
+
+Flat is represented using the *'&'* character: this produce a *'b'* shaped character which is the classical notation for the flat. Sharp is coded using *'#'*. Other notations are simply added as character to the main chord. For instance a *La flat minor* is noted *La&m*.
+
+## Optionnal elements
+
+Before the *\beginsong* command, you could specify the number of column you want your song to be divided into. You might have between one and three column by using the following command with the appropriate number of column.
+
+    \songcolumns{1}
+
+Another great tool is the guitar tab presenting each chord played in the song. This is done using the *\gtab* command between the *\beginsong* and the first verse (*\beginverse*) or chorus (*\beginchorus*) whichever comes first. I wil not detailled how the *\gtab* command works here but I will just gives some examples with common chords.
+
+    \gtab{Ré}{XX0232}
+    \gtab{Mi}{022100}
+    \gtab{Fa}{1,022100}
+
+To produce a repeat sign you should use the *\rep* command. To repeat four times a line, use the following command.
+
+    \rep{4}
+
+## Example
+
+Here is an example of song file that could be used as a starting point to add a new song to the songbook. This is the lyrics and chord information for *Where is my mind* by the Pixies.
+
+     \beginsong{Where Is My Mind}[by=Pixies]
+
+     \gtab{La&m}{4,133211}
+     \gtab{La}{5,133211}
+     \gtab{Do#}{4,X13331}
+     \gtab{Si}{2,X13331}
+
+     \beginverse
+
+     \beginchorus
+     \[Mi]Where is my \[Do#m]mind?
+     \[La&m] Where is my mind?\[La]
+     \[Mi]Where is my \[Do#m]mind?  \[La&m] \[La]
+     \endchorus
+
+     \beginverse
+     \[Mi]Way \[Labm]out in the \[La]water see it \[Lam]swimmin' \[Do#] {\ldots} \[Si]
+     \endverse
+
+     \beginverse
+     I was swimmin' in the Carribean
+     Animals were hiding behind the rock
+     Except the little fish
+     But they told me, he swears
+     Tryin' to talk to me to me to me
+     \endverse
+
+     \endsong
+
+## Sending your work for inclusion
+
+If you add song to your songbook, why don't you send us your file. We will take a look at it and will be pleased to add it into the official songbook. As always, contributors are welcomed.

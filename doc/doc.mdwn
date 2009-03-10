@@ -1,0 +1,5 @@
+Documentation for Songbook.
+
+ + How to [[install]] this software;
+ + How to [[write]] a new song into the books;
+ + There's also a [[FAQ]].

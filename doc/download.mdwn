@@ -1,0 +1,1 @@
+There is a git repository, at `git://git.lohrun.net/songbook.git`.

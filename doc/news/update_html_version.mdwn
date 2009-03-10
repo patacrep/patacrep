@@ -1,0 +1,1 @@
+I have just pushed a minor update that allow html version to have a distinct appearance between chorus and verses in songs. Stay tuned for the next enhancement.

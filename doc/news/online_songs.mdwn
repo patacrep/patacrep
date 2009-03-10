@@ -1,0 +1,4 @@
+After a small evening of work, I managed to have an ikiwiki plugin working that convert song files into html pages. For the moment, only 4 of them are available in [[songs]]. You can check them out. 
+
+Further work is needed in order to complete this plugin, for instance displaying tabs; differencing chorus from verses and so on. Stay tuned!
+ 

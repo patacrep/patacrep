@@ -1,0 +1,4 @@
+Here comes the annoncements of new releases, features and miscelanious news.
+Songook users are recommended to subscribe to this page's RSS feed.
+
+[[!inline pages="./news/* and !*/Discussion" rootpage="news" show="20"]]

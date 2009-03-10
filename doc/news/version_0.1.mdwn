@@ -1,0 +1,6 @@
+songbook 0.1 released with [[!toggle text="these changes"]]
+
+[[!toggleable text="""
+ + makefile: Improve handling of multiple main .tex files. For instance, it is now possible to have a lyricbook.tex and chordbook.tex each of them generating a pdf file containing something different. It also now take cares of dependencies over other .tex file or other special files (songs.sbd for instance).
+ + songs.sty: Minor change to allow songs to contain fret numbers in tabs. The separator is now ',' instead of ':'. 
+"""]]

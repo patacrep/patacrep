@@ -1,0 +1,7 @@
+Great news! I have configured a public git repository for you to checkout the lastest development version. You can get it using:
+
+	git clone git://git.lohrun.net/songbook.git
+
+I have started to work on improvement of the songbook which are available into the git repository.
+
+In other news, you may have noticed that my ikiwiki website is now allowing user editing. Soon you will be able to edit songs, that could be automatically used in the chordbook/lyric book. Currently you are restricted to Discussion page but feel free to register and why not asking to get editing rights.

@@ -1,0 +1,8 @@
+songbook 0.3 released with [[!toggle text="these changes"]]
+
+[[!toggleable text="""
+ + Major update with many new songs (total of 125 songs) - Crep, Lohrun
+ + Corrections of a lot of mistakes - Crep
+ + Include image support - Crep
+ + Add make-html utility - Lohrun
+"""]]

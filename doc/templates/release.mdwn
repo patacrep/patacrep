@@ -1,0 +1,7 @@
+<TMPL_IF news>News for Songbook <TMPL_VAR version>:
+
+<TMPL_VAR news>
+
+</TMPL_IF>
+Songbook <TMPL_VAR version> released with [[!toggle text="these changes" id="changelog"]]
+[[!toggleable id="changelog" text="""<TMPL_VAR changelog>"""]]

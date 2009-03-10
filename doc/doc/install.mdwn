@@ -1,0 +1,9 @@
+Songbook is a set of tool used to create lyrics and chords books. It is composed of a latex style and a set of script and makefile to help users to produce great quality songbook.
+
+Installing and running Songbook is pretty straightforward:
+
+	tar xzvf songbook.tar.gz
+	cd songbook
+	make
+
+Note that you'll need make, perl, and a latex distribution that provides pdflatex to compile your first books. If you want to know more about adding songs to the songbooks, you have to learn how to [[write]] some.

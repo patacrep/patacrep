@@ -2,9 +2,28 @@ Songbook frequently asked questions.
 
 [[!toc ]]
 
+## What is the songbook?
+
+It is a pdf file gathering several songs into a pleasant view so that you can easily read and play them with your own guitar.
+The songbook is generated from a set of simple text files containing lyrics and tabs thanks to LaTeX.
+
+## Why use LaTeX?
+
+Previous and non-released versions were made from common text process softwares. The fact is that LaTeX is the only
+way to keep a coherent pdf file, regardless of the number of songs you decide to include.
+As LaTeX differenciate content and layout, you can easily build a songbook of your convenience with the songs you decide
+or with different layouts without any modification of the original text file corresponding to the song.
+
+## Different layouts?
+
+There are 3 major releases of the songbook. 
+* a version with guitar tabs: the chordbook
+* a more compact version restricted to lyrics only: the lyricbook
+* a version with a few sheets (solos for example) providing melodic lines: the lilypondbook (Lilypond is the software producing the sheets) 
+
 ## Can I propose my own song?
 
-Yes please do. 
+Yes please do. Emails and/or forum posts are welcomed!
 
 ## Can I suggest a song?
 
@@ -20,4 +39,4 @@ All pieces of software including Makefile, index scripts and latex style are dis
 
 ## What is the licence of the songs files?
 
-Song files transcribe copyrighted material. The transcription is the result of our own work. We believe that the non-commercial use of this work is fair. Copyright holders wanting us to remove songs from beeing distributed have simply to formulate their demand by email at <alexandre.dupas@gmail.com> of <crep@team-on-fire.com>.
+Song files transcribe copyrighted material. The transcription is the result of our own work. We believe that the non-commercial use of this work is fair. Copyright holders wanting us to remove songs from beeing distributed have simply to formulate their demand by email at <alexandre.dupas@gmail.com> or <crep@team-on-fire.com>.

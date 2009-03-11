@@ -1,1 +1,10 @@
-There is a git repository, at `git://git.lohrun.net/songbook.git`.
+There is a git repository, at `git://git.lohrun.net/songbook.git`. There is also a [gitweb](http://git.lohrun.net/songbook.git).
+
+To get your own copy of the songbook using git, the command should be:
+
+    git clone git://git.lohrun.net/songbook.git
+
+The lastest source package is available from [here](http://git.lohrun.net/?p=songbook.git;a=snapshot;h=HEAD;sf=tgz).
+
+
+

@@ -1,9 +1,26 @@
-Songbook is a set of tool used to create lyrics and chords books. It is composed of a latex style and a set of script and makefile to help users to produce great quality songbook.
+## Dependencies
 
-Installing and running Songbook is pretty straightforward:
+* required: make, perl, pdflatex, xpdf
+* optional: git, lilypond, ikiwiki
+
+Debian/Ubuntu: sudo aptitude install build-essential perl texlive texlive-lang-french texlive-latex-extra lilypond ikiwiki git
+
+## Installation
+
+from tarball:
 
 	tar xzvf songbook.tar.gz
 	cd songbook
 	make
 
-Note that you'll need make, perl, and a latex distribution that provides pdflatex to compile your first books. If you want to know more about adding songs to the songbooks, you have to learn how to [[write]] some.
+from git:
+
+	git clone git://git.lohrun.net/songbook.git
+	cd songbook
+	make
+
+## Stay up-to-date with git
+
+	cd songbook
+	git pull
+	make

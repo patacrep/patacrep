@@ -77,7 +77,7 @@ cleanall: clean
 depend:
 
 documentation:
-	$(IKIWIKI) doc html -v --wikiname "Songbook Documentation" --plugin=goodstuff
+	$(IKIWIKI) doc html -v --wikiname "Songbook Documentation" --plugin=goodstuff --set usedirs=0
 
 cleandoc:
 	@rm -rf "doc/.ikiwiki" html

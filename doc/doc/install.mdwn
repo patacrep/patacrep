@@ -3,7 +3,9 @@
 * required: make, perl, pdflatex, xpdf
 * optional: git, lilypond, ikiwiki
 
-Debian/Ubuntu: sudo aptitude install build-essential perl texlive texlive-lang-french texlive-latex-extra lilypond ikiwiki git
+Debian/Ubuntu:
+
+	sudo aptitude install build-essential perl texlive texlive-lang-french texlive-latex-extra lilypond ikiwiki git
 
 ## Installation
 

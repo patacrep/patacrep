@@ -4,6 +4,8 @@ In the song F*** you by Garfunkel & Oates
 * Avoid placing a chord on the second letter of a monosyllabic word (a\\[Do]s -> \\[Do]as)
 * Avoid chorus chords repetition
 
+  -- [[done]]
+
 ---
 
 Voici le patch:

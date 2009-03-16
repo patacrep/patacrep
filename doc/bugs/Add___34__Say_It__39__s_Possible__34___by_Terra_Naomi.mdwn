@@ -2,4 +2,6 @@ Simple song to play but must be very hard to sing right. Here is a youtube video
 
 <http://www.youtube.com/watch?v=ARHyRI9_NB4>
 
+First version added. The chords are correctly placed for the first verse but the rest of the song has to be formatted to follow the same pattern.
+
 [[song_request]]

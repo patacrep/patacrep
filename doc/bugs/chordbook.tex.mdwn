@@ -1,0 +1,133 @@
+* reorganistation for a readable version
+* adjusted parameters
+* revert to original font
+* new layout for indexes
+
+Patch:
+
+    diff --git a/chordbook.tex b/chordbook.tex
+    index e54f1c9..d2ef246 100644
+    --- a/chordbook.tex
+    +++ b/chordbook.tex
+    @@ -23,65 +23,89 @@
+     % obtained from http://www.lohrun.net.
+     
+     \documentclass[letterpaper]{article}
+    -\usepackage[bookmarks,bookmarksopen]{hyperref}
+    -\usepackage[chorded]{songs}
+     
+    -%my packages
+    +%-----------------------------------------------------------------
+    +% Packages
+    +%-----------------------------------------------------------------
+     \usepackage[utf8]{inputenc}
+    +\usepackage[bookmarks,bookmarksopen]{hyperref}
+    +\usepackage[chorded]{songs}
+     \usepackage[pdftex]{graphicx, color}
+    +\usepackage[pdftex]{graphicx}
+     \usepackage[english,french]{babel}
+    -\usepackage{palatino}
+     \usepackage{fancybox}
+     
+    -\setlength{\oddsidemargin}{0in}
+    -\setlength{\evensidemargin}{0in}
+    -\setlength{\textwidth}{6.5in}
+    -\setlength{\topmargin}{0in}
+    +%-----------------------------------------------------------------
+    +% Preferences
+    +%-----------------------------------------------------------------
+    +
+    +\setlength{\oddsidemargin}{-0.5cm}
+    +\setlength{\evensidemargin}{-0.5cm}
+    +\setlength{\textwidth}{18cm}
+    +\setlength{\topmargin}{0cm}
+     \setlength{\topskip}{0in}
+     \setlength{\headheight}{0in}
+     \setlength{\headsep}{0in}
+    -\setlength{\textheight}{9.1in}
+    +\setlength{\colminheight}{9in}
+    +\setlength{\textheight}{9.8in}
+    +
+     \settowidth{\versenumwidth}{1.\ }
+     \addtolength{\voffset}{-1cm}
+    -\pagestyle{empty}
+     
+    -\newindex{titleidx}{cbtitle}
+    -\newauthorindex{authidx}{cbauth}
+    +\renewcommand{\stitlefont}{\LARGE\bf}
+    +\renewcommand{\printchord}[1]{\small{\it#1}}
+    +\renewcommand{\chorusfont}{\it}
+    +\renewcommand{\idxtitlefont}{\sffamily\bfseries}
+    +\renewcommand{\idxauthfont}{\sffamily\bfseries}
+    +\renewcommand{\idxheadfont}{\sffamily\it\LARGE}
+    +\renewcommand{\idxrefsfont}{\bfseries}
+    +
+    +\baselineadj=-2.5pt plus 1pt minus 0pt
+    +\versesep=8pt plus 2pt minus 2pt
+    +\rfoot{\thepage}
+    +
+    +%-----------------------------------------------------------------
+    +% Options
+    +%-----------------------------------------------------------------
+     
+    -%Remove comment to include pictures in the songbook
+    -\newcommand{\image}[2]{\begin{flushright} \includegraphics[width=#2cm]{#1}\end{flushright}}
+    +% Switch comment to include/remove pictures in the songbook
+    +\newcommand{\image}[2]{\begin{flushright} 
+    +    \includegraphics[width=#2cm]{#1}\end{flushright}}
+     %\newcommand{\image}[2]{}
+    -%\renewcommand{\gtab}[2]{}
+     
+    +% Directory for pictures
+     \graphicspath{
+       {img/}
+     }
+     
+    -%my renew
+    +% Remove comment to remove chords diagrams
+    +%\renewcommand{\gtab}[2]{}
+    +
+     %\includeonlysongs{1}
+     \titleprefixword{}
+    -\renewcommand{\stitlefont}{\LARGE\bf}
+    -\renewcommand{\printchord}[1]{\small{\it#1}}
+    -\renewcommand{\chorusfont}{\it}
+    -%\renewcommand{\everychorus}{\textnote{Refrain:}}
+    -\baselineadj=-2.5pt plus 1pt minus 0pt
+    -\versesep=8pt plus 2pt minus 2pt
+    +
+    +%-----------------------------------------------------------------
+    +% Generate Indexes
+    +%-----------------------------------------------------------------
+    +
+    +\newindex{titleidx}{cbtitle}
+    +\newauthorindex{authidx}{cbauth}
+    +
+    +%-----------------------------------------------------------------
+    +% Content
+    +%-----------------------------------------------------------------
+     
+     \input{title.tex}
+     
+     \begin{document}
+     
+     \maketitle
+    -\thispagestyle{empty}
+    -\setcounter{page}{0}
+    +\pagestyle{empty}
+     
+     \newpage
+     \input{license.tex}
+     
+     \newpage
+    -\setlength{\colminheight}{9.5in}
+    -\setlength{\textheight}{9.7in}
+    -
+     \showindex{Index des chansons}{titleidx}
+     \showindex{Index des auteurs}{authidx}
+     
+    @@ -91,4 +115,3 @@
+     \end{songs}
+     
+     \end{document}
+    -

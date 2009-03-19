@@ -4,8 +4,7 @@ Would be nice to integrate.
 
 Beware: patch for gtab delimiter:
 
-< \newcommand\SB@ctoken{} \def\SB@ctoken{,}
-
----
-> \newcommand\SB@ctoken{} \def\SB@ctoken{:}
+    < \newcommand\SB@ctoken{} \def\SB@ctoken{,}
+    ---
+    > \newcommand\SB@ctoken{} \def\SB@ctoken{:}
 

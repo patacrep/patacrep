@@ -1,0 +1,2 @@
+* pdf bookmark section "title index" point the previous page (blank)
+* have to perform "make clean" after adding a song to have an updated index

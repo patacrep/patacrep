@@ -54,11 +54,9 @@ endef
 
 default: pdf
 
-ps: LATEX = latex
 ps: $(PSF)
 	gv $<
 
-pdf: LATEX = pdflatex
 pdf: $(PDF)
 	xpdf $<
 
@@ -96,7 +94,6 @@ $(PSF): %.ps.gz: %.ps
 
 $(PDF): LATEX = pdflatex
 $(PDF): %.pdf: %.tex %.aux
-	$(LATEX) $< 
 
 %.aux: %.tex
 	$(LATEX) $< 
@@ -106,8 +103,8 @@ $(PDF): %.pdf: %.tex %.aux
 
 %.d: %.tex
 	@$(get_dependencies) ; echo $< $@: $$deps > $@
-	@$(get_inclusions) ; echo $(patsubst %.tex,%.pdf,$<) : $$incl >> $@ ; 
-	@$(get_prereq) ; echo $$prep : $(patsubst %.tex,%.aux,$<) >> $@
+	@$(get_inclusions) ; echo $(patsubst %.tex,%.pdf,$<) : $$incl >> $@ ; echo "\t"$$\(LATEX\) $< >> $@ ;
+	@$(get_prereq) ; echo $$prep : $(patsubst %.tex,%.aux,$<) >> $@ ; 
 
 include $(SOURCES:%.tex=%.d)
 

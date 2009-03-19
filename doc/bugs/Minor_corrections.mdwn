@@ -1,0 +1,23 @@
+Patch for La Rue Kétanou - Ma faute à toi:
+
+    diff --git a/songs/La_Rue_Ketanou/Ma_faute_a_toi.sg b/songs/La_Rue_Ketanou/Ma_faute_a_toi.sg
+    index cec4684..0b29c12 100644
+    --- a/songs/La_Rue_Ketanou/Ma_faute_a_toi.sg
+    +++ b/songs/La_Rue_Ketanou/Ma_faute_a_toi.sg
+    @@ -53,9 +53,12 @@ Pour ceux qui ne savent pas !
+     \endverse
+     
+     \beginverse
+    -Pour ceux qui marchent des heures et qui vont nul part
+    -Pour ceux qui boivent pour ceux qui ne dorment pas !
+    -Pour ceux qui chantent, qui chantent, qui chantent \dots
+    -Pour ceux qui chantent, qui chantent pour toi !
+    +Pour ceux qui marchent des heures
+    +Et qui vont nul part
+    +Pour ceux qui boivent,
+    +Pour ceux qui ne dorment pas !
+    +Pour ceux qui chantent, \echo{qui chantent \dots}
+    +Pour ceux qui chantent, 
+    +Qui chantent pour toi !
+     \endverse
+     \endsong

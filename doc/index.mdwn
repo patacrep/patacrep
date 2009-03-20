@@ -7,3 +7,6 @@ This website is both a wiki and the documentation of the songbook project. You a
 * [[documentation|doc]]
 * [[bugs]]
 * [[contact]]
+
+This project uses the LaTex [songs](http://songs.sourceforge.net) package written by [Kevin W. Hamlen](http://www.utdallas.edu/~hamlen).
+His work is redistributed and modified under the conditions of the LaTeX Project Public License, either version 1.3a of this license or (at your option) any later version. The latest version of this license is in: <http://www.latex-project.org/lppl.txt>. Other material such as the makefile and perl script used to make songbooks are distributed under the GPLv2 Licence.

@@ -3,6 +3,8 @@
 * revert to original font
 * new layout for indexes
 
+[[done]]
+
 Patch:
 
     diff --git a/chordbook.tex b/chordbook.tex

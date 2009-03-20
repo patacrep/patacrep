@@ -22,28 +22,13 @@
 % Modified to serve personnal purposes. Newer versions can be 
 % obtained from http://www.lohrun.net.
 
-\documentclass[letterpaper]{article}
+\documentclass[a4paper]{article}
 \usepackage[bookmarks,bookmarksopen]{hyperref}
 \usepackage[chorded]{songs}
-
-%my packages
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx, color}
-%\usepackage[english,french]{babel}
-\usepackage{palatino}
+\usepackage[english,french]{babel}
 \usepackage{fancybox}
-
-\setlength{\oddsidemargin}{0in}
-\setlength{\evensidemargin}{0in}
-\setlength{\textwidth}{6.5in}
-\setlength{\topmargin}{0in}
-\setlength{\topskip}{0in}
-\setlength{\headheight}{0in}
-\setlength{\headsep}{0in}
-\setlength{\textheight}{9.1in}
-\settowidth{\versenumwidth}{1.\ }
-\addtolength{\voffset}{-1cm}
-\pagestyle{empty}
 
 \newindex{titleidx}{cbtitle}
 \newauthorindex{authidx}{cbauth}
@@ -57,14 +42,33 @@
   {img/}
 }
 
-%my renew
 %\includeonlysongs{1}
 \titleprefixword{}
 \renewcommand{\stitlefont}{\LARGE\bf}
 \renewcommand{\printchord}[1]{\small{\it#1}}
 \renewcommand{\chorusfont}{\it}
 \renewcommand{\showauthors}{\normalsize\songauthors}
-%\renewcommand{\everychorus}{\textnote{Refrain:}}
+\renewcommand{\idxtitlefont}{\sffamily\bfseries}
+\renewcommand{\idxauthfont}{\sffamily\bfseries}
+\renewcommand{\idxheadfont}{\sffamily\it\LARGE}
+\renewcommand{\idxrefsfont}{\bfseries}
+
+% Customization of the page appearance
+\setlength{\topmargin}{0cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\textwidth}{16cm}
+% header
+\setlength{\topskip}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+% column
+\setlength{\colminheight}{24cm}
+\setlength{\textheight}{26cm}
+
+\settowidth{\versenumwidth}{1.\ }
+\addtolength{\voffset}{-1cm}
+
 \baselineadj=-2.5pt plus 1pt minus 0pt
 \versesep=8pt plus 2pt minus 2pt
 
@@ -74,15 +78,11 @@
 
 \maketitle
 \thispagestyle{empty}
-\setcounter{page}{0}
 
 \newpage
 \input{license.tex}
 
 \newpage
-\setlength{\colminheight}{9.5in}
-\setlength{\textheight}{9.7in}
-
 \showindex{Index des chansons}{titleidx}
 \showindex{Index des auteurs}{authidx}
 
@@ -92,4 +92,3 @@
 \end{songs}
 
 \end{document}
-

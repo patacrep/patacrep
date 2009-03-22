@@ -1,5 +1,5 @@
 \songcolumns{2}
-\beginsong{Say It's Possible}[by=Terra Naomi]
+\beginsong{Say it's possible}[by=Terra Naomi]
 
 \gtab{Mim7}{022033}
 \gtab{Do9}{032033}
@@ -20,8 +20,7 @@ Don't wait, act now
 This amazing offer won't last long
 It's only a chance to pave the path we're on
 I know there are more exciting things to talk about
-And in time we'll sort it out
-And in time we'll sort it out
+And in time we'll sort it out \rep{2}
 \endverse
 
 \beginchorus
@@ -29,8 +28,7 @@ And though they say it's possible
 To me, I don't see how it's probable
 I see the course we're on spinning farther from what I know
 I'll hold on
-Tell me that you won't let go
-Tell me that you won't let go
+Tell me that you won't let go \rep{2}
 \endchorus
 
 \beginverse
@@ -40,11 +38,10 @@ Keep on telling me
 They know what's best
 And what to be frightened of
 And all the rest are wrong
-They know nothing about us
-They know nothing about us
+They know nothing about us \rep{2}
 \endverse
 
-\beginverse
+\beginverse*
 I'm not alright
 \endverse
 

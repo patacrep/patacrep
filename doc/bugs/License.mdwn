@@ -1,3 +1,7 @@
+Please do not push a patch into the bug section without any bug related or feature request. I appreciate patch send by mail too! -- [[lohrun]]
+
+[[done]]
+
     diff --git a/license.tex b/license.tex
     index 5cd8a9f..6d02922 100644
     --- a/license.tex

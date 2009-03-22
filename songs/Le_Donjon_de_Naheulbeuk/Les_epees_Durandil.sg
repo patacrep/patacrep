@@ -3,13 +3,13 @@
 
 \capo{5}
 
-\gtab{Do}{032010}
+\gtab{Ré}{000232}
+\gtab{La}{002220}
 \gtab{Sol}{320003}
-\gtab{Sol7}{320001}
-\gtab{Fa}{1:022100}
 
 
 \beginverse*
+\textnote{parlé}
 ``Et dis donc, tu voudrais bien m'prêter ton épée, j'ai perdu ma hache?
 - J'voudrais bien mais elle est beaucoup trop précieuse regarde!
 - A la vache, c'est une Durandil!
@@ -22,10 +22,10 @@ C'est parti!''
 \endverse
 
 \beginverse
-Les \[Do]épées Durandil sont forgées \[Sol]dans les mines par les \[Do]nains (c'est vrai)
-Avec ça c'est facile de tuer un \[Sol7]troll avec une seule main.
-Pas \[Fa]besoin d'super \[Sol]entraînement, ni \[Fa]de niveau \[Sol]28.
-Quand \[Do]tu sors l'instrument c'est l'enne\[Sol]mi qui prend la \[Do]fuite.
+Les \[Ré]épées Durandil sont forgées \[La]dans les mines par les \[Ré]nains (c'est vrai)
+Avec ça c'est facile de tuer un \[Sol]troll avec une seule \[Ré]main.
+Pas \[Sol]besoin d'super \[La]entraînement, ni \[Sol]de niveau \[La]28.
+Quand \[Ré]tu sors l'instrument c'est l'enne\[La]mi qui prend la \[Ré]fuite.
 \endverse
 
 \beginverse

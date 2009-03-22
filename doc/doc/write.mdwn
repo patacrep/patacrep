@@ -40,7 +40,7 @@ Another great tool is the guitar tab presenting each chord played in the song. T
 
     \gtab{Ré}{XX0232}
     \gtab{Mi}{022100}
-    \gtab{Fa}{1,022100}
+    \gtab{Fa}{1:022100}
 
 To produce a repeat sign you should use the *\rep* command. To repeat four times a line, use the following command.
 
@@ -52,8 +52,8 @@ Here is an example of song file that could be used as a starting point to add a 
 
      \beginsong{Where Is My Mind}[by=Pixies]
 
-     \gtab{La&m}{4,133211}
-     \gtab{La}{5,133211}
+     \gtab{La&m}{4:133211}
+     \gtab{La}{5:133211}
      \gtab{Do#}{4,X13331}
      \gtab{Si}{2,X13331}
 

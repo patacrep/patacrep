@@ -74,3 +74,5 @@ Patch for Terra Naomi - Say it's possible
 * title lower case
 * avoid numbering single sentences as verses
 * use \\rep{} macro for repeated sentences
+
+[[done]]

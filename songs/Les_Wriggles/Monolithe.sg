@@ -1,15 +1,15 @@
 \songcolumns{2}
 \beginsong{Monolithe}[by=Les Wriggles]
 
-\gtab{Do#m}{4,002210}
-\gtab{Fa#m}{2,022000}
-\gtab{Sol#}{4,022100}
+\gtab{Do#m}{4:002210}
+\gtab{Fa#m}{2:022000}
+\gtab{Sol#}{4:022100}
 \gtab{La}{002220}
-\gtab{La7}{5,020100}
-\gtab{La}{5,022100}
-\gtab{Rém}{5,002210}
-\gtab{Solm}{3,022000}
-\gtab{La#}{6,022100}
+\gtab{La7}{5:020100}
+\gtab{La}{5:022100}
+\gtab{Rém}{5:002210}
+\gtab{Solm}{3:022000}
+\gtab{La#}{6:022100}
 
 \beginverse
 \[Do#m]C'est l'histoire d'une \[Fa#m]montgolfière

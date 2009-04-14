@@ -44,7 +44,7 @@ J'ai oublié mon prénom
 Je l'appelle toutes les nuits
 Pour lui dire des poèmes
 Toute seule, devant ce tableau
-Mon reflet, est maquillé (est maquillé en fleur fanée)
+Mon reflet, est maquillé \echo{est maquillé en fleur fanée}
 Dans sa glace et le silence
 Ma feuille tremble et mon cœur danse
 Les haut-parleurs m'aident à me taire

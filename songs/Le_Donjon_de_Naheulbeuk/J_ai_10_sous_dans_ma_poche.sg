@@ -10,18 +10,26 @@
 
 
 \beginverse
-J'ai \[Lam]10 sous dans ma \[Sol]poche j'ai \[Do]aucun ar\[Sol]gent \rep{4}
+J'ai \[Lam]10 sous dans ma \[Sol]poche, j'ai \[Do]aucun ar\[Sol]gent \rep{4}
+\endverse
+
+\beginchorus
 Et tou\[Lam]jours gai gai et tou\[Mim]jours gaiement
 \[Fa]Y'a bien des gens dans \[Sol]mon village qui n'en \[Do]ont \[Mi7]pas \[Lam]tant.
-Et tou\[Lam]jours gai gai et tou\[Mim]jours gaiement
-\[Fa]Y'a bien des gens dans \[Sol]mon village qui n'en \[Do]ont \[Mi7]pas \[Lam]tant.
+\rep{2}
+\endchorus
+
+\beginverse
 J'ai 8 sous dans ma poche{\ldots}
 \endverse
 
-\beginverse*
-J'ai pas d'sous dans ma poche j'ai aucun argent
+\beginverse
+J'ai pas d'sous dans ma poche, j'ai aucun argent
+\endverse
+
+\beginchorus
 Et mes poches sont vides et oui c'est emmerdant
 Car c'est le nain dans mon village qui a tout l'argent.
-\endverse
+\endchorus
 
 \endsong

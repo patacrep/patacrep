@@ -2,28 +2,29 @@
 \beginsong{Sainte C\'ecile}[by=Mes souliers sont rouges]
 
 
-\gtab{Lam}{002210}
-\gtab{Mi7}{020100}
-\gtab{Sol}{320003}
-\gtab{Do}{032010}
-\gtab{Rém}{X00231}
+\gtab{Rém}{5:002210}
+\gtab{La7}{5:020100}
+\gtab{Do}{3:002220}
+\gtab{Fa}{1:022100}
+\gtab{Solm}{3:022000}
+\gtab{Si&}{6:022100}
 
 \beginverse
-De bon ma\[Lam]tin, je suis parti
-Direction \[Mi7]le conserva\[Lam]toire
-J'avais \[Lam]rendez-vous à la demi
-Pour donner \[Sol]un cours de gui\[Do]tare
-Sur le che\[Rém]min, j'ai rencon\[Lam]tré
-Un vieux \[Mi7]poto. Les retrou\[Lam]vailles
-Ont eu lieu au fond d'un tro\[Mi]quet
+De bon ma\[Rém]tin, je suis parti
+Direction \[La7]le conserva\[Rém]toire
+J'avais \[Rém]rendez-vous à la demi
+Pour donner \[Do]un cours de gui\[Fa]tare
+Sur le che\[Solm]min, j'ai rencon\[Rém]tré
+Un vieux \[La7]poto. Les retrou\[Rém]vailles
+Ont eu lieu au fond d'un tro\[La7]quet
 \echo{Patron six barons et deux pailles}
 \endverse
 
 \beginchorus
-Gueule en vrac et tête dans l'seau
-On n'a pas \[Mi7]des métiers fa\[Lam]ciles
-C'est la pa\[Rém]tronne des musi\[Lam]cos
-J'vais mettre un \[Mi7]cierge à Sainte Cé\[Lam]cile \rep{2}
+Gueule en \[Rém}vrac et tête dans l'seau
+On n'a pas \[Si&]des métiers fa\[La7]ciles
+C'est la pa\[Rém]tronne des musicos
+J'vais mettre un \[Si&]cierge à \[La7]Sainte Cé\[Rém]cile \rep{2}
 \endchorus
 
 \beginverse

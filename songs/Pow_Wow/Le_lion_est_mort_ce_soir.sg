@@ -1,6 +1,11 @@
 \songcolumns{2}
 \beginsong{Le lion est mort ce soir}[by=Pow Wow,cov=quatre]
 
+\cover
+\gtab{Sol}{320003}
+\gtab{Do}{X32010}
+\gtab{Ré}{XX0232}
+
 \beginverse
 \[Sol]Dans la jungle, ter\[Do]rible jungle,
 Le \[Sol]lion est mort ce \[Ré]soir.

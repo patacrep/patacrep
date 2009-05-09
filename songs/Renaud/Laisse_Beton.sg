@@ -1,6 +1,5 @@
-\songcolumns{1}
 \songcolumns{2}
-\beginsong{Laisse b\'eton}[by=Renaud]
+\beginsong{Laisse b\'eton}[by=Renaud,cov=laisse-beton]
 
 \cover
 \gtab{Lam}{5:022000}

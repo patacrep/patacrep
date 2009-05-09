@@ -1,6 +1,13 @@
 \songcolumns{2}
 \beginsong{Sad Lisa}[by=Cat Stevens,cov=tea-for-the-tillerman]
 
+\cover
+\gtab{Mim}{022000}
+\gtab{Ré}{XX0232}
+\gtab{Do}{X32010}
+\gtab{La}{002220}
+\gtab{Si}{2:002220}
+
 \beginverse
 She \[Mim]hangs her head and \[Ré]cries in my \[Do]shirt,
 \[Ré] She must be \[Mim]hurt very \[Ré]bad\[Sol]ly.

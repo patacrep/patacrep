@@ -1,0 +1,34 @@
+\makeatletter
+
+\newlength{\coverheight}
+\setlength{\coverheight}{2cm}
+\newlength{\coverspace}
+\setlength{\coverspace}{0.1cm}
+\newcommand{\songcover}{}
+\newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
+\newcommand\cover{%
+  \ifchorded%
+    \ifx\songcover\@empty\else%
+      \mbox{%
+        \includegraphics[height=\coverheight]{\songcover}%
+        \hspace{\coverspace}%
+      }%
+    \fi%
+  \fi%
+}
+
+\iflyric%
+  \renewcommand{\gtab}[2]{}%
+\fi%
+
+\newcommand{\image}[2]{%
+  \ifchorded%
+  \begin{flushright}%
+    \includegraphics[width=#2cm]{#1}%
+  \end{flushright}%
+  \fi%
+}
+
+\makeatother
+
+

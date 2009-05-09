@@ -114,7 +114,7 @@ include $(SOURCES:%.tex=%.d)
 # that is not all but no other rules are easy to move around
 %.aux: $(SONGS)
 
+COMMA=,
 $(SONGS): $(SONGS_SRC)
-	@cat $(SONGS_SRC) > $@
-
-
+	@$(PRINT) "\graphicspath{{img/},$(patsubst %,{%}$(COMMA),$(dir $(SONGS_SRC)))}" > $@
+	@cat $(SONGS_SRC) >> $@

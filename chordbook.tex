@@ -30,16 +30,13 @@
 \usepackage[english,french]{babel}
 \usepackage{fancybox}
 
+\usepackage{songbook}
+
 \newindex{titleidx}{cbtitle}
 \newauthorindex{authidx}{cbauth}
 
-%Remove comment to include pictures in the songbook
-\newcommand{\image}[2]{\begin{flushright} \includegraphics[width=#2cm]{#1}\end{flushright}}
-%\newcommand{\image}[2]{}
-%\renewcommand{\gtab}[2]{}
-
 \graphicspath{
-  {img/}
+  {img/},
 }
 
 %\includeonlysongs{1}
@@ -47,7 +44,9 @@
 \renewcommand{\stitlefont}{\LARGE\bf}
 \renewcommand{\printchord}[1]{\small{\it#1}}
 \renewcommand{\chorusfont}{\it}
-\renewcommand{\showauthors}{\normalsize\songauthors}
+\renewcommand{\showauthors}{%
+  \hbox{\normalsize\songauthors}%
+}
 \renewcommand{\idxtitlefont}{\sffamily\bfseries}
 \renewcommand{\idxauthfont}{\sffamily\bfseries}
 \renewcommand{\idxheadfont}{\sffamily\it\LARGE}

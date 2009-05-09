@@ -1,4 +1,4 @@
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{Troll farceur et elfe farci}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
 \capo{5}
@@ -9,19 +9,21 @@
 \gtab{Sol}{320003}
 
 \beginverse
-\[Lam]J'ai rencontré un t\[Do]roll, il \[Sol]marchait dans la fo\[Lam]rêt \rep{2}
-\[Lam]Il traînait derrière l\[Do]ui un \[Sol]elfe tout empaqu\[Lam]eté \rep{2}
+\[Lam]J'ai rencontré un t\[Do]roll,
+Il \[Sol]marchait dans la fo\[Lam]rêt \rep{2}
+\[Lam]Il traînait derrière l\[Do]ui
+Un \[Sol]elfe tout empaqu\[Lam]eté \rep{2}
 \endverse
 
 \beginchorus
-\[Lam]Ha qu'il est fort \[Do]Ha qu'il est beau
+\[Lam]Ha qu'il est fort, \[Do]ha qu'il est beau
 \[Sol]Ha qu'il est grand mon ami troll du Cha\[Lam]os
-\[Lam]Ha qu'il est fort \[Do]Ha qu'il est beau
+\[Lam]Ha qu'il est fort, \[Do]ha qu'il est beau
 \[Sol]Ha qu'il est grand mon ami troll du Cha\[Lam]os
 \endchorus
 
 \beginverse
-Je lui dit mon ami, que vas-tu faire de c't'homme
+Je lui dit mon ami, que vas-tu faire de c't'homme ?
 Il répond j'vais l'bouffer, farci avec des pommes
 \endverse
 
@@ -42,7 +44,7 @@ Puis je l'ai vu cachée, par delà le gros chêne
 
 \beginverse
 Alors j'ai vu le troll prendre un objet pointu
-Et pour farcir les pommes il lui enfonçait dans\ldots{}
+Et pour farcir les pommes il lui enfonçait dans l'***
 \endverse
 
 \endsong

@@ -28,9 +28,11 @@ SONGS = songs.sbd
 SONGS_SRC = $(shell ls songs/*/*.sg)
 
 MAKE_INDEX=./make-index
+PRINT=printf "%s\n"
+PRINTTAB=printf "\t%s\n"
 
 ifeq ($(shell which ikiwiki),)
-IKIWIKI=echo "** ikiwiki not found" >&2 ; echo ikiwiki
+IKIWIKI=$(ECHO) "** ikiwiki not found" >&2 ; $(ECHO) ikiwiki
 else
 IKIWIKI=ikiwiki
 endif
@@ -102,9 +104,9 @@ $(PDF): %.pdf: %.tex %.aux
 	$(MAKE_INDEX) $< > $@
 
 %.d: %.tex
-	@$(get_dependencies) ; echo $< $@: $$deps > $@
-	@$(get_inclusions) ; echo $(patsubst %.tex,%.pdf,$<) : $$incl >> $@ ; echo "\t"$$\(LATEX\) $< >> $@ ;
-	@$(get_prereq) ; echo $$prep : $(patsubst %.tex,%.aux,$<) >> $@ ; 
+	@$(get_dependencies) ; $(PRINT) "$< $@: $$deps" > $@
+	@$(get_inclusions) ; $(PRINT) "$(patsubst %.tex,%.pdf,$<) : $$incl" >> $@ ; $(PRINTTAB) "\$$(LATEX) $<" >> $@ ;
+	@$(get_prereq) ; $(PRINT) "$$prep : $(patsubst %.tex,%.aux,$<)" >> $@ ; 
 
 include $(SOURCES:%.tex=%.d)
 

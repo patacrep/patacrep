@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Clandestino}[by=Manu Chao]
+\beginsong{Clandestino}[by=Manu Chao,cov=clandestino]
 
 
+\cover
 \gtab{Fa#m}{2:022000}
 \gtab{Sim}{2:002210}
 \gtab{Do#7}{X3231X}

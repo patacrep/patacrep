@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Droit devant}[by=Les Cowboys Fringants]
+\beginsong{Droit devant}[by=Les Cowboys Fringants,cov=l-expedition]
 
+\cover
 \gtab{Do}{032010}
 \gtab{Solm}{3:022000}
 \gtab{Sol}{320003}

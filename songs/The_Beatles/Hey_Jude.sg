@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Hey Jude !}[by=The Beatles]
+\beginsong{Hey Jude !}[by=The Beatles,cov=1]
 
 
+\cover
 \gtab{Fa}{1:022100}
 \gtab{Do}{032010}
 \gtab{Do7}{032310}

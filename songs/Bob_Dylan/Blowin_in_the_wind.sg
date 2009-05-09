@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Blowin in the wind}[by=Bob Dylan]
+\beginsong{Blowin in the wind}[by=Bob Dylan,cov=the-freewheelin]
 
+\cover
 \gtab{Sol}{320003}
 \gtab{Do}{032010}
 \gtab{Ré}{000232}

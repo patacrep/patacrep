@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{N'y pense plus, tout est bien}[by=Hugues Aufray]
+\beginsong{N'y pense plus, tout est bien}[by=Hugues Aufray,cov=la-terre-est-si-belle]
 
 
+\cover
 \gtab{Do}{032010}
 \gtab{Sol}{320003}
 \gtab{Lam}{002210}

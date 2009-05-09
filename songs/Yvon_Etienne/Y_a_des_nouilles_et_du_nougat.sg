@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Y'a des nouilles et du nougat}[by=Yvon Etienne]
+\beginsong{Y'a des nouilles et du nougat}[by=Yvon Etienne,cov=bulles-de-reve]
 
 
+\cover
 \gtab{Do}{032010}
 \gtab{Sol7}{320001}
 \gtab{Sol}{320003}

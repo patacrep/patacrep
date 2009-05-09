@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Le chemin de papa}[by=Joe Dassin]
+\beginsong{Le chemin de papa}[by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
 
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Mi7}{020100}
 \gtab{La7}{002020}

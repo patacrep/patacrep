@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Si mort à mors}[by=Tri Yann]
+\beginsong{Si mort à mors}[by=Tri Yann,cov=le-meilleur-de-tri-yann]
 
+\cover
 \gtab{Fa}{1:022100}
 \gtab{Rém}{000231}
 \gtab{Solm}{3:022000}

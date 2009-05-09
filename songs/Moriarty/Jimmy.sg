@@ -1,8 +1,9 @@
 \songcolumns{2}
-\beginsong{Jimmy}[by=Moriarty]
+\beginsong{Jimmy}[by=Moriarty,cov=gee-whiz-but-this-is-a-lonesome-tpwn]
 
 \capo{1}
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Do}{032010}
 \gtab{Sol}{320003}

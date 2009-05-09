@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Je l'aime \`a mourir}[by=Francis Cabrel]
+\beginsong{Je l'aime \`a mourir}[by=Francis Cabrel,cov=les-chemins-de-traverse]
 
+\cover
 \gtab{Do}{032010}
 \gtab{Mim}{022000}
 \gtab{Lam}{002210}

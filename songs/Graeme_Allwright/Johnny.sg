@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Johnny}[by=Graeme Allwright]
+\beginsong{Johnny}[by=Graeme Allwright,cov=emmene-moi]
 
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Ré}{000232}
 \gtab{Do}{032010}

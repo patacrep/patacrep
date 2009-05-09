@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Les copains d'abord}[by=Georges Brassens]
+\beginsong{Les copains d'abord}[by=Georges Brassens,cov=la-mauvaise-reputation]
 
+\cover
 \gtab{Ré}{330210}
 \gtab{Mi7}{020100}
 \gtab{Sol}{320003}

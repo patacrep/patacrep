@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{La chanson du h\'erisson}[by=Georges Brassens \& Philippe Chatel]
+\beginsong{La chanson du h\'erisson}[by=Georges Brassens \& Philippe Chatel,cov=la-mauvaise-reputation]
 
+\cover
 \gtab{Sim}{2:002210}
 \gtab{Sol}{3:022100}
 \gtab{Fa#7}{2:020100}

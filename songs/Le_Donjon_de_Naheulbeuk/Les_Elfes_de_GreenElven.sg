@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Les elfes de GreenElven}[by=Le Donjon de Naheulbeuk]
+\beginsong{Les elfes de GreenElven}[by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
 
 
+\cover
 \gtab{Rém}{X00231}
 \gtab{Do}{032010}
 \gtab{Fa}{1:022100}

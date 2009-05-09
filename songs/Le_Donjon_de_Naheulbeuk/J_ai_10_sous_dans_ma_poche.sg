@@ -1,6 +1,7 @@
 \songcolumns{1}
-\beginsong{J'ai 10 sous dans ma poche}[by=Le Donjon de Naheulbeuk]
+\beginsong{J'ai 10 sous dans ma poche}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
 \gtab{Do}{032010}

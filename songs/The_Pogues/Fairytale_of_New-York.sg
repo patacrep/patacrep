@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Fairytale of New-York}[by=The Pogues]
+\beginsong{Fairytale of New-York}[by=The Pogues,cov=best-of-the-pogues]
 
+\cover
 \gtab{Ré}{000232}
 \gtab{Sol}{320003}
 \gtab{La}{002220}

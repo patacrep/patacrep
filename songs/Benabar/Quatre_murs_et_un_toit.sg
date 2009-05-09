@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Quatre murs et un toit}[by=B\'enabar]
+\beginsong{Quatre murs et un toit}[by=B\'enabar,cov=benabar]
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
 \gtab{Rém}{X00231}

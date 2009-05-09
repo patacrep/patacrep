@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{The leaves that are green}[by=Simon \& Garfunkel]
+\beginsong{The leaves that are green}[by=Simon \& Garfunkel,cov=the-graduate]
 
 
+\cover
 \gtab{Do}{032010}
 \gtab{Rém}{X00231}
 \gtab{Sol}{320003}

@@ -1,8 +1,9 @@
 \songcolumns{1}
-\beginsong{Bugger off}[by=Le Donjon de Naheulbeuk]
+\beginsong{Bugger off}[by=Le Donjon de Naheulbeuk,cov=grimoire-audio]
 
 \capo{5}
 
+\cover
 \gtab{Do}{X32010}
 \gtab{Sol}{320003}
 \gtab{Lam}{X02210}

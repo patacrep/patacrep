@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Scarborough Fair ~ Canticle}[by=Simon \& Garfunkel]
+\beginsong{Scarborough Fair ~ Canticle}[by=Simon \& Garfunkel,cov=the-definitive]
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Mim}{022000}
 \gtab{Do}{032010}

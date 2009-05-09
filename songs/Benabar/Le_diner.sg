@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Le d\^iner}[by=B\'enabar]
+\beginsong{Le d\^iner}[by=B\'enabar,cov=reprise-des-negociations]
 
+\cover
 \gtab{Sim}{2:002210}
 \gtab{Sol}{3:022100}
 \gtab{Fa#}{2:022100}

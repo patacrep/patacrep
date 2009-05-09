@@ -1,7 +1,8 @@
 \songcolumns{1}
-\beginsong{Ca je l'ai jamais vu}[by=Graeme Allwright]
+\beginsong{Ca je l'ai jamais vu}[by=Graeme Allwright,cov=emmene-moi]
 
 
+\cover
 \gtab{Ré}{X00232}
 \gtab{Sol}{320003}
 \gtab{La7}{002020}

@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Les mots}[by=La Rue K\'etanou]
+\beginsong{Les mots}[by=La Rue K\'etanou,cov=en-attendant-les-caravanes]
 
 
+\cover
 \gtab{Solm}{3:022000}
 \gtab{Rém}{5:022100}
 \gtab{La7}{5:020100}

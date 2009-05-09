@@ -1,7 +1,8 @@
 \songcolumns{1}
 \songcolumns{2}
-\beginsong{Hexagone}[by=Renaud]
+\beginsong{Hexagone}[by=Renaud,cov=amoureux-de-paname]
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Ré}{X00232}
 

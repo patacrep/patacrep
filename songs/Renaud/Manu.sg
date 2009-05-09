@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Manu}[by=Renaud]
+\beginsong{Manu}[by=Renaud,cov=le-retour-gerard-lambert]
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Mim}{022000}
 \gtab{Sol}{320003}

@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Santiano}[by=Hugues Aufray]
+\beginsong{Santiano}[by=Hugues Aufray,cov=la-terre-est-si-belle]
 
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
 \gtab{Mim}{022000}

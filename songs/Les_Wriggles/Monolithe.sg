@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Monolithe}[by=Les Wriggles]
+\beginsong{Monolithe}[by=Les Wriggles,cov=partent-en-live]
 
+\cover
 \gtab{Do#m}{4:002210}
 \gtab{Fa#m}{2:022000}
 \gtab{Sol#}{4:022100}

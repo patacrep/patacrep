@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Petit Pierrot}[by=Oldelaf et Monsieur~D.]
+\beginsong{Petit Pierrot}[by=Oldelaf et Monsieur~D.,cov=chansons-cons]
 
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Rém}{X00231}
 \gtab{Mi7}{020100}

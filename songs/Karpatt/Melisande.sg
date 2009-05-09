@@ -1,8 +1,9 @@
 \songcolumns{2}
-\beginsong{M\'elisande}[by=Karpatt]
+\beginsong{M\'elisande}[by=Karpatt,cov=dans-le-cailloux]
 
 \capo{5}
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Mi7}{020100}
 \gtab{La7}{002020}

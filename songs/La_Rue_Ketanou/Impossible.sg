@@ -1,7 +1,8 @@
 \songcolumns{1}
-\beginsong{Impossible}[by=La Rue K\'etanou]
+\beginsong{Impossible}[by=La Rue K\'etanou,cov=ouvert-a-double-tour]
 
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Do}{032010}
 \gtab{Mi7}{020100}

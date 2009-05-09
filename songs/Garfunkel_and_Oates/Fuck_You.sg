@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{F*** You}[by=Garfunkel and Oates]
+\beginsong{F*** You}[by=Garfunkel and Oates,cov=garfunkel-and-oates]
 
+\cover
 \gtab{Do}{X32010}
 \gtab{Mim}{022000}
 \gtab{Fa}{1:022100}

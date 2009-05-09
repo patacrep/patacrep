@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Grand-m\`ere}[by=Les Ogres de Barback]
+\beginsong{Grand-m\`ere}[by=Les Ogres de Barback,cov=la-fanfare-du-belgistan]
 
 
+\cover
 \gtab{Ré}{5:002220}
 \gtab{Mim}{7:002210}
 \gtab{La}{5:022100}

@@ -1,8 +1,9 @@
 \songcolumns{2}
-\beginsong{Bring 'Em Home}[by=Bruce Springsteen]
+\beginsong{Bring 'Em Home}[by=Bruce Springsteen,cov=we-shall-overcome]
 
 \capo{3}
 
+\cover
 \gtab{Do}{032010}
 \gtab{Lam}{002210}
 \gtab{Fa}{1:022100}

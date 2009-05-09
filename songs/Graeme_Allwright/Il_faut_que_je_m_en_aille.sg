@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Il faut que je m'en aille}[by=Graeme Allwright]
+\beginsong{Il faut que je m'en aille}[by=Graeme Allwright,cov=le-jour-de-clarte]
 
+\cover
 \gtab{Do}{032010}
 \gtab{Fa}{1:022100}
 \gtab{Sol7}{320001}

@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{The boxer}[by=Simon \& Garfunkel]
+\beginsong{The boxer}[by=Simon \& Garfunkel,cov=the-definitive]
 
 
+\cover
 \gtab{Do}{032010}
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}

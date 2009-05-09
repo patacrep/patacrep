@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{O Mary Don't You Weep}[by=Bruce Springsteen]
+\beginsong{O Mary Don't You Weep}[by=Bruce Springsteen,cov=we-shall-overcome]
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Rém}{000231}
 \gtab{Mi}{022100}

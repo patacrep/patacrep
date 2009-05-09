@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Les prisons de Nantes}[by=Tri Yann]
+\beginsong{Les prisons de Nantes}[by=Tri Yann,cov=le-meilleur-de-tri-yann]
 
+\cover
 \gtab{Lam}{X02210}
 \gtab{Sol}{320003}
 

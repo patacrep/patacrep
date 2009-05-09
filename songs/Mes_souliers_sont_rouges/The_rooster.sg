@@ -1,7 +1,8 @@
 \songcolumns{3}
-\beginsong{The rooster}[by=Mes souliers sont rouges]
+\beginsong{The rooster}[by=Mes souliers sont rouges,cov=tape-la-galoche]
 
 
+\cover
 \gtab{Do}{032010}
 \gtab{Sol7}{320001}
 \gtab{Do7}{032310}

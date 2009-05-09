@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Les souliers de Lady Fae}[by=Le Donjon de Naheulbeuk]
+\beginsong{Les souliers de Lady Fae}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Sol}{320003}
 \gtab{Do}{032010}

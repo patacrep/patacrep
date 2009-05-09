@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Contes, vents et mar\'ees}[by=Les Ogres de Barback]
+\beginsong{Contes, vents et mar\'ees}[by=Les Ogres de Barback,cov=irfan-le-heros]
 
 
+\cover
 \gtab{Mi&}{6:002220}
 \gtab{Si&}{6:022100}
 \gtab{Dom}{3:002210}

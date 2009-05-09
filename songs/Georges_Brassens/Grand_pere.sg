@@ -1,8 +1,9 @@
 \songcolumns{2}
-\beginsong{Grand-père}[by=Georges Brassens]
+\beginsong{Grand-père}[by=Georges Brassens,cov=la-mauvaise-reputation]
 
 \capo{2}
 
+\cover
 \gtab{Do}{330210}
 \gtab{Sol7}{320001}
 \gtab{Rém}{X00231}

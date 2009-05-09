@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Ce que l'on s'aime}[by=Tryo]
+\beginsong{Ce que l'on s'aime}[by=Tryo,cov=ce-que-l-on-seme]
 
 
+\cover
 \gtab{Sim}{2:002210}
 \gtab{La}{5:022100}
 

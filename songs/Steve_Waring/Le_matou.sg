@@ -1,7 +1,8 @@
 \songcolumns{1}
-\beginsong{Le matou}[by=Steve Waring]
+\beginsong{Le matou}[by=Steve Waring,cov=le-retour-du-matou]
 
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
 \gtab{Fa}{1:022100}

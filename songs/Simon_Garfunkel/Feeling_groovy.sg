@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Feeling groovy}[by=Simon \& Garfunkel]
+\beginsong{Feeling groovy}[by=Simon \& Garfunkel,cov=the-definitive]
 
+\cover
 \gtab{Sol}{320003}
 \gtab{Ré}{000232}
 \gtab{La}{002220}

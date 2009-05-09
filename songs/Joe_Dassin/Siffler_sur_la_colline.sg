@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Siffler sur la colline}[by=Joe Dassin]
+\beginsong{Siffler sur la colline}[by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
 
 
+\cover
 \gtab{Do}{032010}
 \gtab{Sol7}{320001}
 \gtab{Mi7}{020100}

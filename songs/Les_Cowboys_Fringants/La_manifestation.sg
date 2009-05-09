@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{La manifestation}[by=Les Cowboys Fringants]
+\beginsong{La manifestation}[by=Les Cowboys Fringants,cov=break-syndical]
 
+\cover
 \gtab{Sol}{320003}
 \gtab{Do}{032010}
 \gtab{Ré}{000232}

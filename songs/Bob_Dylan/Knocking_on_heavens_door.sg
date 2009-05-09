@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Knocking On Heavens Door}[by=Bob Dylan]
+\beginsong{Knocking On Heavens Door}[by=Bob Dylan,cov=the-freewheelin]
 
+\cover
 \gtab{Sol}{320033}
 \gtab{Ré}{X00232}
 \gtab{Lam}{X02210}

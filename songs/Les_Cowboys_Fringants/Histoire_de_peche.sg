@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Histoire de p\^eche}[by=Les Cowboys Fringants]
+\beginsong{Histoire de p\^eche}[by=Les Cowboys Fringants,cov=l-expedition]
 
 
+\cover
 \gtab{Ré}{000232}
 \gtab{La}{002220}
 \gtab{Sol}{320003}

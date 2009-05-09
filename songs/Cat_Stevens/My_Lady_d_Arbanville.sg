@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{My lady d'Arbanville}[by=Cat Stevens]
+\beginsong{My lady d'Arbanville}[by=Cat Stevens,cov=mona-bone-jakon]
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Ré}{000232}
 \gtab{Sim}{2:002210}

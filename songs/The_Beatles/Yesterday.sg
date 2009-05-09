@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Yesterday}[by=The Beatles]
+\beginsong{Yesterday}[by=The Beatles,cov=1]
 
+\cover
 \gtab{Do}{032010}
 \gtab{Mi7}{020100}
 \gtab{Lam}{002210}

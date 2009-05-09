@@ -1,8 +1,9 @@
 \songcolumns{2}
-\beginsong{Ob-La-Di, Ob-La-Da}[by=The Beatles]
+\beginsong{Ob-La-Di, Ob-La-Da}[by=The Beatles,cov=white-album]
 
 \capo{3}
 
+\cover
 \gtab{Sol}{320003}
 \gtab{Ré7}{000212}
 \gtab{Sim}{2:002210}

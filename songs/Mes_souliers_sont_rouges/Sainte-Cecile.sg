@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Sainte C\'ecile}[by=Mes souliers sont rouges]
+\beginsong{Sainte C\'ecile}[by=Mes souliers sont rouges,cov=proches]
 
 
+\cover
 \gtab{Rém}{5:002210}
 \gtab{La7}{5:020100}
 \gtab{Do}{3:002220}

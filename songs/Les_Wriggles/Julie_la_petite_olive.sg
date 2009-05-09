@@ -1,7 +1,8 @@
 \songcolumns{3}
-\beginsong{Julie, la petite olive}[by=Les Wriggles]
+\beginsong{Julie, la petite olive}[by=Les Wriggles,cov=ah-ben-ouais-mais-bon]
 
 
+\cover
 \gtab{La}{002220}
 \gtab{Sim}{2:002210}
 \gtab{Mi}{022100}

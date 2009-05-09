@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Toune d'Automne}[by=Les Cowboys Fringants]
+\beginsong{Toune d'Automne}[by=Les Cowboys Fringants,cov=break-syndical]
 
+\cover
 \gtab{Sol}{320003}
 \gtab{Lam}{002210}
 \gtab{Ré}{000232}

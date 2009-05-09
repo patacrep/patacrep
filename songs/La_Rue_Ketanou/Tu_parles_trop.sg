@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Tu parles trop}[by=La Rue K\'etanou]
+\beginsong{Tu parles trop}[by=La Rue K\'etanou,cov=en-attendant-les-caravanes]
 
 
+\cover
 \gtab{Mim}{7:002210}
 \gtab{Lam}{5:022000}
 \gtab{Ré}{5:002220}

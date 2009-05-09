@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Pour me rendre \`a mon bureau}[by=Les Ogres de Barback]
+\beginsong{Pour me rendre \`a mon bureau}[by=Les Ogres de Barback,cov=repris-de-justesse]
 
 
+\cover
 \gtab{Sim}{2:002210}
 \gtab{Fa#}{2:022100}
 \gtab{Mim}{022000}

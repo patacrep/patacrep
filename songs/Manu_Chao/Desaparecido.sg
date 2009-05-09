@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Desaparecido}[by=Manu Chao]
+\beginsong{Desaparecido}[by=Manu Chao,cov=clandestino]
 
 
+\cover
 \gtab{Mi}{022100}
 \gtab{Lam}{002210}
 \gtab{Rém}{X00231}

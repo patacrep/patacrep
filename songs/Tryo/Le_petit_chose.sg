@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Le petit chose}[by=Tryo]
+\beginsong{Le petit chose}[by=Tryo,cov=faut-qu-ils-s-activent]
 
 
+\cover
 \gtab{Rém}{5:002210}
 \gtab{La}{5:022100}
 \gtab{Solm}{3:022000}

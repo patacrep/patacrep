@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Et je bois}[by=Yves Jamait]
+\beginsong{Et je bois}[by=Yves Jamait,cov=de-verre-en-vers]
 
 
+\cover
 \gtab{Rém}{5:002210}
 \gtab{Solm}{3:022000}
 \gtab{Si&}{6:022100}

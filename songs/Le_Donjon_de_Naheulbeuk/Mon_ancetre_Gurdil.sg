@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Mon anc\^etre Gurdil}[by=Le Donjon de Naheulbeuk]
+\beginsong{Mon anc\^etre Gurdil}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Si7}{X21202}
 \gtab{Ré}{X00231}

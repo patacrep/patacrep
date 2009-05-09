@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Raoul, le pitbull}[by=Oldelaf et Monsieur~D.]
+\beginsong{Raoul, le pitbull}[by=Oldelaf et Monsieur~D.,cov=chansons-cons]
 
 
+\cover
 \gtab{Mim}{7:002210}
 \gtab{Lam}{5:022000}
 \gtab{Si}{7:022100}

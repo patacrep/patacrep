@@ -1,6 +1,7 @@
 \songcolumns{1}
-\beginsong{Out Of Time Man}[by=Mano Negra]
+\beginsong{Out Of Time Man}[by=Mano Negra,cov=king-of-bongo]
 
+\cover
 \gtab{Do}{032010}
 \gtab{Rém}{XX0231}
 \gtab{Fa}{1:022100}

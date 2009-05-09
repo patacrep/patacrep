@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Le magicien}[by=Karpatt]
+\beginsong{Le magicien}[by=Karpatt,cov=dans-le-cailloux]
 
 
+\cover
 \gtab{Sim}{2:002210}
 \gtab{Ré}{5:002220}
 \gtab{La}{5:022100}

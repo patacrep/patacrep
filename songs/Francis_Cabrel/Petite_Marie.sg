@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Petite Marie}[by=Francis Cabrel]
+\beginsong{Petite Marie}[by=Francis Cabrel,cov=les-murs-de-poussiere]
 
+\cover
 \gtab{Mim}{022000}
 \gtab{La7}{002020}
 \gtab{Sim}{2:002210}

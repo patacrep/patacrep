@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Vesoul}[by=Jacques Brel]
+\beginsong{Vesoul}[by=Jacques Brel,cov=master-series-1]
 
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Mi7}{020100}
 \gtab{La7}{002020}

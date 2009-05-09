@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Mar\'ee basse}[by=Les Amis d'Ta Femme]
+\beginsong{Mar\'ee basse}[by=Les Amis d'Ta Femme,cov=font-la-difference]
 
 
+\cover
 \gtab{Sol}{320003}
 \gtab{Ré}{X00232}
 \gtab{Do}{032010}

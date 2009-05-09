@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Rue de Nantes}[by=Oldelaf et Monsieur~D.]
+\beginsong{Rue de Nantes}[by=Oldelaf et Monsieur~D.,cov=l-album-de-la-maturite]
 
 
+\cover
 \gtab{Rém}{5:002210}
 \gtab{Mi7}{4:X3231X}
 \gtab{La7}{5:020100}

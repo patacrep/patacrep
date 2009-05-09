@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Po\`emes}[by=Les Hurlements d'L\'eo]
+\beginsong{Po\`emes}[by=Les Hurlements d'L\'eo,cov=la-belle-affaire]
 
 
+\cover
 \gtab{Dom}{3:002210}
 \gtab{Fam}{1:022000}
 \gtab{Sol}{3:022100}

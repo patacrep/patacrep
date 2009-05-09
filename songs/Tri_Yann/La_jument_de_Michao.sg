@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{La jument de Michao}[by=Tri Yann]
+\beginsong{La jument de Michao}[by=Tri Yann,cov=le-meilleur-de-tri-yann]
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Ré}{000232}
 

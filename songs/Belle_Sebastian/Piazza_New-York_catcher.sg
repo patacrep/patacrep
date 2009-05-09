@@ -1,7 +1,8 @@
 \songcolumns{2}
 \songcolumns{1}
-\beginsong{Piazza, New-York catcher}[by=Belle \& Sebastian]
+\beginsong{Piazza, New-York catcher}[by=Belle \& Sebastian,cov=juno]
 
+\cover
 \gtab{Fa#}{2:022100}
 \gtab{Si}{7:022100}
 \gtab{Sol#m}{4:022000}

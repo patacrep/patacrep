@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{La Rue Kétanou}[by=La Rue K\'etanou]
+\beginsong{La Rue Kétanou}[by=La Rue K\'etanou,cov=en-attendant-les-caravanes]
 
 
+\cover
 \gtab{Fam}{1:022000}
 \gtab{La&}{4:022100}
 \gtab{Si&m}{1:002210}

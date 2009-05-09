@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{The sounds of silence}[by=Simon \& Garfunkel]
+\beginsong{The sounds of silence}[by=Simon \& Garfunkel,cov=the-definitive]
 
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Ré}{X00232}
 \gtab{Do}{032010}

@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Plantation}[by=Kana]
+\beginsong{Plantation}[by=Kana,cov=kana]
 
+\cover
 \gtab{Sol}{3:022100}
 \gtab{Do}{3:002220}
 \gtab{Ré}{5:002220}

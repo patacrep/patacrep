@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Cupidon s'en fout}[by=Georges Brassens]
+\beginsong{Cupidon s'en fout}[by=Georges Brassens,cov=la-mauvaise-reputation]
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Do}{330210}
 \gtab{Mi}{022100}

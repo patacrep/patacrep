@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Le petit \^ane gris}[by=Hugues Aufray]
+\beginsong{Le petit \^ane gris}[by=Hugues Aufray,cov=la-terre-est-si-belle]
 
 
+\cover
 \gtab{Mim}{022000}
 \gtab{Ré}{X00232}
 \gtab{Sol}{320003}

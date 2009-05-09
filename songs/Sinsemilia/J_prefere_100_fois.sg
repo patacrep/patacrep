@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{J'pr\'ef\`ere 100 fois}[by=Sins\'emilia]
+\beginsong{J'pr\'ef\`ere 100 fois}[by=Sins\'emilia,cov=resistances]
 
 
+\cover
 \gtab{Fa}{1:022100}
 \gtab{Sol}{320003}
 \gtab{Lam}{002210}

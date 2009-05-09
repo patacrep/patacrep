@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{La bi\`ere du donjon}[by=Le Donjon de Naheulbeuk]
+\beginsong{La bi\`ere du donjon}[by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
 
+\cover
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}
 \gtab{Mim}{022000}

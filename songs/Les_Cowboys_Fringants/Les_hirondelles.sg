@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{Les hirondelles}[by=Les Cowboys Fringants]
+\beginsong{Les hirondelles}[by=Les Cowboys Fringants,cov=l-expedition]
 
 
+\cover
 \gtab{Sim}{2:002210}
 \gtab{La}{5:022100}
 \gtab{Sol}{022000}

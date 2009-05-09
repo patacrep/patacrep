@@ -1,6 +1,7 @@
 \songcolumns{1}
-\beginsong{Where is my mind}[by=Pixies]
+\beginsong{Where is my mind}[by=Pixies,cov=death-to-the-pixies]
 
+\cover
 \gtab{Mi}{022100}
 \gtab{Do#m}{4:X13321}
 \gtab{La&m}{4:133211}

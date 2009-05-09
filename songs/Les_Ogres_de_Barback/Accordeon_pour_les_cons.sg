@@ -1,7 +1,8 @@
 \songcolumns{1}
-\beginsong{Accord\'eon pour les cons}[by=Les Ogres de Barback]
+\beginsong{Accord\'eon pour les cons}[by=Les Ogres de Barback,cov=la-fanfare-du-belgistan]
 
 
+\cover
 \gtab{Rém}{5:002210}
 \gtab{La7}{5:020100}
 \gtab{Solm}{3:022000}

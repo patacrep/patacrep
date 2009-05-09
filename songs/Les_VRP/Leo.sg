@@ -1,7 +1,8 @@
 \songcolumns{2}
-\beginsong{L\'eo}[by=Les VRP]
+\beginsong{L\'eo}[by=Les VRP,cov=vacances-prolongees]
 
 
+\cover
 \gtab{Lam}{5:022000}
 \gtab{Rém}{5:002210}
 \gtab{Mi7}{4:X3231X}

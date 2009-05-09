@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Tree hugger}[by=Kimya Dawson]
+\beginsong{Tree hugger}[by=Kimya Dawson,cov=juno]
 
+\cover
 \gtab{Sol}{320003}
 \gtab{Do}{032010}
 \gtab{Ré}{000232}

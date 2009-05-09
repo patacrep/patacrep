@@ -1,6 +1,7 @@
 \songcolumns{2}
-\beginsong{Buffalo Gals}[by=Bruce Springsteen]
+\beginsong{Buffalo Gals}[by=Bruce Springsteen,cov=we-shall-overcome]
 
+\cover
 \gtab{Fa}{1:022100}
 \gtab{Do7}{032310}
 

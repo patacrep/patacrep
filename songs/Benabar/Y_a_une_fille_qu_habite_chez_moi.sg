@@ -1,6 +1,7 @@
 \songcolumns{1}
-\beginsong{Y'a une fille qu'habite chez moi}[by=B\'enabar]
+\beginsong{Y'a une fille qu'habite chez moi}[by=B\'enabar,cov=benabar]
 
+\cover
 \gtab{Dom}{3:002210}
 \gtab{Dom}{8:022000}
 \gtab{Fam}{1:022000}

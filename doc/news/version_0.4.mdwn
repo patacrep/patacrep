@@ -1,0 +1,54 @@
+songbook 0.4 released with [[!toggle text="these changes"]]
+
+[[!toggleable text="""
+ + New songs:
+   + Alain Bashung - Gaby, oh Gaby
+   + Avril Lavigne - Things I'll never say
+   + Bob Dylan - Blowin in the wind
+   + Carter Family - In the highways + Keep on the sunny side
+   + Cat Stevens - Sad Lisa
+   + Cat Stevens - The wind
+   + Eels - Dirty girl
+   + Eels - Hey man
+   + Eels - I like birds
+   + Eels - Packing blankets
+   + Garfunkel and Oates - Fuck You.
+   + Georges Brassens - Cupidon s'en fout
+   + Georges Brassens - Grand-père
+   + Georges Brassens - Le gorille
+   + Georges Brassens - Les copains d'abord
+   + Graeme Allwright - Johnny
+   + Graeme Allwright - La mouche bleue
+   + Graeme Allwright - Petit garcon
+   + Green Day - Boulevard of Broken Dreams
+   + Howie Day - Collide
+   + Kana - Plantation
+   + La Rue Ketanou - La Rue Ketanou
+   + Les Cowboys Fringants - La manifestation
+   + Les Cowboys Fringants - Toune d'Automne
+   + Les Tit's Nassels - Les Tit's ballades
+   + Linkin Park - Numb
+   + Moriarty - Jimmy
+   + Oasis - Wonderwall
+   + Oldelaf et Monsieur.D - Nathalie
+   + Patrick Bouchitey - Jesus reviens
+   + Pierre Perret - Lily
+   + Pow Wow - Le lion est mort ce soir
+   + Radiohead - Creep
+   + Renaud - Petite fille des sombres rues
+   + Simon & Garfunkel - Cecilia
+   + Simon & Garfunkel - El condor pasa
+   + Simon & Garfunkel - Feeling groovy
+   + Terra Naomi - Say it's possible
+   + The Beatles - Ob-la-di ob-la-da
+   + The Beatles - Yellow submarine
+   + The Beatles - Yesterday
+   + The Eagles - Hotel California
+   + The Pogues - Fairytale of New-York
+   + Tri Yann - Les prisons de Nantes
+   + Tri Yann - Si Mors A Mors
+ + Corrections of mistakes and typos
+ + Add cover picture to each song
+ + Update songs package to v2.8
+ + Update makefile to be POSIX compilant
+"""]]

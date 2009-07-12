@@ -4,5 +4,5 @@ Example of chords on ultimate-guitar.com : <http://www.ultimate-guitar.com/tabs/
 
 Strumming pattern: D---D-DU-UD-D-DU  D---D-DU-UD-D-D-
 
-[[song_request]]
+[[song_request]] [[done]]
 

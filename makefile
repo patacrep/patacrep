@@ -28,6 +28,7 @@ SONGS = songs.sbd
 SONGS_SRC = $(shell ls songs/*/*.sg)
 
 MAKE_INDEX=./make-index
+MAKE_SONGDB=./songbook-volume.py
 PRINT=printf "%s\n"
 PRINTTAB=printf "\t%s\n"
 
@@ -69,6 +70,7 @@ clean: cleandoc
 	@rm -f $(CIBLE:%=%.out) $(CIBLE:%=%.log) $(CIBLE:%=%.nav) $(CIBLE:%=%.snm)
 	@rm -f $(CIBLE:%=%.dvi)
 	@rm -f $(SONGS)
+	@rm -f *.sbd
 	@rm -f *.sbx *.sxd
 
 cleanall: clean
@@ -118,3 +120,6 @@ COMMA=,
 $(SONGS): $(SONGS_SRC)
 	@$(PRINT) "\graphicspath{{img/},$(patsubst %,{%}$(COMMA),$(dir $(SONGS_SRC)))}" > $@
 	@cat $(SONGS_SRC) >> $@
+
+%.sbd: %.sgl
+	@$(MAKE_SONGDB) --songs=$< --output=$@

@@ -22,7 +22,7 @@
 % Modified to serve personnal purposes. Newer versions can be 
 % obtained from http://www.lohrun.net.
 
-\documentclass[letterpaper]{article}
+\documentclass{crepbook}
 \usepackage[bookmarks,bookmarksopen]{hyperref}
 \usepackage[lyric]{songs}
 \usepackage[utf8]{inputenc}
@@ -38,51 +38,27 @@
   {img/},
 }
 
-%\includeonlysongs{1}
-\titleprefixword{}
-\renewcommand{\stitlefont}{\LARGE\bf}
-\renewcommand{\printchord}[1]{\small{\it#1}}
-\renewcommand{\chorusfont}{\it}
-\renewcommand{\showauthors}{%
-  \hbox{\normalsize\songauthors}%
+\title{Recueil de chansons pour guitare}
+\author{Romain Goffe \and Alexandre Dupas}
+\subtitle{Tome 1}
+\version{3.1}
+\mail{crep@team-on-fire.com}
+
+\picture{feel-the-music}
+\picturecopyright{©foxygamergirl @ deviantart.com}
+
+\footer{
+  \begin{flushleft}
+    \includegraphics[width=3cm]{on-fire}
+  \end{flushleft}
 }
-\renewcommand{\idxtitlefont}{\sffamily\bfseries}
-\renewcommand{\idxauthfont}{\sffamily\bfseries}
-\renewcommand{\idxheadfont}{\sffamily\it\LARGE}
-\renewcommand{\idxrefsfont}{\bfseries}
 
-% Customization of the page appearance
-\setlength{\topmargin}{0cm}
-\setlength{\oddsidemargin}{0cm}
-\setlength{\evensidemargin}{0cm}
-\setlength{\textwidth}{16cm}
-% header
-\setlength{\topskip}{0cm}
-\setlength{\headheight}{0cm}
-\setlength{\headsep}{0cm}
-% column
-\setlength{\colminheight}{24cm}
-\setlength{\textheight}{26cm}
-
-\settowidth{\versenumwidth}{1.\ }
-\addtolength{\voffset}{-1cm}
-
-\baselineadj=-2.5pt plus 1pt minus 0pt
-\versesep=8pt plus 2pt minus 2pt
-
-\pagestyle{empty}
-
-\input{title.tex}
+\licence{\input{license.tex}}
 
 \begin{document}
 
 \maketitle
-\thispagestyle{empty}
 
-\newpage
-\input{license.tex}
-
-\newpage
 \showindex{Index par titre des chansons}{titleidx}
 \showindex{Index par titre des auteurs}{authidx}
 

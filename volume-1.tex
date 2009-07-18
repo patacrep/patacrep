@@ -1,4 +1,4 @@
-% Copyright (C) 2008 Romain Goffe, Alexandre Dupas
+% Copyright (C) 2009 Romain Goffe, Alexandre Dupas
 % Copyright (C) 2008 Kevin W. Hamlen
 %
 % This program is free software; you can redistribute it and/or
@@ -24,15 +24,16 @@
 
 \documentclass{crepbook}
 \usepackage[bookmarks,bookmarksopen]{hyperref}
-\usepackage[lyric]{songs}
+\usepackage[chorded]{songs}
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx, color}
 \usepackage[english,french]{babel}
 \usepackage{fancybox}
+
 \usepackage{songbook}
 
-\newindex{titleidx}{lbtitle}
-\newauthorindex{authidx}{lbauth}
+\newindex{titleidx}{volume1cbtitle}
+\newauthorindex{authidx}{volume1cbauth}
 
 \graphicspath{
   {img/},
@@ -59,15 +60,15 @@
 
 \maketitle
 
-\showindex{Index par titre des chansons}{titleidx}
-\showindex{Index par titre des auteurs}{authidx}
+\showindex{Index des chansons}{titleidx}
+\showindex{Index des auteurs}{authidx}
+
+% desactivate ':' as an active character from babel[french]
+\shorthandoff{:} 
 
 \songsection{Chansons}
 \begin{songs}{titleidx,authidx}
-  \input{songs.sbd}
+  \input{volume-1.sbd}
 \end{songs}
 
 \end{document}
-
-
-

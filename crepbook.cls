@@ -2,12 +2,14 @@
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{crepbook}[2009/08/01 v0.1 LaTeX document class for Crep
+\ProvidesClass{crepbook}[2009/07/19 v0.2 LaTeX document class for Crep
   Books]
 
 \LoadClass[a4paper]{article}
 
-%\RequirePackage{songbook}
+\RequirePackageWithOptions{songs}
+\RequirePackage{fancybox}
+\RequirePackage[bookmarks,bookmarksopen]{hyperref}
 
 \def\andname{and}
 \def\lastandname{\unskip, and}
@@ -93,3 +95,68 @@
  \@licence
  \newpage
 }
+
+\makeatletter
+
+\newlength{\coverheight}
+\setlength{\coverheight}{2cm}
+\newlength{\coverspace}
+\setlength{\coverspace}{0.1cm}
+\newcommand{\songcover}{}
+\newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
+\newcommand\cover{%
+  \ifchorded%
+    \ifx\songcover\@empty\else%
+      \mbox{%
+        \includegraphics[height=\coverheight]{\songcover}%
+        \hspace{\coverspace}%
+      }%
+    \fi%
+  \fi%
+}
+
+\iflyric%
+  \renewcommand{\gtab}[2]{}%
+\fi%
+
+\newcommand{\image}[2]{%
+  \ifchorded%
+  \begin{flushright}%
+    \includegraphics[width=#2cm]{#1}%
+  \end{flushright}%
+  \fi%
+}
+
+\makeatother
+
+% Configuration of the songs package
+\titleprefixword{}
+\renewcommand{\stitlefont}{\LARGE\bf}
+\renewcommand{\printchord}[1]{\small{\it#1}}
+\renewcommand{\chorusfont}{\it}
+\renewcommand{\showauthors}{%
+  \hbox{\normalsize\songauthors}%
+}
+\renewcommand{\idxtitlefont}{\sffamily\bfseries}
+\renewcommand{\idxauthfont}{\sffamily\bfseries}
+\renewcommand{\idxheadfont}{\sffamily\it\LARGE}
+\renewcommand{\idxrefsfont}{\bfseries}
+
+% Customization of the page appearance
+\setlength{\topmargin}{0cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\textwidth}{16cm}
+% header
+\setlength{\topskip}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+% column
+\setlength{\colminheight}{24cm}
+\setlength{\textheight}{26cm}
+
+\settowidth{\versenumwidth}{1.\ }
+\addtolength{\voffset}{-1cm}
+
+\baselineadj=-2.5pt plus 1pt minus 0pt
+\versesep=8pt plus 2pt minus 2pt

@@ -1,0 +1,25 @@
+#!/bin/sh
+# Utility that corrects the songs input to respect some LaTeX rules
+
+
+for i in songs/*/*.sg; 
+do 
+
+# oe inclusion
+sed -i "s/coeur/c\\\oe{}ur/g" $i;
+sed -i "s/boeuf/b\\\oe{}uf/g" $i;
+sed -i "s/oeuvre/\\\oe{}uvre/g" $i;
+sed -i "s/oeuf/\\\oe{}uf/g" $i;
+sed -i "s/soeur/s\\\oe{}ur/g" $i;
+sed -i "s/noeud/n\\\oe{}ud/g" $i;
+sed -i "s/oeil/\\\oe{}il/g" $i;
+
+# dots rules
+sed -i "s/\\.\\.\\./\\\dots/g" $i;
+
+#chords
+sed -i "s/\\[Re\\]/\\[Ré\\]/g" $i;
+sed -i "s/b\\]/\\&\\]/g" $i;
+
+
+done;

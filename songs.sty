@@ -134,6 +134,7 @@
 \newcommand\idxcont[1]{\small\textbf{#1} (continued)}
 \newlength\colminheight
 \setlength\colminheight{123456789sp}
+\newlength\colwidth
 \newdimen\SB@colwidth
 \DeclareOption{slides}{\slides}
 \newcommand\slides{%
@@ -269,6 +270,8 @@
     \advance\SB@colwidth\columnsep%
     \advance\SB@colwidth\textwidth%
     \divide\SB@colwidth\SB@numcols%
+    \setlength\colwidth\SB@colwidth
+    \addtolength\colwidth{-\columnsep}
   \fi%
 }
 \newcommand\SB@alloccol[1]{%

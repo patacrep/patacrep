@@ -1,4 +1,5 @@
 \songcolumns{2}
+
 \beginsong{F*** You}[by=Garfunkel and Oates,cov=garfunkel-and-oates]
 
 \cover
@@ -7,6 +8,33 @@
 \gtab{Fa}{1:022100}
 \gtab{Sol}{320003}
 \gtab{Mi7}{020100}
+
+\begin{tab}
+  \single 1 8
+  \single 2 8
+  \single 3 9
+  \single 1 8
+  \single 2 8
+  \bar
+  \single 1 7
+  \single 2 8
+  \single 2 8
+  \single 1 7
+  \single 2 8
+  \bar
+  \single 3 {10}
+  \single 3 {10}
+  \single 4 {10}
+  \single 3 {10}
+  \single 2 {10}
+  \bar
+  \single 1 7
+  \single 2 8
+  \single 2 8
+  \single 1 7
+  \single 2 8
+  \bar
+\end{tab}
 
 \beginverse
 \[Do]I've \[Mim]got too many q\[Fa]uestions in my m\[Sol]ind

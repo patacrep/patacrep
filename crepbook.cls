@@ -1,4 +1,4 @@
-% CREPBOOK DOCUMENT CLASS -- version 0.1
+% CREPBOOK DOCUMENT CLASS -- version 0.2
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
@@ -10,6 +10,10 @@
 \RequirePackageWithOptions{songs}
 \RequirePackage{fancybox}
 \RequirePackage[bookmarks,bookmarksopen]{hyperref}
+\RequirePackage[pdftex]{graphicx,xcolor}
+\RequirePackage{tikz}
+
+\setlength{\parindent}{0cm}
 
 \def\andname{and}
 \def\lastandname{\unskip, and}
@@ -23,12 +27,14 @@
                    \gdef\@subtitle{}
                    \gdef\@version{}
                    \gdef\@mail{}
+                   \gdef\@email{}
                    \gdef\@picture{}
                    \gdef\@picturecopyright{}}
 
 \def\subtitle#1{\gdef\@subtitle{#1}}
 \def\version#1{\gdef\@version{#1}}
 \def\mail#1{\gdef\@mail{#1}}
+\def\email#1{\gdef\@email{#1}}
 \def\licence#1{\gdef\@licence{#1}}
 \def\picture#1{\gdef\@picture{#1}}
 \def\picturecopyright#1{\gdef\@picturecopyright{#1}}
@@ -127,7 +133,6 @@
   \fi%
 }
 
-\makeatother
 
 % Configuration of the songs package
 \titleprefixword{}
@@ -160,3 +165,79 @@
 
 \baselineadj=-2.5pt plus 1pt minus 0pt
 \versesep=8pt plus 2pt minus 2pt
+
+%% Code from tabs.sty
+% Counters
+\newcounter{tab-string}
+\newcounter{tab-tempo}
+\newcounter{tab-line}
+% Length
+\newlength{\tablen}
+% Variables
+\def\chordtuning{E,A,D,G,B,e}
+\def\xunit{0.45}
+\def\yunit{0.3}
+
+% The tab environmant
+% \begin{tab}
+% \begin{chord}[D,G,D,G,F,E]
+\newenvironment{tab}
+{
+  \small
+  \setcounter{tab-line}{0}
+  \setcounter{tab-tempo}{0}
+
+  \setlength{\tablen}{\xunit cm}
+
+  % A single note
+  % \single <string> <fret>
+  \newcommand{\single}[2]{
+    % draw tuning if we are at the beginining of a new tab line
+    \ifnum\value{tab-tempo}=0
+     \setcounter{tab-string}{6}
+     \foreach \tuning in \chordtuning
+     {
+       \node at (-1,\value{tab-line}+\value{tab-string}) {\tuning};
+       \addtocounter{tab-string}{-1}
+     }
+    \fi
+
+    % draw the 6 strings
+    \foreach \string in {1,...,6}
+    {
+      \draw[xshift=-0.5cm] (\value{tab-tempo},\value{tab-line}+\string) -- +(1,0);
+    }
+    \draw node[single] at (\value{tab-tempo},\value{tab-line}+##1) {##2};
+    \addtocounter{tab-tempo}{1}
+    \addtolength{\tablen}{\xunit cm}
+    \ifnum\colwidth<\tablen
+      \addtocounter{tab-line}{8}
+      \setlength{\tablen}{\xunit cm}
+      \setcounter{tab-tempo}{0}
+      \end{tikzpicture}
+      \begin{tikzpicture}[
+        single/.style={},
+        cm={\xunit,0,0,-\yunit,(0,0)}
+      ]
+    \fi
+  }
+  % A mesure bar
+  % \bar
+  \renewcommand{\bar}{
+    \draw[xshift=-0.5cm] (\value{tab-tempo},\value{tab-line}+1) --+(0,5);
+  }
+
+  \begin{tikzpicture}[
+    single/.style={},
+    cm={\xunit,0,0,-\yunit,(0,0)}
+  ]
+
+  % draw the first bar
+  \draw[xshift=-0.5cm] (0,1) --+(0,5);
+}
+{
+  \end{tikzpicture}
+}
+
+%% End of tabs.sty file
+\makeatother

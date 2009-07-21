@@ -1,5 +1,5 @@
 \songcolumns{2}
-\beginsong{Blowin in the wind}[by=Bob Dylan,cov=the-freewheelin]
+\beginsong{Blowin' in the wind}[by=Bob Dylan,cov=the-freewheelin]
 
 \cover
 \gtab{Sol}{320003}
@@ -16,14 +16,14 @@ Be\[Sol]fore they're \[Do]forever \[Ré]banned ?
 \endverse
 
 \beginchorus
-\[Do]The answer my \[Ré]friend is \[Sol]blowin in the \[Do]wind
-The \[Do]answer is \[Ré]blowin in the \[Sol]wind
+\[Do]The answer my \[Ré]friend is \[Sol]blowin' in the \[Do]wind
+The \[Do]answer is \[Ré]blowin' in the \[Sol]wind
 \endchorus
 
 \beginverse
 \echo{Yes and} how many years can a mountain exist
 Before it is washed to the seas ?
-\echo{Yes and} how many years can some pepole exist
+\echo{Yes and} how many years can some people exist
 Before they're allowed to be free ?
 \echo{Yes and} how many times can a man turn his head
 And pretend that he just doesn't see ?
@@ -33,9 +33,9 @@ And pretend that he just doesn't see ?
 \echo{Yes and} how many times must a man look up
 Before he can see the sky ?
 \echo{Yes and} how many ears must one man have
-Before he can hear pepole cry
+Before he can hear people cry
 \echo{Yes and} how many deaths will it take till he knows
-That too many pepole have died ?
+That too many people have died ?
 \endverse
 
 \endsong

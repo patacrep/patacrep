@@ -1,0 +1,74 @@
+\songcolumns{2}
+\beginsong{Mon ange}[by=Oldelaf et Monsieur~D.,cov=bete-et-mechant]
+
+\cover
+\gtab{Mim}{022000}
+\gtab{Lam}{002210}
+\gtab{Fa#}{2:022100}
+\gtab{Si7}{X21202}
+\gtab{Ré}{X00232}
+\gtab{Sol}{320003}
+
+\beginverse
+\[Mim]Saute, saute, \[Lam]saute\[Mim]relle
+\[Lam]Au mi\[Sol]lieu de \[Fa#]mon jar\[Si7]din
+\[Mim]Saute, saute et \[Ré]viens, ma \[Sol]belle
+\[Lam]Je t'é\[Sol]crase en\[Si7]tre mes \[Mim]mains
+\endverse
+
+\beginchorus
+``Michel, si tu joues dans l'jardin, attention
+Tu n'dois pas t'salir.
+- Oui maman.
+- C'est bien mon ange.''
+\endchorus
+
+\beginverse
+Trotte, trotte, coccinelle
+Toute rouge avec tes points
+Trotte, trotte et viens, ma belle
+Je te pousse dans le grille-pain
+\echo{Et comme ça t'es toute cramée!}
+ \endverse
+
+
+\beginchorus
+``Michel, qu'est-ce que tu fais dans la cuisine ?
+Y'a plein d'objets dangereux, allez file!
+- Oui maman.
+- C'est bien, t'es gentil mon ange.''
+\endchorus
+
+\beginverse
+Vole, vole, tourterelle
+Blanche dame du matin
+Vole, vole à tire-d'aile
+Mon lance-pierre te touche enfin
+\echo{Yes! Bien fait!}
+\endverse
+
+
+\beginchorus 
+``Michel, je n'veux pas qu'tu touches aux oiseaux ?
+Je te l'ai déjà dit, tu peux attraper plein d'maladies. 
+- Oui maman.
+- C'est bien mon ange.''
+\endchorus
+
+\beginverse
+Rampe, rampe, mon teckel
+Chien tout moche comme un boudin
+Rampe, rampe vers ton écuelle
+J'ai mis du piment indien
+Et du tabasco chilien
+Et puis aussi 2 kilos de poivre en grains
+\echo{Comme ça, ça va t'faire super mal à ta p'tite bouche de chien!}
+\endverse
+
+\beginchorus
+``Michel, qu'est-ce que tu fais ?
+- Heu, je donne à boire à Médor car il avait l'air d'avoir soif. 
+- C'est bien, t'es gentil mon ange.''
+\endchorus
+
+\endsong

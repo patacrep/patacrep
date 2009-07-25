@@ -166,6 +166,9 @@
 \baselineadj=-2.5pt plus 1pt minus 0pt
 \versesep=8pt plus 2pt minus 2pt
 
+% color used to shade the capo and song number.
+\definecolor{SongbookShade}{HTML}{d1e4ae}
+
 %% Code from tabs.sty
 % Counters
 \newcounter{tab-string}

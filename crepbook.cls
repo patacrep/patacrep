@@ -7,10 +7,10 @@
 
 \LoadClass[a4paper]{article}
 
+\RequirePackage[pdftex]{graphicx,xcolor}
 \RequirePackageWithOptions{songs}
 \RequirePackage{fancybox}
 \RequirePackage[bookmarks,bookmarksopen]{hyperref}
-\RequirePackage[pdftex]{graphicx,xcolor}
 \RequirePackage{tikz}
 
 \setlength{\parindent}{0cm}

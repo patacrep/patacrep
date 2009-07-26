@@ -1,28 +1,28 @@
 \songcolumns{2}
 \beginsong{The sounds of silence}[by=Simon \& Garfunkel,cov=the-definitive]
 
+\capo{7}
 
 \cover
-\gtab{Mim}{022000}
-\gtab{Ré}{X00232}
-\gtab{Do}{032010}
+\gtab{Lam}{002210}
 \gtab{Sol}{320003}
-
+\gtab{Fa}{1:022100}
+\gtab{Do}{X32010}
 
 \beginverse
-\[Mim]Hello darkness, my old \[Ré]friend,
+\[Lam]Hello darkness, my old \[Sol]friend,
 I've come to talk with you a\[Mim]gain,
-Because a vision sof\[Do]tly cree\[Sol]ping,
-Left it seeds while I \[Do]was slee\[Sol]ping,
-And the \[Do]vision that was planted in my \[Sol]brain
-Still re\[Mim]mains
-Within the \[Ré]sound of \[Mim]silence.
+Because a vi\[Do]sion sof\[Fa]tly cree\[Do]ping,
+Left its seeds while I \[Fa]was slee\[Do]ping,
+And the \[Fa]vision that was planted in my \[Do]brain
+Still re\[Lam]mains
+Wi\[Do]thin the \[Sol]sound of \[Lam]silence.
 \endverse
 
 \beginverse
 In restless dreams I walked alone
 Narrow streets of cobblestone,
-Neath the halo of street lamp,
+Neath the halo of a street lamp,
 I turned my collar to the cold and damp
 When my eyes were stabbed by the flash of a neon light
 That split the night
@@ -35,7 +35,7 @@ Ten thousand people, maybe more.
 People talking without speaking,
 People hearing without listening,
 People writing songs that voices never share
-And no one dare
+And no one dared
 Disturb the sound of silence.
 \endverse
 
@@ -55,7 +55,7 @@ To the neon god they made.
 And the sign flashed out its warning,
 In the words that it was forming.
 And the sign said, ``The words of the prophets
-Are written on the subway walls, and tenements halls.''
+Are written on the subway walls, and tenement halls.''
 And whispered in the sound of silence.
 \endverse
 

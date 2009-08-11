@@ -11,11 +11,20 @@ def formatSongsDatabase( file, songs ):
     dir = ['img']+map(os.path.dirname, songs)
     dir = set( dir )
     sdb.write('\graphicspath{\n')
-    for dirname in dir:
-        sdb.write('  {{{imagedir}/}},\n'.format(imagedir=dirname))
-    sdb.write('}\n')
-    for song in songs:
-        sdb.write('\input{{{songfile}}}\n'.format(songfile=song.strip()))
+    if sys.hexversion >= 0x20600000:
+        # use string format introduced in python 2.6
+        for dirname in dir:
+            sdb.write('  {{{imagedir}/}},\n'.format(imagedir=dirname))
+        sdb.write('}\n')
+        for song in songs:
+            sdb.write('\input{{{songfile}}}\n'.format(songfile=song.strip()))
+    else:
+        # use old formating strategy
+        for dirname in dir:
+            sdb.write('  {%(imagedir)s/},\n' % {'imagedir':dirname})
+        sdb.write('}\n')
+        for song in songs:
+            sdb.write('\input{%(songfile)s}\n' % {'songfile':song.strip()})
     sdb.close();
 
 

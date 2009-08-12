@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2009/03/14 v2.8 Songs package]
+  [2009/08/12 v2.8.1 Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -2559,8 +2559,14 @@
 \newcommand\SB@targstr{}
 \newcommand\SB@targfing{}
 \newcommand\gtab{\SB@begincname\SB@gtab}
-\newcommand\SB@gtab[1]{\SB@endcname\SB@@gtab{#1}}
-\newcommand\SB@@gtab[2]{%
+\newcommand*\SB@gtab[1]{%
+  \SB@endcname%
+  \begingroup%
+    \catcode`:12\relax%
+    \SB@@gtab{#1}%
+}
+\newcommand*\SB@@gtab[2]{%
+  \endgroup%
   \SB@tabargs#2\relax\relax\relax\relax\relax\relax\relax\fi%
   \ifvmode\leavevmode\fi%
   \vbox{%

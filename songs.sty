@@ -2374,45 +2374,52 @@
     \SB@skip\lastskip%
     \unskip\penalty200\hskip\SB@skip%
   \fi%
-  \ifnum\SB@numhyps>0 %
+  \ifnum\SB@numhyps>\z@%
     \ifnum\SB@numhyps>\@ne\relax%
       \SB@brokenwordfalse%
     \else%
       \SB@brokenwordtrue%
     \fi%
   \fi%
-  \vbox{\baselineskip\f@size\p@\kern2\p@%
-    \ifSB@brokenword%
-      \global\setbox\SB@lyricbox\hbox{%
-        \unhbox\SB@lyricbox%
-        \SB@ligpre%
-      }%
-      \ifdim\wd\SB@lyricbox>\SB@dimen%
-        \SB@dimen\wd\SB@lyricbox%
-      \fi%
-      \advance\SB@dimen.5em%
-      \hbox to\SB@dimen{\unhbox\SB@chordbox\hfil}%
-      \kern-2\p@%
-      \hbox to\SB@dimen{%
-        \unhcopy\SB@lyricbox\hfil\char\hyphenchar\font\hfil%
-      }%
-      \global\SB@cnt\@m%
-      \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligpost}%
-    \else%
-      \hbox{\unhbox\SB@chordbox\hfil}%
-      \kern-2\p@%
-      \hbox{%
-        \unhcopy\SB@lyricbox%
-        \global\SB@cnt\spacefactor%
-        \hfil%
-      }%
-      \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligfull}%
-    \fi%
-  }%
-  \ifSB@wordends%
-    \ifdim\wd\SB@lyricbox>\z@\else\nobreak\fi%
+  \SB@testfalse%
+  \ifnolyrics\ifdim\wd\SB@lyricbox=\z@\SB@testtrue\fi\fi%
+  \ifSB@test%
+    \unhbox\SB@chordbox%
+    \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligfull}%
   \else%
-    \nobreak\spacefactor\SB@cnt%
+    \vbox{\baselineskip\f@size\p@\kern2\p@%
+      \ifSB@brokenword%
+        \global\setbox\SB@lyricbox\hbox{%
+          \unhbox\SB@lyricbox%
+          \SB@ligpre%
+        }%
+        \ifdim\wd\SB@lyricbox>\SB@dimen%
+          \SB@dimen\wd\SB@lyricbox%
+        \fi%
+        \advance\SB@dimen.5em%
+        \hbox to\SB@dimen{\unhbox\SB@chordbox\hfil}%
+        \kern-2\p@%
+        \hbox to\SB@dimen{%
+          \unhcopy\SB@lyricbox\hfil\char\hyphenchar\font\hfil%
+        }%
+        \global\SB@cnt\@m%
+        \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligpost}%
+      \else%
+        \hbox{\unhbox\SB@chordbox\hfil}%
+        \kern-2\p@%
+        \hbox{%
+          \unhcopy\SB@lyricbox%
+          \global\SB@cnt\spacefactor%
+          \hfil%
+        }%
+        \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligfull}%
+      \fi%
+    }%
+    \ifSB@wordends%
+      \ifdim\wd\SB@lyricbox>\z@\else\nobreak\fi%
+    \else%
+      \nobreak\spacefactor\SB@cnt%
+    \fi%
   \fi%
   \SB@temp%
 }
@@ -3355,12 +3362,15 @@
 \newif\ifpartiallist
 \newif\ifrepchorus
 \newif\iftranscapos
+\newif\ifnolyrics
 \newif\ifrawtext
 \newif\ifpdfindex\pdfindextrue
 \newif\ifsongindexes\songindexestrue
 \newif\ifSB@colorboxes\SB@colorboxestrue
 \newif\ifSB@genindexes\SB@genindexestrue
 \newif\ifSB@omitscrip
+\newcommand\nolyrics{}
+\let\nolyrics\nolyricstrue
 \SB@chordson
 \ProcessOptions\relax
 \ifSB@pdf\else\pdfindexfalse\fi
@@ -3446,6 +3456,7 @@
   \def\rep#1{(x#1)}
   \def\echo#1{(#1)}
   \def\mbar#1#2{}
+  \def\nolyrics{}
 \fi
 \endinput
 %%

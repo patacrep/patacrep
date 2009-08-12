@@ -121,6 +121,20 @@
   \fi%
 }
 
+\newlength{\capoheight}
+\setlength{\capoheight}{1.5cm}
+\renewcommand\capo[1]{%
+  \iftranscapos%
+  \transpose{#1}%
+  \else%
+  \mbox{%
+    \includegraphics[height=\capoheight]{capodastre}%
+    \put(-22,8){\Large #1}
+  }%
+  \hspace{\coverspace}%
+  \fi%
+}%
+
 \iflyric%
   \renewcommand{\gtab}[2]{}%
 \fi%

@@ -55,7 +55,9 @@ endef
 ############################################################
 ### Cibles
 
-default: pdf
+default: chordbook.pdf
+
+all: $(PDF)
 
 ps: $(PSF)
 	gv $<

@@ -18,6 +18,8 @@
 % Options
 \newif{\iftabs}
 \DeclareOption{tabs}{\ifchorded\tabstrue\fi}
+\newif{\iflilypond}
+\DeclareOption{lilypond}{\ifchorded\lilypondtrue\fi}
 
 % Default options : pass to the songs package
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{songs}}
@@ -149,6 +151,12 @@
 \iflyric%
   \renewcommand{\gtab}[2]{}%
 \fi%
+
+\newcommand{\lilypond}[1]{%
+  \iflilypond%
+  \includegraphics{#1}
+  \fi%
+}
 
 \newcommand{\image}[2]{%
   \ifchorded%

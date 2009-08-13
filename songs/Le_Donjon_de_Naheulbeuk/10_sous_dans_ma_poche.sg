@@ -9,6 +9,7 @@
 \gtab{Fa}{1:022100}
 \gtab{Mi7}{020100}
 
+\lilypond{10_sous_dans_ma_poche-1}
 
 \beginverse
 J'ai \[Lam]10 sous dans ma \[Sol]poche,
@@ -41,6 +42,8 @@ Car c'est le nain
 Dans mon village
 Qui a tout l'argent.
 \endchorus
+
+\lilypond{10_sous_dans_ma_poche-2}
 
 \image{naheulbeuk07}{4}
 

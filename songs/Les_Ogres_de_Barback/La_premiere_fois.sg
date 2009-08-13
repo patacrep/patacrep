@@ -6,6 +6,8 @@
 \gtab{La&}{4:022100}
 \gtab{Si&}{6:022100}
 
+\lilypond{La_premiere_fois}
+
 \beginverse
 La première \[Dom]fois,
 Dès fois juste \[La&]en claquant des \[Si&]doigts

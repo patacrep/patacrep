@@ -43,7 +43,7 @@ LILYPOND=$(ECHO) "** lilypond not found" >&2 ; $(ECHO) lilypond
 LILYFILE=''
 else
 LILYPOND=lilypond
-LILYSRC=$(wildcard songs/*/*.ly)
+LILYSRC=$(wildcard lilypond/*.ly)
 LILYFILE=$(LILYSRC:%.ly=%.pdf)
 endif
 

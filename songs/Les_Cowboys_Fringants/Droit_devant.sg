@@ -16,6 +16,8 @@ Et même \[Sol]si on n'en revient jamais vi\[Si&]vant
 Il faut \[Do]marcher droit de\[Rém]vant
 \endchorus
 
+\lilypond{Droit_devant-1}
+
 \beginverse
 \[Rém]Quand il était haut comme 3 pommes
 Et qu'il n'était qu'un tout petit bon\[Do]homme\[Lam]
@@ -30,6 +32,9 @@ Que l'on doit faire face à sa destinée
 \beginverse
 D'abord il faut franchir ce fleuve
 Qui est l'enfance de toutes les épreuves
+
+\lilypond{Droit_devant-2}
+
 Là où même sa propre famille
 Risque de le couler par la torpille
 Déjà on saura si sa coque

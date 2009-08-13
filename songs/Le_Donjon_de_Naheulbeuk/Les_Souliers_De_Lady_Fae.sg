@@ -7,6 +7,8 @@
 \gtab{Do}{032010}
 \gtab{Sim}{2:002210}
 
+\lilypond{Les_souliers_de_Lady_Fae-1}
+
 \beginverse
 \[Mim]Soufflent les \[Sol]vents, \[Do]tonne l'o\[Sim]rage
 \[Mim]Pleurent les en\[Sol]fants dans leur \[Do]lit sans bou\[Sim]ger
@@ -48,6 +50,8 @@ Celle qui tient le fort reste une fille à marier
 Elle attend le jour où l'un d'eux va passer
 La porte de la demeure de Lady Fae
 \endverse
+
+\lilypond{Les_souliers_de_Lady_Fae-2}
 
 \beginverse
 Soufflent les vents, tonne l'orage

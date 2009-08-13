@@ -92,7 +92,7 @@ my $title;
 
 while( <FILE> )
 {
-    if( $_ =~ /\\beginsong{(.*)}\[.*by=(.*)\]/ )
+    if( $_ =~ /\\beginsong{(.*)}\[.*by=(.*),.*\]/ )
     {
 	$author = latex2utf8 $2;
 	$title = latex2utf8 $1;

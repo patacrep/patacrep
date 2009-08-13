@@ -2,7 +2,7 @@
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{crepbook}[2009/07/19 v0.2 LaTeX document class for Crep
+\ProvidesClass{crepbook}[2009/08/13 v0.3 LaTeX document class for Crep
   Books]
 
 \LoadClass[a4paper]{article}

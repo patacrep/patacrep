@@ -38,6 +38,15 @@ else
 IKIWIKI=ikiwiki
 endif
 
+ifeq ($(shell which lilypond),)
+LILYPOND=$(ECHO) "** lilypond not found" >&2 ; $(ECHO) lilypond
+LILYFILE=''
+else
+LILYPOND=lilypond
+LILYSRC=$(wildcard songs/*/*.ly)
+LILYFILE=$(LILYSRC:%.ly=%.pdf)
+endif
+
 # Get dependencies (that can also have dependencies)
 define get_dependencies
 	deps=`perl -ne '($$_)=/^[^%]*\\\(?:include|input)\{(.*?)\}/;@_=split /,/; foreach $$t (@_) { print "$$t "}' $<`
@@ -65,6 +74,8 @@ ps: $(PSF)
 pdf: $(PDF)
 	xpdf $<
 
+lilypond: $(LILYFILE)
+
 clean: cleandoc
 	@rm -f $(SRC:%.tex=%.d)
 	@rm -f $(CIBLE:%=%.aux) 
@@ -77,6 +88,7 @@ clean: cleandoc
 
 cleanall: clean
 	@rm -f $(PDF) $(PSF)
+	@rm -f $(LILYFILE)
 
 depend:
 
@@ -125,3 +137,8 @@ $(SONGS): $(SONGS_SRC)
 
 %.sbd: %.sgl
 	@$(MAKE_SONGDB) --songs=$< --output=$@
+
+%.pdf: %.ly
+	@$(LILYPOND) --output=$(@:%.pdf=%) $<
+	@rm $(@:%.pdf=%.ps)
+

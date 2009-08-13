@@ -2,17 +2,28 @@
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{crepbook}[2009/08/13 v0.3 LaTeX document class for Crep
+\ProvidesClass{crepbook}[2009/08/13 v0.4 LaTeX document class for Crep
   Books]
 
+% Base class
 \LoadClass[a4paper]{article}
 
+% Main packages
 \RequirePackage[pdftex]{graphicx,xcolor}
-\RequirePackageWithOptions{songs}
+\RequirePackage{songs}
 \RequirePackage{fancybox}
 \RequirePackage[bookmarks,bookmarksopen]{hyperref}
 \RequirePackage{tikz}
 
+% Options
+\newif{\iftabs}
+\DeclareOption{tabs}{\ifchorded\tabstrue\fi}
+
+% Default options : pass to the songs package
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{songs}}
+\ProcessOptions
+
+% Start
 \setlength{\parindent}{0cm}
 
 \def\andname{and}
@@ -183,6 +194,8 @@
 % color used to shade the capo and song number.
 \definecolor{SongbookShade}{HTML}{d1e4ae}
 
+%
+\iftabs%
 %% Code from tabs.sty
 % Counters
 \newcounter{tab-string}
@@ -194,10 +207,8 @@
 \def\chordtuning{E,A,D,G,B,e}
 \def\xunit{0.45}
 \def\yunit{0.3}
-
 % The tab environmant
 % \begin{tab}
-% \begin{chord}[D,G,D,G,F,E]
 \newenvironment{tab}
 {
   \small
@@ -255,6 +266,12 @@
 {
   \end{tikzpicture}
 }
+\else%
+\newenvironment{tab}{%
+  \newcommand{\single}[2]{}%
+  \renewcommand{\bar}{}%
+}{}%
+\fi%
 
 %% End of tabs.sty file
 \makeatother

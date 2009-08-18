@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2009-08-19 00:13+0300\n"
+"POT-Creation-Date: 2009-08-19 01:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,10 +20,12 @@ msgid ""
 "Here comes the annoncements of new releases, features and miscelanious "
 "news.  Songook users are recommended to subscribe to this page's RSS feed."
 msgstr ""
-"Ici se trouvent toutes les annonces pour les nouvelles versions et nouveautés du carnet de chant. "
-" Nous recommandons aux utilisateur de Songook de suivre le flux RSS de cette page."
+"Ici se trouvent toutes les annonces pour les nouvelles versions et "
+"nouveautés du carnet de chant.  Nous recommandons aux utilisateur de Songook "
+"de suivre le flux RSS de cette page."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!inline pages=\"./news/* and !*/Discussion\" rootpage=\"news\" show=\"20\"]]\n"
-msgstr "[[!inline pages=\"./news/* and !*/Discussion\" rootpage=\"news\" show=\"20\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!inline pages=\"./news/* and !*/Discussion\" rootpage=\"news\" show=\"20\"]]\n"
+msgid "[[!inline pages=\"currentlang() and ./news/* and !*/Discussion\" rootpage=\"news\" show=\"20\"]]\n"
+msgstr "[[!inline pages=\"currentlang() and ./news/* and !*/Discussion\" rootpage=\"news\" show=\"20\"]]\n"

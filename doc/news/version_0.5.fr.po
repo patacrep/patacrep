@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-08-19 00:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#. type: Plain text
+msgid "songbook 0.5 released with [[!toggle text=\"these changes\"]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toggleable text=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+" + New songs:\n"
+"   + Belyscendre - Mon père veut me marier\n"
+"   + Belyscendre - Prend farge au loup\n"
+"   + Britney Spears - ...Baby one more time\n"
+"   + Cranberries - Animal Instinct\n"
+"   + Cranberries - Zombie\n"
+"   + Green Day - American Idiot\n"
+"   + Le Donjon de Naheulbeuk - La compagnie du chien rugissant\n"
+"   + Le Donjon de Naheulbeuk - La complainte de la serveuse\n"
+"   + Le Donjon de Naheulbeuk - La polka du menestrel\n"
+"   + Le Donjon de Naheulbeuk - Les chaussettes du nain\n"
+"   + Le Donjon de Naheulbeuk - Même pas mage\n"
+"   + Negro Spiritual - Lord I want\n"
+"   + Oldelaf - J'veux être musclé\n"
+"   + Oldelaf - Mon ange\n"
+"   + Rise Against - Hero of War\n"
+"   + U2 - Sunday Bloody Sunday\n"
+" + Corrections of mistakes and typos\n"
+" + New `crepbook` document class\n"
+"   + Merge style information and package requierement from multiple files\n"
+" + Add `tabs` option to enable guitar tabs\n"
+" + Add `lilypond` option to enable music sheet\n"
+" + Add volume handling:\n"
+"   + Add *volume-1* source containing about 165 songs\n"
+"   + Add *naheulbeuk* special edition\n"
+" + Cherry picked update from songs package v2.9\n"
+msgstr ""

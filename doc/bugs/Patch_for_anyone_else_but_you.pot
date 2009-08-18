@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-08-19 00:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING"
+
+#. type: Plain text
+msgid "Little patch to correct chord position and differ chorus/verse"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    diff --git a/songs/The_Moldy_Peaches/Anyone_Else_But_You.sg "
+"b/songs/The_Moldy_Peaches/Anyone_Else_But_You.sg\n"
+"    index 52ff9eb..3f87cd6 100644\n"
+"    --- a/songs/The_Moldy_Peaches/Anyone_Else_But_You.sg\n"
+"    +++ b/songs/The_Moldy_Peaches/Anyone_Else_But_You.sg\n"
+"    @@ -4,12 +4,15 @@\n"
+"     \\gtab{Do7}{X32003}\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     \\beginverse\n"
+"    -\\[Sol]You're a part time lover and a full time friend\n"
+"    -\\[Do7]The monkey on you're back is the latest trend\n"
+"    -\\[Sol]I don't see what anyone can see, in anyone else\n"
+"    -\\[Do7]But you\n"
+"    +You're a \\[Sol]part time lover and a full time friend\n"
+"    +The \\[Do7]monkey on you're back is the latest trend\n"
+"     \\endverse\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    +\\beginchorus\n"
+"    +I \\[Sol]don't see what anyone can see,\n"
+"    +In anyone \\[Do7]else \\dots but \\[Sol]you\n"
+"    +\\endchorus\n"
+"    +\n"
+"     \\beginverse\n"
+"     I kiss you on the brain in the shadow of a train\n"
+"     I kiss you all starry eyed, my body's swinging from side to side\n"
+msgstr ""
+
+#. type: Plain text
+msgid "[[done]]"
+msgstr ""

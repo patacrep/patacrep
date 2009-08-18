@@ -1,4 +1,4 @@
-Songbook is a set of tools used to produce lyricbooks and guitar chordbooks from latex songs file. It is shipped with Crep's and Lohrun's chordbook containing more than 125 songs. Crep's website, <http://patacrep.com>, gives more information about this project (in French).
+Songbook is a set of tools used to produce lyricbooks and guitar chordbooks from latex songs file. It is shipped with Crep's and Lohrun's chordbook containing more than 180 songs. Crep's website, <http://patacrep.com>, gives more information about this project (in French).
 
 This website is both a wiki and the documentation of the songbook project. You are welcome to contribute in any way (you have to register in order to edit pages).
 
@@ -8,5 +8,5 @@ This website is both a wiki and the documentation of the songbook project. You a
 * [[bugs]]
 * [[contact]]
 
-This project uses the LaTeX [songs](http://songs.sourceforge.net) package written by [Kevin W. Hamlen](http://www.utdallas.edu/~hamlen).
+This project uses a slightly modified version of the LaTeX [songs](http://songs.sourceforge.net) package written by [Kevin W. Hamlen](http://www.utdallas.edu/~hamlen).
 His work is redistributed and modified under the conditions of the LaTeX Project Public License, either version 1.3a of this license or (at your option) any later version. The latest version of this license is in: <http://www.latex-project.org/lppl.txt>. Other material such as the makefile and perl script used to make songbooks are distributed under the GPLv2 Licence.

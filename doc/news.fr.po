@@ -20,8 +20,10 @@ msgid ""
 "Here comes the annoncements of new releases, features and miscelanious "
 "news.  Songook users are recommended to subscribe to this page's RSS feed."
 msgstr ""
+"Ici se trouvent toutes les annonces pour les nouvelles versions et nouveautés du carnet de chant. "
+" Nous recommandons aux utilisateur de Songook de suivre le flux RSS de cette page."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"./news/* and !*/Discussion\" rootpage=\"news\" show=\"20\"]]\n"
-msgstr ""
+msgstr "[[!inline pages=\"./news/* and !*/Discussion\" rootpage=\"news\" show=\"20\"]]\n"

@@ -92,6 +92,8 @@ cleanall: clean
 
 depend:
 
+doc : documentation
+
 documentation:
 	$(IKIWIKI) doc html -v --wikiname "Songbook Documentation" --plugin=goodstuff --set usedirs=0
 

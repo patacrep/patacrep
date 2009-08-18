@@ -1,8 +1,31 @@
-songbook (0.?)
+songbook (0.5)
 
- (lohrun) add a proper volume mechanism
+  (crep, lohrun, Grégoire Goffe) New songs:
+  	 Belyscendre - Mon père veut me marier
+	 Belyscendre - Prend farge au loup
+	 Britney Spears - ...Baby one more time
+	 Cranberries - Animal Instinct
+	 Cranberries - Zombie
+	 Green Day - American Idiot
+	 Le Donjon de Naheulbeuk - La compagnie du chien rugissant
+	 Le Donjon de Naheulbeuk - La complainte de la serveuse
+	 Le Donjon de Naheulbeuk - La polka du menestrel
+	 Le Donjon de Naheulbeuk - Les chaussettes du nain
+	 Le Donjon de Naheulbeuk - Même pas mage
+	 Negro Spiritual - Lord I want
+	 Oldelaf - J'veux être musclé
+	 Oldelaf - Mon ange
+	 Rise Against - Hero of War
+	 U2 - Sunday Bloody Sunday
+  (crep, lohrun) Corrections of mistakes and typos.
+  (lohrun) Add a proper volume mechanism
+  (lohrun) Add volume-1 source containing about 165 songs
+  (crep) Add naheulbeuk special edition
+  (lohrun) Upgraded songs.sty with bits from songs package v2.9
+  (lohrun) Add tabs option
+  (crep,lohrun) Add lilypond option
 
- -- Alexandre Dupas <alexandre.dupas@gmail.com> Sun, 31 May 2009 01:45:00 +0200
+ -- Alexandre Dupas <alexandre.dupas@gmail.com> Tue, 18 Aug 2009 23:38:12 +0200
 
 songbook (0.4)
 

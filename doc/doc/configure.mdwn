@@ -1,0 +1,15 @@
+# Configuring the songbook
+
+There is some options that you can had to the songbook to produce different output. These options are meant to be added in the option part of the `\documentclass`.
+
+## Chords
+
+The `chorded` option is a songs package option that output chords above the lyrics. In the crepbook it also enable chords diagrams, image and cover to be printed.
+
+## Tabs
+
+Some songs have tabs to play solo and/or intro parts. To print the tab you must have the `chorded` and the `tabs` options activated.
+
+## Lilypond
+
+Some songs also have music sheet using the GNU tool lilypond. To print the sheet along with the song you must have `chorded` and `lilypond` options activated. Note that you will need lilypond in order to get the actual sheet. You also must build them separatly as they are pretty long to render and we do not want to bloat the build process with them. To build the music sheet you just have to type : `make lilypond`.

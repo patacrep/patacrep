@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# French translation for the Songbook documentation page
+# Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alexandre Dupas <alexandre.dupas@gmail.com>, 2009.
 #
 #, fuzzy
 msgid ""
@@ -22,6 +22,11 @@ msgid ""
 "containing more than 180 songs. Crep's website, <http://patacrep.com>, gives "
 "more information about this project (in French)."
 msgstr ""
+"Songbook est un ensemble d'outils utilisés pour produire des carnets de chants"
+"d'après des fichiers de chanson écrit en latex. Il est livré avec le carnet de "
+"chant de Crep et Lohrun contenant plus de 180 chansons. Le site internet de "
+"Crep, <http://patacrep.com>, donne plus d'information à propos de ce projet "
+"(en français)."
 
 #. type: Plain text
 msgid ""
@@ -29,26 +34,29 @@ msgid ""
 "You are welcome to contribute in any way (you have to register in order to "
 "edit pages)."
 msgstr ""
+"Ce site internet est à la fois un wiki et la documentation pour le projet Songbook."
+"Vous êtes bienvenue pour y contribuer notamment pour ce qui est de la traduction "
+"(vous devez vous enregistrer sur le site afin de pouvoir éditer les pages)."
 
 #. type: Bullet: '* '
 msgid "[[download]]"
-msgstr ""
+msgstr "[[téléchargement|download]]"
 
 #. type: Bullet: '* '
 msgid "[[news]]"
-msgstr ""
+msgstr "[[nouvelles|news]]"
 
 #. type: Bullet: '* '
 msgid "[[documentation|doc]]"
-msgstr ""
+msgstr "[[documentation|doc]]"
 
 #. type: Bullet: '* '
 msgid "[[bugs]]"
-msgstr ""
+msgstr "[[bogues|bugs]]"
 
 #. type: Bullet: '* '
 msgid "[[contact]]"
-msgstr ""
+msgstr "[[contact]]"
 
 #. type: Plain text
 msgid ""
@@ -61,3 +69,11 @@ msgid ""
 "as the makefile and perl script used to make songbooks are distributed under "
 "the GPLv2 Licence."
 msgstr ""
+"Ce projet utilise une version légèrement modifiée du package LaTeX [songs](http://"
+"songs.sourceforge.net) écrit part [Kevin W. Hamlen](http://www."
+"utdallas.edu/~hamlen).  Son travail est redistribué et modifié d'après les "
+"conditions de la LaTeX Project Public License, soit en version 1.3a de cette "
+"licence ou (à votre discretion) n'importe quelle version ultérieure. La dernière version de cette "
+"licence est disponible: <http://www.latex-project.org/lppl.txt>. D'autres éléments comme "
+"le makefile et les scripts utilisé pour faire le carnet de chant sont distribués sous "
+"la licence GPLv2."

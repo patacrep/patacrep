@@ -1,0 +1,1 @@
+New on the documentation side as the po plugin to ikiwiki is now activated which means we could have a consistant documentation translation into others languages. But as po is a new feature, some tweaks are still needed before actually translating everything. Be patient, I will give updates soon. 

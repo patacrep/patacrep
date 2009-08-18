@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-08-19 00:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING"
+
+#. type: Plain text
+msgid "songbook 0.1 released with [[!toggle text=\"these changes\"]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toggleable text=\"\"\"\n"
+msgstr ""
+
+#. type: Bullet: ' + '
+msgid ""
+"makefile: Improve handling of multiple main .tex files. For instance, it is "
+"now possible to have a lyricbook.tex and chordbook.tex each of them "
+"generating a pdf file containing something different. It also now take cares "
+"of dependencies over other .tex file or other special files (songs.sbd for "
+"instance)."
+msgstr ""
+
+#. type: Bullet: ' + '
+msgid ""
+"songs.sty: Minor change to allow songs to contain fret numbers in tabs. The "
+"separator is now ',' instead of ':'."
+msgstr ""

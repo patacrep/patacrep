@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-08-19 00:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING"
+
+#. type: Plain text
+msgid "In the song F*** you by Garfunkel & Oates"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Chord G is not correct"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Avoid placing a chord on the second letter of a monosyllabic word "
+"(a\\\\[Do]s -> \\\\[Do]as)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Avoid chorus chords repetition"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  -- [[done]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Voici le patch:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    diff --git a/songs/Garfunkel_and_Oates/Fuck_You.sg "
+"b/songs/Garfunkel_and_Oates/Fuck_You.sg\n"
+"    index cc7eed8..620c347 100644\n"
+"    --- a/songs/Garfunkel_and_Oates/Fuck_You.sg\n"
+"    +++ b/songs/Garfunkel_and_Oates/Fuck_You.sg\n"
+"    @@ -4,22 +4,22 @@\n"
+"     \\gtab{Do}{X32010}\n"
+"     \\gtab{Mim}{022000}\n"
+"     \\gtab{Fa}{1,022100}\n"
+"    -\\gtab{Sol}{002210}\n"
+"    +\\gtab{Sol}{320003}\n"
+"     \\gtab{Mi7}{020100}\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     \\beginverse\n"
+"     \\[Do]I've \\[Mim]got too many q\\[Fa]uestions in my m\\[Sol]ind\n"
+"     \\[Do]I've \\[Mim]got too many a\\[Fa]nswers to f\\[Sol]ind\n"
+"     \\[Do]Can \\[Mim]I give up \\[Fa]all I've i\\[Sol]magined\n"
+"    -\\[Do]Am \\[Mim]I \\[Fa]imagical enough for this t\\[Sol]o happen\n"
+"    +\\[Do]Am \\[Mim]I \\[Fa]imagical enough for this \\[Sol]to happen\n"
+"     \\endverse\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     \\beginchorus\n"
+"     Because \\[Do]I like you, \\echo{I like you}, \\[Mim]I like you, "
+"\\echo{I like \\[Fa]yoooouuuu} \\[Sol]\n"
+"     And \\[Do]like can lead to \\[Sol]like like\n"
+"     And \\[Do]like like can lead to \\[Mi7]looooove\n"
+"    -As sure a\\[Do]s the stars above\n"
+"    -\\[Mim]I'd really like to \\[Fa]kiss you, \\echo{fuck you}, ohh "
+"\\[Sol]\n"
+"    +As sure \\[Do]as the stars above\n"
+"    +\\[Mim]I'd really like to \\[Fa]kiss you, \\echo{fuck you}, oh "
+"\\[Sol]\n"
+"     \\endchorus\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     \\beginverse\n"
+"    @@ -29,12 +29,11 @@ I'll try real hard not to lose her\n"
+"     I'll try to be less of a loser\n"
+"     \\endverse\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    -\n"
+"     \\beginchorus\n"
+"    -Because \\[Do]I like you, \\echo{I like you}, \\[Mim]I like you, "
+"\\echo{I like \\[Fa]yoooouuuu} \\[Sol]\n"
+"    -And \\[Do]like can lead to \\[Sol]like like\n"
+"    -And \\[Do]like like can lead to \\[Mi7]looooove\n"
+"    -As sure a\\[Do]s the stars above\n"
+"    +Because I like you, \\echo{I like you}, I like you, \\echo{I like "
+"yoooouuuu}\n"
+"    +And like can lead to like like\n"
+"    +And like like can lead to looooove\n"
+"    +As sure as the stars above\n"
+"     \\[Mim]I'd really like to \\[Fa]kiss you, kiss you, \\[Sol]kiss you, "
+"kiss you,\n"
+"     \\[Do]fuck yoooouuuu.\n"
+"     \\endchorus\n"
+msgstr ""

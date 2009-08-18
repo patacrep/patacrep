@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-08-19 00:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#. type: Plain text
+msgid ""
+"Songbook is a set of tools used to produce lyricbooks and guitar chordbooks "
+"from latex songs file. It is shipped with Crep's and Lohrun's chordbook "
+"containing more than 180 songs. Crep's website, <http://patacrep.com>, gives "
+"more information about this project (in French)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This website is both a wiki and the documentation of the songbook project. "
+"You are welcome to contribute in any way (you have to register in order to "
+"edit pages)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[download]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[news]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[documentation|doc]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[bugs]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[contact]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This project uses a slightly modified version of the LaTeX [songs](http://"
+"songs.sourceforge.net) package written by [Kevin W. Hamlen](http://www."
+"utdallas.edu/~hamlen).  His work is redistributed and modified under the "
+"conditions of the LaTeX Project Public License, either version 1.3a of this "
+"license or (at your option) any later version. The latest version of this "
+"license is in: <http://www.latex-project.org/lppl.txt>. Other material such "
+"as the makefile and perl script used to make songbooks are distributed under "
+"the GPLv2 Licence."
+msgstr ""

@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-08-19 00:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#. type: Plain text
+msgid ""
+"Please do not push a patch into the bug section without any bug related or "
+"feature request. I appreciate patch send by mail too! -- [[lohrun]]"
+msgstr ""
+
+#. type: Plain text
+msgid "[[done]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    diff --git a/license.tex b/license.tex\n"
+"    index 5cd8a9f..6d02922 100644\n"
+"    --- a/license.tex\n"
+"    +++ b/license.tex\n"
+"    @@ -1,43 +1,59 @@\n"
+"     %License Creative Commons\n"
+"    -\\begin{center} \\textbf{Creative Commons Legal Code} \\end{center}\n"
+"    +\\begin{center} \\textbf{\\LARGE{Creative Commons\\footnote{Creative Commons peut être contacté a \\url{http://creativecommons.org/}.} Legal Code}} \\end{center}\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "     \\vspace{2cm}\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    -Vous êtes libres :\n"
+"    +Vous êtes libres:\n"
+"    +\n"
+"    +\\vspace{0.5cm}\n"
+"     \\begin{itemize}\n"
+"     \\item de reproduire, distribuer et communiquer cette création au public\n"
+"     \\item de modifier cette création\n"
+"     \\end{itemize}\n"
+"     \\vspace{1cm}\n"
+"    -Selon les conditions suivantes :\n"
+"    +\n"
+"    +Selon les conditions suivantes:\n"
+"    +\n"
+"    +\\vspace{0.5cm}\n"
+"     \\begin{itemize}\n"
+"    -\\item Paternité. Vous devez citer le nom de l’auteur original de la manière indiquée par l’auteur de l’oeuvre ou le titulaire des\n"
+"    -   droits qui vous confère cette autorisation (mais pas d’une manière qui suggérerait qu’ils vous soutiennent ou approuvent\n"
+"    -   votre utilisation de l’oeuvre). Attribute this work : What does ”Attribute this work” mean ? The page you came from\n"
+"    -   contained embedded licensing metadata, including how the creator wishes to be attributed for re-use. You can use the\n"
+"    -   HTML here to cite the work. Doing so will also include metadata on your page so that others can find the original work\n"
+"    -   as well.\n"
+"    -\\item Pas d’Utilisation Commerciale. Vous n’avez pas le droit d’utiliser cette création à des fins commerciales.\n"
+"    -\\item Partage des Conditions Initiales à l’Identique. Si vous modifiez, transformez ou adaptez cette création, vous n’avez le\n"
+"    -droit de distribuer la création qui en résulte que sous un contrat identique a celui-ci.\n"
+"    +\\item \\textbf{Paternité}. Vous devez citer le nom de l’auteur original de la manière indiquée par l’auteur de l’oeuvre ou le titulaire des\n"
+"    +  droits qui vous confère cette autorisation (mais pas d’une manière qui suggérerait qu’ils vous soutiennent ou approuvent\n"
+"    +  votre utilisation de l’\\oe{}uvre).\n"
+"    +  as well.\n"
+"    +\\item \\textbf{Pas d’Utilisation Commerciale}. Vous n’avez pas le droit d’utiliser cette création à des fins commerciales.\n"
+"    +\\item \\textbf{Partage des Conditions Initiales à l’Identique}. Si vous modifiez, transformez ou adaptez cette création, vous n’avez le\n"
+"    +  droit de distribuer la création qui en résulte que sous un contrat identique a celui-ci.\n"
+"     \\end{itemize}\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     \\vspace{1cm}\n"
+"    -\\begin{tabular}{|l|}\n"
+"    -\\hline\n"
+"    -- A chaque réutilisation ou distribution de cette création, vous devez faire\\\\\n"
+"    -apparaître clairement au public les conditions contractuelles de sa mise à\\\\\n"
+"    -disposition.\\\\\n"
+"    -- Chacune de ces conditions peut être levée si vous obtenez l’autorisation du\\\\\n"
+"    -titulaire des droits sur cette oeuvre.\\\\\n"
+"    -- Rien dans ce contrat ne diminue ou ne restreint le droit moral de l’auteur ou\\\\\n"
+"    -des auteurs.\\\\\n"
+"    -\\hline\n"
+"    -\\end{tabular}\n"
+"    +\\begin{center}\n"
+"    +  \\begin{tabular}{|l|}\n"
+"    +    \\hline\n"
+"    +    - A chaque réutilisation ou distribution de cette création, vous devez faire\\\\\n"
+"    +    apparaître clairement au public les conditions contractuelles de sa mise à\\\\\n"
+"    +    disposition.\\\\\n"
+"    +    - Chacune de ces conditions peut être levée si vous obtenez l’autorisation du\\\\\n"
+"    +    titulaire des droits sur cette \\oe{}uvre.\\\\\n"
+"    +    - Rien dans ce contrat ne diminue ou ne restreint le droit moral de l’auteur ou\\\\\n"
+"    +    des auteurs.\\\\\n"
+"    +    \\hline\n"
+"    +  \\end{tabular}\n"
+"    +\\end{center}\n"
+"    +\n"
+"     \\vspace{1cm}\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    -Creative Commons peut être contacté a \\url{http://creativecommons.org/}.\n"
+"    +\\begin{itemize}\n"
+"    +  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    +\\item Ce document utilise le travail d'artistes à des fins non\n"
+"    +  lucratives. Les auteurs/compositeurs peuvent demander le retrait de\n"
+"    +  leurs \\oe{}uvres sur simple demande à \\url{crep@team-on-fire.com}.\n"
+"    +  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    +\\item Merci à tous les utilisateurs de respecter leur travail et d'en faire une utilisation personnelle. La retranscription des paroles et des accords a été effectuée bénévolement par des passionnés de musique.\n"
+"    +  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    +\\item Les illustrations proviennent de la Tux factory du site \\url{http://www.crystalxp.net/}. Ce document est écrit en LaTex, d'après le style du projet Songs disponible à l'adresse: \\url{http://songs.sourceforge.net/}\n"
+"    +  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    +\\end{itemize}\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    -Illustrations provenant du site \\url{http://tux.crystalxp.net/}.\n"
+"    -\\image{license}{3}\n"
+"    +\\vspace{1cm}\n"
+"    +\\image{license}{2.5}\n"
+"     % Fin de la License\n"
+msgstr ""

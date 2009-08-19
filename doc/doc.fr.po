@@ -17,20 +17,20 @@ msgstr ""
 
 #. type: Plain text
 msgid "Documentation for Songbook."
-msgstr ""
+msgstr "Documentation pour Songbook."
 
 #. type: Bullet: ' + '
 msgid "How to [[install]] this software;"
-msgstr ""
+msgstr "Comment [[installer|install]] ce logiciel;"
 
 #. type: Bullet: ' + '
 msgid "How to [[configure]] the chordbook to suit your needs;x"
-msgstr ""
+msgstr "Comment [[configurer|configure]] le carnet de chant pour s'adapter à vos besoins;"
 
 #. type: Bullet: ' + '
 msgid "How to [[write]] a new song into the books;"
-msgstr ""
+msgstr "Comment [[écrire|write]] une nouvelle chanson pour le carnet de chant;"
 
 #. type: Bullet: ' + '
 msgid "There's also a [[FAQ]]."
-msgstr ""
+msgstr "Il y a aussi une [[FAQ]]."

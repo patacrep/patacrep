@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# French translation of bugs page.
+# Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alexandre Dupas <alexandre.dupas@gmail.com>, 2009.
 #
 #, fuzzy
 msgid ""
@@ -20,12 +20,14 @@ msgid ""
 "This is Songbook's bug list. You are welcome to submit any bugs report or "
 "feature request you want. [[Song requests|song_request]] are also welcome."
 msgstr ""
+"Ceci est la liste des bugs de Songbook. Vous pouvez utiliser ce service si vous découvrez des bugs ou "
+"si vous souhaitez une nouvelle fonctionnalité. Les [[requêtes pour de nouvelles chansons|song_request]] sont également bienvenue."
 
 #. type: Plain text
 msgid "Resolved bugs are marked as [[bugs/done]]."
-msgstr ""
+msgstr "Les bugs résolus sont marqués comme [[fini|bugs/done]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"./bugs/* and !./bugs/done and !./bugs/song_request and !link(done) and !*/Discussion\" actions=yes postform=yes show=0]]\n"
-msgstr ""
+msgstr "[[!inline pages=\"currentlang() and ./bugs/* and !./bugs/done and !./bugs/song_request and !link(done) and !*/Discussion\" actions=yes postform=yes show=0]]\n"

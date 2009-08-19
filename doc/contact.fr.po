@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# French translation of the contact page
+# Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alexandre Dupas <alexandre.dupas@gmail.com>, 2009.
 #
 #, fuzzy
 msgid ""
@@ -18,12 +18,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "A discussion board is available on <patacrep.com>. You can also contact the authors directly by mail:\n"
-msgstr ""
+msgstr "Un forum de discussion est disponible sur <patacrep.com>. Vous pouvez également contacter les auteurs par mail:\n"
 
 #. type: Bullet: ' + '
 msgid "Alexandre \"Lohrun\" Dupas <alexandre.dupas@gmail.com>;"
-msgstr ""
+msgstr "Alexandre \"Lohrun\" Dupas <alexandre.dupas@gmail.com>;"
 
 #. type: Bullet: ' + '
 msgid "Romain \"Crep\" Goffe <crep@team-on-fire.com>."
-msgstr ""
+msgstr "Romain \"Crep\" Goffe <crep@team-on-fire.com>."

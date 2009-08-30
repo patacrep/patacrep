@@ -1,0 +1,53 @@
+\songcolumns{2}
+\beginsong{La baleine bleue}[by=Steve Waring,cov=la-baleine-bleue]
+
+
+\cover
+\gtab{Sol}{320003}
+\gtab{Ré}{X00232}
+
+\beginchorus
+\[Sol]La baleine bleue cherche de l'eau
+Pour débou\[Ré]cher tous ses tu\[Sol]yaux
+La baleine bleue cherche de l'eau
+Pour débou\[Ré]cher tous ses tu\[Sol]yaux
+Eau, eau, \[Ré]eau, eau $H_2$\[Sol]$O$ \rep{2}
+\endchorus
+
+
+\beginverse
+\[Sol]Elle a trouvé beaucoup de choses
+Elle a trou\[Ré]vé beaucoup de \[Sol]choses
+Beaucoup de choses \rep{2}
+Mais pas de l'eau \rep{2}
+Eau $H_2O$
+\endverse
+
+\beginverse
+Elle a trouvé du détergent \rep{2}
+Du détergent \rep{2}
+Beaucoup de choses \rep{2}
+Mais pas de l'eau \rep{2}
+Eau $H_2O$
+\endverse
+
+\beginverse
+Elle a trouvé un pétrolier \rep{2}
+Un pétrolier \rep{2}
+Du détergent \rep{2}
+Beaucoup de choses \rep{2}
+Mais pas de l'eau \rep{2}
+Eau $H_2O$
+\endverse
+
+\beginverse
+Elle a trouvé du DDT \rep{2}
+Du DDT \rep{2}
+Un pétrolier \rep{2}
+Du détergent \rep{2}
+Beaucoup de choses \rep{2}
+Mais pas de l'eau \rep{2}
+Eau $H_2O$
+\endverse
+
+\endsong

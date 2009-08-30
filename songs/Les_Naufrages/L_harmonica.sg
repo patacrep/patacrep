@@ -1,11 +1,22 @@
 \songcolumns{2}
 \beginsong{L'harmonica}[by=Les Naufragés,cov=ca-baigne]
 
+\cover
+\gtab{Lam}{X02210}
+\gtab{Sol}{320003}
+\gtab{Do}{X32010}
+
+
+\lilypond{L_harmonica}
+
 \beginverse
 \[Lam]Dans mon sac de matelot,
 J'ai mis tout c'\[Sol]que j'avais de plus \[Lam]beau
 Souvenirs de tous pays,
 Bouteille de \[Sol]rhum et de whi\[Lam]sky
+\endverse
+
+\beginverse*
 Une \[Do]montre qui ne \[Sol]marche pas,
 Ma \[Do]pipe et mon ta\[Sol]bac
 J'y ai \[Lam]mis l'harmonica,
@@ -13,7 +24,7 @@ Qu'j'avais ache\[Sol]té à Mala\[Lam]ga.
 \endverse
 
 \beginchorus
-Avec [Lam]mon harmonica
+Avec \[Lam]mon harmonica
 Je souffle, la voi\[Sol]là
 L'harmonica, l'harmonica
 Pour la \[Lam]gigue et la polka
@@ -26,6 +37,9 @@ Il m'accompagne partout,
 Une chanson prête à chaque trou
 Il sait des tas de refrains,
 Dont les plus beaux sont de marins
+\endverse
+
+\beginverse*
 A bord, pendant les quarts à bord,
 Il fait rêver les gars
 Il leur parle de la terre,
@@ -37,6 +51,9 @@ Du temps où j'étais pas manchot,
 Je faisais l'amour dans les pays chauds
 A une sombre beauté,
 Qui ne voulait pas se laisser tenter
+\endverse
+
+\beginverse*
 Sa peau et son corps étaient noirs,
 Mais elle ne voulait rien savoir
 J'lui dit qu'j'étais matelot,
@@ -48,6 +65,9 @@ Celui qu'a composé cette chanson,
 C'est Henri Jacques, matelot de pont
 Si elle est à votre goût les gars,
 Faut lui payer un coup
+\endverse
+
+\beginverse*
 Avec sa gueule de trafiquant,
 Faut lui rincer les dents
 Offrez-lui un pot de tafia,

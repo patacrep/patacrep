@@ -7,6 +7,9 @@
 \gtab{Sol}{320003}
 \gtab{Ré}{000232}
 
+
+\lilypond{Tom_Sawyer_1}
+
 \beginchorus
 \[Do]Tom Sawyer, \[Fa]c'est l'Amé\[Do]rique
 Le \[Fa]symbole \[Do]de la liber\[Sol]té
@@ -34,5 +37,7 @@ Qu'il emporte avec lui
 Trois bouts de ficelle, quelques pierres et du bois
 Il les partage avec tous ses amis
 \endverse
+
+\lilypond{Tom_Sawyer_2}
 
 \endsong

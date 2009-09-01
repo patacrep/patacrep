@@ -85,6 +85,7 @@ clean: cleandoc
 	@rm -f $(SONGS)
 	@rm -f *.sbd
 	@rm -f *.sbx *.sxd
+	@rm -f ./lilypond/*.ps
 
 cleanall: clean
 	@rm -f $(PDF) $(PSF)

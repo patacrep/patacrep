@@ -10,6 +10,8 @@
 \gtab{Fa}{1:022100}
 \gtab{Sol}{3:022100}
 
+\lilypond{Cupidon_s_en_fout}
+
 \beginverse
 \[Lam]Pour changer en amour notre amourette
 Il s'en \[Do]serait pas fallu de beau\[Mi]coup
@@ -19,7 +21,7 @@ Mais, ce jour-là, Vénus était distraite
 \beginchorus
 Il est des \[Lam]jours où \[Sol7]Cupidon s'en \[Do]fout
 Il est des \[Rém]jours où \[Mi]Cupidon s'en \[Lam]fout
-\[Fa] \[Sol] \[Do] \[Rém] \[Mi] \[Lam]
+{\nolyrics \[Fa] \[Sol] \[Do] \[Rém] \[Mi] \[Lam]}
 \endchorus
 
 \beginverse

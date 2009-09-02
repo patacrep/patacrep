@@ -1,5 +1,5 @@
 \songcolumns{2}
-\beginsong{The boxer}[by=Simon \& Garfunkel,cov=the-definitive]
+\beginsong{The boxer}[by=Simon \& Garfunkel,cov=Concert-in-central-park]
 
 
 \cover
@@ -52,6 +52,8 @@ There were times when I was so lonesome,
 That I took some comfort there.
 La, la, la, la, la, la, la.
 \endverse
+
+\lilypond{The_boxer}
 
 \beginverse
 Now the years are rolling by me,

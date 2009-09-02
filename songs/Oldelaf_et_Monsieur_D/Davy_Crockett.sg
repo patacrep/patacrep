@@ -1,6 +1,7 @@
 \songcolumns{1}
-\beginsong{Davy Crockett}[by=Oldelaf et Monsieur~D.]
+\beginsong{Davy Crockett}[by=Oldelaf et Monsieur~D.,cov=lives]
 
+\cover
 \gtab{Do}{032010}
 \gtab{Fa}{1:022100}
 \gtab{Sol}{320003}

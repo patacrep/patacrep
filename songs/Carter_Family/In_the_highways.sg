@@ -1,25 +1,26 @@
 \songcolumns{2}
-\beginsong{In the highways}[by=Carte Family,cov=o-brother]
+\beginsong{In the highways}[by=Carter Family,cov=o-brother]
 
+\capo{1}
 \cover
-\gtab{Sol}{320003}
-\gtab{Ré}{XX0232}
 \gtab{Do}{X32010}
+\gtab{Sol}{320003}
+\gtab{Fa}{1:022100}
 
 \beginverse
-\[Sol]In the highways, in the hedges.
-In the \[Ré]highways, in the \[Sol]hedges
-\[Sol]In the highways, in the hedges
-I'll be \[Ré]somewhere working for my \[Sol]Lord
+\[Do]In the highways, in the hedges.
+In the \[Sol]highways, in the \[Do]hedges
+\[Do]In the highways, in the hedges
+I'll be \[Sol]somewhere working for my \[Do]Lord
 \endverse
 
 \beginchorus
+I'll be \[Fa]somewhere working
 I'll be \[Do]somewhere working
-I'll be \[Sol]somewhere working
-I'll be \[Ré]somewhere working for my \[Sol]Lord
+I'll be \[Sol]somewhere working for my \[Do]Lord
+I'll be \[Fa]somewhere working
 I'll be \[Do]somewhere working
-I'll be \[Sol]somewhere working
-I'll be \[Ré]somewhere working for my \[Sol]Lord
+I'll be \[Sol]somewhere working for my \[Do]Lord
 \endchorus
 
 \beginverse

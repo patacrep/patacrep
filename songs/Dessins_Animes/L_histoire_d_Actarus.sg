@@ -2,36 +2,49 @@
 \beginsong{L'histoire d'Actarus}[by=Dessins Anim\'es,cov=actarus]
 
 \cover
+\gtab{Fam}{8:002210}
+\gtab{Mi&}{6:002220}
+\gtab{Do}{8:022100}
+\gtab{Do#}{9:022100}
+\gtab{Si&m}{6:022000}
+\gtab{Fa}{1:022100}
+\gtab{Do}{X32010}
+\gtab{Rém}{X00231}
 \gtab{Solm}{3:022000}
-\gtab{Fa}{1:022000}
-\gtab{Ré}{X00232}
-\gtab{Ré#}{XXX343}
-\gtab{Dom}{3:002210}
-\gtab{Sol}{320003}
-\gtab{Mim}{022000}
-\gtab{Lam}{002210}
-\gtab{Do}{032010}
+\gtab{Si&}{1:002220}
 
 \beginverse
-Là-\[Solm]haut, là-haut \[Fa]très loin dans l'espace 
-\[Ré]Entre la Terre \[Solm]et Vénus 
-\[Fa]Le ciel garde encore la trace \[Ré#]du Prince Acta\[Ré]rus 
-\[Dom]Il rêvait \[Solm]de notre Terre \[Fa]la Planète \[Ré]Bleue 
-\[Dom]Dont il voyait \[Solm]la lumière \[Ré]à cent mille \[Solm]lieux 
+Là-\[Fam]haut, là-haut
+\[Mi&]Très loin dans l'espace 
+\[Do]Entre la Terre \[Fam]et Vénus 
+\[Mi&]Le ciel garde encore la trace
+\[Do#]Du Prince Acta\[Do]rus 
+\[Si&m]Il rêvait \[Fam]de notre Terre
+\[Mi&]La Planète \[Do]Bleue 
+\[Si&m]Dont il voyait \[Fam]la lumière
+\[Do]A cent mille \[Fam]lieux 
 \endverse
 
 \beginverse
-Là-haut, là-haut loin dans les étoiles 
+Là-haut, là-haut
+Loin dans les étoiles 
 La Grande Guerre éclata 
-Et ce fut l'assaut final de ceux de Véga 
-Actarus alors s'enfuit vaincu, solitaire 
-A travers les galaxies de notre univers 
+Et ce fut l'assaut final
+De ceux de Véga 
+Actarus alors s'enfuit
+Vaincu, solitaire 
+A travers les galaxies
+De notre univers 
 \endverse
 
 \beginchorus
-\[Sol]Dans son mervei\[Ré]lleux robot \[Mim]de lumière et d'a\[Ré]cier 
-\[Lam]Ce chevalier \[Sol]des temps nouveaux \[Ré]se bat pour l'humani\[Sol]té 
-\[Ré]Actarus à bord de Goldorak 
-\[Sol]Voici la lé\[Do]gende \[Ré]que l'on va vous racon\[Sol]ter
+\[Fa]Dans son mervei\[Do]lleux robot
+\[Rém]De lumière et d'a\[Do]cier 
+\[Solm]Ce chevalier \[Fa]des temps nouveaux
+\[Do]Se bat pour l'humani\[Fa]té 
+\[Do]Actarus à bord de Goldorak 
+\[Fa]Voici la lé\[Si&]gende
+\[Do]Que l'on va vous racon\[Fa]ter
 \endchorus
+
 \endsong

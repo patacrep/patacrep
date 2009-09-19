@@ -1,10 +1,10 @@
 \songcolumns{2}
-\beginsong{Keep on the sunny side}[by=Carte Family,cov=o-brother]
+\beginsong{Keep on the sunny side}[by=Carter Family,cov=o-brother]
 
 \cover
 \gtab{Si&}{6:022100}
 \gtab{Mi&}{6:002220}
-\gtab{Fa}{8:002220}
+\gtab{Fa}{1:022100}
 
 \lilypond{Keep_on_the_sunny_side}
 

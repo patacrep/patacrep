@@ -2,22 +2,22 @@
 \beginsong{O Mary Don't You Weep}[by=Bruce Springsteen,cov=we-shall-overcome]
 
 \cover
-\gtab{Lam}{002210}
-\gtab{Rém}{000231}
-\gtab{Mi}{022100}
+\gtab{Solm}{3:022000}
+\gtab{Ré7}{3:X2120X}
+\gtab{Dom}{3:002210}
 
 \beginverse
-Well \[Lam]if I could I \[Rém]surely would
-\[Mi]Stand on the rock where \[Lam]Moses stood
-\[Rém]Pharaoh's army got \[Lam]drownded
-\[Mi]O Mary don't you \[Lam]weep
+Well \[Solm]if I could I \[Ré7]surely would
+\[Ré7]Stand on the rock where \[Solm]Moses stood
+\[Dom]Pharaoh's army got \[Solm]drownded
+\[Ré7]O Mary don't you \[Solm]weep
 \endverse
 
 \beginchorus
-\[Lam]O Mary, don't you \[Rém]weep, don't you mourn
-\[Mi]O Mary, don't you \[Lam]weep, don't you mourn
-\[Rém]Pharaoh's army got \[Lam]drownded
-\[Mi]O Mary don't you \[Lam]weep
+\[Solm]O Mary, don't you \[Ré7]weep, don't you mourn
+\[Ré7]O Mary, don't you \[Solm]weep, don't you mourn
+\[Dom]Pharaoh's army got \[Solm]drownded
+\[Ré7]O Mary don't you \[Solm]weep
 \endchorus
 
 \beginverse

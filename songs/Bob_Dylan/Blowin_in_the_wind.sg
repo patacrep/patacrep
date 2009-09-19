@@ -2,22 +2,22 @@
 \beginsong{Blowin' in the wind}[by=Bob Dylan,cov=the-freewheelin]
 
 \cover
-\gtab{Sol}{320003}
-\gtab{Do}{032010}
-\gtab{Ré}{000232}
+\gtab{Ré}{320003}
+\gtab{Sol}{032010}
+\gtab{La}{000232}
 
 \beginverse
-\[Sol]How many \[Do]roads must a \[Ré]man walk \[Sol]down
-Be\[Sol]fore you \[Do]call him a \[Ré]man ?
-\[Sol]How many \[Do]seas must a \[Ré]white dove \[Sol]sail
-Be\[Sol]fore she \[Do]sleeps in the \[Ré]sand ?
-\echo{Yes and} \[Sol]how many \[Do]times must the \[Ré]cannon balls \[Sol]fly
-Be\[Sol]fore they're \[Do]forever \[Ré]banned ?
+\[Ré]How many \[Sol]roads must a \[La]man walk \[Ré]Solwn
+Be\[Ré]fore you \[Sol]call him a \[La]man ?
+\[Ré]How many \[Sol]seas must a \[La]white dove \[Ré]sail
+Be\[Ré]fore she \[Sol]sleeps in the \[La]sand ?
+\echo{Yes and} \[Ré]how many \[Sol]times must the \[La]cannon balls \[Ré]fly
+Be\[Ré]fore they're \[Sol]forever \[La]banned ?
 \endverse
 
 \beginchorus
-\[Do]The answer my \[Ré]friend is \[Sol]blowin' in the \[Do]wind
-The \[Do]answer is \[Ré]blowin' in the \[Sol]wind
+\[Sol]The answer my \[La]friend is \[Ré]blowin' in the \[Sol]wind
+The \[Sol]answer is \[La]blowin' in the \[Ré]wind
 \endchorus
 
 \beginverse

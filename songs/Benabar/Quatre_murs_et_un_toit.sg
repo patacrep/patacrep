@@ -1,6 +1,7 @@
 \songcolumns{2}
 \beginsong{Quatre murs et un toit}[by=B\'enabar,cov=reprise-des-negociations]
 
+\capo{2}
 \cover
 \gtab{Lam}{002210}
 \gtab{Sol}{320003}

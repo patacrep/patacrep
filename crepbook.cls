@@ -190,7 +190,7 @@
 \setlength{\headheight}{0cm}
 \setlength{\headsep}{0cm}
 % column
-\setlength{\colminheight}{24cm}
+%\setlength{\colminheight}{24cm}
 \setlength{\textheight}{26cm}
 
 \settowidth{\versenumwidth}{1.\ }
@@ -246,7 +246,7 @@
     \draw node[single] at (\value{tab-tempo},\value{tab-line}+##1) {##2};
     \addtocounter{tab-tempo}{1}
     \addtolength{\tablen}{\xunit cm}
-    \ifnum\colwidth<\tablen
+    \ifnum\hsize<\tablen
       \addtocounter{tab-line}{8}
       \setlength{\tablen}{\xunit cm}
       \setcounter{tab-tempo}{0}

@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2009/08/12 v2.8.1 Songs package]
+  [2009/08/02 v2.9 Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -69,7 +69,7 @@
   \usefont{OT1}{pzc}{mb}{it}%
   \shiftdblquotes{-1.1\p@}\z@{-2\p@}\z@%
 }
-\newcommand\printscrcite[1]{{\sffamily\small#1}}
+\newcommand\printscrcite[1]{\sffamily\small#1}
 \newcommand\versejustify{\justifyleft}
 \newcommand\chorusjustify{\justifyleft}
 \newcommand\notejustify{%
@@ -114,11 +114,13 @@
 \setlength\cbarwidth\p@
 \newlength\sbarheight
 \setlength\sbarheight\p@
-\newcount\vvpenalty\vvpenalty-100
-\newcount\ccpenalty\ccpenalty-100
-\newcount\vcpenalty\vcpenalty-100
-\newcount\cvpenalty\cvpenalty-100
-\newcount\spenalty\spenalty0
+\interlinepenalty\@m
+\newcount\vvpenalty\vvpenalty200
+\newcount\ccpenalty\ccpenalty200
+\newcount\vcpenalty\vcpenalty200
+\newcount\cvpenalty\cvpenalty200
+\newcount\brkpenalty\brkpenalty200
+\newcount\spenalty\spenalty100
 \newcommand\songmark{}
 \newcommand\versemark{}
 \newcommand\chorusmark{}
@@ -132,9 +134,8 @@
 \newcommand\idxrefsfont{\normalfont\normalsize}
 \newcommand\idxbook[1]{\small\bfseries#1}
 \newcommand\idxcont[1]{\small\textbf{#1} (continued)}
-\newlength\colminheight
-\setlength\colminheight{123456789sp}
-\newlength\colwidth
+\newcommand\colbotglue{\z@skip}
+\newcommand\lastcolglue{\@flushglue}
 \newdimen\SB@colwidth
 \DeclareOption{slides}{\slides}
 \newcommand\slides{%
@@ -148,6 +149,7 @@
   \onesongcolumn%
   \ifSB@preamble\ifSB@chordedspec\else\SB@chordsoff\fi\fi%
   \spenalty-\@M%
+  \let\colbotglue\@flushglue%
   \setlength\cbarwidth\z@%
   \setlength\sbarheight\z@%
 }
@@ -202,6 +204,7 @@
     \else%
       \SB@measureson%
     \fi%
+    \ifSB@preamble\def\colbotglue{\z@\@plus.5\textheight}\fi%
     \SB@setbaselineskip%
   \fi%
 }
@@ -215,6 +218,7 @@
   \else%
     \SB@measuresoff%
   \fi%
+  \ifSB@preamble\let\colbotglue\z@skip\fi%
   \SB@setbaselineskip%
 }
 \DeclareOption{showmeasures}{\measureson}
@@ -251,32 +255,19 @@
 \DeclareOption{onesongcolumn}{\SB@numcols\@ne}
 \newcommand\songcolumns[1]{%
   \SB@cnt#1\relax%
-  \ifnum\SB@cnt<\@ne\SB@errcol\else%
-    \ifnum\SB@cnt=\SB@numcols\else%
-      \ifSB@preamble\else\SB@clearpage\fi%
-    \fi%
-    \SB@toks{}%
-    \SB@cntii0 %
-    \loop%
-      \expandafter\SB@alloccol\csname SB@cbox\the\SB@cntii\endcsname%
-      \advance\SB@cntii\@ne%
-    \ifnum\SB@cntii<\SB@cnt\repeat%
-    \expandafter\def\expandafter\SB@forallcols%
-      \expandafter##\expandafter1\expandafter{\the\SB@toks}%
-    \SB@setcbox%
-    \SB@numcols\SB@cnt%
+  \ifnum\SB@cnt=\SB@numcols\else%
+    \ifSB@preamble\else{\SB@clearpage}\fi%
+  \fi%
+  \SB@numcols\SB@cnt%
+  \ifnum\SB@numcols>\z@%
     \SB@colwidth-\columnsep%
     \multiply\SB@colwidth\SB@numcols%
     \advance\SB@colwidth\columnsep%
     \advance\SB@colwidth\textwidth%
     \divide\SB@colwidth\SB@numcols%
-    \setlength\colwidth\SB@colwidth
-    \addtolength\colwidth{-\columnsep}
+  \else%
+    \ifrepchorus\SB@warnrc\fi%
   \fi%
-}
-\newcommand\SB@alloccol[1]{%
-  \ifx#1\undefined\newbox#1\else\ifx#1\relax\newbox#1\fi\fi%
-  \SB@toks\expandafter{\the\SB@toks##1#1}%
 }
 \newcommand\onesongcolumn{\songcolumns\@ne}
 \newcommand\twosongcolumns{\songcolumns\tw@}
@@ -287,37 +278,30 @@
     \renewcommand\songlist{#1}%
   \fi%
 }
+\newcommand\nosongnumbers{%
+  \setlength\songnumwidth\z@%
+}
 \newcommand\noversenumbers{%
   \renewcommand\printversenum[1]{}%
   \setlength\versenumwidth\z@%
 }
 \ifSB@etex
-  \newcommand\repchoruses{\repchorustrue}
+  \newcommand\repchoruses{%
+    \ifnum\SB@numcols<\@ne\SB@warnrc\fi%
+    \repchorustrue%
+  }
 \else
   \newcommand\repchoruses{\SB@erretex}
 \fi
 \newcommand\norepchoruses{\repchorusfalse}
 \newcommand\sepverses{%
   \vvpenalty-\@M%
-  \ccpenalty-100 %
+  \ccpenalty100 %
   \vcpenalty\vvpenalty%
   \cvpenalty\vvpenalty%
+  \let\colbotglue\@flushglue%
 }
 \AtBeginDocument{
-  \ifchorded
-    \SB@maxcoldiff.8in
-  \else
-    \SB@maxcoldiff2in
-  \fi
-  \ifdim\colminheight=123456789sp
-    \ifchorded
-      \setlength\colminheight\z@
-    \else\ifslides
-      \setlength\colminheight\z@
-    \else
-      \setlength\colminheight\textheight
-    \fi\fi
-  \fi
   \SB@setversesep
   \songcolumns\SB@numcols
   \SB@preamblefalse
@@ -325,183 +309,232 @@
 \newbox\SB@songbox
 \newcount\SB@numcols\SB@numcols\tw@
 \newcount\SB@colnum
-\newcommand\SB@colbox{}
-\newcommand\SB@forallcols[1]{}
-\newdimen\SB@maxcoldiff
+\newbox\SB@colbox
+\newbox\SB@pgbox
+\newbox\SB@mrkbox
 \newcommand\SB@maxmin[3]{\ifdim#1#2#3#1#3\fi}
-\newcommand\SB@emitpage{%
-  \unvbox\voidb@x%
-  \SB@dimenii\textheight%
-  \SB@dimeniii\colminheight%
-  \ifinner\else%
-    \kern\z@%
-    \advance\SB@dimenii-\pagetotal%
-    \advance\SB@dimeniii-\pagetotal%
-  \fi%
-  \SB@maxmin\SB@dimeniii<\z@%
-  \SB@forallcols\SB@epfindmax%
-  \SB@maxmin\SB@dimeniii>\SB@dimenii%
-  \let\SB@temp\@gobble%
-  \hbox{\SB@forallcols\SB@epmakecol}%
-  \vfil\break%
-  \ifinner\else\vskip\vsize\relax\fi%
-}
-\newcommand\SB@epfindmax[1]{%
-  \ifvoid#1\else%
-    \global\setbox#1\vbox{\unvbox#1}%
-  \fi%
-  \SB@dimen\ht#1%
-  \ifdim\dp#1>\maxdepth%
-    \advance\SB@dimen\dp#1%
-    \advance\SB@dimen-\maxdepth%
-  \fi%
-  \SB@maxmin\SB@dimeniii<\SB@dimen%
-}
-\newcommand\SB@epmakecol[1]{%
-  \SB@dimen\SB@dimeniii%
-  \advance\SB@dimeniii-\SB@maxcoldiff%
-  \ifdim\ht#1<\SB@dimeniii\SB@dimen\ht#1\fi%
-  \advance\SB@dimeniii2\SB@maxcoldiff%
-  \ifdim\ht#1>\SB@dimeniii\SB@dimen\ht#1\fi%
-  \advance\SB@dimeniii-\SB@maxcoldiff%
-  \SB@maxmin\SB@dimen>\SB@dimenii%
-  \ifdim\dp#1>\maxdepth%
-    \advance\SB@dimen-\dp#1%
-    \advance\SB@dimen\maxdepth%
-  \fi%
-  \SB@dimeniv\SB@dimenii%
-  \advance\SB@dimeniv-\SB@dimen%
-  \SB@temp\columnsep\let\SB@temp\hskip%
-  \ifvoid#1\hskip\SB@colwidth\else%
-    \raise\SB@dimeniv\vbox to\SB@dimen{\unvbox#1}%
-  \fi%
-}
-\newcommand\SB@setcbox{%
-  \global\expandafter\let\expandafter\SB@colbox%
-    \csname SB@cbox\the\SB@colnum\endcsname%
-}
-\newcommand\SB@clearpage{%
-  \SB@testfalse%
-  \SB@forallcols\SB@cpnonvoid%
-  \ifSB@test\SB@emitpage\fi%
-  \ifinner\else\ifdim\pagetotal>\z@%
-    \vskip\z@skip%
-    \nointerlineskip%
-    \null%
-    \nointerlineskip%
-  \fi\fi%
-  \global\SB@colnum0 %
-  \SB@setcbox%
-}
-\newcommand\SB@cpnonvoid[1]{\ifvoid#1\else\SB@testtrue\fi}
-\newcommand\SB@nextcol{%
-  \ifnum\SB@numcols=\@ne%
-    \SB@clearpage%
-  \else%
-    \global\advance\SB@colnum\@ne%
-    \ifnum\SB@colnum=\SB@numcols%
-      \SB@emitpage%
-      \global\SB@colnum0 %
-    \fi%
-    \SB@setcbox%
-  \fi%
-}
-\newcommand\SB@selectcol{%
+\newcommand\SB@mkpage[3]{%
   \begingroup%
-    \SB@cnt\vbadness%
-    \vbadness\@M\vfuzz\maxdimen%
-    \splitmaxdepth\maxdepth\splittopskip\topskip%
-    \SB@dimen\textheight%
-    \ifinner\else\advance\SB@dimen-\pagetotal\fi%
-    \setbox\SB@box\vbox{\unvcopy\SB@colbox\unvcopy\SB@songbox\vfil}%
-    \setbox\SB@boxii\vsplit\SB@box to\SB@dimen%
-    \ifvoid\SB@box%
-      \ifnum\badness>\SB@cnt\SB@trynxtcol\fi%
-    \else%
-      \SB@trynxtcol%
-    \fi%
+    \splitmaxdepth\maxdepth\splittopskip\z@skip%
+    \global\setbox#1\vbox{%
+      \unvbox#1%
+      \nointerlineskip%
+      \null%
+      \vfil%
+    }%
+    \loop\ifnum#2<\SB@numcols%
+      \setbox\SB@box\vsplit#1to#3\relax%
+      \ifvoid#1%
+        #2\SB@numcols%
+      \else%
+        \SB@updatepage%
+        \global\advance#2\@ne%
+        \ifrepchorus\ifvoid\SB@chorusbox\else%
+          \SB@insertchorus#1%
+        \fi\fi%
+      \fi%
+    \repeat%
+    \global\setbox#1\vbox{%
+      \unvbox\SB@box%
+      \unvbox#1%
+      \unskip%
+      \setbox\SB@box\lastbox%
+    }%
   \endgroup%
 }
-\newcommand\SB@trynxtcol{%
-  \SB@cntii\SB@colnum%
-  \advance\SB@cntii\@ne%
-  \SB@dimenii\ifnum\SB@cntii=\SB@numcols%
-    \textheight\else\SB@dimen%
-  \fi%
-  \setbox\SB@box\vbox{\unvcopy\SB@songbox\vfil}%
-  \setbox\SB@boxii\vsplit\SB@box to\SB@dimenii%
-  \ifvoid\SB@box%
-    \ifnum\badness>\SB@cnt\SB@tryspan\else\SB@nextcol\fi%
-  \else%
-    \SB@tryspan%
+\newcommand\SB@updatepage{%
+  \global\setbox\SB@mrkbox\vbox{%
+    \unvbox\SB@mrkbox%
+    \edef\SB@temp{\splitfirstmark}%
+    \ifx\SB@temp\@empty\else\mark{\splitfirstmark}\fi%
+    \edef\SB@temp{\splitbotmark}%
+    \ifx\SB@temp\@empty\else\mark{\splitbotmark}\fi%
+  }%
+  \global\setbox\SB@pgbox\hbox{%
+    \SB@dimen\SB@colwidth%
+    \advance\SB@dimen\columnsep%
+    \multiply\SB@dimen\SB@colnum%
+    \advance\SB@dimen-\wd\SB@pgbox%
+    \unhbox\SB@pgbox%
+    \ifdim\SB@dimen=\z@\else\hskip\SB@dimen\relax\fi%
+    \box\SB@box%
+  }%
+}
+\newcommand\SB@droppage{\setbox\SB@box\box\voidb@x}
+\newcommand\SB@output{%
+  \ifnum\SB@numcols>\z@\begingroup%
+    \loop%
+      \SB@dimen\textheight%
+      \ifinner\else\advance\SB@dimen-\pagetotal\fi%
+      \SB@mkpage\SB@colbox\SB@colnum\SB@dimen%
+      \ifnum\SB@colnum<\SB@numcols\else%
+        \unvbox\SB@mrkbox%
+        \ifinner\else\kern\z@\fi%
+        \box\SB@pgbox%
+        \ifinner\else\vfil\break\vskip\vsize\relax\fi%
+        \global\SB@colnum\z@%
+    \repeat%
+  \endgroup\else%
+    \unvbox\SB@colbox\unskip%
   \fi%
 }
-\newcommand\SB@tryspan{%
-  \setbox\SB@box\vbox{\unvcopy\SB@colbox\unvcopy\SB@songbox\vfil}%
-  \setbox\SB@boxii\vsplit\SB@box to\SB@dimen%
-  \ifnum\badness>\SB@cnt\SB@trynxtpg\else%
-    \SB@testfalse%
-    \SB@cntii\SB@colnum%
-    \loop%
-      \advance\SB@cntii\@ne%
-      \ifnum\SB@cntii<\SB@numcols%
-        \setbox\SB@boxii\vsplit\SB@box to\SB@dimenii%
-        \ifnum\badness>\SB@cnt\SB@testtrue\fi%
-    \repeat%
-    \ifvoid\SB@box%
-      \ifSB@test\SB@trynxtpg\fi%
+\newcommand\SB@putboxes[1]{%
+  \SB@dimen\ifnum\SB@numcols>\z@\ht\SB@colbox\else\p@\fi%
+  #1\SB@colbox%
+  \ifdim\SB@dimen>\z@%
+    \SB@breakpoint\spenalty%
+    \ifdim\sbarheight>\z@%
+      \vskip-\sbarheight\relax%
+    \fi%
+  \fi%
+  #1\SB@songbox%
+}
+\newcommand\SB@nextcol[2]{%
+  \ifnum#1>\z@%
+    \ifnum\SB@numcols>\z@%
+      \global\setbox\SB@colbox\vbox{%
+        \SB@cnt#1\relax%
+        \SB@dimen\ht\SB@colbox%
+        \unvbox\SB@colbox%
+        \unskip%
+        \ifdim\SB@dimen>\z@%
+          \vskip#2\relax%
+          \break%
+          \advance\SB@cnt\m@ne%
+        \fi%
+        \loop\ifnum\SB@cnt>\z@%
+          \nointerlineskip%
+          \null%
+          \vfil%
+          \break%
+          \advance\SB@cnt\m@ne%
+        \repeat%
+      }%
+      \SB@output%
     \else%
-      \SB@trynxtpg%
+      \ifnum\lastpenalty=-\@M\null\fi%
+      \break%
     \fi%
   \fi%
 }
-\newcommand\SB@trynxtpg{%
-  \setbox\SB@box\vbox{\unvcopy\SB@songbox\vfil}%
-  \SB@forallcols\SB@tnpsplit%
-  \ifvoid\SB@box%
-    \loop\SB@nextcol\ifnum\SB@colnum>0 \repeat%
-  \else%
-    \SB@trydblpg%
+\newcommand\SB@selectcol{}
+\newcommand\SB@@selectcol{%
+  \begingroup%
+    \SB@cnt\z@%
+    \vbadness\@M\vfuzz\maxdimen%
+    \let\SB@updatepage\SB@droppage%
+    \SB@dimen\textheight%
+    \ifinner\else\advance\SB@dimen-\pagetotal\fi%
+    \setbox\SB@boxii\vbox{\SB@putboxes\unvcopy}%
+    \SB@cntii\SB@colnum%
+    \SB@mkpage\SB@boxii\SB@cntii\SB@dimen%
+    \SB@spos%
+    \global\SB@cnt\SB@cnt%
+  \endgroup%
+  \SB@nextcol\SB@cnt\colbotglue%
+}
+\newcommand\SB@spbegnew{%
+  \setbox\SB@boxiii\copy\SB@songbox%
+  \SB@cntii\z@%
+  \SB@mkpage\SB@boxiii\SB@cntii\textheight%
+}
+\newcommand\SB@spextold{%
+  \ifodd\count\z@\else%
+    \SB@cntii\z@%
+    \SB@mkpage\SB@boxii\SB@cntii\textheight%
   \fi%
 }
-\newcommand\SB@tnpsplit[1]{%
-  \setbox\SB@boxii\vsplit\SB@box to\textheight%
+\newcommand\SB@spextnew{%
+  \SB@cntii\z@%
+  \SB@mkpage\SB@boxiii\SB@cntii\textheight%
 }
-\newcommand\SB@trydblpg{%
-  \if@twoside%
-    \SB@forallcols\SB@tnpsplit%
-    \ifvoid\SB@box%
-      \loop\SB@nextcol\ifnum\SB@colnum>0 \repeat%
-      \ifodd\count0 %
-        \loop\SB@nextcol\ifnum\SB@colnum>0 \repeat%
+\newcommand\SB@spdblpg{%
+  \ifnum\SB@cntii<\SB@numcols%
+    \SB@cnt\SB@numcols%
+    \advance\SB@cnt-\SB@colnum%
+    \ifodd\count\z@\else%
+      \advance\SB@cnt\SB@numcols%
+    \fi%
+  \fi%
+}
+\newcommand\SB@sposi{%
+  \ifnum\SB@cntii<\SB@numcols\else\if@twoside%
+    \SB@spextold%
+  \fi\fi%
+  \ifnum\SB@cntii<\SB@numcols\else%
+    \SB@spbegnew%
+    \ifnum\SB@cntii<\SB@numcols\else%
+      \SB@spextnew%
+    \fi%
+    \SB@spdblpg%
+  \fi%
+}
+\newcommand\SB@sposii{%
+  \ifnum\SB@cntii<\SB@numcols\else%
+    \SB@spbegnew%
+    \ifnum\SB@cntii<\SB@numcols%
+      \SB@cnt\SB@numcols%
+      \advance\SB@cnt-\SB@colnum%
+    \else%
+      \if@twoside%
+        \SB@spextold%
+        \ifnum\SB@cntii<\SB@numcols\else%
+          \SB@spextnew%
+          \SB@spdblpg%
+        \fi%
       \fi%
     \fi%
   \fi%
 }
+\newcommand\SB@sposiii{%
+  \ifnum\SB@cntii>\SB@colnum%
+    \SB@cnt\SB@colnum%
+    \advance\SB@cnt\@ne%
+    \ifnum\SB@cnt<\SB@numcols%
+      \setbox\SB@boxiii\copy\SB@songbox%
+      \SB@mkpage\SB@boxiii\SB@cnt\SB@dimen%
+      \advance\SB@cnt\m@ne%
+    \fi%
+    \ifnum\SB@cnt>\SB@colnum%
+      \SB@cnt\z@%
+      \SB@sposii%
+    \else%
+      \SB@cnt\@ne%
+    \fi%
+  \fi%
+}
+\newcommand\songpos[1]{%
+  \ifcase#1%
+    \let\SB@selectcol\relax%
+    \let\SB@spos\relax%
+  \or%
+    \let\SB@selectcol\SB@@selectcol%
+    \let\SB@spos\SB@sposi%
+  \or%
+    \let\SB@selectcol\SB@@selectcol%
+    \let\SB@spos\SB@sposii%
+  \or%
+    \let\SB@selectcol\SB@@selectcol%
+    \let\SB@spos\SB@sposiii%
+  \else%
+    \SB@errspos%
+  \fi%
+}
+\newcommand\SB@spos{}
+\songpos\thr@@
+\newcommand\SB@clearpage{%
+  \SB@testtrue%
+  \ifvoid\SB@pgbox\ifvoid\SB@colbox\SB@testfalse\fi\fi%
+  \ifSB@test%
+    \SB@cnt\SB@numcols%
+    \advance\SB@cnt-\SB@colnum%
+    \SB@nextcol\SB@cnt\lastcolglue%
+  \fi%
+}
 \newcommand\SB@dosubmitsong{%
   \SB@selectcol%
-  \begingroup%
-    \splitmaxdepth\maxdepth\splittopskip\topskip%
-    \setbox\SB@box\vbox{%
-      \unvbox\SB@colbox%
-      \unvbox\SB@songbox%
-      \vfil%
-    }%
-    \loop%
-      \SB@dimen\textheight%
-      \ifinner\else\advance\SB@dimen-\pagetotal\fi%
-      \setbox\SB@boxii\copy\SB@box%
-      \global\setbox\SB@colbox\vsplit\SB@box to\SB@dimen%
-      \edef\SB@temp{\splitfirstmark}%
-      \ifx\SB@temp\@empty\else\mark{\splitfirstmark}\fi%
-      \edef\SB@temp{\splitbotmark}%
-      \ifx\SB@temp\@empty\else\mark{\splitbotmark}\fi%
-      \ifvoid\SB@box\else%
-        \SB@nextcol%
-        \ifrepchorus\ifvoid\SB@chorusbox\else\SB@insertchorus\fi\fi%
-    \repeat%
-    \global\setbox\SB@colbox\vbox{\unvbox\SB@boxii\unskip}%
-  \endgroup%
+  \global\setbox\SB@colbox\vbox{\SB@putboxes\unvbox}%
+  \SB@output%
 }
 \newcommand\SB@submitsong{%
   \ifSB@songsenv%
@@ -530,10 +563,13 @@
 }
 \newcommand\SB@songlistbrk{}
 \def\SB@songlistbrk{brk}
+\newcommand\SB@songlistnc{}
+\def\SB@songlistnc{nextcol}
 \newcommand\SB@finalizesonglist{%
   \ifpartiallist%
     \@for\SB@temp:=\songlist\do{%
-      \ifx\SB@temp\SB@songlistbrk\SB@nextcol\else%
+      \ifx\SB@temp\SB@songlistnc\SB@nextcol\@ne\@flushglue\else%
+      \ifx\SB@temp\SB@songlistbrk\SB@nextcol\@ne\colbotglue\else%
       \expandafter\ifx\csname songbox@\SB@temp\endcsname\relax\else%
         \setbox\SB@songbox%
           \expandafter\box\csname songbox@\SB@temp\endcsname%
@@ -545,14 +581,14 @@
             \expandafter\box\csname chbox@\SB@temp\endcsname%
         \fi%
         \SB@dosubmitsong%
-      \fi\fi%
+      \fi\fi\fi%
     }%
   \fi%
 }
-\newcommand\SB@insertchorus{{%
+\newcommand\SB@insertchorus[1]{{%
   \vbadness\@M\vfuzz\maxdimen%
-  \setbox\SB@boxii\copy\SB@box%
-  \setbox\SB@boxii\vsplit\SB@boxii to\maxdimen%
+  \setbox\SB@box\copy#1%
+  \setbox\SB@box\vsplit\SB@box to\maxdimen%
   \edef\SB@temp{\splitfirstmarks\SB@nocmarkclass}%
   \ifx\SB@temp\SB@nocmark\else%
     \edef\SB@temp{\splitfirstmarks\SB@cmarkclass}%
@@ -562,8 +598,8 @@
       \SB@dimeniii\SB@dimen%
       \loop%
         \SB@dimeniii.5\SB@dimeniii%
-        \setbox\SB@boxii\copy\SB@box%
-        \setbox\SB@boxii\vsplit\SB@boxii to\SB@dimen%
+        \setbox\SB@box\copy#1%
+        \setbox\SB@box\vsplit\SB@box to\SB@dimen%
         \edef\SB@temp{\splitfirstmarks\SB@cmarkclass}%
         \ifx\SB@temp\SB@cmark%
           \SB@dimenii\SB@dimen%
@@ -572,43 +608,38 @@
           \advance\SB@dimen\SB@dimeniii%
         \fi%
       \ifdim\SB@dimeniii>2\p@\repeat%
-      \setbox\SB@boxii\vsplit\SB@box to\SB@dimenii%
-      \global\setbox\SB@box\vbox{%
-        \unvbox\SB@boxii\unskip%
+      \setbox\SB@box\vsplit#1to\SB@dimenii%
+      \global\setbox#1\vbox{%
+        \unvbox\SB@box\unskip%
         \SB@inversefalse\SB@prevversetrue\SB@stanzabreak%
         \SB@putbox\unvcopy\SB@chorusbox%
         \SB@inversetrue\SB@prevversefalse\SB@stanzabreak%
-        \unvbox\SB@box%
+        \unvbox#1%
       }%
     \else\ifx\SB@temp\SB@lastcmark%
-      \global\setbox\SB@box\vbox{%
-        \unvbox\SB@box%
+      \global\setbox#1\vbox{%
+        \unvbox#1%
         \unskip%
-        \ifnum\spenalty<-9999\unpenalty\unskip\fi%
         \ifdim\sbarheight>\z@%
-          \unskip\unpenalty%
-          \setbox\SB@boxii\lastbox%
+          \setbox\SB@box\lastbox%
           \unskip\unpenalty%
         \fi%
-        \setbox\SB@boxii\lastbox%
+        \setbox\SB@box\lastbox%
         \unskip\unskip%
         \SB@inversefalse\SB@prevversetrue\SB@stanzabreak%
         \marks\SB@nocmarkclass{\SB@nocmark}%
         \unvcopy\SB@chorusbox%
         \vskip\versesep\vskip2\p@\@plus4\p@%
-        \nointerlineskip\box\SB@boxii%
+        \nointerlineskip\box\SB@box%
         \ifdim\sbarheight>\z@%
           \nobreak\vskip2\p@\@plus\p@%
           \hrule\@height\sbarheight\@width\SB@colwidth%
-          \vskip-\p@%
         \fi%
-        \ifnum\spenalty<-9999\vfil\break\fi%
-        \vfil%
       }%
     \fi\fi%
   \fi%
 }}
-\newcommand\nextcol{\ifpartiallist\else\SB@nextcol\fi}
+\newcommand\nextcol{\ifpartiallist\else\SB@nextcol\@ne\@flushglue\fi}
 \newcommand\SB@lop[1]{\expandafter\SB@@lop\the#1\SB@@lop#1}
 \newcommand\SB@@lop{}
 \def\SB@@lop\\#1\\#2\SB@@lop#3#4{\global#3{\\#2}\global#4{#1}}
@@ -650,8 +681,8 @@
 \newcommand\songrefs{%
   \expandafter\SB@parsesrefs\expandafter{\SB@rawrefs}%
 }
-\newcommand\SB@prevsong{0}
 \newcommand\setlicense{\gdef\songlicense}
+\newcommand\SB@prevsong{0}
 \newcommand\SB@clearbskeys{}
 \newcommand\newsongkey[2]{%
   \expandafter\gdef\expandafter\SB@clearbskeys\expandafter%
@@ -681,7 +712,7 @@
   \@ifnextchar[\SB@bskvfmt\SB@@beginsong%
 }
 \newcommand\SB@@beginsong{%
-  \@ifnextchar\bgroup\SB@bsoldfmt{\SB@@@beginsong{}}%
+  \@ifnextchar\bgroup\SB@bsoldfmt\SB@@@beginsong%
 }
 \newcommand\SB@bsoldfmt[3]{%
   \SB@bskvfmt[sr={#1},by={#2},cr={#3}]%
@@ -696,11 +727,11 @@
   \setbox\SB@chorusbox\box\voidb@x%
   \SB@gotchorusfalse%
   \setbox\SB@songbox\vbox\bgroup%
-    \hsize\SB@colwidth%
+    \ifnum\SB@numcols>\z@\hsize\SB@colwidth\fi%
     \leftskip\z@skip\rightskip\z@skip%
     \parfillskip\@flushglue\parskip\z@skip%
     \SB@raggedright%
-    \global\SB@transposefactor0 %
+    \global\SB@transposefactor\z@%
     \global\SB@cr@{\\}%
     \protected@edef\@currentlabel{\p@songnum\thesongnum}%
     \setcounter{versenum}{1}%
@@ -733,20 +764,20 @@
     \setbox\SB@songbox\vbox{%
       \songmark%
       \unvbox\SB@songwrites%
-      \hsize\SB@colwidth%
+      \ifnum\SB@numcols>\z@\hsize\SB@colwidth\fi%
       \leftskip\z@skip\rightskip\z@skip%
       \parfillskip\@flushglue\parskip\z@skip\parindent\z@%
       \ifdim\sbarheight>\z@%
-        \hrule\@height\sbarheight\@width\SB@colwidth%
+        \hrule\@height\sbarheight\@width\hsize%
         \nobreak\vskip5\p@%
       \fi%
       \ifpdfindex\begingroup%
         \ifx\pdfbookmark\undefined\else%
         \ifx\pdfbookmark\relax\else%
           \resettitles%
-          \pdfbookmark[\ifnum\arabic{section}=0 1\else2\fi]%
+          \pdfbookmark[\ifnum\c@section=\z@1\else2\fi]%
             {\thesongnum. \songtitle}%
-            {song\arabic{SB@songsnum}-\thesongnum}%
+            {song\theSB@songsnum-\thesongnum}%
         \fi\fi%
       \endgroup\fi%
       \vbox{\makeprelude}%
@@ -760,11 +791,8 @@
       \ifdim\sbarheight>\z@%
         \nobreak\vskip2\p@\@plus\p@%
         \nointerlineskip%
-        \hbox{\vrule\@height\sbarheight\@width\SB@colwidth}%
-        \nobreak%
-        \vskip-\p@\relax%
+        \hbox{\vrule\@height\sbarheight\@width\hsize}%
       \fi%
-      \ifnum\spenalty<-9999\vfil\break\fi%
     }%
     \SB@insongfalse%
     \SB@submitsong%
@@ -831,15 +859,19 @@
       \hfil%
     }%
   \else%
-    \setbox\SB@boxii\hbox{\SB@colorbox{%
-      \hbox to\songnumwidth{%
-        \printsongnum{\thesongnum}\hfil%
-      }%
-    }}%
+    \ifdim\songnumwidth>\z@%
+      \setbox\SB@boxii\hbox{\SB@colorbox{%
+        \hbox to\songnumwidth{%
+          \printsongnum{\thesongnum}\hfil%
+        }%
+      }}%
+    \fi%
     \setbox\SB@box\vbox{%
-      \hsize\SB@colwidth%
-      \advance\hsize-\wd\SB@boxii%
-      \advance\hsize-3\p@%
+      \ifnum\SB@numcols>\z@\hsize\SB@colwidth\fi%
+      \ifdim\songnumwidth>\z@%
+        \advance\hsize-\wd\SB@boxii%
+        \advance\hsize-3\p@%
+      \fi%
       \SB@raggedright\offinterlineskip\lineskip\p@%
       {\stitlefont%
        \songtitle\par%
@@ -850,21 +882,25 @@
       \extendprelude%
       \kern\z@%
     }%
-    \hbox{%
-      \ifdim\ht\SB@boxii>\ht\SB@box%
-        \box\SB@boxii%
-        \kern3\p@%
-        \vtop{\box\SB@box}%
-      \else%
-        \SB@colorbox{\vbox to\ht\SB@box{%
-          \hbox to\songnumwidth{%
-            \printsongnum{\thesongnum}\hfil%
-          }\vfil%
-        }}%
-        \kern3\p@%
-        \box\SB@box%
-      \fi%
-    }%
+    \ifdim\songnumwidth>\z@%
+      \hbox{%
+        \ifdim\ht\SB@boxii>\ht\SB@box%
+          \box\SB@boxii%
+          \kern3\p@%
+          \vtop{\box\SB@box}%
+        \else%
+          \SB@colorbox{\vbox to\ht\SB@box{%
+            \hbox to\songnumwidth{%
+              \printsongnum{\thesongnum}\hfil%
+            }\vfil%
+          }}%
+          \kern3\p@%
+          \box\SB@box%
+        \fi%
+      }%
+    \else%
+      \unvbox\SB@box%
+    \fi%
   \fi%
 }
 \newcommand\makepostlude{%
@@ -998,41 +1034,6 @@
   \fi%
   \let\SB@tempiii= %
 }
-\newcommand\brk{%
-  \ifSB@insong%
-    \ifhmode\penalty-5 %
-    \else\ifSB@inchorus%
-      \ifdim\cbarwidth=\z@%
-        \ifrepchorus\marks\SB@cmarkclass{}\fi%
-        \SB@breakpoint{-50}%
-      \else%
-        \egroup%
-        \ifrepchorus\ifSB@gotchorus\else%
-          \global\setbox\SB@chorusbox\vbox{%
-            \unvbox\SB@chorusbox%
-            \SB@chorusbar\SB@box%
-            \unvcopy\SB@box%
-            \SB@breakpoint{-50}%
-          }%
-        \fi\fi%
-        \SB@chorusbar\SB@box%
-        \unvbox\SB@box%
-        \SB@breakpoint{-50}%
-        \SB@chorustopfalse%
-        \SB@@beginchorus%
-      \fi%
-    \else%
-      \SB@breakpoint{-50}%
-    \fi\fi%
-  \else%
-    \ifpartiallist\else\SB@nextcol\fi%
-  \fi%
-}
-\newcommand\rep[1]{%
-  (\raise.25ex\hbox{%
-    \fontencoding{OMS}\fontfamily{cmsy}\selectfont\char\tw@%
-   }#1)%
-}
 \newif\ifSB@stanza
 \newcommand\SB@stanzabreak{%
   \ifhmode\par\fi%
@@ -1048,16 +1049,22 @@
   \fi%
 }
 \newcommand\SB@breakpoint[1]{%
-  \nobreak%
-  \ifdim\colminheight=\z@\vfil\else%
-    \SB@dimen\textheight%
-    \advance\SB@dimen-\colminheight%
-    \vskip\z@\@plus\SB@dimen%
-  \fi%
-  \penalty#1%
-  \ifdim\colminheight=\z@\vfilneg\else%
-    \vskip\z@\@plus-\SB@dimen%
-  \fi%
+  \begingroup%
+    \ifnum#1<\@M%
+      \SB@skip\colbotglue\relax%
+      \SB@skip-\SB@skip%
+    \else%
+      \SB@skip\z@skip%
+    \fi%
+    \advance\SB@skip\lastskip%
+    \unskip%
+    \nobreak%
+    \ifnum#1<\@M%
+      \vskip\colbotglue\relax%
+      \penalty#1%
+    \fi%
+    \vskip\SB@skip%
+  \endgroup%
 }
 \newcommand\SB@putbox[2]{%
   \begingroup%
@@ -1072,61 +1079,29 @@
   \endgroup%
 }
 \newcommand\SB@obeylines{%
-  \let\par\SB@outerpar%
-  \obeylines%
   \let\par\SB@par%
+  \obeylines%
   \let\@par\SB@@par%
 }
 \newcommand\SB@par{%
-  \endgraf%
-  \ifSB@inchorus\ifdim\cbarwidth>\z@\nobreak\fi\fi%
+  \ifhmode%
+    \begingroup%
+      \interlinepenalty\@M%
+      \endgraf%
+    \endgroup%
+    \ifSB@inchorus%
+      \ifdim\cbarwidth>\z@\nobreak\else\SB@ilpenalty\fi%
+    \else%
+      \SB@ilpenalty%
+    \fi%
+  \fi%
+}
+\newcommand\SB@ilpenalty{%
+  \ifnum\interlinepenalty=\z@\else%
+    \penalty\interlinepenalty%
+  \fi%
 }
 \newcommand\SB@@par{\let\par\SB@par\par}
-\newcommand\SB@outerpar{}
-\AtEndOfPackage{%
-  \SB@outer\expandafter\def\expandafter\SB@outerpar%
-    \expandafter{\SB@par}%
-}
-\newcommand\SB@makecond[1]{%
-  \SB@@makecond\SB@condyes{#1}{only}%
-  \SB@@makecond\SB@condno{#1}{never}%
-}
-\newcommand\SB@@makecond[3]{%
-  \@ifundefined{begin#2#3}{%
-    \expandafter\edef\csname begin#2#3\endcsname{%
-      \noexpand#1%
-      \expandafter\noexpand\csname if#2\endcsname%
-      \expandafter\noexpand\csname begin#2#3\endcsname%
-      \expandafter\noexpand\csname end#2#3\endcsname%
-    }%
-  }{}%
-  \@ifundefined{end#2#3}{%
-    \expandafter\let\csname end#2#3\endcsname\@empty%
-  }{}%
-}
-\SB@makecond{chorded}
-\SB@makecond{lyric}
-\SB@makecond{slides}
-\SB@makecond{partiallist}
-\SB@makecond{songindexes}
-\SB@makecond{measures}
-\SB@makecond{pdfindex}
-\SB@makecond{rawtext}
-\SB@makecond{transcapos}
-\SB@makecond{vnumbered}
-\newcommand\SB@condyes[1]{%
-  #1\expandafter\@gobbletwo\else\expandafter\SB@iffalse\fi%
-}
-\newcommand\SB@condno[1]{%
-  #1\expandafter\SB@iffalse\else\expandafter\@gobbletwo\fi%
-}
-\newcommand\SB@iffalse[2]{%
-  \begingroup%
-    \let#1\iffalse%
-    \let#2\fi%
-    \catcode`\^^M9 %
-  \expandafter\endgroup\iffalse%
-}
 \newdimen\SB@parindent
 \newcommand\SB@everypar{}
 \newcommand\SB@raggedright{%
@@ -1187,7 +1162,6 @@
       }%
     \fi%
     \everypar{\SB@everypar\everypar{}}%
-    \interlinepenalty\@M%
     \versefont\versejustify%
     \SB@loadactives%
     \SB@obeylines%
@@ -1197,6 +1171,7 @@
 \def\endverse{%
   \ifSB@insong%
     \ifSB@inverse%
+        \unpenalty%
       \egroup%
       \SB@putbox\unvbox\SB@box%
       \SB@inversefalse%
@@ -1267,7 +1242,6 @@
 \newcommand\SB@@beginchorus{%
   \ifrepchorus\marks\SB@cmarkclass{}\fi%
   \setbox\SB@box\vbox\bgroup%
-    \interlinepenalty\@M%
     \ifchorded%
       \def\SB@everypar{%
         \vrule\@height\baselineskip\@width\z@\@depth\z@%
@@ -1283,6 +1257,7 @@
 \def\endchorus{%
   \ifSB@insong%
     \ifSB@inchorus%
+        \unpenalty%
       \egroup%
       \SB@inchorusfalse%
       \setbox\SB@box\vbox{%
@@ -1334,7 +1309,7 @@
     \vbadness\@M\vfuzz\maxdimen%
     \SB@dimen4096\p@%
     \setbox\SB@box\vbox spread#2\SB@dimen{\unvcopy#4}%
-    \ifnum\badness=0 %
+    \ifnum\badness=\z@%
       \global\advance#1\z@#31fil\relax%
     \else%
       \SB@dimenii\SB@dimen%
@@ -1353,6 +1328,108 @@
     \fi%
   \endgroup%
 }
+\newcommand\brk{%
+  \ifSB@insong%
+    \ifhmode\penalty-5 \else%
+      \unpenalty%
+      \ifSB@inchorus%
+        \ifdim\cbarwidth=\z@%
+          \ifrepchorus\marks\SB@cmarkclass{}\fi%
+          \SB@breakpoint\brkpenalty%
+        \else%
+          \egroup%
+          \ifrepchorus\ifSB@gotchorus\else%
+            \global\setbox\SB@chorusbox\vbox{%
+              \unvbox\SB@chorusbox%
+              \SB@chorusbar\SB@box%
+              \unvcopy\SB@box%
+              \SB@breakpoint\brkpenalty%
+            }%
+          \fi\fi%
+          \SB@chorusbar\SB@box%
+          \unvbox\SB@box%
+          \SB@breakpoint\brkpenalty%
+          \SB@chorustopfalse%
+          \SB@@beginchorus%
+        \fi%
+      \else%
+        \SB@breakpoint\brkpenalty%
+      \fi%
+    \fi%
+  \else%
+    \ifpartiallist\else\SB@nextcol\@ne\colbotglue\fi%
+  \fi%
+}
+\newcommand\SB@boxup[1]{%
+  \setbox\SB@box\hbox{\notefont#1}%
+  \SB@dimen\wd\SB@box%
+  \advance\SB@dimen6\p@%
+  \advance\SB@dimen\leftskip%
+  \advance\SB@dimen\rightskip%
+  \ifdim\SB@dimen>\hsize%
+    \vbox{%
+      \advance\hsize-6\p@%
+      \advance\hsize-\leftskip%
+      \advance\hsize-\rightskip%
+      \notejustify%
+      \unhbox\SB@box\par%
+      \kern\z@%
+    }%
+  \else%
+    \vbox{\box\SB@box\kern\z@}%
+  \fi%
+}
+\newcommand\textnote[1]{%
+  \ifhmode\par\fi%
+  \ifnum\lastpenalty=12345\else%
+    \ifSB@inverse%
+      \vskip2\p@\relax%
+    \else\ifSB@inchorus%
+      \vskip2\p@\relax%
+    \else\ifSB@stanza%
+      \nobreak\vskip\versesep%
+    \fi\fi\fi%
+  \fi%
+  \begingroup%
+    \everypar{}%
+    \ifchorded\chordedfalse\SB@setbaselineskip\chordedtrue\fi%
+    \placenote{\SB@colorbox{\SB@boxup{#1}}}%
+  \endgroup%
+  \nobreak%
+  \ifSB@inverse%
+    \vskip2\p@\relax%
+  \else\ifSB@inchorus%
+    \vskip2\p@\relax%
+  \else\ifSB@stanza\else%
+    \nobreak\vskip\versesep%
+  \fi\fi\fi%
+}
+\newcommand\musicnote[1]{\ifchorded\textnote{#1}\fi}
+\ifSB@etex
+  \newcommand\echo{\begingroup\@sanitize\SB@echo}
+  \newcommand\SB@echo[1]{%
+    \endgroup%
+    \begingroup%
+      \ifdim\fontdimen\@ne\font>\z@\upshape\else\slshape\fi%
+      \endlinechar\m@ne%
+      \scantokens{(#1)}%
+    \endgroup%
+  }
+\else
+  \newcommand\echo{%
+    \begingroup%
+      \ifdim\fontdimen\@ne\font>\z@\upshape\else\slshape\fi%
+      \afterassignment\SB@echo%
+      \setbox\SB@box\hbox%
+  }
+  \newcommand\SB@echo{\aftergroup\SB@@echo(}
+  \newcommand\SB@@echo{\unhbox\SB@box)\endgroup}
+\fi
+\newcommand\rep[1]{%
+  (\raise.25ex\hbox{%
+    \fontencoding{OMS}\fontfamily{cmsy}\selectfont\char\tw@%
+   }#1)%
+}
 \newbox\SB@srbox
 \newcommand\beginscripture[1]{%
   \ifSB@insong%
@@ -1365,13 +1442,14 @@
     \SB@errbrr\endscripture%
   \fi%
   \SB@inscripturetrue%
+  \setbox\SB@chorusbox\box\voidb@x%
   \ifSB@omitscrip%
     \setbox\SB@box\vbox\bgroup%
   \else%
     \setbox\SB@srbox\hbox{\printscrcite{\SB@parsesrefs{#1}}}%
     \setbox\SB@songbox\vbox\bgroup%
-      \hsize\SB@colwidth%
-      \hrule\@height\p@\@width\SB@colwidth%
+      \ifnum\SB@numcols>\z@\hsize\SB@colwidth\fi%
+      \hrule\@height\sbarheight\@width\hsize%
       \nobreak\vskip5\p@%
       \SB@parindent\parindent\parindent\z@%
       \parskip\z@skip\parfillskip\@flushglue%
@@ -1406,9 +1484,8 @@
     \else%
         \scitehere%
         \ifhmode\par\fi%
-        \nobreak\kern-4.5\p@%
-        \hbox{\vrule\@height\p@\@width\SB@colwidth}%
-        \kern-\p@%
+        \nobreak\vskip-4.5\p@%
+        \hbox{\vrule\@height\sbarheight\@width\hsize}%
       \egroup%
       \ifpartiallist\else%
         \SB@submitsong%
@@ -1507,71 +1584,6 @@
     \vadjust{}%
   }
 }
-\newcommand\SB@boxup[1]{%
-  \setbox\SB@box\hbox{\notefont#1}%
-  \SB@dimen\wd\SB@box%
-  \advance\SB@dimen6\p@%
-  \advance\SB@dimen\leftskip%
-  \advance\SB@dimen\rightskip%
-  \ifdim\SB@dimen>\SB@colwidth%
-    \vbox{%
-      \advance\hsize-6\p@%
-      \advance\hsize-\leftskip%
-      \advance\hsize-\rightskip%
-      \notejustify%
-      \unhbox\SB@box\par%
-      \kern\z@%
-    }%
-  \else%
-    \vbox{\box\SB@box\kern\z@}%
-  \fi%
-}
-\newcommand\textnote[1]{%
-  \ifhmode\par\fi%
-  \ifnum\lastpenalty=12345\else%
-    \ifSB@inverse%
-      \vskip2\p@\relax%
-    \else\ifSB@inchorus%
-      \vskip2\p@\relax%
-    \else\ifSB@stanza%
-      \nobreak\vskip\versesep%
-    \fi\fi\fi%
-  \fi%
-  \begingroup%
-    \everypar{}%
-    \ifchorded\chordedfalse\SB@setbaselineskip\chordedtrue\fi%
-    \placenote{\SB@colorbox{\SB@boxup{#1}}}%
-  \endgroup%
-  \nobreak%
-  \ifSB@inverse%
-    \vskip2\p@\relax%
-  \else\ifSB@inchorus%
-    \vskip2\p@\relax%
-  \else\ifSB@stanza\else%
-    \nobreak\vskip\versesep%
-  \fi\fi\fi%
-}
-\newcommand\musicnote[1]{\ifchorded\textnote{#1}\fi}
-\ifSB@etex
-  \newcommand\echo{\begingroup\@sanitize\SB@echo}
-  \newcommand\SB@echo[1]{%
-    \endgroup%
-    \begingroup%
-      \ifdim\fontdimen\@ne\font>\z@\upshape\else\slshape\fi%
-      \endlinechar-1 %
-      \scantokens{(#1)}%
-    \endgroup%
-  }
-\else
-  \newcommand\echo{%
-    \begingroup%
-      \ifdim\fontdimen\@ne\font>\z@\upshape\else\slshape\fi%
-      \afterassignment\SB@echo%
-      \setbox\SB@box\hbox%
-  }
-  \newcommand\SB@echo{\aftergroup\SB@@echo(}
-  \newcommand\SB@@echo{\unhbox\SB@box)\endgroup}
-\fi
 \newcount\SB@transposefactor
 \newif\ifSB@convertnotes
 \newcommand\notenameA{}
@@ -1632,7 +1644,7 @@
 \newcommand\prefersharps{\SB@prefshrpstrue\SB@needkeyfalse}
 \newcommand\preferflats{\SB@prefshrpsfalse\SB@needkeyfalse}
 \newcommand\transposehere[1]{%
-  \ifnum\SB@transposefactor=0 %
+  \ifnum\SB@transposefactor=\z@%
     \ifSB@convertnotes%
       \SB@dotranspose{#1}%
       \the\SB@toks%
@@ -1641,7 +1653,7 @@
     \fi%
   \else%
     \ifSB@convertnotes%
-      {\SB@transposefactor0 %
+      {\SB@transposefactor\z@%
        \SB@dotranspose{#1}%
        \xdef\SB@tempv{\the\SB@toks}}%
     \else%
@@ -1700,8 +1712,8 @@
 \newcommand\SB@trnote{%
   \ifcat\noexpand\SB@next A%
     \let\SB@donext\SB@trnotestep%
-  \else\ifnum\SB@transposefactor=0 %
-    \SB@cnt0 %
+  \else\ifnum\SB@transposefactor=\z@%
+    \SB@cnt\z@%
     \let\SB@donext\SB@trtrans%
   \else\ifx\SB@next\flt%
     \SB@cnt\m@ne%
@@ -1710,7 +1722,7 @@
     \SB@cnt\@ne%
     \let\SB@donext\SB@tracc%
   \else%
-    \SB@cnt0 %
+    \SB@cnt\z@%
     \let\SB@donext\SB@trtrans%
   \fi\fi\fi\fi%
   \SB@donext%
@@ -1720,16 +1732,16 @@
     \expandafter\def\expandafter\SB@temp\expandafter{\SB@temp#1}%
     \expandafter\SB@trscan%
   \else%
-    \SB@cnt0 %
+    \SB@cnt\z@%
     \expandafter\SB@trtrans\expandafter#1%
   \fi%
 }
 \newcommand\SB@tracc[1]{\futurelet\SB@next\SB@trtrans}
 \newcommand\SB@trtrans{%
   \advance\SB@cnt%
-    \ifx\SB@temp\notenameA0 %
-    \else\ifx\SB@temp\notenameB2 %
-    \else\ifx\SB@temp\notenameC3 %
+    \ifx\SB@temp\notenameA\z@%
+    \else\ifx\SB@temp\notenameB\tw@%
+    \else\ifx\SB@temp\notenameC\thr@@%
     \else\ifx\SB@temp\notenameD5 %
     \else\ifx\SB@temp\notenameE7 %
     \else\ifx\SB@temp\notenameF8 %
@@ -1740,9 +1752,9 @@
       \expandafter\the\expandafter\SB@toks\SB@temp}%
   \else%
     \advance\SB@cnt\SB@transposefactor%
-    \ifnum\SB@cnt<0 \advance\SB@cnt12 \fi%
+    \ifnum\SB@cnt<\z@\advance\SB@cnt12 \fi%
     \ifnum\SB@cnt>11 \advance\SB@cnt-12 \fi%
-    \ifSB@needkey\ifnum\SB@transposefactor=0 \else\SB@setkeysig\fi\fi%
+    \ifSB@needkey\ifnum\SB@transposefactor=\z@\else\SB@setkeysig\fi\fi%
     \edef\SB@temp{%
       \the\SB@toks%
       \ifSB@prefshrps%
@@ -1970,7 +1982,7 @@
   \else\ifx\SB@temp\SB@four%
     \SB@cnt4 %
   \else%
-    \SB@cnt0 %
+    \SB@cnt\z@%
   \fi\fi\fi%
 }
 \newcommand\SB@declare[3]{%
@@ -2064,24 +2076,29 @@
 \DeclareNoHyphen\par
 \newcommand\SB@bracket{}
 \newcommand\SB@chord{\SB@begincname\SB@@chord}
-\newcommand\SB@begincname{%
-  \begingroup%
-    \catcode`##\active\catcode`&\active%
-    \chordlocals%
+\newcommand\SB@begincname{}
+{\catcode`\^^M\active
+ \gdef\SB@begincname{%
+   \begingroup%
+     \catcode`##\active\catcode`&\active%
+     \catcode`\^^M\active\SB@outer\def^^M{}%
+     \SB@outer\def\[{}%
+     \chordlocals%
+  }
 }
 \newcommand\SB@endcname{}
 \let\SB@endcname\endgroup
 \newcommand\SB@nbsp{}
 \def\SB@nbsp{\nobreakspace{}}
 \newif\ifSB@firstchord\SB@firstchordtrue
-\newcommand\SB@@chord{}
+\newcommand*\SB@@chord{}
 \def\SB@@chord#1]{%
-  \endgroup%
+  \SB@endcname%
   \ifSB@firstchord%
     \setbox\SB@lyricbox\hbox{\kern\SB@tabindent}%
     \global\SB@tabindent\z@%
     \SB@lyric{}%
-    \SB@numhyps0 %
+    \SB@numhyps\z@%
     \SB@spcinit%
     \setbox\SB@chordbox\box\voidb@x%
   \fi%
@@ -2185,6 +2202,8 @@
 \newcommand\SB@@chmacro{%
   \ifx\SB@next\SB@activehat%
     \let\SB@donext\SB@chdone%
+  \else\ifx\SB@next\SB@par%
+    \let\SB@donext\SB@chdone%
   \else\ifx\SB@next\measurebar%
     \SB@chmbar%
   \else\ifx\SB@next\mbar%
@@ -2203,13 +2222,13 @@
     \or\or\SB@chespace\let\SB@donext\SB@chsteptwo%
     \or\SB@chespace\let\SB@donext\SB@chstepthree%
     \or\SB@chespace\let\SB@donext\SB@chstepfour\fi%
-  \fi\fi\fi\fi\fi\fi\fi%
+  \fi\fi\fi\fi\fi\fi\fi\fi%
 }
 \newcommand\SB@chothermac{%
   \SB@testfalse%
   \afterassignment\iffalse%
   \SB@cnt\expandafter`\SB@nextname x\fi%
-  \ifnum\the\catcode\SB@cnt=0\else\SB@testtrue\fi%
+  \ifnum\the\catcode\SB@cnt=\z@\else\SB@testtrue\fi%
   \SB@macrotests%
   \ifSB@test%
     \SB@chespace\let\SB@donext\SB@chstep%
@@ -2359,8 +2378,9 @@
   \SB@testfalse%
   \ifcat\noexpand\SB@next\noexpand\@sptoken\SB@testtrue\fi%
   \ifcat\noexpand\SB@next.\SB@testtrue\fi%
-  \ifx\SB@next\SB@outerpar\SB@testtrue\fi%
+  \ifx\SB@next\SB@par\SB@testtrue\fi%
   \ifx\SB@next\egroup\SB@testtrue\fi%
+  \ifx\SB@next\endgroup\SB@testtrue\fi%
   \SB@hyphtests%
   \ifSB@test\SB@wordendstrue\else\SB@wordendsfalse\fi%
   \SB@dimen\wd\SB@chordbox%
@@ -2428,15 +2448,15 @@
 \newcommand\ch{\SB@ch}
 \newcommand\SB@ch{}
 \newcommand\SB@ch@on{\SB@begincname\SB@@ch}
-\newcommand\SB@@ch[1]{\SB@endcname\SB@@@ch{#1}}
-\newcommand\SB@@@ch[4]{\[\SB@noreplay{\hphantom{#2}}#1]#4}
-\newcommand\SB@ch@off[4]{#4}
+\newcommand*\SB@@ch[1]{\SB@endcname\SB@@@ch{#1}}
+\newcommand*\SB@@@ch[4]{\[\SB@noreplay{\hphantom{#2}}#1]#4}
+\newcommand*\SB@ch@off[4]{#4}
 \newcommand\mch{\SB@mch}
 \newcommand\SB@mch{}
-\newcommand\SB@mch@m[4]{#2\measurebar#3}
+\newcommand*\SB@mch@m[4]{#2\measurebar#3}
 \newcommand\SB@mch@on{\SB@begincname\SB@@mch}
-\newcommand\SB@@mch[1]{\SB@endcname\SB@@@mch{#1}}
-\newcommand\SB@@@mch[4]{#2\measurebar\[#1]#3}
+\newcommand*\SB@@mch[1]{\SB@endcname\SB@@@mch{#1}}
+\newcommand*\SB@@@mch[4]{#2\measurebar\[#1]#3}
 \newcommand\SB@activehat{%
   \ifmmode^\else\expandafter\SB@rechord\fi%
 }
@@ -2511,7 +2531,7 @@
 \newlength\SB@fretwidth
 \setlength\SB@fretwidth{6\p@}
 \newcommand\SB@fretnum[1]{{%
-  \sffamily\fontsize{10}{10}\selectfont#1%
+  \sffamily\fontsize\@xpt\@xpt\selectfont#1%
 }}
 \newcommand\SB@onfret[1]{%
   \rlap{\hbox to\SB@fretwidth{\hfil\vrule\@height6\p@\hfil}}%
@@ -2546,7 +2566,7 @@
   \lower.74\p@\hbox{%
     \fontencoding{OMS}\fontfamily{cmsy}%
     \fontseries{m}\fontshape{n}%
-    \fontsize{10}{10}\selectfont\char14%
+    \fontsize\@xpt\@xpt\selectfont\char14%
   }%
 }}
 \newcommand\SB@fretempty{\SB@onfret{}}
@@ -2725,18 +2745,24 @@
     {\sffamily\bfseries\LARGE\centering}%
 }
 \newenvironment{songs}[1]{%
-  \SB@clearpage%
+  \ifSB@songsenv\SB@errnse\fi%
   \gdef\SB@indexlist{#1}%
   \SB@chkidxlst%
   \stepcounter{SB@songsnum}%
   \setcounter{songnum}{1}%
+  \ifinner\else\ifdim\pagetotal>\z@%
+    \null\nointerlineskip%
+  \fi\fi%
+  \songcolumns\SB@numcols%
   \SB@songsenvtrue%
 }{%
   \SB@finalizesonglist%
   \SB@clearpage%
-  \clearpage%
-  \thispagestyle{empty}%
-  \cleardoublepage%
+  \ifinner\else%
+    \clearpage%
+    \thispagestyle{empty}%
+    \cleardoublepage%
+  \fi%
   \SB@songsenvfalse%
 }
 \newcounter{SB@songsnum}
@@ -2799,8 +2825,8 @@
       \protected@write{\csname SB@index@#1\endcsname}{}%
         {\csname SB@idxref@#1\endcsname}%
       \protected@write{\csname SB@index@#1\endcsname}{}{%
-        song\arabic{SB@songsnum}-\thesongnum.%
-        \ifnum\arabic{section}=0 1\else2\fi}%
+        song\theSB@songsnum-\thesongnum.%
+        \ifnum\c@section=\z@1\else2\fi}%
     \fi%
   }%
 }
@@ -2935,22 +2961,17 @@
 \newenvironment{SB@lgidx}[1]{}{}
 \newenvironment{SB@smidx}[1]{}{}
 \newcommand\SB@idxsetup[1]{%
-  \hsize\textwidth%
+  \hsize\SB@colwidth%
   \parskip\z@skip\parfillskip\z@skip\parindent\z@%
   \baselineskip\f@size\p@\@plus\p@\@minus\p@%
   \lineskiplimit\z@\lineskip\p@\@plus\p@\@minus\p@%
   \hyphenpenalty\@M\exhyphenpenalty\@M%
-  \ifnum\SB@numcols>\@ne%
-    \advance\hsize\columnsep%
-    \advance\hsize-#1\columnsep%
-    \divide\hsize#1\relax%
-  \fi%
 }
 \newcommand\SB@makeidxcolumn[1]{%
   \ifdim\ht\SB@box=\z@%
     \hskip\hsize\relax%
   \else%
-    \splittopskip\topskip\splitmaxdepth\maxdepth%
+    \splittopskip\z@skip\splitmaxdepth\maxdepth%
     \vsplit\SB@box to\SB@dimen%
     \global\setbox\SB@box\vbox{%
       \SB@idxsetup{#1}%
@@ -2962,6 +2983,10 @@
 \newcommand\SB@oneidxpage{}
 \newcommand\SB@displayindex[3]{%
   \ifsongindexes\begingroup%
+    \SB@colwidth\hsize%
+    \advance\SB@colwidth-#1\columnsep%
+    \advance\SB@colwidth\columnsep%
+    \divide\SB@colwidth#1%
     \setbox\SB@idxtitlebox\vbox{%
       \let\SB@temp\songsection%
       \ifx\chapter\undefined\else%
@@ -2993,7 +3018,7 @@
         \vskip\z@\@plus2fil\relax%
       }%
       {\vbadness\@M\vfuzz\maxdimen%
-       \splitmaxdepth\maxdepth\splittopskip\topskip%
+       \splitmaxdepth\maxdepth\splittopskip\z@skip%
        \global\setbox\SB@boxii\vsplit\SB@box to\textheight}%
       \ifvoid\SB@box%
         \box\SB@boxii%
@@ -3007,14 +3032,12 @@
           \unskip%
         }%
         \SB@toks{\SB@makeidxcolumn{#1}}%
-        \ifnum\SB@numcols>\@ne%
-          \SB@cnt#1\relax%
-          \loop\ifnum\SB@cnt>\@ne%
-            \SB@toks\expandafter{\the\SB@toks%
-              \kern\columnsep\SB@makeidxcolumn{#1}}%
-            \advance\SB@cnt\m@ne%
-          \repeat%
-        \fi%
+        \SB@cnt#1\relax%
+        \loop\ifnum\SB@cnt>\@ne%
+          \SB@toks\expandafter{\the\SB@toks%
+            \kern\columnsep\SB@makeidxcolumn{#1}}%
+          \advance\SB@cnt\m@ne%
+        \repeat%
         \edef\SB@oneidxpage{\the\SB@toks}%
         \unvbox\SB@idxtitlebox%
         \vskip.2in\relax%
@@ -3050,7 +3073,7 @@
         \vfil%
         \unvbox\SB@idxtitlebox%
         \vskip1em\relax%
-        \hbox to\textwidth{\hfil[Index not yet generated.]\hfil}%
+        \hbox to\hsize{\hfil[Index not yet generated.]\hfil}%
         \vskip\z@\@plus2fil\relax%
       }%
     }%
@@ -3131,6 +3154,14 @@
 }
 \newcommand\SB@Error{\PackageError{songs}}
 \newcommand\SB@Warn{\PackageWarning{songs}}
+\newcommand\SB@errspos{%
+  \SB@Error{Illegal \protect\songpos\space argument}{The argume%
+  nt to \protect\songpos\space must be a number from 0 to 3.}%
+}
+\newcommand\SB@errnse{%
+  \SB@Error{Nested songs environments are not supported}{End th%
+  e previous songs environment before beginning the next one.}%
+}
 \newcommand\SB@errpl{%
   \SB@Error{\protect\includeonlysongs\space not permitted with%
   in a songs environment}{\protect\includeonlysongs\space can o%
@@ -3155,9 +3186,9 @@
   e and have either used the chorded option as well or have use%
   d the \protect\chordson\space macro subsequently.}%
 }
-\newcommand\SB@errcol{%
-  \SB@Error{Illegal number of columns}{The number of columns mu%
-  st be at least 1.}%
+\newcommand\SB@warnrc{%
+  \SB@Warn{The \protect\repchoruses\space feature will not wor%
+  k when the number of columns is set to zero}%
 }
 \newcommand\SB@errboo{%
   \SB@Error{Encountered \protect\beginsong\space without seein%
@@ -3452,11 +3483,15 @@
     \SB@doEOLtrue%
     \immediate\write\SB@txtout{#1\SB@printEOL}%
     \SB@doEOLfalse}
-  \renewcommand\brk{}
+  \def\brk{}
   \def\rep#1{(x#1)}
   \def\echo#1{(#1)}
   \def\mbar#1#2{}
+  \def\lrep{}
+  \def\rrep{}
   \def\nolyrics{}
+  \renewcommand\memorize[1][]{}
+  \renewcommand\replay[1][]{}
 \fi
 \endinput
 %%

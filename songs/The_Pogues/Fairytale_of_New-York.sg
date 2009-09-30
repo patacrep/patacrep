@@ -1,21 +1,25 @@
 \songcolumns{2}
 \beginsong{Fairytale of New-York}[by=The Pogues,cov=best-of-the-pogues]
 
+\capo{2}
 \cover
-\gtab{Ré}{000232}
+\gtab{Do}{030210}
+\gtab{Fa}{1:022100}
 \gtab{Sol}{320003}
-\gtab{La}{002220}
-\gtab{Sim}{2:002210}
+\gtab{Lam}{002210}
 
 \beginverse
-It was Christmas \[Ré]Eve babe
-In the \[Sol]drunk tank
-An old man \[Ré]said to me,
-Won't see an\[La]other one
-And then he \[Ré]sang a song
-The Rare Old \[Sol]Mountain Dew
-And I turned my \[Ré]face away
-And \[Sol]dreamed a\[La]bout \[Ré]you
+It was Christmas \[Do]Eve babe
+In the \[Fa]drunk tank
+An old man \[Do]said to me,
+Won't see an\[Sol]other one
+\endverse
+
+\beginverse*
+And then he \[Do]sang a song
+The Rare Old \[Fa]Mountain Dew
+And I turned my \[Do]face away
+And \[Fa]dreamed a\[Sol]bout \[Do]you
 \endverse
 
 \beginverse 
@@ -23,6 +27,9 @@ Got on a lucky one
 Came in eighteen to one
 I've got a feeling
 This year's for me and you
+\endverse
+
+\beginverse*
 So happy Christmas
 I love you baby
 I can see a better time
@@ -32,38 +39,40 @@ When all our dreams come true
 \lilypond{Fairytale_of_New-York}
 
 \beginverse
-They've got \[Ré]cars
-Big as \[La]bars
-They've got \[Sim]rivers of \[Sol]gold
-But the \[Ré]wind goes right through you
-It's no place for the \[La]old
-When you \[Ré]first took my \[Sim]hand
-On a \[Ré]cold Christmas \[Sol]Eve
-You \[Ré]promised me
-Broadway was \[La]waiting for \[Ré]me
-\endverse
-
-\beginverse
-\[Ré]You were handsome
-You were pretty
-Queen of New York \[La]City
-When the \[Ré]band finished \[Sol]playing
-They \[La]howled out for \[Ré]more
+They've got \[Do]cars
+Big as \[Sol]bars
+They've got \[Lam]rivers of \[Fa]gold
+But the \[Do]wind goes right through you
+It's no place for the \[Sol]old
 \endverse
 
 \beginverse*
-Sinatra 
-Was swinging
+When you \[Do]first took my \[Lam]hand
+On a \[Do]cold Christmas \[Fa]Eve
+You \[Do]promised me
+Broadway was \[Sol]waiting for \[Do]me
+\endverse
+
+\beginverse
+\[Do]You were handsome
+You were pretty
+Queen of New York \[Sol]City
+When the \[Do]band finished \[Fa]playing
+They \[Sol]howled out for \[Do]more
+\endverse
+
+\beginverse*
+Sinatra was swinging
 All the drunks they were singing
 We kissed on the corner
 Then danced through the night
 \endverse
 
 \beginchorus
-The \[Sol]boys of the NY\[Sim]PD \[La]choir
-Were \[Ré]singing ``Galway \[Sim]Bay''
-And the \[Ré]bells were \[Sol]ringing
-\[La]Out for Christmas \[Ré]day
+The \[Fa]boys of the NY\[Lam]PD \[Sol]choir
+Were \[Do]singing ``Galway \[Lam]Bay''
+And the \[Do]bells were \[Fa]ringing
+\[Sol]Out for Christmas \[Do]day
 \endchorus
  
 \beginverse
@@ -87,6 +96,9 @@ I could have been someone
 So could anyone
 You took my dreams from me
 When I first found you
+\endverse
+
+\beginverse*
 I kept them with me babe
 I put them with my own
 Can't make it all alone

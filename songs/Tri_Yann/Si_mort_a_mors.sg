@@ -1,27 +1,28 @@
 \songcolumns{2}
 \beginsong{Si mort à mors}[by=Tri Yann,cov=le-meilleur-de-tri-yann]
 
+\capo{5}
 \cover
-\gtab{Fa}{1:022100}
-\gtab{Rém}{000231}
-\gtab{Solm}{3:022000}
 \gtab{Do}{032010}
-\gtab{Si&}{1:002220}
+\gtab{Lam}{002210}
+\gtab{Rém}{XX0231}
+\gtab{Sol}{320003}
+\gtab{Fa}{1:022100}
 
 \beginverse
-\[Fa]Si les ma\[Rém]tins de gri\[Solm]saille se \[Do]teintent
-\[Si&]S'ils ont cou\[Fa]leur en la \[Sol7]nuit qui s'é\[Do]teint
-\[Si&]Viendront d'o\[Fa]pales lende\[Rém]mains,
-Revien\[Fa]dront des siècles d'\[Do]or
-Cent fois \[Fa]mille et mille aur\[Si&]ores en\[Do]core.
+\[Do]Si les ma\[Lam]tins de gri\[Rém]saille se \[Sol]teintent
+\[Fa]S'ils ont cou\[Do]leur en la \[Ré7]nuit qui s'é\[Sol]teint
+\[Fa]Viendront d'o\[Do]pales lende\[Lam]mains,
+Revien\[Do]dront des siècles d'\[Sol]or
+Cent fois \[Do]mille et mille aur\[Fa]ores en\[Sol]core.
 \endverse
 
 \beginchorus
-\[Fa]Si mort a \[Rém]mors Du\[Solm]chesse Noble \[Do]Dame
-\[Si&]S'il n'en se\[Fa]ra plus que \[Sol7]poudre de \[Do]corps,
-\[Si&]Dorme son \[Fa]c\oe{}ur bordé d'\[Rém]or
-Revien\[Fa]dront des siècles d'\[Do]or
-Cent fois \[Fa]mille et mille aur\[Si&]ores en\[Do]core.
+\[Do]Si mort a \[Lam]mors Du\[Rém]chesse Noble \[Sol]Dame
+\[Fa]S'il n'en se\[Do]ra plus que \[Ré7]poudre de \[Sol]corps,
+\[Fa]Dorme son \[Do]c\oe{}ur bordé d'\[Lam]or
+Revien\[Do]dront des siècles d'\[Sol]or
+Cent fois \[Do]mille et mille aur\[Fa]ores en\[Sol]core.
 \endchorus
 
 \beginverse

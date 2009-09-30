@@ -15,7 +15,7 @@ En espérant qu’au fond de tes yeux ternes
 Tu puisses y voir un petit brin d’herbe
 \endverse
 
-\beginverse
+\beginverse*
 \[Rém]Hey! Les man faut faire \[Si&]la part des \[La]choses
 Il \[Rém]est grand temps de \[Si&]faire une \[La]pause
 De troquer cette vie morose
@@ -34,6 +34,9 @@ Pas de boulot, pas de diplômes,
 Partout la même odeur de zone
 Plus rien n'agite tes neurones
 Pas même le shit que tu mets dans tes cônes
+\endverse
+
+\beginverse*
 Va voir ailleurs, ici rien ne te retient
 Va vite faire quelque chose de tes mains
 Ne te retourne pas: ici tu n’as rien
@@ -43,19 +46,25 @@ Et soit le premier à chanter ce refrain
 \beginverse
 Assieds-toi près d'une rivière
 Écoute le coulis de l'eau sur la terre
-Dis toi qu'au bout, hé ! il y a la mer
+Dis toi qu'au bout, \echo{hey!} il y a la mer
 Et que ça, ça n'a rien d’éphémère
+\endverse
+
+\beginverse*
 Tu comprendras alors, que tu n'es rien
 Comme celui avant toi, comme celui qui vient
 Que le liquide qui coule dans tes mains
-Te servira à vivre jusqu'à demain matin !
+Te servira à vivre jusqu'à demain matin
 \endverse
 
 \beginverse
 Assieds-toi près d'un vieux chêne
 Et compare le à la race humaine
 L'oxygène est l'ombre qu'il t'amène
-Mérite-t-il les coups de hache qui le saigne ?
+Mérite-t-il les coups de hache qui le saigne?
+\endverse
+
+\beginverse*
 Lève la tête, regarde ses feuilles
 Tu verras peut-être un écureuil
 Qui te regarde, de tout son orgueil
@@ -67,10 +76,13 @@ Peut-être que je parle pour ne rien dire
 Que quand tu m'écoutes tu as envie de rire
 Et si le béton est ton avenir
 Dis-toi que c'est la forêt qui fait que tu respires
+\endverse
+
+\beginverse*
 J'aimerais pour tous les animaux
 Que tu captes le message de mes mots
 Car un lopin de terre, une tige de roseau
-Servira à la croissance de tes marmots ! \rep{2}
+Servira à la croissance de tes marmots \rep{2}
 \endverse
 
 \endsong

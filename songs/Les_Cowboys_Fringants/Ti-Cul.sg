@@ -1,25 +1,26 @@
 \songcolumns{3}
 \beginsong{Ti-Cul}[by=Les Cowboys Fringants,cov=la-grand-messe]
 
+\capo{5}
 \cover
-\gtab{Rém}{X00231}
-\gtab{Si&}{1:002220}
-\gtab{Do}{X32010}
-\gtab{La}{002220}
+\gtab{Lam}{002210}
 \gtab{Fa}{1:022100}
-\gtab{La7}{002020}
+\gtab{Sol}{320003}
+\gtab{Mi}{022100}
+\gtab{Do}{032010}
+\gtab{Mi7}{020100}
 
 \beginchorus
-\[Rém]Pa pa la pa pa 
-\[Si&]La pa la pa pa 
-\[Do]La pa la pa pa \[La]la
+\[Lam]Pa pa la pa pa 
+\[Fa]La pa la pa pa 
+\[Sol]La pa la pa pa \[Mi]la
 \endchorus
 
 \beginverse
-\[Rém]Ti-Cul est pas al\[Si&]lé
-A ses cours du ma\[Do]tin
-Parce que quelque part y \[La]sait
-Que ça lui sert à \[Rém]rien
+\[Lam]Ti-Cul est pas al\[Fa]lé
+A ses cours du ma\[Sol]tin
+Parce que quelque part y \[Mi]sait
+Que ça lui sert à \[Lam]rien
 \endverse
 
 \beginverse*
@@ -59,30 +60,30 @@ Quand y fait d'la radio
 
 \beginverse*
 Mais sa maman espère
-Qu'y devienne avocat
+Qu'il devienne avocat
 Qu'il fasse un bon salaire
 Un peu comme son papa
 \endverse
   
 \beginverse*
-Mais ti-Cul est pas un con
-Sait ben qu'pour être heureux
+Mais Ti-Cul est pas un con
+Sait ben que pour être heureux
 Faut vivre pour ses convictions
 Et non pour celles de ses vieux
 \endverse                                                       
 
 \beginchorus
-\[Fa]Pourquoi chercher un \[Si&]sens
-A toutes leurs conne\[Do]ries?
-Ti-Cul va tenter ta \[La7]chance
-Et fais ton ch'min dans la \[Rém]vie
+\[Do]Pourquoi chercher un \[Fa]sens
+A toutes leurs conne\[Sol]ries?
+Ti-Cul va tenter ta \[Mi7]chance
+Et fais ton ch'min dans la \[Lam]vie
 \endchorus
 
 \beginchorus
-Parce qu'au fond le vrai plai\[Si&]sir
-C'est p't'être juste de pas sa\[Do]voir
-Comment qu'elle va fi\[La7]nir
-Ta p'tite his\[Rém]toire
+\[Lam]Parce qu'au fond le vrai plai\[Fa]sir
+C'est p't'être juste de pas sa\[Sol]voir
+Comment qu'elle va fi\[Mi7]nir
+Ta p'tite his\[Lam]toire
 \endchorus
 
 \beginverse
@@ -145,11 +146,11 @@ Que tu commences en quelqu'part
 C'est pour ça que demain
 Y va tout abandonner
 Et au diable les crétins
-Qui veulent pas l'encou\[Rém]rager
+Qui veulent pas l'encourager
 \endchorus
 
 \beginchorus
-Parce qu'y sait qu'le vrai plai\[Si&]sir
+Parce qu'y sait qu'le vrai plaisir
 Au fond c'est de pas savoir
 Comment qu'elle va finir
 Sa p'tite histoire

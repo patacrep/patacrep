@@ -26,7 +26,7 @@
 \ProcessOptions
 
 % Start
-\setlength{\parindent}{0cm}
+\setlength{\parindent}{0.3cm}
 
 \def\andname{and}
 \def\lastandname{\unskip, and}

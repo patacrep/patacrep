@@ -1,4 +1,4 @@
-\songcolumns{2}
+\songcolumns{3}
 
 \beginsong{L'air b\^ete}[by=Les Ogres de Barback,cov=terrain-vague]
 
@@ -22,6 +22,9 @@ J'\[Dom]ai les oreilles taillées en \[Rém]pointe,
 Le nez qui \[Solm]suinte, 
 Je bave sur les rideaux sa\[Rém]tin
 Et j'ai des corps sous mes cou\[Solm]ssins. 
+\endverse
+
+\beginverse*
 Elle m'\[Fa]a dressé au \[Si&]poil,
 Je \[Fa]suis aux pieds fi\[Si&]dèle. 
 Si \[Rém]mademoiselle \[Solm]râle,
@@ -37,6 +40,9 @@ J'ai un bec et deux ailes au dos
 Comme un corbeau,
 Toujours l'impression qu'elle abuse,
 Je suis méfiant comme une buse.
+\endverse
+
+\beginverse*
 Elle caresse mes plumes,
 Je roucoule auprès d'elle,
 Mademoiselle allume
@@ -52,6 +58,9 @@ Le museau fin, l'air pas très bien
 D'un ragondin
 Quand elle me jette à la figure:
 ``Tu finiras par faire fourrure !''
+\endverse
+
+\beginverse*
 Si je dors à la ville,
 Elle couche ``rats des chants'',
 Si c'est aux champs tranquille,
@@ -67,8 +76,11 @@ J'ai les oreilles qui pendouillent,
 Bonjour l'andouille !
 Si mes sabots sont tout crottés,
 Elle me fait braire sans rigoler.
-Elle me brosse le dos, moi,
-J'ai les yeux qui piquent.
+\endverse
+
+\beginverse*
+Elle me brosse le dos,
+Moi, j'ai les yeux qui piquent.
 Je porte des salauds, 
 Elle trouve ça pratique.
 \endverse
@@ -82,6 +94,9 @@ J'me suis fait enfilé citron
 Comme un poisson.
 Si je me noie dans ma baignoire, 
 Ca fait des ronds dans l'eau, bizarre !
+\endverse
+
+\beginverse*
 Elle a vidé mes tripes,
 Mes écailles et j'ai froid.
 Si mademoiselle tripe, 
@@ -97,6 +112,9 @@ Mais j'ai l'odeur de son fromage
 De dix ans d'âge,
 Mes sabots tout crottés au cul,
 Mes cornes bien entretenues.
+\endverse
+
+\beginverse*
 Je lui parle, elle s'enfuit,
 Je bégaie, ça l'ennuie. 
 Si je trouve ça marrant, 
@@ -112,8 +130,11 @@ Je fais travailler mes méninges,
 Je fais le singe.
 Pour apprendre à l'apprivoiser,
 Je m'fais gorille ou chimpanzé.
-Et s'il fait froid ce soir, moi,
-Je fais la grimace.
+\endverse
+
+\beginverse*
+Et s'il fait froid ce soir,
+Moi, je fais la grimace.
 Je suis seul dans le noir, 
 C'est pas moi qui l'enlace.
 \endverse
@@ -127,14 +148,20 @@ Pour lui dire tout ce qui m'embête
 Même à tue-tête,
 Si je bavarde comme une pie,
 Elle ne m'écout'ra pas, tant pis !
+\endverse
+
+\beginverse*
 Mademoiselle s'enchante,
 Elle nous fait l'hirondelle.
 Et c'est moi qui déchante,
 Je vais finir sans elle.
+\endverse
+
+\beginverse*
 Elle aurait fait ma biche,
 J'aurais été son cerf
 Mais Mademoiselle triche
-Et chasse à coure mes nerfs !
+Et chasse à courre mes nerfs !
 \endverse
 
 \endsong

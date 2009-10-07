@@ -53,6 +53,7 @@ La la-la-la-la-la-la-la-la-la-la-la \dots
 \endverse
 
 \beginverse*
+\textnote{parlé}
 Émilie est allée caresser le hérisson.
 \endverse
 
@@ -66,7 +67,8 @@ J'ai caressé le hérisson
 Il n'est plus triste
 Le hérisson
 Elle a caressé la chanson
-Mais non! Le hérisson!~\echo{Mais non! Le hérisson!}
+Mais non! Le hérisson!
+\echo{Mais non! Le hérisson!}
 Pom pom
 \endverse
 

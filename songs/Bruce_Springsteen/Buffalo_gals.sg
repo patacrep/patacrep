@@ -1,0 +1,29 @@
+\songcolumns{2}
+\beginsong{Buffalo gals}[by=Bruce Springsteen,cov=we-shall-overcome]
+
+\cover
+\gtab{Fa}{1:022100}
+\gtab{Do7}{032310}
+
+\beginverse
+\[Fa]As I was walking down the street
+\[Do7]Down the street, \[Fa]down the street
+A pretty girl I chanced to meet
+And we \[Do7]danced by the light of the \[Fa]moon
+\endverse
+
+\beginchorus
+\[Fa]Buffalo gals won't you come out tonight
+\[Do7]Come out tonight, \[Fa]come out tonight
+\[Fa]Buffalo gals won't you come out tonight
+And we'll \[Do7]dance by the light of the \[Fa]moon
+\endchorus
+
+\beginverse
+I danced with a gal with a hole in her stocking
+And he knees was a-knockin' and her shoes was a'rockin'
+I danced with a gal with a hole in her stocking
+And we danced by the light of the moon
+\endverse
+
+\endsong

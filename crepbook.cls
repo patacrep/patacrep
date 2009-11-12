@@ -2,7 +2,7 @@
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{crepbook}[2009/08/13 v0.4 LaTeX document class for Crep
+\ProvidesClass{crepbook}[2009/11/12 v0.4.1 LaTeX document class for Crep
   Books]
 
 % Base class
@@ -137,14 +137,16 @@
 \newlength{\capoheight}
 \setlength{\capoheight}{1.5cm}
 \renewcommand\capo[1]{%
-  \iftranscapos%
-  \transpose{#1}%
-  \else%
-  \mbox{%
-    \includegraphics[height=\capoheight]{capodastre}%
-    \put(-22,8){\Large #1}
-  }%
-  \hspace{\coverspace}%
+  \ifchorded%
+    \iftranscapos%
+    \transpose{#1}%
+    \else%
+    \mbox{%
+      \includegraphics[height=\capoheight]{capodastre}%
+      \put(-22,8){\Large #1}
+    }%
+    \hspace{\coverspace}%
+    \fi%
   \fi%
 }%
 

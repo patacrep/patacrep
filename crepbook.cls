@@ -1,8 +1,8 @@
-% CREPBOOK DOCUMENT CLASS -- version 0.2
+% CREPBOOK DOCUMENT CLASS -- version 0.2.2
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{crepbook}[2009/11/12 v0.4.1 LaTeX document class for Crep
+\ProvidesClass{crepbook}[2009/11/12 v0.4.2 LaTeX document class for Crep
   Books]
 
 % Base class
@@ -26,8 +26,6 @@
 \ProcessOptions
 
 % Start
-\setlength{\parindent}{0.3cm}
-
 \def\andname{and}
 \def\lastandname{\unskip, and}
 
@@ -168,7 +166,6 @@
   \fi%
 }
 
-
 % Configuration of the songs package
 \titleprefixword{}
 \renewcommand{\stitlefont}{\LARGE\bf}
@@ -182,26 +179,33 @@
 \renewcommand{\idxheadfont}{\sffamily\it\LARGE}
 \renewcommand{\idxrefsfont}{\bfseries}
 
+%
 % Customization of the page appearance
-\setlength{\topmargin}{0cm}
-\setlength{\oddsidemargin}{0cm}
-\setlength{\evensidemargin}{0cm}
-\setlength{\textwidth}{16cm}
-% header
-\setlength{\topskip}{0cm}
-\setlength{\headheight}{0cm}
-\setlength{\headsep}{0cm}
-% column
-%\setlength{\colminheight}{24cm}
-\setlength{\textheight}{26cm}
+%
+\RequirePackage[
+  a4paper % paper size
+  ,includeheadfoot % include header and footer into text size
+  ,hmarginratio=1:1 % ratio between inner and outer margin (default)
+  ,outer=1.8cm % outer margin (right)
+  ,vmarginratio=1:1 % ratio between top and bottom margin
+  ,bmargin=1.3cm % bottom margin
+% ,bindingoffset=1.7cm % space reserved to bound pages together
+  ]{geometry}
 
-\settowidth{\versenumwidth}{1.\ }
-\addtolength{\voffset}{-1cm}
+% Paragraph indentation space
+\setlength{\parindent}{0.3cm}
 
-\baselineadj=-2.5pt plus 1pt minus 0pt
-\versesep=8pt plus 2pt minus 2pt
+%
+% songs class options
+%
+% Horizontal space reserved to verse number
+\setlength{\versenumwidth}{1em}
+% Modifier to the space between consecutive lines of lyrics
+\baselineadj=-2pt plus 1pt minus 1pt
+% Space between verses and chorus
+\versesep=6pt plus 2pt minus 2pt
 
-% color used to shade the capo and song number.
+% color used to shade song numbers.
 \definecolor{SongbookShade}{HTML}{d1e4ae}
 
 %

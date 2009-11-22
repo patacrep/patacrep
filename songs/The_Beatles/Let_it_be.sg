@@ -1,0 +1,38 @@
+\songcolumns{1}
+\beginsong{Let it be}[by=The Beatles,cov=let-it-be]
+
+\cover
+\gtab{Lam}{X02210}
+\gtab{Do}{X32010}
+\gtab{Sol}{320003}
+\gtab{Fa}{1:133211}
+\gtab{Mim}{022000}
+\gtab{Rem}{XX0231}
+
+\beginverse
+When I \[Do]find myself in \[Sol]times of trouble, \[Lam]Mother Mary \[Fa]comes to me,
+\[Do]Speaking words of \[Sol]wisdom, let it \[Fa]be. \[Do] \[Rem] \[Do]
+And \[Do]in my hour of \[Sol]darkness, she is \[Lam]standing right in \[Fa]front of me,
+\[Do]Speaking words of \[Sol]wisdom, let it \[Fa]be. \[Do] \[Rem] \[Do]
+\endverse
+
+\beginchorus
+Let it \[Lam]be, let it \[Sol]be, let it \[Fa]be, let it \[Do]be.
+\[Do]Whisper words of \[Sol]wisdom, let it \[Fa]be. \[Do] \[Rem] \[Do]
+\endchorus  
+
+\beginverse
+And when the broken hearted people living in the world agree,
+There will be an answer, let it be.
+For though they may be parted there is still a chance that they will see,
+There will be an answer, let it be.
+\endverse
+
+\beginverse
+And when the night is cloudy, there is still a light, that shines on me,
+Shine on till tomorrow, let it be.
+I wake up to the sound of music, Mother Mary comes to me,
+Speaking words of wisdom, let it be. 
+\endverse
+
+\endsong

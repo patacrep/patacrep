@@ -27,8 +27,12 @@ PSF = $(CIBLE:%=%.ps.gz)
 SONGS = songs.sbd
 SONGS_SRC = $(shell ls songs/*/*.sg)
 
+CHORDS = chords.tex
+CHORDS_SRC = $(shell ls songs/*/*.sg)
+
 MAKE_INDEX=./songbook-makeindex.py
 MAKE_SONGDB=./songbook-volume.py
+MAKE_CHORDS=./utils/songbook-chords.py
 PRINT=printf "%s\n"
 PRINTTAB=printf "\t%s\n"
 
@@ -145,3 +149,5 @@ $(SONGS): $(SONGS_SRC)
 	@$(LILYPOND) --output=$(@:%.pdf=%) $<
 	@rm $(@:%.pdf=%.ps)
 
+$(CHORDS): $(CHORDS_SRC)
+	$(MAKE_CHORDS) -o $@

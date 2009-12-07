@@ -27,7 +27,7 @@ PSF = $(CIBLE:%=%.ps.gz)
 SONGS = songs.sbd
 SONGS_SRC = $(shell ls songs/*/*.sg)
 
-MAKE_INDEX=./make-index
+MAKE_INDEX=./songbook-makeindex.py
 MAKE_SONGDB=./songbook-volume.py
 PRINT=printf "%s\n"
 PRINTTAB=printf "\t%s\n"

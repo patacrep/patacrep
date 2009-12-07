@@ -32,7 +32,7 @@ CHORDS_SRC = $(shell ls songs/*/*.sg)
 
 MAKE_INDEX=./songbook-makeindex.py
 MAKE_SONGDB=./songbook-volume.py
-MAKE_CHORDS=./utils/songbook-chords.py
+MAKE_CHORDS=./utils/songbook-gtab.py
 PRINT=printf "%s\n"
 PRINTTAB=printf "\t%s\n"
 

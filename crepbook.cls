@@ -219,13 +219,13 @@
 \newlength{\tablen}
 % Variables
 \def\chordtuning{E,A,D,G,B,e}
-\def\xunit{0.45}
-\def\yunit{0.3}
+\def\xunit{0.35}
+\def\yunit{0.2}
 % The tab environmant
 % \begin{tab}
 \newenvironment{tab}
 {
-  \small
+  \footnotesize
   \setcounter{tab-line}{0}
   \setcounter{tab-tempo}{0}
 
@@ -268,7 +268,8 @@
   \renewcommand{\bar}{
     \draw[xshift=-0.5cm] (\value{tab-tempo},\value{tab-line}+1) --+(0,5);
   }
-
+  
+  \hspace{-\parindent}
   \begin{tikzpicture}[
     single/.style={},
     cm={\xunit,0,0,-\yunit,(0,0)}

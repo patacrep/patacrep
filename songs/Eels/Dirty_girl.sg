@@ -5,8 +5,8 @@
 \gtab{Do}{X32010}
 \gtab{Sol}{320003}
 \gtab{Fa}{1:022100}
-\gtab{Lam}{002210}
-\gtab{Rém}{000231}
+\gtab{Lam}{X02210}
+\gtab{Rém}{XX0231}
 
 \beginverse
 \[Do]I like \[Sol]girl with a \[Fa]dirty mouth 

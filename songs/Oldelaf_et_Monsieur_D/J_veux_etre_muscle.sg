@@ -4,8 +4,8 @@
 
 \cover
 %tabs pour les couplets
-\gtab{Solm}{{10}:002210}
-\gtab{Fa}{8:002220}
+\gtab{Solm}{{10}:X02210}
+\gtab{Fa}{8:X02220}
 \gtab{Si&}{6:022100}
 \gtab{Ré7}{5:002020}
 
@@ -13,9 +13,9 @@
 \gtab{Si7}{2:002020}
 \gtab{Solm}{3:022000}
 \gtab{Fa}{1:022100}
-\gtab{Si&}{1:002220}
+\gtab{Si&}{1:X02220}
 \gtab{Dom}{3:X02210}
-\gtab{Ré7}{3:X2123X}
+\gtab{Ré7}{3:X2120X}
 
 \beginverse
 J'veux être mus\[Solm]clé

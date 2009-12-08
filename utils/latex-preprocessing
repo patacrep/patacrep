@@ -20,6 +20,22 @@ sed -i "s/\\.\\.\\./\\\dots/g" $i;
 #chords
 sed -i "s/\\[Re\\]/\\[Ré\\]/g" $i;
 sed -i "s/b\\]/\\&\\]/g" $i;
+#La
+sed -i "s/032010}/X32010}/g" $i;
+#La
+sed -i "s/002220}/X02220}/g" $i;
+#Lam
+sed -i "s/002210}/X02210}/g" $i;
+#Ré
+sed -i "s/000232}/XX0232}/g" $i;
+sed -i "s/X00232}/XX0232}/g" $i;
+#Ré7
+sed -i "s/000212}/XX0212}/g" $i;
+#Rém
+sed -i "s/000231}/XX0231}/g" $i;
+sed -i "s/X00231}/XX0231}/g" $i;
+#Si7
+sed -i "s/021202}/X21202}/g" $i;
 
 
 done;

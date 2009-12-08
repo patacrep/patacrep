@@ -1,11 +1,11 @@
 \beginsong{House of the rising sun}[by=The Animals,cov=the-animals]
 
 \cover
-\gtab{Lam}{1:X02210}
-\gtab{Do}{1:X32010}
-\gtab{Ré}{1:XX0232}
+\gtab{Lam}{X02210}
+\gtab{Do}{X32010}
+\gtab{Ré}{XX0232}
 \gtab{Fa}{1:022100}
-\gtab{Mi7}{1:022130}
+\gtab{Mi7}{022130}
 
 \beginverse
 \[Lam]There is a \[Do]house in \[Ré]New Orleans, \[Fa]

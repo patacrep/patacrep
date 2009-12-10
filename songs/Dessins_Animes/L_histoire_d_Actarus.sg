@@ -1,28 +1,28 @@
 \songcolumns{2}
 \beginsong{L'histoire d'Actarus}[by=Dessins Anim\'es,cov=actarus]
 
+\capo{5}
 \cover
-\gtab{Fam}{8:X02210}
-\gtab{Mi&}{6:X02220}
-\gtab{Do}{8:022100}
-\gtab{Do#}{9:022100}
-\gtab{Si&m}{6:022000}
-\gtab{Fa}{1:022100}
-\gtab{Do}{X32010}
-\gtab{Rém}{XX0231}
-\gtab{Solm}{3:022000}
+\gtab{Dom}{3:X02210}
 \gtab{Si&}{1:X02220}
+\gtab{Sol}{3:022100}
+\gtab{Sol#}{4:022100}
+\gtab{Fam}{1:022000}
+\gtab{Do}{X32010}
+\gtab{Lam}{X02210}
+\gtab{Solm}{3:022000}
+\gtab{Fa}{1:022100}
 
 \beginverse
-Là-\[Fam]haut, là-haut
-\[Mi&]Très loin dans l'espace 
-\[Do]Entre la Terre \[Fam]et Vénus 
-\[Mi&]Le ciel garde encore la trace
-\[Do#]Du Prince Acta\[Do]rus 
-\[Si&m]Il rêvait \[Fam]de notre Terre
-\[Mi&]La Planète \[Do]Bleue 
-\[Si&m]Dont il voyait \[Fam]la lumière
-\[Do]A cent mille \[Fam]lieux 
+Là-\[Dom]haut, là-haut
+\[Si&]Très loin dans l'espace 
+\[Sol]Entre la Terre \[Dom]et Vénus 
+\[Si&]Le ciel garde encore la trace
+\[Sol#]Du Prince Acta\[Sol]rus 
+\[Fam]Il rêvait \[Dom]de notre Terre
+\[Si&]La Planète \[Sol]Bleue 
+\[Fam]Dont il voyait \[Dom]la lumière
+\[Sol]A cent mille \[Dom]lieux 
 \endverse
 
 \beginverse
@@ -38,13 +38,13 @@ De notre univers
 \endverse
 
 \beginchorus
-\[Fa]Dans son mervei\[Do]lleux robot
-\[Rém]De lumière et d'a\[Do]cier 
-\[Solm]Ce chevalier \[Fa]des temps nouveaux
-\[Do]Se bat pour l'humani\[Fa]té 
-\[Do]Actarus à bord de Goldorak 
-\[Fa]Voici la lé\[Si&]gende
-\[Do]Que l'on va vous racon\[Fa]ter
+\[Do]Dans son mervei\[Sol]lleux robot
+\[Lam]De lumière et d'a\[Sol]cier 
+\[Rém]Ce chevalier \[Do]des temps nouveaux
+\[Sol]Se bat pour l'humani\[Do]té 
+\[Sol]Actarus à bord de Goldorak 
+\[Do]Voici la lé\[Fa]gende
+\[Sol]Que l'on va vous racon\[Do]ter
 \endchorus
 
 \endsong

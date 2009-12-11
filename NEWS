@@ -1,3 +1,39 @@
+songbook (v0.6)
+
+  (crep, Jeanne Dupas, lohrun) Add songs
+    Alexandre Dupas:
+      Ben Harper - Widow of a Living Man Song requested by Jeanne Dupas
+    Jeanne Dupas:
+      The Animals - The house of rising sun
+      The Beatles - Let it be
+    Romain Goffe:
+      Oldelaf et Monsieur D. - David Crockett
+      Steve Waring - La baleine bleue
+      Ritchie Valens - La bamba
+      Pornophonique - Sad robot
+      Les Naufragés - L'harmonica
+      Steve Waring - La baleine bleue
+      Ritchie Valens - La bamba
+      Pornophonique - Sad robot
+      Les Naufragés - L'harmonica
+      Thémis et Nono
+      Les Cowboys Fringants - Ti-Cul
+      Bruce Springsteen - Pay me my money down
+      Karpatt - Des idées
+      Karpatt - Léon
+      Les Cowboys Fringants - La Reine
+      Les Ogres de Barback - Ptit chat
+      Yuki Kajiura - Fake Wings
+  (crep, lohrun) Corrections of mistakes and typos.
+  (lohrun) Use plain songs package v2.9
+  (lohrun) Replace makeindex script with a new python version
+  (lohrun) Add script to produce the list of chords used in songs
+  (crep, lohrun) Correct chords and gtabs used in songs
+  (lohrun) Modification of the default geometry
+  (lohrun) Remove capos from the lyricbook
+
+ -- Alexandre Dupas <alexandre.dupas@gmail.com> Fri, 11 Dec 2009 15:35:03 +0100
+
 songbook (0.5)
 
   (crep, lohrun, Grégoire Goffe) New songs:

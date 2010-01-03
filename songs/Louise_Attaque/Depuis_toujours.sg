@@ -1,4 +1,4 @@
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{Depuis toujours}[by=Louise Attaque,cov=a-plus-tard-crocodile]
 
 \capo{2}
@@ -11,35 +11,69 @@
 
 
 \beginverse
-Les \[Lam]jours ne sont pas éternels disait un astre au soleil 
-\[Sol]Le tour du monde ça je sais faire depuis \[Lam]toujours, toujours {\ldots}
-Disait la lune à la terre, dont les couleurs sont de ces merveilles 
-Issues d'hier ou du soleil, issues de toujours, toujours {\ldots}
-Dans le noir ou sous la lumière, elles se mélangent sous la mer 
+Les \[Lam]jours ne sont pas éternels
+Disait un astre au soleil 
+\[Sol]Le tour du monde ça je sais faire
+Depuis \[Lam]toujours, toujours {\ldots}
+Disait la lune à la terre, 
+Dont les couleurs sont de ces merveilles 
+Issues d'hier ou du soleil, 
+Issues de toujours, toujours {\ldots}
+Dans le noir ou sous la lumière,
+Elles se mélangent sous la mer 
 Se mélangent-elles depuis toujours, toujours {\ldots}
 \endverse
 
 \beginchorus
-\[Lam]Dis est-ce que tu \[Do]penses \[Fa]qu'il faut arrêter \[Do]là ?
-\[Sol]Dis est-ce que tu \[Do]crois, \[Mim]que tout ça c'est im\[Fa]mense ?
-\[Sol]Dis qu'est ce que tu \[Do]vois?\[Mim] Est ce que l'on suit la ten\[Fa]dance ?
+\[Lam]Dis est-ce que tu \[Do]penses
+\[Fa]Qu'il faut arrêter \[Do]là ?
+\[Sol]Dis est-ce que tu \[Do]crois,
+\[Mim]Que tout ça c'est im\[Fa]mense ?
+\[Sol]Dis qu'est-ce que tu \[Do]vois?
+\[Mim]Est-ce que l'on suit la ten\[Fa]dance?
 \endchorus
 
 \beginverse
-Les nuits ne sont pas éternelles, disait la lune au soleil 
-Ils tournent en rond c'est un mystère depuis toujours, toujours {\ldots}
-Disait un homme de l'univers dont la longueur est une merveille 
-Issues d'hier et du soleil, issues de toujours, toujours {\ldots}
-Dans le noir ou sous la lumière, il se prolonge sous la mer 
-Se prolonge t'il depuis toujours, toujours ?
+Les nuits ne sont pas éternelles,
+Disait la lune au soleil 
+Ils tournent en rond c'est un mystère
+Depuis toujours, toujours {\ldots}
+Disait un homme de l'univers
+Dont la longueur est une merveille 
+Issues d'hier et du soleil,
+Issues de toujours, toujours {\ldots}
+Dans le noir ou sous la lumière,
+Il se prolonge sous la mer 
+Se prolonge t'il depuis toujours, toujours?
 \endverse
+
+\beginchorus
+Dis est-ce que tu penses
+Qu'il faut arrêter là?
+Dis est-ce que tu crois
+Que tout ça c'est immense?
+Dis qu'est-ce que tu vois?
+Est-ce que nous deux c'est tendance? 
+\endchorus
 
 \beginverse
-Les jours ne sont pas éternels, disait un astre au soleil 
-Le tour du monde ça je sais faire, depuis toujours, toujours 
-Disait la lune à la terre, dont les couleurs sont de ces merveilles 
-Issues d'hier ou du soleil, issues de toujours, toujours 
+Les jours ne sont pas éternels,
+Disait un astre au soleil 
+Le tour du monde ça je sais faire,
+Depuis toujours, toujours 
+Disait la lune à la terre,
+Dont les couleurs sont de ces merveilles 
+Issues d'hier ou du soleil,
+Issues de toujours, toujours 
 \endverse
 
+\beginchorus
+Dis est-ce que tu penses
+Qu'il faut s'arrêter là?
+Dis est-ce que tu crois
+Que nous deux c'est tendance?
+Dis qu'est-ce que tu vois?
+Est-ce que nous deux c'est immense?
+\endchorus
 
 \endsong

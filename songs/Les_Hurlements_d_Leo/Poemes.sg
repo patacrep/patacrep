@@ -13,6 +13,9 @@
 \[Fam]Pour me dire des poèmes
 \[Sol]Même si c'est plutôt dangereux
 \[Dom]Près de ma femme endormie
+\endverse
+
+\beginverse*
 Je ne dis jamais ``Allô''
 De peur qu'elle comprenne
 Que depuis six mois la nuit
@@ -24,6 +27,9 @@ Elle m'appelle toutes les nuits
 Pour me dire des poèmes
 Des histoires de gens qui s'aiment
 Et qui n'sont pas malheureux
+\endverse
+
+\beginverse*
 Ca me change un peu quand même
 De mes deux mains abruties
 De ma femme pleine de haine
@@ -35,6 +41,9 @@ Au début ça me gênait
 Qu'elle m'appelle d'un autre prénom
 Me parle de mes cheveux blonds
 Moi qui n'en ai plus vraiment
+\endverse
+
+\beginverse*
 Elle me parle d'amours sincères
 Et de douces sensations
 Alors quand viens le matin
@@ -46,6 +55,9 @@ Je l'appelle toutes les nuits
 Pour lui dire des poèmes
 Toute seule, devant ce tableau
 Mon reflet, est maquillé \echo{est maquillé en fleur fanée}
+\endverse
+
+\beginverse*
 Dans sa glace et le silence
 Ma feuille tremble et mon cœur danse
 Les haut-parleurs m'aident à me taire
@@ -58,6 +70,9 @@ Je souffle mes verres, paf, à l'envers
 A l'envers ou à l'endroit,
 Où mon univers est étroit
 Encore un verre
+\endverse
+
+\beginverse*
 A l'envers ou à l'endroit,
 Recto-verso vice et versa
 Encore un verre

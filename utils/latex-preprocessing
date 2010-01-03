@@ -14,13 +14,16 @@ sed -i "s/soeur/s\\\oe{}ur/g" $i;
 sed -i "s/noeud/n\\\oe{}ud/g" $i;
 sed -i "s/oeil/\\\oe{}il/g" $i;
 
+#punctuation
+sed -i "s/’/'/g" $i;
+
 # dots rules
 sed -i "s/\\.\\.\\./\\\dots/g" $i;
 
 #chords
 sed -i "s/\\[Re\\]/\\[Ré\\]/g" $i;
 sed -i "s/b\\]/\\&\\]/g" $i;
-#La
+#Do
 sed -i "s/032010}/X32010}/g" $i;
 #La
 sed -i "s/002220}/X02220}/g" $i;

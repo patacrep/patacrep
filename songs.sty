@@ -8,7 +8,7 @@
 %% 
 %% This is a generated file.
 %% 
-%% Copyright (C) 2009 by Kevin W. Hamlen
+%% Copyright (C) 2010 by Kevin W. Hamlen
 %% 
 %% This file may be distributed and/or modified under the conditions of
 %% the LaTeX Project Public License, either version 1.3a of this license
@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2009/08/02 v2.9 Songs package]
+  [2010/01/01 v2.10 Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -452,9 +452,9 @@
   \ifnum\SB@cntii<\SB@numcols%
     \SB@cnt\SB@numcols%
     \advance\SB@cnt-\SB@colnum%
-    \ifodd\count\z@\else%
+    \if@twoside\ifodd\count\z@\else%
       \advance\SB@cnt\SB@numcols%
-    \fi%
+    \fi\fi%
   \fi%
 }
 \newcommand\SB@sposi{%
@@ -463,9 +463,9 @@
   \fi\fi%
   \ifnum\SB@cntii<\SB@numcols\else%
     \SB@spbegnew%
-    \ifnum\SB@cntii<\SB@numcols\else%
+    \ifnum\SB@cntii<\SB@numcols\else\if@twoside%
       \SB@spextnew%
-    \fi%
+    \fi\fi%
     \SB@spdblpg%
   \fi%
 }
@@ -1085,10 +1085,10 @@
 }
 \newcommand\SB@par{%
   \ifhmode%
-    \begingroup%
-      \interlinepenalty\@M%
-      \endgraf%
-    \endgroup%
+    \SB@cnt\interlinepenalty%
+    \interlinepenalty\@M%
+    \endgraf%
+    \interlinepenalty\SB@cnt%
     \ifSB@inchorus%
       \ifdim\cbarwidth>\z@\nobreak\else\SB@ilpenalty\fi%
     \else%
@@ -2443,8 +2443,41 @@
   \fi%
   \SB@temp%
 }
-\newcommand\shrp{\raise3\p@\hbox{\small\#}\kern-\p@}
-\newcommand\flt{\thinspace\raise3\p@\hbox{\normalsize$\flat$}}
+\newcommand\SB@accidental[1]{{%
+  \/%
+  \m@th#1%
+  \SB@dimen-\fontdimen\@ne\font%
+  \advance\SB@dimen.088142\p@%
+  \ifdim\SB@dimen<\z@%
+    \kern\f@size\SB@dimen%
+  \fi%
+}}
+\newcommand\sharpsymbol{\ensuremath{^\#}}
+\newcommand\flatsymbol{\raise.5ex\hbox{{\SB@flatsize$\flat$}}}
+\newcommand\shrp{\SB@accidental\sharpsymbol}
+\newcommand\flt{\SB@accidental\flatsymbol}
+\newcommand\DeclareFlatSize[2]{%
+  \expandafter\xdef\csname SB@flatsize@#1\endcsname{#2}%
+}
+\DeclareFlatSize\@vpt\@vpt
+\DeclareFlatSize\@vipt\@vipt
+\DeclareFlatSize\@viipt\@vipt
+\DeclareFlatSize\@viiipt\@viipt
+\DeclareFlatSize\@ixpt\@viiipt
+\DeclareFlatSize\@xpt\@ixpt
+\DeclareFlatSize\@xipt\@xpt
+\DeclareFlatSize\@xiipt\@xipt
+\DeclareFlatSize\@xivpt\@xiipt
+\DeclareFlatSize\@xviipt\@xivpt
+\DeclareFlatSize\@xxpt\@xviipt
+\DeclareFlatSize\@xxvpt\@xxpt
+\newcommand\SB@flatsize{%
+  \@ifundefined{SB@flatsize@\f@size}{}{%
+    \expandafter\fontsize%
+      \csname SB@flatsize@\f@size\endcsname\f@baselineskip%
+    \selectfont%
+  }%
+}
 \newcommand\ch{\SB@ch}
 \newcommand\SB@ch{}
 \newcommand\SB@ch@on{\SB@begincname\SB@@ch}
@@ -2557,7 +2590,7 @@
     \kern-.2\p@%
     \fontencoding{OMS}\fontfamily{cmsy}%
     \fontseries{m}\fontshape{n}%
-    \fontsize{7}{7}\selectfont\char\tw@%
+    \fontsize\@viipt\@viipt\selectfont\char\tw@%
     \kern-.2\p@%
   }%
 }}
@@ -2574,11 +2607,11 @@
   \hbox{%
     \fontencoding{OMS}\fontfamily{cmsy}%
     \fontseries{m}\fontshape{n}%
-    \fontsize{12}{12}\selectfont\char15%
+    \fontsize\@xiipt\@xiipt\selectfont\char15%
   }%
 }}
 \newcommand\SB@finger[1]{%
-  \SB@atopfret{\sffamily\fontsize{6}{6}\selectfont#1}%
+  \SB@atopfret{\sffamily\fontsize\@vipt\@vipt\selectfont#1}%
 }
 \newif\ifSB@gettabind\SB@gettabindfalse
 \newdimen\SB@tabindent

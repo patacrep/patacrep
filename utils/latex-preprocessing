@@ -16,6 +16,7 @@ sed -i "s/oeil/\\\oe{}il/g" $i;
 
 #punctuation
 sed -i "s/’/'/g" $i;
+sed -i "s/Ca /Ça /g" $i;
 
 # dots rules
 sed -i "s/\\.\\.\\./\\\dots/g" $i;

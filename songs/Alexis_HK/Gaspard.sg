@@ -1,19 +1,20 @@
 \songcolumns{1}
 \beginsong{Gaspard}[by=Alexis HK,cov=belle-ville]
 
+\capo{4}
 \cover
-\gtab{Sol#m}{4:022000}
-\gtab{Fa#}{2:022100}
-\gtab{Do#}{4:X02220}
+\gtab{Mim}{022000}
+\gtab{Ré}{XX0232}
+\gtab{La}{X02220}
+\gtab{Sol}{320003}
 \gtab{Si}{2:X02220}
-\gtab{Ré#7}{6:X02020}
-\gtab{Mi}{7:X02220}
+\gtab{Do}{3:X02220}
 
 \beginverse
-Gaspard le \[Sol#m]nain ne faisait rien de bien lu\[Fa#]mineux de la \[Do#]triste vie
-Que \[Sol#m]son sort de petit lui avait \[Fa#]gentiment of\[Do#]fert.
-Il \[Sol#m]{se décida} donc à consa\[Fa#]crer tous ses tal\[Do#]ents
-À l'en\[Sol#m]{vie de} deve\[Fa#]nir le plus gr\[Do#]and des nains vol\[Sol#m]ants.
+Gaspard le \[Mim]nain ne faisait rien de bien lu\[Ré]mineux de la \[La]triste vie
+Que \[Mim]son sort de petit lui avait \[Ré]gentiment of\[La]fert.
+Il \[Mim]{se décida} donc à consa\[Ré]crer tous ses tal\[La]ents
+À l'en\[Mim]{vie de} deve\[Ré]nir le plus gr\[La]and des nains vol\[Mim]ants.
 \endverse
 
 \beginverse
@@ -24,10 +25,10 @@ La gloire de celui qui fait le mieux voler les nains.
 \endverse
 
 \beginchorus
-Oyez sans \[Fa#]rire ni pleurer braves en\[Si]geances,
-L'histoire de Gas\[Sol#m]pard le \[Fa#]nain qui voul\[Si]ait bien qu'on le \[Ré#7]lance.
-Oyez sans \[Sol#m]rire ni pleu\[Fa#]rer braves \[Do#]gens,
-L'histoire de Gas\[Sol#m]pard le plus g\[Fa#]rand des nains vol\[Sol#m]ants.
+Oyez sans \[Ré]rire ni pleurer braves en\[Sol]geances,
+L'histoire de Gas\[Mim]pard le \[Ré]nain qui voul\[Sol]ait bien qu'on le \[Si]lance.
+Oyez sans \[Mim]rire ni pleu\[Ré]rer braves \[La]gens,
+L'histoire de Gas\[Mim]pard le plus g\[Ré]rand des nains vol\[Mim]ants.
 \endchorus
 
 \beginverse
@@ -37,12 +38,12 @@ Où certains soirs de calvaire on le lançait à plus de dix huit mètres dix.
 \endverse
 
 \beginverse*
-Harna\[Mi]ché et le casque au cr\[Si]âne,
-On aimait \[Mi]bien de lui qu'il p\[Si]lane
-Que sa di\[Mi]gnité bien plus \[Sol#m]haut.
-Digni\[Mi]té pourtant moins pré\[Si]caire
-Que celle de l'\[Mi]homme dont il s'av\[Si]ère
-Qu'il aime à \[Mi]faire voltiger le na\[Ré#7]bot.
+Harna\[Do]ché et le casque au cr\[Sol]âne,
+On aimait \[Do]bien de lui qu'il p\[Sol]lane
+Que sa di\[Do]gnité bien plus \[Mim]haut.
+Digni\[Do]té pourtant moins pré\[Sol]caire
+Que celle de l'\[Do]homme dont il s'av\[Sol]ère
+Qu'il aime à \[Do]faire voltiger le na\[Si]bot.
 \endverse
 
 \beginverse

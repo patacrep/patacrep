@@ -1,4 +1,4 @@
-\songcolumns{2}
+\songcolumns{3}
 \beginsong{Marche \`a l'ombre}[by=Renaud,cov=marche-a-l-ombre]
 
 \cover
@@ -15,6 +15,9 @@ J'ai dit à \[Do]Bob qu'était au flipp'
 Viens voir le \[Sol7]mariole qui s'ra\[Do]mène
 Vise la dégaine
 Quelle rigo\[Sol7]la\[Do]de 
+\endverse
+
+\beginverse*
 Patchouly patogas
 Le Guide du \[Sol7]Routard dans la poche
 Haré Krishna à mort
@@ -46,6 +49,9 @@ J'ai dit à Bob qu'était au flipp'
 Reluques la tronche à la pouffiasse
 Vise la culasse
 Et les nibards 
+\endverse
+
+\beginverse*
 Collants léopards homologués chez SPA
 Monoï et Shalimar
 Futal en skaï comme Travolta
@@ -66,6 +72,9 @@ J'ai dit à Bob qu'avait fait tilt
 Arrête j'ai peur un blouson noir
 J'veux pas d'histoires
 Avec ce clown
+\endverse
+
+\beginverse*
 Derrière ses pauvr'Rayban
 J'vois pas ses yeux
 Et ça m'énerve
@@ -87,6 +96,9 @@ Quand Bob a massacré l'flipper
 On n'avait plus une tune en poche
 J'ai réfléchis
 Et j'me suis dit
+\endverse
+
+\beginverse*
 C'est vrai que j'suis épais
 Comme un sandwich SNCF
 Et qu'demain j'peux tomber

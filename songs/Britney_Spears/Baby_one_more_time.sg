@@ -1,4 +1,4 @@
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{\dots~Baby one more time}[by=Britney Spears,cov=baby-one-more-time]
 
 \cover
@@ -8,36 +8,57 @@
 \gtab{Mi}{022100}
 
 \beginverse
-\[Sim]Oh baby baby, how \[Fa#]was I supposed to kn\[Ré]ow
-That \[Mi]something wasn't r\[Fa#]ight here.
-\[Sim]Oh baby baby, I \[Fa#]shouldn't have let you \[Ré]go
-And \[Mi]now you're out of s\[Fa#]ight, yeah
-\[Sim]Show me how you want it \[Fa#]{to be}. Tell me \[Ré]baby 
-Cuz I need to \[Mi]know now! That's be\[Fa#]cause.
+\[Sim]Oh baby baby,
+How \[Fa#]was I supposed to kn\[Ré]ow
+That \[Mi]something wasn't \[Fa#]right here.
+\endverse
+
+\beginverse*
+\[Sim]Oh baby baby, 
+I \[Fa#]shouldn't have let you \[Ré]go
+And \[Mi]now you're out of \[Fa#]sight, yeah
+\endverse
+
+\beginverse*
+\[Sim]Show me how you want it \[Fa#]{to be}. 
+Tell me \[Ré]baby, cuz I need to \[Mi]know now! 
+That's be\[Fa#]cause.
 \endverse
 
 \beginchorus
-\[Sim]{My loneliness} is k\[Fa#]illin me. \echo{and I} \[Ré]{I must} confess,
-I st\[Mi]ill believe. \echo{still \[Fa#]believe}
-\[Sim]When I'm not with you I \[Fa#]lose my mind give me a \[Ré]sign
+\[Sim]{My loneliness} is \[Fa#]killin me. \echo{and I}
+\[Ré]{I must} confess, I \[Mi]still believe. \echo{still \[Fa#]believe}
+\[Sim]When I'm not with you I \[Fa#]lose my mind
+Give me a \[Ré]sign
 \dots \[Mi]Hit me baby \[Fa#]one more time!
 \endchorus
 
 \beginverse
-Oh baby, baby, the reason I breathe is you
+Oh baby, baby, 
+The reason I breathe is you
 Boy you've got me blinded
-Oh pretty baby, there's nothin that I wouldn't do
-It's not the way I planned it
-Show me how you want it to be tell me baby
-Cuz I need to know now. That's because.
 \endverse
 
 \beginverse*
-Oh baby baby, how was I supposed to know.
-Oh pretty baby, I shouldn't have let you go.
+Oh pretty baby,
+There's nothin that I wouldn't do
+It's not the way I planned it
+\endverse
+
+\beginverse*
+Show me how you want it to be. 
+Tell me baby, cuz I need to know now. 
+That's because.
 \endverse
 
 \beginverse
+Oh baby baby, 
+How was I supposed to know.
+Oh pretty baby, 
+I shouldn't have let you go.
+\endverse
+
+\beginverse*
 I must confess that my loneliness
 Is killin me now.
 Don't you know I still believe

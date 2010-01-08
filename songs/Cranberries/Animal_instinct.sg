@@ -1,4 +1,4 @@
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{Animal instinct}[by=Cranberries,cov=bury-the-hatchet]
 
 \cover
@@ -11,33 +11,49 @@
 
 
 \beginverse
-Su\[Mim]ddenly som\[Lam7]ething has happened to \[Do2]me as I was havi\[Ré]ng my cup of 
-T\[Mim]ea. Suddenly I \[Lam7]was feeling depr\[Do2]essed. I was utt\[Ré]erly and totally 
-Str\[Mim]essed. Do you\[Lam7] know you made \[Do2]me \[Ré]cry
-Ou\[Mim]ooo. Do you\[Lam7] know you made \[Do2]me \[Ré]die
+Su\[Mim]ddenly som\[Lam7]ething has happened to \[Do2]me
+As I was havi\[Ré]ng my cup of \[Mim]tea.
+Suddenly I \[Lam7]was feeling depr\[Do2]essed. 
+I was utt\[Ré]erly and totally str\[Mim]essed. 
+Do you\[Lam7] know you made \[Do2]me \[Ré]cry \echo{Ou\[Mim]ooo}
+Do you\[Lam7] know you made \[Do2]me \[Ré]die
 \endverse
 
 \beginchorus
-And the thing that's gets to me, is you'll never really see. 
-And the thing that's freaks me out, is I always be in doubt.
+And the thing that's gets to me, 
+Is you'll never really see. 
+And the thing that's freaks me out, 
+Is I always be in doubt.
 \endchorus
 
 \beginverse
-\[Sol]It is a lo\[Ré]vely thing that we h\[Do]ave
+\[Sol]It is a lo\[Ré]vely thing that we \[Do]have
 It is a lo\[Ré]vely thing that \[Sol]we \dots
 \[Sol]It is a lo\[Ré]vely thing \[Do]the animal
-\[Ré]The animal instin\[Mim]ct \[Lam7] \[Do2] \[Ré]
-So \[Mim]take my h\[Lam7]ands and come with \[Do2]me, we will cha\[Ré]nge reality.
-\[Mim]So take my h\[Lam7]ands and we will \[Do2]pray, they won't \[Ré]take you 
-\[Mim]Away. They will \[Lam7]never make me \[Do2]cry no\[Ré]
-\[Mim] They will \[Lam7]never make me \[Do2]die. \[Ré]
+\[Ré]The animal instin\[Mim]ct 
+\endverse
+
+\beginverse*
+\nolyrics{\[Lam7] \[Do2] \[Ré]}
 \endverse
 
 \beginverse
-The animal the animal the animal instinct in me
-It is the animal the animal the animal instinct in me
-It is the animal it is the animal
-It is the animal instinct in me  \rep{2}
+So take my hands and come with me, 
+We will change reality.
+So take my hands and we will pray, 
+They won't take youaway. 
+They will never make me cry no
+They will never make me die.
+\endverse
+
+\beginverse
+The animal, the animal,
+Tthe animal instinct in me
+It is the animal, the animal, 
+The animal instinct in me
+It is the animal, it is the animal
+It is the animal instinct in me
+\rep{2}
 \endverse
 
 \endsong

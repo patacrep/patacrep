@@ -99,7 +99,7 @@
  \vspace{1.5cm}
 
  \begin{center}
-   \includegraphics[width=\textwidth]{\@picture}
+   \includegraphics[height=14cm]{\@picture}
    \begin{flushright}
    {\flushright \small \@picturecopyright}
    \end{flushright}

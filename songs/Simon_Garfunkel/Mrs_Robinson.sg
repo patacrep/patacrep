@@ -1,0 +1,51 @@
+\songcolumns{2}
+\beginsong{Mrs. Robinson}[by=Simon \& Garfunkel,cov=the-definitive]
+
+\cover
+\gtab{Ré}{XX0232}
+\gtab{Sol}{320003}
+\gtab{Mim}{022000}
+\gtab{Do}{X32010}
+\gtab{Lam}{X02210}
+\gtab{Mi7}{020100}
+\gtab{La}{X02220}
+
+
+\beginchorus
+\[Ré] And here's to \[Sol]you Mrs. \[Mim]Robinson
+\[Sol]Jesus loves you \[Mim]more than you will \[Do]know, \echo{wo wo \[Lam]wo}
+\[Ré]God bless you \[Sol]please Mrs. \[Mim]Robinson
+\[Sol]Heaven holds a \[Mim]place for those who \[Do]pray, \echo{hey hey \[Lam]hey}
+\endchorus
+
+\beginverse
+\[Mi7]We'd like to know a little bit about you for our files
+\[La]We'd like to help you learn to help yourself
+\[Ré]Look around you, \[Sol]all you see are \[Do]sympathetic \[Lam]eyes
+\[Mi7]Stroll around the grounds un\[Ré]til you feel at home
+\endverse
+
+\beginverse
+Hide it in a hiding place where no one ever goes
+Put it in your pantry with your cupcakes
+It's a little secret just the Robinsons' afair
+Most of all you've got to hide it from the kids
+\endverse
+
+\beginverse
+Sitting on a sofa on a Sunday afternoon
+Going to the candidates debate
+Laugh about it, shout about it, when you've got to choose
+Any way you look at it you lose
+\endverse
+
+\beginchorus
+Where have you gone Joe DiMaggio ?
+A nation turns its lonely eyes to you, \echo{wo wo wo}
+What's that you say Mrs. Robinson ?
+Joltin' Joe has left and gone away, \echo{hey hey hey, hey hey hey}
+\endchorus
+
+\endsong
+
+

@@ -59,14 +59,14 @@ class index:
 
     def idxBlockToStr(self, letter, entries):
         str = '\\begin{idxblock}{'+letter+'}'+'\n'
-        for key in entries.keys():
+        for key in sorted(entries.keys()):
             str += self.entryToStr(key, entries[key])
         str += '\\end{idxblock}'+'\n'
         return str
 
     def entriesToStr(self):
         str = ""
-        for letter in self.data.keys():
+        for letter in sorted(self.data.keys()):
             str += self.idxBlockToStr(letter, self.data[letter])
         return str
 

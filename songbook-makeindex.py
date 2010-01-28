@@ -27,7 +27,7 @@ class index:
         letter = firstLetterPattern.match(key).group(1)
         if re.match('\d',letter):
             letter = '0-9'
-        return (letter, key)
+        return (letter.upper(), key)
 
     def keyword(self, key, word):
         if not self.keywords.has_key(key):

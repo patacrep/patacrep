@@ -6,7 +6,7 @@
 \cover
 \gtab{Do}{X32010}
 \gtab{Do/Si}{X20010}
-\gtab{La7}{X02010}
+\gtab{Lam7}{X02010}
 \gtab{Fa}{1:022100}
 
 \begin{tab}
@@ -48,11 +48,11 @@
   \bar
 \end{tab}
 
-\musicnote{intro : Do Do/Si La7 Fa}
+\musicnote{intro : Do Do/Si Lam7 Fa}
 
 \beginverse
 \[Do]So lately \[Do/Si]You're wondering
-\[La7]Who will be \[Fa]there to take my place
+\[Lam7]Who will be \[Fa]there to take my place
 When I'm gone you'll need love
 To light the shadows on your face
 If a grate wave shall fall
@@ -83,7 +83,7 @@ Out there who can bring me back to you
 
 \beginverse*
 \[Fa]Run away with my \[Do/Si]heart
-\[Mim]Run away with my \[La7]hope
+\[Mim]Run away with my \[Lam7]hope
 \[Fa]Run away with my \[Do/Si]love
 \endverse
 

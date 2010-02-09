@@ -20,7 +20,7 @@ Les \[Rém]Elfes de \[Do]GreenEl\[Rém]ven
 De leur plume aux reflets d'argent
 Naissent des êtres d'autres temps
 Des landes perdues, des chevaux blancs 
-Les Elfes de GreenElven (ho, c'est beau)
+Les Elfes de GreenElven \echo{ho, c'est beau}
 \endverse
 
 \beginverse

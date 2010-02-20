@@ -125,7 +125,7 @@
   \ifchorded%
     \ifx\songcover\@empty\else%
       \mbox{%
-        \includegraphics[height=\coverheight]{\songcover}%
+        \includegraphics[width=\coverheight]{\songcover}%
         \hspace{\coverspace}%
       }%
     \fi%

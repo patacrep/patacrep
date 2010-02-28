@@ -6,29 +6,33 @@
 \gtab{Do#m}{4:X02210}
 \gtab{La&}{4:022100}
 \gtab{La}{5:022100}
+\gtab{Lam}{4:022000}
 \gtab{Do#}{4:X02220}
 \gtab{Si}{2:X02220}
 
 \beginverse
-With your \[Mi]feet in the air and your \[Do#m]head on the ground. \[La&] \[La]
-\[Mi] Try this trick\[Do#m] and s\[La&]pin it. Ye\[La]ah,
-\[Mi] Your head will coll\[Do#m]apse but there's \[La&]nothing in it and you'll \[La]ask yourself.
+With your \[Mi]feet in the air and your \[Do#m]{head on} the ground. \[La&] \[La]
+\[Mi] Try this tri\[Do#m]ck and \[La&]spin it. Ye\[La]ah!
+\[Mi] Your head will coll\[Do#m]{apse but} there's \[La&]nothing in it and you'll \[La]ask yourself.
 \endverse
 
 \beginchorus
-\[Mi]Where is my \[Do#m]mind? \[La&] Where is my mind?\[La]
-\[Mi]Where is my \[Do#m]mind? \[La&] \[La]
+Where is my mind? Where is my mind?
+Where is my mind?
 \endchorus
 
 \beginverse*
-\[Mi]Way \[Labm]out in the \[La]water see it \[Lam]swimmin' \[Do#] {\ldots} \[Si]
+\[Mi]Way \[La&]{out, in} the \[La]water, see it \[Lam]swimmin'.
+\[Do#] \[Si]
 \endverse
 
 \beginverse
-I was swimmin' in the Carribean
-Animals were hiding behind the rock
+I was swimmin' in the Carribean.
+Animals were hiding behind the rock.
 Except the little fish but they told me, he swears tryin' to talk to me to me to me.
 \endverse
+
+\musicnote{chorus, bridge, solo, repeat verse 1, chorus}
 
 \image{brunocb-smells-like-tux-spirit---nirvana-8121}{4}
 

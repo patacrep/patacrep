@@ -1,0 +1,93 @@
+\songcolumns{2}
+\beginsong{Le cycle du vin}[by=Mes souliers sont rouges,cov=5]
+
+\cover
+\gtab{Lam}{X02210}
+\gtab{Rém}{XX0231}
+\gtab{Fa}{1:022100}
+\gtab{Mi}{022100}
+\gtab{Do}{332010}
+\gtab{La7}{002223}
+\gtab{La}{X02220}
+\gtab{Mi}{022100}
+\gtab{Si}{2:X02220}
+\gtab{Fa#}{2:022100}
+
+
+\beginverse
+\[Lam]La terre en \[Rém]vigne, la voi\[Fa]là la jolie \[Lam]vi\[Mi]gne \rep{2}
+Vigni vi\[Lam]gnons, vignons le \[Do]vin
+La \[La7]jolie vigne au \[Mi]vin \rep{2}
+\endverse
+
+\beginverse*
+La vigne en treille, la voilà la jolie treille \rep{2}
+Treilli treillons, treillons le vin
+La jolie treille au vin \rep{2}
+\endverse
+
+\beginverse*
+La treille en seille, la voilà la jolie seille \rep{2}
+Seilli seillons, seillons le vin
+La jolie seille au vin \rep{2}
+\endverse
+
+\beginchorus
+\[La]La seille en \[Mi]huche, la voi\[Ré]là la jolie \[Mi]huche \rep{2}
+Huchi hu\[La]chons, huchons le \[Mi]vin
+La \[Ré]jolie \[Mi]huche au \[La]vin \rep{2}
+\endchorus
+
+
+\beginchorus
+La huche en cuve, la voilà la jolie cuve \rep{2}
+Cuvi cuvons, cuvons le vin
+La jolie cuve au vin \rep{2}
+\endchorus
+
+\beginchorus
+La cuve en cruche, la voilà la jolie cruche \rep{2}
+Cruchi cruchons, cruchons le vin
+La jolie cruche au vin \rep{2}
+\endchorus
+
+\beginverse
+La cruche en verre, le voilà le joli verre \rep{2}
+Verri verrons, verrons le vin
+Le joli verre au vin \rep{2}
+\endverse
+
+\beginverse*
+Du verre en bouche, la voilà la jolie bouche \rep{2}
+Bouchi bouchons, bouchons le vin
+La jolie bouche au vin \rep{2}
+\endverse
+
+\beginverse*
+La bouche en ventre, le voilà le joli ventre \rep{2}
+Ventri ventrons, ventrons le vin
+Le joli ventre au vin \rep{2}
+\endverse
+
+\beginchorus
+Du ventre en pisse, la voilà la jolie pisse \rep{2}
+Pissi pissons, pissons le vin
+La jolie pisse au vin \rep{2}
+\endchorus
+
+\beginchorus
+La pisse en terre, la voilà la jolie terre \rep{2}
+Terri terrons, terrons le vin
+La jolie terre au vin \rep{2}
+\endchorus
+
+\beginchorus
+\[Si]La terre en \[Fa#]vigne, la voi\[Mi]là la jolie \[Fa#]vigne \rep{2}
+Vigni vi\[Si]gnons, vignons le \[Fa#]vin
+La \[Mi]jolie \[Fa#]vigne au \[Si]vin
+Vigni vi\[Si]gnons, vignons le \[Fa#]vin
+La \[Mi]jolie \[Fa#]vigne au \[Mi]vin \dots \[Si]
+\endchorus
+
+\endsong
+

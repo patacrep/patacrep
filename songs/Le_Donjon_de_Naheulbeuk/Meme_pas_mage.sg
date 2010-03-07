@@ -55,7 +55,7 @@ Fit de lui un preux chevalier
 \endverse
 
 \beginverse*
-A deux mains levant son épée
+À deux mains levant son épée
 Pour lui jurer fidélité
 Par le poids, il fut emporté
 Et la tête du roi a tranché
@@ -94,15 +94,15 @@ Rirent et s'étouffèrent pour de bon
 \beginverse
 Mais qu'ai-je donc fait au destin
 Pour qu'il s'acharne ainsi sur moi ?
-Son rêve s'était d'être bon à rien
-Pas chevalier, encore moins roi
+\echo{Son rêve s'était d'être bon à rien
+Pas chevalier, encore moins roi}
 \endverse
 
 \beginverse*
 J'aurais voulu être paysan
 Et puis épouser une belle blonde
-Mais c'est plus possible maintenant
-Qu'il est devenu maître du monde
+\echo{Mais c'est plus possible maintenant
+Qu'il est devenu maître du monde}
 \endverse
 
 \endsong

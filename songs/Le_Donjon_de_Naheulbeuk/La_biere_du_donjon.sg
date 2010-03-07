@@ -52,7 +52,7 @@ La bière du donjon, c'est nous qui la chantons \dots
 \beginverse
 La bière du donjon, c'est nous qui la gerbène,
 La bière du donjon, c'est nous qui la gerbons \dots
-Et même qu'après, hé bien on en r'prend !!!
+\echo{Et même qu'après, hé bien on en r'prend !}
 \endverse
 
 

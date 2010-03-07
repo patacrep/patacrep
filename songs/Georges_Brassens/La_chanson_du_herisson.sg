@@ -44,8 +44,7 @@ Qui l'rendra heureux?
 
 \beginverse
 Moi, je ne vois que moi,
-Il n'y a que moi,
-Dans ce livre là.
+Il n'y a que moi, dans ce livre là.
 Moi, je ne vois que moi,
 Il n'y a que moi, dans ce livre la la la la.
 La-la-la-la-la-la
@@ -58,18 +57,12 @@ La la-la-la-la-la-la-la-la-la-la-la \dots
 \endverse
 
 \beginverse
-Elle n'est plus triste
-Cette chanson
+Elle n'est plus triste cette chanson
 J'ai caressé le hérisson
-\endverse
-
-\beginverse*
-Il n'est plus triste
-Le hérisson
+Il n'est plus triste le hérisson
 Elle a caressé la chanson
-Mais non! Le hérisson!
-\echo{Mais non! Le hérisson!}
-Pom pom
+\echo{Mais non! Le hérisson! \rep{2}
+Pom pom}
 \endverse
 
 \image{brunocb-voodoo-tux---jimi-hendrix}{4}

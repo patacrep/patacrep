@@ -1,28 +1,28 @@
 \songcolumns{2}
 \beginsong{Histoire de p\^eche}[by=Les Cowboys Fringants,cov=l-expedition]
 
-
+\capo{7}
 \cover
-\gtab{Ré}{XX0232}
-\gtab{La}{X02220}
-\gtab{Sol}{320003}
-\gtab{Sim}{2:X02210}
+\gtab{Sol}{320033}
+\gtab{Ré}{XX0233}
+\gtab{Do}{X32033}
+\gtab{Mim}{022033}
 
 
 \beginverse
-\[Ré]Le petit pêcheur \[La]gaspé\[Ré]sien
-\[Ré]Suivait son père cha\[Sol]que ma\[Ré]tin
-\[Sim]Quinze ans et demi et déjà le pied \[La]ma\[Ré]rin
-\[Ré]Sous la lueur d'un \[La]vieux \[Ré]fanal
-\[Ré]Accompagné par \[Sol]les é\[Ré]toiles
-\[Sim]Prenait le large, le vent dans les \[La]voi\[Ré]les
+\[Sol]Le petit pêcheur \[Ré]gaspé\[Sol]sien
+\[Sol]Suivait son père cha\[Do]que ma\[Sol]tin
+\[Mim]Quinze ans et demi et déjà le pied \[Ré]ma\[Sol]rin
+\[Sol]Sous la lueur d'un \[Ré]vieux \[Sol]fanal
+\[Sol]Accompagné par \[Do]les é\[Sol]toiles
+\[Mim]Prenait le large, le vent dans les \[Ré]voi\[Sol]les
 \endverse
 
 \beginverse*
-\[Ré]Tous les jours son père \[Sol]lui di\[Ré]sait
-\[Ré]Quand ils remontaient \[Sol]les fi\[Ré]lets
-\[Ré]Y'a tant de poissons \[Sol]dans le \[La]St-Lau\[Ré]rent
-Qu'\[Sim]on en aura jusqu'\[Sol]à la \[La]nuit des \[Ré]temps
+\[Sol]Tous les jours son père \[Do]lui di\[Sol]sait
+\[Sol]Quand ils remontaient \[Do]les fi\[Sol]lets
+\[Sol]Y'a tant de poissons \[Do]dans le \[Ré]St-Lau\[Sol]rent
+Qu'\[Mim]on en aura jusqu'\[Do]à la \[Ré]nuit des \[Sol]temps
 \endverse
 
 \beginverse

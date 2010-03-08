@@ -5,9 +5,9 @@
 \capo{3}
 \cover
 \gtab{Lam}{X02210}
-\gtab{Mi}{X21202}
-\gtab{Sol}{XX0232}
-\gtab{Do}{320003}
+\gtab{Mim}{022000}
+\gtab{Sol}{320003}
+\gtab{Do}{X32010}
 
 
 \beginverse
@@ -32,7 +32,7 @@ Si y'en avait on sait pas où il s'trouvait
 
 \beginverse
 Il \[Lam]{fit sa} cabane en bor\[Sol]dure
-D'un bois tou\[Dol]ffu peu\[Mim]plé d'elfes syl\[Lam]vains
+D'un bois tou\[Do]ffu peu\[Mim]plé d'elfes syl\[Lam]vains
 Des \[Lam]gens qui bouffent de la ver\[Sol]dure
 Évidem\[Lam]ment, ça n'fait \[Mim]pas de bons voi\[Lam]sins
 \endverse

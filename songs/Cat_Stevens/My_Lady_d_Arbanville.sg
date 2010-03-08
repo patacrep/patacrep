@@ -33,10 +33,10 @@ Your skin has turned to white \rep{2}
 
 
 \beginverse
-La lala lalala \echo{ haha ha haha}
-La lalala la la \echo{haha ha haha}
-Lala la lalalala \echo{haha ha haha}
-Lalalala lala \echo{ha} \rep{2}
+La lala lalala \echo{ahah ah ahah}
+La lalala la la \echo{ahah ah ahah}
+Lala la lalalala \echo{ahah ah ahah}
+Lalalala lala \echo{ah} \rep{2}
 \endverse
 
 \beginverse

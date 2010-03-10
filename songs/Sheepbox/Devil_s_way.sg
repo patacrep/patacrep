@@ -5,7 +5,7 @@
 %         D   D  UD..
 %         Mim    Lasus2
 % chorus : 1.&.2.&.3.&.4.&.
-%          D   D D...
+%          D   D D\dots
 %          Mim   Sol
 
 \capo{9}
@@ -19,16 +19,16 @@
 
 \beginverse
 \[Mim] Walking a\[Lasus2]lone
-\[Mim]‘ care for no \[Lasus2]one
+\[Mim]' care for no \[Lasus2]one
 \[Mim] I'm so cru\[Lasus2]el
-\[Mim]‘ look like a \[Lasus2]{dog without} its bone
+\[Mim]' look like a \[Lasus2]{dog without} its bone
 \endverse
 
 \beginverse*
 \[Lam] I go my \[Rém]way
 \[Lam] Without a \[Rém]gaze
 \[Lam] If you ask \[Rém]help
-\[Lam] I will an\[Rém]swer : ``No way!''
+\[Lam] I will an\[Rém]swer: ``No way!''
 \endverse
 
 \beginverse*

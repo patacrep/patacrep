@@ -12,7 +12,7 @@
 \lilypond{10_sous_dans_ma_poche-1}
 
 \beginverse
-J'ai \[Lam]10 sous dans ma \[Sol]poche,
+J'ai \[Lam]{10 sous} dans ma \[Sol]poche,
 J'ai \[Do]aucun ar\[Sol]gent
 \rep{4}
 \endverse

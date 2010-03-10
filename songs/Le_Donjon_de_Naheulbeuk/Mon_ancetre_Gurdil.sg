@@ -2,24 +2,25 @@
 \beginsong{Mon anc\^etre Gurdil}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
 
+\capo{3}
 \cover
+\gtab{Lam}{X02210}
 \gtab{Mim}{022000}
-\gtab{Si7}{X21202}
-\gtab{Ré}{XX0232}
 \gtab{Sol}{320003}
+\gtab{Do}{X32010}
 
 
 \beginverse
-\[Mim]Voici, l'histoire d'un nain ca\[Ré]pable
-De courir \[Mim]vite et \[Si7]de voyager \[Mim]loin.
-Dans \[Mim]son épopée formi\[Ré]dable,
-Nous le sui\[Mim]vrons, \[Si7]une bière à la \[Mim]main.
+\[Lam]Voici, l'histoire d'un nain ca\[Sol]pable
+De courir \[Lam]vite et \[Mim]de voyager \[Lam]loin.
+Dans \[Lam]son épopée formi\[Sol]dable,
+Nous le sui\[Lam]vrons, \[Mim]une bière à la \[Lam]main.
 \endverse
 
 \beginchorus
-Nous \[Mim]sommes les \[Ré]nains sous la mon\[Mim]tagne,
-On creuse le jour, on \[Ré]boit la \[Si7]nuit;
-Et on n'aime \[Sol]pas ceux d'\[Ré]la sur\[Mim]face.
+Nous \[Lam]sommes les \[Sol]nains sous la mon\[Lam]tagne,
+On creuse le jour, on \[Sol]boit la \[Mim]nuit;
+Et on n'aime \[Do]pas ceux d'\[Sol]la sur\[Lam]face.
 \endchorus
 
 \beginverse
@@ -30,14 +31,14 @@ Si y'en avait on sait pas où il s'trouvait
 \endverse
 
 \beginverse
-Il \[Mim]fit sa cabane en bor\[Ré]dure
-D'un bois tou\[Sol]ffu peu\[Si7]plé d'elfes syl\[Mim]vains
-Des \[Mim]gens qui bouffent de la ver\[Ré]dure
-Évidem\[Mim]ment, ça n'fait \[Si7]pas de bons voi\[Mim]sins
+Il \[Lam]{fit sa} cabane en bor\[Sol]dure
+D'un bois tou\[Do]ffu peu\[Mim]plé d'elfes syl\[Lam]vains
+Des \[Lam]gens qui bouffent de la ver\[Sol]dure
+Évidem\[Lam]ment, ça n'fait \[Mim]pas de bons voi\[Lam]sins
 \endverse
 
 \beginverse
-Arrière, tu n'es pas bien venu
+Arrière, tu n'es pas bienvenu
 Lui dirent les elfes, en lui jetant des pierres
 Voyant que tout était foutu,
 Il prit la fuite, en suivant la rivière
@@ -45,9 +46,9 @@ Il prit la fuite, en suivant la rivière
 
 \beginverse
 Il fût recueilli par les fées
-Ondine bleue bullant sur le rivage
+Ondine bleue, bullant sur le rivage
 De l'eau de pluie lui fût donné
-Il recracha (pouha) tout dans leur visage
+Il recracha \echo{pouha} tout dans leur visage
 \endverse
 
 \beginverse
@@ -70,4 +71,5 @@ Mangeons, buvons dans nos maisons de pierre
 Là-haut, c'est peuplé d'abrutis
 Allez patron, ressert donc une bière. 
 \endverse
+
 \endsong

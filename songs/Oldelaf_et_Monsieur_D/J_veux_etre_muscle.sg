@@ -8,14 +8,13 @@
 \gtab{Fa}{8:X02220}
 \gtab{Si&}{6:022100}
 \gtab{Ré7}{5:X02020}
-
 %tabs pour le refrain
 \gtab{Si7}{2:X02020}
-\gtab{Solm}{3:022000}
-\gtab{Fa}{1:022100}
-\gtab{Si&}{1:X02220}
+\gtab{Solm*}{3:022000}
+\gtab{Fa*}{1:022100}
+\gtab{Si&*}{1:X02220}
 \gtab{Dom}{3:X02210}
-\gtab{Ré7}{3:X2120X}
+\gtab{Ré7*}{3:X2120X}
 
 \beginverse
 J'veux être mus\[Solm]clé
@@ -35,12 +34,12 @@ J'veux être musclé, j'veux être musclé
 
 \beginchorus
 Mais quand vient l'\[Si7]heure du déjeuner
-Tout ça j'ai \[Solm]déjà oublié
-Je reprends \[Fa]plusieurs fois des frites
-Je mange comme \[Si&]quatre, plutôt comme huit
+Tout ça j'ai \[Solm*]déjà oublié
+Je reprends \[Fa*]plusieurs fois des frites
+Je mange comme \[Si&*]quatre, plutôt comme huit
 Et quand ar\[Dom]rive le dessert
 J'voudrais prendre l'\[Solm]assiette toute entière
-Et pour que je \[Ré7]puisse la porter \dots
+Et pour que je \[Ré7*]puisse la porter \dots
 Ben faudrait qu'j'sois plus musclé
 \endchorus
 
@@ -78,7 +77,8 @@ Je remplis à fond mon assiette
 De saucisson, de tartiflette 
 Je finis le plateau d'fromage
 Quand soudain me vient une image \dots
-Et là j'ai envie d'pleurer parce que j'veux être musclé
+Et là j'ai envie d'pleurer parce que
+Parce que j's'rai jamais musclé
 \endchorus
 
 

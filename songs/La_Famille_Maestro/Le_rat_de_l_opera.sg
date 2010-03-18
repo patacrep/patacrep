@@ -6,6 +6,8 @@
 \gtab{Ré}{XX0232}
 \gtab{Mi}{022100}
 
+\lilypond{Le_rat_de_l_opera-1}
+
 \beginverse
 \[La]Il était une fois un gentil rat vivant à la pointe du \[Ré]raz
 Ce rat là \[Mi]râlait au fond d'un placard, d'un placard à ba\[La]llet
@@ -21,6 +23,8 @@ Quand le chat n'est pas là les souris dansent
 Alors pourquoi les rats n'auraient pas cette chance là
 Le seul ballet que je veux voir passer est au palais Garnier
 \endverse
+
+\lilypond{Le_rat_de_l_opera-2}
 
 \beginchorus
 \[La]Où tu l'as \[Mi]mis mon tu\[La]tu, l'as \[Mi]mis, l'as mis, l'as mis

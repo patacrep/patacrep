@@ -1,33 +1,52 @@
 \songcolumns{2}
 \beginsong{Geste héroïque}[by=Le Donjon de Naheulbek, cov=a-poil-dans-la-foret]
 
+\cover
+\gtab{Solm}{3:022000}
+\gtab{Si&}{6:022100}
+\gtab{Do}{8:022100}
+\gtab{Rém}{5:X02210}
+\gtab{Ré}{XX0232}
+\gtab{Sol}{320003}
+
+\lilypond{Geste_heroique-2}
+
 \beginverse
-Perdu dans la Moria
-Je cherche Saroumane
-Le Colbar derrière moi
+\[Solm]Perdu dans la Mo\[Si&]ria
+Je \[Do]cher\[Si&]che Sa\[Rém]rou\[Si&]mane
+Le Golbargh derrière moi
 Je suis dans la panade
-Viens tôt me secourir 
-Ou me faudra mourir \rep{2}
+\endverse
+
+\beginverse*
+\[Si&]Viens \[Rém]tôt me \[Solm]secou\[Ré]rir 
+\[Ré]Ou me fau\[Solm]dra \[Ré]mou\[Sol]rir 
+\rep{2}
 \endverse
 
 \beginverse
 Pourquoi fuis-tu Gurdil ?
-J'ai le Colbar au cul
-Mon caleçon en mitril 
+J'ai le Golbargh au cul
+Mon caleçon en mithril 
 Ne me sauvera plus
+\endverse
+
+\beginverse*
 De son fouet enflammé
-Mes fesses pourra brûler \rep{2}
+Mes fesses pourra brûler 
+\rep{2}
 \endverse
 
 \beginverse
-Toi le \emph{Magicien Blanc}
+Toi le magicien blanc
 Tu pourrais me sauver
 Si je m'en sors vivant
-Te vendrai la Contrée
+Te vendrai la Comté
 C'est là que vit Bilbo
-C'est lui qui a l'Anneau \rep{2}
+C'est lui qui a l'anneau \rep{2}
 \endverse
 
+\lilypond{Geste_heroique-1}
 
 \endsong
 

@@ -3,30 +3,30 @@
 
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
-  \gtab{La}{X02220}
+  \gtab{Si&}{6:022100}
+  \gtab{Mi&}{6:X02220}
+  \gtab{Fa}{8:X02220}
 
 
   \beginverse
-    Hen\[Ré]rik était un fier pêcheur
-    De \[Sol]je n'sais quel pa\[Ré]ys
+    Hen\[Si&]rik était un fier pêcheur
+    De \[Mi&]je n'sais quel pa\[Si&]ys
     Il naviguait sur toutes les mers
-    En \[La]buvant de l'eau d'vie
+    En \[Fa]buvant de l'eau d'vie
   \endverse
 
   \beginverse*
-    Il \[Ré]a juré dans un bistrot
-    À \[Sol] ses collègues émus
-    ``Je pêcherai un poi\[Ré]sson étrange
-    Qu'un \[La]homme n'a jamais \[Ré]vu.''
+    Il \[Si&]a juré dans un bistrot
+    À \[Mi&] ses collègues émus
+    ``Je pêcherai un poi\[Si&]sson étrange
+    Qu'un \[Fa]homme n'a jamais \[Si&]vu.''
   \endverse
 
   \beginchorus
-    You can \[Sol]fish in a mill pond
-    \[Ré]Fish in the sea
-    \[La]Fish in a bath tub yes
-    But don't fish \[Ré]me
+    You can \[Mi&]fish in a mill pond
+    \[Si&]Fish in the sea
+    \[Fa]Fish in a bath tub yes
+    But don't fish \[Si&]me
   \endchorus
 
   \beginverse

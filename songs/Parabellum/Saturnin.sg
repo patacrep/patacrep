@@ -1,0 +1,34 @@
+\songcolumns{2}
+\beginsong{Saturnin}[by=Parabellum,cov=dense-microsillon-a-faisceau-de-lumiere-coherente]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Do]Approchez, tous les a\[Fa]mis
+    Les grands et les pe\[Sol]tits
+    Regardez \[Do]bien ! \[Sol]
+    \[Do]Le cœur fier et l'œil ma\[Fa]lin
+    Voici venir au \[Sol]loin
+    Votre ami Satur\[Do]nin
+  \endverse
+
+  \beginchorus
+    On \[Fa]dit que rien ne \[Do]lui fait peur
+    \[Sol]Quand il s'agit d'aven\[Do]ture
+    Il \[Fa]est têtu et \[Do]bagarreur
+    Mais gentil je vous le jure
+  \endchorus
+
+  \beginverse
+    Et s'il est un peu bavard
+    Et même un peu vantard
+    Ça ne fait rien
+    Car plus vous le connaîtrez
+    Et plus vous l'aimerez
+    Votre ami Saturnin
+  \endverse
+
+\endsong

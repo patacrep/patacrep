@@ -1,0 +1,37 @@
+\songcolumns{2}
+\beginsong{Elle descend de la montagne}[by=Hugues Aufray,cov=little-troubadour]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{320001}
+  \gtab{Fa}{1:022100}
+
+  \beginverse
+    Elle de\[Do]scend de la montagne à cheval
+    Elle descend de la montagne à che\[Sol7]val
+    Elle de\[Do]scend de la montagne
+    Elle de\[Fa]scend de la montagne
+    Elle de\[Do]scend de la mon\[Sol7]tagne à che\[Do]val
+  \endverse
+
+  \beginchorus
+    Singing I, I, youpee, youpee I
+    Singing I, I, youpee, youpee I
+    Singing I, I, youpee, 
+    I, I, youpee
+    I, I, youpee, youpee I
+  \endchorus
+
+  \beginverse
+    Elle embrasse son grand-père quand elle descend
+  \endverse
+
+  \beginverse
+    J'voudrais être son grand-père quand elle descend
+  \endverse
+
+  \beginverse
+    Mais c'est mieux d'avoir 20 ans et toutes ses dents
+  \endverse
+
+\endsong

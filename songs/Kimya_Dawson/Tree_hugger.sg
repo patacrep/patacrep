@@ -7,8 +7,8 @@
 \gtab{Ré}{XX0232}
 
 \beginverse
-\[Sol]The flower said: ``I wish I was a t\[Do]ree''
-The tree said, ``I wish I could b\[Ré]e
+\[Sol]The flower said: ``I wish I was a \[Do]tree''
+The tree said: ``I wish I could \[Ré]be
 A different kind of tree''
 \[Sol]The cat wished that it was a bee,
 \[Sol]The turtle wished that it could fly
@@ -22,28 +22,26 @@ And in the sea there is a fish,
 A fish that has a secret wish,
 A wish to be a big cactus
 With a pink flower on it.
-And in the sea there is a fish,
-A fish that has a secret wish,
-A wish to be a big cactus
-With a pink flower on it.
+\rep{2}
 \endverse
 
 \beginverse
 And the flower
 Would be its offering
-Of love to the desert.
+Of love 
+To the desert.
 And the desert,
 So dry and lonely,
-That the creatures all
+That the creatures all 
 Appreciate the effort.
 \endverse
 
 \beginverse
-Et le jackalope a dit:
+Et le jackalope a dit :
 ``Je voudrais être un yéti
 Pour voler dans la nuit
 Et m'en aller loin d'ici''
-Mais le yéti a dit:
+Mais le yéti a dit :
 ``Je voudrais être un monstre marin
 Pour pouvoir sauter dans la mer
 De tous les requins''
@@ -60,36 +58,6 @@ A hug would be nice,
 But hug my flower with your eyes.''
 \endverse
 
-\beginverse
-The flower said: ``I wish I was a tree''
-The tree said: ``I wish I could be
-A different kind of tree''
-The cat wished that it was a bee,
-The turtle wished that it could fly
-Really high into the sky,
-Over rooftops and then dive
-Deep into the sea.
-\endverse
-
-\beginverse
-And in the sea there is a fish,
-A fish that has a secret wish,
-A wish to be a big cactus
-With a pink flower on it.
-And in the sea there is a fish,
-A fish that has a secret wish,
-A wish to be a big cactus
-With a pink flower on it.
-\endverse
-
-\beginverse
-And the flower
-Would be its offering
-Of love to the desert.
-And the desert,
-So dry and lonely,
-That the creatures all
-Appreciate the effort.
-\endverse
+\musicnote{repeat verse 1, 2, and 3}
 
 \endsong

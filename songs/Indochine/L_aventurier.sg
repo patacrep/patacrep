@@ -1,0 +1,62 @@
+\songcolumns{2}
+\beginsong{L'aventurier}[by=Indochine,cov=generation-indochine]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Lam]Égaré dans la \[Fa]vallée infernale
+    Le \[Do]héros s'appelle\[Rém] Bob Morane
+    \[Lam]{À la} recherche de \[Fa]{l'Ombre} Jaune
+    Le \[Do]bandit s'appelle Mister \[Rém]Kali Jones
+  \endverse
+
+  \beginverse
+    Avec l'ami Bill Ballantine
+    Sauvé de justesse des crocodiles
+    Stop au trafic des Caraïbes
+    Escale dans l'opération Nadawieb
+  \endverse
+
+  \beginverse
+    Le cœur tendre dans le lit de Miss Clark
+    Prisonnière du Sultan de Jarawak
+    En pleine terreur à Manicouagan
+    Isolé dans la jungle birmane
+  \endverse
+
+  \beginverse
+    Emprisonnant les flibustiers
+    L'ennemi est démasqué
+    On a volé le collier de Civa
+    Le Maharadjah en répondra
+  \endverse
+
+  \beginchorus	
+    \[Rém]Et soudain surgit \[Lam]face au vent
+    Le \[Do]vrai héros de \[Sol]tous les temps
+    \[Rém]Bob Morane contre \[Lam]tout chacal
+    L'a\[Do]venturier contre \[Sol]tout guerrier
+    \[Rém]Bob Morane contre \[Lam]tout chacal
+    L'a\[Do]venturier contre \[Sol]tout guerrier
+  \endchorus
+
+  \beginverse
+    Dérivant à bord du sampan
+    L'aventurier au parfum d'Ylalang
+    Son surnom, Samouraï du Soleil
+    En démantelant le gang de l'Archipel
+  \endverse
+
+  \beginverse
+    L'otage des guerriers du Doc Xhatan
+    Il s'en sortira toujours à temps
+    Tel l'aventurier solitaire
+    Bob Morane est le roi de la Terre.
+  \endverse
+
+\endsong

@@ -1,0 +1,67 @@
+\songcolumns{2}
+\beginsong{Chevaliers de la table ronde}[by=Traditionnel]
+
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{320001}
+  \gtab{Fa}{1:022100}
+
+  \beginverse
+    Cheva\[Do]liers de la Table Ronde
+    Goûtons \[Sol7]voir si le vin est \[Do]bon
+    \rep{2}
+  \endverse
+
+  \beginchorus
+    Goûtons \[Fa]voir, \echo{oui, oui, oui}
+    Goûtons \[Do]voir, \echo{non, non, non}
+    Goûtons \[Sol7]voir si le vin est bon.
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    S'il est bon, s'il est agréable
+    J'en boirai jusqu'à mon plaisir
+  \endverse
+
+  \beginverse
+    J'en boirai cinq a six bouteilles
+    Et encore ce n'est pas beaucoup
+  \endverse
+
+  \beginverse
+    Si je meurs, je veux qu'on m'enterre
+    Dans une cave où il y a du bon vin
+  \endverse
+
+  \beginverse
+    Les deux pieds contre la muraille
+    Et la tête sous le robinet
+  \endverse
+
+  \beginverse
+    Et les quatre plus grands ivrognes
+    Porteront les quat' coins du drap
+  \endverse
+
+  \beginverse
+    Pour donner le discours d'usage
+    On prendra le bistrot du coin
+  \endverse
+
+  \beginverse
+    Et si le tonneau se débouche
+    J'en boirai jusqu'à mon plaisir
+  \endverse
+
+  \beginverse
+    Et s'il en reste quelques gouttes
+    Ce sera pour nous rafraîchir
+  \endverse
+
+  \beginverse
+    Sur ma tombe, je veux qu'on inscrive
+    Ici gît le roi des buveurs
+  \endverse
+
+\endsong
+

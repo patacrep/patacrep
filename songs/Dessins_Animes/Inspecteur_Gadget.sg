@@ -1,0 +1,80 @@
+\songcolumns{2}
+\beginsong{Inspecteur Gadget}[by=Dessins Animés,cov=inspecteur-gadget]
+  
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Si7}{X21202}
+  \gtab{Mi7}{020100}
+  \gtab{Lam}{5:022000}
+  \gtab{Sol#m}{4:022000}
+  \gtab{Solm}{3:022000}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Fa}{2:022100}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  
+  \beginverse
+    \[Lam]Eh la qui va là ? \echo{In\[Si7]specteur \[Mi7]Gadget}
+    \[Lam]Eh la ça va pas ? \echo{Ouh \[Mi7]ouh}
+    \[Lam]Oh la je suis là \echo{In\[Si7]specteur \[Mi7]Gadget}
+    \nolyrics{\[Lam Sol#m Solm Fa#m Fa Mi7 Lam]}
+  \endverse
+
+  \beginverse*
+    C'est moi que voilà \echo{Inspecteur Gadget}
+    Ça va être la joie \echo{Ouh ouh}
+    Au nom de la loi \echo{Moi je vous arrête}
+    Je vous arrête là
+  \endverse
+
+  \beginchorus
+    \echo{\[Rém]Go go} Gadget à main
+    \echo{\[Sol]Flash} Ga\[Do]dget au chapeau
+    \echo{\[Rém]Hey ho} Gadget au poing
+    \echo{\[Si7]Oh la} \[Mi7]Élastico-Gadget
+  \endchorus
+
+  \beginverse
+    Les bandits sont là \echo{Inspecteur Gadget}
+    Ils m'échapperont pas \echo{Ouh ouh}
+    Si l'inspecteur fait gaffe \echo{Fait gaffe aux gadgets}
+    Qui marchent ou marchent pas
+  \endverse
+
+  \beginverse
+    Et puis patatrac \echo{Inspecteur Gadget}
+    V'la le chef qu'est là \echo{Ouh ouh}
+    Salut chef c'est moi \echo{Inspecteur Gadget}
+    Ça n'en finit pas
+  \endverse
+
+  \beginverse*
+    Eh la qui va là ? \echo{Inspecteur Gadget}
+    Eh la ça va pas ? \echo{Ouh ouh}
+    Oh la je suis là \echo{Inspecteur Gadget}
+    Oh la oh la loi
+  \endverse
+
+  \beginverse
+    Et puis patatrac \echo{Inspecteur Gadget}
+    V'la le chef qu'est là \echo{Ouh ouh}
+    Salut chef c'est moi \echo{Inspecteur Gadget}
+    Ça n'en finit pas
+  \endverse
+
+  \beginverse
+    Eh la qui va là ? \echo{Inspecteur Gadget}
+    Eh la ça va pas ? \echo{Ouh ouh}
+    Oh la je suis là \echo{Inspecteur Gadget}
+    Oh la oh la loi
+  \endverse
+
+  \beginverse*
+    C'est moi que voilà \echo{Inspecteur Gadget}
+    Ah ça va être la joie \echo{Ouh ouh}
+    Au nom de la loi \echo{Inspecteur Gadget}
+    Je vous arrête là
+  \endverse
+
+\endsong

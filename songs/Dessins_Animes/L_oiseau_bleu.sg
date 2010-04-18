@@ -1,0 +1,50 @@
+\songcolumns{2}
+\beginsong{L'oiseau bleu}[by=Dessins Animés,cov=oiseau-bleu]
+
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Mi}{022100}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Si}{2:X02220}
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Fa}{320003}
+
+  \beginverse
+    \[La]Pour vous la merveilleuse his\[Ré]toire
+    Des enfants \[Mi]et de l'oiseau \[La]bleu
+    Ils voyagèrent à travers \[Ré]les miroirs
+    Jusqu'à l'a\[Mi]nimal fabu\[La]leux
+  \endverse
+
+  \beginverse*
+    \[Do#m]Ils vivaient dans une gran\[Fa#m]de forêt
+    \[Do#m]Avec leur maman bien sou\[Fa#m]ffrante
+    \[Si]Sans le sou, sans l'espoir de \[Mi]la soigner
+    \[Si]Ils la voyaient déjà mou\[Mi]rante
+  \endverse
+
+  \beginchorus
+    \[Do]Mais très loin \[Rém]dans le ciel
+    \[Fa]Vivait l'oi\[Sol]seau bleu du bo\[Do]nheur
+    \[Do]Que l'on dit \[Rém]éternel
+    \[Fa]Pour ceux qui \[Sol]ont toujours un \[Do]cœur
+  \endchorus
+
+  \beginverse
+    La fée Bérilune vint les trouver
+    Pour les aider dans l'aventure
+    Elle savait faire parler les objets
+    Tant son cœur était resté pur
+  \endverse
+  
+  \beginverse*  
+    Ils virent le monde des souvenirs
+    Le magique palais de la nuit
+    Les feux-follets, le royaume d'avenir
+    Et l'univers des harmonies
+  \endverse
+
+\endsong

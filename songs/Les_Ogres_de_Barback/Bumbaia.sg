@@ -1,0 +1,42 @@
+\songcolumns{2}
+\beginsong{Bumbaïa}[by=Les Ogres de Barback,cov=pitt-ocha-2]
+
+  \cover
+  \gtab{Sim}{2:X02210}
+  \gtab{La}{X02220}
+  \gtab{Fa#}{2:022100}
+
+  \beginverse
+    \[Sim]Le cœur plein de joie
+    \[La]Sous les é\[Fa#]toiles en fête
+    \[Sim]Danse Pitt Ocha
+    \[La]En chantant \[Fa#]à tue-tête
+  \endverse
+  
+  \beginverse*
+  \[Sim]{L'avenir} est évident
+    \[Fa#]Dans les yeux de nos enfants
+    \[La]La liberté nous sourit
+    \[Fa#]Sous le ciel de Mongolie
+  \endverse
+
+  \beginchorus
+    C'est \[Sim]bumbaïa, \[La]bumbaïa
+    Bumbaïa \[Fa#]plein de \[Sim]joie
+  \endchorus
+
+  \beginverse
+    Danse Pitt Ocha
+    Sous les étoiles en fête
+    Le cœur plein de joie
+    Et plus rien ne l'arrête
+  \endverse
+  
+  \beginverse*
+    Les enfants font la musique
+    Le vent souffle la rythmique
+    Lune et soleil le refrain
+    Ensemble tapent des mains
+  \endverse
+
+\endsong

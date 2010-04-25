@@ -134,16 +134,12 @@ $(PDF): %.pdf: %.tex %.aux
 include $(SOURCES:%.tex=%.d)
 
 # songbook related rules
-# that is not all but no other rules are easy to move around
 %.aux: $(SONGS)
 
 COMMA=,
 $(SONGS): $(SONGS_SRC)
 	@$(PRINT) "\graphicspath{{img/},$(patsubst %,{%}$(COMMA),$(dir $(SONGS_SRC)))}" > $@
 	@cat $(SONGS_SRC) >> $@
-
-mybook.sbd:
-	touch $@
 
 %.sbd: %.sgl
 	@$(MAKE_SONGDB) --songs=$< --output=$@
@@ -154,3 +150,7 @@ mybook.sbd:
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
+
+# Create an empty mybook.sgl file if it does not exist
+mybook.sgl:
+	touch $@

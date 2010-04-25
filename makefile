@@ -142,6 +142,9 @@ $(SONGS): $(SONGS_SRC)
 	@$(PRINT) "\graphicspath{{img/},$(patsubst %,{%}$(COMMA),$(dir $(SONGS_SRC)))}" > $@
 	@cat $(SONGS_SRC) >> $@
 
+mybook.sbd:
+	touch $@
+
 %.sbd: %.sgl
 	@$(MAKE_SONGDB) --songs=$< --output=$@
 

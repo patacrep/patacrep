@@ -1,5 +1,0 @@
-This is Songbook's bug list. You are welcome to submit any bugs report or feature request you want. [[Song requests|song_request]] are also welcome.
-
-Resolved bugs are marked as [[bugs/done]].
-
-[[!inline pages="./bugs/* and !./bugs/done and !./bugs/song_request and !link(done) and !*/Discussion" actions=yes postform=yes show=0]]

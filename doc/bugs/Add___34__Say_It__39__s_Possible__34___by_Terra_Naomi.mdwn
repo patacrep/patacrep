@@ -1,9 +1,0 @@
-Simple song to play but must be very hard to sing right. Here is a youtube video. In the authors channel, there is a video tutorial to play this song. This song is mainly intresting to me because of its strumming pattern an pretty unusual chords.
-
-<http://www.youtube.com/watch?v=ARHyRI9_NB4>
-
-First version added. The chords are correctly placed for the first verse but the rest of the song has to be formatted to follow the same pattern.
-
-[[song_request]]
-
-[[done]]

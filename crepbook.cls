@@ -12,7 +12,13 @@
 \RequirePackage[pdftex]{graphicx,xcolor}
 \RequirePackage{songs}
 \RequirePackage{fancybox}
-\RequirePackage[bookmarks,bookmarksopen]{hyperref}
+\definecolor{tango-green-3}{HTML}{4e9a06}
+\definecolor{tango-blue-3}{HTML}{204a87}
+\RequirePackage[bookmarks,
+  bookmarksopen,
+  colorlinks=true,
+  linkcolor=tango-green-3,
+  urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
 
 % Options

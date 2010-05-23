@@ -1,52 +1,51 @@
 \songcolumns{2}
-\beginsong{If I ain't got you}[by={Alicia Keys},cov=If_aint_got_you]
+\beginsong{If I ain't got you}[by=Alicia Keys,cov=If_aint_got_you]
 
-\cover
-\gtab{Cmaj7}{XX0002} 
-\gtab{D}{XX2220}
-\gtab{Em}{XX0432}
-\gtab{Bm}{XX4224}
-\gtab{Am}{XX2000}
-\gtab{Gmaj7}{XX0222}
+  \cover
+  \gtab{Sol7}{320001}
+  \gtab{Sim}{2:X02210}
+  \gtab{Mim}{022000}
+  \gtab{Lam}{X02210}
+  \gtab{Do7}{X32310} 
+  \gtab{Ré}{XX0232}
 
-\beginverse
-\[Gmaj7]Some people \[Bm]live for the \mbar{4}{4}\[Em]fortune \mbar{4}{4}
-\[Am]Some people live just for the \mbar{4}{4}\[D]fame \mbar{4}{4}
-\[Gmaj7]Some people \[Bm]live for the \mbar{4}{4}\[Em]power, yeah \mbar{4}{4}
-\[Am]Some people live just to play the \mbar{4}{4}\[D]game \mbar{4}{4}
-\[Gmaj7]Some people \[Am]think that the \mbar{4}{4}\[Bm]physical \[Am]things \mbar{4}{4}
-\[Gmaj7]Define \[Am]what's with-\mbar{4}{4}\[Bm]in \[Am]... And I've \mbar{4}{4}
-\[Gmaj7]been there \[Am]before, \mbar{4}{4}\[Bm]that life's a \[Am]bore \mbar{4}{4}
-\[Gmaj7]So full of the \[Am]superfi-\mbar{4}{4}\[Bm]cial \mbar{2}{4}
-\endverse
+  \beginverse
+    \[Sol7]Some people \[Sim]live for the \[Mim]fortune 
+    \[Lam]Some people live just for the \[Ré]fame 
+    \[Sol7]Some people \[Sim]live for the \[Mim]power, yeah 
+    \[Lam]Some people live just to play the \[Ré]game 
+    \[Sol7]Some people \[Lam]think that the \[Sim]physical \[Lam]things 
+    \[Sol7]Define \[Lam]what's with\[Sim]in \[Lam]\dots~And I've 
+    \[Sol7]Been there \[Lam]before, \[Sim]that life's a \[Lam]bore 
+    \[Sol7]So full of the \[Lam]superfi\[Sim]cial
+  \endverse
 
-\beginchorus
-\[Gmaj7]Some \[Am]peo - \[Bm]ple \[Cmaj7]want it all, but \mbar{4}{4}
-I don't \[Bm]want nothing at all.\mbar{4}{4} 
-If it ain't  \[Am]you baby; \mbar{4}{4} 
-If I ain't got \[Gmaj7]you baby  \mbar{4}{4}
-\[Gmaj7]Some \[Am]people \[Bm]want \[Cmaj7]diamond rings \mbar{4}{4}
-Some just want \[Bm]everything, but everything means\mbar{4}{4}
-\[Am]nothing, If I ain't got \mbar{4}{4}\[Gmaj7]you, Yeah \mbar{2}{4}
-\endchorus
+  \beginchorus
+    \[Sol7]Some \[Lam]peo\[Sim]ple \[Cmaj7]want it all, but 
+    I don't \[Sim]want nothing at all. 
+    If it ain't  \[Lam]you baby;  
+    If I ain't got \[Sol7]you baby  
+    \[Sol7]Some \[Lam]people \[Sim]want \[Cmaj7]diamond rings 
+    Some just want \[Sim]everything, but everything means
+    \[Lam]nothing, If I ain't got \[Sol7]you, yeah
+  \endchorus
 
-\beginverse
-\[Gmaj7]Some people \[Bm]search for a \mbar{4}{4}\[Em]fountain \mbar{4}{4}
-\[Am]That promises forever \mbar{4}{4}\[D]young \mbar{4}{4}
-\[Gmaj7]Some people \[Bm]need three dozen \mbar{4}{4}\[Em]ro...ses. And \mbar{4}{4}
-\[Am]that's the only way to prove you \mbar{4}{4}\[D]love them \mbar{4}{4}
-\[Gmaj7]Hand me the \[Am]world on a \mbar{4}{4}\[Bm]silver plat-\[Am]ter and\mbar{4}{4}
-\[Gmaj7]what good \[Am]would it \mbar{4}{4}\[Bm]be \[Am]~ with\mbar{4}{4}
-\[Gmaj7]no one to \[Am]share \mbar{4}{4} \[Bm]No one who \[Am]truly \mbar{4}{4}
-\[Gmaj7]cares \[Am]for \mbar{4}{4}\[Bm]me \mbar{2}{4}
-\endverse
+  \beginverse
+    Some people search for a fountain 
+    That promises forever young 
+    Some people need three dozen roses. And 
+    That's the only way to prove you love them 
+    Hand me the world on a silver platter and
+    What good would it be with
+    No one to share. No one who truly 
+    Cares for me 
+  \endverse
 
-%{\nolyrics Outro (picking): \[Cmaj7] \[Bm]}
-\beginverse
-If I ain't \[Am]got you with me baby \[Gmaj7]~
-\[Gmaj7]So \[Am]nothing in \[Bm]this \[Cmaj7]whole wide world don't mean a \[Bm]thing
-If I ain't got you with \[Am]me baby \[Gmaj7]~
-\endverse
-
+  %\musicnote{Outro (picking): Do7 Sim}
+  \beginverse
+    If I ain't \[Lam]got you with me baby \[Sol7]
+    \[Sol7]So \[Lam]nothing in \[Sim]this \[Do7]whole wide world don't mean a \[Sim]thing
+    If I ain't got you with \[Lam]me baby \[Sol7]
+  \endverse
 
 \endsong

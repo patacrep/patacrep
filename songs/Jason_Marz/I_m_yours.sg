@@ -1,77 +1,80 @@
 \songcolumns{2}
 \beginsong{I'm yours}[by=Jason Marz,cov=I_m_yours]
 
+  \cover
+  \gtab{Si}{2:X02220}
+  \gtab{Fa#}{2:022100}
+  \gtab{Solm}{3:022000}
+  \gtab{Mi}{022100}
 
-\cover
-\gtab{B}{XX4322}
-\gtab{F#}{XX3121}
-\gtab{Gm}{XX4342}
-\gtab{E}{XX4442}
+  \beginverse
+    \[Si]Well you done done me and you bet I felt it
+    I \[Fa#]tried to be chill but you're so hot that I melted
+    I \[Solm]fell right through the cracks
+    And now I'm \[Mi]trying to get back
+    Before the \[Si]cool done run out
+    I'll be giving it my bestest
+    \[Fa#]Nothing's going to stop me but divine intervention
+    I \[Solm]reckon it's again my turn to \[Mi]win some or learn some
+  \endverse
 
+  \beginchorus
+    \[Si]I won't hesita\[Fa#]te no more, no \[Solm]more
+    It cannot \[Mi]wait, I'm yours \[Si Fa# Solm Mi]
+  \endchorus
 
+  \beginchorus
+    \[Si]Well open up your mind and see like \[Fa#]me
+    Open up your plans and damn you're \[Solm]free
+    Look into your heart and you'll find \[Mi]love love love
+    \[Si]Listen to the music of the moment come and dance with \[Fa#]me
+    I like one big \[Solm]family 
+    It's your God-forsaken right to be \[Mi]loved love love \[Si]love
+  \endchorus
 
-\beginverse
-\[B]Well you done done me and you bet I felt it
-I \[F#]tried to be chill but you're so hot that I melted
-I \[Gm]fell right through the cracks
-And now I'm \[E]trying to get back
-Before the \[B]cool done run out
-I'll be giving it my bestest
-\[F#]Nothing's going to stop me but divine intervention
-I \[Gm]reckon it's again my turn to \[E]win some or learn some
-\endverse
+  \beginchorus
+    \[Si]So I won't hesita\[Fa#]te no more, no \[Solm]more
+    It cannot \[Mi]wait I'm sure
+    There's no \[Si]need to complica\[Fa#]te
+    Our time is \[Solm]short
+    This is our \[Mi]fate, I'm yours \[Si Fa# Solm Mi]
+  \endchorus
+  
+  \beginverse
+    I've been spending way too long checking my tongue in the mirror
+    And bending over backwards just to try to see it clearer
+    But my breath fogged up the glass
+    And so I drew a new face and laughed
+    I guess what I'm saying is there ain't no better reason
+    To rid yourself of vanity and just go with the seasons
+    It's what we aim to do
+    Our name is our virtue
+  \endverse
 
-\beginchorus
-\[B]I won't hesita\[F#]te no more, no \[Gm]more
-It cannot \[E]wait, I'm yours \[B]~\[F#]~\[Gm]~\[E]~
+  \beginchorus
+    I won't hesitate no more, no more
+    It cannot wait I'm sure
+    There's no need to complicate
+    Our time is short
+    This is our fate, I'm yours
+  \endchorus
 
-\[B]Well open up your mind and see like \[F#]me
-Open up your plans and damn you're \[Gm]free
-Look into your heart and you'll find \[E]love love love
-\[B]Listen to the music of the moment come and dance with \[F#]me
-I like one big \[Gm]family 
-It's your God-forsaken right to be \[E]loved love love \[B]love
+  \beginchorus
+    Well no no, well open up your mind and see like me
+    Open up your plans and damn you're free
+    Look into your heart and you'll find love love love love
+    Listen to the music of the moment maybe sing with me
+    I like peaceful melodys
+    It's your God-forsaken right to be loved love loved love love
+  \endchorus
 
-
-\[B]So I won't hesita\[F#]te no more, no \[Gm]more
-It cannot \[E]wait I'm sure
-There's no \[B]need to complica\[F#]te
-Our time is \[Gm]short
-This is our \[E]fate, I'm yours \[B]~\[F#]~\[Gm]~\[E]~
-\endchorus
-
-\beginverse
-I've been spending way too long checking my tongue in the mirror
-And bending over backwards just to try to see it clearer
-But my breath fogged up the glass
-And so I drew a new face and laughed
-I guess what I'm saying is there ain't no better reason
-To rid yourself of vanity and just go with the seasons
-It's what we aim to do
-Our name is our virtue
-\endverse
-
-\beginchorus
-I won't hesitate no more, no more
-It cannot wait I'm sure
-There's no need to complicate
-Our time is short
-This is our fate, I'm yours
-
-Well no no, well open up your mind and see like me
-Open up your plans and damn you're free
-Look into your heart and you'll find love love love love
-Listen to the music of the moment maybe sing with me
-I like peaceful melodys
-It's your God-forsaken right to be loved love loved love love
-
-I won't hesitate no more
-Oh no more no more no more
-It's your God-forsaken right to be loved, I'm sure
-There's no need to complicate
-Our time is short
-This is our fate, I'm yours
-\endchorus
-
-
+  \beginchorus
+    I won't hesitate no more
+    Oh no more, no more, no more
+    It's your God-forsaken right to be loved, I'm sure
+    There's no need to complicate
+    Our time is short
+    This is our fate, I'm yours
+  \endchorus
+  
 \endsong

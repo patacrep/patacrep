@@ -1,21 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import re
 import glob
-import codecs
- 
-def replace_words(text, word_dic):
-    """
-    take a text and <strong class="highlight">replace</strong> words
-    that match a key in a dictionary with the associated value, 
-    return the changed text
-    """
-    rc = re.compile('|'.join(map(re.escape, word_dic)))
-    def translate(match):
-        return word_dic[match.group(0)]
-    return rc.sub(translate, text)
- 
+
 # the dictionary has target_word:replacement_word pairs
 word_dic = {
 #oe inclusion
@@ -51,13 +38,12 @@ word_dic = {
  
 # Process song files
 songfiles = glob.glob('songs/*/*.sg')
-for file in songfiles:
-    songfile = codecs.open(file, "r", "utf-8")
-    data = songfile.read().encode("utf-8")
-    data = replace_words(data, word_dic)
-    songfile.close()
-    songfile = open(file, "w")
-    songfile.write(data)
-    songfile.close()
- 
- 
+for filename in songfiles:
+   with open(filename, 'r+') as songfile:
+       data = songfile.read()
+       for search, replace in word_dic.items():
+             data = data.replace(search, replace)
+       songfile.seek(0)
+       songfile.write(data)
+       songfile.truncate()
+

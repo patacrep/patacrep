@@ -147,7 +147,7 @@
     \else%
     \mbox{%
       \includegraphics[height=\capoheight]{capodastre}%
-      \put(-22,8){\Large #1}
+      \put(-22,8){\normalsize #1}
     }%
     \hspace{\coverspace}%
     \fi%
@@ -210,6 +210,9 @@
 \baselineadj=-2pt plus 1pt minus 1pt
 % Space between verses and chorus
 \versesep=6pt plus 2pt minus 2pt
+%lyrics font
+\renewcommand{\lyricfont}{\normalfont\normalsize}
+
 
 % color used to shade song numbers.
 \definecolor{SongbookShade}{HTML}{d1e4ae}
@@ -231,7 +234,7 @@
 % \begin{tab}
 \newenvironment{tab}
 {
-  \footnotesize
+  \normalsize
   \setcounter{tab-line}{0}
   \setcounter{tab-tempo}{0}
 

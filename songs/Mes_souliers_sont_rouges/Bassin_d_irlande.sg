@@ -1,0 +1,112 @@
+\songcolumns{2}
+\beginsong{Bassin d'Irlande}[by=Mes souliers sont rouges,cov=en-dehors-des-clous]
+  \cover
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{3:X02220}
+  \gtab{Si&}{1:X02220}
+
+  \beginverse
+    \[Fa]Par un beau matin je me suis levée
+    Plus matin que ma tan\[Do]te 
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    \[Si&]Dans mon joli jardin j'étais
+    C'est pour cueillir rose blan\[Do]che
+  \endverse
+
+  \beginchorus
+    \[Fa]Pendant que nous faisions l'amour
+    Ils sont venus nous sur\[Do]pren\[Fa]dre
+  \endchorus
+
+  \beginverse
+    Dans mon joli jardin j'étais
+    C'est pour cueillir rose blanche
+    \rep{2}
+  \endverse
+  
+  \beginverse*
+    J'en avais pas cueilli trois brins
+    Voilà mon amant qui rentre
+  \endverse
+
+  \beginverse
+    J'en avais pas cueilli trois brins
+    Voilà mon amant qui rentre
+    \rep{2}
+ \endverse
+
+  \beginverse*
+    En lui donnant ce beau bouquet
+    Il me tomba sur la hanche
+  \endverse
+
+  \beginverse
+    En lui donnant ce beau bouquet
+    Il me tomba sur la hanche
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    Dessus la hanche, dessus le pied
+    Il me cassa la jambe
+  \endverse
+
+  \beginverse
+    Dessus la hanche, dessus le pied
+    Il me cassa la jambe
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    Faut aller chez le médecin
+    Qu'est le meilleur de l'Irlande
+  \endverse
+
+  \beginverse
+    Faut aller chez le médecin
+    Qu'est le meilleur de l'Irlande
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    Beau médeci, beau médecin
+    Que dites-vous de ma jambe ?
+  \endverse
+
+  \beginverse
+    Beau médeci, beau médecin
+    Que dites-vous de ma jambe ?
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    Ta jambe elle ne guérira point
+    À moins que tu n'la trempes
+  \endverse
+
+  \beginverse
+    Ta jambe elle ne guérira point
+    À moins que tu n'la trempes
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    Dans l'eau couri, dans l'eau courante
+    D'un grand bassin d'Irlande
+  \endverse
+
+  \beginverse
+    Dans l'eau couri, dans l'eau courante
+    D'un grand bassin d'Irlande
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    Dans l'eau courante, dans l'eau baignante
+    Du bassin de ta tante
+  \endverse
+
+\endsong

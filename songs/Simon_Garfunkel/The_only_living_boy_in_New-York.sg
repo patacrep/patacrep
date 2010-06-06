@@ -1,0 +1,46 @@
+\songcolumns{2}
+\beginsong{The only living boy in New-York}[by=Simon \& Garfunkel,cov=bridge-over-troubled-water]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320001}
+
+  \beginverse
+    \[Do]Tom, get your plane right on \[Fa]time.
+    \[Do]{I know} your part'll go \[Fa]fine.
+    \[Do]Fly down to Mexi\[Fa Do Rém Fa]co
+  \endverse
+
+  \beginchorus
+    \[Sol]Do-n-da-da-n-da-da-n-da-da and \[Fa]here I am
+    The \[Do]only living boy in \[Fa]New-York.
+  \endchorus
+
+  \beginverse
+    I get the news I need from the weather report
+    I can gather all the news I need from the weather report
+    Hey, I've got nothing to do today but smile
+  \endverse
+
+  \beginverse
+    \[Lam] \[Rém]Half of the time we're gone, 
+    \[Sol7]But we don't know \[Do]where
+    And we don't know \[Fa]where
+  \endverse
+
+  \beginverse
+    Tom, get your plane right on time.
+    I know that you've been eager to fly now
+    Hey, let your honesty shine, shine, shine now,
+  \endverse
+
+  \beginchorus
+    Do-n-da-da-n-da-da-n-do like it shines on me.
+    The only living boy in New York. \rep{2}
+  \endchorus
+
+\endsong

@@ -17,9 +17,11 @@
 
 SRC := $(wildcard *.tex)
 
+SONGBOOKS := $(wildcard *.sb)
+
 SOURCES := $(shell egrep -l '^[^%]*\\begin\{document\}' *.tex)
 
-CIBLE = $(SOURCES:%.tex=%)
+CIBLE = $(SOURCES:%.tex=%) $(SONGBOOKS:%.sb=%)
 
 PDF = $(CIBLE:%=%.pdf)
 PSF = $(CIBLE:%=%.ps.gz)
@@ -90,6 +92,7 @@ clean: cleandoc
 	@rm -f *.sbd
 	@rm -f *.sbx *.sxd
 	@rm -f ./lilypond/*.ps
+	@rm -f $(SONGBOOKS:%.sb=%.tex)
 
 cleanall: clean
 	@rm -f $(PDF) $(PSF)
@@ -150,6 +153,12 @@ $(SONGS): $(SONGS_SRC)
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
+
+%.tex: %.sb
+	$(PRINT) "\newcommand{\template}{" > $@
+	cat $< >> $@
+	$(PRINT) "}" >> $@
+	$(PRINT) "\input{template.tex}" >> $@
 
 # Create an empty mybook.sgl file if it does not exist
 mybook.sgl:

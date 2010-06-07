@@ -1,0 +1,10 @@
+\defaulttemplate
+\title{Ceci est un test du template}
+\renewcommand{\songslist}{
+  \graphicspath{
+    {img/},
+    {songs/Le_Donjon_de_Naheulbeuk/},
+  }
+  \input{songs/Le_Donjon_de_Naheulbeuk/Geste_heroique.sg}
+  \input{songs/Le_Donjon_de_Naheulbeuk/La_biere_du_donjon.sg}
+}

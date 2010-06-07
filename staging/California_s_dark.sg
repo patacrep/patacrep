@@ -1,148 +1,80 @@
 \songcolumns{2}
-\beginsong{Let freedom ring}[by=The Nightwatchman,cov=one-man-revolution]
+\beginsong{California's dark}[by=The Nightwatchman,cov=one-man-revolution]
 
-\cover
-\gtab{Fa#}{
+  \cover
+  \gtab{Fa#}{2:022100}
+  \gtab{Si}{2:X02220}
 
-\musicnote{intro: Fa#}
+  \beginverse
+    It started in base\[Fa#]ments
+    \[Si] And it started in \[Fa#]sheds
+    It started in back\[Fa#]yards
+    \[Si] And was hidden under \[Fa#]beds
 
-\beginverse
-It started in base\[Fa#]ments
-\[Si] And it started in \[Fa#]sheds
-It started in back\[Fa#]yards
-\[Si] And was hidden under \[Fa#]beds
+    \[Mi/Si] I turned on the TV
+    \[Si] Don't believe a word they \[Fa#]say 
+    \[Mi/Si] We can't stay here now love
+    \[Si] And we can't get away \[Fa#]
+  \endverse
 
-\[Mi/Si] I turned on the TV
-\[Si] Don't believe a word they \[Fa#]say 
-\[Mi/Si] We can't stay here now love
-\[Si] And we can't get away \[Fa#]
-\endverse
-
-\beginchorus
-\[Si] There's a riot on \[Fa#]Sunset 
-\[Si] And fires burn in the \[Fa#]park
-\[Si] The sun has \[Fa#]set my friend
-\[Si] And California's dark \[La Fa#]
-\endchorus
-
-
-\beginverse 
-And over the screaming
-I heard a clear voice
-I looked at my choices
-And I made a choice
-Smoke and ashes
-Tonight hide the stars
-The stop lights are red now, love
-We've come for what's ours
-\endverse
-
-\musicnote{switch on power chords}
-
-\beginverse
-Come stand among the rattlesnakes
-At the side of the desert road
-And close your eyes and listen
-To the music hard and cold
-Tonight the moon is blackened
-Tonight the doors are shut
-Behind the shuttered windows
-We pray the sun will come up
-\endverse
-
-\musicnote{back to standard chords}
-
-\beginverse
-For something walks across these fields
-For which there is no name
-You might have heard different
-But I was there when it came
-It will start with a spark
-And a great fire will grow
-Don't know how I know it
-But I just know
-\endverse
+  \beginchorus
+    \[Si] There's a riot on \[Fa#]Sunset 
+    \[Si] And fires burn in the \[Fa#]park
+    \[Si] The sun has \[Fa#]set my friend
+    \[Si] And California's dark \[La Fa#]
+  \endchorus
 
 
-\beginchorus
-There's a riot on Sunset
-And fires burn in the park
-The sun sets everywhere
-And the whole damn country's dark
-\endchorus
+  \beginverse 
+    And over the screaming
+    I heard a clear voice
+    I looked at my choices
+    And I made a choice
+    Smoke and ashes
+    Tonight hide the stars
+    The stop lights are red now, love
+    We've come for what's ours
+  \endverse
 
-\beginchorus
-There's a riot on Sunset
-And fires burn in the park
-The sun has set my friend
-And California's dark
-\endchorus
+  \musicnote{switch on power chords}
 
-\endsong
+  \beginverse
+    Come stand among the rattlesnakes
+    At the side of the desert road
+    And close your eyes and listen
+    To the music hard and cold
+    Tonight the moon is blackened
+    Tonight the doors are shut
+    Behind the shuttered windows
+    We pray the sun will come up
+  \endverse
+
+  \musicnote{back to standard chords}
+
+  \beginverse
+    For something walks across these fields
+    For which there is no name
+    You might have heard different
+    But I was there when it came
+    It will start with a spark
+    And a great fire will grow
+    Don't know how I know it
+    But I just know
+  \endverse
 
 
+  \beginchorus
+    There's a riot on Sunset
+    And fires burn in the park
+    The sun sets everywhere
+    And the whole damn country's dark
+  \endchorus
 
-
-
-
-
-
-
-
-\beginverse
-There's a \[Mim]man homeless and hungry.
-There's a \[Lam]wind that's hard and \[Mim]biting.
-There's a \[Mim]song in need of singing.
-There's a \[Lam]fuse in need of \[Mim]light.
-It's no \[Sol]secret the day is \[Mim]coming,
-And it's a \[Sol]day I hope to \[Mim]see.
-\endverse
-
-\beginverse*
-But if they \[Mim]ask, 
-If they ask you \[Mim]brother,
-Who told you \[Lam]that,
-You didn't hear it fr\[Mim]om me.
-\endverse
-
-\beginchorus
-Let \[Sol]Freedom Ring,
-Let \[Do]Free\[Do/Si]dom \[Lam]Ring.
-Let \[Lam]Freedom Ring,
-Let \[Sol]Free\[Fa#]dom \[Mim]Ring.
-\endchorus
-
-\beginverse
-There's a book with seven seals.
-There's a beast with seven heads.
-There's seven angels on seven horses.
-There's seven vials with seven plagues.
-So if you hear, if you hear a knocking,
-On that door, just let it be.
-\endverse
-
-\musicnote{bridge, chorus, and solo}
-
-\beginverse
-Where the righteous, where the righteous stood.
-And where the righteous, where the righteous fell.
-There's a voice, that's soft and whispering,
-Coming from the bottom of the well.
-And I tried hard to remember,
-To remember what that voice said.
-Over and over, over and over
-I repeated those words, inside my head.
-\endverse
-
-\musicnote{chorus \rep{2}}
-
-\beginverse*
-And if they ask,
-If they ask you brother,
-Who told you that,
-Tell them it was me.
-\endverse
-
-\musicnote{chorus}
+  \beginchorus
+    There's a riot on Sunset
+    And fires burn in the park
+    The sun has set my friend
+    And California's dark
+  \endchorus
 
 \endsong

@@ -1,0 +1,44 @@
+\providecommand{\defaulttemplate}{
+  \title{Recueil de chansons pour guitare}
+  \author{Romain Goffe \and Alexandre Dupas}
+  \subtitle{}
+  \version{3.1}
+  \mail{crep@team-on-fire.com}
+  \picture{feel-the-music}
+  \picturecopyright{©foxygamergirl @ deviantart.com}
+  \footer{
+    \begin{flushleft}
+      \includegraphics[width=3cm]{on-fire}
+    \end{flushleft}
+  }
+  \licence{\input{license.tex}}
+}
+\providecommand{\template}{\defaulttemplate}
+\providecommand{\songslist}{}
+\providecommand{\booktype}{chorded}
+
+\documentclass[\booktype]{crepbook}
+\usepackage[utf8]{inputenc}
+\usepackage[english,french]{babel}
+
+\newindex{titleidx}{templatetitle}
+\newauthorindex{authidx}{templateauth}
+
+\graphicspath{
+  {img/},
+}
+
+\template
+\begin{document}
+
+\maketitle
+
+\showindex{Index des chansons}{titleidx}
+\showindex{Index des auteurs}{authidx}
+
+\songsection{Chansons}
+\begin{songs}{titleidx,authidx}
+  \songslist
+\end{songs}
+
+\end{document}

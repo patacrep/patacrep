@@ -1,5 +1,85 @@
 songbook (v0.7)
 
+  (Various authors) Add songs
+    Alexandre Dupas:
+      Alexis HK - Gaspard
+      The White Stripes - Well It's True That We Love One Another
+      Yodelice - Sunday with a flu
+      The Calling - Wherever you will go
+      The Nightwatchman - Let Freedom Ring
+      MC Solaar - Caroline
+      System of a Down - Roulette
+      The Fray - How to save a life
+      The Beatles - Twist and shout
+      John Lennon - Working Class Hero
+    Dominique Goffe:
+      Mes souliers sont rouges - Le cycle du vin
+      Michel Sardou - Les lacs du Connemara
+    Dorian Goffe:
+      Le Donjon de Naheulbeuk - Geste héroïque
+    Jeanne Dupas:
+      AaRON - U-Turn
+      Ben Harper - Waiting on an angel
+    Pierre Caserta:
+      Alicia Keys - If I ain't got you
+      Jason Marz - I'm yours
+    Romain Goffe:
+      The Beatles - Octopus Garden
+      Bob Dylan - Mr Tambourine Man
+      Cat Stevens - Here comes my baby
+      Cat Stevens - Father and Son
+      Karpatt - Des gnons pour des pelles
+      Karpatt - Les canards en plastique
+      Les Cowboys Fringants - 1994
+      Les Ogres de Barback - Jojo
+      Simon & Garfunkel - April come she will
+      Simon & Garfunkel - Kathy's song
+      The Carpenters - Breaking up is hard to do
+      The Dubliners - Whiskey in the jar
+      Mes souliers sont rouges - Nuit humide
+      Ritchie Valens - Come on, let's go!
+      Claude Nougaro - Armstrong
+      Maxime Le Forestier - San Francisco
+      Simon & Garfunkel - Mrs. Robinson
+      Les Fatals Picards - La ferme
+      Beau Dommage - La complainte du phoque en Alaska
+      Anny et Jean-Marc Versini - La danse des esquimaux
+      Debout sur le Zinc - Poil aux yeux
+      Georges Brassens - Le petit cheval
+      Les ogres de barback - Le temps
+      Vincent Malone - L'escargot malheureux
+      Boby Lapointe - La maman des poissons
+      La Famille Maestro - Le rat de l'opéra
+      Jonathan Coulton - Still alive
+      Los Lobos - Cancion del Mariachi
+      Renaud - Société tu m'auras pas
+      Renaud - Amoureux de Paname
+      Henri Dès - Mon cheval gris
+      Henri Dès - Les bêtises à l'école
+      Le Donjon de Naheulbeuk - Noel en Mordor
+      Joe Dassin - La fleur aux dents
+      Pierre Bachelet - En l'an 2001
+      Pierre Bachelet - Vingt ans
+      La Rue Kétanou - La chance
+      La Rue Kétanou - Les hommes que j'aime
+      Joe Dassin - Le moustique
+      Graeme Allwright - Henrik
+      Graeme Allwright - Le clochard américain
+      Hugues Aufray - Elle descend de la montagne
+      Traditionnel - Chevaliers de la table ronde
+      Hugues Aufray - Debout les gars
+      Indochine - L'aventurier
+      Indochine - J'ai demandé à la lune
+      Traditionnel - Vent frais
+      Traditionnel - La cucaracha
+      Parabellum - Saturnin
+      Dessins Animés - Inspecteur Gadget
+      Dessins Animés - L'oiseau bleu
+      Alain Souchon - Foule sentimentale
+      Les Ogres de Barback - Bumbaia
+      Francine Pohl - La sorcière Grabouilla
+    Thomas Bellet:
+      Sheepbox - Devil's way
   (lohrun) Introduction of a new songbook format. The compilation
            toolchain have been updated accordingly.
   (lohrun) Use LaTeX Songs package v2.10

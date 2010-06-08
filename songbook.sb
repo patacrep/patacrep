@@ -1,0 +1,12 @@
+{
+"template" : "songbook.tmpl",
+"title" : "Recueil de chansons pour guitare",
+"author" : "Romain Goffe \\and Alexandre Dupas",
+"version" : "3.1",
+"mail" : "crep@team-on-fire.com",
+"picture" : "feel-the-music",
+"picturecopyrigth" : "©foxygamergirl @ deviantart.com",
+"footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
+"licence" : "\\input{license.tex}",
+"songs" : "all"
+}

@@ -1,15 +1,13 @@
-Chordbook Compilation Chain
+Songbook Compilation Chain
 
-This package provides a compilation toolchain for latex
-chordbook. Some modifications have been done to the different files in
-order to match my desire. The main goal of this package is to have a
-simple make that allow to build a good looking chordbook without the
-all the c code to compile as provided in the original songs
-distribution.
+This package provides a compilation toolchain that produce LaTeX
+songbook using the LaTeX songs package. A new LaTeX document class is
+provided to allow specific customisation and new command like embedded
+guitar tabs or lilypond sheets.
 
-Currently this package is distribued with a chordbook written and
-desinged by one of my co-worker at the lab. It is provided with
-respect to its Creative Commons Licence.
+This package is distribued along with a songbook written and designed
+by Crep (R. Goffe). This part of the package is provided with respect
+to the CC-BY-SA licence.
 
-All other files are subject to the GNU GPLv2 except if another licence
-is precised.
+Other document are subject to the GNU GPLv2 except if another licence
+is precised in the header.

@@ -1,81 +1,126 @@
-\songcolumns{1}
+\songcolumns{3}
 \beginsong{Jojo}[by=Les Ogres de Barback,cov=un-air-deux-familles]
 
-\cover
-\gtab{Mim}{7:X02210}
-\gtab{Ré}{5:X02220}
-\gtab{Do}{3:X02220}
+  \cover
+  \gtab{Mim}{7:X02210}
+  \gtab{Ré}{5:X02220}
+  \gtab{Do}{3:X02220}
 
-\beginverse
-T'es \[Mim]parti en tournée, t'as laissé ton gosse ton aimée
-Tu m'as d'man\[Ré]dé Pourquoi? passe voir si tous s'passe bien chez moi
-Ta \[Do]femme j'l'aimais bien, on s'est trouvé des points communs
-Après tu \[Ré]connais l'refrain, pas besoin d'te faire un dessin
-\endverse
+  \beginverse
+    T'es \[Mim]parti en tournée, 
+    T'as laissé ton gosse, ton aimée
+    Tu m'as d'man\[Ré]dé pourquoi? 
+    Passe voir si tout s'passe bien chez moi
+    Ta \[Do]femme j'l'aimais bien,
+    On s'est trouvé des points communs
+    Après tu \[Ré]connais l'refrain, 
+    Pas besoin d'te faire un dessin
+  \endverse
 
-\beginverse*
-Jojo pour moi t'es l'roi des rois, t'es l'plus grand des plus grands
-T'es la star à l'instar des stars hélas tard
-J'ai croisé son regard j'me suis dit pas d'lézard
-Toi qui m'a toujours conseillé d'profiter des instants volés
-\endverse
+  \beginverse*
+    Jojo pour moi t'es l'roi des rois,
+    T'es l'plus grand des plus grands
+    T'es la star à l'instar 
+    Des stars hélas tard
+    J'ai croisé son regard 
+    Je m'suis dit pas d'lézard
+    Toi qui m'a toujours conseillé 
+    D'profiter des instants volés
+  \endverse
 
-\beginverse*
-Tu m'dis la vie ça va ça vient, c'est du copié collé
-Prends l'amour comme le tien et tu s'ras toujours pardonné
-On a qu'une vie et c'est celle-ci pas de gâchis, pas de chichis
-Le temps nous tente et c'est tant mieux pas de raisons d'être amoureux
-\endverse
+  \beginverse*
+    Tu m'dis la vie ça va ça vient, 
+    C'est du copié collé
+    Prends l'amour comme le tien 
+    Et tu s'ras toujours pardonné
+    On a qu'une vie et c'est celle-ci
+    Pas de gâchis, pas de chichis
+    Le temps nous tente et c'est tant mieux
+    Pas de raisons d'être amoureux
+  \endverse
 
-\beginchorus
-Moi j'suis qu'un \[Mim]mauvais présage, un sale gosse pas sage
-Un vieux \[Ré]copain qui craint, fâché du quotidien
-Enfant \[Do]pourri gâté qui sait pas s'arrêter
-Qui \[Ré]passe et sans prév'nir deviens mauvais souvenir
-Oh \[Mim]Jojo, faut qu'tu m'excuses ma gueule, j'supporte \[Ré]pas les femmes seules
-Plus on vieillit, plus on d'vient con, moins on \[Do]écrit d'chansons ! \[Ré]
-\endchorus
+  \beginchorus
+    Moi j'suis qu'un \[Mim]mauvais présage, 
+    Un sale gosse pas sage
+    Un vieux \[Ré]copain qui craint,
+    Fâché du quotidien
+    Enfant \[Do]pourri gâté 
+    Qui sait pas s'arrêter
+    Qui \[Ré]passe et sans prév'nir
+    Deviens mauvais souvenir
+  \endchorus
 
-\beginverse
-On s'est suivis depuis l'enfance, j'étais derrière, t'étais devant,
-On n'a pas toujours la même chance, j'étais toujours ton remplaçant,
-Au football, en récré, quand on faisait les 400 coups
-C'est toujours moi qui les prenais, évidemment ça fait beaucoup
-\endverse
+  \beginchorus
+    Oh \[Mim]Jojo, faut qu'tu m'excuses ma gueule, 
+    J'supporte \[Ré]pas les femmes seules
+    Plus on vieillit, plus on d'vient con, 
+    Moins on \[Do]écrit d'chansons \[Ré]
+  \endchorus
 
-\beginverse*
-Les râteaux, les gadins, les genoux écorchés
-C'était mon pain quotidien, ma leçon, ma corvée,
-Un destin malsain, ce truc dégueulasse
-Qui fait toujours qu'en maillot de bain moi j'ai la gaule et toi la classe
-\endverse
+  \beginverse
+    On s'est suivis depuis l'enfance,
+    J'étais derrière, t'étais devant,
+    On n'a pas toujours la même chance, 
+    J'étais toujours ton remplaçant,
+    Au football, aux récrés, 
+    Quand on faisait les 400 coups
+    C'est toujours moi qui les prenais, 
+    Évidemment ça fait beaucoup
+  \endverse
 
-\beginverse*
-La première fois qu't'as fait l'mur, t'as rencontré l'amour
-Bien sûr celui qui dure, moi j'attendais dans la cour
-Dans la voiture volée qui s'est fait serrer ?
-J'avais beau leur expliquer qu'c'était toi qu'avais eu l'idée
-\endverse
+  \beginverse*
+    Les râteaux, les gadins, 
+    Les genoux écorchés
+    C'était mon pain quotidien, 
+    Ma leçon, ma corvée,
+    Un destin malsain, 
+    Et ce truc dégueulasse
+    Qui fait toujours qu'en maillot de bain 
+    Moi j'ai la gaule et toi la classe
+  \endverse
 
-\beginverse
-Ton gosse est très mignon, il a ton nez, tes yeux,
-Il m'pose plein d'questions, j'lui dis qu'là où t'es, t'étais heureux,
-En tout cas beaucoup plus que moi, ta femme est très sympa
-Mais depuis quelques mois, elle s'fâche pour n'importe quoi,
-\endverse
+  \beginverse*
+    La première fois qu't'as fait l'mur, 
+    T'as rencontré l'amour
+    Bien sûr celui qui dure, 
+    Moi j'attendais dans la cour
+    Dans la voiture volée 
+    Et qui s'est fait serrer ?
+    J'avais beau leur expliquer 
+    Qu'c'était toi qu'en avais eu l'idée
+  \endverse
 
-\beginverse*
-J'lui dis qu'elle te méritait pas, elle est d'accord avec moi
-J'sais pas si c'est un compliment, moi j'trouve ça plutôt navrant
-Toi qui pour moi es l'roi des rois, le plus grand des plus grands,
-Je ferais n'importe quoi pour que tout revienne comme avant
-\endverse
+  \beginverse
+    Ton gosse est très mignon, 
+    Il a ton nez, tes yeux,
+    Il m'pose plein d'questions, 
+    J'lui dis qu'là où t'es, t'étais heureux,
+    En tout cas beaucoup plus que moi, 
+    Ta femme est très sympa
+    Mais depuis quelques mois, 
+    Elle s'fâche pour n'importe quoi,
+  \endverse
 
-\beginverse*
-Si tu veux on oublie tout, je retourne dans ton ombre,
-Comme cette histoire de fous, aux intrigues un peu sombres,
-Tu resteras mon idole, un exemple ici-bas,
-Deux amis pour qui tout colle, sans problèmes, ni tracas
-\endverse
+  \beginverse*
+    J'lui dis qu'elle te méritait pas, 
+    Elle est d'accord avec moi
+    J'sais pas si c'est un compliment, 
+    Moi j'trouve ça plutôt navrant
+    Toi qui pour moi es l'roi des rois, 
+    Le plus grand des plus grands,
+    Je ferais n'importe quoi 
+    Pour que tout revienne comme avant
+  \endverse
+
+  \beginverse*
+    Si tu veux on oublie tout, 
+    Je retourne dans ton ombre,
+    Comme cette histoire de fous, 
+    Aux intrigues un peu sombres,
+    Tu resteras mon idole, 
+    Un exemple ici-bas,
+    Deux amis pour qui tout colle, 
+    Sans problèmes, ni tracas
+  \endverse
 
 \endsong

@@ -1,0 +1,37 @@
+\songcolumns{2}
+\beginsong{La chanson du vieux Gildas}[by=Le Donjon de Naheulbeuk]
+
+  \capo{3}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+
+
+  \beginverse
+    J'avais une cahutte en ruine sur le sentier 
+    Qui relie Chnafon à Valtordu,
+    La vie en ermite, sans être un super pied, 
+    C'était pas trop pourri non plus.
+  \endverse
+
+  \beginverse
+    Pendant des années, j'en ai vu des bourrins
+    Des nabots, des elfes et des sorciers,
+    Marcher dans mes tomates en faisant les malins,
+    Comme font tous les aventuriers
+    \echo{Allez chauffe!}
+  \endverse
+
+  \beginverse
+    Puis vint un soir cette équipe de blaireaux,
+    Ils avaient l'air paumés, 
+    Mais pas trop maléfiques, 
+    La blonde était stupide et l'ogre un peu craignos,
+  \endverse
+
+  \beginverse
+    Puis soudain le barbare a sorti son épée, il a sauté sur moi et PAF
+    C'est la chanson du vieux Gildas!
+  \endverse
+
+\endsong

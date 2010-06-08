@@ -1,0 +1,42 @@
+\songcolumns{2}
+\beginsong{A las barricadas}[by=Les Amis d'Ta Femme,cov=noir-et-rouge-aussi-un-peu]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{La}{5:022100}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{3:X02220}
+
+  \beginverse
+    \[Rém]Negras tormentas agitan los aires
+    \[La]Nubes oscuras nos \[Rém]impiden ver.
+  \endverse
+
+  \beginverse*
+    \[Rém]Aunque nos espere el dolor y la muerte
+    \[La]Contra el enemigo nos \[Rém]llama el deber.
+  \endverse
+
+  \beginverse
+    El \[Fa]bien más preciado es \[Do]la libertad
+    \[Do]Hay que defenderla con \[La]fe y valor.
+  \endverse
+
+  \beginverse*
+    \[Rém]Alza la bandera revolucionaria
+    \[La]Que lleva el pueblo a su \[Rém]emancipación 
+    \rep{2}
+  \endverse
+
+  \beginverse
+    En pie el pueblo obrero, a la batalla
+    Hay que derrocar a la reacción.
+  \endverse
+
+  \beginverse*
+    ¡ A las barricadas ! ¡ A las barricadas !
+    Por el triunfo de la Confederación.
+    \rep{2}
+  \endverse
+
+\endsong

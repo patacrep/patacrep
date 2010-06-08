@@ -1,0 +1,62 @@
+\songcolumns{2}
+\beginsong{Les mots d'amour}[by=Debout sur le Zinc,cov=les-promesses]
+
+  \capo{2}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Rém}{XX0231}
+  \gtab{Mi}{022100}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+
+  \beginverse
+    \[Lam]{J'aimerais} écrire des mots \[Sol]{d'amour}
+    Parce que \[Rém]parler c'est \[Mi]pas mon fort
+    \[Lam]{J'aimerais} écrire des mots \[Sol]{d'amour}
+    Les faire \[Rém]jaillir de mes \[Mi]trois accords, mais
+    \[Lam]J'ai un peu froid, comme \[Sol]a dit l'autre
+    Et ce \[Rém]long frisson qui n'en \[Mi]finit pas
+    \[Lam]{J'ai} un peu froid, mau\[Sol]vais apôtre
+    Mon \[Rém]cafard me lâche moins souvent \[Mi]{qu'autrefois}
+  \endverse
+
+  \beginchorus
+    \[Fa]Ialata ialata \[Do]ialata ta
+    \[Mi]Iala lalalala \[Fa]lala la la 
+    \[Fa]Ialata ialata \[Do]ialata ta
+    \[Mi]Ta
+  \endchorus
+
+  \beginverse
+    J'aimerais écrire des mots d'amour
+    Parce que le reste, c'est pas grand-chose
+    Je l'ai appris et à mon tour
+    Je te le livre un peu, je te propose
+    De laisser le long du discours
+    Nos contentieux et les comptes à rebours
+    Oublier le temps d'un refrain
+    Ce bon vieux réflexe, moi j'en garde pour demain.
+  \endverse
+
+  \beginchorus
+    \[Fa]Ialata ialata \[Do]ialata ta
+    \[Mi]Des mots pour toi mais \[Fa]que je n'dis pas.
+    \[Fa]Ialata ialata \[Do]ialata ta
+    \[Mi]Ceux-là
+  \endchorus
+
+  %todo: lilypond
+
+  \beginverse
+    Quel était le refrain du jour ?
+    Si je l'oublie, je cède encore
+    J'aimerais écrire des mots d'amour
+    Jeter l'éponge, un peu, tenter le sort
+    Une pause ici pour poser là
+    Entre deux conflits, entre deux coups d'éclat
+    Une pause pour dire autour de moi
+    Mon ami, mon frère, mon amour, écoute-moi
+  \endverse
+
+\endsong

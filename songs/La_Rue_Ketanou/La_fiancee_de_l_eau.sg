@@ -1,0 +1,55 @@
+\songcolumns{2}
+\beginsong{La fiancée de l'eau}[by=La Rue Kétanou,cov=ouvert-a-double-tour]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{Si&}{6:022100}
+  \gtab{Do}{3:X02220}
+  \gtab{Lam}{5:022000}
+  \gtab{Mim}{7:X02210}
+
+  \beginverse
+    \[Rém]Morte de sécheresse
+    La fiancée de l'\[Si&]eau
+    A marié son sang
+    À celui du rui\[Do]sseau
+    Prince range ton drap \[Rém]blanc
+    Prince range ton drap \[Lam]blanc
+    Prince range ton drap \[Mim]blanc
+  \endverse
+
+  \beginverse
+    Prince range ton drap blanc
+    Il ne sera jamais 
+    Le drapeau rougissant
+    De sa virginité
+    Regarde son honneur \rep{3}
+  \endverse
+
+  \beginverse
+    Regarde son honneur
+    S'enfuir par la mort
+    Regarde triste voleur
+    L'absence dans son corps
+    Tu peux creuser la terre \rep{3}
+  \endverse
+
+  \beginverse
+    Tu peux creuser la terre
+    Avec tous tes remords
+    Creuser jusqu'en enfer
+    Creuser, creuser encore
+    Non tu n'auras rien d'elle \rep{3}
+  \endverse
+
+  \lilypond{La_fiancee_de_l_eau}
+
+  \beginverse
+    Non tu n'auras rien d'elle
+    Il n'y a plus rien à prendre
+    Elle s'est jetée au ciel
+    Tu commences à comprendre
+    Que tout n'est pas à vendre \rep{3}
+  \endverse
+
+\endsong

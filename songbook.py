@@ -38,7 +38,9 @@ def makeTexFile(songbook, output):
     # output \songlist
     if not type(songs) is list:
         if songs == "all":
-            songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
+            l = glob.glob('songs/*/*.sg')
+            l.sort()
+            songs = map(lambda x: x[6:], l)
     if len(songs) > 0:
         out.write('\\newcommand{\\songslist}{\n')
         dir += map(os.path.dirname, map(lambda x:"songs/"+x, songs))

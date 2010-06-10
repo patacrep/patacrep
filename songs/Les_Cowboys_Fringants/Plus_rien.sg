@@ -1,0 +1,122 @@
+\songcolumns{2}
+\beginsong{Plus rien}[by=Les Cowboys Fringants,cov=la-grand-messe]
+
+  \cover
+  \gtab{Rém}{XX0231}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Solm}{3:022000}
+  \gtab{Si&}{1:X02220}
+  \gtab{La7}{X02020}
+
+  \musicnote{Pattern 1: Rém Fa Do Sol}
+
+  \beginverse
+    Il \[Rém]ne reste que quelques minutes à ma vie
+    Tout \[Fa]au plus quelques heures je sens que je faiblis
+    Mon \[Do]frère est mort hier au milieu du désert
+    Je \[Solm]suis maintenant le dernier hu\[Si&]main \[Do]de la \[Rém]terre
+  \endverse
+
+  \musicnote{Pattern 2: Rém Sol Do Si\flt}
+  \beginverse*
+    On \[Rém]{m'a} décrit jadis, quand j'étais un enfant
+    Ce \[Solm]{qu'avait} l'air le monde il y a très très longtemps
+    Quand \[Do]vivaient les parents de mon arrière grand-père
+    Et \[Si&]{qu'il} tombait encore de la \[La7]neige en hiver
+  \endverse
+
+  %\musicnote{Pattern 2: Rém Sol Do Si\flt}
+  \beginverse*
+    En ces temps on vivait au rythme des saisons
+    Et la fin des étés apportait la moisson
+    Une eau pure et limpide coulait dans les ruisseaux
+    Où venaient s'abreuver chevreuils et orignaux
+  \endverse
+
+  \musicnote{Pattern 3: Ré Si\flt Fa Do}
+  \beginverse*
+    Mais \[Rém]moi je n'ai vu qu'une planète désolante
+    \[Si&]Paysages lunaires et chaleur suffocante
+    Et tous \[Fa]mes amis mourir par la soif ou la faim
+    Co\[Do]mme tombent les mouches
+  \endverse
+
+  \beginchorus
+    Jusqu'à c'qu'il n'y ait plus \[Rém]rien
+    Plus \[Solm]rien, plus \[Do]rien \[Si& Do]
+  \endchorus
+
+  \musicnote{Pattern 1: Rém Fa Do Sol}
+  \beginverse
+    Il ne reste que quelques minutes à ma vie
+    Tout au plus quelques heures, je sens que je faiblis
+    Mon frère est mort hier au milieu du désert
+    Je suis maintenant le dernier humain de la terre
+  \endverse
+
+  \musicnote{Pattern 2: Rém Sol Do Si\flt}
+  \beginverse*
+    Tout ça a commencé il y a plusieurs années
+    Alors que mes ancêtres étaient obnubilés
+    Par des bouts de papier que l'on appelait argent
+    Qui rendaient certains hommes vraiment riches et puissants
+  \endverse
+
+  %\musicnote{Pattern 2: Rém Sol Do Si\flt}
+  \beginverse*
+    Et ces nouveaux dieux ne reculant devant rien
+    Étaient prêts à tout pour arriver à leurs fins
+    Pour s'enrichir encore ils ont rasé la terre
+    Pollué l'air ambiant et tari les rivières
+  \endverse
+
+  %\musicnote{Pattern 2: Rém Sol Do Si\flt}
+  \beginverse*
+    Mais au bout de cent ans des gens se sont levés
+    Et les ont avertis qu'il fallait tout stopper
+    Mais ils n'ont pas compris cette sage prophétie
+    Ces gens-là ne parlaient qu'en termes de profits
+  \endverse
+
+  \musicnote{Pattern 3: Ré Si\flt Fa Do}
+  \beginverse*
+    C'est des années plus tard qu'ils ont vu le non-sens
+    Dans la panique ont déclaré l'état d'urgence
+    Quand tous les océans ont englouti les îles
+    Et que les inondations ont frappé les grandes villes
+  \endverse
+
+  %\musicnote{Pattern 3: Ré Si\flt Fa Do}
+  \beginverse*
+    Et par la suite pendant toute une décennie
+    Ce fut les ouragans et puis les incendies
+    Les tremblements de terre et la grande sécheresse
+    Partout sur les visages on lisait la détresse
+  \endverse
+
+  %\musicnote{Pattern 3: Ré Si\flt Fa Do}
+  \beginverse*
+    Les gens ont dû se battre contre les pandémies
+    Décimés par millions par d'atroces maladies
+    Puis les autres sont morts par la soif ou la faim
+    Comme tombent les mouches
+  \endverse
+
+  \musicnote{Pattern 2: Rém Sol Do Si\flt}
+  \beginverse
+    Mon frère est mort hier au milieu du désert
+    Je suis maintenant le dernier humain de la terre
+    Au fond l'intelligence qu'on nous avait donné
+    N'aura été qu'un beau cadeau empoisonné
+  \endverse
+
+  \musicnote{Pattern 1: Rém Fa Do Sol}
+  \beginverse*
+    Car il ne reste que quelques minutes à la vie
+    Tout au plus quelques heures, je sens que je faiblis
+    Je ne peux plus marcher, j'ai peine à respirer
+    Adieu l'humanité, adieu l'humanité
+  \endverse
+
+\endsong

@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 #
 
 import getopt, sys
@@ -52,7 +53,7 @@ def makeTexFile(songbook, output):
         for song in songs:
             out.write('  \\input{{songs/{songfile}}}\n'.format(songfile=song.strip()))
         out.write('}\n')
-        tmpl = open("templates/"+template, 'r')
+        tmpl = open("templates/"+template)
         out.write(tmpl.read().replace("SONGBOOKNAME", name+"_index"))
         tmpl.close()
         out.close()

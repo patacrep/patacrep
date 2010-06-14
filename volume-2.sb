@@ -1,14 +1,14 @@
 {
 "template" : "songbook.tmpl",
-"title" : "Recueil de chansons pour guitare",
 "author" : "Crep (R. Goffe) \\and Lohrun (A. Dupas)",
-"subtitle" : "Tome 2",
-"mail" : "crep@team-on-fire.com",
-"version" : "3.1",
-"picture" : "Sound__by_Ellesh",
 "footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
-"licence" : "\\input{license.tex}",
+"license" : "\\input{license.tex}",
+"mail" : "crep@team-on-fire.com",
+"picture" : "Sound__by_Ellesh",
 "picturecopyright" : "Ellesh @ deviantart.com",
+"subtitle" : "Tome 2",
+"title" : "Recueil de chansons pour guitare",
+"version" : "3.1",
 "booktype" : [
     "chorded"
   ],
@@ -82,6 +82,15 @@
     "System_of_a_Down/Roulette.sg",
     "The_Animals/The_house_of_rising_sun.sg",
     "The_Beatles/Octopus_garden.sg",
-    "The_Beatles/Let_it_be.sg"
+    "The_Beatles/Let_it_be.sg",
+    "The_Calling/Wherever_you_will_go.sg",
+    "The_Carpenters/Breaking_up_is_hard_to_do.sg",
+    "The_Dubliners/Whiskey_in_the_jar.sg",
+    "The_Nightwatchman/Let_freedom_ring.sg",
+    "The_White_Stripes/Well_it_s_true_that_we_love_one_another.sg",
+    "U2/Sunday_bloody_sunday.sg",
+    "Vincent_Malone/L_escargot_malheureux.sg",
+    "Yodelice/Sunday_with_a_flu.sg",
+    "Yuki_Kajiura/Fake_wings.sg"
   ]
 }

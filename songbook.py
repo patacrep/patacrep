@@ -64,6 +64,7 @@ def makeDepend(sb, output):
     # pattern that get dependencies
     dependsPattern = re.compile(r"^[^%]*(?:include|input)\{(.*?)\}")
     indexPattern = re.compile(r"^[^%]*\\(?:newauthor|new)index\{.*\}\{(.*?)\}")
+    lilypondPattern = re.compile(r"^[^%]*\\(?:lilypond)\{(.*?)\}")
 
     # check for deps (in sb data)
     deps = []
@@ -74,6 +75,17 @@ def makeDepend(sb, output):
             match = dependsPattern.match(sb[k])
             if match:
                 deps += [match.group(1)]
+
+    # check for lilypond deps (in songs data) if necessary
+    lilypond = []
+    if "booktype" in sb.keys() and "lilypond" in sb["booktype"]:
+        for filename in deps:
+            tmpl = open(filename)
+            for l in tmpl:
+                match = lilypondPattern.match(l)
+                if match:
+                    lilypond.append(match.group(1))
+            tmpl.close()
 
     # check for index (in template file)
     if "template" in sb:
@@ -91,7 +103,7 @@ def makeDepend(sb, output):
     # write .d file
     out = open(output, 'w')
     out.write('{0} {1} : {2}\n'.format(output, name+".tex", ' '.join(deps)))
-    out.write('{0} : {1}\n'.format(name+".pdf", ' '.join(map(lambda x: x+".sbx",idx))))
+    out.write('{0} : {1}\n'.format(name+".pdf", ' '.join(map(lambda x: x+".sbx",idx)+map(lambda x: "lilypond/"+x+".pdf", lilypond))))
     out.write('\t$(LATEX) {0}\n'.format(name+".tex"))
     out.write('{0} : {1}\n'.format(' '.join(map(lambda x: x+".sxd",idx)), name+".aux"))
     out.close()

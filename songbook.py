@@ -22,7 +22,10 @@ def parseTemplate(template):
     code = [ line[3:-1] for line in f if embeddedJsonPattern.match(line) ]
     f.close()
     data = json.loads(''.join(code))
-    return data["parameters"]
+    parameters = dict()
+    for param in data:
+        parameters[param["name"]] = param
+    return parameters
 
 def toValue(parameter, data):
     if "type" not in parameter:

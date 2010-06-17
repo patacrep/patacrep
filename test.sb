@@ -1,9 +1,13 @@
 {
 "template" : "songbook.tmpl",
-"booktype" : ["lyric"],
-"title" : "Ceci est un test du template",
+"author" : "Alex",
+"version" : "1",
+"booktype" : [
+    "chorded",
+    "lilypond"
+  ],
 "songs" : [
-    "Le_Donjon_de_Naheulbeuk/Geste_heroique.sg",
-    "Le_Donjon_de_Naheulbeuk/La_biere_du_donjon.sg"
-           ]
+    "Le_Donjon_de_Naheulbeuk/La_biere_du_donjon.sg",
+    "Le_Donjon_de_Naheulbeuk/Geste_heroique.sg"
+  ]
 }

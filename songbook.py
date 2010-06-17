@@ -8,96 +8,117 @@ import glob
 import re
 import json
 
-def makeTexFile(songbook, output):
+def matchRegexp(reg, iterable):
+    return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
+
+def songslist(songs):
+    directories = set(["img/"] + map(lambda x: "songs/" + os.path.dirname(x), songs))
+    result = ['\\graphicspath{'] + [ '  {{{0}/}},'.format(d) for d in directories ] + ['}'] + [ '\\input{{songs/{0}}}'.format(s.strip()) for s in songs ]
+    return '\n'.join(result)
+
+def parseTemplate(template):
+    embeddedJsonPattern = re.compile(r"^%%:")
+    f = open(template)
+    code = [ line[3:-1] for line in f if embeddedJsonPattern.match(line) ]
+    f.close()
+    data = json.loads(''.join(code))
+    return data["parameters"]
+
+def toValue(parameter, data):
+    if "type" not in parameter:
+        return data
+    elif parameter["type"] == "stringlist":
+        if "join" in parameter:
+            joinText = parameter["join"]
+        else:
+            joinText = ''
+        return joinText.join(data)
+
+def formatDeclaration(name, parameter):
+    value = ""
+    if "default" in parameter:
+        value = parameter["default"]
+    return '\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name) + formatDefinition(name, toValue(parameter, value))
+
+def formatDefinition(name, value):
+    return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
+
+def makeTexFile(sb, output):
     name = output[:-4]
 
     # default value
-    dir = ['img']
     template = "songbook.tmpl"
     songs = []
-    booktype = ["chorded"]
 
     # parse the songbook data
-    if "template" in songbook:
-        template = songbook["template"]
-    if "songs" in songbook:
-        songs = songbook["songs"]
-    if "booktype" in songbook:
-        booktype = songbook["booktype"]
+    if "template" in sb:
+        template = sb["template"]
+        del sb["template"]
+    if "songs" in sb:
+        songs = sb["songs"]
+        del sb["songs"]
+
+    parameters = parseTemplate("templates/"+template)
 
     # output relevant fields
     out = open(output, 'w')
-
-    # output \template
-    out.write('\\newcommand{\\template}{\n')
-    for key in ["title", "author", "subtitle", "version", "mail", "picture", "picturecopyright", "footer", "licence"]:
-        if key in songbook:
-            out.write('  \\'+key+'{{{data}}}\n'.format(data=songbook[key]))
-    out.write('}\n')
-    # output \booktype
-    out.write('\\newcommand{{\\booktype}}{{{data}}}'.format(data=','.join(booktype)))
-    # output \songlist
-    if not type(songs) is list:
-        if songs == "all":
-            l = glob.glob('songs/*/*.sg')
-            l.sort()
-            songs = map(lambda x: x[6:], l)
+    out.write('%% This file has been automatically generated, do not edit!\n')
+    out.write('\\makeatletter\n')
+    # output automatic parameters
+    out.write(formatDeclaration("name", {"default":name}))
+    out.write(formatDeclaration("songslist", {"type":"stringlist"}))
+    # output template parameter command
+    for name, parameter in parameters.iteritems():
+        out.write(formatDeclaration(name, parameter))
+    # output template parameter values
+    for name, value in sb.iteritems():
+        if name in parameters:
+            out.write(formatDefinition(name, toValue(parameters[name],value)))
+    # output songslist
+    if songs == "all":
+        songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
+        songs.sort()
     if len(songs) > 0:
-        out.write('\\newcommand{\\songslist}{\n')
-        dir += map(os.path.dirname, map(lambda x:"songs/"+x, songs))
-        dir = set(dir)
-        out.write('  \\graphicspath{\n')
-        for dirname in dir:
-            out.write('    {{{imagedir}/}},\n'.format(imagedir=dirname))
-        out.write('  }\n')
-        for song in songs:
-            out.write('  \\input{{songs/{songfile}}}\n'.format(songfile=song.strip()))
-        out.write('}\n')
-        tmpl = open("templates/"+template)
-        out.write(tmpl.read().replace("SONGBOOKNAME", name+"_index"))
-        tmpl.close()
-        out.close()
+        out.write(formatDefinition('songslist', songslist(songs)))
+    out.write('\\makeatother\n')
+
+    # output template
+    commentPattern = re.compile(r"^\s*%")
+    f = open("templates/"+template)
+    content = [ line for line in f if not commentPattern.match(line) ]
+    f.close()
+    out.write(''.join(content))
+    out.close()
 
 def makeDepend(sb, output):
     name = output[:-2]
 
-    # pattern that get dependencies
     dependsPattern = re.compile(r"^[^%]*(?:include|input)\{(.*?)\}")
     indexPattern = re.compile(r"^[^%]*\\(?:newauthor|new)index\{.*\}\{(.*?)\}")
     lilypondPattern = re.compile(r"^[^%]*\\(?:lilypond)\{(.*?)\}")
 
     # check for deps (in sb data)
-    deps = []
-    if type(sb["songs"]) is list:
-        deps += map(lambda x: "songs/"+x, sb["songs"])
-    for k in sb.keys():
-        if not type(sb[k]) is list:
-            match = dependsPattern.match(sb[k])
-            if match:
-                deps += [match.group(1)]
+    deps = matchRegexp(dependsPattern, [ v for v in sb.itervalues() if type(v) is not list ])
+    if sb["songs"] == "all":
+        deps += glob.glob('songs/*/*.sg')
+    else:
+        deps += map(lambda x: "songs/" + x, sb["songs"])
 
     # check for lilypond deps (in songs data) if necessary
     lilypond = []
-    if "booktype" in sb.keys() and "lilypond" in sb["booktype"]:
+    if "booktype" in sb and "lilypond" in sb["booktype"]:
         for filename in deps:
             tmpl = open(filename)
-            for l in tmpl:
-                match = lilypondPattern.match(l)
-                if match:
-                    lilypond.append(match.group(1))
+            lilypond += matchRegexp(lilypondPattern, tmpl)
             tmpl.close()
 
     # check for index (in template file)
     if "template" in sb:
-        filename = "templates/"+sb["template"]
+        filename = sb["template"]
     else:
-        filename = "templates/songbook.tmpl"
-    idx = []
-    tmpl = open(filename)
-    for l in tmpl:
-        match = indexPattern.match(l)
-        if match:
-            idx.append(match.group(1).replace("SONGBOOKNAME", name+"_index"))
+        filename = "songbook.tmpl"
+    tmpl = open("templates/"+filename)
+    idx = map(lambda x: x.replace("\getname", name), matchRegexp(indexPattern, tmpl))
     tmpl.close()
 
     # write .d file

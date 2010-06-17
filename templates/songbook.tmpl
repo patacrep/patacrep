@@ -21,53 +21,40 @@
 %
 % Modified to serve personnal purposes. Newer versions can be 
 % obtained from http://www.lohrun.net.
-
-% Template optionnal parameters (to be read by songbook-client)
-% template mandatory parameter are currently booktype, template and songs
-% the first two have default values but not last one
-%%:{"parameters" : [
-%%:  {"name":"title", "description":"Title", "type":"string"},
-%%:  {"name":"author", "description":"Author", "type":"string", "default":"Alexandre"},
-%%:  {"name":"version", "description":"Version", "type":"string", "default":"1"},
-%%:  {"name":"subtitle", "description":"Subtitle", "type":"string"},
-%%:  {"name":"mail", "description":"Email", "type":"string"},
-%%:  {"name":"picture", "description":"Picture", "type":"string"},
-%%:  {"name":"picturecopyright", "description":"Copyright", "type":"string"},
-%%:  {"name":"footer", "description":"Footer", "type":"string"},
-%%:  {"name":"license", "description":"License", "type":"string"}
-%%:  ]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%:{"parameters" : {
+%%:  "title" : {"description":"Title", "default":"Recueil de chansons pour guitare"},
+%%:  "author" : {"description":"Author", "default":"Romain Goffe \\and Alexandre Dupas"},
+%%:  "version" : {"description":"Version", "default":"3.1"},
+%%:  "subtitle" : {"description":"Subtitle"},
+%%:  "mail" : {"description":"Email", "default":"crep@team-on-fire.com"},
+%%:  "picture" : {"description":"Picture", "default":"feel-the-music"},
+%%:  "picturecopyright" : {"description":"Copyright", "default":"foxygamergirl@deviantart.com"},
+%%:  "footer" : {"description":"Footer", "default":"\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}"},
+%%:  "license" : {"description":"License", "default":"\\input{license.tex}"},
+%%:  "booktype" : {"description":"Booktype", "type":"stringlist", "default":["chorded"], "join":","}
+%%:  }
 %%:}
-
-% template variables
-\providecommand{\template}{}
-\providecommand{\songslist}{}
-\providecommand{\booktype}{chorded}
-% default template
-\newcommand{\defaulttemplate}{
-  \title{Recueil de chansons pour guitare}
-  \author{Romain Goffe \and Alexandre Dupas}
-  \subtitle{}
-  \version{3.1}
-  \mail{crep@team-on-fire.com}
-  \picture{feel-the-music}
-  \picturecopyright{©foxygamergirl @ deviantart.com}
-  \footer{
-    \begin{flushleft}
-      \includegraphics[width=3cm]{on-fire}
-    \end{flushleft}
-  }
-  \licence{\input{license.tex}}
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
-\documentclass[\booktype]{crepbook}
+\documentclass[\getbooktype]{crepbook}
 \usepackage[utf8]{inputenc}
 \usepackage[english,french]{babel}
 
-\defaulttemplate
-\template
+\title{\gettitle}
+\author{\getauthor}
+\subtitle{\getsubtitle}
+\version{\getversion}
+\mail{\getmail}
+\picture{\getpicture}
+\picturecopyright{\getpicturecopyright}
+\footer{\getfooter}
+\licence{\getlicense}
 
-\newindex{titleidx}{SONGBOOKNAME_title}
-\newauthorindex{authidx}{SONGBOOKNAME_auth}
+\newindex{titleidx}{\getname_title}
+\newauthorindex{authidx}{\getname_auth}
 
 \graphicspath{
   {img/},
@@ -82,8 +69,9 @@
 
 \songsection{Chansons}
 \begin{songs}{titleidx,authidx}
-  \songslist
+  \getsongslist
 \end{songs}
 
 \end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % end document

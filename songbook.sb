@@ -7,6 +7,6 @@
 "picture" : "feel-the-music",
 "picturecopyright" : "foxygamergirl @ deviantart.com",
 "footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
-"licence" : "\\input{license.tex}",
+"license" : "\\input{license.tex}",
 "songs" : "all"
 }

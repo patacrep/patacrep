@@ -24,19 +24,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Template parameters
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%:{"parameters" : {
-%%:  "title" : {"description":"Title", "default":"Recueil de chansons pour guitare"},
-%%:  "author" : {"description":"Author", "default":"Romain Goffe \\and Alexandre Dupas"},
-%%:  "version" : {"description":"Version", "default":"3.1"},
-%%:  "subtitle" : {"description":"Subtitle"},
-%%:  "mail" : {"description":"Email", "default":"crep@team-on-fire.com"},
-%%:  "picture" : {"description":"Picture", "default":"feel-the-music"},
-%%:  "picturecopyright" : {"description":"Copyright", "default":"foxygamergirl@deviantart.com"},
-%%:  "footer" : {"description":"Footer", "default":"\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}"},
-%%:  "license" : {"description":"License", "default":"\\input{license.tex}"},
-%%:  "booktype" : {"description":"Booktype", "type":"stringlist", "default":["chorded"], "join":","}
-%%:  }
-%%:}
+%%:[
+%%:  {"name":"title", "description":"Title", "default":"Recueil de chansons pour guitare"},
+%%:  {"name":"author", "description":"Author", "default":"Romain Goffe \\and Alexandre Dupas"},
+%%:  {"name":"version", "description":"Version", "default":"3.1"},
+%%:  {"name":"subtitle", "description":"Subtitle"},
+%%:  {"name":"mail", "description":"Email", "default":"crep@team-on-fire.com"},
+%%:  {"name":"picture", "description":"Picture", "default":"feel-the-music"},
+%%:  {"name":"picturecopyright", "description":"Copyright", "default":"foxygamergirl@deviantart.com"},
+%%:  {"name":"footer", "description":"Footer", "default":"\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}"},
+%%:  {"name":"license", "description":"License", "default":"\\input{license.tex}"},
+%%:  {"name":"booktype", "description":"Booktype", "type":"stringlist", "default":["chorded"], "join":","}
+%%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
 \documentclass[\getbooktype]{crepbook}

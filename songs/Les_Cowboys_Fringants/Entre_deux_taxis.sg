@@ -1,0 +1,63 @@
+\songcolumns{2}
+\beginsong{Entre deux taxis}[by=Les Cowboys Fringants,cov=l-expedition]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Sim}{2:X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Si7}{X21202}
+
+\lilypond{Entre_deux_taxis}
+
+  \beginverse
+    \[Mim]Ils se sont embrassés tard \[Sim]dans la nuit
+    \[Do]Sur la banquette d'un ta\[Sol]xi
+    \[Mim]Dehors un lampadaire s'est \[Sim]rallumé
+    \[Si7]Ils ont fait vœu d'éter\[Mim]nité
+  \endverse
+  
+  \beginverse*
+    Sur le toit de la voi\[Do]ture, deux néons lumi\[Ré]neux
+    Semblaient briller que pour \[Sol]eux
+    \[Mim]Comme une petite auréole \[Sim]dans le noir
+    \[Si7]Le taxi filait vers la \[Mim]gloire
+  \endverse
+
+
+  \beginchorus
+    Oh qu'il est \[Do]triste le sort des amou\[Sol]reux
+    Se di\[Ré]sait le vieux chauffeur amu\[Mim]sé
+    Car on \[Do]commence toujours à se dire a\[Sol]dieu
+    Dès notre premier bai\[Mim]ser
+  \endchorus
+
+  \beginverse
+    Ensemble ils ont pris un appartement
+    Où ils vécurent au gré du temps
+    Une vie avec des lunettes roses
+    Exempte de journées moroses
+  \endverse
+  
+  \beginverse*
+    Mais le poids du quotidien, ce petit diable malin
+    Vient s'installer un bon matin
+    Et les cœurs qui furent si légers hier
+    Retombent les deux pieds sur terre
+  \endverse
+
+  \beginverse
+    Les amants d'hier sont devenus amis
+    Plus de chaleur dans le logis
+    Les rêves qu'ils avaient jadis en duo
+    S'endorment maintenant dos à dos
+  \endverse
+  
+  \beginverse*
+    Par la fenêtre elle regarde celui qu'elle a aimé
+    La quitter pour l'éternité
+    En emportant tout un pan de sa vie
+    Dans un anonyme taxi
+  \endverse
+
+\endsong

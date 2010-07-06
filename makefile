@@ -1,4 +1,4 @@
-# Copyright (c) 2008 Alexandre Dupas <alexandre.dupas@gmail.com>
+# Copyright (c) 2008-2010 Alexandre Dupas <alexandre.dupas@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the
@@ -15,60 +15,35 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #
 
-SRC := $(wildcard *.tex)
+SONGBOOKS := $(wildcard *.sb)
+TARGETS = $(SONGBOOKS:%.sb=%)
 
-SOURCES := $(shell egrep -l '^[^%]*\\begin\{document\}' *.tex)
-
-CIBLE = $(SOURCES:%.tex=%)
-
-PDF = $(CIBLE:%=%.pdf)
-PSF = $(CIBLE:%=%.ps.gz)
-
-SONGS = songs.sbd
-SONGS_SRC = $(shell ls songs/*/*.sg)
+PDF = $(TARGETS:%=%.pdf)
+PSF = $(TARGETS:%=%.ps.gz)
 
 CHORDS = chords.tex
 CHORDS_SRC = $(shell ls songs/*/*.sg)
 
-MAKE_INDEX=./songbook-makeindex.py
-MAKE_SONGDB=./songbook-volume.py
-MAKE_CHORDS=./utils/songbook-gtab.py
 PRINT=printf "%s\n"
 PRINTTAB=printf "\t%s\n"
 
-ifeq ($(shell which ikiwiki),)
-IKIWIKI=$(ECHO) "** ikiwiki not found" >&2 ; $(ECHO) ikiwiki
-else
-IKIWIKI=ikiwiki
-endif
+MAKE_SONGBOOK=./songbook.py
+MAKE_INDEX=./songbook-makeindex.py
+MAKE_CHORDS=./utils/songbook-gtab.py
 
 ifeq ($(shell which lilypond),)
-LILYPOND=$(ECHO) "** lilypond not found" >&2 ; $(ECHO) lilypond
-LILYFILE=''
+  LILYPOND=$(ECHO) "** lilypond not found" >&2 ; $(ECHO) lilypond
+  LILYFILE=''
 else
-LILYPOND=lilypond
-LILYSRC=$(wildcard lilypond/*.ly)
-LILYFILE=$(LILYSRC:%.ly=%.pdf)
+  LILYPOND=lilypond
+  LILY_SRC=$(wildcard lilypond/*.ly)
+  LILYFILE=$(LILY_SRC:%.ly=%.pdf)
 endif
 
-# Get dependencies (that can also have dependencies)
-define get_dependencies
-	deps=`perl -ne '($$_)=/^[^%]*\\\(?:include|input)\{(.*?)\}/;@_=split /,/; foreach $$t (@_) { print "$$t "}' $<`
-endef
-
-# Get inclusion only files (that can not have dependencies)
-define get_inclusions
-	incl=`perl -ne '($$_)=/^[^%]*\\\(?:newauthorindex|newindex)\{.*\}\{(.*?)\}/;@_=split /,/; foreach $$t (@_) { print "$$t.sbx "}' $<`
-endef
-
-define get_prereq
-	prep=`perl -ne '($$_)=/^[^%]*\\\(?:newauthorindex|newindex)\{.*\}\{(.*?)\}/;@_=split /,/; foreach $$t (@_) { print "$$t.sxd "}' $<`
-endef
-
 ############################################################
-### Cibles
+### Targets
 
-default: chordbook.pdf
+default: songbook.pdf
 
 all: $(PDF)
 
@@ -80,30 +55,17 @@ pdf: $(PDF)
 
 lilypond: $(LILYFILE)
 
-clean: cleandoc
-	@rm -f $(SRC:%.tex=%.d)
-	@rm -f $(CIBLE:%=%.aux) 
-	@rm -f $(CIBLE:%=%.toc)
-	@rm -f $(CIBLE:%=%.out) $(CIBLE:%=%.log) $(CIBLE:%=%.nav) $(CIBLE:%=%.snm)
-	@rm -f $(CIBLE:%=%.dvi)
-	@rm -f $(SONGS)
-	@rm -f *.sbd
+clean:
+	@rm -f $(TARGETS:%=%.d)   $(TARGETS:%=%.tex) $(TARGETS:%=%.aux) \
+	       $(TARGETS:%=%.toc) $(TARGETS:%=%.out) $(TARGETS:%=%.log) \
+	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm) $(TARGETS:%=%.dvi)
 	@rm -f *.sbx *.sxd
-	@rm -f ./lilypond/*.ps
 
 cleanall: clean
 	@rm -f $(PDF) $(PSF)
 	@rm -f $(LILYFILE)
 
 depend:
-
-doc : documentation
-
-documentation:
-	$(IKIWIKI) doc html -v --wikiname "Songbook Documentation" --plugin=goodstuff --set usedirs=0
-
-cleandoc:
-	@rm -rf "doc/.ikiwiki" html
 
 ############################################################
 
@@ -126,23 +88,13 @@ $(PDF): %.pdf: %.tex %.aux
 %.sbx: %.sxd
 	$(MAKE_INDEX) $< > $@
 
-%.d: %.tex
-	@$(get_dependencies) ; $(PRINT) "$< $@: $$deps" > $@
-	@$(get_inclusions) ; $(PRINT) "$(patsubst %.tex,%.pdf,$<) : $$incl" >> $@ ; $(PRINTTAB) "\$$(LATEX) $<" >> $@ ;
-	@$(get_prereq) ; $(PRINT) "$$prep : $(patsubst %.tex,%.aux,$<)" >> $@ ; 
+%.tex: %.sb
+	$(MAKE_SONGBOOK) -s $< -o $@
 
-include $(SOURCES:%.tex=%.d)
+%.d: %.sb
+	$(MAKE_SONGBOOK) -s $< -d -o $@
 
-# songbook related rules
-%.aux: $(SONGS)
-
-COMMA=,
-$(SONGS): $(SONGS_SRC)
-	@$(PRINT) "\graphicspath{{img/},$(patsubst %,{%}$(COMMA),$(dir $(SONGS_SRC)))}" > $@
-	@cat $(SONGS_SRC) >> $@
-
-%.sbd: %.sgl
-	@$(MAKE_SONGDB) --songs=$< --output=$@
+include $(SONGBOOKS:%.sb=%.d)
 
 %.pdf: %.ly
 	@$(LILYPOND) --output=$(@:%.pdf=%) $<
@@ -151,6 +103,3 @@ $(SONGS): $(SONGS_SRC)
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
 
-# Create an empty mybook.sgl file if it does not exist
-mybook.sgl:
-	touch $@

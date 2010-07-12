@@ -1,0 +1,47 @@
+\songcolumns{2}
+\beginsong{Sur les chemins de la bohème}
+  [by=La Rue Kétanou,cov=en-attendant-les-caravanes]
+
+  \cover
+  \gtab{Solm}{3:022000}
+  \gtab{Do}{6:022100}
+  \gtab{Rém}{5:X02210}
+  \gtab{Si&}{6:022100}
+
+  \beginverse
+    \[Solm]Sur les che\[Do]mins de la bo\[Rém]hème
+    \[Si&]{J'ai} croi\[Solm]sé le bout du \[Rém]monde
+    \[Solm]Des p'tits ma\[Do]tins au café \[Rém]crème
+    \[Si&]Où je ta\[Solm]xais ma première \[Rém]blonde
+    \[Si&]Avant de \[Solm]partir le pouce en \[Rém]{l'air}
+    \[Si&]À l'autre \[Solm]bout du bout du \[Rém]monde \rep{2}
+  \endverse
+
+  \beginverse
+    Sur les chemins de la bohème
+    J'ai croisé la neige et le soleil
+    Une fille qui m'a dit je t'aime
+    Un soir où elle n'avait pas sommeil
+    Avant de partir le cœur en l'air
+    À l'autre bout du bout du monde
+  \endverse
+
+  \beginverse
+    Sur les chemins de la bohème
+    J'ai parlé des langues étrangères
+    Mes pas poursuivaient un poème
+    Je me suis lavé à l'eau de mer
+    Avant de chanter des mots en l'air
+    Sur des musiques vagabondes
+  \endverse
+
+  \beginverse
+    Sur les chemins de la bohème
+    On m'a chouravé ma guitare
+    Un vieil homme m'a donné la sienne
+    En me racontant son histoire
+    Et je lui dédierai cet air
+    À l'autre bout du bout du monde
+  \endverse
+
+\endsong

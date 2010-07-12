@@ -1,64 +1,65 @@
 \songcolumns{2}
-\beginsong{Les cigales}[by=La Rue K\'etanou,cov=y-a-des-cigales-dans-la-fourmiliere]
+\beginsong{Les cigales}
+  [by=La Rue Kétanou,cov=y-a-des-cigales-dans-la-fourmiliere]
 
-\cover
-\gtab{Rém}{XX0231}
-\gtab{Mi}{022100}
-\gtab{Sol}{3:022100}
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Rém}{XX0231}
+  \gtab{Mi}{022100}
+  \gtab{Sol}{3:022100}
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
 
 
-\beginverse
-Eh bour\[Rém]geois entends \[Mi]tu?
-\[Rém]Passer dans ta \[Mi]rue
-Une pa\[Rém]rade d'espé\[Mi]rance
-Et qui \[Rém]chante et qui \[Mi]danse
-Et \[Rém]vogue vogue la ga\[Mi]lère
-Le \[Rém]cap sur la bo\[Mi]hème
-Et \[Rém]vogue vogue nos chi\[Mi]mères
-Le \[Rém]cap sur leurs fre\[Mi]daines
-\endverse
+  \beginverse
+    Eh bour\[Rém]geois entends \[Mi]tu?
+    \[Rém]Passer dans ta \[Mi]rue
+    Une pa\[Rém]rade d'espé\[Mi]rance
+    Et qui \[Rém]chante et qui \[Mi]danse
+    Et \[Rém]vogue vogue la ga\[Mi]lère
+    Le \[Rém]cap sur la bo\[Mi]hème
+    Et \[Rém]vogue vogue nos chi\[Mi]mères
+    Le \[Rém]cap sur leurs fre\[Mi]daines
+  \endverse
 
-\beginchorus
-Y'a des ci\[Sol]gales dans la fourmi\[Lam]lière
-Et vous n'pou\[Fa]vez rien y \[Do]faire
-Y'a des ci\[Sol]gales dans la fourmi\[Lam]lière
-Et c'est pour \[Sol]ça \[Fa]que j'es\[Mi]père
-\endchorus
+  \beginchorus
+    Y'a des ci\[Sol]gales dans la fourmi\[Lam]lière
+    Et vous n'pou\[Fa]vez rien y \[Do]faire
+    Y'a des ci\[Sol]gales dans la fourmi\[Lam]lière
+    Et c'est pour \[Sol]ça \[Fa]que j'es\[Mi]père
+  \endchorus
 
-\beginverse
-Eh bourgeois, entends-tu?
-Passer dans ta rue
-Une parade de scandale
-C'est les enfants d'la balle
-Et ça jongle et ça crache le feu
-Et ça fait boum boum dans les oreilles
-A vot' bon cœur mesdames et messieurs
-A vot' bon cœur ou pas, c'est pareil
-\endverse
+  \beginverse
+    Eh bourgeois, entends-tu?
+    Passer dans ta rue
+    Une parade de scandale
+    C'est les enfants d'la balle
+    Et ça jongle et ça crache le feu
+    Et ça fait boum boum dans les oreilles
+    A vot' bon cœur mesdames et messieurs
+    A vot' bon cœur ou pas, c'est pareil
+  \endverse
 
-\beginverse
-Eh bourgeois, entends-tu?
-Passer dans ta rue
-Une parade de fortune
-C'est les oiseaux sans plume
-Et qui s'acharnent tant bien que mal
-À vivre comme ils respirent
-Quitte à crever la dalle
-Ils ont tant de choses à dire
-\endverse
+  \beginverse
+    Eh bourgeois, entends-tu?
+    Passer dans ta rue
+    Une parade de fortune
+    C'est les oiseaux sans plume
+    Et qui s'acharnent tant bien que mal
+    À vivre comme ils respirent
+    Quitte à crever la dalle
+    Ils ont tant de choses à dire
+  \endverse
 
-\beginverse
-Eh bourgeois, entends-tu?
-Passer dans ta rue
-Une parade de ville en ville
-C'est le théâtre du Fil
-Et qui joue dans toutes les langues
-Pour mieux parler de l'amour
-Pendant que le monde se demande
-Si demain il fera jour
-\endverse
+  \beginverse
+    Eh bourgeois, entends-tu?
+    Passer dans ta rue
+    Une parade de ville en ville
+    C'est le théâtre du Fil
+    Et qui joue dans toutes les langues
+    Pour mieux parler de l'amour
+    Pendant que le monde se demande
+    Si demain il fera jour
+  \endverse
 
 \endsong

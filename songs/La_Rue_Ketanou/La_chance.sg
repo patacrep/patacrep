@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{La chance}[by=La Rue K\'etanou,cov=ouvert-a-double-tour]
+\beginsong{La chance}
+  [by=La Rue Kétanou,cov=ouvert-a-double-tour]
 
   \cover
   \gtab{Do}{3:X02220}

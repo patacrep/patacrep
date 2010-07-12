@@ -1,52 +1,90 @@
-\songcolumns{1}
-\beginsong{L\'ea}[by=Louise Attaque,cov=louise-attaque]
+\songcolumns{2}
+\beginsong{Léa}
+  [by=Louise Attaque,cov=louise-attaque]
 
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Mi}{022100}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Sol7}{320001}
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Mi}{022100}
-\gtab{Fa}{1:022100}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Sol7}{320001}
+  \beginverse
+    \[Lam]Léa, elle est \[Mi]pas terro\[Lam]riste, 
+    Elle est pas \[Mi]anti-terro\[Lam]riste, 
+    Elle est pas intégriste, 
+    Elle est pas seule sur terre, 
+    Elle est pas commode, non
+    Elle est pas comme Aude 
+    Elle est pas froide, 
+    Elle est pas chaude pour une nuit réaliste, 
+    Elle est pas créditeur
+    Elle est pas méchante, 
+    Mais putain qu'est-ce qu'elle est chiante 
+  \endverse
 
-\beginverse
-\[Lam]Léa, elle est \[Mi]pas terro\[Lam]riste, elle est pas \[etc..]anti-terroriste, elle est pas intégriste, 
-Elle est pas seule sur terre, elle est pas commode, non elle est pas comme Aude 
-Elle est pas froide, elle est pas chaude pour une nuit réaliste, elle est pas créditeur
-Elle est pas méchante, mais putain qu'est-ce qu'elle est chiante 
-\endverse
+  \lilypond{Lea}
 
-\lilypond{Lea}
+  \beginverse
+    Léa, elle est pas intérimaire, 
+    Elle est pas comme ma mère, 
+    Elle est passagère, 
+    Elle est pacifiste, 
+    Elle est pas d'accord, 
+    Elle est passionnée, 
+    Elle est pas fute fute, 
+    Elle est pathétique, 
+    Elle aime pas tous mes tics, 
+    Elle est pas solitaire, 
+    Elle est pas solidaire, 
+    Elle est paresseuse, 
+    Elle est pas réciproque, 
+    Elle est pas en cloque, 
+    Elle est pas d'la région PACA, 
+    Elle a quinze ans volés,
+  \endverse 
 
-\beginverse
-Léa, elle est pas intérimaire, elle est pas comme ma mère, elle est passagère,
-Elle est pacifiste, elle est pas d'accord, elle est passionnée, elle est pas fute fute, 
-Elle est pathétique, elle aime pas tous mes tics, elle est pas solitaire, elle est pas solidaire, 
-Elle est paresseuse, elle est pas réciproque, elle est pas en cloque, elle est pas d'la région PACA, 
-Elle a quinze ans volés,
-\endverse 
+  \beginchorus
+    \[Fa]Léa, elle est pari\[Do]sienne, 
+    Elle est pas pré\[Sol]sentable,
+    Elle est pas jo\[Do]lie, 
+    Elle est pas moche non \[Fa]plus,
+    Elle est pas à \[Do]gauche, 
+    Elle est pas à \[Sol]droite, 
+    Elle est \[Sol7]pas mala\[Lam]droite 
+  \endchorus
 
-\beginchorus
-\[Fa]Léa, elle est pari\[Do]sienne, elle est pas pré\[Sol]sentable,
-Elle est pas jo\[Do]lie, elle est pas moche non \[Fa]plus,
-L'est pas à \[Do]gauche, elle est pas à \[Sol]droite, 
-Elle est \[Sol7]pas mala\[Lam]droite 
-\endchorus
+  \beginverse
+    Léa, elle est pas terroriste, 
+    Elle est pas anti-terroriste, 
+    Elle est pas jolie, 
+    Elle est pas moche non plus, 
+    Elle est pas toujours drôle, 
+    Elle est pas libre
+    Elle est pas tentée, 
+    Elle est paternaliste, 
+    Elle est pas inspirée, 
+    Elle est patiente
+    Elle est pasticheuse, 
+    Elle est pas cible, 
+    Elle fait pas la politique 
+  \endverse
 
-\beginverse
-Léa, elle est pas terroriste, elle est pas anti-terroriste, elle est pas jolie, 
-Elle est pas moche non plus, elle est pas toujours drôle, elle est pas libre
-Elle est pas tentée, elle est paternaliste, elle est pas inspirée, elle est patiente
-Elle est pasticheuse, elle est pas cible, elle fait pas la politique 
-\endverse
-
-\beginverse
-Elle l'a pas volé, elle passing-shot, elle est passe-temps, elle est passable
-Elle est pas stable, elle est pas partout, elle dit qu'elle partira, elle est même pas venue 
-Elle est partisane, elle est pas pas pas sortable, et ça, j'vous l'ai pas pas déjà dit 
-Qu'elle est parisienne, elle est parisienne, elle est pas terroriste, elle est pas terroriste 
-\endverse
-
+  \beginverse
+    Elle l'a pas volé, 
+    Elle passing-shot, 
+    Elle est passe-temps, 
+    Elle est passable
+    Elle est pas stable, 
+    Elle est pas partout, 
+    Elle dit qu'elle partira, 
+    Elle est même pas venue 
+    Elle est partisane, 
+    Elle est pas pas pas sortable, et ça, 
+    J'vous l'ai pas pas déjà dit 
+    Qu'elle est parisienne, elle est parisienne, 
+    Elle est pas terroriste, elle est pas terroriste 
+  \endverse
 
 \endsong

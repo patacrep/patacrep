@@ -1,56 +1,106 @@
 \songcolumns{2}
-\beginsong{Taylor}[by=Jack Johnson,cov=Jack_Johnson_Taylor]
-\cover
-\gtab{C}{0003}
-\gtab{G}{0002}
-\gtab{Am}{2000}
-\gtab{F}{1020}
+\beginsong{Taylor}[by=Jack Johnson,cov=on-and-on]
 
+  \cover
+  %\utab{C}{0003}
+  %\utab{G}{0002}
+  %\utab{Am}{2000}
+  %\utab{F}{1020}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
 
-{\nolyrics Intro}
+  \beginverse
+    They say \[Do]Taylor was a good girl
+    \[Sol]Never one to be late
+    \[Lam]Complain, express \[Fa]ideas in her \[Do]brain\[Sol Lam Fa]
+  \endverse
+  
+  \beginverse*
+    Working on the night shift, 
+    Passing out the tickets,
+    You're gonna have to pay her if you want to park here 
+  \endverse
+  
+  \beginverse*
+    Well mommy's little dancer has 
+    Quite a little secret
+    Working on the streets now, never gonna keep it
+  \endverse
+  
+  \beginverse*
+    It's quite an imposition and 
+    Now shes only wishing
+    That's he would have listened to the words they said \dots~poor Taylor
+  \endverse
+  
 
-\beginverse
-they sa\[C]y taylor was a good girl\[G], never one to be late
-c\[Am]omplain, express\[F] ideas in her \[C]brain\[G]    \[Am]    \[F]
-\[C]working on the night shift, \[G]passing out the tickets,
-youre g\[Am]onna have to pay her\[F] if you want to park \[C]here\[G]   \[Am]   \[F]
-well m\[C]ommys little dancer has q\[G]uite a little secret
-\[Am]working on the streets now, \[F]never gonna keep i\[C]t  \[G]   \[Am]   \[F]
-its q\[C]uite an imposition and \[G]now shes only wishing
-that s\[Am]he would have listened\[F] to the words they s\[C]aid\[G]   \[Am]
-\[F]poor taylor
-\endverse
+  \beginchorus
+    \[Do] She just \[Sol]wanders around, 
+    \[Lam] Una\[Fa]ffected by
+  \endchorus
+  
+  \beginchorus
+    The winter winds and
+    She'll pretend that
+  \endchorus
+  
+  \beginchorus
+    She's somewhere else
+    So far and clear
+  \endchorus
+  
+  \beginchorus
+    About two thousand 
+    Miles from here
+  \endchorus
 
-\beginchorus
-\[C]She just wand\[G]ers around, una\[Am]ffect\[F]ed by          \[C]
-the \[G]winter winds a\[Am]nd s\[F]he'll pretend th\[C]at
-shes somewhe\[G]re els\[Am]e, so\[F] far and clear\[C]
-about \[G]two thousand mi\[Am]les from here
-\endchorus
+  \beginverse
+    Peter Patrick pitter 
+    Patters on the window
+    But sunny silhouette won't let him in
+  \endverse
+  
+  \beginverse*
+    Poor old Petes got nothing
+    Because he's been falling
+    Somehow sunny knows just where he's been
+  \endverse
+  
+  \beginverse*
+    He thinks that singing on Sunday 
+    Is gonna save his soul
+    Now that Saturday is gone
+  \endverse
+  
+  \beginverse*
+    Sometimes he thinks that he's 
+    On his way
+    But I can see \dots~that his break lights are on
+  \endverse
+  
+  \beginverse
+    Such a tough enchilada 
+    Filled up with nada
+    Giving what she gotta give to get a dollar bill
+  \endverse
 
-\beginverse
-\[C]peter patrick \[G]pitter patters on the w\[Am]indow  \[F]
-but \[C]sunny silhouet\[G]te wont let hi\[Am]m in    \[F]
-\[C]poor old petes got \[G]nothing because hes been f\[Am]alling   \[F]
-somehow s\[C]unny knows \[G]just where he\[Am]s been  \[F]
-he thinks that \[C]singing on sunday is gonna \[G]save his so\[Am]ul    \[F]
-\[C]now that \[G]saturd\[Am]ay is gone \[F]
-\[C]sometimes he \[G]thinks that hes o\[Am]n his \[F]way
-but i can \[C]see  \[G]    \[Am]
-that his b\[F]reak lights are on
-\endverse
+  \beginverse*
+    Used to be a limber chicken, 
+    Time's been a ticking
+    Now's she's finger licking to the man
+  \endverse
 
-\beginverse
-such a t\[C]ough enchilada f\[G]illed up with nada
-\[Am]giving what she gotta \[F]give to get a dollar\[C] bill\[G]   \[Am]   \[F]
-used to \[C]be a limber chicken, \[G]times a been a ticking
-\[Am]nows shes finger licking\[F] to the man
-with the \[C]money in his pocket \[G]flying in his rocket
-\[Am]only stopping by on his\[F] way to a better \[C]world \[G]   \[Am]
-if tay\[F]lor finds a better worl\[C]d \[G]   \[Am]
-then\[F] taylor's gonna run aw\[C]ay
-\endverse
-
-{\nolyrics Outro}
+  \beginverse*
+    With the money in his pocket 
+    Flying in his rocket
+    Only stopping by on his way to a better world
+  \endverse
+  
+  \beginverse*
+    If Taylor finds a better world
+    Then Taylor's gonna run away
+  \endverse
 
 \endsong

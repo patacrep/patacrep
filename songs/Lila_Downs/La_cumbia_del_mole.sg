@@ -1,0 +1,54 @@
+\songcolumns{2}
+\beginsong{La cumbia del mole}
+  [by=Lila Downs,cov=la-cantina]
+  
+  \cover
+  \gtab{Mim}{7:X0221}
+  \gtab{Si}{7:022100}
+  \gtab{Ré}{5:X02220}
+  \gtab{Lam}{5:022000}
+  
+  \beginverse
+    Cuentan que en Oa\[Mim]xaca, se \[Si]toma el mezcal con \[Mim]cafe \rep{2}
+    Dicen que la \[Ré]hierba, le cura la mala \[Mim]fe \rep{2}
+    \[Lam]{A mi} me gusta el \[Mim]mole, mi so\[Si]ledad me va a mo\[Mim]ler \rep{2}
+  \endverse
+
+  \lilypond{La_cumbia_del_mole}
+
+  \beginchorus
+    Mi que\[Mim]rida sole\[Si]dad, me va a guisar un mo\[Mim]lito.
+    Por el \[Mim]cielo de Monter\[Si]rey, de noche sueño con\[Mim]tigo
+    \rep{2}
+  \endchorus
+
+  \beginverse*
+    \[Mim]{Se muele} con cacahuate
+    Se muele también el pan
+    Se muele al almendra seca
+    Se muele el chile, también la sal
+    Se muele ese chocolate
+    Se muele la canela
+    Se muele pimienta y clavo
+    Se muele la mole entera
+    Se muele \dots
+  \endverse
+
+  \beginverse*
+    Se muele ese chocolate
+    Se muele también el pan
+    Se muele al almendra seca
+    Se muele el chile también la sal
+    Se muele ese chocolate
+    Se muele la canela
+    Se muele pimienta y clavo
+    Se muele la mole entera \rep{3}
+  \endverse
+
+  \beginverse
+    Cuentan que en Oaxaca con agua es el chocolate \rep{2}
+    Dicen que en la fiesta todito se ha de quemar \rep{2}
+    Para que haga su manda por la pasión de soledad \rep{2}
+  \endverse
+
+\endsong

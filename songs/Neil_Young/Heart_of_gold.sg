@@ -1,0 +1,36 @@
+\beginsong{Heart of gold}
+  [by=Neil Young,cov=harvest-moon]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Do}{X32010}
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+
+  \lilypond{Heart_of_gold}
+
+  \beginverse
+    \[Mim] I want to \[Do]live, \[Ré] I want to \[Sol]give
+    \[Mim] I've been a \[Do]miner for a \[Ré]heart of gold \[Sol]
+    \[Mim] It seems ex\[Do]pressions, \[Ré] I never \[Sol]give
+  \endverse
+
+  \beginchorus
+    \[Mim] It keeps me \[Do]searching for a \[Ré]heart of gold \[Sol]
+    \[Do]And I'm getting older \[Mim]
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    I've been to hollywood, I've been to Redwood
+    I've cross the ocean for a heart of gold
+    I've been in my mind, it's such a fine line
+  \endverse
+
+  \beginverse
+    You keep me searching for a heart of gold
+    You keep me searching and I'm growing old
+    You keep me searching for a heart of gold
+  \endverse
+
+\endsong

@@ -43,6 +43,7 @@
                    \gdef\@title{No Title Given}%
                    \gdef\@subtitle{}
                    \gdef\@version{}
+                   \gdef\@web{}
                    \gdef\@mail{}
                    \gdef\@email{}
                    \gdef\@picture{}
@@ -50,6 +51,7 @@
 
 \def\subtitle#1{\gdef\@subtitle{#1}}
 \def\version#1{\gdef\@version{#1}}
+\def\web#1{\gdef\@web{#1}}
 \def\mail#1{\gdef\@mail{#1}}
 \def\email#1{\gdef\@email{#1}}
 \def\licence#1{\gdef\@licence{#1}}
@@ -98,7 +100,8 @@
      \if!\@version!\else{\bf version:} & \@version \\ \fi
      \if!\@date!\else{\bf date:} &   \@date \\ \fi
      \if!\@author!\else{\bf auteurs:} & \@author \\ \fi
-     \if!\@mail!\else{\bf mail:} &  \@mail \\ \fi
+     \if!\@web!\else{\bf web:} &  \url{\@web} \\ \fi
+     \if!\@mail!\else{\bf mail:} &  \url{\@mail} \\ \fi
    \end{tabular}
  \end{flushleft}
 

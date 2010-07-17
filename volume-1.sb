@@ -3,12 +3,13 @@
 "author" : "Romain Goffe \\and Alexandre Dupas",
 "footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
 "license" : "\\input{license.tex}",
+"web" : "http://www.patacrep.com",
 "mail" : "crep@team-on-fire.com",
 "picture" : "feel-the-music",
 "picturecopyright" : "foxygamergirl @ deviantart.com",
 "subtitle" : "Tome 1",
 "title" : "Recueil de chansons pour guitare",
-"version" : "3.1",
+"version" : "3.2",
 "booktype" : [
     "chorded"
   ],

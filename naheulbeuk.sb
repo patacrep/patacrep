@@ -3,6 +3,7 @@
 "author" : "Crep (R.Goffe) \\and Lohrun (A.Dupas)",
 "footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
 "license" : "\\input{license.tex}",
+"web" : "http://www.patacrep.com",
 "mail" : "crep@team-on-fire.com",
 "picture" : "naheulbeuk01",
 "picturecopyright" : "PenOfChaos",

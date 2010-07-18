@@ -1,83 +1,85 @@
 \songcolumns{2}
-\beginsong{Still alive}[by=Jonathan Coulton,cov=portal]
+\beginsong{Still alive}
+  [by=Jonathan Coulton,cov=portal]
 
-\cover
-\gtab{Sim}{2:X02210}
-\gtab{Ré}{2:X32010}
-\gtab{Mim}{022000}
-\gtab{La}{X02220}
-\gtab{Fa}{1:022100}
-\gtab{Do}{X32010}
-\gtab{Si&}{1:X02220}
-\gtab{Rém}{XX0231}
+  \cover
+  \gtab{Sim}{2:X02210}
+  \gtab{Ré}{2:X32010}
+  \gtab{Mim}{022000}
+  \gtab{La}{X02220}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Si&}{1:X02220}
+  \gtab{Rém}{XX0231}
 
-\beginverse
-\[Sim]This was a \[Ré]triumph \[Sim Ré]
-\[Sim]I'm making a \[Ré]note here: \[Sim]huge succ\[Ré]ess \[Sim]
-\[Mim]It's hard to over\[La]state my satis\[Ré]fact\[Sim]ion \[Ré]
-\endverse
+  \beginverse
+    \[Sim]This was a \[Ré]triumph \[Sim Ré]
+    \[Sim]I'm making a \[Ré]note here: \[Sim]huge succ\[Ré]ess \[Sim]
+    \[Mim]It's hard to over\[La]state my satis\[Ré]fact\[Sim]ion \[Ré]
+  \endverse
 
-\beginverse*
-\[Sim]Aperture \[Ré]Science \[Sim Ré]
-\[Sim]We do what we \[Ré]must be\[Sim]cause we \[Ré]can \[Sim]
-\[Mim]For the good of \[La]all of us
-\[Si&]Except the ones who are dead
-\endverse
+  \beginverse*
+    \[Sim]Aperture \[Ré]Science \[Sim Ré]
+    \[Sim]We do what we \[Ré]must be\[Sim]cause we \[Ré]can \[Sim]
+    \[Mim]For the good of \[La]all of us
+    \[Si&]Except the ones who are dead
+  \endverse
 
-\beginchorus
-But there's \[Fa]no sense \[Do]crying over \[Si&]every mis\[Fa]take
-\[Fa]You just keep on \[Do]trying till you \[Si&]run out of \[Fa]cake
-\[Si&]And the science gets \[Do]done and you \[Fa]make a neat \[Rém]gun
-For the \[Si&]people who \[La]are still alive \[Ré Sim Ré]
-\endchorus
+  \beginchorus
+    But there's \[Fa]no sense \[Do]crying over \[Si&]every mis\[Fa]take
+    \[Fa]You just keep on \[Do]trying till you \[Si&]run out of \[Fa]cake
+    \[Si&]And the science gets \[Do]done and you \[Fa]make a neat \[Rém]gun
+    For the \[Si&]people who \[La]are still alive \[Ré Sim Ré]
+  \endchorus
 
-\beginverse
-I'm not even angry
-I'm being so sincere right now
-Even though you broke my heart and killed me
-\endverse
+  \beginverse
+    I'm not even angry
+    I'm being so sincere right now
+    Even though you broke my heart and killed me
+  \endverse
 
-\beginverse*
-And tore me to pieces
-And threw every piece into a fire
-As they burned it hurt because
-I was so happy for you
-\endverse
+  \beginverse*
+    And tore me to pieces
+    And threw every piece into a fire
+    As they burned it hurt because
+    I was so happy for you
+  \endverse
 
-\beginchorus
-Now these points of data make a beautiful line
-And we're out of beta, we're releasing on time
-So I'm glad I got burned, think of all the things we learned
-For the people who are still alive
-\endchorus
+  \beginchorus
+    Now these points of data make a beautiful line
+    And we're out of beta, we're releasing on time
+    So I'm glad I got burned, think of all the things we learned
+    For the people who are still alive
+  \endchorus
 
-\beginverse
-Go ahead and leave me
-I think I'd prefer to stay inside
-Maybe you'll find someone else to help you
-\endverse
+  \beginverse
+    Go ahead and leave me
+    I think I'd prefer to stay inside
+    Maybe you'll find someone else to help you
+  \endverse
 
-\beginverse*
-Maybe Black Mesa
-That was a joke, ah ah, fat chance
-Anyway this cake is great
-It's so delicious and moist
-\endverse
+  \beginverse*
+    Maybe Black Mesa
+    That was a joke, ah ah, fat chance
+    Anyway this cake is great
+    It's so delicious and moist
+  \endverse
 
-\beginchorus
-Look at me still talking when there's science to do
-When I look out there it makes me glad I'm not you
-I've experiments to run, there is research to be done
-On the people who are still alive
-\endchorus
+  \beginchorus
+    Look at me still talking when there's science to do
+    When I look out there it makes me glad I'm not you
+    I've experiments to run, there is research to be done
+    On the people who are still alive
+  \endchorus
 
-\beginverse
-And be\[Sim]lieve me I \[Ré]am still a\[Sim]live \[Ré]
-I'm doing \[Sim]science and \[Ré]I'm still a\[Sim]live \[Ré]
-I feel \[Sim]fantastic and \[Ré]I'm still a\[Sim]live \[Ré]
-And while you're \[Sim]dying I'll \[Ré]be still a\[Sim]live \[Ré] \rep{2}
-\[Ré]Still a\[Sim]live \rep{2}
-\endverse
+  \beginverse
+    \[Sim] And be\[Ré]lieve me I \[Sim]am still a\[Ré]live \[Sim]
+    I'm doing \[Ré]science and \[Sim]I'm still a\[Ré]live \[Sim]
+    I feel \[Ré]fantastic and \[Sim]I'm still a\[Ré]live \[Sim]
+    And while you're \[Ré]dying I'll \[Sim]be still a\[Ré]live \[Sim]
+    And when you're \[Ré]dead I'll \[Sim]be still a\[Ré]live \[Sim]
+    Still a\[Ré]live \rep{2}
+  \endverse
 
 \endsong
 

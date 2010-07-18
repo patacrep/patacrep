@@ -1,167 +1,168 @@
 \songcolumns{3}
-\beginsong{Ti-Cul}[by=Les Cowboys Fringants,cov=la-grand-messe]
+\beginsong{Ti-Cul}
+  [by=Les Cowboys Fringants,cov=la-grand-messe]
 
-\capo{5}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
-\gtab{Mi}{022100}
-\gtab{Do}{X32010}
-\gtab{Mi7}{020100}
+  \capo{5}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Mi}{022100}
+  \gtab{Do}{X32010}
+  \gtab{Mi7}{020100}
 
-\beginchorus
-\[Lam]{Pa pa la pa pa}
-\[Fa]{La pa la pa pa }
-\[Sol]{La pa la pa pa} \[Mi]la
-\endchorus
+  \beginchorus
+    \[Lam]{Pa pa la pa pa}
+    \[Fa]{La pa la pa pa }
+    \[Sol]{La pa la pa pa} \[Mi]la
+  \endchorus
 
-\beginverse
-\[Lam]Ti-Cul est pas al\[Fa]lé
-À ses cours du ma\[Sol]tin
-Parce que quelque part y \[Mi]sait
-Que ça lui sert à \[Lam]rien
-\endverse
+  \beginverse
+    \[Lam]Ti-Cul est pas al\[Fa]lé
+    À ses cours du ma\[Sol]tin
+    Parce que quelque part y \[Mi]sait
+    Que ça lui sert à \[Lam]rien
+  \endverse
 
-\beginverse*
-Il préférait scèner
-Au salon étudiant
-Plutôt que d'se faire chier
-D'vant un prof emmerdant
-\endverse
+  \beginverse*
+    Il préférait scèner
+    Au salon étudiant
+    Plutôt que d'se faire chier
+    D'vant un prof emmerdant
+  \endverse
 
-\beginverse*
-Il fait sans ambition
-Un DEC en sciences humaines
-Un peu à reculons
-Sans trop s'donner la peine
-\endverse
+  \beginverse*
+    Il fait sans ambition
+    Un DEC en sciences humaines
+    Un peu à reculons
+    Sans trop s'donner la peine
+  \endverse
 
-\beginverse*
-Il voulait être comédien
-Mais ses parents lui ont dit
-Que c'était pas un bon ch'min
-Pour être heureux dans la vie
-\endverse
+  \beginverse*
+    Il voulait être comédien
+    Mais ses parents lui ont dit
+    Que c'était pas un bon ch'min
+    Pour être heureux dans la vie
+  \endverse
 
-\beginverse
-Facque y'é là pis y niaise
-Fout rien dans ses études
-Pour lui c'est d'la foutaise
-D'la criss de platitude
-\endverse
+  \beginverse
+    Facque y'é là pis y niaise
+    Fout rien dans ses études
+    Pour lui c'est d'la foutaise
+    D'la criss de platitude
+  \endverse
 
-\beginverse*
-La seule chose qui l'allume
-C'est son équipe d'impro
-Ou les pétards qu'il s'fume
-Quand y fait d'la radio
-\endverse
+  \beginverse*
+    La seule chose qui l'allume
+    C'est son équipe d'impro
+    Ou les pétards qu'il s'fume
+    Quand y fait d'la radio
+  \endverse
 
-\beginverse*
-Mais sa maman espère
-Qu'il devienne avocat
-Qu'il fasse un bon salaire
-Un peu comme son papa
-\endverse
+  \beginverse*
+    Mais sa maman espère
+    Qu'il devienne avocat
+    Qu'il fasse un bon salaire
+    Un peu comme son papa
+  \endverse
   
-\beginverse*
-Mais Ti-Cul est pas un con
-Sait ben que pour être heureux
-Faut vivre pour ses convictions
-Et non pour celles de ses vieux
-\endverse                                                       
+  \beginverse*
+    Mais Ti-Cul est pas un con
+    Sait ben que pour être heureux
+    Faut vivre pour ses convictions
+    Et non pour celles de ses vieux
+  \endverse                                                       
 
-\beginchorus
-\[Do]Pourquoi chercher un \[Fa]sens
-À toutes leurs conne\[Sol]ries?
-Ti-Cul va tenter ta \[Mi7]chance
-Et fais ton ch'min dans la \[Lam]vie
-\endchorus
+  \beginchorus
+    \[Do]Pourquoi chercher un \[Fa]sens
+    À toutes leurs conne\[Sol]ries?
+    Ti-Cul va tenter ta \[Mi7]chance
+    Et fais ton ch'min dans la \[Lam]vie
+  \endchorus
 
-\beginchorus
-\[Lam]Parce qu'au fond le vrai plai\[Fa]sir
-C'est p't'être juste de pas sa\[Sol]voir
-Comment qu'elle va fi\[Mi7]nir
-Ta p'tite his\[Lam]toire
-\endchorus
+  \beginchorus
+    \[Lam]Parce qu'au fond le vrai plai\[Fa]sir
+    C'est p't'être juste de pas sa\[Sol]voir
+    Comment qu'elle va fi\[Mi7]nir
+    Ta p'tite his\[Lam]toire
+  \endchorus
 
-\beginverse
-Et y'a son grand frère
-Un genre d'insignifiant   
-Vendeur de cellulaires
-Qui pense rien qu'à l'argent
-\endverse
+  \beginverse
+    Et y'a son grand frère
+    Un genre d'insignifiant   
+    Vendeur de cellulaires
+    Qui pense rien qu'à l'argent
+  \endverse
 
-\beginverse*
-Qui lui dit: ``C'est d'valeur
-T'auras jamais d'ouvrage
-Parce que dev'nir acteur
-C'est pelleter des nuages.''
-\endverse
+  \beginverse*
+    Qui lui dit: ``C'est d'valeur
+    T'auras jamais d'ouvrage
+    Parce que dev'nir acteur
+    C'est pelleter des nuages.''
+  \endverse
 
-\beginverse*
-Sa vie est toute tracée
-Il s'pose jamais d'questions
-Et à l'entendre parler
-C'toujours lui qui a raison
-\endverse
+  \beginverse*
+    Sa vie est toute tracée
+    Il s'pose jamais d'questions
+    Et à l'entendre parler
+    C'toujours lui qui a raison
+  \endverse
 
-\beginverse*
-Sauf que Ti-Cul s'en balance 
-Il sait que les gens bornés
-Veulent masquer leur impuissance
-En essayant d't'écraser
-\endverse
+  \beginverse*
+    Sauf que Ti-Cul s'en balance 
+    Il sait que les gens bornés
+    Veulent masquer leur impuissance
+    En essayant d't'écraser
+  \endverse
 
-\beginverse
-Une chance y'a sa copine
-Une fille qui est super fine
-Qui au moins le comprend
-Et sait qui a du talent
-\endverse
+  \beginverse
+    Une chance y'a sa copine
+    Une fille qui est super fine
+    Qui au moins le comprend
+    Et sait qui a du talent
+  \endverse
 
-\beginverse
-Elle lui dit d's'accrocher
-Et d'continuer à croire
-Qu'y s'ra p't'être accepté
-Dans un conservatoire
-\endverse
+  \beginverse
+    Elle lui dit d's'accrocher
+    Et d'continuer à croire
+    Qu'y s'ra p't'être accepté
+    Dans un conservatoire
+  \endverse
 
-\beginverse*
-Et qu'y a toujours l'option
-Même si c't'en attendant
-D'faire d'la figuration
-Dans des téléromans
-\endverse
+  \beginverse*
+    Et qu'y a toujours l'option
+    Même si c't'en attendant
+    D'faire d'la figuration
+    Dans des téléromans
+  \endverse
 
-\beginverse*
-Parc'que pour vivre sa passion
-Et pas regretter plus tard
-Il faut ben comme de raison
-Que tu commences en quelqu'part
-\endverse
+  \beginverse*
+    Parc'que pour vivre sa passion
+    Et pas regretter plus tard
+    Il faut ben comme de raison
+    Que tu commences en quelqu'part
+  \endverse
 
-\beginchorus
-C'est pour ça que demain
-Y va tout abandonner
-Et au diable les crétins
-Qui veulent pas l'encourager
-\endchorus
+  \beginchorus
+    C'est pour ça que demain
+    Y va tout abandonner
+    Et au diable les crétins
+    Qui veulent pas l'encourager
+  \endchorus
 
-\beginchorus
-Parce qu'y sait qu'le vrai plaisir
-Au fond c'est de pas savoir
-Comment qu'elle va finir
-Sa p'tite histoire
-\endchorus
+  \beginchorus
+    Parce qu'y sait qu'le vrai plaisir
+    Au fond c'est de pas savoir
+    Comment qu'elle va finir
+    Sa p'tite histoire
+  \endchorus
 
-\beginverse
-Garder son esprit libre
-Trouver un peu d'équilibre
-Pour le reste y s'en fout ben
-Ti-Cul a hâte à demain \dots
-\endverse
+  \beginverse
+    Garder son esprit libre
+    Trouver un peu d'équilibre
+    Pour le reste y s'en fout ben
+    Ti-Cul a hâte à demain \dots
+  \endverse
 
 \endsong
 

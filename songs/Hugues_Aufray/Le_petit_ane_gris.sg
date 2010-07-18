@@ -1,54 +1,56 @@
 \songcolumns{2}
-\beginsong{Le petit \^ane gris}[by=Hugues Aufray,cov=la-terre-est-si-belle]
+\beginsong{Le petit âne gris}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle]
 
 
-\cover
-\gtab{Mim}{022000}
-\gtab{Ré}{XX0232}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
 
 
-\beginverse
-É\[Mim]coutez cette histoire, que \[Ré]l'on m'a racon\[Mim]tée
-Du fond de ma mémoire, je \[Ré]vais vous la chan\[Mim]ter
-Elle \[Sol]se passe en Pro\[Ré]vence, au \[Do]milieu des mou\[Ré]tons
-Dans \[Mim]{le sud} de la France, au pays \[Sol]des \[Ré]san\[Mim]tons \rep{2}
-\endverse
+  \beginverse
+    É\[Mim]coutez cette histoire, que \[Ré]l'on m'a racon\[Mim]tée
+    Du fond de ma mémoire, je \[Ré]vais vous la chan\[Mim]ter
+    Elle \[Sol]se passe en Pro\[Ré]vence, au \[Do]milieu des mou\[Ré]tons
+    Dans \[Mim]{le sud} de la France, au pays \[Sol]des \[Ré]san\[Mim]tons \rep{2}
+  \endverse
 
-\beginverse
-Quand il vint au domaine, y'avait un beau troupeau
-Les étables étaient pleines, de brebis et d'agneaux
-Marchant toujours en tête, aux premières lueurs
-Pour tirer sa charrette, il mettait tout son cœur \rep{2}
-\endverse
+  \beginverse
+    Quand il vint au domaine, y'avait un beau troupeau
+    Les étables étaient pleines, de brebis et d'agneaux
+    Marchant toujours en tête, aux premières lueurs
+    Pour tirer sa charrette, il mettait tout son cœur \rep{2}
+  \endverse
 
-\beginverse
-Au temps des transhumances, il s'en allait heureux
-Remontant la Durance, honnête et courageux
-Mais un jour à Marseille, des messieurs sont venus
-La ferme était bien vieille, alors on l'a vendue \rep{2}
-\endverse
+  \beginverse
+    Au temps des transhumances, il s'en allait heureux
+    Remontant la Durance, honnête et courageux
+    Mais un jour à Marseille, des messieurs sont venus
+    La ferme était bien vieille, alors on l'a vendue \rep{2}
+  \endverse
 
-\beginverse
-Il resta au village, tout le monde l'aimait bien
-Vaillant malgré son âge, et malgré son chagrin
-Image d'évangile, vivant d'humilité
-Il se rendait utile, auprès du cantonnier \rep{2}
-\endverse
+  \beginverse
+    Il resta au village, tout le monde l'aimait bien
+    Vaillant malgré son âge, et malgré son chagrin
+    Image d'évangile, vivant d'humilité
+    Il se rendait utile, auprès du cantonnier \rep{2}
+  \endverse
 
-\beginverse
-Cette vie honorable, un soir s'est terminée
-Dans le fond d'une étable, tout seul il s'est couché
-Pauvre bête de somme, il a fermé ses yeux
-Abandonné des hommes, il est mort sans adieux \rep{2}
-\endverse
+  \beginverse
+    Cette vie honorable, un soir s'est terminée
+    Dans le fond d'une étable, tout seul il s'est couché
+    Pauvre bête de somme, il a fermé ses yeux
+    Abandonné des hommes, il est mort sans adieux \rep{2}
+  \endverse
 
-\beginverse
-mm {\ldots} mm {\ldots} mm 
-Cette chanson sans gloire, vous racontait la vie
-Vous racontait l'histoire, d'un petit âne gris \rep{2}
-\endverse
+  \beginverse
+    mm {\ldots} mm {\ldots} mm 
+    Cette chanson sans gloire, vous racontait la vie
+    Vous racontait l'histoire, d'un petit âne gris \rep{2}
+  \endverse
 
-\image{contrebasse}{4}
+  \image{contrebasse}{4}
+
 \endsong

@@ -1,33 +1,34 @@
 \songcolumns{2}
-\beginsong{Petit garçon}[by=Graeme Allwright,cov=emmene-moi]
+\beginsong{Petit garçon}
+  [by=Graeme Allwright,cov=emmene-moi]
 
-\cover
-\gtab{Ré}{XX0232}
-\gtab{La7}{X02020}
-\gtab{Sol}{320003}
-\gtab{La}{X02220}
-\gtab{Sim}{2:X02210}
-\gtab{Mi7}{020100}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{La7}{X02020}
+  \gtab{Sol}{320003}
+  \gtab{La}{X02220}
+  \gtab{Sim}{2:X02210}
+  \gtab{Mi7}{020100}
 
-\beginverse
-Dans son man\[Ré]teau rouge et \[La7]blanc
-Sur un traî\[Sol]neau porté par le \[La]vent
-Il descen\[Ré]dra par la chemi\[Sol]née
-Petit gar\[Ré]çon, il est l'heure d'\[La7]aller se cou\[Ré]cher.
-\endverse
+  \beginverse
+    Dans son man\[Ré]teau rouge et \[La7]blanc
+    Sur un traî\[Sol]neau porté par le \[La]vent
+    Il descen\[Ré]dra par la chemi\[Sol]née
+    Petit gar\[Ré]çon, il est l'heure d'\[La7]aller se cou\[Ré]cher.
+  \endverse
 
-\beginchorus
-Tes yeux se \[La]voi\[La7]lent
-Ecoute les \[Sol]étoi\[Ré]les
-Tout est \[Sim]calme, reposé
-Entends-tu les clo\[Mi7]chettes tintinab\[La7]uler ?
-\endchorus
+  \beginchorus
+    Tes yeux se \[La]voi\[La7]lent
+    Ecoute les \[Sol]étoi\[Ré]les
+    Tout est \[Sim]calme, reposé
+    Entends-tu les clo\[Mi7]chettes tintinab\[La7]uler ?
+  \endchorus
 
-\beginverse
-Et demain matin, petit garçon
-Tu trouveras dans tes chaussons
-Tous les jouets dont tu as rêvé
-Et maintenant il est l'heure d'aller te coucher. 
-\endverse
+  \beginverse
+    Et demain matin, petit garçon
+    Tu trouveras dans tes chaussons
+    Tous les jouets dont tu as rêvé
+    Et maintenant il est l'heure d'aller te coucher. 
+  \endverse
 
 \endsong

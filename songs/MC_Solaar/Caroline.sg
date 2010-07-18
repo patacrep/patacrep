@@ -1,76 +1,77 @@
 \songcolumns{1}
-\beginsong{Caroline}[by=MC Solaar,cov=qui-seme-le-vent-recolte-le-tempo]
+\beginsong{Caroline}
+  [by=MC Solaar,cov=qui-seme-le-vent-recolte-le-tempo]
 
-\capo{5}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Mim}{022000}
+  \capo{5}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
 
-\musicnote{intro: Lam Do Sol Mim}
+  \musicnote{intro: Lam Do Sol Mim}
 
-\beginverse
-\[Lam]J'étais cool, assis sur un banc. C'était au printemps.
-\[Do]Il cueille une marguerite : ce sont deux amants.
-\[Sol]Overdose de douceur. Ils jouent comme des enfants.
-\[Mim]Je t'aime un peu beaucoup à la folie passionnément.
-Mais à la suite d'une douloureuse déception sentimentale,
-D'humeur chaleureuse, je devenais brutal.
-La haine d'un être n'est pas dans nos prérogatives.
-Tchernobyl. Tcherno-débile. Jalousie radioactive.
-Caroline était une amie, une superbe fille.
-Je repense à elle, à nous, à nos cornets vanille,
-À sa boulimie de fraises, de framboises, de myrtilles,
-À ses délires futiles, à son style pacotille.
-\endverse
+  \beginverse
+    \[Lam]J'étais cool, assis sur un banc. C'était au printemps.
+    \[Do]Il cueille une marguerite : ce sont deux amants.
+    \[Sol]Overdose de douceur. Ils jouent comme des enfants.
+    \[Mim]Je t'aime un peu beaucoup à la folie passionnément.
+    Mais à la suite d'une douloureuse déception sentimentale,
+    D'humeur chaleureuse, je devenais brutal.
+    La haine d'un être n'est pas dans nos prérogatives.
+    Tchernobyl. Tcherno-débile. Jalousie radioactive.
+    Caroline était une amie, une superbe fille.
+    Je repense à elle, à nous, à nos cornets vanille,
+    À sa boulimie de fraises, de framboises, de myrtilles,
+    À ses délires futiles, à son style pacotille.
+  \endverse
 
-\beginchorus
-C'est qu'je suis l'as de trèfle qui pique ton cœur{\dots}
-L'as de trèfle qui pique ton cœur{\dots}
-L'as de trèfle qui pique ton cœur{\dots}
-Caroline{\dots}
-\endchorus
+  \beginchorus
+    C'est qu'je suis l'as de trèfle qui pique ton cœur{\dots}
+    L'as de trèfle qui pique ton cœur{\dots}
+    L'as de trèfle qui pique ton cœur{\dots}
+    Caroline{\dots}
+  \endchorus
 
-\beginverse
-Comme le trèfle à quatre feuilles, je cherche votre bonheur.
-Je suis l'homme qui tombe à pic{\dots} pour prendre ton cœur.
-Il faut se tenir à carreaux. Caro, ce message vient 
-Du cœur.
-Une pyramide de baisers, une tempête d'amitié,
-Une vague de caresses, Un cyclone de douceur. 
-Un océan de pensées. Caroline, je t'ai offert un building
-De tendresse.
-J'ai une peur bleue. J'suis poursuivi par l'armée rouge.
-Pour toi j'ai pris des billets verts, il a fallu qu'je bouge.
-Pyromane de ton cœur, Canadair de tes frayeurs,
-Je t'ai offert une symphonie de couleurs.
-Elle est partie, maso, avec un vieux macho
-Qu'elle avait rencontré dans une station de métro.
-Quand je les vois main dans la main fumant le même mégot,
-Je sens un pincement dans son cœur, mais elle n'ose dire un mot.
-\endverse 
+  \beginverse
+    Comme le trèfle à quatre feuilles, je cherche votre bonheur.
+    Je suis l'homme qui tombe à pic{\dots} pour prendre ton cœur.
+    Il faut se tenir à carreaux. Caro, ce message vient 
+    Du cœur.
+    Une pyramide de baisers, une tempête d'amitié,
+    Une vague de caresses, Un cyclone de douceur. 
+    Un océan de pensées. Caroline, je t'ai offert un building
+    De tendresse.
+    J'ai une peur bleue. J'suis poursuivi par l'armée rouge.
+    Pour toi j'ai pris des billets verts, il a fallu qu'je bouge.
+    Pyromane de ton cœur, Canadair de tes frayeurs,
+    Je t'ai offert une symphonie de couleurs.
+    Elle est partie, maso, avec un vieux macho
+    Qu'elle avait rencontré dans une station de métro.
+    Quand je les vois main dans la main fumant le même mégot,
+    Je sens un pincement dans son cœur, mais elle n'ose dire un mot.
+  \endverse 
 
-\musicnote{chorus}
+  \musicnote{chorus}
 
-\beginverse
-Claude MC prend le microphone, genre love story raggamuffin
-Pour te parler d'une amie qu'on appelle Caroline.
-Elle était ma dame, elle était ma came, elle était ma vitamine,
-Elle était ma drogue, ma dope, ma coke, mon crack, mon amphétamine,
-Caroline{\dots}
-Je repense à elle, femme actuelle, 20 ans, jeune et jolie.
-Remet donc le film à l'envers, magnéto de la vie.
-Pour elle, faut-il l'admettre, des larmes ont coulé.
-Hémorragie oculaire. Vive notre amitié.
+  \beginverse
+    Claude MC prend le microphone, genre love story raggamuffin
+    Pour te parler d'une amie qu'on appelle Caroline.
+    Elle était ma dame, elle était ma came, elle était ma vitamine,
+    Elle était ma drogue, ma dope, ma coke, mon crack, mon amphétamine,
+    Caroline{\dots}
+    Je repense à elle, femme actuelle, 20 ans, jeune et jolie.
+    Remet donc le film à l'envers, magnéto de la vie.
+    Pour elle, faut-il l'admettre, des larmes ont coulé.
+    Hémorragie oculaire. Vive notre amitié.
 
-Du passé, du présent, je l'espère, du futur,
-Je suis passé pour être présent dans ton futur.
-La vie est un jeu de cartes, Paris un casino.
-Je joue les rouges, cœur,
-Caro{\dots}
-\endverse
+    Du passé, du présent, je l'espère, du futur,
+    Je suis passé pour être présent dans ton futur.
+    La vie est un jeu de cartes, Paris un casino.
+    Je joue les rouges, cœur,
+    Caro{\dots}
+  \endverse
 
-\musicnote{chorus \rep{2}}
+  \musicnote{chorus \rep{2}}
 
 \endsong

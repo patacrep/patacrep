@@ -1,76 +1,77 @@
 \songcolumns{2}
-\beginsong{Sad robot}[by=Pornophonique,cov=8-bit-lagerfeuer]
+\beginsong{Sad robot}
+  [by=Pornophonique,cov=8-bit-lagerfeuer]
 
-\cover
-\gtab{Rém}{XX0231}
-\gtab{Fa}{1:022100}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Rém}{XX0231}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
 
-\lilypond{Sad_robot}
+  \lilypond{Sad_robot}
 
-\beginverse
-His \[Rém]steely skin is covered
-By \[Fa]centuries of dust
-\[Do]Once he was a great one
-\[Rém]Now he's dull and rust
-\endverse
+  \beginverse
+    His \[Rém]steely skin is covered
+    By \[Fa]centuries of dust
+    \[Do]Once he was a great one
+    \[Rém]Now he's dull and rust
+  \endverse
 
-\beginverse*
-An oily tear he's crying
-Can you feel the pain
-Of the sad, sad robot
-And it's driving him insane
-\endverse
+  \beginverse*
+    An oily tear he's crying
+    Can you feel the pain
+    Of the sad, sad robot
+    And it's driving him insane
+  \endverse
 
-\beginverse*
-He can't turn back time nor history
-So his life became a misery
-He has to face the destiny
-Nobody cares anymore
-\endverse
+  \beginverse*
+    He can't turn back time nor history
+    So his life became a misery
+    He has to face the destiny
+    Nobody cares anymore
+  \endverse
 
-\beginchorus
-Sad, sad robot
-Sad, sad robot
-Sad, sad robot
-All alone
-\endchorus
+  \beginchorus
+    Sad, sad robot
+    Sad, sad robot
+    Sad, sad robot
+    All alone
+  \endchorus
 
-\beginchorus
-He's a sad, sad robot \rep{3}
-He's so alone
-\endchorus
+  \beginchorus
+    He's a sad, sad robot \rep{3}
+    He's so alone
+  \endchorus
 
-\beginverse
-Me steely skin is covered
-By centuries of dust
-Once me was a great one
-But now I'm dull and rust
-\endverse
+  \beginverse
+    Me steely skin is covered
+    By centuries of dust
+    Once me was a great one
+    But now I'm dull and rust
+  \endverse
 
-\beginverse*
-An oily tear I'm crying
-Can you feel me pain
-I'm the sad, sad robot
-Driving me insane
-\endverse
+  \beginverse*
+    An oily tear I'm crying
+    Can you feel me pain
+    I'm the sad, sad robot
+    Driving me insane
+  \endverse
 
-\beginverse*
-I can't turn back time nor history
-So me life became a misery
-I have to face me destiny
-That I'm all on me own
-\endverse
+  \beginverse*
+    I can't turn back time nor history
+    So me life became a misery
+    I have to face me destiny
+    That I'm all on me own
+  \endverse
 
-\beginchorus
-Red, red robot
-I'm a red, red robot \rep{2}
-And so I shall return
-\endchorus
+  \beginchorus
+    Red, red robot
+    I'm a red, red robot \rep{2}
+    And so I shall return
+  \endchorus
 
-\beginchorus
-I'm a red, red robot \rep{3}
-So I shall return
-\endchorus
+  \beginchorus
+    I'm a red, red robot \rep{3}
+    So I shall return
+  \endchorus
 
 \endsong

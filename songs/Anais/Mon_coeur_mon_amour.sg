@@ -1,74 +1,74 @@
 \songcolumns{2}
-\beginsong{Mon cœur, mon amour}[by=Anais,cov=the-cheap-show]
+\beginsong{Mon cœur, mon amour}
+  [by=Anais,cov=the-cheap-show]
 
-\cover
-\gtab{Fa#}{2:022100}
-\gtab{Fa7/Do7}{2:002120}
-\gtab{Si}{2:X02220}
-\gtab{Do#}{4:X02220}
+  \cover
+  \gtab{Fa#}{2:022100}
+  \gtab{Fa7/Do7}{2:002120}
+  \gtab{Si}{2:X02220}
+  \gtab{Do#}{4:X02220}
 
-\beginverse
-\[Fa#]Mon cœur, mon \[Fa7/Do7]amour
-Mon amour, mon cœur
-Mon cœur, mon amour
-Mon amour, mon cœur
-\endverse
+  \beginverse
+    \[Fa#]Mon cœur, mon \[Fa7/Do7]amour
+    Mon amour, mon cœur
+    Mon cœur, mon amour
+    Mon amour, mon cœur
+  \endverse
 
-\beginverse
-\[Fa#]Ça dégouline d'\[Fa7/Do7]amour
-C'est beau mais c'est insupportable
-C'est un pudding bien lourd
-De mots doux à chaque phrase
-\[Si]Elle est belle ta \[Fa#]quiche amour
-Mon cœur, passe moi la salade
-Et ça se fait des mamours
-Se donne la becquée à table
-Ce mélange de sentiments
-Aromatisé aux fines herbes
-Me fait sourire gentiment
-\[Si]Et finalement me donne la \[Do#]gerbe
-\endverse
+  \beginverse
+    \[Fa#]Ça dégouline d'\[Fa7/Do7]amour
+    C'est beau mais c'est insupportable
+    C'est un pudding bien lourd
+    De mots doux à chaque phrase
+    \[Si]Elle est belle ta \[Fa#]quiche amour
+    Mon cœur, passe moi la salade
+    Et ça se fait des mamours
+    Se donne la becquée à table
+    Ce mélange de sentiments
+    Aromatisé aux fines herbes
+    Me fait sourire gentiment
+    \[Si]Et finalement me donne la \[Do#]gerbe
+  \endverse
 
-\beginchorus
-\[Si]Je hais les \[Do#]couples
-Qui me rapp\[Fa#]ellent que je suis \[Si]seule
-Je \[Si]déteste les \[Do#]couples
-Je les hais tout court!
-\endchorus
+  \beginchorus
+    \[Si]Je hais les \[Do#]couples
+    Qui me rapp\[Fa#]ellent que je suis \[Si]seule
+    Je \[Si]déteste les \[Do#]couples
+    Je les hais tout court!
+  \endchorus
 
-\beginverse
-Mon cœur, mon amour
-Mon amour, mon cœur
-Mon cœur, mon amour
-Mon amour, mon cœur
-Toulou toulou tou tou {\ldots}
-\endverse
+  \beginverse
+    Mon cœur, mon amour
+    Mon amour, mon cœur
+    Mon cœur, mon amour
+    Mon amour, mon cœur
+    Toulou toulou tou tou {\ldots}
+  \endverse
 
-\beginverse
-C'est un épais coulis
-Ça me laisse le cul par terre
-Autant de mièvreries
-Nappées de crème pâtissière
-Coucou, qu'est-ce que tu fais mon cœur?
-La même chose qu'y'a une demi-heure{\ldots}
-J't'ai appelé y'a 5 minutes mon ange
-Mais ça répondait pas
-Alors j'm'inquiétais, alors j't'ai rappelé
-Pour la douzième fois d'la journée,
-En niquant tout mon forfait
-Qu'est-ce que tu fais mon adoré? 
-Ouais, je sais, on s'voit après
-Bon, j't'embrasse fort, hein mon bébé
-J't'embrasse fort fort fort fort fort{\ldots}
-Non, c'est toi qui raccroche 
-Non, c'est toi
-Non, c'est toi qui raccroche
-Non, c'est toi {\ldots}
-Bon un deux trois
-T'as pas raccroché
-Un, deux, trois, 
-J'suis encore là !
-\endverse
-
+  \beginverse
+    C'est un épais coulis
+    Ça me laisse le cul par terre
+    Autant de mièvreries
+    Nappées de crème pâtissière
+    Coucou, qu'est-ce que tu fais mon cœur?
+    La même chose qu'y'a une demi-heure{\ldots}
+    J't'ai appelé y'a 5 minutes mon ange
+    Mais ça répondait pas
+    Alors j'm'inquiétais, alors j't'ai rappelé
+    Pour la douzième fois d'la journée,
+    En niquant tout mon forfait
+    Qu'est-ce que tu fais mon adoré? 
+    Ouais, je sais, on s'voit après
+    Bon, j't'embrasse fort, hein mon bébé
+    J't'embrasse fort fort fort fort fort{\ldots}
+    Non, c'est toi qui raccroche 
+    Non, c'est toi
+    Non, c'est toi qui raccroche
+    Non, c'est toi {\ldots}
+    Bon un deux trois
+    T'as pas raccroché
+    Un, deux, trois, 
+    J'suis encore là !
+  \endverse
 
 \endsong

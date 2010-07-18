@@ -1,52 +1,53 @@
 \songcolumns{2}
-\beginsong{Waiting on an Angel}[by=Ben Harper,cov=welcome-to-the-cruel-world]
+\beginsong{Waiting on an Angel}
+  [by=Ben Harper,cov=welcome-to-the-cruel-world]
 
-\cover
-\gtab{Do}{X30010}
-\gtab{Do/Si}{X20010}
-\gtab{Lam7/Mi}{000010}
-\gtab{Sol}{300000}
-\gtab{Fa}{100210}
+  \cover
+  \gtab{Do}{X30010}
+  \gtab{Do/Si}{X20010}
+  \gtab{Lam7/Mi}{000010}
+  \gtab{Sol}{300000}
+  \gtab{Fa}{100210}
 
-\beginverse
-\[Do]Wait\[Do/Si]ing on \[Lam/Mi7]an an\[Sol]gel
-\[Do]One to \[Do/Si]carry \[Lam/Mi]me home\[Sol]
-\[Do]Hope you \[Do/Si]come to \[Lam/Mi]see me soon\[Sol]
-Cause I \[Fa]don't \[Sol]want \[Lam/Mi]to go \[Lam/Mi]alone
-I \[Fa]don't \[Sol]wanna \[Do]go alone \[Do/Si]
-\endverse
+  \beginverse
+    \[Do]Wait\[Do/Si]ing on \[Lam/Mi7]an an\[Sol]gel
+    \[Do]One to \[Do/Si]carry \[Lam/Mi]me home\[Sol]
+    \[Do]Hope you \[Do/Si]come to \[Lam/Mi]see me soon\[Sol]
+    Cause I \[Fa]don't \[Sol]want \[Lam/Mi]to go \[Lam/Mi]alone
+    I \[Fa]don't \[Sol]wanna \[Do]go alone \[Do/Si]
+  \endverse
 
-\beginverse
-Now angel won't you come by me
-Angel hear my please
-Take my hand lift me up
-So that I can fly with thee
-So that I can fly with thee \[Lam7/Mi]
-\endverse
+  \beginverse
+    Now angel won't you come by me
+    Angel hear my please
+    Take my hand lift me up
+    So that I can fly with thee
+    So that I can fly with thee \[Lam7/Mi]
+  \endverse
 
-\beginchorus
-\[Fa]And I'm \[Sol]waiting \[Lam/Mi]on an angel\[Lam/Mi]
-\[Fa]And I \[Sol]know it \[Lam/Mi]won't be long\[Lam7/Mi]
-\[Fa]To find \[Sol]myself in \[Lam/Mi]a resting \[Lam/Mi]place
-\[Fa]In my \[Sol]angel's \[Do]arms \[Lam7/Mi]
-\[Fa]In my \[Sol]angel's \[Do]arms \[Do/Si]
-\endchorus
+  \beginchorus
+    \[Fa]And I'm \[Sol]waiting \[Lam/Mi]on an angel\[Lam/Mi]
+    \[Fa]And I \[Sol]know it \[Lam/Mi]won't be long\[Lam7/Mi]
+    \[Fa]To find \[Sol]myself in \[Lam/Mi]a resting \[Lam/Mi]place
+    \[Fa]In my \[Sol]angel's \[Do]arms \[Lam7/Mi]
+    \[Fa]In my \[Sol]angel's \[Do]arms \[Do/Si]
+  \endchorus
 
-\beginverse
-So speak kind to a stranger
-Cause you'll never know
-It just might be an angel come
-Knockin' at your door \rep{2}
-\endverse
+  \beginverse
+    So speak kind to a stranger
+    Cause you'll never know
+    It just might be an angel come
+    Knockin' at your door \rep{2}
+  \endverse
 
-\beginverse
-Waiting on an angel
-One to carry me home
-Hope you come to see me soon
-Cause I don't wanna go alone
-I don't wanna go alone
-Don't wanna go
-I don't wanna go alone 
-\endverse
+  \beginverse
+    Waiting on an angel
+    One to carry me home
+    Hope you come to see me soon
+    Cause I don't wanna go alone
+    I don't wanna go alone
+    Don't wanna go
+    I don't wanna go alone 
+  \endverse
 
 \endsong

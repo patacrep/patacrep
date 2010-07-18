@@ -1,5 +1,6 @@
 \songcolumns{1}
-\beginsong{Jessica}[by=As de Trêfle,cov=merci-bonsoir]
+\beginsong{Jessica}
+  [by=As de Trêfle,cov=merci-bonsoir]
 
   \cover
   \gtab{Do}{X32010}

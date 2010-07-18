@@ -1,63 +1,64 @@
 \songcolumns{1}
-\beginsong{Poupine et Thierry}[by=Les Wriggles,cov=ah-ben-ouais-mais-bon]
+\beginsong{Poupine et Thierry}
+  [by=Les Wriggles,cov=ah-ben-ouais-mais-bon]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Mim}{022000}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Sol7}{3:020100}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Mim}{022000}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{3:020100}
 
 
-\beginverse
-\[Lam]Un petit lapin qui s'\[Mim]appelait Poupine
-Avait \[Fa]rendez-\[Sol]vous \[Fa]avec sa Poupi\[Sol]nette
-Ses pa\[Lam]rents n'voulaient pas qu'elle de\[Mim]vienne sa copine
-Parce qu'en \[Fa]fait Poupi\[Sol]nette c'était \[Do]une \[Sol]be\[Do]lette.
-\endverse
+  \beginverse
+    \[Lam]Un petit lapin qui s'\[Mim]appelait Poupine
+    Avait \[Fa]rendez-\[Sol]vous \[Fa]avec sa Poupi\[Sol]nette
+    Ses pa\[Lam]rents n'voulaient pas qu'elle de\[Mim]vienne sa copine
+    Parce qu'en \[Fa]fait Poupi\[Sol]nette c'était \[Do]une \[Sol]be\[Do]lette.
+  \endverse
 
-\beginchorus
-\[Do]Thierry le chasseur est \[Sol]comme tous les chasseurs
-Il est \[Do]con-\[Sol]tent d'aller chasser
-\[Do]Il aime les fleurs, connaît \[Sol]la forêt par cœur
-Il est \[Do]con-cen\[Sol]tré sur son gibier.
-\endchorus
+  \beginchorus
+    \[Do]Thierry le chasseur est \[Sol]comme tous les chasseurs
+    Il est \[Do]con-\[Sol]tent d'aller chasser
+    \[Do]Il aime les fleurs, connaît \[Sol]la forêt par cœur
+    Il est \[Do]con-cen\[Sol]tré sur son gibier.
+  \endchorus
 
-\beginverse
-Poupine le lapin papouille l'arrière train
-De Poupinette qui s'écrit: ``Oh! Vas y, fais-moi mal!''
-Ça réveille Bernadette, Bernadette la vieille chouette
-Qui bondit: ``Une belette, un lapin, c'est pas normal!''
-\endverse
+  \beginverse
+    Poupine le lapin papouille l'arrière train
+    De Poupinette qui s'écrit: ``Oh! Vas y, fais-moi mal!''
+    Ça réveille Bernadette, Bernadette la vieille chouette
+    Qui bondit: ``Une belette, un lapin, c'est pas normal!''
+  \endverse
 
-\beginchorus
-Thierry le chasseur n'est pas un gros bourrin 
-Puisqu'il est con-forme à la tradition
-Si il écrase les fleurs, c'est à cause de son tout-terrain
-Puisqu'il est con-\[Sol7]ducteur attention
-\endchorus
+  \beginchorus
+    Thierry le chasseur n'est pas un gros bourrin 
+    Puisqu'il est con-forme à la tradition
+    Si il écrase les fleurs, c'est à cause de son tout-terrain
+    Puisqu'il est con-\[Sol7]ducteur attention
+  \endchorus
 
-\beginverse
-Petit lapin, derrière toi
-C'est toute la forêt qui commence à s'ébranler
-Prévenu par la chouette, voilà le papa,
-De ta Poupinette qui vient te coller une branlée.
-\endverse
+  \beginverse
+    Petit lapin, derrière toi
+    C'est toute la forêt qui commence à s'ébranler
+    Prévenu par la chouette, voilà le papa,
+    De ta Poupinette qui vient te coller une branlée.
+  \endverse
 
-\beginchorus
-Thierry le chasseur a eu une grosse halu
-Puisqu'il est con-vaincu d'avoir vu
-Une belette coller un pain à un tout petit lapin
-Il est con-trarié d'avoir pas pu 
-\endchorus
+  \beginchorus
+    Thierry le chasseur a eu une grosse halu
+    Puisqu'il est con-vaincu d'avoir vu
+    Une belette coller un pain à un tout petit lapin
+    Il est con-trarié d'avoir pas pu 
+  \endchorus
 
-\beginverse
-Sortir son fusil pour s'payer une grosse boucherie
-Puisqu'il est con-voqué au commando
-Spécial de son parti pour aller j'ter des œufs pourris
-Sur les con-gres-sistes écolos!
-\endverse
+  \beginverse
+    Sortir son fusil pour s'payer une grosse boucherie
+    Puisqu'il est con-voqué au commando
+    Spécial de son parti pour aller j'ter des œufs pourris
+    Sur les con-gres-sistes écolos!
+  \endverse
 
 \endsong

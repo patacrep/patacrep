@@ -1,58 +1,59 @@
 \songcolumns{2}
-\beginsong{How to save a life}[by=The Fray,cov=how-to-save-a-life]
+\beginsong{How to save a life}
+  [by=The Fray,cov=how-to-save-a-life]
 
-\capo{3}
-\cover
-\gtab{Sol}{320003}
-\gtab{Ré4}{XX0233}
-\gtab{Mim}{022000}
-\gtab{Ré}{XX0232}
-\gtab{Do}{X32010}
+  \capo{3}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Ré4}{XX0233}
+  \gtab{Mim}{022000}
+  \gtab{Ré}{XX0232}
+  \gtab{Do}{X32010}
 
-\musicnote{intro: Sol Ré4 Mim Ré Ré4 Sol}
+  \musicnote{intro: Sol Ré4 Mim Ré Ré4 Sol}
 
-\beginverse
-\[Sol]Step one you say we \[Ré4]{need to talk}
-He w\[Mim]alks you say sit do\[Ré]wn it's j\[Ré4]{ust a} ta\[Sol]lk
-He smiles pol\[Ré4]{itely back} to y\[Mim]ou
-You stare pol\[Ré]itely ri\[Ré4]{ght on} thr\[Sol]ough
-Some sort of wi\[Ré4]{ndow to your} r\[Mim]ight
-As he goes le\[Ré]ft and y\[Ré4]{ou stay} ri\[Sol]ght
-Between the li\[Ré4]{nes of fear} and b\[Mim]lame
-And you begin to wo\[Ré]nder w\[Ré4]{hy you} came
-\endverse
+  \beginverse
+    \[Sol]Step one you say we \[Ré4]{need to talk}
+    He w\[Mim]alks you say sit do\[Ré]wn it's j\[Ré4]{ust a} ta\[Sol]lk
+    He smiles pol\[Ré4]{itely back} to y\[Mim]ou
+    You stare pol\[Ré]itely ri\[Ré4]{ght on} thr\[Sol]ough
+    Some sort of wi\[Ré4]{ndow to your} r\[Mim]ight
+    As he goes le\[Ré]ft and y\[Ré4]{ou stay} ri\[Sol]ght
+    Between the li\[Ré4]{nes of fear} and b\[Mim]lame
+    And you begin to wo\[Ré]nder w\[Ré4]{hy you} came
+  \endverse
 
-\beginchorus
-Wh\[Do]ere did I go w\[Ré]rong, I lost a fr\[Mim]iend
-Somewhere al\[Sol]ong in the bit\[Ré4]terness
-And \[Do]{I would} have stayed \[Ré]{up with} you all n\[Mim]ight
-Had I known h\[Sol]ow to save a l\[Ré4]ife
-\endchorus
+  \beginchorus
+    Wh\[Do]ere did I go w\[Ré]rong, I lost a fr\[Mim]iend
+    Somewhere al\[Sol]ong in the bit\[Ré4]terness
+    And \[Do]{I would} have stayed \[Ré]{up with} you all n\[Mim]ight
+    Had I known h\[Sol]ow to save a l\[Ré4]ife
+  \endchorus
 
-\beginverse
-Let him know that you know best
-Cause after all you do know best
-Try to slip past his defense
-Without granting innocence
-Lay down a list of what is wrong
-The things you've told him all along
-Pray the God he hears you
-And pay the God he hears you
-\endverse
+  \beginverse
+    Let him know that you know best
+    Cause after all you do know best
+    Try to slip past his defense
+    Without granting innocence
+    Lay down a list of what is wrong
+    The things you've told him all along
+    Pray the God he hears you
+    And pay the God he hears you
+  \endverse
 
-\musicnote{chorus}
+  \musicnote{chorus}
 
-\beginverse
-As he begins to raise his voice
-You lower yours and grant him one last choice
-Drive until you lose the road
-Or break with the ones you've followed
-He will do one of two things 
-He will admit to everything
-Or he'll say he's just not the same
-And you'll begin to wonder why you came
-\endverse
+  \beginverse
+    As he begins to raise his voice
+    You lower yours and grant him one last choice
+    Drive until you lose the road
+    Or break with the ones you've followed
+    He will do one of two things 
+    He will admit to everything
+    Or he'll say he's just not the same
+    And you'll begin to wonder why you came
+  \endverse
 
-\musicnote{chorus \rep{3}}
+  \musicnote{chorus \rep{3}}
 
 \endsong

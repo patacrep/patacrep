@@ -1,44 +1,45 @@
 \songcolumns{1}
-\beginsong{Twist and Shout}[by=The Beatles,cov=please-please-me]
+\beginsong{Twist and Shout}
+  [by=The Beatles,cov=please-please-me]
 
-\cover
-\gtab{Ré}{5:X02220}
-\gtab{Sol}{3:022100}
-\gtab{La}{5:022100}
-\gtab{La7}{5:020130}
+  \cover
+  \gtab{Ré}{5:X02220}
+  \gtab{Sol}{3:022100}
+  \gtab{La}{5:022100}
+  \gtab{La7}{5:020130}
 
-\beginchorus
-\[La7]Well, shake it up, \[Ré]baby, now, \echo{\[Sol]shake it up, \[La]baby}
-\[La7]Twist and \[Ré]shout. \echo{\[Sol]twist and sh\[La]out}
-\[La7]Cmon cmon, cmon, cmon, \[Ré]baby, now, \echo{\[Sol]come on \[La]baby}
-\[La7]Come on and work it \[Ré]on out. \echo{\[Sol]work it on \[La]out}
-\endchorus
+  \beginchorus
+    \[La7]Well, shake it up, \[Ré]baby, now, \echo{\[Sol]shake it up, \[La]baby}
+    \[La7]Twist and \[Ré]shout. \echo{\[Sol]twist and sh\[La]out}
+    \[La7]Cmon cmon, cmon, cmon, \[Ré]baby, now, \echo{\[Sol]come on \[La]baby}
+    \[La7]Come on and work it \[Ré]on out. \echo{\[Sol]work it on \[La]out}
+  \endchorus
 
-\beginverse
-Well, work it on out, honey. \echo{work it on out}
-You know you look so good. \echo{look so good}
-You know you got me goin, now, \echo{got me goin}
-Just like I knew you would. \echo{like I knew you would, oooh!}
-\endverse
+  \beginverse
+    Well, work it on out, honey. \echo{work it on out}
+    You know you look so good. \echo{look so good}
+    You know you got me goin, now, \echo{got me goin}
+    Just like I knew you would. \echo{like I knew you would, oooh!}
+  \endverse
 
-\musicnote{chorus}
+  \musicnote{chorus}
 
-\beginverse
-You know you're a twisty little girl, \echo{twist little girl}
-You know you twist so fine. \echo{twist so fine}
-Come on and twist a little closer, now, \echo{twist a little closer}
-And let me know that you're mine. \echo{let me know you're mine oooh}
-\endverse
+  \beginverse
+    You know you're a twisty little girl, \echo{twist little girl}
+    You know you twist so fine. \echo{twist so fine}
+    Come on and twist a little closer, now, \echo{twist a little closer}
+    And let me know that you're mine. \echo{let me know you're mine oooh}
+  \endverse
 
-\beginverse*
-\[La]Ahhhhh \echo{Ahhhhh Ahhhhh} Ahhhhh \echo{Ahhhhh Ahhhhh}
-\endverse
+  \beginverse*
+    \[La]Ahhhhh \echo{Ahhhhh Ahhhhh} Ahhhhh \echo{Ahhhhh Ahhhhh}
+  \endverse
 
-\musicnote{chorus, repeat verse 2}
+  \musicnote{chorus, repeat verse 2}
 
-\beginverse*
-\[La7]Well, shake it, shake it, shake it, \[Ré]baby, now. \echo{\[Sol]shake it up \[La]baby} \rep{3}
-\[La]Ahhhhh \echo{Ahhhhh Ahhhhh} Ah!
-\endverse
+  \beginverse*
+    \[La7]Well, shake it, shake it, shake it, \[Ré]baby, now. \echo{\[Sol]shake it up \[La]baby} \rep{3}
+    \[La]Ahhhhh \echo{Ahhhhh Ahhhhh} Ah!
+  \endverse
 
 \endsong

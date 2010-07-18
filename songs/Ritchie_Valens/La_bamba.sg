@@ -1,38 +1,39 @@
 \songcolumns{2}
-\beginsong{La Bamba}[by=Ritchie Valens,cov=la-bamba]
+\beginsong{La Bamba}
+  [by=Ritchie Valens,cov=la-bamba]
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
 
 
-\beginverse
-Para bailar la \[Do]Bamba\[Fa Sol]
-Para bailar la \[Do]Bamba
-Se nece\[Fa]ssi\[Sol]ta una poca de \[Do]gracia\[Fa Sol]
-Una poca de \[Do]gracia
-Para \[Fa]mi, para \[Sol]ti, ay arriba, ay arri\[Do]ba\[Fa Sol]
-Ay, arriba arri\[Do]ba
-Por \[Fa]ti se\[Sol]re, por ti se\[Do]re, por \[Fa]ti se\[Sol]re
-\endverse
+  \beginverse
+    Para bailar la \[Do]Bamba\[Fa Sol]
+    Para bailar la \[Do]Bamba
+    Se nece\[Fa]ssi\[Sol]ta una poca de \[Do]gracia\[Fa Sol]
+    Una poca de \[Do]gracia
+    Para \[Fa]mi, para \[Sol]ti, ay arriba, ay arri\[Do]ba\[Fa Sol]
+    Ay, arriba arri\[Do]ba
+    Por \[Fa]ti se\[Sol]re, por ti se\[Do]re, por \[Fa]ti se\[Sol]re
+  \endverse
 
-\beginverse
-Yo no soy marinero
-Yo no soy marinero, soy capitan
-Soy capitan, soy capitan
-Baila, bamba
-Baila, bamba
-Baila, bamba
-\endverse
+  \beginverse
+    Yo no soy marinero
+    Yo no soy marinero, soy capitan
+    Soy capitan, soy capitan
+    Baila, bamba
+    Baila, bamba
+    Baila, bamba
+  \endverse
 
-\beginverse
-Para bailar la Bamba
-Para bailar la Bamba
-Se necessita una poca de gracia
-Una poca de gracia
-Para mi, para ti, ay arriba, ay arriba
-\endverse
+  \beginverse
+    Para bailar la Bamba
+    Para bailar la Bamba
+    Se necessita una poca de gracia
+    Una poca de gracia
+    Para mi, para ti, ay arriba, ay arriba
+  \endverse
 
 \endsong

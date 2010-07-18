@@ -1,58 +1,60 @@
 \songcolumns{1}
-\beginsong{Mr. Rock'n Roll}[by=Amy MacDonald,cov=this-is-the-life]
+\beginsong{Mr. Rock'n Roll}
+  [by=Amy MacDonald,cov=this-is-the-life]
 
-\capo{7}
-\cover
-\gtab{Ré}{XX0232}
-\gtab{Ré4}{XX0233}
-\gtab{Ré6/9}{XX0200}
-\gtab{La4}{X02230}
-\gtab{Mim7}{022030}
-\gtab{Sol}{320033}
+  \capo{7}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{Ré4}{XX0233}
+  \gtab{Ré6/9}{XX0200}
+  \gtab{La4}{X02230}
+  \gtab{Mim7}{022030}
+  \gtab{Sol}{320033}
 
-\beginverse
-\[Ré]So called Mr. Rock 'n Roll he's dancing on his own again,
-Talking on his phone again to someone, who tells him that his 
-\[Sol]Balance is low, he's got nowhere to go, he's on his own again.
-{\nolyrics \[Ré Ré4 Ré6/9 Ré] \rep{2}}
-\endverse
+  \beginverse
+    \[Ré]So called Mr. Rock 'n Roll he's dancing on his own again,
+    Talking on his phone again to someone, who tells him that his 
+    \[Sol]Balance is low, he's got nowhere to go, he's on his own again.
+    {\nolyrics \[Ré Ré4 Ré6/9 Ré] \rep{2}}
+  \endverse
 
-\beginverse
-Rock chic of the century is acting like she used to be, 
-Dancing like there's no one there before she ever seemed to care now
-She wouldn't dare, it's so rock 'n roll to be alo-(h)one.
-\endverse
+  \beginverse
+    Rock chic of the century is acting like she used to be, 
+    Dancing like there's no one there before she ever seemed to care now
+    She wouldn't dare, it's so rock 'n roll to be alo-(h)one.
+  \endverse
 
-\beginchorus
-And they'll \[La4]meet one day far away and say 
-\[Mim7]{I wish} I was something more,
-And they'll \[La4]meet one day far away and say 
-\[Mim7]{I wish} I knew you, I wish I knew you before.
-{\nolyrics \[Ré Ré4 Ré6/9 Ré] \rep{4}}
-\endchorus
+  \beginchorus
+    And they'll \[La4]meet one day far away and say 
+    \[Mim7]{I wish} I was something more,
+    And they'll \[La4]meet one day far away and say 
+    \[Mim7]{I wish} I knew you, I wish I knew you before.
+    {\nolyrics \[Ré Ré4 Ré6/9 Ré] \rep{4}}
+  \endchorus
 
-\beginverse
-Mrs. Black and White she's never seen a shade of grey
-Always something on her mind, every single day
-But now she's lost her way, and where does she go from here? 
-\endverse
+  \beginverse
+    Mrs. Black and White she's never seen a shade of grey
+    Always something on her mind, every single day
+    But now she's lost her way, and where does she go from here? 
+  \endverse
 
-\beginverse
-Mr. Multicultural sees all that one could see,                                          
-He's living proof of someone very different to me 
-But now he want's to be free, free so he can see. 
-\endverse
+  \beginverse
+    Mr. Multicultural sees all that one could see,
+    He's living proof of someone very different to me 
+    But now he want's to be free, free so he can see. 
+  \endverse
 
-\beginchorus
-He'll say \[Mim7]{I wish} I knew you, 
-\[La4]{I wish} met you when \[Sol]time was still on my \[Ré]side
-She'll say \[Mim7]{I wish} I knew you,
-\[La4]{I wish} I loved you \[Sol]before I was his \[La4]bride.
-\endchorus
+  \beginchorus
+    He'll say \[Mim7]{I wish} I knew you, 
+    \[La4]{I wish} met you when \[Sol]time was still on my \[Ré]side
+    She'll say \[Mim7]{I wish} I knew you,
+    \[La4]{I wish} I loved you \[Sol]before I was his \[La4]bride.
+  \endchorus
 
-\beginverse
-And so they must be depart too many moral broken hearts
-But I've seen that all before in TV, books and films and more
-And there's a happy ending, every single day.
-\endverse
+  \beginverse
+    And so they must be depart too many moral broken hearts
+    But I've seen that all before in TV, books and films and more
+    And there's a happy ending, every single day.
+  \endverse
+
 \endsong

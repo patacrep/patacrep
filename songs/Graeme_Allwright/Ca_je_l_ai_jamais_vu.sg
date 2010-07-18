@@ -1,69 +1,70 @@
 \songcolumns{1}
-\beginsong{Ça je l'ai jamais vu}[by=Graeme Allwright,cov=emmene-moi]
+\beginsong{Ça je l'ai jamais vu}
+  [by=Graeme Allwright,cov=emmene-moi]
 
 
-\cover
-\gtab{Ré}{XX0232}
-\gtab{Sol}{320003}
-\gtab{La7}{X02020}
-\gtab{Mi7}{020100}
-\gtab{La}{X02220}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{La7}{X02020}
+  \gtab{Mi7}{020100}
+  \gtab{La}{X02220}
 
 
-\beginverse
-J'\[Ré]entre à la maison l'autre nuit, j'avais \[Sol]bu un peu de \[Ré]vin
-J'ai vu un ch'val dans l'écurie où \[La7]{je mettais} le mien
-A\[Ré]lors j'ai dit à ma p'tite femme: ``Veux \[Sol]tu bien m'expli\[Ré]quer?
-Y'a un ch'val dans l'écurie à la \[La7]place de mon bi\[Ré]det?''
-\endverse
+  \beginverse
+    J'\[Ré]entre à la maison l'autre nuit, j'avais \[Sol]bu un peu de \[Ré]vin
+    J'ai vu un ch'val dans l'écurie où \[La7]{je mettais} le mien
+    A\[Ré]lors j'ai dit à ma p'tite femme: ``Veux \[Sol]tu bien m'expli\[Ré]quer?
+    Y'a un ch'val dans l'écurie à la \[La7]place de mon bi\[Ré]det?''
+  \endverse
 
-\beginverse
-``Mon \[Sol]pauvre ami, tu n'vois pas clair, le vin t'as trop sao\[Ré]ulé
-Ce n'est qu'une vache à lait que \[Mi7]ta mère m'a \[La7]donnée.''
-Dans la \[Ré]vie j'ai vu pas mal de choses bi\[Sol]zarres et saugre\[Ré]nues
-Mais une selle sur une vache à lait, \[La]ça je n'l'ai jamais \[Ré]vu
-\endverse
+  \beginverse
+    ``Mon \[Sol]pauvre ami, tu n'vois pas clair, le vin t'as trop sao\[Ré]ulé
+    Ce n'est qu'une vache à lait que \[Mi7]ta mère m'a \[La7]donnée.''
+    Dans la \[Ré]vie j'ai vu pas mal de choses bi\[Sol]zarres et saugre\[Ré]nues
+    Mais une selle sur une vache à lait, \[La]ça je n'l'ai jamais \[Ré]vu
+  \endverse
 
-\beginverse
-La nuit suivante j'entre chez moi, j'avais bu un peu de vin
-J'ai vu un chapeau accroché où j'accrochais le mien,
-Alors j'ai dit à ma p'tite femme: ``Veux tu bien m'expliquer?
-Qu'est-ce que c'est que ce chapeau là à la place de mon béret?''
-\endverse
+  \beginverse
+    La nuit suivante j'entre chez moi, j'avais bu un peu de vin
+    J'ai vu un chapeau accroché où j'accrochais le mien,
+    Alors j'ai dit à ma p'tite femme: ``Veux tu bien m'expliquer?
+    Qu'est-ce que c'est que ce chapeau là à la place de mon béret?''
+  \endverse
 
-\beginverse
-``Mon pauvre ami, tu n'vois pas clair, le vin t'as trop saoulé
-Ce n'est rien qu'une vieille casserole que grand mère m'a donnée.''
-Dans la vie j'ai vu pas mal de choses bizarres et saugrenues
-Mais une vieille casserole en feutre, ça je n'l'ai jamais vu.
-\endverse
+  \beginverse
+    ``Mon pauvre ami, tu n'vois pas clair, le vin t'as trop saoulé
+    Ce n'est rien qu'une vieille casserole que grand mère m'a donnée.''
+    Dans la vie j'ai vu pas mal de choses bizarres et saugrenues
+    Mais une vieille casserole en feutre, ça je n'l'ai jamais vu.
+  \endverse
 
-\beginverse
-Une nuit plus tard j'entre chez moi, j'avais bu un peu de vin
-Sur une chaise j'ai vu un pantalon où je posais le mien,
-Alors j'ai dit à ma p'tite femme: ``Je voudrais bien savoir,
-Pourquoi ce pantalon est gris, le mien est toujours noir?''
-\endverse
+  \beginverse
+    Une nuit plus tard j'entre chez moi, j'avais bu un peu de vin
+    Sur une chaise j'ai vu un pantalon où je posais le mien,
+    Alors j'ai dit à ma p'tite femme: ``Je voudrais bien savoir,
+    Pourquoi ce pantalon est gris, le mien est toujours noir?''
+  \endverse
 
-\beginverse
-``Mon pauvre ami, tu n'vois pas clair, le vin t'as trop saoulé
-Ce n'est rien qu'un vieux chiffon que maman m'a donné.''
-Dans la vie j'ai vu pas mal de choses, mais ça c'est un mystère,
-Un chiffon avec deux tuyaux et une fermeture éclair.
-\endverse
+  \beginverse
+    ``Mon pauvre ami, tu n'vois pas clair, le vin t'as trop saoulé
+    Ce n'est rien qu'un vieux chiffon que maman m'a donné.''
+    Dans la vie j'ai vu pas mal de choses, mais ça c'est un mystère,
+    Un chiffon avec deux tuyaux et une fermeture éclair.
+  \endverse
 
-\beginverse
-En titubant j'entre chez moi, je suis resté baba
-J'ai vu une tête sur l'oreiller qui ne me ressemblait pas,
-Alors j'ai dit à ma p'tite femme: ``Peux-tu m'expliquer ça?
-Qu'est-ce c'est qu'cette tête là, je n'pense pas qu'c'est moi?''
-\endverse
+  \beginverse
+    En titubant j'entre chez moi, je suis resté baba
+    J'ai vu une tête sur l'oreiller qui ne me ressemblait pas,
+    Alors j'ai dit à ma p'tite femme: ``Peux-tu m'expliquer ça?
+    Qu'est-ce c'est qu'cette tête là, je n'pense pas qu'c'est moi?''
+  \endverse
 
-\beginverse
-``Mon pauvre ami, tu n'vois pas clair, le vin t'as trop saoulé
-Ce n'est rien qu'un vieux melon, que grand-mère m'a donné.''
-Des prix de concours agricoles, j'peux dire que j'en ai eu
-Mais une moustache sur un melon, ça je n'l'ai jamais vu.
-\endverse
+  \beginverse
+    ``Mon pauvre ami, tu n'vois pas clair, le vin t'as trop saoulé
+    Ce n'est rien qu'un vieux melon, que grand-mère m'a donné.''
+    Des prix de concours agricoles, j'peux dire que j'en ai eu
+    Mais une moustache sur un melon, ça je n'l'ai jamais vu.
+  \endverse
 
 \endsong

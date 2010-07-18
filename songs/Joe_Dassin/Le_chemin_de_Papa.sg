@@ -1,48 +1,50 @@
 \songcolumns{2}
-\beginsong{Le chemin de papa}[by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
+\beginsong{Le chemin de papa}
+  [by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Mi7}{020100}
-\gtab{La7}{X02020}
-\gtab{Rém}{XX0231}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Sol7}{320001}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Mi7}{020100}
+  \gtab{La7}{X02020}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{320001}
 
 
-\beginverse
-\[Lam]{Il était} un peu poète et un peu vaga\[Mi7]bond
-Il n'avait jamais connu ni patrie, ni pat\[Lam]ron
-Il venait de n'importe où, all\[La7]ait aux quatre \[Rém]vents
-Mais dedans sa rou\[Lam]lotte nous \[Mi7]étions dix en\[Lam]fants
-Et le soir, au\[Sol]tour d'un feu de \[Do]camp
-On rê\[Lam]vait d'une \[Sol]maison blanche \[Do]en chantant
-\endverse
+  \beginverse
+    \[Lam]{Il était} un peu poète et un peu vaga\[Mi7]bond
+    Il n'avait jamais connu ni patrie, ni pat\[Lam]ron
+    Il venait de n'importe où, all\[La7]ait aux quatre \[Rém]vents
+    Mais dedans sa rou\[Lam]lotte nous \[Mi7]étions dix en\[Lam]fants
+    Et le soir, au\[Sol]tour d'un feu de \[Do]camp
+    On rê\[Lam]vait d'une \[Sol]maison blanche \[Do]en chantant
+  \endverse
 
-\beginchorus
-Qu'il est \[Do]long, qu'il est loin, ton che\[Sol7]min, Papa
-C'est vraiment fatiguant d'aller \[Do]où tu vas
-Qu'il est \[Do]long, qu'il est loin, ton che\[Sol7]min, Papa
-Tu devrais t'arrêter dans ce \[Mi7]coin
-\endchorus
+  \beginchorus
+    Qu'il est \[Do]long, qu'il est loin, ton che\[Sol7]min, Papa
+    C'est vraiment fatiguant d'aller \[Do]où tu vas
+    Qu'il est \[Do]long, qu'il est loin, ton che\[Sol7]min, Papa
+    Tu devrais t'arrêter dans ce \[Mi7]coin
+  \endchorus
 
-\beginverse
-Mais il ne nous écoutait pas et dès le petit jour
-La famille reprenait son voyage au long cours
-À peine le temps pour notre mère de laver sa chemise
-Et nous voilà repartis pour une nouvelle Terre Promise
-Et le soir, autour d'un feu de camp
-Elle rêvait d'une maison blanche en chantant
-\endverse
+  \beginverse
+    Mais il ne nous écoutait pas et dès le petit jour
+    La famille reprenait son voyage au long cours
+    À peine le temps pour notre mère de laver sa chemise
+    Et nous voilà repartis pour une nouvelle Terre Promise
+    Et le soir, autour d'un feu de camp
+    Elle rêvait d'une maison blanche en chantant
+  \endverse
 
-\beginverse
-Et c'est ainsi que cahotant à travers les saisons
-C'est ainsi que regardant par-dessus l'horizon
-Sans même s'en apercevoir, not'père nous a semés
-Aux quatre coins du monde comme des grains de blé
-Et quelque part au bout de l'univers
-Roule encore la vieille roulotte de mon père
-\endverse
+  \beginverse
+    Et c'est ainsi que cahotant à travers les saisons
+    C'est ainsi que regardant par-dessus l'horizon
+    Sans même s'en apercevoir, not'père nous a semés
+    Aux quatre coins du monde comme des grains de blé
+    Et quelque part au bout de l'univers
+    Roule encore la vieille roulotte de mon père
+  \endverse
+
 \endsong

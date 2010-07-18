@@ -1,68 +1,69 @@
 \songcolumns{2}
-\beginsong{La compagnie du chien rugissant}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
+\beginsong{La compagnie du chien rugissant}
+  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
-\capo{3}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Mim}{022000}
+  \capo{3}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
 
-\beginverse
-\[Lam]Nous étions \[Do]quatre as\[Sol]sis dans l'au\[Lam]berge
-Buvant une \[Do]chope de nos \[Mim]maigres de\[Lam]niers
-La \[Lam]bourse était \[Do]vide, tout \[Sol]comme notre \[Mim]{sac à dos}
-\[Lam]La compa\[Mim]gnie a\[Sol]ttend un bou\[Lam]lot
-\endverse
+  \beginverse
+    \[Lam]Nous étions \[Do]quatre as\[Sol]sis dans l'au\[Lam]berge
+    Buvant une \[Do]chope de nos \[Mim]maigres de\[Lam]niers
+    La \[Lam]bourse était \[Do]vide, tout \[Sol]comme notre \[Mim]{sac à dos}
+    \[Lam]La compa\[Mim]gnie a\[Sol]ttend un bou\[Lam]lot
+  \endverse
 
-\beginverse
-Un magicien, une guerrière farouche
-Un voleur, une ogre et moi l'elfe noir
-C'était notre groupe au nom déjà éloquent
-La compagnie du chien rugissant
-\endverse
+  \beginverse
+    Un magicien, une guerrière farouche
+    Un voleur, une ogre et moi l'elfe noir
+    C'était notre groupe au nom déjà éloquent
+    La compagnie du chien rugissant
+  \endverse
 
-\beginverse
-Il est sorti des ombres mouvantes
-Grande silhouette encapuchonnée
-Avec l'air méfiant de ceux qui sont avisés
-La compagnie salue l'étranger
-\endverse
+  \beginverse
+    Il est sorti des ombres mouvantes
+    Grande silhouette encapuchonnée
+    Avec l'air méfiant de ceux qui sont avisés
+    La compagnie salue l'étranger
+  \endverse
 
-\beginverse
-``Braves amis, cherchez-vous l'escapade ?''
-Dit-il en se joignant à notre tablée
-``J'ai besoin urgent d'un parti d'aventuriers''
-La compagnie commence à l'aimer
-\endverse
+  \beginverse
+    ``Braves amis, cherchez-vous l'escapade ?''
+    Dit-il en se joignant à notre tablée
+    ``J'ai besoin urgent d'un parti d'aventuriers''
+    La compagnie commence à l'aimer
+  \endverse
 
-\beginverse
-``Je vous envoie retrouver mon grimoire
-Chez les brigands vous irez le chercher
-- L'affaire est plaisante mais y serons-nous gagnants ?''
-La compagnie a besoin d'argent
-\endverse
+  \beginverse
+    ``Je vous envoie retrouver mon grimoire
+    Chez les brigands vous irez le chercher
+    - L'affaire est plaisante mais y serons-nous gagnants ?''
+    La compagnie a besoin d'argent
+  \endverse
 
-\beginverse
-``Trente pièces d'or pour le groupe entier
-Vous ne semblez pas d'un bon niveau''
-Pour qui se prit-il, cet espèce de sac à vin
-La compagnie va lui mettre un pain
-\endverse
+  \beginverse
+    ``Trente pièces d'or pour le groupe entier
+    Vous ne semblez pas d'un bon niveau''
+    Pour qui se prit-il, cet espèce de sac à vin
+    La compagnie va lui mettre un pain
+  \endverse
 
-\beginverse
-``Fils de chien !'' rugit la guerrière
-Et son épée lui mit dans l'œil droit
-``Adieu étranger, rendez vous dans l'Au-Delà''
-La compagnie doit quitter l'endroit
-\endverse
+  \beginverse
+    ``Fils de chien !'' rugit la guerrière
+    Et son épée lui mit dans l'œil droit
+    ``Adieu étranger, rendez vous dans l'Au-Delà''
+    La compagnie doit quitter l'endroit
+  \endverse
 
-\beginverse
-Nous étions quatre assis dans la neige
-``Qu'ai-je dont fait ?'' maudit la guerrière
-Notre première quête, expédiée dans le ruisseau
-La compagnie attend un boulot
-\endverse
+  \beginverse
+    Nous étions quatre assis dans la neige
+    ``Qu'ai-je dont fait ?'' maudit la guerrière
+    Notre première quête, expédiée dans le ruisseau
+    La compagnie attend un boulot
+  \endverse
 
 \endsong
 

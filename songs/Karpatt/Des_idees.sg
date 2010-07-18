@@ -1,63 +1,62 @@
 \songcolumns{2}
-\beginsong{Des idées}[by=Karpatt,cov=dans-d-beaux-draps]
+\beginsong{Des idées}
+  [by=Karpatt,cov=dans-d-beaux-draps]
 
-\cover
-\gtab{Lam}{5:022000}
-\gtab{Mi7}{5:X2120X}
-\gtab{Dom}{3:X02210}
-\gtab{La&}{4:022100}
-\gtab{Sol}{3:022100}
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Mi7}{5:X2120X}
+  \gtab{Dom}{3:X02210}
+  \gtab{La&}{4:022100}
+  \gtab{Sol}{3:022100}
 
-\beginverse
-Des idées \[Lam]en tranches dans \[Mi7]un magasin
-Des idées \[Lam]qui flanchent, d'au\[Mi7]tres qui vont bien
-Des idées \[Lam]offertes au \[Mi7]premier venu
-Des idées \[Lam]vénales, des idées \[Mi7]velues
-\endverse
+  \beginverse
+    Des idées \[Lam]en tranches dans \[Mi7]un magasin
+    Des idées \[Lam]qui flanchent, d'au\[Mi7]tres qui vont bien
+    Des idées \[Lam]offertes au \[Mi7]premier venu
+    Des idées \[Lam]vénales, des idées \[Mi7]velues
+  \endverse
 
-\beginverse*
-Des idées qui pleuvent sous un parapluie
-Des idées qui brillent quand vient la nuit
-Des idées qu'on plisse pour pas les froisser
-Des idées factices, des idées fâchées.
-\endverse
+  \beginverse*
+    Des idées qui pleuvent sous un parapluie
+    Des idées qui brillent quand vient la nuit
+    Des idées qu'on plisse pour pas les froisser
+    Des idées factices, des idées fâchées.
+  \endverse
 
-\beginverse*
-Des idées d'\[Dom]génie qu'on n'\[La&]{a pas} sou\[Sol]vent
-Des idées \[Dom]lointaines qui vo\[La&]yagent \[Sol]tout le temps
-Des idées \[Dom]dociles tou\[La&]jours bienve\[Sol]nues 
-Des idées \[Dom]qui plaisent, des idées \[La&]per\[Sol]dues.
-\endverse
+  \beginverse*
+    Des idées d'\[Dom]génie qu'on n'\[La&]{a pas} sou\[Sol]vent
+    Des idées \[Dom]lointaines qui vo\[La&]yagent \[Sol]tout le temps
+    Des idées \[Dom]dociles tou\[La&]jours bienve\[Sol]nues 
+    Des idées \[Dom]qui plaisent, des idées \[La&]per\[Sol]dues.
+  \endverse
 
-\beginchorus
-Des idées à \echo{dés à} coudre avec du fil de soie \echo{de quoi ?}
-Des idées en \echo{des envers} des endroits qu'on garde à l'endroit
-Des idées reçues \echo{des reçus} en paquet cadeau
-Des idées soudaines \echo{daines, daines, daines}
-Des coups d'épée dans l'eau
-\endchorus
+  \beginchorus
+    Des idées à \echo{dés à} coudre avec du fil de soie \echo{de quoi ?}
+    Des idées en \echo{des envers} des endroits qu'on garde à l'endroit
+    Des idées reçues \echo{des reçus} en paquet cadeau
+    Des idées soudaines \echo{daines, daines, daines}
+    Des coups d'épée dans l'eau
+  \endchorus
 
-\beginverse
-Des idées ratées, desiderata
-Des idées rapides qu'on n'arrêtent pas
-Des idées trop con et pas con du tout
-Des idées bidons, des idées d'bisous
-\endverse
+  \beginverse
+    Des idées ratées, desiderata
+    Des idées rapides qu'on n'arrêtent pas
+    Des idées trop con et pas con du tout
+    Des idées bidons, des idées d'bisous
+  \endverse
 
-\beginverse*
-Des idées minimes qui vont crescendo
-Des id'erronées, d'autres en domino
-Des idées pour rire ou pour faire marrer
-Des idées d'emmerdes, des idées d'mariés
-\endverse
+  \beginverse*
+    Des idées minimes qui vont crescendo
+    Des id'erronées, d'autres en domino
+    Des idées pour rire ou pour faire marrer
+    Des idées d'emmerdes, des idées d'mariés
+  \endverse
 
-\beginverse*
-Des idéogrammes pour faire un kilo
-Des idées légères qui pèsent leurs mots
-Des idées faciles, petits bouts d'ficelle
-Des idées futiles, des idées fidèles
-\endverse
-
-
+  \beginverse*
+    Des idéogrammes pour faire un kilo
+    Des idées légères qui pèsent leurs mots
+    Des idées faciles, petits bouts d'ficelle
+    Des idées futiles, des idées fidèles
+  \endverse
 
 \endsong

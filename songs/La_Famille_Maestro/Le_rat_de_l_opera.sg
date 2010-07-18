@@ -1,64 +1,65 @@
 \songcolumns{2}
-\beginsong{Le rat de l'opéra}[by=La Famille Maestro,cov=opus2]
+\beginsong{Le rat de l'opéra}
+  [by=La Famille Maestro,cov=opus2]
 
-\cover
-\gtab{La}{X02220}
-\gtab{Ré}{XX0232}
-\gtab{Mi}{022100}
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Mi}{022100}
 
-\lilypond{Le_rat_de_l_opera-1}
+  \lilypond{Le_rat_de_l_opera-1}
 
-\beginverse
-\[La]Il était une fois un gentil rat vivant à la pointe du \[Ré]raz
-Ce rat là \[Mi]râlait au fond d'un placard, d'un placard à ba\[La]llet
-Il se di\[La]sait le destin est méchant
-Qui ne sut faire de moi qu'un rat, qu'un rat des \[Ré]champs
-Moi, qui ne \[Mi]trouve alléchant que le chant, le chant de l'opé\[La]ra
-\endverse
+  \beginverse
+    \[La]Il était une fois un gentil rat vivant à la pointe du \[Ré]raz
+    Ce rat là \[Mi]râlait au fond d'un placard, d'un placard à ba\[La]llet
+    Il se di\[La]sait le destin est méchant
+    Qui ne sut faire de moi qu'un rat, qu'un rat des \[Ré]champs
+    Moi, qui ne \[Mi]trouve alléchant que le chant, le chant de l'opé\[La]ra
+  \endverse
 
-\beginverse
-Au ras des planches de son débarras, le rat faisait des entrechats
-Ce rat là rêvait qu'il était un petit rat de l'opéra
-Quand le chat n'est pas là les souris dansent
-Alors pourquoi les rats n'auraient pas cette chance là
-Le seul ballet que je veux voir passer est au palais Garnier
-\endverse
+  \beginverse
+    Au ras des planches de son débarras, le rat faisait des entrechats
+    Ce rat là rêvait qu'il était un petit rat de l'opéra
+    Quand le chat n'est pas là les souris dansent
+    Alors pourquoi les rats n'auraient pas cette chance là
+    Le seul ballet que je veux voir passer est au palais Garnier
+  \endverse
 
-\lilypond{Le_rat_de_l_opera-2}
+  \lilypond{Le_rat_de_l_opera-2}
 
-\beginchorus
-\[La]Où tu l'as \[Mi]mis mon tu\[La]tu, l'as \[Mi]mis, l'as mis, l'as mis
-\[La]Où, sont mes chaussons poin\[Mi]tus, où tu \[La]les as mis
-Ou tu tu tu tu \[La]tu
-La mi la mi la \[Mi]mi
-Ou tu tu tu tu \[La]tu
-Les as mis, les as \[Ré]mis
-Mon tutu, mon tu\[La]tu
-Et mes chaussons pointus
-Tu tu les as mis \[Mi]où, où, où ?
-\endchorus
+  \beginchorus
+    \[La]Où tu l'as \[Mi]mis mon tu\[La]tu, l'as \[Mi]mis, l'as mis, l'as mis
+    \[La]Où, sont mes chaussons poin\[Mi]tus, où tu \[La]les as mis
+    Ou tu tu tu tu \[La]tu
+    La mi la mi la \[Mi]mi
+    Ou tu tu tu tu \[La]tu
+    Les as mis, les as \[Ré]mis
+    Mon tutu, mon tu\[La]tu
+    Et mes chaussons pointus
+    Tu tu les as mis \[Mi]où, où, où ?
+  \endchorus
 
-\beginverse
-Il était une fois un gentil rat vivant à la pointe du raz
-Le rabougri en avait ras le bol de n'être qu'un raté
-Il se disait si l'opéra engage
-Des petits rats au gage alors pourquoi pas moi, moi
-Le seul ballet dont j'aime la pratique est le ballet classique
-\endverse
+  \beginverse
+    Il était une fois un gentil rat vivant à la pointe du raz
+    Le rabougri en avait ras le bol de n'être qu'un raté
+    Il se disait si l'opéra engage
+    Des petits rats au gage alors pourquoi pas moi, moi
+    Le seul ballet dont j'aime la pratique est le ballet classique
+  \endverse
 
-\beginverse
-Arrivant Paris place de l'Opéra, le rat des champs dut déchanter
-On lui dit: ``Pas de rats chez nous, car ta vraie place est à l'égout''
-Il se dressa sur la pointe des pattes
-Et pour les épater, faisait des pointes, et trois, quatre
-On lui tendit un panneau qui disait: ``On va dératiser''
-\endverse
+  \beginverse
+    Arrivant Paris place de l'Opéra, le rat des champs dut déchanter
+    On lui dit: ``Pas de rats chez nous, car ta vraie place est à l'égout''
+    Il se dressa sur la pointe des pattes
+    Et pour les épater, faisait des pointes, et trois, quatre
+    On lui tendit un panneau qui disait: ``On va dératiser''
+  \endverse
 
-\beginverse
-Le rat dût s'en aller
-Du ballet, du ballet
-Le rat dût s'en aller
-Oui, du ballet
-\endverse
+  \beginverse
+    Le rat dût s'en aller
+    Du ballet, du ballet
+    Le rat dût s'en aller
+    Oui, du ballet
+  \endverse
 
 \endsong

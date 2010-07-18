@@ -1,4 +1,6 @@
-\beginsong{Dans la tête}[by=Les Petites Bourrettes,cov=comme-des-rois]
+\songcolumns{2}
+\beginsong{Dans la tête}
+  [by=Les Petites Bourrettes,cov=comme-des-rois]
 
   \cover
   \gtab{Sol}{320003}

@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Chevaliers de la table ronde}[by=Traditionnel]
+\beginsong{Chevaliers de la table ronde}
+  [by=Traditionnel]
 
   \gtab{Do}{X32010}
   \gtab{Sol7}{320001}

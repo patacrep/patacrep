@@ -1,114 +1,115 @@
 \songcolumns{2}
-\beginsong{Un boulet dans le groupe}[by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
+\beginsong{Un boulet dans le groupe}
+  [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
 
-\capo{3}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Sol7}{320001}
+  \capo{3}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{320001}
 
 
-\beginverse
-\[Lam]Dans cette auberge l'on s'est rencon\[Sol]tré
-Cinq, six soldats, j'ai bousculé. \rep{2}
-Y'en a bien \[Lam]quatre qui voulaient m'frapper
-C'est mon chat noir qu'ils ont piéti\[Sol]né.
-Y'en a bien \[Lam]quatre qui voulaient m'frapper
-C'est mon chat \[Sol]noir qu'ils ont piéti\[Lam]né.
-\endverse
+  \beginverse
+    \[Lam]Dans cette auberge l'on s'est rencon\[Sol]tré
+    Cinq, six soldats, j'ai bousculé. \rep{2}
+    Y'en a bien \[Lam]quatre qui voulaient m'frapper
+    C'est mon chat noir qu'ils ont piéti\[Sol]né.
+    Y'en a bien \[Lam]quatre qui voulaient m'frapper
+    C'est mon chat \[Sol]noir qu'ils ont piéti\[Lam]né.
+  \endverse
 
-\beginchorus
-\[Do]Si j'avais su ce sortilège,
-Jamais ce ne serait \[Sol7]arri\[Do]vé
-\[Do]Si j'avais su ce sortilège,
-\[Sol]Malheureusement je l'avais \[Do]ou\[Mi7]bli\[Lam]é.
-\endchorus
+  \beginchorus
+    \[Do]Si j'avais su ce sortilège,
+    Jamais ce ne serait \[Sol7]arri\[Do]vé
+    \[Do]Si j'avais su ce sortilège,
+    \[Sol]Malheureusement je l'avais \[Do]ou\[Mi7]bli\[Lam]é.
+  \endchorus
 
-\beginchorus
-Mais ce sortilège que j'avais oublié!
-\endchorus
+  \beginchorus
+    Mais ce sortilège que j'avais oublié!
+  \endchorus
 
-\beginverse
-Arrivée à la porte du donjon,
-J'ai voulu tenter de la crocheter.
-C'est là qu'un piège s'est déclenché
-C'est le voleur qui a été tué.
-\endverse
+  \beginverse
+    Arrivée à la porte du donjon,
+    J'ai voulu tenter de la crocheter.
+    C'est là qu'un piège s'est déclenché
+    C'est le voleur qui a été tué.
+  \endverse
 
-\beginchorus
-Si j'avais eu mon parchemin
-J'aurais bien pu le détecter
-Si j'avais eu mon parchemin
-Mais il est couvert partout de tâches de vin.
-\endchorus
+  \beginchorus
+    Si j'avais eu mon parchemin
+    J'aurais bien pu le détecter
+    Si j'avais eu mon parchemin
+    Mais il est couvert partout de tâches de vin.
+  \endchorus
 
-\beginchorus
-Et ce parchemin, couvert de tâches de vin
-Mais ce sortilège que j'avais oublié!
-\endchorus
+  \beginchorus
+    Et ce parchemin, couvert de tâches de vin
+    Mais ce sortilège que j'avais oublié!
+  \endchorus
 
-\beginverse
-Dans le premier couloir on avançait
-Un troupeau d'orques est arrivé.
-Une boule de feu je leur ai lancé
-Mais c'est le nain qui se l'ait ramassée.
-\endverse
+  \beginverse
+    Dans le premier couloir on avançait
+    Un troupeau d'orques est arrivé.
+    Une boule de feu je leur ai lancé
+    Mais c'est le nain qui se l'ait ramassée.
+  \endverse
 
-\beginchorus
-Si j'avais eu ce vieux grimoire
-J'aurai sans doute mieux visé.
-Si j'avais eu ce vieux grimoire
-Celui que j'ai paumé avant hier au soir.
-\endchorus
+  \beginchorus
+    Si j'avais eu ce vieux grimoire
+    J'aurai sans doute mieux visé.
+    Si j'avais eu ce vieux grimoire
+    Celui que j'ai paumé avant hier au soir.
+  \endchorus
 
-\beginchorus
-Et ce vieux grimoire égaré l'autre au soir,
-Et ce parchemin couvert de tâches de vin,
-Mais ce sortilège que j'avais oublié!
-\endchorus
+  \beginchorus
+    Et ce vieux grimoire égaré l'autre au soir,
+    Et ce parchemin couvert de tâches de vin,
+    Mais ce sortilège que j'avais oublié!
+  \endchorus
 
-\beginverse
-C'est dans les caves qu'on s'est échappé
-On pensait être en sécurité.
-C'est sur un troll qu'on est tombé 
-C'est bien sûr l'elfe qui s'est faite béqueter.
-\endverse
+  \beginverse
+    C'est dans les caves qu'on s'est échappé
+    On pensait être en sécurité.
+    C'est sur un troll qu'on est tombé 
+    C'est bien sûr l'elfe qui s'est faite béqueter.
+  \endverse
 
-\beginchorus
-Si j'avais saisi ma baguette
-Elle aurait pu le pétrifier.
-Si j'avais saisi ma baguette
-Je ne l'ai pas fait car elle était en miettes.
-\endchorus
+  \beginchorus
+    Si j'avais saisi ma baguette
+    Elle aurait pu le pétrifier.
+    Si j'avais saisi ma baguette
+    Je ne l'ai pas fait car elle était en miettes.
+  \endchorus
 
-\beginchorus
-Et cette baguette qui était en miettes,
-Et ce vieux grimoire, égaré l'autre au soir,
-Et ce parchemin, couvert de tâches de vin,
-Mais ce sortilège que j'avais oublié!
-\endchorus
+  \beginchorus
+    Et cette baguette qui était en miettes,
+    Et ce vieux grimoire, égaré l'autre au soir,
+    Et ce parchemin, couvert de tâches de vin,
+    Mais ce sortilège que j'avais oublié!
+  \endchorus
 
-\beginverse
-Dans les catacombes on était planqué
-Une énorme cloche, j'ai effleuré.
-Le dragon que j'ai réveillé
-Fit du guerrier son petit déjeuner.
-\endverse
+  \beginverse
+    Dans les catacombes on était planqué
+    Une énorme cloche, j'ai effleuré.
+    Le dragon que j'ai réveillé
+    Fit du guerrier son petit déjeuner.
+  \endverse
 
-\beginchorus
-Si j'avais eu l'anneau unique
-Ce dragon j'l'aurais bousillé.
-Si j'avais eu l'anneau unique
-Qui m'a été volé un jour par un hobbit.
-\endchorus
+  \beginchorus
+    Si j'avais eu l'anneau unique
+    Ce dragon j'l'aurais bousillé.
+    Si j'avais eu l'anneau unique
+    Qui m'a été volé un jour par un hobbit.
+  \endchorus
 
-\beginchorus
-Et l'anneau unique, volé par un hobbit,
-Et cette baguette qui était en miettes,
-Et ce vieux grimoire, égaré l'autre au soir,
-Et ce parchemin, couvert de tâches de vin,
-Mais ce sortilège que j'avais oublié!
-\endchorus
+  \beginchorus
+    Et l'anneau unique, volé par un hobbit,
+    Et cette baguette qui était en miettes,
+    Et ce vieux grimoire, égaré l'autre au soir,
+    Et ce parchemin, couvert de tâches de vin,
+    Mais ce sortilège que j'avais oublié!
+  \endchorus
 
 \endsong

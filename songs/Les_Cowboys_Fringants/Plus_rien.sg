@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Plus rien}[by=Les Cowboys Fringants,cov=la-grand-messe]
+\beginsong{Plus rien}
+  [by=Les Cowboys Fringants,cov=la-grand-messe]
 
   \cover
   \gtab{Rém}{XX0231}

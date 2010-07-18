@@ -1,63 +1,64 @@
 \songcolumns{2}
-\beginsong{Le petit cheval}[by=Georges Brassens,cov=la-mauvaise-reputation]
+\beginsong{Le petit cheval}
+  [by=Georges Brassens,cov=la-mauvaise-reputation]
 
-\cover
-\gtab{La}{X02220}
-\gtab{Ré}{XX0232}
-\gtab{Fa#m}{2:022000}
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Fa#m}{2:022000}
 
-\beginverse
-\[La]Le petit cheval dans le \[Ré]mauvais \[La]temps
-Qu'il avait donc du cou\[Fa#m]ra\[Mi7]ge
-\[La]C'était un petit \[Ré]cheval \[La]blanc
-Tous derrière, \[Fa#m]tous der\[Mi7]rière  
-\[La]C'était un petit \[Ré]cheval \[La]blanc
-Tous derrière et \[Fa#m Mi7]lui de\[La]vant
-\endverse
+  \beginverse
+    \[La]Le petit cheval dans le \[Ré]mauvais \[La]temps
+    Qu'il avait donc du cou\[Fa#m]ra\[Mi7]ge
+    \[La]C'était un petit \[Ré]cheval \[La]blanc
+    Tous derrière, \[Fa#m]tous der\[Mi7]rière  
+    \[La]C'était un petit \[Ré]cheval \[La]blanc
+    Tous derrière et \[Fa#m Mi7]lui de\[La]vant
+  \endverse
 
-\beginverse
-Il n'y avait jamais de beau temps
-Dans ce pauvre paysage
-Il n'y avait jamais de printemps
-Ni derrière, ni derrière
-Il n'y avait jamais de printemps
-Ni derrière, ni devant
-\endverse
+  \beginverse
+    Il n'y avait jamais de beau temps
+    Dans ce pauvre paysage
+    Il n'y avait jamais de printemps
+    Ni derrière, ni derrière
+    Il n'y avait jamais de printemps
+    Ni derrière, ni devant
+  \endverse
 
-\beginverse
-Mais toujours il était content
-Menant les gars du village
-À travers la pluie noire des champs
-Tous derrière, tous derrière
-À travers la pluie noire des champs
-Tous derrière et lui devant
-\endverse
+  \beginverse
+    Mais toujours il était content
+    Menant les gars du village
+    À travers la pluie noire des champs
+    Tous derrière, tous derrière
+    À travers la pluie noire des champs
+    Tous derrière et lui devant
+  \endverse
 
-\beginverse
-Sa voiture allait poursuivant
-Sa belle petite queue sauvage
-C'est alors qu'il était content
-Tous derrière, tous derrière
-C'est alors qu'il était content
-Tous derrière et lui devant
-\endverse
+  \beginverse
+    Sa voiture allait poursuivant
+    Sa belle petite queue sauvage
+    C'est alors qu'il était content
+    Tous derrière, tous derrière
+    C'est alors qu'il était content
+    Tous derrière et lui devant
+  \endverse
 
-\beginverse
-Mais un jour dans le mauvais temps
-Un jour qu'il était si sage
-Il est mort par un éclair blanc
-Tous derrière, tous derrière
-Il est mort par un éclair blanc
-Tous derrière et lui devant
-\endverse
+  \beginverse
+    Mais un jour dans le mauvais temps
+    Un jour qu'il était si sage
+    Il est mort par un éclair blanc
+    Tous derrière, tous derrière
+    Il est mort par un éclair blanc
+    Tous derrière et lui devant
+  \endverse
 
-\beginverse
-Il est mort sans voir le beau temps
-Qu'il avait donc du courage
-Il est mort sans voir le printemps
-Ni derrière, ni derrière
-Il est mort sans voir le printemps
-Ni derrière, ni devant
-\endverse
+  \beginverse
+    Il est mort sans voir le beau temps
+    Qu'il avait donc du courage
+    Il est mort sans voir le printemps
+    Ni derrière, ni derrière
+    Il est mort sans voir le printemps
+    Ni derrière, ni devant
+  \endverse
 
 \endsong

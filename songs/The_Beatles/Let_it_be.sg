@@ -1,63 +1,64 @@
 \songcolumns{2}
-\beginsong{Let it be}[by=The Beatles,cov=let-it-be]
+\beginsong{Let it be}
+  [by=The Beatles,cov=let-it-be]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Fa}{1:022100}
-\gtab{Fa*}{8:X02220}
-\gtab{Mim*}{7:X02220}
-\gtab{Ré*}{5:X02220}
-\gtab{Do*}{3:X02220}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Fa*}{8:X02220}
+  \gtab{Mim*}{7:X02220}
+  \gtab{Ré*}{5:X02220}
+  \gtab{Do*}{3:X02220}
 
-\beginverse
-When I \[Do]find myself in \[Sol]times of trouble,
-\[Lam]Mother Mary \[Fa]comes to me,
-\[Do]Speaking words of \[Sol]wisdom,
-Let it \[Fa*]be. \[Mi*] \[Ré*] \[Do*]
-\endverse
+  \beginverse
+    When I \[Do]find myself in \[Sol]times of trouble,
+    \[Lam]Mother Mary \[Fa]comes to me,
+    \[Do]Speaking words of \[Sol]wisdom,
+    Let it \[Fa*]be. \[Mi*] \[Ré*] \[Do*]
+  \endverse
 
-\beginverse*
-And in my hour of darkness, 
-She is standing right in front of me,
-Speaking words of wisdom,
-Let it be.
-\endverse
+  \beginverse*
+    And in my hour of darkness, 
+    She is standing right in front of me,
+    Speaking words of wisdom,
+    Let it be.
+  \endverse
 
-\beginchorus
-Let it \[Lam]be, let it \[Sol]be,
-Let it \[Fa]be, let it \[Do]be.
-\[Do]Whisper words of \[Sol]wisdom,
-Let it \[Fa*]be. \[Mi*] \[Ré*] \[Do*]
-\endchorus
+  \beginchorus
+    Let it \[Lam]be, let it \[Sol]be,
+    Let it \[Fa]be, let it \[Do]be.
+    \[Do]Whisper words of \[Sol]wisdom,
+    Let it \[Fa*]be. \[Mi*] \[Ré*] \[Do*]
+  \endchorus
 
-\beginverse
-And when the broken hearted people
-Living in the world agree,
-There will be an answer,
-Let it be.
-\endverse
+  \beginverse
+    And when the broken hearted people
+    Living in the world agree,
+    There will be an answer,
+    Let it be.
+  \endverse
 
-\beginverse*
-For though they may be parted there is
-Still a chance that they will see,
-There will be an answer,
-Let it be.
-\endverse
+  \beginverse*
+    For though they may be parted there is
+    Still a chance that they will see,
+    There will be an answer,
+    Let it be.
+  \endverse
 
-\beginverse
-And when the night is cloudy,
-There is still a light, that shines on me,
-Shine on till tomorrow,
-Let it be.
-\endverse
+  \beginverse
+    And when the night is cloudy,
+    There is still a light, that shines on me,
+    Shine on till tomorrow,
+    Let it be.
+  \endverse
 
-\beginverse*
-I wake up to the sound of music,
-Mother Mary comes to me,
-Speaking words of wisdom,
-Let it be.
-\endverse
+  \beginverse*
+    I wake up to the sound of music,
+    Mother Mary comes to me,
+    Speaking words of wisdom,
+    Let it be.
+  \endverse
 
 \endsong

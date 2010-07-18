@@ -1,75 +1,76 @@
-\beginsong{L'iditent\'e}[by=Les T\^etes Raides,cov=gratte-poil]
+\songcolumns{2}
+\beginsong{L'iditenté}
+  [by=Les Têtes Raides,cov=gratte-poil]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Mi7}{020100}
-\gtab{Rém}{XX0231}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Mi7}{020100}
+  \gtab{Rém}{XX0231}
 
-\beginverse
-\[Lam]Les clans des rues, les clandestins
-Les cris des chiens hurlent à la \[Sol]ronde
-J'\[Do]suis pas inscrit sur la mappe\[Mi7]monde
-\[Lam]Y'a pas d'pays pour les vauriens
-Les poètes et les bala\[Sol]dins
-Y'a pas d'\[Do]pays, si tu le \[Mi7]veux, prends le \[Lam]mien
-\endverse
+  \beginverse
+    \[Lam]Les clans des rues, les clandestins
+    Les cris des chiens hurlent à la \[Sol]ronde
+    J'\[Do]suis pas inscrit sur la mappe\[Mi7]monde
+    \[Lam]Y'a pas d'pays pour les vauriens
+    Les poètes et les bala\[Sol]dins
+    Y'a pas d'\[Do]pays, si tu le \[Mi7]veux, prends le \[Lam]mien
+  \endverse
 
-\beginchorus
-\[Do]Que Paris est beau quand \[Sol]chantent les oiseaux
-\[Lam]Que Paris est laid quand il \[Mi7]{se croit} français
-{\nolyrics \[Lam] \[Rém] \[Mi7] \[Lam]}
-\endchorus
+  \beginchorus
+    \[Do]Que Paris est beau quand \[Sol]chantent les oiseaux
+    \[Lam]Que Paris est laid quand il \[Mi7]{se croit} français
+    {\nolyrics \[Lam] \[Rém] \[Mi7] \[Lam]}
+  \endchorus
 
-\beginverse
-Avec ses sans-pa\[Mi7]pirs
-Qui vont bientôt r'par\[Lam]tir
-Vers leur pays les \[Mi7]chiens
-On a tout pris chez eux y'a plus \[Lam]rien
-\endverse
+  \beginverse
+    Avec ses sans-pa\[Mi7]pirs
+    Qui vont bientôt r'par\[Lam]tir
+    Vers leur pays les \[Mi7]chiens
+    On a tout pris chez eux y'a plus \[Lam]rien
+  \endverse
 
-\beginverse
-De rétention en cale de fond
-J'en ai même oublié mon ombre
-Je promène moi dans vos décombres
-On m'a donné un bout de rien
-J'en ai fait cent mille chemins
-J'en ai fait cent, j'en ai fait un
-\endverse
+  \beginverse
+    De rétention en cale de fond
+    J'en ai même oublié mon ombre
+    Je promène moi dans vos décombres
+    On m'a donné un bout de rien
+    J'en ai fait cent mille chemins
+    J'en ai fait cent, j'en ai fait un
+  \endverse
 
-\beginverse
-Un chemin de l'identité
-L'iditenté l'idétitan
-L'itendidé, à la ronde
-Et dans ce flot d'une idée rien
-J'aurai plus d'nom j'aurai plus rien
-Dis-moi c'est quand \echo{Dis-moi c'est quand} que tu reviens
-\endverse
+  \beginverse
+    Un chemin de l'identité
+    L'iditenté l'idétitan
+    L'itendidé, à la ronde
+    Et dans ce flot d'une idée rien
+    J'aurai plus d'nom j'aurai plus rien
+    Dis-moi c'est quand \echo{Dis-moi c'est quand} que tu reviens
+  \endverse
 
-\beginchorus
-Que Paris est beau quand chantent les oiseaux
-Que Paris est laid quand il se croit français
-\endchorus
+  \beginchorus
+    Que Paris est beau quand chantent les oiseaux
+    Que Paris est laid quand il se croit français
+  \endchorus
 
-\beginverse
-Avec tous ces champs d'tir
-Et tous ces fous du tir
-Y visent pas que les lapins
-C'est plus du gros sel
-C'est des \[Lam]tomawaks
-Ou des missiles sol-\[Mi7]air
-Ou des \[Lam]skuds
-Et \[Rém]moi, avec mon pistolet à bou\[Mi7]chon
-Je pars au front
-\endverse
+  \beginverse
+    Avec tous ces champs d'tir
+    Et tous ces fous du tir
+    Y visent pas que les lapins
+    C'est plus du gros sel
+    C'est des \[Lam]tomawaks
+    Ou des missiles sol-\[Mi7]air
+    Ou des \[Lam]skuds
+    Et \[Rém]moi, avec mon pistolet à bou\[Mi7]chon
+    Je pars au front
+  \endverse
 
-\beginchorus
-Paris sera beau quand chantera les oiseaux
-Paris sera beau si les oiseaux
-Mais non Paris sera beau car les oiseaux
-Paris sera beau
-\endchorus
-
+  \beginchorus
+    Paris sera beau quand chantera les oiseaux
+    Paris sera beau si les oiseaux
+    Mais non Paris sera beau car les oiseaux
+    Paris sera beau
+  \endchorus
 
 \endsong

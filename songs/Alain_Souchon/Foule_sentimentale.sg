@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Foule sentimentale}[by=Alain Souchon,cov=c-est-deja-ca]
+\beginsong{Foule sentimentale}
+  [by=Alain Souchon,cov=c-est-deja-ca]
 
   \cover
   \gtab{Mim}{022000}

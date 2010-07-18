@@ -1,103 +1,105 @@
 \songcolumns{2}
-\beginsong{Chasse, p\^eche et nature}[by=Les Fatals Picards,cov=droit-de-veto]
+\beginsong{Chasse, pêche et nature}
+  [by=Les Fatals Picards,cov=droit-de-veto]
 
 
-\cover
-\gtab{Lam}{5:022000}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Mi}{022100}
-\gtab{Fa#m}{2:022000}
-\gtab{Ré}{XX0232}
-\gtab{La}{X02220}
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Mi}{022100}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
 
 
-\beginverse
-\[Lam]{Il est} 5 heures du matin
-Lorsque je réveille les \[Fa]chiens 
-Rex, mon teckel à poil roux
-Qui a une balle dans le ge\[Sol]nou
-Et Josiane mon doberman
-Ah non ça merde, c'est ma \[Lam]femme
-\endverse
+  \beginverse
+    \[Lam]{Il est} 5 heures du matin
+    Lorsque je réveille les \[Fa]chiens 
+    Rex, mon teckel à poil roux
+    Qui a une balle dans le ge\[Sol]nou
+    Et Josiane mon doberman
+    Ah non ça merde, c'est ma \[Lam]femme
+  \endverse
 
-\beginverse
-D'abord le petit déjeuner 
-Chocapic et Beaujolais 
-Pour l'énergie c'est vital
-Autant que mon gilet pare-balle 
-Sans oublier les tartines
-Pâté de foie, rillettes, sardines
-\endverse
+  \beginverse
+    D'abord le petit déjeuner 
+    Chocapic et Beaujolais 
+    Pour l'énergie c'est vital
+    Autant que mon gilet pare-balle 
+    Sans oublier les tartines
+    Pâté de foie, rillettes, sardines
+  \endverse
 
-\beginverse
-\[Do]Me voilà sur le pied de guerre 
-Aussi beau qu'un mili\[Sol]taire
-Prêt à retrouver les copains
-Au lieu-dit: ``Les Marca\[Fa]ssins''
-Je prend mon fusil ma be\[Sol]sace
-Y'a pas à dire: ça fait \[Lam]classe
-\endverse
+  \beginverse
+    \[Do]Me voilà sur le pied de guerre 
+    Aussi beau qu'un mili\[Sol]taire
+    Prêt à retrouver les copains
+    Au lieu-dit: ``Les Marca\[Fa]ssins''
+    Je prend mon fusil ma be\[Sol]sace
+    Y'a pas à dire: ça fait \[Lam]classe
+  \endverse
 
-\beginchorus
-Chasse, \[La]pêche et bi\[Mi]ture 
-Nous on res\[Fa#m]pecte la na\[Ré]ture
-Chevro\[La]tine, canon \[Mi]scié 
-Canarder \[Ré]c'est \[Mi]notre{\ldots}mé\[Lam]tier
-\endchorus
+  \beginchorus
+    Chasse, \[La]pêche et bi\[Mi]ture 
+    Nous on res\[Fa#m]pecte la na\[Ré]ture
+    Chevro\[La]tine, canon \[Mi]scié 
+    Canarder \[Ré]c'est \[Mi]notre{\ldots}mé\[Lam]tier
+  \endchorus
 
-\beginverse
-Il est 6 heures du matin
-Le soleil se lève enfin 
-On va commencer doucement 
-Par une caisse de bière ou de vin blanc 
-Puis après pour s'échauffer
-Un vieux cerf, un renard blessé
-\endverse
+  \beginverse
+    Il est 6 heures du matin
+    Le soleil se lève enfin 
+    On va commencer doucement 
+    Par une caisse de bière ou de vin blanc 
+    Puis après pour s'échauffer
+    Un vieux cerf, un renard blessé
+  \endverse
 
-\beginverse
-Ça y est on peut plus l'arrêter
-Marcel nous fait son défilé 
-Survet bleu et broderie en daim 
-Même les taupes voient bien que ça craint 
-On rigole, on descend trois kirs
-Et une vache qui tentait d'fuir
-\endverse
+  \beginverse
+    Ça y est on peut plus l'arrêter
+    Marcel nous fait son défilé 
+    Survet bleu et broderie en daim 
+    Même les taupes voient bien que ça craint 
+    On rigole, on descend trois kirs
+    Et une vache qui tentait d'fuir
+  \endverse
 
-\beginchorus
-Chasse, pêche et biture 
-Nous on respecte la nature
-Quand les biches nous tendent les bras 
-Sans faillir on les abat
-\endchorus
+  \beginchorus
+    Chasse, pêche et biture 
+    Nous on respecte la nature
+    Quand les biches nous tendent les bras 
+    Sans faillir on les abat
+  \endchorus
 
-\beginverse
-On va communier un peu 
-Avec l'eau, la terre, le feu
-Les couleurs sont chatoyantes
-Roger a ses balles traçantes 
-La nature nous offre enfin
-Une 4L et ses poussins
-\endverse
+  \beginverse
+    On va communier un peu 
+    Avec l'eau, la terre, le feu
+    Les couleurs sont chatoyantes
+    Roger a ses balles traçantes 
+    La nature nous offre enfin
+    Une 4L et ses poussins
+  \endverse
 
-\beginverse
-Quand soudain derrière une souche 
-J'aperçois comme un truc louche
-Le soir même à la télé
-On est carrément tous indignés
-Au championnat de VTT
-40 morts et 3 blessés
-\endverse
+  \beginverse
+    Quand soudain derrière une souche 
+    J'aperçois comme un truc louche
+    Le soir même à la télé
+    On est carrément tous indignés
+    Au championnat de VTT
+    40 morts et 3 blessés
+  \endverse
 
-\beginchorus
-Chasse, \[La]pêche et bi\[Mi]ture 
-Nous on res\[Fa#m]pecte la na\[Ré]ture
-Chevro\[La]tine et oie sau\[Mi]vage 
-À chaque fois \[Ré]c'est un \[Mi]vrai car\[La]nage 
-Pêche et bi\[Mi]ture
-Nous on res\[Fa#m]pecte la bi\[Ré]ture
-Chevro\[La]tine et caisse de \[Mi]ruhm
-Approche donc \[Ré]si qu'\[Mi]t'es un \[La]homme
-\endchorus
+  \beginchorus
+    Chasse, \[La]pêche et bi\[Mi]ture 
+    Nous on res\[Fa#m]pecte la na\[Ré]ture
+    Chevro\[La]tine et oie sau\[Mi]vage 
+    À chaque fois \[Ré]c'est un \[Mi]vrai car\[La]nage 
+    Pêche et bi\[Mi]ture
+    Nous on res\[Fa#m]pecte la bi\[Ré]ture
+    Chevro\[La]tine et caisse de \[Mi]ruhm
+    Approche donc \[Ré]si qu'\[Mi]t'es un \[La]homme
+  \endchorus
+
 \endsong

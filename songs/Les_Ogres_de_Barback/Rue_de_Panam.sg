@@ -1,74 +1,74 @@
-\beginsong{Rue de Panam}[by=Les Ogres de Barback,cov=rue-du-temps]
+\songcolumns{2}
+\beginsong{Rue de Panam}
+  [by=Les Ogres de Barback,cov=rue-du-temps]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Mim}{022000}
+  \gtab{Fa}{1:022100}
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Lam}{X02210}
-\gtab{Mim}{022000}
-\gtab{Fa}{1:022100}
+  \beginverse
+    \[Do]Dans une rue de Pa\[Sol]nam,
+    Errant \[Do]au bord de l'\[Sol]eau,
+    J'\[Do]fumais mon Amster\[Sol]dam,	 
+    Pour fi\[Do]nir au bis\[Sol]trot. 
+  \endverse
 
+  \beginverse*
+    \[Lam]Y'avait là deux-trois \[Mim]femmes,
+    \[Lam]Qui faisaient le ta\[Mim]pin,
+    \[Lam]Moi j'aiguisais ma \[Mim]lame, 	
+    Pour plan\[Fa]ter les ru\[Sol]pins.
+  \endverse
 
-\beginverse
-\[Do]Dans une rue de Pa\[Sol]nam,
-Errant \[Do]au bord de l'\[Sol]eau,
-J'\[Do]fumais mon Amster\[Sol]dam,	 
-Pour fi\[Do]nir au bis\[Sol]trot. 
-\endverse
+  \beginverse
+    Les gens de bon quartier,
+    Les touristes, les vieillards,
+    Aiment bien s'promener ,
+    Le long des grands boul'vards.
+  \endverse
 
-\beginverse*
-\[Lam]Y'avait là deux-trois \[Mim]femmes,
-\[Lam]Qui faisaient le ta\[Mim]pin,
-\[Lam]Moi j'aiguisais ma \[Mim]lame, 	
-Pour plan\[Fa]ter les ru\[Sol]pins.
-\endverse
+  \beginverse*
+    Ils achètent des souv'nirs,
+    Des tours Eiffel en plastique,
+    Les saltimbanques les font rire,
+    Mais faudrait qu'on leur explique,
+  \endverse
 
-\beginverse
-Les gens de bon quartier,
-Les touristes, les vieillards,
-Aiment bien s'promener ,
-Le long des grands boul'vards.
-\endverse
+  \beginverse
+    Qu'il y a d'la merde partout,
+    De la drogue et surtout,
+    Des jeunes en galère,
+    Qui trafiquent la misère.
+  \endverse
 
-\beginverse*
-Ils achètent des souv'nirs,
-Des tours Eiffel en plastique,
-Les saltimbanques les font rire,
-Mais faudrait qu'on leur explique,
-\endverse
+  \beginverse*
+    Mais, j'dois bien avouer,
+    Que j'y passe toutes mes journées,
+    C'est que parfois à Paris,
+    C'est la joie et la folie.
+  \endverse
 
-\beginverse
-Qu'il y a d'la merde partout,
-De la drogue et surtout,
-Des jeunes en galère,
-Qui trafiquent la misère.
-\endverse
+  \beginverse
+    Mais croyez-moi bientôt,
+    Les flics auront du boulot,
+    Car tous les vagabonds,
+    Parlent de révolution.
+  \endverse
 
-\beginverse*
-Mais, j'dois bien avouer,
-Que j'y passe toutes mes journées,
-C'est que parfois à Paris,
-C'est la joie et la folie.
-\endverse
+  \beginverse*
+    Un jour toutes nos chansons,
+    Ouais vous désarmeront,
+    Il n'y aura plus qu'la folie, 
+    La joie, et l'anarchie, \rep{2}
+    La joie dans Paris \dots
+  \endverse
 
-\beginverse
-Mais croyez-moi bientôt,
-Les flics auront du boulot,
-Car tous les vagabonds,
-Parlent de révolution.
-\endverse
+  \lilypond{Rue_de_Paname}
 
-\beginverse*
-Un jour toutes nos chansons,
-Ouais vous désarmeront,
-Il n'y aura plus qu'la folie, 
-La joie, et l'anarchie, \rep{2}
-La joie dans Paris \dots
-\endverse
-
-\lilypond{Rue_de_Paname}
-
-\image{trombonne}{4}
-
+  \image{trombonne}{4}
 
 \endsong

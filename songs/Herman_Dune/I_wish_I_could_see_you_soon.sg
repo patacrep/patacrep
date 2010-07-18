@@ -1,62 +1,63 @@
 \songcolumns{2}
-\beginsong{I wish I could see you soon}[by=Herman Dune,cov=giant]
+\beginsong{I wish I could see you soon}
+  [by=Herman Düne,cov=giant]
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Fa}{1:022100}
-\gtab{Sol7}{320001}
-\gtab{Sol}{320003}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol7}{320001}
+  \gtab{Sol}{320003}
 
 
-\beginverse
-I \[Do]had to leave you and go \[Fa]away
-But I, \[Do]think about you \[Sol7]every day
-\[Do]In the morning and in the \[Fa]afternoon
-\[Sol]{I wish} that I could see you \[Do]soon
-\endverse
+  \beginverse
+    I \[Do]had to leave you and go \[Fa]away
+    But I, \[Do]think about you \[Sol7]every day
+    \[Do]In the morning and in the \[Fa]afternoon
+    \[Sol]{I wish} that I could see you \[Do]soon
+  \endverse
 
-\beginverse
-And when I held you I felt so fine
-It was like there was, nothing left on my mind
-It was like Rockaway beach in the month of June
-I wish that I could see you soon
-\endverse
+  \beginverse
+    And when I held you I felt so fine
+    It was like there was, nothing left on my mind
+    It was like Rockaway beach in the month of June
+    I wish that I could see you soon
+  \endverse
 
-\beginverse
-I had no plans no meet you baby,
-I had a million things to do baby
-But you hit my heart with a harpoon
-I wish that I could see you soon
-\endverse
+  \beginverse
+    I had no plans no meet you baby,
+    I had a million things to do baby
+    But you hit my heart with a harpoon
+    I wish that I could see you soon
+  \endverse
 
-\beginchorus
-How long 'till you can see her?
-And I'm like, the sooner the better
-Do you, really think she will wait for you?
-Well I have no way to say
-And there is nothing I can do \rep{2}
-\endchorus
+  \beginchorus
+    How long 'till you can see her?
+    And I'm like, the sooner the better
+    Do you, really think she will wait for you?
+    Well I have no way to say
+    And there is nothing I can do \rep{2}
+  \endchorus
 
-\beginverse
-Now that I am across the sea
-I wonder if, you're gonna wait for me
-Or if you're gonna find a new boy to spoon
-I wish that I could see you soon
-\endverse
+  \beginverse
+    Now that I am across the sea
+    I wonder if, you're gonna wait for me
+    Or if you're gonna find a new boy to spoon
+    I wish that I could see you soon
+  \endverse
 
-\beginverse
-And if you, wait a little my pretty friend
-Until I, come back to hold your hand
-We'll be like bugs when they break through a cocoon
-I wish that I could see you soon
-\endverse
+  \beginverse
+    And if you, wait a little my pretty friend
+    Until I, come back to hold your hand
+    We'll be like bugs when they break through a cocoon
+    I wish that I could see you soon
+  \endverse
 
-\beginverse
-It's been a while, since I felt like this
-And now I found someone I really miss
-Under the sun, under the moon,
-I wish that I could see you soon
-\endverse
+  \beginverse
+    It's been a while, since I felt like this
+    And now I found someone I really miss
+    Under the sun, under the moon,
+    I wish that I could see you soon
+  \endverse
 
 \endsong

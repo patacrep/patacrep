@@ -1,38 +1,39 @@
 \songcolumns{1}
-\beginsong{Out of time man}[by=Mano Negra,cov=king-of-bongo]
+\beginsong{Out of time man}
+  [by=Mano Negra,cov=king-of-bongo]
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Rém}{XX0231}
-\gtab{Fa}{1:022100}
-\gtab{La}{X02220}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Rém}{XX0231}
+  \gtab{Fa}{1:022100}
+  \gtab{La}{X02220}
 
-\beginverse
-\[Rém]I'm walking \[Do]out for love \[Fa] \[Do]
-\[Rém]I'm walking \[Do]bad really down \[Fa]like a \[Do]cool breeze
-\[Rém]I'm gonna \[Do]be late again, \[Fa]``Driver wait \[Do]for me please!''
-\[Rém]I'm running \[Do]all in vain, \[Fa]trying to catch \[Do]this ***ing train
-\endverse
+  \beginverse
+    \[Rém]I'm walking \[Do]out for love \[Fa] \[Do]
+    \[Rém]I'm walking \[Do]bad really down \[Fa]like a \[Do]cool breeze
+    \[Rém]I'm gonna \[Do]be late again, \[Fa]``Driver wait \[Do]for me please!''
+    \[Rém]I'm running \[Do]all in vain, \[Fa]trying to catch \[Do]this ***ing train
+  \endverse
 
-\beginverse
-Time don't fool me no more
-I throw my watch to the floor, it's so lazy
-Time don't do it again,
-Now I'm stressed and strained with anger and pain in the subway train
-\endverse
+  \beginverse
+    Time don't fool me no more
+    I throw my watch to the floor, it's so lazy
+    Time don't do it again,
+    Now I'm stressed and strained with anger and pain in the subway train
+  \endverse
 
-\beginverse
-Now it's half past two \echo{Long gone the rendez-vous}
-Now it's half past three \echo{Time made a fool out of me}
-Now it's half past four \echo{Baby can't you see}
-No use in waiting no more \echo{It's a timing tragedy}
-\endverse
+  \beginverse
+    Now it's half past two \echo{Long gone the rendez-vous}
+    Now it's half past three \echo{Time made a fool out of me}
+    Now it's half past four \echo{Baby can't you see}
+    No use in waiting no more \echo{It's a timing tragedy}
+  \endverse
 
-\beginverse
-\[La]I think it's nine when the clock says ten
-This girl wont' wait for the out of time, out of time man
-\endverse
+  \beginverse
+    \[La]I think it's nine when the clock says ten
+    This girl wont' wait for the out of time, out of time man
+  \endverse
 
-\image{brunocb-slach---tux-nroses-7158}{4}
+  \image{brunocb-slach---tux-nroses-7158}{4}
 
 \endsong

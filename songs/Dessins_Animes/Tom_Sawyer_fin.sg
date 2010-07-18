@@ -1,81 +1,82 @@
 \songcolumns{2}
-\beginsong{Tom Sawyer (fin)}[by=Dessins Animés,cov=tom-sawyer-fin]
+\beginsong{Tom Sawyer (fin)}
+  [by=Dessins Animés,cov=tom-sawyer-fin]
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
-\gtab{Rém}{XX0231}
-\gtab{Ré7}{XX0212}
-\gtab{Sol7}{320001}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Rém}{XX0231}
+  \gtab{Ré7}{XX0212}
+  \gtab{Sol7}{320001}
 
-\beginverse
-\[Do]Haut com\[Lam]me trois \[Fa]pom\[Sol]mes
-\[Do]Tom Saw\[Lam]yer est \[Fa]un joyeux gar\[Sol]çon
-\[Do]Qui n'aime \[Lam]pas l'é\[Fa]co\[Sol]le
-\[Do]Et pré\[Lam]fère pê\[Fa]cher des \[Sol]pois\[Do]sons
-\endverse
+  \beginverse
+    \[Do]Haut com\[Lam]me trois \[Fa]pom\[Sol]mes
+    \[Do]Tom Saw\[Lam]yer est \[Fa]un joyeux gar\[Sol]çon
+    \[Do]Qui n'aime \[Lam]pas l'é\[Fa]co\[Sol]le
+    \[Do]Et pré\[Lam]fère pê\[Fa]cher des \[Sol]pois\[Do]sons
+  \endverse
 
-\beginverse*
-Il a fière allure
-Les pieds nus, il marche dans la ville
-Rêvant d'aventures
-Sur les bords du Mississipi
-\endverse
+  \beginverse*
+    Il a fière allure
+    Les pieds nus, il marche dans la ville
+    Rêvant d'aventures
+    Sur les bords du Mississipi
+  \endverse
 
-\beginchorus
-\[Rém]Ses copains, c'est Huckleberry
-\[Do]Joe et Jim et le \[Fa]mon\[Sol]de
-\[Rém]La maison, c'est Sid et Mary
-Et Tan\[Fa]te Polly qui \[Ré7]gron\[Sol7]de
-\endchorus
+  \beginchorus
+    \[Rém]Ses copains, c'est Huckleberry
+    \[Do]Joe et Jim et le \[Fa]mon\[Sol]de
+    \[Rém]La maison, c'est Sid et Mary
+    Et Tan\[Fa]te Polly qui \[Ré7]gron\[Sol7]de
+  \endchorus
 
-\beginverse
-C'est un cœur à prendre
-Emy et Becky le savent bien
-Un dur au cœur tendre
-\endverse
+  \beginverse
+    C'est un cœur à prendre
+    Emy et Becky le savent bien
+    Un dur au cœur tendre
+  \endverse
 
-\beginverse*
-Huck, Mary et Becky Thatcher
-Tante Polly et Joe Harper
-C'est le petit monde de Tom Sawyer
-\endverse
+  \beginverse*
+    Huck, Mary et Becky Thatcher
+    Tante Polly et Joe Harper
+    C'est le petit monde de Tom Sawyer
+  \endverse
 
-\beginverse
-Haut comme trois pommes
-Tom Sawyer rêve de liberté
-Il ne craint personne
-Faut pas lui marcher sur les pieds
-\endverse
+  \beginverse
+    Haut comme trois pommes
+    Tom Sawyer rêve de liberté
+    Il ne craint personne
+    Faut pas lui marcher sur les pieds
+  \endverse
 
-\beginverse*
-Il n'est pas bien riche
-Dans ses poches des trésors en vrac
-Oui mais Tom s'en fiche
-Il a plus d'un tour dans son sac
-\endverse
+  \beginverse*
+    Il n'est pas bien riche
+    Dans ses poches des trésors en vrac
+    Oui mais Tom s'en fiche
+    Il a plus d'un tour dans son sac
+  \endverse
 
-\beginchorus
-Il est clown ou Robin des Bois
-Général ou pirate
-Avec lui, les rêves sont rois
-Et partout la joie éclate
-\endchorus
+  \beginchorus
+    Il est clown ou Robin des Bois
+    Général ou pirate
+    Avec lui, les rêves sont rois
+    Et partout la joie éclate
+  \endchorus
 
-\beginverse
-Haut comme trois pommes
-Il est plus malin que Joe l'Indien
-Un sacré p'tit homme
-\endverse
+  \beginverse
+    Haut comme trois pommes
+    Il est plus malin que Joe l'Indien
+    Un sacré p'tit homme
+  \endverse
 
-\beginverse*
-Huck, Mary et Becky Thatcher
-Tante Polly et Joe Harper
-C'est le petit monde de Tom Sawyer
-\endverse
+  \beginverse*
+    Huck, Mary et Becky Thatcher
+    Tante Polly et Joe Harper
+    C'est le petit monde de Tom Sawyer
+  \endverse
 
-\image{cornet}{4}
+  \image{cornet}{4}
 
 \endsong

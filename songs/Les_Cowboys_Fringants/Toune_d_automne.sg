@@ -1,75 +1,75 @@
 \songcolumns{2}
-\beginsong{Toune d'automne}[by=Les Cowboys Fringants,cov=break-syndical]
+\beginsong{Toune d'automne}
+  [by=Les Cowboys Fringants,cov=break-syndical]
 
-\cover
-\gtab{Sol}{320003}
-\gtab{Lam}{X02210}
-\gtab{Ré}{XX0232}
-\gtab{Mim}{022000}
-\gtab{Si7}{X21202}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Ré}{XX0232}
+  \gtab{Mim}{022000}
+  \gtab{Si7}{X21202}
 
-\beginverse
-Comment ça \[Sol]va ma p'tite \[Lam]sœur ?
-Viens que j'\[Ré]te serre dans mes \[Sol]bras
-Pis, as-\[Mim]tu r'trouvé l'bon\[Lam]heur
-Dans ton \[Ré]trip au Cana\[Do]da ?
-Dans l'bout' c't'an\[Si7]née y s'est \[Mim]pas passé grand'\[Do]chose
-C't'un peu mo\[Ré]rose \dots
-\endverse
+  \beginverse
+    Comment ça \[Sol]va ma p'tite \[Lam]sœur ?
+    Viens que j'\[Ré]te serre dans mes \[Sol]bras
+    Pis, as-\[Mim]tu r'trouvé l'bon\[Lam]heur
+    Dans ton \[Ré]trip au Cana\[Do]da ?
+    Dans l'bout' c't'an\[Si7]née y s'est \[Mim]pas passé grand'\[Do]chose
+    C't'un peu mo\[Ré]rose \dots
+  \endverse
 
-\beginverse*
-J'espère au moins qu'c't'ait l'fun là-bas
-J'suis fier que tu m'aies pas ramené
-Un beau-frère de l'Alberta
-Ça m'aurait un peu ébranlé
-Jure-moi donc que c'fois là tu restes à' maison
-Pour de bon \dots
-\endverse
+  \beginverse*
+    J'espère au moins qu'c't'ait l'fun là-bas
+    J'suis fier que tu m'aies pas ramené
+    Un beau-frère de l'Alberta
+    Ça m'aurait un peu ébranlé
+    Jure-moi donc que c'fois là tu restes à' maison
+    Pour de bon \dots
+  \endverse
 
-\beginchorus
-Any\[Sol]way j'suis con\[Mim]tent que tu r'\[Do]viennes
-T'arrives \[Ré]en même temps qu'l'au\[Sol]tomne
-T'sais qu'ça \[Mim]m'a fait ben d'la \[Do]peine
-De t'voir \[Ré]partir ma mi\[Sol]gnonne \[Mim]\[Si7]
-\endchorus
+  \beginchorus
+    Any\[Sol]way j'suis con\[Mim]tent que tu r'\[Do]viennes
+    T'arrives \[Ré]en même temps qu'l'au\[Sol]tomne
+    T'sais qu'ça \[Mim]m'a fait ben d'la \[Do]peine
+    De t'voir \[Ré]partir ma mi\[Sol]gnonne \[Mim]\[Si7]
+  \endchorus
 
-\beginverse
-Ici y'a papa qui se r'met
-De sa p'tite opération
-T'aurais dû l'voir y fait gai
-Fallait l'traiter aux p'tits oignons
-Et maman s'est inquiètée toute l'année
-À cause de toé \dots
-\endverse
+  \beginverse
+    Ici y'a papa qui se r'met
+    De sa p'tite opération
+    T'aurais dû l'voir y fait gai
+    Fallait l'traiter aux p'tits oignons
+    Et maman s'est inquiètée toute l'année
+    À cause de toé \dots
+  \endverse
 
-\beginverse*
-De mon bord j'ai décidé
-D'arrêter de végéter
-J'rentre à l'université
-On verra c'que ça va donner
-Mais tu m'connais j'suis pas motivé plus qui faut
-C'est pas nouveau \dots
-\endverse
+  \beginverse*
+    De mon bord j'ai décidé
+    D'arrêter de végéter
+    J'rentre à l'université
+    On verra c'que ça va donner
+    Mais tu m'connais j'suis pas motivé plus qui faut
+    C'est pas nouveau \dots
+  \endverse
 
-\beginverse
-J'ai vu Simon le mois passé
-Ç'avait pas trop l'air de filer
-Y m'a dit qu't'avais pas appelé
-Depuis sa fête en février
-Si tu l'aimes plus, faudrait peut-être pas l'niaiser
-C't'un bon buddy \dots
-\endverse
+  \beginverse
+    J'ai vu Simon le mois passé
+    Ç'avait pas trop l'air de filer
+    Y m'a dit qu't'avais pas appelé
+    Depuis sa fête en février
+    Si tu l'aimes plus, faudrait peut-être pas l'niaiser
+    C't'un bon buddy \dots
+  \endverse
 
-\beginverse*
-Et puis toé ma p'tite sœur
-Es-tu toujours aussi perdue ?
-C'est ti encore la grande noirceur ?
-Ou ben si t'as r'pris le dessus ?
-T'sais qu'la vie est parsemée de p'tites misères
-Faut pas t'en faire \dots
-\endverse
+  \beginverse*
+    Et puis toé ma p'tite sœur
+    Es-tu toujours aussi perdue ?
+    C'est ti encore la grande noirceur ?
+    Ou ben si t'as r'pris le dessus ?
+    T'sais qu'la vie est parsemée de p'tites misères
+    Faut pas t'en faire \dots
+  \endverse
 
-\image{mawie-mexitux-1894}{4}
-
+  \image{mawie-mexitux-1894}{4}
 
 \endsong

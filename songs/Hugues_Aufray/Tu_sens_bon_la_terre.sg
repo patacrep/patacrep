@@ -1,45 +1,46 @@
 \songcolumns{2}
-\beginsong{Tu sens bon la terre}[by=Hugues Aufray]
+\beginsong{Tu sens bon la terre}
+  [by=Hugues Aufray]
 
-\cover
-\gtab{Rém}{5:X02210}
-\gtab{La7}{5:020100}
-\gtab{Do}{3:X02220}
-\gtab{Fa}{1:022100}
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{La7}{5:020100}
+  \gtab{Do}{3:X02220}
+  \gtab{Fa}{1:022100}
 
-\beginverse
-\[Rém]Tu sens bon la \[La7]terre, ma \[Rém]terre\[La7]
-\[Rém]Tu sens bon la \[Do]vie, ma \[Fa]mie\[La7]
-\[Rém]Tu sens bon la \[Do]pipe, mon \[Rém]père\[La7]
-\[Rém]Tu sens bon l'au\[La7]tomne ma \[Rém]pluie
-\endverse
+  \beginverse
+    \[Rém]Tu sens bon la \[La7]terre, ma \[Rém]terre\[La7]
+    \[Rém]Tu sens bon la \[Do]vie, ma \[Fa]mie\[La7]
+    \[Rém]Tu sens bon la \[Do]pipe, mon \[Rém]père\[La7]
+    \[Rém]Tu sens bon l'au\[La7]tomne ma \[Rém]pluie
+  \endverse
 
-\beginverse
-Je n'ai pas d'argent dans la tête
-Et pas d'argent dans les mains
-Mais pour moi c'est toujours fête
-Puisque j'ai du pain et du vin
-\endverse
+  \beginverse
+    Je n'ai pas d'argent dans la tête
+    Et pas d'argent dans les mains
+    Mais pour moi c'est toujours fête
+    Puisque j'ai du pain et du vin
+  \endverse
 
-\beginverse
-Tu sens bon la terre, ma terre
-Tu sens bon le chien, mon chien
-Tu sens bon le linge, ma mère
-Tu sens bon l'été mon jardin
-\endverse
+  \beginverse
+    Tu sens bon la terre, ma terre
+    Tu sens bon le chien, mon chien
+    Tu sens bon le linge, ma mère
+    Tu sens bon l'été mon jardin
+  \endverse
 
-\beginverse
-Quand on aura fini sa journée
-Qu'on a pas volé ses sous
-On se retrouve à la veillée
-Entre amis pour boire un bon coup
-\endverse
+  \beginverse
+    Quand on aura fini sa journée
+    Qu'on a pas volé ses sous
+    On se retrouve à la veillée
+    Entre amis pour boire un bon coup
+  \endverse
 
-\beginverse
-Tu sens bon la terre, ma terre
-Tu sens bon l'école, mon p'tit frère
-Tu sens bon le grain, mon pain
-Tu sens bon le printemps, mon refrain.
-\endverse
+  \beginverse
+    Tu sens bon la terre, ma terre
+    Tu sens bon l'école, mon p'tit frère
+    Tu sens bon le grain, mon pain
+    Tu sens bon le printemps, mon refrain.
+  \endverse
 
 \endsong

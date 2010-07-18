@@ -1,88 +1,89 @@
 \songcolumns{2}
-\beginsong{L'hymne de nos campagne}[by=Tryo,cov=mamagubida]
+\beginsong{L'hymne de nos campagne}
+  [by=Tryo,cov=mamagubida]
 
 
-\cover
-\gtab{Rém}{5:X02210}
-\gtab{Si&}{6:022100}
-\gtab{La}{5:022100}
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{Si&}{6:022100}
+  \gtab{La}{5:022100}
 
 
-\beginverse
-Si tu es né dans une cité HLM
-Je te dédicace, ce poème
-En espérant qu'au fond de tes yeux ternes
-Tu puisses y voir un petit brin d'herbe
-\endverse
+  \beginverse
+    Si tu es né dans une cité HLM
+    Je te dédicace, ce poème
+    En espérant qu'au fond de tes yeux ternes
+    Tu puisses y voir un petit brin d'herbe
+  \endverse
 
-\beginverse*
-\[Rém]Hey! Les man faut faire \[Si&]{la part} des \[La]choses
-Il \[Rém]est grand temps de \[Si&]faire une \[La]pause
-De troquer cette vie morose
-Contre le parfum d'une rose
-\endverse
+  \beginverse*
+    \[Rém]Hey! Les man faut faire \[Si&]{la part} des \[La]choses
+    Il \[Rém]est grand temps de \[Si&]faire une \[La]pause
+    De troquer cette vie morose
+    Contre le parfum d'une rose
+  \endverse
 
-\beginchorus
-C'est l'\[Rém]hymne \[Si&]{de nos} cam\[La]pagnes
-\[Rém]{De nos} rivières, \[Si&]{de nos} mon\[La]tagnes
-De la vie man{\ldots} du monde animal
-Crie le bien fort, use tes cordes vocales !
-\endchorus
+  \beginchorus
+    C'est l'\[Rém]hymne \[Si&]{de nos} cam\[La]pagnes
+    \[Rém]{De nos} rivières, \[Si&]{de nos} mon\[La]tagnes
+    De la vie man{\ldots} du monde animal
+    Crie le bien fort, use tes cordes vocales !
+  \endchorus
 
-\beginverse
-Pas de boulot, pas de diplômes,
-Partout la même odeur de zone
-Plus rien n'agite tes neurones
-Pas même le shit que tu mets dans tes cônes
-\endverse
+  \beginverse
+    Pas de boulot, pas de diplômes,
+    Partout la même odeur de zone
+    Plus rien n'agite tes neurones
+    Pas même le shit que tu mets dans tes cônes
+  \endverse
 
-\beginverse*
-Va voir ailleurs, ici rien ne te retient
-Va vite faire quelque chose de tes mains
-Ne te retourne pas: ici tu n'as rien
-Et soit le premier à chanter ce refrain
-\endverse
+  \beginverse*
+    Va voir ailleurs, ici rien ne te retient
+    Va vite faire quelque chose de tes mains
+    Ne te retourne pas: ici tu n'as rien
+    Et soit le premier à chanter ce refrain
+  \endverse
 
-\beginverse
-Assieds-toi près d'une rivière
-Écoute le coulis de l'eau sur la terre
-Dis toi qu'au bout, \echo{hey!} il y a la mer
-Et que ça, ça n'a rien d'éphémère
-\endverse
+  \beginverse
+    Assieds-toi près d'une rivière
+    Écoute le coulis de l'eau sur la terre
+    Dis toi qu'au bout, \echo{hey!} il y a la mer
+    Et que ça, ça n'a rien d'éphémère
+  \endverse
 
-\beginverse*
-Tu comprendras alors, que tu n'es rien
-Comme celui avant toi, comme celui qui vient
-Que le liquide qui coule dans tes mains
-Te servira à vivre jusqu'à demain matin
-\endverse
+  \beginverse*
+    Tu comprendras alors, que tu n'es rien
+    Comme celui avant toi, comme celui qui vient
+    Que le liquide qui coule dans tes mains
+    Te servira à vivre jusqu'à demain matin
+  \endverse
 
-\beginverse
-Assieds-toi près d'un vieux chêne
-Et compare le à la race humaine
-L'oxygène est l'ombre qu'il t'amène
-Mérite-t-il les coups de hache qui le saigne?
-\endverse
+  \beginverse
+    Assieds-toi près d'un vieux chêne
+    Et compare le à la race humaine
+    L'oxygène est l'ombre qu'il t'amène
+    Mérite-t-il les coups de hache qui le saigne?
+  \endverse
 
-\beginverse*
-Lève la tête, regarde ses feuilles
-Tu verras peut-être un écureuil
-Qui te regarde, de tout son orgueil
-Sa maison est là, tu es sur le seuil
-\endverse
+  \beginverse*
+    Lève la tête, regarde ses feuilles
+    Tu verras peut-être un écureuil
+    Qui te regarde, de tout son orgueil
+    Sa maison est là, tu es sur le seuil
+  \endverse
 
-\beginverse
-Peut-être que je parle pour ne rien dire
-Que quand tu m'écoutes tu as envie de rire
-Et si le béton est ton avenir
-Dis-toi que c'est la forêt qui fait que tu respires
-\endverse
+  \beginverse
+    Peut-être que je parle pour ne rien dire
+    Que quand tu m'écoutes tu as envie de rire
+    Et si le béton est ton avenir
+    Dis-toi que c'est la forêt qui fait que tu respires
+  \endverse
 
-\beginverse*
-J'aimerais pour tous les animaux
-Que tu captes le message de mes mots
-Car un lopin de terre, une tige de roseau
-Servira à la croissance de tes marmots \rep{2}
-\endverse
+  \beginverse*
+    J'aimerais pour tous les animaux
+    Que tu captes le message de mes mots
+    Car un lopin de terre, une tige de roseau
+    Servira à la croissance de tes marmots \rep{2}
+  \endverse
 
 \endsong

@@ -1,67 +1,68 @@
 \songcolumns{2}
-\beginsong{La complainte du phoque en Alaska}[by=Beau Dommage,cov=le-meilleur-de-beau-dommage]
+\beginsong{La complainte du phoque en Alaska}
+  [by=Beau Dommage,cov=le-meilleur-de-beau-dommage]
 
-\capo{3}
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Mi7}{020100}
-\gtab{Rém}{XX0231}
-\gtab{La7}{X02020}
-\gtab{Sol7}{320001}
-\gtab{Si7}{2:X02020}
-\gtab{Mim}{022000}
-\gtab{Lam}{X02210}
-\gtab{Ré7}{XX0212}
+  \capo{3}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Mi7}{020100}
+  \gtab{Rém}{XX0231}
+  \gtab{La7}{X02020}
+  \gtab{Sol7}{320001}
+  \gtab{Si7}{2:X02020}
+  \gtab{Mim}{022000}
+  \gtab{Lam}{X02210}
+  \gtab{Ré7}{XX0212}
 
-\beginverse
-Cré-\[Do]moé, cré-moi pas, 
-Quelqu'part \[Sol]en Alaska \[Mi7], 
-Y'à un \[Rém]phoque qui s'en\[Sol]nuie en \[Do]maudit \[La7]
-Sa \[Rém]blonde est par\[Sol7]tie
-\[Si7]Gagner sa \[Mim]vie,
-Dans un \[Lam]cirque aux \[Ré7]États-\[Sol]Unis \[Sol7]
-\endverse
+  \beginverse
+    Cré-\[Do]moé, cré-moi pas, 
+    Quelqu'part \[Sol]en Alaska \[Mi7], 
+    Y'à un \[Rém]phoque qui s'en\[Sol]nuie en \[Do]maudit \[La7]
+    Sa \[Rém]blonde est par\[Sol7]tie
+    \[Si7]Gagner sa \[Mim]vie,
+    Dans un \[Lam]cirque aux \[Ré7]États-\[Sol]Unis \[Sol7]
+  \endverse
 
-\beginverse
-Le phoque est tout seul,
-Il r'garde le soleil,
-Qui descend douc'ment sur le glacier
-Il pense aux États,
-En pleurant tout bas,
-C'est comme ça quand ta blonde t'a lâché
-\endverse
+  \beginverse
+    Le phoque est tout seul,
+    Il r'garde le soleil,
+    Qui descend douc'ment sur le glacier
+    Il pense aux États,
+    En pleurant tout bas,
+    C'est comme ça quand ta blonde t'a lâché
+  \endverse
 
-\beginchorus
-\[Do]Ça ne \[Mim]vaut pas la pei\[Lam]ne 
-De lais\[Mim]ser ceux qu'on aim\[Lam]e
-Pour al\[Mim]ler faire tour\[Rém]ner
-Des bal\[Sol7]lons sur son \[Do]nez \[Sol7]
-\endchorus
+  \beginchorus
+    \[Do]Ça ne \[Mim]vaut pas la pei\[Lam]ne 
+    De lais\[Mim]ser ceux qu'on aim\[Lam]e
+    Pour al\[Mim]ler faire tour\[Rém]ner
+    Des bal\[Sol7]lons sur son \[Do]nez \[Sol7]
+  \endchorus
 
-\beginchorus
-Ça fait rire les enfants,
-Ça dure jamais longtemps
-Ça fait plus rire personne,
-Quand les enfants sont grands
-\endchorus
+  \beginchorus
+    Ça fait rire les enfants,
+    Ça dure jamais longtemps
+    Ça fait plus rire personne,
+    Quand les enfants sont grands
+  \endchorus
 
-\beginverse
-Quand le phoque s'ennuie,
-Il r'garde son poil qui brille,
-Comme les rues d'New-York après la pluie
-Il rêve à Chicago,
-À Marilyn Monroe,
-Il voudrait voir sa blonde faire un show
-\endverse
+  \beginverse
+    Quand le phoque s'ennuie,
+    Il r'garde son poil qui brille,
+    Comme les rues d'New-York après la pluie
+    Il rêve à Chicago,
+    À Marilyn Monroe,
+    Il voudrait voir sa blonde faire un show
+  \endverse
 
-\beginverse
-C'est rien qu'une histoire, 
-J'peux pas m'en faire à croire,
-Mais des fois, j'ai l'impression qu'c'est moé
-Qui est assis sur la glace,
-Les deux mains dans la face,
-Mon amour est partie, pis j'm'ennuie
-\endverse
+  \beginverse
+    C'est rien qu'une histoire, 
+    J'peux pas m'en faire à croire,
+    Mais des fois, j'ai l'impression qu'c'est moé
+    Qui est assis sur la glace,
+    Les deux mains dans la face,
+    Mon amour est partie, pis j'm'ennuie
+  \endverse
 
 \endsong

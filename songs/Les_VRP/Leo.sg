@@ -1,122 +1,123 @@
 \songcolumns{2}
-\beginsong{L\'eo}[by=Les VRP,cov=vacances-prolongees]
+\beginsong{Léo}
+  [by=Les VRP,cov=vacances-prolongees]
 
 
-\cover
-\gtab{Lam}{5:022000}
-\gtab{Rém}{5:X02210}
-\gtab{Mi7}{5:X2120X}
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Rém}{5:X02210}
+  \gtab{Mi7}{5:X2120X}
 
 
-\beginverse
-Quand sa mère accoucha d'\[Lam]Léo,
-C'était pour mourir aussi\[Rém]tôt
-Dans les dé\[Lam]combres d'un bis\[Mi7]trot,
-C'était la \[Lam]guerre.
-Il a \[Lam]grandi on n'sait comment,
-En s'inven\[Rém]tant plein de mamans
-Des prosti\[Lam]tuées, des sans-ar\[Mi7]gent
-La vraie mi\[Lam]sère
-\endverse
+  \beginverse
+    Quand sa mère accoucha d'\[Lam]Léo,
+    C'était pour mourir aussi\[Rém]tôt
+    Dans les dé\[Lam]combres d'un bis\[Mi7]trot,
+    C'était la \[Lam]guerre.
+    Il a \[Lam]grandi on n'sait comment,
+    En s'inven\[Rém]tant plein de mamans
+    Des prosti\[Lam]tuées, des sans-ar\[Mi7]gent
+    La vraie mi\[Lam]sère
+  \endverse
 
-\beginverse*
-Comme \[Rém]{il avait} de l'aisance
-Et n'\[Lam]était pas idiot
-À \[Mi7]son adolescence
-Il \[Lam]devînt gigolo
-Dans le \[Rém]lit des femmes chics,
-Il \[Lam]{fît don} de ses dons
-À \[Mi7]vouloir de fric,
-On finit en pri\[Lam]son
-\endverse
+  \beginverse*
+    Comme \[Rém]{il avait} de l'aisance
+    Et n'\[Lam]était pas idiot
+    À \[Mi7]son adolescence
+    Il \[Lam]devînt gigolo
+    Dans le \[Rém]lit des femmes chics,
+    Il \[Lam]{fît don} de ses dons
+    À \[Mi7]vouloir de fric,
+    On finit en pri\[Lam]son
+  \endverse
 
-\beginverse
-Dans la pénombre d'un cachot,
-On enferma le pauvre Léo
-Avec des brigands, des salauds,
-C'était l'hiver
-Paraît qu't'étais un prostitué,
-Lui dit un gars de sa chambrée
-Tu vas pouvoir nous réchauffer,
-Fût pas d'manières
-\endverse
+  \beginverse
+    Dans la pénombre d'un cachot,
+    On enferma le pauvre Léo
+    Avec des brigands, des salauds,
+    C'était l'hiver
+    Paraît qu't'étais un prostitué,
+    Lui dit un gars de sa chambrée
+    Tu vas pouvoir nous réchauffer,
+    Fût pas d'manières
+  \endverse
 
-\beginverse*
-N'ayant plus le moral,
-Et voulant en finir
-En ouvrant un journal, il lût:
-``Tu peux m'écrire.
-Mon ptit nom c'est Lila, toi,
-Tu es prisonnier
-Si tu veux écris-moi,
-Je s'rai ta liberté''
-\endverse
+  \beginverse*
+    N'ayant plus le moral,
+    Et voulant en finir
+    En ouvrant un journal, il lût:
+    ``Tu peux m'écrire.
+    Mon ptit nom c'est Lila, toi,
+    Tu es prisonnier
+    Si tu veux écris-moi,
+    Je s'rai ta liberté''
+  \endverse
 
-\beginverse
-Il a fallu bien des années
-Avant qu'Léo soit relâché
-Mais un beau jour c'est terminé, 
-On le libère
-Il va pouvoir la rencontrer 
-Celle qu'il appelle \emph{ma dulcinée}
-Il va la couvrir de baisers,
-Il fait le fier
-\endverse
+  \beginverse
+    Il a fallu bien des années
+    Avant qu'Léo soit relâché
+    Mais un beau jour c'est terminé, 
+    On le libère
+    Il va pouvoir la rencontrer 
+    Celle qu'il appelle \emph{ma dulcinée}
+    Il va la couvrir de baisers,
+    Il fait le fier
+  \endverse
 
-\beginverse*
-Il croise sur le trottoir,
-Un cercueil de bois noir
-Salue les hommes en pleurs
-Et dérobe une fleur
-Il arrive excité,
-Et frappe tout essoufflé
-Mais celle qu'il a aimée,
-Il vient de la croiser.
-\endverse
+  \beginverse*
+    Il croise sur le trottoir,
+    Un cercueil de bois noir
+    Salue les hommes en pleurs
+    Et dérobe une fleur
+    Il arrive excité,
+    Et frappe tout essoufflé
+    Mais celle qu'il a aimée,
+    Il vient de la croiser.
+  \endverse
 
-\beginverse
-Dans ce petit appartement, 
-Y'avait pas grand chose d'important
-Mais sur une table, deux instruments
-Et une lettre
-``Mon p'tit Léo, gâche pas ta vie,
-Fais ça pour moi je t'en supplie
-Prend cet archer, cette scie,
-Deviens honnête.''
-\endverse
+  \beginverse
+    Dans ce petit appartement, 
+    Y'avait pas grand chose d'important
+    Mais sur une table, deux instruments
+    Et une lettre
+    ``Mon p'tit Léo, gâche pas ta vie,
+    Fais ça pour moi je t'en supplie
+    Prend cet archer, cette scie,
+    Deviens honnête.''
+  \endverse
 
-\beginverse*
-Dans la rue il s'installe,
-Joue d'la scie musicale
-Mais il joue tellement mal,
-Que même les sourds en parlent
-Les voisins excédés
-Par tant d'bonne volonté
-Un jour furent obligés,
-De l'chasser du quartier
-\endverse
+  \beginverse*
+    Dans la rue il s'installe,
+    Joue d'la scie musicale
+    Mais il joue tellement mal,
+    Que même les sourds en parlent
+    Les voisins excédés
+    Par tant d'bonne volonté
+    Un jour furent obligés,
+    De l'chasser du quartier
+  \endverse
 
-\beginverse
-Un puis un jour dans les bistrots,
-Y's'passait rien de très nouveau
-On a pu lire dans les journaux,
-Ce fait divers
-On a r'trouvé sous un camion,
-Le corps d'un pauvre vagabond
-Les bras sciés et un archer
-Un mystère
-\endverse
+  \beginverse
+    Un puis un jour dans les bistrots,
+    Y's'passait rien de très nouveau
+    On a pu lire dans les journaux,
+    Ce fait divers
+    On a r'trouvé sous un camion,
+    Le corps d'un pauvre vagabond
+    Les bras sciés et un archer
+    Un mystère
+  \endverse
 
-\beginverse*
-Si encore de nos jours,
-On entend ce refrain
-C'est que du fond de sa cour, un jour,
-Un musicien
-Sans s'en douter du reste,
-Cherchant un air nouveau
-A écrit pour orchestre:
-``Les Hurlements d'Léo''.
-\endverse
+  \beginverse*
+    Si encore de nos jours,
+    On entend ce refrain
+    C'est que du fond de sa cour, un jour,
+    Un musicien
+    Sans s'en douter du reste,
+    Cherchant un air nouveau
+    A écrit pour orchestre:
+    ``Les Hurlements d'Léo''.
+  \endverse
 
 
 \endsong

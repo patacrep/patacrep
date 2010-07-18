@@ -1,63 +1,64 @@
 \songcolumns{2}
-\beginsong{Tree hugger}[by=Kimya Dawson,cov=juno]
+\beginsong{Tree hugger}
+  [by=Kimya Dawson,cov=juno]
 
-\cover
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Ré}{XX0232}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Ré}{XX0232}
 
-\beginverse
-\[Sol]The flower said: ``I wish I was a \[Do]tree''
-The tree said: ``I wish I could \[Ré]be
-A different kind of tree''
-\[Sol]The cat wished that it was a bee,
-\[Sol]The turtle wished that it could fly
-\[Do]Really high into the sky,
-\[Ré]Over rooftops and then dive
-\[Sol]Deep into the sea.
-\endverse
+  \beginverse
+    \[Sol]The flower said: ``I wish I was a \[Do]tree''
+    The tree said: ``I wish I could \[Ré]be
+    A different kind of tree''
+    \[Sol]The cat wished that it was a bee,
+    \[Sol]The turtle wished that it could fly
+    \[Do]Really high into the sky,
+    \[Ré]Over rooftops and then dive
+    \[Sol]Deep into the sea.
+  \endverse
 
-\beginverse
-And in the sea there is a fish,
-A fish that has a secret wish,
-A wish to be a big cactus
-With a pink flower on it.
-\rep{2}
-\endverse
+  \beginverse
+    And in the sea there is a fish,
+    A fish that has a secret wish,
+    A wish to be a big cactus
+    With a pink flower on it.
+    \rep{2}
+  \endverse
 
-\beginverse
-And the flower
-Would be its offering
-Of love 
-To the desert.
-And the desert,
-So dry and lonely,
-That the creatures all 
-Appreciate the effort.
-\endverse
+  \beginverse
+    And the flower
+    Would be its offering
+    Of love 
+    To the desert.
+    And the desert,
+    So dry and lonely,
+    That the creatures all 
+    Appreciate the effort.
+  \endverse
 
-\beginverse
-Et le jackalope a dit :
-``Je voudrais être un yéti
-Pour voler dans la nuit
-Et m'en aller loin d'ici''
-Mais le yéti a dit :
-``Je voudrais être un monstre marin
-Pour pouvoir sauter dans la mer
-De tous les requins''
-\endverse
+  \beginverse
+    Et le jackalope a dit :
+    ``Je voudrais être un yéti
+    Pour voler dans la nuit
+    Et m'en aller loin d'ici''
+    Mais le yéti a dit :
+    ``Je voudrais être un monstre marin
+    Pour pouvoir sauter dans la mer
+    De tous les requins''
+  \endverse
 
-\beginverse
-And the rattlesnake said: ``I wish I had hands
-So I could hug you like a man.''
-And then the cactus said:
-``Don't you understand ?
-My skin is covered with sharp spikes
-That'll stab you like a thousand knives.
-A hug would be nice,
-But hug my flower with your eyes.''
-\endverse
+  \beginverse
+    And the rattlesnake said: ``I wish I had hands
+    So I could hug you like a man.''
+    And then the cactus said:
+    ``Don't you understand ?
+    My skin is covered with sharp spikes
+    That'll stab you like a thousand knives.
+    A hug would be nice,
+    But hug my flower with your eyes.''
+  \endverse
 
-\musicnote{repeat verse 1, 2, and 3}
+  \musicnote{repeat verse 1, 2, and 3}
 
 \endsong

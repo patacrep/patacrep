@@ -1,87 +1,88 @@
 \songcolumns{2}
-\beginsong{Les souliers de Lady Fae}[by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
+\beginsong{Les souliers de Lady Fae}
+  [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
 
-\cover
-\gtab{Mim}{022000}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Sim}{2:X02210}
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Sim}{2:X02210}
 
-\lilypond{Les_souliers_de_Lady_Fae-1}
+  \lilypond{Les_souliers_de_Lady_Fae-1}
 
-\beginverse
-\[Mim]Soufflent les \[Sol]vents, \[Do]tonne l'o\[Sim]rage
-\[Mim]Pleurent les en\[Sol]fants dans leur \[Do]lit sans bou\[Sim]ger
-\[Mim]Nul ne \[Sol]sait jamais \[Do]les conso\[Sim]ler
-\[Mim]Sans racon\[Sol]ter l'histoi\[Sim]re de Lady \[Mim]Fae.
-\endverse
+  \beginverse
+    \[Mim]Soufflent les \[Sol]vents, \[Do]tonne l'o\[Sim]rage
+    \[Mim]Pleurent les en\[Sol]fants dans leur \[Do]lit sans bou\[Sim]ger
+    \[Mim]Nul ne \[Sol]sait jamais \[Do]les conso\[Sim]ler
+    \[Mim]Sans racon\[Sol]ter l'histoi\[Sim]re de Lady \[Mim]Fae.
+  \endverse
 
-\beginverse
-Soufflent les vents, tonne l'orage
-Jusqu'à l'horizon, les badauds envoutés
-Nul ne sait les ignorer chanter
-Des vertus magique des souliers de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    Jusqu'à l'horizon, les badauds envoutés
+    Nul ne sait les ignorer chanter
+    Des vertus magique des souliers de Lady Fae
+  \endverse
 
-\beginverse
-Soufflent les vents, tonne l'orage
-Lorsqu'on l'aperçoit, on ne peut l'oublier
-Mais nul ne sait jamais la rattraper
-En suivant les traces des souliers de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    Lorsqu'on l'aperçoit, on ne peut l'oublier
+    Mais nul ne sait jamais la rattraper
+    En suivant les traces des souliers de Lady Fae
+  \endverse
 
-\beginverse
-Soufflent les vents, tonne l'orage
-En haut de la colline, elle a sa maisonnée
-Nul ne sait espérer l'approcher
-Sans porter les souliers de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    En haut de la colline, elle a sa maisonnée
+    Nul ne sait espérer l'approcher
+    Sans porter les souliers de Lady Fae
+  \endverse
 
-\beginverse
-Soufflent les vents, tonne l'orage
-Elle prend de sa main les vies des étrangers
-Nul ne sait fouler la route aux souliers
-Sans trouver la mort aux portes de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    Elle prend de sa main les vies des étrangers
+    Nul ne sait fouler la route aux souliers
+    Sans trouver la mort aux portes de Lady Fae
+  \endverse
 
-\beginverse
-Soufflent les vents, tonne l'orage
-Celle qui tient le fort reste une fille à marier
-Elle attend le jour où l'un d'eux va passer
-La porte de la demeure de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    Celle qui tient le fort reste une fille à marier
+    Elle attend le jour où l'un d'eux va passer
+    La porte de la demeure de Lady Fae
+  \endverse
 
-\lilypond{Les_souliers_de_Lady_Fae-2}
+  \lilypond{Les_souliers_de_Lady_Fae-2}
 
-\beginverse
-Soufflent les vents, tonne l'orage
-L'un d'eux s'est épris de la belle aux souliers
-Il traverse les champs de félons statufiés
-Sans quitter des yeux le château de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    L'un d'eux s'est épris de la belle aux souliers
+    Il traverse les champs de félons statufiés
+    Sans quitter des yeux le château de Lady Fae
+  \endverse
 
-\beginverse
-Soufflent les vents, tonne l'orage
-Il n'a que faire de légendes oubliées
-En poussant la porte il espère trouver
-Ces yeux qui le hantent, ce sont ceux de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    Il n'a que faire de légendes oubliées
+    En poussant la porte il espère trouver
+    Ces yeux qui le hantent, ce sont ceux de Lady Fae
+  \endverse
 
-\beginverse
-Soufflent les vents, tonne l'orage
-Voyant sa promise, il s'est agenouillé
-Demandant sa main, il posa un baiser
-Sur les souliers enchantés de Lady Fae
-\endverse
+  \beginverse
+    Soufflent les vents, tonne l'orage
+    Voyant sa promise, il s'est agenouillé
+    Demandant sa main, il posa un baiser
+    Sur les souliers enchantés de Lady Fae
+  \endverse
 
-\beginverse
-Depuis ce temps, tous les enfants sages
-Ont écouté mille fois cette chanson du passé
-Par delà le fort, ils se sont épousés
-Laissant derrière eux les souliers de Lady Fae
-\endverse
+  \beginverse
+    Depuis ce temps, tous les enfants sages
+    Ont écouté mille fois cette chanson du passé
+    Par delà le fort, ils se sont épousés
+    Laissant derrière eux les souliers de Lady Fae
+  \endverse
 
-\image{naheulbeuk05}{4}
+  \image{naheulbeuk05}{4}
 
 
 \endsong

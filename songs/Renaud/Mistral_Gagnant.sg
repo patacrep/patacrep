@@ -1,99 +1,100 @@
 \songcolumns{2}
-\beginsong{Mistral gagnant}[by=Renaud,cov=mistral-gagnant]
+\beginsong{Mistral gagnant}
+  [by=Renaud,cov=mistral-gagnant]
 
-\cover
-\gtab{Sim}{2:X02210}
-\gtab{Mim}{022000}
-\gtab{La}{X02220}
-\gtab{Ré}{XX0232}
-\gtab{Sol}{320003}
-\gtab{Fa#}{2:022100}
+  \cover
+  \gtab{Sim}{2:X02210}
+  \gtab{Mim}{022000}
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{Fa#}{2:022100}
 
 
-\beginverse
-Ah\dots m'as\[Sim]seoir sur un banc 
-Cinq minutes avec toi
-Et regarder les gens tant qu'y en \[Mim]a
- 
-Te par\[La]ler du bon temps
-Qu'est mort ou qui r'viendra
-En serrant dans ma main tes p'tits \[Ré]doigts
- 
-Puis donner à bouffer
-À des pigeons idiots
-Leur filer des coups de pied pour de faux
- 
-Et entendre ton rire
-Qui lézarde les murs
-Qui sait surtout guérir mes blessures
-\endverse
+  \beginverse
+    Ah\dots m'as\[Sim]seoir sur un banc 
+    Cinq minutes avec toi
+    Et regarder les gens tant qu'y en \[Mim]a
+    
+    Te par\[La]ler du bon temps
+    Qu'est mort ou qui r'viendra
+    En serrant dans ma main tes p'tits \[Ré]doigts
+    
+    Puis donner à bouffer
+    À des pigeons idiots
+    Leur filer des coups de pied pour de faux
+    
+    Et entendre ton rire
+    Qui lézarde les murs
+    Qui sait surtout guérir mes blessures
+  \endverse
 
-\beginverse* 
-Te ra\[Sol]conter un peu
-Comment j'étais mi\[Fa#]no
-Les bonbecs fabu\[Sim]leux
- 
-\[Sol]Qu'on piquait chez l'marchand
-Car en sac et min\[Fa#]tho
-Caramels à un \[Sim]franc
-\[La]Et les mistrals ga\[Sol]gnants.
-\endverse
+  \beginverse* 
+    Te ra\[Sol]conter un peu
+    Comment j'étais mi\[Fa#]no
+    Les bonbecs fabu\[Sim]leux
+    
+    \[Sol]Qu'on piquait chez l'marchand
+    Car en sac et min\[Fa#]tho
+    Caramels à un \[Sim]franc
+    \[La]Et les mistrals ga\[Sol]gnants.
+  \endverse
 
-\beginverse
-Ah\dots m'asseoir sous la pluie
-Cinq minutes avec toi
-Et regarder la vie tant qu'y en a
- 
-Te raconter la terre 
-En te bouffant des yeux
-Te parler de ta mère un p'tit peu
- 
-Et sauter dans les flaques
-Pour la faire râler
-Bousiller nos godasses et s'marrer
- 
-Et entendre ton rire
-Comme on entend la mer
-S'arrêter, repartir en arrière
-\endverse
+  \beginverse
+    Ah\dots m'asseoir sous la pluie
+    Cinq minutes avec toi
+    Et regarder la vie tant qu'y en a
+    
+    Te raconter la terre 
+    En te bouffant des yeux
+    Te parler de ta mère un p'tit peu
+    
+    Et sauter dans les flaques
+    Pour la faire râler
+    Bousiller nos godasses et s'marrer
+    
+    Et entendre ton rire
+    Comme on entend la mer
+    S'arrêter, repartir en arrière
+  \endverse
 
-\beginverse*
-Te raconter surtout 
-Les carambars d'antan
-Et les coco-boërs
-Et les vrais roudoudous
-Qui nous coupaient les lèvres
-Et nous niquaient les dents
-Et les mistrals gagnants
-\endverse 
+  \beginverse*
+    Te raconter surtout 
+    Les carambars d'antan
+    Et les coco-boërs
+    Et les vrais roudoudous
+    Qui nous coupaient les lèvres
+    Et nous niquaient les dents
+    Et les mistrals gagnants
+  \endverse 
 
-\beginverse 
-Ah\dots m'asseoir sur un banc
-Cinq minutes avec toi
-Regarder le soleil qui s'en va
- 
-Te parler du bon temps
-Qui est mort et je m'en fous
-Te dire que les méchants c'est pas nous
- 
-Que si moi je suis barge 
-Ce n'est que de tes yeux
-Car ils ont l'avantage d'être deux
- 
-Et entendre ton rire
-S'envoler aussi haut
-Que s'envolent les cris des oiseaux
-\endverse
+  \beginverse 
+    Ah\dots m'asseoir sur un banc
+    Cinq minutes avec toi
+    Regarder le soleil qui s'en va
+    
+    Te parler du bon temps
+    Qui est mort et je m'en fous
+    Te dire que les méchants c'est pas nous
+    
+    Que si moi je suis barge 
+    Ce n'est que de tes yeux
+    Car ils ont l'avantage d'être deux
+    
+    Et entendre ton rire
+    S'envoler aussi haut
+    Que s'envolent les cris des oiseaux
+  \endverse
 
-\beginverse*
-Te raconter enfin
-Qu'il faut aimer la vie
-Et l'aimer même si
-Le temps est assassin
-Et emporte avec lui
-Le rire des enfants
-Et les mistrals gagnants \rep{2}
-\endverse
+  \beginverse*
+    Te raconter enfin
+    Qu'il faut aimer la vie
+    Et l'aimer même si
+    Le temps est assassin
+    Et emporte avec lui
+    Le rire des enfants
+    Et les mistrals gagnants \rep{2}
+  \endverse
 
 \endsong
 

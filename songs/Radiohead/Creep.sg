@@ -1,48 +1,49 @@
 \songcolumns{2}
-\beginsong{Creep}[by=Radiohead,cov=pablo-honey]
+\beginsong{Creep}
+  [by=Radiohead,cov=pablo-honey]
 
-\cover
-\gtab{Sol}{3:022100}
-\gtab{Si}{7:022100}
-\gtab{Si#}{8:022100}
-\gtab{Dom}{3:X02210}
+  \cover
+  \gtab{Sol}{3:022100}
+  \gtab{Si}{7:022100}
+  \gtab{Si#}{8:022100}
+  \gtab{Dom}{3:X02210}
 
-\beginverse
-When you were here before\[Sol]
-Couldn't look you in the eye\[Si]
-You're just like an angel\[Si#]
-Your skin makes me cry\[Dom]
-You float like a feather\[Sol]
-In a beautiful world\[Si]
-I wish I was special\[Si#]
-You're so fuckin' special\[Dom]
-\endverse
+  \beginverse
+    When you were here before\[Sol]
+    Couldn't look you in the eye\[Si]
+    You're just like an angel\[Si#]
+    Your skin makes me cry\[Dom]
+    You float like a feather\[Sol]
+    In a beautiful world\[Si]
+    I wish I was special\[Si#]
+    You're so fuckin' special\[Dom]
+  \endverse
 
-\beginchorus
-But I'm a creep, I'm a weirdo.
-What the hell am I doing here ?
-I don't belong here.
-\endchorus
+  \beginchorus
+    But I'm a creep, I'm a weirdo.
+    What the hell am I doing here ?
+    I don't belong here.
+  \endchorus
 
-\beginverse
-I don't care if it hurts
-I want to have control
-I want a perfect body
-I want a perfect soul
-I want you to notice
-When I'm not around
-You're so fuckin' special
-I wish I was special
-\endverse
+  \beginverse
+    I don't care if it hurts
+    I want to have control
+    I want a perfect body
+    I want a perfect soul
+    I want you to notice
+    When I'm not around
+    You're so fuckin' special
+    I wish I was special
+  \endverse
 
-\beginverse
-She's running out again,
-She's running out
-She run run run ruun ruuun{\dots}
-Whatever makes you happy
-Whatever you want
-You're so fuckin' special
-I wish I was special{\dots}
-\endverse
+  \beginverse
+    She's running out again,
+    She's running out
+    She run run run ruun ruuun{\dots}
+    Whatever makes you happy
+    Whatever you want
+    You're so fuckin' special
+    I wish I was special{\dots}
+  \endverse
 
 \endsong

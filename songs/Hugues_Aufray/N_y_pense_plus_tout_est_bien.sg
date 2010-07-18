@@ -1,58 +1,60 @@
 \songcolumns{2}
-\beginsong{N'y pense plus, tout est bien}[by=Hugues Aufray,cov=la-terre-est-si-belle]
+\beginsong{N'y pense plus, tout est bien}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle]
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Ré7}{XX0212}
-\gtab{Sol7}{320001}
-\gtab{Mi}{022100}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Ré7}{XX0212}
+  \gtab{Sol7}{320001}
+  \gtab{Mi}{022100}
 
 
-\beginverse
-À \[Do]quoi ça sert de \[Sol]chercher à com\[Lam]prendre
-\[Fa]Pourquoi on dit ce qu'on \[Sol]dit
-À \[Do]quoi ça sert de \[Sol]chercher à com\[Lam]prendre
-\[Ré7]Quand c'est fini, c'est fini\[Sol7]
-\[Do]Quand le soleil se lève\[Do7]ra demain
-\[Fa]Je serai déjà \[Ré7]loin très loin
-\[Do]Il faut se \[Mi]quitter en che\[Lam]min
-\[Fa]Mais n'y pense \[Sol]plus: tout est \[Do]bien
-\endverse
+  \beginverse
+    À \[Do]quoi ça sert de \[Sol]chercher à com\[Lam]prendre
+    \[Fa]Pourquoi on dit ce qu'on \[Sol]dit
+    À \[Do]quoi ça sert de \[Sol]chercher à com\[Lam]prendre
+    \[Ré7]Quand c'est fini, c'est fini\[Sol7]
+    \[Do]Quand le soleil se lève\[Do7]ra demain
+    \[Fa]Je serai déjà \[Ré7]loin très loin
+    \[Do]Il faut se \[Mi]quitter en che\[Lam]min
+    \[Fa]Mais n'y pense \[Sol]plus: tout est \[Do]bien
+  \endverse
 
-\beginverse
-À quoi ça sert de chercher la lumière
-Puisqu'il n'y a rien à voir
-À quoi ça sert de chercher la lumière
-Je veux rester dans le noir
-Tu peux toujours essayer de me dire
-Ce que tu n'as jamais su me dire
-Quand nous marchions main dans la main
-Mais n'y pense plus: tout est bien
-\endverse
+  \beginverse
+    À quoi ça sert de chercher la lumière
+    Puisqu'il n'y a rien à voir
+    À quoi ça sert de chercher la lumière
+    Je veux rester dans le noir
+    Tu peux toujours essayer de me dire
+    Ce que tu n'as jamais su me dire
+    Quand nous marchions main dans la main
+    Mais n'y pense plus: tout est bien
+  \endverse
 
-\beginverse
-Moi j'ai choisi la route solitaire
-Pareille à celle du vent
-Moi j'ai choisi la route solitaire
-Qui va là-bas loin devant
-Mais je voudrais qu'on se quitte bons amis
-Tu aurais pu faire mieux, ma foi tant pis
-Le temps qu'on a passé c'était pour rien
-Mais n'y pense plus: tout est bien
-\endverse
+  \beginverse
+    Moi j'ai choisi la route solitaire
+    Pareille à celle du vent
+    Moi j'ai choisi la route solitaire
+    Qui va là-bas loin devant
+    Mais je voudrais qu'on se quitte bons amis
+    Tu aurais pu faire mieux, ma foi tant pis
+    Le temps qu'on a passé c'était pour rien
+    Mais n'y pense plus: tout est bien
+  \endverse
 
-\beginverse
-À quoi ça sert de verser tant de larmes
-Ce sont des larmes perdues
-À quoi ça sert de verser tant de larmes
-Je ne t'entends déjà plus
-Sur le chemin, le souvenir m'attend
-On m'avait dit de toi, ce n'est qu'une enfant
-J'allais perdre mon âme dans tes mains
-Mais n'y pense plus: tout est bien
-\endverse
+  \beginverse
+    À quoi ça sert de verser tant de larmes
+    Ce sont des larmes perdues
+    À quoi ça sert de verser tant de larmes
+    Je ne t'entends déjà plus
+    Sur le chemin, le souvenir m'attend
+    On m'avait dit de toi, ce n'est qu'une enfant
+    J'allais perdre mon âme dans tes mains
+    Mais n'y pense plus: tout est bien
+  \endverse
+
 \endsong

@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Vingt ans}[by=Pierre Bachelet,cov=le-meilleur-de-bachelet]
+\beginsong{Vingt ans}
+  [by=Pierre Bachelet,cov=le-meilleur-de-bachelet]
 
   \cover
   \gtab{Mim}{022000}

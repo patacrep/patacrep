@@ -1,52 +1,54 @@
-\beginsong{House of the rising sun}[by=The Animals,cov=the-animals]
+\songcolumns{2}
+\beginsong{House of the rising sun}
+  [by=The Animals,cov=the-animals]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{X32010}
-\gtab{Ré}{XX0232}
-\gtab{Fa}{1:022100}
-\gtab{Mi7}{020100}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Ré}{XX0232}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi7}{020100}
 
-\beginverse
-\[Lam]There is a \[Do]house in \[Ré]New Orleans, \[Fa]
-They \[Lam]call the \[Do]Rising \[Mi7]Sun \[Mi7]
-And It's \[Lam]been the \[Do]ruin of \[Ré]many a poor boy \[Fa]
-And \[Lam]God, I \[Mi7]know, I'm \[Lam]one \[Mi7]
-\endverse
+  \beginverse
+    \[Lam]There is a \[Do]house in \[Ré]New Orleans, \[Fa]
+    They \[Lam]call the \[Do]Rising \[Mi7]Sun \[Mi7]
+    And It's \[Lam]been the \[Do]ruin of \[Ré]many a poor boy \[Fa]
+    And \[Lam]God, I \[Mi7]know, I'm \[Lam]one \[Mi7]
+  \endverse
 
-\beginverse
-My mother was a tailor
-She sewed my new bluejeans
-My father was a gamblin' man
-Down in New Orleans
-\endverse
+  \beginverse
+    My mother was a tailor
+    She sewed my new bluejeans
+    My father was a gamblin' man
+    Down in New Orleans
+  \endverse
 
-\beginverse
-Now the only thing a gambler needs
-Is a suitcase and trunk
-And the only time he's satisfied
-Is when he's on a drunk
-\endverse
+  \beginverse
+    Now the only thing a gambler needs
+    Is a suitcase and trunk
+    And the only time he's satisfied
+    Is when he's on a drunk
+  \endverse
 
-\beginverse
-Oh mother tell your children
-Not to do what I have done
-Spend your lives in sin and misery
-In the House of the Rising Sun
-\endverse
+  \beginverse
+    Oh mother tell your children
+    Not to do what I have done
+    Spend your lives in sin and misery
+    In the House of the Rising Sun
+  \endverse
 
-\beginverse
-Well, I got one foot on the platform
-The other foot on the train
-I'm goin' back to New Orleans
-To wear that ball and chain
-\endverse
+  \beginverse
+    Well, I got one foot on the platform
+    The other foot on the train
+    I'm goin' back to New Orleans
+    To wear that ball and chain
+  \endverse
 
-\beginverse
-Well, there is a house in New Orleans
-They call the Rising Sun
-And it's been the ruin of many a poor boy
-And God I know I'm one
-\endverse
+  \beginverse
+    Well, there is a house in New Orleans
+    They call the Rising Sun
+    And it's been the ruin of many a poor boy
+    And God I know I'm one
+  \endverse
 
 \endsong

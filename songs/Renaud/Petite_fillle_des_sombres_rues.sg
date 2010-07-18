@@ -1,73 +1,74 @@
 \songcolumns{2}
-\beginsong{Petite fille des sombres rues}[by=Renaud,cov=amoureux-de-paname]
+\beginsong{Petite fille des sombres rues}
+  [by=Renaud,cov=amoureux-de-paname]
 
 
-\capo{3}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Rém}{XX0231}
-\gtab{Mi7}{020100}
+  \capo{3}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Rém}{XX0231}
+  \gtab{Mi7}{020100}
 
-\beginverse
-\[Lam]Non, ne crois pas, fi\[Rém]llette,
-Me retenir en\[Lam]core
-Dans tes rues sans vio\[Mi7]lettes,
-Dans ton triste dé\[Lam]cor
-N'essaie pas de me \[Rém]suivre,
-Déserte mes ri\[Lam]vages,
-Loin de toi, je veux \[Mi7]vivre
-De plus beaux pay\[Lam]sages.
-\endverse
+  \beginverse
+    \[Lam]Non, ne crois pas, fi\[Rém]llette,
+    Me retenir en\[Lam]core
+    Dans tes rues sans vio\[Mi7]lettes,
+    Dans ton triste dé\[Lam]cor
+    N'essaie pas de me \[Rém]suivre,
+    Déserte mes ri\[Lam]vages,
+    Loin de toi, je veux \[Mi7]vivre
+    De plus beaux pay\[Lam]sages.
+  \endverse
 
-\beginchorus
-Petite \[Rém]fille des sombres \[Lam]rues,
-E\[Mi7]loigne-\[Lam]toi,
-Petite \[Rém]fille aux yeux \[Lam]perdus,
-Tu \[Mi7]m'oublie\[Lam]ras.
-\endchorus
+  \beginchorus
+    Petite \[Rém]fille des sombres \[Lam]rues,
+    E\[Mi7]loigne-\[Lam]toi,
+    Petite \[Rém]fille aux yeux \[Lam]perdus,
+    Tu \[Mi7]m'oublie\[Lam]ras.
+  \endchorus
 
-\beginverse
-J'ai trop longtemps vécu
-Dans de pauvres ruelles,
-Trop longtemps attendu
-Un petit arc-en-ciel.
-J'ai besoin de soleil
-Et d'horizons moins gris,
-Je veux voir les merveilles
-Que, près de toi, j'oublie.
-\endverse
+  \beginverse
+    J'ai trop longtemps vécu
+    Dans de pauvres ruelles,
+    Trop longtemps attendu
+    Un petit arc-en-ciel.
+    J'ai besoin de soleil
+    Et d'horizons moins gris,
+    Je veux voir les merveilles
+    Que, près de toi, j'oublie.
+  \endverse
 
-\beginverse
-Je ne suis pas de ceux
-Que chasse la lumière,
-Et qui vivent heureux
-Un éternel hiver
-De l'amour, je ne veux
-Que les filles des rivières,
-Lorsque j'aime les yeux,
-J'aime aussi la chaumière.
-\endverse
+  \beginverse
+    Je ne suis pas de ceux
+    Que chasse la lumière,
+    Et qui vivent heureux
+    Un éternel hiver
+    De l'amour, je ne veux
+    Que les filles des rivières,
+    Lorsque j'aime les yeux,
+    J'aime aussi la chaumière.
+  \endverse
 
-\beginverse
-Nos chemins se séparent,
-Entends, la vie m'appelle,
-Je quitte tes trottoirs
-Et tes grises dentelles.
-Je pars pour des royaumes
-Où l'on m'attend peut-être,
-Où le bonheur embaume,
-Et donne un air de fête.
-\endverse
+  \beginverse
+    Nos chemins se séparent,
+    Entends, la vie m'appelle,
+    Je quitte tes trottoirs
+    Et tes grises dentelles.
+    Je pars pour des royaumes
+    Où l'on m'attend peut-être,
+    Où le bonheur embaume,
+    Et donne un air de fête.
+  \endverse
 
-\beginverse
-Laisse-moi m'en aller,
-Je n'ai plus rien à dire,
-Mais si tu veux pleurer,
-N'essaie pas de sourire.
-Retourne dans ta nuit,
-Au fond de tes faubourgs,
-Retourne dans l'ennui
-Qui habite tes jours.
-\endverse
+  \beginverse
+    Laisse-moi m'en aller,
+    Je n'ai plus rien à dire,
+    Mais si tu veux pleurer,
+    N'essaie pas de sourire.
+    Retourne dans ta nuit,
+    Au fond de tes faubourgs,
+    Retourne dans l'ennui
+    Qui habite tes jours.
+  \endverse
 
 \endsong

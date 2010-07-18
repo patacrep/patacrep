@@ -1,123 +1,124 @@
 \songcolumns{2}
-\beginsong{Grand-père}[by=Georges Brassens,cov=je-me-suis-fais-tout-petit]
+\beginsong{Grand-père}
+  [by=Georges Brassens,cov=je-me-suis-fais-tout-petit]
 
-\capo{2}
-\cover
-\gtab{Do}{332010}
-\gtab{Sol7}{320001}
-\gtab{Rém}{XX0231}
-\gtab{La}{X02220}
-\gtab{Mi}{022100}
-\gtab{Ré7}{XX0212}
+  \capo{2}
+  \cover
+  \gtab{Do}{332010}
+  \gtab{Sol7}{320001}
+  \gtab{Rém}{XX0231}
+  \gtab{La}{X02220}
+  \gtab{Mi}{022100}
+  \gtab{Ré7}{XX0212}
 
-\beginverse
-\[La]Grand-père suivait \[Rém]{en chantant}
-\[Sol7]La route qui mène \[Do]{à cent ans}
-\[La]La mort lui fit, au \[Rém]coin d'un bois
-Le \[Mi]coup du \[Lam]père François
-L'avait donné de son vivant
-Tant de bonheur à ses enfants
-Qu'on fit, pour lui en savoir gré
-Tout pour l'enterrer
-\endverse
+  \beginverse
+    \[La]Grand-père suivait \[Rém]{en chantant}
+    \[Sol7]La route qui mène \[Do]{à cent ans}
+    \[La]La mort lui fit, au \[Rém]coin d'un bois
+    Le \[Mi]coup du \[Lam]père François
+    L'avait donné de son vivant
+    Tant de bonheur à ses enfants
+    Qu'on fit, pour lui en savoir gré
+    Tout pour l'enterrer
+  \endverse
 
-\beginverse*
-\[La]Et l'on courut \[La7]{à toutes} jam-
-\[Ré7]bes quérir une bière, mais
-\[Rém]Comme on é\[Lam]tait légers d'argent
-Le mar\[Fa]chand nous reçut à bras fer\[Sol]més
-\endverse
+  \beginverse*
+    \[La]Et l'on courut \[La7]{à toutes} jam-
+    \[Ré7]bes quérir une bière, mais
+    \[Rém]Comme on é\[Lam]tait légers d'argent
+    Le mar\[Fa]chand nous reçut à bras fer\[Sol]més
+  \endverse
 
-\beginverse*
-Chez l'épi\[Do]cier, pas d'argent, pas d'épices
-Chez la belle Su\[La]zon, pas d'argent, pas de \[Rém]cuisse
-Les morts de \[Mi]basse condi\[Lam]tion
-C'est \[Mi]pas de ma juridi\[Lam]ction \[Mi] \[Lam]
-\endverse
+  \beginverse*
+    Chez l'épi\[Do]cier, pas d'argent, pas d'épices
+    Chez la belle Su\[La]zon, pas d'argent, pas de \[Rém]cuisse
+    Les morts de \[Mi]basse condi\[Lam]tion
+    C'est \[Mi]pas de ma juridi\[Lam]ction \[Mi] \[Lam]
+  \endverse
 
-\beginverse*
-\[Sol7]Or, j'avais hérité d'grand-père
-Une paire de bottes pointues
-S'il y a des coups d'pied quelque part qui s'perdent
-Celui-là toucha son but
-\endverse
+  \beginverse*
+    \[Sol7]Or, j'avais hérité d'grand-père
+    Une paire de bottes pointues
+    S'il y a des coups d'pied quelque part qui s'perdent
+    Celui-là toucha son but
+  \endverse
 
-\beginchorus
-C'est \[Do]depuis ce temps-là que le bon apôtre \rep{2}
-``\[Sol7]Ah, c'est \[Do]pas joli
-\[Sol7]Ah, c'est \[Do]pas poli
-\[Sol7]Ah une \[Do]fesse qui dit \[Lam]merde à l'\[Sol7]au\[Do]tre''
-\endchorus
+  \beginchorus
+    C'est \[Do]depuis ce temps-là que le bon apôtre \rep{2}
+    ``\[Sol7]Ah, c'est \[Do]pas joli
+    \[Sol7]Ah, c'est \[Do]pas poli
+    \[Sol7]Ah une \[Do]fesse qui dit \[Lam]merde à l'\[Sol7]au\[Do]tre''
+  \endchorus
 
-\beginchorus
-\[Sol7]Bon papa, ne \[Do]t'en fais pas
-\[Mi]Nous en vien\[Fa]drons
-\[Sol]À bout de tous ces \[Do]empêcheurs
-\[Sol]D'enterrer en \[Do]rond \[Mi]
-\endchorus
+  \beginchorus
+    \[Sol7]Bon papa, ne \[Do]t'en fais pas
+    \[Mi]Nous en vien\[Fa]drons
+    \[Sol]À bout de tous ces \[Do]empêcheurs
+    \[Sol]D'enterrer en \[Do]rond \[Mi]
+  \endchorus
 
-\beginverse
-Le mieux à faire et le plus court
-Pour qu'l'enterrement suivît son cours
-Fut de borner nos prétentions
-À une bière d'occasion
-Contre un pot de miel on acquit
-Les quatre planches d'un mort qui
-Rêvait d'offrir quelques douceurs
-À une âme sœur
-\endverse
+  \beginverse
+    Le mieux à faire et le plus court
+    Pour qu'l'enterrement suivît son cours
+    Fut de borner nos prétentions
+    À une bière d'occasion
+    Contre un pot de miel on acquit
+    Les quatre planches d'un mort qui
+    Rêvait d'offrir quelques douceurs
+    À une âme sœur
+  \endverse
 
-\beginverse*
-Et l'on courut à toutes jam-
-bes quérir un corbillard, mais
-Comme on était légers d'argent
-Le marchand nous reçut à bras fermés
-\endverse
+  \beginverse*
+    Et l'on courut à toutes jam-
+    bes quérir un corbillard, mais
+    Comme on était légers d'argent
+    Le marchand nous reçut à bras fermés
+  \endverse
 
-\beginverse*
-Chez l'épicier, pas d'argent, pas d'épices
-Chez la belle Suzon, pas d'argent, pas de cuisse
-Les morts de basse condition
-C'est pas de ma juridiction
-\endverse
+  \beginverse*
+    Chez l'épicier, pas d'argent, pas d'épices
+    Chez la belle Suzon, pas d'argent, pas de cuisse
+    Les morts de basse condition
+    C'est pas de ma juridiction
+  \endverse
 
-\beginverse*
-Ma botte partit mais je m'refuse
-De dire vers quel endroit
-Ça rendrait les dames confuses
-Et je n'en ai pas le droit
-\endverse
+  \beginverse*
+    Ma botte partit mais je m'refuse
+    De dire vers quel endroit
+    Ça rendrait les dames confuses
+    Et je n'en ai pas le droit
+  \endverse
 
-\beginverse
-Le mieux à faire et le plus court
-Pour qu'l'enterrement suivît son cours
-Fut de porter sur notre dos
-Le funèbre fardeau
-S'il eût pu revivre un instant
-Grand-père aurait été content
-D'aller à sa dernière demeure
-Comme un empereur
-\endverse
+  \beginverse
+    Le mieux à faire et le plus court
+    Pour qu'l'enterrement suivît son cours
+    Fut de porter sur notre dos
+    Le funèbre fardeau
+    S'il eût pu revivre un instant
+    Grand-père aurait été content
+    D'aller à sa dernière demeure
+    Comme un empereur
+  \endverse
 
-\beginverse*
-Et l'on courut à toutes jam-
-bes quérir un goupillon, mais
-Comme on était légers d'argent
-Le marchand nous reçut à bras fermés
-\endverse
+  \beginverse*
+    Et l'on courut à toutes jam-
+    bes quérir un goupillon, mais
+    Comme on était légers d'argent
+    Le marchand nous reçut à bras fermés
+  \endverse
 
-\beginverse*
-Chez l'épicier, pas d'argent, pas d'épices
-Chez la belle Suzon, pas d'argent, pas de cuisse
-Les morts de basse condition
-C'est pas de ma bénédiction
-\endverse
+  \beginverse*
+    Chez l'épicier, pas d'argent, pas d'épices
+    Chez la belle Suzon, pas d'argent, pas de cuisse
+    Les morts de basse condition
+    C'est pas de ma bénédiction
+  \endverse
 
-\beginverse*
-Avant même que le vicaire
-Ait pu lâcher un cri
-J'lui bottai l'cul au nom du Père
-Du Fils et du Saint-Esprit
-\endverse
+  \beginverse*
+    Avant même que le vicaire
+    Ait pu lâcher un cri
+    J'lui bottai l'cul au nom du Père
+    Du Fils et du Saint-Esprit
+  \endverse
 
 \endsong

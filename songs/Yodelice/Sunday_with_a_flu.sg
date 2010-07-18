@@ -1,50 +1,51 @@
 \songcolumns{2}
-\beginsong{Sunday with a flu}[by=Yodelice,cov=tree-of-life]
+\beginsong{Sunday with a flu}
+  [by=Yodelice,cov=tree-of-life]
 
-\capo{3}
-\cover
-\gtab{Sim}{2:X02210}
-\gtab{Sol}{320003}
-\gtab{Ré}{XX0232}
+  \capo{3}
+  \cover
+  \gtab{Sim}{2:X02210}
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
 
-\musicnote{intro : Sim Sol Ré Sim}
+  \musicnote{intro : Sim Sol Ré Sim}
 
-\beginverse
-\[Sim]Closed my door, forgot my key, 
-Missed my bus in the pouring rain.
-It's \[Sol]been the usual su\[Ré]nday with a flu, \[Sim]
-\[Sol]And I just can't \[Ré]get over you. \[Sim]
-\endverse
+  \beginverse
+    \[Sim]Closed my door, forgot my key, 
+    Missed my bus in the pouring rain.
+    It's \[Sol]been the usual su\[Ré]nday with a flu, \[Sim]
+    \[Sol]And I just can't \[Ré]get over you. \[Sim]
+  \endverse
 
-\beginverse
-Burnt my toast and lost your number, 
-Cut my finger, spilled my beer.
-It's been the usual sunday with a flu,
-And I just can't get over you.
-\endverse
+  \beginverse
+    Burnt my toast and lost your number, 
+    Cut my finger, spilled my beer.
+    It's been the usual sunday with a flu,
+    And I just can't get over you.
+  \endverse
 
-\beginchorus
-I \[Sol]put your stockings
-\[Ré]In my purple boots. \[Sim]
-\[Sol]What if I do\[Ré]n't get over you ? \[Sim]
-\endchorus
+  \beginchorus
+    I \[Sol]put your stockings
+    \[Ré]In my purple boots. \[Sim]
+    \[Sol]What if I do\[Ré]n't get over you ? \[Sim]
+  \endchorus
 
-\beginverse
-Had a chat and left my hat,
-Ate my dog and walked my cat.
-It's been the usual sunday with a flu,
-And I just can't get over you.
-\endverse
+  \beginverse
+    Had a chat and left my hat,
+    Ate my dog and walked my cat.
+    It's been the usual sunday with a flu,
+    And I just can't get over you.
+  \endverse
 
-\musicnote{chorus, whistled verse, and chorus}
+  \musicnote{chorus, whistled verse, and chorus}
 
-\beginverse
-Called a cabbage, threw the garbage,
-Asked for help and got some kelp.
-It's been the usual sunday with a flu,
-And I just can't get over you.
-\endverse
+  \beginverse
+    Called a cabbage, threw the garbage,
+    Asked for help and got some kelp.
+    It's been the usual sunday with a flu,
+    And I just can't get over you.
+  \endverse
 
-\musicnote{chorus}
+  \musicnote{chorus}
 
 \endsong

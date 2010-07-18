@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Rester debout}[by=Debout sur le Zinc,cov=les-promesses]
+\beginsong{Rester debout}
+  [by=Debout sur le Zinc,cov=les-promesses]
 
   \cover
   \gtab{Fa}{1:022100}

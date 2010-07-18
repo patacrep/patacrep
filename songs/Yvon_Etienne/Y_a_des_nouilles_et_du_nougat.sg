@@ -1,66 +1,67 @@
 \songcolumns{2}
-\beginsong{Y'a des nouilles et du nougat}[by=Yvon Etienne,cov=bulles-de-reve]
+\beginsong{Y'a des nouilles et du nougat}
+  [by=Yvon Etienne,cov=bulles-de-reve]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{320001}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol7}{320001}
-\gtab{Sol}{320003}
-\gtab{Fa}{1:022100}
+  \beginverse
+    \[Do]Derrière chez moi y'a \[Sol7](t) un é\[Do]tang
+    Savez-\[Sol7]vous, c'qu'il y a dans ma \[Do]poche ?
+    Pas netto\[Sol7]yé de\[Sol]puis 30 \[Do]ans
+    Savez-\[Sol]vous, c'qu'il y a de\[Do]dans ?
+  \endverse
 
+  \beginchorus
+    Y'a des \[Do]nouilles et du nougat
+    Des pas\[Fa]tilles, du chocolat
+    Une pe\[Sol]tite sucette en bois
+    C'est pas \[Do]bon mais ça s'use pas
+    Un chou, un rutabaga
+    Une pomme \[Fa]et un ananas
+    Et un \[Sol]vieux reste de ra-
+    goût a\[Do]vec des petits pois. 
+  \endchorus
 
-\beginverse
-\[Do]Derrière chez moi y'a \[Sol7](t) un é\[Do]tang
-Savez-\[Sol7]vous, c'qu'il y a dans ma \[Do]poche ?
-Pas netto\[Sol7]yé de\[Sol]puis 30 \[Do]ans
-Savez-\[Sol]vous, c'qu'il y a de\[Do]dans ?
-\endverse
+  \beginverse
+    Deux vieux canards vont pataugeant
+    Savez-vous, c'qu'il y a dans ma poche ?
+    L'un est plumé l'autre plus blanc
+    Savez-vous, c'qu'il y a dedans ?
+  \endverse
 
-\beginchorus
-Y'a des \[Do]nouilles et du nougat
-Des pas\[Fa]tilles, du chocolat
-Une pe\[Sol]tite sucette en bois
-C'est pas \[Do]bon mais ça s'use pas
-Un chou, un rutabaga
-Une pomme \[Fa]et un ananas
-Et un \[Sol]vieux reste de ra-
-goût a\[Do]vec des petits pois. 
-\endchorus
+  \beginverse
+    Le fils du roi s'en va frimant
+    Avec ça me laisse et réban
+  \endverse
 
-\beginverse
-Deux vieux canards vont pataugeant
-Savez-vous, c'qu'il y a dans ma poche ?
-L'un est plumé l'autre plus blanc
-Savez-vous, c'qu'il y a dedans ?
-\endverse
+  \beginverse
+    Glissa sur rien tomba dedans
+    Avec son beau costard tout blanc
+  \endverse
 
-\beginverse
-Le fils du roi s'en va frimant
-Avec ça me laisse et réban
-\endverse
+  \beginverse
+    Il se débat en s'enfonçant
+    Ce qui alerte les passants
+  \endverse
 
-\beginverse
-Glissa sur rien tomba dedans
-Avec son beau costard tout blanc
-\endverse
+  \beginverse
+    Il faut le sortir de là dedans
+    Se dépêchent en prenant leur temps
+  \endverse
 
-\beginverse
-Il se débat en s'enfonçant
-Ce qui alerte les passants
-\endverse
+  \beginverse
+    Y'a une morale tout en chantant
+    Pour faire plaisir aux ptits enfants
+  \endverse
 
-\beginverse
-Il faut le sortir de là dedans
-Se dépêchent en prenant leur temps
-\endverse
+  \beginverse
+    Que tu sois riche ou sans argent
+    Quand t'es dans la merde c'est pour longtemps
+  \endverse
 
-\beginverse
-Y'a une morale tout en chantant
-Pour faire plaisir aux ptits enfants
-\endverse
-
-\beginverse
-Que tu sois riche ou sans argent
-Quand t'es dans la merde c'est pour longtemps
-\endverse
 \endsong

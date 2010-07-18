@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Les mots d'amour}[by=Debout sur le Zinc,cov=les-promesses]
+\beginsong{Les mots d'amour}
+  [by=Debout sur le Zinc,cov=les-promesses]
 
   \capo{2}
   \cover

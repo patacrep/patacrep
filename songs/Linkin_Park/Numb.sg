@@ -1,54 +1,55 @@
 \songcolumns{1}
-\beginsong{Numb}[by=Linkin Park,cov=meteora]
+\beginsong{Numb}
+  [by=Linkin Park,cov=meteora]
 
-\capo{2}
-\cover
-\gtab{Mim}{022000}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Ré}{XX0232}
-\gtab{Sim}{2:X02220}
+  \capo{2}
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+  \gtab{Sim}{2:X02220}
 
-\beginverse
-\[Mim]I'm tired of being what you \[Do]want me to be
-\[Sol]Feeling so faithless lost \[Ré]under the surface
-\[Mim]I don't know what you're expe\[Do]cting of me
-Put \[Sol]under the pressure of \[Ré]walking in your sh\[Do]oes \[Ré]
-\echo{Caught in the undertone just caught in the undertone}
-Every s\[Mim]tep I take is a\[Sol]nother mistake to \[Do]you \[Ré]
-\echo{Caught in the undertone just caught in the undertone}
-\endverse
+  \beginverse
+    \[Mim]I'm tired of being what you \[Do]want me to be
+    \[Sol]Feeling so faithless lost \[Ré]under the surface
+    \[Mim]I don't know what you're expe\[Do]cting of me
+    Put \[Sol]under the pressure of \[Ré]walking in your sh\[Do]oes \[Ré]
+    \echo{Caught in the undertone just caught in the undertone}
+    Every s\[Mim]tep I take is a\[Sol]nother mistake to \[Do]you \[Ré]
+    \echo{Caught in the undertone just caught in the undertone}
+  \endverse
 
-\beginchorus
-\[Mim]I've become so nu\[Do]mb I can't feel you t\[Sol]here
-I've become so ti\[Ré]red so much more \[Mim]aware
-I've becoming \[Do]this all I want to \[Sol]do
-Is be more like \[Ré]me and be less like \[Mim]you
-\endchorus
+  \beginchorus
+    \[Mim]I've become so nu\[Do]mb I can't feel you t\[Sol]here
+    I've become so ti\[Ré]red so much more \[Mim]aware
+    I've becoming \[Do]this all I want to \[Sol]do
+    Is be more like \[Ré]me and be less like \[Mim]you
+  \endchorus
 
-\beginverse
-Can't you see that you're smothering me
-Holding too tightly afraid to lose control
-Cause everything that you thought I would be
-Has fallen apart right in front of you
-(Caught in the undertone just caught in the undertone)
-Every step that I take is another mistake to you
-(Caught in the undertone just caught in the undertone)
-And every second I waste is more than I can take
-\endverse
+  \beginverse
+    Can't you see that you're smothering me
+    Holding too tightly afraid to lose control
+    Cause everything that you thought I would be
+    Has fallen apart right in front of you
+    (Caught in the undertone just caught in the undertone)
+    Every step that I take is another mistake to you
+    (Caught in the undertone just caught in the undertone)
+    And every second I waste is more than I can take
+  \endverse
 
-\beginverse*
-And I \[Ré]know
-I may \[Mim]end \[Sol]up \[Mim]fail\[Ré]ing \[Do]too
-But I \[Ré]know
-You were j\[Si]ust like me with someone disappointed in you
-\endverse
+  \beginverse*
+    And I \[Ré]know
+    I may \[Mim]end \[Sol]up \[Mim]fail\[Ré]ing \[Do]too
+    But I \[Ré]know
+    You were j\[Si]ust like me with someone disappointed in you
+  \endverse
 
-\beginverse*
-I've become so numb I can't feel you there
-Is everything what you want me to be
-I've become so numb I can't feel you there
-Is everything what you want me to be
-\endverse
+  \beginverse*
+    I've become so numb I can't feel you there
+    Is everything what you want me to be
+    I've become so numb I can't feel you there
+    Is everything what you want me to be
+  \endverse
 
 \endsong

@@ -1,45 +1,46 @@
 \songcolumns{2}
-\beginsong{Breaking up is hard to do}[by=The Carpenters,cov=a-kind-of-hush]
+\beginsong{Breaking up is hard to do}
+  [by=The Carpenters,cov=a-kind-of-hush]
 
-\cover
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Mim}{022000}
-\gtab{Rém}{XX0231}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Mim}{022000}
+  \gtab{Rém}{XX0231}
 
-\beginchorus
-Come-a, \[Sol]come on down, \[Do]doobie do down \[Lam]down\[Fa] \rep{3}	
-\[Sol]Breaking up is \[Do]hard \[Fa]to \[Do]do 	
-\endchorus
+  \beginchorus
+    Come-a, \[Sol]come on down, \[Do]doobie do down \[Lam]down\[Fa] \rep{3}	
+    \[Sol]Breaking up is \[Do]hard \[Fa]to \[Do]do 	
+  \endchorus
 
-\beginverse
-Don't take your \[Do]lo\[Lam]ve a\[Fa]way from \[Sol]me 
-\[Do]Don't you \[Lam]leave my heart in \[Fa]mise\[Sol]ry 
-\[Mim]If you go then \[Lam]I'll be blue 
-'Cause \[Rém]breaking up is hard to \[Sol]do 
-\endverse
+  \beginverse
+    Don't take your \[Do]lo\[Lam]ve a\[Fa]way from \[Sol]me 
+    \[Do]Don't you \[Lam]leave my heart in \[Fa]mise\[Sol]ry 
+    \[Mim]If you go then \[Lam]I'll be blue 
+    'Cause \[Rém]breaking up is hard to \[Sol]do 
+  \endverse
 
-\beginverse*
-Remember when you hold me tight 
-And then you kissed me all thru the night 
-Think of all that we've been thru 
-'Cause breaking up is hard to do 
-\endverse
+  \beginverse*
+    Remember when you hold me tight 
+    And then you kissed me all thru the night 
+    Think of all that we've been thru 
+    'Cause breaking up is hard to do 
+  \endverse
 
-\beginverse
-I beg of you don't say good-bye 
-Can't we give our love another try 
-And maybe it'll start anew 
-'Cause breaking up is hard to do 
-\endverse
+  \beginverse
+    I beg of you don't say good-bye 
+    Can't we give our love another try 
+    And maybe it'll start anew 
+    'Cause breaking up is hard to do 
+  \endverse
 
-\beginverse*
-I beg of you don't say good-bye 
-Can't we give our love another try 
-And maybe it'll start anew 
-'Cause breaking up is hard to do 
-\endverse
+  \beginverse*
+    I beg of you don't say good-bye 
+    Can't we give our love another try 
+    And maybe it'll start anew 
+    'Cause breaking up is hard to do 
+  \endverse
 
 \endsong

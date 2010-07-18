@@ -1,41 +1,42 @@
 \songcolumns{2}
-\beginsong{April, come she will}[by=Simon \& Garfunkel,cov=concert-in-central-park]
+\beginsong{April, come she will}
+  [by=Simon \& Garfunkel,cov=concert-in-central-park]
 
-\cover
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Lam}{X02210}
-\gtab{Mim}{022000}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Mim}{022000}
 
-\beginverse
-\[Sol]A\[Do]\[Sol]pril, \[Do]come she \[Sol]will\[Do]
-\[Lam]When streams are \[Mim]ripe and \[Lam]swelled with \[Mim]rain
-\endverse
+  \beginverse
+    \[Sol]A\[Do]\[Sol]pril, \[Do]come she \[Sol]will\[Do]
+    \[Lam]When streams are \[Mim]ripe and \[Lam]swelled with \[Mim]rain
+  \endverse
 
-\beginverse*
-\[Do Ré]May, she will \[Sol] stay\[Mim]
-\[Lam]Resting \[Mim]in my \[Lam]arms a\[Mim]gain
-{\nolyrics \[Sol Do Sol Do]}
-\endverse
+  \beginverse*
+    \[Do Ré]May, she will \[Sol] stay\[Mim]
+    \[Lam]Resting \[Mim]in my \[Lam]arms a\[Mim]gain
+    {\nolyrics \[Sol Do Sol Do]}
+  \endverse
 
-\beginverse
-June, she'll change her tune
-In restless walks she'll prowl the night
-\endverse
+  \beginverse
+    June, she'll change her tune
+    In restless walks she'll prowl the night
+  \endverse
 
-\beginverse*
-July, she will fly
-And leave no warning of her flight
-\endverse
+  \beginverse*
+    July, she will fly
+    And leave no warning of her flight
+  \endverse
 
-\beginverse
-August, die she must
-The autumn winds blow chilly and cold
-\endverse
+  \beginverse
+    August, die she must
+    The autumn winds blow chilly and cold
+  \endverse
 
-\beginverse*
-September, I'll remember
-A love once new has now grown old
-\endverse
+  \beginverse*
+    September, I'll remember
+    A love once new has now grown old
+  \endverse
 
 \endsong

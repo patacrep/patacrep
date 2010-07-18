@@ -1,73 +1,75 @@
 \songcolumns{2}
-\beginsong{Anyone else but you}[by=The Moldy Peaches,cov=juno]
-\cover
-\gtab{Sol}{320003}
-\gtab{Do7}{X32003}
+\beginsong{Anyone else but you}
+  [by=The Moldy Peaches,cov=juno]
 
-\beginverse
-You're a \[Sol]part time lover and a full time friend
-The \[Do7]monkey on you're back is the latest trend
-\endverse
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Do7}{X32003}
 
-\beginchorus
-I \[Sol]don't see what anyone can see,
-In anyone \[Do7]else \dots but \[Sol]you
-\endchorus
+  \beginverse
+    You're a \[Sol]part time lover and a full time friend
+    The \[Do7]monkey on you're back is the latest trend
+  \endverse
 
-\beginverse
-I kiss you on the brain in the shadow of a train
-I kiss you all starry eyed, my body's swinging from side to side
-\endverse
+  \beginchorus
+    I \[Sol]don't see what anyone can see,
+    In anyone \[Do7]else \dots but \[Sol]you
+  \endchorus
 
-\beginverse
-Here is the church and here is the steeple
-We sure are cute for two ugly people
-\endverse
+  \beginverse
+    I kiss you on the brain in the shadow of a train
+    I kiss you all starry eyed, my body's swinging from side to side
+  \endverse
 
-\beginverse
-The pebbles forgive me, the trees forgive me
-So why can't, you forgive me?
-\endverse
+  \beginverse
+    Here is the church and here is the steeple
+    We sure are cute for two ugly people
+  \endverse
 
-\beginverse
-I will find my nitch in your car
-With my mp3 DVD rumple-packed guitar
-\endverse
+  \beginverse
+    The pebbles forgive me, the trees forgive me
+    So why can't, you forgive me?
+  \endverse
 
-\beginverse
-Du du du du du du dudu \rep{2}
-Du du du du du du dudu du
-\endverse
+  \beginverse
+    I will find my nitch in your car
+    With my mp3 DVD rumple-packed guitar
+  \endverse
 
-\beginverse
-Up up down down left right left right B A start
-Just because we use cheats doesn't mean we're not smart
-\endverse
+  \beginverse
+    Du du du du du du dudu \rep{2}
+    Du du du du du du dudu du
+  \endverse
 
-\beginverse
-You are always trying to keep it real
-I'm in love with how you feel
-\endverse
+  \beginverse
+    Up up down down left right left right B A start
+    Just because we use cheats doesn't mean we're not smart
+  \endverse
 
-\beginverse
-We both have shiny happy fits of rage
-You want more fans, I want more stage
-\endverse
+  \beginverse
+    You are always trying to keep it real
+    I'm in love with how you feel
+  \endverse
 
-\beginverse
-Don Quixote was a steel driving man
-My name is Adam I'm your biggest fan
-\endverse
+  \beginverse
+    We both have shiny happy fits of rage
+    You want more fans, I want more stage
+  \endverse
 
-\beginverse
-Squinched up your face and did a dance
-You shook a little turd out of the bottom of your pants
-\endverse
+  \beginverse
+    Don Quixote was a steel driving man
+    My name is Adam I'm your biggest fan
+  \endverse
 
-\beginverse
-Du du du du du du dudu \rep{2}
-Du du du du du du dudu du
-But you 
-\endverse
+  \beginverse
+    Squinched up your face and did a dance
+    You shook a little turd out of the bottom of your pants
+  \endverse
+
+  \beginverse
+    Du du du du du du dudu \rep{2}
+    Du du du du du du dudu du
+    But you 
+  \endverse
 
 \endsong

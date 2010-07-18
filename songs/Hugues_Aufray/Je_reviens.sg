@@ -1,56 +1,58 @@
 \songcolumns{2}
-\beginsong{Je reviens (Les portes de Saint-Malo)}[by=Hugues Aufray,cov=le-meilleur-de-hugues-aufray]
+\beginsong{Je reviens (Les portes de Saint-Malo)}
+  [by=Hugues Aufray,cov=le-meilleur-de-hugues-aufray]
 
-\capo{2}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Sol7}{320001}
-\gtab{Mi7}{020100}
+  \capo{2}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol7}{320001}
+  \gtab{Mi7}{020100}
 
 
 
-\beginverse
-J'ai cou\[Lam]{ru à} travers le monde
-De Shan\[Fa]gaï jusqu'\[Sol7]à San-Fernan\[Do]do
-Sous le vent et la tem\[Mi7]pête
-Pour toi j'ai mené mon ba\[Lam]teau
-Je reviens le cœur en \[Mi7]fête
-Jusqu'aux portes de Saint-Ma\[Lam]lo.
-\endverse
+  \beginverse
+    J'ai cou\[Lam]{ru à} travers le monde
+    De Shan\[Fa]gaï jusqu'\[Sol7]à San-Fernan\[Do]do
+    Sous le vent et la tem\[Mi7]pête
+    Pour toi j'ai mené mon ba\[Lam]teau
+    Je reviens le cœur en \[Mi7]fête
+    Jusqu'aux portes de Saint-Ma\[Lam]lo.
+  \endverse
 
-\beginchorus
-Je re\[Fa]viens, je re\[Sol7]viens, je reviens au \[Do]pays
-Sous le vent et la tem\[Mi7]pête
-Pour toi j'ai mené mon ba\[Lam]teau
-Je reviens le cœur en \[Mi7]fête
-Jusqu'aux portes de Saint-Ma\[Lam]lo.
-\endchorus
+  \beginchorus
+    Je re\[Fa]viens, je re\[Sol7]viens, je reviens au \[Do]pays
+    Sous le vent et la tem\[Mi7]pête
+    Pour toi j'ai mené mon ba\[Lam]teau
+    Je reviens le cœur en \[Mi7]fête
+    Jusqu'aux portes de Saint-Ma\[Lam]lo.
+  \endchorus
 
-\beginverse
-Droit devant, depuis vingt semaines
-D'Amsterdam à l'île de Bornéo
-J'ai souvent cru que l'orage
-Finirait par avoir ma peau
-Mais j'ai retrouvé courage
-Et le chemin de Saint-Malo.
-\endverse
+  \beginverse
+    Droit devant, depuis vingt semaines
+    D'Amsterdam à l'île de Bornéo
+    J'ai souvent cru que l'orage
+    Finirait par avoir ma peau
+    Mais j'ai retrouvé courage
+    Et le chemin de Saint-Malo.
+  \endverse
 
-\beginverse
-Sous les feux ou les vents de glace
-D'Istanbul jusqu'à Valparaiso
-Je ferai le tour de la terre
-Voile au vent sur le Santiago
-Par les portes de l'enfer
-Qui conduisent à Saint-Malo.
-\endverse
+  \beginverse
+    Sous les feux ou les vents de glace
+    D'Istanbul jusqu'à Valparaiso
+    Je ferai le tour de la terre
+    Voile au vent sur le Santiago
+    Par les portes de l'enfer
+    Qui conduisent à Saint-Malo.
+  \endverse
 
-\beginverse
-Cheveux noirs ou bien cheveux d'ange
-De Lisbonne au port de San-Diego
-Mes amours, mes demoiselles
-S'envolaient, comme des oiseaux
-C'était toi vraiment la plus belle
-De New-York jusqu'à Saint-Malo.
-\endverse
+  \beginverse
+    Cheveux noirs ou bien cheveux d'ange
+    De Lisbonne au port de San-Diego
+    Mes amours, mes demoiselles
+    S'envolaient, comme des oiseaux
+    C'était toi vraiment la plus belle
+    De New-York jusqu'à Saint-Malo.
+  \endverse
+
 \endsong

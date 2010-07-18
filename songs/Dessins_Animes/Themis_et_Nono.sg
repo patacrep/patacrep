@@ -1,42 +1,43 @@
 \songcolumns{2}
-\beginsong{Ulysse 31: Thémis et Nono}[by=Dessins Animés,cov=ulysse]
+\beginsong{Ulysse 31: Thémis et Nono}
+  [by=Dessins Animés,cov=ulysse]
 
-\capo{2}
-\cover
-\gtab{Mim}{022000}
-\gtab{Lam}{X02210}
-\gtab{Si7}{X21202}
-\gtab{Mi}{022100}
-\gtab{La}{X02220}
+  \capo{2}
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Lam}{X02210}
+  \gtab{Si7}{X21202}
+  \gtab{Mi}{022100}
+  \gtab{La}{X02220}
 
-\beginverse
-Thé\[Mim]mis, petite fleur \[Lam]bleue
-L'amour et la \[Si7]joie sont dans tes \[Mim]yeux
-Un jour, tu retrouve\[Lam]ras
-Ton frère per\[Si7]du à mille \[Mim]lieux
-\endverse
+  \beginverse
+    Thé\[Mim]mis, petite fleur \[Lam]bleue
+    L'amour et la \[Si7]joie sont dans tes \[Mim]yeux
+    Un jour, tu retrouve\[Lam]ras
+    Ton frère per\[Si7]du à mille \[Mim]lieux
+  \endverse
 
-\beginverse*
-Thémis avec tes amis,
-Ulysse et Télémaque, Nono aussi
-Tu es toujours protégée
-Des dieux, du cyclope, tu es bien gardée
-\endverse
+  \beginverse*
+    Thémis avec tes amis,
+    Ulysse et Télémaque, Nono aussi
+    Tu es toujours protégée
+    Des dieux, du cyclope, tu es bien gardée
+  \endverse
 
-\beginchorus
-C'est moi No\[Mi]no, le tout petit ro\[La]bot
-Qui déroute les \[Mi]dieux 
-Malgré \[Si7]tous leurs com\[Mi]plots
-C'est moi No\[Mi]no, le tout petit ro\[La]bot
-Moi je n'ai jamais \[Mi]peur 
-De me \[Si7]faire bo\[Mi]bo
-\endchorus
+  \beginchorus
+    C'est moi No\[Mi]no, le tout petit ro\[La]bot
+    Qui déroute les \[Mi]dieux 
+    Malgré \[Si7]tous leurs com\[Mi]plots
+    C'est moi No\[Mi]no, le tout petit ro\[La]bot
+    Moi je n'ai jamais \[Mi]peur 
+    De me \[Si7]faire bo\[Mi]bo
+  \endchorus
 
-\beginchorus
-La la la la la la la la la la.
-La la la la la
-La la la la la la la
-\rep{2}
-\endchorus
+  \beginchorus
+    La la la la la la la la la la.
+    La la la la la
+    La la la la la la la
+    \rep{2}
+  \endchorus
 
 \endsong

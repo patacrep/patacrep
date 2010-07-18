@@ -1,59 +1,60 @@
 \songcolumns{2}
-\beginsong{Animal instinct}[by=Cranberries,cov=bury-the-hatchet]
+\beginsong{Animal instinct}
+  [by=Cranberries,cov=bury-the-hatchet]
 
-\cover
-\gtab{Mim}{022000}
-\gtab{Lam7}{X02010}
-\gtab{Do2}{032030}
-\gtab{Ré}{XX0232}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Lam7}{X02010}
+  \gtab{Do2}{032030}
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
 
 
-\beginverse
-Su\[Mim]ddenly som\[Lam7]ething has happened to \[Do2]me
-As I was havi\[Ré]ng my cup of \[Mim]tea.
-Suddenly I \[Lam7]was feeling depr\[Do2]essed. 
-I was utt\[Ré]erly and totally str\[Mim]essed. 
-Do you\[Lam7] know you made \[Do2]me \[Ré]cry \echo{Ou\[Mim]ooo}
-Do you\[Lam7] know you made \[Do2]me \[Ré]die
-\endverse
+  \beginverse
+    Su\[Mim]ddenly som\[Lam7]ething has happened to \[Do2]me
+    As I was havi\[Ré]ng my cup of \[Mim]tea.
+    Suddenly I \[Lam7]was feeling depr\[Do2]essed. 
+    I was utt\[Ré]erly and totally str\[Mim]essed. 
+    Do you\[Lam7] know you made \[Do2]me \[Ré]cry \echo{Ou\[Mim]ooo}
+    Do you\[Lam7] know you made \[Do2]me \[Ré]die
+  \endverse
 
-\beginchorus
-And the thing that's gets to me, 
-Is you'll never really see. 
-And the thing that's freaks me out, 
-Is I always be in doubt.
-\endchorus
+  \beginchorus
+    And the thing that's gets to me, 
+    Is you'll never really see. 
+    And the thing that's freaks me out, 
+    Is I always be in doubt.
+  \endchorus
 
-\beginverse
-\[Sol]{It is} a lo\[Ré]vely thing that we \[Do]have
-It is a lo\[Ré]vely thing that \[Sol]we \dots
-\[Sol]{It is} a lo\[Ré]vely thing \[Do]the animal
-\[Ré]The animal instin\[Mim]ct 
-\endverse
+  \beginverse
+    \[Sol]{It is} a lo\[Ré]vely thing that we \[Do]have
+    It is a lo\[Ré]vely thing that \[Sol]we \dots
+    \[Sol]{It is} a lo\[Ré]vely thing \[Do]the animal
+    \[Ré]The animal instin\[Mim]ct 
+  \endverse
 
-\beginverse*
-\nolyrics{\[Lam7] \[Do2] \[Ré]}
-\endverse
+  \beginverse*
+    \nolyrics{\[Lam7] \[Do2] \[Ré]}
+  \endverse
 
-\beginverse
-So take my hands and come with me, 
-We will change reality.
-So take my hands and we will pray, 
-They won't take youaway. 
-They will never make me cry no
-They will never make me die.
-\endverse
+  \beginverse
+    So take my hands and come with me, 
+    We will change reality.
+    So take my hands and we will pray, 
+    They won't take youaway. 
+    They will never make me cry no
+    They will never make me die.
+  \endverse
 
-\beginverse
-The animal, the animal,
-Tthe animal instinct in me
-It is the animal, the animal, 
-The animal instinct in me
-It is the animal, it is the animal
-It is the animal instinct in me
-\rep{2}
-\endverse
+  \beginverse
+    The animal, the animal,
+    Tthe animal instinct in me
+    It is the animal, the animal, 
+    The animal instinct in me
+    It is the animal, it is the animal
+    It is the animal instinct in me
+    \rep{2}
+  \endverse
 
 \endsong

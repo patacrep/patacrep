@@ -1,64 +1,65 @@
 \songcolumns{2}
-\beginsong{Les bêtises à l'école}[by=Henri Dès,cov=les-betises]
+\beginsong{Les bêtises à l'école}
+  [by=Henri Dès,cov=les-betises]
 
-\capo{4}
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
+  \capo{4}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
 
 
-\beginchorus
-Zoum zoum zoum zoum zoum
-Zoum zoum zoum zoum zoum
-\endchorus
+  \beginchorus
+    Zoum zoum zoum zoum zoum
+    Zoum zoum zoum zoum zoum
+  \endchorus
 
-\beginchorus
-\[Do]{C'est} à l'école, tagadagada
-Qu'on apprend des bê\[Sol]tises 
-\rep{2}
-\endchorus
+  \beginchorus
+    \[Do]{C'est} à l'école, tagadagada
+    Qu'on apprend des bê\[Sol]tises 
+    \rep{2}
+  \endchorus
 
-\beginverse
-\[Sol]Le grand Dédé, poils, poils au nez
-Devant toute la \[Do]classe
-\[Sol]Monte au tableau, poils, poils au dos
-Pour faire des gri\[Do]maces
-\endverse
+  \beginverse
+    \[Sol]Le grand Dédé, poils, poils au nez
+    Devant toute la \[Do]classe
+    \[Sol]Monte au tableau, poils, poils au dos
+    Pour faire des gri\[Do]maces
+  \endverse
 
-\beginverse
-Quand le Julien, poils, poils aux mains
-Raconte ses histoires
-Elles sont si bêtes, poils aux chaussettes
-Qu'on pleure dans nos mouchoirs
-\endverse
+  \beginverse
+    Quand le Julien, poils, poils aux mains
+    Raconte ses histoires
+    Elles sont si bêtes, poils aux chaussettes
+    Qu'on pleure dans nos mouchoirs
+  \endverse
 
-\beginverse
-Et la maîtresse, poils, poils aux tresses
-Qui pousse des soupirs
-Quand Marion, poils au menton
-Attrape le fou-rire
-\endverse
+  \beginverse
+    Et la maîtresse, poils, poils aux tresses
+    Qui pousse des soupirs
+    Quand Marion, poils au menton
+    Attrape le fou-rire
+  \endverse
 
-\beginverse
-Et puis y'a moi, poils, poils aux doigts
-Qui marche à quatre pattes
-Pour chatouiller, poils aux mollets
-Ma voisine de droite
-\endverse
+  \beginverse
+    Et puis y'a moi, poils, poils aux doigts
+    Qui marche à quatre pattes
+    Pour chatouiller, poils aux mollets
+    Ma voisine de droite
+  \endverse
 
-\beginverse
-Y'a la Thérèse, poils à la chaise
-C'est la plus rigolote
-Quand elle s'asseye, poils aux orteils
-On lui voit sa culotte
-\endverse
+  \beginverse
+    Y'a la Thérèse, poils à la chaise
+    C'est la plus rigolote
+    Quand elle s'asseye, poils aux orteils
+    On lui voit sa culotte
+  \endverse
 
-\beginverse
-Heureusement, poils, poils aux dents
-Quand vient la sonnerie
-Tout l'monde s'arrête, poils aux baskets
-Par ici la sortie
-\endverse
+  \beginverse
+    Heureusement, poils, poils aux dents
+    Quand vient la sonnerie
+    Tout l'monde s'arrête, poils aux baskets
+    Par ici la sortie
+  \endverse
 
 \endsong
 

@@ -1,58 +1,60 @@
 \songcolumns{1}
-\beginsong{Le matou}[by=Steve Waring,cov=le-retour-du-matou]
+\beginsong{Le matou}
+  [by=Steve Waring,cov=le-retour-du-matou]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Fa}{1:022100}
-\gtab{Mi}{022100}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
 
 
-\beginverse
-\[Lam]Tompson, le \[Sol]vieux fermier, a \[Fa]beaucoup d'en\[Mi]nuis.
-Il n'arrive pas à se débarrasser de son vieux gros chat gris.
-Pour mettre à la porte son chat, il a tenté n'importe quoi.
-Il l'a même posté au Canada et lui a dit: ``Tu resteras là!''
-\endverse
+  \beginverse
+    \[Lam]Tompson, le \[Sol]vieux fermier, a \[Fa]beaucoup d'en\[Mi]nuis.
+    Il n'arrive pas à se débarrasser de son vieux gros chat gris.
+    Pour mettre à la porte son chat, il a tenté n'importe quoi.
+    Il l'a même posté au Canada et lui a dit: ``Tu resteras là!''
+  \endverse
 
-\beginchorus
-Mais le matou revient le jour suivant, 
-Le matou revient, il est toujours vivant.
-\endchorus
+  \beginchorus
+    Mais le matou revient le jour suivant, 
+    Le matou revient, il est toujours vivant.
+  \endchorus
 
-\beginverse
-Tompson paie un petit gars pour assassiner le chat.
-L'enfant part à la pêche, l'animal dans les bras.
-Au milieu de la rivière, le canot a coulé.
-Le fermier apprend que l'enfant s'est noyé.
-\endverse
+  \beginverse
+    Tompson paie un petit gars pour assassiner le chat.
+    L'enfant part à la pêche, l'animal dans les bras.
+    Au milieu de la rivière, le canot a coulé.
+    Le fermier apprend que l'enfant s'est noyé.
+  \endverse
 
-\beginverse
-Le voisin de Tompson commence à s'énerver,
-Il prend sa carabine et la bourre de T.N.T.
-Le fusil éclate, la ville est affolée,
-Une pluie de petits morceaux d'homme vient de tomber.
-\endverse
+  \beginverse
+    Le voisin de Tompson commence à s'énerver,
+    Il prend sa carabine et la bourre de T.N.T.
+    Le fusil éclate, la ville est affolée,
+    Une pluie de petits morceaux d'homme vient de tomber.
+  \endverse
 
-\beginverse
-Le fermier découragé envoie son chat chez le boucher
-Pour qu'on en fasse du hachis Parmentier.
-Le chat hurle et disparaît dans la machine.
-\emph{De la viande poilue} est affiché sur la vitrine.
-\endverse
+  \beginverse
+    Le fermier découragé envoie son chat chez le boucher
+    Pour qu'on en fasse du hachis Parmentier.
+    Le chat hurle et disparaît dans la machine.
+    \emph{De la viande poilue} est affiché sur la vitrine.
+  \endverse
 
-\beginverse
-Un fou s'engage à partir en ballon
-Pour aller dans la lune déposer le chaton.
-Au cours du voyage, le ballon a crevé.
-À l'autre bout du monde, un cadavre est retrouvé.
-\endverse
+  \beginverse
+    Un fou s'engage à partir en ballon
+    Pour aller dans la lune déposer le chaton.
+    Au cours du voyage, le ballon a crevé.
+    À l'autre bout du monde, un cadavre est retrouvé.
+  \endverse
 
-\beginverse
-Cette fois-ci, on envoie le chat au Cap Kennedy.
-C'est dans une fusée à trois étages qu'il est parti.
-Le fermier saute de joie, car il n'a plus de soucis.
-Le lendemain matin, on l'appelle de Miami \dots
-\endverse
+  \beginverse
+    Cette fois-ci, on envoie le chat au Cap Kennedy.
+    C'est dans une fusée à trois étages qu'il est parti.
+    Le fermier saute de joie, car il n'a plus de soucis.
+    Le lendemain matin, on l'appelle de Miami \dots
+  \endverse
+
 \endsong

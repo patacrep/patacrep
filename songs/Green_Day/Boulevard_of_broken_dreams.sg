@@ -1,74 +1,75 @@
 \songcolumns{2}
-\beginsong{Boulevard of broken dreams}[by=Green Day,cov=american-idiot]
+\beginsong{Boulevard of broken dreams}
+  [by=Green Day,cov=american-idiot]
 
-\cover
-\gtab{Fa#5}{2:022XXX}
-\gtab{La5}{5:022XXX}
-\gtab{Mi5}{7:X022XX}
-\gtab{Si5}{7:022XXX}
-\gtab{Ré5}{5:X022XX}
-\gtab{Do#5}{4:X022XX}
+  \cover
+  \gtab{Fa#5}{2:022XXX}
+  \gtab{La5}{5:022XXX}
+  \gtab{Mi5}{7:X022XX}
+  \gtab{Si5}{7:022XXX}
+  \gtab{Ré5}{5:X022XX}
+  \gtab{Do#5}{4:X022XX}
 
-\beginverse
-\[Fa#5]{I walk} a \[La5]lonely road
-\[Mi5]The only one \[Si5]that I have 
-\[Fa#5]Ever known. Don't know \[La5]where it goes
-\[Mi5]But it's home to me \[Si5]and I walk 
-\[Fa#5]Alone \[La5] \[Mi5] \[Si5]
-\endverse
+  \beginverse
+    \[Fa#5]{I walk} a \[La5]lonely road
+    \[Mi5]The only one \[Si5]that I have 
+    \[Fa#5]Ever known. Don't know \[La5]where it goes
+    \[Mi5]But it's home to me \[Si5]and I walk 
+    \[Fa#5]Alone \[La5] \[Mi5] \[Si5]
+  \endverse
 
-\beginverse
-I walk this empty street
-On the Boulevard of Broken Dreams
-Where the city sleeps
-And I'm the only one and I walk 
-Alone
-\endverse
+  \beginverse
+    I walk this empty street
+    On the Boulevard of Broken Dreams
+    Where the city sleeps
+    And I'm the only one and I walk 
+    Alone
+  \endverse
 
-\beginverse*
-I \[La5]walk alone, I \[Mi5]walk alone
-I \[Si5]walk alone, I walk a~\dots
-\endverse
+  \beginverse*
+    I \[La5]walk alone, I \[Mi5]walk alone
+    I \[Si5]walk alone, I walk a~\dots
+  \endverse
 
-\beginchorus
-\[Ré5]My \[La5]shadow's \[Mi5]the only one \[Si5]that walks beside me
-\[Ré5]My \[La5]shallow \[Mi5]heart's the \[Si5]only thing that's beating
-\[Ré5]Some\[La5]times \[Mi5]{I wish} someone \[Si5]out there will find me
-\[Ré5]'Til \[La5]then \[Do#5]{I walk} alone
-\endchorus
+  \beginchorus
+    \[Ré5]My \[La5]shadow's \[Mi5]the only one \[Si5]that walks beside me
+    \[Ré5]My \[La5]shallow \[Mi5]heart's the \[Si5]only thing that's beating
+    \[Ré5]Some\[La5]times \[Mi5]{I wish} someone \[Si5]out there will find me
+    \[Ré5]'Til \[La5]then \[Do#5]{I walk} alone
+  \endchorus
 
-\beginverse*
-Ah-ah, Ah-ah, Ah-ah, Aaah-ah,
-Ah-ah, Ah-ah, Ah-ah
-\endverse
+  \beginverse*
+    Ah-ah, Ah-ah, Ah-ah, Aaah-ah,
+    Ah-ah, Ah-ah, Ah-ah
+  \endverse
 
-\beginverse
-I'm walking down the line
-That divides me somewhere in
-My mind. On the border line
-Of the edge and where I walk 
-Alone
-\endverse
+  \beginverse
+    I'm walking down the line
+    That divides me somewhere in
+    My mind. On the border line
+    Of the edge and where I walk 
+    Alone
+  \endverse
 
-\beginverse
-Read between the lines
-What's fucked up and everything's 
-Alright. Check my vital signs
-To know I'm still alive and I walk 
-Alone
-\endverse
+  \beginverse
+    Read between the lines
+    What's fucked up and everything's 
+    Alright. Check my vital signs
+    To know I'm still alive and I walk 
+    Alone
+  \endverse
 
-\beginverse*
-Ah-ah, Ah-ah, Ah-ah, Aaah-ah
-Ah-ah, Ah-ah
-\endverse
+  \beginverse*
+    Ah-ah, Ah-ah, Ah-ah, Aaah-ah
+    Ah-ah, Ah-ah
+  \endverse
 
-\beginverse
-I walk this empty street
-On the Boulevard of Broken Dreams
-Where the city sleeps
-And I'm the only one and I walk
-A~\dots
-\endverse
+  \beginverse
+    I walk this empty street
+    On the Boulevard of Broken Dreams
+    Where the city sleeps
+    And I'm the only one and I walk
+    A~\dots
+  \endverse
 
 \endsong

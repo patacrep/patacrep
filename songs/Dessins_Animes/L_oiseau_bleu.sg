@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{L'oiseau bleu}[by=Dessins Animés,cov=oiseau-bleu]
+\beginsong{L'oiseau bleu}
+  [by=Dessins Animés,cov=oiseau-bleu]
 
   \cover
   \gtab{La}{X02220}

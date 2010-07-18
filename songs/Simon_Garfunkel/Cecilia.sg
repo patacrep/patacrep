@@ -1,31 +1,32 @@
 \songcolumns{2}
-\beginsong{Cecilia}[by=Simon \& Garfunkel,cov=the-definitive]
+\beginsong{Cecilia}
+  [by=Simon \& Garfunkel,cov=the-definitive]
 
-\cover
-\gtab{Ré}{XX0232}
-\gtab{La}{X02220}
-\gtab{Sol}{320003}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Sol}{320003}
 
-\beginchorus	
-Ce\[Ré]cilia, you're \[Sol]breaking my \[Ré]heart
-You're \[Sol]shaking my \[Ré]confidence \[La]daily.
-Oh Ce\[Sol]cil-\[Ré]ia, I'm \[Sol]down on my \[Ré]knees,
-I'm \[Sol]begging you \[Ré]please to come \[La]home.
-\endchorus
+  \beginchorus	
+    Ce\[Ré]cilia, you're \[Sol]breaking my \[Ré]heart
+    You're \[Sol]shaking my \[Ré]confidence \[La]daily.
+    Oh Ce\[Sol]cil-\[Ré]ia, I'm \[Sol]down on my \[Ré]knees,
+    I'm \[Sol]begging you \[Ré]please to come \[La]home.
+  \endchorus
 
-\beginverse
-Making \[Ré]love in the \[Sol]after\[La]noon
-With Ce\[Ré]cilia, \[Sol]up in \[La]my bed\[Ré]room,      
-\echo{Making love} I got \[Ré]up to \[Sol]wash my \[La]face
-When I \[Ré]come back to bed,
-Some\[Sol]one's \[La]taken my \[Ré]place.
-\endverse
-         
-\beginverse
-Jubi\[Sol]la\[Ré]tion,
-She \[Sol]loves me \[Ré]again,
-I \[Sol]fall on the \[Ré]floor and I \[La]laughing.
-\rep{2}
-\endverse
- 
+  \beginverse
+    Making \[Ré]love in the \[Sol]after\[La]noon
+    With Ce\[Ré]cilia, \[Sol]up in \[La]my bed\[Ré]room,      
+    \echo{Making love} I got \[Ré]up to \[Sol]wash my \[La]face
+    When I \[Ré]come back to bed,
+    Some\[Sol]one's \[La]taken my \[Ré]place.
+  \endverse
+  
+  \beginverse
+    Jubi\[Sol]la\[Ré]tion,
+    She \[Sol]loves me \[Ré]again,
+    I \[Sol]fall on the \[Ré]floor and I \[La]laughing.
+    \rep{2}
+  \endverse
+  
 \endsong

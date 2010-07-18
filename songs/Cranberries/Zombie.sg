@@ -1,66 +1,67 @@
 \songcolumns{2}
-\beginsong{Zombie}[by=Cranberries,cov=no-need-to-argue]
+\beginsong{Zombie}
+  [by=Cranberries,cov=no-need-to-argue]
 
-\cover
-\gtab{Mim}{022000}
-\gtab{Do}{332010}
-\gtab{Sol}{3200XX}
-\gtab{Fa#m}{2:0220XX}
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Do}{332010}
+  \gtab{Sol}{3200XX}
+  \gtab{Fa#m}{2:0220XX}
 
-\beginverse
-\[Mim]Another \[Do]head hangs lowly
-\[Sol]Child is slowly \[Fa#m]taken
-\[Mim]And the violence \[Do]caused such silence 
-\[Sol]Who are we mis\[Fa#m]taken
-\endverse
+  \beginverse
+    \[Mim]Another \[Do]head hangs lowly
+    \[Sol]Child is slowly \[Fa#m]taken
+    \[Mim]And the violence \[Do]caused such silence 
+    \[Sol]Who are we mis\[Fa#m]taken
+  \endverse
 
-\beginverse*
-But you \[Mim]see, it's not me,
-It's not \[Do]my family,
-In your \[Sol]head, in your head,
-They are figh\[Fa#m]ting
-\endverse
+  \beginverse*
+    But you \[Mim]see, it's not me,
+    It's not \[Do]my family,
+    In your \[Sol]head, in your head,
+    They are figh\[Fa#m]ting
+  \endverse
 
-\beginchorus
-With their \[Mim]tanks and their bombs
-And their \[Do]bombs and their guns
-In your \[Sol]head, in your head,
-They are \[Fa#m]crying.
-\endchorus
+  \beginchorus
+    With their \[Mim]tanks and their bombs
+    And their \[Do]bombs and their guns
+    In your \[Sol]head, in your head,
+    They are \[Fa#m]crying.
+  \endchorus
 
-\beginchorus
-In your \[Mim]head, in your \[Do]head,
-Zombie, \[Sol]zombie, zombi\[Fa#m]e
-What's in your \[Mim]head, in your \[Do]head, 
-Zombie, \[Sol]zombie, zombi\[Fa#m]e
-\endchorus
+  \beginchorus
+    In your \[Mim]head, in your \[Do]head,
+    Zombie, \[Sol]zombie, zombi\[Fa#m]e
+    What's in your \[Mim]head, in your \[Do]head, 
+    Zombie, \[Sol]zombie, zombi\[Fa#m]e
+  \endchorus
 
-\beginverse
-Another mother's breaking,
-Heart is taking over.
-When the violence causes silence,
-We must be mistaken.
-\endverse
+  \beginverse
+    Another mother's breaking,
+    Heart is taking over.
+    When the violence causes silence,
+    We must be mistaken.
+  \endverse
 
-\beginverse*
-It's the same old theme
-Since 1916,
-In your head, in your head,
-They're still fighting
-\endverse
+  \beginverse*
+    It's the same old theme
+    Since 1916,
+    In your head, in your head,
+    They're still fighting
+  \endverse
 
-\beginchorus
-With their tanks and their bombs
-And their bombs and their guns, 
-In your head, in your head,
-They're dying.
-\endchorus
+  \beginchorus
+    With their tanks and their bombs
+    And their bombs and their guns, 
+    In your head, in your head,
+    They're dying.
+  \endchorus
 
-\beginchorus
-In your head, in your head,
-Zombie, zombie, zombie
-What's in your head, in your head, 
-Zombie, zombie, zombie
-\endchorus
+  \beginchorus
+    In your head, in your head,
+    Zombie, zombie, zombie
+    What's in your head, in your head, 
+    Zombie, zombie, zombie
+  \endchorus
 
 \endsong

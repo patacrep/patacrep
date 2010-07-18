@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Dimanche dernier}[by=Sansévérino,cov=les-faux-talbins]
+\beginsong{Dimanche dernier}
+  [by=Sansévérino,cov=les-faux-talbins]
 
   \cover
   \gtab{Do}{X32010}

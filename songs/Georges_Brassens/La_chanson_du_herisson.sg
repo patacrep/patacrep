@@ -1,68 +1,69 @@
 \songcolumns{2}
-\beginsong{La chanson du h\'erisson}[by=Georges Brassens \& Philippe Chatel,cov=emilie-jolie]
+\beginsong{La chanson du hérisson}
+  [by=Georges Brassens \& Philippe Chatel,cov=emilie-jolie]
 
-\cover
-\gtab{Sim}{2:X02210}
-\gtab{Sol}{3:022100}
-\gtab{Fa#7}{2:020100}
+  \cover
+  \gtab{Sim}{2:X02210}
+  \gtab{Sol}{3:022100}
+  \gtab{Fa#7}{2:020100}
 
-\beginchorus
-\[Sim]Oh! Qu'est-ce qu'il pique \[Sol]ce hérisson!
-\[Fa#7]Oh! Qu'elle est triste sa chan\[Sim]son!
-\rep{2}
-\endchorus
+  \beginchorus
+    \[Sim]Oh! Qu'est-ce qu'il pique \[Sol]ce hérisson!
+    \[Fa#7]Oh! Qu'elle est triste sa chan\[Sim]son!
+    \rep{2}
+  \endchorus
 
-\beginverse
-C'est un hérisson, qui piquait, qui piquait
-Et qui voulait qu'on l'caresse-resse-resse
-On l'caressait pas pas-pas-pas-pas
-Non pas parce qu'il piquait pas,
-Mais parce qu'il piquait
-\endverse
+  \beginverse
+    C'est un hérisson, qui piquait, qui piquait
+    Et qui voulait qu'on l'caresse-resse-resse
+    On l'caressait pas pas-pas-pas-pas
+    Non pas parce qu'il piquait pas,
+    Mais parce qu'il piquait
+  \endverse
 
-\beginverse*
-C'est un hérisson, qui piquait, qui piquait
-Et qui voulait qu'on l'caresse-resse-resse
-On l'caressait pas-pas-pas-pas-pas
-Non pas parce qu'il piquait pas,
-Mais parce qu'il piquait
-\endverse
+  \beginverse*
+    C'est un hérisson, qui piquait, qui piquait
+    Et qui voulait qu'on l'caresse-resse-resse
+    On l'caressait pas-pas-pas-pas-pas
+    Non pas parce qu'il piquait pas,
+    Mais parce qu'il piquait
+  \endverse
 
-\beginverse
-Quelle est la fée dans ce livre,
-Qui me donnera l'envie d'vivre?
-Quelle est la petite fille aux yeux bleus,
-Qui va m'rendre heureux?
-\endverse
+  \beginverse
+    Quelle est la fée dans ce livre,
+    Qui me donnera l'envie d'vivre?
+    Quelle est la petite fille aux yeux bleus,
+    Qui va m'rendre heureux?
+  \endverse
 
-\beginverse*
-Quelle est la fée dans ce livre,
-Qui lui donnera l'envie d'vivre?
-Quelle est la petite fille aux yeux bleus,
-Qui l'rendra heureux?
-\endverse
+  \beginverse*
+    Quelle est la fée dans ce livre,
+    Qui lui donnera l'envie d'vivre?
+    Quelle est la petite fille aux yeux bleus,
+    Qui l'rendra heureux?
+  \endverse
 
-\beginverse
-Moi, je ne vois que moi,
-Il n'y a que moi, dans ce livre là.
-Moi, je ne vois que moi,
-Il n'y a que moi, dans ce livre la la la la.
-La-la-la-la-la-la
-La la-la-la-la-la-la-la-la-la-la-la \dots
-\endverse
+  \beginverse
+    Moi, je ne vois que moi,
+    Il n'y a que moi, dans ce livre là.
+    Moi, je ne vois que moi,
+    Il n'y a que moi, dans ce livre la la la la.
+    La-la-la-la-la-la
+    La la-la-la-la-la-la-la-la-la-la-la \dots
+  \endverse
 
-\beginverse*
-\textnote{parlé}
-Émilie est allée caresser le hérisson.
-\endverse
+  \beginverse*
+    \textnote{parlé}
+    Émilie est allée caresser le hérisson.
+  \endverse
 
-\beginverse
-Elle n'est plus triste cette chanson
-J'ai caressé le hérisson
-Il n'est plus triste le hérisson
-Elle a caressé la chanson
-\echo{Mais non! Le hérisson! \rep{2}
-Pom pom}
-\endverse
+  \beginverse
+    Elle n'est plus triste cette chanson
+    J'ai caressé le hérisson
+    Il n'est plus triste le hérisson
+    Elle a caressé la chanson
+    \echo{Mais non! Le hérisson! \rep{2}
+    Pom pom}
+  \endverse
 
 \endsong

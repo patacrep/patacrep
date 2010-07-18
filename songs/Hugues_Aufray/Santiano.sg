@@ -1,57 +1,59 @@
 \songcolumns{2}
-\beginsong{Santiano}[by=Hugues Aufray,cov=la-terre-est-si-belle]
+\beginsong{Santiano}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Mim}{022000}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
 
 
-\beginverse
-C'est \[Lam]un fameux trois mâts
-Fin comme un oi\[Sol]seau
-Hissez \[Lam]ho ! Santi\[Sol]ano
-Dix-huit nœuds, quatre-cents tonneaux
-Je suis \[Lam]fier d'y \[Mim]être \[Lam]matelot 
-\endverse
+  \beginverse
+    C'est \[Lam]un fameux trois mâts
+    Fin comme un oi\[Sol]seau
+    Hissez \[Lam]ho ! Santi\[Sol]ano
+    Dix-huit nœuds, quatre-cents tonneaux
+    Je suis \[Lam]fier d'y \[Mim]être \[Lam]matelot 
+  \endverse
 
-\beginchorus
-Tiens \[Lam]bon la vague et tiens bon le \[Sol]vent
-Hissez \[Lam]ho ! Santi\[Sol]ano
-Si Dieu veut, toujours droit devant
-Nous ir\[Lam]ons jusqu'\[Mim]{à San} \[Lam]Francisco 
-\endchorus
+  \beginchorus
+    Tiens \[Lam]bon la vague et tiens bon le \[Sol]vent
+    Hissez \[Lam]ho ! Santi\[Sol]ano
+    Si Dieu veut, toujours droit devant
+    Nous ir\[Lam]ons jusqu'\[Mim]{à San} \[Lam]Francisco 
+  \endchorus
 
-\beginverse
-Je pars pour de longs mois
-En laissant Margot
-Hissez ho ! Santiano
-D'y penser, j'en ai le cœur gros 
-En doublant les feux de St. Malo 
-\endverse
+  \beginverse
+    Je pars pour de longs mois
+    En laissant Margot
+    Hissez ho ! Santiano
+    D'y penser, j'en ai le cœur gros 
+    En doublant les feux de St. Malo 
+  \endverse
 
-\beginverse
-On prétend que là-bas
-L'argent coule à flot
-Hissez ho ! Santiano
-On trouve l'or
-Au fond des ruisseaux
-J'en ramènerai plusieurs lingots 
-\endverse
+  \beginverse
+    On prétend que là-bas
+    L'argent coule à flot
+    Hissez ho ! Santiano
+    On trouve l'or
+    Au fond des ruisseaux
+    J'en ramènerai plusieurs lingots 
+  \endverse
 
-\beginverse
-Un jour, je reviendrai
-Chargé de cadeaux
-Hissez ho ! Santiano
-Au pays, j'irai voir Margot 
-À son doigt, je passerai l'anneau
-\endverse
+  \beginverse
+    Un jour, je reviendrai
+    Chargé de cadeaux
+    Hissez ho ! Santiano
+    Au pays, j'irai voir Margot 
+    À son doigt, je passerai l'anneau
+  \endverse
 
-\beginchorus
-Tiens bon le cap et tiens bon le flot 
-Hissez ho ! Santiano
-Sur la mer qui fait le gros dos 
-Nous irons jusqu'à San Francisco 
-\endchorus
+  \beginchorus
+    Tiens bon le cap et tiens bon le flot 
+    Hissez ho ! Santiano
+    Sur la mer qui fait le gros dos 
+    Nous irons jusqu'à San Francisco 
+  \endchorus
+
 \endsong

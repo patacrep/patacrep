@@ -1,5 +1,7 @@
 \songcolumns{2}
-\beginsong{Bassin d'Irlande}[by=Mes souliers sont rouges,cov=en-dehors-des-clous]
+\beginsong{Bassin d'Irlande}
+  [by=Mes souliers sont rouges,cov=en-dehors-des-clous]
+
   \cover
   \gtab{Fa}{1:022100}
   \gtab{Do}{3:X02220}
@@ -36,7 +38,7 @@
     J'en avais pas cueilli trois brins
     Voilà mon amant qui rentre
     \rep{2}
- \endverse
+  \endverse
 
   \beginverse*
     En lui donnant ce beau bouquet

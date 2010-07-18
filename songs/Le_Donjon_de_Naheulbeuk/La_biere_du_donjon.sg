@@ -1,59 +1,60 @@
 \songcolumns{2}
-\beginsong{La bi\`ere du donjon}[by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
+\beginsong{La bière du donjon}
+  [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Mim}{022000}
-\gtab{Fa}{1:022100}
-\gtab{Mi}{022100}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
 
-\beginverse
-La \[Lam]bière du donjon, c'est \[Sol]nous qui la bra\[Lam]ssène,
-La \[Lam]bière du donjon, c'est \[Sol]nous qui la bra\[Lam]ssons.
-Bra\[Mim]ssons, bra\[Lam]ssons la \[Mim]bière du don\[Lam]jène,
-Bra\[Mim]ssons, bra\[Lam]ssons la \[Fa]bière du \[Mi]don\[Lam]jon.
-\endverse
+  \beginverse
+    La \[Lam]bière du donjon, c'est \[Sol]nous qui la bra\[Lam]ssène,
+    La \[Lam]bière du donjon, c'est \[Sol]nous qui la bra\[Lam]ssons.
+    Bra\[Mim]ssons, bra\[Lam]ssons la \[Mim]bière du don\[Lam]jène,
+    Bra\[Mim]ssons, bra\[Lam]ssons la \[Fa]bière du \[Mi]don\[Lam]jon.
+  \endverse
 
-\lilypond{La_biere_du_donjon}
+  \lilypond{La_biere_du_donjon}
 
-\beginverse
-La bière du donjon, c'est nous qui la servène,
-La bière du donjon, c'est nous qui la servons.
-Servons, servons la bière du donjène,
-Servons, servons la bière du donjon.
-\endverse
+  \beginverse
+    La bière du donjon, c'est nous qui la servène,
+    La bière du donjon, c'est nous qui la servons.
+    Servons, servons la bière du donjène,
+    Servons, servons la bière du donjon.
+  \endverse
 
-\beginverse
-La bière du donjon, c'est nous qui la vendène,
-La bière du donjon, c'est nous qui la vendons \dots
-\endverse
+  \beginverse
+    La bière du donjon, c'est nous qui la vendène,
+    La bière du donjon, c'est nous qui la vendons \dots
+  \endverse
 
-\beginverse
-La bière du donjon, c'est nous qui la buvène,
-La bière du donjon, c'est nous qui la buvons \dots
-\endverse
+  \beginverse
+    La bière du donjon, c'est nous qui la buvène,
+    La bière du donjon, c'est nous qui la buvons \dots
+  \endverse
 
-\beginverse
-La bière du donjon, c'est nous qui la rotène,
-La bière du donjon, c'est nous qui la rotons \dots
-\endverse
+  \beginverse
+    La bière du donjon, c'est nous qui la rotène,
+    La bière du donjon, c'est nous qui la rotons \dots
+  \endverse
 
-\beginverse
-La bière du donjon, c'est nous qui la pissène,
-La bière du donjon, c'est nous qui la pissons \dots
-\endverse
+  \beginverse
+    La bière du donjon, c'est nous qui la pissène,
+    La bière du donjon, c'est nous qui la pissons \dots
+  \endverse
 
-\beginverse
-La bière du donjon, c'est nous qui la chantène,
-La bière du donjon, c'est nous qui la chantons \dots
-\endverse
+  \beginverse
+    La bière du donjon, c'est nous qui la chantène,
+    La bière du donjon, c'est nous qui la chantons \dots
+  \endverse
 
-\beginverse
-La bière du donjon, c'est nous qui la gerbène,
-La bière du donjon, c'est nous qui la gerbons \dots
-\echo{Et même qu'après, eh bien on en r'prend !}
-\endverse
+  \beginverse
+    La bière du donjon, c'est nous qui la gerbène,
+    La bière du donjon, c'est nous qui la gerbons \dots
+    \echo{Et même qu'après, eh bien on en r'prend !}
+  \endverse
 
 
 \endsong

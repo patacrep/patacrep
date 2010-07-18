@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Rue du temps}[by=Les Ogres de Barback,cov=Croc-noces]
+\beginsong{Rue du temps}
+  [by=Les Ogres de Barback,cov=Croc-noces]
 
   \cover
   \gtab{Rém}{5:X02210}

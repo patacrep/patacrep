@@ -1,69 +1,71 @@
 \songcolumns{2}
-\beginsong{Chemise rouge}[by=Yvon Etienne,cov=les-plus-pire-succes-d-yvon-etienne]
+\beginsong{Chemise rouge}
+  [by=Yvon Etienne,cov=les-plus-pire-succes-d-yvon-etienne]
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Fa}{1:022100}
-\gtab{Sol7}{320001}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol7}{320001}
 
 
-\beginverse
-Voulez-\[Do]vous mes\[Fa]sieurs mes\[Do]dames,
-Que je \[Sol7]vous chante l'his\[Do]toire
-L'histoire d'\[Do]un drôle \[Fa]de qui\[Do]dam
-Qui vé\[Sol7]cut couvert de \[Do]gloire
-Voulez-\[Fa]vous les filles les \[Do]gars
-En\[Sol7]tendre de ma bouche \[Do]même
-Tant pis \[Fa]si vous voulez \[Do]pas
-Je la \[Sol7]chanterai quand \[Do]même
-C'était un hardi marin
-Qui régnait sur l'équipage
-Qui n'était pas très malouin
-Mais qui avait du courage
-\endverse
+  \beginverse
+    Voulez-\[Do]vous mes\[Fa]sieurs mes\[Do]dames,
+    Que je \[Sol7]vous chante l'his\[Do]toire
+    L'histoire d'\[Do]un drôle \[Fa]de qui\[Do]dam
+    Qui vé\[Sol7]cut couvert de \[Do]gloire
+    Voulez-\[Fa]vous les filles les \[Do]gars
+    En\[Sol7]tendre de ma bouche \[Do]même
+    Tant pis \[Fa]si vous voulez \[Do]pas
+    Je la \[Sol7]chanterai quand \[Do]même
+    C'était un hardi marin
+    Qui régnait sur l'équipage
+    Qui n'était pas très malouin
+    Mais qui avait du courage
+  \endverse
 
-\beginchorus
-\[Do]Par belle mer \[Fa]et par beau \[Do]temps
-En sa\[Sol7]brant tout ce qui \[Do]bouge
-Pour pas que l'\[Fa]on voit son \[Do]sang
-Portait \[Sol7]une chemise rou\[Do]ge.
-\endchorus
+  \beginchorus
+    \[Do]Par belle mer \[Fa]et par beau \[Do]temps
+    En sa\[Sol7]brant tout ce qui \[Do]bouge
+    Pour pas que l'\[Fa]on voit son \[Do]sang
+    Portait \[Sol7]une chemise rou\[Do]ge.
+  \endchorus
 
-\beginverse
-C'est depuis qu'il fait la chasse
-Planté sur son fier vaisseau
-Il se rue sur tout c'qui passe
-Qu'ce soit petit ou bien gros.
-Le premier d'l'an d'cette année-là,
-Tombait un vendredi 13, 
-Jour maudit où il rencontra
-Une espèce de gros balaise
-Sortant tout droit du brouillard
-Se ruant tout droit sur lui
-Impressionnant et mastard
-Et trois fois mieux armé que lui.
-\endverse
+  \beginverse
+    C'est depuis qu'il fait la chasse
+    Planté sur son fier vaisseau
+    Il se rue sur tout c'qui passe
+    Qu'ce soit petit ou bien gros.
+    Le premier d'l'an d'cette année-là,
+    Tombait un vendredi 13, 
+    Jour maudit où il rencontra
+    Une espèce de gros balaise
+    Sortant tout droit du brouillard
+    Se ruant tout droit sur lui
+    Impressionnant et mastard
+    Et trois fois mieux armé que lui.
+  \endverse
 
-\beginverse
-Il se frotta fort les yeux,
-Regarda dans sa longue vue
-Se pinça le bout du nez
-Pour voir s'il avait bien vu
-Était toujours hardi marin 
-Comme au début de la chanson
-Et pour mieux faire le malin
-S'y attaqua comme un con
-Il capela sa chemise rouge
-Et pour plus de précaution
-En plus de sa chemise rouge
-Il mit son pantalon marron
-\endverse
+  \beginverse
+    Il se frotta fort les yeux,
+    Regarda dans sa longue vue
+    Se pinça le bout du nez
+    Pour voir s'il avait bien vu
+    Était toujours hardi marin 
+    Comme au début de la chanson
+    Et pour mieux faire le malin
+    S'y attaqua comme un con
+    Il capela sa chemise rouge
+    Et pour plus de précaution
+    En plus de sa chemise rouge
+    Il mit son pantalon marron
+  \endverse
 
-\beginverse
-Il mourut en commandant
-Sur sa ch'mise y'avait du sang
-Mais c'que dit pas la chanson
-C'est c'qu'y avait dans le pantalon.
-\endverse
+  \beginverse
+    Il mourut en commandant
+    Sur sa ch'mise y'avait du sang
+    Mais c'que dit pas la chanson
+    C'est c'qu'y avait dans le pantalon.
+  \endverse
+
 \endsong

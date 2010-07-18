@@ -1,80 +1,81 @@
 \songcolumns{2}
-\beginsong{Léon}[by=Karpatt,cov=dans-le-cailloux]
+\beginsong{Léon}
+  [by=Karpatt,cov=dans-le-cailloux]
 
-\cover
-\gtab{Mim}{7:X02210}
-\gtab{Lam}{5:022000}
-\gtab{Si7}{7:020100}
+  \cover
+  \gtab{Mim}{7:X02210}
+  \gtab{Lam}{5:022000}
+  \gtab{Si7}{7:020100}
 
-\beginverse
-Léon, dans son cos\[Mim]tume, tiré à quatre é\[Lam]pingles
-Semble tout droit sor\[Si7]ti d'un film des années \[Mim]vingt \[Si7]
-Tu le sors d'où \[Mim]Léon, ce costard de bas\[Lam]tringue
-On le chambre un peu, ici tout l'monde l'aime \[Si7]bien
-\endverse
+  \beginverse
+    Léon, dans son cos\[Mim]tume, tiré à quatre é\[Lam]pingles
+    Semble tout droit sor\[Si7]ti d'un film des années \[Mim]vingt \[Si7]
+    Tu le sors d'où \[Mim]Léon, ce costard de bas\[Lam]tringue
+    On le chambre un peu, ici tout l'monde l'aime \[Si7]bien
+  \endverse
 
-\beginverse*
-Léon a rendez-vous ce soir avec une gazelle
-Elle doit être jolie, vu les efforts qu'il a fait
-Léon a rendez-vous, il nous avoue qu'elle est belle
-Si belle qu'il hésite encore à y aller
-\endverse
+  \beginverse*
+    Léon a rendez-vous ce soir avec une gazelle
+    Elle doit être jolie, vu les efforts qu'il a fait
+    Léon a rendez-vous, il nous avoue qu'elle est belle
+    Si belle qu'il hésite encore à y aller
+  \endverse
 
-\beginchorus
-Il faut bien lui parler, Léon
-Il faut pas la brusquer, Léon
-Il faut la faire rêver, Léon
-Il faut la faire chanter, il faut la faire danser
-\endchorus
+  \beginchorus
+    Il faut bien lui parler, Léon
+    Il faut pas la brusquer, Léon
+    Il faut la faire rêver, Léon
+    Il faut la faire chanter, il faut la faire danser
+  \endchorus
 
-\beginchorus
-Il faut bien lui parler, Léon
-Il faut la faire rire, Léon
-Il faut la faire rougir, Léon
-Il faut la faire danser.
-\endchorus
+  \beginchorus
+    Il faut bien lui parler, Léon
+    Il faut la faire rire, Léon
+    Il faut la faire rougir, Léon
+    Il faut la faire danser.
+  \endchorus
 
-\beginverse
-Depuis que la Raymonde, paix à son âme !
-A laissé à Léon, le zinc en accoudoir
-Il en a bu des coups à la santé de sa femme
-Il en a pris des cuites, alors le voir
-\endverse
+  \beginverse
+    Depuis que la Raymonde, paix à son âme !
+    A laissé à Léon, le zinc en accoudoir
+    Il en a bu des coups à la santé de sa femme
+    Il en a pris des cuites, alors le voir
+  \endverse
 
-\beginverse*
-Dedans ce beau costume, qui devait être à son père,
-Y'a comme de l'émotion, on a envie de l'aider
-Assure comme un chef, Léon, tu sais y faire,
-On l'embrasse sur le caillou, il a l'air gêné
-\endverse
+  \beginverse*
+    Dedans ce beau costume, qui devait être à son père,
+    Y'a comme de l'émotion, on a envie de l'aider
+    Assure comme un chef, Léon, tu sais y faire,
+    On l'embrasse sur le caillou, il a l'air gêné
+  \endverse
 
-\beginverse
-On lui a mis dans les bras un bouquet de marguerites,
-Ajusté la cravate, il est beau comme un sou neuf
-Sûr qu'elle va succomber dans tes bras la petite !
-Léon, c'est quand que tu nous présentes ta nouvelle meuf ?
-\endverse
+  \beginverse
+    On lui a mis dans les bras un bouquet de marguerites,
+    Ajusté la cravate, il est beau comme un sou neuf
+    Sûr qu'elle va succomber dans tes bras la petite !
+    Léon, c'est quand que tu nous présentes ta nouvelle meuf ?
+  \endverse
 
-\beginverse*
-Léon s'est tiré sous les olas du bistrot
-Il en menait pas large mais il s'est pas retourné
-On l'a suivi du regard jusqu'à l'entrée du métro
-Y'avait dans son rencard un côté ce soir ou jamais.
-\endverse
+  \beginverse*
+    Léon s'est tiré sous les olas du bistrot
+    Il en menait pas large mais il s'est pas retourné
+    On l'a suivi du regard jusqu'à l'entrée du métro
+    Y'avait dans son rencard un côté ce soir ou jamais.
+  \endverse
 
-\beginverse
-Le lendemain au bistrot, il avait déserté le poste
-Mais pour un type comme lui, autant dire c'est pas rien
-On a jamais su comment elle était belle la belle gosse
-Qu'a volé notre poteau et laissé du chagrin
-\endverse
+  \beginverse
+    Le lendemain au bistrot, il avait déserté le poste
+    Mais pour un type comme lui, autant dire c'est pas rien
+    On a jamais su comment elle était belle la belle gosse
+    Qu'a volé notre poteau et laissé du chagrin
+  \endverse
 
-\beginverse*
-Si un jour tu reviens, Léon, ici t'auras ta place
-J'espère que tu nous raconteras \echo{ouais} à ta façon
-On rira comme avant, tu sais elle manque ta grimace
-Et puis t'as laissé une ardoise, alors fais pas l'con !
-\endverse
+  \beginverse*
+    Si un jour tu reviens, Léon, ici t'auras ta place
+    J'espère que tu nous raconteras \echo{ouais} à ta façon
+    On rira comme avant, tu sais elle manque ta grimace
+    Et puis t'as laissé une ardoise, alors fais pas l'con !
+  \endverse
 
 \endsong
 

@@ -1,63 +1,64 @@
 \songcolumns{2}
-\beginsong{Les elfes de GreenElven}[by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
+\beginsong{Les elfes de GreenElven}
+  [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
 
 
-\cover
-\gtab{Rém}{XX0231}
-\gtab{Do}{X32010}
-\gtab{Fa}{1:022100}
-\gtab{Lam}{X02210}
+  \cover
+  \gtab{Rém}{XX0231}
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Lam}{X02210}
 
 
-\beginverse
-\[Rém]{Ils sont} fiers, ils \[Do]sont élan\[Rém]cés
-Comme les \[Fa]arbres de \[Do]leurs \[Lam]forêts
-\[Rém]Blanche est la \[Lam]feuille où courent leurs traits
-Les \[Rém]Elfes de \[Do]GreenEl\[Rém]ven
-\endverse
+  \beginverse
+    \[Rém]{Ils sont} fiers, ils \[Do]sont élan\[Rém]cés
+    Comme les \[Fa]arbres de \[Do]leurs \[Lam]forêts
+    \[Rém]Blanche est la \[Lam]feuille où courent leurs traits
+    Les \[Rém]Elfes de \[Do]GreenEl\[Rém]ven
+  \endverse
 
-\beginverse
-De leur plume aux reflets d'argent
-Naissent des êtres d'autres temps
-Des landes perdues, des chevaux blancs 
-Les Elfes de GreenElven \echo{ho, c'est beau}
-\endverse
+  \beginverse
+    De leur plume aux reflets d'argent
+    Naissent des êtres d'autres temps
+    Des landes perdues, des chevaux blancs 
+    Les Elfes de GreenElven \echo{ho, c'est beau}
+  \endverse
 
-\beginverse
-Ils imaginent des contrées
-Des reines maudites aux yeux violets
-Les ombres s'étendent sur la forêt
-Des Elfes de GreenElven
-\endverse
+  \beginverse
+    Ils imaginent des contrées
+    Des reines maudites aux yeux violets
+    Les ombres s'étendent sur la forêt
+    Des Elfes de GreenElven
+  \endverse
 
-\beginverse
-\[Rém]Et quand le \[Do]soir tombe sur les \[Lam]feuilles dorées
-\[Rém]Le sang de la \[Do]forêt coule sur leurs \[Lam]cheveux blancs
-\[Rém]Avec dans leurs \[Do]carnets des cro\[Lam]quis ravagés
-\[Rém]Par la détresse im\[Do]pie de l'artiste sou\[Lam]ffrant
-\endverse
+  \beginverse
+    \[Rém]Et quand le \[Do]soir tombe sur les \[Lam]feuilles dorées
+    \[Rém]Le sang de la \[Do]forêt coule sur leurs \[Lam]cheveux blancs
+    \[Rém]Avec dans leurs \[Do]carnets des cro\[Lam]quis ravagés
+    \[Rém]Par la détresse im\[Do]pie de l'artiste sou\[Lam]ffrant
+  \endverse
 
-\beginverse
-Vient alors la dame au visage fin
-Calme les esprits contre son sein 
-Sonnent ensuite les chants sereins
-Des Elfes de GreenElven
-\endverse
+  \beginverse
+    Vient alors la dame au visage fin
+    Calme les esprits contre son sein 
+    Sonnent ensuite les chants sereins
+    Des Elfes de GreenElven
+  \endverse
 
-\beginverse
-Puis leurs armées piaffantes à l'orée du bois
-Chargent dans les ténèbres au son des tambourins
-Lèvent leurs lames luisantes dans le froid
-Et cueillent des framboises jusqu'au matin
-\endverse
+  \beginverse
+    Puis leurs armées piaffantes à l'orée du bois
+    Chargent dans les ténèbres au son des tambourins
+    Lèvent leurs lames luisantes dans le froid
+    Et cueillent des framboises jusqu'au matin
+  \endverse
 
-\beginverse
-Ainsi donc s'achève la nuit
-Mon histoire se termine ici
-Et je contemple les croquis
-Des Elfes de GreenElven \rep{2}
-\endverse
+  \beginverse
+    Ainsi donc s'achève la nuit
+    Mon histoire se termine ici
+    Et je contemple les croquis
+    Des Elfes de GreenElven \rep{2}
+  \endverse
 
-\image{naheulbeuk04}{4}
+  \image{naheulbeuk04}{4}
 
 \endsong

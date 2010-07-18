@@ -1,76 +1,77 @@
 \songcolumns{2}
-\beginsong{Mon cheval gris}[by=Henri Dès,cov=les-betises]
+\beginsong{Mon cheval gris}
+  [by=Henri Dès,cov=les-betises]
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Fa}{1:022100}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
 
-\beginverse
-J'suis pa\[Do]rti, vers mi\[Sol]{di, sur} mon \[Fa]cheval \[Do]gris
-Moi j'é\[Fa]tais de\[Sol]ssus et puis \[Do]lui \[Sol]des\[Do]sous
-J'suis pa\[Fa]rti, vers mi\[Sol]{di, sur} mon \[Do]che\[Sol]val \[Do]gris
-\endverse
+  \beginverse
+    J'suis pa\[Do]rti, vers mi\[Sol]{di, sur} mon \[Fa]cheval \[Do]gris
+    Moi j'é\[Fa]tais de\[Sol]ssus et puis \[Do]lui \[Sol]des\[Do]sous
+    J'suis pa\[Fa]rti, vers mi\[Sol]{di, sur} mon \[Do]che\[Sol]val \[Do]gris
+  \endverse
 
-\beginverse
-On allait, guillerets, les oiseaux chantaient
-Moi j'étais dessus et puis lui dessous
-On allait, guillerets, les oiseaux chantaient
-\endverse
+  \beginverse
+    On allait, guillerets, les oiseaux chantaient
+    Moi j'étais dessus et puis lui dessous
+    On allait, guillerets, les oiseaux chantaient
+  \endverse
 
-\beginverse
-Il f'sait beau, il f'sait chaud, juste ce qu'il faut
-Moi j'étais dessus et puis lui dessous
-Il f'sait beau, il f'sait chaud, juste ce qu'il faut
-\endverse
+  \beginverse
+    Il f'sait beau, il f'sait chaud, juste ce qu'il faut
+    Moi j'étais dessus et puis lui dessous
+    Il f'sait beau, il f'sait chaud, juste ce qu'il faut
+  \endverse
 
-\beginverse
-Quand soudain en chemin, écoutez-moi bien
-Moi j'étais dessus et puis lui dessous
-Quand soudain en chemin, écoutez-moi bien
-\endverse
+  \beginverse
+    Quand soudain en chemin, écoutez-moi bien
+    Moi j'étais dessus et puis lui dessous
+    Quand soudain en chemin, écoutez-moi bien
+  \endverse
 
-\beginverse
-Une voix, petite voix, me souffla tout bas
-Moi j'étais dessus et puis lui dessous
-Une voix, petite voix, me souffla tout bas
-\endverse
+  \beginverse
+    Une voix, petite voix, me souffla tout bas
+    Moi j'étais dessus et puis lui dessous
+    Une voix, petite voix, me souffla tout bas
+  \endverse
 
-\beginverse
-J'ai bobo, mal au dos et mal aux sabots
-Moi j'étais dessus et puis lui dessous
-J'ai bobo, mal au dos et mal aux sabots
-\endverse
+  \beginverse
+    J'ai bobo, mal au dos et mal aux sabots
+    Moi j'étais dessus et puis lui dessous
+    J'ai bobo, mal au dos et mal aux sabots
+  \endverse
 
-\beginverse
-J't'ai porté, transporté pendant des années
-Moi j'étais dessus et puis lui dessous
-J't'ai porté, transporté pendant des années
-\endverse
+  \beginverse
+    J't'ai porté, transporté pendant des années
+    Moi j'étais dessus et puis lui dessous
+    J't'ai porté, transporté pendant des années
+  \endverse
 
-\beginverse
-Fatigué, s'il te plaît, j'voudrais m'arrêter
-Moi j'étais dessus et puis lui dessous
-Fatigué, s'il te plaît, j'voudrais m'arrêter
-\endverse
+  \beginverse
+    Fatigué, s'il te plaît, j'voudrais m'arrêter
+    Moi j'étais dessus et puis lui dessous
+    Fatigué, s'il te plaît, j'voudrais m'arrêter
+  \endverse
 
-\beginverse
-Convaincu, tout ému, je suis descendu
-Moi j'étais dessus et puis lui dessous
-Convaincu, tout ému, je suis descendu
-\endverse
+  \beginverse
+    Convaincu, tout ému, je suis descendu
+    Moi j'étais dessus et puis lui dessous
+    Convaincu, tout ému, je suis descendu
+  \endverse
 
-\beginverse
-``Grand merci, t'es gentil.'' dit le cheval gris
-Moi j'étais dessus et puis lui dessous
-``Grand merci, t'es gentil.'' dit le cheval gris
-\endverse
+  \beginverse
+    ``Grand merci, t'es gentil.'' dit le cheval gris
+    Moi j'étais dessus et puis lui dessous
+    ``Grand merci, t'es gentil.'' dit le cheval gris
+  \endverse
 
-\beginverse
-``Car c'est la première fois qu'on entend ma voix''. 
-Moi j'étais dessus et puis lui dessous
-``Car c'est la première fois qu'on entend ma voix''. 
-\endverse
+  \beginverse
+    ``Car c'est la première fois qu'on entend ma voix''. 
+    Moi j'étais dessus et puis lui dessous
+    ``Car c'est la première fois qu'on entend ma voix''. 
+  \endverse
 
 \endsong
 

@@ -1,46 +1,47 @@
 \songcolumns{2}
-\beginsong{Ob-La-Di, Ob-La-Da}[by=The Beatles,cov=white-album]
+\beginsong{Ob-La-Di, Ob-La-Da}
+  [by=The Beatles,cov=white-album]
 
-\capo{3}
-\cover
-\gtab{Sol}{320003}
-\gtab{Ré7}{XX0212}
-\gtab{Sim}{2:X02210}
-\gtab{Mim}{022000}
-\gtab{Do}{X32010}
+  \capo{3}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Ré7}{XX0212}
+  \gtab{Sim}{2:X02210}
+  \gtab{Mim}{022000}
+  \gtab{Do}{X32010}
 
-\beginverse
-\[Sol]Desmond had a barrow in the \[Ré7]market place, 
-Molly is the singer in a \[Sol]band.
-Desmond says to Molly, girl I \[Do]like your face 
-And Molly \[Sol]says this as she \[Ré7]takes him by the \[Sol]hand.
-\endverse
+  \beginverse
+    \[Sol]Desmond had a barrow in the \[Ré7]market place, 
+    Molly is the singer in a \[Sol]band.
+    Desmond says to Molly, girl I \[Do]like your face 
+    And Molly \[Sol]says this as she \[Ré7]takes him by the \[Sol]hand.
+  \endverse
 
-\beginchorus
-Ob-la-\[Sol]di, ob-la-da, life goes \[Sim]on \[Mim]bra.
-\[Sol]La la how the \[Ré7]life goes \[Sol]on.
-\rep{2}
-\endchorus
+  \beginchorus
+    Ob-la-\[Sol]di, ob-la-da, life goes \[Sim]on \[Mim]bra.
+    \[Sol]La la how the \[Ré7]life goes \[Sol]on.
+    \rep{2}
+  \endchorus
 
-\beginverse 
-Desmond takes a trolley to the jeweller's store, 
-Buys a twenty carat golden ring.
-Takes it back to Molly, waiting at the door 
-And as he gives it to her she begins to sing.
-\endverse
+  \beginverse 
+    Desmond takes a trolley to the jeweller's store, 
+    Buys a twenty carat golden ring.
+    Takes it back to Molly, waiting at the door 
+    And as he gives it to her she begins to sing.
+  \endverse
 
-\beginverse
-\[Do]In a couple of years they have built a home sweet \[Sol]home
-\[Do]With a couple of kids running in the yard
-Of \[Sol]Desmond and Molly \[Ré7]Jones.
-\endverse
+  \beginverse
+    \[Do]In a couple of years they have built a home sweet \[Sol]home
+    \[Do]With a couple of kids running in the yard
+    Of \[Sol]Desmond and Molly \[Ré7]Jones.
+  \endverse
 
-\beginverse
-Happy ever after in the market place,
-Desmond lets the children lend a hand.
-Molly stays at home and does her pretty face 
-And in the evening she still sings it with the band.
-\endverse
+  \beginverse
+    Happy ever after in the market place,
+    Desmond lets the children lend a hand.
+    Molly stays at home and does her pretty face 
+    And in the evening she still sings it with the band.
+  \endverse
 
 \endsong
 

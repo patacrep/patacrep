@@ -1,100 +1,101 @@
 \songcolumns{2}
-\beginsong{Hero of War}[by=Rise Against,cov=appeal-to-reason]
+\beginsong{Hero of War}
+  [by=Rise Against,cov=appeal-to-reason]
 
-\cover
-\gtab{Mi}{7:X02220}
-\gtab{Sol#m}{4:022000}
-\gtab{La}{5:022100}
-\gtab{Do#m}{4:X02210}
-\gtab{Si}{7:022100}
+  \cover
+  \gtab{Mi}{7:X02220}
+  \gtab{Sol#m}{4:022000}
+  \gtab{La}{5:022100}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Si}{7:022100}
 
-\beginverse
-He said, ``\[Mi]Son,
-Have you see the \[Sol#m]world?
-Well, what would you \[La]say
-If I said that you \[Mi]could?
-Just carry this \[La]gun 
-And you'll even get \[Mi]paid.''
-I said, ``That sounds pretty \[Si]good.''
-\endverse
+  \beginverse
+    He said, ``\[Mi]Son,
+    Have you see the \[Sol#m]world?
+    Well, what would you \[La]say
+    If I said that you \[Mi]could?
+    Just carry this \[La]gun 
+    And you'll even get \[Mi]paid.''
+    I said, ``That sounds pretty \[Si]good.''
+  \endverse
 
-\beginverse
-Black leather boots
-Spit-shined so bright
-They cut off my hair 
-But it looked alright
-We marched and we sang
-We all became friends
-As we learned how to fight
-\endverse
+  \beginverse
+    Black leather boots
+    Spit-shined so bright
+    They cut off my hair 
+    But it looked alright
+    We marched and we sang
+    We all became friends
+    As we learned how to fight
+  \endverse
 
-\beginchorus
-A hero of \[Do#m]war
-Yeah that's what I'\[La]ll be
-And when I come \[Mi]home
-They'll be damn proud of \[Si]me
-I'll carry this \[Do#m]flag
-To the grave if I \[La]must
-Because it's flag that \[Mi]I love
-And a flag that I \[Si]trust
-\endchorus
+  \beginchorus
+    A hero of \[Do#m]war
+    Yeah that's what I'\[La]ll be
+    And when I come \[Mi]home
+    They'll be damn proud of \[Si]me
+    I'll carry this \[Do#m]flag
+    To the grave if I \[La]must
+    Because it's flag that \[Mi]I love
+    And a flag that I \[Si]trust
+  \endchorus
 
-\beginverse
-I kicked in the door
-I yelled my commands
-The children, they cried
-But I got my man
-We took him away
-A bag over his face
-From his family and his friends
-\endverse
+  \beginverse
+    I kicked in the door
+    I yelled my commands
+    The children, they cried
+    But I got my man
+    We took him away
+    A bag over his face
+    From his family and his friends
+  \endverse
 
-\beginverse
-They took off his clothes
-They pissed in his hands
-I told them to stop
-But then I joined in
-We beat him with guns
-And batons not just once
-But again and again
-\endverse
+  \beginverse
+    They took off his clothes
+    They pissed in his hands
+    I told them to stop
+    But then I joined in
+    We beat him with guns
+    And batons not just once
+    But again and again
+  \endverse
 
-\beginverse
-She walked 
-Through bullets and haze
-I asked her to stop
-I begged her to stay
-But she pressed on
-So I lifted my gun
-And I fired away
-\endverse
+  \beginverse
+    She walked 
+    Through bullets and haze
+    I asked her to stop
+    I begged her to stay
+    But she pressed on
+    So I lifted my gun
+    And I fired away
+  \endverse
 
-\beginverse
-The shells 
-Jumped through the smoke
-And into the sand
-That the blood now had soaked
-She collapsed 
-With a flag in her hand
-A flag white as snow
-\endverse
+  \beginverse
+    The shells 
+    Jumped through the smoke
+    And into the sand
+    That the blood now had soaked
+    She collapsed 
+    With a flag in her hand
+    A flag white as snow
+  \endverse
 
-\beginchorus
-A hero of war
-Is that what they see
-Just medals and scars
-So damn proud of me
-And I brought home that flag
-Now it gathers dust
-But it's a flag that I love
-It's the only flag I trust
-\endchorus
+  \beginchorus
+    A hero of war
+    Is that what they see
+    Just medals and scars
+    So damn proud of me
+    And I brought home that flag
+    Now it gathers dust
+    But it's a flag that I love
+    It's the only flag I trust
+  \endchorus
 
-\beginverse
-He said, ``Son, 
-Have you seen the world? 
-Well what would you say, 
-If I said that you could?''
-\endverse
+  \beginverse
+    He said, ``Son, 
+    Have you seen the world? 
+    Well what would you say, 
+    If I said that you could?''
+  \endverse
 
 \endsong

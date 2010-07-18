@@ -1,31 +1,32 @@
 \songcolumns{2}
-\beginsong{In the highways}[by=Carter Family,cov=o-brother]
+\beginsong{In the highways}
+  [by=Carter Family,cov=o-brother]
 
-\capo{1}
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Fa}{1:022100}
+  \capo{1}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
 
-\beginverse
-\[Do]In the highways, in the hedges.
-In the \[Sol]highways, in the \[Do]hedges
-\[Do]In the highways, in the hedges
-I'll be \[Sol]somewhere working for my \[Do]Lord
-\endverse
+  \beginverse
+    \[Do]In the highways, in the hedges.
+    In the \[Sol]highways, in the \[Do]hedges
+    \[Do]In the highways, in the hedges
+    I'll be \[Sol]somewhere working for my \[Do]Lord
+  \endverse
 
-\beginchorus
-I'll be \[Fa]somewhere working
-I'll be \[Do]somewhere working
-I'll be \[Sol]somewhere working for my \[Do]Lord
-I'll be \[Fa]somewhere working
-I'll be \[Do]somewhere working
-I'll be \[Sol]somewhere working for my \[Do]Lord
-\endchorus
+  \beginchorus
+    I'll be \[Fa]somewhere working
+    I'll be \[Do]somewhere working
+    I'll be \[Sol]somewhere working for my \[Do]Lord
+    I'll be \[Fa]somewhere working
+    I'll be \[Do]somewhere working
+    I'll be \[Sol]somewhere working for my \[Do]Lord
+  \endchorus
 
-\beginverse
-If He calls me I will answer \rep{3}
-I'll be somewhere working for my Lord
-\endverse
+  \beginverse
+    If He calls me I will answer \rep{3}
+    I'll be somewhere working for my Lord
+  \endverse
 
 \endsong

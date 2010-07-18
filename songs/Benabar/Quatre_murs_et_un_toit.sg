@@ -1,86 +1,87 @@
 \songcolumns{2}
-\beginsong{Quatre murs et un toit}[by=B\'enabar,cov=reprise-des-negociations]
+\beginsong{Quatre murs et un toit}
+  [by=Bénabar,cov=reprise-des-negociations]
 
-\capo{2}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Rém}{XX0231}
-\gtab{Mi7}{020100}
+  \capo{2}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Rém}{XX0231}
+  \gtab{Mi7}{020100}
 
-\beginverse
-\[Lam]Un terrain vague, de vagues clôtures, 
-Un couple divague sur la maison \[Sol]future
-\[Lam]On s'endette pour trente ans, ce pavillon sera le nôtre,
-Et celui de nos enfants corrige la femme en\[Sol]ceinte. 
-\[Rém]Les travaux sont finis, du moins le gros \[Lam]œuvre, 
-Ça sent le plâtre et l'en\[Mi7]duit et la poussière toute \[Lam]neuve. 
-\[Rém]Le plâtre et l'en\[Lam]duit et \[Mi7]la poussière toute \[Lam]neuve.
-\endverse
+  \beginverse
+    \[Lam]Un terrain vague, de vagues clôtures, 
+    Un couple divague sur la maison \[Sol]future
+    \[Lam]On s'endette pour trente ans, ce pavillon sera le nôtre,
+    Et celui de nos enfants corrige la femme en\[Sol]ceinte. 
+    \[Rém]Les travaux sont finis, du moins le gros \[Lam]œuvre, 
+    Ça sent le plâtre et l'en\[Mi7]duit et la poussière toute \[Lam]neuve. 
+    \[Rém]Le plâtre et l'en\[Lam]duit et \[Mi7]la poussière toute \[Lam]neuve.
+  \endverse
 
-\beginverse
-Des ampoules à nu pendent des murs, du plafond,
-Le bébé est né, il joue dans le salon. 
-On ajoute à l'étage une chambre de plus,
-Un petit frère est prévu pour l'automne. 
-Dans le jardin les arbres aussi grandissent,
-On pourra y faire un jour une cabane. \rep{2}
-\endverse
+  \beginverse
+    Des ampoules à nu pendent des murs, du plafond,
+    Le bébé est né, il joue dans le salon. 
+    On ajoute à l'étage une chambre de plus,
+    Un petit frère est prévu pour l'automne. 
+    Dans le jardin les arbres aussi grandissent,
+    On pourra y faire un jour une cabane. \rep{2}
+  \endverse
 
-\beginverse
-Les enfants ont poussé, ils sont trois maintenant,
-On remplit sans se douter le grenier doucement.
-Le grand habite le garage pour être indépendant,
-La cabane, c'est dommage, est à l'abandon.
-Monsieur rêverait de creuser une cave à vins,
-Madame préférerait une deuxième salle de bain.
-Ce sera une deuxième salle de bain. 
-\endverse
+  \beginverse
+    Les enfants ont poussé, ils sont trois maintenant,
+    On remplit sans se douter le grenier doucement.
+    Le grand habite le garage pour être indépendant,
+    La cabane, c'est dommage, est à l'abandon.
+    Monsieur rêverait de creuser une cave à vins,
+    Madame préférerait une deuxième salle de bain.
+    Ce sera une deuxième salle de bain. 
+  \endverse
 
-\beginverse
-Les enfants vont et viennent chargés de linge sale,
-Ça devient un hôtel, la maison familiale.
-On a fait un bureau dans la p'tite pièce d'en haut,
-Et des chambres d'amis, les enfants sont partis.
-Ils ont quitté le nid sans le savoir vraiment, 
-Petit à petit et vêtement par vêtement. \rep{2}
-\endverse
+  \beginverse
+    Les enfants vont et viennent chargés de linge sale,
+    Ça devient un hôtel, la maison familiale.
+    On a fait un bureau dans la p'tite pièce d'en haut,
+    Et des chambres d'amis, les enfants sont partis.
+    Ils ont quitté le nid sans le savoir vraiment, 
+    Petit à petit et vêtement par vêtement. \rep{2}
+  \endverse
 
-\beginverse
-Ils habitent à Paris des apparts sans espace,
-Alors qu'ici y'a trop de place 
-On va poser, tu sais, des stores électriques,
-C'est un peu laid c'est vrai, mais c'est plus pratique.
-La maison somnole comme un chat fatigué,
-Dans son ventre ronronne la machine à laver. \rep{2}
-\endverse
+  \beginverse
+    Ils habitent à Paris des apparts sans espace,
+    Alors qu'ici y'a trop de place 
+    On va poser, tu sais, des stores électriques,
+    C'est un peu laid c'est vrai, mais c'est plus pratique.
+    La maison somnole comme un chat fatigué,
+    Dans son ventre ronronne la machine à laver. \rep{2}
+  \endverse
 
-\beginverse
-Les petits enfants espérés apparaissent,
-Dans le frigo, on remet des glaces
-La cabane du jardin trouve une deuxième jeunesse,
-C'est le consulat que rouvrent les gosses.
-Le grenier, sans bataille, livre ses trésors,
-Ses panoplies de cowboys aux petits ambassadeurs
-Qui colonisent pour la dernière fois
-La modeste terre promise, quatre murs et un toit.
-\endverse
+  \beginverse
+    Les petits enfants espérés apparaissent,
+    Dans le frigo, on remet des glaces
+    La cabane du jardin trouve une deuxième jeunesse,
+    C'est le consulat que rouvrent les gosses.
+    Le grenier, sans bataille, livre ses trésors,
+    Ses panoplies de cowboys aux petits ambassadeurs
+    Qui colonisent pour la dernière fois
+    La modeste terre promise, quatre murs et un toit.
+  \endverse
 
-\beginverse
-Cette maison est en vente comme vous le savez,
-Je suis, je me présente, agent immobilier.
-Je dois vous prévenir si vous voulez l'acheter,
-Je préfère vous le dire cette maison est hantée.
-Ne souriez pas Monsieur, n'ayez crainte Madame,
-C'est hanté, c'est vrai, mais de gentils fantômes,
-De monstres et de dragons 
-Que les gamins savent voir,
-De pleurs et de bagarres,
-Et de copieux quatre-heures, 
-``Finis tes devoirs'', 
-``Il est trop lourd mon cartable'', 
-``Laisse tranquille ton frère'',
-``Les enfants : à table !''.
-Écoutez la musique, est-ce que vous l'entendez ? \rep{3}
-\endverse
+  \beginverse
+    Cette maison est en vente comme vous le savez,
+    Je suis, je me présente, agent immobilier.
+    Je dois vous prévenir si vous voulez l'acheter,
+    Je préfère vous le dire cette maison est hantée.
+    Ne souriez pas Monsieur, n'ayez crainte Madame,
+    C'est hanté, c'est vrai, mais de gentils fantômes,
+    De monstres et de dragons 
+    Que les gamins savent voir,
+    De pleurs et de bagarres,
+    Et de copieux quatre-heures, 
+    ``Finis tes devoirs'', 
+    ``Il est trop lourd mon cartable'', 
+    ``Laisse tranquille ton frère'',
+    ``Les enfants : à table !''.
+    Écoutez la musique, est-ce que vous l'entendez ? \rep{3}
+  \endverse
 \endsong

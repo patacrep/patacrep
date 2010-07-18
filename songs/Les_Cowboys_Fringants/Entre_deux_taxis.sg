@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Entre deux taxis}[by=Les Cowboys Fringants,cov=l-expedition]
+\beginsong{Entre deux taxis}
+  [by=Les Cowboys Fringants,cov=l-expedition]
 
   \cover
   \gtab{Mim}{022000}
@@ -8,7 +9,7 @@
   \gtab{Sol}{320003}
   \gtab{Si7}{X21202}
 
-\lilypond{Entre_deux_taxis}
+  \lilypond{Entre_deux_taxis}
 
   \beginverse
     \[Mim]Ils se sont embrassés tard \[Sim]dans la nuit

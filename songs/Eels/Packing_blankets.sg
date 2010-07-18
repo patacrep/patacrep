@@ -1,41 +1,42 @@
 \songcolumns{2}
-\beginsong{Packing blankets}[by=Eels,cov=daisies-of-the-galaxy]
+\beginsong{Packing blankets}
+  [by=Eels,cov=daisies-of-the-galaxy]
 
-\capo{3}
-\cover
-\gtab{Ré}{XX0232}
-\gtab{Sol}{320003}
-\gtab{La}{X02220}
-\gtab{Fa#m}{2:022000}
-\gtab{Sim}{2:X02210}
-\gtab{Mim}{022000}
+  \capo{3}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{La}{X02220}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Sim}{2:X02210}
+  \gtab{Mim}{022000}
 
-\beginverse
-To\[Ré]day is a \[Sol]lovely day to run \[Ré Sol]
-\[Ré]Start up the \[Sol]car with the \[La]sun
-\endverse
+  \beginverse
+    To\[Ré]day is a \[Sol]lovely day to run \[Ré Sol]
+    \[Ré]Start up the \[Sol]car with the \[La]sun
+  \endverse
 
-\beginchorus
-\[Sol]Packing blankets and \[Fa#m]dirty sheets
-A \[Sol]roomful of dust and a \[Fa#m]broom to sweep up
-\[Sol]All the troubles \[Sim]you and I have \[La]seen
-\endchorus
+  \beginchorus
+    \[Sol]Packing blankets and \[Fa#m]dirty sheets
+    A \[Sol]roomful of dust and a \[Fa#m]broom to sweep up
+    \[Sol]All the troubles \[Sim]you and I have \[La]seen
+  \endchorus
 
-\beginverse
-Cross when the drawbridge light is green
-Don't look back to that messed-up scene
-\endverse
+  \beginverse
+    Cross when the drawbridge light is green
+    Don't look back to that messed-up scene
+  \endverse
 
-\beginverse
-\[Sol]And all our troubles will be \[Ré]gone
-\[Sol]Blowing out over the \[Ré]bridge
-\[Fa#m]Floating up into the \[Sol]sky
-\[Mim]Making the storm clouds \[La]cry
-\endverse
+  \beginverse
+    \[Sol]And all our troubles will be \[Ré]gone
+    \[Sol]Blowing out over the \[Ré]bridge
+    \[Fa#m]Floating up into the \[Sol]sky
+    \[Mim]Making the storm clouds \[La]cry
+  \endverse
 
-\beginverse
-Put out that smoke and breath some air
-Get a new name and cut your hair
-\endverse
+  \beginverse
+    Put out that smoke and breath some air
+    Get a new name and cut your hair
+  \endverse
 
 \endsong

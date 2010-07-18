@@ -1,15 +1,15 @@
 \songcolumns{2}
+\beginsong{Wherever you will go}
+  [by=The Calling,cov=camino-palmero]
 
-\beginsong{Wherever you will go}[by=The Calling,cov=camino-palmero]
+  \capo{2}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Do/Si}{X20010}
+  \gtab{Lam7}{X02010}
+  \gtab{Fa}{1:022100}
 
-\capo{2}
-\cover
-\gtab{Do}{X32010}
-\gtab{Do/Si}{X20010}
-\gtab{Lam7}{X02010}
-\gtab{Fa}{1:022100}
-
-\begin{tab}
+  \begin{tab}
   \single 5 3
   \single 4 2
   \single 3 0
@@ -46,62 +46,61 @@
   \single 6 1
   \single 2 1
   \bar
-\end{tab}
+  \end{tab}
 
-\musicnote{intro : Do Do/Si Lam7 Fa}
+  \musicnote{intro : Do Do/Si Lam7 Fa}
 
-\beginverse
-\[Do]So lately \[Do/Si]You're wondering
-\[Lam7]Who will be \[Fa]there to take my place
-When I'm gone you'll need love
-To light the shadows on your face
-If a grate wave shall fall
-And fall upon us all
-Then between sand and
-Stone could you make it on your own?
-\endverse
+  \beginverse
+    \[Do]So lately \[Do/Si]You're wondering
+    \[Lam7]Who will be \[Fa]there to take my place
+    When I'm gone you'll need love
+    To light the shadows on your face
+    If a grate wave shall fall
+    And fall upon us all
+    Then between sand and
+    Stone could you make it on your own?
+  \endverse
 
-\beginchorus
-If I could then I would,
-I'll go wherever you will go.
-Way up high or down low,
-I'll go wherever you will go.
-\endchorus
+  \beginchorus
+    If I could then I would,
+    I'll go wherever you will go.
+    Way up high or down low,
+    I'll go wherever you will go.
+  \endchorus
 
-\beginverse
-And maybe I'll find out
-A way to make it back someday
-To want you to guide you
-Through the darkest of your days
-If a great wave shall fall
-And fall upon us all
-Then I hope there's someone
-Out there who can bring me back to you
-\endverse
+  \beginverse
+    And maybe I'll find out
+    A way to make it back someday
+    To want you to guide you
+    Through the darkest of your days
+    If a great wave shall fall
+    And fall upon us all
+    Then I hope there's someone
+    Out there who can bring me back to you
+  \endverse
 
-\musicnote{chorus}
+  \musicnote{chorus}
 
-\beginverse*
-\[Fa]Run away with my \[Do/Si]heart
-\[Mim]Run away with my \[Lam7]hope
-\[Fa]Run away with my \[Do/Si]love
-\endverse
+  \beginverse*
+    \[Fa]Run away with my \[Do/Si]heart
+    \[Mim]Run away with my \[Lam7]hope
+    \[Fa]Run away with my \[Do/Si]love
+  \endverse
 
-\beginverse
-I know now just quite how
-My life and love might still go on
-In your heart in your mind
-I'll stay with you for all of time
-\endverse
+  \beginverse
+    I know now just quite how
+    My life and love might still go on
+    In your heart in your mind
+    I'll stay with you for all of time
+  \endverse
 
-\musicnote{chorus}
+  \musicnote{chorus}
 
-\beginchorus
-If I could turn back time,
-I'll go wherever you will go.
-If I could make you mine,
-I'll go wherever you will go \rep{2}
-\endchorus
-
+  \beginchorus
+    If I could turn back time,
+    I'll go wherever you will go.
+    If I could make you mine,
+    I'll go wherever you will go \rep{2}
+  \endchorus
 
 \endsong

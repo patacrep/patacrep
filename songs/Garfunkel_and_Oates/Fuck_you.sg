@@ -1,15 +1,15 @@
 \songcolumns{2}
+\beginsong{F*** you}
+  [by=Garfunkel and Oates,cov=garfunkel-and-oates]
 
-\beginsong{F*** you}[by=Garfunkel and Oates,cov=garfunkel-and-oates]
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Mim}{022000}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Mi7}{020100}
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Mim}{022000}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
-\gtab{Mi7}{020100}
-
-\begin{tab}
+  \begin{tab}
   \single 1 8
   \single 2 8
   \single 3 9
@@ -34,37 +34,37 @@
   \single 1 7
   \single 2 8
   \bar
-\end{tab}
+  \end{tab}
 
-\beginverse
-\[Do]I've \[Mim]got too many q\[Fa]uestions in my m\[Sol]ind
-\[Do]I've \[Mim]got too many a\[Fa]nswers to f\[Sol]ind
-\[Do]Can \[Mim]I give up \[Fa]all I've i\[Sol]magined
-\[Do]Am \[Mim]I \[Fa]imagical enough for this \[Sol]to happen
-\endverse
+  \beginverse
+    \[Do]I've \[Mim]got too many q\[Fa]uestions in my m\[Sol]ind
+    \[Do]I've \[Mim]got too many a\[Fa]nswers to f\[Sol]ind
+    \[Do]Can \[Mim]I give up \[Fa]all I've i\[Sol]magined
+    \[Do]Am \[Mim]I \[Fa]imagical enough for this \[Sol]to happen
+  \endverse
 
-\beginchorus
-Because \[Do]I like you, \echo{I like you}, \[Mim]I like you, \echo{I like \[Fa]yoooouuuu} \[Sol]
-And \[Do]like can lead to \[Sol]like like
-And \[Do]like like can lead to \[Mi7]looooove
-As sure \[Do]as the stars above
-\[Mim]I'd really like to \[Fa]kiss you, \echo{fuck you}, oh \[Sol]
-\endchorus
+  \beginchorus
+    Because \[Do]I like you, \echo{I like you}, \[Mim]I like you, \echo{I like \[Fa]yoooouuuu} \[Sol]
+    And \[Do]like can lead to \[Sol]like like
+    And \[Do]like like can lead to \[Mi7]looooove
+    As sure \[Do]as the stars above
+    \[Mim]I'd really like to \[Fa]kiss you, \echo{fuck you}, oh \[Sol]
+  \endchorus
 
-\beginverse
-Can I be the man you're looking for
-Can I really throw you out of my door
-I'll try real hard not to lose her
-I'll try to be less of a loser
-\endverse
+  \beginverse
+    Can I be the man you're looking for
+    Can I really throw you out of my door
+    I'll try real hard not to lose her
+    I'll try to be less of a loser
+  \endverse
 
-\beginchorus
-Because I like you, \echo{I like you}, I like you, \echo{I like yoooouuuu}
-And like can lead to like like
-And like like can lead to looooove
-As sure as the stars above
-\[Mim]I'd really like to \[Fa]kiss you, kiss you, \[Sol]kiss you, kiss you,
-\[Do]fuck yoooouuuu.
-\endchorus
+  \beginchorus
+    Because I like you, \echo{I like you}, I like you, \echo{I like yoooouuuu}
+    And like can lead to like like
+    And like like can lead to looooove
+    As sure as the stars above
+    \[Mim]I'd really like to \[Fa]kiss you, kiss you, \[Sol]kiss you, kiss you,
+    \[Do]fuck yoooouuuu.
+  \endchorus
 
 \endsong

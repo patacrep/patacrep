@@ -1,49 +1,50 @@
 \songcolumns{2}
-\beginsong{Dis \`a ton fils}[by=Maurice Dulac]
+\beginsong{Dis à ton fils}
+  [by=Maurice Dulac]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Mi}{022100}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Mi}{022100}
+  \gtab{Do}{X32010}
 
 
-\beginverse
-Dis à ton \[Lam]fils qu'il doit rentrer
-La nuit \[Sol]va bien\[Mi]tôt tom\[Lam]ber
-Laisse-le jouer près de l'eau
-Le \[Sol]maïs est \[Mi]encore \[Lam]chaud
-Mais de\[Do]main, il va \[Sol]falloir \[Mi]se le\[Lam]ver
-Je sais \[Do]bien, il faut \[Sol]planter \[Mi]le ca\[Lam]fé
-\endverse
+  \beginverse
+    Dis à ton \[Lam]fils qu'il doit rentrer
+    La nuit \[Sol]va bien\[Mi]tôt tom\[Lam]ber
+    Laisse-le jouer près de l'eau
+    Le \[Sol]maïs est \[Mi]encore \[Lam]chaud
+    Mais de\[Do]main, il va \[Sol]falloir \[Mi]se le\[Lam]ver
+    Je sais \[Do]bien, il faut \[Sol]planter \[Mi]le ca\[Lam]fé
+  \endverse
 
-\beginverse
-Dis à ton fils qu'il doit rentrer
-Je voudrais bien lui parler
-Je crois qu'il n'est pas encore temps
-Ce n'est jamais qu'un enfant
-Mais demain, il faudra bien qu'il apprenne
-Son chemin, est fait de sang et de peine
-\endverse
+  \beginverse
+    Dis à ton fils qu'il doit rentrer
+    Je voudrais bien lui parler
+    Je crois qu'il n'est pas encore temps
+    Ce n'est jamais qu'un enfant
+    Mais demain, il faudra bien qu'il apprenne
+    Son chemin, est fait de sang et de peine
+  \endverse
 
-\beginverse
-Dis à ton fils qu'il doit rentrer
-Le mulet est déjà prêt
-Il a un fusil sur le dos
-Et l‘attends près du ruisseau
-Dès demain, nous serons dans la montagne
-Je sais bien, et que Dieu vous accompagne
-\endverse
+  \beginverse
+    Dis à ton fils qu'il doit rentrer
+    Le mulet est déjà prêt
+    Il a un fusil sur le dos
+    Et l‘attends près du ruisseau
+    Dès demain, nous serons dans la montagne
+    Je sais bien, et que Dieu vous accompagne
+  \endverse
 
-\beginverse
-Tu vois ton fils n'est pas rentré,
-Les soldats nous l'ont tué
-Je sais qu'il n'est pas mort en vain
-Nous serons libres demain
-Mais demain, il va falloir se lever
-Je sais bien, il faut planter le café
-\endverse
+  \beginverse
+    Tu vois ton fils n'est pas rentré,
+    Les soldats nous l'ont tué
+    Je sais qu'il n'est pas mort en vain
+    Nous serons libres demain
+    Mais demain, il va falloir se lever
+    Je sais bien, il faut planter le café
+  \endverse
 
 
 \endsong

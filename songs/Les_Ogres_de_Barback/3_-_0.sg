@@ -1,171 +1,172 @@
 \songcolumns{2}
-\beginsong{``3 - 0''}[by=Les Ogres de Barback,cov=terrain-vague]
+\beginsong{``3 - 0''}
+  [by=Les Ogres de Barback,cov=terrain-vague]
 
 
-\cover
-\gtab{Do}{3:X02220}
-\gtab{Rém}{5:X02210}
-\gtab{Sol7}{3:020100}
-\gtab{Lam}{5:022000}
+  \cover
+  \gtab{Do}{3:X02220}
+  \gtab{Rém}{5:X02210}
+  \gtab{Sol7}{3:020100}
+  \gtab{Lam}{5:022000}
 
 
-\beginverse
-Y'a Pa\[Do]ris, la capi\[Rém]tale,
-Qui re\[Sol7]nifle son trou de \[Do]balle,
-Intra-\[Lam]muros c'est bril\[Rém]lant,
-Dehors c'est \[Sol7]pour les pay\[Do]sans.
-D'ailleurs s'\[Do]il n'en restait qu'\[Rém]une,
-Ce serait \[Sol7]sûr'ment celle-\[Do]là 
-Qu'une au\[Lam]ssi con que la \[Rém]lune
-Et préten\[Sol7]tieuse, comme il se \[Do]doit.
-\endverse
+  \beginverse
+    Y'a Pa\[Do]ris, la capi\[Rém]tale,
+    Qui re\[Sol7]nifle son trou de \[Do]balle,
+    Intra-\[Lam]muros c'est bril\[Rém]lant,
+    Dehors c'est \[Sol7]pour les pay\[Do]sans.
+    D'ailleurs s'\[Do]il n'en restait qu'\[Rém]une,
+    Ce serait \[Sol7]sûr'ment celle-\[Do]là 
+    Qu'une au\[Lam]ssi con que la \[Rém]lune
+    Et préten\[Sol7]tieuse, comme il se \[Do]doit.
+  \endverse
 
-\beginchorus
-Mais Pa\[Sol7]ris, ça reste en Fr\[Do]ance,
-Les Fran\[Sol7]çais restent des Fran\[Do]çais,
-Les che\[Rém]villes en évi\[Sol7]dence,
-Le nomb\[Sol7]ril insatis\[Do]fait!
-\endchorus
+  \beginchorus
+    Mais Pa\[Sol7]ris, ça reste en Fr\[Do]ance,
+    Les Fran\[Sol7]çais restent des Fran\[Do]çais,
+    Les che\[Rém]villes en évi\[Sol7]dence,
+    Le nomb\[Sol7]ril insatis\[Do]fait!
+  \endchorus
 
-\beginverse
-À Rennes où il fait bon vivre, 
-J'y ai vu - pardonnez-moi,
-Des masses de foules ivres,
-Des seringues plein les bras,
-Un soir, une chose amusante,
-Sur la route, croyez-moi :
-La police qui plaisante
-D'un cadavre sur le toit.
-\endverse
+  \beginverse
+    À Rennes où il fait bon vivre, 
+    J'y ai vu - pardonnez-moi,
+    Des masses de foules ivres,
+    Des seringues plein les bras,
+    Un soir, une chose amusante,
+    Sur la route, croyez-moi :
+    La police qui plaisante
+    D'un cadavre sur le toit.
+  \endverse
 
-\beginchorus
-Mais Rennes, ça reste en France,
-Les Français restent des Français,
-Des reins en convalescence,
-Des poumons dans le regret.
-\endchorus
+  \beginchorus
+    Mais Rennes, ça reste en France,
+    Les Français restent des Français,
+    Des reins en convalescence,
+    Des poumons dans le regret.
+  \endchorus
 
-\beginverse
-Puis y'a Bordeaux la bourgeoise
-Avec son grand cru classé
-Que l'on déguste dans l'extase,
-Dans les grands lieux New-Yorkais
-Qui indique à sa mémoire
-Ce qui est bon, ce qui est mauvais
-Si pour Papon, c'est un trou noir,
-Le Girondin, c'est un succès.
-\endverse
+  \beginverse
+    Puis y'a Bordeaux la bourgeoise
+    Avec son grand cru classé
+    Que l'on déguste dans l'extase,
+    Dans les grands lieux New-Yorkais
+    Qui indique à sa mémoire
+    Ce qui est bon, ce qui est mauvais
+    Si pour Papon, c'est un trou noir,
+    Le Girondin, c'est un succès.
+  \endverse
 
-\beginchorus
-Mais Bordeaux, ça reste en France,
-Les Français restent des Français
-Des trouillards de gauche en transe
-Ou des cons de droite muets.
-\endchorus
+  \beginchorus
+    Mais Bordeaux, ça reste en France,
+    Les Français restent des Français
+    Des trouillards de gauche en transe
+    Ou des cons de droite muets.
+  \endchorus
 
-\beginverse
-À Toulouse, la ville rose,
-Peut-être sont-ils un peu chauvins?
-Quand ils jacassent pas du rose,
-Ils te parlent des Toulousains,
-Ils ont un patois bien sûr,
-Qu'ils utilisent parfois,
-Pour écrire sur les murs
-D'une usine : ``Plus jamais ça''.
-\endverse
+  \beginverse
+    À Toulouse, la ville rose,
+    Peut-être sont-ils un peu chauvins?
+    Quand ils jacassent pas du rose,
+    Ils te parlent des Toulousains,
+    Ils ont un patois bien sûr,
+    Qu'ils utilisent parfois,
+    Pour écrire sur les murs
+    D'une usine : ``Plus jamais ça''.
+  \endverse
 
-\beginchorus
-Mais Toulouse, ça reste en France,
-Les Français restent des Français,
-Des canards qui l'été dansent
-Sur des rythmes afro-laids.
-\endchorus
+  \beginchorus
+    Mais Toulouse, ça reste en France,
+    Les Français restent des Français,
+    Des canards qui l'été dansent
+    Sur des rythmes afro-laids.
+  \endchorus
 
-\beginverse
-Entre le Rhône et la Saône,
-Il y a Lyon et ses reflets.
-En banlieue, il y a sa zone,
-Ses odeurs et ses rejets.
-Sa gastronomie connue,
-Qui veut nous faire oublier
-Pour ne pas être déçus,
-Tous ces scandales financiers.
-\endverse
+  \beginverse
+    Entre le Rhône et la Saône,
+    Il y a Lyon et ses reflets.
+    En banlieue, il y a sa zone,
+    Ses odeurs et ses rejets.
+    Sa gastronomie connue,
+    Qui veut nous faire oublier
+    Pour ne pas être déçus,
+    Tous ces scandales financiers.
+  \endverse
 
-\beginchorus
-Mais Lyon, ça reste en France,
-Les Français restent des Français.
-Des bonnes bouffes en concurrence,
-Des non-dits sur le palais.
-\endchorus
+  \beginchorus
+    Mais Lyon, ça reste en France,
+    Les Français restent des Français.
+    Des bonnes bouffes en concurrence,
+    Des non-dits sur le palais.
+  \endchorus
 
-\beginverse
-Lorsque j'ai connu Strasbourg
-Pour la toute première fois
-Je pensais trouver l'amour
-Dans les rues de celle-là
-Mais il y eut soudain un doute
-Dans cette ville un peu cruche
-Où l'on me parlait de choucroute,
-D'Europe et de flamenkuche.
-\endverse
+  \beginverse
+    Lorsque j'ai connu Strasbourg
+    Pour la toute première fois
+    Je pensais trouver l'amour
+    Dans les rues de celle-là
+    Mais il y eut soudain un doute
+    Dans cette ville un peu cruche
+    Où l'on me parlait de choucroute,
+    D'Europe et de flamenkuche.
+  \endverse
 
-\beginchorus
-Mais Strasbourg, ça reste en France,
-Les Français restent des Français
-L'égalité en ``free-lance'',
-L'humanité qui s'essaie.
-\endchorus
+  \beginchorus
+    Mais Strasbourg, ça reste en France,
+    Les Français restent des Français
+    L'égalité en ``free-lance'',
+    L'humanité qui s'essaie.
+  \endchorus
 
-\beginverse
-Il y a Lille dans le nord
-Comme il y a le nord en Lille
-Des grands hommes gras et forts
-Ou des consanguins débiles
-Les grands projets planétaires
-Qui dépensent sans se soucier
-À deux pas de la misère
-Des petits enfants minés.
-\endverse
+  \beginverse
+    Il y a Lille dans le nord
+    Comme il y a le nord en Lille
+    Des grands hommes gras et forts
+    Ou des consanguins débiles
+    Les grands projets planétaires
+    Qui dépensent sans se soucier
+    À deux pas de la misère
+    Des petits enfants minés.
+  \endverse
 
-\beginchorus
-Mais Lille, ça reste en France,
-Les Français restent des Français
-Des terrils d'arrogance,
-L'inégalité au sommet.
-\endchorus
+  \beginchorus
+    Mais Lille, ça reste en France,
+    Les Français restent des Français
+    Des terrils d'arrogance,
+    L'inégalité au sommet.
+  \endchorus
 
-\beginverse
-Après cet air géographe,
-Une petite explication
-Je ne cherche pas les baffes,
-Je ne cherche pas la baston
-Mais lorsque je vois au loin
-Qui agitent leurs drapeaux
-La grande race des chauvins,
-Juste à côté des fachos,
-\endverse
+  \beginverse
+    Après cet air géographe,
+    Une petite explication
+    Je ne cherche pas les baffes,
+    Je ne cherche pas la baston
+    Mais lorsque je vois au loin
+    Qui agitent leurs drapeaux
+    La grande race des chauvins,
+    Juste à côté des fachos,
+  \endverse
 
-\beginverse*
-Ben moi qui suis né en France
-Dans un bled incognito
-Je ne comprends pas la démence,
-Je ne vois pas les idéaux
-De ceux qui pensent la naissance,
-Comme une attache, un ghetto
-Pardonnez-moi cette offense
-Et traduisez en ces mots:
-\endverse
+  \beginverse*
+    Ben moi qui suis né en France
+    Dans un bled incognito
+    Je ne comprends pas la démence,
+    Je ne vois pas les idéaux
+    De ceux qui pensent la naissance,
+    Comme une attache, un ghetto
+    Pardonnez-moi cette offense
+    Et traduisez en ces mots:
+  \endverse
 
-\beginverse*
-Issu de la poussière,
-Je m'en retourne à la poussière
-Issu de la planète terre,
-Je m'y promène sans frontières
-Issu de la poussière,
-On s'en retourne à la poussière
-Issu de la planète terre,
-On s'y promène sans frontières!
-\endverse
+  \beginverse*
+    Issu de la poussière,
+    Je m'en retourne à la poussière
+    Issu de la planète terre,
+    Je m'y promène sans frontières
+    Issu de la poussière,
+    On s'en retourne à la poussière
+    Issu de la planète terre,
+    On s'y promène sans frontières!
+  \endverse
 
 \endsong

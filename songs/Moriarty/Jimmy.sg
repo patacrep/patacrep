@@ -1,56 +1,57 @@
 \songcolumns{2}
-\beginsong{Jimmy}[by=Moriarty,cov=gee-whiz-but-this-is-a-lonesome-town]
+\beginsong{Jimmy}
+  [by=Moriarty,cov=gee-whiz-but-this-is-a-lonesome-town]
 
-\capo{1}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Fa}{1:022100}
+  \capo{1}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
 
-\beginverse
-\[Lam]Jimmy won't you \[Do]please come home
-Where the \[Sol]grass is green and the \[Fa]buffaloes roam
-Come see Jimmy your uncle Jim 
-Your auntie Jimmie and your cousin Jim
-Come home Jimmy because you need a bath
-And your grandpa Jimmy is still gone daft
-\endverse
+  \beginverse
+    \[Lam]Jimmy won't you \[Do]please come home
+    Where the \[Sol]grass is green and the \[Fa]buffaloes roam
+    Come see Jimmy your uncle Jim 
+    Your auntie Jimmie and your cousin Jim
+    Come home Jimmy because you need a bath
+    And your grandpa Jimmy is still gone daft
+  \endverse
 
-\beginverse
-Now there's buffalo Jim and buffalo Jim
-And Jim buffalo now didn't you know
-Jim Jim Jimmy it's your last cigarette
-But there's buffalo piss and it's all kind of wet
-Jambo Jimmy you'd better hold your nose
-All roads lead to roam with the buffaloes
-\endverse
+  \beginverse
+    Now there's buffalo Jim and buffalo Jim
+    And Jim buffalo now didn't you know
+    Jim Jim Jimmy it's your last cigarette
+    But there's buffalo piss and it's all kind of wet
+    Jambo Jimmy you'd better hold your nose
+    All roads lead to roam with the buffaloes
+  \endverse
 
-\beginchorus
-And the \[Lam]Buffaloes used to \[Fa]say
-Be \[Sol]proud of your \[Lam]name
-The Buffaloes used to say
-Be what you are
-The Buffaloes used to say
-Roam where you roam
-The Buffaloes used to say
-Do what you do
-\endchorus
+  \beginchorus
+    And the \[Lam]Buffaloes used to \[Fa]say
+    Be \[Sol]proud of your \[Lam]name
+    The Buffaloes used to say
+    Be what you are
+    The Buffaloes used to say
+    Roam where you roam
+    The Buffaloes used to say
+    Do what you do
+  \endchorus
 
-\beginverse
-Well you've gotta have a wash but you can't clean your name
-You're now called Jimmy you'll be Jimmy just the same
-The keys are in a bag in a chest by the door
-One of Jimmy's friends has taken the floor
-Jimmy won't you please come home
-Where the grass is green and the buffaloes roam
-Dear old Jimmy you've forgotten you're young
-But you can't ignore the buffalo song
-\endverse
+  \beginverse
+    Well you've gotta have a wash but you can't clean your name
+    You're now called Jimmy you'll be Jimmy just the same
+    The keys are in a bag in a chest by the door
+    One of Jimmy's friends has taken the floor
+    Jimmy won't you please come home
+    Where the grass is green and the buffaloes roam
+    Dear old Jimmy you've forgotten you're young
+    But you can't ignore the buffalo song
+  \endverse
 
-\beginverse*
-If you remember you're unknown
-Buffaloland will be your home   
-\endverse
+  \beginverse*
+    If you remember you're unknown
+    Buffaloland will be your home   
+  \endverse
 
 \endsong

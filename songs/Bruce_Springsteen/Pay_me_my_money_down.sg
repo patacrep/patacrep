@@ -1,53 +1,54 @@
 \songcolumns{2}
-\beginsong{Pay me my money down}[by=Bruce Springsteen,cov=we-shall-overcome]
+\beginsong{Pay me my money down}
+  [by=Bruce Springsteen,cov=we-shall-overcome]
 
-\cover
-\gtab{Sol}{320003}
-\gtab{Ré}{XX0232}
-\gtab{Si&}{1:X02220}
-\gtab{Fa}{1:022100}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+  \gtab{Si&}{1:X02220}
+  \gtab{Fa}{1:022100}
 
-\beginverse
-\[Sol]Well, I thought I heard the captain say,
-``Pay me my \[Ré]money down.
-Tomorrow is my sailing day,
-Pay me my \[Sol]money down.''
-\endverse
+  \beginverse
+    \[Sol]Well, I thought I heard the captain say,
+    ``Pay me my \[Ré]money down.
+    Tomorrow is my sailing day,
+    Pay me my \[Sol]money down.''
+  \endverse
 
-\beginchorus
-Pay me. Pay me.
-Pay me my \[Ré]money down.
-Pay me or go to jail.
-Pay me my \[Sol]money down.
-\endchorus
+  \beginchorus
+    Pay me. Pay me.
+    Pay me my \[Ré]money down.
+    Pay me or go to jail.
+    Pay me my \[Sol]money down.
+  \endchorus
 
-\beginverse
-Soon as that boat was clear of the bar,
-Pay me my money down,
-He knocked me down with the end of a spar
-Pay me my money down.
-\endverse
+  \beginverse
+    Soon as that boat was clear of the bar,
+    Pay me my money down,
+    He knocked me down with the end of a spar
+    Pay me my money down.
+  \endverse
 
-\beginverse
-Well if I'd been a rich man's son,
-Pay me my money down.
-I'd sit on the river and watch it run,
-Pay me my money down.
-\endverse
+  \beginverse
+    Well if I'd been a rich man's son,
+    Pay me my money down.
+    I'd sit on the river and watch it run,
+    Pay me my money down.
+  \endverse
 
-\beginverse
-\[Si&]Well, I wish I was Mr. Gates,
-Pay me my \[Fa]money down.
-Haul my money in egg crates.
-Pay me my \[Si&]money down.
-\endverse
+  \beginverse
+    \[Si&]Well, I wish I was Mr. Gates,
+    Pay me my \[Fa]money down.
+    Haul my money in egg crates.
+    Pay me my \[Si&]money down.
+  \endverse
 
-\beginverse
-\[Sol]Well, 40 nights, nights at sea,
-Pay me my \[Ré]money down.
-Captain worked every last dollar out of me.
-Pay me my \[Sol]money down.
-\endverse
+  \beginverse
+    \[Sol]Well, 40 nights, nights at sea,
+    Pay me my \[Ré]money down.
+    Captain worked every last dollar out of me.
+    Pay me my \[Sol]money down.
+  \endverse
 
 \endsong
 

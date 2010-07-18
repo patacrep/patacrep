@@ -1,84 +1,84 @@
 \songcolumns{2}
-\beginsong{Po\`emes}[by=Les Hurlements d'L\'eo,cov=la-belle-affaire]
+\beginsong{Poèmes}
+  [by=Les Hurlements d'L\'eo,cov=la-belle-affaire]
 
 
-\cover
-\gtab{Dom}{3:X02210}
-\gtab{Fam}{1:022000}
-\gtab{Sol}{3:022100}
+  \cover
+  \gtab{Dom}{3:X02210}
+  \gtab{Fam}{1:022000}
+  \gtab{Sol}{3:022100}
 
 
-\beginverse
-\[Dom]Elle m'appelle toutes les nuits
-\[Fam]Pour me dire des poèmes
-\[Sol]Même si c'est plutôt dangereux
-\[Dom]Près de ma femme endormie
-\endverse
+  \beginverse
+    \[Dom]Elle m'appelle toutes les nuits
+    \[Fam]Pour me dire des poèmes
+    \[Sol]Même si c'est plutôt dangereux
+    \[Dom]Près de ma femme endormie
+  \endverse
 
-\beginverse*
-Je ne dis jamais ``Allô''
-De peur qu'elle comprenne
-Que depuis six mois la nuit
-Elle fait un faux numéro
-\endverse
+  \beginverse*
+    Je ne dis jamais ``Allô''
+    De peur qu'elle comprenne
+    Que depuis six mois la nuit
+    Elle fait un faux numéro
+  \endverse
 
-\beginverse
-Elle m'appelle toutes les nuits
-Pour me dire des poèmes
-Des histoires de gens qui s'aiment
-Et qui n'sont pas malheureux
-\endverse
+  \beginverse
+    Elle m'appelle toutes les nuits
+    Pour me dire des poèmes
+    Des histoires de gens qui s'aiment
+    Et qui n'sont pas malheureux
+  \endverse
 
-\beginverse*
-Ça me change un peu quand même
-De mes deux mains abruties
-De ma femme pleine de haine
-Et d'ma gueule bien trop aigrie
-\endverse
+  \beginverse*
+    Ça me change un peu quand même
+    De mes deux mains abruties
+    De ma femme pleine de haine
+    Et d'ma gueule bien trop aigrie
+  \endverse
 
-\beginverse
-Au début ça me gênait
-Qu'elle m'appelle d'un autre prénom
-Me parle de mes cheveux blonds
-Moi qui n'en ai plus vraiment
-\endverse
+  \beginverse
+    Au début ça me gênait
+    Qu'elle m'appelle d'un autre prénom
+    Me parle de mes cheveux blonds
+    Moi qui n'en ai plus vraiment
+  \endverse
 
-\beginverse*
-Elle me parle d'amours sincères
-Et de douces sensations
-Alors quand viens le matin
-J'ai oublié mon prénom
-\endverse
+  \beginverse*
+    Elle me parle d'amours sincères
+    Et de douces sensations
+    Alors quand viens le matin
+    J'ai oublié mon prénom
+  \endverse
 
-\beginverse
-Je l'appelle toutes les nuits
-Pour lui dire des poèmes
-Toute seule, devant ce tableau
-Mon reflet, est maquillé \echo{est maquillé en fleur fanée}
-\endverse
+  \beginverse
+    Je l'appelle toutes les nuits
+    Pour lui dire des poèmes
+    Toute seule, devant ce tableau
+    Mon reflet, est maquillé \echo{est maquillé en fleur fanée}
+  \endverse
 
-\beginverse*
-Dans sa glace et le silence
-Ma feuille tremble et mon cœur danse
-Les haut-parleurs m'aident à me taire
-Un bon vin pour mes p'tits verres
-C'est vrai, j'ai l'art et la manière
-Je souffle mes verres, paf, à l'envers
-\endverse
+  \beginverse*
+    Dans sa glace et le silence
+    Ma feuille tremble et mon cœur danse
+    Les haut-parleurs m'aident à me taire
+    Un bon vin pour mes p'tits verres
+    C'est vrai, j'ai l'art et la manière
+    Je souffle mes verres, paf, à l'envers
+  \endverse
 
-\beginverse
-À l'envers ou à l'endroit,
-Où mon univers est étroit
-Encore un verre
-\endverse
+  \beginverse
+    À l'envers ou à l'endroit,
+    Où mon univers est étroit
+    Encore un verre
+  \endverse
 
-\beginverse*
-À l'envers ou à l'endroit,
-Recto-verso vice et versa
-Encore un verre
-Et je me noie
-J'suis dans de beaux draps mais ils sont froids.
-\endverse
-
+  \beginverse*
+    À l'envers ou à l'endroit,
+    Recto-verso vice et versa
+    Encore un verre
+    Et je me noie
+    J'suis dans de beaux draps mais ils sont froids.
+  \endverse
 
 \endsong

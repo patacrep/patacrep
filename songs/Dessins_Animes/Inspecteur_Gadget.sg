@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Inspecteur Gadget}[by=Dessins Animés,cov=inspecteur-gadget]
+\beginsong{Inspecteur Gadget}
+  [by=Dessins Animés,cov=inspecteur-gadget]
   
   \cover
   \gtab{Lam}{X02210}

@@ -1,39 +1,40 @@
 \songcolumns{2}
-\beginsong{Keep on the sunny side}[by=Carter Family,cov=o-brother]
+\beginsong{Keep on the sunny side}
+  [by=Carter Family,cov=o-brother]
 
-\cover
-\gtab{Si&}{6:022100}
-\gtab{Mi&}{6:X02220}
-\gtab{Fa}{1:022100}
+  \cover
+  \gtab{Si&}{6:022100}
+  \gtab{Mi&}{6:X02220}
+  \gtab{Fa}{1:022100}
 
-\lilypond{Keep_on_the_sunny_side}
+  \lilypond{Keep_on_the_sunny_side}
 
-\beginverse
-There's a \[Si&]dark and a \[Mi&]troubled side of \[Si&]life
-But there's a \[Si&]bright and a sunny side \[Fa]too
-Though you \[Fa]meet with the darkness and \[Si&]strife
-The \[Fa]sunny side you also may \[Si&]view
-\endverse
+  \beginverse
+    There's a \[Si&]dark and a \[Mi&]troubled side of \[Si&]life
+    But there's a \[Si&]bright and a sunny side \[Fa]too
+    Though you \[Fa]meet with the darkness and \[Si&]strife
+    The \[Fa]sunny side you also may \[Si&]view
+  \endverse
 
-\beginchorus
-\[Si&]Keep on the sunny side, \[Mi&]always on the \[Si&]sunny side
-\[Si&]Keep on the sunny side of \[Fa]life
-It will \[Si&]help us every day, it will \[Mi&]brighten all the \[Si&]way
-If we'll \[Si&]keep \[Mi&]{on the} \[Si&]sunny \[Fa]side of \[Si&]life
-\endchorus
+  \beginchorus
+    \[Si&]Keep on the sunny side, \[Mi&]always on the \[Si&]sunny side
+    \[Si&]Keep on the sunny side of \[Fa]life
+    It will \[Si&]help us every day, it will \[Mi&]brighten all the \[Si&]way
+    If we'll \[Si&]keep \[Mi&]{on the} \[Si&]sunny \[Fa]side of \[Si&]life
+  \endchorus
 
-\beginverse
-Though the storm and its furies rage today
-Crushing hope that we cherish so dear
-The cloud and storm will in time pass away
-And the sun again will shine bright and clear
-\endverse
+  \beginverse
+    Though the storm and its furies rage today
+    Crushing hope that we cherish so dear
+    The cloud and storm will in time pass away
+    And the sun again will shine bright and clear
+  \endverse
 
-\beginverse
-Let us greet with a song of hope each day
-Though the moment be cloudy or fair
-And let us trust in our Saviour always
-He'll keep us everyone in His care
-\endverse
+  \beginverse
+    Let us greet with a song of hope each day
+    Though the moment be cloudy or fair
+    And let us trust in our Saviour always
+    He'll keep us everyone in His care
+  \endverse
 
 \endsong

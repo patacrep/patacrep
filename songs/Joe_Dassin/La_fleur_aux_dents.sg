@@ -1,45 +1,46 @@
 \songcolumns{2}
-\beginsong{La fleur aux dents}[by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
+\beginsong{La fleur aux dents}
+  [by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
 
-\beginverse
-\[Do]{J'ai} \[Sol]dépensé ma jeunesse comme une \[Lam]poignée de monnaie
-J'ai \[Fa]fait un peu de tout, un peu par\[Sol]tout, sans savoir rien faire
-\[Do]La fleur aux dents, c'était \[Lam]tout ce que j'avais
-Mais je \[Sol]savais bien que toutes les femmes du monde m'attendaient
-\endverse
+  \beginverse
+    \[Do]{J'ai} \[Sol]dépensé ma jeunesse comme une \[Lam]poignée de monnaie
+    J'ai \[Fa]fait un peu de tout, un peu par\[Sol]tout, sans savoir rien faire
+    \[Do]La fleur aux dents, c'était \[Lam]tout ce que j'avais
+    Mais je \[Sol]savais bien que toutes les femmes du monde m'attendaient
+  \endverse
 
-\beginchorus
-Il y a \[Do]les filles dont on \[Fa]rêve
-Et celles \[Sol]avec qui l'on \[Lam]dort
-Il y a \[Fa]les filles qu'on re\[Sol]grette
-Et celles qui \[Do]laissent des \[Sol]remords
-\endchorus
+  \beginchorus
+    Il y a \[Do]les filles dont on \[Fa]rêve
+    Et celles \[Sol]avec qui l'on \[Lam]dort
+    Il y a \[Fa]les filles qu'on re\[Sol]grette
+    Et celles qui \[Do]laissent des \[Sol]remords
+  \endchorus
 
-\beginchorus
-Il y a \[Do]les filles que l'on \[Fa]aime
-Et celles qu'on \[Sol]aurait pu ai\[Lam]mer
-Puis un \[Fa]jour il y a la \[Sol]femme
-Qu'on atten\[Do]dait
-\endchorus
+  \beginchorus
+    Il y a \[Do]les filles que l'on \[Fa]aime
+    Et celles qu'on \[Sol]aurait pu ai\[Lam]mer
+    Puis un \[Fa]jour il y a la \[Sol]femme
+    Qu'on atten\[Do]dait
+  \endchorus
 
-\beginverse
-J'ai connu des lits de camp bien plus doux qu'un oreiller
-Et des festins de roi sur le zinc d'un buffet de gare
-J'ai connu bien des gens, je les ai tous bien aimés
-Mais dans leur visages au fond, je n'ai rien fait que te chercher
-\endverse
+  \beginverse
+    J'ai connu des lits de camp bien plus doux qu'un oreiller
+    Et des festins de roi sur le zinc d'un buffet de gare
+    J'ai connu bien des gens, je les ai tous bien aimés
+    Mais dans leur visages au fond, je n'ai rien fait que te chercher
+  \endverse
 
-\beginverse
-Un jour ici, l'autre là, un jour riche et l'autre pas
-J'avais faim de tout voir, de tout savoir, j'avais tellement à faire
-À me tromper de chemin tant de fois
-J'ai quand même fini par trouver celui qui mène à toi
-\endverse
+  \beginverse
+    Un jour ici, l'autre là, un jour riche et l'autre pas
+    J'avais faim de tout voir, de tout savoir, j'avais tellement à faire
+    À me tromper de chemin tant de fois
+    J'ai quand même fini par trouver celui qui mène à toi
+  \endverse
 
 \endsong

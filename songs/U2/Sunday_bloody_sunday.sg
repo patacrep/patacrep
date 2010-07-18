@@ -1,50 +1,51 @@
 \songcolumns{2}
-\beginsong{Sunday Bloody Sunday}[by=U2,cov=war]
+\beginsong{Sunday Bloody Sunday}
+  [by=U2,cov=war]
 
-\cover
-\gtab{Sim}{2:X02210}
-\gtab{Ré}{XX0232}
-\gtab{Sol}{320003}
-\gtab{Mim}{022000}
+  \cover
+  \gtab{Sim}{2:X02210}
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
 
-\beginverse*
-\[Sim]{I can't} be\[Ré]lieve the news to\[Sol]day
-\[Sim]Oh, I can't \[Ré]close my eyes and \[Sol]make it go away
-\[Ré]How long,
-\[Mim]How long must we sing this song ?
-\[Ré]How long ? How \[Mim]long \dots
-\endverse
+  \beginverse*
+    \[Sim]{I can't} be\[Ré]lieve the news to\[Sol]day
+    \[Sim]Oh, I can't \[Ré]close my eyes and \[Sol]make it go away
+    \[Ré]How long,
+    \[Mim]How long must we sing this song ?
+    \[Ré]How long ? How \[Mim]long \dots
+  \endverse
 
-\beginverse*
-\[Sim]'Cause tonight,\[Ré] \[Sol]we can be as one, tonight.
-\endverse
+  \beginverse*
+    \[Sim]'Cause tonight,\[Ré] \[Sol]we can be as one, tonight.
+  \endverse
 
-\beginverse
-\[Sim]Broken \[Ré]bottles under \[Sol]children's feet
-\[Sim]Bodies \[Ré]strewn across the \[Sol]dead-end streets
-\[Sim]But I won't \[Ré]heed the battle \[Sol]call
-\[Sim]It puts my \[Ré]back up, puts my \[Sol]back up against the wall
-\endverse
+  \beginverse
+    \[Sim]Broken \[Ré]bottles under \[Sol]children's feet
+    \[Sim]Bodies \[Ré]strewn across the \[Sol]dead-end streets
+    \[Sim]But I won't \[Ré]heed the battle \[Sol]call
+    \[Sim]It puts my \[Ré]back up, puts my \[Sol]back up against the wall
+  \endverse
 
-\beginchorus
-Sunday, bloody Sunday
-Sunday, bloody Sunday
-\endchorus
+  \beginchorus
+    Sunday, bloody Sunday
+    Sunday, bloody Sunday
+  \endchorus
 
-\beginverse
-And the battle's just begun
-There's many lost but tell me who has won
-The trench is dug within our hearts
-And mothers, children, brothers, sisters torn apart.
-\endverse
+  \beginverse
+    And the battle's just begun
+    There's many lost but tell me who has won
+    The trench is dug within our hearts
+    And mothers, children, brothers, sisters torn apart.
+  \endverse
 
-\beginverse
-And it's true we are immune
-When fact is fiction and TV is reality
-And today the millions cry
-We eat and drink while tomorrow they die
-The real battle just begun
-To claim the victory Jesus won on
-\endverse
+  \beginverse
+    And it's true we are immune
+    When fact is fiction and TV is reality
+    And today the millions cry
+    We eat and drink while tomorrow they die
+    The real battle just begun
+    To claim the victory Jesus won on
+  \endverse
 
 \endsong

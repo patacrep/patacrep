@@ -1,69 +1,70 @@
 \songcolumns{2}
-\beginsong{Armstrong}[by=Claude Nougaro,cov=toulouse]
+\beginsong{Armstrong}
+  [by=Claude Nougaro,cov=toulouse]
 
-\capo{3}
-\cover
-\gtab{Mim}{022000}
-\gtab{Si7}{X21202}
-\gtab{Lam}{X02210}
-\gtab{Do7}{X3234X}
+  \capo{3}
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Si7}{X21202}
+  \gtab{Lam}{X02210}
+  \gtab{Do7}{X3234X}
 
-\beginverse
-\[Mim]Armstrong, \[Si7]je ne \[Mim]suis pas \[Lam]noir,
-\[Mim]Je suis \[Si7]blanc de \[Mim]peau.
-\[Mim]Quand on \[Si7]veut chan\[Mim]ter l'es\[Lam]poir,
-\[Mim]Quel man\[Si7]que de \[Mim]pot.
-\endverse
+  \beginverse
+    \[Mim]Armstrong, \[Si7]je ne \[Mim]suis pas \[Lam]noir,
+    \[Mim]Je suis \[Si7]blanc de \[Mim]peau.
+    \[Mim]Quand on \[Si7]veut chan\[Mim]ter l'es\[Lam]poir,
+    \[Mim]Quel man\[Si7]que de \[Mim]pot.
+  \endverse
 
-\beginverse*
-Oui, j'ai beau voir \[Mim]le ciel, l'\[Lam]oiseau,
-\[Mim]Rien, \[Si7]rien, \[Mim]rien ne \[Do7]luit là-haut
-\[Mim]Les anges: \[Lam]zéro
-\[Mim]Je suis \[Si7]blanc de \[Mim]peau.
-\endverse
+  \beginverse*
+    Oui, j'ai beau voir \[Mim]le ciel, l'\[Lam]oiseau,
+    \[Mim]Rien, \[Si7]rien, \[Mim]rien ne \[Do7]luit là-haut
+    \[Mim]Les anges: \[Lam]zéro
+    \[Mim]Je suis \[Si7]blanc de \[Mim]peau.
+  \endverse
 
-\beginverse
-Armstrong, tu te fends la poire
-On voit toutes tes dents
-Moi, je broie plutôt du noir
-Du noir en dedans
-\endverse
+  \beginverse
+    Armstrong, tu te fends la poire
+    On voit toutes tes dents
+    Moi, je broie plutôt du noir
+    Du noir en dedans
+  \endverse
 
-\beginverse*
-Chante pour moi, Louis, oh oui
-Chante, chante, chante ça tient chaud
-J'ai froid, oh moi
-Qui suis blanc de peau.
-\endverse
+  \beginverse*
+    Chante pour moi, Louis, oh oui
+    Chante, chante, chante ça tient chaud
+    J'ai froid, oh moi
+    Qui suis blanc de peau.
+  \endverse
 
-\beginverse
-Armstrong, la vie, quelle histoire
-C'est pas très marrant.
-Qu'on l'écrive blanc sur noir
-Ou bien noir sur blanc,
-\endverse
+  \beginverse
+    Armstrong, la vie, quelle histoire
+    C'est pas très marrant.
+    Qu'on l'écrive blanc sur noir
+    Ou bien noir sur blanc,
+  \endverse
 
-\beginverse*
-On voit surtout du rouge, du rouge
-Sang, sang, sans trêve ni repos
-Qu'on soit, ma foi,
-Noir ou blanc de peau.
-\endverse
+  \beginverse*
+    On voit surtout du rouge, du rouge
+    Sang, sang, sans trêve ni repos
+    Qu'on soit, ma foi,
+    Noir ou blanc de peau.
+  \endverse
 
-\beginverse
-Armstrong, un jour, tôt ou tard,
-On n'est que des os
-Est-ce que les tiens seront noirs ?
-Ce serait rigolo
-\endverse
+  \beginverse
+    Armstrong, un jour, tôt ou tard,
+    On n'est que des os
+    Est-ce que les tiens seront noirs ?
+    Ce serait rigolo
+  \endverse
 
-\beginverse*
-Allez, Louis, Alléluia !
-Au-delà de nos oripeaux
-Noir et blanc
-Sont ressemblants
-Comme deux gouttes d'eau
-Yeah
-\endverse
+  \beginverse*
+    Allez, Louis, Alléluia !
+    Au-delà de nos oripeaux
+    Noir et blanc
+    Sont ressemblants
+    Comme deux gouttes d'eau
+    Yeah
+  \endverse
 
 \endsong      

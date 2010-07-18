@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{En l'an 2001}[by=Pierre Bachelet,cov=en-l-an-2001]
+\beginsong{En l'an 2001}
+  [by=Pierre Bachelet,cov=en-l-an-2001]
 
   \cover
   \gtab{Do}{X32010}

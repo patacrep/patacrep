@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Les lacs du Connemara}[by=Michel Sardou, cov=les-grandes-chansons]
+\beginsong{Les lacs du Connemara}
+  [by=Michel Sardou, cov=les-grandes-chansons]
 
   \cover
   \gtab{Fa}{1:022100}

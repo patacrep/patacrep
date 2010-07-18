@@ -1,128 +1,129 @@
 \songcolumns{3}
-\beginsong{Julie, la petite olive}[by=Les Wriggles,cov=ah-ben-ouais-mais-bon]
+\beginsong{Julie, la petite olive}
+  [by=Les Wriggles,cov=ah-ben-ouais-mais-bon]
 
-\cover
-\gtab{La}{X02220}
-\gtab{Sim}{2:X02210}
-\gtab{Mi}{022100}
-\gtab{Fa#}{2:022100}
-\gtab{Ré}{XX0232}
-\gtab{Sol#}{4:022100}
-\gtab{Do#m}{4:X02210}
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Sim}{2:X02210}
+  \gtab{Mi}{022100}
+  \gtab{Fa#}{2:022100}
+  \gtab{Ré}{XX0232}
+  \gtab{Sol#}{4:022100}
+  \gtab{Do#m}{4:X02210}
 
-\beginverse
-Ju\[La]lie la p'tite olive
-Rê\[Sim]vait de voyager
-Mais elle \[Mi]était captive
-D'un ra\[La]meau d'olivier.
+  \beginverse
+    Ju\[La]lie la p'tite olive
+    Rê\[Sim]vait de voyager
+    Mais elle \[Mi]était captive
+    D'un ra\[La]meau d'olivier.
 
-Elle t\[La]annait ses copines
-À lon\[Sim]gueur de journée
-Avec \[Mi]les Philippines
-Et St-\[La]Germain des Prés.
-\endverse
+    Elle t\[La]annait ses copines
+    À lon\[Sim]gueur de journée
+    Avec \[Mi]les Philippines
+    Et St-\[La]Germain des Prés.
+  \endverse
 
-\beginchorus
-C'est bon Julie,
-Arrête de nous les briser.
-Tu sais bien que notre vie
-Finira dans un panier !
+  \beginchorus
+    C'est bon Julie,
+    Arrête de nous les briser.
+    Tu sais bien que notre vie
+    Finira dans un panier !
 
-On est né pour faire
-De l'huile d'olive.
-C'est comme ça, c'est la nature
-Et c'est très bon avec les endives !
-\endchorus
+    On est né pour faire
+    De l'huile d'olive.
+    C'est comme ça, c'est la nature
+    Et c'est très bon avec les endives !
+  \endchorus
 
-\beginverse
-Julie la p'tite olive
-L'entendait pas de cette oreille
-Comme elle avait la verve vive
-Elle prit à partie le soleil
+  \beginverse
+    Julie la p'tite olive
+    L'entendait pas de cette oreille
+    Comme elle avait la verve vive
+    Elle prit à partie le soleil
 
-Vous Mon\[La]sieur, vous tou\[Sim]rnez
-Près de \[Mi]24 heures par \[La]jour
-Le monde \[Fa#]vous le connai\[Sim]ssez
-Vous en a\[Mi]vez déjà fait l'\[Ré]tour
-Moi je \[Sol#]suis prison\[Do#m]nière
-De \[Fa#]cette grosse branche en \[Sim]bois
-Dites-moi \[Mi]donc c'qui s'passe sur \[Fa]terre
-Oh oui, siouplait, racontez-\[Mi]moi !
-\endverse
+    Vous Mon\[La]sieur, vous tou\[Sim]rnez
+    Près de \[Mi]24 heures par \[La]jour
+    Le monde \[Fa#]vous le connai\[Sim]ssez
+    Vous en a\[Mi]vez déjà fait l'\[Ré]tour
+    Moi je \[Sol#]suis prison\[Do#m]nière
+    De \[Fa#]cette grosse branche en \[Sim]bois
+    Dites-moi \[Mi]donc c'qui s'passe sur \[Fa]terre
+    Oh oui, siouplait, racontez-\[Mi]moi !
+  \endverse
 
-\beginchorus
-C'est bon Julie,
-Arrête de les lui briser
-Tu sais bien que notre vie
-Finira dans un saladier.
+  \beginchorus
+    C'est bon Julie,
+    Arrête de les lui briser
+    Tu sais bien que notre vie
+    Finira dans un saladier.
 
-On est né pour faire
-Copines avec les endives
-Le soleil lui, il s'en tape
-Il connaît rien à l'huile d'olive !
-\endchorus
+    On est né pour faire
+    Copines avec les endives
+    Le soleil lui, il s'en tape
+    Il connaît rien à l'huile d'olive !
+  \endchorus
 
-\beginverse
-Mais l'astre du jour
-Par sa requête fut ému
-Et lui dit, rayonnant d'amour
-``Je vais commencer au début''
+  \beginverse
+    Mais l'astre du jour
+    Par sa requête fut ému
+    Et lui dit, rayonnant d'amour
+    ``Je vais commencer au début''
 
-Au bout d'une dizaine de mois
-Il finissait le préambule
-Le big-bang et tous ces trucs là
-La naissance des premières cellules
+    Au bout d'une dizaine de mois
+    Il finissait le préambule
+    Le big-bang et tous ces trucs là
+    La naissance des premières cellules
 
-Et Julie l'écoutait
-Passionnée, attentive
-Ouvrant grand ses oreilles
-Pour n'en point perdre un mot.
+    Et Julie l'écoutait
+    Passionnée, attentive
+    Ouvrant grand ses oreilles
+    Pour n'en point perdre un mot.
 
-Mais hélas, la
-Vendange tardive des olives
-Coupa leur entretien
-Avec tout le rameau
-\endverse
+    Mais hélas, la
+    Vendange tardive des olives
+    Coupa leur entretien
+    Avec tout le rameau
+  \endverse
 
-\beginchorus
-Cette fois Julie,
-C'est terminé !
-Allez monte dans le camion
-Qui nous emmène chez Puget.
+  \beginchorus
+    Cette fois Julie,
+    C'est terminé !
+    Allez monte dans le camion
+    Qui nous emmène chez Puget.
 
-T'étais née pour faire
-D'l'huile d'olive !
-Maintenant tu fermes ta gueule
-Et tu dis bonjour aux endives !
-\endchorus
+    T'étais née pour faire
+    D'l'huile d'olive !
+    Maintenant tu fermes ta gueule
+    Et tu dis bonjour aux endives !
+  \endchorus
 
-\beginverse
-Mais Julie ignorait
-Que le soleil, ce gros bavard,
-De lumière l'avait gavée
-Pendant qu'il contait ses histoires.
+  \beginverse
+    Mais Julie ignorait
+    Que le soleil, ce gros bavard,
+    De lumière l'avait gavée
+    Pendant qu'il contait ses histoires.
 
-Et arrivé au pressoir
-Le propriétaire agricole
-Eut besoin d'une chaise pour s'asseoir
-Et s'écria: ``Weuh, la bestiole !''
+    Et arrivé au pressoir
+    Le propriétaire agricole
+    Eut besoin d'une chaise pour s'asseoir
+    Et s'écria: ``Weuh, la bestiole !''
 
-``Crénom de nom
-D'pudiou j'hallucinions
-Par les balloches du cornu
-J'ai dû abuser du litron.
+    ``Crénom de nom
+    D'pudiou j'hallucinions
+    Par les balloches du cornu
+    J'ai dû abuser du litron.
 
-Cette olive, on dirait
-Que c'est la couille de Godzilla
-Va m'en falloir des endives
-Pour me contenter c'te bête-là !''
-\endverse
+    Cette olive, on dirait
+    Que c'est la couille de Godzilla
+    Va m'en falloir des endives
+    Pour me contenter c'te bête-là !''
+  \endverse
 
-\beginchorus
-\[Ré]Et Julie que la \[La]joie inonde,
-\[Mi]Grâce au miracle de \[La]la nature,
-S'\[Ré]est tapée quatre \[La]tours du monde
-\[Mi]Dans les salons d'l'a\[La]gri\[Mi7]cul\[La]ture.
-\endchorus
+  \beginchorus
+    \[Ré]Et Julie que la \[La]joie inonde,
+    \[Mi]Grâce au miracle de \[La]la nature,
+    S'\[Ré]est tapée quatre \[La]tours du monde
+    \[Mi]Dans les salons d'l'a\[La]gri\[Mi7]cul\[La]ture.
+  \endchorus
 
 \endsong

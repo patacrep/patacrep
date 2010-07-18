@@ -1,79 +1,79 @@
-\beginsong{Patalo}[by=Les T\^etes Raides,cov=gratte-poil]
+\songcolumns{2}
+\beginsong{Patalo}
+  [by=Les Têtes Raides,cov=gratte-poil]
+
+  \cover
+  \gtab{Mi}{7:X02220}
+  \gtab{Si}{7:022100}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Sol#}{4:022100}
+  \gtab{Fa#m}{2:022000}
 
 
-\cover
-\gtab{Mi}{7:X02220}
-\gtab{Si}{7:022100}
-\gtab{Do#m}{4:X02210}
-\gtab{Sol#}{4:022100}
-\gtab{Fa#m}{2:022000}
+  \beginverse
+    Y'en avait \[Mi]ras le capuchon de s'faire refi-
+    -ler de la vie à moitié prix en court boui\[Si]llon.
+    Tous les poulets du H.I.V. en transfusion
+    C'est des produits on en avait ras le \[Mi]képi
+  \endverse
 
+  \beginverse*
+    Tout est nickel y a rien a r'voir faut surtout pas 
+    Couper l'cordon, ni la télé intraveineuse
+    Démagogie, dégamogie des plus véreuses
+    Tout va si bien se s'rait trop con faut surtout pas
+  \endverse
 
-\beginverse
-Y'en avait \[Mi]ras le capuchon de s'faire refi-
--ler de la vie à moitié prix en court boui\[Si]llon.
-Tous les poulets du H.I.V. en transfusion
-C'est des produits on en avait ras le \[Mi]képi
-\endverse
+  \beginverse*
+    Toucher à nos acquis scellés nos patrimoines
+    On s'est battu l'oubliez pas dans nos chansons
+    Si y'a d'la soupe dans vos gamelles et de l'avoine
+    C'est qu'le bon dieu l'a bien voulu il est si bon
+  \endverse
 
-\beginverse*
-Tout est nickel y a rien a r'voir faut surtout pas 
-Couper l'cordon, ni la télé intraveineuse
-Démagogie, dégamogie des plus véreuses
-Tout va si bien se s'rait trop con faut surtout pas
-\endverse
+  \beginchorus
+    Du \[Do#m]sel dans les pâtes à l'\[Sol#]eau
+    Du beurre dans les hari\[Do#m]cots
+    De l'eau pour s'laver la \[Sol#]peau
+    Du sang pour cracher \[Do#m]des mots
+    D'la voix pour gueuler plus \[Fa#m]haut
+    Des \[Sol#]fleurs pour t'aimer \[Do#m]bientôt
+    Du ciel pour les ani\[Sol#]maux
+  \endchorus
 
-\beginverse*
-Toucher à nos acquis scellés nos patrimoines
-On s'est battu l'oubliez pas dans nos chansons
-Si y'a d'la soupe dans vos gamelles et de l'avoine
-C'est qu'le bon dieu l'a bien voulu il est si bon
-\endverse
+  \beginverse
+    Y'en a qui naissent moins bons qu'les autres mais c'est normal
+    On est pas tous apparus dans l'même salon
+    Tous les lépreux, les p'tits nimbus et les couillons
+    Et les élus de la nation du capital
+  \endverse
 
-\beginchorus
-Du \[Do#m]sel dans les pâtes à l'\[Sol#]eau
-Du beurre dans les hari\[Do#m]cots
-De l'eau pour s'laver la \[Sol#]peau
-Du sang pour cracher \[Do#m]des mots
-D'la voix pour gueuler plus \[Fa#m]haut
-Des \[Sol#]fleurs pour t'aimer \[Do#m]bientôt
-Du ciel pour les ani\[Sol#]maux
-\endchorus
+  \beginverse*
+    Faîtes circuler y'a rien a voir faites nous confiance
+    On s'y connaît on vous promet des vies heureuses
+    Démocratie, décramotie des plus frileuses
+    C'est nous les rois du bataillon de la finance
+  \endverse
 
-\beginverse
-Y'en a qui naissent moins bons qu'les autres mais c'est normal
-On est pas tous apparus dans l'même salon
-Tous les lépreux, les p'tits nimbus et les couillons
-Et les élus de la nation du capital
-\endverse
+  \beginverse*
+    Alors votez pour nos partis et sans surprise
+    Vous y trouverez que du blanc-bec et du pognon
+    J'y ai laissé mon pantalon et ma chemise
+    Tout ce qu'on vous d'mande c'est de nous envoyer vos dons
+  \endverse
 
-\beginverse*
-Faîtes circuler y'a rien a voir faites nous confiance
-On s'y connaît on vous promet des vies heureuses
-Démocratie, décramotie des plus frileuses
-C'est nous les rois du bataillon de la finance
-\endverse
+  \beginverse
+    Y'en avait ras-le-potiron les castagnettes
+    Si les tranchées t'ont pas suffi j'connais une zone
+    Il semblerait que les séismes et les cyclones
+    N'assouvissent pas nos fringales de marionnettes
+  \endverse
 
-\beginverse*
-Alors votez pour nos partis et sans surprise
-Vous y trouverez que du blanc-bec et du pognon
-J'y ai laissé mon pantalon et ma chemise
-Tout ce qu'on vous d'mande c'est de nous envoyer vos dons
-\endverse
-
-\beginverse
-Y'en avait ras-le-potiron les castagnettes
-Si les tranchées t'ont pas suffi j'connais une zone
-Il semblerait que les séismes et les cyclones
-N'assouvissent pas nos fringales de marionnettes
-\endverse
-
-\beginverse*
-C'est nous les rois de la conso et de l'outrance
-On y peut rien, c'est le destin qui nous arrose
-Vu qu'le destin ressemblait à si peu de choses
-Dégobillons cette pâtée qu'on recommence
-\endverse
-
+  \beginverse*
+    C'est nous les rois de la conso et de l'outrance
+    On y peut rien, c'est le destin qui nous arrose
+    Vu qu'le destin ressemblait à si peu de choses
+    Dégobillons cette pâtée qu'on recommence
+  \endverse
 
 \endsong

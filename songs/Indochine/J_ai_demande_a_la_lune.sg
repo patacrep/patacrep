@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{J'ai demandé à la lune}[by=Indochine,cov=paradize]
+\beginsong{J'ai demandé à la lune}
+  [by=Indochine,cov=paradize]
 
   \cover
   \gtab{La}{X02220}

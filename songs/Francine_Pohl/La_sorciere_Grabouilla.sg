@@ -1,73 +1,74 @@
 \songcolumns{2}
-\beginsong{La sorcière Grabouilla}[by=Francine Pohl]
+\beginsong{La sorcière Grabouilla}
+  [by=Francine Pohl]
 
-\gtab{Mim}{022000}
-\gtab{Si7}{X21202}
-\gtab{Lam}{X02210}
-
-
-\beginverse
-C'est \[Mim]une vieille sorcière
-Qui \[Si7]{s'appelle} Grabou\[Mim]illa
-Grabou-bou, Grabou-bou
-Grabou-bou, Grabouilla
-\endverse
-
-\beginverse*
-Elle passe par la chatière
-Du gros chat Ramina
-Rami-mi, Rami-mi
-Rami-mi, Ramina
-\endverse
-
-\beginverse*
-Elle \[Lam]transforme en cafe\[Mim]tière
-Les \[Si7]bottes de ma grand-\[Mim]mère
-Se \[Lam]cache dans la gou\[Mim]ttière
-D'la \[Si7]maison d'Nico\[Mim]las
-Nico-co, Nico-co
-Nico-co, Nicolas
-\endverse
-
-\beginchorus
-\[Lam]Sorcière, \[Mim]sorcière
-\[Si7]Vite cache-\[Mim]toi !
-\[Lam]Sorcière, \[Mim]sorcière
-\[Si7]Retourne chez \[Mim]toi !
-\endchorus
-
-\beginverse
-Mais un jour la sorcière
-Mangea trop d'chocolat
-Choco-co, choco-co
-Choco-co, chocolat
-\endverse
-
-\beginverse*
-Elle entre chez l'épicière
-Et vole des ptits nougats
-Ptits nou-nou, ptits nou-nou
-Ptits nou-nou, ptits nougats
-\endverse
-
-\beginverse*
-Elle mange une boite entière
-Puis elle boit de la bière
-Elle dit d'un ton amer:
-``J'ai mal à l'estomac.''
-L'esto-to, l'esto-to
-L'esto-to, l'estomac
-\endverse
-
-\beginchorus
-Sorcière, sorcière
-C'est bien fait pour toi !
-Sorcière, sorcière,
-Retourne chez toi !
-\rep{2}
-\endchorus
+  \gtab{Mim}{022000}
+  \gtab{Si7}{X21202}
+  \gtab{Lam}{X02210}
 
 
-\lilypond{La_sorciere_Grabouilla}
+  \beginverse
+    C'est \[Mim]une vieille sorcière
+    Qui \[Si7]{s'appelle} Grabou\[Mim]illa
+    Grabou-bou, Grabou-bou
+    Grabou-bou, Grabouilla
+  \endverse
+
+  \beginverse*
+    Elle passe par la chatière
+    Du gros chat Ramina
+    Rami-mi, Rami-mi
+    Rami-mi, Ramina
+  \endverse
+
+  \beginverse*
+    Elle \[Lam]transforme en cafe\[Mim]tière
+    Les \[Si7]bottes de ma grand-\[Mim]mère
+    Se \[Lam]cache dans la gou\[Mim]ttière
+    D'la \[Si7]maison d'Nico\[Mim]las
+    Nico-co, Nico-co
+    Nico-co, Nicolas
+  \endverse
+
+  \beginchorus
+    \[Lam]Sorcière, \[Mim]sorcière
+    \[Si7]Vite cache-\[Mim]toi !
+    \[Lam]Sorcière, \[Mim]sorcière
+    \[Si7]Retourne chez \[Mim]toi !
+  \endchorus
+
+  \beginverse
+    Mais un jour la sorcière
+    Mangea trop d'chocolat
+    Choco-co, choco-co
+    Choco-co, chocolat
+  \endverse
+
+  \beginverse*
+    Elle entre chez l'épicière
+    Et vole des ptits nougats
+    Ptits nou-nou, ptits nou-nou
+    Ptits nou-nou, ptits nougats
+  \endverse
+
+  \beginverse*
+    Elle mange une boite entière
+    Puis elle boit de la bière
+    Elle dit d'un ton amer:
+    ``J'ai mal à l'estomac.''
+    L'esto-to, l'esto-to
+    L'esto-to, l'estomac
+  \endverse
+
+  \beginchorus
+    Sorcière, sorcière
+    C'est bien fait pour toi !
+    Sorcière, sorcière,
+    Retourne chez toi !
+    \rep{2}
+  \endchorus
+
+
+  \lilypond{La_sorciere_Grabouilla}
 
 \endsong

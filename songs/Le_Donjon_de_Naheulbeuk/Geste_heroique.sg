@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Geste héroïque}[by=Le Donjon de Naheulbeuk, cov=a-poil-dans-la-foret]
+\beginsong{Geste héroïque}
+  [by=Le Donjon de Naheulbeuk, cov=a-poil-dans-la-foret]
 
   \cover
   \gtab{Solm}{3:022000}

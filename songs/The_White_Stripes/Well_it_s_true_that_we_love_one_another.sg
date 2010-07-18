@@ -1,55 +1,56 @@
 \songcolumns{1}
-\beginsong{Well It's True That We Love One Another}[by=The White Stripes,cov=elephant]
+\beginsong{Well it's true that we love one another}
+  [by=The White Stripes,cov=elephant]
 
-\cover
-\gtab{La}{X02220}
-\gtab{Mi}{022100}
-\gtab{Ré}{XX0232}
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Mi}{022100}
+  \gtab{Ré}{XX0232}
 
-%\note{\[*] ligne de basse de transition}
+  %\note{\[*] ligne de basse de transition}
 
-\beginchorus
-\[La]Well it's true that we love one another
-\[La]I love Jack White like a little \[*]brother
-\[Mi]Well, Holly, I love you \[Ré]too
-\[Ré]But there's just so much that I don't know about \[La]you
-\endchorus
+  \beginchorus
+    \[La]Well it's true that we love one another
+    \[La]I love Jack White like a little \[*]brother
+    \[Mi]Well, Holly, I love you \[Ré]too
+    \[Ré]But there's just so much that I don't know about \[La]you
+  \endchorus
 
-\beginverse
-\[La]Jack, give me some money to pay my bills.
-\[La]All the dough I give you, Holly, you've been using on pain pills.
-\[Ré]Jack, will you call me if you're able?
-\[La]I've got your phone number written in the back of my \[*]Bible.
-\[Mi]Jack, I think you're pulling my \[Ré]leg.
-\[Ré]And I think maybe I'd better ask \[La]Meg.
-\endverse
+  \beginverse
+    \[La]Jack, give me some money to pay my bills.
+    \[La]All the dough I give you, Holly, you've been using on pain pills.
+    \[Ré]Jack, will you call me if you're able?
+    \[La]I've got your phone number written in the back of my \[*]Bible.
+    \[Mi]Jack, I think you're pulling my \[Ré]leg.
+    \[Ré]And I think maybe I'd better ask \[La]Meg.
+  \endverse
 
-\beginverse
-Meg, do you think Jack really loves me?
-You know I don't care 'cause Jack really bugs me.
-Why don't you go ask him now?
-Well, I would but, Meg, I really just don't know how.
-\endverse
+  \beginverse
+    Meg, do you think Jack really loves me?
+    You know I don't care 'cause Jack really bugs me.
+    Why don't you go ask him now?
+    Well, I would but, Meg, I really just don't know how.
+  \endverse
 
-\beginverse
-Just say, "Jack, do you adore me?"
-Well, I would, Holly, but love really bores me.
-Then I guess we should just be friends?
-I'm just kidding Holly, you know that I'll love you 'til the end.
-\endverse
+  \beginverse
+    Just say, "Jack, do you adore me?"
+    Well, I would, Holly, but love really bores me.
+    Then I guess we should just be friends?
+    I'm just kidding Holly, you know that I'll love you 'til the end.
+  \endverse
 
-\beginverse
-Holly, give me some of your English lovin'
-If I did that, Jack, I'd have one in the oven.
-Why don't you go off and love yourself?
-If I did that, Holly, there wouldn't be anything left for anybody else.
-\endverse
+  \beginverse
+    Holly, give me some of your English lovin'
+    If I did that, Jack, I'd have one in the oven.
+    Why don't you go off and love yourself?
+    If I did that, Holly, there wouldn't be anything left for anybody else.
+  \endverse
 
-\beginverse
-Jack, it's too bad about the way that you look.
-You know, I gave that horse a carrot so he'd break your foot.
-Will the two of you cut it out?
-And tell 'em what it's really all about.
-\endverse
+  \beginverse
+    Jack, it's too bad about the way that you look.
+    You know, I gave that horse a carrot so he'd break your foot.
+    Will the two of you cut it out?
+    And tell 'em what it's really all about.
+  \endverse
 
 \endsong

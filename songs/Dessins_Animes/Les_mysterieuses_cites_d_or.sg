@@ -1,41 +1,42 @@
 \songcolumns{2}
-\beginsong{Les mystérieuses cités d'or}[by=Dessins Animés,cov=mysterieuses-cites-d-or]
+\beginsong{Les mystérieuses cités d'or}
+  [by=Dessins Animés,cov=mysterieuses-cites-d-or]
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Lam}{X02210}
-\gtab{Mi}{022100}
-\gtab{Rém}{XX0231}
-\gtab{Sol}{320003}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Mi}{022100}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
 
-\beginverse
-Enfant \[Do]du soleil
-Tu parcours la terre le ciel
-Cherche \[Lam]ton chemin
-C'est ta \[Mi]vie, c'est ton des\[Lam]tin
-\endverse
+  \beginverse
+    Enfant \[Do]du soleil
+    Tu parcours la terre le ciel
+    Cherche \[Lam]ton chemin
+    C'est ta \[Mi]vie, c'est ton des\[Lam]tin
+  \endverse
 
-\beginverse*
-Et le jour, la nuit
-Avec tes deux meilleurs amis
-À bord du Grand Condor
-Tu recherches les Cités d'Or
-\endverse
- 
-\beginchorus
-\[Rém]Aaaah ah ah ah \[Lam]ah
-Esteban, \[Sol]Zia, \[Mi]Tao les Cités d'\[Lam]O\[La]r
-\[Rém]Aaaah ah ah ah \[Lam]ah
-Esteban, \[Sol]Zia, \[Mi]Tao les Cités d'\[Lam]Or
-\[Sol]Tou-dou dou-dou dou, \[Lam]{ah ah ah}
-\[Sol]Tou-dou dou-dou dou, les Cités d'\[Lam]Or
-\endchorus
+  \beginverse*
+    Et le jour, la nuit
+    Avec tes deux meilleurs amis
+    À bord du Grand Condor
+    Tu recherches les Cités d'Or
+  \endverse
+  
+  \beginchorus
+    \[Rém]Aaaah ah ah ah \[Lam]ah
+    Esteban, \[Sol]Zia, \[Mi]Tao les Cités d'\[Lam]O\[La]r
+    \[Rém]Aaaah ah ah ah \[Lam]ah
+    Esteban, \[Sol]Zia, \[Mi]Tao les Cités d'\[Lam]Or
+    \[Sol]Tou-dou dou-dou dou, \[Lam]{ah ah ah}
+    \[Sol]Tou-dou dou-dou dou, les Cités d'\[Lam]Or
+  \endchorus
 
-\beginverse
-Enfant du soleil
-Ton destin est sans pareil
-L'aventure t'appelle
-N'attends pas et cours vers elle \dots
-\endverse
+  \beginverse
+    Enfant du soleil
+    Ton destin est sans pareil
+    L'aventure t'appelle
+    N'attends pas et cours vers elle \dots
+  \endverse
 
 \endsong

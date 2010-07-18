@@ -1,39 +1,40 @@
 \songcolumns{1}
-\beginsong{Where is my mind}[by=Pixies,cov=death-to-the-pixies]
+\beginsong{Where is my mind}
+  [by=Pixies,cov=death-to-the-pixies]
 
-\cover
-\gtab{Mi}{022100}
-\gtab{Do#m}{4:X02210}
-\gtab{La&}{4:022100}
-\gtab{La}{5:022100}
-\gtab{Lam}{4:022000}
-\gtab{Do#}{4:X02220}
-\gtab{Si}{2:X02220}
+  \cover
+  \gtab{Mi}{022100}
+  \gtab{Do#m}{4:X02210}
+  \gtab{La&}{4:022100}
+  \gtab{La}{5:022100}
+  \gtab{Lam}{4:022000}
+  \gtab{Do#}{4:X02220}
+  \gtab{Si}{2:X02220}
 
-\beginverse
-With your \[Mi]feet in the air and your \[Do#m]{head on} the ground. \[La&] \[La]
-\[Mi] Try this tri\[Do#m]ck and \[La&]spin it. Ye\[La]ah!
-\[Mi] Your head will coll\[Do#m]{apse but} there's \[La&]nothing in it and you'll \[La]ask yourself.
-\endverse
+  \beginverse
+    With your \[Mi]feet in the air and your \[Do#m]{head on} the ground. \[La&] \[La]
+    \[Mi] Try this tri\[Do#m]ck and \[La&]spin it. Ye\[La]ah!
+    \[Mi] Your head will coll\[Do#m]{apse but} there's \[La&]nothing in it and you'll \[La]ask yourself.
+  \endverse
 
-\beginchorus
-Where is my mind? Where is my mind?
-Where is my mind?
-\endchorus
+  \beginchorus
+    Where is my mind? Where is my mind?
+    Where is my mind?
+  \endchorus
 
-\beginverse*
-\[Mi]Way \[La&]{out, in} the \[La]water, see it \[Lam]swimmin'.
-\[Do#] \[Si]
-\endverse
+  \beginverse*
+    \[Mi]Way \[La&]{out, in} the \[La]water, see it \[Lam]swimmin'.
+    \[Do#] \[Si]
+  \endverse
 
-\beginverse
-I was swimmin' in the Carribean.
-Animals were hiding behind the rock.
-Except the little fish but they told me, he swears tryin' to talk to me to me to me.
-\endverse
+  \beginverse
+    I was swimmin' in the Carribean.
+    Animals were hiding behind the rock.
+    Except the little fish but they told me, he swears tryin' to talk to me to me to me.
+  \endverse
 
-\musicnote{chorus, bridge, solo, repeat verse 1, chorus}
+  \musicnote{chorus, bridge, solo, repeat verse 1, chorus}
 
-\image{brunocb-smells-like-tux-spirit---nirvana-8121}{4}
+  \image{brunocb-smells-like-tux-spirit---nirvana-8121}{4}
 
 \endsong

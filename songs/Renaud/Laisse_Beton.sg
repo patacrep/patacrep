@@ -1,100 +1,101 @@
 \songcolumns{2}
-\beginsong{Laisse b\'eton}[by=Renaud,cov=laisse-beton]
+\beginsong{Laisse béton}
+  [by=Renaud,cov=laisse-beton]
 
-\cover
-\gtab{Lam}{5:022000}
-\gtab{Sol}{3:022100}
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Sol}{3:022100}
 
-\beginverse
-J'étais tran\[Lam]quille, j'étais peinard
-Accoudé au flipper
-Le type est \[Sol]entré dans le bar
-A commandé un jambon \[Lam]beurre
-Puis il s'est approché de moi
-Puis il m'a regardé comme ça:
-``T'as des bottes, mon pote
-Elles me bottent''
-\endverse
+  \beginverse
+    J'étais tran\[Lam]quille, j'étais peinard
+    Accoudé au flipper
+    Le type est \[Sol]entré dans le bar
+    A commandé un jambon \[Lam]beurre
+    Puis il s'est approché de moi
+    Puis il m'a regardé comme ça:
+    ``T'as des bottes, mon pote
+    Elles me bottent''
+  \endverse
 
-\beginverse*
-J'parie qu'c'est des San\[Sol]tiags
-Viens faire un tour dans l'terrain \[Lam]vague
-J'vais t'apprendre un jeu rigo\[Sol]lo
-A grands coups de chaîne de vé\[Lam]lo
-J'te fais tes bottes à la bas\[Sol]ton
-Moi j'lui ai dit: ``Laisse bé\[Lam]ton !''
-\endverse
+  \beginverse*
+    J'parie qu'c'est des San\[Sol]tiags
+    Viens faire un tour dans l'terrain \[Lam]vague
+    J'vais t'apprendre un jeu rigo\[Sol]lo
+    A grands coups de chaîne de vé\[Lam]lo
+    J'te fais tes bottes à la bas\[Sol]ton
+    Moi j'lui ai dit: ``Laisse bé\[Lam]ton !''
+  \endverse
 
-\beginchorus
-Il m'a filé une \[Sol]beigne
-J'ai filé une tor\[Lam]gnole
-M'a filé une châ\[Sol]taigne
-J'lui ai filé mes \[Lam]grolles
-\endchorus
+  \beginchorus
+    Il m'a filé une \[Sol]beigne
+    J'ai filé une tor\[Lam]gnole
+    M'a filé une châ\[Sol]taigne
+    J'lui ai filé mes \[Lam]grolles
+  \endchorus
 
-\beginverse
-J'étais tranquille, j'étais peinard
-Accoudé au comptoir
-Le type est entré dans le bar
-A commandé un café noir
-Puis il m'a tapé sur l'épaule
-Et m'a regardé d'un air drôle:
-``T'as un blouson mecton
-L'est pas bidon''
-\endverse
+  \beginverse
+    J'étais tranquille, j'étais peinard
+    Accoudé au comptoir
+    Le type est entré dans le bar
+    A commandé un café noir
+    Puis il m'a tapé sur l'épaule
+    Et m'a regardé d'un air drôle:
+    ``T'as un blouson mecton
+    L'est pas bidon''
+  \endverse
 
-\beginverse*
-Moi j'me les gèle sur mon scooter
-Avec ça j's'rai un vrai rocker
-Viens faire un tour dans la ruelle
-J'te montrerai mon Opinel
-Et j'te chourav'rai ton blouson
-Moi j'lui ai dit: ``Laisse béton !''
-\endverse
+  \beginverse*
+    Moi j'me les gèle sur mon scooter
+    Avec ça j's'rai un vrai rocker
+    Viens faire un tour dans la ruelle
+    J'te montrerai mon Opinel
+    Et j'te chourav'rai ton blouson
+    Moi j'lui ai dit: ``Laisse béton !''
+  \endverse
 
-\beginchorus
-Il m'a filé une beigne
-J'ai filé un marron
-M'a filé une châtaigne
-J'ai filé mon blouson
-\endchorus
+  \beginchorus
+    Il m'a filé une beigne
+    J'ai filé un marron
+    M'a filé une châtaigne
+    J'ai filé mon blouson
+  \endchorus
 
-\beginverse
-J'étais tranquille, j'étais peinard
-Je réparais ma mobylette
-Le type a surgi sur l'boul'vard
-Sur sa grosse moto super-chouette
-S'est arrêté l'long du trottoir
-Et m'a regardé d'un air bête:
-``T'as l'même blue jean que James Dean
-T'arrête ta frime''
-\endverse
+  \beginverse
+    J'étais tranquille, j'étais peinard
+    Je réparais ma mobylette
+    Le type a surgi sur l'boul'vard
+    Sur sa grosse moto super-chouette
+    S'est arrêté l'long du trottoir
+    Et m'a regardé d'un air bête:
+    ``T'as l'même blue jean que James Dean
+    T'arrête ta frime''
+  \endverse
 
-\beginverse*
-J'parie qu'c'est un vrai Levy-Strauss
-Il est carrément pas craignos
-Viens faire un tour derrière l'église
-Histoire que je te dévalise
-À grands coups de ceinturons
-Moi j'lui ai dit: ``Laisse béton !''
-\endverse
+  \beginverse*
+    J'parie qu'c'est un vrai Levy-Strauss
+    Il est carrément pas craignos
+    Viens faire un tour derrière l'église
+    Histoire que je te dévalise
+    À grands coups de ceinturons
+    Moi j'lui ai dit: ``Laisse béton !''
+  \endverse
 
-\beginchorus
-Il m'a filé une beigne
-J'ai filé une mandale
-M'a filé une châtaigne
-J'ai filé mon futal
-\endchorus
+  \beginchorus
+    Il m'a filé une beigne
+    J'ai filé une mandale
+    M'a filé une châtaigne
+    J'ai filé mon futal
+  \endchorus
 
-\beginverse
-La morale de c'te pauvre histoire
-C'est qu'quand t'es tranquille et peinard
-Faut pas trop traîner dans les bars
-À moins d'être fringué en costard
-Quand à la fin d'une chanson
-Tu t'retrouves à poil, sans tes bottes
-Faut avoir d'l'imagination
-Pour trouver une chute rigolote 
-\endverse
+  \beginverse
+    La morale de c'te pauvre histoire
+    C'est qu'quand t'es tranquille et peinard
+    Faut pas trop traîner dans les bars
+    À moins d'être fringué en costard
+    Quand à la fin d'une chanson
+    Tu t'retrouves à poil, sans tes bottes
+    Faut avoir d'l'imagination
+    Pour trouver une chute rigolote 
+  \endverse
 
 \endsong

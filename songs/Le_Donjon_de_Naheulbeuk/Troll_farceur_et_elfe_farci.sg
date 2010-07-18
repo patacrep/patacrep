@@ -1,49 +1,50 @@
 \songcolumns{2}
-\beginsong{Troll farceur et elfe farci}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
+\beginsong{Troll farceur et elfe farci}
+  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
-\capo{5}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
+  \capo{5}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
 
-\beginverse
-\[Lam]J'ai rencontré un t\[Do]roll,
-Il \[Sol]marchait dans la fo\[Lam]rêt \rep{2}
-\[Lam]Il traînait derrière l\[Do]ui
-Un \[Sol]elfe tout empaqu\[Lam]eté \rep{2}
-\endverse
+  \beginverse
+    \[Lam]J'ai rencontré un t\[Do]roll,
+    Il \[Sol]marchait dans la fo\[Lam]rêt \rep{2}
+    \[Lam]Il traînait derrière l\[Do]ui
+    Un \[Sol]elfe tout empaqu\[Lam]eté \rep{2}
+  \endverse
 
-\beginchorus
-\[Lam]Ah qu'il est fort, \[Do]ah qu'il est beau
-\[Sol]Ah qu'il est grand mon ami troll du Cha\[Lam]os
-\[Lam]Ah qu'il est fort, \[Do]ah qu'il est beau
-\[Sol]Ah qu'il est grand mon ami troll du Cha\[Lam]os
-\endchorus
+  \beginchorus
+    \[Lam]Ah qu'il est fort, \[Do]ah qu'il est beau
+    \[Sol]Ah qu'il est grand mon ami troll du Cha\[Lam]os
+    \[Lam]Ah qu'il est fort, \[Do]ah qu'il est beau
+    \[Sol]Ah qu'il est grand mon ami troll du Cha\[Lam]os
+  \endchorus
 
-\beginverse
-Je lui dit mon ami, que vas-tu faire de c't'homme ?
-Il répond j'vais l'bouffer, farci avec des pommes
-\endverse
+  \beginverse
+    Je lui dit mon ami, que vas-tu faire de c't'homme ?
+    Il répond j'vais l'bouffer, farci avec des pommes
+  \endverse
 
-\beginverse
-Il brandit sa massue et frappa vers ma tête
-Il voulait sans tarder m'ajouter dans l'assiette
-\endverse
+  \beginverse
+    Il brandit sa massue et frappa vers ma tête
+    Il voulait sans tarder m'ajouter dans l'assiette
+  \endverse
 
-\beginverse
-J'ai évité l'assaut en courant dans les bois
-Quand j'me suis retourné, ben il était plus là
-\endverse
+  \beginverse
+    J'ai évité l'assaut en courant dans les bois
+    Quand j'me suis retourné, ben il était plus là
+  \endverse
 
-\beginverse
-Et j'ai suivi sa piste, pour trouver sa caverne
-Puis je l'ai vu cachée, par delà le gros chêne
-\endverse
+  \beginverse
+    Et j'ai suivi sa piste, pour trouver sa caverne
+    Puis je l'ai vu cachée, par delà le gros chêne
+  \endverse
 
-\beginverse
-Alors j'ai vu le troll prendre un objet pointu
-Et pour farcir les pommes il lui enfonçait dans l'***
-\endverse
+  \beginverse
+    Alors j'ai vu le troll prendre un objet pointu
+    Et pour farcir les pommes il lui enfonçait dans l'***
+  \endverse
 
 \endsong

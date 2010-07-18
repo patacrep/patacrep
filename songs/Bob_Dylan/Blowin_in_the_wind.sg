@@ -1,41 +1,42 @@
 \songcolumns{2}
-\beginsong{Blowin' in the wind}[by=Bob Dylan,cov=the-freewheelin]
+\beginsong{Blowin' in the wind}
+  [by=Bob Dylan,cov=the-freewheelin]
 
-\cover
-\gtab{Ré}{XX0232}
-\gtab{Sol}{320003}
-\gtab{La}{X02220}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{La}{X02220}
 
-\beginverse
-\[Ré]How many \[Sol]roads must a \[La]man walk \[Ré]down
-Be\[Ré]fore you \[Sol]call him a \[La]man ?
-\[Ré]How many \[Sol]seas must a \[La]white dove \[Ré]sail
-Be\[Ré]fore she \[Sol]sleeps in the \[La]sand ?
-\echo{Yes and} \[Ré]how many \[Sol]times must the \[La]cannon balls \[Ré]fly
-Be\[Ré]fore they're \[Sol]forever \[La]banned ?
-\endverse
+  \beginverse
+    \[Ré]How many \[Sol]roads must a \[La]man walk \[Ré]down
+    Be\[Ré]fore you \[Sol]call him a \[La]man ?
+    \[Ré]How many \[Sol]seas must a \[La]white dove \[Ré]sail
+    Be\[Ré]fore she \[Sol]sleeps in the \[La]sand ?
+    \echo{Yes and} \[Ré]how many \[Sol]times must the \[La]cannon balls \[Ré]fly
+    Be\[Ré]fore they're \[Sol]forever \[La]banned ?
+  \endverse
 
-\beginchorus
-\[Sol]The answer my \[La]friend is \[Ré]blowin' in the \[Sol]wind
-The \[Sol]answer is \[La]blowin' in the \[Ré]wind
-\endchorus
+  \beginchorus
+    \[Sol]The answer my \[La]friend is \[Ré]blowin' in the \[Sol]wind
+    The \[Sol]answer is \[La]blowin' in the \[Ré]wind
+  \endchorus
 
-\beginverse
-\echo{Yes and} how many years can a mountain exist
-Before it is washed to the seas ?
-\echo{Yes and} how many years can some people exist
-Before they're allowed to be free ?
-\echo{Yes and} how many times can a man turn his head
-And pretend that he just doesn't see ?
-\endverse
+  \beginverse
+    \echo{Yes and} how many years can a mountain exist
+    Before it is washed to the seas ?
+    \echo{Yes and} how many years can some people exist
+    Before they're allowed to be free ?
+    \echo{Yes and} how many times can a man turn his head
+    And pretend that he just doesn't see ?
+  \endverse
 
-\beginverse
-\echo{Yes and} how many times must a man look up
-Before he can see the sky ?
-\echo{Yes and} how many ears must one man have
-Before he can hear people cry
-\echo{Yes and} how many deaths will it take till he knows
-That too many people have died ?
-\endverse
+  \beginverse
+    \echo{Yes and} how many times must a man look up
+    Before he can see the sky ?
+    \echo{Yes and} how many ears must one man have
+    Before he can hear people cry
+    \echo{Yes and} how many deaths will it take till he knows
+    That too many people have died ?
+  \endverse
 
 \endsong

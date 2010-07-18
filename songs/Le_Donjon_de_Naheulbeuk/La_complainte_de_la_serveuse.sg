@@ -1,91 +1,92 @@
 \songcolumns{2}
-\beginsong{La complainte de la serveuse}[by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
+\beginsong{La complainte de la serveuse}
+  [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{X32010}
-\gtab{Sol}{320003}
-\gtab{Mim}{022000}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
 
 
-\beginverse
+  \beginverse
 
-Je \[Lam]suis accorte \[Sol]damoise\[Lam]lle
-Un mollet souple, un sou\[Sol]rire écla\[Lam]tant.
-On peut me parler \[Sol]baga\[Lam]telle
-Sans que je m'échappe \[Sol]en hur\[Do Sol Lam Sol]lant.
-\endverse
+    Je \[Lam]suis accorte \[Sol]damoise\[Lam]lle
+    Un mollet souple, un sou\[Sol]rire écla\[Lam]tant.
+    On peut me parler \[Sol]baga\[Lam]telle
+    Sans que je m'échappe \[Sol]en hur\[Do Sol Lam Sol]lant.
+  \endverse
 
-\beginverse*
-Mes cheveux d'or et mes grands yeux
-Ont tout pour charmer le manant,
-Et mon miroir me répond quand il veut:
-``Tu es la reine de céans.''
-\endverse
+  \beginverse*
+    Mes cheveux d'or et mes grands yeux
+    Ont tout pour charmer le manant,
+    Et mon miroir me répond quand il veut:
+    ``Tu es la reine de céans.''
+  \endverse
 
-\beginchorus
-\[Do]Alors, pourquoi ne \[Sol]suis-je pas prin\[Lam]cesse,
-Couverte d'\[Do]or et \[Sol]de bi\[Lam]joux ?
-\[Lam]Pourquoi ne \[Sol]suis-je \[Mim]pas du\[Lam]chesse,
-Avec des \[Do]sujets à ge\[Mim]noux ?
-\endchorus
+  \beginchorus
+    \[Do]Alors, pourquoi ne \[Sol]suis-je pas prin\[Lam]cesse,
+    Couverte d'\[Do]or et \[Sol]de bi\[Lam]joux ?
+    \[Lam]Pourquoi ne \[Sol]suis-je \[Mim]pas du\[Lam]chesse,
+    Avec des \[Do]sujets à ge\[Mim]noux ?
+  \endchorus
 
-\beginverse
-Mais voila qui je suis en vérité:
-Simple serveuse à l'auberge du Donjon.
-Aucun tourment ne m'est épargné,
-Au milieu de tous ces pochtrons.
-\endverse
+  \beginverse
+    Mais voila qui je suis en vérité:
+    Simple serveuse à l'auberge du Donjon.
+    Aucun tourment ne m'est épargné,
+    Au milieu de tous ces pochtrons.
+  \endverse
 
-\beginverse*
-Des nains ivrognes, de piètres aventuriers,
-Voila tout mon lot quotidien.
-L'orc videur veille à ma sécurité,
-Mais il lorgne surtout son verre de vin
-\endverse
+  \beginverse*
+    Des nains ivrognes, de piètres aventuriers,
+    Voila tout mon lot quotidien.
+    L'orc videur veille à ma sécurité,
+    Mais il lorgne surtout son verre de vin
+  \endverse
 
-\beginchorus
-Alors, pourquoi ne suis-je pas princesse,
-Avec mille paladins à mes pieds ?
-Ou même baronne ou comtesse,
-Tant qu'on m'admire comme il me sied.
-\endchorus
+  \beginchorus
+    Alors, pourquoi ne suis-je pas princesse,
+    Avec mille paladins à mes pieds ?
+    Ou même baronne ou comtesse,
+    Tant qu'on m'admire comme il me sied.
+  \endchorus
 
-\beginverse
-\[Mim]Oncques ne \[Do]vis cheva\[Sol]lier à mon \[Mim]bras,
-\[Mim]Oncques ne \[Do]revêtis \[Sol]robe de \[Mim]soie,
-\[Mim]Oncques ne che\[Do]vauche ale\[Sol]zan dans les \[Mim]bois,
-\[Do]Oncques, \[Sol]oncques, \[Lam]oncques.
-\endverse
+  \beginverse
+    \[Mim]Oncques ne \[Do]vis cheva\[Sol]lier à mon \[Mim]bras,
+    \[Mim]Oncques ne \[Do]revêtis \[Sol]robe de \[Mim]soie,
+    \[Mim]Oncques ne che\[Do]vauche ale\[Sol]zan dans les \[Mim]bois,
+    \[Do]Oncques, \[Sol]oncques, \[Lam]oncques.
+  \endverse
 
-\beginverse
-Quand bientôt l'aube point à l'horizon,
-Que le dernier poivrot s'est endormi,
-Je ramasse les cruches et les litrons,
-Balaie les restes de la nuit.
-\endverse
+  \beginverse
+    Quand bientôt l'aube point à l'horizon,
+    Que le dernier poivrot s'est endormi,
+    Je ramasse les cruches et les litrons,
+    Balaie les restes de la nuit.
+  \endverse
 
-\beginverse*
-Ivre de fatigue bien plus que de bière,
-Dans ma chambrette sous les toits,
-Je m'étale sur ma couche solitaire
-Après avoir chassé les rats.
-\endverse
+  \beginverse*
+    Ivre de fatigue bien plus que de bière,
+    Dans ma chambrette sous les toits,
+    Je m'étale sur ma couche solitaire
+    Après avoir chassé les rats.
+  \endverse
 
-\beginverse
-Et dans mes rêves je suis une princesse
-Et je n'astique aucun plateau.
-Le fils d'un roi me fait promesse
-De m'offrir son nom, son château.
-\endverse
+  \beginverse
+    Et dans mes rêves je suis une princesse
+    Et je n'astique aucun plateau.
+    Le fils d'un roi me fait promesse
+    De m'offrir son nom, son château.
+  \endverse
 
-\beginverse*
-J'oublie un temps ma vie de rien,
-Les cruches à bière et le graillon.
-Un jour c'est sûr, un noble paladin
-M'emmènera loin de ce donjon.
-\endverse
+  \beginverse*
+    J'oublie un temps ma vie de rien,
+    Les cruches à bière et le graillon.
+    Un jour c'est sûr, un noble paladin
+    M'emmènera loin de ce donjon.
+  \endverse
 
 \endsong
 

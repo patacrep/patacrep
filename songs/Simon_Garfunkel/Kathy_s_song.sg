@@ -1,48 +1,49 @@
 \songcolumns{2}
-\beginsong{Kathy's song}[by=Simon \& Garfunkel,cov=the-definitive]
+\beginsong{Kathy's song}
+  [by=Simon \& Garfunkel,cov=the-definitive]
 
-\cover
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Lam}{X02210}
-\gtab{Lam6}{2X2210}
-\gtab{Ré7}{XX0212}
-\gtab{Sim}{2:X02210}
-\gtab{Ré}{XX0232}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Lam6}{2X2210}
+  \gtab{Ré7}{XX0212}
+  \gtab{Sim}{2:X02210}
+  \gtab{Ré}{XX0232}
 
-\beginverse
-I hear \[Sol]the drizzle \[Do]of the rain\[Sol],
-\[Lam]Like a me\[Lam6]mory it falls\[Ré7],
-\[Sol]Soft and warm\[Sim] cont\[Sol]inu\[Do]ing,
-Ta\[Lam]pping on my \[Ré]roof and \[Do]walls\[Sol	Do	Sol].
-\endverse
+  \beginverse
+    I hear \[Sol]the drizzle \[Do]of the rain\[Sol],
+    \[Lam]Like a me\[Lam6]mory it falls\[Ré7],
+    \[Sol]Soft and warm\[Sim] cont\[Sol]inu\[Do]ing,
+    Ta\[Lam]pping on my \[Ré]roof and \[Do]walls\[Sol	Do	Sol].
+  \endverse
 
-\beginverse
-And from the shelter of my mind,
-Through the window of my eyes,
-I gaze beyond the rain drenched streets,
-To England were my heart lies.
-\endverse
+  \beginverse
+    And from the shelter of my mind,
+    Through the window of my eyes,
+    I gaze beyond the rain drenched streets,
+    To England were my heart lies.
+  \endverse
 
-\beginverse
-My mind's distracted and diffused,
-My thoughts are many miles away,
-They lie with you when you're asleep,
-And kiss you when you're start your day
-\endverse
+  \beginverse
+    My mind's distracted and diffused,
+    My thoughts are many miles away,
+    They lie with you when you're asleep,
+    And kiss you when you're start your day
+  \endverse
 
-\beginverse
-And a song I was writing, is left undone,
-I don't know why I spend my time,
-Writing songs I can't believe,
-Whith words that tear and strain to rhyme.
-\endverse
+  \beginverse
+    And a song I was writing, is left undone,
+    I don't know why I spend my time,
+    Writing songs I can't believe,
+    Whith words that tear and strain to rhyme.
+  \endverse
 
-\beginverse
-And as I watch the drops of rain,
-Weave their weary paths and die,
-I know that I am like the rain,
-There but for the grace of you go I.
-\endverse
+  \beginverse
+    And as I watch the drops of rain,
+    Weave their weary paths and die,
+    I know that I am like the rain,
+    There but for the grace of you go I.
+  \endverse
 
 \endsong

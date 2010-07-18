@@ -1,63 +1,64 @@
 \songcolumns{2}
-\beginsong{Cupidon s'en fout}[by=Georges Brassens,cov=don-juan]
+\beginsong{Cupidon s'en fout}
+  [by=Georges Brassens,cov=don-juan]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Do}{332010}
-\gtab{Mi}{022100}
-\gtab{Sol7}{320001}
-\gtab{Rém}{XX0231}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{3:022100}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{332010}
+  \gtab{Mi}{022100}
+  \gtab{Sol7}{320001}
+  \gtab{Rém}{XX0231}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{3:022100}
 
-\lilypond{Cupidon_s_en_fout}
+  \lilypond{Cupidon_s_en_fout}
 
-\beginverse
-\[Lam]Pour changer en amour notre amourette
-Il s'en \[Do]serait pas fallu de beau\[Mi]coup
-Mais, ce jour-là, Vénus était distraite
-\endverse
+  \beginverse
+    \[Lam]Pour changer en amour notre amourette
+    Il s'en \[Do]serait pas fallu de beau\[Mi]coup
+    Mais, ce jour-là, Vénus était distraite
+  \endverse
 
-\beginchorus
-Il est des \[Lam]jours où \[Sol7]Cupidon s'en \[Do]fout
-Il est des \[Rém]jours où \[Mi]Cupidon s'en \[Lam]fout
-{\nolyrics \[Fa] \[Sol] \[Do] \[Rém] \[Mi] \[Lam]}
-\endchorus
+  \beginchorus
+    Il est des \[Lam]jours où \[Sol7]Cupidon s'en \[Do]fout
+    Il est des \[Rém]jours où \[Mi]Cupidon s'en \[Lam]fout
+    {\nolyrics \[Fa] \[Sol] \[Do] \[Rém] \[Mi] \[Lam]}
+  \endchorus
 
-\beginverse
-Des jours où il joue les mouches du coche
-Où elles sont émoussées dans le bout
-Les flèches courtoises qu'il nous décoche
-\endverse
+  \beginverse
+    Des jours où il joue les mouches du coche
+    Où elles sont émoussées dans le bout
+    Les flèches courtoises qu'il nous décoche
+  \endverse
 
-\beginverse
-Se consacrant à d'autres imbéciles
-Il n'eu pas l'heur de s'occuper de nous
-Avec son arc et tous ses ustensiles
-\endverse
+  \beginverse
+    Se consacrant à d'autres imbéciles
+    Il n'eu pas l'heur de s'occuper de nous
+    Avec son arc et tous ses ustensiles
+  \endverse
 
-\beginverse
-On a tenté sans lui d'ouvrir la fête
-Sur l'herbe tendre, on s'est roulés, mais vous
-Avez perdu la vertu, pas la tête
-\endverse
+  \beginverse
+    On a tenté sans lui d'ouvrir la fête
+    Sur l'herbe tendre, on s'est roulés, mais vous
+    Avez perdu la vertu, pas la tête
+  \endverse
 
-\beginverse
-Si vous m'avez donné toute licence
-Le cœur, hélas, n'était pas dans le coup
-Le feu sacré brillait par son absence
-\endverse
+  \beginverse
+    Si vous m'avez donné toute licence
+    Le cœur, hélas, n'était pas dans le coup
+    Le feu sacré brillait par son absence
+  \endverse
 
-\beginverse
-On effeuilla vingt fois la marguerite
-Elle tomba vingt fois sur ``pas du tout''
-Et notre pauvre idylle a fait faillite
-\endverse
+  \beginverse
+    On effeuilla vingt fois la marguerite
+    Elle tomba vingt fois sur ``pas du tout''
+    Et notre pauvre idylle a fait faillite
+  \endverse
 
-\beginverse
-Quand vous irez au bois conter fleurette
-Jeunes galants, le ciel soit avec vous
-Je n'eus pas cette chance et le regrette
-\endverse
+  \beginverse
+    Quand vous irez au bois conter fleurette
+    Jeunes galants, le ciel soit avec vous
+    Je n'eus pas cette chance et le regrette
+  \endverse
 
 \endsong

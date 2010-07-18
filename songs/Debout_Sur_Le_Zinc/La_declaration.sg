@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{La déclaration}[by=Debout sur le Zinc,cov=les-promesses]
+\beginsong{La déclaration}
+  [by=Debout sur le Zinc,cov=les-promesses]
 
   \cover
   \gtab{Mim}{022000}

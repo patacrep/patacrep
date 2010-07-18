@@ -1,106 +1,107 @@
 \songcolumns{2}
-\beginsong{Sainte C\'ecile}[by=Mes souliers sont rouges,cov=proches]
+\beginsong{Sainte Cécile}
+  [by=Mes souliers sont rouges,cov=proches]
 
 
-\cover
-\gtab{Rém}{5:X02210}
-\gtab{La7}{5:020100}
-\gtab{Do}{3:X02220}
-\gtab{Fa}{1:022100}
-\gtab{Solm}{3:022000}
-\gtab{Si&}{6:022100}
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{La7}{5:020100}
+  \gtab{Do}{3:X02220}
+  \gtab{Fa}{1:022100}
+  \gtab{Solm}{3:022000}
+  \gtab{Si&}{6:022100}
 
- \beginverse
-De bon ma\[Rém]tin, je suis parti
-Direction \[La7]le conserva\[Rém]toire
-J'avais \[Rém]rendez-vous à la demi
-Pour donner \[Do]un cours de gui\[Fa]tare
-Sur le che\[Solm]min, j'ai rencon\[Rém]tré
-Un vieux \[La7]poto. Les retrou\[Rém]vailles
-Ont eu lieu au fond d'un tro\[La7]quet
-\echo{Patron six barons et deux pailles}
-\endverse
+  \beginverse
+    De bon ma\[Rém]tin, je suis parti
+    Direction \[La7]le conserva\[Rém]toire
+    J'avais \[Rém]rendez-vous à la demi
+    Pour donner \[Do]un cours de gui\[Fa]tare
+    Sur le che\[Solm]min, j'ai rencon\[Rém]tré
+    Un vieux \[La7]poto. Les retrou\[Rém]vailles
+    Ont eu lieu au fond d'un tro\[La7]quet
+    \echo{Patron six barons et deux pailles}
+  \endverse
 
-\beginchorus
-Gueule en \[Rém]vrac et tête dans l'seau
-On n'a pas \[Si&]des métiers fa\[La7]ciles
-C'est la pa\[Rém]tronne des musicos
-J'vais mettre un \[Si&]cierge à \[La7]Sainte Cé\[Rém]cile \rep{2}
-\endchorus
+  \beginchorus
+    Gueule en \[Rém]vrac et tête dans l'seau
+    On n'a pas \[Si&]des métiers fa\[La7]ciles
+    C'est la pa\[Rém]tronne des musicos
+    J'vais mettre un \[Si&]cierge à \[La7]Sainte Cé\[Rém]cile \rep{2}
+  \endchorus
 
-\beginverse
-De bon matin, je redémarre
-Cette fois direction le studio
-J'avais rendez-vous à moins l'quart
-Avec la bande des technicos
-35ème prise, un pain par note,
-Ils veulent me passer à tabac
-Alors on s'est rincé la glotte
-Ça ira mieux la prochaine fois
-\endverse
+  \beginverse
+    De bon matin, je redémarre
+    Cette fois direction le studio
+    J'avais rendez-vous à moins l'quart
+    Avec la bande des technicos
+    35ème prise, un pain par note,
+    Ils veulent me passer à tabac
+    Alors on s'est rincé la glotte
+    Ça ira mieux la prochaine fois
+  \endverse
 
-\beginchorus
-Des kangourous dans la citrouille
-On n'a pas des métiers faciles
-C'est la patronne de la gratouille
-J'vais mettre un cierge à Sainte Cécile \rep{2}
-\endchorus
+  \beginchorus
+    Des kangourous dans la citrouille
+    On n'a pas des métiers faciles
+    C'est la patronne de la gratouille
+    J'vais mettre un cierge à Sainte Cécile \rep{2}
+  \endchorus
 
 
-\lilypond{Sainte_Cecile}
+  \lilypond{Sainte_Cecile}
 
-\beginverse
-De bon matin me v'là r'parti
-Direction la salle de concert
-J'avais rendez-vous à midi
-Pour la balance une belle galère
-Question sono y'avait mal donne
-Le son était vraiment pourri
-Pour ménager nos acouphones
-On s'est immergé dans l'whisky
-\endverse
+  \beginverse
+    De bon matin me v'là r'parti
+    Direction la salle de concert
+    J'avais rendez-vous à midi
+    Pour la balance une belle galère
+    Question sono y'avait mal donne
+    Le son était vraiment pourri
+    Pour ménager nos acouphones
+    On s'est immergé dans l'whisky
+  \endverse
 
-\beginchorus
-C'est le black out, solo d'cuvette
-On n'a pas des métiers faciles
-Patronne des brailleux d'chansonnettes
-J'vais mettre un cierge à Sainte Cécile
-\endchorus
+  \beginchorus
+    C'est le black out, solo d'cuvette
+    On n'a pas des métiers faciles
+    Patronne des brailleux d'chansonnettes
+    J'vais mettre un cierge à Sainte Cécile
+  \endchorus
 
-\beginverse
-De bon matin ça recommence
-Rendez-vous chez le producteur
-Pour une fois je suis en avance
-Faut dire que j'étais mort de peur
-Pour passer l'temps et m'rassurer
-J'allume une cigarette au gaz
-Quand le requin est arrivé
-J'étais à cheval sur un nuaze
-\endverse
+  \beginverse
+    De bon matin ça recommence
+    Rendez-vous chez le producteur
+    Pour une fois je suis en avance
+    Faut dire que j'étais mort de peur
+    Pour passer l'temps et m'rassurer
+    J'allume une cigarette au gaz
+    Quand le requin est arrivé
+    J'étais à cheval sur un nuaze
+  \endverse
 
-\beginchorus
-Concert d'enclumes dans la cervelle
-On n'a pas des métiers faciles
-C'est la patronne des ménestrels
-J'vais mettre un cierge à Sainte Cécile
-\endchorus
+  \beginchorus
+    Concert d'enclumes dans la cervelle
+    On n'a pas des métiers faciles
+    C'est la patronne des ménestrels
+    J'vais mettre un cierge à Sainte Cécile
+  \endchorus
 
-\beginverse
-De bon matin je reste au lit
-On n'attaque pas avant ce soir
-Je téléphone à ma ptite amie
-Viens j'passe la journée au plumard
-Elle est v'nue avec des renforts
-J'ai invité deux trois copains
-On s'est mélangé tellement fort
-Qu'on s'est démêlé que l'lend'main
-\endverse
+  \beginverse
+    De bon matin je reste au lit
+    On n'attaque pas avant ce soir
+    Je téléphone à ma ptite amie
+    Viens j'passe la journée au plumard
+    Elle est v'nue avec des renforts
+    J'ai invité deux trois copains
+    On s'est mélangé tellement fort
+    Qu'on s'est démêlé que l'lend'main
+  \endverse
 
-\beginchorus
-Y'a plein d'brouillard, panne de radar 
-On n'a pas des métiers faciles
-Oui c'est la patronne des fêtards
-J'vais mettre un cierge à Sainte Cécile
-\endchorus
+  \beginchorus
+    Y'a plein d'brouillard, panne de radar 
+    On n'a pas des métiers faciles
+    Oui c'est la patronne des fêtards
+    J'vais mettre un cierge à Sainte Cécile
+  \endchorus
 
 \endsong

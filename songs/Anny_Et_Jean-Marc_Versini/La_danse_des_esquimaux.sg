@@ -1,25 +1,25 @@
 \songcolumns{2}
-\beginsong{La danse des esquimaux}[by=Anny et Jean-Marc Versini,cov=les-chansons-de-la-marmotte]
+\beginsong{La danse des esquimaux}
+  [by=Anny et Jean-Marc Versini,cov=les-chansons-de-la-marmotte]
 
-\capo{4}
-\cover
-\gtab{Do}{X32010}
-\gtab{Fa}{1:022100}
-\gtab{Mi7}{020100}
-\gtab{Lam}{X02210}
+  \capo{4}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi7}{020100}
+  \gtab{Lam}{X02210}
 
 
-\lilypond{La_danse_des_esquimaux}
+  \lilypond{La_danse_des_esquimaux}
 
-\beginverse
-\[Do]C'est une danse \[Fa]que l'on \[Do]danse \[Mi7]chez les esqui\[Lam]maux
-\[Do]Elle se danse \[Fa]en ca\[Do]dence \[Mi7]quand on n'a pas \[Lam]chaud
-\endverse
+  \beginverse
+    \[Do]C'est une danse \[Fa]que l'on \[Do]danse \[Mi7]chez les esqui\[Lam]maux
+    \[Do]Elle se danse \[Fa]en ca\[Do]dence \[Mi7]quand on n'a pas \[Lam]chaud
+  \endverse
 
-\beginchorus
-1,2,3,4,5,6 oh
-\endchorus
+  \beginchorus
+    1,2,3,4,5,6 oh
+  \endchorus
 
 \endsong
-
 

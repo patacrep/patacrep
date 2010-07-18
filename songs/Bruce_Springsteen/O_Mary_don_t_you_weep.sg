@@ -1,65 +1,66 @@
 \songcolumns{2}
-\beginsong{O Mary don't you weep}[by=Bruce Springsteen,cov=we-shall-overcome]
+\beginsong{O Mary don't you weep}
+  [by=Bruce Springsteen,cov=we-shall-overcome]
 
-\cover
-\gtab{Solm}{3:022000}
-\gtab{Ré7}{3:X2120X}
-\gtab{Dom}{3:X02210}
+  \cover
+  \gtab{Solm}{3:022000}
+  \gtab{Ré7}{3:X2120X}
+  \gtab{Dom}{3:X02210}
 
-\beginverse
-Well \[Solm]{if I could} I \[Ré7]surely would
-\[Ré7]Stand on the rock where \[Solm]Moses stood
-\[Dom]Pharaoh's army got \[Solm]drownded
-\[Ré7]{O Mary} don't you \[Solm]weep
-\endverse
+  \beginverse
+    Well \[Solm]{if I could} I \[Ré7]surely would
+    \[Ré7]Stand on the rock where \[Solm]Moses stood
+    \[Dom]Pharaoh's army got \[Solm]drownded
+    \[Ré7]{O Mary} don't you \[Solm]weep
+  \endverse
 
-\beginchorus
-\[Solm]{O Mary}, don't you \[Ré7]weep, don't you mourn
-\[Ré7]{O Mary}, don't you \[Solm]weep, don't you mourn
-\[Dom]Pharaoh's army got \[Solm]drownded
-\[Ré7]{O Mary}, don't you \[Solm]weep
-\endchorus
+  \beginchorus
+    \[Solm]{O Mary}, don't you \[Ré7]weep, don't you mourn
+    \[Ré7]{O Mary}, don't you \[Solm]weep, don't you mourn
+    \[Dom]Pharaoh's army got \[Solm]drownded
+    \[Ré7]{O Mary}, don't you \[Solm]weep
+  \endchorus
 
-\beginverse
-Well Mary wore three links of chain
-On every link was Jesus' name
-Pharaoh's army got drownded
-O Mary, don't you weep
-\endverse
+  \beginverse
+    Well Mary wore three links of chain
+    On every link was Jesus' name
+    Pharaoh's army got drownded
+    O Mary, don't you weep
+  \endverse
 
-\beginverse
-Well one of these nights bout 12 o'clock
-This old world is gonna rock
-Pharaoh's army got drownded
-O Mary, don't you weep
-\endverse
+  \beginverse
+    Well one of these nights bout 12 o'clock
+    This old world is gonna rock
+    Pharaoh's army got drownded
+    O Mary, don't you weep
+  \endverse
 
-\beginverse
-Well Moses stood on the Red Sea shore
-And smote the water with a two by four
-Pharaoh's army got drownded
-O Mary, don't you weep
-\endverse
+  \beginverse
+    Well Moses stood on the Red Sea shore
+    And smote the water with a two by four
+    Pharaoh's army got drownded
+    O Mary, don't you weep
+  \endverse
 
-\beginverse
-Well, old Mr. Satan he got mad
-Missed that soul that he thought he had
-Pharaoh's army get drownded
-O Mary, don't you weep
-\endverse
+  \beginverse
+    Well, old Mr. Satan he got mad
+    Missed that soul that he thought he had
+    Pharaoh's army get drownded
+    O Mary, don't you weep
+  \endverse
 
-\beginverse
-Brothers and sisters don't you cry
-They'll be good times by and by
-Pharaoh's army got drownded
-O Mary, don't you weep
-\endverse
+  \beginverse
+    Brothers and sisters don't you cry
+    They'll be good times by and by
+    Pharaoh's army got drownded
+    O Mary, don't you weep
+  \endverse
 
-\beginverse
-God gave Noah the rainbow sign
-Said, ``No more water, but fire next time''
-Pharaoh's army got drownded
-O Mary, don't you weep
-\endverse
+  \beginverse
+    God gave Noah the rainbow sign
+    Said, ``No more water, but fire next time''
+    Pharaoh's army got drownded
+    O Mary, don't you weep
+  \endverse
 
 \endsong

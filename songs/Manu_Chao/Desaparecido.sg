@@ -1,39 +1,40 @@
 \songcolumns{2}
-\beginsong{Desaparecido}[by=Manu Chao,cov=clandestino]
+\beginsong{Desaparecido}
+  [by=Manu Chao,cov=clandestino]
 
 
-\cover
-\gtab{Mi}{022100}
-\gtab{Lam}{X02210}
-\gtab{Rém}{XX0231}
+  \cover
+  \gtab{Mi}{022100}
+  \gtab{Lam}{X02210}
+  \gtab{Rém}{XX0231}
 
 
-\beginchorus
-Me llaman el desapare\[Mi]cido
-Cuando llega ya se ha i\[Lam]do 
-Volando vengo volando \[Mi]voy 
-Deprisa deprisa a rumbo \[Lam]perdido.
-\endchorus
+  \beginchorus
+    Me llaman el desapare\[Mi]cido
+    Cuando llega ya se ha i\[Lam]do 
+    Volando vengo volando \[Mi]voy 
+    Deprisa deprisa a rumbo \[Lam]perdido.
+  \endchorus
 
-\beginverse
-Cuando me buscan nunca es\[Rém]toy 
-Cuando me encuentran yo no \[Lam]soy 
-El que esta enfrete porque \[Mi]ya 
-Me fui corriendo mas \[Lam]allá
-\endverse
+  \beginverse
+    Cuando me buscan nunca es\[Rém]toy 
+    Cuando me encuentran yo no \[Lam]soy 
+    El que esta enfrete porque \[Mi]ya 
+    Me fui corriendo mas \[Lam]allá
+  \endverse
 
-\beginverse
-Me dicen el desaparecido
-Fantasma que nunca está
-Me dicen el desagradecido
-Pero esa no es la verdad
-\endverse
+  \beginverse
+    Me dicen el desaparecido
+    Fantasma que nunca está
+    Me dicen el desagradecido
+    Pero esa no es la verdad
+  \endverse
 
-\beginverse
-O llevo en el cuerpo un dolor 
-Que no me deja respirar 
-Llevo en el cuerpo una condena
-Que siempre me echa a caminar.
-\endverse
+  \beginverse
+    O llevo en el cuerpo un dolor 
+    Que no me deja respirar 
+    Llevo en el cuerpo una condena
+    Que siempre me echa a caminar.
+  \endverse
 
 \endsong

@@ -1,50 +1,51 @@
 \songcolumns{2}
-\beginsong{10 sous dans ma poche}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
+\beginsong{10 sous dans ma poche}
+  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Do}{X32010}
-\gtab{Mim}{022000}
-\gtab{Fa}{1:022100}
-\gtab{Mi7}{020100}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Mim}{022000}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi7}{020100}
 
-\lilypond{10_sous_dans_ma_poche-1}
+  \lilypond{10_sous_dans_ma_poche-1}
 
-\beginverse
-J'ai \[Lam]{10 sous} dans ma \[Sol]poche,
-J'ai \[Do]aucun ar\[Sol]gent
-\rep{4}
-\endverse
+  \beginverse
+    J'ai \[Lam]{10 sous} dans ma \[Sol]poche,
+    J'ai \[Do]aucun ar\[Sol]gent
+    \rep{4}
+  \endverse
 
-\beginchorus
-Et tou\[Lam]jours gai gai
-Et tou\[Mim]jours gaiement
-\[Fa]Y'a bien des gens
-Dans \[Sol]mon village
-Qui n'en \[Do]ont \[Mi7]pas \[Lam]tant.
-\rep{2}
-\endchorus
+  \beginchorus
+    Et tou\[Lam]jours gai gai
+    Et tou\[Mim]jours gaiement
+    \[Fa]Y'a bien des gens
+    Dans \[Sol]mon village
+    Qui n'en \[Do]ont \[Mi7]pas \[Lam]tant.
+    \rep{2}
+  \endchorus
 
-\beginverse
-J'ai 8 sous dans ma poche{\ldots}
-\endverse
+  \beginverse
+    J'ai 8 sous dans ma poche{\ldots}
+  \endverse
 
-\beginverse
-J'ai pas d'sous dans ma poche,
-J'ai aucun argent
-\endverse
+  \beginverse
+    J'ai pas d'sous dans ma poche,
+    J'ai aucun argent
+  \endverse
 
-\beginchorus
-Et mes poches sont vides
-Et oui c'est emmerdant
-Car c'est le nain
-Dans mon village
-Qui a tout l'argent.
-\endchorus
+  \beginchorus
+    Et mes poches sont vides
+    Et oui c'est emmerdant
+    Car c'est le nain
+    Dans mon village
+    Qui a tout l'argent.
+  \endchorus
 
-\lilypond{10_sous_dans_ma_poche-2}
+  \lilypond{10_sous_dans_ma_poche-2}
 
-\image{naheulbeuk07}{4}
+  \image{naheulbeuk07}{4}
 
 \endsong

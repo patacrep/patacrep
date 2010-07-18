@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Le moustique}[by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
+\beginsong{Le moustique}
+  [by=Joe Dassin,cov=le-meilleur-de-joe-dassin]
 
   \cover
   \gtab{Do7}{X32310}

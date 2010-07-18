@@ -1,42 +1,43 @@
 \songcolumns{2}
-\beginsong{Here comes my baby}[by=Cat Stevens,cov=matthew-and-son]
+\beginsong{Here comes my baby}
+  [by=Cat Stevens,cov=matthew-and-son]
 
-\cover
-\gtab{Sol}{320003}
-\gtab{Ré}{XX0232}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+  \gtab{Do}{X32010}
 
-\beginverse
-In the \[Sol]mid\[Ré]night \[Do]moon\[Sol]light \[Ré]I
-Will be \[Do]walking a \[Ré]long and lonely \[Sol]mile. \[Ré Do Ré]
-And \[Sol]eve\[Ré]ry \[Do]time \[Sol]I \[Ré]do
-I keep \[Do]seeing this pi\[Ré]cture of \[Sol]you. \[Ré Do]
-\endverse
+  \beginverse
+    In the \[Sol]mid\[Ré]night \[Do]moon\[Sol]light \[Ré]I
+    Will be \[Do]walking a \[Ré]long and lonely \[Sol]mile. \[Ré Do Ré]
+    And \[Sol]eve\[Ré]ry \[Do]time \[Sol]I \[Ré]do
+    I keep \[Do]seeing this pi\[Ré]cture of \[Sol]you. \[Ré Do]
+  \endverse
 
-\beginchorus
-\[Ré]Here comes my \[Sol]baby, \[Ré Do] 
-\[Ré]Here she comes \[Sol]now, \[Ré Do]
-\[Ré]And it \[Sol]comes as \[Ré]no sur\[Do]prise to \[Ré]me,
-\[Do]With another \[Ré]guy.
+  \beginchorus
+    \[Ré]Here comes my \[Sol]baby, \[Ré Do] 
+    \[Ré]Here she comes \[Sol]now, \[Ré Do]
+    \[Ré]And it \[Sol]comes as \[Ré]no sur\[Do]prise to \[Ré]me,
+    \[Do]With another \[Ré]guy.
 
-\[Ré]Here comes my \[Sol]baby, \[Ré Do]
-\[Ré]Here she comes \[Sol]now, \[Ré Do]
-\[Ré]Walking with a \[Sol]love, with a \[Ré]love that's \[Do]all so \[Ré]fine,
-\[Do]Never could be \[Ré]mine, no matter how I \[Sol]try. \[Ré Do Ré Sol]
-\endchorus
+    \[Ré]Here comes my \[Sol]baby, \[Ré Do]
+    \[Ré]Here she comes \[Sol]now, \[Ré Do]
+    \[Ré]Walking with a \[Sol]love, with a \[Ré]love that's \[Do]all so \[Ré]fine,
+    \[Do]Never could be \[Ré]mine, no matter how I \[Sol]try. \[Ré Do Ré Sol]
+  \endchorus
 
-\beginverse
-You never walk alone,
-And you're forever talking on the phone.
-I've tried to call you names,
-But every time it comes out the same.
-\endverse
+  \beginverse
+    You never walk alone,
+    And you're forever talking on the phone.
+    I've tried to call you names,
+    But every time it comes out the same.
+  \endverse
 
-\beginverse
-I'm still waiting for your heart,
-Cause I'm sure that some day it's gonna start.
-You'll be mine to hold each day,
-But 'till then, this is all that I can say.
-\endverse
+  \beginverse
+    I'm still waiting for your heart,
+    Cause I'm sure that some day it's gonna start.
+    You'll be mine to hold each day,
+    But 'till then, this is all that I can say.
+  \endverse
 
 \endsong

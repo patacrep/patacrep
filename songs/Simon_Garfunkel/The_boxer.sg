@@ -1,91 +1,92 @@
 \songcolumns{2}
-\beginsong{The boxer}[by=Simon \& Garfunkel,cov=concert-in-central-park]
+\beginsong{The boxer}
+  [by=Simon \& Garfunkel,cov=concert-in-central-park]
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Sol7}{320001}
-\gtab{Fa}{1:022100}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Sol7}{320001}
+  \gtab{Fa}{1:022100}
 
 
-\beginverse
-\[Do]{I am} just a poor boy, 
-Though my story is seldom \[Lam]told.
-I have \[Sol]squandered my resistance,
-For a \[Sol7]pocketful of \[Sol]mumbles, 
-Such are \[Do]promises.
-All lies and \[Lam]jest,
-Still a \[Sol]man hears
-What he \[Fa]wants to hear and 
-Disregards the \[Do]rest. \[Sol]\[Sol7]\[Sol]\[Do]
-\endverse
+  \beginverse
+    \[Do]{I am} just a poor boy, 
+    Though my story is seldom \[Lam]told.
+    I have \[Sol]squandered my resistance,
+    For a \[Sol7]pocketful of \[Sol]mumbles, 
+    Such are \[Do]promises.
+    All lies and \[Lam]jest,
+    Still a \[Sol]man hears
+    What he \[Fa]wants to hear and 
+    Disregards the \[Do]rest. \[Sol]\[Sol7]\[Sol]\[Do]
+  \endverse
 
-\beginverse
-When I left my home and my family
-I was no more than a boy,
-In the company of strangers,
-In the quiet of the railway station, 
-Runnin' scared.
-Laying low,
-Seeking out the poorer quarters,
-Where the ragged people go.
-Lookin' for the places,
-Only they would know.
-\endverse
+  \beginverse
+    When I left my home and my family
+    I was no more than a boy,
+    In the company of strangers,
+    In the quiet of the railway station, 
+    Runnin' scared.
+    Laying low,
+    Seeking out the poorer quarters,
+    Where the ragged people go.
+    Lookin' for the places,
+    Only they would know.
+  \endverse
 
-\beginchorus
-Lie-la-\[Lam]lie lie-la-\[Sol]lie-la-lie-la-lie
-Lie-la-\[Lam]lie 
-Lie-la-\[Fa]lie-la-lie-la-\[Sol]lie-la-la-lie-la-\[Do]lie
-\endchorus
+  \beginchorus
+    Lie-la-\[Lam]lie lie-la-\[Sol]lie-la-lie-la-lie
+    Lie-la-\[Lam]lie 
+    Lie-la-\[Fa]lie-la-lie-la-\[Sol]lie-la-la-lie-la-\[Do]lie
+  \endchorus
 
-\beginverse
-Asking only workman's wages
-I come lookin' for a job,
-But I get no offers,
-Just a come-on from the whores
-On Seventh Avenue.
-I do declare 
-There were times when I was so lonesome,
-That I took some comfort there.
-La, la, la, la, la, la, la.
-\endverse
+  \beginverse
+    Asking only workman's wages
+    I come lookin' for a job,
+    But I get no offers,
+    Just a come-on from the whores
+    On Seventh Avenue.
+    I do declare 
+    There were times when I was so lonesome,
+    That I took some comfort there.
+    La, la, la, la, la, la, la.
+  \endverse
 
-\lilypond{The_boxer}
+  \lilypond{The_boxer}
 
-\beginverse
-Now the years are rolling by me,
-They are rocking evenly
-And I am older than I once was
-And younger than I'll be,
-But that's not unusual.
-No, it isn't strange, 
-After changes upon changes
-We are more or less the same
-After changes we are more or less the same
-\endverse
+  \beginverse
+    Now the years are rolling by me,
+    They are rocking evenly
+    And I am older than I once was
+    And younger than I'll be,
+    But that's not unusual.
+    No, it isn't strange, 
+    After changes upon changes
+    We are more or less the same
+    After changes we are more or less the same
+  \endverse
 
-\beginverse
-And I'm laying out my winter clothes, 
-Wishing I was gone,
-Goin' home
-Where the New-York city winters aren't bleedin' me,
-Leadin' \[Lam]me goin' \[Sol]home.
-\endverse
+  \beginverse
+    And I'm laying out my winter clothes, 
+    Wishing I was gone,
+    Goin' home
+    Where the New-York city winters aren't bleedin' me,
+    Leadin' \[Lam]me goin' \[Sol]home.
+  \endverse
 
-\beginverse
-In the clearing stands a boxer
-And a fighter by his trade,
-And he carries the reminders
-Of every glove that laid him down,
-Or cut him 'til he cried out
-In his anger and his shame,
-``I am leaving, I am leaving.''
-But the fighter still remains.
-\endverse
+  \beginverse
+    In the clearing stands a boxer
+    And a fighter by his trade,
+    And he carries the reminders
+    Of every glove that laid him down,
+    Or cut him 'til he cried out
+    In his anger and his shame,
+    ``I am leaving, I am leaving.''
+    But the fighter still remains.
+  \endverse
 
-\image{overlord59-tux-trompette-1567}{4}
+  \image{overlord59-tux-trompette-1567}{4}
 
 \endsong

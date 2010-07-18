@@ -1,65 +1,66 @@
 \songcolumns{2}
-\beginsong{Et je bois}[by=Yves Jamait,cov=de-verre-en-vers]
+\beginsong{Et je bois}
+  [by=Yves Jamait,cov=de-verre-en-vers]
 
 
-\cover
-\gtab{Rém}{5:X02210}
-\gtab{Solm}{3:022000}
-\gtab{Si&}{6:022100}
-\gtab{La}{5:022100}
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{Solm}{3:022000}
+  \gtab{Si&}{6:022100}
+  \gtab{La}{5:022100}
 
-\beginverse
-La petite \[Rém]clope qui tue le spleen
-Vient de me \[Solm]réveiller un air
-Quelques ac\[Si&]cords que j'assassine
-Sur lesquels \[La]je pose mes vers
-Sans les ca\[Solm]sser je les entasse
-Dans des oc\[Rém]tosyllabes morts
-En atten\[Si&]dant que je trépasse
-D'en avoir \[La]apprécié le corps
-\endverse
+  \beginverse
+    La petite \[Rém]clope qui tue le spleen
+    Vient de me \[Solm]réveiller un air
+    Quelques ac\[Si&]cords que j'assassine
+    Sur lesquels \[La]je pose mes vers
+    Sans les ca\[Solm]sser je les entasse
+    Dans des oc\[Rém]tosyllabes morts
+    En atten\[Si&]dant que je trépasse
+    D'en avoir \[La]apprécié le corps
+  \endverse
 
-\beginchorus
-Et je \[Rém]bois, et je bois, et j'im\[Solm]bibe ma carcasse
-De tout ce \[Si&]qui coule, qui est fort alcooli\[La]sé et qui fracasse
-\rep{2}
-\endchorus
+  \beginchorus
+    Et je \[Rém]bois, et je bois, et j'im\[Solm]bibe ma carcasse
+    De tout ce \[Si&]qui coule, qui est fort alcooli\[La]sé et qui fracasse
+    \rep{2}
+  \endchorus
 
-\beginverse
-Je divague, je me ratatine
-Je vois mon avenir en vin
-Toutes mes émotions s'avinent
-Mes vers en deviennent divins
-Sur mes mots je pose mon prose
-Et propose un deal à la Lune
-Que Pierrot nous lâche les choses
-Et qu'il veuille nous laisser sa plume
-\endverse
+  \beginverse
+    Je divague, je me ratatine
+    Je vois mon avenir en vin
+    Toutes mes émotions s'avinent
+    Mes vers en deviennent divins
+    Sur mes mots je pose mon prose
+    Et propose un deal à la Lune
+    Que Pierrot nous lâche les choses
+    Et qu'il veuille nous laisser sa plume
+  \endverse
 
-\beginverse
-La première fois que je t'ai vue
-J'devais avoir la gueule dans l'cul
-Pour m'être laissé ainsi tenter
-Fallait-il que j'sois bourré
-Fallait-il que tu me plaises
-Je ne veux pas y penser
-Fallait-il que tu me baises
-Si bien que je suis resté
-\endverse
+  \beginverse
+    La première fois que je t'ai vue
+    J'devais avoir la gueule dans l'cul
+    Pour m'être laissé ainsi tenter
+    Fallait-il que j'sois bourré
+    Fallait-il que tu me plaises
+    Je ne veux pas y penser
+    Fallait-il que tu me baises
+    Si bien que je suis resté
+  \endverse
 
-\beginverse
-Le cœur et le corps avachis
-Me voilà donc sans toi chez nous
-Dans des relents de Givenchy
-J'écris des trucs sur le dégoût
-\endverse
+  \beginverse
+    Le cœur et le corps avachis
+    Me voilà donc sans toi chez nous
+    Dans des relents de Givenchy
+    J'écris des trucs sur le dégoût
+  \endverse
 
-\beginverse*
-Et ce soir si ma muse est brune
-Je voudrais la boire sur lie
-Ne garder d'elle que l'écume
-Le souvenir d'un oubli
-\rep{4}
-\endverse
+  \beginverse*
+    Et ce soir si ma muse est brune
+    Je voudrais la boire sur lie
+    Ne garder d'elle que l'écume
+    Le souvenir d'un oubli
+    \rep{4}
+  \endverse
 
 \endsong

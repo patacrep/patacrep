@@ -1,78 +1,79 @@
 \songcolumns{2}
-\beginsong{Petit Pierrot}[by=Oldelaf et Monsieur~D.,cov=chansons-cons]
+\beginsong{Petit Pierrot}
+  [by=Oldelaf et Monsieur~D.,cov=chansons-cons]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Rém}{XX0231}
-\gtab{Mi7}{020100}
-\gtab{Sol7}{320001}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Rém}{XX0231}
+  \gtab{Mi7}{020100}
+  \gtab{Sol7}{320001}
+  \gtab{Do}{X32010}
 
 
 
-\beginverse
-\[Lam]Ton enfance n'a pas tou\[Rém]jours été rose
-\[Mi7]Quand t'es né, ton père sor\[Lam]tait d'une cirrhose
-\[Lam]Et quand, bébé, tu pleu\[Rém]rais dans ton parc,
-\[Mi7]Il t'mettait une \[Lam]claque !
-\endverse
+  \beginverse
+    \[Lam]Ton enfance n'a pas tou\[Rém]jours été rose
+    \[Mi7]Quand t'es né, ton père sor\[Lam]tait d'une cirrhose
+    \[Lam]Et quand, bébé, tu pleu\[Rém]rais dans ton parc,
+    \[Mi7]Il t'mettait une \[Lam]claque !
+  \endverse
 
-\beginchorus
-\[Sol7]Petit Pier\[Do]rot,
-\[Mi7]Tu n'es pas \[Lam]beau;
-\[Sol7]Pauvre pe\[Do]tit,
-\[Mi7]Ta joue rou\[Lam]git \dots
-\endchorus
+  \beginchorus
+    \[Sol7]Petit Pier\[Do]rot,
+    \[Mi7]Tu n'es pas \[Lam]beau;
+    \[Sol7]Pauvre pe\[Do]tit,
+    \[Mi7]Ta joue rou\[Lam]git \dots
+  \endchorus
 
-\beginverse
-Puis à l'école, ce fut pas l'pied non plus,
-Car dans la cour, c'était un peu tendu:
-Quand tu disais: ``C'est moi, Goldorak !''
-Tu t'mangeais une claque !
-\endverse
+  \beginverse
+    Puis à l'école, ce fut pas l'pied non plus,
+    Car dans la cour, c'était un peu tendu:
+    Quand tu disais: ``C'est moi, Goldorak !''
+    Tu t'mangeais une claque !
+  \endverse
 
-\beginverse
-Alors t'allais voir le méd'cin scolaire,
-Luc Ballouchard, un type patibulaire,
-Tu lui disais: ``J'me sens un p'tit peu patraque''
-Une claque !
-\endverse
+  \beginverse
+    Alors t'allais voir le méd'cin scolaire,
+    Luc Ballouchard, un type patibulaire,
+    Tu lui disais: ``J'me sens un p'tit peu patraque''
+    Une claque !
+  \endverse
 
-\beginverse
-Ton père avait de l'ambition pour toi,
-Il disait: ``J'veux qu'tu fais flic, comme papa !''
-Tu répondis: ``Papa, moi, j'veux avoir mon bac''
-Bon, celle-là, tu l'as cherchée aussi \dots
-\endverse
+  \beginverse
+    Ton père avait de l'ambition pour toi,
+    Il disait: ``J'veux qu'tu fais flic, comme papa !''
+    Tu répondis: ``Papa, moi, j'veux avoir mon bac''
+    Bon, celle-là, tu l'as cherchée aussi \dots
+  \endverse
 
-\beginverse
-Puis tu l'as eu, mention très bien, respect !
-Ta mère te voyait déjà en Math Spé.
-Tu lui dit: ``Maman, moi, j'veux faire musico à la fac !
-\dots ~heu, une claque ?
-- Non coup d'nunchak !''
-\endverse
+  \beginverse
+    Puis tu l'as eu, mention très bien, respect !
+    Ta mère te voyait déjà en Math Spé.
+    Tu lui dit: ``Maman, moi, j'veux faire musico à la fac !
+    \dots ~heu, une claque ?
+    - Non coup d'nunchak !''
+  \endverse
 
-\beginverse
-Quand Vigipirate s'est mis à tomber,
-Comme t'étais laid, les flics t'ont embarqué
-Pour déconner, t'as dit: ``Y'a quelqu'un qui veut du crack ?''
-Pareil \dots
-\endverse
+  \beginverse
+    Quand Vigipirate s'est mis à tomber,
+    Comme t'étais laid, les flics t'ont embarqué
+    Pour déconner, t'as dit: ``Y'a quelqu'un qui veut du crack ?''
+    Pareil \dots
+  \endverse
 
-\beginverse
-Un jour, tu as eu trente ans et demi,
-Tu t'es dit: ``Faudrait qu'j'ai une relation avec une fille !''
-À une soirée, t'as vu Amélie Mauresmo, tu lui as fait un smack,
-Tu t'es mangé une putain de claque !
-\endverse
+  \beginverse
+    Un jour, tu as eu trente ans et demi,
+    Tu t'es dit: ``Faudrait qu'j'ai une relation avec une fille !''
+    À une soirée, t'as vu Amélie Mauresmo, tu lui as fait un smack,
+    Tu t'es mangé une putain de claque !
+  \endverse
 
-\beginverse
-Mais comme au bout de certaines histoires
-Où le héros de quelques chansons noires
-De nos confrères les Ogres de Barback
-Il claque !
-\endverse
+  \beginverse
+    Mais comme au bout de certaines histoires
+    Où le héros de quelques chansons noires
+    De nos confrères les Ogres de Barback
+    Il claque !
+  \endverse
 
 \endsong

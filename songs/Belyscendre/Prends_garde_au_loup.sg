@@ -1,36 +1,37 @@
 \songcolumns{2}
-\beginsong{Prends garde au loup}[by=Belyscendre,cov=prends-garde-au-loup]
+\beginsong{Prends garde au loup}
+  [by=Belyscendre,cov=prends-garde-au-loup]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Rém}{XX0231}
-\gtab{Sol}{320003}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
 
-\beginchorus
-Prends garde au \[Lam]loup bergère,
-\[Fa]Prends garde au \[Lam]loup~\rep{2}
-\endchorus
+  \beginchorus
+    Prends garde au \[Lam]loup bergère,
+    \[Fa]Prends garde au \[Lam]loup~\rep{2}
+  \endchorus
 
-\beginverse
-\[Lam]{Il est} au \[Rém]bois qui re\[Sol]garde, qui regarde
-\[Lam]{Il est} au \[Rém]bois qui re\[Sol]garde tes mou\[Lam]tons
-\endverse
+  \beginverse
+    \[Lam]{Il est} au \[Rém]bois qui re\[Sol]garde, qui regarde
+    \[Lam]{Il est} au \[Rém]bois qui re\[Sol]garde tes mou\[Lam]tons
+  \endverse
 
-\beginchorus
-C'est pas le loup bergère,
-C'est pas le loup~\rep{2}
-\endchorus
+  \beginchorus
+    C'est pas le loup bergère,
+    C'est pas le loup~\rep{2}
+  \endchorus
 
-\beginverse
-C'est les garçons et qui tournent et qui tournent
-C'est les garçons et qui tournent autour de vous
-\endverse
+  \beginverse
+    C'est les garçons et qui tournent et qui tournent
+    C'est les garçons et qui tournent autour de vous
+  \endverse
 
-\beginchorus
-Prends garde au loup bergère,
-Prends garde au loup~\rep{2}
-\endchorus
+  \beginchorus
+    Prends garde au loup bergère,
+    Prends garde au loup~\rep{2}
+  \endchorus
 
 \endsong
 

@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{L'aventurier}[by=Indochine,cov=generation-indochine]
+\beginsong{L'aventurier}
+  [by=Indochine,cov=generation-indochine]
 
   \cover
   \gtab{Lam}{X02210}

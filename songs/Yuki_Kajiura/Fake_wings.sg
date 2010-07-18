@@ -1,39 +1,40 @@
 \songcolumns{2}
-\beginsong{Fake wings}[by=Yuki Kajiura,cov=fiction]
+\beginsong{Fake wings}
+  [by=Yuki Kajiura,cov=fiction]
 
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Rém}{XX0231}
-\gtab{Sol}{320003}
-\gtab{Fa}{1: 022100}
-\gtab{Do}{X32010}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1: 022100}
+  \gtab{Do}{X32010}
 
 
-\beginverse
-\[Lam]Shine
-Bright morning \[Rém]light
-\[Sol]Now in the \[Fa]air
-The \[Sol]spring is \[Lam]coming
-\endverse
+  \beginverse
+    \[Lam]Shine
+    Bright morning \[Rém]light
+    \[Sol]Now in the \[Fa]air
+    The \[Sol]spring is \[Lam]coming
+  \endverse
 
-\beginverse
-Sweet
-Blowing wind
-Singing down
-The hills and valleys
-\endverse
+  \beginverse
+    Sweet
+    Blowing wind
+    Singing down
+    The hills and valleys
+  \endverse
 
-\beginchorus
-\[Fa]Keep your eyes on \[Do]me
-Now we're \[Rém]on the edge of \[Mi]hell
-\endchorus
+  \beginchorus
+    \[Fa]Keep your eyes on \[Do]me
+    Now we're \[Rém]on the edge of \[Mi]hell
+  \endchorus
 
-\beginverse
-Dear my love,
-Sweet morning light
-Wait for me,
-You've gone much farther, too far
-\endverse
+  \beginverse
+    Dear my love,
+    Sweet morning light
+    Wait for me,
+    You've gone much farther, too far
+  \endverse
 
 \endsong

@@ -1,110 +1,111 @@
 \songcolumns{2}
-\beginsong{Emmenez-moi}[by=Charles Aznavour,cov=40-chansons-d-or]
+\beginsong{Emmenez-moi}
+  [by=Charles Aznavour,cov=40-chansons-d-or]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
-\gtab{Mi7}{020100}
-\gtab{Fa}{1:022100}
-\gtab{Do}{X32010}
-\gtab{Mi}{022100}
-\gtab{Sol7}{320001}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Mi7}{020100}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Mi}{022100}
+  \gtab{Sol7}{320001}
 
-\beginverse
-Vers les \[Lam]docks où le poids et l'en\[Sol]nui
-Me courbent le \[Lam]dos\[Mi7]
-Ils ar\[Lam]rivent le ventre alour\[Sol]di
-De fruits, les ba\[Lam]teaux\[Mi7]
-\endverse
+  \beginverse
+    Vers les \[Lam]docks où le poids et l'en\[Sol]nui
+    Me courbent le \[Lam]dos\[Mi7]
+    Ils ar\[Lam]rivent le ventre alour\[Sol]di
+    De fruits, les ba\[Lam]teaux\[Mi7]
+  \endverse
 
-\beginverse*
-\[Fa]Ils viennent du bout du \[Sol]monde
-Apportant avec \[Fa]eux
-Des idées vaga\[Sol]bondes
-Aux reflets de ciels \[Fa]bleus
-De mi\[Do]rages
-\endverse
+  \beginverse*
+    \[Fa]Ils viennent du bout du \[Sol]monde
+    Apportant avec \[Fa]eux
+    Des idées vaga\[Sol]bondes
+    Aux reflets de ciels \[Fa]bleus
+    De mi\[Do]rages
+  \endverse
 
-\beginverse*
-\[Do]Traînant un parfum poi\[Fa]vré
-De pays incon\[Do]nus
-Et d'éternels é\[Fa]tés
-Où l'on vit presque \[Do]nus
-Sur les \[Mi7]plages
-\endverse
+  \beginverse*
+    \[Do]Traînant un parfum poi\[Fa]vré
+    De pays incon\[Do]nus
+    Et d'éternels é\[Fa]tés
+    Où l'on vit presque \[Do]nus
+    Sur les \[Mi7]plages
+  \endverse
 
-\beginverse*
-Moi qui \[Lam]n'ai connu toute ma \[Sol]vie
-Que le ciel du \[Lam]Nord\[Mi7]
-J'aime\[Lam]rais débarbouiller ce \[Sol]gris
-En virant de \[Lam]bord
-\endverse
+  \beginverse*
+    Moi qui \[Lam]n'ai connu toute ma \[Sol]vie
+    Que le ciel du \[Lam]Nord\[Mi7]
+    J'aime\[Lam]rais débarbouiller ce \[Sol]gris
+    En virant de \[Lam]bord
+  \endverse
 
-\beginchorus
-\[Lam]Em\[Mi]me\[Lam]nez-\[Sol7]moi au bout de la \[Do]terre
-Emmenez-\[Sol7]moi au pays des mer\[Do]veilles
-Il me \[Mi7]semble que la mi\[Lam]sère
-Se\[Fa]rait moins pé\[Mi7]nible au so\[Lam]leil
-\endchorus
+  \beginchorus
+    \[Lam]Em\[Mi]me\[Lam]nez-\[Sol7]moi au bout de la \[Do]terre
+    Emmenez-\[Sol7]moi au pays des mer\[Do]veilles
+    Il me \[Mi7]semble que la mi\[Lam]sère
+    Se\[Fa]rait moins pé\[Mi7]nible au so\[Lam]leil
+  \endchorus
 
-\beginverse
-Dans les bars à la tombée du jour
-Avec les marins
-Quand on parle de filles et d'amour
-Un verre à la main
-\endverse
+  \beginverse
+    Dans les bars à la tombée du jour
+    Avec les marins
+    Quand on parle de filles et d'amour
+    Un verre à la main
+  \endverse
 
-\beginverse*
-Je perds la notion des choses
-Et soudain ma pensée
-M'enlève et me dépose
-Un merveilleux été
-Sur la grève
-\endverse
+  \beginverse*
+    Je perds la notion des choses
+    Et soudain ma pensée
+    M'enlève et me dépose
+    Un merveilleux été
+    Sur la grève
+  \endverse
 
-\beginverse*
-Où je vois tendant les bras
-L'amour qui comme un fou
-Court au devant de moi
-Et je me pends au cou
-De mon rêve
-\endverse
+  \beginverse*
+    Où je vois tendant les bras
+    L'amour qui comme un fou
+    Court au devant de moi
+    Et je me pends au cou
+    De mon rêve
+  \endverse
 
-\beginverse*
-Quand les bars ferment que les marins
-Rejoignent leur bord
-Moi je rêve encore jusqu'au matin
-Debout sur le port
-\endverse
+  \beginverse*
+    Quand les bars ferment que les marins
+    Rejoignent leur bord
+    Moi je rêve encore jusqu'au matin
+    Debout sur le port
+  \endverse
 
-\beginverse
-Un beau jour sur un rafiot craquant
-De la coque au pont
-Pour partir je travaillerai dans
-La soute à charbon
-\endverse
+  \beginverse
+    Un beau jour sur un rafiot craquant
+    De la coque au pont
+    Pour partir je travaillerai dans
+    La soute à charbon
+  \endverse
 
-\beginverse*
-Prenant la route qui mène
-À mes rêves d'enfant
-Sur des îles lointaines
-Où rien n'est important
-Que de vivre
-\endverse
+  \beginverse*
+    Prenant la route qui mène
+    À mes rêves d'enfant
+    Sur des îles lointaines
+    Où rien n'est important
+    Que de vivre
+  \endverse
 
-\beginverse*
-Où les filles alanguies
-Vous ravissent le cœur
-En tressant m'a t'on dit
-De ces colliers de fleurs
-Qui enivrent
-\endverse
+  \beginverse*
+    Où les filles alanguies
+    Vous ravissent le cœur
+    En tressant m'a t'on dit
+    De ces colliers de fleurs
+    Qui enivrent
+  \endverse
 
-\beginverse*
-Je fuirai laissant là mon passé
-Sans aucun remords
-Sans bagage et le cœur libéré
-En chantant très fort
-\endverse
+  \beginverse*
+    Je fuirai laissant là mon passé
+    Sans aucun remords
+    Sans bagage et le cœur libéré
+    En chantant très fort
+  \endverse
 
 \endsong

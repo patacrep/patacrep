@@ -1,58 +1,59 @@
 \songcolumns{2}
-\beginsong{La mouche bleue}[by=Graeme Allwright,cov=emmene-moi]
+\beginsong{La mouche bleue}
+  [by=Graeme Allwright,cov=emmene-moi]
 
-\cover
-\gtab{Ré}{XX0232}
-\gtab{La}{X02220}
-\gtab{Sol}{320003}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Sol}{320003}
 
-\beginverse
-\[Ré]Quand j'étais jeune, je ser\[Sol]vais mon maître
-Et je lui \[Ré]passais \[La]son assiette
-\[Ré]Et la bouteille \[Sol]de vin vieux
-Et je \[La]chassais toutes les \[Ré]mouches bleues
-\endverse
+  \beginverse
+    \[Ré]Quand j'étais jeune, je ser\[Sol]vais mon maître
+    Et je lui \[Ré]passais \[La]son assiette
+    \[Ré]Et la bouteille \[Sol]de vin vieux
+    Et je \[La]chassais toutes les \[Ré]mouches bleues
+  \endverse
 
-\beginchorus
-\[Ré]Jimmy est gai et \[La]il s'en fout
-\[La]Jimmy est gai et \[Ré]il s'en fout
-\[Ré]Jimmy est gai et \[Sol]il s'en fout
-Son \[Ré]maître s'en \[La]est al\[Ré]lé
-\endchorus
+  \beginchorus
+    \[Ré]Jimmy est gai et \[La]il s'en fout
+    \[La]Jimmy est gai et \[Ré]il s'en fout
+    \[Ré]Jimmy est gai et \[Sol]il s'en fout
+    Son \[Ré]maître s'en \[La]est al\[Ré]lé
+  \endchorus
 
-\beginverse
-Quand il montait sur son bidet
-Je chassais les mouches avec mon balais
-Son cheval devenait fou furieux
-Piqué par la mouche bleue
-\endverse
+  \beginverse
+    Quand il montait sur son bidet
+    Je chassais les mouches avec mon balais
+    Son cheval devenait fou furieux
+    Piqué par la mouche bleue
+  \endverse
 
-\beginverse
-Un jour à cheval il s'en allait
-Autour d'la bête, les mouches volaient
-Une l'a piqué derrière la queue
-Le diable emporte la mouche bleue
-\endverse
+  \beginverse
+    Un jour à cheval il s'en allait
+    Autour d'la bête, les mouches volaient
+    Une l'a piqué derrière la queue
+    Le diable emporte la mouche bleue
+  \endverse
 
-\beginverse
-La bête est partie au galop
-Mon maître s'est trouvé sur le dos
-Il est mort en criant: ``Morbleu
-Je maudis toutes les mouches bleues !''
-\endverse
+  \beginverse
+    La bête est partie au galop
+    Mon maître s'est trouvé sur le dos
+    Il est mort en criant: ``Morbleu
+    Je maudis toutes les mouches bleues !''
+  \endverse
 
-\beginverse
-La Justice a suivi son cours
-Le jury se demande toujours
-Si le verdict était bien sérieux:
-``Tué par une mouche bleue.''
-\endverse
+  \beginverse
+    La Justice a suivi son cours
+    Le jury se demande toujours
+    Si le verdict était bien sérieux:
+    ``Tué par une mouche bleue.''
+  \endverse
 
-\beginverse
-Sur sa tombe, au pied d'un bouleau
-On a gravé ces tristes mots:
-``Ici repose un malheureux,
-Victime de la mouche bleue.''
-\endverse
+  \beginverse
+    Sur sa tombe, au pied d'un bouleau
+    On a gravé ces tristes mots:
+    ``Ici repose un malheureux,
+    Victime de la mouche bleue.''
+  \endverse
 
 \endsong

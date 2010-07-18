@@ -1,33 +1,34 @@
 \songcolumns{1}
-\beginsong{Roulette}[by=System of a Down,cov=steal-this-album]
+\beginsong{Roulette}
+  [by=System of a Down,cov=steal-this-album]
 
-\cover
-\gtab{Dom}{3:X02210}
-\gtab{Ré#}{6:X02220}
-\gtab{Si&}{1:X02220}
-\gtab{Do#}{4:X02220}
-\gtab{Sol#}{4:022100}
-\gtab{La#}{6:022100}
-\gtab{Sol}{3:022100}
+  \cover
+  \gtab{Dom}{3:X02210}
+  \gtab{Ré#}{6:X02220}
+  \gtab{Si&}{1:X02220}
+  \gtab{Do#}{4:X02220}
+  \gtab{Sol#}{4:022100}
+  \gtab{La#}{6:022100}
+  \gtab{Sol}{3:022100}
 
-\beginverse
-\[Dom]I have a \[Ré#]problem that \[Si&]I cannot e\[Do#]xplain,
-\[Do#]I have no \[Sol#]reason why it \[La#]should have  been so \[Dom]plain,
-\[Dom]Have no qu\[Ré#]estions but \[Si&]I sure have e\[Do#]xcuse,
-\[Do#]I lack the r\[Sol#]eason why I s\[La#]hould be so c\[Dom]onfused, 
-\endverse
+  \beginverse
+    \[Dom]I have a \[Ré#]problem that \[Si&]I cannot e\[Do#]xplain,
+    \[Do#]I have no \[Sol#]reason why it \[La#]should have  been so \[Dom]plain,
+    \[Dom]Have no qu\[Ré#]estions but \[Si&]I sure have e\[Do#]xcuse,
+    \[Do#]I lack the r\[Sol#]eason why I s\[La#]hould be so c\[Dom]onfused, 
+  \endverse
 
-\beginchorus
-\[Dom]I \[Sol]know, \[La#]how I \[La#]feel when \[Sol#]I'm a\[La#]round \[Dom]you,
-\[Dom]I, don't \[Sol]know, \[La#]how I \[La#]feel when \[Sol#]I'm \[Sol#]around \[Dom]you,
-Around you,
-\endchorus
+  \beginchorus
+    \[Dom]I \[Sol]know, \[La#]how I \[La#]feel when \[Sol#]I'm a\[La#]round \[Dom]you,
+    \[Dom]I, don't \[Sol]know, \[La#]how I \[La#]feel when \[Sol#]I'm \[Sol#]around \[Dom]you,
+    Around you,
+  \endchorus
 
-\beginverse
-Left a message but it ain't a bit of use,
-I have some pictures, the wild might be the deuce,
-Today you saw, you saw me, you explained,
-Playing the show and running down the plane,
-\endverse
+  \beginverse
+    Left a message but it ain't a bit of use,
+    I have some pictures, the wild might be the deuce,
+    Today you saw, you saw me, you explained,
+    Playing the show and running down the plane,
+  \endverse
 
 \endsong

@@ -1,66 +1,67 @@
 \songcolumns{2}
-\beginsong{Les prisons de Nantes}[by=Tri Yann,cov=le-meilleur-de-tri-yann]
+\beginsong{Les prisons de Nantes}
+  [by=Tri Yann,cov=le-meilleur-de-tri-yann]
 
-\cover
-\gtab{Lam}{X02210}
-\gtab{Sol}{320003}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
 
-\beginverse
-\[Lam]Dans les prisons de \[Sol]Nantes, 
-Lan digidigidan, lan digidigidigidan
-\[Lam]Dans les prisons de \[Sol]Nantes, 
-Y'avait un prison\[Lam]nier, 
-\[Sol]Y'avait un prison\[Lam]nier.
-\endverse
+  \beginverse
+    \[Lam]Dans les prisons de \[Sol]Nantes, 
+    Lan digidigidan, lan digidigidigidan
+    \[Lam]Dans les prisons de \[Sol]Nantes, 
+    Y'avait un prison\[Lam]nier, 
+    \[Sol]Y'avait un prison\[Lam]nier.
+  \endverse
 
-\beginverse
-Personne ne le vint l'vouer
-Que la fille du geôlier
-\endverse
+  \beginverse
+    Personne ne le vint l'vouer
+    Que la fille du geôlier
+  \endverse
 
-\beginverse
-Un jour il lui demande
-Oui que dit on de moue
-\endverse
+  \beginverse
+    Un jour il lui demande
+    Oui que dit on de moue
+  \endverse
 
-\beginverse
-On dit de vous en ville
-Que vous serez pendu
-\endverse
+  \beginverse
+    On dit de vous en ville
+    Que vous serez pendu
+  \endverse
 
-\beginverse
-Mais s'il faut qu'on me pende
-Deliez moi les pieds
-\endverse
+  \beginverse
+    Mais s'il faut qu'on me pende
+    Deliez moi les pieds
+  \endverse
 
-\beginverse
-La fille était jeunette
-Les pieds lui a déliés
-\endverse
+  \beginverse
+    La fille était jeunette
+    Les pieds lui a déliés
+  \endverse
 
-\beginverse
-Le prisonnier alerte
-Dans la Loire a sauté
-\endverse
+  \beginverse
+    Le prisonnier alerte
+    Dans la Loire a sauté
+  \endverse
 
-\beginverse
-Des qu'il fut sur les rives
-Il se prit à chanter
-\endverse
+  \beginverse
+    Des qu'il fut sur les rives
+    Il se prit à chanter
+  \endverse
 
-\beginverse
-Je chante pour les belles
-Surtout celle du geôlier
-\endverse
+  \beginverse
+    Je chante pour les belles
+    Surtout celle du geôlier
+  \endverse
 
-\beginverse
-Si je reviens à Nantes
-Oui je l'épouserai
-\endverse
+  \beginverse
+    Si je reviens à Nantes
+    Oui je l'épouserai
+  \endverse
 
-\beginverse
-Dans les prisons de Nantes
-Y'avait un prisonnier.
-\endverse
+  \beginverse
+    Dans les prisons de Nantes
+    Y'avait un prisonnier.
+  \endverse
 
 \endsong

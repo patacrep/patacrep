@@ -1,26 +1,27 @@
 \songcolumns{2}
-\beginsong{La polka du ménestrel}[by=Le Donjon de Naheulbeuk,cov=grimoire-audio]
+\beginsong{La polka du ménestrel}
+  [by=Le Donjon de Naheulbeuk,cov=grimoire-audio]
 
-\capo{5}
-\cover
-\gtab{Do}{X32010}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
+  \capo{5}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
 
-\beginverse
-C'est l'his\[Do]toire du ménestrel
-Qui ai\[Fa]mait la poé\[Sol]sie
-Il vou\[Do]lait toujours chanter pour ses a\[Sol]mis
-\endverse
+  \beginverse
+    C'est l'his\[Do]toire du ménestrel
+    Qui ai\[Fa]mait la poé\[Sol]sie
+    Il vou\[Do]lait toujours chanter pour ses a\[Sol]mis
+  \endverse
 
-\beginverse
-Quand un \[Do]jour dans les collines
-Un grand \[Fa]troll s'est appro\[Sol]ché
-Il a \[Do]sorti sa gui\[Sol]tare et s'est fait \[Do]tuer
-\endverse
+  \beginverse
+    Quand un \[Do]jour dans les collines
+    Un grand \[Fa]troll s'est appro\[Sol]ché
+    Il a \[Do]sorti sa gui\[Sol]tare et s'est fait \[Do]tuer
+  \endverse
 
-\beginverse*
-\[Sol]Et \[Do]splash !
-\endverse
+  \beginverse*
+    \[Sol]Et \[Do]splash !
+  \endverse
 
 \endsong

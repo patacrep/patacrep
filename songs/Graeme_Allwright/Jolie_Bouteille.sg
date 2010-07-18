@@ -1,48 +1,49 @@
 \songcolumns{2}
-\beginsong{Jolie bouteille}[by=Graeme Allwright,cov=emmene-moi]
+\beginsong{Jolie bouteille}
+  [by=Graeme Allwright,cov=emmene-moi]
 
 
-\cover
-\gtab{Do}{X32010}
-\gtab{Sol7}{320001}
-\gtab{Fa}{1:022100}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{320001}
+  \gtab{Fa}{1:022100}
 
 
-\beginchorus
-\[Do]Jolie bouteille, sacrée bouteille,
-Veux-tu me laisser tran\[Sol7]quil\[Do]le.
-Je veux te quitter, je veux m'en aller,
-Je veux recommencer ma \[Sol7]vie\[Do].
-\endchorus
+  \beginchorus
+    \[Do]Jolie bouteille, sacrée bouteille,
+    Veux-tu me laisser tran\[Sol7]quil\[Do]le.
+    Je veux te quitter, je veux m'en aller,
+    Je veux recommencer ma \[Sol7]vie\[Do].
+  \endchorus
 
-\beginverse
-J'\[Do]ai traî\[Sol]né dans \[Fa]tous les caf\[Do]és,
-J'ai fait la \[Sol7]manche bien des \[Do]soirs.
-Les t\[Do]emps sont \[Sol]durs,
-J'suis \[Fa]même pas \[Do]sûr,
-\[Do]De me payer \[Sol7]{un coup} à b\[Do]oire.
+  \beginverse
+    J'\[Do]ai traî\[Sol]né dans \[Fa]tous les caf\[Do]és,
+    J'ai fait la \[Sol7]manche bien des \[Do]soirs.
+    Les t\[Do]emps sont \[Sol]durs,
+    J'suis \[Fa]même pas \[Do]sûr,
+    \[Do]De me payer \[Sol7]{un coup} à b\[Do]oire.
 
 \endverse
 
 \beginverse
-J'ai mal à la tête et les punaises me guettent,
-Mais que faire dans un cas pareil.
-Je demande souvent, aux passants,
-De me payer une bouteille.
+  J'ai mal à la tête et les punaises me guettent,
+  Mais que faire dans un cas pareil.
+  Je demande souvent, aux passants,
+  De me payer une bouteille.
 \endverse
 
 \beginverse
-Dans la nuit, j'écoute la pluie,
-Un journal autour des oreilles.
-Mon vieux complet est tout mouillé,
-Mais j'ai toujours ma bouteille.
+  Dans la nuit, j'écoute la pluie,
+  Un journal autour des oreilles.
+  Mon vieux complet est tout mouillé,
+  Mais j'ai toujours ma bouteille.
 \endverse
 
 \beginverse
-Chacun fait ce qu'il lui plaît,
-Tout l'monde veut sa place au soleil.
-Mais moi j'm'en fous, j'n'ai rien du tout,
-Rien qu'une jolie bouteille.
+  Chacun fait ce qu'il lui plaît,
+  Tout l'monde veut sa place au soleil.
+  Mais moi j'm'en fous, j'n'ai rien du tout,
+  Rien qu'une jolie bouteille.
 \endverse
 
 

@@ -1,47 +1,48 @@
 \songcolumns{1}
-\beginsong{Les \'ep\'ees Durandil}[by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
+\beginsong{Les épées Durandil}
+  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
 
-\capo{5}
-\cover
-\gtab{Ré}{XX0232}
-\gtab{La}{X02220}
-\gtab{Sol}{320003}
+  \capo{5}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Sol}{320003}
 
 
-\beginverse*
-\textnote{parlé}
-``Et dis donc, tu voudrais bien m'prêter ton épée, j'ai perdu ma hache?
-- J'voudrais bien mais elle est beaucoup trop précieuse regarde!
-- À la vache, c'est une Durandil!
-- Ben dis donc t'as les moyens toi!
-- Eh eh, c'est vrai, ça va pas trop mal!
-- Mais c'est quoi Durandil?
-- Laisse-moi te parler de cette lame exceptionnelle.
-- Oh non, il va encore chanter!
-- C'est parti!''
-\endverse
+  \textnote{parlé}
+  \beginverse*
+    ``Et dis donc, tu voudrais bien m'prêter ton épée, j'ai perdu ma hache?
+    - J'voudrais bien mais elle est beaucoup trop précieuse regarde!
+    - À la vache, c'est une Durandil!
+    - Ben dis donc t'as les moyens toi!
+    - Eh eh, c'est vrai, ça va pas trop mal!
+    - Mais c'est quoi Durandil?
+    - Laisse-moi te parler de cette lame exceptionnelle.
+    - Oh non, il va encore chanter!
+    - C'est parti!''
+  \endverse
 
-\beginverse
-Les \[Ré]épées Durandil sont forgées \[La]dans les mines par les \[Ré]nains \echo{c'est vrai}
-Avec ça c'est facile de tuer un \[Sol]troll avec une seule \[Ré]main.
-Pas \[Sol]besoin d'super \[La]entraînement, ni \[Sol]de niveau \[La]28.
-Quand \[Ré]tu sors l'instrument c'est l'enne\[La]mi qui prend la \[Ré]fuite.
-\endverse
+  \beginverse
+    Les \[Ré]épées Durandil sont forgées \[La]dans les mines par les \[Ré]nains \echo{c'est vrai}
+    Avec ça c'est facile de tuer un \[Sol]troll avec une seule \[Ré]main.
+    Pas \[Sol]besoin d'super \[La]entraînement, ni \[Sol]de niveau \[La]28.
+    Quand \[Ré]tu sors l'instrument c'est l'enne\[La]mi qui prend la \[Ré]fuite.
+  \endverse
 
-\beginverse
-Avec ton épée Durandil quand tu parcours les chemins
-Tu massacres sans peine les brigands et les gobelins
-Les rats géants, les ogres mutants, les zombies et les liches
-Tu les découpes en tranches comme si c'étaient des parts de quiche.
-\endverse
+  \beginverse
+    Avec ton épée Durandil quand tu parcours les chemins
+    Tu massacres sans peine les brigands et les gobelins
+    Les rats géants, les ogres mutants, les zombies et les liches
+    Tu les découpes en tranches comme si c'étaient des parts de quiche.
+  \endverse
 
-\beginverse
-Les épées Durandil, les épées Durandil
-Quand tu la sors dans un donjon au moins t'as pas l'air débile.
-C'est l'arme des bourrins, qui savent être subtils.
-Ne partez pas à l'aventure sans votre épée Durandil. 
-\endverse
+  \beginverse
+    Les épées Durandil, les épées Durandil
+    Quand tu la sors dans un donjon au moins t'as pas l'air débile.
+    C'est l'arme des bourrins, qui savent être subtils.
+    Ne partez pas à l'aventure sans votre épée Durandil. 
+  \endverse
 
-\image{naheulbeuk06}{4}
+  \image{naheulbeuk06}{4}
 
 \endsong

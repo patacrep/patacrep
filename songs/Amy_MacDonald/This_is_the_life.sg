@@ -1,44 +1,45 @@
 \songcolumns{1}
-\beginsong{This is the life}[by=Amy MacDonald,cov=this-is-the-life]
+\beginsong{This is the life}
+  [by=Amy MacDonald,cov=this-is-the-life]
 
-\capo{4}
-\cover
-\gtab{Lam}{X02210}
-\gtab{Fa}{1:022100}
-\gtab{Do}{3:X02220}
-\gtab{Mim}{022000}
+  \capo{4}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{3:X02220}
+  \gtab{Mim}{022000}
 
 
-\beginverse
-Oh the \[Lam]wind whistles down
-The \[Fa]cold dark street tonight
-And the \[Do]people they were dancing \[Mim]to the music vibe
-\endverse
+  \beginverse
+    Oh the \[Lam]wind whistles down
+    The \[Fa]cold dark street tonight
+    And the \[Do]people they were dancing \[Mim]to the music vibe
+  \endverse
 
-\beginverse*
-And the boys chase the girls with the curls in their hair
-While the shocked too many just sit way over there
-And the songs they get louder each one better than before
-\endverse
+  \beginverse*
+    And the boys chase the girls with the curls in their hair
+    While the shocked too many just sit way over there
+    And the songs they get louder each one better than before
+  \endverse
 
-\beginchorus
-And you're singing the \[Lam]songs thinking this is the life
-And you wake up in the \[Fa]morning and your head feels twice the size
-Where you gonna go, \[Do]where you gonna go, where you gonna sleep \[Mim]tonight?
-\rep{2}
-\endchorus
+  \beginchorus
+    And you're singing the \[Lam]songs thinking this is the life
+    And you wake up in the \[Fa]morning and your head feels twice the size
+    Where you gonna go, \[Do]where you gonna go, where you gonna sleep \[Mim]tonight?
+    \rep{2}
+  \endchorus
 
-\beginverse
-So you're heading down the road in your taxi for four
-And you're waiting outside Jimmy's front door
-But nobody's in and nobody's home till four
-\endverse
+  \beginverse
+    So you're heading down the road in your taxi for four
+    And you're waiting outside Jimmy's front door
+    But nobody's in and nobody's home till four
+  \endverse
 
-\beginverse*
-So you're sitting there with nothing to do
-Talking about Robert Ragger and his motley crew
-And where you gonna go, and where you gonna sleep tonight?
-\endverse
+  \beginverse*
+    So you're sitting there with nothing to do
+    Talking about Robert Ragger and his motley crew
+    And where you gonna go, and where you gonna sleep tonight?
+  \endverse
 
-\image{batterie}{4}
+  \image{batterie}{4}
 \endsong

@@ -1,108 +1,109 @@
 \songcolumns{2}
-\beginsong{Fairytale of New-York}[by=The Pogues,cov=best-of-the-pogues]
+\beginsong{Fairytale of New-York}
+  [by=The Pogues,cov=best-of-the-pogues]
 
-\capo{2}
-\cover
-\gtab{Do}{X32010}
-\gtab{Fa}{1:022100}
-\gtab{Sol}{320003}
-\gtab{Lam}{X02210}
+  \capo{2}
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
 
-\beginverse
-It was Christmas \[Do]Eve babe
-In the \[Fa]drunk tank
-An old man \[Do]said to me,
-Won't see an\[Sol]other one
-\endverse
+  \beginverse
+    It was Christmas \[Do]Eve babe
+    In the \[Fa]drunk tank
+    An old man \[Do]said to me,
+    Won't see an\[Sol]other one
+  \endverse
 
-\beginverse*
-And then he \[Do]sang a song
-The Rare Old \[Fa]Mountain Dew
-And I turned my \[Do]face away
-And \[Fa]dreamed a\[Sol]bout \[Do]you
-\endverse
+  \beginverse*
+    And then he \[Do]sang a song
+    The Rare Old \[Fa]Mountain Dew
+    And I turned my \[Do]face away
+    And \[Fa]dreamed a\[Sol]bout \[Do]you
+  \endverse
 
-\beginverse 
-Got on a lucky one
-Came in eighteen to one
-I've got a feeling
-This year's for me and you
-\endverse
+  \beginverse 
+    Got on a lucky one
+    Came in eighteen to one
+    I've got a feeling
+    This year's for me and you
+  \endverse
 
-\beginverse*
-So happy Christmas
-I love you baby
-I can see a better time
-When all our dreams come true
-\endverse
+  \beginverse*
+    So happy Christmas
+    I love you baby
+    I can see a better time
+    When all our dreams come true
+  \endverse
 
-\lilypond{Fairytale_of_New-York}
+  \lilypond{Fairytale_of_New-York}
 
-\beginverse
-They've got \[Do]cars
-Big as \[Sol]bars
-They've got \[Lam]rivers of \[Fa]gold
-But the \[Do]wind goes right through you
-It's no place for the \[Sol]old
-\endverse
+  \beginverse
+    They've got \[Do]cars
+    Big as \[Sol]bars
+    They've got \[Lam]rivers of \[Fa]gold
+    But the \[Do]wind goes right through you
+    It's no place for the \[Sol]old
+  \endverse
 
-\beginverse*
-When you \[Do]first took my \[Lam]hand
-On a \[Do]cold Christmas \[Fa]Eve
-You \[Do]promised me
-Broadway was \[Sol]waiting for \[Do]me
-\endverse
+  \beginverse*
+    When you \[Do]first took my \[Lam]hand
+    On a \[Do]cold Christmas \[Fa]Eve
+    You \[Do]promised me
+    Broadway was \[Sol]waiting for \[Do]me
+  \endverse
 
-\beginverse
-\[Do]You were handsome
-You were pretty
-Queen of New York \[Sol]City
-When the \[Do]band finished \[Fa]playing
-They \[Sol]howled out for \[Do]more
-\endverse
+  \beginverse
+    \[Do]You were handsome
+    You were pretty
+    Queen of New York \[Sol]City
+    When the \[Do]band finished \[Fa]playing
+    They \[Sol]howled out for \[Do]more
+  \endverse
 
-\beginverse*
-Sinatra was swinging
-All the drunks they were singing
-We kissed on the corner
-Then danced through the night
-\endverse
+  \beginverse*
+    Sinatra was swinging
+    All the drunks they were singing
+    We kissed on the corner
+    Then danced through the night
+  \endverse
 
-\beginchorus
-The \[Fa]boys of the NY\[Lam]PD \[Sol]choir
-Were \[Do]singing ``Galway \[Lam]Bay''
-And the \[Do]bells were \[Fa]ringing
-\[Sol]Out for Christmas \[Do]day
-\endchorus
- 
-\beginverse
-You're a bum
-You're a punk
-You're an old slut on junk
-Living there almost dead
-On a drip in that bed
-\endverse
+  \beginchorus
+    The \[Fa]boys of the NY\[Lam]PD \[Sol]choir
+    Were \[Do]singing ``Galway \[Lam]Bay''
+    And the \[Do]bells were \[Fa]ringing
+    \[Sol]Out for Christmas \[Do]day
+  \endchorus
+  
+  \beginverse
+    You're a bum
+    You're a punk
+    You're an old slut on junk
+    Living there almost dead
+    On a drip in that bed
+  \endverse
 
-\beginverse*
-You scum bag
-You maggot
-You cheap lousy faggot
-Happy Christmas your arse
-I pray God it's our last
-\endverse
+  \beginverse*
+    You scum bag
+    You maggot
+    You cheap lousy faggot
+    Happy Christmas your arse
+    I pray God it's our last
+  \endverse
 
-\beginverse
-I could have been someone
-So could anyone
-You took my dreams from me
-When I first found you
-\endverse
+  \beginverse
+    I could have been someone
+    So could anyone
+    You took my dreams from me
+    When I first found you
+  \endverse
 
-\beginverse*
-I kept them with me babe
-I put them with my own
-Can't make it all alone
-I've built my dreams around you
-\endverse 
+  \beginverse*
+    I kept them with me babe
+    I put them with my own
+    Can't make it all alone
+    I've built my dreams around you
+  \endverse 
 
 \endsong

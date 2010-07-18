@@ -1,5 +1,6 @@
 \songcolumns{2}
-\beginsong{Taylor}[by=Jack Johnson,cov=on-and-on]
+\beginsong{Taylor}
+  [by=Jack Johnson,cov=on-and-on]
 
   \cover
   %\utab{C}{0003}

@@ -1,0 +1,40 @@
+\songcolumns{2}
+\beginsong{Minority}
+  [by=Green Day,cov=warning]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  
+  \beginchorus
+    \[Do]{I wanna} \[Fa]be the mi\[Sol]nori\[Fa]ty,
+    \[Do]{I don't} \[Fa]need your au\[Sol]thori\[Fa]ty,
+    \[Do]Down with the \[Fa]moral ma\[Sol]jori\[Fa]ty
+    'cause \[Do]{I wanna} \[Fa]be the mi\[Sol]nori\[Do]ty 
+  \endchorus
+
+  \beginverse
+    I \[Do]pledge a\[Sol]llegiance \[Fa]to the under\[Do]world
+    One \[Do]nation under \[Sol]dog there of \[Fa]which I stand a\[Sol]lone
+    A \[Do]face in the \[Sol]crowd, un\[Fa]sung, against the \[Do]mob
+    Wi\[Do]thout a doubt, \[Fa]singled out, the \[Sol]only way I \[Do]know 
+  \endverse
+  
+  \musicnote{Bridge}
+  \beginverse
+    \[Lam]Stepped out of the \[Fa]line,\[Do]
+    \[Lam]Like a sheep runs \[Fa]from the \[Sol]herd,
+    \[Lam]Marching out of \[Fa]time,\[Do]
+    \[Lam]To my own \[Fa]beat \[Sol]now
+  \endverse
+
+  \beginverse
+    One light, one mind, flashing in the dark
+    Blinded by the silence of a thousand broken hearts
+    ``For crying out loud'', she screamed unto me
+    A free for all, fuck 'em all, you are your own sight
+  \endverse
+
+\endsong

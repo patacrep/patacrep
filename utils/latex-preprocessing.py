@@ -47,6 +47,7 @@ word_dic = {
 "X00231": "XX0231",
 #Si
 "021202": "X21202",
+### end of rules
 }
  
 # Process song files

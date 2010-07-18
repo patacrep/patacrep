@@ -50,7 +50,7 @@ def makeTexFile(sb, output):
     name = output[:-4]
 
     # default value
-    template = "songbook.tmpl"
+    template = "patacrep.tmpl"
     songs = []
 
     # parse the songbook data
@@ -119,7 +119,7 @@ def makeDepend(sb, output):
     if "template" in sb:
         filename = sb["template"]
     else:
-        filename = "songbook.tmpl"
+        filename = "patacrep.tmpl"
     tmpl = open("templates/"+filename)
     idx = map(lambda x: x.replace("\getname", name), matchRegexp(indexPattern, tmpl))
     tmpl.close()

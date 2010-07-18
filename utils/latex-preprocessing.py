@@ -1,23 +1,36 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# warning: lines beginning with ## are parsed by 
+# the songbook-client as rules categories 
+
+
 import glob
 
 # the dictionary has target_word:replacement_word pairs
 word_dic = {
-#oe inclusion
+##: oe inclusion
 "coeur": "cœur",
 "boeuf": "bœuf",
 "oeuvre": "œuvre",
 "soeur": "sœur",
 "noeud": "nœud",
 "oeil": "œil",
+"voeu": "vœu",
 "oe{}": "œ",
-#punctuation
+##: Punctuation
 "’": "'",
 "Ca ": "Ça ",
 "...": "\\dots ",
-#Chords
+##: Conversion from anglo-saxon conventions
+"\\[A": "\\[La",
+"\\[B": "\\[Si",
+"\\[C": "\\[Do",
+"\\[D]": "\\[Ré]",
+"\\[E": "\\[Mi",
+"\\[F]": "\\[Fa]",
+"\\[G": "\\[Sol",
+##: Guitar tabs
 "\\[Re]": "\\[Ré]",
 "b]": "&]",
 #Do

@@ -1,6 +1,6 @@
 songbook (v0.7)
 
-  (Various authors) Add songs
+  (various authors) Add songs
     Alexandre Dupas:
       Alexis HK - Gaspard
       The White Stripes - Well It's True That We Love One Another
@@ -12,6 +12,7 @@ songbook (v0.7)
       The Fray - How to save a life
       The Beatles - Twist and shout
       John Lennon - Working Class Hero
+      Les Wriggles - Plouf
     Dominique Goffe:
       Mes souliers sont rouges - Le cycle du vin
       Michel Sardou - Les lacs du Connemara
@@ -23,6 +24,7 @@ songbook (v0.7)
     Pierre Caserta:
       Alicia Keys - If I ain't got you
       Jason Marz - I'm yours
+      Jack Johnson - Taylor
     Romain Goffe:
       The Beatles - Octopus Garden
       Bob Dylan - Mr Tambourine Man
@@ -78,13 +80,41 @@ songbook (v0.7)
       Alain Souchon - Foule sentimentale
       Les Ogres de Barback - Bumbaia
       Francine Pohl - La sorcière Grabouilla
+      Francine Pohl - La sorcière Grabouilla
+      La Rue Kétanou - La fiancée de l'eau
+      Debout sur le Zinc - La déclaration
+      Debout sur le Zinc - Les mots d'amour
+      Les Ogres de Barback - Rue du temps
+      Les Amis d'ta femme - A las barricadas
+      Mes souliers sont rouges - Bassin d'Irlande
+      Debout sur le Zinc - Rester debout
+      Simon & Garfunkel - The only living boy in New-York
+      Les Cowboys Fringants - Plus rien
+      Les Cowboys Fringants - Plus rien
+      Maxime Le Forestier - La rouille
+      Les Petites Bourettes - Et si je t'aime
+      Les Cowboys Fringants - La bonne pomme
+      Les Cowboys Fringants - Entre deux taxis
+      Les Petites Bourrettes - Dans la tête
+      Les Petites Bourrettes - La vieille
+      As de Trêfle - Jessica
+      Le Colporteur - Comme on dit
+      Les Vieilles Valises - Émilie
+      Sansévérino - Dimanche dernier
+      I wanna be like you
+      La Rue Kétanou - Sur les chemins de la bohème
+      Louise Attaque - Les nuits parisiennes
+      Marie Laforêt - Ivan, Boris et moi
+      Lila Downs - La cumbia del mole
+      Les Petites Bourrettes - Notre monde
     Thomas Bellet:
-      Sheepbox - Devil's way
-  (lohrun) Introduction of a new songbook format. The compilation
-           toolchain have been updated accordingly.
-  (lohrun) Use LaTeX Songs package v2.10
+      Sheepbox - Devil's way.
+  (lohrun) New songbook format (not compatible with older version).
+    Changes have been made to the compilation toolchain that prevent 
+    compilation of old format songbook.
+  (lohrun) Use LaTeX Songs package v2.10.
 
- -- Alexandre Dupas <alexandre.dupas@gmail.com> Tue, 08 Jun 2010 20:15:39 +0200
+ -- Alexandre Dupas <alexandre.dupas@gmail.com> Sat, 17 Jul 2010 15:24:14 +0200
 
 songbook (v0.6)
 

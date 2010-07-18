@@ -1,5 +1,5 @@
 {
-"template" : "songbook.tmpl",
+"template" : "patacrep.tmpl",
 "author" : "Crep (R.Goffe) \\and Lohrun (A.Dupas)",
 "footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
 "license" : "\\input{license.tex}",

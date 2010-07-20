@@ -1,5 +1,5 @@
 \songcolumns{2}
-\beginsong{Fairytale of New-York}
+\beginsong{Fairytale of New York}
   [by=The Pogues,cov=best-of-the-pogues]
 
   \capo{2}
@@ -37,7 +37,7 @@
     When all our dreams come true
   \endverse
 
-  \lilypond{Fairytale_of_New-York}
+  \lilypond{Fairytale_of_New_York}
 
   \beginverse
     They've got \[Do]cars

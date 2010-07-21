@@ -22,6 +22,7 @@ word_dic = {
 "’": "'",
 "Ca ": "Ça ",
 "...": "\\dots ",
+"…": "\\dots",
 ##: Conversion from anglo-saxon conventions
 "\\[A": "\\[La",
 "\\[B": "\\[Si",

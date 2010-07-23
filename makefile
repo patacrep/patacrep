@@ -79,7 +79,7 @@ $(PSF): %.ps.gz: %.ps
 %.dvi: %.tex %.aux
 	$(LATEX) $<
 
-$(PDF): LATEX = pdflatex
+$(PDF): LATEX = pdflatex -halt-on-error
 $(PDF): %.pdf: %.tex %.aux
 
 %.aux: %.tex

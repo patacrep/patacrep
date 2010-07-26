@@ -80,11 +80,18 @@ $(PDF): %.pdf: %.tex %.aux
 %.d: %.sb
 	$(MAKE_SONGBOOK) -s $< -d -o $@
 
-include $(SONGBOOKS:%.sb=%.d)
-
 %.pdf: %.ly
 	@$(LILYPOND) --output=$(@:%.pdf=%) $<
 	@rm $(@:%.pdf=%.ps)
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
+
+
+ifeq (.pdf,$(suffix $(MAKECMDGOALS)))
+include $(MAKECMDGOALS:%.pdf=%.d)
+else ifneq ($(MAKECMDGOALS),clean)
+  ifneq ($(MAKECMDGOALS),cleanall)
+  include $(TARGETS:%=%.d)
+  endif
+endif

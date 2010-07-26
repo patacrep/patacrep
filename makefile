@@ -19,7 +19,6 @@ SONGBOOKS := $(wildcard *.sb)
 TARGETS = $(SONGBOOKS:%.sb=%)
 
 PDF = $(TARGETS:%=%.pdf)
-PSF = $(TARGETS:%=%.ps.gz)
 
 CHORDS = chords.tex
 CHORDS_SRC = $(shell ls songs/*/*.sg)
@@ -47,9 +46,6 @@ default: songbook.pdf
 
 all: $(PDF)
 
-ps: $(PSF)
-	gv $<
-
 pdf: $(PDF)
 	xpdf $<
 
@@ -58,28 +54,18 @@ lilypond: $(LILYFILE)
 clean:
 	@rm -f $(TARGETS:%=%.d)   $(TARGETS:%=%.tex) $(TARGETS:%=%.aux) \
 	       $(TARGETS:%=%.toc) $(TARGETS:%=%.out) $(TARGETS:%=%.log) \
-	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm) $(TARGETS:%=%.dvi)
+	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm)
 	@rm -f *.sbx *.sxd
 
 cleanall: clean
-	@rm -f $(PDF) $(PSF)
+	@rm -f $(PDF)
 	@rm -f $(LILYFILE)
 
 depend:
 
 ############################################################
 
-$(PSF): LATEX = latex
-$(PSF): %.ps.gz: %.ps
-	gzip -f $<
-
-%.ps: %.dvi
-	dvips -o $@ $<
-
-%.dvi: %.tex %.aux
-	$(LATEX) $<
-
-$(PDF): LATEX = pdflatex
+$(PDF): LATEX = pdflatex $(LATEX_OPTIONS)
 $(PDF): %.pdf: %.tex %.aux
 
 %.aux: %.tex
@@ -102,4 +88,3 @@ include $(SONGBOOKS:%.sb=%.d)
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
-

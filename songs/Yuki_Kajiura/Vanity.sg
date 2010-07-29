@@ -1,0 +1,83 @@
+\songcolumns{2}
+\beginsong{Vanity}
+  [by=Yuki Kajiura,cov=fiction]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Do/Si}{X20010}
+  \gtab{Mi7}{X20100}
+  
+  \lilypond{Vanity}
+
+  \beginverse
+    \[Lam]Enter the scenery of love
+    Lovers are in \[Fa]pain
+    \[Sol]They blame and \[Fa]pick on each \[Mim]other
+  \endverse
+
+  \beginverse*
+    \[Lam]You play melodies of love
+    Forgotten \[Fa]phrases
+    \[Sol]Tender and \[Lam]sweet
+  \endverse
+
+  \beginverse*
+    \[Fa]Come a little bit \[Sol]closer
+    Don't \[Do]stay in the \[Do/Si]shadows my \[Fa]boy
+    \echo{\[Fa]La la la la la la \[Sol]la la}
+    The \[Do]melody's \[Do/Si]fading
+    \[Fa]Now or never, \[Sol]love will go
+  \endverse
+
+  \beginchorus
+    \[Lam]I'll be \[Mim]there 
+    \[Lam]By your \[Mim]side
+    \[Fa]Share your \[Sol]fears
+    In the \[Do]silent re\[Mi7]demption
+    \[Lam]Touch my \[Mim]lips,
+    \[Lam]Hold me \[Mim]tight
+    \[Fa]Live in \[Sol]vanity
+    \[Lam]For a while
+  \endchorus
+
+  \beginverse
+    As winter melts in the sun
+    Boys will be out 
+    Running and reaching for the light
+  \endverse
+
+  \beginverse*
+    Oh mother please find me in that place
+    Before the memories 
+    Tear us into pieces
+  \endverse
+
+  \beginverse*
+    Clinging to affection, 
+    We somehow do learn to live
+    \echo{La la la la la la la la}
+    In endless motion
+    Never coming back, love will go
+  \endverse
+
+  \beginchorus
+    You'll be there 
+    By my side
+    You may never 
+    Know my devotion
+    Feel my breath 
+    In the quiet night
+    Live in vanity 
+    For ever
+  \endchorus
+
+  \beginverse
+    \[Lam]Won't you feel my \[Sol]gentle emotion
+    \[Lam]Let us live in \[Sol]peace with conviction
+    \[Lam]If you're here please \[Mi7]hold me
+  \endverse
+
+\endsong

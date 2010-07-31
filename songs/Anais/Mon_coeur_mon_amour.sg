@@ -9,17 +9,20 @@
   \gtab{Do#}{4:X02220}
 
   \beginverse
-    \[Fa#]Mon cœur, mon \[Fa7/Do7]amour
+    Mon \[Fa#]cœur, mon a\[Fa7/Do7]mour
     Mon amour, mon cœur
     Mon cœur, mon amour
     Mon amour, mon cœur
   \endverse
 
   \beginverse
-    \[Fa#]Ça dégouline d'\[Fa7/Do7]amour
+    Ça dégou\[Fa#]line d'a\[Fa7/Do7]mour
     C'est beau mais c'est insupportable
     C'est un pudding bien lourd
     De mots doux à chaque phrase
+  \endverse
+
+  \beginverse*
     \[Si]Elle est belle ta \[Fa#]quiche amour
     Mon cœur, passe moi la salade
     Et ça se fait des mamours
@@ -27,14 +30,14 @@
     Ce mélange de sentiments
     Aromatisé aux fines herbes
     Me fait sourire gentiment
-    \[Si]Et finalement me donne la \[Do#]gerbe
+    Et finale\[Si]ment me donne la \[Do#]gerbe
   \endverse
 
   \beginchorus
-    \[Si]Je hais les \[Do#]couples
-    Qui me rapp\[Fa#]ellent que je suis \[Si]seule
+    Je \[Si]hais les \[Do#]couples
+    Qui me ra\[Fa#]ppellent que je suis \[Si]seule
     Je \[Si]déteste les \[Do#]couples
-    Je les hais tout court!
+    Je les hais tout court !
   \endchorus
 
   \beginverse
@@ -50,7 +53,10 @@
     Ça me laisse le cul par terre
     Autant de mièvreries
     Nappées de crème pâtissière
-    Coucou, qu'est-ce que tu fais mon cœur?
+  \endverse
+  
+  \beginverse*
+    Coucou, qu'est-ce que tu fais mon cœur ?
     La même chose qu'y'a une demi-heure{\ldots}
     J't'ai appelé y'a 5 minutes mon ange
     Mais ça répondait pas

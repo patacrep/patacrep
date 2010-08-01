@@ -1,0 +1,50 @@
+\songcolumns{2}
+\beginsong{Lucky Luke}
+  [by=Dessins Animés,cov=lucky-luke]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+
+  \beginverse
+    \[Lam]On l'appelle Lucky Luke
+    \[Sol]De l'Ouest au Far-Ouest
+    \[Fa]Il arrive au galop
+    \[Do]Ce cowboy héros
+  \endverse
+
+  \beginverse
+    \[Lam]Son tir est plus rapide
+    \[Sol]Plus rapide que son ombre
+    \[Fa]Et son revolver va plus vite que l'éclair
+    Oh \[Sol]sacré Lucky \[Do]Luke !
+  \endverse
+
+  \beginchorus
+    \[Sol]Bang Bang Lucky Luke
+    \[Do]Bang Bang Lucky Luke
+    \[Sol]{C'est} lui qui a le truc pour \[Do]nous étonner
+  \endchorus
+
+  \beginchorus
+    \[Sol]Bang Bang Lucky Luke
+    \[Do]Bang Bang Lucky Luke
+    \[Fa]C'est un homme qui n'a peur de personne
+    Mê\[Sol]me pas des Dal\[Do]ton !
+  \endchorus
+
+  \beginchorus
+    Bang Bang Lucky Luke \rep{2}
+    Même les Dalton, qui ne craignent personne
+    Ont peur de Lucky Luke !
+  \endchorus
+
+  \beginverse
+    Les \[Fa]hors-la-loi
+    N'échapperont pas
+    Au \[Sol]tir de Lucky \[Do]Luke !
+  \endverse
+
+\endsong

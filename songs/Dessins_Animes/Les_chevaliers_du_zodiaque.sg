@@ -1,0 +1,46 @@
+\songcolumns{2}
+\beginsong{Les chevaliers du zodiaque}
+  [by=Dessins Animés,cov=zodiaque]
+
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Mi}{022100}
+  \gtab{Fa#}{2:022100}
+  \gtab{Sim}{2:X02210}
+
+  \beginverse
+    \[La]Des quatre coins de \[Mi]l'Uni\[La]vers
+    \[La]Quand triomphe le \[Mi]Mal
+    \[La]Sans hésiter ils \[Mi]partent en \[La]guerre
+    \[La]Pour un monde idé\[Mi]al
+  \endverse
+
+  \beginchorus
+    \[La]Les che\[Fa#]valiers du zo\[Sim]diaque
+    \[Mi]{S'en} vont toujours à l'a\[La]ttaque
+    \[Fa#]En chantant une chan\[Sim]son bien haut
+    C'est la \[Mi]chanson des hé\[La]ros
+  \endchorus
+
+  \beginchorus
+    Les chevaliers du zodiaque
+    Contre les forces démoniaques
+    Gardent toujours au fond de leur cœur
+    Le courage des vainqueurs
+  \endchorus
+
+  \beginverse
+    Ils n'ont jamais peur de personne
+    Et rien ne les effraie
+    Et lorsque l'heure du combat sonne
+    Tous, ils sont toujours prêts
+  \endverse
+
+  \beginverse
+    Et quand un jour viendra enfin
+    L'heure de la victoire
+    Au royaume de tous les Saints
+    On chantera leur gloire
+  \endverse
+
+\endsong

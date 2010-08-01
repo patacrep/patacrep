@@ -1,0 +1,42 @@
+\songcolumns{2}
+\beginsong{Sherlock Holmes}
+  [by=Dessins Animés,cov=sherlock-holmes]
+
+  \capo{1}
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Sim}{2:X02210}
+  \gtab{Sol}{320003}
+  \gtab{Mi}{022100}
+  \gtab{Solm}{3:022000}
+  \gtab{Mim}{022000}
+  \gtab{Fa#}{2:022100}
+
+  \beginverse
+    \[Ré] Le plus \[La]grand des détec\[Sim]tives
+    Oui c'est \[Sol]lui, Sher\[Ré]lock Holmes, le voi\[La]ci
+    \[Ré] Il ha\[La]bite Baker \[Sim]Street
+    Et pour\[Sol]suit Mo\[Ré]riarty le mé\[La]chant
+  \endverse
+
+  \beginverse
+    \[Sol] Brigand élégant
+    \[Solm] La canne à la main                                
+    \[Ré] Démasqué par Sherlock \[Mim]Holmes le plus ma\[La]lin
+  \endverse
+
+  \beginverse
+    \[Sim] Courez, courez
+    \[Mim] Holmes et Watson
+    \[Sim] Ne laissez pas filer \[Mim]le ban\[Fa#]dit
+  \endverse
+
+  \beginverse
+    \[Sim] Cherchez, cherchez
+    \[Mim] Loupe à la main
+    \[Sim] Les méfaits de ce \[Mim]gros re\[La]quin
+    \[Sim] Et nos \[Mim]soucis seront \[La]bientôt \[Ré]finis
+  \endverse
+
+\endsong

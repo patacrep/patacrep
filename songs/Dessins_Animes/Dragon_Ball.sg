@@ -1,0 +1,67 @@
+\songcolumns{2}
+\beginsong{Dragon Ball}
+  [by=Dessins Animés,cov=dragon-ball]
+
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Si}{2:X02220}
+  \gtab{Mi}{022100}
+
+  \beginchorus
+    \[La]Dragon Ball 
+    La \[Ré]quête fi\[La]nale 
+    Des \[Ré]sept boules de \[La]cristal 
+    Ve\[Si]nues des é\[Mi]toiles 
+  \endchorus
+
+  \beginchorus
+    \[La]Dragon Ball 
+    Pour \[Ré]un idé\[La]al 
+    \[Ré]Combat gla\[La]cial 
+    Du Bien \[Mi]contre le \[La]Mal 
+  \endchorus
+
+  \beginchorus
+    Dragon Ball 
+    La lutte infernale
+    D'une petite fille
+    D'un enfant-animal 
+  \endchorus
+
+  \beginchorus
+    Dragon Ball 
+    Contre l'immoral 
+    Méchant Orak 
+    À la force bestiale 
+  \endchorus
+
+  \beginverse
+    Quand le gen\[La]til Crokor
+    Au cœur d'or
+    Et \[Mi]Bulma son amie
+    Si jolie
+    S'en vont dans \[La]la forêt
+    Affronter
+    Tous les plus \[Ré]grands dangers
+    Pour gagner 
+    Un petit \[La]peu d'espoir
+    Pour savoir
+    \[Mi]Le secret des boules de cris\[La]tal
+  \endverse
+
+  \beginverse
+    Héros de l'aventure
+    Du futur
+    Chevalier du courage
+    D'un autre âge
+    Deux enfants téméraires
+    Partent en guerre
+    Pour tenter de trouver
+    La vérité
+    Afin qu'enfin s'éclaire
+    Le mystère
+    Le secret des boules de crystal
+  \endverse
+
+\endsong

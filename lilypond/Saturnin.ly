@@ -1,16 +1,16 @@
 \include "header"
-\paper{paper-height = 3.6\cm}
+\paper{paper-height = 4.2\cm}
 
 {
   \relative c''
   {
-    \key c \major
+    \key a \major
     \time 2/4
     \partial 4 a4
-    f4. f8 f4 a4 f4. e8 e2 
-    d4. d8 e8 d c d e2 c4 a'4 
-    f4. f8 f4 a4 f4. e8 e2
-    d4. d8 e d e f g4 f4 e4 d4 c2
+    fis4. fis8 fis4 a4 fis4. e8 e2 
+    d4. d8 e8 d cis d e2 cis4 a'4 
+    fis4. fis8 fis4 a4 fis4. e8 e2
+    dis4. dis8 e dis e fis gis4 fis4 e4 d4 cis2
   }
 }
 

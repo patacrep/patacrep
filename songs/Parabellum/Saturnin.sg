@@ -3,26 +3,26 @@
   [by=Parabellum,cov=dense-microsillon-a-faisceau-de-lumiere-coherente]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Mi}{022100}
 
   \lilypond{Saturnin}
 
   \beginverse
-    \[Do]Approchez, tous les a\[Fa]mis
-    Les grands et les pe\[Sol]tits
-    Regardez \[Do]bien ! \[Sol]
-    \[Do]Le cœur fier et l'œil ma\[Fa]lin
-    Voici venir au \[Sol]loin
-    Votre ami Satur\[Do]nin
+    \[La]Approchez, tous les a\[Ré]mis
+    Les grands et les pe\[Mi]tits
+    Regardez \[La]bien ! \[Mi]
+    \[La]Le cœur fier et l'œil ma\[Ré]lin
+    Voici venir au \[Mi]loin
+    Votre ami Satur\[La]nin
   \endverse
 
   \beginchorus
-    On \[Fa]dit que rien ne \[Do]lui fait peur
-    \[Sol]Quand il s'agit d'aven\[Do]ture
-    Il \[Fa]est têtu et \[Do]bagarreur
-    Mais gentil je vous le jure
+    On \[Ré]dit que rien ne \[La]lui fait peur
+    \[Mi]Quand il s'agit d'aven\[La]ture
+    Il \[Ré]est têtu et \[La]bagarreur
+    \[Mi]Mais gentil je vous le jure
   \endchorus
 
   \beginverse

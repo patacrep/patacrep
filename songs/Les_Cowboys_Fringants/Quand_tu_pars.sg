@@ -1,0 +1,40 @@
+\songcolumns{2}
+\beginsong{Quand tu pars}
+  [by=Les Cowboys Fringants,cov=sur-un-air-de-deja-vu]
+  
+  \cover
+  \capo{2}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Ré}{XX0232}
+  \gtab{Si7}{X21202}
+  \gtab{Mim}{022000}
+  
+  \beginverse
+    \[Sol]Mon toit  \[Do]est en o\[Ré]sier
+    Ma mai\[Si7]son en papier mâ\[Mim]ché
+    Elle s'e\[Do]ffondre chaque fois
+    Sous l'é\[Sol]cho de ma voix
+    Moi qui \[Si7]seule s'ennuie de \[Mim]toi
+    Quand tu \[Ré]pars \dots
+  \endverse
+
+  \beginverse 
+    Mon cœur est fait de pierre
+    Insensible et dur comme le fer
+    Il s'érode tranquillement
+    À chaque coup de vent
+    Que fait la porte en claquant
+    Quand tu pars \dots
+  \endverse
+
+  \beginverse
+    Bonheur est feu de paille
+    Éphémère incendie de broussaille
+    Il s'envole en fumée
+    Quand s'éteint le brasier
+    Que tu cesses d'attiser
+    Quand tu pars \dots \rep{3}
+  \endverse
+
+\endsong

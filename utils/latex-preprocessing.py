@@ -23,6 +23,8 @@ word_dic = {
 "Ca ": "Ça ",
 "...": "\\dots ",
 "…": "\\dots",
+##: Typo
+"New-York": "New York",
 ##: Conversion from anglo-saxon conventions
 "\\[A": "\\[La",
 "\\[B": "\\[Si",

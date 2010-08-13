@@ -36,6 +36,8 @@ def toValue(parameter, data):
         else:
             joinText = ''
         return joinText.join(data)
+    elif parameter["type"] == "color":
+        return data[1:]
 
 def formatDeclaration(name, parameter):
     value = ""

@@ -3,7 +3,7 @@
   [by=Renaud,cov=boucan-d-enfer]
 
   \cover
-  \gtab{Lam}{002210}
+  \gtab{Lam}{X02210}
   \gtab{Fa}{1:022100}
   \gtab{Sol}{320003}
   \gtab{Mim7}{022030}
@@ -40,7 +40,7 @@
 \beginchorus
   \[Mim7]Renaud s'ef\[Fa]force, c'est son boulot
   D'écrire \[Mi/Sol#]de jolies histoires
-  Pour séduire \[lam]les gens, les mar\[Sol]mots
+  Pour séduire \[Lam]les gens, les mar\[Sol]mots
   Pour amu\[Fa]ser pour émouvoir
   À la poin\[Fa2]te de son stylo
   Le Renard \[Mi/Sol#]n'a que des gros mots
@@ -89,9 +89,8 @@
   Aujourd'hui son amour se barre
   Son bel amour, son Domino
   Elle quitte le vilain Re\[Sol2]nard
-  Mais aimera toujours Renaud\[lam] \[Fa]
+  Mais aimera toujours Renaud\[Lam] \[Fa]
 \endverse  
 
-Docteur Renaud, Mister Renard \ldots
 
 \endsong

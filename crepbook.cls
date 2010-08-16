@@ -15,8 +15,11 @@
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
+\DeclareOption{notabs}{\tabsfalse}
 \DeclareOption{lilypond}{\lilypondtrue}
+\DeclareOption{nolilypond}{\lilypondfalse}
 \DeclareOption{nodiagram}{\nodiagramtrue}
+\DeclareOption{diagram}{\nodiagramfalse}
 
 \DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}

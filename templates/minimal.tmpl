@@ -34,7 +34,7 @@
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
-\documentclass[\getbooktype]{crepbook}
+\documentclass[\getbooktype,\getbookoptions,\getmainfontsize]{crepbook}
 \usepackage[utf8]{inputenc}
 \usepackage[english,french]{babel}
 
@@ -44,6 +44,14 @@
 \graphicspath{
   {img/},
 }
+
+\definecolor{SongNumberBgColor}{HTML}{\getsongnumberbgcolor}
+\definecolor{NoteBgColor}{HTML}{\getnotebgcolor}
+\definecolor{IndexBgColor}{HTML}{\getindexbgcolor}
+
+\renewcommand{\snumbgcolor}{SongNumberBgColor}
+\renewcommand{\notebgcolor}{NoteBgColor}
+\renewcommand{\idxbgcolor}{IndexBgColor}
 
 \begin{document}
 

@@ -11,7 +11,7 @@
 
 \tabsfalse
 \lilypondfalse
-\nodiagramfalse
+\nodiagramtrue
 
 % Options
 \DeclareOption{tabs}{\tabstrue}

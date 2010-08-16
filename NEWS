@@ -1,3 +1,11 @@
+songbook (v0.?)
+
+  (lohrun) Add three new type of template parameters : color, flag and enum.
+  (lohrun) Add a diagram option to the crepbook class.
+  (crep) Use LaTeX Songs package v2.11.
+
+ -- Alexandre Dupas <alexandre.dupas@gmail.com> Mon, 16 Aug 2010 23:41:45 +0200
+
 songbook (v0.7)
 
   (various authors) Add songs

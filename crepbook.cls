@@ -5,6 +5,21 @@
 \ProvidesClass{crepbook}[2009/11/12 v0.4.2 LaTeX document class for Crep
   Books]
 
+\newif{\iftabs}
+\newif{\iflilypond}
+
+% Options
+\DeclareOption{tabs}{\tabstrue}
+\DeclareOption{lilypond}{\lilypondtrue}
+
+\DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
+\DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}
+\DeclareOption{12pt}{\PassOptionsToClass{\CurrentOption}{article}}
+
+% Default options : pass to the songs package
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{songs}}
+\ProcessOptions
+
 % Base class
 \LoadClass[a4paper]{article}
 
@@ -21,15 +36,10 @@
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
 
-% Options
-\newif{\iftabs}
-\DeclareOption{tabs}{\ifchorded\tabstrue\fi}
-\newif{\iflilypond}
-\DeclareOption{lilypond}{\ifchorded\lilypondtrue\fi}
-
-% Default options : pass to the songs package
-\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{songs}}
-\ProcessOptions
+\iflyric%
+  \tabsfalse%
+  \lilypondfalse%
+\fi
 
 % Start
 \def\andname{and}
@@ -150,7 +160,7 @@
     \else%
     \mbox{%
       \includegraphics[height=\capoheight]{capodastre}%
-      \put(-22,8){\normalsize #1}
+      \put(-22,8){\Large #1}
     }%
     \hspace{\coverspace}%
     \fi%

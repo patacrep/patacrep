@@ -35,7 +35,11 @@
 %%:  {"name":"picturecopyright", "description":"Copyright", "default":"foxygamergirl@deviantart.com"},
 %%:  {"name":"footer", "description":"Footer", "default":"\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}"},
 %%:  {"name":"license", "description":"License", "default":"\\input{license.tex}"},
-%%:  {"name":"booktype", "description":"Booktype", "type":"stringlist", "default":["chorded"], "join":","}
+%%:  {"name":"booktype", "description":"Booktype", "type":"stringlist", "default":["chorded"], "join":","},
+%%:  {"name":"mainfontsize", "description":"Font Size", "values":["10pt","11pt","12pt"], "default":"10pt"},
+%%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
+%%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#D1E4AE"},
+%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
@@ -60,6 +64,14 @@
 \graphicspath{
   {img/},
 }
+
+\definecolor{SongNumberBgColor}{HTML}{\getsongnumberbgcolor}
+\definecolor{NoteBgColor}{HTML}{\getnotebgcolor}
+\definecolor{IndexBgColor}{HTML}{\getindexbgcolor}
+
+\renewcommand{\snumbgcolor}{SongNumberBgColor}
+\renewcommand{\notebgcolor}{NoteBgColor}
+\renewcommand{\idxbgcolor}{IndexBgColor}
 
 \begin{document}
 

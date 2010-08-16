@@ -38,6 +38,14 @@ def toValue(parameter, data):
         return joinText.join(data)
     elif parameter["type"] == "color":
         return data[1:]
+    elif parameter["type"] == "enum":
+        return data
+    elif parameter["type"] == "flag":
+        if "join" in parameter:
+            joinText = parameter["join"]
+        else:
+            joinText = ''
+        return joinText.join(data)
 
 def formatDeclaration(name, parameter):
     value = ""
@@ -111,7 +119,7 @@ def makeDepend(sb, output):
 
     # check for lilypond deps (in songs data) if necessary
     lilypond = []
-    if "booktype" in sb and "lilypond" in sb["booktype"]:
+    if "bookoptions" in sb and "lilypond" in sb["bookoptions"]:
         for filename in deps:
             tmpl = open(filename)
             lilypond += matchRegexp(lilypondPattern, tmpl)

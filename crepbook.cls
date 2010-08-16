@@ -7,16 +7,16 @@
 
 \newif{\iftabs}
 \newif{\iflilypond}
-\newif{\ifnogtab}
+\newif{\ifnodiagram}
 
 \tabsfalse
 \lilypondfalse
-\nogtabfalse
+\nodiagramfalse
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
 \DeclareOption{lilypond}{\lilypondtrue}
-\DeclareOption{nogtab}{\nogtabtrue}
+\DeclareOption{nodiagram}{\nodiagramtrue}
 
 \DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}
@@ -45,7 +45,7 @@
 \iflyric%
   \tabsfalse%
   \lilypondfalse%
-  \nogtabtrue%
+  \nodiagramtrue%
 \fi
 
 % Start
@@ -174,7 +174,7 @@
   \fi%
 }%
 
-\ifnogtab%
+\ifnodiagram%
   \renewcommand{\gtab}[2]{}%
 \fi%
 

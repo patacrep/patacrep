@@ -25,6 +25,7 @@ word_dic = {
 "…": "\\dots",
 ##: Typo
 "New-York": "New York",
+"avant hier": "avant-hier",
 ##: Conversion from anglo-saxon conventions
 "\\[A": "\\[La",
 "\\[B": "\\[Si",

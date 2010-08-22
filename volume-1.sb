@@ -1,19 +1,24 @@
 {
 "template" : "patacrep.tmpl",
 "author" : "Romain Goffe \\and Alexandre Dupas",
+"bookoptions" : [
+    "diagram",
+    "lilypond"
+  ],
+"booktype" : "chorded",
 "footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
+"indexbgcolor" : "#D1E4AE",
 "license" : "\\input{license.tex}",
 "mail" : "crep@team-on-fire.com",
+"mainfontsize" : "10pt",
+"notebgcolor" : "#D1E4AE",
 "picture" : "feel-the-music",
 "picturecopyright" : "foxygamergirl @ deviantart.com",
+"songnumberbgcolor" : "#D1E4AE",
 "subtitle" : "Tome 1",
 "title" : "Recueil de chansons pour guitare",
 "version" : "3.2",
 "web" : "http://www.patacrep.com",
-"booktype" : [
-    "chorded",
-    "lilypond"
-  ],
 "songs" : [
     "Alain_Bashung/Gaby_oh_gaby.sg",
     "Amy_MacDonald/Mr._Rock_n_Roll.sg",
@@ -186,5 +191,5 @@
     "Yves_Jamait/Et_je_bois.sg",
     "Yvon_Etienne/Y_a_des_nouilles_et_du_nougat.sg",
     "Yvon_Etienne/Chemise_rouge.sg"
-  ]
+ ]
 }

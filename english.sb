@@ -1,23 +1,24 @@
 {
-"template" : "patacrep.tmpl",
+"template" : "patacrep-en.tmpl",
 "author" : "Romain Goffe \\and Alexandre Dupas",
+"bookoptions" : [
+    "diagram",
+    "lilypond"
+  ],
+"booktype" : "chorded",
 "footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
 "indexbgcolor" : "#D1E4AE",
-"license" : "\\input{license.tex}",
+"license" : "\\input{license-en.tex}",
 "mail" : "crep@team-on-fire.com",
 "mainfontsize" : "10pt",
 "notebgcolor" : "#D1E4AE",
-"picture" : "feel-the-music",
-"picturecopyright" : "foxygamergirl @ deviantart.com",
+"picture" : "Music_by_Katie8594",
+"picturecopyright" : "Katie8594 @ deviantart.com",
 "songnumberbgcolor" : "#D1E4AE",
 "subtitle" : "english songs",
 "title" : "Guitar Songbook",
 "version" : "3.2",
 "web" : "http://www.patacrep.com",
-"booktype" : [
-    "chorded",
-    "lilypond"
-  ],
 "songs" : [
     "Aaron/U_turn_lili.sg",
     "Alicia_Keys/If_aint_got_you.sg",
@@ -92,7 +93,6 @@
     "Simon_Garfunkel/Wednesday_morning_3a.m.sg",
     "Simon_Garfunkel/Cecilia.sg",
     "Simon_Garfunkel/Scarborough_Fair.sg",
-    "Sinsemilia/J_prefere_100_fois.sg",
     "System_of_a_Down/Roulette.sg",
     "Terra_Naomi/Say_It_s_Possible.sg",
     "The_Animals/The_house_of_rising_sun.sg",

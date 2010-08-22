@@ -1,0 +1,83 @@
+\songcolumns{2}
+\beginsong{Marche barbare}
+  [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret]
+
+  \capo{1}
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mim}{022000}
+
+  \beginverse
+    \[Lam]Dans une \[Do]hutte on \[Fa Sol]a gran\[Lam]di
+    \[Lam]Depuis tout \[Sol]jeune, on prend des \[Lam]gnons
+    \[Lam]{L'acier} tran\[Do]chant c'est \[Sol Fa]notre \[Lam]vie
+    \[Lam]Et nos loi\[Sol]sirs c'est \[Fa]la ba\[Lam]ston
+  \endverse
+
+  \beginverse
+    Yor le Bourrin était un rustre
+    Il frappait fort et trop souvent
+    C'est à quatre ans, avec un lustre
+    Qu'il avait tué ses deux parents
+  \endverse
+
+  \beginverse
+    Throd le Massif était balèze
+    Il tuait les buffles à mains nues
+    Il aimait jouer avec les elfes
+    En lançant des enclumes dessus
+  \endverse
+
+  \beginchorus
+    \[Lam]{C'est} en mar\[Do]chant dans \[Sol]les en\[Lam]trailles
+    \[Lam]Que les bar\[Sol]bares vont à l'a\[Mim]ssaut
+    \[Lam]Et par le \[Do]fer des \[Sol]haches de \[Lam]bataille
+    \[Lam]Tailler la \[Do]chair et \[Sol]bro\[Mim]yer les \[Lam]os
+  \endchorus
+
+  \beginverse
+    Gourga le Haut était immense
+    Il cassait les arbres en toussant
+    Il sautait par-dessus les granges
+    En piétinant les gens c'était marrant
+  \endverse
+
+  \beginverse
+    Kyrn le Véloce était rapide
+    Il doublait les fauves en courant
+    Il parcourait la plaine de Krhid
+    En 20 minutes, et encore, y'avait du vent
+  \endverse
+
+  \beginverse
+    Zrag le Berserk était un abruti
+    Il s'énervait quand on pillait
+    Il frappait aussi bien sur les amis
+    Mais c'est pas grave on lui rendait
+  \endverse
+
+  \beginverse
+    Ourdo le Sage savait écrire
+    Il ne s'entraînait pas souvent
+    Et bien sûr il s'est fait pourrir
+    Il n'était pas très utile au clan !
+  \endverse
+
+  \beginverse
+    Lili était bien trop gentille
+    Elle fut virée du clan dix fois
+    Mais comme elle fait bien la tarte aux myrtilles
+    Quand elle revient, on l'engueule pas
+  \endverse
+
+  \image{barbare}{5}
+
+\endsong
+
+\beginscripture{Encyclopedie Naheulbeuk}
+Voici ce que chantent les barbares, le soir au coin des huttes, ou
+bien en partant piller les villages.
+\endscripture

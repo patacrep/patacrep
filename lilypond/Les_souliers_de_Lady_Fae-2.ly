@@ -1,12 +1,15 @@
 \include "header"
-\paper{paper-height = 3.1\cm}
+\paper{paper-height = 4.1\cm}
 
 {
-  \key g \major
-  \relative c'
+  \key a \minor
+  \time 6/8
+  \relative c''
   {
-    \time 6/8
-    b'8. a16 g fis e8 fis16 g a8 b a g a g16 fis e8 %\break
-    b'8. a16 g fis e8 fis16 g a8 c b a b4.
+    a8 b16 c d8 e8 d e f e d e4.
+    a,8 b16 c d8 e8 c e d8 b d c8 b16 a g8
+
+    a8 b16 c d8 e8 d e f e d e4.
+    d8 b d c8 b16 a g8 a8 b c a4.
   }
 }

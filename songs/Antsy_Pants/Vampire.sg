@@ -1,0 +1,60 @@
+\songcolumns{2}
+\beginsong{Vampire}
+  [by=Antsy Pants,cov=juno]
+
+  \cover
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+
+  \beginverse
+    I am a \[Rém]vampire, I am a vampire
+    I am a vampire, I am a vampire
+    I am a vampire vampire, I am a vampire
+    I have lost \[Sol]my \[Do]fangs
+    I am a \[Rém]vampire, I am a vampire
+    I am a vampire, I have lost \[Sol]my \[Do]fangs
+  \endverse
+
+  \beginverse*
+    So I'm \[Rém]sad and \[Sol]I feel \[Do]lonely
+    So I \[Rém]cry and \[Sol]{I'm} very \[Do]angry
+    And I \[Rém]ate \[Sol]some gar\[Do]lic
+    So I'm \[Rém]no more \[Sol]sata\[Do]nic yeah yeah
+  \endverse
+
+  \beginverse*
+    I \[Ré]am a vampi\[Do]re and I am wal\[La]king in the ci\[Ré]ty
+    But the \[Do]pretty \[La]girls \[Ré]don't look at me 
+    \echo{Don't look at me}
+    Cause I \[Sol]{don't} \[La]have \[Ré]my fangs
+    Cause I \[Sol]have \[La]lost \[Ré]my fangs
+  \endverse
+
+  \beginverse
+    I am a vampire, I am a vampire
+    I have lost my mouth organ
+    I am a vampire, I am a vampire
+    I have lost my mouth organ
+  \endverse
+
+  \beginverse*
+    So I get bored and I shout
+    So I eat popcorn and I put on weight
+    And I sing but my voice is breaking
+    And I want to play the guitar
+    But my guitar is out of tune
+  \endverse
+
+  \beginverse*
+    I am a vampire and I'm walking in the city
+    But the musicals don't play with me 
+    \echo{Don't play with me}
+    Cause I don't have my mouth organ
+    And I have lost my mouth organ
+  \endverse
+
+\endsong
+

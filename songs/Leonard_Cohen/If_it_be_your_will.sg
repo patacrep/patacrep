@@ -1,0 +1,81 @@
+\songcolumns{2}
+\beginsong{If it be your will}
+  [by=Leonard Cohen,cov=the-collection]
+
+  \cover
+  \gtab{Mi&}{6:X02220}
+  \gtab{Fam}{8:X02210}
+  \gtab{Do#}{4:X02220}
+  \gtab{Dom}{3:X02210}
+  \gtab{La&}{4:022100}
+  \gtab{Si&}{6:022100}
+
+  \beginverse
+    \[Mi&]If it be your \[Fam]will, 
+    \[Do#]That I speak no \[Dom]more
+    \[Mi&]And my voice be \[Fam]still, 
+    \[La&]As it was be\[Mi&]fore
+  \endverse
+
+  \beginchorus
+    \[Dom]{I will} speak no \[Si&]more
+    I \[Dom]shall abide un\[Si&]til
+    \[La&]{I am} spoken \[Mi&]for
+    If it \[Si&]be your will
+  \endchorus
+
+  \beginverse  
+    If it be your will
+    That a voice be true
+    From this broken hill
+    I will sing to you
+  \endverse
+
+  \beginchorus
+    From this broken hill
+    All your praises they shall ring
+    If it be your will 
+    To let me sing
+  \endchorus
+
+  \beginverse
+    \nolyrics{ \[Mi& Fam Do# Dom] }
+    \nolyrics{ \[Mi& Fam La& Mi&] }
+  \endverse
+
+  \beginchorus
+    From this broken hill 
+    All your praises they shall ring
+    If it be your will
+    To let me sing
+  \endchorus
+
+  \beginverse
+    If it be your will 
+    If there is a choice
+    Let the rivers fill
+    Let the hills rejoice
+  \endverse
+
+  \beginchorus
+    Let your mercy spill 
+    On all these burning hearts in hell
+    If it be your will
+    To make us well
+  \endchorus
+
+  \beginverse
+    And draw us near
+    And bind us tight
+    All your children here
+    In their rags of light
+  \endverse
+
+  \beginchorus
+    In our rags of light
+    All dressed to kill
+    And end this night
+    If it be your will \rep{2}
+  \endchorus
+
+\endsong

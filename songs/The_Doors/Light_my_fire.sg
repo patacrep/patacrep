@@ -1,0 +1,40 @@
+\songcolumns{2}
+\beginsong{Light my fire}
+  [by=The Doors,cov=the-doors]
+
+  \cover
+  \gtab{Lam7}{X02010}
+  \gtab{Fa#m7}{202220}
+  \gtab{Sol}{320003}
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Mi}{022100}
+  \gtab{Fa}{1:022100}
+
+  \beginverse
+    You \[Lam7]know that it would be \[Fa#m7]untrue
+    You \[Lam7]know that it would be a \[Fa#m7]liar
+    \[Lam7]If I was to say to \[Fa#m7]you
+    \[Lam7]Girl we couldn't get much \[Fa#m7]higher
+  \endverse
+
+  \beginchorus
+    \[Sol]Come on baby \[La]light my \[Ré]fire
+    \[Sol]Come on baby \[La]light my \[Ré]fire
+    \[Sol]Try to set the \[Ré]night on \[Mi]fire
+  \endchorus
+
+  \beginverse
+    The time to hesitate is through
+    No time to wallow in the mire
+    Try now we can only loose
+    And our love become a funeral pyre
+  \endverse
+
+  \beginchorus
+    Come on baby light my fire \rep{2}
+    Try to set the night on fire \rep{3}
+    \[Fa]Try to set \[Do]the night on \[Ré]fire
+  \endverse
+
+\endsong

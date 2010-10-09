@@ -1,0 +1,70 @@
+\songcolumns{2}
+\beginsong{Éducation Sentimentale}
+  [by=Maxime Le Forestier,cov=mon-frere]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol7}{320001}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Do]Ce soir à la brume \[Lam]nous irons ma brune
+    \[Rém]Cueillir des ser\[Sol7]ments,
+    \[Do]Cette fleur sauvage \[Lam]qui fait des ravages
+    \[Rém]Dans les \[Sol7]cœurs d'en\[Do]fant.
+  \endverse
+
+  \beginverse*
+    \[Fa]Pour toi ma princesse, \[Sol7]j'en ferai des tresses
+    Et dans tes che\[Do]veux,
+    \[Mi]Ces serments ma belle \[Lam]te rendront cruelle
+    \[Rém]Pour tes \[Sol7]amou\[Do]reux. \[Mi Lam Sol Fa Sol Do]
+  \endverse
+
+  \beginverse
+    Demain à l'aurore, nous irons encore
+    Glaner dans les champs,
+    Cueillir des promesses, des fleurs de tendresse
+    Et de sentiments.
+  \endverse
+
+  \beginverse*
+    Et sur la colline, dans les sauvagines
+    Tu te coucheras,
+    Dans mes bras ma brune, éclairée de lune
+    Tu te donneras.
+  \endverse
+
+  \beginverse
+    C'est au crépuscule quand la libellule
+    S'endort au marais,
+    Qu'il faudra, voisine, quitter la colline
+    Et vite rentrer.
+  \endverse
+  
+  \beginverse*
+    Ne dis rien ma brune, pas même à la lune
+    Et moi dans mon coin,
+    J'irai solitaire, je saurai me taire,
+    Je ne dirai rien.
+  \endverse
+
+  \beginverse
+    Ce soir à la brume nous irons ma brune
+    Cueillir des serments,
+    Cette fleur sauvage qui fait des ravages
+    Dans les cœurs d'enfant.
+  \endverse
+   
+  \beginverse*
+    Pour toi ma princesse, j'en ferai des tresses
+    Et dans tes cheveux,
+    Ces serments ma belle te rendront cruelle
+    Pour tes amoureux.
+  \endverse
+
+\endsong

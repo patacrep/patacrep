@@ -1,0 +1,74 @@
+\songcolumns{2}
+\beginsong{Comme un arbre}
+  [by=Maxime Le Forestier,cov=essentielles]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Ré7}{XX0212}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
+  \gtab{Rém}{XX0231}
+  \gtab{Mi}{022100}
+  \gtab{Lam}{X02210}
+  \gtab{La7}{X02020}
+  \gtab{Ré}{XX0232}
+  
+
+  \beginverse
+    \[Do]Comme un arbre dans la \[Ré7]ville,
+    \[Fa]Je suis \[Sol]né dans le bé\[Do]ton
+    Coincé \[Mim]entre deux mai\[Lam]sons
+    Sans \[Rém]abri, sans domi\[Sol Mim]ci\[Lam]le
+    Comme un \[Rém]arbre dans la \[Mi]vil\[Lam]le.
+  \endverse
+
+  \beginverse*
+    Comme un arbre dans la ville,
+    J'ai grandi loin des futaies
+    Où mes frères des forêts
+    Ont fondé une famille,
+    Comme un arbre dans la ville
+  \endverse
+
+  \beginchorus
+    \[Mi]Entre béton et bi\[Lam]tume
+    Pour \[La7]pousser je me dé\[Rém]bats
+    Et mes \[Ré]branches volent \[Sol]bas
+    \[Mi]Si près des autos qui \[Lam]fument
+    Entre \[Rém]béton et bi\[Mi]tume\[Lam].
+  \endchorus
+
+  \beginverse
+    Comme un arbre dans la ville,
+    J'ai la fumée des usines
+    Pour prison et mes racines
+    On les recouvre de grilles
+    Comme un arbre dans la ville.
+  \endverse
+
+  \beginverse*
+    Comme un arbre dans la ville,
+    J'ai des chansons sur mes feuilles
+    Qui s'envoleront sous l'œil
+    De vos fenêtres serviles
+    Comme un arbre dans la ville.
+  \endverse
+
+  \beginchorus
+    Entre béton et bitume
+    On m'arrachera des rues
+    Pour bâtir où j'ai vécu
+    Des parking d'honneur posthume
+    Entre béton et bitume.
+  \endchorus
+
+  \beginverse
+    Comme un arbre dans la ville,
+    Ami fais après ma mort
+    Barricade de mon corps
+    Et du feu de mes brindilles
+    Comme un arbre dans la ville.
+  \endverse
+
+\endsong

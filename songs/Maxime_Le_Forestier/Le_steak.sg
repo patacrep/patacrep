@@ -1,0 +1,65 @@
+\songcolumns{2}
+\beginsong{Le steak}
+  [by=Maxime Le Forestier,cov=le-steak]
+
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{Sim}{2:X02210}
+  \gtab{Do}{X32010}
+  \gtab{La}{X02220}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Sol}{320003}
+  \gtab{Solm}{3:022000}
+  \gtab{Mi}{022100}
+  
+  \beginverse
+    \[Ré]Si le steak qui te résiste
+    Est meilleur qu'mes chansons \[Sim]tristes
+    Si tu \[Ré]es venu pour \[Do]lui \[La]
+    Faudrait \[Ré]pas que je t'em\[Sim]pêche
+    De di\[Ré]gérer ta viande \[Sim]fraîche
+    Au prix \[Ré]où ça se paye \[Fa#m]ici \[La]
+  \endverse
+
+  \beginchorus
+    Fais deux \[Ré]boules de pain pa\[Sol]reilles
+    Mets-les \[Solm]toi dans les or\[Ré]eilles
+    Fais comme \[Sim]si j'étais pas \[Mi]là
+    \[La]Je ne chante pas pour \[Ré]toi
+  \endchorus
+
+  \beginverse
+    Si la fille qui te cajole
+    Est plus gaie qu'mes chansons folles
+    Allez, mets-toi bien à l'aise
+    Je vois ta main qui s'occupe
+    Qui s'insinue sous sa jupe
+    C'est pas si souvent qu'on baise
+  \endverse
+
+  \beginverse
+    Si les banquettes moelleuses
+    Sont meilleures que mes berceuses
+    Je te vois, déjà, tu dors
+    Que tu bouffes ou que tu manges
+    Faudrait pas que j'te dérange
+    Et je vais chanter moins fort
+  \endverse
+
+  \beginverse
+    Si tu es seul qui écoutes
+    Si tu viens et si tu goûtes
+    La chanson pour ce qu'elle est
+    Quatre rimes maladroites
+    Que l'on trouve ou que l'on rate
+    Mais qui forment des couplets
+  \endverse
+
+  \beginchorus
+    Alors ouvre tes oreilles
+    Je te chanterai de merveilles
+    C'est pour toi que je suis là
+    Et je chanterai pour toi
+  \endchorus
+
+\endsong

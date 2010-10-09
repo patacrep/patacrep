@@ -1,0 +1,42 @@
+\songcolumns{2}
+\beginsong{Paint it black}
+  [by=The Rolling Stones,cov=hot-rocks]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+  \gtab{Ré7}{XX0212}
+  \gtab{Si&}{1:X02220}
+  
+  \beginverse
+    \[Lam]She would \[Do]never \[Fa]say where \[Sol]she came \[Do]from
+    \[Lam]Yesterday \[Ré]don't \[Fa]matter \[Do]if it's \[Sol]gone
+    \[Lam]While the \[Ré7]sun is \[Sol]bright or \[Lam]in the \[Ré7]darkest \[Sol]night
+    No one \[Do]knows, she comes and \[Sol]goes
+  \endverse
+
+  \beginchorus
+    \[Do]Good\[Sol]bye \[Do]Ruby Tuesday, who could \[Sol]hang a name \[Do]on you
+    \[Do]When you \[Sol]change with \[Si&]every \[Fa]new day
+    \[Sol]Still I'm gonna \[Do]miss \[Sol]you
+  \endchorus
+
+  \beginverse
+    Don't question why she needs to be so free
+    Tell you it's the only way to be
+    She just can't be chained to a life where nothings gained
+    And nothings lost, at such a cost
+  \endverse
+
+
+  \beginverse
+    There's no time to lose I heard her say
+    She'll cash your dreams before they slip away
+    Dying all the time, lose your dreams and you'll lose your mind
+    Aint life unkind
+  \endverse
+
+\endsong

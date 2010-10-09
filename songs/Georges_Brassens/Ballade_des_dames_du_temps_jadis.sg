@@ -1,0 +1,56 @@
+\songcolumns{2}
+\beginsong{Ballade des dames du temps jadis}
+  [by=Georges Brassens,cov=la-mauvaise-reputation]
+
+  \cover
+  \gtab{La}{X02220}
+  \gtab{Mi7}{020100}
+  \gtab{Ré}{XX0232}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Fa#}{2:022100}
+  \gtab{Sim}{2:X02210}
+  
+  \beginverse
+    \[La]Dictes moy où, n'en quel pays
+    Est \[Mi7]Flora, la belle Ro\[La]maine
+    Archipiada, ne Thaïs,
+    Qui fut \[Mi7]sa cousine germ\[La]aine.
+    \[Ré]Echo, parlant quand bruyt on maine
+    Dessus ri\[Do#m]vière ou sus \[Fa#]estan
+    Qui beau\[Sim]lté ot trop plus qu'hu\[La]maine ?
+    Mais où \[Mi7]sont les neiges d'an\[Fa#]tan !
+    Qui beau\[Sim]lté ot trop plus qu'hu\[La]maine ?
+    Mais où \[Mi7]sont les neiges d'an\[La]tan !
+  \endverse
+
+  \beginverse
+    Où est la très sage Hélloïs,
+    Pour qui chastré fut et puis moyne
+    Pierre Esbaillart à Saint Denis ?
+    Pour son amour ot ceste essoyne.
+    Semblablement, où est la royne
+    Qui commanda que Buridan
+    Fust gecté en ung sac en Saine ?
+    Mais où sont les neiges d'antan ! \rep{2}
+  \endverse
+
+  \beginverse
+    La royne Blanche comme lis
+    Qui chantoit à voix de seraine
+    Berte aux grant pié, Bietris, Alis
+    Haremburgis qui tint le Maine,
+    Et Jehanne, la bonne Lorraine
+    Qu'Englois brûlèrent à Rouan;
+    Ou sont ilz, Vierge souveraine ?
+    Mais où sont les neiges d'antan ? \rep{2}
+  \endverse
+
+  \beginverse
+    \dots 
+    Prince, n'enquérez de sepmaine
+    Où elles sont, ne de cest an,
+    Que ce reffrain ne vous remaine :
+    Mais où sont les neiges d'antan ? \rep{2}
+  \endverse
+
+\endsong

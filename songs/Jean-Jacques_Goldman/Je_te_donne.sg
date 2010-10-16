@@ -1,0 +1,76 @@
+\songcolumns{2}
+\beginsong{Je te donne}
+  [by=Jean-Jacques Goldman,cov=non-homologue]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Do}{X32010}
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Mi}{022100}
+  \gtab{Fa}{1:022100}
+  
+  \beginverse 
+    I can \[Mim]give you a \[Do]voice, bred with \[Ré]rythm and \[Sol]soul,
+    From the \[Mim]heart of a \[Do]welsh boy who's \[Ré]lost his \[Sol]home,
+    \[Sol]Put it in \[Do]harmony, \[Ré]let the words \[Mim]ring,
+    \[Do]Carry your \[Sol]thoughts in the \[Do]songs we \[Ré]sing.
+  \endverse
+
+  \beginverse
+    Je te donne mes notes, je te donne mes mots,
+    Quand ta voix les emporte, à ton propre tempo,
+    Une épaule fragile et solide à la fois,
+    Ce que j'imagine ce que je crois.
+  \endverse
+
+  \beginchorus
+    Je te donne \[Do]toutes \[Ré]mes diffé\[Sol]rences, \[Do Sol]
+    Tous ces dé\[Do]fauts qui sont \[Ré]autant de \[Mim]chances.
+    On s'ra ja\[Do]mais des ``stan\[Ré]dards'', des gens \[Sol]bien comme il \[Lam]faut,
+    Je te \[Do]donne ce \[Sol]que j'ai, ce \[Do]que je \[Ré]vaux.
+  \endchorus
+
+  \beginverse
+    I can give you the force of my ancestral pride
+    The will to go on when I'm hurt deep inside,
+    Whatever the feeling, whatever the way,
+    It helps me go on from day to day.
+  \endverse
+
+  \beginverse
+    Je te donne nos doutes et notre indicible espoir
+    Les questions que les routes ont laissées dans l'histoire
+    Nos filles sont brunes et l'on parle un peu fort
+    Et l'humour et l'amour sont nos trésors
+  \endverse
+
+  \beginverse*
+    Je te \[Do]donne, \[Sol]donne, \[Lam]donne \[Do]ce que \[Ré]je \[Mi]suis.
+  \endverse
+
+  \beginverse
+    I can \[Lam]give you my \[Fa]voice bred with \[Sol]rythm and \[Do]soul
+    Je te \[Lam]donne mes \[Fa]notes, je te \[Sol]donne ma \[Do]voix
+    The song that I \[Fa]love and the \[Sol]stories I \[Lam]told
+    Ce \[Fa]que j'ima\[Do]gine et ce \[Fa]que je \[Sol]crois,
+  \endverse
+  
+  \beginverse  
+    I can make you feel good even when I am down
+    Les raisons qui me portent et ce stupide espoir
+    My force is a platform that you can climb on
+    Une épaule fragile et forte à la fois
+  \endverse
+  
+  \beginchorus
+    Je te \[Do]donne, \[Fa Sol] \rep{2}
+    \[Lam]Tout ce que je \[Fa]vaux, 
+    Ce que je \[Do]suis,
+    Mes \[Sol]dons, mes dé\[Lam]fauts,
+    Mes \[Fa]plus belles \[Do]chances, 
+    Mes \[Fa]diffé\[Sol]rences.
+  \endchorus
+
+\endsong

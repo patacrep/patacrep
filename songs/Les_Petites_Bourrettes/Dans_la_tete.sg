@@ -9,6 +9,8 @@
   \gtab{Do}{X32010}
   \gtab{Sol7}{320001}
 
+  \lilypond{Dans_la_tete}
+
   \beginverse
     La \[Sol]vie est un cadeau jo\[Lam]li
     Et pour un plein d'es\[Fa]poir, on oublie sa mé\[Do]moire

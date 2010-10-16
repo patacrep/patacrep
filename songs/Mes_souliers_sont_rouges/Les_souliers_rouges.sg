@@ -2,26 +2,25 @@
 \beginsong{Les souliers rouges}
   [by=Mes souliers sont rouges,cov=tape-la-galoche]
 
-
   \cover
+  \gtab{Sol}{320003}
+  \gtab{Ré7}{XX0212}
   \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
-  \gtab{Fa}{1:022100}
 
   \lilypond{Les_souliers_rouges}
 
   \beginverse
-    Ah si j'a\[Do]vais les beaux souliers que ma mi\[Sol7]gnonne, ma mi\[Do]gnonne,
-    Si j'a\[Fa]vais les beaux sou\[Do]liers que ma mi\[Sol7]gnonne m'a don\[Do]nés.
+    Ah si j'a\[Sol]vais les beaux souliers que ma mi\[Ré7]gnonne, ma mi\[Sol]gnonne,
+    Si j'a\[Do]vais les beaux sou\[Sol]liers que ma mi\[Ré7]gnonne m'a don\[Sol]nés.
     \rep{2}
-    Les souliers du vieux Poirier;
+    Les souliers du vieux Poirier ;
   \endverse
 
   \beginchorus
-    Mes souliers \[Fa]sont \[Do]rouges
-    Ma mi\[Sol7]gnonne, ma mi\[Do]gnonne
-    Mes sou\[Fa]liers sont \[Do]rouges
-    Ma mi\[Sol7]gnonne mes a\[Do]mours.
+    Mes souliers \[Do]sont \[Sol]rouges
+    Ma mi\[Ré7]gnonne, ma mi\[Sol]gnonne
+    Mes sou\[Do]liers sont \[Sol]rouges
+    Ma mi\[Ré7]gnonne mes a\[Sol]mours.
     \rep{2}
   \endchorus
 

@@ -2,8 +2,8 @@
 \beginsong{Quatre murs et un toit}
   [by=Bénabar,cov=reprise-des-negociations]
 
+  \cover 
   \capo{2}
-  \cover
   \gtab{Lam}{X02210}
   \gtab{Sol}{320003}
   \gtab{Rém}{XX0231}

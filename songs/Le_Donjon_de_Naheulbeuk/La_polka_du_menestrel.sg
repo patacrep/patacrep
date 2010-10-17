@@ -2,8 +2,8 @@
 \beginsong{La polka du ménestrel}
   [by=Le Donjon de Naheulbeuk,cov=grimoire-audio]
 
-  \capo{5}
   \cover
+  \capo{5}
   \gtab{Do}{X32010}
   \gtab{Fa}{1:022100}
   \gtab{Sol}{320003}

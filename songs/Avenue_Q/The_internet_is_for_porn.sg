@@ -1,22 +1,21 @@
-\songcolumns{1}
-\beginsong{The internet is for porn}[by=Avenue Q]
+\songcolumns{2}
+\beginsong{The internet is for porn}
+  [by=Avenue Q,cov=avenue-q]
 
-\capo{4}
-\gtab{Mi}{6:X02220}
-\gtab{Si7}{6:020100}
+\cover
+\gtab{Mi}{7:X02220}
+\gtab{Si7}{7:020100}
 \gtab{Fa#m}{9:X02210}
-\gtab{Sol#m}{9:X02210}
+\gtab{La&m}{4:022000}
 \gtab{La}{5:022100}
 \gtab{Si}{7:022100}
 
 \beginverse
-\[Mi]The internet is \[Si7]really really \[Mim]great \echo{For porn!}
-\[Mi]I've got a fast connection so \[Si7]I don't have to \[Mim]wait \echo{For porn!}
-Huh?
+\[Mi]The internet is \[Si7]really really \[Mi]great \echo{For porn!}
+\[Mi]I've got a fast connection so \[Si7]I don't have to \[Mi]wait \echo{For porn!}
 \[Fa#m]There's always some new site, \echo{For porn!}
-\[Sol#m]I browse all day and night \echo{For porn!}
+\[La&m]I browse all day and night \echo{For porn!}
 It's \[Fa#m]like I'm surfing \[La]at the speed of \[Si]light \echo{For porn!}
-Trekkie!
 \endverse
 
 \beginchorus
@@ -42,8 +41,6 @@ Which gives us untold opportunity \echo{For por\dots oops, sorry.}
 Right from you own desktop \echo{For \dots}
 You can research browse and shop
 Until you've had enough and your ready to stop \echo{FOR PORN!}
-
-Trekkie!
 \endverse
 
 \beginchorus
@@ -88,7 +85,7 @@ And Gary, you keep selling your possesions on Ebay \echo{Yes I do!}
 And Princeton, you sent me that sweet online birthday card \echo{True!}
 
 Oh, but Kate\dots
-What you think he do \dots after? hmm? \echo{yeah!}
+What you think he do \dots after? hmm? \echo{Yeah!}
 EEEWWWWW!
 \endverse
 
@@ -100,16 +97,14 @@ For porn, porn, porn!
 \endchorus
 
 \beginverse*
+Porn, porn, porn, porn \echo {I'm leaving!}
 Porn, porn, porn, porn
-I'm leaving!
-Porn, porn, porn, porn
-porn, porn, porn, porn
-I hate the internet!
+porn, porn, porn, porn \echo{I hate the internet!}
 Porn, porn, porn, porn
 
-The internet is for
-The internet is for
-The internet is for PORN! 
+The internet is for!
+The internet is for!
+The internet is for PORN!
 YEAH!
 \endverse
 

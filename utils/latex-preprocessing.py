@@ -23,8 +23,11 @@ word_dic = {
 "Ca ": "Ça ",
 "...": "\\dots ",
 "…": "\\dots",
+#replace tabs with two spaces
+"	": "  ",
 ##: Typo
 "New-York": "New York",
+" i ": " I ",
 "avant hier": "avant-hier",
 ##: Conversion from anglo-saxon conventions
 "\\[A": "\\[La",

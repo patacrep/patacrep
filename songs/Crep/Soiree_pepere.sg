@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Soirée pépère}
+  [by=Crep]
+
+  \gtab{Lam}{5:022000}
+  \gtab{Rém}{5:X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{3:X02220}
+  \gtab{Sol}{3:022100}
+  \gtab{Mi}{5:X212X0}
+
+  \beginverse
+    \[Lam]Enfin une soirée pépère
+    Canapé, pizza, une \[Rém]bière
+    Depuis quand tu vires au \[Do]bleu
+    Mon é\[Mi]cran n'est pas si \[Lam]vieux
+  \endverse
+
+  \beginchorus
+    \[Fa]J'redémarre, mais y'en a \[Do]marre
+    La prochaine fois qu'tu m'fais c'coup \[Sol]là
+    Tu verras \[Mi] c'que tu ve\[Lam]rras
+  \endchorus
+
+  \beginverse
+    Pourquoi diable trois questions
+    Et cinq confirmations ?
+    Contente-toi de faire tourner
+    Mon dernier DVD
+  \endverse
+
+  \beginverse*
+    Une histoire de codec ?
+    Arrete de m'prendre la tête
+    Débrouille-toi tout seul mon vieux
+    De toutes façons, je f'rai pas mieux
+  \endverse
+
+  \beginverse
+    Je farfouille sur internet
+    Me faut juste un programme tout bête
+    Non j'installerai pas ta toolbar
+    Laisse-moi voir mon film peinard
+  \endverse
+
+  \beginverse*
+    Ça y est cette fois c'est bon
+    J'ai toutes les applications
+    Double-clic, play, c'est parti
+    Ah ben non, t'as pas fini
+  \endverse
+
+  \beginverse
+    Mise à jour importante
+    Non mais est-ce que tu plaisantes ?
+    Mais j'vais pas m'faire pirater
+    Pendant ma séance ciné
+  \endverse
+
+  \beginverse*
+    Validée, downloadée,
+    Confirmer, rédémarrer
+    Un quart d'heure d'publicité
+    Mon film va peut-être commencer
+  \endverse
+
+  \beginverse
+    Scène d'horreur, même pas peur
+    Quand une voix hurle dans mes hauts-parleurs
+    Antivirus mis-à-jour
+    Sans déc, je suis pas sourd
+  \endverse
+
+  \beginverse*
+    Encore sous l'choc, j'éteins tout
+    Tu m'as rendu complètement fou
+    J'm'en vais voir chez les pingouins
+    Tu f'ras moins ton malin
+  \endverse
+
+\endsong

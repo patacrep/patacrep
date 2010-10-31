@@ -9,8 +9,8 @@
   \gtab{Fa#7}{2:020100}
 
   \beginchorus
-    \[Sim]Oh! Qu'est-ce qu'il pique \[Sol]ce hérisson!
-    \[Fa#7]Oh! Qu'elle est triste sa chan\[Sim]son!
+    \[Sim]Oh ! Qu'est-ce qu'il pique \[Sol]ce hérisson !
+    \[Fa#7]Oh ! Qu'elle est triste sa chan\[Sim]son !
     \rep{2}
   \endchorus
 
@@ -32,16 +32,16 @@
 
   \beginverse
     Quelle est la fée dans ce livre,
-    Qui me donnera l'envie d'vivre?
+    Qui me donnera l'envie d'vivre ?
     Quelle est la petite fille aux yeux bleus,
-    Qui va m'rendre heureux?
+    Qui va m'rendre heureux ?
   \endverse
 
   \beginverse*
     Quelle est la fée dans ce livre,
-    Qui lui donnera l'envie d'vivre?
+    Qui lui donnera l'envie d'vivre ?
     Quelle est la petite fille aux yeux bleus,
-    Qui l'rendra heureux?
+    Qui l'rendra heureux ?
   \endverse
 
   \beginverse
@@ -63,7 +63,7 @@
     J'ai caressé le hérisson
     Il n'est plus triste le hérisson
     Elle a caressé la chanson
-    \echo{Mais non! Le hérisson! \rep{2}
+    \echo{Mais non ! Le hérisson ! \rep{2}
     Pom pom}
   \endverse
 

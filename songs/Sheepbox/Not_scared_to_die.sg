@@ -2,62 +2,62 @@
 \songcolumns{2}
 \beginsong{Not scared to die}[by=Sheepbox]
 
-\capo{3}
-\gtab{Do#m}{4:X02210}
-\gtab{Mim}{7:X02210}
-\gtab{Sim}{2:X02210}
-\gtab{La}{X02220}
-\gtab{Mi}{022100}
-\gtab{La}{X02220}
-\gtab{Mi}{022100}
-\gtab{Sol}{320003}
-\gtab{Ré}{XX0232}
-\gtab{Do}{X32010}
-\gtab{Mi7}{020100}
+  \capo{3}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Mim}{7:X02210}
+  \gtab{Sim}{2:X02210}
+  \gtab{La}{X02220}
+  \gtab{Mi}{022100}
+  \gtab{La}{X02220}
+  \gtab{Mi}{022100}
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+  \gtab{Do}{X32010}
+  \gtab{Mi7}{020100}
 
-\musicnote{Intro: Do\#m Mim Sim La $\times 2$}
+  \musicnote{Intro: Do\#m Mim Sim La $\times 2$}
 
-\beginverse
-\[Do#m]{I let you} drive\[Mim]{\dots{}} \[Sim]{Just for} a while\[La]{.}
-\[Do#m]{You can} decide\[Mim]{\dots{}} \[Sim]{Where goes} our ride\[La]{.}
-\[Do#m]{I don't want} my life\[Mim]{\dots{}} \[Sim]{To be a} straight line\[La]{.}
-\[Do#m]{But a messy} flight\[Mim]{\dots{}} \[Sim]{Across the} sky\[La]{.}
-\endverse
+  \beginverse
+    \[Do#m]{I let you} drive\[Mim]{\dots{}} \[Sim]{Just for} a while\[La]{.}
+    \[Do#m]{You can} decide\[Mim]{\dots{}} \[Sim]{Where goes} our ride\[La]{.}
+    \[Do#m]{I don't want} my life\[Mim]{\dots{}} \[Sim]{To be a} straight line\[La]{.}
+    \[Do#m]{But a messy} flight\[Mim]{\dots{}} \[Sim]{Across the} sky\[La]{.}
+  \endverse
 
-\beginchorus
-\[Mi]Not scared of dying\[La]{\dots{}} \[Mi]Not scared to die\[La]{!} \rep{2}
-\endchorus
+  \beginchorus
+    \[Mi]Not scared of dying\[La]{\dots{}} \[Mi]Not scared to die\[La]{!} \rep{2}
+  \endchorus
 
-\beginverse
-No TV screen\dots{} No new engine.
-No big property\dots{} No more family.
-I don't need to meet\dots{} The common needs.
-Someone like me\dots{} Just want to be free.
-\endverse
+  \beginverse
+    No TV screen\dots{} No new engine.
+    No big property\dots{} No more family.
+    I don't need to meet\dots{} The common needs.
+    Someone like me\dots{} Just want to be free.
+  \endverse
 
-\musicnote{chorus}
+  \musicnote{chorus}
 
-\beginchorus
-\[Mi]Dying \[Sol]{is not} \[Ré]happy\[La]{!}
-\[Mi]Dying \[Sol]{is not} \[Ré]healthy\[La]{!}
-\[Mi]Dying \[Sol]{is not} \[Ré]funny\[La]{!}
-\[Mi]Dying \[Sol]{is not} \[Ré]scary\[La]{!}
-\endchorus
+  \beginchorus
+    \[Mi]Dying \[Sol]{is not} \[Ré]happy\[La]{!}
+    \[Mi]Dying \[Sol]{is not} \[Ré]healthy\[La]{!}
+    \[Mi]Dying \[Sol]{is not} \[Ré]funny\[La]{!}
+    \[Mi]Dying \[Sol]{is not} \[Ré]scary\[La]{!}
+  \endchorus
 
-\beginverse*
-\[Do]{If you're} \[Ré]enjoying the \[La]ride.
-\[Do]{And every}  \[Ré]time of your  \[La]life.
-\[Do]{Don't fear} the  \[Ré]day of your  \[La]death.
-\[Do]{Cauz' that} day  \[Ré]may be \[Mi7]today.
-\endverse
+  \beginverse*
+    \[Do]{If you're} \[Ré]enjoying the \[La]ride.
+    \[Do]{And every}  \[Ré]time of your  \[La]life.
+    \[Do]{Don't fear} the  \[Ré]day of your  \[La]death.
+    \[Do]{Cauz' that} day  \[Ré]may be \[Mi7]today.
+  \endverse
 
-\beginverse
-I dip my eyes\dots{} Into the sky.
-I free my mind\dots{} And return wild.
-Spending some time\dots{} Before the next ride.
-Enjoying my life\dots{} Before I die!
-\endverse
+  \beginverse
+    I dip my eyes\dots{} Into the sky.
+    I free my mind\dots{} And return wild.
+    Spending some time\dots{} Before the next ride.
+    Enjoying my life\dots{} Before I die!
+  \endverse
 
-\musicnote{chorus $\times 2$, chorus$^2$ $\times 2$}
+  \musicnote{chorus $\times 2$, chorus$^2$ $\times 2$}
 
 \endsong

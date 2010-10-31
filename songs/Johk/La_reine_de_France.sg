@@ -2,78 +2,78 @@
 \songcolumns{2}
 \beginsong{La reine de France}[by=Johk]
 
-\gtab{La}{X02220}
-\gtab{Mi}{022100}
-\gtab{Fa#m}{1:022000}
-\gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Mi}{022100}
+  \gtab{Fa#m}{1:022000}
+  \gtab{Ré}{XX0232}
 
-\beginverse
-On me dit que mon \[La]mari ne vaut pas grand \[Mi]chose,
-Il ne fait \[Fa#m]que prendre la \[Ré]pose. 
-Qu'à cause de \[La]lui le \[Mi]peuple est \[Fa#m]morose.\[Ré]
-\endverse
+  \beginverse
+    On me dit que mon \[La]mari ne vaut pas grand \[Mi]chose,
+    Il ne fait \[Fa#m]que prendre la \[Ré]pose. 
+    Qu'à cause de \[La]lui le \[Mi]peuple est \[Fa#m]morose.\[Ré]
+  \endverse
 
-\beginverse
-On me dit que c'est un salaud,
-que de nos problèmes il en fait des copeaux
-avec lesquels il fait avancer son bateau.
-\endverse
+  \beginverse
+    On me dit que c'est un salaud,
+    que de nos problèmes il en fait des copeaux
+    avec lesquels il fait avancer son bateau.
+  \endverse
 
-\beginverse
-On me dit qu'il n'est pas très grand,
-Qu'il cire les chaussures des tyrands,
-Pour se faire un peu d'argent.
-\endverse
+  \beginverse
+    On me dit qu'il n'est pas très grand,
+    Qu'il cire les chaussures des tyrands,
+    Pour se faire un peu d'argent.
+  \endverse
 
-\beginverse
-On me dit qu'il est énervant,
-Peut être un peu trop présent.
-Il aime se montrer aux gens.
-\endverse
+  \beginverse
+    On me dit qu'il est énervant,
+    Peut être un peu trop présent.
+    Il aime se montrer aux gens.
+  \endverse
 
-\beginverse
-Mais moi je n'écoute rien,
-Depuis quand le peuple est souverain.
-Il est le roi de droit divin.
-\endverse
+  \beginverse
+    Mais moi je n'écoute rien,
+    Depuis quand le peuple est souverain.
+    Il est le roi de droit divin.
+  \endverse
 
-\beginverse
-Et moi je le soutiens,
-Je ne suis pas sa femme pour rien.
-Je suis la reine{\dots}
-\endverse
+  \beginverse
+    Et moi je le soutiens,
+    Je ne suis pas sa femme pour rien.
+    Je suis la reine{\dots}
+  \endverse
 
-\beginchorus
-La reine de France\rep{3}
-\endchorus
+  \beginchorus
+    La reine de France\rep{3}
+  \endchorus
 
-\beginverse
-Vos soucis n'ont pas d'importances,
-S'il vous plait soffrez en silence.
-Pourquoi n'avez vous pas confiance ?
-\endverse
+  \beginverse
+    Vos soucis n'ont pas d'importances,
+    S'il vous plait soffrez en silence.
+    Pourquoi n'avez vous pas confiance ?
+  \endverse
 
-\beginverse
-Mon mari vous aime vous le savez,
-Il n'a pas le temps de vous consulter,
-Il est toujours très occupé.
-\endverse
+  \beginverse
+    Mon mari vous aime vous le savez,
+    Il n'a pas le temps de vous consulter,
+    Il est toujours très occupé.
+  \endverse
 
-\beginverse
-Et moi je suis sa dulcinée,
-Je suis encore à des années
-J'assure la survie de la lignée.
-\endverse
+  \beginverse
+    Et moi je suis sa dulcinée,
+    Je suis encore à des années
+    J'assure la survie de la lignée.
+  \endverse
 
-\beginverse
-Prosternez vous devant nous,
-Mes fidèles sujets à genoux.
-Le roi et la reine veillent sur vous.
-\endverse
+  \beginverse
+    Prosternez vous devant nous,
+    Mes fidèles sujets à genoux.
+    Le roi et la reine veillent sur vous.
+  \endverse
 
-\beginchorus
-La reine de France\rep{3}
-Ayez confiance !
-\endchorus
+  \beginchorus
+    La reine de France\rep{3}
+    Ayez confiance !
+  \endchorus
 
 \endsong

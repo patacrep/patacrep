@@ -17,10 +17,16 @@
     \[Do]Il cueille une marguerite : ce sont deux amants.
     \[Sol]Overdose de douceur. Ils jouent comme des enfants.
     \[Mim]Je t'aime un peu beaucoup à la folie passionnément.
+  \endverse
+
+  \beginverse*
     Mais à la suite d'une douloureuse déception sentimentale,
     D'humeur chaleureuse, je devenais brutal.
     La haine d'un être n'est pas dans nos prérogatives.
     Tchernobyl. Tcherno-débile. Jalousie radioactive.
+  \endverse
+
+  \beginverse*
     Caroline était une amie, une superbe fille.
     Je repense à elle, à nous, à nos cornets vanille,
     À sa boulimie de fraises, de framboises, de myrtilles,
@@ -28,25 +34,30 @@
   \endverse
 
   \beginchorus
-    C'est qu'je suis l'as de trèfle qui pique ton cœur{\dots}
-    L'as de trèfle qui pique ton cœur{\dots}
-    L'as de trèfle qui pique ton cœur{\dots}
-    Caroline{\dots}
+    C'est qu'je suis l'as de trèfle qui pique ton cœur
+    L'as de trèfle qui pique ton cœur
+    L'as de trèfle qui pique ton cœur
+    Caroline
   \endchorus
 
   \beginverse
     Comme le trèfle à quatre feuilles, je cherche votre bonheur.
-    Je suis l'homme qui tombe à pic{\dots} pour prendre ton cœur.
-    Il faut se tenir à carreaux. Caro, ce message vient 
-    Du cœur.
+    Je suis l'homme qui tombe à pic, pour prendre ton cœur.
+    Il faut se tenir à carreaux. Caro, ce message vient du cœur.
     Une pyramide de baisers, une tempête d'amitié,
-    Une vague de caresses, Un cyclone de douceur. 
+    Une vague de caresses, un cyclone de douceur. 
     Un océan de pensées. Caroline, je t'ai offert un building
     De tendresse.
+  \endverse
+
+  \beginverse*
     J'ai une peur bleue. J'suis poursuivi par l'armée rouge.
     Pour toi j'ai pris des billets verts, il a fallu qu'je bouge.
     Pyromane de ton cœur, Canadair de tes frayeurs,
     Je t'ai offert une symphonie de couleurs.
+  \endverse
+
+  \beginverse*
     Elle est partie, maso, avec un vieux macho
     Qu'elle avait rencontré dans une station de métro.
     Quand je les vois main dans la main fumant le même mégot,
@@ -59,18 +70,21 @@
     Claude MC prend le microphone, genre love story raggamuffin
     Pour te parler d'une amie qu'on appelle Caroline.
     Elle était ma dame, elle était ma came, elle était ma vitamine,
-    Elle était ma drogue, ma dope, ma coke, mon crack, mon amphétamine,
-    Caroline{\dots}
+    Elle était ma drogue, ma dope, ma coke, mon crack, mon amphétamine, Caroline
+  \endverse
+
+  \beginverse*
     Je repense à elle, femme actuelle, 20 ans, jeune et jolie.
     Remet donc le film à l'envers, magnéto de la vie.
     Pour elle, faut-il l'admettre, des larmes ont coulé.
     Hémorragie oculaire. Vive notre amitié.
+  \endverse
 
+  \beginverse*
     Du passé, du présent, je l'espère, du futur,
     Je suis passé pour être présent dans ton futur.
     La vie est un jeu de cartes, Paris un casino.
-    Je joue les rouges, cœur,
-    Caro{\dots}
+    Je joue les rouges, cœur, Caro
   \endverse
 
   \musicnote{chorus \rep{2}}

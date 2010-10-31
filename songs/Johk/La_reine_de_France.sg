@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{La reine de France}[by=Johk]
+\beginsong{La reine de France}
+  [by=Johk]
 
   \gtab{La}{X02220}
   \gtab{Mi}{022100}
@@ -15,19 +16,19 @@
 
   \beginverse
     On me dit que c'est un salaud,
-    que de nos problèmes il en fait des copeaux
-    avec lesquels il fait avancer son bateau.
+    Que de nos problèmes il en fait des copeaux
+    Avec lesquels il fait avancer son bateau.
   \endverse
 
   \beginverse
     On me dit qu'il n'est pas très grand,
-    Qu'il cire les chaussures des tyrands,
+    Qu'il cire les chaussures des tyrans,
     Pour se faire un peu d'argent.
   \endverse
 
   \beginverse
     On me dit qu'il est énervant,
-    Peut être un peu trop présent.
+    Peut-être un peu trop présent.
     Il aime se montrer aux gens.
   \endverse
 
@@ -48,9 +49,9 @@
   \endchorus
 
   \beginverse
-    Vos soucis n'ont pas d'importances,
-    S'il vous plait soffrez en silence.
-    Pourquoi n'avez vous pas confiance ?
+    Vos soucis n'ont pas d'importance,
+    S'il vous plaît souffrez en silence.
+    Pourquoi n'avez-vous pas confiance ?
   \endverse
 
   \beginverse
@@ -66,7 +67,7 @@
   \endverse
 
   \beginverse
-    Prosternez vous devant nous,
+    Prosternez-vous devant nous,
     Mes fidèles sujets à genoux.
     Le roi et la reine veillent sur vous.
   \endverse

@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Bioman}
-  [by=Crep]
+  [by=Crep,cov=histoires-d-un-manchot]
 
+  \cover
   \capo{3}
   \gtab{Sol}{320003}
   \gtab{Ré}{XX0232}

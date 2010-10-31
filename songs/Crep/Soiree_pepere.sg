@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Soirée pépère}
-  [by=Crep]
+  [by=Crep,cov=histoires-d-un-manchot]
 
+  \cover
   \gtab{Lam}{5:022000}
   \gtab{Rém}{5:X02210}
   \gtab{Fa}{1:022100}
@@ -32,7 +33,7 @@
 
   \beginverse*
     Une histoire de codec ?
-    Arrete de m'prendre la tête
+    Arrête de m'prendre la tête
     Débrouille-toi tout seul mon vieux
     De toutes façons, je f'rai pas mieux
   \endverse
@@ -60,7 +61,7 @@
 
   \beginverse*
     Validée, downloadée,
-    Confirmer, rédémarrer
+    Confirmer, redémarrer
     Un quart d'heure d'publicité
     Mon film va peut-être commencer
   \endverse

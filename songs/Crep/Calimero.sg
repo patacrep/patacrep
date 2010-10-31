@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Caliméro}
-  [by=Crep]
+  [by=Crep,cov=histoires-d-un-manchot]
 
+  \cover
   \gtab{Rém}{5:X02210}
   \gtab{Fa}{1:022100}
   \gtab{Do}{3:X02220}
@@ -33,7 +34,7 @@
   \beginverse
     Déjà tout ptit ça a commencé
     Personnage d'BD préféré
-    Gaston Lagaffe évidémment
+    Gaston Lagaffe évidemment
     Ou pt'être la belle au bois dormant
   \endverse
 
@@ -62,7 +63,7 @@
     Les heures défilent à toute allure
     Et mon retard s'accumule
     Je flâne sur l'net obstinément
-    J'peux pas m'empecher d'perdre mon temps
+    J'peux pas m'empêcher d'perdre mon temps
   \endverse
 
   \beginverse*

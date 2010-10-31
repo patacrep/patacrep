@@ -10,9 +10,9 @@ for song in $@; do
     if grep -q "selectlanguage{english}" $song
     then
 	sed -i \
-            -e 's/[\s]*?/?/g' \
-            -e 's/[\s]*!/!/g' \
-            -e 's/[\s]*:/:/g' \
+            -e 's/\s*?/?/g' \
+            -e 's/\s*!/!/g' \
+            -e 's/\s*:/:/g' \
             $song;
     elif grep -q "selectlanguage{french}" $song
     then

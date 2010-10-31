@@ -25,7 +25,7 @@
 % Template parameters
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%:[
-%%:  {"name":"title", "description":"Title", "default":"Recueil de chansons pour guitare", "mandatory":true},
+%%:  {"name":"title", "description":"Title", "default":"Patacrep Songbook", "mandatory":true},
 %%:  {"name":"author", "description":"Author", "default":"Romain Goffe \\and Alexandre Dupas", "mandatory":true},
 %%:  {"name":"booktype", "description":"Type", "type":"enum", "values":["chorded","lyric"], "default":"chorded", "mandatory":true},
 %%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","lilypond","tabs"], "join":",", "mandatory":true, "default":["diagram"]},
@@ -36,7 +36,7 @@
 %%:  {"name":"picture", "description":"Picture", "default":"feel-the-music"},
 %%:  {"name":"picturecopyright", "description":"Copyright", "default":"foxygamergirl@deviantart.com"},
 %%:  {"name":"footer", "description":"Footer", "default":"\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}"},
-%%:  {"name":"license", "description":"License", "default":"\\input{license.tex}"},
+%%:  {"name":"license", "description":"License", "default":"\\input{license-en.tex}"},
 %%:  {"name":"mainfontsize", "description":"Font Size", "values":["10pt","11pt","12pt"], "default":"10pt"},
 %%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#D1E4AE"},
@@ -48,7 +48,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[english,french]{babel}
+\usepackage[english,french,spanish]{babel}
 
 \title{\gettitle}
 \author{\getauthor}

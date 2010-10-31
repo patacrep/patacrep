@@ -8,17 +8,18 @@
 for song in songs/*/*.sg; do
     if grep -q "selectlanguage{english}" $song
     then
-	sed -i "s/ ?/?/g" $song;
-	sed -i "s/ !/!/g" $song;
-	sed -i "s/ :/:/g" $song;
+	sed -i \
+            -e 's/(\s)*?/?/g' \
+            -e 's/(\s)*!/!/g' \
+            -e 's/(\s)*:/:/g' \
+            $song;
     fi;
     if grep -q "selectlanguage{french}" $song
     then
-	sed -i "s/?/ ?/g" $song;
-	sed -i "s/  ?/ ?/g" $song;
-	sed -i "s/!/ !/g" $song;
-	sed -i "s/  !/ !/g" $song;
-	sed -i "s/:/ :/g" $song;
-	sed -i "s/  :/ :/g" $song;
+	sed -i \
+            -e 's/\([^ ]\)?/\1 ?/g' \
+            -e 's/\([^ ]\)!/\1 !/g' \
+            -e '/\\gtab.*/ ! s/\([^ ]\):/\1 :/g' \
+            $song;
     fi;
 done; 

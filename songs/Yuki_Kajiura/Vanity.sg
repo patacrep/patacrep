@@ -10,7 +10,7 @@
   \gtab{Do}{X32010}
   \gtab{Do/Si}{X20010}
   \gtab{Mi7}{X20100}
-  
+
   \lilypond{Vanity}
 
   \beginverse
@@ -34,7 +34,7 @@
   \endverse
 
   \beginchorus
-    \[Lam]I'll be \[Mim]there 
+    \[Lam]I'll be \[Mim]there
     \[Lam]By your \[Mim]side
     \[Fa]Share your \[Sol]fears
     In the \[Do]silent re\[Mi7]demption
@@ -46,18 +46,18 @@
 
   \beginverse
     As winter melts in the sun
-    Boys will be out 
+    Boys will be out
     Running and reaching for the light
   \endverse
 
   \beginverse*
     Oh mother please find me in that place
-    Before the memories 
+    Before the memories
     Tear us into pieces
   \endverse
 
   \beginverse*
-    Clinging to affection, 
+    Clinging to affection,
     We somehow do learn to live
     \echo{La la la la la la la la}
     In endless motion
@@ -65,13 +65,13 @@
   \endverse
 
   \beginchorus
-    You'll be there 
+    You'll be there
     By my side
-    You may never 
+    You may never
     Know my devotion
-    Feel my breath 
+    Feel my breath
     In the quiet night
-    Live in vanity 
+    Live in vanity
     For ever
   \endchorus
 

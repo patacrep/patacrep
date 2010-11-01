@@ -2,7 +2,7 @@
 \songcolumns{2}
 \beginsong{Noël en Mordor}
   [by=Le Donjon de Naheulbeuk]
-  
+
   \capo{3}
   \gtab{Lam}{X02210}
   \gtab{Do}{X32010}
@@ -13,12 +13,12 @@
   \lilypond{Noel_en_Mordor}
 
   \beginchorus
-    Du Mor\[Lam]{dor à} la Com\[Do]té 
+    Du Mor\[Lam]{dor à} la Com\[Do]té
     C'est \[Sol]Noël, c'est \[Mim]Noël
     Du Mor\[Lam]{dor à} la Com\[Do]té
     Tous les \[Sol]vœux sont \[Mim]exau\[Lam]cés
   \endchorus
-  
+
   \beginverse
     \[Lam]Imagi\[Sol]nez que \[Fa]Père Noël le \[Mim]vieux
     \[Lam]Souhaitant sou\[Sol]dain com\[Fa]pléter sa tour\[Mim]née

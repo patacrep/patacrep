@@ -16,7 +16,7 @@
   \lilypond{La_declaration}
 
   \beginverse
-    \[Mim]{C'est} un peu \[Lam]une déclara\[Sol]tion 
+    \[Mim]{C'est} un peu \[Lam]une déclara\[Sol]tion
     Que je te \[Si7]fais, car il est \[Mim]temps,
     Je \[Lam]crois \[Sol Si7]
     Quand certains rêvent de nation
@@ -26,7 +26,7 @@
 
   \beginverse*
     \[Mim]Moi c'est vers \[Lam]toi que je \[Sol]tends
-    Les bras quand \[Si7]ça ne va pas 
+    Les bras quand \[Si7]ça ne va pas
     \[Mim]Ma cervelle \[Lam]et mes senti\[Sol]ments
     Je te les \[Si7]donne, ils sont pour \[Mim]toi
   \endverse
@@ -34,7 +34,7 @@
   \beginverse*
     Le reste, on \[Lam]en reparle\[Sol]ra \[Si7] \rep{3}
   \endverse
-  
+
   \beginchorus
     \[Mim*]Pour vivre avec \[Lam*]toi \[Sol* Si7*]
     Tu es mon \emph{chez moi}

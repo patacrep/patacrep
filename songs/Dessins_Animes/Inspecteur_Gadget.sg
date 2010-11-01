@@ -2,7 +2,7 @@
 \songcolumns{2}
 \beginsong{Inspecteur Gadget}
   [by=Dessins Animés,cov=inspecteur-gadget]
-  
+
   \cover
   \gtab{Lam}{X02210}
   \gtab{Si7}{X21202}
@@ -15,7 +15,7 @@
   \gtab{Rém}{XX0231}
   \gtab{Sol}{320003}
   \gtab{Do}{X32010}
-  
+
   \beginverse
     \[Lam]Eh la qui va là ? \echo{In\[Si7]specteur \[Mi7]Gadget}
     \[Lam]Eh la ça va pas ? \echo{Ouh \[Mi7]ouh}

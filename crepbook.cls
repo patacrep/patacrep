@@ -44,6 +44,7 @@
   linkcolor=tango-green-3,
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
+\RequirePackage{tex/licence}
 
 \iflyric%
   \tabsfalse%

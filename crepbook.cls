@@ -50,6 +50,7 @@
   \tabsfalse%
   \lilypondfalse%
   \nodiagramtrue%
+  \renewcommand{\colbotglue}{0pt plus .5\textheight minus 0pt}%
 \fi
 
 % Start

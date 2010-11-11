@@ -26,13 +26,13 @@
     So I'm \[Rém]no more \[Sol]sata\[Do]nic yeah yeah
   \endverse
 
-  \beginverse*
+  \beginchorus
     I \[Ré]am a vampi\[Do]re and I am wal\[La]king in the ci\[Ré]ty
     But the \[Do]pretty \[La]girls \[Ré]don't look at me
     \echo{Don't look at me}
     Cause I \[Sol]{don't} \[La]have \[Ré]my fangs
     Cause I \[Sol]have \[La]lost \[Ré]my fangs
-  \endverse
+  \endchorus
 
   \beginverse
     I am a vampire, I am a vampire
@@ -49,13 +49,13 @@
     But my guitar is out of tune
   \endverse
 
-  \beginverse*
+  \beginchorus
     I am a vampire and I'm walking in the city
     But the musicals don't play with me
     \echo{Don't play with me}
     Cause I don't have my mouth organ
     And I have lost my mouth organ
-  \endverse
+  \endchorus
 
 \endsong
 

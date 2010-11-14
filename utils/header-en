@@ -1,0 +1,22 @@
+{
+"template" : "patacrep-en.tmpl",
+"author" : "Romain Goffe \\and Alexandre Dupas",
+"bookoptions" : [
+    "diagram",
+    "lilypond"
+  ],
+"booktype" : "chorded",
+"footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
+"indexbgcolor" : "#D1E4AE",
+"license" : "\\input{license-en.tex}",
+"mail" : "crep@team-on-fire.com",
+"mainfontsize" : "10pt",
+"notebgcolor" : "#D1E4AE",
+"picture" : "Music_by_Katie8594",
+"picturecopyright" : "Katie8594 @ deviantart.com",
+"songnumberbgcolor" : "#D1E4AE",
+"subtitle" : "english songs",
+"title" : "Guitar Songbook",
+"version" : "3.2",
+"web" : "http://www.patacrep.com",
+"songs" : [

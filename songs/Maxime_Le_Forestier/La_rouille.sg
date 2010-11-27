@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La rouille}
-  [by=Maxime Le Forestier,cov=mon-frere]
+  [by=Maxime Le Forestier,cov=mon-frere,album=Mon frere]
 
   \cover
   \gtab{Fa}{1:022100}

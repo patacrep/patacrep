@@ -1,7 +1,7 @@
 \selectlanguage{spanish}
 \songcolumns{2}
 \beginsong{Canción del Mariachi}
-  [by=Los Lobos,cov=desperado]
+  [by=Los Lobos,cov=desperado,album=Desperado]
 
   \cover
   \gtab{Mim}{7:X02210}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La chambre rose}
-  [by=La Maison Tellier,cov=la-maison-tellier]
+  [by=La Maison Tellier,cov=la-maison-tellier,album=La maison tellier]
 
   \cover
   \capo{3}

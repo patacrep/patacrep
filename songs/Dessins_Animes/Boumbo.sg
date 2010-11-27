@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Boumbo}
-  [by=Dessins Animés,cov=boumbo]
+  [by=Dessins Animés,cov=boumbo,album=Boumbo]
 
   \cover
   \gtab{Do}{X32010}

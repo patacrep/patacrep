@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le lion est mort ce soir}
-  [by=Pow Wow,cov=quatre]
+  [by=Pow Wow,cov=quatre,album=Quatre]
 
   \cover
   \gtab{Sol}{320003}

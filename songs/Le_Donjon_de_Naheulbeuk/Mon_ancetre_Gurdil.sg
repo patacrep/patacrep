@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mon ancêtre Gurdil}
-  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne]
+  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne,album=Machins de taverne]
 
   \cover
   \capo{3}

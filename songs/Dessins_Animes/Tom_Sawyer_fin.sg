@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tom Sawyer (fin)}
-  [by=Dessins Animés,cov=tom-sawyer-fin]
+  [by=Dessins Animés,cov=tom-sawyer-fin,album=Tom sawyer fin]
 
   \cover
   \gtab{Do}{X32010}

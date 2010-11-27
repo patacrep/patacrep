@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Denver, le dernier dinosaure}
-  [by=Dessins Animés,cov=denver]
+  [by=Dessins Animés,cov=denver,album=Denver]
 
   \cover
   \gtab{Ré}{XX0232}

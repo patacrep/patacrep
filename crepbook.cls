@@ -44,11 +44,13 @@
   linkcolor=tango-green-3,
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
+\RequirePackage{tex/licence}
 
 \iflyric%
   \tabsfalse%
   \lilypondfalse%
   \nodiagramtrue%
+  \renewcommand{\colbotglue}{0pt plus .5\textheight minus 0pt}%
 \fi
 
 % Start

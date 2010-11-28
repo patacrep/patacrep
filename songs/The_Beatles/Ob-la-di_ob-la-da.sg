@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Ob-La-Di, Ob-La-Da}
-  [by=The Beatles,cov=white-album]
+  [by=The Beatles,cov=white-album,album=White album]
 
   \cover
   \capo{3}

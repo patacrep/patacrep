@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Rue de Panam}
-  [by=Les Ogres de Barback,cov=rue-du-temps]
+  [by=Les Ogres de Barback,cov=rue-du-temps,album=Rue du temps]
 
   \cover
   \gtab{Do}{X32010}

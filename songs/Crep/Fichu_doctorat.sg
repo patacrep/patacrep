@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Fichu doctorat}
-  [by=Crep,cov=histoires-d-un-manchot]
+  [by=Crep,cov=histoires-d-un-manchot,album=Histoires d un manchot]
 
   \cover
   \gtab{Mim}{022000}

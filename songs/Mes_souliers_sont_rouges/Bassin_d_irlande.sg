@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Bassin d'Irlande}
-  [by=Mes souliers sont rouges,cov=en-dehors-des-clous]
+  [by=Mes souliers sont rouges,cov=en-dehors-des-clous,album=En dehors des clous]
 
   \cover
   \gtab{Fa}{1:022100}

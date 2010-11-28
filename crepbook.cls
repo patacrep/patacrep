@@ -44,11 +44,13 @@
   linkcolor=tango-green-3,
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
+\RequirePackage{tex/licence}
 
 \iflyric%
   \tabsfalse%
   \lilypondfalse%
   \nodiagramtrue%
+  \renewcommand{\colbotglue}{0pt plus .5\textheight minus 0pt}%
 \fi
 
 % Start
@@ -149,7 +151,9 @@
 \newlength{\coverspace}
 \setlength{\coverspace}{0.1cm}
 \newcommand{\songcover}{}
+\newcommand{\songalbum}{}
 \newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
+\newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newcommand\cover{%
   \ifchorded%
     \ifx\songcover\@empty\else%

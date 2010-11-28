@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'histoire d'Actarus}
-  [by=Dessins Animés,cov=actarus]
+  [by=Dessins Animés,cov=actarus,album=Actarus]
 
   \cover
   \capo{5}

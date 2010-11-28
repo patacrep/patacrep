@@ -1,0 +1,47 @@
+\RequirePackage{graphicx}
+\RequirePackage{calc}
+
+\newlength{\largeurnota}
+\newlength{\largeurlignenota}
+\newlength{\indentationnota}
+\newlength{\paddingnota}
+\setlength{\largeurnota}{0.8cm}
+\setlength{\paddingnota}{5pt}
+
+\newenvironment{pictonote}[1]{%
+  \begin{list}{}{%
+      \setlength{\labelsep}{5pt}%
+      \setlength{\leftmargin}{20pt}%
+      \setlength{\rightmargin}{25pt}}
+  \item%
+    \setlength{\indentationnota}{\@totalleftmargin+\largeurnota+\paddingnota}%
+    \setlength{\largeurlignenota}{\linewidth-\largeurnota-\paddingnota}%
+    \parshape=3%
+    \indentationnota\largeurlignenota%
+    \indentationnota\largeurlignenota%
+    \@totalleftmargin\linewidth%
+    \raisebox{-\largeurnota+2.2ex}[0pt][0pt]{%
+      \makebox[0pt][r]{%
+        \includegraphics[width=\largeurnota]{#1}%
+        \hspace{\paddingnota}}}%
+    \ignorespaces}{%
+  \end{list}%
+  \vspace{0.2cm}%
+}
+
+\newcommand{\@lheader}[1]{%
+  \textbf{\large #1}%
+  \vspace{0.2cm}%
+}
+
+\newcommand{\lcondition}[1]{%
+  \textbf{#1~--~}%
+}
+
+\newenvironment{lblock}[1]{%
+  \@lheader{#1}}{%
+  \vspace{0.6cm}%
+}
+
+
+\endinput

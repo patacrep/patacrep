@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les mots d'amour}
-  [by=Debout sur le Zinc,cov=les-promesses]
+  [by=Debout sur le Zinc,cov=les-promesses,album=Les promesses]
 
   \cover
   \capo{2}

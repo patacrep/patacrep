@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Quatre murs et un toit}
-  [by=Bénabar,cov=reprise-des-negociations]
+  [by=Bénabar,cov=reprise-des-negociations,album=Reprise des negociations]
 
   \cover
   \capo{2}

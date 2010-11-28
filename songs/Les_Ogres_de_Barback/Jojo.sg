@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Jojo}
-  [by=Les Ogres de Barback,cov=un-air-deux-familles]
+  [by=Les Ogres de Barback,cov=un-air-deux-familles,album=Un air deux familles]
 
   \cover
   \gtab{Mim}{7:X02210}

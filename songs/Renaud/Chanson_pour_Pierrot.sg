@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Chanson pour Pierrot}
-  [by=Renaud,cov=ma-gonzesse]
+  [by=Renaud,cov=ma-gonzesse,album=Ma gonzesse]
 
   \cover
   \gtab{Mim}{022000}

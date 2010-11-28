@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'amour à la machine}
-  [by=Alain Souchon,cov=c-est-deja-ca]
+  [by=Alain Souchon,cov=c-est-deja-ca,album=C est deja ca]
 
   \cover
   \gtab{Mim}{022000}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le gorille}
-  [by=Georges Brassens,cov=la-mauvaise-reputation]
+  [by=Georges Brassens,cov=la-mauvaise-reputation,album=La mauvaise reputation]
 
   \cover
   \capo{2}

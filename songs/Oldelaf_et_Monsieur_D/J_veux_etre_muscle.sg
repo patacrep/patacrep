@@ -1,11 +1,11 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{J'veux être musclé}
-  [by=Oldelaf et Monsieur~D.,cov=bete-et-mechant]
+  [by=Oldelaf et Monsieur~D.,cov=bete-et-mechant,album=Bete et mechant]
 
   \cover
   %tabs pour les couplets
-  \gtab{Solm}{{10}:X02210}
+  \gtab{Solm}{10:X02210:}
   \gtab{Fa}{8:X02220}
   \gtab{Si&}{6:022100}
   \gtab{Ré7}{5:X02020}

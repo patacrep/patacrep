@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{The internet is for porn}
-  [by=Avenue Q,cov=avenue-q]
+  [by=Avenue Q,cov=avenue-q,album=Avenue q]
 
   \cover
   \gtab{Mi}{7:X02220}
@@ -98,7 +98,7 @@
   \endchorus
 
   \beginverse*
-    Porn, porn, porn, porn \echo {I'm leaving!}
+    Porn, porn, porn, porn \echo{I'm leaving!}
     Porn, porn, porn, porn
     porn, porn, porn, porn \echo{I hate the internet!}
     Porn, porn, porn, porn

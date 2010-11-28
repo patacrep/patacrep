@@ -151,7 +151,9 @@
 \newlength{\coverspace}
 \setlength{\coverspace}{0.1cm}
 \newcommand{\songcover}{}
+\newcommand{\songalbum}{}
 \newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
+\newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newcommand\cover{%
   \ifchorded%
     \ifx\songcover\@empty\else%

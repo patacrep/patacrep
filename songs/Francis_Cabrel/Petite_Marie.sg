@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Petite Marie}
-  [by=Francis Cabrel,cov=les-murs-de-poussiere]
+  [by=Francis Cabrel,cov=les-murs-de-poussiere,album=Les murs de poussiere]
 
   \cover
   \gtab{Mim}{022000}

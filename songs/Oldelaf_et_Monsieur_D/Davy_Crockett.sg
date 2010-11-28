@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Davy Crockett}
-  [by=Oldelaf et Monsieur~D.,cov=lives]
+  [by=Oldelaf et Monsieur~D.,cov=lives,album=Lives]
 
   \cover
   \gtab{Do}{X32010}

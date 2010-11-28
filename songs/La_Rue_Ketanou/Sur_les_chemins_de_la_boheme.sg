@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sur les chemins de la bohème}
-  [by=La Rue Kétanou,cov=en-attendant-les-caravanes]
+  [by=La Rue Kétanou,cov=en-attendant-les-caravanes,album=En attendant les caravanes]
 
   \cover
   \gtab{Solm}{3:022000}

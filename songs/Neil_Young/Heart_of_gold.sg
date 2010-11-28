@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Heart of gold}
-  [by=Neil Young,cov=harvest-moon]
+  [by=Neil Young,cov=harvest-moon,album=Harvest moon]
 
   \cover
   \gtab{Mim}{022000}

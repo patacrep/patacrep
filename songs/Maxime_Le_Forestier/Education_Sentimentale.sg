@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Éducation Sentimentale}
-  [by=Maxime Le Forestier,cov=mon-frere]
+  [by=Maxime Le Forestier,cov=mon-frere,album=Mon frere]
 
   \cover
   \gtab{Do}{X32010}

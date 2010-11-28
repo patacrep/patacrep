@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les souliers rouges}
-  [by=Mes souliers sont rouges,cov=tape-la-galoche]
+  [by=Mes souliers sont rouges,cov=tape-la-galoche,album=Tape la galoche]
 
   \cover
   \gtab{Sol}{320003}

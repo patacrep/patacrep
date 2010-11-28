@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Boulevard of broken dreams}
-  [by=Green Day,cov=american-idiot]
+  [by=Green Day,cov=american-idiot,album=American idiot]
 
   \cover
   \gtab{Fa#5}{2:022XXX}

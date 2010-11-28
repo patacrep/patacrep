@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Bioman}
-  [by=Crep,cov=histoires-d-un-manchot]
+  [by=Crep,cov=histoires-d-un-manchot,album=Histoires d un manchot]
 
   \cover
   \capo{3}

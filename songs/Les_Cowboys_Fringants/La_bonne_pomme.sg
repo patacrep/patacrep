@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La bonne pomme}
-  [by=Les Cowboys Fringants,cov=l-expedition]
+  [by=Les Cowboys Fringants,cov=l-expedition,album=L expedition]
 
   \cover
   \gtab{Mim}{022000}

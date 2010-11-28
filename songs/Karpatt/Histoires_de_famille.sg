@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Histoires de famille}
+  [by=Karpatt,cov=dans-d-beaux-draps,album=Dans d'beaux draps]
+
+  \cover
+  \gtab{Fam}{8:X02210}
+  \gtab{Do7}{8:020100}
+  \gtab{Sol7}{8:X2120X}
+  \gtab{Si&m}{6:022000}
+
+  \beginchorus
+    Elle était \[Fam]comme sa mère mais \[Do7]en plus vache
+    Comme sa mère en \[Fam]plus peau de vache
+    Elle était comme sa mère en \[Do7]plus méchante
+    J'aimais la mère, j'aimais la \[Fam]fille, j'aimais la tante
+  \endchorus
+
+  \beginverse
+    \[Do7]Elle \[Fam]donnait des coups de pieds aux \[Do7]chiens surtout ceux qui \[Fam]remuaient la queue
+    \[Do7]Un p'tit susucre, un \[Fam]coup de saton, \[Do7]entre les deux \[Fam]yeux
+    \[Do7]Elle \[Fam]aimait les gentils tou\[Do7]tous qui continuaient de la \[Fam]croire
+    \[Do7]Avant de leur flan\[Fam]quer un di\[Sol7]rect dans la mâ\[Do7]choire
+  \endverse
+
+  \beginverse*
+    \[Si&m]{C'était} la mère d'une fa\[Fam]mille où les hommes \[Do7]avaient déser\[Fam]té
+    \[Si&m]{Y'avait} la mère la \[Fam]tante, la fille et \[Do7]moi planté sur le palier
+  \endverse
+
+  \beginverse
+    La tante était comme la mère qui lui avait inculqué tout
+    Elle l'avait aidée à s'défaire de son époux
+    Elle mangeait des babas au rhum et quand elle était fin bourrée
+    Elle tordait le cou aux canards et aux poulets
+  \endverse
+
+  \beginverse*
+    C'était la tante d'une famille où les hommes s'étaient fait virer
+    Y'avait la mère la tante, la fille et moi planté sur le palier
+  \endverse
+
+  \beginverse
+    Enfin, \echo{enfin}, y'avait aussi la fille, des boucles plein les cheveux
+    C'était joli de la voir faire, pire que ses deux aïeux
+    Elle souriait aux garçons qui se laissaient amadouer
+    Faisant mine de bien vouloir se laisser embrasser
+  \endverse
+
+  \beginverse*
+    Ils étaient dans ses bras, la bouche en cul de poule
+    Elle prenait son élan et frappait d'un coup de boule
+    \rep{2}
+  \endverse
+
+  \beginverse*
+    C'était la fille d'une famille où les hommes s'étaient fait castrer
+    Y'avait la mère la tante, la fille et moi un pansement sur le nez
+  \endverse
+
+\endsong

@@ -1,0 +1,112 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Lino}
+  [by=Karpatt,cov=dans-d-beaux-draps,album=Dans d'beaux draps]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Solm}{3:022000}
+  \gtab{La}{5:022100}
+  \gtab{Si&}{6:022100}
+
+  \textnote{Intro}
+  \beginverse*
+    ``Éh les gars !
+    - Hein ?
+    - Vous savez quoi ?
+    - Ben non !''
+  \endverse
+
+  \beginverse
+    Paraît qu'on \[Rém]{l'a} r'trouvé pendu
+    Un ptit \[Fa]matin à la lanterne
+    Du vieux tri\[Solm]po où on l'a vu
+    Rentrer la \[La]veille avant qu'il ferme
+  \endverse
+
+  \beginverse*
+    Il avait toujours dans la manche
+    Quatre as, un roi et un valet
+    C'étaient pas des joueurs du dimanche
+    La nuit où ça a mal tourné
+  \endverse
+
+
+  \beginchorus
+    Il s'est pris \[Si&]une balle dans l'ci\[Rém]gare
+    C'était pas \[Si&]du joli-jo\[Rém]li
+    Mais pas une \[Solm]tâche \echo{mais pas une tache}
+    Sur son cos\[Fa]tard \echo{sur son costard}
+    Il avait \[Si&]la classe à c'qu'on \[La]dit
+  \endchorus
+
+  %todo lilypond !    Dm F Gm A x2
+
+  \beginverse
+    Paraît qu'une nuit chez la Marlène
+    On l'a r'trouvé les bras en croix
+    Une lame plantée dans l'abdomen
+    Avec un nombril gros comme ça
+  \endverse
+
+  \beginverse*
+    Elle était tellement croque la môme
+    Et il lui en faisait tellement voir
+    Qu'avant d'se j'ter la ptite conne
+    Et d's'écrabouiller sur l'trottoir
+  \endverse
+
+  \beginchorus
+    Elle l'a saigné dans son sommeil
+    C'était pas du joli-joli
+    Mais pas une tâche \echo{mais pas une tâche}
+    Sur son costard \echo{sur son costard}
+    Il était à poil à c'qu'on dit
+  \endchorus
+
+  \beginverse
+    On raconte qu'au dernier combat
+    Il est tombé dans une arnaque
+    Fallait qu'il s'couche un truc comme ça
+    Le soir où il boxait un crack
+  \endverse
+
+  \beginverse*
+    Mais Lino c'était un cador
+    Un gars qui baisse jamais la garde
+    On l'a repêché au fond du port
+    À moitié bouffé par les crabes
+  \endverse
+
+  \beginchorus
+    Il avait les pieds dans le ciment
+    C'était pas du joli-joli
+    Mais pas une tâche \echo{mais pas une tâche}
+    Sur son costard \echo{sur son costard}
+    Il avait la classe à c'qu'on dit
+  \endchorus
+
+  \beginverse
+    Mais la version la plus connue
+    Sur la disparition d'Lino
+    C'est qu'il s'est barré dans les îles
+    Sous les palmiers, les noix d'coco
+  \endverse
+
+  \beginverse*
+    Il les sirote à la santé
+    De tous ces cons qu'ont rien à foutre
+    Et qui bavassent à sa santé
+    Pendant qu'il bronze à la Guadeloupe \echo{hey}
+  \endverse
+
+  \beginchorus
+    Qu'on l'ait pendu à la lanterne
+    Ou qu'il ait fini dans le ciment
+    J'suis sûr qu'au ciel \echo{j'suis sûr qu'au ciel}
+    Ou à la plage \echo{ou à la plage}
+    Il s'est retrouvé \dots un costard blanc !
+  \endchorus
+
+\endsong

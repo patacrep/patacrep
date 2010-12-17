@@ -1,0 +1,95 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{California's dark}
+  [by=The Nightwatchman,cov=one-man-revolution,album=One man revolution]
+
+  \cover
+  \gtab{Fa#}{2:022100}
+  \gtab{Si}{2:X02220}
+  \gtab{Mi}{022100}
+  \gtab{La}{X02220}
+
+  \beginverse
+    It started in base\[Fa#]ments
+    \[Si] And it started in \[Fa#]sheds
+    It started in back\[Fa#]yards
+    \[Si] And was hidden under \[Fa#]beds
+  \endverse
+
+  \beginverse*
+    \[Mi] I turned on the TV
+    \[Si] Don't believe a word they \[Fa#]say
+    \[Mi] We can't stay here now love
+    \[Si] And we can't get away \[Fa#]
+  \endverse
+
+  \beginchorus
+    \[Si] There's a riot on \[Fa#]sunset
+    \[Si] And fires burn in the \[Fa#]park
+    \[Si] The sun has \[Fa#]set my friend
+    \[Si] And California's dark \[La Fa#]
+  \endchorus
+
+
+  \beginverse
+    And over the screaming
+    I heard a clear voice
+    I looked at my choices
+    And I made a choice
+  \endverse
+
+  \beginverse*
+    Smoke and ashes
+    Tonight hide the stars
+    The stop lights are red now, love
+    We've come for what's ours
+  \endverse
+
+  \musicnote{power chords}
+
+  \beginverse
+    Come stand among the rattlesnakes
+    At the side of the desert road
+    And close your eyes and listen
+    To the music hard and cold
+  \endverse
+
+  \beginverse*
+    Tonight the moon is blackened
+    Tonight the doors are shut
+    Behind the shuttered windows
+    We pray the sun will come up
+  \endverse
+
+  \musicnote{standard chords}
+
+  \beginverse
+    For something walks across these fields
+    For which there is no name
+    You might have heard different
+    But I was there when it came
+  \endverse
+
+  \beginverse*
+    It will start with a spark
+    And a great fire will grow
+    Don't know how I know it
+    But I just know
+  \endverse
+
+
+  \beginchorus
+    There's a riot on sunset
+    And fires burn in the park
+    The sun sets everywhere
+    And the whole damn country's dark
+  \endchorus
+
+  \beginchorus
+    There's a riot on Sunset
+    And fires burn in the park
+    The sun has set my friend
+    And California's dark
+  \endchorus
+
+\endsong

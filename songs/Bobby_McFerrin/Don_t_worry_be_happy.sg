@@ -1,0 +1,34 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Don't worry, be happy}
+  [by=Bobby McFerrin,cov=dont-worry-be-happy,album=Don't worry be happy]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Fam}{1:022000}
+
+  \beginverse
+    \[Do]Here's a little song I wrote
+    \[Sol]You might want to sing it note for note
+    Don't \[Fa]worry,\[Fam Sol] be \[Do]happy \[Sol]
+  \endverse
+
+  \beginverse
+    In every life we have some trouble
+    When you worry you make it double
+    Don't worry, be happy \echo{be happy now}
+  \endverse
+
+  \beginchorus
+    \[Do]Uh uh uh uh uh
+    Uh uh uh uh \[Sol]uh uh uh
+    Don't worry
+    Uh uh uh uh uh uh uh
+    Be happy
+    Uh uh uh uh \[Do]uh
+    Don't worry, be happy
+  \endchorus
+
+\endsong

@@ -28,9 +28,6 @@
 %%:  {"name":"booktype", "description":"Type", "type":"enum", "values":["chorded","lyric"], "default":"chorded", "mandatory":true},
 %%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","lilypond","tabs"], "join":",", "mandatory":true, "default":["diagram"]},
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"enum", "values":["10pt","11pt","12pt"], "default":"10pt"},
-%%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
-%%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#D1E4AE"},
-%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
@@ -43,17 +40,7 @@
 \newindex{titleidx}{\getname_title}
 \newauthorindex{authidx}{\getname_auth}
 
-\graphicspath{
-  {img/},
-}
-
-\definecolor{SongNumberBgColor}{HTML}{\getsongnumberbgcolor}
-\definecolor{NoteBgColor}{HTML}{\getnotebgcolor}
-\definecolor{IndexBgColor}{HTML}{\getindexbgcolor}
-
-\renewcommand{\snumbgcolor}{SongNumberBgColor}
-\renewcommand{\notebgcolor}{NoteBgColor}
-\renewcommand{\idxbgcolor}{IndexBgColor}
+\graphicspath{ {img/} }
 
 \begin{document}
 

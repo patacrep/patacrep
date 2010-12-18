@@ -1,23 +1,13 @@
 {
 "template" : "patacrep.tmpl",
-"author" : "Romain Goffe \\and Alexandre Dupas",
 "bookoptions" : [
     "diagram",
     "lilypond"
   ],
 "booktype" : "chorded",
-"footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
-"indexbgcolor" : "#D1E4AE",
-"license" : "\\input{license.tex}",
-"mail" : "crep@team-on-fire.com",
-"mainfontsize" : "10pt",
-"notebgcolor" : "#D1E4AE",
 "picture" : "sound",
 "picturecopyright" : "ellesh @ deviantart.com",
-"songnumberbgcolor" : "#D1E4AE",
 "subtitle" : "Tome 2",
-"title" : "Recueil de chansons pour guitare",
-"web" : "http://www.patacrep.com",
 "songs" : [
     "Aaron/U_turn_lili.sg",
     "Alain_Souchon/Foule_sentimentale.sg",

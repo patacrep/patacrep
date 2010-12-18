@@ -38,6 +38,8 @@ def toValue(parameter, data):
         return joinText.join(data)
     elif parameter["type"] == "color":
         return data[1:]
+    elif parameter["type"] == "font":
+        return data+'pt'
     elif parameter["type"] == "enum":
         return data
     elif parameter["type"] == "flag":

@@ -1,13 +1,4 @@
 {
 "template" : "patacrep.tmpl",
-"title" : "Recueil de chansons pour guitare",
-"author" : "Romain Goffe \\and Alexandre Dupas",
-"version" : "3.2",
-"web" : "http://www.patacrep.com",
-"mail" : "crep@team-on-fire.com",
-"picture" : "feel-the-music",
-"picturecopyright" : "foxygamergirl @ deviantart.com",
-"footer" : "\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}",
-"license" : "\\input{license.tex}",
 "songs" : "all"
 }

@@ -33,7 +33,7 @@
 \LoadClass[a4paper]{article}
 
 % Main packages
-\RequirePackage[pdftex]{graphicx,xcolor}
+\RequirePackage{graphicx,xcolor}
 \RequirePackage{songs}
 \RequirePackage{fancybox}
 \definecolor{tango-green-3}{HTML}{4e9a06}

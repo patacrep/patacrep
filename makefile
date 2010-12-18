@@ -39,6 +39,12 @@ else
   LILYFILE=$(LILY_SRC:%.ly=%.pdf)
 endif
 
+ifeq ($(shell grep ubuntu.tmpl $(SONGBOOKS)),)
+  LATEX=pdflatex $(LATEX_OPTIONS)
+else
+  LATEX=xelatex $(LATEX_OPTIONS)
+endif
+
 ############################################################
 ### Targets
 
@@ -65,7 +71,7 @@ depend:
 
 ############################################################
 
-$(PDF): LATEX = pdflatex $(LATEX_OPTIONS)
+
 $(PDF): %.pdf: %.tex %.aux
 
 %.aux: %.tex
@@ -86,7 +92,6 @@ $(PDF): %.pdf: %.tex %.aux
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
-
 
 ifeq (.pdf,$(suffix $(MAKECMDGOALS)))
 include $(MAKECMDGOALS:%.pdf=%.d)

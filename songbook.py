@@ -42,6 +42,8 @@ def toValue(parameter, data):
         return data+'pt'
     elif parameter["type"] == "enum":
         return data
+    elif parameter["type"] == "file":
+        return data
     elif parameter["type"] == "flag":
         if "join" in parameter:
             joinText = parameter["join"]

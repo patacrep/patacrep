@@ -1,0 +1,53 @@
+\selectlanguage{spanish}
+\songcolumns{2}
+\beginsong{Bamboleo}
+  [by=Gipsy Kings,cov=gipsy-kings,album=Gipsy Kings]
+
+  \cover
+  \capo{2}
+  \gtab{Mim}{022000}
+  \gtab{Si7}{X21202}
+  \gtab{Lam}{X02210}
+  \gtab{Lam7}{X02010}
+  \gtab{Ré7}{XX0212}
+  \gtab{SolMaj7}{320002}
+
+  \beginverse
+    \[Mim]Este amor llega \[Si7]asi esta ma\[Mim]nera
+    No tiene la \[Si7]culpa
+    Caballo le ven sabana
+    Porque muy depreciado
+    Por eso no te per\[Mim]dón de llorar
+  \endverse
+
+  \beginverse*
+    Este amor llega así esta manera
+    No tiene la culpa
+    Amor de comprementa
+    Amor del mes pasado
+    Bebele, bembele, bembele
+  \endverse
+
+  \beginchorus
+    Bam\[Mim]leo, bambo\[Lam]lea
+    Porque mi \[Si7]vida, yo la prefiero vivir \[Mim]así
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    No tiene pardon de \[Lam7]dios
+    Tu eres mi \[Ré7]vida, la fortuna del des\[SolMaj7]tino
+    Pero el des\[Do]tino tendressa \[Lam]para dos
+    Lo mismo yo que \[Si7]ayer
+    Lo mismo soy \[Mim]yo
+  \endverse
+
+  \beginverse*
+    No te encuentro al abandon
+    Es imposible no te encuentro de verdad
+    Por eso un día no cuentro si de nada
+    Lo mismo you que ayer
+    Yo pienso en ti
+  \endverse
+
+\endsong

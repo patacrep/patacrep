@@ -1,0 +1,67 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Soulève ta jupe}
+  [by=Karpatt,cov=dans-d-beaux-draps,album=Dans d'beaux draps]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{La7}{5:020100}
+  \gtab{Solm}{3:022000}
+
+  \beginverse
+    Mon a\[Rém]mie, ne soit pas fa\[La7]rouche
+    Promis, \[Rém]je ne regarderai \[La7]pas
+    Tu sais \[Solm]moi, j'en ai vu des \[Rém]louches de lunes
+    Mais des belles comme \[La7]ça
+  \endverse
+
+  \beginverse*
+    Non, non, \[Rém]je ne tricherai \[La7]pas
+    J'garde\[Rém]rai les mains sur les \[La7]yeux
+    Promis, j'\[Solm]écarterai pas les \[Rém]doigts
+    Ou sinon tellement \[La7]peu
+  \endverse
+
+  \beginchorus
+    Soulève ta \[Rém]jupe
+    Pour \[La7]sauter la ba\[Rém]rrière \[La7]
+    Soulève ta \[Rém]jupe
+    Ou \[La7]passons par de\[Rém]rrière \[La7]
+  \endchorus
+
+  \beginverse
+    Mon amie, ne soit pas timide
+    On a douze ans tous les deux
+    Je te connais depuis toute petite
+    Fais pas ta mijaurée tu veux
+  \endverse
+
+  \beginverse*
+    Qu'on s'fasse choper par la grand-mère
+    Elle court vite et je l'entends qui arrive
+    Allez, joue pas la fière
+    Ferme les yeux, c'est le moment
+  \endverse
+
+  \beginverse
+    Tant pis pour \[Rém]toi moi je me \[La7]tire
+    T'as pas in\[Rém]térêt à ca\[La7]fter
+    Sinon je t'\[Rém]préviens ça sera \[La7]pire
+    Que c'qui t'es \[Rém]jamais arri\[La7]vé
+  \endverse
+
+  \beginverse*
+    Et puis la vieille l'a attrapée
+    Elle l'a couchée sur ses genoux
+    Soulevé d'un seul coup la jupe
+    En gueulant : ``Et l'autre il est où ?''
+  \endverse
+
+  \beginverse*
+    Elle cla\[Solm]quait ses jolies \[Rém]fesses
+    \[La7]Au rythme des larmes et des \[Rém]cris
+    \echo{Oh !} J'aurais \[Solm]pu me dénon\[Rém]cer
+    \[La7]Mais j'ai tout vu et j'ai rien dit
+  \endverse
+
+\endsong

@@ -1,41 +1,51 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{De bonnes Raisons}
-  [by=Alex Beaupain]
+  [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
+
+  \gtab{Lam}{002210}
+  \gtab{Mi}{022000}
+  \gtab{Fa7}{1X221X}
+  \gtab{Rém}{000231}
+  \gtab{Do}{032010}
+  \gtab{Ré}{000121}
+  \gtab{Mi7}{020130}
+  \gtab{Do6}{2:X10031}
+  \gtab{Si&}{1:002220}
 
   \beginverse
-    \[Am]  Ton feu \[Em]nourri de ques\[F7M]tions
-    Sur le \[E7]pourquoi du comment
-    \[Am]De mon \[Em]coeur et ses \[F7M]raisons
-    Ne trouve \[E7]pas de \[E7]répondant
-    \[Dm]Je ne \[E7]manque pas\[Am]   
-    \[C] De bonnes raisons pour t'ai\[Dm]mer
-    \[Dm]Je ne vois \[E7]pas
-    Pour \[Am]quelles rai\[C]sons te les donner
-    \[D7] Mes bonnes \[F7]raisons pour \[Am]t'aimer
-    \[C]Pourquoi te les \[D7]donner\[D7]\[F7] ?
+    \[Lam] Ton feu nou\[Mim]rri de ques\[Fa7]tions
+    Sur \[Mi7]le pourquoi du comment
+    \[Lam]De mon c\[Mim]oeur et ses rai\[Fa7]sons
+    \[Mi7]Ne trouve pas \[Mi7]de répondant
+    \[Rém]Je ne \[Mi7]manque pas\[Lam]
+    \[Do] De bonnes raisons pour t'ai\[Rém]mer
+    \[Rém]Je ne vois \[Mi7]pas
+    Pour quelles rai\[Lam]sons te les do\[Do]nner
+    \[D7] Mes bonnes rais\[Fa7]ons pour t'aimer\[Lam]
+    Pourq\[Do]uoi te les \[D7]donner?\[D7]\[Fa7]
   \endverse
-  
-  \beginverse
-    \[Am]Est-ce ta \[Em]jolie paire de \[F7M]fesses 
-    La peur de \[E7]la solitude
-    \[Am]Le hasard et \[Em]la pa\[F7M]resse
-    Ou une mau\[E7]vaise habitude
 
-    \[Dm]Je ne \[E7]manque pas (\[Am]pourquoi les taire) 
-    \[C]De bonnes raisons pour t'aimer
-    \[Dm]Je ne vois \[E7]pas 
-    Pour quelles \[Am]raisons te les \[C]donner
-    \[D7]De bonnes rai\[F7]sons pour m'ai\[Am]mer 
-    \[C6]Pourquoi me les \[D7]donner?\[F7] 
+  \beginverse
+    \[Lam]Est-ce ta \[Mim]jolie paire de \[Fa7]fesses
+    La peur de \[Mi7]la solitude
+    \[Lam]Le hasard e\[Mim]t la pa\[Fa7]resse
+    Ou une mau\[Mi7]vaise habitude
+
+    \[Rém]Je ne \[Mi7]manque pas (\[Lam]pourquoi les taire)
+    \[Do]De bonnes raisons pour t'aimer
+    \[Rém]Je ne vois \[Mi7]pas
+    Pour q\[Lam]uelles raisons t\[Do]e les donner
+    \[D7]De bonnes rai\[Fa7]sons pour m'ai\[Lam]mer
+    \[C6]Pourquoi me les \[D7]donner?\[Fa7]
   \endverse
   \beginverse
-    \[F7]Mon petit \[Bb]ange 
-    \[F7]Voudrait que je chante ses \[Am]louanges (\[C]Glo-\[D7]ri-\[F7]a!)
-    \[Bb]Ma sainte re\[F7]lique 
-    \[Bb]Demande son can\[F7]tique des \[Am]cantiques \[C]Allé-\[D7]lu-\[F7]ia!
+    \[Si&]Mon pet\[Fa7]it ange
+    \[Si&]Voudrait que je chante\[Fa7] ses \[Lam]louanges (\[Do]Glo-\[D7]ri-\[F7]a!)
+    \[Si&]Ma sainte re\[Fa7]lique
+    \[Si&]Demande son can\[Fa7]tique des \[Lam]cantiques \[Do]Allé-\[D7]lu-\[F7]ia!
   \endverse
-  
+
   \beginverse
     Peut-être est-ce pour ton odeur
     ta façon de t'endormir
@@ -47,7 +57,7 @@
     Je ne vois pas
     pour quelles raisons te les donner ?!?
     Mes bonnes raisons pour t'aimer
-    Pourquoi te les donner ? 
+    Pourquoi te les donner ?
   \endverse
 \endsong
 

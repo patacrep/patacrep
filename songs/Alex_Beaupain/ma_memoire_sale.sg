@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ma Mémoire Sale}
- [by=Alex Beaupain]
+  [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
   
+  \cover
   \capo{1}
   \gtab{Do9+}{X32030}
   \gtab{Ré9+}{XX0230}
@@ -14,9 +15,9 @@
     L\[Do9+]ave
     \[Mim] Ma mémoire sale dans ce fleuve de \[Do9+]boue,
     \[Mim] Du bout de ta langue nettoie moi par\[Sim]tout,
-    Et ne laisse \[Rém9]pas la moindre \[Mim]trace
+    Et ne laisse \[Rém9+]pas la moindre \[Mim]trace
     De \[Sim]tout
-    Ce qui me \[Ré9]lie et qui me \[Do9+]lasse
+    Ce qui me \[Ré9+]lie et qui me \[Do9+]lasse
      Hél\[Mim]as!
   \endverse
     

@@ -10,7 +10,7 @@
   \gtab{Do7/6}{X32200}
   \gtab{Do7}{X32000}
 
-  \musicnote{Lam Mi7sus4/Si Do7/6 Mi7sus4/Si \rep{2}}
+  \musicnote{Intro : Lam Mi7sus4/Si Do7/6 Mi7sus4/Si \rep{2}}
 
   \beginverse
     \[Lam]Les yeux \[Mi7sus4]au \[Do6]ciel
@@ -21,12 +21,15 @@
     Mes jours en hi\[Mi7sus4]ver passés à t'oubli\[Lam]er
     Où chaque se\[Mi7sus4]conde
     \[Do6] Est une poignée de \[Rém]terre
+  \endverse
+
+  \beginchorus
     \[Sol] Où chaque \[Do7]minute
     \[Fa] Est un san\[Sim7/5&]glot
     \[Mi] Vois comme je \[Lam]lutte
     Vois ce que je \[Rém]perds en sang et en \[Sim7/5&]eau
     En sang et en \[Mi7sus4]eau \[Mi]
-  \endverse
+  \endchorus
 
   \beginverse
     Je jette au ciel
@@ -36,13 +39,16 @@
     Le soleil inonde le ciel
     Mes jours en enfer passés à t'enterrer
     Où chaque seconde
-    \[Do6] Est une poignée de \[Rém]terre
-    \[Sol] Où chaque min\[Do7]ute
-    \[Fa] Est un ca\[Sim7/5&]veau
-    \[Mi] Vois comme je \[Lam]lutte
-    Vois ce que je \[Rém]perds en sang et en \[Sim7/5&]eau
-    En sang et en \[Mi7sus4]eau\[Mi]
+    Est une poignée de terre
   \endverse
+
+  \beginchorus
+    Où chaque minute
+    Est un caveau
+    Vois comme je lutte
+    Vois ce que je perds en sang et en eau
+    En sang et en eau
+  \endchorus
 
   \beginverse
     J'espère qu'au ciel
@@ -52,12 +58,15 @@
     Mais chaque seconde
     Est une poignée de terre
     Mais chaque seconde
-    \[Do6] Est une poignée de \[Rém]terre
-    \[Sol] Et chaque \[Do7]minute
-    \[Fa] Est un \[Sim7/5&]tombeau
-    \[Mi] Vois comme je \[Lam]lutte
-    Vois ce que je \[Rém]perds en sang et en \[Sim7/5&]eau
-    En sang et en \[Mi7sus4]eau\[Mi]
+    Est une poignée de terre
   \endverse
+
+  \beginchorus  
+    Et chaque minute
+    Est un tombeau
+    Vois comme je lutte
+    Vois ce que je perds en sang et en eau
+    En sang et en eau
+  \endchorus
 
 \endsong

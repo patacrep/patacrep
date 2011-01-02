@@ -3,15 +3,12 @@
 \beginsong{Petit Pierrot}
   [by=Oldelaf et Monsieur~D.,cov=chansons-cons,album=Chansons cons]
 
-
   \cover
   \gtab{Lam}{X02210}
   \gtab{Rém}{XX0231}
   \gtab{Mi7}{020100}
   \gtab{Sol7}{320001}
   \gtab{Do}{X32010}
-
-
 
   \beginverse
     \[Lam]Ton enfance n'a pas tou\[Rém]jours été rose
@@ -62,6 +59,8 @@
     Pour déconner, t'as dit : ``Y'a quelqu'un qui veut du crack ?''
     Pareil \dots
   \endverse
+
+  \lilypond{Petit_Pierrot}
 
   \beginverse
     Un jour, tu as eu trente ans et demi,

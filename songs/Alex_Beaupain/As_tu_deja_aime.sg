@@ -1,0 +1,79 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{As-tu déjà aimé}
+  [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Lam9}{x02200}
+  \gtab{Solsus4}{3x0013}
+  \gtab{Mi7}{020100}
+  \gtab{Rém}{XX0231}
+  \gtab{Rém9}{XX3210}
+
+
+  \beginverse
+    As-tu déjà aim\[Do]é
+    Pour la beauté du g\[Sol]este,
+    As-tu déjà croqu\[Do]é
+    La pomme à pleine d\[Fa]ents,
+    Pour la saveur du fr\[Do]uit
+    Sa douceur et son z\[Sol]este,
+    T'es-tu perdu souv\[Fa]ent ?\[Do]
+  \endverse
+
+  \beginverse*
+    Oui, j'ai déjà aimé
+    Pour la beauté du geste,
+    Mais la pomme était dure,
+    Je m'y suis cassé les dents.
+    Ces passions immatures,
+    Ces amours indigestes
+    M'ont écœuré souvent.
+  \endverse
+
+  \beginchorus
+    Les amours qui d\[Mi]urent
+    Font d\[Mi7]es amants exs\[Lam]angues\[Lam9]
+    Et \[Lam]leurs baisers trop m\[Rém]ûrs\[Rém9]
+    Nous \[Rém]pourris\[Rém9]sent la l\[Sol]angue
+    Les amours passag\[Mi]ères
+    Ont \[Mi7]de futiles f\[Lam]ièvres\[Lam9]
+    Et l\[Sol]eurs baisers trop v\[Do]erts
+    Nous \[Mi]écorchent les \[Solsus4]lèvres,
+  \endchorus
+
+  \beginverse
+    Car à vouloir s'aimer
+    Pour la beauté du geste,
+    Le ver dans la pomme
+    Nous glisse entre les dents,
+    Il nous ronge le cœur
+    Le cerveau et le reste,
+    Nous vide lentement.
+  \endverse
+
+  \beginverse*
+    Et lorsqu'on ose aimer
+    Pour la beauté du geste
+    Ce ver dans la pomme
+    Qui glisse entre nos dents
+    Nous embaume le cœur
+    Le cerveau et nous laisse
+    Son parfum dedans.
+  \endverse
+
+  \beginchorus
+    Les amours passagères
+    Font de futiles efforts,
+    Leurs caresses éphémères
+    Nous fatiguent le corps.
+    Les amours qui durent
+    Font les amants moins beaux
+    Leurs caresses à l'usure
+    Ont raison de nos peaux.
+  \endchorus
+
+\endsong

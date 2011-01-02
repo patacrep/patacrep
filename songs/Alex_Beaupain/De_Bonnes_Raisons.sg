@@ -1,18 +1,18 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{De bonnes Raisons}
+\beginsong{De bonnes raisons}
   [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
 
   \cover
-  \gtab{Lam}{002210}
+  \gtab{Lam}{X02210}
   \gtab{Mi}{022000}
   \gtab{Fa7}{1X221X}
-  \gtab{Rém}{000231}
-  \gtab{Do}{032010}
+  \gtab{Rém}{XX0231}
+  \gtab{Do}{X32010}
   \gtab{Ré}{000121}
   \gtab{Mi7}{020130}
   \gtab{Do6}{2:X10031}
-  \gtab{Si&}{1:002220}
+  \gtab{Si&}{1:X02220}
 
   \beginverse
     \[Lam] Ton feu nou\[Mim]rri de ques\[Fa7]tions
@@ -23,8 +23,8 @@
     \[Do] De bonnes raisons pour t'ai\[Rém]mer
     \[Rém]Je ne vois \[Mi7]pas
     Pour quelles rai\[Lam]sons te les do\[Do]nner
-    \[D7] Mes bonnes rais\[Fa7]ons pour t'aimer\[Lam]
-    Pourq\[Do]uoi te les \[D7]donner?\[D7]\[Fa7]
+    \[Ré7] Mes bonnes rais\[Fa7]ons pour t'aimer\[Lam]
+    Pourq\[Do]uoi te les \[Ré7]donner ?\[Ré7]\[Fa7]
   \endverse
 
   \beginverse
@@ -33,32 +33,34 @@
     \[Lam]Le hasard e\[Mim]t la pa\[Fa7]resse
     Ou une mau\[Mi7]vaise habitude
 
-    \[Rém]Je ne \[Mi7]manque pas (\[Lam]pourquoi les taire)
+    \[Rém]Je ne \[Mi7]manque pas \echo{\[Lam]pourquoi les taire}
     \[Do]De bonnes raisons pour t'aimer
     \[Rém]Je ne vois \[Mi7]pas
     Pour q\[Lam]uelles raisons t\[Do]e les donner
     \[D7]De bonnes rai\[Fa7]sons pour m'ai\[Lam]mer
-    \[C6]Pourquoi me les \[D7]donner?\[Fa7]
+    \[Do6]Pourquoi me les \[D7]donner ?\[Fa7]
   \endverse
+
   \beginverse
     \[Si&]Mon pet\[Fa7]it ange
-    \[Si&]Voudrait que je chante\[Fa7] ses \[Lam]louanges (\[Do]Glo-\[D7]ri-\[F7]a!)
+    \[Si&]Voudrait que je chante\[Fa7] ses \[Lam]louanges \echo{\[Do]Glo\[D7]ri\[F7]a !}
     \[Si&]Ma sainte re\[Fa7]lique
-    \[Si&]Demande son can\[Fa7]tique des \[Lam]cantiques \[Do]Allé-\[D7]lu-\[F7]ia!
+    \[Si&]Demande son can\[Fa7]tique des \[Lam]cantiques \echo{\[Do]Allé\[D7]lu\[F7]ia !}
   \endverse
 
   \beginverse
     Peut-être est-ce pour ton odeur
-    ta façon de t'endormir
-    peut-être aussi pour ta soeur
-    ton argent ou encore pire
+    Ta façon de t'endormir
+    Peut-être aussi pour ta sœur
+    Ton argent ou encore pire
     Je ne manque pas
-    pourquoi les taire ?
-    de bonnes raisons pour t'aimer
+    Pourquoi les taire ?
+    De bonnes raisons pour t'aimer
     Je ne vois pas
-    pour quelles raisons te les donner ?!?
+    Pour quelles raisons te les donner ?
     Mes bonnes raisons pour t'aimer
     Pourquoi te les donner ?
   \endverse
+
 \endsong
 

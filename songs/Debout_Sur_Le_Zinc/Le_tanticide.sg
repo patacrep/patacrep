@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le tanticide}
+  [by=Debout sur le Zinc,cov=recreations,album=Récréations]
+
+  \cover
+  \gtab{Dom}{3:X02210}
+  \gtab{La&}{4:022100}
+  \gtab{Mi&}{6:X02220}
+  \gtab{Si&}{6:022100}
+  \gtab{Sol}{3:022100}
+
+  \beginverse
+    J'ai zigouillé ma \[Dom]tante
+    Elle était vieille et \[La&]faible
+    Passant la nuit chez \[Mi&]elle
+    J'ai fouillé dans son \[Si&]coffre
+    J'y ai trouvé de \[Sol]{l'or}
+  \endverse
+
+  \beginverse
+    J'y ai trouvé de l'or
+    Des papiers de toutes sortes
+    Et j'entendais la vieille
+    Ronflant comme une turbine
+    De quoi aurait-elle peur ?
+  \endverse
+
+  \beginverse
+    De quoi aurait-elle peur ?
+    La nuit, c'est tellement calme
+    Le poignard a plongé
+    Au fin fond de ses tripes
+    Elle a cessé d'couiner
+  \endverse
+
+  \beginverse
+    Elle a cessé d'couiner
+    Oh ma pauvre tantine
+    L'oseille pesait bien lourd
+    Tata n'en parlons pas
+    J'l'ai trainée par le cou
+  \endverse
+
+  \beginverse
+    J'l'ai trainée par le cou
+    J'l'ai jetée à la cave
+    Dans un trou bien profond
+    J'en suis encore crevé
+    J'en suis encore crevé
+  \endverse
+
+  \beginverse
+    J'ai zigouillé ma tante
+    Elle était vieille et folle
+    Mais ne me jugez pas
+    Car je suis encore jeune
+    J'ai zigouillé ma tante
+  \endverse
+
+\endsong

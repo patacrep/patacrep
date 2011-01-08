@@ -8,7 +8,7 @@
 %% 
 %% This is a generated file.
 %% 
-%% Copyright (C) 2010 by Kevin W. Hamlen
+%% Copyright (C) 2011 by Kevin W. Hamlen
 %% 
 %% This file may be distributed and/or modified under the conditions of
 %% the LaTeX Project Public License, either version 1.3a of this license
@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2010/06/09 v2.11 Songs package]
+  [2011/01/07 v2.12 Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -751,9 +751,7 @@
 \newcommand\songauthors{}
 \newcommand\songcopyright{}
 \newcommand\songlicense{}
-\newcommand\songrefs{%
-  \expandafter\SB@parsesrefs\expandafter{\SB@rawrefs}%
-}
+\newcommand\songrefs{}
 \newcommand\setlicense{\gdef\songlicense}
 \newcommand\SB@clearbskeys{}
 \newcommand\newsongkey[2]{%
@@ -761,12 +759,14 @@
     {\SB@clearbskeys#2}%
   \define@key{beginsong}{#1}%
 }
-\newsongkey{sr}{\def\SB@rawrefs{}}{\def\SB@rawrefs{#1}}
+\newsongkey{sr}{\def\SB@rawrefs{}}
+               {\def\SB@rawrefs{#1}\SB@parsesrefs{#1}}
 \newsongkey{by}{\def\songauthors{}}{\def\songauthors{#1}}
 \newsongkey{cr}{\def\songcopyright{}}{\def\songcopyright{#1}}
 \newsongkey{li}{\setlicense{}}{\setlicense{#1}}
 \newsongkey{index}{}{\indexentry{#1}}
 \newsongkey{ititle}{}{\indextitleentry{#1}}
+\newenvironment{song}{\beginsong}{\SB@endsong}
 \newcommand\beginsong[1]{%
   \ifSB@insong\SB@errboo\SB@closeall\fi%
   \ifSB@intersong\SB@errbor\SB@closeall\fi%
@@ -811,7 +811,7 @@
     \lyricfont%
     \SB@setbaselineskip%
 }
-\def\endsong{%
+\newcommand\SB@endsong{%
   \ifSB@insong%
       \ifSB@inverse\SB@erreov\endverse\fi%
       \ifSB@inchorus\SB@erreoc\endchorus\fi%
@@ -1051,53 +1051,101 @@
 }
 \newcommand\SB@parsesrefs[1]{%
   \begingroup%
-    \let\SB@temp\relax%
-    \let\SB@tempii\relax%
-    \afterassignment\SB@prloop%
-    \let\SB@tempiii= #1\SB@endparse\relax\relax%
+    \SB@toks{\begingroup\SB@sractives}%
+    \SB@prloop#1\SB@endparse%
+    \xdef\songrefs{\the\SB@toks\endgroup}%
   \endgroup%
 }
 \newcommand\SB@prloop{\futurelet\SB@next\SB@prstep}
 \newcommand\SB@prstep{%
-  \ifcat\noexpand\SB@tempii\noexpand\@sptoken%
-    \ifcat\noexpand\SB@tempiii A%
-      \ifcat\noexpand\SB@temp A~%
-      \else\ifx\SB@temp;%
-        \penalty-5\hskip.5em\relax%
+  \ifcat\noexpand\SB@next A%
+    \expandafter\SB@prcpy%
+  \else%
+    \expandafter\SB@@prstep%
+  \fi%
+}
+\newcommand\SB@@prstep{%
+  \ifcat\noexpand\SB@next\noexpand\@sptoken%
+    \let\SB@donext\SB@prspace%
+  \else\ifx\SB@next-%
+    \let\SB@donext\SB@prhyphen%
+  \else\ifx\SB@next,%
+    \let\SB@donext\SB@prcomma%
+  \else\ifx\SB@next\SB@endparse
+    \let\SB@donext\@gobble%
+  \else\ifcat\noexpand\SB@next\bgroup%
+    \let\SB@donext\SB@prgr%
+  \else%
+    \let\SB@donext\SB@prcpy%
+  \fi\fi\fi\fi\fi%
+  \SB@donext%
+}
+\newcommand\SB@prcpy[1]{\SB@toks\expandafter{\the\SB@toks#1}\SB@prloop}
+\newcommand\SB@prgr[1]{\SB@toks\expandafter{\the\SB@toks{#1}}\SB@prloop}
+
+\newcommand\SB@prcomma[1]{}
+{\catcode`,\active
+ \gdef\SB@prcomma#1{\SB@toks\expandafter{\the\SB@toks,}\SB@prloop}}
+\newcommand\SB@prhyphen[1]{}
+{\catcode`-\active
+ \gdef\SB@prhyphen#1{\SB@toks\expandafter{\the\SB@toks-}\SB@prloop}}
+\newcommand\SB@prspace[1]{}
+{\obeyspaces
+\gdef\SB@prspace{\SB@toks\expandafter{\the\SB@toks }\SB@@prspace}}
+\newcommand\SB@@prspace{\afterassignment\SB@prloop\let\SB@temp= }
+
+\newcommand\SB@sractives{}
+{\catcode`,\active\catcode`-\active\obeyspaces\catcode`\^^M\active%
+\gdef\SB@sractives{%
+\let,\SB@srcomma\let-\SB@srhyphen%
+\let \SB@srspace\let^^M\SB@srspace%
+\SB@srspacing}%
+}
+\newcommand\SB@srspacing{%
+  \nonfrenchspacing\sfcode`\;=1500\sfcode`\,=1250\relax%
+}
+\newcommand\SB@srcomma{,\futurelet\SB@next\SB@@srcomma}
+\newcommand\SB@@srcomma{%
+  \ifx\SB@next\SB@srspace\else%
+    \nobreak\thinspace%
+  \fi%
+}
+\newcommand\SB@srhyphen{\futurelet\SB@next\SB@@srhyphen}
+\newcommand\SB@@srhyphen{%
+  \ifx\SB@next\SB@srhyphen\expandafter\SB@srdash\else--\fi%
+}
+\newcommand\SB@srdash[1]{\futurelet\SB@next\SB@@srdash}
+\newcommand\SB@@srdash{%
+  \ifx\SB@next\SB@srhyphen---\expandafter\@gobble\else--\fi%
+}
+\newcommand\SB@srspace{\futurelet\SB@next\SB@@srspace}
+\newcommand\SB@@srspace{%
+  \let\SB@donext\relax%
+  \ifx\SB@next\SB@srspace\else%
+    \ifnum\spacefactor>\@m%
+      \ifnum\spacefactor>1499 %
+        \ifcat\noexpand\SB@next0%
+          \let\SB@donext\SB@srcso%
+        \else%
+          \penalty-5\enskip%
+        \fi%
       \else%
-        \SB@testdigit\SB@temp%
-        \ifSB@test\nobreak\ \else\SB@tempii\fi%
-      \fi\fi%
-    \else\ifcat\noexpand\SB@temp A%
-      \SB@testdigit\SB@tempiii%
-      \ifSB@test\nobreak\ \else\SB@tempii\fi%
-    \else\ifx\SB@temp;%
-      \ifcat\noexpand\SB@next\noexpand\@sptoken%
-        \SB@testdigit\SB@tempiii%
-        \ifSB@test\penalty-5\hskip.5em\relax\else\SB@tempii\fi%
-      \else%
-        \SB@tempii%
+        \space%
       \fi%
     \else%
-      \SB@tempii%
-    \fi\fi\fi%
-  \else\ifx\SB@tempii-%
-    \ifx\SB@temp-\SB@tempii\else%
-      \ifx\SB@tempiii-\SB@tempii\else--\fi%
+      \nobreak\space%
     \fi%
-  \else\ifx\SB@temp,%
-    \SB@testdigit\SB@tempii%
-    \ifSB@test\nobreak\thinspace\fi%
-    \SB@tempii%
-  \else%
-    \SB@tempii%
-  \fi\fi\fi%
-  \let\SB@temp= \SB@tempii%
-  \let\SB@tempii= \SB@tempiii%
-  \ifx\SB@tempiii\SB@endparse\else%
-    \afterassignment\SB@prloop%
   \fi%
-  \let\SB@tempiii= %
+  \SB@donext%
+}
+\newcommand\SB@srcso[1]{\futurelet\SB@temp\SB@@srcso}
+\newcommand\SB@@srcso{%
+  \ifx\SB@temp\SB@srspace%
+    \penalty-5\enskip%
+  \else%
+    \space%
+  \fi%
+  \SB@next%
 }
 \newif\ifSB@stanza
 \newcommand\SB@stanzabreak{%
@@ -1176,7 +1224,30 @@
 }
 \newif\ifvnumbered
 \newif\ifSB@prevverse
+\CheckCommand\verse{%
+  \let\\\@centercr%
+  \list{}{%
+    \itemsep\z@%
+    \itemindent-1.5em%
+    \listparindent\itemindent%
+    \rightmargin\leftmargin%
+    \advance\leftmargin1.5em%
+  }%
+  \item\relax%
+}
+\renewenvironment{verse}
+  {\vnumberedfalse\SB@beginverse}
+  {\SB@endverse}
+\newenvironment{verse*}
+  {\vnumberedtrue\SB@beginverse}
+  {\SB@endverse}
 \newcommand\beginverse{%
+  \begingroup%
+    \SB@loadactives%
+    \@ifstar{\endgroup\vnumberedfalse\SB@beginverse}%
+            {\endgroup\vnumberedtrue\SB@beginverse}%
+}
+\newcommand\SB@beginverse{%
   \ifSB@insong%
     \ifSB@inverse\SB@errbvv\endverse\fi%
     \ifSB@inchorus\SB@errbvc\endchorus\fi%
@@ -1189,13 +1260,6 @@
       \marks\SB@cmarkclass{\SB@cmark}%
     \fi\fi%
   \fi\fi%
-  \begingroup%
-    \SB@loadactives%
-    \@ifstar{\global\vnumberedfalse\SB@@beginverse}%
-            {\global\vnumberedtrue\SB@@beginverse}%
-}
-\newcommand\SB@@beginverse{%
-  \endgroup%
   \SB@inversetrue%
   \def\SB@closeall{\endverse\endsong}%
   \SB@stanzabreak%
@@ -1230,7 +1294,7 @@
     \penalty12345 %
     \everyverse\relax%
 }
-\def\endverse{%
+\newcommand\SB@endverse{%
   \ifSB@insong%
     \ifSB@inverse%
         \unpenalty%
@@ -1269,6 +1333,7 @@
 \def\SB@lastcmark{SB@lastcmark}
 \newcommand\SB@nocmark{}
 \def\SB@nocmark{SB@nocmark}
+\newenvironment{chorus}{\beginchorus}{\SB@endchorus}
 \newcommand\beginchorus{%
   \ifSB@insong
     \ifSB@inverse\SB@errbcv\endverse\fi%
@@ -1311,7 +1376,7 @@
     \SB@obeylines%
     \penalty12345 %
 }
-\def\endchorus{%
+\newcommand\SB@endchorus{%
   \ifSB@insong%
     \ifSB@inchorus%
         \unpenalty%
@@ -1356,7 +1421,7 @@
     \ifSB@chorustop\ifchorded\else%
       \advance\SB@skip-\SB@dimenii%
     \fi\fi%
-    \vskip-\SB@skip%
+    \nobreak\vskip-\SB@skip%
   \fi%
 }
 \newcommand\SB@computess[4]{%
@@ -1550,9 +1615,11 @@
   \fi%
 }
 \newbox\SB@srbox
+\newenvironment{scripture}{\beginscripture}{\SB@endscripture}
 \newcommand\beginscripture[1]{%
   \begin{intersong}%
-    \setbox\SB@srbox\hbox{{\printscrcite{\SB@parsesrefs{#1}}}}%
+    \SB@parsesrefs{#1}%
+    \setbox\SB@srbox\hbox{{\printscrcite\songrefs}}%
     \def\SB@closeall{\endscripture}%
     \nobreak\vskip5\p@%
     \SB@parindent\parindent\parindent\z@%
@@ -1563,12 +1630,12 @@
     \advance\baselineskip\p@\relax%
     \emergencystretch.3em%
 }
-\def\endscripture{%
+\newcommand\SB@endscripture{%
   \ifSB@intersong
       \scitehere%
       \ifhmode\par\fi%
       \vskip-3\p@%
-    \end{intersong}% TODO: Suppress submission ifpartiallist
+    \end{intersong}%
   \fi%
 }
 \newcommand\scitehere{%
@@ -3536,7 +3603,7 @@
    \gdef\SB@printEOL{\ifSB@doEOL^^M^^J\fi}}
   {\catcode`#12\gdef\SB@hash{#}}
   {\catcode`&12\gdef\SB@amp{&}}
-  \def\SB@@@beginsong{%
+  \renewcommand\SB@@@beginsong{%
     \begingroup%
       \def\'{}\def\`{}\def\v{}\def\u{}\def\={}\def\^{}%
       \def\.{}\def\H{}\def\~{}\def\"{}\def\t{}%
@@ -3563,7 +3630,7 @@
       \SB@doEOLfalse%
       \obeylines%
   }
-  \def\endsong{%
+  \renewcommand\SB@endsong{%
       \SB@doEOLtrue%
       \immediate\write\SB@txtout{\songcopyright\space%
         \songlicense\SB@printEOL}%
@@ -3571,7 +3638,7 @@
     \SB@insongfalse%
     \stepcounter{songnum}%
   }
-  \def\SB@parsesrefs#1{#1}
+  \def\SB@parsesrefs#1{\def\songrefs{#1}}
   \long\def\beginverse#1#2\endverse{%
     \SB@doEOLtrue\begingroup%
       \def\textnote##1{##1}%

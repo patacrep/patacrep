@@ -21,6 +21,8 @@ word_dic = {
 ##: Punctuation
 "’": "'",
 "Ca ": "Ça ",
+"\\musicnote{Intro": "\\musicnote{intro",
+"\\musicnote{Outro": "\\musicnote{outro",
 "...": "\\dots ",
 "…": "\\dots",
 #replace tabs with two spaces

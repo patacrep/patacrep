@@ -1,0 +1,71 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Alcohol}
+  [by=Gogol Bordello,cov=super-taranta,album=Super Taranta!]
+
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Sol}{3:022100}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
+
+  \beginverse
+    \[Lam]Yeah, oh \[Sol]yeah, you \[Fa]seen me \[Mi]walk
+    On burning \[Lam]bridges
+    Yeah, oh yeah, you seen me fall
+    In love with witches
+    And you know my head is held
+    Inside by stitches
+    Yet, you know I did survive
+    All of your lovely sieges
+  \endverse
+
+  \beginchorus
+    \[Lam]And you know that I'll pick \[Fa]up
+    Every time you \[Sol]call
+    Just to thank you one more \[Mi]time
+    Alco\[Lam]hol  
+    \[Lam Sol Fa Mi] Alco\[Lam]hol \rep{2}
+  \endchorus
+
+  \beginchorus
+    And you know that I'll survive
+    Every time you come
+    Just to thank you one more time
+    For everything you've done
+  \endchorus
+
+  \beginverse
+    I am sorry some of us
+    Given you bad name
+    Yeah, oh yeah, cause without you
+    Nothing is the same
+    Yeah, oh yeah, I miss you so
+    Every time we break up
+    Just to hit a higher note
+    Every time we make up
+  \endverse
+
+  \beginverse
+    Who is crawlin' up my spine 
+    \echo{Alcohol}
+    I was waiting long long time 
+    \echo{Alcohol}
+    Now you teach me how to rhyme 
+    \echo{Alcohol}
+    Just don't stab me in the back 
+    With a cortisol
+  \endverse
+
+  \beginverse*
+    Now forever reunite 
+    \echo{Alcohol}
+    Now you teach me how to rhyme 
+    \echo{Alcohol}
+    Screw a light bulb in my head 
+    \echo{Alcohol}
+    May that ceremony be 
+    Happy or sad
+  \endverse
+
+\endsong

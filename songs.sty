@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2011/01/07 v2.12 Songs package]
+  [2011/01/09 v2.12 Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -759,7 +759,7 @@
     {\SB@clearbskeys#2}%
   \define@key{beginsong}{#1}%
 }
-\newsongkey{sr}{\def\SB@rawrefs{}}
+\newsongkey{sr}{\def\SB@rawrefs{}\gdef\songrefs{}}
                {\def\SB@rawrefs{#1}\SB@parsesrefs{#1}}
 \newsongkey{by}{\def\songauthors{}}{\def\songauthors{#1}}
 \newsongkey{cr}{\def\songcopyright{}}{\def\songcopyright{#1}}

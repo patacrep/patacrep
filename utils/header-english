@@ -2,7 +2,8 @@
 "template" : "patacrep-en.tmpl",
 "bookoptions" : [
     "diagram",
-    "lilypond"
+    "lilypond",
+    "pictures"
   ],
 "booktype" : "chorded",
 "subtitle" : "english songs",

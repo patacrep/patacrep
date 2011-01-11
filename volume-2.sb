@@ -2,7 +2,8 @@
 "template" : "patacrep.tmpl",
 "bookoptions" : [
     "diagram",
-    "lilypond"
+    "lilypond",
+    "pictures"
   ],
 "booktype" : "chorded",
 "picture" : "sound",

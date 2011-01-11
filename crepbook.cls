@@ -8,10 +8,12 @@
 \newif{\iftabs}
 \newif{\iflilypond}
 \newif{\ifnodiagram}
+\newif{\ifpictures}
 
 \tabsfalse
 \lilypondfalse
 \nodiagramtrue
+\picturesfalse
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
@@ -20,6 +22,8 @@
 \DeclareOption{nolilypond}{\lilypondfalse}
 \DeclareOption{nodiagram}{\nodiagramtrue}
 \DeclareOption{diagram}{\nodiagramfalse}
+\DeclareOption{pictures}{\picturestrue}
+\DeclareOption{nopictures}{\picturesfalse}
 
 \DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}
@@ -50,6 +54,7 @@
   \tabsfalse%
   \lilypondfalse%
   \nodiagramtrue%
+  \picturesfalse%
   \renewcommand{\colbotglue}{0pt plus .5\textheight minus 0pt}%
 \fi
 
@@ -155,7 +160,7 @@
 \newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newcommand\cover{%
-  \ifchorded%
+  \ifpictures%
     \ifx\songcover\@empty\else%
       \mbox{%
         \includegraphics[width=\coverheight]{\songcover}%
@@ -172,10 +177,14 @@
     \iftranscapos%
     \transpose{#1}%
     \else%
-    \mbox{%
-      \includegraphics[height=\capoheight]{capodastre}%
-      \put(-22,8){\Large #1}
-    }%
+      \ifpictures
+        \mbox{%
+          \includegraphics[height=\capoheight]{capodastre}%
+          \put(-22,8){\Large #1}
+        }%
+      \else
+        \musicnote{capo: #1}%
+      \fi
     \hspace{\coverspace}%
     \fi%
   \fi%
@@ -192,7 +201,7 @@
 }
 
 \newcommand{\image}[2]{%
-  \ifchorded%
+  \ifpictures%
   \begin{flushright}%
     \includegraphics[width=#2cm]{#1}%
   \end{flushright}%

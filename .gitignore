@@ -1,3 +1,10 @@
+.gitignore
+data/
+perso/
+staging/
+utils/release.sh
+utils/tarball.sh
+utils/send.sh
 *.aux
 *.sbd
 *.sbx
@@ -6,3 +13,9 @@
 *.out
 *.d
 *.pdf
+default.sb
+default.tex
+french.sb
+english.sb
+tmp.sb
+utils/version.sh

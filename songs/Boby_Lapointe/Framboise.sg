@@ -1,0 +1,99 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Framboise}
+  [by=Boby Lapointe,cov=l-integrale,album=L'intégrale]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{La}{5:022100}
+  \gtab{Ré7}{5:X02020}
+  \gtab{Solm}{3:022000}
+  \gtab{La7}{5:020100}
+
+  \beginverse
+    \[Rém]Elle s'appelait Françoise, \[La Rém]
+    Mais on l'\[Ré7]appelait Fram\[Solm]boise ! \[Ré7 Solm]
+    Une idée de l'adju\[La7]dant
+    Qui en avait très peu, pour\[Rém]tant,
+    \echo{Des idées} \[La Rém]
+  \endverse
+
+  \beginverse*
+    \[Rém]Elle nous servait à boire \[La Rém]
+    Dans un \[Ré7]bled du Maine-et-\[Solm]Loire \[Ré7 Solm]
+    Mais ce n'était pas Made\[Rém]lon
+    Elle avait un autre \[La7]nom,
+    Et puis d'abord pas ques\[Rém]tion
+    De lui prendre le men\[La7]ton
+    D'ailleurs elle était d'An\[Rém]tibes !
+    \[Rém]Quelle \[La]ava\[Rém]nie !
+  \endverse
+
+  \beginchorus
+    Avanie et Fram\[La7]boise
+    Sont les mamelles du Des\[Rém]tin !
+  \endchorus
+
+  \beginverse
+    Pour sûr qu'elle était d'Antibes !
+    C'est plus près que les Caraïbes,
+    C'est plus près que Caracas.
+    Est-ce plus loin que Pézenas ?
+    Je n'sais pas
+  \endverse
+
+  \beginverse*
+    Et tout en étant Française,
+    L'était tout d'même Antibaise :
+    Et bien qu'elle soit Française,
+    Et, malgré ses yeux de braise,
+    Ça ne me mettait pas à l'aise
+    De la savoir Antibaise,
+    Moi qui serais plutôt pour
+    Quelle avanie !
+  \endverse
+
+  \beginverse
+    Elle avait peu d'avantages
+    Pour en avoir davantage,
+    Elle s'en fit rajouter
+    À l'institut de beauté
+    \echo{Ah ah ah !}
+  \endverse
+
+  \beginverse*
+    On peut, dans le Maine-et-Loire,
+    S'offrir de beaux seins en poire
+    Il y a l'institut d'Angers
+    Qui opère sans danger
+    Des plus jeunes aux plus âgés,
+    On peut presque tout changer,
+    Excepté ce qu'on ne peut pas
+    Quelle avanie !
+  \endverse
+
+  \beginverse*
+    \og Davantage d'avantages,
+    Avantagent davantage \fg
+    Lui dis-je, quand elle revint
+    Avec ses seins Angevins
+    \echo{Deux fois dix !}
+  \endverse
+
+  \beginverse*
+    \og Permets donc que je lutine
+    Cette poitrine angevine \fg
+    Mais elle m'a échappé,
+    A pris du champ dans le pré
+    Et j'n'ai pas couru après
+    Je n'voulais pas attraper
+    Une Angevine de poitrine !
+    Moralité
+  \endverse
+
+  \beginchorus
+    Avanie et mamelles
+    Sont les framboises du Destin !
+  \endchorus
+
+\endsong

@@ -3,7 +3,8 @@
 "author" : "Crep (R.Goffe) \\and Lohrun (A.Dupas)",
 "bookoptions" : [
     "diagram",
-    "lilypond"
+    "lilypond",
+    "pictures"
   ],
 "booktype" : "chorded",
 "footer" : "Musique du Naheulband: \\url{http://www.penofchaos.com/warham/donjon-groupe.htm}",

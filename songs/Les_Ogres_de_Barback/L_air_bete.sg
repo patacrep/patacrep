@@ -59,12 +59,12 @@
     Le museau fin, l'air pas très bien
     D'un ragondin
     Quand elle me jette à la figure :
-    ``Tu finiras par faire fourrure !''
+    {\og}Tu finiras par faire fourrure !{\fg}
   \endverse
 
   \beginchorus
     Si je dors à la ville,
-    Elle couche ``rats des chants'',
+    Elle couche {\og}rats des chants{\fg},
     Si c'est aux champs tranquille,
     Un rat sera content.
   \endchorus
@@ -143,7 +143,7 @@
 
   \beginverse
     Et pour terminer ce bestiaire
-    ``langue de vipère'',
+    {\og}langue de vipère{\fg},
     Je voudrais trouver un mot neuf,
     Fort comme un bœuf,
     Pour lui dire tout ce qui m'embête

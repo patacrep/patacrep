@@ -12,10 +12,10 @@
 
   \textnote{Intro}
   \beginverse*
-    ``Éh les gars !
+    {\og}Éh les gars !
     - Hein ?
     - Vous savez quoi ?
-    - Ben non !''
+    - Ben non !{\fg}
   \endverse
 
   \beginverse

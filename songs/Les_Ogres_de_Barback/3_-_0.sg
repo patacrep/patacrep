@@ -1,6 +1,6 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{``3 - 0''}
+\beginsong{3 - 0}
   [by=Les Ogres de Barback,cov=terrain-vague,album=Terrain vague]
 
 
@@ -73,7 +73,7 @@
     Ils ont un patois bien sûr,
     Qu'ils utilisent parfois,
     Pour écrire sur les murs
-    D'une usine : ``Plus jamais ça''.
+    D'une usine : {\og}Plus jamais ça{\fg}.
   \endverse
 
   \beginchorus
@@ -115,7 +115,7 @@
   \beginchorus
     Mais Strasbourg, ça reste en France,
     Les Français restent des Français
-    L'égalité en ``free-lance'',
+    L'égalité en {\og}free-lance{\fg},
     L'humanité qui s'essaie.
   \endchorus
 

@@ -22,9 +22,9 @@
   \endchorus
 
   \beginverse
-    Le Sergent dit : ``Mon Capitaine, êtes-vous sûr que c'est le chemin ?
+    Le Sergent dit : {\og}Mon Capitaine, êtes-vous sûr que c'est le chemin ?
     - Sergent, j'ai traversé souvent et je connais bien le terrain !
-    Allons soldats, un peu de courage, on n'est pas là pour s'amuser.''
+    Allons soldats, un peu de courage, on n'est pas là pour s'amuser.{\fg}
   \endverse
 
   \beginchorus
@@ -32,9 +32,9 @@
   \endchorus
 
   \beginverse
-    Le Sergent dit : ``On est trop chargé, on ne pourra pas nager.
+    Le Sergent dit : {\og}On est trop chargé, on ne pourra pas nager.
     - Sergent, ne sois pas si nerveux, il faut un peu de volonté.
-    Suivez-moi, je marcherai devant, je n'aime pas les dégonflés.''
+    Suivez-moi, je marcherai devant, je n'aime pas les dégonflés.{\fg}
   \endverse
 
   \beginchorus
@@ -44,7 +44,7 @@
   \beginverse
     Dans la nuit soudain, un cri jaillit suivi d'un sinistre glou-glou.
     Et la casquette du capitaine flottait à côté d'nous.
-    Le Sergent cria : ``Retournez-vous, c'est moi qui commande, à présent !''
+    Le Sergent cria : {\og}Retournez-vous, c'est moi qui commande, à présent !{\fg}
   \endverse
 
   \beginchorus

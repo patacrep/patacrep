@@ -1,0 +1,67 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'épervier}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
+
+  \cover
+  \gtab{Do}{332010}
+  \gtab{Sol7}{320001}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
+  \gtab{Lam}{X02210}
+
+  \beginverse
+    \[Do]L'épervier il faut le \[Sol7]dire
+    Est petit mais bien vo\[Do]leur
+    \[Do]L'épervier il faut le \[Sol7]dire
+    Est le pire des men\[Do]teurs
+    Quand il \[Sol]monte \[Fa]dans le \[Mi]ciel
+    Prenez garde, Demoi\[Lam]selle !
+  \endverse
+
+  \beginchorus
+    L'épervier, piou, \[Mi]piou
+    L'épervier, pao, \[Lam]pao
+    L'épervier, piou, \[Mi]piou
+    L'épervier, pao, \[Lam]pao
+  \endchorus
+
+
+  \beginverse
+    L'épervier de ma colline
+    N'est pas un très bon chrétien
+    L'épervier de ma colline
+    Chante comme un vrai païen
+    Il connait tous les couplets
+    Des Filles de Camaret
+  \endverse
+
+  \beginverse
+    Batelier de la Dordogne
+    Passe moi sur l'autre bord
+    Batelier de la Dordogne
+    Il y va vraiment trop fort
+    Cette espèce d'épervier
+    Qui commence à m'agacer
+  \endverse
+
+  \beginverse
+    Épervier, si t'es un homme
+    Viens te poser près d'ici
+    Épervier, si t'es un homme
+    Je vais chercher mon fusil
+    Et ce soir je mangerai
+    Du bon pâté d'épervier
+  \endverse
+
+  \beginverse
+    Il est venu, Messieurs, Dames
+    Visiter mon poulailler
+    Il est venu, Messieurs, Dames
+    Trois poulettes il m'a volées
+    Et je sais que l'animal
+    Ce soir dansera au bal
+  \endverse
+
+\endsong

@@ -1,0 +1,70 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Alouette}
+  [by=Hugues Aufray]
+
+  \gtab{Mim}{022000}
+  \gtab{Lam7}{002212}
+  \gtab{Sol7}{320001}
+  \gtab{Ré7}{XX0212}
+  \gtab{Si7}{X21202}
+
+  \beginverse
+    \[Mim]Alouette, alouet\[Lam7]te
+    L'é\[Ré7]té est fi\[Sol7]ni
+    \[Mim]Pauvre petite bê\[Lam7]te
+    Je \[Ré7]suis ton a\[Sol7]mi
+    \[Mim]Alouette, alouet\[Lam7]te
+    Je \[Ré7]te comprends \[Sol7]bien
+    Moi aussi \[Mim]{j'ai} en tê\[Lam]te
+    \[Si7]Beaucoup de cha\[Mim]grain.
+  \endverse
+
+  \beginverse*
+    Dans les blés de la plaine
+    Lorsque tu chantais
+    Auprès de Madeleine,
+    Moi je m'endormais
+    Dans l'eau de cette source
+    Nous buvions tous trois
+    La vie était si douce,
+    Si pleine de joie.
+  \endverse
+
+  \beginchorus
+    Alouette, alouette,
+    Chantons tous les deux
+    Un autre jour, peut-être,
+    On sera heureux.
+  \endchorus
+
+  \beginverse
+    Alouette, alouette,
+    Puisque tout va mal,
+    Il faut faire la fête,
+    Je t'emmène au bal !
+    Viens donc sur mon épaule,
+    Viens te réchauffer !
+    Tu verras, je suis drôle,
+    Je sais bien danser.
+  \endverse
+
+  \beginverse*
+    Et puis si tu t'embêtes
+    On viendra chez moi
+    Il y aura des noisettes
+    Et du pain pour toi
+    Alouette, alouette,
+    L'amour et l'été
+    Comme les cigarettes
+    S'en vont en fumée.
+  \endverse
+
+  \beginchorus
+    Alouette, alouette,
+    Non, ne t'en fais pas
+    Alouette, alouette
+    L'été reviendra.
+  \endchorus
+
+\endsong

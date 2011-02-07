@@ -1,0 +1,73 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Hasta Luego}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
+
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Rém}{XX0231}
+  \gtab{Do}{332010}
+  \gtab{Mi}{022100}
+
+  \textnote{Chorus 1}
+  \beginchorus
+    Hasta \[Lam]luego !
+    \[Sol]À bientôt si Dieu le \[Do]veut\[Mi]
+    Hasta \[Lam]luego !
+    \[Sol]On se reverra sous \[Do]peu\[Mi]
+  \endchorus
+
+  \beginverse
+    On a \[Rém]trois mois
+    De réserve au fond des \[Mi]cales
+    Allez, \[Rém]les gars,
+    On va hisser la grand'\[Mi]voile
+  \endverse
+
+  \textnote{Chorus 2}
+  \beginchorus
+    \[Lam]Laissez passer les en\[Sol]fants
+    De la \[Do]nuit\[Mi]
+    \[Lam]Ils vont chercher le grand \[Sol]vent
+    De l'ou\[Do]bli\[Mi]
+  \endchorus
+
+
+  \beginverse
+    Toi qui n'as rien
+    Embarque-toi avec nous
+    Donne-moi la main,
+    Viens, ta place est parmi nous
+  \endverse
+
+  \textnote{Chorus 1}
+
+  \beginverse
+    Toi qui as peur
+    Cache-toi derrière mon bras
+    Car voici l'heure
+    Enfin d'être fier de toi
+  \endverse
+
+  \textnote{Chorus 2}
+
+  \beginverse
+    Toi qui chantes
+    Regarde-moi dans les yeux
+    Suis ma route,
+    Elle te mènera vers Dieu
+  \endverse
+
+
+  \textnote{Chorus 1}
+
+  \beginverse
+    On a trois mois
+    De réserve au fond des cales
+    Allez, les gars,
+    On va hisser la grand'voile
+  \endverse
+
+  \textnote{Chorus 2}
+
+\endsong

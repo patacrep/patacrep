@@ -1,0 +1,37 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{I want sex}
+  [by=Les Booze Brothers,cov=elevator,album=Elevator]
+
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{Sol}{320003}
+  \gtab{La}{X02220}
+
+  \beginverse
+    \[Ré]Sweet is the \[Sol]feeling when \[Ré]love is in the \[La]air
+    \[Ré]Dream of a \[Sol]white gown \[Ré]by my \[La]side
+    \[Ré]That's what you \[Sol]read \[Ré]in your maga\[La]zines
+    But \[Ré]all you have to \[Sol]fear is \[La]when I say to \[Ré]you
+  \endverse
+
+  \beginchorus
+    \[Ré]{I want} \[Sol]sex be\[Ré]hind a gas \[La]tank
+    \[Ré]{I want} \[Sol]sex be\[La]hind a gas \[Ré]tank
+    \[Ré]{I want} \[Sol]sex be\[Ré]hind a gas \[La]tank
+    \[Ré]{I want} to \[Sol]fuck you be\[La]hind a gas \[Ré]tank
+  \endchorus
+
+  \beginverse
+    Sweet is the feeling when love is in the air
+    I'd like to pray oh for you
+    Sweet little life in your head
+    But now reality is when I say to you
+  \endverse
+
+  \beginchorus
+    I want sex behind a gas tank \rep{3}
+    I want a great shag behind a gas tank
+  \endchorus
+
+\endsong

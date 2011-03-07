@@ -1,0 +1,62 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Dirty glass}
+  [by=Dropkick Murphys,cov=blackout,album=Blackout]
+
+  \cover
+  \gtab{Ré}{5:X02220}
+  \gtab{Sol}{3:022100}
+  \gtab{La}{5:022100}
+  \gtab{Sim}{7:022000}
+
+  \beginverse*
+    \[Ré]Murphy, Murphy, \[Sol]darling \[Ré]dear,
+    I \[Sol]long for you \[Ré]now night and \[La]day
+    Your \[Ré]pain was my pleasure, your \[Sol]sorrow my \[Ré]joy
+    I \[Sol]feel now I've \[Ré]lost you to \[La]health and good \[Ré]cheer
+  \endverse
+
+  \beginverse
+    \[Sol]Darcy, when I met you I was \[Ré]five years too \[La]young
+    A \[Ré]boy beyond his \[Sol]age, or so I'd \[La]tell some\[Ré]one
+    \[Sim]Anyone who'd listen and a \[Sol]few who couldn't care
+    Still I \[Ré]welcomed you with \[Sol]open arms, my \[La]love I did \[Ré]share
+  \endverse
+
+  \beginchorus
+    \[Ré]Darcy, Darcy \[Sol]darling dear,
+    You \[Ré]left me dying, \[La]crying there
+    In \[Ré]whiskey, gin, and \[Sol]pints of beer
+    I \[La]fell for you my \[Ré]darling dear
+  \endchorus
+
+  \beginverse
+    You shut me off and you showed me the door
+    But you always came crawling back begging me for more
+    I showed you kindness, a stool, and a tab
+    Then you poured me my pain in a dirty glass
+  \endverse
+
+  \beginverse*
+    \echo{Yeah, you left him bloody, battered, penniless, and poor}
+    You know, I often stopped and wondered how you made it through my door
+    With my brother's new non-duplicate registry ID
+    Well you bit off more than you could chew the first day you met me
+  \endverse
+
+
+  \beginverse
+    You weren't the first to court me mister you won't be the last
+    Oh, sure I wasn't honey, I know all about your past
+    Listen to the big shot with his pager on call
+    You spent most of those nights in my bathroom stall
+  \endverse
+
+  \beginverse*
+    \echo{Yeah, you got him high, but you left him low}
+    Mind you own business, boy, how was I to know
+    That he was just a fiend and a no-good cheat
+    Well it's all in the past bitch 'cause now I've got it beat
+  \endverse
+
+\endsong

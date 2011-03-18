@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'aigle noir}
-  [by=Barbara]
+  [by=Barbara,cov=l-aigle-noir,album=L'aigle noir]
 
+  \cover
   \gtab{Do}{X32010}
   \gtab{Sol}{320003}
   \gtab{Rém}{XX0231}

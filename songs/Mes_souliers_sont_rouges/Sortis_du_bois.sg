@@ -1,0 +1,62 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Sortis du bois}
+  [by=Mes souliers sont rouges,cov=5,album=5]
+
+  \cover
+  \capo{2}
+  \gtab{La}{X02220}
+  \gtab{Ré}{XX0232}
+  \gtab{Mi}{022100}
+
+  \beginverse
+    \[La]Nous étions partis fiévreux mais debout
+    Provoquer la chance, défier la forêt
+    \[Ré]Nous étions partis semer nos cailloux
+    \[La]Retrouver l'enfance au bout du sentier
+  \endverse
+
+  \beginverse*
+    Nous voulions sans mal caresser nos peurs
+    Trouver le chemin qui conduit au loup
+    Traquer l'animal, l'attraper dans l'heure
+    Et puis d'une main lui tordre le cou
+  \endverse
+
+  \beginchorus
+    On n'est pas sortis du \[Mi]bois\[Ré]
+    On s'est un peu perdus dé\[La]jà
+    On n'est pas sortis du \[Mi]bois
+    On a même oublié pour\[Ré]quoi
+    On n'est pas sortis du \[La]bois
+  \endchorus
+
+  \beginverse
+    Nous étions partis en criant au loup
+    Pressés de venger la frayeur enfin
+    Mais jusqu'à la nuit, au vain rendez-vous
+    Nous avons guetté le grand méchant rien
+  \endverse
+
+  \beginverse*
+    Nous étions partis en mémoire de celles
+    Pour qui nos couteaux écorchaient la sève
+    Le chêne a vieilli nos vœux éternels
+    S'envolent en copeaux qui sèment nos rêves
+  \endverse
+
+  \beginverse
+    Sans loup, ni princesse, on s'est installé
+    Le conte achevé en courbant l'échine
+    Quel printemps était-ce, quelle saison passée ?
+    Ce jour où nos pieds sont devenus racines ?
+  \endverse
+
+  \beginverse*
+    Nous étions partis fiévreux mais debout
+    Provoquer la chance, défier la forêt
+    Nous étions partis semer nos cailloux
+    Retrouver l'enfance au bout du sentier
+  \endverse
+
+\endsong

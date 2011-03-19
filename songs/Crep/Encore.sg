@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Encore}
-  [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
+  [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
 
   \cover
   \gtab{Dom}{3:X02210}
@@ -48,7 +48,7 @@
   \beginverse*
     Ira à gauche ou droite
     Quelle existentielle question
-    Quel supsens insoutenable
+    Quel suspsens insoutenable
     J'ai fait mon plein d'émotions
   \endverse
 
@@ -69,7 +69,7 @@
 
   \beginverse
     Scénario bien ficelé
-    Héroine 90C
+    Héroïne 90C
     Acteurs à peine surjoués
     Testostérone bien cajolée
   \endverse
@@ -97,7 +97,7 @@
 
 
   \beginverse
-    Ptit discours politique
+    P'tit discours politique
     Ça tombe bien je m'endormais
     Sont toujours aussi hypnotiques
     Certaines choses changeront jamais

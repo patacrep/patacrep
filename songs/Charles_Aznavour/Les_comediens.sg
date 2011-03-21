@@ -1,0 +1,65 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les comédiens}
+  [by=Charles Aznavour,cov=40-chansons-d-or,album=40 chansons d'or]
+
+  \cover
+  \capo{3}
+  \gtab{Do}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320001}
+  \gtab{Mi7}{020100}
+  \gtab{Ré7}{XX0212}
+
+  \beginchorus
+    \[Do]Viens voir les comé\[Lam]diens, voir les musi\[Fa]ciens
+    Voir les magi\[Sol7]ciens, qui arrivent
+    \[Do]Viens voir les comé\[Lam]diens, voir les musi\[Fa]ciens
+    Voir les magi\[Sol7]ciens, qui arrivent
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    \[Do]Les comédiens ont instal\[Lam]lé leurs tréteaux
+    Ils ont dres\[Fa]sé leur estrade et tendu \[Sol7]des calicots
+    \[Do]Les comédiens ont parcou\[Lam]ru les faubourgs
+    Ils ont don\[Fa]né la parade, à grand ren\[Sol7]fort de tambour
+  \endverse
+
+  \beginverse*
+    \[Do]Devant l'église une rou\[Mi7]lotte peinte en vert
+    A\[Lam]vec les \[Ré7]chaises d'un thé\[Sol7]âtre à ciel ouvert
+    \[Do]Et derrière eux, comme un cor\[Lam]tège en folie
+    Ils drainent \[Fa]tout le pays \[Sol7]les comé\[Do]diens
+  \endverse
+
+  \beginverse
+    Si vous voulez voir confondus les coquins
+    Dans une histoire un peu triste, où tout s'arrange à la fin
+    Si vous aimez voir trembler les amoureux
+    Vous lamenter sur Baptiste, ou rire avec les heureux
+  \endverse
+
+  \beginverse*
+    Poussez la toile et entrez donc vous installer
+    Sous les étoiles, le rideau va se lever
+    Quand les trois coups retentiront dans la nuit
+    Ils vont renaître à la vie, les comédiens
+  \endverse
+
+  \beginverse
+    Les comédiens ont démonté leurs tréteaux
+    Ils ont ôté leur estrade et plié les calicots
+    Ils laisseront au fond du cœur de chacun
+    Un peu de la sérénade et du bonheur d'Arlequin
+  \endverse
+
+  \beginverse*
+    Demain matin, quand le soleil va se lever
+    Ils seront loin, et nous croirons avoir rêvé
+    Mais pour l'instant, ils traversent dans la nuit
+    D'autres villages endormis, les comédiens
+  \endverse
+
+\endsong

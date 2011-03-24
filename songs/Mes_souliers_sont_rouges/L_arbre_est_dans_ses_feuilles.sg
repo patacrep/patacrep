@@ -1,0 +1,151 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{L'arbre dans ses feuilles}
+  [by=Mes souliers sont rouges,cov=proches,album=Proches]
+
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Ré]Et dans cet arbre
+    Y'a une petite branche \rep{2}
+  \endverse
+
+  \beginverse*
+    La branche qu'est dans l'arbre
+  \endverse
+
+  \beginchorus
+    L'arbre est dans ses \[Ré]feuilles Mari\[Sol]lène
+    L'arbre est dans ses \[La]feuilles Don \[Ré]Dé
+  \endchorus
+
+  \beginverse
+    Dans cette branche
+    Y'a un petit nœud \rep{2}
+  \endverse
+
+  \beginverse*
+    Le nœud qu'est dans la branche
+    La branche qu'est dans l'arbre
+  \endverse
+
+  \beginverse
+    Et dans ce nœud
+    Y'a un petit trou \rep{2}
+  \endverse
+
+  \beginverse*
+    Le trou qu'est dans l'nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+  \beginverse
+    Et dans ce trou
+    Y'a un petit nid \rep{2}
+  \endverse
+
+  \beginverse*
+    Le nid qu'est dans l'trou
+    Le trou qu'est dans l'nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+  \beginverse
+    Et dans ce nid,
+    Y'a un petit œuf \rep{2}
+  \endverse
+
+  \beginverse*
+    L'œuf qu'est dans l'nid
+    Le nid qu'est dans le trou
+    Le trou qu'est dans le nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+  \beginverse
+    Et dans cet œuf
+    Y'a un oiseau \rep{2}
+  \endverse
+
+  \beginverse*
+    L'oiseau qu'est dans l'œuf
+    L'œuf qu'est dans le nid
+    Le nid qu'est dans le trou
+    Le trou qu'est dans le nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+  \beginverse
+    Et dans l'oiseau
+    Y'a un petit cœur \rep{2}
+  \endverse
+
+  \beginverse*
+    Le cœur qu'est dans l'oiseau
+    L'oiseau qu'est dans l'œuf
+    L'œuf qu'est dans l'nid
+    Le nid qu'est dans l'trou
+    Le trou qu'est dans l'nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+  \beginverse
+    Et dans ce cœur
+    Y'a une petite bague \rep{2}
+  \endverse
+
+  \beginverse*
+    La bague qu'est dans l'cœur
+    Le cœur qu'est dans l'oiseau
+    L'oiseau qu'est dans l'œuf
+    L'œuf qu'est dans l'nid
+    Le nid qu'est dans l'trou
+    Le trou qu'est dans l'nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+  \beginverse
+    Et dans cette bague
+    Y'a un petit mot \rep{2}
+  \endverse
+
+  \beginverse*
+    Le mot qu'est dans la bague
+    La bague qu'est dans l'cœur
+    Le cœur qu'est dans l'oiseau
+    L'oiseau qu'est dans l'œuf
+    L'œuf qu'est dans l'nid
+    Le nid qu'est dans l'trou
+    Le trou qu'est dans l'nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+  \beginverse
+    Et ce petit mot
+    S'appelle l'amour \rep{2}
+  \endverse
+
+  \beginverse*
+    L'amour qu'est dans l'mot
+    Le mot qu'est dans la bague
+    La bague qu'est dans l'cœur
+    Le cœur qu'est dans l'oiseau
+    L'oiseau qu'est dans l'œuf
+    L'œuf qu'est dans l'nid
+    Le nid qu'est dans l'trou
+    Le trou qu'est dans l'nœud
+    Le nœud qu'est dans la branche
+    La branche dans l'arbre
+  \endverse
+
+\endsong

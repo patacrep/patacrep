@@ -1,0 +1,96 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'ennui et le jour}
+  [by=Les Ogres de Barback,cov=voyageur,album=Comment je suis devenu voyageur]
+
+  \cover
+  \gtab{Mim}{7:X02210}
+  \gtab{Ré}{5:X02220}
+  \gtab{Si}{7:022100}
+  \gtab{Do}{8:022100}
+
+  \beginverse
+    Ce \[Mim]matin, en sor\[Ré]tant d'chez moi
+    Y'a\[Si]vait un trou é\[Mim]norme
+    Une \[Mim]planète était \[Ré]tombée là
+    A\[Si]vec des gens dif\[Mim]formes
+    Des petits \[Ré]bonshommes tout \[Mim]verts
+    Qui venaient \[Ré]envahir la \[Mim]Terre
+  \endverse
+
+  \beginchorus
+    Ah \[Mim]mais non, c'était \[Ré]rien
+    Qu'ma \[Do]vie de \[Si]tous les \[Mim]jours
+    Ah mais \[Mim]non, c'était \[Ré]rien
+    Qu'mon \[Si]ennui en plein \[Mim]jour
+  \endchorus
+
+  \beginverse
+    Fumant sa pipe sur le trottoir
+    Assis au coin d'une rue
+    Entre ses deux mains, une guitare
+    Chantait un moustachu
+    {\og}J'm'appelle Georges et bon sang d'bois
+    Qui veut bien jouer avec moi ?{\fg}
+  \endverse
+
+  \beginverse
+    Et provoquant ma destinée
+    Dans une ruelle déserte
+    Allongée, une jolie poupée
+    Paupières fermées, bouche ouverte
+    C'était la Belle au Bois Dormant
+    Qui voulait s'taper son amant
+  \endverse
+
+  \beginverse
+    Au plein cœur de l'après-midi
+    J'ai croisé Spiderman
+    Il m'a dit : {\og}Viens, on a quelques soucis
+    Faudrait aider Batman
+    Le Joker est plus tout seul
+    Il va lui en mettre plein la gueule !{\fg}
+  \endverse
+
+  \beginverse
+    Impressionné par le décor
+    Je n'en crois pas mes yeux
+    Devant moi, ce sont les îles Comores
+    Sous un soleil radieux
+    C'est Paris qui s'fait du bien
+    Les pieds dans l'océan Indien
+  \endverse
+
+  \beginverse
+    Traînant Boulevard des Capucines
+    Rêveur et tête en l'air
+    Intrigué je cherche l'origine
+    De cette foule en colère
+    Je lève les yeux et j'aperçois \echo{wow}
+    Les Ogres {\og}complet{\fg} à l'Olympia
+  \endverse
+
+  \beginverse
+    Et \[Fa#m]en attaquant \[Do#]la soirée
+    Fat\[Do#]igué, un peu \[Fa#]las
+    Au \[Fa#]loin, j'entends voler \[Do#]les pavés
+    Qui \[Do#]brisent enfin la \[Fa#]glace
+  \endverse
+
+  \beginverse*
+    Des gens dans la rue en colère
+    Main dans la main et qui espèrent
+    En criant d'une voix sensible
+    Qu'un autre monde est possible
+    Dans une manifestation
+    Et c'était la révolution
+  \endverse
+
+  \beginchorus
+    Ah mais non, ça fait rien
+    Nos vies de tous les jours
+    Ah mais non, ça fait rien
+    Notre ennui en plein jour
+  \endchorus
+
+\endsong

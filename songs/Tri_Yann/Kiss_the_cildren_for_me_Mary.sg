@@ -1,0 +1,33 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Kiss the children for me Mary}
+  [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Si&}{1:X02220}
+  \gtab{Fa}{1:022100}
+
+  \lilypond{Kiss_the_children}
+
+  \beginverse
+    Kiss the \[Do]children \[Si&]for me Ma\[Do]ry
+    Ne \[Do]les laisse \[Si&]pas lan\[Do]guir
+    Dis-leur com\[Do]bien je tra\[Si&]vaille pour \[Fa]eux
+    J'ai le \[Do]cœur bri\[Si&]sé de par\[Do]tir
+  \endverse
+
+  \beginverse
+    N'oublie pas ton ouvrage de la journée
+    Penserai fort à toi, Mary
+    À des milles de miles de toi
+  \endverse
+
+  \beginverse
+    Je construis des digues, des usines
+    Je transporte des montagnes
+    Serai près de vous en Novembre
+    Quand reviendrai de campagne
+  \endverse
+
+\endsong

@@ -1,10 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les p'tits chemins}
-  [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
+  [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
 
   \cover
-  \capo{1}
   \gtab{Do}{X32010}
   \gtab{Sol}{320003}
   \gtab{Lam}{X02210}
@@ -26,7 +25,7 @@
 
   \beginverse
     Sur ce p'tit ch'min tranquille, peinard
-    On traine des pieds quand y'en a marre
+    On traîne des pieds quand y'en a marre
     On s'dit qu'rien n'sera plus comme avant
     On s'laisse porter au gré du vent
     Suffit d'gommer ses p'tits soucis

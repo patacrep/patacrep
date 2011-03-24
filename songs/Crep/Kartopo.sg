@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Kartopo}
-  [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
+  [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin manchot]
 
   \cover
   \gtab{Lam}{X02210}
@@ -33,7 +33,7 @@
 
   \beginverse
     En effet, dans le cas très probable,
-    Où vous chercheriez désespérement
+    Où vous chercheriez désespérément
     À dessiner une variété non orientable
     Vous étiez bien embêtés, avant
   \endverse
@@ -41,7 +41,7 @@
 
   \beginverse*
     Aujourd'hui réjouissez-vous
-    Car nous comptons parmis nous
+    Car nous comptons parmi nous
     L'arme ultime faisant mordre la poussière
     À toutes ces configurations particulières
   \endverse

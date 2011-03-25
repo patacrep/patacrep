@@ -1,3 +1,4 @@
+\selectlanguage{french}
 \songcolumns{2}
 \beginsong{Youssef}
   [by=Mon côté punk,cov=mon-cote-punk,album=Mon côté punk]
@@ -16,7 +17,7 @@
   \endchorus
 
   \beginverse
-    ``Comment I love you ?
+    {\og}Comment I love you ?
     - Very good and you ?
     - I'm very happy d'vous voir,
     D'avoir ouvert la porte du bar
@@ -29,13 +30,13 @@
     - Vous êtes américain ?
     - Ou grec :
     Salade, tomates, oignons,
-    La sauce c'est vous qui choisissez !''
+    La sauce c'est vous qui choisissez !{\fg}
   \endverse
 
   \beginverse*
     Et quand je lui ai dit,
     Tu es le soleil de la plage \echo{en anglais}
-    ``Sun of the beach !''
+    {\og}Sun of the beach !{\fg}
     Elle m'a giflé !
     \echo{Elle doit pas bien parler l'anglais !}
     Mais avant de partir,

@@ -18,30 +18,30 @@
     - Ben dis donc t'as les moyens toi !
     - Eh eh, c'est vrai, ça va pas trop mal !
     - Mais c'est quoi Durandil ?
-    - Laisse-moi te parler de cette lame exceptionnelle.
+    - Laisse-moi te parler de cette lame exceptionnelle
     - Oh non, il va encore chanter !
     - C'est parti !{\fg}
   \endverse
 
   \beginverse
     Les \[Ré]épées Durandil sont forgées \[La]dans les mines par les \[Ré]nains \echo{c'est vrai}
-    Avec ça c'est facile de tuer un \[Sol]troll avec une seule \[Ré]main.
-    Pas \[Sol]besoin d'super \[La]entraînement, ni \[Sol]de niveau \[La]28.
-    Quand \[Ré]tu sors l'instrument c'est l'enne\[La]mi qui prend la \[Ré]fuite.
+    Avec ça c'est facile de tuer un \[Sol]troll avec une seule \[Ré]main
+    Pas \[Sol]besoin d'super \[La]entraînement, ni \[Sol]de niveau \[La]28
+    Quand \[Ré]tu sors l'instrument c'est l'enne\[La]mi qui prend la \[Ré]fuite
   \endverse
 
   \beginverse
     Avec ton épée Durandil quand tu parcours les chemins
     Tu massacres sans peine les brigands et les gobelins
     Les rats géants, les ogres mutants, les zombies et les liches
-    Tu les découpes en tranches comme si c'étaient des parts de quiche.
+    Tu les découpes en tranches comme si c'étaient des parts de quiche
   \endverse
 
   \beginverse
     Les épées Durandil, les épées Durandil
-    Quand tu la sors dans un donjon au moins t'as pas l'air débile.
-    C'est l'arme des bourrins, qui savent être subtils.
-    Ne partez pas à l'aventure sans votre épée Durandil.
+    Quand tu la sors dans un donjon au moins t'as pas l'air débile
+    C'est l'arme des bourrins, qui savent être subtils
+    Ne partez pas à l'aventure sans votre épée Durandil
   \endverse
 
   \image{naheulbeuk06}{4}
@@ -49,5 +49,5 @@
 \endsong
 
 \beginscripture{Encyclopédie Naheulbeuk}
-Quoi de mieux qu'une épée Durandil ? Ben \dots deux épées Durandil.
+Quoi de mieux qu'une épée Durandil ? Ben \dots deux épées Durandil
 \endscripture

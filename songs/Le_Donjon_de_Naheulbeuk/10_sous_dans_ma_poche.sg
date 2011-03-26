@@ -14,7 +14,7 @@
   \lilypond{10_sous_dans_ma_poche-1}
 
   \beginverse
-    J'ai \[Lam]{10 sous} dans ma \[Sol]poche,
+    J'ai \[Lam]{10 sous} dans ma \[Sol]poche
     J'ai \[Do]aucun ar\[Sol]gent
     \rep{4}
   \endverse
@@ -24,7 +24,7 @@
     Et tou\[Mim]jours gaiement
     \[Fa]Y'a bien des gens
     Dans \[Sol]mon village
-    Qui n'en \[Do]ont \[Mi7]pas \[Lam]tant.
+    Qui n'en \[Do]ont \[Mi7]pas \[Lam]tant
     \rep{2}
   \endchorus
 
@@ -45,7 +45,7 @@
   \endverse
 
   \beginverse
-    J'ai pas d'sous dans ma poche,
+    J'ai pas d'sous dans ma poche
     J'ai aucun argent
   \endverse
 
@@ -54,7 +54,7 @@
     Et oui c'est emmerdant
     Car c'est le nain
     Dans mon village
-    Qui a tout l'argent.
+    Qui a tout l'argent
   \endchorus
 
   \lilypond{10_sous_dans_ma_poche-2}

@@ -1,0 +1,46 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Old Dan Tucker}
+  [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
+
+  \cover
+  \capo{3}
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Do]Old Dan Tucker was a \[Fa]fine old man
+    \[Sol]Washed his face with a \[Do]fryin' pan
+    \[Do]Combed his hair with a \[Fa]wagon wheel
+    And \[Sol]died with a toothache \[Do]in his heel
+  \endverse
+
+  \beginchorus
+    \[Do]Get out the way, \[Fa]Old Dan Tucker
+    \[Sol]{You're} too late to \[Do]get your supper
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Now Old Dan Tucker come to town
+    Ridin' a billy goat, leadin' a hound
+    The hound dog barked and billy goat jumped
+    And landed old Tucker on a stump
+  \endverse
+
+  \beginverse
+    Now Old Dan Tuckergot drunk and fell
+    In the fire and kicked up holy hell
+    A red-hot coal got in his shoe
+    And, oh my Lord, the ashes flew!
+  \endverse
+
+  \beginverse
+    Now Old Dan Tucker come to town
+    Swinging them ladies all round
+    First to the right and then to the left
+    Then to the gal that he loved best
+  \endverse
+
+\endsong

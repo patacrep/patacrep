@@ -8,6 +8,8 @@
   \gtab{Ré}{5:X02220}
   \gtab{Si}{7:022100}
   \gtab{Do}{8:022100}
+  \gtab{Fa#m}{9:X02210}
+  \gtab{Do#}{9:022100}
 
   \beginverse
     Ce \[Mim]matin, en sor\[Ré]tant chez moi
@@ -72,9 +74,9 @@
 
   \beginverse
     Et \[Fa#m]en attaquant \[Do#]la soirée
-    Fat\[Do#]igué, un peu \[Fa#]las
-    Au \[Fa#]loin, j'entends voler \[Do#]les pavés
-    Qui \[Do#]brisent enfin la \[Fa#]glace
+    Fat\[Do#]igué, un peu \[Fa#m]las
+    Au \[Fa#m]loin, j'entends voler \[Do#]les pavés
+    Qui \[Do#]brisent enfin la \[Fa#m]glace
   \endverse
 
   \beginverse*

@@ -7,6 +7,7 @@
 # remove trailing space and double space
 sed -i \
     -e 's/\s*$//g' \
+    -e 's/[,\.]$//g' \
     -e '/\s*%/! s/\([^ ]\)\s\+/\1 /g' \
     $@
 

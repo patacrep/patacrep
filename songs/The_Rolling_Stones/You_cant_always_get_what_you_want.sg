@@ -30,7 +30,6 @@
     And if we don't we're gonna blow a 50-amp fuse''
   \endverse
 
-  \musicnote{chorus}
 
   \beginverse
     I went down to the Chelsea drugstore
@@ -39,7 +38,7 @@
     And man, did he look pretty ill
   \endverse
 
-  \beginverse
+  \beginverse*
     We decided that we would have a soda
     My favorite flavor, cherry red
     I sung my song to Mr. Jimmy
@@ -47,7 +46,6 @@
     I said to him:
   \endverse
 
-  \musicnote{chorus}
 
   \beginverse
     I saw her today at the reception
@@ -56,6 +54,5 @@
     Well I could tell by her bloodstained hands
   \endverse
 
-  \musicnote{chorus \rep{2}}
 
 \endsong

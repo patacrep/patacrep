@@ -7,22 +7,22 @@
   \gtab{Mim}{7:X02210}
   \gtab{Ré}{5:X02220}
   \gtab{Si}{7:022100}
-  \gtab{Do}{8:022100}
+  \gtab{Do}{3:X02220}
   \gtab{Fa#m}{9:X02210}
   \gtab{Do#}{9:022100}
 
   \beginverse
     Ce \[Mim]matin, en sor\[Ré]tant chez moi
-    Y'a\[Si]vait un trou é\[Mim]norme
+    Y'a\[Do]vait un \[Ré]trou é\[Mim]norme
     Une \[Mim]planète était \[Ré]tombée là
-    A\[Si]vec des gens dif\[Mim]formes
-    Des petits \[Ré]bonshommes tout \[Mim]verts
-    Qui venaient \[Ré]envahir la \[Mim]Terre
+    Avec des gens dif\[Mim]formes
+    Des petits \[Si]bonshommes tout \[Mim]verts
+    Qui venaient \[Si]envahir la \[Mim]Terre
   \endverse
 
   \beginchorus
     Ah \[Mim]mais non, c'était \[Ré]rien
-    Qu'ma \[Do]vie de \[Si]tous les \[Mim]jours
+    Qu'ma \[Do]vie de \[Ré]tous les \[Mim]jours
     Ah mais \[Mim]non, c'était \[Ré]rien
     Qu'mon \[Si]ennui en plein \[Mim]jour
   \endchorus

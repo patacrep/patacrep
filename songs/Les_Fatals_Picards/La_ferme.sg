@@ -100,13 +100,14 @@
   \endverse
 
   \beginchorus
-    - Eh zi va c'est quoi ce bouffon, l'a le même prénom que moi eh !
-    - Mais on s'en fout, c'est une chanson !
-    - Et non, ch'ui pas d'accord et y'a embrouille eh gros naze !
-    - Gros naze euh tu te fous de mon espèce là c'est ça ?
-    - Ouais, elle est naze ta zic, naze-zic, nasique \dots
-    - Bon c'est bon, vos gueules les animaux maintenant hein !
-    - Bon, on en était où là ? Oui ! Et il y a \dots
+    {\og}Eh zi va c'est quoi ce bouffon, l'a le même prénom que moi eh !
+    --- Mais on s'en fout, c'est une chanson !
+    --- Et non, ch'ui pas d'accord et y'a embrouille eh gros naze !
+    --- Gros naze euh tu te fous de mon espèce là c'est ça ?
+    --- Ouais, elle est naze ta zic, naze-zic, nasique \dots
+    --- Bon c'est bon, vos gueules les animaux maintenant hein !
+    --- Bon, on en était où là ? Oui !{\fg}
+    Et il y a \dots
   \endchorus
 
   \beginverse
@@ -311,9 +312,9 @@
   \endverse
 
   \beginchorus
-    Mais c'est pas vrai ! Mais t'est encore là ? Mais t'es déjà passé ! On ne passe qu'une seule fois par chanson !
-    - Hein ? Quoi ? Moi j'suis déjà passé ? Qu'est-ce que tu m'embrouilles là ? Éric le porc-épic il est déjà passé ?
-    - Oui bon ça va, mais faut pas qu'on traîne parce qu'il faut qu'on aille voir aussi \dots
+    {\og}Mais c'est pas vrai ! Mais t'est encore là ? Mais t'es déjà passé ! On ne passe qu'une seule fois par chanson !
+    --- Hein ? Quoi ? Moi j'suis déjà passé ? Qu'est-ce que tu m'embrouilles là ? Éric le porc-épic il est déjà passé ?
+    --- Oui bon ça va, mais faut pas qu'on traîne parce qu'il faut qu'on aille voir aussi \dots{\fg}
   \endchorus
 
   \beginverse

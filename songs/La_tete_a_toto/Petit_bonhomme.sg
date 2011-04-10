@@ -1,0 +1,68 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Petit bonhomme}
+  [by=La Tête à Toto,cov=la-tete-a-toto,album=La Tête à Toto]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Mi}{022100}
+  \gtab{Rém}{XX0231}
+  \gtab{Mi7}{020100}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+
+  \beginverse
+    \[Lam]Petit bonhomme, ne reste pas collé
+    À ton \[Mi]cœur si tu veux \[Lam]vivre\[Mi]
+    \[Lam]Une histoire de vivre deux, trois bordels
+    \[Mi]Pour oublier la rou\[Lam]tine\[Mi]
+  \endverse
+
+  \beginverse*
+    Faut ra\[Mi]mer, faut ra\[Lam]mer
+    Si tu ne \[Rém]veux pas recu\[Lam]ler
+    Profi\[Mi7]ter, profi\[Lam]ter
+    Si tu \[Sol]veux un jour cri\[Lam]er
+  \endverse
+
+  \beginchorus
+    Que la \[Do]vie, c'est \[Sol]bon
+    Que la \[Do]vie, c'est \[Sol]long
+    Mais il y a \[Do]des gens \[Sol]qui se \[Do]plaignent\[Sol]
+  \endchorus
+
+  \beginchorus
+    Que la \[Do]vie, c'est \[Sol]bon
+    Que la \[Do]vie, c'est \[Sol]long
+    Mais il y a des \[Lam]gens \[Mi]qui tournent en \[Lam]rond
+  \endchorus
+
+  \beginverse
+    Petit bonhomme, gâche pas ta vie
+    Si tu veux faire des envieux
+    Sur tes aveux, sur ton passe monde
+    Faudra que tu voyages un peu
+  \endverse
+
+  \beginverse*
+    Faut ramer, faut ramer
+    Si tu veux pas reculer
+    Profiter, profiter
+    Si tu veux un jour crier
+  \endverse
+
+  \beginverse
+    Petit bonhomme, fais gaffe à toi
+    Y a les jaloux qui te guettent
+    Pour te sucrer ta joie
+    Ta rage de vivre avec le sourire
+  \endverse
+
+  \beginverse*
+    Faut lâcher, faut lâcher
+    Tous les gens sources de problèmes
+    Faut rêver, faut rêver
+    Avec les gens qui te comprennent
+  \endverse
+
+\endsong

@@ -39,11 +39,8 @@ else
   LILYFILE=$(LILY_SRC:%.ly=%.pdf)
 endif
 
-ifeq ($(shell grep ubuntu.tmpl $(SONGBOOKS)),)
-  LATEX=pdflatex $(LATEX_OPTIONS)
-else
-  LATEX=xelatex $(LATEX_OPTIONS)
-endif
+
+LATEX=pdflatex $(LATEX_OPTIONS)
 
 ############################################################
 ### Targets

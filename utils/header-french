@@ -1,4 +1,9 @@
 {
 "template" : "patacrep.tmpl",
 "subtitle" : "chanson francaise",
+"bookoptions" : [
+    "diagram",
+    "lilypond",
+    "pictures"
+  ],
 "songs" : [

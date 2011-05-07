@@ -44,6 +44,8 @@
     Le vent l'emportera
   \endverse
 
+  \lilypond{Le_vent_nous_portera}
+
   \beginverse
     Ce parfum de nos années mortes
     Ceux qui peuvent frapper à ta porte

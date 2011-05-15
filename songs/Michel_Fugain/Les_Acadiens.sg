@@ -1,0 +1,60 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les Acadiens}
+  [by=Michel Fugain,cov=live,album=live]
+
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+  \gtab{Ré7}{XX0212}
+  \gtab{Do7}{1:X2120X}
+  \gtab{Fa#}{2:022100}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
+  \gtab{La7}{X02020}
+
+  \beginchorus
+    \[Sol]Tous les Acadiens, toutes les Acadiennes
+    Vont sauter, vont danser sur le vio\[Ré]lon
+    \[Ré]Sont Américains et sont Américaines
+    La faute à qui donc ?
+    La faute à Napolé\[Sol]on
+  \endchorus
+
+  \beginverse
+    \[Sol]Y'a dans le sud de la Louisiane
+    Et dans un coin du Cana\[Ré]da
+    \[Ré7]Des tas de gars, des tas de femmes
+    Qui chantent dans la même langue que \[Sol]toi
+    \[Sol]Mais quand ils font de la musique
+    \[Do7]C'est celle de Rufus Thibodeaux
+    \[Sol]Ils rêvent encore de l'\[Fa#]A\[Fa]mé\[Mi]rique
+    \[La7]Qu'avait rêvée leur grand-papa
+    Qui pensait peu, qui \[Ré7]pensait pas
+  \endverse
+
+  \beginverse
+    Le coton c'est doux, c'est blanc, c'est chouette
+    Pour s'mettre de la crème sur les joues
+    Mais ceux qui en font la cueillette
+    Finissent la journée sur les genoux
+    Puis s'en vont faire de la musique
+    Comme celle de Rufus Thibodeaux
+    Pour oublier que l'Amérique
+    C'est plus celle de leur grand-papa
+    Ça a bien changé depuis c'temps-là
+  \endverse
+
+  \beginverse
+    Quand ils ont bossé six jours de suite
+    Pour une poignée d'dollars dévalués
+    Ils montent dans la vielle Oldsmobile
+    Et foncent dans la ville d'à côté
+    Pour écouter de la musique
+    Celle du grand Rufus Thibodeaux
+    Et pour repeupler l'Amérique
+    À la manière de grand-papa
+    Y'a plus qu'ça qui ne change pas
+  \endverse
+
+\endsong

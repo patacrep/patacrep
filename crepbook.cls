@@ -200,10 +200,10 @@
   \fi%
 }
 
-\newcommand{\image}[2]{%
+\newcommand{\image}[2][]{%
   \ifpictures%
   \begin{flushright}%
-    \includegraphics[width=#2cm]{#1}%
+    \includegraphics[#1]{#2}%
   \end{flushright}%
   \fi%
 }

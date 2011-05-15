@@ -1,0 +1,49 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Come as you are}
+  [by=Nirvana,cov=nevermind,album=Nevermind]
+
+  \cover
+  \gtab{Fa#m}{2:022000}
+  \gtab{Mi}{022100}
+  \gtab{La}{X02220}
+  \gtab{Si}{2:X02220}
+  \gtab{Ré}{XX0232}
+
+  \beginverse
+    \[Fa#m]Come as you \[Mi]are
+    As you \[Fa#m]were
+    As I \[Mi]want you to \[Fa#m]be
+    As a fri\[Mi]end
+    As a fri\[Fa#m]end
+    As an \[Mi]old ene\[Fa#m]my
+  \endverse
+
+  \beginverse
+    Take your time
+    Hurry up
+    The choice is yours
+    Don't be late
+    Take a rest
+    As a friend
+    As an old memory
+    \[La]A mem\[Fa#m]ory \rep{3}
+  \endverse
+
+  \beginverse
+    Come doused in mud
+    Soaked in bleach
+    As I want you to be
+    As a trend
+    As a friend
+    As an old memory
+    A memory \rep{3}
+  \endverse
+
+  \beginverse*
+    \[Si]And I \[Ré]swear
+    That I \[Si]don't have a gun\[Ré]
+    No, I \[Si]don't have a gun \[Ré] \rep{2}
+  \endverse
+
+\endsong

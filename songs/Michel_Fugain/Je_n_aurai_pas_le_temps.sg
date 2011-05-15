@@ -1,0 +1,64 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je n'aurai pas le temps}
+  [by=Michel Fugain,cov=live,album=live]
+
+  \cover
+  \gtab{Do}{320003}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{X02210}
+  \gtab{Si7}{X21202}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+
+  \beginverse
+    \[Do]Même \[Sol]en cou\[Do]rant
+    \[Do]Plus \[Sol]vite que le \[Do]vent
+    Plus vite que le \[Sol]temps
+    \[Mi]Même en vo\[Fa]lant
+  \endverse
+
+  \beginchorus
+    Je n'au\[Sol]rai pas le \[Do]temps
+    \[Sol]Pas le \[Do]temps
+  \endchorus
+
+  \beginverse
+    De visiter
+    Toute l'immensité
+    D'un si grand univers
+    Même en cent ans
+  \endverse
+
+  \beginchorus
+    Je n'aurai pas le temps
+    De tout faire
+  \endchorus
+
+  \beginverse*
+    \[Mi]{J'ou}\[Si7]vre tout grand mon \[Do#m]cœur
+    \[La]J'ai\[Mi]me de tout mes \[Fa#m]yeux
+    \[Ré]{C'est} trop \[Fa#m]peu
+    \[Sol]Pour tant de \[Ré]cœurs
+    \[La]Et tant de \[Ré]pleurs
+    Des mill\[Sol]iers de \[Ré]jours
+    \[La]{C'est} bien trop \[Ré]court \rep{2}
+  \endverse
+
+  \beginverse
+    Et pour aimer
+    Comme l'on doit aimer
+    Quand on aime vraiment
+    Même en cent ans
+  \endverse
+
+  \beginchorus
+    Je n'aurai pas le temps
+    Pas le temps
+  \endchorus
+
+
+\endsong

@@ -1,0 +1,12 @@
+{
+"template" : "patacrep.tmpl",
+"bookoptions" : [
+    "diagram",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"picture" : "Mousey_Band_by_Duffzilla",
+"picturecopyright" : "duffzilla @ deviantart.com",
+"subtitle" : "Tome 3",
+"songs" : [

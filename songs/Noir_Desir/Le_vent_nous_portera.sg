@@ -1,0 +1,63 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le vent nous portera}
+  [by=Noir Désir,cov=des-visages-des-figures,album=Des visages des figures]
+
+  \cover
+  \gtab{Mim}{7:X02210}
+  \gtab{Ré}{5:X02220}
+
+  \beginverse
+    \[Mim]Je n'ai pas peur de la route
+    Faudrait voir, faut qu'on y goûte
+    Des méandres au creux des reins
+    Et tout ira \[Ré]bien
+    Le vent l'emporte\[Mim]ra
+  \endverse
+
+  \beginverse*
+    Ton message à la grande ourse
+    Et la trajectoire de la course
+    À l'instantané de velours
+    Même s'il ne sert à rien
+    Le vent l'emportera
+  \endverse
+
+  \beginchorus
+    Tout disparaî\[Ré]tra mais \dots
+    Le vent nous porte\[Mim]ra
+  \endchorus
+
+  \beginverse
+    La caresse et la mitraille
+    Cette plaie qui nous tiraille
+    Le palais des autres jours
+    D'hier et demain
+    Le vent les portera
+  \endverse
+
+  \beginverse*
+    Génétique en bandoulière
+    Des chromosomes dans l'atmosphère
+    Des taxis pour les galaxies
+    Et mon tapis volant lui
+    Le vent l'emportera
+  \endverse
+
+  \beginverse
+    Ce parfum de nos années mortes
+    Ceux qui peuvent frapper à ta porte
+    Infinité de destins, on en pose un
+    Qu'est-ce qu'on en retient ?
+    Le vent l'emportera
+  \endverse
+
+  \beginverse*
+    Pendant que la marée monte
+    Et que chacun refait ses comptes
+    J'emmène au creux de mon ombre
+    Des poussières de toi
+    Le vent les portera
+  \endverse
+
+\endsong

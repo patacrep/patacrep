@@ -1,0 +1,141 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{C'est quand qu'on va où ?}
+  [by=Renaud,cov=a-la-belle-de-mai,album=À la belle de mai]
+
+  \cover
+  \capo{3}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Ré}{XX0232}
+  \gtab{Si}{2:X02220}
+
+  \beginverse
+    \[Sol]Je m'suis chopé 500 lignes :
+    {\og}Je n'dois pas parler en \[Do]classe{\fg}
+    \[Sol]Ras l'bol de la discipline
+    Y'en a marre, c'est di\[Lam]goulasse !
+  \endverse
+
+  \beginverse*
+    \[Ré]{C'est} même pas moi qui parlais
+    \[Sol]Moi j'répondais à Arthur
+    \[Do]Qui m'demandait, en anglais
+    \[Si]Comment s'écrit \emph{no future}
+  \endverse
+
+  \beginchorus
+    \[Mim]Si on est puni pour ça
+    Alors j'dis : {\og}Halte à \[Si]tout !
+    \[Do]Explique-moi, Papa
+    C'est quand qu'on va \[Sol]où ?{\fg} \[Ré]
+  \endchorus
+
+
+  \beginverse
+    C'est quand même un peu galère
+    D'aller chaque jour au chagrin
+    Quand t'as tellement d'gens sur Terre
+    Qui vont pointer chez \emph{fout-rien}
+  \endverse
+
+  \beginverse*
+    Avec les d'voirs à la maison
+    J'fais ma s'maine de soixante heures
+    Non seul'ment pour pas un rond
+    Mais en plus pour finir chômeur
+  \endverse
+
+
+  \beginverse
+    Veulent me gaver comme une oie
+    Avec des matières indigestes
+    J'aurai oublié tout ça
+    Quand j'aurai appris tout l'reste
+  \endverse
+
+  \beginverse*
+    Soulève un peu mon cartable
+    Il est lourd comme un cheval mort
+    Dix kilos d'indispensables
+    Théorèmes de Pythagore
+  \endverse
+
+
+  \beginchorus
+    Si j'dois m'avaler tout ça
+    Alors j'dis : {\og}Halte à tout !
+    Explique-moi, Papa
+    C'est quand qu'on va où ?{\fg}
+  \endchorus
+
+
+  \beginverse
+    L'essentiel à nous apprendre
+    C'est l'amour des livres qui fait
+    Qu'tu peux voyager d'ta chambre
+    Autour de l'humanité
+  \endverse
+
+  \beginverse*
+    C'est l'amour de ton prochain
+    Même si c'est un beau salaud
+    La haine ça n'apporte rien
+    Puis elle viendra bien assez tôt
+  \endverse
+
+
+  \beginchorus
+    Si on nous apprend pas ça
+    Alors j'dis : {\og}Halte à tout !
+    Explique-moi, Papa
+    C'est quand qu'on va où ?{\fg}
+  \endchorus
+
+
+  \beginverse
+    Quand j's'rais grande, j'veux être heureuse
+    Savoir dessiner un peu
+    Savoir m'servir d'une perceuse
+    Savoir allumer un feu
+  \endverse
+
+  \beginverse*
+    Jouer peut-être du violoncelle
+    Avoir une belle écriture
+    Pour écrire des mots rebelles
+    À faire tomber tous les murs
+  \endverse
+
+  \beginchorus
+    Si l'école permet pas ça
+    Alors j'dis : {\og}Halte à tout !
+    Explique-moi, Papa
+    C'est quand qu'on va où ?{\fg}
+  \endchorus
+
+
+  \beginverse
+    Tu dis que si les élections
+    Ça changeait vraiment la vie
+    Y'a un bout d'temps, mon colon
+    Qu'voter ça s'rait interdit
+  \endverse
+
+  \beginverse*
+    Ben si l'école ça rendait
+    Les hommes libres et égaux
+    L'gouvernement déciderait
+    Qu'c'est pas bon pour les marmots
+  \endverse
+
+
+  \beginchorus
+    Si tu penses un peu comme moi
+    Alors dit : {\og}Halte à tout
+    Et maint'nant, Papa
+    C'est quand qu'on va où ?{\fg}
+  \endchorus
+
+\endsong

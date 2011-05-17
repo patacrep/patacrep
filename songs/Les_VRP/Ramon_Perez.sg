@@ -1,0 +1,81 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ramón Pérez}
+  [by=Les VRP,cov=retire-le-nain,album=Retire le nain de tes poches !]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
+
+
+  \beginverse
+    Ce soir \[Lam]
+    Tu t'es couché à neuf heures \[Sol]
+    Dans ton p'tit cœur, c'est le bonheur \[Fa]
+    Les draps légers te caressent la raie des cheveux \[Mi]
+  \endverse
+
+  \beginverse*
+    L'immeuble avec toi s'est endormi \[Lam]
+    Seule au troisième, une lueur luit \[Sol]
+    Pauvre espagnol sans soleil \[Fa]
+    Ramón Pérez n'a pas sommeil \[Mi]
+  \endverse
+
+
+  \beginchorus
+    Ramón Pé\[Lam]rez \echo{Ramón Pérez}
+    Ramón Pé\[Sol]rez \echo{Ramón Pérez}
+    Ramón Pé\[Fa]rez ne peut pas dor\[Mi]mir
+    \rep{2}
+  \endchorus
+
+
+  \beginverse
+    Tu \[Lam]es blonde, il est brun
+    Ton corps est \[Sol]beau, il est vilain
+    Tu \[Fa]aimes les hommes à fric
+    Il gagne sa \[Mi]vie à la fabrique
+  \endverse
+
+  \beginverse*
+    Quand \[Lam]tu rentres le soir
+    Ramón est \[Sol]là dans l'escalier
+    Il \[Fa]est là pour te voir
+    Mais tu ne veux \[Mi]pas le regarder
+  \endverse
+
+
+  \beginverse
+    Un jour comme tous les jours
+    Tu l'as croisé dans l'escalier
+    Le regard plein de braises
+    Il t'as proposé une bonne bouffe
+  \endverse
+
+  \beginverse*
+    Chez lui les tentures rouges
+    Rivalisaient de saleté
+    Les madones dans ce bouge
+    Avaient des airs de prostituées
+  \endverse
+
+
+  \beginverse
+    Il t'a mise à genoux
+    T'a demandé d'faire le taureau
+    Il avait l'air d'un fou
+    Quand il a mis son sombrero
+  \endverse
+
+  \beginverse*
+    À coup de banderilles
+    Ton petit corps, il mutila
+    Que c'est triste pour une fille
+    De finir dans la paella
+  \endverse
+
+
+\endsong

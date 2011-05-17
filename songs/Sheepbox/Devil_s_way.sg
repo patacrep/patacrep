@@ -3,10 +3,10 @@
 \beginsong{Devil's Way}
   [by=Sheepbox]
 
-  % verse: 1.&.2.&.3.&.4.&.
-  %         D   D  UD..
+  % verse: 1.&.2.&.3.&.4.&
+  %         D   D  UD
   %         Mim    Lasus2
-  % chorus: 1.&.2.&.3.&.4.&.
+  % chorus: 1.&.2.&.3.&.4.&
   %          D   D D\dots
   %          Mim   Sol
 
@@ -80,10 +80,10 @@
   \endverse
 
   \beginverse*
-    Getting her drunk,
-    Using some drugs,
-    For a good fuck,
-    Remaining pride is scum.
+    Getting her drunk
+    Using some drugs
+    For a good fuck
+    Remaining pride is scum
   \endverse
 
   \musicnote{chorus}
@@ -92,7 +92,7 @@
     I had a job
     ' wasn't too rough
     ' screwed lids on pots
-    So people can open it up.
+    So people can open it up
   \endverse
 
   \beginverse*

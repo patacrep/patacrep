@@ -1,0 +1,110 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Nostalgeek}
+  [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
+
+  \cover
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{So7}{320001}
+  \gtab{Sol}{320003}
+  \gtab{Dom}{3:X02210}
+  \gtab{Si&}{1:X02220}
+  \gtab{Sol#}{4:022100}
+  \gtab{Fam}{1:022000}
+
+  \beginverse
+    Hello \[Do]Mario, vieux rigolo
+    Ça t'fait quoi ? 35 \[Fa]piges et toujours pu\[Do]ceau ?
+    Faut croire que d'\[Sol7]sauter pour des pièces
+    Personne n'est \[Do]dupe, ça fait un peu tache
+    Daisy et \[Sol7]Peach n'étaient pas en liesse
+    Malgré ta \[Do]super\[Sol7]be mous\[Do]tache
+  \endverse
+
+  \beginchorus
+    T'avais \[Fa]pourtant parcouru tous les \[Do]mondes
+    Appris \[Fa]la flûte, le tennis et le ping-\[Sol]pong
+    Éradi\[Do]qué toutes les \[Sol7]races de tor\[Do]tues
+    À croire que \[Sol7]tout était déjà fi\[Do]chu
+    É\[Fa]coute le conseil d'un a\[Do]mi
+    \[Sol7] Arrête les cham\[Do]pis
+  \endchorus
+
+  \beginverse
+    Mais v'la Zelda, comment ça va ?
+    On s'fait un bœuf à l'ocarina ?
+    Comment ça s'passe avec ton homme
+    Tu craques encore pour les costumes moulants ?
+    Toujours pas lassée des monologues ?
+    Ah vous êtes séparés maintenant
+  \endverse
+
+  \beginchorus
+    Il avait pourtant parcouru tous les mondes
+    Résolu tant d'énigmes d'outre-tombe
+    Navigué, chevauché, bien affûté son épée
+    Pêché les plus gros poissons et nettoyé son bouclier
+    Comment ça, Ganon est bien plus beau ?
+    Si je croise c'macho, j'lui fais la peau
+  \endchorus
+
+  \beginverse
+    Salut Yoshi, vieil ami
+    Encore sur ton île où il s'passe rien pardi
+    Tu n'connais toujours qu'un seul mot
+    Normal qu'tu passes pour un idiot
+    Si tu cherches un peu d'compagnie
+    Y'a Spyro qui s'ennuie aussi
+  \endverse
+
+  \beginchorus
+    Tu avais pourtant parcouru tous les niveaux
+    Transporté bébé Mario sur ton dos
+    Avalé, digéré, tous tes ennemis acharnés
+    Balancé tes œufs par six et affronté ta destinée
+    Qui aurait cru qu'un anthropophage
+    Finirait nourrice pour bébés pas sages
+  \endchorus
+
+  \beginverse
+    Sacrée Diou, ça roule Ryu ?
+    Tu galères encore avec ton Hadou ?
+    Laisse tomber les boules de feu
+    Regarde Ken comme il est heureux
+    Avec sa femme et son gamin
+    La baston ça ne mène à rien
+  \endverse
+
+  \beginchorus
+    T'avais pourtant gagné tous ces championnats
+    Affronté Chun-Li, Ibuki et Akuma
+    Maîtrisé tous ces coups inutiles
+    Dragon punch, une roulade et la toupie
+    Un p'tit conseil trouve-toi un boulot
+    Tu pourras pt'être recoudre ton kimo\[Dom]no
+  \endchorus
+
+  \beginverse
+    Mais heureuse\[Dom]ment que les consoles \[Si&]traversent le temps
+    \[Sol]Sans encombres, telles \[Dom]le \[Sol]Great \[Dom]Fox
+    \[Si&]Profitant des Ring of Death \[Sol#]{d'la} dernière X\[Sol]Box
+  \endverse
+
+  \beginverse*
+    \[Fam]Snake sort de ta boite et \[Dom]rejoins Goldorak
+    \[Si&]C'est l'heure d'un come-\[Sol]back
+    \[Fam]V'nez sauver notre gala\[Dom]xie
+    De \[Sol]ces imposteurs moi\[Do]sis
+  \endverse
+
+  \beginverse
+    Ciao Mario, c'était sympa
+    Arrête-toi là, nous on veut jouer à Bayonetta
+    Tu peux r'sortir un nouveau jeu
+    Tu n'en resteras pas moins vieux
+    Mais non j'déconne, mon vieil ami
+    Viens il m'reste encore des champis
+  \endverse
+
+\endsong

@@ -1,0 +1,36 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les filles de Redon}
+  [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
+
+  \capo{3}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
+  \gtab{Lam}{X02210}
+  \gtab{Ré}{XX0232}
+
+  \beginverse
+    \[Sol]Y'a core dix filles dans l'bourg de \[Mim]{R'don}
+    Qui tapent du \[Lam]pied, quand l'amour les \[Ré]prend
+  \endverse
+
+  \beginchorus
+    \[Ré]Tapent du pied, sautent en rond
+    Comme des grenouilles dans un ruis\[Sol]seau
+  \endchorus
+
+  \beginverse
+    Y'a core neuf filles \dots
+  \endverse
+
+  \beginverse
+    Y'a core une fille dans l'bourg de R'don
+    Qui prend son pied, quand l'amour la prend
+  \endverse
+
+  \beginchorus
+    Prend son pied, saute en rond
+    Comme des grenouilles dans un ruisseau
+  \endchorus
+
+\endsong

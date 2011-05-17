@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mélancolie}
-  [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
+  [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
 
   \cover
   \gtab{Lam}{X02210}
@@ -46,7 +46,7 @@
   \endverse
 
   \beginverse
-    Mais c'est pas vrai je crois qu'j'déraille
+    Mais c'est pas vrai, je crois qu'j'déraille
     J'm'étais juré d'plus r'commencer
     J'avais bâti un tas d'murailles
     Anéanties, quand j't'ai croisée

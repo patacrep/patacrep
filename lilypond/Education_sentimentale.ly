@@ -5,7 +5,7 @@
   \key c \major
   \time 3/4
   \relative c''{
-    e8 f e d c b a g a b c a d e f e 
+    e8 f e d c b a gis a b c a d e f e 
     <<
       {d4 r2. } \\
       {r8 g,8 f'  e d4 g,4}

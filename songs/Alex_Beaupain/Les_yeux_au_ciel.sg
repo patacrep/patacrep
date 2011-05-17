@@ -4,13 +4,14 @@
   [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
 
   \cover
+  \gtab{Lam}{X02210}
   \gtab{Misus4}{020200}
   \gtab{Sim7/5&}{X2323X}
   \gtab{Do6}{X32210}
   \gtab{Do7/6}{X32200}
   \gtab{Do7}{X32000}
 
-  \musicnote{intro : Lam Mi7sus4/Si Do7/6 Mi7sus4/Si \rep{2}}
+  \musicnote{intro : Lam Mi7sus4 Do7/6 Mi7sus4 \rep{2}}
 
   \beginverse
     \[Lam]Les yeux \[Mi7sus4]au \[Do6]ciel

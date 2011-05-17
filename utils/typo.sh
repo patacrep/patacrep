@@ -4,14 +4,21 @@
 #Date: 27/10/2010
 #Description: fix typographic mistakes, some depending on language
 
+FILES=songs/*/*.sg
+
+if [ $# -gt 0 ] ; then
+    FILES=$@
+fi
+
 # remove trailing space and double space
 sed -i \
     -e 's/\s*$//g' \
+    -e 's/[,\.]$//g' \
     -e '/\s*%/! s/\([^ ]\)\s\+/\1 /g' \
-    $@
+    $FILES
 
 # formating rules depending on language
-for song in $@; 
+for song in $FILES;
 do
     if grep -q "selectlanguage{english}" $song
     then

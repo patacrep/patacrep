@@ -1,0 +1,59 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Les projets}
+  [by=La Tête à Toto,cov=la-tete-a-toto,album=La Tête à Toto]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Mi}{022100}
+  \gtab{Fa}{1:022100}
+  \gtab{Sol}{3:022100}
+  \gtab{Do}{X32010}
+  \gtab{Mim}{022000}
+
+  \musicnote{intro : Lam Fa Sol \rep{2}}
+
+  \beginverse
+    \[Lam]Tous les soirs, assis sur mon arrosoir de whisky
+    Je con\[Mi]somme ainsi mon éner\[Lam]gie \[Fa Sol]
+  \endverse
+
+  \beginverse*
+    Tous les soirs, je regarde ma maison, comme un con
+    Je recherche Mamour et mes marmots
+  \endverse
+
+
+  \beginchorus
+    \[Do]Et, on se fout les \[Mim]pieds, dans des pro\[Do]jets, qui n'ont ja\[Mi]mais
+    Servi à \[Lam]rien d'autre que de dépen\[Sol]ser, le temps de nos passe-\[Lam]temps \[Fa Sol]
+    \rep{2}
+  \endchorus
+
+
+  \beginverse
+    Tous les jours, douze heures de taf. À y croire douze mille dollars
+    Tous les mois, en cadence de la victoire
+  \endverse
+
+  \beginverse*
+    À présent rien ne compte plus que l'argent de mes affaires
+    Au foyer, je suis un père oublié
+  \endverse
+
+  \beginverse
+    Le dimanche, on enclenche la bonne morale de la conscience
+    Cons vaincus, assis sur le banc d'une église
+  \endverse
+
+  \beginverse*
+    On écoute le son des cloches qui nous parlent de grands discours
+    Des discours, tout sauf de l'amour
+  \endverse
+
+  \beginchorus
+    Le temps de nos passe-temps ! Le temps de nos passe-temps !
+    \rep{2}
+  \endchorus
+
+\endsong

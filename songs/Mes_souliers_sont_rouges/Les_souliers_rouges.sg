@@ -11,8 +11,8 @@
   \lilypond{Les_souliers_rouges}
 
   \beginverse
-    Ah si j'a\[Sol]vais les beaux souliers que ma mi\[Ré7]gnonne, ma mi\[Sol]gnonne,
-    Si j'a\[Do]vais les beaux sou\[Sol]liers que ma mi\[Ré7]gnonne m'a don\[Sol]nés.
+    Ah si j'a\[Sol]vais les beaux souliers que ma mi\[Ré7]gnonne, ma mi\[Sol]gnonne
+    Si j'a\[Do]vais les beaux sou\[Sol]liers que ma mi\[Ré7]gnonne m'a don\[Sol]nés
     \rep{2}
     Les souliers du vieux Poirier ;
   \endverse
@@ -21,7 +21,7 @@
     Mes souliers \[Do]sont \[Sol]rouges
     Ma mi\[Ré7]gnonne, ma mi\[Sol]gnonne
     Mes sou\[Do]liers sont \[Sol]rouges
-    Ma mi\[Ré7]gnonne mes a\[Sol]mours.
+    Ma mi\[Ré7]gnonne mes a\[Sol]mours
     \rep{2}
   \endchorus
 

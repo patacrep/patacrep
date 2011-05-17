@@ -1,0 +1,66 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Il tape sur des bambous}
+  [by=Philippe Lavil,cov=il-tape-sur-des-bambous,album=Il tape sur des bambous]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Si}{2:X02220}
+  \gtab{Lam}{X02210}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Mi}{022100}
+
+  \beginverse
+    \[Mim]Il vit sa vie au bord de l'eau
+    Cocos et coquil\[Si]lages
+    Un dollar pour prendre en photo
+    Son plus beau tatou\[Mim]age
+  \endverse
+
+  \beginverse*
+    \[Lam]Il vit sa vie comme \[Si]un Vendredi
+    \[Lam]Robinson est par\[Si]ti
+    \[Lam]Tu l'verras toujours \[Si]bien dans sa peau
+    \[Lam]Quand il prend ce tem\[Si]po
+  \endverse
+
+
+  \beginchorus
+    \[Si]Il tape sur des bambous
+    Et c'est numéro \[Mi]un
+    Dans son île on est fou
+    Comme on est musi\[Fa#m]cien
+    Sur radio Jamaïque
+    Il a des copains
+    \[Si]Il fabrique sa musique
+    Et ça lui va \[Mi]bien
+  \endchorus
+
+  \beginchorus
+    Il tape sur des bambous
+    Il joue pas les requins
+    Tahiti, Touamotou
+    Équateur, méridien
+    Y'a des filles de partout
+    Qui lui veulent du bien
+    Lui la gloire il s'en fout
+    Et ça va ça \[Mim]vient
+  \endchorus
+
+
+ \beginverse
+    Il connaît le nom des bateaux
+    L'prénom du capitaine
+    Il te refile en stéréo
+    La chanson des sirènes
+  \endverse
+
+  \beginverse*
+    Il trafique un peu dans tous les ports
+    La marine est d'accord
+    Y'a aucun malaise dans sa combine
+    C'est une musique machine
+  \endverse
+
+
+\endsong

@@ -1,0 +1,65 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les tontons}
+  [by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
+
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Do}{3:X02220}
+  \gtab{Mi7}{5:X2120X}
+  \gtab{Fa}{1:022100}
+
+  \beginverse*
+    À force de parcourir les fo\[Lam]rêts
+    On se doutait \[Do]bien qu'il parlait aux che\[Mi7]vreuils
+    Mais les ci\[Lam]gognes
+    Ça on savait \[Do]pas\[Mi7]
+    Il va être pa\[Lam]pa
+  \endverse
+
+  \beginverse
+    \[Lam]Sourire aux \[Fa]lèvres
+    Et \[Do]cœur à Suza\[Mi7]nna
+    S'doutait \[Lam]pas qu'à force de cher\[Fa]cher son Améri\[Do]que
+    C'est la Hon\[Mi7]grie qu'est venue l'trou\[Lam]ver
+    Paris Mont\[Fa]martre, c'est \[Do]magique
+    On peut \[Mi7]même s'y éva\[Lam]der
+    Et en reve\[Fa]nir, en voya\[Do]ger\[Mi7]
+    Il va être pa\[Lam]pa
+  \endverse
+
+  \beginverse
+    \[Lam]Notre pote, \[Fa]{d'vient} roi
+    Du rè\[Do]gne d'un royaume qu'il découvrira \[Mi7]
+    Tant mieux la vie c'est fait pour \[Lam]ça
+    S'laisser surprendre par un cœur qui \[Fa]bat
+    Chercher les océans au \[Do]fond des yeux
+    Et des tré\[Mi7]sors à repêcher qui font des co\[Lam]ques
+    Un na\[Fa]vire, un na\[Do]vi\[Mi7]re
+    Un navire de pa\[Lam]pa
+  \endverse
+
+  \musicnote{Lam Fa Do Mi7 \rep{2}}
+
+  \beginverse
+    \[Lam]{Et puis} un jour, c'est lui qui apprendra
+    Comment \[Fa]{c'est} qu'on se sert du vent
+    Oiseau des \[Do]mers, poisson volant
+    Courant vers cette \[Mi7]île qui t'attend
+    Car y'a \[Lam]toujours
+    Une \[Fa]île qui nous at\[Do]tend
+    C'est ce qu'il pré\[Mi7]tend depuis tout le temps
+    N'est-ce pas pa\[Lam]{pa ?}
+  \endverse
+
+  \beginverse
+    \[Lam]Un petit vient de passer la frontière
+    En première \[Fa]page dans l'Univers
+    Et les doua\[Do]niers n'ont rien pu faire
+    Pour ce nouvel \[Mi7]anniversaire
+    De quoi s'fê\[Lam]ter cela en chanson
+    Encore une \[Fa]révolution\[Do Mi7]
+    On va ê\[Lam]tre ton\[Fa]ton
+  \endverse
+
+\endsong

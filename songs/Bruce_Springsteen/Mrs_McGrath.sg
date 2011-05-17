@@ -1,0 +1,77 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Mrs. McGrath}
+  [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
+
+  \cover
+  \gtab{Rém}{XX0231}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+
+  \lilypond{Mrs_McGrath}
+
+  \beginverse
+    ``Oh, \[Rém]Mrs. McGrath'', the sergeant said
+    ``Would you \[Fa]like to make a soldier \[Do]out of your son Ted
+    With a \[Do]scarlett coat and a big cocked hat
+    Oh, Mrs. McGrath, wouldn't \[Rém]you like that?''
+  \endverse
+
+  \beginchorus
+    With your \[Rém]too-ri-a, fol-di-diddle-da, 
+    \[Fa]Too-ri, oor-ri, \[Do]oor-ri-a
+    With your \[Do]too-ri-a, fol-di-diddle-da, 
+    Too-ri, oor-ri, \[Rém]oor-ri-a
+  \endchorus
+
+  \beginverse
+    Now, Mrs. McGrath lived on the shore
+    For the space of seven long years or more
+    She spied a ship coming into the bay
+    With her son from far away
+  \endverse
+
+  \beginverse*
+    ``Oh captain dear, where have you been
+    You've been sailing the Mediterranean
+    Have you news of my son Ted
+    Is he living or is he dead?''
+  \endverse
+
+  \beginverse
+    Up came Ted without any legs
+    And in their place, two wooden pegs,
+    She kissed him a dozen times or two
+    And said: ``My god, Ted is it you?''
+  \endverse
+
+  \beginverse*
+    ``Now, were you drunk or were you blind
+    When you left your two fine legs behind?
+    Or was it walking upon the sea
+    That wore your two fine legs away?''
+  \endverse
+
+  \beginverse
+    ``No, I wasn't drunk and I wasn't blind
+    When I left my two fine legs behind
+    A cannon ball on the fifth of May
+    Tore my two fine legs away''
+  \endverse
+
+  \beginverse*
+    ``Oh, Teddyboy'', the widow cried
+    ``Your two fine legs were your mother's pride
+    Stumps of a tree won't do at all
+    Why didn't you run from the cannon ball?''
+  \endverse
+
+  \beginverse
+    ``All foreign wars I do proclaim
+    Live on the blood and the mothers' pain
+    I'd rather have my son as he used to be
+    Than the king of America and his whole Navy''
+  \endverse
+
+\endsong
+

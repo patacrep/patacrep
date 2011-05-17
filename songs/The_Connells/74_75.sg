@@ -1,0 +1,54 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{'74 -- '75}
+  [by=The Connells,cov=ring,album=Ring]
+
+  \cover
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Fa] Got no \[Do]reason
+    For \[Fa]coming to me and the \[Do]rain running \[Fa]down
+    There's no \[Do]reason \[Lam]
+  \endverse
+
+  \beginverse*
+    \[Fa] And the \[Do]same voice
+    \[Fa]Coming to me like it's \[Do]all slowin' \[Fa]down
+    And be\[Do]lieve me \[Sol]
+  \endverse
+
+  \beginchorus
+    I was the \[Lam]one who let you \[Do]know
+    I was your \[Sol]sorry-ever-\[Fa]after
+    '\[Lam]74 -- '\[Do]75 \[Sol]
+  \endchorus
+
+  \beginverse
+    It's not easy
+    Nothing to say 'cause it's already said
+    It's never easy
+  \endverse
+
+  \beginverse*
+    When I look oh, in your eyes
+    Then I find that I'll do fine
+    When I look oh, in your eyes then I do better
+  \endverse
+
+  \beginchorus
+    I was the one who let you know
+    I was your sorry-ever-after
+    '74 -- '75
+  \endchorus
+
+  \beginchorus
+    Giving me more and I'll defy
+    'Cause you're really only after
+    '74 -- '75
+  \endchorus
+
+\endsong

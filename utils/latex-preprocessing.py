@@ -17,7 +17,10 @@ word_dic = {
 "noeud": "nœud",
 "oeil": "œil",
 "voeu": "vœu",
+"oeuf": "œuf",
 "oe{}": "œ",
+##: Contractions
+"ptit": "p'tit",
 ##: Punctuation
 "’": "'",
 "Ca ": "Ça ",

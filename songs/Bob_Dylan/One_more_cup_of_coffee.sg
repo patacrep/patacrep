@@ -1,0 +1,41 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{One more cup of coffee}
+  [by=Bob Dylan,cov=desire,album=Desire]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
+
+  \lilypond{One_more_cup_of_coffee}
+
+  \beginverse
+    \[Lam]Your breath is sweet, your eyes are like \[Sol]two jewels in the sky
+    \[Fa]Your back is straight your hair is smooth on the \[Mi]pillow where you lie
+    \[Lam]But I don't sense affection \[Sol]no gratitude or love
+    \[Fa]Your loyalty is not me but \[Mi]to the stars above
+  \endverse
+
+  \beginchorus
+    \[Fa]One more cup of coffee for the \[Mi]road
+    \[Fa]One more cup of coffee for I \[Mi]go
+    To the valley be\[Lam]low \[Sol Fa Mi]
+  \endchorus
+
+  \beginverse
+    Your daddy he's an outlaw and a wanderer by trade
+    He'll teach you how to pick an choose and how to throw the blade
+    And he oversees his kingdom so no stranger does intrude
+    His voice it trembles as he calls out for an other plate of food
+  \endverse
+
+  \beginverse
+    Your sister sees the future like your momma and yourself
+    You've never learned to read or write there's no books upon your shelf
+    And your pleasure know no limits your voice is like a meadow larks
+    But your heart is like an ocean mysterious and dark
+  \endverse
+
+\endsong

@@ -8,6 +8,8 @@
   \gtab{Fa}{1:022100}
   \gtab{Mim}{022000}
 
+  \lilypond{Le_laride_du_poulet}
+
   \beginchorus
     C'est le la\[Lam]ridé du poulet
     Dan\[Sol]sez, dan\[Lam]sez, si vous l'pouvez
@@ -59,7 +61,7 @@
 
   \beginverse*
     \[Lam]Poulet Poulet, \[Mim]Piou Piou \[Lam]Piou
-  \endchorus
+  \endverse
 
   \beginverse
     Si le lapin vous fait trembler

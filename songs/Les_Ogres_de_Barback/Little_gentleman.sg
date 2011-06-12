@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Little gentleman}
+  [by=Les Ogres de Barback,cov=irfan-le-heros,album=Irfan le héros]
+
+  \cover
+  \gtab{Si&}{1:X02220}
+  \gtab{Dom}{3:X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Solm}{3:022000}
+
+  \beginverse
+    \[Si&]{C'est} un little gentleman qui \[Dom]se promène \[Fa]sur tous les boule\[Si&]vards
+    De Paris ou de Lon\[Dom]don, de \[Fa]toutes les capi\[Si&]tales
+    Lassé d'sa super \[Dom]woman, \[Fa]il fuit dans le \[Si&]noir
+    À ses yeux il aban\[Dom]donne son do\[Fa]micile conju\[Si&]gal
+    \rep{2}
+  \endverse
+
+  \beginchorus
+    \[Solm]Dans un moment de \[Fa]poésie, il \[Solm]repense quand même \[Fa]à son lit
+    \[Solm]À l'enrobage des ma\[Fa]melles de sa femelle
+    \[Solm]À son visage \[Fa]complexé qui \[Solm]se tord quand elle \[Fa]est vexée
+    \[Solm]Et aux caresses, douces, \[Fa]douces caresses avec ses fesses
+  \endchorus
+
+  \beginverse
+    Pendant un jour ou deux dans un wagon, il vagabonde
+    Comme un vagabond, il fait des bonds quand il est réveillé
+    Par le contrôleur de pensées, de rêves et de gaieté
+    Qui vient montre à l'heure contrôler qu'son humeur n'est pas évaporée
+  \endverse
+
+  \beginverse*
+    Il en a marre c'est con, pas drôle, il se met à pleurer
+  \endverse
+
+  \beginverse
+    C'est un little gentleman qui vagabonde dans une bande dessinée
+    Avant il était un peu mythomane avec-la-première-blonde qu'il a rencontrée
+    Il s'est marié, l'a fait trois gosses et il les a regrettés
+  \endverse
+
+  \beginverse*
+    C'est un little gentleman qui vagabonde au cœur de mes pensées
+    Avant il était un peu mythomane avec-la-première-blonde qu'il a rencontrée
+    Il s'est marié, l'a fait trois gosses et il les a regrettés
+    Il arrête pas d'se prendre des bosses \dots
+  \endverse
+
+  \beginverse*
+    Et il est bien emmerdé mais \dots
+  \endverse
+
+\endsong

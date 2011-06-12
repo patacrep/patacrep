@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les couleurs}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
+
+  \cover
+  \gtab{Ré}{XX0232}
+  \gtab{Do}{X32010}
+  \gtab{Mim}{022000}
+  \gtab{Sol}{320003}
+  \gtab{La}{X02220}
+  \gtab{Fa}{1:022100}
+  \gtab{Si&}{1:X02220}
+  \gtab{La7}{X02020}
+
+  \beginverse
+    \[Ré]Un petit gar\[Do]çon est venu \[Ré]me voir tout à l'heure
+    Avec des \[Do]crayons et du pa\[Ré]pier
+    Il m'a dit je \[Do]veux dessiner \[Ré]un homme en couleur
+    \[Mim]Dis-moi comment le colo\[Ré]rier
+  \endverse
+
+  \beginverse
+    Je voudrais qu'il soit pareil que moi quand je serai grand
+    Libre, très fort et heureux
+    Faut-il le peindre en bleu, en noir ou en blanc
+    Pour qu'il soit comme je le veux ?
+  \endverse
+
+  \beginchorus
+    \[Ré]Si tu le \[Sol]peins en \[Ré]bleu, \[La]fils
+    \[Ré]Il ne te res\[Sol]semblera \[La]guère
+    \[Fa]Si tu le \[Si&]peins en \[Fa]rouge, \[Do]fils
+    \[Fa]On viendra lui \[Si&]voler sa ter\[Do]re
+    \[Sol]Si tu le \[Do]peins en \[Sol]jaune ,mon \[Ré]fils
+    \[Sol]Il aura \[Do]faim toute \[Sol]sa pauvre \[Ré]vie
+    \[Mim]Si tu le peins en \[La7]noir fils
+    \[Mim]Plus de liberté pour \[Ré]lui
+  \endchorus
+
+  \beginverse
+    Alors le petit garçon est rentré chez lui
+    Avec son beau cahier sous le bras
+    Il a essayé de dessiner toute la nuit
+    Mais il n'y arriva pas
+  \endverse
+
+  \beginverse
+    Si l'on veut trouver une morale à ma chanson
+    C'est assez facile en somme
+    Il suffit de dire à tous les petits garçons
+    Que la couleur ne fait pas l'homme
+  \endverse
+
+\endsong

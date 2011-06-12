@@ -1,0 +1,46 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Inch-Allah}
+  [by=Mon côté punk,cov=mon-cote-punk,album=Mon côté punk]
+
+  \cover
+  \gtab{Solm}{3:022000}
+  \gtab{Ré7}{3:X2120X}
+  \gtab{Dom}{3:X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Si&}{1:X02220}
+
+  \beginverse
+    \[Solm]Même si la route craque sous \[Ré7]nos pas
+    La nuit en un jour se re\[Solm]tira
+    Et tes mains \[Sol7]posées sur mes \[Dom]poignets
+    \[Dom]Et le vent souffle sur notre \[Solm]forêt
+    \[Solm]Je n'ai pas la peur de tout \[Ré7]ça
+    Je t'aime, Inch-Al\[Solm]lah
+  \endverse
+
+  \beginverse*
+    Une \[Fa]barque, remplie de \[Si&]voiles
+    Du \[Fa]vent de rêve, pour nos \[Si&]escales
+    Et la \[Ré7]mer, en témoi\[Solm]gnage
+    Et la \[Ré7]mer \dots
+  \endverse
+
+  \beginverse
+    Viens, on largue cette roulotte
+    Et on se prend la main
+    À nous deux, on peut voir jusqu'à demain
+    Et si tu veux c'est le soleil
+    Qui nous éclaire et la vie fait des merveilles
+    Je veux n'avoir besoin que de toi
+    Pour vivre, ce monde-là
+  \endverse
+
+  \beginverse*
+    Une barque, remplie de voiles
+    Du vent de rêve, pour nos voyages
+    Et l'amour, en témoignage
+    Et l'amour \dots
+  \endverse
+
+\endsong

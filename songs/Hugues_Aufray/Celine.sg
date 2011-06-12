@@ -1,0 +1,49 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Céline}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Rém}{XX0231}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Mi}{022100}
+
+  \beginverse
+    Dis-\[Lam]moi, Céline, les années ont passé
+    Pourquoi n'as-tu jamais pen\[Rém]sé à te marier ?
+    \[Sol] De toutes mes sœurs qui vi\[Do]vaient ici
+    Tu es \[Mi]la seule sans ma\[Lam]ri
+  \endverse
+
+  \beginchorus
+    Non, non, non, \[Rém]ne rougis pas
+    Non, \[Lam]ne rougis pas
+    \[Fa]Tu as, tu as \[Lam]toujours de beaux yeux
+    \[Rém]Ne rougis pas non, \[Lam]ne rougis pas
+    \[Sol]Tu aurais pu rendre \[Lam]un homme heureux
+  \endchorus
+
+  \beginverse
+    Dis-moi, Céline, toi qui es notre aînée
+    Toi qui fut notre mère, toi qui l'as remplacée
+    N'as-tu vécu pour nous autrefois
+    Que sans jamais penser à toi ?
+  \endverse
+
+  \beginverse
+    Dis-moi, Céline, qu'est-il donc devenu
+    Ce gentil fiancé qu'on n'a jamais revu ?
+    Est-ce pour ne pas nous abandonner
+    Que tu l'as laissé s'en aller ?
+  \endverse
+
+  \beginverse
+    Dis-moi, Céline, ta vie n'est pas perdue
+    Nous sommes les enfants que tu n'as jamais eus
+    Il y a longtemps que je le savais
+    Et je ne l'oublierai jamais
+  \endverse
+
+\endsong

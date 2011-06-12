@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Almarita}
+  [by=La Rue Kétanou,cov=y-a-des-cigales-dans-la-fourmiliere,album=Y'a des cigales dans la fourmilière]
+
+  \cover
+  \gtab{Si&m}{6:022000}
+  \gtab{Mi&}{6:X02220}
+  \gtab{Fam}{8:X02210}
+  \gtab{La&}{4:022100}
+
+  \beginverse
+    Elles sont peut-être les \[Si&]folles de Ne\[Mi&]vers ou de Sé\[Fam]ville
+    \[Fam]Des bracelets qui faran\[Si&]dolent, des boucles d'\[Mi&]oreilles qui sour\[Fam]ient
+    \[Fam]À une robe de gi\[Si&]tane, une gi\[Mi&]tane que l'on ren\[Fam]contre
+    \[Fam]Sur une scène à maca\[Si&m]dam, une his\[Mi&]toire que l'on ra\[La&]conte
+    \[Si&m]La musique, c'est elle et la \[Mi&]fête fait son en\[Fam]trée
+  \endverse
+
+  \beginchorus
+    \[Fam]Almarita \[Si&m]danse, chante \[Mi&]pour les gi\[Fam]tans
+    Et que ton cœur \[Si&m]vole au vent, ton \[Mi&]âme en cara\[Fam]vane
+    \[Fam]Almarita \[Si&m]danse, chante \[Mi&]pour les gi\[Fam]tans
+    Et que ton cœur \[Si&m]vole au vent, ton \[Mi&]âme en cara\[La&]vane
+  \endchorus
+
+  \beginverse
+    Elles chantent pour tous les printemps
+    Tant de vie et ces gros temps
+    Mais elles ne peuvent y rester
+    L'âme gitane ne fait que passer
+    Elles se suicident cent fois par jour
+    Pour dire : {\og}On n'brade pas l'Algérie ou bien l'amour
+    Ces choses-là ne repoussent pas{\fg}
+    La musique, c'est elle et la fête fait son entrée
+  \endverse
+
+  \beginverse
+    Elles portent des marques du voyage
+    Et savent très bien nous y faire croire
+    Rien qu'à les regarder danser
+    Cherche pas à comprendre, t'as qu'à y aller
+    Ni femme de marin, ni putain
+    Je sais qu'elles repartiront
+    Des joies de gens dans une main
+    Et une valise pleine de chansons
+    Oh la musique, c'est elle et la fête fait son entrée
+  \endverse
+
+  \beginverse
+    Il y'en a qui travaillent comme des fous
+    Pour se payer des clous
+    À clouer sur leur feuilles de vie
+    Mais la mort est sans bagages
+    Moi de tous cela, je ne veux rien
+    Les poches vides et le cœur plein d'amour
+    Qu'une gitane m'a laissés
+    La musique, c'est elle et la fête fait son entrée
+  \endverse
+
+\endsong

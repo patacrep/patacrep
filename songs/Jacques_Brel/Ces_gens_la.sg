@@ -84,8 +84,8 @@
   \endverse
 
   \beginverse*
-    Et ça fait des grands chloups
-    Et ça fait des grands chloups
+    Et ça fait des grands \emph{chloups}
+    Et ça fait des grands \emph{chloups}
     Et puis y'a la toute vieille
     Qui en finit pas de vibrer
     Et qu'on attend qu'elle crève

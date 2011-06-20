@@ -1,0 +1,63 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{L'autre finistère}
+  [by=Les Innocents,cov=fous-a-lier,album=Fous à lier]
+
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Fa}{XX0232}
+  \gtab{Mim}{022000}
+  \gtab{Si7}{X21202}
+  \gtab{La}{X02220}
+  \gtab{Do}{X32010}
+
+  \beginverse
+    Com\[Sol]prendrais-tu ma belle qu'un jour, fatigué
+    J'aille me \[Fa]briser la voix, une dernière fois
+    À cent \[Mim]vingt décibels contre un grand châtaigner
+    \[Fa]{D'amour} pour \[Sol]toi
+  \endverse
+
+  \beginverse*
+    Trouverais-tu cruel que le doigt sur la bouche
+    Je t'emmène, hors des villes en un fort, une presqu'île
+    Oublier nos duels nos escarmouches
+    Nos peurs imbéciles
+  \endverse
+
+  \beginverse*
+    On irait y attendre la fin des combats
+    Jeter aux vers, aux vautours, tous nos plus beaux discours
+    Ces mots qu'on rêvait d'entendre et qui n'existent pas
+    Y \[Fa]devenir \[Sol]sourd \echo{\[La]ouh \[Do]ouh}
+  \endverse
+
+  \beginchorus
+    \[Fa]Il est un estuaire à nos \[Mim]fleuves de soupirs
+    Où l'eau \[Si7]mêle nos mystères et nos \[Sol]belles différences
+    J'y ap\[Fa]prendrais à me taire et tes \[Mim]larmes retenir
+    Dans cet \[Si7]autre finistère aux longues \[Sol]plages de silence
+  \endchorus
+
+  \beginverse
+    Bien sûr, on se figure que le monde est mal fait
+    Que les jours nous abiment comme de la toile de Nîmes
+    Qu'entre nous, il y a des murs qui jamais ne fissurent
+    Que même l'air nous opprime
+  \endverse
+
+  \beginverse*
+    Et puis on s'imagine des choses et des choses
+    Que nos liens, c'est l'argile, des promesses faciles
+    Sans voir que sous la patine du temps, il y a des roses
+    Des jardins fertiles \echo{ouh ouh}
+  \endverse
+
+  \beginverse
+    Car là-haut dans le ciel si un jour je m'en vais
+    Ce que je voudrais de nous emporter avant tout
+    C'est le sucre, et le miel et le peu que l'on sait
+    N'être qu'à nous \echo{ouh ouh}
+  \endverse
+
+\endsong

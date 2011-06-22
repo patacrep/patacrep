@@ -1,34 +1,38 @@
 \selectlanguage{spanish}
 \songcolumns{2}
-\beginsong{A Galopar}
-  [by=Paco Ibanez]
+\beginsong{A galopar}
+  [by=Paco Ib\'a\~nez]
+
+  \gtab{Lam}{X02210}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi}{022100}
 
   \beginverse
-    \[Lam]Las tierras las tierras las tierras de espana
-    Las grandes las solas desiertas llanuras
+    \[Lam]Las tierras, las tierras, las tierras de España
+    Las grandes, las solas desiertas llanuras
     Ga\[Fa]lopa caballo, cuatralbo
     Jinete del pueblo, que la tierra es \[Mi]tuya
   \endverse
 
   \beginchorus
-    A Galo\[Fa]par A Galopar
+    A galo\[Fa]par, a galopar
     Hasta enter\[Mim]rarlos en el mar
+    \rep{2}
   \endchorus
 
 
   \beginverse
-    A corazon suenan suenan resuenan
-    Las tierras de espana en la herraduras
+    A corazón suenan, suenan, resuenan
+    Las tierras de España en las herraduras
     Galopa caballo cuatralbo
     Jinete del pueblo, caballo de espuma
   \endverse
 
   \beginverse
-    Nadie nadie nadie que enfrente no hay nadie
+    Nadie, nadie, nadie que enfrente no hay nadie
     Que es nadie la muerte si va en tu montura
     Galopa caballo cuatralbo
-    Jinete del pueblo,
-    que la tierra es tuya
+    Jinete del pueblo, que la tierra es tuya
   \endverse
 
 \endsong

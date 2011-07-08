@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{À bout d'souffle}
+  [by=Les Hurlements d'Léo,cov=la-belle-affaire,album=La belle affaire]
+
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Mi7}{5:X2120X}
+  \gtab{Rém}{5:X02210}
+  \gtab{Do}{5:X02210}
+
+  \beginverse
+    \[Lam]Les yeux ébouriffés de com\[Mi7]plexes
+    J'me rafis\[Lam]tole tant bien que \[Mi7]mal
+    Une al\[Lam]lure empruntée à un hé\[Mi7]ros de cinéma
+    Qui i\[Lam]gnore l'existence des cou\[Mi7]leurs
+  \endverse
+
+  \beginverse*
+    Un sourire aussi avenant qu'une porte de prison
+    Qui connait l'existence des voleurs
+    J'suis partout comme ailleurs, transparent et tout seul
+    Second rôle dans un film noir et blanc
+  \endverse
+
+  \beginchorus
+    Elles ont trop vé\[Rém]cu, entendu, tes le\[Lam]çons de politesse
+    Je les ou\[Mi7]blie, je regarde devant \[Lam]moi
+    Elles ont trop \[Rém]crues, superflues, tes le\[Lam]çons de tendresse
+    Tes ca\[Mi7]resses me laissent un goût de tris\[Do]tesse
+  \endchorus
+
+  \beginverse
+    Les yeux ébourriffés de détresse
+    Quand elle m'envoie me faire foutre tranquillement
+    En m'disant qu'j'suis plus drôle, qu'mes amis sont pénibles
+  \endverse
+
+  \beginverse*
+    Tu pré\[Do]fères sans aucun \[Rém]doute
+    La ver\[Mi7]sion édulcorée
+    De notre love s\[Lam]tory spaguet\[Rém]ti
+    Dans laquelle Ma\[Mi7]dame serait servie
+  \endverse
+
+  \beginverse*
+    Il va sans dire, j'n'ai pas su regarder devant moi
+    Il peut en rire celui qui s'accroche à ton bras
+    Il va sans dire, j'n'ai pas su regarder devant moi
+    Il peut en rire celui qui s'accroche à ton bas
+  \endverse
+
+
+  \beginchorus
+    Elles ont trop vécu, entendu, tes leçons de gentillesse
+    Je t'oublie, je te laisse derrière moi
+    Elles ont trop crues, superflues, tes belles leçons de fesse
+    Je n'y crois plus, je n't'aime pas, je te laisse
+  \endchorus
+
+  \beginverse
+    Les yeux éclaboussés de clichés
+    Elle déambule, soigne le mal par la racine
+    Elle passe l'éponge sur notre péloche de série B
+  \endverse
+
+  \beginverse*
+    Nos repas trop arrosés
+    Nos gueules de bois pas assumées
+    Nos histoires d'endimanchées
+    Nos rock'n'roll d'supermarchés
+  \endverse
+
+  \beginverse
+    La vie d'un acteur amateur
+    Et d'une actrice un peu ratée
+    Qui sont partout comme ailleurs
+    Transparents et tout seuls
+    À bout d'souffle dans un film noir et blanc
+  \endverse
+
+\endsong

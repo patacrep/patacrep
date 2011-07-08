@@ -1,0 +1,106 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La valse à mille temps}
+  [by=Jacques Brel,cov=valse,album=La valse à mille temps]
+
+  \cover
+  \gtab{Si}{2:X02220}
+  \gtab{Fa#7}{2:022100}
+
+  \beginverse
+    Au pre\[Si]mier temps de la valse
+    Toute seule, tu souris dé\[Fa#7]jà
+    Au pre\[Fa#7]mier temps de la valse
+    Je suis seul mais je t'aper\[Si]çois
+  \endverse
+
+  \beginverse*
+    Et Paris qui bat la mesure
+    Paris qui mesure notre émoi
+    Et Paris qui bat la mesure
+    Me murmure, murmure tout bas
+  \endverse
+
+
+  \beginchorus
+    Une valse à trois \[Si]temps
+    Qui s'offre encore le temps
+    Qui s'offre encore le temps
+    De s'offrir des détours
+
+    Du côté de l'a\[Fa#7]mour
+    Comme c'est charmant
+    Une valse à quatre temps
+    C'est beaucoup moins dansant
+
+    C'est beaucoup moins dansant
+    Mais tout aussi charmant
+    Qu'une valse à trois \[Si]temps
+    Une valse à quatre temps
+  \endchorus
+
+  \beginchorus
+    Une valse à vingt ans
+    C'est beaucoup plus troublant
+    C'est beaucoup plus troublant
+    Mais beaucoup plus charmant
+
+    Qu'une valse à trois temps
+    Une valse à vingt ans
+    Une valse à cent temps
+    Une valse à cent temps
+
+    Une valse ça s'entend
+    À chaque carrefour
+    Dans Paris que l'amour
+    Rafraîchit au printemps
+  \endchorus
+
+  \beginchorus
+    Une valse à mille temps
+    Une valse à mille temps
+    Une valse a mis l'temps
+    De patienter vingt ans
+
+    Pour que tu aies vingt ans
+    Et pour que j'aie vingt ans
+    Une valse à mille temps
+    Une valse à mille temps
+
+    Une valse à mille temps
+    Offre seule aux amants
+    Trois cent trente-trois fois le temps
+    De bâtir un roman
+  \endchorus
+
+
+  \beginverse
+    Au deuxième temps de la valse
+    On est deux, tu es dans mes bras
+    Au deuxième temps de la valse
+    Nous comptons tous deux : {\og}Une, deux, trois{\fg}
+  \endverse
+
+  \beginverse*
+    Et Paris qui bat la mesure
+    Paris qui mesure notre émoi
+    Et Paris qui bat la mesure
+    Nous fredonne déjà
+  \endverse
+
+
+  \beginverse
+    Au troisième temps de la valse
+    Nous valsons enfin, tous les trois
+    Au troisième temps de la valse
+    Il y a toi, y'a l'amour et y'a moi
+  \endverse
+
+  \beginverse*
+    Et Paris qui bat la mesure
+    Paris qui mesure notre émoi
+    Et Paris qui bat la mesure
+    Laisse enfin éclater sa joie
+  \endverse
+
+\endsong

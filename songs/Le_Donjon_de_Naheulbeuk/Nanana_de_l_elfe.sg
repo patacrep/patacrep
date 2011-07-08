@@ -1,0 +1,38 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Nanana de l'elfe}
+  [by=Le Donjon de Naheulbeuk]
+
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Sol}{320003}
+  \gtab{Sim}{2:X02210}
+
+  \beginchorus
+    \[Ré]Moi c'que j'aime dans \[La]les ba\[Ré]lades
+    C'est qu'on \[Sol]peut se bala\[Ré]der
+    \[Ré]On peut cueillir \[La]des sa\[Ré]lades
+    Et a\[Sol]près on peut les man\[Ré]ger
+  \endchorus
+
+  \beginverse
+    Sur le \[Sol]bord de la riv\[Ré]ière
+    On peut \[Sol]aller se prom'\[Ré]ner
+    Mais c'est \[Sol]un p'tit peu ga\[Ré]lère
+    Si on \[Sim]glisse, on peut s'no\[Ré]yer
+  \endverse
+
+  \beginverse
+    Les écureuils et les lapins
+    Les poneys et les cerfs
+    Font la ronde autour des sapins
+    Parce que la forêt, c'est super !
+  \endverse
+
+  \beginchorus
+    Nananaaaa nanananaaaa
+    Nanaaaa nanananaaaaa
+    \rep{2}
+  \endchorus
+
+\endsong

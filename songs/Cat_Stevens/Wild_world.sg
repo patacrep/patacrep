@@ -1,0 +1,50 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Wild World}
+  [by=Cat Stevens,cov=tea-for-the-tillerman,album=Tea for the tillerman]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Ré7}{XX0212}
+  \gtab{Sol}{320003}
+  \gtab{Do}{X32010}
+  \gtab{Fa}{1:022100}
+  \gtab{Rém}{XX0231}
+  \gtab{Mi}{XX0231}
+  \gtab{Sol7}{320001}
+  \gtab{Ré}{XX0232}
+
+  \beginverse
+    \[Lam]Now that I've \[Ré7]lost everything to \[Sol]you
+    \[Sol]You say you \[Do]wanna start something \[Fa]new
+    \[Fa]And it's \[Rém]breaking my heart you're \[Mi]leaving
+    \[Mi]Baby, I'm grievin'
+  \endverse
+
+  \beginverse*
+    But if you want to leave, take good care
+    Hope you have a lot of nice things to wear
+    But then a lot of nice things turn bad, out \[Sol7]there
+  \endverse
+
+  \beginchorus
+    \[Do]Oh \[Sol]baby, baby, it's a \[Lam]wild \[Fa]world
+    \[Sol]{It's} hard to get \[Fa]by, just upon a \[Do]smile
+    \[Do]Oh \[Sol]baby, baby, it's a \[Lam]wild \[Fa]world
+    \[Sol]{I'll} always remem\[Fa]ber you like a \[Do]child, girl \[Ré Mi]
+  \endchorus
+
+  \beginverse
+    You know I've seen a lot of what the world can do
+    And it's breaking my heart in two
+    Because I never want to see you sad, girl
+    Don't be a bad girl
+  \endverse
+
+  \beginverse*
+    But if you want to leave, take good care
+    Hope you make a lot of nice friends out there
+    But just remember there's a lot of bad, out there
+  \endverse
+
+\endsong

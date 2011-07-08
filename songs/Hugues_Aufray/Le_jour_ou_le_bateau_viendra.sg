@@ -1,0 +1,69 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le jour où le bateau viendra}
+  [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
+
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Sim}{2:X02210}
+  \gtab{Do}{X32010}
+  \gtab{Ré7}{XX0212}
+
+  \beginverse
+    Vous ver\[Sol]rez ce jour-\[Sim]là quand le \[Do]vent tombe\[Sol]ra
+    Quand la \[Sim]brise n'au\[Ré7]ra plus de \[Sol]voix
+    Un grand \[Sol]calme se fe\[Sim]ra comme a\[Do]vant un oura\[Sol]gan
+    Le jour où le \[Ré7]bateau vien\[Sol]dra
+  \endverse
+
+  \beginverse*
+    Et les \[Sim]vagues danseront a\[Do]vec les na\[Sol]vires
+    Et tout \[Sim]le sable s'\[Ré7]envole\[Sol]ra
+    Et vous \[Sim]entendrez l'océ\[Do]an chan\[Sol]ter
+    Le jour \[Sol]où le \[Do]bateau \[Ré7 Do]vien\[Sol]dra
+  \endverse
+
+
+  \beginverse
+    Les poissons seront fiers de nager sur la Terre
+    Et les oiseaux auront le sourire
+    Sur le sable, les rochers seront heureux croyez-moi
+    Le jour où le bateau viendra
+  \endverse
+
+  \beginverse*
+    Ce que l'on disait pour égarer les marins
+    Ne voudra plus rien dire, non plus rien
+    Et les grandes marées seront déchaînées
+    Le jour où le bateau viendra
+  \endverse
+
+  \beginverse
+    Vous entendrez ce jour-là, un cantique se lever
+    Par-dessus la grande voile déployée
+    Le soleil éclairera les visages sur le pont
+    Le jour où le bateau viendra
+  \endverse
+
+  \beginverse*
+    Le sable fera un tapis doré
+    Pour reposer nos pieds fatigués
+    Et tous les vieux marins s'écrieront enfin
+    Le jour où le bateau viendra
+  \endverse
+
+  \beginverse
+    Vous verrez ce jour-là au lever du soleil
+    Vos ennemis les yeux plein de sommeil
+    Ils se pinceront pour y croire, ils verront bien qu'il est là
+    Le jour où le bateau viendra
+  \endverse
+
+  \beginverse*
+    Ils tendront leur mains, ils seront soumis
+    Le géant Goliath le fut aussi
+    Et ils se noieront comme les Pharaons
+    Le jour où le bateau viendra
+  \endverse
+
+\endsong

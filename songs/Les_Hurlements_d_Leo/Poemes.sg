@@ -1,20 +1,20 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Poèmes}
-  [by=Les Hurlements d'L\'eo,cov=la-belle-affaire,album=La belle affaire]
+  [by=Les Hurlements d'Léo,cov=la-belle-affaire,album=La belle affaire]
 
 
   \cover
-  \gtab{Dom}{3:X02210}
-  \gtab{Fam}{1:022000}
-  \gtab{Sol}{3:022100}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Sol#}{4:022100}
 
 
   \beginverse
-    \[Dom]Elle m'appelle toutes les nuits
-    \[Fam]Pour me dire des poèmes
-    \[Sol]Même si c'est plutôt dangereux
-    \[Dom]Près de ma femme endormie
+    \[Do#m]Elle m'appelle toutes les nuits
+    \[Fa#m]Pour me dire des poèmes
+    \[Sol#]Même si c'est plutôt dangereux
+    \[Do#m]Près de ma femme endormie
   \endverse
 
   \beginverse*
@@ -60,12 +60,12 @@
   \endverse
 
   \beginverse*
-    Dans sa glace et le silence
+    Dans sa classe, c'est le silence
     Ma feuille tremble et mon cœur danse
     Les haut-parleurs m'aident à me taire
-    Un bon vin pour mes p'tits verres
+    Un bon vin pour mes p'tits vers
     C'est vrai, j'ai l'art et la manière
-    Je souffle mes verres, paf, à l'envers
+    Je siffle mes vers, paf, à l'envers
   \endverse
 
   \beginverse
@@ -76,9 +76,12 @@
 
   \beginverse*
     À l'envers ou à l'endroit
-    Recto-verso vice et versa
+    Recto-verso, vice et versa
     Encore un verre
     Et je me noie
+  \endverse
+
+  \beginverse*
     J'suis dans de beaux draps mais ils sont froids
   \endverse
 

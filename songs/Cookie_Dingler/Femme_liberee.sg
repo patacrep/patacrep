@@ -1,0 +1,49 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Femme libérée}
+  [by=Cookie Dingler,cov=femme-liberee,album=Femme libérée]
+
+  \cover
+  \capo{2}
+  \gtab{Mim}{022000}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+
+  \beginverse
+    \[Mim]Elle est a\[Do]bonnée \[Sol]à \emph{Marie-\[Ré]Claire}
+    \[Mim]Dans l'\emph{Nouvel \[Do]Obs}, elle ne lit \[Sol]que Brété\[Ré]cher
+    \emph{\[Mim]Le Monde} y'a \[Do]longtemps qu'elle \[Sol]fait plus sem\[Ré]blant
+    \[Mim]Elle achète \emph{Match} en \[Do]cachette, c'est \[Sol]bien plus mar\[Ré]rant
+  \endverse
+
+  \beginchorus
+    Ne la laisse \[Mim]pas tom\[Do]ber
+    Elle \[Sol]est si fra\[Ré]gile
+    Être une \[Mim]femme libé\[Do]rée
+    Tu sais, c'est \[Sol]pas si fa\[Ré]cile
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Au fond de son lit, un macho s'endort
+    Qui ne l'aimera pas plus loin que l'aurore
+    Mais elle s'en fout, elle s'éclate quand même
+    Et lui ronronne des tonnes de : {\og}Je t'aime{\fg}
+  \endverse
+
+  \beginverse
+    Sa première ride lui fait du souci
+    Le reflet du miroir pèse sur sa vie
+    Elle rentre son ventre à chaque fois qu'elle sort
+    Même dans \emph{Elle}, ils disent qu'il faut faire un effort
+  \endverse
+
+  \beginverse
+    Elle fume beaucoup, elle a des avis sur tout
+    Elle aime raconter qu'elle sait changer une roue
+    Elle avoue son âge, celui d'ses enfants
+    Et goûte même un p'tit joint de temps en temps
+  \endverse
+
+\endsong

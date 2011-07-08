@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Personne n'a l'prénom d'ma femme}
+  [by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{Lam}{5:022000}
+  \gtab{La}{5:022100}
+  \gtab{Sol}{3:022100}
+  \gtab{Do}{3:X02220}
+
+  \beginverse
+   Docteur, \[Rém]paraît qu'vous êtes docteur
+    Parce que ma\[Lam]lade, paraît que j'suis malade
+    J'ai le cœur \[Rém]qui a mal au cœur
+    Et vice et Ver\[Lam]sailles, regarde !
+  \endverse
+
+  \beginverse*
+    On dirait une hélice d'hélico
+    J'ai tous mes pieds qui touchent plus terre
+    --- Oh la la, y'a du boulot \dots
+    --- Comment s'appelle votre infirmière ?
+  \endverse
+
+  \beginchorus
+    J'ai trou\[La]vé l'prénom d'mon fils
+    J'ai trou\[Rém]vé l'prénom d'ma fille
+    Mais je \[Sol]rame, je rame, je rame
+    Pour trou\[Do]ver le prénom d'ma \[Rém]femme
+  \endchorus
+
+  \beginverse
+   Dire que d'Paris jusqu'à Panam
+    J'ai fouillé partout : walou
+    Personne n'a le prénom d'ma femme
+    Docteur, j'y comprends rien du tout
+  \endverse
+
+  \beginverse*
+    Si vous n'avez pas d'questions
+    C'est à moi qu'il faut les poser
+    Mais si vous voulez mon opinion
+    Ça j'peux aller vous la chercher
+  \endverse
+
+  \beginverse
+    J'ai même mené mon enquête
+    Ni vu, ni incognito
+    À propos d'une certaine Juliette
+    Paraît qu'elle a un balcon \echo{oh oh}
+  \endverse
+
+  \beginverse*
+    De quoi lui faire des fredonelles
+    Le problème, c'est qu'y a un problème
+    --- Ça, c'est logique mais lequel ?
+    --- Docteur, elle habite au quinzième !
+  \endverse
+
+
+  \beginverse
+    J'ai bien rencontré quelqu'un d'bien
+    Docteur, vous savez quoi docteur ?
+    J'ai failli lui d'mander sa main
+    Elle était belle comme une âme sœur
+  \endverse
+
+  \beginverse*
+    Elle avait trouvé l'prénom d'son fils
+    Elle avait trouvé l'prénom d'sa fille
+    --- Ce coup-ci c'est quoi l'problème ?
+    --- Docteur, c'étaient pas les mêmes !
+  \endverse
+
+  \beginverse*
+    {\og}Docteur ! Qu'est-ce que j'peux faire ?
+    --- Bah ! Cherchez son nom de famille{\fg}
+  \endverse
+
+\endsong

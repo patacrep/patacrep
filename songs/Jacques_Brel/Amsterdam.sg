@@ -1,0 +1,102 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Amsterdam}
+  [by=Jacques Brel,cov=amsterdam,album=Amsterdam]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Mim}{022000}
+  \gtab{Fa}{1:022100}
+  \gtab{Mi7}{020100}
+  \gtab{Do}{X32010}
+  \gtab{Sol7}{320001}
+
+  \beginverse
+    Dans le \[Lam]port d'Amsterdam
+    Y'a des \[Mim]marins qui chantent
+    Les \[Fa]rêves qui les hantent
+    Au lar\[Mi7]ge d'Amsterdam
+    Dans le \[Lam]port d'Amsterdam
+    Y'a des \[Mim]marins qui dorment
+    Comme \[Fa]des ori\[Mi7]flammes
+    Le long \[Lam]des berges mornes
+  \endverse
+
+  \beginverse*
+    Dans le \[Do]port d'Amsterdam
+    Y'a des \[Sol7]marins qui meurent
+    Pleins de \[Lam]bière et de drames
+    Aux pre\[Mi7]mières lueurs
+    Mais dans le \[Fa]port d'Amsterdam
+    Y'a des \[Mim]marins qui naissent
+    Dans la \[Fa]chaleur é\[Mi7]paisse
+    Des lan\[Lam]gueurs océanes
+  \endverse
+
+  \beginverse
+    Dans le port d'Amsterdam
+    Y'a des marins qui mangent
+    Sur des nappes trop blanches
+    Des poissons ruisselants
+    Ils vous montrent des dents
+    À croquer la fortune
+    À décroisser la lune
+    À bouffer des haubans
+  \endverse
+
+  \beginverse*
+    Et ça sent la morue
+    Jusque dans le cœur des frites
+    Que leurs grosses mains invitent
+    À revenir en plus
+    Puis se lève en riant
+    Dans un bruit de tempête
+    Referment leur braguette
+    Et sortent en rotant
+  \endverse
+
+  \beginverse
+    Dans le port d'Amsterdam
+    Y'a des marins qui dansent
+    En se frottant la panse
+    Sur la panse des femmes
+    Et ils tournent et ils dansent
+    Comme des soleils crachés
+    Dans le son déchiré
+    D'un accordéon rance
+  \endverse
+
+  \beginverse*
+    Ils se tordent le cou
+    Pour mieux s'entendre rire
+    Jusqu'à c'que tout à coup
+    L'accordéon expire
+    Alors, le geste grave
+    Alors, le regard fier
+    lls ramènent leur batave
+    Jusqu'en pleine lumière
+  \endverse
+
+  \beginverse
+    Dans le port d'Amsterdam
+    Y'a des marins qui boivent
+    Et qui boivent et reboivent
+    Et qui reboivent encore
+    Ils boivent à la santé
+    Des putains d'Amsterdam
+    De Hambourg ou d'ailleurs
+    Enfin, ils boivent aux dames
+  \endverse
+
+  \beginverse*
+    Qui leur donnent leurs jolis corps
+    Qui leur donnent leurs vertus
+    Pour une pièce en or
+    Et quand ils ont bien bu
+    Se plantent le nez au ciel
+    Se mouchent dans les étoiles
+    Et ils pissent comme je pleure
+    Sur les femmes infidèles
+  \endverse
+
+\endsong

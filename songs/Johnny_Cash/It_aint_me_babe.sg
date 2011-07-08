@@ -1,0 +1,59 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{It ain't me, babe}
+  [by=Johnny Cash,cov=the-essential,album=The essential]
+
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Ré}{XX0232}
+  \gtab{Do}{X32010}
+
+  \beginverse
+    \[Sol]Go away from my \[Lam]window
+    \[Sol]Leave at your \[Ré]own chosen \[Sol]speed
+    \[Sol]{I'm} not the one you \[Lam]want, babe
+    I'm \[Sol]not the \[Ré]one you \[Sol]need
+  \endverse
+
+  \beginverse*
+    You \[Sol]say you're lookin' \[Lam]for someone
+    Who's never \[Sol]weak but always \[Lam]strong
+    To pro\[Sol]tect you and de\[Lam]fend you
+    Whether \[Sol]you are right or \[Lam]wrong
+    Some\[Do]one to open each and every \[Ré]door
+  \endverse
+
+
+  \beginchorus
+    But it ain't \[Sol]me babe
+    \[Do]No, no, \[Ré]no, it ain't \[Sol]me babe
+    It ain't \[Do]me you're \[Ré]lookin' \[Sol]for, babe
+  \endchorus
+
+
+  \beginverse
+    Go lightly from the ledge babe
+    Go lightly on the ground
+    I'm not the one you want, babe
+    I'll only let you down
+  \endverse
+
+  \beginverse*
+    You say you're lookin' for someone
+    Who'll promise never to part
+    Someone to close his eyes for your
+    Someone to close his heart
+    Someone to die for you and more
+  \endverse
+
+
+  \beginverse
+    You say you're lookin for someone
+    To pick you up each time you fall
+    To gather flowers constantly
+    And to come each time you call
+    And we'll love you for your life and nothin' more
+  \endverse
+
+\endsong

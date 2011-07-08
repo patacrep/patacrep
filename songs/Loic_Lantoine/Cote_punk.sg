@@ -1,0 +1,90 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Côté punk}
+  [by=Loic Lantoine,cov=badaboum,album=Badaboum]
+
+  \cover
+  \gtab{Lam}{5:022000}
+  \gtab{Sol}{3:022100}
+  \gtab{Mi7}{5:X2120X}
+  \gtab{Do}{3:X02220}
+  \gtab{Si7}{2:X02020}
+
+  \beginverse
+    \[Lam]{J'arrive} le matin au bi\[Sol]strot du coin
+    \[Lam]Je m'installe sagement l'âme \[Sol]sans tourments
+    J'ai \[Lam]plein d'trucs à faire qui pour\[Sol]raient m'rendre fier
+    \[Lam]{J'commande} un café \[Mi7]pour me réveiller
+  \endverse
+
+  \beginverse*
+    J'brûle une cigarette mais bientôt j'arrête
+    Je me frotte les mains, c'est maintenant demain
+    Je vais pouvoir me construire un bel avenir
+  \endverse
+
+  \beginverse*
+    Mais là j'sais pas ce qui se passe
+    J'commande un verre et son p'tit frère
+    Un pour la route, un pour l'retour
+    J'm'accroche au bar, c'est là qu'on s'marre
+    Je parle d'amour à des gens sourds
+    Arrive le soir, je peux plus boire
+    J'me suis vautré, zut, encore raté
+  \endverse
+
+  \beginchorus
+    J'y peux \[Do]rien, c'est mon côté \[Sol]punk
+    \[Do]{C'est} le vieux démon qui dé\[Sol]monte mon monde
+    J'y peux \[Lam]rien, c'est mon côté \[Mi7]punk
+    \[Lam]J'ai la vie en vice qui \[Si7]{s'fout} d'mon a\[Mi7]vis
+  \endchorus
+
+  \beginverse
+    Beau temps dans mon ventre, aujourd'hui j'rencontre
+    J'ai la tête en fleur, elle me voit elle meurt
+    D'amour va sans dire, pour elle j'peux mourir
+    On s'accroche les yeux, pis on fait des vœux
+  \endverse
+
+  \beginverse*
+    Nous deux ça s'ra grand, moi jamais je mens
+    Confonds-toi en moi, je suis fondu d'toi
+    Mon p'tit canari, j't'emmène à Paris
+  \endverse
+
+  \beginverse*
+    Mais là j'sais pas ce qui se passe
+    Car sur la route v'là que j'm'encroûte
+    Pourquoi qu'elle m'aime, j'vaux pas la peine
+    Elle est trop bonne, elle doit être conne
+    J'ouvre la portière, pied au derrière
+    Ma p'tite amie est en bouillie
+    Qu'est-ce que j'ai fait, j'crois qu'je l'aimais
+  \endverse
+
+  \beginverse
+    J'suis toujours à faire d'une chose, le contraire
+    Je sais pas c‘qui s'passe, j'dois être à la masse
+    Mon vouloir se meurt, Monsieur le docteur
+    Vous allez m'aider, j'saurai vous payer
+  \endverse
+
+  \beginverse*
+    Je n'veux qu'une seule chose
+    C'est qu'ma tête se r'pose
+    J'suis plutôt dans le fond un gentil garçon
+    J'veux y parvenir à mon bel avenir
+  \endverse
+
+  \beginverse*
+    Mais là j'sais pas ce qui se passe
+    {\og}Ça sert à rien{\fg} dit le méd'cin
+    {\og}Séchez vos larmes, rangez cette arme
+    Quand y a des balles, ça peut faire mal !{\fg}
+    Là j'prends sa tête, il en fait une tête
+    J'la mets par terre, sa gueule à terre
+    Il est mal barré, je vais tirer
+  \endverse
+
+\endsong

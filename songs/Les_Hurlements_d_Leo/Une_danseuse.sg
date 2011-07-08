@@ -1,0 +1,70 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Une danseuse}
+  [by=Les Hurlements d'Léo,cov=le-cafe-des-jours-heureux,album=Le café des jours heureux]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{Si&}{6:022100}
+  \gtab{La}{5:022100}
+  \gtab{Solm}{3:022000}
+  \gtab{Do}{3:X02220}
+
+  \beginverse
+    \[Rém]Elle martèle un putain d'\[Si&]rythme
+    \[Rém]Avec ses \[La]pieds
+    \[Rém]Comme cette pluie qui m'bat la \[Si&]tête
+    Pour \[Rém]mieux y voir en \[La]elle
+  \endverse
+
+  \beginverse*
+    Une dan\[Solm]seuse anda\[La]louse
+    Qui en \[Si&]fait bien des ja\[La]louses
+    Quand elle \[Si&]danse et se \[La]lance
+    Sur des \[Si&]accords de ja\[La]va
+  \endverse
+
+  \beginverse
+    Quand elle a fini d'danser
+    Elle retourne s'asseoir
+    Et y'a l'bella du comptoir
+    Qui lui offre une rose, c'est tard
+  \endverse
+
+  \beginverse*
+    Tiens la musique, elle s'éteint
+    Sur des accords de java
+  \endverse
+
+  \beginchorus
+    Et l'on \[Rém]boit et l'on \[Solm]trinque
+    À la \[Do]santé des a\[Rém]mants
+    Et l'on \[Rém]boit et l'on \[Solm]trinque
+    À la \[Do]santé des a\[Rém]mants
+    Et l'on \[Rém]boit et l'on \[Solm]trinque
+    À ta \[Do]santé, mon \[Rém]amant !
+  \endchorus
+
+  \beginverse
+    {\og} !` Oy, me voy !{\fg}
+    ?` \[Rém]{A d\'onde} va, y va, y \[Si&]va
+    A d\'onde \[La]va, mi gita\[Rém]na ?
+    \[Rém]Todas las noches, me achi\[Si&]ca
+    Porque se \[La]va mi gita\[Rém]na \rep{2}
+  \endverse
+
+  \beginverse
+    Après plusieurs verres de bière
+    Ça y est, elle s'réveille
+    Elle reprend son regard fier
+    Pour danser jusqu'aux vestiaires
+  \endverse
+
+  \beginverse*
+    Elle récupère ses affaires
+    Nous sourit, nous dit au revoir
+    Claque la porte et puis s'en va
+    Sur des accords de java
+  \endverse
+
+\endsong

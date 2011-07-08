@@ -1,0 +1,69 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Mon frère}
+  [by=Maxime Le Forestier,cov=mon-frere,album=Mon frère]
+
+  \cover
+  \gtab{Rém}{X32010}
+  \gtab{Solm}{X02210}
+  \gtab{Do}{XX0231}
+  \gtab{Fa}{320001}
+  \gtab{La}{1:022100}
+  \gtab{Ré}{022100}
+  \gtab{Sim}{320003}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Rém]Toi le frère que je n'ai jamais \[Solm]eu
+    Sais-tu si tu avais vé\[Do]cu
+    Ce que nous aurions fait en\[Fa]semble
+    \[La]Un an après moi tu serais \[Rém]né
+    Alors on n'se s'rait plus qui\[Solm]ttés
+    Comme deux amis qui se res\[Rém]sem\[La]blent
+  \endverse
+
+  \beginverse*
+    On aurait appris l'argot par cœur
+    J'aurais été ton professeur
+    À mon école buissonnière
+    Sûr qu'un jour on se serait battus
+    Pour peu qu'alors, on ait connu
+    Ensemble la même première
+  \endverse
+
+  \beginchorus
+    \[Ré]Mais tu n'es pas \[La]là
+    À qui la \[Sim]fau\[Sol]te
+    \[Si&] Pas à mon \[Sol]père
+    \[Si&] Pas à ma \[Sol]mère
+    \[Si&] Tu aurais \[Sol]pu chanter \[La]cela
+  \endchorus
+
+  \beginverse
+    Toi le frère que je n'ai jamais eu
+    Si tu savais ce que j'ai bu
+    De mes chagrins en solitaire
+    Si tu ne m'avais pas fait faux-bond
+    Tu aurais fini mes chansons
+    Je t'aurais appris à en faire
+  \endverse
+
+  \beginverse*
+    Si la vie s'était comportée mieux
+    Elle aurait divisé en deux
+    Les paires de gants, les paires de claques
+    Elle aurait sûrement partagé
+    Les mots d'amour et les pavés
+    Les filles et les coups de matraque
+  \endverse
+
+  \beginverse
+    Toi le frère que je n'aurai jamais
+    Je suis moins seul de t'avoir fait
+    Pour un instant, pour une fille
+    Je t'ai dérangé, tu me pardonnes
+    Ici quand tout vous abandonne
+    On se fabrique une famille
+  \endverse
+
+\endsong

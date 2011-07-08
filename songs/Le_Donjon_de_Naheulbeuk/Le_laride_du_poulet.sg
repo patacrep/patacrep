@@ -1,0 +1,91 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le laridé du poulet}
+  [by=Le Donjon de Naheulbeuk]
+
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mim}{022000}
+
+  \lilypond{Le_laride_du_poulet}
+
+  \beginchorus
+    C'est le la\[Lam]ridé du poulet
+    Dan\[Sol]sez, dan\[Lam]sez, si vous l'pouvez
+    Mais il vau\[Sol]drait mieux s'en méfier
+    À mort il \[Fa]peut vous pico\[Sol]rer
+  \endchorus
+
+  \beginverse
+    Jamais as\[Lam]sez ne vous méfiez
+    De ce \[Sol]gentil gallinacé
+    Mais peu de \[Fa]gens pourront parler
+    Pour ceux qui \[Sol]lui ont résisté
+  \endverse
+
+  \beginverse*
+    C'est lui l'en\[Lam]geance des poulaillers
+    Un monstre \[Sol]sournois et rusé
+    Ergots poin\[Fa]tus, bec acéré
+    Votre vie \[Sol]ne tient qu'à un \[Lam]dé
+  \endverse
+
+  \beginverse
+    Quand vous rêvez de le plumer
+    Il ne pense qu'à vous étriper
+    Si vous essayez de pioncer
+    Il vous réveille au jour levé
+  \endverse
+
+  \beginverse*
+    Trépas bref et instantané
+    Ou torture lente et raffinée
+    Ses plumes sont toutes ébouriffées
+    Du plaisir de vous massacrer
+  \endverse
+
+  \beginverse
+    Dans la cour du donjon hanté
+    Ou dans la ferme fortifiée
+    Il vous regarde à l'œil mauvais
+    Vous n'êtes qu'un ver à dévorer
+  \endverse
+
+  \beginverse*
+    Changeur de forme ou coq mité
+    Ma foi vous n'le saurez jamais
+    Si vous pouvez le terrasser
+    Il servira pour le dîner
+  \endverse
+
+  \beginverse*
+    \[Lam]Poulet Poulet, \[Mim]Piou Piou \[Lam]Piou
+  \endverse
+
+  \beginverse
+    Si le lapin vous fait trembler
+    Si l'mulot vous fait frissonner
+    Vous n'êtes pas si aventurier
+    Que vous semblez le déclarer
+  \endverse
+
+  \beginverse
+    Bien plus dang'reux qu'un dragonnet
+    Mais valant beaucoup moins d'XP
+    C'est le poulet qu'vous affrontez
+    Y'a plus moyen de reculer
+  \endverse
+
+  \beginverse*
+    Mais le fumble est arrivé !
+    Six pieds sous terre vous reposez
+    Picoré à mort dans l'fumier
+    Car il est le mal incarné
+  \endverse
+
+  \beginverse*
+    Tout ça c'est la faute du poulet !
+  \endverse
+
+\endsong

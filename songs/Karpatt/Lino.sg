@@ -41,7 +41,7 @@
     Il avait \[Si&]la classe à c'qu'on \[La]dit
   \endchorus
 
-  %todo lilypond !    Dm F Gm A x2
+  \lilypond{Lino}
 
   \beginverse
     Paraît qu'une nuit chez la Marlène

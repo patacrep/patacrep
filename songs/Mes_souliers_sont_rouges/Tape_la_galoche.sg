@@ -1,0 +1,111 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Tape la galoche}
+  [by=Mes souliers sont rouges,cov=tape-la-galoche,album=Tape la galoche]
+
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+  \gtab{Fa}{1:022100}
+
+  \beginverse
+    Le ma\[Sol]tin au saut du lit
+    J'enfile \[Ré]une paire de sa\[Sol]vates \rep{2}
+  \endverse
+
+  \beginverse*
+    Mes belles \[Fa]savates écar\[Sol]lates
+    Mes deux \[Ré]pieds sont bien chau\[Sol]ssés
+  \endverse
+
+  \beginchorus
+    \[Fa]Tape la ga\[Sol]loche
+    Mes deux \[Ré]pieds sont bien chau\[Sol]ssés
+    J'va pou\[Ré]voir aller dan\[Sol]ser
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Le matin au saut du lit
+    J'enfile une paire chaussons \rep{2}
+  \endverse
+
+  \beginverse*
+    Mes p'tits chaussons vermillons
+    Mes belles savates écarlates
+  \endverse
+
+  \beginverse
+    Le matin au saut du lit
+    J'enfile une paire de sabots \rep{2}
+  \endverse
+
+  \beginverse*
+    Mes vieux sabots coqu'licots
+    Mes p'tits chaussons vermillons
+    \dots
+  \endverse
+
+  \beginverse
+    Le matin au saut du lit
+    J'enfile une paire de souliers \rep{2}
+  \endverse
+
+  \beginverse*
+    Mes souliers couleur pompier
+    Mes vieux sabots coqu'licots
+    \dots
+  \endverse
+
+  \beginverse
+    Le matin au saut du lit
+    J'enfile une paire de bottines \rep{2}
+  \endverse
+
+  \beginverse*
+    Mes bottines hémoglobines
+    Mes souliers couleur pompiers
+    \dots
+  \endverse
+
+  \beginverse
+    Le matin au saut du lit
+    J'enfile une paire d'charentaises \rep{2}
+  \endverse
+
+  \beginverse*
+    Mes charantaises à la fraise
+    Mes bottines hémoglobines
+    \dots
+  \endverse
+
+  \beginverse
+    Le matin au saut du lit
+    J'enfile une paire de tennis \rep{2}
+  \endverse
+
+  \beginverse*
+    Mes tennis de communisse
+    Mes charantaises à la fraise
+    \dots
+  \endverse
+
+  \beginverse
+    Le matin au saut du lit
+    J'enfile mes boites à orteilles \rep{2}
+  \endverse
+
+  \beginverse*
+    Boîtes à orteilles coup d'soleil
+    Mes tennis de communiste
+    \dots
+  \endverse
+
+\endsong
+
+\beginscripture{Les Souliers}
+  Chanson {\og}casse-cou{\fg} à jouer au grand galop
+  \emph{Tape la Galoche} a été composée sur mesure pour les Souliers par
+  Benoît -- {\og}Bebeu l'énervant{\fg} précise Denys qui doit la chanter sans
+  assistance respiratoire
+\endscripture

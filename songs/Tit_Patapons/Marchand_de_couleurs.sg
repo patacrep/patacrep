@@ -1,0 +1,70 @@
+\songcolumns{2}
+\beginsong{Marchand de couleurs}
+  [by=Tit Patapons,cov=premier-jet,album=Premier jet]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Lasus4}{X02230}
+  \gtab{Lasus2}{X02200}
+  \gtab{Lam7}{X02213}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+
+  \beginverse
+    Sou\[Lam]viens-toi de moi, je suis ce\[Lasus4]lui
+    Qui co\[Lasus2]lorait tes \[Lam]rêves
+    Qui t'ap\[Lam]portait des \[Lam7]vagues
+    De bon\[Lasus2]heur sur la \[Lam]grève
+    Celui qui distribue
+    Des arc-en-ciels aux âmes tristes
+    Qui transforme les tempêtes
+    En légères brises
+  \endverse
+
+  \beginchorus
+    Sou\[Lam]viens-toi de \[Fa]moi
+    Je suis le \[Do]marchand de cou\[Lam]leurs
+    Qui apporte les sourires
+    Et distribue les bonheurs
+    Qui envoie le soleil
+    Réchauffer ton pays froid
+    Qui désarme la tristesse
+    Pour te remplir de joie
+    \rep{2}
+  \endchorus
+
+  \lilypond{Marchand_de_couleurs}
+
+  \beginverse
+    Moi tou\[Lam]jours, je t'emmène dans des \[Fa]landes
+    Aux \[Do]parfums su\[Lam]crés
+    À jamais, je te guéris
+    De ces grandes plaines rougeoyantes
+    Où la fumée des combats
+    Reste encore à planer
+    Et les braises des feux
+    Encore à voler
+  \endverse
+
+  \beginverse
+    \echo{Souviens-toi de moi}
+    Je colorais tes rêves
+    \echo{Souviens-toi de moi}
+    Jusque sur la grève
+    \echo{Souviens-toi de moi}
+    Des arcs-en-ciel aux âmes tristes
+    \echo{Souviens-toi de moi}
+  \endverse
+
+  \beginchorus
+    Souviens-toi de moi
+    Je suis le marchand de couleurs
+    Ferme les yeux
+    Je t'emmène loin des tourments
+    Je suis celui qui vit
+    Au plus profond de ton cœur
+    Qui écoute encore
+    Les roulements de l'océan
+  \endchorus
+
+\endsong

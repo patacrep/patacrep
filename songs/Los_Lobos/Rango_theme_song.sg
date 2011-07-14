@@ -1,0 +1,67 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Rango theme song}
+  [by=Los Lobos,cov=rango,album=Rango]
+
+  \cover
+  \gtab{Rém}{5:X02210}
+  \gtab{Lam}{5:022000}
+  \gtab{Si&}{6:022100}
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{3:022100}
+
+  \beginverse
+    From \[Rém]out the dust
+    Came a man true and bold
+    Champion of the fan\[Lam]dango
+  \endverse
+
+  \beginverse*
+    By \[Rém]night he drank \[Lam]whiskey
+    By \[Si&]day killed bad \[Rém]man
+    And the \[Fa]townspeople \[Do]knew him as \[Rém]Rango
+  \endverse
+
+  \beginverse
+    Comin' down the mountainside
+    The people hailed his name
+    And of his legend they sang oh
+  \endverse
+
+  \beginverse*
+    With iron in his heart
+    Steel in his claw
+    He pumped their heads all full of lead, Rango
+  \endverse
+
+  \beginchorus
+    Ran\[Sol]go, Ran\[Rém]go
+    Ran\[Sol]go, Ran\[Fa]go \[Do Rém]
+  \endchorus
+
+  \beginverse
+    A ladies man indeed
+    From his head down to his knees
+    Rango was doing the tango
+  \endverse
+
+  \beginverse*
+    But in came bad Bill
+    From his hide out in the hill
+    With a notion to kill Rango
+  \endverse
+
+  \beginverse
+    Now Rango, he is gone
+    But his legend still lives on
+    In the brothels and saloons of Durango
+  \endverse
+
+  \beginverse*
+    He lived as he died
+    A six gun at his side
+    And all the ladies cried for Rango
+  \endverse
+
+\endsong

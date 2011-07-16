@@ -1,0 +1,73 @@
+\songcolumns{2}
+\beginsong{By The Way}[by=Red Hot Chili Peppers,cov=Red_Hot_Chili_Peppers-By_The_Way]
+\cover
+\gtab{F}{2010}
+\gtab{C}{0003}
+\gtab{Am}{2000}
+\gtab{Dm}{2210}
+
+\lilypond{Red_Hot_Chili_Peppers_By_The_Way_strum1}
+
+\beginchorus
+\[F]Standing in line
+To see the s\[C]how tonight
+And there's a l\[Am]ight on
+Heavy glow
+\[F]By the way I t\[C]ried to say
+I'd b\[Am]e there... waiting for
+\[F]Dani the girl
+is singing s\[C]ongs to me
+Beneath the mar\[Am]quee... overload
+\endchorus
+
+\lilypond{Red_Hot_Chili_Peppers_By_The_Way_strum2}
+
+\beginverse
+\[Dm]Steak \[Dm]Knife C\[Dm]ard S\[Dm]hark
+\[Dm]Con J\[Dm]ob   \[Dm]Boot \[Dm]Cut
+\[Dm]Skin th\[Dm]at flick
+She's such a little DJ
+\[Dm]Get th\[Dm]ere quick
+By street but not the freeway
+\[Dm]turn t\[Dm]hat trick
+to make a little leeway
+\[Dm]Beat th\[Dm]at nic
+But not the way that we play
+\[Dm]Dog To\[Dm]wn  Bloo\[Dm]d Bath\[Dm]
+\[Dm]Rib Ca\[Dm]ge   S\[Dm]oft T\[Dm]ail
+\endverse
+
+\lilypond{Red_Hot_Chili_Peppers_By_The_Way_strum3}
+
+\beginchorus
+Sta\[F]nding in line
+To see the sh\[C]ow tonight
+And there's a light on\[Dm]
+Heavy glow
+\[F]By the way I trie\[C]d to say
+I'd be \[Am]there... \[F]waiting for
+\endchorus
+
+\beginverse
+Black Jack Dope Dick
+Pawn Shop Quick Pick
+
+Kiss that Dyke
+I know you want to hold one
+Not on strike
+But I'm about to bowl one
+Bite that mic
+I know you never stole one
+Girls that like
+A story so I told one
+
+Song Bird Main Line
+Cash Back Hard top 
+\endverse
+
+\beginverse
+Ooh ahh, guess you never meant it X8
+\endverse
+
+
+\endsong

@@ -1,0 +1,76 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Under the bridge}
+  [by=Red Hot Chili Peppers,cov=blood-sugar-sex-magik,album=Blood sugar sex magik]
+
+  \cover
+  \gtab{Mi}{022100}
+  \gtab{Si}{2:X02220}
+  \gtab{Do#m}{4:X02210}
+  \gtab{Sol#m}{4:02200}
+  \gtab{La}{5:022100}
+  \gtab{MiM7}{021100}
+  \gtab{Fa#m}{2:022000}
+  \gtab{Lam7}{X02010}
+  \gtab{Sol6}{7:X02010}
+  \gtab{FaM7}{1:X2110X}
+  \gtab{Do}{X32010}
+
+  \beginverse
+    \[Mi] Sometimes \[Si]I feel like I \[Do#m]don't have a \[Sol#m]part\[La]ner
+    \[Mi] Sometimes \[Si]I feel like \[Do#m]my only \[La]friend
+    Is the \[Mi]city I \[Si]live in, the city of angels, the \[Do#m]city of \[Sol#m]an\[La]gels
+    \[Mi]Lonely as \[Si]I am \[Do#m]together we \[La]cry \[MiM7]
+  \endverse
+
+  \beginverse
+    I drive on her streets 'cause she's my companion
+    I walk through her hills cause she knows who I am
+    She sees my good deeds and she kisses the winded
+    I never worried, now that is a lie
+  \endverse
+
+  \beginchorus
+    \[Fa#m]{I don't} ever want to \[Mi]feel
+    \[Si] Like I \[Fa#m]did that day
+    \[Fa#m]Take me to the place I \[Mi]love
+    \[Si] Take me \[Fa#m]all the way
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    It's hard to believe that there's nobody out there
+    It's hard to believe that I'm all alone
+    At least I have her love, the city she loves me
+    Lonely as I am together we cry
+  \endverse
+
+  \beginverse
+    \[La]Oh \[Lam7]no no no, \[Sol6]yeah, \[FaM7]yeah \rep{3}
+  \endverse
+
+  \beginverse*
+    \[La]Under the bridge \[Do]down-town
+    \[Sol6]is where I\[FaM7] drew some blood
+  \endverse
+
+  \beginverse*
+    Under the bridge down-town
+    I could not get enough
+  \endverse
+
+  \beginverse*
+    Under the bridge down-town
+    Forgot about my love
+  \endverse
+
+  \beginverse*
+    Under the bridge down-town
+    I gave my life away
+  \endverse
+
+  \beginverse*
+    Oh no no no, yeah, yeah \rep{4}
+  \endverse
+
+\endsong

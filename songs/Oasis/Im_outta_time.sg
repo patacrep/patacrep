@@ -1,0 +1,46 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{I'm outta time}
+  [by=Oasis,cov=dig-out-your-soul,album=Dig out your soul]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Misus4}{022200}
+  \gtab{Lam}{X02210}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Ré}{XX0232}
+
+  \beginverse
+    \[Mim]Here's a song
+    It reminds me of when \[Misus4]we were young
+    Looking back at all the \[Lam]things we'd done
+    Gotta keep on \[Do]keeping on
+  \endverse
+
+  \beginverse
+    Out to sea
+    It's the only place I honestly
+    Can get myself some peace of mind
+    You know it's getting hard to fly
+  \endverse
+
+  \beginchorus
+    \[Sol]If I'm to fall
+    \[Ré]Would you be there to applaud?
+    Or \[Mim]would you hide behind them all?
+    Cause if I have to \[Lam]go
+    In my heart you \[Do]grow
+    And that's where you be\[Sol]long
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    \[Sol]Guess I'm outta time
+    I'm outta time
+    \[Mim]I'm outta time
+    \[Lam]I'm outta time
+    \[Do]I'm outta time
+  \endverse
+
+\endsong

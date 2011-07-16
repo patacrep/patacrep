@@ -1,0 +1,53 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Road trippin'}
+  [by=Red Hot Chili Peppers,cov=californication,album=Californication]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Do}{X32010}
+  \gtab{Si}{2:X02220}
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+
+  \beginverse
+    \[Mim]Road trippin' with my two \[Do]favorite al\[Si]lies
+    Fully loaded we got snacks and supplies
+    It's time to leave this town, it's time to steal away
+    Let's go get lost anywhere in the USA
+    Let's go get lost, let's go get lost
+  \endverse
+
+  \beginchorus
+    \[Mim]Blue you sit so pretty \[Do]west of the \[Si]one
+    \[Mim]Sparkle light with yellow \[Do]icing just a \[Si]mirror for the \[Mim]sun
+    \[Do] Just a \[Si]mirror for the \[Mim]sun
+    \[Do] Just a \[Si]mirror for the \[Lam]sun \[Sim Do Sol]
+    \[Lam] These smiling \[Sim]eyes are just a \[Do]mirror for \[Sol]
+  \endchorus
+
+  \beginverse
+    So much has come before those battles lost and won
+    This life is shining more forever in the sun
+    Now let us check our heads and let us check the surf
+    Staying high and dry's more trouble than it's worth in the \[Mim]sun
+  \endverse
+
+  \beginchorus
+    Just a mirror for the sun \rep{2}
+    These smiling eyes are just a mirror for
+  \endchorus
+
+  \beginverse
+    In Big Sur we take some time to linger on
+    We three hunky dory's got our snakefinger on
+    Now let us drink the stars, it's time to steal away
+    Let's go get lost right here in the USA
+    Let's go get lost, let's go get lost
+  \endverse
+
+  \beginchorus
+    These smiling eyes are just a mirror for
+  \endchorus
+
+\endsong

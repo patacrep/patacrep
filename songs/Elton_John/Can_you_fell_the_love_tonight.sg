@@ -1,0 +1,51 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Can you feel the love tonight}
+  [by=Elton John,cov=lion-king,album=The Lion King]
+
+  \cover
+  \capo{3}
+  \gtab{Do}{X32010}
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
+  \gtab{Fa}{1:022100}
+  \gtab{Ré}{XX0232}
+  \gtab{Lam}{X02210}
+
+  \beginverse
+    \[Do]There's a calm sur\[Sol]render
+    \[Do]To the rush of \[Sol]day
+    \[Do]When the heat of the \[Sol]rolling world
+    \[Lam]Can be turned a\[Ré]way
+    \[Do]An enchanted \[Sol]moment
+    \[Do]And it sees me \[Sol]through
+    \[Do]It's enough for this \[Mim]restless warrior
+    \[Fa]Just to be with \[Ré]you
+  \endverse
+
+  \beginchorus
+    And \[Sol]can you \[Ré]feel the \[Mim]love to\[Do]night?
+    \[Sol] It is \[Do]where we \[Ré]are
+    \[Do] It's e\[Sol]nough for this \[Mim]wide-\[Sol]eyed \[Do]wanderer
+    \[Lam]That \[Sol]we \[Do]got this \[Ré]far
+  \endchorus
+
+  \beginchorus
+    And can you feel the love tonight?
+    How it's laid to rest?
+    It's enough to make kings and vagabonds
+    Be\[Lam]lieve \[Sol]the \[Do]very \[Sol]best
+  \endchorus
+
+  \beginverse
+    There's a time for everyone
+    If they only learn
+    That the twisting kaleidoscope
+    Moves us all in turn
+    There's a rhyme and reason
+    To the wild outdoors
+    When the heart of this star-crossed voyager
+    Beats in time with yours
+  \endverse
+
+\endsong

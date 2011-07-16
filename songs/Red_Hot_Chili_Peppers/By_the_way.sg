@@ -1,0 +1,80 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{By the way}
+  [by=Red Hot Chili Peppers,cov=by-the-way,album=By the way]
+
+  \cover
+  \gtab{Fa}{1:022100}
+  \gtab{Do}{X32010}
+  \gtab{Lam}{X02210}
+  \gtab{Rém}{XX0231}
+
+  \beginchorus
+    \[Fa]Standing in line
+    To see the \[Do]show tonight
+    And there's a \[Lam]light on
+    Heavy glow
+  \endchorus
+
+  \beginchorus
+    By the way
+    I tried to say
+    I'd be there
+    Waiting for
+  \endchorus
+
+  \beginchorus
+    Dani the girl
+    Is singing songs to me
+    Beneath the marquee
+    Overload
+  \endchorus
+
+  \beginverse
+    \[Rém]Steak Knife Card Shark
+    Con Job Boot Cut
+  \endverse
+
+  \beginverse*
+    Skin that flick
+    She's such a little DJ
+    Get there quick
+    By street but not the freeway
+    Turn that trick
+    To make a little leeway
+    Beat that nic
+    But not the way that we play
+  \endverse
+
+  \beginverse*
+    Dog Town Blood Bath
+    Rib Cage Soft Tail
+  \endverse
+
+
+  \beginverse
+    Black Jack Dope Dick
+    Pawn Shop Quick Pick
+  \endverse
+
+  \beginverse*
+    Kiss that Dyke
+    I know you want to hold one
+    Not on strike
+    But I'm about to bowl one
+    Bite that mic
+    I know you never stole one
+    Girls that like
+    A story so I told one
+  \endverse
+
+  \beginverse*
+    Song Bird Main Line
+    Cash Back Hard top
+  \endverse
+
+  \beginverse*
+    Oh ah, guess you never meant it \rep{8}
+  \endverse
+
+\endsong

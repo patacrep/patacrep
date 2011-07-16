@@ -1,0 +1,112 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La tribu de Dana}
+  [by=Manau,cov=panique-celtique,album=Panique celtique]
+
+  \cover
+  \gtab{Lam}{X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa}{1:022100}
+  \gtab{Mim}{022000}
+
+  \lilypond{La_tribu_de_Dana}
+
+  \beginverse
+    Le vent \[Lam]souffle sur les plaines de \[Sol]la Bretagne armoricaine
+    Je \[Fa]jette un dernier regard sur ma \[Mim]femme, mon fils et mon domaine
+    \[Lam] Akim, le fils du forge\[Sol]ron est venu me chercher
+    \[Fa] Les druides ont décidé de \[Mim]mener le combat dans la val\[Lam]lée
+  \endverse
+
+  \beginverse*
+    Là où tous nos ancêtres, de géants guerriers celtes
+    Après de grandes batailles se sont imposés en maîtres
+    C'est l'heure maintenant de défendre notre terre
+    Contre une armée de Simériens prête à croiser le fer
+  \endverse
+
+  \beginverse*
+    Toute la tribu s'est réunie autour de grands menhirs
+    Pour invoquer les dieux afin qu'ils puissent nous bénir
+    Après cette prière avec mes frères sans faire état de zèle
+    Les chefs nous ont donné à tous des gorgées d'hydromel
+  \endverse
+
+  \beginverse*
+    Pour le courage, pour pas qu'il y ait de faille
+    Pour rester grand set fiers quand nous serons dans la bataille
+    Car c'est la première fois pour moi que je pars au combat
+    Et j'espère être digne de la tribu de Dana
+  \endverse
+
+  \beginchorus
+    Dans la val\[Lam]lée \echo{oh \[Sol]oh}
+    De Da\[Fa]na \echo{la li la \[Mim]la}
+    Dans la val\[Lam]lée \echo{oh \[Sol]oh}
+    J'ai pu en\[Fa]tendre \[Mim]les é\[Lam]chos
+  \endchorus
+
+  \beginchorus
+    Dans la vallée \echo{oh oh}
+    De Dana \echo{la li la la}
+    Dans la vallée \echo{oh oh}
+    Des chants de guerre près des tombeaux
+  \endchorus
+
+  \beginverse
+    Après quelques incantations de druides et de magie
+    Toute la tribu, le glaive en main courait vers l'ennemi
+    La lutte était terrible et je ne voyais que les ombres
+    Tranchant l'ennemi qui revenait toujours en surnombre
+  \endverse
+
+  \beginverse*
+    Mes frères tombaient l'un après l'autre devant mon regard
+    Sous le poids des armes que possédaient tous ces barbares
+    Des lances, des haches et des épées dans le jardin d'Eden
+    Qui écoulaient du sang sur l'herbe verte de la plaine
+  \endverse
+
+  \beginverse*
+    Comme ces jours de peine où l'homme se traîne
+    À la limite du règne du mal et de la haine
+    Fallait-il continuer ce combat déjà perdu ?
+    Mais telle était la fierté de toute la tribu
+  \endverse
+
+  \beginverse*
+    La lutte a continué comme ça jusqu'au soleil couchant
+    De férocité extrême en plus d'acharnement
+    Fallait défendre la terre de nos ancêtres enterrés là
+    Et pour toutes les lois de la tribu de Dana
+  \endverse
+
+  \beginverse
+    Au bout de la vallée on entendait le son d'une corne
+    D'un chef ennemi qui appelait toute sa horde
+    Avait-il compris qu'on lutterait même en enfer
+    Et qu'à la tribu de Dana appartenaient ces terres ?
+  \endverse
+
+  \beginverse*
+    Les guerriers repartaient, je ne comprenais pas
+    Tout le chemin qu'ils avaient fait pour en arriver là
+    Quand mon regard se posa tout autour de moi
+    J'étais le seul debout de la tribu, voilà pourquoi
+  \endverse
+
+  \beginverse*
+    Mes doigts se sont écartés, tout en lâchant mes armes
+    Et le long de mes joues se sont mises à couler des larmes
+    Je n'ai jamais compris pourquoi les dieux m'ont épargné
+    De ce jour, noir, de notre histoire que j'ai contée
+  \endverse
+
+  \beginverse*
+    Le vent souffle toujours sur la Bretagne armoricaine
+    Et j'ai rejoins ma femme, mon fils et mon domaine
+    J'ai tout reconstruit de mes mains pour en arriver là
+    Je suis devenu roi de la tribu de Dana
+  \endverse
+
+\endsong

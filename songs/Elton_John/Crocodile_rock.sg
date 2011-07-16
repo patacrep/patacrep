@@ -1,0 +1,59 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Crocodile rock}
+  [by=Elton John,cov=crocodile-rock,album=Crocodile Rock]
+
+  \cover
+  \gtab{Sol}{320003}
+  \gtab{Mim}{022000}
+  \gtab{Do}{X32010}
+  \gtab{Ré}{XXX0232}
+  \gtab{La7}{X02020}
+  \gtab{Ré7}{XX0212}
+
+  \beginverse
+    I re\[Sol]member when rock was young
+    Me and \[Mim]Susie had so much fun
+    Holding \[Do]hands and skimming stones
+    Had an \[Ré]old gold Chevy and a place of my own
+  \endverse
+
+  \beginverse*
+    But the biggest kick I ever got
+    Was doing a thing called the \emph{crocodile rock}
+    While the other kids were Rocking round the clock
+    We were hopping and bopping to the \emph{crocodile rock}
+  \endverse
+
+  \beginchorus
+    \[Mim]Well crocodile-rocking is something shocking
+    When your \[La7]feet just cant keep still
+    \[Ré7]{I never} knew me a better time and I \[Sol]guess I never will
+  \endchorus
+
+  \beginchorus
+    Oh, Lawdy mama those Friday nights
+    When Susie wore her dresses tight
+    And the crocodile-rocking was out of \[Do]sight
+  \endchorus
+
+  \beginchorus
+    \[Sol]La, la la la la \[Mim]la
+    La la la la \[Do]la, la la la la \[Ré]la
+  \endchorus
+
+  \beginverse
+    But the years went by and the rock just died
+    Susie went and left us for some foreign guy
+    Long nights cryin' by the record machine
+    Dreaming of my Chevy and my old blue jeans
+  \endverse
+
+  \beginverse*
+    But they'll never kill the thrills we've got
+    Burning up to the \emph{crocodile rock}
+    Learning fast as the weeks went past
+    We really thought that the \emph{crocodile rock} would last
+  \endverse
+
+\endsong

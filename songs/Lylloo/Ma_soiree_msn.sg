@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{3}
+\songcolumns{2}
 \beginsong{Ma soirée MSN}
   [by=Lylloo]
 
@@ -44,7 +44,7 @@
     Devant l'écran
     Devant ma webcam
     Plus rien ne compte
-    À part raconter ma life \echo{ma life.}
+    À part raconter ma life \echo{ma life}
     Quand j'me connecte
     J'vois pas l'temps qui passe
     Mes parents guettent

@@ -1,8 +1,9 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Whiskey in the jar}
-  [by=The Dubliners]
+  [by=The Dubliners,cov=irish-pub-songs,album=Irish pub songs]
 
+  \cover
   \capo{2}
   \gtab{Do}{X32010}
   \gtab{Lam}{X02210}

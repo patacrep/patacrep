@@ -1,8 +1,9 @@
 \selectlanguage{spanish}
 \songcolumns{2}
 \beginsong{A galopar}
-  [by=Paco Ib\'a\~nez]
+  [by=Paco Ib\'a\~nez,cov=a-galopar,album=A galopar]
 
+  \cover
   \gtab{Lam}{X02210}
   \gtab{Fa}{1:022100}
   \gtab{Mi}{022100}

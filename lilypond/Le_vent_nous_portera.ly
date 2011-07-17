@@ -8,10 +8,10 @@
   {
     \repeat volta 2
     {
-      b8 g b g b g b c 
-      b  g b g b g a fis
-      a  fis a fis a fis a c
-      b g b g b g b c 
+      b8( g b g b g b c)
+      b(  g b g b g a fis)
+      a(  fis a fis a fis a c)
+      b( g b g b g b c)
     }
   }
 }

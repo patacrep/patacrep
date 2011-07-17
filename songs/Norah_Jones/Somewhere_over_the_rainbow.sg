@@ -1,8 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Somewhere over the rainbow}
-  [by=Norah Jones]
-
+  [by=Norah Jones,cov=come-away-with-me,album=Come away with me]
 
   \cover
   \gtab{Do}{X32010}
@@ -10,7 +9,6 @@
   \gtab{Fa}{1:022100}
   \gtab{Sol}{320003}
   \gtab{Lam}{X02210}
-
 
   \beginverse
     \[Do]Somewhere \[Mim]over the rainbow \[Fa]way up \[Do]high

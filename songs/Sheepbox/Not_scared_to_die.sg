@@ -1,13 +1,13 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Not scared to die}[by=Sheepbox]
+\beginsong{Not scared to die}
+  [by=Sheepbox,cov=sheepbox,album=Sheepbox]
 
+  \cover
   \capo{3}
   \gtab{Do#m}{4:X02210}
   \gtab{Mim}{7:X02210}
   \gtab{Sim}{2:X02210}
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
   \gtab{La}{X02220}
   \gtab{Mi}{022100}
   \gtab{Sol}{320003}

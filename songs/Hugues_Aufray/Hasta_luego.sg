@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Hasta Luego}
+\beginsong{Hasta luego}
   [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
 
+  \cover
   \gtab{Lam}{X02210}
   \gtab{Sol}{320003}
   \gtab{Rém}{XX0231}

@@ -1,5 +1,10 @@
 \include "header"
-\paper{paper-height = 3.9\cm}
+\paper
+{
+  paper-width = 15.5\cm
+  line-width = 15\cm
+  paper-height = 1.6\cm
+}
 
 {
   \key c \minor
@@ -15,10 +20,7 @@
     { 
      {ees4 d8 g,8} {ees'8 f ees d\trill } 
     }
-    
-
     c4. c8 bes4 ees8 d c4 c8 bes16 a16 g8 a bes\trill g 
     c4. d8 bes bes ees8 d c c\trill bes4 c2
-
   }
 }

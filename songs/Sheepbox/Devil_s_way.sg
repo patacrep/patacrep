@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Devil's Way}
-  [by=Sheepbox]
+  [by=Sheepbox,cov=sheepbox,album=Sheepbox]
 
   % verse: 1.&.2.&.3.&.4.&
   %         D   D  UD
@@ -10,6 +10,7 @@
   %          D   D D\dots
   %          Mim   Sol
 
+  \cover
   \capo{9}
   \gtab{Mim}{022000}
   \gtab{Lasus2}{X02200}

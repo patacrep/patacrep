@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Hadopi song III : vivre ou survivre}
+  [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Solm}{3:022000}
+  \gtab{Si&}{1:X02220}
+  \gtab{Fa}{1:022100}
+  \gtab{La7}{X02020}
+
+  \beginverse
+    \[Mim]Ma petite mamie
+    Qu'as-tu donc \[Solm]fait ?
+    Tu nous l'as réveillée, l'Hado\[Si&]pi
+    On a re\[Fa]çu le troisième cou\[La7]rrier
+  \endverse
+
+  \beginverse*
+    T'as téléchargé 
+    Encore Derrick
+    Alors qu'on a tous les DVD
+    Tu l'voulais vraiment ton troisième courrier
+  \endverse
+
+  \beginchorus
+    Et maintenant il faut \[Rém]vivre
+    Ou sur\[Si&]vivre
+    Sans mo\[Fa]dem
+    Sans twi\[La7]tter tout ce qu'on \[Rém]aime
+    Être off\[Do]line donc malheu\[Si&]reux
+    Vivre \[La7]seul, juste nous \[Rém]deux
+  \endchorus
+
+  \beginverse
+    Madame le juge
+    C'est ma mémé
+    Elle est gentille mais handicapée
+    Et on partage la même IP
+  \endverse
+
+  \beginverse*
+    Moi, j'y suis pour rien
+    Et j'ai ma vie
+    Des études à terminer
+    Si vous coupez, vous m'assassinez
+  \endverse
+
+  \beginchorus
+    Car je ne sais pas vivre
+    Ni survivre
+    Sans modem
+    Sans poker tous ceux que j'aime
+    Être offline donc malheureux
+    Vivre seul à moins de deux
+  \endchorus
+
+  \beginverse
+    Mais vivre sans l'octet
+    Déconnecté
+    Je traite mes mails comme au siècle dernier
+    Et j'vais au MacDo pour synchroniser
+  \endverse
+
+  \beginverse*
+    Je raconte ma vie
+    Qui n'a plus d'intérêt
+    Dans un vieux bloc-notes de papier
+    J'utilise un fax pour publier
+  \endverse
+
+  \beginchorus
+    Car je ne sais pas vivre
+    Ni survivre
+    Sans modem
+    Sans poster tout ce que j'aime
+    Être offline, c'est malheureux
+    Vivre seul à moins de deux
+  \endchorus
+
+\endsong

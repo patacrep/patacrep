@@ -1,0 +1,83 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Vivre ou survivre}
+  [by=Daniel Balavoine,cov=vendeurs-de-larmes,album=Vendeurs de larmes]
+
+  \cover
+  \gtab{Mim}{022000}
+  \gtab{Solm}{3:022000}
+  \gtab{Si&}{1:X02220}
+  \gtab{Fa}{1:022100}
+  \gtab{La7}{X02020}
+
+  \beginverse
+    \[Mim]Heure sonne matin
+    Pleurs, \[Solm]chagrins
+    Et repasse le film hu\[Si&]mide
+    Du pa\[Fa]ssé dans les \[La7]yeux
+  \endverse
+
+  \beginverse*
+    Court, bien trop court
+    Notre amour
+    Et les appels au secours
+    Savent qu'un sourd n'entend pas ce qu'il veut
+  \endverse
+
+  \beginchorus
+    Et pourtant, il veut \[Rém]vivre
+    Ou sur\[Si&]vivre
+    Sans po\[Fa]èmes
+    Sans bles\[La7]ser tous ceux qu'il \[Rém]aime
+    Être heu\[Do]reux, malheu\[Si&]reux
+    Vivre \[La7]seul ou même à \[Rém]deux
+  \endchorus
+
+  \beginverse
+    Mais vivre pour toujours, sans discours
+    Sans velours
+    Sans les phrases inutiles
+    D'un vieux roman photo
+  \endverse
+
+  \beginverse
+    Fleurs fanées meurent
+    Noir et blanc
+    Seules couleurs
+    D'un futur qui est déjà le passé pour nous
+  \endverse
+
+  \beginchorus
+    Et pourtant, il faut vivre
+    Ou survivre
+    Sans poèmes
+    Sans blesser ceux qui nous aiment
+    Être heureux, malheureux
+    Vivre seul ou même à deux
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Mais vivre en silence
+    En pensant aux souffrances
+    De la terre et se dire
+    Qu'on est pas les plus malheureux
+  \endverse
+
+  \beginverse*
+    Quand dans l'amour
+    Tout s'effondre
+    Toute la misère d'un monde
+    N'est rien à côté d'un adieu
+  \endverse
+
+  \beginchorus
+    Et pourtant, je veux vivre
+    Ou survivre
+    Sans poèmes
+    Sans blesser tous ceux que j'aime
+    Être heureux, malheureux
+    Vivre seul ou même à deux
+  \endchorus
+
+\endsong

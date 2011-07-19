@@ -1,0 +1,70 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Il jouait du piano debout}
+  [by=France Gall,cov=paris-france,album=Paris, France]
+
+  \cover
+  \capo{1}
+  \gtab{Ré}{XX0232}
+  \gtab{La}{X02220}
+  \gtab{Sim}{2:X02210}
+  \gtab{Sol}{320003}
+  \gtab{Fa#}{2:022100}
+
+  \beginverse
+    Ne \[Ré]me dites pas que ce \[La]garçon é\[Sim]tait fou
+    \[Ré]Il ne vivait pas \[La]comme les autres \[Sim]{c'est} tout
+    \[Sol]Et pour quelles raisons étranges
+    \[La]Les gens qui n'sont pas comme nous
+    Ça \[Sim]nous dérange \[La]
+  \endverse
+
+  \beginverse
+    Ne me dites pas que ce garçon n'valait rien
+    Il avait choisi un autre chemin
+    Et pour quelles raisons étranges
+    Les gens qui pensent autrement
+    Ça nous dérange, ça nous dérange
+  \endverse
+
+  \beginchorus
+    Il jou\[Ré]ait du piano debout
+    C'est peut-\[Fa#]être un détail pour vous
+    Mais pour \[Sim]moi ça veut dire beaucoup
+    Ça veut \[Sol]dire qu'il était libre
+    \[La]Heureux d'être là, malgré tout
+  \endchorus
+
+  \beginchorus
+    Il jouait du piano debout
+    Quand les trouillards sont à genoux
+    Et les soldats au garde à vous
+    Simplement sur ses deux pieds
+    Il voulait être lui, vous comprenez
+  \endchorus
+
+  \beginverse
+    Il n'y a que pour sa musique qu'il était patriote
+    Il serait mort au champ d'honneur pour quelques notes
+    Et pour quelles raisons étranges
+    Les gens qui tiennent à leurs rêves
+    Ça nous dérange
+  \endverse
+
+  \beginverse
+    Lui et son piano, ils pleuraient quelques fois
+    Mais c'est quand les autres n'étaient pas là
+    Et pour quelle raison bizarre
+    Son image a marqué ma mémoire
+    Ma mémoire
+  \endverse
+
+  \beginchorus
+    Il jouait du piano debout
+    Il chantait sur des rythmes fous
+    Mais pour moi, ça veut dire beaucoup
+    Ça veut dire : {\og}Essaie de vivre
+    Essaie d'être heureux, ça vaut le coup{\fg}
+  \endchorus
+
+\endsong

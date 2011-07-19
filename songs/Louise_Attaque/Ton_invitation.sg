@@ -1,0 +1,77 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ton invitation}
+  [by=Louise Attaque,cov=louise-attaque,album=Louise Attaque]
+
+  \cover
+  \gtab{Sim}{2:X02210}
+  \gtab{Fa#}{2:022100}
+
+  \beginverse*
+    J'ai accepté par erreur
+    Ton invitation
+    J'ai dû m'gourer dans l'heure
+    J'ai dû m'planter dans la saison
+  \endverse
+
+  \beginverse
+    Tu sais, j'ai confon\[Sim]du
+    Avec celle qui sourit \[Fa#]pas, mais
+    Celle qui est belle bien enten\[Sim]du, et
+    Qui dit belle dit pour \[Fa#]moi
+  \endverse
+
+  \beginverse*
+    Tu sais, j'ai pas toute ma raison
+    Tu sais, j'ai toujours raison
+    Tu sais, j'suis pas un mec sympa
+    Et j'merde tout ça, tout ça
+  \endverse
+
+  \beginverse*
+    Tu sais, j'ai pas confiance
+    J'ai pas confiance en moi
+    Tu sais, j'ai pas d'espérance
+    Et j'merde tout ça, tout ça
+  \endverse
+
+  \lilypond{Ton_invitation_1}
+
+  \beginverse
+    Si tu veux on parle de toi
+    Si tu veux on parle de moi
+    Parlons de ta future vengeance
+    Que t'auras toi sur moi
+  \endverse
+
+  \beginverse*
+    Disons, entrecoupé d'silences
+    Qu'on est bien seuls pour une fois
+    Qu'on est bien partis pour une danse
+    Ça ira pas plus loin, tu vois
+  \endverse
+
+  \beginverse*
+    J'ai accepté par erreur
+    Ton invitation
+    J'ai dû m'gourer dans l'heure
+    J'ai dû m'planter dans la saison
+  \endverse
+
+  \lilypond{Ton_invitation_2}
+
+  \beginverse
+    J'ai accepté par erreur
+    Ton invitation
+    J'ai dû m'gourer dans l'heure
+    J'ai du m'planter dans la saison
+  \endverse
+
+  \beginverse*
+    Reste à savoir si on trace
+    Un trait, un point dans notre espace
+    Tu sais, j'ai pas toute ma raison
+    Tu sais, j'ai toujours raison
+  \endverse
+
+\endsong

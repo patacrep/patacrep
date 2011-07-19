@@ -1,0 +1,46 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je t'emmène au vent}
+  [by=Louise Attaque,cov=louise-attaque,album=Louise Attaque]
+
+  \cover
+  \capo{4}
+  \gtab{Mim}{022000}
+  \gtab{Sol}{320003}
+  \gtab{Lam}{X02210}
+  \gtab{Ré}{XX0232}
+  \gtab{Fa}{1:022100}
+
+  \beginverse
+    Allez, \[Mim]viens, j't'emmène au \[Sol]vent
+    Je t'em\[Mim]mène au-dessus des \[Sol]gens
+    Et je vou\[Lam]drais que tu te rap\[Mim]pelles
+    Notre amour est éter\[Ré]nel
+    Et pas artifi\[Fa]ciel
+  \endverse
+
+  \beginverse
+    Je voudrais que tu te ramènes devant
+    Que tu sois là de temps en temps
+    Et je voudrais que tu te rappelles
+    Notre amour est éternel
+    Et pas artificiel
+  \endverse
+
+  \beginverse
+    Je voudrais que tu m'appelles plus souvent
+    Que tu prennes parfois les devants
+    Et je voudrais que tu te rappelles
+    Notre amour est éternel
+    Et pas artificiel
+  \endverse
+
+  \beginverse
+    Je voudrais que tu sois celle que j'entends
+    Allez, viens, j't'emmène au-dessus des gens
+    Et je voudrais que tu te rappelles
+    Notre amourette éternelle
+    Artificielle
+  \endverse
+
+\endsong

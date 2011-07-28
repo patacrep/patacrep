@@ -1,0 +1,96 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{SNCeuFeu}
+  [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
+
+  \cover
+  \gtab{Sol}{3:022100}
+  \gtab{Ré7}{3:X2120X}
+  \gtab{Do}{3:X02220}
+  \gtab{Ré}{5:X02220}
+  \gtab{Mim}{022000}
+  \gtab{La}{X02220}
+  \gtab{Si7}{X21202}
+  \gtab{Solm}{3:022000}
+
+  \beginverse
+    \[Sol]Ce week-end pour faire la fête
+    Ré\[Ré7]serve ton billet \[Sol]sur le net
+    Pas d'\[Sol]crise de nerfs, c'est pas l'moment
+    De \[Ré7]maudire ce site \[Sol]indécent
+  \endverse
+
+  \beginchorus
+    \[Sol]Cours, cours, dépêche-toi
+    Tu \[Ré7]vas l'rater en\[Sol]core une fois
+    \[Sol]Cours, cours, dépêche-toi
+    Tu \[Ré7]sais qu'il ne t'attendra \[Sol]pas
+  \endchorus
+
+  \beginverse
+    Évite toute valise surchargée
+    On n'sait jamais c'qui peut t'arriver
+    30 minutes avant l'départ
+    Prie pour qu'le tram soit pas en r'tard
+  \endverse
+
+  \beginverse*
+    \[Sol]Travaux sur la voie, t'es bien en \[Do]veine
+    Mais pas à ça \[Ré]près, vas pas stres\[Sol]ser
+    \[Sol]Profite d'la chaleur hu\[Do]maine
+    En mode sar\[Ré]dine dans un wagon bon\[Sol]dé
+  \endverse
+
+  \beginverse
+    Y'a qu'une bonne dame d'vant la machine
+    Mais dépêche-toi parbleu, fais-vite
+    C'est vrai qu'l'interface réactive
+    Reste un concept très futuriste
+  \endverse
+
+  \beginverse*
+    Billet retiré, faut l'composter
+    Bouscule tout l'monde, fais pas d'quartiers
+    Voie 138, au bout du quai
+    Prépare ton sprint, pense au roulé-boulé
+  \endverse
+
+  \beginverse
+    Surtout, dans ton effort
+    Rappelle-toi cette règle d'or
+  \endverse
+
+  \beginverse*
+    Dès que l'\[Mim]sifflet sonne\[Ré]ra, le train parti\[Mim]ra
+    Si les \[Sol]dieux sont avec \[Ré]toi, il t'emmène\[Mim]ra
+    De pingouin, mais
+  \endverse
+
+  \beginverse*
+    Les \[Mim]portes \[Sol]du Co\[La]rail se \[Do]ferment
+    Et \[Mim]tu te trouves du \[Sol]mauvais cô\[Si7]té
+    \echo{Mais si !}
+  \endverse
+
+  \beginverse
+    Youhou, yipi yeah
+    T'es imbattable à la course à pied
+    Reprend ton souffle, c'est mérité
+    Cette épopée est terminée
+  \endverse
+
+  \beginverse*
+    \[Solm]Mais soudain surgissant d'nulle part
+    Le \[Ré7]contrôleur an\[Solm]nonce un r'tard
+    Ta \[Solm]correspondance part dans les airs
+    Un \[Ré7]arbre est tombé sur une \[Solm]caténaire
+  \endverse
+
+  \beginchorus
+    Cours, cours, et cours toujours
+    SNCF, quelle histoire d'amour
+    Cours, cours, et cours toujours
+    Et surtout ne pense pas au r'tour
+  \endchorus
+
+\endsong

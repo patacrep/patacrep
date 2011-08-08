@@ -4,20 +4,20 @@
   [by=Red Hot Chili Peppers,cov=californication,,album=Californication]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Lam]Psychic spies from China
-    Try to \[Fa]steal your mind's elation
-    \[Lam]Little girls from Sweden
-    Dream of \[Fa]silver screen quotations
-    And \[Do]if you want these \[Sol]kind of dreams
-    It's \[Fa]Californi\[Ré]cation
-    {\nolyrics \[Lam Fa]} \rep{2}
+    \[Am]Psychic spies from China
+    Try to \[F]steal your mind's elation
+    \[Am]Little girls from Sweden
+    Dream of \[F]silver screen quotations
+    And \[C]if you want these \[G]kind of dreams
+    It's \[F]Californi\[D]cation
+    {\nolyrics \[Am F]} \rep{2}
   \endverse
 
   \beginverse*
@@ -30,18 +30,18 @@
   \endverse
 
   \beginverse*
-    \[Lam]Pay your surgeon very well
-    To \[Fa]break the spell of aging
-    \[Lam]Celebrity skin is this your chin
-    Or \[Fa]is that war your waging
-    \[Lam]First born uni\[Fa]corn
-    \[Lam]Hardcore soft \[Fa]porn
+    \[Am]Pay your surgeon very well
+    To \[F]break the spell of aging
+    \[Am]Celebrity skin is this your chin
+    Or \[F]is that war your waging
+    \[Am]First born uni\[F]corn
+    \[Am]Hardcore soft \[F]porn
   \endverse
 
   \beginchorus
-    \[Do]Dream of Cali\[Sol]fornic\[Ré]ation \[Lam]
-    \[Do]Dream of Cali\[Sol]fornic\[Ré]ation
-    {\nolyrics \[Lam Fa]} \rep{2}
+    \[C]Dream of Cali\[G]fornic\[D]ation \[Am]
+    \[C]Dream of Cali\[G]fornic\[D]ation
+    {\nolyrics \[Am F]} \rep{2}
   \endchorus
 
   \beginverse

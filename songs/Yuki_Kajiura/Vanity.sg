@@ -4,44 +4,44 @@
   [by=Yuki Kajiura,cov=fiction,album=Fiction]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Do/Si}{X20010}
-  \gtab{Mi7}{X20100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{C/B}{X20010}
+  \gtab{E7}{X20100}
 
   \lilypond{Vanity}
 
   \beginverse
-    \[Lam]Enter the scenery of love
-    Lovers are in \[Fa]pain
-    \[Sol]They blame and \[Fa]pick on each \[Mim]other
+    \[Am]Enter the scenery of love
+    Lovers are in \[F]pain
+    \[G]They blame and \[F]pick on each \[Em]other
   \endverse
 
   \beginverse*
-    \[Lam]You play melodies of love
-    Forgotten \[Fa]phrases
-    \[Sol]Tender and \[Lam]sweet
+    \[Am]You play melodies of love
+    Forgotten \[F]phrases
+    \[G]Tender and \[Am]sweet
   \endverse
 
   \beginverse*
-    \[Fa]Come a little bit \[Sol]closer
-    Don't \[Do]stay in the \[Do/Si]shadows my \[Fa]boy
-    \echo{\[Fa]La la la la la la \[Sol]la la}
-    The \[Do]melody's \[Do/Si]fading
-    \[Fa]Now or never, \[Sol]love will go
+    \[F]Come a little bit \[G]closer
+    Don't \[C]stay in the \[C/B]shadows my \[F]boy
+    \echo{\[F]La la la la la la \[G]la la}
+    The \[C]melody's \[C/B]fading
+    \[F]Now or never, \[G]love will go
   \endverse
 
   \beginchorus
-    \[Lam]I'll be \[Mim]there
-    \[Lam]By your \[Mim]side
-    \[Fa]Share your \[Sol]fears
-    In the \[Do]silent re\[Mi7]demption
-    \[Lam]Touch my \[Mim]lips
-    \[Lam]Hold me \[Mim]tight
-    \[Fa]Live in \[Sol]vanity
-    \[Lam]For a while
+    \[Am]I'll be \[Em]there
+    \[Am]By your \[Em]side
+    \[F]Share your \[G]fears
+    In the \[C]silent re\[E7]demption
+    \[Am]Touch my \[Em]lips
+    \[Am]Hold me \[Em]tight
+    \[F]Live in \[G]vanity
+    \[Am]For a while
   \endchorus
 
   \beginverse
@@ -59,7 +59,7 @@
   \beginverse*
     Clinging to affection
     We somehow do learn to live
-    \echo{La la la la la la la la}
+    \echo{A la la la la la la la}
     In endless motion
     Never coming back, love will go
   \endverse
@@ -76,9 +76,9 @@
   \endchorus
 
   \beginverse
-    \[Lam]Won't you feel my \[Sol]gentle emotion
-    \[Lam]Let us live in \[Sol]peace with conviction
-    \[Lam]If you're here please \[Mi7]hold me
+    \[Am]Won't you feel my \[G]gentle emotion
+    \[Am]Let us live in \[G]peace with conviction
+    \[Am]If you're here please \[E7]hold me
   \endverse
 
 \endsong

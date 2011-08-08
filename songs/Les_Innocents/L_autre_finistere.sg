@@ -4,18 +4,18 @@
   [by=Les Innocents,cov=fous-a-lier,album=Fous à lier]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Fa}{XX0232}
-  \gtab{Mim}{022000}
-  \gtab{Si7}{X21202}
-  \gtab{La}{X02220}
-  \gtab{Do}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+  \gtab{A}{X02220}
+  \gtab{C}{X32010}
 
   \beginverse
-    Com\[Sol]prendrais-tu ma belle qu'un jour, fatigué
-    J'aille me \[Fa]briser la voix, une dernière fois
-    À cent \[Mim]vingt décibels contre un grand châtaigner
-    \[Fa]{D'amour} pour \[Sol]toi
+    Com\[G]prendrais-tu ma belle qu'un jour, fatigué
+    J'aille me \[F]briser la voix, une dernière fois
+    À cent \[Em]vingt décibels contre un grand châtaigner
+    \[F]{D'amour} pour \[G]toi
   \endverse
 
   \beginverse*
@@ -29,14 +29,14 @@
     On irait y attendre la fin des combats
     Jeter aux vers, aux vautours, tous nos plus beaux discours
     Ces mots qu'on rêvait d'entendre et qui n'existent pas
-    Y \[Fa]devenir \[Sol]sourd \echo{\[La]ouh \[Do]ouh}
+    Y \[F]devenir \[G]sourd \echo{\[A]ouh \[C]ouh}
   \endverse
 
   \beginchorus
-    \[Fa]Il est un estuaire à nos \[Mim]fleuves de soupirs
-    Où l'eau \[Si7]mêle nos mystères et nos \[Sol]belles différences
-    J'y ap\[Fa]prendrais à me taire et tes \[Mim]larmes retenir
-    Dans cet \[Si7]autre finistère aux longues \[Sol]plages de silence
+    \[F]Il est un estuaire à nos \[Em]fleuves de soupirs
+    Où l'eau \[B7]mêle nos mystères et nos \[G]belles différences
+    J'y ap\[F]prendrais à me taire et tes \[Em]larmes retenir
+    Dans cet \[B7]autre finistère aux longues \[G]plages de silence
   \endchorus
 
   \beginverse

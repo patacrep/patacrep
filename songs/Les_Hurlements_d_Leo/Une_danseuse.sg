@@ -4,24 +4,24 @@
   [by=Les Hurlements d'Léo,cov=le-cafe-des-jours-heureux,album=Le café des jours heureux]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Si&}{6:022100}
-  \gtab{La}{5:022100}
-  \gtab{Solm}{3:022000}
-  \gtab{Do}{3:X02220}
+  \gtab{Dm}{5:X02210}
+  \gtab{B&}{6:022100}
+  \gtab{A}{5:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{C}{3:X02220}
 
   \beginverse
-    \[Rém]Elle martèle un putain d'\[Si&]rythme
-    \[Rém]Avec ses \[La]pieds
-    \[Rém]Comme cette pluie qui m'bat la \[Si&]tête
-    Pour \[Rém]mieux y voir en \[La]elle
+    \[Dm]Elle martèle un putain d'\[B&]rythme
+    \[Dm]Avec ses \[A]pieds
+    \[Dm]Comme cette pluie qui m'bat la \[B&]tête
+    Pour \[Dm]mieux y voir en \[A]elle
   \endverse
 
   \beginverse*
-    Une dan\[Solm]seuse anda\[La]louse
-    Qui en \[Si&]fait bien des ja\[La]louses
-    Quand elle \[Si&]danse et se \[La]lance
-    Sur des \[Si&]accords de ja\[La]va
+    Une dan\[Gm]seuse anda\[A]louse
+    Qui en \[B&]fait bien des ja\[A]louses
+    Quand elle \[B&]danse et se \[A]lance
+    Sur des \[B&]accords de ja\[A]va
   \endverse
 
   \beginverse
@@ -37,20 +37,20 @@
   \endverse
 
   \beginchorus
-    Et l'on \[Rém]boit et l'on \[Solm]trinque
-    À la \[Do]santé des a\[Rém]mants
-    Et l'on \[Rém]boit et l'on \[Solm]trinque
-    À la \[Do]santé des a\[Rém]mants
-    Et l'on \[Rém]boit et l'on \[Solm]trinque
-    À ta \[Do]santé, mon \[Rém]amant !
+    Et l'on \[Dm]boit et l'on \[Gm]trinque
+    À la \[C]santé des a\[Dm]mants
+    Et l'on \[Dm]boit et l'on \[Gm]trinque
+    À la \[C]santé des a\[Dm]mants
+    Et l'on \[Dm]boit et l'on \[Gm]trinque
+    À ta \[C]santé, mon \[Dm]amant !
   \endchorus
 
   \beginverse
     {\og} !` Oy, me voy !{\fg}
-    ?` \[Rém]{A d\'onde} va, y va, y \[Si&]va
-    A d\'onde \[La]va, mi gita\[Rém]na ?
-    \[Rém]Todas las noches, me achi\[Si&]ca
-    Porque se \[La]va mi gita\[Rém]na \rep{2}
+    ?` \[Dm]{A d\'onde} va, y va, y \[B&]va
+    A d\'onde \[A]va, mi gita\[Dm]na ?
+    \[Dm]Todas las noches, me achi\[B&]ca
+    Porque se \[A]va mi gita\[Dm]na \rep{2}
   \endverse
 
   \beginverse

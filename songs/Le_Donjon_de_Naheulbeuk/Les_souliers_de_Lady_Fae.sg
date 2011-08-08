@@ -4,18 +4,18 @@
   [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret,album=À poil dans la forêt]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Sim}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Bm}{2:X02210}
 
   \lilypond{Les_souliers_de_Lady_Fae-1}
 
   \beginverse
-    \[Mim]Soufflent les \[Sol]vents, \[Do]tonne l'o\[Sim]rage
-    \[Mim]Pleurent les en\[Sol]fants dans leur \[Do]lit sans bou\[Sim]ger
-    \[Mim]Nul ne \[Sol]sait jamais \[Do]les conso\[Sim]ler
-    \[Mim]Sans racon\[Sol]ter l'histoi\[Sim]re de Lady \[Mim]Fae
+    \[Em]Soufflent les \[G]vents, \[C]tonne l'o\[Bm]rage
+    \[Em]Pleurent les en\[G]fants dans leur \[C]lit sans bou\[Bm]ger
+    \[Em]Nul ne \[G]sait jamais \[C]les conso\[Bm]ler
+    \[Em]Sans racon\[G]ter l'histoi\[Bm]re de Lady \[Em]Fae
   \endverse
 
   \beginverse

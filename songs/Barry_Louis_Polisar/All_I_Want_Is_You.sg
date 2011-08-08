@@ -4,15 +4,15 @@
   [by=Barry Louis Polisar,cov=juno,album=Juno]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
 
   \beginverse
-    If \[Sol]{I was} a flower growing \[Do]wild and \[Sol]free
-    All I'd want is you to be my \[Ré]sweet honey \[Sol]bee
-    And if \[Sol]{I was} a tree growing \[Do]tall and \[Sol]green
-    All I'd want is you to shade me and \[Ré]be my \[Sol]leaves
+    If \[G]{I was} a flower growing \[C]wild and \[G]free
+    All I'd want is you to be my \[D]sweet honey \[G]bee
+    And if \[G]{I was} a tree growing \[C]tall and \[G]green
+    All I'd want is you to shade me and \[D]be my \[G]leaves
   \endverse
 
   \beginchorus

@@ -4,14 +4,14 @@
   [by=Noir Désir,cov=666-667-club,album=666.667 Clu&]
 
   \cover
-  \gtab{Lam}{X022XX}
-  \gtab{Ré}{X002XX}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X022XX}
+  \gtab{D}{X002XX}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \beginverse
-    J'suis un \[Lam]mannequin glacé
+    J'suis un \[Am]mannequin glacé
     Avec un teint de soleil
     Ravalé, Homme pressé
     Mes conneries proférées
@@ -25,14 +25,14 @@
   \endverse
 
   \beginverse*
-    Je tra\[Ré]verse le temps
+    Je tra\[D]verse le temps
     Je suis une référence
     Je suis omniprésent
     Je deviens omniscient
   \endverse
 
   \beginverse*
-    J'ai en\[Lam]vahi le monde
+    J'ai en\[Am]vahi le monde
     Que je ne connais pas
     Peu importe j'en parle
     Peu importe je sais
@@ -40,15 +40,15 @@
     Huit milliards potentiels
     Des crétins asservis
     À part certains de mes amis
-    Du même \[Sol]monde que moi
-    Vous n'ima\[Fa]ginez pas
-    Ce qu'ils sont \[Lam]gais
+    Du même \[G]monde que moi
+    Vous n'ima\[F]ginez pas
+    Ce qu'ils sont \[Am]gais
   \endverse
 
 
   \beginchorus
-    \[Lam]Qui veut de \[Do]moi
-    Et des mi\[Sol]ettes de mon cer\[Lam]veau
+    \[Am]Qui veut de \[C]moi
+    Et des mi\[G]ettes de mon cer\[Am]veau
   \endchorus
 
   \beginchorus
@@ -57,7 +57,7 @@
   \endchorus
 
   \beginverse
-    Mili\[Lam]tant quotidien
+    Mili\[Am]tant quotidien
     De l'inhumanité
     Des profits immédiats
     Des faveurs des médias
@@ -68,15 +68,15 @@
   \endverse
 
   \beginverse*
-    J'connais \[Ré]le tout Paris
+    J'connais \[D]le tout Paris
     Et puis le reste aussi
     Mes connaissances uniques
     Et leurs femmes que je \dots
-    \[Lam]Fréquente évidemment
+    \[Am]Fréquente évidemment
   \endverse
 
   \beginverse*
-    Les \[Lam]cordons de la bourse
+    Les \[Am]cordons de la bourse
     Se relâchent pour moi
     Il n'y a plus de secrets
     Je suis le roi des rois
@@ -87,17 +87,17 @@
   \endverse
 
   \beginverse*
-    J'a\[Ré]dore les émissions
+    J'a\[D]dore les émissions
     À la télévision
     Pas le temps d'regarder
     Mais c'est moi qui les fais
-    On \[Lam]crache la nourriture
+    On \[Am]crache la nourriture
     À ces yeux affamés
     Vous voyez qu'ils demandent
     Nous les savons avides
-    De notre \[Sol]pourriture
-    Mieux que \[Fa]{d'la} confiture
-    À des co\[Lam]chons
+    De notre \[G]pourriture
+    Mieux que \[F]{d'la} confiture
+    À des co\[Am]chons
   \endverse
 
   \beginchorus
@@ -118,13 +118,13 @@
   \endchorus
 
   \beginverse
-    Je suis un \[Lam]militant quotidien
+    Je suis un \[Am]militant quotidien
     De l'inhumanité
-    Et des \[Do]profits immédiats
+    Et des \[C]profits immédiats
     Et puis des faveurs des médias
-    Moi je suis \[Sol]riche, très riche
+    Moi je suis \[G]riche, très riche
     J'fais dans l'immobilier
-    Je \[Lam]sais faire des affaires
+    Je \[Am]sais faire des affaires
     Y'en a qui peuvent payer
   \endverse
 

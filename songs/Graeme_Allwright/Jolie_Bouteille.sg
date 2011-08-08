@@ -5,24 +5,24 @@
 
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{F}{1:022100}
 
 
   \beginchorus
-    \[Do]Jolie bouteille, sacrée bouteille
-    Veux-tu me laisser tran\[Sol7]quil\[Do]le
+    \[C]Jolie bouteille, sacrée bouteille
+    Veux-tu me laisser tran\[G7]quil\[C]le
     Je veux te quitter, je veux m'en aller
-    Je veux recommencer ma \[Sol7]vie\[Do]
+    Je veux recommencer ma \[G7]vie\[C]
   \endchorus
 
   \beginverse
-    J'\[Do]ai traî\[Sol]né dans \[Fa]tous les caf\[Do]és
-    J'ai fait la \[Sol7]manche bien des \[Do]soirs
-    Les t\[Do]emps sont \[Sol]durs
-    J'suis \[Fa]même pas \[Do]sûr
-    \[Do]De me payer \[Sol7]{un coup} à b\[Do]oire
+    J'\[C]ai traî\[G]né dans \[F]tous les caf\[C]és
+    J'ai fait la \[G7]manche bien des \[C]soirs
+    Les t\[C]emps sont \[G]durs
+    J'suis \[F]même pas \[C]sûr
+    \[C]De me payer \[G7]{un coup} à b\[C]oire
 
 \endverse
 

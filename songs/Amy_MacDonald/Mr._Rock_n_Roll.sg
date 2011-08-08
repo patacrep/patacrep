@@ -5,18 +5,18 @@
 
   \cover
   \capo{7}
-  \gtab{Ré}{XX0232}
-  \gtab{Ré4}{XX0233}
-  \gtab{Ré6/9}{XX0200}
-  \gtab{La4}{X02230}
-  \gtab{Mim7}{022030}
-  \gtab{Sol}{320033}
+  \gtab{D}{XX0232}
+  \gtab{D4}{XX0233}
+  \gtab{D6/9}{XX0200}
+  \gtab{A4}{X02230}
+  \gtab{Em7}{022030}
+  \gtab{G}{320033}
 
   \beginverse
-    \[Ré]So called Mr. Rock 'n Roll he's dancing on his own again
+    \[D]So called Mr. Rock 'n Roll he's dancing on his own again
     Talking on his phone again to someone, who tells him that his
-    \[Sol]Balance is low, he's got nowhere to go, he's on his own again
-    {\nolyrics \[Ré Ré4 Ré6/9 Ré] \rep{2}}
+    \[G]Balance is low, he's got nowhere to go, he's on his own again
+    {\nolyrics \[D D4 D6/9 D] \rep{2}}
   \endverse
 
   \beginverse
@@ -26,11 +26,11 @@
   \endverse
 
   \beginchorus
-    And they'll \[La4]meet one day far away and say
-    \[Mim7]{I wish} I was something more
-    And they'll \[La4]meet one day far away and say
-    \[Mim7]{I wish} I knew you, I wish I knew you before
-    {\nolyrics \[Ré Ré4 Ré6/9 Ré] \rep{4}}
+    And they'll \[A4]meet one day far away and say
+    \[Em7]{I wish} I was something more
+    And they'll \[A4]meet one day far away and say
+    \[Em7]{I wish} I knew you, I wish I knew you before
+    {\nolyrics \[D D4 D6/9 D] \rep{4}}
   \endchorus
 
   \beginverse
@@ -46,10 +46,10 @@
   \endverse
 
   \beginchorus
-    He'll say \[Mim7]{I wish} I knew you
-    \[La4]{I wish} met you when \[Sol]time was still on my \[Ré]side
-    She'll say \[Mim7]{I wish} I knew you
-    \[La4]{I wish} I loved you \[Sol]before I was his \[La4]bride
+    He'll say \[Em7]{I wish} I knew you
+    \[A4]{I wish} met you when \[G]time was still on my \[D]side
+    She'll say \[Em7]{I wish} I knew you
+    \[A4]{I wish} I loved you \[G]before I was his \[A4]bride
   \endchorus
 
   \beginverse

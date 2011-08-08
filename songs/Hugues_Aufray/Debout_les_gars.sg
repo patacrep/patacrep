@@ -4,15 +4,15 @@
   [by=Hugues Aufray,cov=le-meilleur-de-hugues-aufray,album=Le meilleur de Hugues Aufray]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Cette montagne que tu vois
-    \[Sol]On en viendra à \[Do]bout les gars
-    \[Lam]Un bulldozer et deux cents bras
-    Et \[Sol]passera la route\[Lam]
+    \[Am]Cette montagne que tu vois
+    \[G]On en viendra à \[C]bout les gars
+    \[Am]Un bulldozer et deux cents bras
+    Et \[G]passera la route\[Am]
   \endverse
 
   \beginchorus

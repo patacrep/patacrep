@@ -4,18 +4,18 @@
   [by=Oldelaf et Monsieur~D.,cov=bete-et-mechant,album=Bête et méchant]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Fa#}{2:022100}
-  \gtab{Si7}{X21202}
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{F#}{2:022100}
+  \gtab{B7}{X21202}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Mim]Saute, saute, \[Lam]saute\[Mim]relle
-    \[Lam]Au mi\[Sol]lieu de \[Fa#]mon jar\[Si7]din
-    \[Mim]Saute, saute et \[Ré]viens, ma \[Sol]belle
-    \[Lam]Je t'é\[Sol]crase en\[Si7]tre mes \[Mim]mains
+    \[Em]Saute, saute, \[Am]saute\[Em]relle
+    \[Am]Au mi\[G]lieu de \[F#]mon jar\[B7]din
+    \[Em]Saute, saute et \[D]viens, ma \[G]belle
+    \[Am]Je t'é\[G]crase en\[B7]tre mes \[Em]mains
   \endverse
 
   \beginchorus

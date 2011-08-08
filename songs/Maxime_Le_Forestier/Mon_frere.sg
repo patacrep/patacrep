@@ -4,22 +4,22 @@
   [by=Maxime Le Forestier,cov=mon-frere,album=Mon frère]
 
   \cover
-  \gtab{Rém}{X32010}
-  \gtab{Solm}{X02210}
-  \gtab{Do}{XX0231}
-  \gtab{Fa}{320001}
-  \gtab{La}{1:022100}
-  \gtab{Ré}{022100}
-  \gtab{Sim}{320003}
-  \gtab{Sol}{320003}
+  \gtab{Dm}{X32010}
+  \gtab{Gm}{X02210}
+  \gtab{C}{XX0231}
+  \gtab{F}{320001}
+  \gtab{A}{1:022100}
+  \gtab{D}{022100}
+  \gtab{Bm}{320003}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Rém]Toi le frère que je n'ai jamais \[Solm]eu
-    Sais-tu si tu avais vé\[Do]cu
-    Ce que nous aurions fait en\[Fa]semble
-    \[La]Un an après moi tu serais \[Rém]né
-    Alors on n'se s'rait plus qui\[Solm]ttés
-    Comme deux amis qui se res\[Rém]sem\[La]blent
+    \[Dm]Toi le frère que je n'ai jamais \[Gm]eu
+    Sais-tu si tu avais vé\[C]cu
+    Ce que nous aurions fait en\[F]semble
+    \[A]Un an après moi tu serais \[Dm]né
+    Alors on n'se s'rait plus qui\[Gm]ttés
+    Comme deux amis qui se res\[Dm]sem\[A]blent
   \endverse
 
   \beginverse*
@@ -32,11 +32,11 @@
   \endverse
 
   \beginchorus
-    \[Ré]Mais tu n'es pas \[La]là
-    À qui la \[Sim]fau\[Sol]te
-    \[Si&] Pas à mon \[Sol]père
-    \[Si&] Pas à ma \[Sol]mère
-    \[Si&] Tu aurais \[Sol]pu chanter \[La]cela
+    \[D]Mais tu n'es pas \[A]là
+    À qui la \[Bm]fau\[G]te
+    \[B&] Pas à mon \[G]père
+    \[B&] Pas à ma \[G]mère
+    \[B&] Tu aurais \[G]pu chanter \[A]cela
   \endchorus
 
   \beginverse

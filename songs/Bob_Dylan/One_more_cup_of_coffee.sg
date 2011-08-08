@@ -4,24 +4,24 @@
   [by=Bob Dylan,cov=desire,album=Desire]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \lilypond{One_more_cup_of_coffee}
 
   \beginverse
-    \[Lam]Your breath is sweet, your eyes are like \[Sol]two jewels in the sky
-    \[Fa]Your back is straight your hair is smooth on the \[Mi]pillow where you lie
-    \[Lam]But I don't sense affection \[Sol]no gratitude or love
-    \[Fa]Your loyalty is not me but \[Mi]to the stars above
+    \[Am]Your breath is sweet, your eyes are like \[G]two jewels in the sky
+    \[F]Your back is straight your hair is smooth on the \[E]pillow where you lie
+    \[Am]But I don't sense affection \[G]no gratitude or love
+    \[F]Your loyalty is not me but \[E]to the stars above
   \endverse
 
   \beginchorus
-    \[Fa]One more cup of coffee for the \[Mi]road
-    \[Fa]One more cup of coffee for I \[Mi]go
-    To the valley be\[Lam]low \[Sol Fa Mi]
+    \[F]One more cup of coffee for the \[E]road
+    \[F]One more cup of coffee for I \[E]go
+    To the valley be\[Am]low \[G F E]
   \endchorus
 
   \beginverse

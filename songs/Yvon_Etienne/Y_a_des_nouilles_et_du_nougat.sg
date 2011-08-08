@@ -4,28 +4,28 @@
   [by=Yvon Etienne,cov=bulles-de-reve,album=Bulles de rêve]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
 
   \beginverse
-    \[Do]Derrière chez moi y'a \[Sol7](t) un é\[Do]tang
-    Savez-\[Sol7]vous, c'qu'il y a dans ma \[Do]poche ?
-    Pas netto\[Sol7]yé de\[Sol]puis 30 \[Do]ans
-    Savez-\[Sol]vous, c'qu'il y a de\[Do]dans ?
+    \[C]Derrière chez moi y'a \[G7](t) un é\[C]tang
+    Savez-\[G7]vous, c'qu'il y a dans ma \[C]poche ?
+    Pas netto\[G7]yé de\[G]puis 30 \[C]ans
+    Savez-\[G]vous, c'qu'il y a de\[C]dans ?
   \endverse
 
   \beginchorus
-    Y'a des \[Do]nouilles et du nougat
-    Des pas\[Fa]tilles, du chocolat
-    Une pe\[Sol]tite sucette en bois
-    C'est pas \[Do]bon mais ça s'use pas
+    Y'a des \[C]nouilles et du nougat
+    Des pas\[F]tilles, du chocolat
+    Une pe\[G]tite sucette en bois
+    C'est pas \[C]bon mais ça s'use pas
     Un chou, un rutabaga
-    Une pomme \[Fa]et un ananas
-    Et un \[Sol]vieux reste de ra-
-    goût a\[Do]vec des petits pois
+    Une pomme \[F]et un ananas
+    Et un \[G]vieux reste de ra-
+    goût a\[C]vec des petits pois
   \endchorus
 
   \beginverse

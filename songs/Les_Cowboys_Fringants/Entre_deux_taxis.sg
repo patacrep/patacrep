@@ -4,34 +4,34 @@
   [by=Les Cowboys Fringants,cov=l-expedition,album=L'expédition]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Sim}{2:X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Si7}{X21202}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{B7}{X21202}
 
   \lilypond{Entre_deux_taxis}
 
   \beginverse
-    \[Mim]Ils se sont embrassés tard \[Sim]dans la nuit
-    \[Do]Sur la banquette d'un ta\[Sol]xi
-    \[Mim]Dehors un lampadaire s'est \[Sim]rallumé
-    \[Si7]Ils ont fait vœu d'éter\[Mim]nité
+    \[Em]Ils se sont embrassés tard \[Bm]dans la nuit
+    \[C]Sur la banquette d'un ta\[G]xi
+    \[Em]Dehors un lampadaire s'est \[Bm]rallumé
+    \[B7]Ils ont fait vœu d'éter\[Em]nité
   \endverse
 
   \beginverse*
-    Sur le toit de la voi\[Do]ture, deux néons lumi\[Ré]neux
-    Semblaient briller que pour \[Sol]eux
-    \[Mim]Comme une petite auréole \[Sim]dans le noir
-    \[Si7]Le taxi filait vers la \[Mim]gloire
+    Sur le toit de la voi\[C]ture, deux néons lumi\[D]neux
+    Semblaient briller que pour \[G]eux
+    \[Em]Comme une petite auréole \[Bm]dans le noir
+    \[B7]Le taxi filait vers la \[Em]gloire
   \endverse
 
 
   \beginchorus
-    Oh qu'il est \[Do]triste le sort des amou\[Sol]reux
-    Se di\[Ré]sait le vieux chauffeur amu\[Mim]sé
-    Car on \[Do]commence toujours à se dire a\[Sol]dieu
-    Dès no\[Si7]tre premier bai\[Mim]ser
+    Oh qu'il est \[C]triste le sort des amou\[G]reux
+    Se di\[D]sait le vieux chauffeur amu\[Em]sé
+    Car on \[C]commence toujours à se dire a\[G]dieu
+    Dès no\[B7]tre premier bai\[Em]ser
   \endchorus
 
   \beginverse

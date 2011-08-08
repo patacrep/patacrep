@@ -5,23 +5,23 @@
 
   \cover
   \capo{2}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
 
   \beginverse
-    It was Christmas \[Do]Eve babe
-    In the \[Fa]drunk tank
-    An old man \[Do]said to me
-    Won't see an\[Sol]other one
+    It was Christmas \[C]Eve babe
+    In the \[F]drunk tank
+    An old man \[C]said to me
+    Won't see an\[G]other one
   \endverse
 
   \beginverse*
-    And then he \[Do]sang a song
-    The Rare Old \[Fa]Mountain Dew
-    And I turned my \[Do]face away
-    And \[Fa]dreamed a\[Sol]bout \[Do]you
+    And then he \[C]sang a song
+    The Rare Old \[F]Mountain Dew
+    And I turned my \[C]face away
+    And \[F]dreamed a\[G]bout \[C]you
   \endverse
 
   \beginverse
@@ -41,26 +41,26 @@
   \lilypond{Fairytale_of_New_York}
 
   \beginverse
-    They've got \[Do]cars
-    Big as \[Sol]bars
-    They've got \[Lam]rivers of \[Fa]gold
-    But the \[Do]wind goes right through you
-    It's no place for the \[Sol]old
+    They've got \[C]cars
+    Big as \[G]bars
+    They've got \[Am]rivers of \[F]gold
+    But the \[C]wind goes right through you
+    It's no place for the \[G]old
   \endverse
 
   \beginverse*
-    When you \[Do]first took my \[Lam]hand
-    On a \[Do]cold Christmas \[Fa]Eve
-    You \[Do]promised me
-    Broadway was \[Sol]waiting for \[Do]me
+    When you \[C]first took my \[Am]hand
+    On a \[C]cold Christmas \[F]Eve
+    You \[C]promised me
+    Broadway was \[G]waiting for \[C]me
   \endverse
 
   \beginverse
-    \[Do]You were handsome
+    \[C]You were handsome
     You were pretty
-    Queen of New York \[Sol]City
-    When the \[Do]band finished \[Fa]playing
-    They \[Sol]howled out for \[Do]more
+    Queen of New York \[G]City
+    When the \[C]band finished \[F]playing
+    They \[G]howled out for \[C]more
   \endverse
 
   \beginverse*
@@ -71,10 +71,10 @@
   \endverse
 
   \beginchorus
-    The \[Fa]boys of the NY\[Lam]PD \[Sol]choir
-    Were \[Do]singing ``Galway \[Lam]Bay''
-    And the \[Do]bells were \[Fa]ringing
-    \[Sol]Out for Christmas \[Do]day
+    The \[F]boys of the NY\[Am]PD \[G]choir
+    Were \[C]singing ``Galway \[Am]Bay''
+    And the \[C]bells were \[F]ringing
+    \[G]Out for Christmas \[C]day
   \endchorus
 
   \beginverse

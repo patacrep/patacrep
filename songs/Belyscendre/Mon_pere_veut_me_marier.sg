@@ -4,19 +4,19 @@
   [by=Belyscendre,cov=prends-garde-au-loup,album=Prends garde au loup]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Do]Mon père veut me marier
+    \[C]Mon père veut me marier
     J'entends le loup, le renard chanter
-    Avec un \[Sol]vieillard éden\[Do]té
-    J'entends le \[Sol]loup, le renard chan\[Do]ter
+    Avec un \[G]vieillard éden\[C]té
+    J'entends le \[G]loup, le renard chan\[C]ter
   \endverse
 
   \beginchorus
-    J'\[Do]entends le loup, le re\[Sol]nard et la be\[Do]lette
-    J'\[Do]entends le loup et le re\[Sol]nard chan\[Do]ter
+    J'\[C]entends le loup, le re\[G]nard et la be\[C]lette
+    J'\[C]entends le loup et le re\[G]nard chan\[C]ter
     \rep{2}
   \endchorus
 

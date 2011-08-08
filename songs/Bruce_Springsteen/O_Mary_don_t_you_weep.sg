@@ -4,22 +4,22 @@
   [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
 
   \cover
-  \gtab{Solm}{3:022000}
-  \gtab{Ré7}{3:X2120X}
-  \gtab{Dom}{3:X02210}
+  \gtab{Gm}{3:022000}
+  \gtab{D7}{3:X2120X}
+  \gtab{Cm}{3:X02210}
 
   \beginverse
-    Well \[Solm]{if I could} I \[Ré7]surely would
-    \[Ré7]Stand on the rock where \[Solm]Moses stood
-    \[Dom]Pharaoh's army got \[Solm]drownded
-    \[Ré7]{O Mary} don't you \[Solm]weep
+    Well \[Gm]{if I could} I \[D7]surely would
+    \[D7]Stand on the rock where \[Gm]Moses stood
+    \[Cm]Pharaoh's army got \[Gm]drownded
+    \[D7]{O Mary} don't you \[Gm]weep
   \endverse
 
   \beginchorus
-    \[Solm]{O Mary}, don't you \[Ré7]weep, don't you mourn
-    \[Ré7]{O Mary}, don't you \[Solm]weep, don't you mourn
-    \[Dom]Pharaoh's army got \[Solm]drownded
-    \[Ré7]{O Mary}, don't you \[Solm]weep
+    \[Gm]{O Mary}, don't you \[D7]weep, don't you mourn
+    \[D7]{O Mary}, don't you \[Gm]weep, don't you mourn
+    \[Cm]Pharaoh's army got \[Gm]drownded
+    \[D7]{O Mary}, don't you \[Gm]weep
   \endchorus
 
   \beginverse

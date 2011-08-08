@@ -4,16 +4,16 @@
   [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin manchot]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \beginverse
-    Imagi\[Lam]nez en bleu une carte com\[Sol]bi
-    En vert, \[Fa]sa matrice de Khalim\[Mi]sky
-    En rouge \[Lam]un arbre des régions \[Mi]
-    Réunis en \[Fa]un combo \[Mi]flashy : {\og}Transforma\[Lam]tion !{\fg}
+    Imagi\[Am]nez en bleu une carte com\[G]bi
+    En vert, \[F]sa matrice de Khalim\[E]sky
+    En rouge \[Am]un arbre des régions \[E]
+    Réunis en \[F]un combo \[E]flashy : {\og}Transforma\[Am]tion !{\fg}
   \endverse
 
 

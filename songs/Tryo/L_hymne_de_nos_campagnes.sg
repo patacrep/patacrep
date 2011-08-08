@@ -5,9 +5,9 @@
 
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Si&}{6:022100}
-  \gtab{La}{5:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{B&}{6:022100}
+  \gtab{A}{5:022100}
 
 
   \beginverse
@@ -18,15 +18,15 @@
   \endverse
 
   \beginverse*
-    \[Rém]Hey ! Les man faut faire \[Si&]{la part} des \[La]choses
-    Il \[Rém]est grand temps de \[Si&]faire une \[La]pause
+    \[Dm]Hey ! Les man faut faire \[B&]{la part} des \[A]choses
+    Il \[Dm]est grand temps de \[B&]faire une \[A]pause
     De troquer cette vie morose
     Contre le parfum d'une rose
   \endverse
 
   \beginchorus
-    C'est l'\[Rém]hymne \[Si&]{de nos} cam\[La]pagnes
-    \[Rém]{De nos} rivières, \[Si&]{de nos} mon\[La]tagnes
+    C'est l'\[Dm]hymne \[B&]{de nos} cam\[A]pagnes
+    \[Dm]{De nos} rivières, \[B&]{de nos} mon\[A]tagnes
     De la vie man{\ldots} du monde animal
     Crie-le bien fort, use tes cordes vocales !
   \endchorus

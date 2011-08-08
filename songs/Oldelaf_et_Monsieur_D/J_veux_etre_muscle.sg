@@ -5,24 +5,24 @@
 
   \cover
   %tabs pour les couplets
-  \gtab{Solm}{10:X02210:}
-  \gtab{Fa}{8:X02220}
-  \gtab{Si&}{6:022100}
-  \gtab{Ré7}{5:X02020}
+  \gtab{Gm}{10:X02210:}
+  \gtab{F}{8:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{D7}{5:X02020}
   %tabs pour le refrain
-  \gtab{Si7}{2:X02020}
-  \gtab{Solm*}{3:022000}
-  \gtab{Fa*}{1:022100}
-  \gtab{Si&*}{1:X02220}
-  \gtab{Dom}{3:X02210}
-  \gtab{Ré7*}{3:X2120X}
+  \gtab{B7}{2:X02020}
+  \gtab{Gm*}{3:022000}
+  \gtab{F*}{1:022100}
+  \gtab{B&*}{1:X02220}
+  \gtab{Cm}{3:X02210}
+  \gtab{D7*}{3:X2120X}
 
   \beginverse
-    J'veux être mus\[Solm]clé
-    Pour pouvoir \[Fa]frimer sur la plage pendant l'é\[Si&]té
-    Pour pouvoir m'\[Fa]inscrire dans un club de beach-vol\[Solm]ley
-    Pour épa\[Fa]ter les filles et puis les faire rê\[Si&]ver
-    J'veux être mus\[Ré7]clé, j'veux être mus\[Solm]clé
+    J'veux être mus\[Gm]clé
+    Pour pouvoir \[F]frimer sur la plage pendant l'é\[B&]té
+    Pour pouvoir m'\[F]inscrire dans un club de beach-vol\[Gm]ley
+    Pour épa\[F]ter les filles et puis les faire rê\[B&]ver
+    J'veux être mus\[D7]clé, j'veux être mus\[Gm]clé
   \endverse
 
   \beginverse
@@ -34,13 +34,13 @@
   \endverse
 
   \beginchorus
-    Mais quand vient l'\[Si7]heure du déjeuner
-    Tout ça j'ai \[Solm*]déjà oublié
-    Je reprends \[Fa*]plusieurs fois des frites
-    Je mange comme \[Si&*]quatre, plutôt comme huit
-    Et quand ar\[Dom]rive le dessert
-    J'voudrais prendre l'\[Solm]assiette toute entière
-    Et pour que je \[Ré7*]puisse la porter \dots
+    Mais quand vient l'\[B7]heure du déjeuner
+    Tout ça j'ai \[Gm*]déjà oublié
+    Je reprends \[F*]plusieurs fois des frites
+    Je mange comme \[B&*]quatre, plutôt comme huit
+    Et quand ar\[Cm]rive le dessert
+    J'voudrais prendre l'\[Gm]assiette toute entière
+    Et pour que je \[D7*]puisse la porter \dots
     Ben faudrait qu'j'sois plus musclé
   \endchorus
 

@@ -4,18 +4,18 @@
   [by=Debout sur le Zinc,cov=recreations,album=Récréations]
 
   \cover
-  \gtab{Dom}{3:X02210}
-  \gtab{La&}{4:022100}
-  \gtab{Mi&}{6:X02220}
-  \gtab{Si&}{6:022100}
-  \gtab{Sol}{3:022100}
+  \gtab{Cm}{3:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{G}{3:022100}
 
   \beginverse
-    J'ai zigouillé ma \[Dom]tante
-    Elle était vieille et \[La&]faible
-    Passant la nuit chez \[Mi&]elle
-    J'ai fouillé dans son \[Si&]coffre
-    J'y ai trouvé de \[Sol]{l'or}
+    J'ai zigouillé ma \[Cm]tante
+    Elle était vieille et \[A&]faible
+    Passant la nuit chez \[E&]elle
+    J'ai fouillé dans son \[B&]coffre
+    J'y ai trouvé de \[G]{l'or}
   \endverse
 
   \beginverse

@@ -4,24 +4,24 @@
   [by=Les Wriggles,cov=ah-ben-ouais-mais-bon,album=Ah ben ouais mais bon]
 
   \cover
-  \gtab{La}{X02220}
-  \gtab{Sim}{2:X02210}
-  \gtab{Mi}{022100}
-  \gtab{Fa#}{2:022100}
-  \gtab{Ré}{XX0232}
-  \gtab{Sol#}{4:022100}
-  \gtab{Do#m}{4:X02210}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{E}{022100}
+  \gtab{F#}{2:022100}
+  \gtab{D}{XX0232}
+  \gtab{G#}{4:022100}
+  \gtab{C#m}{4:X02210}
 
   \beginverse
-    Ju\[La]lie la p'tite olive
-    Rê\[Sim]vait de voyager
-    Mais elle \[Mi]était captive
-    D'un ra\[La]meau d'olivier
+    Ju\[A]lie la p'tite olive
+    Rê\[Bm]vait de voyager
+    Mais elle \[E]était captive
+    D'un ra\[A]meau d'olivier
 
-    Elle t\[La]annait ses copines
-    À lon\[Sim]gueur de journée
-    Avec \[Mi]les Philippines
-    Et St-\[La]Germain des Prés
+    Elle t\[A]annait ses copines
+    À lon\[Bm]gueur de journée
+    Avec \[E]les Philippines
+    Et St-\[A]Germain des Prés
   \endverse
 
   \beginchorus
@@ -42,14 +42,14 @@
     Comme elle avait la verve vive
     Elle prit à partie le Soleil
 
-    Vous Mon\[La]sieur, vous tou\[Sim]rnez
-    Près de \[Mi]24 heures par \[La]jour
-    Le monde \[Fa#]vous le connai\[Sim]ssez
-    Vous en a\[Mi]vez déjà fait l'\[Ré]tour
-    Moi je \[Sol#]suis prison\[Do#m]nière
-    De \[Fa#]cette grosse branche en \[Sim]bois
-    Dites-moi \[Mi]donc c'qui s'passe sur \[Fa]terre
-    Oh oui, siouplait, racontez-\[Mi]moi !
+    Vous Mon\[A]sieur, vous tou\[Bm]rnez
+    Près de \[E]24 heures par \[A]jour
+    Le monde \[F#]vous le connai\[Bm]ssez
+    Vous en a\[E]vez déjà fait l'\[D]tour
+    Moi je \[G#]suis prison\[C#m]nière
+    De \[F#]cette grosse branche en \[Bm]bois
+    Dites-moi \[E]donc c'qui s'passe sur \[F]terre
+    Oh oui, siouplait, racontez-\[E]moi !
   \endverse
 
   \beginchorus
@@ -121,10 +121,10 @@
   \endverse
 
   \beginchorus
-    \[Ré]Et Julie que la \[La]joie inonde
-    \[Mi]Grâce au miracle de \[La]la nature
-    S'\[Ré]est tapée quatre \[La]tours du monde
-    \[Mi]Dans les salons d'l'a\[La]gri\[Mi7]cul\[La]ture
+    \[D]Et Julie que la \[A]joie inonde
+    \[E]Grâce au miracle de \[A]la nature
+    S'\[D]est tapée quatre \[A]tours du monde
+    \[E]Dans les salons d'l'a\[A]gri\[E7]cul\[A]ture
   \endchorus
 
 \endsong

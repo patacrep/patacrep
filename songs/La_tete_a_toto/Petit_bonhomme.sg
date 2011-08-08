@@ -4,37 +4,37 @@
   [by=La Tête à Toto,cov=la-tete-a-toto,album=La Tête à Toto]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Mi}{022100}
-  \gtab{Rém}{XX0231}
-  \gtab{Mi7}{020100}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{Dm}{XX0231}
+  \gtab{E7}{020100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Petit bonhomme, ne reste pas collé
-    À ton \[Mi]cœur si tu veux \[Lam]vivre\[Mi]
-    \[Lam]Une histoire de vivre deux, trois bordels
-    \[Mi]Pour oublier la rou\[Lam]tine\[Mi]
+    \[Am]Petit bonhomme, ne reste pas collé
+    À ton \[E]cœur si tu veux \[Am]vivre\[E]
+    \[Am]Une histoire de vivre deux, trois bordels
+    \[E]Pour oublier la rou\[Am]tine\[E]
   \endverse
 
   \beginverse*
-    Faut ra\[Mi]mer, faut ra\[Lam]mer
-    Si tu ne \[Rém]veux pas recu\[Lam]ler
-    Profi\[Mi7]ter, profi\[Lam]ter
-    Si tu \[Sol]veux un jour cri\[Lam]er
+    Faut ra\[E]mer, faut ra\[Am]mer
+    Si tu ne \[Dm]veux pas recu\[Am]ler
+    Profi\[E7]ter, profi\[Am]ter
+    Si tu \[G]veux un jour cri\[Am]er
   \endverse
 
   \beginchorus
-    Que la \[Do]vie, c'est \[Sol]bon
-    Que la \[Do]vie, c'est \[Sol]long
-    Mais il y a \[Do]des gens \[Sol]qui se \[Do]plaignent\[Sol]
+    Que la \[C]vie, c'est \[G]bon
+    Que la \[C]vie, c'est \[G]long
+    Mais il y a \[C]des gens \[G]qui se \[C]plaignent\[G]
   \endchorus
 
   \beginchorus
-    Que la \[Do]vie, c'est \[Sol]bon
-    Que la \[Do]vie, c'est \[Sol]long
-    Mais il y a des \[Lam]gens \[Mi]qui tournent en \[Lam]rond
+    Que la \[C]vie, c'est \[G]bon
+    Que la \[C]vie, c'est \[G]long
+    Mais il y a des \[Am]gens \[E]qui tournent en \[Am]rond
   \endchorus
 
   \beginverse

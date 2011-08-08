@@ -5,18 +5,18 @@
 
   \cover
   \capo{2}
-  \gtab{Do}{332010}
-  \gtab{Sol7}{320001}
-  \gtab{Rém}{XX0231}
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Ré7}{XX0212}
+  \gtab{C}{332010}
+  \gtab{G7}{320001}
+  \gtab{Dm}{XX0231}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{D7}{XX0212}
 
   \beginverse
-    \[La]Grand-père suivait \[Rém]{en chantant}
-    \[Sol7]La route qui mène \[Do]{à cent ans}
-    \[La]La mort lui fit, au \[Rém]coin d'un bois
-    Le \[Mi]coup du \[Lam]père François
+    \[A]Grand-père suivait \[Dm]{en chantant}
+    \[G7]La route qui mène \[C]{à cent ans}
+    \[A]La mort lui fit, au \[Dm]coin d'un bois
+    Le \[E]coup du \[Am]père François
     L'avait donné de son vivant
     Tant de bonheur à ses enfants
     Qu'on fit, pour lui en savoir gré
@@ -24,38 +24,38 @@
   \endverse
 
   \beginverse*
-    \[La]Et l'on courut \[La7]{à toutes} jam-
-    \[Ré7]bes quérir une bière, mais
-    \[Rém]Comme on é\[Lam]tait légers d'argent
-    Le mar\[Fa]chand nous reçut à bras fer\[Sol]més
+    \[A]Et l'on courut \[A7]{à toutes} jam-
+    \[D7]bes quérir une bière, mais
+    \[Dm]Comme on é\[Am]tait légers d'argent
+    Le mar\[F]chand nous reçut à bras fer\[G]més
   \endverse
 
   \beginverse*
-    Chez l'épi\[Do]cier, pas d'argent, pas d'épices
-    Chez la belle Su\[La]zon, pas d'argent, pas de \[Rém]cuisse
-    Les morts de \[Mi]basse condi\[Lam]tion
-    C'est \[Mi]pas de ma juridi\[Lam]ction \[Mi] \[Lam]
+    Chez l'épi\[C]cier, pas d'argent, pas d'épices
+    Chez la belle Su\[A]zon, pas d'argent, pas de \[Dm]cuisse
+    Les morts de \[E]basse condi\[Am]tion
+    C'est \[E]pas de ma juridi\[Am]ction \[E] \[Am]
   \endverse
 
   \beginverse*
-    \[Sol7]Or, j'avais hérité d'grand-père
+    \[G7]Or, j'avais hérité d'grand-père
     Une paire de bottes pointues
     S'il y a des coups d'pied quelque part qui s'perdent
     Celui-là toucha son but
   \endverse
 
   \beginchorus
-    C'est \[Do]depuis ce temps-là que le bon apôtre \rep{2}
-    {\og}\[Sol7]Ah, c'est \[Do]pas joli
-    \[Sol7]Ah, c'est \[Do]pas poli
-    \[Sol7]Ah une \[Do]fesse qui dit \[Lam]merde à l'\[Sol7]au\[Do]tre{\fg}
+    C'est \[C]depuis ce temps-là que le bon apôtre \rep{2}
+    {\og}\[G7]Ah, c'est \[C]pas joli
+    \[G7]Ah, c'est \[C]pas poli
+    \[G7]Ah une \[C]fesse qui dit \[Am]merde à l'\[G7]au\[C]tre{\fg}
   \endchorus
 
   \beginchorus
-    \[Sol7]Bon papa, ne \[Do]t'en fais pas
-    \[Mi]Nous en vien\[Fa]drons
-    \[Sol]À bout de tous ces \[Do]empêcheurs
-    \[Sol]D'enterrer en \[Do]rond \[Mi]
+    \[G7]Bon papa, ne \[C]t'en fais pas
+    \[E]Nous en vien\[F]drons
+    \[G]À bout de tous ces \[C]empêcheurs
+    \[G]D'enterrer en \[C]rond \[E]
   \endchorus
 
   \beginverse

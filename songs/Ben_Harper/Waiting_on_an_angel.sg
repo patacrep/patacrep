@@ -4,18 +4,18 @@
   [by=Ben Harper,cov=welcome-to-the-cruel-world,album=Welcome to the cruel world]
 
   \cover
-  \gtab{Do}{X30010}
-  \gtab{Do/Si}{X20010}
-  \gtab{Lam7/Mi}{000010}
-  \gtab{Sol}{300000}
-  \gtab{Fa}{100210}
+  \gtab{C}{X30010}
+  \gtab{C/B}{X20010}
+  \gtab{Am7/E}{000010}
+  \gtab{G}{300000}
+  \gtab{F}{100210}
 
   \beginverse
-    \[Do]Wait\[Do/Si]ing on \[Lam/Mi7]an an\[Sol]gel
-    \[Do]One to \[Do/Si]carry \[Lam/Mi]me home\[Sol]
-    \[Do]Hope you \[Do/Si]come to \[Lam/Mi]see me soon\[Sol]
-    Cause I \[Fa]don't \[Sol]want \[Lam/Mi]to go \[Lam/Mi]alone
-    I \[Fa]don't \[Sol]wanna \[Do]go alone \[Do/Si]
+    \[C]Wait\[C/B]ing on \[Am/E7]an an\[G]gel
+    \[C]One to \[C/B]carry \[Am/E]me home\[G]
+    \[C]Hope you \[C/B]come to \[Am/E]see me soon\[G]
+    Cause I \[F]don't \[G]want \[Am/E]to go \[Am/E]alone
+    I \[F]don't \[G]wanna \[C]go alone \[C/B]
   \endverse
 
   \beginverse
@@ -23,15 +23,15 @@
     Angel hear my please
     Take my hand lift me up
     So that I can fly with thee
-    So that I can fly with thee \[Lam7/Mi]
+    So that I can fly with thee \[Am7/E]
   \endverse
 
   \beginchorus
-    \[Fa]And I'm \[Sol]waiting \[Lam/Mi]on an angel\[Lam/Mi]
-    \[Fa]And I \[Sol]know it \[Lam/Mi]won't be long\[Lam7/Mi]
-    \[Fa]To find \[Sol]myself in \[Lam/Mi]a resting \[Lam/Mi]place
-    \[Fa]In my \[Sol]angel's \[Do]arms \[Lam7/Mi]
-    \[Fa]In my \[Sol]angel's \[Do]arms \[Do/Si]
+    \[F]And I'm \[G]waiting \[Am/E]on an angel\[Am/E]
+    \[F]And I \[G]know it \[Am/E]won't be long\[Am7/E]
+    \[F]To find \[G]myself in \[Am/E]a resting \[Am/E]place
+    \[F]In my \[G]angel's \[C]arms \[Am7/E]
+    \[F]In my \[G]angel's \[C]arms \[C/B]
   \endchorus
 
   \beginverse

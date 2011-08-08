@@ -5,15 +5,15 @@
 
   \cover
   \capo{2}
-  \gtab{La}{X02220}
-  \gtab{Ré}{XX0232}
-  \gtab{Mi}{022100}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
 
   \beginverse
-    \[La]Nous étions partis fiévreux mais debout
+    \[A]Nous étions partis fiévreux mais debout
     Provoquer la chance, défier la forêt
-    \[Ré]Nous étions partis semer nos cailloux
-    \[La]Retrouver l'enfance au bout du sentier
+    \[D]Nous étions partis semer nos cailloux
+    \[A]Retrouver l'enfance au bout du sentier
   \endverse
 
   \beginverse*
@@ -24,11 +24,11 @@
   \endverse
 
   \beginchorus
-    On n'est pas sortis du \[Mi]bois\[Ré]
-    On s'est un peu perdus dé\[La]jà
-    On n'est pas sortis du \[Mi]bois
-    On a même oublié pour\[Ré]quoi
-    On n'est pas sortis du \[La]bois
+    On n'est pas sortis du \[E]bois\[D]
+    On s'est un peu perdus dé\[A]jà
+    On n'est pas sortis du \[E]bois
+    On a même oublié pour\[D]quoi
+    On n'est pas sortis du \[A]bois
   \endchorus
 
   \beginverse

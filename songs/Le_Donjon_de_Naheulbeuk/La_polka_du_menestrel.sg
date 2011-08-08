@@ -5,24 +5,24 @@
 
   \cover
   \capo{5}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginverse
-    C'est l'his\[Do]toire du ménestrel
-    Qui ai\[Fa]mait la poé\[Sol]sie
-    Il vou\[Do]lait toujours chanter pour ses a\[Sol]mis
+    C'est l'his\[C]toire du ménestrel
+    Qui ai\[F]mait la poé\[G]sie
+    Il vou\[C]lait toujours chanter pour ses a\[G]mis
   \endverse
 
   \beginverse
-    Quand un \[Do]jour dans les collines
-    Un grand \[Fa]troll s'est appro\[Sol]ché
-    Il a \[Do]sorti sa gui\[Sol]tare et s'est fait \[Do]tuer
+    Quand un \[C]jour dans les collines
+    Un grand \[F]troll s'est appro\[G]ché
+    Il a \[C]sorti sa gui\[G]tare et s'est fait \[C]tuer
   \endverse
 
   \beginverse*
-    \[Sol]Et \[Do]splash !
+    \[G]Et \[C]splash !
   \endverse
 
 \endsong

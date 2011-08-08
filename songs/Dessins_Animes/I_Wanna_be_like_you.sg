@@ -4,18 +4,18 @@
   [by=Dessins Animés,cov=the-jungle-book,album=The jungle book]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Si7}{7:020100}
-  \gtab{Ré7}{5:X02020}
-  \gtab{Sol}{3:022100}
-  \gtab{Mi7}{5:X2120X}
-  \gtab{La7}{5:020100}
+  \gtab{Em}{7:X02210}
+  \gtab{B7}{7:020100}
+  \gtab{D7}{5:X02020}
+  \gtab{G}{3:022100}
+  \gtab{E7}{5:X2120X}
+  \gtab{A7}{5:020100}
 
   \beginverse
-    Now \[Mim]{I'm} the king of the swingers
-    Oh, the jungle \[Si7]VIP
+    Now \[Em]{I'm} the king of the swingers
+    Oh, the jungle \[B7]VIP
     I've reached the top and had to stop
-    And that's what botherin' \[Mim]me
+    And that's what botherin' \[Em]me
   \endverse
 
   \beginverse*
@@ -26,17 +26,17 @@
   \endverse
 
   \beginchorus
-    \[Ré7]Oh, \[Sol]oo bee doo
-    I wanna be like \[Mi7]you
-    I wanna \[La7]walk like you
-    \[Ré7]Talk like you, \[Sol]too
+    \[D7]Oh, \[G]oo bee doo
+    I wanna be like \[E7]you
+    I wanna \[A7]walk like you
+    \[D7]Talk like you, \[G]too
   \endchorus
 
   \beginchorus
-    \[Ré7]You'll see it's \[Sol]true
-    An \[Mi7]ape like me
-    Can \[La7]learn to be
-    \[Ré7]Human \[Sol]too \[Si7]
+    \[D7]You'll see it's \[G]true
+    An \[E7]ape like me
+    Can \[A7]learn to be
+    \[D7]Human \[G]too \[B7]
   \endchorus
 
   \textnote{parlé}

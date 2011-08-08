@@ -4,13 +4,13 @@
   [by=Hervé Cristiani,cov=libre-max,album=Il est libre Max]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
 
   \beginverse
-    Il \[Mim]met de la magie mine de rien \[Do]dans tout c'qu'il fait
-    Il \[Ré]a l'sourire facile même pour \[Mim]les imbéciles
+    Il \[Em]met de la magie mine de rien \[C]dans tout c'qu'il fait
+    Il \[D]a l'sourire facile même pour \[Em]les imbéciles
   \endverse
 
   \beginverse*
@@ -25,8 +25,8 @@
 
 
   \beginchorus
-    Il est \[Mim]libre Max, il est \[Do]libre Max
-    Y'en \[Ré]{a même} qui disent qu'ils l'ont \[Mim]vu voler
+    Il est \[Em]libre Max, il est \[C]libre Max
+    Y'en \[D]{a même} qui disent qu'ils l'ont \[Em]vu voler
   \endchorus
 
 

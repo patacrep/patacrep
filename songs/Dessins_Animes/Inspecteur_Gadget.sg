@@ -4,23 +4,23 @@
   [by=Dessins Animés,cov=inspecteur-gadget,album=Inspecteur Gadget]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Si7}{X21202}
-  \gtab{Mi7}{020100}
-  \gtab{Lam}{5:022000}
-  \gtab{Sol#m}{4:022000}
-  \gtab{Solm}{3:022000}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Fa}{2:022100}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
+  \gtab{E7}{020100}
+  \gtab{Am}{5:022000}
+  \gtab{G#m}{4:022000}
+  \gtab{Gm}{3:022000}
+  \gtab{F#m}{2:022000}
+  \gtab{F}{2:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Eh la qui va là ? \echo{In\[Si7]specteur \[Mi7]Gadget}
-    \[Lam]Eh la ça va pas ? \echo{Ouh \[Mi7]ouh}
-    \[Lam]Oh la je suis là \echo{In\[Si7]specteur \[Mi7]Gadget}
-    \nolyrics{\[Lam Sol#m Solm Fa#m Fa Mi7 Lam]}
+    \[Am]Eh la qui va là ? \echo{In\[B7]specteur \[E7]Gadget}
+    \[Am]Eh la ça va pas ? \echo{Ouh \[E7]ouh}
+    \[Am]Oh la je suis là \echo{In\[B7]specteur \[E7]Gadget}
+    \nolyrics{\[Am G#m Gm F#m F E7 Am]}
   \endverse
 
   \beginverse*
@@ -31,10 +31,10 @@
   \endverse
 
   \beginchorus
-    \echo{\[Rém]Go go} Gadget à main
-    \echo{\[Sol]Flash} Ga\[Do]dget au chapeau
-    \echo{\[Rém]Hey ho} Gadget au poing
-    \echo{\[Si7]Oh la} \[Mi7]Élastico-Gadget
+    \echo{\[Dm]Go go} Gadget à main
+    \echo{\[G]Flash} Ga\[C]dget au chapeau
+    \echo{\[Dm]Hey ho} Gadget au poing
+    \echo{\[B7]Oh la} \[E7]Élastico-Gadget
   \endchorus
 
   \beginverse

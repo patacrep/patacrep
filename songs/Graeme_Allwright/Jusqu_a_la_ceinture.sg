@@ -5,20 +5,20 @@
 
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{3:022100}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{3:022100}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
 
   \beginverse
-    En \[Lam]mille-neuf-\[Sol]cents-qua\[Fa]rante-\[Mi]deux, alors que j'\[Lam]étais \[Mi]à l'ar\[Lam]mée
-    \[Lam]On était en ma\[Sol]nœuvre dans le \[Fa]Louisi\[Mi]ana, \[Lam]une nuit au mois de \[Mi]Mai
-    \[Lam]Le Capi\[Sol]taine nous \[Fa]montre un \[Mi]fleuve et c'est comme \[Fa]ça que tout a commen\[Mi]cé
+    En \[Am]mille-neuf-\[G]cents-qua\[F]rante-\[E]deux, alors que j'\[Am]étais \[E]à l'ar\[Am]mée
+    \[Am]On était en ma\[G]nœuvre dans le \[F]Louisi\[E]ana, \[Am]une nuit au mois de \[E]Mai
+    \[Am]Le Capi\[G]taine nous \[F]montre un \[E]fleuve et c'est comme \[F]ça que tout a commen\[E]cé
   \endverse
 
   \beginchorus
-    On avait\[Lam] d'la \[Sol]flotte \[Fa]jusqu'aux \[Mi]genoux, et le \[Lam]vieux con a \[Mi]dit d'avan\[Lam]cer
+    On avait\[Am] d'la \[G]flotte \[F]jusqu'aux \[E]genoux, et le \[Am]vieux con a \[E]dit d'avan\[Am]cer
   \endchorus
 
   \beginverse

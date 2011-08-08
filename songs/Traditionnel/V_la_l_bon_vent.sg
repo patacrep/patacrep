@@ -3,24 +3,24 @@
 \beginsong{V'la l'bon vent}
   [by=Traditionnel]
 
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Mi7}{020100}
-  \gtab{Sol}{320003}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{E7}{020100}
+  \gtab{G}{320003}
 
   \lilypond{V_la_l_bon_vent}
 
 
   \beginchorus
-    \[Lam]V'la l'bon vent, v'la l'joli vent
-    V'la l'bon vent, ma \[Do]mie m'ap\[Mi7]pelle
-    \[Lam]V'la l'bon vent, v'la l'joli vent
-    V'la l'bon vent, \[Do]ma mie \[Mi7]m'at\[Lam]tend
+    \[Am]V'la l'bon vent, v'la l'joli vent
+    V'la l'bon vent, ma \[C]mie m'ap\[E7]pelle
+    \[Am]V'la l'bon vent, v'la l'joli vent
+    V'la l'bon vent, \[C]ma mie \[E7]m'at\[Am]tend
   \endchorus
 
   \beginverse
-    \[Lam]Derrière chez \[Sol]moi y'a un é\[Lam]tang \rep{2}
-    Trois beaux ca\[Sol]nards y vont na\[Mi7]geant
+    \[Am]Derrière chez \[G]moi y'a un é\[Am]tang \rep{2}
+    Trois beaux ca\[G]nards y vont na\[E7]geant
   \endverse
 
   \beginverse

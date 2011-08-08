@@ -4,29 +4,29 @@
   [by=Georges Brassens,cov=la-mauvaise-reputation,album=La mauvaise réputation]
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{Fa#7}{2:020100}
-  \gtab{Fa#}{2:022100}
-  \gtab{Sol}{3:022100}
-  \gtab{Mim6}{3:XX212X}
-  \gtab{Fa4}{X2313X}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#7}{2:020100}
+  \gtab{F#}{2:022100}
+  \gtab{G}{3:022100}
+  \gtab{Em6}{3:XX212X}
+  \gtab{F4}{X2313X}
 
   \beginverse
-    \[Sim]Au village sans prétention
-    J'ai mau\[Fa#7]vaise réputa\[Sim]tion
+    \[Bm]Au village sans prétention
+    J'ai mau\[F#7]vaise réputa\[Bm]tion
     Qu'je m'démène ou qu'je reste coi
-    Je passe pour \[Fa#7]un je-ne-sais-\[Sim]quoi
-    \[Sol]Je ne fais pourtant de tort \[Fa#]{à personne}
-    \[Sol]En suivant mon ch'min de pe\[Fa#]tit \[Mim6]bon-\[Fa4]hom-\[Fa#]me
+    Je passe pour \[F#7]un je-ne-sais-\[Bm]quoi
+    \[G]Je ne fais pourtant de tort \[F#]{à personne}
+    \[G]En suivant mon ch'min de pe\[F#]tit \[Em6]bon-\[F4]hom-\[F#]me
   \endverse
 
   \beginchorus
-    \[Sim]Mais les braves gens n'aiment pas que
-    L'on suive une \[Fa#7]autre route \[Sim]qu'eux
+    \[Bm]Mais les braves gens n'aiment pas que
+    L'on suive une \[F#7]autre route \[Bm]qu'eux
     Non, les braves gens n'aiment pas que
-    L'on suive une \[Fa#7]autre route \[Sim]qu'eux
-    \[Sol]Tout le monde médit de \[Sim]moi
-    Sauf les mu\[Fa#]ets, ça va de \[Sim]soi
+    L'on suive une \[F#7]autre route \[Bm]qu'eux
+    \[G]Tout le monde médit de \[Bm]moi
+    Sauf les mu\[F#]ets, ça va de \[Bm]soi
   \endchorus
 
   \beginverse

@@ -4,19 +4,19 @@
   [by=Jean-Jacques Goldman,cov=en-passant,album=En passant]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Ré}{XX0232}
-  \gtab{Si}{2:X02220}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{B}{2:X02220}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
   \beginverse
-    Je \[Mim]courais sur la plage abritée \[Ré]des ali\[Mim]zés
-    Une course avec les vagues, juste un vieux \[Ré]compte à ré\[Si]gler
-    Pieds nus \[Mim]comme couraient mes ancêtres
-    Oh j'ai \[Lam]bien vu derrière \[Do]ses lunettes
-    Un \[Mim]type avec \[Ré]un chrono\[Mim]mètre
+    Je \[Em]courais sur la plage abritée \[D]des ali\[Em]zés
+    Une course avec les vagues, juste un vieux \[D]compte à ré\[B]gler
+    Pieds nus \[Em]comme couraient mes ancêtres
+    Oh j'ai \[Am]bien vu derrière \[C]ses lunettes
+    Un \[Em]type avec \[D]un chrono\[Em]mètre
   \endverse
 
   \beginverse
@@ -28,11 +28,11 @@
   \endverse
 
   \beginchorus
-    J'ai pris \[Do]le grand avion \[Ré]blanc du lun\[Mim]di
-    Qu'on re\[Do]gardait se perdre \[Ré]à l'infi\[Mim]ni
-    J'suis ar\[Do]rivé dans le \[Ré]froid des villes
-    Chez les \[Sol]touristes et les \[Lam]automobiles
-    \[Do]Loin de mon ancienne \[Si]vie
+    J'ai pris \[C]le grand avion \[D]blanc du lun\[Em]di
+    Qu'on re\[C]gardait se perdre \[D]à l'infi\[Em]ni
+    J'suis ar\[C]rivé dans le \[D]froid des villes
+    Chez les \[G]touristes et les \[Am]automobiles
+    \[C]Loin de mon ancienne \[B]vie
   \endchorus
 
   \beginverse

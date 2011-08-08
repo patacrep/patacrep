@@ -3,20 +3,20 @@
 \beginsong{Chevaliers de la table ronde}
   [by=Traditionnel]
 
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{F}{1:022100}
 
   \beginverse
-    Cheva\[Do]liers de la Table Ronde
-    Goûtons \[Sol7]voir si le vin est \[Do]bon
+    Cheva\[C]liers de la Table Ronde
+    Goûtons \[G7]voir si le vin est \[C]bon
     \rep{2}
   \endverse
 
   \beginchorus
-    Goûtons \[Fa]voir, \echo{oui, oui, oui}
-    Goûtons \[Do]voir, \echo{non, non, non}
-    Goûtons \[Sol7]voir si le vin est bon
+    Goûtons \[F]voir, \echo{oui, oui, oui}
+    Goûtons \[C]voir, \echo{non, non, non}
+    Goûtons \[G7]voir si le vin est bon
     \rep{2}
   \endchorus
 

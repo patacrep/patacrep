@@ -4,20 +4,20 @@
   [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Mim}{022000}
-  \gtab{Sol}{320003}
-  \gtab{La}{X02220}
-  \gtab{Fa}{1:022100}
-  \gtab{Si&}{1:X02220}
-  \gtab{La7}{X02020}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+  \gtab{A7}{X02020}
 
   \beginverse
-    \[Ré]Un petit gar\[Do]çon est venu \[Ré]me voir tout à l'heure
-    Avec des \[Do]crayons et du pa\[Ré]pier
-    Il m'a dit je \[Do]veux dessiner \[Ré]un homme en couleur
-    \[Mim]Dis-moi comment le colo\[Ré]rier
+    \[D]Un petit gar\[C]çon est venu \[D]me voir tout à l'heure
+    Avec des \[C]crayons et du pa\[D]pier
+    Il m'a dit je \[C]veux dessiner \[D]un homme en couleur
+    \[Em]Dis-moi comment le colo\[D]rier
   \endverse
 
   \beginverse
@@ -28,14 +28,14 @@
   \endverse
 
   \beginchorus
-    \[Ré]Si tu le \[Sol]peins en \[Ré]bleu, \[La]fils
-    \[Ré]Il ne te res\[Sol]semblera \[La]guère
-    \[Fa]Si tu le \[Si&]peins en \[Fa]rouge, \[Do]fils
-    \[Fa]On viendra lui \[Si&]voler sa ter\[Do]re
-    \[Sol]Si tu le \[Do]peins en \[Sol]jaune ,mon \[Ré]fils
-    \[Sol]Il aura \[Do]faim toute \[Sol]sa pauvre \[Ré]vie
-    \[Mim]Si tu le peins en \[La7]noir fils
-    \[Mim]Plus de liberté pour \[Ré]lui
+    \[D]Si tu le \[G]peins en \[D]bleu, \[A]fils
+    \[D]Il ne te res\[G]semblera \[A]guère
+    \[F]Si tu le \[B&]peins en \[F]rouge, \[C]fils
+    \[F]On viendra lui \[B&]voler sa ter\[C]re
+    \[G]Si tu le \[C]peins en \[G]jaune ,mon \[D]fils
+    \[G]Il aura \[C]faim toute \[G]sa pauvre \[D]vie
+    \[Em]Si tu le peins en \[A7]noir fils
+    \[Em]Plus de liberté pour \[D]lui
   \endchorus
 
   \beginverse

@@ -4,12 +4,12 @@
   [by=Mes souliers sont rouges,cov=proches,album=Proches]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
-  \gtab{Sol}{320003}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Ré]Et dans cet arbre
+    \[D]Et dans cet arbre
     Y'a une petite branche \rep{2}
   \endverse
 
@@ -18,8 +18,8 @@
   \endverse
 
   \beginchorus
-    L'arbre est dans ses \[Ré]feuilles Mari\[Sol]lène
-    L'arbre est dans ses \[La]feuilles Don \[Ré]Dé
+    L'arbre est dans ses \[D]feuilles Mari\[G]lène
+    L'arbre est dans ses \[A]feuilles Don \[D]Dé
   \endchorus
 
   \beginverse

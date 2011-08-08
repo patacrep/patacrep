@@ -5,20 +5,20 @@
 
   \cover
   \capo{1}
-  \gtab{Do9+}{X32030}
-  \gtab{Ré9+}{XX0230}
-  \gtab{Mim}{022000}
-  \gtab{Sim}{2:X02210}
-  \musicnote{intro : Do9+ Mim Do9+ Mim}
+  \gtab{C9+}{X32030}
+  \gtab{D9+}{XX0230}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \musicnote{intro : C9+ Em C9+ Em}
 
   \beginverse
-    L\[Do9+]ave
-    \[Mim] Ma mémoire sale dans ce fleuve de \[Do9+]boue
-    \[Mim] Du bout de ta langue nettoie-moi par\[Sim]tout
-    Et ne laisse \[Rém9+]pas la moindre \[Mim]trace
-    De \[Sim]tout
-    Ce qui me \[Ré9+]lie et qui me \[Do9+]lasse
-    Hél\[Mim]as !
+    L\[C9+]ave
+    \[Em] Ma mémoire sale dans ce fleuve de \[C9+]boue
+    \[Em] Du bout de ta langue nettoie-moi par\[Bm]tout
+    Et ne laisse \[Dm9+]pas la moindre \[Em]trace
+    De \[Bm]tout
+    Ce qui me \[D9+]lie et qui me \[C9+]lasse
+    Hél\[Em]as !
   \endverse
 
   \beginverse
@@ -29,7 +29,7 @@
     Tu sais
     Qu'elle doit mourir d'une deuxième mort
     Alors
-    Tue \[Do9+]la\dots en\[Mim]core
+    Tue \[C9+]la\dots en\[Em]core
   \endverse
 
   \beginverse

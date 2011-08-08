@@ -4,22 +4,22 @@
   [by=Georges Brassens,cov=les-copains-d-abord,album=Les copains d'abord]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Mi7}{020100}
-  \gtab{Sol}{320003}
-  \gtab{Fa#}{2:022100}
-  \gtab{Sim}{2:X02210}
-  \gtab{La7}{X02020}
+  \gtab{D}{XX0232}
+  \gtab{E7}{020100}
+  \gtab{G}{320003}
+  \gtab{F#}{2:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{A7}{X02020}
 
   \beginverse
-    Non ce n'é\[Ré]tait pas le radeau
+    Non ce n'é\[D]tait pas le radeau
     De la méduse ce bateau
-    Qu'on se le \[Mi7]dise au fond des ports
+    Qu'on se le \[E7]dise au fond des ports
     Dise au fond des ports
-    Il navi\[Sol]guait en père peinard
-    Sur la grand \[Fa#]mare des canards
-    Et s'appelait : \emph{\[Sim]les copains d'a\[Mi7]bord}
-    Les co\[La7]pains d'a\[Ré]bord
+    Il navi\[G]guait en père peinard
+    Sur la grand \[F#]mare des canards
+    Et s'appelait : \emph{\[Bm]les copains d'a\[E7]bord}
+    Les co\[A7]pains d'a\[D]bord
   \endverse
 
   \beginverse

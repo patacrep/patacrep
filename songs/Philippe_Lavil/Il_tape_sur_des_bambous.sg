@@ -4,36 +4,36 @@
   [by=Philippe Lavil,cov=il-tape-sur-des-bambous,album=Il tape sur des bambous]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Si}{2:X02220}
-  \gtab{Lam}{X02210}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Mi}{022100}
+  \gtab{Em}{022000}
+  \gtab{B}{2:X02220}
+  \gtab{Am}{X02210}
+  \gtab{F#m}{2:022000}
+  \gtab{E}{022100}
 
   \beginverse
-    \[Mim]Il vit sa vie au bord de l'eau
-    Cocos et coquil\[Si]lages
+    \[Em]Il vit sa vie au bord de l'eau
+    Cocos et coquil\[B]lages
     Un dollar pour prendre en photo
-    Son plus beau tatou\[Mim]age
+    Son plus beau tatou\[Em]age
   \endverse
 
   \beginverse*
-    \[Lam]Il vit sa vie comme \[Si]un Vendredi
-    \[Lam]Robinson est par\[Si]ti
-    \[Lam]Tu l'verras toujours \[Si]bien dans sa peau
-    \[Lam]Quand il prend ce tem\[Si]po
+    \[Am]Il vit sa vie comme \[B]un Vendredi
+    \[Am]Robinson est par\[B]ti
+    \[Am]Tu l'verras toujours \[B]bien dans sa peau
+    \[Am]Quand il prend ce tem\[B]po
   \endverse
 
 
   \beginchorus
-    \[Si]Il tape sur des bambous
-    Et c'est numéro \[Mi]un
+    \[B]Il tape sur des bambous
+    Et c'est numéro \[E]un
     Dans son île on est fou
-    Comme on est musi\[Fa#m]cien
+    Comme on est musi\[F#m]cien
     Sur radio Jamaïque
     Il a des copains
-    \[Si]Il fabrique sa musique
-    Et ça lui va \[Mi]bien
+    \[B]Il fabrique sa musique
+    Et ça lui va \[E]bien
   \endchorus
 
   \beginchorus
@@ -44,7 +44,7 @@
     Y'a des filles de partout
     Qui lui veulent du bien
     Lui la gloire, il s'en fout
-    Et ça va, ça \[Mim]vient
+    Et ça va, ça \[Em]vient
   \endchorus
 
 

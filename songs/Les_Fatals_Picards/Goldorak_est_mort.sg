@@ -4,32 +4,32 @@
   [by=Les Fatals Picards,cov=droit-de-veto,album=Droit de véto]
 
   \cover
-  \gtab{Solm}{3:022000}
-  \gtab{Ré}{XX0232}
-  \gtab{Dom}{3:X02210}
-  \gtab{Sol}{3:022100}
-  \gtab{Mim}{022000}
+  \gtab{Gm}{3:022000}
+  \gtab{D}{XX0232}
+  \gtab{Cm}{3:X02210}
+  \gtab{G}{3:022100}
+  \gtab{Em}{022000}
 
   \beginverse
-    \[Solm]La calandre est super enfon\[Ré]cée
-    Et la peinture a bien mor\[Dom]flé
-    Le moteur gauche s'est fait la \[Ré]malle
-    On dirait un kart à pé\[Solm]dales
-    Comment j'vais dire ça à pa\[Ré]pa
-    Au centre ils voudront plus de \[Dom]moi
-    Le rétro gauche est tout pé\[Ré]té
-    Et les planitrons sont tom\[Solm]bés
+    \[Gm]La calandre est super enfon\[D]cée
+    Et la peinture a bien mor\[Cm]flé
+    Le moteur gauche s'est fait la \[D]malle
+    On dirait un kart à pé\[Gm]dales
+    Comment j'vais dire ça à pa\[D]pa
+    Au centre ils voudront plus de \[Cm]moi
+    Le rétro gauche est tout pé\[D]té
+    Et les planitrons sont tom\[Gm]bés
   \endverse
 
   \beginchorus
-    Oh putain, Goldorak est \[Sol]mort
-    Impossible de le r'demar\[Ré]rer
-    Oh la la, Goldorak est \[Mim]mort
-    C'est sûr mon père, il va m'\[Do]tuer
-    Il faut qu'j'arrive à joindre Al\[Sol]kor
-    Je crois qu'le delco est pé\[Ré]té
-    Allez, des couilles, j'suis prince d'\[Mim]Euphor
-    J'vais quand même pas m'mettre à chia\[Do]ler
+    Oh putain, Goldorak est \[G]mort
+    Impossible de le r'demar\[D]rer
+    Oh la la, Goldorak est \[Em]mort
+    C'est sûr mon père, il va m'\[C]tuer
+    Il faut qu'j'arrive à joindre Al\[G]kor
+    Je crois qu'le delco est pé\[D]té
+    Allez, des couilles, j'suis prince d'\[Em]Euphor
+    J'vais quand même pas m'mettre à chia\[C]ler
   \endchorus
 
   \beginverse

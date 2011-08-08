@@ -4,15 +4,15 @@
   [by=Noir Désir,cov=veuillez-rendre-l-ame,album=Veuillez rendre l'âme]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Rém}{XX0231}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
 
   \beginverse
-    \[Lam]Aux sombres héros de l'a\[Fa]mer
-    Qui ont su traver\[Do]ser
-    Les océans du \[Fa]vide
+    \[Am]Aux sombres héros de l'a\[F]mer
+    Qui ont su traver\[C]ser
+    Les océans du \[F]vide
   \endverse
 
   \beginverse*
@@ -22,7 +22,7 @@
   \endverse
 
   \beginchorus
-    \[Lam]Al\[Do]ways \[Rém]lost in the \[Fa]sea \rep{2}
+    \[Am]Al\[C]ways \[Dm]lost in the \[F]sea \rep{2}
   \endchorus
 
   \beginverse

@@ -4,18 +4,18 @@
   [by=Henri Salvador,cov=succes,album=Ses plus grands succès]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
-  \gtab{Sol}{320003}
-  \gtab{La&}{4:X02210}
-  \gtab{Si&}{6:X02210}
-  \gtab{La}{5:X02210}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{G}{320003}
+  \gtab{A&}{4:X02210}
+  \gtab{B&}{6:X02210}
+  \gtab{A}{5:X02210}
 
   \beginverse
-    \[Do]Une chanson douce
-    \[Sol7]Que me chantait ma mam\[Do]an \[Sol7 Do Sol]
-    \[Do]En suçant mon pouce
-    \[Sol7]J'écoutais en m'endorm\[Do]ant
+    \[C]Une chanson douce
+    \[G7]Que me chantait ma mam\[C]an \[G7 C G]
+    \[C]En suçant mon pouce
+    \[G7]J'écoutais en m'endorm\[C]ant
   \endverse
 
   \beginverse*
@@ -26,9 +26,9 @@
   \endverse
 
   \beginchorus
-    \[La&]La petite biche est aux abois
-    Dans le bois se cache le \[Sol]loup
-    \[Si&]Hou \[La]hou \[La&]hou \[Sol]hou
+    \[A&]La petite biche est aux abois
+    Dans le bois se cache le \[G]loup
+    \[B&]Hou \[A]hou \[A&]hou \[G]hou
   \endchorus
 
   \beginchorus

@@ -4,39 +4,39 @@
   [by=Debout sur le Zinc,cov=les-promesses,album=Les promesses]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Si7}{X21202}
-  \gtab{Mim*}{7:X02210}
-  \gtab{Lam*}{5:022000}
-  \gtab{Sol*}{3:022100}
-  \gtab{Si7*}{2:X02020}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{B7}{X21202}
+  \gtab{Em*}{7:X02210}
+  \gtab{Am*}{5:022000}
+  \gtab{G*}{3:022100}
+  \gtab{B7*}{2:X02020}
 
   \lilypond{La_declaration}
 
   \beginverse
-    \[Mim]{C'est} un peu \[Lam]une déclara\[Sol]tion
-    Que je te \[Si7]fais, car il est \[Mim]temps
-    Je \[Lam]crois \[Sol Si7]
+    \[Em]{C'est} un peu \[Am]une déclara\[G]tion
+    Que je te \[B7]fais, car il est \[Em]temps
+    Je \[Am]crois \[G B7]
     Quand certains rêvent de nation
     De football ou de vrais combats
-    \nolyrics{\[Lam Sol Si7]}
+    \nolyrics{\[Am G B7]}
   \endverse
 
   \beginverse*
-    \[Mim]Moi c'est vers \[Lam]toi que je \[Sol]tends
-    Les bras quand \[Si7]ça ne va pas
-    \[Mim]Ma cervelle \[Lam]et mes senti\[Sol]ments
-    Je te les \[Si7]donne, ils sont pour \[Mim]toi
+    \[Em]Moi c'est vers \[Am]toi que je \[G]tends
+    Les bras quand \[B7]ça ne va pas
+    \[Em]Ma cervelle \[Am]et mes senti\[G]ments
+    Je te les \[B7]donne, ils sont pour \[Em]toi
   \endverse
 
   \beginverse*
-    Le reste, on \[Lam]en reparle\[Sol]ra \[Si7] \rep{3}
+    Le reste, on \[Am]en reparle\[G]ra \[B7] \rep{3}
   \endverse
 
   \beginchorus
-    \[Mim*]Pour vivre avec \[Lam*]toi \[Sol* Si7*]
+    \[Em*]Pour vivre avec \[Am*]toi \[G* B7*]
     Tu es mon \emph{chez moi}
     Mon premier et mon second choix
     Mon rêve d'absolu qui ne tarit pas

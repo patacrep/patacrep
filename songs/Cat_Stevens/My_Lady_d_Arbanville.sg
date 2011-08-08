@@ -4,17 +4,17 @@
   [by=Cat Stevens,cov=mona-bone-jakon,album=Mona bone jakon]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Ré}{XX0232}
-  \gtab{Sim}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
 
 
   \beginchorus
-    My lady d'Arbanville \[Mim]
-    \[Ré] Why do you sleep so still?
-    \[Mim] I'll wake you tomorrow
-    \[Ré] And you will be my \[Sim]fill
-    Yes, you will be my \[Mim]fill
+    My lady d'Arbanville \[Em]
+    \[D] Why do you sleep so still?
+    \[Em] I'll wake you tomorrow
+    \[D] And you will be my \[Bm]fill
+    Yes, you will be my \[Em]fill
   \endchorus
 
 

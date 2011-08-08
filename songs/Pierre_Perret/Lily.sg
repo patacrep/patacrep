@@ -5,22 +5,22 @@
 
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol7}{320001}
-  \gtab{Fa}{1:022100}
-  \gtab{Mim}{022000}
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
-  \gtab{Si7}{X21202}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{G7}{320001}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
 
 
   \beginverse
-    \[Do]On la trou\[Rém]vait plutôt jo\[Do]lie, Lily \[Sol7]
-    \[Do]Elle arri\[Rém]vait des Soma\[Do]lies, Lily \[Sol7]
-    \[Do]Dans un ba\[Fa]teau plein d'émigr\[Mim]és
-    Qui ven\[Rém]aient tous de leur plein \[Do]gré
-    Vider les \[Sol7]poubelles à Pa\[Do]ris \[Sol] \[Fa] \[Sol7]
+    \[C]On la trou\[Dm]vait plutôt jo\[C]lie, Lily \[G7]
+    \[C]Elle arri\[Dm]vait des Soma\[C]lies, Lily \[G7]
+    \[C]Dans un ba\[F]teau plein d'émigr\[Em]és
+    Qui ven\[Dm]aient tous de leur plein \[C]gré
+    Vider les \[G7]poubelles à Pa\[C]ris \[G] \[F] \[G7]
   \endverse
 
   \beginverse*
@@ -32,11 +32,11 @@
   \endverse
 
   \beginverse*
-    \[Do]Elle aimait \[Fa]tant la liber\[Sol7]té, Li\[Do]ly
-    \[Mi]Elle rêvait de fraterni\[Lam]té, Lily
-    \[Fa]Un hôte\[Sol7]lier rue Secré\[Do]tan
-    Lui a préci\[Sol]sé en arri\[Mi]vant
-    Qu'on ne re\[Si7]cevait que des \[Mi]Blancs
+    \[C]Elle aimait \[F]tant la liber\[G7]té, Li\[C]ly
+    \[E]Elle rêvait de fraterni\[Am]té, Lily
+    \[F]Un hôte\[G7]lier rue Secré\[C]tan
+    Lui a préci\[G]sé en arri\[E]vant
+    Qu'on ne re\[B7]cevait que des \[E]Blancs
   \endverse
 
   \beginverse

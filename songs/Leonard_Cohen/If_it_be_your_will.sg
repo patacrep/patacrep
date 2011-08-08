@@ -4,25 +4,25 @@
   [by=Leonard Cohen,cov=the-collection,album=The collection]
 
   \cover
-  \gtab{Mi&}{6:X02220}
-  \gtab{Fam}{8:X02210}
-  \gtab{Do#}{4:X02220}
-  \gtab{Dom}{3:X02210}
-  \gtab{La&}{4:022100}
-  \gtab{Si&}{6:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{Fm}{8:X02210}
+  \gtab{C#}{4:X02220}
+  \gtab{Cm}{3:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{B&}{6:022100}
 
   \beginverse
-    \[Mi&]If it be your \[Fam]will
-    \[Do#]That I speak no \[Dom]more
-    \[Mi&]And my voice be \[Fam]still
-    \[La&]As it was be\[Mi&]fore
+    \[E&]If it be your \[Fm]will
+    \[C#]That I speak no \[Cm]more
+    \[E&]And my voice be \[Fm]still
+    \[A&]As it was be\[E&]fore
   \endverse
 
   \beginchorus
-    \[Dom]{I will} speak no \[Si&]more
-    I \[Dom]shall abide un\[Si&]til
-    \[La&]{I am} spoken \[Mi&]for
-    If it \[Si&]be your will
+    \[Cm]{I will} speak no \[B&]more
+    I \[Cm]shall abide un\[B&]til
+    \[A&]{I am} spoken \[E&]for
+    If it \[B&]be your will
   \endchorus
 
   \beginverse
@@ -40,8 +40,8 @@
   \endchorus
 
   \beginverse
-    \nolyrics{ \[Mi& Fam Do# Dom] }
-    \nolyrics{ \[Mi& Fam La& Mi&] }
+    \nolyrics{ \[E& Fm C# Cm] }
+    \nolyrics{ \[E& Fm A& E&] }
   \endverse
 
   \beginchorus

@@ -4,16 +4,16 @@
   [by=Mano Negra,cov=king-of-bongo,album=King of bongo]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{La}{X02220}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{A}{X02220}
 
   \beginverse
-    \[Rém]I'm walking \[Do]out for love \[Fa] \[Do]
-    \[Rém]I'm walking \[Do]bad really down \[Fa]like a \[Do]cool breeze
-    \[Rém]I'm gonna \[Do]be late again, \[Fa]``Driver wait \[Do]for me please!''
-    \[Rém]I'm running \[Do]all in vain, \[Fa]trying to catch \[Do]this ***ing train
+    \[Dm]I'm walking \[C]out for love \[F] \[C]
+    \[Dm]I'm walking \[C]bad really down \[F]like a \[C]cool breeze
+    \[Dm]I'm gonna \[C]be late again, \[F]``Driver wait \[C]for me please!''
+    \[Dm]I'm running \[C]all in vain, \[F]trying to catch \[C]this ***ing train
   \endverse
 
   \beginverse
@@ -31,7 +31,7 @@
   \endverse
 
   \beginverse
-    \[La]I think it's nine when the clock says ten
+    \[A]I think it's nine when the clock says ten
     This girl wont' wait for the out of time, out of time man
   \endverse
 

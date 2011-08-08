@@ -4,23 +4,23 @@
   [by=Los Lobos,cov=rango,album=Rango]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Lam}{5:022000}
-  \gtab{Si&}{6:022100}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{3:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{Am}{5:022000}
+  \gtab{B&}{6:022100}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{3:022100}
 
   \beginverse
-    From \[Rém]out the dust
+    From \[Dm]out the dust
     Came a man true and bold
-    Champion of the fan\[Lam]dango
+    Champion of the fan\[Am]dango
   \endverse
 
   \beginverse*
-    By \[Rém]night he drank \[Lam]whiskey
-    By \[Si&]day killed bad \[Rém]man
-    And the \[Fa]townspeople \[Do]knew him as \[Rém]Rango
+    By \[Dm]night he drank \[Am]whiskey
+    By \[B&]day killed bad \[Dm]man
+    And the \[F]townspeople \[C]knew him as \[Dm]Rango
   \endverse
 
   \beginverse
@@ -36,8 +36,8 @@
   \endverse
 
   \beginchorus
-    Ran\[Sol]go, Ran\[Rém]go
-    Ran\[Sol]go, Ran\[Fa]go \[Do Rém]
+    Ran\[G]go, Ran\[Dm]go
+    Ran\[G]go, Ran\[F]go \[C Dm]
   \endchorus
 
   \beginverse

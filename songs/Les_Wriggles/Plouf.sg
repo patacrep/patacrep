@@ -4,25 +4,25 @@
   [by=Les Wriggles,cov=partent-en-live,album=Partent en live]
 
   \cover
-  \gtab{Ré7M}{5:X02120}
-  \gtab{Do#7}{4:X02020}
-  \gtab{Si7}{6:101X1X}
-  \gtab{Do#m/La}{4:1X2210}
-  \gtab{Do#m}{4:X02210}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Fa#m*}{9:X02210}
-  \gtab{Mi}{022100}
-  \gtab{Mi7}{022130}
-  \gtab{Mi6}{022120}
+  \gtab{D7M}{5:X02120}
+  \gtab{C#7}{4:X02020}
+  \gtab{B7}{6:101X1X}
+  \gtab{C#m/A}{4:1X2210}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#m}{2:022000}
+  \gtab{F#m*}{9:X02210}
+  \gtab{E}{022100}
+  \gtab{E7}{022130}
+  \gtab{E6}{022120}
 
   \beginverse
-    Le \[Ré7M]{petit Jordy} a \[Do#7]{très bien} compris
-    Qu'\[Si7]{à la piscine} pour draguer les copines, faut faire\dots
+    Le \[D7M]{petit Jordy} a \[C#7]{très bien} compris
+    Qu'\[B7]{à la piscine} pour draguer les copines, faut faire\dots
   \endverse
 
   \beginchorus
-    \[Do#m/La]{Plouf !} \[Do#m]Plouf !
-    La vie, parfois fait \[Fa#m]plouf \[Fa#m* Mi Mi7 Mi6 Mi]
+    \[C#m/A]{Plouf !} \[C#m]Plouf !
+    La vie, parfois fait \[F#m]plouf \[F#m* E E7 E6 E]
   \endchorus
 
   \beginverse

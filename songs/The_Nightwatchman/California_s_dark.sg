@@ -4,30 +4,30 @@
   [by=The Nightwatchman,cov=one-man-revolution,album=One man revolution]
 
   \cover
-  \gtab{Fa#}{2:022100}
-  \gtab{Si}{2:X02220}
-  \gtab{Mi}{022100}
-  \gtab{La}{X02220}
+  \gtab{F#}{2:022100}
+  \gtab{B}{2:X02220}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
 
   \beginverse
-    It started in base\[Fa#]ments
-    \[Si] And it started in \[Fa#]sheds
-    It started in back\[Fa#]yards
-    \[Si] And was hidden under \[Fa#]beds
+    It started in base\[F#]ments
+    \[B] And it started in \[F#]sheds
+    It started in back\[F#]yards
+    \[B] And was hidden under \[F#]beds
   \endverse
 
   \beginverse*
-    \[Mi] I turned on the TV
-    \[Si] Don't believe a word they \[Fa#]say
-    \[Mi] We can't stay here now love
-    \[Si] And we can't get away \[Fa#]
+    \[E] I turned on the TV
+    \[B] Don't believe a word they \[F#]say
+    \[E] We can't stay here now love
+    \[B] And we can't get away \[F#]
   \endverse
 
   \beginchorus
-    \[Si] There's a riot on \[Fa#]sunset
-    \[Si] And fires burn in the \[Fa#]park
-    \[Si] The sun has \[Fa#]set my friend
-    \[Si] And California's dark \[La Fa#]
+    \[B] There's a riot on \[F#]sunset
+    \[B] And fires burn in the \[F#]park
+    \[B] The sun has \[F#]set my friend
+    \[B] And California's dark \[A F#]
   \endchorus
 
 

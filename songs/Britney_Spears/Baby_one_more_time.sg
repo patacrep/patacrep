@@ -4,35 +4,35 @@
   [by=Britney Spears,cov=baby-one-more-time,album=Baby one more time]
 
   \cover
-  \gtab{Fa#}{2:022100}
-  \gtab{Sim}{2:X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Mi}{022100}
+  \gtab{F#}{2:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
 
   \beginverse
-    \[Sim]Oh baby baby
-    How \[Fa#]was I supposed to kn\[Ré]ow
-    That \[Mi]something wasn't \[Fa#]right here
+    \[Bm]Oh baby baby
+    How \[F#]was I supposed to kn\[D]ow
+    That \[E]something wasn't \[F#]right here
   \endverse
 
   \beginverse*
-    \[Sim]Oh baby baby
-    I \[Fa#]shouldn't have let you \[Ré]go
-    And \[Mi]now you're out of \[Fa#]sight, yeah
+    \[Bm]Oh baby baby
+    I \[F#]shouldn't have let you \[D]go
+    And \[E]now you're out of \[F#]sight, yeah
   \endverse
 
   \beginverse*
-    \[Sim]Show me how you want it \[Fa#]{to be}
-    Tell me \[Ré]baby, cuz I need to \[Mi]know now!
-    That's be\[Fa#]cause
+    \[Bm]Show me how you want it \[F#]{to be}
+    Tell me \[D]baby, cuz I need to \[E]know now!
+    That's be\[F#]cause
   \endverse
 
   \beginchorus
-    \[Sim]{My loneliness} is \[Fa#]killin me \echo{and I}
-    \[Ré]{I must} confess, I \[Mi]still believe \echo{still \[Fa#]believe}
-    \[Sim]When I'm not with you I \[Fa#]lose my mind
-    Give me a \[Ré]sign
-    \dots \[Mi]Hit me baby \[Fa#]one more time!
+    \[Bm]{My loneliness} is \[F#]killin me \echo{and I}
+    \[D]{I must} confess, I \[E]still believe \echo{still \[F#]believe}
+    \[Bm]When I'm not with you I \[F#]lose my mind
+    Give me a \[D]sign
+    \dots \[E]Hit me baby \[F#]one more time!
   \endchorus
 
   \beginverse

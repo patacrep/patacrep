@@ -4,20 +4,20 @@
   [by=Radiohead,cov=pablo-honey,album=Pablo honey]
 
   \cover
-  \gtab{Sol}{3:022100}
-  \gtab{Si}{7:022100}
-  \gtab{Si#}{8:022100}
-  \gtab{Dom}{3:X02210}
+  \gtab{G}{3:022100}
+  \gtab{B}{7:022100}
+  \gtab{B#}{8:022100}
+  \gtab{Cm}{3:X02210}
 
   \beginverse
-    When you were here before\[Sol]
-    Couldn't look you in the eye\[Si]
-    You're just like an angel\[Si#]
-    Your skin makes me cry\[Dom]
-    You float like a feather\[Sol]
-    In a beautiful world\[Si]
-    I wish I was special\[Si#]
-    You're so fuckin' special\[Dom]
+    When you were here before\[G]
+    Couldn't look you in the eye\[B]
+    You're just like an angel\[B#]
+    Your skin makes me cry\[Cm]
+    You float like a feather\[G]
+    In a beautiful world\[B]
+    I wish I was special\[B#]
+    You're so fuckin' special\[Cm]
   \endverse
 
   \beginchorus

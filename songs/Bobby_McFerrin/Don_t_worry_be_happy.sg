@@ -4,15 +4,15 @@
   [by=Bobby McFerrin,cov=dont-worry-be-happy,album=Don't worry be happy]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Fam}{1:022000}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{Fm}{1:022000}
 
   \beginverse
-    \[Do]Here's a little song I wrote
-    \[Sol]You might want to sing it note for note
-    Don't \[Fa]worry,\[Fam Sol] be \[Do]happy \[Sol]
+    \[C]Here's a little song I wrote
+    \[G]You might want to sing it note for note
+    Don't \[F]worry,\[Fm G] be \[C]happy \[G]
   \endverse
 
   \beginverse
@@ -22,12 +22,12 @@
   \endverse
 
   \beginchorus
-    \[Do]Uh uh uh uh uh
-    Uh uh uh uh \[Sol]uh uh uh
+    \[C]Uh uh uh uh uh
+    Uh uh uh uh \[G]uh uh uh
     Don't worry
     Uh uh uh uh uh uh uh
     Be happy
-    Uh uh uh uh \[Do]uh
+    Uh uh uh uh \[C]uh
     Don't worry, be happy
   \endchorus
 

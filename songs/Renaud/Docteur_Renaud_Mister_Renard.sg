@@ -4,27 +4,27 @@
   [by=Renaud,cov=boucan-d-enfer,album=Boucan d'enfer]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Mim7}{022030}
-  \gtab{Fa2}{1330XX}
-  \gtab{Sol2}{3X02XX}
-  \gtab{Mi/Sol#}{2:311341}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Em7}{022030}
+  \gtab{F2}{1330XX}
+  \gtab{G2}{3X02XX}
+  \gtab{E/G#}{2:311341}
 
   \beginverse
-    \[Lam]Comme y'a eu \[Fa]Gainsbourg et Gains\[Sol]barre
-    Y'a le \[Mim7]Renaud et le Re\[Lam]nard
-    Le Renaud \[Fa]ne boit que de \[Sol]l'eau
-    Le Renard \[Mim7]carbure au Ri\[Lam]card
-    Un côté \[Fa]blanc, un côté \[Sol]noir
-    Personne n'est \[Mim7]tout moche ou tout \[Lam]beau
-    Moitié ange \[Fa]et moitié sa\[Sol]laud
-    Et c'est ce \[Mim7]que nous allons \[Lam]voir
+    \[Am]Comme y'a eu \[F]Gainsbourg et Gains\[G]barre
+    Y'a le \[Em7]Renaud et le Re\[Am]nard
+    Le Renaud \[F]ne boit que de \[G]l'eau
+    Le Renard \[Em7]carbure au Ri\[Am]card
+    Un côté \[F]blanc, un côté \[G]noir
+    Personne n'est \[Em7]tout moche ou tout \[Am]beau
+    Moitié ange \[F]et moitié sa\[G]laud
+    Et c'est ce \[Em7]que nous allons \[Am]voir
   \endverse
 
   \beginchorus
-    \[Fa]Docteur Re\[Sol]naud, Mis\[Mim7]ter Re\[Lam]nard \[Fa] \[Sol] \[Mim7]
+    \[F]Docteur Re\[G]naud, Mis\[Em7]ter Re\[Am]nard \[F] \[G] \[Em7]
   \endchorus
 
   \beginverse
@@ -39,14 +39,14 @@
   \endverse
 
   \beginchorus
-    \[Mim7]Renaud s'ef\[Fa]force, c'est son boulot
-    D'écrire \[Mi/Sol#]de jolies histoires
-    Pour séduire \[Lam]les gens, les mar\[Sol]mots
-    Pour amu\[Fa]ser pour émouvoir
-    À la poin\[Fa2]te de son stylo
-    Le Renard \[Mi/Sol#]n'a que des gros mots
-    La para\[Lam]no et le ca\[Sol]fard
-    N'lui inspirent \[Fa2]que des idées noires
+    \[Em7]Renaud s'ef\[F]force, c'est son boulot
+    D'écrire \[E/G#]de jolies histoires
+    Pour séduire \[Am]les gens, les mar\[G]mots
+    Pour amu\[F]ser pour émouvoir
+    À la poin\[F2]te de son stylo
+    Le Renard \[E/G#]n'a que des gros mots
+    La para\[Am]no et le ca\[G]fard
+    N'lui inspirent \[F2]que des idées noires
   \endchorus
 
   \beginverse
@@ -89,8 +89,8 @@
     Prendra le dessus sur Renaud
     Aujourd'hui son amour se barre
     Son bel amour, son Domino
-    Elle quitte le vilain Re\[Sol2]nard
-    Mais aimera toujours Renaud\[Lam] \[Fa]
+    Elle quitte le vilain Re\[G2]nard
+    Mais aimera toujours Renaud\[Am] \[F]
   \endverse
 
 

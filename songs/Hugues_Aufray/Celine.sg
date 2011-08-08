@@ -4,25 +4,25 @@
   [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
 
   \beginverse
-    Dis-\[Lam]moi, Céline, les années ont passé
-    Pourquoi n'as-tu jamais pen\[Rém]sé à te marier ?
-    \[Sol] De toutes mes sœurs qui vi\[Do]vaient ici
-    Tu es \[Mi]la seule sans ma\[Lam]ri
+    Dis-\[Am]moi, Céline, les années ont passé
+    Pourquoi n'as-tu jamais pen\[Dm]sé à te marier ?
+    \[G] De toutes mes sœurs qui vi\[C]vaient ici
+    Tu es \[E]la seule sans ma\[Am]ri
   \endverse
 
   \beginchorus
-    Non, non, non, \[Rém]ne rougis pas
-    Non, \[Lam]ne rougis pas
-    \[Fa]Tu as, tu as \[Lam]toujours de beaux yeux
-    \[Rém]Ne rougis pas non, \[Lam]ne rougis pas
-    \[Sol]Tu aurais pu rendre \[Lam]un homme heureux
+    Non, non, non, \[Dm]ne rougis pas
+    Non, \[Am]ne rougis pas
+    \[F]Tu as, tu as \[Am]toujours de beaux yeux
+    \[Dm]Ne rougis pas non, \[Am]ne rougis pas
+    \[G]Tu aurais pu rendre \[Am]un homme heureux
   \endchorus
 
   \beginverse

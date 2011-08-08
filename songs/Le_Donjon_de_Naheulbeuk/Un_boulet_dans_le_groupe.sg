@@ -6,26 +6,26 @@
 
   \cover
   \capo{3}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
 
 
   \beginverse
-    \[Lam]Dans cette auberge où l'on s'est rencon\[Sol]tré
+    \[Am]Dans cette auberge où l'on s'est rencon\[G]tré
     Cinq, six soldats, j'ai bousculés \rep{2}
-    Y'en a bien \[Lam]quatre qui voulaient m'frapper
-    C'est mon chat noir qu'ils ont piéti\[Sol]né
-    Y'en a bien \[Lam]quatre qui voulaient m'frapper
-    C'est mon chat \[Sol]noir qu'ils ont piéti\[Lam]né
+    Y'en a bien \[Am]quatre qui voulaient m'frapper
+    C'est mon chat noir qu'ils ont piéti\[G]né
+    Y'en a bien \[Am]quatre qui voulaient m'frapper
+    C'est mon chat \[G]noir qu'ils ont piéti\[Am]né
   \endverse
 
   \beginchorus
-    \[Do]Si j'avais su ce sortilège
-    Jamais ça n'serait \[Sol7]arri\[Do]vé
-    \[Do]Si j'avais su ce sortilège
-    \[Sol]Malheureusement je l'avais \[Do]ou\[Mi7]bli\[Lam]é
+    \[C]Si j'avais su ce sortilège
+    Jamais ça n'serait \[G7]arri\[C]vé
+    \[C]Si j'avais su ce sortilège
+    \[G]Malheureusement je l'avais \[C]ou\[E7]bli\[Am]é
   \endchorus
 
   \beginchorus

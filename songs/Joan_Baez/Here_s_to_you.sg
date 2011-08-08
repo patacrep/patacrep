@@ -3,18 +3,18 @@
 \beginsong{Here's to you}
   [by=Joan Baez]
 
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
-  \gtab{Lam}{X02210}
-  \gtab{Mi}{022100}
-  \gtab{Fa}{1:022100}
-  \gtab{Rém}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
 
   \beginverse
-    \[Do]Here's to \[Sol7]you, Ni\[Lam]colas and \[Mi]Bart
-    \[Do]Rest for\[Sol7]ever \[Lam]here in our \[Sol7]hearts
-    \[Do]The last and \[Fa]final \[Sol]moment is \[Lam]yours
-    That \[Do]agon\[Rém]y is y\[Lam]our \[Mi]tri\[Lam]umph
+    \[C]Here's to \[G7]you, Ni\[Am]colas and \[E]Bart
+    \[C]Rest for\[G7]ever \[Am]here in our \[G7]hearts
+    \[C]The last and \[F]final \[G]moment is \[Am]yours
+    That \[C]agon\[Dm]y is y\[Am]our \[E]tri\[Am]umph
   \endverse
 
 \endsong

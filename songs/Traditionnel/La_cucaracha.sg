@@ -1,16 +1,16 @@
 \selectlanguage{spanish}
 \songcolumns{2}
-\beginsong{La Cucaracha}
+\beginsong{A Cucaracha}
   [by=Traditionnel]
 
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
   \beginverse
-    La cuca\[Do]racha, la cucaracha
-    Ya no puede cami\[Sol]nar
+    La cuca\[C]racha, la cucaracha
+    Ya no puede cami\[G]nar
     Porque no tiene, porque le falta
-    Marijuana que fu\[Do]mar
+    Marijuana que fu\[C]mar
   \endverse
 
 \endsong

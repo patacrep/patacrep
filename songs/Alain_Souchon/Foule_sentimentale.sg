@@ -4,18 +4,18 @@
   [by=Alain Souchon,cov=c-est-deja-ca,album=C'est déjà ça]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Ré7}{XX0212}
-  \gtab{Si7}{X21202}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D7}{XX0212}
+  \gtab{B7}{X21202}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Mim]Oh la la \[Lam]la vie en r\[Ré7]ose \[Si7]
-    \[Mim]Le rose \[Do]{qu'on} nous prop\[Lam]ose \[Si7]
-    \[Mim]{D'avoir} des \[Lam]quantités d'ch\[Ré7]oses \[Si7]
-    \[Mim]Qui donnent en\[Do]vie d'autre ch\[Lam]ose \[Si7]
+    \[Em]Oh la la \[Am]la vie en r\[D7]ose \[B7]
+    \[Em]Le rose \[C]{qu'on} nous prop\[Am]ose \[B7]
+    \[Em]{D'avoir} des \[Am]quantités d'ch\[D7]oses \[B7]
+    \[Em]Qui donnent en\[C]vie d'autre ch\[Am]ose \[B7]
   \endverse
 
   \beginverse*
@@ -26,14 +26,14 @@
   \endverse
 
   \beginchorus
-    Car \[Mim]foule senti\[Do]mentale \[Lam Si7]
-    \[Mim]On a soif d'i\[Lam]déal \[Ré Si7]
-    \[Mim]Attiré \[Do]par les é\[Lam]toiles les \[Si7]voiles
-    \[Mim]Que des choses \[Lam]pas commerciales \[Ré Si7]
-    \[Mim]Foule senti\[Do]mentale \[Lam Si7]
-    \[Mim]Il faut voir \[Lam]comme on nous \[Ré]parle \[Si7]
-    \[Mim]Comme on nous pa\[Do]rle \[Lam Si7]
-    \nolyrics{\[Mim Lam Ré Si7]}
+    Car \[Em]foule senti\[C]mentale \[Am B7]
+    \[Em]On a soif d'i\[Am]déal \[D B7]
+    \[Em]Attiré \[C]par les é\[Am]toiles les \[B7]voiles
+    \[Em]Que des choses \[Am]pas commerciales \[D B7]
+    \[Em]Foule senti\[C]mentale \[Am B7]
+    \[Em]Il faut voir \[Am]comme on nous \[D]parle \[B7]
+    \[Em]Comme on nous pa\[C]rle \[Am B7]
+    \nolyrics{\[Em Am D B7]}
   \endchorus
 
   \beginverse

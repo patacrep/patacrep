@@ -4,20 +4,20 @@
   [by=Pow Wow,cov=quatre,album=Quatre]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Sol]Dans la jungle, ter\[Do]rible jungle
-    Le \[Sol]lion est mort ce \[Ré]soir
-    \[Sol]Et les hommes tran\[Do]quilles s'endorment
-    Le \[Sol]lion est mort ce \[Ré]soir
+    \[G]Dans la jungle, ter\[C]rible jungle
+    Le \[G]lion est mort ce \[D]soir
+    \[G]Et les hommes tran\[C]quilles s'endorment
+    Le \[G]lion est mort ce \[D]soir
   \endverse
 
   \beginchorus
-    O \[Sol]wimboe, o wimboe, o \[Do]wimboe, o wimboe
-    O \[Sol]wimboe, o wimboe, o \[Ré]wimboe
+    O \[G]wimboe, o wimboe, o \[C]wimboe, o wimboe
+    O \[G]wimboe, o wimboe, o \[D]wimboe
   \endchorus
 
   \beginverse

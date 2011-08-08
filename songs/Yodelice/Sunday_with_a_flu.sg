@@ -5,17 +5,17 @@
 
   \cover
   \capo{3}
-  \gtab{Sim}{2:X02210}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
-  \musicnote{intro: Sim Sol Ré Sim}
+  \musicnote{intro: Bm G D Bm}
 
   \beginverse
-    \[Sim]Closed my door, forgot my key
+    \[Bm]Closed my door, forgot my key
     Missed my bus in the pouring rain
-    It's \[Sol]been the usual su\[Ré]nday with a flu \[Sim]
-    \[Sol]And I just can't \[Ré]get over you \[Sim]
+    It's \[G]been the usual su\[D]nday with a flu \[Bm]
+    \[G]And I just can't \[D]get over you \[Bm]
   \endverse
 
   \beginverse
@@ -26,9 +26,9 @@
   \endverse
 
   \beginchorus
-    I \[Sol]put your stockings
-    \[Ré]In my purple boots \[Sim]
-    \[Sol]What if I do\[Ré]n't get over you? \[Sim]
+    I \[G]put your stockings
+    \[D]In my purple boots \[Bm]
+    \[G]What if I do\[D]n't get over you? \[Bm]
   \endchorus
 
   \beginverse

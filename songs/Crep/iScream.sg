@@ -4,15 +4,15 @@
   [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
 
   \cover
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Ré}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{D}{XX0232}
 
   \beginverse
-    Il était \[La]une fois une gentille pomme
-    Qui n'avait \[Mi]rien demandé à personne \rep{2}
-    Quand soudain \[Ré]un gentil pa\[La]pi
-    Croqua de\[Mi]dans et la pris pour \[La]lui \rep{2}
+    Il était \[A]une fois une gentille pomme
+    Qui n'avait \[E]rien demandé à personne \rep{2}
+    Quand soudain \[D]un gentil pa\[A]pi
+    Croqua de\[E]dans et la pris pour \[A]lui \rep{2}
   \endverse
 
   \beginverse
@@ -23,8 +23,8 @@
   \endverse
 
   \beginchorus
-    \[Mi]iPod, \[La]iPhone, \[Mi]I don't \[La]care
-    \[Mi]Dans tous les \[La]cas \[Ré]{\og}révo\[Mi]lutio\[La]nnaire{\fg}
+    \[E]iPod, \[A]iPhone, \[E]I don't \[A]care
+    \[E]Dans tous les \[A]cas \[D]{\og}révo\[E]lutio\[A]nnaire{\fg}
   \endchorus
 
   \beginverse

@@ -6,39 +6,39 @@
 
   \cover
   \capo{1}
-  \gtab{Mim}{022000}
-  \gtab{Sol}{320003}
-  \gtab{Sim}{2:X02210}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
 
 
   \beginverse
-    \[Mim] C'est une maison \[Sol]bleue
-    \[Sim] Adossée à la co\[Do]lline
+    \[Em] C'est une maison \[G]bleue
+    \[Bm] Adossée à la co\[C]lline
     On y vient à pied
-    \[Sol]On ne frappe pas
-    \[Ré]Ceux qui vivent là
-    Ont jeté la \[Do]clé \[Mim]
+    \[G]On ne frappe pas
+    \[D]Ceux qui vivent là
+    Ont jeté la \[C]clé \[Em]
   \endverse
 
   \beginverse*
-    \[Mim] On se retrouve en\[Sol]semble
-    \[Sim] Après des années de \[Do]route
+    \[Em] On se retrouve en\[G]semble
+    \[Bm] Après des années de \[C]route
     Et on vient s'assoir
-    \[Sol]Autour d'un repas
-    \[Ré]Tout le monde est là
-    À cinq heures du \[La]soir \[Mim]
+    \[G]Autour d'un repas
+    \[D]Tout le monde est là
+    À cinq heures du \[A]soir \[Em]
   \endverse
 
   \beginchorus
-    Quand \[Mim]San Franci\[Sol]sco s'em\[La]brume
-    Quand \[La]San Franci\[Do]sco s'a\[Ré]llu\[Mim]me
-    San Franci\[Sim]sco
-    Où êtes-\[Mim]vous
-    \[Sol]Lizard et \[La]Luc, \[Do]Psylvia
-    \[Ré]Attendez-\[Mim]moi
+    Quand \[Em]San Franci\[G]sco s'em\[A]brume
+    Quand \[A]San Franci\[C]sco s'a\[D]llu\[Em]me
+    San Franci\[Bm]sco
+    Où êtes-\[Em]vous
+    \[G]Lizard et \[A]Luc, \[C]Psylvia
+    \[D]Attendez-\[Em]moi
   \endchorus
 
   \beginverse

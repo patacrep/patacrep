@@ -4,19 +4,19 @@
   [by=Simon \& Garfunkel,cov=the-definitive,album=The definitive]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Mim}{022000}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
 
 
   \beginverse
-    I can \[Do]hear the soft \[Lam]breathing of the \[Fa]girl that I \[Mim]love
-    As she \[Do]lies here be\[Rém]side me a\[Sol]sleep with the night
-    And her \[Do]hair in a \[Lam]fine mist \[Fa]floats on my \[Mim]pillow
-    Re\[Do]flecting the \[Rém]glow of the \[Fa]win\[Sol]ter moon\[Do]light
+    I can \[C]hear the soft \[Am]breathing of the \[F]girl that I \[Em]love
+    As she \[C]lies here be\[Dm]side me a\[G]sleep with the night
+    And her \[C]hair in a \[Am]fine mist \[F]floats on my \[Em]pillow
+    Re\[C]flecting the \[Dm]glow of the \[F]win\[G]ter moon\[C]light
   \endverse
 
   \beginverse

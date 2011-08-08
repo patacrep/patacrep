@@ -4,27 +4,27 @@
   [by=Simon \& Garfunkel,cov=the-definitive,album=The definitive]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Mi7}{020100}
-  \gtab{La}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{E7}{020100}
+  \gtab{A}{X02220}
 
 
   \beginchorus
-    \[Ré] And here's to \[Sol]you Mrs. \[Mim]Robinson
-    \[Sol]Jesus loves you \[Mim]more than you will \[Do]know, \echo{wo wo \[Lam]wo}
-    \[Ré]God bless you \[Sol]please Mrs. \[Mim]Robinson
-    \[Sol]Heaven holds a \[Mim]place for those who \[Do]pray, \echo{hey hey \[Lam]hey}
+    \[D] And here's to \[G]you Mrs. \[Em]Robinson
+    \[G]Jesus loves you \[Em]more than you will \[C]know, \echo{wo wo \[Am]wo}
+    \[D]God bless you \[G]please Mrs. \[Em]Robinson
+    \[G]Heaven holds a \[Em]place for those who \[C]pray, \echo{hey hey \[Am]hey}
   \endchorus
 
   \beginverse
-    \[Mi7]We'd like to know a little bit about you for our files
-    \[La]We'd like to help you learn to help yourself
-    \[Ré]Look around you, \[Sol]all you see are \[Do]sympathetic \[Lam]eyes
-    \[Mi7]Stroll around the grounds un\[Ré]til you feel at home
+    \[E7]We'd like to know a little bit about you for our files
+    \[A]We'd like to help you learn to help yourself
+    \[D]Look around you, \[G]all you see are \[C]sympathetic \[Am]eyes
+    \[E7]Stroll around the grounds un\[D]til you feel at home
   \endverse
 
   \beginverse

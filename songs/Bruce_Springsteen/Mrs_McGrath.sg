@@ -4,24 +4,24 @@
   [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
 
   \cover
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \lilypond{Mrs_McGrath}
 
   \beginverse
-    ``Oh, \[Rém]Mrs. McGrath'', the sergeant said
-    ``Would you \[Fa]like to make a soldier \[Do]out of your son Ted
-    With a \[Do]scarlett coat and a big cocked hat
-    Oh, Mrs. McGrath, wouldn't \[Rém]you like that?''
+    ``Oh, \[Dm]Mrs. McGrath'', the sergeant said
+    ``Would you \[F]like to make a soldier \[C]out of your son Ted
+    With a \[C]scarlett coat and a big cocked hat
+    Oh, Mrs. McGrath, wouldn't \[Dm]you like that?''
   \endverse
 
   \beginchorus
-    With your \[Rém]too-ri-a, fol-di-diddle-da
-    \[Fa]Too-ri, oor-ri, \[Do]oor-ri-a
-    With your \[Do]too-ri-a, fol-di-diddle-da
-    Too-ri, oor-ri, \[Rém]oor-ri-a
+    With your \[Dm]too-ri-a, fol-di-diddle-da
+    \[F]Too-ri, oor-ri, \[C]oor-ri-a
+    With your \[C]too-ri-a, fol-di-diddle-da
+    Too-ri, oor-ri, \[Dm]oor-ri-a
   \endchorus
 
   \beginverse

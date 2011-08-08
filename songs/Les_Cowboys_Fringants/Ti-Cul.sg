@@ -5,24 +5,24 @@
 
   \cover
   \capo{5}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Mi}{022100}
-  \gtab{Do}{X32010}
-  \gtab{Mi7}{020100}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{C}{X32010}
+  \gtab{E7}{020100}
 
   \beginchorus
-    \[Lam]{Pa pa la pa pa}
-    \[Fa]{La pa la pa pa }
-    \[Sol]{La pa la pa pa} \[Mi]la
+    \[Am]{Pa pa la pa pa}
+    \[F]{La pa la pa pa }
+    \[G]{La pa la pa pa} \[E]la
   \endchorus
 
   \beginverse
-    \[Lam]Ti-Cul est pas al\[Fa]lé
-    À ses cours du ma\[Sol]tin
-    Parce que quelque part y \[Mi]sait
-    Que ça lui sert à \[Lam]rien
+    \[Am]Ti-Cul est pas al\[F]lé
+    À ses cours du ma\[G]tin
+    Parce que quelque part y \[E]sait
+    Que ça lui sert à \[Am]rien
   \endverse
 
   \beginverse*
@@ -75,17 +75,17 @@
   \endverse
 
   \beginchorus
-    \[Do]Pourquoi chercher un \[Fa]sens
-    À toutes leurs conne\[Sol]ries ?
-    Ti-Cul va tenter ta \[Mi7]chance
-    Et fais ton ch'min dans la \[Lam]vie
+    \[C]Pourquoi chercher un \[F]sens
+    À toutes leurs conne\[G]ries ?
+    Ti-Cul va tenter ta \[E7]chance
+    Et fais ton ch'min dans la \[Am]vie
   \endchorus
 
   \beginchorus
-    \[Lam]Parce qu'au fond le vrai plai\[Fa]sir
-    C'est p't'être juste de pas sa\[Sol]voir
-    Comment qu'elle va fi\[Mi7]nir
-    Ta p'tite his\[Lam]toire
+    \[Am]Parce qu'au fond le vrai plai\[F]sir
+    C'est p't'être juste de pas sa\[G]voir
+    Comment qu'elle va fi\[E7]nir
+    Ta p'tite his\[Am]toire
   \endchorus
 
   \beginverse

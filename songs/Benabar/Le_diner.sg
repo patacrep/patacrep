@@ -4,20 +4,20 @@
   [by=Bénabar,cov=reprise-des-negociations,album=Reprise des négociations]
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{Sol}{3:022100}
-  \gtab{Fa#}{2:022100}
-  \gtab{Si}{2:X02220}
-  \gtab{Mim}{022000}
-  \gtab{Do#}{4:X02220}
-  \gtab{Ré}{XX0232}
-  \gtab{Fa#m}{2:022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{3:022100}
+  \gtab{F#}{2:022100}
+  \gtab{B}{2:X02220}
+  \gtab{Em}{022000}
+  \gtab{C#}{4:X02220}
+  \gtab{D}{XX0232}
+  \gtab{F#m}{2:022000}
 
   \beginverse
-    J'veux \[Sim]pas y aller à ce dîner
-    J'ai pas l'moral j'suis fati\[Sol]gué
-    Ils nous en voudront \[Fa#]pas
-    Alors on y va \[Sim]pas
+    J'veux \[Bm]pas y aller à ce dîner
+    J'ai pas l'moral j'suis fati\[G]gué
+    Ils nous en voudront \[F#]pas
+    Alors on y va \[Bm]pas
   \endverse
 
   \beginverse*
@@ -28,24 +28,24 @@
   \endverse
 
   \beginverse*
-    \[Si]Ça n'a rien à \[Mim]voir
-    J'les \[Do#]aime bien tes \[Fa#]amis
-    Mais \[Mim]{je veux} pas les \[Ré]voir
-    Parce \[La]que j'ai pas envie
+    \[B]Ça n'a rien à \[Em]voir
+    J'les \[C#]aime bien tes \[F#]amis
+    Mais \[Em]{je veux} pas les \[D]voir
+    Parce \[A]que j'ai pas envie
   \endverse
 
   \beginchorus
-    On s'en \[Ré]fout on y va pas
-    On a qu'à s'\[Fa#m]cacher sous les draps
-    On com\[Sim]mandera une pizza
-    Toi, la \[La]télé, et moi
+    On s'en \[D]fout on y va pas
+    On a qu'à s'\[F#m]cacher sous les draps
+    On com\[Bm]mandera une pizza
+    Toi, la \[A]télé, et moi
   \endchorus
 
   \beginchorus
-    On \[Ré]appelle, on s'excuse
-    On impro\[Fa#m]vise, on trouve quelque chose
-    On a qu'à \[Sol]dire à tes \[Fa#m]amis
-    Qu'on les aime \[Sim]pas, et puis tant pis
+    On \[D]appelle, on s'excuse
+    On impro\[F#m]vise, on trouve quelque chose
+    On a qu'à \[G]dire à tes \[F#m]amis
+    Qu'on les aime \[Bm]pas, et puis tant pis
   \endchorus
 
   \beginverse

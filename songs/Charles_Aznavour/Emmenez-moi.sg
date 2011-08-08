@@ -4,49 +4,49 @@
   [by=Charles Aznavour,cov=40-chansons-d-or,album=40 chansons d'or]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Mi7}{020100}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Mi}{022100}
-  \gtab{Sol7}{320001}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{E7}{020100}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+  \gtab{G7}{320001}
 
   \beginverse
-    Vers les \[Lam]docks où le poids et l'en\[Sol]nui
-    Me courbent le \[Lam]dos\[Mi7]
-    Ils ar\[Lam]rivent le ventre alour\[Sol]di
-    De fruits, les ba\[Lam]teaux\[Mi7]
+    Vers les \[Am]docks où le poids et l'en\[G]nui
+    Me courbent le \[Am]dos\[E7]
+    Ils ar\[Am]rivent le ventre alour\[G]di
+    De fruits, les ba\[Am]teaux\[E7]
   \endverse
 
   \beginverse*
-    \[Fa]Ils viennent du bout du \[Sol]monde
-    Apportant avec \[Fa]eux
-    Des idées vaga\[Sol]bondes
-    Aux reflets de ciels \[Fa]bleus
-    De mi\[Do]rages
+    \[F]Ils viennent du bout du \[G]monde
+    Apportant avec \[F]eux
+    Des idées vaga\[G]bondes
+    Aux reflets de ciels \[F]bleus
+    De mi\[C]rages
   \endverse
 
   \beginverse*
-    \[Do]Traînant un parfum poi\[Fa]vré
-    De pays incon\[Do]nus
-    Et d'éternels é\[Fa]tés
-    Où l'on vit presque \[Do]nus
-    Sur les \[Mi7]plages
+    \[C]Traînant un parfum poi\[F]vré
+    De pays incon\[C]nus
+    Et d'éternels é\[F]tés
+    Où l'on vit presque \[C]nus
+    Sur les \[E7]plages
   \endverse
 
   \beginverse*
-    Moi qui \[Lam]n'ai connu toute ma \[Sol]vie
-    Que le ciel du \[Lam]Nord\[Mi7]
-    J'aime\[Lam]rais débarbouiller ce \[Sol]gris
-    En virant de \[Lam]bord
+    Moi qui \[Am]n'ai connu toute ma \[G]vie
+    Que le ciel du \[Am]Nord\[E7]
+    J'aime\[Am]rais débarbouiller ce \[G]gris
+    En virant de \[Am]bord
   \endverse
 
   \beginchorus
-    \[Lam]Em\[Mi]me\[Lam]nez-\[Sol7]moi au bout de la \[Do]terre
-    Emmenez-\[Sol7]moi au pays des mer\[Do]veilles
-    Il me \[Mi7]semble que la mi\[Lam]sère
-    Se\[Fa]rait moins pé\[Mi7]nible au so\[Lam]leil
+    \[Am]Em\[E]me\[Am]nez-\[G7]moi au bout de la \[C]terre
+    Emmenez-\[G7]moi au pays des mer\[C]veilles
+    Il me \[E7]semble que la mi\[Am]sère
+    Se\[F]rait moins pé\[E7]nible au so\[Am]leil
   \endchorus
 
   \beginverse

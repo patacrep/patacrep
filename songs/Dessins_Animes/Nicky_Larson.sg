@@ -4,15 +4,15 @@
   [by=Dessins Animés,cov=nicky-larson,album=Nicky Larson]
 
   \cover
-  \gtab{Solm}{3:022000}
-  \gtab{Dom}{3:X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Fa}{1:022100}
-  \gtab{La#}{6:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{Cm}{3:X02210}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
+  \gtab{A#}{6:022100}
 
   \beginverse
-    \[Solm]Une ombre file \[Dom]dans la nuit
-    C'\[Ré]est un assassin \[Solm]{qui s'enfuit}
+    \[Gm]Une ombre file \[Cm]dans la nuit
+    C'\[D]est un assassin \[Gm]{qui s'enfuit}
     Et comme un démon il sourit
     Son crime restera impuni
   \endverse
@@ -25,13 +25,13 @@
   \endverse
 
   \beginchorus
-    Dans la cha\[Fa]leur de la nuit
-    Le \[La#]mal est toujours pu\[Ré]ni
+    Dans la cha\[F]leur de la nuit
+    Le \[A#]mal est toujours pu\[D]ni
   \endchorus
 
   \beginchorus
-    \[Solm]Aucun danger ne l'\[Dom]impressionne
-    \[Ré]Les coups durs il les \[Solm]affectionne
+    \[Gm]Aucun danger ne l'\[Cm]impressionne
+    \[D]Les coups durs il les \[Gm]affectionne
     Et la justice le passionne
     Nicky Larson ne craint personne
   \endchorus

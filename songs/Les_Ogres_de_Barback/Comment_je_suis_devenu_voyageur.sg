@@ -4,31 +4,31 @@
   [by=Les Ogres de Barback,cov=voyageur,album=Comment je suis devenu voyageur]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Sol}{7:X32010}
-  \gtab{Si}{7:022100}
-  \gtab{Ré}{5:X02220}
+  \gtab{Em}{7:X02210}
+  \gtab{G}{7:X32010}
+  \gtab{B}{7:022100}
+  \gtab{D}{5:X02220}
 
   \beginverse
     Il faut que je vous raconte
     Cette histoire en forme de conte
     Puisque ma gratte est accordée
-    Je vais vous la chan\[Mim]ter
-    {\nolyrics \[Sol Si Mim]} \rep{2}
+    Je vais vous la chan\[Em]ter
+    {\nolyrics \[G B Em]} \rep{2}
   \endverse
 
   \beginverse*
-    Il y a \[Sol]juste der\[Si]rière chez \[Mim]moi
-    Un grand \[Sol]parc entou\[Si]ré d'un \[Mim]bois
-    Trois fois rien d'extra\[Ré]ordinaire
-    De l'eau, des espaces \[Mim]verts
+    Il y a \[G]juste der\[B]rière chez \[Em]moi
+    Un grand \[G]parc entou\[B]ré d'un \[Em]bois
+    Trois fois rien d'extra\[D]ordinaire
+    De l'eau, des espaces \[Em]verts
   \endverse
 
   \beginverse*
-    C'est une \[Sol]base \[Si]de loi\[Mim]sirs
-    Ne vous at\[Sol]tendez \[Si]pas au \[Mim]pire
-    Cette chanson termine \[Ré]bien
-    Tout le monde finit sauf et \[Si]sain
+    C'est une \[G]base \[B]de loi\[Em]sirs
+    Ne vous at\[G]tendez \[B]pas au \[Em]pire
+    Cette chanson termine \[D]bien
+    Tout le monde finit sauf et \[B]sain
   \endverse
 
   \beginverse

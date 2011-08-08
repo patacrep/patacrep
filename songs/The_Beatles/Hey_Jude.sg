@@ -4,19 +4,19 @@
   [by=The Beatles,cov=1,album=1]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Do7}{032310}
-  \gtab{Si&}{1:X02220}
-  \gtab{Fa7}{1:020100}
-  \gtab{Solm}{3:022000}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{C7}{032310}
+  \gtab{B&}{1:X02220}
+  \gtab{F7}{1:020100}
+  \gtab{Gm}{3:022000}
 
 
   \beginverse
-    Hey \[Fa]Jude, don't make it \[Do]bad
-    Take a \[Do7]sad song and make it \[Fa]better
-    Re\[Si&]member to let her into your \[Fa]heart
-    Then you can \[Do7]start to make it \[Fa]better
+    Hey \[F]Jude, don't make it \[C]bad
+    Take a \[C7]sad song and make it \[F]better
+    Re\[B&]member to let her into your \[F]heart
+    Then you can \[C7]start to make it \[F]better
   \endverse
 
   \beginverse
@@ -27,11 +27,11 @@
   \endverse
 
   \beginverse
-    \[Fa7]And anytime you feel the \[Si&]pain, hey Jude, refrain
-    \[Solm]Don't carry the \[Do7]world upon your \[Fa]shoulders
-    \[Fa7]For well you know that it's a \[Si&]fool who plays it \[Solm]cool
-    By making his \[Do7]world a little \[Fa]colder
-    Da da \[Fa7]da da, \[Do7]da da da da da da
+    \[F7]And anytime you feel the \[B&]pain, hey Jude, refrain
+    \[Gm]Don't carry the \[C7]world upon your \[F]shoulders
+    \[F7]For well you know that it's a \[B&]fool who plays it \[Gm]cool
+    By making his \[C7]world a little \[F]colder
+    Da da \[F7]da da, \[C7]da da da da da da
   \endverse
 
   \beginverse

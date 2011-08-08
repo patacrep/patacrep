@@ -5,26 +5,26 @@
 
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
 
   \beginchorus
-    \[Lam]T'en fais pas, \[Rém]mon p'tit loup
-    \[Sol]C'est la vie, \[Rém]ne pleure pas
-    \[Lam]Tu oublieras, \[Rém]mon p'tit loup
-    \[Lam]Ne pleure pas
+    \[Am]T'en fais pas, \[Dm]mon p'tit loup
+    \[G]C'est la vie, \[Dm]ne pleure pas
+    \[Am]Tu oublieras, \[Dm]mon p'tit loup
+    \[Am]Ne pleure pas
   \endchorus
 
   \beginverse
-    \[Lam] Je t'amènerai sécher tes larmes
-    Au vent des \[Rém]quatre points cardin\[Lam]aux
+    \[Am] Je t'amènerai sécher tes larmes
+    Au vent des \[Dm]quatre points cardin\[Am]aux
     Respirer la violette à Parme
-    Et les é\[Rém]pices à \[Sol]Colom\[Do]bo
-    \[Lam]On verra le fleuve Amaz\[Lam]one
-    Et la vall\[Rém]ée des Orchi\[Lam]dés
+    Et les é\[Dm]pices à \[G]Colom\[C]bo
+    \[Am]On verra le fleuve Amaz\[Am]one
+    Et la vall\[Dm]ée des Orchi\[Am]dés
     Et les enfants qui ne savonent
-    Le ventre \[Rém]avec des fleurs coup\[Lam]ées
+    Le ventre \[Dm]avec des fleurs coup\[Am]ées
   \endverse
 
   \beginverse

@@ -4,26 +4,26 @@
   [by=Michel Fugain,cov=live,album=live]
 
   \cover
-  \gtab{Do}{320003}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{X02210}
-  \gtab{Si7}{X21202}
-  \gtab{Do#m}{4:X02210}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
+  \gtab{C}{320003}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E}{X02210}
+  \gtab{B7}{X21202}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#m}{2:022000}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
 
   \beginverse
-    \[Do]Même \[Sol]en cou\[Do]rant
-    \[Do]Plus \[Sol]vite que le \[Do]vent
-    Plus vite que le \[Sol]temps
-    \[Mi]Même en vo\[Fa]lant
+    \[C]Même \[G]en cou\[C]rant
+    \[C]Plus \[G]vite que le \[C]vent
+    Plus vite que le \[G]temps
+    \[E]Même en vo\[F]lant
   \endverse
 
   \beginchorus
-    Je n'au\[Sol]rai pas le \[Do]temps
-    \[Sol]Pas le \[Do]temps
+    Je n'au\[G]rai pas le \[C]temps
+    \[G]Pas le \[C]temps
   \endchorus
 
   \beginverse
@@ -39,13 +39,13 @@
   \endchorus
 
   \beginverse*
-    \[Mi]{J'ou}\[Si7]vre tout grand mon \[Do#m]cœur
-    \[La]J'ai\[Mi]me de tout mes \[Fa#m]yeux
-    \[Ré]{C'est} trop \[Fa#m]peu
-    \[Sol]Pour tant de \[Ré]cœurs
-    \[La]Et tant de \[Ré]pleurs
-    Des mill\[Sol]iers de \[Ré]jours
-    \[La]{C'est} bien trop \[Ré]court \rep{2}
+    \[E]{J'ou}\[B7]vre tout grand mon \[C#m]cœur
+    \[A]J'ai\[E]me de tout mes \[F#m]yeux
+    \[D]{C'est} trop \[F#m]peu
+    \[G]Pour tant de \[D]cœurs
+    \[A]Et tant de \[D]pleurs
+    Des mill\[G]iers de \[D]jours
+    \[A]{C'est} bien trop \[D]court \rep{2}
   \endverse
 
   \beginverse

@@ -4,17 +4,17 @@
   [by=Pierre Bachelet,cov=en-l-an-2001,album=En l'an 2001]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
 
   \beginverse
-    \[Do]Sur les photographies de ce vieux caillou
-    Trois milliards de fourmis qui courent après \[Fa]nous
-    \[Fa]{C'est} sympa, c'est marrant, mais on sera com\[Do]bien
-    Quand on aura vingt \[Fa]ans en l'\[Mi]an 200\[Lam]1
+    \[C]Sur les photographies de ce vieux caillou
+    Trois milliards de fourmis qui courent après \[F]nous
+    \[F]{C'est} sympa, c'est marrant, mais on sera com\[C]bien
+    Quand on aura vingt \[F]ans en l'\[E]an 200\[Am]1
   \endverse
 
   \beginverse
@@ -25,28 +25,28 @@
   \endverse
 
   \beginchorus
-    \[Fa]Moi j'aurai les cheveux blancs
-    Je serai vieux de\[Do]main
-    Quand t'auras tes vingt \[Fa]ans
-    En l'\[Mi]an 200\[Lam]1
+    \[F]Moi j'aurai les cheveux blancs
+    Je serai vieux de\[C]main
+    Quand t'auras tes vingt \[F]ans
+    En l'\[E]an 200\[Am]1
   \endchorus
 
   \beginchorus
-    \[Do]Petit bonhomme
+    \[C]Petit bonhomme
     Tu viens d'éclore comme
-    \[Sol]Un ange humain
+    \[G]Un ange humain
     Tout petit bout d'homme
-    \[Lam]Qui tend la main
-    Pour faire ses premiers \[Sol]pas
+    \[Am]Qui tend la main
+    Pour faire ses premiers \[G]pas
   \endchorus
 
   \beginchorus
-    \[Fa]Petit bonhomme
+    \[F]Petit bonhomme
     Traverser le salon
-    \[Mim]{C'est} un peu comme
+    \[Em]{C'est} un peu comme
     Atteindre l'horizon
-    \[Fa]Petit bonhomme
-    Faut jamais baisser les \[Sol]bras
+    \[F]Petit bonhomme
+    Faut jamais baisser les \[G]bras
   \endchorus
 
   \beginverse

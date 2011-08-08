@@ -5,19 +5,19 @@
 
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{La}{5:022100}
-  \gtab{Sol}{3:022100}
-  \gtab{Ré}{XX0232}
-  \gtab{Fa#}{2:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{5:022100}
+  \gtab{G}{3:022100}
+  \gtab{D}{XX0232}
+  \gtab{F#}{2:022100}
 
   \beginverse
-    \[Sim]Quand on le voyait
+    \[Bm]Quand on le voyait
     Il était parfait
-    Et avait la \[La]vie dont les gens rêvaient
+    Et avait la \[A]vie dont les gens rêvaient
     Famille charmante
-    Et une entre\[Sol]prise plus que florissante
-    Une épouse ai\[Sim]mante
+    Et une entre\[G]prise plus que florissante
+    Une épouse ai\[Bm]mante
   \endverse
 
   \beginverse*
@@ -30,11 +30,11 @@
   \endverse
 
   \beginchorus
-    \[La]L'image que l'on donne
-    N'est pas toujours la \[Sim]bonne
-    Volent, volent, les hiron\[La]delles
+    \[A]L'image que l'on donne
+    N'est pas toujours la \[Bm]bonne
+    Volent, volent, les hiron\[A]delles
     Même les beaux plumages
-    Peuvent être une \[Sim]cage \dots
+    Peuvent être une \[Bm]cage \dots
   \endchorus
 
   \beginverse
@@ -56,8 +56,8 @@
   \endverse
 
   \beginverse*
-    {\nolyrics \[Ré]\[La]\[Ré]\[Ré]\[La]\[La]\[Ré]\[Ré]}
-    {\nolyrics \[Sim]\[La]\[Sol]\[Sol]\[Fa#]\[Fa#]\[Fa#]}
+    {\nolyrics \[D]\[A]\[D]\[D]\[A]\[A]\[D]\[D]}
+    {\nolyrics \[Bm]\[A]\[G]\[G]\[F#]\[F#]\[F#]}
     \rep{2}
   \endverse
 

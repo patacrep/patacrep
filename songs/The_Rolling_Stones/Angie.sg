@@ -4,24 +4,24 @@
   [by=The Rolling Stones,cov=jump-back,album=Jump back]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Mi7}{020100}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Si&}{1:X02220}
-  \gtab{Rém}{XX0231}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{E7}{020100}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Oh Angie, \[Mi7]Oh Angie
-    \[Sol]When will those \[Fa]dark clouds disap\[Si&]pear\[Fa]?
-    \[Lam]Angie, An\[Mi7]gie
-    \[Sol]When will it \[Fa]lead us from \[Si&]here\[Fa]?
-    With no \[Sol]loving in our souls
-    And no \[Rém]money in our \[Lam]coats
-    \[Do]You can't say \[Fa]were satisf\[Sol]ied
-    But \[Lam]Angie, \[Mi7]Angie
-    \[Sol]You can't say \[Fa]we never t\[Si&]ried \[Fa]
+    \[Am]Oh Angie, \[E7]Oh Angie
+    \[G]When will those \[F]dark clouds disap\[B&]pear\[F]?
+    \[Am]Angie, An\[E7]gie
+    \[G]When will it \[F]lead us from \[B&]here\[F]?
+    With no \[G]loving in our souls
+    And no \[Dm]money in our \[Am]coats
+    \[C]You can't say \[F]were satisf\[G]ied
+    But \[Am]Angie, \[E7]Angie
+    \[G]You can't say \[F]we never t\[B&]ried \[F]
   \endverse
 
   \beginverse
@@ -53,10 +53,10 @@
   \endverse
 
   \beginverse
-    But \[Rém]Angie, I still love you \[Lam]baby
-    \[Rém]Everywhere I look I see your \[Lam]eyes
-    \[Rém]There ain't a woman that come \[Lam]close to you
-    \[Do]Come on \[Fa]baby dry your \[Sol]eyes
+    But \[Dm]Angie, I still love you \[Am]baby
+    \[Dm]Everywhere I look I see your \[Am]eyes
+    \[Dm]There ain't a woman that come \[Am]close to you
+    \[C]Come on \[F]baby dry your \[G]eyes
   \endverse
 
   \beginverse

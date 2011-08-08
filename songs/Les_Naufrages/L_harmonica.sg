@@ -4,34 +4,34 @@
   [by=Les Naufragés,cov=ca-baigne,album=Ça baigne]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
 
 
   \lilypond{L_harmonica}
 
   \beginverse
-    \[Lam]Dans mon sac de matelot
-    J'ai mis tout c'\[Sol]que j'avais de plus \[Lam]beau
+    \[Am]Dans mon sac de matelot
+    J'ai mis tout c'\[G]que j'avais de plus \[Am]beau
     Souvenirs de tous pays
-    Bouteille de \[Sol]rhum et de whi\[Lam]sky
+    Bouteille de \[G]rhum et de whi\[Am]sky
   \endverse
 
   \beginverse*
-    Une \[Do]montre qui ne \[Sol]marche pas
-    Ma \[Do]pipe et mon ta\[Sol]bac
-    J'y ai \[Lam]mis l'harmonica
-    Qu'j'avais ache\[Sol]té à Mala\[Lam]ga
+    Une \[C]montre qui ne \[G]marche pas
+    Ma \[C]pipe et mon ta\[G]bac
+    J'y ai \[Am]mis l'harmonica
+    Qu'j'avais ache\[G]té à Mala\[Am]ga
   \endverse
 
   \beginchorus
-    Avec \[Lam]mon harmonica
-    Je souffle, la voi\[Sol]là
+    Avec \[Am]mon harmonica
+    Je souffle, la voi\[G]là
     L'harmonica, l'harmonica
-    Pour la \[Lam]gigue et la polka
-    Ecoutez çà les \[Sol]gars
-    Faut faire d'l'harmoni\[Lam]ca
+    Pour la \[Am]gigue et la polka
+    Ecoutez çà les \[G]gars
+    Faut faire d'l'harmoni\[Am]ca
   \endchorus
 
   \beginverse

@@ -4,24 +4,24 @@
   [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
 
   \cover
-  \gtab{Lam}{5:022000}
-  \gtab{Rém}{5:X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{Mi}{5:X212X0}
+  \gtab{Am}{5:022000}
+  \gtab{Dm}{5:X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{G}{3:022100}
+  \gtab{E}{5:X212X0}
 
   \beginverse
-    \[Lam]Enfin une soirée pépère
-    Canapé, pizza, une \[Rém]bière
-    Depuis quand tu vires au \[Do]bleu ?
-    Mon é\[Mi]cran n'est pas si \[Lam]vieux !
+    \[Am]Enfin une soirée pépère
+    Canapé, pizza, une \[Dm]bière
+    Depuis quand tu vires au \[C]bleu ?
+    Mon é\[E]cran n'est pas si \[Am]vieux !
   \endverse
 
   \beginchorus
-    \[Fa]J'redémarre, mais y'en a \[Do]marre
-    La prochaine fois qu'tu m'fais c'coup \[Sol]là
-    Tu verras \[Mi] c'que tu ve\[Lam]rras
+    \[F]J'redémarre, mais y'en a \[C]marre
+    La prochaine fois qu'tu m'fais c'coup \[G]là
+    Tu verras \[E] c'que tu ve\[Am]rras
   \endchorus
 
   \beginverse

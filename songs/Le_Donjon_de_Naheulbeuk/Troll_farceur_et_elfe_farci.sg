@@ -5,22 +5,22 @@
 
   \cover
   \capo{5}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Lam]J'ai rencontré un t\[Do]roll
-    Il \[Sol]marchait dans la fo\[Lam]rêt \rep{2}
-    \[Lam]Il traînait derrière l\[Do]ui
-    Un \[Sol]elfe tout empaqu\[Lam]eté \rep{2}
+    \[Am]J'ai rencontré un t\[C]roll
+    Il \[G]marchait dans la fo\[Am]rêt \rep{2}
+    \[Am]Il traînait derrière l\[C]ui
+    Un \[G]elfe tout empaqu\[Am]eté \rep{2}
   \endverse
 
   \beginchorus
-    \[Lam]Ah qu'il est fort, \[Do]ah qu'il est beau
-    \[Sol]Ah qu'il est grand mon ami troll du Cha\[Lam]os
-    \[Lam]Ah qu'il est fort, \[Do]ah qu'il est beau
-    \[Sol]Ah qu'il est grand mon ami troll du Cha\[Lam]os
+    \[Am]Ah qu'il est fort, \[C]ah qu'il est beau
+    \[G]Ah qu'il est grand mon ami troll du Cha\[Am]os
+    \[Am]Ah qu'il est fort, \[C]ah qu'il est beau
+    \[G]Ah qu'il est grand mon ami troll du Cha\[Am]os
   \endchorus
 
   \beginverse

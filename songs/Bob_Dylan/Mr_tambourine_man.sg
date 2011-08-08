@@ -4,32 +4,32 @@
   [by=Bob Dylan,cov=the-freewheelin,album=The freewheelin]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Ré7}{XX0212}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D7}{XX0212}
 
   \beginchorus
-    \[Do]Hey, Mr. \[Ré]Tambourine Man
-    \[Sol]Play a song for \[Mim]me
-    I'm not sl\[Sol]eepy
-    And there \[Do]ain't no place I'm g\[Ré]oing to
+    \[C]Hey, Mr. \[D]Tambourine Man
+    \[G]Play a song for \[Em]me
+    I'm not sl\[G]eepy
+    And there \[C]ain't no place I'm g\[D]oing to
   \endchorus
 
   \beginchorus
-    \[Do]Hey, Mr. \[Ré]Tambourine Man
-    \[Sol]Play a song for \[Mim]me
-    In the \[Sol]jingle jangle \[Do]morning
-    I'll come \[Ré7]following \[Sol]you
+    \[C]Hey, Mr. \[D]Tambourine Man
+    \[G]Play a song for \[Em]me
+    In the \[G]jingle jangle \[C]morning
+    I'll come \[D7]following \[G]you
   \endchorus
 
   \beginverse
-    Though I \[Do]know that evenings \[Ré7]empire
-    Has re\[Sol]turned into \[Mim]sand
-    Van\[Sol]ished from my \[Mim]hand
-    Left me \[Sol]blindly here to \[Do]stand
-    But still not \[Ré7]sleeping
+    Though I \[C]know that evenings \[D7]empire
+    Has re\[G]turned into \[Em]sand
+    Van\[G]ished from my \[Em]hand
+    Left me \[G]blindly here to \[C]stand
+    But still not \[D7]sleeping
   \endverse
 
   \beginverse*

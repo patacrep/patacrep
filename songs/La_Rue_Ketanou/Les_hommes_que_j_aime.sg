@@ -4,18 +4,18 @@
   [by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Do}{3:X02220}
-  \gtab{Fa}{1:022100}
-  \gtab{Si&}{6:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{C}{3:X02220}
+  \gtab{F}{1:022100}
+  \gtab{B&}{6:022100}
 
   \lilypond{Les_hommes_que_j_aime}
 
   \beginchorus
-    Je vou\[Rém]drais vous par\[Do]ler
-    \[Fa]Des hommes que \[Rém]{j'aime}
-    Ceux qui \[Rém]{m'ont} embra\[Do]ssé
-    Au \[Si&]bord de la \[Rém]Seine
+    Je vou\[Dm]drais vous par\[C]ler
+    \[F]Des hommes que \[Dm]{j'aime}
+    Ceux qui \[Dm]{m'ont} embra\[C]ssé
+    Au \[B&]bord de la \[Dm]Seine
   \endchorus
 
   \beginchorus

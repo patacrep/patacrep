@@ -4,34 +4,34 @@
   [by=Antsy Pants,cov=juno,album=Juno]
 
   \cover
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
 
   \beginverse
-    I am a \[Rém]vampire, I am a vampire
+    I am a \[Dm]vampire, I am a vampire
     I am a vampire, I am a vampire
     I am a vampire vampire, I am a vampire
-    I have lost \[Sol]my \[Do]fangs
-    I am a \[Rém]vampire, I am a vampire
-    I am a vampire, I have lost \[Sol]my \[Do]fangs
+    I have lost \[G]my \[C]fangs
+    I am a \[Dm]vampire, I am a vampire
+    I am a vampire, I have lost \[G]my \[C]fangs
   \endverse
 
   \beginverse*
-    So I'm \[Rém]sad and \[Sol]I feel \[Do]lonely
-    So I \[Rém]cry and \[Sol]{I'm} very \[Do]angry
-    And I \[Rém]ate \[Sol]some gar\[Do]lic
-    So I'm \[Rém]no more \[Sol]sata\[Do]nic yeah yeah
+    So I'm \[Dm]sad and \[G]I feel \[C]lonely
+    So I \[Dm]cry and \[G]{I'm} very \[C]angry
+    And I \[Dm]ate \[G]some gar\[C]lic
+    So I'm \[Dm]no more \[G]sata\[C]nic yeah yeah
   \endverse
 
   \beginchorus
-    I \[Ré]am a vampi\[Do]re and I am wal\[La]king in the ci\[Ré]ty
-    But the \[Do]pretty \[La]girls \[Ré]don't look at me
+    I \[D]am a vampi\[C]re and I am wal\[A]king in the ci\[D]ty
+    But the \[C]pretty \[A]girls \[D]don't look at me
     \echo{Don't look at me}
-    Cause I \[Sol]{don't} \[La]have \[Ré]my fangs
-    Cause I \[Sol]have \[La]lost \[Ré]my fangs
+    Cause I \[G]{don't} \[A]have \[D]my fangs
+    Cause I \[G]have \[A]lost \[D]my fangs
   \endchorus
 
   \beginverse

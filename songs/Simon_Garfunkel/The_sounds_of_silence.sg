@@ -5,19 +5,19 @@
 
   \cover
   \capo{7}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Hello darkness, my old \[Sol]friend
-    I've come to talk with you a\[Lam]gain
-    Because a vi\[Do]sion sof\[Fa]tly cree\[Do]ping
-    Left its seeds while I \[Fa]was slee\[Do]ping
-    And the \[Fa]vision that was planted in my \[Do]brain
-    Still re\[Lam]mains
-    Wi\[Do]thin the \[Sol]sound of \[Lam]silence
+    \[Am]Hello darkness, my old \[G]friend
+    I've come to talk with you a\[Am]gain
+    Because a vi\[C]sion sof\[F]tly cree\[C]ping
+    Left its seeds while I \[F]was slee\[C]ping
+    And the \[F]vision that was planted in my \[C]brain
+    Still re\[Am]mains
+    Wi\[C]thin the \[G]sound of \[Am]silence
   \endverse
 
   \beginverse

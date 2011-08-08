@@ -4,19 +4,19 @@
   [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Ré7}{XX0212}
-  \gtab{Do}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D7}{XX0212}
+  \gtab{C}{X32010}
 
 
   \beginverse
-    \[Ré] Il s'appelait Stew\[Sol]ball
-    C'était \[Mim]un cheval \[Lam]blanc
-    Il était mon i\[Ré7]dole
-    Et moi j'avais dix \[Sol]ans \[Do]
+    \[D] Il s'appelait Stew\[G]ball
+    C'était \[Em]un cheval \[Am]blanc
+    Il était mon i\[D7]dole
+    Et moi j'avais dix \[G]ans \[C]
   \endverse
 
   \beginverse

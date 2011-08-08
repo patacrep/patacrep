@@ -5,30 +5,30 @@
 
   \cover
   \capo{3}
-  \gtab{Sol}{320003}
-  \gtab{Ré4}{XX0233}
-  \gtab{Mim}{022000}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
+  \gtab{G}{320003}
+  \gtab{D4}{XX0233}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
 
-  \musicnote{intro: Sol Ré4 Mim Ré Ré4 Sol}
+  \musicnote{intro: G D4 Em D D4 G}
 
   \beginverse
-    \[Sol]Step one you say we \[Ré4]{need to talk}
-    He w\[Mim]alks you say sit do\[Ré]wn it's j\[Ré4]{ust a} ta\[Sol]lk
-    He smiles pol\[Ré4]{itely back} to y\[Mim]ou
-    You stare pol\[Ré]itely ri\[Ré4]{ght on} thr\[Sol]ough
-    Some sort of wi\[Ré4]{ndow to your} r\[Mim]ight
-    As he goes le\[Ré]ft and y\[Ré4]{ou stay} ri\[Sol]ght
-    Between the li\[Ré4]{nes of fear} and b\[Mim]lame
-    And you begin to wo\[Ré]nder w\[Ré4]{hy you} came
+    \[G]Step one you say we \[D4]{need to talk}
+    He w\[Em]alks you say sit do\[D]wn it's j\[D4]{ust a} ta\[G]lk
+    He smiles pol\[D4]{itely back} to y\[Em]ou
+    You stare pol\[D]itely ri\[D4]{ght on} thr\[G]ough
+    Some sort of wi\[D4]{ndow to your} r\[Em]ight
+    As he goes le\[D]ft and y\[D4]{ou stay} ri\[G]ght
+    Between the li\[D4]{nes of fear} and b\[Em]lame
+    And you begin to wo\[D]nder w\[D4]{hy you} came
   \endverse
 
   \beginchorus
-    Wh\[Do]ere did I go w\[Ré]rong, I lost a fr\[Mim]iend
-    Somewhere al\[Sol]ong in the bit\[Ré4]terness
-    And \[Do]{I would} have stayed \[Ré]{up with} you all n\[Mim]ight
-    Had I known h\[Sol]ow to save a l\[Ré4]ife
+    Wh\[C]ere did I go w\[D]rong, I lost a fr\[Em]iend
+    Somewhere al\[G]ong in the bit\[D4]terness
+    And \[C]{I would} have stayed \[D]{up with} you all n\[Em]ight
+    Had I known h\[G]ow to save a l\[D4]ife
   \endchorus
 
   \beginverse

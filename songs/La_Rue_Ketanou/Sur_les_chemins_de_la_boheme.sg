@@ -4,18 +4,18 @@
   [by=La Rue Kétanou,cov=en-attendant-les-caravanes,album=En attendant les caravanes]
 
   \cover
-  \gtab{Solm}{3:022000}
-  \gtab{Do}{6:022100}
-  \gtab{Rém}{5:X02210}
-  \gtab{Si&}{6:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{C}{6:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{B&}{6:022100}
 
   \beginverse
-    \[Solm]Sur les che\[Do]mins de la bo\[Rém]hème
-    \[Si&]{J'ai} croi\[Solm]sé le bout du \[Rém]monde
-    \[Solm]Des p'tits ma\[Do]tins au café \[Rém]crème
-    \[Si&]Où je ta\[Solm]xais ma première \[Rém]blonde
-    \[Si&]Avant de \[Solm]partir le pouce en \[Rém]{l'air}
-    \[Si&]À l'autre \[Solm]bout du bout du \[Rém]monde \rep{2}
+    \[Gm]Sur les che\[C]mins de la bo\[Dm]hème
+    \[B&]{J'ai} croi\[Gm]sé le bout du \[Dm]monde
+    \[Gm]Des p'tits ma\[C]tins au café \[Dm]crème
+    \[B&]Où je ta\[Gm]xais ma première \[Dm]blonde
+    \[B&]Avant de \[Gm]partir le pouce en \[Dm]{l'air}
+    \[B&]À l'autre \[Gm]bout du bout du \[Dm]monde \rep{2}
   \endverse
 
   \beginverse

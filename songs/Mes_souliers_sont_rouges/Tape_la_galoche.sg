@@ -4,24 +4,24 @@
   [by=Mes souliers sont rouges,cov=tape-la-galoche,album=Tape la galoche]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Fa}{1:022100}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
 
   \beginverse
-    Le ma\[Sol]tin au saut du lit
-    J'enfile \[Ré]une paire de sa\[Sol]vates \rep{2}
+    Le ma\[G]tin au saut du lit
+    J'enfile \[D]une paire de sa\[G]vates \rep{2}
   \endverse
 
   \beginverse*
-    Mes belles \[Fa]savates écar\[Sol]lates
-    Mes deux \[Ré]pieds sont bien chau\[Sol]ssés
+    Mes belles \[F]savates écar\[G]lates
+    Mes deux \[D]pieds sont bien chau\[G]ssés
   \endverse
 
   \beginchorus
-    \[Fa]Tape la ga\[Sol]loche
-    Mes deux \[Ré]pieds sont bien chau\[Sol]ssés
-    J'va pou\[Ré]voir aller dan\[Sol]ser
+    \[F]Tape la ga\[G]loche
+    Mes deux \[D]pieds sont bien chau\[G]ssés
+    J'va pou\[D]voir aller dan\[G]ser
     \rep{2}
   \endchorus
 

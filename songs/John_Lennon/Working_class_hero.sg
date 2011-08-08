@@ -4,18 +4,18 @@
   [by=John Lennon,cov=plastic-ono-band,album=Plastic ono band]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Lam]{As soon} as you're born they ma\[Sol]{ke you} feel sm\[Lam]all
-    \[Lam]By giving you no time ins\[Sol]tead of it \[Lam]all
-    \[Lam]Till the pain is so big you feel \[Sol]nothing at \[Lam]all
+    \[Am]{As soon} as you're born they ma\[G]{ke you} feel sm\[Am]all
+    \[Am]By giving you no time ins\[G]tead of it \[Am]all
+    \[Am]Till the pain is so big you feel \[G]nothing at \[Am]all
   \endverse
 
   \beginchorus
-    A wo\[Lam]rking class h\[Sol]ero is so\[Ré]mething to \[Lam]be \rep{2}
+    A wo\[Am]rking class h\[G]ero is so\[D]mething to \[Am]be \rep{2}
   \endchorus
 
   \beginverse

@@ -4,27 +4,27 @@
   [by=Lila Downs,cov=la-cantina,album=La cantina]
 
   \cover
-  \gtab{Mim}{7:X0221}
-  \gtab{Si}{7:022100}
-  \gtab{Ré}{5:X02220}
-  \gtab{Lam}{5:022000}
+  \gtab{Em}{7:X0221}
+  \gtab{B}{7:022100}
+  \gtab{D}{5:X02220}
+  \gtab{Am}{5:022000}
 
   \beginverse
-    Cuentan que en Oa\[Mim]xaca, se \[Si]toma el mezcal con \[Mim]cafe \rep{2}
-    Dicen que la \[Ré]hierba, le cura la mala \[Mim]fe \rep{2}
-    \[Lam]{A mi} me gusta el \[Mim]mole, mi so\[Si]ledad me va a mo\[Mim]ler \rep{2}
+    Cuentan que en Oa\[Em]xaca, se \[B]toma el mezcal con \[Em]cafe \rep{2}
+    Dicen que la \[D]hierba, le cura la mala \[Em]fe \rep{2}
+    \[Am]{A mi} me gusta el \[Em]mole, mi so\[B]ledad me va a mo\[Em]ler \rep{2}
   \endverse
 
   \lilypond{La_cumbia_del_mole}
 
   \beginchorus
-    Mi que\[Mim]rida sole\[Si]dad, me va a guisar un mo\[Mim]lito
-    Por el \[Mim]cielo de Monter\[Si]rey, de noche sueño con\[Mim]tigo
+    Mi que\[Em]rida sole\[B]dad, me va a guisar un mo\[Em]lito
+    Por el \[Em]cielo de Monter\[B]rey, de noche sueño con\[Em]tigo
     \rep{2}
   \endchorus
 
   \beginverse*
-    \[Mim]{Se muele} con cacahuate
+    \[Em]{Se muele} con cacahuate
     Se muele también el pan
     Se muele al almendra seca
     Se muele el chile, también la sal

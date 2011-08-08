@@ -4,28 +4,28 @@
   [by=Indochine,cov=paradize,album=Paradize]
 
   \cover
-  \gtab{La}{X02220}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Mi}{022100}
-  \gtab{Sim}{2:X02210}
-  \gtab{Do#m}{4:X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
+  \gtab{A}{X02220}
+  \gtab{F#m}{2:022000}
+  \gtab{E}{022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{C#m}{4:X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[La]J'ai de\[Mi]mandé à la \[Fa#m]Lune
-    \[La]Et le So\[Mi]leil ne le sait \[Fa#m]pas
-    \[Sim]Je lui ai montré mes brû\[Fa#m]lures
-    \[Do#m]Et la Lune s'est moquée de \[Mi]moi
+    \[A]J'ai de\[E]mandé à la \[F#m]Lune
+    \[A]Et le So\[E]leil ne le sait \[F#m]pas
+    \[Bm]Je lui ai montré mes brû\[F#m]lures
+    \[C#m]Et la Lune s'est moquée de \[E]moi
   \endverse
 
   \beginverse*
-    Et comme le \[La]ciel n'a\[Mi]vait pas fière a\[Fa#m]llure
-    \[La]Et que je \[Mi]ne guérissais \[Fa#m]pas
-    \[Sim]Je me suis dit quelle infor\[Fa#m]tune
-    \[Do#m]Et la Lune s'est moquée de \[Mi]moi
+    Et comme le \[A]ciel n'a\[E]vait pas fière a\[F#m]llure
+    \[A]Et que je \[E]ne guérissais \[F#m]pas
+    \[Bm]Je me suis dit quelle infor\[F#m]tune
+    \[C#m]Et la Lune s'est moquée de \[E]moi
   \endverse
 
   \beginverse
@@ -43,10 +43,10 @@
   \endverse
 
   \beginchorus
-    \[Rém]Je n'ai pas grand chose à te \[Lam]dire
-    \[Rém]Et pas grand chose pour te faire \[Lam]rire
-    \[Do]Car j'imagine toujours le \[Sol]pire
-    \[Do]Et le meilleur me fait sou\[Sol]ffrir
+    \[Dm]Je n'ai pas grand chose à te \[Am]dire
+    \[Dm]Et pas grand chose pour te faire \[Am]rire
+    \[C]Car j'imagine toujours le \[G]pire
+    \[C]Et le meilleur me fait sou\[G]ffrir
   \endchorus
 
   \beginverse

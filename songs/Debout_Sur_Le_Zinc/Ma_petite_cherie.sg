@@ -4,18 +4,18 @@
   [by=Debout sur le Zinc,cov=debout-sur-le-zinc,album=Debout sur le zinc]
 
   \cover
-  \gtab{Do}{3:X02220}
-  \gtab{Sol7}{3:020100}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{G7}{3:020100}
+  \gtab{F}{1:022100}
 
   \beginverse
-    \[Do]Ma petite chérie
+    \[C]Ma petite chérie
     Souviens-toi je t'ai dit
-    Après la guerre on se \[Sol7]marie
+    Après la guerre on se \[G7]marie
     On f'ra une maison
     Et plein de petits poltrons
     Qui nous emmerderons
-    Mais nous les \[Do]aimerons
+    Mais nous les \[C]aimerons
   \endverse
 
   \beginverse*
@@ -29,10 +29,10 @@
 
 
   \beginchorus
-    \[Fa]{J't'écris} cette lettre avant l'com\[Do]bat
-    Pour gar\[Sol7]der un peu de \[Do]joie
-    \[Fa]Prépare tes valises pour de\[Do]main
-    Car c'est \[Sol7]demain que je re\[Do]viens
+    \[F]{J't'écris} cette lettre avant l'com\[C]bat
+    Pour gar\[G7]der un peu de \[C]joie
+    \[F]Prépare tes valises pour de\[C]main
+    Car c'est \[G7]demain que je re\[C]viens
   \endchorus
 
   \beginverse

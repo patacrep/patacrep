@@ -5,23 +5,23 @@
 
 
   \cover
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
 
 
   \beginchorus
-    Me llaman el desapare\[Mi]cido
-    Cuando llega ya se ha i\[Lam]do
-    Volando vengo volando \[Mi]voy
-    Deprisa deprisa a rumbo \[Lam]perdido
+    Me llaman el desapare\[E]cido
+    Cuando llega ya se ha i\[Am]do
+    Volando vengo volando \[E]voy
+    Deprisa deprisa a rumbo \[Am]perdido
   \endchorus
 
   \beginverse
-    Cuando me buscan nunca es\[Rém]toy
-    Cuando me encuentran yo no \[Lam]soy
-    El que esta enfrete porque \[Mi]ya
-    Me fui corriendo mas \[Lam]allá
+    Cuando me buscan nunca es\[Dm]toy
+    Cuando me encuentran yo no \[Am]soy
+    El que esta enfrete porque \[E]ya
+    Me fui corriendo mas \[Am]allá
   \endverse
 
   \beginverse

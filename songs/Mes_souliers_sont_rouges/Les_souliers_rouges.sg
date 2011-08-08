@@ -4,24 +4,24 @@
   [by=Mes souliers sont rouges,cov=tape-la-galoche,album=Tape la galoche]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré7}{XX0212}
-  \gtab{Do}{X32010}
+  \gtab{G}{320003}
+  \gtab{D7}{XX0212}
+  \gtab{C}{X32010}
 
   \lilypond{Les_souliers_rouges}
 
   \beginverse
-    Ah si j'a\[Sol]vais les beaux souliers que ma mi\[Ré7]gnonne, ma mi\[Sol]gnonne
-    Si j'a\[Do]vais les beaux sou\[Sol]liers que ma mi\[Ré7]gnonne m'a don\[Sol]nés
+    Ah si j'a\[G]vais les beaux souliers que ma mi\[D7]gnonne, ma mi\[G]gnonne
+    Si j'a\[C]vais les beaux sou\[G]liers que ma mi\[D7]gnonne m'a don\[G]nés
     \rep{2}
     Les souliers du vieux Poirier ;
   \endverse
 
   \beginchorus
-    Mes souliers \[Do]sont \[Sol]rouges
-    Ma mi\[Ré7]gnonne, ma mi\[Sol]gnonne
-    Mes sou\[Do]liers sont \[Sol]rouges
-    Ma mi\[Ré7]gnonne mes a\[Sol]mours
+    Mes souliers \[C]sont \[G]rouges
+    Ma mi\[D7]gnonne, ma mi\[G]gnonne
+    Mes sou\[C]liers sont \[G]rouges
+    Ma mi\[D7]gnonne mes a\[G]mours
     \rep{2}
   \endchorus
 

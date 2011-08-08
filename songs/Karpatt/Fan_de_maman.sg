@@ -1,27 +1,27 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Fan de maman}
+\beginsong{Fn de maman}
   [by=Karpatt,cov=dans-d-beaux-draps,album=Dans d'beaux draps]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Lam}{5:022000}
-  \gtab{Ré}{5:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Si7}{7:020100}
+  \gtab{Em}{7:X02210}
+  \gtab{Am}{5:022000}
+  \gtab{D}{5:X02220}
+  \gtab{G}{3:022100}
+  \gtab{C}{3:X02220}
+  \gtab{B7}{7:020100}
 
   \beginverse
-    \[Mim]{Le jour} où j'suis né
-    Je savais pas bien où j'en étais, ni \[Lam]qui j'étais
-    \[Ré]{Y'avait} dans la chambre
-    Des dames, des messieurs qui discu\[Sol]taient
+    \[Em]{Le jour} où j'suis né
+    Je savais pas bien où j'en étais, ni \[Am]qui j'étais
+    \[D]{Y'avait} dans la chambre
+    Des dames, des messieurs qui discu\[G]taient
   \endverse
 
   \beginverse*
-    \[Do]Moi j'étais peinard au pieu
-    Avec une belle fille qui m'embra\[Lam]ssait
-    \[Si7]Ça impressionne toujours un peu
+    \[C]Moi j'étais peinard au pieu
+    Avec une belle fille qui m'embra\[Am]ssait
+    \[B7]Ça impressionne toujours un peu
     La première fois qu'on tombe amoureux
   \endverse
 
@@ -40,10 +40,10 @@
   \endverse
 
   \beginchorus
-    J'étais fan de ma\[Mim]man
-    Déjà tout p'tit en\[Lam]fant
-    J'aurais voulu être \[Si7]mon papa
-    Pour la tenir dans mes \[Mim]bras
+    J'étais fan de ma\[Em]man
+    Déjà tout p'tit en\[Am]fant
+    J'aurais voulu être \[B7]mon papa
+    Pour la tenir dans mes \[Em]bras
   \endchorus
 
   \beginchorus

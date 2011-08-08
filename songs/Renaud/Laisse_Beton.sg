@@ -4,14 +4,14 @@
   [by=Renaud,cov=laisse-beton,album=Laisse béton]
 
   \cover
-  \gtab{Lam}{5:022000}
-  \gtab{Sol}{3:022100}
+  \gtab{Am}{5:022000}
+  \gtab{G}{3:022100}
 
   \beginverse
-    J'étais tran\[Lam]quille, j'étais peinard
+    J'étais tran\[Am]quille, j'étais peinard
     Accoudé au flipper
-    Le type est \[Sol]entré dans le bar
-    A commandé un jambon \[Lam]beurre
+    Le type est \[G]entré dans le bar
+    A commandé un jambon \[Am]beurre
     Puis il s'est approché de moi
     Puis il m'a regardé comme ça :
     {\og}T'as des bottes, mon pote
@@ -19,19 +19,19 @@
   \endverse
 
   \beginverse*
-    J'parie qu'c'est des San\[Sol]tiags
-    Viens faire un tour dans l'terrain \[Lam]vague
-    J'vais t'apprendre un jeu rigo\[Sol]lo
-    À grands coups de chaîne de vé\[Lam]lo
-    J'te fais tes bottes à la bas\[Sol]ton
-    Moi j'lui ai dit : {\og}Laisse bé\[Lam]ton !{\fg}
+    J'parie qu'c'est des San\[G]tiags
+    Viens faire un tour dans l'terrain \[Am]vague
+    J'vais t'apprendre un jeu rigo\[G]lo
+    À grands coups de chaîne de vé\[Am]lo
+    J'te fais tes bottes à la bas\[G]ton
+    Moi j'lui ai dit : {\og}Laisse bé\[Am]ton !{\fg}
   \endverse
 
   \beginchorus
-    Il m'a filé une \[Sol]beigne
-    J'ai filé une tor\[Lam]gnole
-    M'a filé une châ\[Sol]taigne
-    J'lui ai filé mes \[Lam]grolles
+    Il m'a filé une \[G]beigne
+    J'ai filé une tor\[Am]gnole
+    M'a filé une châ\[G]taigne
+    J'lui ai filé mes \[Am]grolles
   \endchorus
 
   \beginverse

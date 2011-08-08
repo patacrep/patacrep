@@ -4,21 +4,21 @@
   [by=Francis Cabrel,cov=les-murs-de-poussiere,album=Les murs de poussière]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{La7}{X02020}
-  \gtab{Sim}{2:X02210}
-  \gtab{Fa#}{2:022100}
-  \gtab{Sol}{320003}
-  \gtab{La}{X02220}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Ré}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{A7}{X02020}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{F#m}{2:022000}
+  \gtab{D}{XX0232}
 
   \beginverse
-    Petite \[Mim]Marie, je parle \[La7]{de toi}
-    Parce qu'avec \[Sim]{ta petite} voix
-    Tes petites ma\[Mim]nies
-    Tu as versé sur \[Fa#]ma vie
-    Des milliers de \[Sim]roses
+    Petite \[Em]Marie, je parle \[A7]{de toi}
+    Parce qu'avec \[Bm]{ta petite} voix
+    Tes petites ma\[Em]nies
+    Tu as versé sur \[F#]ma vie
+    Des milliers de \[Bm]roses
   \endverse
 
   \beginverse*
@@ -30,14 +30,14 @@
   \endverse
 
   \beginchorus
-    Je viens du \[Sol]ciel
-    Et les étoiles entre \[La]elles
-    Ne parlent que de \[Sim]toi
-    D'un musi\[Sol]cien
-    Qui fait jouer ses \[La]mains
-    Sur un morceau de \[Fa#m]bois
-    De leur a\[Sol]mour
-    Plus bleu que \[La]le ciel autour\[Sim]
+    Je viens du \[G]ciel
+    Et les étoiles entre \[A]elles
+    Ne parlent que de \[Bm]toi
+    D'un musi\[G]cien
+    Qui fait jouer ses \[A]mains
+    Sur un morceau de \[F#m]bois
+    De leur a\[G]mour
+    Plus bleu que \[A]le ciel autour\[Bm]
   \endchorus
 
   \beginverse
@@ -57,8 +57,8 @@
   \endverse
 
   \beginverse
-    Dans la \[Sim]pénombre de ta \[Fa#]rue
-    Petite \[Ré]Marie m'entends-\[Mim]{tu ?}
-    Je n'a\[Sol]ttends plus que \[Ré]toi, pour \[La]partir
+    Dans la \[Bm]pénombre de ta \[F#]rue
+    Petite \[D]Marie m'entends-\[Em]{tu ?}
+    Je n'a\[G]ttends plus que \[D]toi, pour \[A]partir
   \endverse
 \endsong

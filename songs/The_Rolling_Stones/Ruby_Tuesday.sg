@@ -4,25 +4,25 @@
   [by=The Rolling Stones,cov=hot-rocks,album=Hot rocks]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Ré7}{XX0212}
-  \gtab{Si&}{1:X02220}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{D7}{XX0212}
+  \gtab{B&}{1:X02220}
 
   \beginverse
-    \[Lam]She would \[Do]never \[Fa]say where \[Sol]she came \[Do]from
-    \[Lam]Yesterday \[Ré]don't \[Fa]matter \[Do]if it's \[Sol]gone
-    \[Lam]While the \[Ré7]sun is \[Sol]bright or \[Lam]in the \[Ré7]darkest \[Sol]night
-    No one \[Do]knows, she comes and \[Sol]goes
+    \[Am]She would \[C]never \[F]say where \[G]she came \[C]from
+    \[Am]Yesterday \[D]don't \[F]matter \[C]if it's \[G]gone
+    \[Am]While the \[D7]sun is \[G]bright or \[Am]in the \[D7]darkest \[G]night
+    No one \[C]knows, she comes and \[G]goes
   \endverse
 
   \beginchorus
-    \[Do]Good\[Sol]bye \[Do]Ruby Tuesday, who could \[Sol]hang a name \[Do]on you
-    \[Do]When you \[Sol]change with \[Si&]every \[Fa]new day
-    \[Sol]Still I'm gonna \[Do]miss \[Sol]you
+    \[C]Good\[G]bye \[C]Ruby Tuesday, who could \[G]hang a name \[C]on you
+    \[C]When you \[G]change with \[B&]every \[F]new day
+    \[G]Still I'm gonna \[C]miss \[G]you
   \endchorus
 
   \beginverse

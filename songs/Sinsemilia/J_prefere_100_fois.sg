@@ -4,33 +4,33 @@
   [by=Sinsémilia,cov=resistances,album=Résistances]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
-  \gtab{Dom}{3:X02210}
-  \gtab{Solm}{3:022000}
-  \gtab{Do}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{Cm}{3:X02210}
+  \gtab{Gm}{3:022000}
+  \gtab{C}{X32010}
 
 
   \beginverse
-    \[Fa]On a placé la \[Sol]France
-    \[Lam]Sous vidéo survei\[Fa]llance
-    \[Mim]Kidnappée, l'\[Lam]insouciance
-    \[Dom]Entre les barreaux de la mé\[Solm]fiance
-    \[Fa]Regards fuyants, \[Sol]sourires éteints
-    \[Lam]La peur de l'autre au \[Fa]quoti\[Sol]dien
-    \[Mim]On est plus sauvage que des \[Lam]chiens
-    \[Dom]À quoi va ressembler de\[Solm]main ?
+    \[F]On a placé la \[G]France
+    \[Am]Sous vidéo survei\[F]llance
+    \[Em]Kidnappée, l'\[Am]insouciance
+    \[Cm]Entre les barreaux de la mé\[Gm]fiance
+    \[F]Regards fuyants, \[G]sourires éteints
+    \[Am]La peur de l'autre au \[F]quoti\[G]dien
+    \[Em]On est plus sauvage que des \[Am]chiens
+    \[Cm]À quoi va ressembler de\[Gm]main ?
   \endverse
 
   \beginchorus
-    \[Solm]Si pour être en sécurité
-    Il faut fer\[Rém]mer son cœur à clé
-    \[Lam]J'préfère cent \[Sol]fois me faire plom\[Fa]ber
-    Comme un oi\[Do]seau en liber\[Lam]té
-    Plutôt que \[Sol]de vivre plan\[Fa]qué
-    Comme, comme, comme le ca\[Sol]fard sous un é\[Lam]vier
+    \[Gm]Si pour être en sécurité
+    Il faut fer\[Dm]mer son cœur à clé
+    \[Am]J'préfère cent \[G]fois me faire plom\[F]ber
+    Comme un oi\[C]seau en liber\[Am]té
+    Plutôt que \[G]de vivre plan\[F]qué
+    Comme, comme, comme le ca\[G]fard sous un é\[Am]vier
   \endchorus
 
   \beginverse

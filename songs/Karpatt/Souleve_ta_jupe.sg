@@ -4,31 +4,31 @@
   [by=Karpatt,cov=dans-d-beaux-draps,album=Dans d'beaux draps]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{La7}{5:020100}
-  \gtab{Solm}{3:022000}
+  \gtab{Dm}{5:X02210}
+  \gtab{A7}{5:020100}
+  \gtab{Gm}{3:022000}
 
   \lilypond{Souleve_ta_jupe}
 
   \beginverse
-    Mon a\[Rém]mie, ne soit pas fa\[La7]rouche
-    Promis, \[Rém]je ne regarderai \[La7]pas
-    Tu sais \[Solm]moi, j'en ai vu des \[Rém]louches de lunes
-    Mais des belles comme \[La7]ça
+    Mon a\[Dm]mie, ne soit pas fa\[A7]rouche
+    Promis, \[Dm]je ne regarderai \[A7]pas
+    Tu sais \[Gm]moi, j'en ai vu des \[Dm]louches de lunes
+    Mais des belles comme \[A7]ça
   \endverse
 
   \beginverse*
-    Non, non, \[Rém]je ne tricherai \[La7]pas
-    J'garde\[Rém]rai les mains sur les \[La7]yeux
-    Promis, j'\[Solm]écarterai pas les \[Rém]doigts
-    Ou sinon tellement \[La7]peu
+    Non, non, \[Dm]je ne tricherai \[A7]pas
+    J'garde\[Dm]rai les mains sur les \[A7]yeux
+    Promis, j'\[Gm]écarterai pas les \[Dm]doigts
+    Ou sinon tellement \[A7]peu
   \endverse
 
   \beginchorus
-    Soulève ta \[Rém]jupe
-    Pour \[La7]sauter la ba\[Rém]rrière \[La7]
-    Soulève ta \[Rém]jupe
-    Ou \[La7]passons par de\[Rém]rrière \[La7]
+    Soulève ta \[Dm]jupe
+    Pour \[A7]sauter la ba\[Dm]rrière \[A7]
+    Soulève ta \[Dm]jupe
+    Ou \[A7]passons par de\[Dm]rrière \[A7]
   \endchorus
 
   \beginverse
@@ -46,10 +46,10 @@
   \endverse
 
   \beginverse
-    Tant pis pour \[Rém]toi moi je me \[La7]tire
-    T'as pas in\[Rém]térêt à ca\[La7]fter
-    Sinon je t'\[Rém]préviens ça sera \[La7]pire
-    Que c'qui t'es \[Rém]jamais arri\[La7]vé
+    Tant pis pour \[Dm]toi moi je me \[A7]tire
+    T'as pas in\[Dm]térêt à ca\[A7]fter
+    Sinon je t'\[Dm]préviens ça sera \[A7]pire
+    Que c'qui t'es \[Dm]jamais arri\[A7]vé
   \endverse
 
   \beginverse*
@@ -60,10 +60,10 @@
   \endverse
 
   \beginverse*
-    Elle cla\[Solm]quait ses jolies \[Rém]fesses
-    \[La7]Au rythme des larmes et des \[Rém]cris
-    \echo{Oh !} J'aurais \[Solm]pu me dénon\[Rém]cer
-    \[La7]Mais j'ai tout vu et j'ai rien dit
+    Elle cla\[Gm]quait ses jolies \[Dm]fesses
+    \[A7]Au rythme des larmes et des \[Dm]cris
+    \echo{Oh !} J'aurais \[Gm]pu me dénon\[Dm]cer
+    \[A7]Mais j'ai tout vu et j'ai rien dit
   \endverse
 
 \endsong

@@ -1,42 +1,42 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{La rouille}
+\beginsong{A rouille}
   [by=Maxime Le Forestier,cov=mon-frere,album=Mon frère]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
-  \gtab{Ré7}{XX0212}
-  \gtab{Mi4}{022200}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{D7}{XX0212}
+  \gtab{E4}{022200}
 
   \beginverse
-    \[Fa] L'habi\[Do]tude nous joue des \[Sol]tours
-    Nous qui pen\[Mi]sions que notre a\[Lam]mour
-    Avait u\[Fa]ne san\[Sol]té de \[Do]fer
-    \[Fa] Dès que \[Do]séchera la ro\[Sol]sée
-    Regarde \[Mi]la rouille \[Lam]posée
-    Sur la mé\[Fa]daille et \[Sol]son re\[Do]vers
+    \[F] L'habi\[C]tude nous joue des \[G]tours
+    Nous qui pen\[E]sions que notre a\[Am]mour
+    Avait u\[F]ne san\[G]té de \[C]fer
+    \[F] Dès que \[C]séchera la ro\[G]sée
+    Regarde \[E]la rouille \[Am]posée
+    Sur la mé\[F]daille et \[G]son re\[C]vers
   \endverse
 
   \beginverse*
-    \[Ré7]Elle teinte bien
-    Les \[Do]feuilles d'au\[Mi]tomne
-    \[Lam]Elle vient à bout
-    Des \[Fa]fusils cachés
-    \[Ré7]Elle rongerait les \[Do]grilles \[Mi]oubliées \[Lam]
-    Dans les pri\[Rém]sons
-    S'il n'y venait per\[Mi4]sonne \[Mi]
+    \[D7]Elle teinte bien
+    Les \[C]feuilles d'au\[E]tomne
+    \[Am]Elle vient à bout
+    Des \[F]fusils cachés
+    \[D7]Elle rongerait les \[C]grilles \[E]oubliées \[Am]
+    Dans les pri\[Dm]sons
+    S'il n'y venait per\[E4]sonne \[E]
   \endverse
 
   \beginverse*
-    \[Do]Moi je la vois
-    Comme \[Sol]une plaie u\[Mi]tile
-    \[Lam]Marquant le temps d'ocre \[Mim]jaune et de roux
-    \[Fa]La rouille au\[Ré7]rait un \[Do]char\[Mi]me \[Lam]fou
-    Si elle ne s'\[Rém]attaquait qu'aux \[Sol]gril\[Do]les
+    \[C]Moi je la vois
+    Comme \[G]une plaie u\[E]tile
+    \[Am]Marquant le temps d'ocre \[Em]jaune et de roux
+    \[F]La rouille au\[D7]rait un \[C]char\[E]me \[Am]fou
+    Si elle ne s'\[Dm]attaquait qu'aux \[G]gril\[C]les
   \endverse
 
   \beginverse
@@ -63,12 +63,12 @@
   \endverse
 
   \beginverse
-    \[Fa] Nous ne nous \[Do]verrons plus et \[Sol]puis
-    Mais ne crois \[Mi]pas ce que je \[Lam]dis
-    Tu sais, je \[Fa]ne \[Sol]suis pas en \[Do]fer
-    \[Fa] Dès que \[Do]séchera la ro\[Sol]sée
-    La rouille \[Lam]se sera posée
-    \[Fa]Sur ma musi\[Do]que et \[Sol]sur mes \[Do]vers
+    \[F] Nous ne nous \[C]verrons plus et \[G]puis
+    Mais ne crois \[E]pas ce que je \[Am]dis
+    Tu sais, je \[F]ne \[G]suis pas en \[C]fer
+    \[F] Dès que \[C]séchera la ro\[G]sée
+    La rouille \[Am]se sera posée
+    \[F]Sur ma musi\[C]que et \[G]sur mes \[C]vers
   \endverse
 
 \endsong

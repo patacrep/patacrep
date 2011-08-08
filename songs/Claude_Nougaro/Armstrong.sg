@@ -5,23 +5,23 @@
 
   \cover
   \capo{3}
-  \gtab{Mim}{022000}
-  \gtab{Si7}{X21202}
-  \gtab{Lam}{X02210}
-  \gtab{Do7}{X3234X}
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+  \gtab{Am}{X02210}
+  \gtab{C7}{X3234X}
 
   \beginverse
-    \[Mim]Armstrong, \[Si7]je ne \[Mim]suis pas \[Lam]noir
-    \[Mim]Je suis \[Si7]blanc de \[Mim]peau
-    \[Mim]Quand on \[Si7]veut chan\[Mim]ter l'es\[Lam]poir
-    \[Mim]Quel man\[Si7]que de \[Mim]pot
+    \[Em]Armstrong, \[B7]je ne \[Em]suis pas \[Am]noir
+    \[Em]Je suis \[B7]blanc de \[Em]peau
+    \[Em]Quand on \[B7]veut chan\[Em]ter l'es\[Am]poir
+    \[Em]Quel man\[B7]que de \[Em]pot
   \endverse
 
   \beginverse*
-    Oui, j'ai beau voir \[Mim]le ciel, l'\[Lam]oiseau
-    \[Mim]Rien, \[Si7]rien, \[Mim]rien ne \[Do7]luit là-haut
-    \[Mim]Les anges : \[Lam]zéro
-    \[Mim]Je suis \[Si7]blanc de \[Mim]peau
+    Oui, j'ai beau voir \[Em]le ciel, l'\[Am]oiseau
+    \[Em]Rien, \[B7]rien, \[Em]rien ne \[C7]luit là-haut
+    \[Em]Les anges : \[Am]zéro
+    \[Em]Je suis \[B7]blanc de \[Em]peau
   \endverse
 
   \beginverse

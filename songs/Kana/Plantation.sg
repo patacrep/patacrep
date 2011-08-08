@@ -4,18 +4,18 @@
   [by=Kana,cov=kana,album=Kana]
 
   \cover
-  \gtab{Sol}{3:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Ré}{5:X02220}
+  \gtab{G}{3:022100}
+  \gtab{C}{3:X02220}
+  \gtab{D}{5:X02220}
 
   \beginverse*
-    Je \[Sol]viens de m'acheter un p'tit lo\[Do]pin de terre
-    \[Ré]Pour pouvoir faire plan\[Sol]ter
+    Je \[G]viens de m'acheter un p'tit lo\[C]pin de terre
+    \[D]Pour pouvoir faire plan\[G]ter
   \endverse
 
   \beginchorus
-    J'\[Sol]ai un tout petit problème dans ma \[Do]plantation
-    \[Ré]Pourquoi ça pousse \[Sol]pas ?
+    J'\[G]ai un tout petit problème dans ma \[C]plantation
+    \[D]Pourquoi ça pousse \[G]pas ?
     \rep{2}
   \endchorus
 

@@ -4,22 +4,22 @@
   [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
 
   \cover
-  \gtab{Dom}{3:X02210}
-  \gtab{Sol}{3:021100}
-  \gtab{Fam}{1:022000}
+  \gtab{Cm}{3:X02210}
+  \gtab{G}{3:021100}
+  \gtab{Fm}{1:022000}
 
   \beginverse
-    \[Dom]Vas-y rince moi le cer\[Sol]veau
-    J'crois l'avoir bien méri\[Dom]té
-    Après 35 heures d'bou\[Sol]lot
-    Tu parles d'une éterni\[Dom]té
+    \[Cm]Vas-y rince moi le cer\[G]veau
+    J'crois l'avoir bien méri\[Cm]té
+    Après 35 heures d'bou\[G]lot
+    Tu parles d'une éterni\[Cm]té
   \endverse
 
   \beginverse*
-    Une p'tite pub, c'est d'bonne \[Fam]guerre
-    Un p'tit slogan éco\[Dom]lo
-    Arrêtez d'boire de la \[Sol]bière
-    Mangez plutôt au Mc\[Dom]Do
+    Une p'tite pub, c'est d'bonne \[Fm]guerre
+    Un p'tit slogan éco\[Cm]lo
+    Arrêtez d'boire de la \[G]bière
+    Mangez plutôt au Mc\[Cm]Do
   \endverse
 
 

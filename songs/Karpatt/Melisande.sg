@@ -5,39 +5,39 @@
 
   \cover
   \capo{5}
-  \gtab{Lam}{X02210}
-  \gtab{Mi7}{020100}
-  \gtab{La7}{X02020}
-  \gtab{Rém}{XX0231}
-  \gtab{Ré7}{XX0212}
-  \gtab{Sol7}{3:020100}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{E7}{020100}
+  \gtab{A7}{X02020}
+  \gtab{Dm}{XX0231}
+  \gtab{D7}{XX0212}
+  \gtab{G7}{3:020100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
   \beginverse
-    Elle s'a\[Lam]ppelait Mélisande
+    Elle s'a\[Am]ppelait Mélisande
     Elle habitait p't être à Nantes
-    À Bordeaux ou à Nan\[Mi7]cy
+    À Bordeaux ou à Nan\[E7]cy
     J'ai la mémoire qui flanche
     Les neurones pas étanches
-    Mais j'me rappelle d'un détail pré\[Lam]cis
+    Mais j'me rappelle d'un détail pré\[Am]cis
   \endverse
 
   \beginverse*
-    Dès \[Lam]que je pense à elle
+    Dès \[Am]que je pense à elle
     J'ai Popol qui s'réveille
-    C'est \[La7]pas si mal, finalement j'me \[Rém]dis
-    Il en reste quelque \[Lam]chose
-    Un \[Mi7]truc qui en im\[Lam]pose
-    Un \[Ré7]chef d'œuvre de l'anato\[Sol7]mie
+    C'est \[A7]pas si mal, finalement j'me \[Dm]dis
+    Il en reste quelque \[Am]chose
+    Un \[E7]truc qui en im\[Am]pose
+    Un \[D7]chef d'œuvre de l'anato\[G7]mie
   \endverse
 
   \beginchorus
-    Elle avait des \[Do]seins gros comme des melons
-    Et moi, j'tâtais et moi j'tâtais la marchan\[Sol]dise
-    Elle était \[Fa]belle comme un ca\[Do]mion
-    Comme une guir\[Sol]lande, une frian\[Do]dise
+    Elle avait des \[C]seins gros comme des melons
+    Et moi, j'tâtais et moi j'tâtais la marchan\[G]dise
+    Elle était \[F]belle comme un ca\[C]mion
+    Comme une guir\[G]lande, une frian\[C]dise
   \endchorus
 
   \beginverse

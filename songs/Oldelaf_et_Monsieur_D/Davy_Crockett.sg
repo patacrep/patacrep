@@ -4,20 +4,20 @@
   [by=Oldelaf et Monsieur~D.,cov=lives,album=Lives]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginchorus
-    \[Do]Davy, \[Fa]Davy \[Do]Crockett
-    L'\[Sol]homme qui n'a jamais \[Do]faim
+    \[C]Davy, \[F]Davy \[C]Crockett
+    L'\[G]homme qui n'a jamais \[C]faim
   \endchorus
 
   \beginverse
-    \[Do]Pendant la guerre contre \[Fa]les in\[Do]diens
-    Il combattit tout \[Sol]seul contre vingt
-    \[Do]Ayant une flèche plan\[Fa]tée dans une main
-    \[Sol]Il l'arracha avec son autre \[Do]main
+    \[C]Pendant la guerre contre \[F]les in\[C]diens
+    Il combattit tout \[G]seul contre vingt
+    \[C]Ayant une flèche plan\[F]tée dans une main
+    \[G]Il l'arracha avec son autre \[C]main
   \endverse
 
   \beginchorus

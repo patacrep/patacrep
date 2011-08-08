@@ -4,14 +4,14 @@
   [by=Simon \& Garfunkel,cov=the-definitive,album=The definitive]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
 
 
   \beginverse
-    I'd \[Mim]rather be a sparrow than a \[Sol]snail
-    Yes I would, if I could, I surely \[Mim]would
+    I'd \[Em]rather be a sparrow than a \[G]snail
+    Yes I would, if I could, I surely \[Em]would
   \endverse
 
   \beginverse*
@@ -20,11 +20,11 @@
   \endverse
 
   \beginchorus
-    A\[Do]way, I'd rather sail away
-    Like a \[Sol]swan that's here and gone
-    A \[Do]man gets tied up to the ground
-    He gives the \[Sol]world its saddest sound
-    Its saddest \[Mim]sound
+    A\[C]way, I'd rather sail away
+    Like a \[G]swan that's here and gone
+    A \[C]man gets tied up to the ground
+    He gives the \[G]world its saddest sound
+    Its saddest \[Em]sound
   \endchorus
 
   \beginverse

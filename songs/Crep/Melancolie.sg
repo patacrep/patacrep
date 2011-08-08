@@ -4,16 +4,16 @@
   [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Tu sais, j'suis pas franchement dou\[Sol]é
-    Quand s'agit d'\[Lam]faire comme il fau\[Sol]drait
-    \[Fa]Mais crois-moi j'suis tout attri\[Do]sté
-    D'vant ce si\[Mi]lence pt'être méri\[Lam]té
+    \[Am]Tu sais, j'suis pas franchement dou\[G]é
+    Quand s'agit d'\[Am]faire comme il fau\[G]drait
+    \[F]Mais crois-moi j'suis tout attri\[C]sté
+    D'vant ce si\[E]lence pt'être méri\[Am]té
   \endverse
 
   \beginverse

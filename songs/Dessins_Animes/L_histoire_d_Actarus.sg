@@ -5,26 +5,26 @@
 
   \cover
   \capo{5}
-  \gtab{Dom}{3:X02210}
-  \gtab{Si&}{1:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{Sol#}{4:022100}
-  \gtab{Fam}{1:022000}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Solm}{3:022000}
-  \gtab{Fa}{1:022100}
+  \gtab{Cm}{3:X02210}
+  \gtab{B&}{1:X02220}
+  \gtab{G}{3:022100}
+  \gtab{G#}{4:022100}
+  \gtab{Fm}{1:022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Gm}{3:022000}
+  \gtab{F}{1:022100}
 
   \beginverse
-    Là-\[Dom]haut, là-haut
-    \[Si&]Très loin dans l'espace
-    \[Sol]Entre la Terre \[Dom]{et Vénus}
-    \[Si&]{Le ciel} garde encore la trace
-    \[Sol#]{Du Prince} Acta\[Sol]rus
-    \[Fam]{Il rêvait} \[Dom]de notre Terre
-    \[Si&]{La Planète} \[Sol]Bleue
-    \[Fam]Dont il voyait \[Dom]la lumière
-    \[Sol]{À cent} mille \[Dom]lieux
+    Là-\[Cm]haut, là-haut
+    \[B&]Très loin dans l'espace
+    \[G]Entre la Terre \[Cm]{et Vénus}
+    \[B&]{Le ciel} garde encore la trace
+    \[G#]{Du Prince} Acta\[G]rus
+    \[Fm]{Il rêvait} \[Cm]de notre Terre
+    \[B&]{La Planète} \[G]Bleue
+    \[Fm]Dont il voyait \[Cm]la lumière
+    \[G]{À cent} mille \[Cm]lieux
   \endverse
 
   \beginverse
@@ -40,13 +40,13 @@
   \endverse
 
   \beginchorus
-    \[Do]Dans son mervei\[Sol]lleux robot
-    \[Lam]De lumière et d'a\[Sol]cier
-    \[Rém]{Ce chevalier} \[Do]des temps nouveaux
-    \[Sol]Se bat pour l'humani\[Do]té
-    \[Sol]Actarus à bord de Goldorak
-    \[Do]Voici la lé\[Fa]gende
-    \[Sol]Que l'on va vous racon\[Do]ter
+    \[C]Dans son mervei\[G]lleux robot
+    \[Am]De lumière et d'a\[G]cier
+    \[Dm]{Ce chevalier} \[C]des temps nouveaux
+    \[G]Se bat pour l'humani\[C]té
+    \[G]Actarus à bord de Goldorak
+    \[C]Voici la lé\[F]gende
+    \[G]Que l'on va vous racon\[C]ter
   \endchorus
 
 \endsong

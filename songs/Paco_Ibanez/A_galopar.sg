@@ -4,20 +4,20 @@
   [by=Paco Ib\'a\~nez,cov=a-galopar,album=A galopar]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \beginverse
-    \[Lam]Las tierras, las tierras, las tierras de España
+    \[Am]Las tierras, las tierras, las tierras de España
     Las grandes, las solas desiertas llanuras
-    Ga\[Fa]lopa caballo, cuatralbo
-    Jinete del pueblo, que la tierra es \[Mi]tuya
+    Ga\[F]lopa caballo, cuatralbo
+    Jinete del pueblo, que la tierra es \[E]tuya
   \endverse
 
   \beginchorus
-    A galo\[Fa]par, a galopar
-    Hasta enter\[Mim]rarlos en el mar
+    A galo\[F]par, a galopar
+    Hasta enter\[Em]rarlos en el mar
     \rep{2}
   \endchorus
 

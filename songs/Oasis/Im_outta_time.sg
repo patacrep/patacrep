@@ -4,18 +4,18 @@
   [by=Oasis,cov=dig-out-your-soul,album=Dig out your soul]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Misus4}{022200}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{Esus4}{022200}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Mim]Here's a song
-    It reminds me of when \[Misus4]we were young
-    Looking back at all the \[Lam]things we'd done
-    Gotta keep on \[Do]keeping on
+    \[Em]Here's a song
+    It reminds me of when \[Esus4]we were young
+    Looking back at all the \[Am]things we'd done
+    Gotta keep on \[C]keeping on
   \endverse
 
   \beginverse
@@ -26,21 +26,21 @@
   \endverse
 
   \beginchorus
-    \[Sol]If I'm to fall
-    \[Ré]Would you be there to applaud?
-    Or \[Mim]would you hide behind them all?
-    Cause if I have to \[Lam]go
-    In my heart you \[Do]grow
-    And that's where you be\[Sol]long
+    \[G]If I'm to fall
+    \[D]Would you be there to applaud?
+    Or \[Em]would you hide behind them all?
+    Cause if I have to \[Am]go
+    In my heart you \[C]grow
+    And that's where you be\[G]long
     \rep{2}
   \endchorus
 
   \beginverse
-    \[Sol]Guess I'm outta time
+    \[G]Guess I'm outta time
     I'm outta time
-    \[Mim]I'm outta time
-    \[Lam]I'm outta time
-    \[Do]I'm outta time
+    \[Em]I'm outta time
+    \[Am]I'm outta time
+    \[C]I'm outta time
   \endverse
 
 \endsong

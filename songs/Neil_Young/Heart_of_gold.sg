@@ -4,22 +4,22 @@
   [by=Neil Young,cov=harvest-moon,album=Harvest moon]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
 
   \lilypond{Heart_of_gold}
 
   \beginverse
-    \[Mim] I want to \[Do]live, \[Ré] I want to \[Sol]give
-    \[Mim] I've been a \[Do]miner for a \[Ré]heart of gold \[Sol]
-    \[Mim] It seems ex\[Do]pressions, \[Ré] I never \[Sol]give
+    \[Em] I want to \[C]live, \[D] I want to \[G]give
+    \[Em] I've been a \[C]miner for a \[D]heart of gold \[G]
+    \[Em] It seems ex\[C]pressions, \[D] I never \[G]give
   \endverse
 
   \beginchorus
-    \[Mim] It keeps me \[Do]searching for a \[Ré]heart of gold \[Sol]
-    \[Do]And I'm getting older \[Mim]
+    \[Em] It keeps me \[C]searching for a \[D]heart of gold \[G]
+    \[C]And I'm getting older \[Em]
     \rep{2}
   \endchorus
 

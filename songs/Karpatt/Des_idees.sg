@@ -4,17 +4,17 @@
   [by=Karpatt,cov=dans-d-beaux-draps,album=Dans d'beaux draps]
 
   \cover
-  \gtab{Lam}{5:022000}
-  \gtab{Mi7}{5:X2120X}
-  \gtab{Dom}{3:X02210}
-  \gtab{La&}{4:022100}
-  \gtab{Sol}{3:022100}
+  \gtab{Am}{5:022000}
+  \gtab{E7}{5:X2120X}
+  \gtab{Cm}{3:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{G}{3:022100}
 
   \beginverse
-    Des idées \[Lam]en tranches dans \[Mi7]un magasin
-    Des idées \[Lam]qui flanchent, d'au\[Mi7]tres qui vont bien
-    Des idées \[Lam]offertes au \[Mi7]premier venu
-    Des idées \[Lam]vénales, des idées \[Mi7]velues
+    Des idées \[Am]en tranches dans \[E7]un magasin
+    Des idées \[Am]qui flanchent, d'au\[E7]tres qui vont bien
+    Des idées \[Am]offertes au \[E7]premier venu
+    Des idées \[Am]vénales, des idées \[E7]velues
   \endverse
 
   \beginverse*
@@ -25,10 +25,10 @@
   \endverse
 
   \beginverse*
-    Des idées d'\[Dom]génie qu'on n'\[La&]{a pas} sou\[Sol]vent
-    Des idées \[Dom]lointaines qui vo\[La&]yagent \[Sol]tout le temps
-    Des idées \[Dom]dociles tou\[La&]jours bienve\[Sol]nues
-    Des idées \[Dom]qui plaisent, des idées \[La&]per\[Sol]dues
+    Des idées d'\[Cm]génie qu'on n'\[A&]{a pas} sou\[G]vent
+    Des idées \[Cm]lointaines qui vo\[A&]yagent \[G]tout le temps
+    Des idées \[Cm]dociles tou\[A&]jours bienve\[G]nues
+    Des idées \[Cm]qui plaisent, des idées \[A&]per\[G]dues
   \endverse
 
   \beginchorus

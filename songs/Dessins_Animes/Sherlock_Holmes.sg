@@ -5,39 +5,39 @@
 
   \cover
   \capo{1}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
-  \gtab{Sim}{2:X02210}
-  \gtab{Sol}{320003}
-  \gtab{Mi}{022100}
-  \gtab{Solm}{3:022000}
-  \gtab{Mim}{022000}
-  \gtab{Fa#}{2:022100}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{Gm}{3:022000}
+  \gtab{Em}{022000}
+  \gtab{F#}{2:022100}
 
   \beginverse
-    \[Ré] Le plus \[La]grand des détec\[Sim]tives
-    Oui c'est \[Sol]lui, Sher\[Ré]lock Holmes, le voi\[La]ci
-    \[Ré] Il ha\[La]bite Baker \[Sim]Street
-    Et pour\[Sol]suit Mo\[Ré]riarty le mé\[La]chant
+    \[D] Le plus \[A]grand des détec\[Bm]tives
+    Oui c'est \[G]lui, Sher\[D]lock Holmes, le voi\[A]ci
+    \[D] Il ha\[A]bite Baker \[Bm]Street
+    Et pour\[G]suit Mo\[D]riarty le mé\[A]chant
   \endverse
 
   \beginverse
-    \[Sol] Brigand élégant
-    \[Solm] La canne à la main
-    \[Ré] Démasqué par Sherlock \[Mim]Holmes le plus ma\[La]lin
+    \[G] Brigand élégant
+    \[Gm] La canne à la main
+    \[D] Démasqué par Sherlock \[Em]Holmes le plus ma\[A]lin
   \endverse
 
   \beginverse
-    \[Sim] Courez, courez
-    \[Mim] Holmes et Watson
-    \[Sim] Ne laissez pas filer \[Mim]le ban\[Fa#]dit
+    \[Bm] Courez, courez
+    \[Em] Holmes et Watson
+    \[Bm] Ne laissez pas filer \[Em]le ban\[F#]dit
   \endverse
 
   \beginverse
-    \[Sim] Cherchez, cherchez
-    \[Mim] Loupe à la main
-    \[Sim] Les méfaits de ce \[Mim]gros re\[La]quin
-    \[Sim] Et nos \[Mim]soucis seront \[La]bientôt \[Ré]finis
+    \[Bm] Cherchez, cherchez
+    \[Em] Loupe à la main
+    \[Bm] Les méfaits de ce \[Em]gros re\[A]quin
+    \[Bm] Et nos \[Em]soucis seront \[A]bientôt \[D]finis
   \endverse
 
 \endsong

@@ -4,17 +4,17 @@
   [by=Pornophonique,cov=8-bit-lagerfeuer,album=8 bit lagerfeuer]
 
   \cover
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \lilypond{Sad_robot}
 
   \beginverse
-    His \[Rém]steely skin is covered
-    By \[Fa]centuries of dust
-    \[Do]Once he was a great one
-    \[Rém]Now he's dull and rust
+    His \[Dm]steely skin is covered
+    By \[F]centuries of dust
+    \[C]Once he was a great one
+    \[Dm]Now he's dull and rust
   \endverse
 
   \beginverse*

@@ -4,28 +4,28 @@
   [by=Maxime Le Forestier,cov=mon-frere,album=Mon frère]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol7}{320001}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G7}{320001}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{G}{320003}
 
   \lilypond{Education_sentimentale}
 
   \beginverse
-    \[Do]Ce soir à la brume \[Lam]nous irons ma brune
-    \[Rém]Cueillir des ser\[Sol7]ments
-    \[Do]Cette fleur sauvage \[Lam]qui fait des ravages
-    \[Rém]Dans les \[Sol7]cœurs d'en\[Do]fant
+    \[C]Ce soir à la brume \[Am]nous irons ma brune
+    \[Dm]Cueillir des ser\[G7]ments
+    \[C]Cette fleur sauvage \[Am]qui fait des ravages
+    \[Dm]Dans les \[G7]cœurs d'en\[C]fant
   \endverse
 
   \beginverse*
-    \[Fa]Pour toi ma princesse, \[Sol7]j'en ferai des tresses
-    Et dans tes che\[Do]veux
-    \[Mi]Ces serments ma belle \[Lam]te rendront cruelle
-    \[Rém]Pour tes \[Sol7]amou\[Do]reux \[Mi Lam Sol Fa Sol Do]
+    \[F]Pour toi ma princesse, \[G7]j'en ferai des tresses
+    Et dans tes che\[C]veux
+    \[E]Ces serments ma belle \[Am]te rendront cruelle
+    \[Dm]Pour tes \[G7]amou\[C]reux \[E Am G F G C]
   \endverse
 
   \beginverse

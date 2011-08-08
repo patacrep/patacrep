@@ -4,19 +4,19 @@
   [by=Kimya Dawson,cov=juno,album=Juno]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Sol]The flower said: ``I wish I was a \[Do]tree''
-    The tree said: ``I wish I could \[Ré]be
+    \[G]The flower said: ``I wish I was a \[C]tree''
+    The tree said: ``I wish I could \[D]be
     A different kind of tree''
-    \[Sol]The cat wished that it was a bee
-    \[Sol]The turtle wished that it could fly
-    \[Do]Really high into the sky
-    \[Ré]Over rooftops and then dive
-    \[Sol]Deep into the sea
+    \[G]The cat wished that it was a bee
+    \[G]The turtle wished that it could fly
+    \[C]Really high into the sky
+    \[D]Over rooftops and then dive
+    \[G]Deep into the sea
   \endverse
 
   \beginverse

@@ -4,36 +4,36 @@
   [by=Dessins Animés,cov=lucky-luke,album=Lucky Luke]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]On l'appelle Lucky Luke
-    \[Sol]De l'Ouest au Far-Ouest
-    \[Fa]Il arrive au galop
-    \[Do]Ce cowboy héros
+    \[Am]On l'appelle Lucky Luke
+    \[G]De l'Ouest au Far-Ouest
+    \[F]Il arrive au galop
+    \[C]Ce cowboy héros
   \endverse
 
   \beginverse
-    \[Lam]Son tir est plus rapide
-    \[Sol]Plus rapide que son ombre
-    \[Fa]Et son revolver va plus vite que l'éclair
-    Oh \[Sol]sacré Lucky \[Do]Luke !
+    \[Am]Son tir est plus rapide
+    \[G]Plus rapide que son ombre
+    \[F]Et son revolver va plus vite que l'éclair
+    Oh \[G]sacré Lucky \[C]Luke !
   \endverse
 
   \beginchorus
-    \[Sol]Bang Bang Lucky Luke
-    \[Do]Bang Bang Lucky Luke
-    \[Sol]{C'est} lui qui a le truc pour \[Do]nous étonner
+    \[G]Bang Bang Lucky Luke
+    \[C]Bang Bang Lucky Luke
+    \[G]{C'est} lui qui a le truc pour \[C]nous étonner
   \endchorus
 
   \beginchorus
-    \[Sol]Bang Bang Lucky Luke
-    \[Do]Bang Bang Lucky Luke
-    \[Fa]C'est un homme qui n'a peur de personne
-    Mê\[Sol]me pas des Dal\[Do]ton !
+    \[G]Bang Bang Lucky Luke
+    \[C]Bang Bang Lucky Luke
+    \[F]C'est un homme qui n'a peur de personne
+    Mê\[G]me pas des Dal\[C]ton !
   \endchorus
 
   \beginchorus
@@ -43,9 +43,9 @@
   \endchorus
 
   \beginverse
-    Les \[Fa]hors-la-loi
+    Les \[F]hors-la-loi
     N'échapperont pas
-    Au \[Sol]tir de Lucky \[Do]Luke !
+    Au \[G]tir de Lucky \[C]Luke !
   \endverse
 
 \endsong

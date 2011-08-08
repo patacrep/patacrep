@@ -4,15 +4,15 @@
   [by=Outkast,cov=speakerboxx-lovebelow,album=The Love Below]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Mi}{022100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
 
   \beginverse
-    \[Sol]My baby don't m\[Do]ess around
+    \[G]My baby don't m\[C]ess around
     Because she loves me so
-    And this \[Ré]I know for s\[Mi]ure
+    And this \[D]I know for s\[E]ure
   \endverse
 
   \beginverse*
@@ -34,7 +34,7 @@
   \endverse
 
   \beginchorus
-    \[Sol]Hey \[Do]ya, \[Ré]hey \[Mi]ya \rep{2}
+    \[G]Hey \[C]ya, \[D]hey \[E]ya \rep{2}
   \endchorus
 
   \beginverse

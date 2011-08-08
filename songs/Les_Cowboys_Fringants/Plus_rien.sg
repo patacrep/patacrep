@@ -4,31 +4,30 @@
   [by=Les Cowboys Fringants,cov=la-grand-messe,album=La grand messe]
 
   \cover
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Solm}{3:022000}
-  \gtab{Si&}{1:X02220}
-  \gtab{La7}{X02020}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Gm}{3:022000}
+  \gtab{B&}{1:X02220}
+  \gtab{A7}{X02020}
 
-  \musicnote{Pattern 1 : Rém Fa Do Sol}
-
+  \musicnote{Pattern 1 : Dm F C G}
   \beginverse
-    Il \[Rém]ne reste que quelques minutes à ma vie
-    Tout \[Fa]au plus quelques heures je sens que je faiblis
-    Mon \[Do]frère est mort hier au milieu du désert
-    Je \[Solm]suis maintenant le dernier hu\[Si&]main \[Do]de la \[Rém]terre
+    Il \[Dm]ne reste que quelques minutes à ma vie
+    Tout \[F]au plus quelques heures je sens que je faiblis
+    Mon \[C]frère est mort hier au milieu du désert
+    Je \[Gm]suis maintenant le dernier hu\[B&]main \[C]de la \[Dm]terre
   \endverse
 
-  \musicnote{Pattern 2 : Rém Sol Do Si\flt}
+  \musicnote{Pattern 2 : Dm G C B\flt}
   \beginverse*
-    On \[Rém]{m'a} décrit jadis, quand j'étais un enfant
-    Ce \[Solm]{qu'avait} l'air le monde il y a très très longtemps
-    Quand \[Do]vivaient les parents de mon arrière grand-père
-    Et \[Si&]{qu'il} tombait encore de la \[La7]neige en hiver
+    On \[Dm]{m'a} décrit jadis, quand j'étais un enfant
+    Ce \[Gm]{qu'avait} l'air le monde il y a très très longtemps
+    Quand \[C]vivaient les parents de mon arrière grand-père
+    Et \[B&]{qu'il} tombait encore de la \[A7]neige en hiver
   \endverse
 
-  %\musicnote{Pattern 2 : Rém Sol Do Si\flt}
+  %\musicnote{Pattern 2 : Dm G C B\flt}
   \beginverse*
     En ces temps on vivait au rythme des saisons
     Et la fin des étés apportait la moisson
@@ -36,20 +35,20 @@
     Où venaient s'abreuver chevreuils et orignaux
   \endverse
 
-  \musicnote{Pattern 3 : Ré Si\flt Fa Do}
+  \musicnote{Pattern 3 : D B\flt F C}
   \beginverse*
-    Mais \[Rém]moi je n'ai vu qu'une planète désolante
-    \[Si&]Paysages lunaires et chaleur suffocante
-    Et tous \[Fa]mes amis mourir par la soif ou la faim
-    Co\[Do]mme tombent les mouches
+    Mais \[Dm]moi je n'ai vu qu'une planète désolante
+    \[B&]Paysages lunaires et chaleur suffocante
+    Et tous \[F]mes amis mourir par la soif ou la faim
+    Co\[C]mme tombent les mouches
   \endverse
 
   \beginchorus
-    Jusqu'à c'qu'il n'y ait plus \[Rém]rien
-    Plus \[Solm]rien, plus \[Do]rien \[Si& Do]
+    Jusqu'à c'qu'il n'y ait plus \[Dm]rien
+    Plus \[Gm]rien, plus \[C]rien \[B& C]
   \endchorus
 
-  \musicnote{Pattern 1 : Rém Fa Do Sol}
+  \musicnote{Pattern 1 : Dm F C G}
   \beginverse
     Il ne reste que quelques minutes à ma vie
     Tout au plus quelques heures, je sens que je faiblis
@@ -57,7 +56,7 @@
     Je suis maintenant le dernier humain de la terre
   \endverse
 
-  \musicnote{Pattern 2 : Rém Sol Do Si\flt}
+  \musicnote{Pattern 2 : Dm G C B\flt}
   \beginverse*
     Tout ça a commencé il y a plusieurs années
     Alors que mes ancêtres étaient obnubilés
@@ -65,7 +64,7 @@
     Qui rendaient certains hommes vraiment riches et puissants
   \endverse
 
-  %\musicnote{Pattern 2 : Rém Sol Do Si\flt}
+  %\musicnote{Pattern 2 : Dm G C B\flt}
   \beginverse*
     Et ces nouveaux dieux ne reculant devant rien
     Étaient prêts à tout pour arriver à leurs fins
@@ -73,7 +72,7 @@
     Pollué l'air ambiant et tari les rivières
   \endverse
 
-  %\musicnote{Pattern 2 : Rém Sol Do Si\flt}
+  %\musicnote{Pattern 2 : Dm G C B\flt}
   \beginverse*
     Mais au bout de cent ans des gens se sont levés
     Et les ont avertis qu'il fallait tout stopper
@@ -81,7 +80,7 @@
     Ces gens-là ne parlaient qu'en termes de profits
   \endverse
 
-  \musicnote{Pattern 3 : Ré Si\flt Fa Do}
+  \musicnote{Pattern 3 : D B\flt F C}
   \beginverse*
     C'est des années plus tard qu'ils ont vu le non-sens
     Dans la panique ont déclaré l'état d'urgence
@@ -89,7 +88,7 @@
     Et que les inondations ont frappé les grandes villes
   \endverse
 
-  %\musicnote{Pattern 3 : Ré Si\flt Fa Do}
+  %\musicnote{Pattern 3 : D B\flt F C}
   \beginverse*
     Et par la suite pendant toute une décennie
     Ce fut les ouragans et puis les incendies
@@ -97,7 +96,7 @@
     Partout sur les visages on lisait la détresse
   \endverse
 
-  %\musicnote{Pattern 3 : Ré Si\flt Fa Do}
+  %\musicnote{Pattern 3 : D B\flt F C}
   \beginverse*
     Les gens ont dû se battre contre les pandémies
     Décimés par millions par d'atroces maladies
@@ -105,7 +104,7 @@
     Comme tombent les mouches
   \endverse
 
-  \musicnote{Pattern 2 : Rém Sol Do Si\flt}
+  \musicnote{Pattern 2 : Dm G C B\flt}
   \beginverse
     Mon frère est mort hier au milieu du désert
     Je suis maintenant le dernier humain de la terre
@@ -113,7 +112,7 @@
     N'aura été qu'un beau cadeau empoisonné
   \endverse
 
-  \musicnote{Pattern 1 : Rém Fa Do Sol}
+  \musicnote{Pattern 1 : Dm F C G}
   \beginverse*
     Car il ne reste que quelques minutes à la vie
     Tout au plus quelques heures, je sens que je faiblis

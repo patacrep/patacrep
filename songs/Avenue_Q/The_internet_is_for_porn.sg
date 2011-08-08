@@ -4,26 +4,26 @@
   [by=Avenue Q,cov=avenue-q,album=Avenue Q]
 
   \cover
-  \gtab{Mi}{7:X02220}
-  \gtab{Si7}{7:020100}
-  \gtab{Fa#m}{9:X02210}
-  \gtab{La&m}{4:022000}
-  \gtab{La}{5:022100}
-  \gtab{Si}{7:022100}
+  \gtab{E}{7:X02220}
+  \gtab{B7}{7:020100}
+  \gtab{F#m}{9:X02210}
+  \gtab{A&m}{4:022000}
+  \gtab{A}{5:022100}
+  \gtab{B}{7:022100}
 
   \beginverse
-    \[Mi]The internet is \[Si7]really really \[Mi]great \echo{For porn!}
-    \[Mi]I've got a fast connection so \[Si7]I don't have to \[Mi]wait \echo{For porn!}
-    \[Fa#m]There's always some new site \echo{For porn!}
-    \[La&m]I browse all day and night \echo{For porn!}
-    It's \[Fa#m]like I'm surfing \[La]at the speed of \[Si]light \echo{For porn!}
+    \[E]The internet is \[B7]really really \[E]great \echo{For porn!}
+    \[E]I've got a fast connection so \[B7]I don't have to \[E]wait \echo{For porn!}
+    \[F#m]There's always some new site \echo{For porn!}
+    \[A&m]I browse all day and night \echo{For porn!}
+    It's \[F#m]like I'm surfing \[A]at the speed of \[B]light \echo{For porn!}
   \endverse
 
   \beginchorus
-    \[Mi]The internet is for porn \echo{Trekkie!}
-    \[Si7]The internet is for porn \echo{What are you doing?}
-    \[Mi]Why you think the \[La]net was born?
-    \[Mi]Porn, \[Si7]porn, \[Mi]porn!
+    \[E]The internet is for porn \echo{Trekkie!}
+    \[B7]The internet is for porn \echo{What are you doing?}
+    \[E]Why you think the \[A]net was born?
+    \[E]Porn, \[B7]porn, \[E]porn!
   \endchorus
 
   \beginverse*

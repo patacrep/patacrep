@@ -5,23 +5,23 @@
 
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Sol7}{320001}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{G7}{320001}
+  \gtab{F}{1:022100}
 
 
   \beginverse
-    \[Do]{I am} just a poor boy
-    Though my story is seldom \[Lam]told
-    I have \[Sol]squandered my resistance
-    For a \[Sol7]pocketful of \[Sol]mumbles
-    Such are \[Do]promises
-    All lies and \[Lam]jest
-    Still a \[Sol]man hears
-    What he \[Fa]wants to hear and
-    Disregards the \[Do]rest \[Sol Sol7 Sol Do]
+    \[C]{I am} just a poor boy
+    Though my story is seldom \[Am]told
+    I have \[G]squandered my resistance
+    For a \[G7]pocketful of \[G]mumbles
+    Such are \[C]promises
+    All lies and \[Am]jest
+    Still a \[G]man hears
+    What he \[F]wants to hear and
+    Disregards the \[C]rest \[G G7 G C]
   \endverse
 
   \beginverse
@@ -38,9 +38,9 @@
   \endverse
 
   \beginchorus
-    Lie la \[Lam]lie, lie la \[Sol]lie la lie la lie
-    Lie la \[Lam]lie
-    Lie la \[Fa]lie la lie la \[Sol]lie la la lie la \[Do]lie
+    Lie la \[Am]lie, lie la \[G]lie la lie la lie
+    Lie la \[Am]lie
+    Lie la \[F]lie la lie la \[G]lie la la lie la \[C]lie
   \endchorus
 
   \beginverse
@@ -74,7 +74,7 @@
     Wishing I was gone
     Goin' home
     Where the New York City winters aren't bleedin' me
-    Leadin' \[Lam]me goin' \[Sol]home
+    Leadin' \[Am]me goin' \[G]home
   \endverse
 
   \beginverse

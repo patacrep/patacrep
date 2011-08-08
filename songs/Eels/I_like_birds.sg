@@ -5,15 +5,15 @@
 
   \cover
   \capo{2}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Ré]{I can't} look at the \[Do]rocket \[Sol]launch
-    The \[Ré]trophy wives of the \[Do]astro\[Sol]nauts
-    And \[Ré]{I won't} listen \[Do]{to their} \[Sol]words
-    'cause \[Ré]{I like} \[Do] \[Sol]birds
+    \[D]{I can't} look at the \[C]rocket \[G]launch
+    The \[D]trophy wives of the \[C]astro\[G]nauts
+    And \[D]{I won't} listen \[C]{to their} \[G]words
+    'cause \[D]{I like} \[C] \[G]birds
   \endverse
 
   \beginverse
@@ -24,8 +24,8 @@
   \endverse
 
   \beginchorus
-    \[Ré]{If you're} small and \[Do]{on a} \[Sol]search
-    \[Ré]I've got a feeder for \[Do]you to \[Sol]perch on
+    \[D]{If you're} small and \[C]{on a} \[G]search
+    \[D]I've got a feeder for \[C]you to \[G]perch on
   \endchorus
 
   \beginverse

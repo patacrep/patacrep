@@ -4,17 +4,17 @@
   [by=Les Cowboys Fringants,cov=la-grand-messe,album=La grand messe]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Sim}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Bm}{2:X02210}
 
   \beginverse
-    On n'\[Mim]avait jamais su de quel pays qu'elle v'nait
-    Ni même l'âge qu'elle avait ou comment qu'\[Lam]elle s'appelait
-    Mais tout l'\[Ré]monde la surnommait {\og}La \[Do]Reine{\fg}
-    Dans l'bout d'la rue Sainte-\[Ré]Catherine \[Sim]et d'la \[Mim]Main
+    On n'\[Em]avait jamais su de quel pays qu'elle v'nait
+    Ni même l'âge qu'elle avait ou comment qu'\[Am]elle s'appelait
+    Mais tout l'\[D]monde la surnommait {\og}La \[C]Reine{\fg}
+    Dans l'bout d'la rue Sainte-\[D]Catherine \[Bm]et d'la \[Em]Main
   \endverse
 
   \beginverse*
@@ -25,10 +25,10 @@
   \endverse
 
   \beginchorus
-    Chaque \[Ré]soir elle prenait sous son \[Mim]aile
-    Les clo\[Do]chards et les junkies du \[Sol]fond de ruelles
-    Comme un \[Lam]ange-gardien venu du \[Mim]ciel
-    Qui serait atter\[Ré]ri dans \[Sim]les pou\[Mim]belles
+    Chaque \[D]soir elle prenait sous son \[Em]aile
+    Les clo\[C]chards et les junkies du \[G]fond de ruelles
+    Comme un \[Am]ange-gardien venu du \[Em]ciel
+    Qui serait atter\[D]ri dans \[Bm]les pou\[Em]belles
   \endchorus
 
 

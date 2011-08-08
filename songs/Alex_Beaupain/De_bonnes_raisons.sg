@@ -4,26 +4,26 @@
   [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
-  \gtab{Fa7}{1X221X}
-  \gtab{Mi7}{020130}
-  \gtab{Rém}{XX0231}
-  \gtab{Do}{X32010}
-  \gtab{Ré7}{XX0212}
-  \gtab{Si&}{1:X02220}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F7}{1X221X}
+  \gtab{E7}{020130}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{D7}{XX0212}
+  \gtab{B&}{1:X02220}
 
   \beginverse
-    \[Lam] Ton feu nou\[Mim]rri de ques\[Fa7]tions
-    Sur \[Mi7]le pourquoi du comment
-    \[Lam]De mon c\[Mim]œur et ses rai\[Fa7]sons
-    \[Mi7]Ne trouve pas \[Mi7]de répondant
-    \[Rém]Je ne \[Mi7]manque pas\[Lam]
-    \[Do] De bonnes raisons pour t'ai\[Rém]mer
-    \[Rém]Je ne vois \[Mi7]pas
-    Pour quelle rai\[Lam]son te les do\[Do]nner
-    \[Ré7] Mes bonnes rais\[Fa7]ons pour t'aimer\[Lam]
-    Pourq\[Do]uoi te les \[Ré7]donner ?\[Ré7]\[Fa7]
+    \[Am] Ton feu nou\[Em]rri de ques\[F7]tions
+    Sur \[E7]le pourquoi du comment
+    \[Am]De mon c\[Em]œur et ses rai\[F7]sons
+    \[E7]Ne trouve pas \[E7]de répondant
+    \[Dm]Je ne \[E7]manque pas\[Am]
+    \[C] De bonnes raisons pour t'ai\[Dm]mer
+    \[Dm]Je ne vois \[E7]pas
+    Pour quelle rai\[Am]son te les do\[C]nner
+    \[D7] Mes bonnes rais\[F7]ons pour t'aimer\[Am]
+    Pourq\[C]uoi te les \[D7]donner ?\[D7]\[F7]
   \endverse
 
   \beginverse
@@ -40,10 +40,10 @@
   \endverse
 
   \beginchorus
-    \[Si&]Mon pet\[Fa7]it ange
-    \[Si&]Voudrait que je chante\[Fa7] ses \[Lam]louanges \echo{\[Do]Glo\[Ré7]ri\[Fa7]a !}
-    \[Si&]Ma sainte re\[Fa7]lique
-    \[Si&]Demande son can\[Fa7]tique des \[Lam]cantiques \echo{\[Do]Allé\[Ré7]lu\[Fa7]ia !}
+    \[B&]Mon pet\[F7]it ange
+    \[B&]Voudrait que je chante\[F7] ses \[Am]louanges \echo{\[C]Glo\[D7]ri\[F7]a !}
+    \[B&]Ma sainte re\[F7]lique
+    \[B&]Demande son can\[F7]tique des \[Am]cantiques \echo{\[C]Allé\[D7]lu\[F7]ia !}
   \endchorus
 
   \beginverse

@@ -4,17 +4,17 @@
   [by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Lam}{5:022000}
-  \gtab{La}{5:022100}
-  \gtab{Sol}{3:022100}
-  \gtab{Do}{3:X02220}
+  \gtab{Dm}{5:X02210}
+  \gtab{Am}{5:022000}
+  \gtab{A}{5:022100}
+  \gtab{G}{3:022100}
+  \gtab{C}{3:X02220}
 
   \beginverse
-   Docteur, \[Rém]paraît qu'vous êtes docteur
-    Parce que ma\[Lam]lade, paraît que j'suis malade
-    J'ai le cœur \[Rém]qui a mal au cœur
-    Et vice et Ver\[Lam]sailles, regarde !
+   Docteur, \[Dm]paraît qu'vous êtes docteur
+    Parce que ma\[Am]lade, paraît que j'suis malade
+    J'ai le cœur \[Dm]qui a mal au cœur
+    Et vice et Ver\[Am]sailles, regarde !
   \endverse
 
   \beginverse*
@@ -25,10 +25,10 @@
   \endverse
 
   \beginchorus
-    J'ai trou\[La]vé l'prénom d'mon fils
-    J'ai trou\[Rém]vé l'prénom d'ma fille
-    Mais je \[Sol]rame, je rame, je rame
-    Pour trou\[Do]ver le prénom d'ma \[Rém]femme
+    J'ai trou\[A]vé l'prénom d'mon fils
+    J'ai trou\[Dm]vé l'prénom d'ma fille
+    Mais je \[G]rame, je rame, je rame
+    Pour trou\[C]ver le prénom d'ma \[Dm]femme
   \endchorus
 
   \beginverse

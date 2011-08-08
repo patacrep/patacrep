@@ -4,19 +4,19 @@
   [by=Georges Brassens,cov=le-pornographe,album=Le pornographe]
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{Mim}{022000}
-  \gtab{Fa#}{2:022100}
-  \gtab{La7}{X02020}
-  \gtab{Ré}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{F#}{2:022100}
+  \gtab{A7}{X02020}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Sim]À l'ombre du cœur de ma \[Mim]mie
-    À l'ombre \[Sim]du cœur \[Fa#]de ma \[Sim]mie
-    \[Sim]Un oiseau s'était endor\[Mim]mi
-    Un oiseau \[Sim]s'était \[Fa#]endor\[Sim]mi
-    Un \[Mim]jour qu'elle faisait semblant
-    \[La7]D'être la \[Ré]belle au \[Fa#]bois dorm\[Sim]ant
+    \[Bm]À l'ombre du cœur de ma \[Em]mie
+    À l'ombre \[Bm]du cœur \[F#]de ma \[Bm]mie
+    \[Bm]Un oiseau s'était endor\[Em]mi
+    Un oiseau \[Bm]s'était \[F#]endor\[Bm]mi
+    Un \[Em]jour qu'elle faisait semblant
+    \[A7]D'être la \[D]belle au \[F#]bois dorm\[Bm]ant
   \endverse
 
   \beginchorus
@@ -51,7 +51,7 @@
     Et c'est depuis ce temps, ma sœur \rep{2}
     Que je suis devenu chasseur \rep{2}
     Que, mon arbalète à la main
-    Je cours les voies et les che\[Sim]mins \[La Sim]
+    Je cours les voies et les che\[Bm]mins \[A Bm]
   \endverse
 
 \endsong

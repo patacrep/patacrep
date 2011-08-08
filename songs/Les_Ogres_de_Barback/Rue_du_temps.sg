@@ -4,31 +4,31 @@
   [by=Les Ogres de Barback,cov=Croc-noces,album=Croc noces]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{3:X02220}
+  \gtab{Dm}{5:X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{3:X02220}
 
   \lilypond{Rue_du_temps}
 
   \beginverse
-    \[Rém]{C'est} une rue pas très grande
-    Avec trois \[Do]fleurs et deux oiseaux
-    On y \[Rém]vend de la pâte aux amandes
-    Des cacah\[Do]uètes et du Bordeaux
+    \[Dm]{C'est} une rue pas très grande
+    Avec trois \[C]fleurs et deux oiseaux
+    On y \[Dm]vend de la pâte aux amandes
+    Des cacah\[C]uètes et du Bordeaux
   \endverse
 
   \beginverse*
-    Y'a un \[Fa]mec sur un banc
-    Qui \[Do]{s'est} fait larguer par la Lise
-    Ça nous \[Rém]étonne pas vraiment
-    Elle change \[Do]de mec comme de chemise
+    Y'a un \[F]mec sur un banc
+    Qui \[C]{s'est} fait larguer par la Lise
+    Ça nous \[Dm]étonne pas vraiment
+    Elle change \[C]de mec comme de chemise
   \endverse
 
   \beginchorus
-    Et \[Fa]passe et repasse le temps
-    Mes \[Do]souvenirs et ma joie
-    Dans cette \[Rém]rue où déjà tout enfant
-    J'appre\[Do]nais l'harmonica
+    Et \[F]passe et repasse le temps
+    Mes \[C]souvenirs et ma joie
+    Dans cette \[Dm]rue où déjà tout enfant
+    J'appre\[C]nais l'harmonica
   \endchorus
 
 

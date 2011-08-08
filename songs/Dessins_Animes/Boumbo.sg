@@ -4,16 +4,16 @@
   [by=Dessins Animés,cov=boumbo,album=Boumbo]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Do]Boumbo, Boumbo
-    Petite automo\[Lam]bile \echo{bile}
-    Tu parais si fra\[Fa]gile \echo{gile}
-    Sous ton drôle de ca\[Sol]pot
+    \[C]Boumbo, Boumbo
+    Petite automo\[Am]bile \echo{bile}
+    Tu parais si fra\[F]gile \echo{gile}
+    Sous ton drôle de ca\[G]pot
     Bou-bou-bou Boumbo
   \endverse
 
@@ -26,10 +26,10 @@
   \endverse
 
   \beginchorus
-    \[Fa]Quand tu respires une fleur
-    \[Do]Ça fait boum-boum dans ton cœur
-    \[Fa]Tu affoles tes mécaniques
-    Et tu de\[Sol]viens Boumbo magique
+    \[F]Quand tu respires une fleur
+    \[C]Ça fait boum-boum dans ton cœur
+    \[F]Tu affoles tes mécaniques
+    Et tu de\[G]viens Boumbo magique
   \endchorus
 
   \beginverse

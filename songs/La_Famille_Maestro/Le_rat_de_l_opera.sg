@@ -4,18 +4,18 @@
   [by=La Famille Maestro,cov=opus2,album=Opus 2]
 
   \cover
-  \gtab{La}{X02220}
-  \gtab{Ré}{XX0232}
-  \gtab{Mi}{022100}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
 
   \lilypond{Le_rat_de_l_opera-1}
 
   \beginverse
-    \[La]Il était une fois un gentil rat vivant à la pointe du \[Ré]raz
-    Ce rat là \[Mi]râlait au fond d'un placard, d'un placard à ba\[La]llet
-    Il se di\[La]sait le destin est méchant
-    Qui ne sut faire de moi qu'un rat, qu'un rat des \[Ré]champs
-    Moi, qui ne \[Mi]trouve alléchant que le chant, le chant de l'opé\[La]ra
+    \[A]Il était une fois un gentil rat vivant à la pointe du \[D]raz
+    Ce rat là \[E]râlait au fond d'un placard, d'un placard à ba\[A]llet
+    Il se di\[A]sait le destin est méchant
+    Qui ne sut faire de moi qu'un rat, qu'un rat des \[D]champs
+    Moi, qui ne \[E]trouve alléchant que le chant, le chant de l'opé\[A]ra
   \endverse
 
   \beginverse
@@ -29,15 +29,15 @@
   \lilypond{Le_rat_de_l_opera-2}
 
   \beginchorus
-    \[La]Où tu l'as \[Mi]mis mon tu\[La]tu, l'as \[Mi]mis, l'as mis, l'as mis
-    \[La]Où, sont mes chaussons poin\[Mi]tus, où tu \[La]les as mis
-    Ou tu tu tu tu \[La]tu
-    La mi la mi la \[Mi]mi
-    Ou tu tu tu tu \[La]tu
-    Les as mis, les as \[Ré]mis
-    Mon tutu, mon tu\[La]tu
+    \[A]Où tu l'as \[E]mis mon tu\[A]tu, l'as \[E]mis, l'as mis, l'as mis
+    \[A]Où, sont mes chaussons poin\[E]tus, où tu \[A]les as mis
+    Ou tu tu tu tu \[A]tu
+    La mi la mi la \[E]mi
+    Ou tu tu tu tu \[A]tu
+    Les as mis, les as \[D]mis
+    Mon tutu, mon tu\[A]tu
     Et mes chaussons pointus
-    Tu tu les as mis \[Mi]où, où, où ?
+    Tu tu les as mis \[E]où, où, où ?
   \endchorus
 
   \beginverse

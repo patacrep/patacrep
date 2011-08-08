@@ -5,17 +5,17 @@
 
 
   \cover
-  \gtab{Rém}{XX0231}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Lam}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
 
 
   \beginverse
-    \[Rém]{Ils sont} fiers, ils \[Do]sont élan\[Rém]cés
-    Comme les \[Fa]arbres de \[Do]leur \[Lam]forêt
-    \[Rém]Blanche est la \[Lam]feuille où court leur trait
-    Les \[Rém]elfes de \[Do]GreenEl\[Rém]ven
+    \[Dm]{Ils sont} fiers, ils \[C]sont élan\[Dm]cés
+    Comme les \[F]arbres de \[C]leur \[Am]forêt
+    \[Dm]Blanche est la \[Am]feuille où court leur trait
+    Les \[Dm]elfes de \[C]GreenEl\[Dm]ven
   \endverse
 
   \beginverse
@@ -33,10 +33,10 @@
   \endverse
 
   \beginverse
-    \[Rém]Et quand le \[Do]soir tombe sur les \[Lam]feuilles dorées
-    \[Rém]Le sang de la \[Do]forêt coule sur leurs \[Lam]cheveux blancs
-    \[Rém]Avec dans leurs \[Do]carnets des cro\[Lam]quis ravagés
-    \[Rém]Par la détresse im\[Do]pie de l'artiste sou\[Lam]ffrant
+    \[Dm]Et quand le \[C]soir tombe sur les \[Am]feuilles dorées
+    \[Dm]Le sang de la \[C]forêt coule sur leurs \[Am]cheveux blancs
+    \[Dm]Avec dans leurs \[C]carnets des cro\[Am]quis ravagés
+    \[Dm]Par la détresse im\[C]pie de l'artiste sou\[Am]ffrant
   \endverse
 
   \beginverse

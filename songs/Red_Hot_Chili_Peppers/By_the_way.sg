@@ -4,15 +4,15 @@
   [by=Red Hot Chili Peppers,cov=by-the-way,album=By the way]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
 
   \beginchorus
-    \[Fa]Standing in line
-    To see the \[Do]show tonight
-    And there's a \[Lam]light on
+    \[F]Standing in line
+    To see the \[C]show tonight
+    And there's a \[Am]light on
     Heavy glow
   \endchorus
 
@@ -31,7 +31,7 @@
   \endchorus
 
   \beginverse
-    \[Rém]Steak Knife Card Shark
+    \[Dm]Steak Knife Card Shark
     Con Job Boot Cut
   \endverse
 

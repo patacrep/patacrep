@@ -4,26 +4,26 @@
   [by=Gogol Bordello,cov=gypsy-punks,album=Gypsy punks]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Si}{7:022100}
-  \gtab{La}{5:022100}
-  \gtab{Sol}{3:022100}
-  \gtab{Ré}{5:X02220}
+  \gtab{Em}{7:X02210}
+  \gtab{B}{7:022100}
+  \gtab{A}{5:022100}
+  \gtab{G}{3:022100}
+  \gtab{D}{5:X02220}
 
-  \musicnote{intro: Mim}
+  \musicnote{intro: Em}
 
   \beginverse
-    Sometimes when facing common \[Si]trouble
-    When whole town is \[Mim]screwed
-    We become actually \[Si]human
-    Act like Prometheus \[Mim]would
+    Sometimes when facing common \[B]trouble
+    When whole town is \[Em]screwed
+    We become actually \[B]human
+    Act like Prometheus \[Em]would
   \endverse
 
   \beginverse*
-    Suddenly there is more \[La]humor
-    And a party tabor \[Sol]style
-    People ringing one an\[Si]other
-    ``Yo man, how was your black\[Mim]out?''
+    Suddenly there is more \[A]humor
+    And a party tabor \[G]style
+    People ringing one an\[B]other
+    ``Yo man, how was your black\[Em]out?''
   \endverse
 
   \beginverse
@@ -41,11 +41,11 @@
   \endverse
 
   \beginchorus
-    Oh yeah, oh \[Ré]no, it \[Si]doesn't have to be \[Mim]so
-    It is possible any \[Si]time anywhere
-    Even without any \[Mim]dough
-    Oh yeah, oh \[Ré]no, it \[Si]doesn't have to be \[Mim]so
-    The forces of \[Si]creative mind are unstopapapapa\[Mim]bable!
+    Oh yeah, oh \[D]no, it \[B]doesn't have to be \[Em]so
+    It is possible any \[B]time anywhere
+    Even without any \[Em]dough
+    Oh yeah, oh \[D]no, it \[B]doesn't have to be \[Em]so
+    The forces of \[B]creative mind are unstopapapapa\[Em]bable!
   \endchorus
 
   \beginverse

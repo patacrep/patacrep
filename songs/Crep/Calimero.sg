@@ -4,17 +4,17 @@
   [by=Crep,cov=histoires-d-un-manchot,album=Histoires d'un manchot]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Si&}{6:022100}
-  \gtab{La}{5:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{A}{5:022100}
 
   \beginverse
-    \[Rém]Dimanche soir, j'suis en re\[Fa]tard
-    J'ai rien préparé pour de\[Do]main
-    Mes collègues vont être en pé\[Rém]tard
-    Façon plus l'\[Si&]choix, on \[La]verra \[Rém]bien \[Do Rém]
+    \[Dm]Dimanche soir, j'suis en re\[F]tard
+    J'ai rien préparé pour de\[C]main
+    Mes collègues vont être en pé\[Dm]tard
+    Façon plus l'\[B&]choix, on \[A]verra \[Dm]bien \[C Dm]
   \endverse
 
   \beginverse*

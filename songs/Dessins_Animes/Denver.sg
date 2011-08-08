@@ -4,23 +4,23 @@
   [by=Dessins Animés,cov=denver,album=Denver]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \beginchorus
-    \[Ré]Denver, le dernier \[La]dinosaure
-    \[Sol]{C'est} mon \[Ré]ami et bien \[La]plus en\[Ré]core
-    \[Ré]Denver, le dernier \[La]dinosaure
-    \[Sol]Vient d'un \[Ré]monde jamais \[La]vu en\[Ré]core \[Do]
+    \[D]Denver, le dernier \[A]dinosaure
+    \[G]{C'est} mon \[D]ami et bien \[A]plus en\[D]core
+    \[D]Denver, le dernier \[A]dinosaure
+    \[G]Vient d'un \[D]monde jamais \[A]vu en\[D]core \[C]
   \endchorus
 
   \beginverse
-    Ve\[La]nu de la torride \[Sol]et ancienne \[La]jungle
-    \[La]{C'est} le plus gentil de \[Sol]tous les \[La]animaux \[Sol]
+    Ve\[A]nu de la torride \[G]et ancienne \[A]jungle
+    \[A]{C'est} le plus gentil de \[G]tous les \[A]animaux \[G]
   \endverse
 
   \beginverse
@@ -30,14 +30,14 @@
 
   \beginverse*
     Depuis la nuit des temps jusque sous les projecteurs
-    \[Fa]Il met dans \[Sol]notre \[Do]vie un peu plus \[Ré]de bo\[Mi]nheur
+    \[F]Il met dans \[G]notre \[C]vie un peu plus \[D]de bo\[E]nheur
   \endverse
 
   \beginchorus
-    \[La]Denver, le dernier \[Mi]dinosaure
-    \[Ré]{C'est} mon \[La]ami et bien \[Mi]plus en\[La]core
-    \[La]Denver, le dernier \[Mi]dinosaure
-    \[Ré]Vient d'un \[La]monde jamais \[Mi]vu en\[La]core \[Do]
+    \[A]Denver, le dernier \[E]dinosaure
+    \[D]{C'est} mon \[A]ami et bien \[E]plus en\[A]core
+    \[A]Denver, le dernier \[E]dinosaure
+    \[D]Vient d'un \[A]monde jamais \[E]vu en\[A]core \[C]
   \endchorus
 
   \beginverse

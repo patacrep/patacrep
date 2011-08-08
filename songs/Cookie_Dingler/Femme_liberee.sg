@@ -5,23 +5,23 @@
 
   \cover
   \capo{2}
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Mim]Elle est a\[Do]bonnée \[Sol]à \emph{Marie-\[Ré]Claire}
-    \[Mim]Dans l'\emph{Nouvel \[Do]Obs}, elle ne lit \[Sol]que Brété\[Ré]cher
-    \emph{\[Mim]Le Monde} y'a \[Do]longtemps qu'elle \[Sol]fait plus sem\[Ré]blant
-    \[Mim]Elle achète \emph{Match} en \[Do]cachette, c'est \[Sol]bien plus mar\[Ré]rant
+    \[Em]Elle est a\[C]bonnée \[G]à \emph{Marie-\[D]Claire}
+    \[Em]Dans l'\emph{Nouvel \[C]Obs}, elle ne lit \[G]que Brété\[D]cher
+    \emph{\[Em]Le Monde} y'a \[C]longtemps qu'elle \[G]fait plus sem\[D]blant
+    \[Em]Elle achète \emph{Match} en \[C]cachette, c'est \[G]bien plus mar\[D]rant
   \endverse
 
   \beginchorus
-    Ne la laisse \[Mim]pas tom\[Do]ber
-    Elle \[Sol]est si fra\[Ré]gile
-    Être une \[Mim]femme libé\[Do]rée
-    Tu sais, c'est \[Sol]pas si fa\[Ré]cile
+    Ne la laisse \[Em]pas tom\[C]ber
+    Elle \[G]est si fra\[D]gile
+    Être une \[Em]femme libé\[C]rée
+    Tu sais, c'est \[G]pas si fa\[D]cile
     \rep{2}
   \endchorus
 

@@ -4,19 +4,19 @@
   [by=Les Petites Bourrettes,cov=comme-des-rois,album=Comme des rois]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
 
   \lilypond{Dans_la_tete}
 
   \beginverse
-    La \[Sol]vie est un cadeau jo\[Lam]li
-    Et pour un plein d'es\[Fa]poir, on oublie sa mé\[Do]moire
-    Mais par\[Sol]fois, les larmes à rete\[Lam]nir
-    Pressent sous nos \[Fa]yeux tous nos souve\[Do]nirs
+    La \[G]vie est un cadeau jo\[Am]li
+    Et pour un plein d'es\[F]poir, on oublie sa mé\[C]moire
+    Mais par\[G]fois, les larmes à rete\[Am]nir
+    Pressent sous nos \[F]yeux tous nos souve\[C]nirs
   \endverse
 
   \beginverse*
@@ -35,7 +35,7 @@
   \endchorus
 
 
-  \musicnote{Sol7 Lam Fa Do \rep{2}}
+  \musicnote{G7 Am F C \rep{2}}
 
   \beginverse
     Si on aime que l'on nous rappelle

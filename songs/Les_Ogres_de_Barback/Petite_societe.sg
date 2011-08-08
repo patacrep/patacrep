@@ -5,33 +5,33 @@
 
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Si&}{6:022100}
-  \gtab{La}{5:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{A}{5:022100}
 
 
   \beginverse
-    \[Rém]{Il y a} des fan\[Fa]tômes dans ma ville
-    \[Do]Que dérangent les \[Rém]cris d'enfants
-    \[Rém]Qui trouvent le temps \[Fa]inutile
-    Si on le \[Do]passe en s'amu\[Rém]sant
+    \[Dm]{Il y a} des fan\[F]tômes dans ma ville
+    \[C]Que dérangent les \[Dm]cris d'enfants
+    \[Dm]Qui trouvent le temps \[F]inutile
+    Si on le \[C]passe en s'amu\[Dm]sant
   \endverse
 
   \beginverse*
-    Ils ont \[Do]vue sur mon jar\[Rém]din
-    Et ils \[Do]ont l'écho du \[Rém]son
-    \[Rém]Des barbecues, \[Fa]des copains
-    Si l'on \[Do]sort l'accor\[Rém]déon
+    Ils ont \[C]vue sur mon jar\[Dm]din
+    Et ils \[C]ont l'écho du \[Dm]son
+    \[Dm]Des barbecues, \[F]des copains
+    Si l'on \[C]sort l'accor\[Dm]déon
   \endverse
 
   \beginchorus
-    \[Si&]Oh ! fantôme \[La]des villes nou\[Rém]velles
-    Et de \[Si&]tes quar\[La]tiers sans \[Rém]âme
-    \[Si&]De tes centres \[La]commerciaux sans \[Rém]ciel
-    De tes \[Si&]faux pla\[La]fonds in\[Rém]fâmes
-    {\nolyrics \[Rém] \[Do] \[Si&] \[Do]} \rep{2}
+    \[B&]Oh ! fantôme \[A]des villes nou\[Dm]velles
+    Et de \[B&]tes quar\[A]tiers sans \[Dm]âme
+    \[B&]De tes centres \[A]commerciaux sans \[Dm]ciel
+    De tes \[B&]faux pla\[A]fonds in\[Dm]fâmes
+    {\nolyrics \[Dm] \[C] \[B&] \[C]} \rep{2}
   \endchorus
 
   \beginverse

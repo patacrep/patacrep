@@ -5,24 +5,24 @@
 
   \cover
   \capo{3}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
 
 
   \beginverse
-    Ils sont \[Sol]p'tits, rouges ou bien \[Ré]verts
-    Et ont ten\[Mim]dance à squatter l'bac à \[Do]bière \[Ré]
-    \[Sol]Soit-disant à conso\[Ré]mmer cinq fois par jour
-    Moi je compte \[Mim]ne plus les \[Do]fois où \[Ré]{j'ai} passé mon \[Sol]tour
+    Ils sont \[G]p'tits, rouges ou bien \[D]verts
+    Et ont ten\[Em]dance à squatter l'bac à \[C]bière \[D]
+    \[G]Soit-disant à conso\[D]mmer cinq fois par jour
+    Moi je compte \[Em]ne plus les \[C]fois où \[D]{j'ai} passé mon \[G]tour
   \endverse
 
   \beginchorus
-    \[Sol]Le sucré c'est bon pour \[Ré]vous et comme moi
-    Parta\[Mim]gez la recette du choco\[Do]lat \[Ré]
-    \[Sol]Fruits et légumes ne passeront \[Ré]pas
-    \[Do]{M\&M's} \[Ré]et barbe à pa\[Sol]pa
+    \[G]Le sucré c'est bon pour \[D]vous et comme moi
+    Parta\[Em]gez la recette du choco\[C]lat \[D]
+    \[G]Fruits et légumes ne passeront \[D]pas
+    \[C]{M\&M's} \[D]et barbe à pa\[G]pa
   \endchorus
 
 

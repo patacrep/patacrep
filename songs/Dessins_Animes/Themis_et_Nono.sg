@@ -5,17 +5,17 @@
 
   \cover
   \capo{2}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Si7}{X21202}
-  \gtab{Mi}{022100}
-  \gtab{La}{X02220}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
 
   \beginverse
-    Thé\[Mim]mis, petite fleur \[Lam]bleue
-    L'amour et la \[Si7]joie sont dans tes \[Mim]yeux
-    Un \[Mim]jour, tu retrouve\[Lam]ras
-    Ton frère per\[Si7]du à mille \[Mim]lieux
+    Thé\[Em]mis, petite fleur \[Am]bleue
+    L'amour et la \[B7]joie sont dans tes \[Em]yeux
+    Un \[Em]jour, tu retrouve\[Am]ras
+    Ton frère per\[B7]du à mille \[Em]lieux
   \endverse
 
   \beginverse*
@@ -26,12 +26,12 @@
   \endverse
 
   \beginchorus
-    C'est moi No\[Mi]no, le tout petit ro\[La]bot
-    Qui déroute les \[Mi]dieux
-    Malgré \[Si7]tous leurs com\[Mi]plots
-    C'est moi No\[Mi]no, le tout petit ro\[La]bot
-    Moi je n'ai jamais \[Mi]peur
-    De me \[Si7]faire bo\[Mi]bo
+    C'est moi No\[E]no, le tout petit ro\[A]bot
+    Qui déroute les \[E]dieux
+    Malgré \[B7]tous leurs com\[E]plots
+    C'est moi No\[E]no, le tout petit ro\[A]bot
+    Moi je n'ai jamais \[E]peur
+    De me \[B7]faire bo\[E]bo
   \endchorus
 
   \beginchorus

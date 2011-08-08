@@ -4,14 +4,14 @@
   [by=Jacques Brel,cov=valse,album=La valse à mille temps]
 
   \cover
-  \gtab{Si}{2:X02220}
-  \gtab{Fa#7}{2:022100}
+  \gtab{B}{2:X02220}
+  \gtab{F#7}{2:022100}
 
   \beginverse
-    Au pre\[Si]mier temps de la valse
-    Toute seule, tu souris dé\[Fa#7]jà
-    Au pre\[Fa#7]mier temps de la valse
-    Je suis seul mais je t'aper\[Si]çois
+    Au pre\[B]mier temps de la valse
+    Toute seule, tu souris dé\[F#7]jà
+    Au pre\[F#7]mier temps de la valse
+    Je suis seul mais je t'aper\[B]çois
   \endverse
 
   \beginverse*
@@ -23,19 +23,19 @@
 
 
   \beginchorus
-    Une valse à trois \[Si]temps
+    Une valse à trois \[B]temps
     Qui s'offre encore le temps
     Qui s'offre encore le temps
     De s'offrir des détours
 
-    Du côté de l'a\[Fa#7]mour
+    Du côté de l'a\[F#7]mour
     Comme c'est charmant
     Une valse à quatre temps
     C'est beaucoup moins dansant
 
     C'est beaucoup moins dansant
     Mais tout aussi charmant
-    Qu'une valse à trois \[Si]temps
+    Qu'une valse à trois \[B]temps
     Une valse à quatre temps
   \endchorus
 

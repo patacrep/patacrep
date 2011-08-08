@@ -5,20 +5,20 @@
 
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol7}{320001}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G7}{320001}
 
 
   \beginverse
-    Voulez-\[Do]vous mes\[Fa]sieurs mes\[Do]dames
-    Que je \[Sol7]vous chante l'his\[Do]toire
-    L'histoire d'\[Do]un drôle \[Fa]de qui\[Do]dam
-    Qui vé\[Sol7]cut couvert de \[Do]gloire
-    Voulez-\[Fa]vous les filles les \[Do]gars
-    En\[Sol7]tendre de ma bouche \[Do]même
-    Tant pis \[Fa]si vous voulez \[Do]pas
-    Je la \[Sol7]chanterai quand \[Do]même
+    Voulez-\[C]vous mes\[F]sieurs mes\[C]dames
+    Que je \[G7]vous chante l'his\[C]toire
+    L'histoire d'\[C]un drôle \[F]de qui\[C]dam
+    Qui vé\[G7]cut couvert de \[C]gloire
+    Voulez-\[F]vous les filles les \[C]gars
+    En\[G7]tendre de ma bouche \[C]même
+    Tant pis \[F]si vous voulez \[C]pas
+    Je la \[G7]chanterai quand \[C]même
     C'était un hardi marin
     Qui régnait sur l'équipage
     Qui n'était pas très malouin
@@ -26,10 +26,10 @@
   \endverse
 
   \beginchorus
-    \[Do]Par belle mer \[Fa]et par beau \[Do]temps
-    En sa\[Sol7]brant tout ce qui \[Do]bouge
-    Pour pas que l'\[Fa]on voit son \[Do]sang
-    Portait \[Sol7]une chemise rou\[Do]ge
+    \[C]Par belle mer \[F]et par beau \[C]temps
+    En sa\[G7]brant tout ce qui \[C]bouge
+    Pour pas que l'\[F]on voit son \[C]sang
+    Portait \[G7]une chemise rou\[C]ge
   \endchorus
 
   \beginverse

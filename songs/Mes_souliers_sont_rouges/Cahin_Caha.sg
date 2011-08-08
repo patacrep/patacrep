@@ -5,16 +5,16 @@
 
   \cover
   \capo{2}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \beginverse
-    \[Lam]{C'était} un homme, un beau un vrai
-    De ceux dont \[Do]on fait le grand mât
-    Des bateaux \[Mim]qui s'en vont là-bas
+    \[Am]{C'était} un homme, un beau un vrai
+    De ceux dont \[C]on fait le grand mât
+    Des bateaux \[Em]qui s'en vont là-bas
   \endverse
 
   \beginverse*
@@ -25,8 +25,8 @@
 
 
   \beginchorus
-    C'était un \[Fa]gars comme \[Mi]ci, comme \[Lam]ça
-    Et il al\[Fa]lait ca\[Mi]hin-ca\[Lam]ha \rep{2}
+    C'était un \[F]gars comme \[E]ci, comme \[Am]ça
+    Et il al\[F]lait ca\[E]hin-ca\[Am]ha \rep{2}
   \endchorus
 
 

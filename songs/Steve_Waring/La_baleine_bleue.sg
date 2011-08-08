@@ -3,23 +3,22 @@
 \beginsong{La baleine bleue}
   [by=Steve Waring,cov=la-baleine-bleue,album=La baleine bleue]
 
-
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginchorus
-    \[Sol]La baleine bleue cherche de l'eau
-    Pour débou\[Ré]cher tous ses tu\[Sol]yaux
+    \[G]La baleine bleue cherche de l'eau
+    Pour débou\[D]cher tous ses tu\[G]yaux
     La baleine bleue cherche de l'eau
-    Pour débou\[Ré]cher tous ses tu\[Sol]yaux
-    Eau, eau, \[Ré]eau, eau $H_2$\[Sol]$O$ \rep{2}
+    Pour débou\[D]cher tous ses tu\[G]yaux
+    Eau, eau, \[D]eau, eau $H_2$\[G]$O$ \rep{2}
   \endchorus
 
 
   \beginverse
-    \[Sol]Elle a trouvé beaucoup de choses
-    Elle a trou\[Ré]vé beaucoup de \[Sol]choses
+    \[G]Elle a trouvé beaucoup de choses
+    Elle a trou\[D]vé beaucoup de \[G]choses
     Beaucoup de choses \rep{2}
     Mais pas de l'eau \rep{2}
     Eau $H_2O$

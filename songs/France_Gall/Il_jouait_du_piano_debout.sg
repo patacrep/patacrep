@@ -5,18 +5,18 @@
 
   \cover
   \capo{1}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
-  \gtab{Sim}{2:X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa#}{2:022100}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{F#}{2:022100}
 
   \beginverse
-    Ne \[Ré]me dites pas que ce \[La]garçon é\[Sim]tait fou
-    \[Ré]Il ne vivait pas \[La]comme les autres \[Sim]{c'est} tout
-    \[Sol]Et pour quelles raisons étranges
-    \[La]Les gens qui n'sont pas comme nous
-    Ça \[Sim]nous dérange \[La]
+    Ne \[D]me dites pas que ce \[A]garçon é\[Bm]tait fou
+    \[D]Il ne vivait pas \[A]comme les autres \[Bm]{c'est} tout
+    \[G]Et pour quelles raisons étranges
+    \[A]Les gens qui n'sont pas comme nous
+    Ça \[Bm]nous dérange \[A]
   \endverse
 
   \beginverse
@@ -28,11 +28,11 @@
   \endverse
 
   \beginchorus
-    Il jou\[Ré]ait du piano debout
-    C'est peut-\[Fa#]être un détail pour vous
-    Mais pour \[Sim]moi ça veut dire beaucoup
-    Ça veut \[Sol]dire qu'il était libre
-    \[La]Heureux d'être là, malgré tout
+    Il jou\[D]ait du piano debout
+    C'est peut-\[F#]être un détail pour vous
+    Mais pour \[Bm]moi ça veut dire beaucoup
+    Ça veut \[G]dire qu'il était libre
+    \[A]Heureux d'être là, malgré tout
   \endchorus
 
   \beginchorus

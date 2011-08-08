@@ -4,27 +4,27 @@
   [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne,album=Machins de taverne]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi7}{020100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
 
   \lilypond{10_sous_dans_ma_poche-1}
 
   \beginverse
-    J'ai \[Lam]{10 sous} dans ma \[Sol]poche
-    J'ai \[Do]aucun ar\[Sol]gent
+    J'ai \[Am]{10 sous} dans ma \[G]poche
+    J'ai \[C]aucun ar\[G]gent
     \rep{4}
   \endverse
 
   \beginchorus
-    Et tou\[Lam]jours gai gai
-    Et tou\[Mim]jours gaiement
-    \[Fa]Y'a bien des gens
-    Dans \[Sol]mon village
-    Qui n'en \[Do]ont \[Mi7]pas \[Lam]tant
+    Et tou\[Am]jours gai gai
+    Et tou\[Em]jours gaiement
+    \[F]Y'a bien des gens
+    Dans \[G]mon village
+    Qui n'en \[C]ont \[E7]pas \[Am]tant
     \rep{2}
   \endchorus
 

@@ -4,14 +4,14 @@
   [by=Red Hot Chili Peppers,cov=californication,album=Californication]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Si}{2:X02220}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{B}{2:X02220}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Mim]Road trippin' with my two \[Do]favorite al\[Si]lies
+    \[Em]Road trippin' with my two \[C]favorite al\[B]lies
     Fully loaded we got snacks and supplies
     It's time to leave this town, it's time to steal away
     Let's go get lost anywhere in the USA
@@ -19,18 +19,18 @@
   \endverse
 
   \beginchorus
-    \[Mim]Blue you sit so pretty \[Do]west of the \[Si]one
-    \[Mim]Sparkle light with yellow \[Do]icing just a \[Si]mirror for the \[Mim]sun
-    \[Do] Just a \[Si]mirror for the \[Mim]sun
-    \[Do] Just a \[Si]mirror for the \[Lam]sun \[Sim Do Sol]
-    \[Lam] These smiling \[Sim]eyes are just a \[Do]mirror for \[Sol]
+    \[Em]Blue you sit so pretty \[C]west of the \[B]one
+    \[Em]Sparkle light with yellow \[C]icing just a \[B]mirror for the \[Em]sun
+    \[C] Just a \[B]mirror for the \[Em]sun
+    \[C] Just a \[B]mirror for the \[Am]sun \[Bm C G]
+    \[Am] These smiling \[Bm]eyes are just a \[C]mirror for \[G]
   \endchorus
 
   \beginverse
     So much has come before those battles lost and won
     This life is shining more forever in the sun
     Now let us check our heads and let us check the surf
-    Staying high and dry's more trouble than it's worth in the \[Mim]sun
+    Staying high and dry's more trouble than it's worth in the \[Em]sun
   \endverse
 
   \beginchorus

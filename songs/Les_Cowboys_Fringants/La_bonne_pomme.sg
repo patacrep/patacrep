@@ -4,18 +4,18 @@
   [by=Les Cowboys Fringants,cov=l-expedition,album=L'expédition]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Si7}{X21202}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{B7}{X21202}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
   \beginverse
-    T'\[Mim]étais la \[Lam]bonne pomme au \[Ré]milieu du pa\[Si7]nier
-    \[Mim]La p'tite fille \[Lam]autonome \[Ré]chez les éga\[Si7]rés
-    \[Mim]Papa était \[Lam]assidu à \[Ré]la dive bou\[Si7]teille
-    Ma\[Mim]man, per\[Do]due au \[Ré]pays des mer\[Mim]veilles
+    T'\[Em]étais la \[Am]bonne pomme au \[D]milieu du pa\[B7]nier
+    \[Em]La p'tite fille \[Am]autonome \[D]chez les éga\[B7]rés
+    \[Em]Papa était \[Am]assidu à \[D]la dive bou\[B7]teille
+    Ma\[Em]man, per\[C]due au \[D]pays des mer\[Em]veilles
   \endverse
 
   \beginverse*
@@ -26,10 +26,10 @@
   \endverse
 
   \beginchorus
-    Par\[Do]fois tu pl\[Sol]eures \[Ré]quand tu y re\[Mim]penses
-    Cet\[Do]te dou\[Sol]leur tu \[Ré]la vis en si\[Mim]lence
-    Un jour ils \[Do]sorti\[Sol]ront, ces \[Ré]mots que tu re\[Mim]tiens
-    \[Sol]Et tes \[Ré]larmes cesse\[Si7]ront en\[Mim]fin
+    Par\[C]fois tu pl\[G]eures \[D]quand tu y re\[Em]penses
+    Cet\[C]te dou\[G]leur tu \[D]la vis en si\[Em]lence
+    Un jour ils \[C]sorti\[G]ront, ces \[D]mots que tu re\[Em]tiens
+    \[G]Et tes \[D]larmes cesse\[B7]ront en\[Em]fin
   \endchorus
 
   \beginverse

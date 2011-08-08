@@ -5,17 +5,17 @@
 
   \cover
   \capo{3}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Mim}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
 
   \beginverse*
-    Je \[Lam]viens d'un tout petit vil\[Sol]lage
-    Si pour\[Do]ri qu'il n'a \[Sol]pas de \[Lam]nom
-    J'ai \[Lam]échappé à un pil\[Sol]lage
-    Caché au \[Do]milieu \[Sol]des co\[Lam]chons
+    Je \[Am]viens d'un tout petit vil\[G]lage
+    Si pour\[C]ri qu'il n'a \[G]pas de \[Am]nom
+    J'ai \[Am]échappé à un pil\[G]lage
+    Caché au \[C]milieu \[G]des co\[Am]chons
   \endverse
 
   \beginverse*
@@ -27,25 +27,25 @@
 
 
   \beginverse
-    J'a\[Lam]vais à peine mar\[Sol]ché deux heures
-    J'en\[Fa]tendis les tam\[Sol]bours de \[Lam]guerre
-    Sou\[Lam]dain alarmé \[Sol]je pris peur
-    J'é\[Fa]tais vraiment dans \[Sol]la ga\[Lam]lère
+    J'a\[Am]vais à peine mar\[G]ché deux heures
+    J'en\[F]tendis les tam\[G]bours de \[Am]guerre
+    Sou\[Am]dain alarmé \[G]je pris peur
+    J'é\[F]tais vraiment dans \[G]la ga\[Am]lère
   \endverse
 
   \beginverse*
-    De \[Lam]chaque côté \[Mim]deux armées
-    É\[Lam]pées et boucl\[Mim]iers levés
-    Com\[Lam]mençaient les hos\[Fa]tilités
-    Et \[Lam]moi j'é\[Fa]tais dans \[Sol]la mê\[Lam]lée
+    De \[Am]chaque côté \[Em]deux armées
+    É\[Am]pées et boucl\[Em]iers levés
+    Com\[Am]mençaient les hos\[F]tilités
+    Et \[Am]moi j'é\[F]tais dans \[G]la mê\[Am]lée
   \endverse
 
 
   \beginchorus
-    \[Lam]{Je ne} suis pas un \[Mim]magi\[Lam]cien
-    \[Lam]{J'ai} jamais tué \[Mim]de dra\[Lam]gon
-    \[Lam]{Si j'en} suis là c'est \[Mim]le des\[Lam]tin
-    \[Lam]Qui m'a vraiment pris \[Mim]pour un \[Lam]con
+    \[Am]{Je ne} suis pas un \[Em]magi\[Am]cien
+    \[Am]{J'ai} jamais tué \[Em]de dra\[Am]gon
+    \[Am]{Si j'en} suis là c'est \[Em]le des\[Am]tin
+    \[Am]Qui m'a vraiment pris \[Em]pour un \[Am]con
   \endchorus
 
 

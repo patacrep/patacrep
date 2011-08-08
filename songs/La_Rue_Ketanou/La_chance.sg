@@ -4,49 +4,49 @@
   [by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
 
   \cover
-  \gtab{Do}{3:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{Mi7}{5:X2120X}
-  \gtab{Lam}{5:022000}
-  \gtab{Rém}{5:X02210}
-  \gtab{Si7}{7:020100}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{G}{3:022100}
+  \gtab{E7}{5:X2120X}
+  \gtab{Am}{5:022000}
+  \gtab{Dm}{5:X02210}
+  \gtab{B7}{7:020100}
+  \gtab{F}{1:022100}
 
   \beginverse
-    La chance est \[Do]un train qui passe
-    Un pote qui \[Sol]te paye un verre
-    Un singe qui \[Mi7]fait la grimace
-    Un coup de \[Lam]pied au derrière
+    La chance est \[C]un train qui passe
+    Un pote qui \[G]te paye un verre
+    Un singe qui \[E7]fait la grimace
+    Un coup de \[Am]pied au derrière
   \endverse
 
   \beginverse*
-    C'est le \[La]soleil qui se lève
-    C'est le \[Rém]soleil qui se couche
-    Ça t'a\[Si7]pporte toujours des rêves
-    Même si \[Mi7]ceux là sont farouches
+    C'est le \[A]soleil qui se lève
+    C'est le \[Dm]soleil qui se couche
+    Ça t'a\[B7]pporte toujours des rêves
+    Même si \[E7]ceux là sont farouches
   \endverse
 
   \beginverse*
-    Bon ta \[Rém]douce est partie
-    Bah peut-\[Lam]être qu'elle reviendra
-    Si elle re\[Rém]vient pas tant pis
-    C'est qu'elle \[Lam]{n'est} pas faite pour toi
+    Bon ta \[Dm]douce est partie
+    Bah peut-\[Am]être qu'elle reviendra
+    Si elle re\[Dm]vient pas tant pis
+    C'est qu'elle \[Am]{n'est} pas faite pour toi
   \endverse
 
   \beginverse*
-    T'as de la \[Si7]chance qu'elle ait compris
-    Bientôt \[Mi7]tu le comprendras
-    Quand dans un \[Si7]autre lit
-    La chance \[Mi7]te retentera
+    T'as de la \[B7]chance qu'elle ait compris
+    Bientôt \[E7]tu le comprendras
+    Quand dans un \[B7]autre lit
+    La chance \[E7]te retentera
   \endverse
 
   \beginchorus
-    J'com\[Do]prends que ça va pas
-    Mais ne \[Sol]reste pas tout seul
-    La \[Fa]chance ne sourit \[Do]pas
-    À ceux \[Sol]qui lui font la \[Do]gueule
-    La \[Fa]chance, elle aime pas \[Do]ça
-    Les re\[Sol]gards d'épa\[Do]gneul
+    J'com\[C]prends que ça va pas
+    Mais ne \[G]reste pas tout seul
+    La \[F]chance ne sourit \[C]pas
+    À ceux \[G]qui lui font la \[C]gueule
+    La \[F]chance, elle aime pas \[C]ça
+    Les re\[G]gards d'épa\[C]gneul
   \endchorus
 
   \beginverse

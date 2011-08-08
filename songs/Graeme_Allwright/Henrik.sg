@@ -5,30 +5,30 @@
 
 
   \cover
-  \gtab{Si&}{6:022100}
-  \gtab{Mi&}{6:X02220}
-  \gtab{Fa}{8:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{F}{8:X02220}
 
 
   \beginverse
-    Hen\[Si&]rik était un fier pêcheur
-    De \[Mi&]je n'sais quel pa\[Si&]ys
+    Hen\[B&]rik était un fier pêcheur
+    De \[E&]je n'sais quel pa\[B&]ys
     Il naviguait sur toutes les mers
-    En \[Fa]buvant de l'eau d'vie
+    En \[F]buvant de l'eau d'vie
   \endverse
 
   \beginverse*
-    Il \[Si&]a juré dans un bistrot
-    À \[Mi&]ses collègues émus
-    {\og}Je pêcherai un poi\[Si&]sson étrange
-    Qu'un \[Fa]homme n'a jamais \[Si&]vu.{\fg}
+    Il \[B&]a juré dans un bistrot
+    À \[E&]ses collègues émus
+    {\og}Je pêcherai un poi\[B&]sson étrange
+    Qu'un \[F]homme n'a jamais \[B&]vu.{\fg}
   \endverse
 
   \beginchorus
-    You can \[Mi&]fish in a mill pond
-    \[Si&]Fish in the sea
-    \[Fa]Fish in a bath tub yes
-    But don't fish \[Si&]me
+    You can \[E&]fish in a mill pond
+    \[B&]Fish in the sea
+    \[F]Fish in a bath tub yes
+    But don't fish \[B&]me
   \endchorus
 
   \beginverse

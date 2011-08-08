@@ -3,15 +3,15 @@
 \beginsong{La reine de France}
   [by=Johk]
 
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Fa#m}{1:022000}
-  \gtab{Ré}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{F#m}{1:022000}
+  \gtab{D}{XX0232}
 
   \beginverse
-    On me dit que mon \[La]mari ne vaut pas grand \[Mi]chose
-    Il ne fait \[Fa#m]que prendre la \[Ré]pose
-    Qu'à cause de \[La]lui le \[Mi]peuple est \[Fa#m]morose.\[Ré]
+    On me dit que mon \[A]mari ne vaut pas grand \[E]chose
+    Il ne fait \[F#m]que prendre la \[D]pose
+    Qu'à cause de \[A]lui le \[E]peuple est \[F#m]morose.\[D]
   \endverse
 
   \beginverse

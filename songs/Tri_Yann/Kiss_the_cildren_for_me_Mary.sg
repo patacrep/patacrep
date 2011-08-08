@@ -4,17 +4,17 @@
   [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Si&}{1:X02220}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
 
   \lilypond{Kiss_the_children}
 
   \beginverse
-    Kiss the \[Do]children \[Si&]for me Ma\[Do]ry
-    Ne \[Do]les laisse \[Si&]pas lan\[Do]guir
-    Dis-leur com\[Do]bien je tra\[Si&]vaille pour \[Fa]eux
-    J'ai le \[Do]cœur bri\[Si&]sé de par\[Do]tir
+    Kiss the \[C]children \[B&]for me Ma\[C]ry
+    Ne \[C]les laisse \[B&]pas lan\[C]guir
+    Dis-leur com\[C]bien je tra\[B&]vaille pour \[F]eux
+    J'ai le \[C]cœur bri\[B&]sé de par\[C]tir
   \endverse
 
   \beginverse

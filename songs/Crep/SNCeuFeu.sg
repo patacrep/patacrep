@@ -4,27 +4,27 @@
   [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
 
   \cover
-  \gtab{Sol}{3:022100}
-  \gtab{Ré7}{3:X2120X}
-  \gtab{Do}{3:X02220}
-  \gtab{Ré}{5:X02220}
-  \gtab{Mim}{022000}
-  \gtab{La}{X02220}
-  \gtab{Si7}{X21202}
-  \gtab{Solm}{3:022000}
+  \gtab{G}{3:022100}
+  \gtab{D7}{3:X2120X}
+  \gtab{C}{3:X02220}
+  \gtab{D}{5:X02220}
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{B7}{X21202}
+  \gtab{Gm}{3:022000}
 
   \beginverse
-    \[Sol]Ce week-end pour faire la fête
-    Ré\[Ré7]serve ton billet \[Sol]sur le net
-    Pas d'\[Sol]crise de nerfs, c'est pas l'moment
-    De \[Ré7]maudire ce site \[Sol]indécent
+    \[G]Ce week-end pour faire la fête
+    Ré\[D7]serve ton billet \[G]sur le net
+    Pas d'\[G]crise de nerfs, c'est pas l'moment
+    De \[D7]maudire ce site \[G]indécent
   \endverse
 
   \beginchorus
-    \[Sol]Cours, cours, dépêche-toi
-    Tu \[Ré7]vas l'rater en\[Sol]core une fois
-    \[Sol]Cours, cours, dépêche-toi
-    Tu \[Ré7]sais qu'il ne t'attendra \[Sol]pas
+    \[G]Cours, cours, dépêche-toi
+    Tu \[D7]vas l'rater en\[G]core une fois
+    \[G]Cours, cours, dépêche-toi
+    Tu \[D7]sais qu'il ne t'attendra \[G]pas
   \endchorus
 
   \beginverse
@@ -35,10 +35,10 @@
   \endverse
 
   \beginverse*
-    \[Sol]Travaux sur la voie, t'es bien en \[Do]veine
-    Mais pas à ça \[Ré]près, vas pas stres\[Sol]ser
-    \[Sol]Profite d'la chaleur hu\[Do]maine
-    En mode sar\[Ré]dine dans un wagon bon\[Sol]dé
+    \[G]Travaux sur la voie, t'es bien en \[C]veine
+    Mais pas à ça \[D]près, vas pas stres\[G]ser
+    \[G]Profite d'la chaleur hu\[C]maine
+    En mode sar\[D]dine dans un wagon bon\[G]dé
   \endverse
 
   \beginverse
@@ -61,14 +61,14 @@
   \endverse
 
   \beginverse*
-    Dès que l'\[Mim]sifflet sonne\[Ré]ra, le train parti\[Mim]ra
-    Si les \[Sol]dieux sont avec \[Ré]toi, il t'emmène\[Mim]ra
+    Dès que l'\[Em]sifflet sonne\[D]ra, le train parti\[Em]ra
+    Si les \[G]dieux sont avec \[D]toi, il t'emmène\[Em]ra
     De pingouin, mais
   \endverse
 
   \beginverse*
-    Les \[Mim]portes \[Sol]du Co\[La]rail se \[Do]ferment
-    Et \[Mim]tu te trouves du \[Sol]mauvais cô\[Si7]té
+    Les \[Em]portes \[G]du Co\[A]rail se \[C]ferment
+    Et \[Em]tu te trouves du \[G]mauvais cô\[B7]té
     \echo{Mais si !}
   \endverse
 
@@ -80,10 +80,10 @@
   \endverse
 
   \beginverse*
-    \[Solm]Mais soudain surgissant d'nulle part
-    Le \[Ré7]contrôleur an\[Solm]nonce un r'tard
-    Ta \[Solm]correspondance part dans les airs
-    Un \[Ré7]arbre est tombé sur une \[Solm]caténaire
+    \[Gm]Mais soudain surgissant d'nulle part
+    Le \[D7]contrôleur an\[Gm]nonce un r'tard
+    Ta \[Gm]correspondance part dans les airs
+    Un \[D7]arbre est tombé sur une \[Gm]caténaire
   \endverse
 
   \beginchorus

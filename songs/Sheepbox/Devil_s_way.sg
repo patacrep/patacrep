@@ -5,33 +5,33 @@
 
   % verse: 1.&.2.&.3.&.4.&
   %         D   D  UD
-  %         Mim    Lasus2
+  %         Em    Asus2
   % chorus: 1.&.2.&.3.&.4.&
   %          D   D D\dots
-  %          Mim   Sol
+  %          Em   G
 
   \cover
   \capo{9}
-  \gtab{Mim}{022000}
-  \gtab{Lasus2}{X02200}
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{Em}{022000}
+  \gtab{Asus2}{X02200}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Mim] Walking a\[Lasus2]lone
-    \[Mim]' care for no \[Lasus2]one
-    \[Mim] I'm so cru\[Lasus2]el
-    \[Mim]' look like a \[Lasus2]{dog without} its bone
+    \[Em] Walking a\[Asus2]lone
+    \[Em]' care for no \[Asus2]one
+    \[Em] I'm so cru\[Asus2]el
+    \[Em]' look like a \[Asus2]{dog without} its bone
   \endverse
 
   \beginverse*
-    \[Lam] I go my \[Rém]way
-    \[Lam] Without a \[Rém]gaze
-    \[Lam] If you ask \[Rém]help
-    \[Lam] I will an\[Rém]swer: ``No way!''
+    \[Am] I go my \[Dm]way
+    \[Am] Without a \[Dm]gaze
+    \[Am] If you ask \[Dm]help
+    \[Am] I will an\[Dm]swer: ``No way!''
   \endverse
 
   \beginverse*
@@ -49,14 +49,14 @@
   \endverse
 
   \beginchorus
-    \[Mim]Since I was a \[Do]child
-    I've \[Mim]tried to do things \[Do]right
-    But \[Fa]being a good \[Mim]soul
-    On\[Fa]ly gets me trou\[Mim]bles
-    Now \[Sol]it's o\[Mim]ver
-    Kind\[Sol]ness has disap\[Mim]peared
-    And \[Do]from that \[Mim]day
-    I'll \[Do]take the devil's \[Mim]way
+    \[Em]Since I was a \[C]child
+    I've \[Em]tried to do things \[C]right
+    But \[F]being a good \[Em]soul
+    On\[F]ly gets me trou\[Em]bles
+    Now \[G]it's o\[Em]ver
+    Kind\[G]ness has disap\[Em]peared
+    And \[C]from that \[Em]day
+    I'll \[C]take the devil's \[Em]way
   \endchorus
 
   \beginverse

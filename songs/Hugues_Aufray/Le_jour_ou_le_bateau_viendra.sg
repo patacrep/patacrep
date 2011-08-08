@@ -4,23 +4,23 @@
   [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Sim}{2:X02210}
-  \gtab{Do}{X32010}
-  \gtab{Ré7}{XX0212}
+  \gtab{G}{320003}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{D7}{XX0212}
 
   \beginverse
-    Vous ver\[Sol]rez ce jour-\[Sim]là quand le \[Do]vent tombe\[Sol]ra
-    Quand la \[Sim]brise n'au\[Ré7]ra plus de \[Sol]voix
-    Un grand \[Sol]calme se fe\[Sim]ra comme a\[Do]vant un oura\[Sol]gan
-    Le jour où le \[Ré7]bateau vien\[Sol]dra
+    Vous ver\[G]rez ce jour-\[Bm]là quand le \[C]vent tombe\[G]ra
+    Quand la \[Bm]brise n'au\[D7]ra plus de \[G]voix
+    Un grand \[G]calme se fe\[Bm]ra comme a\[C]vant un oura\[G]gan
+    Le jour où le \[D7]bateau vien\[G]dra
   \endverse
 
   \beginverse*
-    Et les \[Sim]vagues danseront a\[Do]vec les na\[Sol]vires
-    Et tout \[Sim]le sable s'\[Ré7]envole\[Sol]ra
-    Et vous \[Sim]entendrez l'océ\[Do]an chan\[Sol]ter
-    Le jour \[Sol]où le \[Do]bateau \[Ré7 Do]vien\[Sol]dra
+    Et les \[Bm]vagues danseront a\[C]vec les na\[G]vires
+    Et tout \[Bm]le sable s'\[D7]envole\[G]ra
+    Et vous \[Bm]entendrez l'océ\[C]an chan\[G]ter
+    Le jour \[G]où le \[C]bateau \[D7 C]vien\[G]dra
   \endverse
 
 

@@ -4,22 +4,22 @@
   [by=Mes souliers sont rouges,cov=5,album=5]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
-  \gtab{Do}{332010}
-  \gtab{La7}{002223}
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Si}{2:X02220}
-  \gtab{Fa#}{2:022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{C}{332010}
+  \gtab{A7}{002223}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{B}{2:X02220}
+  \gtab{F#}{2:022100}
 
 
   \beginverse
-    \[Lam]La terre en \[Rém]vigne, la voi\[Fa]là la jolie \[Lam]vi\[Mi]gne \rep{2}
-    Vigni vi\[Lam]gnons, vignons le \[Do]vin
-    La \[La7]jolie vigne au \[Mi]vin \rep{2}
+    \[Am]La terre en \[Dm]vigne, la voi\[F]là la jolie \[Am]vi\[E]gne \rep{2}
+    Vigni vi\[Am]gnons, vignons le \[C]vin
+    La \[A7]jolie vigne au \[E]vin \rep{2}
   \endverse
 
   \beginverse*
@@ -35,9 +35,9 @@
   \endverse
 
   \beginchorus
-    \[La]La seille en \[Mi]huche, la voi\[Ré]là la jolie \[Mi]huche \rep{2}
-    Huchi hu\[La]chons, huchons le \[Mi]vin
-    La \[Ré]jolie \[Mi]huche au \[La]vin \rep{2}
+    \[A]La seille en \[E]huche, la voi\[D]là la jolie \[E]huche \rep{2}
+    Huchi hu\[A]chons, huchons le \[E]vin
+    La \[D]jolie \[E]huche au \[A]vin \rep{2}
   \endchorus
 
 
@@ -84,11 +84,11 @@
   \endchorus
 
   \beginchorus
-    \[Si]La terre en \[Fa#]vigne, la voi\[Mi]là la jolie \[Fa#]vigne \rep{2}
-    Vigni vi\[Si]gnons, vignons le \[Fa#]vin
-    La \[Mi]jolie \[Fa#]vigne au \[Si]vin
-    Vigni vi\[Si]gnons, vignons le \[Fa#]vin
-    La \[Mi]jolie \[Fa#]vigne au \[Mi]vin \dots \[Si]
+    \[B]La terre en \[F#]vigne, la voi\[E]là la jolie \[F#]vigne \rep{2}
+    Vigni vi\[B]gnons, vignons le \[F#]vin
+    La \[E]jolie \[F#]vigne au \[B]vin
+    Vigni vi\[B]gnons, vignons le \[F#]vin
+    La \[E]jolie \[F#]vigne au \[E]vin \dots \[B]
   \endchorus
 
 \endsong

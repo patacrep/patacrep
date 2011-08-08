@@ -4,15 +4,15 @@
   [by=Herman Düne,cov=giant,album=Giant]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Si&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{B&}{1:X02220}
 
   \beginverse
-    You are a \[Do]hero, you are off the hook
-    I read you like a \[Lam]poem or a holy book
-    You're the kind of girl who would \[Fa]jump out the window
-    \[Sol]Tell me something I don't know
+    You are a \[C]hero, you are off the hook
+    I read you like a \[Am]poem or a holy book
+    You're the kind of girl who would \[F]jump out the window
+    \[G]Tell me something I don't know
   \endverse
 
   \beginverse
@@ -23,10 +23,10 @@
   \endverse
 
   \beginchorus
-    \[Do]Tell me, tell me, tell me
-    \[Lam]Tell me something I don't know
-    \[Fa]Tell me, tell me, tell me
-    \[Sol]Tell me something, tell me something
+    \[C]Tell me, tell me, tell me
+    \[Am]Tell me something I don't know
+    \[F]Tell me, tell me, tell me
+    \[G]Tell me something, tell me something
     Tell me something I don't know
   \endchorus
 

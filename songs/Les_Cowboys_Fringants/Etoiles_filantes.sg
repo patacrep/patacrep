@@ -4,18 +4,18 @@
   [by=Les Cowboys Fringants,cov=la-grand-messe,album=La grand messe]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
 
   \lilypond{Etoiles_filantes-1}
 
   \beginverse
-    Si je m'\[Lam]arrête un instant
-    Pour te \[Sol]parler de ma vie
-    Juste comme \[Mim]ça tranquillement
-    Dans un \[Fa]bar rue St-Denis
+    Si je m'\[Am]arrête un instant
+    Pour te \[G]parler de ma vie
+    Juste comme \[Em]ça tranquillement
+    Dans un \[F]bar rue St-Denis
     J'te raconterai les souvenirs
     Bien gravés dans ma mémoire
     De cette époque où vieillir
@@ -34,10 +34,10 @@
   \endverse
 
   \beginchorus
-    Mais au \[Lam]bout du ch'min dis-moi c'qui va res\[Sol]ter
-    De la p'\[Mim]tite école et d'la cour de ré\[Fa]cré ?
-    Quand les av\[Lam]ions en papier ne partent plus au \[Sol]vent
-    On se \[Mim]dit que l'bon temps passe finale\[Fa]ment \dots comme une étoile fi\[Lam]lante
+    Mais au \[Am]bout du ch'min dis-moi c'qui va res\[G]ter
+    De la p'\[Em]tite école et d'la cour de ré\[F]cré ?
+    Quand les av\[Am]ions en papier ne partent plus au \[G]vent
+    On se \[Em]dit que l'bon temps passe finale\[F]ment \dots comme une étoile fi\[Am]lante
   \endchorus
 
 

@@ -4,23 +4,23 @@
   [by=Patrick Bouchitey,cov=la-vie-est-un-long-fleuve-tranquille,album=La vie est un long fleuve tranquille]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
 
   \beginverse
-    \[Do]Quand il revien\[Fa]dra, il fe\[Sol]ra grand \[Do]jour
-    \[Do]Pour fêter ce\[Fa]lui qui inven\[Sol]ta l'a\[Do]mour
-    \[Fa]Au fond d'une étable, il \[Do]naquit de Marie
-    \[Fa]Personne n'avait vou\[Sol]lu de \[Do]lui
+    \[C]Quand il revien\[F]dra, il fe\[G]ra grand \[C]jour
+    \[C]Pour fêter ce\[F]lui qui inven\[G]ta l'a\[C]mour
+    \[F]Au fond d'une étable, il \[C]naquit de Marie
+    \[F]Personne n'avait vou\[G]lu de \[C]lui
   \endverse
 
   \beginchorus
-    \[Do]Jésus reviens, \[Fa]Jésus re\[Do]viens
-    \[Lam]Jésus reviens parmi les \[Sol]tiens
-    \[Fa]Du haut de la croix, in\[Do]dique nous le chemin
-    \[Fa]Toi qui le con\[Sol]nais si \[Do]bien
+    \[C]Jésus reviens, \[F]Jésus re\[C]viens
+    \[Am]Jésus reviens parmi les \[G]tiens
+    \[F]Du haut de la croix, in\[C]dique nous le chemin
+    \[F]Toi qui le con\[G]nais si \[C]bien
   \endchorus
 
   \beginverse

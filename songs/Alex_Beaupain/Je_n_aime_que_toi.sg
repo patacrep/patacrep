@@ -4,36 +4,36 @@
   [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Mim}{022000}
-  \gtab{La}{X02220}
-  \gtab{Sim}{2:X02210}
-  \gtab{Fa#7}{2:020100}
+  \gtab{D}{XX0232}
+  \gtab{F#m}{2:022000}
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#7}{2:020100}
 
-  \musicnote{intro : Ré Fa{\shrp}m Mim La \rep{2}}
+  \musicnote{intro : D F{\shrp}m Em A \rep{2}}
 
   \beginverse
-    \[Ré]Petit salaud, ton \[Fa#m]jeu est clair
-    \[Mim]Tu veux tout sans ranc\[La]une
-    \[Ré]Le beurre, le cul de \[Fa#m]la crémière
-    \[Mim]Deux pour le \[La]prix d'une
+    \[D]Petit salaud, ton \[F#m]jeu est clair
+    \[Em]Tu veux tout sans ranc\[A]une
+    \[D]Le beurre, le cul de \[F#m]la crémière
+    \[Em]Deux pour le \[A]prix d'une
   \endverse
 
   \beginverse*
-    \[Sim]Petite garce que tu \[Fa#7]es vulgaire
-    \[Sim]Que c'est laid dans ta \[Mim]bouche
-    \[Sim]Que cette jalousie \[Fa#7]m'indiffère
-    \[Sim]Vois comme tu te \[Fa#7]couches
+    \[Bm]Petite garce que tu \[F#7]es vulgaire
+    \[Bm]Que c'est laid dans ta \[Em]bouche
+    \[Bm]Que cette jalousie \[F#7]m'indiffère
+    \[Bm]Vois comme tu te \[F#7]couches
   \endverse
 
   \beginverse*
-    \[Sim]Je suis le pont sur \[Fa#7]la rivière
-    \[Sim]Qui va de toi \[Mim]à toi
-    \[Sim]Traversez-moi, \[Fa#m]la belle affaire
-    \[Mim]Embrassez-\[La]vous sur \[Ré]moi hum \[Fa#7]hum hum \[Mim]hum
-    \[La]Je n'aime que toi \[Ré]hum hum \[Fa#7]hum hum \[Mim]hum
-    \[La]Je n'aime que \[Ré]toi
+    \[Bm]Je suis le pont sur \[F#7]la rivière
+    \[Bm]Qui va de toi \[Em]à toi
+    \[Bm]Traversez-moi, \[F#m]la belle affaire
+    \[Em]Embrassez-\[A]vous sur \[D]moi hum \[F#7]hum hum \[Em]hum
+    \[A]Je n'aime que toi \[D]hum hum \[F#7]hum hum \[Em]hum
+    \[A]Je n'aime que \[D]toi
   \endverse
 
   \beginverse

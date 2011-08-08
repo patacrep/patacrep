@@ -4,20 +4,20 @@
   [by=Simon \& Garfunkel,cov=concert-in-central-park,album=Concert in Central Park]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
 
   \beginverse
-    \[Sol]A\[Do]\[Sol]pril, \[Do]come she \[Sol]will\[Do]
-    \[Lam]When streams are \[Mim]ripe and \[Lam]swelled with \[Mim]rain
+    \[G]A\[C]\[G]pril, \[C]come she \[G]will\[C]
+    \[Am]When streams are \[Em]ripe and \[Am]swelled with \[Em]rain
   \endverse
 
   \beginverse*
-    \[Do Ré]May, she will \[Sol] stay\[Mim]
-    \[Lam]Resting \[Mim]in my \[Lam]arms a\[Mim]gain
-    {\nolyrics \[Sol Do Sol Do]}
+    \[C D]May, she will \[G] stay\[Em]
+    \[Am]Resting \[Em]in my \[Am]arms a\[Em]gain
+    {\nolyrics \[G C G C]}
   \endverse
 
   \beginverse

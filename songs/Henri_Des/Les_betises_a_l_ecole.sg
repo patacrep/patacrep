@@ -5,8 +5,8 @@
 
   \cover
   \capo{4}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
 
   \beginchorus
@@ -15,16 +15,16 @@
   \endchorus
 
   \beginchorus
-    \[Do]{C'est} à l'école, tagadagada
-    Qu'on apprend des bê\[Sol]tises
+    \[C]{C'est} à l'école, tagadagada
+    Qu'on apprend des bê\[G]tises
     \rep{2}
   \endchorus
 
   \beginverse
-    \[Sol]Le grand Dédé, poils, poils au nez
-    Devant toute la \[Do]classe
-    \[Sol]Monte au tableau, poils, poils au dos
-    Pour faire des gri\[Do]maces
+    \[G]Le grand Dédé, poils, poils au nez
+    Devant toute la \[C]classe
+    \[G]Monte au tableau, poils, poils au dos
+    Pour faire des gri\[C]maces
   \endverse
 
   \beginverse

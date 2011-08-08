@@ -5,18 +5,18 @@
 
   \cover
   \capo{5}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
 
-  \musicnote{intro : Lam Do Sol Mim}
+  \musicnote{intro : Am C G Em}
 
   \beginverse
-    \[Lam]J'étais cool, assis sur un banc. C'était au printemps
-    \[Do]Il cueille une marguerite : ce sont deux amants
-    \[Sol]Overdose de douceur. Ils jouent comme des enfants
-    \[Mim]Je t'aime un peu beaucoup à la folie passionnément
+    \[Am]J'étais cool, assis sur un banc. C'était au printemps
+    \[C]Il cueille une marguerite : ce sont deux amants
+    \[G]Overdose de douceur. Ils jouent comme des enfants
+    \[Em]Je t'aime un peu beaucoup à la folie passionnément
   \endverse
 
   \beginverse*

@@ -3,16 +3,16 @@
 \beginsong{Tu sens bon la terre}
   [by=Hugues Aufray]
 
-  \gtab{Rém}{5:X02210}
-  \gtab{La7}{5:020100}
-  \gtab{Do}{3:X02220}
-  \gtab{Fa}{1:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{A7}{5:020100}
+  \gtab{C}{3:X02220}
+  \gtab{F}{1:022100}
 
   \beginverse
-    \[Rém]Tu sens bon la \[La7]terre, ma \[Rém]terre\[La7]
-    \[Rém]Tu sens bon la \[Do]vie, ma \[Fa]mie\[La7]
-    \[Rém]Tu sens bon la \[Do]pipe, mon \[Rém]père\[La7]
-    \[Rém]Tu sens bon l'au\[La7]tomne ma \[Rém]pluie
+    \[Dm]Tu sens bon la \[A7]terre, ma \[Dm]terre\[A7]
+    \[Dm]Tu sens bon la \[C]vie, ma \[F]mie\[A7]
+    \[Dm]Tu sens bon la \[C]pipe, mon \[Dm]père\[A7]
+    \[Dm]Tu sens bon l'au\[A7]tomne ma \[Dm]pluie
   \endverse
 
   \beginverse

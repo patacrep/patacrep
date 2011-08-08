@@ -4,34 +4,34 @@
   [by=Boby Lapointe,cov=l-integrale,album=L'intégrale]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{La}{5:022100}
-  \gtab{Ré7}{5:X02020}
-  \gtab{Solm}{3:022000}
-  \gtab{La7}{5:020100}
+  \gtab{Dm}{5:X02210}
+  \gtab{A}{5:022100}
+  \gtab{D7}{5:X02020}
+  \gtab{Gm}{3:022000}
+  \gtab{A7}{5:020100}
 
   \beginverse
-    \[Rém]Elle s'appelait Françoise \[La Rém]
-    Mais on l'\[Ré7]appelait Fram\[Solm]boise ! \[Ré7 Solm]
-    Une idée de l'adju\[La7]dant
-    Qui en avait très peu, pour\[Rém]tant
-    \echo{Des idées} \[La Rém]
+    \[Dm]Elle s'appelait Françoise \[A Dm]
+    Mais on l'\[D7]appelait Fram\[Gm]boise ! \[D7 Gm]
+    Une idée de l'adju\[A7]dant
+    Qui en avait très peu, pour\[Dm]tant
+    \echo{Des idées} \[A Dm]
   \endverse
 
   \beginverse*
-    \[Rém]Elle nous servait à boire \[La Rém]
-    Dans un \[Ré7]bled du Maine-et-\[Solm]Loire \[Ré7 Solm]
-    Mais ce n'était pas Made\[Rém]lon
-    Elle avait un autre \[La7]nom
-    Et puis d'abord pas ques\[Rém]tion
-    De lui prendre le men\[La7]ton
-    D'ailleurs elle était d'An\[Rém]tibes !
-    \[Rém]Quelle \[La]ava\[Rém]nie !
+    \[Dm]Elle nous servait à boire \[A Dm]
+    Dans un \[D7]bled du Maine-et-\[Gm]Loire \[D7 Gm]
+    Mais ce n'était pas Made\[Dm]lon
+    Elle avait un autre \[A7]nom
+    Et puis d'abord pas ques\[Dm]tion
+    De lui prendre le men\[A7]ton
+    D'ailleurs elle était d'An\[Dm]tibes !
+    \[Dm]Quelle \[A]ava\[Dm]nie !
   \endverse
 
   \beginchorus
-    Avanie et Fram\[La7]boise
-    Sont les mamelles du Des\[Rém]tin !
+    Avanie et Fram\[A7]boise
+    Sont les mamelles du Des\[Dm]tin !
   \endchorus
 
   \beginverse

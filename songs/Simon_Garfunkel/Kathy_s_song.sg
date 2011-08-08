@@ -4,19 +4,19 @@
   [by=Simon \& Garfunkel,cov=the-definitive,album=The definitive]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Lam6}{2X2210}
-  \gtab{Ré7}{XX0212}
-  \gtab{Sim}{2:X02210}
-  \gtab{Ré}{XX0232}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Am6}{2X2210}
+  \gtab{D7}{XX0212}
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Sol]{I hear} the \[Do]drizzle \[Sol]of the rain
-    \[Lam]Like a me\[Lam6]mory it \[Ré7]falls
-    \[Sol]Soft and \[Sim]warm con\[Sol]tinu\[Do]ing
-    \[Lam]Tapping on my \[Ré]roof and \[Do]walls\[Sol Do Sol]
+    \[G]{I hear} the \[C]drizzle \[G]of the rain
+    \[Am]Like a me\[Am6]mory it \[D7]falls
+    \[G]Soft and \[Bm]warm con\[G]tinu\[C]ing
+    \[Am]Tapping on my \[D]roof and \[C]walls\[G C G]
   \endverse
 
   \beginverse

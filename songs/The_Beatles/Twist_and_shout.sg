@@ -4,16 +4,16 @@
   [by=The Beatles,cov=please-please-me,album=Please please me]
 
   \cover
-  \gtab{Ré}{5:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{La}{5:022100}
-  \gtab{La7}{5:020130}
+  \gtab{D}{5:X02220}
+  \gtab{G}{3:022100}
+  \gtab{A}{5:022100}
+  \gtab{A7}{5:020130}
 
   \beginchorus
-    \[La7]Well, shake it up, \[Ré]baby, now \echo{\[Sol]shake it up, \[La]baby}
-    \[La7]Twist and \[Ré]shout \echo{\[Sol]twist and sh\[La]out}
-    \[La7]Cmon cmon, cmon, cmon, \[Ré]baby, now \echo{\[Sol]come on \[La]baby}
-    \[La7]Come on and work it \[Ré]on out \echo{\[Sol]work it on \[La]out}
+    \[A7]Well, shake it up, \[D]baby, now \echo{\[G]shake it up, \[A]baby}
+    \[A7]Twist and \[D]shout \echo{\[G]twist and sh\[A]out}
+    \[A7]Cmon cmon, cmon, cmon, \[D]baby, now \echo{\[G]come on \[A]baby}
+    \[A7]Come on and work it \[D]on out \echo{\[G]work it on \[A]out}
   \endchorus
 
   \beginverse
@@ -33,14 +33,14 @@
   \endverse
 
   \beginverse*
-    \[La]Ah \echo{Ah Ah} Ah \echo{Ah Ah}
+    \[A]Ah \echo{Ah Ah} Ah \echo{Ah Ah}
   \endverse
 
   \musicnote{chorus, repeat verse 2}
 
   \beginverse*
-    \[La7]Well, shake it, shake it, shake it, \[Ré]baby, now \echo{\[Sol]shake it up \[La]baby} \rep{3}
-    \[La]Ah \echo{Ah Ah} Ah!
+    \[A7]Well, shake it, shake it, shake it, \[D]baby, now \echo{\[G]shake it up \[A]baby} \rep{3}
+    \[A]Ah \echo{Ah Ah} Ah!
   \endverse
 
 \endsong

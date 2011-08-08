@@ -4,21 +4,21 @@
   [by=Les Wriggles,cov=partent-en-live,album=Partent en live]
 
   \cover
-  \gtab{Do#m}{4:X02210}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Sol#}{4:022100}
-  \gtab{La}{X02220}
-  \gtab{La7}{5:020100}
-  \gtab{La}{5:022100}
-  \gtab{Rém}{5:X02210}
-  \gtab{Solm}{3:022000}
-  \gtab{La#}{6:022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#m}{2:022000}
+  \gtab{G#}{4:022100}
+  \gtab{A}{X02220}
+  \gtab{A7}{5:020100}
+  \gtab{A}{5:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{Gm}{3:022000}
+  \gtab{A#}{6:022100}
 
   \beginverse
-    \[Do#m]C'est l'histoire d'une \[Fa#m]montgolfière
-    Qui \[Sol#]survolait le \[Do#m]bord de mer
-    \[La]Elle n'avait ni \[Fa#m]père ni mère
-    C'est \[Sol#]normal pour une \[Do#m]montgolfière
+    \[C#m]C'est l'histoire d'une \[F#m]montgolfière
+    Qui \[G#]survolait le \[C#m]bord de mer
+    \[A]Elle n'avait ni \[F#m]père ni mère
+    C'est \[G#]normal pour une \[C#m]montgolfière
   \endverse
 
   \beginverse
@@ -48,14 +48,14 @@
     Bon d'accord, il est Rémois
     Mais qu'est-ce que ça peut me faire à moi ?
     Il peut bien venir de Toulouse
-    Ou même de Santa-\[La7]Cruz
+    Ou même de Santa-\[A7]Cruz
   \endverse
 
   \beginverse
-    \[Rém]Mais ça n'a pas \[Solm]d'importance
-    \[La]Peu importe sa \[Rém]provenance
-    \[La#]Ce qui importe, c'est \[Solm]{de savoir}
-    Ce \[La]qu'au gros, il dé\[Rém]clare :
+    \[Dm]Mais ça n'a pas \[Gm]d'importance
+    \[A]Peu importe sa \[Dm]provenance
+    \[A#]Ce qui importe, c'est \[Gm]{de savoir}
+    Ce \[A]qu'au gros, il dé\[Dm]clare :
   \endverse
 
   \beginverse

@@ -4,17 +4,17 @@
   [by=Cat Stevens,cov=tea-for-the-tillerman,album=Tea for the tillerman]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
 
   \beginverse
-    It's not \[Sol]time to make a \[Ré]change
-    Just re\[Do]lax, take it \[Lam]easy
-    You're still \[Sol]young, that's your \[Mim]fault
-    There's so \[Lam]much you have to \[Ré]know
+    It's not \[G]time to make a \[D]change
+    Just re\[C]lax, take it \[Am]easy
+    You're still \[G]young, that's your \[Em]fault
+    There's so \[Am]much you have to \[D]know
   \endverse
 
   \beginverse*
@@ -35,7 +35,7 @@
     But take your time, think a lot
     Think of everything you've got
     For you will still be here tomorrow
-    But your \[Ré]dreams may \[Sol]not
+    But your \[D]dreams may \[G]not
   \endverse
 
   \beginverse
@@ -49,8 +49,8 @@
     From the moment I could talk
     I was ordered to listen
     Now there's a way, and I know
-    That I \[Ré]have to \[Sol]go away
-    I \[Ré]know, I \[Do]have to \[Sol]go
+    That I \[D]have to \[G]go away
+    I \[D]know, I \[C]have to \[G]go
   \endverse
 
   \beginverse

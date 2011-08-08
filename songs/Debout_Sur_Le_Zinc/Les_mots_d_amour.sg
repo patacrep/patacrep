@@ -5,29 +5,29 @@
 
   \cover
   \capo{2}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Rém}{XX0231}
-  \gtab{Mi}{022100}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{Dm}{XX0231}
+  \gtab{E}{022100}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]{J'aimerais} écrire des mots \[Sol]{d'amour}
-    Parce que \[Rém]parler c'est \[Mi]pas mon fort
-    \[Lam]{J'aimerais} écrire des mots \[Sol]{d'amour}
-    Les faire \[Rém]jaillir de mes \[Mi]trois accords, mais
-    \[Lam]J'ai un peu froid, comme \[Sol]a dit l'autre
-    Et ce \[Rém]long frisson qui n'en \[Mi]finit pas
-    \[Lam]{J'ai} un peu froid, mau\[Sol]vais apôtre
-    Mon \[Rém]cafard me lâche moins souvent \[Mi]{qu'autrefois}
+    \[Am]{J'aimerais} écrire des mots \[G]{d'amour}
+    Parce que \[Dm]parler c'est \[E]pas mon fort
+    \[Am]{J'aimerais} écrire des mots \[G]{d'amour}
+    Les faire \[Dm]jaillir de mes \[E]trois accords, mais
+    \[Am]J'ai un peu froid, comme \[G]a dit l'autre
+    Et ce \[Dm]long frisson qui n'en \[E]finit pas
+    \[Am]{J'ai} un peu froid, mau\[G]vais apôtre
+    Mon \[Dm]cafard me lâche moins souvent \[E]{qu'autrefois}
   \endverse
 
   \beginchorus
-    \[Fa]Ialata ialata \[Do]ialata ta
-    \[Mi]Iala lalalala \[Fa]lala la la
-    \[Fa]Ialata ialata \[Do]ialata ta
-    \[Mi]Ta
+    \[F]Ialata ialata \[C]ialata ta
+    \[E]Iala lalalala \[F]lala la la
+    \[F]Ialata ialata \[C]ialata ta
+    \[E]Ta
   \endchorus
 
   \beginverse

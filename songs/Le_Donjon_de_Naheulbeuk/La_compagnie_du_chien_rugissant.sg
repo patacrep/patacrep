@@ -5,18 +5,18 @@
 
   \cover
   \capo{3}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
 
   \lilypond{La_compagnie_du_chien_rugissant}
 
   \beginverse
-    \[Lam]Nous étions \[Do]quatre as\[Sol]sis dans l'au\[Lam]berge
-    Buvant une \[Do]chope de nos \[Mim]maigres de\[Lam]niers
-    La \[Lam]bourse était \[Do]vide, tout \[Sol]comme notre \[Mim]{sac à dos}
-    \[Lam]La compa\[Mim]gnie a\[Sol]ttend un bou\[Lam]lot
+    \[Am]Nous étions \[C]quatre as\[G]sis dans l'au\[Am]berge
+    Buvant une \[C]chope de nos \[Em]maigres de\[Am]niers
+    La \[Am]bourse était \[C]vide, tout \[G]comme notre \[Em]{sac à dos}
+    \[Am]La compa\[Em]gnie a\[G]ttend un bou\[Am]lot
   \endverse
 
   \beginverse

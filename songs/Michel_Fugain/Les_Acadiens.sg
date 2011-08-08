@@ -4,33 +4,33 @@
   [by=Michel Fugain,cov=live,album=live]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Ré7}{XX0212}
-  \gtab{Do7}{1:X2120X}
-  \gtab{Fa#}{2:022100}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
-  \gtab{La7}{X02020}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{D7}{XX0212}
+  \gtab{C7}{1:X2120X}
+  \gtab{F#}{2:022100}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{A7}{X02020}
 
   \beginchorus
-    \[Sol]Tous les Acadiens, toutes les Acadiennes
-    Vont sauter, vont danser sur le vio\[Ré]lon
-    \[Ré]Sont Américains et sont Américaines
+    \[G]Tous les Acadiens, toutes les Acadiennes
+    Vont sauter, vont danser sur le vio\[D]lon
+    \[D]Sont Américains et sont Américaines
     La faute à qui donc ?
-    La faute à Napolé\[Sol]on
+    La faute à Napolé\[G]on
   \endchorus
 
   \beginverse
-    \[Sol]Y'a dans le sud de la Louisiane
-    Et dans un coin du Cana\[Ré]da
-    \[Ré7]Des tas de gars, des tas de femmes
-    Qui chantent dans la même langue que \[Sol]toi
-    \[Sol]Mais quand ils font de la musique
-    \[Do7]C'est celle de Rufus Thibodeaux
-    \[Sol]Ils rêvent encore de l'\[Fa#]A\[Fa]mé\[Mi]rique
-    \[La7]Qu'avait rêvée leur grand-papa
-    Qui pensait peu, qui \[Ré7]pensait pas
+    \[G]Y'a dans le sud de la Louisiane
+    Et dans un coin du Cana\[D]da
+    \[D7]Des tas de gars, des tas de femmes
+    Qui chantent dans la même langue que \[G]toi
+    \[G]Mais quand ils font de la musique
+    \[C7]C'est celle de Rufus Thibodeaux
+    \[G]Ils rêvent encore de l'\[F#]A\[F]mé\[E]rique
+    \[A7]Qu'avait rêvée leur grand-papa
+    Qui pensait peu, qui \[D7]pensait pas
   \endverse
 
   \beginverse

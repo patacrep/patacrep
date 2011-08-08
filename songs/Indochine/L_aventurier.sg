@@ -4,17 +4,17 @@
   [by=Indochine,cov=generation-indochine,album=Génération Indochine]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Lam]Égaré dans la \[Fa]vallée infernale
-    Le \[Do]héros s'appelle\[Rém] Bob Morane
-    \[Lam]{À la} recherche de \[Fa]{l'Ombre} Jaune
-    Le \[Do]bandit s'appelle Mister \[Rém]Kali Jones
+    \[Am]Égaré dans la \[F]vallée infernale
+    Le \[C]héros s'appelle\[Dm] Bob Morane
+    \[Am]{À la} recherche de \[F]{l'Ombre} Jaune
+    Le \[C]bandit s'appelle Mister \[Dm]Kali Jones
   \endverse
 
   \beginverse
@@ -39,12 +39,12 @@
   \endverse
 
   \beginchorus
-    \[Rém]Et soudain surgit \[Lam]face au vent
-    Le \[Do]vrai héros de \[Sol]tous les temps
-    \[Rém]Bob Morane contre \[Lam]tout chacal
-    L'a\[Do]venturier contre \[Sol]tout guerrier
-    \[Rém]Bob Morane contre \[Lam]tout chacal
-    L'a\[Do]venturier contre \[Sol]tout guerrier
+    \[Dm]Et soudain surgit \[Am]face au vent
+    Le \[C]vrai héros de \[G]tous les temps
+    \[Dm]Bob Morane contre \[Am]tout chacal
+    L'a\[C]venturier contre \[G]tout guerrier
+    \[Dm]Bob Morane contre \[Am]tout chacal
+    L'a\[C]venturier contre \[G]tout guerrier
   \endchorus
 
   \beginverse

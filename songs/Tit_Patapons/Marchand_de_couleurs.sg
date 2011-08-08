@@ -4,18 +4,18 @@
   [by=Tit Patapons,cov=premier-jet,album=Premier jet]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Lasus4}{X02230}
-  \gtab{Lasus2}{X02200}
-  \gtab{Lam7}{X02213}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Asus4}{X02230}
+  \gtab{Asus2}{X02200}
+  \gtab{Am7}{X02213}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
   \beginverse
-    Sou\[Lam]viens-toi de moi, je suis ce\[Lasus4]lui
-    Qui co\[Lasus2]lorait tes \[Lam]rêves
-    Qui t'ap\[Lam]portait des \[Lam7]vagues
-    De bon\[Lasus2]heur sur la \[Lam]grève
+    Sou\[Am]viens-toi de moi, je suis ce\[Asus4]lui
+    Qui co\[Asus2]lorait tes \[Am]rêves
+    Qui t'ap\[Am]portait des \[Am7]vagues
+    De bon\[Asus2]heur sur la \[Am]grève
     Celui qui distribue
     Des arc-en-ciels aux âmes tristes
     Qui transforme les tempêtes
@@ -23,8 +23,8 @@
   \endverse
 
   \beginchorus
-    Sou\[Lam]viens-toi de \[Fa]moi
-    Je suis le \[Do]marchand de cou\[Lam]leurs
+    Sou\[Am]viens-toi de \[F]moi
+    Je suis le \[C]marchand de cou\[Am]leurs
     Qui apporte les sourires
     Et distribue les bonheurs
     Qui envoie le soleil
@@ -37,8 +37,8 @@
   \lilypond{Marchand_de_couleurs}
 
   \beginverse
-    Moi tou\[Lam]jours, je t'emmène dans des \[Fa]landes
-    Aux \[Do]parfums su\[Lam]crés
+    Moi tou\[Am]jours, je t'emmène dans des \[F]landes
+    Aux \[C]parfums su\[Am]crés
     À jamais, je te guéris
     De ces grandes plaines rougeoyantes
     Où la fumée des combats

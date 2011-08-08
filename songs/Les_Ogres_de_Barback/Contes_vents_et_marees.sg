@@ -5,17 +5,17 @@
 
 
   \cover
-  \gtab{Mi&}{6:X02220}
-  \gtab{Si&}{6:022100}
-  \gtab{Dom}{3:X02210}
-  \gtab{Solm}{3:022000}
-  \gtab{Sol#}{4:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{Cm}{3:X02210}
+  \gtab{Gm}{3:022000}
+  \gtab{G#}{4:022100}
 
 
   \beginverse
-    \[Mi&]Sait-on jamais où les vents nous \[Si&]mènent ?
-    \[Dom]Moi ils sont venus me mettre un ma\[Solm]tin
-    \[Sol#]Hélas sur la route de \[Mi&]Rennes, mauvais de\[Si&]stin !
+    \[E&]Sait-on jamais où les vents nous \[B&]mènent ?
+    \[Cm]Moi ils sont venus me mettre un ma\[Gm]tin
+    \[G#]Hélas sur la route de \[E&]Rennes, mauvais de\[B&]stin !
     C'est là-bas que j'ai perdu tous mes biens
     En trahissant naïvement tous les miens
     Mais ne vous l'avais-je pas pourtant prédit, vous mes amis ?
@@ -104,10 +104,10 @@
 
   \beginverse
     Alors{\ldots}
-    \[Mi&]Sait-on jamais où les vents nous \[Sol]mènent ?
-    \[Dom]Moi ils sont venus me \[Si&]prendre un matin
-    \[Mi&]Sait-on jamais où les vents nous \[Sol]mènent ?
-    Moi ils \[Dom]{se sont} bien \[Si&]moqués de ma peine !
+    \[E&]Sait-on jamais où les vents nous \[G]mènent ?
+    \[Cm]Moi ils sont venus me \[B&]prendre un matin
+    \[E&]Sait-on jamais où les vents nous \[G]mènent ?
+    Moi ils \[Cm]{se sont} bien \[B&]moqués de ma peine !
   \endverse
 
 \endsong

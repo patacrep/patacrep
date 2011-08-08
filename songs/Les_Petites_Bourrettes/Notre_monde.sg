@@ -4,18 +4,18 @@
   [by=Les Petites Bourrettes,cov=comme-des-rois,album=Comme des rois]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Ré}{5:X02220}
-  \gtab{Do}{3:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{Lam}{5:022000}
+  \gtab{Em}{7:X02210}
+  \gtab{D}{5:X02220}
+  \gtab{C}{3:X02220}
+  \gtab{G}{3:022100}
+  \gtab{Am}{5:022000}
 
   \lilypond{Notre_monde}
 
   \beginverse
-    C'est vrai qu'il \[Mim]est beau notre monde
+    C'est vrai qu'il \[Em]est beau notre monde
     Les fusils tirent des colombes
-    Des feux de \[Ré]joie \dots~seulement
+    Des feux de \[D]joie \dots~seulement
   \endverse
 
   \beginverse*
@@ -37,7 +37,7 @@
   \endverse
 
   \beginchorus
-    {\nolyrics Do Sol Lam \rep{2}}
+    {\nolyrics C G Am \rep{2}}
   \endchorus
 
   \beginverse

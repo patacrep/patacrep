@@ -5,31 +5,31 @@
 
   \cover
   \capo{3}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Si}{2:X02220}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{B}{2:X02220}
 
   \beginverse
-    \[Sol]Je m'suis chopé 500 lignes :
-    {\og}Je n'dois pas parler en \[Do]classe{\fg}
-    \[Sol]Ras l'bol de la discipline
-    Y'en a marre, c'est di\[Lam]goulasse !
+    \[G]Je m'suis chopé 500 lignes :
+    {\og}Je n'dois pas parler en \[C]classe{\fg}
+    \[G]Ras l'bol de la discipline
+    Y'en a marre, c'est di\[Am]goulasse !
   \endverse
 
   \beginverse*
-    \[Ré]{C'est} même pas moi qui parlais
-    \[Sol]Moi j'répondais à Arthur
-    \[Do]Qui m'demandait, en anglais
-    \[Si]Comment s'écrit \emph{no future}
+    \[D]{C'est} même pas moi qui parlais
+    \[G]Moi j'répondais à Arthur
+    \[C]Qui m'demandait, en anglais
+    \[B]Comment s'écrit \emph{no future}
   \endverse
 
   \beginchorus
-    \[Mim]Si on est puni pour ça
-    Alors j'dis : {\og}Halte à \[Si]tout !
-    \[Do]Explique-moi, Papa
-    C'est quand qu'on va \[Sol]où ?{\fg} \[Ré]
+    \[Em]Si on est puni pour ça
+    Alors j'dis : {\og}Halte à \[B]tout !
+    \[C]Explique-moi, Papa
+    C'est quand qu'on va \[G]où ?{\fg} \[D]
   \endchorus
 
 

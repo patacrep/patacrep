@@ -5,36 +5,36 @@
 
   \cover
   \capo{4}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Do/Si}{X20010}
-  \gtab{Fa#}{200XXX}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{C/B}{X20010}
+  \gtab{F#}{200XXX}
 
   \musicnote{intro: same chords as the chorus}
 
   \beginverse
-    There's a \[Mim]man homeless and hungry
-    There's a \[Lam]wind that's hard and \[Mim]biting
-    There's a \[Mim]song in need of singing
-    There's a \[Lam]fuse in need of \[Mim]light
-    It's no \[Sol]secret the day is \[Mim]coming
-    And it's a \[Sol]day I hope to \[Mim]see
+    There's a \[Em]man homeless and hungry
+    There's a \[Am]wind that's hard and \[Em]biting
+    There's a \[Em]song in need of singing
+    There's a \[Am]fuse in need of \[Em]light
+    It's no \[G]secret the day is \[Em]coming
+    And it's a \[G]day I hope to \[Em]see
   \endverse
 
   \beginverse*
-    But if they \[Mim]ask
-    If they ask you \[Mim]brother
-    Who told you \[Lam]that
-    You didn't hear it fr\[Mim]om me
+    But if they \[Em]ask
+    If they ask you \[Em]brother
+    Who told you \[Am]that
+    You didn't hear it fr\[Em]om me
   \endverse
 
   \beginchorus
-    Let \[Sol]freedom ring
-    Let \[Do]free\[Do/Si]dom \[Lam]ring
-    Let \[Lam]freedom ring
-    Let \[Sol]free\[Fa#]dom \[Mim]ring
+    Let \[G]freedom ring
+    Let \[C]free\[C/B]dom \[Am]ring
+    Let \[Am]freedom ring
+    Let \[G]free\[F#]dom \[Em]ring
   \endchorus
 
   \beginverse

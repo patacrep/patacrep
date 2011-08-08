@@ -4,23 +4,23 @@
   [by=Dessins Animés,cov=zodiaque,album=Les chevaliers du zodiaque]
 
   \cover
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Fa#}{2:022100}
-  \gtab{Sim}{2:X02210}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{F#}{2:022100}
+  \gtab{Bm}{2:X02210}
 
   \beginverse
-    \[La]Des quatre coins de \[Mi]l'Uni\[La]vers
-    \[La]Quand triomphe le \[Mi]Mal
-    \[La]Sans hésiter ils \[Mi]partent en \[La]guerre
-    \[La]Pour un monde idé\[Mi]al
+    \[A]Des quatre coins de \[E]l'Uni\[A]vers
+    \[A]Quand triomphe le \[E]Mal
+    \[A]Sans hésiter ils \[E]partent en \[A]guerre
+    \[A]Pour un monde idé\[E]al
   \endverse
 
   \beginchorus
-    \[La]Les che\[Fa#]valiers du zo\[Sim]diaque
-    \[Mi]{S'en} vont toujours à l'a\[La]ttaque
-    \[Fa#]En chantant une chan\[Sim]son bien haut
-    C'est la \[Mi]chanson des hé\[La]ros
+    \[A]Les che\[F#]valiers du zo\[Bm]diaque
+    \[E]{S'en} vont toujours à l'a\[A]ttaque
+    \[F#]En chantant une chan\[Bm]son bien haut
+    C'est la \[E]chanson des hé\[A]ros
   \endchorus
 
   \beginchorus

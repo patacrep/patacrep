@@ -5,24 +5,24 @@
 
   \cover
   \capo{2}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
 
   \beginverse
-    Elle est \[Sol]née d'une \[Ré]ferme tout en \[Do]haut d'un ro\[Sol]cher
-    Cette \[Do]ville que j'ai \[Sol]tant, tant et tant ai\[Ré]mée
-    Du la\[Sol]voir à l'hi\[Ré]ver, de l'é\[Do]glise à l'é\[Sol]té
-    Les \[Do]siècles s'enchai\[Sol]naient aux années
+    Elle est \[G]née d'une \[D]ferme tout en \[C]haut d'un ro\[G]cher
+    Cette \[C]ville que j'ai \[G]tant, tant et tant ai\[D]mée
+    Du la\[G]voir à l'hi\[D]ver, de l'é\[C]glise à l'é\[G]té
+    Les \[C]siècles s'enchai\[G]naient aux années
   \endverse
 
   \beginchorus
-    Ils a\[Sol]vaient les moi\[Ré]ssons pour va\[Mim]cances l'été
-    Et les \[Do]femmes sai\[Lam]gnaient sur le lin \[Ré]des rouets
-    Et la \[Sol]pluie tombait \[Ré]blanche sur les \[Do]toits ardoi\[Sol]sés
-    De la \[Do]ville que j'ai \[Sol]tant aimée
+    Ils a\[G]vaient les moi\[D]ssons pour va\[Em]cances l'été
+    Et les \[C]femmes sai\[Am]gnaient sur le lin \[D]des rouets
+    Et la \[G]pluie tombait \[D]blanche sur les \[C]toits ardoi\[G]sés
+    De la \[C]ville que j'ai \[G]tant aimée
   \endchorus
 
   \beginverse

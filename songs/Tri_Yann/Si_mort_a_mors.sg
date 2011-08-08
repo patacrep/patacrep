@@ -5,26 +5,26 @@
 
   \cover
   \capo{5}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
   \beginverse
-    \[Do]Si les ma\[Lam]tins de gri\[Rém]saille se \[Sol]teintent
-    \[Fa]S'ils ont cou\[Do]leur en la \[Ré7]nuit qui s'é\[Sol]teint
-    \[Fa]Viendront d'o\[Do]pales lende\[Lam]mains
-    Revien\[Do]dront des siècles d'\[Sol]or
-    Cent fois \[Do]mille et mille aur\[Fa]ores en\[Sol]core
+    \[C]Si les ma\[Am]tins de gri\[Dm]saille se \[G]teintent
+    \[F]S'ils ont cou\[C]leur en la \[D7]nuit qui s'é\[G]teint
+    \[F]Viendront d'o\[C]pales lende\[Am]mains
+    Revien\[C]dront des siècles d'\[G]or
+    Cent fois \[C]mille et mille aur\[F]ores en\[G]core
   \endverse
 
   \beginchorus
-    \[Do]Si mort a \[Lam]mors Du\[Rém]chesse Noble \[Sol]Dame
-    \[Fa]S'il n'en se\[Do]ra plus que \[Ré7]poudre de \[Sol]corps
-    \[Fa]Dorme son \[Do]cœur bordé d'\[Lam]or
-    Revien\[Do]dront des siècles d'\[Sol]or
-    Cent fois \[Do]mille et mille aur\[Fa]ores en\[Sol]core
+    \[C]Si mort a \[Am]mors Du\[Dm]chesse Noble \[G]Dame
+    \[F]S'il n'en se\[C]ra plus que \[D7]poudre de \[G]corps
+    \[F]Dorme son \[C]cœur bordé d'\[Am]or
+    Revien\[C]dront des siècles d'\[G]or
+    Cent fois \[C]mille et mille aur\[F]ores en\[G]core
   \endchorus
 
   \beginverse

@@ -5,22 +5,22 @@
 
   \cover
   %verse
-  \gtab{Dom}{3:X02210}
-  \gtab{Fam}{1:022000}
-  \gtab{Mi&}{6:X02220}
-  \gtab{Sol}{3:022100}
+  \gtab{Cm}{3:X02210}
+  \gtab{Fm}{1:022000}
+  \gtab{E&}{6:X02220}
+  \gtab{G}{3:022100}
   %chorus
-  \gtab{Fam*}{8:X02210}
-  \gtab{Si&}{6:022100}
-  \gtab{Do}{8:022100}
-  \gtab{Dom*}{8:022000}
+  \gtab{Fm*}{8:X02210}
+  \gtab{B&}{6:022100}
+  \gtab{C}{8:022100}
+  \gtab{Cm*}{8:022000}
 
   \beginverse
-    \[Dom]Plusieurs indices m'ont mis la puce à l'oreille
-    J'ouvre l'\[Fam]œil
-    J'vais \[Dom]faire une enquête pour en avoir le cœur net
-    \[Fam]Ça m'inquiète
-    \[Mi&]Y'a des dé\[Sol]tails \[Dom]qui trompent pas
+    \[Cm]Plusieurs indices m'ont mis la puce à l'oreille
+    J'ouvre l'\[Fm]œil
+    J'vais \[Cm]faire une enquête pour en avoir le cœur net
+    \[Fm]Ça m'inquiète
+    \[E&]Y'a des dé\[G]tails \[Cm]qui trompent pas
   \endverse
 
   \beginverse
@@ -33,10 +33,10 @@
   \endverse
 
   \beginchorus
-    \[Fam*]Deux brosses à \[Si&]dents \[Mi&]dans la salle de \[Do]bain
-    Du \[Fam*]savon, sans \[Si&]savon, et le sèche-\[Mi&]cheveux ? C'est certainement pas le \[Sol]mien
-    \[Do]Des petites boules bi\[Fam*]zarres pour par\[Sol]fumer la bai\[Dom*]gnoire
-    \[Do]C'est un vrai cauche\[Fam*]mar : quelqu'un a \[Mi&]massacré tous \[Sol]mes amis ca\[Dom]fards !
+    \[Fm*]Deux brosses à \[B&]dents \[E&]dans la salle de \[C]bain
+    Du \[Fm*]savon, sans \[B&]savon, et le sèche-\[E&]cheveux ? C'est certainement pas le \[G]mien
+    \[C]Des petites boules bi\[Fm*]zarres pour par\[G]fumer la bai\[Cm*]gnoire
+    \[C]C'est un vrai cauche\[Fm*]mar : quelqu'un a \[E&]massacré tous \[G]mes amis ca\[Cm]fards !
   \endchorus
 
   \beginverse

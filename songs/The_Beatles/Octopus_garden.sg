@@ -5,26 +5,26 @@
 
   \cover
   \capo{4}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Do]I'd like to be \[Lam]under the sea
-    In an \[Fa]Octopus's Garden, in the \[Sol]shade
-    \[Do]He'd let us in, \[Lam]knows where we've been
-    In his \[Fa]Octopus's \[Sol]Garden, in the \[Do]shade
+    \[C]I'd like to be \[Am]under the sea
+    In an \[F]Octopus's Garden, in the \[G]shade
+    \[C]He'd let us in, \[Am]knows where we've been
+    In his \[F]Octopus's \[G]Garden, in the \[C]shade
   \endverse
 
   \beginverse*
-    \[Lam]I'd ask my friends to come and see
-    An \[Fa]Octopus's \[Sol]Garden with me
+    \[Am]I'd ask my friends to come and see
+    An \[F]Octopus's \[G]Garden with me
   \endverse
 
   \beginchorus
-    \[Do]I'd like to be \[Lam]under the sea
-    In an \[Fa]Octopus's \[Sol]Garden in the \[Do]shade
+    \[C]I'd like to be \[Am]under the sea
+    In an \[F]Octopus's \[G]Garden in the \[C]shade
   \endchorus
 
   \beginverse

@@ -5,16 +5,16 @@
 
   \cover
   \capo{4}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Mim}{022000}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{Em}{022000}
 
 
   \beginverse
-    Oh the \[Lam]wind whistles down
-    The \[Fa]cold dark street tonight
-    And the \[Do]people they were dancing \[Mim]to the music vibe
+    Oh the \[Am]wind whistles down
+    The \[F]cold dark street tonight
+    And the \[C]people they were dancing \[Em]to the music vibe
   \endverse
 
   \beginverse*
@@ -24,9 +24,9 @@
   \endverse
 
   \beginchorus
-    And you're singing the \[Lam]songs thinking this is the life
-    And you wake up in the \[Fa]morning and your head feels twice the size
-    Where you gonna go, \[Do]where you gonna go, where you gonna sleep \[Mim]tonight?
+    And you're singing the \[Am]songs thinking this is the life
+    And you wake up in the \[F]morning and your head feels twice the size
+    Where you gonna go, \[C]where you gonna go, where you gonna sleep \[Em]tonight?
     \rep{2}
   \endchorus
 

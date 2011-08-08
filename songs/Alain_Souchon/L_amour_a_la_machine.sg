@@ -4,16 +4,16 @@
   [by=Alain Souchon,cov=c-est-deja-ca,album=C'est déjà ça]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
 
   \beginchorus
-    Pa\[Mim]ssez notre amour \[Ré]à la machine \[Mim Ré]
-    Faites \[Mim]bouillir \[Ré]
-    Pour \[Mim]voir si les cou\[Ré]leurs d'origine \[Mim Ré]
-    Peuvent reve\[Mim]nir \[Ré]
+    Pa\[Em]ssez notre amour \[D]à la machine \[Em D]
+    Faites \[Em]bouillir \[D]
+    Pour \[Em]voir si les cou\[D]leurs d'origine \[Em D]
+    Peuvent reve\[Em]nir \[D]
   \endchorus
 
   \beginchorus
@@ -24,10 +24,10 @@
   \endchorus
 
   \beginverse
-    Pour \[Do]retrouver le rose ini\[Sol]tial
-    De ta \[Mim]joue \[Do]devenue \[Sol]pâle
-    Le \[Do]bleu de nos baisers du dé\[Sol]but
-    Tant d'a\[Mim]zur \[Do]per\[Sol]du
+    Pour \[C]retrouver le rose ini\[G]tial
+    De ta \[Em]joue \[C]devenue \[G]pâle
+    Le \[C]bleu de nos baisers du dé\[G]but
+    Tant d'a\[Em]zur \[C]per\[G]du
   \endverse
 
   \beginverse

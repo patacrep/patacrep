@@ -4,29 +4,29 @@
   [by=Maxime Le Forestier,cov=le-steak,album=Le steak]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Sim}{2:X02210}
-  \gtab{Do}{X32010}
-  \gtab{La}{X02220}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Sol}{320003}
-  \gtab{Solm}{3:022000}
-  \gtab{Mi}{022100}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{A}{X02220}
+  \gtab{F#m}{2:022000}
+  \gtab{G}{320003}
+  \gtab{Gm}{3:022000}
+  \gtab{E}{022100}
 
   \beginverse
-    \[Ré]Si le steak qui te résiste
-    Est meilleur qu'mes chansons \[Sim]tristes
-    Si tu \[Ré]es venu pour \[Do]lui \[La]
-    Faudrait \[Ré]pas que je t'em\[Sim]pêche
-    De di\[Ré]gérer ta viande \[Sim]fraîche
-    Au prix \[Ré]où ça se paye \[Fa#m]ici \[La]
+    \[D]Si le steak qui te résiste
+    Est meilleur qu'mes chansons \[Bm]tristes
+    Si tu \[D]es venu pour \[C]lui \[A]
+    Faudrait \[D]pas que je t'em\[Bm]pêche
+    De di\[D]gérer ta viande \[Bm]fraîche
+    Au prix \[D]où ça se paye \[F#m]ici \[A]
   \endverse
 
   \beginchorus
-    Fais deux \[Ré]boules de pain pa\[Sol]reilles
-    Mets-les \[Solm]toi dans les or\[Ré]eilles
-    Fais comme \[Sim]si j'étais pas \[Mi]là
-    \[La]Je ne chante pas pour \[Ré]toi
+    Fais deux \[D]boules de pain pa\[G]reilles
+    Mets-les \[Gm]toi dans les or\[D]eilles
+    Fais comme \[Bm]si j'étais pas \[E]là
+    \[A]Je ne chante pas pour \[D]toi
   \endchorus
 
   \beginverse

@@ -4,25 +4,25 @@
   [by=Les Ogres de Barback,cov=rue-du-temps,album=Rue du temps]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
 
 
   \beginverse
-    \[Do]Dans une rue de Pa\[Sol]nam
-    Errant \[Do]au bord de l'\[Sol]eau
-    J'\[Do]fumais mon Amster\[Sol]dam
-    Pour fi\[Do]nir au bis\[Sol]trot
+    \[C]Dans une rue de Pa\[G]nam
+    Errant \[C]au bord de l'\[G]eau
+    J'\[C]fumais mon Amster\[G]dam
+    Pour fi\[C]nir au bis\[G]trot
   \endverse
 
   \beginverse*
-    \[Lam]Y'avait là deux-trois \[Mim]femmes
-    \[Lam]Qui faisaient le ta\[Mim]pin
-    \[Lam]Moi j'aiguisais ma \[Mim]lame
-    Pour plan\[Fa]ter les ru\[Sol]pins
+    \[Am]Y'avait là deux-trois \[Em]femmes
+    \[Am]Qui faisaient le ta\[Em]pin
+    \[Am]Moi j'aiguisais ma \[Em]lame
+    Pour plan\[F]ter les ru\[G]pins
   \endverse
 
   \beginverse

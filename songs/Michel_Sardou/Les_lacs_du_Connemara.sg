@@ -4,102 +4,102 @@
   [by=Michel Sardou, cov=les-grandes-chansons,album=Les grandes chansons]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Si&}{1:X02220}
-  \gtab{Do}{332010}
-  \gtab{Rém}{XX0231}
-  \gtab{Solm}{1:022000}
-  \gtab{Ré7}{XX0212}
-  \gtab{Solm7}{1:022030}
-  \gtab{Sol#}{3:022100}
-  \gtab{Do#}{1:X32010}
-  \gtab{Mi&}{3:X32010}
-  \gtab{Fam}{1:022000}
-  \gtab{Fa7}{1:022130}
-  \gtab{Si&m}{1:X02210}
-  \gtab{Si7}{X21202}
-  \gtab{Mi}{022100}
-  \gtab{Do#7}{1:032000}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Sol#7}{4:020100}
-  \gtab{Do#m}{4:X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
-  \gtab{La}{X02220}
-  \gtab{Sim}{2:X02210}
-  \gtab{Mim}{022000}
-  \gtab{Si&7}{1:X02020}
-  \gtab{Mi&m}{001342}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+  \gtab{C}{332010}
+  \gtab{Dm}{XX0231}
+  \gtab{Gm}{1:022000}
+  \gtab{D7}{XX0212}
+  \gtab{Gm7}{1:022030}
+  \gtab{G#}{3:022100}
+  \gtab{C#}{1:X32010}
+  \gtab{E&}{3:X32010}
+  \gtab{Fm}{1:022000}
+  \gtab{F7}{1:022130}
+  \gtab{B&m}{1:X02210}
+  \gtab{B7}{X21202}
+  \gtab{E}{022100}
+  \gtab{C#7}{1:032000}
+  \gtab{F#m}{2:022000}
+  \gtab{G#7}{4:020100}
+  \gtab{C#m}{4:X02210}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{B&7}{1:X02020}
+  \gtab{E&m}{001342}
 
 
   \beginverse
-    \[Fa]Terre brûlée, au vent des \[Si&]landes de \[Fa]pierre
-    Autour des lacs, c'est \[Do]pour les vi\[Rém]vants
-    Un peu d'enfer le Connema\[Do]ra
-    \[Solm]Des nuages noirs qui \[Ré7]viennent du \[Solm]nord
-    Colorent la terre, les \[Ré7]lacs les ri\[Solm]vières
-    C'est le décor du Connema\[Do]ra
+    \[F]Terre brûlée, au vent des \[B&]landes de \[F]pierre
+    Autour des lacs, c'est \[C]pour les vi\[Dm]vants
+    Un peu d'enfer le Connema\[C]ra
+    \[Gm]Des nuages noirs qui \[D7]viennent du \[Gm]nord
+    Colorent la terre, les \[D7]lacs les ri\[Gm]vières
+    C'est le décor du Connema\[C]ra
   \endverse
 
   \beginverse*
-    \[Fa]Au printemps suivant le \[Si&]ciel irlan\[Fa]dais
-    Était en paix Mau\[Do]reen a plon\[Rém]gé
-    Nue dans un lac du Connema\[Do]ra \[Ré7]
-    \[Solm]Sean Kelly s'est dit, je \[Ré7]suis catho\[Solm]lique
-    Maureen aussi, l'é\[Ré7]glise en gra\[Solm]nit
-    De \[Ré7]Lime\[Solm]rick, Mau\[Solm7]reen a dit \[Do]oui
+    \[F]Au printemps suivant le \[B&]ciel irlan\[F]dais
+    Était en paix Mau\[C]reen a plon\[Dm]gé
+    Nue dans un lac du Connema\[C]ra \[D7]
+    \[Gm]Sean Kelly s'est dit, je \[D7]suis catho\[Gm]lique
+    Maureen aussi, l'é\[D7]glise en gra\[Gm]nit
+    De \[D7]Lime\[Gm]rick, Mau\[Gm7]reen a dit \[C]oui
   \endverse
 
   \beginverse*
-    \[Sol#]De Tipperrary Ba\[Do#]lly Connelly
-    Et de Galway, ils \[Mi&]sont arri\[Fam]vés
-    Dans le comté du Connema\[Mi&]ra \[Fa7]
-    \[Si&m]Y'avait les Connor les \[Fa7]O'Cono\[Si&m]lly
-    Les Flaherty du \[Fa7]Ring of Ke\[Si&m]rry
-    Et de quoi boire trois jours et deux \[Mi&]nuits \[Si7]
+    \[G#]De Tipperrary Ba\[C#]lly Connelly
+    Et de Galway, ils \[E&]sont arri\[Fm]vés
+    Dans le comté du Connema\[E&]ra \[F7]
+    \[B&m]Y'avait les Connor les \[F7]O'Cono\[B&m]lly
+    Les Flaherty du \[F7]Ring of Ke\[B&m]rry
+    Et de quoi boire trois jours et deux \[E&]nuits \[B7]
   \endverse
 
   \beginchorus
-    Là-\[Mi]bas, au Connema\[Do#7]ra
-    On \[Fa#m]sait tout le prix du si\[Mi]lence \[Si7]
-    Là-\[Sol#7]bas, \[Do#m]au Connema\[Sol#]ra
-    On dit que la \[La]vie, c'est une fo\[Sol#]lie
-    \[Do#m]Et que la fo\[Fa#m]lie, ça se \[Mi]dan\[Si7]se
+    Là-\[E]bas, au Connema\[C#7]ra
+    On \[F#m]sait tout le prix du si\[E]lence \[B7]
+    Là-\[G#7]bas, \[C#m]au Connema\[G#]ra
+    On dit que la \[A]vie, c'est une fo\[G#]lie
+    \[C#m]Et que la fo\[F#m]lie, ça se \[E]dan\[B7]se
   \endchorus
 
   \beginverse*
-    \[Ré]Terre brûlée, au vent des\[Sol]landes de \[Ré]pierre
-    Autour des lacs, c'est \[La]pour les vi\[Sim]vants
-    Un peu d'enfer le Connema\[La]ra
-    \[Mim]Des nuages noirs qui \[Si7]viennent du \[Mim]nord
-    Colorent la terre, les \[Si7]lacs les ri\[Mim]vières
-    C'est le décor du Connema\[La]ra
+    \[D]Terre brûlée, au vent des\[G]landes de \[D]pierre
+    Autour des lacs, c'est \[A]pour les vi\[Bm]vants
+    Un peu d'enfer le Connema\[A]ra
+    \[Em]Des nuages noirs qui \[B7]viennent du \[Em]nord
+    Colorent la terre, les \[B7]lacs les ri\[Em]vières
+    C'est le décor du Connema\[A]ra
   \endverse
 
   \beginverse*
-    \[Ré]On y vit encore au \[Sol]temps des Ga\[Ré]els
-    Et de Cromwell, au \[La]rythme des \[Sim]pluies
-    Et du soleil, au pas des che\[La]vaux \[Si7]
-    \[Mim]On y croit encore aux \[Si7]monstres des \[Mim]lacs
-    Qu'on voit nager cer\[Si7]tains soirs d'é\[Mim]té
-    Et \[Si7]replon\[Mim]ger pour l'éterni\[La]té
+    \[D]On y vit encore au \[G]temps des Ga\[D]els
+    Et de Cromwell, au \[A]rythme des \[Bm]pluies
+    Et du soleil, au pas des che\[A]vaux \[B7]
+    \[Em]On y croit encore aux \[B7]monstres des \[Em]lacs
+    Qu'on voit nager cer\[B7]tains soirs d'é\[Em]té
+    Et \[B7]replon\[Em]ger pour l'éterni\[A]té
   \endverse
 
   \beginverse*
-    \[Fa]On y voit encore des \[Si&]hommes d'aill\[Fa]eurs
-    Venus chercher le \[Do]repos de \[Rém]l'âme
-    Et pour le cœur un goût de meill\[Do]eur \[Ré7]
-    \[Solm]On y croit encore que \[Ré7]le jour vien\[Solm]dra
-    Il est tout près, où \[Ré7]les Irlan\[Solm]dais
-    Feront la paix autour de la \[Do]croix \[Sol#7]
+    \[F]On y voit encore des \[B&]hommes d'aill\[F]eurs
+    Venus chercher le \[C]repos de \[Dm]l'âme
+    Et pour le cœur un goût de meill\[C]eur \[D7]
+    \[Gm]On y croit encore que \[D7]le jour vien\[Gm]dra
+    Il est tout près, où \[D7]les Irlan\[Gm]dais
+    Feront la paix autour de la \[C]croix \[G#7]
   \endverse
 
   \beginchorus
-    Là-\[Do#]bas, au Connema\[Si&7]ra
-    On \[Mi&m]sait tout le prix de la \[Do#]guerre \[Sol#7]
-    Là-\[Fa7]bas, \[Si&m]au Connema\[Fa]ra
-    On n'accepte \[Fa#]pas, la paix des Ga\[Fa]llois
-    \[Si&m]Ni celle des \[Mi&m]rois d'Angle\[Do#]te\[Sol#7]rre
+    Là-\[C#]bas, au Connema\[B&7]ra
+    On \[E&m]sait tout le prix de la \[C#]guerre \[G#7]
+    Là-\[F7]bas, \[B&m]au Connema\[F]ra
+    On n'accepte \[F#]pas, la paix des Ga\[F]llois
+    \[B&m]Ni celle des \[E&m]rois d'Angle\[C#]te\[G#7]rre
   \endchorus
 
 \endsong

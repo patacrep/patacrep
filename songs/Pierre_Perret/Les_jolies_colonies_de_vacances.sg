@@ -4,26 +4,26 @@
   [by=Pierre Perret,cov=pierrot-a-l-olympia,album=Pierrot à l'Olympia]
 
   \cover
-  \gtab{Do}{3:X02220}
-  \gtab{Sol}{3:02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Mi&}{6:X02220}
-  \gtab{Si&}{6:022100}
-  \gtab{Dom}{3:X02210}
-  \gtab{Fam}{8:X02210}
+  \gtab{C}{3:X02220}
+  \gtab{G}{3:02210}
+  \gtab{Dm}{XX0231}
+  \gtab{E&}{6:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{Cm}{3:X02210}
+  \gtab{Fm}{8:X02210}
 
   \beginchorus
-    \[Do]Les jolies colonies de vacances
-    Merci maman, merci \[Sol]papa
-    Tous les \[Rém]ans je voud\[Sol]rais qu'ça r'comm\[Do]ence
-    Youka\[Sol]ïdi aïdi aï\[Do]da
+    \[C]Les jolies colonies de vacances
+    Merci maman, merci \[G]papa
+    Tous les \[Dm]ans je voud\[G]rais qu'ça r'comm\[C]ence
+    Youka\[G]ïdi aïdi aï\[C]da
   \endchorus
 
   \beginverse
-    J'\[Mi&]vous écris une petite ba\[Si&]fouille
-    \[Dom]Pour pas qu'vous vous fassiez d'mour\[Sol]on
-    \[Dom]Ici on \[Si&]est aux p'tits oign\[Mi&]ons
-    J'ai que huit \[Fam]ans mais je m'débr\[Sol]ouille
+    J'\[E&]vous écris une petite ba\[B&]fouille
+    \[Cm]Pour pas qu'vous vous fassiez d'mour\[G]on
+    \[Cm]Ici on \[B&]est aux p'tits oign\[E&]ons
+    J'ai que huit \[Fm]ans mais je m'débr\[G]ouille
   \endverse
 
   \beginverse*

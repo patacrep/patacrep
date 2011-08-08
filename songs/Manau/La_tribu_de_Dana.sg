@@ -4,18 +4,18 @@
   [by=Manau,cov=panique-celtique,album=Panique celtique]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Mim}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
 
   \lilypond{La_tribu_de_Dana}
 
   \beginverse
-    Le vent \[Lam]souffle sur les plaines de \[Sol]la Bretagne armoricaine
-    Je \[Fa]jette un dernier regard sur ma \[Mim]femme, mon fils et mon domaine
-    \[Lam] Akim, le fils du forge\[Sol]ron est venu me chercher
-    \[Fa] Les druides ont décidé de \[Mim]mener le combat dans la val\[Lam]lée
+    Le vent \[Am]souffle sur les plaines de \[G]la Bretagne armoricaine
+    Je \[F]jette un dernier regard sur ma \[Em]femme, mon fils et mon domaine
+    \[Am] Akim, le fils du forge\[G]ron est venu me chercher
+    \[F] Les druides ont décidé de \[Em]mener le combat dans la val\[Am]lée
   \endverse
 
   \beginverse*
@@ -40,10 +40,10 @@
   \endverse
 
   \beginchorus
-    Dans la val\[Lam]lée \echo{oh \[Sol]oh}
-    De Da\[Fa]na \echo{la li la \[Mim]la}
-    Dans la val\[Lam]lée \echo{oh \[Sol]oh}
-    J'ai pu en\[Fa]tendre \[Mim]les é\[Lam]chos
+    Dans la val\[Am]lée \echo{oh \[G]oh}
+    De Da\[F]na \echo{la li la \[Em]la}
+    Dans la val\[Am]lée \echo{oh \[G]oh}
+    J'ai pu en\[F]tendre \[Em]les é\[Am]chos
   \endchorus
 
   \beginchorus

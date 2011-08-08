@@ -4,23 +4,23 @@
   [by=La Rue Kétanou,cov=en-attendant-les-caravanes,album=En attendant les caravanes]
 
   \cover
-  \gtab{Fam}{8:X02210}
-  \gtab{La&}{4:022100}
-  \gtab{Si&m}{6:022000}
-  \gtab{Do#}{4:X02220}
-  \gtab{Ré#}{6:X02220}
+  \gtab{Fm}{8:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{B&m}{6:022000}
+  \gtab{C#}{4:X02220}
+  \gtab{D#}{6:X02220}
 
   \beginchorus
-    \[Fam]C'est pas nous qui sommes à la rue
-    C'est la rue qu'est à \[La&]nous
-    \[Si&m]Nao son en que son da rua
-    É a rua que é nossa \[Do# Ré#]
+    \[Fm]C'est pas nous qui sommes à la rue
+    C'est la rue qu'est à \[A&]nous
+    \[B&m]Nao son en que son da rua
+    É a rua que é nossa \[C# D#]
   \endchorus
 
 
   \beginverse
-    \[Fam]Crevons la sourde oreille\[La&]
-    En a\[Si&m]vant la musique
+    \[Fm]Crevons la sourde oreille\[A&]
+    En a\[B&m]vant la musique
     Chauffe, chauffe, chauffe le soleil
     Souffle un vent de panique
   \endverse

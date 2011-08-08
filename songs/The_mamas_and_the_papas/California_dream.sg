@@ -5,24 +5,24 @@
 
   \cover
   \capo{4}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Mi7}{020100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{E7}{020100}
 
   \beginverse
-    All the leaves are \[Lam]brown\[Sol] \[Fa]
-    And the \[Sol]sky is \[Mi7]gray
-    \[Fa]I've been for a \[Do]walk\[Sol] \[Lam]
-    On a \[Fa]winter's \[Mi7]day
+    All the leaves are \[Am]brown\[G] \[F]
+    And the \[G]sky is \[E7]gray
+    \[F]I've been for a \[C]walk\[G] \[Am]
+    On a \[F]winter's \[E7]day
   \endverse
 
   \beginverse
-    I'd be safe and \[Lam]warm\[Sol] \[Fa]
-    If I \[Sol]was in L.\[Mi7]A
-    California \[Lam]dreaming\[Sol] \[Fa]
-    On \[Sol]such a winter's \[Mi7]day
+    I'd be safe and \[Am]warm\[G] \[F]
+    If I \[G]was in L.\[E7]A
+    California \[Am]dreaming\[G] \[F]
+    On \[G]such a winter's \[E7]day
   \endverse
 
   \beginverse
@@ -49,10 +49,10 @@
   \beginverse
     If I didn't tell her
     I could leave today
-    California \[Lam]dreaming\[Sol] \[Fa]
-    On \[Sol]such a winter's \[Mi7]day\[Fa]
-    On \[Sol]such a winter's \[Lam]day\[Sol] \[Fa]
-    On \[Sol]such a winter's \[Fa]day\[Lam]
+    California \[Am]dreaming\[G] \[F]
+    On \[G]such a winter's \[E7]day\[F]
+    On \[G]such a winter's \[Am]day\[G] \[F]
+    On \[G]such a winter's \[F]day\[Am]
   \endverse
 
 \endsong

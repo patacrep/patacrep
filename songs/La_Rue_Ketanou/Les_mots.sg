@@ -4,9 +4,9 @@
   [by=La Rue Kétanou,cov=en-attendant-les-caravanes,album=En attendant les caravanes]
 
   \cover
-  \gtab{Solm}{3:022000}
-  \gtab{Rém}{5:X02210}
-  \gtab{La7}{5:020100}
+  \gtab{Gm}{3:022000}
+  \gtab{Dm}{5:X02210}
+  \gtab{A7}{5:020100}
 
   \textnote{parlé}
   \beginverse*
@@ -18,15 +18,15 @@
   \endverse
 
   \beginverse*
-    Un mot pour \[Solm]tous, tous pour un \[Rém]mot
-    Un mot pour \[La7]tous, tous pour un \[Rém]mot
+    Un mot pour \[Gm]tous, tous pour un \[Dm]mot
+    Un mot pour \[A7]tous, tous pour un \[Dm]mot
   \endverse
 
   \beginverse
-    Des gros \[Solm]mots, pour les gros\[Rém]sistes
-    Des mots de \[La7]tête, pour les charla\[Rém]tans
-    Des jeux de \[Solm]mots, pour les ar\[Rém]tistes
-    Des mots d'a\[La7]mour, pour les a\[Rém]mants
+    Des gros \[Gm]mots, pour les gros\[Dm]sistes
+    Des mots de \[A7]tête, pour les charla\[Dm]tans
+    Des jeux de \[Gm]mots, pour les ar\[Dm]tistes
+    Des mots d'a\[A7]mour, pour les a\[Dm]mants
   \endverse
 
   \beginverse*
@@ -37,12 +37,12 @@
   \endverse
 
   \beginchorus
-    Aujourd'\[Solm]hui grande vente aux enchères
-    On achète des mots d'occa\[Rém]sion
-    Des mots à \[La7]la page et pas chers
-    Et puis des mots de collec\[Rém]tion
-    Un mot pour \[Solm]tous, tous pour un \[Rém]mot
-    Un mot pour \[La7]tous, tous pour un \[Rém]mot
+    Aujourd'\[Gm]hui grande vente aux enchères
+    On achète des mots d'occa\[Dm]sion
+    Des mots à \[A7]la page et pas chers
+    Et puis des mots de collec\[Dm]tion
+    Un mot pour \[Gm]tous, tous pour un \[Dm]mot
+    Un mot pour \[A7]tous, tous pour un \[Dm]mot
   \endchorus
 
   \beginverse

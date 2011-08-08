@@ -5,19 +5,19 @@
 
   \cover
   \capo{2}
-  \gtab{Mim}{022000}
-  \gtab{Si7}{X21202}
-  \gtab{Lam}{X02210}
-  \gtab{Lam7}{X02010}
-  \gtab{Ré7}{XX0212}
-  \gtab{SolMaj7}{320002}
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+  \gtab{Am}{X02210}
+  \gtab{Am7}{X02010}
+  \gtab{D7}{XX0212}
+  \gtab{GMaj7}{320002}
 
   \beginverse
-    \[Mim]Este amor llega \[Si7]asi esta ma\[Mim]nera
-    No tiene la \[Si7]culpa
+    \[Em]Este amor llega \[B7]asi esta ma\[Em]nera
+    No tiene la \[B7]culpa
     Caballo le ven sabana
     Porque muy depreciado
-    Por eso no te per\[Mim]dón de llorar
+    Por eso no te per\[Em]dón de llorar
   \endverse
 
   \beginverse*
@@ -29,17 +29,17 @@
   \endverse
 
   \beginchorus
-    Bambo\[Mim]leo, bambo\[Lam]lea
-    Porque mi \[Si7]vida, yo la prefiero vivir \[Mim]así
+    Bambo\[Em]leo, bambo\[Am]lea
+    Porque mi \[B7]vida, yo la prefiero vivir \[Em]así
     \rep{2}
   \endchorus
 
   \beginverse
-    No tiene pardon de \[Lam7]dios
-    Tu eres mi \[Ré7]vida, la fortuna del des\[SolMaj7]tino
-    Pero el des\[Do]tino tendressa \[Lam]para dos
-    Lo mismo yo que \[Si7]ayer
-    Lo mismo soy \[Mim]yo
+    No tiene pardon de \[Am7]dios
+    Tu eres mi \[D7]vida, la fortuna del des\[GMaj7]tino
+    Pero el des\[C]tino tendressa \[Am]para dos
+    Lo mismo yo que \[B7]ayer
+    Lo mismo soy \[Em]yo
   \endverse
 
   \beginverse*

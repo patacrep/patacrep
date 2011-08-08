@@ -5,22 +5,22 @@
 
   \cover
   \capo{5}
-  \gtab{Do}{X32010}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Mi}{022100}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
 
   \beginverse
-    Moi \[Do]{je n'étais} rien mais voilà qu'aujourd'hui
-    Je \[Mim]suis le gardien du sommeil de ses nuits
-    Je l'aime à \[Lam]mourir
-    Vous \[Rém]pouvez détruire tout ce qui vous plaira
-    Elle \[Fa]n'a qu'à ouvrir l'espace \[Sol]de ses bras
-    Pour tout re\[Do]construire, pour tout reconstruire
-    Je l'aime à \[Lam]mourir
+    Moi \[C]{je n'étais} rien mais voilà qu'aujourd'hui
+    Je \[Em]suis le gardien du sommeil de ses nuits
+    Je l'aime à \[Am]mourir
+    Vous \[Dm]pouvez détruire tout ce qui vous plaira
+    Elle \[F]n'a qu'à ouvrir l'espace \[G]de ses bras
+    Pour tout re\[C]construire, pour tout reconstruire
+    Je l'aime à \[Am]mourir
   \endverse
 
   \beginverse
@@ -34,10 +34,10 @@
   \endverse
 
   \beginchorus
-    Elle a dû \[Mi]faire toute les \[Do]guerres
-    \[Sol]Pour être si forte \[Do]aujourd'hui
-    Elle a dû \[Mi]faire toutes les \[Lam]guerres
-    \[Fa]De la vie \dots et l'a\[Do]mour aussi
+    Elle a dû \[E]faire toute les \[C]guerres
+    \[G]Pour être si forte \[C]aujourd'hui
+    Elle a dû \[E]faire toutes les \[Am]guerres
+    \[F]De la vie \dots et l'a\[C]mour aussi
   \endchorus
 
   \beginverse

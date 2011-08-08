@@ -4,25 +4,25 @@
   [by=Les Cowboys Fringants,cov=l-expedition,album=L'expédition]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Solm}{3:022000}
-  \gtab{Sol}{320003}
-  \gtab{Si&}{1:X02220}
-  \gtab{Rém}{XX0231}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{Gm}{3:022000}
+  \gtab{G}{320003}
+  \gtab{B&}{1:X02220}
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
 
   \beginchorus
-    Prépare-\[Do]toi, petit gar\[Solm]çon
-    Elle s'ra \[Rém]longue l'expédi\[Do]tion
-    Et même \[Sol]si on n'en revient jamais vi\[Si&]vant
-    Il faut \[Do]marcher droit de\[Rém]vant
+    Prépare-\[C]toi, petit gar\[Gm]çon
+    Elle s'ra \[Dm]longue l'expédi\[C]tion
+    Et même \[G]si on n'en revient jamais vi\[B&]vant
+    Il faut \[C]marcher droit de\[Dm]vant
   \endchorus
 
   \lilypond{Droit_devant-1}
 
   \beginverse
-    \[Rém]Quand il était haut comme 3 pommes
-    Et qu'il n'était qu'un tout petit bon\[Do]homme\[Lam]
+    \[Dm]Quand il était haut comme 3 pommes
+    Et qu'il n'était qu'un tout petit bon\[C]homme\[Am]
     On le poussa hors du berceau
     Lui mettant un baluchon sur le dos
     Le bagage vide d'expérience

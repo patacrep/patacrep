@@ -4,27 +4,27 @@
   [by=Les Ogres de Barback,cov=pitt-ocha-2,album=Pitt Ocha au pays des mille collines]
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{La}{X02220}
-  \gtab{Fa#}{2:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{X02220}
+  \gtab{F#}{2:022100}
 
   \beginverse
-    \[Sim]Le cœur plein de joie
-    \[La]Sous les é\[Fa#]toiles en fête
-    \[Sim]Danse Pitt Ocha
-    \[La]En chantant \[Fa#]à tue-tête
+    \[Bm]Le cœur plein de joie
+    \[A]Sous les é\[F#]toiles en fête
+    \[Bm]Danse Pitt Ocha
+    \[A]En chantant \[F#]à tue-tête
   \endverse
 
   \beginverse*
-    \[Sim]{L'avenir} est évident
-    \[Fa#]Dans les yeux de nos enfants
-    \[La]La liberté nous sourit
-    \[Fa#]Sous le ciel de Mongolie
+    \[Bm]{L'avenir} est évident
+    \[F#]Dans les yeux de nos enfants
+    \[A]La liberté nous sourit
+    \[F#]Sous le ciel de Mongolie
   \endverse
 
   \beginchorus
-    C'est \[Sim]bumbaïa, \[La]bumbaïa
-    Bumbaïa \[Fa#]plein de \[Sim]joie
+    C'est \[Bm]bumbaïa, \[A]bumbaïa
+    Bumbaïa \[F#]plein de \[Bm]joie
   \endchorus
 
   \beginverse

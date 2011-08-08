@@ -4,27 +4,27 @@
   [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
 
   \cover
-  \gtab{Do}{332010}
-  \gtab{Sol7}{320001}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
+  \gtab{C}{332010}
+  \gtab{G7}{320001}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
 
   \beginverse
-    \[Do]L'épervier il faut le \[Sol7]dire
-    Est petit mais bien vo\[Do]leur
-    \[Do]L'épervier il faut le \[Sol7]dire
-    Est le pire des men\[Do]teurs
-    Quand il \[Sol]monte \[Fa]dans le \[Mi]ciel
-    Prenez garde, demoi\[Lam]selle !
+    \[C]L'épervier il faut le \[G7]dire
+    Est petit mais bien vo\[C]leur
+    \[C]L'épervier il faut le \[G7]dire
+    Est le pire des men\[C]teurs
+    Quand il \[G]monte \[F]dans le \[E]ciel
+    Prenez garde, demoi\[Am]selle !
   \endverse
 
   \beginchorus
-    L'épervier, piou, \[Mi]piou
-    L'épervier, pao, \[Lam]pao
-    L'épervier, piou, \[Mi]piou
-    L'épervier, pao, \[Lam]pao
+    L'épervier, piou, \[E]piou
+    L'épervier, pao, \[Am]pao
+    L'épervier, piou, \[E]piou
+    L'épervier, pao, \[Am]pao
   \endchorus
 
 

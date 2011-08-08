@@ -5,37 +5,37 @@
 
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
 
 
   \beginverse
-    \[Sol]Je ne sais pas pour vous
-    Mais pour ce qui est de \[Ré]moi
-    \[Do]Faudrait que j'\[Ré]boive un \[Sol]coup
-    \[Do]Tout ou n'im\[Ré]porte \[Sol]quoi
+    \[G]Je ne sais pas pour vous
+    Mais pour ce qui est de \[D]moi
+    \[C]Faudrait que j'\[D]boive un \[G]coup
+    \[C]Tout ou n'im\[D]porte \[G]quoi
   \endverse
 
   \beginverse*
-    Ça fe\[Do]ra bien l'aff\[Sol]aire
-    \[Ré]À force de chan\[Sol]ter
-    \[Do]De hurler \[Ré]et de \[Sol]braire
-    J'\[Do]ai besoin d'\[Ré]pico\[Sol]ler !
+    Ça fe\[C]ra bien l'aff\[G]aire
+    \[D]À force de chan\[G]ter
+    \[C]De hurler \[D]et de \[G]braire
+    J'\[C]ai besoin d'\[D]pico\[G]ler !
   \endverse
 
   \beginverse*
-    Mais qu'on \[Do]ne me serve \[Sol]pas
-    Du jus d'\[Ré]fruit ou de la \[Sol]flotte
-    \[Do]Surtout pas \[Ré]un co\[Sol]ca :
-    \[Do]Je tiens trop \[Ré]à ma \[Sol]glotte !
+    Mais qu'on \[C]ne me serve \[G]pas
+    Du jus d'\[D]fruit ou de la \[G]flotte
+    \[C]Surtout pas \[D]un co\[G]ca :
+    \[C]Je tiens trop \[D]à ma \[G]glotte !
   \endverse
 
   \beginchorus
-    \[Sol]Patron ! Y'a marée basse !
-    R'mets-moi voir la p'tite \[Ré]sœur !
-    J'\[Do]ai le go\[Ré]sier qui s'\[Sol]lasse
-    D'\[Do]êt' tout sec, \[Ré]quelle hor\[Sol]reur !
+    \[G]Patron ! Y'a marée basse !
+    R'mets-moi voir la p'tite \[D]sœur !
+    J'\[C]ai le go\[D]sier qui s'\[G]lasse
+    D'\[C]êt' tout sec, \[D]quelle hor\[G]reur !
   \endchorus
 
   \beginverse

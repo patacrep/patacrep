@@ -4,39 +4,39 @@
   [by=Renaud,cov=boucan-d-enfer,album=Boucan d'enfer]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
-  \gtab{Rém7}{XX0211}
-  \gtab{Mim}{022000}
-  \gtab{Mi*}{2:XX134X}
-  \gtab{Mi/Ré}{2:XX034X}
-  \gtab{Mi/Do}{2:X2X34X}
-  \gtab{Mi/Si}{2:X1X34X}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm7}{XX0211}
+  \gtab{Em}{022000}
+  \gtab{E*}{2:XX134X}
+  \gtab{E/D}{2:XX034X}
+  \gtab{E/C}{2:X2X34X}
+  \gtab{E/B}{2:X1X34X}
 
   %intro à faire
 
   \beginverse
-    \[Do]Petit \[Fa]Portori\[Sol]cain\[Fa]
-    \[Do]Bien inté\[Fa]gré, quasiment New \[Sol]Yorkais,\[Fa]
-    \[Do]Dans mon buil\[Fa]ding tout de verre \[Sol]et d'acier,\[Lam]
-    \[Fa]Je prends mon \[Rém7]job, un rail de \[Mi]coke, un café
+    \[C]Petit \[F]Portori\[G]cain\[F]
+    \[C]Bien inté\[F]gré, quasiment New \[G]Yorkais,\[F]
+    \[C]Dans mon buil\[F]ding tout de verre \[G]et d'acier,\[Am]
+    \[F]Je prends mon \[Dm7]job, un rail de \[E]coke, un café
   \endverse
 
   \beginverse*
-    \[Do]Peti\[Fa]te fille af\[Sol]ghane,\[Fa]
-    \[Do]De l'autre \[Fa]côté de la \[Sol]Terre,\[Fa]
-    \[Do]Jamais en\[Fa]tendu parler \[Sol]de Manhat\[Lam]tan
-    \[Mi*]Mon quoti\[Mi/Ré]dien c'est la mis\[Mi/Do]ère et la \[Mi/Si]guerre
+    \[C]Peti\[F]te fille af\[G]ghane,\[F]
+    \[C]De l'autre \[F]côté de la \[G]Terre,\[F]
+    \[C]Jamais en\[F]tendu parler \[G]de Manhat\[Am]tan
+    \[E*]Mon quoti\[E/D]dien c'est la mis\[E/C]ère et la \[E/B]guerre
   \endverse
 
   \beginchorus
-    Deux étran\[Lam]gers au bout du \[Fa]monde, si diffé\[Rém7]rents
-    \[Mi]Deux incon\[Lam]nus, deux ano\[Fa]nymes, mais pour\[Sol]tant\[Mi]
-    Pulvéri\[Lam]sés sur l'au\[Fa]tel
-    De la \[Rém7]violence éter\[Mi]nelle
+    Deux étran\[Am]gers au bout du \[F]monde, si diffé\[Dm7]rents
+    \[E]Deux incon\[Am]nus, deux ano\[F]nymes, mais pour\[G]tant\[E]
+    Pulvéri\[Am]sés sur l'au\[F]tel
+    De la \[Dm7]violence éter\[E]nelle
   \endchorus
 
   \beginverse
@@ -47,10 +47,10 @@
   \endverse
 
   \beginverse
-    \[Do]So \[Sol]long, adieu mon \[Fa]rêve améri\[Do]cain
-    \[La]Moi, \[Mim]plus jamais l'es\[Fa]clave des \[Sol]chiens
-    \[Do]Ils \[Sol]t'imposaient l'Is\[Fa]lam des ty\[Do]rans
-    \[Mi*]Ceux-là ont-\[Mi/Ré]ils jamais lu \[Mi/Do]le Coran\[Mi/Si] ?
+    \[C]So \[G]long, adieu mon \[F]rêve améri\[C]cain
+    \[A]Moi, \[Em]plus jamais l'es\[F]clave des \[G]chiens
+    \[C]Ils \[G]t'imposaient l'Is\[F]lam des ty\[C]rans
+    \[E*]Ceux-là ont-\[E/D]ils jamais lu \[E/C]le Coran\[E/B] ?
   \endverse
 
   \beginverse

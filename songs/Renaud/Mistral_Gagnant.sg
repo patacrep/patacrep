@@ -4,22 +4,22 @@
   [by=Renaud,cov=mistral-gagnant,album=Mistral gagnant]
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{Mim}{022000}
-  \gtab{La}{X02220}
-  \gtab{Ré}{XX0232}
-  \gtab{Sol}{320003}
-  \gtab{Fa#}{2:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{F#}{2:022100}
 
 
   \beginverse
-    Ah\dots m'as\[Sim]seoir sur un banc
+    Ah\dots m'as\[Bm]seoir sur un banc
     Cinq minutes avec toi
-    Et regarder les gens tant qu'y en \[Mim]a
+    Et regarder les gens tant qu'y en \[Em]a
 
-    Te par\[La]ler du bon temps
+    Te par\[A]ler du bon temps
     Qu'est mort ou qui r'viendra
-    En serrant dans ma main tes p'tits \[Ré]doigts
+    En serrant dans ma main tes p'tits \[D]doigts
 
     Puis donner à bouffer
     À des pigeons idiots
@@ -31,14 +31,14 @@
   \endverse
 
   \beginverse*
-    Te ra\[Sol]conter un peu
-    Comment j'étais mi\[Fa#]no
-    Les bonbecs fabu\[Sim]leux
+    Te ra\[G]conter un peu
+    Comment j'étais mi\[F#]no
+    Les bonbecs fabu\[Bm]leux
 
-    \[Sol]Qu'on piquait chez l'marchand
-    Car en sac et min\[Fa#]tho
-    Caramels à un \[Sim]franc
-    \[La]Et les mistrals ga\[Sol]gnants
+    \[G]Qu'on piquait chez l'marchand
+    Car en sac et min\[F#]tho
+    Caramels à un \[Bm]franc
+    \[A]Et les mistrals ga\[G]gnants
   \endverse
 
   \beginverse

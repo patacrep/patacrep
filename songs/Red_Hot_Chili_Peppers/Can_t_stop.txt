@@ -4,18 +4,18 @@
   [by=Red Hot Chili Peppers,cov=by-the-way,album=By the way]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Ré}{5:X02220}
-  \gtab{Si}{7:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{Sim}{7:022000}
+  \gtab{Em}{7:X02210}
+  \gtab{D}{5:X02220}
+  \gtab{B}{7:022100}
+  \gtab{C}{3:X02220}
+  \gtab{G}{3:022100}
+  \gtab{Bm}{7:022000}
 
   \beginverse
-    \[Mim]Can't stop addicted to the shindig
-    \[Ré]Chop top he says I'm gonna win big
-    \[Si]Choose not a life of imitation
-    \[Do]Distant cousin to the reservation
+    \[Em]Can't stop addicted to the shindig
+    \[D]Chop top he says I'm gonna win big
+    \[B]Choose not a life of imitation
+    \[C]Distant cousin to the reservation
   \endverse
 
   \beginverse*
@@ -40,9 +40,9 @@
   \endverse
 
   \beginverse
-    The \[Sol]world I love, the \[Ré]tears I've dropped
-    To \[Sim]be part of, the \[Do]wave can't stop
-    \[Sol]Ever wonder \[Ré]if it's \[Sim]all for \[Do]you
+    The \[G]world I love, the \[D]tears I've dropped
+    To \[Bm]be part of, the \[C]wave can't stop
+    \[G]Ever wonder \[D]if it's \[Bm]all for \[C]you
   \endverse
   
   \beginverse*
@@ -81,10 +81,10 @@
 
 
   \beginchorus
-    \[Mim]Wait a minute, I'm \[Ré]passing out
-    Win or \[Sim]lose, just like \[Do]you
-    \[Mim]Far more shockin' than an\[Ré]ything 
-    I ever \[Sim]knew, how 'bout \[Do]you
+    \[Em]Wait a minute, I'm \[D]passing out
+    Win or \[Bm]lose, just like \[C]you
+    \[Em]Far more shockin' than an\[D]ything 
+    I ever \[Bm]knew, how 'bout \[C]you
   \endchorus
   
   \beginchorus

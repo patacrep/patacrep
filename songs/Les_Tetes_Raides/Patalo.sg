@@ -4,18 +4,18 @@
   [by=Les Têtes Raides,cov=gratte-poil,album=Gratte poil]
 
   \cover
-  \gtab{Mi}{7:X02220}
-  \gtab{Si}{7:022100}
-  \gtab{Do#m}{4:X02210}
-  \gtab{Sol#}{4:022100}
-  \gtab{Fa#m}{2:022000}
+  \gtab{E}{7:X02220}
+  \gtab{B}{7:022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{G#}{4:022100}
+  \gtab{F#m}{2:022000}
 
 
   \beginverse
-    Y'en avait \[Mi]ras le capuchon de s'faire refi-
-    -ler de la vie à moitié prix en court boui\[Si]llon
+    Y'en avait \[E]ras le capuchon de s'faire refi-
+    -ler de la vie à moitié prix en court boui\[B]llon
     Tous les poulets du H.I.V. en transfusion
-    C'est des produits on en avait ras le \[Mi]képi
+    C'est des produits on en avait ras le \[E]képi
   \endverse
 
   \beginverse*
@@ -33,13 +33,13 @@
   \endverse
 
   \beginchorus
-    Du \[Do#m]sel dans les pâtes à l'\[Sol#]eau
-    Du beurre dans les hari\[Do#m]cots
-    De l'eau pour s'laver la \[Sol#]peau
-    Du sang pour cracher \[Do#m]des mots
-    D'la voix pour gueuler plus \[Fa#m]haut
-    Des \[Sol#]fleurs pour t'aimer \[Do#m]bientôt
-    Du ciel pour les ani\[Sol#]maux
+    Du \[C#m]sel dans les pâtes à l'\[G#]eau
+    Du beurre dans les hari\[C#m]cots
+    De l'eau pour s'laver la \[G#]peau
+    Du sang pour cracher \[C#m]des mots
+    D'la voix pour gueuler plus \[F#m]haut
+    Des \[G#]fleurs pour t'aimer \[C#m]bientôt
+    Du ciel pour les ani\[G#]maux
   \endchorus
 
   \beginverse

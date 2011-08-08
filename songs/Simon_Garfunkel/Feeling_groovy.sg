@@ -4,19 +4,19 @@
   [by=Simon \& Garfunkel,cov=the-definitive,album=The definitive]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
 
   \beginverse
-    \[Sol]Slow do\[Ré]wn, you mov\[La]e too \[Ré]fast
-    You \[Sol]got a \[Ré]make the \[La]morning \[Ré]last
-    Just \[Sol]kickin' \[Ré]down the \[La]cobbles\[Ré]tones
-    \[Sol]Lookin' for \[Ré]fun and \[La]feelin' \[Ré]groovy
+    \[G]Slow do\[D]wn, you mov\[A]e too \[D]fast
+    You \[G]got a \[D]make the \[A]morning \[D]last
+    Just \[G]kickin' \[D]down the \[A]cobbles\[D]tones
+    \[G]Lookin' for \[D]fun and \[A]feelin' \[D]groovy
   \endverse
 
   \beginchorus
-    Pa da da \[Sol]da da da \[Ré]da da da da, \[La]feelin' \[Ré]groovy
+    Pa da da \[G]da da da \[D]da da da da, \[A]feelin' \[D]groovy
   \endchorus
 
   \beginverse

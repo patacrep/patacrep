@@ -4,24 +4,24 @@
   [by=Eels,cov=shootenanny,album=Shootenanny]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
 
   \beginverse
-    \[Do]{I like} \[Sol]girl with a \[Fa]dirty mouth
-    \[Do]Someone that I can be\[Sol]lieve
-    \[Do]We had a \[Sol]window not \[Fa]open too long
-    But \[Do]that time is \[Sol]good and \[Do]gone
+    \[C]{I like} \[G]girl with a \[F]dirty mouth
+    \[C]Someone that I can be\[G]lieve
+    \[C]We had a \[G]window not \[F]open too long
+    But \[C]that time is \[G]good and \[C]gone
   \endverse
 
   \beginchorus
-    And if I ever \[Sol]see her a\[Lam]gain
-    She's walking \[Rém]{by with} some new \[Fa]guy \[Sol]
-    I know that we will \[Sol]need to pre\[Lam]tend
-    And hope our \[Rém]lives keep telling \[Fa]lies \[Sol]
+    And if I ever \[G]see her a\[Am]gain
+    She's walking \[Dm]{by with} some new \[F]guy \[G]
+    I know that we will \[G]need to pre\[Am]tend
+    And hope our \[Dm]lives keep telling \[F]lies \[G]
   \endchorus
 
   \beginverse

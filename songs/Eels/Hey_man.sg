@@ -4,16 +4,16 @@
   [by=Eels,cov=blinking-lights,album=Blinking lights]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Mim}{022000}
-  \gtab{Sim}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
 
   \beginverse
-    Do you \[Sol]know what it's like to \[Ré]fall on the floor
-    And \[Sol]cry your guts out 'til you \[Do]got no more
-    \[Sol]Hey man, \[Ré]now you're really \[Sol]living
+    Do you \[G]know what it's like to \[D]fall on the floor
+    And \[G]cry your guts out 'til you \[C]got no more
+    \[G]Hey man, \[D]now you're really \[G]living
   \endverse
 
   \beginverse
@@ -23,10 +23,10 @@
   \endverse
 
   \beginchorus
-    Now you're really \[Mim]giving every\[Sim]thing
-    And you're really \[Do]getting all you \[Sol]gave
-    How you're really \[Do]living what
-    This life is all a\[Ré]bout
+    Now you're really \[Em]giving every\[Bm]thing
+    And you're really \[C]getting all you \[G]gave
+    How you're really \[C]living what
+    This life is all a\[D]bout
   \endchorus
 
   \beginverse

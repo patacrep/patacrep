@@ -4,33 +4,33 @@
   [by=Jonathan Coulton,cov=portal,album=Portal]
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{Ré}{2:X32010}
-  \gtab{Mim}{022000}
-  \gtab{La}{X02220}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Si&}{1:X02220}
-  \gtab{Rém}{XX0231}
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{2:X32010}
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{B&}{1:X02220}
+  \gtab{Dm}{XX0231}
 
   \beginverse
-    This was a \[Ré]triumph \[Sim Ré]
-    I'm \[Sim]making a \[Ré]note here: \[Sim]huge succ\[Ré]ess \[Sim]
-    It's \[Mim]hard to over\[La]state my satis\[Ré]faction \[Sim Ré]
+    This was a \[D]triumph \[Bm D]
+    I'm \[Bm]making a \[D]note here: \[Bm]huge succ\[D]ess \[Bm]
+    It's \[Em]hard to over\[A]state my satis\[D]faction \[Bm D]
   \endverse
 
   \beginverse*
-    \[Sim]Aperture \[Ré]Science \[Sim Ré]
-    We \[Sim]do what we \[Ré]must be\[Sim]cause we \[Ré]can \[Sim]
-    \[Mim]For the good of \[La]all of us
-    Except the \[Si&]ones who are dead
+    \[Bm]Aperture \[D]Science \[Bm D]
+    We \[Bm]do what we \[D]must be\[Bm]cause we \[D]can \[Bm]
+    \[Em]For the good of \[A]all of us
+    Except the \[B&]ones who are dead
   \endverse
 
   \beginchorus
-    But there's \[Fa]no sense \[Do]crying over \[Si&]every mis\[Fa]take
-    You just \[Fa]keep on \[Do]trying till you \[Si&]run out of \[Fa]cake
-    And the \[Si&]science gets \[Do]done and you \[Fa]make a neat \[Rém]gun
-    For the \[Si&]people who \[La]are still alive \[Ré Sim Ré]
+    But there's \[F]no sense \[C]crying over \[B&]every mis\[F]take
+    You just \[F]keep on \[C]trying till you \[B&]run out of \[F]cake
+    And the \[B&]science gets \[C]done and you \[F]make a neat \[Dm]gun
+    For the \[B&]people who \[A]are still alive \[D Bm D]
   \endchorus
 
   \beginverse
@@ -74,12 +74,12 @@
   \endchorus
 
   \beginverse
-    \[Sim] And be\[Ré]lieve me I \[Sim]am still a\[Ré]live \[Sim]
-    I'm doing \[Ré]science and \[Sim]I'm still a\[Ré]live \[Sim]
-    I feel fan\[Ré]tastic and \[Sim]I'm still a\[Ré]live \[Sim]
-    And while you're \[Ré]dying I'll \[Sim]be still a\[Ré]live \[Sim]
-    And when you're \[Ré]dead I'll \[Sim]be still a\[Ré]live \[Sim]
-    Still a\[Ré]live \rep{2}
+    \[Bm] And be\[D]lieve me I \[Bm]am still a\[D]live \[Bm]
+    I'm doing \[D]science and \[Bm]I'm still a\[D]live \[Bm]
+    I feel fan\[D]tastic and \[Bm]I'm still a\[D]live \[Bm]
+    And while you're \[D]dying I'll \[Bm]be still a\[D]live \[Bm]
+    And when you're \[D]dead I'll \[Bm]be still a\[D]live \[Bm]
+    Still a\[D]live \rep{2}
   \endverse
 
 \endsong

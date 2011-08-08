@@ -4,25 +4,25 @@
   [by=Bob Dylan,cov=the-times-they-are-a-changin,album=The times they are a changin]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Ré7}{XX0212}
-  \gtab{Sol7}{320001}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{D7}{XX0212}
+  \gtab{G7}{320001}
 
   \beginverse
-    Come \[Sol]gather 'round \[Mim]people
-    Where \[Do]ever you \[Sol]roam
-    And ad\[Sol]mit that \[Lam]waters
-    Ar\[Do]ound you have \[Ré]grown
-    And ac\[Sol]cept it that \[Mim]soon
-    You'll be d\[Do]renched to the \[Sol]bone
-    If your time to \[Lam]you is worth \[Ré]savin'
-    Then you better start \[Ré7]swimmin'
-    Or you'll \[Sol7]sink like a s\[Ré]tone
-    For the \[Sol]times they are a-\[Do]cha\[Ré]ngi\[Sol]n'
+    Come \[G]gather 'round \[Em]people
+    Where \[C]ever you \[G]roam
+    And ad\[G]mit that \[Am]waters
+    Ar\[C]ound you have \[D]grown
+    And ac\[G]cept it that \[Em]soon
+    You'll be d\[C]renched to the \[G]bone
+    If your time to \[Am]you is worth \[D]savin'
+    Then you better start \[D7]swimmin'
+    Or you'll \[G7]sink like a s\[D]tone
+    For the \[G]times they are a-\[C]cha\[D]ngi\[G]n'
   \endverse
 
   \beginverse

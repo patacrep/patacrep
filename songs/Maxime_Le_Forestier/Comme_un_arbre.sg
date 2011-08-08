@@ -4,24 +4,24 @@
   [by=Maxime Le Forestier,cov=essentielles,album=Essentielles]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Ré7}{XX0212}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Rém}{XX0231}
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
-  \gtab{La7}{X02020}
-  \gtab{Ré}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{D7}{XX0212}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{Dm}{XX0231}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{A7}{X02020}
+  \gtab{D}{XX0232}
 
 
   \beginverse
-    \[Do]Comme un arbre dans la \[Ré7]ville
-    \[Fa]Je suis \[Sol]né dans le bé\[Do]ton
-    Coincé \[Mim]entre deux mai\[Lam]sons
-    Sans \[Rém]abri, sans domi\[Sol Mim]ci\[Lam]le
-    Comme un \[Rém]arbre dans la \[Mi]vil\[Lam]le
+    \[C]Comme un arbre dans la \[D7]ville
+    \[F]Je suis \[G]né dans le bé\[C]ton
+    Coincé \[Em]entre deux mai\[Am]sons
+    Sans \[Dm]abri, sans domi\[G Em]ci\[Am]le
+    Comme un \[Dm]arbre dans la \[E]vil\[Am]le
   \endverse
 
   \beginverse*
@@ -33,11 +33,11 @@
   \endverse
 
   \beginchorus
-    \[Mi]Entre béton et bi\[Lam]tume
-    Pour \[La7]pousser je me dé\[Rém]bats
-    Et mes \[Ré]branches volent \[Sol]bas
-    \[Mi]Si près des autos qui \[Lam]fument
-    Entre \[Rém]béton et bi\[Mi]tume\[Lam]
+    \[E]Entre béton et bi\[Am]tume
+    Pour \[A7]pousser je me dé\[Dm]bats
+    Et mes \[D]branches volent \[G]bas
+    \[E]Si près des autos qui \[Am]fument
+    Entre \[Dm]béton et bi\[E]tume\[Am]
   \endchorus
 
   \beginverse

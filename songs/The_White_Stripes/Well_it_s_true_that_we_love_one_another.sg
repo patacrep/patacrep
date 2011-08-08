@@ -4,26 +4,26 @@
   [by=The White Stripes,cov=elephant,album=Elephant]
 
   \cover
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Ré}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{D}{XX0232}
 
   %\note{\[*] ligne de basse de transition}
 
   \beginchorus
-    \[La]Well it's true that we love one another
-    \[La]I love Jack White like a little \[*]brother
-    \[Mi]Well, Holly, I love you \[Ré]too
-    \[Ré]But there's just so much that I don't know about \[La]you
+    \[A]Well it's true that we love one another
+    \[A]I love Jack White like a little \[*]brother
+    \[E]Well, Holly, I love you \[D]too
+    \[D]But there's just so much that I don't know about \[A]you
   \endchorus
 
   \beginverse
-    \[La]Jack, give me some money to pay my bills
-    \[La]All the dough I give you, Holly, you've been using on pain pills
-    \[Ré]Jack, will you call me if you're able?
-    \[La]I've got your phone number written in the back of my \[*]Bible
-    \[Mi]Jack, I think you're pulling my \[Ré]leg
-    \[Ré]And I think maybe I'd better ask \[La]Meg
+    \[A]Jack, give me some money to pay my bills
+    \[A]All the dough I give you, Holly, you've been using on pain pills
+    \[D]Jack, will you call me if you're able?
+    \[A]I've got your phone number written in the back of my \[*]Bible
+    \[E]Jack, I think you're pulling my \[D]leg
+    \[D]And I think maybe I'd better ask \[A]Meg
   \endverse
 
   \beginverse

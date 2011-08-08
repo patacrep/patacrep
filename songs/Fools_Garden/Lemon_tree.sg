@@ -4,20 +4,20 @@
   [by=Fool's Garden,cov=dish-of-the-day,album=Dish of the day]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Sim}{7:022000}
-  \gtab{Lam}{5:022000}
-  \gtab{Sol}{3:022100}
-  \gtab{Ré}{5:X02220}
-  \gtab{Do}{3:X02220}
-  \gtab{Si}{7:022100}
+  \gtab{Em}{7:X02210}
+  \gtab{Bm}{7:022000}
+  \gtab{Am}{5:022000}
+  \gtab{G}{3:022100}
+  \gtab{D}{5:X02220}
+  \gtab{C}{3:X02220}
+  \gtab{B}{7:022100}
 
   \beginverse
-    I'm \[Mim]sitting here in the \[Sim]boring room
-    It's \[Mim]just another rainy Sunday \[Sim]afternoon
-    I'm \[Mim]wasting my time, I got \[Sim]nothing to do
-    I'm \[Mim]hanging around, I'm \[Sim]waiting for you
-    But \[Lam]nothing ever happens \[Sim] and I \[Mim]wonder
+    I'm \[Em]sitting here in the \[Bm]boring room
+    It's \[Em]just another rainy Sunday \[Bm]afternoon
+    I'm \[Em]wasting my time, I got \[Bm]nothing to do
+    I'm \[Em]hanging around, I'm \[Bm]waiting for you
+    But \[Am]nothing ever happens \[Bm] and I \[Em]wonder
   \endverse
 
   \beginverse
@@ -29,10 +29,10 @@
   \endverse
 
   \beginchorus
-    I \[Sol]wonder how, I \[Ré]wonder why
-    \[Mim]Yesterday you told me 'bout the \[Sim]blue blue sky
-    And \[Do]all that I can \[Ré]see
-    Is just a yellow \[Sol]lemon-tree \[Ré]
+    I \[G]wonder how, I \[D]wonder why
+    \[Em]Yesterday you told me 'bout the \[Bm]blue blue sky
+    And \[C]all that I can \[D]see
+    Is just a yellow \[G]lemon-tree \[D]
   \endchorus
 
   \beginchorus
@@ -51,9 +51,9 @@
   \endverse
 
   \beginverse
-    \[Si]Isolation \[Mim]is not good for me
-    \[Ré]Isolation \[Sol]I don't want to
-    Sit on the \[Si]lemon-tree
+    \[B]Isolation \[Em]is not good for me
+    \[D]Isolation \[G]I don't want to
+    Sit on the \[B]lemon-tree
   \endverse
 
   \beginverse*

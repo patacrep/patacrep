@@ -4,23 +4,23 @@
   [by=Cat Stevens,cov=tea-for-the-tillerman,album=Tea for the tillerman]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{La}{X02220}
-  \gtab{Si}{2:X02220}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{A}{X02220}
+  \gtab{B}{2:X02220}
 
   \beginverse
-    She \[Mim]hangs her head and \[Ré]cries in my \[Do]shirt
-    \[Ré] She must be \[Mim]hurt very \[Ré]bad\[Sol]ly
-    Tell me what's \[Ré]making you \[Mim]sad\[La]ly?
-    \[Mim]Open your \[La]door, don't \[Ré]hide in the \[Do]dark
-    You're \[Ré]lost in the \[Mim]dark, you can \[Ré]trust \[Sol]me
-    'cause you know that's \[Ré]how it must \[Mim La]be
+    She \[Em]hangs her head and \[D]cries in my \[C]shirt
+    \[D] She must be \[Em]hurt very \[D]bad\[G]ly
+    Tell me what's \[D]making you \[Em]sad\[A]ly?
+    \[Em]Open your \[A]door, don't \[D]hide in the \[C]dark
+    You're \[D]lost in the \[Em]dark, you can \[D]trust \[G]me
+    'cause you know that's \[D]how it must \[Em La]be
   \endverse
 
   \beginchorus
-    \[Mim]Lisa, Li\[La]sa, sad \[Si]Lisa, Li\[Mim]sa
+    \[Em]Lisa, Li\[A]sa, sad \[B]Lisa, Li\[Em]sa
   \endchorus
 
   \beginverse

@@ -4,14 +4,14 @@
   [by=Henri Dès,cov=les-betises,album=Les bêtises]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
   \beginverse
-    J'suis pa\[Do]rti, vers mi\[Sol]{di, sur} mon \[Fa]cheval \[Do]gris
-    Moi j'é\[Fa]tais de\[Sol]ssus et puis \[Do]lui \[Sol]des\[Do]sous
-    J'suis pa\[Fa]rti, vers mi\[Sol]{di, sur} mon \[Do]che\[Sol]val \[Do]gris
+    J'suis pa\[C]rti, vers mi\[G]{di, sur} mon \[F]cheval \[C]gris
+    Moi j'é\[F]tais de\[G]ssus et puis \[C]lui \[G]des\[C]sous
+    J'suis pa\[F]rti, vers mi\[G]{di, sur} mon \[C]che\[G]val \[C]gris
   \endverse
 
   \beginverse

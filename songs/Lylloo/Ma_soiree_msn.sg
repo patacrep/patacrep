@@ -5,16 +5,16 @@
 
   \capo{2}
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Mim]Sortie de l'école
-    \[Do]Je file dans ma chambre
-    \[Sol]Direction l'ordi
-    \[Ré]Je ne peux plus attendre
+    \[Em]Sortie de l'école
+    \[C]Je file dans ma chambre
+    \[G]Direction l'ordi
+    \[D]Je ne peux plus attendre
     J'mets mon adresse
     Et mon mot de passe
     Pour voir qui de mes

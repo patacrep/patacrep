@@ -5,29 +5,29 @@
 
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{La7}{5:020100}
-  \gtab{Do}{3:X02220}
-  \gtab{Fa}{1:022100}
-  \gtab{Solm}{3:022000}
-  \gtab{Si&}{6:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{A7}{5:020100}
+  \gtab{C}{3:X02220}
+  \gtab{F}{1:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{B&}{6:022100}
 
   \beginverse
-    De bon ma\[Rém]tin, je suis parti
-    Direction \[La7]le conserva\[Rém]toire
-    J'avais \[Rém]rendez-vous à la demi
-    Pour donner \[Do]un cours de gui\[Fa]tare
-    Sur le che\[Solm]min, j'ai rencon\[Rém]tré
-    Un vieux \[La7]poto. Les retrou\[Rém]vailles
-    Ont eu lieu au fond d'un tro\[La7]quet
+    De bon ma\[Dm]tin, je suis parti
+    Direction \[A7]le conserva\[Dm]toire
+    J'avais \[Dm]rendez-vous à la demi
+    Pour donner \[C]un cours de gui\[F]tare
+    Sur le che\[Gm]min, j'ai rencon\[Dm]tré
+    Un vieux \[A7]poto. Les retrou\[Dm]vailles
+    Ont eu lieu au fond d'un tro\[A7]quet
     \echo{Patron six barons et deux pailles}
   \endverse
 
   \beginchorus
-    Gueule en \[Rém]vrac et tête dans l'seau
-    On n'a pas \[Si&]des métiers fa\[La7]ciles
-    C'est la pa\[Rém]tronne des musicos
-    J'vais mettre un \[Si&]cierge à \[La7]Sainte Cé\[Rém]cile \rep{2}
+    Gueule en \[Dm]vrac et tête dans l'seau
+    On n'a pas \[B&]des métiers fa\[A7]ciles
+    C'est la pa\[Dm]tronne des musicos
+    J'vais mettre un \[B&]cierge à \[A7]Sainte Cé\[Dm]cile \rep{2}
   \endchorus
 
   \beginverse

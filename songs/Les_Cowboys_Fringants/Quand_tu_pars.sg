@@ -5,19 +5,19 @@
 
   \cover
   \capo{2}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Si7}{X21202}
-  \gtab{Mim}{022000}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{B7}{X21202}
+  \gtab{Em}{022000}
 
   \beginverse
-    \[Sol]Mon toit \[Do]est en o\[Ré]sier
-    Ma mai\[Si7]son en papier mâ\[Mim]ché
-    Elle s'e\[Do]ffondre chaque fois
-    Sous l'é\[Sol]cho de ma voix
-    Moi qui \[Si7]seule s'ennuie de \[Mim]toi
-    Quand tu \[Ré]pars \dots
+    \[G]Mon toit \[C]est en o\[D]sier
+    Ma mai\[B7]son en papier mâ\[Em]ché
+    Elle s'e\[C]ffondre chaque fois
+    Sous l'é\[G]cho de ma voix
+    Moi qui \[B7]seule s'ennuie de \[Em]toi
+    Quand tu \[D]pars \dots
   \endverse
 
   \beginverse

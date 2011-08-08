@@ -4,15 +4,15 @@
   [by=Los Lobos,cov=desperado,album=Desperado]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Si}{7:022100}
-  \gtab{Lam}{5:022000}
+  \gtab{Em}{7:X02210}
+  \gtab{B}{7:022100}
+  \gtab{Am}{5:022000}
 
   \beginverse
-    Soy un \[Mim]hombre muy honrado
-    Que me gusta lo me\[Si]jor
+    Soy un \[Em]hombre muy honrado
+    Que me gusta lo me\[B]jor
     A mujeres no me faltan
-    Ni al dinero, ni el \[Mim]amor
+    Ni al dinero, ni el \[Em]amor
   \endverse
 
   \beginverse*
@@ -23,10 +23,10 @@
   \endverse
 
   \beginchorus
-    \[Lam]Ay, ay, ay, \[Mim]ay
-    \[Si]Ay, ay, mi \[Mim]amor
-    \[Lam]Ay, mi more\[Mim]na
-    \[Si]De mi cora\[Mim]zón
+    \[Am]Ay, ay, ay, \[Em]ay
+    \[B]Ay, ay, mi \[Em]amor
+    \[Am]Ay, mi more\[Em]na
+    \[B]De mi cora\[Em]zón
   \endchorus
 
   \beginverse

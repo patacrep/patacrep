@@ -4,17 +4,17 @@
   [by=La Rue Kétanou,cov=en-attendant-les-caravanes,album=En attendant les caravanes]
 
   \cover
-  \gtab{Mim}{7:X02210}
-  \gtab{Lam}{5:022000}
-  \gtab{Ré}{5:X02220}
-  \gtab{Sol}{3:022100}
+  \gtab{Em}{7:X02210}
+  \gtab{Am}{5:022000}
+  \gtab{D}{5:X02220}
+  \gtab{G}{3:022100}
 
 
   \beginchorus
-    Tu parles \[Mim]trop, tu parles \[Lam]trop
-    \[Ré]Tu parles \[Sol]trop
-    Tu n'é\[Lam]coutes plus per\[Mim]sonne
-    Et \[Sol]plus per\[Lam]sonne ne t'é\[Mim]coute
+    Tu parles \[Em]trop, tu parles \[Am]trop
+    \[D]Tu parles \[G]trop
+    Tu n'é\[Am]coutes plus per\[Em]sonne
+    Et \[G]plus per\[Am]sonne ne t'é\[Em]coute
   \endchorus
 
   \beginverse

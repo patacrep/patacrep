@@ -5,33 +5,33 @@
 
   \cover
   \capo{3}
-  \gtab{Do}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320001}
-  \gtab{Mi7}{020100}
-  \gtab{Ré7}{XX0212}
+  \gtab{C}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320001}
+  \gtab{E7}{020100}
+  \gtab{D7}{XX0212}
 
   \beginchorus
-    \[Do]Viens voir les comé\[Lam]diens, voir les musi\[Fa]ciens
-    Voir les magi\[Sol7]ciens, qui arrivent
-    \[Do]Viens voir les comé\[Lam]diens, voir les musi\[Fa]ciens
-    Voir les magi\[Sol7]ciens, qui arrivent
+    \[C]Viens voir les comé\[Am]diens, voir les musi\[F]ciens
+    Voir les magi\[G7]ciens, qui arrivent
+    \[C]Viens voir les comé\[Am]diens, voir les musi\[F]ciens
+    Voir les magi\[G7]ciens, qui arrivent
     \rep{2}
   \endchorus
 
   \beginverse
-    \[Do]Les comédiens ont instal\[Lam]lé leurs tréteaux
-    Ils ont dres\[Fa]sé leur estrade et tendu \[Sol7]des calicots
-    \[Do]Les comédiens ont parcou\[Lam]ru les faubourgs
-    Ils ont don\[Fa]né la parade, à grand ren\[Sol7]fort de tambour
+    \[C]Les comédiens ont instal\[Am]lé leurs tréteaux
+    Ils ont dres\[F]sé leur estrade et tendu \[G7]des calicots
+    \[C]Les comédiens ont parcou\[Am]ru les faubourgs
+    Ils ont don\[F]né la parade, à grand ren\[G7]fort de tambour
   \endverse
 
   \beginverse*
-    \[Do]Devant l'église une rou\[Mi7]lotte peinte en vert
-    A\[Lam]vec les \[Ré7]chaises d'un thé\[Sol7]âtre à ciel ouvert
-    \[Do]Et derrière eux, comme un cor\[Lam]tège en folie
-    Ils drainent \[Fa]tout le pays \[Sol7]les comé\[Do]diens
+    \[C]Devant l'église une rou\[E7]lotte peinte en vert
+    A\[Am]vec les \[D7]chaises d'un thé\[G7]âtre à ciel ouvert
+    \[C]Et derrière eux, comme un cor\[Am]tège en folie
+    Ils drainent \[F]tout le pays \[G7]les comé\[C]diens
   \endverse
 
   \beginverse

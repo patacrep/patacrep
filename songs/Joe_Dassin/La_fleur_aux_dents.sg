@@ -4,30 +4,30 @@
   [by=Joe Dassin,cov=le-meilleur-de-joe-dassin,album=Le meilleur de Joe Dassin]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
 
   \beginverse
-    \[Do]{J'ai} \[Sol]dépensé ma jeunesse comme une \[Lam]poignée de monnaie
-    J'ai \[Fa]fait un peu de tout, un peu par\[Sol]tout, sans savoir rien faire
-    \[Do]La fleur aux dents, c'était \[Lam]tout ce que j'avais
-    Mais je \[Sol]savais bien que toutes les femmes du monde m'attendaient
+    \[C]{J'ai} \[G]dépensé ma jeunesse comme une \[Am]poignée de monnaie
+    J'ai \[F]fait un peu de tout, un peu par\[G]tout, sans savoir rien faire
+    \[C]La fleur aux dents, c'était \[Am]tout ce que j'avais
+    Mais je \[G]savais bien que toutes les femmes du monde m'attendaient
   \endverse
 
   \beginchorus
-    Il y a \[Do]les filles dont on \[Fa]rêve
-    Et celles \[Sol]avec qui l'on \[Lam]dort
-    Il y a \[Fa]les filles qu'on re\[Sol]grette
-    Et celles qui \[Do]laissent des \[Sol]remords
+    Il y a \[C]les filles dont on \[F]rêve
+    Et celles \[G]avec qui l'on \[Am]dort
+    Il y a \[F]les filles qu'on re\[G]grette
+    Et celles qui \[C]laissent des \[G]remords
   \endchorus
 
   \beginchorus
-    Il y a \[Do]les filles que l'on \[Fa]aime
-    Et celles qu'on \[Sol]aurait pu ai\[Lam]mer
-    Puis un \[Fa]jour il y a la \[Sol]femme
-    Qu'on atten\[Do]dait
+    Il y a \[C]les filles que l'on \[F]aime
+    Et celles qu'on \[G]aurait pu ai\[Am]mer
+    Puis un \[F]jour il y a la \[G]femme
+    Qu'on atten\[C]dait
   \endchorus
 
   \beginverse

@@ -4,35 +4,35 @@
   [by=Dessins Animés,cov=oiseau-bleu,album=L'oiseau bleu]
 
   \cover
-  \gtab{La}{X02220}
-  \gtab{Ré}{XX0232}
-  \gtab{Mi}{022100}
-  \gtab{Do#m}{4:X02210}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Si}{2:X02220}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#m}{2:022000}
+  \gtab{B}{2:X02220}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginverse
-    \[La]Pour vous la merveilleuse his\[Ré]toire
-    Des enfants \[Mi]et de l'oiseau \[La]bleu
-    Ils voyagèrent à travers \[Ré]les miroirs
-    Jusqu'à l'a\[Mi]nimal fabu\[La]leux
+    \[A]Pour vous la merveilleuse his\[D]toire
+    Des enfants \[E]et de l'oiseau \[A]bleu
+    Ils voyagèrent à travers \[D]les miroirs
+    Jusqu'à l'a\[E]nimal fabu\[A]leux
   \endverse
 
   \beginverse*
-    \[Do#m]Ils vivaient dans une gran\[Fa#m]de forêt
-    \[Do#m]Avec leur maman bien sou\[Fa#m]ffrante
-    \[Si]Sans le sou, sans l'espoir de \[Mi]la soigner
-    \[Si]Ils la voyaient déjà mou\[Mi]rante
+    \[C#m]Ils vivaient dans une gran\[F#m]de forêt
+    \[C#m]Avec leur maman bien sou\[F#m]ffrante
+    \[B]Sans le sou, sans l'espoir de \[E]la soigner
+    \[B]Ils la voyaient déjà mou\[E]rante
   \endverse
 
   \beginchorus
-    \[Do]Mais très loin \[Rém]dans le ciel
-    \[Fa]Vivait l'oi\[Sol]seau bleu du bo\[Do]nheur
-    \[Do]Que l'on dit \[Rém]éternel
-    \[Fa]Pour ceux qui \[Sol]ont toujours un \[Do]cœur
+    \[C]Mais très loin \[Dm]dans le ciel
+    \[F]Vivait l'oi\[G]seau bleu du bo\[C]nheur
+    \[C]Que l'on dit \[Dm]éternel
+    \[F]Pour ceux qui \[G]ont toujours un \[C]cœur
   \endchorus
 
   \beginverse

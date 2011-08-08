@@ -4,17 +4,17 @@
   [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret,album=À poil dans la forêt]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \beginverse
-    La \[Lam]bière du donjon, c'est \[Sol]nous qui la bra\[Lam]ssaine
-    La \[Lam]bière du donjon, c'est \[Sol]nous qui la bra\[Lam]ssons
-    Bra\[Mim]ssons, bra\[Lam]ssons la \[Mim]bière du don\[Lam]jaine
-    Bra\[Mim]ssons, bra\[Lam]ssons la \[Fa]bière du \[Mi]don\[Lam]jon
+    La \[Am]bière du donjon, c'est \[G]nous qui la bra\[Am]ssaine
+    La \[Am]bière du donjon, c'est \[G]nous qui la bra\[Am]ssons
+    Bra\[Em]ssons, bra\[Am]ssons la \[Em]bière du don\[Am]jaine
+    Bra\[Em]ssons, bra\[Am]ssons la \[F]bière du \[E]don\[Am]jon
   \endverse
 
   \lilypond{La_biere_du_donjon}

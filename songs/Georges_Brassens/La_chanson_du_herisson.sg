@@ -4,13 +4,13 @@
   [by=Georges Brassens \& Philippe Chatel,cov=emilie-jolie,album=Émilie jolie]
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{Sol}{3:022100}
-  \gtab{Fa#7}{2:020100}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{3:022100}
+  \gtab{F#7}{2:020100}
 
   \beginchorus
-    \[Sim]Oh ! Qu'est-ce qu'il pique \[Sol]ce hérisson !
-    \[Fa#7]Oh ! Qu'elle est triste sa chan\[Sim]son !
+    \[Bm]Oh ! Qu'est-ce qu'il pique \[G]ce hérisson !
+    \[F#7]Oh ! Qu'elle est triste sa chan\[Bm]son !
     \rep{2}
   \endchorus
 

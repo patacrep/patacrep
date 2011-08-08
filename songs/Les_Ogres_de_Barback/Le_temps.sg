@@ -4,13 +4,13 @@
   [by=Les Ogres de Barback,cov=pitt-ocha,album=Pitt Ocha]
 
   \cover
-  \gtab{Do}{3:X02220}
-  \gtab{Rém}{5:X02210}
-  \gtab{Sol}{3:022100}
+  \gtab{C}{3:X02220}
+  \gtab{Dm}{5:X02210}
+  \gtab{G}{3:022100}
 
   \beginverse
-    \[Do]J'ai passé mon \[Rém]temps \[Sol]à me \[Do]dire
-    \[Do]Qu'il fallait du \[Rém]temps \[Sol]pour gran\[Do]dir
+    \[C]J'ai passé mon \[Dm]temps \[G]à me \[C]dire
+    \[C]Qu'il fallait du \[Dm]temps \[G]pour gran\[C]dir
     Je n'ai pas vu le temps à vrai dire
     Passer en courant sans rien dire
   \endverse

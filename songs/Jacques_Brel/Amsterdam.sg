@@ -4,33 +4,33 @@
   [by=Jacques Brel,cov=amsterdam,album=Amsterdam]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi7}{020100}
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
 
   \beginverse
-    Dans le \[Lam]port d'Amsterdam
-    Y'a des \[Mim]marins qui chantent
-    Les \[Fa]rêves qui les hantent
-    Au lar\[Mi7]ge d'Amsterdam
-    Dans le \[Lam]port d'Amsterdam
-    Y'a des \[Mim]marins qui dorment
-    Comme \[Fa]des ori\[Mi7]flammes
-    Le long \[Lam]des berges mornes
+    Dans le \[Am]port d'Amsterdam
+    Y'a des \[Em]marins qui chantent
+    Les \[F]rêves qui les hantent
+    Au lar\[E7]ge d'Amsterdam
+    Dans le \[Am]port d'Amsterdam
+    Y'a des \[Em]marins qui dorment
+    Comme \[F]des ori\[E7]flammes
+    Le long \[Am]des berges mornes
   \endverse
 
   \beginverse*
-    Dans le \[Do]port d'Amsterdam
-    Y'a des \[Sol7]marins qui meurent
-    Pleins de \[Lam]bière et de drames
-    Aux pre\[Mi7]mières lueurs
-    Mais dans le \[Fa]port d'Amsterdam
-    Y'a des \[Mim]marins qui naissent
-    Dans la \[Fa]chaleur é\[Mi7]paisse
-    Des lan\[Lam]gueurs océanes
+    Dans le \[C]port d'Amsterdam
+    Y'a des \[G7]marins qui meurent
+    Pleins de \[Am]bière et de drames
+    Aux pre\[E7]mières lueurs
+    Mais dans le \[F]port d'Amsterdam
+    Y'a des \[Em]marins qui naissent
+    Dans la \[F]chaleur é\[E7]paisse
+    Des lan\[Am]gueurs océanes
   \endverse
 
   \beginverse

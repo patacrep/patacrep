@@ -5,18 +5,18 @@
 
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
 
   \beginverse
-    \[Lam] I met my \[Do]love by the gas works wall
-    Dreamed a \[Fa]dream by the old ca\[Do]nal
+    \[Am] I met my \[C]love by the gas works wall
+    Dreamed a \[F]dream by the old ca\[C]nal
     Kissed a girl by the factory wall
-    Dirty old \[Sol]town
-    Dirty old \[Lam]town
+    Dirty old \[G]town
+    Dirty old \[Am]town
   \endverse
 
   \beginverse

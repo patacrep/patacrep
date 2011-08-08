@@ -4,19 +4,19 @@
   [by=Oldelaf et Monsieur~D.,cov=derniere-chance-d-etre-disque-d-or,album=Dernière chance d'être disque d'or]
 
   \cover
-  \gtab{Fa#m}{2:022000}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Do#}{4:X02220}
+  \gtab{F#m}{2:022000}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{C#}{4:X02220}
 
-  \musicnote{intro : Fa{\shrp}m Ré La Mi \rep{2}}
+  \musicnote{intro : F{\shrp}m D A E \rep{2}}
 
   \beginverse
-    \[Fa#m]{Tu as} eu une \[Ré]{si riche} car\[La]riè{\ldots}\[Mi]re
-    \[Fa#m]Toujours fréquen\[Ré]té les hautes \[La]sphè{\ldots}\[Mi]res
-    \[Ré]{Tu vivais} un peu comme dans un \[Fa#m]rê{\ldots}ve
-    \[Ré]Pourquoi faudrait-il que tout s'a\[Do#]chè{\ldots}ve
+    \[F#m]{Tu as} eu une \[D]{si riche} car\[A]riè{\ldots}\[E]re
+    \[F#m]Toujours fréquen\[D]té les hautes \[A]sphè{\ldots}\[E]res
+    \[D]{Tu vivais} un peu comme dans un \[F#m]rê{\ldots}ve
+    \[D]Pourquoi faudrait-il que tout s'a\[C#]chè{\ldots}ve
   \endverse
 
   \beginverse
@@ -27,10 +27,10 @@
   \endverse
 
   \beginchorus
-    Tu nous as tra\[Fa#m]his, tu nous as tra\[Ré]his
-    \[La]Et dire que t'étais à Charlé\[Mi]ty
-    Tu nous as tra\[Fa#m]his, tu nous as tra\[Ré]his
-    \[La]Mais qu'est-ce que t'as fait Carla Bru\[Do#]ni
+    Tu nous as tra\[F#m]his, tu nous as tra\[D]his
+    \[A]Et dire que t'étais à Charlé\[E]ty
+    Tu nous as tra\[F#m]his, tu nous as tra\[D]his
+    \[A]Mais qu'est-ce que t'as fait Carla Bru\[C#]ni
   \endchorus
 
   \beginchorus

@@ -5,23 +5,23 @@
 
 
   \cover
-  \gtab{Lam}{5:022000}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Mi}{022100}
-  \gtab{Fa#m}{2:022000}
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
+  \gtab{Am}{5:022000}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
 
 
   \beginverse
-    \[Lam]{Il est} 5 heures du matin
-    Lorsque je réveille les \[Fa]chiens
+    \[Am]{Il est} 5 heures du matin
+    Lorsque je réveille les \[F]chiens
     Rex, mon teckel à poil roux
-    Qui a une balle dans le ge\[Sol]nou
+    Qui a une balle dans le ge\[G]nou
     Et Josiane mon doberman
-    Ah non ça merde, c'est ma \[Lam]femme
+    Ah non ça merde, c'est ma \[Am]femme
   \endverse
 
   \beginverse
@@ -34,19 +34,19 @@
   \endverse
 
   \beginverse
-    \[Do]Me voilà sur le pied de guerre
-    Aussi beau qu'un mili\[Sol]taire
+    \[C]Me voilà sur le pied de guerre
+    Aussi beau qu'un mili\[G]taire
     Prêt à retrouver les copains
-    Au lieu-dit : {\og}Les Marca\[Fa]ssins{\fg}
-    Je prend mon fusil ma be\[Sol]sace
-    Y'a pas à dire : ça fait \[Lam]classe
+    Au lieu-dit : {\og}Les Marca\[F]ssins{\fg}
+    Je prend mon fusil ma be\[G]sace
+    Y'a pas à dire : ça fait \[Am]classe
   \endverse
 
   \beginchorus
-    Chasse, \[La]pêche et bi\[Mi]ture
-    Nous on res\[Fa#m]pecte la na\[Ré]ture
-    Chevro\[La]tine, canon \[Mi]scié
-    Canarder \[Ré]c'est \[Mi]notre{\ldots}mé\[Lam]tier
+    Chasse, \[A]pêche et bi\[E]ture
+    Nous on res\[F#m]pecte la na\[D]ture
+    Chevro\[A]tine, canon \[E]scié
+    Canarder \[D]c'est \[E]notre{\ldots}mé\[Am]tier
   \endchorus
 
   \beginverse
@@ -93,14 +93,14 @@
   \endverse
 
   \beginchorus
-    Chasse, \[La]pêche et bi\[Mi]ture
-    Nous on res\[Fa#m]pecte la na\[Ré]ture
-    Chevro\[La]tine et oie sau\[Mi]vage
-    À chaque fois \[Ré]c'est un \[Mi]vrai car\[La]nage
-    Pêche et bi\[Mi]ture
-    Nous on res\[Fa#m]pecte la bi\[Ré]ture
-    Chevro\[La]tine et caisse de \[Mi]ruhm
-    Approche donc \[Ré]si qu'\[Mi]t'es un \[La]homme
+    Chasse, \[A]pêche et bi\[E]ture
+    Nous on res\[F#m]pecte la na\[D]ture
+    Chevro\[A]tine et oie sau\[E]vage
+    À chaque fois \[D]c'est un \[E]vrai car\[A]nage
+    Pêche et bi\[E]ture
+    Nous on res\[F#m]pecte la bi\[D]ture
+    Chevro\[A]tine et caisse de \[E]ruhm
+    Approche donc \[D]si qu'\[E]t'es un \[A]homme
   \endchorus
 
 \endsong

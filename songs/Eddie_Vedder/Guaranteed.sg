@@ -2,22 +2,21 @@
 \songcolumns{1}
 \beginsong{Guaranteed}
   [by=Eddie Vedder,cov=Guaranteed,album=Into the wild]
+
   \cover
-  \gtab{Sol}{3:022100}
-  \gtab{Sim}{2:X02210}
-  \gtab{Sol7}{320001}
-  \gtab{Do*}{002010}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Ré4}{000230}
-
-
+  \gtab{G}{3:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{G7}{320001}
+  \gtab{C*}{002010}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{D4}{000230}
 
   \beginverse
-    \[Sol]On bended knee is no \[Sim]way to be free
-    \[Sol7]Lifting up an empty cup, I \[Do*]ask silently
-    \[Do]All my destinations will ac\[Sol]cept the one that's me
-    So \[Ré]{I can} breathe \dots \[Ré4 Ré Ré4]
+    \[G]On bended knee is no \[Bm]way to be free
+    \[G7]Lifting up an empty cup, I \[C*]ask silently
+    \[C]All my destinations will ac\[G]cept the one that's me
+    So \[D]{I can} breathe \dots \[D4 D D4]
   \endverse
 
   \beginverse

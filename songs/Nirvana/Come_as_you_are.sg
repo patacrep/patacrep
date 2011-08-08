@@ -4,19 +4,19 @@
   [by=Nirvana,cov=nevermind,album=Nevermind]
 
   \cover
-  \gtab{Fa#m}{2:022000}
-  \gtab{Mi}{022100}
-  \gtab{La}{X02220}
-  \gtab{Si}{2:X02220}
-  \gtab{Ré}{XX0232}
+  \gtab{F#m}{2:022000}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{B}{2:X02220}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Fa#m]Come as you \[Mi]are
-    As you \[Fa#m]were
-    As I \[Mi]want you to \[Fa#m]be
-    As a fri\[Mi]end
-    As a fri\[Fa#m]end
-    As an \[Mi]old ene\[Fa#m]my
+    \[F#m]Come as you \[E]are
+    As you \[F#m]were
+    As I \[E]want you to \[F#m]be
+    As a fri\[E]end
+    As a fri\[F#m]end
+    As an \[E]old ene\[F#m]my
   \endverse
 
   \beginverse
@@ -27,7 +27,7 @@
     Take a rest
     As a friend
     As an old memory
-    \[La]A mem\[Fa#m]ory \rep{3}
+    \[A]A mem\[F#m]ory \rep{3}
   \endverse
 
   \beginverse
@@ -41,9 +41,9 @@
   \endverse
 
   \beginverse*
-    \[Si]And I \[Ré]swear
-    That I \[Si]don't have a gun\[Ré]
-    No, I \[Si]don't have a gun \[Ré] \rep{2}
+    \[B]And I \[D]swear
+    That I \[B]don't have a gun\[D]
+    No, I \[B]don't have a gun \[D] \rep{2}
   \endverse
 
 \endsong

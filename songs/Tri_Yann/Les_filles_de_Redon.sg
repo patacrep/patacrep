@@ -4,19 +4,19 @@
   [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
 
   \capo{3}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Ré}{XX0232}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Sol]Y'a core dix filles dans l'bourg de \[Mim]{R'don}
-    Qui tapent du \[Lam]pied, quand l'amour les \[Ré]prend
+    \[G]Y'a core dix filles dans l'bourg de \[Em]{R'don}
+    Qui tapent du \[Am]pied, quand l'amour les \[D]prend
   \endverse
 
   \beginchorus
-    \[Ré]Tapent du pied, sautent en rond
-    Comme des grenouilles dans un ruis\[Sol]seau
+    \[D]Tapent du pied, sautent en rond
+    Comme des grenouilles dans un ruis\[G]seau
   \endchorus
 
   \beginverse

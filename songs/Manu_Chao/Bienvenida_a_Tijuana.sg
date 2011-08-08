@@ -5,17 +5,17 @@
 
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
 
   \beginverse
-    Bienvenida a Ti\[Do]juana
-    Bienvenida mi a\[Lam]mor
-    De noche a la ma\[Fa]ñana
-    \[Sol]Bienvenida mi a\[Do]mor
+    Bienvenida a Ti\[C]juana
+    Bienvenida mi a\[Am]mor
+    De noche a la ma\[F]ñana
+    \[G]Bienvenida mi a\[C]mor
   \endverse
 
   \beginverse

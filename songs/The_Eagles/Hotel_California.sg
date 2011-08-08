@@ -5,22 +5,22 @@
 
 
   \cover
-  \gtab{Sim}{2:X02210}
-  \gtab{Fa#}{2:022100}
-  \gtab{La}{X02220}
-  \gtab{Mi}{022100}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Sim]On a dark desert highway
-    \[Fa#]Cool wind in my hair
-    \[La]Warm smell of colitas
-    \[Mi]Rising up through the air
-    \[Sol]Up ahead in the distance
-    \[Ré]I saw a shimmering light
-    \[Mim]My head grew heavy and my sight grew dim
-    \[Fa#]{I had} to stop for the night
+    \[Bm]On a dark desert highway
+    \[F#]Cool wind in my hair
+    \[A]Warm smell of colitas
+    \[E]Rising up through the air
+    \[G]Up ahead in the distance
+    \[D]I saw a shimmering light
+    \[Em]My head grew heavy and my sight grew dim
+    \[F#]{I had} to stop for the night
   \endverse
 
   \beginverse
@@ -35,12 +35,12 @@
   \endverse
 
   \beginchorus
-    \[Sol]Welcome to the Hotel Cali\[Ré]fornia
-    Such a \[Mim]lovely place
-    Such a \[Fa#]lovely face
-    \[Sol]Plenty of room at the Hotel Cali\[Ré]fornia
-    Any \[Mim]time of year \echo{any time of year}
-    You can \[Fa#]find it here
+    \[G]Welcome to the Hotel Cali\[D]fornia
+    Such a \[Em]lovely place
+    Such a \[F#]lovely face
+    \[G]Plenty of room at the Hotel Cali\[D]fornia
+    Any \[Em]time of year \echo{any time of year}
+    You can \[F#]find it here
   \endchorus
 
   \beginverse

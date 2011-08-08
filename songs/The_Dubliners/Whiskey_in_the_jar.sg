@@ -5,23 +5,23 @@
 
   \cover
   \capo{2}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Do]As I was going over the \[Lam]far fam'd Kerry Mountains
-    I \[Fa]met with Captain Farrel, and his \[Do]money he was \[Sol]countin'
-    I \[Do]first produced my pistol, and I \[Lam]than produced my rapier
-    Sayin': ``\[Fa]Stand and deliver for you \[Do]are my bold deceiver''
+    \[C]As I was going over the \[Am]far fam'd Kerry Mountains
+    I \[F]met with Captain Farrel, and his \[C]money he was \[G]countin'
+    I \[C]first produced my pistol, and I \[Am]than produced my rapier
+    Sayin': ``\[F]Stand and deliver for you \[C]are my bold deceiver''
   \endverse
 
   \beginchorus
-    Musha \[Sol]ring dum a doo dum a da
-    \[Do]Whack fol de daddy o
-    \[Fa]Whack fol de daddy o
-    There's \[Do]whiskey \[Sol]in the \[Do]jar
+    Musha \[G]ring dum a doo dum a da
+    \[C]Whack fol de daddy o
+    \[F]Whack fol de daddy o
+    There's \[C]whiskey \[G]in the \[C]jar
   \endchorus
 
   \beginverse

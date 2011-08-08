@@ -4,17 +4,17 @@
   [by=Dessins Animés,cov=mysterieuses-cites-d-or,album=Les mystérieuses cités d'or]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Mi}{022100}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
 
   \beginverse
-    Enfant \[Do]du soleil
+    Enfant \[C]du soleil
     Tu parcours la terre le ciel
-    Cherche \[Lam]ton chemin
-    C'est ta \[Mi]vie, c'est ton des\[Lam]tin
+    Cherche \[Am]ton chemin
+    C'est ta \[E]vie, c'est ton des\[Am]tin
   \endverse
 
   \beginverse*
@@ -25,12 +25,12 @@
   \endverse
 
   \beginchorus
-    \[Rém]Aaaah ah ah ah \[Lam]ah
-    Esteban, \[Sol]Zia, \[Mi]Tao les Cités d'\[Lam]O\[La]r
-    \[Rém]Aaaah ah ah ah \[Lam]ah
-    Esteban, \[Sol]Zia, \[Mi]Tao les Cités d'\[Lam]Or
-    \[Sol]Tou-dou dou-dou dou, \[Lam]{ah ah ah}
-    \[Sol]Tou-dou dou-dou dou, les Cités d'\[Lam]Or
+    \[Dm]Aaaah ah ah ah \[Am]ah
+    Esteban, \[G]Zia, \[E]Tao les Cités d'\[Am]O\[A]r
+    \[Dm]Aaaah ah ah ah \[Am]ah
+    Esteban, \[G]Zia, \[E]Tao les Cités d'\[Am]Or
+    \[G]Tou-dou dou-dou dou, \[Am]{ah ah ah}
+    \[G]Tou-dou dou-dou dou, les Cités d'\[Am]Or
   \endchorus
 
   \beginverse

@@ -5,26 +5,26 @@
 
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{3:020100}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{G7}{3:020100}
 
 
   \beginverse
-    \[Lam]Un petit lapin qui s'\[Mim]appelait Poupine
-    Avait \[Fa]rendez-\[Sol]vous \[Fa]avec sa Poupi\[Sol]nette
-    Ses pa\[Lam]rents n'voulaient pas qu'elle de\[Mim]vienne sa copine
-    Parce qu'en \[Fa]fait Poupi\[Sol]nette c'était \[Do]une \[Sol]be\[Do]lette
+    \[Am]Un petit lapin qui s'\[Em]appelait Poupine
+    Avait \[F]rendez-\[G]vous \[F]avec sa Poupi\[G]nette
+    Ses pa\[Am]rents n'voulaient pas qu'elle de\[Em]vienne sa copine
+    Parce qu'en \[F]fait Poupi\[G]nette c'était \[C]une \[G]be\[C]lette
   \endverse
 
   \beginchorus
-    \[Do]Thierry le chasseur est \[Sol]comme tous les chasseurs
-    Il est \[Do]con-\[Sol]tent d'aller chasser
-    \[Do]Il aime les fleurs, connaît \[Sol]la forêt par cœur
-    Il est \[Do]con-cen\[Sol]tré sur son gibier
+    \[C]Thierry le chasseur est \[G]comme tous les chasseurs
+    Il est \[C]con-\[G]tent d'aller chasser
+    \[C]Il aime les fleurs, connaît \[G]la forêt par cœur
+    Il est \[C]con-cen\[G]tré sur son gibier
   \endchorus
 
   \beginverse
@@ -38,7 +38,7 @@
     Thierry le chasseur n'est pas un gros bourrin
     Puisqu'il est con-forme à la tradition
     Si il écrase les fleurs, c'est à cause de son tout-terrain
-    Puisqu'il est con-\[Sol7]ducteur attention
+    Puisqu'il est con-\[G7]ducteur attention
   \endchorus
 
   \beginverse

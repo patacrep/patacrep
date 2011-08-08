@@ -4,21 +4,21 @@
   [by=Red Hot Chili Peppers,cov=stadium-arcadium,album=Stadium Arcadium]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Sim}{2:X02210}
-  \gtab{Fa#}{2:022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#}{2:022100}
 
   \beginverse
-    \[Lam]Getting born in the \[Sol]state of Mississippi
-    \[Rém]Her Poppa was a copper and her \[Lam]Momma was a hippie
-    \[Lam]In Alabama \[Sol]she will swing a hammer
-    \[Rém]Price you got to pay \[Lam]when you break the panorama
-    \[Lam]She never \[Sol]knew that there was \[Rém]anything more than \[Lam]all
-    \[Lam]Well in the \[Sol]war your com\[Rém]fort to take me \[Lam]for
+    \[Am]Getting born in the \[G]state of Mississippi
+    \[Dm]Her Poppa was a copper and her \[Am]Momma was a hippie
+    \[Am]In Alabama \[G]she will swing a hammer
+    \[Dm]Price you got to pay \[Am]when you break the panorama
+    \[Am]She never \[G]knew that there was \[Dm]anything more than \[Am]all
+    \[Am]Well in the \[G]war your com\[Dm]fort to take me \[Am]for
   \endverse
 
   \beginverse*
@@ -31,10 +31,10 @@
   \endverse
 
   \beginchorus
-    Cali\[Fa]fornia, \emph{\[Do]Rest In \[Rém]Peace}
-    Simul\[Fa]tane\[Do]ous re\[Rém]lease
-    Cali\[Fa]fornia, \[Do]show your \[Rém]teeth
-    She's my \[Fa]priestess, \[Do]I'm your \[Rém]priest
+    Cali\[F]fornia, \emph{\[C]Rest In \[Dm]Peace}
+    Simul\[F]tane\[C]ous re\[Dm]lease
+    Cali\[F]fornia, \[C]show your \[Dm]teeth
+    She's my \[F]priestess, \[C]I'm your \[Dm]priest
     Yeah, yeah
   \endchorus
 
@@ -48,10 +48,10 @@
   \endverse
 
   \beginverse
-    \[Sim]Who knew the har\[Sol]dest \[Fa#]side of you?
-    \[Sim]Who knew the har\[Sol]dest \[Fa#]time to prove?
-    \[Sim]Too true to \[Sol]say good\[Fa#]bye to you
-    \[Sim]Too true to say, say, say
+    \[Bm]Who knew the har\[G]dest \[F#]side of you?
+    \[Bm]Who knew the har\[G]dest \[F#]time to prove?
+    \[Bm]Too true to \[G]say good\[F#]bye to you
+    \[Bm]Too true to say, say, say
   \endverse
 
   \beginverse
@@ -60,7 +60,7 @@
     Never made it up to Minnesota
     Off the coated man, was gonna fill the quota
     Down in the Badlands, she was saving the best for last
-    It only hurts when I laugh, gone to \[Sol]fade
+    It only hurts when I laugh, gone to \[G]fade
   \endverse
 
 \endsong

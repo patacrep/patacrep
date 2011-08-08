@@ -5,26 +5,26 @@
 
   \cover
   \capo{7}
-  \gtab{Sol}{320033}
-  \gtab{Ré}{XX0233}
-  \gtab{Do}{X32033}
-  \gtab{Mim}{022033}
+  \gtab{G}{320033}
+  \gtab{D}{XX0233}
+  \gtab{C}{X32033}
+  \gtab{Em}{022033}
 
 
   \beginverse
-    \[Sol]Le petit pêcheur \[Ré]gaspé\[Sol]sien
-    \[Sol]Suivait son père cha\[Do]que ma\[Sol]tin
-    \[Mim]Quinze ans et demi et déjà le pied \[Ré]ma\[Sol]rin
-    \[Sol]Sous la lueur d'un \[Ré]vieux \[Sol]fanal
-    \[Sol]Accompagné par \[Do]les é\[Sol]toiles
-    \[Mim]Prenait le large, le vent dans les \[Ré]voi\[Sol]les
+    \[G]Le petit pêcheur \[D]gaspé\[G]sien
+    \[G]Suivait son père cha\[C]que ma\[G]tin
+    \[Em]Quinze ans et demi et déjà le pied \[D]ma\[G]rin
+    \[G]Sous la lueur d'un \[D]vieux \[G]fanal
+    \[G]Accompagné par \[C]les é\[G]toiles
+    \[Em]Prenait le large, le vent dans les \[D]voi\[G]les
   \endverse
 
   \beginverse*
-    \[Sol]Tous les jours son père \[Do]lui di\[Sol]sait
-    \[Sol]Quand ils remontaient \[Do]les fi\[Sol]lets
-    \[Sol]Y'a tant de poissons \[Do]dans le \[Ré]St-Lau\[Sol]rent
-    Qu'\[Mim]on en aura jusqu'\[Do]à la \[Ré]nuit des \[Sol]temps
+    \[G]Tous les jours son père \[C]lui di\[G]sait
+    \[G]Quand ils remontaient \[C]les fi\[G]lets
+    \[G]Y'a tant de poissons \[C]dans le \[D]St-Lau\[G]rent
+    Qu'\[Em]on en aura jusqu'\[C]à la \[D]nuit des \[G]temps
   \endverse
 
   \beginverse

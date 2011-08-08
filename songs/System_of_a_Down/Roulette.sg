@@ -4,24 +4,24 @@
   [by=System of a Down,cov=steal-this-album,album=Steal this album]
 
   \cover
-  \gtab{Dom}{3:X02210}
-  \gtab{Ré#}{6:X02220}
-  \gtab{Si&}{1:X02220}
-  \gtab{Do#}{4:X02220}
-  \gtab{Sol#}{4:022100}
-  \gtab{La#}{6:022100}
-  \gtab{Sol}{3:022100}
+  \gtab{Cm}{3:X02210}
+  \gtab{D#}{6:X02220}
+  \gtab{B&}{1:X02220}
+  \gtab{C#}{4:X02220}
+  \gtab{G#}{4:022100}
+  \gtab{A#}{6:022100}
+  \gtab{G}{3:022100}
 
   \beginverse
-    \[Dom]I have a \[Ré#]problem that \[Si&]I cannot e\[Do#]xplain
-    \[Do#]I have no \[Sol#]reason why it \[La#]should have been so \[Dom]plain
-    \[Dom]Have no qu\[Ré#]estions but \[Si&]I sure have e\[Do#]xcuse
-    \[Do#]I lack the r\[Sol#]eason why I s\[La#]hould be so c\[Dom]onfused
+    \[Cm]I have a \[D#]problem that \[B&]I cannot e\[C#]xplain
+    \[C#]I have no \[G#]reason why it \[A#]should have been so \[Cm]plain
+    \[Cm]Have no qu\[D#]estions but \[B&]I sure have e\[C#]xcuse
+    \[C#]I lack the r\[G#]eason why I s\[A#]hould be so c\[Cm]onfused
   \endverse
 
   \beginchorus
-    \[Dom]I \[Sol]know, \[La#]how I \[La#]feel when \[Sol#]I'm a\[La#]round \[Dom]you
-    \[Dom]I, don't \[Sol]know, \[La#]how I \[La#]feel when \[Sol#]I'm \[Sol#]around \[Dom]you
+    \[Cm]I \[G]know, \[A#]how I \[A#]feel when \[G#]I'm a\[A#]round \[Cm]you
+    \[Cm]I, don't \[G]know, \[A#]how I \[A#]feel when \[G#]I'm \[G#]around \[Cm]you
     Around you
   \endchorus
 

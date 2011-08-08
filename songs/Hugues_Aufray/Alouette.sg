@@ -3,21 +3,21 @@
 \beginsong{Alouette}
   [by=Hugues Aufray]
 
-  \gtab{Mim}{022000}
-  \gtab{Lam7}{002212}
-  \gtab{Sol7}{320001}
-  \gtab{Ré7}{XX0212}
-  \gtab{Si7}{X21202}
+  \gtab{Em}{022000}
+  \gtab{Am7}{002212}
+  \gtab{G7}{320001}
+  \gtab{D7}{XX0212}
+  \gtab{B7}{X21202}
 
   \beginverse
-    \[Mim]Alouette, alouet\[Lam7]te
-    L'é\[Ré7]té est fi\[Sol7]ni
-    \[Mim]Pauvre petite bê\[Lam7]te
-    Je \[Ré7]suis ton a\[Sol7]mi
-    \[Mim]Alouette, alouet\[Lam7]te
-    Je \[Ré7]te comprends \[Sol7]bien
-    Moi aussi \[Mim]{j'ai} en tê\[Lam]te
-    \[Si7]Beaucoup de cha\[Mim]grain
+    \[Em]Alouette, alouet\[Am7]te
+    L'é\[D7]té est fi\[G7]ni
+    \[Em]Pauvre petite bê\[Am7]te
+    Je \[D7]suis ton a\[G7]mi
+    \[Em]Alouette, alouet\[Am7]te
+    Je \[D7]te comprends \[G7]bien
+    Moi aussi \[Em]{j'ai} en tê\[Am]te
+    \[B7]Beaucoup de cha\[Em]grain
   \endverse
 
   \beginverse*

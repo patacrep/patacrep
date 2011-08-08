@@ -5,14 +5,14 @@
 
   \cover
   \capo{1}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
   \beginverse
-    \[Lam]Jimmy won't you \[Do]please come home
-    Where the \[Sol]grass is green and the \[Fa]buffaloes roam
+    \[Am]Jimmy won't you \[C]please come home
+    Where the \[G]grass is green and the \[F]buffaloes roam
     Come see Jimmy your uncle Jim
     Your auntie Jimmie and your cousin Jim
     Come home Jimmy because you need a bath
@@ -29,8 +29,8 @@
   \endverse
 
   \beginchorus
-    And the \[Lam]Buffaloes used to \[Fa]say
-    Be \[Sol]proud of your \[Lam]name
+    And the \[Am]Buffaloes used to \[F]say
+    Be \[G]proud of your \[Am]name
     The Buffaloes used to say
     Be what you are
     The Buffaloes used to say

@@ -3,20 +3,17 @@
 \beginsong{La complainte de la serveuse}
   [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret,album=À poil dans la forêt]
 
-
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
 
   \beginverse
-
-    Je \[Lam]suis accorte \[Sol]damoise\[Lam]lle
-    Un mollet souple, un sou\[Sol]rire écla\[Lam]tant
-    On peut me parler \[Sol]baga\[Lam]telle
-    Sans que je m'échappe \[Sol]en hur\[Do Sol Lam Sol]lant
+    Je \[Am]suis accorte \[G]damoise\[Am]lle
+    Un mollet souple, un sou\[G]rire écla\[Am]tant
+    On peut me parler \[G]baga\[Am]telle
+    Sans que je m'échappe \[G]en hur\[C G Am G]lant
   \endverse
 
   \beginverse*
@@ -27,10 +24,10 @@
   \endverse
 
   \beginchorus
-    \[Do]Alors, pourquoi ne \[Sol]suis-je pas prin\[Lam]cesse
-    Couverte d'\[Do]or et \[Sol]de bi\[Lam]joux ?
-    \[Lam]Pourquoi ne \[Sol]suis-je \[Mim]pas du\[Lam]chesse
-    Avec des \[Do]sujets à ge\[Mim]noux ?
+    \[C]Alors, pourquoi ne \[G]suis-je pas prin\[Am]cesse
+    Couverte d'\[C]or et \[G]de bi\[Am]joux ?
+    \[Am]Pourquoi ne \[G]suis-je \[Em]pas du\[Am]chesse
+    Avec des \[C]sujets à ge\[Em]noux ?
   \endchorus
 
   \beginverse
@@ -55,10 +52,10 @@
   \endchorus
 
   \beginverse
-    \[Mim]Oncques ne \[Do]vis cheva\[Sol]lier à mon \[Mim]bras
-    \[Mim]Oncques ne \[Do]revêtis \[Sol]robe de \[Mim]soie
-    \[Mim]Oncques ne che\[Do]vauche ale\[Sol]zan dans les \[Mim]bois
-    \[Do]Oncques, \[Sol]oncques, \[Lam]oncques
+    \[Em]Oncques ne \[C]vis cheva\[G]lier à mon \[Em]bras
+    \[Em]Oncques ne \[C]revêtis \[G]robe de \[Em]soie
+    \[Em]Oncques ne che\[C]vauche ale\[G]zan dans les \[Em]bois
+    \[C]Oncques, \[G]oncques, \[Am]oncques
   \endverse
 
   \beginverse

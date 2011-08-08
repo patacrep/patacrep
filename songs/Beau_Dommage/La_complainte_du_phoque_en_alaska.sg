@@ -5,24 +5,24 @@
 
   \cover
   \capo{3}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mi7}{020100}
-  \gtab{Rém}{XX0231}
-  \gtab{La7}{X02020}
-  \gtab{Sol7}{320001}
-  \gtab{Si7}{2:X02020}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Ré7}{XX0212}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{E7}{020100}
+  \gtab{Dm}{XX0231}
+  \gtab{A7}{X02020}
+  \gtab{G7}{320001}
+  \gtab{B7}{2:X02020}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D7}{XX0212}
 
   \beginverse
-    Cré-\[Do]moé, cré-moi pas
-    Quelqu'part \[Sol]en Alaska, \[Mi7]
-    Y'à un \[Rém]phoque qui s'en\[Sol]nuie en \[Do]maudit \[La7]
-    Sa \[Rém]blonde est par\[Sol7]tie
-    \[Si7]Gagner sa \[Mim]vie
-    Dans un \[Lam]cirque aux \[Ré7]États-\[Sol]Unis \[Sol7]
+    Cré-\[C]moé, cré-moi pas
+    Quelqu'part \[G]en Alaska, \[E7]
+    Y'à un \[Dm]phoque qui s'en\[G]nuie en \[C]maudit \[A7]
+    Sa \[Dm]blonde est par\[G7]tie
+    \[B7]Gagner sa \[Em]vie
+    Dans un \[Am]cirque aux \[D7]États-\[G]Unis \[G7]
   \endverse
 
   \beginverse
@@ -35,10 +35,10 @@
   \endverse
 
   \beginchorus
-    \[Do]Ça ne \[Mim]vaut pas la pei\[Lam]ne
-    De lais\[Mim]ser ceux qu'on aim\[Lam]e
-    Pour al\[Mim]ler faire tour\[Rém]ner
-    Des bal\[Sol7]lons sur son \[Do]nez \[Sol7]
+    \[C]Ça ne \[Em]vaut pas la pei\[Am]ne
+    De lais\[Em]ser ceux qu'on aim\[Am]e
+    Pour al\[Em]ler faire tour\[Dm]ner
+    Des bal\[G7]lons sur son \[C]nez \[G7]
   \endchorus
 
   \beginchorus

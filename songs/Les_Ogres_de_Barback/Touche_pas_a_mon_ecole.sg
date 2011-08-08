@@ -4,28 +4,28 @@
   [by=Les Ogres de Barback,cov=pitt-ocha-2,album=Pitt Ocha au pays des mille collines]
 
   \cover
-  \gtab{Fam}{8:X02210}
-  \gtab{Do}{8:022100}
-  \gtab{Mi&}{6:X02220}
-  \gtab{La&}{4:022100}
+  \gtab{Fm}{8:X02210}
+  \gtab{C}{8:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{A&}{4:022100}
 
   \beginverse
-    Petite \[Fam]sœur, il est quelle heure ? Je t'é\[Do]coute
-    Il est mi\[Fam]di, c'est l'heure du casse-\[Do]croute
+    Petite \[Fm]sœur, il est quelle heure ? Je t'é\[C]coute
+    Il est mi\[Fm]di, c'est l'heure du casse-\[C]croute
   \endverse
 
   \beginverse*
-    J'ai une en\[Fam]vie irrésistible
-    De man\[Mi&]ger des araignées
-    Des puces, des \[La&]poux bien épicés
-    Une hor\[Mi&]de de scarabées
-    Avec du \[Fam]beurre
-    Enfin \[Do]bref, des ho\[Fam]rreurs !
+    J'ai une en\[Fm]vie irrésistible
+    De man\[E&]ger des araignées
+    Des puces, des \[A&]poux bien épicés
+    Une hor\[E&]de de scarabées
+    Avec du \[Fm]beurre
+    Enfin \[C]bref, des ho\[Fm]rreurs !
   \endverse
 
   \beginchorus
-    \[Fam]Mais s'il continue à tou\[Mi&]cher à mon école
-    \[Do]Le président : à la ca\[Fam]sserole !
+    \[Fm]Mais s'il continue à tou\[E&]cher à mon école
+    \[C]Le président : à la ca\[Fm]sserole !
   \endchorus
 
   \beginverse

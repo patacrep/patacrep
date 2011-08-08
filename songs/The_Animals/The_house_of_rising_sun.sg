@@ -4,18 +4,18 @@
   [by=The Animals,cov=the-animals,album=The animals]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi7}{020100}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
 
   \beginverse
-    \[Lam]There is a \[Do]house in \[Ré]New Orleans \[Fa]
-    They \[Lam]call the \[Do]Rising \[Mi7]Sun
-    And it's \[Lam]been the \[Do]ruin of \[Ré]many a poor \[Fa]boy
-    And \[Lam]God, I \[Mi7]know, I'm \[Lam]one
-    {\nolyrics \[Do Ré Fa Lam Mi7 Lam Mi7]}
+    \[Am]There is a \[C]house in \[D]New Orleans \[F]
+    They \[Am]call the \[C]Rising \[E7]Sun
+    And it's \[Am]been the \[C]ruin of \[D]many a poor \[F]boy
+    And \[Am]God, I \[E7]know, I'm \[Am]one
+    {\nolyrics \[C D F Am E7 Am E7]}
   \endverse
 
   \beginverse

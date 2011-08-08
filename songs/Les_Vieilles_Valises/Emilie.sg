@@ -3,16 +3,16 @@
 \beginsong{Émilie}
   [by=Les Vieilles Valises]
 
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Rém}{XX0231}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]{J'ai} rencontré \[Sol]le grand a\[Lam]mour
-    \[Lam]Quand j'étais p'tit à l'é\[Sol]cole dans la \[Lam]cour
-    \[Lam]{J'devais} avoir \[Sol]trois ans et \[Lam]demi
-    \[Lam]Exactement \[Sol]comme Émi\[Lam]lie
+    \[Am]{J'ai} rencontré \[G]le grand a\[Am]mour
+    \[Am]Quand j'étais p'tit à l'é\[G]cole dans la \[Am]cour
+    \[Am]{J'devais} avoir \[G]trois ans et \[Am]demi
+    \[Am]Exactement \[G]comme Émi\[Am]lie
   \endverse
 
   \beginverse*
@@ -30,8 +30,8 @@
   \endverse
 
   \beginchorus
-    \[Rém]Émilie qu'é\[Sol]tait sage et \[Lam]jolie \[Do]
-    \[Rém]Et qui l'est sure\[Sol]ment encore aujourd'\[Lam]hui
+    \[Dm]Émilie qu'é\[G]tait sage et \[Am]jolie \[C]
+    \[Dm]Et qui l'est sure\[G]ment encore aujourd'\[Am]hui
     \rep{2}
   \endchorus
 

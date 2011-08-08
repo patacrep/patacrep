@@ -4,17 +4,17 @@
   [by=Loic Lantoine,cov=badaboum,album=Badaboum]
 
   \cover
-  \gtab{Lam}{5:022000}
-  \gtab{Sol}{3:022100}
-  \gtab{Mi7}{5:X2120X}
-  \gtab{Do}{3:X02220}
-  \gtab{Si7}{2:X02020}
+  \gtab{Am}{5:022000}
+  \gtab{G}{3:022100}
+  \gtab{E7}{5:X2120X}
+  \gtab{C}{3:X02220}
+  \gtab{B7}{2:X02020}
 
   \beginverse
-    \[Lam]{J'arrive} le matin au bi\[Sol]strot du coin
-    \[Lam]Je m'installe sagement l'âme \[Sol]sans tourments
-    J'ai \[Lam]plein d'trucs à faire qui pour\[Sol]raient m'rendre fier
-    \[Lam]{J'commande} un café \[Mi7]pour me réveiller
+    \[Am]{J'arrive} le matin au bi\[G]strot du coin
+    \[Am]Je m'installe sagement l'âme \[G]sans tourments
+    J'ai \[Am]plein d'trucs à faire qui pour\[G]raient m'rendre fier
+    \[Am]{J'commande} un café \[E7]pour me réveiller
   \endverse
 
   \beginverse*
@@ -34,10 +34,10 @@
   \endverse
 
   \beginchorus
-    J'y peux \[Do]rien, c'est mon côté \[Sol]punk
-    \[Do]{C'est} le vieux démon qui dé\[Sol]monte mon monde
-    J'y peux \[Lam]rien, c'est mon côté \[Mi7]punk
-    \[Lam]J'ai la vie en vice qui \[Si7]{s'fout} d'mon a\[Mi7]vis
+    J'y peux \[C]rien, c'est mon côté \[G]punk
+    \[C]{C'est} le vieux démon qui dé\[G]monte mon monde
+    J'y peux \[Am]rien, c'est mon côté \[E7]punk
+    \[Am]J'ai la vie en vice qui \[B7]{s'fout} d'mon a\[E7]vis
   \endchorus
 
   \beginverse

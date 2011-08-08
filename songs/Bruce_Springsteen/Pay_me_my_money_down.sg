@@ -4,23 +4,23 @@
   [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Si&}{1:X02220}
-  \gtab{Fa}{1:022100}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
 
   \beginverse
-    \[Sol]Well, I thought I heard the captain say
-    ``Pay me my \[Ré]money down
+    \[G]Well, I thought I heard the captain say
+    ``Pay me my \[D]money down
     Tomorrow is my sailing day
-    Pay me my \[Sol]money down.''
+    Pay me my \[G]money down.''
   \endverse
 
   \beginchorus
     Pay me. Pay me
-    Pay me my \[Ré]money down
+    Pay me my \[D]money down
     Pay me or go to jail
-    Pay me my \[Sol]money down
+    Pay me my \[G]money down
   \endchorus
 
   \beginverse
@@ -38,17 +38,17 @@
   \endverse
 
   \beginverse
-    \[Si&]Well, I wish I was Mr. Gates
-    Pay me my \[Fa]money down
+    \[B&]Well, I wish I was Mr. Gates
+    Pay me my \[F]money down
     Haul my money in egg crates
-    Pay me my \[Si&]money down
+    Pay me my \[B&]money down
   \endverse
 
   \beginverse
-    \[Sol]Well, 40 nights, nights at sea
-    Pay me my \[Ré]money down
+    \[G]Well, 40 nights, nights at sea
+    Pay me my \[D]money down
     Captain worked every last dollar out of me
-    Pay me my \[Sol]money down
+    Pay me my \[G]money down
   \endverse
 
 \endsong

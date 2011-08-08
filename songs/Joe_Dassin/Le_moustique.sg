@@ -4,15 +4,15 @@
   [by=Joe Dassin,cov=le-meilleur-de-joe-dassin,album=Le meilleur de Joe Dassin]
 
   \cover
-  \gtab{Do7}{X32310}
-  \gtab{Fa}{1:022100}
+  \gtab{C7}{X32310}
+  \gtab{F}{1:022100}
 
 
   \beginchorus
-    No me moleste mos\[Do7]quito
-    No me moleste mos\[Fa]quito
-    No me moleste mos\[Do7]quito
-    Retourne chez \[Fa]toi \[Do7 Fa]
+    No me moleste mos\[C7]quito
+    No me moleste mos\[F]quito
+    No me moleste mos\[C7]quito
+    Retourne chez \[F]toi \[C7 F]
   \endchorus
 
   \beginverse

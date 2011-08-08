@@ -4,32 +4,32 @@
   [by=Alicia Keys,cov=If_aint_got_you,album=The diary of Alicia Keys]
 
   \cover
-  \gtab{Sol7}{320001}
-  \gtab{Sim}{2:X02210}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Do7}{X32310}
-  \gtab{Ré}{XX0232}
+  \gtab{G7}{320001}
+  \gtab{Bm}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{C7}{X32310}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Sol7]Some people \[Sim]live for the \[Mim]fortune
-    \[Lam]Some people live just for the \[Ré]fame
-    \[Sol7]Some people \[Sim]live for the \[Mim]power, yeah
-    \[Lam]Some people live just to play the \[Ré]game
-    \[Sol7]Some people \[Lam]think that the \[Sim]physical \[Lam]things
-    \[Sol7]Define \[Lam]what's with\[Sim]in \[Lam]\dots~And I've
-    \[Sol7]Been there \[Lam]before, \[Sim]that life's a \[Lam]bore
-    \[Sol7]So full of the \[Lam]superfi\[Sim]cial
+    \[G7]Some people \[Bm]live for the \[Em]fortune
+    \[Am]Some people live just for the \[D]fame
+    \[G7]Some people \[Bm]live for the \[Em]power, yeah
+    \[Am]Some people live just to play the \[D]game
+    \[G7]Some people \[Am]think that the \[Bm]physical \[Am]things
+    \[G7]Define \[Am]what's with\[Bm]in \[Am]\dots~And I've
+    \[G7]Been there \[Am]before, \[Bm]that life's a \[Am]bore
+    \[G7]So full of the \[Am]superfi\[Bm]cial
   \endverse
 
   \beginchorus
-    \[Sol7]Some \[Lam]peo\[Sim]ple \[Do7]want it all, but
-    I don't \[Sim]want nothing at all
-    If it ain't \[Lam]you baby;
-    If I ain't got \[Sol7]you baby
-    \[Sol7]Some \[Lam]people \[Sim]want \[Do7]diamond rings
-    Some just want \[Sim]everything, but everything means
-    \[Lam]Nothing, if I ain't got \[Sol7]you, yeah
+    \[G7]Some \[Am]peo\[Bm]ple \[C7]want it all, but
+    I don't \[Bm]want nothing at all
+    If it ain't \[Am]you baby;
+    If I ain't got \[G7]you baby
+    \[G7]Some \[Am]people \[Bm]want \[C7]diamond rings
+    Some just want \[Bm]everything, but everything means
+    \[Am]Nothing, if I ain't got \[G7]you, yeah
   \endchorus
 
   \beginverse
@@ -43,11 +43,11 @@
     Cares for me
   \endverse
 
-  %\musicnote{outro (picking): Do7 Sim}
+  %\musicnote{outro (picking): C7 Bm}
   \beginverse
-    If I ain't \[Lam]got you with me baby \[Sol7]
-    \[Sol7]So \[Lam]nothing in \[Sim]this \[Do7]whole wide world don't mean a \[Sim]thing
-    If I ain't got you with \[Lam]me baby \[Sol7]
+    If I ain't \[Am]got you with me baby \[G7]
+    \[G7]So \[Am]nothing in \[Bm]this \[C7]whole wide world don't mean a \[Bm]thing
+    If I ain't got you with \[Am]me baby \[G7]
   \endverse
 
 \endsong

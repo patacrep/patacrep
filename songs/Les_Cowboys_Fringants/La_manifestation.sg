@@ -4,19 +4,19 @@
   [by=Les Cowboys Fringants,cov=break-syndical,album=Break syndical]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Mim}{022000}
-  \gtab{Sim}{2:X02210}
-  \gtab{La}{X02220}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{X02220}
 
 
   \beginverse
-    Sont \[Sol]arrivés en \[Do]West Falia
-    En \[Sol]criant : {\og}S.O.\[Do]S Gaïa{\fg}
-    \[Sol]Accoutrés comme \[Do]des hippies
-    A\[Ré]vec les yeux rougis
+    Sont \[G]arrivés en \[C]West Falia
+    En \[G]criant : {\og}S.O.\[C]S Gaïa{\fg}
+    \[G]Accoutrés comme \[C]des hippies
+    A\[D]vec les yeux rougis
   \endverse
 
   \beginverse*
@@ -27,17 +27,17 @@
   \endverse
 
   \beginverse*
-    Il y a\[Mim]vait tous les clichés
-    De l'é\[Sim]poque des granolas
-    Des che\[Do]mises en macramé
-    Aux filles poi\[Sol]lues en d'sous des \[Ré]bras
+    Il y a\[Em]vait tous les clichés
+    De l'é\[Bm]poque des granolas
+    Des che\[C]mises en macramé
+    Aux filles poi\[G]lues en d'sous des \[D]bras
   \endverse
 
   \beginverse*
-    V'nant en \[Mim]grande majorité
-    Du cé\[Sim]gep du Vieux-Montréal
-    Tous là \[Do]pour manifester
-    Contre les \[La]multinatio\[Ré]nales
+    V'nant en \[Em]grande majorité
+    Du cé\[Bm]gep du Vieux-Montréal
+    Tous là \[C]pour manifester
+    Contre les \[A]multinatio\[D]nales
   \endverse
 
 
@@ -71,10 +71,10 @@
 
 
   \beginchorus
-    À la \[Do]mani\[Ré]festa\[Sol]tion !
-    On rê\[Do]vait d'ré\[Ré]volu\[Mim]tion
-    \[Do]Se g'lant l'\[Ré]cul avec une \[Sim]poignée de com\[Mim]parses
-    Sous la \[Do]pluie froide \[Ré]du mois de \[Mim]mars
+    À la \[C]mani\[D]festa\[G]tion !
+    On rê\[C]vait d'ré\[D]volu\[Em]tion
+    \[C]Se g'lant l'\[D]cul avec une \[Bm]poignée de com\[Em]parses
+    Sous la \[C]pluie froide \[D]du mois de \[Em]mars
   \endchorus
 
 

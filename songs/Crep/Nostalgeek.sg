@@ -4,31 +4,31 @@
   [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
   \gtab{So7}{320001}
-  \gtab{Sol}{320003}
-  \gtab{Dom}{3:X02210}
-  \gtab{Si&}{1:X02220}
-  \gtab{Sol#}{4:022100}
-  \gtab{Fam}{1:022000}
+  \gtab{G}{320003}
+  \gtab{Cm}{3:X02210}
+  \gtab{B&}{1:X02220}
+  \gtab{G#}{4:022100}
+  \gtab{Fm}{1:022000}
 
   \beginverse
-    Hello \[Do]Mario, vieux rigolo
-    Ça t'fait quoi ? 35 \[Fa]piges et toujours pu\[Do]ceau ?
-    Faut croire que d'\[Sol7]sauter pour des pièces
-    Personne n'est \[Do]dupe, ça fait un peu tache
-    Daisy et \[Sol7]Peach n'étaient pas en liesse
-    Malgré ta \[Do]super\[Sol7]be mous\[Do]tache
+    Hello \[C]Mario, vieux rigolo
+    Ça t'fait quoi ? 35 \[F]piges et toujours pu\[C]ceau ?
+    Faut croire que d'\[G7]sauter pour des pièces
+    Personne n'est \[C]dupe, ça fait un peu tache
+    Daisy et \[G7]Peach n'étaient pas en liesse
+    Malgré ta \[C]super\[G7]be mous\[C]tache
   \endverse
 
   \beginchorus
-    T'avais \[Fa]pourtant parcouru tous les \[Do]mondes
-    Appris \[Fa]la flûte, le tennis et le ping-\[Sol]pong
-    Éradi\[Do]qué toutes les \[Sol7]races de tor\[Do]tues
-    À croire que \[Sol7]tout était déjà fi\[Do]chu
-    É\[Fa]coute le conseil d'un a\[Do]mi
-    \[Sol7] Arrête les cham\[Do]pis
+    T'avais \[F]pourtant parcouru tous les \[C]mondes
+    Appris \[F]la flûte, le tennis et le ping-\[G]pong
+    Éradi\[C]qué toutes les \[G7]races de tor\[C]tues
+    À croire que \[G7]tout était déjà fi\[C]chu
+    É\[F]coute le conseil d'un a\[C]mi
+    \[G7] Arrête les cham\[C]pis
   \endchorus
 
   \beginverse
@@ -82,20 +82,20 @@
     Maîtrisé tous ces coups inutiles
     Dragon punch, une roulade et la toupie
     Un p'tit conseil trouve-toi un boulot
-    Tu pourras pt'être recoudre ton kimo\[Dom]no
+    Tu pourras pt'être recoudre ton kimo\[Cm]no
   \endchorus
 
   \beginverse
-    Mais heureuse\[Dom]ment que les consoles \[Si&]traversent le temps
-    \[Sol]Sans encombres, telles \[Dom]le \[Sol]Great \[Dom]Fox
-    \[Si&]Profitant des Ring of Death \[Sol#]{d'la} dernière X\[Sol]Box
+    Mais heureuse\[Cm]ment que les consoles \[B&]traversent le temps
+    \[G]Sans encombres, telles \[Cm]le \[G]Great \[Cm]Fox
+    \[B&]Profitant des Ring of Death \[G#]{d'la} dernière X\[G]Box
   \endverse
 
   \beginverse*
-    \[Fam]Snake sort de ta boite et \[Dom]rejoins Goldorak
-    \[Si&]C'est l'heure d'un come-\[Sol]back
-    \[Fam]V'nez sauver notre gala\[Dom]xie
-    De \[Sol]ces imposteurs moi\[Do]sis
+    \[Fm]Snake sort de ta boite et \[Cm]rejoins Goldorak
+    \[B&]C'est l'heure d'un come-\[G]back
+    \[Fm]V'nez sauver notre gala\[Cm]xie
+    De \[G]ces imposteurs moi\[C]sis
   \endverse
 
   \beginverse

@@ -5,36 +5,36 @@
 
   \cover
   \capo{3}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
-  \gtab{Ré}{XX0232}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{D}{XX0232}
+  \gtab{Am}{X02210}
 
   \beginverse
-    \[Do]There's a calm sur\[Sol]render
-    \[Do]To the rush of \[Sol]day
-    \[Do]When the heat of the \[Sol]rolling world
-    \[Lam]Can be turned a\[Ré]way
-    \[Do]An enchanted \[Sol]moment
-    \[Do]And it sees me \[Sol]through
-    \[Do]It's enough for this \[Mim]restless warrior
-    \[Fa]Just to be with \[Ré]you
+    \[C]There's a calm sur\[G]render
+    \[C]To the rush of \[G]day
+    \[C]When the heat of the \[G]rolling world
+    \[Am]Can be turned a\[D]way
+    \[C]An enchanted \[G]moment
+    \[C]And it sees me \[G]through
+    \[C]It's enough for this \[Em]restless warrior
+    \[F]Just to be with \[D]you
   \endverse
 
   \beginchorus
-    And \[Sol]can you \[Ré]feel the \[Mim]love to\[Do]night?
-    \[Sol] It is \[Do]where we \[Ré]are
-    \[Do] It's e\[Sol]nough for this \[Mim]wide-\[Sol]eyed \[Do]wanderer
-    \[Lam]That \[Sol]we \[Do]got this \[Ré]far
+    And \[G]can you \[D]feel the \[Em]love to\[C]night?
+    \[G] It is \[C]where we \[D]are
+    \[C] It's e\[G]nough for this \[Em]wide-\[G]eyed \[C]wanderer
+    \[Am]That \[G]we \[C]got this \[D]far
   \endchorus
 
   \beginchorus
     And can you feel the love tonight?
     How it's laid to rest?
     It's enough to make kings and vagabonds
-    Be\[Lam]lieve \[Sol]the \[Do]very \[Sol]best
+    Be\[Am]lieve \[G]the \[C]very \[G]best
   \endchorus
 
   \beginverse

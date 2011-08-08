@@ -8,15 +8,15 @@
   %\utab{G}{0002}
   %\utab{Am}{2000}
   %\utab{F}{1020}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
 
   \beginverse
-    They say \[Do]Taylor was a good girl
-    \[Sol]Never one to be late
-    \[Lam]Complain, express \[Fa]ideas in her \[Do]brain\[Sol Lam Fa]
+    They say \[C]Taylor was a good girl
+    \[G]Never one to be late
+    \[Am]Complain, express \[F]ideas in her \[C]brain\[G Am F]
   \endverse
 
   \beginverse*
@@ -39,8 +39,8 @@
 
 
   \beginchorus
-    \[Do] She just \[Sol]wanders around
-    \[Lam] Una\[Fa]ffected by
+    \[C] She just \[G]wanders around
+    \[Am] Una\[F]ffected by
   \endchorus
 
   \beginchorus

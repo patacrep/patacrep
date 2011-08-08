@@ -5,18 +5,18 @@
 
   \cover
   \capo{2}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Mim}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
 
 
   \beginverse
-    Les \[Lam]jours ne sont pas éternels
+    Les \[Am]jours ne sont pas éternels
     Disait un astre au Soleil
-    \[Sol]Le tour du monde ça je sais faire
-    Depuis \[Lam]toujours, toujours {\ldots}
+    \[G]Le tour du monde ça je sais faire
+    Depuis \[Am]toujours, toujours {\ldots}
     Disait la Lune à la Terre
     Dont les couleurs sont de ces merveilles
     Issues d'hier ou du Soleil
@@ -27,12 +27,12 @@
   \endverse
 
   \beginchorus
-    \[Lam]Dis est-ce que tu \[Do]penses
-    \[Fa]Qu'il faut arrêter \[Do]là ?
-    \[Sol]Dis est-ce que tu \[Do]crois
-    \[Mim]Que tout ça c'est im\[Fa]mense ?
-    \[Sol]Dis qu'est-ce que tu \[Do]vois ?
-    \[Mim]Est-ce que l'on suit la ten\[Fa]dance ?
+    \[Am]Dis est-ce que tu \[C]penses
+    \[F]Qu'il faut arrêter \[C]là ?
+    \[G]Dis est-ce que tu \[C]crois
+    \[Em]Que tout ça c'est im\[F]mense ?
+    \[G]Dis qu'est-ce que tu \[C]vois ?
+    \[Em]Est-ce que l'on suit la ten\[F]dance ?
   \endchorus
 
   \beginverse

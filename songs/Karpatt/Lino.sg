@@ -4,11 +4,11 @@
   [by=Karpatt,cov=dans-d-beaux-draps,album=Dans d'beaux draps]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Solm}{3:022000}
-  \gtab{La}{5:022100}
-  \gtab{Si&}{6:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{F}{1:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{A}{5:022100}
+  \gtab{B&}{6:022100}
 
   \textnote{Intro}
   \beginverse*
@@ -19,10 +19,10 @@
   \endverse
 
   \beginverse
-    Paraît qu'on \[Rém]{l'a} r'trouvé pendu
-    Un p'tit \[Fa]matin à la lanterne
-    Du vieux tri\[Solm]po où on l'a vu
-    Rentrer la \[La]veille avant qu'il ferme
+    Paraît qu'on \[Dm]{l'a} r'trouvé pendu
+    Un p'tit \[F]matin à la lanterne
+    Du vieux tri\[Gm]po où on l'a vu
+    Rentrer la \[A]veille avant qu'il ferme
   \endverse
 
   \beginverse*
@@ -34,11 +34,11 @@
 
 
   \beginchorus
-    Il s'est pris \[Si&]une balle dans l'ci\[Rém]gare
-    C'était pas \[Si&]du joli-jo\[Rém]li
-    Mais pas une \[Solm]tâche \echo{mais pas une tache}
-    Sur son cos\[Fa]tard \echo{sur son costard}
-    Il avait \[Si&]la classe à c'qu'on \[La]dit
+    Il s'est pris \[B&]une balle dans l'ci\[Dm]gare
+    C'était pas \[B&]du joli-jo\[Dm]li
+    Mais pas une \[Gm]tâche \echo{mais pas une tache}
+    Sur son cos\[F]tard \echo{sur son costard}
+    Il avait \[B&]la classe à c'qu'on \[A]dit
   \endchorus
 
   \lilypond{Lino}

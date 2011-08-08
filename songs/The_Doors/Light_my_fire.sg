@@ -4,25 +4,25 @@
   [by=The Doors,cov=the-doors,album=The doors]
 
   \cover
-  \gtab{Lam7}{X02010}
-  \gtab{Fa#m7}{202220}
-  \gtab{Sol}{320003}
-  \gtab{La}{X02220}
-  \gtab{Ré}{XX0232}
-  \gtab{Mi}{022100}
-  \gtab{Fa}{1:022100}
+  \gtab{Am7}{X02010}
+  \gtab{F#m7}{202220}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
+  \gtab{F}{1:022100}
 
   \beginverse
-    You \[Lam7]know that it would be \[Fa#m7]untrue
-    You \[Lam7]know that it would be a \[Fa#m7]liar
-    \[Lam7]If I was to say to \[Fa#m7]you
-    \[Lam7]Girl we couldn't get much \[Fa#m7]higher
+    You \[Am7]know that it would be \[F#m7]untrue
+    You \[Am7]know that it would be a \[F#m7]liar
+    \[Am7]If I was to say to \[F#m7]you
+    \[Am7]Girl we couldn't get much \[F#m7]higher
   \endverse
 
   \beginchorus
-    \[Sol]Come on baby \[La]light my \[Ré]fire
-    \[Sol]Come on baby \[La]light my \[Ré]fire
-    \[Sol]Try to set the \[Ré]night on \[Mi]fire
+    \[G]Come on baby \[A]light my \[D]fire
+    \[G]Come on baby \[A]light my \[D]fire
+    \[G]Try to set the \[D]night on \[E]fire
   \endchorus
 
   \beginverse
@@ -35,7 +35,7 @@
   \beginchorus
     Come on baby light my fire \rep{2}
     Try to set the night on fire \rep{3}
-    \[Fa]Try to set \[Do]the night on \[Ré]fire
+    \[F]Try to set \[C]the night on \[D]fire
   \endchorus
 
 \endsong

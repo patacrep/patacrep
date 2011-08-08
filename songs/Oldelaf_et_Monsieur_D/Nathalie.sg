@@ -4,25 +4,25 @@
   [by=Oldelaf et Monsieur~D.,cov=l-album-de-la-maturite,album=L'album de la maturité]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Sim}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Bm}{2:X02210}
 
   \beginverse
-    \[Sol]Tu étais venue en car \[Ré]au cœur du mois d'août \echo{ou-\[Mim]ouh}
-    Pour chercher un peu d'espoir \[Do]dans ce monde \[Ré]fou
-    \[Sol]Au détour d'une prière dans \[Ré]un amour immense \echo{ou-\[Mim]ouh}
-    Nos deux mains se rencontrèrent chan\[Do]tons à l'abon\[Ré]dance
+    \[G]Tu étais venue en car \[D]au cœur du mois d'août \echo{ou-\[Em]ouh}
+    Pour chercher un peu d'espoir \[C]dans ce monde \[D]fou
+    \[G]Au détour d'une prière dans \[D]un amour immense \echo{ou-\[Em]ouh}
+    Nos deux mains se rencontrèrent chan\[C]tons à l'abon\[D]dance
   \endverse
 
   \beginchorus
-    \[Sol]Natha\[Ré]lie mon amour des \[Mim]JMJ\[Sol]
-    Seras-\[Do]tu cette an\[Lam]née, au \[Do]pèlerinage de \[Ré]Chartres ?
-    \[Sol]Natha\[Ré]lie ne dis pas non au Mes\[Mim]sie\[Sim]
-    Grâce à \[Do]qui nos \[Lam]deux vies se dé\[Ré]tart\[Sol]rent
+    \[G]Natha\[D]lie mon amour des \[Em]JMJ\[G]
+    Seras-\[C]tu cette an\[Am]née, au \[C]pèlerinage de \[D]Chartres ?
+    \[G]Natha\[D]lie ne dis pas non au Mes\[Em]sie\[Bm]
+    Grâce à \[C]qui nos \[Am]deux vies se dé\[D]tart\[G]rent
   \endchorus
 
   \beginverse

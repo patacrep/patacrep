@@ -4,18 +4,18 @@
   [by=The Rolling Stones,cov=hot-rocks,album=Hot rocks]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Si}{2:X02220}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
+  \gtab{Em}{022000}
+  \gtab{B}{2:X02220}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
 
 
   \beginverse
-    \[Mim]I see a red door and I \[Si]want to paint it black
-    \[Mim]No colours anymore, I \[Si]want them to turn black
-    \[Mim]I se\[Ré]e the \[Sol]girls walk \[Ré]by dressed \[Mim]in their summer clothes
-    \[Mim]I ha\[Ré]ve to \[Sol]turn my \[Ré]head un\[Do]til my darkness \[Si]goes
+    \[Em]I see a red door and I \[B]want to paint it black
+    \[Em]No colours anymore, I \[B]want them to turn black
+    \[Em]I se\[D]e the \[G]girls walk \[D]by dressed \[Em]in their summer clothes
+    \[Em]I ha\[D]ve to \[G]turn my \[D]head un\[C]til my darkness \[B]goes
   \endverse
 
   \beginverse

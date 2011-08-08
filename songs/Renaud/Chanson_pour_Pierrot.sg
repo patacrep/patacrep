@@ -4,27 +4,27 @@
   [by=Renaud,cov=ma-gonzesse,album=Ma gonzesse]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Si}{2:X02220}
-  \gtab{Ré}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{B}{2:X02220}
+  \gtab{D}{XX0232}
 
   \beginverse
-    \[Mim]T'es pas né dans la \[Lam]rue
-    T'es pas né dans l'ruiss\[Mim]eau
-    T'es pas un enfant per\[Lam]du
-    Pas un enfant d'sal\[Mim]aud
-    Vu qu't'es né dans ma \[Lam]tête
-    Et qu'tu vis dans ma \[Mim]peau
-    J'ai construit ta pla\[Lam]nète
-    Au fond de mon cerv\[Si]eau
+    \[Em]T'es pas né dans la \[Am]rue
+    T'es pas né dans l'ruiss\[Em]eau
+    T'es pas un enfant per\[Am]du
+    Pas un enfant d'sal\[Em]aud
+    Vu qu't'es né dans ma \[Am]tête
+    Et qu'tu vis dans ma \[Em]peau
+    J'ai construit ta pla\[Am]nète
+    Au fond de mon cerv\[B]eau
   \endverse
 
   \beginchorus
-    Pierrot mon \[Mim]gosse, mon frangin
-    Mon pot\[Lam]eau, mon copain
-    Tu m'tiens \[Ré]chaud
-    Pier\[Mim]rot
+    Pierrot mon \[Em]gosse, mon frangin
+    Mon pot\[Am]eau, mon copain
+    Tu m'tiens \[D]chaud
+    Pier\[Em]rot
   \endchorus
 
   \beginverse

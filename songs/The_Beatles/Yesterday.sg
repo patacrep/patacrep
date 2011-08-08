@@ -4,17 +4,17 @@
   [by=The Beatles,cov=1,album=1]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Mi7}{020100}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol7}{320001}
+  \gtab{C}{X32010}
+  \gtab{E7}{020100}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G7}{320001}
 
   \beginverse
-    \[Do]Yesterday
-    \[Mi7]All my troubles seemed so \[Lam]far away
-    \[Fa]Now it \[Sol7]seems as though they're \[Do]here to stay
-    Oh, \[Lam]I be\[Fa]lieve in \[Do]yesterday
+    \[C]Yesterday
+    \[E7]All my troubles seemed so \[Am]far away
+    \[F]Now it \[G7]seems as though they're \[C]here to stay
+    Oh, \[Am]I be\[F]lieve in \[C]yesterday
   \endverse
 
   \beginverse
@@ -25,10 +25,10 @@
   \endverse
 
   \beginchorus
-    \[Mi7]Why she \[Lam]had \[Mi7]to g\[Lam]o
-    I don't \[Sol7]know, she wouldn't \[Do]say
-    \[Mi7]I said \[Lam]some\[Mi7]thing \[Lam]wrong
-    Now I \[Sol7]long for yester\[Do]day
+    \[E7]Why she \[Am]had \[E7]to g\[Am]o
+    I don't \[G7]know, she wouldn't \[C]say
+    \[E7]I said \[Am]some\[E7]thing \[Am]wrong
+    Now I \[G7]long for yester\[C]day
   \endchorus
 
   \beginverse

@@ -4,23 +4,23 @@
   [by=As de Trêfle,cov=merci-bonsoir,album=Merci bonsoir]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{3:022100}
-  \gtab{Lam}{X02210}
-  \gtab{Mi}{022100}
+  \gtab{C}{X32010}
+  \gtab{G}{3:022100}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
 
   \beginverse
-    \[Do]Quand nous irons dans les bois tous les deux mon a\[Sol]mour
-    À l'abri des regards et les yeux dans les \[Lam]yeux, c'est \[Sol]mieux
-    \[Do]{J'verrai} tes pieds et tes mains et tes genoux et tes \[Sol]hanches
-    Et tes fesses et ton dos et ton cul et tes \[Lam]seins, tes \[Sol]seins
+    \[C]Quand nous irons dans les bois tous les deux mon a\[G]mour
+    À l'abri des regards et les yeux dans les \[Am]yeux, c'est \[G]mieux
+    \[C]{J'verrai} tes pieds et tes mains et tes genoux et tes \[G]hanches
+    Et tes fesses et ton dos et ton cul et tes \[Am]seins, tes \[G]seins
   \endverse
 
   \beginchorus
-    \[Mi]Oh Jessica mon amour je te connais si \[Lam]bien
-    \[Sol]Que dans les ports de Cherbourg à six heures du ma\[Do]tin
-    \[Mi]Oh Jessica mon amour je ne regrette \[Lam]rien
-    \[Sol]Car j'ai lâché du ve\[Do]lours dans le \[Mi7]creux de tes \[Lam]reins
+    \[E]Oh Jessica mon amour je te connais si \[Am]bien
+    \[G]Que dans les ports de Cherbourg à six heures du ma\[C]tin
+    \[E]Oh Jessica mon amour je ne regrette \[Am]rien
+    \[G]Car j'ai lâché du ve\[C]lours dans le \[E7]creux de tes \[Am]reins
   \endchorus
 
   \lilypond{Jessica}

@@ -5,17 +5,17 @@
 
   \cover
   \capo{4}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi7}{020100}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
+  \gtab{Am}{X02210}
 
 
   \lilypond{La_danse_des_esquimaux}
 
   \beginverse
-    \[Do]C'est une danse \[Fa]que l'on \[Do]danse \[Mi7]chez les esqui\[Lam]maux
-    \[Do]Elle se danse \[Fa]en ca\[Do]dence \[Mi7]quand on n'a pas \[Lam]chaud
+    \[C]C'est une danse \[F]que l'on \[C]danse \[E7]chez les esqui\[Am]maux
+    \[C]Elle se danse \[F]en ca\[C]dence \[E7]quand on n'a pas \[Am]chaud
   \endverse
 
   \beginchorus

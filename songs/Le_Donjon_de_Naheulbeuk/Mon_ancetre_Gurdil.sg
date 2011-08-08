@@ -5,23 +5,23 @@
 
   \cover
   \capo{3}
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
 
 
   \beginverse
-    \[Lam]Voici, l'histoire d'un nain ca\[Sol]pable
-    De courir \[Lam]vite et \[Mim]de voyager \[Lam]loin
-    Dans \[Lam]son épopée formi\[Sol]dable
-    Nous le sui\[Lam]vrons, \[Mim]une bière à la \[Lam]main
+    \[Am]Voici, l'histoire d'un nain ca\[G]pable
+    De courir \[Am]vite et \[Em]de voyager \[Am]loin
+    Dans \[Am]son épopée formi\[G]dable
+    Nous le sui\[Am]vrons, \[Em]une bière à la \[Am]main
   \endverse
 
   \beginchorus
-    Nous \[Lam]sommes les \[Sol]nains sous la mon\[Lam]tagne
-    On creuse le jour, on \[Sol]boit la \[Mim]nuit
-    Et on n'aime \[Do]pas ceux d'\[Sol]la sur\[Lam]face
+    Nous \[Am]sommes les \[G]nains sous la mon\[Am]tagne
+    On creuse le jour, on \[G]boit la \[Em]nuit
+    Et on n'aime \[C]pas ceux d'\[G]la sur\[Am]face
   \endchorus
 
   \beginverse
@@ -32,10 +32,10 @@
   \endverse
 
   \beginverse
-    Il \[Lam]{fit sa} cabane en bor\[Sol]dure
-    D'un bois tou\[Do]ffu peu\[Mim]plé d'elfes syl\[Lam]vains
-    Des \[Lam]gens qui bouffent de la ver\[Sol]dure
-    Évidem\[Lam]ment, ça n'fait \[Mim]pas des bons voi\[Lam]sins
+    Il \[Am]{fit sa} cabane en bor\[G]dure
+    D'un bois tou\[C]ffu peu\[Em]plé d'elfes syl\[Am]vains
+    Des \[Am]gens qui bouffent de la ver\[G]dure
+    Évidem\[Am]ment, ça n'fait \[Em]pas des bons voi\[Am]sins
   \endverse
 
   \beginverse

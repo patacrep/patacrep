@@ -4,16 +4,16 @@
   [by=The Beautiful Girls,cov=Learn-Yourself,album=Learn yourself]
 
   \cover
-  \gtab{Mi}{022100}
-  \gtab{Do#m}{4:X02210}
-  \gtab{Sol#}{4:022100}
-  \gtab{La}{5:022100}
+  \gtab{E}{022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{G#}{4:022100}
+  \gtab{A}{5:022100}
 
   \beginverse
-    \[Mi]This day is getting ol\[Do#m]der
-    In \[Sol#]fading light it's \[La]beautiful
-    \[Mi]This wind is blowing cold\[Do#m]er
-    \[Sol#]And too soon I'll feel \[La]it's pull
+    \[E]This day is getting ol\[C#m]der
+    In \[G#]fading light it's \[A]beautiful
+    \[E]This wind is blowing cold\[C#m]er
+    \[G#]And too soon I'll feel \[A]it's pull
   \endverse
 
   \beginverse*
@@ -26,14 +26,14 @@
   \endverse
 
   \beginchorus
-    \[Mi]So sturdy up, sturdy up your\[Do#m]{ heart}
-    \[Sol#]{For }the road is long ah\[La]ead
-    \[Mi]I'll be with you even though we're \[Do#m]apart
-    \[Sol#]{But }your road is yours to \[La]{tread}
-    And\[Mi]{ so it} goes, and so \[Do#m]{it goes}
-    And so\[Sol#]{ it }goes, slows your mind\[La]{, mind}, mind
-    And so \[Mi]{it goes}, and so \[Do#m]{it goes}
-    And so \[Sol#]{it goes}, slows \[La]{your} mind, mind, mind, mind, mind
+    \[E]So sturdy up, sturdy up your\[C#m]{ heart}
+    \[G#]{For }the road is long ah\[A]ead
+    \[E]I'll be with you even though we're \[C#m]apart
+    \[G#]{But }your road is yours to \[A]{tread}
+    And\[E]{ so it} goes, and so \[C#m]{it goes}
+    And so\[G#]{ it }goes, slows your mind\[A]{, mind}, mind
+    And so \[E]{it goes}, and so \[C#m]{it goes}
+    And so \[G#]{it goes}, slows \[A]{your} mind, mind, mind, mind, mind
   \endchorus
 
   \beginverse

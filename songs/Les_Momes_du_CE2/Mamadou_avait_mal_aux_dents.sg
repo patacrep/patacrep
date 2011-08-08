@@ -5,24 +5,24 @@
 
   \cover
   \capo{5}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Mi7}{020100}
-  \gtab{Rém}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{E7}{020100}
+  \gtab{Dm}{XX0231}
 
   \lilypond{Mamadou_avait_mal_aux_dents}
 
   \beginverse
-    Mama\[Do]dou avait mal aux \[Sol]dents
-    Sa ma\[Mi7]man lui dit : {\og}Mon dou\[Lam]dou
-    Lave tes dents un peu plus sou\[Mi7]vent
-    Des caries t'auras plus du \[Lam]tout.{\fg}
+    Mama\[C]dou avait mal aux \[G]dents
+    Sa ma\[E7]man lui dit : {\og}Mon dou\[Am]dou
+    Lave tes dents un peu plus sou\[E7]vent
+    Des caries t'auras plus du \[Am]tout.{\fg}
   \endverse
 
   \beginverse*
-    Mamadou mange du denti\[Rém]frice
-    Sur une tartine de pain d'é\[Mi7]pice
+    Mamadou mange du denti\[Dm]frice
+    Sur une tartine de pain d'é\[E7]pice
     Et quel délice hum \rep{2}
   \endverse
 

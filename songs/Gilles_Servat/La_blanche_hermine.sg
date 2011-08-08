@@ -4,16 +4,16 @@
   [by=Gilles Servat,cov=la-blanche-hermine,album=La blanche hermine]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
 
   \beginverse
-    J'ai ren\[Lam]contré ce matin
-    Devant \[Sol]la haie de mon champ
-    Une \[Fa]troupe de marins
-    D'ouvri\[Sol]ers, de pay\[Lam]sans
+    J'ai ren\[Am]contré ce matin
+    Devant \[G]la haie de mon champ
+    Une \[F]troupe de marins
+    D'ouvri\[G]ers, de pay\[Am]sans
   \endverse
 
   \beginverse*
@@ -24,10 +24,10 @@
   \endverse
 
   \beginchorus
-    La voi\[Lam]là la blanche hermine
-    Vive \[Sol]la mouette et l'ajonc
-    La voi\[Fa]là la blanche hermine
-    Vive \[Sol]Fougères et Cli\[Lam]ssons
+    La voi\[Am]là la blanche hermine
+    Vive \[G]la mouette et l'ajonc
+    La voi\[F]là la blanche hermine
+    Vive \[G]Fougères et Cli\[Am]ssons
   \endchorus
 
   \beginverse

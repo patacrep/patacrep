@@ -1,22 +1,23 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{La fiancée de l'eau}[by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
+\beginsong{La fiancée de l'eau}
+  [by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Si&}{6:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{Lam}{5:022000}
-  \gtab{Mim}{7:X02210}
+  \gtab{Dm}{5:X02210}
+  \gtab{B&}{6:022100}
+  \gtab{C}{3:X02220}
+  \gtab{Am}{5:022000}
+  \gtab{Em}{7:X02210}
 
   \beginverse
-    \[Rém]Morte de sécheresse
-    La fiancée de l'\[Si&]eau
+    \[Dm]Morte de sécheresse
+    La fiancée de l'\[B&]eau
     A marié son sang
-    À celui du rui\[Do]sseau
-    Prince range ton drap \[Rém]blanc
-    Prince range ton drap \[Lam]blanc
-    Prince range ton drap \[Mim]blanc
+    À celui du rui\[C]sseau
+    Prince range ton drap \[Dm]blanc
+    Prince range ton drap \[Am]blanc
+    Prince range ton drap \[Em]blanc
   \endverse
 
   \beginverse
@@ -43,7 +44,7 @@
     Non tu n'auras rien d'elle \rep{3}
   \endverse
 
-  \lilypond{La_fiancee_de_l_eau}
+  \lilypond{A_fiancee_de_l_eau}
 
   \beginverse
     Non tu n'auras rien d'elle

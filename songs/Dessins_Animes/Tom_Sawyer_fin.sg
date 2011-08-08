@@ -4,19 +4,19 @@
   [by=Dessins Animés,cov=tom-sawyer-fin,album=Tom Sawyer]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Rém}{XX0231}
-  \gtab{Ré7}{XX0212}
-  \gtab{Sol7}{320001}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Dm}{XX0231}
+  \gtab{D7}{XX0212}
+  \gtab{G7}{320001}
 
   \beginverse
-    \[Do]Haut com\[Lam]me trois \[Fa]pom\[Sol]mes
-    \[Do]Tom Saw\[Lam]yer est \[Fa]un joyeux gar\[Sol]çon
-    \[Do]Qui n'aime \[Lam]pas l'é\[Fa]co\[Sol]le
-    \[Do]Et pré\[Lam]fère pê\[Fa]cher des \[Sol]pois\[Do]sons
+    \[C]Haut com\[Am]me trois \[F]pom\[G]mes
+    \[C]Tom Saw\[Am]yer est \[F]un joyeux gar\[G]çon
+    \[C]Qui n'aime \[Am]pas l'é\[F]co\[G]le
+    \[C]Et pré\[Am]fère pê\[F]cher des \[G]pois\[C]sons
   \endverse
 
   \beginverse*
@@ -27,10 +27,10 @@
   \endverse
 
   \beginchorus
-    \[Rém]Ses copains, c'est Huckleberry
-    \[Do]Joe et Jim et le \[Fa]mon\[Sol]de
-    \[Rém]La maison, c'est Sid et Mary
-    Et Tan\[Fa]te Polly qui \[Ré7]gron\[Sol7]de
+    \[Dm]Ses copains, c'est Huckleberry
+    \[C]Joe et Jim et le \[F]mon\[G]de
+    \[Dm]La maison, c'est Sid et Mary
+    Et Tan\[F]te Polly qui \[D7]gron\[G7]de
   \endchorus
 
   \beginverse

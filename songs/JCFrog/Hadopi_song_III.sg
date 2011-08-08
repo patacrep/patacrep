@@ -4,17 +4,17 @@
   [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Solm}{3:022000}
-  \gtab{Si&}{1:X02220}
-  \gtab{Fa}{1:022100}
-  \gtab{La7}{X02020}
+  \gtab{Em}{022000}
+  \gtab{Gm}{3:022000}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{A7}{X02020}
 
   \beginverse
-    \[Mim]Ma petite mamie
-    Qu'as-tu donc \[Solm]fait ?
-    Tu nous l'as réveillée, l'Hado\[Si&]pi
-    On a re\[Fa]çu le troisième cou\[La7]rrier
+    \[Em]Ma petite mamie
+    Qu'as-tu donc \[Gm]fait ?
+    Tu nous l'as réveillée, l'Hado\[B&]pi
+    On a re\[F]çu le troisième cou\[A7]rrier
   \endverse
 
   \beginverse*
@@ -25,12 +25,12 @@
   \endverse
 
   \beginchorus
-    Et maintenant il faut \[Rém]vivre
-    Ou sur\[Si&]vivre
-    Sans mo\[Fa]dem
-    Sans twi\[La7]tter tout ce qu'on \[Rém]aime
-    Être off\[Do]line donc malheu\[Si&]reux
-    Vivre \[La7]seul, juste nous \[Rém]deux
+    Et maintenant il faut \[Dm]vivre
+    Ou sur\[B&]vivre
+    Sans mo\[F]dem
+    Sans twi\[A7]tter tout ce qu'on \[Dm]aime
+    Être off\[C]line donc malheu\[B&]reux
+    Vivre \[A7]seul, juste nous \[Dm]deux
   \endchorus
 
   \beginverse

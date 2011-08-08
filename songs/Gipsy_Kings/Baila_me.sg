@@ -4,37 +4,37 @@
   [by=Gipsy Kings,cov=este-mundo,album=Este mundo]
 
   \cover
-  \gtab{Sol}{3:022100}
-  \gtab{Ré7}{3:X2120X}
-  \gtab{Do}{3:X02220}
+  \gtab{G}{3:022100}
+  \gtab{D7}{3:X2120X}
+  \gtab{C}{3:X02220}
 
   \beginverse
-    Cuando sei maria do\[Sol]lores
-    Cuando sei quei mal d'a\[Ré7]more
+    Cuando sei maria do\[G]lores
+    Cuando sei quei mal d'a\[D7]more
     Cuando sei mal a su vera
-    Cuando sei me va al do\[Sol]ttore
+    Cuando sei me va al do\[G]ttore
     \rep{2}
   \endverse
 
   \beginchorus
-    Baila, baila, baila \[Sol]
-    Baila, baila, baila me \[Ré7]
+    Baila, baila, baila \[G]
+    Baila, baila, baila me \[D7]
     Esta rumba a ta gitana
-    Que yo siempre canta\[Sol]ré
+    Que yo siempre canta\[G]ré
   \endchorus
 
   \beginchorus
     Pero yo siempre cantaré
-    Pero yo siempre canta\[Ré7]ré
+    Pero yo siempre canta\[D7]ré
     Esta rumba a ta gitana
-    Que yo siempre canta\[Sol]ré
+    Que yo siempre canta\[G]ré
   \endchorus
 
   \beginverse
-    Que sólo vive a enamo\[Do]ra te
-    Que sólo vive a enamo\[Sol]ra te
-    Me enamoré de esta gi\[Ré7]tana
-    Que ya se ponga a bai\[Sol]lando
+    Que sólo vive a enamo\[C]ra te
+    Que sólo vive a enamo\[G]ra te
+    Me enamoré de esta gi\[D7]tana
+    Que ya se ponga a bai\[G]lando
   \endverse
 
 \endsong

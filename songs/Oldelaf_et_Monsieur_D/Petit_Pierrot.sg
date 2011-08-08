@@ -4,24 +4,24 @@
   [by=Oldelaf et Monsieur~D.,cov=chansons-cons,album=Chansons cons]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Rém}{XX0231}
-  \gtab{Mi7}{020100}
-  \gtab{Sol7}{320001}
-  \gtab{Do}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{E7}{020100}
+  \gtab{G7}{320001}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Ton enfance n'a pas tou\[Rém]jours été rose
-    \[Mi7]Quand t'es né, ton père sor\[Lam]tait d'une cirrhose
-    \[Lam]Et quand, bébé, tu pleu\[Rém]rais dans ton parc
-    \[Mi7]Il t'mettait une \[Lam]claque !
+    \[Am]Ton enfance n'a pas tou\[Dm]jours été rose
+    \[E7]Quand t'es né, ton père sor\[Am]tait d'une cirrhose
+    \[Am]Et quand, bébé, tu pleu\[Dm]rais dans ton parc
+    \[E7]Il t'mettait une \[Am]claque !
   \endverse
 
   \beginchorus
-    \[Sol7]Petit Pier\[Do]rot
-    \[Mi7]Tu n'es pas \[Lam]beau;
-    \[Sol7]Pauvre pe\[Do]tit
-    \[Mi7]Ta joue rou\[Lam]git \dots
+    \[G7]Petit Pier\[C]rot
+    \[E7]Tu n'es pas \[Am]beau;
+    \[G7]Pauvre pe\[C]tit
+    \[E7]Ta joue rou\[Am]git \dots
   \endchorus
 
   \beginverse

@@ -4,29 +4,29 @@
   [by=Gogol Bordello,cov=super-taranta,album=Super Taranta!]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Mi}{022100}
-  \gtab{Rém}{XX0231}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{Dm}{XX0231}
 
   \beginverse
-    \[Lam]First time I had \[Mi]read the Bible
-    \[Mi]It had struck me \[Lam]as unwitting
-    \[Lam]I think it may \[Mi]start a rumor
-    \[Mi]That the Lord ain't \[Lam]got no humor
+    \[Am]First time I had \[E]read the Bible
+    \[E]It had struck me \[Am]as unwitting
+    \[Am]I think it may \[E]start a rumor
+    \[E]That the Lord ain't \[Am]got no humor
   \endverse
 
   \beginverse*
-    \[Lam]Put \[Mi]me inside SS\[Lam]C
-    \[Lam]Let's \[Mi]test superstring \[Lam]theory
-    \[Lam]Oh yo yo \[Rém]yo, accelerate the \[Lam]protons
-    \[Lam]{Ah stir} it \[Mi]twice and then just add \[Lam]me, \[Mi]{'cause}
+    \[Am]Put \[E]me inside SS\[Am]C
+    \[Am]Let's \[E]test superstring \[Am]theory
+    \[Am]Oh yo yo \[Dm]yo, accelerate the \[Am]protons
+    \[Am]{Ah stir} it \[E]twice and then just add \[Am]me, \[E]{'cause}
   \endverse
 
   \beginchorus
-    \[Lam]{I don't} read the \[Mi]Bible \echo{Bible}
-    \[Mi]{I don't} trust \[Lam]disciple \echo{disciple}
-    \[Lam]Even if they're \[Mi]made of marble
-    \[Mi]Or Canal Street \[Lam]bling
+    \[Am]{I don't} read the \[E]Bible \echo{Bible}
+    \[E]{I don't} trust \[Am]disciple \echo{disciple}
+    \[Am]Even if they're \[E]made of marble
+    \[E]Or Canal Street \[Am]bling
     \rep{2}
   \endchorus
 

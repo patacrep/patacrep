@@ -4,15 +4,15 @@
   [by=Vincent Malone,cov=le-roi-des-papas,album=Le roi des Papas]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol7}{320001}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G7}{320001}
 
   \beginverse
-    \[Do]Il était une fois un petit \[Fa]escargot
-    \[Do]Qui se balançait en haut d'un \[Sol7]esca\[Do]bot
-    \[Do]Mais voilà qu'il s'affole
-    \[Fa]Que tout dégringole :
+    \[C]Il était une fois un petit \[F]escargot
+    \[C]Qui se balançait en haut d'un \[G7]esca\[C]bot
+    \[C]Mais voilà qu'il s'affole
+    \[F]Que tout dégringole :
     {\og}Ah zut, flûte et pomme de terre
     J'suis tombé dans la cafetière !
     Rah, c'est dégoutant{\fg}

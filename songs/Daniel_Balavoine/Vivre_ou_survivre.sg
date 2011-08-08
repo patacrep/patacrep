@@ -4,17 +4,17 @@
   [by=Daniel Balavoine,cov=vendeurs-de-larmes,album=Vendeurs de larmes]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Solm}{3:022000}
-  \gtab{Si&}{1:X02220}
-  \gtab{Fa}{1:022100}
-  \gtab{La7}{X02020}
+  \gtab{Em}{022000}
+  \gtab{Gm}{3:022000}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{A7}{X02020}
 
   \beginverse
-    \[Mim]Heure sonne matin
-    Pleurs, \[Solm]chagrins
-    Et repasse le film hu\[Si&]mide
-    Du pa\[Fa]ssé dans les \[La7]yeux
+    \[Em]Heure sonne matin
+    Pleurs, \[Gm]chagrins
+    Et repasse le film hu\[B&]mide
+    Du pa\[F]ssé dans les \[A7]yeux
   \endverse
 
   \beginverse*
@@ -25,12 +25,12 @@
   \endverse
 
   \beginchorus
-    Et pourtant, il veut \[Rém]vivre
-    Ou sur\[Si&]vivre
-    Sans po\[Fa]èmes
-    Sans bles\[La7]ser tous ceux qu'il \[Rém]aime
-    Être heu\[Do]reux, malheu\[Si&]reux
-    Vivre \[La7]seul ou même à \[Rém]deux
+    Et pourtant, il veut \[Dm]vivre
+    Ou sur\[B&]vivre
+    Sans po\[F]èmes
+    Sans bles\[A7]ser tous ceux qu'il \[Dm]aime
+    Être heu\[C]reux, malheu\[B&]reux
+    Vivre \[A7]seul ou même à \[Dm]deux
   \endchorus
 
   \beginverse

@@ -5,16 +5,16 @@
 
   \cover
   \capo{2}
-  \gtab{Sol}{022000}
-  \gtab{Lam}{X02210}
-  \gtab{Ré}{XX0232}
-  \gtab{Mim}{022000}
+  \gtab{G}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
 
   \beginverse
-    \[Sol]Écoutez-moi, vous les ringards
-    Écologistes du samedi \[Lam]soir
-    Cette chanson-là vaut pas un \[Ré]clou
-    Mais je la chante rien que pour \[Sol]vous
+    \[G]Écoutez-moi, vous les ringards
+    Écologistes du samedi \[Am]soir
+    Cette chanson-là vaut pas un \[D]clou
+    Mais je la chante rien que pour \[G]vous
   \endverse
 
   \beginverse*
@@ -26,11 +26,11 @@
 
 
   \beginchorus
-    Moi j'suis amoureux de Pa\[Mim]name
-    \[Lam]Du béton et du maca\[Ré]dam
-    \[Sol]Sous les pavés, ouais c'est la \[Mim]plage
-    \[Lam]Mais l'bitume c'est mon pay\[Ré]sage
-    Le bitume c'est mon pay\[Sol]sage
+    Moi j'suis amoureux de Pa\[Em]name
+    \[Am]Du béton et du maca\[D]dam
+    \[G]Sous les pavés, ouais c'est la \[Em]plage
+    \[Am]Mais l'bitume c'est mon pay\[D]sage
+    Le bitume c'est mon pay\[G]sage
   \endchorus
 
 

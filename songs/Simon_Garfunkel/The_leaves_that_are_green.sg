@@ -5,20 +5,20 @@
 
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
 
 
   \beginverse
-    \[Do]{I was} twenty-one \[Rém]years when \[Sol]I wrote this \[Do]song
-    I'm twenty-two now, but I \[Fa]won't \[Sol]be for \[Do]long
-    \[Fa]Time hurries \[Sol]on
-    And the \[Do]leaves \[Sol]that are \[Fa]gre\[Sol]en turn to \[Do]brown
-    And they \[Lam]wither with the wind
-    And they \[Rém]crumble in your \[Sol]hand
+    \[C]{I was} twenty-one \[Dm]years when \[G]I wrote this \[C]song
+    I'm twenty-two now, but I \[F]won't \[G]be for \[C]long
+    \[F]Time hurries \[G]on
+    And the \[C]leaves \[G]that are \[F]gre\[G]en turn to \[C]brown
+    And they \[Am]wither with the wind
+    And they \[Dm]crumble in your \[G]hand
   \endverse
 
   \beginverse

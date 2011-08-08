@@ -4,21 +4,21 @@
   [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do7}{032310}
+  \gtab{F}{1:022100}
+  \gtab{C7}{032310}
 
   \beginverse
-    \[Fa]As I was walking down the street
-    \[Do7]Down the street, \[Fa]down the street
+    \[F]As I was walking down the street
+    \[C7]Down the street, \[F]down the street
     A pretty girl I chanced to meet
-    And we \[Do7]danced by the light of the \[Fa]moon
+    And we \[C7]danced by the light of the \[F]moon
   \endverse
 
   \beginchorus
-    \[Fa]Buffalo gals won't you come out tonight
-    \[Do7]Come out tonight, \[Fa]come out tonight
-    \[Fa]Buffalo gals won't you come out tonight
-    And we'll \[Do7]dance by the light of the \[Fa]moon
+    \[F]Buffalo gals won't you come out tonight
+    \[C7]Come out tonight, \[F]come out tonight
+    \[F]Buffalo gals won't you come out tonight
+    And we'll \[C7]dance by the light of the \[F]moon
   \endchorus
 
   \beginverse

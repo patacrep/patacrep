@@ -4,20 +4,20 @@
   [by=The Beatles,cov=let-it-be,album=Let it be]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Fa*}{8:X02220}
-  \gtab{Mim*}{7:X02220}
-  \gtab{Ré*}{5:X02220}
-  \gtab{Do*}{3:X02220}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{F*}{8:X02220}
+  \gtab{Em*}{7:X02220}
+  \gtab{D*}{5:X02220}
+  \gtab{C*}{3:X02220}
 
   \beginverse
-    When I \[Do]find myself in \[Sol]times of trouble
-    \[Lam]Mother Mary \[Fa]comes to me
-    \[Do]Speaking words of \[Sol]wisdom
-    Let it \[Fa*]be \[Mi* Ré* Do*]
+    When I \[C]find myself in \[G]times of trouble
+    \[Am]Mother Mary \[F]comes to me
+    \[C]Speaking words of \[G]wisdom
+    Let it \[F*]be \[E* D* C*]
   \endverse
 
   \beginverse*
@@ -28,10 +28,10 @@
   \endverse
 
   \beginchorus
-    Let it \[Lam]be, let it \[Sol]be
-    Let it \[Fa]be, let it \[Do]be
-    \[Do]Whisper words of \[Sol]wisdom
-    Let it \[Fa*]be \[Mi* Ré* Do*]
+    Let it \[Am]be, let it \[G]be
+    Let it \[F]be, let it \[C]be
+    \[C]Whisper words of \[G]wisdom
+    Let it \[F*]be \[E* D* C*]
   \endchorus
 
   \beginverse

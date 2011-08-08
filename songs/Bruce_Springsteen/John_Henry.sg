@@ -4,18 +4,18 @@
   [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Si&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{B&}{1:X02220}
 
   \textnote{One, two, three}
 
   \beginverse
-    Well, John \[Fa]Henry was a little baby
-    Sittin' on his dady's \[Do]knee
-    He \[Fa]pick up a hammer and a \[Si&]little piece of steel
-    And, ``God, \[Fa]hammer's gonna \[Si&]be the death of \[Fa]me, Lord, \[Rém]Lord
-    \[Fa]Hammer's gonna \[Do]be the death of \[Fa]me''
+    Well, John \[F]Henry was a little baby
+    Sittin' on his dady's \[C]knee
+    He \[F]pick up a hammer and a \[B&]little piece of steel
+    And, ``God, \[F]hammer's gonna \[B&]be the death of \[F]me, Lord, \[Dm]Lord
+    \[F]Hammer's gonna \[C]be the death of \[F]me''
   \endverse
 
   \beginverse

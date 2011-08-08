@@ -4,26 +4,26 @@
   [by=The Pogues,cov=best-of-the-pogues,album=Best of the Pogues]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XXX0232}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XXX0232}
 
   \beginverse
-    \[Sol]On the fourth of July
-    Eighteen hundred and \[Do]six
-    We set \[Sol]sail from the sweet cove of \[Ré]Cork
-    We were \[Sol]sailing away
-    With a cargo of \[Do]bricks
-    For the \[Sol]grand city \[Ré]hall in New \[Sol]York
+    \[G]On the fourth of July
+    Eighteen hundred and \[C]six
+    We set \[G]sail from the sweet cove of \[D]Cork
+    We were \[G]sailing away
+    With a cargo of \[C]bricks
+    For the \[G]grand city \[D]hall in New \[G]York
   \endverse
 
   \beginverse*
-    It was an \[Sol]wonderful craft
-    She was \[Ré]rigged fore and aft
-    And oh, \[Sol]how the wild wind \[Ré]drove her
-    She stood \[Sol]several blasts
-    She had \[Do]twenty seven masts
-    And they \[Sol]called her the \emph{Irish \[Ré]Ro\[Sol]ver}
+    It was an \[G]wonderful craft
+    She was \[D]rigged fore and aft
+    And oh, \[G]how the wild wind \[D]drove her
+    She stood \[G]several blasts
+    She had \[C]twenty seven masts
+    And they \[G]called her the \emph{Irish \[D]Ro\[G]ver}
   \endverse
 
   \beginverse

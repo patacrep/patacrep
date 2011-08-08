@@ -5,24 +5,24 @@
 
   \cover
   \capo{1}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
   \beginverse
-    In the \[Do]highways, in the hedges
-    In the \[Sol]highways, in the \[Do]hedges
-    In the \[Do]highways, in the hedges
-    I'll be \[Sol]somewhere working for my \[Do]Lord
+    In the \[C]highways, in the hedges
+    In the \[G]highways, in the \[C]hedges
+    In the \[C]highways, in the hedges
+    I'll be \[G]somewhere working for my \[C]Lord
   \endverse
 
   \beginchorus
-    I'll be \[Fa]somewhere working
-    I'll be \[Do]somewhere working
-    I'll be \[Sol]somewhere working for my \[Do]Lord
-    I'll be \[Fa]somewhere working
-    I'll be \[Do]somewhere working
-    I'll be \[Sol]somewhere working for my \[Do]Lord
+    I'll be \[F]somewhere working
+    I'll be \[C]somewhere working
+    I'll be \[G]somewhere working for my \[C]Lord
+    I'll be \[F]somewhere working
+    I'll be \[C]somewhere working
+    I'll be \[G]somewhere working for my \[C]Lord
   \endchorus
 
   \beginverse

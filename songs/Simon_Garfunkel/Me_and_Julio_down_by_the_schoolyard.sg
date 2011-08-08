@@ -5,25 +5,25 @@
 
   \cover
   \capo{2}
-  \gtab{Sol}{320003}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XX0232}
-  \gtab{Fa}{1:022100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
 
-  \musicnote{intro: Sol Do Sol Ré \rep{2}}
+  \musicnote{intro: G C G D \rep{2}}
 
   \beginverse
-    The \[Sol]mama pajama rolled out of bed
-    And ran to the police \[Do]station
-    When the \[Ré]papa found out, he began to shout
-    And he started the investi\[Sol]gation
+    The \[G]mama pajama rolled out of bed
+    And ran to the police \[C]station
+    When the \[D]papa found out, he began to shout
+    And he started the investi\[G]gation
   \endverse
 
   \beginverse*
-    It's against the \[Ré]law
-    It was against the \[Sol]law
-    What the mama \[Ré]saw
-    It was against the \[Sol]law
+    It's against the \[D]law
+    It was against the \[G]law
+    What the mama \[D]saw
+    It was against the \[G]law
   \endverse
 
   \beginverse
@@ -34,13 +34,13 @@
   \endverse
 
   \beginchorus
-    Well, I'm on my \[Do]way
-    I don't know \[Sol]where I'm going
-    I'm on my \[Do]way
-    I'm takin' my \[Sol]time but I don't know \[Ré]where
-    Goodbye \[Do]Rosie the \[Fa]Queen of Co\[Sol]rona
-    See you, me and \[Fa]Julio \[Do]down by the \[Ré]school\[Sol]yard \[Do]
-    See you, \[Sol]me and \[Fa]Julio \[Do]down by the \[Ré]school\[Sol]yard \[Do]
+    Well, I'm on my \[C]way
+    I don't know \[G]where I'm going
+    I'm on my \[C]way
+    I'm takin' my \[G]time but I don't know \[D]where
+    Goodbye \[C]Rosie the \[F]Queen of Co\[G]rona
+    See you, me and \[F]Julio \[C]down by the \[D]school\[G]yard \[C]
+    See you, \[G]me and \[F]Julio \[C]down by the \[D]school\[G]yard \[C]
   \endchorus
 
 

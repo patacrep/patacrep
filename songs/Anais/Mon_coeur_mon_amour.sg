@@ -4,40 +4,40 @@
   [by=Anaïs,cov=the-cheap-show,album=The cheap show]
 
   \cover
-  \gtab{Fa#}{2:022100}
-  \gtab{Fa7/Do7}{2:002120}
-  \gtab{Si}{2:X02220}
-  \gtab{Do#}{4:X02220}
+  \gtab{F#}{2:022100}
+  \gtab{F7/C7}{2:002120}
+  \gtab{B}{2:X02220}
+  \gtab{C#}{4:X02220}
 
   \beginverse
-    Mon \[Fa#]cœur, mon a\[Fa7/Do7]mour
+    Mon \[F#]cœur, mon a\[F7/C7]mour
     Mon amour, mon cœur
     Mon cœur, mon amour
     Mon amour, mon cœur
   \endverse
 
   \beginverse
-    Ça dégou\[Fa#]line d'a\[Fa7/Do7]mour
+    Ça dégou\[F#]line d'a\[F7/C7]mour
     C'est beau mais c'est insupportable
     C'est un pudding bien lourd
     De mots doux à chaque phrase
   \endverse
 
   \beginverse*
-    \[Si]Elle est belle ta \[Fa#]quiche amour
+    \[B]Elle est belle ta \[F#]quiche amour
     Mon cœur, passe-moi la salade
     Et ça se fait des mamours
     Se donne la becquée à table
     Ce mélange de sentiments
     Aromatisé aux fines herbes
     Me fait sourire gentiment
-    Et finale\[Si]ment me donne la \[Do#]gerbe
+    Et finale\[B]ment me donne la \[C#]gerbe
   \endverse
 
   \beginchorus
-    Je \[Si]hais les \[Do#]couples
-    Qui me ra\[Fa#]ppellent que je suis \[Si]seule
-    Je \[Si]déteste les \[Do#]couples
+    Je \[B]hais les \[C#]couples
+    Qui me ra\[F#]ppellent que je suis \[B]seule
+    Je \[B]déteste les \[C#]couples
     Je les hais tout court !
   \endchorus
 

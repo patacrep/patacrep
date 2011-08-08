@@ -5,23 +5,23 @@
 
   \cover
   \capo{5}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
 
   \beginchorus
-    So bugger \[Do]off, you bastards, \[Sol]bugger \[Do]off! \echo{Fuck You!}
-    Bugger \[Lam]off, you bastards, bugger \[Sol]off! \echo{Fuck You!}
-    Like a \[Do]herd of bloody swine who re\[Fa]fuse to leave the \[Sol]trough
-    You'll \[Do]get no more this \[Fa]evening so you \[Sol]bastards bugger \[Do]off
+    So bugger \[C]off, you bastards, \[G]bugger \[C]off! \echo{Fuck You!}
+    Bugger \[Am]off, you bastards, bugger \[G]off! \echo{Fuck You!}
+    Like a \[C]herd of bloody swine who re\[F]fuse to leave the \[G]trough
+    You'll \[C]get no more this \[F]evening so you \[G]bastards bugger \[C]off
   \endchorus
 
   \beginverse
-    You've \[Do]been a splendid audience but \[Sol]{oh the} time does \[Do]pass
-    Now don't you all be \[Fa]let the door to hit you in the \[Sol]ass
-    \[Lam]You've been a lovely audience but \[Sol]enough is e\[Do]nough
-    We'd take it very \[Fa]kindly if you'd \[Do]all just \[Sol]bugger \[Do]off
+    You've \[C]been a splendid audience but \[G]{oh the} time does \[C]pass
+    Now don't you all be \[F]let the door to hit you in the \[G]ass
+    \[Am]You've been a lovely audience but \[G]enough is e\[C]nough
+    We'd take it very \[F]kindly if you'd \[C]all just \[G]bugger \[C]off
   \endverse
 
   \beginverse

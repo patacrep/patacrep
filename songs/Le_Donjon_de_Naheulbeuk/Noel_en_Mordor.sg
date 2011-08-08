@@ -4,26 +4,26 @@
   [by=Le Donjon de Naheulbeuk]
 
   \capo{3}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Fa}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
 
   \lilypond{Noel_en_Mordor}
 
   \beginchorus
-    Du Mor\[Lam]{dor à} la Com\[Do]té
-    C'est \[Sol]Noël, c'est \[Mim]Noël
-    Du Mor\[Lam]{dor à} la Com\[Do]té
-    Tous les \[Sol]vœux sont \[Mim]exau\[Lam]cés
+    Du Mor\[Am]{dor à} la Com\[C]té
+    C'est \[G]Noël, c'est \[Em]Noël
+    Du Mor\[Am]{dor à} la Com\[C]té
+    Tous les \[G]vœux sont \[Em]exau\[Am]cés
   \endchorus
 
   \beginverse
-    \[Lam]Imagi\[Sol]nez que \[Fa]Père Noël le \[Mim]vieux
-    \[Lam]Souhaitant sou\[Sol]dain com\[Fa]pléter sa tour\[Mim]née
-    \[Lam]{S'en} fut per\[Sol]du dans \[Fa]les Terres du Mi\[Mim]lieu
-    \[Lam]Les vœux de \[Sol]tous vou\[Fa]drait réali\[Mim]ser
+    \[Am]Imagi\[G]nez que \[F]Père Noël le \[Em]vieux
+    \[Am]Souhaitant sou\[G]dain com\[F]pléter sa tour\[Em]née
+    \[Am]{S'en} fut per\[G]du dans \[F]les Terres du Mi\[Em]lieu
+    \[Am]Les vœux de \[G]tous vou\[F]drait réali\[Em]ser
   \endverse
 
   \beginverse

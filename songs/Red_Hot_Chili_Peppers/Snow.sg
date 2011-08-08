@@ -4,16 +4,16 @@
   [by=Red Hot Chili Peppers,cov=stadium-arcadium,album=Stadium Arcadium]
 
   \cover
-  \gtab{Sol#m}{4:022000}
-  \gtab{Mi}{022100}
-  \gtab{Si}{2:X02220}
-  \gtab{Fa#}{2:022100}
-  \gtab{Do#m}{4:X02210}
+  \gtab{G#m}{4:022000}
+  \gtab{E}{022100}
+  \gtab{B}{2:X02220}
+  \gtab{F#}{2:022100}
+  \gtab{C#m}{4:X02210}
 
   %first verse pattern
   \beginverse
-    \[Sol#m]Come to decide that the \[Mi]things that I tried
-    Were \[Si]in my life just \[Fa#]to get high on
+    \[G#m]Come to decide that the \[E]things that I tried
+    Were \[B]in my life just \[F#]to get high on
     When I sit alone come get a little known
     But I need more than myself this time
   \endverse
@@ -57,16 +57,16 @@
   \endchorus
 
   \beginchorus
-    \[Mi]The more I see, the less I know
+    \[E]The more I see, the less I know
     The more I like to let it go
-    \[Sol#m]Hey oh
-    Wo-oo wo-oo \[Mi]wo
+    \[G#m]Hey oh
+    Wo-oo wo-oo \[E]wo
   \endchorus
 
   %second chorus
   \beginverse*
-    \[Si]Deep beneath the cover of another \[Fa#]perfect wonder
-    Where it's \[Do#m]so white as snow
+    \[B]Deep beneath the cover of another \[F#]perfect wonder
+    Where it's \[C#m]so white as snow
     Privately divided by a world so undecided
     And there's nowhere to go
   \endverse

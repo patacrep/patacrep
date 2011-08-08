@@ -4,17 +4,17 @@
   [by=The Beatles,cov=1,album=1]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
 
   \beginverse
-    In the \[Ré]town \[Do]where I \[Sol]was born
-    \[Mim]Lived a \[Lam]man who \[Do]sailed to \[Ré]sea
-    \[Sol]And he \[Ré]told us \[Do]of his \[Sol]life
-    \[Mim]{In the} \[Lam]land of \[Do]subma\[Ré]rines
+    In the \[D]town \[C]where I \[G]was born
+    \[Em]Lived a \[Am]man who \[C]sailed to \[D]sea
+    \[G]And he \[D]told us \[C]of his \[G]life
+    \[Em]{In the} \[Am]land of \[C]subma\[D]rines
   \endverse
 
   \beginverse
@@ -25,10 +25,10 @@
   \endverse
 
   \beginchorus
-    \[Sol]We all live in our \[Ré]yellow submarine
-    Yellow submarine, \[Sol]yellow submarine
-    \[Sol]We all live in our \[Ré]yellow submarine
-    Yellow submarine, \[Sol]yellow submarine
+    \[G]We all live in our \[D]yellow submarine
+    Yellow submarine, \[G]yellow submarine
+    \[G]We all live in our \[D]yellow submarine
+    Yellow submarine, \[G]yellow submarine
   \endchorus
 
   \beginverse

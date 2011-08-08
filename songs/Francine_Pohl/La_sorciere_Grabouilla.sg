@@ -3,14 +3,13 @@
 \beginsong{La sorcière Grabouilla}
   [by=Francine Pohl]
 
-  \gtab{Mim}{022000}
-  \gtab{Si7}{X21202}
-  \gtab{Lam}{X02210}
-
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+  \gtab{Am}{X02210}
 
   \beginverse
-    C'est \[Mim]une vieille sorcière
-    Qui \[Si7]{s'appelle} Grabou\[Mim]illa
+    C'est \[Em]une vieille sorcière
+    Qui \[B7]{s'appelle} Grabou\[Em]illa
     Grabou-bou, Grabou-bou
     Grabou-bou, Grabouilla
   \endverse
@@ -23,19 +22,19 @@
   \endverse
 
   \beginverse*
-    Elle \[Lam]transforme en cafe\[Mim]tière
-    Les \[Si7]bottes de ma grand-\[Mim]mère
-    Se \[Lam]cache dans la gou\[Mim]ttière
-    D'la \[Si7]maison d'Nico\[Mim]las
+    Elle \[Am]transforme en cafe\[Em]tière
+    Les \[B7]bottes de ma grand-\[Em]mère
+    Se \[Am]cache dans la gou\[Em]ttière
+    D'la \[B7]maison d'Nico\[Em]las
     Nico-co, Nico-co
     Nico-co, Nicolas
   \endverse
 
   \beginchorus
-    \[Lam]Sorcière, \[Mim]sorcière
-    \[Si7]Vite cache-\[Mim]toi !
-    \[Lam]Sorcière, \[Mim]sorcière
-    \[Si7]Retourne chez \[Mim]toi !
+    \[Am]Sorcière, \[Em]sorcière
+    \[B7]Vite cache-\[Em]toi !
+    \[Am]Sorcière, \[Em]sorcière
+    \[B7]Retourne chez \[Em]toi !
   \endchorus
 
   \beginverse

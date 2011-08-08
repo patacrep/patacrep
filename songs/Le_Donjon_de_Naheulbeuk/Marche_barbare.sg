@@ -5,17 +5,17 @@
 
   \cover
   \capo{1}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
-  \gtab{Mim}{022000}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
 
   \beginverse
-    \[Lam]Dans une \[Do]hutte on \[Fa Sol]a gran\[Lam]di
-    \[Lam]Depuis tout \[Sol]jeune, on prend des \[Lam]gnons
-    \[Lam]{L'acier} tran\[Do]chant c'est \[Sol Fa]notre \[Lam]vie
-    \[Lam]Et nos loi\[Sol]sirs c'est \[Fa]la ba\[Lam]ston
+    \[Am]Dans une \[C]hutte on \[F G]a gran\[Am]di
+    \[Am]Depuis tout \[G]jeune, on prend des \[Am]gnons
+    \[Am]{L'acier} tran\[C]chant c'est \[G F]notre \[Am]vie
+    \[Am]Et nos loi\[G]sirs c'est \[F]la ba\[Am]ston
   \endverse
 
   \beginverse
@@ -33,10 +33,10 @@
   \endverse
 
   \beginchorus
-    \[Lam]{C'est} en mar\[Do]chant dans \[Sol]les en\[Lam]trailles
-    \[Lam]Que les bar\[Sol]bares vont à l'a\[Mim]ssaut
-    \[Lam]Et par le \[Do]fer des \[Sol]haches de \[Lam]bataille
-    \[Lam]Tailler la \[Do]chair et \[Sol]bro\[Mim]yer les \[Lam]os
+    \[Am]{C'est} en mar\[C]chant dans \[G]les en\[Am]trailles
+    \[Am]Que les bar\[G]bares vont à l'a\[Em]ssaut
+    \[Am]Et par le \[C]fer des \[G]haches de \[Am]bataille
+    \[Am]Tailler la \[C]chair et \[G]bro\[Em]yer les \[Am]os
   \endchorus
 
   \beginverse

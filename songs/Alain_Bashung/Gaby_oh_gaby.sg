@@ -4,29 +4,29 @@
   [by=Alain Bashung,cov=roulette-russe,album=Roulette russe]
 
   \cover
-  \gtab{Mi}{022100}
-  \gtab{La}{X02220}
-  \gtab{Si}{2:X02220}
-  \gtab{Fa#}{2:022100}
-  \gtab{Do#}{4:X02220}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{B}{2:X02220}
+  \gtab{F#}{2:022100}
+  \gtab{C#}{4:X02220}
 
   \beginverse
-    Je fais \[Mi]mon footing au milieu des algues et des coraux
-    Et \[La]j'fais mes pompes sur les restes d'un vieux cargo
-    Je dis \[Mi]bonjour, faut bien que je me \[La]mouille
-    C'est ma \[Mi]dernière surprise partie, je m'écrase le nez au hublot
-    J'ai \[La]mon contrat de confiance, l'encéphalo qui faut
-    J'ai du \[Mi]bol, j'en vois qui ri\[La]golent
+    Je fais \[E]mon footing au milieu des algues et des coraux
+    Et \[A]j'fais mes pompes sur les restes d'un vieux cargo
+    Je dis \[E]bonjour, faut bien que je me \[A]mouille
+    C'est ma \[E]dernière surprise partie, je m'écrase le nez au hublot
+    J'ai \[A]mon contrat de confiance, l'encéphalo qui faut
+    J'ai du \[E]bol, j'en vois qui ri\[A]golent
   \endverse
 
   \beginchorus
-    Oh \[Si]Gaby, \[Fa#]Gaby \[Do#]
-    Tu devrais pas me laisser \[Si]la nuit \[Do#]
-    Je peux pas dormir je fais \[Si]qu'des conneries
-    Oh \[Si]Gaby, \[Fa#]Gaby \[Do#]
-    Tu veux que je te chante la \[Si]mer \[Do#]
-    Le long, le long, \[Si]le long des golfes \[Fa#]
-    Pas très \[Si]clairs
+    Oh \[B]Gaby, \[F#]Gaby \[C#]
+    Tu devrais pas me laisser \[B]la nuit \[C#]
+    Je peux pas dormir je fais \[B]qu'des conneries
+    Oh \[B]Gaby, \[F#]Gaby \[C#]
+    Tu veux que je te chante la \[B]mer \[C#]
+    Le long, le long, \[B]le long des golfes \[F#]
+    Pas très \[B]clairs
   \endchorus
 
   \beginverse
@@ -48,8 +48,8 @@
   \endverse
 
   \beginverse*
-    \[La] Alors à \[Mi]quoi ça sert la frite si t'as pas les moules
-    Ça \[La]sert à quoi le cochonnet si t'as pas les \[Mi]boules
+    \[A] Alors à \[E]quoi ça sert la frite si t'as pas les moules
+    Ça \[A]sert à quoi le cochonnet si t'as pas les \[E]boules
   \endverse
 
 \endsong

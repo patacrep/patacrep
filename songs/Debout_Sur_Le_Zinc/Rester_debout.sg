@@ -4,34 +4,34 @@
   [by=Debout sur le Zinc,cov=les-promesses,album=Les promesses]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Rém}{XX0231}
-  \gtab{La}{X02220}
-  \gtab{Si&}{1:X02220}
-  \gtab{Solm}{3:022000}
-  \gtab{Do#}{4:X02220}
-  \gtab{Fam}{1:022000}
-  \gtab{Si&m}{1:X02210}
-  \gtab{Fa#}{2:022100}
-  \gtab{Mi&}{6:X02220}
-  \gtab{Sol#}{4:022100}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{A}{X02220}
+  \gtab{B&}{1:X02220}
+  \gtab{Gm}{3:022000}
+  \gtab{C#}{4:X02220}
+  \gtab{Fm}{1:022000}
+  \gtab{B&m}{1:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{G#}{4:022100}
 
   \beginverse
-    \[Fa]{J'ai} trou\[Do]vé devant \[Rém]mes yeux ce \[La]matin
-    \[Si&]Mille et une \[Do]bonnes rai\[Fa]sons de me \[Solm]sentir \[La]bien
-    \[Fa]{J'ai} je\[Do]té mes an\[Rém]goisses par la fe\[La]nêtre
-    \[Si&]Et je me \[Do]frotte les \[Fa]mains en me di\[Solm]sant \[Do]peut-être
+    \[F]{J'ai} trou\[C]vé devant \[Dm]mes yeux ce \[A]matin
+    \[B&]Mille et une \[C]bonnes rai\[F]sons de me \[Gm]sentir \[A]bien
+    \[F]{J'ai} je\[C]té mes an\[Dm]goisses par la fe\[A]nêtre
+    \[B&]Et je me \[C]frotte les \[F]mains en me di\[Gm]sant \[C]peut-être
   \endverse
 
 
   \beginchorus
-    Rester de\[Do#]bout encore un peu et de\[Fam]main
-    Debout comme rêve de \[Si&m]vivre
-    Sans l'ennui et sans \[Do]le chagrin
-    Rester de\[Do#]bout, debout comme on se sent \[Fam]bien
-    Debout comme on se sent \[Si&m]libre
-    Debout on se re\[Do]trouve enfin
+    Rester de\[C#]bout encore un peu et de\[Fm]main
+    Debout comme rêve de \[B&m]vivre
+    Sans l'ennui et sans \[C]le chagrin
+    Rester de\[C#]bout, debout comme on se sent \[Fm]bien
+    Debout comme on se sent \[B&m]libre
+    Debout on se re\[C]trouve enfin
   \endchorus
 
   \beginverse
@@ -45,13 +45,13 @@
 
 
   \beginverse
-    Si \[Fa#]aujourd'hui tout est facile
-    Si \[Fa]je cours je cours sur le fil
-    Si \[Si&m]{j'oublie} j'oublie tout autour de \[Mi&]moi
-    Si \[Fa#]aujourd'hui la vie est belle
-    Si \[Fa]je me sens pousser des ailes
-    Pourvu \[Si&m]que je ne tombe pas \[Mi&]
-    Ne \[Si&m]tom\[Sol#]be \[Do]pas
+    Si \[F#]aujourd'hui tout est facile
+    Si \[F]je cours je cours sur le fil
+    Si \[B&m]{j'oublie} j'oublie tout autour de \[E&]moi
+    Si \[F#]aujourd'hui la vie est belle
+    Si \[F]je me sens pousser des ailes
+    Pourvu \[B&m]que je ne tombe pas \[E&]
+    Ne \[B&m]tom\[G#]be \[C]pas
   \endverse
 
   \beginverse

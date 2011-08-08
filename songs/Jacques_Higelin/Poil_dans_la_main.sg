@@ -4,27 +4,27 @@
   [by=Jacques Higelin,cov=preferences,album=Préférences]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol7}{320001}
-  \gtab{Lam}{X02210}
-  \gtab{Mim}{022000}
-  \gtab{Si7}{X21202}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G7}{320001}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
 
   \beginchorus
-    \[Do]Poil dans la \[Fa]main, \[Sol7]payé à rien \[Do]foutre
-    Re\[Do]garder la \[Fa]poutre dans l'\[Sol7]œil du voi\[Do]sin
+    \[C]Poil dans la \[F]main, \[G7]payé à rien \[C]foutre
+    Re\[C]garder la \[F]poutre dans l'\[G7]œil du voi\[C]sin
     \rep{2}
   \endchorus
 
   \beginchorus
-    \[Do]{Qu'il} est donc \[Fa]doux de \[Sol]rester sans rien \[Lam]faire
-    Tandis que \[Mim]tout s'agite \[Si7]autour de \[Mim]soi
+    \[C]{Qu'il} est donc \[F]doux de \[G]rester sans rien \[Am]faire
+    Tandis que \[Em]tout s'agite \[B7]autour de \[Em]soi
   \endchorus
 
   \beginchorus
-    \[Do]Touche à \[Fa]tout : \[Sol]sauf à la mousti\[Lam]quaire
-    \[Lam]Touche à tout \[Mim]juste bon \[Si7]à m'ama\[Mim]douer
+    \[C]Touche à \[F]tout : \[G]sauf à la mousti\[Am]quaire
+    \[Am]Touche à tout \[Em]juste bon \[B7]à m'ama\[Em]douer
   \endchorus
 
   \beginverse

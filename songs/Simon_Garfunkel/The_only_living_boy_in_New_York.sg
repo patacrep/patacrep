@@ -4,22 +4,22 @@
   [by=Simon \& Garfunkel,cov=bridge-over-troubled-water,album=Bridge over troubled water]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320001}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{G}{320001}
 
   \beginverse
-    \[Do]Tom, get your plane right on \[Fa]time
-    \[Do]{I know} your part'll go \[Fa]fine
-    \[Do]Fly down to Mexi\[Fa Do Rém Fa]co
+    \[C]Tom, get your plane right on \[F]time
+    \[C]{I know} your part'll go \[F]fine
+    \[C]Fly down to Mexi\[F C Dm F]co
   \endverse
 
   \beginchorus
-    \[Sol]Do-n-da-da-n-da-da-n-da-da and \[Fa]here I am
-    The \[Do]only living boy in \[Fa]New York
+    \[G]Do-n-da-da-n-da-da-n-da-da and \[F]here I am
+    The \[C]only living boy in \[F]New York
   \endchorus
 
   \beginverse
@@ -29,9 +29,9 @@
   \endverse
 
   \beginverse
-    \[Lam] \[Rém]Half of the time we're gone
-    \[Sol7]But we don't know \[Do]where
-    And we don't know \[Fa]where
+    \[Am] \[Dm]Half of the time we're gone
+    \[G7]But we don't know \[C]where
+    And we don't know \[F]where
   \endverse
 
   \beginverse

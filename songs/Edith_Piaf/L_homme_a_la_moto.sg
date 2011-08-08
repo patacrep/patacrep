@@ -4,22 +4,22 @@
   [by=Édith Piaf,cov=l-homme-a-la-moto,album=L'homme à la moto]
 
   \cover
-  \gtab{Dom}{3:X02210}
-  \gtab{Sol}{3:022100}
-  \gtab{Fam}{1:022000}
+  \gtab{Cm}{3:X02210}
+  \gtab{G}{3:022100}
+  \gtab{Fm}{1:022000}
 
   \beginchorus
-    Il por\[Dom]tait des culottes, des \[Sol]bottes de moto
-    Un \[Sol]blouson de cuir noir avec un \[Dom]aigle sur le dos
-    Sa \[Dom]moto qui partait comme un \[Sol]boulet de canon
-    \[Sol]Semait la terreur dans \[Dom]toute la région
+    Il por\[Cm]tait des culottes, des \[G]bottes de moto
+    Un \[G]blouson de cuir noir avec un \[Cm]aigle sur le dos
+    Sa \[Cm]moto qui partait comme un \[G]boulet de canon
+    \[G]Semait la terreur dans \[Cm]toute la région
   \endchorus
 
   \beginverse
-    Jamais \[Dom]il ne se coiffait, jamais \[Sol]il ne se lavait
-    Les ongles \[Sol]pleins de cambouis mais sur les \[Dom]biceps il avait
-    Un ta\[Dom]touage avec un cœur bleu sur \[Fam]la peau blême
-    Et \[Sol]juste à l'intérieur, on li\[Dom]sait {\og}Maman je t'aime{\fg}
+    Jamais \[Cm]il ne se coiffait, jamais \[G]il ne se lavait
+    Les ongles \[G]pleins de cambouis mais sur les \[Cm]biceps il avait
+    Un ta\[Cm]touage avec un cœur bleu sur \[Fm]la peau blême
+    Et \[G]juste à l'intérieur, on li\[Cm]sait {\og}Maman je t'aime{\fg}
   \endverse
 
   \beginverse*

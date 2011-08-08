@@ -4,31 +4,31 @@
   [by=Green Day,cov=warning,album=Warning]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
 
   \beginchorus
-    \[Do]{I wanna} \[Fa]be the mi\[Sol]nori\[Fa]ty
-    \[Do]{I don't} \[Fa]need your au\[Sol]thori\[Fa]ty
-    \[Do]Down with the \[Fa]moral ma\[Sol]jori\[Fa]ty
-    'cause \[Do]{I wanna} \[Fa]be the mi\[Sol]nori\[Do]ty
+    \[C]{I wanna} \[F]be the mi\[G]nori\[F]ty
+    \[C]{I don't} \[F]need your au\[G]thori\[F]ty
+    \[C]Down with the \[F]moral ma\[G]jori\[F]ty
+    'cause \[C]{I wanna} \[F]be the mi\[G]nori\[C]ty
   \endchorus
 
   \beginverse
-    I \[Do]pledge a\[Sol]llegiance \[Fa]to the under\[Do]world
-    One \[Do]nation under \[Sol]dog there of \[Fa]which I stand a\[Sol]lone
-    A \[Do]face in the \[Sol]crowd, un\[Fa]sung, against the \[Do]mob
-    Wi\[Do]thout a doubt, \[Fa]singled out, the \[Sol]only way I \[Do]know
+    I \[C]pledge a\[G]llegiance \[F]to the under\[C]world
+    One \[C]nation under \[G]dog there of \[F]which I stand a\[G]lone
+    A \[C]face in the \[G]crowd, un\[F]sung, against the \[C]mob
+    Wi\[C]thout a doubt, \[F]singled out, the \[G]only way I \[C]know
   \endverse
 
   \musicnote{Bridge}
   \beginverse
-    \[Lam]Stepped out of the \[Fa]line,\[Do]
-    \[Lam]Like a sheep runs \[Fa]from the \[Sol]herd
-    \[Lam]Marching out of \[Fa]time,\[Do]
-    \[Lam]To my own \[Fa]beat \[Sol]now
+    \[Am]Stepped out of the \[F]line,\[C]
+    \[Am]Like a sheep runs \[F]from the \[G]herd
+    \[Am]Marching out of \[F]time,\[C]
+    \[Am]To my own \[F]beat \[G]now
   \endverse
 
   \beginverse

@@ -4,15 +4,15 @@
   [by=Johnny Cash,cov=the-essential,album=The essential]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do7}{X32310}
-  \gtab{Si&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{C7}{X32310}
+  \gtab{B&}{1:X02220}
 
   \beginverse
-    \[Fa]{I keep} a \[Do7]close watch on this heart of \[Fa]mine
-    \[Fa]{I keep} my \[Do7]eyes wide open all the \[Fa]time
-    \[Fa]{I keep} the \[Si&]ends out for the tie that \[Fa]binds
-    \[Fa]Because you're \[Do7]mine, I walk the \[Fa]line
+    \[F]{I keep} a \[C7]close watch on this heart of \[F]mine
+    \[F]{I keep} my \[C7]eyes wide open all the \[F]time
+    \[F]{I keep} the \[B&]ends out for the tie that \[F]binds
+    \[F]Because you're \[C7]mine, I walk the \[F]line
   \endverse
 
   \beginverse

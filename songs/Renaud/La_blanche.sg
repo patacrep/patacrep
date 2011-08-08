@@ -4,28 +4,28 @@
   [by=Renaud,cov=le-retour-gerard-lambert,album=Le retour de Gérard Lambert]
 
   \cover
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{La}{X02220}
-  \gtab{Fa#}{2:022100}
-  \gtab{Ré}{XX0232}
-  \gtab{La7}{X02020}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{A}{X02220}
+  \gtab{F#}{2:022100}
+  \gtab{D}{XX0232}
+  \gtab{A7}{X02020}
 
   \beginchorus
-    {\nolyrics \[Mim Do Mim La Fa#]}
+    {\nolyrics \[Em C Em A F\shrp]}
   \endchorus
 
   \beginverse
-    \[Ré]Salut Michel, ça fait une paye
-    Que j't'ai pas vu traîner dans mes ru\[La7]elles
+    \[D]Salut Michel, ça fait une paye
+    Que j't'ai pas vu traîner dans mes ru\[A7]elles
     Qu'est-c'que tu d'viens ? Moi ça va bien
-    Paraît qu'toi tu marches sur un drôle de ch'\[Ré]min
+    Paraît qu'toi tu marches sur un drôle de ch'\[D]min
     T'as les joues creuses, les mains caleuses
-    Et la démarche un p'tit peu chaloup\[La7]euse
+    Et la démarche un p'tit peu chaloup\[A7]euse
     Vraiment tu m'terrasses, bonjour l'angoisse
-    Paraît qu't'es tombé dans une drôle de cre\[Ré]vasse
-    Paraît qu'c'est pas tous les jours dim\[La7]anche
-    La \[Ré]bl\[La7]an\[Ré]che
+    Paraît qu't'es tombé dans une drôle de cre\[D]vasse
+    Paraît qu'c'est pas tous les jours dim\[A7]anche
+    La \[D]bl\[A7]an\[D]che
   \endverse
 
   \beginverse*

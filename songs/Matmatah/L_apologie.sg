@@ -4,17 +4,17 @@
   [by=Matmatah,cov=la-ouache,album=La ouache]
 
   \cover
-  \gtab{Fam}{8:X02210}
-  \gtab{La&}{4:022100}
-  \gtab{Si&m}{6:022000}
-  \gtab{Mi&}{6:X02220}
-  \gtab{Do#}{4:X02220}
+  \gtab{Fm}{8:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{B&m}{6:022000}
+  \gtab{E&}{6:X02220}
+  \gtab{C#}{4:X02220}
 
   \beginverse
-    \[Fam]Cette é\[La&]trange cigarette ne nous \[Si&m]rend pas ha\[Fam]gard
-    \[Fam]{L'an} 20\[La&]00 appro\[Mi&]chant rattra\[Si&m]per le re\[Fam]tard
-    \[Fam]Vi\[La&]vons à notre é\[Mi&]poque et \[Si&m]dédramati\[Fam]sons
-    \[Fam]Non bien \[La&]sûr le pé\[Mi&]tard n'é\[Si&m]lève pas la rai\[Fam]son
+    \[Fm]Cette é\[A&]trange cigarette ne nous \[B&m]rend pas ha\[Fm]gard
+    \[Fm]{L'an} 20\[A&]00 appro\[E&]chant rattra\[B&m]per le re\[Fm]tard
+    \[Fm]Vi\[A&]vons à notre é\[E&]poque et \[B&m]dédramati\[Fm]sons
+    \[Fm]Non bien \[A&]sûr le pé\[E&]tard n'é\[B&m]lève pas la rai\[Fm]son
   \endverse
 
   \beginverse*
@@ -39,14 +39,14 @@
   \endverse
 
   \beginchorus
-    \[Fam]Un pétard ou un Ri\[Do#]card
-    Si t'as \[Mi&]vraiment le ca\[Fam]fard
-    \[Fam]À choisir y'a pas \[Do#]photo
-    Moi je choi\[Mi&]sis le maro\[Fam]co
-    \[Lam]Les alcools ont leurs sou\[Do#]lards
-    Le ca\[Mi&]na, c'est le pa\[Fam]nard
-    \[Fam]{Y'en} a qui le mysti\[Do#]fient
-    Moi j'en fais \[Mi&]son apolo\[Fam]gie
+    \[Fm]Un pétard ou un Ri\[C#]card
+    Si t'as \[E&]vraiment le ca\[Fm]fard
+    \[Fm]À choisir y'a pas \[C#]photo
+    Moi je choi\[E&]sis le maro\[Fm]co
+    \[Am]Les alcools ont leurs sou\[C#]lards
+    Le ca\[E&]na, c'est le pa\[Fm]nard
+    \[Fm]{Y'en} a qui le mysti\[C#]fient
+    Moi j'en fais \[E&]son apolo\[Fm]gie
   \endchorus
 
   \beginverse

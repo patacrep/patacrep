@@ -4,15 +4,15 @@
   [by=Gogol Bordello,cov=super-taranta,album=Super Taranta!]
 
   \cover
-  \gtab{Lam}{5:022000}
-  \gtab{Sol}{3:022100}
-  \gtab{Fa}{1:022100}
-  \gtab{Mi}{022100}
-  \gtab{Do}{X32010}
+  \gtab{Am}{5:022000}
+  \gtab{G}{3:022100}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Lam]Yeah, oh \[Sol]yeah, you \[Fa]seen me \[Mi]walk
-    On burning \[Lam]bridges
+    \[Am]Yeah, oh \[G]yeah, you \[F]seen me \[E]walk
+    On burning \[Am]bridges
     Yeah, oh yeah, you seen me fall
     In love with witches
     And you know my head is held
@@ -22,11 +22,11 @@
   \endverse
 
   \beginchorus
-    \[Lam]And you know that I'll pick \[Fa]up
-    Every time you \[Do]call
-    Just to thank you one more \[Mi]time
-    Alco\[Lam]hol
-    \[Lam Sol Fa Mi] Alco\[Lam]hol \rep{2}
+    \[Am]And you know that I'll pick \[F]up
+    Every time you \[C]call
+    Just to thank you one more \[E]time
+    Alco\[Am]hol
+    \[Am G F E] Alco\[Am]hol \rep{2}
   \endchorus
 
   \beginchorus

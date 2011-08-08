@@ -5,24 +5,24 @@
 
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Ré7}{XX0212}
-  \gtab{Sol7}{320001}
-  \gtab{Mi}{022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{D7}{XX0212}
+  \gtab{G7}{320001}
+  \gtab{E}{022100}
 
 
   \beginverse
-    À \[Do]quoi ça sert de \[Sol]chercher à com\[Lam]prendre
-    \[Fa]Pourquoi on dit ce qu'on \[Sol]dit
-    À \[Do]quoi ça sert de \[Sol]chercher à com\[Lam]prendre
-    \[Ré7]Quand c'est fini, c'est fini\[Sol7]
-    \[Do]Quand le soleil se lève\[Do7]ra demain
-    \[Fa]Je serai déjà \[Ré7]loin très loin
-    \[Do]Il faut se \[Mi]quitter en che\[Lam]min
-    \[Fa]Mais n'y pense \[Sol]plus : tout est \[Do]bien
+    À \[C]quoi ça sert de \[G]chercher à com\[Am]prendre
+    \[F]Pourquoi on dit ce qu'on \[G]dit
+    À \[C]quoi ça sert de \[G]chercher à com\[Am]prendre
+    \[D7]Quand c'est fini, c'est fini\[G7]
+    \[C]Quand le soleil se lève\[C7]ra demain
+    \[F]Je serai déjà \[D7]loin très loin
+    \[C]Il faut se \[E]quitter en che\[Am]min
+    \[F]Mais n'y pense \[G]plus : tout est \[C]bien
   \endverse
 
   \beginverse

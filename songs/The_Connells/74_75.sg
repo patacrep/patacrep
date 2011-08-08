@@ -4,27 +4,27 @@
   [by=The Connells,cov=ring,album=Ring]
 
   \cover
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Fa] Got no \[Do]reason
-    For \[Fa]coming to me and the \[Do]rain running \[Fa]down
-    There's no \[Do]reason \[Lam]
+    \[F] Got no \[C]reason
+    For \[F]coming to me and the \[C]rain running \[F]down
+    There's no \[C]reason \[Am]
   \endverse
 
   \beginverse*
-    \[Fa] And the \[Do]same voice
-    \[Fa]Coming to me like it's \[Do]all slowin' \[Fa]down
-    And be\[Do]lieve me \[Sol]
+    \[F] And the \[C]same voice
+    \[F]Coming to me like it's \[C]all slowin' \[F]down
+    And be\[C]lieve me \[G]
   \endverse
 
   \beginchorus
-    I was the \[Lam]one who let you \[Do]know
-    I was your \[Sol]sorry-ever-\[Fa]after
-    '\[Lam]74 -- '\[Do]75 \[Sol]
+    I was the \[Am]one who let you \[C]know
+    I was your \[G]sorry-ever-\[F]after
+    '\[Am]74 -- '\[C]75 \[G]
   \endchorus
 
   \beginverse

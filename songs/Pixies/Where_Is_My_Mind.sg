@@ -4,18 +4,18 @@
   [by=Pixies,cov=death-to-the-pixies,album=Death to the Pixies]
 
   \cover
-  \gtab{Mi}{022100}
-  \gtab{Do#m}{4:X02210}
-  \gtab{La&}{4:022100}
-  \gtab{La}{5:022100}
-  \gtab{Lam}{4:022000}
-  \gtab{Do#}{4:X02220}
-  \gtab{Si}{2:X02220}
+  \gtab{E}{022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{A}{5:022100}
+  \gtab{Am}{4:022000}
+  \gtab{C#}{4:X02220}
+  \gtab{B}{2:X02220}
 
   \beginverse
-    With your \[Mi]feet in the air and your \[Do#m]{head on} the ground \[La&] \[La]
-    \[Mi] Try this tri\[Do#m]ck and \[La&]spin it. Ye\[La]ah!
-    \[Mi] Your head will coll\[Do#m]{apse but} there's \[La&]nothing in it and you'll \[La]ask yourself
+    With your \[E]feet in the air and your \[C#m]{head on} the ground \[A&] \[A]
+    \[E] Try this tri\[C#m]ck and \[A&]spin it. Ye\[A]ah!
+    \[E] Your head will coll\[C#m]{apse but} there's \[A&]nothing in it and you'll \[A]ask yourself
   \endverse
 
   \beginchorus
@@ -24,8 +24,8 @@
   \endchorus
 
   \beginverse*
-    \[Mi]Way \[La&]{out, in} the \[La]water, see it \[Lam]swimmin'
-    \[Do#] \[Si]
+    \[E]Way \[A&]{out, in} the \[A]water, see it \[Am]swimmin'
+    \[C#] \[B]
   \endverse
 
   \beginverse

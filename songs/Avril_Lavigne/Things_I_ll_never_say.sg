@@ -4,32 +4,32 @@
   [by=Avril Lavigne,cov=let-go,album=Let go]
 
   \cover
-  \gtab{Ré}{XX0232}
-  \gtab{La}{X02220}
-  \gtab{Sim}{2:X02210}
-  \gtab{Sol}{320033}
-  \gtab{Lasus2}{X02200}
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320033}
+  \gtab{Asus2}{X02200}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
 
   \beginverse
-    \[Sim] I'm tugging at my \[Sol]hair, I'm pulling at my \[Ré]clothes
-    I'm trying to keep my \[Lasus2]cool, I know it \[Sim]shows
-    \[Sim] I'm staring at my \[Sol]feet, my cheeks are turning \[Ré]red
-    I'm searching for the \[Lasus2]words inside my \[Mim]head
+    \[Bm] I'm tugging at my \[G]hair, I'm pulling at my \[D]clothes
+    I'm trying to keep my \[Asus2]cool, I know it \[Bm]shows
+    \[Bm] I'm staring at my \[G]feet, my cheeks are turning \[D]red
+    I'm searching for the \[Asus2]words inside my \[Em]head
   \endverse
 
   \beginverse*
-    \[Mi] I'm feeling nervous, \[Sol]tryin' to be so perfect
-    \[Mi] Cause I know you're worth it, \[Lasus2]you're worth it, yeah
+    \[E] I'm feeling nervous, \[G]tryin' to be so perfect
+    \[E] Cause I know you're worth it, \[Asus2]you're worth it, yeah
   \endverse
 
   \beginchorus
-    \[Ré] If I can say what I wanna \[La]say, I say I wanna blow \[Sim]you away
-    Be with you every \[Sol]night, am I squeezin you too \[Ré]tight
-    \[Ré] If I can say what I wanna \[La]see, I wanna see you go dow\[Sim]n on one knee
-    Marry me to\[Sol]day, cause I'm wishin my life \[Mim]away
-    \[Do] Well these things I'll never say
+    \[D] If I can say what I wanna \[A]say, I say I wanna blow \[Bm]you away
+    Be with you every \[G]night, am I squeezin you too \[D]tight
+    \[D] If I can say what I wanna \[A]see, I wanna see you go dow\[Bm]n on one knee
+    Marry me to\[G]day, cause I'm wishin my life \[Em]away
+    \[C] Well these things I'll never say
   \endchorus
 
   \beginverse
@@ -45,8 +45,8 @@
   \endverse
 
   \beginverse*
-    \[Sim] What's wr\[La]ong with my \[Sol]tongue, these words keep slipping away
-    \[Sim] I stut\[La]ter I stum\[Sol]ble, like I've got nothing to \[Mim]say
+    \[Bm] What's wr\[A]ong with my \[G]tongue, these words keep slipping away
+    \[Bm] I stut\[A]ter I stum\[G]ble, like I've got nothing to \[Em]say
   \endverse
 
   \beginverse*
@@ -55,8 +55,8 @@
   \endverse
 
   \beginverse*
-    \[Sol] Yes I'm wishin my life a\[Mim]way
-    \[Do] These things I'll never \[Ré]say
+    \[G] Yes I'm wishin my life a\[Em]way
+    \[C] These things I'll never \[D]say
   \endverse
 
 \endsong

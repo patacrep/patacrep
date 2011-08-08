@@ -4,24 +4,24 @@
   [by=Carter Family,cov=o-brother,album=O brother]
 
   \cover
-  \gtab{Si&}{6:022100}
-  \gtab{Mi&}{6:X02220}
-  \gtab{Fa}{1:022100}
+  \gtab{B&}{6:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{F}{1:022100}
 
   \lilypond{Keep_on_the_sunny_side}
 
   \beginverse
-    There's a \[Si&]dark and a \[Mi&]troubled side of \[Si&]life
-    But there's a \[Si&]bright and a sunny side \[Fa]too
-    Though you \[Fa]meet with the darkness and \[Si&]strife
-    The \[Fa]sunny side you also may \[Si&]view
+    There's a \[B&]dark and a \[E&]troubled side of \[B&]life
+    But there's a \[B&]bright and a sunny side \[F]too
+    Though you \[F]meet with the darkness and \[B&]strife
+    The \[F]sunny side you also may \[B&]view
   \endverse
 
   \beginchorus
-    \[Si&]Keep on the sunny side, \[Mi&]always on the \[Si&]sunny side
-    \[Si&]Keep on the sunny side of \[Fa]life
-    It will \[Si&]help us every day, it will \[Mi&]brighten all the \[Si&]way
-    If we'll \[Si&]keep \[Mi&]{on the} \[Si&]sunny \[Fa]side of \[Si&]life
+    \[B&]Keep on the sunny side, \[E&]always on the \[B&]sunny side
+    \[B&]Keep on the sunny side of \[F]life
+    It will \[B&]help us every day, it will \[E&]brighten all the \[B&]way
+    If we'll \[B&]keep \[E&]{on the} \[B&]sunny \[F]side of \[B&]life
   \endchorus
 
   \beginverse

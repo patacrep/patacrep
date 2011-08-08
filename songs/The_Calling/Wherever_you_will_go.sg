@@ -5,10 +5,10 @@
 
   \cover
   \capo{2}
-  \gtab{Do}{X32010}
-  \gtab{Do/Si}{X20010}
-  \gtab{Lam7}{X02010}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{C/B}{X20010}
+  \gtab{Am7}{X02010}
+  \gtab{F}{1:022100}
 
   \begin{tab}
   \single 5 3
@@ -49,11 +49,11 @@
   \bar
   \end{tab}
 
-  \musicnote{intro: Do Do/Si Lam7 Fa}
+  \musicnote{intro: C C/B Am7 F}
 
   \beginverse
-    \[Do]So lately \[Do/Si]You're wondering
-    \[Lam7]Who will be \[Fa]there to take my place
+    \[C]So lately \[C/B]You're wondering
+    \[Am7]Who will be \[F]there to take my place
     When I'm gone you'll need love
     To light the shadows on your face
     If a grate wave shall fall
@@ -83,9 +83,9 @@
   \musicnote{chorus}
 
   \beginverse*
-    \[Fa]Run away with my \[Do/Si]heart
-    \[Mim]Run away with my \[Lam7]hope
-    \[Fa]Run away with my \[Do/Si]love
+    \[F]Run away with my \[C/B]heart
+    \[Em]Run away with my \[Am7]hope
+    \[F]Run away with my \[C/B]love
   \endverse
 
   \beginverse

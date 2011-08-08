@@ -4,18 +4,18 @@
   [by=Elton John,cov=crocodile-rock,album=Crocodile Rock]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Mim}{022000}
-  \gtab{Do}{X32010}
-  \gtab{Ré}{XXX0232}
-  \gtab{La7}{X02020}
-  \gtab{Ré7}{XX0212}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D}{XXX0232}
+  \gtab{A7}{X02020}
+  \gtab{D7}{XX0212}
 
   \beginverse
-    I re\[Sol]member when rock was young
-    Me and \[Mim]Susie had so much fun
-    Holding \[Do]hands and skimming stones
-    Had an \[Ré]old gold Chevy and a place of my own
+    I re\[G]member when rock was young
+    Me and \[Em]Susie had so much fun
+    Holding \[C]hands and skimming stones
+    Had an \[D]old gold Chevy and a place of my own
   \endverse
 
   \beginverse*
@@ -26,20 +26,20 @@
   \endverse
 
   \beginchorus
-    \[Mim]Well crocodile-rocking is something shocking
-    When your \[La7]feet just cant keep still
-    \[Ré7]{I never} knew me a better time and I \[Sol]guess I never will
+    \[Em]Well crocodile-rocking is something shocking
+    When your \[A7]feet just cant keep still
+    \[D7]{I never} knew me a better time and I \[G]guess I never will
   \endchorus
 
   \beginchorus
     Oh, Lawdy mama those Friday nights
     When Susie wore her dresses tight
-    And the crocodile-rocking was out of \[Do]sight
+    And the crocodile-rocking was out of \[C]sight
   \endchorus
 
   \beginchorus
-    \[Sol]La, la la la la \[Mim]la
-    La la la la \[Do]la, la la la la \[Ré]la
+    \[G]La, la la la la \[Em]la
+    La la la la \[C]la, la la la la \[D]la
   \endchorus
 
   \beginverse

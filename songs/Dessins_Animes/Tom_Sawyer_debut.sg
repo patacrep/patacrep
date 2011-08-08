@@ -5,26 +5,26 @@
 
   \cover
   \capo{1}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
 
   \lilypond{Tom_Sawyer_1}
 
   \beginchorus
-    \[Do]Tom Sawyer, \[Fa]c'est l'Amé\[Do]rique
-    Le \[Fa]symbole \[Do]de la liber\[Sol]té
-    Il est \[Do]né sur les bords du fleuve \[Fa]Mississi\[Sol]pi
-    Tom Saw\[Do]yer c'est pour \[Fa]nous tous \[Sol]un a\[Do]mi
+    \[C]Tom Sawyer, \[F]c'est l'Amé\[C]rique
+    Le \[F]symbole \[C]de la liber\[G]té
+    Il est \[C]né sur les bords du fleuve \[F]Mississi\[G]pi
+    Tom Saw\[C]yer c'est pour \[F]nous tous \[G]un a\[C]mi
   \endchorus
 
   \beginverse
-    Il est \[Sol]toujours prêt pour ten\[Do]ter l'aventure
-    \[Sol]Avec ses bons co\[Do]pains
-    Il n'a \[Sol]peur de rien, c'est un \[Do]américain
-    \[Ré]Il aime l'école, surtout quand elle est \[Sol]loin
+    Il est \[G]toujours prêt pour ten\[C]ter l'aventure
+    \[G]Avec ses bons co\[C]pains
+    Il n'a \[G]peur de rien, c'est un \[C]américain
+    \[D]Il aime l'école, surtout quand elle est \[G]loin
   \endverse
 
   \beginchorus

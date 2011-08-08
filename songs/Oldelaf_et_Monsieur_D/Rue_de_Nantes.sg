@@ -5,28 +5,28 @@
 
 
   \cover
-  \gtab{Rém}{5:X02210}
-  \gtab{Mi7}{5:X2120X}
-  \gtab{La7}{5:020100}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{3:X02220}
-  \gtab{La}{5:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{E7}{5:X2120X}
+  \gtab{A7}{5:020100}
+  \gtab{F}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{A}{5:022100}
 
 
   \beginverse
-    \[Rém]Je m'baladais dans la rue de \[Mi7]Nantes
-    \[La7]Quand quelque chose me tomba de\[Rém]ssus\[La7]
-    \[Rém]Je mis mon doigt c'était de la \[Mi7]fiente
-    \[La7]Ah merde, les pigeons m'ont \[Rém]déçu\[La7]
-    \[Fa]Me nettoyant je fis \[Do]un grand \[Fa]geste
-    \[Rém]Pour enlever ce fard incon\[La7]gru\[La]
-    \[Rém]Une vieille reçut ma main un peu \[Mi7]leste
-    \[La7]Et tomba au milieu de la \[Rém]rue\[La7]
+    \[Dm]Je m'baladais dans la rue de \[E7]Nantes
+    \[A7]Quand quelque chose me tomba de\[Dm]ssus\[A7]
+    \[Dm]Je mis mon doigt c'était de la \[E7]fiente
+    \[A7]Ah merde, les pigeons m'ont \[Dm]déçu\[A7]
+    \[F]Me nettoyant je fis \[C]un grand \[F]geste
+    \[Dm]Pour enlever ce fard incon\[A7]gru\[A]
+    \[Dm]Une vieille reçut ma main un peu \[E7]leste
+    \[A7]Et tomba au milieu de la \[Dm]rue\[A7]
   \endverse
 
   \beginchorus
-    Un pi\[Rém]geon m'a fait d'\[La7]ssus
-    Y'a une \[La]vieille dans la \[Rém]rue
+    Un pi\[Dm]geon m'a fait d'\[A7]ssus
+    Y'a une \[A]vieille dans la \[Dm]rue
   \endchorus
 
   \beginverse

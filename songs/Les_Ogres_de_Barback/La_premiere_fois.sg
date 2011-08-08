@@ -4,15 +4,15 @@
   [by=Les Ogres de Barback \& Tryo,cov=de-bouches-a-oreilles,album=De bouches à oreilles]
 
   \cover
-  \gtab{Dom}{3:X02210}
-  \gtab{La&}{4:022100}
-  \gtab{Si&}{6:022100}
+  \gtab{Cm}{3:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{B&}{6:022100}
 
   \lilypond{La_premiere_fois}
 
   \beginverse
-    La première \[Dom]fois
-    Dès fois juste \[La&]en claquant des \[Si&]doigts
+    La première \[Cm]fois
+    Dès fois juste \[A&]en claquant des \[B&]doigts
     La première fois
     Qui se déclenche malgré soi
     La première fois

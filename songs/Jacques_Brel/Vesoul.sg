@@ -5,18 +5,18 @@
 
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Mi7}{020100}
-  \gtab{La7}{X02020}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol7}{320001}
-  \gtab{Do}{X32010}
-  \gtab{Mi}{022100}
-  \gtab{Ré}{XX0232}
+  \gtab{Am}{X02210}
+  \gtab{E7}{020100}
+  \gtab{A7}{X02020}
+  \gtab{Dm}{XX0231}
+  \gtab{G7}{320001}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+  \gtab{D}{XX0232}
 
 
   \beginverse
-    \[Lam]T'as voulu voir Vier\[Mi7]zon et on a vu Vier\[Lam]zon\[Mi7]
+    \[Am]T'as voulu voir Vier\[E7]zon et on a vu Vier\[Am]zon\[E7]
     T'as voulu voir Vesoul et on a vu Vesoul
     T'as voulu voir Honfleur et on a vu Honfleur
     T'as voulu voir Hambourg et on a vu Hambourg
@@ -26,10 +26,10 @@
   \endverse
 
   \beginchorus
-    \[La7]Mais, je te le \[Rém]dis, je n'\[Sol7]irai pas plus \[Do]loin
-    \[La7]Mais, je te pré\[Rém]viens, j'\[Sol7]irai pas à Pa\[Mi]ris
-    D'ail\[Ré]leurs, j'ai hor\[Mi]reur de \[Ré]tous les flon\[Mi]flons
-    De la \[Ré]valse mu\[Mi]sette, et de l'\[Ré]accor\[Mi]déon
+    \[A7]Mais, je te le \[Dm]dis, je n'\[G7]irai pas plus \[C]loin
+    \[A7]Mais, je te pré\[Dm]viens, j'\[G7]irai pas à Pa\[E]ris
+    D'ail\[D]leurs, j'ai hor\[E]reur de \[D]tous les flon\[E]flons
+    De la \[D]valse mu\[E]sette, et de l'\[D]accor\[E]déon
   \endchorus
 
   \beginverse

@@ -4,29 +4,29 @@
   [by=Dessins Animés,cov=dragon-ball-z,album=Dragon Ball Z]
 
   \cover
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Mi}{022100}
-  \gtab{Lam}{X02210}
-  \gtab{Ré}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
 
   \beginchorus
-    \[Do]Dragon Ball \[Fa]Z
-    Le \[Sol]gentil Sango\[Do]han
-    \[Do]Dragon Ball \[Fa]Z
-    Com\[Sol]bat tous les mé\[Do]chants
-    \[Do]Dragon Ball \[Fa]Z
-    Il \[Sol]a tous les pou\[Do]voirs
-    \[Do]Dragon Ball \[Fa]Z
-    La \[Sol]force et le sa\[Do]voir
+    \[C]Dragon Ball \[F]Z
+    Le \[G]gentil Sango\[C]han
+    \[C]Dragon Ball \[F]Z
+    Com\[G]bat tous les mé\[C]chants
+    \[C]Dragon Ball \[F]Z
+    Il \[G]a tous les pou\[C]voirs
+    \[C]Dragon Ball \[F]Z
+    La \[G]force et le sa\[C]voir
   \endchorus
 
   \beginverse
-    \[Mi]Son père é\[Lam]tait un héros
-    Le \[Ré]grand le vaillant Sango\[Sol]ku
-    \[Mi]Le monde \[Lam]saura bientôt
-    Que \[Ré]son esprit reste avec \[Sol]nous
+    \[E]Son père é\[Am]tait un héros
+    Le \[D]grand le vaillant Sango\[G]ku
+    \[E]Le monde \[Am]saura bientôt
+    Que \[D]son esprit reste avec \[G]nous
   \endverse
 
   \beginchorus

@@ -4,42 +4,42 @@
   [by=Jacques Higelin,cov=preferences,album=Préférences]
 
   \cover
-  \gtab{Rém}{XX0231}
-  \gtab{Lam}{X02210}
-  \gtab{Si&}{1:X02220}
-  \gtab{Solm}{3:022000}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{La7}{X02020}
-  \gtab{Sol}{320003}
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
+  \gtab{B&}{1:X02220}
+  \gtab{Gm}{3:022000}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{A7}{X02020}
+  \gtab{G}{320003}
 
   \beginverse
-    Tomber du \[Rém]ciel
-    À travers les \[Lam]nuages
-    Quel heureux pré\[Si&]sage
-    \[Solm]Pour un aiguilleur \[Lam]{du ciel}
+    Tomber du \[Dm]ciel
+    À travers les \[Am]nuages
+    Quel heureux pré\[B&]sage
+    \[Gm]Pour un aiguilleur \[Am]{du ciel}
   \endverse
 
   \beginverse*
-    Tomber du \[Rém]lit
-    Fauché en plein \[Lam]rêve
-    Frappé par le \[Si&]glaive
-    \[Solm]De la sonnerie \[Do]du réveil
+    Tomber du \[Dm]lit
+    Fauché en plein \[Am]rêve
+    Frappé par le \[B&]glaive
+    \[Gm]De la sonnerie \[C]du réveil
   \endverse
 
   \beginchorus
-    Tom\[Fa]ber \[Do]dans l'oreille d'un \[Rém]sourd
-    Qui ven\[Do]ait de tomber
-     \[Si&]En amour la \[Fa]veille
-    \[Solm]{D'une} hôtesse de l'\[Do]air fidèle
+    Tom\[F]ber \[C]dans l'oreille d'un \[Dm]sourd
+    Qui ven\[C]ait de tomber
+     \[B&]En amour la \[F]veille
+    \[Gm]{D'une} hôtesse de l'\[C]air fidèle
   \endchorus
 
   \beginchorus
-    Tom\[Fa]bée \[Do]du haut d'la passe\[Rém]relle
-    Dans les \[Do]bras d'un baga\[Si&]giste
-    Un peu vo\[Fa]lage
-    \[Si&]Ancien tueur à \[Fa]gages
-    Com\[Si&]ment peut-on tomber plus \[La7]mal
+    Tom\[F]bée \[C]du haut d'la passe\[Dm]relle
+    Dans les \[C]bras d'un baga\[B&]giste
+    Un peu vo\[F]lage
+    \[B&]Ancien tueur à \[F]gages
+    Com\[B&]ment peut-on tomber plus \[A7]mal
   \endchorus
 
   \beginverse
@@ -88,8 +88,8 @@
   \endchorus
 
   \beginverse*
-    \[Sol]Tomber sur un jour de chance
-    \[Sol]Tomber à la fleur de l'âge, \[La]dans l'oubli
+    \[G]Tomber sur un jour de chance
+    \[G]Tomber à la fleur de l'âge, \[A]dans l'oubli
     \echo{Solo}
   \endverse
 

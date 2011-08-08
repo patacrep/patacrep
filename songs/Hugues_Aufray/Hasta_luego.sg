@@ -4,33 +4,33 @@
   [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Sol}{320003}
-  \gtab{Rém}{XX0231}
-  \gtab{Do}{332010}
-  \gtab{Mi}{022100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{332010}
+  \gtab{E}{022100}
 
   \textnote{Chorus 1}
   \beginchorus
-    Hasta \[Lam]luego !
-    \[Sol]À bientôt si Dieu le \[Do]veut\[Mi]
-    Hasta \[Lam]luego !
-    \[Sol]On se reverra sous \[Do]peu\[Mi]
+    Hasta \[Am]luego !
+    \[G]À bientôt si Dieu le \[C]veut\[E]
+    Hasta \[Am]luego !
+    \[G]On se reverra sous \[C]peu\[E]
   \endchorus
 
   \beginverse
-    On a \[Rém]trois mois
-    De réserve au fond des \[Mi]cales
-    Allez, \[Rém]les gars
-    On va hisser la grand'\[Mi]voile
+    On a \[Dm]trois mois
+    De réserve au fond des \[E]cales
+    Allez, \[Dm]les gars
+    On va hisser la grand'\[E]voile
   \endverse
 
   \textnote{Chorus 2}
   \beginchorus
-    \[Lam]Laissez passer les en\[Sol]fants
-    De la \[Do]nuit\[Mi]
-    \[Lam]Ils vont chercher le grand \[Sol]vent
-    De l'ou\[Do]bli\[Mi]
+    \[Am]Laissez passer les en\[G]fants
+    De la \[C]nuit\[E]
+    \[Am]Ils vont chercher le grand \[G]vent
+    De l'ou\[C]bli\[E]
   \endchorus
 
 

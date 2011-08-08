@@ -4,18 +4,18 @@
   [by=Les Petites Bourrettes,cov=comme-des-rois,album=Comme des rois]
 
   \cover
-  \gtab{Do}{3:X02220}
-  \gtab{Sol}{3:022100}
-  \gtab{Lam}{5:022000}
-  \gtab{Fa}{1:022100}
+  \gtab{C}{3:X02220}
+  \gtab{G}{3:022100}
+  \gtab{Am}{5:022000}
+  \gtab{F}{1:022100}
 
   \lilypond{Et_si_je_t_aime}
 
   \beginchorus
-    Et si je \[Do]{t'aime}, \[Fa] c'est comme un \[Sol]fou \echo{comme un sol\[Fa]dat}
-    Oh comme une \[Do]star de \[Fa]ciné\[Sol]ma \[Fa]
-    Et si les \[Lam]autres, ils \[Fa]{t'ont} laissée tom\[Sol]ber \echo{laisse tom\[Fa]ber}
-    Viens donc \[Lam]plutôt pour \[Fa]sortir avec \[Sol]moi
+    Et si je \[C]{t'aime}, \[F] c'est comme un \[G]fou \echo{comme un sol\[F]dat}
+    Oh comme une \[C]star de \[F]ciné\[G]ma \[F]
+    Et si les \[Am]autres, ils \[F]{t'ont} laissée tom\[G]ber \echo{laisse tom\[F]ber}
+    Viens donc \[Am]plutôt pour \[F]sortir avec \[G]moi
   \endchorus
 
   \beginverse

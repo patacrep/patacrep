@@ -4,15 +4,15 @@
   [by=Mon côté punk,cov=mon-cote-punk,album=Mon côté punk]
 
   \cover
-  \gtab{Solm}{3:022000}
-  \gtab{Rém}{5:X02210}
-  \gtab{Fa}{1:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{Dm}{5:X02210}
+  \gtab{F}{1:022100}
 
   \beginchorus
-    \[Solm]Youssef, I self, \[Rém]everybody sait faire
-    \[Fa]{N'importe} quoi d'ses dix \[Solm]doigts \echo{oh, oh, oh}
-    \[Solm]Youssef, I self, \[Rém]everybody sait faire
-    \[Fa]{N'importe} \[Solm]quoi \echo{ah, ah, ah }
+    \[Gm]Youssef, I self, \[Dm]everybody sait faire
+    \[F]{N'importe} quoi d'ses dix \[Gm]doigts \echo{oh, oh, oh}
+    \[Gm]Youssef, I self, \[Dm]everybody sait faire
+    \[F]{N'importe} \[Gm]quoi \echo{ah, ah, ah }
     \rep{2}
   \endchorus
 

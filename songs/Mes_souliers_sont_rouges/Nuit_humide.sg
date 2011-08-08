@@ -5,25 +5,25 @@
 
   \cover
   \capo{7}
-  \gtab{Lam}{X02210}
-  \gtab{Do}{X32010}
-  \gtab{Sol}{320003}
-  \gtab{Fa}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
   \lilypond{Nuit_humide_1}
 
   \beginverse
-    \[Lam]Tout a commen\[Do]cé \[Sol]une nuit d'é\[Fa]té
-    \[Lam]Un bal de juillet \[Sol]où je m'ennuyais
-    \[Lam]Au son du vio\[Do]lon, \[Sol]de l'accordé\[Fa]on
-    \[Lam]Je t'ai vue dan\[Lam]ser, ça m'\[Sol]a réchauffé \[Lam]
+    \[Am]Tout a commen\[C]cé \[G]une nuit d'é\[F]té
+    \[Am]Un bal de juillet \[G]où je m'ennuyais
+    \[Am]Au son du vio\[C]lon, \[G]de l'accordé\[F]on
+    \[Am]Je t'ai vue dan\[Am]ser, ça m'\[G]a réchauffé \[Am]
   \endverse
 
   \beginchorus
-    \[Lam]Courons ma mi\[Do]gnonne, \[Sol]croquons dans la \[Fa]pomme
-    \[Lam]Allons dans la \[Do]grange, \[Sol]nous verrons les anges
-    \[Lam]Courons ma mi\[Do]gnonne, \[Sol]croquons dans la \[Fa]pomme
-    \[Lam]{Ne m'fais} pas faux \[Fa]bond, je \[Sol]suis tendre et \[Lam]bon
+    \[Am]Courons ma mi\[C]gnonne, \[G]croquons dans la \[F]pomme
+    \[Am]Allons dans la \[C]grange, \[G]nous verrons les anges
+    \[Am]Courons ma mi\[C]gnonne, \[G]croquons dans la \[F]pomme
+    \[Am]{Ne m'fais} pas faux \[F]bond, je \[G]suis tendre et \[Am]bon
   \endchorus
 
   \beginverse

@@ -4,19 +4,19 @@
   [by=Belyscendre,cov=prends-garde-au-loup,album=Prends garde au loup]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Rém}{XX0231}
-  \gtab{Sol}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
 
   \beginchorus
-    Prends garde au \[Lam]loup bergère
-    \[Fa]Prends garde au \[Lam]loup~\rep{2}
+    Prends garde au \[Am]loup bergère
+    \[F]Prends garde au \[Am]loup~\rep{2}
   \endchorus
 
   \beginverse
-    \[Lam]{Il est} au \[Rém]bois qui re\[Sol]garde, qui regarde
-    \[Lam]{Il est} au \[Rém]bois qui re\[Sol]garde tes mou\[Lam]tons
+    \[Am]{Il est} au \[Dm]bois qui re\[G]garde, qui regarde
+    \[Am]{Il est} au \[Dm]bois qui re\[G]garde tes mou\[Am]tons
   \endverse
 
   \beginchorus

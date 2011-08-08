@@ -5,20 +5,20 @@
 
   \cover
   \capo{3}
-  \gtab{Do}{X32010}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
 
   \beginverse
-    \[Do]Old Dan Tucker was a \[Fa]fine old man
-    \[Sol]Washed his face with a \[Do]fryin' pan
-    \[Do]Combed his hair with a \[Fa]wagon wheel
-    And \[Sol]died with a toothache \[Do]in his heel
+    \[C]Old Dan Tucker was a \[F]fine old man
+    \[G]Washed his face with a \[C]fryin' pan
+    \[C]Combed his hair with a \[F]wagon wheel
+    And \[G]died with a toothache \[C]in his heel
   \endverse
 
   \beginchorus
-    \[Do]Get out the way, \[Fa]Old Dan Tucker
-    \[Sol]{You're} too late to \[Do]get your supper
+    \[C]Get out the way, \[F]Old Dan Tucker
+    \[G]{You're} too late to \[C]get your supper
     \rep{2}
   \endchorus
 

@@ -4,26 +4,26 @@
   [by=Georges Brassens,cov=don-juan,album=Don juan]
 
   \cover
-  \gtab{Lam}{X02210}
-  \gtab{Do}{332010}
-  \gtab{Mi}{022100}
-  \gtab{Sol7}{320001}
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{3:022100}
+  \gtab{Am}{X02210}
+  \gtab{C}{332010}
+  \gtab{E}{022100}
+  \gtab{G7}{320001}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{G}{3:022100}
 
   \lilypond{Cupidon_s_en_fout}
 
   \beginverse
-    \[Lam]Pour changer en amour notre amourette
-    Il s'en \[Do]serait pas fallu de beau\[Mi]coup
+    \[Am]Pour changer en amour notre amourette
+    Il s'en \[C]serait pas fallu de beau\[E]coup
     Mais, ce jour-là, Vénus était distraite
   \endverse
 
   \beginchorus
-    Il est des \[Lam]jours où \[Sol7]Cupidon s'en \[Do]fout
-    Il est des \[Rém]jours où \[Mi]Cupidon s'en \[Lam]fout
-    {\nolyrics \[Fa] \[Sol] \[Do] \[Rém] \[Mi] \[Lam]}
+    Il est des \[Am]jours où \[G7]Cupidon s'en \[C]fout
+    Il est des \[Dm]jours où \[E]Cupidon s'en \[Am]fout
+    {\nolyrics \[F] \[G] \[C] \[Dm] \[E] \[Am]}
   \endchorus
 
   \beginverse

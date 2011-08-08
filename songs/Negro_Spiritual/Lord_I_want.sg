@@ -3,20 +3,20 @@
 \beginsong{Lord I want}
   [by=Negro Spiritual]
 
-  \gtab{Do}{X32010}
-  \gtab{Sol7}{320001}
-  \gtab{Fa}{1:022100}
-  \gtab{Mim}{022000}
-  \gtab{Lam}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
 
   \beginverse
-    \[Do]Lord I want to be a Christian
+    \[C]Lord I want to be a Christian
     In my heart, in my heart
-    Lord I \[Mim]want to be a \[Lam]Christian
-    \[Fa]In my \[Do]heart, \[Sol]in my \[Do]heart
-    \[Fa]In my heart, in my \[Do]heart
-    Lord I \[Mim]want to be a \[Lam]Christian
-    \[Fa]In my \[Do]heart, \[Sol]in my \[Do]heart
+    Lord I \[Em]want to be a \[Am]Christian
+    \[F]In my \[C]heart, \[G]in my \[C]heart
+    \[F]In my heart, in my \[C]heart
+    Lord I \[Em]want to be a \[Am]Christian
+    \[F]In my \[C]heart, \[G]in my \[C]heart
   \endverse
 
   \beginverse

@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2011/01/09 v2.12 Songs package]
+  [2011/08/06 v2.13 Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -104,8 +104,18 @@
 \newcommand\chordlocals{}
 \newskip\versesep
 \versesep123456789sp\relax
+\newskip\afterpreludeskip
+\afterpreludeskip=2\p@\@plus4\p@
+\newskip\beforepostludeskip
+\beforepostludeskip=2\p@\@plus4\p@
 \newskip\baselineadj
 \baselineadj\z@skip
+\newcommand\clineparams{%
+  \baselineskip\f@size\p@%
+  \advance\baselineskip-2\p@%
+  \lineskiplimit-2\p@%
+  \lineskip-2\p@%
+}
 \parindent.25in
 \newlength\idxheadwidth
 \setlength\idxheadwidth{1.5cm}
@@ -179,18 +189,8 @@
 \DeclareOption{nopdfindex}{\pdfindexfalse}
 \DeclareOption{noshading}{\SB@colorboxesfalse}
 \DeclareOption{noindexes}{\indexesoff}
-\newcommand\indexeson{%
-  \ifSB@preamble%
-    \SB@genindexestrue%
-  \else%
-    \ifSB@genindexes\else\SB@warnigen\fi%
-  \fi%
-  \songindexestrue%
-}
-\newcommand\indexesoff{%
-  \ifSB@preamble\SB@genindexesfalse\fi%
-  \songindexesfalse%
-}
+\newcommand\indexeson{\songindexestrue}
+\newcommand\indexesoff{\songindexesfalse}
 \newif\ifSB@measurespec
 \newif\ifSB@chordedspec
 \DeclareOption{chorded}{\chordson}
@@ -346,13 +346,16 @@
     }%
   \endgroup%
 }
+\newcommand\SB@migrate[1]{%
+  \SB@toks\expandafter{#1}%
+  \edef\SB@temp{\the\SB@toks}%
+  \ifx\SB@temp\@empty\else\mark{\the\SB@toks}\fi%
+}
 \newcommand\SB@updatepage{%
   \global\setbox\SB@mrkbox\vbox{%
     \unvbox\SB@mrkbox%
-    \edef\SB@temp{\splitfirstmark}%
-    \ifx\SB@temp\@empty\else\mark{\splitfirstmark}\fi%
-    \edef\SB@temp{\splitbotmark}%
-    \ifx\SB@temp\@empty\else\mark{\splitbotmark}\fi%
+    \SB@migrate\splitfirstmark%
+    \SB@migrate\splitbotmark%
   }%
   \global\setbox\SB@pgbox\hbox{%
     \SB@dimen\SB@colwidth%
@@ -602,23 +605,6 @@
 \def\SB@songlistcp{sclearpage}
 \newcommand\SB@songlistcdp{}
 \def\SB@songlistcdp{scleardpage}
-\newcommand\SB@finloop{%
-  \loop\edef\SB@tempii{\SB@temp @\the\SB@groupcnt}%
-       \expandafter\ifx%
-         \csname songbox@\SB@tempii\endcsname\relax\else%
-    \setbox\SB@songbox\expandafter\box%
-        \csname songbox@\SB@tempii\endcsname%
-    \expandafter\ifx\csname chbox@\SB@tempii\endcsname\relax%
-      \repchorusfalse%
-    \else%
-      \repchorustrue%
-      \setbox\SB@chorusbox\expandafter\box%
-        \csname chbox@\SB@tempii\endcsname%
-    \fi%
-    \csname stype@\SB@tempii\endcsname%
-    \advance\SB@groupcnt\ifnum\SB@groupcnt<\z@\m@ne\else\@ne\fi%
-  \repeat%
-}
 \newcommand\commitsongs{%
   \ifpartiallist%
     \ifnum\SB@numcols>\z@%
@@ -647,6 +633,23 @@
     \fi%
   \fi%
   \SB@clearpage%
+}
+\newcommand\SB@finloop{%
+  \loop\edef\SB@tempii{\SB@temp @\the\SB@groupcnt}%
+       \expandafter\ifx%
+         \csname songbox@\SB@tempii\endcsname\relax\else%
+    \setbox\SB@songbox\expandafter\box%
+        \csname songbox@\SB@tempii\endcsname%
+    \expandafter\ifx\csname chbox@\SB@tempii\endcsname\relax%
+      \repchorusfalse%
+    \else%
+      \repchorustrue%
+      \setbox\SB@chorusbox\expandafter\box%
+        \csname chbox@\SB@tempii\endcsname%
+    \fi%
+    \csname stype@\SB@tempii\endcsname%
+    \advance\SB@groupcnt\ifnum\SB@groupcnt<\z@\m@ne\else\@ne\fi%
+  \repeat%
 }
 \newcommand\SB@insertchorus[1]{{%
   \vbadness\@M\vfuzz\maxdimen%
@@ -692,7 +695,7 @@
         \SB@inversefalse\SB@prevversetrue\SB@stanzabreak%
         \marks\SB@nocmarkclass{\SB@nocmark}%
         \unvcopy\SB@chorusbox%
-        \vskip\versesep\vskip2\p@\@plus4\p@%
+        \vskip\versesep\vskip\beforepostludeskip\relax%
         \nointerlineskip\box\SB@box%
         \ifdim\sbarheight>\z@%
           \nobreak\vskip2\p@\@plus\p@%
@@ -844,10 +847,10 @@
       \endgroup\fi%
       \vbox{\makeprelude}%
       \nobreak\vskip\SB@skip%
-      \vskip2\p@\@plus4\p@%
+      \vskip\afterpreludeskip\relax%
       \unvbox\SB@songbox%
       \nobreak\vskip\SB@skip%
-      \vskip2\p@\@plus4\p@%
+      \vskip\beforepostludeskip\relax%
       \nointerlineskip%
       \vbox{\makepostlude}%
       \ifdim\sbarheight>\z@%
@@ -873,10 +876,11 @@
   \ifchorded%
     \setbox\SB@box\hbox{{\printchord{ABCDEFG\shrp\flt/j7}}}%
     \advance\baselineskip\ht\SB@box%
+    \advance\baselineskip2\p@%
   \fi%
   \ifslides%
     \advance\baselineskip.2\SB@dimen\@plus.5\SB@dimen%
-    \@minus.2\SB@dimen%
+      \@minus.2\SB@dimen%
   \else%
     \advance\baselineskip\z@\@plus.1\SB@dimen\relax%
   \fi%
@@ -1095,10 +1099,9 @@
 \newcommand\SB@@prspace{\afterassignment\SB@prloop\let\SB@temp= }
 
 \newcommand\SB@sractives{}
-{\catcode`,\active\catcode`-\active\obeyspaces\catcode`\^^M\active%
+{\catcode`,\active\catcode`-\active\obeyspaces%
 \gdef\SB@sractives{%
-\let,\SB@srcomma\let-\SB@srhyphen%
-\let \SB@srspace\let^^M\SB@srspace%
+\let,\SB@srcomma\let-\SB@srhyphen\let \SB@srspace%
 \SB@srspacing}%
 }
 \newcommand\SB@srspacing{%
@@ -1814,6 +1817,12 @@
     \expandafter\trchordformat\expandafter{\SB@tempv}{\the\SB@toks}%
   \fi%
 }
+\newcommand\notrans[1]{%
+  \begingroup%
+    \SB@transposefactor\z@%
+    \transposehere{#1}%
+  \endgroup%
+}
 \newcommand\SB@dotranspose[1]{%
   \SB@toks{}%
   \let\SB@dothis\SB@trmain%
@@ -1851,13 +1860,11 @@
     \else%
       \SB@toks\expandafter{\the\SB@toks#1}%
     \fi%
-  \else\ifx\SB@next\gtab%
-    \let\SB@donext\SB@trtab%
   \else\ifx\SB@next\SB@trend
     \let\SB@donext\relax%
   \else%
     \SB@toks\expandafter{\the\SB@toks#1}%
-  \fi\fi\fi%
+  \fi\fi%
   \SB@donext%
 }
 \newcommand\SB@trnote{%
@@ -1956,7 +1963,6 @@
     \global\SB@needkeytrue% non-chord
   \fi%
 }
-\newcommand\SB@trtab{\expandafter\SB@trscan\@firstoftwo}
 \newcommand\SB@trend{%
   \SB@Error{Internal Error: Transposition failed}%
            {This error should not occur.}%
@@ -1990,6 +1996,7 @@
       \penalty100\hskip\SB@skip%
     \fi%
   \fi%
+  \ifvmode\leavevmode\fi%
   \setbox\SB@box\hbox{\tiny\sffamily{#1}}%
   \setbox\SB@boxii\hbox{\tiny\sffamily{#2}}%
   \ifdim\wd\SB@box>\wd\SB@boxii%
@@ -2006,7 +2013,6 @@
   \advance\SB@dimenii-\dp\SB@box%
   \advance\SB@dimenii-\ht\SB@boxii%
   \advance\SB@dimenii-\dp\SB@boxii%
-  \ifvmode\leavevmode\fi%
   \vbox{%
     \mark{\SB@measuremark}%
     \hbox to\SB@dimen{%
@@ -2559,7 +2565,7 @@
     \unhbox\SB@chordbox%
     \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligfull}%
   \else%
-    \vbox{\baselineskip\f@size\p@\kern2\p@%
+    \vbox{\clineparams\relax%
       \ifSB@brokenword%
         \global\setbox\SB@lyricbox\hbox{%
           \unhbox\SB@lyricbox%
@@ -2568,15 +2574,13 @@
         \SB@maxmin\SB@dimen<{\wd\SB@lyricbox}%
         \advance\SB@dimen.5em%
         \hbox to\SB@dimen{\unhbox\SB@chordbox\hfil}%
-        \kern-2\p@%
         \hbox to\SB@dimen{%
           \unhcopy\SB@lyricbox\hfil\char\hyphenchar\font\hfil%
         }%
         \global\SB@cnt\@m%
         \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligpost}%
       \else%
-        \hbox{\unhbox\SB@chordbox\hfil}%
-        \kern-2\p@%
+        \box\SB@chordbox%
         \hbox{%
           \unhcopy\SB@lyricbox%
           \global\SB@cnt\spacefactor%
@@ -2815,6 +2819,17 @@
 }
 \newcommand*\SB@@gtab[2]{%
   \endgroup%
+  \ifnum\SB@transposefactor=\z@%
+    \SB@@@gtab{#1}{#2}%
+  \else%
+    \begingroup%
+      \let\gtab\SB@@@gtab%
+      \gtabtrans{#1}{#2}%
+    \endgroup%
+  \fi%
+}
+\newcommand\gtabtrans[2]{\transposehere{#1}}
+\newcommand\SB@@@gtab[2]{%
   \let\SB@targfret\@empty%
   \let\SB@targstr\@empty%
   \let\SB@targfing\@empty%
@@ -2826,7 +2841,7 @@
   \vbox{%
     \normalfont\normalsize%
     \setbox\SB@box\hbox{%
-      \thinspace{\printchord{#1\strut}}\thinspace%
+      \thinspace{\printchord{\transposehere{#1}\strut}}\thinspace%
     }%
     \setbox\SB@boxii\hbox{\SB@fretnum{\SB@targfret}}%
     \setbox\SB@boxiii\hbox{{\SB@gttop\SB@targstr}}%
@@ -2932,68 +2947,69 @@
 }
 \newcounter{SB@songsnum}
 \newcommand\SB@indexlist{}
+\newcommand\SB@allindexes{}
+\let\SB@allindexes\@empty
+\newcommand\SB@out{}
+\let\SB@out\relax
 \newcommand\SB@newindex[4]{%
   \expandafter\newcommand\csname SB@idxfilename@#3\endcsname{#4}%
   \expandafter\newcommand\csname SB@idxsel@#3\endcsname[3]{###1}%
   \expandafter\newcommand\csname SB@idxref@#3\endcsname{\thesongnum}%
-  \AtBeginDocument{\SB@openindex{#2}{#3}{#4}}%
-}
-\newcommand\SB@openindex[3]{%
-  \ifSB@genindexes\begingroup%
-    \newwrite\SB@theindex%
-    \immediate\openout\SB@theindex=#3.sxd%
-    #1%
-    \global\expandafter\let\csname SB@index@#2\endcsname\SB@theindex%
-  \endgroup\fi%
-}
-\newcommand\newindex{\SB@newindex1\SB@titleinit}
-\@onlypreamble\newindex
-\newcommand\SB@titleinit{%
-  \immediate\write\SB@theindex{TITLE INDEX DATA FILE}%
-}
-\newcommand\newscripindex{\SB@newindex2\SB@scripinit}
-\@onlypreamble\newscripindex
-\newcommand\SB@scripinit{%
-  \immediate\write\SB@theindex{SCRIPTURE INDEX DATA FILE}%
-}
-\newcommand\newauthorindex{\SB@newindex3\SB@authinit}
-\@onlypreamble\newauthorindex
-\newcommand\SB@authinit{%
-  \immediate\write\SB@theindex{AUTHOR INDEX DATA FILE}%
-}
-\newcommand\indexsongsas[1]{%
-  \@ifundefined{SB@idxref@#1}%
-    {\SB@errnoidx{#1}\@gobble}%
-    {\expandafter\renewcommand\csname SB@idxref@#1\endcsname}%
-}
-\newcommand\SB@percent{}
-{\catcode`\%=12\gdef\SB@percent{%}}
-\newcommand\SB@idxcmd[2]{%
-  \expandafter\gdef\expandafter#1\expandafter{%
-    #1\immediate\write\SB@theindex{\SB@percent#2}%
+  \xdef\SB@allindexes{%
+    \ifx\SB@allindexes\@empty\else\SB@allindexes,\fi#3%
   }%
+  \if@filesw%
+    \ifx\SB@out\relax%
+      \newwrite\SB@out%
+      \immediate\openout\SB@out=\jobname.sxc\relax%
+    \fi%
+    \immediate\write\SB@out{\noexpand\SB@iwrite{#3}{#2}}%
+  \fi%
 }
-\newcommand\authsepword[1]{\SB@idxcmd\SB@authinit{sep #1}}
-\@onlypreamble\authsepword
-\newcommand\authbyword[1]{\SB@idxcmd\SB@authinit{after #1}}
-\@onlypreamble\authbyword
-\newcommand\authignoreword[1]{\SB@idxcmd\SB@authinit{ignore #1}}
-\@onlypreamble\authignoreword
-\newcommand\titleprefixword[1]{\SB@idxcmd\SB@titleinit{prefix #1}}
-\@onlypreamble\titleprefixword
+\newcommand\newindex{\SB@newindex1{TITLE INDEX DATA FILE}}
+\@onlypreamble\newindex
+\newcommand\newscripindex{\SB@newindex2{SCRIPTURE INDEX DATA FILE}}
+\@onlypreamble\newscripindex
+\newcommand\newauthorindex{\SB@newindex3{AUTHOR INDEX DATA FILE}}
+\@onlypreamble\newauthorindex
+\newcommand\SB@cwrite[2]{%
+  \ifx\SB@out\relax\else%
+    \protected@write\SB@out{}{\protect\SB@iwrite{#1}{#2}}%
+  \fi%
+}
+\newcommand\SB@iwrite[2]{%
+  \def\SB@tempii{#1}%
+  \ifx\SB@temp\SB@tempii%
+    \SB@toks{#2}%
+    \immediate\write\SB@out{\the\SB@toks}%
+  \fi%
+}
+\newcommand\SB@uncombine{%
+  \ifx\SB@out\relax\else%
+    \immediate\closeout\SB@out%
+    \ifsongindexes%
+      \@for\SB@temp:=\SB@allindexes\do{%
+        \immediate\openout\SB@out=%
+          \csname SB@idxfilename@\SB@temp\endcsname.sxd\relax%
+        \begingroup\makeatletter\input{\jobname.sxc}\endgroup%
+        \immediate\closeout\SB@out%
+      }%
+    \fi%
+  \fi%
+}
+\AtEndDocument{\SB@uncombine}
 \newbox\SB@songwrites
 \newcommand\SB@addtoindex[2]{%
-  \global\setbox\SB@songwrites\vbox{%
-    \unvbox\SB@songwrites%
-    \ifSB@genindexes%
-      \protected@write{\csname SB@index@#1\endcsname}{}{#2}%
-      \protected@write{\csname SB@index@#1\endcsname}{}%
-        {\csname SB@idxref@#1\endcsname}%
-      \protected@write{\csname SB@index@#1\endcsname}{}{%
-        song\theSB@songsnum-\thesongnum.%
-        \ifnum\c@section=\z@1\else2\fi}%
-    \fi%
-  }%
+  \protected@edef\SB@tempii{#2}%
+  \ifx\SB@tempii\@empty\else%
+    \global\setbox\SB@songwrites\vbox{%
+      \unvbox\SB@songwrites%
+      \SB@cwrite{#1}{#2}%
+      \SB@cwrite{#1}{\csname SB@idxref@#1\endcsname}%
+      \SB@cwrite{#1}{song\theSB@songsnum-\thesongnum.%
+                     \ifnum\c@section=\z@1\else2\fi}%
+    }%
+  \fi%
 }
 \newcommand\SB@addtoindexes[3]{%
   \@for\SB@temp:=\SB@indexlist\do{%
@@ -3033,6 +3049,28 @@
 \newcommand\indextitleentry{%
   \@ifnextchar[{\SB@idxentry{}}{\SB@@idxentry{}}%
 }
+\newcommand\indexsongsas[1]{%
+  \@ifundefined{SB@idxref@#1}%
+    {\SB@errnoidx{#1}\@gobble}%
+    {\expandafter\renewcommand\csname SB@idxref@#1\endcsname}%
+}
+\newcommand\SB@percent{}
+{\catcode`\%=12\gdef\SB@percent{%}}
+\newcommand\SB@idxcmd[2]{%
+  \ifx\SB@out\relax\else%
+    \immediate\write\SB@out{%
+      \noexpand\SB@iwrite{#1}{\noexpand\SB@percent#2}%
+    }%
+  \fi%
+}
+\newcommand\authsepword[1]{\SB@idxcmd\SB@authinit{sep #1}}
+\@onlypreamble\authsepword
+\newcommand\authbyword[1]{\SB@idxcmd\SB@authinit{after #1}}
+\@onlypreamble\authbyword
+\newcommand\authignoreword[1]{\SB@idxcmd\SB@authinit{ignore #1}}
+\@onlypreamble\authignoreword
+\newcommand\titleprefixword[1]{\SB@idxcmd\SB@titleinit{prefix #1}}
+\@onlypreamble\titleprefixword
 \newbox\SB@idxtitlebox
 \newcommand\SB@idxlineskip[1]{%
   \vskip#1\p@\@plus#1\p@\@minus#1\p@%
@@ -3168,87 +3206,99 @@
     \IfFileExists{\csname SB@idxfilename@#3\endcsname.sbx}{%
       \ifx\hyperlink\undefined\let\hyperlink\@secondoftwo\fi%
       \ifx\hyperlink\relax\let\hyperlink\@secondoftwo\fi%
-      \global\setbox\SB@box\vbox{%
-        \null%
-        \vfil%
-        \unvcopy\SB@idxtitlebox%
-        \vskip.5in\@minus.3in\relax%
-        \hbox to\hsize{%
-          \hfil%
-          \vbox{%
-            \hsize\SB@colwidth%
-            \renewenvironment{idxblock}[1]%
-              {\begin{SB@smidx}{####1}}{\end{SB@smidx}}%
-            \let\\\SB@idxitemsep%
-            \input{\csname SB@idxfilename@#3\endcsname.sbx}%
-          }%
-          \hfil%
-        }%
-        \vskip\z@\@plus2fil\relax%
-      }%
-      {\vbadness\@M\vfuzz\maxdimen%
-       \splitmaxdepth\maxdepth\splittopskip\z@skip%
-       \global\setbox\SB@boxii\vsplit\SB@box to\textheight}%
-      \ifvoid\SB@box%
-        \box\SB@boxii%
-      \else%
+      \ifsepindexes%
         \global\setbox\SB@box\vbox{%
-          \renewenvironment{idxblock}[1]%
-            {\begin{SB@lgidx}{####1}}{\end{SB@lgidx}}%
-          \let\\\SB@idxitemsep%
-          \SB@idxsetup{#1}%
-          \input{\csname SB@idxfilename@#3\endcsname.sbx}%
-          \unskip%
+          \null%
+          \vfil%
+          \unvcopy\SB@idxtitlebox%
+          \vskip.5in\@minus.3in\relax%
+          \hbox to\hsize{%
+            \hfil%
+            \vbox{%
+              \hsize\SB@colwidth%
+              \renewenvironment{idxblock}[1]%
+                {\begin{SB@smidx}{####1}}{\end{SB@smidx}}%
+              \let\\\SB@idxitemsep%
+              \input{\csname SB@idxfilename@#3\endcsname.sbx}%
+            }%
+            \hfil%
+          }%
+          \vskip\z@\@plus2fil\relax%
         }%
-        \SB@toks{\SB@makeidxcolumn{#1}}%
-        \SB@cnt#1\relax%
-        \loop\ifnum\SB@cnt>\@ne%
-          \SB@toks\expandafter{\the\SB@toks%
-            \kern\columnsep\SB@makeidxcolumn{#1}}%
-          \advance\SB@cnt\m@ne%
-        \repeat%
-        \edef\SB@oneidxpage{\the\SB@toks}%
-        \unvbox\SB@idxtitlebox%
-        \vskip.2in\relax%
-        \nointerlineskip%
-        \null%
-        \nointerlineskip%
-        \SB@cnt\vbadness\vbadness\@M%
-        \SB@dimenii\vfuzz\vfuzz\maxdimen%
-        \loop%
-          \SB@dimen\textheight%
-          \ifinner\else\kern\z@\advance\SB@dimen-\pagetotal\fi%
-          \global\setbox\SB@boxii\copy\SB@box%
-          \global\setbox\SB@boxiii\hbox{\SB@oneidxpage}%
-          \ifdim\ht\SB@box>\z@%
-            \box\SB@boxiii%
-            \vfil\break%
-        \repeat%
-        \SB@dimenii\ht\SB@boxii%
-        \divide\SB@dimenii#1\relax%
-        \SB@maxmin\SB@dimen>\SB@dimenii%
-        \loop%
-          \global\setbox\SB@box\copy\SB@boxii%
-          \global\setbox\SB@boxiii\hbox{\SB@oneidxpage}%
-          \ifdim\ht\SB@box>\z@%
-            \advance\SB@dimen\p@%
-        \repeat%
-        \box\SB@boxiii%
-        \global\setbox\SB@boxii\box\voidb@x%
-        \vbadness\SB@cnt\vfuzz\SB@dimenii%
+        {\vbadness\@M\vfuzz\maxdimen%
+         \splitmaxdepth\maxdepth\splittopskip\z@skip%
+         \global\setbox\SB@boxii\vsplit\SB@box to\textheight}%
+        \ifvoid\SB@box%
+          \box\SB@boxii%
+        \else%
+          \SB@lgindex{#1}{#3}%
+        \fi%
+      \else%
+        \SB@lgindex{#1}{#3}%
       \fi%
     }%
     {%
-      \vbox to\textheight{%
-        \vfil%
+      \ifsepindexes%
+        \vbox to\textheight{%
+          \vfil%
+          \unvbox\SB@idxtitlebox%
+          \vskip1em\relax%
+          \hbox to\hsize{\hfil[Index not yet generated.]\hfil}%
+          \vskip\z@\@plus2fil\relax%
+        }%
+      \else%
         \unvbox\SB@idxtitlebox%
-        \vskip1em\relax%
         \hbox to\hsize{\hfil[Index not yet generated.]\hfil}%
-        \vskip\z@\@plus2fil\relax%
-      }%
+      \fi%
     }%
-    \clearpage%
+    \ifsepindexes\clearpage\fi%
   \endgroup\fi%
+}
+\newcommand\SB@lgindex[2]{%
+  \global\setbox\SB@box\vbox{%
+    \renewenvironment{idxblock}[1]%
+      {\begin{SB@lgidx}{##1}}{\end{SB@lgidx}}%
+    \let\\\SB@idxitemsep%
+    \SB@idxsetup{#1}%
+    \input{\csname SB@idxfilename@#2\endcsname.sbx}%
+    \unskip%
+  }%
+  \SB@toks{\SB@makeidxcolumn{#1}}%
+  \SB@cnt#1\relax%
+  \loop\ifnum\SB@cnt>\@ne%
+    \SB@toks\expandafter{\the\SB@toks%
+      \kern\columnsep\SB@makeidxcolumn{#1}}%
+    \advance\SB@cnt\m@ne%
+  \repeat%
+  \edef\SB@oneidxpage{\the\SB@toks}%
+  \unvbox\SB@idxtitlebox%
+  \vskip.2in\relax%
+  \nointerlineskip%
+  \null%
+  \nointerlineskip%
+  \SB@cnt\vbadness\vbadness\@M%
+  \SB@dimenii\vfuzz\vfuzz\maxdimen%
+  \loop%
+    \SB@dimen\textheight%
+    \ifinner\else\kern\z@\advance\SB@dimen-\pagetotal\fi%
+    \global\setbox\SB@boxii\copy\SB@box%
+    \global\setbox\SB@boxiii\hbox{\SB@oneidxpage}%
+    \ifdim\ht\SB@box>\z@%
+      \box\SB@boxiii%
+      \vfil\break%
+  \repeat%
+  \SB@dimenii\ht\SB@boxii%
+  \divide\SB@dimenii#1\relax%
+  \SB@maxmin\SB@dimen>\SB@dimenii%
+  \loop%
+    \global\setbox\SB@box\copy\SB@boxii%
+    \global\setbox\SB@boxiii\hbox{\SB@oneidxpage}%
+    \ifdim\ht\SB@box>\z@%
+      \advance\SB@dimen\p@%
+  \repeat%
+  \box\SB@boxiii%
+  \global\setbox\SB@boxii\box\voidb@x%
+  \vbadness\SB@cnt\vfuzz\SB@dimenii%
 }
 \newcommand\showindex[3][0]{%
   \@ifundefined{SB@idxsel@#3}{\SB@errnoidx{#3}}{%
@@ -3341,18 +3391,6 @@
   in a songs environment}{\protect\includeonlysongs\space can o%
   nly be used in the document preamble or between songs environ%
   ments in the document body.}%
-}
-\newcommand\SB@warnigen{%
-  \PackageWarning{songs}{Indexes shown but index-generation inh%
-  ibited. Index files may be out of date.}{Indexes were initial%
-  ly turned off by the end of the document preamble, which mean%
-  s that the auxiliary files used to keep the indexes up-to-da%
-  te were not generated. However, indexes were turned on withi%
-  n the document body using \protect\indexeson, which means th%
-  e indexes shown in the resulting document are being created f%
-  rom outdated files. To correct the problem, be sure that inde%
-  xes are turned on by the end of the preamble so that the auxi%
-  liary files will be updated.}%
 }
 \newcommand\SB@errrtopt{%
   \SB@Error{Cannot display chords in a rawtext dump}{You have u%
@@ -3565,8 +3603,8 @@
 \newif\ifrawtext
 \newif\ifpdfindex\pdfindextrue
 \newif\ifsongindexes\songindexestrue
+\newif\ifsepindexes\sepindexestrue
 \newif\ifSB@colorboxes\SB@colorboxestrue
-\newif\ifSB@genindexes\SB@genindexestrue
 \newif\ifSB@omitscrip
 \newcommand\nolyrics{}
 \let\nolyrics\nolyricstrue

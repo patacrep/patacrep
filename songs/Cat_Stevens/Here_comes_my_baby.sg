@@ -4,27 +4,29 @@
   [by=Cat Stevens,cov=matthew-and-son,album=Matthew and son]
 
   \cover
-  \gtab{Sol}{320003}
-  \gtab{Ré}{XX0232}
-  \gtab{Do}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
 
   \beginverse
-    In the \[Sol]mid\[Ré]night \[Do]moon\[Sol]light \[Ré]I
-    Will be \[Do]walking a \[Ré]long and lonely \[Sol]mile \[Ré Do Ré]
-    And \[Sol]eve\[Ré]ry \[Do]time \[Sol]I \[Ré]do
-    I keep \[Do]seeing this pi\[Ré]cture of \[Sol]you \[Ré Do]
+    In the \[G]mid\[D]night \[C]moon\[G]light \[D]I
+    Will be \[C]walking a \[D]long and lonely \[G]mile \[D C D]
+    And \[G]eve\[D]ry \[C]time \[G]I \[D]do
+    I keep \[C]seeing this pi\[D]cture of \[G]you \[D C]
   \endverse
 
   \beginchorus
-    \[Ré]Here comes my \[Sol]baby \[Ré Do]
-    \[Ré]Here she comes \[Sol]now \[Ré Do]
-    \[Ré]And it \[Sol]comes as \[Ré]no sur\[Do]prise to \[Ré]me
-    \[Do]With another \[Ré]guy
-
-    \[Ré]Here comes my \[Sol]baby \[Ré Do]
-    \[Ré]Here she comes \[Sol]now \[Ré Do]
-    \[Ré]Walking with a \[Sol]love, with a \[Ré]love that's \[Do]all so \[Ré]fine
-    \[Do]Never could be \[Ré]mine, no matter how I \[Sol]try \[Ré Do Ré Sol]
+    \[D]Here comes my \[G]baby \[D C]
+    \[D]Here she comes \[G]now \[D C]
+    \[D]And it \[G]comes as \[D]no sur\[C]prise to \[D]me
+    \[C]With another \[D]guy
+  \endchorus
+  
+  \beginchorus
+    \[D]Here comes my \[G]baby \[D C]
+    \[D]Here she comes \[G]now \[D C]
+    \[D]Walking with a \[G]love, with a \[D]love that's \[C]all so \[D]fine
+    \[C]Never could be \[D]mine, no matter how I \[G]try \[D C D G]
   \endchorus
 
   \beginverse

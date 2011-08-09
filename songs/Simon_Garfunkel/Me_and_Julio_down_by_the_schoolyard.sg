@@ -11,10 +11,9 @@
   \gtab{F}{1:022100}
 
   \beginverse*
-  \musicnote{\Intro : \nolyrics{\[G C G D]} \rep{2}}
+    \musicnote{\Intro : \nolyrics{\[G C G D]} \rep{2}}
   \endverse
   
-
   \beginverse
     The \[G]mama pajama rolled out of bed
     And ran to the police \[C]station

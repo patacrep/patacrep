@@ -45,7 +45,8 @@
     We've come for what's ours
   \endverse
 
-  \musicnote{power chords}
+  \musicnote[english]{power chords}
+  \musicnote[french]{power chords}
 
   \beginverse
     Come stand among the rattlesnakes
@@ -61,7 +62,8 @@
     We pray the sun will come up
   \endverse
 
-  \musicnote{standard chords}
+  \musicnote[english]{standard chords}
+  \musicnote[french]{accords usuels}
 
   \beginverse
     For something walks across these fields

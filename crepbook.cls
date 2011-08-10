@@ -49,6 +49,7 @@
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
 \RequirePackage{tex/licence}
+\RequirePackage{tex/xstring}
 
 \iflyric%
   \tabsfalse%
@@ -87,6 +88,7 @@
 \def\picture#1{\gdef\@picture{#1}}
 \def\picturecopyright#1{\gdef\@picturecopyright{#1}}
 \def\footer#1{\gdef\@footer{#1}}
+\def\lang#1{\gdef\@lang{#1}}
 \clearheadinfo
 
 \renewcommand\maketitle{

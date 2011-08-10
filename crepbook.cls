@@ -361,24 +361,32 @@
 %% End of tabs.sty file
 
 \newcommand{\Intro}{
-  \IfStrEq{\@lang}{english}{Intro}{}
-  \IfStrEq{\@lang}{french}{Intro}{}
+  \IfStrEq{\@lang}{english}{intro}{}
+  \IfStrEq{\@lang}{french}{intro}{}
 }
 \newcommand{\Outro}{
-  \IfStrEq{\@lang}{english}{Outro}{}
-  \IfStrEq{\@lang}{french}{Outro}{}
+  \IfStrEq{\@lang}{english}{outro}{}
+  \IfStrEq{\@lang}{french}{outro}{}
 }
 \newcommand{\Bridge}{
-  \IfStrEq{\@lang}{english}{Bridge}{}
-  \IfStrEq{\@lang}{french}{Pont}{}
+  \IfStrEq{\@lang}{english}{bridge}{}
+  \IfStrEq{\@lang}{french}{pont}{}
 }
 \newcommand{\Chorus}{
-  \IfStrEq{\@lang}{english}{Chorus}{}
-  \IfStrEq{\@lang}{french}{Refrain}{}
+  \IfStrEq{\@lang}{english}{chorus}{}
+  \IfStrEq{\@lang}{french}{refrain}{}
 }
 \newcommand{\Verse}{
- \IfStrEq{\@lang}{english}{Verse}{}
-  \IfStrEq{\@lang}{french}{Couplet}{}
+ \IfStrEq{\@lang}{english}{verse}{}
+  \IfStrEq{\@lang}{french}{couplet}{}
+}
+\newcommand{\Solo}{
+ \IfStrEq{\@lang}{english}{solo}{}
+  \IfStrEq{\@lang}{french}{solo}{}
+}
+\newcommand{\Pattern}{
+ \IfStrEq{\@lang}{english}{pattern}{}
+  \IfStrEq{\@lang}{french}{motif}{}
 }
 
 \let\musicnoteORIG\musicnote

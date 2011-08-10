@@ -358,6 +358,7 @@
   \renewcommand{\bar}{}%
 }{}%
 \fi%
+%% End of tabs.sty file
 
 \RequirePackage{xspace}
 \newcommand{\Intro}{
@@ -383,8 +384,12 @@
 
 \let\musicnoteORIG\musicnote
 \renewcommand{\musicnote}[2][english]{%
-  \musicnoteORIG{#2}
+  \IfStrEq{\@lang}{#1}{\musicnoteORIG{#2}}{}
 }
 
-%% End of tabs.sty file
+\let\textnoteORIG\textnote
+\renewcommand{\textnote}[2][english]{%
+  \IfStrEq{\@lang}{#1}{\textnoteORIG{#2}}{}
+}
+
 \makeatother

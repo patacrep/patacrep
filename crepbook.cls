@@ -77,6 +77,7 @@
   \gdef\@email{}
   \gdef\@picture{}
   \gdef\@picturecopyright{}
+  \gdef\@lang{english}
 }
 
 \def\subtitle#1{\gdef\@subtitle{#1}}
@@ -126,11 +127,26 @@
 
  \vspace{1.5cm}
 
- \newcommand{\l@belVersion}{\bf version :}
- \newcommand{\l@belDate}{\bf date :}
- \newcommand{\l@belAuthor}{\bf auteurs :}
- \newcommand{\l@belWeb}{\bf web :}
- \newcommand{\l@belMail}{\bf mail :}
+ \newcommand{\l@belVersion}{
+   \IfStrEq{\@lang}{english}{\bf version:}{}
+   \IfStrEq{\@lang}{french}{\bf version :}{}
+ }
+ \newcommand{\l@belDate}{
+   \IfStrEq{\@lang}{english}{\bf date:}{}
+   \IfStrEq{\@lang}{french}{\bf date :}{}
+ }
+ \newcommand{\l@belAuthor}{
+   \IfStrEq{\@lang}{english}{\bf authors:}{}
+   \IfStrEq{\@lang}{french}{\bf auteurs :}{}
+ }
+ \newcommand{\l@belWeb}{
+   \IfStrEq{\@lang}{english}{\bf web:}{}
+   \IfStrEq{\@lang}{french}{\bf web :}{}
+ }
+ \newcommand{\l@belMail}{
+   \IfStrEq{\@lang}{english}{\bf mail:}{}
+   \IfStrEq{\@lang}{french}{\bf mail :}{}
+ }
 
  \begin{flushleft}
    \begin{tabular}{l l}
@@ -344,11 +360,26 @@
 \fi%
 
 \RequirePackage{xspace}
-\newcommand{\intro}{intro\xspace}
-\newcommand{\outro}{outro\xspace}
-\newcommand{\bridge}{bridge\xspace}
-\newcommand{\txtChorus}{refrain\xspace}
-\newcommand{\txtVerse}{couplet\xsapce}
+\newcommand{\Intro}{
+  \IfStrEq{\@lang}{english}{Intro\xspace}{}
+  \IfStrEq{\@lang}{french}{Intro\xspace}{}
+}
+\newcommand{\Outro}{
+  \IfStrEq{\@lang}{english}{Outro\xspace}{}
+  \IfStrEq{\@lang}{french}{Outro\xspace}{}
+}
+\newcommand{\Bridge}{
+  \IfStrEq{\@lang}{english}{Bridge\xspace}{}
+  \IfStrEq{\@lang}{french}{Pont\xspace}{}
+}
+\newcommand{\Chorus}{
+  \IfStrEq{\@lang}{english}{Chorus\xspace}{}
+  \IfStrEq{\@lang}{french}{Refrain\xspace}{}
+}
+\newcommand{\Verse}{
+ \IfStrEq{\@lang}{english}{Verse\xspace}{}
+  \IfStrEq{\@lang}{french}{Couplet\xspace}{}
+}
 
 \let\musicnoteORIG\musicnote
 \renewcommand{\musicnote}[2][english]{%

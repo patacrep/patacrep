@@ -66,15 +66,17 @@
 \newcounter{@auth}
 \newcounter{auco}
 
-\def\clearheadinfo{\gdef\@author{No Author Given}%
-                   \gdef\@title{No Title Given}%
-                   \gdef\@subtitle{}
-                   \gdef\@version{}
-                   \gdef\@web{}
-                   \gdef\@mail{}
-                   \gdef\@email{}
-                   \gdef\@picture{}
-                   \gdef\@picturecopyright{}}
+\def\clearheadinfo{
+  \gdef\@author{No Author Given}%
+  \gdef\@title{No Title Given}%
+  \gdef\@subtitle{}
+  \gdef\@version{}
+  \gdef\@web{}
+  \gdef\@mail{}
+  \gdef\@email{}
+  \gdef\@picture{}
+  \gdef\@picturecopyright{}
+}
 
 \def\subtitle#1{\gdef\@subtitle{#1}}
 \def\version#1{\gdef\@version{#1}}
@@ -122,13 +124,19 @@
 
  \vspace{1.5cm}
 
+ \newcommand{\l@belVersion}{\bf version :}
+ \newcommand{\l@belDate}{\bf date :}
+ \newcommand{\l@belAuthor}{\bf auteurs :}
+ \newcommand{\l@belWeb}{\bf web :}
+ \newcommand{\l@belMail}{\bf mail :}
+
  \begin{flushleft}
    \begin{tabular}{l l}
-     \if!\@version!\else{\bf version:} & \@version \\ \fi
-     \if!\@date!\else{\bf date:} &   \@date \\ \fi
-     \if!\@author!\else{\bf auteurs:} & \@author \\ \fi
-     \if!\@web!\else{\bf web:} &  \url{\@web} \\ \fi
-     \if!\@mail!\else{\bf mail:} &  \url{\@mail} \\ \fi
+     \if!\@version!\else{\l@belVersion} & \@version \\ \fi
+     \if!\@date!\else{\l@belDate} &   \@date \\ \fi
+     \if!\@author!\else{\l@belAuthor} & \@author \\ \fi
+     \if!\@web!\else{\l@belWeb} &  \url{\@web} \\ \fi
+     \if!\@mail!\else{\l@belMail} &  \url{\@mail} \\ \fi
    \end{tabular}
  \end{flushleft}
 

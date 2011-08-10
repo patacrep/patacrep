@@ -8,7 +8,9 @@
   \gtab{C}{X32010}
   \gtab{B&}{1:X02220}
 
-  \textnote{One, two, three}
+  \beginverse*
+    One, two, three
+  \endverse
 
   \beginverse
     Well, John \[F]Henry was a little baby

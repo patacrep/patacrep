@@ -8,7 +8,8 @@
   \gtab{Dm}{5:X02210}
   \gtab{A7}{5:020100}
 
-  \textnote{parlé}
+  \textnote[english]{spoken}
+  \textnote[french]{parlé}
   \beginverse*
     Approchez, approchez mesdames et messieurs
     Car aujourd'hui grande vente aux enchères

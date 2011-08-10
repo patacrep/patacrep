@@ -79,7 +79,8 @@
 
 
   \beginverse
-    \textnote{parlé}
+    \textnote[english]{spoken}
+    \textnote[french]{parlé}
     Alors écoute ça !
     Not' civilisation ne cesse de s'enfoncer
     Matériels uniquement, sont les progrès

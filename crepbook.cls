@@ -348,5 +348,10 @@
 \newcommand{\txtChorus}{refrain\xspace}
 \newcommand{\txtVerse}{couplet\xsapce}
 
+\let\musicnoteORIG\musicnote
+\renewcommand{\musicnote}[2][english]{%
+  \musicnoteORIG{#2}
+}
+
 %% End of tabs.sty file
 \makeatother

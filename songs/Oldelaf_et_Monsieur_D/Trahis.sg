@@ -13,10 +13,10 @@
   \musicnote{intro : F{\shrp}m D A E \rep{2}}
 
   \beginverse
-    \[F#m]{Tu as} eu une \[D]{si riche} car\[A]riè{\ldots}\[E]re
-    \[F#m]Toujours fréquen\[D]té les hautes \[A]sphè{\ldots}\[E]res
-    \[D]{Tu vivais} un peu comme dans un \[F#m]rê{\ldots}ve
-    \[D]Pourquoi faudrait-il que tout s'a\[C#]chè{\ldots}ve
+    \[F#m]{Tu as} eu une \[D]{si riche} car\[A]riè\[E]re
+    \[F#m]Toujours fréquen\[D]té les hautes \[A]sphè\[E]res
+    \[D]{Tu vivais} un peu comme dans un \[F#m]rêve
+    \[D]Pourquoi faudrait-il que tout s'a\[C#]chève ?
   \endverse
 
   \beginverse
@@ -30,7 +30,7 @@
     Tu nous as tra\[F#m]his, tu nous as tra\[D]his
     \[A]Et dire que t'étais à Charlé\[E]ty
     Tu nous as tra\[F#m]his, tu nous as tra\[D]his
-    \[A]Mais qu'est-ce que t'as fait Carla Bru\[C#]ni
+    \[A]Mais qu'est-ce que t'as fait Carla Bru\[C#]ni ?
   \endchorus
 
   \beginchorus
@@ -42,20 +42,20 @@
 
   \beginchorus
     Tu nous as trahis, tu nous as trahis
-    Dis-moi que c'était pour un pari
+    Dis-moi que c'était pour un pari ?
     Tu nous as trahis, tu nous as trahis
-    Il paraît que t'as rencontré Goufi
+    Il paraît que t'as rencontré Goufi ?
   \endchorus
 
   \beginchorus
     Tu nous as déçus, tu nous as déçus
-    À moins que t'aies des problèmes de vue
+    À moins que t'aies des problèmes de vue ?
     Tu nous as déçus, tu nous as déçus
     Mais qu'est-ce que t'as fait Carla Nibru ?
   \endchorus
 
   \beginverse*
-    Tu nous as trahis \echo{Y-a quelqu'un qui m'a dit !} \rep{8}
+    Tu nous as trahis \echo{Y'a quelqu'un qui m'a dit !} \rep{8}
     Carla Bruni !
   \endverse
 

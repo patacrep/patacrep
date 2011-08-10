@@ -341,5 +341,12 @@
 }{}%
 \fi%
 
+\RequirePackage{xspace}
+\newcommand{\intro}{intro\xspace}
+\newcommand{\outro}{outro\xspace}
+\newcommand{\bridge}{bridge\xspace}
+\newcommand{\txtChorus}{refrain\xspace}
+\newcommand{\txtVerse}{couplet\xsapce}
+
 %% End of tabs.sty file
 \makeatother

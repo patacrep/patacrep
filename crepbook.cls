@@ -77,7 +77,6 @@
   \gdef\@email{}
   \gdef\@picture{}
   \gdef\@picturecopyright{}
-  \gdef\@lang{english}
 }
 
 \def\subtitle#1{\gdef\@subtitle{#1}}

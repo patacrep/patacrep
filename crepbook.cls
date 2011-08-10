@@ -360,36 +360,39 @@
 \fi%
 %% End of tabs.sty file
 
-\RequirePackage{xspace}
 \newcommand{\Intro}{
-  \IfStrEq{\@lang}{english}{Intro\xspace}{}
-  \IfStrEq{\@lang}{french}{Intro\xspace}{}
+  \IfStrEq{\@lang}{english}{Intro}{}
+  \IfStrEq{\@lang}{french}{Intro}{}
 }
 \newcommand{\Outro}{
-  \IfStrEq{\@lang}{english}{Outro\xspace}{}
-  \IfStrEq{\@lang}{french}{Outro\xspace}{}
+  \IfStrEq{\@lang}{english}{Outro}{}
+  \IfStrEq{\@lang}{french}{Outro}{}
 }
 \newcommand{\Bridge}{
-  \IfStrEq{\@lang}{english}{Bridge\xspace}{}
-  \IfStrEq{\@lang}{french}{Pont\xspace}{}
+  \IfStrEq{\@lang}{english}{Bridge}{}
+  \IfStrEq{\@lang}{french}{Pont}{}
 }
 \newcommand{\Chorus}{
-  \IfStrEq{\@lang}{english}{Chorus\xspace}{}
-  \IfStrEq{\@lang}{french}{Refrain\xspace}{}
+  \IfStrEq{\@lang}{english}{Chorus}{}
+  \IfStrEq{\@lang}{french}{Refrain}{}
 }
 \newcommand{\Verse}{
- \IfStrEq{\@lang}{english}{Verse\xspace}{}
-  \IfStrEq{\@lang}{french}{Couplet\xspace}{}
+ \IfStrEq{\@lang}{english}{Verse}{}
+  \IfStrEq{\@lang}{french}{Couplet}{}
 }
 
 \let\musicnoteORIG\musicnote
-\renewcommand{\musicnote}[2][english]{%
-  \IfStrEq{\@lang}{#1}{\musicnoteORIG{#2}}{}
+\renewcommand{\musicnote}[2][]{%
+  \IfStrEq{}{#1}{\musicnoteORIG{#2}}{
+    \IfStrEq{\@lang}{#1}{\musicnoteORIG{#2}}{}
+  }
 }
 
 \let\textnoteORIG\textnote
-\renewcommand{\textnote}[2][english]{%
-  \IfStrEq{\@lang}{#1}{\textnoteORIG{#2}}{}
+\renewcommand{\textnote}[2][]{%
+  \IfStrEq{}{#1}{\textnoteORIG{#2}}{
+    \IfStrEq{\@lang}{#1}{\textnoteORIG{#2}}{}
+  }
 }
 
 \makeatother

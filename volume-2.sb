@@ -1,5 +1,6 @@
 {
 "template" : "patacrep.tmpl",
+"lang" : "french",
 "bookoptions" : [
     "diagram",
     "lilypond",

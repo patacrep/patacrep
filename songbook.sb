@@ -1,4 +1,5 @@
 {
-  "template" : "patacrep.tmpl",
-  "songs" : "all"
+"template" : "patacrep.tmpl",
+"lang" : "french",
+"songs" : "all"
 }

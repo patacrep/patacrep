@@ -1,5 +1,6 @@
 {
 "template" : "ancient.tmpl",
+"lang" : "french",
 "author" : "Crep (R.Goffe) \\and Lohrun (A.Dupas)",
 "bookoptions" : [
     "diagram",

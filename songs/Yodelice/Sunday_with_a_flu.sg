@@ -10,7 +10,7 @@
   \gtab{D}{XX0232}
 
   \beginverse*
-    \musicnote{\Intro : \nolyrics{\[Bm G D Bm]}}
+    \musicnote{\Intro: \nolyrics{\[Bm G D Bm]}}
   \endverse
 
   \beginverse
@@ -40,8 +40,8 @@
     And I just can't get over you
   \endverse
 
-  \musicnote[english]{\Chorus, whistled verse, and \Chorus}
-  \musicnote[french]{\Chorus, couplet sifflé et \Chorus}
+  \musicnote[english]{\Chorus; whistled verse; \Chorus}
+  \musicnote[french]{\Chorus ; couplet sifflé ; \Chorus}
 
   \beginverse
     Called a cabbage, threw the garbage

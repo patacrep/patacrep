@@ -10,7 +10,8 @@
   \gtab{G}{320003}
   \gtab{Em}{022000}
 
-  \musicnote{intro : Am C G Em}
+  \musicnote[english]{intro : Am C G Em}
+  \musicnote[french]{intro : Lam Do Sol Mim}
 
   \beginverse
     \[Am]J'étais cool, assis sur un banc. C'était au printemps

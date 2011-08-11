@@ -10,7 +10,8 @@
   \gtab{E}{022100}
   \gtab{C#}{4:X02220}
 
-  \musicnote{intro : F{\shrp}m D A E \rep{2}}
+  \musicnote[english]{intro : F{\shrp}m D A E \rep{2}}
+  \musicnote[french]{intro : Fa{\shrp}m Ré La Mi \rep{2}}
 
   \beginverse
     \[F#m]{Tu as} eu une \[D]{si riche} car\[A]riè\[E]re

@@ -71,15 +71,16 @@
     Trafiquants d'import-export
   \endchorus
 
- \musicnote{transposer d'une tierce}
-
- \beginchorus
+  \musicnote[english]{transpose by a third}
+  \musicnote[french]{transposer d'une tierce}
+  
+  \beginchorus
     Tomber d'en haut, comme les petites gouttes d'eau
     Que j'entends tomber
     Dehors, par la f'nêtre
     Quand je m'endors le cœur en fête
   \endchorus
-
+  
   \beginchorus
     Poseur de girouettes
     Du haut du clocher

@@ -39,7 +39,9 @@
     Un navire de pa\[Am]pa
   \endverse
 
-  \musicnote{Am F C E7 \rep{2}}
+  \beginverse*
+    \musicnote{\nolyrics{\[Am F C E7]} \rep{2}}
+  \endverse
 
   \beginverse
     \[Am]{Et puis} un jour, c'est lui qui apprendra

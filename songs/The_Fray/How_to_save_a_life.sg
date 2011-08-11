@@ -11,7 +11,9 @@
   \gtab{D}{XX0232}
   \gtab{C}{X32010}
 
-  \musicnote{intro: G D4 Em D D4 G}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[G D4 Em D D4 G]}}
+  \endverse
 
   \beginverse
     \[G]Step one you say we \[D4]{need to talk}
@@ -42,7 +44,7 @@
     And pay the God he hears you
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
   \beginverse
     As he begins to raise his voice
@@ -55,6 +57,6 @@
     And you'll begin to wonder why you came
   \endverse
 
-  \musicnote{chorus \rep{3}}
+  \musicnote{\Chorus \rep{3}}
 
 \endsong

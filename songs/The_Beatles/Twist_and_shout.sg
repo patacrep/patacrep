@@ -23,7 +23,7 @@
     Just like I knew you would \echo{like I knew you would, oooh!}
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
   \beginverse
     You know you're a twisty little girl \echo{twist little girl}
@@ -36,7 +36,8 @@
     \[A]Ah \echo{Ah Ah} Ah \echo{Ah Ah}
   \endverse
 
-  \musicnote{chorus, repeat verse 2}
+  \musicnote[english]{\Chorus, repeat \Verse 2}
+  \musicnote[french]{\Chorus, répéter le \Verse 2}
 
   \beginverse*
     \[A7]Well, shake it, shake it, shake it, \[D]baby, now \echo{\[G]shake it up \[A]baby} \rep{3}

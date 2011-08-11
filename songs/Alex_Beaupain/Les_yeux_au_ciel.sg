@@ -11,7 +11,9 @@
   \gtab{C7/6}{X32200}
   \gtab{C7}{X32000}
 
-  \musicnote{intro : Am E7sus4 C7/6 E7sus4 \rep{2}}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Am E7sus4 C7/6 E7sus4]} \rep{2}}
+  \endverse
 
   \beginverse
     \[Am]Les yeux \[E7sus4]au \[C6]ciel

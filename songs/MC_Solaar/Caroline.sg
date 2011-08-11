@@ -10,8 +10,9 @@
   \gtab{G}{320003}
   \gtab{Em}{022000}
 
-  \musicnote[english]{intro : Am C G Em}
-  \musicnote[french]{intro : Lam Do Sol Mim}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Am C G Em]}}
+  \endverse
 
   \beginverse
     \[Am]J'étais cool, assis sur un banc. C'était au printemps
@@ -65,7 +66,7 @@
     Je sens un pincement dans son cœur, mais elle n'ose dire un mot
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
   \beginverse
     Claude MC prend le microphone, genre love story raggamuffin
@@ -88,6 +89,6 @@
     Je joue les rouges, cœur, Caro
   \endverse
 
-  \musicnote{chorus \rep{2}}
+  \musicnote{\Chorus \rep{2}}
 
 \endsong

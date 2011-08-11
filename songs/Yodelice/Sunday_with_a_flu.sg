@@ -9,7 +9,9 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
-  \musicnote{intro: Bm G D Bm}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Bm G D Bm]}}
+  \endverse
 
   \beginverse
     \[Bm]Closed my door, forgot my key
@@ -38,7 +40,8 @@
     And I just can't get over you
   \endverse
 
-  \musicnote{chorus, whistled verse, and chorus}
+  \musicnote[english]{\Chorus, whistled verse, and \Chorus}
+  \musicnote[french]{\Chorus, couplet sifflé et \Chorus}
 
   \beginverse
     Called a cabbage, threw the garbage
@@ -47,6 +50,6 @@
     And I just can't get over you
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
 \endsong

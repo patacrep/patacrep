@@ -11,7 +11,9 @@
   \gtab{C}{X32010}
   \gtab{Em}{022000}
 
-  \musicnote{intro : Am F G \rep{2}}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Am F G]} \rep{2}}
+  \endverse
 
   \beginverse
     \[Am]Tous les soirs, assis sur mon arrosoir de whisky

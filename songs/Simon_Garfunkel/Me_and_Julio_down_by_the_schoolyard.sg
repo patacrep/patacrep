@@ -10,8 +10,10 @@
   \gtab{D}{XX0232}
   \gtab{F}{1:022100}
 
-  \musicnote[english]{intro: G C G D \rep{2}}
-  \musicnote[french]{intro: Sol Do Sol Ré \rep{2}}
+  \beginverse*
+  \musicnote{\Intro : \nolyrics{\[G C G D]} \rep{2}}
+  \endverse
+  
 
   \beginverse
     The \[G]mama pajama rolled out of bed

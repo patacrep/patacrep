@@ -11,7 +11,9 @@
   \gtab{G}{320003}
   \gtab{Am}{X02210}
 
-  \musicnote{intro: Dm F C G \rep{2}}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Dm F C G]} \rep{2}}
+  \endverse
 
   \beginverse
     \[F]Look for me another \[C]day

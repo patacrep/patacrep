@@ -9,8 +9,11 @@
   \gtab{D9+}{XX0230}
   \gtab{Em}{022000}
   \gtab{Bm}{2:X02210}
-  \musicnote{intro : C9+ Em C9+ Em}
 
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[C9+ Em C9+ Em]}}
+  \endverse
+    
   \beginverse
     L\[C9+]ave
     \[Em] Ma mémoire sale dans ce fleuve de \[C9+]boue

@@ -10,8 +10,10 @@
   \gtab{G}{3:022100}
   \gtab{D}{5:X02220}
 
-  \musicnote{intro: Em}
-
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Em]}}
+  \endverse
+    
   \beginverse
     Sometimes when facing common \[B]trouble
     When whole town is \[Em]screwed

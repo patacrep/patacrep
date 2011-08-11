@@ -10,7 +10,9 @@
   \gtab{B}{7:022100}
   \gtab{D}{5:X02220}
 
-  \musicnote{intro : Em C Am B \rep{2}}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Em C Am B]} \rep{2}}
+  \endverse
 
   \beginverse
     \[Em]Un beau jour que j'\[C]allais aller, \[Am]aller à l'é\[B]cole
@@ -26,7 +28,9 @@
     Pour grimper de mes pieds jusqu'à ma tête
   \endverse
 
-  \musicnote{Em C Em C Em C B7 \rep{2}}
+  \beginverse*
+    \musicnote{\nolyrics{\[Em C Em C Em C B7]} \rep{2}}
+  \endverse
 
   \beginverse
     Elle avait de petits bras et pleins de poils pour gratter

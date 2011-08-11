@@ -37,7 +37,7 @@
     Someone like me\dots{} Just want to be free
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
   \beginchorus
     \[E]Dying \[G]{is not} \[D]happy\[A]{!}
@@ -59,7 +59,5 @@
     Spending some time\dots{} Before the next ride
     Enjoying my life\dots{} Before I die!
   \endverse
-
-  \musicnote{chorus $\times 2$, chorus$^2$ $\times 2$}
 
 \endsong

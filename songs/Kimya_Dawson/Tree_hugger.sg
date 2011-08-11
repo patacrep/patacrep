@@ -60,6 +60,7 @@
     But hug my flower with your eyes''
   \endverse
 
-  \musicnote{repeat verse 1, 2, and 3}
+  \musicnote[english]{repeat \Verse 1, 2, and 3}
+  \musicnote[french]{répéter \Verse 1, 2 et 3}
 
 \endsong

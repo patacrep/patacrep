@@ -35,7 +35,9 @@
   \endchorus
 
 
-  \musicnote{G7 Am F C \rep{2}}
+  \beginverse*
+    \musicnote{\nolyrics{\[G7 Am F C]} \rep{2}}
+  \endverse
 
   \beginverse
     Si on aime que l'on nous rappelle

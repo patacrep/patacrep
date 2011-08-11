@@ -49,7 +49,9 @@
   \bar
   \end{tab}
 
-  \musicnote{intro: C C/B Am7 F}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[C C/B Am7 F]}}
+  \endverse
 
   \beginverse
     \[C]So lately \[C/B]You're wondering
@@ -80,7 +82,7 @@
     Out there who can bring me back to you
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
   \beginverse*
     \[F]Run away with my \[C/B]heart
@@ -95,7 +97,7 @@
     I'll stay with you for all of time
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
   \beginchorus
     If I could turn back time

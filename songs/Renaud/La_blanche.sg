@@ -13,7 +13,7 @@
 
   \ifchorded
   \beginchorus
-    {\nolyrics \[Em C Em A F\shrp]}
+    {\nolyrics \[Em C Em A F{\shrp}]}
   \endchorus
   \fi
 

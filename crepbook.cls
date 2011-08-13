@@ -403,4 +403,11 @@
   }
 }
 
+\newenvironment{bridge}{%
+  \begin{verse}%
+  \musicnote{\Bridge}%
+}{%
+  \end{verse}%
+}
+
 \makeatother

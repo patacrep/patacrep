@@ -1,0 +1,79 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les p'tits plaisirs}
+  [by=Les blérots de R.A.V.E.L,cov=voleurs-du-dimanche,album=Voleurs du dimanche]
+
+  \cover
+  \gtab{Cm}{3:X02210}
+  \gtab{D7}{3:X2120X}
+  \gtab{G}{3:X02210}
+  \gtab{Fm}{1:022000}
+  \gtab{D#}{6:X02220}
+  \gtab{A}{5:022100}
+  \gtab{D}{5:X02220}
+
+  \beginverse
+    \[Cm]À se promener sur les quais
+    \[D7]Quand il pleut de\[G]puis le mois de mai
+    \[Cm]Dire bonjour aux bateaux-mouches
+    \[D7]Qui sont gavés \[G]de mecs louches
+  \endverse
+
+  \beginverse*
+    Qui \[Fm]tassés comme des larves, grouillent
+    \[Cm]Finiront tous hommes-grenouilles
+    Et \[G]repartiront là-bas
+    \[Cm]Des souvenirs pleins les bras
+  \endverse
+
+  \beginverse
+    À faire le tour de la Terre
+    Accroupi sur son derrière
+    Faire semblant de voyager
+    En gardant les bras croisés
+  \endverse
+
+  \beginverse*
+    Traverser les océans
+    Vers de nouveaux continents
+    En faisant des mots croisés
+    Abruti devant sa télé
+  \endverse
+
+  \beginchorus
+    \[D#]Les p'tits plaisirs de la \[Gm]vie, sur Terre
+    \[A]Les p'tits plaisirs de la \[D]vie, mon cher
+    \[D#]Les p'tits plaisirs de \[Gm]la vie, sur Terre
+    \[D]Les p'tits plaisirs de la \[Gm]vie, mon cher
+  \endchorus
+
+  \beginverse
+    Aller vivre à la campagne
+    Quand la ville roule au butane
+    Vivre en plein milieu des champs
+    Loin des villes et loin des gens
+  \endverse
+
+  \beginverse*
+    Piétiner les OGM
+    Là où parfois les gens sèment
+    La tempête récolte le vent
+    Rat des villes et rat des champs
+  \endverse
+
+  \beginverse
+    Aller vivre dans l'espace
+    Quand il n'y aura plus de place
+    Quand il n'y aura plus d'oiseaux
+    Que des poubelles et des mégots
+  \endverse
+
+  \beginverse*
+    Et se promener sur la Lune
+    Sur ses cratères et ses dunes
+    Faire l'amour dans l'atmosphère
+    Avec la tête à l'envers
+  \endverse
+
+
+\endsong

@@ -1,0 +1,79 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le retour de Petrouchka}
+  [by=Les blérots de R.A.V.E.L,cov=les-joies-sauvages,album=Les joies sauvages]
+
+  \cover
+  \gtab{Fm}{1:022000}
+  \gtab{B&m}{1:X02210}
+  \gtab{C7}{X3231X}
+  \gtab{C#7}{1:X2120X}
+
+  \beginverse
+    \[Fm]Petrouchka avait mal tourné
+    Pour aller \[B&m]retrouver son chat
+    Elle a \[Fm]traversé la toundra
+    En passant \[C7]par Hi\[C#7]roshi\[C7]ma
+  \endverse
+
+  \beginverse*
+    S'est arrê\[B&m]tée a Tcherno\[C7]byl
+    Respirer le \[Fm]bonheur de la \[B&m]ville
+    Et a\[Fm]tterri à Mos\[C7]cou
+    Dans un vieux \[Fm]bordel à deux sous
+  \endverse
+
+  \beginverse
+    Petrouchka
+    Ne pense plus à son chat
+    Elle travaille plus que pour
+    Trois verres de vodka
+  \endverse
+
+  \beginverse*
+    Pour trois fois rien, pour qui voudra
+    Pour tous ces chiens, pour tous ces rats
+    Elle finit tout les soirs
+    Dans leurs draps
+  \endverse
+
+  \beginverse
+    Petrouchka avait mal tourné
+    Pour aller retrouver son chat
+    C'est surement pas la mère Michelle
+    Qui aurait pu faire quoi que ce soit
+  \endverse
+
+  \beginverse*
+    Vu que c'est elle la maquerelle
+    Vu que c'est elle qui fait la loi
+    Désormais Petrouchka
+    Ne pense plus à son chat
+  \endverse
+
+  \beginverse
+    Elle pleure sur son sort
+    Et fait glisser ses bats
+    Son pauvre minou est tout souillé
+    Son pauvre minou est tout fatigué
+  \endverse
+
+  \beginverse*
+    Elle danse au rythme des violons
+    À demi nue sur un balcon
+    Ce soir Petrouchka
+    C'est mon tour à moi
+  \endverse
+
+  \beginverse
+    Chôdazov', bognanov
+    Bromir nà tu taïga nuria
+    Pov'di metchi moussa ka là
+    Vodka li boï mon dreïa
+    Doumba laïka zubrowskaïa
+    Smirnoff holà zobreï ninia
+    Por tu l'estoma'
+    \rep{2}
+  \endverse
+
+\endsong

@@ -1,6 +1,6 @@
 \selectlanguage{english}
-\songcolumns{2}
-\beginsong{The internet is for porn}
+\songcolumns{1}
+\beginsong{The Internet is for porn}
   [by=Avenue Q,cov=avenue-q,album=Avenue Q]
 
   \cover
@@ -12,7 +12,7 @@
   \gtab{B}{7:022100}
 
   \beginverse
-    \[E]The internet is \[B7]really really \[E]great \echo{For porn!}
+    \[E]The Internet is \[B7]really, really \[E]great \echo{For porn!}
     \[E]I've got a fast connection so \[B7]I don't have to \[E]wait \echo{For porn!}
     \[F#m]There's always some new site \echo{For porn!}
     \[A&m]I browse all day and night \echo{For porn!}
@@ -20,92 +20,82 @@
   \endverse
 
   \beginchorus
-    \[E]The internet is for porn \echo{Trekkie!}
-    \[B7]The internet is for porn \echo{What are you doing?}
+    \[E]The Internet is for porn \echo{Trekkie!}
+    \[B7]The Internet is for porn \echo{What are you doing?}
     \[E]Why you think the \[A]net was born?
     \[E]Porn, \[B7]porn, \[E]porn!
   \endchorus
 
   \beginverse*
-    Treekkie!
-    Oh hello Kate Monster!
-    You are ruining my song
-    Oh me sorry, me no mean to
-    Well if you wouldn't mind please being quiet for a minute so I can finish?
-    Oki doki
-    Good
+    ``Treekkie!
+    --- Oh hello Kate Monster!
+    --- You are ruining my song
+    --- Oh me sorry, me no mean to
+    --- Well if you wouldn't mind please being quiet for a minute so I can finish?
+    --- Oki doki
+    --- Good''
   \endverse
 
   \beginverse
     I'm glad we have this new technology \echo{For porn!}
-    Which gives us untold opportunity \echo{For por\dots oops, sorry.}
+    Which gives us untold opportunity \echo{For por\dots oops, sorry}
     Right from you own desktop \echo{For \dots}
-    You can research browse and shop
-    Until you've had enough and your ready to stop \echo{For Porn!}
+    You can research, browse and shop
+    Until you've had enough and you're ready to stop \echo{For Porn!}
   \endverse
 
   \beginchorus
-    The internet is for porn \echo{Boo!}
-    The internet is for porn \echo{Trekkie!}
+    The Internet is for porn \echo{Boo!}
+    The Internet is for porn \echo{Trekkie!}
     Me up all night honking me horn
     To porn, porn, porn!
   \endchorus
 
-  \beginverse
-    That's gross, you're a pervert
-    Ah, sticks and stones Kate monster
-    No really, your a pervert
-    Normal people don't sit at home and look
-    At porn on the internet
-    Oh?
-    What?!
-    You have no idea!
-
-    Ready normal people?
-    Ready. Ready. Ready
-
-    Let me hear it!
+  \beginverse*
+    ``That's gross, you're a pervert
+    --- Ah, sticks and stones Kate monster
+    --- No really, you're a pervert. Normal people don't sit at home and look at porn on the Internet
+    --- Oh?
+    --- What?
+    --- You have no idea! Ready normal people?
+    --- Ready. Ready. Ready
+    --- Let me hear it!''
   \endverse
 
   \beginchorus
-    The internet is for porn \echo{Sorry Kate!}
-    The internet is for porn \echo{I masturbate!}
+    The Internet is for porn \echo{Sorry Kate!}
+    The Internet is for porn \echo{I masturbate!}
     All these guys unzip their flies
     For porn, porn, porn!
   \endchorus
 
   \beginverse*
-    The internet is not for porn!
-
-    Porn, Porn, P\dots
-    Hold on a second!
-
-    Now I know for a fact that you, Rob, check your portfolio and trade stocks online \echo{That's correct.}
+    ``The Internet is not for porn!
+    --- Porn, Porn, P\dots
+    --- Hold on a second!
+    Now I know for a fact that you, Rob, check your portfolio and trade stocks online \echo{That's correct}
     And Brian, you buy things on amazon.com \echo{Sure!}
     And Gary, you keep selling your possesions on eBay \echo{Yes I do!}
     And Princeton, you sent me that sweet online birthday card \echo{True!}
-
-    Oh, but Kate\dots
-    What you think he do \dots after? Hmm? \echo{Yeah!}
-    Eeewwwww!
+    --- Oh, but Kate, what you think he do \dots after? Hmm? \echo{Yeah!}
+    --- Eeewwwww!''
   \endverse
 
   \beginchorus
-    The internet is for porn! \echo{Gro!}
-    The internet is for porn! \echo{I hate porn!}
-    Grab your dick and double click \echo{I hate you men!}
+    The Internet is for porn! \echo{Gro!}
+    The Internet is for porn! \echo{I hate porn!}
+    Grab your dick and double click \echo{I hate men!}
     For porn, porn, porn!
   \endchorus
 
   \beginverse*
     Porn, porn, porn, porn \echo{I'm leaving!}
     Porn, porn, porn, porn
-    porn, porn, porn, porn \echo{I hate the internet!}
+    porn, porn, porn, porn \echo{I hate the Internet!}
     Porn, porn, porn, porn
 
-    The internet is for! \rep{2}
-    The internet is for porn!
-    Yeah!
+    The Internet is for! \rep{2}
+    The Internet is for porn!
   \endverse
 
 \endsong

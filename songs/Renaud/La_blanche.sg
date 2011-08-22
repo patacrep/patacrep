@@ -11,10 +11,12 @@
   \gtab{D}{XX0232}
   \gtab{A7}{X02020}
 
+  \ifchorded
   \beginchorus
     {\nolyrics \[Em C Em A F\shrp]}
   \endchorus
-
+  \fi
+  
   \beginverse
     \[D]Salut Michel, ça fait une paye
     Que j't'ai pas vu traîner dans mes ru\[A7]elles

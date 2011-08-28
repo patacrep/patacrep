@@ -1,0 +1,51 @@
+﻿\songcolumns{2}
+\beginsong{Porque te vas}
+  [by=Jeanette]
+
+  \gtab{Mi}{022100}
+  \gtab{lam}{002210}
+  \gtab{do}{332010}
+  \gtab{Fa}{1:022100}
+  \gtab{mim}{022000}
+  \gtab{rém}{000231}
+
+  \beginverse
+    \[lam]Hoy en mi ventana brilla el\[lrém]sol
+    Y el cora\[lam]zon
+    Se pone \[rém]triste contemplando la ciu\[lam]dad \[Mi]
+    Porque te \[lam]vas.
+  \endverse
+
+  \beginverse
+    Como cada noche desperté
+    Pensando en ti,
+    Y en mi reloj todas las horas vi pasar
+    Porque te vas.
+  \endverse
+
+  \beginchorus
+    \[Fa]Todas las promesas de mi amor
+    Se iran con\[lam]tigo,
+    Me olvida\[Do]ras, \[mim]  me olvida\[lam]ras
+    \[Fa]Junto a la estacion lloraré
+    Igual que un \[lam]nino
+    Porque te \[Do]vas, \[Mi]  porque te \[lam]vas
+    \[Mi] Porque te \[lam]vas, \[Mi] porque te \[lam]vas.
+  \endchorus
+
+  \beginverse
+    Bajo la penumbra de un farol
+    Se dormiran
+    Todas las cosas que quedaron por decir
+    Se dormiran.
+  \endverse
+
+  \beginverse
+    Junto a las manillas de un reloj
+    Esperaran
+    Todas las horas que quedaron por vivir
+    Esperaran.
+  \endverse
+
+\endsong
+

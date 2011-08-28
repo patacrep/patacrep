@@ -1,0 +1,43 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Jungle drum}
+  [by=Emiliana Torrini,cov=me-and-armini,album=Me and armini]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{B}{X02220}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+
+  \beginverse
+    \[Em]Hey, I'm in love
+    My \[G]fingers keep on \[A]clicking to the \[Em]beating of my heart
+    \[Em]Hey, I can't stop my feet
+  \endverse
+
+  \beginverse*
+    Ebo\[G]ny and \[A]ivory and \[Em]dancing in the street
+    \[Em]Hey, it's \[G]{'cause} of you
+    The world is in a \[A]crazy, hazy \[B]hue
+  \endverse
+
+  \beginchorus
+    \[C]My heart is beating like a \[G]jungle \[D]drum \rep{2}
+    \[C]My heart is beating like a \[G]jungle \[Em]drum
+  \endchorus
+
+  \beginverse
+    Man, you got me burning
+    I'm the moment between the striking and the fire
+    Hey, read my lips
+  \endverse
+
+  \beginverse*
+    Cause all they say is kiss, kiss, kiss, kiss, kiss
+    No, it'll never stop
+    My hands are in the air, yes I'm in love
+  \endverse
+
+\endsong

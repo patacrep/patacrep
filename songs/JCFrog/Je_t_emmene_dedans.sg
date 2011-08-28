@@ -3,29 +3,35 @@
 \beginsong{Je t'emmène dedans}
   [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
 
+  \beginchorus
+    Allez viens, je t'emmène dedans
+    Je t'emmène parmi tant de gens
+    Oui je voudrais, juste que tu comprennes
+    La vie en ligne est bien réelle
+    Rien n'est jamais virtuelle
+  \endchorus
 
-Allez viens, je t'emmène dedans
-Je t'emmène parmi tant de gens
-Oui je voudrais, juste que tu comprennes
-La vie en ligne est bien réelle
-Rien n'est jamais virtuelle
+  \beginverse
+    Je voudrais, que tu la ramènes moins souvent
+    Oui, tu te moques, de temps en temps
+    Mieux vaut connaître, pour faire le pédant
+    Allez, viens faire la fête, on peut t'aimer si seulement
+  \endverse
 
-Je voudrais, que tu la ramènes moins souvent
-Oui, tu te moques, de temps en temps
-Mieux vaut connaître, pour faire le pédant
-Allez, viens faire la fête, on peut t'aimer si seulement
+  \beginverse
+    Oui, je voudrais que tu te connectes plus souvent
+    Que tu partages de temps en temps
+    Oui je voudrais, que tu comprennes
+    La vie en ligne est bien réelle
+    Et jamais virtuelle
+  \endverse
 
-Oui, je voudrais que tu te connectes plus souvent
-Que tu partages de temps en temps
-Oui je voudrais, que tu comprennes
-La vie en ligne est bien réelle
-Et jamais virtuelle
-
-Oui, je voudrais que tu \dots
-La ramènes moins souvent
-Oui tu te moques de temps en temps
-Mieux vaut connaître, pour faire le pédant
-Allez, viens faire la fête, on peut t'aimer si seulement
-
+  \beginverse
+    Oui, je voudrais que tu \dots
+    La ramènes moins souvent
+    Oui tu te moques de temps en temps
+    Mieux vaut connaître, pour faire le pédant
+    Allez, viens faire la fête, on peut t'aimer si seulement
+  \endverse
 
 \endsong

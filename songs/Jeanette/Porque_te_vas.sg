@@ -1,50 +1,53 @@
-﻿\songcolumns{2}
+\selectlanguage{spanish}
+\songcolumns{2}
 \beginsong{Porque te vas}
-  [by=Jeanette]
+  [by=Jeanette,cov=jeanette,album=Jeanette]
 
-  \gtab{Mi}{022100}
-  \gtab{lam}{002210}
-  \gtab{do}{332010}
-  \gtab{Fa}{1:022100}
-  \gtab{mim}{022000}
-  \gtab{rém}{000231}
+  \cover
+  \gtab{Gm}{3:022000}
+  \gtab{Cm}{3:X02210}
+  \gtab{D7}{3:X2120X}
+  \gtab{E&}{6:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{Dm}{5:X02210}
+  \gtab{D}{5:X02220}
 
   \beginverse
-    \[lam]Hoy en mi ventana brilla el\[lrém]sol
-    Y el cora\[lam]zon
-    Se pone \[rém]triste contemplando la ciu\[lam]dad \[Mi]
-    Porque te \[lam]vas.
+    \[Gm]Hoy en mi ventana brilla el \[Cm]sol
+    Y el cora\[Gm]zón
+    Se pone \[Cm]triste contemplando la ciu\[Gm]dad \[D7]
+    Porque te \[Gm]vas
   \endverse
 
-  \beginverse
+  \beginverse*
     Como cada noche desperté
-    Pensando en ti,
+    Pensando en ti
     Y en mi reloj todas las horas vi pasar
-    Porque te vas.
+    Porque te vas
   \endverse
 
   \beginchorus
-    \[Fa]Todas las promesas de mi amor
-    Se iran con\[lam]tigo,
-    Me olvida\[Do]ras, \[mim]  me olvida\[lam]ras
-    \[Fa]Junto a la estacion lloraré
-    Igual que un \[lam]nino
-    Porque te \[Do]vas, \[Mi]  porque te \[lam]vas
-    \[Mi] Porque te \[lam]vas, \[Mi] porque te \[lam]vas.
+    \[E&]Todas las promesas de mi amor
+    Se irán con\[Gm]tigo
+    Me olvida\[B&]ras, \[Dm] me olvida\[Gm]ras
+    \[E&]Junto a la estación lloraré
+    Igual que un \[Gm]niño
+    Porque te \[B&]vas, \[D] porque te \[Gm]vas
+    \[D] Porque te \[Gm]vas, \[D] porque te \[Gm]vas
   \endchorus
 
   \beginverse
     Bajo la penumbra de un farol
-    Se dormiran
+    Se dormirán
     Todas las cosas que quedaron por decir
-    Se dormiran.
+    Se dormirán
   \endverse
 
-  \beginverse
+  \beginverse*
     Junto a las manillas de un reloj
     Esperaran
     Todas las horas que quedaron por vivir
-    Esperaran.
+    Esperaran
   \endverse
 
 \endsong

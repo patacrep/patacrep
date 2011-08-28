@@ -13,7 +13,7 @@
   \gtab{C}{X32010}
   \gtab{B7}{2:X02020}
 
-  \musicnote{intro : {\nolyrics \[Am G F E]} \rep{2}}
+  \musicnote{intro : Am G F E \rep{2}}
 
   \beginverse
     Vous souve\[Am]nez-vous des co\[G]pains
@@ -51,7 +51,7 @@
 
   \beginchorus
     Et la Schtroumpfette c'était beau
-    Et jamais, jamais agressif
+    Jamais, jamais agressif
   \endchorus
 
 

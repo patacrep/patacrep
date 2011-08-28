@@ -1,0 +1,20 @@
+\songcolumns{2}
+\beginsong{Petit panda}
+  [by=Cyrielle,cov=petit-panda]
+
+  %\cover
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+
+  \lilypond{Petit_panda}
+
+  \beginverse
+    Il était une \[Am]fois
+    Un tout petit pan\[F]da
+    Qui vivait dans les \[C]bois
+    Qui vivait loin de \[G]moi
+  \endverse
+
+\endsong

@@ -1,28 +1,28 @@
-\selectlanguage{french}
+\selectlanguage{english}
 \songcolumns{2}
 \beginsong{Russians}
   [by=Sting,cov=the-dream-of-the-blue-turtles,album=The dream of the blue turtles]
 
   \cover
   \capo{3}
-  \gtab{Lam}{X02210}
-  \gtab{Fa}{1:022100}
-  \gtab{Sol}{320003}
-  \gtab{Rém}{XX0231}
-  \gtab{Mi7}{020100}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
+  \gtab{C}{X32010}
 
   \beginverse
-    In \[Lam]Europe and A\[Fa]meri\[Sol]ca
-    There's a \[Rém]growing \[Mi7]feeling of his\[Fa]teri\[Mi7]a
-    Con\[Lam]ditioned to res\[Sol]pond to \[Fa]all the \[Mi7]threats
-    In the \[Rém]rhetorical \[Lam]speeches of \[Rém]the So\[Mi7]viets
+    In \[Am]Europe \[G]and A\[F]meri\[E7]ca
+    There's a \[Am]growing \[G]feeling of his\[F]teri\[E7]a
+    Con\[Am]ditioned to res\[G]pond to \[F]all the \[E7]threats
+    In the \[Am]rhetorical \[G]speeches of \[F]the So\[E7]viets
   \endverse
 
   \beginchorus
-    Mr. \[Do]Krushchev said : {\og}We will bury \[Mi7]you{\fg}
-    I \[Lam]don't subscribe to this \[Mi7]point of view
-    It would be \[Lam]such an ignorant \[Fa]thing to \[Mi7]do
-    If the \[Lam]Russians love \[Mi7]their children \[Lam]too
+    Mr. \[C]Khrushchev said: ``We will \[E7]bury you''
+    I \[Am]don't subscribe to this \[E7]point of view
+    It would be \[Am]such an \[G]ignorant \[F]thing to \[E7]do
+    If the \[Am]Russians love \[E7]their children \[Am]too
   \endchorus
 
   \beginverse
@@ -35,8 +35,8 @@
   \beginchorus
     We share the same biology
     Regardless of ideology
-    Believe me when I say to you :
-    {\og}I hope the Russians love their children too{\fg}
+    Believe me when I say to you:
+    ``I hope the Russians love their children too''
   \endchorus
 
   \beginverse
@@ -47,10 +47,10 @@
   \endverse
 
   \beginchorus
-    Mr. Reagan says : {\og}We will protect you{\fg}
+    Mr. Reagan says: ``We will protect you''
     I don't subscribe to this point of view
-    Believe me when I say to you :
-    {\og}I hope the Russian love their children too{\fg}
+    Believe me when I say to you:
+    ``I hope the Russian love their children too''
   \endchorus
 
   \beginchorus

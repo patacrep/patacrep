@@ -3,29 +3,44 @@
 \beginsong{Je t'emmène dedans}
   [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
 
+  \cover
+  \capo{4}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
 
-Allez viens, je t'emmène dedans
-Je t'emmène parmi tant de gens
-Oui je voudrais, juste que tu comprennes
-La vie en ligne est bien réelle
-Rien n'est jamais virtuelle
+  \beginchorus
+    Allez \[Em]viens, je t'emmène de\[G]dans
+    Je t'em\[Em]mène parmi tant de \[G]gens
+    Oui, je vou\[Am]drais, juste que tu com\[Em]prennes
+    La vie en ligne est bien \[D]réelle
+    Rien n'est jamais virtu\[F]elle
+  \endchorus
 
-Je voudrais, que tu la ramènes moins souvent
-Oui, tu te moques, de temps en temps
-Mieux vaut connaître, pour faire le pédant
-Allez, viens faire la fête, on peut t'aimer si seulement
+  \beginverse
+    Je voudrais, que tu la ramènes moins souvent
+    Oui, tu te moques de temps en temps
+    Mieux vaut connaître, pour faire le pédant
+    Allez, viens faire la fête
+    On peut t'aimer si seulement
+  \endverse
 
-Oui, je voudrais que tu te connectes plus souvent
-Que tu partages de temps en temps
-Oui je voudrais, que tu comprennes
-La vie en ligne est bien réelle
-Et jamais virtuelle
+  \beginverse
+    Oui, je voudrais que tu te connectes plus souvent
+    Que tu partages de temps en temps
+    Oui, je voudrais que tu comprennes
+    La vie en ligne est bien réelle
+    Et jamais virtuelle
+  \endverse
 
-Oui, je voudrais que tu \dots
-La ramènes moins souvent
-Oui tu te moques de temps en temps
-Mieux vaut connaître, pour faire le pédant
-Allez, viens faire la fête, on peut t'aimer si seulement
-
+  \beginverse
+    Oui, je voudrais que tu \dots la ramènes moins souvent
+    Oui, tu te moques de temps en temps
+    Mieux vaut connaître, pour faire le pédant
+    Allez, viens faire la fête
+    On peut t'aimer si seulement
+  \endverse
 
 \endsong

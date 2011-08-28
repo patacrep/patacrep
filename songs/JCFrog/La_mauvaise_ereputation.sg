@@ -4,29 +4,35 @@
   [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
 
   \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{F#7}{2:020100}
+  \gtab{F#}{2:022100}
+  \gtab{G}{3:022100}
+  \gtab{Em6}{3:XX212X}
+  \gtab{F4}{X2313X}
 
   \beginverse
-    Sur la toile sans prétention
-    J'ai mauvais e-reputation
+    \[Bm]Sur la toile sans prétention
+    J'ai mau\[F#7]vaise e-reputa\[Bm]tion
     Certes, j'y dis n'importe quoi
-    Mais n'y sommes nous point là pour ça
+    Mais n'y \[F#7]sommes-nous point là pour \[Bm]ça
   \endverse
 
   \beginverse*
-    Je ne fais pourtant que rarement le troll
-    Même si je confesse que parfois je rigole
+    \[G]Je ne fais pourtant que rare\[F#]ment le troll
+    \[G]Même si je confesse que par\[F#]fois \[Em6]je \[F4]ri\[F#]gole
   \endverse
 
   \beginchorus
-    Mais les braves geeks n'aiment pas que
-    L'on boot sur autre root qu'eux
+    \[Bm]Mais les braves geeks n'aiment pas que
+    L'on boot sur \[F#7]autre root \[Bm]{qu'eux}
     Non les braves geeks n'aiment pas que
-    L'on boot sur autre root qu'eux
+    L'on boot sur \[F#7]autre root \[Bm]{qu'eux}
   \endchorus
 
   \beginchorus
     Les internautes se lol de moi
-    Sauf ma mamam, ça va de soi !
+    Sauf ma maman, ça va de soi !
   \endchorus
 
   \beginverse

@@ -16,15 +16,21 @@
     J'ai mau\[F#7]vaise réputa\[Bm]tion
     Qu'je m'démène ou qu'je reste coi
     Je passe pour \[F#7]un je-ne-sais-\[Bm]quoi
+  \endverse
+
+  \beginverse*
     \[G]Je ne fais pourtant de tort \[F#]{à personne}
-    \[G]En suivant mon ch'min de pe\[F#]tit \[Em6]bon-\[F4]hom-\[F#]me
+    \[G]En suivant mon ch'min de pe\[F#]tit \[Em6]bon\[F4]hom\[F#]me
   \endverse
 
   \beginchorus
     \[Bm]Mais les braves gens n'aiment pas que
-    L'on suive une \[F#7]autre route \[Bm]qu'eux
+    L'on suive une \[F#7]autre route \[Bm]{qu'eux}
     Non, les braves gens n'aiment pas que
-    L'on suive une \[F#7]autre route \[Bm]qu'eux
+    L'on suive une \[F#7]autre route \[Bm]{qu'eux}
+  \endchorus
+
+  \beginchorus
     \[G]Tout le monde médit de \[Bm]moi
     Sauf les mu\[F#]ets, ça va de \[Bm]soi
   \endchorus
@@ -43,6 +49,9 @@
     L'on suive une autre route qu'eux
     Non, les braves gens n'aiment pas que
     L'on suive une autre route qu'eux
+  \endchorus
+
+  \beginchorus
     Tout le monde me montre du doigt
     Sauf les manchots, ça va de soi
   \endchorus
@@ -52,6 +61,9 @@
     Poursuivi par un cul-terreux
     J'lance la patte et pourquoi le taire
     Le cul-terreux se r'trouve par terre
+  \endverse
+
+  \beginverse*
     Je ne fais pourtant de tort à personne
     En laissant courir les voleurs de pommes
   \endverse
@@ -61,6 +73,9 @@
     L'on suive une autre route qu'eux
     Non, les braves gens n'aiment pas que
     L'on suive une autre route qu'eux
+  \endchorus
+
+  \beginchorus
     Tout le monde se rue sur moi
     Sauf les culs-de-jatte, ça va de soi
   \endchorus
@@ -70,6 +85,9 @@
     Pour d'viner l'sort qui m'est promis
     S'ils trouvent une corde à leur goût
     Ils me la passeront au cou
+  \endverse
+
+  \beginverse*
     Je ne fais pourtant de tort à personne
     En suivant les ch'mins qui n'mènent pas à Rome
   \endverse
@@ -79,6 +97,9 @@
     L'on suive une autre route qu'eux
     Non, les braves gens n'aiment pas que
     L'on suive une autre route qu'eux
+  \endchorus
+
+  \beginchorus
     Tout l'monde viendra me voir pendu
     Sauf les aveugles, bien entendu
   \endchorus

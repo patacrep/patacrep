@@ -1,0 +1,44 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Be a doll and take my heart}
+  [by=Herman Düne,cov=strange-moosic,album=Strange moosic]
+
+  \cover
+  \capo{2}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+
+  \beginverse
+    You make a \[C]mess of your \[G]hair \[D Em]
+    When you're \[C]sad \[G D Em]
+    I'll try to \[C]make you feel \[G]better \[D Em]
+    When you'll feel \[C]bad \[G D Em]
+    I will \[C]kiss on the forehead
+    For a \[D]start
+  \endverse
+
+  \beginchorus
+    Be a \[C]doll and take my \[G]heart \[D Em] \rep{4}
+  \endchorus
+
+  \beginverse
+    From the last frontier
+    To the Sunshine state
+    From Volunteer
+    To the Empire state
+    We'll run around together
+    Never apart
+  \endverse
+
+  \beginverse
+    May you live
+    And not die
+    May you never love
+    Another guy
+    May there always be a fire
+    Shooting from our sparks
+  \endverse
+
+\endsong

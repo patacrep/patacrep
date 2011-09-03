@@ -1,70 +1,68 @@
 \selectlanguage{english}
-\songcolumns{2}
-\beginsong{Ironic}[by=Alanis Morissette]
-\gtab{G/B}{320033}
-\gtab{C9}{032033}
-\gtab{Am7}{002013}
-\gtab{Bb}{1:002220}
-\gtab{F7M}{X33210}
-\beginverse
-An old\[G/B] man\[C9] tur\[G/B]ned ninety-eight\[Am7]
-He won the lottery  and died the next day
-It's a black fly in your chardonnay
-it's a death row pardon two minutes too late
-and isn't it Ironic?    Don't you think?
-\endverse
+\songcolumns{1}
+\beginsong{Ironic}
+  [by=Alanis Morissette,cov=ironic,album=Ironic]
+
+  \cover
+  \gtab{G/B}{320033}
+  \gtab{C9}{032033}
+  \gtab{Am7}{002013}
+  \gtab{Bb}{1:X02220}
+  \gtab{F7M}{X33210}
+
+  \beginverse
+    An old\[G/B] man\[C9] tur\[G/B]ned ninety-eight\[Am7]
+    He won the lottery and died the next day
+    It's a black fly in your Chardonnay
+    It's a death row pardon two minutes too late
+    And isn't it ironic? Don't you think?
+  \endverse
+
+  \beginchorus
+    It's like rain\[G/B C9] on your\[G/B] wedding day\[Am7]
+    It's a free ride when you've already paid
+    It's the good advice that you just didn't take
+    And who\[B&] would've tho\[F]ught it figures\[G/B]
+  \endchorus
+
+  \beginverse
+    Mr. Play-it-Safe was afraid to fly
+    He packed his suitcase and kissed his kids goodbye
+    He waited his whole damn life to take that flight
+    And as the plane crashed down he thought: ``Well isn't this nice''
+    And isn't it ironic? Don't you think?
+  \endverse
+
+  \musicnote{bridge}
+
+  \beginverse
+    Well life\[F7M] has a funny way\[G/B] 
+    Of sneaking up on you when you think everything's okay\[F7M]
+    And everything's going right\[G/B]
+  \endverse
+
+  \beginverse*    
+    And life\[F7M] has a funny way 
+    Of helping you out when you think everything's gone wrong\[F7M] 
+    And everything blows up in your \[C9] face
+  \endverse
 
 
+  \beginverse
+    A traffic jam when you're already late
+    A no-smoking sign on your cigarette break
+    It's like ten thousand spoons when all you need is a knife
+    It's meeting the man of my dreams and then meeting his beautiful wife
+    And isn't it ironic? Don't you think?
+    A little too ironic and yeah, I really do think
+  \endverse
 
+  \musicnote{bridge}
 
-\beginchorus
-It's like rain\[G/B] \[C9]  on your\[G/B] wedding day\[Am7]
-It's a free ride  when you've already paid
-It's the good advice  that you just didn't take
-And who\[Bb] would've tho\[F]ught it figures\[G/B]
-\endchorus
-
-
-
-
-\beginverse
-Mr. Play-it-Safe was afraid to fly
-He packed his suitcase and kissed his kids good-bye
-He waited his whole damn life to take that flight
-and as the plane crashed down he thought "well isn't this nice"
-and isn't it Ironic?    Don't you think?
-\endverse
-
-
-\musicnote{bridge}
-
-\beginverse
-Well life\[F7M]   has a funny way\[G/B] of sneaking up on you when you think everything's
-okay\[F7M]  and everything's going right\[G/B] 
-And life\[F7M]  has a funny way of helping you out when you think everythings gone
-wrong\[F7M]  and everything blows up in your \[C9] face
-\endverse
-
-
- 
-\beginverse
-A traffic jam when you're already late
-a no-smoking-sign on your zigarette break
-It's like ten thousand spoons when all you need is a knife
-It's meeting the men of my dreams an then meeting his beautiful wife
-and isn't it ironic?  Don't you think?
-a little too ironic     And yeah i really do think
-\endverse
-
-
-\musicnote{bridge}
-
-
-\beginverse
-Life has a funny way of sneaking up on you
-Life has a funny, funny way of helping you out
-helping you out	
-\endverse
-			
+  \beginverse
+    Life has a funny way of sneaking up on you
+    Life has a funny, funny way of helping you out
+    Helping you out
+  \endverse
 
 \endsong

@@ -4,14 +4,15 @@
   [by=Alanis Morissette,cov=ironic,album=Ironic]
 
   \cover
-  \gtab{G/B}{320033}
-  \gtab{C9}{032033}
-  \gtab{Am7}{002013}
-  \gtab{Bb}{1:X02220}
-  \gtab{F7M}{X33210}
+  \capo{2}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{F#m}{2:022000}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse
-    An old\[G/B] man\[C9] tur\[G/B]ned ninety-eight\[Am7]
+    An \[E]old \[A]man \[E]turned ninety-\[F#m]eight
     He won the lottery and died the next day
     It's a black fly in your Chardonnay
     It's a death row pardon two minutes too late
@@ -19,10 +20,10 @@
   \endverse
 
   \beginchorus
-    It's like rain\[G/B C9] on your\[G/B] wedding day\[Am7]
+    It's like rain\[E A] on your \[E]wedding \[F#m]day
     It's a free ride when you've already paid
     It's the good advice that you just didn't take
-    And who\[B&] would've tho\[F]ught it figures\[G/B]
+    And \[G]who would've \[F#m]thought it fi\[E]gures
   \endchorus
 
   \beginverse
@@ -36,15 +37,15 @@
   \musicnote{bridge}
 
   \beginverse
-    Well life\[F7M] has a funny way\[G/B] 
-    Of sneaking up on you when you think everything's okay\[F7M]
-    And everything's going right\[G/B]
+    Well \[D]life has a funny \[E]way
+    Of sneaking up on you when you think everything's \[D]okay
+    And everything's going \[E]right
   \endverse
 
-  \beginverse*    
-    And life\[F7M] has a funny way 
-    Of helping you out when you think everything's gone wrong\[F7M] 
-    And everything blows up in your \[C9] face
+  \beginverse*
+    And \[D]life has a funny \[E]way
+    Of helping you out when you think everything's gone \[D]wrong
+    And everything blows up in your \[A]face
   \endverse
 
 

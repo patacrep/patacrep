@@ -7,6 +7,7 @@ import os.path
 import glob
 import re
 import json
+import locale
 
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
@@ -94,7 +95,7 @@ def makeTexFile(sb, output):
     # output songslist
     if songs == "all":
         songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
-        songs.sort()
+        songs = sorted(songs, cmp=locale.strcoll)
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(songs)))
     out.write('\\makeatother\n')

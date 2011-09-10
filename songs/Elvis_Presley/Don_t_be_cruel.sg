@@ -1,82 +1,67 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Don't be cruel}[by=Elvis Presley,cov=Single,album=Single]
+\beginsong{Don't be cruel}
+  [by=Elvis Presley,cov=single,album=Single]
 
-\cover
+  \cover
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
 
-\gtab{A}{X02220}
-\gtab{D}{XX0232}
-\gtab{G}{320003}
+  \beginverse
+    You \[D]know I can be found
+    Sitting home all alone
+    If \[G]you can't come around
+    At \[D]least please telephone
+    Don't be \[Em]cruel, \[A]{to }a heart that's \[D]true
+  \endverse
 
+  \beginverse
+    Baby if I made you mad
+    For something I might have said
+    Please let's forget the past
+    The future looks bright ahead
+    Don't be cruel, to a heart that's true
+  \endverse
 
-\beginverse
-You \[D]know I can be found,
-Sitting home all alone,
-If \[G]you can't come around,
-At \[D]least please telephone.
-Don't be \[Em]cruel, \[A]{to }a heart that's \[D]true.
-\endverse
+  \beginchorus
+    I don't \[G]want no other \[A]love
+    \[G]Baby it's still \[A]you I'm thinking \[D]of
+  \endchorus
 
+  \beginverse
+    Don't stop thinking of me
+    Don't make me feel this way
+    Come on, over here and love me
+    You know what I want you to say
+    Don't be cruel to a heart that's true
+  \endverse
 
-\beginverse
-Baby if I made you mad,
-For something I might have said,
-Please let's forget the past, 
-The future looks bright ahead,
-Don't be cruel, to a heart that's true.
-\endverse
+  \beginchorus
+    Why should we be apart?
+    I really love you baby, cross my heart
+  \endchorus
 
+  \beginverse
+    Let's walk up to the preacher
+    And let us say: ``I do''
+    Then you'll know you have me
+    And I'll know I'll have you too
+    Don't be cruel, to a heart that's true
+  \endverse
 
-\beginchorus
-I don't \[G]want no other \[A]love,
-\[G]Baby it's just \[A]you I'm thinking \[D]of.
-\endchorus
+  \beginchorus
+    I don't want no other love
+    Baby it's still you I'm thinking of
+  \endchorus
 
+  \beginverse*
+    Don't be cruel, to a heart that's true \rep{2}
+  \endverse
 
-
-\beginverse
-Don't stop thinking of me, 
-Don't make me feel this way,
-Come on over here and love me,
-You know what I want you to say.
-Don't be cruel to a heart that's true.
-\endverse
-
-
-\beginchorus
-Why should we be apart?
-I really love you baby cross my heart.
-\endchorus
-
-
-
-\beginverse
-Let's walk up to the preacher,
-And let us say I do,
-Then you'll know you have me,
-And I'll know I'll have you too,
-Don't be cruel, to a heart that's true.
-\endverse
-
-
-
-\beginchorus
-I don't want no other love,
-Baby it's just you, I'm thinking of.
-\endchorus
-
-
-
-\beginverse*
-Don't be cruel, to a heart that's true. \rep{x2}
-\endverse
-
-
-
-\beginchorus
-I don't want no other love,
-Baby it's just you, I'm thinking of.
-\endchorus
-
+  \beginchorus
+    I don't want no other love
+    Baby it's still you I'm thinking of
+  \endchorus
 
 \endsong

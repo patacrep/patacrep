@@ -13,6 +13,7 @@ import sys
 import os.path
 import glob
 import re
+import locale
 from optparse import OptionParser
 
 # Pattern set to ignore latex command in title prefix
@@ -59,7 +60,7 @@ class index:
 
     def idxBlockToStr(self, letter, entries):
         str = '\\begin{idxblock}{'+letter+'}'+'\n'
-        for key in sorted(entries.keys()):
+        for key in sorted(entries.keys(), cmp=locale.strcoll):
             str += self.entryToStr(key, entries[key])
         str += '\\end{idxblock}'+'\n'
         return str

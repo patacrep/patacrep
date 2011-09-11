@@ -7,10 +7,22 @@ import locale
 iecPattern = re.compile(r"\IeC {\\(.*?)}")
 replacePattern = {
      '`A': 'À',
-     'oe ': 'œ',
+     '`a': 'à',
+     '^a': 'â',
+     'oe': 'œ',
      "'e" : 'é',
+     "`e" : 'è',
+     "^e" : 'ê',
+     '"e' : 'ë',
+     "'E" : 'É',
+     "`E" : 'È',
      "'o" : 'ó',
-     "c C" : 'ç',
+     "^o" : 'ô',
+     r'"\i' : 'i',
+     r'^\i' : 'i',
+     '"u' : 'ü',
+     "c C" : 'Ç',
+     "c c" : 'ç',
 }
 
 def sortkey(value):
@@ -22,8 +34,8 @@ def sortkey(value):
     '''
     def repl(match):
         try:
-            return replacePattern[match.group(1)]
+            return replacePattern[match.group(1).strip()]
         except KeyError:
-            warnings.warn("Error, no match to replace %s in %s. You should add it in the coresponding table in title_solt.py" % (match.group(0), match.group(1)))
+            warnings.warn("Error, no match to replace %s in %s. You should add it in the coresponding table in title_sort.py" % (match.group(0), match.group(1)))
 
-    return locale.strxfrm(iecPattern.sub(repl, value))
+    return locale.strxfrm(iecPattern.sub(repl, value).replace(' ', 'A'))

@@ -7,6 +7,8 @@ import os.path
 import glob
 import re
 import json
+import locale
+import titlesort
 
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
@@ -94,7 +96,8 @@ def makeTexFile(sb, output):
     # output songslist
     if songs == "all":
         songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
-        songs.sort()
+        songs.sort(key=title_sort.sortkey)
+
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(songs)))
     out.write('\\makeatother\n')
@@ -150,6 +153,7 @@ def usage():
     print "No usage information yet."
 
 def main():
+    locale.setlocale(locale.LC_ALL, '') # set script locale to match user's
     try:
         opts, args = getopt.getopt(sys.argv[1:], 
                                    "hs:o:d", 

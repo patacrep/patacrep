@@ -59,6 +59,7 @@ clean:
 	       $(TARGETS:%=%.toc) $(TARGETS:%=%.out) $(TARGETS:%=%.log) \
 	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm)
 	@rm -f *.sbx *.sxd
+	@rm -f lilypond/*.ps
 
 cleanall: clean
 	@rm -f $(PDF)
@@ -85,7 +86,6 @@ $(PDF): %.pdf: %.tex %.aux
 
 %.pdf: %.ly
 	@$(LILYPOND) --output=$(@:%.pdf=%) $<
-	@rm $(@:%.pdf=%.ps)
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@

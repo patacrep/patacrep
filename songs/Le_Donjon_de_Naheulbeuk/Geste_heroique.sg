@@ -4,25 +4,25 @@
   [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret,album=À poil dans la forêt]
 
   \cover
-  \gtab{Gm}{3:022000}
-  \gtab{B&}{6:022100}
-  \gtab{C}{8:022100}
-  \gtab{Dm}{5:X02210}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
   \gtab{D}{XX0232}
-  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
 
   \lilypond{Geste_heroique-2}
 
   \beginverse
-    \[Gm]Perdu dans la Mo\[B&]ria
-    Je \[C]cher\[B&]che Sa\[Dm]rou\[B&]mane
+    \[Am]Perdu dans la Mo\[C]ria
+    Je \[D]cher\[C]che Sa\[Em]rou\[C]mane
     Le Golbargh derrière moi
     Je suis dans la panade
   \endverse
 
   \beginverse*
-    \[B&]Viens \[Dm]tôt me \[Gm]secou\[D]rir
-    \[D]Ou me fau\[Gm]dra \[D]mou\[G]rir
+    \[C]Viens \[Em]tôt me \[Am]secou\[E]rir
+    \[E]Ou me fau\[Am]dra \[E]mou\[A]rir
     \rep{2}
   \endverse
 

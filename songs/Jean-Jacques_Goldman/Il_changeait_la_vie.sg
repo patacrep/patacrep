@@ -1,0 +1,76 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Il changeait la vie}
+  [by=Jean-Jacques Goldman,cov=singulier,album=Singulier]
+
+  \cover
+  \capo{5}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{XX0232}
+  \gtab{F#m}{2:022000}
+  \gtab{G}{320003}
+
+  \ifchorded
+  \beginchorus
+    {\nolyrics \[Am F Dm Am E]}
+  \endchorus
+  \fi
+
+  \beginverse
+    C'é\[A]tait un cordonnier sans \[E]rien d'particulier
+    Dans \[Bm]un village dont le nom \[E]{m'a} échappé
+    Qui \[A]faisait des souliers, si \[E]jolis, si légers
+    Que \[Bm]nos vies semblaient un peu moins \[E]lourdes à porter
+  \endverse
+
+  \beginverse*
+    Il \[Bm]y mettait du temps, du ta\[E]lent et du cœur
+    Ain\[A]si passait sa vie, au mi\[D]lieu de nos \[F#m]heures
+    Et \[Bm]loin des beaux discours, des gran\[E]des théories
+    \[F]À sa tâche chaque jour, \[G]on pouvait dire de lui
+    Il changeait la \[Am]vie
+  \endverse
+
+  \beginverse
+    C'était un professeur, un simple professeur
+    Qui pensait que savoir était un grand trésor
+    Que tous les moins que rien n'avaient pour s'en sortir
+    Que l'école et le droit qu'a chacun de s'instruire
+  \endverse
+
+  \beginverse*
+    Il y mettait du temps du talent et du cœur
+    Ainsi passait sa vie au milieu de nos heures
+    Et loin des beaux discours, des grandes théories
+    À sa tâche chaque jour, on pouvait dire de lui
+    Il changeait la vie
+  \endverse
+
+  \ifchorded
+  \beginchorus
+    {\nolyrics \[Am F Dm Am E]}
+    {\nolyrics \[C G Dm Am E]}
+  \endchorus
+  \fi
+
+  \beginverse
+    C'était un petit bonhomme, rien qu'un tout petit bonhomme
+    Malhabile et rêveur, un peu loupé en somme
+    Se croyait inutile, banni des autres hommes
+    Il pleurait sur son saxophone
+  \endverse
+
+  \beginverse*
+    Il y mit tant de temps de larmes et de douleurs
+    Les rêves de sa vie, les prisons de son cœur
+    Et loin des beaux discours, des grandes théories
+    Inspiré, jour après jour, de son souffle et de ses cris
+    Il changeait la vie
+  \endverse
+
+\endsong

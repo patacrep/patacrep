@@ -1,0 +1,52 @@
+\selectlanguage{portuguese}
+\songcolumns{2}
+\beginsong{Petit pays}
+  [by=Cesária Évora,cov=cesaria,album=Cesária]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
+
+  \beginverse
+    \[Em]La na cêu bô ê um es\[Am]trela \[B7]
+    Ki catá bril\[Em]ha
+    Li na mar bô ê um areia
+    Ki catá moiá
+    Espaiote nesse munde fora
+    Sô rotcha e mar
+  \endverse
+
+  \beginverse*
+    Terra pobre chei di amor
+    Tem morna tem coladera
+    Terra sabe chei di amor
+    Tem batuco tem funaná
+  \endverse
+
+  \beginverse*
+    Espaiote nesse munde fora
+    Sô rotcha e mar
+    Terra pobre chei di amor
+    Tem morna tem coladera
+    Terra pobre chei di amor
+    Tem batuco tem funaná
+  \endverse
+
+  \beginchorus
+    Oi tonte sodade
+    Sodade sodade
+    Oi tonte sodade
+    Sodade sem fim
+    \rep{2}
+  \endchorus
+
+  \beginchorus
+    Petit pays
+    Je t'aime beaucoup
+    Petit, petit
+    Je l'aime beaucoup
+    \rep{2}
+  \endchorus
+
+\endsong

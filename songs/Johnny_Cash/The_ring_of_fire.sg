@@ -1,0 +1,33 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{The ring of fire}
+  [by=Johnny Cash,cov=the-essential,album=The essential]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+
+  \beginverse
+    \[G]Love is a \[C]burning \[G]thing
+    And it makes a \[C]firery \[G]ring
+    Bound by \[C]wild \[G]desire
+    I fell into a \[C]ring of \[G]fire
+  \endverse
+
+  \beginchorus
+    \[D]I fell into a \[C]burning ring of \[G]fire
+    I Went \[D]down, down, down
+    And the \[C]flames went \[G]higher
+    And it burns, burns, burns
+    The \[C]ring of \[G]fire \rep{2}
+  \endchorus
+
+  \beginverse
+    The taste of love is sweet
+    When hearts like ours meet
+    I fell for you like a child
+    Oh, but the fire went wild
+  \endverse
+
+\endsong

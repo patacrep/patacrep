@@ -77,7 +77,6 @@
   \gdef\@email{}
   \gdef\@picture{}
   \gdef\@picturecopyright{}
-  \gdef\@lang{english}
 }
 
 \def\subtitle#1{\gdef\@subtitle{#1}}
@@ -91,6 +90,27 @@
 \def\footer#1{\gdef\@footer{#1}}
 \def\lang#1{\gdef\@lang{#1}}
 \clearheadinfo
+
+\newcommand{\l@belVersion}{
+  \IfStrEq{\@lang}{english}{\bf version:}{}
+  \IfStrEq{\@lang}{french}{\bf version :}{}
+}
+\newcommand{\l@belDate}{
+  \IfStrEq{\@lang}{english}{\bf date:}{}
+  \IfStrEq{\@lang}{french}{\bf date :}{}
+}
+\newcommand{\l@belAuthor}{
+  \IfStrEq{\@lang}{english}{\bf authors:}{}
+  \IfStrEq{\@lang}{french}{\bf auteurs :}{}
+}
+\newcommand{\l@belWeb}{
+  \IfStrEq{\@lang}{english}{\bf web:}{}
+  \IfStrEq{\@lang}{french}{\bf web :}{}
+}
+\newcommand{\l@belMail}{
+  \IfStrEq{\@lang}{english}{\bf mail:}{}
+  \IfStrEq{\@lang}{french}{\bf mail :}{}
+}
 
 \renewcommand\maketitle{
   \@maketitle
@@ -126,27 +146,6 @@
  \end{center}%
 
  \vspace{1.5cm}
-
- \newcommand{\l@belVersion}{
-   \IfStrEq{\@lang}{english}{\bf version:}{}
-   \IfStrEq{\@lang}{french}{\bf version :}{}
- }
- \newcommand{\l@belDate}{
-   \IfStrEq{\@lang}{english}{\bf date:}{}
-   \IfStrEq{\@lang}{french}{\bf date :}{}
- }
- \newcommand{\l@belAuthor}{
-   \IfStrEq{\@lang}{english}{\bf authors:}{}
-   \IfStrEq{\@lang}{french}{\bf auteurs :}{}
- }
- \newcommand{\l@belWeb}{
-   \IfStrEq{\@lang}{english}{\bf web:}{}
-   \IfStrEq{\@lang}{french}{\bf web :}{}
- }
- \newcommand{\l@belMail}{
-   \IfStrEq{\@lang}{english}{\bf mail:}{}
-   \IfStrEq{\@lang}{french}{\bf mail :}{}
- }
 
  \begin{flushleft}
    \begin{tabular}{l l}

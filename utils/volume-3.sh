@@ -10,7 +10,7 @@ ls -1 */*.sg > ../res1
 cd ..
 
 #get volume 1 list
-tail -n +12 volume-1.sb > tmp1
+tail -n +13 volume-1.sb > tmp1
 head -n -2 tmp1 > list1
 sed -i -e "s/\",//g" -e "s/    \"//g" -e "s/\"//g" list1
 
@@ -18,7 +18,7 @@ sed -i -e "s/\",//g" -e "s/    \"//g" -e "s/\"//g" list1
 grep -vf list1 res1 > res2 
 
 #get volume 2 list
-tail -n +13 volume-2.sb > tmp2
+tail -n +14 volume-2.sb > tmp2
 head -n -2 tmp2 > list2
 sed -i -e "s/\",//g" -e "s/    \"//g" -e "s/\"//g" list2
 

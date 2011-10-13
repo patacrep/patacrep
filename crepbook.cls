@@ -405,10 +405,11 @@
 }
 
 \newenvironment{bridge}{%
-  \begin{verse}%
   \musicnote{\Bridge}%
+  \vspace{-.3cm}%
+  \begin{verse*}%
 }{%
-  \end{verse}%
+  \end{verse*}
 }
 
 \makeatother

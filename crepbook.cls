@@ -390,6 +390,7 @@
 
 \let\musicnoteORIG\musicnote
 \renewcommand{\musicnote}[2][]{%
+  \vspace{.1cm}
   \IfStrEq{}{#1}{\musicnoteORIG{#2}}{
     \IfStrEq{\@lang}{#1}{\musicnoteORIG{#2}}{}
   }
@@ -397,6 +398,7 @@
 
 \let\textnoteORIG\textnote
 \renewcommand{\textnote}[2][]{%
+  \vspace{.1cm}
   \IfStrEq{}{#1}{\textnoteORIG{#2}}{
     \IfStrEq{\@lang}{#1}{\textnoteORIG{#2}}{}
   }

@@ -5,6 +5,8 @@
 \ProvidesClass{crepbook}[2009/11/12 v0.4.2 LaTeX document class for Crep
   Books]
 
+\makeatletter\def\input@path{{tex/}}
+
 \newif{\iftabs}
 \newif{\iflilypond}
 \newif{\ifnodiagram}
@@ -48,8 +50,8 @@
   linkcolor=tango-green-3,
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
-\RequirePackage{tex/licence}
-\RequirePackage{tex/xstring}
+\RequirePackage{licence}
+\RequirePackage{xstring}
 
 \iflyric%
   \tabsfalse%

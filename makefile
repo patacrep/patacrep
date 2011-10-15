@@ -15,7 +15,7 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #
 
-SONGBOOKS := $(wildcard *.sb)
+SONGBOOKS := $(wildcard books/*.sb)
 TARGETS = $(SONGBOOKS:%.sb=%)
 
 PDF = $(TARGETS:%=%.pdf)
@@ -78,10 +78,10 @@ $(PDF): %.pdf: %.tex %.aux
 %.sbx: %.sxd
 	$(MAKE_INDEX) $< > $@
 
-%.tex: %.sb
+%.tex: $(SONGBOOKS)
 	$(MAKE_SONGBOOK) -s $< -o $@
 
-%.d: %.sb
+%.d: $(SONGBOOKS)
 	$(MAKE_SONGBOOK) -s $< -d -o $@
 
 %.pdf: %.ly

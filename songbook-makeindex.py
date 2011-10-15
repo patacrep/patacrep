@@ -14,7 +14,7 @@ import os.path
 import glob
 import re
 from optparse import OptionParser
-import title_sort
+import sortindex
 import locale
 
 # Pattern set to ignore latex command in title prefix
@@ -61,7 +61,7 @@ class index:
 
     def idxBlockToStr(self, letter, entries):
         str = '\\begin{idxblock}{'+letter+'}'+'\n'
-        for key in sorted(entries.keys(), key=title_sort.sortkey):
+        for key in sorted(entries.keys(), key=sortindex.sortkey):
             str += self.entryToStr(key, entries[key])
         str += '\\end{idxblock}'+'\n'
         return str

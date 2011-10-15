@@ -61,6 +61,7 @@ make volume-3.pdf
 make english.pdf 
 make french.pdf 
 make songbook.pdf 
+make lyricbook.pdf 
 
 #clean
 make clean 

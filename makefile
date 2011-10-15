@@ -60,6 +60,7 @@ clean:
 	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm)
 	@rm -f *.sbx *.sxd
 	@rm -f lilypond/*.ps
+	@rm -f *.pyc
 
 cleanall: clean
 	@rm -f $(PDF)
@@ -78,10 +79,10 @@ $(PDF): %.pdf: %.tex %.aux
 %.sbx: %.sxd
 	$(MAKE_INDEX) $< > $@
 
-%.tex: $(SONGBOOKS)
+%.tex: books/%.sb
 	$(MAKE_SONGBOOK) -s $< -o $@
 
-%.d: $(SONGBOOKS)
+%.d: books/%.sb
 	$(MAKE_SONGBOOK) -s $< -d -o $@
 
 %.pdf: %.ly

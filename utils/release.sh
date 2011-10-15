@@ -5,14 +5,15 @@
 #Description: Build all the pdf on www.patacrep.com, increase their
 #version and commit/tag the result
 
-export GREP_OPTIONS="" 
-
 #volume-3.sb
 ./utils/volume-3.sh
 #english.sb
 ./utils/langbooks.sh english 
 #french.sb
 ./utils/langbooks.sh french 
+
+GREP="$GREP_OPTIONS"
+export GREP_OPTIONS=""
 
 #increase version
 RELEASE_TYPE=$1
@@ -33,7 +34,7 @@ then
 	echo "error: unrecognised release type"
     fi;
     echo "new version : $MAIN.$MAJOR.$MINOR"
-    #update version field in sb files
+    #update version field in tmpl files
     sed -i "s/\"[0-9].[0-9].[0-9]\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep.tmpl
     sed -i "s/\"[0-9].[0-9].[0-9]\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/ancient.tmpl
     sed -i "s/\"[0-9].[0-9].[0-9]\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-en.tmpl
@@ -75,4 +76,4 @@ then
     git tag "patacrep_$MAIN.$MAJOR.$MINOR" 
 fi
 
-export GREP_OPTIONS="--exclude-dir=\*/.svn/\* --exclude=\*~ --binary-files=without-match --line-number" 
+export GREP_OPTIONS="$GREP"

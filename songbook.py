@@ -113,12 +113,13 @@ def makeTexFile(sb, output):
 def makeDepend(sb, output):
     name = output[:-2]
 
-    dependsPattern = re.compile(r"^[^%]*(?:include|input)\{(.*?)\}")
+    #dependsPattern = re.compile(r"^[^%]*(?:include|input)\{(.*?)\}")
     indexPattern = re.compile(r"^[^%]*\\(?:newauthor|new)index\{.*\}\{(.*?)\}")
     lilypondPattern = re.compile(r"^[^%]*\\(?:lilypond)\{(.*?)\}")
 
     # check for deps (in sb data)
-    deps = matchRegexp(dependsPattern, [ v for v in sb.itervalues() if type(v) is not list ])
+    #deps = matchRegexp(dependsPattern, [ v for v in sb.itervalues() if type(v) is not list ])
+    deps = [];
     if sb["songs"] == "all":
         deps += glob.glob('songs/*/*.sg')
     else:

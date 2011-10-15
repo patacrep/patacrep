@@ -1,0 +1,62 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'homme de cromagnon}
+  [by=Chanson traditionelle]
+
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+
+  \beginverse
+    C'était au \[C]temps d'la préhistoire
+    Il y a de ça trois cent mille \[G7]ans
+    Vivait un être assez bizarre
+    Proche parent d'l'orang-out\[C]ang
+    Debout sur ses pattes de derrière
+    Vêtu d'un slip en peau d'bi\[G7]son
+    Il all\[F]ait conqué\[G]rir la \[C]terre
+    C'était l'homme \[G]de cromag\[C]non
+  \endverse
+
+  \beginchorus
+    L'homme de \[C]cro, l'homme de ma, l'homme de gnon
+    L'\[G7]homme de cromagn\[C]on \echo{bouh !}
+    L'\[F]homme de cro, de mag\[C]non c'était pas du bi\[G]don
+    L'homme de croma\[C]gnon \rep{2}
+  \endchorus
+
+  \beginverse
+    Armé de sa hache de guerre
+    De son couteau en pierre itou
+    Il chassait l'ours et la panthère
+    Serrant les fesses malgré tout
+    Devant l'diplodocus en rage
+    L'homme se sentait tout petit
+    Et se disait dans son langage
+    Vivement qu'on invente le fusil
+  \endverse
+
+  \beginverse
+    Il était poète à ses heures
+    Disait à sa femme en émoi :
+    {\og}Tu est belle comme un dinosaure
+    Tu ressemble à Lollo Brigida{\fg}
+    Si tu veux voir des cartes postales
+    Viens dans ma caverne tout là-haut
+    J'te f'rai voir mes peintures murales
+    On dirait du vrai Picasso
+  \endverse
+
+  \beginverse
+    Trois cent mille ans après sur terre
+    Comme nos ancêtres, nous admirons
+    Les monts, les bois et les rivières
+    Mais s'ils revenaient, quelle déception
+    De nous voir suer six jours sur sept
+    Ils diraient sans faire de détail :
+    {\og}Faut-il que nos héritiers soient bêtes
+    Pour avoir inventé le travail{\fg}
+  \endverse
+
+\endsong

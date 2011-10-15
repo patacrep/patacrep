@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Encore un matin}
+  [by=Jean-Jacques Goldman,cov=singulier,album=Singulier]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{Em}{022000}
+
+  \beginverse
+    En\[Bm]core un matin, un matin pour rien
+    Une \[G]argile au creux \[A]de mes \[Bm]mains
+    En\[Bm]core un matin sans raison ni fin
+    Si \[G]rien ne trace \[A]son che\[Bm]min
+  \endverse
+
+  \beginverse*
+    Ma\[Em]tin pour donner ou bien ma\[Bm]tin pour prendre
+    Pour \[Em]oublier ou \[Bm]pour apprendre
+    Ma\[Em]tin pour aimer, maudire \[Bm]ou mépriser
+    Lai\[G]sser tomber ou résis\[A]ter
+  \endverse
+
+  \beginverse
+    En\[Bm]core un matin qui cherche et qui doute
+    \[G]Matin perdu cherche \[A]une rou\[Bm]te
+    En\[Bm]core un matin de pire ou de mieux
+    À é\[G]teindre ou \[A]mettre le feu
+  \endverse
+
+  \beginchorus
+    Un ma\[G]tin, ça ne s\[A]sert à \[Bm]rien
+    Un ma\[G]tin, sans un \[A]coup de \[Bm]main
+    Ce ma\[G]tin, c'est le \[A]mien, c'est le \[Bm]tien
+    Un ma\[G]tin, de \[A]rien, pour en \[G]faire \[A]
+    Un rêve plus \[Bm]loin
+  \endchorus
+
+  \beginverse
+    Encore un matin ou juge ou coupable
+    Ou bien victime, ou bien capable
+    Encore un matin ami, ennemi
+    Entre la raison et l'envie
+  \endverse
+
+  \beginverse*
+    Matin pour agir ou attendre la chance
+    Ou bousculer les évidences
+    Matin innocence, matin intelligence
+    C'est toi qui décide du sens
+  \endverse
+
+\endsong

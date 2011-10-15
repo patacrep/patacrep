@@ -4,19 +4,25 @@
   [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
 
   \cover
+  \capo{3}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
+  \gtab{C}{X32010}
 
   \beginverse
-    From old Europe to Australia
-    There's a growing feeling of hysteria
-    Driven by the fear of misunderstood threats
-    The Dark Side wants to filter Internet
+    From \[Am]old Eu\[G]rope to Aus\[F]trali\[E7]a
+    There's a \[Am]growing \[G]feeling of hys\[F]teri\[E7]a
+    \[Am]Driven by the \[G]fear of mis\[F]understood \[E7]threats
+    The \[Am]Dark Side \[G]wants to filter \[F]Inter\[E7]net
   \endverse
 
   \beginchorus
-    We share the same technology
-    Education, for all, for free
-    Believe me when I tweet to you
-    I hope governments love Internet too
+    We \[C]share the same tech\[E7]nology
+    E\[Am]ducation, for \[E7]all, for free
+    Be\[Am]lieve me \[G]when I \[F]tweet to \[E7]you
+    I hope go\[Am]vernments love In\[E7]ternet \[Am]too
   \endchorus
 
   \beginverse

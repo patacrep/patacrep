@@ -1,0 +1,84 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ça fait rire les oiseaux}
+  [by=La compagnie créole,cov=ca-fait-rire-les-oiseaux,album=Ça fait rire les oiseaux]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+
+  \beginchorus
+    Ça fait \[F]rire les oiseaux
+    Ça fait \[B&]chanter les abeilles
+    Ça \[F]chasse les nuages
+    Et fait \[C]briller le soleil
+  \endchorus
+
+  \beginchorus
+    Ça fait rire les oiseaux
+    Et danser les écureuils
+    Ça rajoute des couleurs
+    Aux couleurs de l'arc-en-ciel
+  \endchorus
+
+  \beginchorus
+    Ça fait \[F]rire les oiseaux
+    \[B&] Oh, \[C]oh, oh, \[F]rire les oiseaux
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Une \[F]chanson d'amour
+    C'est comme un \[B&]looping en avion
+    Ça \[C]fait battre le cœur
+    Des filles et \[F]des garçons
+  \endverse
+
+  \beginverse*
+    Une chanson d'amour
+    C'est d'l'oxygène dans la maison
+    Tes pieds n'touchent plus par terre
+    T'es en lévitation
+  \endverse
+
+  \beginverse*
+    Si y a d'la \[Dm]pluie dans ta vie
+    Si le \[B&]soir te fait peur
+    La \[C]musique est là pour \[F]ça
+    Y a tou\[Dm]jours une mélodie
+    Pour des \[B&]jours meilleurs
+    Allez, \[C]tape dans tes mains
+    Ça porte bonheur
+    C'est magique, un refrain
+    Qu'on reprend tous en chœur
+  \endverse
+
+  \beginverse
+    T'es revenu chez toi
+    La tête pleine de souvenirs
+    Des soirs au clair de lune
+    Des moments de plaisir
+  \endverse
+
+  \beginverse*
+    T'es revenu chez toi
+    Et tu veux déjà repartir
+    Pour trouver l'aventure
+    Qui n'aurait pas dû finir
+  \endverse
+
+  \beginverse*
+    Si y a du gris dans tes nuits
+    Ou des larmes dans ton cœur
+    La musique est là pour ça
+    Y a toujours une mélodie
+    Pour des jours meilleurs
+    Allez, tape dans tes mains
+    Ça porte bonheur
+    C'est magique, un refrain
+    Qu'on reprend tous en chœur
+  \endverse
+
+\endsong

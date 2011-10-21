@@ -1,0 +1,45 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La machine à danser}
+  [by=La compagnie créole,cov=la-machine-a-danser,album=La machine à danser]
+
+  \cover
+  \gtab{G7}{3:020100}
+  \gtab{Cm}{3:X02210}
+
+  \beginchorus
+    La machine à \[G7]danser, la machine à \[Cm]danser
+    La machine à \[G7]rouler, la machine à \[Cm]zouker zouker
+    La machine à \[G7]danser, la machine à \[Cm]danser
+    La machine à \[G7]rouler, la machine à \[Cm]zouker zouker
+  \endchorus
+
+  \beginverse
+    On l'a trou\[G7]vée dans une boîte à swin\[Cm]ger
+    Elle fait claquer des \[G7]mains, elle fait taper des \[Cm]pieds
+    Et toutes les \[G7]nuits, au milieu des fu\[Cm]mées
+    On est câlin-câ\[G7]lin, on est collé-col\[Cm]lé
+    Elle fait \dots Ouais ! Ouais ! Ouais !
+  \endverse
+
+  \beginchorus
+    Danser, danser, rouler, zouker, zouker
+    Oh oh oh oh oh oh oh oh oh oh oh oh oh oh
+  \endchorus
+
+  \beginverse
+    Tout l'monde est là, tout l'monde veut l'approcher
+    Tout l'monde lui veut du bien, tout l'monde veut la toucher
+    Quand elle commence, on n'peut plus l'arrêter
+    Tempo bloqué cent-vingt, on n'peut pas résister
+    Elle fait \dots Ouais ! Ouais ! Ouais !
+  \endverse
+
+  \beginchorus
+    Danser, c'est danser \echo{Ouais !}
+    Rouler, c'est rouler \echo{Ouais !}
+    Zouker, c'est zouker \echo{Ouais !}
+    Zouker, zouker zouker \echo{Eh !}
+  \endchorus
+
+\endsong

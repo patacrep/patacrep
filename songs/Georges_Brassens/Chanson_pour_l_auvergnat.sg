@@ -1,0 +1,107 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Chanson pour l'Auvergnat}
+  [by=Georges Brassens,cov=chanson-pour-l-auvergnat,album=Chanson pour l'Auvergnat]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{G}{3:022100}
+  \gtab{A7}{X02020}
+  \gtab{D}{XX0232}
+  \gtab{D7}{XX0212}
+  \gtab{D7}{XX0212}
+  \gtab{Em}{022000}
+  \gtab{G7}{3:020100}
+
+\titi
+
+  \beginverse
+    \[Bm]Elle est à toi cet\[F#]te chanson
+    Toi l'Auvergnat qui \[Bm]sans façons
+    \[Bm]{M'as} donné quatre \[F#]bouts de bois
+    Quand \[G]dans ma vie \[A7]il faisait \[D]froid \[F#]
+  \endverse
+
+  \beginverse*
+    Toi qui m'as donné du feu quand
+    Les croquantes et les croquants
+    Tous les gens bien intentionnés
+    M'avaient fermé la porte au nez
+  \endverse
+
+  \beginverse*
+    \[D7]Ce n'était \[G]rien \[A7]{qu'un} feu de \[D]bois
+    \[Bm]Mais il m'a\[Em]vait chauf\[Bm]fé le corps
+    \[F#]Et dans mon âme, il \[Bm]brûle encore
+    À \[G]la manière \[G7]{d'un} feu de \[F#]joie
+  \endverse
+
+  \beginverse* 
+    \[Bm]Toi l'Auvergnat quand \[F#]tu mourras
+    Quand le croque-mort t'em\[Bm]portera
+    \[Bm]Qu'il te conduise \[E]à travers \[A]ciel
+    \[G]Au \[F#]père \[Bm]éternel
+  \endverse
+
+
+
+  \beginverse
+    Elle est à toi cette chanson
+    Toi l'hôtesse qui sans façons
+    M'as donné quatre bouts de pain
+    Quand dans ma vie il faisait faim
+  \endverse
+
+  \beginverse*
+    Toi qui m'ouvris ta hutte quand
+    Les croquantes et les croquants
+    Tous les gens bien intentionnés
+    S'amusaient à me voir jeûner
+  \endverse
+
+  \beginverse*
+    Ce n'était rien qu'un bout de pain
+    Mais il m'avait chauffé le corps
+    Et dans mon âme, il brûle encore
+    À la manière d'un grand festin
+  \endverse
+
+  \beginverse*
+    Toi l'hôtesse quand tu mourras
+    Quand le croque-mort t'emportera
+    Qu'il te conduise à travers ciel
+    Au père éternel
+  \endverse
+
+
+
+  \beginverse
+    Elle est à toi cette chanson
+    Toi l'étranger qui sans façons
+    D'un air malheureux m'a souri
+    Lorsque les gendarmes m'ont pris
+  \endverse
+
+  \beginverse*
+    Toi qui n'a pas applaudi quand
+    Les croquantes et les croquants
+    Tous les gens bien intentionnés
+    Riaient de me voir amené
+  \endverse
+
+  \beginverse*
+    Ce n'était rien qu'un peu de miel
+    Mais il m'avait chauffé le corps
+    Et dans mon âme, il brûle encore
+    À la manière d'un grand soleil
+  \endverse
+
+  \beginverse*
+    Toi l'étranger quand tu mourras
+    Quand le croque-mort t'emportera
+    Qu'il te conduise à travers ciel
+    Au père éternel
+  \endverse
+
+\endsong

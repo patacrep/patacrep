@@ -10,7 +10,7 @@
 "booktype" : "chorded",
 "footer" : "Musique du Naheulband: \\url{http://www.penofchaos.com/warham/donjon-groupe.htm}",
 "license" : "\\input{license-nb.tex}",
-"picture" : "naheulbeuk",
+"picture" : "nb_cover",
 "picturecopyright" : "Personnages par \\emph{Pen Of Chaos} / Illustrations par \\emph{Marion Poinsot}",
 "subtitle" : "Recueil de chansons non-officiel",
 "title" : "Le Donjon de Naheulbeuk",

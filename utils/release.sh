@@ -72,7 +72,7 @@ git status
 
 if [ $# -eq 1 ];
 then
-    #git add templates/patacrep-en.tmpl templates/patacrep.tmpl 
+    git add templates/patacrep-en.tmpl templates/patacrep.tmpl 
     git commit -a -m "patacrep release version $MAIN.$MAJOR.$MINOR" 
     git tag "patacrep_$MAIN.$MAJOR.$MINOR" 
 fi

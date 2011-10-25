@@ -5,15 +5,15 @@
 #Description: Build all the pdf on www.patacrep.com, increase their
 #version and commit/tag the result
 
+GREP="$GREP_OPTIONS"
+export GREP_OPTIONS=""
+
 #volume-3.sb
 ./utils/volume-3.sh
 #english.sb
 ./utils/langbooks.sh english 
 #french.sb
 ./utils/langbooks.sh french 
-
-GREP="$GREP_OPTIONS"
-export GREP_OPTIONS=""
 
 #increase version
 RELEASE_TYPE=$1

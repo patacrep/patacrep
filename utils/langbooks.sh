@@ -10,6 +10,9 @@ then
     exit 1
 fi;
 
+GREP="$GREP_OPTIONS"
+export GREP_OPTIONS=""
+
 LANG=$1
 BOOKS_DIR="books/"
 
@@ -21,3 +24,5 @@ else
     echo "Error: $LANG is not a supported language"
     exit 2
 fi;
+
+export GREP_OPTIONS="$GREP"

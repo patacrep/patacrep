@@ -1,5 +1,5 @@
 Rem build tex file from songbook file
-songbook.py --songbook=%1.sb --output=%1.tex
+songbook.py --songbook=books\%1.sb --output=%1.tex
 
 Rem 1st pdf compilation 
 pdflatex %1.tex

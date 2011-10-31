@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ma bonne étoile}
+  [by=Joe Dassin,cov=le-meilleur-de-joe-dassin,album=Le meilleur de Joe Dassin]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G7}{320001}
+
+  \beginverse
+    J'a\[C]llais au clair de lune
+    Au gré de ma fortune
+    Porté par tous les vents de l'univers
+  \endverse
+
+  \beginverse*
+    Comme \[F]un lampion de fête
+    Au-dessus de ma tête
+    J'ai vu danser un point de lumière
+  \endverse
+
+  \beginverse*
+    Oh oh \[G7]oh, ma bonne é\[C]toile
+  \endverse
+
+  \beginchorus
+    Dans une petite étin\[G7]celle
+    Accrochée au \[C]ciel
+    J'ai vu un feu d'arti\[G7]fice
+    Grand comme un so\[C]leil
+  \endchorus
+
+  \beginchorus
+    Et depuis ce temps-là
+    Si j'ai l'air heureux
+    C'est que tu brilles nuit et jour
+    Dans le fond de mes yeux
+  \endchorus
+
+  \beginverse
+    Tu parles comme on chante
+    Tu marches comme on danse
+    Et tu me portes chance à chaque instant
+  \endverse
+
+  \beginverse*
+    Et me voilà roi mage
+    Au début d'un voyage
+    Qui ne finira qu'à la fin des temps
+  \endverse
+
+  \beginverse*
+    Oh oh oh, ma bonne étoile
+  \endverse
+
+  \beginchorus
+    Je dors à la belle étoile
+    Au cœur de l'hiver
+    Et c'est toi qui me réchauffes
+    C'est toi qui m'éclaires
+  \endchorus
+
+  \beginchorus
+    Et depuis ce temps-là
+    Si j'ai l'air heureux
+    C'est que tu brilles nuit et jour
+    Dans le fond de mes yeux
+  \endchorus
+
+\endsong

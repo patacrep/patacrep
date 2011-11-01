@@ -2,7 +2,7 @@
 #Author: Romain Goffe
 #Date: 07/05/2011
 #Description: Generate an sb file containing all the songs that are not 
-# already in volume-1 and volume-2
+# already in previous volumes
 
 GREP="$GREP_OPTIONS"
 export GREP_OPTIONS=""
@@ -30,18 +30,26 @@ sed -i -e "s/\",//g" -e "s/    \"//g" -e "s/\"//g" list2
 #remove volume 2 songs
 grep -vf list2 res2 > res3 
 
+#get volume 3 list
+tail -n +14 "$BOOKS_DIR/volume-3.sb" > tmp3
+head -n -2 tmp3 > list3
+sed -i -e "s/\",//g" -e "s/    \"//g" -e "s/\"//g" list3
+
+#remove volume 3 songs
+grep -vf list3 res3 > res4 
+
 #format song list
-sed -i -e "s/^/    \"/g" -e "s/$/\",/g" res3
-head -c -2 res3 > res
+sed -i -e "s/^/    \"/g" -e "s/$/\",/g" res4
+head -c -2 res4 > res
 
 
-#make volume 3 sb file
-cat utils/header-volume-3 > "$BOOKS_DIR/volume-3.sb"
-cat res >> "$BOOKS_DIR/volume-3.sb"
-echo "]" >> "$BOOKS_DIR/volume-3.sb"
-echo "}" >> "$BOOKS_DIR/volume-3.sb"
+#make volume 4 sb file
+cat utils/header-last-volume > "$BOOKS_DIR/volume-4.sb"
+cat res >> "$BOOKS_DIR/volume-4.sb"
+echo "]" >> "$BOOKS_DIR/volume-4.sb"
+echo "}" >> "$BOOKS_DIR/volume-4.sb"
 
 #remove tmp files
-rm -f res res1 res2 res3 list1 list2 tmp1 tmp2
+rm -f res res1 res2 res3 res4 list1 list2 list3 tmp1 tmp2 tmp3
 
 export GREP_OPTIONS="$GREP"

@@ -8,8 +8,8 @@
 GREP="$GREP_OPTIONS"
 export GREP_OPTIONS=""
 
-#volume-3.sb
-./utils/volume-3.sh
+#last volume
+./utils/last-volume.sh
 #english.sb
 ./utils/langbooks.sh english 
 #french.sb
@@ -58,6 +58,7 @@ make naheulbeuk.pdf
 make volume-1.pdf 
 make volume-2.pdf 
 make volume-3.pdf 
+make volume-4.pdf 
 make english.pdf 
 make french.pdf 
 make songbook.pdf 

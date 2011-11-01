@@ -162,7 +162,7 @@
  \vspace{1.5cm}
 
  \begin{center}
-   \includegraphics[height=14cm]{\@picture}
+   \includegraphics[keepaspectratio=true, width=14cm, height=14cm]{\@picture}
    \begin{flushright}
    {\flushright \small \@picturecopyright}
    \end{flushright}

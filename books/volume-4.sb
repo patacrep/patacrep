@@ -1,0 +1,19 @@
+{
+"template" : "patacrep.tmpl",
+"lang" : "french",
+"bookoptions" : [
+    "diagram",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"picture" : "music_by_lauratheartist",
+"picturecopyright" : "LauraTheArtist @ deviantart.com",
+"subtitle" : "Tome 4",
+"songs" : [
+    "Joe_Dassin/Ma_bonne_etoile.sg",
+    "Karpatt/En_pleine_mer.sg",
+    "Karpatt/Le_demenagement.sg",
+    "Les_Fatals_Picards/L_amour_a_la_francaise.sg",
+    "Les_Fatals_Picards/La_securite_de_l_emploi.sg"]
+}

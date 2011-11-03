@@ -1,0 +1,87 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Mélissa}
+  [by=Julien Clerc,cov=ce-n-est-rien,album=Ce n'est rien]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{B7}{X21202}
+
+  \beginchorus
+    \[G]Mélissa, mé\[D]tisse d'I\[G]biza
+    \[G]Vit tou\[D]jours dévê\[G]tue
+    \[G]Dites ja\[D]mais que \[G]je vous ai dit ça
+    \[G]Ou Mé\[D]lissa me \[G]tue
+  \endchorus
+
+  \beginverse*
+    Le matin, derrière ses canisses
+    Alors qu'elle est moitié-nue
+    Sur les murs devant chez Mélissa
+    Y'a tout plein d'inconnus
+  \endverse
+
+  \beginverse*
+    {\og}\[G]Descendez, ça, c'est défendu !
+    \[D7]Oh ! C'est indé\[G]cent !{\fg}
+    \[G]Elle crie mais bien entendu
+    \[D7]Personne ne des\[G]cend
+  \endverse
+
+  \beginverse*
+    \[D]Sous la soie de sa \[G]jupe fendue
+    \[C]En zoom, en gros-\[D]plan
+    \[D]Tout un tas d'in\[G]dividus
+    \[C]Filment noirs et \[D]blancs
+  \endverse
+
+  \beginchorus
+    Mélissa, métisse d'Ibiza
+    A des seins tout pointus
+    Dites jamais que je vous ai dit ça
+    Ou Mélissa me tue
+  \endchorus
+
+  \beginverse
+    {\og}Descendez, ça, c'est défendu !
+    Mater chez les gens !{\fg}
+    Elle crie mais bien entendu
+    Y'a jamais d'agent
+  \endverse
+
+  \beginverse*
+    Elle crie, c'est du temps perdu
+    Personne ne l'entend
+    La police, c'est tous des vendus
+    Dix ans qu'elle attend
+  \endverse
+
+  \beginchorus
+    Mélissa, métisse d'Ibiza
+    A toujours sa vertu
+    Dites jamais que je vous ai dit ça
+    Ou Mélissa me tue
+  \endchorus
+
+  \begin{bridge}
+  Oh ! Matez ma métisse
+  Oh ! Ma métisse est nue
+  \rep{2}
+  \end{bridge}
+
+  \beginverse
+    Mélissa, métisse d'Ibiza
+    Vit toujours dévêtue
+    Dites jamais que je vous ai dit ça
+    Je vous ai jamais vu
+  \endverse
+
+  \beginverse*
+    Le matin derrière ses canisses
+    Alors je vends des longues-vues
+    Mais si jamais Mélissa sait ça
+    Là, c'est moi qui vous tue
+  \endverse
+
+\endsong

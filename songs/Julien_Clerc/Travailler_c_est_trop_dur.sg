@@ -1,0 +1,53 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Travailler, c'est trop dur}
+  [by=Julien Clerc,cov=best-of,album=Best of]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{B7}{X21202}
+
+  \beginchorus
+    Travai\[E]ller, c'est trop dur
+    Et vo\[A]ler, c'est pas \[E]beau
+    D'mander la chari\[B7]té
+    C'est quelqu'\[A]chose j'peux pas \[E]faire
+  \endchorus
+
+  \beginchorus
+    Chaque jour que moi j'vis
+    On m'demande de quoi j'vis
+    J'dis que j'vis sur l'amour
+    Et j'espère de vivre vieux
+  \endchorus
+
+  \beginverse
+    Et je prends mon vieux ch'val
+    Et j'attrape ma vieille selle
+    Et je selle mon vieux ch'val
+    Pour aller chercher ma belle
+  \endverse
+
+  \beginverse*
+    Tu connais, c'est loin d'un grand bout d'là
+    De Saint-Antoine à Beaumont
+    Mais le long du grand Texas
+    J'l'ai cherchée bien longtemps
+  \endverse
+
+  \beginverse
+    Et je prends mon violon
+    Et j'attrape mon archet
+    Et je joue ma vieille valse
+    Pour faire le monde danser
+  \endverse
+
+  \beginverse*
+    Vous connaissez, mes chers amis
+    La vie est bien trop courte
+    Pour se faire des soucis
+    Alors, allons danser
+  \endverse
+
+\endsong

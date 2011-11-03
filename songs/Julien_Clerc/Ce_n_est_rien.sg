@@ -1,0 +1,88 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ce n'est rien}
+  [by=Julien Clerc,cov=ce-n-est-rien,album=Ce n'est rien]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
+
+  \beginverse
+    \[Em]Ce n'est \[C]rien \[Am]
+    Tu le \[C]sais bien le temps \[B7]passe
+    Ce n'est \[Em]rien
+  \endverse
+
+  \beginverse*
+    Tu sais \[C]bien \[Am]
+    Elle s'en \[C]vont comme les \[B7]bateaux
+    Et sou\[Em]dain
+  \endverse
+
+  \beginverse*
+    Ça re\[C]vient \[Am]
+    Pour un \[D7]bateau qui s'en \[G]va
+    Et re\[Am]vient \[C]
+  \endverse
+
+  \beginverse*
+    Il y a \[B7]mille coquilles de \[Em]noix
+    Sur ton che\[C]min \[Am]
+    Qui \[B7]coulent et c'est très \[Em]bien
+  \endverse
+
+  \beginchorus
+    Et c'est comme \[D7]une tourterelle
+    Qui s'é\[G]loigne à tire-d'aile
+    En em\[Am]portant le du\[B7]vet
+    Qu'était ton \[Em]lit, un beau matin
+  \endchorus
+
+  \beginchorus
+    Et c'est comme une fleur nouvelle
+    Et qui s'en va vers la grêle
+    Comme un petit radeau frêle
+    Sur l'océan
+  \endchorus
+
+  \beginverse
+    Ce n'est rien
+    Tu le sais bien le temps passe
+    Ce n'est rien
+  \endverse
+
+  \beginverse*
+    Tu sais bien
+    Elle s'en vont comme les bateaux
+    Et soudain
+  \endverse
+
+  \beginverse*
+    Ça prévient
+    Comme un bateau qui revient
+    Et soudain
+  \endverse
+
+  \beginverse*
+    Il y a mille sirènes de joies
+    Sur ton chemin
+    Qui résonnent et c'est très bien
+  \endverse
+
+  \beginchorus
+    Et c'est comme une tourterelle
+    Qui revient à tire-d'aile
+    En rapportant le duvet
+    Qu'était ton lit, un beau matin
+  \endchorus
+
+  \beginchorus
+    Et c'est comme une fleur nouvelle
+    Et qui s'en va vers la grêle
+    Comme un petit radeau frêle
+    Sur l'océan
+  \endchorus
+
+\endsong

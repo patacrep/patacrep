@@ -1,0 +1,66 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Le p'tit gars}
+  [by=Matticus,cov=echange-ton-verre,album=Échange ton verre]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{E}{022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+
+  \beginverse
+    \[Am]C'est un petit gars sympa qui \[Em]ne paye pas de mine comme ça
+    \[F]Mais il paye des coups à tous ceux \[Dm]{qu'il} trouve à son \[E]goût
+    \[Am]Il aime leur parler de tout, de \[Em]rien et de sa vie surtout
+    \[F]Mais les autres s'en foutent, ils boivent leurs \[C]verres et tracent leurs \[G]routes
+  \endverse
+
+  \beginchorus
+    \[Am]Et il se laisse vivre \[G]dans sa solitude
+    \[F]Pour lui être ivre est deve\[C]nu une habi\[G]tude
+    \[Am]Tous les soirs, il danse, il chante et \[G]il rit de bon cœur
+    \[F]Mais quand revient le silence, il rentre chez \[C]lui et seul il \[G]pleure
+    \nolyrics{\[Am G F C G]} \rep{2}
+  \endchorus
+
+  \beginverse
+    C'est un petit gars gentil, il a le sourire, il est poli
+    Accoudé au comptoir, il ne fréquente que ce bar
+    Parfois, il lache son verre pour se trouver une cavalière
+    Mais elle lui refuse en lui marmonnant des excuses
+  \endverse
+
+  \beginchorus
+    Et il se laisse vivre dans sa solitude
+    Pour lui être ivre est devenu une habitude
+    Tous les soirs il danse, il chante et il rit de bon cœur
+    Mais quand revient le silence il rentre chez lui et seul, il pleure \echo{et seul, il pleure}
+  \endchorus
+
+  \beginverse
+    C'est un petit gars bizarre que j'ai rencontré hier soir
+    Il voulait parler et j'étais là pour l'écouter
+    Il m'a livré sa douleur, ses peurs, ses doutes, ses peines de cœur
+    Et quand il eût fini, j'me suis levée et j'lui ai dit
+  \endverse
+
+  \beginchorus
+    Tu te laisses vivre dans ta solitude
+    Pour toi être ivre est devenu une habitude
+    Tous les soirs tu danses, tu chantes et tu ris de bon cœur
+    Mais quand revient le silence, tu rentres chez toi et seul, tu pleures
+  \endchorus
+
+  \beginchorus
+    Il est bien trop tôt pour te décourager
+    Sors de ce bistrot et réveille-toi pour rêver
+    Finis donc ta bière, allons faire un tour
+    Échange ton verre contre une belle histoire d'amour \echo{histoire d'amour}
+  \endchorus
+
+\endsong
+

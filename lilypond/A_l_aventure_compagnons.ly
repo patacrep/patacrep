@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 6.4\cm}
+\paper{paper-height = 5.6\cm}
 
 {
   \key ees \major

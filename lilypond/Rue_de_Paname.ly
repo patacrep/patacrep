@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height=4.1\cm}
+\paper{paper-height = 3\cm}
 
 {
   \time 6/8

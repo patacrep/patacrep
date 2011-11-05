@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 5.7\cm}
+\paper{paper-height = 4.4\cm}
 
 
 musique = 

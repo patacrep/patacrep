@@ -1,0 +1,76 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Cendrillon}
+  [by=Téléphone,cov=best-of,album=Best of]
+
+  \cover
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+
+  \beginverse
+    \[A]Cendrillon, pour \[E]ses vingt ans
+    Est \[F#m]la plus jolie \[D]des enfants
+    \[A]Son bel amant, le \[E]prince charmant
+    \[F#m]La prend sur son \[D]cheval blanc
+  \endverse
+
+  \beginverse*
+    \[E]Elle oublie le \[A]temps
+    Dans \[E]ce palais d'ar\[F#m]gent
+    Pour \[Bm]ne pas voir qu'un nouveau jour se lève
+    Elle \[D]ferme les yeux, et dans ses rêves
+  \endverse
+
+  \beginchorus
+    Elle \[A]part \[E F#m]
+    \[D]Jolie petite histoire \[A E F#m D]
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Cendrillon, pour ses trente ans
+    Est la plus triste des mamans
+    Le prince charmant a foutu l'camp
+    Avec la Belle au bois dormant
+    Elle a vu cent chevaux blancs
+    Loin d'elle emmener ses enfants
+  \endverse
+
+  \beginverse*
+    Elle commence à boire
+    À traîner dans les bars
+    Emmitouflée dans son cafard
+    Maintenant elle fait le trottoir
+  \endverse
+
+  \beginverse
+    Dix ans de cette vie ont suffit
+    À la changer en junkie
+    Et dans un sommeil infini
+    Cendrillon voit finir sa vie
+  \endverse
+
+  \beginverse*
+    Les lumières dansent
+    Dans l'ambulance
+    Mais elle tue sa dernière chance
+    Tout ça n'a plus d'importance
+  \endverse
+
+  \beginchorus
+    Elle part
+    Fin de l'histoire
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Notre père, qui es aux cieux
+    As-tu vraiment fait de ton mieux ?
+    Car sur la Terre, et dans les cieux
+    \[F#m]Tes anges n'aiment pas \[D]devenir \[A]vieux
+  \endverse
+
+\endsong

@@ -1,0 +1,118 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Bidon}
+  [by=Alain Souchon,cov=bidon,album=Bidon]
+
+  \cover
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{D}{XX0232}
+  \gtab{D7}{XX0212}
+  \gtab{Bm}{2:XX2210}
+  \gtab{F#m}{2:X22100}
+  \gtab{D5+}{X5433X}
+  \gtab{D6}{X5443X}
+
+
+  \beginchorus
+    \nolyrics{\[A]\[E]\[F#m]\[E]}
+  \endchorus
+
+  \beginverse
+    \[A]Elle croyait qu'j'étais James DEAN \[E]
+    Américain d'origine \[F#m]
+    Le fils de Buffalo Bill\[E]
+    Alors admiration\[A]
+    \nolyrics{\[E]\[F#m]\[E]}
+  \endverse
+
+  \beginverse
+    Faut dire qu'j'avais la ch'mise à carreaux
+    La guitare derrière dans l'dos
+    Pour faire le cow-boy très beau
+    Mais composition
+  \endverse
+
+  \beginverse
+    \[Bm]Elle me parlait anglais tout l'temps \[F#]
+    J'lui répond\[Bm]ais deux trois mots bidon \[F#]
+    Des trucs \[Bm]entendus dans des chansons \[E]
+    Consternation\[A]
+    \nolyrics{\[E]\[F#m]\[E]}
+  \endverse
+
+  \beginverse
+    Elle croyait qu'j'étais coureur
+    Qu'j'arrivais des vingt quatre heurs
+    Avec mon casque en couleur
+    Alors admiration
+  \endverse
+
+  \beginverse
+    J'lui disais drapeau à damier
+    Dérapages bien contrôlés
+    Admirateurs fascinés
+    Télévision
+  \endverse
+
+  \beginverse
+    Elle me dit partons à la mer
+    Dans ton bolide fendant l'air
+    elle passe pas l'quatre vingt ma traction
+    Consternation
+  \endverse
+
+  \beginchorus
+    J'suis mal dans\[D] ma peau
+    En cour\[D5+]eur très beau
+    And I ju\[D6]st go
+    Et ma pince à \[D7]vélo
+    J'suis bidon \[G]j'suis bidon
+    J'suis qu'un \[D]mec à frime
+    Bourré \[D5+]d'aspirine
+    And I just\[D6] go
+    Et ma pince à \[D7]vélo
+    J'suis bidon \[G]j'suis bidon
+  \endchorus
+
+  \beginverse
+    Elle croyait qu'j'étais chanteur
+    Incognito voyageur
+    Tourné sono filles en pleurs
+    Alors admiration
+  \endverse
+
+  \beginverse
+    Faut dire qu'j'avais des talons aiguilles
+    Le manteau d'lapin d'une fille
+    Des micros bracelet aux ch'villes
+    Exhibition
+  \endverse
+
+  \beginverse
+    Elle me dit chante moi une chanson
+    J'ai avalé deux trois maxitons
+    Puis j'ai bousillé reconnection
+    Consternation
+  \endverse
+
+  \beginchorus
+    J'suis mal dans ma peau
+    En coureur très beau
+    And I just go
+    Et ma pince à vélo
+    J'suis bidon j'suis bidon
+    J'suis qu'un mec à frime bourré d'aspirine
+    And I just go
+    Et ma pince à vélo
+    J'suis bidon j'suis bidon
+  \endchorus
+
+  \beginchorus
+    J'habite chez ma grand-mère
+    Derrière le garde barrière
+    And I just go
+    Et ma pince à vélo
+  \endchorus
+
+\endsong

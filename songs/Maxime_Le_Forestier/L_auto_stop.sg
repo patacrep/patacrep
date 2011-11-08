@@ -5,88 +5,102 @@
 
   \cover
   \gtab{C}{X32010}
-  \gtab{C7}{X32310}
   \gtab{Am}{X02210}
-  \gtab{Am7}{X02010}
   \gtab{F}{1:022100}
   \gtab{D7}{XX0212}
-  \gtab{G}{320003}
   \gtab{G7}{320001}
-  \gtab{E}{022100}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
   \gtab{E7}{020100}
 
   \beginverse
-    \[C]On est \[C7]arri\[Am]vé
-    \[Am7]Sac au \[F]dos \[F]A \[D7]huit heu\[G7]res
-    \[C]Avec \[C7]Olivier\[Am]
-    \[Am]Et Marg\[F]ot \[D7]Et Pe\[G7]ter
-    \[Am]C'était le \[E]grand départ
+    \[C]On est arri\[Am]vés
+    Sac au \[F]dos, \[D7]à huit heu\[G7]res
+    \[C]Avec Olivier\[Am]
+    Et Marg\[F]ot \[D7]et Pe\[G7]ter
+  \endverse
+
+  \beginverse*
+    \[Am]C'était le \[Em]grand départ
     Vers le \[F]sud et vers les va\[G7]cances
-    \[C]On trou\[C7]vera je pe\[Am]nse
-    \[Am7]Une au\[F]to av\[G]ant ce \[C]soir
+    \[C]On trouvera, je pe\[Am]nse
+    Une au\[F]to av\[G]ant ce \[C]soir
   \endverse
 
   \beginverse
-    \[C]Porte d'\[C7]orléa\[Am]ns
-    \[Am7]Rési\[F]gnés \[D7]Un peu pâ\[G7]les
-    \[C]Près de \[C7]quatre c\[Am]ents
-    \[Am]En Juil\[F]let et c'\[D7]est nor\[G7]mal
-    \[Am]Quatre cents c\[Em]omme nous
-    Pouce en \[F]l'air avec des gui\[G7]tares
-    \[C]La nuit \[C7]tombe t\[Am]ard
-    \[Am7]Mais quand mé\[F]me \[G]installons \[C]nous
+    Porte d'Orléans
+    Résignés, un peu pâles
+    Près de quatre cents
+    En Juillet, c'est normal
+  \endverse
+
+  \beginverse*
+    Quatre cents comme nous
+    Pouce en l'air avec des guitares
+    La nuit tombe tard
+    Mais quand même, installons-nous
   \endverse
 
   \beginchorus
-    Al\[F]ors on a mo\[D7]nté la tente
-    Sur \[C]le bord\[E7] du trot\[Am]toir
-    En \[F]se disant \[D7]déjà qu'il vente
-    \[C]Il pour\[G]rait bien \[C]pleuvoir
+    A\[F]lors, on a mon\[D7]té la tente
+    Sur \[C]le bord \[E7]du trot\[Am]toir
+    En \[F]se disant : {\og}Dé\[D7]jà qu'il vente
+    Il \[C]pourrait \[G]bien pleu\[C]voir{\fg}
   \endchorus
 
   \beginverse
     Quatre jours plus tard
-    On était Toujours là
+    On était toujours là
     Avec des guitares
-    Abrités Pourquoi pas
+    Abrités, pourquoi pas ?
+  \endverse
+
+  \beginverse*
     Avec un verre de vin
-    Chaque fois que quelqu'un s'arréte
+    Chaque fois que quelqu'un s'arrête
     C'était pas la féte
-    Mais enfin on était bien
+    Mais enfin, on était bien
   \endverse
 
   \beginverse
-    C'est je crois le treize
-    Au matin Qu'une auto
+    C'est, je crois, le treize
+    Au matin qu'une auto
     A pris deux Anglaises
-    Un marin Et Margot
-    Nous on est resté là
+    Un marin et Margot
+  \endverse
+
+  \beginverse*
+    Nous, on est restés là
     Heureusement que nos deux voisines
     Ont fait la cuisine
-    Dans le fond c'est mieux comme ça
+    Dans le fond, c'est mieux comme ça
   \endverse
 
   \beginchorus
     Et on a remonté la tente
-    Plus loin sur le trottoir
-    En se disant déjà qu'il vente
-    Il pourrait bien pleuvoir
+    Plus loin, sur le trottoir
+    En se disant : {\og}Déjà qu'il vente
+    Il pourrait bien pleuvoir{\fg}
   \endchorus
 
   \beginverse
     Quinze jours plus tard
-    On était Toujours là
+    On était toujours là
     Presqu'à bout d'espoir
-    Quand un car S'arréta
+    Quand un car s'arrêta
+    \endverse
+
+    \beginverse*
     Quinze jours pour partir
     Quand on a qu'un mois de vacances
-    On n'aura je pense pas le temps de revenir
+    On n'aura, je pense
+    Pas le temps de revenir
   \endverse
 
   \beginchorus
-    Et on a passé nos vacances
+    Et on a fini nos vacances
     Sur le bord d'un trottoir
-    Quand on a dit c'est ça la France
+    Quand on a dit : {\og}C'est ça la France{\fg}
     Il s'est mis à pleuvoir
   \endchorus
 

@@ -12,7 +12,8 @@
   \gtab{C/B}{X20010}
   \gtab{F#}{200XXX}
 
-  \musicnote{intro: same chords as the chorus}
+  \musicnote[english]{\Intro: same chords as the chorus}
+  \musicnote[french]{\Intro: même accords que le refrain}
 
   \beginverse
     There's a \[Em]man homeless and hungry

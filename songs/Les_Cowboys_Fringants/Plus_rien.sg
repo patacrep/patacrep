@@ -12,7 +12,7 @@
   \gtab{A7}{X02020}
 
   \beginverse*
-    \musicnote{\Pattern 1 : \nolyrics{\[Dm F C G]}}
+    \musicnote{\Pattern 1 : \nolyrics{\[Dm F C Gm B{\flt} C Dm]}}
   \endverse
 
   \beginverse
@@ -23,7 +23,7 @@
   \endverse
 
   \beginverse*
-    \musicnote{\Pattern 2 : \nolyrics{\[Dm G C B\flt]}}
+    \musicnote{\Pattern 2 : \nolyrics{\[Dm Gm C B{\flt} A7]}}
   \endverse
 
   \beginverse*
@@ -41,7 +41,7 @@
   \endverse
 
   \beginverse*
-    \musicnote{\Pattern 3 : \nolyrics{\[D B\flt F C]}}
+    \musicnote{\Pattern 3 : \nolyrics{\[Dm B{\flt} F C]}}
   \endverse
 
   \beginverse*
@@ -57,7 +57,7 @@
   \endchorus
 
   \beginverse*
-    \musicnote{\Pattern 1 : \nolyrics{\[Dm F C G]}}
+    \musicnote{\Pattern 1 : \nolyrics{\[Dm F C Gm B{\flt} C Dm]}}
   \endverse
 
   \beginverse
@@ -68,7 +68,7 @@
   \endverse
 
   \beginverse*
-    \musicnote{\Pattern 2 : \nolyrics{\[Dm G C B\flt]}}
+    \musicnote{\Pattern 2 : \nolyrics{\[Dm Gm C B{\flt} A7]}}
   \endverse
 
   \beginverse*
@@ -93,7 +93,7 @@
   \endverse
 
   \beginverse*
-    \musicnote{\Pattern 3 : \nolyrics{\[D B\flt F C]}}
+    \musicnote{\Pattern 3 : \nolyrics{\[Dm B{\flt} F C]}}
   \endverse
 
   \beginverse*
@@ -118,7 +118,7 @@
   \endverse
 
   \beginverse*
-    \musicnote{\Pattern 2 : \nolyrics{\[Dm G C B\flt]}}
+    \musicnote{\Pattern 2 : \nolyrics{\[Dm Gm C B{\flt} A7]}}
   \endverse
 
   \beginverse
@@ -129,7 +129,7 @@
   \endverse
 
   \beginverse*
-    \musicnote{\Pattern 1 : \nolyrics{\[Dm F C G]}}
+    \musicnote{\Pattern 1 : \nolyrics{\[Dm F C Gm B{\flt} C Dm]}}
   \endverse
 
   \beginverse*

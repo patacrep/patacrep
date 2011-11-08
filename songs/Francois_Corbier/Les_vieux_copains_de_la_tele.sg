@@ -13,7 +13,9 @@
   \gtab{C}{X32010}
   \gtab{B7}{2:X02020}
 
-  \musicnote{\Intro : \nolyrics{\[Am G F E]} \rep{2}}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Am G F E]} \rep{2}}
+  \endverse
 
   \beginverse
     Vous souve\[Am]nez-vous des co\[G]pains

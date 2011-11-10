@@ -1,0 +1,93 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'auto-stop}
+  [by=Maxime Le Forestier,cov=saltimbanque,album=Saltimbanque]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{C7}{X32310}
+  \gtab{Am}{X02210}
+  \gtab{Am7}{X02010}
+  \gtab{F}{1:022100}
+  \gtab{D7}{XX0212}
+  \gtab{G}{320003}
+  \gtab{G7}{320001}
+  \gtab{E}{022100}
+  \gtab{E7}{020100}
+
+  \beginverse
+    \[C]On est \[C7]arri\[Am]vé
+    \[Am7]Sac au \[F]dos \[F]A \[D7]huit heu\[G7]res
+    \[C]Avec \[C7]Olivier\[Am]
+    \[Am]Et Marg\[F]ot \[D7]Et Pe\[G7]ter
+    \[Am]C'était le \[E]grand départ
+    Vers le \[F]sud et vers les va\[G7]cances
+    \[C]On trou\[C7]vera je pe\[Am]nse
+    \[Am7]Une au\[F]to av\[G]ant ce \[C]soir
+  \endverse
+
+  \beginverse
+    \[C]Porte d'\[C7]orléa\[Am]ns
+    \[Am7]Rési\[F]gnés \[D7]Un peu pâ\[G7]les
+    \[C]Près de \[C7]quatre c\[Am]ents
+    \[Am]En Juil\[F]let et c'\[D7]est nor\[G7]mal
+    \[Am]Quatre cents c\[Em]omme nous
+    Pouce en \[F]l'air avec des gui\[G7]tares
+    \[C]La nuit \[C7]tombe t\[Am]ard
+    \[Am7]Mais quand mé\[F]me \[G]installons \[C]nous
+  \endverse
+
+  \beginchorus
+    Al\[F]ors on a mo\[D7]nté la tente
+    Sur \[C]le bord\[E7] du trot\[Am]toir
+    En \[F]se disant \[D7]déjà qu'il vente
+    \[C]Il pour\[G]rait bien \[C]pleuvoir
+  \endchorus
+
+  \beginverse
+    Quatre jours plus tard
+    On était Toujours là
+    Avec des guitares
+    Abrités Pourquoi pas
+    Avec un verre de vin
+    Chaque fois que quelqu'un s'arréte
+    C'était pas la féte
+    Mais enfin on était bien
+  \endverse
+
+  \beginverse
+    C'est je crois le treize
+    Au matin Qu'une auto
+    A pris deux Anglaises
+    Un marin Et Margot
+    Nous on est resté là
+    Heureusement que nos deux voisines
+    Ont fait la cuisine
+    Dans le fond c'est mieux comme ça
+  \endverse
+
+  \beginchorus
+    Et on a remonté la tente
+    Plus loin sur le trottoir
+    En se disant déjà qu'il vente
+    Il pourrait bien pleuvoir
+  \endchorus
+
+  \beginverse
+    Quinze jours plus tard
+    On était Toujours là
+    Presqu'à bout d'espoir
+    Quand un car S'arréta
+    Quinze jours pour partir
+    Quand on a qu'un mois de vacances
+    On n'aura je pense pas le temps de revenir
+  \endverse
+
+  \beginchorus
+    Et on a passé nos vacances
+    Sur le bord d'un trottoir
+    Quand on a dit c'est ça la France
+    Il s'est mis à pleuvoir
+  \endchorus
+
+\endsong

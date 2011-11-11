@@ -3,73 +3,71 @@
 \beginsong{Fontenay-aux-Roses}
   [by=Maxime le Forestier,cov=mon-frere,album=Mon frère]
 
-\cover
- \gtab{G}{320003}
- \gtab{C}{X32010}
- \gtab{D7}{XX0212}
- \gtab{Em}{022000}
- \gtab{B7}{X21202}
- \gtab{D}{XX0232}
+  \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D7}{XX0212}
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+  \gtab{D}{XX0232}
 
-\beginverse*
+  \beginverse*
     \musicnote{\Intro : \nolyrics{\[G C D7 G]}}
-\endverse
+  \endverse
+
+  \beginverse
+    \[G]Vous êtes si jol\[C]ies
+    Quand vous passez le \[D7]soir
+    À l'angle de ma \[G]rue
+    \[B7]Parfumées et fleu\[C]ries
+    Avec un ruban \[D7]noir
+    Toutes de bleu vêt\[Em]ues
+  \endverse
+
+  \beginchorus
+    Quand je vous vois pa\[B7]sser
+    J'imagine parfois
+    Des choses insen\[Em]sées
+    Des rendez-vous se\[Am]crets
+    \[C]Au fond d'un jardin \[G]froid
+    Des serments murmu\[D]rés
+  \endchorus
+
+  \beginverse
+    Le soir dans votre lit
+    Je vous devine nues
+    Un roman à la main
+    Monsieur Audiberti
+    Vous parle d'inconnus
+    Vous êtes déjà loin
+  \endverse
+
+  \beginchorus
+    Vos rêves, cette nuit
+    De quoi parleront-ils ?
+    Le soleil fut si lourd
+    Demain c'est samedi
+    Je guetterai fébrile
+    Votre sortie du cours
+  \endchorus
 
 
-\beginverse
-\[G]Vous êtes si jol\[C]ies
-Quand vous passez le \[D7]soir
-à l'angle de ma \[G]rue
-\[B7]parfumées et fleu\[C]ries
-avec un ruban \[D7]noir
-toutes de bleu vêt\[Em]ues
-\endverse
+  \beginverse
+    Dimanche sera gris
+    Je ne vous verrai pas
+    Pas avant lundi soir
+    Où serez-vous parties ?
+    Qui vous tiendra le bras ?
+    Que vous fera-t-on croire ?
+  \endverse
 
-
-\beginchorus
-quand je vous vois pa\[B7]sser
-j'imagine parfois
-des choses insen\[Em]sées
-des rendez-vous se\[Am]crets
-\[C]au fond d'un jardin \[G]froid
-des serments murmu\[D]rés
-\endchorus
-
-\beginverse
-Le soir dans votre lit
-je vous devine nues
-un roman à la main
-Monsieur Audiberti
-vous parle d'inconnus
-vous êtes déjà loin
-\endverse
-
-\beginchorus
-vos rêves, cette nuit
-de quoi parleront-ils
-le soleil fut si lourd
-demain c'est Samedi
-je guetterai fébrile
-votre sortie du cours
-\endchorus
-
-
-\beginverse
-Dimanche sera gris
-je ne vous verrai pas
-pas avant Lundi soir
-où serez-vous parties
-qui vous tiendra le bras
-que vous fera-t-on croire ?
-\endverse
-
-\beginchorus
-Je crois que je vous dois
-De vous faire un aveu
-Petites écoutez-\[Em]moi
-C'est la première \[Am]fois
-Que je suis amou\[D7]reux
-De tout un pension\[G]nat \[C]\[D7]\[G]
-\endchorus
+  \beginchorus
+    Je crois que je vous dois
+    De vous faire un aveu
+    Petites, écoutez-\[Em]moi
+    C'est la première \[Am]fois
+    Que je suis amou\[D7]reux
+    De tout un pension\[G]nat \[C D7 G]
+  \endchorus
 
 \endsong

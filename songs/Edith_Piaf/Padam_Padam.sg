@@ -1,9 +1,10 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Padam padam}
+\beginsong{Padam Padam}
   [by=Édith Piaf,cov=padam-padam,album=Padam padam]
 
   \cover
+  \capo{1}
   \gtab{Am}{X02210}
   \gtab{Dm}{XX0231}
   \gtab{E7}{022130}
@@ -21,26 +22,26 @@
     Cent \[A]fois j'ai vou\[E]lu dire pour\[A]quoi
     Mais \[D]il m'a cou\[Am]pé la par\[D]ole
     Il parle tou\[Am]jours avant \[E]moi
-    Et\[Dm] sa \[E]voix \[Dm]couvre ma \[E7]voix
+    \[Dm]Et sa \[E]voix \[Dm]couvre ma \[E7]voix
   \endverse
 
   \beginchorus
-    Pad\[Am]am\dots padam\dots padam\dots
+    Pad\[Am]am{\dots} padam{\dots} padam{\dots}
     Il arrive en courant derrière \[E7]moi
-    Padam\dots padam\dots padam\dots
-    Il me fait le coup du souviens-\[Am]toi
-    Pad\[Am]am\dots padam\dots padam\dots
+    Padam{\dots} padam{\dots} padam{\dots}
+    Il me fait le coup du {\og}souviens-\[Am]toi{\fg}
+    Pad\[Am]am{\dots} padam{\dots} padam{\dots}
     C'est un air qui me montre du \[Dm]doigt
     Et je traîne après moi comme une \[Am]drôle d'erreur
     Cet \[F]air qui \[E]sait tout par \[Am]cœur
   \endchorus
 
   \beginverse
-    Il dit : "Rappelle-toi tes amours
-    Rappelle-toi puisque c'est ton tour
-    Y a pas d'raison pour qu'tu n'pleures pas
-    Avec tes souvenirs sur les bras\dots "
-    Et moi je revois ceux qui restent
+    Il dit : {\og}Rappelle-toi tes amours
+    Rappelle-toi, puisque c'est ton tour
+    Y'a pas d'raison pour qu'tu n'pleures pas
+    Avec tes souvenirs sur les bras{\dots}{\fg}
+    Et moi, je revois ceux qui restent
     Mes vingt ans font battre tambour
     Je vois s'entrebattre des gestes
     Toute la comédie des amours
@@ -48,26 +49,26 @@
   \endverse
 
   \beginchorus
-    Padam\dots padam\dots padam\dots
-    Des "je t'aime" de quatorze-juillet
-    Padam\dots padam\dots padam\dots
-    Des "toujours" qu'on achète au rabais
-    Padam\dots padam\dots padam\dots
-    Des "veux-tu" en voilà par paquets
+    Padam{\dots} padam{\dots} padam{\dots}
+    Des {\og}je t'aime{\fg} de quatorze-juillet
+    Padam{\dots} padam{\dots} padam{\dots}
+    Des {\og}toujours{\fg} qu'on achète au rabais
+    Padam{\dots} padam{\dots} padam{\dots}
+    Des {\og}veux-tu{\fg} en voilà par paquets
     Et tout ça pour tomber juste au coin d'la rue
     Sur l'air qui m'a reconnue
   \endchorus
 
   \beginverse
-    Pad\[Am]am\dots padam\dots padam\dots
+    Pad\[Am]am{\dots} padam{\dots} padam{\dots}
     \[Am]Écoutez le chahut qu'il me \[E]fait
-    Padam\dots padam\dots padam\dots
+    Padam{\dots} padam{\dots} padam{\dots}
     \[E]Comme si tout mon passé défi\[Am]lait
-    Padam\dots padam\dots padam\dots
+    Padam{\dots} padam{\dots} padam{\dots}
     \[Am]Faut garder du chagrin pour \[Dm]après
-    Padam\dots padam\dots padam\dots
-    J'en ai tout un solfège sur cet \[Am]air qui bat\dots
-    Qui \[F]bat comme \[E]un cœur de \[Am]bois\dots
+    Padam{\dots} padam{\dots} padam{\dots}
+    J'en ai tout un solfège sur cet \[Am]air qui bat{\dots}
+    Qui \[F]bat comme \[E]un cœur de \[Am]bois{\dots}
   \endverse
 
 \endsong

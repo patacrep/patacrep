@@ -1,32 +1,37 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Entre 14 et 40 Ans}
-  [by=Maxime le Forestier,cov=Le-Steak,album=Le steak]
+  [by=Maxime le Forestier,cov=le-steak,album=Le steak]
 
   \cover
   \gtab{C}{X32010}
-  \gtab{Em}{022000}
   \gtab{Am}{X02210}
   \gtab{Dm}{XX0231}
   \gtab{G7}{320001}
   \gtab{F}{1:022100}
 
   \beginverse
-    \[C]Fallait déjà se lever tôt,\[C]\[Em]\[Am]
-    Pour trouver un brin d'\[Dm]herbe
-    J'ai f\[G7]ilé la trace aux ois\[C]eaux
-    \[C]J'les ai suivis et ce matin, \[C] \[Em] \[Am]
-    Découverte sup\[Dm]erbe
-    Y \[G7]en avait au Quartier La\[C]tin
-    Comme \[F]je ne savais pas vol\[G]er
-    Et qu'il y avait des gr\[C]illes
-    J'ai du m'ass\[Am]oir devant l'ent\[Dm]rée.\[G7]
-    C'est dur de vo\[C]uloir par beau temps,\[C]\[Em]\[Am]
-    Embrasser une \[Dm]fille
-    \[G7]Entre 14 et 40 \[C]ans
-    Le 13 \[F]mai leur a pas suf\[G]fi
-    Il \[F]viennent nous chercher \[C]ici
+    \[C]Fallait déjà se lever tôt\[C Am]
+    Pour trouver un brin d'\[Dm]herbe \[G7]
+    J'ai filé la trace aux ois\[C]eaux
+    \[C]J'les ai suivis et ce matin\[C Am]
+    Découverte sup\[Dm]erbe \[G7]
+    Y'en avait au Quartier la\[C]tin
   \endverse
+
+  \beginverse*
+    Comme \[F]je ne savais pas vo\[G]ler
+    Et qu'il y avait des gr\[C]illes
+    J'ai du m'ass\[Am]oir devant l'ent\[Dm]rée\[G7]
+    C'est dur de vou\[C]loir par beau temps\[C Am]
+    Embrasser une \[Dm]fille \[G7]
+    Entre 14 et 40 \[C]ans
+  \endverse
+
+  \beginchorus
+    Le Lar\[F]zac leur a pas su\[G]ffi
+    Il viennent s'installer \[C]ici
+  \endchorus
 
   \beginverse
     On voulait juste s'allonger
@@ -34,32 +39,44 @@
     Regarder les oiseaux manger
     On voulait juste imaginer
     Une terre déserte
-    Ou l'on ferait l'amour en paix
+    Où l'on ferait l'amour en paix
+  \endverse
+
+  \beginverse*
     Quand on aura enfin atteint
     Leur âge, il me semble
-    Qu'on n'aura plus de gout à rien
+    Qu'on n'aura plus de goût à rien
     On voulait jouer aux enfants
     Avant qu'on leur ressemble
     Entre 14 et 40 ans
   \endverse
 
+  \beginchorus
+    Diên Biên Phu leur a pas suffi
+    Ils viennent s'entraîner ici
+  \endchorus
+
   \beginverse
-    Dien Bien Phu leur a pas suffit
-    Ils viennent nous chercher ici
-    'savent pas qu'les oiseaux ont des ailes
+    Savent pas qu'les oiseaux ont des ailes
     Quand on a des visières
     On ne regarde pas le ciel
     Allez, les piafs, allez nombreux
     Et bouffez leurs parterres
     Puisqu'il paraît que c'est à eux
-    On peut rêver il est toujours
+  \endverse
+
+  \beginverse*
+    On peut rêver, il est toujours
     Possible qu'ils se perdent
     Dans les jardins du Luxembourg
     Répétons-leur en attendant
-    Qu'ensemble on les emmerde
+    Qu'ensemble, on les emmerde
     Entre 14 et 40 ans
-    Le Larzac leur a pas suffi
-    Ils viennent s'entraîner ici
   \endverse
+
+  \beginchorus
+    Le 13 Mai leur a pas suffi
+    Ils viennent nous chercher ici
+  \endchorus
 
 \endsong

@@ -4,84 +4,77 @@
   [by=Jeanne Moreau,cov=BOF-Jules-et-Jim,album=BOF Jules et Jim]
 
   \cover
-  \gtab{A}{X02210}
+  \gtab{A}{X02220}
   \gtab{E}{022100}
 
   \beginverse
-    \[A]Elle avait des bagues à chaque doigt
-    Des tas de \[E]bracelets autour des poignets
-    Et puis \[A]elle chantait avec une voix
-    Qui sitôt \[E]m'enjôla \[A]
+    Elle \[A]avait des bagues à chaque doigt
+    Des \[E]tas de bracelets autour des poignets
+    Et \[A]puis elle chantait avec une voix
+    Qui \[E]sitôt m'enjô\[A]la
   \endverse
 
-  \beginchorus
-    Elle \[A]avait des yeux des yeux d'opale
-    Qui m'fascinaient qui m'fascinaient\[E]
-    \[A]Y'avait l'opale de son visage pâle
-    \[E]De femme fatale qui m'fut fatale\[A]\rep{2}
-  \endchorus
+  \beginverse*
+    Elle \[A]avait des yeux, des yeux d'opale
+    Qui m'fascinaient, qui \[E]{m'fascinaient}
+    Y'\[A]avait l'opale de son visage pâle
+    \[E]De femme fatale qui m'\[A]fut fatal \rep{2}
+  \endverse
 
   \beginverse
-    On s'est connu on s'est reconnu
-    On s'est perdu de vue on s'est r'perdu d'vue
-    On s'est retrouvé on s'est réchauffé
-    Puis on s'est séparé
+    On s'est connus, on s'est reconnus
+    On s'est perdus de vue, on s'est r'perdus d'vue
+    On s'est retrouvés, on s'est réchauffés
+    Puis on s'est séparés
   \endverse
 
-  \beginchorus
+  \beginverse*
     Chacun pour soi est reparti
     Dans l'tourbillon de la vie
-    Je l'ai revue un soir aïe aïe aïe
+    Je l'ai revue un soir, aïe aïe aïe
     Ça fait déjà un fameux bail \rep{2}
-  \endchorus
+  \endverse
 
   \beginverse
-    Au son des banjos je l'ai reconnue
+    Au son des banjos, je l'ai reconnue
     Ce curieux sourire qui m'avait tant plu
-    Sa voix si fatale son beau visage pâle
+    Sa voix si fatale, son beau visage pâle
     M'émurent plus que jamais
   \endverse
 
-  \beginchorus
+  \beginverse*
     Je m'suis soûlé en l'écoutant
     L'alcool fait oublier le temps
     Je m'suis réveillé en sentant
     Des baisers sur mon front brûlant \rep{2}
-  \endchorus
-
-  \beginverse
-    On s'est connu on s'est reconnu
-    On s'est perdu de vue on s'est r'perdu de vue
-    On s'est retrouvé on s'est réchauffé
-    Puis on s'est séparé
   \endverse
 
-  \beginchorus
-    Chacun pour soi est reparti
-    Dans le tourbillon de la vie
-    On a continué à tourner
-    Tous les deux enlacés \rep{2}
-  \endchorus
+  \beginverse
+    On s'est connus, on s'est reconnus
+    On s'est perdus de vue, on s'est r'perdus de vue
+    On s'est retrouvés, on s'est séparés
+    Puis on s'est réchauffés
+  \endverse
 
-  \beginchorus
+  \beginverse*
     Chacun pour soi est reparti
     Dans l'tourbillon de la vie
-    Je l'ai revue un soir ah la la
+    Je l'ai revue un soir, ah la la
     Elle est retombée dans mes bras \rep{2}
-  \endchorus
-
-  \beginverse
-    Quand on s'est connu Qu'on s'est reconnu
-    Pourquoi s'perdre de vue Se r'perdre de vue
-    Quand on s'est r'trouvé Qu'on s'est réchauffé
-    Pourquoi se séparer
   \endverse
 
-  \beginchorus
-    Alors tous deux on est r'parti
+  \beginverse
+    Quand on s'est connus, qu'on s'est reconnus
+    Pourquoi s'perdre de vue, se reperdre de vue ?
+    Quand on s'est retrouvés, qu'on s'est réchauffés
+    Pourquoi se séparer ?
+  \endverse
+
+  \beginverse*
+    Alors tous deux, on est r'partis
     Dans le tourbillon de la vie
     On a continué à tourner
     Tous les deux enlacés \rep{2}
-  \endchorus
+  \endverse
 
 \endsong

@@ -14,54 +14,13 @@
   \gtab{E}{022100}
 
   \beginchorus
-    \[A]C'était toujours \[Dm]la même \[G7]
-    Mais on l'aimait \[C]quand même
-    \[F]La fugue d'au\[B&]trefois
-    Qu'on jou\[Am]ait tous \[E]les \[Am]trois
-
-    On était malhabile
-    Elle était difficile
-    La fugue d'autrefois
-    Qu'on jouait tous les trois
+    \[A]{C'était} tou\[Dm]jours la même \[G7]
+    Mais on l'ai\[C]mait quand même
+    \[F]La fugue \[B&]{d'autrefois}
+    Qu'on \[Am]jouait \[E]tous les \[Am]trois
   \endchorus
 
-  \beginverse
-    \[A]Eléonore attaquait \[Dm]le thème au piano\[G7]
-    On trouvait\[C] ça tell'ment \[F]beau
-    Qu'on en \[B&]oubliait de \[Am]jouer pour l'é\[E]couter\[Am]
-
-    Elle s'arrêtait brusquement et nous regardait
-    Du haut de son tabouret
-    Et disait reprenez à fa mi fa mi ré
-  \endverse
-
   \beginchorus
-    C'était toujours la même
-    Mais on l'aimait quand même
-    La fugue d'autrefois
-    Qu'on jouait tous les trois
-
-    On était malhabile
-    Elle était difficile
-    La fugue d'autrefois
-    Qu'on jouait tous les trois
-  \endchorus
-
-  \beginverse
-    Souviens-toi qu'un violon fut jeté sur le sol
-    Car c'était toujours le sol
-    Qui gênait Nicolas quand il était bémol
-    Quand les voisins commençaient à manifester
-    C'était l'heure du goûter
-    Salut Jean-Sébastien et à jeudi prochain
-  \endverse
-
-  \beginchorus
-    C'était toujours la même
-    Mais on l'aimait quand même
-    La fugue d'autrefois
-    Qu'on jouait tous les trois
-
     On était malhabiles
     Elle était difficile
     La fugue d'autrefois
@@ -69,24 +28,39 @@
   \endchorus
 
   \beginverse
-    Un jour Eléonore a quitté la maison
-    Emportant le diapason
-    Depuis ce jour nous n'accordons plus nos violons
-    L'un après l'autre nous nous sommes dispersés
-    La fugue seule est restée
-    Et chaque fois que je l'entends c'est le printemps
+    \[A]Éléonore attaquait \[Dm]le thème au pia\[G7]no
+    On trou\[C]vait ça tellement \[F]beau
+    Qu'on en ou\[B&]bliait \[Am]de jouer pour l'\[E]écou\[Am]ter
   \endverse
 
-  \beginchorus
-    C'était toujours la même
-    Mais on l'aimait quand même
-    La fugue d'autrefois
-    Qu'on jouait tous les trois
+  \beginverse*
+    Elle s'arrêtait brusquement et nous regardait
+    Du haut de son tabouret
+    Et disait : {\og}Reprenez à \emph{fa mi fa mi ré}{\fg}
+  \endverse
 
-    On était malhabile
-    Elle était difficile
-    La fugue d'autrefois
-    Qu'on jouait tous les \[A]trois
-  \endchorus
+  \beginverse
+    Souviens-toi qu'un violon fut jeté sur le sol
+    Car c'était toujours le sol
+    Qui gênait Nicolas quand il était bémol
+  \endverse
+
+  \beginverse*
+    Quand les voisins commençaient à manifester
+    C'était l'heure du goûter
+    Salut Jean-Sébastien et à jeudi prochain
+  \endverse
+
+  \beginverse
+    Un jour Éléonore a quitté la maison
+    Emportant le diapason
+    Depuis ce jour, nous n'accordons plus nos violons
+  \endverse
+
+  \beginverse*
+    L'un après l'autre, nous nous sommes dispersés
+    La fugue seule est restée
+    Mais chaque fois que je l'entends, c'est le printemps
+  \endverse
 
 \endsong

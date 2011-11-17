@@ -14,16 +14,9 @@ rm -rf perso/ ;
 rm -rf data/ ;
 rm -rf .git/ ;
 rm -f .gitignore ;
-rm -f crep.sgl ;
-rm -f chords.tex ;
-rm -f lilypond/*.ps ;
-rm -f lilypond/*.pdf ;
 rm -f utils/send.sh ;
-rm -f utils/release.sh ;
-rm -f utils/tarball.sh ;
-rm -f tmp* 
+rm -f books/tmp.sb books/default.sb
 rm -f default*
-rm -f *.pdf 
 
 #Clean tmp files
 find . -name "*~" -type f -exec rm -f {} \; && find . -name "#*#" -type f -exec rm -f {} \;

@@ -26,8 +26,8 @@ word_dic = {
 "Ca ": "Ça ",
 "\\musicnote{Intro": "\\musicnote{intro",
 "\\musicnote{Outro": "\\musicnote{outro",
-"...": "\\dots ",
-"…": "\\dots",
+"...": "{\\dots}",
+"…": "{\\dots}",
 #replace tabs with two spaces
 "	": "  ",
 ##: Typo

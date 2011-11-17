@@ -1,0 +1,54 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Talkin' about the revolution}
+  [by=Tracy Chapman,cov=collection,album=Collection]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{Cadd9}{032030}
+  \gtab{Em}{022000}
+  \gtab{Dsus4}{X00233}
+  \gtab{D}{XX0232}
+
+  \beginchorus
+    D\[G]on't you \[Cadd9]know
+    \[Em]They're talkin' about\[Dsus4]a revolu\[G]tion
+    It\[Cadd9]sounds \[Em]like \[D]a whisper
+    Don't you know
+    They're talkin' about a revolution
+    It sounds like a whisper
+  \endchorus
+
+  \beginverse
+    While they're standing in the welfare lines
+    Crying at the doorsteps of those armies of salvation
+    Wasting time in the unemployment lines
+    Sitting around waiting for a promotion
+  \endverse
+
+  \beginchorus
+    D\[G]on't you \[Cadd9]know
+    \[Em]They're talkin' about \[Dsus4]a revolu\[G]tion
+    It\[Cadd9]sounds \[Em]like \[D]a whisper
+    Don't you know
+    They're talkin' about a revolution
+    It sounds like a whisper
+  \endchorus
+
+  \beginverse
+    Poor people gonna rise up
+    And get their share
+    Poor people gonna rise up
+    And take what's theirs
+  \endverse
+
+  \beginchorus
+    Don't you know
+    You better run, run, run{\dots}
+    Oh I said you better
+    Run, run, run{\dots}
+    Finally the tables are starting to turn
+    Talkin' bout a revolution
+  \endchorus
+
+\endsong

@@ -1,0 +1,35 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Icebound stream}
+  [by=Laura Veirs,cov=carbon-glacier,album=Carbon glacier]
+
+  \cover
+  \gtab{C#m}{4:X02210}
+  \gtab{B}{2:X02220}
+
+  \beginverse
+    \[C#m]Watch, I can flash across the sky
+    A lightning bolt from up on \[B]high
+    And I can crash into my\[C#m]self
+  \endverse
+
+  \beginverse
+    Now, a flower blooms in reverse
+    And a song takes back a verse
+    A photograph fades to white
+  \endverse
+
+  \beginchorus
+    I can \[B]hold a thunderhead in my \[C#m]heart
+    And in my \[B]bed, I can dream a winter's \[C#m]gale
+    And wake up drenched, a stormy pale, a stormy pale
+  \endchorus
+
+  \beginverse
+    A battered \[C#m]heath on the shore
+    Will make her keep and wait for more
+    But under\[B]neath her icebound stream
+    The water \[C#m]pours, the water pours
+  \endverse
+
+\endsong

@@ -1,4 +1,4 @@
-﻿\selectlanguage{french}
+\selectlanguage{french}
 \songcolumns{2}
 \beginsong{Je ne sais rien faire}
   [by=Maxime Le Forestier,cov=mon-frere,album=Mon frère]
@@ -19,7 +19,7 @@
   \endverse
 
   \beginchorus
-    \[F]Mais je ne sais rien \[C]faire, \[C7]\[F]je fais tout de tra\[C]vers\[C7]
+    \[F]Mais je ne sais rien \[C]faire, \[C7 F]je fais tout de tra\[C]vers\[C7]
     \[E]Je se\[Am]rai tou\[F]jours de \[G]trop sur \[C]terre\[C7 C6 G]
   \endchorus
 

@@ -1,0 +1,62 @@
+﻿\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je ne sais rien faire}
+  [by=Maxime Le Forestier,cov=mon-frere,album=Mon frère]
+
+  \gtab{C}{332010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{C7}{032310}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{C6}{}
+
+  \beginverse
+    \[C]Si je savais raconter \[F]des his\[G]toires
+    \[C]Je change\[F]rais le monde \[G]tous les \[C]soirs
+    \[C]Si je savais aussi parler d'a\[G]mour
+    \[C]Je changerais de fille \[G]tous les \[C]jours \[C7]
+  \endverse
+
+  \beginchorus
+    \[F]Mais je ne sais rien \[C]faire, \[C7]\[F]je fais tout de tra\[C]vers\[C7]
+    \[E]Je se\[Am]rai tou\[F]jours de \[G]trop sur \[C]terre\[C7 C6 G]
+  \endchorus
+
+  \beginverse
+    J'ai pris l'amour, je m'en suis fait un monde
+    J'aimais les filles de plus en plus rondes
+    J'ai pris le monde, je lui ai fait l'amour
+    Mais ce salaud a fait lever le jour
+  \endverse
+
+  \beginchorus
+    Je ne sais rien faire, je fais tout de travers
+    Je serai toujours de trop sur terre
+  \endchorus
+
+  \beginverse
+    Et puis le monde n'a plus voulu de moi
+    Ça recommence comme chaque fois
+    Et puis l'amour a fait tourner le monde
+    On voit de moins en moins de filles rondes
+  \endverse
+
+  \beginchorus
+    Je ne sais rien faire, je fais tout de travers
+    Je serai toujours de trop sur terre
+  \endchorus
+
+  \beginverse
+    Si j'avais su raconter des histoires
+    J'aurais changé le monde pour un soir
+    Si j'avais su aussi parler d'amour
+    J'aurais eu toutes les filles en un jour
+  \endverse
+
+  \beginchorus
+    Mais je ne sais rien faire, je fais tout de travers
+    Je serai toujours de trop sur terre
+  \endchorus
+
+\endsong

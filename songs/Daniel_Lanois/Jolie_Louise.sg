@@ -1,60 +1,61 @@
-﻿\selectlanguage{french}
+\selectlanguage{french}
 \songcolumns{2}
 \beginsong{Jolie Louise}
     [by=Daniel Lanois,cov=jolie-louise,album=Jolie Louise]
 
+  \cover
   \gtab{F}{1:022100}
-  \gtab{lam}{X02210}
+  \gtab{Am}{X02210}
   \gtab{G}{320003}
   \gtab{G7}{320001}
   \gtab{C}{332010}
 
   \beginverse
-    \[C]Ma jolie, how do you do ?
+    Ma jolie, how do you \[C]do ?
     Mon nom est \[G7]Jean Guy Thibault Le\[C]roux
     I come from east of Gati\[C]neau
     My name is \[G7]Jean Guy, ma jolie
     J'ai une mai\[G]son à Lafon\[G7]taine
     Where we can \[C]live, if you marry me
     Une belle mai\[G]son à Lafon\[G7]taine
-    where we wil \[lam]live, you and \[F]me
-    Oh, Oh Lou\[C]ise, Oh \[F]oh Oh \[C]Oh Ma \[G7]jolie Lou\[C]ise
+    Where we wil \[Am]live, you and \[F]me
+    Oh, oh Lou\[C]ise, oh \[F]oh oh \[C]oh, ma \[G7]jolie Lou\[C]ise
   \endverse
 
   \beginverse
-    Tous les matins au so\[C]leil
-    I will \[G7]work 'till work is \[C]done
-    Tous les matins au so\[C]leil
-    I did \[G7]work 'till work was \[C]done
-    And one \[G]day the fore\[G7]man
-    said : "Jean \[C]Guy, we must let you go"
-    Et puis mon \[G]nom y est pas \[G7]bon
-    At the \[lam]mill any\[F]more{\dots}
-    Oh, Oh Lou\[C]ise, I'm \[F]loosing my \[C]head, I'm \[G7]loosing my \[C]head
+    Tous les matins au soleil
+    I will work 'till work is done
+    Tous les matins au soleil
+    I did work 'till work was done
+    And one day the foreman
+    Said : {\og}Jean Guy, we must let you go{\fg}
+    Et puis mon nom y est pas bon
+    At the mill anymore{\dots}
+    Oh, oh Louise, I'm loosing my head, I'm loosing my head
   \endverse
 
   \beginverse
-    My Kids are small, four and \[C]three
-    Et la bou\[G7]teille, she's mon a\[C]mie
-    I drink the rhum 'till I can't \[C]see
-    It hides the \[G7]shame Louise doesn't \[C]see
-    A carrou\[G]ssel turns in my head\[G7]
-    And I can't \[C]hide,Non non non non
-    And the \[G]rage turned in my \[G7]head
-    And Lou\[lam]ise, I stroke her \[F]down
-    Down on the \[C]ground, I'm \[F]loosing my \[C]mind, I'm \[G7]loosing my \[C]mind
+    My kids are small, four and three
+    Et la bouteille, she's mon amie
+    I drink the rhum 'till I can't see
+    It hides the shame Louise doesn't see
+    A carroussel turns in my head
+    And I can't hide, non non non non
+    And the rage turned in my head
+    And Louise, I stroke her down
+    Down on the ground, I'm loosing my mind, I'm loosing my mind
   \endverse
 
   \beginverse
-    En septembre soixante \[C]trois
-    Kids are \[G7]gone, So is Lou\[C]ise
-    Ontario did they \[C]go
-    Near la \[G7]ville de Toron\[C]to
-    Now my \[G]tears they roll \[G7]down
-    Tous les \[C]jours, mmm
-    And I re\[G]member the \[G7]days
-    And the \[lam]promises that we \[F]made
-    Oh, Oh Lou\[C]ise, Ma \[F]jolie Lou\[C]ise Ma \[G7]jolie Lou\[C]ise
+    En septembre soixante-trois
+    Kids are gone, so is Louise
+    Ontario did they go
+    Near la ville de Toronto
+    Now my tears, they roll down
+    Tous les jours, mmm
+    And I remember the days
+    And the promises that we made
+    Oh, oh Louise, ma jolie Louise, ma jolie Louise
   \endverse
 
 \endsong

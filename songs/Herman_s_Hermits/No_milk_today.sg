@@ -1,0 +1,59 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{No milk today}
+  [by=Herman's Hermits,cov=original-hits,album=Original hits]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{E7}{020100}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+
+  \beginverse
+    \[Am]No milk today, my \[C]love has gone away
+    The \[E7]bottle stands for \[Am]lorn, a \[E7]symbol of the \[Am]dawn
+  \endverse
+
+  \beginverse
+    No milk today, it seems a common sight
+    But people passing by don't know the reason why
+  \endverse
+
+  \beginchorus
+    \[A]How could they know just \[G]what this message means
+    The \[D]end of my hopes, the \[D]end of \[E7]all my \[A]dreams
+  \endchorus
+
+  \beginchorus
+    How could they know the palace there had been
+    Behind the door where my love reigned as queen
+  \endchorus
+
+  \beginverse
+    No milk today, it wasn't always so
+    The company was gay, we turned night into day
+  \endverse
+
+  \begin{bridge}
+    \[A]But all that's \[E]left is a \[D]place dark and \[E]lonely
+    \[A]A terraced \[E]house in a \[D]meanstreet back of \[F#m]town
+
+    \[A]Becomes a \[E]shrine when I \[D]think of you \[E]only
+    \[D]Just two up two \[E]down
+  \end{bridge}
+
+  \beginverse
+    No milk today, it wasn't always so
+    The company was gay, we turned night into day
+  \endverse
+
+  \begin{bridge}
+    As music played the faster did we dance
+    We felt it both at once, the start of our romance
+  \end{bridge}
+
+\endsong

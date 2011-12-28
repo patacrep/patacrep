@@ -1,0 +1,111 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La lettre}
+  [by=Renan Luce,cov=repenti,album=Repenti]
+
+  \cover
+  \capo{1}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Em]\[C]\[Em]} \rep{2}}
+  \endverse
+
+  \beginverse
+    \[Em]j'ai reçu une lettre
+    \[C]il y a un mois peut être
+    \[Am]arrivée par erreur
+    \[Em]maladresse du facteur
+    \[Em]aspergée de parfum
+    \[C]rouge à lèvre carmin
+    \[Am]j'aurais du cette lettre
+    \[Em]ne pas l'ouvrir peut être
+  \endverse
+
+  \beginchorus
+    \[C]mais moi je suis un homme
+    \[Em]qui aime bien ce genre de jeu
+    \[C](je) veux bien qu'elle me nomme
+    \[Am]Alphonse ou \[D]Fred c'est comme \[C]elle veut
+    \[C] \[Em]c'est comme elle veut\[C]\[Em]
+  \endchorus
+
+  \beginverse
+    des jolies marguerites
+    sur le haut de ses "i"
+    des courbes manuscrites
+    comme dans les abbayes
+    quelques fautes d'orthographe
+    une légère dyslexie
+    et en guise de paraphe
+    "ta petite blonde sexy"
+  \endverse
+
+  \beginchorus
+    et moi je suis un homme
+    qui aime bien ce genre de jeu
+    (je) n'aime pas les nonnes
+    et j'en suis tombé amoureux
+    amoureux
+  \endchorus
+
+  \beginverse
+    elle écrit que dimanche
+    elle s'ra sur la falaise
+    ou j'l'ai prise par les hanches
+    et que dans l'hypothèse
+    ou j'n'aurais pas le tact
+    d'assumer mes ébats
+    elle choisira l'impact
+    trente mètres plus bas
+  \endverse
+
+  \beginchorus
+    et moi je suis un homme
+    qui aime bien ce genre d'enjeu
+    (je) n'veux pas qu'elle s'assomme
+    car j'en suis tombé amoureux
+    amoureux
+  \endchorus
+
+  \beginverse
+    grâce au cachet d'la poste
+    d'une ville sur la manche
+    j'étais a l'avant poste
+    au matin du dimanche
+    l'endroit était désert
+    il faudra être patient
+    des blondes suicidaires
+    il n'y en a pas cent
+  \endverse
+
+  \beginchorus
+    et moi je suis un homme
+    qui aime bien ce genre d'enjeu
+    (je) veux battre newton
+    car j'en suis tombé amoureux
+    amoureux
+  \endchorus
+
+  \beginverse
+    elle surplombait la manche
+    quand je l'ai reconnue
+    j'ai saisi par la manche
+    ma petite ingénue
+    qui ne l'était pas tant
+    qu'un petit habitant
+    lui f'sait sous le nombril
+  \endverse
+
+  \beginchorus
+    et moi je suis un homme
+    qui aime bien ce genre d'enjeu
+    (je) veux bien qu'il me nomme
+    papa s'il le veut
+    s'il le veut (Bis)
+  \endchorus
+
+\endsong

@@ -1,0 +1,81 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Forteresse}
+  [by=Michel Fugain,cov=sucre-sale,album=Sucré-Salé]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{E7}{X22130}
+  \gtab{Dm}{XX0231}
+  \gtab{Fmaj7}{XX3210}
+  \gtab{A}{X02220}
+  \gtab{Eb(dim)}{XX1212}
+  \gtab{Am/C}{X32210}
+
+  \beginverse
+    \musicnote{\Intro : \nolyrics \[Am E7 Am E7]}
+  \endverse
+
+  \beginverse
+    L'\[Am]amour est une forte\[E7]resse
+    Dont \[Am]les murs sont faits de pro\[Dm]messes
+    \[Fmaj7]C'est là que dorment les \[Eb(dim)]amants
+    Ca\[E7]chés de tout, cachés du temps
+  \endverse
+
+  \beginverse
+    Et quand leurs lèvres se rejoignent
+    C'est tout l'univers qui s'éloigne
+    Autour, le silence est parfait
+    Comme un instant d'éternité
+  \endverse
+
+  \beginchorus
+    \[Dm]Tourne le, \[E7]tourne le, \[Am]tourne le \[Am/C]temps
+    \[Fmaj7]Tout autour \[E7]des \[A]amants
+  \endchorus
+
+
+  \beginverse
+    L'amour est une forteresse
+    Dont les murs sont faits de tendresse
+    Aussi fins qu'un papier de soie
+    Mais qui ne se déchirent pas
+  \endverse
+
+  \beginverse
+    La peau et la peau qui se touchent
+    Les mots qui naissent sur la bouche
+    Disent tout bas comme un secret
+    Qu'on peut tout prendre et tout donner
+  \endverse
+
+  \beginchorus
+    Tourne le tourne le tourne le temps
+    Tout autour des \[Am]amants
+    Tourne le tourne le tourne le temps
+    Tout autour des \[Am]amants
+  \endchorus
+
+  \beginverse
+    L'amour est une forteresse
+    Qu'il faut réinventer sans cesse
+    Pour qui oublie de la rêver
+    Elle disparaît à tout jamais
+  \endverse
+
+  \beginverse
+    Si devant vous des amants passent
+    Quoiqu'ils se disent ou quoiqu'ils fassent
+    Ne vous posez pas de questions
+    L'amour a toujours ses raisons
+  \endverse
+
+  \beginchorus
+    Tourne le tourne le tourne le temps
+    Tout autour des amants
+    Tourne le tourne le tourne le temps
+    Tout autour des amants
+  \endchorus
+
+\endsong

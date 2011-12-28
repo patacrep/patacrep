@@ -40,7 +40,7 @@
     L'amour est une forteresse
     Dont les murs sont faits de tendresse
     Aussi fins qu'un papier de soie
-    Mais qui ne se déchirent pas
+    Mais qui ne se déchire pas
   \endverse
 
   \beginverse
@@ -51,10 +51,9 @@
   \endverse
 
   \beginchorus
-    Tourne le tourne le tourne le temps
+    Tourne le, tourne le, tourne le temps
     Tout autour des \[Am]amants
-    Tourne le tourne le tourne le temps
-    Tout autour des \[Am]amants
+    \rep{2}
   \endchorus
 
   \beginverse
@@ -72,10 +71,9 @@
   \endverse
 
   \beginchorus
-    Tourne le tourne le tourne le temps
+    Tourne le, tourne le, tourne le temps
     Tout autour des amants
-    Tourne le tourne le tourne le temps
-    Tout autour des amants
+    \rep{2}
   \endchorus
 
 \endsong

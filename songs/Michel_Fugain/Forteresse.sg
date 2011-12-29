@@ -4,6 +4,7 @@
   [by=Michel Fugain,cov=sucre-sale,album=Sucré-Salé]
 
   \cover
+  \capo{3}
   \gtab{Am}{X02210}
   \gtab{E7}{X22130}
   \gtab{Dm}{XX0231}
@@ -19,11 +20,11 @@
   \beginverse
     L'\[Am]amour est une forte\[E7]resse
     Dont \[Am]les murs sont faits de pro\[Dm]messes
-    \[Fmaj7]C'est là que dorment les \[Eb(dim)]amants
+    C'est \[Fmaj7]là que dorment les \[Eb(dim)]amants
     Ca\[E7]chés de tout, cachés du temps
   \endverse
 
-  \beginverse
+  \beginverse*
     Et quand leurs lèvres se rejoignent
     C'est tout l'univers qui s'éloigne
     Autour, le silence est parfait
@@ -32,9 +33,8 @@
 
   \beginchorus
     \[Dm]Tourne le, \[E7]tourne le, \[Am]tourne le \[Am/C]temps
-    \[Fmaj7]Tout autour \[E7]des \[A]amants
+    \[Fmaj7]Tout autour \[E7]des a\[Am]mants
   \endchorus
-
 
   \beginverse
     L'amour est une forteresse
@@ -43,18 +43,12 @@
     Mais qui ne se déchire pas
   \endverse
 
-  \beginverse
+  \beginverse*
     La peau et la peau qui se touchent
     Les mots qui naissent sur la bouche
     Disent tout bas comme un secret
     Qu'on peut tout prendre et tout donner
   \endverse
-
-  \beginchorus
-    Tourne le, tourne le, tourne le temps
-    Tout autour des \[Am]amants
-    \rep{2}
-  \endchorus
 
   \beginverse
     L'amour est une forteresse
@@ -63,17 +57,11 @@
     Elle disparaît à tout jamais
   \endverse
 
-  \beginverse
+  \beginverse*
     Si devant vous des amants passent
     Quoiqu'ils se disent ou quoiqu'ils fassent
     Ne vous posez pas de questions
     L'amour a toujours ses raisons
   \endverse
-
-  \beginchorus
-    Tourne le, tourne le, tourne le temps
-    Tout autour des amants
-    \rep{2}
-  \endchorus
 
 \endsong

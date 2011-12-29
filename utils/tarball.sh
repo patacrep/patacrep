@@ -19,7 +19,7 @@ rm -f books/tmp.sb books/default.sb
 rm -f default*
 
 #Clean tmp files
-find . -name "*~" -type f -exec rm -f {} \; && find . -name "#*#" -type f -exec rm -f {} \;
+find . -name "*~" -or -name "#*#" -type f -exec rm -f {} \; 
 make cleanall
 
 #Tarball

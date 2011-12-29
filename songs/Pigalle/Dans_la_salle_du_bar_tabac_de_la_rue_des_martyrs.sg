@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{2}
+\songcolumns{1}
 \beginsong{Dans la salle du bar-tabac de la rue des martyrs}
   [by=Pigalle,cov=regards-affliges,album=Regards affligés sur la morne et pitoyable existence de Benjamin Trembley personnage falot mais ô combien attachant]
 
@@ -52,14 +52,6 @@
     Les petites cuillères servent que rarement pour le café
   \endverse
 
-  \beginchorus
-    Ici, chacun doucement oublie l'ombre d'une vie passée
-    D'une femme de décombres
-    Dans ce cliché funèbre, on cherche l'oubli d'un parfum d'une voix
-    On éteint l'impact encore brûlant de lèvres entr'ouvertes
-    Humides et douces
-  \endchorus
-
   \beginverse
     Dans la salle du bar-tabac de la rue des martyrs
     Y'a des vieux gars tatoués partout qui racontent leurs souvenirs
@@ -72,11 +64,6 @@
     On peut tout acheter, tout vendre, le meilleur et le pire
     Une vieille clocharde, la gueule défoncée
     Rentre avec sa poussette et se met à gueuler : {\og}À boire{\fg}
-  \endverse
-
-  \beginverse
-    Dans la salle du bar-tabac de la rue des martyrs
-    Dans la salle du bar-tabac de la rue des martyrs (Ad Lib.)
   \endverse
 
 \endsong

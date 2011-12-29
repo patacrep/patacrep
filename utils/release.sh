@@ -49,7 +49,7 @@ fi;
 #echo "emacs batch indentation done !"
 ./utils/rules.py 
 ./utils/typo.sh ./songs/*/*.sg 
-./utils/resize-cover.sh 
+./utils/resize-cover.py 
 
 #build all songbooks
 rm -f *.d 

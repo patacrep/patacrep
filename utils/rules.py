@@ -24,6 +24,9 @@ word_dic = {
 "\\musicnote{Outro": "\\musicnote{outro",
 "...": "{\\dots}",
 "…": "{\\dots}",
+"say: ``":"say, ``",
+"says: ``":"says, ``",
+"said: ``":"said, ``",
 #replace tabs with two spaces
 "	": "  ",
 ##: Typo

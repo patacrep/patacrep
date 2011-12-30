@@ -1,0 +1,78 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Nous, les vedettes}
+  [by=Oldelaf et Monsieur~D.,cov=derniere-chance-d-etre-disque-d-or,album=Dernière chance d'être disque d'or]
+
+  \cover
+  \capo{1}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
+  \gtab{Em}{022000}
+
+  \beginverse
+    \[G]Nous, les vedettes
+    On est \[C]tous comme des \[D]frères
+    On ha\[G]bite tous ensemble
+    Dans une mai\[C]son et c'est su\[D]per
+  \endverse
+
+  \beginverse*
+    Sauf que \[Am]moi
+    On m'a \[C]pas filé l'a\[G]dresse, ni la \[D]clef
+    Mais bon \[Am]là
+    J'attends \[C]le coup de fil d'un \[G]gars qui doit m'appe\[D]ler
+  \endverse
+
+  \beginverse
+    Nous, les vedettes
+    On connaît Michel Drucker
+    On l'appelle par son prénom : {\og}Michel{\fg}
+    Et ça rend nos mamans fières
+  \endverse
+
+  \beginverse*
+    Sauf que moi
+    Il se souvient pas du mien ou pas complet
+    Mais c'est sûr
+    Il va m'inviter chez lui pour s'excuser
+  \endverse
+
+  \beginverse
+    Nous, les vedettes
+    On a tous, cela va de soi
+    La peau nette
+    Car on met de la crème au jojoba
+  \endverse
+
+  \beginverse*
+    Sauf que moi
+    Je dév'loppe une allergie hyper rare
+    Au jojoba
+    Les télés sont compréhensives, elles m'invitent pas
+  \endverse
+
+  \beginchorus
+    \[B7]Et le jour où moi aus\[Em]si
+    J'aurai la peau jo\[B7]lie
+    On pourra faire la \[C]fête
+    Nous, \[D]les ve\[G]dettes
+  \endchorus
+
+  \beginverse
+    Nous, les vedettes
+    Un peu moches mais sympas
+    Tous les flics nous connaissent
+    On roule à fond mais ils bronchent pas
+  \endverse
+
+  \beginverse*
+    Sauf que moi
+    Je dois pas avoir une tête qu'ils retiennent
+    Ça me désole
+    Car du coup, je retourne à l'auto-école
+  \endverse
+
+\endsong

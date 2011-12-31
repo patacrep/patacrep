@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Long is the road}
+  [by=Jean-Jacques Goldman,cov=singulier,album=Singulier]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{2:022100}
+  \gtab{C}{X32010}
+  \gtab{Gm}{3:022000}
+  \gtab{A}{5:022100}
+
+  \beginverse
+    Au-de\[B&]là de nos \[F]vents, passée \[C]notre fron\[Dm]tière \[B& F C Dm]
+    Dans ces \[B&]pays so\[F]leil de \[C]sable et de \[Dm]pierre \[B& F C Dm]
+    Là où \[B&]malgré les \[F]croix et mal\[C]gré les pri\[Dm]ères \[B& F C Dm]
+    Les dieux \[B&]ont oubli\[F]é ces \[C]maudites \[Dm]terres \[B& F C Dm]
+  \endverse
+
+  \beginverse
+    Dans sa pauvre valise, ses maigres affaires
+    Une histoire banale d'homme et de misère
+    Il tient dans sa chemise ses ultimes richesses
+    Ses deux bras courageux, sa rude jeunesse
+  \endverse
+
+  \beginverse
+    Et tout contre sa peau, comme un trésor inca
+    Son nom sur un visa pour les USA
+  \endverse
+
+  \beginchorus
+    But long \[C]is the \[Dm]road
+    Hard is the \[G]way
+    Heavy my \[B&]load
+    But deep is my \[Gm]faith \[A]
+    Long is the \[Dm]road
+  \endchorus
+
+  \beginverse
+    Sur des highway sixty-one, l'ombre d'un Zimmerman
+    Dix trains de losers pour un Rockfeller
+    Brûler sa peau pour être un Battling Joe
+    Quand chaque espoir se décline en dollards
+  \endverse
+
+  \beginverse
+    Jusqu'aux bannières où les stars s'affichent
+    Sous les lumières, tout est blanc, propre et riche
+    Du Jeudi Noir jusqu'au bleu de John Ford
+    Dans chaque histoire se cache un chercheur d'or
+  \endverse
+
+\endsong

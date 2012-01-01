@@ -1,0 +1,46 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{La gare de Caen}
+  [by=Les Ogres de Barback,cov=un-air-deux-familles,album=Un air deux familles]
+
+  \cover
+  \gtab{Dm}{5:X02210}
+  \gtab{A}{5:022100}
+  \gtab{B&}{6:022100}
+  \gtab{F}{8:X02220}
+  \gtab{C}{8:022100}
+
+  \beginverse
+    Les p'tits \[Dm]gars de la gare de Caen ont des ci\[A]catrices plein la gueule
+    Ils regardent passer l'temps en s'essa\[Dm]yant des regards méchants
+    Ils ne \[B&]prendront pas ce train pour St \[F]Lazare ou bien Rennes
+    Il reste\[A]ront goûter la bière à \emph{La Consigne}
+  \endverse
+
+  \beginverse
+    Les p'tits gars d' la gare de Caen s'en foutent pas mal des passants
+    Ou alors c'est pour un franc, dix balles, un ticket restaurant
+    L'amour n'est pas représentant, alors ils tournent, ils tournent en rond
+    Ils remercient Le Floch-Prigent pour leur cour de récréation
+  \endverse
+
+  \beginverse
+    Les p'tits gars de la gare de Caen se raccrochent en médisant
+    Ni à un Dieu, ni à un maître mais à leur ami à quatre pattes
+    Symbole d'une génération, reprennent en cœur \emph{Mort aux cons}
+    \emph{Société tu m'auras pas}, anarchie à la mode de Caen
+  \endverse
+
+  \beginchorus
+    Tout \[B&]ça pour donner rai\[F]son aux bons vieux dictons des fran\[C]gins
+    Pas de flics, pas d'ar\[A]mée, pas de curés, no future
+  \endchorus
+
+  \beginverse
+    Leurs regards de temps en temps croisent celui des jolies filles
+    Ainsi pour un instant, ils se disent que c'est pas facile
+    De séduire quand on a plus d'dents alors ils remontent leurs cols
+    Mais leurs visages attendris n'enlèvent pas l'odeur d'moisi
+  \endverse
+
+\endsong

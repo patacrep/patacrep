@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Aragon et Castille}
+  [by=Boby Lapointe,cov=l-integrale,album=L'intégrale]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+
+  \beginchorus
+    Au pa\[C]ys daga d'Aragon
+    Il y'av\[G7]ait tugud' une fille
+    Qui aimait les glaces au citron et va\[C]nille
+    Au pa\[C]ys degue de Castille
+    Il y'av\[G7]ait tegued' un garçon
+    Qui vendait des glaces vanille et ci\[C]tron
+  \endchorus
+
+  \beginverse
+    Moi j'aime \[C]mieux les glaces au \[G7]chocolat
+    \echo{Poil au bras}
+    Mais chez mon \[G7]pâtissier, il n'y \[C]en a plus
+    \echo{C'est vendu}
+    C'est pourquoi je n'en ai pas \[G7]pris
+    \echo{Tant pis pour lui}
+    Et j'ai mangé pour tout dess\[C]ert
+    \echo{Du camembert}
+    Le camembert c'est bon quand \[G7]c'est bien fait
+    \echo{Vive l'amour}
+    À ce propos, revenons à nos moutons
+  \endverse
+
+  \beginverse
+    Vendre des glaces c'est un très beau métier
+    \echo{Poil aux pieds}
+    C'est beaucoup mieux que marchand de mouron
+    \echo{Patapon}
+    Marchand d'mouron, c'est pas marrant
+    \echo{J'ai un parent}
+    Qui en vendait pour les oiseaux
+    \echo{Mais les oiseaux}
+    N'en achetaient pas, ils préféraient l'crottin
+    \echo{De mouton}
+    À ce propos, revenons à nos agneaux
+  \endverse
+
+  \beginverse
+    Mais la Castille, ça n'est pas l'Aragon
+    \echo{Ah mais non}
+    Et l'Aragon ça n'est pas la Castille
+    \echo{Et la fille}
+    S'est passée de glace au citron
+    \echo{Avec vanille}
+    Et le garçon n'a rien vendu
+    \echo{Tout a fondu}
+    Dans un commerce, c'est moche quand le fond fond
+    \echo{Poil au pieds}
+    À propos d'pieds, chantons jusqu'à demain
+  \endverse
+
+\endsong

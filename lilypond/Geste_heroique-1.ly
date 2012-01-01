@@ -1,20 +1,20 @@
 \include "header"
-\paper{paper-height = 5.7\cm}
+\paper{paper-height = 4.4\cm}
 
 
 musique = 
 {
   \parallelMusic #'(voiceA voiceB voiceC voiceD) 
   {
-      \repeat volta 2 {g'2  g'4  f' g'  a' bes'2 bes'4 d''   c'' bes' bes' a' bes'2} |
-      \repeat volta 2 {d'2  d'4  c' d'  f' f'2   f'4   f'    e'  f'   g'   f' f'2  } |
-      \repeat volta 2 {bes2 bes4 a  bes c' d'2   d'4   bes   g   d'   c'   c' d'2  } |
-      \repeat volta 2 {g2   g4   d  g   f  bes,2 bes,4 bes,  c   d    ees  f  bes,2} |
+      \repeat volta 2 {a'2  a'4  g' a'  b' c''2  c''4  e''   d''  c''  c''  b' c''2 } |
+      \repeat volta 2 {e'2  e'4  d' e'  g' g'2   g'4   g'    fis' g'   a'   g' g'2  } |
+      \repeat volta 2 {c'2  c'4  b  c'  d' e'2   e'4   c'    a    e'   d'   d' e'2  } |
+      \repeat volta 2 {a2   a4   e  a   g  c2    c4    c     d    e    f    g  c2   } |
     
-      \repeat volta 2 {bes'2 a'4 a' g'  g'   fis'2 fis' e'8 fis' g'4  g' fis' g'2} |
-      \repeat volta 2 {f'2   f'4 f' d'  ees' d'2   d'   c'4      d'4  d' d'   b2 } |
-      \repeat volta 2 {d'2   c'4 d' bes c'   a2    bes  g4       bes4 a  a    g2 } |
-      \repeat volta 2 {bes2  f4  d  g   c    d2    bes, c4       g,4  d  d    g,2} |
+      \repeat volta 2 {c''2  b'4 b' a'  a'   gis'2 gis' fis'8 gis' a'4  a' gis' a'2   } |
+      \repeat volta 2 {g'2   g'4 g' e'  f'   e'2   e'   d'4        e'4  e' e'   cis'2 } |
+      \repeat volta 2 {e'2   d'4 e' c'  d'   b2    c'   a4         c'4  b  b    a2    } |
+      \repeat volta 2 {c'2   g4  e  a   d    e2    c    d4         a,4  e  e    a,2   } |
     }
 }
 \score 
@@ -23,19 +23,15 @@ musique =
   << 
     \musique
     \new Staff
-    <<
-      \key g \minor
-      \voiceA \\
-      \voiceB
-    >>
+    {
+      \key a \minor
+      << \voiceA \\ \voiceB >>
+    }
     \new Staff 
     {
-      \key g \minor
+      \key a \minor
       \clef bass
-      <<
-	\voiceC \\
-	\voiceD
-      >>
+      << \voiceC \\ \voiceD >>
     }
   >>
 }

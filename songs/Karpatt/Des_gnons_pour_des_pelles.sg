@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Des gnons pour des pelles}
-  [by=Karpatt,cov=dans-le-cailloux,album=Dans le cailloux]
+  [by=Karpatt,cov=dans-le-caillou,album=Dans le caillou]
 
 
   \cover
@@ -35,7 +35,7 @@
   \beginverse
     Le soleil tombait, il fallait rentrer à notre village
     Tous deux le sourire accroché, la tête dans les nuages
-    La route montait aussi surement que notre tristesse
+    La route montait aussi sûrement que notre tristesse
     En nous éloignant, loin de nos princesses
   \endverse
 

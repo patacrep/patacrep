@@ -8,6 +8,7 @@ import glob
 import re
 import json
 import locale
+import sortindex
 
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
@@ -95,7 +96,8 @@ def makeTexFile(sb, output):
     # output songslist
     if songs == "all":
         songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
-        songs = sorted(songs, cmp=locale.strcoll)
+
+    songs.sort(key=sortindex.sortkey)
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(songs)))
     out.write('\\makeatother\n')
@@ -111,12 +113,13 @@ def makeTexFile(sb, output):
 def makeDepend(sb, output):
     name = output[:-2]
 
-    dependsPattern = re.compile(r"^[^%]*(?:include|input)\{(.*?)\}")
+    #dependsPattern = re.compile(r"^[^%]*(?:include|input)\{(.*?)\}")
     indexPattern = re.compile(r"^[^%]*\\(?:newauthor|new)index\{.*\}\{(.*?)\}")
     lilypondPattern = re.compile(r"^[^%]*\\(?:lilypond)\{(.*?)\}")
 
     # check for deps (in sb data)
-    deps = matchRegexp(dependsPattern, [ v for v in sb.itervalues() if type(v) is not list ])
+    #deps = matchRegexp(dependsPattern, [ v for v in sb.itervalues() if type(v) is not list ])
+    deps = [];
     if sb["songs"] == "all":
         deps += glob.glob('songs/*/*.sg')
     else:
@@ -151,6 +154,7 @@ def usage():
     print "No usage information yet."
 
 def main():
+    locale.setlocale(locale.LC_ALL, '') # set script locale to match user's
     try:
         opts, args = getopt.getopt(sys.argv[1:], 
                                    "hs:o:d", 

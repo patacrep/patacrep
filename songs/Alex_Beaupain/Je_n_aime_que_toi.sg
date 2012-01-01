@@ -11,7 +11,9 @@
   \gtab{Bm}{2:X02210}
   \gtab{F#7}{2:020100}
 
-  \musicnote{intro : D F{\shrp}m Em A \rep{2}}
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[D F{\shrp}m Em A]} \rep{2}}
+  \endverse
 
   \beginverse
     \[D]Petit salaud, ton \[F#m]jeu est clair

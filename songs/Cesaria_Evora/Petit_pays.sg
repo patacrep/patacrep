@@ -24,7 +24,7 @@
     Tem batuco tem funaná
   \endverse
 
-  \beginverse
+  \beginverse*
     Espaiote nesse munde fora
     Sô rotcha e mar
     Terra pobre chei di amor
@@ -44,8 +44,9 @@
   \beginchorus
     Petit pays
     Je t'aime beaucoup
-    Petit petit
+    Petit, petit
     Je l'aime beaucoup
+    \rep{2}
   \endchorus
 
 \endsong

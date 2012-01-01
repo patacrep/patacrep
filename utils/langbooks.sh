@@ -10,13 +10,19 @@ then
     exit 1
 fi;
 
+GREP="$GREP_OPTIONS"
+export GREP_OPTIONS=""
+
 LANG=$1
+BOOKS_DIR="books/"
 
 if [ $LANG="english" -o $LANG="french" ];
 then
-    cp "./utils/header-$LANG" "$LANG.sb"
-    grep "selectlanguage{$LANG}" songs/*/*.sg | sed 's|songs/\(.*\):.*|    \"\1\",|; $ s|,$|\n  ]\n}\n|' >> "$LANG.sb"
+    cp "./utils/header-$LANG" "$BOOKS_DIR$LANG.sb"
+    grep "selectlanguage{$LANG}" songs/*/*.sg | sed 's|songs/\(.*\):.*|    \"\1\",|; $ s|,$|\n  ]\n}\n|' >> "$BOOKS_DIR$LANG.sb"
 else
     echo "Error: $LANG is not a supported language"
     exit 2
 fi;
+
+export GREP_OPTIONS="$GREP"

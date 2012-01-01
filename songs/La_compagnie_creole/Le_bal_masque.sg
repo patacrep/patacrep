@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le bal masqué}
+  [by=La compagnie créole,cov=le-bal-masque,album=Le bal masqué]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{X02220}
+  \gtab{E7}{020100}
+  \gtab{D}{XX0232}
+
+  \beginverse*
+    \[Bm]Décalecatan, décalecatan, \[A]ohé \echo{ohé} \rep{4}
+  \endverse
+
+  \beginchorus
+    Au \[Bm]bal, au bal mas\[A]qué \echo{ohé, ohé !}
+    Elle \[Bm]danse, elle danse, elle danse au bal mas\[A]qué
+    Elle ne \[Bm]peut pas s'arrê\[A]ter \echo{ohé, ohé !}
+    De dan\[Bm]ser, danser, danser au bal masqué
+  \endchorus
+
+  \beginchorus
+    Au bal, au bal masqué \echo{ohé, ohé !}
+    Au bal, au bal, au bal, au bal masqué
+    Elle ne peut pas s'arrêter \echo{ohé, ohé !}
+    De danser, danser, danser, danser, dan\[E7]ser
+  \endchorus
+
+  \beginverse
+    \[A]Pendant toute l'année, on pré\[E7]pare les costumes
+    \[A]Dracula, Ca\[E7]sanova
+    \[A]{C'est} un vrai plaisir de res\[E7]pecter les coutumes
+    \[A]Cendrillon \echo{Cendrillon}, Na\[E7]poléon \echo{Napoléon}
+  \endverse
+
+  \beginchorus
+    Aujourd'\[A7]hui, je fais ce qui me \[D]plaît \echo{me plaît}
+    Devi\[E7]nez, devinez, devinez qui je \[A]suis
+    Derrière mon \[A7]loup, je fais ce qui me \[D]plaît \echo{me plaît}
+    Aujourd'\[A7]hui \echo{aujourd'hui} tout est permis \echo{tout est permis} \rep{2}
+  \endchorus
+
+
+  \beginverse
+    C'est l'occasion rêvée de changer de partenaire
+    Superman \echo{Superman}, Spiderman \echo{Spiderman}
+    On peut s'envoler en gardant les pieds sur terre
+    Joséphine \echo{Joséphine}, Colombine {Colombine}
+  \endverse
+
+  \beginverse
+    Joséphine \echo{Joséphine}, Dracula \echo{Dracula}
+    D'Artagnan \echo{D'Artagnan}, Cendrillon \echo{Cendrillon}
+    Jules César \echo{Jules César}, Arlequin \echo{Arlequin}
+    Superman \echo{Superman}, Colombine \echo{Colombine}
+    Napoléon \echo{Napoléon}, Bécassine \echo{Bécassine}
+    Casanova \echo{Casanova}, Maryline \echo{Maryline}
+  \endverse
+
+\endsong

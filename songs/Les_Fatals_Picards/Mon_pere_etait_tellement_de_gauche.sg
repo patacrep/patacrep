@@ -1,0 +1,144 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Mon père était tellement de gauche}
+  [by=Les Fatals Picards,cov=pamplemousse-mecanique,album=Pamplemousse mécanique]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+
+  \beginverse*
+    \musicnote{\Pattern 1 : \nolyrics{\[Am Em Bm F C]}}
+  \endverse
+
+  \beginverse
+    \[Am] On ne choisit pas son en\[Em]fance
+    On m'a pas laissé être droi\[Bm]tier
+    Mon père m'emmenait jamais au \[F]square
+    Mais aux réunions de comi\[C]té
+  \endverse
+
+  \beginchorus
+    \[C] Mon père était tellement de \[E]gauche
+    Qu'on habitait rue Jean Jau\[Am]rès
+    En face du square Maurice Tho\[F]rez
+    Avant d'aller vivre à Mont\[C]rouge
+    \nolyrics{\[E Am F]}
+  \endchorus
+
+  \beginverse*
+    \musicnote{\Pattern 2 : \nolyrics{\[C E Am F Am]}}
+  \endverse
+
+  \beginverse
+    \[C] On a été en U.R.S.S. l'hi\[E]ver
+    Les pays de l'Est, c'est mieux l'hi\[Am]ver
+    On voit bien mieux les bâti\[F]ments
+    Les nuances de gris, ça flashe sur le \[Am]blanc
+  \endverse
+
+  \beginverse*
+    \musicnote{\Pattern 1 : \nolyrics{\[Am Em Bm F C]}}
+  \endverse
+
+  \beginverse*
+    Devant la statue de Lenine
+    Pour nous c'était le grand frisson
+    Moins 24, c'était pas terrible
+    Et les chapkas étaient en option
+  \endverse
+
+  \beginchorus
+    Mon père était tellement de gauche
+    Que quand est tombé le mur de Berlin
+    Il est parti chez Casto
+    Pour acheter des parpaings
+  \endchorus
+
+  \beginverse*
+    \musicnote{\Pattern 2 : \nolyrics{\[C E Am F Am]}}
+  \endverse
+
+  \beginverse
+    On mangeait des Lenin's burger
+    Fallait vraiment faire attention
+    Il y avait du chou, une pomme de terre
+    La viande, elle était en option
+  \endverse
+
+  \beginverse*
+    \musicnote{\Pattern 2 : \nolyrics{\[C E Am F Am]}}
+  \endverse
+
+  \beginverse*
+    On achetait du coca Kolkose
+    Approuvé par le comité
+    Ça devait soigner la silicose
+    On s'en servait pour désherber
+  \endverse
+
+  \beginverse*
+    \musicnote{\Pattern 1 : \nolyrics{\[Am Em Bm F C]}}
+  \endverse
+
+  \beginverse*
+    On regardait pas la contrebande
+    On regardait pas la corruption
+    La Sibérie c'était Disneyland
+    Le discernement en option
+  \endverse
+
+  \beginchorus
+    Mon père était tellement de gauche
+    Qu'à son mariage dans l'église
+    On chantait l'internationale
+    Les femmes portaient des faux cils
+  \endchorus
+
+  \beginchorus
+    Mon père était tellement de gauche
+    Qu'on a eu tout plein d'accidents
+    Il refusait la priorité
+    À droite, systématiquement
+  \endchorus
+
+  \beginverse*
+    \musicnote{\Pattern 2 : \nolyrics{\[C E Am F Am]}}
+  \endverse
+
+  \beginverse
+    Les copains se foutaient de moi tout le temps
+    Car à l'école au premier rang
+    J'avais les lunettes de Brejnev
+    Et le dentier d'un Tupolev
+  \endverse
+
+  \beginchorus
+    Mon père était tellement de gauche
+    Qu'en 81 il croyait que ça changerait
+    Je sais pas quelle tête il aurait fait
+    En 2002 en allant voter
+  \endchorus
+
+  \beginverse*
+    \musicnote{\Pattern 1 : \nolyrics{\[Am Em Bm F C]}}
+  \endverse
+
+  \beginverse
+    Et même si tout ce que je raconte
+    N'est pas tout à fait vrai
+    Le socialisme comme paradis
+    Nous on y croyait
+  \endverse
+
+  \beginchorus
+    Mon père était tellement de gauche
+    Que lorsqu'il est parti
+    La gauche est partie avec lui
+  \endchorus
+
+\endsong

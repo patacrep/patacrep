@@ -1,0 +1,60 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Cannonball}
+  [by=Damien Rice,cov=o,album=O]
+
+  \cover
+  \gtab{B&m}{1:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{C#}{4:X02220}
+  \gtab{G#}{4:022100}
+  \gtab{D#m7}{6:X02010}
+
+  \beginverse
+    \[B&m] Still a little \[F#]bit of your \[C#]taste in \[G#]my mouth
+    \[B&m] Still a little \[F#]bit of you \[C#]laced with \[G#]my doubt
+    \[B&m] Still a little \[F#]hard to say \[C#] \[G#]
+    What's \[D#m7]going on \[G#]
+  \endverse
+
+  \beginverse
+    Still a little bit of your ghost, your witness
+    Still a little bit of your face I haven't kissed
+    You step a little closer each day
+    and I can't say what's going on
+  \endverse
+
+  \beginchorus
+    \[C#]Stones \[F#]taught me to \[G#]fly
+    \[C#]Love \[F#]taught me to \[G#]lie
+    \[C#]Life \[F#]taught me to \[G#]die
+    So it's not \[D#m7]hard to fall
+    When you \[F#]float like a \[G#]cannon\[B&m]ball
+  \endchorus
+
+  \beginverse
+    Still a little bit of your song in my ear
+    Still a little bit of your words I long to hear
+    You step a little closer to me
+    So close that I can't see what's going on
+  \endverse
+
+  \beginchorus
+    Stones taught me to fly
+    Love taught me to cry
+    So come on courage, teach me to be shy
+    'Cause it's not hard to fall
+    And I don't want to scare her
+  \endchorus
+
+  \beginchorus
+    It's not hard to fall
+    And I don't wanna lose
+  \endchorus
+
+  \beginchorus
+    It's not hard to grow
+    When you know that you just don't know
+  \endchorus
+
+\endsong

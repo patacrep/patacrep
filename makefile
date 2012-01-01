@@ -15,8 +15,9 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #
 
-SONGBOOKS := $(wildcard *.sb)
-TARGETS = $(SONGBOOKS:%.sb=%)
+BOOKS_DIR=books/
+SONGBOOKS := $(wildcard $(BOOKS_DIR)/*.sb)
+TARGETS = $(SONGBOOKS:$(BOOKS_DIR)/%.sb=%)
 
 PDF = $(TARGETS:%=%.pdf)
 
@@ -58,7 +59,9 @@ clean:
 	@rm -f $(TARGETS:%=%.d)   $(TARGETS:%=%.tex) $(TARGETS:%=%.aux) \
 	       $(TARGETS:%=%.toc) $(TARGETS:%=%.out) $(TARGETS:%=%.log) \
 	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm)
-	@rm -f *.sbx *.sxd
+	@rm -f *.sbx *.sxd *.sxc
+	@rm -f lilypond/*.ps
+	@rm -f *.pyc
 
 cleanall: clean
 	@rm -f $(PDF)
@@ -77,15 +80,14 @@ $(PDF): %.pdf: %.tex %.aux
 %.sbx: %.sxd
 	$(MAKE_INDEX) $< > $@
 
-%.tex: %.sb
+%.tex: $(BOOKS_DIR)/%.sb
 	$(MAKE_SONGBOOK) -s $< -o $@
 
-%.d: %.sb
+%.d: $(BOOKS_DIR)/%.sb
 	$(MAKE_SONGBOOK) -s $< -d -o $@
 
 %.pdf: %.ly
 	@$(LILYPOND) --output=$(@:%.pdf=%) $<
-	@rm $(@:%.pdf=%.ps)
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@

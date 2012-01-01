@@ -10,7 +10,8 @@
   \gtab{G}{320003}
 
 
-  \textnote{parlé}
+  \textnote[english]{spoken}
+  \textnote[french]{parlé}
   \beginverse*
     {\og}Et dis donc, tu voudrais bien m'prêter ton épée, j'ai perdu ma hache ?
     --- J'voudrais bien mais elle est beaucoup trop précieuse regarde !
@@ -44,10 +45,10 @@
     Ne partez pas à l'aventure sans votre épée Durandil
   \endverse
 
-  \image[width=4cm]{naheulbeuk06}
+  \image[width=4cm]{nb_dwarf_02}
 
 \endsong
 
 \beginscripture{Encyclopédie Naheulbeuk}
-Quoi de mieux qu'une épée Durandil ? Ben \dots deux épées Durandil
+  Quoi de mieux qu'une épée Durandil ? Ben \dots deux épées Durandil.%
 \endscripture

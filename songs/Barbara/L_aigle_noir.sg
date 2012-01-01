@@ -4,60 +4,69 @@
   [by=Barbara,cov=l-aigle-noir,album=L'aigle noir]
 
   \cover
-  \gtab{C}{X32010}
-  \gtab{G}{320003}
-  \gtab{Dm}{XX0231}
-  \gtab{A}{X02220}
   \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Gm}{3:022000}
+  \gtab{D}{XX0232}
   \gtab{B&}{1:X02220}
+  \gtab{E&}{6:X02220}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{B}{2:X02220}
+  \gtab{C#m}{4:X02210}
+  \gtab{G#}{4:022100}
 
   \beginverse
-    \[C]Un beau jour ou peut-être \[G]une nuit
-    \[Dm]Près d'un lac, je m'étais \[A]endormie
-    \[F]Quand soudain, semblant cre\[C]ver le ciel
-    Et venant \[B&]de nulle part
-    Surgit un \[A]aigle noir
+    \[F]Un beau jour ou peut-être \[C]une nuit
+    \[Gm]Près d'un lac, je m'étais \[D]endormie
+    \[B&]Quand soudain, semblant cre\[F]ver le ciel
+    Et venant \[E&]de nulle part
+    Surgit un \[D]aigle noir
   \endverse
 
   \beginverse
-    Lentement, les ailes déployées
-    Lentement, je le vis tournoyer
-    Près de moi, dans un bruissement d'aile
-    Comme tombé du ciel
-    L'oiseau vint se poser
+    \[G]Lentement, les ailes \[D]déployées
+    \[Am]Lentement, je le vis \[E]tournoyer
+    \[C]Près de moi, dans un brui\[G]ssement d'ailes
+    Comme tom\[F]bé du ciel
+    L'oiseau vint \[E]se poser
   \endverse
 
   \beginverse
-    Il avait les yeux couleur rubis
-    Et les plumes aux couleurs de la nuit
-    À son front, brillant de mille feux
-    L'oiseau roi couronné
-    Portait un diamant bleu
+    \[A]Il avait les yeux cou\[E]leur rubis
+    \[Bm]Et des plumes aux couleurs \[F#]de la nuit
+    \[D]À son front, brillant de \[A]mille feux
+    L'oiseau roi \[G]couronné
+    Portait un \[F#]diamant bleu
   \endverse
 
   \beginverse
-    De son bec, il a touché ma joue
-    Dans ma main, il a glissé son cou
-    C'est alors que je l'ai reconnu
-    Surgissant du passé
-    Il m'était revenu
+    \[B]De son bec, il a tou\[F#]ché ma joue
+    \[C#m]Dans ma main, il a gli\[G#]ssé son cou
+    \[E]{C'est} alors que je l'ai \[B]reconnu
+    Surgissant \[A]du passé
+    Il m'était \[G#]revenu
   \endverse
 
   \beginverse
-    Dis l'oiseau, oh dis, emmène-moi
-    Retournons au pays d'autrefois
-    Comme avant dans mes rêves d'enfant
-    Pour cueillir en tremblant
-    Des étoiles, des étoiles
+    \[A]Dis l'oiseau, oh dis, em\[E]mène-moi
+    \[Bm]Retournons au pays \[F#]{d'autrefois}
+    \[D]Comme avant dans mes rê\[A]ves d'enfant
+    Pour cueillir \[G]en tremblant
+    Des étoiles, \[F#]des étoiles
   \endverse
 
 
   \beginverse
-    Comme avant, dans mes rêves d'enfant
-    Comme avant, sur un nuage blanc
-    Comme avant, allumer le soleil
-    Être faiseur de pluie
-    Et faire des merveilles
+    \[B]Comme avant, dans mes rê\[F#]ves d'enfant
+    \[C#m]Comme avant, sur un nu\[G#]age blanc
+    \[E]Comme avant, allumer \[B]le soleil
+    Être fai\[A]seur de pluie
+    Et faire \[G#]des merveilles
   \endverse
 
 \endsong

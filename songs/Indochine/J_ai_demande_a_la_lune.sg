@@ -24,7 +24,7 @@
   \beginverse*
     Et comme le \[A]ciel n'a\[E]vait pas fière a\[F#m]llure
     \[A]Et que je \[E]ne guérissais \[F#m]pas
-    \[Bm]Je me suis dit quelle infor\[F#m]tune
+    \[Bm]Je me suis dit : {\og}Quelle infor\[F#m]tune{\fg}
     \[C#m]Et la Lune s'est moquée de \[E]moi
   \endverse
 
@@ -49,18 +49,6 @@
     \[C]Et le meilleur me fait sou\[G]ffrir
   \endchorus
 
-  \beginverse
-    J'ai demandé à la Lune
-    Si tu voulais encore de moi
-    Elle m'a dit : {\og}J'ai pas l'habitude
-    De m'occuper des cas comme ça{\fg}
-  \endverse
-
-  \beginverse*
-    Et toi et moi on était tellement sûrs
-    Et on se disait quelques fois
-    Que c'était juste une aventure
-    Et que ça ne durerait pas
-  \endverse
+  \textnote{Repeat verse 2}
 
 \endsong

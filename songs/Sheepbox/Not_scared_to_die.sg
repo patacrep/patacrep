@@ -15,7 +15,9 @@
   \gtab{C}{X32010}
   \gtab{E7}{020100}
 
-  \musicnote{intro: C{\shrp}m Em Bm A $\times 2$}
+  \beginverse*
+    \musicnote{\Intro: \nolyrics{\[C{\shrp}m Em Bm A]} \rep{2}}
+  \endverse
 
   \beginverse
     \[C#m]{I let you} drive\[Em]{\dots{}} \[Bm]{Just for} a while\[A]
@@ -35,7 +37,7 @@
     Someone like me\dots{} Just want to be free
   \endverse
 
-  \musicnote{chorus}
+  \musicnote{\Chorus}
 
   \beginchorus
     \[E]Dying \[G]{is not} \[D]happy\[A]{!}
@@ -57,7 +59,5 @@
     Spending some time\dots{} Before the next ride
     Enjoying my life\dots{} Before I die!
   \endverse
-
-  \musicnote{chorus $\times 2$, chorus$^2$ $\times 2$}
 
 \endsong

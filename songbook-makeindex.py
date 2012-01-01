@@ -13,8 +13,9 @@ import sys
 import os.path
 import glob
 import re
-import locale
 from optparse import OptionParser
+import sortindex
+import locale
 
 # Pattern set to ignore latex command in title prefix
 keywordPattern = re.compile(r"^%(\w+)\s?(\w*)")
@@ -60,7 +61,7 @@ class index:
 
     def idxBlockToStr(self, letter, entries):
         str = '\\begin{idxblock}{'+letter+'}'+'\n'
-        for key in sorted(entries.keys(), cmp=locale.strcoll):
+        for key in sorted(entries.keys(), key=sortindex.sortkey):
             str += self.entryToStr(key, entries[key])
         str += '\\end{idxblock}'+'\n'
         return str
@@ -99,6 +100,7 @@ def usage(exitCode=None):
     sys.exit(exitCode)
 
 def main():
+    locale.setlocale(locale.LC_ALL, '')
     usage = "usage: %prog [options] FILE"
     parser = OptionParser(usage)
     parser.add_option("-o", "--output", dest="filename",

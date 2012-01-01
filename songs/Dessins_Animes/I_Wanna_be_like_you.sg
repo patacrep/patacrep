@@ -39,8 +39,8 @@
     \[D7]Human \[G]too \[B7]
   \endchorus
 
-  \textnote{parlé}
-
+  \textnote[english]{spoken}
+  \textnote[french]{parlé}
   \beginverse*
     ``Gee, cousin Louie
     You're doin' real good!

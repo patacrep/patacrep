@@ -54,7 +54,8 @@
   \endverse
 
   \beginverse*
-    \textnote{parlé}
+    \textnote[english]{spoken}
+    \textnote[french]{parlé}
     Émilie est allée caresser le hérisson
   \endverse
 

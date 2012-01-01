@@ -1,5 +1,6 @@
 {
 "template" : "patacrep.tmpl",
+"lang" : "french",
 "subtitle" : "chanson francaise",
 "bookoptions" : [
     "diagram",

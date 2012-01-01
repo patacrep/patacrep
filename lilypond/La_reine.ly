@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 8.4\cm}
+\paper{paper-height = 7\cm}
 
 
 {

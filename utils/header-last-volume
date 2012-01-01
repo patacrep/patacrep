@@ -1,0 +1,13 @@
+{
+"template" : "patacrep.tmpl",
+"lang" : "french",
+"bookoptions" : [
+    "diagram",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"picture" : "music_by_lauratheartist",
+"picturecopyright" : "LauraTheArtist @ deviantart.com",
+"subtitle" : "Tome 4",
+"songs" : [

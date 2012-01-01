@@ -1,10 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# warning: lines beginning with ## are parsed by 
-# the songbook-client as rules categories 
-
-
 import glob
 
 # the dictionary has target_word:replacement_word pairs
@@ -26,8 +22,11 @@ word_dic = {
 "Ca ": "Ça ",
 "\\musicnote{Intro": "\\musicnote{intro",
 "\\musicnote{Outro": "\\musicnote{outro",
-"...": "\\dots ",
-"…": "\\dots",
+"...": "{\\dots}",
+"…": "{\\dots}",
+"say: ``":"say, ``",
+"says: ``":"says, ``",
+"said: ``":"said, ``",
 #replace tabs with two spaces
 "	": "  ",
 ##: Typo

@@ -1,0 +1,72 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je t'aimais, je t'aime et je t'aimerai}
+  [by=Francis Cabrel,cov=samedi-soir,album=Samedi soir sur la Terre]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Em}{022100}
+  \gtab{Am}{X02210}
+
+  \beginverse
+    Mon enfant nue sur les galets \[G]
+    Le vent dans tes cheveux défaits \[D]
+    Comme un printemps sur mon trajet \[C]
+    Un diamant tombé d'un coffret \[Em]
+  \endverse
+
+  \beginverse*
+    Seule la lumière pourrait
+    Défaire nos repaires secrets
+    Où mes doigts pris sur tes poignets
+    Je t'aimais, je t'aime, je t'aimerai
+  \endverse
+
+
+  \beginchorus
+    \[C] Mais quoi que tu fasses
+    \[Am] L'amour est partout où tu re\[D]gardes
+    Dans les moindres recoins de l'es\[C]pace
+    \[Am] Dans le moindre rêve où tu t'at\[D]tardes
+    L'amour comme s'il en pleuvait \[C]
+    Nu sur les galets \[Em]
+  \endchorus
+
+
+  \beginverse
+    Le ciel prétend qu'il te connaît
+    Il est si beau, c'est sûrement vrai
+    Lui qui ne s'approche jamais
+    Je l'ai vu pris dans tes filets
+  \endverse
+
+  \beginverse*
+    Le monde a tellement de regrets
+    Tellement de choses qu'on promet
+    Une seule pour laquelle je suis fait
+    Je t'aimais, je t'aime et je t'aimerai
+  \endverse
+
+  \beginverse
+    On s'envolera du même quai
+    Les yeux dans les mêmes reflets
+    Pour cette vie et celle d'après
+    Tu seras mon unique projet
+  \endverse
+
+  \beginverse*
+    Je m'en irai poser tes portraits
+    À tous les plafonds de tous les palais
+    Sur tous les murs que je trouverai
+    Et juste en dessous j'écrirai
+  \endverse
+
+  \beginverse*
+    Que seule la lumière pourrait
+    Où mes doigts pris sur tes poignets
+    Je t'aimais, je t'aime, je t'aimerai
+  \endverse
+
+\endsong

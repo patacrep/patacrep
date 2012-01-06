@@ -1,0 +1,68 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'encre de tes yeux}
+  [by=Francis Cabrel,cov=Fragile,album=Fragile]
+
+  \cover
+  \capo{4}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{C7}{X32013}
+  \gtab{Dm11}{XX0011}
+  \gtab{Am}{X02010}
+
+  \beginchorus
+    \musicnote{\Intro :\nolyrics{\[C G Am Am F C G G C G Am]}}
+  \endchorus
+
+  \beginverse
+    \[C]Puisqu'on ne vivra \[G]jamais \[Am]tous les deux
+    Puisqu'\[F]on est fou, puisqu'\[C]on est seul
+    Puisqu'\[G]ils sont si nombreux
+    \[C]Même la mo\[G]rale parle \[Am]pour eux
+    \[F]J'aimerais quand même te \[C]dire
+    Tout ce que j'ai pu é\[G]crire
+    Je l'ai puisé à l'encre \[F]de tes yeux \[C7 Dm11 C Am7]
+  \endverse
+
+  \beginverse
+    Je n'avais pas vu que tu portais des chaînes
+    À trop vouloir te regarder
+    J'en oubliais les miennes
+    On rêvait de Venise et de liberté
+    J'aimerais quand même te dire
+    Tout ce que j'ai pu écrire
+    C'est ton sourire qui me l'a dicté
+  \endverse
+
+  \beginchorus
+    \musicnote{\Solo guitare :}
+    \nolyrics{\[C G Am Am F C G G]}
+    \nolyrics{\[C G Am Am F F C C]}
+    \nolyrics{\[G G F F C7 Dm11 C Am7]}
+  \endchorus
+
+  \beginverse
+    Tu viendras longtemps marcher dans mes rêves
+    Tu viendras toujours du côté
+    Où le soleil se lève
+    Et si malgré ça, j'arrive à t'oublier
+    J'aimerais quand même te dire
+    Tout ce que j'ai pu écrire
+    Aura longtemps le parfum des regrets
+  \endverse
+
+  \beginverse
+    Mais puisqu'on ne vivra jamais tous les deux
+    Puisqu'on est fou, puisqu'on est seul
+    Puisqu'ils sont si nombreux
+    Même la morale parle pour eux
+    J'aimerais quand même te dire
+    Tout ce que j'ai pu écrire
+    Je l'ai puisé à l'encre de tes yeux
+  \endverse
+
+\endsong

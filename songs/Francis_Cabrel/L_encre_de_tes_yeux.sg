@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'encre de tes yeux}
-  [by=Francis Cabrel,cov=Fragile,album=Fragile]
+  [by=Francis Cabrel,cov=fragile,album=Fragile]
 
   \cover
   \capo{4}
@@ -15,7 +15,7 @@
   \gtab{Am}{X02010}
 
   \beginchorus
-    \musicnote{\Intro :\nolyrics{\[C G Am Am F C G G C G Am]}}
+    \musicnote{\Intro : \nolyrics{\[C G Am Am F C G G C G Am]}}
   \endchorus
 
   \beginverse
@@ -39,7 +39,7 @@
   \endverse
 
   \beginchorus
-    \musicnote{\Solo guitare :}
+    \musicnote{\Solo}
     \nolyrics{\[C G Am Am F C G G]}
     \nolyrics{\[C G Am Am F F C C]}
     \nolyrics{\[G G F F C7 Dm11 C Am7]}

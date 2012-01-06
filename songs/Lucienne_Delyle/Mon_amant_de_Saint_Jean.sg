@@ -1,6 +1,6 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Mon amant de Saint Jean}
+\beginsong{Mon amant de Saint-Jean}
   [by=Lucienne Delyle,cov=mon-amant]
 
   \cover
@@ -11,21 +11,25 @@
   \gtab{G}{320003}
 
   \beginverse
-    \[Em]Je ne sais pourquoi j'allais danser
-    A Saint-\[Am]Jean au mus\[Em]ette
-    Mais quand un gars m'a pris un \[Am]baiser
-    J'ai frisso\[B7]nné, j'étais chi\[Em]pée
+    Je ne \[Em]sais pourquoi j'allais danser
+    À Saint-\[Am]Jean, au mus\[Em]ette
+    Mais il m'a suffit d'un seul bai\[Am]ser
+    Pour que mon \[B7]cœur soit prison\[Em]nier
   \endverse
 
   \beginchorus
-    \[Em]Comment ne pas perdre la tête
-    Serrée \[Am]par des bras auda\[Em]cieux
-    Car\[Am] l'on croit toujours
+    Com\[Em]ment ne pas perdre la tête
+    Serrée \[Am]par des bras auda\[Em]cieux ?
+    Car \[Am]{l'on} croit toujours
     Aux \[Em]doux mots d'amour
-    Quand ils \[Am]sont dits avec les \[B7]yeux
+    Quand \[Am]ils sont dits avec les \[B7]yeux
+  \endchorus
+
+  \beginchorus
     \[Em]Moi qui l'aimais tant
     Je le trou\[Am]vais le plus \[D]beau de Saint-\[G]Jean
-    \[Am]Je restais \[Em]grisée Sans volonté \[B7]Sous ses bai\[Em]sers
+    \[Am]Je restais gri\[Em]sée
+    Sans volon\[B7]té, sous ses bai\[Em]sers
   \endchorus
 
   \beginverse
@@ -34,17 +38,6 @@
     Beau parleur chaque fois qu'il mentait
     Je le savais, mais je l'aimais
   \endverse
-
-  \beginchorus
-    Comment ne pas perdre la tête
-    Serrée par des bras audacieux
-    Car l'on croit toujours
-    Aux doux mots d'amour
-    Quand ils sont dits avec les yeux
-    Moi qui l'aimais tant
-    Je le trouvais le plus beau de Saint-Jean
-    Je restais grisée Sans volonté Sous ses baisers
-  \endchorus
 
   \beginverse
     Mais hélas, à Saint-Jean comme ailleurs
@@ -59,9 +52,13 @@
     Car l'on croit toujours
     Aux doux mots d'amour
     Quand ils sont dits avec les yeux
+  \endchorus
+
+  \beginchorus
     Moi qui l'aimais tant
     Mon bel amour, mon amant de Saint-Jean
-    Il ne m'aime plus C'est du passé N'en parlons plus
+    Il ne m'aime plus
+    C'est du passé, n'en parlons plus
   \endchorus
 
 \endsong

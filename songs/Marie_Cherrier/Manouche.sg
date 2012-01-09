@@ -1,0 +1,102 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Manouche}
+  [by=Marie Cherrier,cov=ni-vue-ni-connue,album=Ni vue ni connue]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{E7}{020100}
+
+  \beginverse
+    J'ai ren\[Am]contré ce gavroche
+    Dans les \[Em]rues de ma \[Am]ville
+    C'est pas \[Am]original
+    Mais ca \[Em]lui va pas \[Am]mal
+  \endverse
+
+  \beginverse*
+    Y a des histoires plus moches
+    Y en a qu'ont plus de style
+    Y a pas vraiment de morale
+    Y a du bien, y a pas d'mal
+  \endverse
+
+
+  \beginchorus
+    Mille et \[C]une tendresses
+    Pour ce \[G]{p'tit} homme de chemin
+    Mille et \[Am]une caresses
+    Pour ce \[E7]{p'tit} trois fois \[Am]rien
+  \endchorus
+
+  \beginchorus
+    N'en demandait pas plus
+    Pour combler son chagrin
+    Dans sa vie de noctambus
+    Y avait pas de matins
+  \endchorus
+
+
+  \beginverse
+    J'l'ai appelé Manouche
+    Lui m'appelait son destin
+    Entre nous pas de manies
+    Demain ça sera fini
+  \endverse
+
+  \beginverse*
+    L'était un peu farouche
+    Mais il avait de l'or dans les mains
+    En l'espace d'une nuit
+    J'ai visité sa vie
+  \endverse
+
+
+  \beginverse
+    Avant de s'endormir
+    M'a dit ça sera plus pareil
+    Mes pérégrinages
+    Seront désormais plus gais
+  \endverse
+
+  \beginverse*
+    Il croyait pas si bien dire
+    Puisqu'a son réveil
+    J'avais fait mes bagages
+    Avec lui je partais
+  \endverse
+
+
+  \beginverse
+    Nos baloches sur les routes
+    Nous avancions à deux
+    Ma gratte et son existence
+    Pour unique fortune
+  \endverse
+
+  \beginverse*
+    Le cœur à la déroute
+    Nous étions amoureux
+    Nous allions vers Byzance
+    Décrocher la Lune
+  \endverse
+
+
+  \beginchorus
+    Mille et une tendresses
+    Pour ce p'tit homme de chemin
+    Mille et une caresses
+    Pour ce p'tit trois fois rien
+  \endchorus
+
+  \beginchorus
+    J'en demandais pas plus
+    Nous avancions sereins
+    Avec lui et ses puces
+    Je ne regrette rien \rep{3}
+  \endchorus
+
+\endsong

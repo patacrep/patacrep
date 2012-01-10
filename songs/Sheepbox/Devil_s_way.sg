@@ -4,11 +4,11 @@
   [by=Sheepbox,cov=sheepbox,album=Sheepbox]
 
   % verse: 1.&.2.&.3.&.4.&
-  %         D   D  UD
-  %         Em    Asus2
+  % D D UD
+  % Em Asus2
   % chorus: 1.&.2.&.3.&.4.&
-  %          D   D D\dots
-  %          Em   G
+  % D D D\dots
+  % Em G
 
   \cover
   \capo{9}

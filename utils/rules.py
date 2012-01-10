@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import glob
+import sys
+import fileinput
+import re
+re.LOCALE
 
 # the dictionary has target_word:replacement_word pairs
 word_dic = {
@@ -110,10 +114,55 @@ word_dic = {
 songfiles = glob.glob('songs/*/*.sg')
 for filename in songfiles:
    with open(filename, 'r+') as songfile:
+
        data = songfile.read()
+#replace words
        for search, replace in word_dic.items():
              data = data.replace(search, replace)
+
+#no dots for acronyms
+#       data = re.sub("(?P<capital_letter>[A-Z])\.","\g<capital_letter>", data)
+
+#language based typographical rules
+       if (re.compile("selectlanguage{french}").search(data)):
+          #ensure non-breaking spaces before symbols ? ! ; :
+          data = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:])","\g<last_char> \g<symbol>", data)
+          # ... except for gtabs macros with capos
+          data = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", data)
+# and apply a second time for cases like \gtab{Gm}{10:X02210:}
+          data = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", data)
+          #ensure no spaces after symbols (
+          data = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
+          #convert inverted commas
+          data = re.sub("``","{\\og}", data)
+          data = re.sub("''","{\\\\fg}", data)
+       elif (re.compile("selectlanguage{english}").search(data)):
+          #print "english song"
+          #ensure no spaces before symbols ? ! ; : )
+          data = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
+          #ensure no spaces after symbols (
+          data = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
+       elif (re.compile("selectlanguage{spanish}").search(data)):
+          #print "spanish song"
+          #ensure no spaces before symbols ? ! ; : )
+          data = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
+          #ensure no spaces after symbols ¿ ¡ (
+          data = re.sub("(?P<symbol>[¿¡\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
+       elif (re.compile("selectlanguage{portuguese}").search(data)):
+          #convert inverted commas
+          data = re.sub("``","{\\og}", data)
+          data = re.sub("''","{\\\\fg}", data)         
+       else :
+          print "Warning: language is not defined for song : " + filename
+         
        songfile.seek(0)
        songfile.write(data)
        songfile.truncate()
-
+       
+for i, line in enumerate(fileinput.input(songfiles, inplace = 1)):
+#remove trailing spaces and punctuation
+   line = line.rstrip().rstrip(',.;').rstrip()
+#remove multi-spaces within lines
+   line = re.sub("(?P<last_char>\S)\s{2,}","\g<last_char> ", line)
+#write correct line
+   sys.stdout.write(line+'\n')

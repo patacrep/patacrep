@@ -48,7 +48,6 @@ fi;
 #./utils/indent.sh 2> /dev/null 
 #echo "emacs batch indentation done !"
 ./utils/rules.py 
-./utils/typo.sh ./songs/*/*.sg 
 ./utils/resize-cover.py 
 
 #build all songbooks

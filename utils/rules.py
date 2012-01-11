@@ -126,6 +126,7 @@ OPTIONS
 
     -l, --log=LEVEL
       set the logging level to LEVEL
+      outputs logging information to rules.log
       possible LEVEL values are : debug, info, warning, error and critical
 '''
 
@@ -229,7 +230,7 @@ def main():
 
    for filename in songfiles:
       with open(filename, 'r+') as songfile:
-
+         logging.info("checking file: "+filename)
          data = songfile.read()
          #no dots for acronyms
          #data = re.sub("(?P<capital_letter>[A-Z])\.","\g<capital_letter>", data)

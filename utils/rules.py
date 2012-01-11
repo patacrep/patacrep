@@ -154,15 +154,17 @@ for filename in songfiles:
           data = re.sub("''","{\\\\fg}", data)         
        else :
           print "Warning: language is not defined for song : " + filename
-         
+
+       lines = data.split('\n')
+       for index, line in enumerate(lines):
+          #remove trailing spaces and punctuation
+          line = line.rstrip().rstrip(',.;').rstrip()
+          #remove multi-spaces within lines
+          line = re.sub("(?P<last_char>\S)\s{2,}","\g<last_char> ", line)
+          lines[index] = line
+
+       data = "\n".join(lines)
        songfile.seek(0)
        songfile.write(data)
        songfile.truncate()
-       
-for i, line in enumerate(fileinput.input(songfiles, inplace = 1)):
-#remove trailing spaces and punctuation
-   line = line.rstrip().rstrip(',.;').rstrip()
-#remove multi-spaces within lines
-   line = re.sub("(?P<last_char>\S)\s{2,}","\g<last_char> ", line)
-#write correct line
-   sys.stdout.write(line+'\n')
+      

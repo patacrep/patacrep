@@ -139,13 +139,13 @@ for filename in songfiles:
        elif (re.compile("selectlanguage{english}").search(data)):
           #print "english song"
           #ensure no spaces before symbols ? ! ; : )
-          data = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
+          data = re.sub("(?P<last_char>\S)\s(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
           #ensure no spaces after symbols (
           data = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
        elif (re.compile("selectlanguage{spanish}").search(data)):
           #print "spanish song"
           #ensure no spaces before symbols ? ! ; : )
-          data = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
+          data = re.sub("(?P<last_char>\S)\s(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
           #ensure no spaces after symbols ¿ ¡ (
           data = re.sub("(?P<symbol>[¿¡\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
        elif (re.compile("selectlanguage{portuguese}").search(data)):

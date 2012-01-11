@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import glob
-import sys
-import fileinput
+import getopt, sys
 import re
+import logging
+import locale
 re.LOCALE
 
 # the dictionary has target_word:replacement_word pairs
@@ -109,62 +110,136 @@ word_dic = {
 "021202": "X21202",
 ### end of rules
 }
- 
-# Process song files
-songfiles = glob.glob('songs/*/*.sg')
-for filename in songfiles:
-   with open(filename, 'r+') as songfile:
 
-       data = songfile.read()
-#replace words
-       for search, replace in word_dic.items():
-             data = data.replace(search, replace)
 
-#no dots for acronyms
-#       data = re.sub("(?P<capital_letter>[A-Z])\.","\g<capital_letter>", data)
+def usage():
+   print '''
+Usage: rules.py [OPTION]
+
+OPTIONS
+    -h, --help
+      display this help and exit
+
+    -f, --files=FILES
+      apply the set of rules on FILES
+      default is songs/*/*.sg
+
+    -l, --log=LEVEL
+      set the logging level to LEVEL
+      possible LEVEL values are : debug, info, warning, error and critical
+'''
+
+def replace_words(string):
+   '''
+   Search the data string for words defined in the dictionary and
+   replace them. This method avoids usual spelling and typos mistakes
+   when writing a song.
+   '''
+   logging.info("replace_words: search and replace words from dictionary into song data")
+   for search, replace in word_dic.items():
+      string = string.replace(search, replace)
+   return string
 
 #language based typographical rules
-       if (re.compile("selectlanguage{french}").search(data)):
-          #ensure non-breaking spaces before symbols ? ! ; :
-          data = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:])","\g<last_char> \g<symbol>", data)
-          # ... except for gtabs macros with capos
-          data = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", data)
-# and apply a second time for cases like \gtab{Gm}{10:X02210:}
-          data = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", data)
-          #ensure no spaces after symbols (
-          data = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
-          #convert inverted commas
-          data = re.sub("``","{\\og}", data)
-          data = re.sub("''","{\\\\fg}", data)
-       elif (re.compile("selectlanguage{english}").search(data)):
-          #print "english song"
-          #ensure no spaces before symbols ? ! ; : )
-          data = re.sub("(?P<last_char>\S)\s(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
-          #ensure no spaces after symbols (
-          data = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
-       elif (re.compile("selectlanguage{spanish}").search(data)):
-          #print "spanish song"
-          #ensure no spaces before symbols ? ! ; : )
-          data = re.sub("(?P<last_char>\S)\s(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", data)
-          #ensure no spaces after symbols ¿ ¡ (
-          data = re.sub("(?P<symbol>[¿¡\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", data)
-       elif (re.compile("selectlanguage{portuguese}").search(data)):
-          #convert inverted commas
-          data = re.sub("``","{\\og}", data)
-          data = re.sub("''","{\\\\fg}", data)         
-       else :
-          print "Warning: language is not defined for song : " + filename
+def language_rules(string):
+   '''
+   Search the data string for common typographical mistakes.
+   Implemented rules depend on the current song language that is
+   defined by babel for every .sg file through the macro
+   \selectlanguage{<lang>}
+   '''
+   logging.info("language_rules: looking for common typographical mistakes")
+   if (re.compile("selectlanguage{french}").search(string)):
+      logging.info("  song language is set to : french")
+      #ensure non-breaking spaces before symbols ? ! ; :
+      string = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:])","\g<last_char> \g<symbol>", string)
+      #... except for gtabs macros with capos
+      string = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", string)
+      #and apply a second time for cases like \gtab{Gm}{10:X02210:}
+      string = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", string)
+      #ensure no spaces after symbols (
+      string = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", string)
+      #convert inverted commas
+      string = re.sub("``","{\\og}", string)
+      string = re.sub("''","{\\\\fg}", string)
+   elif (re.compile("selectlanguage{english}").search(string)):
+      logging.info("  song language is set to : english")
+      #ensure no spaces before symbols ? ! ; : )
+      string = re.sub("(?P<last_char>\S)\s(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", string)
+      #ensure no spaces after symbols (
+      string = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", string)
+   elif (re.compile("selectlanguage{spanish}").search(string)):
+      logging.info("  song language is set to : spanish")
+      #ensure no spaces before symbols ? ! ; : )
+      string = re.sub("(?P<last_char>\S)\s(?P<symbol>[!?;:\)])","\g<last_char>\g<symbol>", string)
+      #ensure no spaces after symbols ¿ ¡ (
+      string = re.sub("(?P<symbol>[¿¡\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", string)
+   elif (re.compile("selectlanguage{portuguese}").search(string)):
+      logging.info("  song language is set to : portuguese")
+      #convert inverted commas
+      string = re.sub("``","{\\og}", string)
+      string = re.sub("''","{\\\\fg}", string)
+   else :
+      print "Warning: language is not defined for song : " + filename
+   return string
 
-       lines = data.split('\n')
-       for index, line in enumerate(lines):
-          #remove trailing spaces and punctuation
-          line = line.rstrip().rstrip(',.;').rstrip()
-          #remove multi-spaces within lines
-          line = re.sub("(?P<last_char>\S)\s{2,}","\g<last_char> ", line)
-          lines[index] = line
+def process_lines(lines):
+   '''
+   Removes trailing punctuation and multi-spaces from lines.  Not
+   that it preserves whitespaces at the beginning of lines that
+   correspond to indentation.
+   '''
+   logging.info("process_lines: handling song data line by line")
+   for index, line in enumerate(lines):
+      #remove trailing spaces and punctuation
+      line = line.rstrip().rstrip(',.;').rstrip()
+      #remove multi-spaces within lines
+      line = re.sub("(?P<last_char>\S)\s{2,}","\g<last_char> ", line)
+      lines[index] = line
+   return lines
 
-       data = "\n".join(lines)
-       songfile.seek(0)
-       songfile.write(data)
-       songfile.truncate()
+
+def main():
+   locale.setlocale(locale.LC_ALL, '')
+   try:
+      opts, args = getopt.getopt(sys.argv[1:],
+                                 "hf:l:",
+                                 ["help", "files=", "log="])
+   except getopt.GetoptError:
+      usage()
+      sys.exit(2)
+
+   songfiles = glob.glob('songs/*/*.sg')
+   loglevel  = "warning"
+
+   for option, arg in opts:
+      if option in ("-h", "--help"):
+         usage()
+         sys.exit()
+      elif option in ("-f", "--files"):
+         songfiles = glob.glob(arg)
+      elif option in ("-l", "--log"):
+         loglevel = arg
+         numeric_level = getattr(logging, loglevel.upper(), None)
+         if not isinstance(numeric_level, int):
+            raise ValueError('Invalid log level: %s' % loglevel)
+         logging.basicConfig(level=numeric_level, filename='rules.log', filemode='w')
+      else:
+         assert False, "unhandled option"
+
+   for filename in songfiles:
+      with open(filename, 'r+') as songfile:
+
+         data = songfile.read()
+         #no dots for acronyms
+         #data = re.sub("(?P<capital_letter>[A-Z])\.","\g<capital_letter>", data)
+         data = replace_words(data)
+         data = language_rules(data)
+         lines = process_lines(data.split('\n'))
+         data = "\n".join(lines)
+         songfile.seek(0)
+         songfile.write(data)
+         songfile.truncate()
       
+if __name__ == '__main__':
+    main()

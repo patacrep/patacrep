@@ -1,10 +1,278 @@
-songbook (v0.?)
-
-  (lohrun) Add three new type of template parameters : color, flag and enum.
-  (lohrun) Add a diagram option to the crepbook class.
-  (crep) Use LaTeX Songs package v2.11.
-
- -- Alexandre Dupas <alexandre.dupas@gmail.com> Mon, 16 Aug 2010 23:41:45 +0200
+songbook (v0.8)
+  (various authors) Add songs
+  Alexandre Dupas:
+    Sheepbox - Not scared to die
+    Avenue Q - The internet is for porn
+    Johk - La reine de France
+    La Maison Tellier - La chambre rose
+    Lylloo - Ma soirée MSN
+    The Rolling Stones - You can't always get what you want
+    Outkast - Hey Ya
+  BeXa:
+    Alanis Morissette - Ironic
+    Alanis Morissette - Ironic
+  Benoit Gaüzère:
+    The Rolling Stones - Route 66
+    Elvis Presley - Don't be cruel
+    Eddie Vedder - Guaranteed
+    The Beautiful Girls - La Mar
+  Dominique Goffe:
+    Graeme Allwright - Le jour de clarté
+    Hugues Aufray - Alouette
+    Hugues Aufray - Hasta Luego
+    Hugues Aufray - L'épervier
+    Jeanette - Porque te vas
+    Maxime Le Forestier - Je ne sais rien faire
+    Daniel Lanois - Jolie Louise
+  Grégoire Goffe:
+    Paco Ibanez - A galopar
+  Matthias Bussonnier:
+    Alex Beaupain - Je n'aime que toi
+  Pierre Caserta:
+    Oasis - I'm outta time
+    Red Hot Chili Peppers - By the time
+    Red Hot Chili Peppers - Californication
+    Red Hot Chili Peppers - Can't stop
+    Red Hot Chili Peppers - Dani California
+    Red Hot Chili Peppers - Road trippin'
+    Red Hot Chili Peppers - Under the bridge
+    Red Hot Chili Peppers - Snow
+    Elton John - Can you fell the love tonight?
+  Pipiou:
+    Matticus - Le p'tit gars
+    Bob Marley - Redemption song
+    Christophe - Les mots bleus
+    Pep's - Liberta
+    Alain Souchon - Bidon
+    Maxime Le Forestier - L'auto-stop
+    Édith Piaf - Padam-Padam
+    Maxime Le Forestier - Entre 14 et 40 ans
+    Maxime Le Forestier - Fontenay-aux-Roses
+    Catherine Le Forestier - La petite fugue
+    Tracy Chapman - Talkin' about the revolution
+    Jeanne Moreau - Le tourbillon de la vie
+    Charles Aznavour - Mes emmerdes
+    Oldelaf et Monsieur D - Super héros
+    Pigalle - Dans la salle du bar-tabac de la rue des martyrs
+    Renan Luce - La lettre
+    Renan Luce - Monsieur Marcel
+    Michel Fugain - Forteresse
+  Romain Goffe:
+    Antsy Pants - Vampire
+    Leonard Cohen - If it be your will
+    Bob Dylan - The times they are a-changin
+    Joan Baez - Here's to you
+    Joe Dassin - Les petits pains au chocolat
+    Renaud - Chanson pour Pierrot
+    Renaud - En cloque
+    The Doors - Light my fire
+    The Rolling Stones - Paint it black
+    The Rolling Stones - Angie
+    The Rolling Stones - Ruby Tuesday
+    Simon & Garfunkel - Me and Julio down by the schoolyard
+    Georges Brassens - À l'ombre du cœur de ma mie
+    Georges Brassens - Je me suis fait tout petit
+    Yuki Kajiura - Jr
+    Crep - Kartopo
+    Crep - Mélancolie
+    Crep - Les ptits chemins
+    Bobby McFerrin - Don't worry, be happy
+    Karpatt - Lino
+    Les Amis d'ta femme - Laisse tomber, gros
+    Mon côté punk - Youssef
+    The Nightwatchman - California's dark
+    Karpatt - Fan de maman
+    Karpatt - Soulève ta jupe
+    Gipsy Kings - Baila me
+    Gipsy Kings - Bamboleo
+    Debout sur le zinc - Le tanticide
+    Gogol Bordello - Alcohol
+    Boby Lapointe - Framboise
+    Boby Lapointe - Méli-Mélodie
+    Crep - Nostalgeek
+    Les Booze Brothers - I want sex
+    Dropkick Murphys - Dirty glass
+    The Pogues - The Irish Rover
+    Crep - Encore
+    La Rue Kétanou - Les tontons
+    Les VRP - Ramon Perez
+    Mes souliers sont rouges - Cahin-Caha
+    Mes souliers sont rouges - L'arbre est dans ses feuilles
+    Mes souliers sont rouges - Sortis du bois
+    Les Ogres de Barback - L'ennui et le jour
+    Gogol Bordello - Supertheory of supereverything
+    Tri Yann - Les filles de Redon     + update cover
+    Tri Yann - Kiss the children for me Mary
+    Les Fatals Picards - Goldorak est mort
+    Charles Aznavour - Les comédiens
+    Matmatah - L'apologie
+    Philippe Lavil - Il tape sur des bambous
+    Les Ogres de Barback - Comment je suis devenu voyageur
+    Jean-Jacques Goldman - Le coureur
+    Bruce Springsteen - Old Dan Tucker
+    Renaud - La blanche
+    Renaud - Salut manouche
+    Pierre Perret - Les jolies colonies de vacances
+    The Connells - '74-'75
+    Noir Désir - L'homme pressé
+    Noir Désir - Le vent nous portera
+    La Tête à Toto - Petit bonhomme
+    La Tête à Toto - Les projets
+    Renaud - C'est quand qu'on va où ?
+    Bruce Springsteen - Mrs McGrath
+    Henri Salvador - Une chanson douce
+    Nirvana - Come as you are
+    Michel Fugain - Je n'aurai pas le temps
+    Michel Fugain - Les Acadiens
+    Bob Dylan - One more cup of coffee
+    Johnny Cash - It ain't me, babe
+    Johnny Cash - I walk the line
+    Le Donjon de Naheulbeuk - Le laridé du poulet
+    Le Donjon de Naheulbeuk - Nanana de l'elfe
+    Cat Stevens - Wild world
+    Maxime Le Forestier - Mon frère
+    Loic Lantoine - Côté punk
+    Mon côté punk - Inch-Allah
+    Pierre Perret - Au café du canal
+    Pierre Perret - Mon p'tit loup
+    La Rue Kétanou - Almarita
+    Hugues Aufray - Céline
+    Hugues Aufray - Le jour où le bateau viendra
+    Hugues Aufray - Les couleurs
+    Hugues Aufray - Stewball
+    Les Ogres de Barback - Little gentleman
+    Les hurlements d'Léo - Une danseuse
+    Les hurlements d'Léo - À bout d'souffle
+    Jacques Brel - Amsterdam
+    Jacques Brel - Ces gens-là
+    Jacques Brel - La valse à mille temps
+    Cookie Dingler - Femme libérée
+    Jacques Higelin - Poil dans la main
+    Jacques Higelin - Tombé du ciel
+    La Rue Kétanou - Personne n'a l'prénom d'ma femme
+    Les Innocents - L'autre finistère
+    Mes souliers sont rouges - Tape la galoche
+    Tit Patapons - Marchand de couleurs
+    Hervé Cristiani - Il est libre Max
+    Los Lobos - Rango theme song
+    Herman Düne - Tell me something I don't know
+    Herman Düne - Bristol
+    Herman Düne - Pure heart
+    Herman Düne - When the water gets cold
+    Herman Düne - Your name, my game
+    Elton John - Crocodile rock
+    Manau - La tribu de Dana
+    Daniel Balavoine - Vivre ou survivre
+    Vivre ou mourir
+    France Gall - Il jouait du piano debout
+    Louise Attaque - Je t'emmène au vent
+    Louise Attaque - Ton invitation
+    Crep - SNCeuFeu
+    Gérard Lenorman - La ballade des gens heureux
+    Gérard Lenorman - Si j'étais président
+    Les hurlements d'Léo - Fabulous and luxury holidays for todos in Barbados
+    Les blérots de R.A.V.E.L - Dans les gares
+    Les blérots de R.A.V.E.L - Le retour de Petrouchka
+    Les blérots de R.A.V.E.L - Les ptits plaisirs
+    Les hurlements d'Léo - Ici, d'ailleurs
+    François Corbier - Les vieux copains de la télé
+    Bob Dylan - Ballad of Hollis Brown
+    Bob Dylan - Don't think twice, it's all right
+    Emiliana Torrini - Jungle drum
+    Herman Düne - My friends kill my folks
+    Herman Düne - Be a doll and take my heart
+    Bob Dylan - Hurricane
+    Karpatt - Les vieilles
+    Cesaria Evora - Petit pays
+    Hugues Aufray - Le joueur de pipeau
+    Jean-Jacques Goldman - Il changeait la vie
+    Johnny Cash - Jackson
+    Johnny Cash - The ring of fire
+    Joe Dassin - Les Champs-Élysées
+    JCFrog - Je t'emmène dedans
+    JCFrog - La mauvaise eréputation
+    JCFrog - Russians
+    Sting - Russians
+    Elvis Presley - Love me tender
+    Traditionnel - L'homme de cromagnon
+    Jean-Jacques Goldman - Encore un matin
+    Georges Brassens - Chanson pour l'Auvergnat
+    La compagnie créole - Ça fait rire les oiseaux
+    La compagnie créole - La machine à danser
+    La compagnie créole - Le bal masqué
+    Karpatt - En pleine mer
+    Karpatt - Le déménagement
+    Les Fatals Picards - L'amour à la française
+    Les Fatals Picards - La sécurité de l'emploi
+    Joe Dassin - Ma bonne étoile
+    Julien Clerc - Travailler, c'est trop dur
+    Julien Clerc - Mélissa
+    Julien Clerc - Ce n'est rien
+    Laura Veirs - Ballad of John Vogelin
+    Laura Veirs - Jailhouse fire
+    Bob Marley - No woman, no cry
+    Laura Veirs - Black-eyed Susan
+    Téléphone - Cendrillon
+    Négresses vertes - Sous le soleil de Bodega
+    Yves Duteil - Le petit pont de bois
+    Oldelaf - Mamy blue
+    Christophe - Aline
+    Nino Ferrer - Mirza
+    Laura Veirs - Icebound stream
+    Herman's Hermits - No milk today
+    Oldelaf - Courseulles-sur-Mer
+    Oldelaf - Mon testament
+    Oldelaf - Vendredi
+    Oldelaf - Le monde est beau
+    Oldelaf et Monsieur D - Nous, les vedettes
+    Leonard Cohen - Suzanne
+    Les Fatals Picards - Mon père était tellement de gauche
+    Les Fatals Picards - Seul et célibataire
+    Damien Rice - Cannonball
+    Jean-Jacques Goldman - Long is the road
+    La crevette d'acier - Moi si un jour
+    Les Ogres de Barback - La gare de Caen
+    Boby Lapointe - Aragon et Castille
+    Francis Cabrel - Je t'aimais, je t'aime et je t'aimerai
+    Neil Young - Heart of gold
+    Green Day - Minority
+    Les Ogres de Barback - Touche pas à mon école
+    Yuki Kajiura - Vanity
+    Bruce Springsteen - John Henry
+    Gogol Bordello - Oh no
+    Dessins Animés - Boumbo
+    Dessins Animés - Denver, le dernier dinosaure
+    Dessins Animés - Dragon Ball
+    Dessins Animés - Dragon Ball Z
+    Dessins Animés - Les chevaliers du zodiaque
+    Dessins Animés - Lucky Luke
+    Dessins Animés - Sherlock Holmes
+    Debout sur le Zinc - Ma petite chérie
+    Les Cowboys Fringants - Quand tu pars
+    Gilles Servat - La blanche hermine
+    Édith Piaf - L'homme à la moto
+    Karpatt - Le fil
+    Le Donjon de Naheulbeuk - Marche barbare
+    Le Donjon de Naheulbeuk - Massacrons-nous dans la taverne
+    Maxime Le Forestier - Comme un arbre
+    Maxime Le Forestier - Le steak
+    Georges Brassens - Ballade des dames du temps jadis
+    Maxime Le Forestier - Éducation sentimentale
+    The mamas and the papas - California dream
+    Jean-Jacques Goldman - Je te donne
+    Traditionnel - V'la l'bon vent
+    Barbara - L'aigle noir
+    Les Ogres de Barback - Ma fille
+    Alain Souchon - L'amour à la machine
+    Fool's Garden - Lemon tree
+    The Innocence Mission - The lakes of Canada
+    Crep - Fichu doctorat
+    Crep - Soirée pépère
+    Crep - iScream
+    Crep - Bioman
+    Crep - Caliméro
+    Oldelaf - Michel
+    Karpatt - Histoires de famille
 
 songbook (v0.7)
 

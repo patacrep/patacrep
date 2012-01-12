@@ -1,0 +1,67 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Mon Vieux}
+  [by=Daniel Guichard,cov=mon-vieux,album=Mon vieux]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{C7}{X32310}
+  \gtab{F}{1:020100}
+  \gtab{Dm}{XX0231}
+
+  \beginverse
+    \[C]Dans son vieux pardessus \[Am]râpé, il s'en allait l'hiver, \[Em]l'été
+    Dans le petit matin fri\[F]leux, mon \[G]vieux
+    \[C]Y'avait qu'un dimanche par sem\[Am]aine, les autres jours c'était la \[Em]graine
+    Qu'il fallait ga\[F]gner comme on peut, mon \[C]vieux
+  \endverse
+
+  \beginchorus
+    \[C7]L'été on allait voir \[F7]la mer, \[Dm]tu vois, c'\[G]était pas la mi\[Em]sère
+    \[Am]C'était pas non plus l' para\[F]dis, eh \[Dm]oui, tant \[E]pis
+  \endchorus
+
+  \beginverse
+    Dans son vieux pardessus râpé, il a pris pendant des années
+    Le même autobus de banlieue, mon vieux
+    Le soir en rentrant du boulot, il s'asseyait sans dire un mot
+    Il était du genre silencieux, mon vieux
+  \endverse
+
+  \beginchorus
+    Les dimanches étaient monotones, on n'recevait jamais personne
+    Ça n'le rendait pas malheureux, je crois, mon vieux
+  \endchorus
+
+  \beginverse
+    Dans son vieux pardessus râpé, les jours de paye quand il rentrait
+    On l'entendait gueuler un peu, mon vieux
+    Nous, on connaissait la chanson, tout y passait, bourgeois, patrons
+    La gauche, la droite, même le bon Dieu, mon vieux
+  \endverse
+
+  \beginchorus
+    Chez nous y'avait pas la télé, c'était dehors qu'j'allais chercher
+    Pendant quelque temps l'évasion, je sais, c'est con
+  \endchorus
+
+  \beginverse
+    Dire que j'ai passé des années à coté de lui sans le regarder
+    On a à peine ouvert les yeux, nous deux
+    J'aurai pu, c'était pas malin, faire avec lui un bout de chemin
+    Ça l'aurai peut être rendu heureux, mon vieux
+  \endverse
+
+
+  \beginchorus
+    \[C7]Mais, quand on a juste \[F7]quinze ans, \[Dm]on n'a pas le \[G]cœur assez \[Em]grand
+    \[Am]Pour y loger toutes ces choses \[F]là, \[Dm]tu vois \[E]
+    \[C]Maintenant qu'il est loin d'ici, \[Am]en pensant à tout ça, j' me \[Em]dis
+    J'aimerai bien qu'il soit prés de moi, \[F]papa.\[G/C]
+  \endchorus
+
+\endsong

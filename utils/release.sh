@@ -47,7 +47,7 @@ fi;
 #echo "emacs batch indentation in progress ..."
 #./utils/indent.sh 2> /dev/null 
 #echo "emacs batch indentation done !"
-./utils/rules.py 
+./utils/rules.py
 ./utils/resize-cover.py 
 
 #build all songbooks
@@ -72,9 +72,11 @@ git status
 
 if [ $# -eq 1 ];
 then
-    git add templates/patacrep-en.tmpl templates/patacrep.tmpl 
+    echo -e "\nversion $MAIN.$MAJOR.$MINOR\n" | cat - NEWS > /tmp/out && mv /tmp/out NEWS
+    ./utils/new-songs-list.sh | cat - NEWS > /tmp/out && mv /tmp/out NEWS
+    git add templates/patacrep-en.tmpl templates/patacrep.tmpl NEWS
     git commit -a -m "patacrep release version $MAIN.$MAJOR.$MINOR" 
-    git tag "patacrep_$MAIN.$MAJOR.$MINOR" 
+    git tag "patacrep_$MAIN.$MAJOR.$MINOR"
 fi
 
 export GREP_OPTIONS="$GREP"

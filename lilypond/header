@@ -1,10 +1,10 @@
-\version "2.12.3"
+\version "2.14.2"
 
 \paper
 {
-  make-footer=##f
   make-header=##f
-  
+  %make-footer=##f
+  oddFooterMarkup = \markup { \fill-line {} }
   page-top-space = 0\cm
 
   head-separation = 0\cm

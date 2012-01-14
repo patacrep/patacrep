@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{Mon Vieux}
   [by=Daniel Guichard,cov=mon-vieux,album=Mon vieux]
 
@@ -14,54 +14,94 @@
   \gtab{Dm}{XX0231}
 
   \beginverse
-    \[C]Dans son vieux pardessus \[Am]râpé, il s'en allait l'hiver, \[Em]l'été
-    Dans le petit matin fri\[F]leux, mon \[G]vieux
-    \[C]Y'avait qu'un dimanche par sem\[Am]aine, les autres jours c'était la \[Em]graine
-    Qu'il fallait ga\[F]gner comme on peut, mon \[C]vieux
+    \[C]Dans son vieux pardessus \[Am]râpé
+    Il s'en allait l'hiver, \[Em]l'été
+    Dans le petit matin fri\[F]leux
+    Mon \[G]vieux
+  \endverse
+
+  \beginverse*
+    \[C]Y'avait qu'un dimanche par sem\[Am]aine
+    Les autres jours, c'était la \[Em]graine
+    Qu'il allait gagner comme on \[F]peut
+    Mon \[C]vieux
   \endverse
 
   \beginchorus
-    \[C7]L'été on allait voir \[F7]la mer, \[Dm]tu vois, c'\[G]était pas la mi\[Em]sère
-    \[Am]C'était pas non plus l' para\[F]dis, eh \[Dm]oui, tant \[E]pis
+    \[C7]L'été, on allait voir la \[F7]mer
+    \[Dm]Tu vois, c'\[G]était pas la mi\[Em]sère
+    \[Am]C'était pas non plus l'para\[F]dis
+    Eh \[Dm]oui, tant \[E]pis
   \endchorus
 
   \beginverse
-    Dans son vieux pardessus râpé, il a pris pendant des années
-    Le même autobus de banlieue, mon vieux
-    Le soir en rentrant du boulot, il s'asseyait sans dire un mot
-    Il était du genre silencieux, mon vieux
+    Dans son vieux pardessus râpé
+    Il a pris pendant des années
+    Le même autobus de banlieue
+    Mon vieux
+  \endverse
+
+  \beginverse*
+    Le soir, en rentrant du boulot
+    Il s'asseyait sans dire un mot
+    Il était du genre silencieux
+    Mon vieux
   \endverse
 
   \beginchorus
-    Les dimanches étaient monotones, on n'recevait jamais personne
-    Ça n'le rendait pas malheureux, je crois, mon vieux
+    Les dimanches étaient monotones
+    On n'recevait jamais personne
+    Ça n'le rendait pas malheureux
+    Je crois, mon vieux
   \endchorus
 
   \beginverse
-    Dans son vieux pardessus râpé, les jours de paye quand il rentrait
-    On l'entendait gueuler un peu, mon vieux
-    Nous, on connaissait la chanson, tout y passait, bourgeois, patrons
-    La gauche, la droite, même le bon Dieu, mon vieux
+    Dans son vieux pardessus râpé
+    Les jours de paye quand il rentrait
+    On l'entendait gueuler un peu
+    Mon vieux
+  \endverse
+
+  \beginverse*
+    Nous, on connaissait la chanson
+    Tout y passait, bourgeois, patrons
+    La gauche, la droite, même le bon Dieu
+    Avec mon vieux
   \endverse
 
   \beginchorus
-    Chez nous y'avait pas la télé, c'était dehors qu'j'allais chercher
-    Pendant quelque temps l'évasion, je sais, c'est con
+    Chez nous, y'avait pas la télé
+    C'est dehors que j'allais chercher
+    Pendant quelque temps l'évasion
+    Je sais, c'est con
   \endchorus
 
   \beginverse
-    Dire que j'ai passé des années à coté de lui sans le regarder
-    On a à peine ouvert les yeux, nous deux
-    J'aurai pu, c'était pas malin, faire avec lui un bout de chemin
-    Ça l'aurai peut être rendu heureux, mon vieux
+    Dire que j'ai passé des années
+    À côté de lui, sans le regarder
+    On a à peine ouvert les yeux
+    Nous deux
   \endverse
 
+  \beginverse*
+    J'aurais pu, c'était pas malin
+    Faire avec lui un bout d'chemin
+    Ça l'aurait peut-être rendu heureux
+    Mon vieux
+  \endverse
 
   \beginchorus
-    \[C7]Mais, quand on a juste \[F7]quinze ans, \[Dm]on n'a pas le \[G]cœur assez \[Em]grand
-    \[Am]Pour y loger toutes ces choses \[F]là, \[Dm]tu vois \[E]
-    \[C]Maintenant qu'il est loin d'ici, \[Am]en pensant à tout ça, j' me \[Em]dis
-    J'aimerai bien qu'il soit prés de moi, \[F]papa.\[G/C]
+    \[C7]Mais, quand on a juste \[F7]quinze ans
+    \[Dm]On n'a pas le \[G]cœur assez \[Em]grand
+    \[Am]Pour y loger toutes ces choses \[F]là
+    \[Dm]Tu vois \[E]
+  \endchorus
+
+  \beginchorus
+    \[C]Maintenant qu'il est loin d'ici
+    \[Am]En pensant à tout ça, j'me \[Em]dis
+    J'aimerais bien qu'il soit prés de moi
+    \[F]Papa\[G/C]
   \endchorus
 
 \endsong

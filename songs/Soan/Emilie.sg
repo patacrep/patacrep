@@ -1,6 +1,6 @@
 \selectlanguage{french}
 \songcolumns{1}
-\beginsong{Emily}
+\beginsong{Émilie}
   [by=Soan,cov=tant-pis,album=Tant pis]
 
   \cover
@@ -12,32 +12,32 @@
   \gtab{G}{320003}
 
   \beginchorus
-    \musicnote{\Intro :\nolyrics{\[Am]\[F]\[E]}}
+    \musicnote{\Intro : \nolyrics{\[Am F E]} \rep{4}}
   \endchorus
 
   \beginverse
-    J'aime\[Am]rais tenir dans mes mains ce mau\[F]dit Saint \[E]Graal
-    Qui se cache, on ne sait z'où : Il se rit bien de nos promesses
+    J'aime\[Am]rais tenir dans mes mains ce \[F]maudit Saint \[E]Graal
+    Qui se cache, on ne sait z'où : il se rit bien de nos promesses
     Je ne serais pas mécontent que se pendent à mon cou
     Quelques félicitations, un peu de gloire et bonne presse
     Je n'ai rien contre la fortune et si je veux bien rester droit
     J'aime autant dormir sous la lune uniquement quand c'est un choix
-    J'aimerais voir de nos yeux un gosse de moi sourire
-    Que ce p'tit con m'appelle papa, le voir grandir et vivre vieux{\dots}
+    J'aimerais voir de nos yeux, un gosse de moi sourire
+    Que ce p'tit con m'appelle papa, le voir grandir et vivre vieux
   \endverse
 
   \beginchorus
-    \[Am]Et si je n'ai rien de tout ça, \[C]peu importe
-    J'irai \[G]chanter devant ta porte, Emi\[Am]ly
-    Et si on ne m'ouvre pas, que le Diable m'emporte
-    Peu m'importe les saveurs du paradis !
+    Et si je \[Am]{n'ai} rien de tout ça, peu im\[C]porte
+    J'irai \[G]chanter devant ta porte, Émi\[Am]lie
+    Et si l'on ne \[Am]{m'ouvre} pas, que le Diable m'em\[C]porte
+    Peu m'im\[E]portent les saveurs du para\[Am]dis !
   \endchorus
 
   \beginverse
     J'aimerais découvrir le monde avant que d'en crever
     Quitte à saigner de trop, de pas voir si la terre est ronde
     Mourir un an, peut-être deux, me reposer un peu
-    Puis revenir en conquérant tant que mes dents tiennent ces lieux
+    Puis, revenir en conquérant tant que mes dents tiennent ces lieux
     Et même dans des oripeaux, des adipes troués
     Martyrisés par manque de pot, une fois le temps d'abandonner
     Moi qui voulais tous les empires et les murs à tomber
@@ -45,17 +45,11 @@
   \endverse
 
   \beginchorus
-    Et si je n'ai rien de tout ça, peu importe
-    J'irai chanter devant ta porte, Emily
-    Et si on ne m'ouvre pas, que le Diable m'emporte
-    Peu m'importe les saveurs du paradis !
-  \endchorus
-
-  \beginchorus
-    Et si je n'ai rien de tout ça, peu importe
-    J'irai chanter devant ta porte, Emily
-    Et si on ne m'ouvre pas, que le Diable m'emporte
-    Peu m'importe les saveurs du paradis !
+    Et si je n'ai rien fait de moi, peu importe
+    Je chante devant ta porte, Émilie
+    Et si l'on ne m'ouvre pas, que le Diable m'emporte
+    Peu m'importent les saveurs du paradis !
+    \rep{2}
   \endchorus
 
 \endsong

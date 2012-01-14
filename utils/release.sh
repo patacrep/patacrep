@@ -35,9 +35,9 @@ then
     fi;
     echo "new version : $MAIN.$MAJOR.$MINOR"
     #update version field in tmpl files
-    sed -i "s/\"[0-9].[0-9].[0-9]\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep.tmpl
-    sed -i "s/\"[0-9].[0-9].[0-9]\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/ancient.tmpl
-    sed -i "s/\"[0-9].[0-9].[0-9]\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-en.tmpl
+    sed -i "s/\"[0-9]+.[0-9]+.[0-9]+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep.tmpl
+    sed -i "s/\"[0-9]+.[0-9]+.[0-9]+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/ancient.tmpl
+    sed -i "s/\"[0-9]+.[0-9]+.[0-9]+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-en.tmpl
 else
     echo "keeping release version"
 fi;

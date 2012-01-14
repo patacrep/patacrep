@@ -72,10 +72,10 @@ git status
 
 if [ $# -eq 1 ];
 then
-    echo -e "\nversion $MAIN.$MAJOR.$MINOR\n" | cat - NEWS > /tmp/out && mv /tmp/out NEWS
-    ./utils/new-songs-list.sh | cat - NEWS > /tmp/out && mv /tmp/out NEWS
-    git add templates/patacrep-en.tmpl templates/patacrep.tmpl NEWS
-    git commit -a -m "patacrep release version $MAIN.$MAJOR.$MINOR" 
+    ./utils/new-songs-list.sh | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
+    echo "\nversion $MAIN.$MAJOR.$MINOR\n" | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
+    git add templates/patacrep-en.tmpl templates/patacrep.tmpl templates/ancient.tmpl books/volume-4.sb NEWS
+    git commit -m "patacrep release version $MAIN.$MAJOR.$MINOR" 
     git tag "patacrep_$MAIN.$MAJOR.$MINOR"
 fi
 

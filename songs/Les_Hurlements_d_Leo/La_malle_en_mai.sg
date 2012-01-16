@@ -1,0 +1,74 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La malle en mai}
+  [by=Les Hurlements d'Léo,cov=la-belle-affaire,album=La belle affaire]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+  \gtab{Dm}{XX0231}
+  \gtab{Gm}{3:022000}
+  \gtab{A}{5:022100}
+
+  \beginverse
+    \[F]{J'étais} content de partir
+    Quand je suis parti de chez \[B&]moi
+    J'étais content de me dire
+    Que je partais chez \[F]toi
+  \endverse
+
+  \beginverse*
+    Tu m'diras, y'a bien \[B&]pire
+    Que s'faire la malle en \[F]mai
+    C'est plus sympa de mou\[Dm]rir
+    Quand on est en é\[Gm]té \[A]
+  \endverse
+
+  \beginverse
+    Toute l'an\[F]née à servir
+    Asser\[B&]vi par l'armée
+    Rama\[F]sser sans rien dire
+    Des ca\[B&]davres en papier
+  \endverse
+
+  \beginverse*
+    Les morts \[F]ont le sourire
+    Pour eux \[B&]la guerre, c'est termi\[Gm]né \[A]
+    Pour leur \[F]dernier soupir
+    Au moins, on \[B&]leur foutra la \[F]paix \[B&]
+    {\nolyrics \[F Dm Gm A]}
+  \endverse
+
+  \beginverse
+    Et un jour, en hiver
+    J'ai ôté mon képi
+    J'ai noyé dans la bière
+    L'amour de la patrie
+  \endverse
+
+  \beginverse*
+    Sortir de l'enfer
+    Je suis un insoumis
+    Chopé la belle à faire
+    Je vais rester dans mon lit
+  \endverse
+
+  \beginverse
+    Déserteur, c'est le bonheur
+    Finies les rafales
+    Et le pire, dans l'meilleur
+    C'est que je suis en cavale
+  \endverse
+
+  \beginverse*
+    Je vais les planter là
+    Les képis, la flicaille
+    Prête-moi donc dix balles
+    Faut que je pêche la caillasse
+  \endverse
+
+  \beginverse*
+    J'étais content de partir \dots
+  \endverse
+
+\endsong

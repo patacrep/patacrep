@@ -79,4 +79,6 @@ then
     git tag "patacrep_$MAIN.$MAJOR.$MINOR"
 fi
 
+notify-send "Patacrep!" "Release $MAIN.$MAJOR.$MINOR generated" --icon=songbook-client
+
 export GREP_OPTIONS="$GREP"

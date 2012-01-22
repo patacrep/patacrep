@@ -4,17 +4,17 @@
   [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
 
   \cover
-  \gtab{Em}{022000}
-  \gtab{D}{XX0232}
+  \gtab{Am}{022000}
+  \gtab{G}{XX0232}
 
   \beginverse
-    C'est dans dix \[Em]ans, je m'en \[D]i\[Em]rai
-    J'entends le loup et le renard \[D]chan\[Em]ter
+    C'est dans dix \[Am]ans, je m'en \[G]i\[Am]rai
+    J'entends le loup et le renard \[G]chan\[Am]ter
   \endverse
 
   \beginverse*
-    J'entends le loup, le renard et la be\[D]lette
-    J'entends le loup et le renard chan\[Em]ter \rep{2}
+    J'entends le loup, le renard et la be\[G]lette
+    J'entends le loup et le renard chan\[Am]ter \rep{2}
   \endverse
 
   \beginverse
@@ -32,8 +32,6 @@
     La jument de Michao, elle s'en repentira \rep{2}
   \endverse
 
-  \beginverse*
-    \dots
-  \endverse
+  \lilypond{La_jument_de_Michao}
 
 \endsong

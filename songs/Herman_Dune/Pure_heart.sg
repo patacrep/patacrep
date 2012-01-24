@@ -4,44 +4,52 @@
   [by=Herman Düne,cov=giant,album=Giant]
 
   \cover
-  \gtab{F}{1:022100}
-  \gtab{C}{X32010}
-  \gtab{B&}{1:X02220}
+  \gtab{E}{022100}
+  \gtab{B}{2:X02220}
+  \gtab{A}{X02220}
 
   \beginverse
-    You are a \[C]hero, you are off the hook
-    I read you like a \[Am]poem or a holy book
-    You're the kind of girl who would \[F]jump out the window
-    \[G]Tell me something I don't know
+    But I've got \[E]pure hearts to give to you
+    All they shine brighter than the stars a\[B]bove
+    I hope you \[E]know what you \[A]do
+    When you're tur\[E]ning your \[B]back on my \[E]love
   \endverse
 
-  \beginverse
-    You call me at home and at the restaurant
-    When you feel alone and whenever you want
-    When I got to the movies and when I'm watching the show
-    Yo, tell me something I don't know
+  \beginverse*
+    And in the garden down by the pond
+    When the sun comes to an eclipse
+    Well I hope you'll respond
+    To the kisses that I lay on your lips
+  \endverse
+
+  \beginverse*
+    \echo{And your sister says}
+    ``Do it thunder when you were born
+    sometimes around the fall of 1979?''
+    And now there's a magnetic storm
+    When you rest your sweet body on mine
   \endverse
 
   \beginchorus
-    \[C]Tell me, tell me, tell me
-    \[Am]Tell me something I don't know
-    \[F]Tell me, tell me, tell me
-    \[G]Tell me something, tell me something
-    Tell me something I don't know
+    And in the \[A]garbage can under \[E]trash and paper
+    There is a \[A]wanted man with his \[E]face on fire
+    And he \[A]looks down on me and he says
+    that he is \[E]better off the way he is
+    Than \[E]me with a love like \[B]yours if you \[E]go
   \endchorus
 
   \beginverse
-    You say why don't you go down to the record store?
-    I said every new band sounds like I heard them before
-    You say I should have lived a hundred years ago
-    And then I go, tell me something I don't know!
+    And my ennemies, they want me blind
+    They want to slowly see me die of thirst
+    Well, they should know that I don't mind
+    If you're holding my arm when it hurts
   \endverse
 
-  \beginverse
-    In the morning, it's six and your clock is beeping
-    You kiss me goodbye but baby I'm still sleeping
-    You see, I wish that I could stay with you but then I really have to go
-    Yo, tell me something I don't know
+  \beginverse*
+    And I need you here to relieve me
+    When there's demon to find
+    And I'm helpless if you leave me
+    Like a werewolf in a full moonlight \rep{2}
   \endverse
 
 \endsong

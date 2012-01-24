@@ -1,5 +1,5 @@
 #!/bin/sh
 #
 echo "manually performs 'make cleanall'"
-./clean
+`dirname $0`/clean.sh
 rm -rf *.pdf

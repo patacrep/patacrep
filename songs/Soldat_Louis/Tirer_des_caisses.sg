@@ -1,0 +1,57 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Tirer des caisses}
+	[by=Soldat Louis,cov=premiere-bordee,album=Première bordée]
+
+	\cover
+
+	\beginverse*
+		\musicnote{Répéter deux fois chaque couplet}
+	\endverse
+
+	\beginverse
+		\[A]Tirer des caisses OK\[D]
+		Ho hé ho hé ho
+		\[A]Bon dieu tu parles d'un ca\[E]deau
+		Même à \[F#m]{fond d'cale} sur un rafiot
+		\[D]De Lorient à Glasgow
+		\[A]J'suis par\[E]tant ho hé \[A]ho
+	\endverse
+
+	\beginverse
+		\[A]Descendre à terre OK\[D]
+		Ho hé ho hé ho
+		\[A]Trois nuits pour changer de \[E]peau
+		Puisque \[F#m]{tous les} ports se ressemblent
+		\[D]C'est dans les bars qu'on flambe
+		\[A]Au bras d'\[E]fer ho hé \[A]ho
+	\endverse
+
+	\beginverse
+		\[A]Se prendre des caisses OK\[D]
+		Ho hé ho hé ho
+		\[A]Dans l'noir d'un claque à mat'\[E]lots
+		J'ima\[F#m]{gine au} coeur de l'ivresse
+		\[D]Une frangine ses caresses
+		\[A]Et l'so\[E]leil ho hé \[A]ho
+	\endverse
+
+	\beginverse
+		\[A]Reprendre la mer OK\[D]
+		Ho hé ho hé ho
+		\[A]R'trouver la gueule du bos\[E]co
+		Qu'importe \[F#m]{tant qu'y} aura des escales
+		\[D]Des filles pour le moral
+		\[A]Et de la \[E]bière ho hé \[A]ho
+	\endverse
+
+	\beginverse
+		\[A]Tirer des caisses OK\[D]
+		Ho hé ho hé ho
+		\[A]Bon dieu tu parles d'un ca\[E]deau
+		Même à \[F#m]{fond d'cale} sur un rafiot
+		\[D]De Lorient à Glasgow
+		\[A]J'suis par\[E]tant ho hé \[A]ho
+	\endverse
+
+\endsong

@@ -1,0 +1,55 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{A Bunch Of Lonesome Heroes}
+	[by=Leonard Cohen,cov=songs-from-a-room,album=Songs from a Room]
+
+	\cover
+	\gtab{Asus4}{002230}
+	\gtab{D+M7}{000222}
+	\gtab{A+M7}{002120}
+	\gtab{Esus4}{022200}
+
+	\beginverse*
+		\musicnote{Intro : \nolyrics \[A]}
+	\endverse
+
+	\beginverse
+		\[A] A bunch of lonesome and very quarrelsome \[Bm]heroes
+		\[E] Were smoking \[E7]out along the open \[A]road;\[Asus4 A]
+		The night was very dark and thick bet\[Bm]ween them,
+		\[E] Each man be\[E7]neath his ordinary \[A]load.\[Asus4 A]
+	\endverse
+	\beginchorus
+		\[D D+M7] \[Bm]"I'd like to \[D]tell my \[A]story,"\[A+M7 F#m A]
+		\[B] Said one of them so young and \[E]bold, \[E7]
+		\[D] "I'd \[D+M7]like to \[Bm]tell \[D] my \[A]story,\[A+M7 F#m A]
+		\[F#m] Before I turn into gold."\[E Esus4 E E7]
+	\endchorus
+
+	\beginverse
+		\[A] But no one really could \[Bm]hear him,
+		\[E] The night so \[E7]dark and thick and \[A]green;\[Asus4 A]
+		Well, I guess that these heroes must always \[Bm]live there
+		\[E] Where you and \[E7]{I have} only \[A]been.\[Asus4 A]
+	\endverse
+	\beginchorus
+		\[D D+M7] \[Bm]Put out your \[D]cigarette, \[A]my love,\[A+M7 F#m A]
+		\[B] You've been alone too \[E]long; \[E7]
+		\[D] And \[D+M7]{some of us} \[Bm] are\[D] very hungry now\[A+M7 F#m A]
+		\[F#m] To hear what it is you've done that was so wrong.\[E Esus4 E E7]
+	\endchorus
+
+	\beginverse
+		\[A] I sing this for the \[Bm]crickets
+		\[E] I sing this \[E7] for the \[A]army\[Asus4 A]
+		I sing this for your \[Bm]children
+		\[E] And for all \[E7]  who do not \[A]need me.\[Asus4 A]
+	\endverse
+	\beginchorus
+		\[D D+M7] \[Bm]"I'd like to \[D]tell my \[A]story,"\[A+M7 F#m A]
+		\[B] Said one of them so \[E]bold, \[E7]
+		\[D] "Oh yes, \[D+M7]{I'd like to} \[Bm]tell \[D] my \[A A+M7]sto\[F#m]ry, \[A]
+		\[F#m] 'cause you know I feel I'm turning into \[E]go\[Esus4]o\[E]o\[E7]old." \[A]
+	\endchorus
+
+\endsong

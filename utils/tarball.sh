@@ -11,6 +11,7 @@ cp -RH songbook songbook-$(date +%d)-$(date +%m)-$(date +%Y);
 #Remove unecessary directories
 cd songbook-$(date +%d)-$(date +%m)-$(date +%Y);
 rm -rf perso/ ;
+rm -rf build/ ;
 rm -rf data/ ;
 rm -rf .git/ ;
 rm -f .gitignore ;

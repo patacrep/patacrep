@@ -13,20 +13,12 @@
    height="42"
    id="svg2759"
    sodipodi:version="0.32"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.48.2 r9819"
    version="1.0"
    sodipodi:docname="by-sa.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
-     id="defs2761">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 21 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="120 : 21 : 1"
-       inkscape:persp3d-origin="60 : 14 : 1"
-       id="perspective31" />
-  </defs>
+     id="defs2761" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"

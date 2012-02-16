@@ -11,6 +11,8 @@
   \gtab{D}{XX0232}
   \gtab{A7}{X02020}
 
+  \lilypond{La_blanche}
+
   \ifchorded
   \beginchorus
     {\nolyrics \[Em C Em A F{\shrp}]}

@@ -1,0 +1,101 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les mains froides}
+  [by=Oldelaf,cov=le-monde-est-beau,album=Le monde est beau]
+
+  \cover
+  \gtab{C7}{X32310}
+  \gtab{F}{1:022100}
+  \gtab{A}{X02220}
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
+  \gtab{B&}{1:X02220}
+  \gtab{C}{X32010}
+
+  \lilypond{Les_mains_froides}
+
+  \beginverse
+    C'était si \[C7]beau la rue Monge sous la \[F]neige
+    Et je mar\[C7]chais les deux mains dans les \[F]poches
+    Toutes trou\[A]ées de mon pantalon \[Dm]beige
+    Pourquoi d'ail\[A]leurs avais-je mis le plus \[Dm]moche
+  \endverse
+
+  \beginverse*
+    Je t'ai croisée sans vraiment m'y attendre
+    Et en même temps, on avait rendez-vous
+    Tu as souri et t'es venue me prendre
+    Les mains que je planquais dans mon futal à trous
+  \endverse
+
+  \beginchorus
+    Je me sou\[Am]viens que j'avais les mains \[Dm]froides
+    Je tremblo\[Am]tais et j'étais à la \[Dm]traîne
+    Tu ne devais \[C7]pas les trouver si \[F]froides
+    Car malgré \[Am]tout tu les laissas dans les \[Dm]tiennes
+  \endchorus
+
+  \beginverse
+    On a marché vers la rue des Écoles
+    On s'est posés tout au fond d'un bistrot
+    Je t'exposais une théorie folle
+    Que par ce temps, c'est sympa un thé chaud
+  \endverse
+
+  \beginverse*
+    Toi, tu souriais en plissant tes yeux noirs
+    Que je voyais même sans les regarder
+    Tu t'es levée, t'as payé au comptoir
+    Puis t'es venue par les mains me chercher
+  \endverse
+
+  \beginchorus
+    Je me souviens que j'avais les mains froides
+    Je tremblotais et j'étais à la traîne
+    Tu ne devais pas les trouver si froides
+    Car malgré tout, tu les laissas dans les tiennes
+  \endchorus
+
+  \begin{bridge}
+    On est al\[Dm]lés dans ta chambre au sixième
+    J'avais pré\[B&]vu de te lire des poèmes
+    T'as mis un vi\[C]eux disque de Billy Paul
+    Je me suis \[F]tu et j'ai lu les pa\[A]roles
+  \end{bridge}
+
+  \begin{bridge}
+    Il te res\[Dm]tait quelques gouttes de Madère
+    J'ai dit pas \[B&]trop, tu m'as servi un verre
+    Et au mo\[C]ment où j'allais y goûter
+    Tu m'as sou\[F]ri et tu \[A]{m'as} embras\[Dm]sé
+  \end{bridge}
+
+  \beginchorus
+    Je me souviens que j'avais les mains froides
+    Je tremblotais et je me sentais nul
+    Tu ne devais pas les trouver si froides
+    Car malgré tout, tu les laissas sous ton pull
+  \endchorus
+
+  \beginverse
+    Tu m'as dit :{\og}Gars, j'aime bien tes manières{\fg}
+    Et moi j'ai dit :{\og}Je connais un poème{\fg}
+    Tu m'as souri, t'as éteint la lumière
+    Dans mon oreille, t'as glissé un {\og}je t'aime{\fg}
+  \endverse
+
+  \beginverse*
+    J'aurais dû dire un mot tendre et sympa
+    Mais moi je t'ai juste dit, rien du tout
+    Puis doucement, tu t'es collée à moi
+    Et pour le reste, ça n'appartient qu'à nous
+  \endverse
+
+  \beginchorus
+    Je me souviens que j'avais les mains froides
+    Je tremblotais mais je me sentais bien
+    Tu ne devais pas les trouver si froides
+    Car malgré tout, tu les laissas sur tes seins
+  \endchorus
+
+\endsong

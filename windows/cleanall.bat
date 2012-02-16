@@ -1,3 +1,3 @@
 Rem manually performs "make cleanall"
-clean.bat
+windows\\clean.bat
 del *.pdf

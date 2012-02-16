@@ -4,10 +4,13 @@
   [by=Renaud,cov=ma-gonzesse,album=Ma gonzesse]
 
   \cover
+  \capo{2}
   \gtab{Em}{022000}
   \gtab{Am}{X02210}
   \gtab{B}{2:X02220}
   \gtab{D}{XX0232}
+
+  \lilypond{Chanson_pour_Pierrot}
 
   \beginverse
     \[Em]T'es pas né dans la \[Am]rue

@@ -5,6 +5,7 @@ staging/
 utils/release.sh
 utils/tarball.sh
 utils/send.sh
+*~
 *.aux
 *.sbd
 *.sbx

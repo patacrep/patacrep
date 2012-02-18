@@ -1,0 +1,48 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Paradise}
+  [by=Coldplay,cov=mylo-xyloto,album=Mylo Xyloto]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Gm}{3:022000}
+
+  \beginverse
+    \[Dm]When she was just a \[B&]girl
+    \[F]She expected the \[C]world
+    But it \[Dm]flew away from her \[B&]reach
+    So she \[F]ran away in her \[C]sleep
+  \endverse
+
+  \beginchorus
+    Dreamed of \[Gm]para, para, \[B&] paradise
+    \[F]Para, para, \[C] paradise
+    \[Gm]Para, para, \[B&] paradise
+    \[F]Every time she \[C]closed her eyes
+  \endchorus
+
+
+  \beginverse
+    When she was just a girl
+    She expected the world
+    But it flew away from her reach
+    And bullets catch in her teeth
+  \endverse
+
+  \begin{bridge}
+    \[Dm]Life goes on, it \[B&]gets so heavy
+    The \[F]wheel breaks the \[C]butterfly
+    \[Gm]Every tear, a water\[C]fall
+    In the \[B&]night, the stormy \[F]night, she closed her \[C]eyes
+    In the \[B&]night, the stormy \[F]night, away she \[C]flied
+  \end{bridge}
+
+  \begin{bridge}
+    Still \[B&]lying under\[F]neath the stormy \[C]skies
+    She said, \[B&m]oh oh, \[F]oh oh oh oh, I know the \[C]sun's set to rise
+  \end{bridge}
+
+\endsong

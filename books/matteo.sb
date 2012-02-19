@@ -2,7 +2,7 @@
 "template" : "patacrep-improved.tmpl",
 "lang" : "french",
 "bookoptions" : [
-    "diagram",
+    "importantdiagramonly",
     "lilypond",
     "pictures"
   ],

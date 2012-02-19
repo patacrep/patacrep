@@ -1,75 +1,82 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Promeneur}
-	[by=Jean Leloup,cov=la-vallee-des-reputations,album=La vallée des réputations]
+  [by=Jean Leloup,cov=la-vallee-des-reputations,album=La vallée des réputations]
 
-	\cover
+  \cover
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \beginverse
-		\[Em] \[Am] La route est noire à présent
-		Il y a des rivières de \[Em]sang
+    \[Em] \[Am] La route est noire à présent
+    Il y a des rivières de \[Em]sang
     \[Em] \[B7] Le ciel se couvre plein d'orage
-		Je ne marcherai pas d'avan\[Am]tage
+    Je ne marcherai pas d'avan\[Am]tage
   \endverse
 
   \beginverse
-		\[C]On a beau \[G]dire
-		On a beau \[Am]faire
-		La vie suit son \[G]cours
-		Au gré des a\[C]mours
+    \[C]On a beau \[G]dire
+    On a beau \[Am]faire
+    La vie suit son \[G]cours
+    Au gré des a\[C]mours
 
-		Je t'aime et te \[G]quitte
-		Nous sommes \[Am]quittes
-		Tu pars pour de \[G]bon
-		De toutes fa\[C]çons
+    Je t'aime et te \[G]quitte
+    Nous sommes \[Am]quittes
+    Tu pars pour de \[G]bon
+    De toutes fa\[C]çons
   \endverse
 
   \beginchorus
-		\[C]Prome\[F]neur
-		La chanson que tu \[C]chantes
-		Je l'ai souvent chan\[E]tée
-		Je l'ai souvent chan\[Am]tée
-		Et la \[F]corde dont tu veux te \[C]pendre
-		Je l'ai souvent nou\[E]ée
-		Je l'ai souvent nou\[Am]ée
-		Et le \[F]clou où tu veux te sus\[C]pendre
-		Je l'ai souvent clou\[E]é
-		Je l'ai souvent clou\[Am]é
-		Et le \[F]clou \[C] \[E] \[Am]
+    \[C]Prome\[F]neur
+    La chanson que tu \[C]chantes
+    Je l'ai souvent chan\[E]tée
+    Je l'ai souvent chan\[Am]tée
+    Et la \[F]corde dont tu veux te \[C]pendre
+    Je l'ai souvent nou\[E]ée
+    Je l'ai souvent nou\[Am]ée
+    Et le \[F]clou où tu veux te sus\[C]pendre
+    Je l'ai souvent clou\[E]é
+    Je l'ai souvent clou\[Am]é
+    Et le \[F]clou \[C] \[E] \[Am]
   \endchorus
 
   \beginverse
-		\[C]Tu m'as recuei\[G]lli
-		Tu m'as tra\[Am]hi
-		Les levers de so\[G]leil
-		Ne seront plus pa\[C]reils
+    \[C]Tu m'as recuei\[G]lli
+    Tu m'as tra\[Am]hi
+    Les levers de so\[G]leil
+    Ne seront plus pa\[C]reils
 
-		Combien de viei\[G]llards
-		Meurent en criant re\[Am]grets
-		Il est beaucoup trop \[G]tard
-		Il est beaucoup trop \[C]loin
+    Combien de viei\[G]llards
+    Meurent en criant re\[Am]grets
+    Il est beaucoup trop \[G]tard
+    Il est beaucoup trop \[C]loin
   \endverse
 
   \beginchorus
-		\[C]Prome\[F]neur
-		Dans ton terrain \[C]vague
-		Le cadavre qu'on \[E]drague
-		À la pointe du \[Am]jour
-		C'est la \[F]fille du pas\[C]teur
-		Un ancien merce\[E]naire
-		L'a tuée de co\[Am]lère
+    \[C]Prome\[F]neur
+    Dans ton terrain \[C]vague
+    Le cadavre qu'on \[E]drague
+    À la pointe du \[Am]jour
+    C'est la \[F]fille du pas\[C]teur
+    Un ancien merce\[E]naire
+    L'a tuée de co\[Am]lère
 
-		À pré\[F]sent
-		Il se cache et il \[C]pleure
-		Le canon d'un fu\[E]sil
-		Pointé sur son \[Am]cœur
+    À pré\[F]sent
+    Il se cache et il \[C]pleure
+    Le canon d'un fu\[E]sil
+    Pointé sur son \[Am]cœur
 
-		Il re\[F]pense
-		À sa \[C]mère
-		À l'enfance bé\[E]nie
-		Et puis
-		Il \[Am]tire, \[G] il vise \[C]bien \[E] \rep{2}
-		Il \[Am]tire
+    Il re\[F]pense
+    À sa \[C]mère
+    À l'enfance bé\[E]nie
+    Et puis
+    Il \[Am]tire, \[G] il vise \[C]bien \[E] \rep{2}
+    Il \[Am]tire
   \endchorus
 
 \endsong

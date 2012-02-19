@@ -1,107 +1,104 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Sentiments numériques revisités}
-	[by=Hubert-Félix Thiéfaine,cov=la-tentation-du-bonheur,album=La tentation du bonheur]
+  [by=Hubert-Félix Thiéfaine,cov=la-tentation-du-bonheur,album=La tentation du bonheur]
 
-	\cover
+  \cover
+  \gtab{A}{X02220}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{C#m}{4:X02210}
 
-	\beginverse*
-		\musicnote{Intro : \nolyrics \[A C]}
-	\endverse
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[A C]}}
+  \endverse
 
-	\beginverse
-		Quand \[D]{les ombres} du soir chevauchent sur la lande
-		À\[A]{vec dans} leurs passeports Sherwood ou Brocéliande
-		Quand \[Bm]{les elfes} titubent sous l'alcool de sorgho
-		Dans \[A]{les cercles} succubes de la lune en faisceaux
-		Quand \[G]{les vents} de minuit décoiffent les serments
-		Des \[Bm]amants sous les aulnes d'un hôtel flamand
-		Quand \[A]{tes visions} nocturnes t'empêchent de rêver
-		Et \[Bm]couvrent ton sommeil d'un voile inachevé
+  \beginverse
+    Quand \[D]{les ombres} du soir chevauchent sur la lande
+    A\[A]{vec dans} leurs passeports Sherwood ou Brocéliande
+    Quand \[Bm]{les elfes} titubent sous l'alcool de sorgho
+    Dans \[A]{les cercles} succubes de la lune en faisceaux
+    Quand \[G]{les vents} de minuit décoiffent les serments
+    Des \[Bm]amants sous les aulnes d'un hôtel flamand
+    Quand \[A]{tes visions} nocturnes t'empêchent de rêver
+    Et \[Bm]couvrent ton sommeil d'un voile inachevé
+  \endverse
 
-		Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-	\endverse
+  \beginchorus
+    Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
+  \endchorus
 
-	\beginverse
-		Quand \[D]{les chauves-souris} flirtent avec les rossignols
-		Dans \[A]{les ruines} d'un royaume où mon crâne est mongol
-		Quand \[Bm]{les syndicats} brûlent nos rushes et nos démos
-		Pour \[A]{en finir} avec le jugement des salauds
-		Quand \[G]humpty dumpty jongle avec nos mots sans noms
-		Dans \[Bm]{le bourdonnement} des câbles à haute tension
-		Quand \[A]{tu m'offres} épuisée sous l'œil d'une opaline
-		Les \[Bm]charmes vénéneux de tes fragrances intimes
+  \beginverse
+    Quand \[D]{les chauves-souris} flirtent avec les rossignols
+    Dans \[A]{les ruines} d'un royaume où mon crâne est mongol
+    Quand \[Bm]{les syndicats} brûlent nos rushes et nos démos
+    Pour \[A]{en finir} avec le jugement des salauds
+    Quand \[G]humpty dumpty jongle avec nos mots sans noms
+    Dans \[Bm]{le bourdonnement} des câbles à haute tension
+    Quand \[A]{tu m'offres} épuisée sous l'œil d'une opaline
+    Les \[Bm]charmes vénéneux de tes fragrances intimes
+  \endverse
 
-		Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-	\endverse
+  \beginverse
+    Quand \[D]{les théâtres} antiques recèlent nos orgies
+    Ça\[A]{tal Hoyük} airport, Manco Cápac City
+    Quand \[Bm]{nos murs} se recouvrent de hiéroglyphes indiens
+    A\[A]{vec nos} voix blafardes en feed-back au matin
+    Quand \[G]{tes mangoustes} viennent avaler mes couleuvres
+    Dans \[Bm]{ces nuits} tropicales où rugit le grand œuvre
+    Quand \[A]l'ange anthropophage nous guide sur la colline
+    Pour \[Bm]{un nouveau} festin de nos chairs androgynes
+  \endverse
 
-	\beginverse
-		Quand \[D]{les théâtres} antiques recèlent nos orgies
-		Ça\[A]{tal Hoyük} airport, Manco Cápac City
-		Quand \[Bm]{nos murs} se recouvrent de hiéroglyphes indiens
-		À\[A]{vec nos} voix blafardes en feed-back au matin
-		Quand \[G]{tes mangoustes} viennent avaler mes couleuvres
-		Dans \[Bm]{ces nuits} tropicales où rugit le grand œuvre
-		Quand \[A]l'ange anthropophage nous guide sur la colline
-		Pour \[Bm]{un nouveau} festin de nos chairs androgynes
+  \beginverse*
+    \musicnote{instrumental : \nolyrics{\[C Bm C Bm A]}}
+  \endverse
 
-		Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-	\endverse
+  \beginverse
+    Quand \[D]{les clochards} opposent la classe et l'infini
+    À \[A]{la vulgarité} glauque de la bourgeoisie
+    Quand \[Bm]{les valets} de cour, plaideurs pusillanimes
+    En\[A]combrent de leurs voix nos silences et nos rimes
+    Quand \[G]{aux détours} d'un bar tu flingues aux lavabos
+    Quel\[Bm]{que juge} emportant ma tête sur un plateau
+    Quand \[A]{tu branches} les hélices de ma mémoire astrale
+    Sur \[Bm]{les capteurs-influx} de ta flamme initiale
+  \endverse
 
-	\beginverse*
-		\musicnote{Instrumental : \nolyrics \[C Bm C Bm A]}
-	\endverse
+  \beginverse
+    Quand \[E]{les traces} de Rorschach sur la tôle ondulée
+    Servent \[B]{aux maîtres} à tester l'autochtone humilié
+    Quand \[C#m]{sur la} Moleskine des limousines en liesse
+    Ils \[B]{en rient} en fumant la mucho cojones
+    Quand \[A]{les cris} de l'amour croisent les crocs de la haine
+    Dans \[C#m]l'encyclopédie des clameurs souterraines
+    Quand \[B]{je rentre} amoché, fatigué, dézingué
+    En \[C#m]rêvant de mourir sur ton ventre mouillé
+  \endverse
 
-	\beginverse
-		Quand \[D]{les clochards} opposent la classe et l'infini
-		À \[A]{la vulgarité} glauque de la bourgeoisie
-		Quand \[Bm]{les valets} de cour, plaideurs pusillanimes
-		En\[A]combrent de leurs voix nos silences et nos rimes
-		Quand \[G]{aux détours} d'un bar tu flingues aux lavabos
-		Quel\[Bm]{que juge} emportant ma tête sur un plateau
-		Quand \[A]{tu branches} les hélices de ma mémoire astrale
-		Sur \[Bm]{les capteurs-influx} de ta flamme initiale
+  \beginverse
+    Quand \[E]{dans la} lumière sale d'un miroir tamisé
+    Tu \[B]croises l'œil éphémère d'une salamandre ailée
+    Quand \[C#m]{dans les} brumes étales de nos corps transparents
+    Tu \[B]réveilles mes volcans lumineux du néant
+    Quand \[A]{mes pensées} confuses s'éclairent au magnésium
+    Sur \[C#m]{les écrans} secrets de ton pandémonium
+    Quand \[B]{mes bougainvilliers} se mêlent aux herbes folles
+    Dans \[C#m]{ta chaleur} biguine au crépuscule créole
+  \endverse
 
-		Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-	\endverse
-
-	\beginverse
-		Quand \[E]{les traces} de Rorschach sur la tôle ondulée
-		Servent \[B]{aux maîtres} à tester l'autochtone humilié
-		Quand \[C#m]{sur la} Moleskine des limousines en liesse
-		Ils \[B]{en rient} en fumant la mucho cojones
-		Quand \[A]{les cris} de l'amour croisent les crocs de la haine
-		Dans \[C#m]l'encyclopédie des clameurs souterraines
-		Quand \[B]{je rentre} amoché, fatigué, dézingué
-		En \[C#m]rêvant de mourir sur ton ventre mouillé
-
-		Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-	\endverse
-
-	\beginverse
-		Quand \[E]{dans la} lumière sale d'un miroir tamisé
-		Tu \[B]croises l'œil éphémère d'une salamandre ailée
-		Quand \[C#m]{dans les} brumes étales de nos corps transparents
-		Tu \[B]réveilles mes volcans lumineux du néant
-		Quand \[A]{mes pensées} confuses s'éclairent au magnésium
-		Sur \[C#m]{les écrans} secrets de ton pandémonium
-		Quand \[B]{mes bougainvilliers} se mêlent aux herbes folles
-		Dans \[C#m]{ta chaleur} biguine au crépuscule créole
-
-		Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-	\endverse
-
-	\beginverse
-		Quand \[E]{les ombres} du soir poursuivent sur la lande
-		Le \[B]{flash des} feux arrières d'une soucoupe volante
-		Quand \[C#m]{le soleil} se brûle aux contours de tes reins
-		Par\[B]{mi les} masques obscurs d'un carnaval romain
-		Quand \[A]l'ordre des humains nous sert dans son cocktail
-		Cinq \[C#m]milliards de versions différentes du réel
-		Quand \[B]{tu pleures} essoufflée au creux de ma poitrine
-		A\[C#m]{vec les} doux murmures des fréquences féminines
-
-		Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-	\endverse
+  \beginverse
+    Quand \[E]{les ombres} du soir poursuivent sur la lande
+    Le \[B]{flash des} feux arrières d'une soucoupe volante
+    Quand \[C#m]{le soleil} se brûle aux contours de tes reins
+    Par\[B]{mi les} masques obscurs d'un carnaval romain
+    Quand \[A]l'ordre des humains nous sert dans son cocktail
+    Cinq \[C#m]milliards de versions différentes du réel
+    Quand \[B]{tu pleures} essoufflée au creux de ma poitrine
+    A\[C#m]{vec les} doux murmures des fréquences féminines
+  \endverse
 
 \endsong

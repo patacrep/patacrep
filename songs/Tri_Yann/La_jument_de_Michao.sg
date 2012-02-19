@@ -1,11 +1,11 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La jument de Michao}
-  [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
+  [by=Tri Yann,cov=la-decouverte-ou-l-ignorance,album=Le meilleur de Tri Yann]
 
   \cover
-  \gtab{Am}{022000}
-  \gtab{G}{XX0232}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
 
   \beginverse
     C'est dans dix \[Am]ans, je m'en \[G]i\[Am]rai
@@ -24,7 +24,7 @@
 
   \beginverse*
     La jument de Michao et son petit poulain
-    A passé dans le pré, a mangé tout le foin \rep{2}
+    A passé dans le pré et mangé tout le foin \rep{2}
   \endverse
 
   \beginverse*

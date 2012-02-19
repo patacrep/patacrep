@@ -15,11 +15,14 @@
   \beginchorus
     Du \[G]rhum, des femmes et d'la \[C]bière nom de \[G]Dieu
     Un \[C]accordé\[G]on pour val\[C]ser tant qu'on \[D]veut
+    \begin{repeatedchords}
     Du \[G]rhum, des femmes, c'est ça \[C]qui rend heu\[G]reux
     Que l'\[C]diable nous em\[G]porte, on n'a \[D]rien trouvé d'\[G]mieux
+    \end{repeatedchords}
     Oh \[C]oh oh oh \[Bm]oh, on n'a \[Am]rien trouvé d'\[G]mieux
   \endchorus
 
+  \begin{repeatedchords}
   \beginverse
     He\[G]llo cap'tain, fais bri\[C]ller tes ga\[G]lons
     Et res\[C]te bien au \[G]chaud quand on \[C]gèle sur le \[D]pont
@@ -47,5 +50,6 @@
     J'e\[G]ssaie d'penser au claque, aux filles \[C]qui s'impa\[G]tientent
     Pas au \[C]bateau qui \[G]craque entre \[D]deux défer\[G]lantes
   \endverse
+  \end{repeatedchords}
 
 \endsong

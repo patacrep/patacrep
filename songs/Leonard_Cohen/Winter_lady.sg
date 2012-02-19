@@ -23,6 +23,7 @@
     I \[D+4]know I'm \[Amaj7]not your \[D+4]lover;
   \endverse
 
+  \begin{repeatedchords}
   \beginchorus
     Well \[D+4]I lived with a \[Am7]{child of snow}
     \[D+4]When I was a \[Am7]soldier;
@@ -50,5 +51,6 @@
     I'm just a \[Amaj7]station \[D+4]on your \[C]way,
     I \[D+4]know I'm \[Amaj7]not your \[D+4]lover.
   \endverse
+  \end{repeatedchords}
 
 \endsong

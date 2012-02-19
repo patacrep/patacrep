@@ -23,6 +23,7 @@
     \rep{2}
   \endchorus
 
+  \begin{repeatedchords}
   \beginverse
     \[Em] Depuis les \[C]balcons de la \[Em]ville
     \[Em] On entend \[G]{le bruit} des si\[D]rènes,
@@ -38,5 +39,6 @@
     \[Em] Des fleurs qu'on \[G]jette dans des pa\[D]niers,
     De la \[C]gare de Montpar\[G]nasse.
   \endverse
+  \end{repeatedchords}
 
 \endsong

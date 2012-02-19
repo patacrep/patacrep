@@ -10,10 +10,10 @@
   \gtab{E7}{020100}
   \gtab*{Asus4}{X02230}
   \gtab{D}{XX0232}
-  \gtab*{D+M7}{000222}
+  \gtab*{Dmaj7}{000222}
   \gtab{F#m}{2:X22000}
   \gtab{B}{2:X02220}
-  \gtab*{A+M7}{002120}
+  \gtab*{Amaj7}{002120}
   \gtab*{Esus4}{022200}
 
   \beginverse*
@@ -28,9 +28,9 @@
   \endverse
 
   \beginchorus
-    \[D D+M7] \[Bm]"I'd like to \[D]tell my \[A]story"\[A+M7 F#m A]
+    \[D Dmaj7] \[Bm]"I'd like to \[D]tell my \[A]story"\[Amaj7 F#m A]
     \[B] Said one of them so young and \[E]bold, \[E7]
-    \[D] "I'd \[D+M7]like to \[Bm]tell \[D] my \[A]story\[A+M7 F#m A]
+    \[D] "I'd \[Dmaj7]like to \[Bm]tell \[D] my \[A]story\[Amaj7 F#m A]
     \[F#m] Before I turn into gold"\[E Esus4 E E7]
   \endchorus
 
@@ -42,9 +42,9 @@
   \endverse
 
   \beginchorus
-    \[D D+M7] \[Bm]Put out your \[D]cigarette, \[A]my love\[A+M7 F#m A]
+    \[D Dmaj7] \[Bm]Put out your \[D]cigarette, \[A]my love\[Amaj7 F#m A]
     \[B] You've been alone too \[E]long \[E7]
-    \[D] And \[D+M7]{some of us} \[Bm] are\[D] very hungry now\[A+M7 F#m A]
+    \[D] And \[Dmaj7]{some of us} \[Bm] are\[D] very hungry now\[Amaj7 F#m A]
     \[F#m] To hear what it is you've done that was so wrong\[E Esus4 E E7]
   \endchorus
 
@@ -56,9 +56,9 @@
   \endverse
 
   \beginchorus
-    \[D D+M7] \[Bm]"I'd like to \[D]tell my \[A]story"\[A+M7 F#m A]
+    \[D Dmaj7] \[Bm]"I'd like to \[D]tell my \[A]story"\[Amaj7 F#m A]
     \[B] Said one of them so \[E]bold \[E7]
-    \[D] "Oh yes, \[D+M7]{I'd like to} \[Bm]tell \[D] my \[A A+M7]sto\[F#m]ry \[A]
+    \[D] "Oh yes, \[Dmaj7]{I'd like to} \[Bm]tell \[D] my \[A Amaj7]sto\[F#m]ry \[A]
     \[F#m] 'cause you know I feel I'm turning into \[E]go\[Esus4]o\[E]o\[E7]old" \[A]
   \endchorus
 

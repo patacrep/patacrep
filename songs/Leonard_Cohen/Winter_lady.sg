@@ -4,7 +4,7 @@
   [by=Leonard Cohen,cov=songs-of-leonard-cohen,album=Songs of Leonard Cohen]
 
   \cover
-  \gtab*{A+M7}{5:X0221X}
+  \gtab*{Amaj7}{5:X0221X}
   \gtab*{D+4 (couplets)}{3:X3201X}
   \gtab{C}{X3201X}
   \gtab*{D+4 (refrain)}{3:X0201X}
@@ -13,14 +13,14 @@
   \musicnote{4 cordes centrales en arpège}
 
   \beginverse*
-    \musicnote{\Intro : \nolyrics{\[A+M7 D+4]}}
+    \musicnote{\Intro : \nolyrics{\[Amaj7 D+4]}}
   \endverse
 
   \beginverse
-    \[D+4]Traveling \[A+M7]lady, \[D+4] stay a\[C]while,
-    Un\[D+4]til the \[A+M7]night is \[D+4]over;
-    I'm just a \[A+M7]station \[D+4]on your \[C]way,
-    I \[D+4]know I'm \[A+M7]not your \[D+4]lover;
+    \[D+4]Traveling \[Amaj7]lady, \[D+4] stay a\[C]while,
+    Un\[D+4]til the \[Amaj7]night is \[D+4]over;
+    I'm just a \[Amaj7]station \[D+4]on your \[C]way,
+    I \[D+4]know I'm \[Amaj7]not your \[D+4]lover;
   \endverse
 
   \beginchorus
@@ -31,10 +31,10 @@
   \endchorus
 
   \beginverse
-    She \[D+4]used to \[A+M7]wear her \[D+4]hair like \[C]you
-    Ex\[D+4]cept when \[A+M7]she was \[D+4]sleeping
-    And then she'd \[A+M7]weave it \[D+4]on a \[C]loom
-    Of \[D+4]smoke and \[A+M7]gold and \[D+4]breathing.
+    She \[D+4]used to \[Amaj7]wear her \[D+4]hair like \[C]you
+    Ex\[D+4]cept when \[Amaj7]she was \[D+4]sleeping
+    And then she'd \[Amaj7]weave it \[D+4]on a \[C]loom
+    Of \[D+4]smoke and \[Amaj7]gold and \[D+4]breathing.
   \endverse
 
   \beginchorus
@@ -45,10 +45,10 @@
   \endchorus
 
   \beginverse
-    \[D+4]Traveling \[A+M7]lady, \[D+4] stay a\[C]while,
-    Un\[D+4]til the \[A+M7]night is \[D+4]over;
-    I'm just a \[A+M7]station \[D+4]on your \[C]way,
-    I \[D+4]know I'm \[A+M7]not your \[D+4]lover.
+    \[D+4]Traveling \[Amaj7]lady, \[D+4] stay a\[C]while,
+    Un\[D+4]til the \[Amaj7]night is \[D+4]over;
+    I'm just a \[Amaj7]station \[D+4]on your \[C]way,
+    I \[D+4]know I'm \[Amaj7]not your \[D+4]lover.
   \endverse
 
 \endsong

@@ -12,12 +12,14 @@
 \newif{\ifnodiagram}
 \newif{\ifimportantdiagramonly}
 \newif{\ifpictures}
+\newif{\ifnorepeatchords}
 
 \tabsfalse
 \lilypondfalse
 \nodiagramtrue
 \picturesfalse
 \importantdiagramonlyfalse
+\norepeatchordstrue
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
@@ -29,6 +31,8 @@
 \DeclareOption{importantdiagramonly}{\importantdiagramonlytrue\nodiagramfalse}
 \DeclareOption{pictures}{\picturestrue}
 \DeclareOption{nopictures}{\picturesfalse}
+\DeclareOption{norepeatchords}{\norepeatchordstrue}
+\DeclareOption{repeatchords}{\norepeatchordsfalse}
 
 \DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}
@@ -433,5 +437,25 @@
 }{%
   \end{verse*}
 }
+
+%% \SB@chordsoff with a greater for the line spacing
+\newcommand{\CB@chordshidden}{%
+  \def\SB@bracket##1]{\ignorespaces}%
+  \let\SB@rechord\relax%
+  \let\SB@ch\SB@ch@off%
+  \ifSB@measurespec%
+    \ifmeasures\SB@measureson\else\SB@measuresoff\fi%
+  \else%
+    \SB@measuresoff%
+  \fi%
+  \ifSB@preamble\let\colbotglue{\z@\@plus.5\textheight}\fi%
+  \SB@setbaselineskip%
+}
+
+\newenvironment{repeatedchords}{%
+  \ifnorepeatchords%
+    \CB@chordshidden%
+  \fi
+}{}%
 
 \makeatother

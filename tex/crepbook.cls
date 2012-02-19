@@ -2,7 +2,7 @@
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{crepbook}[2009/11/12 v0.4.2 LaTeX document class for Crep
+\ProvidesClass{crepbook}[2012/02/19 v0.5.0 LaTeX document class for Crep
   Books]
 
 \makeatletter\def\input@path{{tex/}}

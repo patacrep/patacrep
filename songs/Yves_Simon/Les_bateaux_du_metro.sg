@@ -1,38 +1,42 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les bateaux du métro}
-	[by=Yves Simon,cov=au-pays-des-merveilles-de-juliet,album=Au pays des merveilles de Juliet]
+  [by=Yves Simon,cov=au-pays-des-merveilles-de-juliet,album=Au pays des merveilles de Juliet]
 
-	\cover
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
-	\beginverse
-		\[Em] Depuis les \[C]balcons de la \[Em]ville
-		\[Em] On voit des \[G]grues se balan\[D]cer,
-		\[Em] Des fumées \[C]des vieux maga\[Em]zines
-		\[Em] Qui traînent \[G]dans les rues ge\[D]lées,
-		Des voi\[C]tures automo\[G]biles.
-	\endverse
+  \beginverse
+    \[Em] Depuis les \[C]balcons de la \[Em]ville
+    \[Em] On voit des \[G]grues se balan\[D]cer,
+    \[Em] Des fumées \[C]des vieux maga\[Em]zines
+    \[Em] Qui traînent \[G]dans les rues ge\[D]lées,
+    Des voi\[C]tures automo\[G]biles.
+  \endverse
 
-	\beginchorus
-		On vou\[D]drait voir appa\[C]raître des ba\[G]teaux
-		Qui sor\[D]tiraient des es\[C]caliers du mé\[G]tro.
-		\rep{2}
-	\endchorus
+  \beginchorus
+    On vou\[D]drait voir appa\[C]raître des ba\[G]teaux
+    Qui sor\[D]tiraient des es\[C]caliers du mé\[G]tro.
+    \rep{2}
+  \endchorus
 
-	\beginverse
-		\[Em] Depuis les \[C]balcons de la \[Em]ville
-		\[Em] On entend \[G]{le bruit} des si\[D]rènes,
-		\[Em] Des chansons \[C]vieilles de la \[Em]mer
-		\[Em] Qui sortent \[G]des caves de la \[D]Seine,
-		Des chan\[C]sons de mate\[G]lots.
-	\endverse
+  \beginverse
+    \[Em] Depuis les \[C]balcons de la \[Em]ville
+    \[Em] On entend \[G]{le bruit} des si\[D]rènes,
+    \[Em] Des chansons \[C]vieilles de la \[Em]mer
+    \[Em] Qui sortent \[G]des caves de la \[D]Seine,
+    Des chan\[C]sons de mate\[G]lots.
+  \endverse
 
-	\beginverse
-		\[Em] Depuis les \[C]balcons de la \[Em]ville
-		\[Em] On voit des \[G]amours se cher\[D]cher,
-		\[Em] Des rendez-\[G]vous près des sta\[Em]tues
-		\[Em] Des fleurs qu'on \[G]jette dans des pa\[D]niers,
-		De la \[C]gare de Montpar\[G]nasse.
-	\endverse
+  \beginverse
+    \[Em] Depuis les \[C]balcons de la \[Em]ville
+    \[Em] On voit des \[G]amours se cher\[D]cher,
+    \[Em] Des rendez-\[G]vous près des sta\[Em]tues
+    \[Em] Des fleurs qu'on \[G]jette dans des pa\[D]niers,
+    De la \[C]gare de Montpar\[G]nasse.
+  \endverse
 
 \endsong

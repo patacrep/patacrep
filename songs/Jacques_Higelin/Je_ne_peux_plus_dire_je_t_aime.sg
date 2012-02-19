@@ -1,57 +1,61 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Je ne peux plus dire je t'aime}
-	[by=Jacques Higelin,cov=caviar-pour-les-autres,album=Caviar pour les autres…]
+  [by=Jacques Higelin,cov=caviar-pour-les-autres,album=Caviar pour les autres…]
 
-	\cover
+  \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
 
-	\beginverse*
-		\musicnote{Intro : \nolyrics \[G C]}
-	\endverse
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[G C]}}
+  \endverse
 
-	\beginverse
-		\[G] Je ne peux plus dire je \[Em]t'aime \[C]
-		\[G] Ne me de\[D]mande pas pour\[G]quoi \[C]
-		\[G] Je ne ressens ni joie ni \[Em]peine \[C]
-		\[G] Quand tes yeux \[D]{se posent} sur \[G]moi
-	\endverse
+  \beginverse
+    \[G] Je ne peux plus dire je \[Em]t'aime \[C]
+    \[G] Ne me de\[D]mande pas pour\[G]quoi \[C]
+    \[G] Je ne ressens ni joie ni \[Em]peine \[C]
+    \[G] Quand tes yeux \[D]{se posent} sur \[G]moi
+  \endverse
 
-	\beginverse
-		\[Em] Si la solitude te \[Bm]pèse
-		\[C] Quand tu viens \[D]{à passer} par \[G]là
-		\[Em] Et qu'un a\[C]{mi t'a} oubli\[G]é \[Em]
-		\[C] Tu peux tou\[D]jours compter sur \[G]moi
-	\endverse
+  \beginverse*
+    \[Em] Si la solitude te \[Bm]pèse
+    \[C] Quand tu viens \[D]{à passer} par \[G]là
+    \[Em] Et qu'un a\[C]{mi t'a} oubli\[G]é \[Em]
+    \[C] Tu peux tou\[D]jours compter sur \[G]moi
+  \endverse
 
-	\beginverse
-		\[G] Je ne peux plus dire je \[Em]t'aime \[C]
-		\[G] Sans donner \[D]{ma langue} à cou\[G]per \[C]
-		\[G] Trop de serpents sous les ca\[Em]resses \[C]
-		\[G] Trop d'amours \[D]{à couteaux} ti\[G]rés
-	\endverse
+  \beginverse
+    \[G] Je ne peux plus dire je \[Em]t'aime \[C]
+    \[G] Sans donner \[D]{ma langue} à cou\[G]per \[C]
+    \[G] Trop de serpents sous les ca\[Em]resses \[C]
+    \[G] Trop d'amours \[D]{à couteaux} ti\[G]rés
+  \endverse
 
-	\beginverse
-		\[Em] Si dure que soit la soli\[Bm]tude
-		\[C] Elle te ra\[D]mène à ton des\[G]tin
-		\[Em] La loi du \[C]grand amour est \[G]rude \[Em]
-		\[C] Pour qui s'est \[D]trompé de che\[G]min
-	\endverse
+  \beginverse*
+    \[Em] Si dure que soit la soli\[Bm]tude
+    \[C] Elle te ra\[D]mène à ton des\[G]tin
+    \[Em] La loi du \[C]grand amour est \[G]rude \[Em]
+    \[C] Pour qui s'est \[D]trompé de che\[G]min
+  \endverse
 
-	\beginverse
-		\[G] Je ne peux plus dire je \[Em]t'aime \[C]
-		\[G] Ne me de\[D]mande pas pour\[G]quoi \[C]
-		\[G] Toi et moi ne sommes plus les \[Em]mêmes \[C]
-		\[G] Pourquoi l'a\[D]mour vient et s'en \[G]va
-	\endverse
+  \beginverse
+    \[G] Je ne peux plus dire je \[Em]t'aime \[C]
+    \[G] Ne me de\[D]mande pas pour\[G]quoi \[C]
+    \[G] Toi et moi ne sommes plus les \[Em]mêmes \[C]
+    \[G] Pourquoi l'a\[D]mour vient et s'en \[G]va
+  \endverse
 
-	\beginverse
-		\[Em] Si la solitude te \[Bm]pèse
-		\[C] Quand le des\[D]tin te mène i\[G]ci
-		\[Em] Et qu'un a\[C]{mi t'a} oubli\[G]é \[Em]
-		\[C] Tu peux tou\[D]jours compter sur \[G]moi
-
-		\[Em] Et qu'un a\[C]{mi vienne} à man\[G]quer \[Em]
-		\[C] Tu peux tou\[D]jours compter sur \[G]moi
-	\endverse
+  \beginverse*
+    \[Em] Si la solitude te \[Bm]pèse
+    \[C] Quand le des\[D]tin te mène i\[G]ci
+    \[Em] Et qu'un a\[C]{mi t'a} oubli\[G]é \[Em]
+    \[C] Tu peux tou\[D]jours compter sur \[G]moi
+    \[Em] Et qu'un a\[C]{mi vienne} à man\[G]quer \[Em]
+    \[C] Tu peux tou\[D]jours compter sur \[G]moi
+  \endverse
 
 \endsong

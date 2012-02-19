@@ -1,48 +1,51 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Du rhum, des femmes}
-	[by=Soldat Louis,cov=premiere-bordee,album=Première bordée]
+  [by=Soldat Louis,cov=premiere-bordee,album=Première bordée]
 
-	\cover
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
 
   \beginverse*
-		\musicnote{\Intro : \nolyrics \[C G D G]}
+    \musicnote{\Intro : \nolyrics{\[C G D G]}}
   \endverse
 
-	\beginchorus
-		Du \[G]rhum, des femmes et d'la \[C]bière nom de \[G]Dieu
-		Un \[C]accordé\[G]on pour val\[C]ser tant qu'on \[D]veut
-		Du \[G]rhum, des femmes, c'est ça \[C]qui rend heu\[G]reux
-		Que l'\[C]diable nous em\[G]porte, on n'a \[D]rien trouvé d'\[G]mieux
-		Oh \[C]oh oh oh \[Bm]oh, on n'a \[Am]rien trouvé d'\[G]mieux
-	\endchorus
+  \beginchorus
+    Du \[G]rhum, des femmes et d'la \[C]bière nom de \[G]Dieu
+    Un \[C]accordé\[G]on pour val\[C]ser tant qu'on \[D]veut
+    Du \[G]rhum, des femmes, c'est ça \[C]qui rend heu\[G]reux
+    Que l'\[C]diable nous em\[G]porte, on n'a \[D]rien trouvé d'\[G]mieux
+    Oh \[C]oh oh oh \[Bm]oh, on n'a \[Am]rien trouvé d'\[G]mieux
+  \endchorus
 
-	\beginverse
-		He\[G]llo cap'tain, fais bri\[C]ller tes ga\[G]lons
-		Et res\[C]te bien au \[G]chaud quand on \[C]gèle sur le \[D]pont
-		Nous \[G]c'est notre peine qui nous \[C]coule  sur le \[G]front
-		Alors \[C]tiens bien les \[G]rênes, tu co\[D]nnais la chan\[G]son
-	\endverse
+  \beginverse
+    He\[G]llo cap'tain, fais bri\[C]ller tes ga\[G]lons
+    Et res\[C]te bien au \[G]chaud quand on \[C]gèle sur le \[D]pont
+    Nous \[G]c'est notre peine qui nous \[C]coule  sur le \[G]front
+    Alors \[C]tiens bien les \[G]rênes, tu co\[D]nnais la chan\[G]son
+  \endverse
 
-	\beginverse
-		Ça \[G]fait une paye qu'on n'a \[C]pas touché \[G]terre
-		Et même \[C]une paye qu'on s'\[G]fait des gon\[C]zesses en pos\[D]ter
-		Tant \[G]pis pour celle qui s'poin\[C]t'ra la pre\[G]mière
-		J'lui dé\[C]monte la pass'\[G]relle, la cale la \[D]dunette ar\[G]rière
-	\endverse
+  \beginverse
+    Ça \[G]fait une paye qu'on n'a \[C]pas touché \[G]terre
+    Et même \[C]une paye qu'on s'\[G]fait des gon\[C]zesses en pos\[D]ter
+    Tant \[G]pis pour celle qui s'poin\[C]t'ra la pre\[G]mière
+    J'lui dé\[C]monte la pass'\[G]relle, la cale la \[D]dunette ar\[G]rière
+  \endverse
 
-	\beginverse
-		Tout \[G]est gravé quelque \[C]part sur ma \[G]peau
-		Tell'ment qu'\[C]j'en ai les \[G]bras come des \[C]romans-pho\[D]tos
-		Ble\[G]ssures de guerre, culs d'bou\[C]teilles, coups d'cou\[G]teaux
-		Tant qu'y au\[C]ra des comp\[G]toirs, on au\[D]ra des hé\[G]ros
-	\endverse
+  \beginverse
+    Tout \[G]est gravé quelque \[C]part sur ma \[G]peau
+    Tell'ment qu'\[C]j'en ai les \[G]bras come des \[C]romans-pho\[D]tos
+    Ble\[G]ssures de guerre, culs d'bou\[C]teilles, coups d'cou\[G]teaux
+    Tant qu'y au\[C]ra des comp\[G]toirs, on au\[D]ra des hé\[G]ros
+  \endverse
 
-	\beginverse
-		Trois \[G]miles du cap, c'est les \[C]foies, c'est les \[G]glandes
-		Quand t'as l'\[C]cœur qui dé\[G]rape et les \[C]tripes qui fer\[D]mentent
-		J'e\[G]ssaie d'penser au claque, aux filles \[C]qui s'impa\[G]tientent
-		Pas au \[C]bateau qui \[G]craque entre \[D]deux défer\[G]lantes
-	\endverse
+  \beginverse
+    Trois \[G]miles du cap, c'est les \[C]foies, c'est les \[G]glandes
+    Quand t'as l'\[C]cœur qui dé\[G]rape et les \[C]tripes qui fer\[D]mentent
+    J'e\[G]ssaie d'penser au claque, aux filles \[C]qui s'impa\[G]tientent
+    Pas au \[C]bateau qui \[G]craque entre \[D]deux défer\[G]lantes
+  \endverse
 
 \endsong

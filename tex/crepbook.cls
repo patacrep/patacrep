@@ -10,12 +10,14 @@
 \newif{\iftabs}
 \newif{\iflilypond}
 \newif{\ifnodiagram}
+\newif{\ifimportantdiagramonly}
 \newif{\ifpictures}
 
 \tabsfalse
 \lilypondfalse
 \nodiagramtrue
 \picturesfalse
+\importantdiagramonlyfalse
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
@@ -24,6 +26,7 @@
 \DeclareOption{nolilypond}{\lilypondfalse}
 \DeclareOption{nodiagram}{\nodiagramtrue}
 \DeclareOption{diagram}{\nodiagramfalse}
+\DeclareOption{importantdiagramonly}{\importantdiagramonlytrue\nodiagramfalse}
 \DeclareOption{pictures}{\picturestrue}
 \DeclareOption{nopictures}{\picturesfalse}
 
@@ -217,8 +220,25 @@
   \fi%
 }%
 
+\let\gtab@Original\gtab
+\newcommand{\gtab@Hidden}[2]{}%
 \ifnodiagram%
-  \renewcommand{\gtab}[2]{}%
+\renewcommand{\gtab}{\@ifstar
+  \gtab@Hidden%
+  \gtab@Hidden%
+}
+\else%
+\ifimportantdiagramonly%
+\renewcommand{\gtab}{\@ifstar
+  \gtab@Original%
+  \gtab@Hidden%
+}
+\else%
+\renewcommand{\gtab}{\@ifstar
+  \gtab@Original%
+  \gtab@Original%
+}
+\fi%
 \fi%
 
 \newcommand{\lilypond}[1]{%

@@ -31,6 +31,7 @@
     Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
   \endchorus
 
+  \begin{repeatedchords}
   \beginverse
     Quand \[D]{les chauves-souris} flirtent avec les rossignols
     Dans \[A]{les ruines} d'un royaume où mon crâne est mongol
@@ -67,6 +68,7 @@
     Quand \[A]{tu branches} les hélices de ma mémoire astrale
     Sur \[Bm]{les capteurs-influx} de ta flamme initiale
   \endverse
+  \end{repeatedchords}
 
   \beginverse
     Quand \[E]{les traces} de Rorschach sur la tôle ondulée
@@ -79,6 +81,7 @@
     En \[C#m]rêvant de mourir sur ton ventre mouillé
   \endverse
 
+  \begin{repeatedchords}
   \beginverse
     Quand \[E]{dans la} lumière sale d'un miroir tamisé
     Tu \[B]croises l'œil éphémère d'une salamandre ailée
@@ -100,5 +103,6 @@
     Quand \[B]{tu pleures} essoufflée au creux de ma poitrine
     A\[C#m]{vec les} doux murmures des fréquences féminines
   \endverse
+  \end{repeatedchords}
 
 \endsong

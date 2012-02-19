@@ -34,6 +34,7 @@
     \[F#m] Before I turn into gold"\[E Esus4 E E7]
   \endchorus
 
+  \begin{repeatedchords}
   \beginverse
     \[A] But no one really could \[Bm]hear him
     \[E] The night so \[E7]dark and thick and \[A]green\[Asus4 A]
@@ -61,5 +62,6 @@
     \[D] "Oh yes, \[Dmaj7]{I'd like to} \[Bm]tell \[D] my \[A Amaj7]sto\[F#m]ry \[A]
     \[F#m] 'cause you know I feel I'm turning into \[E]go\[Esus4]o\[E]o\[E7]old" \[A]
   \endchorus
+  \end{repeatedchords}
 
 \endsong

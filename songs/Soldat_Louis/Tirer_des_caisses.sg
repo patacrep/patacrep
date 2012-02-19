@@ -22,6 +22,7 @@
     \[A]J'suis par\[E]tant ho hé \[A]ho
   \endverse
 
+  \begin{repeatedchords}
   \beginverse
     \[A]Descendre à terre OK\[D]
     Ho hé ho hé ho
@@ -57,5 +58,6 @@
     \[D]De Lorient à Glasgow
     \[A]J'suis par\[E]tant ho hé \[A]ho
   \endverse
+  \end{repeatedchords}
 
 \endsong

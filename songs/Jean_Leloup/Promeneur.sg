@@ -45,6 +45,7 @@
     Et le \[F]clou \[C] \[E] \[Am]
   \endchorus
 
+  \begin{repeatedchords}
   \beginverse
     \[C]Tu m'as recuei\[G]lli
     Tu m'as tra\[Am]hi
@@ -56,6 +57,7 @@
     Il est beaucoup trop \[G]tard
     Il est beaucoup trop \[C]loin
   \endverse
+  \end{repeatedchords}
 
   \beginchorus
     \[C]Prome\[F]neur

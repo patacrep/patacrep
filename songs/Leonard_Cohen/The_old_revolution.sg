@@ -32,6 +32,7 @@
     \[E]You whom I \[B7]cannot be\[A]tray. \[A E]
   \endchorus
 
+  \begin{repeatedchords}
   \beginverse
     \[E] I fought in the \[A]old revo\[E]lution
     \[B] On the side of the ghost and the \[E]King. \[E7]
@@ -58,5 +59,6 @@
     \[G#] Is burdened down with mo\[C#m]ney,
     The \[A]hand of your \[F#]lover is \[B]clay. \[B7]
   \endverse
+  \end{repeatedchords}
 
 \endsong

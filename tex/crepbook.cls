@@ -2,7 +2,7 @@
 % for LaTeX2e
 %
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{crepbook}[2009/11/12 v0.4.2 LaTeX document class for Crep
+\ProvidesClass{crepbook}[2012/02/19 v0.5.0 LaTeX document class for Crep
   Books]
 
 \makeatletter\def\input@path{{tex/}}
@@ -10,12 +10,16 @@
 \newif{\iftabs}
 \newif{\iflilypond}
 \newif{\ifnodiagram}
+\newif{\ifimportantdiagramonly}
 \newif{\ifpictures}
+\newif{\ifnorepeatchords}
 
 \tabsfalse
 \lilypondfalse
 \nodiagramtrue
 \picturesfalse
+\importantdiagramonlyfalse
+\norepeatchordstrue
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
@@ -24,8 +28,11 @@
 \DeclareOption{nolilypond}{\lilypondfalse}
 \DeclareOption{nodiagram}{\nodiagramtrue}
 \DeclareOption{diagram}{\nodiagramfalse}
+\DeclareOption{importantdiagramonly}{\importantdiagramonlytrue\nodiagramfalse}
 \DeclareOption{pictures}{\picturestrue}
 \DeclareOption{nopictures}{\picturesfalse}
+\DeclareOption{norepeatchords}{\norepeatchordstrue}
+\DeclareOption{repeatchords}{\norepeatchordsfalse}
 
 \DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}
@@ -217,8 +224,25 @@
   \fi%
 }%
 
+\let\gtab@Original\gtab
+\newcommand{\gtab@Hidden}[2]{}%
 \ifnodiagram%
-  \renewcommand{\gtab}[2]{}%
+\renewcommand{\gtab}{\@ifstar
+  \gtab@Hidden%
+  \gtab@Hidden%
+}
+\else%
+\ifimportantdiagramonly%
+\renewcommand{\gtab}{\@ifstar
+  \gtab@Original%
+  \gtab@Hidden%
+}
+\else%
+\renewcommand{\gtab}{\@ifstar
+  \gtab@Original%
+  \gtab@Original%
+}
+\fi%
 \fi%
 
 \newcommand{\lilypond}[1]{%
@@ -413,5 +437,25 @@
 }{%
   \end{verse*}
 }
+
+%% \SB@chordsoff with a greater for the line spacing
+\newcommand{\CB@chordshidden}{%
+  \def\SB@bracket##1]{\ignorespaces}%
+  \let\SB@rechord\relax%
+  \let\SB@ch\SB@ch@off%
+  \ifSB@measurespec%
+    \ifmeasures\SB@measureson\else\SB@measuresoff\fi%
+  \else%
+    \SB@measuresoff%
+  \fi%
+  \ifSB@preamble\let\colbotglue{\z@\@plus.5\textheight}\fi%
+  \SB@setbaselineskip%
+}
+
+\newenvironment{repeatedchords}{%
+  \ifnorepeatchords%
+    \CB@chordshidden%
+  \fi
+}{}%
 
 \makeatother

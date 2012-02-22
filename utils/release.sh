@@ -35,9 +35,10 @@ then
     fi;
     echo "new version : $MAIN.$MAJOR.$MINOR"
     #update version field in tmpl files
-    sed -i "s/\"[0-9]+.[0-9]+.[0-9]+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep.tmpl
-    sed -i "s/\"[0-9]+.[0-9]+.[0-9]+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/ancient.tmpl
-    sed -i "s/\"[0-9]+.[0-9]+.[0-9]+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-en.tmpl
+    sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep.tmpl
+    sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/ancient.tmpl
+    sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-en.tmpl
+    sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-improved.tmpl
 else
     echo "keeping release version"
 fi;
@@ -70,11 +71,12 @@ make clean
 
 git status 
 
-if [ $# -eq 1 ];
+if [ $# -eq 1 ]
 then
     ./utils/new-songs-list.sh | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
     echo "\nversion $MAIN.$MAJOR.$MINOR\n" | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
-    git add templates/patacrep-en.tmpl templates/patacrep.tmpl templates/ancient.tmpl books/volume-4.sb NEWS
+    git add templates/*.tmpl
+    git add books/volume-4.sb NEWS
     git commit -m "patacrep release version $MAIN.$MAJOR.$MINOR" 
     git tag "patacrep_$MAIN.$MAJOR.$MINOR"
 fi

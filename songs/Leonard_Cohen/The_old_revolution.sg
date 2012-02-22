@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{The Old Revolution}
-  [by=Leonard Cohen,cov=songs-from-a-room,album=Songs from a Room]
+\beginsong{The old revolution}
+  [by=Leonard Cohen,cov=songs-from-a-room,album=Songs from a room]
 
   \cover
   \gtab{E}{022100}
@@ -11,12 +11,8 @@
   \gtab{Am}{X02210}
   \gtab{G#}{4:022100}
   \gtab{C#m}{4:X02210}
-  \gtab{F#}{2:X22100}
+  \gtab{F#}{2:022100}
   \gtab{B7}{2:X02020}
-
-  \beginverse*
-    \musicnote{\Intro : \nolyrics{\[E]}}
-  \endverse
 
   \beginverse
     \[E] I finally \[A] broke into the \[E]prison

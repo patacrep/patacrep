@@ -7,10 +7,11 @@
   \gtab{A}{X02220}
   \gtab{D}{XX0232}
   \gtab{E}{022100}
-  \gtab{F#m}{2:X22000}
+  \gtab{F#m}{2:022000}
 
   \beginverse*
-    \musicnote{Répéter deux fois chaque couplet}
+    \musicnote[french]{Répéter deux fois chaque couplet}
+    \musicnote[english]{Repeat each verse twice}
   \endverse
 
   \beginverse
@@ -36,7 +37,7 @@
     \[A]Se prendre des caisses OK\[D]
     Ho hé ho hé ho
     \[A]Dans l'noir d'un claque à mat'\[E]lots
-    J'ima\[F#m]{gine au} coeur de l'ivresse
+    J'ima\[F#m]{gine au} cœur de l'ivresse
     \[D]Une frangine ses caresses
     \[A]Et l'so\[E]leil ho hé \[A]ho
   \endverse

@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{A Bunch Of Lonesome Heroes}
-  [by=Leonard Cohen,cov=songs-from-a-room,album=Songs from a Room]
+\beginsong{A bunch of lonesome heroes}
+  [by=Leonard Cohen,cov=songs-from-a-room,album=Songs from a room]
 
   \cover
   \gtab{A}{X02220}
@@ -11,14 +11,11 @@
   \gtab*{Asus4}{X02230}
   \gtab{D}{XX0232}
   \gtab*{Dmaj7}{000222}
-  \gtab{F#m}{2:X22000}
+  \gtab{F#m}{2:022000}
   \gtab{B}{2:X02220}
   \gtab*{Amaj7}{002120}
   \gtab*{Esus4}{022200}
 
-  \beginverse*
-    \musicnote{\Intro : \nolyrics{\[A]}}
-  \endverse
 
   \beginverse
     \[A] A bunch of lonesome and very quarrelsome \[Bm]heroes
@@ -28,10 +25,10 @@
   \endverse
 
   \beginchorus
-    \[D Dmaj7] \[Bm]"I'd like to \[D]tell my \[A]story"\[Amaj7 F#m A]
-    \[B] Said one of them so young and \[E]bold, \[E7]
-    \[D] "I'd \[Dmaj7]like to \[Bm]tell \[D] my \[A]story\[Amaj7 F#m A]
-    \[F#m] Before I turn into gold"\[E Esus4 E E7]
+    \[D Dmaj7] \[Bm]``I'd like to \[D]tell my \[A]story''\[Amaj7 F#m A]
+    \[B] Said one of them so young and \[E]bold \[E7]
+    \[D] ``I'd \[Dmaj7]like to \[Bm]tell \[D] my \[A]story\[Amaj7 F#m A]
+    \[F#m] Before I turn into gold''\[E Esus4 E E7]
   \endchorus
 
   \begin{repeatedchords}
@@ -53,14 +50,14 @@
     \[A] I sing this for the \[Bm]crickets
     \[E] I sing this \[E7] for the \[A]army\[Asus4 A]
     I sing this for your \[Bm]children
-    \[E] And for all \[E7]  who do not \[A]need me\[Asus4 A]
+    \[E] And for all \[E7] who do not \[A]need me\[Asus4 A]
   \endverse
 
   \beginchorus
-    \[D Dmaj7] \[Bm]"I'd like to \[D]tell my \[A]story"\[Amaj7 F#m A]
+    \[D Dmaj7] \[Bm]``I'd like to \[D]tell my \[A]story''\[Amaj7 F#m A]
     \[B] Said one of them so \[E]bold \[E7]
-    \[D] "Oh yes, \[Dmaj7]{I'd like to} \[Bm]tell \[D] my \[A Amaj7]sto\[F#m]ry \[A]
-    \[F#m] 'cause you know I feel I'm turning into \[E]go\[Esus4]o\[E]o\[E7]old" \[A]
+    \[D] ``Oh yes, \[Dmaj7]{I'd like to} \[Bm]tell \[D] my \[A Amaj7]sto\[F#m]ry \[A]
+    \[F#m] 'cause you know I feel I'm turning into \[E]go\[Esus4 E E7]ld'' \[A]
   \endchorus
   \end{repeatedchords}
 

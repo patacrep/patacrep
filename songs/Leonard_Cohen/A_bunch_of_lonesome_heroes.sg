@@ -16,9 +16,6 @@
   \gtab*{Amaj7}{002120}
   \gtab*{Esus4}{022200}
 
-  \beginverse*
-    \musicnote{\Intro: \nolyrics{\[A]}}
-  \endverse
 
   \beginverse
     \[A] A bunch of lonesome and very quarrelsome \[Bm]heroes

@@ -1,8 +1,9 @@
 {
-"template" : "patacrep-improved.tmpl",
+"template" : "patacrep.tmpl",
 "lang" : "french",
 "bookoptions" : [
     "importantdiagramonly",
+    "repeatchords",
     "lilypond",
     "pictures"
   ],

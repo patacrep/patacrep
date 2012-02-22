@@ -1,13 +1,13 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Winter Lady}
+\beginsong{Winter lady}
   [by=Leonard Cohen,cov=songs-of-leonard-cohen,album=Songs of Leonard Cohen]
 
   \cover
   \gtab*{Amaj7}{5:X0221X}
-  \gtab*{D+4 (couplets)}{3:X3201X}
+  \gtab*{D+4\Verse}{3:X3201X}
   \gtab{C}{X3201X}
-  \gtab*{D+4 (refrain)}{3:X0201X}
+  \gtab*{D+4\Chorus}{3:X0201X}
   \gtab*{Am7}{X0201X}
 
   \musicnote{4 cordes centrales en arpège}

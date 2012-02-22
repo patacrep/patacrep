@@ -1,0 +1,64 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{The Old Revolution}
+  [by=Leonard Cohen,cov=songs-from-a-room,album=Songs from a Room]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{B}{2:X02220}
+  \gtab{E7}{020100}
+  \gtab{Am}{X02210}
+  \gtab{G#}{4:022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#}{2:X22100}
+  \gtab{B7}{2:X02020}
+
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[E]}}
+  \endverse
+
+  \beginverse
+    \[E] I finally \[A] broke into the \[E]prison
+    \[B] I found my place in the \[E]chain \[E7]
+    \[A] Even damnation is \[E]poisoned with \[Am]rainbows
+    \[E] All the brave young men
+    \[G#] They're waiting now to see a sig\[C#m]nal
+    Which some \[A]killer will be \[F#]lighting for \[B]pay \[B7]
+  \endverse
+
+  \beginchorus
+    \[A] Into this furnace I \[E]ask you now to \[Am]venture
+    \[E]You whom I \[B7]cannot be\[A]tray \[A E]
+  \endchorus
+
+  \begin{repeatedchords}
+  \beginverse
+    \[E] I fought in the \[A]old revo\[E]lution
+    \[B] On the side of the ghost and the \[E]King \[E7]
+    \[A] Of course I was very young and I \[E]thought that we were \[Am]winning
+    \[E] I can't pretend
+    \[G#] I still feel very much like sin\[C#m]ging
+    As they \[A]carry the \[F#]bodies a\[B]way \[B7]
+  \endverse
+
+  \beginverse
+    \[E] Lately you've \[A]started to \[E]stutter
+    \[B] As though you had nothing to \[E]say \[E7]
+    \[A] To all of my architects \[E]{let me} be \[Am]traitor
+    \[E] Now let me say
+    \[G#] I myself gave the or\[C#m]der
+    To \[A]sleep and to \[F#]search and to des\[B]troy \[B7]
+  \endverse
+
+  \beginverse
+    \[E] Yes, you who are \[A]broken by \[E]power
+    \[B] You who are absent all \[E]day \[E7]
+    \[A] You who are kings for the sake of your \[E]children's \[Am]story
+    \[E] The hand of your beggar
+    \[G#] Is burdened down with mo\[C#m]ney
+    The \[A]hand of your \[F#]lover is \[B]clay \[B7]
+  \endverse
+  \end{repeatedchords}
+
+\endsong

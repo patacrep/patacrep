@@ -52,7 +52,8 @@
   \end{repeatedchords}
 
   \beginverse*
-    \musicnote{Coda : Gratter une fois chaque accord}
+    \musicnote[french]{Coda : Gratter une fois chaque accord}
+    \musicnote[english]{Coda : Play each chord once}
   \endverse
 
 \endsong

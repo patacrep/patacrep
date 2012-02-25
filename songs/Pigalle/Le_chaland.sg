@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Le chaland}
+  [by=Pigalle,cov=regards-affliges,album=Regards affligés sur la morne et pitoyable existence de Benjamin Trembley personnage falot mais ô combien attachant]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Am] \[G]} \rep{2}}
+  \endverse
+
+  \beginverse
+    \[Am]À l'auberge du \[G]chaland qui passe, il \[Dm]boit du café \[Am]tasse sur tasse
+    \[G]Il a des yeux cou\[F]leur canal, c'est pas \[Am]banal
+  \endverse
+
+  \beginverse
+    On ne sait pas depuis combien de temps, de jours, d'années exactement
+    On sait seulement qu'il attend le chaland
+  \endverse
+
+  \beginchorus
+    \[F]Sur sa table, y'a \[G]toujours des fleurs parce \[Am]que la patronne a bon \[G]cœur
+    \[F]Pour ce client \[G]qui attend le \[Am]chaland
+  \endchorus
+
+  \beginverse
+    Y'en a qui disent qu'il a souffert au temps d'avant, une vie d'enfer
+    Et c'est pour ça qu'il attend le chaland
+  \endverse
+
+  \beginverse
+    D'autres disent qu'il y croit vraiment, qu'il l'a même vu une nuit devant
+    Y'en a plus pourtant depuis longtemps de chalands
+  \endverse
+
+  \beginverse*
+    \nolyrics{\Bridge : | \[Am] \[G] | \[Dm] \[Am] | \[G] \[F] | \[Am] | \rep{2}}
+  \endverse
+
+  \beginverse
+    Un jour on va retrouver son corps dans le canal ou sur le port
+    Alors lentement arrivera le chaland
+  \endverse
+
+  \beginverse*
+    \[F]Sur sa table y'aur\[G]a plus de fleurs, la patronne aur\[Am]a perdu son \[G]cœur
+    \[F]Pour ce client qui \[G]attendait le \[Am]chaland
+  \endverse
+
+\endsong

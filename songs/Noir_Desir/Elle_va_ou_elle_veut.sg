@@ -1,0 +1,35 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Elle va où elle veut}
+  [by=Noir Désir,cov=du-ciment-sous-les-plaines, album=Du ciment sous les plaines]
+
+  \cover
+  \gtab{G#m}{4:022000}
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+
+  \beginverse
+    Je sais \[G#m]où la trouver, elle sait où me v\[E]oir
+    toujours \[G#m]employés, à réduire les éc\[E]arts
+    quand on l'ap\[F#]proche enf\[E]in
+    aussi p\[F#]rès qu'on aille, on ne possède r\[E]ien
+    Elle va où elle \[G#m]veut \[E]
+  \endverse
+
+  \beginverse
+    du feu du bruit, pour mériter le silence
+    au bout du compte, ça ressemble à de la chance
+    et comme on dit, parfois
+    si tu tiens à toi, ne fais jamais comme eux
+    Elle va où elle veut
+  \endverse
+
+  \beginverse
+    Si tout file, entre nos doigts
+    le jeux qui nous tiennent, resteront toujours là
+    Y'a rien à dire, de plus
+    depuis toujours, c'est une chose entendue
+    Elle va où elle veut
+  \endverse
+
+\endsong

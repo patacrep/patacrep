@@ -1,0 +1,47 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Tu m'donnes le mal}
+  [by=Noir Désir,cov=du-ciment-sous-les-plaines,album=Du ciment sous les plaines]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+
+  \beginverse
+    \[Dm]Avec tes manieres \[C]que tu as toujours
+    \[Dm]Quand tu traines-la \[C]tu m'donnes le mal
+    \[Dm]Tu lis sans fin d\[C]es magazines
+    \[G]Ou il y a de la joie \[Dm]tu m'donnes le mal
+  \endverse
+
+  \beginchorus
+    \[Dm]tu m'donnes le mal, le mal
+    C'est la \[F]spirale infer\[Dm]nale
+    \[Dm]Remonte encore, et encore
+    Jusqu'à la \[F]fin et jusqu'au \[Dm]bord
+  \endchorus
+
+  \beginverse
+    Comme tu as pris soin qu'elle brille de loin
+    Ta surface lisse tu m'donnes le mal
+    Mais reste a voir le soleil noir
+    De ta narcisse tu m'donnes le mal
+  \endverse
+
+  \beginverse
+    Avec sur tes levres ce sourire bleme
+    Toujours le meme tu m'donnes le mal
+    Il y a ce poids autour de toi c'est comme tu l'aimes
+    Tu m'donnes le mal
+  \endverse
+
+  \beginverse
+    Je semerai sur tes yeux morts
+    Les aiguilles d'or de la {\og}Buena dicha{\fg}
+    J'm'en lave les mains, j'm'en lave le sang
+    Chacun sa joie, toi, tu m'donnes le mal
+  \endverse
+
+\endsong

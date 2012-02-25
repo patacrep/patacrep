@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{Charlie}
   [by=Noir Désir,cov=du-ciment-sous-les-plaines,album=Du ciment sous les plaines]
 
@@ -8,47 +8,48 @@
   \gtab{E}{022100}
 
   \beginverse
-    Son \[F#m]ombre glisse et sa semelle claque \[E]
-    Charlie care\[F#m]sse le trottoir \[E]
-    Il n'a q\[F#m]ue les os, l'esprit et \[E]la peau
-    Charlie va\[F#m] danser ce soir \[E]
+    Son \[F#m]ombre glisse et sa \[E]semelle claque
+    Charlie \[F#m]caresse le trot\[E]toir
+    Il n'a \[F#m]que les os, l'esprit \[E]{et la} peau
+    Charlie \[F#m]va danser ce \[E]soir
   \endverse
 
+  \beginchorus
+    Allez Char\[F#m]lie \[E]
+    Tiens toi \[F#m]droit \[E]
+    Ce que c'est \[F#m]beau \[E]
+    Quand elle \[F#m]coule, la rivière \[E]de sang chaud
+  \endchorus
+
+  \begin{repeatedchords}
   \beginverse
-    Allez Charlie\[F#m] \[E]
-    Tiens toi droit\[F#m] \[E]
-    Ce que c'est beau\[F#m] \[E]
-    Quand elle coule, \[F#m]la rivière de sang \[E]chaud
+    Là ils se \[F#m]tiennent au fond, le temps \[E]et le son
+    Pour la \[F#m]vie, sweet little \[E]blues
+    Accroche-\[F#m]toi aux plis de la \[E]mélodie
+    Qui ne \[F#m]sait pas qui elle \[E]suit
   \endverse
 
-  \beginverse
-    Là ils se tiennent au fond
-    Le temps et le son
-    Pour la vie, sweet little blues
-    Accroche toi aux plis de la mélodie
-    Qui ne sait pas qui elle suit
-  \endverse
+  \beginchorus
+    Charlie, Char\[F#m]lie \[E]
+    Les filles \[F#m]fondent \[E]
+    Vieux \[F#m]salaud ! \[E]
+    Là elle \[F#m]coule, la rivière \[E]de sang chaud
+  \endchorus
+  \end{repeatedchords}
 
-  \beginverse
-    Charlie, Carlie
-    Les filles fondent
-    Vieux salaud !
-    Là elle coule
-    La rivière de sang chaud
-  \endverse
+  \begin{bridge}
+    Le \[F#m]cœur dans les tempes et la tempête \[E]au ventre
+    Charlie sort et se \[F#m]perd dans le dédale des rues \[E]
+    Où un taxi le prend sur \[F#m]son capot d'ar\[E]gent
+  \end{bridge}
 
-  \beginverse*
-    Le co\[F#m]eur dans les tempes et la tempê\[E]te au ventre
-    Charlie sort\[F#m] et se perd dans le dédale des rues \[E]
-    Où un \[F#m]taxi le prend sur son capot d'argent \[E]
-  \endverse
-
-  \beginverse*
-    Là elle tra\[F#m]ine sa bouche pale au fond du canivau \[E]
-    Où elle cou\[F#m]le ? \[E]
-    où elle cou\[F#m]le ? \[E]
-    où elle cou\[F#m]le \[E]
-    \[F#m]La rivière de sang \[E]chaud
-  \endverse
+  \begin{repeatedchords}
+  \beginchorus
+    Mainte\[F#m]nant dans l'eau sale, elle traîne \[E]sa bouche pâle
+    Au fond du cani\[F#m]vau \[E]
+    Où elle cou\[F#m]le ? \[E] \rep{2}
+    Où elle cou\[F#m]le, la rivière \[E]de sang chaud
+  \endchorus
+  \end{repeatedchords}
 
 \endsong

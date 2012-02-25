@@ -4,60 +4,62 @@
   [by=Noir Désir,cov=veuillez-rendre-l-ame,album=Veuillez rendre l'âme]
 
   \cover
-  \gtab{Bm}{2:X02210}
+  \gtab{E}{022100}
   \gtab{G}{320003}
   \gtab{A}{X02220}
 
   \beginverse
-    \[Bm]C'est le soir et le vent s'est levé \[G] \[A]
-    \[Bm]Dans les ruelles ou la poussière vole \[G] \[A]
-    \[Bm]Aii, c'est l'heure où vont danser \[G] \[A]
-    \[Bm]Ceux que la chaleur ne peut laisser \[G] \[A]
+    \[E]C'est le soir et le vent s'est levé \[G] \[A]
+    \[E]Dans les ruelles ou la poussière vole \[G] \[A]
+    \[E]Ah, c'est l'heure où vont danser \[G] \[A]
+    \[E]Ceux que la chaleur ne peut laisser \[G] \[A]
+  \endverse
+
+  \beginchorus
+    C'est un \[A]endroit où l'on voit courir dans les veines\[G]{\dots} cette \[E]chaleur
+  \endchorus
+
+  \begin{repeatedchords}
+  \beginverse
+    \[E]Et Marie aiguise son regard \[G] \[A]
+    \[E]Elle a vu ce qui vient de nulle part \[G] \[A]
+    \[E]Elle a crispé la main sur la lame \[G] \[A]
+    \[E]Attention à la blessure madame \[G] \[A]
+  \endverse
+
+  \beginchorus
+    Oh mais \[A]on n'sent pas la douleur, sinon dans les cœurs \[G]{\dots} cette \[E]chaleur
+  \endchorus
+
+  \beginverse
+    \[E]C'est ce démon dans son \[G]sang \[A]à \[E]elle \[G] \[A]
+    \[E]Qui a rongé lente\[G]ment \[A]ses \[E]ailes \[G] \[A]
+    \[E]Ah, c'est dans le \[G]ven\[A]tre \[E]là \[G] \[A]
+    \[E]Marie sait ce qui ar\[G]ri\[A]ve\[E]ra \[G] \[A]
+  \endverse
+
+  \beginchorus
+    Dans cet \[A]endroit où on laisse aller \[G] {\dots} elle se \[E]lève
+  \endchorus
+
+  \beginverse
+    Et prend son arme si blanche
+    C'est pour
   \endverse
 
   \beginverse*
-    C'est un endr\[A]oit où l'on voit courrir dans les v\[G]eines{\dots} cette chal\[Bm]eur
+    \[E]Crever le corps de ce \[G]fils \[A]de \[E]pute
+    \[E]Si blanc pendant \[G]{qu'il} \[A]en \[E]est
+    \[E]Encore temps, allez \[G]res\[A]pire \[E]bien
+    \[E]Avance \[G]en\[A]co\[E]re
+    \[E]Mais avance
   \endverse
 
-  \beginverse
-    Et Marie aiguise son regard
-    Elle a vu ce qui vient de nulle part
-    Elle a crispé la main sur la lame
-    Attention à la blessure madame
-  \endverse
+  \beginchorus
+    Il n'sen\[A]tira pas la douleur ; peut être la peur \[G]{\dots} cette \[E]chaleur
+  \endchorus
 
-  \beginverse*
-    Oh mais on n'sent pas la douleur, sinon dans les cœurs{\dots} cette chaleur
-  \endverse
-
-  \beginverse
-    C'est ce démon dans son sang à elle
-    Qui a rongé lentement ses ailes
-    Aii, c'est dans le ventre là
-    Marie sait ce qui arrivera
-  \endverse
-
-  \beginverse*
-    Dans cet endroit où on laisse aller
-  \endverse
-
-  \beginverse
-    Elle se lève et elle prend
-    Son arme si blanche
-    C'est pour crever le corps
-    De se fils de pute
-    Si blanc pendant qu'il en est
-    Encore temps
-    Allez respire bien
-    Avance encore
-    Mais avance
-  \endverse
-
-  \beginverse*
-    Il n'sentira pas la douleur ; peut être la peur{\dots} cette chaleur
-  \endverse
-
-  \beginverse
+  \begin{bridge}
     Sur les draps trop blancs
     L'auréole grandit
     C'est le sang
@@ -65,12 +67,11 @@
     Elle part sur les rails des tramways
     Elle court légère
     Légère
-    Et la pluie lave les rues
     Et la pluie lave ses mains
-    Elle est propre enfin
-    Elle est propre enfin
-
+    Et la pluie lave les rues
+    Elle est propre enfin \rep{2}
     Cette chaleur
-  \endverse
+  \end{bridge}
+  \end{repeatedchords}
 
 \endsong

@@ -1,6 +1,7 @@
 \selectlanguage{french}
-\songcolumns{1}
-\beginsong{La seine}[by=M,cov=La-seine,album=La seine]
+\songcolumns{2}
+\beginsong{La seine}
+  [by=M,cov=La-seine,album=La seine]
 
   \cover
   \capo{5}
@@ -18,21 +19,25 @@
   \beginverse
     \[Am]Elle sort de son lit \[F]tellement sure d'elle
     \[C]La Seine, \[E]la Seine, \[Am]la Seine
-    \[Am]Tellement jolie \[F]elle m'ensorcelle
-    \[C]La Seine, \[E]la Seine, \[Am]la Seine
-    \[Am]Extralucide la \[F]lune est sure
-    \[C]La Seine, \[E]la Seine, \[Am]la Seine
-    \[Am]Tu n'es pas soul \[F]Paris est sous
+    \[Am]Tellement jolie, \[F]elle m'ensorcelle
     \[C]La Seine, \[E]la Seine, \[Am]la Seine
   \endverse
+
+  \begin{repeatedchords}
+  \beginverse
+    \[Am]Extralucide, la \[F]Lune est sure
+    \[C]La Seine, \[E]la Seine, \[Am]la Seine
+    \[Am]Tu n'es pas saoul, \[F]Paris est sous
+    \[C]La Seine, \[E]la Seine, \[Am]la Seine
+  \endverse
+  \end{repeatedchords}
 
   \beginchorus
     \[Am]Je ne sais, ne sais, ne sais \[F]pas pourquoi
     C'est comme \[C]ça, la \[E]Seine et \[Am]moi
     \[Am]Je ne sais, ne sais, ne sais \[F]pas pourquoi
-    On s'aime comme \[C]ça la \[E]seine et \[Am]moi
+    On s'aime comme \[C]ça, la \[E]Seine et \[Am]moi
   \endchorus
-
 
   \beginverse
     Extralucide quand tu es sur
@@ -41,7 +46,7 @@
     La Seine, la Seine, la Seine
   \endverse
 
-  \beginverse*
+  \begin{bridge}
     \[A]Sur l'pont des arts
     \[D]Mon cœur vac\[E]ille
     \[F]Entre deux \[G]eaux
@@ -49,11 +54,11 @@
     \[A]Cet air si pur
     \[D]Je le resp\[E]ire
     \[F]Nos reflets \[G]perchés sur ce \[A]pont
-  \endverse
+  \end{bridge}
 
   \beginverse*
     Tu lu tu lu tu {\dots}
-    c'est comme ça la Seine et moi \rep{4}
+    C'est comme ça la Seine et moi \rep{4}
   \endverse
 
 \endsong

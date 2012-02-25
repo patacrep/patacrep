@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{La rage}
   [by=Noir Désir,cov=ou-veux-tu-que-je-regarde,album=Où veux tu que je regarde]
 
@@ -14,7 +14,7 @@
   \beginverse
     \[Am] Dans les salons bleus de la \[C]classe supérieure, \[D]on sourit
     Tou\[Am]cher du bout des doigts les rythmes \[C]sensuels assa\[D]gis
-    \[Am] Sans rien se dire les \[C]futilités d'us\[D]age
+    \[Am] Sans rien à se dire, les \[C]futilités d'us\[D]age
     Et au \[Am]dehors les chiens se frottent aux \[C]herbes s\[D]ages
   \endverse
 
@@ -23,24 +23,29 @@
     \[Em] Où en est l'\[G]art Edg\[Em]art ?
     Je n'l'ai pas \[G]vu depuis long\[Em]temps
     Je n'ai pas l'\[G]temps, le temps, le temps
-    D'attraper la \[Am]rage{\dots}
+    D'attraper la \[Am]rage
   \endchorus
 
   \beginverse
     Et les filles à l'âme romantique et ensorcelée
     Les lèvres refermées sur les pages de leurs cahiers
-    Ah pouvoir partir et mourrir avec El Desdichado
+    Ah pouvoir partir et mourir avec El Desdichado
     Et oublier les mots des salons gris
   \endverse
 
   \beginverse
-    Dans les salons bleus de la classe supérieure, on sourit toucher du bout
-    des doigts les rythmes sensuels assagis sans rien se dire les futilités
-    d'usage et au dehors les chiens se frottent aux herbes sages des jardins
-    où les filles à l'âme romantique et ensorcelée les lèvres refermées sur
-    les pages de leurs cahiers ahh pouvoir partir et mourrir avec El Desdichado
-    et oublier les mots des salons gris où la classe supérieure danse encore
-    du bout des{\dots} \[Am] \[C] \[G]
+    Dans les salons bleus de la classe supérieure, on sourit
+    Toucher du bout des doigts les rythmes sensuels assagis
+    Sans rien à se dire, les futilités d'usage
+    Et au dehors les chiens se frottent aux herbes sages des jardins
+  \endverse
+
+  \beginverse*
+    Où les filles à l'âme romantique et ensorcelée
+    Les lèvres refermées sur les pages de leurs cahiers
+    Ah pouvoir partir et mourir avec El Desdichado
+    Et oublier les mots des salons gris
+    Où la classe supérieure danse encore du bout des{\dots} \[Am] \[C] \[G]
   \endverse
 
   \beginverse*

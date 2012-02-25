@@ -1,0 +1,59 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{La seine}[by=M,cov=La-seine,album=La seine]
+
+  \cover
+  \capo{5}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+
+  \lilypond{La_seine_rythm}
+
+  \beginverse*
+    {\nolyrics \Intro : \lilypond{La_seine_riff1} | \[Am] | \[F] | \[C] \[E] | \[Am] |}
+  \endverse
+
+  \beginverse
+    \[Am]Elle sort de son lit \[F]tellement sure d'elle
+    \[C]La Seine, \[E]la Seine, \[Am]la Seine
+    \[Am]Tellement jolie \[F]elle m'ensorcelle
+    \[C]La Seine, \[E]la Seine, \[Am]la Seine
+    \[Am]Extralucide la \[F]lune est sure
+    \[C]La Seine, \[E]la Seine, \[Am]la Seine
+    \[Am]Tu n'es pas soul \[F]Paris est sous
+    \[C]La Seine, \[E]la Seine, \[Am]la Seine
+  \endverse
+
+  \beginchorus
+    \[Am]Je ne sais, ne sais, ne sais \[F]pas pourquoi
+    C'est comme \[C]ça, la \[E]Seine et \[Am]moi
+    \[Am]Je ne sais, ne sais, ne sais \[F]pas pourquoi
+    On s'aime comme \[C]ça la \[E]seine et \[Am]moi
+  \endchorus
+
+
+  \beginverse
+    Extralucide quand tu es sur
+    La Seine, la Seine, la Seine
+    Extravagante quand l'ange est sur
+    La Seine, la Seine, la Seine
+  \endverse
+
+  \beginverse*
+    \[A]Sur l'pont des arts
+    \[D]Mon cœur vac\[E]ille
+    \[F]Entre deux \[G]eaux
+    \[A]L'air est si bon
+    \[A]Cet air si pur
+    \[D]Je le resp\[E]ire
+    \[F]Nos reflets \[G]perchés sur ce \[A]pont
+  \endverse
+
+  \beginverse*
+    Tu lu tu lu tu {\dots}
+    c'est comme ça la Seine et moi \rep{4}
+  \endverse
+
+\endsong

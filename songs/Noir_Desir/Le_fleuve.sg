@@ -1,0 +1,36 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Le fleuve}
+  [by=Noir Désir,cov=veuillez-rendre-l-ame,album=Veuillez rendre l'âme]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+
+  \beginverse*
+    {\nolyrics Intro : \[Bm]}
+  \endverse
+
+  \beginverse
+    Quand la nu\[D]it s'étend\[A], elle se laisse \[Bm]tomber au hasard
+    Elle envel\[D]oppe et s\[A]ape les caracasses atr\[Bm]oces
+    Et si tu p\[D]eux te p\[A]erdre du coté du \[Bm]fleuve
+    Il te calmer\[D]a jusqu'\[A]à ce que tu ne p\[Bm]uisses plus respirer
+  \endverse
+
+  \beginverse
+    Comme elle est belle la ville et ses lumières seulement pour les fous
+    Celui qui veut, il la découpe en tableaux
+    Là c'est l'heure où le silence balance sur les eaux du fleuve
+    Le rythme des horloges qui pourrissent
+  \endverse
+
+  \beginverse
+    y à la-bas cette fille qui enfle son souffle et ses jupes
+    Ouvertes comme des corolles en suspens
+    Plus elle danse, plus elle flambe, plus il l'aime, lui, comme il sent
+    Que no se puede, la vida no vale nada{\dots} no vale nada
+  \endverse
+
+\endsong

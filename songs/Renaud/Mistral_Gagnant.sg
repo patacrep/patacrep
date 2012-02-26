@@ -11,9 +11,9 @@
   \gtab{G}{320003}
   \gtab{F#}{2:022100}
 
-\beginverse*
-\musicnote{ intro : \nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
-\endverse
+  \beginverse*
+    \musicnote{ intro : \nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
+  \endverse
 
   \beginverse
     Ah\dots m'as\[Bm]seoir sur un banc
@@ -72,9 +72,9 @@
     Et les mistrals gagnants
   \endverse
 
-\beginverse*
-\musicnote{\nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
-\endverse
+  \beginverse*
+    \musicnote{\nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
+  \endverse
 
   \beginverse
     Ah\dots m'asseoir sur un banc

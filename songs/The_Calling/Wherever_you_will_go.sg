@@ -11,42 +11,42 @@
   \gtab{F}{1:022100}
 
   \begin{tab}
-  \single 5 3
-  \single 4 2
-  \single 3 0
-  \single 4 2
-  \single 3 0
-  \single 2 1
-  \single 3 0
-  \single 4 2
-  \bar
-  \single 5 2
-  \single 4 0
-  \single 3 0
-  \single 4 0
-  \single 3 0
-  \single 2 1
-  \single 3 0
-  \single 4 0
-  \bar
-  \single 5 0
-  \single 4 2
-  \single 3 0
-  \single 4 2
-  \single 3 0
-  \single 2 1
-  \single 3 0
-  \single 4 2
-  \bar
-  \single 6 1
-  \single 3 0
-  \single 2 1
-  \single 6 1
-  \single 3 0
-  \single 2 1
-  \single 6 1
-  \single 2 1
-  \bar
+    \single 5 3
+    \single 4 2
+    \single 3 0
+    \single 4 2
+    \single 3 0
+    \single 2 1
+    \single 3 0
+    \single 4 2
+    \bar
+    \single 5 2
+    \single 4 0
+    \single 3 0
+    \single 4 0
+    \single 3 0
+    \single 2 1
+    \single 3 0
+    \single 4 0
+    \bar
+    \single 5 0
+    \single 4 2
+    \single 3 0
+    \single 4 2
+    \single 3 0
+    \single 2 1
+    \single 3 0
+    \single 4 2
+    \bar
+    \single 6 1
+    \single 3 0
+    \single 2 1
+    \single 6 1
+    \single 3 0
+    \single 2 1
+    \single 6 1
+    \single 2 1
+    \bar
   \end{tab}
 
   \beginverse*

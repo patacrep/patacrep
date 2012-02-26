@@ -18,9 +18,9 @@
   \gtab{Em7}{010000}
   \gtab{Dm}{XX0231}
 
-\beginverse*
-\musicnote{ intro:\nolyrics{ | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] |\[G4/B] \[Am] | }}
-\endverse
+  \beginverse*
+    \musicnote{ intro:\nolyrics{ | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] |\[G4/B] \[Am] | }}
+  \endverse
 
   \beginverse
     \[Am]Angie, \[E7]Angie
@@ -46,9 +46,9 @@
     Where will it lead us from here?
   \endverse
 
-\beginverse*
-\musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
-\endverse
+  \beginverse*
+    \musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
+  \endverse
 
   \beginverse
     Oh Angie don't you weep
@@ -58,9 +58,9 @@
     Ain't it time we said goodbye?
   \endverse
 
-\beginverse*
-\musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
-\endverse
+  \beginverse*
+    \musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
+  \endverse
 
   \beginverse
     With no loving in our souls

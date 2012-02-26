@@ -16,7 +16,7 @@
 
   \meter{12}{8}
   \beginverse*
-    \musicnote{\nolyrics{intro: | D | G | D | G | } }
+    \musicnote{\nolyrics{\Intro: | \[D] | \[G] | \[D] | \[G] | } }
   \endverse
 
   \beginverse
@@ -37,9 +37,9 @@
     Sometimes everything is wrong
     Now it's time to sing along
     When your day is night alone
-    (hold on, hold on)
+    \echo{Hold on, hold on}
     If you feel like letting go
-    (hold on)
+    \echo{Hold on}
     If you think you've had too much of this life
     Well hang on
   \endverse
@@ -78,9 +78,6 @@
     You are not alone
   \endverse
 
-  \beginverse*
-    \musicnote{*}
-    \lilypond{Everybody_hurts}
-  \endverse
+  \lilypond{Everybody_hurts}
 
 \endsong

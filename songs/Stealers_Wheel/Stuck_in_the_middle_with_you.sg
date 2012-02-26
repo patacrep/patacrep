@@ -12,12 +12,10 @@
   \gtab{A7}{X02020}
 
   \beginverse*
-
-    \musicnote{ rythm: \lilypond{Stuck_in_the_middle} }
-
-    \musicnote{ verse: \nolyrics{ | \[D] | \[D] | \[D] | \[D] | \[G7] | \[G7] | \[D] | \[D] | } }
-    \musicnote{ chorus: \nolyrics{ | \[A] | \[C] \[G] | \[D] | \[D] | } }
-    \musicnote{ bridge: \nolyrics{ | \[G7] | \[G7] | \[D] | \[D] | \[G7] | \[G7] | \[D] | \[A7] | } }
+    \musicnote{\Rythm: \lilypond{Stuck_in_the_middle} }
+    \musicnote{\Verse: \nolyrics{ | \[D] | \[D] | \[D] | \[D] | \[G7] | \[G7] | \[D] | \[D] | } }
+    \musicnote{\Chorus: \nolyrics{ | \[A] | \[C] \[G] | \[D] | \[D] | } }
+    \musicnote{\Bridge: \nolyrics{ | \[G7] | \[G7] | \[D] | \[D] | \[G7] | \[G7] | \[D] | \[A7] | } }
   \endverse
 
   \beginverse
@@ -42,9 +40,9 @@
 
   \beginverse
     Well you \[G7]started out with nothing
-    And you're proud that you're a self made man, \[D]
-    And your \[G7]friends, they all come crawlin, Slap you on the back and say
-    \[D]Please \dots \[A7]Please \dots
+    And you're proud that you're a self made man \[D]
+    And your \[G7]friends, they all come crawlin, slap you on the back and say
+    \[D]Please, \[A7]please
   \endverse
 
   \beginverse

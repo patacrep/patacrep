@@ -10,7 +10,7 @@
 
 
   \beginverse*
-    \musicnote{\nolyrics{intro : | \[G] | \[Am] | \[D] | \[G] |}}
+    \musicnote{\nolyrics{\Intro : | \[G] | \[Am] | \[D] | \[G] |}}
   \endverse
 
   \beginverse
@@ -20,25 +20,27 @@
     Mais \[D]tu devrais réfléchir, les larmes, \[G]t'as déjà donné
   \endverse
 
-  \beginchorus
-    Tu p\[G]eux préparer l'ca\[Am]{fé noir}
-    \[D]Tes nuits blanches et même ton m\[G]ouchoir
-    Il \[G]est pire que moi tu l'\[Am]sais bien
-    \[D]Et j'suis déjà pas un s\[G]aint
-  \endchorus
+  \begin{repeatedchords}
+    \beginchorus
+      Tu p\[G]eux préparer l'ca\[Am]{fé noir}
+      \[D]Tes nuits blanches et même ton m\[G]ouchoir
+      Il \[G]est pire que moi tu l'\[Am]sais bien
+      \[D]Et j'suis déjà pas un s\[G]aint
+    \endchorus
 
-  \beginverse
-    Je n'\[G]t'avais pas promis mes p\[Am]{lus belles} années
-    Elles s\[D]ont loin derrière moi mais \[G]{le passé}, c'est le passé
-    L'im\[G]portant aujourd'hui bien \[Am]{sûr c'est} ton bonheur
-    Mais je \[D]l'vois mal parti avec cet \[G]oiseau de malheur
-  \endverse
+    \beginverse
+      Je n'\[G]t'avais pas promis mes p\[Am]{lus belles} années
+      Elles s\[D]ont loin derrière moi mais \[G]{le passé}, c'est le passé
+      L'im\[G]portant aujourd'hui bien \[Am]{sûr c'est} ton bonheur
+      Mais je \[D]l'vois mal parti avec cet \[G]oiseau de malheur
+    \endverse
 
-  \beginverse
-    On f\[G]ait comme on a dit \[Am]entre nous, c'est net
-    Tu s\[D]'ras l'amie d'mon ami, j'essaier\[G]ai de faire avec
-    \[G]Et si j'tiens pas la route, je \[Am]sais où vous trouver
-    La n\[D]uit où l'insomnie f'ra qu'j'ai \[G]envie d'vous parler
-  \endverse
+    \beginverse
+      On f\[G]ait comme on a dit \[Am]entre nous, c'est net
+      Tu s\[D]'ras l'amie d'mon ami, j'essaier\[G]ai de faire avec
+      \[G]Et si j'tiens pas la route, je \[Am]sais où vous trouver
+      La n\[D]uit où l'insomnie f'ra qu'j'ai \[G]envie d'vous parler
+    \endverse
+  \end{repeatedchords}
 
 \endsong

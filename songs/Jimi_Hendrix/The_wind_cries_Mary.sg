@@ -20,7 +20,7 @@
 
 
   \beginverse*
-    \nolyrics{ intro: | \[E&] \[E] \[F] | \[E&*] \[E*] \[F*] | } \rep{2}
+    \musicnote{\nolyrics{\Intro: | \[E\flt] \[E] \[F] | \[E\flt*] \[E*] \[F*] | } \rep{2}}
   \endverse
 
   \beginverse
@@ -40,12 +40,13 @@
   \endverse
 
   \beginverse*
-    \nolyrics{ | \[F] \[E&] | \[B&*] \[A&] | } \rep{3} \nolyrics{ | \[G] | \[B&*] | \[D&] | \[F] | }
+    \nolyrics{ | \[F] \[E&] | \[B&*] \[A&] | } \rep{3}
+    \nolyrics{ | \[G] | \[B&*] | \[D&] | \[F] | }
   \endverse
 
   \beginverse
-    The traffic lights turn blue tomorrowF
-    And shine the emptyness down on my bedF
+    The traffic lights turn blue tomorrow
+    And shine the emptiness down on my bed
     The tiny island sags downstream
     Cause the life that lived is dead
     And the wind screams Mary

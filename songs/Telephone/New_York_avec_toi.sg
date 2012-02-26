@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{New York avec toi}
-  [by=Téléphone,cov=un-autre-monde,album=Un autre mode]
+  [by=Téléphone,cov=un-autre-monde,album=Un autre monde]
 
   \cover
   \gtab{A}{X02220}
@@ -9,30 +9,30 @@
   \gtab{B}{2:X02220}
 
   \beginverse
-    \[A]Un jour j'irai a \[F#m]{New York} avec toi
+    \[A]Un jour, j'irai a \[F#m]{New York} avec toi
     \[A]Toutes les nuits décon\[B]ner
     \[A]Et voir aucun film en ent\[F#m]{ier, ca va} d'soi
     \[A]Avoir la vie partag\[B]{ée, taillad}\[D]ée
     \[A]Bercés par le ronron de l'air co\[F#m]nditionné
-    \[A]Dormir dans un hotel delat\[B]é
-    \[A]Trainer du côté gay et voir leurs \[F#m]corps se serrer
+    \[A]Dormir dans un hôtel delat\[B]é
+    \[A]Traîner du côté gay et voir leurs \[F#m]corps se serrer
     \[A]Voir leurs cœurs se vider et saig\[B]ner
     Oui, saig\[D]ner
   \endverse
 
   \beginchorus
-    \[A]Un jour\[B]{ j'irai} la-\[D]bas
+    \[A]Un jour\[B]{ j'irai} là-\[D]bas
     \[A]Un jour \[B]{Chat, un} autre \[D]Rat
     \[A]Voir si le cœur de la v\[B]ille bat en t\[D]oi
-    Et tu m'emmenèras \[A] \[B] \[D]
-    Emmène moi ! \[A] \[B] \[D]
+    Et tu m'emmèneras \[A] \[B] \[D]
+    Emmène-moi ! \[A] \[B] \[D]
   \endchorus
 
   \beginverse
-    Un jour j'aurai New York au bout des doigts
+    Un jour, j'aurai New York au bout des doigts
     On y jouera, tu verras
-    Dans les clubs il fait noir, mais il ne fait pas froid
-    il ne fait pas froid si t'y crois
+    Dans les clubs, il fait noir, mais il ne fait pas froid
+    Il ne fait pas froid si t'y crois
     Et j'y crois !
     Les flaques de peinture sur les murs ont parfois
     La couleur des sons que tu bois
@@ -42,15 +42,15 @@
   \endverse
 
   \beginverse*
-    Un jour j'irai la-bas
+    Un jour, j'irai la-bas
     Un jour Chat, un autre Rat
     Voir si le cœur de la ville bat en toi
-    Et tu m'emmeneras
-    Emmène moi, Emmène moi \rep{2}
-    Toucher a ci, toucher a ca
+    Et tu m'emmèneras
+    Emmène-moi, emmène-moi \rep{2}
+    Toucher à ci, toucher à ça
     Voir si le cœur de la ville bat en moi
     Et tu m'emmèneras !
-    Emmène moi !
+    Emmène-moi !
   \endverse
 
   \lilypond{New_york_avec_toi}

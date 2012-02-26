@@ -12,8 +12,8 @@
   \gtab{D}{XX0232}
 
   \beginverse*
-    \musicnote{rythm : \lilypond{Kiss_me_forever} }
-    \musicnote{\nolyrics{intro : | \[Em] | \[G] | } \rep{2} }
+    \musicnote{\Rythm : \lilypond{Kiss_me_forever} }
+    \musicnote{\nolyrics{\Intro : | \[Em] | \[G] | } \rep{2} }
   \endverse
 
   \beginverse
@@ -44,7 +44,7 @@
     Tiens les clefs de la punto
     L'amour est dans le coffre
     Y'a mon disque de Renaud
-    Tiens d'ailleurs je te l'offre
+    Tiens d'ailleurs, je te l'offre
   \endverse
 
   \beginverse*

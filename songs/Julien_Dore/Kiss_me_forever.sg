@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Kiss me forever}
+  [by=Julien Doré,cov=bichon,album=Bichon]
+
+  \cover
+  \capo{3}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{B&}{1:X02220}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+
+  \beginverse*
+    \musicnote{rythm : \lilypond{Kiss_me_forever} }
+    \musicnote{\nolyrics{intro : | \[Em] | \[G] | } \rep{2} }
+  \endverse
+
+  \beginverse
+    \[Em]{ Bébé} comme un enfant qu'on \[G]déguise
+    \[Em]{ Tu pleures} et pleures en\[G]core
+    \[Em]{ La rigueur} est de \[B&]mise
+    \[A]{ Un souffle} au cœur en\[D]core
+
+    Oh \[Em]j'aime, j'aime \[G]pas quand tu files
+    \[Em]{ Quand} tu t'habilles en quatre se\[G]condes
+    \[Em]{ Retourne} le vi\[B&]nyle
+    \[A]{ Éteins} ta dernière \[D]blonde
+  \endverse
+
+  \beginchorus
+    \[Em]Kiss me \[G]forever
+    \[Em]{ Écrit} au lips\[G]tick
+    \[Em]Kiss me \[G]forever
+    \[Em]{ Au rouge} métal\[G]lique
+  \endchorus
+
+  \beginverse
+    Toujours tu pars sans laisser de mot
+    C'est comme une signature
+    Agrafé dans le dos
+    Cicatrices et morsures
+
+    Tiens les clefs de la punto
+    L'amour est dans le coffre
+    Y'a mon disque de Renaud
+    Tiens d'ailleurs je te l'offre
+  \endverse
+
+  \beginverse*
+    Kiss me forever \dots
+    Kiss me forever \dots
+  \endverse
+
+\endsong

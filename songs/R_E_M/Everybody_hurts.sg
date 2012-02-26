@@ -1,0 +1,86 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Everybody hurts}
+  [by=R.E.M,cov=automatic-for-the-people,album=Automatic for the people]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{G}{320033}
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{F#}{2:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{C/B}{X22010}
+  \gtab{Am}{X02210}
+
+  \meter{12}{8}
+  \beginverse*
+    \musicnote{\nolyrics{intro: | D | G | D | G | } }
+  \endverse
+
+  \beginverse
+    \[D]When your day is l\[G]ong and the n\[D]ight
+    The night is you\[G]{rs al}\[D]one
+    When you're sure you've ha\[G]{d enough} of this lif\[D*]e
+    Well hang \[G]on
+  \endverse
+
+  \beginchorus
+    \[Em]Don't let yourself go\[A] \[Em]
+    Cause everybody cr\[A]ies \[Em]
+    And \[A]everybody hurts
+  \endchorus
+
+  \beginverse
+    Sometimes
+    Sometimes everything is wrong
+    Now it's time to sing along
+    When your day is night alone
+    (hold on, hold on)
+    If you feel like letting go
+    (hold on)
+    If you think you've had too much of this life
+    Well hang on
+  \endverse
+
+  \beginchorus
+    Cause everybody hurts
+    Take comfort in your friends
+    Everybody hurts
+  \endchorus
+
+  \beginverse
+    \[F#]{ Don't} throw your han\[Bm]d \[F#]
+    Whoa \[Bm]now\[F#]{ don't} throw your h\[Bm]and \[C]
+    If you feel like you're a\[G]lone n\[C]{o no no} you're no\[C/B]{t alon}\[Am]e
+  \endverse
+
+  \beginverse
+    If you're on your own in this life
+    The days and nights are long
+    When you think you've had too much of this life
+    To hang on
+  \endverse
+
+  \beginchorus
+    Well everybody hurts sometimes
+    Everybody cries
+    And everybody hurts
+  \endchorus
+
+  \beginverse
+    Sometimes
+    But everybody hurts sometimes
+    So hold on hold on hold on hold on
+    Hold on hold on hold on hold on
+    Everybody hurts
+    You are not alone
+  \endverse
+
+  \beginverse*
+    \musicnote{*}
+    \lilypond{Everybody_hurts}
+  \endverse
+
+\endsong

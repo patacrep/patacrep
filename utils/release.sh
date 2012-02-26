@@ -38,7 +38,6 @@ then
     sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep.tmpl
     sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/ancient.tmpl
     sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-en.tmpl
-    sed -i "s/\"[0-9]\+.[0-9]\+.[0-9]\+\"/\"$MAIN.$MAJOR.$MINOR\"/" templates/patacrep-improved.tmpl
 else
     echo "keeping release version"
 fi;
@@ -50,6 +49,11 @@ fi;
 #echo "emacs batch indentation done !"
 ./utils/rules.py
 ./utils/resize-cover.py 
+
+#check for rights
+chmod 755 songs/*
+chmod 644 songs/*.*
+chmod 644 lilypond/*.ly
 
 #build all songbooks
 rm -f *.d 

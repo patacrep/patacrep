@@ -1,0 +1,62 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{The wind cries Mary}
+  [by=Jimi Hendrix,cov=are-you-experienced,album=Are you experienced]
+
+  \cover
+  \gtab{E&}{6:X0222X}
+  \gtab{E}{7:X0222X}
+  \gtab{F}{8:X0222X}
+  \gtab{E&*}{8:X200XX}
+  \gtab{E*}{9:X200XX}
+  \gtab{F*}{9:X311XX}
+  \gtab{C}{3:X02220}
+  \gtab{B&}{1:X02220}
+  \gtab{F**}{1:022100}
+  \gtab{G}{3:022100}
+  \gtab{B&*}{6:022100}
+  \gtab{A&}{4:022100}
+  \gtab{D&}{9:022100}
+
+
+  \beginverse*
+    \nolyrics{ intro: | \[E&] \[E] \[F] | \[E&*] \[E*] \[F*] | } \rep{2}
+  \endverse
+
+  \beginverse
+    \[C]After all the \[B&]jacks are in their \[F**]boxes
+    \[C]And the clowns have \[B&]all gone to \[F**]bed
+    \[C]You can hear happiness \[B&]staggering on \[F**]down the street
+    \[G]Footsteps \[B&*]dressed in \[E&]red\[E]\[F]
+    \[G]And the \[B&*]wind whispers \[E&]Mary\[E]\[F] \[E&*]\[E*]\[F*]
+  \endverse
+
+  \beginverse
+    A broom is drearily sweeping
+    Up the broken pieces of yesterday's life
+    Somewhere a queen is weeping
+    Somewhere a king has no wife
+    And the wind cries Mary
+  \endverse
+
+  \beginverse*
+    \nolyrics{ | \[F] \[E&] | \[B&*] \[A&] | } \rep{3} \nolyrics{ | \[G] | \[B&*] | \[D&] | \[F] | }
+  \endverse
+
+  \beginverse
+    The traffic lights turn blue tomorrowF
+    And shine the emptyness down on my bedF
+    The tiny island sags downstream
+    Cause the life that lived is dead
+    And the wind screams Mary
+  \endverse
+
+  \beginverse
+    Will the wind ever remember
+    The names it has blown in the past
+    With its crutch, its old age, and its wisdom
+    It whispers no, this will be the last
+    And the wind cries Mary
+  \endverse
+
+\endsong

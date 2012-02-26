@@ -1,0 +1,48 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La ballade nord-irlandaise}
+  [by=Renaud,cov=marchand-de-cailloux,album=Marchand de cailloux]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{C/B}{X22010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+
+  \beginverse
+    J'ai voulu plant\[C]{er un} \[F]orang\[C]er
+    Là où \[C/B]{la chans}\[Am]{on n'en} verr\[F]{a jam}\[G]ais
+    Là où les \[C]arbres n'ont jam\[C/B]{ais donn}\[Am]é
+    Que \[F]des gren\[C]ades dég\[F]oupill\[C]ées
+  \endverse
+
+  \beginverse
+    Jusqu'à Derr\[C]{y ma} \[F]bien-aim\[C]ée
+    Sur \[C/B]{mon bat}\[Am]eau j'ai \[F]navi\[G]gué
+    J'ai dit aux \[C]hommes qui \[C/B]{se batt}\[Am]aient
+    Je \[F]viens plant\[C]{er un} or\[F]ang\[C]er
+  \endverse
+
+  \beginverse
+    Buvons un verre, allons pêcher
+    Pas une guerre ne pourra durer
+    Lorsque la bière et l'amitié
+    Et la musique nous ferons chanter
+  \endverse
+
+  \beginverse
+    Tuez vos dieux à tout jamais
+    Sous aucune croix l'amour ne se plaît
+    Ce sont les hommes pas les curés
+    Qui font pousser les orangers
+  \endverse
+
+  \beginverse
+    Je voulais planter un oranger
+    Là où la chanson n'en verra jamais
+    Il a fleuri et il a donné
+    Les fruits sucrés de la liberté
+  \endverse
+
+\endsong

@@ -413,6 +413,10 @@
   \IfStrEq{\@lang}{english}{pattern}{}
   \IfStrEq{\@lang}{french}{motif}{}
 }
+\newcommand{\Rythm}{
+  \IfStrEq{\@lang}{english}{rythm}{}
+  \IfStrEq{\@lang}{french}{rythme}{}
+}
 
 \let\musicnoteORIG\musicnote
 \renewcommand{\musicnote}[2][]{%

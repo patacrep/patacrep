@@ -4,24 +4,34 @@
   [by=The Rolling Stones,cov=jump-back,album=Jump back]
 
   \cover
+
   \gtab{Am}{X02210}
+  \gtab{E7*}{00X430}
+  \gtab{G4}{3:XX3311}
+  \gtab{F4}{XX3311}
+  \gtab{F}{1:022100}
+  \gtab{C4}{X32310}
+  \gtab{C}{X32010}
+  \gtab{G4/B}{X2001X}
   \gtab{E7}{020100}
   \gtab{G}{320003}
-  \gtab{F}{1:022100}
-  \gtab{B&}{1:X02220}
+  \gtab{Em7}{010000}
   \gtab{Dm}{XX0231}
-  \gtab{C}{X32010}
+
+\beginverse*
+\musicnote{ intro:\nolyrics{ | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] |\[G4/B] \[Am] | }}
+\endverse
 
   \beginverse
     \[Am]Angie, \[E7]Angie
-    \[G]When will those \[F]clouds disap\[B&]pear\[F]?
+    \[G]When will those \[F]clouds disap\[C4]pear\[C]?
     \[Am]Angie, \[E7]Angie
-    \[G]When will it \[F]lead us from \[B&]here\[F]?
+    \[G]When will it \[F]lead us from \[C4]here\[C]?
     With no \[G]loving in our souls
     And no \[Dm]money in our \[Am]coats
     \[C]You can't \[F]say we're satis\[G]fied
     \[Am]Angie, \[E7]Angie
-    \[G]You can't \[F]say we never \[B&]tried\[F]
+    \[G]You can't \[F]say we never \[C4]tried\[C]
   \endverse
 
   \beginverse
@@ -36,8 +46,11 @@
     Where will it lead us from here?
   \endverse
 
+\beginverse*
+\musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
+\endverse
+
   \beginverse
-    \dots
     Oh Angie don't you weep
     Ah your kisses still taste sweet
     I hate that sadness in your eyes
@@ -45,8 +58,11 @@
     Ain't it time we said goodbye?
   \endverse
 
+\beginverse*
+\musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
+\endverse
+
   \beginverse
-    \dots
     With no loving in our souls
     And no money in our coats
     You can't say we're satisfied
@@ -60,10 +76,10 @@
   \endverse
 
   \beginverse
-    But Angie, Angie
-    Ain't it good to be alive?
-    Angie, Angie
-    They can't say we never tried
+    But \[Am]Angie, \[E7]Angie
+    \[G]Ain't it \[F]good to be al\[C4]ive\[C]?
+    \[Am]Angie, \[E7]Angie
+    \[G]They can't say \[F]we never tr\[Am]ied
   \endverse
 
 \endsong

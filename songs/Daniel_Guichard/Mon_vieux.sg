@@ -10,8 +10,10 @@
   \gtab{F}{1:022100}
   \gtab{G}{320003}
   \gtab{C7}{X32310}
-  \gtab{F7}{1:020100}
+  \gtab{F7M}{XX3210}
   \gtab{Dm}{XX0231}
+  \gtab{Dm7}{XX0211}
+  \gtab{G7}{320001}
 
   \beginverse
     \[C]Dans son vieux pardessus \[Am]râpé
@@ -28,10 +30,10 @@
   \endverse
 
   \beginchorus
-    \[C7]L'été, on allait voir la \[F7]mer
-    \[Dm]Tu vois, c'\[G]était pas la mi\[Em]sère
+    \[C7]L'été, on allait voir la \[F7M]mer
+    \[Dm]{Tu vois}, c'\[G]était pas la mi\[Em]sère
     \[Am]C'était pas non plus l'para\[F]dis
-    Eh \[Dm]oui, tant \[E]pis
+    Eh \[Dm]{oui, tant} \[E]pis
   \endchorus
 
   \beginverse
@@ -91,17 +93,17 @@
   \endverse
 
   \beginchorus
-    \[C7]Mais, quand on a juste \[F7]quinze ans
-    \[Dm]On n'a pas le \[G]cœur assez \[Em]grand
+    \[C7]Mais, quand on a juste \[F7M]quinze ans
+    \[Dm]{On n'a} pas le \[G]cœur assez \[Em]grand
     \[Am]Pour y loger toutes ces choses \[F]là
-    \[Dm]Tu vois \[E]
+    \[Dm]{Tu vois} \[E]
   \endchorus
 
   \beginchorus
-    \[C]Maintenant qu'il est loin d'ici
-    \[Am]En pensant à tout ça, j'me \[Em]dis
-    J'aimerais bien qu'il soit prés de moi
-    \[F]Papa\[G/C]
+    \[C7]Maintenant qu'il est loin d'\[F7M]ici
+    \[Dm]{En pensant} \[G]{à tout} ça, j'me \[Em]dis
+    \[Am]J'aimerais bien qu'il soit prés de \[F]moi
+    \[G]Pap\[Am]a \[Dm7] \[G7] \[C]
   \endchorus
 
 \endsong

@@ -4,23 +4,22 @@
   [by=Georges Brassens,cov=la-mauvaise-reputation,album=La mauvaise réputation]
 
   \cover
-  \capo{2}
-  \gtab{C}{332010}
-  \gtab{G7}{320001}
+  \gtab{D}{XX0232}
+  \gtab{A7}{X02020}
 
   \beginverse
-    \[C]C'est à travers de larges grilles
-    Que les femelles du can\[G7]ton
+    \[D]C'est à travers de larges grilles
+    Que les femelles du can\[A7]ton
     Contemplaient un puissant gorille
-    Sans souci du qu'en-dira-\[C]t-on
+    Sans souci du qu'en-dira-\[D]{t-on}
     Avec impudeur, ces commères
-    Lorgnaient même un endroit pré\[G7]cis
+    Lorgnaient même un endroit pré\[A7]cis
     Que, rigoureusement ma mère
-    M'a défendu de nommer i\[C]ci \dots
+    M'a défendu de nommer i\[D]ci \dots
   \endverse
 
   \beginchorus
-    Gare au go\[C]ri\[G7]i\[C]i\[G7]i\[C]lle !
+    Gare au go\[D]ri\[A7]i\[D]i\[A7]i\[D]lle !
   \endchorus
 
   \beginverse

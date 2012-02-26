@@ -11,6 +11,9 @@
   \gtab{G}{320003}
   \gtab{F#}{2:022100}
 
+\beginverse*
+\musicnote{ intro : \nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
+\endverse
 
   \beginverse
     Ah\dots m'as\[Bm]seoir sur un banc
@@ -69,6 +72,10 @@
     Et les mistrals gagnants
   \endverse
 
+\beginverse*
+\musicnote{\nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
+\endverse
+
   \beginverse
     Ah\dots m'asseoir sur un banc
     Cinq minutes avec toi
@@ -94,7 +101,8 @@
     Le temps est assassin
     Et emporte avec lui
     Le rire des enfants
-    Et les mistrals gagnants \rep{2}
+    Et les mistrals gagnants
+    \[A]Et les mistrals ga\[Bm]gnants \[Em] \[F#] \[Bm]
   \endverse
 
 \endsong

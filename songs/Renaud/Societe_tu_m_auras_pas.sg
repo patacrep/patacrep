@@ -4,16 +4,16 @@
   [by=Renaud,cov=amoureux-de-paname,album=Amoureux de Paname]
 
   \cover
-  \gtab{Em}{022000}
-  \gtab{D}{XX0232}
-  \gtab{C}{X32010}
-  \gtab{B7}{X21202}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
 
   \beginverse
-    Y'a eu \[Em]Antoine avant moi
-    Y'a eu \[D]Dylan avant lui
-    Après \[C]moi qui viendra ?
-    Après \[B7]moi c'est pas fini
+    Y'a eu \[Am]Antoine avant moi
+    Y'a eu \[G]Dylan avant lui
+    Après \[F]moi qui viendra ?
+    Après \[E]moi c'est pas fini
   \endverse
 
   \beginverse*
@@ -24,12 +24,12 @@
   \endverse
 
   \beginchorus
-    J'ai chan\[Em]{té dix} fois, cent fois
-    J'ai hur\[D]{lé pendant} des mois
-    J'ai cri\[C]{é sur} tous les toits
-    Ce que \[D]{je pensais} de toi
-    Socié\[C]té, socié\[D]té
-    Tu m'auras \[Em]pas \[D C B7]
+    J'ai chan\[Am]{té dix} fois, cent fois
+    J'ai hur\[G]{lé pendant} des mois
+    J'ai cri\[F]{é sur} tous les toits
+    Ce que \[G]{je pensais} de toi
+    Socié\[F]té, socié\[G]té
+    Tu m'auras \[Am]pas \[G F E]
   \endchorus
 
   \beginverse

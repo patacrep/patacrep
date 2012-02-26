@@ -1,0 +1,58 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{New York avec toi}
+  [by=Téléphone,cov=un-autre-monde,album=Un autre mode]
+
+  \cover
+  \gtab{A}{X02220}
+  \gtab{F#m}{2:022000}
+  \gtab{B}{2:X02220}
+
+  \beginverse
+    \[A]Un jour j'irai a \[F#m]{New York} avec toi
+    \[A]Toutes les nuits décon\[B]ner
+    \[A]Et voir aucun film en ent\[F#m]{ier, ca va} d'soi
+    \[A]Avoir la vie partag\[B]{ée, taillad}\[D]ée
+    \[A]Bercés par le ronron de l'air co\[F#m]nditionné
+    \[A]Dormir dans un hotel delat\[B]é
+    \[A]Trainer du côté gay et voir leurs \[F#m]corps se serrer
+    \[A]Voir leurs cœurs se vider et saig\[B]ner
+    Oui, saig\[D]ner
+  \endverse
+
+  \beginchorus
+    \[A]Un jour\[B]{ j'irai} la-\[D]bas
+    \[A]Un jour \[B]{Chat, un} autre \[D]Rat
+    \[A]Voir si le cœur de la v\[B]ille bat en t\[D]oi
+    Et tu m'emmenèras \[A] \[B] \[D]
+    Emmène moi ! \[A] \[B] \[D]
+  \endchorus
+
+  \beginverse
+    Un jour j'aurai New York au bout des doigts
+    On y jouera, tu verras
+    Dans les clubs il fait noir, mais il ne fait pas froid
+    il ne fait pas froid si t'y crois
+    Et j'y crois !
+    Les flaques de peinture sur les murs ont parfois
+    La couleur des sons que tu bois
+    Et puis c'est tellement grand que vite on oubliera
+    Que nulle part c'est chez moi, chez toi
+    Chez nous quoi !
+  \endverse
+
+  \beginverse*
+    Un jour j'irai la-bas
+    Un jour Chat, un autre Rat
+    Voir si le cœur de la ville bat en toi
+    Et tu m'emmeneras
+    Emmène moi, Emmène moi \rep{2}
+    Toucher a ci, toucher a ca
+    Voir si le cœur de la ville bat en moi
+    Et tu m'emmèneras !
+    Emmène moi !
+  \endverse
+
+  \lilypond{New_york_avec_toi}
+
+\endsong

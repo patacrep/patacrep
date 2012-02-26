@@ -1,0 +1,76 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Rayon de soleil}
+  [by=William Baldé,cov=william-balde-en-corps-etranger,album=En corps étranger]
+
+  \cover
+  \gtab{G}{320030}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+
+  \beginverse*
+    \musicnote{\Intro :\nolyrics{ | \[G] | \[D] | \rep{2} }}
+  \endverse
+
+  \beginverse
+    \[G]Un rayon de so\[D]leil, dort sur tes cheveux lo\[G]ngs
+    Sur nos corps de sei\[D]gle, et nous joue du v\[G]iolon ouhouhou\[D]h
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[G]Un rayon de sole\[D]il sur le sommeil de pl\[G]omb
+      Une guitare s\[D]èche, Lou Reed à la mais\[G]on, Hey babe take a walk on a wil\[D]d side
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[G]Un matin suspendu aux fleurs de ton jardin
+    \[D]Ma main sur ton p'tit cul cherche le chemin
+    \rep{2}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[G]Un rayon de Sole\[D]il j'embrasse tes pieds sal\[G]es
+      Un disque de M\[D]arley, joue {\og}No woman no c\[G]ry{\fg}, No woman \echo{No woman}, no \[D]woman no cry
+    \endverse
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[C]Par la fenêtre ouverte, l\[G]'air que nous respirons
+    \[C]Ses petites poussières, si p\[D]âle d'émotions
+  \end{bridge}
+
+  \textnote{\Chorus}
+
+  \begin{repeatedchords}
+    \beginverse
+      \[G]Un rayon de sole\[D]il, sur ton si beau visa\[G]ge
+      \[G]Aux abeilles se mèl\[D]ent, la voix de Bob Dyla\[G]n
+      Knock Knock Knocking'on H\[D]eaven's Door
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[G]Un matin suspendu aux fleurs de ton jardin
+    \[D]Ma main sur ton p'tit cul cherche le chemin
+    \[G]Un matin suspendu aux fleurs de ton jardin
+    \[E]Ma main sur ton p'tit cul
+  \endchorus
+
+  \beginverse
+    \[A]Un rayon de sole\[E]il, tu t'rhabilles pour de bo\[A]n
+    J'te ramène par l\[E]es tresses, à mon corps de garç\[A]on, yeah yeah yeah yea\[E]h
+  \endverse
+
+  \beginchorus
+    \[A]Un matin suspendu aux fleurs de ton jardin
+    \[E]Ma main sur ton p'tit cul cherche le chemin
+    \[A]Un matin suspendu aux fleurs de ton jardin
+    \[E]Ma main sur ton p'tit cul
+  \endchorus
+
+\endsong

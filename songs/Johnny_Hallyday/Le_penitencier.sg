@@ -1,0 +1,56 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le pénitencier}
+  [by=Johnny Hallyday,cov=le-penitencier,album=Le pénitencier]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{F}{XX3211}
+  \gtab{E}{022100}
+
+
+  \beginverse
+    \[Am]Les portes d\[C]{u pén}\[D]itenc\[F]ier
+    bient\[Am]{ôt vont} \[C]{se referm}\[E]er
+    Et c'est l\[Am]{à que} j\[C]{e finir}\[D]{ai ma} v\[F]ie
+    comme d'\[Am]autres g\[E]{ars l'ont} fi\[E]nie
+  \endverse
+
+  \beginverse
+    Pour moi ma mère a donné
+    sa robe de mariée
+    Peux-tu jamais me pardonner
+    je t'ai trop fait pleurer
+  \endverse
+
+  \beginverse
+    Le soleil n'est pas fait pour nous
+    c'est la nuit qu'on peut tricher
+    Toi qui ce soir a tout perdu
+    demain tu peux gagner
+  \endverse
+
+  \beginverse
+    Oh ! Mères écoutez-moi
+    ne laissez jamais vos garçons
+    Seuls la nuit traîner dans les rues
+    ils iraient tout droit en prison
+  \endverse
+
+  \beginverse
+    Toi la fille qui m'a aimé
+    je t'ai trop fait pleurer
+    Les larmes de honte que tu as versées
+    il faut les oublier
+  \endverse
+
+  \beginverse
+    Les portes du pénitencier
+    bientôt vont se fermer
+    Et c'est là que je finirai ma vie
+    comme d'autres gars l'ont finie
+  \endverse
+
+\endsong

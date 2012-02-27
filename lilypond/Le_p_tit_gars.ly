@@ -1,8 +1,8 @@
 \include "header"
 \paper{
-  paper-height = 0.9\cm
-  line-width = 14.5\cm
-  paper-width = 15\cm
+  paper-height = 1.1\cm
+  line-width   = 14.5\cm
+  paper-width  = 15\cm
 }
 {
   \relative c''

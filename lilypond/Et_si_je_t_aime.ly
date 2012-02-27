@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 4.2\cm}
+\paper{paper-height = 5.2\cm}
 
 {
   \relative c'''

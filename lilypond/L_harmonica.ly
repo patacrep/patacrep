@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 4\cm}
+\paper{paper-height = 5.0\cm}
 
 {
   \key a \minor

@@ -3,7 +3,7 @@
 {
   paper-width = 15\cm
   line-width = 14.5\cm
-  paper-height = 1.2\cm
+  paper-height = 1.4\cm
 }
 
 {

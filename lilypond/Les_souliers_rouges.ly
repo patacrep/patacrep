@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 3.0\cm}
+\paper{paper-height = 3.6\cm}
 
 {
   \key g \major

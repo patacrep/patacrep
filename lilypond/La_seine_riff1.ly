@@ -1,7 +1,8 @@
 \include "header"
 \paper{
-  paper-height = 1\cm
-  paper-width= 2.5\cm
+  paper-height = 1.1\cm
+  paper-width  = 2.5\cm
+  line-width   = 2.2\cm
 }
 
 \new TabStaff \relative c, {

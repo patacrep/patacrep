@@ -4,50 +4,54 @@
   [by=Leonard Cohen,cov=songs-of-leonard-cohen,album=Songs of Leonard Cohen]
 
   \cover
-  \gtab*{D4}{X5403X}
-  \gtab*{Amaj7}{X0565X}
+  % Note: la notation « N: » dans les accords suivants dénote d'un
+  % décalage de N cases, et non d'un barré à la case N
+  \gtab*{Amaj7}{5:X0221X}
+  \gtab*{D+\Verse}{3:X3201X}
   \gtab*{C}{X3201X}
-  \gtab{D}{XX0232}
-  \gtab{Am}{X02210}
+  \gtab*{D+\Chorus}{3:X0201X}
+  \gtab*{Am7}{X0201X}
+
+  \musicnote{4 cordes centrales en arpège}
 
   \beginverse*
-    \musicnote{\Intro: \nolyrics{\[Amaj7 D4]}}
+    \musicnote{\Intro: \nolyrics{\[Amaj7 D+]}}
   \endverse
 
   \beginverse
-    \[D4]Traveling \[Amaj7]lady, \[D4] stay a\[C]while
-    Un\[D4]til the \[Amaj7]night is \[D4]over
-    I'm just a \[Amaj7]station \[D4]on your \[C]way
-    I \[D4]know I'm \[Amaj7]not your \[D4]lover
+    \[D+]Traveling \[Amaj7]lady, \[D+] stay a\[C]while
+    Un\[D+]til the \[Amaj7]night is \[D+]over
+    I'm just a \[Amaj7]station \[D+]on your \[C]way
+    I \[D+]know I'm \[Amaj7]not your \[D+]lover
   \endverse
 
   \beginchorus
-    Well \[D]I lived with a \[Am]{child of snow}
-    \[D]When I was a \[Am]soldier
-    And I\[D] fought every \[Am]{man for} her
-    Un\[D]til the nights grew \[Am]colder
+    Well \[D+]I lived with a \[Am7]{child of snow}
+    \[D+]When I was a \[Am7]soldier
+    And I\[D+] fought every \[Am7]{man for} her
+    Un\[D+]til the nights grew \[Am7]colder
   \endchorus
 
   \begin{repeatedchords}
     \beginverse
-      She \[D4]used to \[Amaj7]wear her \[D4]hair like \[C]you
-      Ex\[D4]cept when \[Amaj7]she was \[D4]sleeping
-      And then she'd \[Amaj7]weave it \[D4]on a \[C]loom
-      Of \[D4]smoke and \[Amaj7]gold and \[D4]breathing
+      She \[D+]used to \[Amaj7]wear her \[D+]hair like \[C]you
+      Ex\[D+]cept when \[Amaj7]she was \[D+]sleeping
+      And then she'd \[Amaj7]weave it \[D+]on a \[C]loom
+      Of \[D+]smoke and \[Amaj7]gold and \[D+]breathing
     \endverse
 
     \beginchorus
-      And \[D4]why are you so \[Am]{quiet now}
-      \[D4]Standing there in the \[Am]doorway?
-      You \[D4]chose your journey \[Am]{long before}
-      You \[D4]came upon this \[Am]highway
+      And \[D+]why are you so \[Am7]{quiet now}
+      \[D+]Standing there in the \[Am7]doorway?
+      You \[D+]chose your journey \[Am7]{long before}
+      You \[D+]came upon this \[Am7]highway
     \endchorus
 
     \beginverse
-      \[D4]Traveling \[Amaj7]lady, \[D4] stay a\[C]while
-      Un\[D4]til the \[Amaj7]night is \[D4]over
-      I'm just a \[Amaj7]station \[D4]on your \[C]way
-      I \[D4]know I'm \[Amaj7]not your \[D4]lover
+      \[D+]Traveling \[Amaj7]lady, \[D+] stay a\[C]while
+      Un\[D+]til the \[Amaj7]night is \[D+]over
+      I'm just a \[Amaj7]station \[D+]on your \[C]way
+      I \[D+]know I'm \[Amaj7]not your \[D+]lover
     \endverse
   \end{repeatedchords}
 

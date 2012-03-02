@@ -7,11 +7,11 @@
   \gtab{Em}{022000}
   \gtab{Am}{X02210}
   \gtab{G}{320003}
-  \gtab{B7}{X21202}
-  \gtab{Em*}{7:X02210}
-  \gtab{Am*}{5:022000}
-  \gtab{G*}{3:022100}
-  \gtab{B7*}{2:X02020}
+  \gtab*{B7}{X21202}
+  \gtab*{Em*}{7:X02210}
+  \gtab*{Am*}{5:022000}
+  \gtab*{G*}{3:022100}
+  \gtab*{B7*}{2:X02020}
 
   \lilypond{La_declaration}
 

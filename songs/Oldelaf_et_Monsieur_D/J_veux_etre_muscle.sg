@@ -5,24 +5,24 @@
 
   \cover
   %tabs pour les couplets
-  \gtab{Gm}{10:X02210:}
-  \gtab{F}{8:X02220}
-  \gtab{B&}{6:022100}
-  \gtab{D7}{5:X02020}
+  \gtab*{Gm*}{10:X02210:}
+  \gtab*{F*}{8:X02220}
+  \gtab*{B&*}{6:022100}
+  \gtab*{D7*}{5:X02020}
   %tabs pour le refrain
   \gtab{B7}{2:X02020}
-  \gtab{Gm*}{3:022000}
-  \gtab{F*}{1:022100}
-  \gtab{B&*}{1:X02220}
+  \gtab{Gm}{3:022000}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
   \gtab{Cm}{3:X02210}
-  \gtab{D7*}{3:X2120X}
+  \gtab{D7}{3:X2120X}
 
   \beginverse
-    J'veux être mus\[Gm]clé
-    Pour pouvoir \[F]frimer sur la plage pendant l'é\[B&]té
-    Pour pouvoir m'\[F]inscrire dans un club de beach-vol\[Gm]ley
-    Pour épa\[F]ter les filles et puis les faire rê\[B&]ver
-    J'veux être mus\[D7]clé, j'veux être mus\[Gm]clé
+    J'veux être mus\[Gm*]clé
+    Pour pouvoir \[F*]frimer sur la plage pendant l'é\[B&*]té
+    Pour pouvoir m'\[F*]inscrire dans un club de beach-vol\[Gm*]ley
+    Pour épa\[F*]ter les filles et puis les faire rê\[B&*]ver
+    J'veux être mus\[D7*]clé, j'veux être mus\[Gm*]clé
   \endverse
 
   \beginverse
@@ -35,12 +35,12 @@
 
   \beginchorus
     Mais quand vient l'\[B7]heure du déjeuner
-    Tout ça j'ai \[Gm*]déjà oublié
-    Je reprends \[F*]plusieurs fois des frites
-    Je mange comme \[B&*]quatre, plutôt comme huit
+    Tout ça j'ai \[Gm]déjà oublié
+    Je reprends \[F]plusieurs fois des frites
+    Je mange comme \[B&]quatre, plutôt comme huit
     Et quand ar\[Cm]rive le dessert
-    J'voudrais prendre l'\[Gm]assiette toute entière
-    Et pour que je \[D7*]puisse la porter \dots
+    J'voudrais prendre l'\[Gm*]assiette toute entière
+    Et pour que je \[D7]puisse la porter \dots
     Ben faudrait qu'j'sois plus musclé
   \endchorus
 

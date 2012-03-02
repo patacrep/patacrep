@@ -10,10 +10,10 @@
   \gtab{E&}{6:X02220}
   \gtab{G}{3:022100}
   %chorus
-  \gtab{Fm*}{8:X02210}
+  \gtab*{Fm*}{8:X02210}
   \gtab{B&}{6:022100}
   \gtab{C}{8:022100}
-  \gtab{Cm*}{8:022000}
+  \gtab*{Cm*}{8:022000}
 
   \beginverse
     \[Cm]Plusieurs indices m'ont mis la puce à l'oreille

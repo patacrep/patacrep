@@ -56,18 +56,10 @@
     Je ne dirai rien
   \endverse
 
-  \beginverse
-    Ce soir à la brume nous irons ma brune
-    Cueillir des serments
-    Cette fleur sauvage qui fait des ravages
-    Dans les cœurs d'enfant
-  \endverse
 
   \beginverse*
-    Pour toi ma princesse, j'en ferai des tresses
-    Et dans tes cheveux
-    Ces serments ma belle te rendront cruelle
-    Pour tes amoureux
+    \musicnote[french]{Au premier couplet}
+    \musicnote[english]{First verse}
   \endverse
 
 \endsong

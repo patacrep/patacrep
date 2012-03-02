@@ -16,46 +16,47 @@
 
   \beginverse
     \[C]Ce soir à la brume \[Am]nous irons ma brune
-    \[Dm]Cueillir des ser\[G7]ments
-    \[C]Cette fleur sauvage \[Am]qui fait des ravages
-    \[Dm]Dans les \[G7]cœurs d'en\[C]fant
+    \[Dm]Cueillir des serments\[G7]
+    \[C]Cette fleur sauvage \[Am]{qui fait} des ravages
+    \[Dm]Dans les cœu\[G7]rs d'en\[C]fant
   \endverse
 
   \beginverse*
-    \[F]Pour toi ma princesse, \[G7]j'en ferai des tresses
+    \[F]Pour toi ma princesse, \[G7]{j'en ferai} des tresses
     Et dans tes che\[C]veux
-    \[E]Ces serments ma belle \[Am]te rendront cruelle
-    \[Dm]Pour tes \[G7]amou\[C]reux \[E Am G F G C]
+    \[E]Ces serments ma belle \[Am]{te rendront} cruelle
+    \[Dm]Pour tes a-\[G7]amou\[C]reux \[E Am G F G C]
   \endverse
 
-  \beginverse
-    Demain à l'aurore, nous irons encore
-    Glaner dans les champs
-    Cueillir des promesses, des fleurs de tendresse
-    Et de sentiments
-  \endverse
+  \begin{repeatedchords}
+    \beginverse
+      \[C]Demain à l'aurore, \[Am]nous irons encore
+      \[Dm]Glaner dans les champs\[G7]
+      \[C]Cueillir des promesses, \[Am]{des fleurs} de tendresse
+      \[Dm]{Et de} sen-\[G7]enti\[C]ments
+    \endverse
 
-  \beginverse*
-    Et sur la colline, dans les sauvagines
-    Tu te coucheras
-    Dans mes bras ma brune, éclairée de lune
-    Tu te donneras
-  \endverse
+    \beginverse*
+      \[F]Et sur la colline, \[G7]dans les sauvagines
+      Tu te couche\[C]ras
+      \[E]Dans mes bras ma brune, \[Am]éclairée de lune
+      \[Dm]{Tu te} do-\[G7]onne\[C]ras \[E Am G F G C]
+    \endverse
 
-  \beginverse
-    C'est au crépuscule quand la libellule
-    S'endort au marais
-    Qu'il faudra, voisine, quitter la colline
-    Et vite rentrer
-  \endverse
+    \beginverse
+      \[C]C'est au crépuscule \[Am]quand la libellule
+      \[Dm]S'endort au marais\[G7]
+      \[C]Qu'il faudra, voisine, \[Am]quitter la colline
+      \[Dm]{Et vite}\[G7] ren\[C]trer
+    \endverse
 
-  \beginverse*
-    Ne dis rien ma brune, pas même à la lune
-    Et moi dans mon coin
-    J'irai solitaire, je saurai me taire
-    Je ne dirai rien
-  \endverse
-
+    \beginverse*
+      \[F]Ne dis rien ma brune, \[G7]{pas même} à la lune
+      Et moi dans mon \[C]coin
+      \[E]J'irai solitaire, \[Am]{je saurai} me taire
+      \[Dm]{Je ne} di-\[G7]irai \[C]rien \[E Am G F G C]
+    \endverse
+  \end{repeatedchords}
 
   \beginverse*
     \musicnote[french]{Au premier couplet}

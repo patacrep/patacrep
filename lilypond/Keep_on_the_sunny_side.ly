@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 3\cm}
+\paper{paper-height = 3.6\cm}
 
 {
   \key bes \major

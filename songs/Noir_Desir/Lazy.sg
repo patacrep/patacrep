@@ -1,0 +1,49 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Lazy}
+  [by=Noir Désir,cov=666-667-club,album=666.667 Clu&]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+
+  \beginverse
+    \[Am]{I can} see you're young and pretty
+    \[G]{I know} it would be so ea\[D]sy
+    Anyway, dark lady, I feel lazy \[Am]
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]Those afternoons are confused
+      \[G]{I don't} think that you really cho\[D]ose
+      There's even one more reason to feel lazy \[Am]
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[Am]While you go awa\[G]y
+    \[D]While you go awa\[Am]y
+    \rep{2}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]{I could} die but I could lie
+      I can deal with what's in your mind \[D]
+      Anyway, I'm tired and I feel lazy \[Am]
+    \endverse
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]{You know}, we're both lost in maze
+      You're miserable, I'm so dazed \[D]
+      Don't you think you should feel suddenly l\[Am]azy
+    \endverse
+  \end{repeatedchords}
+
+  \musicnote{\Chorus}
+
+\endsong

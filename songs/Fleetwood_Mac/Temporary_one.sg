@@ -1,0 +1,64 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Temporary one}
+  [by=Fleetwood Mac,cov=the-dance.jpg,album=The Dance]
+
+  \cover
+  \gtab*{G5}{XXX033}
+  \gtab{A}{X02220}
+  \gtab{D}{XXX0232}
+  \gtab{G}{320003}
+  \gtab{Bm}{2:X02210}
+  \gtab*{Asus4}{X02230}
+
+  \beginverse*
+    \musicnote{\Intro: \nolyrics{\[G5]}}
+  \endverse
+
+  \beginverse
+    \[A]Where are \[D]you \[G]darling
+    When m\[D A]y moon \[D]is \[G]rising
+    And y\[D A]our sun is shining d\[D G]own?
+    \nolyrics{\[D G A]}
+  \endverse
+
+  \beginverse
+    \begin{repeatedchords}
+      \[A]What are \[D]you \[G]doing?
+      Are y\[D A]ou miss\[D]ing \[G]me in \[D]a \[A]way
+      That I'm missing you n\[D G]ow?
+    \end{repeatedchords}
+    \nolyrics{\[D G]}
+  \endverse
+
+  \beginchorus
+    \[D] The river goes \[G]{on and on} and the
+    \[D] The sea that div\[G]ides us is a
+    \[D] A temporary o\[G]ne and a
+    \[D] Bridge will \[Bm]bring us back to\[Asus4]gether
+  \endchorus
+
+  \beginverse*
+    \nolyrics{\[G5]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[A]What are \[D]you \[G]doing?
+      Goi\[D A]ng down in\[D]to \[G]Soho
+      Once \[D]I \[A]get my rest to\[D G]night
+    \endverse
+
+    \beginverse
+      \[A]What are \[D]you \[G]doing?
+      Are y\[D A]ou bu\[D]sy \[G]with your wor\[D A]ld?
+      Well, I wish you were busy \[D]with \[G]mine
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote{\Chorus, \Solo, \Chorus \rep{3}}
+    \musicnote{\Outro: \nolyrics{\{\[D G]\} \rep{4} \[D]}}
+  \endverse
+
+\endsong

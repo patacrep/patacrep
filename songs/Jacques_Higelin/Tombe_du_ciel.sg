@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{2}
+\songcolumns{3}
 \beginsong{Tombé du ciel}
   [by=Jacques Higelin,cov=preferences,album=Préférences]
 
@@ -11,20 +11,27 @@
   \gtab{C}{X32010}
   \gtab{F}{1:022100}
   \gtab{A7}{X02020}
-  \gtab{G}{320003}
+  \gtab{G#}{4:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{C#}{4:X02220}
+  \gtab*{Fm}{8:X02210}
+  \gtab*{C7}{3:X02020}
+  \gtab*{G4}{XXX013}
+  \gtab*{Am7}{XX2010}
+  \gtab*{Em7}{XXX030}
 
   \beginverse
     Tomber du \[Dm]ciel
     À travers les \[Am]nuages
-    Quel heureux pré\[B&]sage
+    Quel heureux pré\[B&]sage \[Am]
     \[Gm]Pour un aiguilleur \[Am]{du ciel}
   \endverse
 
   \beginverse*
     Tomber du \[Dm]lit
     Fauché en plein \[Am]rêve
-    Frappé par le \[B&]glaive
-    \[Gm]De la sonnerie \[C]du réveil
+    Frappé par le \[B&]glaive \[Am]
+    \[Gm]{De la} sonnerie \[C]{du réveil}
   \endverse
 
   \beginchorus
@@ -35,96 +42,120 @@
   \endchorus
 
   \beginchorus
-    Tom\[F]bée \[C]du haut d'la passe\[Dm]relle
+    Tom\[F]bée \[C]{du haut} d'la pass'\[Dm]relle
     Dans les \[C]bras d'un baga\[B&]giste
     Un peu vo\[F]lage
     \[B&]Ancien tueur à \[F]gages
     Com\[B&]ment peut-on tomber plus \[A7]mal
   \endchorus
 
-  \beginverse
-    Tomber du ciel
-    Rebelle aux louanges
-    Chassé par les anges
-    Du paradis originel
-  \endverse
+  \begin{repeatedchords}
+    \beginverse
+      Tomber du \[Dm]ciel
+      Rebelle aux lou\[Am]anges
+      Chassé par les \[B&]anges \[Am]
+      \[Gm]{Du paradis} \[Am]originel
+    \endverse
+
+    \beginverse*
+      Tomber \[Dm]d'sommeil
+      Perdu connai\[Am]ssance
+      Retomber en en\[B&]fance \[Am]
+      \[Gm]{Au pied} du grand \[C]sapin de
+    \endverse
+
+    \beginchorus
+      No\[F]ël, \[C]voilé de mys\[Dm]tère
+      Sous mon \[C]regard éblou\[B&]i
+      Par la nai\[F]ssance
+      \[Gm]D'une étoile dans \[C]{le désert}
+    \endchorus
+
+    \beginchorus
+      Tom\[F]bée \[C]comme un mété\[Dm]ore
+      Dans les \[C]poches de Baltha\[B&]zar
+      Gaspard ou Mel\[F]chior
+      Les \[B&]trois fameux rois \[F]mages
+      \[B&]Trafiquants d'import-ex\[A7]port
+    \endchorus
+  \end{repeatedchords}
+
+  \beginchorus
+    \[G#]Tomber d'en haut
+    \[E&]Comme les petites gouttes \[Fm]d'eau
+    Que j'en\[E&]tends tomber
+    De\[C#]hors, par la \[G#]f'nêtre
+    Quand \[C#]{je m'endors} le \[E&]cœur en fête
+  \endchorus
+
+  \beginchorus
+    \[G#]Poseur de \[E&]girouettes\[Fm]
+    Du haut \[E&]{du clocher}
+    \[C#]Donne à ma vo\[E&]ix, \[C#]{la directi}\[E&]on
+    Par \[C#]{où le} vent fredonne ma chan\[C7]son
+  \endchorus
 
   \beginverse*
-    Tomber d'sommeil
-    Perdu connaissance
-    Retomber en enfance
-    Au pied du grand sapin de
-  \endverse
-
-  \beginchorus
-    Noël, voilé de mystère
-    Sous mon regard ébloui
-    Par la naissance
-    D'une étoile dans le désert
-  \endchorus
-
-  \beginchorus
-    Tombée comme un météore
-    Dans les poches de Balthazar
-    Gaspard ou Melchior
-    Les trois fameux rois mages
-    Trafiquants d'import-export
-  \endchorus
-
-  \musicnote[english]{transpose by a third}
-  \musicnote[french]{transposer d'une tierce}
-
-  \beginchorus
-    Tomber d'en haut, comme les petites gouttes d'eau
-    Que j'entends tomber
-    Dehors, par la f'nêtre
-    Quand je m'endors le cœur en fête
-  \endchorus
-
-  \beginchorus
-    Poseur de girouettes
-    Du haut du clocher
-    Donne à ma voix, la direction
-    Par où le vent fredonne ma chanson
-  \endchorus
-
-  \beginverse*
-    \[G]Tomber sur un jour de chance
-    \[G]Tomber à la fleur de l'âge, \[A]dans l'oubli
+    \[G4]Tomber sur un jour de chance \[G4 Am7]
+    \[G4]Tomber à la fleur de l'âge, \[Em7]dans l'oubli
     \echo{Solo}
   \endverse
 
-  \beginchorus
-    C'est fou, c'qu'on peut voir tomber
-    Quand on traîne sur le pavé
-    Les yeux en l'air
-    La semelle battant la poussière
-  \endchorus
+  \begin{repeatedchords}
+    \beginchorus
+      C'est \[F]fou, \[C]c'qu'on peut voir tom\[Dm]ber
+      Quand on \[C]traîne sur le pa\[B&]vé
+      Les yeux en \[F]l'air
+      La \[Gm]semelle battant \[C]{la poussière}
+    \endchorus
 
-  \beginchorus
-    On voit tomber des balcons
-    Des mégots, des pots d'fleurs
-    Des chanteurs de charme
-    Des jeunes filles en larmes
-    Et des alpinistes amateurs
-  \endchorus
+    \beginchorus
+      On \[F]voit \[C]tomber des bal\[Dm]cons
+      Des mé\[C]gots, des pots d'\[B&]fleurs
+      Des chanteurs de \[F]charme
+      Des \[B&]jeunes filles en \[F]larmes
+      Et \[B&]des alpinistes ama\[A7]teurs
+    \endchorus
 
-  \beginverse
-    Tomber à terre
-    Pour la fille qu'on aime
-    Se relever indemne
-    Et retomber amoureux
-  \endverse
+    \beginchorus
+      \[G#]Tomber d'en haut
+      \[E&]Comme les petites gouttes \[Fm]d'eau
+      Que j'en\[E&]tends tomber
+      De\[C#]hors, par la \[G#]f'nêtre
+      Quand \[C#]{je m'endors} le \[E&]cœur en fête
+    \endchorus
+
+    \beginchorus
+      \[G#]Poseur de \[E&]girouettes\[Fm]
+      Du haut \[E&]{du clocher}
+      \[C#]Donne à ma vo\[E&]ix, \[C#]{la directi}\[E&]on
+      Par \[C#]{où le} vent fredonne ma chan\[C7]son
+    \endchorus
+
+    \beginverse*
+      \[G4]Tomber sur un jour de chance \[G4 Am7]
+      \[G4]Tomber par inadvertance, \[Em7]amoureux
+    \endverse
+
+    \beginverse
+      Tomber à \[Dm]terre
+      Pour la fille qu'on \[Am]aime
+      Se relever in\[B&]demne \[Am]
+      \[Gm]{Et retomber} \[Am]amoureux
+    \endverse
+
+    \beginverse*
+      Tomber sur \[Dm]toi
+      Tomber en pâ\[Am]moison
+      Avaler la \[B&]ciguë \[Am]
+      \[Gm]Goûter le poi\[C]son qui tue
+    \endverse
+  \end{repeatedchords}
 
   \beginverse*
-    Tomber sur toi
-    Tomber en pâmoison
-    Avaler la ciguë
-    Goûter le poison qui tue
-  \endverse
-
-  \beginverse*
-    L'amour, l'amour encore et toujours
+    \[F]L'amour \[C Dm C B& F Gm]
+    \[C]L'amour encore et \[F]toujours
+    \nolyrics{\[C Dm C B& F B& F B& A7]}
   \endverse
 
 \endsong

@@ -1,0 +1,82 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Dumb}
+  [by=Nirvana,cov=in-utero,album=In Utero]
+
+  \cover
+  \capo{2}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320001}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+  \gtab{B}{2:X02220}
+  \gtab*{B*}{XX244X}
+  \gtab*{C*}{XX355X}
+
+  \beginverse
+    \[Em] \[Am]{I'm not} like the\[G]m
+    But \[C]{I can} prete\[Em]nd
+    \[Am]The sun is go\[G]ne
+    But \[C]{I have} a lig\[Em]ht
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      \[Am]The day is do\[G]ne
+      But \[C]{I'm having} fu\[Em]n
+      \[Am]{I think} I'm du\[G]mb
+      Or \[C]maybe just \[Em]happy
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[G] Think I'm just \[E]happy
+    \[G] Think I'm just \[Em]happy
+    \[G] Think I'm just \[E]happy \[G B]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Em] \[Am]{My heart} is bro\[G]ke
+      But \[C]{I have} some glu\[Em]e
+      \[Am]Help me inha\[G]le
+      And \[C]mend it with yo\[Em]u
+    \endverse
+
+    \beginverse*
+      \[Am]We'll float arou\[G]nd
+      And \[C]hang out on clou\[Em]ds
+      \[Am]Then we'll come do\[G]wn
+      And \[C]have a han\[Em]gover
+    \endverse
+
+    \beginchorus
+      \[G] Have a han\[E]gover
+      \[G] Have a han\[Em]gover
+      \[G] Have a han\[E]gover \[G B]
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \[B*] Skin the sun\[C*]
+    Fall asleep\[B*]
+    Wish away\[C*]
+    The soul is cheap\[B*]
+    Lesson learned\[C*]
+    Wish me luck\[B*]
+    Soothe the burn\[C*]
+    Wake me up
+  \endverse
+
+  \beginverse*
+    \musicnote{\Verse{} \& \Chorus 1}
+  \endverse
+
+  \beginverse
+    \[Em] \[Am]{I think} I'm du\[G]mb
+    \[C]{I think} I'm du\[Em]mb
+    \musicnote{Ad libidum}
+  \endverse
+
+\endsong

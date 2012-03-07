@@ -49,11 +49,7 @@ fi;
 #echo "emacs batch indentation done !"
 ./utils/rules.py
 ./utils/resize-cover.py 
-
-#check for rights
-chmod 755 songs/*
-chmod 644 songs/*.*
-chmod 644 lilypond/*.ly
+./utils/perms.sh
 
 #build all songbooks
 rm -f *.d 

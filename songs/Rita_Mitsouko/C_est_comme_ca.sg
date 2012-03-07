@@ -1,0 +1,67 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{C'est comme ça}
+  [by=Rita Mitsouko,cov=the-no-comprendo,album=The No Comprendo]
+
+  \cover
+  \capo{4}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+
+  \beginverse*
+    \musicnote{ \Intro :\nolyrics{ | \[D] | \[Bm] | \[D] | \[Bm] | }}
+  \endverse
+
+  \beginchorus
+    C'est comme \[C]ça
+    Ah, \[D]la la la la
+  \endchorus
+
+  \beginverse
+    Ouais le secret ça coupe et ça donne
+    O\[Bm]h, oh, faut que j'move
+    S\[D]ans fin du venin qui me fait mal au \[Bm] cœur
+    Q\[D]uand le serpent
+    Chaloupe et console
+    O\[Bm]h, oh, faut que j'move
+    L\[D]'ami Sadi s'enlise et là ça fait \[Bm] peur
+  \endverse
+
+  \begin{repeatedchords}
+    \beginchorus
+      Si c'est \[C]ça
+      Ah, \[D]la la la la
+    \endchorus
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \beginverse
+      Ça le susurre à mes entournures
+      A\[Bm]h, ah, faut que j'move
+      Ç\[D]a le grince juste pendant la \[Bm] nuit
+      A\[D]h, c'est comme ça ça plonge et ça vire
+      A\[Bm]h, ah, faut que j'move
+      \[D]Et ça gêne quoi, quand y'a pas de \[Bm]plaisir
+    \endverse
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \beginchorus
+      C'est comme \[C]ça
+      Ah \[D]la la la la
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    La lala lala lala lalala{\dots} \[Bm]
+    \[D]J'veux pas t'abandonner, mon bébé \[Bm]
+    \[D]J'veux pas nous achever, tu sais \[Bm]
+    \[D]C'est pas que je veuille tenir ni que je veuille m'enfuir
+    \[Bm]Il me faut prendre le frais, c'est vrai \[D] \[Bm] \[D] \[Bm] \[C]
+    H\[D]é, viens près de moi que je te le \[Bm]dises
+    Faut que j'move ce \[D]secret qui me tord le c\[Bm]œur
+    \[C]Ah, \[D]la la la{\dots}
+  \endverse
+
+\endsong

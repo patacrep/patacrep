@@ -1,6 +1,6 @@
 \include "header"
 \paper{
-  paper-height = 2.3\cm
+  paper-height = 2.5\cm
   paper-width= 7.2\cm
 }
 

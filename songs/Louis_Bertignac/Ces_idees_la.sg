@@ -14,7 +14,7 @@
   \gtab{Em*}{022003}
 
   \beginverse*
-    \musicnote{ intro :\nolyrics{ | \[D] \[D] \[D4] \[D] | \[A] | \[Em] \[Em] \[Emadd9] \[Em*] | \[G] | } \rep{2}}
+    \musicnote{\Intro : \nolyrics{ | \[D] \[D] \[D4] \[D] | \[A] | \[Em] \[Em] \[Emadd9] \[Em*] | \[G] | } \rep{2}}
   \endverse
 
   \beginverse
@@ -26,7 +26,7 @@
     D\[D]es heures et des h\[A]eures passées
     Dev\[Bm]ant la mire de m\[G]a télé
     Des nuits s\[D]ans dormir
-    A me d\[A]emander
+    À me d\[A]emander
     Où tu peux b\[G]ien aller
   \endverse
 

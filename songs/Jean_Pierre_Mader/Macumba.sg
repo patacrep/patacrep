@@ -12,8 +12,8 @@
   \gtab{C}{X32010}
 
   \beginverse*
-    \musicnote{\Rythm : \lilypond{Macumba} }
-    \musicnote{ \Intro :\nolyrics{ | \[Dm] | \[A7] | \[Dm] | \[A7] | }}
+    \musicnote{\Rythm : \lilypond{Macumba}}
+    \musicnote{\Intro : \nolyrics{ | \[Dm] | \[A7] | \[Dm] | \[A7] | }}
   \endverse
 
   \beginverse

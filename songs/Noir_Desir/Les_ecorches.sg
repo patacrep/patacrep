@@ -1,0 +1,117 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les écorchés}
+  [by=Noir Désir,cov=veuillez-rendre-l-ame,album=Veuillez rendre l'âme]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+
+  \beginverse*
+    \lilypond{les_ecorches}
+  \endverse
+
+  \beginverse
+    \[Am]Emmène-moi danser
+    Dans les dessous
+    Des villes en folie
+    Puisqu'il \[G]{ y a} dans ces
+    Endroits autant de songes
+    Que quand on dort
+    Et on n'dort pas
+    \[Am]Alors autant se tordre
+    Ici et là
+    Et se rejoindre en bas
+    \[G]Puisqu'on se lasse de tout
+    Pourquoi nous entrelaçons-nous ?
+  \endverse
+
+  \beginchorus
+    \[F]Pour les écorchés vifs \[G]
+    On en a des sévices \[Am]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]Allez enfouis-moi
+      Passe-moi par dessus tous les bords
+      Mais reste encore \[G]
+      Un peu après
+      Que même la fin soit terminée
+      Moi j'ai pas \[Am]allumé la mèche
+      C'est Lautréamont
+      Qui me presse
+      Dans les déserts \[G]
+      Là où il prêche
+      Ou devant rien
+      On donne la messe
+      \[Am]Pour les écorchés
+      Serre-moi encore
+      Étouffe-moi si tu peux
+      Toi qui \[G]{ sais où}
+      Après une subtile esquisse
+      On a enfoncé les vis {\dots}
+    \endverse
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \beginchorus
+      \[F]Nous les écorchés vifs \[G]
+      On en a des sévices \[Am]
+    \endchorus
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \beginverse
+      Oh \[Am]mais non rien de grave
+      Y'a nos hématomes crochus qui nous
+      Sauvent
+      Et tous nos points com\[G]muns
+      Dans les dents
+      Et nos lambeaux de peau
+      Qu'on retrouve ça et là
+      Dans tous les \[Am]coins
+      Ne cesse pas de trembler
+      C'est comme ça que je te reconnais
+      Même \[G]{ s'il} vaut beaucoup mieux pour toi
+      Que tu trembles un peu moins que moi
+      \[Am]Emmène-moi, emmène-moi
+      On doit pouvoir
+      Se rendre écarlates
+      Et même \[G]
+      Si on précipite
+      On devrait voir
+      White light white heat
+      \[Am]Allez enfouis-moi
+      Passe-moi par dessus tous les bords
+      Encore un ef\[G]fort
+      On sera de nouveau
+      Calmes et tranquilles
+      Calmes et tranquilles
+      \[Am]Serre-moi encore
+      Serre-moi encore
+      Etouffe-moi si tu peux{\dots}
+      Serre-moi \[G]encore
+    \endverse
+  \end{repeatedchords}
+
+  \textnote{\Chorus}
+
+  \beginverse*
+    \musicnote{\nolyrics{ | \[Am] | \[Am] | \[Am] | \[G] | }}
+  \endverse
+
+  \beginverse*
+    Nous les é\[F]corchés
+    On en a des sévices \[Am]
+    Nous les é\[F]corchés
+    On en a des sévices \[Am]
+    Les écorchés vifs \[G]
+    On les sent les vis \[Am]
+    Nous les é\[F]corchés
+    On en a des sévices \[Am]
+    Ecorchés vifs \[G] \[Am] \[F]
+  \endverse
+
+\endsong

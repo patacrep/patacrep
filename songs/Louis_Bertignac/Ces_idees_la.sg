@@ -1,0 +1,56 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ces idées là}
+  [by=Louis Bertignac,cov=louis-bertignac-et-les-visiteurs,album=Louis Bertignac et les visiteurs]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab*{D4}{XX0233}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab*{Emadd9}{022002}
+  \gtab{Em*}{022003}
+
+  \beginverse*
+    \musicnote{ intro :\nolyrics{ | \[D] \[D] \[D4] \[D] | \[A] | \[Em] \[Em] \[Emadd9] \[Em*] | \[G] | } \rep{2}}
+  \endverse
+
+  \beginverse
+    B\[D]ébé, faudrait rentr\[A]er tu vois
+    Je s\[Bm]uis en mal d'être \[G]avec toi
+    La m\[D]achine à café est d\[A]étraquée
+    Les c\[Bm]endriers tous r\[G]enversés
+
+    D\[D]es heures et des h\[A]eures passées
+    Dev\[Bm]ant la mire de m\[G]a télé
+    Des nuits s\[D]ans dormir
+    A me d\[A]emander
+    Où tu peux b\[G]ien aller
+  \endverse
+
+  \beginchorus
+    B\[D]ébé \echo{\[D4]ouh \[D]ouh \[A]ouh}
+    Faut pas m'laisser traîner \[Em]là \echo{\[Emadd9]ouh \[Em*]ouh \[G]ouh}
+    Seul avec ces \[D]idées là \echo{\[D4]ouh \[D]ouh \[A]ouh}
+    J'suis pas si fort que tu \[Em]crois \echo{\[Emadd9]ouh \[Em*]ouh \[G]ouh}
+    Pas si fort que ç\[D]a
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      B\[D]ébé, un d\[A]oute en moi s'est \[Bm]figé \[G]
+      Tu n'vas pl\[D]us rentrer
+      Je peux f\[A]aire une croix sur t\[G]oi
+      C\[D]omment ne pas m'im\[A]aginer
+      Ta \[Bm]petite gueule entr\[G]e ses bras
+      Comment ne p\[D]as crier
+      Comment ne p\[A]as pleurer
+      Je suis f\[G]atigué
+    \endverse
+  \end{repeatedchords}
+
+  \textnote{\Chorus}
+
+\endsong

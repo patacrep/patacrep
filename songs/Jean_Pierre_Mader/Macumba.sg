@@ -1,0 +1,49 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Macumba}
+  [by=Jean-Pierre Mader,cov=microclimats,album=Microclimats]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{A7}{X02020}
+  \gtab{Em}{022000}
+  \gtab*{B7}{X21202}
+  \gtab{B&}{1:X0222X}
+  \gtab{C}{X32010}
+
+  \beginverse*
+    \musicnote{\Rythm : \lilypond{Macumba} }
+    \musicnote{ \Intro :\nolyrics{ | \[Dm] | \[A7] | \[Dm] | \[A7] | }}
+  \endverse
+
+  \beginverse
+    \[Dm]Elle est v\[A7]enue sans bag\[Dm]age \[A7]
+    \[Dm]Comme éch\[A7]ouée d'un naufr\[Dm]age \[A7]
+    \[Em] Dans les cales d'un cargo
+    \[B7] Elle a quitté son \[Em]île \[B7]
+    \[Dm] Pour un monde nouv\[A7]eau
+    Loin des bidonv\[Em]illes \[A7]
+  \endverse
+
+  \beginchorus
+    Au Mac\[Dm]umba, Macumba, elle dan\[A7]se tous les soirs
+    Pour l\[Dm]es dockers du port qui ne \[A7] pensent qu'à boire
+    Au Mac\[Dm]umba, Macumba, elle dan\[A7]se tous les soirs
+    Pour d\[B&]es marins largués qui cherche\[C]nt la bagarre
+    Au Mac\[Dm]umba \[A7]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Dm]Pour trouver\[A7] la force d'att\[Dm]endre \[A7]
+      \[Dm]Elle s'inv\[A7]ente des rêves t\[Dm]endres \[A7]
+      \[Em] Les verres de téquila
+      \[B7] Réchauffent sa mém\[Em]oire \[B7]
+      \[Dm] De ces mots d'autref\[A7]ois
+      Brûlants comme l'esp\[Em]oir
+    \endverse
+  \end{repeatedchords}
+
+  \textnote{\Chorus}
+
+\endsong

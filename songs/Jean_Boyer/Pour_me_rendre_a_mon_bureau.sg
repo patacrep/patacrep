@@ -1,10 +1,10 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Pour me rendre à mon bureau}
-  [by=Les Ogres de Barback,cov=repris-de-justesse,album=Repris de justesse]
+  [by=Jean Boyer,cov=,album=]
 
 
-  \cover
+  %\cover
   \gtab{Bm}{2:X02210}
   \gtab{F#}{2:022100}
   \gtab{Em}{022000}

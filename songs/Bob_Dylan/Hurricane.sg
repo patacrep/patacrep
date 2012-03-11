@@ -13,7 +13,7 @@
 
   \ifchorded
   \beginverse*
-    \musicnote{intro: {\nolyrics \[Am F Am F]}}
+    \musicnote{\Intro : {\nolyrics \[Am F Am F]}}
   \endverse
   \fi
 
@@ -21,7 +21,7 @@
     \[Am]Pistol shots ring out in the bar\[F]room night
     \[Am]Enter Patty Valentine from the \[F]upper hall
     \[Am]She sees the bartender in a \[F]pool of blood
-    \[Am]Cries out: ``My God! They killed \[F]them all!''
+    \[Am]Cries out, ``My God! They killed \[F]them all!''
   \endverse
 
   \beginverse*
@@ -85,7 +85,7 @@
     Four in the morning and they haul Rubin in
     Take him to the hospital and bring him upstairs
     The wounded man looks up though his one dying eye
-    Says: ``Why'd you bring him here for? He ain't the guy!''
+    Says, ``Why'd you bring him here for? He ain't the guy!''
   \endverse
 
   \beginverse*

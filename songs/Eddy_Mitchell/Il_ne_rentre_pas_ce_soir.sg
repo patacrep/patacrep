@@ -1,0 +1,75 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Il ne rentre pas ce soir}
+  [by=Eddy Mitchell,cov=apres-minuit,album=Après minuit]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab*{Bm7/5b}{X2323X}
+  \gtab*{E7}{020100}
+  \gtab{F}{1:022100}
+  \gtab{B}{1:X02220}
+  \gtab{E}{022100}
+  \gtab*{B7}{X21202}
+  \gtab*{A7}{X02020}
+
+  \beginverse
+    I1 éc\[Am]rase sa cigarette
+    Puis re\[Dm]pousse le cendrier
+    Se di\[Bm7/5&]rige vers les toi\[E7]lettes
+    La dé\[Am]marche mal assurée
+    Il re\[F]vient régler ses bières
+    Le san\[B]dwich et son café
+    \[Bm7/5&]Il ne rentre \[E]pas ce \[Am]soir
+    Le grand \[Am]chef du personnel
+    L'a con\[Dm]voqué à midi
+    J'ai une \[Bm7/5&]mauvaise nou\[E7]velle
+    Vous fi\[Am]nissez vendredi
+    Une \[F]multinationale
+    S'est of\[B]fert notre société
+    \[Bm7/5&]Vous êtes dé\[E]passé
+  \endverse
+
+
+  \beginchorus
+    \[Dm]Et du fait vous êtes remercié
+    \[Am]Il n'y a plus d'espoir, plus d'espoir
+    \[B7]Il ne rentre \[E7]pas ce \[Am]soir \[A7]
+    \[Dm]Il s'en va de bar en bar
+    \[Am]Il n'y a plus d'espoirs plus d'espoir
+    \[B7]Il ne rentre \[E7]pas ce \[Am]soir
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Il se \[Am]décide à traîner
+      Car il a \[Dm]peur d'annoncer
+      A sa \[Bm7/5&]femme et son \[E7]banquier
+      la si\[Am]nistre vérité
+      Etre \[F]chômeur à son âge
+      C'est \[B]pire qu'un mari trompé
+      \[Bm7/5&]Il ne rentre \[E]pas ce \[Am]soir
+
+      Fini l\[Am]e golf et le bridge
+      Les vac\[Dm]ances à St Tropez
+      L'éd\[Bm7/5&]ucation des \[E7]enfants
+      Dans la \[Am]grande école privée
+      I1 pl\[F]eure sur lui, se prend
+      Pour \[B]un travailleur immigré
+      \[Bm7/5&]Il se sent dé\[E]passé
+    \endverse
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \beginchorus
+      \[Dm]Et du fait il est remercié
+      \[Am]I1 n'a plus d'espoir, plus d'espoir
+      \[B7]I1 ne rentre \[E7]pas ce \[Am]soir \[A7]
+      \[Dm]Il s'en va de bar en bar
+      \[Am]Il n'a plus d'espoir, plus d'espoir
+      \[B7]Il ne rentre \[E7]pas ce \[Am]soir \[A7]
+    \endchorus
+  \end{repeatedchords}
+
+\endsong

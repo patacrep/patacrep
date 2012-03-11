@@ -14,7 +14,7 @@
   \gtab{Am}{X02210}
 
   \beginverse*
-    \musicnote{ \Intro:\nolyrics{ | B | E | A | D | } }
+    \musicnote{ \Intro: \nolyrics{ | \[B] | \[E] | \[A] | \[D] | } }
   \endverse
 
   \beginverse
@@ -34,15 +34,12 @@
   \end{repeatedchords}
 
   \beginchorus
-    Love is a\[Am]ll, Well love is a\[D]ll
+    Love is a\[Am]ll, well love is a\[D]ll
     Love is a\[G]ll, can't you hear the c\[C]all
     So love is \[Am]all you need, love is a\[D]ll
     You ne\[G]ed at the butterfly ba\[C]ll
+    \nolyrics{ | \[B] | \[E] | \[A] | \[D] | }
   \endchorus
-
-  \beginverse*
-    \musicnote{ intro:\nolyrics{ | B | E | A | D | } }
-  \endverse
 
   \begin{repeatedchords}
     \beginverse
@@ -51,33 +48,26 @@
       \[C] And alt\[G]hough we're wearing \[C]different \[F]faces
       \[G] Nobody wants to hide
     \endverse
-  \end{repeatedchords}
 
-  \begin{repeatedchords}
     \beginchorus
       Love is a\[Am]ll and all is lo\[D]ve and
       It's ea\[G]sy, yes it's so \[C]easy
       At the \[Am]Butterfly Ball where \[D]love is all
       And \[G]it's so \[C]easy
+      \ifnorepeatchords\else\nolyrics{ | \[B] | \[E] | \[A] | \[D] | \rep{4} }\fi
     \endchorus
-  \end{repeatedchords}
 
-  \beginverse*
-    \musicnote{ intro:\nolyrics{ | B | E | A | D | } \rep{4}}
-  \endverse
-
-  \begin{repeatedchords}
     \beginverse
       \[C] Well all you \[G]need is love and \[C]unders\[F]tanding
       \[C] Ring the \[G]bell and let the \[C]people \[F]know
       \[C] We're so \[G]happy and we're \[C]celeb\[F]rating
-      \[G] let your feelings show
+      \[G] Let your feelings show
     \endverse
   \end{repeatedchords}
 
   \beginchorus
     Love is \[Am]all, yes love is a\[D]ll
-    at the \[G]Butterfly \[C]Ball
+    At the \[G]Butterfly \[C]Ball
     Love is \[Am]big, love is sm\[D]all
     Love is \[Am]free, love is a\[D]ll
     At the \[G]Butterfly \[C]Ball
@@ -90,7 +80,7 @@
     Love \[Am]is every\[D]thing
     It can make you \[G]sing at the Butterfly \[C]Ball
     Love is a\[Am]ll, I say love is a\[D]ll
-    yes love is \[G]all At the Butterfly \[C]Ball
+    Yes love is \[G]all at the Butterfly \[C]Ball
   \endverse
 
 \endsong

@@ -25,33 +25,26 @@
 
   \begin{repeatedchords}
     \beginverse
-      \[Am]I've travelled many roads
+      \[Am]I've traveled many roads
       And not \[F]all of them where \[Am]good
       \[Am]The foolish ones taught more to me
       Than the \[F]wise ones ever \[Am]could \[A2] \[Am]
     \endverse
-  \end{repeatedchords}
 
-  \begin{repeatedchords}
     \beginchorus
       \[F]One road leads to sacri\[Am]fice
       \[F]One road leads to \[Am]shame
-      \[F]One road leads to free\[Am]domAm
+      \[F]One road leads to free\[Am]dom
       \[G]But they \[F]all look the \[Am]same
     \endchorus
-  \end{repeatedchords}
 
-  \begin{repeatedchords}
     \begin{bridge}
       There were \[F]roads I never travel\[Am]led
       There were \[F]turns I did not \[Am]take
       There were \[F]mysteries that I left unra\[Am]velled
       \[G]But leaving \[F]you was my only mis\[Am]take \[A2] \[Am]
     \end{bridge}
-  \end{repeatedchords}
 
-
-  \begin{repeatedchords}
     \beginverse
       \[Am]So I'm standing at the crossroads
       Im\[F]prisoned by this \[Am]doubt
@@ -59,7 +52,5 @@
       I \[F]might find my way \[Am]out
     \endverse
   \end{repeatedchords}
-
-  \textnote{\Chorus}
 
 \endsong

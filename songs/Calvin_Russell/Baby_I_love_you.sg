@@ -13,7 +13,7 @@
   \gtab{C}{X32010}
 
   \beginverse*
-    \musicnote{ intro:\nolyrics{ \[D] \[D4] \[Am] \[A4] \[G] \[G4] \[D] } }
+    \musicnote{ \Intro: \nolyrics{ \[D] \[D4] \[Am] \[A4] \[G] \[G4] \[D] } }
   \endverse
 
   \beginverse
@@ -43,7 +43,5 @@
       And you're my dream come \[D]true
     \endverse
   \end{repeatedchords}
-
-  \textnote{\Chorus}
 
 \endsong

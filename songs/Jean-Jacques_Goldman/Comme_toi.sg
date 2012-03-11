@@ -10,18 +10,18 @@
   \gtab{Bb}{1:X02220}
 
   \beginverse*
-    \musicnote{ intro :\nolyrics{ | \[Dm] | \[Dm] | \[Gm] | \[Gm] | \[A7] | \[A7] | \[Dm] | \[Dm] | }}
+    \musicnote{ \Intro : \nolyrics{ | \[Dm] | \[Dm] | \[Gm] | \[Gm] | \[A7] | \[A7] | \[Dm] | \[Dm] | }}
   \endverse
 
   \beginverse
-    Elle a\[Dm]vait des yeux clair et la robe en velours
-    A c\[Gm]ôté de sa mère et la famille autour
+    Elle a\[Dm]vait des yeux clairs et la robe en velours
+    À c\[Gm]ôté de sa mère et la famille autour
     Elle \[A7]pose un peu distraite au doux
     Soleil de la fin du jo\[Dm]ur
   \endverse
 
   \begin{repeatedchords}
-    \beginverse
+    \beginverse*
       La ph\[Dm]oto n'est pas bonne mais l'on peut y voir
       Le b\[Gm]onheur en personne et la douceur d'un soir
       Elle \[A7]aimait la musique surtout Schumann
@@ -40,41 +40,31 @@
   \begin{repeatedchords}
     \beginverse
       Elle a\[Dm]llait à l'école au village d'en bas
-      Elle ap\[Gm]prenait les livres elle apprenait les lois
+      Elle ap\[Gm]prenait les livres, elle apprenait les lois
       Elle \[A7]chantait les grenouilles et les princesses
       Qui dorment au bo\[Dm]is
     \endverse
-  \end{repeatedchords}
 
-  \begin{repeatedchords}
-    \beginverse
-      Elle a\[Dm]imait sa poupée elle aimait ses amis
+    \beginverse*
+      Elle a\[Dm]imait sa poupée, elle aimait ses amis
       Surtout \[Gm]Ruth et Anna et surtout Jérémy
-      Et i\[A7]ls se marieraient un jour peut-être
-      A Varsov\[Dm]ie
+      Et i\[A7]ls se marieraient, un jour peut-être
+      À Varsov\[Dm]ie
     \endverse
-  \end{repeatedchords}
 
-  \textnote{\Chorus}
-
-  \begin{repeatedchords}
     \beginverse
-      Elle s'a\[Dm]ppelait Sarah elle n'avait pas huit ans
+      Elle s'a\[Dm]ppelait Sarah, elle n'avait pas huit ans
       Sa vie, \[Gm]c'était douceur, rêves et nuages blanc
       Mais \[A7]d'autres gens en avaient décidé
       Autreme\[Dm]nt
     \endverse
-  \end{repeatedchords}
 
-  \begin{repeatedchords}
-    \beginverse
+    \beginverse*
       Elle a\[Dm]vait les yeux clairs et elle avait ton âge
       C'était \[Gm]une petite fille sans histoire et très sage
       Mais \[A7]elle n'est pas née comme toi, ici et
       Maintena\[Dm]nt
     \endverse
   \end{repeatedchords}
-
-  \textnote{\Chorus}
 
 \endsong

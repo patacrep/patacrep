@@ -1,0 +1,80 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'horloge}
+  [by=Les Cowboys Fringants,cov=que-du-vent,album=Que du vent]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+
+  \beginverse
+    \[Em]{L'homme} ordinaire fut jeune et insouciant
+    À l'abri des affres des années qui \[D]passent
+    Invulnérable, porté par le vent
+    De cette jeunesse qui, croyait-il, hé\[C]las
+    Allait se poursuivre éternelle\[G]ment
+    Comme si le temps s'arrête et se \[D]prélasse
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      \[Em]Fort de l'enthousiasme de ses vingt ans
+      Il était certain de mener sa \[D]barque
+      Différemment de celle de ses parents
+      {\og}Moi, vous verrez, je vais laisser ma \[C]marque{\fg}
+      Qu'il leur disait un peu arro\[G]gant
+      Alors qu'il avait toute la vie de\[D]vant
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[G]Mais les aiguilles tout au fond de l'horloge
+    Battent la mesure et jamais ne dé\[D]rogent
+    Elle nous rattrapent laissant dans leur sillage
+    Les rêves que l'on n'a pas réali\[Em]sés
+    Qui s'essoufflent à la façon d'un mirage
+    Cédant le pas à la réali\[D]té
+    C'est la vie \rep{3}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Em]Et l'homme ordinaire met sa montre à l'heure
+      Car soudainement le temps vient à man\[D]quer
+      Si jadis il n'était pas un facteur
+      Ce dernier devient précieux et comp\[C]té
+      Et au milieu de cette vaine pour\[G]suite
+      Il se dit que la vie passe trop \[D]vite
+    \endverse
+
+    \beginverse*
+      \[Em]La grosse télé, la petite vision
+      Le voyage dans le sud à la re\[D]lâche
+      Accepter de vivre comme un mouton
+      Suivre la masse, s'atteler à la \[C]tâche
+      À la remorque du temps qui s'en\[G]fuit
+      L'homme se rend compte qu'il a peu accom\[D]pli
+    \endverse
+
+    \beginverse
+      \[Em]Puis l'homme ordinaire se dit qu'il vivote
+      Il sait bien qu'il est à côté d'la \[D]plaque
+      Tous les matins, le jour de la marmotte
+      Et sa vie qui va droit dans un cul-de-\[C]sac
+      Ah, comme il aimerait en changer le \[G]cours
+      Avoir l'audace de faire demi-\[D]tour
+    \endverse
+
+    \beginverse*
+      \[Em]{C'est} le courage de nos décisions
+      Qui se veut le moteur de nos ac\[D]tions
+      C'est lui qui nous pousse à franchir le pont
+      Et le fossé de la résigna\[C]tion
+      Mais qu'on soit immobile ou en mouve\[G]ment
+      Une chose est sûre : rien n'arrête le \[D]temps
+    \endverse
+  \end{repeatedchords}
+
+\endsong

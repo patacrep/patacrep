@@ -1,0 +1,49 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Baby I love you}
+  [by=Calvin Russell,cov=sounds_from_the_fourth_world,album=Sounds from the fourth world]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab*{D4}{XX0233}
+  \gtab{Am}{X02210}
+  \gtab*{A4}{X02230}
+  \gtab{G}{320003}
+  \gtab*{G4}{320013}
+  \gtab{C}{X32010}
+
+  \beginverse*
+    \musicnote{ intro:\nolyrics{ \[D] \[D4] \[Am] \[A4] \[G] \[G4] \[D] } }
+  \endverse
+
+  \beginverse
+    \[D]And now the thoughts of you so \[Am]fine
+    Is rollin' through my \[G]mind
+    It's ruling all of my \[D]time
+    \[D]I can almost touch your \[Am]skin
+    It takes my senses \[G]in
+    And my dreams \[D]begin
+  \endverse
+
+  \beginchorus
+    Baby I love \[C]you
+    I can't \[G]help it
+    No matter \[D]what I try
+    But I \[C]never want to cage \[G]you
+    I want to see you \[D]fly
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[D]And the picture of your perfect \[Am]face
+      Is so quick to re\[G]place
+      Any other thoughts that I \[D]make
+      I've searched the world for a girl like \[Am]you
+      To tell my story \[G]to
+      And you're my dream come \[D]true
+    \endverse
+  \end{repeatedchords}
+
+  \textnote{\Chorus}
+
+\endsong

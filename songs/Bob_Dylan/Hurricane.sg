@@ -13,7 +13,7 @@
 
   \ifchorded
   \beginverse*
-    \musicnote{\Intro : {\nolyrics \[Am F Am F]}}
+    \musicnote{\Intro: {\nolyrics \[Am F Am F]}}
   \endverse
   \fi
 

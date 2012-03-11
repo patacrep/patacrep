@@ -1,0 +1,96 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Love is all}
+  [by=Roger Glover,cov=the_butterfly_ball,album=The Butterfly Ball and the Grasshopper's Feast]
+
+  \cover
+  \gtab{B}{2:X02220}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
+
+  \beginverse*
+    \musicnote{ \Intro:\nolyrics{ | B | E | A | D | } }
+  \endverse
+
+  \beginverse
+    \[C] Every\[G]body's got to l\[C]ive tog\[F]ether
+    \[C] All the p\[G]eople got to \[C]unders\[F]tand
+    \[C] So love your n\[G]eighbour like you l\[C]ove your b\[F]rother
+    \[G] Come on and join the band
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[C] Well all you \[G]need is love and \[C]unders\[F]tanding
+      \[C] Ring the \[G]bell and let the \[C]people \[F]know
+      \[C] We're so \[G]happy and we're \[C]celeb\[F]rating
+      \[G] Come on and let your feelings show
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Love is a\[Am]ll, Well love is a\[D]ll
+    Love is a\[G]ll, can't you hear the c\[C]all
+    So love is \[Am]all you need, love is a\[D]ll
+    You ne\[G]ed at the butterfly ba\[C]ll
+  \endchorus
+
+  \beginverse*
+    \musicnote{ intro:\nolyrics{ | B | E | A | D | } }
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[C] Ain't you \[G]happy that we're \[C]all tog\[F]ether
+      \[C] At the \[G]ball in nature's \[C]country\[F]side
+      \[C] And alt\[G]hough we're wearing \[C]different \[F]faces
+      \[G] Nobody wants to hide
+    \endverse
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \beginchorus
+      Love is a\[Am]ll and all is lo\[D]ve and
+      It's ea\[G]sy, yes it's so \[C]easy
+      At the \[Am]Butterfly Ball where \[D]love is all
+      And \[G]it's so \[C]easy
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote{ intro:\nolyrics{ | B | E | A | D | } \rep{4}}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[C] Well all you \[G]need is love and \[C]unders\[F]tanding
+      \[C] Ring the \[G]bell and let the \[C]people \[F]know
+      \[C] We're so \[G]happy and we're \[C]celeb\[F]rating
+      \[G] let your feelings show
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Love is \[Am]all, yes love is a\[D]ll
+    at the \[G]Butterfly \[C]Ball
+    Love is \[Am]big, love is sm\[D]all
+    Love is \[Am]free, love is a\[D]ll
+    At the \[G]Butterfly \[C]Ball
+  \endchorus
+
+  \beginverse*
+    When you \[Am]back's to the wa\[D]ll
+    When you're starting to \[G]fall
+    You got something to \[C]lean on
+    Love \[Am]is every\[D]thing
+    It can make you \[G]sing at the Butterfly \[C]Ball
+    Love is a\[Am]ll, I say love is a\[D]ll
+    yes love is \[G]all At the Butterfly \[C]Ball
+  \endverse
+
+\endsong

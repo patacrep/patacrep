@@ -1,7 +1,7 @@
-\selectlanguage{french}
+﻿\selectlanguage{french}
 \songcolumns{2}
 \beginsong{La natation synchronisée}[by=Vincent Delerm,cov=Kensington-Square,album=Kensington Square]
-
+ 
   \cover
   \gtab{E}{022100}
   \gtab{E7}{022130}

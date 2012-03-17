@@ -1,0 +1,54 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Midnite man}
+  [by=Calvin Russell,cov=unrepentant,album=Unrepentant]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{Dm}{XX0321}
+
+  \beginverse*
+    \musicnote{ \Intro: }
+    \musicnote{ \lilypond{Midnite_man} }
+  \endverse
+
+  \beginverse
+    \[Am] I hear the whistle of the \[E]Midnite Man
+    \[E]Rollin' down the Texas \[Am]plain \[Dm] \[Dm]
+    \[E]Such a beautiful song \[E]
+    \[Dm]But it sounds so wrong
+    \[E]Till I get you back ag\[Am]ain oh oh ohh \[Am]
+  \endverse
+
+  \beginverse
+    \[Am] There's something missing in this \[E]poor heart of mine
+    L\[E]ike an empty boxcar o\[Am]ut on the railroad line \[Dm] \[Dm]
+    Oh how I miss y\[E]ou \[E]
+    I miss \[Dm]you \[Dm]
+    Oh how \[E]I miss you \[E]
+    \[Dm] With every breath \[E]
+    That I take \[Am]
+  \endverse
+
+
+  \beginverse*
+    \musicnote{\nolyrics{ | \[Am] | \[E] | \[E] | \[Am] |
+    | \[Dm] | \[Dm] | \[E] | \[E] | } }
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am] The whipporwill and the \[E] mockingbird
+      \[E] They make a sound like you \[Am] ain't never heard \[Dm] \[Dm]
+      Still I miss \[E]you \[E]
+      Oh how I miss \[Dm]you \[Dm]
+      I miss y\[E]ou \[E]
+      Oh h\[Dm]ow I miss you \[Dm]
+      Yes \[E]I miss you \[E]
+      \[Dm] With every breath \[E]
+      That I take \[Am]
+    \endverse
+  \end{repeatedchords}
+
+\endsong

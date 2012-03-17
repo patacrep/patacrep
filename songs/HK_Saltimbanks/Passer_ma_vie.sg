@@ -1,0 +1,79 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Passer ma vie}
+  [by=HK \& Les Saltimbanks,cov=citoyen-du-monde,album=Citoyen du monde]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+
+  \beginverse
+    Passer ma \[C]vie sur les routes, nomade, tel un vagabond
+    Passer ma \[Em]vie goutte après goutte, goûter tout ce qu'il y a de bon
+    Passer ma \[Am]vie à raconter des histoires, chanter des chansons
+    Fuir ce \[G]monde qui est illusoire, ce monde qui me fait la leçon
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Moi, \[C]poète inutile, fainéant, improductif, et lâche
+      Moi la ci\[Em]gale qui chante l'été quand les fourmis se tuent à la tâche
+      Passer ma \[Am]vie à crier sur les toits que l'homme n'est pas fait pour ça
+      Passer ma \[G]vie tout près de toi, parce que sans toi je ne suis pas
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Ils ont bâ\[C]ti un monde de blasés
+    Qui \[Em]pensent que tout est cuit, qui pensent que plus rien ne peut changer
+    Nos rêves, nos \[Am]vies, nos espoirs écrasés
+    Enchainés à \[G]leur chienne de pensée, esclave de leur réalité
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Passer ma \[C]vie à essayer de me persuader qu'un jour peut-être
+      Les choses \[Em]changeront d'elle-même, passer ma vie à vouloir faire avec
+      Passer ma \[Am]vie à accepter tout c'que je ne peux pas changer
+      Passer ma \[G]vie, à vouloir changer tout ce que je ne peux pas accepter
+    \endverse
+
+    \beginverse*
+      Passer ma \[C]vie à te regarder dans le blanc des yeux
+      Passer ma \[Em]vie à espérer qu'on sera toute la vie tous les deux
+      Passer ma \[Am]vie tant bien que mal à vouloir vivre le bonheur
+      Quand bien même \[G]ce monde nous inonde de ses immondices, horreurs
+    \endverse
+
+    \beginchorus
+      Un étran\[C]ger, c'est tout je suis
+      Sur \[Em]terre je n'ai pas de chez moi, chez vous c'est bien trop petit
+      Trop à l'é\[Am]troit dans votre paradis
+      Mon cœur et \[G]mon âme s'évadent, s'envolent, rêvent d'une autre vie
+    \endchorus
+
+    \beginverse
+      Passer ma \[C]vie à oublier qu'un jour viendra la nuit
+      Qui me dira que \[Em]mon heure est passée, que je n'pourrais plus désormais
+      Passer ma \[Am]vie tout près de toi, à me dire que tu es si belle
+      Passer \[G]mes nuits sous ce toit, où nos songes se ramassent à la pelle
+    \endverse
+
+    \beginverse*
+      Passer ma \[C]vie à crier à l'injustice et au mensonge
+      Passer ma \[Em]vie à passer pour un fou, un parano, un étrange
+      Passer ma \[Am]vie à m'indigner pour tout et pour n'importe quoi
+      Passer ma \[G]vie à radoter les mêmes mots pensés mille fois
+    \endverse
+
+    \beginchorus
+      Passer ma \[C]vie, à regarder passer
+      Ce monde fier, \[Em]futile, furieux, folle caravane de l'insensé
+      Passer ma \[Am]vie, penser, dépenser
+      Cette vie dont \[G]j'aimerais être heureux le jour où elle sera dépassée
+    \endchorus
+  \end{repeatedchords}
+
+\endsong

@@ -10,7 +10,7 @@
   \gtab{E}{022100}
   \gtab{Am}{X02210}
   \gtab{D7}{XX0212}
-  \gtab{E4}{022200}
+  \gtab*{E4}{022200}
 
   \beginverse
     \[F] L'habi\[C]tude nous joue des \[G]tours

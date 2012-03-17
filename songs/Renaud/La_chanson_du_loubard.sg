@@ -2,7 +2,7 @@
 \songcolumns{2}
 \beginsong{La chanson du loubard}
   [by=Renaud,album=Laisse Béton,cov=laisse-beton]
-  
+
   \cover
   \gtab{Em}{022000}
   \gtab{C}{X32010}
@@ -12,7 +12,7 @@
   \gtab{B7}{X21202}
 
   \beginverse*
-    \musicnote{\Intro: \nolyrics \[Em C Em C]}
+    \musicnote{\Intro : \nolyrics \[Em C Em C]}
   \endverse
 
   \beginverse

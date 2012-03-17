@@ -62,13 +62,6 @@
       L'or\[Em]dinaire est chagrin
       Dans \[Bm]{l'armoire} en sa\[Em]pin
     \endverse
-
-    \beginchorus
-      A\[Am]lors il se débine
-      Par la fe\[D]nêtre à guillotine
-      La \[Bm]Lune, astre obscène
-      \[Em]Éclaire la scène
-    \endchorus
   \end{repeatedchords}
 
   \beginverse*
@@ -95,13 +88,6 @@
       Dans le \[Bm]placard à ba\[Em]lais
     \endverse
 
-    \beginchorus
-      A\[Am]lors il se débine
-      Par la fe\[D]nêtre à guillotine
-      La \[Bm]Lune, astre obscène
-      \[Em]Éclaire la scène
-    \endchorus
-
     \beginverse
       Et \[G]sur l'épave d'une \[Em]mobylette
       Le \[G]voilà parti \[Em]dans la nuit
@@ -125,27 +111,11 @@
       Le \[Em]puits me désespère
       Dans \[Bm]son manteau de \[Em]lierre
     \endverse
-
-    \beginchorus
-      A\[Am]lors je me débine
-      Par la fe\[D]nêtre à guillotine
-      La \[Bm]Lune, astre obscène
-      \[Em]Éclaire la scène
-    \endchorus
   \end{repeatedchords}
 
   \beginverse*
     \musicnote {\nolyrics \[Am D Am Bm Em]}
   \endverse
-
-  \begin{repeatedchords}
-    \beginchorus
-      A\[Am]lors je me débine
-      Par la fe\[D]nêtre à guillotine
-      La \[Bm]Lune, astre obscène
-      \[Em]Éclaire la scène
-    \endchorus
-  \end{repeatedchords}
 
   \beginverse*
     \musicnote {\Outro : \nolyrics \[Em G Am Bm] \rep{4}}

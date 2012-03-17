@@ -11,7 +11,7 @@
   \gtab{Em}{022000}
 
   \beginverse*
-    Intro : \nolyrics \[Bm G Bm G]
+    \musicnote{\Intro : {\nolyrics \[Bm G Bm G]} }
   \endverse
 
   \beginverse
@@ -24,10 +24,10 @@
     Pis j'ai mar\[D]ché jusqu'au garage
     Et j'avais \[Bm]{les pieds} en compote
     Mais j'ai ras\[Em]semblé mon courage
-    Punaise j'é\[A]tais gonflé à bloc
-    Punaise j'é\[D]tais gonflé à bloc
-    Punaise j'é\[Bm]tais gonflé à bloc
-    \nolyrics \[Em] \[A]
+    Punaise, j'é\[A]tais gonflé à bloc
+    Punaise, j'é\[D]tais gonflé à bloc
+    Punaise, j'é\[Bm]tais gonflé à bloc
+    {\nolyrics \[Em] \[A]}
   \endverse
 
   \begin{repeatedchords}
@@ -41,15 +41,15 @@
       Alors j'ai \[D]retiré ma toque
       Et j'ai ré\[Bm]cité une prière
       Et pis j'ai \[Em]rassemblé mes nerfs
-      Punaise j'é\[A]tais gonflé à bloc
-      Punaise j'é\[D]tais gonflé à bloc
-      Punaise j'é\[Bm]tais gonflé à bloc
+      Punaise, j'é\[A]tais gonflé à bloc
+      Punaise, j'é\[D]tais gonflé à bloc
+      Punaise, j'é\[Bm]tais gonflé à bloc
     \endverse
   \end{repeatedchords}
 
   \beginverse*
     \nolyrics\[D] \[G] \[D]
-    Punaise j'é\[G]tais gonflé à bloc
+    Punaise, j'é\[G]tais gonflé à bloc
     \nolyrics\[Em] \[A]
   \endverse
 
@@ -64,9 +64,9 @@
       Et lorsque j'ai claqué la porte
       La clenche m'est \[Bm]restée dans la main
       La porte est \[Em]tombée sur le chemin
-      Punaise j'é\[A]tais gonflé à bloc
-      Punaise j'é\[D]tais gonflé à bloc
-      Punaise j'é\[Bm]tais gonflé à bloc
+      Punaise, j'é\[A]tais gonflé à bloc
+      Punaise, j'é\[D]tais gonflé à bloc
+      Punaise, j'é\[Bm]tais gonflé à bloc
     \endverse
   \end{repeatedchords}
 
@@ -89,17 +89,17 @@
       Alors j'ai sau\[D]té dans mon froc
       Et pis j'ai \[Bm]rassemblé mes ch'veux
       Et pis j'ai \[Em]fait crisser les pneus
-      Punaise j'é\[A]tais gonflé à bloc
-      Punaise j'é\[D]tais gonflé à bloc
-      Punaise j'é\[Bm]tais gonflé à bloc
+      Punaise, j'é\[A]tais gonflé à bloc
+      Punaise, j'é\[D]tais gonflé à bloc
+      Punaise, j'é\[Bm]tais gonflé à bloc
     \endverse
   \end{repeatedchords}
 
   \beginverse*
-    Outro :
+    \musicnote{\Outro :{
     \nolyrics \[D] \[G] \[D] \[G]
     \nolyrics \[Em] \[A] \[D] \[G]
-    \nolyrics \[D] \[G] (ad lib.)
+    \nolyrics \[D] \[G] (ad lib.)}}
   \endverse
 
 \endsong

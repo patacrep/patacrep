@@ -4,14 +4,14 @@
   [by=Thomas Fersen,album=Trois petits tours,cov=Trois-petits-tours]
 
   \cover
-  \gtab{C{\shrp}m}{4:X02210}
-  \gtab{F{\shrp}m}{2:022000}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#m}{2:022000}
   \gtab{A}{X02220}
-  \gtab{G{\shrp}}{4:022100}
+  \gtab{G#}{4:022100}
 
 
   \beginverse*
-    \musicnote {\Intro : \nolyrics \[C{\shrp}m]}
+    \musicnote{\Intro : {\nolyrics \[C{\shrp}m]}}
   \endverse
 
   \beginverse
@@ -23,7 +23,7 @@
     I\[C#m]nutile que je le sale
     En trois \[F#m]secondes elle broute
     Pis \[F#m]on peut reprendre la route
-    \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+    {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
   \endverse
 
   \begin{repeatedchords}
@@ -36,7 +36,7 @@
       Inu\[C#m]tile que je la cuise
       Mon ra\[F#m]soir, mes haltères
       Tout \[F#m]ça la désaltère
-      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+      {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
     \endverse
   \end{repeatedchords}
 
@@ -51,7 +51,7 @@
     Je crois qu'elle \[F#m]me mordrait la main
     En trois \[A]coups de cuiller à pot
     Y res\[G#]terait plus que mon chapeau
-    \nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]
+    {\nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]}
   \endchorus
 
   \begin{repeatedchords}
@@ -64,7 +64,7 @@
       Dans \[C#m]un grand mouchoir blanc
       Et je \[F#m]pleure d'émotion
       M'en \[F#m]vais en reniflant
-      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+      {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F#m]}
     \endverse
 
     \beginchorus
@@ -78,7 +78,7 @@
       Je crois qu'elle \[F#m]me mordrait la barbe
       En trois \[A]coups de cuiller à pot
       Y res\[G#]terait plus qu'mon chapeau
-      \nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]
+      {\nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]}
     \endchorus
 
     \beginverse
@@ -88,9 +88,9 @@
       En \[F#m]{l'ouvrant} à l'hôtel
       D'y trou\[C#m]ver des petites fleurs
       Des \[C#m]mouchoirs en dentelle
-      Un tu\[F#m]tu, un cache-c\œur
+      Un tu\[F#m]tu, un cache-cœur
       Et \[F#m]une petite ombrelle
-      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+      {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
     \endverse
 
     \beginverse*
@@ -100,9 +100,9 @@
       Qui \[F#m]sentaient le bonbon
       Ces frou\[C#m]frous d'une artiste
       Dan\[C#m]seuse au music-hall
-      A mon \[F#m]âge, c'est bien triste
+      À mon \[F#m]âge, c'est bien triste
       Ça \[F#m]{m'a} foutu la gaule
-      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+      {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
     \endverse
 
     \beginchorus
@@ -126,7 +126,7 @@
     J'ai con\[G#]tinué la fête
     Jus\[A]{qu'au} petit matin
     J'ai con\[G#]tinué la fête
-    \nolyrics {\[A] \[G#]} (ad lib)
+    {\nolyrics \[A] \[G#]} (ad lib)
   \endchorus
 
 \endsong

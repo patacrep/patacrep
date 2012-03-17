@@ -1,35 +1,35 @@
-﻿\selectlanguage{french}
-\songcolumns{2}
-\beginsong{La natation synchronisée}[by=Vincent Delerm,cov=Kensington-Square,album=Kensington Square]
- 
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{La natation synchronisée}
+  [by=Vincent Delerm,cov=Kensington-Square,album=Kensington Square]
+
   \cover
   \gtab{E}{022100}
   \gtab{E7}{022130}
   \gtab{F#m}{2:022000}
-  \gtab{A}{002220}
-  \gtab{Bm}{2:002210}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
   \gtab{B7}{021201}
 
 
   \beginverse
     \[A]Nous avons connu les \[F#m]correspondantes allemandes \[E7]et les correspondants anglais\[A]
-    Nous avons disputés des \[F#m]inter classes de hand \[E7]et des inter classes de volley\[A]
-    \[D]Nous avons révisés les a\[A]ccords de Yalta \[Bm]juste à  co\[E]té d'une robe en lin\[A7]
+    Nous avons disputé des \[F#m]inter-classes de hand \[E7]et des inter-classes de volley\[A]
+    \[D]Nous avons révisé les a\[A]ccords de Yalta \[Bm]juste à cô\[E]té d'une robe en lin\[A7]
     \[D]Et nous avons mélangé Ser\[A]gi Brughera \[B7]avec les accords de Berlin\[E7]
   \endverse
 
   \beginchorus
     \[D]Nos histoires d'amour sont les mê\[A]mes comme si nous a\[Bm]vions pra\[E]tiqué\[A7]
-    \[D]Dans des piscines parallè\[A]les la nata\[E7]tion synchronisée\[A]
-    \[D]Nous avons cru faire une transat\[A]  en soli\[Bm]taire mais à la place\[A7]
+    \[D]Dans des piscines parallè\[A]les, la nata\[E7]tion synchronisée\[A]
+    \[D]Nous avons cru faire une transat\[A] en soli\[Bm]taire mais à la place\[A7]
     \[D]Nous ne dessinons sur l'asphal\[A]te qu'un ballet \[E7]d'Holiday on ice\[A]
   \endchorus
-
 
   \beginverse
     Nous avons essayé le dry Schweppes pamplemousse
     Milos Forman et Fassbinder
-    Les barquettes plastique de fish 'n chips à Portsmouth
+    Les barquettes plastique de fish'n chips à Portsmouth
     Elle photographiait nos erreurs
     Nous avons subi le soir du 21 juin
     Des reprises de La Bombe Humaine
@@ -37,18 +37,15 @@
     Just Like Heaven avenue du Maine
   \endverse
 
-	
-
   \beginverse
-    Sur celle avec ta soeur dommage tu fermes les yeux
-    Celle-là le flash est pas parti
+    Sur celle avec ta sœur dommage tu fermes les yeux
+    Celle-là, le flash est pas parti
     Là c'était l'hôtel le dernier soir à Malmö
-    Ca je sais même pas où c'est pris
+    Ça je sais même pas où c'est pris
     Nous avons vu l'éclipse tout en haut d'un talus
     Nous avons marché sous la pluie
     Elle s'est assise un soir au fond du resto U
     Par hasard j'étais là aussi
   \endverse
-
 
 \endsong

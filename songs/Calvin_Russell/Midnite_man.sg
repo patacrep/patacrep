@@ -8,45 +8,41 @@
   \gtab{E}{022100}
   \gtab{Dm}{XX0321}
 
-  \beginverse*
-    \musicnote{ \Intro: }
-    \musicnote{ \lilypond{Midnite_man} }
-  \endverse
+  \lilypond{Midnite_man}
 
   \beginverse
     \[Am] I hear the whistle of the \[E]Midnite Man
-    \[E]Rollin' down the Texas \[Am]plain \[Dm] \[Dm]
-    \[E]Such a beautiful song \[E]
-    \[Dm]But it sounds so wrong
-    \[E]Till I get you back ag\[Am]ain oh oh ohh \[Am]
+    \[E]Rollin' down the Texas \[Am]plain \[Dm]
+    Such a \[E]beautiful song
+    But it \[Dm]sounds so wrong
+    \[E]Till I get you back ag\[Am]ain oh oh oh
   \endverse
 
   \beginverse
     \[Am] There's something missing in this \[E]poor heart of mine
-    L\[E]ike an empty boxcar o\[Am]ut on the railroad line \[Dm] \[Dm]
-    Oh how I miss y\[E]ou \[E]
-    I miss \[Dm]you \[Dm]
-    Oh how \[E]I miss you \[E]
+    L\[E]ike an empty boxcar o\[Am]ut on the railroad line \[Dm]
+    Oh how I miss \[E]you
+    I miss \[Dm]you
+    Oh how \[E]I miss you
     \[Dm] With every breath \[E]
     That I take \[Am]
   \endverse
 
-
   \beginverse*
-    \musicnote{\nolyrics{ | \[Am] | \[E] | \[E] | \[Am] |
+    \musicnote{\nolyrics{ | \[Am] | \[E] | \[E] | \[Am]
     | \[Dm] | \[Dm] | \[E] | \[E] | } }
   \endverse
 
   \begin{repeatedchords}
     \beginverse
-      \[Am] The whipporwill and the \[E] mockingbird
-      \[E] They make a sound like you \[Am] ain't never heard \[Dm] \[Dm]
-      Still I miss \[E]you \[E]
-      Oh how I miss \[Dm]you \[Dm]
-      I miss y\[E]ou \[E]
-      Oh h\[Dm]ow I miss you \[Dm]
-      Yes \[E]I miss you \[E]
-      \[Dm] With every breath \[E]
+      \[Am] The whippoorwill and the \[E] mockingbird
+      \[E] They make a sound like you \[Am] ain't never heard \[Dm]
+      Still I miss \[E]you
+      Oh how I miss \[Dm]you
+      I miss \[E]you
+      Oh \[Dm]how I miss you
+      Yes \[E]I miss you
+      \[Dm] With every \[E]breath
       That I take \[Am]
     \endverse
   \end{repeatedchords}

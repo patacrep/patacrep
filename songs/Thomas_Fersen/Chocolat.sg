@@ -5,10 +5,10 @@
 
   \cover
   \gtab{B}{X24442}
-  \gtab{D{\shrp}7}{XX1323}
-  \gtab{G{\shrp}m}{4:022000}
-  \gtab{C{\shrp}m}{4:X02210}
-  \gtab{F{\shrp}7}{2:020100}
+  \gtab{D#7}{XX1323}
+  \gtab{G#m}{4:022000}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#7}{2:020100}
 
   \beginverse*
     \musicnote{\Intro : \nolyrics \[B D{\shrp}7 G{\shrp}m G{\shrp}m] \rep{2}}

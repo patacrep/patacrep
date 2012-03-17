@@ -11,7 +11,7 @@
   \gtab{G}{320003}
   \gtab{Em}{022000}
   \gtab*{Emadd9}{022002}
-  \gtab{Em*}{022003}
+  \gtab*{Em*}{022003}
 
   \beginverse*
     \musicnote{\Intro : \nolyrics{ | \[D] \[D] \[D4] \[D] | \[A] | \[Em] \[Em] \[Emadd9] \[Em*] | \[G] | } \rep{2}}

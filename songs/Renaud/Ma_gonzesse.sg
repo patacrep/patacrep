@@ -1,0 +1,120 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Ma gonzesse}
+  [by=Renaud,album=Ma gonzesse,cov=ma-gonzesse]
+  
+  \cover
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{Fm}{1:022000}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{B&}{X13331}
+
+  \beginverse*
+    \musicnote {\Intro: \nolyrics \[C]}
+  \endverse
+
+  \beginverse
+    \[C]Malgré le blouson clouté
+    Sur \[C]mes épaules de velours
+    \[C]{J'aimerais} bien parfois chanter
+    Au\[Dm]tre chose que la zone
+    \[Fm]Un genre de chanson d'amour
+    Pour \[C]ma petite ama\[Am]zone
+    \[D]Pour celle qui tous les jours
+    Par\[G]tage mon cassoulet
+  \endverse
+
+  \beginchorus
+    Ma gon\[C]zesse, \[B&]celle que j'suis avec
+    Ma prin\[C]cesse, \[B&]celle que j'suis son mec
+    Oh oh \[C]oh
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[C]Faut dire qu'elle mérite bien
+      Qu'j'y \[C]consacre une chanson
+      \[C]Vu que j'suis amoureux d'elle
+      Un \[Dm]peu comme dans les films
+      \[Fm]Où y'a tout plein de violons
+      Quand \[C]le héros y \[Am]meurt
+      \[D]Dans les bras d'une infirmière
+      Qu'est \[G]très belle et qui pleure
+    \endverse
+
+    \beginverse*
+      \[C]Et puis elle est balancée
+      Un \[C]peu comme un Mayol
+      \[C]Tu sais bien les statues
+      Du \[Dm]jardin des Tuileries
+      \[Fm]Qui hivers comme été
+      Ex\[C]hibent leurs gui\[Am]boles
+      \[D]Et se gèlent le cul
+      \[G]Et le reste aussi
+    \endverse
+
+    \beginchorus
+      Ma gon\[C]zesse, \[B&]celle que j'suis avec
+      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
+      Oh oh \[C]oh
+    \endchorus
+
+    \beginverse
+      \[C]Pis faut dire qu'elle a les yeux
+      \[C]Tellement qu'y sont beaux
+      \[C]On dirait bien qu'y sont bleus
+      On \[Dm]dirait des calots
+      \[Fm]Parfois quand elle me regarde
+      J'i\[C]magine des tas de \[Am]choses
+      \[D]Que je réalise plus tard
+      Quand \[G]on se retrouve tout seul
+    \endverse
+
+    \beginverse*
+      \[C]Si tu dis qu'elle est moche
+      Tu \[C]y manques de respect
+      \[C]Je t'allonge une avoine
+      Ce \[Dm]sera pas du cinoche
+      \[Fm]Mais si tu m'dis qu'elle est belle
+      Comme \[C]je suis très ja\[Am]loux
+      \[D]Je t'éclate la cervelle
+      \[G]Faut rien dire du tout
+    \endverse
+
+    \beginchorus
+      De ma gon\[C]zesse, \[B&]celle que j'suis avec
+      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
+      Oh oh \[C]oh
+    \endchorus
+
+    \beginverse*
+      \musicnote{Solo Accordéon \nolyrics \[C C C Dm Fm C Am D G]}
+    \endverse
+
+
+    \beginverse
+      \[C]J'aimerais bien un d'ces jours
+      Y \[C]coller un marmot
+      Ah \[C]ouais un vrai qui chiale et tout
+      Et \[Dm]{qu'a} tout le temps les crocs
+      \[Fm]Elle aussi elle aimerait ça
+      \[C]Mais c'est pas pos\[Am]sible
+      \[D]Son mari y veut pas
+      Y \[G]dit qu'on est trop jeune
+    \endverse
+
+    \beginchorus
+      Ma gon\[C]zesse, \[B&]celle que j'suis avec
+      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
+      Ma gon\[C]zesse, \[B&]celle que j'suis avec
+      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
+      Ma gon\[C]zesse, \[B&]celle que j'suis avec, ma prin\[C]cesse
+    \endchorus
+  \end{repeatedchords}
+
+  \lilypond{Ma_gonzesse}
+
+\endsong

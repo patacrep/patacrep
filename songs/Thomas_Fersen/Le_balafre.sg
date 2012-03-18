@@ -1,0 +1,102 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le balafré}
+  [by=Thomas Fersen,cov=Je-suis-au-paradis,album=Je suis au paradis]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{Bm}{X24432}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{F#m}{2:022000}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[D A Bm G D A Bm G]}
+  \endverse
+
+  \beginverse
+    \[D]Il lui man\[Em]quait quatre pha\[Bm]langes
+    Ça lui don\[G]nait pas l'air d'un \[D]ange
+    Avec son \[Em]\œil sous un ban\[F#m]deau
+    Et sa gueule \[Bm]{en lame} de cou\[G]teau
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      \[D]Sous son vê\[Em]tement, doux Jé\[Bm]sus
+      Tout son corps \[G]était recou\[D]su
+      Et quand il \[Em]remontait ses \[F#m]manches
+      Les femmes de\[Bm]venaient toutes \[G]blanches
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Il me\[D]nait une vie de ci\[A]gale
+    Il \[Bm]jouait de la scie musi\[G]cale
+    Il \[D]trouvait qu'en fermant les \[A]yeux
+    \[F#m]Son instrument sonnait \[G]mieux
+    Le bala\[D]fré \[A] \[Bm] \[G]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[D]Sa mère cro\[Em]yait de bonne \[Bm]foi
+      Qu'il s'en al\[G]lait couper du \[D]bois
+      C'est pas qu'il \[Em]fût je-m'en-fou\[F#m]tiste
+      Il avait \[Bm]une âme d'ar\[G]tiste
+    \endverse
+
+    \beginchorus
+      Dans \[D]un cabaret de Pi\[A]galle
+      Il \[Bm]jouait de la scie musi\[G]cale
+      Il \[D]trouvait qu'en fermant les \[A]yeux
+      \[F#m]Son instrument sonnait \[G]mieux
+      Le bala\[D]fré \[A] \[Bm] \[G]
+    \endchorus
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[D]{Il aimait} la vie \[Em]{de théâtre}
+    \[Bm]{Il aimait} le stuc \[G]{et le plâtre}
+    \[D]Les filles habillées \[Em]{en lapin}
+    \[Bm]Plutôt que l'odeur \[G]{du sapin}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \beginchorus
+      Et \[D]{à la} pause syndi\[A]cale
+      Leur \[Bm]jouait de la scie musi\[G]cale
+      Il \[D]trouvait qu'en fermant les \[A]yeux
+      \[F#m]Son instrument sonnait \[G]mieux
+      Le bala\[D]fré \[A] \[Bm] \[G]
+    \endchorus
+
+    \beginverse
+      \[D]On retrou\[Em]va au parc Mon\[Bm]ceau
+      Une bourgeoise \[G]coupée en mor\[D]ceaux
+      \[D]Le bala\[Am]fré passait par \[F#m]là
+      Il avait \[Bm]{sa scie} sous son \[G]bras
+    \endverse
+
+    \beginverse*
+      \[D]Tout le monde cro\[Em]yait de bonne \[Bm]foi
+      Qu'il s'en al\[G]lait couper du \[D]bois
+      C'est pas qu'il \[Em]fût je-m'en-fou\[F#m]tiste
+      Il avait \[Bm]une âme d'ar\[G]tiste
+    \endverse
+
+    \beginchorus
+      Il me\[D]nait une vie de ci\[A]gale
+      Il \[Bm]jouait de la scie musi\[G]cale
+      Il \[D]trouvait qu'en fermant les \[A]yeux
+      \[F#m]Son instrument sonnait \[G]mieux
+      Le bala\[D]fré \[A] \[Bm] \[G]
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\Outro : \nolyrics \[ D A Bm G D]}
+  \endverse
+
+\endsong

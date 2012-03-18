@@ -1,0 +1,132 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{La malle}
+  [by=Thomas Fersen,album=Trois petits tours,cov=Trois-petits-tours]
+
+  \cover
+  \gtab{C{\shrp}m}{4:X02210}
+  \gtab{F{\shrp}m}{2:022000}
+  \gtab{A}{X02220}
+  \gtab{G{\shrp}}{4:022100}
+
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[C{\shrp}m]}
+  \endverse
+
+  \beginverse
+    Chaque ma\[C#m]tin, ma valise
+    A\[C#m]vale sa nourriture
+    Mes toi\[F#m]lettes sont exquises
+    Elles \[F#m]sentent la friture
+    Chaque ma\[C#m]tin, mon linge sale
+    I\[C#m]nutile que je le sale
+    En trois \[F#m]secondes elle broute
+    Pis \[F#m]on peut reprendre la route
+    \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Elle a\[C#m]vale sans problème
+      L'a\[C#m]rête de mon peigne
+      C'est \[F#m]vous dire s'il est fin
+      Pis \[F#m]elle boit mon parfum
+      Mon cale\[C#m]çon, ma chemise
+      Inu\[C#m]tile que je la cuise
+      Mon ra\[F#m]soir, mes haltères
+      Tout \[F#m]ça la désaltère
+      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Tout ce que je \[A]mets sont les mets
+    Dont \[G#]elle aime le fumet
+    En trois \[C#m]secondes, elle le lape
+    Sans \[F#m]dérouler la nappe
+    Ma va\[A]lise n'a pas de dents
+    Mais un \[G#]appétit canin
+    Si je \[C#m]{n'étais} pas prudent
+    Je crois qu'elle \[F#m]me mordrait la main
+    En trois \[A]coups de cuiller à pot
+    Y res\[G#]terait plus que mon chapeau
+    \nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Ma va\[C#m]lise adorant
+      Mon \[C#m]linge malodorant
+      Je me \[F#m]dis pour moi-même
+      Enfin quel\[F#m]{qu'un} qui m'aime
+      Et je \[C#m]pleure d'émotion
+      Dans \[C#m]un grand mouchoir blanc
+      Et je \[F#m]pleure d'émotion
+      M'en \[F#m]vais en reniflant
+      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+    \endverse
+
+    \beginchorus
+      Tout ce que je \[A]mets sont les mets
+      Dont \[G#]elle aime le fumet
+      En trois \[C#m]secondes, elle le happe
+      Sans \[F#m]dérouler de nappe
+      Ma va\[A]lise n'a pas de dents
+      Mais je \[G#]reste sur mes gardes
+      Si je \[C#m]{n'étais} pas prudent
+      Je crois qu'elle \[F#m]me mordrait la barbe
+      En trois \[A]coups de cuiller à pot
+      Y res\[G#]terait plus qu'mon chapeau
+      \nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]
+    \endchorus
+
+    \beginverse
+      Par ha\[C#m]sard, ma valise
+      A \[C#m]croisé sa jumelle
+      Quelle ne \[F#m]fut ma surprise
+      En \[F#m]{l'ouvrant} à l'hôtel
+      D'y trou\[C#m]ver des petites fleurs
+      Des \[C#m]mouchoirs en dentelle
+      Un tu\[F#m]tu, un cache-c\œur
+      Et \[F#m]une petite ombrelle
+      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+    \endverse
+
+    \beginverse*
+      Les bon\[C#m]nets, les baleines
+      D'u\[C#m]ne petite gaine
+      Et des \[F#m]mules à pompon
+      Qui \[F#m]sentaient le bonbon
+      Ces frou\[C#m]frous d'une artiste
+      Dan\[C#m]seuse au music-hall
+      A mon \[F#m]âge, c'est bien triste
+      Ça \[F#m]{m'a} foutu la gaule
+      \nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]
+    \endverse
+
+    \beginchorus
+      Après \[A]quoi, sapristi
+      J'ai \[G#]bu un coup de gnôle
+      Je \[C#m]me suis travesti
+      J'ai \[F#m]dansé dans la piaule
+      Affu\[A]blé comme une poule
+      Pas \[G#]de celles qui pondent
+      Mais qui \[C#m]chantent pour la foule
+      Que Pa\[F#m]ris est une blonde
+      Affu\[A]blé d'une jupette
+      Et \[G#]levant la gambette
+    \endchorus
+  \end{repeatedchords}
+
+  \beginchorus
+    Jus\[A]{qu'au} petit matin
+    J'ai con\[G#]tinué la fête
+    Jus\[A]{qu'au} petit matin
+    J'ai con\[G#]tinué la fête
+    Jus\[A]{qu'au} petit matin
+    J'ai con\[G#]tinué la fête
+    \nolyrics {\[A] \[G#]} (ad lib)
+  \endchorus
+
+\endsong

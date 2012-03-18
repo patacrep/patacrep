@@ -1,0 +1,94 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Citoyen du monde}
+  [by=HK \& Les Saltimbanks,cov=citoyen-du-monde,album=Citoyen du monde]
+
+  \cover
+  \capo{2}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+
+  \beginverse
+    Je n'ai \[Am]pas d'hymne guerrier
+    Pas de patrie, \[Em]pas de président
+    Je n'ai \[G]pas d'autre armée
+    Que celle de ceux qui veulent com\[Am]battre pour l'amour en dépit des lois de l'argent
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Je n'ai \[Am]pas d'hommes à exploiter
+      Pas de \[Em]richesses à créer pour mon compte
+      \[G] Je n'ai pas de territoires à défendre
+      Contre \[Am] ces pauvres gens qui viennent des quatre coins du monde
+    \endverse
+
+    \beginverse*
+      \[Am] Et si il nous fallait crever de faim, ici
+      \[Em]Tous ensemble, soyez les bienvenus
+      \[G] Plutôt mourir que de vivre dans l'abondance
+      \[Am]Couvert de vêtements quand tellement d'autres sont nus
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[Am]Oh yo
+    Oh \[Em]yo yo yo
+    \[G]Citoyen du monde
+    Partisan d'un monde sans \[Am]frontières
+    \rep{2}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Il y a \[Am]le bon étranger
+      Celui que tu ac\[Em]cueilles les bras grands ouverts
+      Et il y \[G]a le mauvais
+      Celui que tu pour\[Am]chasses dès qu'il a franchi ta frontière
+    \endverse
+
+    \beginverse*
+      \[Am] Il y a le bon
+      Celui \[Em] qui te sera utile
+      \[G] Et il y a le truand
+      Celui que \[Am]tu ne veux surtout pas voir arriver dans ta ville
+    \endverse
+
+    \beginverse*
+      \[Am] Si tu cherches la brute
+      Va là où on \[Em]parle dollar cash et pétrole brut
+      Mais \[G]ne cherche surtout pas le shérif
+      Je l'ai shoo\[Am]té quand il m'a dit qu'il ne défendait que les riches
+    \endverse
+
+    \beginverse
+      Et si ta \[Am]part te suffit pas
+      Tu en prendras \[Em]d'autres sans avoir à te battre
+      \[G] Il y a tellement de petits sur cette Terre
+      \[Am] Tellement faciles à abattre
+    \endverse
+
+    \beginverse*
+      \[Am] Vois toutes ces frontières
+      Ce ne sont \[Em] que de sombres cicatrices
+      \[G] Plaies ouvertes d'anciennes conquêtes
+      \[Am] Vestiges de vains sacrifices
+    \endverse
+
+    \beginverse*
+      \[Am] Tant de pauvres soldats
+      Envoyés au char\[Em]bon sont morts pour elles
+      \[G] Quand bien au chaud la victoire était fêtée
+      Au cham\[Am]pagne, par leurs colonels
+    \endverse
+
+    \beginverse*
+      \[Am] Il n'y a qu'un seul rêve que je poursuive
+      Une seule \[Em]phrase qui en moi résonne
+      \[G] Par-delà les frontières
+      La Terre doit appar\[Am]tenir à tous ou à personne
+    \endverse
+  \end{repeatedchords}
+
+\endsong

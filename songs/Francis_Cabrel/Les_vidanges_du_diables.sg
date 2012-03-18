@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les vidanges du diable}[by=Francis Cabrel,cov=SamediSoir,album=Un samedi soir sur la terre]
+
+  \cover
+  \gtab{Adim}{X12020}
+  \gtab{Adim}{X02323}
+  \gtab{A}{002220}
+  \gtab{Bm}{2:002210}
+  \gtab{F#}{2:022100}
+  \gtab{F#m7}{2:020000}
+  \gtab{G}{3:022100}
+  \gtab{E}{0221000}
+  \gtab{D}{X00232}
+  \gtab{C}{032010}
+
+  \beginverse
+    \[Adim]J'ai rappro\[Bm]ché les coussins
+    \[G]J'ai mis quelques fleurs au\[F#]tour
+    \[G]J'ai fabriqué un é\[E]crin
+    Avec du mauvais velours\[A]\[F#]
+    \[Adim]Il me res\[Bm]tait du parfum, du parfum\[G]
+    Quelques bougies de se\[F#]cours
+    \[G]On va se cacher dans un coin\[E]
+    Un linge sur l'abat-jour\[A]\[F#]
+  \endverse
+
+
+
+  \beginchorus
+    \[G]T'es tout ce qu'il me res\[A]te, l'amour
+    \[Fm#7]Dehors c'est insupporta\[G]ble!
+    Emmène-moi ail\[D]leurs
+    Loin des vidanges du dia\[C]ble, ailleurs\[D]
+  \endchorus
+
+
+
+
+  \beginverse
+    En bas, y'a plein de gamins
+    Pleins de ballons dans la cour
+    Ca crie du soir au matin
+    C'est presque à devenir sourd
+    Je vais la couvrir de dessins...
+    Cette cité sans retour
+    Le futur est tellement loin
+    Le présent tellement lourd
+  \endverse
+
+  \beginchorus
+    \[G]Ailleurs, \[A]j'aur.ai du travail, du la\[F#]beur
+    \[G]Je redeviendrai fréquen\[D]table
+    \[G]Ailleurs, \[A]pour quelques jours, quelques \[F#m]heures
+    \[G]Leur montrer que j'en suis ca\[D]pable \[C] \[D]
+  \endchorus
+
+
+  \beginverse
+    J'ai rien à faire de mes mains
+    Rien à faire des discours
+    J'ai pas la chance de certains
+    J'ai tiré le mauvais parcours
+    Mais, j'ai rapproché les coussins
+    Et j'ai mis quelques fleurs autour
+    On va se cacher dans un coin
+    Un linge sur l'abat-jour
+  \endverse
+
+
+\endsong

@@ -1,0 +1,94 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Mort les enfants}
+  [by=Renaud,album=Mistral Gagnant,cov=Mistral-gagnant]
+  
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{E7}{020100}
+  \gtab{A7}{X02020}
+  \gtab{B&}{X13331}
+  \gtab{Gm}{3:022000}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+
+  \beginverse*
+    \musicnote{\Intro : \nolyrics \[Dm E7 A7 Dm]}
+  \endverse
+
+  \beginverse
+    \[Dm]Chiffon imbibé d'ess\[E7]ence
+    \[A7]Un enfant meurt en si\[Dm]lence
+    \[B&]Sur le trottoir de Bo\[Gm]gotá
+    \[B&]On ne s'a\[A7]rrête pas
+    \[Dm]Dechiqu'tés aux champs de \[E7]mines
+    \[A7]Décimés aux premières \[Dm]lignes
+    \[B&]Morts les enfants de la \[Gm]guerre
+    \[B&]Pour les i\[A7]dées de leur père
+
+  \endverse
+
+  \beginchorus
+    \[F]Bal à l'ambas\[B&]sade
+    Quel\[C]ques vieux ma\[F]lades
+    \[Dm]Imbéciles et graba\[Gm]taires
+    \[B&]Se parta\[A7]gent l'univers
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Dm]Mort les enfants de Bho\[E7]pal
+      \[A7]D'industrie occiden\[Dm]tale
+      \[B&]Partis dans les eaux du \[Gm]Gange
+      \[B&]Les avo\[A7]cats s'arrangent
+      \[Dm]Morts les enfants de la \[E7]haine
+      \[A7]Près de nous ou plus loin\[Dm]taine
+      \[B&]Morts les enfants de la \[Gm]peur
+      \[B&]Chevroti\[A7]ne dans le cœur
+    \endverse
+
+    \beginchorus
+      \[F]Bal à l'ambas\[B&]sade
+      Quel\[C]ques vieux ma\[F]lades
+      \[Dm]Imbéciles et mili\[Gm]taires
+      \[B&]Se parta\[A7]gent l'univers
+    \endchorus
+
+    \beginverse
+      \[Dm]Morts les enfants du Sa\[E7]hel
+      \[A7]On accuse le so\[Dm]leil
+      \[B&]Morts les enfants de Se\[Gm]veso
+      \[B&]Morts les arbres, \[A7]les oiseaux
+      \[Dm]Morts les enfants de la \[E7]route
+      \[A7]Dernier week-end du mois \[Dm]{d'août}
+      \[B&]Papa picolait sans \[Gm]doute
+      \[B&]Deux ou trois \[A7]verres, quelques gouttes
+    \endverse
+
+    \beginchorus
+      \[F]Bal à l'ambas\[B&]sade
+      Quel\[C]ques vieux ma\[F]lades
+      \[Dm]Imbéciles et tortion\[Gm]naires
+      \[B&]Se parta\[A7]gent l'univers
+    \endchorus
+
+    \beginverse
+      \[Dm]Mort l'enfant qui vivait \[E7]{en moi}
+      \[A7]Qui voyait en ce mon\[Dm]{de-là}
+      \[B&]Un jardin, une ri\[Gm]vière
+      \[B&]Et des hommes \[A7]plutôt frères
+      \[Dm]Le jardin est une \[E7]jungle
+      \[A7]Les hommes sont devenus \[Dm]dingues
+      \[B&]La rivière charrie les \[Gm]larmes
+      \[B&]Un jour l'en\[A7]fant prend une arme
+    \endverse
+
+    \beginchorus
+      \[F]Balles sur l'ambas\[B&]sade
+      At\[C]tentat, gre\[F]nade
+      \[F]Hécatombe au minis\[F]tère
+      Sous \[B&]{les gravats}, \[A7]{les grabataires}
+    \endchorus
+  \end{repeatedchords}
+
+\endsong

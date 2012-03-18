@@ -5,9 +5,9 @@
   \time 6/8
   \relative c''
   {
-    c4 c8 c b c d4. e4 d8 c4 c8 c b c << {d2.}\\{r4 g,8 g a b} >>
-    c4 c8 c b c d4. e4 d8 e4 g8 g f e d2. 
-    \repeat volta 2 {c4 a8 a b c b2.} 
-    c4 a8 a b c b4. b4 c8 d4. e4 c8 d2.
+    bes4 bes8 bes a bes c4. d4 c8 bes4. d4 bes8 << {c2.}\\{r4 f,8 g a} >>
+    bes4 bes8 bes a bes c4. d4 c8 d4 d8 bes4 d8 c4. a4.
+    \repeat volta 2 {bes4 g8 g a bes a2.}
+    bes4 g8 g a bes a4. a4 bes8 c4. d4 bes8 c2.
   }
 }

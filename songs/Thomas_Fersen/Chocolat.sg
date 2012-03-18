@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Chocolat}
+  [by=Thomas Fersen,album=Trois petits tours,cov=Trois-petits-tours]
+
+  \cover
+  \gtab{B}{X24442}
+  \gtab{D{\shrp}7}{XX1323}
+  \gtab{G{\shrp}m}{4:022000}
+  \gtab{C{\shrp}m}{4:X02210}
+  \gtab{F{\shrp}7}{2:020100}
+
+  \beginverse*
+    \musicnote{\Intro : \nolyrics \[B D{\shrp}7 G{\shrp}m G{\shrp}m] \rep{2}}
+  \endverse
+
+  \beginverse
+    Ma cigarette sur l'o\[G#m]reille et mes grosses lunettes de so\[C#m]leil
+    Leur ont mis la puce à l'o\[C#m]reille alors qu'ils bayaient aux cor\[D#7]neilles
+    Mes chaussures à museau de \[G#m]rat ont chatouillé leur odo\[C#m]rat
+    Et comme ils n'avaient rien à \[C#m]fiche, ils ont détaché leur ca\[D#7]niche
+  \endverse
+
+  \beginchorus
+    Et le chien s'est jeté sur \[B]moi, il a mangé mon choco\[F#7]lat
+    Il a mangé mes Grano\[F#7]la et puis il m'a léché les \[B]doigts
+    Ils ont goûté la fa\[B]rine, ils ont goûté l'aspi\[F#7]rine
+    Ils ont goûté le sa\[F#7]von mais le savon c'est pas \[B]bon, oh non !
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Y'a des perdreaux dans mes chaus\[G#m]settes, des poulets dans mon bermu\[C#m]da
+      Dans mon masque et dans mon tu\[C#m]ba et sur mon gros radiocas\[D#7]sette
+      Ils ont écouté la mu\[G#m]sique qui provenait de Jama\[C#m]ïque
+      Ils ont écouté du \[C#m]Bob tout en fouillant ma garde-\[D#7]robe
+    \endverse
+
+    \beginchorus
+      Et le chien s'est jeté sur \[B]moi, il a mangé mon choco\[F#7]lat
+      Il a mangé mes Grano\[F#7]la et puis il m'a léché les doigts
+      Ils ont goûté la fa\[B]rine, ils ont goûté l'aspi\[F#7]rine
+      Ils ont goûté le sa\[F#7]von mais le savon c'est pas \[B]bon, oh non !
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote{\nolyrics \[B D{\shrp}7 G{\shrp}m G{\shrp}m] \rep{2}}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      Y'a la volante dans mes cal\[G#m]cifs, ils sont pourtant inoffen\[C#m]sifs
+      Ils ont même l'air un peu gê\[C#m]né, ils pensaient pas s'oxygé\[D#7]ner
+      Ma valise, elle, est décou\[G#m]sue, elle tire une langue de tis\[C#m]su
+      Elle a un gros derrière car\[C#m]ré mais elle n'a rien à décla\[D#7]rer
+    \endverse
+
+    \beginchorus
+      Et le chien s'est jeté sur \[B]moi, il a mangé mon choco\[F#7]lat
+      Il a mangé ma confi\[F#7]ture puis il m'a léché la fi\[B]gure
+      Je suis entouré de \[B]flics qui cherchent la Jama\[F#7]ïque
+      La Jamaïque elle est plus \[F#7]là, elle était dans le choco\[B]lat, oh oui !
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote{\Outro : \nolyrics \[B D{\shrp}7 G{\shrp}m G{\shrp}m] \rep{2}}
+  \endverse
+
+\endsong

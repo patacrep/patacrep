@@ -1,0 +1,96 @@
+﻿\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Tout le monde se presse}[by=Louis Chedid,album=Le soldat rose]
+
+\gtab{C7/9}{X35333}
+\gtab{C7/9*} {X32333}
+\gtab{F}{133211}
+\gtab{F7}{131211}
+\gtab{F7/9}{X87888}
+\gtab{D7/9}{X54555}
+\gtab{G}{355433}
+\gtab{C7}{X32310}
+\gtab{C#dim}{XX2323}
+\gtab{Gm7}{XX3333}
+\gtab{G7/5#}{XX3443}
+\gtab{C#7/9}{X43444}
+\gtab{Gdim}{XX2323}
+\gtab{B&dim}{3:XX2323}
+\gtab{C#dim}{6:XX2323}
+\gtab{Edim}{9:XX2323}
+\gtab{Gdim*}{12:XX2323}
+
+
+
+\beginchorus
+\[C7/9]Tout l'monde se presse, tout l'monde se presse                                                      
+\[F]Attention au départ                                                 
+\[C7/9]Même si c'est pas l'Orient Express 
+\[F]Direction quelque part
+\[D7/9]Embarquez voyageurs   
+\[G]Pas besoin d'aller bien loin
+\[C7/9]Pour s'en aller ailleurs   
+Loin du train-train quotidien
+\endchorus
+
+\beginverse
+\[C7/9]Tout l'monde se presse, tout l'monde se presse                                                      
+\[F]Attention au départ 
+\[D7/9]Ca n'est pas tout prêt\[G] l'Italie (et non!)
+\[C7/9]Mais en gardant les\[F] yeux fermés
+\[D7/9]Au bout du rayon \[G]spaghetti  
+\[C7/9]On voit des gondo\[F7]les amarrées \[F7/9]                                      
+\[D7/9]Pourquoi aller jusqu'en Asie
+\[G]Quand il suffit qu'on imagine                                                              
+\[C7]En longeant le rayon riz                                            
+Qu'on est\[C#dim] à la \[Gm7]   muraille de \[G7/5#]Chine          
+\endverse
+                       
+\beginverse
+Tout l'monde se presse, tout l'monde se presse   Attention au départ
+En Russie il fait bien trop froid   Et comme j'ai peur de m'enruhmer
+Je file au rayon des vodkas   Et la place rouge, c'est l'bout d'mon nez
+Si vous voulez voir des fantômes   Je vous emmène au rayon draps
+Quand viens minuit c'est leur royaume
+Mais surtout ne descendez pas 
+\endverse
+
+
+\beginchorus
+\[C7/9]Tout l'monde se presse, tout l'monde se presse, \[F]Attention au départ 
+\[C#7/9]Tout l'monde se \[C7/9*]presse, tout l'monde se presse, \rep{3}
+
+\[Gdim]   \[Bbdim]   \[C#dim]   \[Edim]       \[Gdim*]
+(Zorro est arri...)
+
+\endchorus
+
+
+
+\beginchorus
+\[C7/9]Tout l'monde se presse, tout l'monde se presse, \[F]Attention au départ 
+\[D7/9]Tout l'monde se presse, tout l'monde se presse, \[G]Attention au départ 
+\[E7/9]Tout l'monde se presse, tout l'monde se presse, \[A]Attention au départ 
+\[F#7/9]Tout l'monde se presse, tout l'monde se presse, \[B]Attention au départ 
+\[F#7/9]
+\endchorus
+
+________________________________________________________________________________
+Le passage C7 - C#dim - Gm7 - G7/5# - (C7) assez rapide 
+peut être remplacé par des basses en octaves plus simples
+
+Guitare 1 |--0----3----3----3----|--3-
+          |--1----2----3----4----|--5-
+          |--3----3----3----4----|--3-
+          |--2----2----3----3----|--5-
+          |--3-------------------|-----
+          |----------------------|-----
+                                    
+Guitare 2 |----------------------|-----
+          |----------------------|-----
+          |--5----6----7----8----|--9-
+          |--x----x----x----x----|--x--
+          |--3----4----5----6----|--7-
+          |----------------------|-----
+________________________________________________________________________________ 
+\endsong

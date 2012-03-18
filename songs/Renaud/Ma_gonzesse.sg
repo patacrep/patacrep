@@ -12,10 +12,6 @@
   \gtab{G}{320003}
   \gtab{B&}{X13331}
 
-  \beginverse*
-    \musicnote {\Intro: \nolyrics \[C]}
-  \endverse
-
   \beginverse
     \[C]Malgré le blouson clouté
     Sur \[C]mes épaules de velours
@@ -50,17 +46,11 @@
       Un \[C]peu comme un Mayol
       \[C]Tu sais bien les statues
       Du \[Dm]jardin des Tuileries
-      \[Fm]Qui hivers comme été
+      \[Fm]Qui hiver comme été
       Ex\[C]hibent leurs gui\[Am]boles
       \[D]Et se gèlent le cul
       \[G]Et le reste aussi
     \endverse
-
-    \beginchorus
-      Ma gon\[C]zesse, \[B&]celle que j'suis avec
-      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
-      Oh oh \[C]oh
-    \endchorus
 
     \beginverse
       \[C]Pis faut dire qu'elle a les yeux
@@ -84,16 +74,13 @@
       \[G]Faut rien dire du tout
     \endverse
 
-    \beginchorus
-      De ma gon\[C]zesse, \[B&]celle que j'suis avec
-      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
-      Oh oh \[C]oh
-    \endchorus
-
     \beginverse*
-      \musicnote{Solo Accordéon \nolyrics \[C C C Dm Fm C Am D G]}
+      \musicnote[french]{Accordéon}
+      \musicnote[english]{Accordion}
+      {\nolyrics \[C C C Dm Fm C Am D G]}
     \endverse
 
+    \lilypond{Ma_gonzesse}
 
     \beginverse
       \[C]J'aimerais bien un d'ces jours
@@ -103,18 +90,9 @@
       \[Fm]Elle aussi elle aimerait ça
       \[C]Mais c'est pas pos\[Am]sible
       \[D]Son mari y veut pas
-      Y \[G]dit qu'on est trop jeune
+      Y \[G]dit qu'on est trop jeunes
     \endverse
 
-    \beginchorus
-      Ma gon\[C]zesse, \[B&]celle que j'suis avec
-      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
-      Ma gon\[C]zesse, \[B&]celle que j'suis avec
-      Ma prin\[C]cesse, \[B&]celle que j'suis son mec
-      Ma gon\[C]zesse, \[B&]celle que j'suis avec, ma prin\[C]cesse
-    \endchorus
   \end{repeatedchords}
-
-  \lilypond{Ma_gonzesse}
 
 \endsong

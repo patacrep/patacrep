@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Mort les enfants}
-  [by=Renaud,album=Mistral Gagnant,cov=Mistral-gagnant]
+\beginsong{Morts les enfants}
+  [by=Renaud,album=Mistral Gagnant,cov=mistral-gagnant]
   
   \cover
   \gtab{Dm}{XX0231}
@@ -21,10 +21,10 @@
     \[A7]Un enfant meurt en si\[Dm]lence
     \[B&]Sur le trottoir de Bo\[Gm]gotá
     \[B&]On ne s'a\[A7]rrête pas
-    \[Dm]Dechiqu'tés aux champs de \[E7]mines
+    \[Dm]Déchiquetés aux champs de \[E7]mines
     \[A7]Décimés aux premières \[Dm]lignes
     \[B&]Morts les enfants de la \[Gm]guerre
-    \[B&]Pour les i\[A7]dées de leur père
+    \[B&]Pour les i\[A7]dées de leurs pères
 
   \endverse
 
@@ -32,12 +32,12 @@
     \[F]Bal à l'ambas\[B&]sade
     Quel\[C]ques vieux ma\[F]lades
     \[Dm]Imbéciles et graba\[Gm]taires
-    \[B&]Se parta\[A7]gent l'univers
+    \[B&]Se parta\[A7]gent l'Univers
   \endchorus
 
   \begin{repeatedchords}
     \beginverse
-      \[Dm]Mort les enfants de Bho\[E7]pal
+      \[Dm]Morts les enfants de Bho\[E7]pal
       \[A7]D'industrie occiden\[Dm]tale
       \[B&]Partis dans les eaux du \[Gm]Gange
       \[B&]Les avo\[A7]cats s'arrangent
@@ -51,7 +51,7 @@
       \[F]Bal à l'ambas\[B&]sade
       Quel\[C]ques vieux ma\[F]lades
       \[Dm]Imbéciles et mili\[Gm]taires
-      \[B&]Se parta\[A7]gent l'univers
+      \[B&]Se parta\[A7]gent l'Univers
     \endchorus
 
     \beginverse

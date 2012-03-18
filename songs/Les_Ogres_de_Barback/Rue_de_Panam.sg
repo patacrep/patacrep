@@ -8,7 +8,7 @@
   \gtab{F}{1:022100}
   \gtab{Gm}{3:022000}
   \gtab{Dm}{5:X02210}
-  \gtab{Cm}{3:X02210}
+  \gtab{E&}{6:X02220}
 
   \beginverse
     \[B&]Dans une rue de Pa\[F]name
@@ -21,7 +21,7 @@
     \[Gm]Y'avait là deux-trois \[Dm]femmes
     \[Gm]Qui faisaient le ta\[Dm]pin
     \[Gm]Moi j'aiguisais ma \[Dm]lame
-    Pour plan\[Cm]ter les ru\[F]pins
+    Pour plan\[E&]ter les ru\[F]pins
   \endverse
 
   \begin{repeatedchords}
@@ -36,7 +36,7 @@
       \[Gm]Ils achètent des sou\[Dm]venirs
       \[Gm]Des tours Eiffel en plas\[Dm]tique
       \[Gm]Les saltimbanques les font \[Dm]rire
-      Mais fau\[Cm]drait qu'on leur ex\[F]plique
+      Mais fau\[E&]drait qu'on leur ex\[F]plique
     \endverse
 
     \beginverse
@@ -50,13 +50,14 @@
       \[Gm]Mais, je dois bien avou\[Dm]er
       \[Gm]Que j'y passe toutes mes jour\[Dm]nées
       \[Gm]C'est que parfois à Pa\[Dm]ris
-      C'est la \[Cm]joie et la fo\[F]lie
+      C'est la \[E&]joie et la fo\[F]lie
     \endverse
 
     \beginverse*
-      \musicnote{Solo Accordéon}
+      \musicnote[french]{Accordéon}
+      \musicnote[english]{Accordion}
       {\nolyrics \[B& F B& F B& F B& F]}
-      {\nolyrics \[Gm Dm Gm Dm Gm Dm Cm F]}
+      {\nolyrics \[Gm Dm Gm Dm Gm Dm E& F]}
     \endverse
 
     \lilypond{Rue_de_Paname_acc}
@@ -76,8 +77,8 @@
   \end{repeatedchords}
 
     \beginverse*
-      La \[Cm]joie, et l'anar\[F]chie \rep{2}
-      La \[Cm]joie \[F]dans Pa\[B&]ris \dots
+      La \[E&]joie, et l'anar\[F]chie \rep{2}
+      La \[E&]joie \[F]dans Pa\[B&]ris \dots
     \endverse
 
   \lilypond{Rue_de_Paname}

@@ -1,0 +1,125 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Je n'ai pas la gale}
+  [by=Thomas Fersen,cov=Le-pavillon-des-fous,album=Le pavillon des fous]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[Dm C Am G] \[Dm C Am G]}
+  \endverse
+
+  \beginverse
+    \[Dm]Son jardin don\[C]ne des ronces
+    \[Am]Son chien montre les \[G]dents
+    Ne \[Dm]réveillez pas \[C]{l'eau} qui pionce
+    Ou \[Am]gare aux acci\[G]dents
+    \[F]Elle fait rarement \[C]sa toilette
+    Elle \[C]est sans reli\[Dm]gion
+    Mais \[Dm]elle fait les meil\[C]leures galettes
+    De \[Am]Lanmeur à Lan\[Dm]nion
+  \endverse
+
+  \beginchorus
+    \[F]Cette fois je n'ai \[Am]pas la peste
+    \[B&]{M'invite} à tom\[F]ber la \[C]veste
+    \[F]Cette fois je n'ai \[Am]pas la gale
+    \[B&]{M'invite} à des\[F]cendre de \[C]cheval
+    \[C]{M'invite} à des\[Am]cendre de che\[Dm]val
+    \nolyrics \[Dm]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Dm]Son cerveau est \[C]un repaire
+      De \[Am]bandits et de scélé\[G]rats
+      \[Dm]Les croque-morts y \[C]sont prospères
+      Les \[Am]vautours y sont \[G]gras
+      \[F]Faut en avoir \[C]dans le ventre
+      Ou \[C]bien faire tapis\[Dm]serie
+      \[Dm]Quand elle me par\[C]le, je rentre
+      Dans \[Am]un trou de sou\[Dm]ris
+    \endverse
+
+    \beginchorus
+      \[F]Cette fois j'ai pas\[Am]sé la douane
+      \[B&]{M'invite} à me chauf\[F]fer la \[C]couenne
+      \[F]À la chaleur \[Am]{d'un} bon feu
+      \[B&]{M'invite} à deman\[F]der ce que \[C]je veux
+      \[C]{M'invite} à deman\[Am]der ce que \[Dm]je veux
+      \nolyrics \[Dm]
+    \endchorus
+
+    \beginverse
+      \[Dm]Moi je veux un bai\[C]ser baveux
+      Et \[Am]{qu'on} me dise que l'on \[G]{m'aime}
+      \[Dm]Que la brute \[C]sans cheveux
+      Me \[Am]récite un po\[G]ème
+      \[F]Je veux couler des \[C]jours heureux
+      Près \[C]du calori\[Dm]fère
+      \[Dm]Et boire ton ca\[C]fé foireux
+      Dans \[Am]une tasse en \[Dm]fer
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\nolyrics \[F Am B\& F C]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginchorus
+      \[F]Cette fois j'ai pas\[Am]sé l'oral
+      \[B&]{M'invite} à me sé\[F]cher les \[C]poils
+      \[F]Cette fois j'ai pas\[Am]sé le test
+      \[B&]{M'invite} à man\[F]ger les \[C]restes
+      \[C]{M'invite} à man\[Am]ger les \[Dm]restes
+      \nolyrics \[Dm]
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote { \nolyrics \[Dm C Am G] \[Dm C Am G] \[F C C Dm] \[Dm C Am Dm]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginchorus
+      \[F]Cette fois je n'ai \[Am]pas la fièvre
+      \[B&]{M'invite} à man\[F]ger du \[C]chèvre
+      \[F]Cette fois je n'ai \[Am]pas la grippe
+      \[B&]{M'invite} à tom\[F]ber le \[C]slip
+      \[C]{M'invite} à tom\[Am]ber le \[Dm]slip
+      \nolyrics \[Dm]
+    \endchorus
+
+    \beginverse
+      \[Dm]Son jardin don\[C]ne des ronces
+      Et \[Am]des fruits qui sont \[G]aigres
+      \[Dm]Elle me tâte et \[C]elle m'annonce
+      Qu'elle \[Am]me trouve un peu \[G]maigre
+      \[F]Je vais pouvoir \[C]sans danger
+      Me \[C]donner à l'o\[Dm]gresse
+      \[Dm]Car si elle veut \[C]me manger
+      Faut \[C]{d'abord} qu'elle m'en\[Dm]graisse
+    \endverse
+
+    \beginchorus
+      \[F]Cette fois je n'ai \[Am]pas la peste
+      \[B&]{M'invite} à tom\[F]ber la \[C]veste
+      \[F]Cette fois je n'ai \[Am]pas la gale
+      \[B&]{M'invite} à des\[F]cendre de \[C]cheval
+      \[F]Cette fois je n'ai \[Am]pas la peste
+      \[B&]{M'invite} à tom\[F]ber la \[C]veste
+      \[F]Cette fois je n'ai \[Am]pas la gale
+      \[B&]{M'invite} à des\[F]cendre de \[C]cheval
+      \[C]M'invite à des\[Am]cendre de che\[Dm]val
+      \nolyrics \[Dm]
+    \endchorus
+  \end{repeatedchords}
+
+\endsong

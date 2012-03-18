@@ -8,7 +8,7 @@
 %% 
 %% This is a generated file.
 %% 
-%% Copyright (C) 2011 by Kevin W. Hamlen
+%% Copyright (C) 2012 by Kevin W. Hamlen
 %% 
 %% This file may be distributed and/or modified under the conditions of
 %% the LaTeX Project Public License, either version 1.3a of this license
@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2011/08/06 v2.13 Songs package]
+  [2012/03/17 v2.14 Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -2991,7 +2991,8 @@
       \@for\SB@temp:=\SB@allindexes\do{%
         \immediate\openout\SB@out=%
           \csname SB@idxfilename@\SB@temp\endcsname.sxd\relax%
-        \begingroup\makeatletter\input{\jobname.sxc}\endgroup%
+        \begingroup\makeatletter\catcode`\%12\relax%
+                   \input{\jobname.sxc}\endgroup%
         \immediate\closeout\SB@out%
       }%
     \fi%
@@ -3054,22 +3055,34 @@
     {\SB@errnoidx{#1}\@gobble}%
     {\expandafter\renewcommand\csname SB@idxref@#1\endcsname}%
 }
-\newcommand\SB@percent{}
-{\catcode`\%=12\gdef\SB@percent{%}}
-\newcommand\SB@idxcmd[2]{%
+\newcommand\SB@idxcmd[3]{%
   \ifx\SB@out\relax\else%
-    \immediate\write\SB@out{%
-      \noexpand\SB@iwrite{#1}{\noexpand\SB@percent#2}%
+    \@for\SB@temp:=\SB@allindexes\do{%
+      \csname SB@idxsel@\SB@temp\endcsname%
+        {\SB@@idxcmd{#1}}{\SB@@idxcmd{#2}}{\SB@@idxcmd{#3}}%
     }%
   \fi%
 }
-\newcommand\authsepword[1]{\SB@idxcmd\SB@authinit{sep #1}}
+\newcommand\SB@@idxcmd[1]{%
+  \def\SB@tempii{#1}%
+  \ifx\SB@tempii\@empty\else%
+    \immediate\write\SB@out{%
+      \noexpand\SB@iwrite{\SB@temp}{#1}%
+    }%
+  \fi%
+}
+\newcommand\authsepword[1]{}
+\newcommand\authbyword[1]{}
+\newcommand\authignoreword[1]{}
+\newcommand\titleprefixword[1]{}
+{\catcode`\%=12
+ \gdef\authsepword#1{\SB@idxcmd{}{%sep #1}{}}
+ \gdef\authbyword#1{\SB@idxcmd{}{%after #1}{}}
+ \gdef\authignoreword#1{\SB@idxcmd{}{%ignore #1}{}}
+ \gdef\titleprefixword#1{\SB@idxcmd{%prefix #1}{}{}}}
 \@onlypreamble\authsepword
-\newcommand\authbyword[1]{\SB@idxcmd\SB@authinit{after #1}}
 \@onlypreamble\authbyword
-\newcommand\authignoreword[1]{\SB@idxcmd\SB@authinit{ignore #1}}
 \@onlypreamble\authignoreword
-\newcommand\titleprefixword[1]{\SB@idxcmd\SB@titleinit{prefix #1}}
 \@onlypreamble\titleprefixword
 \newbox\SB@idxtitlebox
 \newcommand\SB@idxlineskip[1]{%
@@ -3167,21 +3180,21 @@
 \newcommand\idxaltentry[2]{}
 \newenvironment{SB@lgidx}[1]{}{}
 \newenvironment{SB@smidx}[1]{}{}
-\newcommand\SB@idxsetup[1]{%
+\newcommand\SB@idxsetup{%
   \hsize\SB@colwidth%
   \parskip\z@skip\parfillskip\z@skip\parindent\z@%
   \baselineskip\f@size\p@\@plus\p@\@minus\p@%
   \lineskiplimit\z@\lineskip\p@\@plus\p@\@minus\p@%
   \hyphenpenalty\@M\exhyphenpenalty\@M%
 }
-\newcommand\SB@makeidxcolumn[1]{%
+\newcommand\SB@makeidxcolumn{%
   \ifdim\ht\SB@box=\z@%
     \hskip\hsize\relax%
   \else%
     \splittopskip\z@skip\splitmaxdepth\maxdepth%
     \vsplit\SB@box to\SB@dimen%
     \global\setbox\SB@box\vbox{%
-      \SB@idxsetup{#1}%
+      \SB@idxsetup%
       \splitbotmark%
       \unvbox\SB@box%
     }%
@@ -3215,7 +3228,7 @@
           \hbox to\hsize{%
             \hfil%
             \vbox{%
-              \hsize\SB@colwidth%
+              \SB@idxsetup%
               \renewenvironment{idxblock}[1]%
                 {\begin{SB@smidx}{####1}}{\end{SB@smidx}}%
               \let\\\SB@idxitemsep%
@@ -3259,15 +3272,15 @@
     \renewenvironment{idxblock}[1]%
       {\begin{SB@lgidx}{##1}}{\end{SB@lgidx}}%
     \let\\\SB@idxitemsep%
-    \SB@idxsetup{#1}%
+    \SB@idxsetup%
     \input{\csname SB@idxfilename@#2\endcsname.sbx}%
     \unskip%
   }%
-  \SB@toks{\SB@makeidxcolumn{#1}}%
+  \SB@toks{\SB@makeidxcolumn}%
   \SB@cnt#1\relax%
   \loop\ifnum\SB@cnt>\@ne%
     \SB@toks\expandafter{\the\SB@toks%
-      \kern\columnsep\SB@makeidxcolumn{#1}}%
+      \kern\columnsep\SB@makeidxcolumn}%
     \advance\SB@cnt\m@ne%
   \repeat%
   \edef\SB@oneidxpage{\the\SB@toks}%

@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Astérix et Cléopâtre : Le pudding à l'arsenic}
+  [by=Dessins Animés,cov=asterix,album=Astérix et Cléopâtre]
+
+  \cover
+  \gtab{Am}{5:022000}
+  \gtab{E7}{5:X2120X}
+  \gtab{G}{3:022100}
+  \gtab{C}{3:X02220}
+  \gtab*{AmM7}{5:021000}
+  \gtab*{Am7}{5:020000}
+  \gtab*{Am6}{5:022020}
+  \gtab{Dm}{5:X02210}
+  \gtab*{E&7}{4:X2120X}
+
+  \beginverse*
+    \musicnote{\Intro : \nolyrics{\[Am E7 Am E7 Am E7 Am E7]}}
+  \endverse
+
+  \beginverse
+    \[Am]Dans un grand bol \[E7]de strychnine
+    \[Am]Délayez de \[E7]la morphine
+    \[G]Faites tiédir à \[C]la casserole
+    \[B7]Un bon verre \[E7]de pétrole
+    \echo{Oh, je vais en mettre deux !}
+  \endverse
+
+  \beginverse
+    \[Am]Quelques gouttes \[E7]de ciguë
+    \[Am]De la bave \[E7]de sangsue
+    \[G]Un scorpion cou\[C]pé très fin
+    {\og}\[G]Et un peu de poivre en grains
+    --- Non !
+    --- Ah ? Bon{\dots}{\fg}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]Émiettez votre \[E7]arsenic
+      \[Am]Dans un verre de narcotique
+      \[G]Deux cuillères de \[C]purgatif
+      \[B7]{Qu'on} fait bouillir \[E7]à feu vif
+      \echo{Oh, je vais en mettre trois}
+    \endverse
+
+    \beginverse
+      \[Am]Dans un petit \[E7]plat à part
+      \[Am]Tiédir du sang \[E7]de lézard
+      \[G]La valeur d'un \[C]dé à coudre
+      {\og}\[G]Et un peu de sucre en poudre
+      --- Non !
+      --- Ah ? Bon{\dots}{\fg}
+    \endverse
+
+    \beginverse
+      \[Am]Vous versez la \[E7]mort aux rats
+      \[Am]Dans du venin \[E7]de cobra
+      \[G]Pour adoucir \[C]le mélange
+      \[B7]Pressez trois quar\[E7]tiers d'orange
+      \echo{Oh, je vais en mettre un seul}
+    \endverse
+
+    \beginverse
+      \[Am]Décorez de \[E7]fruits confits
+      \[Am]Moisis dans du \[E7]vert de gris
+      \[G]Tant que votre \[C]pâte est molle
+      {\og}\[G]Et un peu de vitriol
+      --- Non ! {\dots} Oui !
+      --- Ah, je savais bien que ça serait bon{\fg}
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse
+    \[Am]Le pudding à \[AmM7]{l'arsenic}
+    \[Am7]Nous permet ce \[Am6]pronostic
+    \[Dm]Demain sur les \[Am]bords du Nil
+    \[E&7]Que mangeront les \[E7]crocodiles ?
+    \[E7]Des \[E7]Gau\[Am]lois !
+  \endverse
+
+\endsong

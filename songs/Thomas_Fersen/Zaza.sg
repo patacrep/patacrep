@@ -1,0 +1,118 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Zaza}
+  [by=Thomas Fersen,album=Le pavillon des fous,cov=Le-pavillon-des-fous]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{B7}{X21202}
+  \gtab{B}{2:X02220}
+
+  \beginverse
+    Zaza tu \[Em]pues mais je t'aime quand même
+    Zaza ma \[Em]chienne, t'es une martienne
+    Il te manque un \[Am]œil, pis l'autre oreille
+    T'en as fait le \[D]deuil mais je t'aime pa\[Em]reil
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Zaza tu \[Em]ronfles, pis tu te dégonfles
+      Zaza tu \[Em]pètes, Zaza tu fouettes
+      Mais je suis ton \[Am]maître, je suis gros Thomas
+      Viens me faire la \[D]fête sur l'esto\[Em]mac
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Zaza tu \[D]pues
+    Mais je t'appré\[Em]cie
+    Le chat aus\[D]si
+    Couci cou\[B7]ci \[B]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Pis Zaza, \[Em]c'est quoi ton problème ?
+      Arrête d'in\[Em]gérer tout ce qui traîne
+      Croquer ma \[Am]revue sur les gaines
+      Ça va pas \[D]te rafraichir l'ha\[Em]leine
+    \endverse
+
+    \beginverse*
+      Arrête de \[Em]me briser les noix
+      Sinon je \[Em]te donne au Chinois
+      Zaza tu \[Am]pleures, t'as un gros c\œur
+      Zaza je plai\[D]sante, t'es fati\[Em]gante
+    \endverse
+
+    \beginchorus
+      Zaza t'es \[D]belle
+      Mais t'as gros\[Em]si
+      T'as pris des \[D]fesses
+      T'es très se\[B7]xy \[B]
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \nolyrics \[Em] \[Am] \[D] \[B7] \[Em]
+  \endverse
+
+  \begin{bridge}
+    Ce qui te fau\[Em]drait, c'est un ami
+    Depuis que Ni\[Em]na elle est partie
+    Y'a pas de vi\[Am]site
+    De ces temps-\[Em]ci
+    Les gens ont \[D]peur
+    De mon fu\[B7]sil \[B]
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \beginverse
+      Zaza tu \[Em]fugues mais je t'aime quand même
+      Tu mènes \[Em]ta vie de bohème
+      Tu dispa\[Am]rais trois jours et moi
+      Et moi je \[D]me ronge le \[Em]foie
+    \endverse
+    \beginverse*
+      Paraît que tu \[Em]ferais des kilomètres
+      Pour venir \[Em]retrouver ton maître
+      Zaza t'es \[Am]fine, je lève ma chopine
+      A ta san\[D]té, ma vieille co\[Em]pine
+    \endverse
+
+    \beginchorus
+      Zaza ma \[D]chienne
+      T'es parfu\[Em]mée
+      Mais je t'aime quand \[D]même
+      Je suis enrhu\[B7]mé \[B]
+    \endchorus
+
+    \beginverse
+      Joli \[Em]poil, jolie taille
+      Le diable a \[Em]fait du beau travail
+      Sur ce grand \[Am]roux qui t'accompagne
+      Il te fait \[D]battre la cam\[Em]pagne
+    \endverse
+    \beginverse*
+      Zaza se\[Em]rais-tu amoureuse ?
+      Zaza se\[Em]rais-tu amoureuse
+      Pour aller \[Am]sauter la clôture
+      Et mordre \[D]les pneus des voi\[Em]tures ?
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Zaza tu \[D]pues
+    Mais je t'aime quand \[Em]même
+    Zaza tu \[D]pues
+    Mais je t'aime quand \[Em]même
+    Zaza ma \[D]chienne
+    Je suis rassu\[Em]ré
+    Je sais que \[D]je
+    Possède \[B7]un \[Em]nez \dots
+  \endchorus
+
+\endsong

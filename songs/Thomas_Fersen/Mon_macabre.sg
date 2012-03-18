@@ -1,0 +1,154 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Mon macabre}
+  [by=Thomas Fersen,cov=Le-pavillon-des-fous,album=Le pavillon des fous]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{B7}{X21202}
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{XX0232}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[Em G Am B7] \rep{6}}
+  \endverse
+
+  \beginverse
+    De\[G]puis que je me suis co\[Em]gné la tête
+    De\[G]puis que je suis tom\[Em]bé de l'arbre
+    J'en\[G]tends le pas de \[Em]mon squelette
+    J'en\[G]tends son clique\[Em]tis de sabre
+  \endverse
+
+  \beginverse*
+    Sque\[Am]lette, mon ami
+    Veux-\[Bm]tu du salami ?
+    Sque\[Em]lette, mon garçon
+    Veux-\[Bm]tu du saucis\[Em]son ?
+    Je \[Am]comprends ton mal-être
+    Dans \[D]{l'armure} de l'ancêtre
+    Tes \[Em]soirées sont mortelles
+    Dans \[Bm]{l'armoire} à den\[Em]telles
+  \endverse
+
+  \beginchorus
+    A\[Am]lors il se débine
+    Par la fe\[D]nêtre à guillotine
+    La \[Bm]Lune, astre obscène
+    \[Em]Éclaire la scène
+  \endchorus
+
+  \beginverse*
+    \musicnote {\nolyrics\[Am D Em Bm Em]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      Je \[G]le retrouve \[Em]dans mon lit
+      En \[G]proie à la mé\[Em]lancolie
+      Je \[G]le surprends dans \[Em]mon fauteuil
+      En \[G]train de fumer des \[Em]clous de cercueil
+    \endverse
+
+    \beginverse*
+      Sque\[Am]lette, mon petit
+      Veux-\[Bm]tu des spaghettis ?
+      Sque\[Em]lette, mon cousin
+      Veux-\[Bm]tu du jus de rai\[Em]sins ?
+      L'or\[Am]dinaire est ingrat
+      Dans \[D]ton vieux débarras
+      L'or\[Em]dinaire est chagrin
+      Dans \[Bm]{l'armoire} en sa\[Em]pin
+    \endverse
+
+    \beginchorus
+      A\[Am]lors il se débine
+      Par la fe\[D]nêtre à guillotine
+      La \[Bm]Lune, astre obscène
+      \[Em]Éclaire la scène
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote{\nolyrics \[Am D Am Bm Em]}
+    \musicnote{\nolyrics \[Em G Am B7] \rep{6}}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      Mon \[G]squelette est un \[Em]tendre
+      Ca\[G]ché sous la cui\[Em]rasse
+      Il \[G]{ne veut} plus at\[Em]tendre
+      \[G]{Il veut} qu'on l'em\[Em]brasse
+    \endverse
+
+    \beginverse*
+      Sque\[Am]lette, mon chéri
+      Tu es lo\[Bm]gé, tu es nourri
+      Sque\[Em]lette, tu es blanchi
+      Oui mais le \[Bm]lit n'est pas gar\[Em]ni
+      Trouve-\[Am]toi une amoureuse
+      Mais \[D]pas trop chatouilleuse
+      Pour \[Em]jouer aux osselets
+      Dans le \[Bm]placard à ba\[Em]lais
+    \endverse
+
+    \beginchorus
+      A\[Am]lors il se débine
+      Par la fe\[D]nêtre à guillotine
+      La \[Bm]Lune, astre obscène
+      \[Em]Éclaire la scène
+    \endchorus
+
+    \beginverse
+      Et \[G]sur l'épave d'une \[Em]mobylette
+      Le \[G]voilà parti \[Em]dans la nuit
+      Il \[G]roule comme un pou\[Em]let sans tête
+      Et \[G]tout finit dans \[Em]un grand bruit
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\nolyrics \[Am D Am Bm Em] \rep{2}}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Sque\[Am]lette, mon macabre
+      T'es \[Bm]rentré dans un arbre
+      Tu \[Em]conduis comme un manche
+      Moi \[Bm]{je suis} tombé de ma \[Em]branche
+      Mes \[Am]soirées sont chagrines
+      Dans \[D]la maison en ruine
+      Le \[Em]puits me désespère
+      Dans \[Bm]son manteau de \[Em]lierre
+    \endverse
+
+    \beginchorus
+      A\[Am]lors je me débine
+      Par la fe\[D]nêtre à guillotine
+      La \[Bm]Lune, astre obscène
+      \[Em]Éclaire la scène
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\nolyrics \[Am D Am Bm Em]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginchorus
+      A\[Am]lors je me débine
+      Par la fe\[D]nêtre à guillotine
+      La \[Bm]Lune, astre obscène
+      \[Em]Éclaire la scène
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\Outro : \nolyrics \[Em G Am Bm] \rep{4}}
+  \endverse
+
+\endsong

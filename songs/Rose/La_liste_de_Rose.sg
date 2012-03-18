@@ -1,0 +1,108 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La liste de Rose}[by=Rose,cov=Rose,album=Rose]
+
+  \cover
+  \capo{3}
+  \gtab{C}{032010}
+  \gtab{Cm}{3:002210}
+  \gtab{Dm}{X00231}
+  \gtab{D7}{X00212}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{G4}{320503}
+  \gtab{Am7}{002010}
+  \gtab{A7}{002020}
+  \gtab{Bm7}{2:002010}
+
+
+  \musicnote{intro}
+
+  \beginverse
+    \[G]  \[G4]  \[G]
+  \endverse
+
+  \beginverse
+    Aller à un concert\[G]
+    Repeindre ma chambre en vert
+    Boire de la vodka\[Am7]
+    Aller chez Ikéa
+    Mettre un décolleté\[Bm7]
+    Louer un meublé\[Am7]
+    Et puis tout massacrer\[G] \[G4] \[G]
+  \endverse
+
+  \beginverse
+    Pleurer pour un rien
+    Acheter un chien
+    Faire semblant d'avoir mal
+    Et mettre les voiles
+    Fumer beaucoup trop
+    Prendre le métro
+    Et te prendre en photo
+  \endverse
+
+  \beginchorus
+    Jeter tout par les fenêtres\[Em]
+    T'aimer de tout mon être\[C]
+    Je ne suis bonne qu'à ça\[G]
+    Est ce que ça te dé\[Dm]-çoit ?\[G]
+    J'ai rien trouver d'mieux\[C] à faire
+    et ça peut paraî\[Cm]tre bien ordinaire
+    et c'est la \[Em]liste des choses que \[A7]j'veux faire avec \[D7]toi
+  \endchorus
+
+  \beginverse
+    Te faire mourir de rire
+    Aspirer tes soupirs
+    M'enfermer tout le jour
+    Ecrire des mots d'amour
+    Boire mon café noir
+    Me lever en retard
+    Pleurer sur un trottoir
+  \endverse
+
+  \beginverse	
+    Me serrer sur ton coeur
+    Pardonner tes erreurs
+    Jouer de la guitare
+    Danser sur un comptoir
+    Remplir un caddie
+    Avoir une petite fille
+    Et passer mon permis
+  \endverse
+
+  \beginchorus
+    \[Em] \[C] \[G] \[Dm] \[G]
+    Je sais\[C] je suis trop naive
+    De dres\[Cm]ser la liste non exhaustive
+    De toutes ces\[Em] choses que je voudrais\[A7] faire avec toi\[D7]
+  \endchorus
+
+  \beginverse
+    T'embrasser partout
+    S'aimer quand on est saouls
+    Regarder les infos
+    Et fumer toujours trop
+    Eveiller tes soupçons
+    Te demander pardon
+    Et te traiter de con
+  \endverse
+
+  \beginverse
+    Avoir un peu de spleen
+    Ecouter Janis Joplin
+    Te regarder dormir
+    Me regarder guérir
+    Faire du vélo à deux
+    Se dire qu'on est heureux
+    Emmerder les envieux.         
+  \endverse
+
+\endsong
+
+
+
+
+
+

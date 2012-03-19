@@ -13,6 +13,8 @@
 \newif{\ifimportantdiagramonly}
 \newif{\ifpictures}
 \newif{\ifnorepeatchords}
+\newif{\ifukulele}
+\newif{\ifguitar}
 
 \tabsfalse
 \lilypondfalse
@@ -20,6 +22,8 @@
 \picturesfalse
 \importantdiagramonlyfalse
 \norepeatchordstrue
+\ukulelefalse
+\guitarfalse
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
@@ -33,6 +37,10 @@
 \DeclareOption{nopictures}{\picturesfalse}
 \DeclareOption{norepeatchords}{\norepeatchordstrue}
 \DeclareOption{repeatchords}{\norepeatchordsfalse}
+\DeclareOption{ukulele}{\ukuleletrue}
+\DeclareOption{noukulele}{\ukulelefalse}
+\DeclareOption{guitar}{\guitartrue}
+\DeclareOption{noguitar}{\guitarfalse}
 
 \DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}
@@ -224,12 +232,21 @@
   \fi%
 }%
 
+\let\utab\gtab
+\let\utab@Original\utab
+\newcommand{\utab@Hidden}[2]{}%
+
 \let\gtab@Original\gtab
 \newcommand{\gtab@Hidden}[2]{}%
+
 \ifnodiagram%
 \renewcommand{\gtab}{\@ifstar
   \gtab@Hidden%
   \gtab@Hidden%
+}
+\renewcommand{\utab}{\@ifstar
+  \utab@Hidden%
+  \utab@Hidden%
 }
 \else%
 \ifimportantdiagramonly%
@@ -237,12 +254,36 @@
   \gtab@Original%
   \gtab@Hidden%
 }
+\renewcommand{\utab}{\@ifstar
+  \utab@Original%
+  \utab@Hidden%
+}
 \else%
 \renewcommand{\gtab}{\@ifstar
   \gtab@Original%
   \gtab@Original%
 }
+\renewcommand{\utab}{\@ifstar
+  \utab@Original%
+  \utab@Original%
+}
 \fi%
+\fi%
+
+\ifguitar%
+\else
+\renewcommand{\gtab}{\@ifstar
+  \gtab@Hidden%
+  \gtab@Hidden%
+}
+\fi%
+
+\ifukulele%
+\else
+\renewcommand{\utab}{\@ifstar
+  \utab@Hidden%
+  \utab@Hidden%
+}
 \fi%
 
 \newcommand{\lilypond}[1]{%

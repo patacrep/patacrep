@@ -42,7 +42,8 @@ endif
 
 
 LATEX=pdflatex $(LATEX_OPTIONS)
-
+STAFF = "Staff"
+#STAFF = "TabStaff"
 ############################################################
 ### Targets
 
@@ -87,7 +88,7 @@ $(PDF): %.pdf: %.tex %.aux
 	$(MAKE_SONGBOOK) -s $< -d -o $@
 
 %.pdf: %.ly
-	@$(LILYPOND) --format=pdf --output=$(@:%.pdf=%) $<
+	@$(LILYPOND) --format=pdf -e '(define-public songbookstaff $(STAFF))' --output=$(@:%.pdf=%) $<
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@

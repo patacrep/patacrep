@@ -4,42 +4,42 @@
   [by=Noir Désir,cov=veuillez-rendre-l-ame,album=Veuillez rendre l'âme]
 
   \cover
-  \gtab{E}{022100}
-  \gtab{G}{320003}
-  \gtab{A}{X02220}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
 
   \begin{verse}
-    \[E]C'est le soir et le vent s'est levé \[G] \[A]
-    \[E]Dans les ruelles ou la poussière vole \[G] \[A]
-    \[E]Ah, c'est l'heure où vont danser \[G] \[A]
-    \[E]Ceux que la chaleur ne peut laisser \[G] \[A]
+    \[E]C'est le soir et le vent s'est levé \[C] \[D]
+    \[E]Dans les ruelles ou la poussière vole \[C] \[D]
+    \[E]Ah, c'est l'heure où vont danser \[C] \[D]
+    \[E]Ceux que la chaleur ne peut laisser \[C] \[D]
   \end{verse}
 
   \begin{chorus}
-    C'est un \[A]endroit où l'on voit courir dans les veines\[G]{\dots} cette \[E]chaleur
+    C'est un \[D]endroit où l'on voit courir dans les veines\[C]{\dots} cette \[E]chaleur
   \end{chorus}
 
   \begin{repeatedchords}
     \begin{verse}
-      \[E]Et Marie aiguise son regard \[G] \[A]
-      \[E]Elle a vu ce qui vient de nulle part \[G] \[A]
-      \[E]Elle a crispé la main sur la lame \[G] \[A]
-      \[E]Attention à la blessure madame \[G] \[A]
+      \[E]Et Marie aiguise son regard \[C] \[D]
+      \[E]Elle a vu ce qui vient de nulle part \[C] \[D]
+      \[E]Elle a crispé la main sur la lame \[C] \[D]
+      \[E]Attention à la blessure madame \[C] \[D]
     \end{verse}
 
     \begin{chorus}
-      Oh mais \[A]on n'sent pas la douleur, sinon dans les cœurs \[G]{\dots} cette \[E]chaleur
+      Oh mais \[D]on n'sent pas la douleur, sinon dans les cœurs \[C]{\dots} cette \[E]chaleur
     \end{chorus}
 
     \begin{verse}
-      \[E]C'est ce démon dans son \[G]sang \[A]à \[E]elle \[G] \[A]
-      \[E]Qui a rongé lente\[G]ment \[A]ses \[E]ailes \[G] \[A]
-      \[E]Ah, c'est dans le \[G]ven\[A]tre \[E]là \[G] \[A]
-      \[E]Marie sait ce qui ar\[G]ri\[A]ve\[E]ra \[G] \[A]
+      \[E]C'est ce démon dans son \[C]sang \[D]à \[E]elle \[C] \[D]
+      \[E]Qui a rongé lente\[C]ment \[D]ses \[E]ailes \[C] \[D]
+      \[E]Ah, c'est dans le \[C]ven\[D]tre \[E]là \[C] \[D]
+      \[E]Marie sait ce qui ar\[C]ri\[D]ve\[E]ra \[C] \[D]
     \end{verse}
 
     \begin{chorus}
-      Dans cet \[A]endroit où on laisse aller \[G] {\dots} elle se \[E]lève
+      Dans cet \[D]endroit où on laisse aller \[C] {\dots} elle se \[E]lève
     \end{chorus}
 
     \begin{verse}
@@ -48,15 +48,15 @@
     \end{verse}
 
     \begin{verse*}
-      \[E]Crever le corps de ce \[G]fils \[A]de \[E]pute
-      \[E]Si blanc pendant \[G]{qu'il} \[A]en \[E]est
-      \[E]Encore temps, allez \[G]res\[A]pire \[E]bien
-      \[E]Avance \[G]en\[A]co\[E]re
-      \[E]Mais avance
+      \[Em]Crever le corps de ce \[C]fils \[D]de \[Em]pute
+      \[Em]Si blanc pendant \[C]{qu'il} \[D]en \[Em]est
+      \[Em]Encore temps, allez \[C]res\[D]pire \[Em]bien
+      \[Em]Avance \[C]en\[D]co\[Em]re
+      \[Em]Mais avance
     \end{verse*}
 
     \begin{chorus}
-      Il n'sen\[A]tira pas la douleur ; peut être la peur \[G]{\dots} cette \[E]chaleur
+      Il n'sen\[D]tira pas la douleur ; peut être la peur \[C]{\dots} cette \[Em]chaleur
     \end{chorus}
 
     \begin{bridge}

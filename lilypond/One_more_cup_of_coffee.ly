@@ -6,6 +6,7 @@
   paper-height = 1.5\cm
 }
 
+\new \songbookstaff
 {
   \key a \minor
   \time 2/4

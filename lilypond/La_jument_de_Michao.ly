@@ -1,6 +1,7 @@
 \include "header"
 \paper{paper-height = 13.7\cm}
 
+\new \songbookstaff
 {
   \key a \minor
   \relative c''

@@ -2,6 +2,7 @@
 \paper{paper-height = 8.8\cm}
 
 
+\new \songbookstaff
 {
   \key e \minor
   \time 2/2

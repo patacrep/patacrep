@@ -1,6 +1,7 @@
 \include "header"
 \paper{paper-height = 5.0\cm}
 
+\new \songbookstaff
 {
   \key e \minor
   \time 4/4

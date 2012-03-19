@@ -1,6 +1,7 @@
 \include "header"
 \paper{paper-height = 2.3\cm}
 
+\new \songbookstaff
 {
   \key ees \major
   \time 6/8

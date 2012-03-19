@@ -1,6 +1,7 @@
 \include "header"
 \paper{paper-height = 3.8\cm}
 
+\new \songbookstaff
 {
   \key c \major
   \time 2/4

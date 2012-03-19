@@ -4,6 +4,8 @@
   line-width   = 14.5\cm
   paper-width  = 15\cm
 }
+
+\new \songbookstaff
 {
   \relative c''
   {

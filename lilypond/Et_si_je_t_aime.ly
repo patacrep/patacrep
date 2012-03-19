@@ -1,6 +1,7 @@
 \include "header"
 \paper{paper-height = 5.2\cm}
 
+\new \songbookstaff
 {
   \relative c'''
   {

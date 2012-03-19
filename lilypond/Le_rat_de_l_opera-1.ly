@@ -1,6 +1,7 @@
 \include "header"
 \paper{paper-height = 6.0\cm}
 
+\new \songbookstaff
 {
   \key a \major
   \time 3/8

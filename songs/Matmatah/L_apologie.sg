@@ -10,35 +10,35 @@
   \gtab{E&}{6:X02220}
   \gtab{C#}{4:X02220}
 
-  \beginverse
+  \begin{verse}
     \[Fm]Cette é\[A&]trange cigarette ne nous \[B&m]rend pas ha\[Fm]gard
     \[Fm]{L'an} 20\[A&]00 appro\[E&]chant rattra\[B&m]per le re\[Fm]tard
     \[Fm]Vi\[A&]vons à notre é\[E&]poque et \[B&m]dédramati\[Fm]sons
     \[Fm]Non bien \[A&]sûr le pé\[E&]tard n'é\[B&m]lève pas la rai\[Fm]son
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Je le conseille tout de même avec modération
     Comme cet alcool qu'on prend jusqu'à la déraison
     Et pour quelques noyés est devenu passion
     Mais l'église ne dit rien, la cirrhose a raison
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Voir un homme tituber ne choque pas la morale
     Mais l'alcool tant loué, vous est parfois fatal
     Et le joint, si léger, dans mon pays natal
     Des libertés de l'homme, devrait être banal
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Malheureusement chez nous, il se vend en sous-main
     Si peu dangereux qu'il soit, l'État lui fait la guerre
     Pour une fausse morale parce qu'il n'en touche rien
     Voilà la vérité dans cette triste affaire
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Fm]Un pétard ou un Ri\[C#]card
     Si t'as \[E&]vraiment le ca\[Fm]fard
     \[Fm]À choisir y'a pas \[C#]photo
@@ -47,23 +47,23 @@
     Le ca\[E&]na, c'est le pa\[Fm]nard
     \[Fm]{Y'en} a qui le mysti\[C#]fient
     Moi j'en fais \[E&]son apolo\[Fm]gie
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Ce serait pourtant si simple de le légaliser
     Deux petits joints par jour, c'est anti-dépresseur
     Si l'État dans ce cas n'était pas l'agresseur
     Le peuple tout entier pourrait mieux respirer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     C'est encore, cette fois, par l'argent que le bat blesse
     Si au moins le haschisch pouvait emplir les caisses
     Nos dirigeants affables fermeraient bien les yeux
     Et parfois, avec nous, s'envoleraient aux cieux
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     L'alcool et le tabac
     Ont le droit de tuer
     Car aux comptes de l'État
@@ -72,6 +72,6 @@
     D'alcool et de fumée
     La patente est payée
     La mort autorisée
-  \endchorus
+  \end{chorus}
 
 \endsong

@@ -10,42 +10,42 @@
   \gtab{E}{022100}
   \gtab{A}{X02220}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro :\nolyrics{ | \[G] | \[D] | \rep{2} }}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[G]Un rayon de so\[D]leil
     Dort sur tes cheveux lo\[G]ngs
     Sur nos corps de sei\[D]gle
     Et nous joue du v\[G]iolon
     \echo{Ouhouhou\[D]h}
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[G]Un rayon de so\[D]leil
       Sur le sommeil de pl\[G]omb
       Une guitare s\[D]èche
       Lou Reed à la mais\[G]on
       Hey babe take a walk on a wil\[D]d side
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Un matin suspendu aux fleurs de ton jardin
     \[D]Ma main sur ton p'tit cul cherche le chemin
     \rep{2}
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[G]Un rayon de sole\[D]il
       J'embrasse tes pieds sal\[G]es
       Un disque de M\[D]arley
       Joue {\og}No woman no c\[G]ry{\fg}
       No woman \echo{No woman}, no \[D]woman no cry
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
   \begin{bridge}
@@ -58,35 +58,35 @@
   \textnote{\Chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[G]Un rayon de sole\[D]il
       Sur ton si beau visa\[G]ge
       \[G]Aux abeilles se mèl\[D]ent
       La voix de Bob Dyla\[G]n
       Knock, knock, knockin' on h\[D]eaven's door
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Un matin suspendu aux fleurs de ton jardin
     \[D]Ma main sur ton p'tit cul cherche le chemin
     \[G]Un matin suspendu aux fleurs de ton jardin
     \[E]Ma main sur ton p'tit cul {\dots}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[A]Un rayon de sole\[E]il
     Tu t'rhabilles pour de bo\[A]n
     J'te ramène par l\[E]es tresses
     À mon corps de garç\[A]on
     Yeah, yeah, yeah, yea\[E]h
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[A]Un matin suspendu aux fleurs de ton jardin
     \[E]Ma main sur ton p'tit cul cherche le chemin
     \[A]Un matin suspendu aux fleurs de ton jardin
     \[E]Ma main sur ton p'tit cul
-  \endchorus
+  \end{chorus}
 
 \endsong

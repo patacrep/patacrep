@@ -10,7 +10,7 @@
   \gtab{C#7}{X3231X}
 
 
-  \beginchorus
+  \begin{chorus}
     So\[F#m]{lo voy} con mi pena
     Sola va mi con\[Bm]dena
     Correr es mi des\[C#7]tino
@@ -19,9 +19,9 @@
     De la grande Babylon
     Me dicen: ``El clandestino''
     Por no llevar papel
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Pa una ciudad del norte
     Yo me fui a trabajar
     Mi vida la deje
@@ -30,9 +30,9 @@
     Fantasma en la ciudad
     Mi vida va prohibida
     Dice la autoridad
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Solo voy con mi pena
     Sola va mi condena
     Correr es mi destino
@@ -41,14 +41,14 @@
     De la grande Babylon
     Me dicen: ``El clandestino''
     Yo soy el quiebra ley
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mano \[Bm]negra clandes\[F#m]tina
     Peru\[Bm]ano clandes\[F#m]tino
     Afri\[Bm]cano clandes\[F#m]tino
     Mari\[C#7]juana ile\[F#m]gal
-  \endverse
+  \end{verse}
 
 
 \endsong

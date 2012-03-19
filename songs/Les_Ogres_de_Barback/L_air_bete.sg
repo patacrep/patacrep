@@ -15,7 +15,7 @@
 
 
 
-  \beginverse
+  \begin{verse}
     \[Gm]Depuis qu'elle m'a traité de chien
     Je n'vais pas \[Dm]bien
     J'\[Gm]aboie partout comme un toutou
@@ -24,16 +24,16 @@
     Le nez qui \[Gm]suinte
     Je bave sur les rideaux sa\[Dm]tin
     Et j'ai des corps sous mes cou\[Gm]ssins
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Elle m'\[F]a dressé au \[B&]poil
     Je \[F]suis aux pieds fi\[B&]dèle
     Si \[Dm]mademoiselle \[Gm]râle
     Elle \[Dm]peut m'être infi\[Gm]dèle
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Depuis qu'elle m'a traité d'oiseau
     Je n'suis pas beau
     Je siffle et piaille comme une caille
@@ -42,16 +42,16 @@
     Comme un corbeau
     Toujours l'impression qu'elle abuse
     Je suis méfiant comme une buse
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Elle caresse mes plumes
     Je roucoule auprès d'elle
     Mademoiselle allume
     Et je tiens les chandelles
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Depuis qu'elle m'a traité de rat
     Je n'suis plus moi
     J'ai le dégoût d'un rat d'égout
@@ -60,16 +60,16 @@
     D'un ragondin
     Quand elle me jette à la figure :
     {\og}Tu finiras par faire fourrure !{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Si je dors à la ville
     Elle couche {\og}rats des chants{\fg}
     Si c'est aux champs tranquille
     Un rat sera content
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Et depuis qu'elle m'a traité d'âne
     J'ai mal au crâne
     Je suis chargé comme un mulet
@@ -78,16 +78,16 @@
     Bonjour l'andouille !
     Si mes sabots sont tout crottés
     Elle me fait braire sans rigoler
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Elle me brosse le dos
     Moi, j'ai les yeux qui piquent
     Je porte des salauds
     Elle trouve ça pratique
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Depuis qu'elle m'a traité d'hareng
     Je suis à cran
     Aussi méchant qu'un requin blanc
@@ -96,16 +96,16 @@
     Comme un poisson
     Si je me noie dans ma baignoire
     Ça fait des ronds dans l'eau, bizarre !
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Elle a vidé mes tripes
     Mes écailles et j'ai froid
     Si mademoiselle tripe
     Un autre y met les doigts
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Depuis qu'elle m'a traité de bouc
     J'ai l'air d'un plouc
     J'ai l'air nigaud comme un chevreau
@@ -114,16 +114,16 @@
     De dix ans d'âge
     Mes sabots tout crottés au cul
     Mes cornes bien entretenues
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Je lui parle, elle s'enfuit
     Je bégaie, ça l'ennuie
     Si je trouve ça marrant
     Elle couche avec Durand
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Elle m'a traité d'orang-outan
     Je m'fais du sang
     Lâche et bleu, comme un paresseux
@@ -132,16 +132,16 @@
     Je fais le singe
     Pour apprendre à l'apprivoiser
     Je m'fais gorille ou chimpanzé
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et s'il fait froid ce soir
     Moi, je fais la grimace
     Je suis seul dans le noir
     C'est pas moi qui l'enlace
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Et pour terminer ce bestiaire
     {\og}langue de vipère{\fg}
     Je voudrais trouver un mot neuf
@@ -150,20 +150,20 @@
     Même à tue-tête
     Si je bavarde comme une pie
     Elle ne m'écout'ra pas, tant pis !
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mademoiselle s'enchante
     Elle nous fait l'hirondelle
     Et c'est moi qui déchante
     Je vais finir sans elle
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Elle aurait fait ma biche
     J'aurais été son cerf
     Mais Mademoiselle triche
     Et chasse à courre mes nerfs !
-  \endchorus
+  \end{chorus}
 
 \endsong

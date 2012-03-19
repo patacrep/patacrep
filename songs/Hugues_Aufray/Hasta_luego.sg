@@ -10,64 +10,64 @@
   \gtab{C}{332010}
   \gtab{E}{022100}
 
-  \beginchorus
+  \begin{chorus}
     \musicnote{\Chorus 1}
     Hasta \[Am]luego !
     \[G]À bientôt si Dieu le \[C]veut\[E]
     Hasta \[Am]luego !
     \[G]On se reverra sous \[C]peu\[E]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On a \[Dm]trois mois
     De réserve au fond des \[E]cales
     Allez, \[Dm]les gars
     On va hisser la grand'\[E]voile
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \musicnote{\Chorus 2}
     \[Am]Laissez passer les en\[G]fants
     De la \[C]nuit\[E]
     \[Am]Ils vont chercher le grand \[G]vent
     De l'ou\[C]bli\[E]
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Toi qui n'as rien
     Embarque-toi avec nous
     Donne-moi la main
     Viens, ta place est parmi nous
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus 1}
 
-  \beginverse
+  \begin{verse}
     Toi qui as peur
     Cache-toi derrière mon bras
     Car voici l'heure
     Enfin d'être fier de toi
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus 2}
 
-  \beginverse
+  \begin{verse}
     Toi qui chantes
     Regarde-moi dans les yeux
     Suis ma route
     Elle te mènera vers Dieu
-  \endverse
+  \end{verse}
 
 
   \musicnote{\Chorus 1}
 
-  \beginverse
+  \begin{verse}
     On a trois mois
     De réserve au fond des cales
     Allez, les gars
     On va hisser la grand'voile
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus 2}
 

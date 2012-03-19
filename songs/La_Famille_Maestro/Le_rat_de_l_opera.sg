@@ -10,25 +10,25 @@
 
   \lilypond{Le_rat_de_l_opera-1}
 
-  \beginverse
+  \begin{verse}
     \[A]Il était une fois un gentil rat vivant à la pointe du \[D]raz
     Ce rat là \[E]râlait au fond d'un placard, d'un placard à ba\[A]lais
     Il se di\[A]sait le destin est méchant
     Qui ne sut faire de moi qu'un rat, qu'un rat des \[D]champs
     Moi, qui ne \[E]trouve alléchant que le chant, le chant de l'opé\[A]ra
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au ras des planches de son débarras, le rat faisait des entrechats
     Ce rat là rêvait qu'il était un petit rat de l'opéra
     Quand le chat n'est pas là les souris dansent
     Alors pourquoi les rats n'auraient pas cette chance là
     Le seul ballet que je veux voir passer est au palais Garnier
-  \endverse
+  \end{verse}
 
   \lilypond{Le_rat_de_l_opera-2}
 
-  \beginchorus
+  \begin{chorus}
     \[A]Où tu l'as \[E]mis mon tu\[A]tu, l'as \[E]mis, l'as mis, l'as mis
     \[A]Où, sont mes chaussons poin\[E]tus, où tu \[A]les as mis
     Ou tu tu tu tu \[A]tu
@@ -38,29 +38,29 @@
     Mon tutu, mon tu\[A]tu
     Et mes chaussons pointus
     Tu tu les as mis \[E]où, où, où ?
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il était une fois un gentil rat vivant à la pointe du raz
     Le rabougri en avait ras le bol de n'être qu'un raté
     Il se disait si l'opéra engage
     Des petits rats au gage alors pourquoi pas moi, moi
     Le seul ballet dont j'aime la pratique est le ballet classique
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Arrivant Paris place de l'Opéra, le rat des champs dut déchanter
     On lui dit : {\og}Pas de rats chez nous, car ta vraie place est à l'égout{\fg}
     Il se dressa sur la pointe des pattes
     Et pour les épater, faisait des pointes, et trois, quatre
     On lui tendit un panneau qui disait : {\og}On va dératiser{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Le rat dût s'en aller
     Du ballet, du ballet
     Le rat dût s'en aller
     Oui, du ballet
-  \endverse
+  \end{verse}
 
 \endsong

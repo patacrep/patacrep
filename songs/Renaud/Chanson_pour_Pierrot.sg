@@ -12,7 +12,7 @@
 
   \lilypond{Chanson_pour_Pierrot}
 
-  \beginverse
+  \begin{verse}
     \[Em]T'es pas né dans la \[Am]rue
     T'es pas né dans l'ruiss\[Em]eau
     T'es pas un enfant per\[Am]du
@@ -21,16 +21,16 @@
     Et qu'tu vis dans ma \[Em]peau
     J'ai construit ta pla\[Am]nète
     Au fond de mon cerv\[B]eau
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Pierrot mon \[Em]gosse, mon frangin
     Mon pot\[Am]eau, mon copain
     Tu m'tiens \[D]chaud
     Pier\[Em]rot
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Depuis le temps que j'te rêve
     Depuis le temps que j't'invente
     De pas te voir j'en crève
@@ -39,9 +39,9 @@
     J'arrête de boire, promis
     Au moins toute une semaine
     Ce sera dur, mais tant pis
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Qu'tu sois fils de princesse
     Ou qu'tu sois fils de rien
     Tu seras fils de tendresse
@@ -50,9 +50,9 @@
     Et je la cherche en vain
     Je connais que la misère
     D'être seul sur le chemin
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dans un coin d'ma tête
     Y'a déjà ton trousseau
     Un jeans, une mobylette
@@ -61,9 +61,9 @@
     J't'apprendrai des gros mots
     On jouera au football
     On ira au bistro
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tu t'laveras pas les pognes
     Avant d'te mettre à table
     Et tu me traiteras d'ivrogne
@@ -72,9 +72,9 @@
     Tu les trouveras débiles
     T'auras p't être bien raison
     Mais j'serai vexé quand même
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Allez viens mon Pierrot
     Tu seras le chef de ma bande
     J'te filerai mon couteau
@@ -83,6 +83,6 @@
     J't'ai trouvé une maman
     Tous les trois on sera bien
     Allez viens, je t'attend
-  \endverse
+  \end{verse}
 
 \endsong

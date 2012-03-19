@@ -8,28 +8,28 @@
   \gtab{G}{320003}
   \gtab{A}{X02220}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Bm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Bm]Joey est affalé, tournant les mouches
     Le souffle du soir aime comme il tord la bouche
     Il y a trois déserts à traverser encore
     Et une pendaison à réussir d'abord
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Quelle étrange pensée \[A]a {\dots} Joe\[Bm]y ?
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Bm]Tu dormais Joey ou étais-tu éveillé ?
       Penses-tu quitter la vie sans t'en aller ?
       Si ton corps se balance, verras-tu plus loin ?
       Ou est-ce de la transe dont tu as besoin ?
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
   \begin{bridge}
@@ -41,13 +41,13 @@
   \end{bridge}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Bm]Joey a traversé tous les souterrains
       Les nymphes et la folie glissées sous ses reins
       Va-t'il revenir là dans le corps d'un chat ?
       Serait-ce pour ce soir ou serait-ce pour une autre ?
       Serait-ce pour ce soir ou serait-ce pour une autre fois ?
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

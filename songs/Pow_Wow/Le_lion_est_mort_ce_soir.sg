@@ -8,31 +8,31 @@
   \gtab{C}{X32010}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[G]Dans la jungle, ter\[C]rible jungle
     Le \[G]lion est mort ce \[D]soir
     \[G]Et les hommes tran\[C]quilles s'endorment
     Le \[G]lion est mort ce \[D]soir
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     O \[G]wimboe, o wimboe, o \[C]wimboe, o wimboe
     O \[G]wimboe, o wimboe, o \[D]wimboe
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Tout est sage dans le village
     Le lion est mort ce soir
     Plus de rage, plus de carnage
     Le lion est mort ce soir
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     L'indomptable, le redoutable
     Le lion est mort ce soir
     Viens ma belle, viens ma gazelle
     Le lion est mort ce soir
-  \endverse
+  \end{verse}
 
 \endsong
 

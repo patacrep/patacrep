@@ -10,15 +10,15 @@
   \gtab{Gm}{3:022000}
   \gtab{A7}{5:020100}
 
-  \beginverse
+  \begin{verse}
     \[Dm]Elle s'appelait Françoise \[A Dm]
     Mais on l'\[D7]appelait Fram\[Gm]boise ! \[D7 Gm]
     Une idée de l'adju\[A7]dant
     Qui en avait très peu, pour\[Dm]tant
     \echo{Des idées} \[A Dm]
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Dm]Elle nous servait à boire \[A Dm]
     Dans un \[D7]bled du Maine-et-\[Gm]Loire \[D7 Gm]
     Mais ce n'était pas Made\[Dm]lon
@@ -27,22 +27,22 @@
     De lui prendre le men\[A7]ton
     D'ailleurs elle était d'An\[Dm]tibes !
     \[Dm]Quelle \[A]ava\[Dm]nie !
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Avanie et Fram\[A7]boise
     Sont les mamelles du Des\[Dm]tin !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Pour sûr qu'elle était d'Antibes !
     C'est plus près que les Caraïbes
     C'est plus près que Caracas
     Est-ce plus loin que Pézenas ?
     Je n'sais pas
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et tout en étant Française
     L'était tout d'même Antibaise
     Et bien qu'elle soit Française
@@ -51,17 +51,17 @@
     De la savoir Antibaise
     Moi qui serais plutôt pour
     Quelle avanie !
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Elle avait peu d'avantages
     Pour en avoir davantage
     Elle s'en fit rajouter
     À l'institut de beauté
     \echo{Ah ah ah !}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     On peut, dans le Maine-et-Loire
     S'offrir de beaux seins en poire
     Il y a l'institut d'Angers
@@ -70,17 +70,17 @@
     On peut presque tout changer
     Excepté ce qu'on ne peut pas
     Quelle avanie !
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     {\og}Davantage d'avantages
     Avantagent davantage{\fg}
     Lui dis-je, quand elle revint
     Avec ses seins Angevins
     \echo{Deux fois dix !}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     {\og}Permets donc que je lutine
     Cette poitrine angevine{\fg}
     Mais elle m'a échappé
@@ -89,11 +89,11 @@
     Je n'voulais pas attraper
     Une Angevine de poitrine !
     Moralité
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Avanie et mamelles
     Sont les framboises du Destin !
-  \endchorus
+  \end{chorus}
 
 \endsong

@@ -10,7 +10,7 @@
   \gtab{Am}{5:022000}
   \gtab{Em}{7:X02210}
 
-  \beginverse
+  \begin{verse}
     \[Dm]Morte de sécheresse
     La fiancée de l'\[B&]eau
     A marié son sang
@@ -18,40 +18,40 @@
     Prince range ton drap \[Dm]blanc
     Prince range ton drap \[Am]blanc
     Prince range ton drap \[Em]blanc
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Prince range ton drap blanc
     Il ne sera jamais
     Le drapeau rougissant
     De sa virginité
     Regarde son honneur \rep{3}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Regarde son honneur
     S'enfuir par la mort
     Regarde triste voleur
     L'absence dans son corps
     Tu peux creuser la terre \rep{3}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tu peux creuser la terre
     Avec tous tes remords
     Creuser jusqu'en enfer
     Creuser, creuser encore
     Non tu n'auras rien d'elle \rep{3}
-  \endverse
+  \end{verse}
 
   \lilypond{La_fiancee_de_l_eau}
 
-  \beginverse
+  \begin{verse}
     Non tu n'auras rien d'elle
     Il n'y a plus rien à prendre
     Elle s'est jetée au ciel
     Tu commences à comprendre
     Que tout n'est pas à vendre \rep{3}
-  \endverse
+  \end{verse}
 
 \endsong

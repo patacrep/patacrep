@@ -10,32 +10,32 @@
   \gtab{D}{XX0232}
   \gtab{F}{1:022100}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[G C G D]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     The \[G]mama pajama rolled out of bed
     And ran to the police \[C]station
     When the \[D]papa found out, he began to shout
     And he started the investi\[G]gation
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     It's against the \[D]law
     It was against the \[G]law
     What the mama \[D]saw
     It was against the \[G]law
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     The mama looked down and spit on the ground
     Every time my name gets mentioned
     The papa said, ``Oh, if I get that boy
     I'm gonna stick him in the house of detention''
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Well, I'm on my \[C]way
     I don't know \[G]where I'm going
     I'm on my \[C]way
@@ -43,14 +43,14 @@
     Goodbye \[C]Rosie the \[F]Queen of Co\[G]rona
     See you, me and \[F]Julio \[C]down by the \[D]school\[G]yard \[C]
     See you, \[G]me and \[F]Julio \[C]down by the \[D]school\[G]yard \[C]
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     In a couple of days they come and take me away
     But the press let the story leak
     Now when the radical priest come to get me released
     He's all on the cover of Newsweek
-  \endverse
+  \end{verse}
 
 \endsong

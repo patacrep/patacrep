@@ -8,31 +8,31 @@
   \gtab{D}{XX0232}
   \gtab{A}{X02220}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Bm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Quand la nu\[D]it s'étend\[A], elle se laisse \[Bm]tomber au hasard
     Elle envel\[D]oppe et \[A]sape les carcasses atr\[Bm]oces
     Et si tu \[D]peux te \[A]perdre du coté \[Bm]du fleuve
     Il te calmer\[D]a jusqu'\[A]à ce que tu ne \[Bm]puisses plus respirer
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Comme elle \[D]est belle la ville \[A]et ses lumières \[Bm]seulement pour les fous
       Celui \[D]qui veut, il la \[A]découpe en ta\[Bm]bleaux
       Là c'est l'\[D]heure où le si\[A]lence balance sur les \[Bm]eaux du fleuve
       \[D]Le rythme des hor\[A]loges qui pour\[Bm]rissent
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[D]{Y'a} là-bas cette \[A]fille qui enfle \[Bm]son souffle et ses jupes
       \[D]Ouvertes comme des \[A]corolles en sus\[Bm]pens
       Plus elle \[D]danse, plus elle \[A]flambe et plus il \[Bm]{l'aime}, lui, comme il sent
       Que no se \[D]puede, la \[A]vida no vale \[Bm]nada, no vale nada
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

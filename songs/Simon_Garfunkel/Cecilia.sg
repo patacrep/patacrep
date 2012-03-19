@@ -8,26 +8,26 @@
   \gtab{A}{X02220}
   \gtab{G}{320003}
 
-  \beginchorus
+  \begin{chorus}
     Ce\[D]cilia, you're \[G]breaking my \[D]heart
     You're \[G]shaking my \[D]confidence \[A]daily
     Oh Ce\[G]cil-\[D]ia, I'm \[G]down on my \[D]knees
     I'm \[G]begging you \[D]please to come \[A]home
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Making \[D]love in the \[G]after\[A]noon
     With Ce\[D]cilia, \[G]up in \[A]my bed\[D]room
     \echo{Making love} I got \[D]up to \[G]wash my \[A]face
     When I \[D]come back to bed
     Some\[G]one's \[A]taken my \[D]place
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Jubi\[G]la\[D]tion
     She \[G]loves me \[D]again
     I \[G]fall on the \[D]floor and I \[A]laughing
     \rep{2}
-  \endverse
+  \end{verse}
 
 \endsong

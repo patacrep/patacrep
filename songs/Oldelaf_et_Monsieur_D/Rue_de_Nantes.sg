@@ -13,7 +13,7 @@
   \gtab{A}{5:022100}
 
 
-  \beginverse
+  \begin{verse}
     \[Dm]Je m'baladais dans la rue de \[E7]Nantes
     \[A7]Quand quelque chose me tomba de\[Dm]ssus\[A7]
     \[Dm]Je mis mon doigt c'était de la \[E7]fiente
@@ -22,14 +22,14 @@
     \[Dm]Pour enlever ce fard incon\[A7]gru\[A]
     \[Dm]Une vieille reçut ma main un peu \[E7]leste
     \[A7]Et tomba au milieu de la \[Dm]rue\[A7]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Un pi\[Dm]geon m'a fait d'\[A7]ssus
     Y'a une \[A]vieille dans la \[Dm]rue
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Ça s'est passé dans la rue de Nantes
     La vieille était allongée par terre
     Un jeune cycliste de vingt ans ou trente
@@ -38,16 +38,16 @@
     Qui l'écrasa sans faire de manières
     Puis dérapa en fauchant trois nonnes
     Et défonça un grand mur en pierre
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Un pigeon m'a fait d'ssus
     Y'a une vieille dans la rue
     Un cycliste écrasé
     Un camion éclaté
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Y'avait des cris dans la rue de Nantes
     Les gens couraient vers le camion fou
     Qui dans le zoo avait fait une fente
@@ -56,15 +56,15 @@
     En bondissant vers n'importe où
     Le hasard les mena à l'écluse
     Mais en sautant ils bloquèrent les écrous
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots
     Des kangourous en fuite
     Une écluse toute remplite
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Sacré bazar dans la rue de Nantes
     L'eau du canal envahit les quais
     Elle inonda l'usine attenante
@@ -73,15 +73,15 @@
     Les murs autour finirent par céder
     Et pas de chance car passait derrière
     Tout le Bagad de Lann Bihoué
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots
     Des éponges qui explosent
     Le Bagad est morose
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Apocalypse dans la rue de Nantes
     Cent vingt bignous se mettent à sonner
     Le bruit était proche de l'épouvante
@@ -90,15 +90,15 @@
     Vint se crasher devant un ramier
     Qui s'envola et que Dieu le damne
     Revint sur moi se soulager
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots
     Une fusée qui se croûte
     Les pigeons me dégoûtent
     J'en ai marre des pigeons
     Je déteste les pigeons !
     Oui je hais les pigeons ! \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

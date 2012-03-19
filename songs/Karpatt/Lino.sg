@@ -11,102 +11,102 @@
   \gtab{B&}{6:022100}
 
   \textnote{\Intro}
-  \beginverse*
+  \begin{verse*}
     {\og}Eh les gars !
     --- Hein ?
     --- Vous savez quoi ?
     --- Ben non !{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Paraît qu'on \[Dm]{l'a} r'trouvé pendu
     Un p'tit \[F]matin à la lanterne
     Du vieux tri\[Gm]po où on l'a vu
     Rentrer la \[A]veille avant qu'il ferme
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Il avait toujours dans la manche
     Quatre as, un roi et un valet
     C'étaient pas des joueurs du dimanche
     La nuit où ça a mal tourné
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     Il s'est pris \[B&]une balle dans l'ci\[Dm]gare
     C'était pas \[B&]du joli-jo\[Dm]li
     Mais pas une \[Gm]tache \echo{mais pas une tache}
     Sur son cos\[F]tard \echo{sur son costard}
     Il avait \[B&]la classe à c'qu'on \[A]dit
-  \endchorus
+  \end{chorus}
 
   \lilypond{Lino}
 
-  \beginverse
+  \begin{verse}
     Paraît qu'une nuit chez la Marlène
     On l'a r'trouvé les bras en croix
     Une lame plantée dans l'abdomen
     Avec un nombril gros comme ça
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Elle était tellement croque la môme
     Et il lui en faisait tellement voir
     Qu'avant d'se j'ter la p'tite conne
     Et d's'écrabouiller sur l'trottoir
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Elle l'a saigné dans son sommeil
     C'était pas du joli-joli
     Mais pas une tache \echo{mais pas une tache}
     Sur son costard \echo{sur son costard}
     Il était à poil à c'qu'on dit
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On raconte qu'au dernier combat
     Il est tombé dans une arnaque
     Fallait qu'il s'couche un truc comme ça
     Le soir où il boxait un crack
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mais Lino c'était un cador
     Un gars qui baisse jamais la garde
     On l'a repêché au fond du port
     À moitié bouffé par les crabes
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Il avait les pieds dans le ciment
     C'était pas du joli-joli
     Mais pas une tache \echo{mais pas une tache}
     Sur son costard \echo{sur son costard}
     Il avait la classe à c'qu'on dit
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mais la version la plus connue
     Sur la disparition d'Lino
     C'est qu'il s'est barré dans les îles
     Sous les palmiers, les noix d'coco
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Il les sirote à la santé
     De tous ces cons qu'ont rien à foutre
     Et qui bavassent à sa santé
     Pendant qu'il bronze à la Guadeloupe \echo{hey}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Qu'on l'ait pendu à la lanterne
     Ou qu'il ait fini dans le ciment
     J'suis sûr qu'au ciel \echo{j'suis sûr qu'au ciel}
     Ou à la plage \echo{ou à la plage}
     Il s'est retrouvé \dots un costard blanc !
-  \endchorus
+  \end{chorus}
 
 \endsong

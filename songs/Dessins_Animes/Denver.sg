@@ -11,38 +11,38 @@
   \gtab{F}{1:022100}
   \gtab{E}{022100}
 
-  \beginchorus
+  \begin{chorus}
     \[D]Denver, le dernier \[A]dinosaure
     \[G]{C'est} mon \[D]ami et bien \[A]plus en\[D]core
     \[D]Denver, le dernier \[A]dinosaure
     \[G]Vient d'un \[D]monde jamais \[A]vu en\[D]core \[C]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Ve\[A]nu de la torride \[G]et ancienne \[A]jungle
     \[A]{C'est} le plus gentil de \[G]tous les \[A]animaux \[G]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Partout où nous allons les gens sont sidérés
     De se trouver nez à nez avec un grand dino
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Depuis la nuit des temps jusque sous les projecteurs
     \[F]Il met dans \[G]notre \[C]vie un peu plus \[D]de bo\[E]nheur
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[A]Denver, le dernier \[E]dinosaure
     \[D]{C'est} mon \[A]ami et bien \[E]plus en\[A]core
     \[A]Denver, le dernier \[E]dinosaure
     \[D]Vient d'un \[A]monde jamais \[E]vu en\[A]core \[C]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Avant tout était gris et les jours étaient si tristes
     Mais tout a changé quand il est arrivé
-  \endverse
+  \end{verse}
 
 \endsong

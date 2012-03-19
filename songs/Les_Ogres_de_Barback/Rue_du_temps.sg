@@ -10,139 +10,139 @@
 
   \lilypond{Rue_du_temps}
 
-  \beginverse
+  \begin{verse}
     \[Dm]{C'est} une rue pas très grande
     Avec trois \[C]fleurs et deux oiseaux
     On y \[Dm]vend de la pâte aux amandes
     Des cacah\[C]uètes et du Bordeaux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Y'a un \[F]mec sur un banc
     Qui \[C]{s'est} fait larguer par la Lise
     Ça nous \[Dm]étonne pas vraiment
     Elle change \[C]de mec comme de chemise
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et \[F]passe et repasse le temps
     Mes \[C]souvenirs et ma joie
     Dans cette \[Dm]rue où déjà tout enfant
     J'appre\[C]nais l'harmonica
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Et quand le soleil se cache
     Tout au fond derrière le toit des maisons
     Y'a des parents qu'accomplissent leurs tâches
     Des enfants qui se tirent à l'horizon
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Y'a les chiens qui se mettent à aboyer
     Mes vieux qui se mettent à picoler
     Et moi qui rentre dans mes cauchemars
     Qui me voit plus tard en costard
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et passe et repasse le temps
     Mes souvenirs et ma joie
     Dans cette rue déjà tout marmot
     J'apprenais plein de gros mots
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Et quand on prenait nos bicyclettes
     Qu'on faisait nos parties de sonnettes
     On amenait la Lise dans le square
     On lui faisait montrer nos jaguars
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Elles étaient pas plus grandes que ça
     Faut dire que c'étaient des majorettes
     Tu fais pas de différence à cet âge là
     Une majorette, c'est une empirette
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et passe et repasse le temps
     Mes souvenirs et ma joie
     Dans cette rue déjà tout petiot
     Je soufflais comme un malade dans mon saxo
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il n'est pas question ici
     De parler d'appartenance
     Car c'est bien du béton pourri
     Comme dans toutes les résidences
-  \endverse
+  \end{verse}
 
 
-  \beginverse*
+  \begin{verse*}
     Mais j'y ai bien trop de souvenirs
     Cette rue a fait mon navire
     Et c'est du meilleur jusqu'au pire
     Que j'veux tous les voir mourir
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et passe et repasse le temps
     Mes souvenirs et ma joie
     Dans cette rue où déjà tout marmot
     Je pianotais avec un piano
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Parait qu'un jour ils veulent la détruire
     Mais faudra d'abord qu'ils passent sur le corps
     De 250 loubards en cuir
     Qui sont tous prêts à y laisser leur mort
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et moi j'serai là jusqu'au dernier
     Avec dans la main un pavé
     Dans cette rue qui m'a fait comme je suis
     Un sale con, mais pas un pourri
-  \endverse
+  \end{verse*}
 
 
-  \beginverse*
+  \begin{verse*}
     Si un jour le soleil s'éteint
     Si un jour le monde s'écroule
     Si un jour la Terre n'est plus rien
     Qu'une bande de poivrots, d'hommes saouls
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Il restera encore cette rue
     Grande, fière et debout
     Où tu seras toujours le bienvenu
     Et où je veux y creuser mon trou
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et passe et repasse le temps
     Mes souvenirs et ma joie
     Dans cette rue jusqu'à la fin des temps
     Je ferai encore de l'harmonica
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Et passe et repasse le temps
     Mes souvenirs et ma joie
     Dans cette rue qui m'a fait combattant
     Combattant mais contre la loi
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Et passe et repasse le temps
-  \endchorus
+  \end{chorus}
 
 \endsong

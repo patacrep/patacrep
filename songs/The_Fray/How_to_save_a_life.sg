@@ -11,11 +11,11 @@
   \gtab{D}{XX0232}
   \gtab{C}{X32010}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[G D4 Em D D4 G]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[G]Step one you say we \[D4]{need to talk}
     He w\[Em]alks you say sit do\[D]wn it's j\[D4]{ust a} ta\[G]lk
     He smiles pol\[D4]{itely back} to y\[Em]ou
@@ -24,16 +24,16 @@
     As he goes le\[D]ft and y\[D4]{ou stay} ri\[G]ght
     Between the li\[D4]{nes of fear} and b\[Em]lame
     And you begin to wo\[D]nder w\[D4]{hy you} came
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Wh\[C]ere did I go w\[D]rong, I lost a fr\[Em]iend
     Somewhere al\[G]ong in the bit\[D4]terness
     And \[C]{I would} have stayed \[D]{up with} you all n\[Em]ight
     Had I known h\[G]ow to save a l\[D4]ife
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Let him know that you know best
     Cause after all you do know best
     Try to slip past his defense
@@ -42,11 +42,11 @@
     The things you've told him all along
     Pray the God he hears you
     And pay the God he hears you
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus}
 
-  \beginverse
+  \begin{verse}
     As he begins to raise his voice
     You lower yours and grant him one last choice
     Drive until you lose the road
@@ -55,7 +55,7 @@
     He will admit to everything
     Or he'll say he's just not the same
     And you'll begin to wonder why you came
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus \rep{3}}
 

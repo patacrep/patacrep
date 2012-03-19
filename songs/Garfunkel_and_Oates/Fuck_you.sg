@@ -39,30 +39,30 @@
 
   \lilypond{Fuck_you}
 
-  \beginverse
+  \begin{verse}
     \[C]I've \[Em]got too many \[F]questions in my \[G]mind
     \[C]I've \[Em]got too many \[F]answers to \[G]find
     \[C]Can \[Em]I give up \[F]all I've \[G]imagined
     \[C]Am \[Em]I \[F]imagical enough for this \[G]to happen
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Because \[C]I like you, \echo{I like you}
     \[Em]I like you, \echo{I like \[F]you} \[G]
     And \[C]like can lead to \[G]like like
     And \[C]like like can lead to \[E7]love
     As sure \[C]as the stars above
     \[Em]I'd really like to \[F]kiss you, \echo{fuck you}, oh \[G]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Can I be the man you're looking for
     Can I really throw you out of my door
     I'll try real hard not to lose her
     I'll try to be less of a loser
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Because I like you, \echo{I like you}
     I like you, \echo{I like you}
     And like can lead to like like
@@ -70,6 +70,6 @@
     As sure as the stars above
     \[Em]I'd really like to \[F]kiss you
     Kiss you, \[G]kiss you, kiss you, \[C]fuck you
-  \endchorus
+  \end{chorus}
 
 \endsong

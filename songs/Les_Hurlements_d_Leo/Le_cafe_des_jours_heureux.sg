@@ -10,62 +10,62 @@
 
   \lilypond{Le_cafe_des_jours_heureux}
 
-  \beginverse
+  \begin{verse}
     \[Em]Au café des jours heureux
     Y'a les \[Am]picolos qui \[Em]boivent
     Qui \[Am]boivent et re\[Em]boivent
     Jusqu'à \[B7]temps qu'ils en \[Em]bavent
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au café des jours heureux
     Y'a des tox qui s'maravent
     Pour un petit bout de caillou
     Oublié dans une cave
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au café des jours heureux
     Y'a Raymonde et l'Grand Slave
     Affalé dans sa crasse
     Elle attend qu'il se lave
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au café des jours heureux
     Y'a des petites connes qui savent
     Quoi faire ou quoi te dire
     Pour te refiler la rage
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au café des jours heureux
     Y'a toi, pis y'a moi
     On picole, on s'marave
     En gueulant des chants slaves
     \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Même le jour de notre mariage
     Le mec en gris nous l'a dit
     {\og}Je vous marie pour le meilleur
     Mais pour vous ce sera le pire{\fg}
     \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mais pour nous le meilleur
     C'est pour vous le pire
     Je suis le pire dans le meilleur
     C'est peut-être là mon erreur
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mais pour nous le meilleur
     C'est pour vous le pire
     C'est ce que me dit ma sœur
     En me resservant un kir
-  \endverse
+  \end{verse}
 
 \endsong

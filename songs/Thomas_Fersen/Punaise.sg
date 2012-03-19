@@ -10,11 +10,11 @@
   \gtab{D}{XX0232}
   \gtab{Em}{022000}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : {\nolyrics \[Bm G Bm G]} }
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Je suis par\[Bm]{ti gonflé} à bloc
     J'ai crevé \[G]{au premier} virage
     Le trou qui \[Bm]{a troué} l'enveloppe
@@ -28,10 +28,10 @@
     Punaise, j'é\[D]tais gonflé à bloc
     Punaise, j'é\[Bm]tais gonflé à bloc
     {\nolyrics \[Em] \[A]}
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Avec une \[Bm]nouvelle chambre à air
       Je suis par\[G]ti gonflé à bloc
       Je suis par\[Bm]ti en marche arrière
@@ -44,17 +44,17 @@
       Punaise, j'é\[A]tais gonflé à bloc
       Punaise, j'é\[D]tais gonflé à bloc
       Punaise, j'é\[Bm]tais gonflé à bloc
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \nolyrics\[D] \[G] \[D]
     Punaise, j'é\[G]tais gonflé à bloc
     \nolyrics\[Em] \[A]
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Je tirais \[Bm]une gueule d'assassin
       Je suis par\[G]ti gonflé à bloc
       Sans desse\[Bm]rrer le frein à main
@@ -67,19 +67,19 @@
       Punaise, j'é\[A]tais gonflé à bloc
       Punaise, j'é\[D]tais gonflé à bloc
       Punaise, j'é\[Bm]tais gonflé à bloc
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \nolyrics \[D] \[G] \[D]
     Punaise j'é\[G]tais gonflé à bloc
     \nolyrics \[Em] \[A] \[D] \[G]
     \nolyrics \[D] \[G] \[Em] \[A]
     \nolyrics \[D] \[G] \[Em] \[A]
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       J'ai enten\[Bm]du le chant du coq
       Punaise, ça \[G]{m'a} ouvert les yeux
       Je me suis ré\[Bm]veillé dans mon pieu
@@ -92,14 +92,14 @@
       Punaise, j'é\[A]tais gonflé à bloc
       Punaise, j'é\[D]tais gonflé à bloc
       Punaise, j'é\[Bm]tais gonflé à bloc
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Outro :{
     \nolyrics \[D] \[G] \[D] \[G]
     \nolyrics \[Em] \[A] \[D] \[G]
     \nolyrics \[D] \[G] (ad lib.)}}
-  \endverse
+  \end{verse*}
 
 \endsong

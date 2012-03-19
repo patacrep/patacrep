@@ -11,23 +11,23 @@
   \gtab{Em}{022000}
   \gtab{B7}{X21202}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Poil dans la \[F]main, \[G7]payé à rien \[C]foutre
     Re\[C]garder la \[F]poutre dans l'\[G7]œil du voi\[C]sin
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[C]{Qu'il} est donc \[F]doux de \[G]rester sans rien \[Am]faire
     Tandis que \[Em]tout s'agite \[B7]autour de \[Em]soi
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Touche à \[F]tout : \[G]sauf à la mousti\[Am]quaire
     \[Am]Touche à tout \[Em]juste bon \[B7]à m'ama\[Em]douer
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Un jour, j'ai vu une chaise
     Toute seule sur le trottoir
     Une putain de belle chaise toute noire, en fer
@@ -39,9 +39,9 @@
     Des p'tits malingres resserrés du trou
     Ou des jolis voluptueux qui vous attirent le bout des yeux
     Pour mieux leur passer les menottes
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mais va savoir à c'moment-là
     J'avais perdu le goût de m'asseoir
     Et d'amarrer ma solitude
@@ -53,6 +53,6 @@
     Au fil des heures des jours, des jours, des s'maines
     De soirs pisseux en matins blêmes
     Direct au trou
-  \endverse
+  \end{verse}
 
 \endsong

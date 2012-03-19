@@ -17,23 +17,23 @@
   \gtab{Cm}{3:X02210}
   \gtab{D7}{3:X2120X}
 
-  \beginverse
+  \begin{verse}
     J'veux être mus\[Gm*]clé
     Pour pouvoir \[F*]frimer sur la plage pendant l'é\[B&*]té
     Pour pouvoir m'\[F*]inscrire dans un club de beach-vol\[Gm*]ley
     Pour épa\[F*]ter les filles et puis les faire rê\[B&*]ver
     J'veux être mus\[D7*]clé, j'veux être mus\[Gm*]clé
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'veux être musclé
     Assez pour porter des haltères toute la journée
     Comme ça je serai encore mille fois plus musclé
     Et j'pourrai porter plein de machines à laver
     J'veux être musclé, j'veux être musclé
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais quand vient l'\[B7]heure du déjeuner
     Tout ça j'ai \[Gm]déjà oublié
     Je reprends \[F]plusieurs fois des frites
@@ -42,17 +42,17 @@
     J'voudrais prendre l'\[Gm*]assiette toute entière
     Et pour que je \[D7]puisse la porter \dots
     Ben faudrait qu'j'sois plus musclé
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'veux être musclé
     Pour pouvoir faire de la boxe ou du karaté
     Pour avoir toujours raison sans même parler
     Être le Jean-Claude Van Damme du débat d'idées
     J'veux être musclé, j'veux être musclé
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais quand arrive l'heure du goûter
     Tout ça j'ai déjà oublié
     Je mange des pains au chocolat
@@ -61,17 +61,17 @@
     Quatre ou cinq autres, c'est pour la route
     Puis une fois qu'mon ventre a explosé \dots
     Ben j'me rappelle qu'j'veux être musclé
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'veux être musclé
     Avoir les abdos, les pectos tous dessinés
     Pour pouvoir épouser une star de la télé
     Pour pouvoir chanter un jour comme Bernard Minet
     J'veux être musclé, j'veux être musclé
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais quand vient enfin le dîner
     Tout ça me fait bien rigoler
     Je remplis à fond mon assiette
@@ -80,6 +80,6 @@
     Quand soudain me vient une image \dots
     Et là j'ai envie d'pleurer parce que
     Parce que j's'rai jamais musclé
-  \endchorus
+  \end{chorus}
 
 \endsong

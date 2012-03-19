@@ -9,16 +9,16 @@
   \gtab{F#}{2:022100}
   \gtab{G}{3:022100}
 
-  \beginchorus
+  \begin{chorus}
     Au pa\[C]ys daga d'Aragon
     Il y'av\[G7]ait tugud' une fille
     Qui aimait les glaces au citron et va\[C]nille \[F# G]
     Au pa\[C]ys degue de Castille
     Il y'av\[G7]ait tegued' un garçon
     Qui vendait des glaces vanille et ci\[C]tron \[G7 C]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Moi j'aime \[C]mieux les glaces au \[G7]chocolat
     \echo{Poil au bras}
     Mais chez mon \[G7]pâtissier, il n'y \[C]en a plus
@@ -30,9 +30,9 @@
     Le camembert c'est bon quand \[G7]c'est bien fait
     \echo{Vive l'amour}
     À ce propos, revenons à nos moutons
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Vendre des glaces c'est un très beau métier
     \echo{Poil aux pieds}
     C'est beaucoup mieux que marchand de mouron
@@ -44,9 +44,9 @@
     N'en achetaient pas, ils préféraient l'crottin
     \echo{De mouton}
     À ce propos, revenons à nos agneaux
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mais la Castille, ça n'est pas l'Aragon
     \echo{Ah mais non}
     Et l'Aragon ça n'est pas la Castille
@@ -58,6 +58,6 @@
     Dans un commerce, c'est moche quand le fond fond
     \echo{Poil au pieds}
     À propos d'pieds, chantons jusqu'à demain
-  \endverse
+  \end{verse}
 
 \endsong

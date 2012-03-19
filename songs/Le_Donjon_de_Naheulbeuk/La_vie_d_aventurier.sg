@@ -9,112 +9,112 @@
   \gtab{Am}{X02210}
   \gtab{Em}{022000}
 
-  \beginverse*
+  \begin{verse*}
     Et alors ? Qu'est-ce que tu vas faire
     quand tu s'ras niveau 2 ?
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Quand j'au\[G]rai mon niveau 2
     J'a\[D]chèterai un du\[G]vet
     Pour dormir dans les donjons
     Sans \[D]jamais m'enrhu\[G]mer
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     C'est \[G]un \[D]peu \[G]ça, la \[Am]vie d'aventu\[G]rier
     Et \[G]on \[D]y \[G]va, y'a des \[D]gobelins à sai\[G]gner
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand j'aurai mon niveau 3
     J'achèterai un carquois
     J'y mettrai des flèches magiques
     Du genre qui t'arrache un bras
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots ~y'a des squelettes à poutrer
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand j'aurai mon niveau 4
     J'achèterai un cheval
     Je sais pas vraiment monter
     Tant pis, ça m'est égal !
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots ~y'a des orques à décimer
-  \endchorus
+  \end{chorus}
 
   \lilypond{La_vie_d_aventurier}
 
-  \beginverse
+  \begin{verse}
     Quand j'aurai mon niveau 5
     J'achèterai des parchemins
     Pour lancer des sortilèges
     Même si j'suis pas magicien
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots ~y'a des momies à cramer
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand j'aurai mon niveau 6
     J'achèterai une armure
     C'est moins facile de courir
     Mais on évite les fractures
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots ~y'a des trolls à bousiller
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand j'aurai mon niveau 7
     J'achèterai un anneau
     Qui donne +2 en charisme
     Et la puissance d'un taureau
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots ~y'a des minotaures à tuer
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand j'aurai mon niveau 8
     J'achèterai une baliste
     Pour assiéger les donjons
     Des nécromancultistes
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots ~y'a des liches à éventrer
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand j'au\[G]rai mon niveau 9
     J'a\[Em]chèterai une vor\[G]pale
     Pour ar\[Em]racher au dragon
     Ses \[D]parties géni\[G]tales
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \dots ~y'a un dragon pour tester
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand j'aurai mon niveau 10
     J'achèterai des pansements
     Pour corriger les erreurs
     Du niveau précédent
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     C'est surtout ça, la vie d'aventurier
     Je rentre chez moi, ma carrière est terminée
-  \endchorus
+  \end{chorus}
 
 \endsong

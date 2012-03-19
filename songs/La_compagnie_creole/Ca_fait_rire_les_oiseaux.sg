@@ -9,41 +9,41 @@
   \gtab{C}{X32010}
   \gtab{Dm}{XX0231}
 
-  \beginchorus
+  \begin{chorus}
     Ça fait \[F]rire les oiseaux
     Ça fait \[B&]chanter les abeilles
     Ça \[F]chasse les nuages
     Et fait \[C]briller le soleil
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Ça fait rire les oiseaux
     Et danser les écureuils
     Ça rajoute des couleurs
     Aux couleurs de l'arc-en-ciel
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Ça fait \[F]rire les oiseaux
     \[B&] Oh, \[C]oh, oh, \[F]rire les oiseaux
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Une \[F]chanson d'amour
     C'est comme un \[B&]looping en avion
     Ça \[C]fait battre le cœur
     Des filles et \[F]des garçons
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Une chanson d'amour
     C'est d'l'oxygène dans la maison
     Tes pieds n'touchent plus par terre
     T'es en lévitation
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Si y a d'la \[Dm]pluie dans ta vie
     Si le \[B&]soir te fait peur
     La \[C]musique est là pour \[F]ça
@@ -53,23 +53,23 @@
     Ça porte bonheur
     C'est magique, un refrain
     Qu'on reprend tous en chœur
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     T'es revenu chez toi
     La tête pleine de souvenirs
     Des soirs au clair de lune
     Des moments de plaisir
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     T'es revenu chez toi
     Et tu veux déjà repartir
     Pour trouver l'aventure
     Qui n'aurait pas dû finir
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Si y a du gris dans tes nuits
     Ou des larmes dans ton cœur
     La musique est là pour ça
@@ -79,6 +79,6 @@
     Ça porte bonheur
     C'est magique, un refrain
     Qu'on reprend tous en chœur
-  \endverse
+  \end{verse*}
 
 \endsong

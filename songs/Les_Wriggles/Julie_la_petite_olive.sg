@@ -12,7 +12,7 @@
   \gtab{G#}{4:022100}
   \gtab{C#m}{4:X02210}
 
-  \beginverse
+  \begin{verse}
     Ju\[A]lie la p'tite olive
     Rê\[Bm]vait de voyager
     Mais elle \[E]était captive
@@ -22,9 +22,9 @@
     À lon\[Bm]gueur de journée
     Avec \[E]les Philippines
     Et St-\[A]Germain des Prés
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     C'est bon Julie
     Arrête de nous les briser
     Tu sais bien que notre vie
@@ -34,9 +34,9 @@
     De l'huile d'olive
     C'est comme ça, c'est la nature
     Et c'est très bon avec les endives !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Julie la p'tite olive
     L'entendait pas de cette oreille
     Comme elle avait la verve vive
@@ -50,9 +50,9 @@
     De \[F#]cette grosse branche en \[Bm]bois
     Dites-moi \[E]donc c'qui s'passe sur \[F]terre
     Oh oui, siouplait, racontez-\[E]moi !
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     C'est bon Julie
     Arrête de les lui briser
     Tu sais bien que notre vie
@@ -62,9 +62,9 @@
     Copines avec les endives
     Le Soleil lui, il s'en tape
     Il connaît rien à l'huile d'olive !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mais l'astre du jour
     Par sa requête fut ému
     Et lui dit, rayonnant d'amour
@@ -84,9 +84,9 @@
     Vendange tardive des olives
     Coupa leur entretien
     Avec tout le rameau
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Cette fois Julie
     C'est terminé !
     Allez monte dans le camion
@@ -96,9 +96,9 @@
     D'l'huile d'olive !
     Maintenant tu fermes ta gueule
     Et tu dis bonjour aux endives !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mais Julie ignorait
     Que le Soleil, ce gros bavard
     De lumière l'avait gavée
@@ -118,13 +118,13 @@
     Que c'est la couille de Godzilla
     Va m'en falloir des endives
     Pour me contenter c'te bête-là !{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[D]Et Julie que la \[A]joie inonde
     \[E]Grâce au miracle de \[A]la nature
     S'\[D]est tapée quatre \[A]tours du monde
     \[E]Dans les salons d'l'a\[A]gri\[E7]cul\[A]ture
-  \endchorus
+  \end{chorus}
 
 \endsong

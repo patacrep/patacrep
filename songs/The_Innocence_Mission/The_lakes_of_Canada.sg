@@ -11,11 +11,11 @@
   \gtab{G}{320003}
   \gtab{Am}{X02210}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[Dm F C G]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[F]Look for me another \[C]day
     I feel that I could \[G]change
     I feel that I could \[Dm]change
@@ -23,9 +23,9 @@
     A fish, a moving \[G]light
     I thought I saw \[Dm]it
     \[F]Rowing on the lakes of \[C]Canada \[G]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Oh laughing \[Dm]man
     What have you \[C]won?
     Don't tell me \[Am]what cannot be \[F]done
@@ -33,9 +33,9 @@
     Don't tell me \[Am]what cannot be \[F]done
     Cannot be done
     \nolyrics{\[F C G Dm]}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Walking in the circle of
     A flashlight someone starts
     To sing, to join in
@@ -43,13 +43,13 @@
     Voices I am shy
     But you can reach me
     Rowing on the lakes of Canada \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     So \[Dm]look for me another \[C]time
     Give me another \[Am]day
     I feel that I could \[F]change \rep{2}
     \[F]Rowing on the lakes of \[C]Canada \[G] \rep{8}
-  \endverse
+  \end{verse}
 
 \endsong

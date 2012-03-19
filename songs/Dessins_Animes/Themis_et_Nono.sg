@@ -11,34 +11,34 @@
   \gtab{E}{022100}
   \gtab{A}{X02220}
 
-  \beginverse
+  \begin{verse}
     Thé\[Em]mis, petite fleur \[Am]bleue
     L'amour et la \[B7]joie sont dans tes \[Em]yeux
     Un \[Em]jour, tu retrouve\[Am]ras
     Ton frère per\[B7]du à mille \[Em]lieux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Thémis avec tes amis
     Ulysse et Télémaque, Nono aussi
     Tu es toujours protégée
     Des dieux, du cyclope, tu es bien gardée
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     C'est moi No\[E]no, le tout petit ro\[A]bot
     Qui déroute les \[E]dieux
     Malgré \[B7]tous leurs com\[E]plots
     C'est moi No\[E]no, le tout petit ro\[A]bot
     Moi je n'ai jamais \[E]peur
     De me \[B7]faire bo\[E]bo
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     La la la la la la la la la la
     La la la la la
     La la la la la la la
     \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

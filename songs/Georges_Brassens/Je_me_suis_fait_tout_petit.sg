@@ -12,7 +12,7 @@
   \gtab{A7}{X02020}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[Bm]Je n'avais jamais ôté \[Em]mon chapeau
     \[F#]Devant per\[Bm]sonne
     Maintenant je rampe et je \[Em]fais le \[F#]beau
@@ -21,20 +21,20 @@
     Dans \[F#]sa me\[Bm]notte
     J'avais des dents d'loup, je les \[Em]ai chan\[F#]gées
     \[G]Pour \[F#]des que\[Bm]nottes
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Bm]Je m'suis fait tout p'tit devant \[C#]une pou\[F#]pée
     Qui ferme les \[Bm]yeux quand \[A7]on la \[D]couche\[F#]
     \[Bm]Je m'suis fait tout p'tit devant \[C#]une pou\[F#]pée
     Qui fait {\og}ma\[Bm]man{\fg} quand \[D]on la \[G]touche\[F#]
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{\[Bm Em F{\shrp} Bm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     J'étais dur à cuire, elle m'a converti
     La fine mouche
     Et je suis tombé tout chaud, tout rôti
@@ -43,9 +43,9 @@
     Quand elle chante
     Et des dents de loup, quand elle est furie
     Elle est méchante
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je subis sa loi, je file tout doux
     Sous son empire
     Bien qu'elle soit jalouse au-delà de tout
@@ -54,9 +54,9 @@
     Plus jolie qu'elle
     Une jolie pervenche, un jour, en mourut
     À coups d'ombrelle
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tous les somnambules, tous les mages m'ont
     Dit sans malice
     Qu'en ses bras en croix je subirai mon
@@ -65,6 +65,6 @@
     Mais à tout prendre
     Qu'on se pende ici, qu'on se pende ailleurs
     S'il faut se pendre
-  \endverse
+  \end{verse}
 
 \endsong

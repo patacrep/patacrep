@@ -10,7 +10,7 @@
   \gtab{G}{3:022100}
   \gtab{Em}{022000}
 
-  \beginverse
+  \begin{verse}
     \[Gm]La calandre est super enfon\[D]cée
     Et la peinture a bien mor\[Cm]flé
     Le moteur gauche s'est fait la \[D]malle
@@ -19,9 +19,9 @@
     Au centre ils voudront plus de \[Cm]moi
     Le rétro gauche est tout pé\[D]té
     Et les planitrons sont tom\[Gm]bés
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Oh putain, Goldorak est \[G]mort
     Impossible de le r'demar\[D]rer
     Oh la la, Goldorak est \[Em]mort
@@ -30,9 +30,9 @@
     Je crois qu'le delco est pé\[D]té
     Allez, des couilles, j'suis prince d'\[Em]Euphor
     J'vais quand même pas m'mettre à chia\[C]ler
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je m'revois bien sortir d'la boîte
     Après sur la p'tite route, j'déboîte
     J'ai vu débouler le lapin
@@ -41,9 +41,9 @@
     Vénusia était trop canon
     Elle s'est cassée avec Bioman
     Et maint'nant, j'me prends un platane
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et voilà, Goldorak est mort
     Impossible de le r'démarrer
     Eh ben ouais, Goldorak est mort
@@ -52,9 +52,9 @@
     Et le rail de sécurité
     Sans dec, je préférerais être mort
     Au contrôle technique, là c'est râpé
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Madame, pardon d'vous déranger
     Est-ce que j'pourrais téléphoner
     Ouais j'sais, j'suis habillé marrant
@@ -63,9 +63,9 @@
     J'suis entre Tergnier et Amiens
     Ouais, je sais, j'ai pas pris mon portable
     Ah ok, ah ok ! Il est sur la table \dots écoute
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Écoute papa, il faut qu'j'te dise
     Oui je sais, j'ai pas amené ma carte grise
     Bon, y'a des trucs plus importants
@@ -74,9 +74,9 @@
     Mais tu m'l'avais pas dit avant
     Je croyais qu'tu m'cachais ma mère
     Parce que c'était le grand Strategger
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et voilà, Goldorak est mort
     Impossible de le r'démarrer
     Eh ben ouais, Goldorak est mort
@@ -85,10 +85,10 @@
     Je sais, c'est cher pour réparer
     Faut d'mander des pièces à Albator
     Et il fait raquer, l'enculé
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     Goldorak est mort
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -10,26 +10,26 @@
 
   \lilypond{The_ring_of_fire}
 
-  \beginverse
+  \begin{verse}
     \[G]Love is a \[C]burning \[G]thing
     And it makes a \[C]firery \[G]ring
     Bound by \[C]wild \[G]desire
     I fell into a \[C]ring of \[G]fire
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[D]I fell into a \[C]burning ring of \[G]fire
     I went \[D]down, down, down
     And the \[C]flames went \[G]higher
     And it \[G]burns, burns, burns
     The \[C]ring of \[G]fire \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     The taste of love is sweet
     When hearts like ours meet
     I fell for you like a child
     Oh, but the fire went wild
-  \endverse
+  \end{verse}
 
 \endsong

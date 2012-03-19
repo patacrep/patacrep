@@ -14,40 +14,40 @@
   \gtab{G}{320003}
   \gtab{C}{X32010}
 
-  \beginverse
+  \begin{verse}
     \[A]J'ai de\[E]mandé à la \[F#m]Lune
     \[A]Et le So\[E]leil ne le sait \[F#m]pas
     \[Bm]Je lui ai montré mes brû\[F#m]lures
     \[C#m]Et la Lune s'est moquée de \[E]moi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et comme le \[A]ciel n'a\[E]vait pas fière a\[F#m]llure
     \[A]Et que je \[E]ne guérissais \[F#m]pas
     \[Bm]Je me suis dit : {\og}Quelle infor\[F#m]tune{\fg}
     \[C#m]Et la Lune s'est moquée de \[E]moi
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     J'ai demandé à la Lune
     Si tu voulais encore de moi
     Elle m'a dit : {\og}J'ai pas l'habitude
     De m'occuper des cas comme ça{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et toi et moi, on était tellement sûrs
     Et on se disait quelques fois
     Que c'était juste une aventure
     Et que ça ne durerait pas
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Dm]Je n'ai pas grand chose à te \[Am]dire
     \[Dm]Et pas grand chose pour te faire \[Am]rire
     \[C]Car j'imagine toujours le \[G]pire
     \[C]Et le meilleur me fait sou\[G]ffrir
-  \endchorus
+  \end{chorus}
 
   \textnote{Repeat verse 2}
 

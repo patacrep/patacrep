@@ -14,39 +14,39 @@
   \gtab{F}{1:022100}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     \[A]Pour vous la merveilleuse his\[D]toire
     Des enfants \[E]et de l'oiseau \[A]bleu
     Ils voyagèrent à travers \[D]les miroirs
     Jusqu'à l'a\[E]nimal fabu\[A]leux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[C#m]Ils vivaient dans une gran\[F#m]de forêt
     \[C#m]Avec leur maman bien sou\[F#m]ffrante
     \[B]Sans le sou, sans l'espoir de \[E]la soigner
     \[B]Ils la voyaient déjà mou\[E]rante
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Mais très loin \[Dm]dans le ciel
     \[F]Vivait l'oi\[G]seau bleu du bo\[C]nheur
     \[C]Que l'on dit \[Dm]éternel
     \[F]Pour ceux qui \[G]ont toujours un \[C]cœur
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     La fée Bérilune vint les trouver
     Pour les aider dans l'aventure
     Elle savait faire parler les objets
     Tant son cœur était resté pur
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Ils virent le monde des souvenirs
     Le magique palais de la nuit
     Les feux-follets, le royaume d'avenir
     Et l'univers des harmonies
-  \endverse
+  \end{verse*}
 
 \endsong

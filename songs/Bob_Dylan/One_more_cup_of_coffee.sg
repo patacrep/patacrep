@@ -11,31 +11,31 @@
 
   \lilypond{One_more_cup_of_coffee}
 
-  \beginverse
+  \begin{verse}
     \[Am]Your breath is sweet, your eyes are like \[G]two jewels in the sky
     \[F]Your back is straight your hair is smooth on the \[E]pillow where you lie
     \[Am]But I don't sense affection \[G]no gratitude or love
     \[F]Your loyalty is not me but \[E]to the stars above
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]One more cup of coffee for the \[E]road
     \[F]One more cup of coffee for I \[E]go
     To the valley be\[Am]low \[G F E]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Your daddy he's an outlaw and a wanderer by trade
     He'll teach you how to pick an choose and how to throw the blade
     And he oversees his kingdom so no stranger does intrude
     His voice it trembles as he calls out for an other plate of food
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Your sister sees the future like your momma and yourself
     You've never learned to read or write there's no books upon your shelf
     And your pleasure know no limits your voice is like a meadow larks
     But your heart is like an ocean mysterious and dark
-  \endverse
+  \end{verse}
 
 \endsong

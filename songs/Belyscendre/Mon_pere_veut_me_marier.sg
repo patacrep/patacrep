@@ -7,53 +7,53 @@
   \gtab{C}{X32010}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     \[C]Mon père veut me marier
     J'entends le loup, le renard chanter
     Avec un \[G]vieillard éden\[C]té
     J'entends le \[G]loup, le renard chan\[C]ter
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     J'\[C]entends le loup, le re\[G]nard et la be\[C]lette
     J'\[C]entends le loup et le re\[G]nard chan\[C]ter
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Avec un vieillard édenté
     J'entends le loup, le renard chanter
     Qui ne sait pas le jeu d'aimer
     J'entends le loup, le renard chanter
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Qui ne sait pas le jeu d'aimer
     J'entends le loup, le renard chanter
     Si il me bat je m'en irai
     J'entends le loup et le renard chanter
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si il me bat je m'en irai
     J'entends le loup, le renard chanter
     Je m'en irai aux bois jouer
     J'entends le loup et le renard chanter
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je m'en irai aux bois jouer
     J'entends le loup, le renard chanter
     Avec les jeunes écoliers
     J'entends le loup et le renard chanter
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Avec les jeunes écoliers
     J'entends le loup, le renard chanter
     Qui eux sauront le jeu d'aimer
     J'entends le loup et le renard chanter
-  \endverse
+  \end{verse}
 
 \endsong
 

@@ -11,7 +11,7 @@
   \gtab{F}{1:022100}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     Well, it \[C]ain't no use to \[G7]sit and wonder \[Am]why, babe \[G]
     Even if you \[F]don't know by \[C]now
     It \[C]ain't no use to \[G]sit and wonder \[Am]why, babe \[G]
@@ -20,9 +20,9 @@
     \[F]Look out your window \[D]and I'll be gone
     \[C]You're the \[G]reason I'm \[Am]travellin' \[G]on \[F]
     \[C]Don't think twice\[G7], it's all \[C]right
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     It ain't no use in turnin' on your light, babe
     That light I never known
     And it ain't no use in turnin' on your light, babe
@@ -31,9 +31,9 @@
     To try and make me change my mind and stay
     But we never did too much talkin' anyway
     But don't think twice, it's all right
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     So it ain't no use in calling out my name, gal
     Like you'd never done before
     It ain't no use in calling out my name, gal
@@ -42,9 +42,9 @@
     I once loved a woman a child I'm told
     I give her my heart but she wanted my soul
     But don't think twice, it's all right
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     So long honey, babe
     Where I'm bound, I can't tell
     But goodbye's too good a word, babe
@@ -53,6 +53,6 @@
     You could have done better but I don't mind
     You just kinda wasted my precious time
     But don't think twice, it's all right
-  \endverse
+  \end{verse}
 
 \endsong

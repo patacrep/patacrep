@@ -11,12 +11,12 @@
   \gtab{A}{X02220}
   \gtab{D}{XX0232}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Rythm : \lilypond{Kiss_me_forever} }
     \musicnote{\nolyrics{\Intro : | \[Em] | \[G] | } \rep{2} }
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Em]{ Bébé} comme un enfant qu'on \[G]déguise
     \[Em]{ Tu pleures} et pleures en\[G]core
     \[Em]{ La rigueur} est de \[B&]mise
@@ -26,16 +26,16 @@
     \[Em]{ Quand} tu t'habilles en quatre se\[G]condes
     \[Em]{ Retourne} le vi\[B&]nyle
     \[A]{ Éteins} ta dernière \[D]blonde
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Kiss me \[G]forever
     \[Em]{ Écrit} au lips\[G]tick
     \[Em]Kiss me \[G]forever
     \[Em]{ Au rouge} métal\[G]lique
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Toujours tu pars sans laisser de mot
     C'est comme une signature
     Agrafé dans le dos
@@ -45,11 +45,11 @@
     L'amour est dans le coffre
     Y'a mon disque de Renaud
     Tiens d'ailleurs, je te l'offre
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Kiss me forever \dots
     Kiss me forever \dots
-  \endverse
+  \end{verse*}
 
 \endsong

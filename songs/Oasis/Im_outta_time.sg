@@ -11,21 +11,21 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[Em]Here's a song
     It reminds me of when \[Esus4]we were young
     Looking back at all the \[Am]things we'd done
     Gotta keep on \[C]keeping on
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Out to sea
     It's the only place I honestly
     Can get myself some peace of mind
     You know it's getting hard to fly
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G]If I'm to fall
     \[D]Would you be there to applaud?
     Or \[Em]would you hide behind them all?
@@ -33,14 +33,14 @@
     In my heart you \[C]grow
     And that's where you be\[G]long
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[G]Guess I'm outta time
     I'm outta time
     \[Em]I'm outta time
     \[Am]I'm outta time
     \[C]I'm outta time
-  \endverse
+  \end{verse}
 
 \endsong

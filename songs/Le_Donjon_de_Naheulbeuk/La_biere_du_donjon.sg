@@ -10,52 +10,52 @@
   \gtab{F}{1:022100}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     La \[Am]bière du donjon, c'est \[G]nous qui la bra\[Am]ssaine
     La \[Am]bière du donjon, c'est \[G]nous qui la bra\[Am]ssons
     Bra\[Em]ssons, bra\[Am]ssons la \[Em]bière du don\[Am]jaine
     Bra\[Em]ssons, bra\[Am]ssons la \[F]bière du \[E]don\[Am]jon
-  \endverse
+  \end{verse}
 
   \lilypond{La_biere_du_donjon}
 
-  \beginverse
+  \begin{verse}
     La bière du donjon, c'est nous qui la servaine
     La bière du donjon, c'est nous qui la servons
     Servons, servons la bière du donjaine
     Servons, servons la bière du donjon
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La bière du donjon, c'est nous qui la vendaine
     La bière du donjon, c'est nous qui la vendons \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La bière du donjon, c'est nous qui la buvaine
     La bière du donjon, c'est nous qui la buvons \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La bière du donjon, c'est nous qui la rotaine
     La bière du donjon, c'est nous qui la rotons \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La bière du donjon, c'est nous qui la pissaine
     La bière du donjon, c'est nous qui la pissons \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La bière du donjon, c'est nous qui la chantaine
     La bière du donjon, c'est nous qui la chantons \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La bière du donjon, c'est nous qui la gerbaine
     La bière du donjon, c'est nous qui la gerbons \dots
     \echo{Et même qu'après, eh bien on en r'prend !}
-  \endverse
+  \end{verse}
 
 
 \endsong

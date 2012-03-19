@@ -12,7 +12,7 @@
   \gtab{G}{320003}
   \gtab{B&}{X13331}
 
-  \beginverse
+  \begin{verse}
     \[C]Malgré le blouson clouté
     Sur \[C]mes épaules de velours
     \[C]{J'aimerais} bien parfois chanter
@@ -21,16 +21,16 @@
     Pour \[C]ma petite ama\[Am]zone
     \[D]Pour celle qui tous les jours
     Par\[G]tage mon cassoulet
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Ma gon\[C]zesse, \[B&]celle que j'suis avec
     Ma prin\[C]cesse, \[B&]celle que j'suis son mec
     Oh oh \[C]oh
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[C]Faut dire qu'elle mérite bien
       Qu'j'y \[C]consacre une chanson
       \[C]Vu que j'suis amoureux d'elle
@@ -39,9 +39,9 @@
       Quand \[C]le héros y \[Am]meurt
       \[D]Dans les bras d'une infirmière
       Qu'est \[G]très belle et qui pleure
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[C]Et puis elle est balancée
       Un \[C]peu comme un Mayol
       \[C]Tu sais bien les statues
@@ -50,9 +50,9 @@
       Ex\[C]hibent leurs gui\[Am]boles
       \[D]Et se gèlent le cul
       \[G]Et le reste aussi
-    \endverse
+    \end{verse*}
 
-    \beginverse
+    \begin{verse}
       \[C]Pis faut dire qu'elle a les yeux
       \[C]Tellement qu'y sont beaux
       \[C]On dirait bien qu'y sont bleus
@@ -61,9 +61,9 @@
       J'i\[C]magine des tas de \[Am]choses
       \[D]Que je réalise plus tard
       Quand \[G]on se retrouve tout seul
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[C]Si tu dis qu'elle est moche
       Tu \[C]y manques de respect
       \[C]Je t'allonge une avoine
@@ -72,17 +72,17 @@
       Comme \[C]je suis très ja\[Am]loux
       \[D]Je t'éclate la cervelle
       \[G]Faut rien dire du tout
-    \endverse
+    \end{verse*}
 
-    \beginverse*
+    \begin{verse*}
       \musicnote[french]{Accordéon}
       \musicnote[english]{Accordion}
       {\nolyrics \[C C C Dm Fm C Am D G]}
-    \endverse
+    \end{verse*}
 
     \lilypond{Ma_gonzesse}
 
-    \beginverse
+    \begin{verse}
       \[C]J'aimerais bien un d'ces jours
       Y \[C]coller un marmot
       Ah \[C]ouais un vrai qui chiale et tout
@@ -91,7 +91,7 @@
       \[C]Mais c'est pas pos\[Am]sible
       \[D]Son mari y veut pas
       Y \[G]dit qu'on est trop jeunes
-    \endverse
+    \end{verse}
 
   \end{repeatedchords}
 

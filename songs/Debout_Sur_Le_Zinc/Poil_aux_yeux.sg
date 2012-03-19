@@ -10,65 +10,65 @@
   \gtab{B}{7:022100}
   \gtab{D}{5:X02220}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Em C Am B]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Em]Un beau jour que j'\[C]allais aller, \[Am]aller à l'é\[B]cole
     \[Em]Une idée bi\[C]zarre me suivait \[Am]comme un pot de \[B]colle
     \[Em]Elle s'accro\[C]chait à moi, \[D]à mes chaussettes \[B]
     \[Em]Comme un poi\[C]sson pilote \[D]à sa rou\[B]ssette
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je lui dis : {\og}Va-t-en, j'ai pas l'temps, il faut qu'je décolle{\fg}
     Mais elle ne m'écoutait pas, elle était un peu folle
     Elle attendait de moi que je m'arrête
     Pour grimper de mes pieds jusqu'à ma tête
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{\[Em C Em C Em C B7]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Elle avait de petits bras et plein de poils pour gratter
     Et de très grands yeux tout ronds où l'on peut se regarder
     Elle m'a tant et tant chatouillé le menton
     Que je me suis cogné, cogné le front
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est alors que plein d'idées poilues sont sorties de ma tête
     Faisant la ronde et chantant à tue-tête
     {\og}Nous, on veut pas aller, aller à l'école
     On préfère voyager, prendre notre envol !{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Salam, \[C]Shalom, \[Em]Salam, \[C]Shalom, \[Em]Salam, \[C]Shalom \[B] \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mais l'idée bizarre se chauffait d'un tout autre bois
     Stoppe la farandole dans un claquement de doigts
     Puis elle dit : {\og}Mes amis, écoutez-moi
     Je vous en prie, ouvrez les yeux, faites comme moi{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Les idées poilues ont ouvert de grands yeux tout ronds
     Et vu qu'autour d'elles, il y avait plus de mille façons
     De vivre et de parler chez les filles et les garçons
     De mon école, près de ma maison
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Depuis ce jour là, j'ai beaucoup, beaucoup voyagé
     Grâce à mes copains de l'école et de mon quartier
     Et plus tard, et plus tard, quand je serai grand
     Je saurai voyager dans le cœur des gens
-  \endverse
+  \end{verse}
 
 \endsong

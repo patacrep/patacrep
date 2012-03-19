@@ -10,69 +10,69 @@
 
   \lilypond{Sad_robot}
 
-  \beginverse
+  \begin{verse}
     His \[Dm]steely skin is covered
     By \[F]centuries of dust
     \[C]Once he was a great one
     \[Dm]Now he's dull and rust
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     An oily tear he's crying
     Can you feel the pain
     Of the sad, sad robot
     And it's driving him insane
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     He can't turn back time nor history
     So his life became a misery
     He has to face the destiny
     Nobody cares anymore
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Sad, sad robot
     Sad, sad robot
     Sad, sad robot
     All alone
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     He's a sad, sad robot \rep{3}
     He's so alone
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Me steely skin is covered
     By centuries of dust
     Once me was a great one
     But now I'm dull and rust
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     An oily tear I'm crying
     Can you feel me pain
     I'm the sad, sad robot
     Driving me insane
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     I can't turn back time nor history
     So me life became a misery
     I have to face me destiny
     That I'm all on me own
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Red, red robot
     I'm a red, red robot \rep{2}
     And so I shall return
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     I'm a red, red robot \rep{3}
     So I shall return
-  \endchorus
+  \end{chorus}
 
 \endsong

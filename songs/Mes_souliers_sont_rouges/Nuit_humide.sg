@@ -12,43 +12,43 @@
 
   \lilypond{Nuit_humide_1}
 
-  \beginverse
+  \begin{verse}
     \[Am]Tout a commen\[C]cé \[G]une nuit d'é\[F]té
     \[Am]Un bal de juillet \[G]où je m'ennuyais
     \[Am]Au son du vio\[C]lon, \[G]de l'accordé\[F]on
     \[Am]Je t'ai vue dan\[Am]ser, ça m'\[G]a réchauffé \[Am]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Courons ma mi\[C]gnonne, \[G]croquons dans la \[F]pomme
     \[Am]Allons dans la \[C]grange, \[G]nous verrons les anges
     \[Am]Courons ma mi\[C]gnonne, \[G]croquons dans la \[F]pomme
     \[Am]{Ne m'fais} pas faux \[F]bond, je \[G]suis tendre et \[Am]bon
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Tes yeux ont croisé, mon regard gêné
     Tu as pris ma main, dansons ce refrain
     La fête terminée, on s'est embrassé
     Puis on est sorti, courir sous la pluie
-  \endverse
+  \end{verse}
 
   \lilypond{Nuit_humide_2}
 
 
-  \beginverse
+  \begin{verse}
     Courons à la grange, rien ne nous dérange
     Une lampe à pétrole, pour une nuit folle
     Jetons nos souliers, nos habits mouillés
     Il fait froid dehors, unissons nos corps
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et dans nos ébats, la lampe tomba
     Lors de la jouissance s'enflamme l'essence
     La grange a pris feu, j'ai crié : {\og}Mon Dieu !{\fg}
     Il s'est réveillé les draps tout mouillés
-  \endverse
+  \end{verse}
 
 \endsong
 

@@ -12,24 +12,24 @@
   \gtab{A#}{6:022100}
   \gtab{G}{3:022100}
 
-  \beginverse
+  \begin{verse}
     \[Cm]I have a \[D#]problem that \[B&]I cannot e\[C#]xplain
     \[C#]I have no \[G#]reason why it \[A#]should have been so \[Cm]plain
     \[Cm]Have no qu\[D#]estions but \[B&]I sure have e\[C#]xcuse
     \[C#]I lack the r\[G#]eason why I s\[A#]hould be so c\[Cm]onfused
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Cm]I \[G]know, \[A#]how I \[A#]feel when \[G#]I'm a\[A#]round \[Cm]you
     \[Cm]I, don't \[G]know, \[A#]how I \[A#]feel when \[G#]I'm \[G#]around \[Cm]you
     Around you
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Left a message but it ain't a bit of use
     I have some pictures, the wild might be the deuce
     Today you saw, you saw me, you explained
     Playing the show and running down the plane
-  \endverse
+  \end{verse}
 
 \endsong

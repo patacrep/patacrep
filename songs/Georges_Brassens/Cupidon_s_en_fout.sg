@@ -14,52 +14,52 @@
 
   \lilypond{Cupidon_s_en_fout}
 
-  \beginverse
+  \begin{verse}
     \[Am]Pour changer en amour notre amourette
     Il s'en \[C]serait pas fallu de beau\[E]coup
     Mais, ce jour-là, Vénus était distraite
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Il est des \[Am]jours où \[G7]Cupidon s'en \[C]fout
     Il est des \[Dm]jours où \[E]Cupidon s'en \[Am]fout
     {\nolyrics \[F] \[G] \[C] \[Dm] \[E] \[Am]}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Des jours où il joue les mouches du coche
     Où elles sont émoussées dans le bout
     Les flèches courtoises qu'il nous décoche
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Se consacrant à d'autres imbéciles
     Il n'eu pas l'heur de s'occuper de nous
     Avec son arc et tous ses ustensiles
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     On a tenté sans lui d'ouvrir la fête
     Sur l'herbe tendre, on s'est roulés, mais vous
     Avez perdu la vertu, pas la tête
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si vous m'avez donné toute licence
     Le cœur, hélas, n'était pas dans le coup
     Le feu sacré brillait par son absence
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     On effeuilla vingt fois la marguerite
     Elle tomba vingt fois sur {\og}pas du tout{\fg}
     Et notre pauvre idylle a fait faillite
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Quand vous irez au bois conter fleurette
     Jeunes galants, le ciel soit avec vous
     Je n'eus pas cette chance et le regrette
-  \endverse
+  \end{verse}
 
 \endsong

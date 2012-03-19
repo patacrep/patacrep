@@ -11,72 +11,72 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro : \nolyrics \[C E Am F] \[C E Am G]}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Appre\[C]nant que les gen\[E]darmes recher\[Am]chaient un vaga\[F]bond
     \[C]Une brave \[E]dame m'a ca\[Am]ché sous son ju\[G]pon
     Quel\[C]ques fois je l'admets j'ai \[F]couché sous un pont
     Mais \[G]je n'avais encore jamais lo\[C]gé sous \[G]un ju\[C]pon
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       \[C]Comme sous ce ju\[E]pon, il faisait \[Am]doux, il faisait \[F]bon
       \[C]Comme sous ce ju\[E]pon, il faisait \[Am]noir comme du char\[F]bon
       \[C]Comme il faisait nuit je \[F]me suis endormi
       Je \[G]me suis endormi comme si j'é\[C]tais dans \[G]un bon \[C]lit
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote { \nolyrics \[C G Am Am] \[F G C G]}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Ma nuit s'est conclue par un ré\[G]veil au clair de lune
     \[Am]En ne sachant plus dans quel pa\[D]ys dans quelle commune
     J'ai \[C]couché je l'admets par\[F]fois au clair de lune
     Mais \[C]je ne l'avais encore jamais \[G]vu de ce vo\[C]lume
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote { \nolyrics \[C E Am F]}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Je \[C]suis dans le né\[E]ant je ne re\[Am]connais pas la \[F]chambre
       Ce \[C]parfum d'océ\[E]an mêlé à \[Am]une pointe \[F]{d'ambre}
       J'ai \[C]dormi je l'admets par\[F]fois dans un fossé
       J'ai \[G]dormi je l'admets quelques fois \[C]sans me \[G]déchaus\[C]ser
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[C]Ai-je fait re\[E]lâche chez les bé\[Am]douins en Ara\[F]bie
       \[C]Ai-je fait re\[E]lâche chez les A\[Am]paches sous un ti\[F]pi
       \[C]Parfois j'ai campé j'ai dormi \[F]sur des canapés
       J'ai \[G]dormi, je l'admets quelques fois \[C]sans me \[G]désa\[C]per
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote { \nolyrics \[F G Am D] \[C F C G C]}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginchorus
+    \begin{chorus}
       A\[F]près tout je me plais dans ce cam\[G]pement de fortune
       J'vais \[Am]poser un collet, j'ai vu un \[D]lapin dans les dunes
       Les \[C]autres résidences ne va\[F]laient pas un radis\dots{}
       Et \[C]de toute évidence, ici, je \[G]suis au para\[C]dis
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Outro : \nolyrics \[C E Am F C E Am G] \[C F C G C]}
-  \endverse
+  \end{verse*}
 
 \endsong

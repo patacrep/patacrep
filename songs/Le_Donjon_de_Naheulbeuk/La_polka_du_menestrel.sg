@@ -9,20 +9,20 @@
   \gtab{F}{1:022100}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     C'est l'his\[C]toire du ménestrel
     Qui ai\[F]mait la poé\[G]sie
     Il vou\[C]lait toujours chanter pour ses a\[G]mis
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Quand un \[C]jour dans les collines
     Un grand \[F]troll s'est appro\[G]ché
     Il a \[C]sorti sa gui\[G]tare et s'est fait \[C]tuer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[G]Et \[C]splash !
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -12,56 +12,56 @@
 
   \lilypond{Notre_monde}
 
-  \beginverse
+  \begin{verse}
     C'est vrai qu'il \[Em]est beau notre monde
     Les fusils tirent des colombes
     Des feux de \[D]joie \dots~seulement
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     On s'aime sous la Lune ronde
     Et puis nos cœurs y vagabondent
     On s'y embrasse \dots~tellement
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Qu'on peut arpenter toutes les routes
     Et puis on passe entre les doutes
     Bien accueillis \dots~partout
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Et sous les chapeaux des pontifes
     Épouvantails décoratifs
     Mis au rebut \dots~ben y'a des trous
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     {\nolyrics C G Am \rep{2}}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     C'est sûr qu'il est beau notre monde
     Et que sous le soleil qui plombe
     Dites-vous bien que toute peine est perdue
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Car dans les salons comme on aime
     Les chiens disent enfin des poèmes
     Sans chute \dots~et suspendus
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     On les écoute pour se taire
     Se souvenant les révoltes d'hier
     Tant que pourrissent \dots~nos armes
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Et ça fait un joyeux vacarme
     Dans ce monde qui n'a pas de nom
     Et que l'on appelle \dots~de nos vœux
-  \endverse
+  \end{verse*}
 
 \endsong

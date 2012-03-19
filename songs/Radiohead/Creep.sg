@@ -9,7 +9,7 @@
   \gtab{B#}{8:022100}
   \gtab{Cm}{3:X02210}
 
-  \beginverse
+  \begin{verse}
     When you were here before\[G]
     Couldn't look you in the eye\[B]
     You're just like an angel\[B#]
@@ -18,15 +18,15 @@
     In a beautiful world\[B]
     I wish I was special\[B#]
     You're so fuckin' special\[Cm]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     But I'm a creep, I'm a weirdo
     What the hell am I doing here?
     I don't belong here
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     I don't care if it hurts
     I want to have control
     I want a perfect body
@@ -35,9 +35,9 @@
     When I'm not around
     You're so fuckin' special
     I wish I was special
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     She's running out again
     She's running out
     She run, run, run, run, run{\dots}
@@ -45,6 +45,6 @@
     Whatever you want
     You're so fuckin' special
     I wish I was special{\dots}
-  \endverse
+  \end{verse}
 
 \endsong

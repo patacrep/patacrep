@@ -12,7 +12,7 @@
   \gtab{B}{7:022100}
   \gtab{C}{3:X02220}
 
-  \beginverse
+  \begin{verse}
     Je te pr\[Dm]omets des yeux
     Pour les av\[A]eugles
     Et des battements car\[Dm]diaques
@@ -22,9 +22,9 @@
     C'est que j'ai dit pr\[B&]omis
     Afin de promener mon \[Dm]œuvre \dots
     Et les crédules, a\[A]ussi \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je te promets des jambes
     Pour nos idées cul-de-jatte
     Et de la chair autour des os
@@ -34,9 +34,9 @@
     Ainsi que tes congés payés \dots
     Je te promets des bolées d'air
     Une fusée pour voyager \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je te promets l'Esp\[Gm]agne
     Médaille à ton v\[Dm]eston \dots
     Je te promets mille ca\[Gm]mpagnes
@@ -46,9 +46,9 @@
     Pour que tu partes pas trop\[B&]{ loin}
     Même si tu marches, coû\[Dm]te que coûte \dots
     Que coû\[A]te \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je te promets la fi\[Em]èvre
     Même sans eau dans to\[B]{n vin}
     Je te promets le droit de gr\[Em]ève
@@ -58,9 +58,9 @@
     Un amant pour te faire \[C]la cour
     Et la morale pour être s\[Em]age \dots
     Sans être s\[B]ourd \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je te promets des hôtes
     Pour te garnir tablée \dots
     Je te promets le droit de vote
@@ -70,9 +70,9 @@
     Un pauvre, à toi, pour l'exploiter
     Un dictionnaire des boniments \dots
     Des boniments \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je te fournirai mon estrade
     Et je te donnerai mon nom
     Tous les chevaux de la Camargue
@@ -82,6 +82,6 @@
     Qu'il faut que le peuple s'allonge
     Pour supporter nos états
     Nos états
-  \endverse
+  \end{verse}
 
 \endsong

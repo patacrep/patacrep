@@ -11,49 +11,49 @@
   \gtab{C}{X32010}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     Monsieur \[Em]Marcel est fossoy\[Am]eur
     Comme il \[E]y en a beaucoup ai\[Am]lleurs
     Mais son \[Em]sommeil est élasti\[Am]que
     Il est \[E]narcolepti\[Am]que
     \nolyrics{\[Em Am E Am]}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Il n'est pas rare qu'entre deux mottes
     Il s'endorme droit dans ses bottes
     Ça n'gêne que les survivants
     De rev'nir le jour suivant
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Mais tout \[G]bien pe\[C]sé
     S'il faut \[G]creuser \[C]
     Préfères-\[Em]tu qu'on creuse \[Am]
     \[Em]À la pelle
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Mais tout \[G]bien pe\[C]sé
     S'il faut \[G]creuser \[C]
     Préfères-\[Em]tu qu'on creuse \[Am]
     À la pelle\[E]teuse ? \[Am]
     \nolyrics{\[Em Am E Am]}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il a le menton en galoche
     À force de dormir sur sa pioche
     Et les paupières tout en ovale
     Lourdes comme une pierre tombale
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Ici on connaît la rumeur
     Mieux vaut prévenir quand on meurt
     Mais sans entrer dans les détails
     Tout dépendra de ta taille
-  \endverse
+  \end{verse}
 
   \begin{bridge}
     \[C]Quitte à dormir \[G]sous la bruyère \[C]
@@ -65,32 +65,32 @@
     \nolyrics{\[Em Am E Am]}
   \end{bridge}
 
-  \beginverse
+  \begin{verse}
     Hier la veuve d'un général
     Qui avait cru entendre des râles
     A fait rouvrir le monument
     Tout ça pour quelques ronflements
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Il faut croire qu'avoir des galons
     Donne à sa veuve le bras long
     Il a suffi qu'elle le déploie
     Monsieur Marcel n'a plus d'emploi
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais vieille rombière
     Pour ta mise en bière
     Préfères-tu qu'on creuse
     À la pelle
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Mais vieille rombière
     Pour ta mise en bière
     Préfères-tu qu'on creuse
     À la pelleteuse ?
-  \endchorus
+  \end{chorus}
 
 \endsong

@@ -11,7 +11,7 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 
-  \beginverse
+  \begin{verse}
     Sou\[Am]viens-toi de moi, je suis ce\[Asus4]lui
     Qui co\[Asus2]lorait tes \[Am]rêves
     Qui t'ap\[Am]portait des \[Am7]vagues
@@ -20,9 +20,9 @@
     Des arc-en-ciels aux âmes tristes
     Qui transforme les tempêtes
     En légères brises
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Sou\[Am]viens-toi de \[F]moi
     Je suis le \[C]marchand de cou\[Am]leurs
     Qui apporte les sourires
@@ -32,11 +32,11 @@
     Qui désarme la tristesse
     Pour te remplir de joie
     \rep{2}
-  \endchorus
+  \end{chorus}
 
   \lilypond{Marchand_de_couleurs}
 
-  \beginverse
+  \begin{verse}
     Moi tou\[Am]jours, je t'emmène dans des \[F]landes
     Aux \[C]parfums su\[Am]crés
     À jamais, je te guéris
@@ -45,9 +45,9 @@
     Reste encore à planer
     Et les braises des feux
     Encore à voler
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \echo{Souviens-toi de moi}
     Je colorais tes rêves
     \echo{Souviens-toi de moi}
@@ -55,9 +55,9 @@
     \echo{Souviens-toi de moi}
     Des arcs-en-ciel aux âmes tristes
     \echo{Souviens-toi de moi}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Souviens-toi de moi
     Je suis le marchand de couleurs
     Ferme les yeux
@@ -66,6 +66,6 @@
     Au plus profond de ton cœur
     Qui écoute encore
     Les roulements de l'océan
-  \endchorus
+  \end{chorus}
 
 \endsong

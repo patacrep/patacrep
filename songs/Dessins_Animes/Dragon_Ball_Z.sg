@@ -11,7 +11,7 @@
   \gtab{Am}{X02210}
   \gtab{D}{XX0232}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Dragon Ball \[F]Z
     Le \[G]gentil Sango\[C]han
     \[C]Dragon Ball \[F]Z
@@ -20,16 +20,16 @@
     Il \[G]a tous les pou\[C]voirs
     \[C]Dragon Ball \[F]Z
     La \[G]force et le sa\[C]voir
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[E]Son père é\[Am]tait un héros
     Le \[D]grand le vaillant Sango\[G]ku
     \[E]Le monde \[Am]saura bientôt
     Que \[D]son esprit reste avec \[G]nous
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Dragon Ball Z
     Notre héros au grand cœur
     Dragon Ball Z
@@ -38,16 +38,16 @@
     Il fera triompher
     Dragon Ball Z
     L'amour et l'amitié
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il n'a jamais peur de rien
     Il ne craint aucun adversaire
     Il est rusé et malin
     C'est l'homme le plus fort de la Terre
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Dragon Ball Z
     Héros au cœur vaillant
     Dragon Ball Z
@@ -60,6 +60,6 @@
     Il deviendra bientôt
     Dragon Ball Z
     Le plus grand des héros
-  \endchorus
+  \end{chorus}
 
 \endsong

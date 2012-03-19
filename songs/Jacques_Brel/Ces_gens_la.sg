@@ -8,7 +8,7 @@
   \gtab{F#}{2:022100}
   \gtab{B}{2:X02220}
 
-  \beginverse
+  \begin{verse}
     D'abord, d'abord, y'a l'aî\[A&m]né
     Lui qui est \[F#]comme un me\[A&m]lon
     Lui qui a \[F#]un gros \[A&m]nez
@@ -18,9 +18,9 @@
     Qui fait rien de ses dix doigts
     Mais lui qui n'en peut plus
     Lui qui est complètement cuit
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et qui s'prend pour le roi
     Qui se saoule toutes les nuits
     Avec du mauvais vin
@@ -30,16 +30,16 @@
     Blanc comme un cierge de Pâques
     Et puis qui balbutie
     Et qui a l'œil qui divague
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Faut vous dire, Monsieur
     Que chez ces gens-là
     On ne pense pas Monsieur
     On ne pense pas, on prie
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Et puis, y'a l'autre
     Des carottes dans les cheveux
     Qu'à jamais vu un peigne
@@ -50,9 +50,9 @@
     Une fille de la ville
     Enfin, d'une autre ville
     Et que c'est pas fini
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Qui fait ses petites affaires
     Avec son petit chapeau
     Avec son petit manteau
@@ -61,16 +61,16 @@
     Mais qui a pas l'air du tout
     Faut pas jouer les riches
     Quand on n'a pas le sou
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Faut vous dire, Monsieur
     Que chez ces gens-là
     On ne vit pas, Monsieur
     On ne vit pas, on triche
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Et puis, y'a les autres
     La mère qui ne dit rien
     Ou bien n'importe quoi
@@ -81,9 +81,9 @@
     Qui est mort d'une glissade
     Et qui regarde son troupeau
     Bouffer la soupe froide
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et ça fait des grands \emph{chloups}
     Et ça fait des grands \emph{chloups}
     Et puis y'a la toute vieille
@@ -92,16 +92,16 @@
     Vu que c'est elle qui a l'oseille
     Et qu'on n'écoute même pas
     Ce que ces pauvres mains racontent
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Faut vous dire, Monsieur
     Que chez ces gens-là
     On ne cause pas, Monsieur
     On ne cause pas, on compte
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Et puis, et puis
     Et puis y'a Fri\[B]da
     Qui est belle comme \[F#]un so\[B]leil
@@ -116,9 +116,9 @@
     Et que si c'est pas sûr
     C'est quand même peut-être
     Parce que les autres veulent pas \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Les autres, ils disent comme ça
     Qu'elle est trop belle pour moi
     Que je suis tout juste bon
@@ -128,9 +128,9 @@
     Ou bien j'ai oublié
     Ou ils sentaient pas bon
     Enfin ils veulent pas \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Parfois quand on se voit
     Semblant, qu'c'est pas exprès
     Avec ses yeux mouillants
@@ -141,14 +141,14 @@
     Alors moi, je la crois, Monsieur
     Pour un instant
     Pour un instant, seulement
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Parce que chez ces gens-là
     Monsieur, on ne s'en va pas \rep{2}
     On ne s'en va pas
     Mais il est tard, Monsieur
     Il faut que je rentre chez moi
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -9,34 +9,34 @@
   \gtab{F}{1:022100}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     \[Am]I'm standing at the crossroads
     There are \[F]many roads to \[Am]take
     \[Am]But I stand here so silently
     For \[F]fear of a mis\[Am]take \[A2] \[Am]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]One road leads to para\[Am]dise
     \[F]One road leads to \[Am]pain
     \[F]One road leads to free\[Am]dom
     \[G]But they \[F]all look the \[Am]same
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Am]I've traveled many roads
       And not \[F]all of them where \[Am]good
       \[Am]The foolish ones taught more to me
       Than the \[F]wise ones ever \[Am]could \[A2] \[Am]
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       \[F]One road leads to sacri\[Am]fice
       \[F]One road leads to \[Am]shame
       \[F]One road leads to free\[Am]dom
       \[G]But they \[F]all look the \[Am]same
-    \endchorus
+    \end{chorus}
 
     \begin{bridge}
       There were \[F]roads I never travel\[Am]led
@@ -45,12 +45,12 @@
       \[G]But leaving \[F]you was my only mis\[Am]take \[A2] \[Am]
     \end{bridge}
 
-    \beginverse
+    \begin{verse}
       \[Am]So I'm standing at the crossroads
       Im\[F]prisoned by this \[Am]doubt
       \[Am]As if by doing nothing
       I \[F]might find my way \[Am]out
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

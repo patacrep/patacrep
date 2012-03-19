@@ -11,15 +11,15 @@
   \gtab{B}{2:X02220}
   \gtab{Em}{022000}
 
-  \beginverse
+  \begin{verse}
     \[Am]Il est 6h au clocher de l'église
     Dans le square, les fleurs poétisent
     Une fille va sortir de la mai\[G]rie
     Comme chaque soir je l'attends, elle me sou\[C]rit
     Il faudrait que je lui parle à \[B]tout prix
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Je lui dirai les mot bleus
     Les mots qu'on dit avec les yeux
     Parl\[D]er me semble ridicule
@@ -27,9 +27,9 @@
     De\[C]vant une phrase inutile
     Qui briserait l'instant fragile
     D'\[B]une rencontre \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Je lui dirai les mots bleus
     Ceux qui rendent les gens heureux
     Je l'appellerai sans la nommer
@@ -37,17 +37,17 @@
     Le vent d'hiver souffle en avril
     J'aime le silence immobile
     D'une rencontre \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il n'y a plus d'horloge, plus de clocher
     Dans le square, les arbres sont couchés
     Je reviens par le train de nuit
     Sur le quai je la vois qui me sourit
     Il faudra bien qu'elle comprenne à tout prix
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Je lui dirai les mots bleus
     Les mots qu'on dit avec les yeux
     Toutes les excuses que l'on donne
@@ -55,9 +55,9 @@
     Il reste une rancœur subtile
     Qui gâcherait l'instant fragile
     De nos retrouvailles \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Je lui dirai les mots bleus
     Ceux qui rendent les gens heureux
     Une histoire d'amour sans paroles
@@ -65,14 +65,14 @@
     Et tous les longs discours futiles
     Terniraient quelque peu le style
     De nos retrouvailles \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Je lui dirai les mots bleus
     Les mots qu'on dit avec les yeux
     Je lui dirai tous les mots bleus
     Tous ceux qui rendent les gens heureux
     Tous les mots bleus \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

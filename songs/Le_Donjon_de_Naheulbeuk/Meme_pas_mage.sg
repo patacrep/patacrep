@@ -11,100 +11,100 @@
   \gtab{F}{1:022100}
   \gtab{Em}{022000}
 
-  \beginverse*
+  \begin{verse*}
     Je \[Am]viens d'un tout petit vil\[G]lage
     Si pour\[C]ri qu'il n'a \[G]pas de \[Am]nom
     J'ai \[Am]échappé à un pil\[G]lage
     Caché au \[C]milieu \[G]des co\[Am]chons
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Couvert de lisier, sentant la mort
     Dignement je me suis relevé
     Et je suis parti vers le Nord
     Bien décidé à oublier
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     J'a\[Am]vais à peine mar\[G]ché deux heures
     J'en\[F]tendis les tam\[G]bours de \[Am]guerre
     Sou\[Am]dain alarmé \[G]je pris peur
     J'é\[F]tais vraiment dans \[G]la ga\[Am]lère
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     De \[Am]chaque côté \[Em]deux armées
     É\[Am]pées et boucl\[Em]iers levés
     Com\[Am]mençaient les hos\[F]tilités
     Et \[Am]moi j'é\[F]tais dans \[G]la mê\[Am]lée
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     \[Am]{Je ne} suis pas un \[Em]magi\[Am]cien
     \[Am]{J'ai} jamais tué \[Em]de dra\[Am]gon
     \[Am]{Si j'en} suis là c'est \[Em]le des\[Am]tin
     \[Am]Qui m'a vraiment pris \[Em]pour un \[Am]con
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Blessé à l'oreille et tremblant
     Seul survivant, il fut soigné
     Le roi vraiment reconnaissant
     Fit de lui un preux chevalier
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     À deux mains levant son épée
     Pour lui jurer fidélité
     Par le poids, il fut emporté
     Et la tête du roi a tranchée
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     Je m'imaginais balançant
     Sous le gibet, sur la grand' place
     Mais j'avais occis un tyran
     Et l'on me fit roi à sa place
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Bien au-delà de mes frontières
     On chantait partout mes exploits
     Si bien que mes autres confrères
     Étaient à mort jaloux de moi
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     Bien décidé à en finir
     Avec ce terrible cauchemar
     Je convoquai tous les monarques
     Pour leur dire que j'en avais marre
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Attablé autour d'un repas
     J'abordai l'histoire des cochons
     Les rois qui se foutaient de moi
     Rirent et s'étouffèrent pour de bon
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mais qu'ai-je donc fait au destin
     Pour qu'il s'acharne ainsi sur moi ?
     \echo{Son rêve s'était d'être bon à rien
     Pas chevalier, encore moins roi}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'aurais voulu être paysan
     Et puis épouser une belle blonde
     \echo{Mais c'est plus possible maintenant
     Qu'il est devenu maître du monde}
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -8,7 +8,7 @@
   \gtab{D}{XX0232}
   \gtab{E7}{020100}
 
-  \beginverse
+  \begin{verse}
     Petites \[A]boîtes, très étroites
     Petites boîtes, faites en \[D]ticky tacky
     Petites \[A]boîtes, petites \[E7]boîtes
@@ -18,9 +18,9 @@
     Elles sont \[A]toutes, toutes
     Faites en \[E7]ticky tacky
     Elles sont \[A]toutes, toutes, \[E7]toutes pa\[A]reilles
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et ces gens là, dans leurs boîtes
     Vont tous à l'université
     On les met tous dans des boîtes
@@ -29,9 +29,9 @@
     Des hommes d'affaires et des avocats
     Ils sont tous, tous, faits de ticky tacky
     Ils sont tous, tous, tous pareils
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et ils boivent sec des martinis
     Jouent au golf toute l'après midi
     Puis ils font des jolis enfants
@@ -40,9 +40,9 @@
     Puis s'en vont à l'université
     On les met tous dans des boîtes
     Et ils sortent tous pareils
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Les garçons font du commerce
     Et deviennent pères de famille
     Ils bâtissent de nouvelles boîtes
@@ -51,6 +51,6 @@
     Et s'en vont dans des cimetières
     Dans des boîtes faites en ticky tacky
     Qui sont toutes, toutes, toutes pareilles
-  \endverse
+  \end{verse}
 
 \endsong

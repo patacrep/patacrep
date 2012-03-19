@@ -12,36 +12,36 @@
   \gtab*{G4}{320013}
   \gtab{C}{X32010}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{ \Intro: \nolyrics{ \[D] \[D4] \[Am] \[A4] \[G] \[G4] \[D] } }
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[D]And now the thoughts of you so \[Am]fine
     Is rollin' through my \[G]mind
     It's ruling all of my \[D]time
     \[D]I can almost touch your \[Am]skin
     It takes my senses \[G]in
     And my dreams \[D]begin
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Baby I love \[C]you
     I can't \[G]help it
     No matter \[D]what I try
     But I \[C]never want to cage \[G]you
     I want to see you \[D]fly
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[D]And the picture of your perfect \[Am]face
       Is so quick to re\[G]place
       Any other thoughts that I \[D]make
       I've searched the world for a girl like \[Am]you
       To tell my story \[G]to
       And you're my dream come \[D]true
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

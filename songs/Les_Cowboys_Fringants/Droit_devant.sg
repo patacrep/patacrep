@@ -11,16 +11,16 @@
   \gtab{Dm}{XX0231}
   \gtab{Am}{X02210}
 
-  \beginchorus
+  \begin{chorus}
     Prépare-\[C]toi, petit gar\[Gm]çon
     Elle s'ra \[Dm]longue l'expédi\[C]tion
     Et même \[G]si on n'en revient jamais vi\[B&]vant
     Il faut \[C]marcher droit de\[Dm]vant
-  \endchorus
+  \end{chorus}
 
   \lilypond{Droit_devant-1}
 
-  \beginverse
+  \begin{verse}
     \[Dm]Quand il était haut comme 3 pommes
     Et qu'il n'était qu'un tout petit bon\[C]homme\[Am]
     On le poussa hors du berceau
@@ -29,9 +29,9 @@
     Il posera le pied dans son existence
     On n'est pas sitôt arrivé
     Que l'on doit faire face à sa destinée
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     D'abord il faut franchir ce fleuve
     Qui est l'enfance de toutes les épreuves
 
@@ -43,9 +43,9 @@
     Et son bateau travers'ront les époques
     Ou bien s'il ramera à la dure
     Dans une chaloupe remplie de fissures
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Puis vient ce passage obligé
     Dans cette forêt parfois agitée
     Là où en plus d'chercher sa voie
@@ -54,9 +54,9 @@
     Qu'il pourra prendre les routes pavées
     Ou se contenter d'une avenue
     Précaire en dehors des sentiers battus
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Enfin vient la montagne hostile
     Et son ascension aux mille périls
     Où les victoires sont triomphales
@@ -65,9 +65,9 @@
     Et réussissent à planter leur drapeau
     La plupart stoppent à mi-trajet
     Et se résignent bien à court du sommet
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Quand viendra l'âge du bilan
     L'important sera que tu sois content
     Car on fait c'qu'on peut dans la vie
@@ -76,10 +76,10 @@
     Mais l'offre est plus petite que la demande
     Que l'on soit minus ou géant
     Il faut être fort pour traverser le temps
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Bonne chance
-  \endverse
+  \end{verse*}
 
 \endsong

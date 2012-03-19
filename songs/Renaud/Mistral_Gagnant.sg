@@ -11,11 +11,11 @@
   \gtab{G}{320003}
   \gtab{F#}{2:022100}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{ \Intro : \nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Ah\dots m'as\[Bm]seoir sur un banc
     Cinq minutes avec toi
     Et regarder les gens tant qu'y en \[Em]a
@@ -31,9 +31,9 @@
     Et entendre ton rire
     Qui lézarde les murs
     Qui sait surtout guérir mes blessures
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Te ra\[G]conter un peu
     Comment j'étais mi\[F#]no
     Les bonbecs fabu\[Bm]leux
@@ -42,9 +42,9 @@
     Car en sac et min\[F#]tho
     Caramels à un \[Bm]franc
     \[A]Et les mistrals ga\[G]gnants
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Ah\dots m'asseoir sous la pluie
     Cinq minutes avec toi
     Et regarder la vie tant qu'y en a
@@ -60,9 +60,9 @@
     Et entendre ton rire
     Comme on entend la mer
     S'arrêter, repartir en arrière
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Te raconter surtout
     Les carambars d'antan
     Et les coco-boërs
@@ -70,13 +70,13 @@
     Qui nous coupaient les lèvres
     Et nous niquaient les dents
     Et les mistrals gagnants
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics { \[Bm] \[Em] \[F\#] \[Bm] \[Bm] \[A] \[G] }}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Ah\dots m'asseoir sur un banc
     Cinq minutes avec toi
     Regarder le soleil qui s'en va
@@ -92,9 +92,9 @@
     Et entendre ton rire
     S'envoler aussi haut
     Que s'envolent les cris des oiseaux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Te raconter enfin
     Qu'il faut aimer la vie
     Et l'aimer même si
@@ -103,7 +103,7 @@
     Le rire des enfants
     Et les mistrals gagnants
     \[A]Et les mistrals ga\[Bm]gnants \[Em] \[F#] \[Bm]
-  \endverse
+  \end{verse*}
 
 \endsong
 

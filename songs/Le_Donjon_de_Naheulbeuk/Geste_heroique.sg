@@ -13,44 +13,44 @@
 
   \lilypond{Geste_heroique-2}
 
-  \beginverse
+  \begin{verse}
     \[Am]Perdu dans la Mo\[C]ria
     Je \[D]cher\[C]che Sa\[Em]rou\[C]mane
     Le Golbargh derrière moi
     Je suis dans la panade
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[C]Viens \[Em]tôt me \[Am]secou\[E]rir
     \[E]Ou me fau\[Am]dra \[E]mou\[A]rir
     \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Pourquoi fuis-tu Gurdil ?
     J'ai le Golbargh au cul
     Mon caleçon en mithril
     Ne me sauvera plus
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     De son fouet enflammé
     Mes fesses pourra brûler
     \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Toi le magicien blanc
     Tu pourrais me sauver
     Si je m'en sors vivant
     Te vendrai la Comté
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     C'est là que vit Bilbo
     C'est lui qui a l'anneau
     \rep{2}
-  \endverse
+  \end{verse*}
 
   \lilypond{Geste_heroique-1}
 

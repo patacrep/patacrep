@@ -9,7 +9,7 @@
   \gtab{D7}{XX0212}
   \gtab{B7}{X21202}
 
-  \beginverse
+  \begin{verse}
     \[Em]Alouette, alouet\[Am7]te
     L'é\[D7]té est fi\[G7]ni
     \[Em]Pauvre petite bê\[Am7]te
@@ -18,9 +18,9 @@
     Je \[D7]te comprends \[G7]bien
     Moi aussi \[Em]{j'ai} en tê\[Am]te
     \[B7]Beaucoup de cha\[Em]grain
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Dans les blés de la plaine
     Lorsque tu chantais
     Auprès de Madeleine
@@ -29,16 +29,16 @@
     Nous buvions tous trois
     La vie était si douce
     Si pleine de joie
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Alouette, alouette
     Chantons tous les deux
     Un autre jour, peut-être
     On sera heureux
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Alouette, alouette
     Puisque tout va mal
     Il faut faire la fête
@@ -47,9 +47,9 @@
     Viens te réchauffer !
     Tu verras, je suis drôle
     Je sais bien danser
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et puis si tu t'embêtes
     On viendra chez moi
     Il y aura des noisettes
@@ -58,13 +58,13 @@
     L'amour et l'été
     Comme les cigarettes
     S'en vont en fumée
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Alouette, alouette
     Non, ne t'en fais pas
     Alouette, alouette
     L'été reviendra
-  \endchorus
+  \end{chorus}
 
 \endsong

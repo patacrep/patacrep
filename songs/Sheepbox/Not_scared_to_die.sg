@@ -15,49 +15,49 @@
   \gtab{C}{X32010}
   \gtab{E7}{020100}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[C{\shrp}m Em Bm A]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[C#m]{I let you} drive\[Em]{\dots{}} \[Bm]{Just for} a while\[A]
     \[C#m]{You can} decide\[Em]{\dots{}} \[Bm]{Where goes} our ride\[A]
     \[C#m]{I don't want} my life\[Em]{\dots{}} \[Bm]{To be a} straight line\[A]
     \[C#m]{But a messy} flight\[Em]{\dots{}} \[Bm]{Across the} sky\[A]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[E]Not scared of dying\[A]{\dots{}} \[E]Not scared to die\[A]{!} \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     No TV screen\dots{} No new engine
     No big property\dots{} No more family
     I don't need to meet\dots{} The common needs
     Someone like me\dots{} Just want to be free
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[E]Dying \[G]{is not} \[D]happy\[A]{!}
     \[E]Dying \[G]{is not} \[D]healthy\[A]{!}
     \[E]Dying \[G]{is not} \[D]funny\[A]{!}
     \[E]Dying \[G]{is not} \[D]scary\[A]{!}
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \[C]{If you're} \[D]enjoying the \[A]ride
     \[C]{And every} \[D]time of your \[A]life
     \[C]{Don't fear} the \[D]day of your \[A]death
     \[C]{Cauz' that} day \[D]may be \[E7]today
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     I dip my eyes\dots{} Into the sky
     I free my mind\dots{} And return wild
     Spending some time\dots{} Before the next ride
     Enjoying my life\dots{} Before I die!
-  \endverse
+  \end{verse}
 
 \endsong

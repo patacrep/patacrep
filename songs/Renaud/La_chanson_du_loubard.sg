@@ -11,74 +11,74 @@
   \gtab{G}{320003}
   \gtab{B7}{X21202}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics \[Em C Em C]}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Em]Le jour se lève sur ma ban\[C]lieue
     J'ai froid c'est pourtant pas l'hi\[Em]ver
     Qu'est-ce que j'pourrais foutre nom de \[C]Dieu
     J'ai pas un rond et j'ai pas \[Em]l'air
     Sé\[Am]rieux \[D]
     Sé\[Em]rieux
-  \endverse
+  \end{verse}
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       \[Em]J'suis un loubard parmi tant \[C]{d'autres}
       Je crèche pas loin de la Dé\[Em]fense
       J'ai l'air crado, c'est pas ma \[C]faute
       Mon HLM c'est pas By\[Em]zance
       Mon \[Am]pote \[D]
       Mon \[Em]pote
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     À quatorze \[D]ans mon paternel
     M'a fait em\[G]baucher à l'usine
     Deux jours plus \[C]tard j'ai fait la belle
     Paraît que \[B7]j'suis un fils indigne
     Bor\[Em]del
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Em]Un soir dans une rue dé\[C]serte
       J'ai fauché une Honda \[Em]500
       À un fils de bourgeois hon\[C]nête
       Avec elle je fonce à \[Em]200
       Ouais, c'est \[Am]chouette \[D]
       C'est \[Em]chouette
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Em]Mon copain Pierrot s'est plan\[C]té
       Sur l'autoroute un jour de \[Em]pluie
       Parfois, je l'entends rigo\[C]ler
       C'est sûr qu'il est au para\[Em]dis
       C't'en\[Am]flé \[D]
       C't'en\[Em]flé
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       Et moi j'con\[D]tinue mon cinoche
       Au pied de \[G]ces buildings miteux
       J'voudrais cre\[C]ver avant d'être moche
       J'voudrai fi\[B7]nir comme toi mon vieux
       Ga\[Em]vroche
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[Em]J'suis un loubard périphé\[C]rique
       J'en ai plein les bottes de ce \[Em]bled
       Le France est une banlieue mer\[C]dique
       Comme dit mon copain Moha\[Em]med
       Aux \[Am]flics \[D]
       Aux \[Em]flics
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Em]Le jour se lève sur ma ban\[C]lieue
       J'ai froid c'est pourtant pas l'hi\[Em]ver
       C'est drôle le bitume est tout \[C]bleu
@@ -91,7 +91,7 @@
       Bon \[Em]Dieu
       Oh Bon \[Am]Dieu \[D]
       Oh mon \[Em]Dieu
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
 \endsong

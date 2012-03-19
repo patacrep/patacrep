@@ -8,7 +8,7 @@
   \gtab{F#m}{2:022000}
   \gtab{B}{2:X02220}
 
-  \beginverse
+  \begin{verse}
     \[A]Un jour, j'irai a \[F#m]{New York} avec toi
     \[A]Toutes les nuits décon\[B]ner
     \[A]Et voir aucun film en ent\[F#m]{ier, ca va} d'soi
@@ -18,17 +18,17 @@
     \[A]Traîner du côté gay et voir leurs \[F#m]corps se serrer
     \[A]Voir leurs cœurs se vider et saig\[B]ner
     Oui, saig\[D]ner
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[A]Un jour\[B]{ j'irai} là-\[D]bas
     \[A]Un jour \[B]{Chat, un} autre \[D]Rat
     \[A]Voir si le cœur de la v\[B]ille bat en t\[D]oi
     Et tu m'emmèneras \[A] \[B] \[D]
     Emmène-moi ! \[A] \[B] \[D]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Un jour, j'aurai New York au bout des doigts
     On y jouera, tu verras
     Dans les clubs, il fait noir, mais il ne fait pas froid
@@ -39,9 +39,9 @@
     Et puis c'est tellement grand que vite on oubliera
     Que nulle part c'est chez moi, chez toi
     Chez nous quoi !
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Un jour, j'irai la-bas
     Un jour Chat, un autre Rat
     Voir si le cœur de la ville bat en toi
@@ -51,7 +51,7 @@
     Voir si le cœur de la ville bat en moi
     Et tu m'emmèneras !
     Emmène-moi !
-  \endverse
+  \end{verse*}
 
   \lilypond{New_york_avec_toi}
 

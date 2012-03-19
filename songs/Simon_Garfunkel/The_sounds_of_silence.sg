@@ -10,7 +10,7 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 
-  \beginverse
+  \begin{verse}
     \[Am]Hello darkness, my old \[G]friend
     I've come to talk with you a\[Am]gain
     Because a vi\[C]sion sof\[F]tly cree\[C]ping
@@ -18,9 +18,9 @@
     And the \[F]vision that was planted in my \[C]brain
     Still re\[Am]mains
     Wi\[C]thin the \[G]sound of \[Am]silence
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     In restless dreams I walked alone
     Narrow streets of cobblestone
     Neath the halo of a street lamp
@@ -28,9 +28,9 @@
     When my eyes were stabbed by the flash of a neon light
     That split the night
     And touched the sound of silence
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     And in the naked light I saw
     Ten thousand people, maybe more
     People talking without speaking
@@ -38,9 +38,9 @@
     People writing songs that voices never share
     And no one dared
     Disturb the sound of silence
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     ``Fools'' said I, ``You don't know
     Silence's like a cancer grows
     Hear my words and I might teach you
@@ -48,9 +48,9 @@
     But my words like silence raindrops fell
     And echoed
     In the wells of silence
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     And the people bowed and prayed
     To the neon god they made
     And the sign flashed out its warning
@@ -58,6 +58,6 @@
     And the sign said, ``The words of the prophets
     Are written on the subway walls, and tenement halls''
     And whispered in the sound of silence
-  \endverse
+  \end{verse}
 
 \endsong

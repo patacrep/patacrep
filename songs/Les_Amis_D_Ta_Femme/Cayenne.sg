@@ -11,7 +11,7 @@
   \gtab{G}{320003}
 
 
-  \beginverse
+  \begin{verse}
     Je \[Em]me souviens encore
     De \[B]ma première \[Em]femme
     Elle s'appelait Nina
@@ -20,17 +20,17 @@
     De \[C]la plaine St-\[G]Denis
     Elle \[C]faisait le \[G]tapin
     Près d'la rue \[B]Ri\[Em]voli
-  \endverse
+  \end{verse}
 
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Mort aux vaches
     Mort aux condés
     Vive \[B]les enfants de Cayenne
     À bas ceux d'\[G]la \[B]sure\[Em]té
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Elle aguichait l'client
     Quand mon destin d'bagnard
     Vint frapper à sa porte
@@ -39,9 +39,9 @@
     Rempli de son dédain
     Lui mit la main au cul
     Et la traita d'putain
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi qui était son homme
     Et pas une peau de vache
     Acquis dans ma jeunesse
@@ -50,13 +50,13 @@
     Et d'une balle en plein cœur
     Je l'étendit raide mort
     Et fut serré sur l'heure
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Une seule solution : la révolution !
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Aussitôt arrêté
     Fut mené a Cayenne
     C'est là que j'ai purgé
@@ -65,17 +65,17 @@
     Ne faites plus les cons
     Car pour une seule connerie
     On vous jette en zonzon
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Pas de grâce
     Pas de pitié
     Pour toutes ces bandes de lâches
     Et ces bandes d'enculés
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Si je viens a mourir
     Je veux que l'on m'enterre
     Dans un tout p'tit cimetière
@@ -84,7 +84,7 @@
     Viendront crier très haut
     C'est le roi des Jules
     Que l'on mène au tombeau
-  \endverse
+  \end{verse}
 
 
 \endsong

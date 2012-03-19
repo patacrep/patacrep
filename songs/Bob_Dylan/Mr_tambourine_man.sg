@@ -10,82 +10,82 @@
   \gtab{Em}{022000}
   \gtab{D7}{XX0212}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Hey, Mr. \[D]Tambourine Man
     \[G]Play a song for \[Em]me
     I'm not sl\[G]eepy
     And there \[C]ain't no place I'm g\[D]oing to
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Hey, Mr. \[D]Tambourine Man
     \[G]Play a song for \[Em]me
     In the \[G]jingle jangle \[C]morning
     I'll come \[D7]following \[G]you
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Though I \[C]know that evenings \[D7]empire
     Has re\[G]turned into \[Em]sand
     Van\[G]ished from my \[Em]hand
     Left me \[G]blindly here to \[C]stand
     But still not \[D7]sleeping
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     My weariness amazes me
     I'm branded on my feet
     I have no one to meet
     And the ancient empty street's
     Too dead for dreaming
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Take me on a trip upon your magic swirling ship
     My senses have been stripped
     My hands can't feel to grip
     My toes too numb to step
     Wait only for my boot-heels to be wandering
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     I'm ready to go anywhere
     I'm ready for to fade
     Into my own parade
     Cast your dancing spell my way
     I promise to go under it
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Though you might hear laughing, spinning
     Swinging madly through the sun
     It's not aimed at anyone
     It's just escaping on the run
     And but for the sky there are no fences facing
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     And if you hear vague traces of skipping reels of rhyme
     To your tambourine in time
     It's just a ragged clown behind
     I wouldn't pay it any mind
     It's just a shadow you're seeing that he's chasing
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Take me disappearing through the smoke rings of my mind
     Down the foggy ruins of time
     Far past the frozen leaves
     The haunted frightened trees
     Out to the windy beach
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Far from the twisted reach of crazy sorrow
     Yes to dance beneath the diamond sky with one hand waving free
     Silhouetted by the sea
     Circled deep beneath the waves
     Let me forget about today until tomorrow
-  \endverse
+  \end{verse*}
 
 \endsong

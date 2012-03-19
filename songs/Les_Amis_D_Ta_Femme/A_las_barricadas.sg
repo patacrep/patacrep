@@ -9,36 +9,36 @@
   \gtab{F}{1:022100}
   \gtab{C}{3:X02220}
 
-  \beginverse
+  \begin{verse}
     \[Dm]Negras tormentas agitan los aires
     \[A]Nubes oscuras nos \[Dm]impiden ver
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Dm]Aunque nos espere el dolor y la muerte
     \[A]Contra el enemigo nos \[Dm]llama el deber
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     El \[F]bien más preciado es \[C]la libertad
     \[C]Hay que defenderla con \[A]fe y valor
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Dm]Alza la bandera revolucionaria
     \[A]Que lleva el pueblo a su \[Dm]emancipación
     \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     En pie el pueblo obrero, a la batalla
     Hay que derrocar a la reacción
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     ¡ A las barricadas ! ¡ A las barricadas !
     Por el triunfo de la Confederación
     \rep{2}
-  \endverse
+  \end{verse*}
 
 \endsong

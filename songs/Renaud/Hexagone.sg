@@ -7,7 +7,7 @@
   \gtab{Em}{022000}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[Em]Ils s'embrassent au mois de janvier
     Car une nouvelle année commence
     Et depuis des éternités
@@ -16,9 +16,9 @@
     Y'a qu'le décor qui évolue
     La mentalité reste la même
     Tous des tocards, tous des faux-\[Em]culs
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Ils sont pas lourds en février
     À se souvenir de Charonne
     Des matraqueurs assermentés
@@ -27,9 +27,9 @@
     À tous les coins d'rues, y'en a cent
     Pour faire régner l'ordre publique
     Ils assassinent impunément
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Quand on exécute au mois de mars
     De l'aut' coté des Pyrénées
     Un anarchiste du pays basque
@@ -38,16 +38,16 @@
     De cette immonde mise à mort
     Mais ils oublient qu'la guillotine
     Chez nous aussi fonctionne encore
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Et' né sous l'signe de l'hexa\[D]gone
     C'est pas c'qu'on fait d'mieux en c'mo\[Em]ment
     Et le roi des cons sur son \[D]trône
     J'parierais pas qu'il est alle\[Em]mand
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On leur a dit au mois d'avril
     À la télé dans les journaux
     De ne pas s'découvrir d'un fil
@@ -56,9 +56,9 @@
     Et les vieilles traditions débiles
     Ils les appliquent tous à la lettre
     Ils font pitié ces imbéciles
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Ils se souviennent au mois de mai
     D'un sang qui coula rouge et noir
     D'une révolution manquée
@@ -67,9 +67,9 @@
     Effrayés par la liberté
     S'en allant voter par millions
     Pour l'ordre et la sécurité
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Ils commémorent au mois de juin
     Un débarquement d'Normandie
     Ils pensent au brave soldat ricain
@@ -78,16 +78,16 @@
     Les français criaient : {\og}Vive Pétain !{\fg}
     Qu'ils étaient bien planqués à l'ombre
     Qu'y avait pas beaucoup d'Jean Moulin
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et' né sous l'signe de l'hexagone
     C'est pas une gloire en vérité
     Et le roi des cons sur son trône
     Me dites pas qu'il est portugais
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Ils font la fête au mois d'juillet
     En souvenir d'une révolution
     Qui n'a jamais éliminé
@@ -96,9 +96,9 @@
     D'feus d'artifices et de flonflons
     Ils pensent oublier dans la bière
     Qu'ils sont gouvernés comme des pions
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au mois d'août c'est la liberté
     Après une longue année d'usine
     Ils crient vivent les congés payés
@@ -107,9 +107,9 @@
     Ils vont polluer toutes les plages
     Et par leur unique présence
     Abîmer tous les paysages
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Lorsqu'en septembre on assassine
     Un peuple et une liberté
     Au cœur de l'Amérique latine
@@ -118,16 +118,16 @@
     Bras ouverts, il est accueilli
     Le fascisme, c'est la gangrène
     À Santiago comme à Paris
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et' né sous l'signe de l'hexagone
     C'est vraiment pas une sinécure
     Et le roi des cons sur son trône
     Il est français, ça j'en suis sur
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Finies les vendanges en Octobre
     Le raisin fermente en tonneaux
     Ils sont très fiers de leurs vignobles
@@ -136,9 +136,9 @@
     Un peu partout à l'étranger
     Leur pinard et leur camembert
     C'est leur seule gloire à ces tarés
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     En novembre au salon d'l'auto
     Ils vont admirer par millions
     L'dernier modèle de chez Peugeot
@@ -147,9 +147,9 @@
     C'est l'opium du peuple de France
     Lui supprimer, c'est le tuer
     C'est une drogue à accoutumance
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     En décembre c'est l'apothéose
     La grande bouffe et les p'tits cadeaux
     Ils sont toujours aussi moroses
@@ -158,13 +158,13 @@
     Ils rateront pas leur réveillon
     Moi j'voudrais tous les voir crever
     Étouffés de dinde aux marrons
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et'né sous l'signe de l'hexagone
     On peut pas dire qu'se soit bandant
     Si l'roi des cons perdait son trône
     Y'aurait cinquante millions de prétendants
-  \endchorus
+  \end{chorus}
 
 \endsong

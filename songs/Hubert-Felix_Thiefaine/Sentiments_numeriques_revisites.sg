@@ -12,11 +12,11 @@
   \gtab{E}{022100}
   \gtab{C#m}{4:X02210}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[A C]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Quand \[D]{les ombres} du soir chevauchent sur la lande
     A\[A]{vec dans} leurs passeports Sherwood ou Brocéliande
     Quand \[Bm]{les elfes} titubent sous l'alcool de sorgho
@@ -25,14 +25,14 @@
     Des \[Bm]amants sous les aulnes d'un hôtel flamand
     Quand \[A]{tes visions} nocturnes t'empêchent de rêver
     Et \[Bm]couvrent ton sommeil d'un voile inachevé
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Je n'ai \[G]plus de \[D]mots assez \[A]durs pour \[G]{te dire} que je \[D]t'aime
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Quand \[D]{les chauves-souris} flirtent avec les rossignols
       Dans \[A]{les ruines} d'un royaume où mon crâne est mongol
       Quand \[Bm]{les syndicats} brûlent nos rushes et nos démos
@@ -41,9 +41,9 @@
       Dans \[Bm]{le bourdonnement} des câbles à haute tension
       Quand \[A]{tu m'offres} épuisée sous l'œil d'une opaline
       Les \[Bm]charmes vénéneux de tes fragrances intimes
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       Quand \[D]{les théâtres} antiques recèlent nos orgies
       Ça\[A]{tal Hoyük} airport, Manco Cápac City
       Quand \[Bm]{nos murs} se recouvrent de hiéroglyphes indiens
@@ -52,13 +52,13 @@
       Dans \[Bm]{ces nuits} tropicales où rugit le grand œuvre
       Quand \[A]l'ange anthropophage nous guide sur la colline
       Pour \[Bm]{un nouveau} festin de nos chairs androgynes
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \musicnote{instrumental : \nolyrics{\[C Bm C Bm A]}}
-    \endverse
+    \end{verse*}
 
-    \beginverse
+    \begin{verse}
       Quand \[D]{les clochards} opposent la classe et l'infini
       À \[A]{la vulgarité} glauque de la bourgeoisie
       Quand \[Bm]{les valets} de cour, plaideurs pusillanimes
@@ -67,10 +67,10 @@
       Quel\[Bm]{que juge} emportant ma tête sur un plateau
       Quand \[A]{tu branches} les hélices de ma mémoire astrale
       Sur \[Bm]{les capteurs-influx} de ta flamme initiale
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse
+  \begin{verse}
     Quand \[E]{les traces} de Rorschach sur la tôle ondulée
     Servent \[B]{aux maîtres} à tester l'autochtone humilié
     Quand \[C#m]{sur la} Moleskine des limousines en liesse
@@ -79,10 +79,10 @@
     Dans \[C#m]l'encyclopédie des clameurs souterraines
     Quand \[B]{je rentre} amoché, fatigué, dézingué
     En \[C#m]rêvant de mourir sur ton ventre mouillé
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Quand \[E]{dans la} lumière sale d'un miroir tamisé
       Tu \[B]croises l'œil éphémère d'une salamandre ailée
       Quand \[C#m]{dans les} brumes étales de nos corps transparents
@@ -91,9 +91,9 @@
       Sur \[C#m]{les écrans} secrets de ton pandémonium
       Quand \[B]{mes bougainvilliers} se mêlent aux herbes folles
       Dans \[C#m]{ta chaleur} biguine au crépuscule créole
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       Quand \[E]{les ombres} du soir poursuivent sur la lande
       Le \[B]{flash des} feux arrières d'une soucoupe volante
       Quand \[C#m]{le soleil} se brûle aux contours de tes reins
@@ -102,7 +102,7 @@
       Cinq \[C#m]milliards de versions différentes du réel
       Quand \[B]{tu pleures} essoufflée au creux de ma poitrine
       A\[C#m]{vec les} doux murmures des fréquences féminines
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

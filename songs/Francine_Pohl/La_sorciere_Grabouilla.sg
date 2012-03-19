@@ -7,66 +7,66 @@
   \gtab{B7}{X21202}
   \gtab{Am}{X02210}
 
-  \beginverse
+  \begin{verse}
     C'est \[Em]une vieille sorcière
     Qui \[B7]{s'appelle} Grabou\[Em]illa
     Grabou-bou, Grabou-bou
     Grabou-bou, Grabouilla
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Elle passe par la chatière
     Du gros chat Ramina
     Rami-mi, Rami-mi
     Rami-mi, Ramina
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Elle \[Am]transforme en cafe\[Em]tière
     Les \[B7]bottes de ma grand-\[Em]mère
     Se \[Am]cache dans la gou\[Em]ttière
     D'la \[B7]maison d'Nico\[Em]las
     Nico-co, Nico-co
     Nico-co, Nicolas
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Sorcière, \[Em]sorcière
     \[B7]Vite cache-\[Em]toi !
     \[Am]Sorcière, \[Em]sorcière
     \[B7]Retourne chez \[Em]toi !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mais un jour la sorcière
     Mangea trop d'chocolat
     Choco-co, choco-co
     Choco-co, chocolat
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Elle entre chez l'épicière
     Et vole des p'tits nougats
     Ptits nou-nou, p'tits nou-nou
     Ptits nou-nou, p'tits nougats
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Elle mange une boîte entière
     Puis elle boit de la bière
     Elle dit d'un ton amer :
     {\og}J'ai mal à l'estomac{\fg}
     L'esto-to, l'esto-to
     L'esto-to, l'estomac
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Sorcière, sorcière
     C'est bien fait pour toi !
     Sorcière, sorcière
     Retourne chez toi !
     \rep{2}
-  \endchorus
+  \end{chorus}
 
 
   \lilypond{La_sorciere_Grabouilla}

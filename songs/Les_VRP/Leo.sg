@@ -10,7 +10,7 @@
   \gtab{E7}{5:X2120X}
 
 
-  \beginverse
+  \begin{verse}
     Quand sa mère accoucha d'\[Am]Léo
     C'était pour mourir aussi\[Dm]tôt
     Dans les dé\[Am]combres d'un bis\[E7]trot
@@ -19,9 +19,9 @@
     En s'inven\[Dm]tant plein de mamans
     Des prosti\[Am]tuées, des sans-ar\[E7]gent
     La vraie mi\[Am]sère
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Comme \[Dm]{il avait} de l'aisance
     Et n'\[Am]était pas idiot
     À \[E7]son adolescence
@@ -30,9 +30,9 @@
     Il \[Am]{fît don} de ses dons
     À \[E7]vouloir trop de fric
     On finit en pri\[Am]son
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Dans la pénombre d'un cachot
     On enferma le pauvre Léo
     Avec des brigands, des salauds
@@ -41,9 +41,9 @@
     Lui dit un gars de sa chambrée
     Tu vas pouvoir nous réchauffer
     Fût pas d'manières
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     N'ayant plus le moral
     Et voulant en finir
     En ouvrant un journal, il lût :
@@ -52,9 +52,9 @@
     Tu es prisonnier
     Si tu veux écris-moi
     Je s'rai ta liberté{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Il a fallu bien des années
     Avant qu'Léo soit relâché
     Mais un beau jour c'est terminé
@@ -63,9 +63,9 @@
     Celle qu'il appelle \emph{ma dulcinée}
     Il va la couvrir de baisers
     Il fait le fier
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Il croise sur le trottoir
     Un cercueil de bois noir
     Salue les hommes en pleurs
@@ -74,9 +74,9 @@
     Et frappe tout essoufflé
     Mais celle qu'il a aimée
     Il vient de la croiser
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Dans ce petit appartement
     Y'avait pas grand chose d'important
     Mais sur une table, deux instruments
@@ -85,9 +85,9 @@
     Fais ça pour moi je t'en supplie
     Prend cet archer, cette scie
     Deviens honnête{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Dans la rue il s'installe
     Joue d'la scie musicale
     Mais il joue tellement mal
@@ -96,9 +96,9 @@
     Par tant d'bonne volonté
     Un jour furent obligés
     De l'chasser du quartier
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Un puis un jour dans les bistrots
     Y's'passait rien de très nouveau
     On a pu lire dans les journaux
@@ -107,9 +107,9 @@
     Le corps d'un pauvre vagabond
     Les bras sciés et un archer
     Un mystère
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Si encore de nos jours
     On entend ce refrain
     C'est que du fond de sa cour, un jour
@@ -118,7 +118,7 @@
     Cherchant un air nouveau
     A écrit pour orchestre :
     {\og}Les Hurlements d'Léo{\fg}
-  \endverse
+  \end{verse*}
 
 
 \endsong

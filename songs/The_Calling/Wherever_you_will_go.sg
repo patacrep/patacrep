@@ -49,68 +49,68 @@
     \bar
   \end{tab}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[C C/B Am7 F]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[C]So lately \[C/B]you're wondering
     \[Am7]Who will be \[F]there to take my place
     When I'm gone, you'll need love
     To light the shadows on your face
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     If a great wave shall fall
     And fall upon us all
     Then between the sand and stone
     Could you make it on your own?
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     If I could, then I would
     I'll go wherever you will go
     Way up high or down low
     I'll go wherever you will go
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     And maybe I'll find out
     A way to make it back someday
     To want you, to guide you
     Through the darkest of your days
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     If a great wave shall fall
     And fall upon us all
     Then I hope there's someone out there who
     Can bring me back to you
-  \endverse
+  \end{verse*}
 
   \musicnote{\Chorus}
 
-  \beginverse*
+  \begin{verse*}
     \[F]Run away with my \[C/B]heart
     \[Em]Run away with my \[Am7]hope
     \[F]Run away with my \[C/B]love
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     I know now just quite how
     My life and love might still go on
     In your heart, in your mind
     I'll stay with you for all of time
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus}
 
-  \beginchorus
+  \begin{chorus}
     If I could turn back time
     I'll go wherever you will go
     If I could make you mine
     I'll go wherever you will go
     \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

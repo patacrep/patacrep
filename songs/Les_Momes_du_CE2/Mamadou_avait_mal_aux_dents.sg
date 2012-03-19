@@ -13,74 +13,74 @@
 
   \lilypond{Mamadou_avait_mal_aux_dents}
 
-  \beginverse
+  \begin{verse}
     Mama\[C]dou avait mal aux \[G]dents
     Sa ma\[E7]man lui dit : {\og}Mon dou\[Am]dou
     Lave tes dents un peu plus sou\[E7]vent
     Des caries t'auras plus du \[Am]tout{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mamadou mange du denti\[Dm]frice
     Sur une tartine de pain d'é\[E7]pice
     Et quel délice hum \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mamadou avait mal aux cheveux
     Son papa lui dit : {\og}Mon p'tit vieux
     Trempe la tête dans l'eau de ce trou
     Et des poux t'auras plus du tout{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mamadou avec du savon
     Fait des bulles et puis des bonbons
     Et quel délice hum \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mamadou avait mal aux pieds
     Sa grande sœur lui dit : {\og}Mon p'tit gars
     Pour danser il faut te chausser
     Mal de pied comme ça s'en ira{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mamadou achète des chaussures
     Et les cire à la confiture
     Et quel délice hum \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mamadou avait mal aux dents
     Sa maman lui dit : {\og}Mon doudou
     Lave tes dents un peu plus souvent
     Des caries t'auras plus du tout{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mamadou mange du dentifrice
     Sur une tartine de pain d'épice
     Et quel délice hum \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Mamadou avait mal aux dents \rep{4}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mamadou avait mal au dos
     Son grand frère lui dit : {\og}Mon coco
     Mange un peu moins de bons gâteaux
     Et comme ça tu seras moins gros{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mamadou n'a plus rien mangé
     C'est comme ça qu'il s'est envolé
     Et quel délice hum \rep{2}
-  \endverse
+  \end{verse*}
 
 
 \endsong

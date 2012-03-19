@@ -12,7 +12,7 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 
-  \beginverse
+  \begin{verse}
     \[Am]{J'aimerais} écrire des mots \[G]{d'amour}
     Parce que \[Dm]parler, c'est \[E]pas mon fort
     \[Am]{J'aimerais} écrire des mots \[G]{d'amour}
@@ -21,16 +21,16 @@
     Et ce \[Dm]long frisson qui n'en \[E]finit pas
     \[Am]{J'ai} un peu froid, mau\[G]vais apôtre
     Mon \[Dm]cafard me lâche moins souvent \[E]{qu'autrefois}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Ialata ialata \[C]ialata ta
     \[E]Iala lalalala \[F]lala la la
     \[F]Ialata ialata \[C]ialata ta
     \[E]Ta
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'aimerais écrire des mots d'amour
     Parce que le reste, c'est pas grand-chose
     Je l'ai appris et à mon tour
@@ -39,18 +39,18 @@
     Nos contentieux et les comptes à rebours
     Oublier le temps d'un refrain
     Ce bon vieux réflexe, moi j'en garde pour demain
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Ialata ialata ialata ta
     Des mots pour toi mais que je n'dis pas
     Ialata ialata ialata ta
     Ceux-là
-  \endchorus
+  \end{chorus}
 
   %todo : lilypond
 
-  \beginverse
+  \begin{verse}
     Quel était le refrain du jour ?
     Si je l'oublie, je cède encore
     J'aimerais écrire des mots d'amour
@@ -59,6 +59,6 @@
     Entre deux conflits, entre deux coups d'éclat
     Une pause pour dire autour de moi
     Mon ami, mon frère, mon amour, écoute-moi
-  \endverse
+  \end{verse}
 
 \endsong

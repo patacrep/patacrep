@@ -9,43 +9,43 @@
   \gtab{Am}{X02210}
   \gtab{F}{1:022100}
 
-  \beginchorus
+  \begin{chorus}
     \[C] No \[G]woman, no cry \[Am F]
     \[C] No \[G]woman, no cry \[C G]
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[C] Said I \[G]remember \[Am]when we used to sit \[F]
     \[C] In the govern\[G]ment yard in \[Am]Trenchtown \[F]
     \[C] Oba, ob-\[G]serving the \[Am]hypocrites \[F]
     \[C] As they would \[G]mingle with the good people \[Am]we meet \[F]
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Good friends we have had, oh good friends we've lost
     Along the way
     In this bright future, you can't forget your past
     So dry your tears I say
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Said I remember when we used to sit
     In the government yard in Trenchtown
     And then Georgie would make the fire light
     Log wood burnin' through the night
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Then we would cook corn meal porridge
     Of which I'll share with you
     My feet is my only carriage
     So I've got to push on through
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     But while I'm gone
-  \endverse
+  \end{verse*}
 
   \begin{bridge}
     \[C] Everything's gonna \[G]be alright

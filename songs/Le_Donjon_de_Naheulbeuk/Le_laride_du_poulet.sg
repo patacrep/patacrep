@@ -10,82 +10,82 @@
 
   \lilypond{Le_laride_du_poulet}
 
-  \beginchorus
+  \begin{chorus}
     C'est le la\[Am]ridé du poulet
     Dan\[G]sez, dan\[Am]sez, si vous l'pouvez
     Mais il vau\[G]drait mieux s'en méfier
     À mort il \[F]peut vous pico\[G]rer
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Jamais as\[Am]sez ne vous méfiez
     De ce \[G]gentil gallinacé
     Mais peu de \[F]gens pourront parler
     Pour ceux qui \[G]lui ont résisté
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     C'est lui l'en\[Am]geance des poulaillers
     Un monstre \[G]sournois et rusé
     Ergots poin\[F]tus, bec acéré
     Votre vie \[G]ne tient qu'à un \[Am]dé
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Quand vous rêvez de le plumer
     Il ne pense qu'à vous étriper
     Si vous essayez de pioncer
     Il vous réveille au jour levé
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Trépas bref et instantané
     Ou torture lente et raffinée
     Ses plumes sont toutes ébouriffées
     Du plaisir de vous massacrer
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Dans la cour du donjon hanté
     Ou dans la ferme fortifiée
     Il vous regarde à l'œil mauvais
     Vous n'êtes qu'un ver à dévorer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Changeur de forme ou coq mité
     Ma foi vous n'le saurez jamais
     Si vous pouvez le terrasser
     Il servira pour le dîner
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \[Am]Poulet Poulet, \[Em]Piou Piou \[Am]Piou
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Si le lapin vous fait trembler
     Si l'mulot vous fait frissonner
     Vous n'êtes pas si aventurier
     Que vous semblez le déclarer
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Bien plus dang'reux qu'un dragonnet
     Mais valant beaucoup moins d'XP
     C'est le poulet qu'vous affrontez
     Y'a plus moyen de reculer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mais le fumble est arrivé !
     Six pieds sous terre vous reposez
     Picoré à mort dans l'fumier
     Car il est le mal incarné
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Tout ça c'est la faute du poulet !
-  \endverse
+  \end{verse*}
 
 \endsong

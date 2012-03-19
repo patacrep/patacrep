@@ -9,39 +9,39 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Am F C G]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Tu m'é\[Am]cris, il pleut à Montré\[G]al
     Tu me \[Am]dis, dis que je t'ai fait du \[G]mal
     Je te \[F]lis, il neige à Pa\[C]ris
     Le monde \[F]tourne à l'envers ces temps-\[Am]ci
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je sais qu'j'suis parti en coup d'\[G]vent
     Et que ça ne t'a pas \[Am]plu
     Que je n'ai pas pris le \[G]temps
     Le temps de te dire sa\[F]lut
     Mais les amours sont \[C]mortes
     C'est trop \[F]tard, j'ai franchi la \[Am]porte
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Et toi tu pleures comme une made\[G]leine
       Et moi je suis triste comme les \[Am]pierres
       Je sais, je t'ai fait de la \[G]peine
       Mais y a pas de bonnes ma\[F]nières
       Pour se dire a\[C]dieu
       Ça se \[F]passe jamais comme on \[Am] veut
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \nolyrics{\[Am F C G] \rep{2}}
-  \endverse
+  \end{verse*}
 
 \endsong

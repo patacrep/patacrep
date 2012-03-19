@@ -12,7 +12,7 @@
   \gtab{Gm}{3:022000}
   \gtab{B&}{6:022100}
 
-  \beginverse
+  \begin{verse}
     De bon ma\[Dm]tin, je suis parti
     Direction \[A7]le conserva\[Dm]toire
     J'avais \[Dm]rendez-vous à la demi
@@ -21,16 +21,16 @@
     Un vieux \[A7]poto. Les retrou\[Dm]vailles
     Ont eu lieu au fond d'un tro\[A7]quet
     \echo{Patron six barons et deux pailles}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Gueule en \[Dm]vrac et tête dans l'seau
     On n'a pas \[B&]des métiers fa\[A7]ciles
     C'est la pa\[Dm]tronne des musicos
     J'vais mettre un \[B&]cierge à \[A7]Sainte Cé\[Dm]cile \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     De bon matin, je redémarre
     Cette fois direction le studio
     J'avais rendez-vous à moins l'quart
@@ -39,19 +39,19 @@
     Ils veulent me passer à tabac
     Alors on s'est rincé la glotte
     Ça ira mieux la prochaine fois
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Des kangourous dans la citrouille
     On n'a pas des métiers faciles
     C'est la patronne de la gratouille
     J'vais mettre un cierge à Sainte Cécile \rep{2}
-  \endchorus
+  \end{chorus}
 
 
   \lilypond{Sainte_Cecile}
 
-  \beginverse
+  \begin{verse}
     De bon matin me v'là r'parti
     Direction la salle de concert
     J'avais rendez-vous à midi
@@ -60,16 +60,16 @@
     Le son était vraiment pourri
     Pour ménager nos acouphones
     On s'est immergé dans l'whisky
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     C'est le black out, solo d'cuvette
     On n'a pas des métiers faciles
     Patronne des brailleux d'chansonnettes
     J'vais mettre un cierge à Sainte Cécile
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     De bon matin ça recommence
     Rendez-vous chez le producteur
     Pour une fois je suis en avance
@@ -78,16 +78,16 @@
     J'allume une cigarette au gaz
     Quand le requin est arrivé
     J'étais à cheval sur un nuaze
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Concert d'enclumes dans la cervelle
     On n'a pas des métiers faciles
     C'est la patronne des ménestrels
     J'vais mettre un cierge à Sainte Cécile
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     De bon matin je reste au lit
     On n'attaque pas avant ce soir
     Je téléphone à ma p'tite amie
@@ -96,14 +96,14 @@
     J'ai invité deux trois copains
     On s'est mélangé tellement fort
     Qu'on s'est démêlé que l'lend'main
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Y'a plein d'brouillard, panne de radar
     On n'a pas des métiers faciles
     Oui c'est la patronne des fêtards
     J'vais mettre un cierge à Sainte Cécile
-  \endchorus
+  \end{chorus}
 
 \endsong
 

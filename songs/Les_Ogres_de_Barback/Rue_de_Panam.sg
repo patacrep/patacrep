@@ -10,76 +10,76 @@
   \gtab{Dm}{5:X02210}
   \gtab{E&}{6:X02220}
 
-  \beginverse
+  \begin{verse}
     \[B&]Dans une rue de Pa\[F]name
     Errant \[B&]au bord de l'\[F]eau
     J'\[B&]fumais mon Amster\[F]dam
     Pour fi\[B&]nir au bis\[F]trot
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Gm]Y'avait là deux-trois \[Dm]femmes
     \[Gm]Qui faisaient le ta\[Dm]pin
     \[Gm]Moi j'aiguisais ma \[Dm]lame
     Pour plan\[E&]ter les ru\[F]pins
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[B&]Les gens de bon quar\[F]tier
       Les tou\[B&]ristes, les viei\[F]llards
       \[B&]Aiment bien se prome\[F]ner
       Le long \[B&]des grands bou\[F]levards
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Gm]Ils achètent des sou\[Dm]venirs
       \[Gm]Des tours Eiffel en plas\[Dm]tique
       \[Gm]Les saltimbanques les font \[Dm]rire
       Mais fau\[E&]drait qu'on leur ex\[F]plique
-    \endverse
+    \end{verse*}
 
-    \beginverse
+    \begin{verse}
       \[B&]Qu'il y a de la merde par\[F]tout
       De la \[B&]drogue et sur\[F]tout
       \[B&]Des jeunes en ga\[F]lère
       Qui tra\[B&]fiquent la mi\[F]sère
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Gm]Mais, je dois bien avou\[Dm]er
       \[Gm]Que j'y passe toutes mes jour\[Dm]nées
       \[Gm]C'est que parfois à Pa\[Dm]ris
       C'est la \[E&]joie et la fo\[F]lie
-    \endverse
+    \end{verse*}
 
-    \beginverse*
+    \begin{verse*}
       \musicnote[french]{Accordéon}
       \musicnote[english]{Accordion}
       {\nolyrics \[B& F B& F B& F B& F]}
       {\nolyrics \[Gm Dm Gm Dm Gm Dm E& F]}
-    \endverse
+    \end{verse*}
 
     \lilypond{Rue_de_Paname_acc}
 
-    \beginverse
+    \begin{verse}
       \[B&]Mais croyez-moi bien\[F]tôt
       Les flics \[B&]auront du bou\[F]lot
       \[B&]Car tous les vaga\[F]bonds
       Parlent \[B&]de révolu\[F]tion
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Gm]Un jour toutes nos chan\[Dm]sons
       \[Gm]Ouais vous désarme\[Dm]ront
       \[Gm]Il n'y aura plus que la fo\[Dm]lie
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-    \beginverse*
+    \begin{verse*}
       La \[E&]joie, et l'anar\[F]chie \rep{2}
       La \[E&]joie \[F]dans Pa\[B&]ris \dots
-    \endverse
+    \end{verse*}
 
   \lilypond{Rue_de_Paname}
 

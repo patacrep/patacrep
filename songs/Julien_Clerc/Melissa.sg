@@ -8,61 +8,61 @@
   \gtab{A}{X02220}
   \gtab{B7}{X21202}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Mélissa, mé\[D]tisse d'I\[G]biza
     \[G]Vit tou\[D]jours dévê\[G]tue
     \[G]Dites ja\[D]mais que \[G]je vous ai dit ça
     \[G]Ou Mé\[D]lissa me \[G]tue
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     Le matin, derrière ses canisses
     Alors qu'elle est moitié-nue
     Sur les murs devant chez Mélissa
     Y'a tout plein d'inconnus
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     {\og}\[G]Descendez, ça, c'est défendu !
     \[D7]Oh ! C'est indé\[G]cent !{\fg}
     \[G]Elle crie mais bien entendu
     \[D7]Personne ne des\[G]cend
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \[D]Sous la soie de sa \[G]jupe fendue
     \[C]En zoom, en gros-\[D]plan
     \[D]Tout un tas d'in\[G]dividus
     \[C]Filment noirs et \[D]blancs
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Mélissa, métisse d'Ibiza
     A des seins tout pointus
     Dites jamais que je vous ai dit ça
     Ou Mélissa me tue
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     {\og}Descendez, ça, c'est défendu !
     Mater chez les gens !{\fg}
     Elle crie mais bien entendu
     Y'a jamais d'agent
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Elle crie, c'est du temps perdu
     Personne ne l'entend
     La police, c'est tous des vendus
     Dix ans qu'elle attend
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Mélissa, métisse d'Ibiza
     A toujours sa vertu
     Dites jamais que je vous ai dit ça
     Ou Mélissa me tue
-  \endchorus
+  \end{chorus}
 
   \begin{bridge}
     Oh ! Matez ma métisse
@@ -70,18 +70,18 @@
     \rep{2}
   \end{bridge}
 
-  \beginverse
+  \begin{verse}
     Mélissa, métisse d'Ibiza
     Vit toujours dévêtue
     Dites jamais que je vous ai dit ça
     Je vous ai jamais vu
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le matin derrière ses canisses
     Alors je vends des longues-vues
     Mais si jamais Mélissa sait ça
     Là, c'est moi qui vous tue
-  \endverse
+  \end{verse*}
 
 \endsong

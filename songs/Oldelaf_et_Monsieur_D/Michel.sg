@@ -10,60 +10,60 @@
   \gtab{Am}{X02210}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     \[C]Michel est un petit garçon
     Qui n'aime pas écouter les chansons
     Qui n'ai\[G]me pas les repas de famille
     Qui n'aime pas tenir la main des filles
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[C]Michel est un petit bonhomme
     Qui n'aime pas croquer dans une pomme
     Qui n'ai\[G]me pas regarder les étoiles
     Et surtout pas faire du bateau à voile
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Michel, y'a qu'un truc qui l'amuse
     C'est d'inventer deux ou trois mille ruses
     Pour ex\[G]ploser les petits animaux
     Les dé\[Am]gommer, il trouve \[G]ça rigolo
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Michel, le passe-temps qu'il préfère
     C'est d'en\[F]voyer les bestioles au cimetière
     Leur \[G]faire subir toutes les tortures
     Il trouve qu'les bêtes sont bêtes c'est sûr
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Michel est un petit garçon
     Qui n'aime pas regarder les avions
     Qui n'aime pas faire la course en vélo
     Même pas dormir parmi les coquelicots
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Michel est un petit bonhomme
     Qui n'aime pas faire des bulles de chewing-gum
     Qui n'aime pas les vacances à la mer
     Et surtout pas les gâteaux de grand-mère
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Michel, y'a qu'un truc qui l'éclate
     C'est d'arracher les mille pieds des mille pattes
     De faire bouillir le bocal des poissons
     Et de donner des coups d'pied aux pigeons
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Michel, le jeu dont il raffole
     C'est de chasser la modo des bestioles
     Leur faire subir toutes les tortures
     Michel n'aime pas les bêtes c'est sûr
-  \endchorus
+  \end{chorus}
 
 \endsong

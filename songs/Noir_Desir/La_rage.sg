@@ -11,45 +11,45 @@
   \gtab{G}{320003}
   \gtab{A}{X02220}
 
-  \beginverse
+  \begin{verse}
     \[Am] Dans les salons bleus de la \[C]classe supérieure, \[D]on sourit
     Tou\[Am]cher du bout des doigts les rythmes \[C]sensuels assa\[D]gis
     \[Am] Sans rien à se dire, les \[C]futilités d'us\[D]age
     Et au \[Am]dehors les chiens se frottent aux \[C]herbes s\[D]ages
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em] Sweet honey \[G]sugar
     \[Em] Où en est l'\[G]art Edg\[Em]art ?
     Je n'l'ai pas \[G]vu depuis long\[Em]temps
     Je n'ai pas l'\[G]temps, le temps, le temps
     D'attraper la \[Am]rage
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Et les filles à l'âme romantique et ensorcelée
     Les lèvres refermées sur les pages de leurs cahiers
     Ah pouvoir partir et mourir avec El Desdichado
     Et oublier les mots des salons gris
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dans les salons bleus de la classe supérieure, on sourit
     Toucher du bout des doigts les rythmes sensuels assagis
     Sans rien à se dire, les futilités d'usage
     Et au dehors les chiens se frottent aux herbes sages des jardins
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Où les filles à l'âme romantique et ensorcelée
     Les lèvres refermées sur les pages de leurs cahiers
     Ah pouvoir partir et mourir avec El Desdichado
     Et oublier les mots des salons gris
     Où la classe supérieure danse encore du bout des{\dots} \[Am] \[C] \[G]
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \[C] Sweet \[G]honey \[Am]sugar \rep{2}
-  \endverse
+  \end{verse*}
 
 \endsong

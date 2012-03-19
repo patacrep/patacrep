@@ -8,7 +8,7 @@
   \gtab{G7}{3:020100}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     \[C]Ma petite chérie
     Souviens-toi, je t'ai dit
     Après la guerre, on se \[G7]marie
@@ -16,51 +16,51 @@
     Et plein de petits poltrons
     Qui nous emmerderons
     Mais nous les \[C]aimerons
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Devant sur le trottoir
     Une belle voiture noire
     Attirera tous les regards
     Elle sera la nôtre
     Même, on en aura plein d'autres
     On plantera dans l'Midi notre étendard
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     \[F]{J't'écris} cette lettre avant l'com\[C]bat
     Pour gar\[G7]der un peu de \[C]joie
     \[F]Prépare tes valises pour de\[C]main
     Car c'est \[G7]demain que je re\[C]viens
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Samedi soir au bar
     Pour fêter notre départ
     On boira jusqu'au plus tard
     Je veux que tout le monde soit saoul
     Qu'on ne tienne plus debout
     Qu'on prenne les hiboux pour des canards
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Puis on partira vers le Sud cette fois
     Vers le soleil, ma belle
     On n' regrettera pas d'avoir laissé là
     La guerre, la cruelle \echo{allez}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Ma petite chérie
     C'est de là-haut que je t'écris
     La guerre m'a tué, fini la vie
     On f'ra pas de maison
     Encore moins de poltrons
     J'ai presque envie de te demander pardon
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'ai goûté au trépas
     D'où je n'reviendrai pas
     Pourtant tu vois, je n'aime pas ça
@@ -68,9 +68,9 @@
     Deux ou trois colombes
     Parce que les fleurs
     Je n'aime plus ça
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Surtout j'voulais te dire
     Que toi, tu respires
     Qu'il faut qu'tu penses à te marier
@@ -78,13 +78,13 @@
     Qui ne me ressembleront pas
     Mais qui seront tellement beaux
     Qu'tu n'y pens'ras pas
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     J't'écris cette lettre du paradis
     D'où je n'reviendrai pas
     Mais pense qu'un jour ma p'tite chérie
     Il faudra bien qu'on se revoie !
-  \endchorus
+  \end{chorus}
 
 \endsong

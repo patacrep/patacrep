@@ -13,15 +13,15 @@
   \gtab{E}{022100}
   \gtab{A7}{X02020}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Tous les Acadiens, toutes les Acadiennes
     Vont sauter, vont danser sur le vio\[D]lon
     \[D]Sont Américains et sont Américaines
     La faute à qui donc ?
     La faute à Napolé\[G]on
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[G]Y'a dans le sud de la Louisiane
     Et dans un coin du Cana\[D]da
     \[D7]Des tas de gars, des tas de femmes
@@ -31,9 +31,9 @@
     \[G]Ils rêvent encore de l'\[F#]A\[F]mé\[E]rique
     \[A7]Qu'avait rêvée leur grand-papa
     Qui pensait peu, qui \[D7]pensait pas
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Le coton c'est doux, c'est blanc, c'est chouette
     Pour s'mettre de la crème sur les joues
     Mais ceux qui en font la cueillette
@@ -43,9 +43,9 @@
     Pour oublier que l'Amérique
     C'est plus celle de leur grand-papa
     Ça a bien changé depuis c'temps-là
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Quand ils ont bossé six jours de suite
     Pour une poignée d'dollars dévalués
     Ils montent dans la vielle Oldsmobile
@@ -55,6 +55,6 @@
     Et pour repeupler l'Amérique
     À la manière de grand-papa
     Y'a plus qu'ça qui ne change pas
-  \endverse
+  \end{verse}
 
 \endsong

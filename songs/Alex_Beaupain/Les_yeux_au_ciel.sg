@@ -11,11 +11,11 @@
   \gtab{C7/6}{X32200}
   \gtab{C7}{X32000}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Am E7sus4 C7/6 E7sus4]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Am]Les yeux \[E7sus4]au \[C6]ciel
     Les nuages \[E7sus4]blancs dans le bleu par\[Am]fait
     Nulle trace de \[E7sus4]Dieu au \[C6]ciel
@@ -24,17 +24,17 @@
     Mes jours en hi\[E7sus4]ver passés à t'oubli\[Am]er
     Où chaque se\[E7sus4]conde
     \[C6] Est une poignée de \[Dm]terre
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G] Où chaque \[C7]minute
     \[F] Est un san\[Bm7/5&]glot
     \[E] Vois comme je \[Am]lutte
     Vois ce que je \[Dm]perds en sang et en \[Bm7/5&]eau
     En sang et en \[E7sus4]eau \[E]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je jette au ciel
     Ces galets polis que tu peignais en vert
     Mais nulle réponse du ciel
@@ -43,17 +43,17 @@
     Mes jours en enfer passés à t'enterrer
     Où chaque seconde
     Est une poignée de terre
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Où chaque minute
     Est un caveau
     Vois comme je lutte
     Vois ce que je perds en sang et en eau
     En sang et en eau
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'espère qu'au ciel
     Des diables malins coupent aux anges leurs ailes
     Pour que tu retombes du ciel
@@ -62,14 +62,14 @@
     Est une poignée de terre
     Mais chaque seconde
     Est une poignée de terre
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et chaque minute
     Est un tombeau
     Vois comme je lutte
     Vois ce que je perds en sang et en eau
     En sang et en eau
-  \endchorus
+  \end{chorus}
 
 \endsong

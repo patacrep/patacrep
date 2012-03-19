@@ -11,21 +11,21 @@
   \gtab{C}{X32010}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[Em]Oh la la \[Am]la vie en r\[D7]ose \[B7]
     \[Em]Le rose \[C]{qu'on} nous prop\[Am]ose \[B7]
     \[Em]{D'avoir} des \[Am]quantités d'ch\[D7]oses \[B7]
     \[Em]Qui donnent en\[C]vie d'autre ch\[Am]ose \[B7]
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Allez on nous fait croire
     Que le bonheur c'est d'avoir
     De l'avoir plein nos armoires
     Dérision de nous dérisoire
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Car \[Em]foule senti\[C]mentale \[Am B7]
     \[Em]On a soif d'i\[Am]déal \[D B7]
     \[Em]Attiré \[C]par les é\[Am]toiles les \[B7]voiles
@@ -34,34 +34,34 @@
     \[Em]Il faut voir \[Am]comme on nous \[D]parle \[B7]
     \[Em]Comme on nous pa\[C]rle \[Am B7]
     \nolyrics{\[Em Am D B7]}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il se dégage
     De ces cartons d'emballage
     Des gens lavés hors d'usage
     Et tristes et sans aucun avantage
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     On nous inflige
     Des désirs qui nous affligent
     On nous prend faut pas déconner dès qu'on est né
     Pour des cons alors qu'on est
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     On nous Claudia Shiffer
     On nous Paul Loup Sulizer
     Ah le mal qu'on peut nous faire
     Et qui ravagea la moukère
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Du ciel dévale
     Un désir qui nous emballe
     Pour demain, nos enfants pâles
     Un mieux, un rêve, un cheval
-  \endverse
+  \end{verse*}
 
 \endsong

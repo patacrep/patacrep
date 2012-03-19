@@ -9,38 +9,38 @@
   \gtab{A}{5:022100}
   \gtab{A7}{5:020130}
 
-  \beginchorus
+  \begin{chorus}
     \[A7]Well, shake it up, \[D]baby, now \echo{\[G]shake it up, \[A]baby}
     \[A7]Twist and \[D]shout \echo{\[G]twist and sh\[A]out}
     \[A7]Come on come on, come on, come on, \[D]baby, now \echo{\[G]come on \[A]baby}
     \[A7]Come on and work it \[D]on out \echo{\[G]work it on \[A]out}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Well, work it on out, honey \echo{work it on out}
     You know you look so good \echo{look so good}
     You know you got me goin', now \echo{got me goin'}
     Just like I knew you would \echo{like I knew you would, oh!}
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus}
 
-  \beginverse
+  \begin{verse}
     You know you're a twisty little girl \echo{twist little girl}
     You know you twist so fine \echo{twist so fine}
     Come on and twist a little closer, now \echo{twist a little closer}
     And let me know that you're mine \echo{let me know you're mine, oh!}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[A]Ah \echo{Ah Ah} Ah \echo{Ah Ah}
-  \endverse
+  \end{verse*}
 
   \musicnote{\Chorus; \Verse 2}
 
-  \beginverse*
+  \begin{verse*}
     \[A7]Well, shake it, shake it, shake it, \[D]baby, now \echo{\[G]shake it up \[A]baby} \rep{3}
     \[A]Ah \echo{Ah Ah} Ah!
-  \endverse
+  \end{verse*}
 
 \endsong

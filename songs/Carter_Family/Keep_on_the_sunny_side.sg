@@ -10,32 +10,32 @@
 
   \lilypond{Keep_on_the_sunny_side}
 
-  \beginverse
+  \begin{verse}
     There's a \[B&]dark and a \[E&]troubled side of \[B&]life
     But there's a \[B&]bright and a sunny side \[F]too
     Though you \[F]meet with the darkness and \[B&]strife
     The \[F]sunny side you also may \[B&]view
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[B&]Keep on the sunny side, \[E&]always on the \[B&]sunny side
     \[B&]Keep on the sunny side of \[F]life
     It will \[B&]help us every day, it will \[E&]brighten all the \[B&]way
     If we'll \[B&]keep \[E&]{on the} \[B&]sunny \[F]side of \[B&]life
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Though the storm and its furies rage today
     Crushing hope that we cherish so dear
     The cloud and storm will in time pass away
     And the sun again will shine bright and clear
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Let us greet with a song of hope each day
     Though the moment be cloudy or fair
     And let us trust in our Saviour always
     He'll keep us everyone in His care
-  \endverse
+  \end{verse}
 
 \endsong

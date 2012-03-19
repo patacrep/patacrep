@@ -13,23 +13,23 @@
   \gtab{F#m}{2:022000}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     Petite \[Em]Marie, je parle \[A7]{de toi}
     Parce qu'avec \[Bm]{ta petite} voix
     Tes petites ma\[Em]nies
     Tu as versé sur \[F#]ma vie
     Des milliers de \[Bm]roses
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Petite furie, je me bats pour toi
     Pour que dans dix mille ans de ça
     On se retrouve à l'abri
     Sous un ciel aussi joli
     Que des milliers de roses
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Je viens du \[G]ciel
     Et les étoiles entre \[A]elles
     Ne parlent que de \[Bm]toi
@@ -38,27 +38,27 @@
     Sur un morceau de \[F#m]bois
     De leur a\[G]mour
     Plus bleu que \[A]le ciel autour\[Bm]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Petite Marie, je t'attends transi
     Sous une tuile de ton toit
     Le vent de la nuit froide
     Me renvoie la ballade
     Que j'avais écrite pour toi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Petite furie, tu dis que la vie
     C'est une bague à chaque doigt
     Au soleil de Floride
     Mais mes poches sont vides
     Et mes yeux pleurent de froid
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Dans la \[Bm]pénombre de ta \[F#]rue
     Petite \[D]Marie m'entends-\[Em]{tu ?}
     Je n'a\[G]ttends plus que \[D]toi, pour \[A]partir
-  \endverse
+  \end{verse}
 \endsong

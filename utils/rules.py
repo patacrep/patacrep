@@ -25,8 +25,6 @@ word_dic = {
 ##: Punctuation
 "’": "'",
 "Ca ": "Ça ",
-"\\musicnote{Intro": "\\musicnote{intro",
-"\\musicnote{Outro": "\\musicnote{outro",
 "...": "{\\dots}",
 "…": "{\\dots}",
 "say: ``":"say, ``",
@@ -108,6 +106,13 @@ word_dic = {
 "X00231": "XX0231",
 #B
 "021202": "X21202",
+## LaTeX
+"beginchorus": "begin{chorus}",
+"endchorus": "end{chorus}",
+"beginverse*": "begin{verse*}",
+"beginverse": "begin{verse}",
+"endverse": "end{verse}",
+"}[by=": "}\n  [by=",
 ### end of rules
 }
 
@@ -186,12 +191,23 @@ def language_rules(string):
 
 def process_lines(lines):
    '''
-   Removes trailing punctuation and multi-spaces from lines.  Not
+   Removes trailing punctuation and multi-spaces from lines.  Note
    that it preserves whitespaces at the beginning of lines that
    correspond to indentation.
    '''
    logging.info("process_lines: handling song data line by line")
+   star = False
    for index, line in enumerate(lines):
+      if re.compile("begin{verse\*}").search(line):
+         star = True
+
+      if re.compile("end{verse\*}").search(line):
+         star = False
+
+      if star == True and re.compile("end{verse}").search(line):
+         line = line.replace("verse", "verse*")
+         star = False
+
       #remove trailing spaces and punctuation
       line = line.rstrip().rstrip(',.;').rstrip()
       #remove multi-spaces within lines

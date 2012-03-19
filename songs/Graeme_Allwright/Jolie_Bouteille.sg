@@ -10,42 +10,42 @@
   \gtab{F}{1:022100}
 
 
-  \beginchorus
+  \begin{chorus}
     \[C]Jolie bouteille, sacrée bouteille
     Veux-tu me laisser tran\[G7]quil\[C]le
     Je veux te quitter, je veux m'en aller
     Je veux recommencer ma \[G7]vie\[C]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'\[C]ai traî\[G]né dans \[F]tous les caf\[C]és
     J'ai fait la \[G7]manche bien des \[C]soirs
     Les t\[C]emps sont \[G]durs
     J'suis \[F]même pas \[C]sûr
     \[C]De me payer \[G7]{un coup} à b\[C]oire
 
-\endverse
+\end{verse}
 
-\beginverse
+\begin{verse}
   J'ai mal à la tête et les punaises me guettent
   Mais que faire dans un cas pareil
   Je demande souvent, aux passants
   De me payer une bouteille
-\endverse
+\end{verse}
 
-\beginverse
+\begin{verse}
   Dans la nuit, j'écoute la pluie
   Un journal autour des oreilles
   Mon vieux complet est tout mouillé
   Mais j'ai toujours ma bouteille
-\endverse
+\end{verse}
 
-\beginverse
+\begin{verse}
   Chacun fait ce qu'il lui plaît
   Tout l'monde veut sa place au soleil
   Mais moi j'm'en fous, j'n'ai rien du tout
   Rien qu'une jolie bouteille
-\endverse
+\end{verse}
 
 
 \endsong

@@ -11,70 +11,70 @@
   \gtab{B&}{6:X02210}
   \gtab{A}{5:X02210}
 
-  \beginverse
+  \begin{verse}
     \[C]Une chanson douce
     \[G7]Que me chantait ma mam\[C]an \[G7 C G]
     \[C]En suçant mon pouce
     \[G7]J'écoutais en m'endorm\[C]ant
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Cette chanson douce
     Je veux la chanter pour toi
     Car ta peau est douce
     Comme la mousse des bois
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[A&]La petite biche est aux abois
     Dans le bois se cache le \[G]loup
     \[B&]Hou \[A]hou \[A&]hou \[G]hou
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Mais le brave chevalier passa
     Et prit la biche dans ses bras
     La la la la
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     La petite biche
     Ce sera toi si tu veux
     Le loup on s'en fiche
     Contre lui nous serons deux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Une chanson douce
     Pour tous les petits enfants
     Une chanson douce
     Que me chantait ma maman
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Oh le joli conte que voilà
     La biche en femme se changea
     La la la la
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Et dans les bras du beau chevalier
     Belle princesse, elle est restée
     À tout jamais
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     La belle princesse
     Avait de jolis cheveux
     La même caresse
     Se lit au fond de tes yeux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Une chanson douce
     Que me chantait ma maman
     En suçant mon pouce
     J'écoutais en m'endormant
-  \endverse
+  \end{verse*}
 
 \endsong

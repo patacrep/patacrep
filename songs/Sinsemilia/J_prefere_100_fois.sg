@@ -13,7 +13,7 @@
   \gtab{C}{X32010}
 
 
-  \beginverse
+  \begin{verse}
     \[F]On a placé la \[G]France
     \[Am]Sous vidéo survei\[F]llance
     \[Em]Kidnappée, l'\[Am]insouciance
@@ -22,18 +22,18 @@
     \[Am]La peur de l'autre au \[F]quoti\[G]dien
     \[Em]On est plus sauvage que des \[Am]chiens
     \[Cm]À quoi va ressembler de\[Gm]main ?
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Gm]Si pour être en sécurité
     Il faut fer\[Dm]mer son cœur à clé
     \[Am]J'préfère cent \[G]fois me faire plom\[F]ber
     Comme un oi\[C]seau en liber\[Am]té
     Plutôt que \[G]de vivre plan\[F]qué
     Comme, comme, comme le ca\[G]fard sous un é\[Am]vier
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On a plongé la France
     Dans la bêtise et l'ignorance
     Étouffée, l'intelligence
@@ -42,18 +42,18 @@
     Nos idées sont téléguidées
     Même les enfants sont abrutis
     Qui va censurer la connerie ?
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Si pour être quelqu'un de censé
     Il faut mettre sa tête aux normes
     J'préfère cent fois être cinglé
     Comme la tempête, le vent, la marée
     Plutôt que d'être sans intérêt
     Comme, comme, comme un ciel triste et tempéré
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On a connu en France
     L'insurrection, la résistance
     Reste aujourd'hui la bonne conscience
@@ -66,19 +66,19 @@
     Les braves gens trouvent ça scandaleux
     C'est pourtant la règle du jeu
     Qui sème la haine, récolte le feu
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Si pour être civilisé
     Il faut mettre sa vie en cage
     J'préfère cent fois être un sauvage
     Au risque d'attraper la rage
     Que d'être sage comme une image
     Je, je, je n'veux pas jaunir avant l'âge
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     \textnote[english]{spoken}
     \textnote[french]{parlé}
     Alors écoute ça !
@@ -86,20 +86,20 @@
     Matériels uniquement, sont les progrès
     Les richesses humaines en bourse ne sont pas cotées
     Méprisées, gaspillées depuis tant d'années
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     L'exemple Américain partout s'est imposé
     Mais sur la route du Paradis le diable peut-il nous guider ?
     Le monde qu'ils construisent n'sort pas des studios Disney
     \emph{Apocalypse Now} serait plus approprié
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Espérer, me semble de plus en plus dur
     Tant j'ai l'impression qu'on fonce direct dans le mur
     Pour dire vrai, et pour conclure
     J'ai vraiment peur pour notre futur {\ldots}
-  \endverse
+  \end{verse*}
 
 \endsong

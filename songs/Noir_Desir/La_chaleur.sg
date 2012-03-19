@@ -8,56 +8,56 @@
   \gtab{G}{320003}
   \gtab{A}{X02220}
 
-  \beginverse
+  \begin{verse}
     \[E]C'est le soir et le vent s'est levé \[G] \[A]
     \[E]Dans les ruelles ou la poussière vole \[G] \[A]
     \[E]Ah, c'est l'heure où vont danser \[G] \[A]
     \[E]Ceux que la chaleur ne peut laisser \[G] \[A]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     C'est un \[A]endroit où l'on voit courir dans les veines\[G]{\dots} cette \[E]chaleur
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[E]Et Marie aiguise son regard \[G] \[A]
       \[E]Elle a vu ce qui vient de nulle part \[G] \[A]
       \[E]Elle a crispé la main sur la lame \[G] \[A]
       \[E]Attention à la blessure madame \[G] \[A]
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       Oh mais \[A]on n'sent pas la douleur, sinon dans les cœurs \[G]{\dots} cette \[E]chaleur
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[E]C'est ce démon dans son \[G]sang \[A]à \[E]elle \[G] \[A]
       \[E]Qui a rongé lente\[G]ment \[A]ses \[E]ailes \[G] \[A]
       \[E]Ah, c'est dans le \[G]ven\[A]tre \[E]là \[G] \[A]
       \[E]Marie sait ce qui ar\[G]ri\[A]ve\[E]ra \[G] \[A]
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       Dans cet \[A]endroit où on laisse aller \[G] {\dots} elle se \[E]lève
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       Et prend son arme si blanche
       C'est pour
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[E]Crever le corps de ce \[G]fils \[A]de \[E]pute
       \[E]Si blanc pendant \[G]{qu'il} \[A]en \[E]est
       \[E]Encore temps, allez \[G]res\[A]pire \[E]bien
       \[E]Avance \[G]en\[A]co\[E]re
       \[E]Mais avance
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       Il n'sen\[A]tira pas la douleur ; peut être la peur \[G]{\dots} cette \[E]chaleur
-    \endchorus
+    \end{chorus}
 
     \begin{bridge}
       Sur les draps trop blancs

@@ -11,7 +11,7 @@
 
   \lilypond{Etoiles_filantes-1}
 
-  \beginverse
+  \begin{verse}
     Si je m'\[Am]arrête un instant
     Pour te \[G]parler de ma vie
     Juste comme \[Em]ça tranquillement
@@ -20,9 +20,9 @@
     Bien gravés dans ma mémoire
     De cette époque où vieillir
     Était encore bien illusoire
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Quand j'agaçais les p'tites filles
     Pas loin des balançoires
     Et que mon sac de billes
@@ -31,19 +31,19 @@
     À construire des igloos
     Et rentrer les pieds g'lés
     Juste à temps pour Passe-Partout
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Mais au \[Am]bout du ch'min dis-moi c'qui va res\[G]ter
     De la p'\[Em]tite école et d'la cour de ré\[F]cré ?
     Quand les av\[Am]ions en papier ne partent plus au \[G]vent
     On se \[Em]dit que l'bon temps passe finale\[F]ment \dots comme une étoile fi\[Am]lante
-  \endchorus
+  \end{chorus}
 
 
   \lilypond{Etoiles_filantes-2}
 
-  \beginverse
+  \begin{verse}
     Si je m'arrête un instant
     Pour te parler de la vie
     Je constate que bien souvent
@@ -52,9 +52,9 @@
     S'évanouissent ou se refoulent
     Dans cette réalité crue
     Qui nous embarque dans le moule
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     De la trentaine, la bedaine
     Les morveux, l'hypothèque
     Les bonheurs et les peines
@@ -63,16 +63,16 @@
     En arracher, s'en sortir
     Et espérer être heureux
     Un peu avant de mourir
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Mais au bout du ch'min dis-moi c'qui va rester
     De notre p'tit passage dans ce monde effréné ?
     Après avoir existé pour gagner du temps
     On s'dira que l'on était finalement \dots que des étoiles filantes
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Si je m'arrête un instant
     Pour te parler de la vie
     Juste comme ça tranquillement
@@ -81,9 +81,9 @@
     Et que j'ai pu l'goût de m'en faire
     Parce que t'sais voir trop loin
     C'pas mieux que r'garder en arrière
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Malgré les vieilles amertumes
     Et les amours qui passent
     Les chums qu'on perd dans' brume
@@ -92,13 +92,13 @@
     Comme les printemps reviennent
     Dans une bouffée d'air frais
     Qui apaisent les cœurs en peine
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Ça fait que si un soir t'as envie de rester
     Avec moi, la nuit est douce on peut marcher
     Et même si on sait ben que tout dure rien qu'un temps
     J'aimerais ça que tu sois pour un moment \dots mon étoile filante
-  \endchorus
+  \end{chorus}
 
 \endsong

@@ -9,7 +9,7 @@
   \gtab{Em}{022000}
   \gtab{Am}{X02210}
 
-  \beginverse
+  \begin{verse}
     \[C]Lord I want to be a Christian
     In my heart, in my heart
     Lord I \[Em]want to be a \[Am]Christian
@@ -17,9 +17,9 @@
     \[F]In my heart, in my \[C]heart
     Lord I \[Em]want to be a \[Am]Christian
     \[F]In my \[C]heart, \[G]in my \[C]heart
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Lord I want to be more lovin'
     In my heart, in my heart
     Lord I want to be more lovin'
@@ -27,9 +27,9 @@
     In my heart, in my heart
     Lord I want to be more lovin'
     In my heart, in my heart
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Lord I want to be more holy
     In my heart, in my heart
     Lord I want to be more holy
@@ -37,9 +37,9 @@
     In my heart, in my heart
     Lord I want to be more holy
     In my heart, in my heart
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Lord I want to be like Jesus
     In my heart, in my heart
     Lord I want to be like Jesus
@@ -47,6 +47,6 @@
     In my heart, in my heart
     Lord I want to be like Jesus
     In my heart, in my heart
-  \endverse
+  \end{verse}
 
 \endsong

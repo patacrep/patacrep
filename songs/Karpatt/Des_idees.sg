@@ -10,54 +10,54 @@
   \gtab{A&}{4:022100}
   \gtab{G}{3:022100}
 
-  \beginverse
+  \begin{verse}
     Des idées \[Am]en tranches dans \[E7]un magasin
     Des idées \[Am]qui flanchent, d'au\[E7]tres qui vont bien
     Des idées \[Am]offertes au \[E7]premier venu
     Des idées \[Am]vénales, des idées \[E7]velues
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Des idées qui pleuvent sous un parapluie
     Des idées qui brillent quand vient la nuit
     Des idées qu'on plisse pour pas les froisser
     Des idées factices, des idées fâchées
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Des idées d'\[Cm]génie qu'on n'\[A&]{a pas} sou\[G]vent
     Des idées \[Cm]lointaines qui vo\[A&]yagent \[G]tout le temps
     Des idées \[Cm]dociles tou\[A&]jours bienve\[G]nues
     Des idées \[Cm]qui plaisent, des idées \[A&]per\[G]dues
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Des idées à \echo{dés à} coudre avec du fil de soie \echo{de quoi ?}
     Des idées en \echo{des envers} des endroits qu'on garde à l'endroit
     Des idées reçues \echo{des reçus} en paquet cadeau
     Des idées soudaines \echo{daines, daines, daines}
     Des coups d'épée dans l'eau
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Des idées ratées, desiderata
     Des idées rapides qu'on n'arrêtent pas
     Des idées trop con et pas con du tout
     Des idées bidons, des idées d'bisous
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Des idées minimes qui vont crescendo
     Des id'erronées, d'autres en domino
     Des idées pour rire ou pour faire marrer
     Des idées d'emmerdes, des idées d'mariés
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Des idéogrammes pour faire un kilo
     Des idées légères qui pèsent leurs mots
     Des idées faciles, petits bouts d'ficelle
     Des idées futiles, des idées fidèles
-  \endverse
+  \end{verse*}
 
 \endsong

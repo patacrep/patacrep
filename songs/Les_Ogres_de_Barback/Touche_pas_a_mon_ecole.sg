@@ -9,31 +9,31 @@
   \gtab{E&}{6:X02220}
   \gtab{A&}{4:022100}
 
-  \beginverse
+  \begin{verse}
     Petite \[Fm]sœur, il est quelle heure ? Je t'é\[C]coute
     Il est mi\[Fm]di, c'est l'heure du casse-\[C]croute
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'ai une en\[Fm]vie irrésistible
     De man\[E&]ger des araignées
     Des puces, des \[A&]poux bien épicés
     Une hor\[E&]de de scarabées
     Avec du \[Fm]beurre
     Enfin \[C]bref, des ho\[Fm]rreurs !
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Fm]Mais s'il continue à tou\[E&]cher à mon école
     \[C]Le président : à la ca\[Fm]sserole !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Petite sœur, il est quelle heure ? Dis-le moi vite
     Il est midi allume le feu sous la marmite
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'ai cuisiné un fricassé
     De bras-cassés dorés à souhait
     Un plat de trucs dégoulinants
@@ -42,15 +42,15 @@
     Des gros gugus un peu cramés
     Grouillants, bouillants
     Enfin bref, dégoûtant !
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     Quelle heure est-il ? J'ai le ventre qui m'appelle
     Il est midi et j'ai fait chauffer les gamelles
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     On va goûter un velouté
     De vieux ministres avinés
     Et relevé à l'Élysée
@@ -59,30 +59,30 @@
     Un patron qui pue les pieds
     Et le fromage
     Enfin bref, bon courage !
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Nous on veut pas être tassés au fond des classes
     Quelle heure est-il ? J'ai le ventre qui grimace
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Qui gargouille, qui crie fort
     Qui fait la grève et qui se tord
     J'ai l'estomac qui crie famine !
     Mon école qui tombe en ruine !
     Mes entrailles qui me tiraillent
     Et mon pays qui déraille
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     On est des marmots qu'ont les crocs
     Des lardons qui ont les ch'tons
     Des gamins dans le pétrin
     Des mouflets très inquiets
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Et c'est la fin des haricots
     Et c'est la fin des haricots
     C'est la fin des haricots
@@ -92,6 +92,6 @@
     J'en ai gros sur la patate
     Achète un costard cravate
     C'est la fin des haricots \rep{7}
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -10,78 +10,78 @@
   \gtab{C}{X32010}
   \gtab{Bm}{2:X02210}
 
-  \beginverse
+  \begin{verse}
     On n'\[Em]avait jamais su de quel pays qu'elle v'nait
     Ni même l'âge qu'elle avait ou comment qu'\[Am]elle s'appelait
     Mais tout l'\[D]monde la surnommait {\og}La \[C]Reine{\fg}
     Dans l'bout d'la rue Sainte-\[D]Catherine \[Bm]et d'la \[Em]Main
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Elle s'promenait dans l'quartier depuis au moins dix ans
     Côtoyant les putains et les itinérants
     Mais quand on entendait son accent
     On s'doutait qu'elle v'nait pas du Lac St-Jean
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Chaque \[D]soir elle prenait sous son \[Em]aile
     Les clo\[C]chards et les junkies du \[G]fond de ruelles
     Comme un \[Am]ange-gardien venu du \[Em]ciel
     Qui serait atter\[D]ri dans \[Bm]les pou\[Em]belles
-  \endchorus
+  \end{chorus}
 
 
   \lilypond{La_reine}
 
-  \beginverse
+  \begin{verse}
     La nuit avec son pick-up elle faisait sa tournée
     Distribuant des toasts et un peu de café
     Pour donner un p'tit brin de chaleur
     À ceux qui ont l'hiver dret dans le cœur
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Pour les écorchés vifs elle inspirait la paix
     Sa seule présence était comme un baume sur leurs plaies
     Son regard était une lanterne
     Pour les naufragés des sombres tavernes
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Selon c'que dit Paulo un chauffeur de taxi
     Elle aurait fui la guerre pour immigrer ici
     Y'a de ça une couple de décennies
     Quand ils ont tué son p'tit gars pis son mari
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et c'qu'elle aurait trouvé pour s'accrocher à la vie
     C'est d's'occuper des pauvres et des plus démunis
     Au lieu d'vivre triste éternellement
     Elle avait maintenant des centaines d'enfants
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Ça s'est passé hier dans nuit du douze au treize
     En sortant d'son pick-up l'a eu comme un malaise
     Près d'chez elle, au métro du Collège
     On l'a retrouvée morte dans un banc d'neige
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     On n'aura jamais su de quel pays qu'elle v'nait
     Ni même l'âge qu'elle avait ou comment qu'elle s'appelait
     Mais c'matin les gens pleuraient {\og}La Reine{\fg}
     Dans l'bout d'la rue Sainte-Catherine et d'la Main
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Mais au moins elle a repris ses ailes
     Pour partir vers un monde un peu moins cruel
     Et même si elle croyait pas en Dieu
     C'est sûr qu'elle vole quelq'part où l'ciel est bleu
-  \endchorus
+  \end{chorus}
 
 \endsong
 

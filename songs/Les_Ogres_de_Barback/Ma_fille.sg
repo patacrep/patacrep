@@ -10,33 +10,33 @@
   \gtab{D}{5:X02220}
   \gtab{C}{3:X02220}
 
-  \beginverse
+  \begin{verse}
     J'ai \[Em]creusé la terre
     J'ai découpé la lune
     Puis gratté le soleil
     En marchant sur l'espace
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Sais-\[G]tu, ma fille
     Je n'y ai rien \[D]trouvé de \[Em]mieux !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'ai \[Em]foulé les poubelles
     Trempé dans les égouts
     J'ai fait les catacombes
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Pareilles aux \[C]quatre \[D]bouts
     De tous les \[C]coins de \[D]terre
     Des plaines \[C]et du dé\[D]sert
     Des mon\[C]tagnes ou des \[D]mers
     Tout près des \[Em]continents
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     J'y ai \[Em]vu, ma fille
     L'été et \[D]le prin\[Em]temps
     L'automne et puis l'hiver
@@ -45,14 +45,14 @@
     Un vol \[D]de cormo\[Em]rans
     Des millions éphémères
     Des gouttes d'eau, du vent
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Vois-tu, ma fille
     Je n'ai rien vu de mieux !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Y'a des âmes imbéciles
     Qui se battent et pour peu
     Et d'autres plus tranquilles
@@ -61,37 +61,37 @@
     D'une épice qui grille
     J'ai goûté la saveur
     Lorsque le feu pétille
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Lorsque le feu divin
     Sous un ciel qui brille
     De mille étoiles filantes
     D'une main dans ma main
     Pour une nuit pétante
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Amène prétentieux
     L'envie d'une autre vie
     La volonté discrète
     De se poser enfin
     D'oublier les conquêtes
     Et fuir le chemin
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Je te le dis, ma fille
     Je n'y ai rien fait de mieux !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Et je suis reparti
     Continuer, sans arrêt
     À fouiller dans les trains
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     À retourner la terre
     À perdre des matins
     À boire dans tous les verres
@@ -102,9 +102,9 @@
     Je me suis retrouvé
     De situations drôles
     À d'autres plus violentes
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Prince et puis poète
     Clochard et sans issue
     Paumé, analphabète
@@ -113,15 +113,15 @@
     À des gens plus petits
     Puis dévoiler l'horreur
     D'une vie malhonnête
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Entends-tu, ma fille
     Je n'ai rien dit de mieux !
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     J'ai \[D]frôlé de mes doigts
     Les peaux les plus sen\[Em]suelles
     J'ai \[D]tenté au hasard
@@ -133,26 +133,26 @@
     Qu'on vive pour le cul
     Dans un décor de miel
     Le savoir dans la soie
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le luxe et l'importance
     Derrière chacun pour soi
     Cache encore la souffrance
     Je les ai saluées
     Et là encore j'ai fui
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Je me suis réfugié
     Enfermé pour de bon
     Des pensées, des idées
     Délivré des leçons
     Le savoir au parfait
     La culture à foison
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     J'en ai veillé des nuits
     À passer en revue
     Les couleurs de ma vie
@@ -163,9 +163,9 @@
     J'ai sur le bout des doigts
     La culture et les lois
     Et cette main qui tangue
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     À coucher au papier
     Tous ces mots inutiles
     Où je parle de moi
@@ -174,12 +174,12 @@
     Tous ces mots inutiles
     Où je parle de moi
     Pour mieux parler de toi
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Où je parle de moi
     Pour mieux parler de toi
-  \endchorus
+  \end{chorus}
 
 \endsong
 

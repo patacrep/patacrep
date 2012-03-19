@@ -19,45 +19,45 @@
   \gtab*{D&}{9:022100}
 
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{\Intro: | \[E\flt] \[E] \[F] | \[E\flt*] \[E*] \[F*] | } \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[C]After all the \[B&]jacks are in their \[F**]boxes
     \[C]And the clowns have \[B&]all gone to \[F**]bed
     \[C]You can hear happiness \[B&]staggering on \[F**]down the street
     \[G]Footsteps \[B&*]dressed in \[E&]red\[E]\[F]
     \[G]And the \[B&*]wind whispers \[E&]Mary\[E]\[F] \[E&*]\[E*]\[F*]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     A broom is drearily sweeping
     Up the broken pieces of yesterday's life
     Somewhere a queen is weeping
     Somewhere a king has no wife
     And the wind cries Mary
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \nolyrics{ | \[F] \[E&] | \[B&*] \[A&] | } \rep{3}
     \nolyrics{ | \[G] | \[B&*] | \[D&] | \[F] | }
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     The traffic lights turn blue tomorrow
     And shine the emptiness down on my bed
     The tiny island sags downstream
     Cause the life that lived is dead
     And the wind screams Mary
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Will the wind ever remember
     The names it has blown in the past
     With its crutch, its old age, and its wisdom
     It whispers no, this will be the last
     And the wind cries Mary
-  \endverse
+  \end{verse}
 
 \endsong

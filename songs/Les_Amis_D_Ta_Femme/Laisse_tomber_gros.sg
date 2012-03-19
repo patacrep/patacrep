@@ -7,14 +7,14 @@
   \gtab{Bm}{7:022000}
   \gtab{Am}{5:X02210}
 
-  \beginverse*
+  \begin{verse*}
     \textnote{\Intro}
     De l'ineffable propension qu'ont les Lorrains
     À oublier le prénom de leur interlocuteur
     Exemple : comment qu'c'est euh \dots gros ?
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Bm]{J'étais} tranquille, j'étais peinard
     J'picolais une bibine
     Le catch est entré dans le \[A]bar
@@ -22,25 +22,25 @@
     Puis il s'est approché de moi
     Et m'a regardé comme ça
     Ta gonzesse worcla, c'est d'la gerse
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'parie qu'c'est une reuleu\[A]leu
     Elle a une vrai tête de beu\[Bm]beu
     Quoi qu'si elle avait pas d'lou\[A]cave
     J'la bouillaverais bien dans la \[Bm]cave
     Et je te la tchour pète-toi la tch\[A]ave
     Moi j'lui ai dit : {\og}Eh laisse tomber \[Bm]gros !{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Il m'a filé une tor\[A]gniole
     J'lui ai mis un coup d'ch\[Bm]naps
     Il a sorti sont La\[A]guiole
     J'lui ai filé ma \[Bm]mosse
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'étais tranquille, j'étais peinard
     Je réparais mon bas-moteur
     Le catch est entré comme une fats
@@ -49,25 +49,25 @@
     Et m'a regardé comme ça
     T'as un carbu Lulu
     Y pue pas du cul
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'parie qu'c'est un Dell Orto
     Un carbu comme ça c'est michto
     Une pipe de 15 après tu chables
     Mais bon si tu t'crounch c'est la latch
     Ôte-toi d'là, fais pas la fatche
     Moi j'lui ai dit : {\og}Eh laisse tomber gros !{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Il m'a traité d'tapette
     J'lui ai dit alors là mon cul
     Il a sorti sa serpette
     J'lui ai filé mon carbu
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'étais tranquille, j'étais peinard
     J'm'amusais à planter mon shlass
     La fats est entrée dans le bar
@@ -75,25 +75,25 @@
     Il m'a tapé dans la panse
     Et m'a regardé d'un air dense
     Comment qu'c'est gros, ça get's mall ?
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'suis marave par les chtars
     Si tu m'as boucave t'es tricard
     On va se chtaus dehors l'henry
     À grands coups de kit Malossi
     On s'retrouvera à Charles 3
     Moi j'lui ai dit : {\og}Eh laisse tomber gros !{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     M'a dit enculé ta mère
     J'lui ai dit : {\og}Tu traites pas ma mère{\fg}
     Il m'a dit : {\og}Qu'est-ce qu'y a, t'as les pounchs ?{\fg}
     J'lui dit : {\og}Non j'ai pas les pounchs{\fg}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Arcote la mort et y en a pas
     Viens la Sandra on s'fout la tchave
     Monte derrière moi j'ai un bicul
@@ -102,9 +102,9 @@
     Où qu'c'est qu't'en es ? File-moi une chmère !
     Ici c'est rempli d'têtes de cons
     Va y avoir d'la chtauss dans le caillon
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \textnote{\Outro}
     Eh les mecs j'ai un scooter
     Oh la latche et attends c'est un MBK
@@ -113,6 +113,6 @@
     Et les rappeurs, c'est des PD
     Bon faut qu'j'y aille Joe
     Et t'es pas d'chez toi là
-  \endverse
+  \end{verse*}
 
 \endsong

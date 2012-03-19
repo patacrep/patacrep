@@ -10,11 +10,11 @@
   \gtab{G#}{4:022100}
 
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : {\nolyrics \[C{\shrp}m]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Chaque ma\[C#m]tin, ma valise
     A\[C#m]vale sa nourriture
     Mes toi\[F#m]lettes sont exquises
@@ -24,10 +24,10 @@
     En trois \[F#m]secondes elle broute
     Pis \[F#m]on peut reprendre la route
     {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       Elle a\[C#m]vale sans problème
       L'a\[C#m]rête de mon peigne
       C'est \[F#m]vous dire s'il est fin
@@ -37,10 +37,10 @@
       Mon ra\[F#m]soir, mes haltères
       Tout \[F#m]ça la désaltère
       {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     Tout ce que je \[A]mets sont les mets
     Dont \[G#]elle aime le fumet
     En trois \[C#m]secondes, elle le lape
@@ -52,10 +52,10 @@
     En trois \[A]coups de cuiller à pot
     Y res\[G#]terait plus que mon chapeau
     {\nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]}
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Ma va\[C#m]lise adorant
       Mon \[C#m]linge malodorant
       Je me \[F#m]dis pour moi-même
@@ -65,9 +65,9 @@
       Et je \[F#m]pleure d'émotion
       M'en \[F#m]vais en reniflant
       {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F#m]}
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       Tout ce que je \[A]mets sont les mets
       Dont \[G#]elle aime le fumet
       En trois \[C#m]secondes, elle le happe
@@ -79,9 +79,9 @@
       En trois \[A]coups de cuiller à pot
       Y res\[G#]terait plus qu'mon chapeau
       {\nolyrics \[A] \[G{\shrp}] \[A] \[G{\shrp}] \[A] \[B]}
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       Par ha\[C#m]sard, ma valise
       A \[C#m]croisé sa jumelle
       Quelle ne \[F#m]fut ma surprise
@@ -91,9 +91,9 @@
       Un tu\[F#m]tu, un cache-cœur
       Et \[F#m]une petite ombrelle
       {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Les bon\[C#m]nets, les baleines
       D'u\[C#m]ne petite gaine
       Et des \[F#m]mules à pompon
@@ -103,9 +103,9 @@
       À mon \[F#m]âge, c'est bien triste
       Ça \[F#m]{m'a} foutu la gaule
       {\nolyrics \[A] \[G{\shrp}] \[C{\shrp}m] \[F{\shrp}m]}
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       Après \[A]quoi, sapristi
       J'ai \[G#]bu un coup de gnôle
       Je \[C#m]me suis travesti
@@ -116,10 +116,10 @@
       Que Pa\[F#m]ris est une blonde
       Affu\[A]blé d'une jupette
       Et \[G#]levant la gambette
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     Jus\[A]{qu'au} petit matin
     J'ai con\[G#]tinué la fête
     Jus\[A]{qu'au} petit matin
@@ -127,6 +127,6 @@
     Jus\[A]{qu'au} petit matin
     J'ai con\[G#]tinué la fête
     {\nolyrics \[A] \[G#]} (ad lib)
-  \endchorus
+  \end{chorus}
 
 \endsong

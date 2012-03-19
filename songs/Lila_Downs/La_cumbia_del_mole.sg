@@ -9,21 +9,21 @@
   \gtab{D}{5:X02220}
   \gtab{Am}{5:022000}
 
-  \beginverse
+  \begin{verse}
     Cuentan que en Oa\[Em]xaca, se \[B]toma el mezcal con \[Em]cafe \rep{2}
     Dicen que la \[D]hierba, le cura la mala \[Em]fe \rep{2}
     \[Am]{A mi} me gusta el \[Em]mole, mi so\[B]ledad me va a mo\[Em]ler \rep{2}
-  \endverse
+  \end{verse}
 
   \lilypond{La_cumbia_del_mole}
 
-  \beginchorus
+  \begin{chorus}
     Mi que\[Em]rida sole\[B]dad, me va a guisar un mo\[Em]lito
     Por el \[Em]cielo de Monter\[B]rey, de noche sueño con\[Em]tigo
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \[Em]{Se muele} con cacahuate
     Se muele también el pan
     Se muele al almendra seca
@@ -33,9 +33,9 @@
     Se muele pimienta y clavo
     Se muele la mole entera
     Se muele \dots
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Se muele ese chocolate
     Se muele también el pan
     Se muele al almendra seca
@@ -44,12 +44,12 @@
     Se muele la canela
     Se muele pimienta y clavo
     Se muele la mole entera \rep{3}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Cuentan que en Oaxaca con agua es el chocolate \rep{2}
     Dicen que en la fiesta todito se ha de quemar \rep{2}
     Para que haga su manda por la pasión de soledad \rep{2}
-  \endverse
+  \end{verse}
 
 \endsong

@@ -12,7 +12,7 @@
   \gtab{C}{X32010}
 
 
-  \beginverse
+  \begin{verse}
     Eh bour\[Dm]geois entends \[E]tu ?
     \[Dm]Passer dans ta \[E]rue
     Une pa\[Dm]rade d'espé\[E]rance
@@ -21,16 +21,16 @@
     Le \[Dm]cap sur la bo\[E]hème
     Et \[Dm]vogue vogue nos chi\[E]mères
     Le \[Dm]cap sur leurs fre\[E]daines
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Y'a des ci\[G]gales dans la fourmi\[Am]lière
     Et vous n'pou\[F]vez rien y \[C]faire
     Y'a des ci\[G]gales dans la fourmi\[Am]lière
     Et c'est pour \[G]ça \[F]que j'es\[E]père
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Eh bourgeois, entends-tu ?
     Passer dans ta rue
     Une parade de scandale
@@ -39,9 +39,9 @@
     Et ça fait boum boum dans les oreilles
     À vot' bon cœur mesdames et messieurs
     À vot' bon cœur ou pas, c'est pareil
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Eh bourgeois, entends-tu ?
     Passer dans ta rue
     Une parade de fortune
@@ -50,9 +50,9 @@
     À vivre comme ils respirent
     Quitte à crever la dalle
     Ils ont tant de choses à dire
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Eh bourgeois, entends-tu ?
     Passer dans ta rue
     Une parade de ville en ville
@@ -61,6 +61,6 @@
     Pour mieux parler de l'amour
     Pendant que le monde se demande
     Si demain il fera jour
-  \endverse
+  \end{verse}
 
 \endsong

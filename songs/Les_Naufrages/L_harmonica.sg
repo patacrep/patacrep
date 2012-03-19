@@ -11,69 +11,69 @@
 
   \lilypond{L_harmonica}
 
-  \beginverse
+  \begin{verse}
     \[Am]Dans mon sac de matelot
     J'ai mis tout c'\[G]que j'avais de plus \[Am]beau
     Souvenirs de tous pays
     Bouteille de \[G]rhum et de whi\[Am]sky
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Une \[C]montre qui ne \[G]marche pas
     Ma \[C]pipe et mon ta\[G]bac
     J'y ai \[Am]mis l'harmonica
     Qu'j'avais ache\[G]té à Mala\[Am]ga
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Avec \[Am]mon harmonica
     Je souffle, la voi\[G]là
     L'harmonica, l'harmonica
     Pour la \[Am]gigue et la polka
     Écoutez-ça les \[G]gars
     Faut faire d'l'harmoni\[Am]ca
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il m'accompagne partout
     Une chanson prête à chaque trou
     Il sait des tas de refrains
     Dont les plus beaux sont de marins
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     À bord, pendant les quarts à bord
     Il fait rêver les gars
     Il leur parle de la terre
     De la mer et de leurs amours
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Du temps où j'étais pas manchot
     Je faisais l'amour dans les pays chauds
     À une sombre beauté
     Qui ne voulait pas se laisser tenter
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Sa peau et son corps étaient noirs
     Mais elle ne voulait rien savoir
     J'lui dit qu'j'étais matelot
     Elle a crié : {\og}Je suis perdue !{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Celui qu'a composé cette chanson
     C'est Henri Jacques, matelot de pont
     Si elle est à votre goût les gars
     Faut lui payer un coup
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Avec sa gueule de trafiquant
     Faut lui rincer les dents
     Offrez-lui un pot de tafia
     Je vous jure bien qu'il le boira
-  \endverse
+  \end{verse*}
 
 \endsong

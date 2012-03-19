@@ -8,15 +8,15 @@
   \gtab{Dm}{5:X02210}
   \gtab{F}{1:022100}
 
-  \beginchorus
+  \begin{chorus}
     \[Gm]Youssef, I self, \[Dm]everybody sait faire
     \[F]{N'importe} quoi d'ses dix \[Gm]doigts \echo{oh, oh, oh}
     \[Gm]Youssef, I self, \[Dm]everybody sait faire
     \[F]{N'importe} \[Gm]quoi \echo{ah, ah, ah }
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     {\og}Comment I love you ?
     --- Very good and you ?
     --- I'm very happy d'vous voir
@@ -31,9 +31,9 @@
     --- Ou grec :
     Salade, tomates, oignons
     La sauce c'est vous qui choisissez !{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et quand je lui ai dit
     Tu es le soleil de la plage \echo{en anglais}
     {\og}Sun of the beach !{\fg}
@@ -44,9 +44,9 @@
     J'ai quand même, j'ai quand même réussi
     À lui glisser mon prénom
     \echo{Comment j'm'appelle !}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mais dis donc toi là-bas
     Where are you going comme ça ?
     I don't know where I go
@@ -60,18 +60,18 @@
     Qui ont fait le tour d'eux-mêmes
     Ils ont fait le tour du monde
     \echo{Y restent chez eux}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Moi je rêve de boire ma Croatie
     Debout sur les Balkans, quand
     Personne n'a honte de son voisin
     On n'emménage pas loin, con !
     Personne n'a honte de son voisin
     Tu sais c'est qui l'prochain ?
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     En un seul coup de Nasdrovia
     On se retrouve à Warshawa !
     Ou dans les bras, de Bratislava
@@ -81,9 +81,9 @@
     \echo{Non, non, non !}
     Trois bouteilles de Husky
     Et j'aboie toute la nuit !
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Oh c'est beau, c'est beau, c'est beau
     Mais c'est pas Baudelaire
     Qui nous a ramené les vers
@@ -94,6 +94,6 @@
     On mange à tous les champignons !
     Les Picons et Bourbons à la menthe ?
     C'est ça l'nom d'ton groupe, non mais tu plaisantes ?
-  \endverse
+  \end{verse*}
 
 \endsong

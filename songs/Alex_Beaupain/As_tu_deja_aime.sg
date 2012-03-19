@@ -14,7 +14,7 @@
   \gtab{Dm9}{XX3210}
 
 
-  \beginverse
+  \begin{verse}
     As-tu déjà aim\[C]é
     Pour la beauté du g\[G]este ?
     As-tu déjà croqu\[C]é
@@ -22,9 +22,9 @@
     Pour la saveur du fr\[C]uit
     Sa douceur et son z\[G]este
     T'es-tu perdu souv\[F]ent ?\[C]
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Oui, j'ai déjà aimé
     Pour la beauté du geste
     Mais la pomme était dure
@@ -32,9 +32,9 @@
     Ces passions immatures
     Ces amours indigestes
     M'ont écœuré souvent
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Les amours qui d\[E]urent
     Font d\[E7]es amants exs\[Am]angues\[Am9]
     Et \[Am]leurs baisers trop m\[Dm]ûrs\[Dm9]
@@ -43,9 +43,9 @@
     Ont \[E7]de futiles f\[Am]ièvres\[Am9]
     Et l\[G]eurs baisers trop v\[C]erts
     Nous \[E]écorchent les \[Gsus4]lèvres
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Car à vouloir s'aimer
     Pour la beauté du geste
     Le ver dans la pomme
@@ -53,9 +53,9 @@
     Il nous ronge le cœur
     Le cerveau et le reste
     Nous vide lentement
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et lorsqu'on ose aimer
     Pour la beauté du geste
     Ce ver dans la pomme
@@ -63,9 +63,9 @@
     Nous embaume le cœur
     Le cerveau et nous laisse
     Son parfum dedans
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Les amours passagères
     Font de futiles efforts
     Leurs caresses éphémères
@@ -74,6 +74,6 @@
     Font les amants moins beaux
     Leurs caresses à l'usure
     Ont raison de nos peaux
-  \endchorus
+  \end{chorus}
 
 \endsong

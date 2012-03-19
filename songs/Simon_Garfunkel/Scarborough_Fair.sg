@@ -9,14 +9,14 @@
   \gtab{C}{X32010}
   \gtab{G}{320003}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Are you going to \[Em]Scarborough \[Am]Fair
     \[C] Parsley, \[Am]sage, rose\[C]ma\[D]ry and \[Am]thyme
     Remember \[C]me to one who lives \[G]there
     \[Am]She once \[G]was a \[Am]true love \[Em]of \[Am]mine
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Tell her to make me a cambric shirt
     \echo{On the side of a hill in the deep forest green}
     Parsley, sage, rosemary and thyme
@@ -25,9 +25,9 @@
     \echo{Blankets and bedclothes the child of the mountain}
     Then she'll be a true love of mine
     \echo{Sleeps unaware of the clarion call}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tell her to find me an acre of land
     \echo{On the side of a hill a sprinkling of leaves}
     Parsley, sage, rosemary and thyme
@@ -35,9 +35,9 @@
     Between the salt water and the sea strands
     \echo{A soldier cleans and polishes a gun}
     Then she'll be a true love of mine
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tell her to reap it with a sickle of leather
     \echo{War bellows blazing in scarlet battalions}
     Parsley, sage, rosemary and thyme
@@ -45,13 +45,13 @@
     And gather it all in a bunch of heather
     \echo{And to fight for a cause they've long ago forgotten}
     Then she'll be a true love of mine
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Are you going to Scarborough Fair
     Parsley, sage, rosemary and thyme
     Remember me to one who lives there
     She was once a true love of mine
-  \endverse
+  \end{verse}
 
 \endsong

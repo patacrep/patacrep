@@ -9,19 +9,19 @@
   \gtab{G}{320003}
   \gtab{Am}{X02210}
 
-  \beginchorus
+  \begin{chorus}
     \[C]{I wanna} \[F]be the mi\[G]nori\[F]ty
     \[C]{I don't} \[F]need your au\[G]thori\[F]ty
     \[C]Down with the \[F]moral ma\[G]jori\[F]ty
     'cause \[C]{I wanna} \[F]be the mi\[G]nori\[C]ty
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     I \[C]pledge a\[G]llegiance \[F]to the under\[C]world
     One \[C]nation under \[G]dog there of \[F]which I stand a\[G]lone
     A \[C]face in the \[G]crowd, un\[F]sung, against the \[C]mob
     Wi\[C]thout a doubt, \[F]singled out, the \[G]only way I \[C]know
-  \endverse
+  \end{verse}
 
   \begin{bridge}
     \[Am]Stepped out of the \[F]line,\[C]
@@ -30,11 +30,11 @@
     \[Am]To my own \[F]beat \[G]now
   \end{bridge}
 
-  \beginverse
+  \begin{verse}
     One light, one mind, flashing in the dark
     Blinded by the silence of a thousand broken hearts
     ``For crying out loud'', she screamed unto me
     A free for all, fuck 'em all, you are your own sight
-  \endverse
+  \end{verse}
 
 \endsong

@@ -18,53 +18,53 @@
 
   %intro à faire
 
-  \beginverse
+  \begin{verse}
     \[C]Petit \[F]Portori\[G]cain\[F]
     \[C]Bien inté\[F]gré, quasiment New \[G]Yorkais,\[F]
     \[C]Dans mon buil\[F]ding tout de verre \[G]et d'acier,\[Am]
     \[F]Je prends mon \[Dm7]job, un rail de \[E]coke, un café
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[C]Peti\[F]te fille af\[G]ghane,\[F]
     \[C]De l'autre \[F]côté de la \[G]Terre,\[F]
     \[C]Jamais en\[F]tendu parler \[G]de Manhat\[Am]tan
     \[E*]Mon quoti\[E/D]dien c'est la mis\[E/C]ère et la \[E/B]guerre
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Deux étran\[Am]gers au bout du \[F]monde, si diffé\[Dm7]rents
     \[E]Deux incon\[Am]nus, deux ano\[F]nymes, mais pour\[G]tant\[E]
     Pulvéri\[Am]sés sur l'au\[F]tel
     De la \[Dm7]violence éter\[E]nelle
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Un 747
     S'est explosé dans mes fenêtres
     Mon ciel si bleu est devenu orage
     Lorsque les bombes ont rasé mon village
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \[C]So \[G]long, adieu mon \[F]rêve améri\[C]cain
     \[A]Moi, \[Em]plus jamais l'es\[F]clave des \[G]chiens
     \[C]Ils \[G]t'imposaient l'Is\[F]lam des ty\[C]rans
     \[E*]Ceux-là ont-\[E/D]ils jamais lu \[E/C]le Coran\[E/B] ?
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'suis redevenu poussière
     Je s'rai pas maître de l'Univers
     Ce pays que j'aimais tellement serait-il
     Finalement colosse aux pieds d'argile ?
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Les dieux, les religions
     Les guerres de civilisations
     Les armes, les drapeaux, les patries, les nations
     Font toujours de nous de la chair à canon
-  \endverse
+  \end{verse*}
 
 \endsong

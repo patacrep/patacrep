@@ -7,25 +7,25 @@
   \gtab{F}{1:022100}
   \gtab{C7}{032310}
 
-  \beginverse
+  \begin{verse}
     \[F]As I was walking down the street
     \[C7]Down the street, \[F]down the street
     A pretty girl I chanced to meet
     And we \[C7]danced by the light of the \[F]moon
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Buffalo gals won't you come out tonight
     \[C7]Come out tonight, \[F]come out tonight
     \[F]Buffalo gals won't you come out tonight
     And we'll \[C7]dance by the light of the \[F]moon
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     I danced with a gal with a hole in her stocking
     And he knees was a-knockin' and her shoes was a'rockin'
     I danced with a gal with a hole in her stocking
     And we danced by the light of the moon
-  \endverse
+  \end{verse}
 
 \endsong

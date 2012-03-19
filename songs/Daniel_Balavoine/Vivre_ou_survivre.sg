@@ -10,44 +10,44 @@
   \gtab{F}{1:022100}
   \gtab{A7}{X02020}
 
-  \beginverse
+  \begin{verse}
     \[Em]Heure sonne matin
     Pleurs, \[Gm]chagrins
     Et repasse le film hu\[B&]mide
     Du pa\[F]ssé dans les \[A7]yeux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Court, bien trop court
     Notre amour
     Et les appels au secours
     Savent qu'un sourd n'entend pas ce qu'il veut
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et pourtant, il veut \[Dm]vivre
     Ou sur\[B&]vivre
     Sans po\[F]èmes
     Sans bles\[A7]ser tous ceux qu'il \[Dm]aime
     Être heu\[C]reux, malheu\[B&]reux
     Vivre \[A7]seul ou même à \[Dm]deux
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mais vivre pour toujours, sans discours
     Sans velours
     Sans les phrases inutiles
     D'un vieux roman photo
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Fleurs fanées meurent
     Noir et blanc
     Seules couleurs
     D'un futur qui est déjà le passé pour nous
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et pourtant, il faut vivre
     Ou survivre
     Sans poèmes
@@ -55,29 +55,29 @@
     Être heureux, malheureux
     Vivre seul ou même à deux
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mais vivre en silence
     En pensant aux souffrances
     De la terre et se dire
     Qu'on est pas les plus malheureux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Quand dans l'amour
     Tout s'effondre
     Toute la misère d'un monde
     N'est rien à côté d'un adieu
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et pourtant, je veux vivre
     Ou survivre
     Sans poèmes
     Sans blesser tous ceux que j'aime
     Être heureux, malheureux
     Vivre seul ou même à deux
-  \endchorus
+  \end{chorus}
 
 \endsong

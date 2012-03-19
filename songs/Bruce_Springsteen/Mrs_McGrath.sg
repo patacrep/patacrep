@@ -10,68 +10,68 @@
 
   \lilypond{Mrs_McGrath}
 
-  \beginverse
+  \begin{verse}
     ``Oh, \[Dm]Mrs. McGrath'', the sergeant said
     ``Would you \[F]like to make a soldier \[C]out of your son Ted
     With a \[C]scarlett coat and a big cocked hat
     Oh, Mrs. McGrath, wouldn't \[Dm]you like that?''
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     With your \[Dm]too-ri-a, fol-di-diddle-da
     \[F]Too-ri, oor-ri, \[C]oor-ri-a
     With your \[C]too-ri-a, fol-di-diddle-da
     Too-ri, oor-ri, \[Dm]oor-ri-a
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Now, Mrs. McGrath lived on the shore
     For the space of seven long years or more
     She spied a ship coming into the bay
     With her son from far away
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     ``Oh captain dear, where have you been
     You've been sailing the Mediterranean
     Have you news of my son Ted
     Is he living or is he dead?''
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Up came Ted without any legs
     And in their place, two wooden pegs
     She kissed him a dozen times or two
     And said, ``My god, Ted is it you?''
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     ``Now, were you drunk or were you blind
     When you left your two fine legs behind?
     Or was it walking upon the sea
     That wore your two fine legs away?''
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     ``No, I wasn't drunk and I wasn't blind
     When I left my two fine legs behind
     A cannon ball on the fifth of May
     Tore my two fine legs away''
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     ``Oh, Teddyboy'', the widow cried
     ``Your two fine legs were your mother's pride
     Stumps of a tree won't do at all
     Why didn't you run from the cannon ball?''
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     ``All foreign wars I do proclaim
     Live on the blood and the mothers' pain
     I'd rather have my son as he used to be
     Than the king of America and his whole Navy''
-  \endverse
+  \end{verse}
 
 \endsong
 

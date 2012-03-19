@@ -12,82 +12,82 @@
   \gtab{Cm}{3:X02210}
   \gtab{Fm}{8:X02210}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Les jolies colonies de vacances
     Merci maman, merci \[G]papa
     Tous les \[Dm]ans je voud\[G]rais qu'ça r'comm\[C]ence
     Youka\[G]ïdi aïdi aï\[C]da
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'\[E&]vous écris une petite ba\[B&]fouille
     \[Cm]Pour pas qu'vous vous fassiez d'mour\[G]on
     \[Cm]Ici on \[B&]est aux p'tits oign\[E&]ons
     J'ai que huit \[Fm]ans mais je m'débr\[G]ouille
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'tousse un peu à cause qu'on avale
     La fumée d'l'usine d'à côté
     Mais c'est en face qu'on va jouer
     Dans la décharge municipale
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Pour becqu'ter, on nous met à l'aise
     C'est vraiment comme à la maison
     Les faillots, c'est du vrai béton
     J'ai l'estomac comme une falaise
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     L'matin on va faire les poubelles
     Les surveillants sont pas méchants
     Ils ronflent les trois-quarts du temps
     Vu qu'ils sont ronds comme des queues d'pelle
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Hier j'ai glissé de sur une chaise
     En f'sant pipi dans l'lavabo
     J'ai l'menton en guidon d'vélo
     Et trois canines au Père Lachaise
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Les punitions sont plutôt dures
     Et le pion, il a pas son pareil
     Il nous attache en plein soleil
     Tous nus barbouillés d'confiture
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Pour se baigner, c'est l'coin tranquille
     On est les seuls, personne n'y va
     On va s'tremper dans un p'tit bras
     Où sortent les égouts d'la ville
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Parait qu'on a tous le typhus
     On a l'pétrus tout boutonneux
     Et l'soir avant d'se mettre au pieux
     On compte à qui qu'en aura l'plus
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     J'vous envoie mes chers père et mère
     Mes baisers les plus distingués
     J'vous quitte là j'vais voir ma fiancée
     Une vieille qu'a au moins ses dix berges
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Les p'tits, on a vraiment pas d'chance
     On nous fait jamais voyager
     Mais les grandes filles vont à Tanger
     Dans d'autres colonies d'vacances
-  \endverse
+  \end{verse*}
 
 \endsong

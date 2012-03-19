@@ -12,21 +12,21 @@
   \gtab{B7}{021201}
 
 
-  \beginverse
+  \begin{verse}
     \[A]Nous avons connu les \[F#m]correspondantes allemandes \[E7]et les correspondants anglais\[A]
     Nous avons disputé des \[F#m]inter-classes de hand \[E7]et des inter-classes de volley\[A]
     \[D]Nous avons révisé les a\[A]ccords de Yalta \[Bm]juste à cô\[E]té d'une robe en lin\[A7]
     \[D]Et nous avons mélangé Ser\[A]gi Brughera \[B7]avec les accords de Berlin\[E7]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[D]Nos histoires d'amour sont les mê\[A]mes comme si nous a\[Bm]vions pra\[E]tiqué\[A7]
     \[D]Dans des piscines parallè\[A]les, la nata\[E7]tion synchronisée\[A]
     \[D]Nous avons cru faire une transat\[A] en soli\[Bm]taire mais à la place\[A7]
     \[D]Nous ne dessinons sur l'asphal\[A]te qu'un ballet \[E7]d'Holiday on ice\[A]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Nous avons essayé le dry Schweppes pamplemousse
     Milos Forman et Fassbinder
     Les barquettes plastique de fish'n chips à Portsmouth
@@ -35,9 +35,9 @@
     Des reprises de La Bombe Humaine
     L'eau vive à la flûte à bec par des CM1
     Just Like Heaven avenue du Maine
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sur celle avec ta sœur dommage tu fermes les yeux
     Celle-là, le flash est pas parti
     Là c'était l'hôtel le dernier soir à Malmö
@@ -46,6 +46,6 @@
     Nous avons marché sous la pluie
     Elle s'est assise un soir au fond du resto U
     Par hasard j'étais là aussi
-  \endverse
+  \end{verse}
 
 \endsong

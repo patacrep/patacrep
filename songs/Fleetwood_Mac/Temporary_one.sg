@@ -11,54 +11,54 @@
   \gtab{Bm}{2:X02210}
   \gtab*{Asus4}{X02230}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[G5]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[A]Where are \[D]you \[G]darling
     When m\[D A]y moon \[D]is \[G]rising
     And y\[D A]our sun is shining d\[D G]own?
     \nolyrics{\[D G A]}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \begin{repeatedchords}
       \[A]What are \[D]you \[G]doing?
       Are y\[D A]ou miss\[D]ing \[G]me in \[D]a \[A]way
       That I'm missing you n\[D G]ow?
     \end{repeatedchords}
     \nolyrics{\[D G]}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[D] The river goes \[G]{on and on} and the
     \[D] The sea that div\[G]ides us is a
     \[D] A temporary o\[G]ne and a
     \[D] Bridge will \[Bm]bring us back to\[Asus4]gether
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \nolyrics{\[G5]}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[A]What are \[D]you \[G]doing?
       Goi\[D A]ng down in\[D]to \[G]Soho
       Once \[D]I \[A]get my rest to\[D G]night
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[A]What are \[D]you \[G]doing?
       Are y\[D A]ou bu\[D]sy \[G]with your wor\[D A]ld?
       Well, I wish you were busy \[D]with \[G]mine
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Chorus, \Solo, \Chorus \rep{3}}
     \musicnote{\Outro: \nolyrics{\{\[D G]\} \rep{4} \[D]}}
-  \endverse
+  \end{verse*}
 
 \endsong

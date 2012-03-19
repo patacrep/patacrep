@@ -10,38 +10,38 @@
   \gtab{G}{300000}
   \gtab{F}{100210}
 
-  \beginverse
+  \begin{verse}
     \[C]Wait\[C/B]ing on \[Am/E7]an an\[G]gel
     \[C]One to \[C/B]carry \[Am/E]me home\[G]
     \[C]Hope you \[C/B]come to \[Am/E]see me soon\[G]
     Cause I \[F]don't \[G]want \[Am/E]to go \[Am/E]alone
     I \[F]don't \[G]wanna \[C]go alone \[C/B]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Now angel won't you come by me
     Angel hear my please
     Take my hand lift me up
     So that I can fly with thee
     So that I can fly with thee \[Am7/E]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]And I'm \[G]waiting \[Am/E]on an angel\[Am/E]
     \[F]And I \[G]know it \[Am/E]won't be long\[Am7/E]
     \[F]To find \[G]myself in \[Am/E]a resting \[Am/E]place
     \[F]In my \[G]angel's \[C]arms \[Am7/E]
     \[F]In my \[G]angel's \[C]arms \[C/B]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     So speak kind to a stranger
     Cause you'll never know
     It just might be an angel come
     Knockin' at your door \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Waiting on an angel
     One to carry me home
     Hope you come to see me soon
@@ -49,6 +49,6 @@
     I don't wanna go alone
     Don't wanna go
     I don't wanna go alone
-  \endverse
+  \end{verse}
 
 \endsong

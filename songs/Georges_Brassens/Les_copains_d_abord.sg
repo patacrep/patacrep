@@ -11,7 +11,7 @@
   \gtab{Bm}{2:X02210}
   \gtab{A7}{X02020}
 
-  \beginverse
+  \begin{verse}
     Non ce n'é\[D]tait pas le radeau
     De la méduse ce bateau
     Qu'on se le \[E7]dise au fond des ports
@@ -20,9 +20,9 @@
     Sur la grand \[F#]mare des canards
     Et s'appelait : \emph{\[Bm]les copains d'a\[E7]bord}
     Les co\[A7]pains d'a\[D]bord
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Ses {\og}Fluctuat nec Mergitur{\fg}
     C'était pas d'la littérature
     N'en déplaise aux jeteurs de sorts
@@ -31,9 +31,9 @@
     N'étaient pas des enfants d'salauds
     Mais des amis franco de port
     Des copains d'abord
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'étaient pas des amis de luxe
     Des petits Castor et Pollux
     Des gens de Sodome et Gomorrhe
@@ -42,9 +42,9 @@
     Par Montaigne et La Boétie
     Sur le ventre, ils se tapaient fort
     Les copains d'abord
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'étaient pas des anges non plus
     L'évangile ils l'avaient pas lu
     Mais il s'aimaient toutes voiles dehors
@@ -53,9 +53,9 @@
     C'était leur seule litanie
     Leur credo, leur confiteor
     Aux copains d'abord
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au moindre coup de Trafalgar
     C'est l'amitié qui prenait l'quart
     C'est elle qui leur montrait le nord
@@ -64,9 +64,9 @@
     Qu'leurs bras lançaient des SOS
     On aurait dit des sémaphores
     Les copains d'abord
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au rendez-vous des bons copains
     Y'avait pas souvent de lapins
     Quand l'un d'entre eux manquait à bord
@@ -75,9 +75,9 @@
     Son trou dans l'eau ne s'refermait
     Cent ans après, coquin de sort
     Il manquait encore
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Des bateaux j'en ai pris beaucoup
     Mais le seul qu'ai tenu le coup
     Qui n'ai jamais viré de bord
@@ -86,6 +86,6 @@
     Sur la grand mare des canards
     Et s'appelait : \emph{les copains d'abord}
     Les copains d'abord
-  \endverse
+  \end{verse}
 
 \endsong

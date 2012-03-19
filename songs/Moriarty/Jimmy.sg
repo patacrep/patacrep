@@ -10,25 +10,25 @@
   \gtab{G}{320003}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     \[Am]Jimmy won't you \[C]please come home
     Where the \[G]grass is green and the \[F]buffaloes roam
     Come see Jimmy your uncle Jim
     Your auntie Jimmie and your cousin Jim
     Come home Jimmy because you need a bath
     And your grandpa Jimmy is still gone daft
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Now there's buffalo Jim and buffalo Jim
     And Jim buffalo now didn't you know
     Jim Jim Jimmy it's your last cigarette
     But there's buffalo piss and it's all kind of wet
     Jambo Jimmy you'd better hold your nose
     All roads lead to roam with the buffaloes
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     And the \[Am]Buffaloes used to \[F]say
     Be \[G]proud of your \[Am]name
     The Buffaloes used to say
@@ -37,9 +37,9 @@
     Roam where you roam
     The Buffaloes used to say
     Do what you do
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Well you've gotta have a wash but you can't clean your name
     You're now called Jimmy you'll be Jimmy just the same
     The keys are in a bag in a chest by the door
@@ -48,11 +48,11 @@
     Where the grass is green and the buffaloes roam
     Dear old Jimmy you've forgotten you're young
     But you can't ignore the buffalo song
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     If you remember you're unknown
     Buffaloland will be your home
-  \endverse
+  \end{verse*}
 
 \endsong

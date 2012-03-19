@@ -8,51 +8,51 @@
   \gtab{E}{022100}
   \gtab{Dm}{XX0231}
 
-  \beginverse
+  \begin{verse}
     \[Am]First time I had \[E]read the Bible
     \[E]It had struck me \[Am]as unwitting
     \[Am]I think it may \[E]start a rumor
     \[E]That the Lord ain't \[Am]got no humor
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Am]Put \[E]me inside SS\[Am]C
     \[Am]Let's \[E]test superstring \[Am]theory
     \[Am]Oh yo yo \[Dm]yo, accelerate the \[Am]protons
     \[Am]{Ah stir} it \[E]twice and then just add \[Am]me, \[E]{'cause}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]{I don't} read the \[E]Bible \echo{Bible}
     \[E]{I don't} trust \[Am]disciple \echo{disciple}
     \[Am]Even if they're \[E]made of marble
     \[E]Or Canal Street \[Am]bling
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     From the maelstrom of the knowledge
     Into labyrinth of doubt
     Frozen underground ocean
     Melting, nuking on my mind
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Give me Everything Theory
     Without Nazi uniformity
     My brothers are protons \echo{protons}
     My sisters are neurons \echo{neurons}
     Ah stir it twice, it's instant family
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     My brothers are protons \echo{protons}
     My sisters are neutrons \echo{neutrons}
     Ah stir it twice
     \emph{Dlja prekrastnih dam}
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     Do you have sex maniacs
     Or schizophrenics
     Or astrophysicists in your family
@@ -60,13 +60,13 @@
     Was my grandpa bounty bounty
     He he he he
     They ask in embassy
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     And my grandma, she was anti
     And my grandpa, he was bounty
     Ah stir it twice
     And then just add me
-  \endchorus
+  \end{chorus}
 
 \endsong

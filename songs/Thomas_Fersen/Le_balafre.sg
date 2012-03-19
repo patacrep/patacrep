@@ -11,49 +11,49 @@
   \gtab{Em}{022000}
   \gtab{F#m}{2:022000}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro : \nolyrics \[D A Bm G D A Bm G]}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[D]Il lui man\[Em]quait quatre pha\[Bm]langes
     Ça lui don\[G]nait pas l'air d'un \[D]ange
     Avec son \[Em]œil sous un ban\[F#m]deau
     Et sa gueule \[Bm]{en lame} de cou\[G]teau
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       \[D]Sous son vê\[Em]tement, doux Jé\[Bm]sus
       Tout son corps \[G]était recou\[D]su
       Et quand il \[Em]remontait ses \[F#m]manches
       Les femmes de\[Bm]venaient toutes \[G]blanches
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     Il me\[D]nait une vie de ci\[A]gale
     Il \[Bm]jouait de la scie musi\[G]cale
     Il \[D]trouvait qu'en fermant les \[A]yeux
     \[F#m]Son instrument sonnait \[G]mieux
     Le bala\[D]fré \[A] \[Bm] \[G]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[D]Sa mère cro\[Em]yait de bonne \[Bm]foi
       Qu'il s'en al\[G]lait couper du \[D]bois
       C'est pas qu'il \[Em]fût je-m'en-fou\[F#m]tiste
       Il avait \[Bm]une âme d'ar\[G]tiste
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       Dans \[D]un cabaret de Pi\[A]galle
       Il \[Bm]jouait de la scie musi\[G]cale
       Il \[D]trouvait qu'en fermant les \[A]yeux
       \[F#m]Son instrument sonnait \[G]mieux
       Le bala\[D]fré \[A] \[Bm] \[G]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
   \begin{bridge}
@@ -64,39 +64,39 @@
   \end{bridge}
 
   \begin{repeatedchords}
-    \beginchorus
+    \begin{chorus}
       Et \[D]{à la} pause syndi\[A]cale
       Leur \[Bm]jouait de la scie musi\[G]cale
       Il \[D]trouvait qu'en fermant les \[A]yeux
       \[F#m]Son instrument sonnait \[G]mieux
       Le bala\[D]fré \[A] \[Bm] \[G]
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[D]On retrou\[Em]va au parc Mon\[Bm]ceau
       Une bourgeoise \[G]coupée en mor\[D]ceaux
       \[D]Le bala\[Am]fré passait par \[F#m]là
       Il avait \[Bm]{sa scie} sous son \[G]bras
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[D]Tout le monde cro\[Em]yait de bonne \[Bm]foi
       Qu'il s'en al\[G]lait couper du \[D]bois
       C'est pas qu'il \[Em]fût je-m'en-fou\[F#m]tiste
       Il avait \[Bm]une âme d'ar\[G]tiste
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       Il me\[D]nait une vie de ci\[A]gale
       Il \[Bm]jouait de la scie musi\[G]cale
       Il \[D]trouvait qu'en fermant les \[A]yeux
       \[F#m]Son instrument sonnait \[G]mieux
       Le bala\[D]fré \[A] \[Bm] \[G]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Outro : \nolyrics \[ D A Bm G D]}
-  \endverse
+  \end{verse*}
 
 \endsong

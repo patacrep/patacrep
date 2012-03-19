@@ -10,7 +10,7 @@
   \gtab{Em}{022000}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     Sur ce p'tit ch'\[C]min tranquille, peinard
     On ne sait \[G]jamais c'qui s'pré\[C]pare
     L'ami qu'on reverra demain
@@ -21,9 +21,9 @@
     Fermer les yeux ça n'rassure \[F]pas
     Faut faire d'son mieux, pas faire sem\[C]blant
     Profiter d'c'qu'on a \[G]pour l'mo\[C]ment
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sur ce p'tit ch'min tranquille, peinard
     On traîne des pieds quand y'en a marre
     On s'dit qu'rien n'sera plus comme avant
@@ -34,9 +34,9 @@
     Ou de s'resservir un bon demi
     Dans tous les cas, faut pas s'en faire
     Au diable toutes ces p'tites misères
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sur ce p'tit ch'min tranquille, peinard
     J'ai rencontré un tas d'fêtards
     Qui m'ont appris qu'les apéros
@@ -47,9 +47,9 @@
     Voici pour vous une p'tite pensée
     Tant d'bons moments et c'est pas fini
     Et je n'f'rai pas dans la nostalgie
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sur ce p'tit ch'min tranquille, peinard
     C'est fou tout c'qu'on doit au hasard
     Sur un coup d'tête improvisé
@@ -60,9 +60,9 @@
     Tant qu'on peut faire des p'tites chansons
     Pour passer l'temps et vous rappeler
     D's'amuser avant l'arrivée
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sur ce p'tit ch'min tranquille, peinard
     Dans l'fond c'qui compte c'est la mémoire
     De ces trucs sans importance
@@ -73,7 +73,7 @@
     Qu'il suffit d'foncer tête baissée
     Et si chez l'voisin tout est plus vert
     Frappe à sa porte pour prendre un verre
-  \endverse
+  \end{verse}
 
 \endsong
 

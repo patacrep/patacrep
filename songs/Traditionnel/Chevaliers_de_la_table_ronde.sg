@@ -7,63 +7,63 @@
   \gtab{G7}{320001}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     Cheva\[C]liers de la Table Ronde
     Goûtons \[G7]voir si le vin est \[C]bon
     \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Goûtons \[F]voir, \echo{oui, oui, oui}
     Goûtons \[C]voir, \echo{non, non, non}
     Goûtons \[G7]voir si le vin est bon
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     S'il est bon, s'il est agréable
     J'en boirai jusqu'à mon plaisir
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'en boirai cinq à six bouteilles
     Et encore, ce n'est pas beaucoup
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si je meurs, je veux qu'on m'enterre
     Dans une cave où il y a du bon vin
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Les deux pieds contre la muraille
     Et la tête sous le robinet
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et les quatre plus grands ivrognes
     Porteront les quatre coins du drap
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Pour donner le discours d'usage
     On prendra le bistrot du coin
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et si le tonneau se débouche
     J'en boirai jusqu'à mon plaisir
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et s'il en reste quelques gouttes
     Ce sera pour nous rafraîchir
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sur ma tombe, je veux qu'on inscrive
     \emph{Ici gît le roi des buveurs}
-  \endverse
+  \end{verse}
 
 \endsong
 

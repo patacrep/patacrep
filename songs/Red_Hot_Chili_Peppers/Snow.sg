@@ -11,86 +11,86 @@
   \gtab{C#m}{4:X02210}
 
   %first verse pattern
-  \beginverse
+  \begin{verse}
     \[G#m]Come to decide that the \[E]things that I tried
     Were \[B]in my life just \[F#]to get high on
     When I sit alone come get a little known
     But I need more than myself this time
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Step from the road to the sea, to the sky
     And I do believe it, we rely on
     When I lay it on, come get to play it on
     All my life to sacrifice
-  \endverse
+  \end{verse*}
 
   %chorus
-  \beginchorus
+  \begin{chorus}
     Hey oh
     Listen what I say oh
     \echo{I got your} Hey oh
     Now listen what I say oh
-  \endchorus
+  \end{chorus}
 
   %first verse pattern
-  \beginverse
+  \begin{verse}
     When will I know that I really can't go
     To the well once more time to decide on
     When it's killing me, when will I really see
     All that I need to look inside
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Come to believe that I better not leave
     Before I get my chance to ride
     When it's killing me, what do I really need
     All that I need to look inside
-  \endverse
+  \end{verse*}
 
   %chorus extended
-  \beginchorus
+  \begin{chorus}
     Hey oh
     Listen what I say oh
     \echo{Come back and} Hey oh
     Look at what I say oh
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[E]The more I see, the less I know
     The more I like to let it go
     \[G#m]Hey oh
     Wo-oo wo-oo \[E]wo
-  \endchorus
+  \end{chorus}
 
   %second chorus
-  \beginverse*
+  \begin{verse*}
     \[B]Deep beneath the cover of another \[F#]perfect wonder
     Where it's \[C#m]so white as snow
     Privately divided by a world so undecided
     And there's nowhere to go
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     In between the cover of another perfect wonder
     And it's so white as snow
     Running through a field where all my tracks will
     Be concealed and there is nowhere to go
-  \endverse
+  \end{verse*}
 
   %first verse pattern
-  \beginverse
+  \begin{verse}
     When to descend to amend for a friend
     All the channels that have broken down
     Now you bring it up, I'm gonna ring it up
     Just to hear you sing it out
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Step from the road to the sea, to the sky
     And I do believe what we rely on
     When I lay it on, come get to play it on
     All my life to sacrifice
-  \endverse
+  \end{verse*}
 
 \endsong

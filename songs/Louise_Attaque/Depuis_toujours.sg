@@ -12,7 +12,7 @@
   \gtab{Em}{022000}
 
 
-  \beginverse
+  \begin{verse}
     Les \[Am]jours ne sont pas éternels
     Disait un astre au Soleil
     \[G]Le tour du monde ça je sais faire
@@ -24,18 +24,18 @@
     Dans le noir ou sous la lumière
     Elles se mélangent sous la mer
     Se mélangent-elles depuis toujours, toujours {\ldots}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Dis est-ce que tu \[C]penses
     \[F]Qu'il faut arrêter \[C]là ?
     \[G]Dis est-ce que tu \[C]crois
     \[Em]Que tout ça c'est im\[F]mense ?
     \[G]Dis qu'est-ce que tu \[C]vois ?
     \[Em]Est-ce que l'on suit la ten\[F]dance ?
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Les nuits ne sont pas éternelles
     Disait la Lune au Soleil
     Ils tournent en rond c'est un mystère
@@ -47,18 +47,18 @@
     Dans le noir ou sous la lumière
     Il se prolonge sous la mer
     Se prolonge t'il depuis toujours, toujours ?
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Dis est-ce que tu penses
     Qu'il faut arrêter là ?
     Dis est-ce que tu crois
     Que tout ça c'est immense ?
     Dis qu'est-ce que tu vois ?
     Est-ce que nous deux c'est tendance ?
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Les jours ne sont pas éternels
     Disait un astre au Soleil
     Le tour du monde ça je sais faire
@@ -67,15 +67,15 @@
     Dont les couleurs sont de ces merveilles
     Issues d'hier ou du Soleil
     Issues de toujours, toujours
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Dis est-ce que tu penses
     Qu'il faut s'arrêter là ?
     Dis est-ce que tu crois
     Que nous deux c'est tendance ?
     Dis qu'est-ce que tu vois ?
     Est-ce que nous deux c'est immense ?
-  \endchorus
+  \end{chorus}
 
 \endsong

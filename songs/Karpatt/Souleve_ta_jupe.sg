@@ -10,60 +10,60 @@
 
   \lilypond{Souleve_ta_jupe}
 
-  \beginverse
+  \begin{verse}
     Mon a\[Dm]mie, ne soit pas fa\[A7]rouche
     Promis, \[Dm]je ne regarderai \[A7]pas
     Tu sais \[Gm]moi, j'en ai vu des \[Dm]louches de lunes
     Mais des belles comme \[A7]ça
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Non, non, \[Dm]je ne tricherai \[A7]pas
     J'garde\[Dm]rai les mains sur les \[A7]yeux
     Promis, j'\[Gm]écarterai pas les \[Dm]doigts
     Ou sinon tellement \[A7]peu
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Soulève ta \[Dm]jupe
     Pour \[A7]sauter la ba\[Dm]rrière \[A7]
     Soulève ta \[Dm]jupe
     Ou \[A7]passons par de\[Dm]rrière \[A7]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mon amie, ne soit pas timide
     On a douze ans tous les deux
     Je te connais depuis toute petite
     Fais pas ta mijaurée, tu veux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Qu'on s'fasse choper par la grand-mère
     Elle court vite et je l'entends qui arrive
     Allez, joue pas la fière
     Ferme les yeux, c'est le moment
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Tant pis pour \[Dm]toi, moi je me \[A7]tire
     T'as pas in\[Dm]térêt à ca\[A7]fter
     Sinon je t'\[Dm]préviens ça sera \[A7]pire
     Que c'qui t'es \[Dm]jamais arri\[A7]vé
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et puis la vieille l'a attrapée
     Elle l'a couchée sur ses genoux
     Soulevé d'un seul coup la jupe
     En gueulant : {\og}Et l'autre il est où ?{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Elle cla\[Gm]quait ses jolies \[Dm]fesses
     \[A7]Au rythme des larmes et des \[Dm]cris
     \echo{Oh !} J'aurais \[Gm]pu me dénon\[Dm]cer
     \[A7]Mais j'ai tout vu et j'ai rien dit
-  \endverse
+  \end{verse*}
 
 \endsong

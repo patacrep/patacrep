@@ -7,34 +7,34 @@
   \gtab{F#m}{1:022000}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     Son \[F#m]ombre glisse et sa \[E]semelle claque
     Charlie \[F#m]caresse le trot\[E]toir
     Il n'a \[F#m]que les os, l'esprit \[E]{et la} peau
     Charlie \[F#m]va danser ce \[E]soir
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Allez Char\[F#m]lie \[E]
     Tiens toi \[F#m]droit \[E]
     Ce que c'est \[F#m]beau \[E]
     Quand elle \[F#m]coule, la rivière \[E]de sang chaud
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Là ils se \[F#m]tiennent au fond, le temps \[E]et le son
       Pour la \[F#m]vie, sweet little \[E]blues
       Accroche-\[F#m]toi aux plis de la \[E]mélodie
       Qui ne \[F#m]sait pas qui elle \[E]suit
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       Charlie, Char\[F#m]lie \[E]
       Les filles \[F#m]fondent \[E]
       Vieux \[F#m]salaud ! \[E]
       Là elle \[F#m]coule, la rivière \[E]de sang chaud
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
   \begin{bridge}
@@ -44,12 +44,12 @@
   \end{bridge}
 
   \begin{repeatedchords}
-    \beginchorus
+    \begin{chorus}
       Mainte\[F#m]nant dans l'eau sale, elle traîne \[E]sa bouche pâle
       Au fond du cani\[F#m]vau \[E]
       Où elle cou\[F#m]le ? \[E] \rep{2}
       Où elle cou\[F#m]le, la rivière \[E]de sang chaud
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
 \endsong

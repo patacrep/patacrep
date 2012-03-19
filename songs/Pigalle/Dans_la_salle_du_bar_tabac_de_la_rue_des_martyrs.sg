@@ -11,59 +11,59 @@
   \gtab{Cm}{3:X02210}
   \gtab{Gm}{3:022000}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Em D Em D]}}
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     Dans la \[Em]salle du \[D]bar-ta\[Em]bac de la \[D]rue des \[Em]martyrs \[D] \[Em] \[D]
     Y'a des \[Em]filles de joie qui a\[D]ttendent le \[Em]jour en ven\[D]dant du \[Em]plaisir \[D] \[Em] \[D]
     Y'a \[C]des ivrognes qui s'é\[Em]panchent au bar
     Qui \[C]glissent lentement le long \[Em]du comptoir par \[D]terre
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dans la salle du bar-tabac de la rue des martyrs
     Le patron a un flingue pour l'ingénu qu'en voudrait à la tirelire
     Dans les chiottes, les mots gravés sur les murs
     Parlent de sexes géants, d'amours et d'ordures ensemble
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Dm]Ici, chacun doucement oublie \[Cm]l'ombre d'une \[Dm]vie passée
     D'une fin de dé\[Cm]combres
     Dans \[Dm]ce cliché funèbre on cherche \[Dm]l'oubli d'un parfum d'une \[Dm]voix
     On éteint l'impact enc\[Cm]ore brûlant de lèvres \[Dm]entr'ouvertes
     Humides et \[Gm]douces
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Dans la salle du bar-tabac de la rue des martyrs
     Certains soirs, tout à coup, on s'arrête de rire
     Et quand brusquement les lames sortent
     Tout le monde dégage, se jette sur la porte en verre
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dans la salle du bar-tabac de la rue des martyrs
     Y'a des seringues vidées goulûment dans des bras sans avenir
     Ici, la dope, c'est à la poignée
     Les petites cuillères servent que rarement pour le café
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dans la salle du bar-tabac de la rue des martyrs
     Y'a des vieux gars tatoués partout qui racontent leurs souvenirs
     Y'a des voyageurs tristes par dessus les valises
     Y'a des bookmakers qui ramassent les mises la nuit
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dans la salle du bar-tabac de la rue des martyrs
     On peut tout acheter, tout vendre, le meilleur et le pire
     Une vieille clocharde, la gueule défoncée
     Rentre avec sa poussette et se met à gueuler : {\og}À boire{\fg}
-  \endverse
+  \end{verse}
 
 \endsong

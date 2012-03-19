@@ -7,22 +7,22 @@
   \gtab{B}{2:X02220}
   \gtab{F#7}{2:022100}
 
-  \beginverse
+  \begin{verse}
     Au pre\[B]mier temps de la valse
     Toute seule, tu souris dé\[F#7]jà
     Au pre\[F#7]mier temps de la valse
     Je suis seul mais je t'aper\[B]çois
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et Paris qui bat la mesure
     Paris qui mesure notre émoi
     Et Paris qui bat la mesure
     Me murmure, murmure tout bas
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     Une valse à trois \[B]temps
     Qui s'offre encore le temps
     Qui s'offre encore le temps
@@ -37,9 +37,9 @@
     Mais tout aussi charmant
     Qu'une valse à trois \[B]temps
     Une valse à quatre temps
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Une valse à vingt ans
     C'est beaucoup plus troublant
     C'est beaucoup plus troublant
@@ -54,9 +54,9 @@
     À chaque carrefour
     Dans Paris que l'amour
     Rafraîchit au printemps
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Une valse à mille temps
     Une valse à mille temps
     Une valse a mis l'temps
@@ -71,36 +71,36 @@
     Offre seule aux amants
     Trois cent trente-trois fois le temps
     De bâtir un roman
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Au deuxième temps de la valse
     On est deux, tu es dans mes bras
     Au deuxième temps de la valse
     Nous comptons tous deux : {\og}Une, deux, trois{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et Paris qui bat la mesure
     Paris qui mesure notre émoi
     Et Paris qui bat la mesure
     Nous fredonne déjà
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     Au troisième temps de la valse
     Nous valsons enfin, tous les trois
     Au troisième temps de la valse
     Il y a toi, y'a l'amour et y'a moi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et Paris qui bat la mesure
     Paris qui mesure notre émoi
     Et Paris qui bat la mesure
     Laisse enfin éclater sa joie
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -9,30 +9,30 @@
   \gtab{Dm}{XX0231}
   \gtab{G}{320003}
 
-  \beginchorus
+  \begin{chorus}
     Prends garde au \[Am]loup bergère
     \[F]Prends garde au \[Am]loup~\rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[Am]{Il est} au \[Dm]bois qui re\[G]garde, qui regarde
     \[Am]{Il est} au \[Dm]bois qui re\[G]garde tes mou\[Am]tons
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     C'est pas le loup bergère
     C'est pas le loup~\rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     C'est les garçons et qui tournent et qui tournent
     C'est les garçons et qui tournent autour de vous
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Prends garde au loup bergère
     Prends garde au loup~\rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong
 

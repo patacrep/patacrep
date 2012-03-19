@@ -13,27 +13,27 @@
 
   \lilypond{Vanity}
 
-  \beginverse
+  \begin{verse}
     \[Am]Enter the scenery of love
     Lovers are in \[F]pain
     \[G]They blame and \[F]pick on each \[Em]other
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Am]You play melodies of love
     Forgotten \[F]phrases
     \[G]Tender and \[Am]sweet
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \[F]Come a little bit \[G]closer
     Don't \[C]stay in the \[C/B]shadows my \[F]boy
     \echo{\[F]La la la la la la \[G]la la}
     The \[C]melody's \[C/B]fading
     \[F]Now or never, \[G]love will go
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]I'll be \[Em]there
     \[Am]By your \[Em]side
     \[F]Share your \[G]fears
@@ -42,29 +42,29 @@
     \[Am]Hold me \[Em]tight
     \[F]Live in \[G]vanity
     \[Am]For a while
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     As winter melts in the sun
     Boys will be out
     Running and reaching for the light
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Oh mother please find me in that place
     Before the memories
     Tear us into pieces
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Clinging to affection
     We somehow do learn to live
     \echo{A la la la la la la la}
     In endless motion
     Never coming back, love will go
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     You'll be there
     By my side
     You may never
@@ -73,12 +73,12 @@
     In the quiet night
     Live in vanity
     For ever
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[Am]Won't you feel my \[G]gentle emotion
     \[Am]Let us live in \[G]peace with conviction
     \[Am]If you're here please \[E7]hold me
-  \endverse
+  \end{verse}
 
 \endsong

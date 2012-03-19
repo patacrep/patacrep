@@ -7,41 +7,41 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
-  \beginchorus
+  \begin{chorus}
     \[G]La baleine bleue cherche de l'eau
     Pour débou\[D]cher tous ses tu\[G]yaux
     La baleine bleue cherche de l'eau
     Pour débou\[D]cher tous ses tu\[G]yaux
     Eau, eau, \[D]eau, eau $H_2$\[G]$O$ \rep{2}
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     \[G]Elle a trouvé beaucoup de choses
     Elle a trou\[D]vé beaucoup de \[G]choses
     Beaucoup de choses \rep{2}
     Mais pas de l'eau \rep{2}
     Eau $H_2O$
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Elle a trouvé du détergent \rep{2}
     Du détergent \rep{2}
     Beaucoup de choses \rep{2}
     Mais pas de l'eau \rep{2}
     Eau $H_2O$
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Elle a trouvé un pétrolier \rep{2}
     Un pétrolier \rep{2}
     Du détergent \rep{2}
     Beaucoup de choses \rep{2}
     Mais pas de l'eau \rep{2}
     Eau $H_2O$
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Elle a trouvé du DDT \rep{2}
     Du DDT \rep{2}
     Un pétrolier \rep{2}
@@ -49,6 +49,6 @@
     Beaucoup de choses \rep{2}
     Mais pas de l'eau \rep{2}
     Eau $H_2O$
-  \endverse
+  \end{verse}
 
 \endsong

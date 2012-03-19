@@ -10,7 +10,7 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 
-  \beginverse
+  \begin{verse}
     J'suis un \[Am]mannequin glacé
     Avec un teint de soleil
     Ravalé, homme pressé
@@ -22,16 +22,16 @@
     Je suis plus que politique
     Je vais vite, très vite
     J'suis une comète humaine universelle
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Je tra\[D]verse le temps
     Je suis une référence
     Je suis omniprésent
     Je deviens omniscient
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     J'ai en\[Am]vahi le monde
     Que je ne connais pas
     Peu importe j'en parle
@@ -43,20 +43,20 @@
     Du même \[G]monde que moi
     Vous n'ima\[F]ginez pas
     Ce qu'ils sont \[Am]gais
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Qui veut de \[C]moi
     Et des mi\[G]ettes de mon cer\[Am]veau
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Qui veut entrer
     Dans la toile de mon réseau
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mili\[Am]tant quotidien
     De l'inhumanité
     Des profits immédiats
@@ -65,17 +65,17 @@
     J'fais dans l'immobilier
     Je sais faire des affaires
     Y'en a qui peuvent payer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'connais \[D]le tout Paris
     Et puis le reste aussi
     Mes connaissances uniques
     Et leurs femmes que je \dots
     \[Am]Fréquente évidemment
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Les \[Am]cordons de la bourse
     Se relâchent pour moi
     Il n'y a plus de secrets
@@ -84,9 +84,9 @@
     Pulvériser l'audience
     Et qu'est-ce que vous croyez ?
     C'est ma voie, c'est ma chance
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     J'a\[D]dore les émissions
     À la télévision
     Pas le temps d'regarder
@@ -98,26 +98,26 @@
     De notre \[G]pourriture
     Mieux que \[F]{d'la} confiture
     À des co\[Am]chons
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Qui veut de moi
     Et des miettes de mon cerveau
     Qui veut entrer
     Dans la toile de mon réseau
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Vous savez que je suis
     Un homme pressé \rep{3}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Je suis
     Un homme pressé \rep{3}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je suis un \[Am]militant quotidien
     De l'inhumanité
     Et des \[C]profits immédiats
@@ -126,9 +126,9 @@
     J'fais dans l'immobilier
     Je \[Am]sais faire des affaires
     Y'en a qui peuvent payer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et puis je traverse le temps
     Je suis devenu omniprésent
     Je suis une super référence
@@ -137,24 +137,24 @@
     Ma carrière est en jeu
     Je suis l'homme médiatique
     Moi je suis plus que politique
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Car je suis
     Un homme pressé \rep{3}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Un homme pressé \rep{3}
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     {\og}Love, love, love{\fg}
     Dit-on en Amérique
     {\og}Lioubov{\fg}
     Russie ex-soviétique
     {\og}Amour{\fg}
     Aux quatre coins de France
-  \endverse
+  \end{verse*}
 
 \endsong

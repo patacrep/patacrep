@@ -15,24 +15,24 @@
   \gtab{Am}{X02210}
 
   \meter{12}{8}
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{\Intro: | \[D] | \[G] | \[D] | \[G] | } }
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[D]When your day is l\[G]ong and the n\[D]ight
     The night is you\[G]{rs al}\[D]one
     When you're sure you've ha\[G]{d enough} of this lif\[D*]e
     Well hang \[G]on
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Don't let yourself go\[A] \[Em]
     Cause everybody cr\[A]ies \[Em]
     And \[A]everybody hurts
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Sometimes
     Sometimes everything is wrong
     Now it's time to sing along
@@ -42,41 +42,41 @@
     \echo{Hold on}
     If you think you've had too much of this life
     Well hang on
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Cause everybody hurts
     Take comfort in your friends
     Everybody hurts
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[F#]{ Don't} throw your han\[Bm]d \[F#]
     Whoa \[Bm]now\[F#]{ don't} throw your h\[Bm]and \[C]
     If you feel like you're a\[G]lone n\[C]{o no no} you're no\[C/B]{t alon}\[Am]e
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     If you're on your own in this life
     The days and nights are long
     When you think you've had too much of this life
     To hang on
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Well everybody hurts sometimes
     Everybody cries
     And everybody hurts
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Sometimes
     But everybody hurts sometimes
     So hold on hold on hold on hold on
     Hold on hold on hold on hold on
     Everybody hurts
     You are not alone
-  \endverse
+  \end{verse}
 
   \lilypond{Everybody_hurts}
 

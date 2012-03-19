@@ -7,59 +7,59 @@
   \gtab{Em}{7:X02210}
   \gtab{D}{5:X02220}
 
-  \beginverse
+  \begin{verse}
     \[Em]Je n'ai pas peur de la route
     Faudrait voir, faut qu'on y goûte
     Des méandres au creux des reins
     Et tout ira \[D]bien
     Le vent l'emporte\[Em]ra
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Ton message à la grande ourse
     Et la trajectoire de la course
     À l'instantané de velours
     Même s'il ne sert à rien
     Le vent l'emportera
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Tout disparaî\[D]tra mais \dots
     Le vent nous porte\[Em]ra
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     La caresse et la mitraille
     Cette plaie qui nous tiraille
     Le palais des autres jours
     D'hier et demain
     Le vent les portera
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Génétique en bandoulière
     Des chromosomes dans l'atmosphère
     Des taxis pour les galaxies
     Et mon tapis volant lui
     Le vent l'emportera
-  \endverse
+  \end{verse*}
 
   \lilypond{Le_vent_nous_portera}
 
-  \beginverse
+  \begin{verse}
     Ce parfum de nos années mortes
     Ceux qui peuvent frapper à ta porte
     Infinité de destins, on en pose un
     Qu'est-ce qu'on en retient ?
     Le vent l'emportera
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Pendant que la marée monte
     Et que chacun refait ses comptes
     J'emmène au creux de mon ombre
     Des poussières de toi
     Le vent les portera
-  \endverse
+  \end{verse*}
 
 \endsong

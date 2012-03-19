@@ -12,7 +12,7 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[Bm]On a dark desert highway
     \[F#]Cool wind in my hair
     \[A]Warm smell of colitas
@@ -21,9 +21,9 @@
     \[D]I saw a shimmering light
     \[Em]My head grew heavy and my sight grew dim
     \[F#]{I had} to stop for the night
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     There she stood in the doorway
     I heard the mission bell
     And I was thinking to myself
@@ -32,18 +32,18 @@
     And she showed me the way
     There were voices down the corridor
     I thought I heard them say
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Welcome to the Hotel Cali\[D]fornia
     Such a \[Em]lovely place
     Such a \[F#]lovely face
     \[G]Plenty of room at the Hotel Cali\[D]fornia
     Any \[Em]time of year \echo{any time of year}
     You can \[F#]find it here
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Her mind is Tiffany twisted
     She got the Mercedes bends
     She got a lot of pretty, pretty boys
@@ -52,9 +52,9 @@
     Sweet summer sweat
     Some dance to remember
     Some dance to forget
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     So I called up the captain
     ``Please bring me my wine''
     ``We haven't had that spirit here
@@ -63,18 +63,18 @@
     Far away
     Wake you up in the middle of the night
     Just to hear them say
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Welcome to the Hotel California
     Such a lovely place
     Such a lovely face
     They livin' it up at the Hotel California
     What a nice surprise \echo{what a nice surprise}
     Bring your alibis
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mirrors on the ceiling
     The pink champagne on ice
     And she said, ``We are all just prisoners here
@@ -83,9 +83,9 @@
     They gathered for the feast
     They stab it with their steely knives
     But they just can't kill the beast
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Last thing I remember
     I was running for the door
     I had to find the passage back
@@ -94,6 +94,6 @@
     ``We are programmed to receive''
     ``You can check out anytime you like
     But you can never leave''
-  \endverse
+  \end{verse}
 
 \endsong

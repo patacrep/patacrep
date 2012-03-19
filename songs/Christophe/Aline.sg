@@ -9,40 +9,40 @@
   \gtab{F}{1:022100}
   \gtab{G7}{320001}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[C E7 F G7]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     J'avais dessi\[C]né, sur le \[E7]sable
     Son doux vi\[F]sage qui me souri\[G7]ait
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Puis il a \[C]plu, sur cette \[E7]plage
     Dans cet o\[F]rage, elle a dispa\[G7]ru
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et j'ai \[C]crié, cri\[E7]é
     A\[F]line, pour qu'elle re\[G7]vienne
     Et j'ai pleu\[C]ré, pleu\[E7]ré
     Oh \[F]{j'avais} trop de \[G7]peine
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je me suis assis, auprès de son âme
     Mais la belle dame s'était enfuie
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Je l'ai cherchée, sans plus y croire
     Et sans un espoir pour me guider
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Je n'ai gardé, que ce doux visage
     Comme une épave sur le sable mouillé
-  \endverse
+  \end{verse}
 
 \endsong

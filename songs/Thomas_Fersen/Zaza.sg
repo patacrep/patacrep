@@ -10,55 +10,55 @@
   \gtab{B7}{X21202}
   \gtab{B}{2:X02220}
 
-  \beginverse
+  \begin{verse}
     Zaza tu \[Em]pues mais je t'aime quand même
     Zaza ma \[Em]chienne, t'es une martienne
     Il te manque un \[Am]œil, pis l'autre oreille
     T'en as fait le \[D]deuil mais je t'aime pa\[Em]reil
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       Zaza tu \[Em]ronfles, pis tu te dégonfles
       Zaza tu \[Em]pètes, Zaza tu fouettes
       Mais je suis ton \[Am]maître, je suis gros Thomas
       Viens me faire la \[D]fête sur l'esto\[Em]mac
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     Zaza tu \[D]pues
     Mais je t'appré\[Em]cie
     Le chat aus\[D]si
     Couci cou\[B7]ci \[B]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Pis Zaza, \[Em]c'est quoi ton problème ?
       Arrête d'in\[Em]gérer tout ce qui traîne
       Croquer ma \[Am]revue sur les gaines
       Ça va pas \[D]te rafraichir l'ha\[Em]leine
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Arrête de \[Em]me briser les noix
       Sinon je \[Em]te donne au Chinois
       Zaza tu \[Am]pleures, t'as un gros cœur
       Zaza je plai\[D]sante, t'es fati\[Em]gante
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       Zaza t'es \[D]belle
       Mais t'as gros\[Em]si
       T'as pris des \[D]fesses
       T'es très se\[B7]xy \[B]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \nolyrics \[Em] \[Am] \[D] \[B7] \[Em]
-  \endverse
+  \end{verse*}
 
   \begin{bridge}
     Ce qui te fau\[Em]drait, c'est un ami
@@ -70,41 +70,41 @@
   \end{bridge}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Zaza tu \[Em]fugues mais je t'aime quand même
       Tu mènes \[Em]ta vie de bohème
       Tu dispa\[Am]rais trois jours et moi
       Et moi je \[D]me ronge le \[Em]foie
-    \endverse
-    \beginverse*
+    \end{verse}
+    \begin{verse*}
       Paraît que tu \[Em]ferais des kilomètres
       Pour venir \[Em]retrouver ton maître
       Zaza t'es \[Am]fine, je lève ma chopine
       A ta san\[D]té, ma vieille co\[Em]pine
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       Zaza ma \[D]chienne
       T'es parfu\[Em]mée
       Mais je t'aime quand \[D]même
       Je suis enrhu\[B7]mé \[B]
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       Joli \[Em]poil, jolie taille
       Le diable a \[Em]fait du beau travail
       Sur ce grand \[Am]roux qui t'accompagne
       Il te fait \[D]battre la cam\[Em]pagne
-    \endverse
-    \beginverse*
+    \end{verse}
+    \begin{verse*}
       Zaza se\[Em]rais-tu amoureuse ?
       Zaza se\[Em]rais-tu amoureuse
       Pour aller \[Am]sauter la clôture
       Et mordre \[D]les pneus des voi\[Em]tures ?
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     Zaza tu \[D]pues
     Mais je t'aime quand \[Em]même
     Zaza tu \[D]pues
@@ -113,6 +113,6 @@
     Je suis rassu\[Em]ré
     Je sais que \[D]je
     Possède \[B7]un \[Em]nez \dots
-  \endchorus
+  \end{chorus}
 
 \endsong

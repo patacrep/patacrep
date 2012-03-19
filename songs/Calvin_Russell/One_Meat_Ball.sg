@@ -9,41 +9,41 @@
   \gtab{F}{1:022100}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     \[Am]Little \[A4]man \[Am]walked \[F]up and \[E]down
     \[Am]To find an \[A4] eati\[Am]n' \[F]place in \[E]town
     \[Am]He looked the \[A4] menu\[Am] \[F]thru and \[E]thru
     \[E]To see what a dollar bill might do
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]One meat ball \[F]\[E]
     \[Am]One meat ball \[F]\[E]
     \[Am]One meat ball \[F]\[E]
     \[E]All he could get was one meat ball
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Am]He told that \[A4]waite\[Am]r \[F]near at \[E]hand
       \[Am]The simple \[A4]dinne\[Am]r \[F]he had \[E]planned
       \[Am]The guests were \[A4]start\[Am]led \[F]one and \[E]all
       \[E]To hear that waiter loudly call
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[Am]Little \[A4] man\[Am] felt so \[F]ill at \[E]ease
       \[Am]He said, ``Some \[A4]bread \[Am]Sir, \[F]if you \[E]please''
       \[Am]The waiter \[A4]holle\[Am]red \[F]down the \[E]hall:
       \[E]You get no bread with your one meat ball
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[Am]Little \[A4]man \[Am]felt so \[F]very \[E]bad
       \[Am]One meat \[A4]ball \[Am] is \[F]all he \[E]had
       \[Am]And in his \[A4]dream\[Am]s he can still \[F]hear that \[E]call
       \[E]You get no bread with your one meat ball
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

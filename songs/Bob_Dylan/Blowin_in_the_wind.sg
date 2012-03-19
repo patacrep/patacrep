@@ -8,36 +8,36 @@
   \gtab{G}{320003}
   \gtab{A}{X02220}
 
-  \beginverse
+  \begin{verse}
     \[D]How many \[G]roads must a \[A]man walk \[D]down
     Be\[D]fore you \[G]call him a \[A]man?
     \[D]How many \[G]seas must a \[A]white dove \[D]sail
     Be\[D]fore she \[G]sleeps in the \[A]sand?
     \echo{Yes and} \[D]how many \[G]times must the \[A]cannon balls \[D]fly
     Be\[D]fore they're \[G]forever \[A]banned?
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G]The answer my \[A]friend is \[D]blowin' in the \[G]wind
     The \[G]answer is \[A]blowin' in the \[D]wind
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \echo{Yes and} how many years can a mountain exist
     Before it is washed to the seas?
     \echo{Yes and} how many years can some people exist
     Before they're allowed to be free?
     \echo{Yes and} how many times can a man turn his head
     And pretend that he just doesn't see?
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \echo{Yes and} how many times must a man look up
     Before he can see the sky?
     \echo{Yes and} how many ears must one man have
     Before he can hear people cry
     \echo{Yes and} how many deaths will it take till he knows
     That too many people have died?
-  \endverse
+  \end{verse}
 
 \endsong

@@ -12,39 +12,39 @@
   \gtab{Bm}{2:X02210}
   \gtab{F#dim}{X20101}
 
-  \beginverse
+  \begin{verse}
     \[A] Entre toute autre chose, j'aurais dû m'arrêter \[E]faire une \[D]pause
     \[A] Mais j'étais trop pressé, n'aurait-on pas pu a\[E]ttendre un \[D]été ?
     \[D] Erreur fa\[E]tale \dots j'aurais \[A]dû t'é\[G]couter \[D A]
     \[D] Je n'dissociais plus l'bien du \[E]mal
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Car j'étais sur la \[A]route toute la \[G]sainte jou\[D]rnée
     J'n'ai pas vu le \[A]doute, en \[G]toi, s'immi\[D]scer
     J'étais sur la \[A]route, toute la \[G]sainte jour\[D]née
     Si seulement j'\[Bm]avais pu lire \[E] dans tes pen\[A]sées \[G D]
     {\nolyrics \[A G D]}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'avais perdu l'habitude, le sentiment profond de solitude
     Je n'm'apercevais pas, que tu étais derrière chacun de mes pas
     Erreur fatale \dots vient le temps des regrets
     Je me noie dans un verre de larmes
-  \endverse
+  \end{verse}
 
   \begin{bridge}
     \[E] J'ai fais mon malheur \[D]
     {\nolyrics \[A E D]}
   \end{bridge}
 
-  \beginchorus
+  \begin{chorus}
     \dots sur la route toute la sainte journée
     J'n'ai pas vu le doute en toi s'immiscer
     Car j'étais sur la route, toute la sainte journée
     Si seulement j'\[Bm]avais pu lire, \[F#dim] dans tes pen\[A]sées
     J'aurais vu le \[F#dim]doute, \[E]en toi, s'immis\[A]cer
-  \endchorus
+  \end{chorus}
 
 \endsong

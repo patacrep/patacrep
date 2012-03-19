@@ -10,61 +10,61 @@
   \gtab{Fm}{1:022000}
   \gtab{B&}{1:X02220}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Aie, Bodega, Bodega \[G# G]
     \[G]Chante nos joies et nos folies \[G# G]
     \[G]Aie, Bodega, Bodega \[G# G]
     \[G]Tu es l'étoile de nos nuits \[G# G]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Si tu as la cucara\[Cm]cha
     Sacrée bestiole, \[G]cancrelat
     Fais un pactole, li\[Fm]gote-la
     Au gré du vent, du \[G]haut du mât
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     C'est un raz-de-marée que voi\[Fm]là
     Laïla laïla \[G]la
     N'hésitons pas, hissons-\[Fm]la
     Laïla laïla \[G]la
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Elle se noiera, quel débarras
     Car un vent d'fête nous fait savoir
     Qu'une tempête va déferler
     Sur la mer boire de Bodega
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Tonnerre de Dieu, c'est Dyonisos
     Bénis ma chair, bénis mes os
     Tonnerre de Dieu, toi Dyonisos
     Bénis ma chair, bénis mes os
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Aie, Bodega, Bodega \[G# G]
     \[G]Brûle mon cœur et mes soucis \[G# G]
     \[G]Il sera toujours midi \[G# G]
     Sous le soleil de Bode\[B&]ga \[G#]
     Sous le soleil de Bode\[G]ga
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Fou de bagou, l'plus beau des gars
     Est à genoux au pastaga
     J'entends hurler le Mellino
     Sans picador, ni corrida
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Lorsque tangua la sangria
     Laïla laïla la
     Succomba l'capitaine Tracas
     Laïla laïla la
-  \endverse
+  \end{verse*}
 
 \endsong

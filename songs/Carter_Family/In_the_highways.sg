@@ -9,23 +9,23 @@
   \gtab{G}{320003}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     In the \[C]highways, in the hedges
     In the \[G]highways, in the \[C]hedges
     In the \[C]highways, in the hedges
     I'll be \[G]somewhere working for my \[C]Lord
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     I'll be \[F]somewhere working
     I'll be \[C]somewhere working
     I'll be \[G]somewhere working for my \[C]Lord
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     If He calls me I will answer \rep{3}
     I'll be somewhere working for my Lord
-  \endverse
+  \end{verse}
 
 \endsong

@@ -11,18 +11,18 @@
   \gtab{Bm}{2:X02210}
   \gtab{D}{XX0232}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro : \nolyrics \[Em G Am B7] \rep{6}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     De\[G]puis que je me suis co\[Em]gné la tête
     De\[G]puis que je suis tom\[Em]bé de l'arbre
     J'en\[G]tends le pas de \[Em]mon squelette
     J'en\[G]tends son clique\[Em]tis de sabre
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Sque\[Am]lette, mon ami
     Veux-\[Bm]tu du salami ?
     Sque\[Em]lette, mon garçon
@@ -31,28 +31,28 @@
     Dans \[D]{l'armure} de l'ancêtre
     Tes \[Em]soirées sont mortelles
     Dans \[Bm]{l'armoire} à den\[Em]telles
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     A\[Am]lors il se débine
     Par la fe\[D]nêtre à guillotine
     La \[Bm]Lune, astre obscène
     \[Em]Éclaire la scène
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\nolyrics\[Am D Em Bm Em]}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Je \[G]le retrouve \[Em]dans mon lit
       En \[G]proie à la mé\[Em]lancolie
       Je \[G]le surprends dans \[Em]mon fauteuil
       En \[G]train de fumer des \[Em]clous de cercueil
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Sque\[Am]lette, mon petit
       Veux-\[Bm]tu des spaghettis ?
       Sque\[Em]lette, mon cousin
@@ -61,23 +61,23 @@
       Dans \[D]ton vieux débarras
       L'or\[Em]dinaire est chagrin
       Dans \[Bm]{l'armoire} en sa\[Em]pin
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics \[Am D Am Bm Em]}
     \musicnote{\nolyrics \[Em G Am B7] \rep{6}}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Mon \[G]squelette est un \[Em]tendre
       Ca\[G]ché sous la cui\[Em]rasse
       Il \[G]{ne veut} plus at\[Em]tendre
       \[G]{Il veut} qu'on l'em\[Em]brasse
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Sque\[Am]lette, mon chéri
       Tu es lo\[Bm]gé, tu es nourri
       Sque\[Em]lette, tu es blanchi
@@ -86,22 +86,22 @@
       Mais \[D]pas trop chatouilleuse
       Pour \[Em]jouer aux osselets
       Dans le \[Bm]placard à ba\[Em]lais
-    \endverse
+    \end{verse*}
 
-    \beginverse
+    \begin{verse}
       Et \[G]sur l'épave d'une \[Em]mobylette
       Le \[G]voilà parti \[Em]dans la nuit
       Il \[G]roule comme un pou\[Em]let sans tête
       Et \[G]tout finit dans \[Em]un grand bruit
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\nolyrics \[Am D Am Bm Em] \rep{2}}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       Sque\[Am]lette, mon macabre
       T'es \[Bm]rentré dans un arbre
       Tu \[Em]conduis comme un manche
@@ -110,15 +110,15 @@
       Dans \[D]la maison en ruine
       Le \[Em]puits me désespère
       Dans \[Bm]son manteau de \[Em]lierre
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\nolyrics \[Am D Am Bm Em]}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Outro : \nolyrics \[Em G Am Bm] \rep{4}}
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -13,54 +13,54 @@
   \gtab{Am}{X02210}
   \gtab{E}{022100}
 
-  \beginchorus
+  \begin{chorus}
     \[A]{C'était} tou\[Dm]jours la même \[G7]
     Mais on l'ai\[C]mait quand même
     \[F]La fugue \[B&]{d'autrefois}
     Qu'on \[Am]jouait \[E]tous les \[Am]trois
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     On était malhabiles
     Elle était difficile
     La fugue d'autrefois
     Qu'on jouait tous les trois
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[A]Éléonore attaquait \[Dm]le thème au pia\[G7]no
     On trou\[C]vait ça tellement \[F]beau
     Qu'on en ou\[B&]bliait \[Am]de jouer pour l'\[E]écou\[Am]ter
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Elle s'arrêtait brusquement et nous regardait
     Du haut de son tabouret
     Et disait : {\og}Reprenez à \emph{fa mi fa mi ré}{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Souviens-toi qu'un violon fut jeté sur le sol
     Car c'était toujours le sol
     Qui gênait Nicolas quand il était bémol
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Quand les voisins commençaient à manifester
     C'était l'heure du goûter
     Salut Jean-Sébastien et à jeudi prochain
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Un jour Éléonore a quitté la maison
     Emportant le diapason
     Depuis ce jour, nous n'accordons plus nos violons
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     L'un après l'autre, nous nous sommes dispersés
     La fugue seule est restée
     Mais chaque fois que je l'entends, c'est le printemps
-  \endverse
+  \end{verse*}
 
 \endsong

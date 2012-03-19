@@ -7,7 +7,7 @@
   \gtab{C}{X32010}
   \gtab{G7}{320001}
 
-  \beginverse
+  \begin{verse}
     \[C]Oui, mon doux minet, la mini
     Oui, la mini est la ma\[G7]nie
     Est la manie de Mélanie
@@ -16,9 +16,9 @@
     Doux nénés de nounou mou\[G7]lés
     Dans de molles laines lamées
     Et mêlées de lin mila\[C]nais
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Amélie dont les nénés doux
     Ont donné à l'ami Milou
     \echo{Milou le dadais de limoux}
@@ -27,9 +27,9 @@
     Miaulant dans des dais de damas
     Et dont les mines de lama
     Donnaient mille idées à Léda
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Léda dont les dix dents de lait
     Laminaient les mâles mollets
     D'un malade mendiant malais
@@ -38,9 +38,9 @@
     Même l'amibe malhabile
     Emmiellée dans la bile humide
     L'amibe, ami, mine le bide
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et le dit malade adulé
     Dont Léda limait les mollets
     Indûment le mal a donné
@@ -49,9 +49,9 @@
     Demandait dans le bas du dos
     Mille lents mimis d'animaux
     Aux doux minets donna les maux
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et les minets de maux munis
     Mendiant de midi à minuit
     Du lait au néné d'Amélie
@@ -60,9 +60,9 @@
     L'Amélie aux dodus nénés
     Et mille maux démodelaient
     Le doux minois de la mémé
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mélanie la mit au dodo
     Malade, laide, humide au dos
     Et lui donna dans deux doigts d'eau
@@ -71,11 +71,11 @@
     Où est la mini de Mélanie ?
     --- Malin ! La mini élimée
     Mélanie l'a éliminée{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Ah la la la la ! Quel méli- mélo, dis !
     Ah la la la la ! Quel méli-mélo, dis !
-  \endchorus
+  \end{chorus}
 
 \endsong

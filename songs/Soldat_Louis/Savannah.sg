@@ -10,50 +10,50 @@
   \gtab{Em}{022000}
   \gtab{D}{XX0232}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Am C G]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Am]Condamnés à l'océan au \[C]vent qui mène le \[G]bal
     \[Am]Oubliés des honnêtes gens, du \[C]dieu, des cathé\[G]drales
     \[Am]Rien n'pouvant plus \[Em]{les sauver}, on \[G]peut traîner nos \[D]âmes
     \[Am]{Des tropiques} aux \[Em]{bas quartiers} de \[D]Ro\[G]ter\[Am]dam
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Am]{À force} de chercher les brumes où \[C]cacher nos er\[G]reurs
       \[Am]Nous, gentilshommes de fortune, de \[C]quoi avons nous \[G]peur
       \[Am]Plus du gibet d'\[Em]Savannah que d'\[G]Satan et ses \[D]flammes
       \[Am]{On préfère} la \[Em]mort du bras qui \[D]tient \[G]une \[Am]lame
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[Am]Prêts à livrer mille batailles pour \[C]l'or du roi d'Es\[G]pagne
       \[Am]{Le pont} témoin d'nos ripailles, c'est \[C]chaque fois que l'on \[G]gagne
       \[Am]{Le rhum} et le \[Em]chant des hommes font \[G]briller les é\[D]toiles
       \[Am]{Sur une} gigue on \[Em]{fait des} mômes, on \[D]r'met \[G]les \[Am]voiles
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[Am]{Le cap} sur les mers du sud, le \[C]temps nous en fait \[G]voir
       \[Am]{On r'trouve} not' lot d'solitude, de \[C]haine, de déses\[G]poir
       \[Am]Tant pis pour la \[Em]proie facile qui \[G]croise notre \[D]route
       \[Am]{Une fille} contre un \[Em]droit d'asile, c'est \[D]c'que \[G]ça \[Am]coûte
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[Am]Frères, assassins, déserteurs au \[C]destin sangui\[G]naire
       \[Am]{La Bible}, le Jolly Roger, à \[C]bord ça va de \[G]pair
       \[Am]{Ce n'est} pas l'sang \[Em]{sur nos} mains qui \[G]fera peur aux \[D]femmes
       \[Am]Comme nous elles valent \[Em]moins que rien, moins \[D]que \[G]leurs \[Am]charmes
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote[french]{Coda : Gratter une fois chaque accord}
     \musicnote[english]{Coda : Play each chord once}
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -9,43 +9,43 @@
   \gtab{F}{1:022100}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     \[C]Boumbo, Boumbo
     Petite automo\[Am]bile \echo{bile}
     Tu parais si fra\[F]gile \echo{gile}
     Sous ton drôle de ca\[G]pot
     Bou-bou-bou Boumbo
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Boumbo, Boumbo
     Tes deux amis fidèles \echo{dèles}
     Se raccrochent à tes ailes \echo{ailes}
     Pour pas tomber de haut
     Bou-bou-bou Boumbo
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Quand tu respires une fleur
     \[C]Ça fait boum-boum dans ton cœur
     \[F]Tu affoles tes mécaniques
     Et tu de\[G]viens Boumbo magique
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Boumbo, Boumbo
     De campagnes en collines \echo{lines}
     Tu roules et te dandines \echo{dines}
     Sans jouer les héros
     Bou-bou-bou Boumbo
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Boumbo, Boumbo
     T'es la petite nouvelle \echo{velle}
     Le tout dernier modèle \echo{dèle}
     La plus belle des autos
     Bou-bou-bou Boumbo \rep{2}
-  \endverse
+  \end{verse}
 
 \endsong

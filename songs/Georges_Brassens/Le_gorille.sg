@@ -7,7 +7,7 @@
   \gtab{D}{XX0232}
   \gtab{A7}{X02020}
 
-  \beginverse
+  \begin{verse}
     \[D]C'est à travers de larges grilles
     Que les femelles du can\[A7]ton
     Contemplaient un puissant gorille
@@ -16,13 +16,13 @@
     Lorgnaient même un endroit pré\[A7]cis
     Que, rigoureusement ma mère
     M'a défendu de nommer i\[D]ci \dots
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Gare au go\[D]ri\[A7]i\[D]i\[A7]i\[D]lle !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Tout à coup la prison bien close
     Où vivait le bel animal
     S'ouvre, on n'sait pourquoi. Je suppose
@@ -31,9 +31,9 @@
     Dit : {\og}C'est aujourd'hui que j'le perds{\fg}
     Il parlait de son pucelage
     Vous l'aviez deviné, j'espère
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Le patron de la ménagerie
     Criait, éperdu : {\og}Nom de nom !
     C'est assommant car le gorille
@@ -42,9 +42,9 @@
     Sut que le singe était puceau
     Au lieu de profiter de la chance
     Elle fit feu des deux fuseaux
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Celles là même qui, naguère
     Le couvaient d'un œil décidé
     Fuirent, prouvant qu'elles n'avaient guère
@@ -53,9 +53,9 @@
     Que le gorille est un luron
     Supérieur à l'homme dans l'étreinte
     Bien des femmes vous le diront
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tout le monde se précipite
     Hors d'atteinte du singe en rut
     Sauf une vielle décrépite
@@ -64,9 +64,9 @@
     Le quadrumane accéléra
     Son dandinement vers les robes
     De la vieille et du magistrat
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     {\og}Bah ! soupirait la centenaire
     Qu'on puisse encore me désirer
     Ce serait extraordinaire
@@ -75,9 +75,9 @@
     {\og}Qu'on me prenne pour une guenon
     C'est complètement impossible \dots{\fg}
     La suite lui prouva que non
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Supposez que l'un de vous puisse être
     Comme le singe, obligé de
     Violer un juge ou une ancêtre
@@ -86,9 +86,9 @@
     Un de ces quatre jours, m'échoie
     C'est, j'en suis convaincu, la vieille
     Qui sera l'objet de mon choix
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mais, par malheur, si le gorille
     Aux jeux de l'amour vaut son prix
     On sait qu'en revanche il ne brille
@@ -97,9 +97,9 @@
     Comme l'aurait fait n'importe qui
     Il saisit le juge à l'oreille
     Et l'entraîna dans un maquis
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La suite serait délectable
     Malheureusement, je ne peux
     Pas la dire, et c'est regrettable
@@ -108,6 +108,6 @@
     Criait : {\og}Maman !{\fg}, pleurait beaucoup
     Comme l'homme auquel, le jour même
     Il avait fait trancher le cou
-  \endverse
+  \end{verse}
 
 \endsong

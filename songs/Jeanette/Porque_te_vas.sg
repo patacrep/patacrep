@@ -12,21 +12,21 @@
   \gtab{Dm}{5:X02210}
   \gtab{D}{5:X02220}
 
-  \beginverse
+  \begin{verse}
     \[Gm]Hoy en mi ventana brilla el \[Cm]sol
     Y el cora\[Gm]zón
     Se pone \[Cm]triste contemplando la ciu\[Gm]dad \[D7]
     Porque te \[Gm]vas
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Como cada noche desperté
     Pensando en ti
     Y en mi reloj todas las horas vi pasar
     Porque te vas
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[E&]Todas las promesas de mi amor
     Se irán con\[Gm]tigo
     Me olvida\[B&]ras, \[Dm] me olvida\[Gm]ras
@@ -34,21 +34,21 @@
     Igual que un \[Gm]niño
     Porque te \[B&]vas, \[D] porque te \[Gm]vas
     \[D] Porque te \[Gm]vas, \[D] porque te \[Gm]vas
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Bajo la penumbra de un farol
     Se dormirán
     Todas las cosas que quedaron por decir
     Se dormirán
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Junto a las manillas de un reloj
     Esperaran
     Todas las horas que quedaron por vivir
     Esperaran
-  \endverse
+  \end{verse*}
 
 \endsong
 

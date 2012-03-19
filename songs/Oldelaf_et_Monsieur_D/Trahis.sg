@@ -10,55 +10,55 @@
   \gtab{E}{022100}
   \gtab{C#}{4:X02220}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[F{\shrp}m D A E]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[F#m]{Tu as} eu une \[D]{si riche} car\[A]riè\[E]re
     \[F#m]Toujours fréquen\[D]té les hautes \[A]sphè\[E]res
     \[D]{Tu vivais} un peu comme dans un \[F#m]rêve
     \[D]Pourquoi faudrait-il que tout s'a\[C#]chève ?
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dire que t'avais tout pour ton bonheur
     Intelligente et belle comme un cœur
     Tu étais la reine pour tous les hommes
     On avait même acheté ton album
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Tu nous as tra\[F#m]his, tu nous as tra\[D]his
     \[A]Et dire que t'étais à Charlé\[E]ty
     Tu nous as tra\[F#m]his, tu nous as tra\[D]his
     \[A]Mais qu'est-ce que t'as fait Carla Bru\[C#]ni ?
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Tu nous as trahis, tu nous as trahis
     Calvier et Bigard sont tes nouveaux amis
     Tu nous as trahis, tu nous as trahis
     Tu peux plus mettre de talons aiguilles
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Tu nous as trahis, tu nous as trahis
     Dis-moi que c'était pour un pari ?
     Tu nous as trahis, tu nous as trahis
     Il paraît que t'as rencontré Goufi ?
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Tu nous as déçus, tu nous as déçus
     À moins que t'aies des problèmes de vue ?
     Tu nous as déçus, tu nous as déçus
     Mais qu'est-ce que t'as fait Carla Nibru ?
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     Tu nous as trahis \echo{Y'a quelqu'un qui m'a dit !} \rep{8}
     Carla Bruni !
-  \endverse
+  \end{verse*}
 
 \endsong

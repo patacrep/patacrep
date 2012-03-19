@@ -12,7 +12,7 @@
   \gtab{D7}{XX0212}
   \gtab{G7}{320001}
 
-  \beginverse
+  \begin{verse}
     Come \[G]gather 'round \[Em]people
     Where \[C]ever you \[G]roam
     And ad\[G]mit that \[Am]waters
@@ -23,9 +23,9 @@
     Then you better start \[D7]swimmin'
     Or you'll \[G7]sink like a s\[D]tone
     For the \[G]times they are a-\[C]cha\[D]ngi\[G]n'
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Come writers and critics
     Who prophecies with your pen
     And keep your eyes wide
@@ -37,9 +37,9 @@
     For the loser now
     Will be later to win
     For the times they are a-changin'
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Come mothers and fathers
     Throughout the land
     And don't criticize
@@ -51,9 +51,9 @@
     Please get out of the new one
     If you can't lend your hand
     For the times they are a-changin'
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Come senators, congressmen
     Please heed the call
     Don't stand in the doorway
@@ -65,9 +65,9 @@
     It'll soon shake your windows
     And rattle your walls
     For the times they are a-changin'
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     The line it is drawn
     The curse it is cast
     The slow one now will
@@ -78,6 +78,6 @@
     And the first one now
     Will later be last
     For the times they are a-changin'
-  \endverse
+  \end{verse}
 
 \endsong

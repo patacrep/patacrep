@@ -11,51 +11,51 @@
   \gtab{C}{X32010}
   \gtab{Em}{022000}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Am F G]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Am]Tous les soirs, assis sur mon arrosoir de whisky
     Je con\[E]somme ainsi mon éner\[Am]gie \[F G]
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Tous les soirs, je regarde ma maison, comme un con
     Je recherche Mamour et mes marmots
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     \[C]Et, on se fout les \[Em]pieds, dans des pro\[C]jets, qui n'ont ja\[E]mais
     Servi à \[Am]rien d'autre que de dépen\[G]ser, le temps de nos passe-\[Am]temps \[F G]
     \rep{2}
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Tous les jours, douze heures de taf. À y croire douze mille dollars
     Tous les mois, en cadence de la victoire
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     À présent rien ne compte plus que l'argent de mes affaires
     Au foyer, je suis un père oublié
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Le dimanche, on enclenche la bonne morale de la conscience
     Cons vaincus, assis sur le banc d'une église
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     On écoute le son des cloches qui nous parlent de grands discours
     Des discours, tout sauf de l'amour
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Le temps de nos passe-temps ! Le temps de nos passe-temps !
     \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

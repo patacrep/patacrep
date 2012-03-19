@@ -12,46 +12,46 @@
 
   \lilypond{Noel_en_Mordor}
 
-  \beginchorus
+  \begin{chorus}
     Du Mor\[Am]{dor à} la Com\[C]té
     C'est \[G]Noël, c'est \[Em]Noël
     Du Mor\[Am]{dor à} la Com\[C]té
     Tous les \[G]vœux sont \[Em]exau\[Am]cés
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[Am]Imagi\[G]nez que \[F]Père Noël le \[Em]vieux
     \[Am]Souhaitant sou\[G]dain com\[F]pléter sa tour\[Em]née
     \[Am]{S'en} fut per\[G]du dans \[F]les Terres du Mi\[Em]lieu
     \[Am]Les vœux de \[G]tous vou\[F]drait réali\[Em]ser
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Merry, Pippin, les Hobbits affamés
     Auraient reçu un festin magnifique
     Sur du Lambas, un beau foie gras poêlé
     Gigot de cerf aux champignons jolis
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sam et Frodon, les pieds ensanglantés
     Pourraient monter sur le traîneau volant
     Si fatigués d'une longue randonnée
     Directement les mener au volcan
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Le côté sombre ne serait pas en reste
     Sauron le Noir trouvant près du sapin
     Le bel Anneau caché dans ses chaussettes
     Frodon pleurant sur le Mont du Destin
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Pour éviter d'autres vœux à la con
     Le père Noël serait livré ficelé
     À quelques trolls, aimant farces et marrons
     Le règne sombre pourrait bien commencer
-  \endverse
+  \end{verse}
 
 \endsong

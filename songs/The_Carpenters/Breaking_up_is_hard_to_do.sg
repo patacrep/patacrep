@@ -11,37 +11,37 @@
   \gtab{Em}{022000}
   \gtab{Dm}{XX0231}
 
-  \beginchorus
+  \begin{chorus}
     Come-a, \[G]come on down, \[C]doobie do down \[Am]down\[F] \rep{3}
     \[G]Breaking up is \[C]hard \[F]to \[C]do
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Don't take your \[C]lo\[Am]ve a\[F]way from \[G]me
     \[C]Don't you \[Am]leave my heart in \[F]mise\[G]ry
     \[Em]If you go then \[Am]I'll be blue
     'Cause \[Dm]breaking up is hard to \[G]do
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Remember when you hold me tight
     And then you kissed me all through the night
     Think of all that we've been through
     'Cause breaking up is hard to do
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     I beg of you don't say good-bye
     Can't we give our love another try
     And maybe it'll start anew
     'Cause breaking up is hard to do
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     I beg of you don't say good-bye
     Can't we give our love another try
     And maybe it'll start anew
     'Cause breaking up is hard to do
-  \endverse
+  \end{verse*}
 
 \endsong

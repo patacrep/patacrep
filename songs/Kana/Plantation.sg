@@ -8,55 +8,55 @@
   \gtab{C}{3:X02220}
   \gtab{D}{5:X02220}
 
-  \beginverse*
+  \begin{verse*}
     Je \[G]viens de m'acheter un p'tit lo\[C]pin de terre
     \[D]Pour pouvoir faire plan\[G]ter
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     J'\[G]ai un tout petit problème dans ma \[C]plantation
     \[D]Pourquoi ça pousse \[G]pas ?
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Moi j'ai planté bananes
     Banane, ça pousse pas
     Moi j'ai planté cocos
     Coco, ça pousse pas
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi j'ai planté légumes
     Légumes toujours pas pousser
     Moi j'ai planté agrumes
     Agrumes toujours pas pousser
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi j'ai planté concombres
     Concombre, ça pousse pas
     Moi j'ai planté bien à l'ombre
     À l'ombre ça pousse toujours pas
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi j'ai planté manioc
     Manioc toujours pas pousser
     Moi j'ai planté tapioc
     Tapioc toujours pas pousser
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi j'ai planté Kana
     Canne à sucre ça pousse pas
     Moi j'ai planté des nanas, des tas !
     L'ananas ça pousse pas
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi j'ai planté ganja
     Ganja ça pousse comme ça ~\dots
-  \endverse
+  \end{verse}
 
 \endsong

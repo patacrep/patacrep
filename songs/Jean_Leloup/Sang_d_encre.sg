@@ -11,81 +11,81 @@
   \gtab{G}{320003}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     Je me suis \[Em]{fait un} sang d'encre pour \[D]toi
     Comme une \[Am]pieuvre dans un gros bac chi\[Em]nois
     À voir ta \[Em]gueule ce matin je te \[D]crois
     J'ai bien fait \[Am]{de penser} très fort à \[Em]toi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'ai envo\[C]{yé des} chansons dans les airs
     En espé\[Am]{rant qu'un} pigeon voyageur
     Te les chan\[G]terait par jour ou noirceur
     Jusqu'à ce que \[F]{tu reviennes} par i\[Am]ci
     Par i\[G]ci, par i\[F]ci, par i\[Am]ci
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[G]{Ne me} raconte plus ja\[F]mais de salades
     \[Am]{Dis-moi} toujours quand tu te sens malade
     \[G]J'ai une épaule bour\[F]rée de pouvoirs
     (Il) \[Am]paraît qu'elle aide à pleurer dans le noir
     Dans le \[C]noir \[D Em]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Je me suis \[Em]{fait un} sang d'encre pour \[D]toi
       Comme une \[Am]pieuvre dans un gros bac chi\[Em]nois
       À voir c'ma\[Em]{tin les} bobos sur tes \[D]bras
       J'ai bien fait \[Am]{de penser} très fort à \[Em]toi
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Que nous so\[C]yons amis ou amoureux
       Mais mainte\[Am]nant nos cœurs battent à deux
       Je te com\[G]prends beaucoup plus que tu crois
       Alors s'il \[F]{te plaît} la prochaine \[Am]fois, appelle-\[G]moi
       Appelle-\[F]moi, appelle-\[Am]moi
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[G]Enfin aujourd'hui te \[F]revoilà
       \[Am]{À voir} les cicatrices sur tes bras
       \[G]{J'ai bien} fait de penser \[F]très fort à toi
       \[Am]{Je me} suis fait un sang d'encre pour toi
-    \endchorus
+    \end{chorus}
 
-    \beginchorus
+    \begin{chorus}
       \[G]{Je me} suis fait un sang \[F]d'encre pour toi
       \[Am]Comme une pieuvre dans un gros bac chinois
       \[G]{À voir} c'matin les bo\[F]bos sur tes bras
       \[Am]{J'ai bien} fait de penser très fort à toi
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \[C]{Je me} suis fait un sang \[D]d'encre pour toi
     \[Em]{Je me} suis fait un sang d'encre pour toi
     \[C]{Je me} suis fait un sang \[D]d'encre pour toi
-  \endchorus
+  \end{chorus}
 
   % Note : « moins quart » n'est pas une erreur
-  \beginverse
+  \begin{verse}
     \[Em]{Le collier} que tu m'a\[G]vais fabriqué
     \[Am]Hier à cinq heures moins \[C]quart s'est brisé
     \[Em]{Que s'est-il} passé à \[G]cinq heures moins quart
     \[Am]Probablement qu'on te \[C]voulait du mal
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \begin{repeatedchords}
       \[Em]{Je me} suis fait un sang \[G]d'encre pour toi
       \[Am]Comme une pieuvre dans un \[C]gros bac chinois
       \[Em]{À voir} c'matin les bo\[G]bos sur tes bras
     \end{repeatedchords}
     \[Am]{J'ai bien} fait de penser \[C]très fort à \[Em]toi
-  \endverse
+  \end{verse}
 
 \endsong

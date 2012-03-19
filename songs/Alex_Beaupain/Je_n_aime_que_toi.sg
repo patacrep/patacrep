@@ -11,77 +11,77 @@
   \gtab{Bm}{2:X02210}
   \gtab{F#7}{2:020100}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[D F{\shrp}m Em A]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[D]Petit salaud, ton \[F#m]jeu est clair
     \[Em]Tu veux tout sans ranc\[A]une
     \[D]Le beurre, le cul de \[F#m]la crémière
     \[Em]Deux pour le \[A]prix d'une
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Bm]Petite garce que tu \[F#7]es vulgaire
     \[Bm]Que c'est laid dans ta \[Em]bouche
     \[Bm]Que cette jalousie \[F#7]m'indiffère
     \[Bm]Vois comme tu te \[F#7]couches
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \[Bm]Je suis le pont sur \[F#7]la rivière
     \[Bm]Qui va de toi \[Em]à toi
     \[Bm]Traversez-moi, \[F#m]la belle affaire
     \[Em]Embrassez-\[A]vous sur \[D]moi hum \[F#7]hum hum \[Em]hum
     \[A]Je n'aime que toi \[D]hum hum \[F#7]hum hum \[Em]hum
     \[A]Je n'aime que \[D]toi
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Petit salaud, petit pervers
     Où as-tu mis les doigts ?
     D'où viennent ces odeurs étrangères
     Sûrement pas de moi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Petite garce va donc te faire
     Tu n'es pas moins farouche
     Non tu n'es pas moins adultère
     Vois comme elle te touche
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Je suis le pont sur la rivière
     Qui va de toi à toi
     Me passer dessus, la bonne affaire
     M'enjamber pourquoi pas hum hum hum hum
     Je n'aime que toi, toi toi, toi toi
     Je n'aime que toi
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Petit salaud qui tu préfères ?
     Qui tu veux fais ton choix ?
     Le bon vieux temps, la nouvelle ère
     C'est elle ou moi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Petite garce qui je préfère
     Tu le sais mieux que moi
     Je préfère que tu sois légère
     À la guerre à trois
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Je suis le pont sur la rivière
     Vos guerres me laissent de bois
     Piétinez-moi, que puis-je y faire
     Je ne bouge pas de là la la la la
     Je n'aime que toi, la la la la la \rep{3}
     Je n'aime que toi
-  \endverse
+  \end{verse*}
 
 \endsong

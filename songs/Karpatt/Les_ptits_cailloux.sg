@@ -9,7 +9,7 @@
   \gtab{F}{1:022100}
 
 
-  \beginverse
+  \begin{verse}
     J'ai\[Dm]merais sortir mon chien pour croiser la voisine
     Quand elle ballade le \[A]sien, elle est belle j'ima\[Dm]gine
     Que ça vaut le détour, du pâté de maisons
@@ -18,16 +18,16 @@
     \[F]Poilue a des be\[A]soins, \echo{oh oh oh}
     \[F]Aussi pré\[A]cis, \[F]aussi ra\[A]pides
     \[F]Trois mi\[A]nutes soir et ma\[Dm]tin\[A]\[Dm]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Elle sème des p\[A]tits cailloux
     \[F]Tout le long du che\[A]min
     \[Dm]Faci\[A]le de \[F]la trou\[A]ver
     Y'a \[Dm]qu'à sui\[A]vre les \[Dm]merdes \[A]du \[Dm]chien
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'aimerais sortir mon chien pour croiser la voisine
     On parlerait croquette, elle serait ma copine
     Je lui dirais les {\og}nonos{\fg}, qu'il aime vachement
@@ -36,9 +36,9 @@
     Elle me le prêterait, \echo{oh oh oh}
     Le p'tit manteau, manteau en laine
     C'est moi qui lui tricoterais
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'aimerais sortir mon chien pour croiser la voisine
     On pourrait partager notre passion canine
     Main dans la main, ils se renifleraient
@@ -47,9 +47,9 @@
     Devant Dame Nature, \echo{oh oh oh}
     Qui nous offrit, offrirait-là
     Offrirait ce qu'elle a de plus pur
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mais j'ai jamais eu de chien, j'ai pas vu la voisine
     Rien que du balcon qui donne dans ma cuisine
     Entre-nous soit dit, même si je me régale
@@ -58,7 +58,7 @@
     L'emmener promener, \echo{oh oh oh}
     Ailleurs que sous, sous mon balcon
     Ça me soulagerait le nez !
-  \endverse
+  \end{verse}
 
 
 \endsong

@@ -13,55 +13,55 @@
   \gtab{E&dim}{XX1212}
   \gtab{Am/C}{X32210}
 
-  \beginverse
+  \begin{verse}
     \musicnote{\Intro : \nolyrics \[Am E7 Am E7]}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     L'\[Am]amour est une forte\[E7]resse
     Dont \[Am]les murs sont faits de pro\[Dm]messes
     C'est \[Fmaj7]là que dorment les \[E&dim]amants
     Ca\[E7]chés de tout, cachés du temps
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et quand leurs lèvres se rejoignent
     C'est tout l'univers qui s'éloigne
     Autour, le silence est parfait
     Comme un instant d'éternité
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Dm]Tourne le, \[E7]tourne le, \[Am]tourne le \[Am/C]temps
     \[Fmaj7]Tout autour \[E7]des a\[Am]mants
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     L'amour est une forteresse
     Dont les murs sont faits de tendresse
     Aussi fins qu'un papier de soie
     Mais qui ne se déchire pas
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     La peau et la peau qui se touchent
     Les mots qui naissent sur la bouche
     Disent tout bas comme un secret
     Qu'on peut tout prendre et tout donner
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     L'amour est une forteresse
     Qu'il faut réinventer sans cesse
     Pour qui oublie de la rêver
     Elle disparaît à tout jamais
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Si devant vous des amants passent
     Quoiqu'ils se disent ou quoiqu'ils fassent
     Ne vous posez pas de questions
     L'amour a toujours ses raisons
-  \endverse
+  \end{verse*}
 
 \endsong

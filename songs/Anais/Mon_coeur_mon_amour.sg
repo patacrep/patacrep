@@ -9,21 +9,21 @@
   \gtab{B}{2:X02220}
   \gtab{C#}{4:X02220}
 
-  \beginverse
+  \begin{verse}
     Mon \[F#]cœur, mon a\[F7/C7]mour
     Mon amour, mon cœur
     Mon cœur, mon amour
     Mon amour, mon cœur
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Ça dégou\[F#]line d'a\[F7/C7]mour
     C'est beau mais c'est insupportable
     C'est un pudding bien lourd
     De mots doux à chaque phrase
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[B]Elle est belle ta \[F#]quiche amour
     Mon cœur, passe-moi la salade
     Et ça se fait des mamours
@@ -32,31 +32,31 @@
     Aromatisé aux fines herbes
     Me fait sourire gentiment
     Et finale\[B]ment me donne la \[C#]gerbe
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Je \[B]hais les \[C#]couples
     Qui me ra\[F#]ppellent que je suis \[B]seule
     Je \[B]déteste les \[C#]couples
     Je les hais tout court !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Mon cœur, mon amour
     Mon amour, mon cœur
     Mon cœur, mon amour
     Mon amour, mon cœur
     Toulou toulou tou tou {\ldots}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est un épais coulis
     Ça me laisse le cul par terre
     Autant de mièvreries
     Nappées de crème pâtissière
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Coucou, qu'est-ce que tu fais mon cœur ?
     La même chose qu'y'a une demi-heure{\ldots}
     J't'ai appelé y'a 5 minutes mon ange
@@ -76,6 +76,6 @@
     T'as pas raccroché
     Un, deux, trois
     J'suis encore là !
-  \endverse
+  \end{verse*}
 
 \endsong

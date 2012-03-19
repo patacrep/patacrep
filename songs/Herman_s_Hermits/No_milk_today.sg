@@ -13,30 +13,30 @@
   \gtab{E}{022100}
   \gtab{F#m}{2:022000}
 
-  \beginverse
+  \begin{verse}
     \[Am]No milk today, my \[C]love has gone away
     The \[E7]bottle stands for \[Am]lorn, a \[E7]symbol of the \[Am]dawn
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     No milk today, it seems a common sight
     But people passing by don't know the reason why
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[A]How could they know just \[G]what this message means
     The \[D]end of my hopes, the \[D]end of \[E7]all my \[A]dreams
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     How could they know the palace there had been
     Behind the door where my love reigned as queen
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     No milk today, it wasn't always so
     The company was gay, we turned night into day
-  \endverse
+  \end{verse}
 
   \begin{bridge}
     \[A]But all that's \[E]left is a \[D]place dark and \[E]lonely
@@ -46,10 +46,10 @@
     \[D]Just two up two \[E]down
   \end{bridge}
 
-  \beginverse
+  \begin{verse}
     No milk today, it wasn't always so
     The company was gay, we turned night into day
-  \endverse
+  \end{verse}
 
   \begin{bridge}
     As music played the faster did we dance

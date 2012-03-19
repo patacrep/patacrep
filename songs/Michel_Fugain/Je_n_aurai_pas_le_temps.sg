@@ -14,31 +14,31 @@
   \gtab{D}{XX0232}
   \gtab{A}{X02220}
 
-  \beginverse
+  \begin{verse}
     \[C]Même \[G]en cou\[C]rant
     \[C]Plus \[G]vite que le \[C]vent
     Plus vite que le \[G]temps
     \[E]Même en vo\[F]lant
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Je n'au\[G]rai pas le \[C]temps
     \[G]Pas le \[C]temps
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     De visiter
     Toute l'immensité
     D'un si grand univers
     Même en cent ans
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Je n'aurai pas le temps
     De tout faire
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \[E]{J'ou}\[B7]vre tout grand mon \[C#m]cœur
     \[A]J'ai\[E]me de tout mes \[F#m]yeux
     \[D]{C'est} trop \[F#m]peu
@@ -46,19 +46,19 @@
     \[A]Et tant de \[D]pleurs
     Des mill\[G]iers de \[D]jours
     \[A]{C'est} bien trop \[D]court \rep{2}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et pour aimer
     Comme l'on doit aimer
     Quand on aime vraiment
     Même en cent ans
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Je n'aurai pas le temps
     Pas le temps
-  \endchorus
+  \end{chorus}
 
 
 \endsong

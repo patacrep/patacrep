@@ -11,7 +11,7 @@
   \gtab{B7}{X21202}
 
 
-  \beginverse
+  \begin{verse}
     C'est pas si \[Em]beau l'amour
     Quand c'est à toi qu'je pense
     Dans les bras d'une autre
@@ -23,17 +23,17 @@
     C'est pas \[B7]beau, vivantes ou \[Em]mortes
     Les a\[B7]mours font mal aux \[Em]dents
     Et me voi\[D]{là, cœur} impo\[G]tent, devant ta \[B7]porte
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Viens-\[Em]{là, putain} d'balle\[Am]rine !
     Jus\[D]{te danser} pour moi
     C'est pas la \[G]peine qu'on s'invente, \[B7]là !
     Que je te \[Em]manque
     La \[D]chute me chu\[G]choterait tout \[B7]bas \dots
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     C'est pas si beau l'amour
     Quand même ma mémoire me dit
     C'était une autre ou je ne te crois pas
@@ -42,24 +42,24 @@
     Ça n'est pas à courte paille
     Que les anges font merveille
     Et qu'on en raille, sans sommeil en suppliant
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Viens-là, putain d'princesse !
     Juste briller pour moi
     Du seul éclat digne de prose, là !
     Le temps que j'ose
     Te faire la promesse encore une fois :
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Qu'un \[Em]accordéon, c'est de la musique
     Et \[B7]quand il court, ça fait du panta\[Em]lon \dots
     \[G]S'il se marie oncques, en séman\[D]tique
     \[Em]C'est des mots d'amour au vio\[B7]lon
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et \[Em]moi j'ai pas la tête à ça
     J'entends là le trépas
     De belle rhéto\[B7]rique
@@ -71,6 +71,6 @@
     \[Em]Mais s'il y a là le geste
     C'est un bout de \[B7]toi \dots
     Qui s'en \[Em]va ! \[B7] \[B7] \[Em] \[G] \[D] \[Em] \[B7]
-  \endverse
+  \end{verse}
 
 \endsong

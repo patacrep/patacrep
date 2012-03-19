@@ -13,21 +13,21 @@
   \gtab{B&}{1:X02220}
   \gtab{A7}{X02020}
 
-  \beginverse
+  \begin{verse}
     \[D]Un petit gar\[C]çon est venu \[D]me voir tout à l'heure
     Avec des \[C]crayons et du pa\[D]pier
     Il m'a dit je \[C]veux dessiner \[D]un homme en couleur
     \[Em]Dis-moi comment le colo\[D]rier
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je voudrais qu'il soit pareil que moi quand je serai grand
     Libre, très fort et heureux
     Faut-il le peindre en bleu, en noir ou en blanc
     Pour qu'il soit comme je le veux ?
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[D]Si tu le \[G]peins en \[D]bleu, \[A]fils
     \[D]Il ne te res\[G]semblera \[A]guère
     \[F]Si tu le \[B&]peins en \[F]rouge, \[C]fils
@@ -36,20 +36,20 @@
     \[G]Il aura \[C]faim toute \[G]sa pauvre \[D]vie
     \[Em]Si tu le peins en \[A7]noir fils
     \[Em]Plus de liberté pour \[D]lui
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Alors le petit garçon est rentré chez lui
     Avec son beau cahier sous le bras
     Il a essayé de dessiner toute la nuit
     Mais il n'y arriva pas
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si l'on veut trouver une morale à ma chanson
     C'est assez facile en somme
     Il suffit de dire à tous les petits garçons
     Que la couleur ne fait pas l'homme
-  \endverse
+  \end{verse}
 
 \endsong

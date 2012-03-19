@@ -10,68 +10,68 @@
 
   \textnote[english]{spoken}
   \textnote[french]{parlé}
-  \beginverse*
+  \begin{verse*}
     Approchez, approchez mesdames et messieurs
     Car aujourd'hui grande vente aux enchères
     Dans quelques instants
     Mes deux jeunes apprentis saltimbanques
     Vont vous présentationner des mots
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Un mot pour \[Gm]tous, tous pour un \[Dm]mot
     Un mot pour \[A7]tous, tous pour un \[Dm]mot
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Des gros \[Gm]mots, pour les gros\[Dm]sistes
     Des mots de \[A7]tête, pour les charla\[Dm]tans
     Des jeux de \[Gm]mots, pour les ar\[Dm]tistes
     Des mots d'a\[A7]mour, pour les a\[Dm]mants
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Des mot-à-mot, pour les copieurs
     Des mots pour mot, pour les cafteurs
     Des mots savants, pour les emmerdeurs
     Des mobylettes, pour les voleurs
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Aujourd'\[Gm]hui grande vente aux enchères
     On achète des mots d'occa\[Dm]sion
     Des mots à \[A7]la page et pas chers
     Et puis des mots de collec\[Dm]tion
     Un mot pour \[Gm]tous, tous pour un \[Dm]mot
     Un mot pour \[A7]tous, tous pour un \[Dm]mot
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Des morues, pour les poissonniers
     Et des mochetés, pour les pas bien beaux
     Des mots perdus, pour les paumés
     Des mots en l'air, pour les oiseaux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Des mots de passe, pour les méfiants
     Et des mots clé pour les prisonniers
     Des mots pour rire, pour les enfants
     Des mots tabou, pour l'taboulet !
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Des mots croisés, pour les r'traités
     Et des petits mots, pour les béguins
     Des mots d'ordre, pour les ordonnés
     Des mots fléchés, pour les indiens
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Des momies, pour les pyramides
     Des demi-mots, pour les demi-portions
     Des mots courants, pour les rapides
     Et l'mot d'la fin, pour la chanson
-  \endverse
+  \end{verse*}
 
 \endsong

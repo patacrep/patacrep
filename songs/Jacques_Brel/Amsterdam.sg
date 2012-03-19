@@ -11,7 +11,7 @@
   \gtab{C}{X32010}
   \gtab{G7}{320001}
 
-  \beginverse
+  \begin{verse}
     Dans le \[Am]port d'Amsterdam
     Y'a des \[Em]marins qui chantent
     Les \[F]rêves qui les hantent
@@ -20,9 +20,9 @@
     Y'a des \[Em]marins qui dorment
     Comme \[F]des ori\[E7]flammes
     Le long \[Am]des berges mornes
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Dans le \[C]port d'Amsterdam
     Y'a des \[G7]marins qui meurent
     Pleins de \[Am]bière et de drames
@@ -31,9 +31,9 @@
     Y'a des \[Em]marins qui naissent
     Dans la \[F]chaleur é\[E7]paisse
     Des lan\[Am]gueurs océanes
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Dans le port d'Amsterdam
     Y'a des marins qui mangent
     Sur des nappes trop blanches
@@ -42,9 +42,9 @@
     À croquer la fortune
     À décroisser la lune
     À bouffer des haubans
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et ça sent la morue
     Jusque dans le cœur des frites
     Que leurs grosses mains invitent
@@ -53,9 +53,9 @@
     Dans un bruit de tempête
     Referment leur braguette
     Et sortent en rotant
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Dans le port d'Amsterdam
     Y'a des marins qui dansent
     En se frottant la panse
@@ -64,9 +64,9 @@
     Comme des soleils crachés
     Dans le son déchiré
     D'un accordéon rance
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Ils se tordent le cou
     Pour mieux s'entendre rire
     Jusqu'à c'que tout à coup
@@ -75,9 +75,9 @@
     Alors, le regard fier
     Ils ramènent leur batave
     Jusqu'en pleine lumière
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Dans le port d'Amsterdam
     Y'a des marins qui boivent
     Et qui boivent et reboivent
@@ -86,9 +86,9 @@
     Des putains d'Amsterdam
     De Hambourg ou d'ailleurs
     Enfin, ils boivent aux dames
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Qui leur donnent leurs jolis corps
     Qui leur donnent leurs vertus
     Pour une pièce en or
@@ -97,6 +97,6 @@
     Se mouchent dans les étoiles
     Et ils pissent comme je pleure
     Sur les femmes infidèles
-  \endverse
+  \end{verse*}
 
 \endsong

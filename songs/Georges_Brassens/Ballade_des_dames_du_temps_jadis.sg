@@ -11,7 +11,7 @@
   \gtab{F#}{2:022100}
   \gtab{Bm}{2:X02210}
 
-  \beginverse
+  \begin{verse}
     \[A]Dictes moy où, n'en quel pays
     Est \[E7]Flora, la belle Ro\[A]maine
     Archipiada, ne Thaïs
@@ -22,9 +22,9 @@
     Mais où \[E7]sont les neiges d'an\[F#]tan !
     Qui beau\[Bm]lté ot trop plus qu'hu\[A]maine ?
     Mais où \[E7]sont les neiges d'an\[A]tan !
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Où est la très sage Hélloïs
     Pour qui chastré fut et puis moyne
     Pierre Esbaillart à Saint Denis ?
@@ -33,9 +33,9 @@
     Qui commanda que Buridan
     Fust gecté en ung sac en Saine ?
     Mais où sont les neiges d'antan ! \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La royne Blanche comme lis
     Qui chantoit à voix de seraine
     Berte aux grant pié, Bietris, Alis
@@ -44,14 +44,14 @@
     Qu'Englois brûlèrent à Rouan
     Ou sont ilz, Vierge souveraine ?
     Mais où sont les neiges d'antan ? \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \dots
     Prince, n'enquérez de sepmaine
     Où elles sont, ne de cest an
     Que ce reffrain ne vous remaine :
     Mais où sont les neiges d'antan ? \rep{2}
-  \endverse
+  \end{verse}
 
 \endsong

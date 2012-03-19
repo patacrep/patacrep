@@ -10,7 +10,7 @@
   \gtab{Dm}{XX0231}
   \gtab{E7}{020100}
 
-  \beginverse
+  \begin{verse}
     \[Am]Un terrain vague, de vagues clôtures
     Un couple divague sur la maison \[G]future
     \[Am]On s'endette pour trente ans, ce pavillon sera le nôtre
@@ -18,18 +18,18 @@
     \[Dm]Les travaux sont finis, du moins le gros \[Am]œuvre
     Ça sent le plâtre et l'en\[E7]duit et la poussière toute \[Am]neuve
     \[Dm]Le plâtre et l'en\[Am]duit et \[E7]la poussière toute \[Am]neuve
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Des ampoules à nu pendent des murs, du plafond
     Le bébé est né, il joue dans le salon
     On ajoute à l'étage une chambre de plus
     Un petit frère est prévu pour l'automne
     Dans le jardin les arbres aussi grandissent
     On pourra y faire un jour une cabane \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Les enfants ont poussé, ils sont trois maintenant
     On remplit sans se douter le grenier doucement
     Le grand habite le garage pour être indépendant
@@ -37,27 +37,27 @@
     Monsieur rêverait de creuser une cave à vin
     Madame préférerait une deuxième salle de bain
     Ce sera une deuxième salle de bain
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Les enfants vont et viennent chargés de linge sale
     Ça devient un hôtel, la maison familiale
     On a fait un bureau dans la p'tite pièce d'en haut
     Et des chambres d'amis, les enfants sont partis
     Ils ont quitté le nid sans le savoir vraiment
     Petit à petit et vêtement par vêtement \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Ils habitent à Paris des apparts sans espace
     Alors qu'ici y'a trop de place
     On va poser, tu sais, des stores électriques
     C'est un peu laid c'est vrai, mais c'est plus pratique
     La maison somnole comme un chat fatigué
     Dans son ventre ronronne la machine à laver \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Les petits enfants espérés apparaissent
     Dans le frigo, on remet des glaces
     La cabane du jardin trouve une deuxième jeunesse
@@ -66,9 +66,9 @@
     Ses panoplies de cowboys aux petits ambassadeurs
     Qui colonisent pour la dernière fois
     La modeste terre promise, quatre murs et un toit
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Cette maison est en vente comme vous le savez
     Je suis, je me présente, agent immobilier
     Je dois vous prévenir si vous voulez l'acheter
@@ -84,5 +84,5 @@
     {\og}Laisse tranquille ton frère{\fg}
     {\og}Les enfants : à table !{\fg}
     Écoutez la musique, est-ce que vous l'entendez ? \rep{3}
-  \endverse
+  \end{verse}
 \endsong

@@ -9,7 +9,7 @@
   \gtab{G7}{320001}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     \[C]Tous les matins il achetait
     Des petits pains au choco\[G]lat
     \[G7]La boulangère lui souriait
@@ -22,9 +22,9 @@
     \[F]Et elle rêvait, mélanco\[C]lique
     Le soir dans sa bou\[G]tique
     À ce jeune homme dis\[C]tant
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Il était myope, voilà tout
     Mais elle ne le savait pas
     Il vivait dans un monde flou
@@ -37,9 +37,9 @@
     Mais la fille qui n'était pas bête
     Acheta des lunettes
     À l'élu de son cœur
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Dans l'odeur chaude des galettes
     Des baguettes et des babas
     Dans la boulangerie en fête
@@ -52,9 +52,9 @@
     Gambadant parmi les brioches
     Se remplissant les poches
     De petits pains au chocolat
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Lalalalala \dots
     Et pourtant, elle était belle
     Les clients ne voyaient qu'elle
@@ -64,6 +64,6 @@
     D'une simple paire de lunettes
     Pour accrocher deux êtres
     Et pour qu'ils soient heureux
-  \endverse
+  \end{verse}
 
 \endsong

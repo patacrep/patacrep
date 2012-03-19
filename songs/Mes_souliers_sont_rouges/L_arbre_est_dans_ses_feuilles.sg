@@ -8,86 +8,86 @@
   \gtab{A}{X02220}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     \[D]Et dans cet arbre
     Y'a une petite branche \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     La branche qu'est dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     L'arbre est dans ses \[D]feuilles Mari\[G]lène
     L'arbre est dans ses \[A]feuilles Don \[D]Dé
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Dans cette branche
     Y'a un petit nœud \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le nœud qu'est dans la branche
     La branche qu'est dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et dans ce nœud
     Y'a un petit trou \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le trou qu'est dans l'nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et dans ce trou
     Y'a un petit nid \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le nid qu'est dans l'trou
     Le trou qu'est dans l'nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et dans ce nid
     Y'a un petit œuf \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     L'œuf qu'est dans l'nid
     Le nid qu'est dans le trou
     Le trou qu'est dans le nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et dans cet œuf
     Y'a un oiseau \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     L'oiseau qu'est dans l'œuf
     L'œuf qu'est dans le nid
     Le nid qu'est dans le trou
     Le trou qu'est dans le nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et dans l'oiseau
     Y'a un petit cœur \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le cœur qu'est dans l'oiseau
     L'oiseau qu'est dans l'œuf
     L'œuf qu'est dans l'nid
@@ -95,14 +95,14 @@
     Le trou qu'est dans l'nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et dans ce cœur
     Y'a une petite bague \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     La bague qu'est dans l'cœur
     Le cœur qu'est dans l'oiseau
     L'oiseau qu'est dans l'œuf
@@ -111,14 +111,14 @@
     Le trou qu'est dans l'nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et dans cette bague
     Y'a un petit mot \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le mot qu'est dans la bague
     La bague qu'est dans l'cœur
     Le cœur qu'est dans l'oiseau
@@ -128,14 +128,14 @@
     Le trou qu'est dans l'nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Et ce petit mot
     S'appelle l'amour \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     L'amour qu'est dans l'mot
     Le mot qu'est dans la bague
     La bague qu'est dans l'cœur
@@ -146,6 +146,6 @@
     Le trou qu'est dans l'nœud
     Le nœud qu'est dans la branche
     La branche dans l'arbre
-  \endverse
+  \end{verse*}
 
 \endsong

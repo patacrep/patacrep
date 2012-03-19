@@ -10,7 +10,7 @@
 
   \lilypond{La_premiere_fois}
 
-  \beginverse
+  \begin{verse}
     La première \[Cm]fois
     Dès fois juste \[A&]en claquant des \[B&]doigts
     La première fois
@@ -43,9 +43,9 @@
     Blotti de silence, un cri
     La première fois
     Et puis bien d'autres se sont suivies
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La première fois
     Goutte de sueur sur le nez
     Entre tes doigts
@@ -78,9 +78,9 @@
     Un coup d'éclat et de panique
     La première fois
     Je me souviens de la musique
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et de savoir
     Le temps passe
     On est nostalgique
@@ -106,9 +106,9 @@
     Elle arrive, elle ne prévient pas
     La première fois
     Laisse des années derrière soi
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La première fois
     Moi j'attends toujours qu'elle arrive
     La première fois
@@ -140,6 +140,6 @@
     Allez savoir, j'ai oublié
     La première fois
     C'est là que tout a commencé \rep{3}
-  \endverse
+  \end{verse}
 
 \endsong

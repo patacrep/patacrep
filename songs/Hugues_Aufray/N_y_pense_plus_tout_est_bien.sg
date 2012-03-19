@@ -14,7 +14,7 @@
   \gtab{E}{022100}
 
 
-  \beginverse
+  \begin{verse}
     À \[C]quoi ça sert de \[G]chercher à com\[Am]prendre
     \[F]Pourquoi on dit ce qu'on \[G]dit
     À \[C]quoi ça sert de \[G]chercher à com\[Am]prendre
@@ -23,9 +23,9 @@
     \[F]Je serai déjà \[D7]loin très loin
     \[C]Il faut se \[E]quitter en che\[Am]min
     \[F]Mais n'y pense \[G]plus : tout est \[C]bien
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     À quoi ça sert de chercher la lumière
     Puisqu'il n'y a rien à voir
     À quoi ça sert de chercher la lumière
@@ -34,9 +34,9 @@
     Ce que tu n'as jamais su me dire
     Quand nous marchions main dans la main
     Mais n'y pense plus : tout est bien
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi j'ai choisi la route solitaire
     Pareille à celle du vent
     Moi j'ai choisi la route solitaire
@@ -45,9 +45,9 @@
     Tu aurais pu faire mieux, ma foi tant pis
     Le temps qu'on a passé c'était pour rien
     Mais n'y pense plus : tout est bien
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     À quoi ça sert de verser tant de larmes
     Ce sont des larmes perdues
     À quoi ça sert de verser tant de larmes
@@ -56,6 +56,6 @@
     On m'avait dit de toi, ce n'est qu'une enfant
     J'allais perdre mon âme dans tes mains
     Mais n'y pense plus : tout est bien
-  \endverse
+  \end{verse}
 
 \endsong

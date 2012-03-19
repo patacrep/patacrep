@@ -9,14 +9,14 @@
   \gtab{Dm}{XX0231}
   \gtab{G}{320003}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]T'en fais pas, \[Dm]mon p'tit loup
     \[G]C'est la vie, \[Dm]ne pleure pas
     \[Am]Tu oublieras, \[Dm]mon p'tit loup
     \[Am]Ne pleure pas
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[Am] Je t'amènerai sécher tes larmes
     Au vent des \[Dm]quatre points cardin\[Am]aux
     Respirer la violette à Parme
@@ -25,9 +25,9 @@
     Et la vall\[Dm]ée des Orchi\[Am]dés
     Et les enfants qui ne savonnent
     Le ventre \[Dm]avec des fleurs coup\[Am]ées
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Allons voir la terre d'Abraham
     C'est encore plus beau qu'on le dit
     Y'a des Van Gogh à Amsterdam
@@ -36,9 +36,9 @@
     Et on boira du vin d'Moselle
     J'te raconterai 1'succès qu'j'ai eu
     Un jour en jouant Sganarelle
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je t'amènerai voir Liverpool
     Et ses guirlandes de Haddock
     Et des pays où y a des poules
@@ -47,9 +47,9 @@
     De Colette et d'Marcel Aymé
     Ceux de Rabelais ou d'Léautaud
     Je suis sûr qu'tu vas les aimer
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J't'apprendrai à la Jamaïque
     La pêche de nuit au lamparo
     Et j't'emmènerai faire un pique-nique
@@ -58,9 +58,9 @@
     Pour voir le plafond d'la Sixtine
     On sera fasciné au Prado
     Par les Goya ou les Menine
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Connais-tu en quadriphonie
     Le dernier tube de Mahler ?
     Et les planteurs de Virginie
@@ -69,20 +69,20 @@
     Jusqu'à la Louisiane en fête
     Où y'a des types qui ont tous les soirs
     Du désespoir plein la trompette
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     T'en fais pas, mon p'tit loup
     C'est la vie, ne pleure pas
     Oublie-les les p'tits cons
     Qui t'ont fait ça
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     T'en tais pas, mon p'tit loup
     C'est la vie, ne pleure pas
     J't'en supplie, mon p'tit loup
     Ne pleure pas
-  \endchorus
+  \end{chorus}
 
 \endsong

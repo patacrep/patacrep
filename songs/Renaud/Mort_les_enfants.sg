@@ -12,11 +12,11 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics \[Dm E7 A7 Dm]}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Dm]Chiffon imbibé d'ess\[E7]ence
     \[A7]Un enfant meurt en si\[Dm]lence
     \[B&]Sur le trottoir de Bo\[Gm]gotá
@@ -26,17 +26,17 @@
     \[B&]Morts les enfants de la \[Gm]guerre
     \[B&]Pour les i\[A7]dées de leurs pères
 
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Bal à l'ambas\[B&]sade
     Quel\[C]ques vieux ma\[F]lades
     \[Dm]Imbéciles et graba\[Gm]taires
     \[B&]Se parta\[A7]gent l'Univers
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Dm]Morts les enfants de Bho\[E7]pal
       \[A7]D'industrie occiden\[Dm]tale
       \[B&]Partis dans les eaux du \[Gm]Gange
@@ -45,16 +45,16 @@
       \[A7]Près de nous ou plus loin\[Dm]taine
       \[B&]Morts les enfants de la \[Gm]peur
       \[B&]Chevroti\[A7]ne dans le cœur
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       \[F]Bal à l'ambas\[B&]sade
       Quel\[C]ques vieux ma\[F]lades
       \[Dm]Imbéciles et mili\[Gm]taires
       \[B&]Se parta\[A7]gent l'Univers
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[Dm]Morts les enfants du Sa\[E7]hel
       \[A7]On accuse le so\[Dm]leil
       \[B&]Morts les enfants de Se\[Gm]veso
@@ -63,16 +63,16 @@
       \[A7]Dernier week-end du mois \[Dm]{d'août}
       \[B&]Papa picolait sans \[Gm]doute
       \[B&]Deux ou trois \[A7]verres, quelques gouttes
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       \[F]Bal à l'ambas\[B&]sade
       Quel\[C]ques vieux ma\[F]lades
       \[Dm]Imbéciles et tortion\[Gm]naires
       \[B&]Se parta\[A7]gent l'univers
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[Dm]Mort l'enfant qui vivait \[E7]{en moi}
       \[A7]Qui voyait en ce mon\[Dm]{de-là}
       \[B&]Un jardin, une ri\[Gm]vière
@@ -81,14 +81,14 @@
       \[A7]Les hommes sont devenus \[Dm]dingues
       \[B&]La rivière charrie les \[Gm]larmes
       \[B&]Un jour l'en\[A7]fant prend une arme
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       \[F]Balles sur l'ambas\[B&]sade
       At\[C]tentat, gre\[F]nade
       \[F]Hécatombe au minis\[F]tère
       Sous \[B&]{les gravats}, \[A7]{les grabataires}
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
 \endsong

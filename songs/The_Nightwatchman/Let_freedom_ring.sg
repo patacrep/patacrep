@@ -15,41 +15,41 @@
   \musicnote[english]{\Intro: same chords as the chorus}
   \musicnote[french]{\Intro: même accords que le refrain}
 
-  \beginverse
+  \begin{verse}
     There's a \[Em]man homeless and hungry
     There's a \[Am]wind that's hard and \[Em]biting
     There's a \[Em]song in need of singing
     There's a \[Am]fuse in need of \[Em]light
     It's no \[G]secret the day is \[Em]coming
     And it's a \[G]day I hope to \[Em]see
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     But if they \[Em]ask
     If they ask you \[Em]brother
     Who told you \[Am]that
     You didn't hear it fr\[Em]om me
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Let \[G]freedom ring
     Let \[C]free\[C/B]dom \[Am]ring
     Let \[Am]freedom ring
     Let \[G]free\[F#]dom \[Em]ring
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     There's a book with seven seals
     There's a beast with seven heads
     There's seven angels on seven horses
     There's seven vials with seven plagues
     So if you hear, if you hear a knocking
     On that door, just let it be
-  \endverse
+  \end{verse}
 
   \musicnote{bridge, chorus, and solo}
 
-  \beginverse
+  \begin{verse}
     Where the righteous, where the righteous stood
     And where the righteous, where the righteous fell
     There's a voice, that's soft and whispering
@@ -58,16 +58,16 @@
     To remember what that voice said
     Over and over, over and over
     I repeated those words, inside my head
-  \endverse
+  \end{verse}
 
   \musicnote{chorus \rep{2}}
 
-  \beginverse*
+  \begin{verse*}
     And if they ask
     If they ask you brother
     Who told you that
     Tell them it was me
-  \endverse
+  \end{verse*}
 
   \musicnote{chorus}
 

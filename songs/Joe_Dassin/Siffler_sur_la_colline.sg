@@ -13,43 +13,43 @@
   \gtab{Dm}{XX0231}
 
 
-  \beginchorus
+  \begin{chorus}
     \[C]Elle m'a dit d'aller siffler là-\[G7]haut sur la colline
     De l'attendre avec un petit \[C]bouquet d'églantines
     J'ai cueilli les fleurs et j'ai sif\[G7]flé tant que j'ai pu
     J'ai attendu, attendu, elle n'\[C]est jamais venue
     Zaï zaï zaï \[E7]zaï, zaï zaï zaï \[Am]zaï \rep{2}
     Oh \[G]oh oh \[Am]oh \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je l'ai \[Am]vue près d'un laurier
     Elle gardait \[G]ses blanches brebis
     Quand j'ai \[Dm]demandé d'où venait
     Sa peau \[Am]fraîche, elle m'a dit
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     C'est d'rou\[Am]ler dans la rosée
     Qui rend les \[G]bergères jolies
     Mais quand j'\[Dm]ai dit qu'avec elle
     Je voudrais m'\[Am]{y rouler} aussi
     Elle m'a \[E7]dit
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     À la foire du village
     Un jour je lui ai soupiré
     Que je voudrais être une pomme
     Suspendue à un pommier
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et qu'à chaque fois qu'elle passe
     Elle vienne me mordre dedans
     Mais elle est passée, et tout en
     Me montrant ses jolies dents
     Elle m'a dit
-  \endverse
+  \end{verse*}
 
 \endsong

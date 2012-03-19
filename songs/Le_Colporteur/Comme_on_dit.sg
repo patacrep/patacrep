@@ -7,43 +7,43 @@
   \gtab{E}{7:X02220}
   \gtab{D#}{6:X02220}
 
-  \beginverse
+  \begin{verse}
     \[G#m]J'ai de la \[E]chance
     De \[D#]t'avoir rencon\[G#m]tré
     J'ai com\[G#m]mis quand j'y \[E]pense
     Quelques erreurs \[D#]avant d'arri\[G#m]ver
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Je suis parti, comme on dit
     La fleur au fusil
     Mais je n'ai pas d'arme
     Et je suis sous le charme
     Du chemin des dames
     D'où je suis arrivé
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Tu me dis que tu m'aimes
     Mais qui t'es, toi ?
     Mais où vont tes rêves
     Quand tu n'es pas là ?
     Où vont tes rêves
     Quand tu n'es pas là ?
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'ai quelques dépenses
     Qu'on pourra éviter
     Et quelques carences
     Qu'il faudra bien me pardonner
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai de la chance
     De t'avoir rencontré
     J'ai fait par inadvertance
     Quelques erreurs avant d'arriver
-  \endverse
+  \end{verse}
 
 \endsong

@@ -10,7 +10,7 @@
   \gtab{B&}{6:022100}
   \gtab{A}{5:022100}
 
-  \beginverse
+  \begin{verse}
     La petite \[Dm]clope qui tue le spleen
     Vient de me \[Gm]réveiller un air
     Quelques ac\[B&]cords que j'assassine
@@ -19,15 +19,15 @@
     Dans des oc\[Dm]tosyllabes morts
     En atten\[B&]dant que je trépasse
     D'en avoir \[A]apprécié le corps
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et je \[Dm]bois, et je bois, et j'im\[Gm]bibe ma carcasse
     De tout ce \[B&]qui coule, qui est fort alcooli\[A]sé et qui fracasse
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je divague, je me ratatine
     Je vois mon avenir en vin
     Toutes mes émotions s'avinent
@@ -36,9 +36,9 @@
     Et propose un deal à la Lune
     Que Pierrot nous lâche les choses
     Et qu'il veuille nous laisser sa plume
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     La première fois que je t'ai vue
     J'devais avoir la gueule dans l'cul
     Pour m'être laissé ainsi tenter
@@ -47,21 +47,21 @@
     Je ne veux pas y penser
     Fallait-il que tu me baises
     Si bien que je suis resté
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Le cœur et le corps avachis
     Me voilà donc sans toi chez nous
     Dans des relents de Givenchy
     J'écris des trucs sur le dégoût
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et ce soir si ma muse est brune
     Je voudrais la boire sur lie
     Ne garder d'elle que l'écume
     Le souvenir d'un oubli
     \rep{4}
-  \endverse
+  \end{verse*}
 
 \endsong

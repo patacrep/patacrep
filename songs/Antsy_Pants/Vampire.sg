@@ -10,52 +10,52 @@
   \gtab{D}{XX0232}
   \gtab{A}{X02220}
 
-  \beginverse
+  \begin{verse}
     I am a \[Dm]vampire, I am a vampire
     I am a vampire, I am a vampire
     I am a vampire vampire, I am a vampire
     I have lost \[G]my \[C]fangs
     I am a \[Dm]vampire, I am a vampire
     I am a vampire, I have lost \[G]my \[C]fangs
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     So I'm \[Dm]sad and \[G]I feel \[C]lonely
     So I \[Dm]cry and \[G]{I'm} very \[C]angry
     And I \[Dm]ate \[G]some gar\[C]lic
     So I'm \[Dm]no more \[G]sata\[C]nic yeah yeah
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     I \[D]am a vampi\[C]re and I am wal\[A]king in the ci\[D]ty
     But the \[C]pretty \[A]girls \[D]don't look at me
     \echo{Don't look at me}
     Cause I \[G]{don't} \[A]have \[D]my fangs
     Cause I \[G]have \[A]lost \[D]my fangs
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     I am a vampire, I am a vampire
     I have lost my mouth organ
     I am a vampire, I am a vampire
     I have lost my mouth organ
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     So I get bored and I shout
     So I eat popcorn and I put on weight
     And I sing but my voice is breaking
     And I want to play the guitar
     But my guitar is out of tune
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     I am a vampire and I'm walking in the city
     But the musicals don't play with me
     \echo{Don't play with me}
     Cause I don't have my mouth organ
     And I have lost my mouth organ
-  \endchorus
+  \end{chorus}
 
 \endsong
 

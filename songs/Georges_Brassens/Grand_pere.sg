@@ -12,7 +12,7 @@
   \gtab{E}{022100}
   \gtab{D7}{XX0212}
 
-  \beginverse
+  \begin{verse}
     \[A]Grand-père suivait \[Dm]{en chantant}
     \[G7]La route qui mène \[C]{à cent ans}
     \[A]La mort lui fit, au \[Dm]coin d'un bois
@@ -21,44 +21,44 @@
     Tant de bonheur à ses enfants
     Qu'on fit, pour lui en savoir gré
     Tout pour l'enterrer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[A]Et l'on courut \[A7]{à toutes} jam-
     \[D7]bes quérir une bière, mais
     \[Dm]Comme on é\[Am]tait légers d'argent
     Le mar\[F]chand nous reçut à bras fer\[G]més
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Chez l'épi\[C]cier, pas d'argent, pas d'épices
     Chez la belle Su\[A]zon, pas d'argent, pas de \[Dm]cuisse
     Les morts de \[E]basse condi\[Am]tion
     C'est \[E]pas de ma juridi\[Am]ction \[E] \[Am]
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \[G7]Or, j'avais hérité d'grand-père
     Une paire de bottes pointues
     S'il y a des coups d'pied quelque part qui s'perdent
     Celui-là toucha son but
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     C'est \[C]depuis ce temps-là que le bon apôtre \rep{2}
     {\og}\[G7]Ah, c'est \[C]pas joli
     \[G7]Ah, c'est \[C]pas poli
     \[G7]Ah une \[C]fesse qui dit \[Am]merde à l'\[G7]au\[C]tre{\fg}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[G7]Bon papa, ne \[C]t'en fais pas
     \[E]Nous en vien\[F]drons
     \[G]À bout de tous ces \[C]empêcheurs
     \[G]D'enterrer en \[C]rond \[E]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Le mieux à faire et le plus court
     Pour qu'l'enterrement suivît son cours
     Fut de borner nos prétentions
@@ -67,30 +67,30 @@
     Les quatre planches d'un mort qui
     Rêvait d'offrir quelques douceurs
     À une âme sœur
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et l'on courut à toutes jam-
     bes quérir un corbillard, mais
     Comme on était légers d'argent
     Le marchand nous reçut à bras fermés
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Chez l'épicier, pas d'argent, pas d'épices
     Chez la belle Suzon, pas d'argent, pas de cuisse
     Les morts de basse condition
     C'est pas de ma juridiction
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Ma botte partit mais je m'refuse
     De dire vers quel endroit
     Ça rendrait les dames confuses
     Et je n'en ai pas le droit
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Le mieux à faire et le plus court
     Pour qu'l'enterrement suivît son cours
     Fut de porter sur notre dos
@@ -99,27 +99,27 @@
     Grand-père aurait été content
     D'aller à sa dernière demeure
     Comme un empereur
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et l'on courut à toutes jam-
     bes quérir un goupillon, mais
     Comme on était légers d'argent
     Le marchand nous reçut à bras fermés
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Chez l'épicier, pas d'argent, pas d'épices
     Chez la belle Suzon, pas d'argent, pas de cuisse
     Les morts de basse condition
     C'est pas de ma bénédiction
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Avant même que le vicaire
     Ait pu lâcher un cri
     J'lui bottai l'cul au nom du Père
     Du Fils et du Saint-Esprit
-  \endverse
+  \end{verse*}
 
 \endsong

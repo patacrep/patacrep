@@ -11,7 +11,7 @@
   \gtab{G}{320003}
   \gtab{G7}{320001}
 
-  \beginverse
+  \begin{verse}
     \[Am]Léa, elle est \[E]pas terro\[Am]riste
     Elle est pas \[E]anti-terro\[Am]riste
     Elle est pas intégriste
@@ -23,11 +23,11 @@
     Elle est pas créditeur
     Elle est pas méchante
     Mais putain qu'est-ce qu'elle est chiante
-  \endverse
+  \end{verse}
 
   \lilypond{Lea}
 
-  \beginverse
+  \begin{verse}
     Léa, elle est pas intérimaire
     Elle est pas comme ma mère
     Elle est passagère
@@ -44,9 +44,9 @@
     Elle est pas en cloque
     Elle est pas d'la région PACA
     Elle a quinze ans volés
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Léa, elle est pari\[C]sienne
     Elle est pas pré\[G]sentable
     Elle est pas jo\[C]lie
@@ -54,9 +54,9 @@
     Elle est pas à \[C]gauche
     Elle est pas à \[G]droite
     Elle est \[G7]pas mala\[Am]droite
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Léa, elle est pas terroriste
     Elle est pas anti-terroriste
     Elle est pas jolie
@@ -70,9 +70,9 @@
     Elle est pasticheuse
     Elle est pas cible
     Elle fait pas la politique
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Elle l'a pas volé
     Elle passing-shot
     Elle est passe-temps
@@ -86,6 +86,6 @@
     J'vous l'ai pas pas déjà dit
     Qu'elle est parisienne, elle est parisienne
     Elle est pas terroriste, elle est pas terroriste
-  \endverse
+  \end{verse}
 
 \endsong

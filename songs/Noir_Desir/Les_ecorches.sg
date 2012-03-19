@@ -8,11 +8,11 @@
   \gtab{G}{320003}
   \gtab{F}{1:022100}
 
-  \beginverse*
+  \begin{verse*}
     \lilypond{les_ecorches}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Am]Emmène-moi danser
     Dans les dessous
     Des villes en folie
@@ -25,15 +25,15 @@
     Et se rejoindre en bas
     \[G]Puisqu'on se lasse de tout
     Pourquoi nous entrelaçons-nous ?
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Pour les écorchés vifs \[G]
     On en a des sévices \[Am]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Am]Allez enfouis-moi
       Passe-moi par dessus tous les bords
       Mais reste encore \[G]
@@ -52,18 +52,18 @@
       Toi qui \[G]{ sais où}
       Après une subtile esquisse
       On a enfoncé les vis {\dots}
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
   \begin{repeatedchords}
-    \beginchorus
+    \begin{chorus}
       \[F]Nous les écorchés vifs \[G]
       On en a des sévices \[Am]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Oh \[Am]mais non rien de grave
       Y'a nos hématomes crochus qui nous
       Sauvent
@@ -93,16 +93,16 @@
       Serre-moi encore
       Étouffe-moi si tu peux{\dots}
       Serre-moi \[G]encore
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
   \textnote{\Chorus}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{ | \[Am] | \[Am] | \[Am] | \[G] | }}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Nous les é\[F]corchés
     On en a des sévices \[Am]
     Nous les é\[F]corchés
@@ -112,6 +112,6 @@
     Nous les é\[F]corchés
     On en a des sévices \[Am]
     Écorchés vifs \[G] \[Am] \[F]
-  \endverse
+  \end{verse*}
 
 \endsong

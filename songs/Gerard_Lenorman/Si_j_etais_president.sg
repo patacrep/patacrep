@@ -9,7 +9,7 @@
   \gtab{Bm}{2:X02210}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     Il était une \[A]fois
     À l'entrée des artistes
     Un petit garçon blond
@@ -18,9 +18,9 @@
     Une phrase magique
     Je lui dit simple\[E]ment
     Si j'étais prési\[A]dent
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'étais président
     De la république
     Jamais plus un enfant
@@ -29,9 +29,9 @@
     Mickey premier ministre
     De mon gouvernement
     Si j'étais président
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Simplet à la culture
     Me semble une évidence
     Tintin à la police
@@ -40,9 +40,9 @@
     Et Minnie à la danse
     Est-ce que tu s'rais content ?
     Si j'étais président
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tarzan serait ministre
     De l'écologie
     Bécassine au commerce
@@ -51,9 +51,9 @@
     Toutes les pâtisseries
     Opposition néant
     Si j'étais président
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'étais président
     De la république
     J'écrirais mes discours
@@ -62,9 +62,9 @@
     On irait en pique-nique
     On f'rait des trucs marrants
     Si j'étais président
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Je recevrais la nuit
     Le corps diplomatique
     Dans une super disco
@@ -73,9 +73,9 @@
     À grand coup de rythmique
     Rien n's'rait comme avant
     Si j'étais président
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Aux bornes des fontaines
     Coul'rait de l'orangeade
     Coluche, notre ministre
@@ -84,9 +84,9 @@
     Sur toutes les esplanades
     On s'éclaterait vraiment
     Si j'étais président
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si t'étais président
     De la république
     Pour nous, tes p'tits copains
@@ -95,9 +95,9 @@
     Et chahuter sans risques
     Ce serait le bon temps
     Si t'étais président
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J's'rais jamais président
     De la république
     Vous les petits malins
@@ -106,6 +106,6 @@
     Pour faire d'la politique
     Pas besoin d'être président
     Pour aimer les enfants
-  \endverse
+  \end{verse}
 
 \endsong

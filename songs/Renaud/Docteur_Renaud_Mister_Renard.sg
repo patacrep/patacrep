@@ -12,7 +12,7 @@
   \gtab{G2}{3X02XX}
   \gtab{E/G#}{2:311341}
 
-  \beginverse
+  \begin{verse}
     \[Am]Comme y'a eu \[F]Gainsbourg et Gains\[G]barre
     Y'a le \[Em7]Renaud et le Re\[Am]nard
     Le Renaud \[F]ne boit que de \[G]l'eau
@@ -21,13 +21,13 @@
     Personne n'est \[Em7]tout moche ou tout \[Am]beau
     Moitié ange \[F]et moitié sa\[G]laud
     Et c'est ce \[Em7]que nous allons \[Am]voir
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Docteur Re\[G]naud, Mis\[Em7]ter Re\[Am]nard \[F] \[G] \[Em7]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Renard est un sacré soiffard
     Renaud est sobre comme un moineau
     Quand Renaud rejoint son plumard
@@ -36,9 +36,9 @@
     Et du chichon qui rend idiot
     Renard se les roule peinard
     Pour s'exploser le ciboulot
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em7]Renaud s'ef\[F]force, c'est son boulot
     D'écrire \[E/G#]de jolies histoires
     Pour séduire \[Am]les gens, les mar\[G]mots
@@ -47,9 +47,9 @@
     Le Renard \[E/G#]n'a que des gros mots
     La para\[Am]no et le ca\[G]fard
     N'lui inspirent \[F2]que des idées noires
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Renaud souffre de tous les maux
     Qui accablent ce monde barbare
     Il porte les croix sur son dos
@@ -58,9 +58,9 @@
     Se contrefout de ce bazar
     Le monde peut crever bientôt
     Renard s'en réjouirait plutôt
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Renaud a choisi la guitare
     Et la poésie et les mots
     Comme des armes un peu dérisoires
@@ -69,9 +69,9 @@
     Crache sur tous les idéaux
     Se moque du tiers comme du quart
     Des engagements les plus beaux
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Renaud mérite les bravos
     Car en amour et c'est sa gloire
     Il est tendre comme un agneau
@@ -80,9 +80,9 @@
     À que des aventures d'un soir
     Avec des canons, des cageots
     Renard s'rait-il un brin vicelard ?
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     C'est à cause du désespoir
     Qui tombe à 50 ans bientôt
     Que le Renard, tôt ou tard
@@ -91,7 +91,7 @@
     Son bel amour, son Domino
     Elle quitte le vilain Re\[G2]nard
     Mais aimera toujours Renaud\[Am] \[F]
-  \endverse
+  \end{verse}
 
 
 \endsong

@@ -8,7 +8,7 @@
   \gtab{D}{XX0232}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     C'est pas l'\[Em]homme qui prend la mer
     C'est la \[D]mer qui prend l'\[Em]homme
     \echo{tatatin}
@@ -22,16 +22,16 @@
     Qui m'di\[D]saient : {\og}Soit pru\[Em]dent
     La mer, c'est dégueu\[D]lasse
     Les poissons baisent de\[Em]dans{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Dès que le vent souffle\[D]ra
     Je reparti\[Em]ra
     Dès que \[G]les vents tourne\[D]ront
     Nous nous en alle\[Em]rons
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     C'est pas l'homme qui prend la mer
     C'est la mer qui prend l'homme
     Moi la mer, elle m'a pris
@@ -44,9 +44,9 @@
     J'ai dormi dans des draps mouillés
     Ça m'a coûté des sous
     La plaisance, c'est l'pied
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est pas l'homme qui prend la mer
     C'est la mer qui prend l'homme
     Et elle prend pas la femme
@@ -59,9 +59,9 @@
     D'amarrage, elle pleure
     Son homme qui la quitte
     La mer, c'est son malheur
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est pas l'homme qui prend la mer
     C'est la mer qui prend l'homme
     Moi la mer, elle m'a pris
@@ -73,9 +73,9 @@
     J'irai aux quatre vents
     Foutre un peu le boxon
     Jamais les océans n'oublieront mon prénom
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est pas l'homme qui prend la mer
     C'est la mer qui prend l'homme
     Moi la mer, elle m'a pris
@@ -89,9 +89,9 @@
     Kersauzon et Riguidel
     Naviguent pas sur des cageots
     Ni sur des poubelles
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est pas l'homme qui prend la mer
     C'est la mer qui prend l'homme
     Moi la mer, elle m'a pris
@@ -104,6 +104,6 @@
     Il est parti marin
     Je sais, c'est pas marrant
     Mais c'était mon destin
-  \endverse
+  \end{verse}
 
 \endsong

@@ -9,38 +9,38 @@
   \gtab{D}{XX0232}
 
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{\Intro : | \[G] | \[Am] | \[D] | \[G] |}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     On \[G]fait comme on a dit, tu \[Am]restes encore huit jours
     Le \[D]temps d'vous trouver un p'tit \[G]nid pour votre grand amour
     \[G]J'ai pas grand chose à dire, pas trop \[Am]d'conseils à donner
     Mais \[D]tu devrais réfléchir, les larmes, \[G]t'as déjà donné
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginchorus
+    \begin{chorus}
       Tu p\[G]eux préparer l'ca\[Am]{fé noir}
       \[D]Tes nuits blanches et même ton m\[G]ouchoir
       Il \[G]est pire que moi tu l'\[Am]sais bien
       \[D]Et j'suis déjà pas un s\[G]aint
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       Je n'\[G]t'avais pas promis mes p\[Am]{lus belles} années
       Elles s\[D]ont loin derrière moi mais \[G]{le passé}, c'est le passé
       L'im\[G]portant aujourd'hui bien \[Am]{sûr c'est} ton bonheur
       Mais je \[D]l'vois mal parti avec cet \[G]oiseau de malheur
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       On f\[G]ait comme on a dit \[Am]entre nous, c'est net
       Tu s\[D]'ras l'amie d'mon ami, j'essaier\[G]ai de faire avec
       \[G]Et si j'tiens pas la route, je \[Am]sais où vous trouver
       La n\[D]uit où l'insomnie f'ra qu'j'ai \[G]envie d'vous parler
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

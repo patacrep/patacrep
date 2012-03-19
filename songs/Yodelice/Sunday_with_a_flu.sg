@@ -9,46 +9,46 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[Bm G D Bm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Bm]Closed my door, forgot my key
     Missed my bus in the pouring rain
     It's \[G]been the usual su\[D]nday with a flu \[Bm]
     \[G]And I just can't \[D]get over you \[Bm]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Burnt my toast and lost your number
     Cut my finger, spilled my beer
     It's been the usual Sunday with a flu
     And I just can't get over you
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     I \[G]put your stockings
     \[D]In my purple boots \[Bm]
     \[G]What if I do\[D]n't get over you? \[Bm]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Had a chat and left my hat
     Ate my dog and walked my cat
     It's been the usual Sunday with a flu
     And I just can't get over you
-  \endverse
+  \end{verse}
 
   \musicnote[english]{\Chorus; whistled verse; \Chorus}
   \musicnote[french]{\Chorus; couplet sifflé; \Chorus}
 
-  \beginverse
+  \begin{verse}
     Called a cabbage, threw the garbage
     Asked for help and got some kelp
     It's been the usual Sunday with a flu
     And I just can't get over you
-  \endverse
+  \end{verse}
 
   \musicnote{\Chorus}
 

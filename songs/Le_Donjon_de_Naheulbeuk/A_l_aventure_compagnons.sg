@@ -11,68 +11,68 @@
 
   \lilypond{A_l_aventure_compagnons}
 
-  \beginverse
+  \begin{verse}
     J'é\[C]tais dans mon village, à répa\[G]rer des chaises en bois
     Mais l'\[F]aventure m'appelait, l'en\[C]nui était en moi
     J'avais ouï d'une \[F]tour, sié\[C]geant un peu plus \[G]loin
     J'ai \[C]attrapé mon canasson, mes \[F]bottes et mon gour\[G]din
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     À l'aven\[C]ture, compagnons
     Je suis par\[F]ti vers l'hori\[G]zon
     J'au\[C]rais mieux fait de res\[F]ter chez moi
     La \[C]suite vous \[G]le di\[C]ra
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je suis arrivé au lieu-dit, trempé par un orage
     Ma monture s'est enfuie, mais j'ai gardé mon courage
     Contournant l'édifice, dont la porte était fermée
     J'ai glissé dans la boue et puis les chiens sont arrivés
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     À l'aventure, compagnons
     Je suis parti vers l'horizon
     J'aurais mieux fait de rester au lit
     Ce donjon, il est pourri
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Ils ont bouffé ma cape, mes sandwiches et mon boudin
     J'ai dû abandonner mon sac et fuir comme un vilain
     Poursuivi par les bêtes, je suis tombé dans un trou
     C'était l'entrée secrète qui passait par les égouts
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai rampé dans la fange, les vermines et les sangsues
     J'ai atterri dans un cachot, où vivaient trois bossus
     Ils ont piqué ma veste, mes bottes et mon gourdin
     Et ils m'ont balancé dehors à grands coups de pied dans l'train
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai traîné dans les corridors, sans arme et déprimé
     Égaré dans la tour, je suis revenu à l'entrée
     Les orques m'ont vu passer, courant vers la sortie
     Ils se demandent encore qui était cet abruti
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     L'histoire était finie et j'ai voulu rentrer chez moi
     En courant sous la pluie, boitant comme un vieux rat
     Cherchant pour une auberge, une paillasse et un cruchon
     Je m'suis dit : {\og}L'aventure, c'est pas fait pour les couillons{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     À l'aventure, nom d'un chien
     Je n'irai plus faire le malin
     J'aurais mieux fait de rester chez moi
     À faire des chaises en bois !
-  \endchorus
+  \end{chorus}
 
   \image[width=4cm]{nb_ranger}
 

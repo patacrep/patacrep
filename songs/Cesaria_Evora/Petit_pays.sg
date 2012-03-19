@@ -8,45 +8,45 @@
   \gtab{Am}{X02210}
   \gtab{B7}{X21202}
 
-  \beginverse
+  \begin{verse}
     \[Em]La na cêu bô ê um es\[Am]trela \[B7]
     Ki catá bril\[Em]ha
     Li na mar bô ê um areia
     Ki catá moiá
     Espaiote nesse munde fora
     Sô rotcha e mar
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Terra pobre chei di amor
     Tem morna tem coladera
     Terra sabe chei di amor
     Tem batuco tem funaná
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Espaiote nesse munde fora
     Sô rotcha e mar
     Terra pobre chei di amor
     Tem morna tem coladera
     Terra pobre chei di amor
     Tem batuco tem funaná
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Oi tonte sodade
     Sodade sodade
     Oi tonte sodade
     Sodade sem fim
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Petit pays
     Je t'aime beaucoup
     Petit, petit
     Je l'aime beaucoup
     \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

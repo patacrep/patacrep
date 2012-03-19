@@ -12,14 +12,14 @@
   \gtab{F}{1:022100}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     \[Em] \[Am] La route est noire à présent
     Il y a des rivières de \[Em]sang
     \[Em] \[B7] Le ciel se couvre plein d'orage
     Je ne marcherai pas davan\[Am]tage
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \[C]On a beau \[G]dire
     On a beau \[Am]faire
     La vie suit son \[G]cours
@@ -29,9 +29,9 @@
     Nous sommes \[Am]quittes
     Tu pars pour de \[G]bon
     De toutes fa\[C]çons
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Prome\[F]neur
     La chanson que tu \[C]chantes
     Je l'ai souvent chan\[E]tée
@@ -43,10 +43,10 @@
     Je l'ai souvent clou\[E]é
     Je l'ai souvent clou\[Am]é
     Et le \[F]clou \[C] \[E] \[Am]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[C]Tu m'as recuei\[G]lli
       Tu m'as tra\[Am]hi
       Les levers de so\[G]leil
@@ -56,10 +56,10 @@
       Meurent en criant re\[Am]grets
       Il est beaucoup trop \[G]tard
       Il est beaucoup trop \[C]loin
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Prome\[F]neur
     Dans ton terrain \[C]vague
     Le cadavre qu'on \[E]drague
@@ -79,6 +79,6 @@
     Et puis
     Il \[Am]tire, \[G] il vise \[C]bien \[E] \rep{2}
     Il \[Am]tire
-  \endchorus
+  \end{chorus}
 
 \endsong

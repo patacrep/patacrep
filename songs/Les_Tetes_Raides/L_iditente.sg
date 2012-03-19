@@ -10,52 +10,52 @@
   \gtab{E7}{020100}
   \gtab{Dm}{XX0231}
 
-  \beginverse
+  \begin{verse}
     \[Am]Les clans des rues, les clandestins
     Les cris des chiens hurlent à la \[G]ronde
     J'\[C]suis pas inscrit sur la mappe\[E7]monde
     \[Am]Y'a pas d'pays pour les vauriens
     Les poètes et les balla\[G]dins
     Y'a pas d'\[C]pays, si tu le \[E7]veux, prends le \[Am]mien
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Que Paris est beau quand \[G]chantent les oiseaux
     \[Am]Que Paris est laid quand il \[E7]{se croit} français
     {\nolyrics \[Am] \[Dm] \[E7] \[Am]}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Avec ses sans-pa\[E7]pirs
     Qui vont bientôt r'par\[Am]tir
     Vers leur pays les \[E7]chiens
     On a tout pris chez eux y'a plus \[Am]rien
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     De rétention en cale de fond
     J'en ai même oublié mon ombre
     Je promène moi dans vos décombres
     On m'a donné un bout de rien
     J'en ai fait cent mille chemins
     J'en ai fait cent, j'en ai fait un
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Un chemin de l'identité
     L'iditenté l'idétitan
     L'itendidé, à la ronde
     Et dans ce flot d'une idée rien
     J'aurai plus d'nom j'aurai plus rien
     Dis-moi c'est quand \echo{Dis-moi c'est quand} que tu reviens
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Que Paris est beau quand chantent les oiseaux
     Que Paris est laid quand il se croit français
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Avec tous ces champs d'tir
     Et tous ces fous du tir
     Y visent pas que les lapins
@@ -65,13 +65,13 @@
     Ou des \[Am]skuds
     Et \[Dm]moi, avec mon pistolet à bou\[E7]chon
     Je pars au front
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Paris sera beau quand chantera les oiseaux
     Paris sera beau si les oiseaux
     Mais non Paris sera beau car les oiseaux
     Paris sera beau
-  \endchorus
+  \end{chorus}
 
 \endsong

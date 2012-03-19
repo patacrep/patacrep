@@ -10,7 +10,7 @@
   \gtab{G7}{320001}
 
 
-  \beginverse
+  \begin{verse}
     Voulez-\[C]vous mes\[F]sieurs mes\[C]dames
     Que je \[G7]vous chante l'his\[C]toire
     L'histoire d'\[C]un drôle \[F]de qui\[C]dam
@@ -23,16 +23,16 @@
     Qui régnait sur l'équipage
     Qui n'était pas très malouin
     Mais qui avait du courage
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Par belle mer \[F]et par beau \[C]temps
     En sa\[G7]brant tout ce qui \[C]bouge
     Pour pas que l'\[F]on voit son \[C]sang
     Portait \[G7]une chemise rou\[C]ge
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     C'est depuis qu'il fait la chasse
     Planté sur son fier vaisseau
     Il se rue sur tout c'qui passe
@@ -45,9 +45,9 @@
     Se ruant tout droit sur lui
     Impressionnant et mastard
     Et trois fois mieux armé que lui
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Il se frotta fort les yeux
     Regarda dans sa longue vue
     Se pinça le bout du nez
@@ -60,13 +60,13 @@
     Et pour plus de précaution
     En plus de sa chemise rouge
     Il mit son pantalon marron
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Il mourut en commandant
     Sur sa ch'mise y'avait du sang
     Mais c'que dit pas la chanson
     C'est c'qu'y avait dans le pantalon
-  \endverse
+  \end{verse}
 
 \endsong

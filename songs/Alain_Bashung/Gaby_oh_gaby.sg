@@ -10,16 +10,16 @@
   \gtab{F#}{2:022100}
   \gtab{C#}{4:X02220}
 
-  \beginverse
+  \begin{verse}
     Je fais \[E]mon footing au milieu des algues et des coraux
     Et \[A]j'fais mes pompes sur les restes d'un vieux cargo
     Je dis \[E]bonjour, faut bien que je me \[A]mouille
     C'est ma \[E]dernière surprise partie, je m'écrase le nez au hublot
     J'ai \[A]mon contrat de confiance, l'encéphalo qui faut
     J'ai du \[E]bol, j'en vois qui ri\[A]golent
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Oh \[B]Gaby, \[F#]Gaby \[C#]
     Tu devrais pas me laisser \[B]la nuit \[C#]
     Je peux pas dormir je fais \[B]qu'des conneries
@@ -27,29 +27,29 @@
     Tu veux que je te chante la \[B]mer \[C#]
     Le long, le long, \[B]le long des golfes \[F#]
     Pas très \[B]clairs
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     En regardant les résultats de son check-up
     Un requin qui fumait plus a rallumé une clope
     Ça fait frémir, faut savoir dire stop
     Tu sais c'est comme ce type qui voudrait que je me soigne
     Et qu'abandonne son cleps au mois d'août en Espagne
     Je sens comme un vide, remets-moi Johnny Kidd
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Gaby, je t'ai déjà dit que t'es bien plus belle que Mauricette
     Qu'est belle comme un pétard qu'attend plus qu'une allumette
     Ça fait craquer, au feu les pompiers
     Aujourd'hui c'est vendredi et je voudrais bien qu'on m'aime
     Je sens que je vais finir chez Wanda et ses sirènes
     Et ses sirènes
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[A] Alors à \[E]quoi ça sert la frite si t'as pas les moules
     Ça \[A]sert à quoi le cochonnet si t'as pas les \[E]boules
-  \endverse
+  \end{verse*}
 
 \endsong

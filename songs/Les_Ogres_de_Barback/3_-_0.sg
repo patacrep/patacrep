@@ -11,7 +11,7 @@
   \gtab{Am}{5:022000}
 
 
-  \beginverse
+  \begin{verse}
     Y'a Pa\[C]ris, la capi\[Dm]tale
     Qui re\[G7]nifle son trou de \[C]balle
     Intra-\[Am]muros c'est bril\[Dm]lant
@@ -20,16 +20,16 @@
     Ce serait \[G7]sûr'ment celle-\[C]là
     Qu'une au\[Am]ssi con que la \[Dm]Lune
     Et préten\[G7]tieuse, comme il se \[C]doit
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais Pa\[G7]ris, ça reste en Fr\[C]ance
     Les Fran\[G7]çais restent des Fran\[C]çais
     Les che\[Dm]villes en évi\[G7]dence
     Le nomb\[G7]ril insatis\[C]fait !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     À Rennes où il fait bon vivre
     J'y ai vu -- pardonnez-moi
     Des masses de foules ivres
@@ -38,16 +38,16 @@
     Sur la route, croyez-moi :
     La police qui plaisante
     D'un cadavre sur le toit
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais Rennes, ça reste en France
     Les Français restent des Français
     Des reins en convalescence
     Des poumons dans le regret
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Puis y'a Bordeaux la bourgeoise
     Avec son grand cru classé
     Que l'on déguste dans l'extase
@@ -56,16 +56,16 @@
     Ce qui est bon, ce qui est mauvais
     Si pour Papon, c'est un trou noir
     Le Girondin, c'est un succès
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais Bordeaux, ça reste en France
     Les Français restent des Français
     Des trouillards de gauche en transe
     Ou des cons de droite muets
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     À Toulouse, la ville rose
     Peut-être sont-ils un peu chauvins ?
     Quand ils jacassent pas du rose
@@ -74,16 +74,16 @@
     Qu'ils utilisent parfois
     Pour écrire sur les murs
     D'une usine : {\og}Plus jamais ça{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais Toulouse, ça reste en France
     Les Français restent des Français
     Des canards qui l'été dansent
     Sur des rythmes afro-laids
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Entre le Rhône et la Saône
     Il y a Lyon et ses reflets
     En banlieue, il y a sa zone
@@ -92,16 +92,16 @@
     Qui veut nous faire oublier
     Pour ne pas être déçus
     Tous ces scandales financiers
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais Lyon, ça reste en France
     Les Français restent des Français
     Des bonnes bouffes en concurrence
     Des non-dits sur le palais
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Lorsque j'ai connu Strasbourg
     Pour la toute première fois
     Je pensais trouver l'amour
@@ -110,16 +110,16 @@
     Dans cette ville un peu cruche
     Où l'on me parlait de choucroute
     D'Europe et de flamenkuche
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais Strasbourg, ça reste en France
     Les Français restent des Français
     L'égalité en {\og}free-lance{\fg}
     L'humanité qui s'essaie
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il y a Lille dans le nord
     Comme il y a le nord en Lille
     Des grands hommes gras et forts
@@ -128,16 +128,16 @@
     Qui dépensent sans se soucier
     À deux pas de la misère
     Des petits enfants minés
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais Lille, ça reste en France
     Les Français restent des Français
     Des terrils d'arrogance
     L'inégalité au sommet
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Après cet air géographe
     Une petite explication
     Je ne cherche pas les baffes
@@ -146,9 +146,9 @@
     Qui agitent leurs drapeaux
     La grande race des chauvins
     Juste à côté des fachos
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Ben moi qui suis né en France
     Dans un bled incognito
     Je ne comprends pas la démence
@@ -157,9 +157,9 @@
     Comme une attache, un ghetto
     Pardonnez-moi cette offense
     Et traduisez-en ces mots :
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Issu de la poussière
     Je m'en retourne à la poussière
     Issu de la planète terre
@@ -168,6 +168,6 @@
     On s'en retourne à la poussière
     Issu de la planète terre
     On s'y promène sans frontières !
-  \endverse
+  \end{verse*}
 
 \endsong

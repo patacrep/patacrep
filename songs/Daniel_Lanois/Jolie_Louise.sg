@@ -10,7 +10,7 @@
   \gtab{G7}{320001}
   \gtab{C}{332010}
 
-  \beginverse
+  \begin{verse}
     Ma jolie, how do you \[C]do ?
     Mon nom est \[G7]Jean Guy Thibault Le\[C]roux
     I come from east of Gati\[C]neau
@@ -20,9 +20,9 @@
     Une belle mai\[G]son à Lafon\[G7]taine
     Where we wil \[Am]live, you and \[F]me
     Oh, oh Lou\[C]ise, oh \[F]oh oh \[C]oh, ma \[G7]jolie Lou\[C]ise
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tous les matins au soleil
     I will work 'till work is done
     Tous les matins au soleil
@@ -32,9 +32,9 @@
     Et puis mon nom y est pas bon
     At the mill anymore{\dots}
     Oh, oh Louise, I'm loosing my head, I'm loosing my head
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     My kids are small, four and three
     Et la bouteille, she's mon amie
     I drink the rhum 'till I can't see
@@ -44,9 +44,9 @@
     And the rage turned in my head
     And Louise, I stroke her down
     Down on the ground, I'm loosing my mind, I'm loosing my mind
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     En septembre soixante-trois
     Kids are gone, so is Louise
     Ontario did they go
@@ -56,6 +56,6 @@
     And I remember the days
     And the promises that we made
     Oh, oh Louise, ma jolie Louise, ma jolie Louise
-  \endverse
+  \end{verse}
 
 \endsong

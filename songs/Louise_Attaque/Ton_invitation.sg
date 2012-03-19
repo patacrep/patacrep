@@ -7,57 +7,57 @@
   \gtab{Bm}{2:X02210}
   \gtab{F#}{2:022100}
 
-  \beginchorus
+  \begin{chorus}
     J'ai accepté par er\[Bm]reur
     Ton invita\[F#]tion
     J'ai dû m'gourer dans l'\[Bm]heure
     J'ai dû m'planter dans la sai\[F#]son
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Tu sais, j'ai confondu
     Avec celle qui sourit pas, mais
     Celle qui est belle bien entendu, et
     Qui dit belle dit pour moi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Tu sais, j'ai pas toute ma raison
     Tu sais, j'ai toujours raison
     Tu sais, j'suis pas un mec sympa
     Et j'merde tout ça, tout ça
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Tu sais, j'ai pas confiance
     J'ai pas confiance en moi
     Tu sais, j'ai pas d'espérance
     Et j'merde tout ça, tout ça
-  \endverse
+  \end{verse*}
 
   \lilypond{Ton_invitation_1}
 
-  \beginverse
+  \begin{verse}
     Si tu veux on parle de toi
     Si tu veux on parle de moi
     Parlons de ta future vengeance
     Que t'auras toi sur moi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Disons, entrecoupé d'silences
     Qu'on est bien seuls pour une fois
     Qu'on est bien partis pour une danse
     Ça ira pas plus loin, tu vois
-  \endverse
+  \end{verse*}
 
   \lilypond{Ton_invitation_2}
 
-  \beginverse
+  \begin{verse}
     Reste à savoir si on trace
     Un trait, un point dans notre espace
     Tu sais, j'ai pas toute ma raison
     Tu sais, j'ai toujours raison
-  \endverse
+  \end{verse}
 
 \endsong

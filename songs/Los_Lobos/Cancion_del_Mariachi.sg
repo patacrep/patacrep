@@ -8,53 +8,53 @@
   \gtab{B}{7:022100}
   \gtab{Am}{5:022000}
 
-  \beginverse
+  \begin{verse}
     Soy un \[Em]hombre muy honrado
     Que me gusta lo me\[B]jor
     A mujeres no me faltan
     Ni al dinero, ni el \[Em]amor
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Jineteando en mi caballo
     Por la sierra yo me voy
     Las estrellas y la luna
     Ellas me dicen donde voy
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Ay, ay, ay, \[Em]ay
     \[B]Ay, ay, mi \[Em]amor
     \[Am]Ay, mi more\[Em]na
     \[B]De mi cora\[Em]zón
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Me gusta tocar guitarra
     Me gusta cantar el sol
     Mariachi me acompaña
     Cuando canto mi canción
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Me gustan tomar mis copas
     Aguardiente es lo mejor
     También la tequila blanca
     Con su sal le da sabor
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Me gusta tocar guitarra
     Me gusta cantar el sol
     Mariachi me acompaña
     Cuando canto mi canción
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Me gustan tomar mis copas
     Aguardiente es lo mejor
     También la tequila blanca
     Con su sal le da sabor
-  \endverse
+  \end{verse*}
 
 \endsong

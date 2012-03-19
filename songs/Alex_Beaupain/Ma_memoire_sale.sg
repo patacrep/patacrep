@@ -10,11 +10,11 @@
   \gtab{Em}{022000}
   \gtab{Bm}{2:X02210}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[C9+ Em C9+ Em]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     L\[C9+]ave
     \[Em] Ma mémoire sale dans ce fleuve de \[C9+]boue
     \[Em] Du bout de ta langue nettoie-moi par\[Bm]tout
@@ -22,9 +22,9 @@
     De \[Bm]tout
     Ce qui me \[D9+]lie et qui me \[C9+]lasse
     Hél\[Em]as !
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Chasse
     Traque-la en moi, ce n'est qu'en moi qu'elle vit
     Et lorsque tu la tiendras au bout de ton fusil
@@ -33,9 +33,9 @@
     Qu'elle doit mourir d'une deuxième mort
     Alors
     Tue-\[C9+]la\dots en\[Em]core
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Pleure !
     Je l'ai fait avant toi et ça ne sert à rien
     À quoi bon les sanglots inonder les coussins ?
@@ -44,9 +44,9 @@
     Le cœur sec et les yeux gonflés
     Mais j'ai
     Le cœur sec et les yeux gonflés
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Alors brûle !
     Brûle quand tu t'enlises dans mon grand lit de glace
     Mon lit comme une banquise qui fond quand tu m'enlaces
@@ -56,12 +56,12 @@
     Ton corps comme un torrent de lave
     Ma mémoire sale dans son fleuve de boue
     Lave !
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Lave !
     Ma mémoire sale dans ce fleuve de boue
     Lave !
-  \endverse
+  \end{verse}
 
 \endsong

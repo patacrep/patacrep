@@ -9,33 +9,33 @@
   \gtab{Am}{X02210}
   \gtab{Dm}{XX0231}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Standing in line
     To see the \[C]show tonight
     And there's a \[Am]light on
     Heavy glow
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     By the way
     I tried to say
     I'd be there
     Waiting for
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Dani the girl
     Is singing songs to me
     Beneath the marquee
     Overload
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[Dm]Steak Knife Card Shark
     Con Job Boot Cut
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Skin that flick
     She's such a little DJ
     Get there quick
@@ -44,20 +44,20 @@
     To make a little leeway
     Beat that nic
     But not the way that we play
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Dog Town Blood Bath
     Rib Cage Soft Tail
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     Black Jack Dope Dick
     Pawn Shop Quick Pick
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Kiss that Dyke
     I know you want to hold one
     Not on strike
@@ -66,15 +66,15 @@
     I know you never stole one
     Girls that like
     A story so I told one
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Song Bird Main Line
     Cash Back Hard top
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Oh ah, guess you never meant it \rep{8}
-  \endverse
+  \end{verse*}
 
 \endsong

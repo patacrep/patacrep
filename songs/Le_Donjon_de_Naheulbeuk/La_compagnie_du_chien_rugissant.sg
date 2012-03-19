@@ -12,61 +12,61 @@
 
   \lilypond{La_compagnie_du_chien_rugissant}
 
-  \beginverse
+  \begin{verse}
     \[Am]Nous étions \[C]quatre as\[G]sis dans l'au\[Am]berge
     Buvant une \[C]chope de nos \[Em]maigres de\[Am]niers
     La \[Am]bourse était \[C]vide, tout \[G]comme notre \[Em]{sac à dos}
     \[Am]La compa\[Em]gnie a\[G]ttend un bou\[Am]lot
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Un magicien, une guerrière farouche
     Un voleur, une ogre et moi l'elfe noir
     C'était notre groupe au nom déjà éloquent
     La compagnie du chien rugissant
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Il est sorti des ombres mouvantes
     Grande silhouette encapuchonnée
     Avec l'air méfiant de ceux qui sont avisés
     La compagnie salue l'étranger
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     {\og}Braves amis, cherchez-vous l'escapade ?{\fg}
     Dit-il en se joignant à notre tablée
     {\og}J'ai besoin urgent d'un parti d'aventuriers{\fg}
     La compagnie commence à l'aimer
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     {\og}Je vous envoie retrouver mon grimoire
     Chez les brigands vous irez le chercher
     --- L'affaire est plaisante mais y serons-nous gagnants ?{\fg}
     La compagnie a besoin d'argent
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     {\og}Trente pièces d'or pour le groupe entier
     Vous ne semblez pas d'un bon niveau{\fg}
     Pour qui se prit-il, cet espèce de sac à vin
     La compagnie va lui mettre un pain
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     {\og}Fils de chien !{\fg} rugit la guerrière
     Et son épée lui mit dans l'œil droit
     {\og}Adieu étranger, rendez vous dans l'Au-Delà{\fg}
     La compagnie doit quitter l'endroit
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Nous étions quatre assis dans la neige
     {\og}Qu'ai-je dont fait ?{\fg} maudit la guerrière
     Notre première quête, expédiée dans le ruisseau
     La compagnie attend un boulot
-  \endverse
+  \end{verse}
 
   \image[width=5cm]{nb_elf_01}
 

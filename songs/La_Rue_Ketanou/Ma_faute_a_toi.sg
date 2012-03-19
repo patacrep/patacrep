@@ -10,7 +10,7 @@
   \gtab{D}{XX0232}
 
 
-  \beginverse
+  \begin{verse}
     J'ai \[Gm]besoin encore et tou\[B&]jours
     J'ai be\[F]soin d'entrer chez une \[Gm]femme
     D'en \[Gm]sortir au petit \[B&]jour
@@ -19,9 +19,9 @@
     Quand \[Gm]je te regar\[D]de
     Car notre a\[B&]mour à tous les \[F]deux
     Y'a que \[Gm]moi qui le \[D]garde
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai besoin d'entrer chez une femme
     Chez une autre que toi
     Toi qui a perdu ma flamme
@@ -30,9 +30,9 @@
     Ne pas te reconnaître
     Partout où je vais
     J'ai besoin de renaître !
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai besoin de vivre
     De vivre devant moi
     Ceux qui m'aiment me suivent
@@ -41,9 +41,9 @@
     Je ne sais rien faire d'autre
     J'ai besoin d'aimer
     Et c'est pas de ma faute !
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est ma faute à toi
     Toi qui est trop belle
     Toi qui est trop belle pour moi
@@ -52,9 +52,9 @@
     Pour ceux qui ne les ont pas
     Pour ceux qui sont tout seuls
     Pour ceux qui ne savent pas !
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Pour ceux qui marchent des heures
     Et qui vont nulle part
     Pour ceux qui boivent
@@ -62,6 +62,6 @@
     Pour ceux qui chantent, \echo{qui chantent \dots}
     Pour ceux qui chantent
     Qui chantent pour toi !
-  \endverse
+  \end{verse}
 
 \endsong

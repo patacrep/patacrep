@@ -13,49 +13,49 @@
 
   \lilypond{10_sous_dans_ma_poche-1}
 
-  \beginverse
+  \begin{verse}
     J'ai \[Am]{10 sous} dans ma \[G]poche
     J'ai \[C]aucun ar\[G]gent
     \rep{4}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et tou\[Am]jours gai gai
     Et tou\[Em]jours gaiement
     \[F]Y'a bien des gens
     Dans \[G]mon village
     Qui n'en \[C]ont \[E7]pas \[Am]tant
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'ai 8 sous dans ma poche{\ldots}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai 6 sous dans ma poche{\ldots}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai 4 sous dans ma poche{\ldots}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai 2 sous dans ma poche{\ldots}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     J'ai pas d'sous dans ma poche
     J'ai aucun argent
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et mes poches sont vides
     Et oui c'est emmerdant
     Car c'est le nain
     Dans mon village
     Qui a tout l'argent
-  \endchorus
+  \end{chorus}
 
   \lilypond{10_sous_dans_ma_poche-2}
 

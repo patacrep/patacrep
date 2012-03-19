@@ -10,20 +10,20 @@
   \gtab{C}{3:X02220}
   \gtab{B7}{2:X02020}
 
-  \beginverse
+  \begin{verse}
     \[Am]{J'arrive} le matin au bi\[G]strot du coin
     \[Am]Je m'installe sagement l'âme \[G]sans tourments
     J'ai \[Am]plein d'trucs à faire qui pour\[G]raient m'rendre fier
     \[Am]{J'commande} un café \[E7]pour me réveiller
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'brûle une cigarette mais bientôt j'arrête
     Je me frotte les mains, c'est maintenant demain
     Je vais pouvoir me construire un bel avenir
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Mais là j'sais pas ce qui se passe
     J'commande un verre et son p'tit frère
     Un pour la route, un pour l'retour
@@ -31,29 +31,29 @@
     Je parle d'amour à des gens sourds
     Arrive le soir, je peux plus boire
     J'me suis vautré, zut, encore raté
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     J'y peux \[C]rien, c'est mon côté \[G]punk
     \[C]{C'est} le vieux démon qui dé\[G]monte mon monde
     J'y peux \[Am]rien, c'est mon côté \[E7]punk
     \[Am]J'ai la vie en vice qui \[B7]{s'fout} d'mon a\[E7]vis
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Beau temps dans mon ventre, aujourd'hui j'rencontre
     J'ai la tête en fleur, elle me voit elle meurt
     D'amour va sans dire, pour elle j'peux mourir
     On s'accroche les yeux, pis on fait des vœux
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Nous deux ça s'ra grand, moi jamais je mens
     Confonds-toi en moi, je suis fondu d'toi
     Mon p'tit canari, j't'emmène à Paris
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Mais là j'sais pas ce qui se passe
     Car sur la route v'là que j'm'encroûte
     Pourquoi qu'elle m'aime, j'vaux pas la peine
@@ -61,23 +61,23 @@
     J'ouvre la portière, pied au derrière
     Ma p'tite amie est en bouillie
     Qu'est-ce que j'ai fait, j'crois qu'je l'aimais
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     J'suis toujours à faire d'une chose, le contraire
     Je sais pas c‘qui s'passe, j'dois être à la masse
     Mon vouloir se meurt, Monsieur le docteur
     Vous allez m'aider, j'saurai vous payer
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Je n'veux qu'une seule chose
     C'est qu'ma tête se r'pose
     J'suis plutôt dans le fond un gentil garçon
     J'veux y parvenir à mon bel avenir
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Mais là j'sais pas ce qui se passe
     {\og}Ça sert à rien{\fg} dit le méd'cin
     {\og}Séchez vos larmes, rangez cette arme
@@ -85,6 +85,6 @@
     Là j'prends sa tête, il en fait une tête
     J'la mets par terre, sa gueule à terre
     Il est mal barré, je vais tirer
-  \endverse
+  \end{verse*}
 
 \endsong

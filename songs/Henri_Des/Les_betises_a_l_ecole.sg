@@ -9,58 +9,58 @@
   \gtab{G}{320003}
 
 
-  \beginchorus
+  \begin{chorus}
     Zoum zoum zoum zoum zoum
     Zoum zoum zoum zoum zoum
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[C]{C'est} à l'école, tagadagada
     Qu'on apprend des bê\[G]tises
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \[G]Le grand Dédé, poils, poils au nez
     Devant toute la \[C]classe
     \[G]Monte au tableau, poils, poils au dos
     Pour faire des gri\[C]maces
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Quand le Julien, poils, poils aux mains
     Raconte ses histoires
     Elles sont si bêtes, poils aux chaussettes
     Qu'on pleure dans nos mouchoirs
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et la maîtresse, poils, poils aux tresses
     Qui pousse des soupirs
     Quand Marion, poils au menton
     Attrape le fou-rire
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et puis y'a moi, poils, poils aux doigts
     Qui marche à quatre pattes
     Pour chatouiller, poils aux mollets
     Ma voisine de droite
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Y'a la Thérèse, poils à la chaise
     C'est la plus rigolote
     Quand elle s'asseye, poils aux orteils
     On lui voit sa culotte
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Heureusement, poils, poils aux dents
     Quand vient la sonnerie
     Tout l'monde s'arrête, poils aux baskets
     Par ici la sortie
-  \endverse
+  \end{verse}
 
 \endsong
 

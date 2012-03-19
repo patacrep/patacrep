@@ -9,50 +9,50 @@
   \gtab{Bm}{2:X02210}
 
 
-  \beginchorus
+  \begin{chorus}
     My lady d'Arbanville \[Em]
     \[D] Why do you sleep so still?
     \[Em] I'll wake you tomorrow
     \[D] And you will be my \[Bm]fill
     Yes, you will be my \[Em]fill
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     My lady d'Arbanville
     Why does it grieve me so?
     But your heart seems so silent
     Why do you breathe so low? \rep{2}
-  \endverse
+  \end{verse}
 
 
-  \beginverse
+  \begin{verse}
     My lady d'Arbanville
     You look so cold tonight
     Your lips feel like winter
     Your skin has turned to white \rep{2}
-  \endverse
+  \end{verse}
 
 
-  \beginverse
+  \begin{verse}
     La lala lalala \echo{ahah ah ahah}
     La lalala la la \echo{ahah ah ahah}
     Lala la lalalala \echo{ahah ah ahah}
     Lalalala lala \echo{ah} \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     My lady d'Arbanville
     Why does it grieve me so?
     But your heart seems so silent
     Why do you breathe so low? \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     I loved you my lady
     Though in your grave you lie
     I'll always be with you
     This rose will never die \rep{2}
-  \endverse
+  \end{verse}
 
 \endsong

@@ -10,37 +10,37 @@
   \gtab{A}{X02220}
   \gtab{B}{2:X02220}
 
-  \beginverse
+  \begin{verse}
     She \[Em]hangs her head and \[D]cries in my \[C]shirt
     \[D] She must be \[Em]hurt very \[D]bad\[G]ly
     Tell me what's \[D]making you \[Em]sad\[A]ly?
     \[Em]Open your \[A]door, don't \[D]hide in the \[C]dark
     You're \[D]lost in the \[Em]dark, you can \[D]trust \[G]me
     'cause you know that's \[D]how it must \[Em La]be
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Lisa, Li\[A]sa, sad \[B]Lisa, Li\[Em]sa
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Her eyes like windows tricklin' rain
     Upon her pain getting deeper
     Though my love wants to relieve her
     She walks alone from wall to wall
     Lost in a hall, she can't hear me
     Though I know she likes to be near me
-  \endverse
+  \end{verse}
 
   \lilypond{Sad_Lisa}
 
-  \beginverse
+  \begin{verse}
     She sits in a corner by the door
     There must be more I can tell her
     If she really wants me to help her
     I'll do what I can to show her the way
     And maybe one day I will free her
     Though I know no one can see her
-  \endverse
+  \end{verse}
 
 \endsong

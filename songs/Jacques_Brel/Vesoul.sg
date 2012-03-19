@@ -15,7 +15,7 @@
   \gtab{D}{XX0232}
 
 
-  \beginverse
+  \begin{verse}
     \[Am]T'as voulu voir Vier\[E7]zon et on a vu Vier\[Am]zon\[E7]
     T'as voulu voir Vesoul et on a vu Vesoul
     T'as voulu voir Honfleur et on a vu Honfleur
@@ -23,16 +23,16 @@
     J'ai voulu voir Anvers et on a revu Hambourg
     J'ai voulu voir ta sœur et on a vu ta mère
     Comme toujours
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[A7]Mais, je te le \[Dm]dis, je n'\[G7]irai pas plus \[C]loin
     \[A7]Mais, je te pré\[Dm]viens, j'\[G7]irai pas à Pa\[E]ris
     D'ail\[D]leurs, j'ai hor\[E]reur de \[D]tous les flon\[E]flons
     De la \[D]valse mu\[E]sette, et de l'\[D]accor\[E]déon
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     T'as voulu voir Paris et on a vu Paris
     T'as voulu voir Dutronc et on a vu Dutronc
     J'ai voulu voir ta sœur j'ai vu l'Mont Valérien
@@ -40,9 +40,9 @@
     Je voulais voir Byzance et on vu Pigalle
     À la gare St Lazare j'ai vu les fleurs du mal
     Par hasard
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     T'as plus aimé Paris on a quitté Paris
     T'as plus aimé Dutronc on a quitté Dutronc
     Maint'nant j'confonds ta sœur et le mont Valérien
@@ -50,16 +50,16 @@
     Et tant pis pour Byzance puisque j'ai vu Pigalle
     Et la gare St Lazare c'est cher et ça fait mal
     Au hasard
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mais je te le redis, je n'irai pas plus loin
     Mais je te préviens le voyage est fini
     D'ailleurs, j'ai horreur de tous les flonflons
     De la valse musette et de l'accordéon
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     T'as voulu voir Vierzon et on a vu Vierzon
     T'as voulu voir Vesoul et on a vu Vesoul
     T'as voulu voir Honfleur et on a vu Honfleur
@@ -67,9 +67,9 @@
     J'ai voulu voir Anvers et on a revu Hambourg
     J'ai voulu voir ta sœur et on a vu ta mère
     Comme toujours
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     T'as voulu voir Paris et on a vu Paris
     T'as voulu voir Dutronc et on a vu Dutronc
     J'ai voulu voir ta sœur j'ai vu l'Mont Valérien
@@ -77,6 +77,6 @@
     Je voulais voir Byzance et on a vu Pigalle
     À la gare St Lazare, j'ai vu les fleurs du mal
     Par hasard
-  \endverse
+  \end{verse}
 
 \endsong

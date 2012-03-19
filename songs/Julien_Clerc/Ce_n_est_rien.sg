@@ -9,80 +9,80 @@
   \gtab{Am}{X02210}
   \gtab{B7}{X21202}
 
-  \beginverse
+  \begin{verse}
     \[Em]Ce n'est \[C]rien \[Am]
     Tu le \[C]sais bien le temps \[B7]passe
     Ce n'est \[Em]rien
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Tu sais \[C]bien \[Am]
     Elle s'en \[C]vont comme les \[B7]bateaux
     Et sou\[Em]dain
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Ça re\[C]vient \[Am]
     Pour un \[D7]bateau qui s'en \[G]va
     Et re\[Am]vient
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Il y a \[B7]mille coquilles de \[Em]noix
     Sur ton che\[C]min \[Am]
     Qui cou\[B7]lent et c'est très \[Em]bien
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et c'est comme \[D7]une tourterelle
     Qui s'é\[G]loigne à tire-d'aile
     En em\[Am]portant le du\[B7]vet
     Qu'était ton \[Em]lit, un beau matin
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Et c'est comme une fleur nouvelle
     Et qui s'en va vers la grêle
     Comme un petit radeau frêle
     Sur l'océan
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Ce n'est rien
     Tu le sais bien le temps passe
     Ce n'est rien
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Tu sais bien
     Elle s'en vont comme les bateaux
     Et soudain
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Ça prévient
     Comme un bateau qui revient
     Et soudain
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Il y a mille sirènes de joies
     Sur ton chemin
     Qui résonnent et c'est très bien
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et c'est comme une tourterelle
     Qui revient à tire-d'aile
     En rapportant le duvet
     Qu'était ton lit, un beau matin
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Et c'est comme une fleur nouvelle
     Et qui s'en va vers la grêle
     Comme un petit radeau frêle
     Sur l'océan
-  \endchorus
+  \end{chorus}
 
 \endsong

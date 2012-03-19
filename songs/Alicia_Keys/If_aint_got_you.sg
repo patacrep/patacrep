@@ -11,7 +11,7 @@
   \gtab{C7}{X32310}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[G7]Some people \[Bm]live for the \[Em]fortune
     \[Am]Some people live just for the \[D]fame
     \[G7]Some people \[Bm]live for the \[Em]power, yeah
@@ -20,9 +20,9 @@
     \[G7]Define \[Am]what's with\[Bm]in \[Am]\dots~And I've
     \[G7]Been there \[Am]before, \[Bm]that life's a \[Am]bore
     \[G7]So full of the \[Am]superfi\[Bm]cial
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G7]Some \[Am]peo\[Bm]ple \[C7]want it all, but
     I don't \[Bm]want nothing at all
     If it ain't \[Am]you baby
@@ -30,9 +30,9 @@
     \[G7]Some \[Am]people \[Bm]want \[C7]diamond rings
     Some just want \[Bm]everything, but everything means
     \[Am]Nothing, if I ain't got \[G7]you, yeah
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Some people search for a fountain
     That promises forever young
     Some people need three dozen roses. And
@@ -41,16 +41,16 @@
     What good would it be with
     No one to share. No one who truly
     Cares for me
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Outro: \nolyrics{\[C7 Bm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     If I ain't \[Am]got you with me baby \[G7]
     \[G7]So \[Am]nothing in \[Bm]this \[C7]whole wide world don't mean a \[Bm]thing
     If I ain't got you with \[Am]me baby \[G7]
-  \endverse
+  \end{verse}
 
 \endsong

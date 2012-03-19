@@ -11,7 +11,7 @@
   \gtab{D}{XX0232}
   \gtab{Bm}{2:X02220}
 
-  \beginverse
+  \begin{verse}
     \[Em]I'm tired of being what you \[C]want me to be
     \[G]Feeling so faithless lost \[D]under the surface
     \[Em]I don't know what you're expe\[C]cting of me
@@ -19,16 +19,16 @@
     \echo{Caught in the undertone just caught in the undertone}
     Every s\[Em]tep I take is a\[G]nother mistake to \[C]you \[D]
     \echo{Caught in the undertone just caught in the undertone}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]I've become so nu\[C]mb I can't feel you t\[G]here
     I've become so ti\[D]red so much more \[Em]aware
     I've becoming \[C]this all I want to \[G]do
     Is be more like \[D]me and be less like \[Em]you
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Can't you see that you're smothering me
     Holding too tightly afraid to lose control
     Cause everything that you thought I would be
@@ -37,20 +37,20 @@
     Every step that I take is another mistake to you
     \echo{Caught in the undertone just caught in the undertone}
     And every second I waste is more than I can take
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     And I \[D]know
     I may \[Em]end \[G]up \[Em]fail\[D]ing \[C]too
     But I \[D]know
     You were j\[B]ust like me with someone disappointed in you
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     I've become so numb I can't feel you there
     Is everything what you want me to be
     I've become so numb I can't feel you there
     Is everything what you want me to be
-  \endverse
+  \end{verse*}
 
 \endsong

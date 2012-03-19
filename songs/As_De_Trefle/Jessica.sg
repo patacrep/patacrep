@@ -9,27 +9,27 @@
   \gtab{Am}{X02210}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     \[C]Quand nous irons dans les bois tous les deux mon a\[G]mour
     À l'abri des regards et les yeux dans les \[Am]yeux, c'est \[G]mieux
     \[C]{J'verrai} tes pieds et tes mains et tes genoux et tes \[G]hanches
     Et tes fesses et ton dos et ton cul et tes \[Am]seins, tes \[G]seins
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[E]Oh Jessica, mon amour, je te connais si \[Am]bien
     \[G]Que dans les ports de Cherbourg à six heures du ma\[C]tin
     \[E]Oh Jessica, mon amour, je ne regrette \[Am]rien
     \[G]Car j'ai lâché du ve\[C]lours dans le \[E7]creux de tes \[Am]reins
-  \endchorus
+  \end{chorus}
 
   \lilypond{Jessica}
 
-  \beginverse
+  \begin{verse}
     Quand nous irons dans les bois tous les deux mon amour
     À l'abri des regards, à l'ombre d'un tilleul, si seuls
     J'verrai tes pieds et tes mains et tes genoux et tes hanches
     Et tes fesses et ton dos et ton cul et tes seins, tes seins
-  \endverse
+  \end{verse}
 
 \endsong

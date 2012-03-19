@@ -14,51 +14,51 @@
   \gtab*{B*}{XX244X}
   \gtab*{C*}{XX355X}
 
-  \beginverse
+  \begin{verse}
     \[Em] \[Am]{I'm not} like the\[G]m
     But \[C]{I can} prete\[Em]nd
     \[Am]The sun is go\[G]ne
     But \[C]{I have} a lig\[Em]ht
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       \[Am]The day is do\[G]ne
       But \[C]{I'm having} fu\[Em]n
       \[Am]{I think} I'm du\[G]mb
       Or \[C]maybe just \[Em]happy
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \[G] Think I'm just \[E]happy
     \[G] Think I'm just \[Em]happy
     \[G] Think I'm just \[E]happy \[G B]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Em] \[Am]{My heart} is bro\[G]ke
       But \[C]{I have} some glu\[Em]e
       \[Am]Help me inha\[G]le
       And \[C]mend it with yo\[Em]u
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Am]We'll float arou\[G]nd
       And \[C]hang out on clou\[Em]ds
       \[Am]Then we'll come do\[G]wn
       And \[C]have a han\[Em]gover
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[G] Have a han\[E]gover
       \[G] Have a han\[Em]gover
       \[G] Have a han\[E]gover \[G B]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \[B*] Skin the sun\[C*]
     Fall asleep\[B*]
     Wish away\[C*]
@@ -67,16 +67,16 @@
     Wish me luck\[B*]
     Soothe the burn\[C*]
     Wake me up
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Verse{} \& \Chorus 1}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Em] \[Am]{I think} I'm du\[G]mb
     \[C]{I think} I'm du\[Em]mb
     \musicnote{Ad libidum}
-  \endverse
+  \end{verse}
 
 \endsong

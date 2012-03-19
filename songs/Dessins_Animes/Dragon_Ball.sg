@@ -9,35 +9,35 @@
   \gtab{B}{2:X02220}
   \gtab{E}{022100}
 
-  \beginchorus
+  \begin{chorus}
     \[A]Dragon Ball
     La \[D]quête fi\[A]nale
     Des \[D]sept boules de \[A]cristal
     Ve\[B]nues des é\[E]toiles
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[A]Dragon Ball
     Pour \[D]un idé\[A]al
     \[D]Combat gla\[A]cial
     Du Bien \[E]contre le \[A]Mal
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Dragon Ball
     La lutte infernale
     D'une petite fille
     D'un enfant-animal
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Dragon Ball
     Contre l'immoral
     Méchant Orak
     À la force bestiale
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Quand le gen\[A]til Crokor
     Au cœur d'or
     Et \[E]Bulma son amie
@@ -49,9 +49,9 @@
     Un petit \[A]peu d'espoir
     Pour savoir
     \[E]Le secret des boules de cris\[A]tal
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Héros de l'aventure
     Du futur
     Chevalier du courage
@@ -63,6 +63,6 @@
     Afin qu'enfin s'éclaire
     Le mystère
     Le secret des boules de cristal
-  \endverse
+  \end{verse}
 
 \endsong

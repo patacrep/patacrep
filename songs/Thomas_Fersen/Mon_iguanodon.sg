@@ -12,23 +12,23 @@
   \gtab{Fm7}{1:020000}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     \[E&]{Il dormait} dans une mare
     \[A&]{Où des} insectes patinent
     \[Fm]{Il était} grand calamar
     \[B&]{Au fond} d'un abîme
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       \[E&]{Il rêvait} dans sa corbeille
       \[A&]{En bavant} sur l'édredon
       \[Fm]{La pleine} lune le réveille
       \[B&]{Mon iguanodon}
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \[Cm]{Pas besoin} d'être fakir
     \[Fm]{Ni de se} coiffer d'un turban
     \[Fm7]{Je sais} ce qui fait languir
@@ -39,24 +39,24 @@
     \[B&]
     \[G]{Je le retiens} dans mes songes
     \[Cm]Mais il est visqueux
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[E&]{Il fume} des petits cigares
       \[A&]{D'une} sorte bon marché
       \[Fm]{On entrouvre} les cadavres
       \[B&]{Où il a} marché
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[E&]{Et comme} c'est bientôt Noël
       \[A&]{On entonne} des cantiques
       \[Fm]{On allume} des chandelles
       \[B&]Devant les boutiques
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[Cm]{Il entre} allumer un cierge
       \[Fm]{En Notre-Dame-du-Pardon}
       \[Fm7]{Il pense} à la forêt vierge
@@ -67,23 +67,23 @@
       \[B&]
       \[G]{Je le retiens} dans mes songes
       \[Cm]Mais il est visqueux
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[E&]{Ce n'est pas} pour la vitrine
       \[A&]{Des plus} grands maroquiniers
       \[Fm]{Que le} serpent se dandine
       \[B&]Hors de son panier
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[E&]Derrière ses lunettes d'écailles
       \[A&]{Et sa} froideur dans le ton
       \[Fm]{La démence} le travaille
       \[B&]{Le pauvre} python
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[Cm]Mais le vernis se lézarde
       \[Fm]{Et sous} son collier de barbe
       \[Fm7]{On voit} sa grosse pomme d'Adam
@@ -94,23 +94,23 @@
       \[B&]
       \[G]{Je le retiens} dans mes songes
       \[Cm]Mais il est visqueux
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[E&]Voilà sa raison qui rampe
       \[A&]Dans les pensées anormales
       \[Fm]Alors que la pluie détrempe
       \[B&]{Son imperméable}
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[E&]{Il lui} faut les souliers plats
       \[A&]{Et la jupe} bleu marine
       \[Fm]{La barrette}, les gros bas
       \[B&]Toujours le même film
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[Cm]Comme on dit sur le trottoir
       \[Fm]Comme on dit dans le jargon
       \[Fm7]{On va} sacrifier ce soir
@@ -121,14 +121,14 @@
       \[B&]
       \[G]{Je le} retiens dans mes songes
       \[Cm]Mais il est visqueux
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \nolyrics \[E& A& Fm B&] \[E& A& Fm B&]
     \nolyrics \[Cm Fm Fm7 B&]
     \nolyrics \[Cm Fm Fm7 B&]
     \nolyrics \[G Cm G Cm G Cm]
-  \endverse
+  \end{verse*}
 
 \endsong

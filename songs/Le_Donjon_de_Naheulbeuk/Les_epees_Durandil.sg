@@ -12,7 +12,7 @@
 
   \textnote[english]{spoken}
   \textnote[french]{parlé}
-  \beginverse*
+  \begin{verse*}
     {\og}Et dis donc, tu voudrais bien m'prêter ton épée, j'ai perdu ma hache ?
     --- J'voudrais bien mais elle est beaucoup trop précieuse regarde !
     --- À la vache, c'est une Durandil !
@@ -22,28 +22,28 @@
     --- Laisse-moi te parler de cette lame exceptionnelle
     --- Oh non, il va encore chanter !
     --- C'est parti !{\fg}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Les \[D]épées Durandil sont forgées \[A]dans les mines par les \[D]nains \echo{c'est vrai}
     Avec ça c'est facile de tuer un \[G]troll avec une seule \[D]main
     Pas \[G]besoin d'super \[A]entraînement, ni \[G]de niveau \[A]28
     Quand \[D]tu sors l'instrument c'est l'enne\[A]mi qui prend la \[D]fuite
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Avec ton épée Durandil quand tu parcours les chemins
     Tu massacres sans peine les brigands et les gobelins
     Les rats géants, les ogres mutants, les zombies et les liches
     Tu les découpes en tranches comme si c'étaient des parts de quiche
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Les épées Durandil, les épées Durandil
     Quand tu la sors dans un donjon au moins t'as pas l'air débile
     C'est l'arme des bourrins, qui savent être subtils
     Ne partez pas à l'aventure sans votre épée Durandil
-  \endverse
+  \end{verse}
 
   \image[width=4cm]{nb_dwarf_02}
 

@@ -13,84 +13,84 @@
   \gtab{B7}{X21202}
   \gtab{Gm}{3:022000}
 
-  \beginverse
+  \begin{verse}
     \[G]Ce week-end pour faire la fête
     Ré\[D7]serve ton billet \[G]sur le net
     Pas d'\[G]crise de nerfs, c'est pas l'moment
     De \[D7]maudire ce site \[G]indécent
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Cours, cours, dépêche-toi
     Tu \[D7]vas l'rater en\[G]core une fois
     \[G]Cours, cours, dépêche-toi
     Tu \[D7]sais qu'il ne t'attendra \[G]pas
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Évite toute valise surchargée
     On n'sait jamais c'qui peut t'arriver
     30 minutes avant l'départ
     Prie pour qu'le tram soit pas en r'tard
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[G]Travaux sur la voie, t'es bien en \[C]veine
     Mais pas à ça \[D]près, vas pas stres\[G]ser
     \[G]Profite d'la chaleur hu\[C]maine
     En mode sar\[D]dine dans un wagon bon\[G]dé
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Y'a qu'une bonne dame d'vant la machine
     Mais dépêche-toi parbleu, fais-vite
     C'est vrai qu'l'interface réactive
     Reste un concept très futuriste
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Billet retiré, faut l'composter
     Bouscule tout l'monde, fais pas d'quartiers
     Voie 138, au bout du quai
     Prépare ton sprint, pense au roulé-boulé
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Surtout, dans ton effort
     Rappelle-toi cette règle d'or
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Dès que l'\[Em]sifflet sonne\[D]ra, le train parti\[Em]ra
     Si les \[G]dieux sont avec \[D]toi, il t'emmène\[Em]ra
     De pingouin, mais
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Les \[Em]portes \[G]du Co\[A]rail se \[C]ferment
     Et \[Em]tu te trouves du \[G]mauvais cô\[B7]té
     \echo{Mais si !}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Youhou, yipi yeah
     T'es imbattable à la course à pied
     Reprend ton souffle, c'est mérité
     Cette épopée est terminée
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Gm]Mais soudain surgissant d'nulle part
     Le \[D7]contrôleur an\[Gm]nonce un r'tard
     Ta \[Gm]correspondance part dans les airs
     Un \[D7]arbre est tombé sur une \[Gm]caténaire
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Cours, cours, et cours toujours
     SNCF, quelle histoire d'amour
     Cours, cours, et cours toujours
     Et surtout ne pense pas au r'tour
-  \endchorus
+  \end{chorus}
 
 \endsong

@@ -9,19 +9,19 @@
   \gtab{F}{1:022100}
   \gtab{Fm}{1:022000}
 
-  \beginverse
+  \begin{verse}
     \[C]Here's a little song I wrote
     \[G]You might want to sing it note for note
     Don't \[F]worry,\[Fm G] be \[C]happy \[G]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     In every life we have some trouble
     When you worry you make it double
     Don't worry, be happy \echo{be happy now}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Uh uh uh uh uh
     Uh uh uh uh \[G]uh uh uh
     Don't worry
@@ -29,6 +29,6 @@
     Be happy
     Uh uh uh uh \[C]uh
     Don't worry, be happy
-  \endchorus
+  \end{chorus}
 
 \endsong

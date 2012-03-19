@@ -10,16 +10,16 @@
   \gtab{B}{2:X02220}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[F#m]Come as you \[E]are
     As you \[F#m]were
     As I \[E]want you to \[F#m]be
     As a fri\[E]end
     As a fri\[F#m]end
     As an \[E]old ene\[F#m]my
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Take your time
     Hurry up
     The choice is yours
@@ -28,9 +28,9 @@
     As a friend
     As an old memory
     \[A]A mem\[F#m]ory \rep{3}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Come doused in mud
     Soaked in bleach
     As I want you to be
@@ -38,12 +38,12 @@
     As a friend
     As an old memory
     A memory \rep{3}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[B]And I \[D]swear
     That I \[B]don't have a gun\[D]
     No, I \[B]don't have a gun \[D] \rep{2}
-  \endverse
+  \end{verse*}
 
 \endsong

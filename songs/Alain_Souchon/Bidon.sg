@@ -13,96 +13,96 @@
   \gtab{Bm}{2:X02210}
   \gtab{F#m}{2:022000}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics \[A E F{\shrp}m E]}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[A]Elle croyait qu'j'étais James \[E]Dean
     Américain d'ori\[F#m]gine
     Le fils de Buffalo \[E]Bill
     Alors admira\[A]tion \[E F#m E]
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Faut dire qu'j'avais la ch'mise à carreaux
     La guitare derrière dans l'dos
     Pour faire le cow-boy très beau
     Mais composition
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \[Bm]Elle me parlait anglais tout l'\[F#]temps
     J'lui \[Bm]répondais deux trois mots bi\[F#]don
     Des \[Bm]trucs entendus dans des chan\[E]sons
     Consterna\[A]tion \[E F#m E]
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Elle croyait qu'j'étais coureur
     Qu'j'arrivais des vingt quatre-heures
     Avec mon casque en couleur
     Alors admiration
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'lui disais drapeau à damier
     Dérapages bien contrôlés
     Admirateurs fascinés
     Télévision
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Elle me dit : {\og}Partons à la mer{\fg}
     Dans ton bolide fendant l'air
     Elle passe pas l'quatre-vingt ma traction
     Consternation
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     J'suis \[D]mal dans ma peau
     En \[D5+]coureur très beau
     And \[D6]{I just} go
     Et ma \[D7]pince à vélo
     J'suis \[G]bidon
     J'suis bidon
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     J'suis qu'un mec à frime
     Bourré d'aspirine
     And I just go
     Et ma pince à vélo
     J'suis bidon
     J'suis bidon
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Elle croyait qu'j'étais chanteur
     Incognito, voyageur
     Tournées, sono, filles en pleurs
     Admiration
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Faut dire qu'j'avais des talons aiguilles
     Le manteau d'lapin d'une fille
     Des micros bracelets aux ch'villes
     Exhibition
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Elle me dit : {\og}Chante-moi une chanson{\fg}
     J'ai avalé deux trois maxitons
     Puis j'ai bousillé satisfaction
     Consternation
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     J'habite chez ma grand-mère
     Derrière le garde barrière
     And I just go
     Et ma pince à vélo
-  \endchorus
+  \end{chorus}
 
 \endsong

@@ -15,7 +15,7 @@
   \gtab{Gm}{3:022000}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     Là-\[Cm]haut, là-haut
     \[B&]Très loin dans l'espace
     \[G]Entre la Terre \[Cm]{et Vénus}
@@ -25,9 +25,9 @@
     \[B&]{La Planète} \[G]Bleue
     \[Fm]Dont il voyait \[Cm]la lumière
     \[G]{À cent} mille \[Cm]lieux
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Là-haut, là-haut
     Loin dans les étoiles
     La Grande Guerre éclata
@@ -37,9 +37,9 @@
     Vaincu, solitaire
     À travers les galaxies
     De notre univers
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Dans son mervei\[G]lleux robot
     \[Am]De lumière et d'a\[G]cier
     \[Dm]{Ce chevalier} \[C]des temps nouveaux
@@ -47,6 +47,6 @@
     \[G]Actarus à bord de Goldorak
     \[C]Voici la lé\[F]gende
     \[G]Que l'on va vous racon\[C]ter
-  \endchorus
+  \end{chorus}
 
 \endsong

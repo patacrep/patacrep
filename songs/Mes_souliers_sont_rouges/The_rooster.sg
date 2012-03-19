@@ -11,7 +11,7 @@
   \gtab{F}{1:022100}
 
 
-  \beginverse
+  \begin{verse}
     We had some \[C]chickens
     No eggs would they \[G7]lay
     We had some chickens
@@ -20,9 +20,9 @@
     We're losing \[C]money (oh yeah)
     Because that \[G7]chickens
     No eggs would they \[C]lay''\[C7]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Then came a \[F]rooster
     Into her \[C]yard
     And he caught that \[G7]chickens
@@ -31,9 +31,9 @@
     Like they never \[C]used to
     Since that \[G7]rooster
     Came into her \[C]yard
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     We had a moo-cow
     No milk would she give
     We had a moo-cow
@@ -42,9 +42,9 @@
     We're losing money
     Because that moo-cow
     No milk would she gives''
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Then came a rooster
     Into her yard
     And he caught that moo-cow
@@ -53,9 +53,9 @@
     Like she never used to
     Since that rooster
     Came into her yard
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     We had an elephant
     No tusk would he grow
     We had an elephant
@@ -64,9 +64,9 @@
     We're losing money
     Because that elephant
     No tusk would he grow''
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Then came a rooster
     Into her yard
     And he caught that elephant
@@ -75,9 +75,9 @@
     Of a solid ivory
     Since that rooster
     Came into her yard
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     We had a rooster
     He was awfully gay
     We had a rooster
@@ -86,9 +86,9 @@
     We're losing money
     Because that rooster
     Was funny that way''
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Then came a chicken
     Into her yard
     And he caught that rooster
@@ -97,6 +97,6 @@
     Like he never used to
     Since that chicken
     Came into her yard
-  \endchorus
+  \end{chorus}
 
 \endsong

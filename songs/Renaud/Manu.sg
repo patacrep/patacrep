@@ -11,7 +11,7 @@
   \gtab{E}{022100}
   \gtab{Dm}{XX0231}
 
-  \beginverse
+  \begin{verse}
     \[Am]{Eh Manu} rentre chez t\[Em]oi
     Y'a des larmes plein ta bi\[Am]ère
     Le bistrot va ferm\[Em]er
@@ -24,16 +24,16 @@
     Et ta lame de cou\[C]teau
     C'est surtout un blin\[G]dage
     Pour ton cœur d'arti\[C]chaut
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Eh déconne pas Manu\[E]
     Va pas t'tailler les vei\[Am]nes
     Une gonzesse de perd\[E]ue
     C'est dix copains qui r'vien\[Dm]nent \[G]\[F]\[Dm]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On était tous maqués
     Quand toi t'étais tout seul
     Tu disais j'me fais chier
@@ -46,16 +46,16 @@
     Pour t'tatouer son prénom
     À l'endroit où palpite
     Ton grand cœur de grand con
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Eh déconne pas Manu
     C't'à moi qu'tu fais d'la peine
     Une gonzesse de perdue
     C'est dix copains qui r'viennent
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'vais t'dire on est des loups
     On est fait pour vivre en bande
     Mais surtout pas en couple
@@ -68,16 +68,16 @@
     C'est souvent vivre seul
     Ça fait p't'être mal au bide
     Mais c'est bon pour la gueule
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Eh déconne pas Manu
     Ça sert à rien la haine
     Une gonzesse de perdue
     C'est dix copains qui r'viennent
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Elle est plus amoureuse
     Manu faut qu'tu t'arraches
     Elle peut pas être heureuse
@@ -90,11 +90,11 @@
     Qu't'as dû t'gourer d'trottoir
     Quand tu l'as rencontrée
     T'as dû t'tromper d'histoire
-  \endverse
+  \end{verse}
 
   \textnote{chorus 1, 2, 3}
-  \beginverse*
+  \begin{verse*}
     Eh déconne pas Manu, allez, déconne pas{\dots}
     Manu{\dots}
-  \endverse
+  \end{verse*}
 \endsong

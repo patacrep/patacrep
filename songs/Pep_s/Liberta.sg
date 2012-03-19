@@ -10,7 +10,7 @@
   \gtab {G}{32001}
   \gtab {D/F#}{200232}
 
-  \beginverse
+  \begin{verse}
     \[Em]Tu sais qu'il y a un bateaux qui mène au \[C]pays des rêves
     \[G]Là-bas où il fait chaud, où le ciel n'a \[D/F#]pas son pareil
     Tu sais qu'au bout cette terre, oui les gens sèment
@@ -23,16 +23,16 @@
     Pour rejoindre ce vaisseau et voir enfin cette terre
     Là-bas trop de lumière, j'ai dû fermer les yeux
     Rien que les odeurs remplissaient tous mes vœux
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     I just wanna be free in this way
     Just wanna be free in my world
     Vivere per libertà
     Vivere nella libertà
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Alors une petite fille aussi belle que nature
     Me prit par la main et m'a dit : {\og}Suis cette aventure{\fg}
     On disait même, oh oui, que la mer l'enviait
@@ -41,15 +41,15 @@
     Et ses bouclettes dorées dégageaient ce parfum
     Qui depuis des années guidait ce chemin, ton chemin
     Mon chemin, le chemin
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Pour arriver enfin à ces rêves d'enfants
     Qui n'ont pas de limites comme on a maintenant
     J'ai vu des dauphins nager dans un ciel de coton
     Où des fleurs volaient caressant l'horizon
     J'ai vu des arbres pousser, remplaçant les gratte-ciel
     J'ai vu au fond de l'eau une nuée d'hirondelles
-  \endverse
+  \end{verse}
 
 \endsong

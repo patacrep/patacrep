@@ -12,39 +12,39 @@
 
   \lilypond{La_seine_rythm}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics \Intro : \lilypond{La_seine_riff1} | \[Am] | \[F] | \[C] \[E] | \[Am] |}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Am]Elle sort de son lit \[F]tellement sure d'elle
     \[C]La Seine, \[E]la Seine, \[Am]la Seine
     \[Am]Tellement jolie, \[F]elle m'ensorcelle
     \[C]La Seine, \[E]la Seine, \[Am]la Seine
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Am]Extralucide, la \[F]Lune est sure
       \[C]La Seine, \[E]la Seine, \[Am]la Seine
       \[Am]Tu n'es pas saoul, \[F]Paris est sous
       \[C]La Seine, \[E]la Seine, \[Am]la Seine
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]Je ne sais, ne sais, ne sais \[F]pas pourquoi
     C'est comme \[C]ça, la \[E]Seine et \[Am]moi
     \[Am]Je ne sais, ne sais, ne sais \[F]pas pourquoi
     On s'aime comme \[C]ça, la \[E]Seine et \[Am]moi
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Extralucide quand tu es sur
     La Seine, la Seine, la Seine
     Extravagante quand l'ange est sur
     La Seine, la Seine, la Seine
-  \endverse
+  \end{verse}
 
   \begin{bridge}
     \[A]Sur l'pont des arts
@@ -56,9 +56,9 @@
     \[F]Nos reflets \[G]perchés sur ce \[A]pont
   \end{bridge}
 
-  \beginverse*
+  \begin{verse*}
     Tu lu tu lu tu {\dots}
     C'est comme ça la Seine et moi \rep{4}
-  \endverse
+  \end{verse*}
 
 \endsong

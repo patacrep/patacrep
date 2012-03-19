@@ -10,7 +10,7 @@
   \gtab{E}{022100}
   \gtab{C}{X32010}
 
-  \beginverse
+  \begin{verse}
     \[Am]Yeah, oh \[G]yeah, you \[F]seen me \[E]walk
     On burning \[Am]bridges
     Yeah, oh yeah, you seen me fall
@@ -19,24 +19,24 @@
     Inside by stitches
     Yet, you know I did survive
     All of your lovely sieges
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Am]And you know that I'll pick \[F]up
     Every time you \[C]call
     Just to thank you one more \[E]time
     Alco\[Am]hol
     \[Am G F E] Alco\[Am]hol \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     And you know that I'll survive
     Every time you come
     Just to thank you one more time
     For everything you've done
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     I am sorry some of us
     Given you bad name
     Yeah, oh yeah, cause without you
@@ -45,9 +45,9 @@
     Every time we break up
     Just to hit a higher note
     Every time we make up
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Who is crawlin' up my spine
     \echo{Alcohol}
     I was waiting long long time
@@ -56,9 +56,9 @@
     \echo{Alcohol}
     Just don't stab me in the back
     With a cortisol
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Now forever reunite
     \echo{Alcohol}
     Now you teach me how to rhyme
@@ -67,6 +67,6 @@
     \echo{Alcohol}
     May that ceremony be
     Happy or sad
-  \endverse
+  \end{verse*}
 
 \endsong

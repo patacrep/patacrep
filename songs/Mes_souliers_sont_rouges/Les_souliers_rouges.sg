@@ -10,60 +10,60 @@
 
   \lilypond{Les_souliers_rouges}
 
-  \beginverse
+  \begin{verse}
     Ah si j'a\[G]vais les beaux souliers que ma mi\[D7]gnonne, ma mi\[G]gnonne
     Si j'a\[C]vais les beaux sou\[G]liers que ma mi\[D7]gnonne m'a don\[G]nés
     \rep{2}
     Les souliers du vieux Poirier
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mes souliers \[C]sont \[G]rouges
     Ma mi\[D7]gnonne, ma mi\[G]gnonne
     Mes sou\[C]liers sont \[G]rouges
     Ma mi\[D7]gnonne mes a\[G]mours
     \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Si j'avais les beaux chaussons \dots
     Les chaussons du vieux Gagnon, les souliers \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'avais les belles jar'tières \dots
     Les jar'tières du vieux Giguère, les chaussons \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'avais la belle culotte \dots
     La culotte du vieux Mayotte, les jar'tières \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'avais la belle chemise \dots
     La chemise du vieux Laprise, la culotte \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'avais les belles bretelles \dots
     Les bretelles du vieux Roussel, la chemise \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'avais le beau collet \dots
     Le collet du vieux Forest, les bretelles \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'avais le beau capot \dots
     Le capot du vieux Thibault, le collet \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si j'avais le beau chapeau \dots
     Le chapeau du vieux Garneau, le capot \dots
-  \endverse
+  \end{verse}
 
 \endsong
 

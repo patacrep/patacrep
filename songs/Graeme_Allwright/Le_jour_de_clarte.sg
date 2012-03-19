@@ -12,16 +12,16 @@
   \gtab{Em}{022000}
   \gtab{G}{320003}
 
-  \beginchorus
+  \begin{chorus}
     Quand tous les affamés\[Dm C Dm]
     Et tous les opprimés\[Dm C Dm]
     Entendront tous l'appel\[F C B&]
     Le cri de liberté\[A7 Em A7]
     Toutes les chaînes brisées\[Dm]
     Tom\[C]beront \[B&]pour l'éternité\[Dm C Dm]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On peut chan\[F]ter sur les po\[C]èmes des \[Dm]sages
     Et on peut \[F]parler de l'hu\[C]mili\[Dm]té
     Mais il \[F]faut s'u\[C]nir pour \[B&]abo\[C]lir
@@ -29,16 +29,16 @@
     \[Dm] Les \[F]hommes sont \[G]tous pa\[A7]reils
     \[Dm] Ils ont \[F]tous le \[G]même so\[A7]leil
     \[Dm] Il \[F]faut, mes \[G]frères, prépa\[A7]rer
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Le jour de clarté\[Dm C Dm]
     Quand tous les affamés\[Dm C Dm]
     Entendront tous l'appel\[F C B&]
     \dots
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On peut discuter sur les Droits de l'Homme
     Et on peut parler de fraternité
     Mais qu'les hommes soient jaunes ou blancs ou noirs
@@ -46,16 +46,16 @@
     Laissez vos préjugés
     Rejetez vos vieilles idées
     Apprenez seulement l'amitié
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Pour que les affamés
     Et tous les opprimés
     Entendent tous l'appel
     \dots
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     On ne veut plus parler de toutes vos guerres
     Et on n'veut plus parler d'vos champs d'honneur
     Et on n'veut plus rester les bras croisés
@@ -63,13 +63,13 @@
     Dans ce monde divisé
     Il faut des révoltés
     Qui n'auront pas peur de crier
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Pour que les affamés
     Et tous les opprimés
     Entendent tous l'appel
     \dots
-  \endchorus
+  \end{chorus}
 
 \endsong

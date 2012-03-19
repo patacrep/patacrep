@@ -11,11 +11,11 @@
   \gtab{C}{X32010}
   \gtab{G}{320003}
 
-  \beginchorus
+  \begin{chorus}
     \musicnote{\Intro : \nolyrics{\[Am F E]} \rep{4}}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'aime\[Am]rais tenir dans mes mains ce \[F]maudit Saint \[E]Graal
     Qui se cache, on ne sait z'où : il se rit bien de nos promesses
     Je ne serais pas mécontent que se pendent à mon cou
@@ -24,16 +24,16 @@
     J'aime autant dormir sous la lune uniquement quand c'est un choix
     J'aimerais voir de nos yeux, un gosse de moi sourire
     Que ce p'tit con m'appelle papa, le voir grandir et vivre vieux
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et si je \[Am]{n'ai} rien de tout ça, peu im\[C]porte
     J'irai \[G]chanter devant ta porte, Émi\[Am]lie
     Et si l'on ne \[Am]{m'ouvre} pas, que le Diable m'em\[C]porte
     Peu m'im\[E]portent les saveurs du para\[Am]dis !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     J'aimerais découvrir le monde avant que d'en crever
     Quitte à saigner de trop, de pas voir si la terre est ronde
     Mourir un an, peut-être deux, me reposer un peu
@@ -42,14 +42,14 @@
     Martyrisés par manque de pot, une fois le temps d'abandonner
     Moi qui voulais tous les empires et les murs à tomber
     Moi qui n'aurais su réussir, j'ensorcelle ton escalier
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et si je n'ai rien fait de moi, peu importe
     Je chante devant ta porte, Émilie
     Et si l'on ne m'ouvre pas, que le Diable m'emporte
     Peu m'importent les saveurs du paradis !
     \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

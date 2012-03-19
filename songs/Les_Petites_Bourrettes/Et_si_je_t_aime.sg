@@ -11,33 +11,33 @@
 
   \lilypond{Et_si_je_t_aime}
 
-  \beginchorus
+  \begin{chorus}
     Et si je \[C]{t'aime}, \[F] c'est comme un \[G]fou \echo{comme un sol\[F]dat}
     Oh comme une \[C]star de \[F]ciné\[G]ma \[F]
     Et si les \[Am]autres, ils \[F]{t'ont} laissée tom\[G]ber \echo{laisse tom\[F]ber}
     Viens donc \[Am]plutôt pour \[F]sortir avec \[G]moi
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Y'a des toboggans, dans mon quartier
     Tous les deux on s'y laissera glisser
     Et puis on mangera, des glaces au chocolat
     À la vanille et aussi au chocolat
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Tu vois on ira au bal, qu'est en bas d'chez moi
     Tu verras c'est sûr qu'on y pourra danser
     J'te montrerai les pas, que j'ai inventés
     Et tous les deux, on pourra s'entraîner
-  \endverse
+  \end{verse}
 
 
-  \beginverse
+  \begin{verse}
     Puis on va s'aimer, pendant des nuits entières
     Et pour ça faudrait que tu ailles m'embrasser
     Et si tu veux pas, faudra pas venir pleurer
     Quand j's'rai une star, et que j't'aim'rai plus !
-  \endverse
+  \end{verse}
 
 \endsong

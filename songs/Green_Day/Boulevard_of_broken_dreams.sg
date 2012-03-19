@@ -11,66 +11,66 @@
   \gtab{D5}{5:X022XX}
   \gtab{C#5}{4:X022XX}
 
-  \beginverse
+  \begin{verse}
     \[F#5]{I walk} a \[A5]lonely road
     \[E5]The only one \[B5]that I have
     \[F#5]Ever known. Don't know \[A5]where it goes
     \[E5]But it's home to me \[B5]and I walk
     \[F#5]Alone \[A5] \[E5] \[B5]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     I walk this empty street
     On the Boulevard of Broken Dreams
     Where the city sleeps
     And I'm the only one and I walk
     Alone
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     I \[A5]walk alone, I \[E5]walk alone
     I \[B5]walk alone, I walk a~\dots
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[D5]My \[A5]shadow's \[E5]the only one \[B5]that walks beside me
     \[D5]My \[A5]shallow \[E5]heart's the \[B5]only thing that's beating
     \[D5]Some\[A5]times \[E5]{I wish} someone \[B5]out there will find me
     \[D5]'Til \[A5]then \[C#5]{I walk} alone
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     Ah-ah, Ah-ah, Ah-ah, Ah-ah
     Ah-ah, Ah-ah, Ah-ah
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     I'm walking down the line
     That divides me somewhere in
     My mind. On the border line
     Of the edge and where I walk
     Alone
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Read between the lines
     What's fucked up and everything's
     Alright. Check my vital signs
     To know I'm still alive and I walk
     Alone
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Ah-ah, Ah-ah, Ah-ah, Ah-ah
     Ah-ah, Ah-ah
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     I walk this empty street
     On the Boulevard of Broken Dreams
     Where the city sleeps
     And I'm the only one and I walk
     A~\dots
-  \endverse
+  \end{verse}
 
 \endsong

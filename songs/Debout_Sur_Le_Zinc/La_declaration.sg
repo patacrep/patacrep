@@ -15,68 +15,68 @@
 
   \lilypond{La_declaration}
 
-  \beginverse
+  \begin{verse}
     \[Em]{C'est} un peu \[Am]une déclara\[G]tion
     Que je te \[B7]fais, car il est \[Em]temps
     Je \[Am]crois \[G B7]
     Quand certains rêvent de nation
     De football ou de vrais combats
     \nolyrics{\[Am G B7]}
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Em]Moi c'est vers \[Am]toi que je \[G]tends
     Les bras quand \[B7]ça ne va pas
     \[Em]Ma cervelle \[Am]et mes senti\[G]ments
     Je te les \[B7]donne, ils sont pour \[Em]toi
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Le reste, on \[Am]en reparle\[G]ra \[B7] \rep{3}
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Em*]Pour vivre avec \[Am*]toi \[G* B7*]
     Tu es mon \emph{chez moi}
     Mon premier et mon second choix
     Mon rêve d'absolu qui ne tarit pas
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je te dois mes premiers frissons
     Et mes premiers coups sur les doigts
     Mais pour un mot, une chanson
     J'aurais donné n'importe quoi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Malgré tous mes démons
     Les menottes que j'ai aux bras
     Si je te quitte pour de bon
     Le lendemain, je cours vers toi
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Le reste, on en reparlera
-  \endverse
+  \end{verse*}
 
 
-  \beginverse
+  \begin{verse}
     C'est un peu une déclaration
     Même si je sais que tu n'es pas
     Le remède, ni la solution
     Tu n'es qu'une atèle à mon bras
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Ce petit rien qui nous lie
     Aux autres quand ça ne va pas
     Un ultime langage de survie
     Qui remet le monde à l'endroit
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Le reste, on en reparlera \rep{2}
-  \endverse
+  \end{verse*}
 
 \endsong

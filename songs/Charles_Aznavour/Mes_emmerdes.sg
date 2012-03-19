@@ -18,7 +18,7 @@
   \gtab{Eb}{XX1343}
   \gtab{G7}{320001}
 
-  \beginverse
+  \begin{verse}
     J'ai travai\[C]llé des ann\[E]ées
     Sans ré\[Am]pit jour et \[C7]nuit
     Pour réu\[F]ssir
@@ -26,9 +26,9 @@
     En oubli\[F]ant souvent \[E]dans
     Dans ma c\[Am]ourse contre le \[Fm]temps
     Mes am\[C]is, mes am\[G]ours, mes emm\[F]erdes\[C G C]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     À corps perdu, j'ai couru
     Assoiffé, obstiné
     Vers l'horizon
@@ -36,17 +36,17 @@
     En sacrifiant, c'est navrant
     Je m'en accuse à présent
     Mes amis, mes amours, mes emmerdes
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mes amis, c'é\[Fm]tait tout en par\[B&]tage
     Mes amours fai\[E&]saient très, très bien \[C7]l'amour
     Mes emmerdes é\[Am]taient ceux de notre \[D]âge
     Où l'argent, c'est do\[Am]mmage
     Éper\[D]onnait nos \[G]jours\[G7]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Pour être fier, je suis fier
     Entre nous, je l'avoue
     J'ai fait ma vie
@@ -54,9 +54,9 @@
     Je donnerais ce que j'ai
     Pour retrouver, je l'admets
     Mes amis, mes amours, mes emmerdes
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Mes relations vraiment sont
     Haut placées, décorées
     Influents, bedonnants
@@ -64,17 +64,17 @@
     Ils sont sérieux mais près d'eux
     J'ai toujours le regret de
     Mes amis, mes amours, mes emmerdes
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Mes amis étaient plein d'insouciance
     Mes amours avaient le corps brûlant
     Mes emmerdes aujourd'hui quand j'y pense
     Avaient peu d'importance
     Et c'était le bon temps
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Les canulars, les pétards
     Les folies, les orgies
     Le jour du bac
@@ -82,6 +82,6 @@
     Tout ce qui fait, je le sais
     Que je n'oublierai jamais
     Mes amis, mes amours, mes emmerdes
-  \endverse
+  \end{verse}
 
 \endsong

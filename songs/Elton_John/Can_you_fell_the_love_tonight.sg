@@ -12,7 +12,7 @@
   \gtab{D}{XX0232}
   \gtab{Am}{X02210}
 
-  \beginverse
+  \begin{verse}
     \[C]There's a calm sur\[G]render
     \[C]To the rush of \[G]day
     \[C]When the heat of the \[G]rolling world
@@ -21,23 +21,23 @@
     \[C]And it sees me \[G]through
     \[C]It's enough for this \[Em]restless warrior
     \[F]Just to be with \[D]you
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     And \[G]can you \[D]feel the \[Em]love to\[C]night?
     \[G] It is \[C]where we \[D]are
     \[C] It's e\[G]nough for this \[Em]wide-\[G]eyed \[C]wanderer
     \[Am]That \[G]we \[C]got this \[D]far
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     And can you feel the love tonight?
     How it's laid to rest?
     It's enough to make kings and vagabonds
     Be\[Am]lieve \[G]the \[C]very \[G]best
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     There's a time for everyone
     If they only learn
     That the twisting kaleidoscope
@@ -46,6 +46,6 @@
     To the wild outdoors
     When the heart of this star-crossed voyager
     Beats in time with yours
-  \endverse
+  \end{verse}
 
 \endsong

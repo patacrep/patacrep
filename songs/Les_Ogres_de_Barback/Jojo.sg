@@ -8,7 +8,7 @@
   \gtab{D}{5:X02220}
   \gtab{C}{3:X02220}
 
-  \beginverse
+  \begin{verse}
     T'es \[Em]parti en tournée
     T'as laissé ton gosse, ton aimée
     Tu m'as d'man\[D]dé pourquoi ?
@@ -17,9 +17,9 @@
     On s'est trouvé des points communs
     Après tu \[D]connais l'refrain
     Pas besoin d'te faire un dessin
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Jojo pour moi t'es l'roi des rois
     T'es l'plus grand des plus grands
     T'es la star à l'instar
@@ -28,9 +28,9 @@
     Je m'suis dit pas d'lézard
     Toi qui m'a toujours conseillé
     D'profiter des instants volés
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Tu m'dis la vie ça va ça vient
     C'est du copié collé
     Prends l'amour comme le tien
@@ -39,9 +39,9 @@
     Pas de gâchis, pas de chichis
     Le temps nous tente et c'est tant mieux
     Pas de raisons d'être amoureux
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Moi j'suis qu'un \[Em]mauvais présage
     Un sale gosse pas sage
     Un vieux \[D]copain qui craint
@@ -50,16 +50,16 @@
     Qui sait pas s'arrêter
     Qui \[D]passe et sans prév'nir
     Deviens mauvais souvenir
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Oh \[Em]Jojo, faut qu'tu m'excuses ma gueule
     J'supporte \[D]pas les femmes seules
     Plus on vieillit, plus on d'vient con
     Moins on \[C]écrit d'chansons \[D]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     On s'est suivis depuis l'enfance
     J'étais derrière, t'étais devant
     On n'a pas toujours la même chance
@@ -68,9 +68,9 @@
     Quand on faisait les 400 coups
     C'est toujours moi qui les prenais
     Évidemment ça fait beaucoup
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Les râteaux, les gadins
     Les genoux écorchés
     C'était mon pain quotidien
@@ -79,9 +79,9 @@
     Et ce truc dégueulasse
     Qui fait toujours qu'en maillot de bain
     Moi j'ai la gaule et toi la classe
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     La première fois qu't'as fait l'mur
     T'as rencontré l'amour
     Bien sûr celui qui dure
@@ -90,9 +90,9 @@
     Et qui s'est fait serrer ?
     J'avais beau leur expliquer
     Qu'c'était toi qu'en avais eu l'idée
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Ton gosse est très mignon
     Il a ton nez, tes yeux
     Il m'pose plein d'questions
@@ -101,9 +101,9 @@
     Ta femme est très sympa
     Mais depuis quelques mois
     Elle s'fâche pour n'importe quoi
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     J'lui dis qu'elle te méritait pas
     Elle est d'accord avec moi
     J'sais pas si c'est un compliment
@@ -112,9 +112,9 @@
     Le plus grand des plus grands
     Je ferais n'importe quoi
     Pour que tout revienne comme avant
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Si tu veux on oublie tout
     Je retourne dans ton ombre
     Comme cette histoire de fous
@@ -123,6 +123,6 @@
     Un exemple ici-bas
     Deux amis pour qui tout colle
     Sans problèmes, ni tracas
-  \endverse
+  \end{verse*}
 
 \endsong

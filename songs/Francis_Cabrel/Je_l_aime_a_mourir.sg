@@ -13,7 +13,7 @@
   \gtab{G}{320003}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     Moi \[C]{je n'étais} rien mais voilà qu'aujourd'hui
     Je \[Em]suis le gardien du sommeil de ses nuits
     Je l'aime à \[Am]mourir
@@ -21,9 +21,9 @@
     Elle \[F]n'a qu'à ouvrir l'espace \[G]de ses bras
     Pour tout re\[C]construire, pour tout reconstruire
     Je l'aime à \[Am]mourir
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Elle a gommé les chiffres des horloges du quartier
     Elle a fait de ma vie des cocottes en papier
     Des éclats de rire
@@ -31,16 +31,16 @@
     Et nous les traversons à chaque fois qu'elle
     Ne veux pas dormir, ne veux pas dormir
     Je l'aime à mourir
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Elle a dû \[E]faire toute les \[C]guerres
     \[G]Pour être si forte \[C]aujourd'hui
     Elle a dû \[E]faire toutes les \[Am]guerres
     \[F]De la vie \dots et l'a\[C]mour aussi
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Elle vit de son mieux son rêve d'opaline
     Elle danse au milieu des forêts qu'elle dessine
     Je l'aime à mourir
@@ -48,9 +48,9 @@
     Elle me chante souvent que j'ai tort d'essayer
     De les retenir, de les retenir
     Je l'aime à mourir
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Pour monter dans sa grotte cachée sous les toits
     Je dois clouer des notes à mes sabots de bois
     Je l'aime à mourir
@@ -58,9 +58,9 @@
     Je ne dois rien vouloir, je dois juste essayer
     De lui appartenir, de lui appartenir
     Je l'aime à mourir
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Moi je n'étais rien mais voilà qu'aujourd'hui
     Je suis le gardien du sommeil de ses nuits
     Je l'aime à mourir
@@ -68,6 +68,6 @@
     Elle n'aura qu'à ouvrir l'espace de ses bras
     Pour tout reconstruire, pour tout reconstruire
     Je l'aime à mourir
-  \endverse
+  \end{verse}
 
 \endsong

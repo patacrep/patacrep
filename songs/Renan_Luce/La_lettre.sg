@@ -10,11 +10,11 @@
   \gtab{Am}{X02210}
   \gtab{D}{XX0232}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Em]\[C]\[Em]} \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Em]J'ai reçu une lettre
     \[C]Il y a un mois peut-être
     \[Am]Arrivée par erreur
@@ -23,17 +23,17 @@
     \[C]Rouge à lèvre carmin
     \[Am]J'aurais dû cette lettre
     \[Em]Ne pas l'ouvrir peut-être
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[C]Mais moi je suis un homme
     \[Em]Qui aime bien ce genre de jeu
     \[C](Je) veux bien qu'elle me nomme
     \[Am]Alphonse ou \[D]Fred, c'est comme \[C]elle veut
     \[C] \[Em]C'est comme elle veut\[C]\[Em]
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Des jolies marguerites
     Sur le haut de ses \emph{i}
     Des courbes manuscrites
@@ -42,17 +42,17 @@
     Une légère dyslexie
     Et en guise de paraphe
     {\og}Ta petite blonde sexy{\fg}
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et moi je suis un homme
     Qui aime bien ce genre de jeu
     (Je) n'aime pas les nonnes
     Et j'en suis tombé amoureux
     Amoureux
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Elle écrit que dimanche
     Elle s'ra sur la falaise
     Où j'l'ai prise par les hanches
@@ -61,17 +61,17 @@
     D'assumer mes ébats
     Elle choisira l'impact
     Trente mètres plus bas
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et moi je suis un homme
     Qui aime bien ce genre d'enjeu
     (Je) n'veux pas qu'elle s'assomme
     Car j'en suis tombé amoureux
     Amoureux
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Grâce au cachet de La Poste
     D'une ville sur la Manche
     J'étais à l'avant-poste
@@ -80,17 +80,17 @@
     Il faudra être patient
     Des blondes suicidaires
     Il n'y en a pas cent
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et moi je suis un homme
     Qui aime bien ce genre d'enjeu
     (Je) veux battre Newton
     Car j'en suis tombé amoureux
     Amoureux
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Elle surplombait la Manche
     Quand je l'ai reconnue
     J'ai saisi par la manche
@@ -99,14 +99,14 @@
     Au regard du profil
     Qu'un petit habitant
     Lui f'sait sous le nombril
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Et moi je suis un homme
     Qui aime bien ce genre d'enjeu
     (Je) veux bien qu'il me nomme
     Papa s'il le veut
     S'il le veut \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

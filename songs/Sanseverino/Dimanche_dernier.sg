@@ -7,38 +7,38 @@
   \gtab{C}{X32010}
   \gtab{G}{320003}
 
-  \beginverse
+  \begin{verse}
     \[C]Il n'y a pas de mouches
     De serpents, d'araignées
     Dessous ton oreiller
     L'ogre les a bou\[G]ffés
     Dimanche der\[C]nier
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Endors-toi il est tard
     N'aies pas peur des cauchemars
     Et des mauvaises pensées
     L'ogre les a bouffés
     Dimanche dernier
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Il n'y a pas de loups
     Dans ta chambre chérie
     Pas de fantômes du tout
     Tout ça, c'est des conneries
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Les monstres, les dragons
     N'existent que dans les
     Histoires mal racontées
     L'ogre les a bouffés
     Dimanche dernier
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Ton poisson rouge est mort
     Ton grand-père vit encore
     Ton frère a redoublé
@@ -48,6 +48,6 @@
     Les a enfin divorcés
     Lundi dernier
     \echo{Parce que dimanche, c'était fermé}
-  \endverse
+  \end{verse}
 
 \endsong

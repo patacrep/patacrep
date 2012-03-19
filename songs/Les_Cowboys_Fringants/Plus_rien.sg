@@ -11,132 +11,132 @@
   \gtab{B&}{1:X02220}
   \gtab{A7}{X02020}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 1 : \nolyrics{\[Dm F C Gm B{\flt} C Dm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Il \[Dm]ne reste que quelques minutes à ma vie
     Tout \[F]au plus quelques heures je sens que je faiblis
     Mon \[C]frère est mort hier au milieu du désert
     Je \[Gm]suis maintenant le dernier hu\[B&]main \[C]de la \[Dm]terre
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 2 : \nolyrics{\[Dm Gm C B{\flt} A7]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     On \[Dm]{m'a} décrit jadis, quand j'étais un enfant
     Ce \[Gm]{qu'avait} l'air le monde il y a très très longtemps
     Quand \[C]vivaient les parents de mon arrière grand-père
     Et \[B&]{qu'il} tombait encore de la \[A7]neige en hiver
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     En ces temps on vivait au rythme des saisons
     Et la fin des étés apportait la moisson
     Une eau pure et limpide coulait dans les ruisseaux
     Où venaient s'abreuver chevreuils et orignaux
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 3 : \nolyrics{\[Dm B{\flt} F C]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Mais \[Dm]moi je n'ai vu qu'une planète désolante
     \[B&]Paysages lunaires et chaleur suffocante
     Et tous \[F]mes amis mourir par la soif ou la faim
     Co\[C]mme tombent les mouches
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Jusqu'à c'qu'il n'y ait plus \[Dm]rien
     Plus \[Gm]rien, plus \[C]rien \[B& C]
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 1 : \nolyrics{\[Dm F C Gm B{\flt} C Dm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Il ne reste que quelques minutes à ma vie
     Tout au plus quelques heures, je sens que je faiblis
     Mon frère est mort hier au milieu du désert
     Je suis maintenant le dernier humain de la terre
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 2 : \nolyrics{\[Dm Gm C B{\flt} A7]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Tout ça a commencé il y a plusieurs années
     Alors que mes ancêtres étaient obnubilés
     Par des bouts de papier que l'on appelait argent
     Qui rendaient certains hommes vraiment riches et puissants
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Et ces nouveaux dieux ne reculant devant rien
     Étaient prêts à tout pour arriver à leurs fins
     Pour s'enrichir encore ils ont rasé la terre
     Pollué l'air ambiant et tari les rivières
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Mais au bout de cent ans des gens se sont levés
     Et les ont avertis qu'il fallait tout stopper
     Mais ils n'ont pas compris cette sage prophétie
     Ces gens-là ne parlaient qu'en termes de profits
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 3 : \nolyrics{\[Dm B{\flt} F C]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     C'est des années plus tard qu'ils ont vu le non-sens
     Dans la panique ont déclaré l'état d'urgence
     Quand tous les océans ont englouti les îles
     Et que les inondations ont frappé les grandes villes
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Et par la suite pendant toute une décennie
     Ce fut les ouragans et puis les incendies
     Les tremblements de terre et la grande sécheresse
     Partout sur les visages on lisait la détresse
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Les gens ont dû se battre contre les pandémies
     Décimés par millions par d'atroces maladies
     Puis les autres sont morts par la soif ou la faim
     Comme tombent les mouches
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 2 : \nolyrics{\[Dm Gm C B{\flt} A7]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mon frère est mort hier au milieu du désert
     Je suis maintenant le dernier humain de la terre
     Au fond l'intelligence qu'on nous avait donné
     N'aura été qu'un beau cadeau empoisonné
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Pattern 1 : \nolyrics{\[Dm F C Gm B{\flt} C Dm]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Car il ne reste que quelques minutes à la vie
     Tout au plus quelques heures, je sens que je faiblis
     Je ne peux plus marcher, j'ai peine à respirer
     Adieu l'humanité, adieu l'humanité
-  \endverse
+  \end{verse*}
 
 \endsong

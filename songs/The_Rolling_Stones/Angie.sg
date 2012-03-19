@@ -18,11 +18,11 @@
   \gtab{Em7}{010000}
   \gtab{Dm}{XX0231}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{ | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] | \[G4/B] \[Am] | }}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Am]Angie, \[E7]Angie
     \[G]When will those \[F]clouds disap\[C4]pear\[C]?
     \[Am]Angie, \[E7]Angie
@@ -32,9 +32,9 @@
     \[C]You can't \[F]say we're satis\[G]fied
     \[Am]Angie, \[E7]Angie
     \[G]You can't \[F]say we never \[C4]tried\[C]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Angie, you're beautiful
     But ain't it time we said goodbye?
     Angie, I still love you
@@ -44,42 +44,42 @@
     Let me whisper in your ear
     Angie, Angie
     Where will it lead us from here?
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Oh Angie don't you weep
     Ah your kisses still taste sweet
     I hate that sadness in your eyes
     But Angie, Angie
     Ain't it time we said goodbye?
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     With no loving in our souls
     And no money in our coats
     You can't say we're satisfied
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     But \[Dm]Angie, I still love you \[Am]baby
     \[Dm]Everywhere I look I see your \[Am]eyes
     \[Dm]There ain't a woman that come \[Am]close to you
     \[C]Come on \[F]baby dry your \[G]eyes
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     But \[Am]Angie, \[E7]Angie
     \[G]Ain't it \[F]good to be al\[C4]ive\[C]?
     \[Am]Angie, \[E7]Angie
     \[G]They can't say \[F]we never tr\[Am]ied
-  \endverse
+  \end{verse}
 
 \endsong

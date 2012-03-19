@@ -14,45 +14,45 @@
 
   \musicnote{4 cordes centrales en arpège}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro: \nolyrics{\[Amaj7 D+]}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[D+]Traveling \[Amaj7]lady, \[D+] stay a\[C]while
     Un\[D+]til the \[Amaj7]night is \[D+]over
     I'm just a \[Amaj7]station \[D+]on your \[C]way
     I \[D+]know I'm \[Amaj7]not your \[D+]lover
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Well \[D+]I lived with a \[Am7]{child of snow}
     \[D+]When I was a \[Am7]soldier
     And I\[D+] fought every \[Am7]{man for} her
     Un\[D+]til the nights grew \[Am7]colder
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       She \[D+]used to \[Amaj7]wear her \[D+]hair like \[C]you
       Ex\[D+]cept when \[Amaj7]she was \[D+]sleeping
       And then she'd \[Amaj7]weave it \[D+]on a \[C]loom
       Of \[D+]smoke and \[Amaj7]gold and \[D+]breathing
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       And \[D+]why are you so \[Am7]{quiet now}
       \[D+]Standing there in the \[Am7]doorway?
       You \[D+]chose your journey \[Am7]{long before}
       You \[D+]came upon this \[Am7]highway
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[D+]Traveling \[Amaj7]lady, \[D+] stay a\[C]while
       Un\[D+]til the \[Amaj7]night is \[D+]over
       I'm just a \[Amaj7]station \[D+]on your \[C]way
       I \[D+]know I'm \[Amaj7]not your \[D+]lover
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

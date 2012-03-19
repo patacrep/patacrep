@@ -13,7 +13,7 @@
   \gtab{F}{1:022100}
 
 
-  \beginverse
+  \begin{verse}
     \[Am]Cet air qui m'obsède jour et \[Dm]nuit
     Cet \[E7]air n'est pas né d'aujourd'\[Am]hui
     Il vient d'aussi loin que je \[Dm]viens
@@ -23,9 +23,9 @@
     Mais \[D]il m'a cou\[Am]pé la par\[D]ole
     Il parle tou\[Am]jours avant \[E]moi
     \[Dm]Et sa \[E]voix \[Dm]couvre ma \[E7]voix
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Pad\[Am]am{\dots} padam{\dots} padam{\dots}
     Il arrive en courant derrière \[E7]moi
     Padam{\dots} padam{\dots} padam{\dots}
@@ -34,9 +34,9 @@
     C'est un air qui me montre du \[Dm]doigt
     Et je traîne après moi comme une \[Am]drôle d'erreur
     Cet \[F]air qui \[E]sait tout par \[Am]cœur
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Il dit : {\og}Rappelle-toi tes amours
     Rappelle-toi, puisque c'est ton tour
     Y'a pas d'raison pour qu'tu n'pleures pas
@@ -46,9 +46,9 @@
     Je vois s'entrebattre des gestes
     Toute la comédie des amours
     Sur cet air qui va toujours
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Padam{\dots} padam{\dots} padam{\dots}
     Des {\og}je t'aime{\fg} de quatorze-juillet
     Padam{\dots} padam{\dots} padam{\dots}
@@ -57,9 +57,9 @@
     Des {\og}veux-tu{\fg} en voilà par paquets
     Et tout ça pour tomber juste au coin d'la rue
     Sur l'air qui m'a reconnue
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Pad\[Am]am{\dots} padam{\dots} padam{\dots}
     \[Am]Écoutez le chahut qu'il me \[E]fait
     Padam{\dots} padam{\dots} padam{\dots}
@@ -69,6 +69,6 @@
     Padam{\dots} padam{\dots} padam{\dots}
     J'en ai tout un solfège sur cet \[Am]air qui bat{\dots}
     Qui \[F]bat comme \[E]un cœur de \[Am]bois{\dots}
-  \endverse
+  \end{verse}
 
 \endsong

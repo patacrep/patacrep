@@ -8,49 +8,49 @@
   \gtab{B&m}{1:X02210}
   \gtab{C7}{X32310}
 
-  \beginverse
+  \begin{verse}
     Z'avez pas vu Mir\[Fm]za ?
     Oh la la la la la
     Z'avez pas vu Mir\[B&m]za ?
     Oh la la la la \[Fm]la
     Z'avez pas vu Mir\[C7]za ? \[B&m]
     Oh la la la la \[Fm]la
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Où est donc passé ce chien ?
     Je le cherche partout
     Où est donc passé ce chien ?
     Il va me rendre fou
     Où est donc passé ce chien ?
     Ça y est, je le vois
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Veux-tu venir ici ?
     Je ne le répéterai pas
     Veux-tu venir ici ?
     Hum, sale bête va
     Veux-tu venir ici ?
     Oh, il est reparti
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     C'est bien la dernière fois
     Que je te cherche comme ça
     Veux-tu venir ici ?
     Je ne le répéterai pas
     Veux-tu venir ici ?
     Oh, il est reparti
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Veux-tu venir ici ?
     Ah oui, te voilà
     Veux-tu venir ici ?
     Et ne bouge pas
     Veux-tu venir ici ?
     Satané Mirza
-  \endverse
+  \end{verse*}
 
 \endsong

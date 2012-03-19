@@ -11,72 +11,72 @@
   \gtab{A&}{4:022100}
   \gtab{B&}{6:022100}
 
-  \beginverse
+  \begin{verse}
     \[E&]If it be your \[Fm]will
     \[C#]That I speak no \[Cm]more
     \[E&]And my voice be \[Fm]still
     \[A&]As it was be\[E&]fore
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Cm]{I will} speak no \[B&]more
     I \[Cm]shall abide un\[B&]til
     \[A&]{I am} spoken \[E&]for
     If it \[B&]be your will
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     If it be your will
     That a voice be true
     From this broken hill
     I will sing to you
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     From this broken hill
     All your praises they shall ring
     If it be your will
     To let me sing
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     \nolyrics{ \[E& Fm C# Cm] }
     \nolyrics{ \[E& Fm A& E&] }
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     From this broken hill
     All your praises they shall ring
     If it be your will
     To let me sing
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     If it be your will
     If there is a choice
     Let the rivers fill
     Let the hills rejoice
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Let your mercy spill
     On all these burning hearts in hell
     If it be your will
     To make us well
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     And draw us near
     And bind us tight
     All your children here
     In their rags of light
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     In our rags of light
     All dressed to kill
     And end this night
     If it be your will \rep{2}
-  \endchorus
+  \end{chorus}
 
 \endsong

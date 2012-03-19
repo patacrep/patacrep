@@ -8,7 +8,7 @@
   \gtab{G7}{320001}
   \gtab{F}{1:022100}
 
-  \beginverse
+  \begin{verse}
     Quand l'\[C]baba cool cradoque
     Est sorti d'\[G7]son bus VolksWa\[C]gen
     Qu'il avait garé comme une loque
@@ -17,9 +17,9 @@
     Viens voir le \[G7]mariole qui s'ra\[C]mène
     Vise la dégaine
     Quelle rigo\[G7]la\[C]de
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Patchou\[C]ly patogas
     Le Guide du \[G7]Routard dans la poche
     Haré Krishna à mort
@@ -28,23 +28,23 @@
     Il va \[C]nous taper cent balles
     Pour s'bar\[G7]rer à Katmandou
     Ou au Né\[C]pal
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Avant qu'il \[F]ait pu dire un mot
     J'ai cho\[C]pé l'mec par le pale\[G7]tot
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Et j'lui ai dit
     \[C]Toi tu m'fous les glandes
     Pis t'as rien \[G7]à foutre dans mon \[C]monde
     Arrache-toi d'\[F]là t'es pas d'ma \[C]bande
     Casse-toi tu \[G7]pues
     Et marche à l'\[C]ombre
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Une p'tite bourgeoise bêcheuse
     Maquillée comme un carré d'as
     A débarqué dans mon gastos
@@ -53,9 +53,9 @@
     Reluques la tronche à la pouffiasse
     Vise la culasse
     Et les nibards
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Collants léopards
     Homologués chez SPA
     Monoï et Shalimar
@@ -64,14 +64,14 @@
     Non mais elle s'croit au Palace
     J'peux pas sacquer les starlettes
     Ni les blondasses
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Avant qu'elle ait bu son cognac
     J'l'ai chopée par le colback
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Un p'tit Rocky barjot
     Le genre qui s'est gouré d'trottoir
     Est v'nu jouer les Marlon Brando
@@ -80,9 +80,9 @@
     Arrête j'ai peur un blouson noir
     J'veux pas d'histoires
     Avec ce clown
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Derrière ses pauvres Rayban
     J'vois pas ses yeux et ça m'énerve
     Si ça s'trouve il m'regarde
@@ -91,14 +91,14 @@
     Qui vient user mon comptoir
     L'a qu'à r'tourner chez les Grecs
     Se faire voir
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Avant qu'il ait bu son viandox
     J'l'ai chopé contre l'juke-box
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Pis j'me suis fait un punk
     Qu'avait pas oublié d'être moche
     Et un intellectuel en Loden
@@ -107,9 +107,9 @@
     On n'avait plus une tune en poche
     J'ai réfléchis
     Et j'me suis dit
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     C'est vrai que j'suis épais
     Comme un sandwich SNCF
     Et qu'demain j'peux tomber
@@ -118,11 +118,11 @@
     Et que j'crève la gueule sur l'comptoir
     Si la mort me paye l'apéro
     D'un air vicelard
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Avant qu'elle m'emmène voir là-haut
     Si y a du monde dans les bistrots
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -8,7 +8,7 @@
   \gtab{F}{1:022100}
   \gtab{G7}{320001}
 
-  \beginverse
+  \begin{verse}
     \[C]Il était une fois un petit \[F]escargot
     \[C]Qui se balançait en haut d'un \[G7]esca\[C]bot
     \[C]Mais voilà qu'il s'affole
@@ -16,16 +16,16 @@
     {\og}Ah zut, flûte et pomme de terre
     J'suis tombé dans la cafetière !
     Rah, c'est dégoûtant{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Si ton escargot dit des gros mots
     Prends-le par la queue et jette-le dans l'eau
     {\og}Ah non, pas encore !
     --- Et après, tu l'écrases !
     --- Ah pas la coquille, zut
     On avait dit pas la coquille !{\fg}
-  \endverse
+  \end{verse}
 
 \endsong
 

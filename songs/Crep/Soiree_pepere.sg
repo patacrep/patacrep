@@ -11,73 +11,73 @@
   \gtab{G}{3:022100}
   \gtab{E}{5:X212X0}
 
-  \beginverse
+  \begin{verse}
     \[Am]Enfin une soirée pépère
     Canapé, pizza, une \[Dm]bière
     Depuis quand tu vires au \[C]bleu ?
     Mon é\[E]cran n'est pas si \[Am]vieux !
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]J'redémarre, mais y'en a \[C]marre
     La prochaine fois qu'tu m'fais c'coup \[G]là
     Tu verras \[E] c'que tu ve\[Am]rras
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Pourquoi diable trois questions
     Et cinq confirmations ?
     Contente-toi de faire tourner
     Mon dernier DVD
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Une histoire de codec ?
     Arrête de m'prendre la tête
     Débrouille-toi tout seul mon vieux
     De toutes façons, je f'rai pas mieux
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Je farfouille sur internet
     Me faut juste un programme tout bête
     Non j'installerai pas ta toolbar
     Laisse-moi voir mon film peinard
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Ça y est cette fois c'est bon
     J'ai toutes les applications
     Double-clic, play, c'est parti
     Ah ben non, t'as pas fini
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Mise à jour importante
     Non mais est-ce que tu plaisantes ?
     Mais j'vais pas m'faire pirater
     Pendant ma séance ciné
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Validée, downloadée
     Confirmer, redémarrer
     Un quart d'heure d'publicité
     Mon film va peut-être commencer
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Scène d'horreur, même pas peur
     Quand une voix hurle dans mes hauts-parleurs
     {\og}Antivirus mis-à-jour{\fg}
     Non mais sans déc, j'suis pas sourd
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Encore sous l'choc, j'éteins tout
     Tu m'as rendu complètement fou
     J'm'en vais voir chez les pingouins
     Tu f'ras pt'être moins ton malin
-  \endverse
+  \end{verse*}
 
 \endsong

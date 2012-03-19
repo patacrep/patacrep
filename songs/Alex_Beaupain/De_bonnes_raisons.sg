@@ -13,7 +13,7 @@
   \gtab{D7}{XX0212}
   \gtab{B&}{1:X02220}
 
-  \beginverse
+  \begin{verse}
     \[Am] Ton feu nou\[Em]rri de ques\[F7]tions
     Sur \[E7]le pourquoi du comment
     \[Am]De mon c\[Em]œur et ses rai\[F7]sons
@@ -24,9 +24,9 @@
     Pour quelle rai\[Am]son te les do\[C]nner
     \[D7] Mes bonnes rais\[F7]ons pour t'aimer\[Am]
     Pourq\[C]uoi te les \[D7]donner ?\[D7]\[F7]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Est-ce ta jolie paire de fesses
     La peur de la solitude
     Le hasard et la paresse
@@ -37,16 +37,16 @@
     Pour quelles raisons te les donner
     De bonnes raisons pour m'aimer
     Pourquoi me les donner ?
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[B&]Mon pet\[F7]it ange
     \[B&]Voudrait que je chante\[F7] ses \[Am]louanges \echo{\[C]Glo\[D7]ri\[F7]a !}
     \[B&]Ma sainte re\[F7]lique
     \[B&]Demande son can\[F7]tique des \[Am]cantiques \echo{\[C]Allé\[D7]lu\[F7]ia !}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Peut-être est-ce pour ton odeur
     Ta façon de t'endormir
     Peut-être aussi pour ta sœur
@@ -57,7 +57,7 @@
     Pour quelle raison te les donner ?
     Mes bonnes raisons pour t'aimer
     Pourquoi te les donner ?
-  \endverse
+  \end{verse}
 
 \endsong
 

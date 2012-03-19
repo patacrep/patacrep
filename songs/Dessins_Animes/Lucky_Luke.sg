@@ -9,43 +9,43 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 
-  \beginverse
+  \begin{verse}
     \[Am]On l'appelle Lucky Luke
     \[G]De l'Ouest au Far-Ouest
     \[F]Il arrive au galop
     \[C]Ce cowboy héros
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \[Am]Son tir est plus rapide
     \[G]Plus rapide que son ombre
     \[F]Et son revolver va plus vite que l'éclair
     Oh \[G]sacré Lucky \[C]Luke !
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Bang Bang Lucky Luke
     \[C]Bang Bang Lucky Luke
     \[G]{C'est} lui qui a le truc pour \[C]nous étonner
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     \[G]Bang Bang Lucky Luke
     \[C]Bang Bang Lucky Luke
     \[F]C'est un homme qui n'a peur de personne
     Mê\[G]me pas des Dal\[C]ton !
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Bang Bang Lucky Luke \rep{2}
     Même les Dalton, qui ne craignent personne
     Ont peur de Lucky Luke !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Les \[F]hors-la-loi
     N'échapperont pas
     Au \[G]tir de Lucky \[C]Luke !
-  \endverse
+  \end{verse}
 
 \endsong

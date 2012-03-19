@@ -14,7 +14,7 @@
   \gtab*{B7}{X21202}
   \gtab*{A7}{X02020}
 
-  \beginverse
+  \begin{verse}
     Il éc\[Am]rase sa cigarette
     Puis re\[Dm]pousse le cendrier
     Se di\[Bm7/5&]rige vers les toi\[E7]lettes
@@ -22,9 +22,9 @@
     Il re\[F]vient régler ses bières
     Le san\[B]dwich et son café
     \[Bm7/5&]Il ne rentre \[E]pas ce \[Am]soir
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Le grand \[Am]chef du personnel
     L'a con\[Dm]voqué à midi
     J'ai une \[Bm7/5&]mauvaise nou\[E7]velle
@@ -32,20 +32,20 @@
     Une \[F]multinationale
     S'est of\[B]fert notre société
     \[Bm7/5&]Vous êtes dé\[E]passé
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     \[Dm]Et du fait vous êtes remercié
     \[Am]Il n'y a plus d'espoir, plus d'espoir
     \[B7]Il ne rentre \[E7]pas ce \[Am]soir \[A7]
     \[Dm]Il s'en va de bar en bar
     \[Am]Il n'y a plus d'espoir, plus d'espoir
     \[B7]Il ne rentre \[E7]pas ce \[Am]soir
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Il se \[Am]décide à traîner
       Car il a \[Dm]peur d'annoncer
       À sa \[Bm7/5&]femme et son \[E7]banquier
@@ -53,9 +53,9 @@
       Être \[F]chômeur à son âge
       C'est \[B]pire qu'un mari trompé
       \[Bm7/5&]Il ne rentre \[E]pas ce \[Am]soir
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Fini l\[Am]e golf et le bridge
       Les vac\[Dm]ances à St Tropez
       L'éd\[Bm7/5&]ucation des \[E7]enfants
@@ -63,16 +63,16 @@
       Il pl\[F]eure sur lui, se prend
       Pour \[B]un travailleur immigré
       \[Bm7/5&]Il se sent dé\[E]passé
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[Dm]Et du fait il est remercié
       \[Am]Il n'a plus d'espoir, plus d'espoir
       \[B7]Il ne rentre \[E7]pas ce \[Am]soir \[A7]
       \[Dm]Il s'en va de bar en bar
       \[Am]Il n'a plus d'espoir, plus d'espoir
       \[B7]Il ne rentre \[E7]pas ce \[Am]soir \[A7]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
 \endsong

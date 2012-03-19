@@ -17,48 +17,48 @@
   \gtab*{Esus4}{022200}
 
 
-  \beginverse
+  \begin{verse}
     \[A] A bunch of lonesome and very quarrelsome \[Bm]heroes
     \[E] Were smoking \[E7]out along the open \[A]road\[Asus4 A]
     The night was very dark and thick bet\[Bm]ween them
     \[E] Each man be\[E7]neath his ordinary \[A]load\[Asus4 A]
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[D Dmaj7] \[Bm]``I'd like to \[D]tell my \[A]story''\[Amaj7 F#m A]
     \[B] Said one of them so young and \[E]bold \[E7]
     \[D] ``I'd \[Dmaj7]like to \[Bm]tell \[D] my \[A]story\[Amaj7 F#m A]
     \[F#m] Before I turn into gold''\[E Esus4 E E7]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[A] But no one really could \[Bm]hear him
       \[E] The night so \[E7]dark and thick and \[A]green\[Asus4 A]
       Well, I guess that these heroes must always \[Bm]live there
       \[E] Where you and \[E7]{I have} only \[A]been\[Asus4 A]
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       \[D Dmaj7] \[Bm]Put out your \[D]cigarette, \[A]my love\[Amaj7 F#m A]
       \[B] You've been alone too \[E]long \[E7]
       \[D] And \[Dmaj7]{some of us} \[Bm] are\[D] very hungry now\[Amaj7 F#m A]
       \[F#m] To hear what it is you've done that was so wrong\[E Esus4 E E7]
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[A] I sing this for the \[Bm]crickets
       \[E] I sing this \[E7] for the \[A]army\[Asus4 A]
       I sing this for your \[Bm]children
       \[E] And for all \[E7] who do not \[A]need me\[Asus4 A]
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       \[D Dmaj7] \[Bm]``I'd like to \[D]tell my \[A]story''\[Amaj7 F#m A]
       \[B] Said one of them so \[E]bold \[E7]
       \[D] ``Oh yes, \[Dmaj7]{I'd like to} \[Bm]tell \[D] my \[A Amaj7]sto\[F#m]ry \[A]
       \[F#m] 'cause you know I feel I'm turning into \[E]go\[Esus4 E E7]ld'' \[A]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
 \endsong

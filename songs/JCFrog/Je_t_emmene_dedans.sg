@@ -11,36 +11,36 @@
   \gtab{D}{XX0232}
   \gtab{F}{1:022100}
 
-  \beginchorus
+  \begin{chorus}
     Allez \[Em]viens, je t'emmène de\[G]dans
     Je t'em\[Em]mène parmi tant de \[G]gens
     Oui, je vou\[Am]drais, juste que tu com\[Em]prennes
     La vie en ligne est bien \[D]réelle
     Rien n'est jamais virtu\[F]elle
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Je voudrais, que tu la ramènes moins souvent
     Oui, tu te moques de temps en temps
     Mieux vaut connaître, pour faire le pédant
     Allez, viens faire la fête
     On peut t'aimer si seulement
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Oui, je voudrais que tu te connectes plus souvent
     Que tu partages de temps en temps
     Oui, je voudrais que tu comprennes
     La vie en ligne est bien réelle
     Et jamais virtuelle
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Oui, je voudrais que tu \dots la ramènes moins souvent
     Oui, tu te moques de temps en temps
     Mieux vaut connaître, pour faire le pédant
     Allez, viens faire la fête
     On peut t'aimer si seulement
-  \endverse
+  \end{verse}
 
 \endsong

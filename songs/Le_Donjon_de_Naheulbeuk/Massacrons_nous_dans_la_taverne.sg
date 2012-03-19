@@ -8,53 +8,53 @@
   \gtab{D}{XX0232}
   \gtab{A}{X02220}
 
-  \beginchorus
+  \begin{chorus}
     Les \[D]orques à droite et les elfes à gauche
     Ma\[G]ssacrons-nous dans \[A]la ta\[D]verne
     Y'en \[G]a qui disent que la danse c'est moche
     Mais \[D]tout ça c'est des \[A]bali\[D]vernes
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Prenez la hache de votre voisin
     Envoyez-la sur vos ennemis
     Si les elfes sont encore là d'main
     On pourra les manger farcis
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     En formation tous les archers
     Et vous visez un orque au choix
     Si vous arrivez à l'toucher
     Faudra courir un peu mieux qu'ça
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Attrapez l'elfe qu'est à votre droite
     Et foutez-lui des coups d'massue
     J'avance d'un pas, j'recule de quatre
     Et je lui mets un coup de pied \echo{ah ah !}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Sortez vos dagues et plantez-les
     Dans l'œil de votre voisin d'en face
     Si vous lui touchez l'cervelet
     Tournez deux fois, sautez sur place
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     S'il reste un elfe encore vivant
     Atrrapez-le par les cheveux
     Coupez-lui les jambes, c'est marrant
     Ça court moins vite et c'est tant mieux
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     En sautant sur vos boucliers
     Vous surfez dans les flaques de sang
     Foncez sur tous les rescapés
     Ouf c'est fini, on est content
-  \endverse
+  \end{verse}
 
 \endsong

@@ -13,7 +13,7 @@
   \gtab{A}{X02220}
   \gtab{A7}{X02020}
 
-  \beginverse
+  \begin{verse}
     \[Dm] Et quand je \[C7]ne serai plus \[F]là
     \[Dm] Quand j'aurai \[C7]quitté l'ici-\[F]bas
     Pourras-tu \[B&]poser sur ma \[C]tombe
@@ -22,9 +22,9 @@
     Pour pas qu'elles \[B&]puissent rentrer chez elles
     Il faudra \[Gm]leur couper les ailes
     C'est comme \[A]ça
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Attends encore une seconde
     Deux mille oiseaux, ça fait du monde
     Vu le prix du mètre au cimetière
@@ -33,23 +33,23 @@
     Mais les colombes, quand c'est malade
     Comme les pigeons, c'est super crade
     C'est une horreur \dots
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Bon, mets des \[Dm]fleurs
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     Ceci est \[B&]mon testament
     Tu verras qu'au fond je n'\[Dm]pars pas vraiment
     Ceci est \[A7]mon testament
     Je reste avec toi pour long\[Dm]temps
     Ceci est \[B&]mon testament, \[Gm]mon testament \[A7]
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Le jour où je serai parti
     Qu'j'aurai une piaule au paradis
     Pourrai-je avoir pour mon cortège
@@ -58,9 +58,9 @@
     Ils pourraient faire une chorale
     À part Florent, qui chante trop mal
     Non, non, pas lui !
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Et dans cette longue marche funèbre
     Pour m'emmener vers les ténèbres
     Combien seront là au final ?
@@ -69,13 +69,13 @@
     Si juste derrière le corbillard
     T'es toute seule, ça va faire bizarre
     Ça craint, attends \dots
-  \endverse
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     Rappelle Florent
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Vois-tu, avant de m'en aller
     J'ai pris le soin de te laisser
     Un peu d'argent pour tes vieux jours
@@ -84,10 +84,10 @@
     Et pour multiplier cette somme
     J'ai joué au poker, mais en somme
     J'ai pas gagné \dots
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Tu dois du blé
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -13,11 +13,11 @@
   \gtab*{Emadd9}{022002}
   \gtab*{Em*}{022003}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote{\Intro : \nolyrics{ | \[D] \[D] \[D4] \[D] | \[A] | \[Em] \[Em] \[Emadd9] \[Em*] | \[G] | } \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     B\[D]ébé, faudrait rentr\[A]er tu vois
     Je s\[Bm]uis en mal d'être \[G]avec toi
     La m\[D]achine à café est d\[A]étraquée
@@ -28,18 +28,18 @@
     Des nuits s\[D]ans dormir
     À me d\[A]emander
     Où tu peux b\[G]ien aller
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     B\[D]ébé \echo{\[D4]ouh \[D]ouh \[A]ouh}
     Faut pas m'laisser traîner \[Em]là \echo{\[Emadd9]ouh \[Em*]ouh \[G]ouh}
     Seul avec ces \[D]idées là \echo{\[D4]ouh \[D]ouh \[A]ouh}
     J'suis pas si fort que tu \[Em]crois \echo{\[Emadd9]ouh \[Em*]ouh \[G]ouh}
     Pas si fort que ç\[D]a
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       B\[D]ébé, un d\[A]oute en moi s'est \[Bm]figé \[G]
       Tu n'vas pl\[D]us rentrer
       Je peux f\[A]aire une croix sur t\[G]oi
@@ -48,7 +48,7 @@
       Comment ne p\[D]as crier
       Comment ne p\[A]as pleurer
       Je suis f\[G]atigué
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
   \textnote{\Chorus}

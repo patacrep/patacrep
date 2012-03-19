@@ -11,88 +11,88 @@
   \gtab{F#m}{9:X02210}
   \gtab{C#}{9:022100}
 
-  \beginverse
+  \begin{verse}
     Ce \[Em]matin, en sor\[D]tant chez moi
     Y'a\[C]vait un \[D]trou é\[Em]norme
     Une \[Em]planète était \[D]tombée là
     Avec des gens dif\[G]formes
     Des petits \[B]bonshommes tout \[Em]verts
     Qui venaient \[B]envahir la \[Em]Terre
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     Ah \[Em]mais non, c'était \[D]rien
     Qu'ma \[C]vie de \[D]tous les \[Em]jours
     Ah mais \[Em]non, c'était \[D]rien
     Qu'mon \[B]ennui en plein \[Em]jour
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Fumant sa pipe sur le trottoir
     Assis au coin d'une rue
     Entre ses deux mains, une guitare
     Chantait un moustachu
     {\og}J'm'appelle Georges et bon sang d'bois
     Qui veut bien jouer avec moi ?{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et provoquant ma destinée
     Dans une ruelle déserte
     Allongée, une jolie poupée
     Paupières fermées, bouche ouverte
     C'était la Belle au Bois Dormant
     Qui voulait s'taper son amant
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Au plein cœur de l'après-midi
     J'ai croisé Spiderman
     Il m'a dit : {\og}Viens, on a quelques soucis
     Faudrait aider Batman
     Le Joker est plus tout seul
     Il va lui en mettre plein la gueule !{\fg}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Impressionné par le décor
     Je n'en crois pas mes yeux
     Devant moi, ce sont les îles Comores
     Sous un soleil radieux
     C'est Paris qui s'fait du bien
     Les pieds dans l'océan Indien
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Traînant Boulevard des Capucines
     Rêveur et tête en l'air
     Intrigué je cherche l'origine
     De cette foule en colère
     Je lève les yeux et j'aperçois \echo{wow}
     Les Ogres {\og}complet{\fg} à l'Olympia
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Et \[F#m]en attaquant \[C#]la soirée
     Fat\[C#]igué, un peu \[F#m]las
     Au \[F#m]loin, j'entends voler \[C#]les pavés
     Qui \[C#]brisent enfin la \[F#m]glace
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Des gens dans la rue en colère
     Main dans la main et qui espèrent
     En criant d'une voix sensible
     Qu'un autre monde est possible
     Dans une manifestation
     Et c'était la révolution
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Ah mais non, ça fait rien
     Nos vies de tous les jours
     Ah mais non, ça fait rien
     Notre ennui en plein jour
-  \endchorus
+  \end{chorus}
 
 \endsong

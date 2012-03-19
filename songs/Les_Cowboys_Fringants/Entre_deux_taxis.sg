@@ -12,54 +12,54 @@
 
   \lilypond{Entre_deux_taxis}
 
-  \beginverse
+  \begin{verse}
     \[Em]Ils se sont embrassés tard \[Bm]dans la nuit
     \[C]Sur la banquette d'un ta\[G]xi
     \[Em]Dehors un lampadaire s'est \[Bm]rallumé
     \[B7]Ils ont fait vœu d'éter\[Em]nité
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Sur le toit de la voi\[C]ture, deux néons lumi\[D]neux
     Semblaient briller que pour \[G]eux
     \[Em]Comme une petite auréole \[Bm]dans le noir
     \[B7]Le taxi filait vers la \[Em]gloire
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     Oh qu'il est \[C]triste le sort des amou\[G]reux
     Se di\[D]sait le vieux chauffeur amu\[Em]sé
     Car on \[C]commence toujours à se dire a\[G]dieu
     Dès no\[B7]tre premier bai\[Em]ser
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Ensemble ils ont pris un appartement
     Où ils vécurent au gré du temps
     Une vie avec des lunettes roses
     Exempte de journées moroses
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Mais le poids du quotidien, ce petit diable malin
     Vient s'installer un bon matin
     Et les cœurs qui furent si légers hier
     Retombent les deux pieds sur terre
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Les amants d'hier sont devenus amis
     Plus de chaleur dans le logis
     Les rêves qu'ils avaient jadis en duo
     S'endorment maintenant dos à dos
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Par la fenêtre elle regarde celui qu'elle a aimé
     La quitter pour l'éternité
     En emportant tout un pan de sa vie
     Dans un anonyme taxi
-  \endverse
+  \end{verse*}
 
 \endsong

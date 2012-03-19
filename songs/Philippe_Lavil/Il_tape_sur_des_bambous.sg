@@ -10,22 +10,22 @@
   \gtab{F#m}{2:022000}
   \gtab{E}{022100}
 
-  \beginverse
+  \begin{verse}
     \[Em]Il vit sa vie au bord de l'eau
     Cocos et coquil\[B]lages
     Un dollar pour prendre en photo
     Son plus beau tatou\[Em]age
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Am]Il vit sa vie comme \[B]un Vendredi
     \[Am]Robinson est par\[B]ti
     \[Am]Tu l'verras toujours \[B]bien dans sa peau
     \[Am]Quand il prend ce tem\[B]po
-  \endverse
+  \end{verse*}
 
 
-  \beginchorus
+  \begin{chorus}
     \[B]Il tape sur des bambous
     Et c'est numéro \[E]un
     Dans son île on est fou
@@ -34,9 +34,9 @@
     Il a des copains
     \[B]Il fabrique sa musique
     Et ça lui va \[E]bien
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Il tape sur des bambous
     Il joue pas les requins
     Tahiti, Touamotou
@@ -45,21 +45,21 @@
     Qui lui veulent du bien
     Lui la gloire, il s'en fout
     Et ça va, ça \[Em]vient
-  \endchorus
+  \end{chorus}
 
 
-  \beginverse
+  \begin{verse}
     Il connaît le nom des bateaux
     L'prénom du capitaine
     Il te refile en stéréo
     La chanson des sirènes
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Il trafique un peu dans tous les ports
     La marine est d'accord
     Y'a aucun malaise dans sa combine
     C'est une musique machine
-  \endverse
+  \end{verse*}
 
 \endsong

@@ -10,7 +10,7 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
-  \beginverse
+  \begin{verse}
     \[Em]Sortie de l'école
     \[C]Je file dans ma chambre
     \[G]Direction l'ordi
@@ -19,9 +19,9 @@
     Et mon mot de passe
     Pour voir qui de mes
     Contacts est en place
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     On parle de tout et de rien
     Des embrouilles, des chagrins
     Des amours, des copains
@@ -38,9 +38,9 @@
     Oki z'tavou, ze t'aime
     Connecte-toi à ma soirée
     MSN !
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Devant l'écran
     Devant ma webcam
     Plus rien ne compte
@@ -49,6 +49,6 @@
     J'vois pas l'temps qui passe
     Mes parents guettent
     Mais pas moyen quoi qu'ils fassent
-  \endverse
+  \end{verse}
 
 \endsong

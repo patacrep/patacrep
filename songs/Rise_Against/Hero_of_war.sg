@@ -10,7 +10,7 @@
   \gtab{C#m}{4:X02210}
   \gtab{B}{7:022100}
 
-  \beginverse
+  \begin{verse}
     He said, ``\[E]Son
     Have you see the \[G#m]world?
     Well, what would you \[A]say
@@ -18,9 +18,9 @@
     Just carry this \[A]gun
     And you'll even get \[E]paid''
     I said, ``That sounds pretty \[B]good''
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Black leather boots
     Spit-shined so bright
     They cut off my hair
@@ -28,9 +28,9 @@
     We marched and we sang
     We all became friends
     As we learned how to fight
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     A hero of \[C#m]war
     Yeah that's what I'\[A]ll be
     And when I come \[E]home
@@ -39,9 +39,9 @@
     To the grave if I \[A]must
     Because it's flag that \[E]I love
     And a flag that I \[B]trust
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     I kicked in the door
     I yelled my commands
     The children, they cried
@@ -49,9 +49,9 @@
     We took him away
     A bag over his face
     From his family and his friends
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     They took off his clothes
     They pissed in his hands
     I told them to stop
@@ -59,9 +59,9 @@
     We beat him with guns
     And batons not just once
     But again and again
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     She walked
     Through bullets and haze
     I asked her to stop
@@ -69,9 +69,9 @@
     But she pressed on
     So I lifted my gun
     And I fired away
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     The shells
     Jumped through the smoke
     And into the sand
@@ -79,9 +79,9 @@
     She collapsed
     With a flag in her hand
     A flag white as snow
-  \endverse
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     A hero of war
     Is that what they see
     Just medals and scars
@@ -90,13 +90,13 @@
     Now it gathers dust
     But it's a flag that I love
     It's the only flag I trust
-  \endchorus
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     He said, ``Son
     Have you seen the world?
     Well what would you say
     If I said that you could?''
-  \endverse
+  \end{verse}
 
 \endsong

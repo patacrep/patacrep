@@ -87,7 +87,7 @@ $(PDF): %.pdf: %.tex %.aux
 	$(MAKE_SONGBOOK) -s $< -d -o $@
 
 %.pdf: %.ly
-	@$(LILYPOND) --output=$(@:%.pdf=%) $<
+	@$(LILYPOND) --format=pdf --output=$(@:%.pdf=%) $<
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@

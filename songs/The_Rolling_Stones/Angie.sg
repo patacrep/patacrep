@@ -7,19 +7,19 @@
 
   \gtab{Am}{X02210}
   \gtab*{E7*}{00X430}
-  \gtab{G4}{3:XX3311}
-  \gtab{F4}{XX3311}
+  \gtab*{G4}{3:XX3311}
+  \gtab*{F4}{XX3311}
   \gtab{F}{1:022100}
-  \gtab{C4}{X32310}
+  \gtab*{C4}{X33011}
   \gtab{C}{X32010}
-  \gtab{G4/B}{X2001X}
+  \gtab*{G4/B}{X2001X}
   \gtab{E7}{020100}
   \gtab{G}{320003}
   \gtab{Em7}{010000}
   \gtab{Dm}{XX0231}
 
   \beginverse*
-    \musicnote{ \Intro: \nolyrics{ | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] |\[G4/B] \[Am] | }}
+    \musicnote{\Intro: \nolyrics{ | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] | \[G4/B] \[Am] | }}
   \endverse
 
   \beginverse

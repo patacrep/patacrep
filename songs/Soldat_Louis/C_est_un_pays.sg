@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{C'est un pays}
-  [by=Soldat Louis,cov=Pavillon-noir,album=Pavillon noir]
+  [by=Soldat Louis,cov=pavillon-noir,album=Pavillon noir]
 
   \cover
   \gtab{G}{320003}
@@ -11,43 +11,39 @@
   \gtab{D}{XX0232}
 
   \begin{verse*}
-    \musicnote {\nolyrics \[Am Am G F] \rep{2}}
-    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G G]}
+    \musicnote{\Intro : {\nolyrics \[Am Am G F] \rep{2}} }
   \end{verse*}
 
-  \lilypond{C_est_un_pays}
+  \begin{chorus}
+    {\nolyrics \[Am Am G F] \rep{2}}
+    {\nolyrics \[C C Dm F] \rep{2}}
+    {\nolyrics \[G]}
+    \lilypond{C_est_un_pays}
+  \end{chorus}
 
   \begin{verse}
-    C'est \[Am]{un pays} fallait qu'j't'en parle
+    C'est \[Am]{un pays}, fallait qu'j't'en parle
     Car \[G]{j'l'ai} dans l'cœur comme \[F]tu crois pas
-    Quand \[Am]{j'suis} pas d'dans c'est pas normal
+    Quand \[Am]{j'suis} pas d'dans, c'est pas normal
     À \[G]croire que l'monde n'e\[F]xiste pas
     C'est \[C]pas fait pour les cons qui râlent
     A\[Dm]près la pluie ou \[F]{j'sais} pas quoi
     Moi \[C]{j'l'aime} mieux sous un ciel qui chiale
     Ba\[Dm]layé par un \[F]vent \[G]{d'no}\[Am]roît
-    \nolyrics \[Am Am]
   \end{verse}
 
   \begin{repeatedchords}
     \begin{verse}
-      \[Am]{Là-bas} c'est la mer qui donne
+      \[Am]{Là-bas}, c'est la mer qui donne
       Et \[G]{qui reprend} quand \[F]{ça lui} plaît
       Et \[Am]{ce putain} d'glas qui résonne
-      Quand \[G]elle a repris tout \[F]{l'monde} le sait
-      Là-\[C]bas si c'est pas pour ta pomme
+      Quand \[G]elle a repris, tout \[F]{l'monde} le sait
+      Là-\[C]bas, si c'est pas pour ta pomme
       On \[Dm]{te le} fera sa\[F]voir vite fait
       Ils \[C]{en ont} vu passer des tonnes
       De \[Dm]colons et voire \[F]même \[G]{d'An\[Am]}glais
-      \nolyrics \[Am Am]
     \end{verse}
-  \end{repeatedchords}
 
-  \begin{verse*}
-    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G]}
-  \end{verse*}
-
-  \begin{repeatedchords}
     \begin{verse}
       Et \[Am]puis parfois toute la violence
       Qui \[G]fait lever l'poing \[F]sur la place
@@ -65,19 +61,13 @@
       À \[G]{la cupidi}\[F]té vénale
       Depuis \[Am]{qu'une} duchesse encore enfant
       S'est \[G]fait mettre d'une ma\[F]nière royale
-      Sa \[C]liberté c'est l'océan
+      Sa \[C]liberté, c'est l'océan
       Qui \[Dm]{la nuit} va rejoindre \[F]{les étoiles}
       Et \[C]{sa terre} qui a fait serment
       D'être \[Dm]{à jamais} terre \[F]na\[G]tio\[Am]nale
-      \nolyrics \[Am Am]
+      {\nolyrics \[Am Am]}
     \end{verse}
-  \end{repeatedchords}
 
-  \begin{verse*}
-    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G]}
-  \end{verse*}
-
-  \begin{repeatedchords}
     \begin{verse}
       C'est \[Am]{aux cris} des oiseaux de mer
       Quand \[G]{ils reviennent} près \[F]{du rivage}
@@ -87,7 +77,7 @@
       Qui \[Dm]{n'se} lit que sur \[F]les visages
       I\[C]{ci on} n'parle pas d'sa misère
       Et \[Dm]encore moins de \[F]son \[G]cou\[Am]rage
-      \nolyrics \[Am Am]
+      {\nolyrics \[Am Am]}
     \end{verse}
 
     \begin{verse}
@@ -101,13 +91,8 @@
       Ou \[Dm]{qui voudrait} lui re\[F]mettre \[G]des \[Am]chaînes
       \nolyrics \[Am Am]
     \end{verse}
-
-    \begin{verse}
-      \musicnote {couplet 1 \rep{2}}
-    \end{verse}
   \end{repeatedchords}
 
-  \begin{verse*}
-    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G G]}
-  \end{verse*}
+  \musicnote{\Verse 1 \rep{2}}
+
 \endsong

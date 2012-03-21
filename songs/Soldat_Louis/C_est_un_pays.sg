@@ -1,0 +1,113 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{C'est un pays}
+  [by=Soldat Louis,cov=Pavillon-noir,album=Pavillon noir]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Am Am G F] \rep{2}}
+    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G G]}
+  \end{verse*}
+
+  \lilypond{C_est_un_pays}
+
+  \begin{verse}
+    C'est \[Am]{un pays} fallait qu'j't'en parle
+    Car \[G]{j'l'ai} dans l'cœur comme \[F]tu crois pas
+    Quand \[Am]{j'suis} pas d'dans c'est pas normal
+    À \[G]croire que l'monde n'e\[F]xiste pas
+    C'est \[C]pas fait pour les cons qui râlent
+    A\[Dm]près la pluie ou \[F]{j'sais} pas quoi
+    Moi \[C]{j'l'aime} mieux sous un ciel qui chiale
+    Ba\[Dm]layé par un \[F]vent \[G]{d'no}\[Am]roît
+    \nolyrics \[Am Am]
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]{Là-bas} c'est la mer qui donne
+      Et \[G]{qui reprend} quand \[F]{ça lui} plaît
+      Et \[Am]{ce putain} d'glas qui résonne
+      Quand \[G]elle a repris tout \[F]{l'monde} le sait
+      Là-\[C]bas si c'est pas pour ta pomme
+      On \[Dm]{te le} fera sa\[F]voir vite fait
+      Ils \[C]{en ont} vu passer des tonnes
+      De \[Dm]colons et voire \[F]même \[G]{d'An\[Am]}glais
+      \nolyrics \[Am Am]
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Et \[Am]puis parfois toute la violence
+      Qui \[G]fait lever l'poing \[F]sur la place
+      Qui \[Am]rappelle qu'il y a méfiance
+      A\[G]près la langue on \[F]vise la race
+      Qu'elle \[C]{s'est} pas trop gênée la France
+      Pour \[Dm]{lui mettre} les pieds \[F]dans la crasse
+      Des \[C]fois qu'l'idée d'indépendance
+      Ne \[Dm]laisserait pas vrai\[F]ment \[G]de \[Am]glace
+      \nolyrics \[Am Am]
+    \end{verse}
+
+    \begin{verse}
+      Car \[Am]{ça n'aime} pas les conquérants
+      À \[G]{la cupidi}\[F]té vénale
+      Depuis \[Am]{qu'une} duchesse encore enfant
+      S'est \[G]fait mettre d'une ma\[F]nière royale
+      Sa \[C]liberté c'est l'océan
+      Qui \[Dm]{la nuit} va rejoindre \[F]{les étoiles}
+      Et \[C]{sa terre} qui a fait serment
+      D'être \[Dm]{à jamais} terre \[F]na\[G]tio\[Am]nale
+      \nolyrics \[Am Am]
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      C'est \[Am]{aux cris} des oiseaux de mer
+      Quand \[G]{ils reviennent} près \[F]{du rivage}
+      Que \[Am]{j'ai} compris qu'il y a l'enfer
+      Mais \[G]{qu'ça} vaut beaucoup \[F]mieux qu'une cage
+      Et \[C]même quand chaque jour est une guerre
+      Qui \[Dm]{n'se} lit que sur \[F]les visages
+      I\[C]{ci on} n'parle pas d'sa misère
+      Et \[Dm]encore moins de \[F]son \[G]cou\[Am]rage
+      \nolyrics \[Am Am]
+    \end{verse}
+
+    \begin{verse}
+      Si \[Am]{j'en} rajoute un peu tant pis
+      Au \[G]début j't'ai bien \[F]dit que j'l'aime
+      Dans \[Am]tout c'merdier c'putain d'pays
+      M'tient \[G]plus chaud qu'la gon\[F]zesse que j'traîne
+      J'ai \[C]pas fini d'l'ouvrir pour lui
+      Pour \[Dm]{lui j'filerai} même \[F]des chataîgnes
+      Au \[C]premier salaud qui l'détruit
+      Ou \[Dm]{qui voudrait} lui re\[F]mettre \[G]des \[Am]chaînes
+      \nolyrics \[Am Am]
+    \end{verse}
+
+    \begin{verse}
+      \musicnote {couplet 1 \rep{2}}
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Am Am G F] \rep{2} \[C C Dm F] \rep{2} \[G G]}
+  \end{verse*}
+\endsong

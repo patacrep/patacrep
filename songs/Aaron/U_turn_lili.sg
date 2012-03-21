@@ -21,24 +21,26 @@
     I'll be your \[F]guide
   \end{chorus}
 
-  \begin{chorus}
-    For every street of any scene
-    Any place you've never been
-    I'll be your guide
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      For every \[Am]street of any scene
+      Any \[Em]place you've never been
+      I'll be your \[F]guide
+    \end{chorus}
 
-  \begin{verse}
-    Lili, you know there's still a place for people like us
-    The same blood runs in every hand
-    You see it's not the wings that make the angel
-    Just have to move the bats out of your head
-  \end{verse}
+    \begin{verse}
+      \[Am]Lili, you know there's still a place for people \[Em]like us
+      The same blood runs in every \[Am]hand
+      You see it's not the wings that make the \[Em]angel
+      Just have to move the bats out of your \[F]head
+    \end{verse}
 
-  \begin{verse}
-    Lili, easy as a kiss we'll find an answer
-    Put all your fears back in the shade
-    Don't become a ghost without no colour
-    'Cause you're the best paint life ever made
-  \end{verse}
+    \begin{verse}
+      \[Am]Lili, easy as a kiss we'll find an \[Em]answer
+      Put all your fears back in the \[Am]shade
+      Don't become a ghost without no \[Em]colour
+      'Cause you're the best paint life ever \[F]made
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

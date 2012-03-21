@@ -6,8 +6,8 @@
   \cover
   \gtab{Am}{X02210}
   \gtab{Em}{022000}
-  \gtab{F7}{1X221X}
-  \gtab{E7}{020130}
+  \gtab*{F7}{1X221X}
+  \gtab*{E7}{020130}
   \gtab{Dm}{XX0231}
   \gtab{C}{X32010}
   \gtab{D7}{XX0212}
@@ -30,11 +30,11 @@
     Est-ce ta jolie paire de fesses
     La peur de la solitude
     Le hasard et la paresse
-    Ou une mauvaise habitude
+    Ou une mauvaise habitude ?
     Je ne manque pas \echo{Pourquoi les taire ?}
     De bonnes raisons pour t'aimer
     Je ne vois pas
-    Pour quelles raisons te les donner
+    Pour quelles raisons te les donner ?
     De bonnes raisons pour m'aimer
     Pourquoi me les donner ?
   \end{verse}
@@ -50,7 +50,7 @@
     Peut-être est-ce pour ton odeur
     Ta façon de t'endormir
     Peut-être aussi pour ta sœur
-    Ton argent ou encore pire
+    Ton argent ou encore pire ?
     Je ne manque pas \echo{Pourquoi les taire ?}
     De bonnes raisons pour t'aimer
     Je ne vois pas

@@ -10,18 +10,19 @@
   \gtab{C}{3:X02220}
   \gtab{Em}{022000}
 
-
   \begin{verse}
     Oh the \[Am]wind whistles down
     The \[F]cold dark street tonight
     And the \[C]people they were dancing \[Em]to the music vibe
   \end{verse}
 
-  \begin{verse*}
-    And the boys chase the girls with the curls in their hair
-    While the shocked too many just sit way over there
-    And the songs they get louder each one better than before
-  \end{verse*}
+  \begin{repeatedchords}
+    \begin{verse*}
+      And the \[Am]boys chase the girls with the curls in their hair
+      While the \[F]shocked too many just sit way over there
+      And the \[C]songs they get louder each one better than be\[Em]fore
+    \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
     And you're singing the \[Am]songs thinking this is the life
@@ -30,16 +31,18 @@
     \rep{2}
   \end{chorus}
 
-  \begin{verse}
-    So you're heading down the road in your taxi for four
-    And you're waiting outside Jimmy's front door
-    But nobody's in and nobody's home till four
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      So you're \[Am]heading down the road in your taxi for four
+      And you're \[F]waiting outside Jimmy's front door
+      But \[C]nobody's in and nobody's home till \[Em]four
+    \end{verse}
 
-  \begin{verse*}
-    So you're sitting there with nothing to do
-    Talking about Robert Ragger and his motley crew
-    And where you gonna go, and where you gonna sleep tonight?
-  \end{verse*}
+    \begin{verse*}
+      So you're \[Am]sitting there with nothing to do
+      Talking a\[F]bout Robert Ragger and his motley crew
+      And \[C]where you gonna go, and where you gonna sleep to\[Em]night?
+    \end{verse*}
+  \end{repeatedchords}
 
 \endsong

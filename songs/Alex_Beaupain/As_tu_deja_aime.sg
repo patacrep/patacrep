@@ -7,11 +7,11 @@
   \gtab{C}{X32010}
   \gtab{G}{320003}
   \gtab{F}{1:022100}
-  \gtab{Am9}{x02200}
-  \gtab{Gsus4}{3x0013}
+  \gtab*{Am9}{x02200}
+  \gtab*{Gsus4}{3x0013}
   \gtab{E7}{020100}
   \gtab{Dm}{XX0231}
-  \gtab{Dm9}{XX3210}
+  \gtab*{Dm9}{XX3210}
 
 
   \begin{verse}
@@ -24,15 +24,17 @@
     T'es-tu perdu souv\[F]ent ?\[C]
   \end{verse}
 
-  \begin{verse*}
-    Oui, j'ai déjà aimé
-    Pour la beauté du geste
-    Mais la pomme était dure
-    Je m'y suis cassé les dents
-    Ces passions immatures
-    Ces amours indigestes
-    M'ont écœuré souvent
-  \end{verse*}
+  \begin{repeatedchords}
+    \begin{verse*}
+      Oui, j'ai déjà ai\[C]mé
+      Pour la beauté du g\[G]este
+      Mais la pomme était \[C]dure
+      Je m'y suis cassé les d\[F]ents
+      Ces passions imma\[C]tures
+      Ces amours indig\[G]estes
+      M'ont écœuré souv\[F]ent \[C]
+    \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
     Les amours qui d\[E]urent
@@ -45,35 +47,37 @@
     Nous \[E]écorchent les \[Gsus4]lèvres
   \end{chorus}
 
-  \begin{verse}
-    Car à vouloir s'aimer
-    Pour la beauté du geste
-    Le ver dans la pomme
-    Nous glisse entre les dents
-    Il nous ronge le cœur
-    Le cerveau et le reste
-    Nous vide lentement
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Car à vouloir s'ai\[C]mer
+      Pour la beauté du g\[G]este
+      Le ver dans la \[C]pomme
+      Nous glisse entre les d\[F]ents
+      Il nous ronge le \[C]cœur
+      Le cerveau et le \[G]reste
+      Nous vide lente\[F]ment \[C]
+    \end{verse}
 
-  \begin{verse*}
-    Et lorsqu'on ose aimer
-    Pour la beauté du geste
-    Ce ver dans la pomme
-    Qui glisse entre nos dents
-    Nous embaume le cœur
-    Le cerveau et nous laisse
-    Son parfum dedans
-  \end{verse*}
+    \begin{verse*}
+      Et lorsqu'on ose ai\[C]mer
+      Pour la beauté du g\[G]este
+      Ce ver dans la \[C]pomme
+      Qui glisse entre nos d\[F]ents
+      Nous embaume le \[C]cœur
+      Le cerveau et nous \[G]laisse
+      Son parfum de\[F]dans \[C]
+    \end{verse*}
 
-  \begin{chorus}
-    Les amours passagères
-    Font de futiles efforts
-    Leurs caresses éphémères
-    Nous fatiguent le corps
-    Les amours qui durent
-    Font les amants moins beaux
-    Leurs caresses à l'usure
-    Ont raison de nos peaux
-  \end{chorus}
+    \begin{chorus}
+      Les amours passa\[E]gères
+      Font \[E7]de futiles eff\[Am]orts\[Am9]
+      Leurs \[Am]caresses éphé\[Dm]ères\[Dm9]
+      Nous \[Dm]fati\[Dm9]guent le c\[G]orps
+      Les amours qui \[E]durent
+      Font \[E7]les amants moins \[Am]beaux\[Am9]
+      Leurs \[G]caresses à l'u\[C]sure
+      Ont \[E]raison de nos \[Gsus4]peaux
+    \end{chorus}
+  \end{repeatedchords}
 
 \endsong

@@ -16,12 +16,14 @@
     Peuvent reve\[Em]nir \[D]
   \end{chorus}
 
-  \begin{chorus}
-    Est-ce qu'on peut ravoir à l'eau d'Javel
-    Des sentiments
-    La blancheur qu'on croyait éternelle
-    Avant
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      Est-ce \[Em]{qu'on} peut ravoir \[D]à l'eau d'Javel \[Em D]
+      Des sen\[Em]timents ? \[D]
+      La \[Em]blancheur qu'on cro\[D]yait éternelle \[Em D]
+      Avant \[Em D]
+    \end{chorus}
+  \end{repeatedchords}
 
   \begin{verse}
     Pour \[C]retrouver le rose ini\[G]tial
@@ -30,18 +32,20 @@
     Tant d'a\[Em]zur \[C]per\[G]du
   \end{verse}
 
-  \begin{verse}
-    Matisse, l'amour c'est bleu difficile
-    Les caresses rouge fragile
-    Le soleil de la vie les tabasse
-    Et alors, elles passent
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Ma\[C]tisse, l'amour c'est bleu diffic\[G]ile
+      Les ca\[Em]resses, \[C]rouge fra\[G]gile
+      Le \[C]soleil de la vie les ta\[G]basse
+      Et a\[Em]lors, \[C] elles \[G]passent
+    \end{verse}
 
-  \begin{verse}
-    Le rouge pour faire tomber la misère
-    De nos gentils petits grands-pères
-    Noires, les mains dans les boucles blondes
-    Tout autour, du monde
-  \end{verse}
+    \begin{verse}
+      Le \[C]rouge pour faire tomber la mi\[G]sère
+      De nos \[Em]gentils \[C]petits grands-\[G]pères
+      \[C]Noires, les mains dans les boucles \[G]blondes
+      Tout au\[Em]tour, \[C]du \[G]monde
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

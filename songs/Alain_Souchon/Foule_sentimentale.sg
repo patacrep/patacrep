@@ -9,7 +9,6 @@
   \gtab{D7}{XX0212}
   \gtab{B7}{X21202}
   \gtab{C}{X32010}
-  \gtab{D}{XX0232}
 
   \begin{verse}
     \[Em]Oh la la \[Am]la vie en r\[D7]ose \[B7]
@@ -18,50 +17,54 @@
     \[Em]Qui donnent en\[C]vie d'autre ch\[Am]ose \[B7]
   \end{verse}
 
-  \begin{verse*}
-    Allez on nous fait croire
-    Que le bonheur c'est d'avoir
-    De l'avoir plein nos armoires
-    Dérision de nous dérisoire
-  \end{verse*}
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Em]Allez, on \[Am]nous fait \[D7]croire \[B7]
+      \[Em]Que le bo\[C]nheur c'est d'a\[Am]voir \[B7]
+      \[Em]De l'avoir \[Am]plein nos ar\[D7]moires \[B7]
+      \[Em]Dérision \[C]de nous dé\[Am]risoire \[B7]
+    \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
     Car \[Em]foule senti\[C]mentale \[Am B7]
-    \[Em]On a soif d'i\[Am]déal \[D B7]
+    \[Em]On a soif d'i\[Am]déal \[D7 B7]
     \[Em]Attiré \[C]par les é\[Am]toiles les \[B7]voiles
-    \[Em]Que des choses \[Am]pas commerciales \[D B7]
+    \[Em]Que des choses \[Am]pas commerciales \[D7 B7]
     \[Em]Foule senti\[C]mentale \[Am B7]
-    \[Em]Il faut voir \[Am]comme on nous \[D]parle \[B7]
+    \[Em]Il faut voir \[Am]comme on nous \[D7]parle \[B7]
     \[Em]Comme on nous pa\[C]rle \[Am B7]
-    \nolyrics{\[Em Am D B7]}
+    {\nolyrics \[Em Am D7 B7]}
   \end{chorus}
 
-  \begin{verse}
-    Il se dégage
-    De ces cartons d'emballage
-    Des gens lavés hors d'usage
-    Et tristes et sans aucun avantage
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Il \[Am]se dég\[D7]age \[B7]
+      \[Em]De ces car\[C]tons d'emball\[D7]age \[B7]
+      \[Em]Des gens la\[Am]vés hors d'us\[D7]age \[B7]
+      \[Em]Et tristes et \[C]sans aucun a\[Am]vantage \[B7]
+    \end{verse}
 
-  \begin{verse*}
-    On nous inflige
-    Des désirs qui nous affligent
-    On nous prend faut pas déconner dès qu'on est né
-    Pour des cons alors qu'on est
-  \end{verse*}
+    \begin{verse*}
+      \[Em]On \[Am]nous infl\[D7]ige \[B7]
+      \[Em]Des désirs \[C]qui nous affl\[D7]igent \[B7]
+      \[Em]On nous prend \[Am]faut pas décon\[D7]ner dès qu'on est \[B7]né
+      \[Em]Pour des cons \[C]alors qu'on \[Am]est \[B7]
+    \end{verse*}
 
-  \begin{verse}
-    On nous Claudia Shiffer
-    On nous Paul Loup Sulizer
-    Ah le mal qu'on peut nous faire
-    Et qui ravagea la moukère
-  \end{verse}
+    \begin{verse}
+      \[Em]On nous \[Am]Claudia Shif\[D7]fer \[B7]
+      \[Em]On nous Paul \[C]Loup Suliz\[Am]er \[B7]
+      \[Em]Ah le mal \[Am]{qu'on} peut nous fai\[D7]re \[B7]
+      \[Em]Et qui ra\[C]vagea la \[Am]moukère \[B7]
+    \end{verse}
 
-  \begin{verse*}
-    Du ciel dévale
-    Un désir qui nous emballe
-    Pour demain, nos enfants pâles
-    Un mieux, un rêve, un cheval
-  \end{verse*}
+    \begin{verse*}
+      \[Em]Du \[Am]ciel dév\[D7]ale \[B7]
+      \[Em]Un désir \[C]qui nous emb\[Am]alle \[B7]
+      \[Em]Pour demain, \[Am]nos enfants \[D7]pâles \[B7]
+      \[Em]Un mieux, un \[C]rêve, un \[Am]cheval \[B7]
+    \end{verse*}
+  \end{repeatedchords}
 
 \endsong

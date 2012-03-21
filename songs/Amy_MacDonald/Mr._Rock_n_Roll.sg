@@ -6,44 +6,51 @@
   \cover
   \capo{7}
   \gtab{D}{XX0232}
-  \gtab{D4}{XX0233}
-  \gtab{D6/9}{XX0200}
-  \gtab{A4}{X02230}
-  \gtab{Em7}{022030}
+  \gtab*{D4}{XX0233}
+  \gtab*{D6/9}{XX0200}
+  \gtab*{A4}{X02230}
+  \gtab*{Em7}{022030}
   \gtab{G}{320033}
 
   \begin{verse}
     \[D]So called Mr. Rock 'n Roll he's dancing on his own again
     Talking on his phone again to someone, who tells him that his
-    \[G]Balance is low, he's got nowhere to go, he's on his own again
+    \[G]Balance is low, he's got nowhere to go, he's on his \[D]own again
     {\nolyrics \[D D4 D6/9 D] \rep{2}}
   \end{verse}
 
-  \begin{verse}
-    Rock chic of the century is acting like she used to be
-    Dancing like there's no one there before she ever seemed to care now
-    She wouldn't dare, it's so rock 'n roll to be alone
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Rock chic of the century is acting like she used to be
+      Dancing like there's no one there before she ever seemed to care now
+      \[G]She wouldn't dare, it's so rock 'n roll to be a\[D]lone
+      \nolyrics \[D D4 D6/9 D \rep{2}]
+    \end{verse}
+  \end{repeatedchords}
 
   \begin{chorus}
     And they'll \[A4]meet one day far away and say
     \[Em7]{I wish} I was something more
     And they'll \[A4]meet one day far away and say
     \[Em7]{I wish} I knew you, I wish I knew you before
-    {\nolyrics \[D D4 D6/9 D] \rep{4}}
+    \nolyrics \[D D4 D6/9 D \rep{4}]
   \end{chorus}
 
-  \begin{verse}
-    Mrs. Black and White she's never seen a shade of grey
-    Always something on her mind, every single day
-    But now she's lost her way, and where does she go from here?
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Mrs. Black and White, she's never seen a shade of grey
+      Always something on her mind, every single day
+      But now she's \[G]lost her way, and where does she go from he\[D]re?
+      \nolyrics \[D D4 D6/9 D \rep{2}]
+    \end{verse}
 
-  \begin{verse}
-    Mr. Multicultural sees all that one could see
-    He's living proof of someone very different to me
-    But now he want's to be free, free so he can see
-  \end{verse}
+    \begin{verse}
+      \[D]Mr. Multicultural sees all that one could see
+      He's living proof of someone very different to me
+      But now he \[G]wants to be free, free so he can se\[D]e
+      \nolyrics \[D D4 D6/9 D \rep{2}]
+    \end{verse}
+  \end{repeatedchords}
 
   \begin{chorus}
     He'll say \[Em7]{I wish} I knew you
@@ -52,10 +59,13 @@
     \[A4]{I wish} I loved you \[G]before I was his \[A4]bride
   \end{chorus}
 
-  \begin{verse}
-    And so they must be depart too many moral broken hearts
-    But I've seen that all before in TV, books and films and more
-    And there's a happy ending, every single day
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      And \[D]so they must be depart too many moral broken hearts
+      But I've seen that all before in TV, books and films and more
+      And there's \[G]a happy ending, every single day \[D]
+      \nolyrics \[D D4 D6/9 D \rep{2}]
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

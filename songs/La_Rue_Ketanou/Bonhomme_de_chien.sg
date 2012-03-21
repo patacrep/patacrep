@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Bonhomme de chien}
+  [by=La Rue Kétanou,cov=En-attendant-les-caravanes,album=En attendant les caravanes]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{Gm}{3:022000}
+  \gtab{Am}{X02210}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Dm Gm Dm Am] \rep{2}}
+  \end{verse*}
+
+  \begin{chorus}
+    Il vi\[Dm]vote dans les rues les squares \[Gm]{et les jardins}
+    \nolyrics \[Dm Am]
+    Marchant \[Dm]regard éperdu, il fait \[Gm]{son bonhomme} de chien
+    \nolyrics \[Dm Am]
+  \end{chorus}
+
+  \begin{verse}
+    Et oh pas \[Dm]{de carrière} pour l'avenir car \[Gm]{hier n'est} plus à venir
+    Il \[Dm]{vit le} moment présent, après l'hi\[Am]{ver vient} le printemps
+  \end{verse}
+
+  \begin{verse*}
+    Il gagne un peu d'argent, oh pas beaucoup évidemment
+    Juste assez pour ne pas mourir, le temps d'avoir des souvenirs
+    Il croit pas trop en Dieu et puis même si il y croyait
+    C'est déjà dur seul à seul alors pensez seul à deux
+  \end{verse*}
+
+  \begin{verse*}
+    \musicnote {Refrain \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    On lit sur son visage oh la jeunesse qui se ride
+    Au-dessus de ses yeux, ses cheveux se débrident
+    Il a l'âge des grands nuages qui ne tiennent pas en cage
+    Allant parcourant d'air vents du large vent arrière
+    Mais à grands coups d'éclairs l'orage blesse le nuage
+    La pluie saigne très claire les larmes de son grand âge
+    Il est libre à son compte prenant les jours comme acompte
+    Se nourrissant de pommes, oh le joli freedom
+  \end{verse}
+
+  \begin{verse*}
+    \musicnote {Refrain \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    Oh c'est en été que j'ai lu dans une rubrique aux faits divers
+    Qu'un vieillard mourut. d'un coup de foudre révolu
+    Il est léger comme l'air il n'a plus soif à sa faim
+    Ma chanson n'a plus d'espoir, il n'y a pas de mots sans fin
+    Notre chanson n'a plus d'espoir, il n'y a pas de mots sans fin
+    Notre chanson n'a plus d'espoir, il n'y a pas de mots sans fin
+  \end{verse}
+
+  \begin{verse*}
+    \musicnote {Solo accordéon}
+  \end{verse*}
+  \lilypond{Bonhomme_de_chien}
+
+  \begin{verse*}
+    \musicnote {Refrain \rep{2}}
+  \end{verse*}
+
+\endsong

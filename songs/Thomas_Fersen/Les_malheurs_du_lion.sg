@@ -1,0 +1,101 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les malheurs du lion}
+  [by=Thomas Fersen,cov=Qu4tre,album=Qu4tre]
+
+  \cover
+  \gtab{Cm}{3:X02210}
+  \gtab{G}{320003}
+  \gtab{A{\shrp}}{1:X02220}
+  \gtab{D{\shrp}}{XX1343}
+  \gtab{Fm}{1:022000}
+
+  \begin{chorus}
+    \musicnote {\nolyrics \[Cm G Cm] \rep{2}}
+  \end{chorus}
+
+  \begin{verse}
+    \[Cm]Au café, rê\[G]vait un \[Cm]lion
+    \[Cm]Devant sa con\[A#]somma\[D#]tion
+    Il voit \[D#]venir une abeille
+    Vêtue \[Fm]{d'un} tailleur que raye
+    Le \[G]noir avec le soleil
+    Une \[Cm]petite merveille
+    Elle gré\[D#]sille, elle bourdonne
+    Avec \[Fm]{l'accent} de Narbonne
+    Et gen\[G]timent elle butine
+    Un dia\[Cm]bolo grenadine
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Cm]Ainsi rêvas\[G]sait le \[Cm]lion
+      \[Cm]Devant sa con\[A#]somma\[D#]tion
+      Il voit \[D#]venir un moucheron
+      Vêtu \[Fm]{d'un} complet marron
+      Avec \[G]des ailes sur le tronc
+      Et u\[Cm]ne mèche sur le front
+      Qui gré\[D#]sille, qui zézaye
+      Avec \[Fm]{l'accent} de Marseille
+      Qui lui \[G]casse les oreilles
+      Et lui \[Cm]arrive à l'orteil
+    \end{verse}
+
+    \begin{verse}
+      {\og} \[Cm]Hé petit je \[G]suis le \[Cm]lion
+      \[Cm]Allez, va jouer \[A#]au bal\[D#]lon
+      Tu peux \[D#]{t'éponger} le front
+      Avoir \[Fm]les jambes en coton
+      Ici \[G]{c'est} moi le patron
+      C'est moi \[Cm]qui donne le ton
+      Tu zé\[D#]zayes, tu grésilles
+      Et tu \[Fm]tournes autour des filles
+      Un con\[G]seil tiens-toi tranquille
+      Ou tu vas \[Cm]{t'asseoir} sur le gril
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    T'es é\[Cm]pais comme une fourmi
+    Et tu \[Fm]veux te battre avec mi !
+    Al\[G]lez, sois raisonnable
+    Je suis trop \[Cm]fort
+    Si tu \[Cm]{t'en} prends à la pègre
+    Tu fi\[Fm]niras dans le vinaigre
+    Al\[G]lez, tiens-toi tranquille
+    Sinon t'es \[Cm]mort {\fg}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Cm]Le lion n'a rien \[G]vu ve\[Cm]nir
+      \[Cm]Le moucheron sans \[A#]préve\[D#]nir
+      Lui a \[D#]mis un coup de saton
+      À la \[Fm]pointe du menton
+      Il n'en \[G]revient pas le lion
+      Et ce n'est \[Cm]{qu'un} échantillon
+      Un coup \[D#]dans les testicules
+      {\og} Ça c'est \[Fm]de la part de Jules
+      J'aime pas \[G]tellement qu'on me bouscule
+      Quand je me \[Cm]rince les mandibules {\fg}
+    \end{verse}
+
+    \begin{verse}
+      \[Cm]Cette histoire est \[G]une fic\[Cm]tion
+      \[Cm]Moi, j'ai rencon\[A#]tré le \[D#]lion
+      J'lui ai \[D#]mis, c'est ridicule
+      Un coup \[Fm]dans les testicules
+      Il m'a \[G]dévoré tout cru
+      Au beau \[Cm]milieu de la rue
+      Je gré\[D#]sille, je zézaye
+      Et dans \[Fm]le dos j'ai des ailes
+      J'ai l'é\[G]ternité au ciel
+      Grâce à \[Cm]mon exploit de la veille\dots{}
+    \end{verse}
+
+    \begin{bridge}
+        Ta ba \[Cm]da ba da ba da\dots{}
+    \end{bridge}
+  \end{repeatedchords}
+
+\endsong

@@ -1,0 +1,111 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Irène}[by=Thomas Fersen,cov=Qu4tre,album=Qu4tre]
+
+  \cover
+  \gtab{B}{2:X02220}
+  \gtab{G{\shrp}m}{4:022000}
+  \gtab{E}{022100}
+  \gtab{C{\shrp}m}{4:X02210}
+
+  \utab{B}{2:2100}
+  \utab{G{\shrp}m}{1:0231}
+  \utab{E}{2:2220}
+  \utab{C{\shrp}m}{1:0333}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[B G{\shrp}m E B] \rep{2}}
+  \endverse
+
+  \beginverse
+    Quand \[B]je bois une bière de Bohême
+    \[G#m]Moi qui suis un buveur d'eau
+    Je \[E]vois de roses pachydermes
+    Mais \[B]cette fois il y a du nouveau
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Quand \[B]je bois une bière de Bohême
+      \[G#m]Pas le moindre éléphanteau
+      Je \[E]reçois Mademoiselle Irène
+      \[B]Dans le réduit de mon cerveau
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Elle \[B]illumine ma lanterne
+    Cer\[C#m]tains prénoms sont si beaux
+    Je \[C#m]reçois Mademoiselle Irène
+    \[B]Comme une colombe dans mon chapeau
+    \nolyrics \[B G{\shrp}m E B]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Je \[B]reçois mademoiselle Irène
+      \[G#m]Dans le réduit de mon cerveau
+      Est-\[E]elle, cette maison de reine
+      \[B]Dans votre annuaire des châteaux ?
+    \endverse
+
+    \beginverse*
+      Si \[B]je pouvais saisir les rênes
+      Dé\[G#m]tourner cette rame de métro
+      Et \[E]prendre la fuite à Varennes
+      Au \[B]lieu de me rendre au bureau
+    \endverse
+
+    \beginchorus
+      De \[B]poste ou je trie des centaines
+      \[C#m]Des milliers de colis postaux
+      Je \[C#m]confonds reine avec Irène
+      \[B]Dans le réduit de mon cerveau.
+      \nolyrics \[B G{\shrp}m E B]
+    \endchorus
+
+    \beginverse
+      Par\[B]fois je m'endors sur la chaîne
+      Et \[G#m]{j'entends} qu'on dit dans mon dos
+      \[E]{Qu'à} 15 ans j'ai pas eu d'veine
+      De \[B]{m'piquer} avec le fuseau
+    \endverse
+
+    \beginverse*
+      Si \[B]{j'avais} une fée pour marraine
+      Je \[G#m]lui demanderais ce cadeau
+      Me \[E]donner les lèvres d'Irène
+      Plu\[B]tôt qu’la brûlure d'un mégot
+    \endverse
+
+    \beginchorus
+      Et \[B]comme dans les livres d'étrennes
+      On \[C#m]{s'enfuirait} dans un traîneau
+      \[C#m]Emmené par quatre rennes
+      A\[B]vec le tintement des grelots
+      \nolyrics \[B G{\shrp}m E B]
+    \endchorus
+
+    \beginverse
+      Et \[B]quand vient la fin de semaine
+      Que \[G#m]faire de mes jours de repos ?
+      J'ai\[E]merais sortir avec Irène
+      Mais \[B]comme je n'ai pas de culot
+    \endverse
+
+    \beginverse*
+      Je \[B]vais seul à la fête foraine
+      \[G#m]{Et j'me} fais tirer les tarots
+      \[E]Par une cartomancienne
+      Pour \[B]savoir quel sera mon lot
+    \endverse
+
+    \beginchorus
+      Et \[B]selon cette bohémienne
+      Mon \[C#m]avenir est clair comme de l'eau
+      \[C#m]Elle voit de roses pachydermes
+      \[B]{Et une} solitude sans défaut...
+      \nolyrics \[B G{\shrp}m E B]
+    \endchorus
+  \end{repeatedchords}
+\endsong

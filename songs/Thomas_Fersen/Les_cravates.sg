@@ -1,0 +1,114 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les cravates}[by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands     jours]
+
+  \cover
+  \gtab{C{\shrp}m}{4:X02210}
+  \gtab{F{\shrp}m}{2:022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{E}{022100}
+  \gtab{B7}{2:X02020}
+
+  \utab{C{\shrp}m}{1:0333}
+  \utab{F{\shrp}m}{2120}
+  \utab{Bm}{2:2000}
+  \utab{E}{2:2220}
+  \utab{B7}{2:0100}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics\[ C{\shrp}m F{\shrp}m Bm E]}
+  \endverse
+
+  \beginverse
+    \[C#m] Je devrais être heureux comme un \[F#m]pape
+    J'ai un n\oe{}ud pap', j'suis invi\[Bm]té
+    Moi qui aime traîner la sa\[E]vate
+    Les belles cravates et l'oisive\[C#m]té
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Et discuter du grand a\[F#m]mour
+      Cravate de velours, pour toute la \[Bm]vie
+      Même si la vie ca fait beau\[E]coup
+      Cravate au cou, à mon a\[C#m]vis
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse*
+    Je suis sapé comme un no\[F#m]taire
+    Cravate, blazer, et nous dan\[B7]sons
+    Hélas, il commence à m'en \[E]cuire
+    Cravate de cuir, et je me mor\[C#m]fonds
+  \endverse
+
+  \beginchorus
+    \[F#m] Cravate à \[Bm]pois, cravate de \[E]soie  \[C#m] \rep{2}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      J'en ai ras-le-bol, à la Cou\[F#m]pole
+      Cravate au col, de boire du \[Bm]thé
+      Quand je préfère aller jou\[E]er
+      Cravate dénouée, ma chance aux \[C#m]dés
+    \endverse
+
+    \beginverse*
+      Le mariage n'est plus à la \[F#m]mode
+      Cravate en solde, en cette sai\[Bm]son
+      Et jamais je ne moisi\[E]rai
+      Cravate à raies, dans une pri\[C#m]son
+    \endverse
+
+    \beginverse*
+      Alors, au lieu de mor\[F#m]fondre
+      Cravate de Londres, je file à l'an\[B7]glaise
+      Avec ça j'emporte vos \[E]ronds
+      Cravate marron, pour être à \[C#m]{l'aise}
+    \endverse
+
+    \beginverse
+      D'abord vous vous laisserez a\[F#m]battre
+      Cravate verdâtre, vous me regret\[Bm]terez
+      Et puis vous serez écar\[E]late
+      Comme ma cravate quand vous pi\[C#m]gerez
+    \endverse
+
+    \beginverse*
+      Mais moi j'aurai pris les de\[F#m]vants
+      Cravate au vent, ainsi que le \[Bm]soin
+      Dans votre Triumph décapo\[E]tée
+      Cravate mouchetée, de changer de \[C#m]coin
+    \endverse
+
+    \beginverse*
+      Avant que la colère ne \[F#m]darde
+      Cravate moutarde, son aiguil\[B7]lon
+      Et que l'on songe à m'arrê\[E]ter
+      Me cravater au portil\[C#m]lon
+    \endverse
+
+    \beginverse
+      Avant que cette histoire se ter\[F#m]mine
+      Cravate d'hermine, par un pro\[Bm]cès
+      Qu'on me confisque tout, cein\[E]ture
+      Cravate bien sûr, et mes la\[C#m]cets
+    \endverse
+
+    \beginverse*
+      Adieu et j'emporte l'argen\[F#m]terie
+      Cravate rubis, et vos bi\[Bm]joux
+      Pour m'offrir les cravates que \[E]{j'aime}
+      C'est-à-dire crème, merci mon \[C#m]chou
+    \endverse
+
+    \beginverse*
+      Je m'en vais ailleurs me faire \[F#m]pendre
+      Cravate de chanvre, adieu beau\[B7]té
+      Et puis m'en jeter un der\[E]rière
+      La lavallière, à votre san\[C#m]té
+    \endverse
+  \end{repeatedchords}
+
+\endsong

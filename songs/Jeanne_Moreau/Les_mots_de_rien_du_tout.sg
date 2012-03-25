@@ -3,61 +3,61 @@
 \beginsong{Les mots de rien}
   [by=Jeanne Moreau,cov=succes-confidences,album=Succès et confidences]
 
-\cover
-\gtab{C}{X32010}
-\gtab{D}{X00212}
-\gtab{F}{1:022100}
-\gtab{G7}{320001}
+  \cover
+  \gtab{C}{X32010}
+  \gtab{D}{X00212}
+  \gtab{F}{1:022100}
+  \gtab{G7}{320001}
 
-\begin{chorus}
-L'a\[C]mour s'exprime avec des \[G7]mots comme ça
-Des \[F]mots de \[G7]tous les \[C]jours
-Des \[C]mots tout gris des petits \[G7]mots de rien
-Des \[F]mots de \[G7]rien du \[C]tout
-\end{chorus}
+  \begin{chorus}
+    L'a\[C]mour s'exprime avec des \[G7]mots comme ça
+    Des \[F]mots de \[G7]tous les \[C]jours
+    Des \[C]mots tout gris des petits \[G7]mots de rien
+    Des \[F]mots de \[G7]rien du \[C]tout
+  \end{chorus}
 
-\begin{verse}
-On \[D]dit au saut du \[G]lit :
-{\og}Bon\[D]jour, il fait beau, as-tu \[G]bien dormi ?{\fg}
-Ces \[D]mots si tendres au tendre é\[G]cho
-Comme un \[D]pur re\[A7]flet dans \[D]l'eau
-\end{verse}
+  \begin{verse}
+    On \[D]dit au saut du \[G]lit :
+    ``Bon\[D]jour, il fait beau, as-tu \[G]bien dormi ?''
+    Ces \[D]mots si tendres au tendre é\[G]cho
+    Comme un \[D]pur re\[A7]flet dans \[D]l'eau
+  \end{verse}
 
-\begin{verse}
-Ces mots de moins que rien
-Respirés par toi tissent mille liens
-Ces mots de moins que rien du tout
-Échangés de nous à nous
-\end{verse}
+  \begin{verse}
+    Ces mots de moins que rien
+    Respirés par toi tissent mille liens
+    Ces mots de moins que rien du tout
+    Échangés de nous à nous
+  \end{verse}
 
-\begin{chorus}
-Ces mots qui viennent et coulent au fil des jours
-Ces mots qui tournent court
-Tous ces mots qui ne pèsent pas bien lourd
-Pour moi sont lourds d'amour
-\end{chorus}
+  \begin{chorus}
+    Ces mots qui viennent et coulent au fil des jours
+    Ces mots qui tournent court
+    Tous ces mots qui ne pèsent pas bien lourd
+    Pour moi sont lourds d'amour
+  \end{chorus}
 
-\begin{verse}
-On se dit à minuit :
-{\og}T'as les plis aux yeux dans l'coin quand tu ris
---- Quand j'ris, mais oui, mais oui chéri
-Et toi quand tu me souris{\fg}
-\end{verse}
+  \begin{verse}
+    On se dit à minuit :
+    ``T'as les plis aux yeux dans l'coin quand tu ris
+    --- Quand j'ris, mais oui, mais oui chéri
+    Et toi quand tu me souris''
+  \end{verse}
 
-\begin{verse}
-Ces mots de moins que rien
-Respirés par toi tissent mille liens
-Ces mots de moins que rien du tout
-Échangés de nous à nous
-\end{verse}
+  \begin{verse}
+    Ces mots de moins que rien
+    Respirés par toi tissent mille liens
+    Ces mots de moins que rien du tout
+    Échangés de nous à nous
+  \end{verse}
 
-\begin{chorus}
-L'amour s'exprime avec des mots tout chauds
-Des petits mots bien clos
-Des mots petits petits tellement petits
-Qu'ils ne riment que pour moi
-Qu'ils ne riment que pour toi
-Qu'ils ne riment que pour nous
-\end{chorus}
+  \begin{chorus}
+    L'amour s'exprime avec des mots tout chauds
+    Des petits mots bien clos
+    Des mots petits petits tellement petits
+    Qu'ils ne riment que pour moi
+    Qu'ils ne riment que pour toi
+    Qu'ils ne riment que pour nous
+  \end{chorus}
 
 \endsong

@@ -14,8 +14,7 @@
 
 
   \begin{verse*}
-    \musicnote {\Intro : }
-    \nolyrics \[B{\flt}9 B{\flt}7]
+    \musicnote {\Intro : \nolyrics \[B{\flt}9 B{\flt}7]}
     Que fait \[E&]donc en ce lieu
     \[F]Parmi ces messieurs
     Cette \[Gm]blonde aux bras nus
@@ -120,7 +119,7 @@
       Le di\[Cm]van du séjour
       Le \[F]canapé d'velours
       Le fau\[Gm]teuil Louis-Philippe
-      A \[B&]cheval sur les principes !
+      À \[B&]cheval sur les principes !
     \end{verse*}
   \end{repeatedchords}
 

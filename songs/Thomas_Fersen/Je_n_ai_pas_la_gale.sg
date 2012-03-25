@@ -69,7 +69,7 @@
   \end{repeatedchords}
 
   \begin{verse*}
-    \musicnote {\nolyrics \[F Am B\& F C]}
+    \musicnote {\nolyrics \[F Am B{\flt} F C]}
   \end{verse*}
 
   \begin{repeatedchords}

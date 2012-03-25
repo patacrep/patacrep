@@ -14,10 +14,9 @@
   \gtab{A&}{4:022100}
   \gtab{Bm}{2:X02210}
 
-  \musicnote{intro}
-  \begin{verse}
-    \[Em] \[Bm] \[Em] \[Bm] \[F] \[G] \[F] \[G] \rep{2}
-  \end{verse}
+  \begin{verse*}
+    \musicnote{\Intro: \nolyrics \[Em Bm Em Bm F G F G \rep{2}]}
+  \end{verse*}
 
   \begin{verse}
     \[Am]Once \[G]there was this kid\[C] who
@@ -25,7 +24,7 @@
     But \[F]when he finally \[G]came \[C]back
     \[G]His \[C]hair \[F]had turned from \[C]black into bright\[G] white
     He \[A&]said that it was \[C]from when
-    The \[A&]cars had smashed \[C4]soooo \[F]hard
+    The \[A&]cars had smashed \[C4]so \[F]hard
   \end{verse}
 
   \begin{chorus}
@@ -41,11 +40,10 @@
     They'd always just been there
   \end{verse}
 
-  \musicnote{bridge}
-  \begin{verse}
+  \begin{bridge}
     \[Dm]Both girl and\[C] boy were \[G]glad
     \[Dm]One kid had it \[C]worse than \[G]that
-  \end{verse}
+  \end{bridge}
 
   \begin{verse}
     'Cause then there was a boy whose

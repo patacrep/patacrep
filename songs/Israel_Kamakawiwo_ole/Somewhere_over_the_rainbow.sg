@@ -12,13 +12,12 @@
   \gtab{Bm7}{2:002010}
   \gtab{G}{320033}
 
-  \musicnote{intro}
-
-  \begin{verse}
+  \begin{verse*}
+    \musicnote{\Intro}
     \[G] \[D] \[Em] \[C] \[G] \[D] \[Em7] \[C]
     \[G]Oo-oo \[D]Oo-oo \[C]Oo-oo \[G]Oo-oo
     \[C]Oo-oo \[Bm7]Oo-oo \[Em]Oo-oo \[C]Oo-oo
-  \end{verse}
+  \end{verse*}
 
   \begin{verse}
     \[G]Somewhere \[D]over the rainbow, \[C]way up high\[Em7]
@@ -26,7 +25,6 @@
     Oh somewhere over the rainbow, blue birds fly
     And the dreams that you dream of, dreams really do come true
   \end{verse}
-
 
   \begin{verse}
     \[G]Someday i'll wish upon a star
@@ -39,6 +37,5 @@
     Oh somewhere over the rainbow, blue birds fly
     And the dreams that you dare to, oh why, oh why can't I
   \end{verse}
-
 
 \endsong

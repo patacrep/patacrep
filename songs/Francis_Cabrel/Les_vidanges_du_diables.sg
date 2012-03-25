@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les vidanges du diable}
-  [by=Francis Cabrel,cov=SamediSoir,album=Un samedi soir sur la terre]
+  [by=Francis Cabrel,cov=samedi-soir,album=Un samedi soir sur la terre]
 
   \cover
   \gtab{Adim}{X12020}
@@ -26,17 +26,12 @@
     Un linge sur l'abat-jour\[A]\[F#]
   \end{verse}
 
-
-
   \begin{chorus}
     \[G]T'es tout ce qu'il me res\[A]te, l'amour
     \[Fm#7]Dehors c'est insupporta\[G]ble !
     Emmène-moi ail\[D]leurs
     Loin des vidanges du dia\[C]ble, ailleurs\[D]
   \end{chorus}
-
-
-
 
   \begin{verse}
     En bas, y'a plein de gamins
@@ -50,12 +45,11 @@
   \end{verse}
 
   \begin{chorus}
-    \[G]Ailleurs, \[A]j'aur.ai du travail, du la\[F#]beur
+    \[G]Ailleurs, \[A]j'aurai du travail, du la\[F#]beur
     \[G]Je redeviendrai fréquen\[D]table
     \[G]Ailleurs, \[A]pour quelques jours, quelques \[F#m]heures
     \[G]Leur montrer que j'en suis ca\[D]pable \[C] \[D]
   \end{chorus}
-
 
   \begin{verse}
     J'ai rien à faire de mes mains
@@ -67,6 +61,5 @@
     On va se cacher dans un coin
     Un linge sur l'abat-jour
   \end{verse}
-
 
 \endsong

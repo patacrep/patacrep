@@ -2,6 +2,8 @@
 \songcolumns{2}
 \beginsong{Chan Chan}
   [by=Compay Segundo,cov=ChanChan,album=Chan Chan]
+
+  \cover
   \gtab{Dm}{100231}
   \gtab{F}{1:022100}
   \gtab{Gm6}{3:022020}
@@ -10,7 +12,7 @@
   \begin{verse}
     \[Dm]De Alto Cedro voy\[F] para Marcané
     \[Gm]Luego A Cueto voy\[A] para Mayarí
-    \[Dm] \[F] \[Gm] \[A]
+    \nolyrics \[Dm] \[F] \[Gm] \[A]
   \end{verse}
 
   \begin{verse}

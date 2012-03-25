@@ -1,4 +1,4 @@
-﻿\selectlanguage{english}
+\selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tout le monde se presse}
   [by=Louis Chedid,album=Le soldat rose]
@@ -37,7 +37,7 @@ Loin du train-train quotidien
 \begin{verse}
 \[C7/9]Tout l'monde se presse, tout l'monde se presse
 \[F]Attention au départ
-\[D7/9]Ça n'est pas tout prêt\[G] l'Italie (et non!)
+\[D7/9]Ça n'est pas tout prêt\[G] l'Italie \echo{et non !}
 \[C7/9]Mais en gardant les\[F] yeux fermés
 \[D7/9]Au bout du rayon \[G]spaghetti
 \[C7/9]On voit des gondo\[F7]les amarrées \[F7/9]
@@ -48,8 +48,9 @@ Qu'on est\[C#dim] à la \[Gm7] muraille de \[G7/5#]Chine
 \end{verse}
 
 \begin{verse}
-Tout l'monde se presse, tout l'monde se presse Attention au départ
-En Russie il fait bien trop froid Et comme j'ai peur de m'enruhmer
+Tout l'monde se presse, tout l'monde se presse
+Attention au départ
+En Russie il fait bien trop froid Et comme j'ai peur de m'enrhumer
 Je file au rayon des vodkas Et la place rouge, c'est l'bout d'mon nez
 Si vous voulez voir des fantômes Je vous emmène au rayon draps
 Quand viens minuit c'est leur royaume
@@ -61,7 +62,7 @@ Mais surtout ne descendez pas
 \[C7/9]Tout l'monde se presse, tout l'monde se presse, \[F]Attention au départ
 \[C#7/9]Tout l'monde se \[C7/9*]presse, tout l'monde se presse, \rep{3}
 
-\[Gdim] \[Bbdim] \[C#dim] \[Edim] \[Gdim*]
+\[Gdim] \[B&dim] \[C#dim] \[Edim] \[Gdim*]
 (Zorro est arri{\dots})
 
 \end{chorus}
@@ -76,22 +77,23 @@ Mais surtout ne descendez pas
 \[F#7/9]
 \end{chorus}
 
-________________________________________________________________________________
-Le passage C7 - C#dim - Gm7 - G7/5# - (C7) assez rapide
-peut être remplacé par des basses en octaves plus simples
+%_____________________________________________________________________________
+%Le passage C7 - C#dim - Gm7 - G7/5# - (C7) assez rapide
+%peut être remplacé par des basses en octaves plus simples
+%
+%Guitare 1 |--0----3----3----3----|--3-
+% |--1----2----3----4----|--5-
+% |--3----3----3----4----|--3-
+% |--2----2----3----3----|--5-
+% |--3-------------------|-----
+% |----------------------|-----
+%
+%Guitare 2 |----------------------|-----
+% |----------------------|-----
+% |--5----6----7----8----|--9-
+% |--x----x----x----x----|--x--
+% |--3----4----5----6----|--7-
+% |----------------------|-----
+%_____________________________________________________________________________
 
-Guitare 1 |--0----3----3----3----|--3-
-          |--1----2----3----4----|--5-
-          |--3----3----3----4----|--3-
-          |--2----2----3----3----|--5-
-          |--3-------------------|-----
-          |----------------------|-----
-
-Guitare 2 |----------------------|-----
-          |----------------------|-----
-          |--5----6----7----8----|--9-
-          |--x----x----x----x----|--x--
-          |--3----4----5----6----|--7-
-          |----------------------|-----
-________________________________________________________________________________
 \endsong

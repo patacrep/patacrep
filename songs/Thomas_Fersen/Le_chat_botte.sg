@@ -1,0 +1,117 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Le Chat Botté}
+  [by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{B7}{X21202}
+  \gtab{G}{320003}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Em C Am D] \rep{2} }
+  \end{verse*}
+
+  \begin{verse}
+    \[Em]Je travaille au \[C]Chat Botté
+    \[B7]Dans le centre \[Em]ville
+    \[Em]Je vends l'hiver \[C]{et l'été}
+    \[B7]Des mules en rep\[Em]tile
+    \[G]{C'est} mon destin \[D]je suppose
+    \[C]{J'ai} 15 ans d'mai\[B7]son
+    \[Em]Ça sent pas tou\[C]jours la rose
+    \[B7]{C'est} le reblo\[Em]chon
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Em]Dans le cas de \[C]cette fillette
+      \[B7]Qui tend son pied \[Em]droit
+      \[Em]Son prénom doit \[C]être Berthe
+      \[B7]Pointure 4\[Em]3
+      \[G]Il est l'heure de \[D]mon sandwiche
+      \[C]Mais je n'ai plus \[B7]faim
+      \[Em]Asphyxié par \[C]les péniches
+      \[B7]Telle sera ma \[Em]fin
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Em]On ne veut plus \[C]les quitter
+    \[Am]Quand on les en\[D]file
+    \[Em]Essayer c'est \[C]adopter
+    \[Am]Les mules en rep\[D]tile
+    \nolyrics \[Em C Am D] \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Je surveille le \[C]Chat Botté
+      \[B7]Derrière mes len\[Em]tilles
+      \[Em]Au rayon des \[C]nouveautés
+      \[B7]Une longue \[Em]fille
+      \[G]Elle regarde \[D]les savates
+      \[C]Et puis finale\[B7]ment
+      \[Em]Elle me dit \[C]{qu'elle} convoite
+      \[B7]Les mules en ser\[Em]pent
+    \end{verse}
+
+    \begin{verse*}
+      \[Em]Elle me confie \[C]son pied nu
+      \[B7]Comme à une \[Em]s\œur
+      \[Em]Il est fin, pe\[C]tit, menu
+      \[B7]Bref sans épais\[Em]seur
+      \[G]Je le respire, \[D]je le flaire
+      \[C]Enfin, je le \[B7]hume
+      \[Em]Je voudrais met\[C]tre sous verre
+      \[B7]Ce qui le par\[Em]fume
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[Em]Jamais eu au \[C]Chat Botté
+    \[Am]Cette démangeai\[D]son
+    \[Em]Cette envie de \[C]bécoter
+    \[Am]En 15 ans d'mai\[D]son
+    \[Em]Je repousse \[C]{l'idée} sotte
+    \[Am]{L'idée} saugre\[D]nue
+    \[Em]{L'idée} d'propo\[C]ser la botte
+    \[Am]À cette incon\[D]nue
+    \[B7]Quand soudain le carillon
+    Annonce la nuit
+    \[Em]Et pareille à Cendrillon
+    La fille s'enfuit
+    \[C]Me laissant désappointé
+    La mule à la main
+    \[Am]Elle s'enfuit du Chat Botté
+    Passe son chemin
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]{J'me} faufile dans \[C]la réserve
+      \[B7]{J'entrouvre} la \[Em]boîte
+      \[Em]Tout le parfum \[C]que conserve
+      \[B7]La pantoufle \[Em]droite
+      \[G]Me traverse \[D]les narines
+      \[C]Dilate mon \[B7]c\œur
+      \[Em]Me réchauffe \[C]la poitrine
+      \[B7]Comme une li\[Em]queur
+    \end{verse}
+
+    \begin{verse*}
+      \[Em]Moi qui avais \[C]le bourdon
+      \[B7]{J'ai} la chair de \[Em]poule
+      \[Em]Et même la chair \[C]de dindon
+      \[B7]Quand j'éteins l'am\[Em]poule
+      \[G]Il me semble être \[D]avec elle
+      \[C]Elle à mes cô\[B7]tés
+      \[Em]Je rêve d'une \[C]vie nouvelle
+      \[B7]Loin du Chat Bot\[Em]té
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

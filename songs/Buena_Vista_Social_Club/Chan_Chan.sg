@@ -1,36 +1,37 @@
 \selectlanguage{spanish}
 \songcolumns{2}
-\beginsong{Chan Chan}[by=Compay Segundo,cov=ChanChan,album=Chan Chan]
+\beginsong{Chan Chan}
+  [by=Compay Segundo,cov=ChanChan,album=Chan Chan]
   \gtab{Dm}{100231}
   \gtab{F}{1:022100}
   \gtab{Gm6}{3:022020}
-  \gtab{A}{002220}
+  \gtab{A}{X02220}
 
-  \beginverse
+  \begin{verse}
     \[Dm]De Alto Cedro voy\[F] para Marcané
     \[Gm]Luego A Cueto voy\[A] para Mayarí
     \[Dm] \[F] \[Gm] \[A]
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     El carino que te tengo
     Yo no lo puedo negar
     Se me sale la babita
     Yo no lo puedo evitar
-  \endverse
+  \end{verse}
 
-  \beginverse 
+  \begin{verse}
     Cuando Juanica y Chan Chan
     En el mar cernían arena
     Como sacudía el jibe
     A Chan Chan le daba pena
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Limpia el camino de paja
     Que yo me quiero sentar
     En aquel tronco que veo
     Y así no puedo llegar
-  \endverse
+  \end{verse}
 
 \endsong

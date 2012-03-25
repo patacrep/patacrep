@@ -1,58 +1,59 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{mmm mmm}[by=Crash Test Dummies,cov=God_Shuffled_His_Feet,album=God Shuffled His Feet ]
+\beginsong{mmm mmm}
+  [by=Crash Test Dummies,cov=God_Shuffled_His_Feet,album=God Shuffled His Feet ]
 
   \cover
   \capo{3}
-  \gtab{C}{032010}
+  \gtab{C}{X32010}
   \gtab{Em}{022000}
   \gtab{F}{1:022100}
   \gtab{C4}{033000}
   \gtab{G}{320003}
-  \gtab{Am}{002210}  
+  \gtab{Am}{X02210}
   \gtab{A&}{4:022100}
-  \gtab{Bm}{2:002210}
+  \gtab{Bm}{2:X02210}
 
   \musicnote{intro}
-  \beginverse
+  \begin{verse}
     \[Em] \[Bm] \[Em] \[Bm] \[F] \[G] \[F] \[G] \rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \[Am]Once \[G]there was this kid\[C] who
     \[F]Got into an \[C]accident and \[G]couldn't come to \[C]school
     But \[F]when he finally \[G]came \[C]back
     \[G]His \[C]hair \[F]had turned from \[C]black into bright\[G] white
     He \[A&]said that it was \[C]from when
-    The \[A&]cars had smashed \[C4]soooo   \[F]hard          
-  \endverse
+    The \[A&]cars had smashed \[C4]soooo \[F]hard
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[Em]Mmmm \[Bm]Mmmm \[Em]Mmmm \[Bm]Mmmm \[F]Mmmm \[G]Mmmm \[F]Mmmm \[G]Mmmm \rep{2}
-  \endchorus
+  \end{chorus}
 
-  \beginverse
-    Then   there was this girl who
+  \begin{verse}
+    Then there was this girl who
     Wouldn't go to change with the girls in the change room
-    But when   they finally made her
-    They saw    birthmarks all over her body
+    But when they finally made her
+    They saw birthmarks all over her body
     She couldn't quite explain it
-    They'd always just been   there
-  \endverse
+    They'd always just been there
+  \end{verse}
 
   \musicnote{bridge}
-  \beginverse
+  \begin{verse}
     \[Dm]Both girl and\[C] boy were \[G]glad
     \[Dm]One kid had it \[C]worse than \[G]that
-  \endverse
+  \end{verse}
 
-  \beginverse
-    'Cause then   there was a boy whose
+  \begin{verse}
+    'Cause then there was a boy whose
     Parents made him come right home directly after school
     And when they went to their church
-    They shook   and lurched all over the church floor
+    They shook and lurched all over the church floor
     He couldn't quite explain it
-    They'd always just gone   there
-  \endverse
+    They'd always just gone there
+  \end{verse}
 
 \endsong

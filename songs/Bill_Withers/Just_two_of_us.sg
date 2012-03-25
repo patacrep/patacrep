@@ -1,65 +1,66 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Just two of us}[by=Bill Withers]
+\beginsong{Just two of us}
+  [by=Bill Withers]
 
   \capo{1}
   \gtab{G*}{X23230}
-  \gtab{C}{032010}
-  \gtab{B7}{0212020}
-  \gtab{A7}{002020}
-  \gtab{Cm}{3:002210}
+  \gtab{C}{X32010}
+  \gtab{B7}{X212020}
+  \gtab{A7}{X02020}
+  \gtab{Cm}{3:X02210}
   \gtab{G7}
   \gtab{}
 
   \musicnote{intro}
 
-  \beginverse
+  \begin{verse}
     \[C]\[B7]\[G*]\[A7] \[Cm] \[G7] \[Em]\[Em7]\rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse    
+  \begin{verse}
     \[C]I see the \[B7]crystal rain drops \[Em]fall
-    and the \[G]beauty of it \[C]all 
+    and the \[G]beauty of it \[C]all
     Is when the \[B7]sun comes shining \[Em]through\[Em7]
     \[C]To make those \[B7]rainbows in my \[Em]mind
     When I \[G]think of you some\[C]time
     And I want to \[B7]spend some time with \[Em]you
-  \endverse
+  \end{verse}
 
 
 
-  \beginchorus
-    Just the \[C]two of us\[B7],    we can \[Em]make it if we \[G*]try 
-    Just the \[C]two of us\[B7],    just the \[Em]two of us\[Em7]
-    Just the \[C]two of us\[B7],  building \[Em]castles in the \[G*]sky
-    Just the \[C]two of us\[B7],   you and \[Em]I
-  \endchorus
+  \begin{chorus}
+    Just the \[C]two of us\[B7], we can \[Em]make it if we \[G*]try
+    Just the \[C]two of us\[B7], just the \[Em]two of us\[Em7]
+    Just the \[C]two of us\[B7], building \[Em]castles in the \[G*]sky
+    Just the \[C]two of us\[B7], you and \[Em]I
+  \end{chorus}
 
   \musicnote{bridge}
-  \beginverse
+  \begin{verse}
     \[C]\[B7]\[G*]\[A7] \[Cm] \[G7] \[Em]\[Em7]\rep{2}
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     We look for love
-    no time for tears,
+    no time for tears
     wasted water's all that is
     And it don't make no flowers grow
     Good things might come to those who wait
     But not for those who wait too late
     We've got to go for all we know
-  \endverse
+  \end{verse}
 
 
 
 
-  \beginverse
+  \begin{verse}
     I hear the crystal raindrops fall on the window down the hall
     And it becomes the morning dew
-    And Darling, when the morning comes 
+    And Darling, when the morning comes
     And I see the morning sun
     I want to be the one with you
-  \endverse
+  \end{verse}
 
 
 \endsong

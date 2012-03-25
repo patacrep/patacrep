@@ -1,43 +1,44 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Somewhere over the rainbow}[by=Israel Kamakawiwo'ole,cov=Over-the-rainbow,album=Over the rainbow]
+\beginsong{Somewhere over the rainbow}
+  [by=Israel Kamakawiwo'ole,cov=Over-the-rainbow,album=Over the rainbow]
 
   \cover
   \capo{5}
-  \gtab{C}{032010}
+  \gtab{C}{X32010}
   \gtab{D}{200232}
   \gtab{Em}{022000}
   \gtab{Em7}{020030}
-  \gtab{Bm7}{2:002010}  
+  \gtab{Bm7}{2:002010}
   \gtab{G}{320033}
 
   \musicnote{intro}
 
-  \beginverse
-    \[G]  \[D] \[Em] \[C] \[G] \[D] \[Em7] \[C]
-    \[G]Oo-oo   \[D]Oo-oo   \[C]Oo-oo   \[G]Oo-oo
-    \[C]Oo-oo  \[Bm7]Oo-oo   \[Em]Oo-oo   \[C]Oo-oo
-  \endverse
+  \begin{verse}
+    \[G] \[D] \[Em] \[C] \[G] \[D] \[Em7] \[C]
+    \[G]Oo-oo \[D]Oo-oo \[C]Oo-oo \[G]Oo-oo
+    \[C]Oo-oo \[Bm7]Oo-oo \[Em]Oo-oo \[C]Oo-oo
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     \[G]Somewhere \[D]over the rainbow, \[C]way up high\[Em7]
     \[C]And the \[G]dreams that you dream of \[D]once in a lulla\[Em]by \[C]
     Oh somewhere over the rainbow, blue birds fly
     And the dreams that you dream of, dreams really do come true
-  \endverse
+  \end{verse}
 
 
-  \beginverse
+  \begin{verse}
     \[G]Someday i'll wish upon a star
     \[D]Wake up where the clouds are far beh\[Em]ind \[C]me
     \[G]Where trouble melts like lemon drops
     \[D]High above the chimney tops that's \[Em]where you'll \[C]find me
-  \endverse
+  \end{verse}
 
-  \beginverse
+  \begin{verse}
     Oh somewhere over the rainbow, blue birds fly
     And the dreams that you dare to, oh why, oh why can't I
-  \endverse
+  \end{verse}
 
 
 \endsong

@@ -1,0 +1,146 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Que l'on est bête}
+  [by=Thomas Fersen,cov=Le-jour-du-poisson,album=Le jour du poisson]
+
+  \cover
+  \gtab{Gm}{3:022000}
+  \gtab{Cm}{3:X02210}
+  \gtab{E&}{XX1343}
+  \gtab{D7}{XX0212}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+
+  \begin{verse*}
+    \nolyrics \[Gm Cm E{\flt} D7 Gm]
+  \end{verse*}
+
+  \begin{verse}
+    \[Gm]{Mon oiseau} est triste
+    \[Cm]Rien d'autre n'existe
+    \[E&]{Que sa} trapéziste
+    \[D7]{À demi}-vê\[Gm]tue
+    \[Gm]{Le loup} se muselle
+    Pour \[Cm]{sa petite} gazelle
+    \[E&]{Et devant} chez elle
+    \[D7]{Un agent} le \[Gm]tue
+  \end{verse}
+
+  \begin{chorus}
+    Que l'on est \[F]bête
+    Quand on est amou\[B&]reux
+    Que l'on est \[F]bête
+    Mais comme on est heu\[B&]reux
+    En a\[D7]mour
+    L'esprit est une en\[E&]clume
+    Et c'est \[F]lourd
+    Quand on est fait de \[B&]plumes \[D7]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Mon \[Gm]ours se tient mal
+      Mais c'est \[Cm]{pas un} animal
+      Allez, \[E&]{te fais} pas la malle
+      S'il \[D7]empeste les \[Gm]lieux
+      Il \[Gm]{a mis} une cravate
+      La \[Cm]chaussure gauche à droite
+      \[E&]{Il a} les mains moites
+      Et \[D7]{la raie} au mi\[Gm]lieu
+    \end{verse}
+
+    \begin{chorus}
+      Que l'on est \[F]bête
+      Quand on est amou\[B&]reux
+      Que l'on est \[F]bête
+      Mais comme on est heu\[B&]reux
+      En a\[D7]mour
+      L'esprit est une en\[E&]clume
+      Et c'est \[F]lourd
+      Quand on est fait de \[B&]plumes, oui de \[D7]plumes
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \nolyrics \[Gm Cm E{\flt} D7 Gm] \rep{2}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Gm]Mon c\œur se déclenche
+      Pour \[Cm]{une souris} blanche
+      \[E&]{Le chat} en vacances
+      \[D7]Tous deux nous dan\[Gm]sions
+      \[Gm]Mon c\œur sous mon linge
+      \[Cm]Mon c\œur fait le singe
+      \[E&]{J'me creuse} les méninges
+      \[D7]{Et ma} conclu\[Gm]sion
+    \end{verse}
+
+    \begin{chorus}
+      C'est qu'on est \[F]bête
+      Quand on est amou\[B&]reux
+      Que l'on est \[F]bête
+      Mais comme on est heu\[B&]reux
+      En a\[D7]mour
+      L'esprit est une en\[E&]clume
+      Et c'est \[F]lourd
+      Quand on est fait de \[B&]plumes \[D7]
+    \end{chorus}
+
+    \begin{verse}
+      \[Gm]{Le poisson} frétille
+      \[Cm]{Le ver} se tortille
+      Mais \[E&]{que fait} le gorille
+      Il \[D7]enlève la \[Gm]grue
+      Pour \[Gm]cette créature
+      Il \[Cm]{se range} des voitures
+      Il \[E&]grimpe sur la toiture
+      Et \[D7]tombe dans la \[Gm]rue
+    \end{verse}
+
+    \begin{chorus}
+      Que l'on est \[F]bête
+      Quand on est amou\[B&]reux
+      Que l'on est \[F]bête
+      Mais comme on est heu\[B&]reux
+      En a\[D7]mour
+      L'esprit est une en\[E&]clume
+      Et c'est \[F]lourd
+      Quand on est fait de \[B&]plumes \[D7]
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \nolyrics \[Gm Cm E{\flt} D7 Gm] \rep{2}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Gm]Quand l'amour est neuf
+      \[Cm]Quand il est dans l'\œuf
+      Il \[E&]fait un effet de b\œuf
+      Et \[D7]pour une be\[Gm]lette
+      Qui \[Gm]{me mène} en bateau
+      Je \[Cm]provoque un costaud
+      \[E&]{J'me bats} au couteau
+      Et je \[D7]prends un coup de \[Gm]tête
+    \end{verse}
+
+    \begin{chorus}
+      Que l'on est \[F]bête
+      Quand on est amou\[B&]reux
+      Que l'on est \[F]bête
+      Mais comme on est heu\[B&]reux
+      En a\[D7]mour
+      L'esprit est une en\[E&]clume
+      Et c'est \[F]lourd
+      Quand on est fait de \[B&]plumes \[D7]
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \nolyrics \[Gm Cm E{\flt} D7 Gm]
+  \end{verse*}
+
+\endsong

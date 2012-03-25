@@ -12,9 +12,11 @@
   \gtab{B&}{X10331}
   \gtab{Cm}{3:X02210}
 
-
   \begin{verse*}
     \musicnote {\Intro : \nolyrics \[B{\flt}9 B{\flt}7]}
+  \end{verse*}
+
+  \begin{verse*}
     Que fait \[E&]donc en ce lieu
     \[F]Parmi ces messieurs
     Cette \[Gm]blonde aux bras nus
@@ -39,7 +41,7 @@
   \end{repeatedchords}
 
   \begin{verse}
-    « C'est d'ac\[Cm]cord, je t'accueille
+    C'est d'ac\[Cm]cord, je t'accueille
     Moi je \[F]dors dans le fauteuil
     En tout \[Cm]bien, tout honneur
     Comme \[F]un frère et une sœur
@@ -84,9 +86,11 @@
     \end{verse*}
   \end{repeatedchords}
 
+  \ifchorded
   \begin{chorus}
     \nolyrics \[Cm F Cm F Cm F Gm B{\flt}]
   \end{chorus}
+  \fi
 
   \begin{repeatedchords}
     \begin{verse}
@@ -122,10 +126,6 @@
       À \[B&]cheval sur les principes !
     \end{verse*}
   \end{repeatedchords}
-
-  \begin{chorus}
-    \nolyrics \[Cm F Cm F Cm F Gm B{\flt}]
-  \end{chorus}
 
   \begin{repeatedchords}
     \begin{verse}

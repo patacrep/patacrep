@@ -1,0 +1,73 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Mad world}[by=Gary Jules,album=Trading snakeoil for wolftickets,cov=Trading-snakeoil-for-wolftickets]
+
+  \cover
+  \capo{1}
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+
+  \utab{Em}{0432}
+  \utab{A}{2100}
+  \utab{G}{0232}
+  \utab{D}{2220}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[Em A Em A]}
+  \endverse
+
+  \beginverse
+    \[Em] All around me are fa\[G]miliar faces
+    \[D]Worn out places, \[A]worn out faces
+    \[Em] Bright and early for their \[G]daily races
+    \[D]Going nowhere, \[A]going nowhere
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      \[Em] Their tears are filling \[G]up their glasses
+      \[D]No expression, \[A]no expression
+      \[Em] Hide my head I want to \[G]drown my sorrow
+      \[D]No tomorrow, \[A]no tomorrow 
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[Em] And I find it kinda \[A]funny, I find it kinda \[Em]sad
+    \[Em] The dreams in which I’m \[A]dying are the best I’ve ever \[Em]had
+    \[Em] I find it hard to \[A]tell you, I find it hard to \[Em]take
+    \[Em] When people run in \[A]circles it’s a very very
+    \[Em] Mad \[A]world
+    \[Em] Mad \[A]world 
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Em] Children waiting for the \[G]day they feel good
+      \[D]Happy birthday, \[A]happy birthday
+      \[Em] Made to feel the way that \[G]every child should
+      \[D]Sit and listen, \[A]sit and listen
+    \endverse
+
+    \beginverse*
+      \[Em] Went to school and I was \[G]very nervous
+      \[D]No one knew me, \[A]no one knew me
+      \[Em] Hello teacher tell me \[G]{what’s} my lesson 
+      \[D]Look right through me, \[A]look right through me 
+    \endverse
+
+    \beginchorus
+      \[Em] And I find it kinda \[A]funny, I find it kinda \[Em]sad
+      \[Em] The dreams in which I’m \[A]dying are the best I’ve ever \[Em]had
+      \[Em] I find it hard to \[A]tell you, I find it hard to \[Em]take
+      \[Em] When people run in \[A]circles it’s a very very
+      \[Em] Mad \[A]world
+      \[Em] Mad \[A]world
+      \[Em] Enlarge your \[A]world
+      \[Em] Mad \[A]world
+    \endchorus
+  \end{repeatedchords}
+
+\endsong

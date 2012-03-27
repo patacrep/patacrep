@@ -1,0 +1,136 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Rititi, ratata (il paraît qu'elles aiment)}[by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+
+  \cover
+  \gtab{E{\flt}m}{6:X02210}
+  \gtab{B}{2:X02210}
+  \gtab{A{\flt}m}{4:022000}
+  \gtab{G{\flt}}{2:022100}
+  \gtab{B{\flt}7}{1:X02020}
+
+  \utab{E{\flt}m}{1:2210}
+  \utab{B}{2:2100}
+  \utab{A{\flt}m}{2100}
+  \utab{G{\flt}}{&:2010}
+  \utab{B{\flt}7}{1:0100}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[E{\flt}m B{\flt}7]}
+  \endverse
+
+  \beginverse
+    \[E&m]Dans mon harmonium
+    Y'a une \[B]araignée énorme
+    Je lui \[A&m]joue de la musique
+    \[G&]Y paraît qu'ça \[B&7]pique
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Elle est \[E&m]venue faire son toit 
+      Dans \[B]la robe de bois 
+      \[A&m]De mon harmonium
+      \[G&]Comme elle est mi\[B&7]gnonne
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Riti\[E&m]ti, rata\[B&7]ta \rep{2}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[E&m]Dans mon harmonium
+      Y'a une \[B]araignée énorme
+      Je lui \[A&m]joue des requiem
+      \[G&]Y paraît qu'elles \[B&7]aiment
+    \endverse
+
+    \beginverse*
+      \[E&m]Elle est très gentille
+      \[B]Mais j'suis comme les filles
+      \[A&m]Ça me fout la trouille
+      \[G&]Paraît qu'ça cha\[B&7]touille
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse
+    \[B]Dans mon harmonium
+    Y'a une \[A&m]araignée qui lorgne 
+    Du cô\[G&]té de ma personne
+    Pa\[B&7]raît qu'ça saucissonne
+  \endverse
+
+  \beginverse*
+    Que ça \[B]mange son époux 
+    \[A&m]Comme un vulgaire pou 
+    Après \[G&]la marche nup\[B&7]tiale
+    \[G&]Paraît qu'c'est nor\[B&7]mal
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      \[B]Moi dans mon délire
+      \[A&m]Ça m'fait défaillir
+      \[G&]Et quand elle promène
+      \[B&7]Son gros abdomen
+    \endverse
+
+    \beginverse*
+      \[B]{J'me} vois à la morgue
+      \[A&m]Alors sur mon orgue
+      \[G&]Je joue pour la \[B&7]veuve
+      \[G&]Paraît qu'elles s'é\[B&7]meuvent
+    \endverse
+
+    \beginverse
+      \[E&m]Dans mon harmonium
+      Y'a une \[B]araignée énorme
+      Y'a une \[A&m]araignée géante
+      \[G&]{Est-ce} qu'elle est vi\[B&7]vante ?
+    \endverse
+
+    \beginverse*
+      \[E&m]Elle ne bouge plus
+      \[B]Comme elle est velue !
+      \[A&m]Moi, ça m'horripile
+      \[G&]Faudrait qu'elle s'é\[B&7]pile
+    \endverse
+
+    \beginverse
+      \[B]Paraît qu'ça les berce
+      \[A&m]{D'entendre} la messe
+      \[G&]Trop tard je l'assomme
+      \[B&7]Que Dieu me pardonne
+    \endverse
+
+    \beginverse*
+      \[B]Avec mon missel
+      De com\[A&m]munion solennelle
+      \[G&]Ma femme s'impa\[B&7]tiente
+      \[G&]Elle n'est pas con\[B&7]tente
+    \endverse
+
+    \beginverse*
+      \[B]On dirait, Simone
+      \[A&m]On dirait qu'tu lorgnes
+      Du cô\[G&]té de ma personne
+      Comme une \[B&7]araignée énorme
+    \endverse
+
+    \beginverse*
+      Celle qui \[B]mange son époux
+      \[A&m]Comme un vulgaire pou
+      Après \[G&]la marche nup\[B&7]tiale
+      \[G&]Ce n'est pas nor\[B&7]mal
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\Outro :}
+    \musicnote {\nolyrics \[E{\flt}m B A{\flt}m G{\flt} B{\flt}7] \rep{2}}
+    \musicnote {\nolyrics \[E{\flt}m B{\flt}7] \rep{2} (ad lib)}
+  \endverse
+
+\endsong

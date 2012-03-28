@@ -1,0 +1,140 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ces temps-ci}[by=Les Cowboys Fringants,cov=La-grand-messe,album=La grand messe]
+
+  \cover
+
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab*{G7}{320001}
+  \gtab*{G6}{320000}
+
+  \utab{Am}{2000}
+  \utab{Em}{0432}
+  \utab{F}{2010}
+  \utab{C}{0003}
+  \utab{G}{0232}
+  \utab*{G7}{0212}
+  \utab*{G6}{0202}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[Am Em C C] \rep{2} \[Am Am Am Am]}
+  \endverse
+
+  \beginverse
+    \[Am] Icitte à soir, y \[Em]mouille à siot
+    \[F] On a donné un \[C]pas pire show
+    \[F] Le motel est pas \[C]vraiment swell
+    \[G] Une chance t'es là pis \[C]{qu'j'te} trouve belle
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      \[Am] J'te regarde dormir comme \[Em]un bébé
+      \[F] C'est platte j'avais en\[C]vie d'jaser
+      \[F] C'pas grave chu habi\[C]tué, chérie
+      \[G] De m'parler tout seul \[C]ces temps-ci
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\Bridge : \nolyrics \[Am Em C C]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am] Depuis quelqu' semaines j'dors \[Em]pu d'mes nuits
+      \[F] J'ai la tête remplie \[C]de bibites
+      \[F] C'est vrai que j'mène une \[C]drôle de vie
+      \[G] Des fois j'me dis qu'c'est \[C]{d'la} bullshit
+    \endverse
+
+    \beginverse*
+      \[Am]J'aimerais ça pouvoir \[Em]me retrouver
+      \[F] Parce qu'chu mêlé comme \[C]ça s'peut pas
+      \[F] Le monde entier pour\[C]rait crever
+      \[G] Chu juste ben quand t'es \[C]dans mes bras
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Je \[Am]sais qu'y s'passera \[Em]jamais rien
+    Qu'entre \[F]toi pis moi ç'a \[C]pas d'allure
+    Quand \[F]{j'vas} repartir au \[C]petit matin
+    On \[G]va se dire à \[G7]la revo\[G6]yure
+    Même \[Am]si j't'aimais ben \[Em]petit trésor
+    Et \[F]que mon coeur s'était \[C]accroché
+    Quelqu'\[F]part sur ta rou\[C]te du nord
+    Entre \[G]Baie-Comeau pis \[C]Port-Cartier
+  \endchorus
+
+  \beginverse*
+    \musicnote {\Bridge : \nolyrics \[Am Em C C]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am] T'es heureuse ici \[Em]{qu'tu} m'disais
+      \[F] Loin des gens stressés \[C]de Montréal
+      \[F] Pis y'a ton chum qui est \[C]dans l'portrait
+      \[G] C'est moi l'perdant si \[C]{j'fais} l'total
+    \endverse
+
+    \beginverse*
+      \[Am] Mais fais-toi z'en pas \[Em]trop pour moi
+      \[F] J'en ai vu d'autres, chu un \[C]grand garçon
+      \[F] C'fait longtemps qu'je me fais \[C]pu d'fausses joies
+      \[G] J'sais qu'ça revire en vraies \[C]déceptions
+    \endverse
+
+    \beginchorus
+      Le \[Am]soleil vient juste \[Em]de se l'ver
+      De\[F]hors on entend \[C]les moineaux
+      Qui \[F]gazouillent comme pour \[C]me rappeler
+      Qu'tan\[G]tôt je r'pars pour \[G7]Gati\[G6]neau
+      Je \[Am]{r'viens} pas dans \[Em]{l'boute} avant mai
+      D'i\[F]ci là donne-moi \[C]{d'tes} nouvelles
+      Tu \[F]{m'appelleras} à \[C]frais virés
+      Pour \[G]me souhaiter jo\[C]yeux Noël
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\Bridge : \nolyrics \[Am Em C C Am Am Am Am]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am] Sais-tu au moins qu'tu \[Em]{m'as} fais croire
+      \[F] Qu'il est encore possible \[C]{d'être} heureux?
+      \[F] Pis ça c'est c'qu'on ap\[C]pelle d'l'espoir
+      \[G] C'toujours ça de pris quand \[C]{t'as} pas mieux
+    \endverse
+
+    \beginverse*
+      \[Am] T'étais sûrement pas \[Em]rien qu'un kik
+      \[F] Mais là c'pas mal trop \[C]compliqué
+      \[F] Si dans vie y faut \[C]prendre des risques
+      \[G] Faut savoir aussi \[C]{s'en} aller
+    \endverse
+
+    \beginchorus
+      Ça \[Am]fait que j'vas m'fer\[Em]mer la gueule
+      Et \[F]continuer mon \[C]chemin tout seul
+      Avec \[F]mon p'tit coeur dans \[C]les shoe-claques
+      Pis \[G]ton sourire dans \[G7]mon pack-\[G6]sack
+      Mais \[Am]tsé tu peux m'rap\[Em]peler pareil
+      T'es \[F]comme mon p'tit ra\[C]yon d'soleil
+      Dans \[F]ce monde complète\[C]ment fucké
+      Où \[G]{j'aurais} p't'être eu \[C]besoin d'toé
+    \endchorus
+  \end{repeatedchords}
+
+  \beginchorus
+    Dans \[F]ce monde complète\[C]ment fucké
+    Où \[G]{j'aurais} p't'être eu \[C]besoin d'toé
+  \endchorus
+\endsong

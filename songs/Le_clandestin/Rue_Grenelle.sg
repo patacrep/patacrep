@@ -1,0 +1,96 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Rue Grenelle}[by=Le clandestin,album=Le clandestin,cov=le-clandestin]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{A}{X02220}
+  \gtab{B{\flt}}{1:X02220}
+
+  \utab{F}{2010}
+  \utab{Am}{2000}
+  \utab{C}{0003}
+  \utab{Dm}{2210}
+  \utab{A}{2100}
+  \utab{B{\flt}}{1:2100}
+
+
+  \beginverse*
+    \musicnote {\Intro :\nolyrics \[F F F F] \[Am Am Am C] \rep{2}}
+  \endverse
+
+  \beginverse
+    \[F] Et pour enfin changer d’échelle, changer le monde par en\[Am]droit
+    On irait vivre Rue Grenelle voir si tout s’y passe comme il se \[F]doit
+    On dormirait dans des poubelles, on se tiendrait chaud, toi et \[Am]moi
+    Loin du travail des lunes de miel, pour l’attendre au printemps dé\[F]jà 
+  \endverse
+
+  \beginverse*
+    Et lui dire que la vie est belle et même que ce monde est \[Am]beau
+    Dès qu’on y enlève la Tour Eiffel, les 14 juillet, les dra\[F]peaux
+    On ferait pousser dans nos poubelles du soja et du Modia\[Am]no
+    Et pour le lire à la chandelle ou dans les couloirs du mé\[Dm]tro
+  \endverse
+
+  \beginchorus
+    On se sentirait pousser des \[C]ailes, à en \[A]faire n’importe \[Dm]quoi
+    Si on se retrouvait Rue Gre\[C]nelle, qu’est-ce qu’on y \[A]ferait toi et \[Dm]moi ?
+    On se sentirait pousser des \[C]ailes, à \[A]danser la ja\[Dm]va
+    S’il y a des pavés Rue Gre\[C]nelle, crois-\[A]tu que ça me plai\[Dm]ra ?
+  \endchorus
+
+  \beginverse*
+    \musicnote {\Bridge : \nolyrics \[F F F F] \[Am Am Am C]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[F] Je me laisserais même pousser les cheveux, j’aurais même l’air amou\[Am]reux
+      Car on serait bien plus heureux autour d’un dîner pour \[F]deux
+      Et fait de boîtes pas de poubelles, de ravioli végéta\[Am]riennes
+      Et puis de rêve américain, mais bien sûr sans améri\[F]cains
+    \endverse
+
+    \beginverse*
+      Car moi je préfère la Tour Eiffel, la Kronenbourg, le Breizh Co\[Am]la
+      Car à mourir de truc trop gras, on les préfère bien de chez \[F]soi
+      Et puis on irait à Neuilly voir si le maire nous sou\[Am]rit
+      Et puis on irait à Neuilly voir si le maire nous sou\[Dm]rit
+    \endverse
+
+    \beginchorus
+      On se sentirait pousser des \[C]ailes, à en \[A]faire n’importe \[Dm]quoi
+      Si on se retrouvait Rue Gre\[C]nelle, qu’est-ce qu’on y \[A]ferait toi et \[Dm]moi ?
+      On se sentirait pousser des \[C]ailes, à \[A]danser la ja\[Dm]va
+      S’il y a des pavés Rue Gre\[C]nelle, crois-\[A]tu que ça me plai\[Dm]ra ?
+    \endchorus
+
+    \beginchorus
+      De dire que la vie est \[C]belle et même \[A]que ce monde est \[Dm]beau
+      Dès qu’on y enlève la Tour Eif\[C]fel, les 14 \[A]juillet, les dra\[Dm]peaux
+      On ferait pousser dans nos pou\[C]belles du soja \[A]et du Modia\[Dm]no
+      Et puis on irait à Neuil\[C]ly voir si le \[A]maire nous sou\[Dm]rit
+    \endchorus
+
+    \beginchorus
+      On se sentirait pousser des \[C]ailes, à en \[A]faire n’importe \[Dm]quoi
+      Si on se retrouvait Rue Gre\[C]nelle, qu’est-ce qu’on y \[A]ferait toi et \[Dm]moi ?
+      On se sentirait pousser des \[C]ailes, à \[A]danser la ja\[Dm]va
+      Lancer des pavés Rue Gre\[C]nelle, crois-\[A]tu que ça me plai\[Dm]ra ?
+    \endchorus
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\Outro : \nolyrics \[C - B{\flt} - A - Dm] \rep{4}}
+    	Les accords de Grenelle
+    	Et le prix de tes bretelles
+    	Et l'odeur des poubelles 
+    	Strasbourg, Babylone, Ouais !
+    \musicnote {\nolyrics \[C - Dm]}
+  \endverse
+
+\endsong

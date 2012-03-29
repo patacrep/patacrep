@@ -1,0 +1,127 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Española}[by=Jali,album=Des jours et des lunes,cov=des-jours-et-des-lunes]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+
+  \utab{Am}{2000}
+  \utab{Em}{0432}
+  \utab{C}{0003}
+  \utab{G}{0232}
+
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[Am Em] \rep{3} \[C G]}
+  \endverse
+
+  \beginverse
+    \[Am] {\og}Petit t'es en re\[Em]tard !{\fg}
+    {\og}Non, monsieur je suis né comme \[Am]ça !{\fg}
+    J'ai cru aux faux dé\[Em]parts
+    Mais les autres couraient plus vite que \[Am]moi
+    Semé dès la nais\[Em]sance
+    J'ai voulu crier au scan\[C]dale
+    Inégalité des \[G]chances
+    Moi qui courais en san\[Am]dales
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse*
+      Décidé à ru\[Em]ser
+      J'ai changé de trajec\[Am]toire
+      J'ai enjambé l'océ\[Em]an
+      Par le détroit de Gibral\[Am]tar
+      Fais gaffe en traver\[Em]sant
+      J'ai croisé pas mal de re\[C]nards
+      Echoués sur les \[G]plages
+      Ou bien perdus dans le brouil\[Am]lard
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Si j'avais un ba\[Em]teau \[Am]
+    Je partirais en soli\[Em]taire
+    Et sans escale \[Am]
+    Si j'avais un ba\[Em]teau \[C]
+    Je laisserais ma boussole à \[G]terre
+    Pour suivre mon é\[Am]toile
+    Capitaine d'un ba\[Em]teau
+    Je trouve que ça me \[C]va
+    Le vent dans les voiles comme un oi\[G]seau
+    Je l'appellerais l'Españo\[Am]la
+    Hey \[Em]hey
+    Je l'appellerais l’Españo\[Am]la
+    Hey hey \[Em]hey \[Am]
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Petit, le \[Em]soir
+      Je rêvais d'aven\[Am]ture
+      J'attendais qu'il fasse \[Em]noir
+      Pour sortir et faire le \[Am]mur
+      Les autres à s'y mé\[Em]prendre
+      Ont cru que je fuyais la mai\[C]son
+      Sans ne jamais ne vouloir com\[G]prendre
+      Que je courais vers l'hori\[Am]zon
+    \endverse
+
+    \beginverse*
+      Mon père sur le qui-\[Em]vive
+      Me rattrapait au coin de la \[Am]rue
+      Où vivait cet homme qui \[Em]ivre 
+      De sa vie, était dé\[Am]çu
+      J'échangerais ma vie à \[Em]moi
+      Confortable et sans la\[C]cune
+      Contre un bateau gon\[G]flable
+      Ou une barque de for\[Am]tune
+    \endverse
+
+    \beginverse
+      J'ai tenté la \[Em]fuite
+      Par les chemins de tra\[Am]verse
+      Resté bloqué au pé\[Em]age
+      Parce qu'il me manquait quelques \[Am]pièces
+      J'me suis fabriqué des \[Em]ailes
+      Pour voler sous les ra\[C]dars
+      Mais ma technique était cra\[G]mée
+      Par un grec nommé I\[Am]care
+    \endverse
+
+    \beginverse*
+      Après mûre réfle\[Em]xion
+      Tout ce qu'il me reste à \[Am]faire
+      C'est m'habituer aux pois\[Em]sons
+      Et puis prendre la \[Am]mer
+      Avec un peu de \[Em]chance
+      J'arriverais à bon \[C]port
+      Avant que mon bateau prenne \[G]{l'eau}
+      Et qu'une vague l'em\[Am]porte
+    \endverse
+
+    \beginchorus
+      Si j'avais un ba\[Em]teau \[Am]
+      Je partirais en soli\[Em]taire
+      Et sans escale \[Am]
+      Si j'avais un ba\[Em]teau \[C]
+      Je laisserais ma boussole à \[G]terre
+      Pour suivre mon é\[Am]toile
+      Appelez-moi Capitaine Ja\[Em]li
+      Je trouve que ça me \[C]va
+      Le vent dans les voiles comme un oi\[G]seau
+      Je l'appellerais l’Españo\[Am]la
+      Hey hey \[Em]hey
+      Je l'appellerais l’Españo\[Am]la
+      Hey hey \[Em]hey
+    \endchorus
+  \end{repeatedchords}
+
+  \beginchorus
+    \[Am]hey ! \[Em Am Em]
+  \endchorus
+
+\endsong

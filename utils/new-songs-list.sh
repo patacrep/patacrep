@@ -15,6 +15,6 @@ else
 fi
 
 # Make new songs list by authors
-git shortlog $VERSION..master | egrep '^([^ ].*|.*Add song.*)' | sed 's/Add song.*://' | sed 's/\.$//' | sed 's/ (.*)//' | sed 's/\s\s\s*/  /'
+git shortlog $VERSION..master | egrep '^([^ ].*|.*[aA]dd song.*)' | sed 's/[aA]dd song.//' | sed 's/\.$//' | sed 's/ (.*)//' | sed 's/\s\s\s*/  /'
 
 export GREP_OPTIONS="$GREP"

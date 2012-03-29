@@ -12,6 +12,14 @@
   \gtab{B&}{X10331}
   \gtab{Cm}{3:X02210}
 
+  \utab{B&9}{1:0102}
+  \utab{B&7}{1:0100}
+  \utab{E&}{1:2220}
+  \utab{F}{2010}
+  \utab{Gm}{0231}
+  \utab{B&}{1:2100}
+  \utab{Cm}{0333}
+
   \begin{verse*}
     \musicnote {\Intro : \nolyrics \[B{\flt}9 B{\flt}7]}
   \end{verse*}
@@ -20,7 +28,7 @@
     Que fait \[E&]donc en ce lieu
     \[F]Parmi ces messieurs
     Cette \[Gm]blonde aux bras nus
-    Si \[B&]nus, qu'elle éter\[B&7]nue
+    Si \[B&]nus, qu'elle éter\[B&7]nue ?
     Dans ses \[E&]doigts, elle se mouche
     Et \[F]pour s'rincer la bouche
     Elle \[Gm]commande un cognac

@@ -10,9 +10,15 @@
   \gtab{D}{XX0232}
   \gtab{G}{320003}
 
-  \begin{verse}
-    \musicnote {\Intro : \nolyrics\[Em B Em ]}
-  \end{verse}
+  \utab{Em}{0432}
+  \utab{B}{2:2100}
+  \utab{Am}{2000}
+  \utab{D}{2220}
+  \utab{G}{0232}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics\[Em B B Em ]}
+  \end{verse*}
 
   \begin{verse}
     Dans la \[Em]cour de l'école

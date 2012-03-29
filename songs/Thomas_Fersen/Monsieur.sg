@@ -1,0 +1,157 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Monsieur}
+  [by=Thomas Fersen,album=Qu4tre,cov=Qu4tre]
+
+  \cover
+  \gtab{Cm}{3:X02210}
+  \gtab{A{\shrp}}{1:X02220}
+  \gtab{D{\shrp}}{XX1343}
+  \gtab{G}{320003}
+  \gtab{Fm}{1:022000}
+  \gtab{B}{2:X02220}
+
+  \begin{verse*}
+    \musicnote { \Intro : \nolyrics \[Cm B Cm] \rep{2} }
+  \end{verse*}
+
+  \begin{verse*}
+    Les pa\[Cm]ssants sur son chemin
+    Sou\[A#]lèvent leurs ga\[D#]lures
+    Le chien \[A#]lui lèche les \[D#]mains
+    Sa \[G]présence ras\[Cm]sure
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Voyez \[Cm]cet enfant qui beugle
+      \[A#]Par lui secou\[D#]ru
+      Et comme \[A#]il aide l'a\[D#]veugle
+      À \[G]traverser la \[Cm]rue
+    \end{verse*}
+
+    \begin{verse*}
+      Dans la \[Cm]paix de son jardin
+      Il \[A#]cultive ses \[D#]roses
+      Monsieur \[A#]est un assas\[D#]sin
+      \[G]Quand il est mo\[Cm]rose
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Il é\[Cm]trangle son semblable
+    \[A#]Dans le bois d'Meu\[D#]don
+    Quand il \[A#]est inconso\[D#]lable
+    \[Fm]Quand il a l'bour\[G]don
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      À la \[Cm]barbe des voisins
+      Qui \[A#]le trouvent sympa\[D#]thique
+      Monsieur \[A#]est un assas\[D#]sin
+      Je \[G]suis son domes\[Cm]tique
+    \end{verse*}
+
+    \begin{verse*}
+      Et je \[Cm]classe ce dossier
+      \[A#]Sous les églan\[D#]tines
+      Je suis \[A#]un peu jardi\[D#]nier
+      Et \[G]je fais la cui\[Cm]sine
+    \end{verse*}
+
+    \begin{verse*}
+      Il é\[Cm]trangle son prochain
+      Quand \[A#]il a le ca\[D#]fard
+      Allez \[A#]hop ! Dans le bas\[D#]sin
+      \[G]Sous les nénu\[Cm]phars
+    \end{verse*}
+
+    \begin{verse*}
+      Et je \[Cm]donne un coup de balai
+      \[A#]Sur les lieux du \[D#]crime
+      Où il \[A#]ne revient ja\[D#]mais
+      \[G]Même pas pour la \[Cm]frime
+    \end{verse*}
+
+    \begin{verse*}
+      Sans é\[Cm]veiller les soupçons
+      \[A#]Aux petites \[D#]heures
+      Nous ren\[A#]trons à la mai\[D#]son
+      \[G]Je suis son chauf\[Cm]feur
+    \end{verse*}
+
+    \begin{chorus}
+      Lala\[Cm]lalalalala\dots{}
+    \end{chorus}
+
+    \begin{verse*}
+      Car sous \[Cm]son air anodin
+      \[A#]{C'est} un luna\[D#]tique
+      Monsieur \[A#]est un assas\[D#]sin
+      \[G]Chez lui c'est chro\[Cm]nique
+    \end{verse*}
+
+    \begin{verse*}
+      Il é\[Cm]trangle son semblable
+      \[A#]Lorsque minuit \[D#]sonne
+      Et moi \[A#]je pousse le \[D#]diable
+      \[G]Dans le bois d'Bou\[Cm]logne
+    \end{verse*}
+
+    \begin{verse*}
+      Le cli\[Cm]ent dans une valise
+      \[A#]Avec son cha\[D#]peau
+      Prendra \[A#]le train pour Ve\[D#]nise
+      \[G]Et un peu de re\[Cm]pos
+    \end{verse*}
+
+    \begin{chorus}
+      Il ét\[Cm]rangle son semblable
+      \[A#]Dans le bois d'Meu\[D#]don
+      Quand il \[A#]est inconso\[D#]lable
+      \[Fm]Quand il a l'bour\[G]don
+    \end{chorus}
+
+    \begin{verse*}
+      À la \[Cm]barbe des voisins
+      Qui \[A#]le trouve sympa\[D#]thique
+      Monsieur \[A#]est un assas\[D#]sin
+      Je \[G]suis son domes\[Cm]tique
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Cm A{\shrp} D{\shrp} A{\shrp} D{\shrp} G Cm]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      Vous al\[Cm]lez pendre monsieur
+      Je \[A#]vais perdre ma \[D#]place
+      Vous al\[A#]lez pendre mon\[D#]sieur
+      Hé\[Fm]las ! Trois fois hé\[G]las !
+    \end{chorus}
+
+    \begin{verse*}
+      Mais il \[Cm]fallait s'y attendre
+      Et \[A#]je prie Votre Hon\[D#]neur
+      Humble\[A#]ment, de me re\[D#]prendre
+      \[G]Comme servi\[Cm]teur
+    \end{verse*}
+
+    \begin{verse*}
+      Et je \[Cm]classerai ce dossier
+      \[A#]Sous les églan\[D#]tines
+      Je suis \[A#]un peu jardi\[D#]nier
+      Et \[G]je fais la cui\[Cm]sine
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\Outro :}
+    \musicnote {\nolyrics \[Cm A{\shrp} D{\shrp} A{\shrp} D{\shrp} Fm G]}
+    \musicnote {\nolyrics \[Cm A{\shrp} D{\shrp} A{\shrp} D{\shrp} G Cm]}
+  \end{verse*}
+
+\endsong

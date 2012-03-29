@@ -1,0 +1,143 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Diane de Poitiers}
+  [by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+
+  \cover
+  \gtab{B&9}{X10111}
+  \gtab{B&7}{X10131}
+  \gtab{E&}{XX1343}
+  \gtab{F}{1:022100}
+  \gtab{Gm}{310033}
+  \gtab{B&}{X10331}
+  \gtab{Cm}{3:X02210}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[B{\flt}9 B{\flt}7]}
+  \end{verse*}
+
+  \begin{verse*}
+    Que fait \[E&]donc en ce lieu
+    \[F]Parmi ces messieurs
+    Cette \[Gm]blonde aux bras nus
+    Si \[B&]nus, qu'elle éter\[B&7]nue
+    Dans ses \[E&]doigts, elle se mouche
+    Et \[F]pour s'rincer la bouche
+    Elle \[Gm]commande un cognac
+    Puis \[B&]un autre co\[B&7]gnac
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Je lui \[E&]dis à l'oreille :
+      {\og}T'es belle \[F]comme Diane de Poitiers
+      Veux-tu \[Gm]prendre la moitié
+      De mon \[B&]lit si t'as som\[B&7]meil ?{\fg}
+      Elle me ré\[E&]pond, je cite :
+      {\og}Il \[F]faut pas qu'tu t'excites
+      Ce n'est \[Gm]pas c'que tu penses
+      Je \[B&]suis restée vieille \[B&7]France{\fg}
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse}
+    C'est d'ac\[Cm]cord, je t'accueille
+    Moi je \[F]dors dans le fauteuil
+    En tout \[Cm]bien, tout honneur
+    Comme \[F]un frère et une sœur
+    Toi le \[Cm]lit, moi la banquette
+    \[F]{À la} bonne franquette
+    C'est d'ac\[Gm]cord pour ce soir
+    Moi je \[B&]dors dans la baignoire
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Certes, je \[Cm]ne suis pas un saint
+      Et quand \[F]la lumière s'éteint
+      Je n'ai \[Cm]pas toujours dit non
+      Mais \[F]{j'm'en} remets à Platon
+      Pour nous \[Cm]deux, c'est plus sage
+      Vu \[F]la différence d'âge
+      Non ce \[Gm]soir, pas d'folies
+      \[B&]Chacun dans son lit
+    \end{verse*}
+
+    \begin{verse*}
+      Soit, je \[Cm]ne suis pas un moine
+      J'dis\[F]sipe mon patrimoine
+      Dans ce \[Cm]bar un peu glauque
+      Ma \[F]voix est devenue rauque
+      À la \[Cm]suite des abus
+      Mais \[F]ce soir j'ai rien bu
+      Non ce \[Gm]soir, je suis strict
+      Le \[B&]devoir me le dicte
+    \end{verse*}
+
+    \begin{verse*}
+      J'ai rien \[Cm]{d'un} ecclésiastique
+      Ma cons\[F]cience est élastique
+      Et si \[Cm]{j'fais} mon examen
+      J'suis \[F]pas dans l'droit chemin
+      Non, je \[Cm]ne suis pas très pieux
+      Quand c'est \[F]{l'heure} d'aller au pieu
+      Je fais \[Gm]rarement ma prière
+      J'pré\[B&]fère une petite bière
+    \end{verse*}
+  \end{repeatedchords}
+
+  \ifchorded
+  \begin{chorus}
+    \nolyrics \[Cm F Cm F Cm F Gm B{\flt}]
+  \end{chorus}
+  \fi
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Certes, je \[Cm]ne suis pas un prêtre
+      Ce \[F]{s'rait} mal me connaître
+      Et les \[Cm]soirs de pleine lune
+      J'en ai \[F]détourné plus d'une
+      Mais faut \[Cm]pas rester dehors
+      Avec \[F]tous ces délinquants
+      Sois tran\[Gm]quille, moi je dors
+      \[B&]Sur le lit de camp
+    \end{verse}
+
+    \begin{verse*}
+      Soit, j'suis \[Cm]pas un chérubin
+      Fau\[F]drait que j'prenne un bain
+      Que je \[Cm]rase sur mes joues
+      Cet\[F]te barbe acajou
+      Et mon \[Cm]linge n'est pas net
+      En\[F]fin, pour être honnête
+      Ce ma\[Gm]tin dans le bus
+      J'ai \[B&]attrapé une puce
+    \end{verse*}
+
+    \begin{verse*}
+      Les \[Cm]nuits d'hiver sont longues
+      Dans \[F]ma baignoire oblongue
+      Elles sont \[Cm]longues et frisquettes
+      Sur\[F]tout sur la banquette
+      Le di\[Cm]van du séjour
+      Le \[F]canapé d'velours
+      Le fau\[Gm]teuil Louis-Philippe
+      À \[B&]cheval sur les principes !
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Mais c'est d'ac\[Cm]cord, je t'accueille
+      Moi je \[F]dors dans le fauteuil
+      En tout \[Cm]bien, tout honneur
+      Comme \[F]un frère et une sœur
+      Toi le \[Cm]lit, moi la banquette
+      \[F]À la bonne franquette
+      C'est d'ac\[Gm]cord pour ce soir
+      Moi je \[B&]dors dans la baignoire
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

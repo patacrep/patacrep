@@ -1,0 +1,45 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Kiss me}
+  [by=Sixpence None the Richer]
+
+  \capo{1}
+  \gtab{D}{XX0232}
+  \gtab{DM7}{XX0222}
+  \gtab{D7}{XX0212}
+  \gtab{Em}{022000}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{D/C#}{X40232}
+  \gtab{D/B}{X20232}
+  \gtab{D/A}{XX0232}
+  \gtab{G*}{320030}
+  \gtab{Asus4}{X02230}
+
+  \begin{verse*}
+    \musicnote {\Intro: \nolyrics \[D DM7 D7 DM7 \rep{2}]}
+  \end{verse*}
+
+  \begin{verse}
+    \[D]Kiss \[DM7]me out of the bearded barley
+    \[D7]Nightly, \[DM7]beside the green, green grass
+    \[D]Swing, swing\[DM7], swing the spinning step
+    \[D7]You wear those shoes and I wil\[G]l wear that dress
+  \end{verse}
+
+  \begin{chorus}
+    Oh, \[Em]kiss \[A]me \[D]beneath the milky twilight
+    \[Em]Lead \[A]me \[D]out on the moon\[D7]lit floor
+    Lift\[Em] your op\[A]en hand
+    \[D]Strike up the band \[D/C#]and make the \[D/B]fireflies dance, \[D/C#]silver moon's \[G*]sparkling
+    \[A] \[Asus4] \[A]So kiss me
+  \end{chorus}
+
+  \begin{verse}
+    Kiss me down by the broken tree house
+    Swing me upon its hanging tire
+    Bring, bring, bring your flowered hat
+    We'll take the trail marked on your father's map
+  \end{verse}
+
+\endsong

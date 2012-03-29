@@ -1,0 +1,137 @@
+\selectlanguage{french}
+\songcolumns{3}
+\beginsong{Dugenou}
+  [by=Thomas Fersen,cov=Qu4tre,album=Qu4tre]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{B}{2:X02220}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    \musicnote {\Intro : \nolyrics\[Em B Em ]}
+  \end{verse}
+
+  \begin{verse}
+    Dans la \[Em]cour de l'école
+    On m'appe\[Am]lait pot de colle
+    Dans la \[D]cour du bahut
+    On m'ap\[G]pelait {\og}la glu{\fg}
+    On m'appe\[Em]lait {\og}la sangsue{\fg}
+    On m'appe\[B]lait {\og}le morpion{\fg}
+    Enfin \[B]bref, on m'donnait
+    De jo\[Em]lis petits noms
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Pour se \[Em]faire un blason
+      Fallait \[Am]{s'battre} dans la rue
+      Sous les \[D]acclamations
+      Mais en \[G]tant qu'avorton
+      Vu mes \[Em]dispositions
+      Pour la \[B]boxe à main nues
+      Me suis \[B]fait cracher dessus
+      Et ap\[Em]peler {\og}Tartempion{\fg}
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Mais la \[Em]nuit, dans mes \[B]rêves
+    On m'appe\[B]lait {\og}mon p'tit \[Em]lu
+    Ma co\[Em]lombe, mon jé\[B]sus
+    Mon lou\[B]koum ou ma \[Em]fève{\fg}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Dans la \[Em]cour de l'immeuble
+      Je re\[Am]gardais les filles
+      Je faisais \[D]partie des meubles
+      J'étais \[G]de la famille
+      J'était \[Em]{l'frère} de ma sœur
+      Et mal\[B]gré ma douceur
+      Quand je \[B]{m'approchais} d'elles
+      Je te\[Em]nais la chandelle
+    \end{verse}
+
+    \begin{verse*}
+      Elles vou\[Em]laient des boxeurs
+      Et des \[Am]déménageurs
+      Et des \[D]maîtres nageurs
+      Mais pas \[G]{l'frère} de ma sœur
+      Elles vou\[Em]laient du robuste
+      Et du \[B]poil au menton
+      Moi j'é\[B]tais un arbuste
+      Et j'a\[Em]vais des boutons
+    \end{verse*}
+
+    \begin{chorus}
+      Mais la \[Em]nuit, dans mes \[B]rêves
+      Elles m'appe\[B]laient {\og}mon p'tit \[Em]lu
+      Ma co\[Em]lombe, mon jé\[B]sus
+      Mon lou\[B]koum ou ma \[Em]fève
+      Ma co\[Em]lombe, mon jé\[B]sus
+      Mon lou\[B]koum ou ma \[Em]fève{\fg}
+    \end{chorus}
+
+    \begin{verse}
+      Dans les \[Em]allées du parc
+      On m'appe\[Am]lait {\og}cuisse de mouche{\fg}
+      J'atti\[D]rais les maniaques
+      Et les \[G]saintes nitouches
+      Et les \[Em]fois peu nombreuses
+      Où nos \[B]mains se joignaient
+      Ma pe\[B]tite amoureuse
+      Me tor\[Em]dait le poignet
+    \end{verse}
+
+    \begin{chorus}
+      Mais la \[Em]nuit, dans mes \[B]rêves
+      Elle m'appe\[B]lait {\og}mon p'tit \[Em]lu
+      Ma co\[Em]lombe, mon jé\[B]sus
+      Mon lou\[B]koum ou ma \[Em]fève{\fg}
+    \end{chorus}
+
+    \begin{verse}
+      On me \[Em]tape dans le dos
+      On m'ap\[Am]pelle {\og}mon vieux{\fg}
+      On sou\[D]lève son chapeau
+      On m'ap\[G]pelle {\og}monsieur{\fg}
+      {\og}Mon \[Em]vieux{\fg} pour les intimes
+      Et {\og}mon\[B]sieur{\fg} pour tout l'monde
+      Un mon\[B]sieur anonyme
+      Dont les \[Em]rues sont fécondes
+    \end{verse}
+
+    \begin{chorus}
+      Mais la \[Em]nuit, dans mes \[B]rêves
+      On m'ap\[B]pelle {\og}mon p'tit \[Em]lu
+      Ma co\[Em]lombe, mon jé\[B]sus
+      Mon lou\[B]koum ou ma \[Em]fève{\fg}
+    \end{chorus}
+
+    \begin{verse}
+      Quand mon \[Em]cerveau est mou
+      On m'ap\[Am]pelle {\og}Dugenou{\fg}
+      Quand mon \[D]cerveau est lent
+      On m'ap\[G]pelle {\og}Dugland{\fg}
+      Dans mon \[Em]automobile
+      Au mi\[B]lieux des klaxons
+      Dans mon \[B]automobile
+      On m'ap\[Em]pelle {\og}Ducon{\fg}
+    \end{verse}
+
+    \begin{chorus}
+      Mais la \[Em]nuit, dans mes \[B]rêves
+      On m'appelle {\og}mon p'tit \[Em]lu
+      Ma co\[Em]lombe, mon jé\[B]sus
+      Mon lou\[B]koum ou ma \[Em]fève
+      Ma co\[Em]lombe, mon jé\[B]sus
+      Mon lou\[B]koum ou ma \[Em]fève{\fg}
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

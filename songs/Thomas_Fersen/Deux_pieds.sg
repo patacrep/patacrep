@@ -1,0 +1,77 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Deux pieds}
+  [by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+
+  \cover
+  \gtab{Fm}{1:022000}
+  \gtab{D#}{3:X32010}
+  \gtab{G#}{4:022100}
+  \gtab{C#}{4:X03330}
+  \gtab{Cm}{3:X02210}
+
+  \begin{verse}
+    \[Fm]{On me} dit que \[D#]{je suis} pares\[G#]seux
+    \[Fm]{Que je} ne fais \[D#]{que ce} que je \[G#]veux
+    \[Fm]{C'est à} dire, \[D#]{pas grand-chose}
+    \[C#]{On dit} que je \[D#]{me repose}
+  \end{verse}
+
+  \begin{chorus}
+    \[Fm]{Je suis} déso\[Cm]lé
+    \[D#]{Je n'ai} que deux \[Fm]pieds
+    \[Fm]{Je n'ai} que deux \[G#]pieds
+    \[D#]Franchement déso\[Fm]lé
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Fm]{La vaisselle} \[D#]envahit l'é\[G#]vier
+      \[Fm]{Et le} linge dé\[D#]borde du pa\[G#]nier
+      \[Fm]{J'ai les} cheveux sales, \[D#]{je suis} barbu
+      \[C#]{Et je} m'en vais mon \[D#]café bu
+    \end{verse}
+
+    \begin{chorus}
+      \[Fm]{Je suis} déso\[Cm]lé
+      \[D#]{Je n'ai} que deux \[Fm]pieds
+      \[Fm]{Je n'ai} que deux \[G#]pieds
+      \[D#]Franchement déso\[Fm]lé
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \nolyrics \[D# G# Cm Fm ]
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Fm]Dans la rue il \[D#]{y a des} tra\[G#]vaux
+      \[Fm]{Et moi} j'aime re\[D#]garder les tra\[G#]vaux
+      \[Fm]{On me} dit : {\og}\[D#]{du balai}
+      \[C#]Plus vite que ça \[D#]{s'il vous} plaît{\fg}
+    \end{verse}
+
+    \begin{chorus}
+      Moi, \[Fm]{je suis} déso\[Cm]lé
+      \[D#]{Je n'ai} que deux \[Fm]pieds
+      \[Fm]{Je n'ai} que deux \[G#]pieds
+      \[D#]Franchement déso\[Fm]lé
+    \end{chorus}
+
+    \begin{verse}
+      \[Fm]Elle me dit que \[D#]{je suis} en re\[G#]tard
+      \[Fm]{Que je} me coiffe \[D#]avec un pé\[G#]tard
+      \[Fm]Elle veut dépla\[D#]{cer les} meubles
+      \[C#]{J' suis} pas là pour dépla\[D#]{cer les} meubles
+    \end{verse}
+
+    \begin{chorus}
+      Moi, \[Fm]{je suis} déso\[Cm]lé
+      \[D#]{Je n'ai} que deux \[Fm]pieds
+      \[Fm]{Je n'ai} que deux \[G#]pieds
+      \[D#]Franchement déso\[Fm]lé
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

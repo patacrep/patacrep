@@ -1,8 +1,9 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Kiss me}
-  [by=Sixpence None the Richer]
+  [by=Sixpence None the Richer,cov=sixpence-none-the-richer,album=Sixpence None the Richer]
 
+  \cover
   \capo{1}
   \gtab{D}{XX0232}
   \gtab{DM7}{XX0222}

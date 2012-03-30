@@ -1,8 +1,9 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Just two of us}
-  [by=Bill Withers]
+\beginsong{Just the two of us}
+  [by=Bill Withers,album=Greatest hits,cov=greatest-hits]
 
+  \cover
   \capo{1}
   \gtab{G*}{X23230}
   \gtab{C}{X32010}

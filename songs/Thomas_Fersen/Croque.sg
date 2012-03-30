@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Croque}[by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+\beginsong{Croque}
+  [by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands jours]
 
   \cover
 
@@ -16,27 +17,27 @@
   \utab{E}{2:2220}
   \utab{A}{2100}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro : \nolyrics \[C{\shrp}m F{\shrp}m F{\shrp}m C{\shrp}m]}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[C#m] Quand je rentre à la maison, elle me dit souvent
     Que j'ai une tête d'enterrement et elle \[F#m]{a raison}
     Je travaille au cimetière, c'est in\[F#m]contestable
     Je laisse ma tête au vestiaire et je me \[C#m]mets à table
-  \endverse
-	
+  \end{verse}
+
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       Faut pas se laisser abattre, j'ai une faim de loup
       Moi je mange comme quatre et je bois \[F#m]comme un trou
       Puis je retourne au cimetière travail\[F#m]ler d'mon mieux
       Digérer mon pot de bière et mon cro\[C#m]{que-monsieur}
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     Pendant \[C#m]{l'oraison} du \[E]prêtre
     \[F#m]{J'ai} un petit \[G#]creux
     Moi je \[C#m]pense à ma cô\[F#m]telette
@@ -46,24 +47,24 @@
     C'est mon \[C#m]estomac qui \[F#m]pleure
     \[A] À chaque enterre\[G#]ment
     \nolyrics \[C{\shrp}m F{\shrp}m F{\shrp}m C{\shrp}m]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[C#m] Comme un côté du cimetière est inhabité
       J'ai planté des pommes de terre dans l'in\[F#m]timité
       Et dans ma jaquette noire, entre \[F#m]deux services
       Je donne un coup d'arrosoir et je cours \[C#m]{à l'office}
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Je gratte, je bine et je bêche, quelle heureuse surprise
       Quand je trouve un ver pour la pêche, je ran\[F#m]ge ma prise
       Dans une boîte en fer blanc, le temps \[F#m]est superbe
       Voilà un coin épatant pour déjeu\[C#m]ner sur l'herbe
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       À pré\[C#m]sent qu'a sonnée \[E]{l'heure}
       \[F#m]{L'heure} du goupil\[G#]lon
       Je pense \[C#m]{à mes} pommes va\[F#m]peur
@@ -73,23 +74,23 @@
       C'est mon \[C#m]ventre qui glou\[F#m]gloute
       \[A] Mon ventre qui \[G#]grogne
       \nolyrics \[C{\shrp}m F{\shrp}m F{\shrp}m C{\shrp}m]
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[C#m] Parfois je croque un oignon, parfois une gousse d'ail
       Parfois même un champignon est une \[F#m]victuaille
       Il faut faire avec, ce n'est \[F#m]pas copieux
       Car ces oraisons du prêtre on n'en voit \[C#m]pas la queue
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Le vent chasse les nuages, c'est providentiel
       Un grand disque de fromage tourne \[F#m]dans le ciel
       La faim me monte à la tête, j'avale \[F#m]mon chapeau
       Un bouton de ma jaquette et un pau\[C#m]vre mulot
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       Je n'suis \[C#m]pas dans mon as\[E]siette
       \[F#m]Je vais rendre \[G#]{l'âme}
       Quand je \[C#m]pense à mes pau\[F#m]piettes
@@ -98,16 +99,16 @@
       \[E]Je m'allonge un \[G#]peu
       Sur le \[C#m]tapis de ver\[F#m]dure
       Et je ferme les \[G#]yeux
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginchorus
-    \nolyrics \[C{\shrp}m  F{\shrp}m]
+  \begin{chorus}
+    \nolyrics \[C{\shrp}m F{\shrp}m]
     Ça fait \[C#m]trop longtemps qu'ça \[F#m]dure
     \[E]Je m'allonge un \[G#]peu
     Sur le \[C#m]tapis de ver\[F#m]dure
     \[A] Et je ferme les \[G#]yeux
-    \nolyrics \[C{\shrp}m  F{\shrp}m F{\shrp}m C{\shrp}m]
-  \endchorus
+    \nolyrics \[C{\shrp}m F{\shrp}m F{\shrp}m C{\shrp}m]
+  \end{chorus}
 
 \endsong

@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{L'histoire d'une heure}[by=Thomas Fersen,cov=Les-ronds-de-carotte,album=Les ronds de carotte]
+\beginsong{L'histoire d'une heure}
+  [by=Thomas Fersen,cov=Les-ronds-de-carotte,album=Les ronds de carotte]
 
   \cover
   \gtab{B7}{2:X02020}
@@ -15,15 +16,15 @@
   \utab{Edim}{0101}
   \utab{F{\shrp}dim}{2:0101}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro :}
-    \nolyrics \[B7  E  B7  E ]
-    \nolyrics \[B7  E  B7  E]
-    \nolyrics \[A  E  A  E]
-    \nolyrics \[Edim  E  F#dim  B7]
-  \endverse
+    \nolyrics \[B7 E B7 E ]
+    \nolyrics \[B7 E B7 E]
+    \nolyrics \[A E A E]
+    \nolyrics \[Edim E F#dim B7]
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[B7]{C'est} l'histoire d'une \[E]heure
     \[B7]Perdue Quai aux \[E]Fleurs
     \[B7]Une heure à rê\[E]ver
@@ -32,10 +33,10 @@
     \[A]À regarder \[E]vendre
     \[Edim]Quelques fleurs cou\[E]pées
     \[F#dim]Quelques fleurs de \[B7]mai
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[B7]{C'est} l'histoire d'une \[E]heure
       \[B7]Perdue sans hu\[E]meur
       \[B7]Une heure à rê\[E]ver
@@ -44,9 +45,9 @@
       À \[A]faire le pied de \[E]grue
       \[E]À faire les cent \[E]pas
       Et \[F#dim]quelques entre\[B7]chats
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[B7]Quel drôle de bal\[E]let !
       \[B7]Mon petit ma\[E]nège
       In\[B7]trigue les pou\[E]lets
@@ -55,9 +56,9 @@
       \[A]Une paire de bra\[E]celets
       \[Edim]Et sous les ver\[E]rous
       \[F#dim]Une histoire de \[B7]fous
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       {\og}\[B7]{C'est} l'histoire d'une \[E]heure, messieurs
       \[B7]À vous expli\[E]quer
       \[B7]{C'est} l'histoire d'une \[E]heure
@@ -66,9 +67,9 @@
       \[A]Perdue dans un \[E]puits
       \[Edim]À faire des a\[E]veux
       \[F#dim]Les violettes aux \[B7]yeux
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       On \[B7]cherche un assas\[E]sin
       Et \[B7]moi, le petit \[E]saint
       \[B7]Ma faute est su\[E]blime
@@ -77,9 +78,9 @@
       \[A]Une heure devant \[E]soi ?
       \[Edim]Une heure à at\[E]tendre
       Vou\[F#dim]dra bien me la \[B7]rendre ?
-    \endverse
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \[B7]{C'est} l'histoire d'une \[E]heure
       \[B7]Perdue Quai aux \[E]Fleurs
       \[B7]Une heure à rê\[E]ver
@@ -88,14 +89,14 @@
       Je \[A]chante ma chan\[E]son
       \[Edim]À mes heures per\[E]dues
       Je \[F#dim]ne les compte \[B7]plus
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Outro :}
-    \nolyrics \[B7  E  B7  E ]
-    \nolyrics \[B7  E  B7  E]
-    \nolyrics \[A  E  A  E]
-    \nolyrics \[Edim  E  F{\shrp}dim  B7]
-  \endverse
+    \nolyrics \[B7 E B7 E ]
+    \nolyrics \[B7 E B7 E]
+    \nolyrics \[A E A E]
+    \nolyrics \[Edim E F{\shrp}dim B7]
+  \end{verse*}
 \endsong

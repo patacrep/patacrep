@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Louise}[by=Thomas Fersen,cov=Les-ronds-de-carotte,album=Les ronds de carotte]
+\beginsong{Louise}
+  [by=Thomas Fersen,cov=Les-ronds-de-carotte,album=Les ronds de carotte]
 
   \cover
   \gtab{Fm}{1:022000}
@@ -15,92 +16,92 @@
   \utab{E&}{1:2220}
   \utab{A&}{3:2010}
 
-  \beginverse*
-    \musicnote{\Intro : \nolyrics \[Fm  B{\flt}m  C7 Fm]}
-  \endverse
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics \[Fm B{\flt}m C7 Fm]}
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Fm]Tes lèvres, Louise
     Sont \[B&m]des portes d'église
     Où \[C7]{j'entre} le matin
     Le \[Fm]chapeau à la main
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       \[Fm]Tes lèvres, Louise
       Penses-\[B&m]tu ce qu'elles me disent ?
       Ou \[C7]{c'est} du caraco
       Le \[Fm]rubis d'un mégot ?
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     A\[C7]près tout peu importe
     Où \[Fm]{j'allume} ma clope
     Aux \[E&]premiers feux du jour
     Ou aux \[A&]foudres de l'amour
     Si \[Fm]les miennes se grisent
     À \[B&m]tes lèvres, Louise \[C7] \[Fm]
-    \nolyrics \[C7  Fm  E{\flt}  A{\flt}]
-  \endchorus
+    \nolyrics \[C7 Fm E{\flt} A{\flt}]
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Sur \[Fm]tes lèvres, Louise
       Les \[B&m]miennes sont assises
       Je ne dé\[C7]colle plus les fesses
       \[Fm]De ce banc de messe
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Fm]Tes lèvres, Louise
       Crois-\[B&m]tu ce qu'elles me disent ?
       Ou \[C7]cette basilique
       Est \[Fm]un kiosque à musique ?
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       A\[C7]près tout peu importe
       Où \[Fm]{j'allume} ma clope
       Si \[E&]ce n'est pas l'amour
       Ce \[A&]sont les alentours
       Si \[Fm]les miennes se grisent
       À \[B&m]tes lèvres, Louise \[C7] \[Fm]
-      \nolyrics \[C7  Fm  E{\flt}  A{\flt}]
-    \endchorus
+      \nolyrics \[C7 Fm E{\flt} A{\flt}]
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       \[Fm]Ta lettre, Louise
       Est \[B&m]arrivée tantôt
       De \[C7]tes lèvres cerise
       \[Fm]Elle porte le sceau
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Fm]Tes lèvres, Louise
       \[B&m]Me donnent congé
       \[C7]Ma rage s'épuise
       Sur \[Fm]mes ongles rongés
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[C7]Paris te contient
       Et je suis \[Fm]jaloux comme un chien
-      \[E&]Je reviens gratter 
+      \[E&]Je reviens gratter
       À ta \[A&]porte
       \[Fm]Tes lèvres sont closes
       Louise, tu \[B&m]{m'envoies} sur les roses
       \[C7]Dis-moi quelque chose\dots{} \[Fm]Rien
-      \nolyrics \[C7  Fm  E{\flt}  A{\flt}]
-    \endchorus
+      \nolyrics \[C7 Fm E{\flt} A{\flt}]
+    \end{chorus}
   \end{repeatedchords}
 
-  \beginverse
+  \begin{verse}
     \[Fm]Louise, je ne veux plus
     Que \[B&m]tu passes la nuit
     En \[C7]bas de l'avenue
     \[Fm]Sous un \[C7]para\[Fm]pluie
-  \endverse
+  \end{verse}
 
 \endsong

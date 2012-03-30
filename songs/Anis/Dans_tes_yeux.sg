@@ -1,9 +1,10 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Dans tes yeux}[by=Anis,album=Rodéo Boulevard,cov=Rodeo-Boulevard]
+\beginsong{Dans tes yeux}
+  [by=Anis,album=Rodéo Boulevard,cov=Rodeo-Boulevard]
 
   \cover
-  \gtab{Dm6}{5:002210}
+  \gtab{Dm6}{5:X02210}
   \gtab{A{\shrp}}{6:022100}
   \gtab{C7}{9:020100}
   \gtab{A}{5:022100}
@@ -15,18 +16,18 @@
   \utab{A}{2100}
   \utab{Gm6}{0201}
 
-  \beginchorus
+  \begin{chorus}
     \[Dm] Il y \[A#]a dans tes \[C7]yeux
     Comme un \[A]air cu\[Dm]rieux
     Il y \[A#]a dans tes \[Gm6]yeux
     Qui \[A]parfois sont vi\[Dm]treux
     La force \[A#]vive de celles et \[C7]ceux
     Qui en ont ba\[A]vé plus que pour \[Dm]deux
-    Il y a \[A#]tout ça dans tes \[Gm6]yeux  \[A]  \[Dm]
-    Il y a \[A#]tout ça - \[Gm6]a  \[A]  \[Dm]
-  \endchorus
+    Il y a \[A#]tout ça dans tes \[Gm6]yeux \[A] \[Dm]
+    Il y a \[A#]tout ça - \[Gm6]a \[A] \[Dm]
+  \end{chorus}
 
-  \beginverse
+  \begin{verse}
     Bien sûr \[A#]{c'est} dur d'être heu\[C7]reux
     Le bon\[A]heur se cache sou\[Dm]vent
     Ne nous ef\[A#]fleure que quand il \[Gm6]veut
@@ -37,10 +38,10 @@
     C'est \[A]vrai, c'est \[Dm]vrai
     Le bon\[A#]heur humm s'il vous \[Gm6]plaît \[A] \[Dm]
 
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       Bien sûr \[A#]on se cache pour pleu\[C7]rer
       Bien sûr rien n'est \[A]moins sûr que la véri\[Dm]té
       Elle assas\[A#]sine sans tu\[Gm6]er
@@ -50,15 +51,15 @@
       Peut-être qu'on \[A#]fuit la véri\[Gm6]té
       C'est \[A]vrai, c'est \[Dm]vrai
       La véri\[A#]té, la véri\[Gm6]té \[A] \[Dm]
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Bridge : \nolyrics \[A{\shrp} C7 A Dm A{\shrp} Gm6 A Dm]}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Bien sûr la \[A#]vie est hasar\[C7]deuse
       Tellement trop \[A]courte et capri \[Dm]cieuse
       Injuste, o\[A#]dorante et vis\[Gm6]queuse
@@ -68,22 +69,22 @@
       Peut-être \[A#]même que c'est une \[Gm6]chieuse
       C'est \[A]vrai, c'est \[Dm]vrai
       Bien sûr que \[A#]la vie est pré\[Gm6]cieuse \[A] \[Dm]
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Bien sûr \[A#]être seul c'est \[C7]rude
       Bien sûr à \[A]deux on est plus \[Dm]fort
       Bien sûr \[A#]que j'y crois en\[Gm6]core
       Bien sûr que l'a\[A]mour est plus fort que la \[Dm]mort
       Y'a des doutes et des \[A#]gouttes qui perlent sur nos \[C7]fronts
-      Des certitudes éc\oe{}u\[A]rantes qui nous plombent vers le \[Dm]fond
+      Des certitudes écœu\[A]rantes qui nous plombent vers le \[Dm]fond
       Peut-être \[A#]{qu'on} est des bouf\[Gm6]fons
       C'est \[A]vrai, c'est \[Dm]vrai
       Et je ne veux \[A#]plus être un pi\[Gm6]geon \[A] \[Dm]
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Outro : \nolyrics \[A{\shrp} C7 A Dm A{\shrp} Gm6 A Dm] \echo{adlib}}
-  \endverse
+  \end{verse*}
 \endsong

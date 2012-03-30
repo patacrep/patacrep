@@ -14,84 +14,84 @@
   \utab{F}{2010}
   \utab{C}{0003}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro : \nolyrics \[Gm Gm Dm F] \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
-    \[Gm] Elle pleure son marin                            
+  \begin{verse}
+    \[Gm] Elle pleure son marin
     \[Gm] Son marin n'est plus le sien
     \[Dm] Elle dit que les vagues sont folles
     \[F] Elle dit que les vagues sont folles
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     \[Gm] Quand elle chante le fado
     \[Gm] Son chant est un oiseau
-    \[Dm] Un oiseau qui s'envole 
+    \[Dm] Un oiseau qui s'envole
     \[F] Un oiseau qui s'en\[Gm]vole
-  \endverse
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     \[Dm] São loucas, \[C] são louca - \[Gm]as \rep{2}
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
-      \[Gm] L'oiseau emporte une prière 
+    \begin{verse}
+      \[Gm] L'oiseau emporte une prière
       \[Gm] Vers une bouteille à la mer
       \[Dm] Son adresse c'est le grand large
       \[F] Son adresse c'est le grand large
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Gm] Da Rua da Regueira
-      \[Gm] Au coeur d'Alfama
+      \[Gm] Au cœur d'Alfama
       \[Dm] On dit que la vieille est barge
       \[F] On dit que la vieille est \[Gm]barge
-    \endverse
+    \end{verse*}
 
-    \beginverse
+    \begin{verse}
       \[Gm] Mais dès qu'elle porte le châle
       \[Gm] Le silence s'installe
       \[Dm] On écoute ses paroles
       \[F] On écoute ses paroles
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Gm] Elle pose sur ses reins
       \[Gm] Les lignes de ses mains
       \[Dm] Qui se remplissent d'alcool
       \[F] Qui se remplissent d'al\[Gm]cool
-    \endverse
+    \end{verse*}
 
-    \beginverse
-      \[Gm] Alors elle ferme les yeux 
+    \begin{verse}
+      \[Gm] Alors elle ferme les yeux
       \[Gm] Elle est seule devant Dieu
       \[Dm] Elle n'a peur de personne
       \[F] Elle n'a peur de personne
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Gm] E diz que ela fecha os olhos
       \[Gm] Sozinha em frente de Deus
       \[Dm] A dizer que elas são loucas
       \[F] A dizer que elas são lou\[Gm]cas
-    \endverse
+    \end{verse*}
 
-    \beginverse
+    \begin{verse}
       \[Gm] Elle donne son chagrin
       \[Gm] Son chagrin n'est plus le sien
       \[Dm] C'est celui de Lisbonne
       \[F] C'est celui de Lisbonne
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Gm] Où des femmes portent le noir
       \[Gm] Et dans les caisses des guitares
       \[Dm] E a saudade qui résonne
       \[F] E a saudade qui ré\[Gm]sonne
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
 \endsong

@@ -20,7 +20,7 @@ word_dic = {
 "voeu": "vœu",
 "oeuf": "œuf",
 "oe{}": "œ",
-"\œ": "œ",
+"\\œ": "œ",
 ##: Contractions
 "ptit": "p'tit",
 ##: Punctuation

@@ -68,9 +68,9 @@
     C'est ben \[E7]plate à dire mais ça a l'air
     Qu'c'est \[A7]ça l'noeud du problème ! Hey !
     \musicnote[french]{violon}
-    \textnote[french]{\lilypond{8_secondes_fr}}
     \musicnote[english]{violin}
-    \textnote[english]{\lilypond{8_secondes_eng}}
+    \nolyrics \[| Dm Am Dm Am | Dm C F | Gm Dm | B{\flt} A7]
+    \lilypond{8_secondes}
   \endchorus
 
   \begin{repeatedchords}

@@ -7,12 +7,6 @@
 
 \score
 {  <<
-
-   \chords   {
-   d2:m a2:m 
-   d2:m a2:m d2:m c2 f1
-   g1:m d1:m 
-   bes1 a1:7}
  
   \relative c'''
   { \key a \major

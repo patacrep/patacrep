@@ -1,0 +1,141 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{8 secondes}[by=Les Cowboys Fringants,cov=La-grand-messe,album=La grand-messe]
+
+  \cover
+
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32003}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
+  \gtab{A}{X02220}
+  \gtab*{Asus4}{X02230}
+  \gtab{A7}{X02020}
+  \gtab{Gm}{3:022000}
+  \gtab{B&}{1:X02220}
+
+  \utab{Dm}{2220}
+  \utab{Am}{2000}
+  \utab{C}{0003}
+  \utab{F}{2010}
+  \utab{E7}{1202}
+  \utab{A}{2100}
+  \utab*{Asus4}{2200}
+  \utab{A7}{0100}
+  \utab{Gm}{0231}
+  \utab{B&}{1:2100}
+
+  \beginverse
+    \[Dm]Toutes \[Am]les huits se\[Dm]condes \[Am]
+    Un en\[Dm]fant \[C]crève au tiers-\[F]monde
+    Parce qu'y a \[Dm]pas accès à l'eau
+    On dit que \[Am]dans les pays chaud
+    C'est l'so\[E7]leil qui assèche les ruis\[A]seaux \[Asus4] \[A]
+  \endverse
+
+  \beginverse*
+    \[A7]Quand on \[Dm]sait qu'une toute \[Am]petite frac\[Dm]tion \[Am]
+    De tous ces \[Dm]budgets mili\[C]taires à la \[F]con
+    Pourraient a\[Dm]breuver les humains
+    Leur assu\[Am]rer un lendemain
+    Mais l'occi\[E7]dent s'en lave encore les \[A]mains \[Asus4] \[A]
+  \endverse
+
+  \begin{repeatedchords}
+
+    \beginverse*
+      \[A7]Alors que \[Dm]toutes \[Am]les huit se\[Dm]condes \[Am]
+      Se gé\[Dm]nèrent des \[C]profits im\[F]mondes
+      Chez les grandes \[Dm]multinationales
+      Qui croient que \[Am]{l'droit} fondamental
+      D'accès à \[E7]{l'eau} doit devenir commer\[A]cial \[Asus4] \[A]
+    \endverse
+
+    \beginverse*
+      \[A7]Aujourd'hui \[Dm]la source est \[Am]cotée en \[Dm]bourse \[Am]
+      Et on se \[Dm]câlisse ben \[C]de la res\[F]source
+      On nous dit \[Dm]{qu'c'est} inépuisable
+      Pas besoin \[Am]de gestion viable
+      Y'a un signe de \[E7]piastre au bout de l'eau po\[A]table \[Asus4] \[A]
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \[A7] Pen\[Gm]dant qu'les rivières coulent à \[Dm]flots
+    Certains \[B&]font de l'argent comme de \[F]{l'eau}
+    Sans se \[Gm]soucier des écosys\[Dm]tèmes
+    C'est ben \[E7]plate à dire mais ça a l'air
+    Qu'c'est \[A7]ça l'noeud du problème ! Hey !
+    \musicnote[french]{violon}
+    \musicnote[english]{violin}
+    \hspace{1cm}\nolyrics \[Dm Am] \hspace{0.1cm} \[Dm Am] \hspace{0.1cm} \[Dm C] \hspace{0.5cm} \[F]
+    \lilypond{8_secondes}
+    \hspace{1cm}\nolyrics \[Gm] \hspace{1cm} \[Dm] \hspace{1cm} \[B&] \hspace{1cm} \[A7]
+    \lilypond{8_secondes_2}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Dm]Toutes \[Am]les huit se\[Dm]condes \[Am]
+      Un nou\[Dm]veau can\[C]cer qui nous \[F]ronge
+      Eau qui \[Dm]devient marchandise
+      Aque\[Am]ducs qu'on privatise
+      Et gouver\[E7]nements complices qui impro\[A]visent \[Asus4] \[A]
+    \endverse
+
+    \beginverse*
+      \[A7]À Montré\[Dm]al dans \[Am]les souter\[Dm]rains \[Am]
+      Ils pompent \[Dm]{l'eau} qui \[C]nous appar\[F]tient
+      Payent des pea\[Dm]nuts pour le produit
+      Et comme ils \[Am]ont le monopole
+      Font plus de \[E7]profits que les compagnies d'pé\[A]trole \[Asus4] \[A]
+    \endverse
+
+    \beginverse*
+      \[A7] \[Dm]Toutes \[Am]les huit se\[Dm]condes \[Am]
+      Je res\[Dm]sens un \[C]peu plus de \[F]honte
+      Face à cette \[Dm]surexploitation
+      Et à cette \[Am]triste destruction
+      D'la na\[E7]ture pour la consomma\[A]tion \[Asus4] \[A]
+    \endverse
+
+    \beginverse*
+      \[A7]On nous \[Dm]met devant des \[Am]faits accom\[Dm]plis \[Am]
+      Ils jouent \[Dm]la Terre au \[C]Monopo\[F]ly
+      Quand ils se \[Dm]seront approprié
+      Les nu\[Am]ages, les oiseaux
+      Les gla\[E7]ciers, p't'être qu'en auront as\[A]sez \[Asus4] \[A]
+    \endverse
+
+
+    \beginverse
+      \[A7]Quand il \[Dm]ne reste\[Am]ra que huit se\[Dm]condes \[Am]
+      A\[Dm]vant la \[C]fin de ce \[F]monde
+      On repen\[Dm]sera au genre humain
+      Qui à cause \[Am]de l'appât du gain
+      Aura ame\[E7]né la planète au bord du ra\[A]vin \[Asus4] \[A]
+    \endverse
+
+    \beginverse*
+      Quand il \[Dm]ne reste\[Am]ra que huit se\[Dm]condes\dots{} \[Am]
+    \endverse
+
+    \beginverse
+      \[Dm]Toutes \[Am]les huit se\[Dm]condes \[Am]
+      Encore \[Dm]plus de \[C]colère qui \[F]monte
+      Quand je vois \[Dm]mon grand pays d'eau
+      Être mis à \[Am]sac par des salauds
+      Qui s'foutent d'la \[E7]vie assis dans leur tour à bu\[A]reau \[Asus4] \[A]
+    \endverse
+
+    \beginverse*
+      \[A7]Dans ce Qué\[Dm]bec de \[Am]forêts et d'or \[Dm]bleu \[Am]
+      Ces ri\[Dm]chesses doivent de\[C]venir des en\[F]jeux
+      Bottons les \[Dm]fesses des décideurs
+      Et deve\[Am]nons des précurseurs
+      Cito\[E7]yens ! L'avenir commence à \[A]{c't'heure} ! \[Asus4] \[A]
+    \endverse
+  \end{repeatedchords}
+
+\endsong

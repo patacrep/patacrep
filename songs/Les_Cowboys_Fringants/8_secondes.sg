@@ -68,11 +68,9 @@
     C'est ben \[E7]plate à dire mais ça a l'air
     Qu'c'est \[A7]ça l'noeud du problème ! Hey !
     \musicnote[french]{violon}
+    \lilypond[french]{8_secondes_fr}
     \musicnote[english]{violin}
-    \hspace{1cm}\nolyrics \[Dm Am] \hspace{0.1cm} \[Dm Am] \hspace{0.1cm} \[Dm C] \hspace{0.5cm} \[F]
-    \lilypond{8_secondes}
-    \hspace{1cm}\nolyrics \[Gm] \hspace{1cm} \[Dm] \hspace{1cm} \[B&] \hspace{1cm} \[A7]
-    \lilypond{8_secondes_2}
+    \lilypond[english]{8_secondes_eng}
   \endchorus
 
   \begin{repeatedchords}

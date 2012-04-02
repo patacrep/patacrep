@@ -7,15 +7,14 @@
   \gtab{Dm}{XX0231}
   \gtab{Gm}{3:022000}
   \gtab{A7}{X02020}
-
   \utab{Dm}{2210}
   \utab{Gm}{0231}
   \utab{A7}{0100}
 
   \begin{verse*}
-    \musicnote {\Intro :}
-    \nolyrics \[Dm Dm Gm Dm]
-    \nolyrics \[Gm A7 Dm Dm]
+    \musicnote{\Intro :}
+    \musicnote{\nolyrics \[Dm Dm Gm Dm]}
+    \musicnote{\nolyrics \[Gm A7 Dm Dm]}
   \end{verse*}
 
   \begin{verse}
@@ -58,7 +57,7 @@
   \end{chorus}
 
   \begin{bridge}
-    \nolyrics \[Dm Gm A7 Dm] \rep{2}
+    \musicnote{\nolyrics \[Dm Gm A7 Dm \rep{2}]}
   \end{bridge}
 
   \begin{repeatedchords}

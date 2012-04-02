@@ -4,11 +4,9 @@
   [by=Debout sur le Zinc,album=La fuite en avant,cov=la-fuite-en-avant]
 
   \cover
-
   \gtab{Em}{022000}
   \gtab{B7}{X21202}
   \gtab{Am}{X02210}
-
   \utab{Em}{0432}
   \utab{B7}{2:0100}
   \utab{Am}{2000}
@@ -83,9 +81,9 @@
       \nolyrics \[Em Am Em B7] \[Em Am Em B7]
     \end{chorus}
 
-    \begin{verse}
+    \begin{verse*}
       Rien à foutre du \[Em]monde, mon amour \[B7]
-    \end{verse}
+    \end{verse*}
   \end{repeatedchords}
 
 \endsong

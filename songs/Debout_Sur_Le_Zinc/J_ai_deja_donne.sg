@@ -1,16 +1,14 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{J'ai déjà donné}
-  [by=Debout sur le Zinc,cov=La-fuite-en-avant,album=La fuite en avant]
+  [by=Debout sur le Zinc,cov=la-fuite-en-avant,album=La fuite en avant]
 
   \cover
-
   \gtab{Em}{022000}
   \gtab{C}{X32010}
   \gtab{Am}{X02210}
   \gtab{B7}{X21202}
   \gtab{D}{XX0232}
-
   \utab{Em}{0432}
   \utab{C}{0003}
   \utab{Am}{2000}

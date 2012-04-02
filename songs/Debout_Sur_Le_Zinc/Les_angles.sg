@@ -1,10 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les angles}
-  [by=Debout sur le Zinc,cov=Des-singes-et-des-moutons,album=Des singes et des moutons]
+  [by=Debout sur le Zinc,cov=des-singes-et-des-moutons,album=Des singes et des moutons]
 
   \cover
-
   \gtab{Dm}{XX0231}
   \gtab{B}{1:X02220}
   \gtab{E}{022100}
@@ -12,7 +11,6 @@
   \gtab{F}{1:022100}
   \gtab{G}{320003}
   \gtab{C}{X32010}
-
   \utab{Dm}{2210}
   \utab{B}{2:2100}
   \utab{E}{2:2220}

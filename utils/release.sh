@@ -59,6 +59,7 @@ make volume-1.pdf
 make volume-2.pdf 
 make volume-3.pdf 
 make volume-4.pdf 
+make volume-5.pdf 
 make english.pdf 
 make french.pdf 
 make songbook.pdf 
@@ -76,7 +77,7 @@ then
     ./utils/new-songs-list.sh | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
     echo "\nversion $MAIN.$MAJOR.$MINOR\n" | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
     git add templates/*.tmpl
-    git add books/volume-4.sb NEWS
+    git add books/volume-5.sb NEWS
     git commit -m "patacrep release version $MAIN.$MAJOR.$MINOR" 
     git tag "patacrep_$MAIN.$MAJOR.$MINOR"
 fi

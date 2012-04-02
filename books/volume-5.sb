@@ -1,0 +1,34 @@
+{
+"template" : "patacrep.tmpl",
+"lang" : "french",
+"bookoptions" : [
+    "diagram",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"picture" : "The_Music_Machine_by_hit_squad",
+"picturecopyright" : "hit-squad @ deviantart.com",
+"subtitle" : "Tome 5",
+"songs" : [
+    "Anis/Dans_tes_yeux.sg",
+    "Debout_Sur_Le_Zinc/Scylla.sg",
+    "Gary_Jules/Mad_world.sg",
+    "Jali/Espanola.sg",
+    "La_Rue_Ketanou/Sao_loucas.sg",
+    "Le_clandestin/Rue_Grenelle.sg",
+    "Les_Booze_Brothers/Fields_of_Athenry.sg",
+    "Les_Cowboys_Fringants/8_secondes.sg",
+    "Les_Cowboys_Fringants/Ces_temps_ci.sg",
+    "Les_Fatals_Picards/Au_mariage_de_Kevin_et_de_ma_soeur.sg",
+    "The_Dubliners/The_wild_rover.sg",
+    "Thomas_Fersen/Bambi.sg",
+    "Thomas_Fersen/Croque.sg",
+    "Thomas_Fersen/Irene.sg",
+    "Thomas_Fersen/Le_bouton.sg",
+    "Thomas_Fersen/Les_cravates.sg",
+    "Thomas_Fersen/L_histoire_d_une_heure.sg",
+    "Thomas_Fersen/Louise.sg",
+    "Thomas_Fersen/Rititi_ratata_il_parait_qu_elles_aiment_.sg",
+    "Yves_Simon/Les_bateaux_du_metro.sg"]
+}

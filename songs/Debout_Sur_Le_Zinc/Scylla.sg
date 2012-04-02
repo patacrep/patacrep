@@ -1,9 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Scylla}[by=Debout sur le Zinc,cov=De-Charybde-en-Scylla,album=De Charybde en Scylla]
+\beginsong{Scylla}
+  [by=Debout sur le Zinc,cov=de-charybde-en-scylla,album=De Charybde en Scylla]
 
   \cover
-
   \gtab{Dm}{XX0231}
   \gtab{C}{X32010}
   \gtab{A}{X02220}
@@ -12,7 +12,6 @@
   \gtab{G}{320003}
   \gtab{B&}{1:X02220}
   \gtab{A7}{X02020}
-
   \utab{Dm}{2210}
   \utab{C}{0003}
   \utab{A}{2100}
@@ -22,45 +21,45 @@
   \utab{B&}{1:2100}
   \utab{A7}{0100}
 
-  \beginverse
-    \[Dm] Elle m'a dit {\og}\[C]{l'amour} ou la \[A]vie !{\fg} 
+  \begin{verse}
+    \[Dm] Elle m'a dit : {\og}\[C]{L'amour} ou la \[A]vie !{\fg}
     \[Dm] Et de son \[C]petit air Scyl\[A]la
     \[Dm] Caressait \[C]la mélanco\[A]lie
     \[Dm]Celle que j'ai \[C]tout au fond de \[A]moi
     \[Dm] Elle m'a dit {\og}\[C]on n'a que deux \[A]vies
-    \[Dm]Celle d'aujour\[C]{d'hui}, celle qu'on n'a \[A]pas 
-  \endverse
+    \[Dm]Celle d'aujour\[C]{d'hui}, celle qu'on n'a \[A]pas
+  \end{verse}
 
-  \beginverse*
-    \[Dm] Sonne l'heure \[E]du choix mon a\[F]mi 
+  \begin{verse*}
+    \[Dm] Sonne l'heure \[E]du choix mon a\[F]mi
     \[G]Dépose à mes \[B&]pieds ce que tu \[A7]étais jusque \[Dm]là{\fg}
-  \endverse
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Dm] Cloué au \[C]démon de mi\[A]di
-      \[Dm] Les bras de\[C]vant, le c\oe{}ur en \[A]croix
+      \[Dm] Les bras de\[C]vant, le cœur en \[A]croix
       \[Dm] Je crois que \[C]je lui ai dit \[A]oui
       \[Dm]Oui, on va \[C]parfois jusque \[A]là
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Dm] Quand elle m'a \[E]dit {\og}serre moi plus \[F]fort{\fg}
-      Mon \[G]c\oe{}ur s'est arrê\[B&]té je suis \[A7]tombé raide \[Dm]mort
-    \endverse
+      Mon \[G]cœur s'est arrê\[B&]té je suis \[A7]tombé raide \[Dm]mort
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
-    \[Dm]Ôte moi d'un \[C]doute, éclaire-\[F]moi
-    Je \[Gm]{n'y} \[A]sur\[B&]vivrai \[Dm]pas 
-    \[B&] Scyl\[A]la, réponds- \[Dm]  moi
+  \begin{chorus}
+    \[Dm]Ôte-moi d'un \[C]doute, éclaire-\[F]moi
+    Je \[Gm]{n'y} \[A]sur\[B&]vivrai \[Dm]pas
+    \[B&] Scyl\[A]la, réponds- \[Dm] moi
     Je me \[C]perds, je me \[F]noie
     De \[Gm]Cha\[A]ry\[B&]bde en Scyl\[Dm]la
     \nolyrics \[B{\flt} A B{\flt} A]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Dm] Il m'a dit {\og}\[C]toi, tu n'entends \[A]pas
       \[Dm] Les promesses \[C]murmurées \[A]qui
       \[Dm] Attisent aus\[C]si fort les pour\[A]quoi
@@ -69,20 +68,20 @@
       \[Dm] Malhabile \[C]à jongler, je \[A]pleure
       \[Dm] Je sais que \[C]{j'y} laisserai des \[A]plumes
       \[Dm]Mais comment re\[C]noncer au bon\[A]heur
-    \endverse
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       \[Dm] Au pied de \[E]murailles je chan\[F]celle
       Bien \[G]petite à ses \[B&]pieds, toujours on \[A7]se manque à l'ap\[Dm]pel
-    \endverse
+    \end{verse*}
 
-    \beginchorus
+    \begin{chorus}
       \[Dm]Ôte moi d'un \[C]doute, éclaire-\[F]moi
       Je \[G]{n'y} \[A]sur\[B&]vivrai \[Dm]pas
-      \[B&] Scyl\[A]la, réponds- \[Dm] moi 
-      Je me \[C]perds, je me \[F]noie 
+      \[B&] Scyl\[A]la, réponds- \[Dm] moi
+      Je me \[C]perds, je me \[F]noie
       De \[G]Cha\[A]ry\[B&]bde en Scyl\[Dm]la
       \nolyrics \[B{\flt} A B{\flt} A]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 \endsong

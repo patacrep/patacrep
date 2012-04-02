@@ -1,0 +1,48 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{The wild rover}
+  [by=The Dubliners,cov=irish-pub-songs,album=Irish pub songs]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+
+  \begin{verse}
+    I have \[G]been a wild rover for many's a \[C]year
+    And I \[D]spent all my money on whiskey and \[G]beer
+    But \[G]now I'm returning with gold in great \[C]store
+    And I \[G]never will play the wild \[D]rover no \[G]more
+  \end{verse}
+
+  \begin{chorus}
+    And it's \[D]no, nay, never
+    \[G] No, nay, never no \[C]more
+    Will I \[G]play the wild \[C]rover
+    No, \[D]never, no \[G]more
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      I went \[G]into an Ale House I used to fre\[C]quent
+      And I \[D]told the landlady my money was \[G]spent
+      I \[G]asked her for credit she answered me, ``\[C]Nay!''
+      ``Such \[G]custom as \[D]yours, I could have any \[G]day''
+    \end{verse}
+
+    \begin{verse}
+      I \[G]took from my pocket, ten sovereigns \[C]bright
+      And the \[D]landlady's eyes opened wide with de\[G]light
+      She \[G]said I'd have whiskey and wines of the \[C]best
+      And the \[G]words that she \[D]told me were only in \[G]jest
+    \end{verse}
+
+    \begin{verse}
+      I'll \[G]go home to my parents, confess what I've \[C]done
+      And I'll \[D]ask them to pardon their prodigal \[G]son
+      And \[G]when they've caressed me as oft' times be\[C]fore
+      Then I \[G]never will \[D]play the wild rover no \[G]more
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

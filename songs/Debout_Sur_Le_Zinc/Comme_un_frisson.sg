@@ -1,0 +1,90 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Comme un frisson}[by=Debout sur le Zinc,album=La fuite en avant,cov=la-fuite-en-avant]
+
+  \cover
+
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+  \gtab{Am}{X02210}
+
+  \utab{Em}{0432}
+  \utab{B7}{2:0100}
+  \utab{Am}{2000}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[Em B7 Em]}
+  \endverse
+
+  \beginverse
+    Rien à foutre du \[Em]monde, mon amour
+    Imagine-le qui \[B7]tombe, avec ses lois autour
+    Que l'on puisse comme \[Em]{l'onde}, mon amour
+    Parcourir au même ins\[B7]tant chaque endroit, chaque jour
+    S'arrêter en\[Am]fin sur les détails
+    De la ligne \[B7]de nos mains
+    S'attarder un \[Am]peu sur les questions
+    Et les lueurs \[B7]qui passent parfois dans nos yeux
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      Nos dernières fois gâ\[Em]chées, mon amour
+      Celles qu'on a pas vues ve\[B7]nir parce qu'on vit comme on court
+      Tous ces adieux bâ\[Em]clés, trop courts
+      Par dépit, par pu\[B7]deur, par peur des demi-tours
+      Ces choix assas\[Am]sins qui restent plantés
+      Des années, \[B7]comme des refrains
+      Ces mots inter\[Am]dits que l'on prononce
+      Et qu'on regrette \[B7]aussitôt qu'on les a dits
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    Comme un fris\[Em]son, un goût de \[Am]moins
+    Un jour sans \[Em]nom, un lende\[B7]main
+    Comme un fris\[Em]son, un goût de \[Am]moins
+    Un jour sans \[Em]nom, un lende\[B7]main
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      Comme la vie nous a\[Em]bîme, mon amour
+      Comme ces chemins bali\[B7]sés font parfois des détours
+      Oui, il faut se par\[Em]ler, mon amour
+      Oui, j'aimerais être cer\[B7]tain de pouvoir dire un jour
+      Je ne regrette \[Am]rien : pas une heure
+      Pas une seconde, \[B7]pas un matin
+      Pas une pierre lan\[Am]cée, ni mes colères
+      Ni mes soupirs, \[B7]mais ces chemins écartés
+    \endverse
+
+    \beginchorus
+      Sont un fris\[Em]son, un goût de \[Am]moins
+      Un jour sans \[Em]nom, un lende\[B7]main
+      Comme un fris\[Em]son, un goût de \[Am]moins
+      Un jour sans \[Em]nom, un lende\[B7]main
+    \endchorus
+
+    \beginverse
+      Mais le temps nous manque \[Em]tant, mon amour
+      Pour dire à tous ceux qu'on \[B7]aime qu'on les aime pour toujours
+      Il nous faut vivre a\[Em]vec, mon amour
+      Vivre avec tous ces fan\[B7]tômes, toutes ces voies sans retour
+      Ils sont là qui \[Am]tournent, tournent
+      Tout autour de nous, \[B7]tous les jours
+      J'pourrais presque les \[Am]voir, les sentir, leur parler, les tenir
+      \[B7] Je n'ai pas froid
+    \endverse
+
+    \beginchorus
+      C'est un ...
+      \nolyrics \[Em Am Em B7] \[Em Am Em B7]
+    \endchorus
+
+    \beginverse
+      Rien à foutre du \[Em]monde, mon amour \[B7]
+    \endverse
+  \end{repeatedchords}
+
+\endsong

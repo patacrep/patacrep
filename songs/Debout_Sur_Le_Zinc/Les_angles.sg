@@ -1,0 +1,111 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les angles}[by=Debout sur le Zinc,cov=Des-singes-et-des-moutons,album=Des singes et des moutons]
+
+  \cover
+
+  \gtab{Dm}{XX0231}
+  \gtab{B}{1:X02220}
+  \gtab{E}{022100}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+
+  \utab{Dm}{2210}
+  \utab{B}{2:2100}
+  \utab{E}{2:2220}
+  \utab{Am}{2000}
+  \utab{F}{2010}
+  \utab{G}{0232}
+  \utab{C}{0003}
+
+  \beginverse*
+    \musicnote {\Intro : \nolyrics \[Dm Am B E] \rep{2} \[E]}
+  \endverse
+
+  \beginverse
+    \[Am]Regarde-toi
+    Tu \[F]ressembles à un meuble
+    \[Dm]Et si l'on t'observait \[B]bien
+    On pourrait voir tes \[Am]coins si saillants
+    \[F]Tellement peu seyants
+    \[Dm]Lorsque que l'on parle aux hu\[E]mains
+  \endverse
+
+  \beginverse*
+    Quand \[Dm]ta tête fond sur \[Am]ton écran
+    \[B]Je peux lire des \[E]zéros et des uns
+    Dans \[Dm]le bleu de tes \[Am]yeux éteints
+    \[B]Je me sens le \[E]pire des crétins
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]Si je panique
+      \[F]Au guichet mécanique
+      \[Dm]Mon ami, si tu sa\[B]vais
+      À quel point je \[Am]hais les salauds
+      Qui \[F]font de leur boulot
+      Une \[Dm]autre forme de pro\[E]cès
+    \endverse
+
+    \beginverse*
+      Si \[Dm]je prends à peine \[Am]la parole
+      \[B]{C'est} qu'il y a en\[E]tre toi et moi
+      Pas \[Dm]{d'empathie} mais \[Am]du formol
+      \[B]Et une pincée \[E]de mauvaise foi
+    \endverse
+  \end{repeatedchords}
+
+  \beginchorus
+    \nolyrics \[F C Dm G C] \rep{2}
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]Tu te protèges
+      De \[F]nous comme de la neige
+      \[Dm]Une pensée te glace d'ef\[B]froi
+      Suffirait-il d'un \[Am]pas de travers
+      \[F]{D'un} petit revers
+      \[Dm]Pour que tu termines comme \[E]moi
+    \endverse
+
+    \beginverse*
+      Du \[Dm]mauvais côté \[Am]du comptoir
+      \[B]Un peu perdu mais \[E]numéroté
+      En\[Dm]terrant tes rê\[Am]ves de gloire
+      \[B]De promotion, \[E]de liberté
+    \endverse
+  \end{repeatedchords}
+
+  \beginverse*
+    \musicnote {\Bridge : \nolyrics \[Dm Am B E] \rep{2} \[E]}
+  \endverse
+
+  \begin{repeatedchords}
+    \beginverse
+      \[Am]Regarde-moi
+      Je \[F]ressemble à un meuble
+      \[Dm]Et si tu m'observes \[B]bien
+      Tu pourras voir mes \[Am]coins si saillants
+      \[F]Tellement peu seyants
+      \[Dm]Lorsque je parle d'hu\[E]main
+    \endverse
+
+    \beginverse*
+      Mais \[Dm]je maudis \[Am]{l'usage} qui
+      \[B]Érige aussi \[E]sûrement qu'une loi
+      Des \[Dm]frontières entre \[Am]toi, moi, lui
+      \[B]En préambule à \[E]quoi que ce soit
+    \endverse
+
+    \beginverse*
+      Si \[Dm]je prends un peu \[Am]la parole
+      \[B]{C'est} qu'il y a en\[E]tre toi et moi
+      Pas \[Dm]{d'empathie} mais \[Am]du formol
+      \[B]Et une bonne dose \[E]de mauvaise foi
+    \endverse
+  \end{repeatedchords}
+\endsong

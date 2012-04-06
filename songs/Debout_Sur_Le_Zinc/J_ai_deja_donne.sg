@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{J'ai déjà donné}[by=Debout sur le Zinc,cov=La-fuite-en-avant,album=La fuite en avant]
+\beginsong{J'ai déjà donné}
+  [by=Debout sur le Zinc,cov=La-fuite-en-avant,album=La fuite en avant]
 
   \cover
 
@@ -16,11 +17,11 @@
   \utab{B7}{2:0100}
   \utab{D}{2220}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro : \nolyrics \[Em]}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     \[Em]J'ai déjà don\[C]né
     Les yeux \[Am]rouges, le nez qui \[B7]coule
     Les lar\[Em]mes qui vont, \[C]salées
@@ -28,10 +29,10 @@
     \[Em]Je suis tom\[C]bé tant de \[D]fois, tam\[Am]dadada
     \[C] Que je ne les compte pas \[B7]
     \[C] Ne les compte \[B7]pas
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Em]Il faut pardon\[C]ner
       Le monde \[Am]est si dur, ne \[B7]jetons pas
       \[Em]{D'huile} sur le bra\[C]sier
@@ -39,24 +40,24 @@
       \[Em]Je me suis trom\[C]pé tant de \[D]fois, tam\[Am]dadada
       \[C] Que je ne les compte pas \[B7]
       \[C] Ne les compte \[B7]pas
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \nolyrics \[Em C Am B7] \[Em C Am B7]
     \nolyrics \[Em C D Am Am] \[C B7 C B7 B7]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[Em]Le temps va pas\[C]ser
       Je cède \[Am]à l'usure, je \[B7]tourne mes pas
       \[Em]Loin de l'échi\[C]quier
       Et si \[Am]rien ne dure je \[B7]{t'oublierais}
       Mais \[Em] je garde tout \[C]au fond de \[D]moi, tam\[Am]dadada
-      \[C] Tout ce que je te dois \[B7] 
+      \[C] Tout ce que je te dois \[B7]
       \[C] Tout ce que je te \[B7]dois
-    \endverse
+    \end{verse}
   \end{repeatedchords}
 
   \lilypond {J_ai_deja_donne}

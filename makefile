@@ -40,10 +40,7 @@ else
   LILYFILE=$(LILY_SRC:%.ly=%.pdf)
 endif
 
-
 LATEX=pdflatex $(LATEX_OPTIONS)
-STAFF = "Staff"
-#STAFF = "TabStaff"
 ############################################################
 ### Targets
 
@@ -88,7 +85,7 @@ $(PDF): %.pdf: %.tex %.aux
 	$(MAKE_SONGBOOK) -s $< -d -o $@
 
 %.pdf: %.ly
-	@$(LILYPOND) --format=pdf -e '(define-public songbookstaff $(STAFF))' --output=$(@:%.pdf=%) $<
+	@$(LILYPOND) --format=pdf -e '(define-public songbookstaff "$(SONGBOOKSTAFF)")' --output=$(@:%.pdf=%) $<
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@

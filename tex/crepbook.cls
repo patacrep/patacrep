@@ -15,6 +15,7 @@
 \newif{\ifnorepeatchords}
 \newif{\ifukulele}
 \newif{\ifguitar}
+\newif{\ifonesongperpage}
 
 \tabsfalse
 \lilypondfalse
@@ -24,6 +25,7 @@
 \norepeatchordstrue
 \ukulelefalse
 \guitarfalse
+\onesongperpagefalse
 
 % Options
 \DeclareOption{tabs}{\tabstrue}
@@ -41,6 +43,7 @@
 \DeclareOption{noukulele}{\ukulelefalse}
 \DeclareOption{guitar}{\guitartrue}
 \DeclareOption{noguitar}{\guitarfalse}
+\DeclareOption{onesongperpage}{\onesongperpagetrue}
 
 \DeclareOption{10pt}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{\CurrentOption}{article}}
@@ -503,4 +506,20 @@
   \fi
 }{}%
 
+\ifonesongperpage%
+  \renewcommand\songcolumns[1]{%
+    \SB@cnt#1\relax%
+    \ifSB@preamble\else{\SB@clearpage}\fi%
+    \SB@numcols\SB@cnt%
+    \ifnum\SB@numcols>\z@%
+      \SB@colwidth-\columnsep%
+      \multiply\SB@colwidth\SB@numcols%
+      \advance\SB@colwidth\columnsep%
+      \advance\SB@colwidth\textwidth%
+      \divide\SB@colwidth\SB@numcols%
+    \else%
+      \ifrepchorus\SB@warnrc\fi%
+    \fi%
+  }
+\fi
 \makeatother

@@ -28,7 +28,7 @@
 %%:  {"name":"booktype", "description":"Type", "type":"enum", "values":["chorded","lyric"], "default":"chorded", "mandatory":true},
 %%:  {"name":"lang", "description":"Language", "default":"english"},
 %%:  {"name":"instruments", "description":"Instruments", "type":"flag", "values":["guitar","ukulele"], "join":",", "mandatory":true, "default":["guitar"]},
-%%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","lilypond","tabs","pictures"], "join":",", "mandatory":true, "default":["pictures"]},
+%%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["pictures"]},
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -40,19 +40,14 @@
 \usepackage[portuguese,spanish,english,french]{babel}
 
 \lang{\getlang}
-
-\newindex{titleidx}{\getname_title}
-\newauthorindex{authidx}{\getname_auth}
-
 \graphicspath{ {covers/}, {img/} }
 
-%hide song number
-\renewcommand{\printsongnum}[1]{}
-\setlength{\songnumwidth}{0.1cm}
+\nosongnumbers
+\pagestyle{empty}
 
 \begin{document}
 
-\begin{songs}{titleidx,authidx}
+\begin{songs}{}
   \getsongslist
 \end{songs}
 

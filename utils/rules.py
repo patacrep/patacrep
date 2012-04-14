@@ -25,6 +25,7 @@ word_dic = {
 "ptit": "p'tit",
 ##: Punctuation
 "’": "'",
+"‘": "'",
 "Ca ": "Ça ",
 "...": "{\\dots}",
 "…": "{\\dots}",

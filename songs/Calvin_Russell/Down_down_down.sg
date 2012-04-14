@@ -1,0 +1,48 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Down down down}
+  [by=Calvin Russell,cov=sounds_from_the_fourth_world,album=Sounds from the fourth world]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab*{G7}{320001}
+  \gtab*{D7}{XX0212}
+  \gtab{D}{XX0232}
+  \gtab*{G4}{XX0013}
+
+  \begin{verse*}
+    \musicnote{\Intro: \nolyrics{ \[C] \[G] \[Em] \[Am] }}
+  \end{verse*}
+
+  \begin{verse}
+    Well I k\[C]now it's been a \[G]hard road \[Em] for so long n\[Am]ow
+    And i\[F]t's taken you for \[G]a ride \[Em] down down d\[Am]own
+    But you must la\[G]\[G7]ugh even th\[C]ough \[Em] it \[Am]seems \[D7] that you should c\[G]ry \[G7] \[C] \[D7]
+  \end{verse}
+
+  \begin{verse}
+    Each m\[C]orning \[G]brings us \[Em] a different d\[Am]ay
+    And i\[F]t's counting o\[G]ur lives \[Em] down down d\[Am]own
+    But you must t\[G]ry \[G7] unt\[C]il \[Em] at l\[Am]ast \[D7]you'll know wh\[G]y \[G4]
+  \end{verse}
+
+  \begin{verse*}
+    \[C]A grain of sand, \[Em]one single leaf
+    \[Am]A candle by itself burn\[D7]ing
+    \[C]I'm just a man, \[Em]only a man
+    \[Am]And the rules of life \[D7]I'm still learning
+    \[C]Turn me round, turn me roun\[G]d
+    \[G]Well people for \[C]years I g\[D]athered the \[G]tears
+    I l\[C]ooked for the frowns \[G]on your faces
+    Now I w\[C]alk down the street
+    And \[D]the people that I me\[G]et
+    \[C]One by one I've met tho\[G]usands
+    And that's wh\[C]y that I fe\[G]el
+    That to g\[Am]ive is the fruit
+    The fruit of liv\[D7]ing our l\[G]ifes\[G7] \[C] \[Em] \[Am] \[D7] \[G]
+  \end{verse*}
+\endsong

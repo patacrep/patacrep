@@ -23,7 +23,7 @@
 
   \begin{chorus}
     C'est \[G]un \[D]peu \[G]ça, la \[Am]vie d'aventu\[G]rier
-    Et \[G]on \[D]y \[G]va, y'a des \[D]gobelins à sai\[G]gner
+    Et \[G]on \[D]y \[G]va, y a des \[D]gobelins à sai\[G]gner
   \end{chorus}
 
   \begin{verse}
@@ -34,7 +34,7 @@
   \end{verse}
 
   \begin{chorus}
-    \dots ~y'a des squelettes à poutrer
+    \dots ~y a des squelettes à poutrer
   \end{chorus}
 
   \begin{verse}
@@ -45,7 +45,7 @@
   \end{verse}
 
   \begin{chorus}
-    \dots ~y'a des orques à décimer
+    \dots ~y a des orques à décimer
   \end{chorus}
 
   \lilypond{La_vie_d_aventurier}
@@ -58,7 +58,7 @@
   \end{verse}
 
   \begin{chorus}
-    \dots ~y'a des momies à cramer
+    \dots ~y a des momies à cramer
   \end{chorus}
 
   \begin{verse}
@@ -69,7 +69,7 @@
   \end{verse}
 
   \begin{chorus}
-    \dots ~y'a des trolls à bousiller
+    \dots ~y a des trolls à bousiller
   \end{chorus}
 
   \begin{verse}
@@ -80,7 +80,7 @@
   \end{verse}
 
   \begin{chorus}
-    \dots ~y'a des minotaures à tuer
+    \dots ~y a des minotaures à tuer
   \end{chorus}
 
   \begin{verse}
@@ -91,7 +91,7 @@
   \end{verse}
 
   \begin{chorus}
-    \dots ~y'a des liches à éventrer
+    \dots ~y a des liches à éventrer
   \end{chorus}
 
   \begin{verse}
@@ -102,7 +102,7 @@
   \end{verse}
 
   \begin{chorus}
-    \dots ~y'a un dragon pour tester
+    \dots ~y a un dragon pour tester
   \end{chorus}
 
   \begin{verse}

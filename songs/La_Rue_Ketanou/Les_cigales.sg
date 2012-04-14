@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les cigales}
-  [by=La Rue Kétanou,cov=y-a-des-cigales-dans-la-fourmiliere,album=Y'a des cigales dans la fourmilière]
+  [by=La Rue Kétanou,cov=y-a-des-cigales-dans-la-fourmiliere,album=Y a des cigales dans la fourmilière]
 
   \cover
   \gtab{Dm}{XX0231}
@@ -24,9 +24,9 @@
   \end{verse}
 
   \begin{chorus}
-    Y'a des ci\[G]gales dans la fourmi\[Am]lière
+    Y a des ci\[G]gales dans la fourmi\[Am]lière
     Et vous n'pou\[F]vez rien y \[C]faire
-    Y'a des ci\[G]gales dans la fourmi\[Am]lière
+    Y a des ci\[G]gales dans la fourmi\[Am]lière
     Et c'est pour \[G]ça \[F]que j'es\[E]père
   \end{chorus}
 

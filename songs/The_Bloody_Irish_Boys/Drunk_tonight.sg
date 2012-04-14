@@ -1,0 +1,65 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Drunk tonight}
+  [by=The Bloddy Irish Boys,cov=drunk-rock,album=Drunk rock]
+
+  \cover
+  \capo{1}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+    \[C]Take me back to that \[F]open \[C]road
+    \[C]Where it leads I'll \[G]never \[C]know
+    \[C]Take me back to that \[F]place I've \[C]been
+    \[C]Where I said I'd never \[G]be a\[C]gain
+  \end{verse}
+
+  \begin{verse*}
+    So \[Am]raise your \[F]glasses to \[G]thee
+    \[Am]Celebrate another \[F]drunken year for \[G]me
+  \end{verse*}
+
+  \begin{chorus}
+    \[C]Every\[F]body's gonna \[G]get drunk to\[C]night
+    \[C]We're gonna \[F]drink and \[G]fight \echo{hey, hey, hey}
+    \[C]Every\[F]body's gonna \[G]get drunk to\[C]night
+    \[C]Everything will \[F]be al\[G]right
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]Play me a jig, \[F]sing me a \[C]tune
+      \[C]My dear friend, \[G]this shot's for \[C]you
+      \[C]Feel it burn as \[F]it goes \[C]down
+      \[C]But watch out: here comes an\[G]other \[C]round
+    \end{verse}
+
+    \begin{verse*}
+      \[Am]Drink un\[F]til you can't \[G]see
+      \[Am]Celebrate another \[F]drunken year for \[G]me
+    \end{verse*}
+
+    \begin{verse}
+      \[C]The place you've been is the \[F]place you'll \[C]be
+      \[C]The questions come but no one \[G]answers \[C]thee
+      \[C]Why we drink when were \[F]told not \[C]to
+      \[C]I guess that's just what we're \[G]born to \[C]do
+    \end{verse}
+
+    \begin{verse*}
+      So \[Am]raise your \[F]glasses to \[G]thee
+      \[Am]Celebrate another \[F]drunken year for \[G]me
+    \end{verse*}
+
+    \begin{verse}
+      \[C]Take me back to that \[F]open \[C]road
+      \[C]Where it leads I'll \[G]never \[C]know
+      \[C]Take me back to that \[F]place I've \[C]been
+      \[C]Where it starts and \[G]also \[C]ends
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

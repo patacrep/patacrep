@@ -41,10 +41,12 @@
     \end{verse}
   \end{repeatedchords}
 
+  \ifchorded
   \begin{chorus}
     \nolyrics \[Em C Am B7] \[Em C Am B7]
     \nolyrics \[Em C D Am Am] \[C B7 C B7 B7]
   \end{chorus}
+  \fi
 
   \begin{repeatedchords}
     \begin{verse}

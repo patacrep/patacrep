@@ -1,0 +1,101 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La corrida}
+  [by=Francis Cabrel,cov=samedi-soir,album=Samedi soir sur la Terre]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{B&sus2}{1:002200}
+  \gtab{Csus2}{030010}
+  \gtab{Dsus4}{XX0233}
+  \gtab{Asus4}{X02230}
+
+  \begin{verse}
+    Depuis le \[Dm]temps que je patiente
+    Dans cette \[F]chambre noire
+    J'entends qu'on \[C]s'amuse et qu'on chante
+    Au bout du \[B&sus2]couloir
+  \end{verse}
+
+  \begin{verse*}
+    Quelqu'un a \[Dm]touché le verrou
+    Et j'ai plon\[F]gé vers le grand jour
+    J'ai vu les \[C]fanfares, les barrières
+    Et les gens \[B&sus2]autour
+  \end{verse*}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[Dm F C B{$\flat$}sus2]}
+  \end{verse*}
+
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Dans les pre\[Dm]miers moments j'ai cru
+      Qu'il fallait \[F]seulment se défendre
+      Mais cette \[C]place est sans issue
+      Je commence à \[B&sus2]comprendre
+    \end{verse}
+
+    \begin{verse*}
+      Ils ont re\[Dm]fermé derrière moi
+      Ils ont eu \[F]peur que je recule
+      Je vais bien \[C]finir par l'avoir
+      Cette dan\[B&sus2]seuse ridicule
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Dm F] Est-ce que ce monde est \[C]sérieux ?\[B&sus2] \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Andalou\[Dm]sie je me souviens
+      Les prairies \[F]bordées de cactus
+      Je ne vais pas \[C]trembler
+      Devant ce pantin, ce \[B&sus2]minus !
+    \end{verse}
+
+    \begin{verse*}
+      Je vais l'attra\[Dm]per lui et son chapeau
+      Les faire tour\[F]ner comme un soleil
+      Ce soir la \[C]femme du torero
+      Dormira \[B&sus2]sur ses deux oreilles
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[B&sus2]J'en ai poursuivi des fan\[Csus2]tômes
+    Presque tou\[Dm]ché leurs ballerines \[Dsus4 Dm]
+    Ils ont fra\[Bsus2]ppé fort dans mon cou
+    Pour que je \[A]m'incline \[Asus2 A]
+    Ils sortent \[B&sus2]d'où ces acrobates
+    \[Csus2]Avec leurs costumes de \[Dm]papier ? \[Dsus4 Dm]
+    J'ai jamais \[B&sus2]appris à me battre
+    Contre des \[Csus2]poupées \[B&sus2]
+  \end{bridge}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[Dm F C B{$\flat$}sus2]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Sentir le \[Dm]sable sous ma tête
+      C'est fou comme \[F]ça peut faire du bien
+      J'ai prié \[C]pour que tout s'arrête
+      Andalou\[B&sus2]sie je me souviens
+    \end{verse}
+
+    \begin{verse*}
+      Je les entends \[Dm]rire comme je râle
+      Je les vois \[F]danser comme je succombe
+      Je ne pensais \[C]pas qu'on puisse autant
+      S'amuser \[B&sus2]autour d'une tombe
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

@@ -3,71 +3,71 @@
 \beginsong{Ballade de Jim}
   [by=Alain Souchon,cov=comme-vous-voulez,album=C'est comme vous voulez]
 
-\cover
-\capo{3}
-\gtab{C}{X32010}
-\gtab{Am}{X02210}
-\gtab{F}{1:022100}
-\gtab{G}{320002}
+  \cover
+  \capo{3}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320002}
 
-\begin{verse}
-\[C]Comme elle est partie, Jim a les nerfs \[Am]
-\[C]Jimmy boit du gin dans sa Chrysler \[Am]
-La pres\[F]qu'île, le boule\[G]vard de la mer est \[C]con
-Comme elle est par\[F]tie
-Atten\[G]tion : Jimmy tourne en \[C]rond
-\end{verse}
+  \begin{verse}
+    \[C]Comme elle est partie, Jim a les nerfs \[Am]
+    \[C]Jimmy boit du gin dans sa Chrysler \[Am]
+    La pres\[F]qu'île, le boule\[G]vard de la mer est \[C]con
+    Comme elle est par\[F]tie
+    Atten\[G]tion : Jimmy tourne en \[C]rond
+  \end{verse}
 
-\begin{repeatedchords}
-\begin{verse*}
-\[C]Hier soir encore, son héroïne \[Am]
-\[C]Le serrait si fort en disant Jim \[Am]
-Elle é\[F]tait son cal\[G]mant, son alcool pro\[C]fond
-Comme elle est par\[F]tie
-Atten\[G]tion : Jimmy tourne pas \[C]rond
-\end{verse*}
-\end{repeatedchords}
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[C]Hier soir encore, son héroïne \[Am]
+      \[C]Le serrait si fort en disant Jim \[Am]
+      Elle é\[F]tait son cal\[G]mant, son alcool pro\[C]fond
+      Comme elle est par\[F]tie
+      Atten\[G]tion : Jimmy tourne pas \[C]rond
+    \end{verse*}
+  \end{repeatedchords}
 
-\begin{chorus}
-\[F]Jimmy, t'es fort, mais \[G]tu pleures
-Sur le \[Am]cuir de ta Chrysler
-\[F]Là-bas le soleil s'é\[G]croule dans la \[C]mer
-\[F]Jimmy, les filles pour \[G]le cœur
-Comme l'al\[Am]cool et les revolvers
-C'est \[F]sauter en l'air
-\[G]Tomber par terre
-\[Am]Boum !
-\end{chorus}
+  \begin{chorus}
+    \[F]Jimmy, t'es fort, mais \[G]tu pleures
+    Sur le \[Am]cuir de ta Chrysler
+    \[F]Là-bas le soleil s'é\[G]croule dans la \[C]mer
+    \[F]Jimmy, les filles pour \[G]le cœur
+    Comme l'al\[Am]cool et les revolvers
+    C'est \[F]sauter en l'air
+    \[G]Tomber par terre
+    \[Am]Boum !
+  \end{chorus}
 
-\begin{repeatedchords}
-\begin{verse}
-\[C]Depuis deux ans, sûr, Jim bossait fort \[Am]
-\[C]Pour que sa starlette bronze en hors-bord \[Am]
-Avec \[F]elle, il vou\[G]lait un bébé, sans \[C]rire
-Comme elle est par\[F]tie
-Atten\[G]tion : Jimmy veut mou\[C]rir
-\end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]Depuis deux ans, sûr, Jim bossait fort \[Am]
+      \[C]Pour que sa starlette bronze en hors-bord \[Am]
+      Avec \[F]elle, il vou\[G]lait un bébé, sans \[C]rire
+      Comme elle est par\[F]tie
+      Atten\[G]tion : Jimmy veut mou\[C]rir
+    \end{verse}
 
-\begin{verse}
-\[C]Jimmy va trop vite, Jimmy pleurniche \[Am]
-\[C]Il sent son parfum sur la corniche \[Am]
-Les la\[F]cets, le gra\[G]vier, et, dans l'air du \[C]soir
-La Chrysler s'en\[F]vole
-Dans les fou\[G]gères et les nénu\[C]phars
-\end{verse}
-\end{repeatedchords}
+    \begin{verse}
+      \[C]Jimmy va trop vite, Jimmy pleurniche \[Am]
+      \[C]Il sent son parfum sur la corniche \[Am]
+      Les la\[F]cets, le gra\[G]vier, et, dans l'air du \[C]soir
+      La Chrysler s'en\[F]vole
+      Dans les fou\[G]gères et les nénu\[C]phars
+    \end{verse}
+  \end{repeatedchords}
 
-\begin{verse*}
-\musicnote{\nolyrics \[F G Am] \rep{4}}
-\end{verse*}
+  \begin{verse*}
+    \musicnote{\nolyrics \[F G Am] \rep{4}}
+  \end{verse*}
 
-\begin{repeatedchords}
-\begin{verse}
-\[C]Jimmy s'éveille dans l'air idéal \[Am]
-\[C]Le paradis clair d'une chambre d'hôpital \[Am]
-L'infir\[F]mière est un \[G]ange et ses yeux sont \[C]verts
-Comme elle lui sou\[F]rit
-Atten\[G]tion : Jimmy veut lui \[C]plaire
-\end{verse}
-\end{repeatedchords}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]Jimmy s'éveille dans l'air idéal \[Am]
+      \[C]Le paradis clair d'une chambre d'hôpital \[Am]
+      L'infir\[F]mière est un \[G]ange et ses yeux sont \[C]verts
+      Comme elle lui sou\[F]rit
+      Atten\[G]tion : Jimmy veut lui \[C]plaire
+    \end{verse}
+  \end{repeatedchords}
 \endsong

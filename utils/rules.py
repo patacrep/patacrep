@@ -12,6 +12,7 @@ re.LOCALE
 word_dic = {
 ##: oe inclusion
 "coeur": "cœur",
+"choeur": "chœur",
 "boeuf": "bœuf",
 "oeuvre": "œuvre",
 "soeur": "sœur",

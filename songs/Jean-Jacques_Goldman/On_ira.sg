@@ -1,0 +1,70 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{On ira}
+  [by=Jean-Jacques Goldman,cov=en-passant,album=En passant]
+
+  \cover
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab*{D/F#}{2X0232}
+  \gtab{E4}{022200}
+  \gtab{F#m}{2:022000}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+
+  \begin{verse}
+    \[A]On partira de nuit, l'heure où l'on doute
+    Que dem\[E]ain revienne encore
+    Loin des v\[D/F#]illes soumises, on suivra l'autoroute
+    Ensuite on p\[A]erdra tous les no\[E]rds \[E4]
+    \[A]On laissera nos clés, nos cartes et nos codes
+    Prisons \[E]pour nous retenir
+    Tous ces \[D/F#]gens qu'on voit vivre comme s'ils ignoraient
+    Qu'un jour \[A]il faudra mour\[E]ir \[E4]
+    Et \[D/F#]qui se font surpr\[E]endre au soir
+  \end{verse}
+
+  \begin{chorus}
+    Oh b\[A]elle, on i\[E]ra
+    On parti\[F#m]ra toi et moi, \[D]où ?, je sais pas
+    \[A]Y a que les routes \[E]qui sont belles
+    Et \[D/F#]peu importe où \[E]elles nous mènent
+    Oh \[A]belle, on i\[E]ra, on suivra les \[F#m]étoiles et \[D]les chercheurs d'or
+    \[A]Si on en trouve, \[E]on cherchera \[D]encore
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[A]On n'échappe à rien pas même à ses fuites
+      Quand on \[E]se pose on est mort
+      Oh j'ai \[D]tant obéi, si peu choisi petite
+      Et le temps \[A]perdu me dé\[E]vore
+      \[A]On prendra les froids, les brûlures en face
+      On inter\[E]dira les tiédeurs
+      Des fu\[D]mées, des alcools et des calmants cuirasses
+      Qui nous ont \[A]volé nos doul\[E]eurs
+      La \[D]vérité nous \[E]fera plus peur
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Oh \[A]belle, on i\[E]ra
+    On parti\[F#m]ra toi et moi, \[D]où ?, je sais pas
+    \[A]Y a que des routes \[E]qui tremblent
+    Les \[D/F#]destinations \[E]se ressemblent
+    Oh \[A]belle, tu ver\[E]ras
+    On suivra \[F#m]les étoiles et \[D]les chercheurs d'or
+    On s\[Bm]'arrêtera \[A]jamais dans les \[E]ports \[E4]
+  \end{chorus}
+
+
+  \begin{chorus}
+    Oh \[A]belle, on i\[E]ra
+    Et l'ombre \[F#m]ne nous rattrape\[D]ra peut-être pas
+    \[A]On ne changera \[E]pas le monde
+    Mais \[D/F#]il ne nous chan\[E]gera pas
+    Ma \[A]belle, tiens mon \[E]bras
+    On sera des \[F#m]milliers dans ce \[D]cas, tu verras
+    \[A]Et même si \[E]tout est joué d'a\[D]vance, on \[E]ira, on ira
+  \end{chorus}
+\endsong

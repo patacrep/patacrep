@@ -1,0 +1,73 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Hélène}
+  [by=Roch Voisine,cov=helene,album=Hélène]
+
+\cover
+\gtab{Em}{022000}
+\gtab{G}{320002}
+\gtab{C}{X32010}
+\gtab{D}{XX0232}
+\gtab{Am}{X02210}
+
+\begin{verse}
+\[Em]Seul sur le sa\[G]ble
+Les yeux dans \[C]{l'eau}
+\[D]Mon rêve était trop \[Em]beau
+L'été qui s'achè\[G]ve tu parti\[C]ras
+À \[D]cent mille lieux de \[Em]moi
+Comment oubli\[G]er ton sou\[C]rire
+Et \[D]tellement de souve\[Em]nirs \[G C D]
+\end{verse}
+
+\begin{repeatedchords}
+\begin{verse*}
+\[Em]Nos jeux dans les va\[G]gues
+Près du \[C]quai
+Je \[D]n'ai vu le temps pas\[Em]ser
+L'amour sur la pla\[G]ge déser\[C]tée
+Nos \[D]corps brûlés enla\[Em]cés
+Comment t'ai\[G]mer si tu t'en \[C]vas
+Dans \[D]ton pays loin là-\[Em]bas \[G C D]
+\end{verse*}
+\end{repeatedchords}
+
+\begin{chorus}
+\[G]Hélène things you \[C]do
+\[G]Make me crazy 'bout \[C]you
+\[G]Pourquoi tu pars reste \[C]ici
+\[Am]J'ai tant besoin d'une a\[D]mie
+\end{chorus}
+
+\begin{chorus}
+\[G]Hélène things you \[C]do
+\[G]Make me crazy 'bout \[C]you
+\[G]Pourquoi tu pars si \[C]loin de moi
+\[Am]Là ou le vent te porte
+\[C]Loin de mon cœur qui \[G]bat \[D C]
+\end{chorus}
+
+\begin{repeatedchords}
+\begin{chorus}
+\[G]Hélène things you \[C]do
+\[G]Make me crazy 'bout \[C]you
+\[G]Pourquoi tu pars reste \[C]ici
+\[Am]Reste encore juste une \[D]nuit
+\end{chorus}
+
+\begin{verse}
+\[Em]Seul sur le sa\[G]ble
+Les yeux dans \[C]{l'eau}
+\[D]Mon rêve était trop \[Em]beau
+L'été qui s'achè\[G]ve tu parti\[C]ras
+À \[D]cent mille lieux de \[Em]moi
+Comment t'ai\[G]mer si tu t'en \[C]vas
+Dans \[D]ton pays loin là-\[Em]bas \[G C D]
+Dans \[D]ton pays loin là-\[Em]bas \[G C D]
+\end{verse}
+\end{repeatedchords}
+
+\begin{verse*}
+Dans \[D]ton pays loin de \[Em]moi
+\end{verse*}
+\endsong

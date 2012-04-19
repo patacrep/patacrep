@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Un enfant de toi}
+  [by=Phil Barney,cov=recto-verseau,album=Recto-Verseau]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{Am7}{X02010}
+  \gtab{B7}{X21202}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+    C'était le \[Em]mois de février
+    Ton \[Am7]ventre était bien rond
+    C'est \[B7]vrai qu'on l'attendait
+    On voulait \[Em]{l'appeler} Jason
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Ce matin-\[Em]là il faisait froid
+      J'avais ren\[Am7]dez-vous au studio
+      Et tout en \[B7] soufflant sur mes doigts
+      J'disais l'pe\[Em]tit s'ra un verseau
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Avoir un \[Am]seul enfant de toi
+    Ça fesait long\[Em]temps que j'attendais
+    Le voir gran\[Am]dir auprès de toi
+    C'est le ca\[Em]deau dont je rêvais
+    Qu'il ait ton \[Am]sourire, ton regard
+    Quand tu te \[Em]lèves le matin
+    Avec l'a\[B7]mour et tout l'espoir
+    Que j'ai quand \[Em]tu me tiens la main
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Et puis on \[Em]m'a téléphoné
+      Et moi bien \[Am7]sûr j'ai tout quitté
+      Les ch\oe urs, les \[B7]cuivres et la rythmique
+      Je devenais pa\[Em]pa c'était magique
+    \end{verse}
+
+    \begin{verse*}
+      Puis le ta\[Em]xi m'a déposé
+      Devant la \[Am7]porte de la clinique
+      Et comme un \[B7]fou je suis monté
+      Garçon ou \[Em]fille c'était critique
+    \end{verse*}
+
+    \begin{verse}
+      On m'a ten\[Em]du un paquet d'langes
+      Dans lequel \[Am7]petit homme dormait
+      Puis on m'a \[B7]dit d'une voix étrange
+      Que c'était \[Em]tout ce qui m'restait
+    \end{verse}
+
+    \begin{verse*}
+      Tout le monde \[Em]était très gentil
+      Et moi je \[Am7]ne comprenais pas
+      Que dans son \[B7]c\oe ur y avait la vie
+      Et qu'dans le \[Em]tien il faisait froid
+    \end{verse*}
+
+    \begin{verse}
+      Ça fait dix \[Em]ans qu't'as fait le vide
+      Ça fait dix \[Am7]ans qu'tu n'es pas là
+      C'est l'petit \[B7]homme qui compte mes rides
+      Il dit qu'il \[Em]t'aime à travers moi
+    \end{verse}
+
+    \begin{verse*}
+      Personne de\[Em]puis n'a pris ta place
+      L'enfant est \[Am7]là et j'l'aime pour deux
+      Ton image est \[B7]bien trop vivace
+      Et c'est bien celle \[Em]que j'aime le mieux
+    \end{verse*}
+  \end{repeatedchords}
+\endsong

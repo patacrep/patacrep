@@ -24,6 +24,8 @@ PDF = $(TARGETS:%=%.pdf)
 CHORDS = chords.tex
 CHORDS_SRC = $(shell ls songs/*/*.sg)
 
+DATE = $(shell date +%d)-$(shell date +%m)-$(shell date +%Y)
+
 PRINT=printf "%s\n"
 PRINTTAB=printf "\t%s\n"
 
@@ -58,7 +60,6 @@ clean:
 	       $(TARGETS:%=%.toc) $(TARGETS:%=%.out) $(TARGETS:%=%.log) \
 	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm)
 	@rm -f *.sbx *.sxd *.sxc
-	@rm -f lilypond/*.ps
 	@rm -f *.pyc
 
 cleanall: clean
@@ -89,6 +90,18 @@ $(PDF): %.pdf: %.tex %.aux
 
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
+
+archive: clean
+	tar -czvf songbook-$(DATE).tar.gz \
+	--exclude=*pdf \
+	--exclude=.git --exclude=.gitignore \
+	--exclude=$(BOOKS_DIR)/default.sb \
+	--exclude=perso/* --exclude=perso \
+	--exclude=build/* --exclude=build \
+	--exclude=covers/* --exclude=covers \
+	--exclude=data/* --exclude=data \
+	--exclude=*tar.gz \
+	../songbook
 
 ifeq (.pdf,$(suffix $(MAKECMDGOALS)))
 include $(MAKECMDGOALS:%.pdf=%.d)

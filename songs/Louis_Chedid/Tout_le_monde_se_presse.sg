@@ -1,4 +1,4 @@
-﻿\selectlanguage{english}
+\selectlanguage{english}
 \songcolumns{2}
 \beginsong{Tout le monde se presse}[by=Louis Chedid,album=Le soldat rose]
 
@@ -6,7 +6,7 @@
 \gtab{C7/9*} {X32333}
 \gtab{F}{133211}
 \gtab{F7}{131211}
-\gtab{F7/9}{X87888}
+\gtab{ F7/9}{X87888}
 \gtab{D7/9}{X54555}
 \gtab{G}{355433}
 \gtab{C7}{X32310}
@@ -14,12 +14,12 @@
 \gtab{Gm7}{XX3333}
 \gtab{G7/5#}{XX3443}
 \gtab{C#7/9}{X43444}
-\gtab{Gdim}{XX2323}
-\gtab{B&dim}{3:XX2323}
-\gtab{C#dim}{6:XX2323}
-\gtab{Edim}{9:XX2323}
-\gtab{Gdim*}{12:XX2323}
-
+\gtab{Gdim}{xx2323}
+\gtab{B&dim}{xx5656}
+\gtab{C#dim}{xx8989}
+\gtab{Edim}{xx1112112}
+\gtab{Gdim*}{xx14151415}
+       
 
 
 \beginchorus
@@ -59,10 +59,8 @@ Mais surtout ne descendez pas
 \beginchorus
 \[C7/9]Tout l'monde se presse, tout l'monde se presse, \[F]Attention au départ 
 \[C#7/9]Tout l'monde se \[C7/9*]presse, tout l'monde se presse, \rep{3}
-
-\[Gdim]   \[Bbdim]   \[C#dim]   \[Edim]       \[Gdim*]
+\[Gdim] \[B&dim] \[C#dim] \[Edim] \[Gdim*]
 (Zorro est arri...)
-
 \endchorus
 
 
@@ -75,22 +73,4 @@ Mais surtout ne descendez pas
 \[F#7/9]
 \endchorus
 
-________________________________________________________________________________
-Le passage C7 - C#dim - Gm7 - G7/5# - (C7) assez rapide 
-peut être remplacé par des basses en octaves plus simples
-
-Guitare 1 |--0----3----3----3----|--3-
-          |--1----2----3----4----|--5-
-          |--3----3----3----4----|--3-
-          |--2----2----3----3----|--5-
-          |--3-------------------|-----
-          |----------------------|-----
-                                    
-Guitare 2 |----------------------|-----
-          |----------------------|-----
-          |--5----6----7----8----|--9-
-          |--x----x----x----x----|--x--
-          |--3----4----5----6----|--7-
-          |----------------------|-----
-________________________________________________________________________________ 
 \endsong

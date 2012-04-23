@@ -9,13 +9,32 @@ import re
 import json
 import locale
 import sortindex
+import shutil
+
+def copyCovers():
+   '''
+   Copy all covers found in songs/ hierarchy into a same folder.  This
+   allows a much faster search for pdflatex since the \graphicspath
+   macro now only contains a single directory instead of quite a long
+   list to search through.
+   '''
+   #create "covers/" directory if it does not exist
+   d = os.path.dirname("covers/")
+   if not os.path.exists(d):
+      os.makedirs(d)
+
+   covers = list(set(glob.glob('songs/*/*.jpg')))
+   for cover in covers:
+      f = "covers/" + os.path.basename(cover)
+      if(os.path.exists(f) == False):
+         shutil.copy(cover, f)
 
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
 
 def songslist(songs):
     directories = set(["img/"] + map(lambda x: "songs/" + os.path.dirname(x), songs))
-    result = ['\\graphicspath{'] + [ '  {{{0}/}},'.format(d) for d in directories ] + ['}'] + [ '\\input{{songs/{0}}}'.format(s.strip()) for s in songs ]
+    result = [ '\\input{{songs/{0}}}'.format(s.strip()) for s in songs ]
     return '\n'.join(result)
 
 def parseTemplate(template):
@@ -186,6 +205,8 @@ def main():
         f = open(songbook)
         sb = json.load(f)
         f.close()
+
+        copyCovers()
 
         if depend:
             makeDepend(sb, output)

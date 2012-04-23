@@ -1,9 +1,16 @@
 \selectlanguage{french}
 \songcolumns{2}
+<<<<<<< HEAD
 \beginsong{Sur le fil}[by=Debout sur le Zinc,cov=La-fuite-en-avant,album=La fuite en avant]
 
   \cover
 
+=======
+\beginsong{Sur le fil}
+  [by=Debout sur le Zinc,cov=la-fuite-en-avant,album=La fuite en avant]
+
+  \cover
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
   \gtab{F}{1:022100}
   \gtab{Am}{X02210}
   \gtab{Dm}{XX0231}
@@ -12,7 +19,10 @@
   \gtab{A}{X02220}
   \gtab{G}{320003}
   \gtab{C}{X32010}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
   \utab{F}{2010}
   \utab{Am}{2000}
   \utab{Dm}{2210}
@@ -22,66 +32,112 @@
   \utab{G}{0232}
   \utab{C}{0003}
 
+<<<<<<< HEAD
   \beginverse*
     \musicnote {\Intro : \nolyrics \[F]}
   \endverse
 
   \beginverse
+=======
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[F]}
+  \end{verse*}
+
+  \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
     \[F] Mais qu'est-ce qui les fait cou\[Am]rir
     Les fait avan\[F]cer
     Les oblige à tous se \[Am]suivre
     À se rassu\[Dm]rer
     Dans un tourbillon effra\[B7]yant
     Vers lequel ils vont en chan\[E7]tant ?
+<<<<<<< HEAD
   \endverse
 
   \begin{repeatedchords}
     \beginverse*
       \[F] Moi, j'me noie dans un verre \[Am]{d'eau}   
+=======
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[F] Moi, j'me noie dans un verre \[Am]{d'eau}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       J'ai surement ra\[F]té
       Un truc, un très gros pan\[Am]neau
       Je ne peux pas les rattra\[Dm]per
       Si d'aventure je m'y es\[B7]saye
       Pour moi c'est la chute assu\[E7]rée
+<<<<<<< HEAD
     \endverse
   \end{repeatedchords}
 
   \beginchorus
+=======
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
     Car je \[A]vis comme \[Dm]on marche sur un \[Am]fil
     Un \[Dm]seul battement de \[Am]cils
     Suffi\[G]rait à me faire tom\[C]ber \[E7]
     Oui je \[A]suis une \[Dm]espèce fra\[Am]gile
     Un \[Dm]rien, un imbé\[Am]cile
     Un musi\[G]cien, un éga\[C]ré \[E7]
+<<<<<<< HEAD
   \endchorus
 
   \begin{repeatedchords}
     \beginverse
+=======
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       \[F] Je n'ai pas de mode d'em\[Am]ploi
       Je n'les lis ja\[F]mais
       Je crois que je n'y crois \[Am]pas
       Et que je me \[Dm]fais
       Jour après jour aux alé\[B7]as
       Et aux incidents de par\[E7]cours
+<<<<<<< HEAD
     \endverse
 
     \beginverse*
+=======
+    \end{verse}
+
+    \begin{verse*}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       \[F] Toi, tu voulais être in\[Am]dien
       Lui, un poli\[F]cier
       Elle, un ingénieur mar\[Am]tien
       Lui, une jolie \[Dm]fée
       Mais on se retrouve à 20 \[B7]heures
       Bien souvent sur nos cana\[E7]pés
+<<<<<<< HEAD
     \endverse
 
     \beginchorus
+=======
+    \end{verse*}
+
+    \begin{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       Car on \[A]vit comme \[Dm]on marche sur un \[Am]fil
       Un \[Dm]seul battement de \[Am]cils
       Suffi\[G]rait à nous faire dou\[C]ter \[E7]
       Oui nous \[A]sommes une \[Dm]espèce fra\[Am]gile
       Une \[Dm]poussière in\[Am]fime
       Et nos \[G]rêves se sont envo\[C]lés \[E7]
+<<<<<<< HEAD
     \endchorus
+=======
+    \end{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
   \end{repeatedchords}
 
   \begin{bridge}
@@ -90,22 +146,33 @@
   \end{bridge}
 
   \begin{repeatedchords}
+<<<<<<< HEAD
     \beginverse
+=======
+    \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       \[F] La vie c'est de la bri\[Am]cole
       Deux, trois bouts de fi\[F]celle
       Un élastique et on dé\[Am]colle
       Alors visons le \[Dm]ciel
       Car c'est ce qu'on fait de \[B7]mieux
       Rêver nous fait pousser des \[E7]ailes
+<<<<<<< HEAD
     \endverse
 
     \beginchorus
+=======
+    \end{verse}
+
+    \begin{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       On vi\[A]vra comme \[Dm]on marche sur un \[Am]fil
       In\[Dm]solent, indo\[Am]cile
       Tout là-\[G]haut sur la cano\[C]pée \[E7]
       Car nous \[A]sommes une \[Dm]espèce fra\[Am]gile
       Qui \[Dm]{d'un} battement de \[Am]cil
       Pourrait at\[G]teindre l'éterni\[C]té \[E7]
+<<<<<<< HEAD
     \endchorus
 
     \beginchorus
@@ -121,5 +188,22 @@
       On vi\[A]vra comme \[Dm]on marche sur un \[Am]fil\dots{}
       \nolyrics \[D Am G C E7]
     \endchorus
+=======
+    \end{chorus}
+
+    \begin{chorus}
+      On vi\[A]vra comme \[Dm]on marche sur un \[Am]fil
+      In\[Dm]solent, indo\[Am]cile
+      Tout là-\[G]haut sur la cano\[C]pée \[E7]
+      Oui, nous \[A]sommes une \[Dm]espèce fra\[Am]gile
+      Qui \[Dm]{d'un} battement de \[Am]cil
+      Pourrait tou\[G]cher l'éterni\[C]té \[E7]
+    \end{chorus}
+
+    \begin{chorus}
+      On vi\[A]vra comme \[Dm]on marche sur un \[Am]fil\dots{}
+      \nolyrics \[D Am G C E7]
+    \end{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
   \end{repeatedchords}
 \endsong

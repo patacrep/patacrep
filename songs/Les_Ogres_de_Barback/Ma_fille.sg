@@ -3,7 +3,6 @@
 \beginsong{Ma fille}
   [by=Les Ogres de Barback,cov=du-simple-au-neant,album=Du simple au néant]
 
-
   \cover
   \gtab{Em}{7:X02210}
   \gtab{G}{3:022100}
@@ -44,82 +43,87 @@
     Un orage en colère
     Un vol \[D]de cormo\[Em]rans
     Des millions éphémères
-    Des gouttes d'eau, du vent
+    Des gouttes \[D]{d'eau}, du \[Em]vent
   \end{verse*}
 
-  \begin{chorus}
-    Vois-tu, ma fille
-    Je n'ai rien vu de mieux !
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      Vois-\[G]tu, ma fille
+      Je n'ai rien \[D]vu de \[Em]mieux !
+    \end{chorus}
+  \end{repeatedchords}
 
   \begin{verse}
-    Y'a des âmes imbéciles
-    Qui se battent et pour peu
+    Y a \[Em]des âmes imbéciles
+    Qui se \[D]battent et pour \[Em]peu
     Et d'autres plus tranquilles
-    Qui m'ont offert du temps
-    J'en ai gardé l'odeur
-    D'une épice qui grille
-    J'ai goûté la saveur
-    Lorsque le feu pétille
+    Qui m'ont \[D]offert du \[Em]temps
+    J'en ai \[G]gardé l'odeur
+    D'une é\[D]pice qui \[Em]grille
+    J'ai \[G]goûté la saveur
+    Lorsque le \[C]feu pé\[D]tille
   \end{verse}
 
   \begin{verse*}
-    Lorsque le feu divin
-    Sous un ciel qui brille
-    De mille étoiles filantes
-    D'une main dans ma main
+    Lorsque le \[C]feu di\[D]vin
+    Sous un \[C]ciel qui \[D]brille
+    De mille é\[C]toiles fi\[D]lantes
+    D'une \[C]main dans ma \[D]main
     Pour une nuit pétante
   \end{verse*}
 
   \begin{verse*}
-    Amène prétentieux
-    L'envie d'une autre vie
+    Amène \[Em]prétentieux
+    L'envie \[D]{d'une} autre \[Em]vie
     La volonté discrète
-    De se poser enfin
+    De se \[D]poser en\[Em]fin
     D'oublier les conquêtes
-    Et fuir le chemin
+    Et fuir \[D]le che\[Em]min
   \end{verse*}
 
-  \begin{chorus}
-    Je te le dis, ma fille
-    Je n'y ai rien fait de mieux !
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      Je te le \[G]dis, ma fille
+      Je n'y ai rien \[D]fait de \[Em]mieux !
+    \end{chorus}
+  \end{repeatedchords}
 
   \begin{verse}
-    Et je suis reparti
+    Et \[Em]je suis reparti
     Continuer, sans arrêt
     À fouiller dans les trains
   \end{verse}
 
   \begin{verse*}
-    À retourner la terre
-    À perdre des matins
-    À boire dans tous les verres
-    Si l'alcool s'ennuie
+    À re\[D]tourner la \[Em]terre
+    À per\[D]dre des ma\[Em]tins
+    À boire \[D]dans tous les \[Em]verres
+    Si l'al\[D]cool s'en\[Em]nuie
     Pour être sûr du goût
-    Du goût de mon dégoût
+    Du goût \[D]de mon dé\[Em]goût
     Quand l'ivresse s'enfuit
-    Je me suis retrouvé
+    Je me \[D]suis retrou\[Em]vé
     De situations drôles
-    À d'autres plus violentes
+    À d'au\[D]tres plus vio\[Em]lentes
   \end{verse*}
 
   \begin{verse*}
-    Prince et puis poète
-    Clochard et sans issue
-    Paumé, analphabète
-    Roi du monde indécis
+    Prince et \[D]puis po\[Em]ète
+    Clochard \[D]et sans is\[Em]sue
+    Paumé, \[D]analpha\[Em]bète
+    Roi du \[D]monde indé\[Em]cis
     De rendre le bonheur
-    À des gens plus petits
-    Puis dévoiler l'horreur
-    D'une vie malhonnête
+    À des \[D]gens plus pe\[Em]tits
+    Puis dé\[G]voiler l'horreur
+    D'une \[D]vie malhon\[Em]nête
   \end{verse*}
 
-  \begin{chorus}
-    Entends-tu, ma fille
-    Je n'ai rien dit de mieux !
-  \end{chorus}
-
+  \begin{repeatedchords}
+    \begin{chorus}
+      Entends-\[G]tu, ma fille
+      Je n'ai rien \[D]dit de \[Em]mieux !
+    \end{chorus}
+  \end{repeatedchords}
 
   \begin{verse}
     J'ai \[D]frôlé de mes doigts
@@ -128,23 +132,23 @@
     Pour l'amour éter\[Em]nel
     Traî\[D]nant dans les quartiers
     Où vivent \[Em]les étoiles
-    Qui m'ont appris, déçues
-    Qu'être superficiel
-    Qu'on vive pour le cul
-    Dans un décor de miel
+    Qui m'ont ap\[D]pris, dé\[Em]çues
+    Qu'être \[D]superfi\[Em]ciel
+    Qu'on vi\[D]ve pour le \[Em]cul
+    Dans un dé\[D]cor de \[Em]miel
     Le savoir dans la soie
   \end{verse}
 
   \begin{verse*}
-    Le luxe et l'importance
-    Derrière chacun pour soi
-    Cache encore la souffrance
-    Je les ai saluées
-    Et là encore j'ai fui
+    Le luxe \[C]et l'impor\[D]tance
+    Derrière \[C]chacun pour \[D]soi
+    Cache en\[C]core la souf\[D]france
+    Je les \[C]ai sa\[D]luées
+    Et là en\[C]core j'ai \[D]fui
   \end{verse*}
 
   \begin{verse*}
-    Je me suis réfugié
+    \[D]Je me suis réfugié
     Enfermé pour de bon
     Des pensées, des idées
     Délivré des leçons
@@ -153,33 +157,35 @@
   \end{verse*}
 
   \begin{verse}
-    J'en ai veillé des nuits
-    À passer en revue
+    J'en ai \[Em]veillé des nuits
+    À pas\[D]ser en re\[Em]vue
     Les couleurs de ma vie
-    Je me suis aperçu
-    Au terme du bilan
-    Si c'était réussi
+    Je me \[D]suis aper\[Em]çu
+    Au terme \[D]du bi\[Em]lan
+    Si c'é\[D]tait réus\[Em]si
     Que je parle dix langues
-    J'ai sur le bout des doigts
+    J'ai sur \[D]le bout des \[Em]doigts
     La culture et les lois
-    Et cette main qui tangue
+    Et cette \[D]main qui \[Em]tangue
   \end{verse}
 
   \begin{verse*}
     À coucher au papier
-    Tous ces mots inutiles
+    Tous ces \[D]mots inu\[Em]tiles
     Où je parle de moi
-    Pour mieux parler de toi
+    Pour mieux \[D]parler de \[Em]toi
     À coucher au papier
-    Tous ces mots inutiles
+    Tous ces \[D]mots inu\[Em]tiles
     Où je parle de moi
-    Pour mieux parler de toi
+    Pour mieux \[D]parler de \[Em]toi
   \end{verse*}
 
-  \begin{chorus}
-    Où je parle de moi
-    Pour mieux parler de toi
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      Où je \[G]parle de moi
+      Pour mieux \[D]parler de \[Em]toi
+    \end{chorus}
+  \end{repeatedchords}
 
 \endsong
 

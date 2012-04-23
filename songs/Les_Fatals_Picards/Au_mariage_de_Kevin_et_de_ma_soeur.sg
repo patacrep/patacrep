@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
-\beginsong{Au mariage de Kévin et de ma sœur}[by=Les Fatals Picards,cov=Pamplemousse-mecanique,album=Pamplemousse mécanique]
+\beginsong{Au mariage de Kévin et de ma sœur}
+  [by=Les Fatals Picards,cov=pamplemousse-mecanique,album=Pamplemousse mécanique]
 
   \cover
   \gtab{Gm}{3:022000}
@@ -13,7 +14,6 @@
   \gtab{Em}{022000}
   \gtab{B}{2:X02220}
   \gtab{C}{X32010}
-
   \utab{Gm}{0231}
   \utab{Dm}{2210}
   \utab{A{\shrp}}{1:2100}
@@ -25,111 +25,111 @@
   \utab{B}{2:2100}
   \utab{C}{0003}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro : \nolyrics \[Gm Dm A{\shrp} Cm] \rep{2}}
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Il y a des \[Gm]jours dans la vie
-    Qu’on ne peut \[Dm]pas oublier
-    Pour moi le \[A#]meilleur c’est le jour 
-    Où ma \[Cm]s\oe{}ur s’est mariée
+    Qu'on ne peut \[Dm]pas oublier
+    Pour moi le \[A#]meilleur c'est le jour
+    Où ma \[Cm]sœur s'est mariée
     Une jo\[Gm]lie salle des fêtes
-    Sur le par\[Dm]king du Auchan 
-    L’arri\[A#]vée en calèche
+    Sur le par\[Dm]king du Auchan
+    L'arri\[A#]vée en calèche
     Avec \[Cm]Kévin dedans
-  \endverse
+  \end{verse}
 
-  \beginverse*
+  \begin{verse*}
     Tout avait \[F]bien commencé
-    Il n’a\[Gm]vait plu qu’un peu
-    La belle-\[A#]famille c’était
+    Il n'a\[Gm]vait plu qu'un peu
+    La belle-\[A#]famille c'était
     Comme \[F]un rêve en mieux
-    Au vin \[Gm]{d’honneur} l’Kévin
-    A tout de \[Dm]suite embrayé 
+    Au vin \[Gm]{d'honneur} l'Kévin
+    A tout de \[Dm]suite embrayé
     Sur son \[A#]cabriolet
-    Qu’on ve\[Cm]nait de lui brûler
-  \endverse
+    Qu'on ve\[Cm]nait de lui brûler
+  \end{verse*}
 
-  \beginverse*
+  \begin{verse*}
     {\og}Ceux qui \[Gm]mettent le bordel
-    Il faut \[Dm]les foutre dehors{\fg}                  
-    J’ai dit {\og}et \[A#]{s’ils} sont nés ici
+    Il faut \[Dm]les foutre dehors{\fg}
+    J'ai dit {\og}et \[A#]{s'ils} sont nés ici
     On les \[Cm]met où alors ?{\fg}
     Il a ré\[F]pondu {\og}tu vas
     Quand même \[Gm]pas me donner tort{\fg}
     {\og}On va pas \[A#]parler racisme
-    On va \[F]pas être d’accord{\fg}
-  \endverse
+    On va \[F]pas être d'accord{\fg}
+  \end{verse*}
 
-  \beginchorus
+  \begin{chorus}
     Moi je ne \[G]sais pas grand chose
     Et peu de \[D]trucs me font peur
     Mais si \[Em]{y a} un autre mariage
-    De Ké\[D]vin et d'ma s\oe{}ur
+    De Ké\[D]vin et d'ma sœur
     Je pas\[G]serais peut-être mon tour
-    J’irais \[D]peut-être au cinéma
-    Même si \[Em]{c’est} pour revoir
+    J'irais \[D]peut-être au cinéma
+    Même si \[Em]{c'est} pour revoir
     Fast \[D]and Furious 3
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       {\og}Tout le monde \[Gm]aime bien le sport
       À part \[Dm]les femmes peut-être{\fg}
       A dit le \[A#]cousin de Kévin
-      Celui qu’é\[Cm]coute les Grosses Têtes
-      {\og}Et vu le \[Gm]chômage qu’on a
-      Celles qui \[Dm]bossent font qu’du tort
+      Celui qu'é\[Cm]coute les Grosses Têtes
+      {\og}Et vu le \[Gm]chômage qu'on a
+      Celles qui \[Dm]bossent font qu'du tort
       Alors parle \[A#]pas de féminisme
-      On va \[Cm]pas être d’accord
-    \endverse
+      On va \[Cm]pas être d'accord
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     Les femmes \[F]fonctionnent un peu
-    Comme des \[Gm]sortes d’animaux
-    Elles sont \[A#]vives, elles s’emportent
+    Comme des \[Gm]sortes d'animaux
+    Elles sont \[A#]vives, elles s'emportent
     Mais ou\[F]blient aussitôt
     Un chien \[F]battu pardonne
-    Parce qu’au \[Gm]fond il est gentil
-    Et ça c’est \[A#]pas des conneries
-    C’est Bi\[F]gard qui l’a dit{\fg}
-  \endverse
+    Parce qu'au \[Gm]fond il est gentil
+    Et ça c'est \[A#]pas des conneries
+    C'est Bi\[F]gard qui l'a dit{\fg}
+  \end{verse*}
 
   \begin{repeatedchords}
-    \beginchorus
+    \begin{chorus}
       \dots{}Ta\[D]xi 43
-    \endchorus
+    \end{chorus}
 
-    \beginverse
+    \begin{verse}
       {\og}Un ma\[Gm]lien immigré
       Il est \[Dm]mieux au Mali{\fg}
-      Belle maman \[A#]aimait l’Afrique
+      Belle maman \[A#]aimait l'Afrique
       Mais au temps \[Cm]des colonies
-      {\og}Même s’il \[Gm]parle que le français
+      {\og}Même s'il \[Gm]parle que le français
       Il sera mieux \[Dm]avec les siens
       Comme dit \[A#]Brigitte Bardot
-      Faut qu’on \[Cm]soit plus humain
-    \endverse
+      Faut qu'on \[Cm]soit plus humain
+    \end{verse}
 
-    \beginverse*
+    \begin{verse*}
       Un im\[F]migré en France
       Il nous \[Gm]coûte bien trop cher
       Un im\[A#]migré chez lui
       Il nous \[F]coûte que le charter{\fg}
       À ce \[F]moment précis
       On tou\[Gm]chait tellement le fond
-      Qu’il au\[A#]rait juste manqué
+      Qu'il au\[A#]rait juste manqué
       Un \[F]accordéon
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \dots{}Les Bron\[B]zés en suédois
-  \endchorus
+  \end{chorus}
 
-  \beginchorus
+  \begin{chorus}
     Parce que \[C]leur beau discours
     Leur coming-\[G]out politique
     Même la \[D]fin de Fast Dance
@@ -137,20 +137,20 @@
     Ils aiment \[C]que ce qui leur ressemble
     Et le \[G]reste leur fait peur
     Je leur souhaite \[D]bien du bonheur\dots{}
-    À Kévin et ma \[Em]s\oe{}ur
+    À Kévin et ma \[Em]sœur
     \nolyrics \[D Em D]
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Outro}
-    Ce soir-\[G]là j’ai compris 
+    Ce soir-\[G]là j'ai compris
     Que je te verrai \[D]moins pour de bon
     On pre\[Em]nait pour dix ans
-    Dix ans \[D]des fois c’est long
-    Ma petite \[G]s\oe{}ur que j’avais
+    Dix ans \[D]des fois c'est long
+    Ma petite \[G]sœur que j'avais
     On se sé\[D]pare pour de vrai
     Je te laisse \[Em]avec des gens
     Qui sont \[D]tout moisis dedans
-  \endverse
+  \end{verse*}
 
 \endsong

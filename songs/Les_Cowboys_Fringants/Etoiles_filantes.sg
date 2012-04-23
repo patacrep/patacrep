@@ -16,89 +16,92 @@
     Pour te \[G]parler de ma vie
     Juste comme \[Em]ça tranquillement
     Dans un \[F]bar rue St-Denis
-    J'te raconterai les souvenirs
-    Bien gravés dans ma mémoire
-    De cette époque où vieillir
-    Était encore bien illusoire
+    J'te ra\[Am]conterai les souvenirs
+    Bien gra\[G]vés dans ma mémoire
+    De cette é\[Em]poque où vieillir
+    Était en\[F]core bien illusoire
   \end{verse}
 
-  \begin{verse*}
-    Quand j'agaçais les p'tites filles
-    Pas loin des balançoires
-    Et que mon sac de billes
-    Devenait un vrai trésor
-    Et ces hivers enneigés
-    À construire des igloos
-    Et rentrer les pieds g'lés
-    Juste à temps pour Passe-Partout
-  \end{verse*}
+  \begin{repeatedchords}
+    \begin{verse*}
+      Quand j'aga\[Am]çais les p'tites filles
+      Pas loin \[G]des balançoires
+      Et que \[Em]mon sac de billes
+      Deve\[F]nait un vrai trésor
+      Et ces hi\[Am]vers enneigés
+      À cons\[G]truire des igloos
+      Et ren\[Em]trer les pieds g'lés
+      Juste à \[F]temps pour Passe-Partout
+    \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
-    Mais au \[Am]bout du ch'min dis-moi c'qui va res\[G]ter
+    Mais au \[Am]bout du ch'min, dis-moi c'qui va res\[G]ter
     De la p'\[Em]tite école et d'la cour de ré\[F]cré ?
     Quand les av\[Am]ions en papier ne partent plus au \[G]vent
     On se \[Em]dit que l'bon temps passe finale\[F]ment \dots comme une étoile fi\[Am]lante
   \end{chorus}
 
-
   \lilypond{Etoiles_filantes-2}
 
-  \begin{verse}
-    Si je m'arrête un instant
-    Pour te parler de la vie
-    Je constate que bien souvent
-    On choisit pas mais on subit
-    Et que les rêves des ti-culs
-    S'évanouissent ou se refoulent
-    Dans cette réalité crue
-    Qui nous embarque dans le moule
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Si je m'\[Am]arrête un instant
+      Pour te \[G]parler de la vie
+      Je cons\[Em]tate que bien souvent
+      On choisit \[F]pas mais on subit
+      Et que \[Am]les rêves des ti-culs
+      S'évanou\[G]issent ou se refoulent
+      Dans cette \[Em]réalité crue
+      Qui nous em\[F]barque dans le moule
+    \end{verse}
 
-  \begin{verse*}
-    De la trentaine, la bedaine
-    Les morveux, l'hypothèque
-    Les bonheurs et les peines
-    Les bons coups et les échecs
-    Travailler, faire d'son mieux
-    En arracher, s'en sortir
-    Et espérer être heureux
-    Un peu avant de mourir
-  \end{verse*}
+    \begin{verse*}
+      De la tren\[Am]taine, la bedaine
+      Les mor\[G]veux, l'hypothèque
+      Les bon\[Em]heurs et les peines
+      Les bons \[F]coups et les échecs
+      Travai\[Am]ller, faire d'son mieux
+      En arra\[G]cher, s'en sortir
+      Et es\[Em]pérer être heureux
+      Un peu \[F]avant de mourir
+    \end{verse*}
 
-  \begin{chorus}
-    Mais au bout du ch'min dis-moi c'qui va rester
-    De notre p'tit passage dans ce monde effréné ?
-    Après avoir existé pour gagner du temps
-    On s'dira que l'on était finalement \dots que des étoiles filantes
-  \end{chorus}
+    \begin{chorus}
+      Mais au \[Am]bout du ch'min, dis-moi c'qui va res\[G]ter
+      De notre p'\[Em]tit passage dans ce monde effré\[F]né ?
+      Après a\[Am]voir existé pour gagner du \[G]temps
+      On s'di\[Em]ra que l'on était finale\[F]ment \dots que des étoiles fi\[Am]lantes
+    \end{chorus}
 
-  \begin{verse}
-    Si je m'arrête un instant
-    Pour te parler de la vie
-    Juste comme ça tranquillement
-    Pas loin du carré St-Louis
-    C'est qu'avec toi je suis bien
-    Et que j'ai pu l'goût de m'en faire
-    Parce que t'sais voir trop loin
-    C'pas mieux que r'garder en arrière
-  \end{verse}
+    \begin{verse}
+      Si je m'\[Am]arrête un instant
+      Pour te \[G]parler de la vie
+      Juste comme \[Em]ça tranquillement
+      Pas loin \[F]du carré St-Louis
+      C'est qu'a\[Am]vec toi je suis bien
+      Et que j'ai \[G]plus l'goût de m'en faire
+      Parce que \[Em]{t'sais} voir trop loin
+      C'pas mieux que \[F]{r'garder} en arrière
+    \end{verse}
 
-  \begin{verse*}
-    Malgré les vieilles amertumes
-    Et les amours qui passent
-    Les chums qu'on perd dans' brume
-    Et les idéaux qui se cassent
-    La vie s'accroche et renaît
-    Comme les printemps reviennent
-    Dans une bouffée d'air frais
-    Qui apaisent les cœurs en peine
-  \end{verse*}
+    \begin{verse*}
+      Malgré les \[Am]vieilles amertumes
+      Et les \[G]amours qui passent
+      Les chums \[Em]{qu'on} perd dans l'brume
+      Et les id\[F]éaux qui se cassent
+      La vie s'ac\[Am]croche et renaît
+      Comme les \[G]printemps reviennent
+      Dans une \[Em]bouffée d'air frais
+      Qui a\[F]paise les cœurs en peine
+    \end{verse*}
 
-  \begin{chorus}
-    Ça fait que si un soir t'as envie de rester
-    Avec moi, la nuit est douce on peut marcher
-    Et même si on sait ben que tout dure rien qu'un temps
-    J'aimerais ça que tu sois pour un moment \dots mon étoile filante
-  \end{chorus}
+    \begin{chorus}
+      Ça fait que \[Am]si un soir t'as envie de res\[G]ter
+      Avec \[Em]moi, la nuit est douce on peut mar\[F]cher
+      Et même si \[Am]on sait ben que tout dure rien qu'un \[G]temps
+      J'aimerais \[Em]ça que tu sois pour un mo\[F]ment \dots mon étoile fi\[Am]lante
+    \end{chorus}
+  \end{repeatedchords}
 
 \endsong

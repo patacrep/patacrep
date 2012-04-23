@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Zaza}
-  [by=Thomas Fersen,album=Le pavillon des fous,cov=Le-pavillon-des-fous]
+  [by=Thomas Fersen,album=Le pavillon des fous,cov=le-pavillon-des-fous]
 
   \cover
   \gtab{Em}{022000}
@@ -63,7 +63,7 @@
   \begin{bridge}
     Ce qui te fau\[Em]drait, c'est un ami
     Depuis que Ni\[Em]na elle est partie
-    Y'a pas de vi\[Am]site
+    Y a pas de vi\[Am]site
     De ces temps-\[Em]ci
     Les gens ont \[D]peur
     De mon fu\[B7]sil \[B]
@@ -80,7 +80,7 @@
       Paraît que tu \[Em]ferais des kilomètres
       Pour venir \[Em]retrouver ton maître
       Zaza t'es \[Am]fine, je lève ma chopine
-      A ta san\[D]té, ma vieille co\[Em]pine
+      À ta san\[D]té, ma vieille co\[Em]pine
     \end{verse*}
 
     \begin{chorus}

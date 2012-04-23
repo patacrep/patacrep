@@ -1,16 +1,25 @@
 \selectlanguage{french}
 \songcolumns{2}
+<<<<<<< HEAD
 \beginsong{Elle m'ennuie}[by=Debout sur le Zinc,album=Des singes et des moutons,cov=des-singes-et-des-moutons]
+=======
+\beginsong{Elle m'ennuie}
+  [by=Debout sur le Zinc,album=Des singes et des moutons,cov=des-singes-et-des-moutons]
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
 
   \cover
   \gtab{Dm}{XX0231}
   \gtab{Gm}{3:022000}
   \gtab{A7}{X02020}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
   \utab{Dm}{2210}
   \utab{Gm}{0231}
   \utab{A7}{0100}
 
+<<<<<<< HEAD
   \beginverse*
     \musicnote {\Intro :}
     \nolyrics \[Dm Dm Gm Dm]
@@ -26,17 +35,41 @@
 
   \begin{repeatedchords}
     \beginverse*
+=======
+  \begin{verse*}
+    \musicnote{\Intro :}
+    \musicnote{\nolyrics \[Dm Dm Gm Dm]}
+    \musicnote{\nolyrics \[Gm A7 Dm Dm]}
+  \end{verse*}
+
+  \begin{verse}
+    \[Dm]Un regard de biche
+    Des \[Gm]cils qui touchent le ciel
+    \[A7]Des seins qui aguichent
+    Des jambes{\dots} Oh \[Dm]mon dieu, je chancelle !
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       Des \[Dm]fesses made in tungstène
       Un \[Gm]goût parfum roudoudou
       \[A7]Une peau terre de Sienne
       Une voix qui \[Dm]fait : {\og}Ah doudou, ah doudoudoudou{\fg}
+<<<<<<< HEAD
     \endverse
 
     \beginverse*
+=======
+    \end{verse*}
+
+    \begin{verse*}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       \[Dm]Une taille de guêpe
       Des \[Gm]mains mâtinées de velours
       Et \[A7]sur la tête des bouclettes qui dégringolent
       Jusqu'aux fesses, oh \[Dm]maman, au secours !
+<<<<<<< HEAD
     \endverse
 
     \beginverse*
@@ -48,12 +81,26 @@
   \end{repeatedchords}
 
   \beginchorus
+=======
+    \end{verse*}
+
+    \begin{verse*}
+      \[Dm]Dire qu'elle n'aime que moi
+      Et \[Gm]dire qu'elle dort dans mon lit
+      \[A7]Dire qu'elle est à moi
+      Et que tout \[Dm]le monde m'envie mais
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
     Elle \[Gm]{m'ennuie}, m'ennuie, m'ennuie
     Elle \[Dm]{m'ennuie}, m'ennuie, m'ennuie
     Elle \[Gm]{m'ennuie} du \[A7]lundi jusqu'au lundi
     Elle \[Gm]{m'ennuie}, m'ennuie, m'ennuie
     Elle \[Dm]{m'ennuie}, m'ennuie, m'ennuie
     Elle \[Gm]{m'ennuie} même \[A7]pendant la \[Dm]nuit
+<<<<<<< HEAD
   \endchorus
 
   \begin{bridge}
@@ -62,28 +109,59 @@
 
   \begin{repeatedchords}
     \beginverse
+=======
+  \end{chorus}
+
+  \begin{bridge}
+    \musicnote{\nolyrics \[Dm Gm A7 Dm \rep{2}]}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       \[Dm]Quand je rêve de sirènes
       Elle, \[Gm]elle me parle de ma mère
       \[A7]Dans l'instant suprême
       Elle se prend \[Dm]à parler de la sienne
+<<<<<<< HEAD
     \endverse
 
     \beginverse*
+=======
+    \end{verse}
+
+    \begin{verse*}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       \[Dm]Mes amis sont bannis
       Et \[Gm]ma guitare est sous clef
       \[A7]Huit crises d'hystérie par jour
       Sont \[Dm]nécessaires à sa santé
+<<<<<<< HEAD
     \endverse
 
     \beginverse*
+=======
+    \end{verse*}
+
+    \begin{verse*}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       Sans \[Dm]hésiter, je vous l'affirme
       \[Gm]{C'est} une professionnelle
       \[A7]Cette chanson le confirme
       Mais \[Dm]pourquoi elle est si belle ?
+<<<<<<< HEAD
     \endverse
   \end{repeatedchords}
 
   \beginverse*
     \musicnote {\Outro : \nolyrics \[Dm]}
   \endverse
+=======
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\Outro : \nolyrics \[Dm]}
+  \end{verse*}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
 \endsong

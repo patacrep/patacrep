@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Bambi}[by=Thomas Fersen,album=Pièce montée des grands jours,cov=Piece-montee-des-grands-jours]
+\beginsong{Bambi}
+  [by=Thomas Fersen,album=Pièce montée des grands jours,cov=piece-montee-des-grands-jours]
 
 
   \cover
@@ -11,7 +12,6 @@
   \gtab{Am}{X02210}
   \gtab{C}{X32010}
   \gtab{A}{X02220}
-
   \utab{Dm}{2210}
   \utab{F}{2010}
   \utab{B{\flt}}{1:2100}
@@ -20,62 +20,62 @@
   \utab{C}{0003}
   \utab{A}{2100}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Intro :}
     \nolyrics \[Dm Dm F B{\flt}] \[Dm Dm G B{\flt}]
     \[Dm]Bambi
-  \endverse
+  \end{verse*}
 
-  \beginverse
+  \begin{verse}
     Un \[F]jésus de deux \[B&]mètres, \[Dm]Bambi
     \[G]Il faut le con\[B&]naître, \[Dm]Bambi
-    \[Am]Quand j'le croise sur mon chemin  \[Dm]
-    \[Am]Bambi m'étrangle la main  \[Dm]
-  \endverse
+    \[Am]Quand j'le croise sur mon chemin \[Dm]
+    \[Am]Bambi m'étrangle la main \[Dm]
+  \end{verse}
 
-  \beginchorus
+  \begin{chorus}
     \[F]Pas casser les \[B&]jouets, \[Dm]Bambi \rep{2}
     \nolyrics \[Dm Dm F B{\flt}] \[Dm Dm G B{\flt}]
     \nolyrics \[Am Am Dm Dm] \[Am Am Dm Dm]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[F]Et puis quand il \[B&]bâille, \[Dm]Bambi
       \[G]Putain ça sent \[B&]{l'ail}, \[Dm]Bambi
-      \[Am]Depuis qu'il est gosse  \[Dm]
-      \[Am]Il ne connaît pas la brosse  \[Dm]
-    \endverse
+      \[Am]Depuis qu'il est gosse \[Dm]
+      \[Am]Il ne connaît pas la brosse \[Dm]
+    \end{verse}
   \end{repeatedchords}
 
-  \beginverse
+  \begin{verse}
     \musicnote {\Bridge}
     \[F]Et quand il s'en\[C]dort
     \[Am]Bambi est un \[Dm]ange
     \[F]Tout le monde l'a\[C]dore
     \[Am]Personne ne le dé\[A]range
     \[Dm]Bambi
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       Quand \[F]il y a une ba\[B&]garre, \[Dm]Bambi
       Moi \[G]je suis le co\[B&]pain de \[Dm]Bambi
-      \[Am]{C'est} moi qui balaie par terre  \[Dm]
-      \[Am]Trois molaires, un \oe{}il de verre  \[Dm]
-    \endverse
+      \[Am]{C'est} moi qui balaie par terre \[Dm]
+      \[Am]Trois molaires, un œil de verre \[Dm]
+    \end{verse}
 
-    \beginverse
+    \begin{verse}
       \musicnote {\Bridge}
       \[F]Et quand il s'en\[C]dort
       \[Am]Bambi est un \[Dm]ange
       \[F]Tout le monde l'a\[C]dore
       \[Am]Personne ne le dé\[A]range
       \[Dm]Bambi
-    \endverse
+    \end{verse}
 
-    \beginchorus
+    \begin{chorus}
       \[Am]Pas casser les jouets\dots{}
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 \endsong

@@ -1,5 +1,6 @@
 \selectlanguage{french}
 \songcolumns{2}
+<<<<<<< HEAD
 \beginsong{Comme un frisson}[by=Debout sur le Zinc,album=La fuite en avant,cov=la-fuite-en-avant]
 
   \cover
@@ -8,15 +9,32 @@
   \gtab{B7}{X21202}
   \gtab{Am}{X02210}
 
+=======
+\beginsong{Comme un frisson}
+  [by=Debout sur le Zinc,album=La fuite en avant,cov=la-fuite-en-avant]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+  \gtab{Am}{X02210}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
   \utab{Em}{0432}
   \utab{B7}{2:0100}
   \utab{Am}{2000}
 
+<<<<<<< HEAD
   \beginverse*
     \musicnote {\Intro : \nolyrics \[Em B7 Em]}
   \endverse
 
   \beginverse
+=======
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Em B7 Em]}
+  \end{verse*}
+
+  \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
     Rien à foutre du \[Em]monde, mon amour
     Imagine-le qui \[B7]tombe, avec ses lois autour
     Que l'on puisse comme \[Em]{l'onde}, mon amour
@@ -25,10 +43,17 @@
     De la ligne \[B7]de nos mains
     S'attarder un \[Am]peu sur les questions
     Et les lueurs \[B7]qui passent parfois dans nos yeux
+<<<<<<< HEAD
   \endverse
 
   \begin{repeatedchords}
     \beginverse
+=======
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       Nos dernières fois gâ\[Em]chées, mon amour
       Celles qu'on a pas vues ve\[B7]nir parce qu'on vit comme on court
       Tous ces adieux bâ\[Em]clés, trop courts
@@ -37,18 +62,32 @@
       Des années, \[B7]comme des refrains
       Ces mots inter\[Am]dits que l'on prononce
       Et qu'on regrette \[B7]aussitôt qu'on les a dits
+<<<<<<< HEAD
     \endverse
   \end{repeatedchords}
 
   \beginchorus
+=======
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
     Comme un fris\[Em]son, un goût de \[Am]moins
     Un jour sans \[Em]nom, un lende\[B7]main
     Comme un fris\[Em]son, un goût de \[Am]moins
     Un jour sans \[Em]nom, un lende\[B7]main
+<<<<<<< HEAD
   \endchorus
 
   \begin{repeatedchords}
     \beginverse
+=======
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       Comme la vie nous a\[Em]bîme, mon amour
       Comme ces chemins bali\[B7]sés font parfois des détours
       Oui, il faut se par\[Em]ler, mon amour
@@ -57,16 +96,28 @@
       Pas une seconde, \[B7]pas un matin
       Pas une pierre lan\[Am]cée, ni mes colères
       Ni mes soupirs, \[B7]mais ces chemins écartés
+<<<<<<< HEAD
     \endverse
 
     \beginchorus
+=======
+    \end{verse}
+
+    \begin{chorus}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       Sont un fris\[Em]son, un goût de \[Am]moins
       Un jour sans \[Em]nom, un lende\[B7]main
       Comme un fris\[Em]son, un goût de \[Am]moins
       Un jour sans \[Em]nom, un lende\[B7]main
+<<<<<<< HEAD
     \endchorus
 
     \beginverse
+=======
+    \end{chorus}
+
+    \begin{verse}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
       Mais le temps nous manque \[Em]tant, mon amour
       Pour dire à tous ceux qu'on \[B7]aime qu'on les aime pour toujours
       Il nous faut vivre a\[Em]vec, mon amour
@@ -75,6 +126,7 @@
       Tout autour de nous, \[B7]tous les jours
       J'pourrais presque les \[Am]voir, les sentir, leur parler, les tenir
       \[B7] Je n'ai pas froid
+<<<<<<< HEAD
     \endverse
 
     \beginchorus
@@ -85,6 +137,18 @@
     \beginverse
       Rien à foutre du \[Em]monde, mon amour \[B7]
     \endverse
+=======
+    \end{verse}
+
+    \begin{chorus}
+      C'est un {\dots}
+      \nolyrics \[Em Am Em B7] \[Em Am Em B7]
+    \end{chorus}
+
+    \begin{verse*}
+      Rien à foutre du \[Em]monde, mon amour \[B7]
+    \end{verse*}
+>>>>>>> 77ee59279111e3665971a657d19e06f9f65afc47
   \end{repeatedchords}
 
 \endsong

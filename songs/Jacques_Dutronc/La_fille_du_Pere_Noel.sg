@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La fille du Père Noël}
+  [by=Jacques Dutronc,cov=en-vogue,album=En vogue]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    \[D]Je l'ai trouvée au \[C]petit ma\[D]tin
+    Toute \[G]nue dans mes grands \[D]souliers
+    \[D]Placés devant \[C]la chemi\[D]née
+    Pas be\[G]soin de vous faire \[D]un dessin
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]De battre, mon cœur s'est \[C]arrê\[D]té
+      Sur le \[G]lit j'ai jeté mon \[D]fouet
+      \[D]Tout contre elle, je me \[C]suis pen\[D]ché
+      Et sa \[G]beauté m'a rendu mu\[D]et
+    \end{verse}
+
+    \begin{verse}
+      \[D]Fatigué, j'ai la \[C]gueule de \[D]bois
+      Toute la \[G]nuit, j'avais aidé mon \[D]père
+      \[D]Dans le feu, j'ai re\[C]mis du \[D]bois
+      Dans la ch'mi\[G]née, y avait pas son \[D]père
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[D] C'était la \[G]fille du Père \[D]Noël
+    J'étais le \[G]fils du Père Fouet\[D]tard
+    Elle s'appe\[G]lait Marie \[D]Noël
+    Je m'appe\[C]lais Jean Baltha\[D]zar
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Je prends la fille \[C]dans mes \[D]bras
+      Elle me \[G]dit : {\og}Mais non Bal\[D]thazar
+      \[D]Ne fais donc pas le \[C]fier à \[D]bras
+      Je suis tom\[G]bée là par ha\[D]zard{\fg}
+    \end{verse}
+
+    \begin{verse}
+      \[D]Toute la nuit, j'a\[C]vais fouet\[D]té
+      À tour de \[G]bras les gens mé\[D]chants
+      \[D]Toute la nuit, elle a\[C]vait don\[D]né
+      Des cadeaux \[G]à tous les en\[D]fants
+    \end{verse}
+
+    \begin{verse}
+      \[D]Descendue chez moi \[C]par er\[D]reur
+      Elle était \[G]là dans mes sou\[D]liers
+      Et \[D]comme je ne pouvais pren\[C]dre son \[D]cœur
+      Je l'ai re\[G]mise sur le pa\[D]lier
+    \end{verse}
+
+    \begin{chorus}
+      \[D] C'était la \[G]fille du Père \[D]Noël
+      J'étais le \[G]fils du Père Fouet\[D]tard
+      Et elle m'a \[G]dit d'une voix d'cré\[D]celle
+      Bye bye au \[C]hasard Baltha\[D]zar
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

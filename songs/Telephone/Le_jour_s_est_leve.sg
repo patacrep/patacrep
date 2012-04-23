@@ -1,0 +1,104 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le jour s'est levé}
+  [by=Téléphone,cov=le-jour-s-est-leve,album=Le jour s'est levé]
+
+  \cover
+  \capo{3}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab*{G4}{3:022200}
+  \gtab{Am7}{X02010}
+
+  \begin{verse}
+    \[C]Le jour \[F]s'est le\[G]vé
+    \[C]Sur une é\[F]trange i\[G]dée
+    \[C]Je crois \[F]que j'ai rê\[G]vé
+    \[C]Que ce soir \[F]je mou\[G]rais
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[C]Le jour \[F]s'est le\[G]vé
+      \[C]Plein de per\[F]plexi\[G]té
+      \[C]Si ce n'é\[F]tait pas un \[G]rêve
+      \[C]Qu'il faille \[F]s'en al\[G]ler
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    S'en aller \[Am]
+    \musicnote{\nolyrics \[Em F C G Am Em G4 G]}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]Comme le jour \[F]avan\[G]çait
+      \[C]En moi \[F]je pen\[G]sais
+      \[C]Si ce n'é\[F]tait pas un \[G]rêve
+      \[C]J'ai \[F]tout à ai\[G]mer
+    \end{verse}
+
+    \begin{verse*}
+      \[C]Quand le jour \[F]s'est cou\[G]ché
+      \[C]J'ai ré\[F]ali\[G]sé
+      \[C]Que ce n'é\[F]tait qu'une \[G]trêve
+      \[C]Dans ma ré\[F]ali\[G]té
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Am]Nous sommes ici pour \[Em]croire
+    \[F]Rien d'autre à laisser \[C]croire \[G]
+    \[Am]Croire que l'on meurt ce \[Em]soir
+    Pour qui veux \[G4]bien voir \[G]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]Le voile \[F]est le\[G]vé
+      \[C]Sur ma \[F]pauvre\[G]té
+      \[C]Qu'ai-je \[F]donc à gar\[G]der
+      \[C]Qui ne se\[F]ra souf\[G]flé
+    \end{verse}
+
+    \begin{verse*}
+      \[C]Oui, le voile \[F]est le\[G]vé
+      \[C]Tout est si \[F]colo\[G]ré
+      \[C]Qu'ai-je \[F]donc à don\[G]ner
+      \[C]Que la nuit \[F]m'a souf\[G]flé
+    \end{verse*}
+
+    \begin{chorus}
+      \[Am]Nous sommes ici pour \[Em]croire
+      \[F]Rien d'autre à laisser \[C]croire \[G]
+      \[Am]Croire que l'on meurt ce \[Em]soir
+      Et qu'il est dé\[G4]jà tard \[G]
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[C]Déjà tard
+    \[G]Mais pas trop tard
+    À \[F]toi de voir
+    À \[Am7]toi de croire
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]Le jour \[F]s'est le\[G]vé
+      \[C]Sur cette é\[F]trange i\[G]dée
+      \[C]La vie \[F]n'est qu'une jour\[G]née
+      \[C]Et la mort \[F]qu'une \[G]nuit
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \[C]La vie \[F]n'est ajour\[G]née
+    \[F]Que si \[G]la mort lui \[C]nuit
+  \end{verse*}
+
+\endsong

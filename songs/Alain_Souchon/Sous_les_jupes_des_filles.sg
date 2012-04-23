@@ -1,0 +1,105 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Sous les jupes des filles}
+  [by=Alain Souchon,cov=c-est-deja-ca,album=C'est déjà ça]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Fm}{1:022000}
+  \gtab{G7}{320001}
+  \gtab{Cm}{3:X02210}
+
+  \begin{verse}
+    \[Am]Rétines et pupilles
+    Les garçons \[G]ont les yeux qui brillent
+    \[F]Pour un jeu de dupes
+    Voir sous les jupes des \[C]filles
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Am]Et la vie toute entière
+      Absor\[G]bée par cette affaire
+      \[F]Par ce jeu de dupes
+      Voir sous les jupes des \[C]filles
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Fm]Elles très fières
+    Sur leurs \[G7]escabeaux en l'air
+    Regard méprisant et laissant le vent tout \[Cm]faire
+
+    \[Fm]Elles dans l'suave
+    La fai\[G7]blesse des hommes elles savent
+    Que la seule chose qui tourne sur terre
+    C'est leurs robes lé\[Cm]gères
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]On en fait beaucoup
+      Se pen\[G]cher tordre son cou
+      \[F]Pour voir l'infortune
+      À quoi nos vies se ré\[C]sument
+    \end{verse}
+
+    \begin{verse*}
+      \[Am]Pour voir tout l'orgueil
+      Toutes les \[G]guerres avec les deuils
+      \[F]La mort, la beauté
+      Les chansons d'été, les \[C]rêves
+    \end{verse*}
+
+    \begin{chorus}
+      \nolyrics \[Fm G7 Cm]
+
+      \[Fm]Si parfois
+      Ça les \[G7]gène et qu'elles veulent pas
+      Qu'on regarde leurs guiboles
+      Les garçons s'affolent de \[Cm]ça
+    \end{chorus}
+
+    \begin{verse}
+      \[Am]Alors faut qu'ça tombe
+      Les hommes \[G]ou bien les palombes
+      \[F]Les bieres, les khmers rouges
+      Le moindre chevreuil qui \[C]bouge
+    \end{verse}
+
+    \begin{verse*}
+      \[Am]Fanfare bleu blanc rage
+      Verres de \[G]rouge et vert de rage
+      \[F]L'honneur des milices
+      Tu seras un homme mon \[C]fils
+    \end{verse*}
+
+    \begin{chorus}
+      \[Fm]Elles pas fières
+      Sur leurs \[G7]escabeaux en l'air
+      Regard implorant et ne comprenant pas \[Cm]tout
+
+      \[Fm]Elles dans l'grave
+      La fai\[G7]blesse des hommes elles savent
+      Que la seule chose qui tourne sur terre
+      C'est leurs robes lé\[Cm]gères
+    \end{chorus}
+
+    \begin{verse}
+      \[Am]Rétines et pupilles
+      Les garçons \[G]ont les yeux qui brillent
+      \[F]Pour un jeu de dupes
+      Voir sous les jupes des \[C]filles
+    \end{verse}
+
+    \begin{verse*}
+      \[Am]Et la vie toute entière
+      Absor\[G]bée par cette affaire
+      \[F]Par ce jeu de dupes
+      Voir sous les jupes des \[C]filles
+    \end{verse*}
+  \end{repeatedchords}
+\endsong

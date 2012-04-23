@@ -12,6 +12,7 @@ re.LOCALE
 word_dic = {
 ##: oe inclusion
 "coeur": "cœur",
+"choeur": "chœur",
 "boeuf": "bœuf",
 "oeuvre": "œuvre",
 "soeur": "sœur",
@@ -20,11 +21,17 @@ word_dic = {
 "voeu": "vœu",
 "oeuf": "œuf",
 "oe{}": "œ",
-"\œ": "œ",
+"\\œ": "œ",
 ##: Contractions
 "ptit": "p'tit",
+"y'a": "y a",
+"Y'a": "Y a",
+"ptê": "p't'ê",
+"p'tê": "p't'ê",
+"p't-ê": "p't'ê",
 ##: Punctuation
 "’": "'",
+"‘": "'",
 "Ca ": "Ça ",
 "...": "{\\dots}",
 "…": "{\\dots}",
@@ -76,13 +83,13 @@ word_dic = {
 "/Mi": "/E",
 "/Fa": "/F",
 "/Sol": "/G",
-"gtab{La": "gtab{A",
-"gtab{Si": "gtab{B",
-"gtab{Do": "gtab{C",
-"gtab{Ré": "gtab{D",
-"gtab{Mi": "gtab{E",
-"gtab{Fa": "gtab{F",
-"gtab{Sol": "gtab{G",
+"tab{La": "tab{A",
+"tab{Si": "tab{B",
+"tab{Do": "tab{C",
+"tab{Ré": "tab{D",
+"tab{Mi": "tab{E",
+"tab{Fa": "tab{F",
+"tab{Sol": "tab{G",
 "\\[La": "\\[A",
 "\\[Si": "\\[B",
 "\\[Do": "\\[C",
@@ -161,9 +168,9 @@ def language_rules(string):
       #ensure non-breaking spaces before symbols ? ! ; :
       string = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:])","\g<last_char> \g<symbol>", string)
       #... except for gtabs macros with capos
-      string = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", string)
+      string = re.sub("(?P<gtab>tab.?{.*)\s:","\g<gtab>:", string)
       #and apply a second time for cases like \gtab{Gm}{10:X02210:}
-      string = re.sub("(?P<gtab>gtab.*)\s:","\g<gtab>:", string)
+      string = re.sub("(?P<gtab>tab.?{.*)\s:","\g<gtab>:", string)
       #ensure no spaces after symbols (
       string = re.sub("(?P<symbol>[\(])\s(?P<next_char>\S)","\g<symbol>\g<next_char>", string)
       #convert inverted commas

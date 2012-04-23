@@ -1,0 +1,83 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Octobre}
+  [by=Francis Cabrel,cov=samedi-soir,album=Samedi soir sur la Terre]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#7}{2:020100}
+  \gtab{B}{2:X02220}
+  \gtab{F#m}{2:022100}
+
+  \begin{verse}
+    \[E]Le vent fera craquer les \[A]branches
+    La brume \[E]viendra dans sa robe \[A]blanche
+    Y aura \[C#m]des feuilles partout
+    Couchées \[F#7]sur les cailloux
+    Oc\[A]tobre tiendra sa revanche
+  \end{verse}
+
+  \begin{verse*}
+    \[E]Le soleil sortira à \[A]peine
+    Nos corps se \[E]cacheront sous des bouts de \[A]laines
+    Perdue \[C#m]dans tes foulards
+    Tu croi\[F#7]seras le soir
+    Oc\[A]tobre endormi aux fon\[E]taines
+  \end{verse*}
+
+  \begin{chorus}
+    Il y aura \[A]certainement
+    Sur les \[B]tables en fer blanc
+    Quelques \[C#m]vases vides et \[A]qui traînent
+    \[F#m]Et des nuages \[B]pris aux antennes \[A E]
+
+    Je t'of\[A]frirai des fleurs
+    Et des \[B]nappes en couleurs
+    Pour ne \[C#m]pas qu'Octobre \[A]nous prenne \[F#m]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[E]On ira tout en haut des col\[A]lines
+      Regarder \[E]tout ce qu'Octobre illu\[A]mine
+      Mes mains \[C#m]sur tes cheveux
+      Des é\[F#7]charpes pour deux
+      De\[A]vant le monde qui s'incline
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \musicnote{\nolyrics \[E A E A C{\shrp}m F{\shrp}7 A E]}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[A]Certainement appu\[B]yés sur des bancs
+      Il y aura \[C#m]quelques hommes qui se \[A]souviennent
+      \[F#m]Et des nuages \[B]pris aux antennes \[A E]
+
+      Je t'of\[A]frirai des fleurs
+      Et des \[B]nappes en couleurs
+      Pour ne \[C#m]pas qu'Octobre \[A]nous prenne \[F#m]
+    \end{chorus}
+
+    \begin{verse}
+      \[E]Et sans doute on verra appa\[A]raître
+      Quelques \[E]dessins sur la buée des fe\[A]nêtres
+      Vous, vous \[C#m]jouerez dehors
+      Comme les \[F#7]enfants du nord
+      Oc\[A]tobre restera peut-être
+    \end{verse}
+
+    \begin{verse*}
+      \nolyrics \[E A]
+      \nolyrics \[E A]
+      Vous, vous \[C#m]jouerez dehors
+      Comme les \[F#7]enfants du nord
+      Oc\[A]tobre restera peut-\[E]être
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

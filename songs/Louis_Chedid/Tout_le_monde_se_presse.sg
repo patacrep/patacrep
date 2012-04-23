@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tout le monde se presse}
-  [by=Louis Chedid,album=Le soldat rose]
+  [by=Louis Chedid,album=Le soldat rose,cov=le-soldat-rose]
 
+  \cover
   \gtab{C7/9}{X35333}
   \gtab{C7/9*} {X32333}
   \gtab{F}{133211}

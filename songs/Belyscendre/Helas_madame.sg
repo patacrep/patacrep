@@ -1,0 +1,49 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Hélas madame}
+  [by=Belyscendre,cov=belles-embarquez,album=Belles Embarquez !]
+
+  \cover
+  \gtab*{Em}{022000}
+  \gtab*{D}{XX0232}
+  \gtab*{B}{2:X02220}
+  \gtab*{G}{320003}
+
+  \begin{chorus}
+    \[Em]Hélas ma\[D]dame, ce\[B]lle que j'ayme \[Em]tant
+    \[Em]Souffrez que \[D]soye vostre \[B]humble ser\[Em]vant
+    \[Em]Vostre humble ser\[G]vant je seray à toujours
+    \[G]Et tant que je viv'\[D]ray \[B]n'aymeray que \[Em]vous
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Hélas beau \[D]sire, vous \[B]estez bel et \[Em]bon
+      \[Em]Sage et cour\[D]toys et \[B]de noble mai\[Em]son
+      \[Em]Et aussi \[G]bon que l'on scairoyt finer
+      \[G]Mais cil que \[D]j'ayme, ne \[B]scairoye oubli\[Em]er
+    \end{verse}
+
+    \begin{verse*}
+      \[Em]Hélas, ma \[D]dame, pen\[B]ces en vostre \[Em]cas
+      \[Em]Entre nous \[D]deulx ne \[B]fault point d'avo\[Em]catz
+      \[Em]Certes non \[G]pas, et vous le scavez bien
+      \[G]Allez vous \[D]en, car \[B]vous ne faictez \[Em]rien
+    \end{verse*}
+
+    \begin{verse}
+      \[Em]Mon cœur sous\[D]pire et \[B]se plaint tendre\[Em]ment
+      \[Em]Car il ne \[D]peult trou\[B]ver allege\[Em]ment
+      \[Em]Ne scay com\[G]ment on me veult dechasser
+      \[G]S'il est ain\[D]si, j'ay\[B]ray ailleurs cha\[Em]sser
+    \end{verse}
+
+    \begin{verse}
+      \[Em]Hélas, ma \[D]dame, et \[B]n'en seray-je \[Em]point ?
+      \[Em]Certes beau \[D]sire, je \[B]ne vous le dis \[Em]point
+      \[Em]Servez a \[G]point : il vous sera mercy
+      \[G]Hélas, ma \[D]dame, de \[B]bon cœur vous mer\[Em]cy
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

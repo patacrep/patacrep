@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Parfois au clair de lune}
-  [by=Thomas Fersen,album=Je suis au paradis,cov=Je-suis-au-paradis]
+  [by=Thomas Fersen,album=Je suis au paradis,cov=je-suis-au-paradis]
 
   \cover
   \gtab{C}{x32010}
@@ -55,9 +55,9 @@
     \end{verse}
 
     \begin{verse*}
-      \[C]Ai-je fait re\[E]lâche chez les bé\[Am]douins en Ara\[F]bie
-      \[C]Ai-je fait re\[E]lâche chez les A\[Am]paches sous un ti\[F]pi
-      \[C]Parfois j'ai campé j'ai dormi \[F]sur des canapés
+      \[C]Ai-je fait re\[E]lâche chez les bé\[Am]douins en Ara\[F]bie ?
+      \[C]Ai-je fait re\[E]lâche chez les A\[Am]paches sous un ti\[F]pi ?
+      \[C]Parfois j'ai campé, j'ai dormi \[F]sur des canapés
       J'ai \[G]dormi, je l'admets quelques fois \[C]sans me \[G]désa\[C]per
     \end{verse*}
   \end{repeatedchords}

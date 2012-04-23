@@ -3,49 +3,60 @@
 \beginsong{Dis à ton fils}
   [by=Maurice Dulac,cov=dis-a-ton-fils,album=Dis à ton fils]
 
-
   \cover
   \gtab{Am}{X02210}
   \gtab{G}{320003}
   \gtab{E}{022100}
   \gtab{C}{X32010}
 
-
   \begin{verse}
     Dis à ton \[Am]fils qu'il doit rentrer
     La nuit \[G]va bien\[E]tôt tom\[Am]ber
-    Laisse-le jouer près de l'eau
-    Le \[G]maïs est \[E]encore \[Am]chaud
+    Laisse-le \[Am]jouer près de l'eau
+    Le ma\[G]ïs est \[E]encore \[Am]chaud
+  \end{verse}
+
+  \begin{chorus}
     Mais de\[C]main, il va \[G]falloir \[E]se le\[Am]ver
     Je sais \[C]bien, il faut \[G]planter \[E]le ca\[Am]fé
-  \end{verse}
+  \end{chorus}
 
-  \begin{verse}
-    Dis à ton fils qu'il doit rentrer
-    Je voudrais bien lui parler
-    Je crois qu'il n'est pas encore temps
-    Ce n'est jamais qu'un enfant
-    Mais demain, il faudra bien qu'il apprenne
-    Son chemin, est fait de sang et de peine
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Dis à ton \[Am]fils qu'il doit rentrer
+      Je vou\[G]drais bien \[E]lui par\[Am]ler
+      Je crois qu'il \[Am]{n'est} pas encore temps
+      Ce n'est \[G]jamais \[E]{qu'un} en\[Am]fant
+    \end{verse}
 
-  \begin{verse}
-    Dis à ton fils qu'il doit rentrer
-    Le mulet est déjà prêt
-    Il a un fusil sur le dos
-    Et l‘attends près du ruisseau
-    Dès demain, nous serons dans la montagne
-    Je sais bien, et que Dieu vous accompagne
-  \end{verse}
+    \begin{chorus}
+      Mais de\[C]main, il fau\[G]dra bien \[E]{qu'il} ap\[Am]prenne
+      Son che\[C]min, est fait \[G]de sang \[E]et de \[Am]peine
+    \end{chorus}
 
-  \begin{verse}
-    Tu vois ton fils n'est pas rentré
-    Les soldats nous l'ont tué
-    Je sais qu'il n'est pas mort en vain
-    Nous serons libres demain
-    Mais demain, il va falloir se lever
-    Je sais bien, il faut planter le café
-  \end{verse}
+    \begin{verse}
+      Dis à ton \[Am]fils qu'il doit rentrer
+      Le mu\[G]let est \[E]déjà \[Am]prêt
+      Il a un \[Am]fusil sur le dos
+      Et l'at\[G]tends près \[E]du ruis\[Am]seau
+    \end{verse}
 
+    \begin{chorus}
+      Dès de\[C]main, nous se\[G]rons dans \[E]la mon\[Am]tagne
+      Je sais \[C]bien, et que \[G]Dieu vous \[E]accom\[Am]pagne
+    \end{chorus}
+
+    \begin{verse}
+      Tu vois ton \[Am]fils n'est pas rentré
+      Les sol\[G]dats nous \[E]{l'ont} tu\[Am]é
+      Je sais qu'il \[Am]{n'est} pas mort en vain
+      Nous se\[G]rons li\[E]bres de\[Am]main
+    \end{verse}
+
+    \begin{chorus}
+      Mais de\[C]main, il va \[G]falloir \[E]se le\[Am]ver
+      Je sais \[C]bien, il faut \[G]planter \[E]le ca\[Am]fé
+    \end{chorus}
+  \end{repeatedchords}
 
 \endsong

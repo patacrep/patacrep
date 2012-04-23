@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Diane de Poitiers}
-  [by=Thomas Fersen,cov=Piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+  [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
 
   \cover
   \gtab{B&9}{X10111}
@@ -11,7 +11,6 @@
   \gtab{Gm}{310033}
   \gtab{B&}{X10331}
   \gtab{Cm}{3:X02210}
-
   \utab{B&9}{1:0102}
   \utab{B&7}{1:0100}
   \utab{E&}{1:2220}

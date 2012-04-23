@@ -1,0 +1,44 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Passer ma route}
+  [by=Maxime Le Forestier,cov=passer-ma-route,album=Passer ma route]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{D7M}{XX0222}
+  \gtab{Em}{022000}
+  \gtab{F#m}{2:022000}
+  \gtab{A7}{X02020}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    \[D]Laissez-les dans les car\[D7M]tons, les \[Em]plans d'la planète
+    Faites-les \[F#m]sans moi, n'oubli\[A]ez pas les \[D]fleurs
+    Quand ces rétroviseurs \[F#m]là \[Em]m'passent par la tête
+    J'ai du \[F#m]feu sur le gaz \[A7]et j'm'attends ail\[D]leurs
+  \end{verse}
+
+  \begin{chorus}
+    Je fais que \[D]passer \[F#m] \[Em]ma route
+    \[G]Pas vu \[A7]celle \[D]tracée
+    \[D]Passer \[F#m] en\[Em]tre les gouttes
+    \[G]Évadé \[A7]belle \[D]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Parole après par\[D7M]ole, \[Em]note après note
+      Elle vou\[F#m]lait tout sa\[A]voir sur ma \[D]vie
+      J'ai tourné sept fois ma \[F#m]clé dans \[Em]ses menottes
+      Sept fois \[F#m]ma langue dans sa \[A]bouche et j'ai \[D]dit
+    \end{verse}
+
+    \begin{verse}
+      \[D]Est-ce que c'est un mara\[D7M]bout, un \[Em]bout d'ficelle
+      Un gri-\[F#m]gri qu'j'aurais \[A]eu sans l'sa\[D]voir
+      Chez les tambours des sor\[F#m]ciers, \[Em]sous les échelles
+      Dans les \[F#m]culs d'sac infe\[A7]stés de chats \[D]noirs
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

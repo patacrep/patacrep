@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Le bouton}[by=Thomas Fersen \& Bumcello,cov=Tot-ou-tard,album=Tôt ou tard (plutôt tard)]
+\beginsong{Le bouton}
+  [by=Thomas Fersen \& Bumcello,cov=tot-ou-tard,album=Tôt ou tard (plutôt tard)]
 
   \cover
   \gtab{C}{X32010}
@@ -9,7 +10,6 @@
   \gtab{B}{2:X02220}
   \gtab{G{\shrp}}{4:022100}
   \gtab{A{\shrp}}{1:X02220}
-
   \utab{C}{0003}
   \utab{D}{2220}
   \utab{A}{2100}
@@ -17,31 +17,31 @@
   \utab{G{\shrp}}{3:2010}
   \utab{A{\shrp}}{1:2100}
 
-  \beginverse
+  \begin{verse}
     \[C] Ce matin, au \[D]saut du lit
     \[C] Je me regarde \[D]le menton
     \[C] Et je vois un \[D]gros bouton
     \[A]Bien gonflé, bien rempli
-  \endverse
+  \end{verse}
 
   \begin{repeatedchords}
-    \beginverse*
+    \begin{verse*}
       \[C] Et comme il é\[D]tait bien mûr
       \[C] Il gicle \[D]sur le mur
       \[C] Un vilain pe\[D]tit jus blanc
       \[A]Puis une gouttelette de sang
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginverse*
+  \begin{verse*}
     \[A]Et ne tenant plus de joie
     \[A] Je presse une deuxième fois
     \[A] Et comme il était à point
     \[A] Il gicle encore plus loin
-  \endverse
+  \end{verse*}
 
-  \beginchorus
-    \[B] J’exulte, je jubile
+  \begin{chorus}
+    \[B] J'exulte, je jubile
     Je ris comme un débile
     \[G#] Je charcute, je triture
     Enfin j'me défigure
@@ -49,7 +49,7 @@
     De ce bouton de nacre
     \[G#] Je le pince, il explose
     C'est le miroir que j'arrose
-    \[B] J’suis d'accord, c'est abject
+    \[B] J'suis d'accord, c'est abject
     Moi aussi ça m'débecte
     \[G#] Je le cure, je le vide
     De l'ignoble liquide
@@ -57,42 +57,42 @@
     Et me laisse un cratère
     \[A#] Le jour de la photo
     Le jour de la photo
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
-    \beginverse
+    \begin{verse}
       \[C] Avant d'al\[D]ler chez elle
       \[C] Je vérifie \[D]mes aisselles
       \[C] Et dans u\[D]ne vitrine
       \[A] Je vérifie mes narines
-    \endverse
+    \end{verse}
 
-    \beginverse*
-      \[C] J’ajuste \[D]mon veston
+    \begin{verse*}
+      \[C] J'ajuste \[D]mon veston
       \[C] Je consulte \[D]mon bouton
       \[C] Une croûte \[D]le rebouche
       \[A] Il ne faut plus que j'y touche
-    \endverse
+    \end{verse*}
 
-    \beginverse*
+    \begin{verse*}
       \[A] Mais c'est plus fort que moi
       \[A] Il faut qu'j'y remette les doigts
       \[A] Mais comme il en restait plein, oui
       \[A] Il gicle encore plus loin
-    \endverse
+    \end{verse*}
   \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     \dots{}Avec Anne, avec Anne, avec Anne
-  \endchorus
+  \end{chorus}
 
-  \beginverse*
+  \begin{verse*}
     \musicnote {\Outro : }
     \nolyrics \[C] \[D]
-    Bonjour Anne
-    Bonjour
-    Tu vas bien Anne ?
-    Tu m'fais pas la bise ?
-  \endverse
+    {\og}Bonjour Anne
+    --- Bonjour
+    --- Tu vas bien Anne ?
+    Tu m'fais pas la bise ?{\fg}
+  \end{verse*}
 
 \endsong

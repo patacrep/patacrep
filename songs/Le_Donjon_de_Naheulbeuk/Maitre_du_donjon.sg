@@ -1,0 +1,159 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Maître du donjon}
+  [by=Le Donjon de Naheulbeuk,cov=t-as-pas-le-niveau,album=T'as pas le niveau]
+
+  \cover
+  \gtab{Dm}{5:X02210}
+  \gtab{C}{3:X02220}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+  \gtab{Am}{X02210}
+  \gtab{G}{X02210}
+  \gtab*{Gm7}{3:030000}
+  \gtab{Em}{022000}
+
+  \begin{verse}
+    \[Dm] Après de nombreuse aventures
+    Qui s'étaient \[C]très mal termi\[Dm]nées \[C Dm]
+    \[Dm] J'étais lassé de mon armure
+    J'étais las\[C]sé de voya\[Dm]ger \[C F]
+  \end{verse}
+
+  \begin{verse*}
+    \[F] On m'avait parlé d'un donjon
+    Caché dans une sombre fo\[C]rêt
+    \[B&] Avec oubliette et pri\[C]son
+    Salle de torture et jardi\[Dm]net
+  \end{verse*}
+
+  \begin{chorus}
+    \[Dm]Adieu l'aven\[C]ture
+    \[Dm]Je laissais là mes \[C]compagnons
+    \[F]Terminée la vie \[C]dure
+    \[B&] Je serai maître \[C] du don\[Dm]jon
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm] C'était vraiment une bonne affaire
+      Un donjon \[C]garni clé en \[Dm]main \[C Dm]
+      \[Dm] Les pièges neufs de l'année dernière
+      Des monstres \[C]dans les souter\[Dm]rains \[C F]
+    \end{verse}
+
+    \begin{verse*}
+      \[F] Dans le salon un coffre-fort
+      Sans plus attendre, t'as si\[C]gné
+      \[B&] Dans ton esprit, un seul re\[C]mord
+      Tu n'avais pas tout visi\[Dm]té
+    \end{verse*}
+
+    \begin{chorus}
+      \[Dm]Adieu l'aven\[C]ture
+      \[Dm]Plus jamais de \[C]quêtes à la con
+      \[F]À l'abri dans mes \[C]murs
+      \[B&] C'est moi le maître \[C] du don\[Dm]jon
+    \end{chorus}
+
+    \begin{verse}
+      \[Dm] Enfin ce fut l'installation
+      Je n'étais \[C]plus aventu\[Dm]rier \[C Dm]
+      \[Dm] J'ai vite planqué tout mon pognon
+      Dans le coffre \[C]en acier trem\[Dm]pé \[C F]
+    \end{verse}
+
+    \begin{verse*}
+      \[F] J'actionnai les pièges à l'entrée
+      Et m'allongeai sur des cous\[C]sins
+      \[B&] J'allais enfin dormir en \[C]paix
+      C'était sans compter les \[Dm]gobelins
+    \end{verse*}
+
+    \begin{chorus}
+      \[Dm]Adieu l'aven\[C]ture
+      \[Dm]Mon coffret n'a \[C]pas tenu bon
+      \[F]Maudites créa\[C]tures
+      \[B&] C'est moi le maître \[C] du don\[Dm]jon
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse}
+    \[Am] Tes pièces d'or avaient disparu
+    Tu courus \[G]prendre mon é\[Am]pée
+    \[Am] \echo{Mes pièces d'or avaient disparu
+    Je courus \[G]prendre mon é\[Am]pée}
+    \[Am] Puis tu sortis à moitié nu
+    Hurlant de \[G]rage et meurtri\[Am]er
+    \[Am] \echo{Puis je sortis à moitié nu
+    Hurlant de \[G]rage et meurtri\[Am]er}
+  \end{verse}
+
+  \begin{verse*}
+    \[C] Les cuisines étaient dévastées
+    Fallait voir l'état des pri\[Gm7]sons
+    \echo{Le personnel de nettoyage
+    Va réclamer l'augmentation}
+    \[Gm7] Ces peaux vertes allaient dégus\[C]ter
+    C'était sans compter les \[Dm]scorpions
+  \end{verse*}
+
+  \begin{verse}
+    \[Am] Dans l'ombre de mes souterrains
+    J'avais glis\[Em]sé dans les scor\[Am]pions \[Em Am]
+    \[Am] Je sautillais comme crétin
+    Pour qu'ils dé\[Em]gagent de mon cale\[Am]çon \[Em C]
+  \end{verse}
+
+  \begin{verse*}
+    \[C] Reprenant ma course effrénée
+    J'étais juste sur leurs ta\[Gm7]lons
+    \[Gm7] J'allais enfin les rattra\[C]per
+    C'était sans compter le \[Dm]démon
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[Dm]Adieu l'aven\[C]ture
+      \[Dm]Je suis tombé sur \[C]un démon
+      \[F]{J'ai} pas la car\[C]rure
+      \[B&] C'est lui le maître \[C] du don\[Dm]jon
+    \end{chorus}
+
+    \begin{verse}
+      \[Dm] Descendant plus bas dans les caves
+      J'entendis \[C]des gens psalmo\[Dm]dier \[C Dm]
+      \[Dm] Un démon la gueule pleine de bave
+      Hurla que \[C]je sois sacri\[Dm]fié \[C F]
+    \end{verse}
+
+    \begin{verse*}
+      \[F] Tant pis pour l'or et les gobelins
+      Sans plus attendre, j'ai fi\[C]lé
+      \[B&] Je repartais sur les che\[C]mins
+      J'oubliais les pièges à l'\[Dm]entrée
+    \end{verse*}
+
+    \begin{chorus}
+      \[Dm]Adieu l'aven\[C]ture
+      \[Dm]{J'ai} déclenché une \[C]explosion
+      \[F]Qui ébranla les \[C]murs
+      \[B&] Et fit s'écrouler \[C] le don\[Dm]jon
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Dm]Laisse tomber l'aven\[C]ture
+    \[Dm]{T'as} pas l'niveau pour \[C]un donjon
+    \[F]Pose ici ton ar\[C]mure
+    \[B&] Et viens chanter une p'tite chanson
+  \end{chorus}
+
+  \begin{chorus}
+    \[Dm]Laisse tomber l'aven\[C]ture
+    \[Dm]Amène plutôt du sauci\[C]sson
+    \[F]Car c'est beaucoup moins \[C]dur
+    \[B&] D'être le maître \[C] du jam\[Dm]bon
+  \end{chorus}
+
+\endsong

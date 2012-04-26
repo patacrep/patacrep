@@ -5,63 +5,66 @@
 
   \cover
   \gtab{Dm}{5:X02210}
-  \gtab{Am}{5:022000}
+  \gtab{A7}{5:020100}
   \gtab{B&}{6:022100}
   \gtab{F}{1:022100}
-  \gtab{C}{X32010}
-  \gtab{G}{3:022100}
+  \gtab{Gm}{3:022000}
 
   \begin{verse}
     From \[Dm]out of the dust
     Came a man true and bold
-    Champion of the fan\[Am]dango
+    Champion of the fan\[A7]dango
   \end{verse}
 
   \begin{verse*}
-    By \[Dm]night he drank \[Am]whiskey
-    By \[B&]day killed bad \[Dm]men
-    And the \[F]townspeople \[C]knew him as \[Dm]Rango
+    By \[B&]night he drank \[F]whiskey
+    By \[Gm]day killed bad \[Dm]men
+    And the \[F]townspeople \[A7]knew him as \[Dm]Rango
   \end{verse*}
 
-  \begin{verse}
-    Comin' down the mountainside
-    The people hailed his name
-    And of his legend they sang oh
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm]Comin' down the mountainside
+      The people hailed his name
+      And of his legend they \[A7]sang oh
+    \end{verse}
 
-  \begin{verse*}
-    With iron in his heart
-    Steel in his claw
-    He pumped their heads all full of lead, Rango
-  \end{verse*}
+    \begin{verse*}
+      With \[B&]iron in his \[F]heart
+      \[Gm]Steel in his \[Dm]claw
+      He \[F]pumped their heads all \[A7]full of lead, \[Dm]Rango
+    \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
-    Ran\[G]go, Ran\[Dm]go
-    Ran\[G]go, Ran\[F]go \[C Dm]
+    Ran\[B&]go, Ran\[Dm]go
+    Ran\[B&]go, Ran\[F]go \[A7 Dm]
   \end{chorus}
 
-  \begin{verse}
-    A ladies man indeed
-    From his head down to his knees
-    Rango was doing the tango
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      A \[Dm]ladies man indeed
+      From his head down to his knees
+      Rango was doing the \[A7]tango
+    \end{verse}
 
-  \begin{verse*}
-    But in came bad Bill
-    From his hide out in the hill
-    With a notion to kill Rango
-  \end{verse*}
+    \begin{verse*}
+      But \[B&]in came bad \[F]Bill
+      From his \[Gm]hide out in the \[Dm]hill
+      With a \[F]notion to kill \[A7] \[Dm]Rango
+    \end{verse*}
 
-  \begin{verse}
-    Now Rango, he is gone
-    But his legend still lives on
-    In the brothels and saloons of Durango
-  \end{verse}
+    \begin{verse}
+      Now \[Dm]Rango, he is gone
+      But his legend still lives on
+      In the brothels and saloons of Du\[A7]rango
+    \end{verse}
 
-  \begin{verse*}
-    He lived as he died
-    A six gun at his side
-    And all the ladies cried for Rango
-  \end{verse*}
+    \begin{verse*}
+      He \[B&]lived as he \[F]died
+      A \[Gm]six gun at his \[Dm]side
+      And \[F]all the ladies cried \[A7] for \[Dm]Rango
+    \end{verse*}
+  \end{repeatedchords}
 
 \endsong

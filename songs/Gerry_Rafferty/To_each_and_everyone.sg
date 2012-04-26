@@ -1,0 +1,49 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{To each and everyone}
+  [by=Gerry Rafferty,cov=can-i-have-my-money-back,album=Can I have my money back?]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{F#7}{2:020100}
+  \gtab{D7}{XX0212}
+  \gtab{G}{320003}
+  \gtab*{Gsus4}{X32033}
+
+  \begin{verse}
+    To \[Bm]each and \[A]every \[D]one of \[C]you
+    \[Em]I say good\[Bm]bye, fare\[D]well, of \[A]you
+    \[Bm] To each and \[A]all I \[D]say good\[C]bye
+    I \[Em]know it's been \[Bm]fun but we're \[F#7]living a \[Bm]lie
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      You \[Bm]said you \[A]spoke straight \[D]from your \[C]heart
+      But \[Em]that was the \[Bm]one thing that \[D]kept us a\[A]part
+      \[Bm] 'Cause when I \[A]read bet\[D]ween the \[C]lines
+      I \[Em]saw that the \[Bm]only heart \[F#7]speaking was \[Bm]mine
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Bm] To each and every\[D7]one of you
+    I \[G]say goodbye, in\[Gsus4]deed I do
+    \[Bm] If you should ask me \[D7]why I go
+    I \[G]wouldn't say 'cause \[Gsus4]you should know
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Bm] When every\[A]thing is \[D]said and \[C]done
+      \[Em]Nothing's been \[Bm]lost and \[D]nothing's been \[A]won
+      \[Bm] I took from \[A]you, \[D] you took from \[C]me
+      \[Em]But I sup\[Bm]pose that's how \[F#7]it had to \[Bm]be
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

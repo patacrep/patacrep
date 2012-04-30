@@ -54,17 +54,17 @@ fi;
 #build all songbooks
 rm -f *.d 
 make cleanall 
-make -j 4 naheulbeuk.pdf 
-make -j 4 volume-1.pdf 
-make -j 4 volume-2.pdf 
-make -j 4 volume-3.pdf 
-make -j 4 volume-4.pdf 
-make -j 4 volume-5.pdf 
-make -j 4 english.pdf 
-make -j 4 french.pdf 
-make -j 4 songbook.pdf 
-make -j 4 lyricbook.pdf 
-make -j 4 archive
+make naheulbeuk.pdf 
+make volume-1.pdf 
+make volume-2.pdf 
+make volume-3.pdf 
+make volume-4.pdf 
+make volume-5.pdf 
+make english.pdf 
+make french.pdf 
+make songbook.pdf 
+make lyricbook.pdf 
+make archive
 
 git status 
 

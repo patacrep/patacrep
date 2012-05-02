@@ -24,8 +24,7 @@ word_dic = {
 "\\œ": "œ",
 ##: Contractions
 "ptit": "p'tit",
-"y'a": "y a",
-"Y'a": "Y a",
+"Y a": "Y'a",
 "ptê": "p't'ê",
 "p'tê": "p't'ê",
 "p't-ê": "p't'ê",

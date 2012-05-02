@@ -26,23 +26,21 @@
     And \[G]who would've \[F#m]thought it fi\[E]gures
   \end{chorus}
 
-\begin{repeatedchords}
-  \begin{verse}
-    Mr. \[E]Play-it-\[A]Safe was a\[E]fraid to \[F#m]fly
-    He packed his \[E]suit\[A]case and kissed his \[E]kids good\[F#m]bye
-    He waited his \[E]whole damn \[A]life to \[E]take that \[F#m]flight
-    And as the \[E]plane crashed \[A]down he thought, ``\[E]Well isn't this \[F#m]nice''
-    And isn't it i\[E]ronic? \[A] Don't you think? \[E F#m]
-  \end{verse}
-\end{repeatedchords}
+  \begin{repeatedchords}
+    \begin{verse}
+      Mr. \[E]Play-it-\[A]Safe was a\[E]fraid to \[F#m]fly
+      He packed his \[E]suit\[A]case and kissed his \[E]kids good\[F#m]bye
+      He waited his \[E]whole damn \[A]life to \[E]take that \[F#m]flight
+      And as the \[E]plane crashed \[A]down he thought, ``\[E]Well isn't this \[F#m]nice''
+      And isn't it i\[E]ronic? \[A] Don't you think? \[E F#m]
+    \end{verse}
+  \end{repeatedchords}
 
-  \musicnote{bridge}
-
-  \begin{verse}
+  \begin{bridge}
     Well \[D]life has a funny \[E]way
     Of sneaking up on you when you think everything's \[D]okay
     And everything's going \[E]right
-  \end{verse}
+  \end{bridge}
 
   \begin{verse*}
     And \[D]life has a funny \[E]way
@@ -51,23 +49,21 @@
   \end{verse*}
 
 
-\begin{repeatedchords}
-  \begin{verse}
-    A \[E]traffic \[A]jam when you're \[E]already late \[F#m]
-    A no-\[E]smoking \[A]sign on your \[E]cigarette \[F#m]break
-    It's like \[E]ten thousand \[A]spoons when all you \[E]need is a \[F#m]knife
-    It's \[E]meeting the man of my \[A]dreams and then \[E]meeting his beautiful \[F#m]wife
-    And isn't it i\[E]ronic? \[A] Don't you think? \[E F#m]
-    A little too \[E]ironic \[A] and yeah, \[E]I really do \[F#m]think
-  \end{verse}
-\end{repeatedchords}
+  \begin{repeatedchords}
+    \begin{verse}
+      A \[E]traffic \[A]jam when you're \[E]already late \[F#m]
+      A no-\[E]smoking \[A]sign on your \[E]cigarette \[F#m]break
+      It's like \[E]ten thousand \[A]spoons when all you \[E]need is a \[F#m]knife
+      It's \[E]meeting the man of my \[A]dreams and then \[E]meeting his beautiful \[F#m]wife
+      And isn't it i\[E]ronic? \[A] Don't you think? \[E F#m]
+      A little too \[E]ironic \[A] and yeah, \[E]I really do \[F#m]think
+    \end{verse}
+  \end{repeatedchords}
 
-  \musicnote{bridge}
-
-  \begin{verse}
+  \begin{bridge}
     \[D]Life has a funny way of sneaking up on \[E]you
     \[D]Life has a funny, funny way of helping you \[E]out
     Helping you out
-  \end{verse}
+  \end{bridge}
 
 \endsong

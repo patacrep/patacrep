@@ -4,14 +4,14 @@
   [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
 
   \cover
-  \gtab{C{\shrp}m}{4:X02210}
-  \gtab{F{\shrp}m}{2:022000}
-  \gtab{G{\shrp}}{320003}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#m}{2:022000}
+  \gtab{G#}{320003}
   \gtab{E}{022100}
   \gtab{A}{X02220}
-  \utab{C{\shrp}m}{1:0333}
-  \utab{F{\shrp}m}{2120}
-  \utab{G{\shrp}}{3:2010}
+  \utab{C#m}{1:0333}
+  \utab{F#m}{2120}
+  \utab{G#}{3:2010}
   \utab{E}{2:2220}
   \utab{A}{2100}
 

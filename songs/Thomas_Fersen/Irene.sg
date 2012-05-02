@@ -5,13 +5,13 @@
 
   \cover
   \gtab{B}{2:X02220}
-  \gtab{G{\shrp}m}{4:022000}
+  \gtab{G#m}{4:022000}
   \gtab{E}{022100}
-  \gtab{C{\shrp}m}{4:X02210}
+  \gtab{C#m}{4:X02210}
   \utab{B}{2:2100}
-  \utab{G{\shrp}m}{1:0231}
+  \utab{G#m}{1:0231}
   \utab{E}{2:2220}
-  \utab{C{\shrp}m}{1:0333}
+  \utab{C#m}{1:0333}
 
   \begin{verse*}
     \musicnote {\Intro : \nolyrics \[B G{\shrp}m E B] \rep{2}}

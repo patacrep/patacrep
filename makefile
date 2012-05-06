@@ -92,15 +92,16 @@ $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
 
 archive: clean
-	tar -czvf songbook-$(DATE).tar.gz \
+	tar -czvf songbook.tar.gz \
 	--exclude=*pdf \
-	--exclude=.git --exclude=.gitignore \
+	--exclude-vcs \
 	--exclude=$(BOOKS_DIR)/default.sb \
 	--exclude=perso/* --exclude=perso \
 	--exclude=build/* --exclude=build \
 	--exclude=covers/* --exclude=covers \
 	--exclude=data/* --exclude=data \
 	--exclude=*tar.gz \
+	--transform 's/songbook/songbook-$(DATE)/1' \
 	../songbook
 
 ifeq (.pdf,$(suffix $(MAKECMDGOALS)))

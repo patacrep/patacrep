@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Noël en Mordor}
-  [by=Le Donjon de Naheulbeuk]
+  [by=Le Donjon de Naheulbeuk,cov=t-as-pas-le-niveau,album=T'as pas le niveau]
 
+  \cover
   \capo{3}
   \gtab{Am}{X02210}
   \gtab{C}{X32010}

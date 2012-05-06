@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le laridé du poulet}
-  [by=Le Donjon de Naheulbeuk]
+  [by=Le Donjon de Naheulbeuk,cov=t-as-pas-le-niveau,album=T'as pas le niveau]
 
+  \cover
   \gtab{Am}{X02210}
   \gtab{G}{320003}
   \gtab{F}{1:022100}

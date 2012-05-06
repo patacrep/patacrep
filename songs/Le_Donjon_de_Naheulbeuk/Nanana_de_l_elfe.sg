@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Nanana de l'elfe}
-  [by=Le Donjon de Naheulbeuk]
+  [by=Le Donjon de Naheulbeuk,cov=t-as-pas-le-niveau,album=T'as pas le niveau]
 
+  \cover
   \gtab{D}{XX0232}
   \gtab{A}{X02220}
   \gtab{G}{320003}

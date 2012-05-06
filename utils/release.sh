@@ -53,7 +53,7 @@ fi;
 
 #build all songbooks
 rm -f *.d 
-make cleanall 
+make archive
 make naheulbeuk.pdf 
 make volume-1.pdf 
 make volume-2.pdf 
@@ -64,7 +64,6 @@ make english.pdf
 make french.pdf 
 make songbook.pdf 
 make lyricbook.pdf 
-make archive
 
 git status 
 

@@ -91,9 +91,8 @@ $(PDF): %.pdf: %.tex %.aux
 $(CHORDS): $(CHORDS_SRC)
 	$(MAKE_CHORDS) -o $@
 
-archive: clean
+archive: cleanall
 	tar -czvf songbook.tar.gz \
-	--exclude=*pdf \
 	--exclude-vcs \
 	--exclude=$(BOOKS_DIR)/default.sb \
 	--exclude=perso/* --exclude=perso \

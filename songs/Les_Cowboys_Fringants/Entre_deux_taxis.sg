@@ -1,0 +1,104 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Entre deux taxis}
+  [by=Les Cowboys Fringants,cov=l-expedition,album=L'expédition]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{B7}{X21202}
+  \utab{Em}{0432}
+  \utab{Bm}{2:2000}
+  \utab{C}{0003}
+  \utab{G}{0232}
+  \utab{B7}{2:0100}
+
+
+  \lilypond{Entre_deux_taxis}
+
+  \begin{verse*}
+    \musicnote {\Intro :}
+    \musicnote {\nolyrics \[Em] \[C G D Em] \[C G B Em]}
+  \end{verse*}
+
+  \begin{verse}
+    \[Em]Ils se sont embrassés tard \[Bm]dans la nuit
+    \[C]Sur la banquette d'un ta\[G]xi
+    \[Em]Dehors un lampadaire s'est \[Bm]rallumé
+    \[B7]Ils ont fait vœu d'éterni\[Em]té
+  \end{verse}
+
+  \begin{verse*}
+    Sur le toit de la voi\[C]ture, deux néons lumi\[D]neux
+    Semblaient briller que pour \[G]eux
+    \[Em]Comme une petite auréole \[Bm]dans le noir
+    \[B7]Le taxi filait vers la \[Em]gloire
+  \end{verse*}
+
+  \begin{chorus}
+    Oh qu'il est \[C]triste le sort des amou\[G]reux
+    Se di\[D]sait le vieux chauffeur amu\[Em]sé
+    Car on \[C]commence toujours à se dire a\[G]dieu
+    Dès no\[B7]tre premier bai\[Em]ser
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Ensemble ils ont pris un ap\[Bm]partement
+      \[C]Où ils vécurent au gré du \[G]temps
+      \[Em]Une vie avec des lu\[Bm]nettes roses
+      \[B7]Exempte de journées mo\[Em]roses
+    \end{verse}
+
+    \begin{verse*}
+      Mais le poids du quoti\[C]dien, ce petit diable ma\[D]lin
+      Vient s'installer un bon ma\[G]tin
+      \[Em]Et les cœurs qui furent si lé\[Bm]gers hier
+      \[B7]Retombent les deux pieds sur \[Em]terre
+    \end{verse*}
+
+    \begin{chorus}
+      Oh qu'il est \[C]triste le sort des amou\[G]reux
+      Qu'on se \[D]dit au bout de quelques an\[Em]nées
+      Car on \[C]commence toujours à se dire a\[G]dieu
+      Dès no\[B7]tre premier bai\[Em]ser
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \musicnote {\nolyrics \[C G D Em] \[C G D B]}
+    \musicnote {\nolyrics \[C G D Em] \[C G B B]}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Les amants d'hier sont de\[Bm]venus amis
+      \[C]Plus de chaleur dans le lo\[G]gis
+      \[Em]Les rêves qu'ils avaient jadis \[Bm]en duo
+      \[B7]{S'endorment} maintenant dos à \[Em]dos
+    \end{verse}
+
+    \begin{verse*}
+      Par la fenêtre elle re\[C]garde celui qu'elle a ai\[D]mé
+      La quitter pour l'éterni\[G]té
+      \[Em]En emportant tout un pan \[Bm]de sa vie
+      \[B7]Dans un anonyme ta\[Em]xi
+    \end{verse*}
+
+    \begin{chorus}
+      Oh qu'il est \[C]triste le sort des amou\[G]reux
+      Qu'on se \[D]dit lorsque tout est termi\[Em]né
+      Car on \[C]commence toujours à se dire a\[G]dieu
+      Dès no\[B7]tre premier bai\[Em]ser \musicnote {\rep{2}}
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\Outro :}
+    \musicnote {\nolyrics \[C G D Em] \[C G D B]}
+    \musicnote {\nolyrics \[C G D Em] \[C G B B] \[Em]}
+  \end{verse*}
+
+\endsong

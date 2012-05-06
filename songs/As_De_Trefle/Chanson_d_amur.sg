@@ -1,0 +1,62 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Chanson d'amur}[by=As de Trêfle,cov=haut-les-nains,album=Haut les nains]
+
+  \cover
+  \gtab{Cm}{3:X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{Gm}{3:022000}
+  \utab{Cm}{0333}
+  \utab{Dm}{2210}
+  \utab{Gm}{0231}
+
+  \ifchorded
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Cm Dm Gm Gm] \rep{6}}
+  \end{verse*}
+  \fi
+
+  \begin{verse}
+    \[Cm]Moi j'croyais \[Dm]au grand a\[Gm]mur
+    \[Cm]Sans voir que \[Dm]{j'fonçais} dans l'\[Gm]mour
+    \[Cm]Mais quand j'ai vou\[Dm]lu te faire l'a\[Gm]mur
+    \[Cm]{J'ai} bien vu qu'j'é\[Dm]tais pas encore \[Gm]mour
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Cm]Comme j'aime bien les \[Dm]grandes aven\[Gm]toures
+      \[Cm]{J'ai} décidé \[Dm]de te faire l'a\[Gm]mur
+      \[Cm]Sur le siège ar\[Dm]rière de la voi\[Gm]toure
+      \[Cm]Au beau \[Dm]milieu du carre\[Gm]fur
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Dm]Pam palam pam \[Gm]pam pam
+    \[Dm]Pam palam pam \[Gm]pam
+    \rep{4}
+    \ifchorded
+    \musicnote[french]{Violon}
+    \musicnote[english]{Violin}
+    \nolyrics \[Cm Dm Gm Gm] \rep{4}
+    \lilypond{Chanson_d_amur}
+    \fi
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Cm]Tu m'as dit : {\og}je \[Dm]{t'aime}, je t'as\[Gm]soure{\fg}
+      \[Cm]{C'est} pas tombé \[Dm]dans l'oreille d'un \[Gm]surd
+      \[Cm]Je m'suis dit : {\og}j'vais \[Dm]aller faire une \[Gm]coure{\fg}
+      \[Cm]Pour mieux ap\[Dm]prendre a faire la \[Gm]cur
+    \end{verse}
+
+    \begin{verse*}
+      \[Cm]Tu m'as dit : {\og}tu \[Dm]veux faire un truc \[Gm]pour?{\fg}
+      \[Cm]Ma réponse \[Dm]fut : {\og}je suis \[Gm]pur{\fg}
+      \[Cm]Mais tes deux belles \[Dm]fesses cramées \[Gm]fourent
+      \[Cm]Quand je t'ai \[Dm]prise sur le \[Gm]fur 
+    \end{verse*}
+  \end{repeatedchords}
+\endsong

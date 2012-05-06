@@ -1,0 +1,69 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{À l'oreille de ta femme}
+  [by=As de Trêfle,cov=houlala,album=Houlala]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \utab{Em}{0432}
+  \utab{Bm}{2:2000}
+  \utab{C}{0003}
+  \utab{G}{0232}
+
+  \begin{verse}
+    \[Em]Je me présente j'suis l'nouveau \[Bm]mec de ta copine
+    \[C]Elle est pas tendre tu sais quand \[G]elle parle de toi
+  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Em]Ta Playstation, ta caisse, tes \[Bm]vacances au camping
+      \[C]Ta collection de DVD de \[G]karaté chinois
+      \[Em]Tes trophées de pétanque, trô\[Bm]nant dans la vitrine
+      \[C]Tes petits arrangements au \[G]PMU d'en bas
+      \[Em]Elle t'attendait en balan\[Bm]çant tes magazines
+      \[C]De chasse, de pêche, de cul et \[G]de sports de combat
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Em]Je n'ai pas de grosses voi\[Bm]tures
+    Je n'suis pas \[C]monté comme un âne
+    \[Em]Mais chaque nuit, coincé \[Bm]contre le mur
+    C'est bien moi \[C]qui murmure\dots \[G]à l'oreille de ta femme
+    \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Tous les vendredis soir au \[Bm]milieu du parking
+      \[C]Assise sur le capot de \[G]ton Opel Astra
+      \[Em]Elle observait lequel a \[Bm]le plus beau jogging
+      \[C]La plus belle banane, le \[G]plus beau bandana
+      \[Em]Elle finissait en boîte en \[Bm]remuant son string
+      \[C]Toi tu portais ton beau maillot de \[G]David Ginola
+      \[Em]Elle s'endormait devant un \[Bm]docu sur Chaplin
+      \[C]Toi tu zappais sur le très beau Grand \[G]prix du Canada
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Em Bm C C] \[Em Bm C G] \rep{2}}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Elle qu'aimait la peinture, sur\[Bm]tout Klimt et Soutine
+      \[C]Ce sculpteur norvégien à \[G]la galerie d'en bas
+      \[Em]Elle te voyait repeindre des \[Bm]tas de figurines
+      \[C]De sous-marins de guerre et \[G]de petits soldats
+      \[Em]Elle rêvait de Mozart au calme au \[Bm]fond d'une limousine
+      \[C]Elle se tapait Johnny à fond dans \[G]ton Opel Astra
+      \[Em]Tu lui parlais de phares, de jantes, de \[Bm]compet', de tuning
+      \[C]Tu lui parlais, tu lui parlais mais \[G]elle n'écoutait pas
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

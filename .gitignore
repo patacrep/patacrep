@@ -14,6 +14,7 @@ utils/send.sh
 *.out
 *.d
 *.pdf
+*.tar.gz
 default.sb
 default.tex
 french.sb

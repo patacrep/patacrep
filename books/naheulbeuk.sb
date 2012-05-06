@@ -13,7 +13,7 @@
 "picturecopyright" : "Personnages par \\emph{Pen Of Chaos} / Illustrations par \\emph{Marion Poinsot}",
 "subtitle" : "Recueil de chansons non-officiel",
 "title" : "Le Donjon de Naheulbeuk",
-"version" : "0.4.1",
+"version" : "0.5",
 "songs" : [
     "Belyscendre/Helas_madame.sg",
     "Belyscendre/Mon_pere_veut_me_marier.sg",
@@ -31,6 +31,7 @@
     "Le_Donjon_de_Naheulbeuk/Les_elfes_de_GreenElven.sg",
     "Le_Donjon_de_Naheulbeuk/Les_souliers_de_Lady_Fae.sg",
     "Le_Donjon_de_Naheulbeuk/Les_epees_Durandil.sg",
+    "Le_Donjon_de_Naheulbeuk/Maitre_du_donjon.sg",
     "Le_Donjon_de_Naheulbeuk/Marche_barbare.sg",
     "Le_Donjon_de_Naheulbeuk/Massacrons_nous_dans_la_taverne.sg",
     "Le_Donjon_de_Naheulbeuk/Mon_ancetre_Gurdil.sg",

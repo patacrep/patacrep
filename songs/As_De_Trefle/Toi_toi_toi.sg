@@ -1,0 +1,81 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Toi, toi, toi}[by=As de Trêfle,cov=sans-les-mains,album=Sans les mains]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
+  \utab{D}{2220}
+  \utab{A}{2100}
+  \utab{C}{0003}
+  \utab{G}{0232}
+  \utab{B&}{1:2100}
+  \utab{F}{2010}
+  \utab{Dm}{2210}
+
+
+  \begin{verse}
+    \[D]{J'ai} couru après \[A]toi
+    \[C]Comme on court après la for\[G]tune
+    \[D]Je ferais tout et n'importe \[A]quoi
+    \[C]Pour égayer ta vie noc\[G]turne
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[D]Chacun devant, ça va de \[A]soi
+      \[C]Retrouver un jour sa cha\[G]cune
+      \[D]Faisons le deuil du céli\[A]bat
+      \[C]Profitons de la vie com\[G]mune
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[B&]Toi, toi, \[F]toi, \[C]tu ressembles à \[Dm]celle
+    \[B&]{Qu'à} la craie, \[F]{j'avais} dessi\[C]née
+    Sur \[B&]mon ar\[F]doise, \[C]à la mater\[Dm]nelle
+    \[B&]Du haut de \[F]mes quelques an\[C]nées
+    \ifchorded
+    \musicnote[french]{Violon}
+    \musicnote[english]{Violin}
+    \nolyrics \[D A C G] \rep{2}
+    \lilypond{Toi_toi_toi}
+    \fi
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Il faudra bien que tu \[A]sois
+      \[C]Ma compagne d'infor\[G]tune
+      \[D]Quand je rentrerai chez \[A]toi
+      \[C]Saoul à des heures inoppor\[G]tunes
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Si je sors de l'anony\[A]mat
+      \[C]Et que demain je fais la \[G]une
+      \[D]Si dans les stades, je suis le \[A]roi
+      \[C]Moi je te veux dans la tri\[G]bune
+    \end{verse*}
+
+    \begin{verse}
+      \[D]Si sous le feu des caméras
+      \[C]Un soir je t'oublie sur une \[G]dune
+      \[D]Oh je t'en prie, pardonne-\[A]moi
+      \[C]{J'irai} te décrocher la \[G]lune
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Si un jour il me pleut des \[A]thunes
+      \[C]Et qu'il m'en tombe plein les \[G]bras
+      \[D]Moi je m'enfuirai sur Nep\[A]tune
+      \[C]Et t'emmènerai sous mon \[G]bras
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Pauvre planète}[by=As de Trêfle,cov=houlala,album=Houlala]
+\beginsong{Pauvre planète}
+  [by=As de Trêfle,cov=houlala,album=Houlala]
 
   \cover
 

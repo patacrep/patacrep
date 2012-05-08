@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{La révolution}[by=As de Trêfle,cov=houlala,album=Houlala]
+\beginsong{La révolution}
+  [by=As de Trêfle,cov=houlala,album=Houlala]
 
   \cover
 
@@ -48,7 +49,7 @@
     \nolyrics \[B&m A& E&m E&m] \rep{4}
     \lilypond{La_revolution}
     \fi
-  \endchorus
+  \end{chorus}
 
   \begin{verse}
     \[D&]Prends-toi en main

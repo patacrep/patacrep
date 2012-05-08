@@ -4,16 +4,14 @@
 
   \cover
 
-  \gtab{B&m}{}
-  \gtab{A&}{}
-  \gtab{E&m}{}
-  \gtab{D&}{}
-  \gtab{G&}{}
-  \utab{B&m}{1:2000}
-  \utab{A&}{3:2010}
-  \utab{E&m}{1:2210}
-  \utab{D&}{1:0001}
-  \utab{G&}{1:2010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{F#m}{2:022000}
+  \gtab{Bm}{2:X02210}
+  \utab{G}{0232}
+  \utab{D}{2220}
+  \utab{F#m}{2120}
+  \utab{Bm}{2:2000}
 
   \begin{verse}
     \[G]Nous qui ne sommes que des \[D]locataires
@@ -41,7 +39,7 @@
     \ifchorded
     \musicnote[french]{Violon}
     \musicnote[english]{Violin}
-    \nolyrics \[Em Bm D A] \rep{4}
+    \nolyrics \[G Bm D F#m] \rep{4}
     \lilypond{Pauvre_planete}
     \fi
   \end{chorus}

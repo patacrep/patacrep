@@ -1,0 +1,75 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La révolution}[by=As de Trêfle,cov=houlala,album=Houlala]
+
+  \cover
+
+  \gtab{B&m}{1:X02210}
+  \gtab{A&}{4:022100}
+  \gtab{E&m}{6:X02210}
+  \gtab{D&}{4:X02220}
+  \gtab{G&}{2:022100}
+  \utab{B&m}{1:2000}
+  \utab{A&}{3:2010}
+  \utab{E&m}{1:2210}
+  \utab{D&}{1:0001}
+  \utab{G&}{1:2010}
+
+  \begin{verse}
+    \[B&m]Quoi que tu dises
+    Ou \[A&]quoi que tu fasses
+    \[E&m] Ce sera la révolution
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[B&m]Quoiqu'on en dise
+      Quelles \[A&]que soient les menaces
+      \[E&m] C'est la dernière solution
+    \end{verse*}
+
+    \begin{verse*}
+      Que \[B&m]ça te défrise
+      Que \[A&]tu aies des angoisses
+      \[E&m] Si je baisse mon pantalon
+    \end{verse*}
+
+    \begin{verse*}
+      \[B&m]Quoi que tu dises
+      Ou \[A&]quoi que tu fasses
+      \[E&m] C'est pour la grosse commission
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \ifchorded
+    \musicnote[french]{Violon}
+    \musicnote[english]{Violin}
+    \nolyrics \[B&m A& E&m E&m] \rep{4}
+    \lilypond{La_revolution}
+    \fi
+  \endchorus
+
+  \begin{verse}
+    \[D&]Prends-toi en main
+    Laisse-\[A&]les pas dans tes poches
+    \[B&m]Serre les poings
+    Re\[G&]lève la caboche
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[D&]Mets des cailloux
+      \[A&]Dans ta sacoche
+      \[B&m]Fais le voyou
+      \[G&]Ou bien raccroche
+    \end{verse*}
+
+    \begin{verse*}
+      \[D&]Toi, le fripon
+      La \[A&]vraie tête de pioche
+      \[B&m]Fais pas le con
+      À \[G&]rouler des galoches
+    \end{verse*}
+  \end{repeatedchords}
+\endsong

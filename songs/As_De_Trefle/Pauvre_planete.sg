@@ -39,7 +39,7 @@
     \ifchorded
     \musicnote[french]{Violon}
     \musicnote[english]{Violin}
-    \nolyrics \[G Bm D F#m] \rep{4}
+    \nolyrics \[G D F#m Bm] \rep{4}
     \lilypond{Pauvre_planete}
     \fi
   \end{chorus}

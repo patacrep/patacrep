@@ -1,0 +1,93 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Pauvre planète}[by=As de Trêfle,cov=houlala,album=Houlala]
+
+  \cover
+
+  \gtab{B&m}{}
+  \gtab{A&}{}
+  \gtab{E&m}{}
+  \gtab{D&}{}
+  \gtab{G&}{}
+  \utab{B&m}{1:2000}
+  \utab{A&}{3:2010}
+  \utab{E&m}{1:2210}
+  \utab{D&}{1:0001}
+  \utab{G&}{1:2010}
+
+  \begin{verse}
+    \[G]Nous qui ne sommes que des \[D]locataires
+    De\[F#m]puis la nuit des \[Bm]temps
+    \[G]Prenons bien garde dès \[D]à présent
+    De \[F#m]ne pas nous croire propriétaires
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[G]Si nos enfants et nos pe\[D]tits-enfants
+      Pou\[F#m]vaient garder les \[Bm]yeux ouverts
+      \[G]Laissons-leur au moins un \[D]océan
+      Trois \[F#m]arbres et deux rivières
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[F#m]Pauvre planète, pauvre planète
+    \[G]Ça sent la fin des haricots
+    \[F#m]Beaucoup trop de bourricots
+    A\[G]vec du sable dans la tête
+    \rep{2}
+
+    \ifchorded
+    \musicnote[french]{Violon}
+    \musicnote[english]{Violin}
+    \nolyrics \[Em Bm D A] \rep{4}
+    \lilypond{Pauvre_planete}
+    \fi
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[G]Quand on aura déména\[D]gé sous terre
+      À \[F#m]{l'appel} du Bon \[Bm]Dieu
+      \[G]Nos enfants risquent de \[D]payer cher
+      \[F#m]Pour l'état des lieux
+    \end{verse}
+
+    \begin{verse*}
+      \[G]{J'espère} au moins que \[D]nos ancêtres
+      Ont \[F#m]nettoyé le \[Bm]paradis
+      \[G]Si par malheur c'est \[D]en enfer
+      \[F#m]Que je suis conduit
+    \end{verse*}
+
+    \begin{verse}
+      \[G]Quand il n'y aura plus que \[D]le Kärcher
+      Pour \[F#m]nettoyer la merde qu'on a \[Bm]dans les yeux
+      \[G]Prenons bien garde qu'à \[D]ne rien faire
+      Nous \[F#m]finissions comme eux
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \nolyrics \[G D F#m Bm] \[G D F#m F#m]
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[G]Quand il n'y aura plus que \[D]le Kärcher
+      Pour \[F#m]nettoyer la merde qu'on a \[Bm]dans les yeux
+      \[G]Quand même les quatre \[D]mousquetaires
+      Ne \[F#m]seront plus que deux
+    \end{verse*}
+
+    \begin{verse*}
+      \[G]Prenons bien garde qu'à \[D]ne rien faire
+      Nous \[F#m]finissions par deve\[Bm]nir comme eux
+      \[G]Éteindrons-nous la \[D]poudrière
+      Y \[F#m]mettrons-nous le feu ?
+    \end{verse*}
+
+  \end{repeatedchords}
+
+\endsong

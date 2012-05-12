@@ -4,11 +4,17 @@
   [by=Thomas Fersen,album=Trois petits tours,cov=trois-petits-tours]
 
   \cover
-  \gtab{B}{X24442}
-  \gtab{D#7}{XX1323}
+  \gtab{B}{2:X02220}
+  \gtab{D#7}{1:XX0212}
   \gtab{G#m}{4:022000}
   \gtab{C#m}{4:X02210}
   \gtab{F#7}{2:020100}
+
+  \utab{B}{2:21000}
+  \utab{D#7}{3:0001}
+  \utab{G#m}{1:0231}
+  \utab{C#m}{1:0333}
+  \utab{F#7}{2:1202}
 
   \begin{verse*}
     \musicnote{\Intro : \nolyrics \[B D{\shrp}7 G{\shrp}m G{\shrp}m] \rep{2}}

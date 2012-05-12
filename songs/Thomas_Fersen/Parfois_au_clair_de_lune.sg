@@ -11,6 +11,13 @@
   \gtab{G}{320003}
   \gtab{D}{XX0232}
 
+  \utab{C}{0003}
+  \utab{E}{2:2220}
+  \utab{Am}{2000}
+  \utab{F}{2010}
+  \utab{G}{0232}
+  \utab{D}{2220}
+
   \begin{verse*}
     \musicnote {\Intro : \nolyrics \[C E Am F] \[C E Am G]}
   \end{verse*}

@@ -9,6 +9,10 @@
   \gtab{A}{X02220}
   \gtab{G#}{4:022100}
 
+  \utab{C#m}{1:0333}
+  \utab{F#m}{2120}
+  \utab{A}{2100}
+  \utab{G#}{3:2010}
 
   \begin{verse*}
     \musicnote{\Intro : {\nolyrics \[C{\shrp}m]}}

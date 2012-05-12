@@ -11,7 +11,13 @@
   \gtab{Am}{X02210}
   \gtab{D}{XX0232}
   \gtab{B}{2:X02220}
-
+  \utab{Em}{0432}
+  \utab{G}{0232}
+  \utab{Bm}{2:2000}
+  \utab{C}{0003}
+  \utab{Am}{2000}
+  \utab{D}{2220}
+  \utab{B}{2:2100}
 
   \begin{verse}
     Je vole\[Em]tais dans les ténèbres à l'allure d'un convoi funèbre

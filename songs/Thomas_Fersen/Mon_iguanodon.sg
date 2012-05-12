@@ -11,6 +11,13 @@
   \gtab{Cm}{3:X02210}
   \gtab{Fm7}{1:020000}
   \gtab{G}{320003}
+  \utab{E&}{1:2220}
+  \utab{A&}{3:2010}
+  \utab{Fm}{1013}
+  \utab{B&}{1:2100}
+  \utab{Cm}{0333}
+  \utab{Fm7}{1:0202}
+  \utab{G}{0232}
 
   \begin{verse}
     \[E&]{Il dormait} dans une mare

@@ -11,6 +11,13 @@
   \gtab{B7}{X21202}
   \gtab{G}{320003}
 
+  \utab{Em}{0432}
+  \utab{C}{0003}
+  \utab{Am}{2000}
+  \utab{D}{2220}
+  \utab{B7}{2:0100}
+  \utab{G}{0232}
+
   \begin{verse*}
     \musicnote {\Intro : \nolyrics \[Em C Am D] \rep{2} }
   \end{verse*}

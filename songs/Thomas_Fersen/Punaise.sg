@@ -10,6 +10,12 @@
   \gtab{D}{XX0232}
   \gtab{Em}{022000}
 
+  \utab{Bm}{2:2000}
+  \utab{G}{0232}
+  \utab{A}{2100}
+  \utab{D}{2220}
+  \utab{Em}{0432}
+
   \begin{verse*}
     \musicnote{\Intro : {\nolyrics \[Bm G Bm G]} }
   \end{verse*}

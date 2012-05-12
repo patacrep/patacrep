@@ -9,6 +9,11 @@
   \gtab{A#}{1:X02220}
   \gtab{D#}{XX1343}
   \gtab{Fm}{1:022000}
+  \utab{Cm}{0333}
+  \utab{G}{0232}
+  \utab{A{\shrp}}{2100}
+  \utab{D{\shrp}}{1:2220}
+  \utab{Fm}{1013}
 
   \begin{chorus}
     \musicnote {\nolyrics \[Cm G Cm] \rep{2}}

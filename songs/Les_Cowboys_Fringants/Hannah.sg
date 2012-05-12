@@ -1,0 +1,176 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Hannah}[by=Les Cowboys Fringants,cov=La-grand-messe,album=La grand messe]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{E7}{020100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{A}{X02220}
+  \gtab{A7}{X02020}
+
+  \utab{Am}{2000}
+  \utab{Dm}{2210}
+  \utab{E7}{1202}
+  \utab{G}{0232}
+  \utab{C}{0003}
+  \utab{A}{2100}
+  \utab{A7}{0100}
+
+  \ifchorded
+  \begin{chorus}
+    \musicnote[french]{Accordéon}
+    \musicnote[english]{Accordion}
+    \nolyrics \[Am Dm E7 E7] \[Am Dm E7 Am]
+    \lilypond{Hannah_1}
+  \end{chorus}
+  \fi
+
+  \begin{verse}
+    \[Am]Hannah est toute \[Dm]seule
+    Avec \[E7]sa mélanco\[Am]lie
+    Re\[Am]couverte du lin\[Dm]ceul
+    Dans lequel \[G]on a mis sa \[C]vie
+  \end{verse}
+
+  \begin{verse*}
+    Elle \[Am]écoule les \[A]jours
+    Dans une \[A7]solitude lu\[Dm]naire
+    Le \[G]c{\oe}ur comme un poids lourd
+    Qui s'engloutit dans sa mi\[E7]sère
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]Elle passe ses soi\[Dm]rées
+      À niai\[E7]ser sur Inter\[Am]net
+      \[Am]Avec des pau\[Dm]més
+      Qui lui ver\[G]ront jamais la \[C]bette
+    \end{verse}
+
+    \begin{verse*}
+      Elle \[Am]parle un p'tit peu \[A]{d'elle}
+      Du monde et \[A7]parfois même de \[Dm]cul
+      Avec \[G]ses chums virtuels
+      Qui resteront des incon\[E7]nus
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    J'l'ai \[Am]croisée une soi\[Dm]rée
+    Où j'é\[E7]tais un peu bla\[Am]sé{\dots}
+    \nolyrics \[Am Dm E7 E7] \[Am Dm E7 Am]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      J'l'ai \[Am]écouté m'ja\[Dm]ser
+      De son \[E7]enfance doulou\[Am]reuse
+      Où \[Am]on l'a écra\[Dm]sée
+      Même si c'était \[G]loin d'être une niai\[C]seuse
+    \end{verse}
+
+    \begin{verse*}
+      De \[Am]ses vieux un peu \[A]chiants
+      Qui n'ont fait \[A7]que la barouet\[Dm]ter
+      Et de \[G]sa chère grand-maman
+      Chez qui elle a été éle\[E7]vée
+    \end{verse*}
+
+    \begin{verse}
+      Dans \[Am]un quartier de la \[Dm]ville
+      Où elle vi\[E7]vait introver\[Am]tie
+      Elle \[Am]{s'sentait} inu\[Dm]tile
+      Et n'avait \[G]presque pas d'a\[C]mis
+    \end{verse}
+
+    \begin{verse*}
+      Par\[Am]tait parfois l'é\[A]té
+      À la cam\[A7]pagne quand 'était \[Dm]flo
+      Où les \[G]beaux ciels étoilés
+      Lui illuminaient le cer\[E7]veau
+    \end{verse*}
+
+    \begin{chorus}
+      Mais \[Am]son regard d'en\[Dm]fant
+      Est par\[E7]ti depuis long\[Am]temps{\dots}
+      \nolyrics \[Am Dm E7 E7] \[Am Dm E7 Am]
+    \end{chorus}
+  \end{repeatedchords}
+
+  \ifchorded
+  \begin{verse*}
+    \nolyrics \[G C G C] \[E7 Am E7 A A A]
+    \lilypond{Hannah_2}
+  \end{verse*}
+  \fi
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Ving-\[Am]six ans et per\[Dm]due
+      Toujours plus \[E7]désillusion\[Am]née
+      Elle \[Am]vient qu'elle ne sait \[Dm]plus
+      À quelle con\[G]nerie se raccro\[C]cher
+    \end{verse}
+
+    \begin{verse*}
+      Elle \[Am]avait commen\[A]cé
+      Un cours \[A7]en secréta\[Dm]riat
+      Mais \[G]elle l'a vite lâché
+      Voyant qu'ça l'interessait \[E7]pas
+    \end{verse*}
+
+    \begin{verse}
+      Ce \[Am]{qu'elle} aurait bien vou\[Dm]lu
+      C'est travail\[E7]ler avec les \[Am]gens
+      Les \[Am]malades, les exc\[Dm]lus
+      Ceux qui n'ont \[G]jamais eu de \[C]chance
+    \end{verse}
+
+    \begin{verse*}
+      Si \[Am]elle avait con\[A]fiance en elle
+      Au\[A7]tant qu'elle a de \[Dm]c{\oe}ur
+      Tout \[G]son grand potentiel
+      Serait là pour semer du bon\[E7]heur
+    \end{verse*}
+
+    \begin{chorus}
+      Mais \[Am]quand on t'a bri\[Dm]sé
+      La vie est \[E7]ben plus malai\[Am]sée{\dots}
+      \nolyrics \[Am Dm E7 E7] \[Am Dm E7 Am]
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    Elle \[G]espère qu'un moment don\[C]né
+    Elle pour\[G]ra lever le \[C]voile
+    Sur \[E7]ces sombres an\[Am]nées
+    Et enfin \[E7]revoir les é\[A7]toiles
+    \nolyrics \[Dm G C F] \[Dm Dm E7 Am]
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Elle \[Am]dit qu'la soli\[Dm]tude
+      C'est \[E7]quelqu'chose d'assez dépri\[Am]mant
+      Qu'ça \[Am]devient une habi\[Dm]tude
+      Mais qu'on s'y \[G]fait jamais vrai\[C]ment
+    \end{verse}
+
+    \begin{verse*}
+      Si \[Am]les étoiles re\[A]viennent
+      J'te jure que \[A7]je te les dé\[Dm]croche
+      Et pour \[G]apaiser ta peine
+      J'en glisserai une dans ta \[E7]poche
+    \end{verse*}
+
+    \begin{chorus}
+      En \[Am]attendant dors \[Dm]bien
+      On se \[E7]reparle de\[Am]main{\dots}
+      \nolyrics \[Am Dm E7 E7 Am]
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

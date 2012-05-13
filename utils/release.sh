@@ -72,7 +72,7 @@ then
     ./utils/new-songs-list.sh | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
     echo "\nversion $MAIN.$MAJOR.$MINOR\n" | cat - NEWS > /tmp/out && mv -f /tmp/out NEWS
     git add templates/*.tmpl
-    git add books/*.sb NEWS
+    git add books/naheulbeuk.sb books/volume*.sb NEWS
     git commit -m "patacrep release version $MAIN.$MAJOR.$MINOR" 
     git tag "patacrep_$MAIN.$MAJOR.$MINOR"
 fi

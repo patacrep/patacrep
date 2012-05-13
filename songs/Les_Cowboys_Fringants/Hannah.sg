@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Hannah}[by=Les Cowboys Fringants,cov=La-grand-messe,album=La grand messe]
+\beginsong{Hannah}
+  [by=Les Cowboys Fringants,cov=la-grand-messe,album=La grand messe]
 
   \cover
   \gtab{Am}{X02210}
@@ -10,7 +11,6 @@
   \gtab{C}{X32010}
   \gtab{A}{X02220}
   \gtab{A7}{X02020}
-
   \utab{Am}{2000}
   \utab{Dm}{2210}
   \utab{E7}{1202}

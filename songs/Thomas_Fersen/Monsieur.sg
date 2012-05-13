@@ -10,13 +10,12 @@
   \gtab{G}{320003}
   \gtab{Fm}{1:022000}
   \gtab{B}{2:X02220}
-
-  \gtab{Cm}{0333}
-  \gtab{A{\shrp}}{1:2100}
-  \gtab{D{\shrp}}{1:2220}
-  \gtab{G}{0232}
-  \gtab{Fm}{1013}
-  \gtab{B}{2:2100}
+  \utab{Cm}{0333}
+  \utab{A#}{1:2100}
+  \utab{D#}{1:2220}
+  \utab{G}{0232}
+  \utab{Fm}{1013}
+  \utab{B}{2:2100}
 
   \begin{verse*}
     \musicnote { \Intro : \nolyrics \[Cm B Cm] \rep{2} }

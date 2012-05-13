@@ -1,6 +1,11 @@
 \selectlanguage{french}
 \songcolumns{2}
+<<<<<<< HEAD
 \beginsong{Hannah}[by=Les Cowboys Fringants,cov=La-grand-messe,album=La grand messe]
+=======
+\beginsong{Hannah}
+  [by=Les Cowboys Fringants,cov=la-grand-messe,album=La grand messe]
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09
 
   \cover
   \gtab{Am}{X02210}
@@ -10,7 +15,10 @@
   \gtab{C}{X32010}
   \gtab{A}{X02220}
   \gtab{A7}{X02020}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09
   \utab{Am}{2000}
   \utab{Dm}{2210}
   \utab{E7}{1202}
@@ -173,4 +181,8 @@
     \end{chorus}
   \end{repeatedchords}
 
+<<<<<<< HEAD
 \endsong
+=======
+\endsong
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09

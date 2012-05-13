@@ -1,6 +1,11 @@
 \selectlanguage{french}
 \songcolumns{2}
+<<<<<<< HEAD
 \beginsong{Pauvre planète}[by=As de Trêfle,cov=houlala,album=Houlala]
+=======
+\beginsong{Pauvre planète}
+  [by=As de Trêfle,cov=houlala,album=Houlala]
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09
 
   \cover
 

@@ -1,9 +1,16 @@
 \selectlanguage{french}
 \songcolumns{2}
+<<<<<<< HEAD
 \beginsong{La révolution}[by=As de Trêfle,cov=houlala,album=Houlala]
 
   \cover
 
+=======
+\beginsong{La révolution}
+  [by=As de Trêfle,cov=houlala,album=Houlala]
+
+  \cover
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09
   \gtab{B&m}{1:X02210}
   \gtab{A&}{4:022100}
   \gtab{E&m}{6:X02210}
@@ -41,14 +48,24 @@
     \end{verse*}
   \end{repeatedchords}
 
+<<<<<<< HEAD
   \begin{chorus}
     \ifchorded
+=======
+  \ifchorded
+  \begin{chorus}
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09
     \musicnote[french]{Violon}
     \musicnote[english]{Violin}
     \nolyrics \[B&m A& E&m E&m] \rep{4}
     \lilypond{La_revolution}
+<<<<<<< HEAD
     \fi
   \end{chorus}
+=======
+  \end{chorus}
+  \fi
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09
 
   \begin{verse}
     \[D&]Prends-toi en main
@@ -72,4 +89,8 @@
       À \[G&]rouler des galoches
     \end{verse*}
   \end{repeatedchords}
+<<<<<<< HEAD
 \endsong
+=======
+\endsong
+>>>>>>> 41820107f5419d2d3759b61af492d44d8a96ed09

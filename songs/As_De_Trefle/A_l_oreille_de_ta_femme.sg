@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{À l'oreille de ta femme}[by=As de Trêfle,cov=houlala,album=Houlala]
+\beginsong{À l'oreille de ta femme}
+  [by=As de Trêfle,cov=houlala,album=Houlala]
 
   \cover
   \gtab{Em}{022000}
@@ -45,7 +46,7 @@
       \[C]Toi tu portais ton beau maillot de \[G]David Ginola
       \[Em]Elle s'endormait devant un \[Bm]docu sur Chaplin
       \[C]Toi tu zappais sur le très beau Grand \[G]prix du Canada
-    \end{verse}  
+    \end{verse}
   \end{repeatedchords}
 
   \begin{verse*}
@@ -63,6 +64,6 @@
       \[Em]Tu lui parlais de phares, de jantes, de \[Bm]compet', de tuning
       \[C]Tu lui parlais, tu lui parlais mais \[G]elle n'écoutait pas
     \end{verse}
-  \end{repeatedchords} 
+  \end{repeatedchords}
 
 \endsong

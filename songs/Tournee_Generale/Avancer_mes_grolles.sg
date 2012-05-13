@@ -1,0 +1,80 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Avancer mes grolles}
+  [by=Tournée Générale,cov=tournee-generale,album=Tournée générale]
+
+  \cover
+  \gtab{Dm}{5:X02210}
+  \gtab{B&}{6:022100}
+  \gtab{C}{3:X02220}
+  \gtab{F}{1:022100}
+  \gtab{A}{5:022100}
+  \gtab{Gm}{3:022000}
+
+  \begin{verse}
+    \[Dm]Fille de choix, loin des bonnes manières
+    Autour de \[B&]toi, mon \[C]cœur, bri\[F]cole
+    Des arti\[A]fices qui foutent tout en \[Dm]l'air
+    Pour t'emmener \[B&]dans ma \[A]faran\[Dm]dole
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Dm]Tu te résignes, persites et signes
+      Que je ne \[B&]suis qu'un \[C]pot de \[F]colle
+      Mais ça n'colle \[A]pas, je passe à la \[Dm]ligne
+      Pour faire \[B&]avan\[A]cer mes \[Dm]grolles
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Y'a pas d'pro\[Gm]blèmes à \[C]ma poin\[F]ture
+    \[Gm] Y'a pas d'pro\[A]blèmes pourvu qu'ça \[Dm]dure
+    \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm]Dans mon CV, y'a pas grand chose
+      Pour m'faire te\[B&]nir sur \[C]mes gui\[F]bolles
+      Officielle\[A]ment, moi, j'ai eu ma \[Dm]dose
+      De passer \[B&]par les \[A]proto\[Dm]coles
+    \end{verse}
+
+    \begin{verse*}
+      \[Dm]Dans mon histoire, y'a beaucoup d'blancs
+      Des idées \[B&]noires posées \[C]sur le \[F]sol
+      Je les re\[A]lève constam\[Dm]ment
+      Pour faire \[B&]avan\[A]cer mes \[Dm]grolles
+    \end{verse*}
+
+    \begin{verse}
+      \[Dm]Et même du plus haut des grattes-ciels
+      On n'me pren\[B&]dra pas \[C]par le \[F]col
+      Je me suis \[A]vu pousser du \[Dm]zèle
+      De mon âme \[B&]{j'ai} le \[A]mono\[Dm]pole
+    \end{verse}
+
+    \begin{verse*}
+      \[Dm]Et si je tombe du dernier étage
+      Avant l'bi\[B&]tume, je prends \[C]mon en\[F]vol
+      Pour rejoindre \[A]le prochain cou\[Dm]rage
+      Qui fera \[B&]avan\[A]cer mes \[Dm]grolles
+    \end{verse*}
+
+    \begin{verse}
+      \[Dm]Oh je te vois, noble bourgeois
+      Protéger \[B&]le fond \[C]de ton \[F]bol
+      En me ser\[A]vant un sourire nar\[Dm]quois
+      Ta soupe au \[B&]lait, moi \[A]{j'en} ri\[Dm]gole
+    \end{verse}
+
+    \begin{verse*}
+      \[Dm]Car le pain qui rempli mon ventre
+      Je l'ai chez \[B&]ceux dont \[C]je raf\[F]fole
+      En remet\[A]tant la balle au \[Dm]centre
+      Je f'rai tou\[B&]jours avan\[A]cer mes \[Dm]grolles \rep{2}
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

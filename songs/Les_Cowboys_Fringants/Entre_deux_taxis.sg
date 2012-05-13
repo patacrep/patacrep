@@ -15,12 +15,10 @@
   \utab{G}{0232}
   \utab{B7}{2:0100}
 
-
   \lilypond{Entre_deux_taxis}
 
   \begin{verse*}
-    \musicnote {\Intro :}
-    \musicnote {\nolyrics \[Em] \[C G D Em] \[C G B Em]}
+    \musicnote {\Intro : \nolyrics \[Em] \[C G D Em] \[C G B Em]}
   \end{verse*}
 
   \begin{verse}
@@ -91,14 +89,17 @@
       Oh qu'il est \[C]triste le sort des amou\[G]reux
       Qu'on se \[D]dit lorsque tout est termi\[Em]né
       Car on \[C]commence toujours à se dire a\[G]dieu
-      Dès no\[B7]tre premier bai\[Em]ser \musicnote {\rep{2}}
+      Dès no\[B7]tre premier bai\[Em]ser
+      \rep{2}
     \end{chorus}
   \end{repeatedchords}
 
   \begin{verse*}
-    \musicnote {\Outro :}
+    \musicnote {\Outro}
     \musicnote {\nolyrics \[C G D Em] \[C G D B]}
     \musicnote {\nolyrics \[C G D Em] \[C G B B] \[Em]}
   \end{verse*}
+
+
 
 \endsong

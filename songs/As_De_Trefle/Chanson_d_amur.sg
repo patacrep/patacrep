@@ -1,6 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Chanson d'amur}[by=As de Trêfle,cov=haut-les-nains,album=Haut les nains]
+\beginsong{Chanson d'amur}
+  [by=As de Trêfle,cov=haut-les-nains,album=Haut les nains]
 
   \cover
   \gtab{Cm}{3:X02210}
@@ -53,10 +54,10 @@
     \end{verse}
 
     \begin{verse*}
-      \[Cm]Tu m'as dit : {\og}tu \[Dm]veux faire un truc \[Gm]pour?{\fg}
+      \[Cm]Tu m'as dit : {\og}tu \[Dm]veux faire un truc \[Gm]pour ?{\fg}
       \[Cm]Ma réponse \[Dm]fut : {\og}je suis \[Gm]pur{\fg}
       \[Cm]Mais tes deux belles \[Dm]fesses cramées \[Gm]fourent
-      \[Cm]Quand je t'ai \[Dm]prise sur le \[Gm]fur 
+      \[Cm]Quand je t'ai \[Dm]prise sur le \[Gm]fur
     \end{verse*}
   \end{repeatedchords}
 \endsong

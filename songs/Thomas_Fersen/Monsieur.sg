@@ -17,13 +17,6 @@
   \utab{Fm}{1013}
   \utab{B}{2:2100}
 
-  \gtab{Cm}{0333}
-  \gtab{A{\shrp}}{1:2100}
-  \gtab{D{\shrp}}{1:2220}
-  \gtab{G}{0232}
-  \gtab{Fm}{1013}
-  \gtab{B}{2:2100}
-
   \begin{verse*}
     \musicnote { \Intro : \nolyrics \[Cm B Cm] \rep{2} }
   \end{verse*}

@@ -1,0 +1,58 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{J'aime regarder les filles}
+  [by=Patrick Coutin,cov=1981,album=1981]
+  \cover
+  \gtab{D}{5:X02220}
+  \gtab{C}{3:X02220}
+  \gtab{G}{3:022100}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \[D]J'aime regar\[C]der les \[D]filles qui marchent \[C]sur la \[D]plage
+    Sur leur pea\[C]u le sol\[D]eil caresse bien tro\[C]p sage\[D]
+    Le vent qui \[C]les déco\[D]iffe au goût de sel \[C]sur me\[D]{s lèv}res
+  \end{verse}
+
+  \begin{verse}
+    \[G]J'aime \[F]
+    \[G]J'aime regar\[F]der les \[G]filles qui marchent \[F]sur la \[G]plage
+    Les hanches \[F]qui bal\[G]ancent et les sourir\[F]{es fu}gac\[G]es
+    Je regarde l\[F]es vague\[G]{s qui} jouent avec l\[F]eur corp\[G]s
+  \end{verse}
+
+
+  \begin{verse}
+    \[D]J'aime \[C]
+    \begin{repeatedchords}
+      \[D]J'aime regar\[C]der les \[D]filles qui marchent \[C]sur la \[D]plage
+      Leurs poitri\[C]nes gonf\[D]lées par le désir d\[C]e vivre \[D]
+      Leurs yeux q\[C]ui se dé\[D]tournent quand tu le\[C]s regar\[D]des
+    \end{repeatedchords}
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[G]J'aime \[F]
+      \[G]J'aime regar\[F]der les \[G]filles qui marchent \[F]sur la \[G]plage
+      Le soleil su\[F]r leur pe\[G]au qui joue à cache-\[F]cache \[G]
+      Et des ambre\[F]s solair\[G]es le parfum volag\[F]e \[G]
+    \end{verse}
+
+    \begin{verse}
+      \[D]J'aime \[C]
+      \[D]J'aime regar\[C]der les \[D]filles qui marchent \[C]sur la \[D]plage
+      Quand elles \[C]se déhab\[D]illent et font sembl\[C]ant d'êt\[D]re sages
+      Leurs yeux q\[C]ui se de\[D]mandent mais quel es\[C]t ce garç\[D]on
+    \end{verse}
+
+    \begin{verse}
+      \[G]J'aime \[F]
+      \[G]J'aime regar\[F]der les \[G]filles qui marchent \[F]sur la \[G]plage
+      Leur ventre \[F]qui se col\[G]le sur le sable ch\[F]aud \[G]
+      Le vent qui \[F]les décoif\[G]fe et les sourire\[F]s fugac\[G]es
+      J'aime regar\[F]der les \[G]filles qui marchent \[F]sur la \[G]plage
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

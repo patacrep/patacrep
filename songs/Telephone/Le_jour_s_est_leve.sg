@@ -13,6 +13,8 @@
   \gtab*{G4}{3:022200}
   \gtab{Am7}{X02010}
 
+   \lilypond{Le_jour_s_est_leve}
+
   \begin{verse}
     \[C]Le jour \[F]s'est le\[G]vé
     \[C]Sur une é\[F]trange i\[G]dée

@@ -1,0 +1,66 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Rue Mazarine}[by=Les Ogres de Barback,cov=Terrain-vague,album=Terrain vague]
+
+  \cover
+
+  \gtab{Fm}{1:022000}
+  \gtab{C}{3:X02220}
+  \gtab{B&m}{6:022000}
+  \gtab{G}{3:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{A&}{4:022100}
+
+  \utab{Fm}{1013}
+  \utab{C}{0003}
+  \utab{B&m}{1:2000}
+  \utab{G}{0232}
+  \utab{E&}{1:2220}
+  \utab{A&}{3:2010}
+
+  \begin{verse*}
+    \musicnote {\Intro : }
+    \nolyrics \[Fm C B&m Fm] \[B&m Fm G C]
+    \nolyrics \[Fm C B&m Fm] \[B&m Fm C Fm]
+  \end{verse*}
+
+  \begin{verse}
+    \[Fm]{J'ai} voulu offrir une \[C]mandarine à \[B&m]Amandine, ma \[Fm]petite copine
+    \[B&m]Elle m'a dit : {\og} J'préfère les \[Fm]clémentines ! {\fg} \[G]Elle est partie chez A\[C]mine
+    \[Fm]Amine, le vendeur d'é\[C]picerie fine, d'o\[B&m]ranges sanguines, rue \[Fm]Mazarine
+    N'a \[B&m]pas pu résister à \[Fm]{l'avance} de l'angine A\[C]mandine fan de clémen\[Fm]tines
+  \end{verse}
+
+  \begin{chorus}
+    \[E&]Ah, maman, si t'avais \[A&]vu ma mine, ma \[E&]mine, ma\[A&]man
+    \[E&]Ah seulement, si t'avais \[A&]vu ma mine, \[G]mine, maman, d'enterre\[C]ment
+    \[E&]Ah vraiment si t'avais \[A&]vu ma mine, A\[E&]mine, ma\[A&]man
+    \[E&]Si seulement t'avais pu \[A&]voir ma mine, \[G]mine maman d'enterre\[C]ment
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Fm]{J'ai} voulu offrir une \[C]mandarine à \[B&m]Clémentine, ma \[Fm]petite voisine
+      \[B&m]Elle m'a dit : {\og} J'préfère l'o\[Fm]range sanguine, y'en \[G]a plein les rayons d'A\[C]mine{\fg}
+      \[Fm]Amine, l'épicier chez \[C]qui je chine quand \[B&m]je cuisine, rue \[Fm]Mazarine
+      N'a \[B&m]pas pu résister à \[Fm]Clémentine, ma petite voi\[C]sine qu'est fan d'orange san\[Fm]guine
+    \end{verse}
+  \end{repeatedchords}
+
+  \ifchorded
+  \begin{bridge}
+    \nolyrics \[Fm C B&m Fm] \[B&m Fm G C]
+    \nolyrics \[Fm C B&m Fm] \[B&m Fm C Fm]
+  \end{bridge}
+  \fi
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Fm]{J'ouvrirai} bientôt rue \[C]Mazarine, une \[B&m]grande vitrine d'é\[Fm]picerie fine
+      Clé\[B&m]mentine, mandarine, o\[Fm]range sanguine, et \[G]tout ce qu'il faut pour la cui\[C]sine
+      J'm'ins\[Fm]tallerai juste en face de \[C]chez Amine, il \[B&m]sera has been, je sais que c'est \[Fm]pas très clean
+      Mais \[B&m]mine de rien, Clémentine \[Fm]et Amandine, à l'o\[C]rigine, c'était mes co\[Fm]pines
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

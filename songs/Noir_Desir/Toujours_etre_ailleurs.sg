@@ -1,0 +1,57 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Toujours être ailleurs}
+  [by=Noir Désir,cov=ou-veux-tu-que-je-regarde,album=Où veux tu que je regarde]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Dm}{XX0231}
+
+  \begin{verse*}
+    \lilypond{Toujours_etre_ailleurs_rythm}
+  \end{verse*}
+
+  \begin{verse}
+    \[Dm] Oh chaque \[F]nuit se ré\[G]duire en \[Dm]cendre
+    Se laisser répandre
+    Dans les la\[F]vabos \[G]blancs \[Dm]
+    La solu\[F]tion est sans \[G]doute a\[Dm]mère
+    Si l'on considère
+    Qu'on n'sait p\[F]as où \[G]ça mè\[Dm]ne
+    Quelqu'un ic\[F]i pourrait-\[G]il me \[Dm]dire
+    Quelles sont les raisons qui me \[F]pou\[G]ssent ? \[Dm]
+  \end{verse}
+
+
+
+  \begin{chorus}
+    Et les \[F]yeux \[G]vers l'ou\[Dm]est
+    Toujours \[F]être \[G]aille\[Dm]urs
+    Et les \[F]mains \[G]vers l'\[Dm]est
+
+    J'veux toujours \[F]être \[G]aille\[Dm]urs !
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm] J'ai la naus\[F]ée quand je \[G]reste ass\[Dm]is
+      Si je suis couché je n'joint pas \[F]les deb\[G]outs \[Dm]
+      Et je sour\[F]is pour le \[G]photogra\[Dm]phe
+      Qui va nous figer
+      Notez mon \[F]épit\[G]aphe \[Dm]
+      Notez !
+      Je me sens s\[F]i bien hi\[G]er mat\[Dm]in
+      Que je voudrais être à d\[F]ema\[G]in \[Dm]
+    \end{verse}
+
+    \begin{verse}
+      Oh j'ai jam\[F]ais pu \[G]oublier \[Dm]
+      L'odeur des \[F]endroits \[G]où j'ir\[Dm]ai
+      C'est seulement \[F]une quest\[G]ion de \[Dm]moeurs
+      J'veux toujours \[F]être \[G]aille\[Dm]urs !
+      J'veux toujours \[F]être \[G]aille\[Dm]urs !
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

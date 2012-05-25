@@ -2,6 +2,7 @@
 data/
 perso/
 staging/
+covers/
 utils/release.sh
 utils/tarball.sh
 utils/send.sh

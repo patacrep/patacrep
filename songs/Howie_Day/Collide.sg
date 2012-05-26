@@ -4,10 +4,10 @@
   [by=Howie Day,cov=stop-all-the-world-now,album=Stop all the world now]
 
   \cover
-  \gtab{G}{320033}
-  \gtab{D}{200233}
-  \gtab{Em}{022033}
-  \gtab{C}{032033}
+  \gtab*{G}{320033}
+  \gtab*{D}{200233}
+  \gtab*{Em}{022033}
+  \gtab*{C}{032033}
 
   \begin{verse}
     \[G+] The dawn is \[D+]breaking

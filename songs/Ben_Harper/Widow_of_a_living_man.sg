@@ -4,7 +4,7 @@
   [by=Ben Harper,cov=the-will-to-live,album=The will to live]
 
   \cover
-  \gtab{Asus2}{X02200}
+  \gtab*{Asus2}{X02200}
   \gtab{C}{X32010}
   \gtab{G}{320003}
   \gtab{D}{XX0232}

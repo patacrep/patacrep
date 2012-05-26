@@ -1,16 +1,16 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La corrida}
-  [by=Francis Cabrel,cov=samedi-soir,album=Samedi soir sur la Terre]
+  [by=Francis Cabrel,cov=samedi-soir-sur-la-terre,album=Samedi soir sur la Terre]
 
   \cover
   \gtab{Dm}{XX0231}
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
-  \gtab{B&sus2}{1:002200}
-  \gtab{Csus2}{030010}
-  \gtab{Dsus4}{XX0233}
-  \gtab{Asus4}{X02230}
+  \gtab*{B&sus2}{1:002200}
+  \gtab*{Csus2}{030010}
+  \gtab*{Dsus4}{XX0233}
+  \gtab*{Asus4}{X02230}
 
   \begin{verse}
     Depuis le \[Dm]temps que je patiente
@@ -27,14 +27,14 @@
   \end{verse*}
 
   \begin{verse*}
-    \musicnote{\nolyrics \[Dm F C B{$\flat$}sus2]}
+    \musicnote{\nolyrics \[Dm F C B{\flt}sus2]}
   \end{verse*}
 
 
   \begin{repeatedchords}
     \begin{verse}
       Dans les pre\[Dm]miers moments j'ai cru
-      Qu'il fallait \[F]seulment se défendre
+      Qu'il fallait \[F]seulement se défendre
       Mais cette \[C]place est sans issue
       Je commence à \[B&sus2]comprendre
     \end{verse}
@@ -71,7 +71,7 @@
     \[B&sus2]J'en ai poursuivi des fan\[Csus2]tômes
     Presque tou\[Dm]ché leurs ballerines \[Dsus4 Dm]
     Ils ont fra\[Bsus2]ppé fort dans mon cou
-    Pour que je \[A]m'incline \[Asus2 A]
+    Pour que je \[A]m'incline \[Asus4 A]
     Ils sortent \[B&sus2]d'où ces acrobates
     \[Csus2]Avec leurs costumes de \[Dm]papier ? \[Dsus4 Dm]
     J'ai jamais \[B&sus2]appris à me battre
@@ -79,7 +79,7 @@
   \end{bridge}
 
   \begin{verse*}
-    \musicnote{\nolyrics \[Dm F C B{$\flat$}sus2]}
+    \musicnote{\nolyrics \[Dm F C B{\flt}sus2]}
   \end{verse*}
 
   \begin{repeatedchords}

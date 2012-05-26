@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Comment je suis devenu voyageur}
-  [by=Les Ogres de Barback,cov=voyageur,album=Comment je suis devenu voyageur]
+  [by=Les Ogres de Barback,cov=comment-je-suis-devenu-voyageur,album=Comment je suis devenu voyageur]
 
   \cover
   \gtab{Em}{7:X02210}
@@ -96,7 +96,7 @@
 
   \begin{verse*}
     La police municipale
-    Par arêté préfectoral
+    Par arrêté préfectoral
     Qui vient faire, oh, bougre du sort
     Office de garde du corps
   \end{verse*}

@@ -6,7 +6,7 @@
   \cover
   \gtab{G}{320003}
   \gtab{A7}{X02020}
-  \gtab{D7/4}{XX0214}
+  \gtab*{D7/4}{XX0214}
   \gtab{D7}{XX0212}
   \gtab{B7}{X21202}
   \gtab{Em}{022000}
@@ -22,7 +22,7 @@
 
   \begin{chorus}
     \[G]Love me \[B7]tender, \[Em]love me \[G7]true
-    \[C]All my dreams full\[G]fil
+    \[C]All my dreams ful\[G]fil
     \[G]For my \[E7]darlin' \[A7]I love you
     \[D7/4]And I \[D7]always \[G]will
   \end{chorus}

@@ -3,12 +3,10 @@
 \beginsong{Desaparecido}
   [by=Manu Chao,cov=clandestino,album=Clandestino]
 
-
   \cover
   \gtab{E}{022100}
   \gtab{Am}{X02210}
   \gtab{Dm}{XX0231}
-
 
   \begin{chorus}
     Me llaman el desapare\[E]cido
@@ -20,7 +18,7 @@
   \begin{verse}
     Cuando me buscan nunca es\[Dm]toy
     Cuando me encuentran yo no \[Am]soy
-    El que esta enfrete porque \[E]ya
+    El que esta enfrente porque \[E]ya
     Me fui corriendo mas \[Am]allá
   \end{verse}
 

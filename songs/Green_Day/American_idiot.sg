@@ -4,10 +4,10 @@
   [by=Green Day,cov=american-idiot,album=American idiot]
 
   \cover
-  \gtab{A&5}{4:022XXX}
-  \gtab{D&5}{4:X022XX}
-  \gtab{G&5}{2:022XXX}
-  \gtab{E&5}{6:X022XX}
+  \gtab*{A&5}{4:022XXX}
+  \gtab*{D&5}{4:X022XX}
+  \gtab*{G&5}{2:022XXX}
+  \gtab*{E&5}{6:X022XX}
 
   \begin{verse}
     Don't wanna be an American idiot

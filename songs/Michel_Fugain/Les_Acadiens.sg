@@ -1,13 +1,13 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les Acadiens}
-  [by=Michel Fugain,cov=live,album=live]
+  [by=Michel Fugain,cov=live,album=Live]
 
   \cover
   \gtab{G}{320003}
   \gtab{D}{XX0232}
   \gtab{D7}{XX0212}
-  \gtab{C7}{1:X2120X}
+  \gtab{C7}{X32310}
   \gtab{F#}{2:022100}
   \gtab{F}{1:022100}
   \gtab{E}{022100}

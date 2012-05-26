@@ -9,14 +9,14 @@
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
   \gtab{G}{320003}
-  \gtab*{G7}{320001}
+  \gtab{G7}{320001}
   \gtab*{G6}{320000}
   \utab{Am}{2000}
   \utab{Em}{0432}
   \utab{F}{2010}
   \utab{C}{0003}
   \utab{G}{0232}
-  \utab*{G7}{0212}
+  \utab{G7}{0212}
   \utab*{G6}{0202}
 
   \begin{verse*}
@@ -136,4 +136,5 @@
     Dans \[F]ce monde complète\[C]ment fucké
     Où \[G]{j'aurais} p't'être eu \[C]besoin d'toé
   \end{chorus}
+
 \endsong

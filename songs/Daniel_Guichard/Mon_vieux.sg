@@ -10,9 +10,9 @@
   \gtab{F}{1:022100}
   \gtab{G}{320003}
   \gtab{C7}{X32310}
-  \gtab{F7M}{XX3210}
+  \gtab*{F7M}{XX3210}
   \gtab{Dm}{XX0231}
-  \gtab{Dm7}{XX0211}
+  \gtab*{Dm7}{XX0211}
   \gtab{G7}{320001}
 
   \begin{verse}

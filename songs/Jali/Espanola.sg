@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Española}
-  [by=Jali,album=Des jours et des lunes,cov=des-jours-et-des-lunes]
+  [by=Jali,cov=des-jours-et-des-lunes,album=Des jours et des lunes]
 
   \cover
   \gtab{Am}{X02210}
@@ -12,7 +12,6 @@
   \utab{Em}{0432}
   \utab{C}{0003}
   \utab{G}{0232}
-
 
   \begin{verse*}
     \musicnote {\Intro : \nolyrics \[Am Em] \rep{3} \[C G]}
@@ -37,7 +36,7 @@
       Par le détroit de Gibral\[Am]tar
       Fais gaffe en traver\[Em]sant
       J'ai croisé pas mal de re\[C]nards
-      Echoués sur les \[G]plages
+      Échoués sur les \[G]plages
       Ou bien perdus dans le brouil\[Am]lard
     \end{verse*}
   \end{repeatedchords}
@@ -121,7 +120,7 @@
   \end{repeatedchords}
 
   \begin{chorus}
-    \[Am]hey ! \[Em Am Em]
+    \[Am]Hey ! \[Em Am Em]
   \end{chorus}
 
 \endsong

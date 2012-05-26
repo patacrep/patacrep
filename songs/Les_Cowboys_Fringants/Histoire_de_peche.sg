@@ -5,11 +5,10 @@
 
   \cover
   \capo{7}
-  \gtab{G}{320033}
-  \gtab{D}{XX0233}
-  \gtab{C}{X32033}
-  \gtab{Em}{022033}
-
+  \gtab*{G}{320033}
+  \gtab*{D}{XX0233}
+  \gtab*{C}{X32033}
+  \gtab*{Em}{022033}
 
   \begin{verse}
     \[G]Le petit pêcheur \[D]gaspé\[G]sien

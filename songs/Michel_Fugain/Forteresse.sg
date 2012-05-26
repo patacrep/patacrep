@@ -6,12 +6,12 @@
   \cover
   \capo{3}
   \gtab{Am}{X02210}
-  \gtab{E7}{X22130}
+  \gtab*{E7}{X22130}
   \gtab{Dm}{XX0231}
-  \gtab{Fmaj7}{XX3210}
+  \gtab*{Fmaj7}{XX3210}
   \gtab{A}{X02220}
-  \gtab{E&dim}{XX1212}
-  \gtab{Am/C}{X32210}
+  \gtab*{E&dim}{XX1212}
+  \gtab*{Am/C}{X32210}
 
   \begin{verse}
     \musicnote{\Intro : \nolyrics \[Am E7 Am E7]}

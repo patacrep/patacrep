@@ -4,12 +4,12 @@
   [by=Green Day,cov=american-idiot,album=American idiot]
 
   \cover
-  \gtab{F#5}{2:022XXX}
-  \gtab{A5}{5:022XXX}
-  \gtab{E5}{7:X022XX}
-  \gtab{B5}{7:022XXX}
-  \gtab{D5}{5:X022XX}
-  \gtab{C#5}{4:X022XX}
+  \gtab*{F#5}{2:022XXX}
+  \gtab*{A5}{5:022XXX}
+  \gtab*{E5}{7:X022XX}
+  \gtab*{B5}{7:022XXX}
+  \gtab*{D5}{5:X022XX}
+  \gtab*{C#5}{4:X022XX}
 
   \begin{verse}
     \[F#5]{I walk} a \[A5]lonely road

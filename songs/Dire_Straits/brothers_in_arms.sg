@@ -9,9 +9,9 @@
   \gtab{C#m}{4:X02210}
   \gtab{F#}{2:022100}
   \gtab{B}{2:X02220}
-  \gtab{B4}{2:X02230}
+  \gtab*{B4}{2:X02230}
   \gtab{D#m}{6:X02210}
-  \gtab{F#4}{2:022200}
+  \gtab*{F#4}{2:022200}
 
   \begin{verse*}
     \musicnote{\Intro:\nolyrics{ | \[G\shrp{m}] \[E] | \[C\shrp{m}] \[E] | \[G\shrp{m}] \[E] | \[C\shrp{m}] }}
@@ -41,7 +41,7 @@
       I've \[D#m]witnessed your s\[G#m]ufferin\[D#m]g
       As the battles raged high\[E]er \[F#4]
       And \[F#]though they hurt \[G#m]me so \[D#m]bad
-      In the fear and a \[E]larm \[C#m] \[F#4]
+      In the fear and a\[E]larm \[C#m] \[F#4]
       You \[F#]did not de\[G#m]sert me
       My \[E]brothers in \[F#4]arms \[F#]
     \end{verse}

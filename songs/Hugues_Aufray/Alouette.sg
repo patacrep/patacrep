@@ -4,7 +4,7 @@
   [by=Hugues Aufray]
 
   \gtab{Em}{022000}
-  \gtab{Am7}{002212}
+  \gtab*{Am7}{002212}
   \gtab{G7}{320001}
   \gtab{D7}{XX0212}
   \gtab{B7}{X21202}
@@ -17,7 +17,7 @@
     \[Em]Alouette, alouet\[Am7]te
     Je \[D7]te comprends \[G7]bien
     Moi aussi \[Em]{j'ai} en tê\[Am]te
-    \[B7]Beaucoup de cha\[Em]grain
+    \[B7]Beaucoup de cha\[Em]grin
   \end{verse}
 
   \begin{verse*}

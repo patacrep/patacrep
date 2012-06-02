@@ -7,13 +7,13 @@
   \gtab{E}{022100}
   \gtab{B}{2:X02220}
   \gtab{C#m}{4:X02210}
-  \gtab{G#m}{4:02200}
+  \gtab{G#m}{4:022000}
   \gtab{A}{5:022100}
-  \gtab{EM7}{021100}
+  \gtab*{EM7}{021100}
   \gtab{F#m}{2:022000}
   \gtab{Am7}{X02010}
-  \gtab{G6}{7:X02010}
-  \gtab{FM7}{1:X2110X}
+  \gtab*{G6}{7:X02010}
+  \gtab*{FM7}{1:X2110X}
   \gtab{C}{X32010}
 
   \begin{verse}

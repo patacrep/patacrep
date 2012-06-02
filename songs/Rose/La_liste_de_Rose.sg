@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La liste de Rose}
-  [by=Rose,cov=Rose,album=Rose]
+  [by=Rose,cov=rose,album=Rose]
 
   \cover
   \capo{3}
@@ -11,7 +11,7 @@
   \gtab{D7}{X00212}
   \gtab{Em}{022000}
   \gtab{G}{320003}
-  \gtab{G4}{320503}
+  \gtab*{G4}{320503}
   \gtab{Am7}{002010}
   \gtab{A7}{X02020}
   \gtab{Bm7}{2:002010}
@@ -98,9 +98,3 @@
   \end{verse}
 
 \endsong
-
-
-
-
-
-

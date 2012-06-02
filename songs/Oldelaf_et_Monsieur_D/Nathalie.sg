@@ -34,7 +34,9 @@
 
 
   \begin{verse*}
-    \echo{Vous pouvez chanter avec nous car cette chanson est à la page 137 dans vos diapasons rouges}
+    \textnote[french]{parlé}
+    \textnote[english]{spoken}
+    Vous pouvez chanter avec nous car cette chanson est à la page 137 dans vos diapasons rouges
   \end{verse*}
 
   \begin{verse}

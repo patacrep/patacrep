@@ -9,8 +9,8 @@
   \gtab{Am}{X02210}
   \gtab{G}{320003}
   \gtab{C}{X32010}
-  \gtab{C/B}{X20010}
-  \gtab{F#}{200XXX}
+  \gtab*{C/B}{X20010}
+  \gtab*{F#}{200XXX}
 
   \musicnote[english]{\Intro: same chords as the chorus}
   \musicnote[french]{\Intro: même accords que le refrain}

@@ -1,12 +1,12 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{I am a man of constant sorrow}
-  [by=Soggy Bottom Boys,,cov=o-brother,album=O brother]
+  [by=Soggy Bottom Boys,cov=o-brother,album=O brother]
 
   \cover
   \gtab{F}{1:022100}
   \gtab{B&}{1:X02220}
-  \gtab{C}{1:X02220}
+  \gtab{C}{3:X02220}
 
   \begin{chorus}
     \[F] In constant \[C]sorrow, all through his \[F]days

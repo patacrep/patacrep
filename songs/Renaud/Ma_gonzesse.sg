@@ -1,7 +1,7 @@
-\selectlanguage{english}
+\selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ma gonzesse}
-  [by=Renaud,album=Ma gonzesse,cov=ma-gonzesse]
+  [by=Renaud,cov=ma-gonzesse,album=Ma gonzesse]
 
   \cover
   \gtab{C}{X32010}
@@ -10,7 +10,7 @@
   \gtab{Am}{X02210}
   \gtab{D}{XX0232}
   \gtab{G}{320003}
-  \gtab{B&}{X13331}
+  \gtab{B&}{1:X02220}
 
   \begin{verse}
     \[C]Malgré le blouson clouté
@@ -47,7 +47,7 @@
       \[C]Tu sais bien les statues
       Du \[Dm]jardin des Tuileries
       \[Fm]Qui hiver comme été
-      Ex\[C]hibent leurs gui\[Am]boles
+      Ex\[C]hibent leurs gui\[Am]bolles
       \[D]Et se gèlent le cul
       \[G]Et le reste aussi
     \end{verse*}

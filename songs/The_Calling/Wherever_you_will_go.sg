@@ -6,7 +6,7 @@
   \cover
   \capo{2}
   \gtab{C}{X32010}
-  \gtab{C/B}{X20010}
+  \gtab*{C/B}{X20010}
   \gtab{Am7}{X02010}
   \gtab{F}{1:022100}
 

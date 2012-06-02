@@ -2,6 +2,7 @@
 \songcolumns{1}
 \beginsong{J'aime regarder les filles}
   [by=Patrick Coutin,cov=1981,album=1981]
+
   \cover
   \gtab{D}{5:X02220}
   \gtab{C}{3:X02220}
@@ -42,7 +43,7 @@
     \begin{verse}
       \[D]J'aime \[C]
       \[D]J'aime regar\[C]der les \[D]filles qui marchent \[C]sur la \[D]plage
-      Quand elles \[C]se déhab\[D]illent et font sembl\[C]ant d'êt\[D]re sages
+      Quand elles \[C]se déshab\[D]illent et font sembl\[C]ant d'êt\[D]re sages
       Leurs yeux q\[C]ui se de\[D]mandent mais quel es\[C]t ce garç\[D]on
     \end{verse}
 

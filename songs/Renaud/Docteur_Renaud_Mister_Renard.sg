@@ -7,10 +7,10 @@
   \gtab{Am}{X02210}
   \gtab{F}{1:022100}
   \gtab{G}{320003}
-  \gtab{Em7}{022030}
-  \gtab{F2}{1330XX}
-  \gtab{G2}{3X02XX}
-  \gtab{E/G#}{2:311341}
+  \gtab*{Em7}{022030}
+  \gtab*{F2}{1330XX}
+  \gtab*{G2}{3X02XX}
+  \gtab*{E/G#}{2:311341}
 
   \begin{verse}
     \[Am]Comme y'a eu \[F]Gainsbourg et Gains\[G]barre
@@ -92,6 +92,5 @@
     Elle quitte le vilain Re\[G2]nard
     Mais aimera toujours Renaud\[Am] \[F]
   \end{verse}
-
 
 \endsong

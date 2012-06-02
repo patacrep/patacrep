@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Lazy}
-  [by=Noir Désir,cov=666-667-club,album=666.667 Clu&]
+  [by=Noir Désir,cov=666-667-club,album=666.667 Club~]
 
   \cover
   \gtab{Am}{X02210}
@@ -34,9 +34,7 @@
       I can deal with what's in your mind \[D]
       Anyway, I'm tired and I feel lazy \[Am]
     \end{verse}
-  \end{repeatedchords}
 
-  \begin{repeatedchords}
     \begin{verse}
       \[Am]{You know}, we're both lost in maze
       You're miserable, I'm so dazed \[D]

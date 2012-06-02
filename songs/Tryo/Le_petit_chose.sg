@@ -3,7 +3,6 @@
 \beginsong{Le petit chose}
   [by=Tryo,cov=faut-qu-ils-s-activent,album=Faut qu'ils s'activent]
 
-
   \cover
   \gtab{Dm}{5:X02210}
   \gtab{A}{5:022100}
@@ -11,12 +10,11 @@
   \gtab{A#}{6:022100}
   \gtab{C}{8:022100}
 
-
   \begin{verse}
     On a \[Dm]tous nos intérieurs, nos petits \[A]choses
     Ce qui \[Dm]fait au fond de nous qu'on est tout d'\[A]même quelque chose
     Celui qui \[Gm]gratte ou qui s'ti\[Dm]tille
-    Celui qui \[A]dort ou qui s'ra\[Dm]bille
+    Celui qui \[A]dort ou qui s'rha\[Dm]bille
     Le petit \[A]chose au fond d'son \[A#]âme
     Qui nous com\[C]prend ou qui s'pa\[A]vane
   \end{verse}

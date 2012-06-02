@@ -7,12 +7,13 @@
   \gtab{Cm}{3:X02210}
   \gtab{G}{320003}
   \gtab{A#}{1:X02220}
-  \gtab{D#}{XX1343}
+  \gtab{D#}{6:X02220}
   \gtab{Fm}{1:022000}
   \utab{Cm}{0333}
   \utab{G}{0232}
-  \utab{A{\shrp}}{2100}
-  \utab{D{\shrp}}{1:2220}
+
+  \utab{A#}{2100}
+  \utab{D#}{1:2220}
   \utab{Fm}{1013}
 
   \begin{chorus}
@@ -99,7 +100,7 @@
     \end{verse}
 
     \begin{bridge}
-        Ta ba \[Cm]da ba da ba da\dots{}
+      Ta ba \[Cm]da ba da ba da\dots{}
     \end{bridge}
   \end{repeatedchords}
 

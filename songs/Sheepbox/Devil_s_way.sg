@@ -3,6 +3,8 @@
 \beginsong{Devil's Way}
   [by=Sheepbox,cov=sheepbox,album=Sheepbox]
 
+  \cover
+
   % verse: 1.&.2.&.3.&.4.&
   % D D UD
   % Em Asus2
@@ -13,7 +15,7 @@
   \cover
   \capo{9}
   \gtab{Em}{022000}
-  \gtab{Asus2}{X02200}
+  \gtab*{Asus2}{X02200}
   \gtab{Am}{X02210}
   \gtab{Dm}{XX0231}
   \gtab{C}{X32010}
@@ -120,5 +122,3 @@
   \musicnote{\Chorus}
 
 \endsong
-
-

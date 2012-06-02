@@ -4,8 +4,8 @@
   [by=Noir Désir,cov=666-667-club,album=666.667 Club~]
 
   \cover
-  \gtab{Am}{X022XX}
-  \gtab{D}{X002XX}
+  \gtab*{Am}{X022XX}
+  \gtab*{D}{X002XX}
   \gtab{G}{320003}
   \gtab{F}{1:022100}
   \gtab{C}{X32010}

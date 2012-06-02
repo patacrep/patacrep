@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Zaza}
-  [by=Thomas Fersen,album=Le pavillon des fous,cov=le-pavillon-des-fous]
+  [by=Thomas Fersen,cov=le-pavillon-des-fous,album=Le pavillon des fous]
 
   \cover
   \gtab{Em}{022000}
@@ -43,7 +43,7 @@
       Pis Zaza, \[Em]c'est quoi ton problème ?
       Arrête d'in\[Em]gérer tout ce qui traîne
       Croquer ma \[Am]revue sur les gaines
-      Ça va pas \[D]te rafraichir l'ha\[Em]leine
+      Ça va pas \[D]te rafraîchir l'ha\[Em]leine
     \end{verse}
 
     \begin{verse*}

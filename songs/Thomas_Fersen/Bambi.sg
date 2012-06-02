@@ -1,20 +1,20 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Bambi}
-  [by=Thomas Fersen,album=Pièce montée des grands jours,cov=piece-montee-des-grands-jours]
-
+  [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
 
   \cover
   \gtab{Dm}{XX0231}
   \gtab{F}{1:022100}
-  \gtab{B{\flt}}{2:X02220}
+
+  \gtab{B&}{2:X02220}
   \gtab{G}{320003}
   \gtab{Am}{X02210}
   \gtab{C}{X32010}
   \gtab{A}{X02220}
   \utab{Dm}{2210}
   \utab{F}{2010}
-  \utab{B{\flt}}{1:2100}
+  \utab{B&}{1:2100}
   \utab{G}{0232}
   \utab{Am}{2000}
   \utab{C}{0003}
@@ -78,4 +78,5 @@
       \[Am]Pas casser les jouets\dots{}
     \end{chorus}
   \end{repeatedchords}
+
 \endsong

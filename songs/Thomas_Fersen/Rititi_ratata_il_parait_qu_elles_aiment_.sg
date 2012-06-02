@@ -4,16 +4,17 @@
   [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
 
   \cover
-  \gtab{E{\flt}m}{6:X02210}
+
+  \gtab{E&m}{6:X02210}
   \gtab{B}{2:X02210}
-  \gtab{A{\flt}m}{4:022000}
-  \gtab{G{\flt}}{2:022100}
-  \gtab{B{\flt}7}{1:X02020}
-  \utab{E{\flt}m}{1:2210}
+  \gtab{A&m}{4:022000}
+  \gtab{G&}{2:022100}
+  \gtab{B&7}{1:X02020}
+  \utab{E&m}{1:2210}
   \utab{B}{2:2100}
-  \utab{A{\flt}m}{2100}
-  \utab{G{\flt}}{3:2010}
-  \utab{B{\flt}7}{1:0100}
+  \utab{A&m}{2100}
+  \utab{G&}{3:2010}
+  \utab{B&7}{1:0100}
 
   \begin{verse*}
     \musicnote {\Intro : \nolyrics \[E{\flt}m B{\flt}7]}

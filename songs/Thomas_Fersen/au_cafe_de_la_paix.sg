@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{3}
+\songcolumns{2}
 \beginsong{Au café de la Paix}
   [by=Thomas Fersen,cov=les-ronds-de-carotte,album=Les ronds de carotte]
 
@@ -8,7 +8,6 @@
   \gtab{Bb}{1:X02220}
   \gtab{Gdim}{2:1201XX}
   \gtab{C7}{X32310}
-  \utab{Bb}{1:2100}
   \utab{F6}{1:1102}
   \utab{Bb}{1:2100}
   \utab{Gdim}{0131}
@@ -32,32 +31,33 @@
 
   \begin{chorus}
     Je \[F6]poserai mon jour\[Bb]nal
-    Sur le bar devant \[F6]moi
+    Sur \[Gdim]le bar devant \[F6]moi
     Je \[F6]poserai mon jour\[Bb]nal
-    Tu me reconnaîtras
+    Tu \[Gdim]me reconnaî\[C7]tras
   \end{chorus}
 
-  \begin{verse}
-    Si \[F6]{t'es} en re\[Bb]tard
-    Pas\[F6]sé le \[Bb]quart
-    Je \[F6]prendrai un de\[Bb]mi
-    Pour \[F6]noyer mon en\[Bb]nui
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Si \[F6]{t'es} en re\[Bb]tard
+      Pas\[F6]sé le \[Bb]quart
+      Je \[F6]prendrai un de\[Bb]mi
+      Pour \[F6]noyer mon en\[Bb]nui
+    \end{verse}
 
-  \begin{verse*}
-    Si \[F6]{t'es} en re\[Bb]tard
-    \[F6]Jusqu'au \[Bb]soir
-    Je \[F6]prendrai un sé\[Bb]rieux
-    Pour le \[F6]noyer \[Bb]mieux
-  \end{verse*}
+    \begin{verse*}
+      Si \[F6]{t'es} en re\[Bb]tard
+      \[F6]Jusqu'au \[Bb]soir
+      Je \[F6]prendrai un sé\[Bb]rieux
+      Pour le \[F6]noyer \[Bb]mieux
+    \end{verse*}
 
-  \begin{chorus}
-    Je \[F6]plierai mon jour\[Bb]nal
-    Sur le bar devant \[F6]moi
-    Je \[F6]plierai mon jour\[Bb]nal
-    Tu me reconnaîtras
-  \end{chorus}
-
+    \begin{chorus}
+      Je \[F6]plierai mon jour\[Bb]nal
+      Sur \[Gdim]le bar devant \[F6]moi
+      Je \[F6]plierai mon jour\[Bb]nal
+      Tu \[Gdim]me reconnaî\[C7]tras
+    \end{chorus}
+  \end{repeatedchords}
 
   \begin{bridge}
     La la \[F6]la la la la \[Bb]la
@@ -66,62 +66,62 @@
     La la \[F6]la \[Bb]
   \end{bridge}
 
-  \begin{verse}
-    \[F6]On i\[Bb]ra
-    Où tu vou\[Bb]dras
-    Tu \[F6]me pren\[Bb]dras
-    Le bras comme \[F6]autre\[Bb]fois
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[F6]On i\[Bb]ra
+      Où tu vou\[Bb]dras
+      Tu \[F6]me pren\[Bb]dras
+      Le bras comme \[F6]autre\[Bb]fois
+    \end{verse}
 
-  \begin{verse}
-    On \[F6]ira voir notre \[Bb]rue
-    Notre \[F6]chambre au si\[Bb]xième
-    Tout \[F6]ça n'existe \[Bb]plus
-    Mais on \[F6]ira quand \[Bb]même
-  \end{verse}
+    \begin{verse*}
+      On \[F6]ira voir notre \[Bb]rue
+      Notre \[F6]chambre au si\[Bb]xième
+      Tout \[F6]ça n'existe \[Bb]plus
+      Mais on \[F6]ira quand \[Bb]même
+    \end{verse*}
 
-  \begin{chorus}
-    L'an\[F6]nonce dans le jour\[Bb]nal
-    Est parue y a un \[F6]mois
-    Si \[F6]tu lis ce jour\[Bb]nal
-    Tu te reconnaîtras,
-  \end{chorus}
+    \begin{chorus}
+      L'an\[F6]nonce dans le jour\[Bb]nal
+      Est \[Gdim]parue y a un \[F6]mois
+      Si \[F6]tu lis ce jour\[Bb]nal
+      Tu \[Gdim]te reconnaî\[C7]tras,
+    \end{chorus}
 
-  La la la …
+    \begin{verse}
+      On \[F6]ira voir la \[Bb]Seine
+      Et le \[F6]c{\oe}ur de Pa\[Bb]ris
+      Ma \[F6]maison de car\[Bb]ton
+      Au \[F6]pont Ma\[Bb]rie
+    \end{verse}
 
-  \begin{verse}
-    On \[F6]ira voir la \[Bb]Seine
-    Et le \[F6]c{\oe}ur de Pa\[Bb]ris
-    Ma \[F6]maison de car\[Bb]ton
-    Au \[F6]pont Ma\[Bb]rie
-  \end{verse}
+    \begin{verse*}
+      On \[F6]ira voir ail\[Bb]leurs
+      On \[F6]ira faire for\[Bb]tune
+      La la la \[F6]la la \[Bb]la
+      La la la \[F6]la la \[Bb]la
+    \end{verse*}
 
-  \begin{verse*}
-    On \[F6]ira voir ail\[Bb]leurs
-    On \[F6]ira faire for\[Bb]tune
-    La la la \[F6]la la \[Bb]la
-    La la la \[F6]la la \[Bb]la
-  \end{verse*}
+    \begin{verse*}
+      On \[F6]ira voir ail\[Bb]leurs
+      Parce \[F6]{qu'il} est \[Bb]{l'heure}
+      Les \[F6]chaises sont sur les \[Bb]tables
+      C'est la \[F6]fin de la \[Bb]fable
+    \end{verse*}
 
-  \begin{verse}
-    On \[F6]ira voir ail\[Bb]leurs
-    Parce \[F6]{qu'il} est \[Bb]{l'heure}
-    Les \[F6]chaises sont sur les \[Bb]tables
-    C'est la \[F6]fin de la \[Bb]fable
-  \end{verse}
+    \begin{chorus}
+      Je \[F6]pose ce qu'il me \[Bb]reste
+      Sur \[Gdim]le bar devant \[F6]moi :
+      Trois clous et \[F6]un bouton de \[Bb]veste
+      Tu ne me \[Gdim]reconnaîtras \[C7]pas
+    \end{chorus}
 
-  \begin{chorus}
-    Je \[F6]pose ce qu'il me \[Bb]reste
-    Sur le bar devant \[F6]moi :
-    Trois clous et \[F6]un bouton de \[Bb]veste
-    Tu ne me reconnaîtras pas
-  \end{chorus}
-
-  \begin{verse}
-    La \[F6]nuit étreint le \[Bb]ciel
-    La \[F6]nuit étreint le \[Bb]ciel
-    Allez, mon \[F6]rossi\[Bb]gnol
-    La \[F6]vie est \[Bb]belle
-  \end{verse}
+    \begin{verse}
+      La \[F6]nuit étreint le \[Bb]ciel
+      La \[F6]nuit étreint le \[Bb]ciel
+      Allez, mon \[F6]rossi\[Bb]gnol
+      La \[F6]vie est \[Bb]belle
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

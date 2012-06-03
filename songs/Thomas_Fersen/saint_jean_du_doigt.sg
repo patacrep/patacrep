@@ -4,6 +4,18 @@
   [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
 
   \cover
+  \gtab{Dm}{XX0231}
+  \gtab{Gm}{3:022000}
+  \gtab{F}{1:022100}
+  \gtab{A}{X02220}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \utab{Dm}{2210}
+  \utab{Gm}{0231}
+  \utab{F}{2010}
+  \utab{A}{2100}
+  \utab{C}{0003}
+  \utab{D}{2220}
 
   \begin{verse}
     Elle a \[Dm]les cheveux mayonnaise
@@ -42,7 +54,7 @@
     \musicnote[english]{Violin}
     \nolyrics \[Dm Dm Dm Dm] \[Gm F A Dm]
     \nolyrics \[Dm Dm Dm Dm] \[Gm Dm Gm A]
-    \lilypond{saint-jean-du-doigt}
+    \lilypond{Saint-Jean-du-Doigt}
   \end{chorus}
 
   \begin{repeatedchords}
@@ -57,6 +69,9 @@
       Pour dan\[Dm]ser la sainte-jeannaise
       Qu'on danse \[Dm]à Saint-Jean-du-Doigt
       \nolyrics \[Gm Dm Gm A]
+    \end{verse*}
+
+    \begin{verse*}
       \nolyrics \[Dm Dm Dm Dm]
       Elle m'a \[Gm]fait une clé an\[Dm]glaise
       Quand j'l'ai \[Gm]crue prête a l'em\[A]ploi

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Pégase}
-  [by=Thomas Fersen,album=Le pavillon des fous,cov=le-pavillon-des-fous]
+  [by=Thomas Fersen,cov=le-pavillon-des-fous,album=Le pavillon des fous]
 
   \cover
   \gtab{Em}{0022000}
@@ -22,30 +22,30 @@
   \begin{verse}
     Je vole\[Em]tais dans les ténèbres à l'allure d'un convoi funèbre
     Je goû\[G]tais l'air de la nuit, je ramais sans faire de bruit
-    Dans l'é\[Em]paisseur du silence lorsque \[Bm]je fus éblou\[C]i
+    Dans l'é\[Em]paisseur du silence, lorsque \[Bm]je fus éblou\[C]i
     Par une \[Am]chaude incandes\[Em]cence qui é\[D]manait d'un beau \[B]fruit
   \end{verse}
 
   \begin{repeatedchords}
     \begin{verse}
-      Ma mère \[Em]{m'avait} prévenu méfie-toi des ampoules nues
+      Ma mère \[Em]{m'avait} prévenu : {\og}méfie-toi des ampoules nues
       Ne t'ap\[G]proche pas de ces globes qui mettront le feu à ta robe
       Les pa\[Em]pillons insomniaques y trouvent \[Bm]un aphrodi\[C]siaque
-      La mort \[Am]est au rendez-\[Em]vous, au mieux \[D]tu deviendras \[B]fou
+      La mort \[Am]est au rendez-\[Em]vous, au mieux \[D]tu deviendras \[B]fou{\fg}
     \end{verse}
 
     \begin{verse}
-      Ne va \[Em]pas te consumer pour une de ces allumées
-      Ma mère \[G]{m'avait} dit Pégase l'amour ce n'est que du gaz
+      {\og}Ne va \[Em]pas te consumer pour une de ces allumées{\fg}
+      Ma mère \[G]{m'avait} dit : {\og}Pégase, l'amour ce n'est que du gaz
       Tu es \[Em]un être nocturne ado\[Bm]rateur de la \[C]lune
-      Et des \[Am]éclairages \[Em]pâles que pro\[D]diguent les é\[B]toiles
+      Et des \[Am]éclairages \[Em]pâles que pro\[D]diguent les é\[B]toiles{\fg}
     \end{verse}
 
     \begin{verse}
       Mais en \[Em]voyant cette blanche et le dessin de ses hanches
-      Dans une \[G]auréole blonde j'ai fait mes adieux au monde
-      À la \[Em]lune vagabonde belle comme \[Bm]une femme amou\[C]reuse
-      À ma \[Am]raison qui me \[Em]gronde, c'est ta \[D]tombe que tu \[B]creuses
+      Dans une \[G]auréole blonde, j'ai fait mes adieux au monde
+      À la \[Em]lune vagabonde, belle comme \[Bm]une femme amou\[C]reuse
+      À ma \[Am]raison qui me \[Em]gronde : {\og}c'est ta \[D]tombe que tu \[B]creuses{\fg}
     \end{verse}
 
     \begin{verse}

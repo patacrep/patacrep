@@ -1,0 +1,98 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{America}[by=Razorlight,cov=Razorlight,album=Razorlight]
+
+  \cover
+  \gtab{A}{X02220}
+  \gtab{B}{2:x03330}
+  \gtab{E}{022100}
+  \gtab{D}{xx0232}
+  \gtab{G}{320033}
+
+  \begin{verse}
+    \[A]What a \[B]drag it is
+    The \[E]shape i'm \[A]in
+    \[A]Well I \[B]go out somewhere
+    Then \[E]I come home \[A]again
+  \end{verse}
+
+  \begin{verse*}
+    \[A]I light a \[B]cigarette
+    'Cause \[E]I can't get no \[A]sleep
+    \[A]Theres nothing on the TV \[B]nothing on the radio
+    That \[E]means that much to \[A]me
+  \end{verse*}
+
+  \beginchorus
+    \[A]All my \[B]life  \[E]
+    Watching \[A]America
+    \[A]All my \[B]life \[E]
+    There's panic in \[A]America
+    \[A]Oh Oh \[B]Oh, Oh\[E]
+    There's trouble in \[A]America
+    \[A]Oh Oh \[B]Oh, Oh\[E]
+  \endchorus
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[A]Yesterday \[B]was easy
+      Happiness\[E] came and \[A]went
+      \[A]I got the \[B]movie script
+      But I \[E]don't know what it\[A] meant
+    \end{verse}
+
+    \begin{verse*}
+      \[A]I light a \[B]cigarette
+      'Cause \[E]I can't get no \[A]sleep
+      \[A]Theres nothing on the TV \[B]nothing on the radio
+      That \[E]means that much to \[A]me
+      \[A]Theres nothing on the TV \[B]nothing on the radio
+      That I \[E]can believe \[A]in
+    \end{verse*}
+
+    \beginchorus
+      \[A]All my \[B]life  \[E]
+      Watching \[A]America
+      \[A]All my \[B]life \[E]
+      There's panic in \[A]America
+      \[A]Oh Oh \[B]Oh, Oh\[E]
+      There's trouble in \[A]America
+      \[A]Oh Oh \[B]Oh, Oh\[E]
+      There's panic in \[A]America
+      \[A]Oh Oh \[B]Oh, Oh\[E]
+    \endchorus
+  \end{repeatedchords}
+
+  \begin{verse}
+    \[A]Yester\[B]day was easy
+    \[D]Yes I got the \[G]news
+    \[A]When you \[B]get it straight, but \[D]stand up you just can't \[G]lose
+    \[A]Give you my \[B]confidence, \[D]all my faith in \[G]life
+    \[A]Dont stand me up
+    \[B]Don't let me down
+    \[E]I need you \[A]tonight
+    \[A]To hold \[B]me,\[E] say you'll \[A]be here
+    \[A]To hold \[B]me,\[E] say you'll \[A]be here
+    \[A]To hold \[B]me,\[E] say you'll \[A]be here
+    \[A]To hold..\[B]  \[E]
+  \end{verse}
+
+  \begin{repeatedchords}
+    \beginchorus
+      \[A]All my \[B]life  \[E]
+      Watching \[A]America
+      \[A]All my \[B]life \[E]
+      There's panic in \[A]America
+      \[A]Oh Oh \[B]Oh, Oh\[E]
+      There's trouble in \[A]America
+      \[A]Oh Oh \[B]Oh, Oh\[E]
+      There's panic in \[A]America
+      \[A]Oh Oh \[B]Oh, Oh\[E]
+    \endchorus
+  \end{repeatedchords}
+
+  \begin{verse}
+    \[A]Tell me how does it \[B]feel\[E] \[A]\rep{4}
+  \end{verse}
+
+\endsong

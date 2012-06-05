@@ -1,0 +1,57 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{A Horse With No Name}[by=America,cov=America,album=America]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{D6/9}{200200}
+  \gtab{Em9}{X20002}
+  \gtab{Dmaj9}{XX0220}
+
+  \begin{verse}
+    On the \[Em]first part of the \[D6/9]journey
+    I was \[Em]lookin at all the \[D6/9]life
+    There were \[Em]plants and birds and \[D6/9]rocks and things
+    There were \[Em]sand and hills and \[D6/9]rings
+
+    The \[Em]first thing I met was a \[D6/9]fly with a buzz
+    And the \[Em]sky with no \[D6/9]clouds
+    The \[Em]heat was hot and the \[D6/9]ground was dry
+    But the \[Em]air was full of \[D6/9]sound 
+  \end{verse}
+
+  \begin{chorus}
+    I've \[Em9]been thru the desert on a \[Dmaj9]horse with no name
+    It felt \[Em9]good to be out of the \[Dmaj9]rain
+    In the \[Em]desert you can't \[Dmaj9]remember your name
+    Cause there \[Em]ain't no one for to \[Dmaj9]give you no pain
+    \[Em9]La la la 
+    \[Dmaj9]La la la la la 
+    \[Em9]La la la
+    \[Dmaj9]La la la la la
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{bridge}
+      After \[Em]two days in the \[D6/9]desert sun
+      My \[Em]skin began to turn \[D6/9]red
+      After \[Em]three days in the \[D6/9]desert fun
+      I was \[Em]looking at a river \[D6/9]bed
+
+      And the \[Em]story it told of a \[D6/9]river that flowed
+      Made me \[Em]sad to think it was \[D6/9]dead
+    \end{bridge}
+    \begin{verse}
+      After \[Em]nine days I let the \[D6/9]horse run free
+      Cause the \[Em]desert had \[D6/9]turned to sea
+      There were \[Em]plants and birds and \[D6/9]rocks and things
+      There were \[Em]sand and hills and \[D6/9]rings
+
+      The \[Em]ocean is a desert with its \[D6/9]life underground
+      And the \[Em]perfect disguise \[D6/9]above
+      Under the \[Em]cities lies a \[D6/9]heart made of ground
+      But the \[Em]humans will give no \[D6/9]love
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

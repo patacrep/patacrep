@@ -15,6 +15,7 @@ utils/send.sh
 *.out
 *.d
 *.pdf
+*.pyc
 *.tar.gz
 default.sb
 default.tex

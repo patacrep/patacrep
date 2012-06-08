@@ -1,6 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{A Horse With No Name}[by=America,cov=America,album=America]
+\beginsong{A Horse With No Name}
+  [by=America,cov=America,album=America]
 
   \cover
   \gtab{Em}{022000}
@@ -17,7 +18,7 @@
     The \[Em]first thing I met was a \[D6/9]fly with a buzz
     And the \[Em]sky with no \[D6/9]clouds
     The \[Em]heat was hot and the \[D6/9]ground was dry
-    But the \[Em]air was full of \[D6/9]sound 
+    But the \[Em]air was full of \[D6/9]sound
   \end{verse}
 
   \begin{chorus}
@@ -25,8 +26,8 @@
     It felt \[Em9]good to be out of the \[Dmaj9]rain
     In the \[Em]desert you can't \[Dmaj9]remember your name
     Cause there \[Em]ain't no one for to \[Dmaj9]give you no pain
-    \[Em9]La la la 
-    \[Dmaj9]La la la la la 
+    \[Em9]La la la
+    \[Dmaj9]La la la la la
     \[Em9]La la la
     \[Dmaj9]La la la la la
   \end{chorus}

@@ -77,7 +77,8 @@
 
 \endsong
 =======
-\beginsong{America}[by=Razorlight,cov=Razorlight,album=Razorlight]
+\beginsong{America}
+  [by=Razorlight,cov=Razorlight,album=Razorlight]
 
   \cover
   \gtab{A}{X02220}
@@ -100,15 +101,15 @@
     That \[E]means that much to \[A]me
   \end{verse*}
 
-  \beginchorus
-    \[A]All my \[B]life  \[E]
+  \begin{chorus}
+    \[A]All my \[B]life \[E]
     Watching \[A]America
     \[A]All my \[B]life \[E]
     There's panic in \[A]America
     \[A]Oh Oh \[B]Oh, Oh\[E]
     There's trouble in \[A]America
     \[A]Oh Oh \[B]Oh, Oh\[E]
-  \endchorus
+  \end{chorus}
 
   \begin{repeatedchords}
     \begin{verse}
@@ -127,8 +128,8 @@
       That I \[E]can believe \[A]in
     \end{verse*}
 
-    \beginchorus
-      \[A]All my \[B]life  \[E]
+    \begin{chorus}
+      \[A]All my \[B]life \[E]
       Watching \[A]America
       \[A]All my \[B]life \[E]
       There's panic in \[A]America
@@ -137,7 +138,7 @@
       \[A]Oh Oh \[B]Oh, Oh\[E]
       There's panic in \[A]America
       \[A]Oh Oh \[B]Oh, Oh\[E]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
   \begin{verse}
@@ -151,12 +152,12 @@
     \[A]To hold \[B]me,\[E] say you'll \[A]be here
     \[A]To hold \[B]me,\[E] say you'll \[A]be here
     \[A]To hold \[B]me,\[E] say you'll \[A]be here
-    \[A]To hold..\[B]  \[E]
+    \[A]To hold..\[B] \[E]
   \end{verse}
 
   \begin{repeatedchords}
-    \beginchorus
-      \[A]All my \[B]life  \[E]
+    \begin{chorus}
+      \[A]All my \[B]life \[E]
       Watching \[A]America
       \[A]All my \[B]life \[E]
       There's panic in \[A]America
@@ -165,7 +166,7 @@
       \[A]Oh Oh \[B]Oh, Oh\[E]
       There's panic in \[A]America
       \[A]Oh Oh \[B]Oh, Oh\[E]
-    \endchorus
+    \end{chorus}
   \end{repeatedchords}
 
   \begin{verse}

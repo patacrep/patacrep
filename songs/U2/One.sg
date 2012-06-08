@@ -1,6 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{One}[by=U2,cov=Achtung-Baby,album=Achtung Baby]
+\beginsong{One}
+  [by=U2,cov=Achtung-Baby,album=Achtung Baby]
 
   \cover
   \gtab{Am}{X02210}

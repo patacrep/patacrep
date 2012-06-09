@@ -11,6 +11,7 @@ utils/send.sh
 *.sbd
 *.sbx
 *.sxd
+*.sxc
 *.log
 *.out
 *.d

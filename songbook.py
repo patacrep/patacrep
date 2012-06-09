@@ -34,7 +34,7 @@ def matchRegexp(reg, iterable):
 
 def songslist(songs):
     directories = set(["img/"] + map(lambda x: "songs/" + os.path.dirname(x), songs))
-    result = [ '\\input{{songs/{0}}}'.format(s.strip()) for s in songs ]
+    result = [ '\\input{{songs/{0}}}'.format(s.replace("\\","/").strip()) for s in songs ]
     return '\n'.join(result)
 
 def parseTemplate(template):

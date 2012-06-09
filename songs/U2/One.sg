@@ -1,49 +1,80 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{One}
-  [by=U2,cov=Achtung-Baby,album=Achtung Baby]
+  [by=U2,cov=achtung-baby,album=Achtung Baby]
 
   \cover
   \gtab{Am}{X02210}
   \gtab{D}{XX0232}
-  \gtab{F}{XX3211}
+  \gtab{F}{1:022100}
   \gtab{G}{320003}
   \gtab{C}{X32010}
 
   \begin{verse}
-    \[Am]Is it getting \[D]better \[F]or do you feel the same\[G]
-    \[Am]Will it make it \[D]easier on you now, \[F]you got someone to blame\[G]
+    \[Am] Is it getting \[D]better
+    \[F] Or do you feel the \[G]same?
+    \[Am] Will it make it \[D]easier on you, now
+    \[F] You got someone to \[G]blame?
   \end{verse}
 
   \begin{chorus}
-    \[C]You say \[Am]one love, one life
-    \[F]When it's one need\[C] in the night
-    \[C]One love, \[Am]we get to share it
-    \[F]Leaves you baby if you \[C]don't care for it
+    You say \[C] one love, \[Am] one life
+    \[F] When it's one need \[C] in the night
+    \[C] One love, \[Am] we get to share it
+    \[F] Leaves you baby if you \[C]don't care for it
   \end{chorus}
 
   \begin{repeatedchords}
     \begin{verse}
-      \[Am]Did I disap\[D]point you \[F]or leave a bad taste in \[G]your mouth
-      \[Am]You act like you never \[D]had love, \[F]you want me to go without\[G]
+      \[Am] Did I disap\[D]point you
+      \[F] Or leave a bad taste in your \[G]mouth?
+      \[Am] You act like you never \[D]had love
+      \[F] You want me to go with\[G]out
     \end{verse}
+
+    \begin{chorus}
+      Well it's \[C] too late, \[Am] tonight
+      \[F] To drag the past out \[C] into the light
+      \[C] We're one, but \[Am] we're not the same
+      We get to \[F] carry each other, \[C] carry each other
+    \end{chorus}
+
     \begin{verse}
-      \[Am]Have you come here for \[D]forgiveness, \[F]have you come to raise \[G]the dead
-      \[Am]Have you come here to \[D]play Jesus, \[F]to the lepers in your \[G]head
+      \[Am] Have you come here for for\[D]giveness?
+      \[F] Have you come to raise \[G]the dead?
+      \[Am] Have you come here to play \[D]Jesus
+      \[F] To the lepers in your \[G]head?
     \end{verse}
+
+
+    \begin{chorus}
+      \[C] Did I ask too much? \[Am] More than a lot?
+      \[F] You gave me nothing, now it's \[C] all I got
+      \[C] We're one but we're \[Am]not the same
+      Well we \[F] hurt each other, then we \[C]do it again
+    \end{chorus}
   \end{repeatedchords}
 
   \begin{bridge}
     \[C]You say love is a \[Am]temple, love a higher law
     \[C]Love is a temple, \[Am]love the higher law
     You \[C]ask me to enter but \[G]then you make me crawl
-    And \[G]I can't be holding \[F]on to what you got \[F]when all you got is hurt
+    And \[G]{I can't} be holding \[F]on to what you got \[F]when all you got is hurt
   \end{bridge}
 
-  \begin{chorus}
-    \[C]One life, but we're \[Am]not the same
-    We get to\[F] carry each other, car\[C]ry each other
-    One \[C] \[Am] \[F] \[C]\rep{2}
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[C] One love, \[Am] one blood
+      \[F] One life, you got to \[C]do what you should
+      \[C] One life \[Am] with each other
+      \[F] Sisters, \[C] brothers
+    \end{chorus}
+
+    \begin{chorus}
+      \[C]One life, but we're \[Am]not the same
+      We get to \[F] carry each other, car\[C]ry each other
+      One \[C] \[Am] \[F] \[C]\rep{2}
+    \end{chorus}
+  \end{repeatedchords}
 
 \endsong

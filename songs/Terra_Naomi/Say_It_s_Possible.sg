@@ -4,10 +4,10 @@
   [by=Terra Naomi,cov=under-the-influence,album=Under the influence]
 
   \cover
-  \gtab{Em7}{022033}
-  \gtab{C9}{X32033}
-  \gtab{G}{320033}
-  \gtab{G/F#}{2X0033}
+  \gtab*{Em7}{022033}
+  \gtab*{C9}{X32033}
+  \gtab*{G}{320033}
+  \gtab*{G/F#}{2X0033}
 
   \begin{verse}
     \[Em7]I \[C9]see the \[G]lights are \[G/F#]turning and I

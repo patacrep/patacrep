@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Guaranteed}
-  [by=Eddie Vedder,cov=Guaranteed,album=Into the wild]
+  [by=Eddie Vedder,cov=into-the-wild,album=Into the wild]
 
   \cover
   \gtab{G}{3:022100}
@@ -10,7 +10,7 @@
   \gtab{Am7}{002010}
   \gtab{C}{X32010}
   \gtab{D}{XX0232}
-  \gtab{D4}{000230}
+  \gtab*{D4}{000230}
 
   \begin{verse}
     \[G]On bended knee is no \[Bm]way to be free

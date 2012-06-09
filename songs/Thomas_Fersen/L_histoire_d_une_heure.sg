@@ -7,9 +7,8 @@
   \gtab{B7}{2:X02020}
   \gtab{E}{022100}
   \gtab{A}{X02220}
-  \gtab{Edim}{2:XX0131}
-  \gtab{F#dim}{XX4212}
-
+  \gtab*{Edim}{2:XX0131}
+  \gtab*{F#dim}{XX4212}
   \utab{B7}{2:0100}
   \utab{E}{2:2220}
   \utab{A}{2100}
@@ -99,4 +98,5 @@
     \nolyrics \[A E A E]
     \nolyrics \[Edim E F{\shrp}dim B7]
   \end{verse*}
+
 \endsong

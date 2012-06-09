@@ -5,9 +5,9 @@
 
   \cover
   \gtab{Am}{X02210}
-  \gtab{Asus4}{X02230}
-  \gtab{Asus2}{X02200}
-  \gtab{Am7}{X02213}
+  \gtab*{Asus4}{X02230}
+  \gtab*{Asus2}{X02200}
+  \gtab*{Am7}{X02213}
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
 

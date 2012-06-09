@@ -1,0 +1,83 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Brothers in arms}
+  [by=Dire Straits,cov=brothers-in-arms,album=Brothers in arms]
+
+  \cover
+  \gtab{G#m}{4:022000}
+  \gtab{E}{022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{B}{2:X02220}
+  \gtab*{B4}{2:X02230}
+  \gtab{D#m}{6:X02210}
+  \gtab*{F#4}{2:022200}
+
+  \begin{verse*}
+    \musicnote{\Intro:\nolyrics{ | \[G\shrp{m}] \[E] | \[C\shrp{m}] \[E] | \[G\shrp{m}] \[E] | \[C\shrp{m}] }}
+    \musicnote{\nolyrics{ | \[G\shrp{m}] \[E] | \[C\shrp{m}] \[E] \[F\shrp]| \[G\shrp{m}] \[E] | \[C\shrp{m}] | \[G\shrp{m}] | }}
+  \end{verse*}
+
+  \begin{verse}
+    These \[F#]mist-covered \[E]mountain\[F#]s
+    Are a home now for \[B]me \[B4] \[B]
+    But my \[D#m]home is the \[G#m]lowlan\[D#m]ds
+    And always will \[E]be \[F#4]
+    Some \[F#]day you'll retu\[G#m]rn to \[D#m]
+    Your valleys and your far\[E]ms \[C#m] \[F#4]
+    And you'll \[F#]no longer \[G#m]burn
+    To be \[E]brothers in \[F#4]arms \[F#]
+  \end{verse}
+
+
+  \begin{verse*}
+    \musicnote{\nolyrics{ | \[G\shrp{m}] \[E] | \[C\shrp{m}] \[E] | \[G\shrp{m}] \[E] | \[C\shrp{m}] | \[G\shrp{m}] | }}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Through these \[F#]fields of des\[E]truction \[F#]
+      Baptisms of fir\[B]e \[B4] \[B]
+      I've \[D#m]witnessed your s\[G#m]ufferin\[D#m]g
+      As the battles raged high\[E]er \[F#4]
+      And \[F#]though they hurt \[G#m]me so \[D#m]bad
+      In the fear and a\[E]larm \[C#m] \[F#4]
+      You \[F#]did not de\[G#m]sert me
+      My \[E]brothers in \[F#4]arms \[F#]
+    \end{verse}
+  \end{repeatedchords}
+
+
+  \begin{verse*}
+    \musicnote{\nolyrics{ | \[G\shrp{m}] \[E] | \[C\shrp{m}] \[E] | \[G\shrp{m}] \[E] | \[C\shrp{m}] | \[G\shrp{m}] | }}
+  \end{verse*}
+
+  \begin{bridge}
+    \[G#m] There's so \[F#]many different \[G#m]worlds
+    \[F#] So \[B]many different \[E]suns \[F#4]
+    And \[F#]we have just one \[G#m]world
+    \[F#] But we \[B]live in different \[E]ones
+  \end{bridge}
+
+  \begin{verse*}
+    \musicnote{Instrumental = \Intro }
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Now the \[F#]sun's gone to \[E]hell \[F#]
+      And the moon's riding \[B]high \[B4] \[B]
+      Let me \[D#m]bid you farewe\[G#m]ll \[D#m]
+      Every man has to die \[E] \[F#4]
+      But it's \[F#]written in the \[G#m]star\[D#m]light
+      And every line on your \[E]palm \[C#m] \[F#4]
+      We're \[F#]fools to make \[G#m]war
+      On our \[E]brothers in \[F#4]arms \[F#]
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{Outro = \Intro \rep{4} }
+  \end{verse*}
+
+\endsong

@@ -4,10 +4,10 @@
   [by=Belyscendre,cov=belles-embarquez,album=Belles Embarquez !]
 
   \cover
-  \gtab*{Em}{022000}
-  \gtab*{D}{XX0232}
-  \gtab*{B}{2:X02220}
-  \gtab*{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{B}{2:X02220}
+  \gtab{G}{320003}
 
   \begin{chorus}
     \[Em]Hélas ma\[D]dame, ce\[B]lle que j'ayme \[Em]tant

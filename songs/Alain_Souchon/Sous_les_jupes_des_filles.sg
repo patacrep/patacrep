@@ -29,11 +29,14 @@
   \end{repeatedchords}
 
   \begin{chorus}
-    \[Fm]Elles très fières
+    \[Fm]Elles, très fières
     Sur leurs \[G7]escabeaux en l'air
-    Regard méprisant et laissant le vent tout \[Cm]faire
+    Regard méprisant
+    Et laissant le vent tout \[Cm]faire
+  \end{chorus}
 
-    \[Fm]Elles dans l'suave
+  \begin{chorus}
+    \[Fm]Elles, dans l'suave
     La fai\[G7]blesse des hommes elles savent
     Que la seule chose qui tourne sur terre
     C'est leurs robes lé\[Cm]gères
@@ -55,11 +58,10 @@
     \end{verse*}
 
     \begin{chorus}
-      \nolyrics \[Fm G7 Cm]
-
+      \nolyrics{\[Fm G7 Cm]}
       \[Fm]Si parfois
       Ça les \[G7]gène et qu'elles veulent pas
-      Qu'on regarde leurs guiboles
+      Qu'on regarde leurs guibolles
       Les garçons s'affolent de \[Cm]ça
     \end{chorus}
 
@@ -78,28 +80,22 @@
     \end{verse*}
 
     \begin{chorus}
-      \[Fm]Elles pas fières
+      \[Fm]Elles, pas fières
       Sur leurs \[G7]escabeaux en l'air
-      Regard implorant et ne comprenant pas \[Cm]tout
+      Regard implorant
+      Et ne comprenant pas \[Cm]tout
+    \end{chorus}
 
-      \[Fm]Elles dans l'grave
+    \begin{chorus}
+      \[Fm]Elles, dans l'grave
       La fai\[G7]blesse des hommes elles savent
       Que la seule chose qui tourne sur terre
       C'est leurs robes lé\[Cm]gères
     \end{chorus}
 
-    \begin{verse}
-      \[Am]Rétines et pupilles
-      Les garçons \[G]ont les yeux qui brillent
-      \[F]Pour un jeu de dupes
-      Voir sous les jupes des \[C]filles
-    \end{verse}
+    \textnote[french]{Répéter \Verse 1}
+    \textnote[english]{Repeat \Verse 1}
 
-    \begin{verse*}
-      \[Am]Et la vie toute entière
-      Absor\[G]bée par cette affaire
-      \[F]Par ce jeu de dupes
-      Voir sous les jupes des \[C]filles
-    \end{verse*}
   \end{repeatedchords}
+
 \endsong

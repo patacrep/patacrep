@@ -4,11 +4,11 @@
   [by=Ben Harper,cov=welcome-to-the-cruel-world,album=Welcome to the cruel world]
 
   \cover
-  \gtab{C}{X30010}
-  \gtab{C/B}{X20010}
-  \gtab{Am7/E}{000010}
-  \gtab{G}{300000}
-  \gtab{F}{100210}
+  \gtab*{C}{X30010}
+  \gtab*{C/B}{X20010}
+  \gtab*{Am7/E}{000010}
+  \gtab*{G}{300000}
+  \gtab*{F}{100210}
 
   \begin{verse}
     \[C]Wait\[C/B]ing on \[Am/E7]an an\[G]gel

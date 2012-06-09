@@ -1,0 +1,77 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{America}
+  [by=Razorlight,cov=Razorlight,album=Razorlight]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+
+  \begin{verse}
+    \[G]What a \[A]drag it is
+    The \[D]shape i'm \[G]in
+    Well I \[A]go out somewhere
+    Then I \[D]come home a\[G]gain
+  \end{verse}
+
+  \begin{verse*}
+    \[G]{I light} a \[A]cigarette
+    'Cause \[D]{I can't} get no \[G]sleep
+    There's \[G]nothing on the TV, \[A]nothing on the radio
+    That \[D]means that much to \[G]me
+  \end{verse*}
+
+  \begin{chorus}
+    \[G]All my \[A]life\[D]
+    Watching A\[G]merica
+    \[G]All my \[A]life \[D]
+    There's panic in A\[G]merica
+    \[Em]Oh, oh, \[A]oh, oh\[D]
+    There's trouble in A\[G]merica
+    \[Em]Oh, oh, \[A]oh, oh\[D]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[G]Yesterday \[A]was easy
+      Happiness \[D] came and \[G]went
+      I got the \[A]movie script
+      But I \[D]don't know what it \[G]meant
+    \end{verse}
+
+    \begin{verse*}
+      \[G]{I light} a \[A]cigarette
+      'Cause \[D]I can't get no \[G]sleep
+      There's \[G]nothing on the TV, \[A]nothing on the radio
+      That \[D]means that much to \[G]me
+      There's \[G]nothing on the TV, \[A]nothing on the radio
+      That \[D]{I can} believe \[G]in
+    \end{verse*}
+
+    \begin{verse}
+      \[G]Yester\[A]day was easy
+      \[D]Yes I got the \[G]news
+      When you \[A]get it straight
+      But \[D]stand up, you just can't \[G]lose
+    \end{verse}
+
+    \begin{verse*}
+      \[G]Give you my \[A]confidence
+      \[D]All my faith in \[G]life
+      Don't stand me up, \[A]don't let me down
+      \[D]{I need} you to\[G]night
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    To \[G]hold \[A]me, \[D] say you'll be \[G]here \rep{3}
+    To \[G]hold \dots\[A] \[D]
+  \end{bridge}
+
+  \begin{verse*}
+    \[G]Tell me how does it \[A]feel\[D] \[G] \rep{4}
+  \end{verse*}
+
+\endsong

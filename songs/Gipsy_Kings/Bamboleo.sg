@@ -10,7 +10,7 @@
   \gtab{Am}{X02210}
   \gtab{Am7}{X02010}
   \gtab{D7}{XX0212}
-  \gtab{Gmaj7}{320002}
+  \gtab*{Gmaj7}{320002}
 
   \begin{verse}
     \[Em]Este amor llega \[B7]asi esta ma\[Em]nera

@@ -1,0 +1,57 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{5m2}
+  [by=Calvin Russell,cov=dawg-eat-dawg,album=Dawg eat dawg]
+
+  \cover
+  \capo{5}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab*{Am/C}{X32210}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    \[Am] Cinq mètres carrés, plus de télé
+    \[Dm] L'eau qui fuit dans les WC
+    \[F] Encore un bol de Ricoré
+    \[E] Un seul rève, avoir la clé
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am] Nous les voleurs, les meurtriers
+      \[Dm] Même en prison, faut exister
+      \[F] Concours de vieux joggings usés
+      \[E] Pour une promenade, à la santé
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[F] I'm dreaming, \[Am] I'm dreaming
+    O\[Am/C]f wh\[G]ere th\[Am/C]at s\[E]un
+    Go\[G7]es do\[Am]wn \[G7] \[Am]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am] Sur un coin de mur, lézardé
+      \[Dm] Une photo trop abîmée
+      \[F] D'une femme au regard désenchanté
+      \[E] Celui de celle qui m'a aimé
+    \end{verse}
+
+    \begin{verse}
+      \[Am] Cinq mètres carrés, de liberté
+      \[Dm] Et la même gueule à qui parler
+      \[F] Et cette fenêtre grillagée
+      \[E] Mon seul espace pour m'évader
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{Instr.\nolyrics{ \[F] \[Am] \[F] \[Am] \[G] } }
+  \end{verse*}
+
+\endsong

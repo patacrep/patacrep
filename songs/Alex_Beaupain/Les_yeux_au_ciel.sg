@@ -5,11 +5,11 @@
 
   \cover
   \gtab{Am}{X02210}
-  \gtab{Esus4}{020200}
-  \gtab{Bm7/5&}{X2323X}
-  \gtab{C6}{X32210}
-  \gtab{C7/6}{X32200}
-  \gtab{C7}{X32000}
+  \gtab*{Esus4}{020200}
+  \gtab*{Bm7/5&}{X2323X}
+  \gtab*{C6}{X32210}
+  \gtab*{C7/6}{X32200}
+  \gtab*{C7}{X32000}
 
   \begin{verse*}
     \musicnote{\Intro : \nolyrics{\[Am E7sus4 C7/6 E7sus4]} \rep{2}}

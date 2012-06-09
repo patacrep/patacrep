@@ -5,8 +5,8 @@
 
   \cover
   \gtab{Em}{022000}
-  \gtab{C}{332010}
-  \gtab{G}{3200XX}
+  \gtab*{C}{332010}
+  \gtab*{G}{3200XX}
   \gtab{F#m}{2:0220XX}
 
   \begin{verse}

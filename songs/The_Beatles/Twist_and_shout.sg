@@ -7,7 +7,7 @@
   \gtab{D}{5:X02220}
   \gtab{G}{3:022100}
   \gtab{A}{5:022100}
-  \gtab{A7}{5:020130}
+  \gtab*{A7}{5:020130}
 
   \begin{chorus}
     \[A7]Well, shake it up, \[D]baby, now \echo{\[G]shake it up, \[A]baby}

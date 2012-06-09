@@ -1,15 +1,15 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Dans tes yeux}
-  [by=Anis,album=Rodéo Boulevard,cov=rodeo-boulevard]
+  [by=Anis,cov=rodeo-boulevard,album=Rodéo Boulevard]
 
   \cover
-  \gtab{Dm6}{5:X02210}
+  \gtab{Dm}{5:X02210}
   \gtab{A#}{6:022100}
   \gtab{C7}{9:020100}
   \gtab{A}{5:022100}
   \gtab{Gm6}{7:X0101X}
-  \utab{Dm6}{2212}
+  \utab{Dm}{2212}
   \utab{A#}{1:2100}
   \utab{C7}{0001}
   \utab{A}{2100}
@@ -86,4 +86,5 @@
   \begin{verse*}
     \musicnote {\Outro : \nolyrics \[A{\shrp} C7 A Dm A{\shrp} Gm6 A Dm] \echo{adlib}}
   \end{verse*}
+
 \endsong

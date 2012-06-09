@@ -1,14 +1,14 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{It is not because you are}
-  [by=Renaud,album=Marche à l'ombre,cov=marche-a-l-ombre]
+  [by=Renaud,cov=marche-a-l-ombre,album=Marche à l'ombre]
 
   \cover
   \gtab{F}{1:022100}
   \gtab{Dm}{XX0231}
   \gtab{Gm}{3:022000}
   \gtab{C}{X32010}
-  \gtab{E5+}{022222}
+  \gtab*{E5+}{022222}
 
   \begin{verse}
     When I \[F]have rencontred \[Dm]you

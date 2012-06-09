@@ -6,7 +6,7 @@
   \cover
   \gtab{C}{X32010}
   \gtab{F}{1:022100}
-  \gtab{C/B}{X22010}
+  \gtab*{C/B}{X22010}
   \gtab{Am}{X02210}
   \gtab{G}{320003}
 

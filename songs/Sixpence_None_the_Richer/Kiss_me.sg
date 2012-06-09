@@ -6,16 +6,15 @@
   \cover
   \capo{1}
   \gtab{D}{XX0232}
-  \gtab{DM7}{XX0222}
+  \gtab*{DM7}{XX0222}
   \gtab{D7}{XX0212}
   \gtab{Em}{022000}
   \gtab{A}{X02220}
   \gtab{G}{320003}
-  \gtab{D/C#}{X40232}
-  \gtab{D/B}{X20232}
-  \gtab{D/A}{XX0232}
-  \gtab{G*}{320030}
-  \gtab{Asus4}{X02230}
+  \gtab*{D/C#}{X40232}
+  \gtab*{D/B}{X20232}
+  \gtab*{G*}{320030}
+  \gtab*{Asus4}{X02230}
 
   \begin{verse*}
     \musicnote {\Intro: \nolyrics \[D DM7 D7 DM7 \rep{2}]}

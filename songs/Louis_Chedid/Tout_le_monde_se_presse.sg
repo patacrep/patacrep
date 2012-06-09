@@ -1,28 +1,26 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tout le monde se presse}
-  [by=Louis Chedid,album=Le soldat rose,cov=le-soldat-rose]
+  [by=Louis Chedid,cov=le-soldat-rose,album=Le soldat rose]
 
   \cover
-  \gtab{C7/9}{X35333}
-  \gtab{C7/9*} {X32333}
-  \gtab{F}{133211}
-  \gtab{F7}{131211}
-  \gtab{F7/9}{X87888}
-  \gtab{D7/9}{X54555}
-  \gtab{G}{355433}
+  \gtab*{C7/9}{3:X02000}
+  \gtab*{C7/9}{3:X2123X}
+  \gtab{F}{1:022100}
+  \gtab{F7}{1:020100}
+  \gtab*{F7/9}{8:X02000}
+  \gtab*{D7/9}{5:X2123X}
+  \gtab{G}{3:022100}
   \gtab{C7}{X32310}
-  \gtab{C#dim}{XX2323}
-  \gtab{Gm7}{XX3333}
-  \gtab{G7/5#}{XX3443}
-  \gtab{C#7/9}{X43444}
-  \gtab{Gdim}{XX2323}
-  \gtab{B&dim}{3:XX2323}
-  \gtab{C#dim}{6:XX2323}
-  \gtab{Edim}{9:XX2323}
-  \gtab{Gdim*}{12:XX2323}
-
-
+  \gtab*{C#dim}{XX2323}
+  \gtab*{Gm7}{XX3333}
+  \gtab*{G7/5#}{XX3443}
+  \gtab*{C#7/9}{4:X2123X}
+  \gtab*{Gdim}{XX2323}
+  \gtab*{B&dim}{3:XX2323}
+  \gtab*{C#dim}{6:XX2323}
+  \gtab*{Edim}{9:XX2323}
+  \gtab*{Gdim*}{12:XX2323}
 
   \begin{chorus}
     \[C7/9]Tout l'monde se presse, tout l'monde se presse
@@ -66,7 +64,7 @@
     \[C7/9]Tout l'monde se presse, tout l'monde se presse
     \[F]Attention au départ
     \[C#7/9]Tout l'monde se \[C7/9*]presse, tout l'monde se presse \rep{3}
-    \[Gdim] \[B&dim] \[C#dim] \[Edim] \[Gdim*]
+    {\nolyrics \[Gdim B&dim C#dim Edim Gdim*]}
     \echo{Zorro est arri{\dots}}
   \end{chorus}
 

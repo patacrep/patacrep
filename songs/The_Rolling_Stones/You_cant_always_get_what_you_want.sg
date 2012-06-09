@@ -6,7 +6,7 @@
   \cover
   \capo{5}
   \gtab{G}{320003}
-  \gtab{C}{X32003}
+  \gtab*{C}{X32003}
   \gtab{A}{X02220}
 
   \begin{verse}
@@ -53,6 +53,5 @@
     She was practiced at the art of deception
     Well I could tell by her bloodstained hands
   \end{verse}
-
 
 \endsong

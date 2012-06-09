@@ -3,13 +3,11 @@
 \beginsong{Cayenne}
   [by=Les amis d'ta femme,cov=font-la-difference,album=Font la différence]
 
-
   \cover
   \gtab{Em}{022000}
   \gtab{B}{2:X02220}
   \gtab{C}{X32010}
   \gtab{G}{320003}
-
 
   \begin{verse}
     Je \[Em]me souviens encore
@@ -27,7 +25,7 @@
     \[Em]Mort aux vaches
     Mort aux condés
     Vive \[B]les enfants de Cayenne
-    À bas ceux d'\[G]la \[B]sure\[Em]té
+    À bas ceux d'\[G]la \[B]sûre\[Em]té
   \end{chorus}
 
   \begin{verse}
@@ -85,6 +83,5 @@
     C'est le roi des Jules
     Que l'on mène au tombeau
   \end{verse}
-
 
 \endsong

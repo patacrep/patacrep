@@ -11,8 +11,8 @@
   \gtab{Em}{022000}
   \gtab{F}{1:022100}
   \gtab{C7}{X32310}
-  \gtab{Dm11}{XX0011}
-  \gtab{Am}{X02010}
+  \gtab*{Dm11}{XX0011}
+  \gtab{Am7}{X02010}
 
   \begin{chorus}
     \musicnote{\Intro : \nolyrics{\[C G Am Am F C G G C G Am]}}

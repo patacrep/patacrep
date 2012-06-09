@@ -1,15 +1,13 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les vidanges du diable}
-  [by=Francis Cabrel,cov=samedi-soir,album=Un samedi soir sur la terre]
+  [by=Francis Cabrel,cov=samedi-soir-sur-la-terre,album=Samedi soir sur la Terre]
 
   \cover
-  \gtab{Adim}{X12020}
-  \gtab{Adim}{X02323}
+  \gtab*{Adim}{X02323}
   \gtab{A}{X02220}
   \gtab{Bm}{2:X02210}
   \gtab{F#}{2:022100}
-  \gtab{F#m7}{2:020000}
   \gtab{G}{3:022100}
   \gtab{E}{0221000}
   \gtab{D}{XX0232}

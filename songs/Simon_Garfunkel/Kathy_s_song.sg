@@ -7,7 +7,7 @@
   \gtab{G}{320003}
   \gtab{C}{X32010}
   \gtab{Am}{X02210}
-  \gtab{Am6}{2X2210}
+  \gtab*{Am6}{2X2210}
   \gtab{D7}{XX0212}
   \gtab{Bm}{2:X02210}
   \gtab{D}{XX0232}

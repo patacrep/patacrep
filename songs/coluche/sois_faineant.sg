@@ -1,0 +1,87 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Sois fainéant}
+  [by=Coluche,cov=integral,album=Intégral]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    \[D]{À toi} l'enfant qui vient de naître
+    Je dois dire pour être honnête
+    Que ce n'est pas en travail\[A]lant
+    Qu'on trouve le bonheur sur \[G]terre
+    J'en veux l'exemple que mon \[D]père
+    Qui vit l'jour de son enterre\[A]ment
+    Qu'il était le \[G]plus riche du cime\[D]tière
+  \end{verse}
+
+  \begin{chorus}
+    \[D]Sois fainéant, sois fainéant
+    \[A]Tu vivras con\[D]tent
+    Sois fai\[G]néant, sois fai\[D]néant
+    \[A]Tu vivras long\[D]temps
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Plutôt que d'apprendre à l'école
+      Baise et collectionne les véroles
+      La médecine fait quelques pro\[A]grès
+      Tandis qu'a gagner du ba\[G]gage
+      Tu n'aboutirais qu'au chô\[D]mage
+      Où déjà se sont entas\[A]sés
+      Ceux qu'ont cru \[G]en la socié\[D]té
+    \end{verse}
+
+    \begin{verse}
+      \[D]Moins tu en fais, plus tu l'espères
+      Plus ta santé déjà précaire
+      Te libère de ses tour\[A]ments
+      Gagner ta vie ne vaut pas l'\[G]coup
+      Attendu que tu l'as dé\[D]jà
+      Le boulot y'en a pas beau\[A]coup
+      Faut le lais\[G]ser à ceux qu'aiment \[A]ça
+    \end{verse}
+
+    \begin{verse}
+      \[D]Si jamais tu voles un copain
+      Tu en auras moins de chagrin
+      Que si tu n'as pas à man\[A]ger
+      Et si t'as la main sur le \[G]cœur
+      N'hésite pas à la cou\[D]per
+      Tu entendras moins les mo\[A]queurs
+      Si c'est toi \[G]qui les a rou\[D]lés
+    \end{verse}
+
+    \begin{verse}
+      \[D]Si jamais tu voles un couillon
+      Qui t'envoie tout droit en prison
+      Dis-toi qu'il est plus mal lo\[A]gé
+      Car pour payer sa pi\[G]tance
+      Tandis que tu f'ras péni\[D]tence
+      Lui qu'est si fier de t'enfer\[A]mer
+      Faudra en\[G]core qu'il aille bos\[A]ser
+    \end{verse}
+
+    \begin{verse}
+      \[D]Voilà, c'était mon héritage
+      Comme tu vois j'ai fait mes bagages
+      Je te laisse avec ta mo\[A]man
+      Tu perds rien, j'ai pas l'gros \[G]lot
+      Et tant pis pour toi si je \[D]triche
+      Tu s'ras p't'être un enfant d'sa\[A]laud
+      Mais tu s'ras \[G]pas un gosse de \[D]riche
+    \end{verse}
+
+    \begin{chorus}
+      \[D]Sois fainéant, sois fainéant
+      \[A]Tu vivras con\[D]tent
+      Sois fai\[G]néant, mon en\[D]fant
+      \[A]{L'avenir} t'at\[D]tend
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

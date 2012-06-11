@@ -11,10 +11,12 @@ utils/send.sh
 *.sbd
 *.sbx
 *.sxd
+*.sxc
 *.log
 *.out
 *.d
 *.pdf
+*.pyc
 *.tar.gz
 default.sb
 default.tex

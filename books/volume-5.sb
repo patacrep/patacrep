@@ -13,6 +13,7 @@
 "songs" : [
     "Alain_Souchon/La_ballade_de_Jim.sg",
     "Alain_Souchon/Sous_les_jupes_des_filles.sg",
+    "America/A_Horse_With_No_Name.sg",
     "Anis/Dans_tes_yeux.sg",
     "As_De_Trefle/A_l_oreille_de_ta_femme.sg",
     "As_De_Trefle/Chanson_d_amur.sg",
@@ -20,8 +21,10 @@
     "As_De_Trefle/Pauvre_planete.sg",
     "As_De_Trefle/Toi_toi_toi.sg",
     "Belyscendre/Helas_madame.sg",
+    "Bloodhound_Gang/Fire_water_burn.sg",
     "Calvin_Russell/5m2.sg",
     "Calvin_Russell/Down_down_down.sg",
+    "coluche/sois_faineant.sg",
     "Debout_Sur_Le_Zinc/Comme_un_frisson.sg",
     "Debout_Sur_Le_Zinc/Elle_m_ennuie.sg",
     "Debout_Sur_Le_Zinc/J_ai_deja_donne.sg",
@@ -48,8 +51,10 @@
     "Maxime_Le_Forestier/Passer_ma_route.sg",
     "Noir_Desir/Ou_veux_tu_qu_je_regarde.sg",
     "Noir_Desir/Toujours_etre_ailleurs.sg",
+    "Pascale_Picard/Smilin.sg",
     "Patrick_Coutin/J_aime_regarder_les_filles.sg",
     "Phil_Barney/Un_enfant_de_toi.sg",
+    "Razorlight/America.sg",
     "Roch_Voisine/Helene.sg",
     "Telephone/Le_jour_s_est_leve.sg",
     "The_Bloody_Irish_Boys/Drunk_tonight.sg",
@@ -63,5 +68,6 @@
     "Thomas_Fersen/Louise.sg",
     "Thomas_Fersen/Rititi_ratata_il_parait_qu_elles_aiment_.sg",
     "Tournee_Generale/Avancer_mes_grolles.sg",
+    "U2/One.sg",
     "Yves_Simon/Les_bateaux_du_metro.sg"]
 }

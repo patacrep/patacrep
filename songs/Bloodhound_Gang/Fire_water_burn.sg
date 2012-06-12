@@ -1,0 +1,61 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Fire water burn}
+  [by=Bloodhound Gang,cov=one-fierce-beer-coaster,album=One fierce beer coaster]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+
+  \begin{chorus}
+    The \[G]roof, the roof, the \[Em]roof is on fire \rep{3}
+    \[D]We don't need no water, let the \[C]motherfucker
+    Burn motherfucker, \[G]burn
+    {\nolyrics \[G Em G Em]} \rep{2}
+  \end{chorus}
+
+  \begin{verse}
+    Hel\[G]lo my name is Jimmy Pop and \[Em]{I'm} a dumb white guy
+    I'm not \[G]old or new but middle school fifth \[Em]grade like junior high
+    I don't \[G]know mofo if y'all peeps be buggin' give \[Em]props to my ho cause she all fly
+    But I can \[D]take the heat cause I'm the other white meat known \[C]as \emph{Kid Funky Fry}
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Yeah, I'm \[G]hung like planet Pluto hard to \[Em]see with the naked eye
+      But if I \[G]crashed into Uranus I would \[Em]stick it where the sun don't shine
+      Cause I'm \[G]kinda like Han Solo always \[Em]struck in my own wookie
+      I'm the \[D]root of all that's evil, yeah, but \[C]you can call me cookie
+    \end{verse*}
+
+    \begin{verse}
+      Yo, yo, this \[G]hard-core ghetto gangster image \[Em]takes a lot of practice
+      I'm not \[G]black like Barry White no I am \[Em]white like Frank Black is
+      So if \[G]man is five and the devil is six than \[Em]that must make me seven
+      \[G] This honkey's \[Em]gone to heaven
+    \end{verse}
+
+    \begin{verse*}
+      But if \[G]{I go} to hell then I \[Em]hope I burn well
+      I'll spend my \[G]days with J.F.K., Marvin Gaye, Martha \[Em]Raye, and Lawrence Welk
+      And Kurt Co\[G]bain, Kojak, Mark Twain and Jimi \[Em]Hendrix's poltergeist
+      And \[D]Webster yeah Emmanuel Lewis cause \[C]{he's} the anti-christ
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    Everybody here we go
+    \[G]{Oh, oh,} c'mon party people
+    \[Em]{Oh, oh,} throw your hands in the air
+    \[G]{Oh, oh,} c'mon party people
+    \[Em]{Oh, oh,} wave 'em like you don't care
+    \[G]{Oh, oh,} c'mon party people
+    \[Em]{Oh, oh,} everbody say ho
+    \[G]{Oh, oh,} c'mon party people
+    \[Em]{Oh, oh,} everybody here we go
+  \end{bridge}
+
+\endsong

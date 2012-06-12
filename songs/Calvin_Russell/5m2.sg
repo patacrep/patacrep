@@ -1,6 +1,6 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{5m2}
+\beginsong{$5m^2$}
   [by=Calvin Russell,cov=dawg-eat-dawg,album=Dawg eat dawg]
 
   \cover
@@ -11,6 +11,7 @@
   \gtab{E}{022100}
   \gtab*{Am/C}{X32210}
   \gtab{G}{320003}
+  \gtab{G7}{320001}
 
   \begin{verse}
     \[Am] Cinq mètres carrés, plus de télé

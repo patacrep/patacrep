@@ -4,16 +4,16 @@
 
   \cover
   \gtab{Dm}{XX0231}
-  \gtab{Bb}{1:X02220}
+  \gtab{B&}{1:X02220}
   \gtab{A}{X02220}
   \gtab{Gm}{3:022000}
   \utab{Dm}{2210}
-  \utab{Bb}{1:2100}
+  \utab{B&}{1:2100}
   \utab{A}{2100}
   \utab{Gm}{0231}
 
   \begin{verse*}
-    \musicnote {\Intro : \nolyrics \[Dm Bb A Dm A - Dm]}
+    \musicnote {\Intro : \nolyrics \[Dm B\flt A Dm A - Dm]}
   \end{verse*}
 
   \begin{verse}

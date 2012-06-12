@@ -1,0 +1,151 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Petit bonhomme}
+  [by=Les Wriggles,cov=tant-pis-tant-mieux-,album=Tant pis ! Tant mieux !]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{G}{320033}
+  \gtab{Am}{X02210}
+  \gtab{B}{2:X02220}
+  \utab{Em}{0432}
+  \utab{C}{0003}
+  \utab{D}{2220}
+  \utab{G}{0232}
+  \utab{Am}{2000}
+  \utab{B}{2:2100}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Em C D G] \[Am B Em Em]}
+  \end{verse*}
+
+  \begin{verse}
+    \[Em]Toi que j'ai connu à l'é\[C]cole
+    Chevalier, cow-boy, justi\[D]cier
+    Bonhomme qui joue et qui ri\[B]gole
+    Dans son bien-être journa\[Em]lier
+  \end{verse}
+
+  \begin{chorus}
+    \[Em]{Qu'est-ce} que j'ai \[C]fait
+    \[D]Pendant ce chemin parcou\[G]ru ?
+    Et \[Am]{qu'est-ce} qui t'a \[C]fait
+    \[B]Devenir ce que tu es deve\[Em]nu ?
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]{Y'a} eu ce coup de vent sur ton \[C]crâne
+      Qu'a emporté tous tes che\[D]veux
+      Ce nouveau copain en termi\[B]nale
+      Puis ces deux flingues au fond de tes \[Em]yeux
+    \end{verse}
+
+    \begin{verse*}
+      Deux ou trois échecs en a\[C]mour
+      Une sacrée bonne dose d'en\[D]nui
+      Plus d'ignorance de jour en \[B]jour
+      Et puis ces livres inter\[Em]dits
+    \end{verse*}
+
+    \begin{chorus}
+      \[Em]{Qu'est-ce} que j'ai \[C]fait
+      \[D]Pendant ce chemin parcou\[G]ru
+      Et \[Am]{qu'est-ce} qui t'a \[C]fait
+      \[B]Devenir ce que tu es deve\[Em]nu ?
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Em]Ce sont des petits morceaux de \[D]peur
+    Un peu partout dissémi\[Em]nés
+    Des petits fragments de fra\[D]yeur
+    Qui finissent par s'assem\[Em]bler
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      Rien que des petits morceaux de \[D]peur
+      Que l'on t'a gentiment don\[Em]né
+      Des limailles, des copeaux de ter\[D]reur
+      Qui paralysent la pen\[Em]sée
+    \end{chorus}
+
+    \begin{verse}
+      \[Em]Et puis tu as suivi la \[C]horde
+      Les chiens, les grenades, les ca\[D]nifs
+      Ont attisé ta notion de \[B]{l'ordre}
+      Et ton goût pour le puni\[Em]tif
+    \end{verse}
+
+    \begin{verse*}
+      Le désir d'élimi\[C]ner
+      Tout ce qui ne te ressemble \[D]pas
+      Mais, ignorant ce que tu \[B]es
+      Tu as buté n'importe \[Em]quoi
+    \end{verse*}
+
+    \begin{chorus}
+      \[Em]{Qu'est-ce} que j'ai \[C]fait
+      \[D]Pendant ce chemin parcou\[G]ru ?
+      Et \[Am]{qu'est-ce} qui t'a \[C]fait
+      \[B]Devenir ce que tu es deve\[Em]nu ?
+    \end{chorus}
+
+    \begin{chorus}
+      \[Em]Ce sont des petits morceaux de \[D]peur
+      Un peu partout éparpil\[Em]lés
+      Des débris, des tessons de ter\[D]reur
+      Qui t'incitent à ne pas chan\[Em]ger
+    \end{chorus}
+
+    \begin{chorus}
+      Rien que des petits morceaux de \[D]peur
+      Qui paralysent la pen\[Em]sée
+      Des éclats, des débris de fra\[D]yeur
+      Qui effacent une identi\[Em]té
+    \end{chorus}
+
+    \begin{verse}
+      \[Em]À vivre ta vie à pile ou \[C]face
+      Ta pièce t'a rendu sa mon\[D]naie
+      C'est l'heure d'écrire ton épi\[B]taphe
+      Sous une croix qui n'est pas gam\[Em]mée
+    \end{verse}
+
+    \begin{verse*}
+      Y'a personne d'autre que moi sur \[C]Terre
+      Le jour de ton enterre\[D]ment
+      A franchir la grille du cime\[B]tière
+      Vois, tous tes copains sont a\[Em]bsents
+    \end{verse*}
+
+    \begin{chorus}
+      \[Em]Et mainte\[C]nant
+      \[D]{Qu'est-ce} qui fait qu'au jour où nous \[G]sommes
+      Je ne \[Am]suis qu'une ma\[C]man
+      \[B]Qui pleure son petit bon\[Em]homme ?
+    \end{chorus}
+
+    \begin{chorus}
+      \[Em]Ce sont des petits morceaux de \[D]peur
+      Qu'à droite à gauche j'ai gla\[Em]nés
+      Des éclats des débris de ter\[D]reur
+      Tiens, je t'en ai fait un bou\[Em]quet
+    \end{chorus}
+
+    \begin{chorus}
+      Rien que des petits morceaux de \[D]peur
+      Qui paralysent la pen\[Em]sée
+      Des petits fragments de ter\[D]reur
+      Qui t'obligent à ne plus bou\[Em]ger
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Rien que des petits morceaux de \[D]peur \echo{Qu'est-ce que j'ai \[Em]fait ?} \rep{3}
+  \end{chorus}
+
+\endsong

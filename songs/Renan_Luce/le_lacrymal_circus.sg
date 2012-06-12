@@ -1,0 +1,93 @@
+\selectlanguage{french}
+\beginsong{Le Lacrymal Circus}
+  [by=Renan Luce,cov=repenti,album=Repenti]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{Bb}{1:X02220}
+  \gtab{A}{X02220}
+  \gtab{Gm}{3:022000}
+  \utab{Dm}{2210}
+  \utab{Bb}{1:2100}
+  \utab{A}{2100}
+  \utab{Gm}{0231}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Dm  Bb  A  Dm  A - Dm]}
+  \end{verse*}
+
+  \begin{verse}
+    Une vieille deux chevaux qui \[Dm]tousse
+    Déversait des prospec\[Bb]tus
+    {\og}Ce soir vingt heures, venez \[A]tous
+    Entrez au Lacrymal Cir\[Dm]cus !{\fg}  \[A - Dm]
+  \end{verse}
+
+  \begin{verse*}
+    J'étais seul et je cher\[A]chais
+    Un abri contre la \[Dm]bruine
+    J’ai pris ma place au gui\[A]chet
+    D’une roulotte qui tombe en \[Dm]ruine \[A - Dm]
+  \end{verse*}
+
+  \begin{chorus}
+    Au Lacrymal Cir\[Gm]cus
+    On y voit ce qu'on veut y \[Dm]voir
+    Ce soir des cumu\[Gm]lus
+    Jettent sur ma vie une ombre i\[Dm]voire
+    Et je \[A]vois
+    Dans l'é\[A]tendue rouge et or
+    Quelques \[Dm]vieilles connaissances
+    Des sou\[A]venirs qui collent au corps
+    Comme u\[Dm]ne vapeur d'essence
+    Et j'ai \[A]froid{\dots}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Un vieux lion à bout de \[Dm]force
+      A cligné trois fois des \[Bb]yeux
+      Il me disait, je crois, en \[A]morse :
+      {\og}J'peux pas sauter j'ai peur du \[Dm]feu !{\fg} \[A - Dm]
+    \end{verse}
+
+    \begin{verse*}
+      Puis un clown neurasthé\[A]nique
+      A pleuré sur mon é\[Dm]paule :
+      {\og}J'ai beau faire mes gags scé\[A]niques
+      Quand je tombe je suis pas \[Dm]drôle !{\fg} \[A - Dm]
+    \end{verse*}
+
+    \begin{chorus}
+      Au Lacrymal Cir\[Gm]cus
+      On y voit ce qu'on veut y \[Dm]voir
+      Ce soir des cumu\[Gm]lus
+      Jettent sur ma vie une ombre i\[Dm]voire
+      Et je \[A]vois
+      Dans l'é\[A]tendue rouge et or
+      Quelques \[Dm]vieilles connaissances
+      Des sou\[A]venirs qui collent au corps
+      Comme u\[Dm]ne vapeur d'essence
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Un é\[Gm]trange ballet équestre
+    Hennis\[Dm]sements et ruades
+    Y a qu'un \[A]tambour à l'orchestre
+    Tous les \[Dm]cuivres sont malades
+    Ceux qui \[Gm]soufflent n'ont plus d'air
+    Il ne \[Dm]reste que ceux qui tapent
+    Il ne \[A]reste que ceux qui tapent
+    Il ne \[A]reste que ceux qui tapent
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      Au Lacrymal Cir\[Gm]cus{\dots}
+      \nolyrics \[Dm Gm Dm]
+      \nolyrics \[A A Dm A Dm A] \[A - Dm]
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

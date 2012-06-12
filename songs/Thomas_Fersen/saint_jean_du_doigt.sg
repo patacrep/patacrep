@@ -1,0 +1,116 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Saint-Jean-du-Doigt}
+  [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{Gm}{3:022000}
+  \gtab{F}{1:022100}
+  \gtab{A}{X02220}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \utab{Dm}{2210}
+  \utab{Gm}{0231}
+  \utab{F}{2010}
+  \utab{A}{2100}
+  \utab{C}{0003}
+  \utab{D}{2220}
+
+  \begin{verse}
+    Elle a \[Dm]les cheveux mayonnaise
+    Moi j'ai \[Dm]un pull caca d'oie
+    Elle c'est \[Gm]Jeanne et moi c'est \[F]Blaise
+    Ca se passe \[A]à Saint-Jean-du-\[Dm]Doigt
+  \end{verse}
+
+  \begin{verse*}
+    \nolyrics \[Dm Dm Dm Dm] \[Gm F A Dm]
+  \end{verse*}
+
+  \begin{verse*}
+    Faudrait \[Dm]que j'monte sur une chaise
+    Car elle \[Dm]est plus grande que moi
+    Faudrait \[Gm]que j'monte sur une \[Dm]chaise
+    Ca va \[Gm]mieux quand elle s'as\[A]soit
+  \end{verse*}
+
+  \begin{verse*}
+    J'suis comme \[Gm]au pied de la fa\[Dm]laise
+    Quand son \[Gm]grand corps se dé\[Dm]ploie
+    Je res\[Gm]pire ses charen\[Dm]taises
+    Et c'est \[A]son nombril que \[Dm]{j'vois}
+  \end{verse*}
+
+  \begin{chorus}
+    Allez \[C]Jeanne, y a pas de ma\[F]laise
+    Viens donc \[C]admirer chez \[F]moi
+    Mes es\[D]tampes japo\[Gm]naises 
+    Et puis \[A]mon chapeau chi\[Dm]nois
+  \end{chorus}
+
+  \begin{chorus}
+    \musicnote[french]{Violon}
+    \musicnote[english]{Violin}
+    \nolyrics \[Dm Dm Dm Dm] \[Gm F A Dm]
+    \nolyrics \[Dm Dm Dm Dm] \[Gm Dm Gm A]
+    \lilypond{Saint-Jean-du-Doigt}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Elle a \[Dm]vingt ans, j'en ai treize
+      Et c'est \[Dm]vrai que j'ai les pieds froids
+      Mais mon \[Gm]coeur est une \[F]braise
+      Et je \[A]{n'suis} pas mala\[Dm]droit
+    \end{verse}
+
+    \begin{verse*}
+      Pour dan\[Dm]ser la sainte-jeannaise
+      Qu'on danse \[Dm]à Saint-Jean-du-Doigt
+      \nolyrics \[Gm Dm Gm A]
+    \end{verse*}
+
+    \begin{verse*}
+      \nolyrics \[Dm Dm Dm Dm]
+      Elle m'a \[Gm]fait une clé an\[Dm]glaise
+      Quand j'l'ai \[Gm]crue prête a l'em\[A]ploi
+    \end{verse*}
+
+    \begin{verse*}
+      J'ai pris \[Gm]une douche écos\[Dm]saise
+      C'était \[Gm]chaud pis c'était \[Dm]froid
+      Une cha\[Gm]leur de ge\[Dm]nèse
+      Et l'mer\[A]cure à  -3\[Dm]3
+    \end{verse*}
+
+    \begin{chorus}
+      Erreur, \[C]fallait pas que je \[F]biaise
+      Fallait \[C]pas sortir du \[F]bois
+      Car la \[D]Jeanne, elle est pas \[Gm]niaise
+      Même si \[A]elle n'a qu'un petit \[Dm]pois
+    \end{chorus}
+
+    \begin{verse}
+      Elle a \[Dm]les cheveux mayonnaise
+      Moi j'ai \[Dm]un pull caca d'oie
+      Elle c'est \[Gm]Jeanne et moi c'est \[F]Blaise
+      Ca s'passe \[A]à Saint-Jean-du-\[Dm]Doigt
+    \end{verse}
+
+    \begin{verse*}
+      Fixé \[Dm]avec une punaise
+      Epin\[Dm]glé à la paroi
+      Pour la \[Gm]regarder à \[Dm]{l'aise}
+      J'ai mis \[Gm]son portrait chez \[A]moi 
+    \end{verse*}
+
+    \begin{verse*}
+      Soit dit \[Gm]entre paren\[Dm]thèses
+      Faut pas \[Gm]{l'crier} sur les \[Dm]toits
+      C'est mon \[Gm]polochon que \[Dm]{j'baise}
+      Vous i\[A]maginez ma \[Dm]joie{\dots}
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

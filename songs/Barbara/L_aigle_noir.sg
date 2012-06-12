@@ -10,6 +10,8 @@
   \gtab{D}{XX0232}
   \gtab{B&}{1:X02220}
   \gtab{E&}{6:X02220}
+  \ifnorepeatchords%
+  \else%
   \gtab{G}{320003}
   \gtab{Am}{X02210}
   \gtab{E}{022100}
@@ -19,6 +21,7 @@
   \gtab{B}{2:X02220}
   \gtab{C#m}{4:X02210}
   \gtab{G#}{4:022100}
+  \fi%
 
   \begin{verse}
     \[F]Un beau jour ou peut-être \[C]une nuit
@@ -28,45 +31,51 @@
     Surgit un \[D]aigle noir
   \end{verse}
 
-  \begin{verse}
-    \[G]Lentement, les ailes \[D]déployées
-    \[Am]Lentement, je le vis \[E]tournoyer
-    \[C]Près de moi, dans un brui\[G]ssement d'ailes
-    Comme tom\[F]bé du ciel
-    L'oiseau vint \[E]se poser
-  \end{verse}
+  \begin{repeatedchords}
+    \transposition{2}
+    \begin{verse}
+      \[F]Lentement, les ailes \[C]déployées
+      \[Gm]Lentement, je le vis \[D]tournoyer
+      \[B&]Près de moi, dans un brui\[F]ssement d'ailes
+      Comme tom\[E&]bé du ciel
+      L'oiseau vint \[D]se poser
+    \end{verse}
 
-  \begin{verse}
-    \[A]Il avait les yeux cou\[E]leur rubis
-    \[Bm]Et des plumes aux couleurs \[F#]de la nuit
-    \[D]À son front, brillant de \[A]mille feux
-    L'oiseau roi \[G]couronné
-    Portait un \[F#]diamant bleu
-  \end{verse}
+    \transposition{2}
+    \begin{verse}
+      \[F]Il avait les yeux cou\[C]leur rubis
+      \[Gm]Et des plumes aux couleurs \[D]de la nuit
+      \[B&]À son front, brillant de \[F]mille feux
+      L'oiseau roi \[E&]couronné
+      Portait un \[D]diamant bleu
+    \end{verse}
 
-  \begin{verse}
-    \[B]De son bec, il a tou\[F#]ché ma joue
-    \[C#m]Dans ma main, il a gli\[G#]ssé son cou
-    \[E]{C'est} alors que je l'ai \[B]reconnu
-    Surgissant \[A]du passé
-    Il m'était \[G#]revenu
-  \end{verse}
+    \transposition{2}
+    \begin{verse}
+      \[F]De son bec, il a tou\[C]ché ma joue
+      \[Gm]Dans ma main, il a gli\[D]ssé son cou
+      \[B&]{C'est} alors que je l'ai \[F]reconnu
+      Surgissant \[E&]du passé
+      Il m'était \[D]revenu
+    \end{verse}
 
-  \begin{verse}
-    \[A]Dis l'oiseau, oh dis, em\[E]mène-moi
-    \[Bm]Retournons au pays \[F#]{d'autrefois}
-    \[D]Comme avant dans mes rê\[A]ves d'enfant
-    Pour cueillir \[G]en tremblant
-    Des étoiles, \[F#]des étoiles
-  \end{verse}
+    \transposition{-2}
+    \begin{verse}
+      \[F]Dis l'oiseau, oh dis, em\[C]mène-moi
+      \[Gm]Retournons au pays \[D]{d'autrefois}
+      \[B&]Comme avant dans mes rê\[F]ves d'enfant
+      Pour cueillir \[E&]en tremblant
+      Des étoiles, \[D]des étoiles
+    \end{verse}
 
-
-  \begin{verse}
-    \[B]Comme avant, dans mes rê\[F#]ves d'enfant
-    \[C#m]Comme avant, sur un nu\[G#]age blanc
-    \[E]Comme avant, allumer \[B]le soleil
-    Être fai\[A]seur de pluie
-    Et faire \[G#]des merveilles
-  \end{verse}
+    \transposition{2}
+    \begin{verse}
+      \[F]Comme avant, dans mes rê\[C]ves d'enfant
+      \[Gm]Comme avant, sur un nu\[D]age blanc
+      \[B&]Comme avant, allumer \[F]le soleil
+      Être fai\[E&]seur de pluie
+      Et faire \[D]des merveilles
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

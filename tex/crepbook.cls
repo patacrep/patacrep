@@ -70,6 +70,7 @@
 \RequirePackage{tikz}
 \RequirePackage{licence}
 \RequirePackage{xstring}
+\RequirePackage{ifthen}
 
 \iflyric%
   \tabsfalse%
@@ -522,4 +523,18 @@
     \fi%
   }
 \fi
+
+\def\removefirstch@r#1{}
+\newcommand{\transposition}[1]{%
+  \ifnorepeatchords%
+    \musicnote{%
+      \IfStrEq{\@lang}{english}{transposition:~}{}%
+      \IfStrEq{\@lang}{french}{transposition~:~}{}%
+      \ifthenelse{#1>0}{#1$\Uparrow$}{\removefirstch@r#1$\Downarrow$}%
+    }%
+  \else%
+    \transpose{#1}
+  \fi%
+}%
+
 \makeatother

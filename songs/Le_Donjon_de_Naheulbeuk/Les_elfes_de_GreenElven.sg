@@ -3,62 +3,64 @@
 \beginsong{Les elfes de GreenElven}
   [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret,album=À poil dans la forêt]
 
-
   \cover
   \gtab{Dm}{XX0231}
   \gtab{C}{X32010}
   \gtab{F}{1:022100}
   \gtab{Am}{X02210}
 
-
   \begin{verse}
     \[Dm]{Ils sont} fiers, ils \[C]sont élan\[Dm]cés
     Comme les \[F]arbres de \[C]leur \[Am]forêt
-    \[Dm]Blanche est la \[Am]feuille où court leur trait
+    \[Dm]Blanche est la \[C]feuille où \[Am]court leur trait
     Les \[Dm]elfes de \[C]GreenEl\[Dm]ven
   \end{verse}
 
-  \begin{verse}
-    De leur plume aux reflets d'argent
-    Naissent des êtres d'autres temps
-    Des landes perdues, des chevaux blancs
-    Les elfes de GreenElven \echo{ho, c'est beau}
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm]De leur plume aux \[C]reflets d'ar\[Dm]gent
+      Naissent des \[F]êtres \[C]{d'autres} \[Am]temps
+      Des \[Dm]landes \[C]perdues, des \[Am]chevaux blancs
+      Les \[Dm]elfes de \[C]GreenEl\[Dm]ven \echo{ho, c'est beau}
+    \end{verse}
 
-  \begin{verse}
-    Ils imaginent des contrées
-    Des reines maudites aux yeux violets
-    Les ombres s'étendent sur la forêt
-    Des elfes de GreenElven
-  \end{verse}
+    \begin{verse}
+      \[Dm]Ils imaginent \[C]des con\[Dm]trées
+      Des reines mau\[F]dites aux \[C]yeux vio\[Am]lets
+      Les \[Dm]ombres s'é\[C]tendent sur \[Am]la forêt
+      Des \[Dm]elfes de \[C]GreenEl\[Dm]ven
+    \end{verse}
+  \end{repeatedchords}
 
-  \begin{verse}
+  \begin{chorus}
     \[Dm]Et quand le \[C]soir tombe sur les \[Am]feuilles dorées
     \[Dm]Le sang de la \[C]forêt coule sur leurs \[Am]cheveux blancs
     \[Dm]Avec dans leurs \[C]carnets des cro\[Am]quis ravagés
     \[Dm]Par la détresse im\[C]pie de l'artiste sou\[Am]ffrant
-  \end{verse}
+  \end{chorus}
 
-  \begin{verse}
-    Vient alors la dame au visage fin
-    Calme les esprits contre son sein
-    Sonnent ensuite les chants sereins
-    Des elfes de GreenElven
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm]Vient alors la \[C]dame au visage \[Dm]fin
+      Calme les \[F]esprits con\[C]tre son \[Am]sein
+      \[Dm]Sonnent en\[C]suite les \[Am]chants sereins
+      Les \[Dm]elfes de \[C]GreenEl\[Dm]ven
+    \end{verse}
 
-  \begin{verse}
-    Puis leurs armées piaffantes à l'orée du bois
-    Chargent dans les ténèbres au son des tambourins
-    Lèvent leurs lames luisantes dans le froid
-    Et cueillent des framboises jusqu'au matin
-  \end{verse}
+    \begin{chorus}
+      \[Dm]Puis leurs ar\[C]mées piaffantes à l'o\[Am]rée du bois
+      \[Dm]Chargent dans les \[C]ténèbres au son des \[Am]tambourins
+      \[Dm]Lèvent leurs lames \[C]luisantes dans le \[Am]froid
+      \[Dm]Et cueillent des fram\[C]boises jusqu'au \[Am]matin
+    \end{chorus}
 
-  \begin{verse}
-    Ainsi donc s'achève la nuit
-    Mon histoire se termine ici
-    Et je contemple les croquis
-    Des elfes de GreenElven \rep{2}
-  \end{verse}
+    \begin{verse}
+      \[Dm]Ainsi donc s'a\[C]chève la \[Dm]nuit
+      Mon his\[F]toire se \[C]termine i\[Am]ci
+      Et \[Dm]je con\[C]temple \[Am]les croquis
+      Les \[Dm]elfes de \[C]GreenEl\[Dm]ven \rep{2}
+    \end{verse}
+  \end{repeatedchords}
 
   \image[width=4cm]{nb_elf_02}
 

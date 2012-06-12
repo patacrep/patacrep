@@ -22,25 +22,27 @@
     \rep{2}
   \end{chorus}
 
-  \begin{verse}
-    Now Old Dan Tucker come to town
-    Ridin' a billy goat, leadin' a hound
-    The hound dog barked and billy goat jumped
-    And landed old Tucker on a stump
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Now \[C]Old Dan Tucker \[F]come to town
+      \[G]Ridin' a billy goat, \[C]leadin' a hound
+      The \[C]hound dog barked and bil\[F]ly goat jumped
+      And \[G]landed old Tucker \[C]on a stump
+    \end{verse}
 
-  \begin{verse}
-    Now Old Dan Tucker got drunk and fell
-    In the fire and kicked up holy hell
-    A red-hot coal got in his shoe
-    And, oh my Lord, the ashes flew!
-  \end{verse}
+    \begin{verse}
+      Now \[C]Old Dan Tucker got \[F]drunk and fell
+      In the \[G]fire and kicked up \[C]holy hell
+      A \[C]red-hot coal got \[F]in his shoe
+      And, \[G]oh my Lord, the \[C]ashes flew!
+    \end{verse}
 
-  \begin{verse}
-    Now Old Dan Tucker come to town
-    Swinging them ladies all round
-    First to the right and then to the left
-    Then to the gal that he loved best
-  \end{verse}
+    \begin{verse}
+      Now \[C]Old Dan Tucker \[F]come to town
+      \[G]Swinging them ladies \[C]all round
+      \[C]First to the right and \[F]then to the left
+      \[G]Then to the gal that \[C]he loved best
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

@@ -6,50 +6,56 @@
   \cover
   \gtab{G}{320003}
   \gtab{D}{XX0232}
+  \ifnorepeatchords%
+  \else%
   \gtab{B&}{1:X02220}
   \gtab{F}{1:022100}
+  \fi%
 
   \begin{verse}
-    \[G]Well, I thought I heard the captain say
+    Well, I \[G]thought I heard the captain say
     ``Pay me my \[D]money down
     Tomorrow is my sailing day
     Pay me my \[G]money down''
   \end{verse}
 
-  \begin{chorus}
-    Pay me, pay me
-    Pay me my \[D]money down
-    Pay me or go to jail
-    Pay me my \[G]money down
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[G] Pay me, pay me
+      Pay me my \[D]money down
+      Pay me or go to jail
+      Pay me my \[G]money down
+    \end{chorus}
 
-  \begin{verse}
-    Soon as that boat was clear of the bar
-    Pay me my money down
-    He knocked me down with the end of a spar
-    Pay me my money down
-  \end{verse}
+    \begin{verse}
+      \[G]Soon as that boat was clear of the bar
+      Pay me my \[D]money down
+      He knocked me down with the end of a spar
+      Pay me my \[G]money down
+    \end{verse}
 
-  \begin{verse}
-    Well if I'd been a rich man's son
-    Pay me my money down
-    I'd sit on the river and watch it run
-    Pay me my money down
-  \end{verse}
+    \begin{verse}
+      Well \[G]if I'd been a rich man's son
+      Pay me my \[D]money down
+      I'd sit on the river and watch it run
+      Pay me my \[G]money down
+    \end{verse}
 
-  \begin{verse}
-    \[B&]Well, I wish I was Mr. Gates
-    Pay me my \[F]money down
-    Haul my money in egg crates
-    Pay me my \[B&]money down
-  \end{verse}
+    \transposition{3}
+    \begin{verse}
+      Well, I wish \[G]{I was} Mr. Gates
+      Pay me my \[D]money down
+      Haul my money in egg crates
+      Pay me my \[G]money down
+    \end{verse}
 
-  \begin{verse}
-    \[G]Well, 40 nights, nights at sea
-    Pay me my \[D]money down
-    Captain worked every last dollar out of me
-    Pay me my \[G]money down
-  \end{verse}
+    \transposition{-3}
+    \begin{verse}
+      Well, \[G]40 nights, nights at sea
+      Pay me my \[D]money down
+      Captain worked every last dollar out of me
+      Pay me my \[G]money down
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong
-

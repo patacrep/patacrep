@@ -10,22 +10,24 @@
   \begin{verse}
     \[F]As I was walking down the street
     \[C7]Down the street, \[F]down the street
-    A pretty girl I chanced to meet
+    \[F]{A pretty} girl I chanced to meet
     And we \[C7]danced by the light of the \[F]moon
   \end{verse}
 
-  \begin{chorus}
-    \[F]Buffalo gals won't you come out tonight
-    \[C7]Come out tonight, \[F]come out tonight
-    \[F]Buffalo gals won't you come out tonight
-    And we'll \[C7]dance by the light of the \[F]moon
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[F]Buffalo gals won't you come out tonight
+      \[C7]Come out tonight, \[F]come out tonight
+      \[F]Buffalo gals won't you come out tonight
+      And we'll \[C7]dance by the light of the \[F]moon
+    \end{chorus}
 
-  \begin{verse}
-    I danced with a gal with a hole in her stocking
-    And he knees was a-knockin' and her shoes was a'rockin'
-    I danced with a gal with a hole in her stocking
-    And we danced by the light of the moon
-  \end{verse}
+    \begin{verse}
+      I \[F]danced with a gal with a hole in her stocking
+      And he \[C7]knees was a-knockin' and her \[F]shoes was a'rockin'
+      I \[F]danced with a gal with a hole in her stocking
+      And we \[C7]danced by the light of the \[F]moon
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

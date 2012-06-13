@@ -1,5 +1,5 @@
 {
-"template" : "patacrep-en.tmpl",
+"template" : "patacrep.tmpl",
 "lang" : "english",
 "bookoptions" : [
     "diagram",

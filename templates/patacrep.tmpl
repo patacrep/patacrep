@@ -81,17 +81,49 @@
 
 \begin{document}
 
+% translate default title
+\IfStrEq{\gettitle}{Recueil de chansons pour guitare}{
+  \IfStrEq{\getlang}{english}{\title{Patacrep songbook}}{}
+}{}
+
 \maketitle
 
-\showindex{Index des chansons}{titleidx}
-\showindex{Index des auteurs}{authidx}
+% indexes
+\IfStrEq{\getlang}{english}{
+  \showindex{Songs Index}{titleidx}
+}{
+  \showindex{Index des chansons}{titleidx}
+}
+\IfStrEq{\getlang}{english}{
+  \showindex{Authors Index}{authidx}
+}{
+  \showindex{Index des auteurs}{authidx}
+}
 
-\notenamesin{A}{B}{C}{D}{E}{F}{G}
-\notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
-
+% list of chords
+\ifchorded
+\phantomsection
+\IfStrEq{\getlang}{english}{
+  \addcontentsline{toc}{section}{Chords list}
+}{
+  \addcontentsline{toc}{section}{Liste des accords}
+}
 \include{tex/chords}
+\fi
 
-\songsection{Liste des chansons}
+% chords notation
+\IfStrEq{\getlang}{french}{
+  \notenamesin{A}{B}{C}{D}{E}{F}{G}
+  \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
+}{}
+
+% songs
+\phantomsection
+\IfStrEq{\getlang}{english}{
+  \addcontentsline{toc}{section}{Songs list}
+}{
+  \addcontentsline{toc}{section}{Liste des chansons}
+}
 \begin{songs}{titleidx,authidx}
   \getsongslist
 \end{songs}

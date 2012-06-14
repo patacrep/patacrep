@@ -100,6 +100,12 @@
   \showindex{Index des auteurs}{authidx}
 }
 
+% chords notation
+\IfStrEq{\getlang}{french}{
+  \notenamesin{A}{B}{C}{D}{E}{F}{G}
+  \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
+}{}
+
 % list of chords
 \ifchorded
 \phantomsection
@@ -110,12 +116,6 @@
 }
 \include{tex/chords}
 \fi
-
-% chords notation
-\IfStrEq{\getlang}{french}{
-  \notenamesin{A}{B}{C}{D}{E}{F}{G}
-  \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
-}{}
 
 % songs
 \phantomsection

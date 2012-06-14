@@ -1,7 +1,7 @@
 \newcommand*{\Sharp}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small\bf \#}}
 \newcommand*{\Flat}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small$\mathbf{\flat}$}}
 \newcommand*{\chordrule}{\mbox{\hspace{1cm}\rule[0.5cm]{15cm}{0.02cm}}\vspace{-.4cm}}
-\newcommand*{\chordname}[1]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{#1}}}}
+\newcommand*{\chordname}[2]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{\IfStrEq{\getlang}{english}{#1}{#2}}}}}
 
 \begin{songs}{}
   %hide song number
@@ -13,7 +13,7 @@
 
   \ifguitar
   \IfStrEq{\getlang}{english}{\beginsong{Guitar chords}}{\beginsong{Accords de guitare}}
-  \chordname{C}
+  \chordname{C}{Do}
   \gtab{C}{~:X32010}
   \gtab{C7}{~:X32310}
   \gtab{Cm}{3:X02210}
@@ -25,7 +25,7 @@
   \gtab{C6}{~:XX2213}
   \chordrule
 
-  \chordname{C\Sharp = D\Flat}
+  \chordname{C\Sharp = D\Flat}{Do\Sharp = Ré\Flat}
   \gtab{C#}{4:X02220}
   \gtab{C#7}{4:X02020}
   \gtab{C#m}{4:X02210}
@@ -37,7 +37,7 @@
   \gtab{C#6}{1:X02010}
   \chordrule
 
-  \chordname{D}
+  \chordname{D}{Ré}
   \gtab{D}{~:XX0232}
   \gtab{D7}{~:XX0212}
   \gtab{Dm}{~:XX0231}
@@ -49,7 +49,7 @@
   \gtab{D6}{~:X00202}
   \chordrule
 
-  \chordname{D\Sharp = E\Flat}
+  \chordname{D\Sharp = E\Flat}{Ré\Sharp = Mi\Flat}
   \gtab{D#}{6:X02220}
   \gtab{D#7}{6:X02020}
   \gtab{D#m}{6:X02210}
@@ -61,7 +61,7 @@
   \gtab{D#6}{1:X00202}
   \chordrule
 
-  \chordname{E}
+  \chordname{E}{Mi}
   \gtab{E}{~:022100}
   \gtab{E7}{~:020100}
   \gtab{Em}{~:022000}
@@ -73,7 +73,7 @@
   \gtab{E6}{~:022120}
   \chordrule
 
-  \chordname{F}
+  \chordname{F}{Fa}
   \gtab{F}{1:022100}
   \gtab{F7}{1:02010}
   \gtab{Fm}{1:022000}
@@ -85,7 +85,7 @@
   \gtab{F6}{~:XX0211}
   \chordrule
 
-  \chordname{F\Sharp = G\Flat}
+  \chordname{F\Sharp = G\Flat}{Fa\Sharp = Sol\Flat}
   \gtab{F#}{2:022100}
   \gtab{F#7}{2:020100}
   \gtab{F#m}{2:022000}
@@ -97,7 +97,7 @@
   \gtab{F#6}{~:XX1322}
   \chordrule
 
-  \chordname{G}
+  \chordname{G}{Sol}
   \gtab{G}{~:320003}
   \gtab{G7}{~:320001}
   \gtab{Gm}{3:022000}
@@ -109,7 +109,7 @@
   \gtab{G6}{~:320000}
   \chordrule
 
-  \chordname{G\Sharp = A\Flat}
+  \chordname{G\Sharp = A\Flat}{Sol\Sharp = La\Flat}
   \gtab{G#}{4:022100}
   \gtab{G#7}{4:020100}
   \gtab{G#m}{4:022000}
@@ -121,7 +121,7 @@
   \gtab{G#6}{~:XX1111}
   \chordrule
 
-  \chordname{A}
+  \chordname{A}{La}
   \gtab{A}{~:X02220}
   \gtab{A7}{~:022100}
   \gtab{Am}{~:XX0232}
@@ -133,7 +133,7 @@
   \gtab{A6}{~:XX2222}
   \chordrule
 
-  \chordname{A\Sharp = B\Flat}
+  \chordname{A\Sharp = B\Flat}{La\Sharp = Si\Flat}
   \gtab{A#}{1:X02220}
   \gtab{A#7}{1:X02020}
   \gtab{A#m}{1:X02210}
@@ -145,7 +145,7 @@
   \gtab{A#6}{~:XX3333}
   \chordrule
 
-  \chordname{B}
+  \chordname{B}{Si}
   \gtab{B}{2:X02220}
   \gtab{B7}{X21202}
   \gtab{Bm}{2:X02210}
@@ -155,12 +155,19 @@
   \gtab{B4}{2:X02230}
   \gtab{B7}{~:X22202}
   \gtab{B6}{~:XX4444}
+
+  \begin{verse*}
+    \musicnote[french]{Accordage standard : {\nolyrics \[E A D G B E]}}
+    \musicnote[english]{Standard tuning: {\nolyrics \[E A D G B E]}}
+  \end{verse*}
+
   \endsong
   \fi
 
   \ifukulele
   \IfStrEq{\getlang}{english}{\beginsong{Ukulele chords}}{\beginsong{Accords de ukulélé}}
-  \chordname{C}
+
+  \chordname{C}{Do}
   \utab{C}{~:0003}
   \utab{C7}{~:0001}
   \utab{Cm}{~:0333}
@@ -172,7 +179,7 @@
   \utab{Cdim}{2:3101}
   \chordrule
 
-  \chordname{C\Sharp = D\Flat}
+  \chordname{C\Sharp = D\Flat}{Do\Sharp = Ré\Flat}
   \utab{C#}{1:0003}
   \utab{C#7}{1:0001}
   \utab{C#m}{~:1104}
@@ -184,7 +191,7 @@
   \utab{C#dim}{~:0104}
   \chordrule
 
-  \chordname{D}
+  \chordname{D}{Ré}
   \utab{D}{~:2220}
   \utab{D7}{2:0001}
   \utab{Dm}{~:2210}
@@ -196,7 +203,7 @@
   \utab{Ddim}{1:0104}
   \chordrule
 
-  \chordname{D\Sharp = E\Flat}
+  \chordname{D\Sharp = E\Flat}{Ré\Sharp = Mi\Flat}
   \utab{D#}{1:2220}
   \utab{D#7}{3:0001}
   \utab{D#m}{1:2210}
@@ -208,7 +215,7 @@
   \utab{D#dim}{~:2320}
   \chordrule
 
-  \chordname{E}
+  \chordname{E}{Mi}
   \utab{E}{2:2220}
   \utab{E7}{~:1202}
   \utab{Em}{~:0432}
@@ -220,7 +227,7 @@
   \utab{Edim}{1:2320}
   \chordrule
 
-  \chordname{F}
+  \chordname{F}{Fa}
   \utab{F}{~:2010}
   \utab{F7}{~:2310}
   \utab{Fm}{~:1013}
@@ -232,7 +239,7 @@
   \utab{Fdim}{2:2320}
   \chordrule
 
-  \chordname{F\Sharp = G\Flat}
+  \chordname{F\Sharp = G\Flat}{Fa\Sharp = Sol\Flat}
   \utab{F#}{1:2010}
   \utab{F#7}{1:2310}
   \utab{F#m}{~:2120}
@@ -244,7 +251,7 @@
   \utab{F#dim}{~:2020}
   \chordrule
 
-  \chordname{G}
+  \chordname{G}{Sol}
   \utab{G}{~:0232}
   \utab{G7}{~:0212}
   \utab{Gm}{~:0231}
@@ -256,7 +263,7 @@
   \utab{Gdim}{~:0131}
   \chordrule
 
-  \chordname{G\Sharp = A\Flat}
+  \chordname{G\Sharp = A\Flat}{Sol\Sharp = La\Flat}
   \utab{G#}{3:2010}
   \utab{G#7}{1:0212}
   \utab{G#m}{1:0231}
@@ -268,7 +275,7 @@
   \utab{G#dim}{1:0131}
   \chordrule
 
-  \chordname{A}
+  \chordname{A}{La}
   \utab{A}{~:2100}
   \utab{A7}{~:0100}
   \utab{Am}{~:2000}
@@ -280,7 +287,7 @@
   \utab{Adim}{2:0131}
   \chordrule
 
-  \chordname{A\Sharp = B\Flat}
+  \chordname{A\Sharp = B\Flat}{La\Sharp = Si\Flat}
   \utab{A#}{1:2100}
   \utab{A#7}{1:0100}
   \utab{A#m}{1:2000}
@@ -292,7 +299,7 @@
   \utab{A#dim}{~:3101}
   \chordrule
 
-  \chordname{B}
+  \chordname{B}{Si}
   \utab{B}{2:2100}
   \utab{B7}{2:0100}
   \utab{Bm}{2:2000}
@@ -302,6 +309,12 @@
   \utab{B6}{1:0211}
   \utab{Baug}{~:0332}
   \utab{Bdim}{1:3101}
+
+  \begin{verse*}
+    \musicnote[french]{Accordage standard : \[G C E A]}
+    \musicnote[english]{Standard tuning: \[G C E A]}
+  \end{verse*}
+
   \endsong
   \fi
 

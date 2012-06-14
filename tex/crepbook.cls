@@ -359,7 +359,7 @@
 % Horizontal space reserved to verse number
 \setlength{\versenumwidth}{1em}
 % Modifier to the space between consecutive lines of lyrics
-\baselineadj=-6pt plus 4pt minus 4pt
+\baselineadj=-6pt plus 0pt minus 2pt
 % Space between verses and chorus
 \versesep=6pt plus 2pt minus 2pt
 % lyrics font

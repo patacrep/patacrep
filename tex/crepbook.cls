@@ -64,6 +64,7 @@
 \definecolor{tango-blue-3}{HTML}{204a87}
 \RequirePackage[bookmarks,
   bookmarksopen,
+  hyperfigures=true,
   colorlinks=true,
   linkcolor=tango-green-3,
   urlcolor=tango-blue-3]{hyperref}
@@ -205,6 +206,8 @@
 \newcommand{\songalbum}{}
 \newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
+\newsongkey{url}{\let\songurl\@empty}{\def\songurl{#1}}
+\newsongkey{original}{\let\songoriginal\@empty}{\def\songoriginal{#1}}
 \newcommand\cover{%
   \ifpictures%
     \ifx\songcover\@empty\else%
@@ -214,6 +217,23 @@
       }%
     \fi%
   \fi%
+}
+
+% display album in song header
+\renewcommand{\extendprelude}{
+  {\bfseries\showauthors}
+  {\footnotesize\it\songalbum}
+  \IfStrEq{\songurl}{}{}{
+    \href{\songurl}{\includegraphics[width=.3cm]{internet}}
+  }
+}
+\renewcommand{\extendpostlude}{
+  {\footnotesize%
+    \IfStrEq{\songoriginal}{}{}{
+      \IfStrEq{\@lang}{english}{Original song:}{Chanson originale :}
+      \songoriginal
+    }
+  }
 }
 
 \newlength{\capoheight}

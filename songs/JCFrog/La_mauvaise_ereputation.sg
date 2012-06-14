@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La mauvaise e-réputation}
-  [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
+  [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus,%
+  url={http ://jcfrog.com/jcfrogmp3/},original={Georges Brassens - La mauvaise réputation}]
 
   \cover
   \gtab{Bm}{2:X02210}

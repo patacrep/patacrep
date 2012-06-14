@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Hadopi song III : vivre ou survivre}
-  [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
+  [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus,%
+  url={http ://jcfrog.com/jcfrogmp3/},original={Daniel Balavoine - Vivre ou survivre}]
 
   \cover
   \gtab{Em}{022000}

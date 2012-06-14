@@ -482,6 +482,9 @@
   \IfStrEq{\@lang}{english}{rythm}{}%
   \IfStrEq{\@lang}{french}{rythme}{}%
 }%
+\newcommand*{\Adlib}{%
+  \emph{ad~lib.}%
+}%
 
 \let\musicnoteORIG\musicnote
 \renewcommand{\musicnote}[2][]{%

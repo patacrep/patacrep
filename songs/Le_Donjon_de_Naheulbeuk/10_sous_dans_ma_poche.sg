@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{10 sous dans ma poche}
-  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne,album=Machins de taverne]
+  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne,album=Machins de taverne,%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
   \gtab{Am}{X02210}

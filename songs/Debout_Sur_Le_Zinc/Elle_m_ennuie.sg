@@ -56,9 +56,7 @@
     Elle \[Gm]{m'ennuie} même \[A7]pendant la \[Dm]nuit
   \end{chorus}
 
-  \begin{bridge}
-    \musicnote{\nolyrics \[Dm Gm A7 Dm \rep{2}]}
-  \end{bridge}
+  \musicnote{\Bridge : \nolyrics \[Dm Gm A7 Dm \rep{2}]}
 
   \begin{repeatedchords}
     \begin{verse}

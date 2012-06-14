@@ -11,16 +11,17 @@
   \gtab{C}{X32010}
   \gtab{F}{1:022100}
   \gtab{E}{022100}
+  \gtab{Dm}{XX0231}
   \gtab{G#}{4:022100}
   \ifnorepeatchords%
-  \gtab{G6}{320000}
+  \gtab*{G6}{320000}
   \gtab{F#7}{2:020100}
   \else%
   \gtab{Cm}{3:X02210}
   \gtab{E&}{3:X32010}
   \gtab{B&}{1:X02220}
   \gtab{A&}{4:022100}
-  \gtab{B&6}{3:020000}
+  \gtab*{B&6}{3:020000}
   \gtab{A7}{X02020}
   \fi%
 

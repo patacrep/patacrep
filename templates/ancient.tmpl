@@ -78,6 +78,7 @@
 \renewcommand{\idxbgcolor}{IndexBgColor}
 
 \renewcommand{\printchord}[1]{\mdseries\ttfamily\upshape#1}
+
 \pagestyle{empty}
 
 \begin{document}
@@ -89,7 +90,8 @@
 \notenamesin{A}{B}{C}{D}{E}{F}{G}
 \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
 
-\songsection{Liste des chansons}
+\phantomsection
+\addcontentsline{toc}{section}{Liste des chansons}
 \begin{songs}{titleidx,authidx}
   \getsongslist
 \end{songs}

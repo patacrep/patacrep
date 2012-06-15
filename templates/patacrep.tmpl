@@ -46,7 +46,8 @@
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
-\documentclass[\getbooktype,\getinstruments,\getbookoptions,\getmainfontsize]{tex/crepbook}
+\makeatletter\def\input@path{{tex/}}
+\documentclass[\getbooktype,\getinstruments,\getbookoptions,\getmainfontsize]{crepbook}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}

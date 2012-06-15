@@ -72,6 +72,7 @@
 \RequirePackage{licence}
 \RequirePackage{xstring}
 \RequirePackage{ifthen}
+\RequirePackage{framed}
 
 \iflyric%
   \tabsfalse%
@@ -502,12 +503,25 @@
   }
 }
 
+\renewcommand{\FrameCommand}[1]{
+  \begin{tikzpicture}
+    \node[rectangle] (rect) {
+      \begin{minipage}{.8\textwidth}
+        #1
+      \end{minipage}
+    };
+    \draw[very thick, dashed] (rect.north west) -- (rect.south west);
+  \end{tikzpicture}
+}
+
 \newenvironment{bridge}{%
-  \musicnote{\Bridge}%
-  \vspace{-.3cm}%
-  \begin{verse*}%
-}{%
-  \end{verse*}
+  \begin{framed}
+    \vspace{-.4cm}
+    \begin{verse*}
+}{
+    \end{verse*}
+    \vspace{-.2cm}
+  \end{framed}
 }
 
 %% \SB@chordsoff with a greater for the line spacing

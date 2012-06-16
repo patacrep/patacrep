@@ -33,7 +33,6 @@ def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
 
 def songslist(songs):
-    directories = set(["img/"] + map(lambda x: "songs/" + os.path.dirname(x), songs))
     result = [ '\\input{{songs/{0}}}'.format(s.replace("\\","/").strip()) for s in songs ]
     return '\n'.join(result)
 

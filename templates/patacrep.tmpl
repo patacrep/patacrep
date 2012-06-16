@@ -38,7 +38,7 @@
 %%:  {"name":"picture", "description":"Picture", "type":"file", "default":"feel-the-music"},
 %%:  {"name":"picturecopyright", "description":"Copyright", "default":"foxygamergirl@deviantart.com"},
 %%:  {"name":"footer", "description":"Footer", "default":"\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}"},
-%%:  {"name":"license", "description":"License", "default":"\\input{license.tex}"},
+%%:  {"name":"license", "description":"License", "default":"license.tex"},
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
 %%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#D1E4AE"},
@@ -88,6 +88,11 @@
 }{}
 
 \maketitle
+
+% licence
+\newpage
+\input{\getlicense}
+\newpage
 
 % indexes
 \IfStrEq{\getlang}{english}{

@@ -192,9 +192,6 @@
  \@footer
 
  \thispagestyle{empty}
- \newpage
- \@licence
- \newpage
 }
 
 \makeatletter

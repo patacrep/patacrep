@@ -61,6 +61,7 @@ clean:
 	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm)
 	@rm -f *.sbx *.sxd *.sxc
 	@rm -f *.pyc
+	@rm -rf covers/
 
 cleanall: clean
 	@rm -f $(PDF)

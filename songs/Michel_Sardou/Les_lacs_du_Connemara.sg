@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les lacs du Connemara}
-  [by=Michel Sardou, cov=les-grandes-chansons,album=Les grandes chansons]
+  [by={Michel Sardou}, cov={les-grandes-chansons},album={Les grandes chansons}]
 
   \cover
   \gtab{F}{1:022100}

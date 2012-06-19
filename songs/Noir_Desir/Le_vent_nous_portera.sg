@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le vent nous portera}
-  [by=Noir Désir,cov=des-visages-des-figures,album=Des visages des figures]
+  [by={Noir Désir},cov={des-visages-des-figures},album={Des visages des figures}]
 
   \cover
   \gtab{Em}{7:X02210}

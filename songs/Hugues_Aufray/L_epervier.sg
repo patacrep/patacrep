@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'épervier}
-  [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
+  [by={Hugues Aufray},cov={la-terre-est-si-belle},album={La Terre est si belle}]
 
   \cover
   \gtab{C}{332010}

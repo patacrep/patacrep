@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{SNCeuFeu}
-  [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot,%
+  [by={Crep},cov={mon-voisin-le-manchot},album={Mon voisin le manchot},%
   url={http://www.patacrep.com/static3/audio}]
 
   \cover

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Bidon}
-  [by=Alain Souchon,cov=bidon,album=Bidon]
+  [by={Alain Souchon},cov={bidon},album={Bidon}]
 
   \cover
   \gtab{A}{X02220}

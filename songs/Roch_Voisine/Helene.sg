@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Hélène}
-  [by=Roch Voisine,cov=helene,album=Hélène]
+  [by={Roch Voisine},cov={helene},album={Hélène}]
 
   \cover
   \gtab{Em}{022000}

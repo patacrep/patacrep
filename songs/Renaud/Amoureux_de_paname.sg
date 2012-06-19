@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Amoureux de Paname}
-  [by=Renaud,cov=amoureux-de-paname,album=Amoureux de Paname]
+  [by={Renaud},cov={amoureux-de-paname},album={Amoureux de Paname}]
 
   \cover
   \capo{2}

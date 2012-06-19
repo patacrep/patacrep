@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{J'préfère 100 fois}
-  [by=Sinsémilia,cov=resistances,album=Résistances]
+  [by={Sinsémilia},cov={resistances},album={Résistances}]
 
   \cover
   \gtab{F}{1:022100}

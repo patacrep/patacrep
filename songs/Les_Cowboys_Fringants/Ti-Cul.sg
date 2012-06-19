@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Ti-Cul}
-  [by=Les Cowboys Fringants,cov=la-grand-messe,album=La grand messe]
+  [by={Les Cowboys Fringants},cov={la-grand-messe},album={La grand messe}]
 
   \cover
   \capo{5}

@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Rango theme song}
-  [by=Los Lobos,cov=rango,album=Rango]
+  [by={Los Lobos},cov={rango},album={Rango}]
 
   \cover
   \gtab{Dm}{5:X02210}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Jessica}
-  [by=As de Trêfle,cov=merci-bonsoir,album=Merci bonsoir]
+  [by={As de Trêfle},cov={merci-bonsoir},album={Merci bonsoir}]
 
   \cover
   \gtab{C}{X32010}

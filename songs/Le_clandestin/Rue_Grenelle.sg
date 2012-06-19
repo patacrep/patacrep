@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Rue Grenelle}
-  [by=Le clandestin,album=Le clandestin,cov=le-clandestin]
+  [by={Le clandestin},album={Le clandestin},cov={le-clandestin}]
 
   \cover
   \gtab{F}{1:022100}

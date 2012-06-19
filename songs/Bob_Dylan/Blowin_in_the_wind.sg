@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Blowin' in the wind}
-  [by=Bob Dylan,cov=the-freewheelin,album=The freewheelin]
+  [by={Bob Dylan},cov={the-freewheelin},album={The freewheelin}]
 
   \cover
   \gtab{D}{XX0232}

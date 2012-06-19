@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'apologie}
-  [by=Matmatah,cov=la-ouache,album=La ouache]
+  [by={Matmatah},cov={la-ouache},album={La ouache}]
 
   \cover
   \gtab{Fm}{8:X02210}

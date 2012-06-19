@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Your name, my game}
-  [by=Herman Düne,cov=giant,album=Giant]
+  [by={Herman Düne},cov={giant},album={Giant}]
 
   \cover
   \gtab{F#m}{2:022000}

@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Winter lady}
-  [by=Leonard Cohen,cov=songs-of-leonard-cohen,album=Songs of Leonard Cohen]
+  [by={Leonard Cohen},cov={songs-of-leonard-cohen},album={Songs of Leonard Cohen}]
 
   \cover
   % Note: la notation « N: » dans les accords suivants dénote d'un

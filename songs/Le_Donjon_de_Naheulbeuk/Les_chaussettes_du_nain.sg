@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les chaussettes du nain}
-  [by=Le Donjon de Naheulbeuk,cov=grimoire-audio,album=Grimoire audio,%
+  [by={Le Donjon de Naheulbeuk},cov={grimoire-audio},album={Grimoire audio},%
   url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover

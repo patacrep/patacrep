@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les prisons de Nantes}
-  [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
+  [by={Tri Yann},cov={le-meilleur-de-tri-yann},album={Le meilleur de Tri Yann}]
 
   \cover
   \gtab{Am}{X02210}

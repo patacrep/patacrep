@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La valse à mille temps}
-  [by=Jacques Brel,cov=valse,album=La valse à mille temps]
+  [by={Jacques Brel},cov={valse},album={La valse à mille temps}]
 
   \cover
   \gtab{B}{2:X02220}

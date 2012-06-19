@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{A horse with no name}
-  [by=America,cov=America,album=America]
+  [by={America},cov={America},album={America}]
 
   \cover
   \gtab{Em}{022000}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Entre deux taxis}
-  [by=Les Cowboys Fringants,cov=l-expedition,album=L'expédition]
+  [by={Les Cowboys Fringants},cov={l-expedition},album={L'expédition}]
 
   \cover
   \gtab{Em}{022000}

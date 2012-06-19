@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Avancer mes grolles}
-  [by=Tournée Générale,cov=tournee-generale,album=Tournée générale]
+  [by={Tournée Générale},cov={tournee-generale},album={Tournée générale}]
 
   \cover
   \gtab{Dm}{5:X02210}

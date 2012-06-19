@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Padam Padam}
-  [by=Édith Piaf,cov=padam-padam,album=Padam padam]
+  [by={Édith Piaf},cov={padam-padam},album={Padam padam}]
 
   \cover
   \capo{1}

@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Hey Jude!}
-  [by=The Beatles,cov=1,album=1]
+  [by={The Beatles},cov={1},album={1}]
 
   \cover
   \gtab{F}{1:022100}

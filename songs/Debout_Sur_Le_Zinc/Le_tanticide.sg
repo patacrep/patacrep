@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le tanticide}
-  [by=Debout sur le Zinc,cov=recreations,album=Récréations]
+  [by={Debout sur le Zinc},cov={recreations},album={Récréations}]
 
   \cover
   \gtab{Cm}{3:X02210}

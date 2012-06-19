@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Prends garde au loup}
-  [by=Belyscendre,cov=prends-garde-au-loup,album=Prends garde au loup]
+  [by={Belyscendre},cov={prends-garde-au-loup},album={Prends garde au loup}]
 
   \cover
   \gtab{Am}{X02210}

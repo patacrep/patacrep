@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Émilie}
-  [by=Soan,cov=tant-pis,album=Tant pis]
+  [by={Soan},cov={tant-pis},album={Tant pis}]
 
   \cover
   \capo{4}

@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le jour de clarté}
-  [by=Graeme Allwright,cov=le-jour-de-clarte,album=Le jour de clarté]
+  [by={Graeme Allwright},cov={le-jour-de-clarte},album={Le jour de clarté},%
+  original={Peter Yarrow - Very last day}]
 
   \cover
   \gtab{Dm}{XX0231}

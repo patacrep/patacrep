@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Il jouait du piano debout}
-  [by=France Gall,cov=paris-france,album=Paris -- France]
+  [by={France Gall},cov={paris-france},album={Paris -- France}]
 
   \cover
   \capo{1}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Salut manouche}
-  [by=Renaud,cov=ma-gonzesse,album=Ma gonzesse]
+  [by={Renaud},cov={ma-gonzesse},album={Ma gonzesse}]
 
   \cover
   \gtab{Em}{022000}

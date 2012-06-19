@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Aline}
-  [by=Christophe,cov=aline,album=Aline]
+  [by={Christophe},cov={aline},album={Aline}]
 
   \cover
   \gtab{C}{X32010}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Amsterdam}
-  [by=Jacques Brel,cov=amsterdam,album=Amsterdam]
+  [by={Jacques Brel},cov={amsterdam},album={Amsterdam}]
 
   \cover
   \gtab{Am}{X02210}

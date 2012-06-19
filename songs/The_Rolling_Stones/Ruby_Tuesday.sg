@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Ruby Tuesday}
-  [by=The Rolling Stones,cov=hot-rocks,album=Hot rocks]
+  [by={The Rolling Stones},cov={hot-rocks},album={Hot rocks}]
 
   \cover
   \gtab{Am}{X02210}

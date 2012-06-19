@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Dans tes yeux}
-  [by=Anis,cov=rodeo-boulevard,album=Rodéo Boulevard]
+  [by={Anis},cov={rodeo-boulevard},album={Rodéo Boulevard}]
 
   \cover
   \gtab{Dm}{5:X02210}

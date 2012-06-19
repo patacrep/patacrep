@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'oiseau bleu}
-  [by=Dessins Animés,cov=oiseau-bleu,album=L'oiseau bleu]
+  [by={Dessins Animés},cov={oiseau-bleu},album={L'oiseau bleu}]
 
   \cover
   \gtab{A}{X02220}

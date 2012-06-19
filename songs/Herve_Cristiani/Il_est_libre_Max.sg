@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Il est libre Max}
-  [by=Hervé Cristiani,cov=libre-max,album=Il est libre Max]
+  [by={Hervé Cristiani},cov={libre-max},album={Il est libre Max}]
 
   \cover
   \gtab{Em}{022000}

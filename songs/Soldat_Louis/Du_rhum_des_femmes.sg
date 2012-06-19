@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Du rhum, des femmes}
-  [by=Soldat Louis,cov=premiere-bordee,album=Première bordée]
+  [by={Soldat Louis},cov={premiere-bordee},album={Première bordée}]
 
   \cover
   \gtab{C}{X32010}

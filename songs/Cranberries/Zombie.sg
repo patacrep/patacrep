@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Zombie}
-  [by=Cranberries,cov=no-need-to-argue,album=No need to argue]
+  [by={Cranberries},cov={no-need-to-argue},album={No need to argue}]
 
   \cover
   \gtab{Em}{022000}

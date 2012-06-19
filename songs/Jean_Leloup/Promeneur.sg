@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Promeneur}
-  [by=Jean Leloup,cov=la-vallee-des-reputations,album=La vallée des réputations]
+  [by={Jean Leloup},cov={la-vallee-des-reputations},album={La vallée des réputations}]
 
   \cover
   \gtab{Em}{022000}

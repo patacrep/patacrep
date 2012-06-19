@@ -1,14 +1,13 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Jolie bouteille}
-  [by=Graeme Allwright,cov=emmene-moi,album=Emmène-moi]
-
+  [by={Graeme Allwright},cov={emmene-moi},album={Emmène-moi},%
+  original={Tom Paxton - Bottle of wine}]
 
   \cover
   \gtab{C}{X32010}
   \gtab{G7}{320001}
   \gtab{F}{1:022100}
-
 
   \begin{chorus}
     \[C]Jolie bouteille, sacrée bouteille

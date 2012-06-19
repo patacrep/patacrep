@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{The wind cries Mary}
-  [by=Jimi Hendrix,cov=are-you-experienced,album=Are you experienced]
+  [by={Jimi Hendrix},cov={are-you-experienced},album={Are you experienced}]
 
   \cover
   \gtab*{E&}{6:X0222X}

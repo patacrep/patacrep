@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sois fainéant}
-  [by=Coluche,cov=integral,album=Intégral]
+  [by={Coluche},cov={integral},album={Intégral}]
 
   \cover
   \gtab{D}{XX0232}

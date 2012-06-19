@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Morts les enfants}
-  [by=Renaud,cov=mistral-gagnant,album=Mistral Gagnant]
+  [by={Renaud},cov={mistral-gagnant},album={Mistral Gagnant}]
 
   \cover
   \gtab{Dm}{XX0231}

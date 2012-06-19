@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Laisse béton}
-  [by=Renaud,cov=laisse-beton,album=Laisse béton]
+  [by={Renaud},cov={laisse-beton},album={Laisse béton}]
 
   \cover
   \gtab{Bm}{2:X02210}

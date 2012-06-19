@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mon testament}
-  [by=Oldelaf,cov=le-monde-est-beau,album=Le monde est beau]
+  [by={Oldelaf},cov={le-monde-est-beau},album={Le monde est beau}]
 
   \cover
   \gtab{Dm}{XX0231}

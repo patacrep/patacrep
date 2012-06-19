@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Nanana de l'elfe}
-  [by=Le Donjon de Naheulbeuk,cov=t-as-pas-le-niveau,album=T'as pas le niveau,%
+  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
   url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover

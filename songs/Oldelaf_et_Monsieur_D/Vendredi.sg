@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Vendredi}
-  [by=Oldelaf,cov=le-monde-est-beau,album=Le monde est beau]
+  [by={Oldelaf},cov={le-monde-est-beau},album={Le monde est beau}]
 
   \cover
   \gtab{Am}{5:022000}

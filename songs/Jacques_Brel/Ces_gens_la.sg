@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Ces gens-là}
-  [by=Jacques Brel,cov=ces-gens-la,album=Ces gens-là]
+  [by={Jacques Brel},cov={ces-gens-la},album={Ces gens-là}]
 
   \cover
   \gtab{A&m}{4:022000}

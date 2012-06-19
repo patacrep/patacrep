@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Docteur Renaud, Mister Renard}
-  [by=Renaud,cov=boucan-d-enfer,album=Boucan d'enfer]
+  [by={Renaud},cov={boucan-d-enfer},album={Boucan d'enfer}]
 
   \cover
   \gtab{Am}{X02210}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'horloge}
-  [by=Les Cowboys Fringants,cov=que-du-vent,album=Que du vent]
+  [by={Les Cowboys Fringants},cov={que-du-vent},album={Que du vent}]
 
   \cover
   \gtab{Em}{022000}

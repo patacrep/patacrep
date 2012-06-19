@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les jolies colonies de vacances}
-  [by=Pierre Perret,cov=pierrot-a-l-olympia,album=Pierrot à l'Olympia]
+  [by={Pierre Perret},cov={pierrot-a-l-olympia},album={Pierrot à l'Olympia}]
 
   \cover
   \gtab{C}{3:X02220}

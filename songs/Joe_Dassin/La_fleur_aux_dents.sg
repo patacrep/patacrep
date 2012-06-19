@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La fleur aux dents}
-  [by=Joe Dassin,cov=le-meilleur-de-joe-dassin,album=Le meilleur de Joe Dassin]
+  [by={Joe Dassin},cov={le-meilleur-de-joe-dassin},album={Le meilleur de Joe Dassin}]
 
   \cover
   \gtab{C}{X32010}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sur le fil}
-  [by=Debout sur le Zinc,cov=la-fuite-en-avant,album=La fuite en avant]
+  [by={Debout sur le Zinc},cov={la-fuite-en-avant},album={La fuite en avant}]
 
   \cover
   \gtab{F}{1:022100}

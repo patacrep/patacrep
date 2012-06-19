@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'escargot malheureux}
-  [by=Vincent Malone,cov=le-roi-des-papas,album=Le roi des Papas]
+  [by={Vincent Malone},cov={le-roi-des-papas},album={Le roi des Papas}]
 
   \cover
   \gtab{C}{X32010}

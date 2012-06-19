@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Hélas madame}
-  [by=Belyscendre,cov=belles-embarquez,album=Belles Embarquez !]
+  [by={Belyscendre},cov={belles-embarquez},album={Belles Embarquez !}]
 
   \cover
   \gtab{Em}{022000}

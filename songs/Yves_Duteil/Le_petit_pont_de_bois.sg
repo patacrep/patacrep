@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le petit pont de bois}
-  [by=Yves Duteil,cov=la-tarantelle,album=La tarantelle]
+  [by={Yves Duteil},cov={la-tarantelle},album={La tarantelle}]
 
   \cover
   \gtab{D}{XX0232}

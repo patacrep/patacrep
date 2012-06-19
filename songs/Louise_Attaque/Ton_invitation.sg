@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ton invitation}
-  [by=Louise Attaque,cov=louise-attaque,album=Louise Attaque]
+  [by={Louise Attaque},cov={louise-attaque},album={Louise Attaque}]
 
   \cover
   \gtab{Bm}{2:X02210}

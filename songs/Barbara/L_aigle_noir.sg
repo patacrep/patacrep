@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'aigle noir}
-  [by=Barbara,cov=l-aigle-noir,album=L'aigle noir]
+  [by={Barbara},cov={l-aigle-noir},album={L'aigle noir}]
 
   \cover
   \gtab{F}{1:022100}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Les projets}
-  [by=La Tête à Toto,cov=la-tete-a-toto,album=La Tête à Toto]
+  [by={La Tête à Toto},cov={la-tete-a-toto},album={La Tête à Toto}]
 
   \cover
   \gtab{Am}{X02210}

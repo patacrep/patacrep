@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le tango du viagra}
-  [by=Les amis d'ta femme,cov=font-la-difference,album=Font la différence]
+  [by={Les amis d'ta femme},cov={font-la-difference},album={Font la différence}]
 
   \cover
   \gtab{Bm}{2:X02210}

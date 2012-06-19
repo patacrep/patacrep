@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Wonderwall}
-  [by=Oasis,cov=morning-glory,album=Morning glory]
+  [by={Oasis},cov={morning-glory},album={Morning glory}]
 
   \cover
   \capo{2}

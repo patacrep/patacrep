@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Punaise}
-  [by=Thomas Fersen,album=Trois petits tours,cov=trois-petits-tours]
+  [by={Thomas Fersen},album={Trois petits tours},cov={trois-petits-tours}]
 
   \cover
   \gtab{Bm}{2:X02210}

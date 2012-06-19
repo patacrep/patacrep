@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Creep}
-  [by=Radiohead,cov=pablo-honey,album=Pablo honey]
+  [by={Radiohead},cov={pablo-honey},album={Pablo honey}]
 
   \cover
   \gtab{G}{3:022100}

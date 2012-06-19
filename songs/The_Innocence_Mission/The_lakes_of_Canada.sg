@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{The lakes of Canada}
-  [by=The Innocence Mission,cov=birds-of-my-neighborhood,album=Birds of my neighborhood]
+  [by={The Innocence Mission},cov={birds-of-my-neighborhood},album={Birds of my neighborhood}]
 
   \cover
   \capo{5}

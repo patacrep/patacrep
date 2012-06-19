@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Léa}
-  [by=Louise Attaque,cov=louise-attaque,album=Louise Attaque]
+  [by={Louise Attaque},cov={louise-attaque},album={Louise Attaque}]
 
   \cover
   \gtab{Am}{X02210}

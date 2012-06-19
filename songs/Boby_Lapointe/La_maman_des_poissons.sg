@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La maman des poissons}
-  [by=Boby Lapointe,cov=l-integrale,album=L'intégrale]
+  [by={Boby Lapointe},cov={l-integrale},album={L'intégrale}]
 
   \cover
   \gtab{G}{320003}

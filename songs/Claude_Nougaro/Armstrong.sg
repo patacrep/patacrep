@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Armstrong}
-  [by=Claude Nougaro,cov=toulouse,album=Toulouse]
+  [by={Claude Nougaro},cov={toulouse},album={Toulouse}]
 
   \cover
   \capo{3}

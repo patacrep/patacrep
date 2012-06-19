@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ballade de Jim}
-  [by=Alain Souchon,cov=comme-vous-voulez,album=C'est comme vous voulez]
+  [by={Alain Souchon},cov={comme-vous-voulez},album={C'est comme vous voulez}]
 
   \cover
   \capo{3}

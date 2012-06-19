@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Pauvre planète}
-  [by=As de Trêfle,cov=houlala,album=Houlala]
+  [by={As de Trêfle},cov={houlala},album={Houlala}]
 
   \cover
   \gtab{G}{320003}

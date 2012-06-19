@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Une chanson douce}
-  [by=Henri Salvador,cov=succes,album=Ses plus grands succès]
+  [by={Henri Salvador},cov={succes},album={Ses plus grands succès}]
 
   \cover
   \gtab{C}{X32010}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Rayon de soleil}
-  [by=William Baldé,cov=william-balde-en-corps-etranger,album=En corps étranger]
+  [by={William Baldé},cov={william-balde-en-corps-etranger},album={En corps étranger}]
 
   \cover
   \gtab{G}{320030}

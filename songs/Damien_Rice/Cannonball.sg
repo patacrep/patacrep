@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Cannonball}
-  [by=Damien Rice,cov=o,album=O]
+  [by={Damien Rice},cov={o},album={O}]
 
   \cover
   \gtab{B&m}{1:X02210}

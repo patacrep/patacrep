@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Bambi}
-  [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+  [by={Thomas Fersen},cov={piece-montee-des-grands-jours},album={Pièce montée des grands jours}]
 
   \cover
   \gtab{Dm}{XX0231}

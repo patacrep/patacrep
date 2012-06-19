@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'auto-stop}
-  [by=Maxime Le Forestier,cov=saltimbanque,album=Saltimbanque]
+  [by={Maxime Le Forestier},cov={saltimbanque},album={Saltimbanque}]
 
   \cover
   \gtab{C}{X32010}

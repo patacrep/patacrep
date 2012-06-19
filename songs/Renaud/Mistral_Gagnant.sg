@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mistral gagnant}
-  [by=Renaud,cov=mistral-gagnant,album=Mistral gagnant]
+  [by={Renaud},cov={mistral-gagnant},album={Mistral gagnant}]
 
   \cover
   \gtab{Bm}{2:X02210}

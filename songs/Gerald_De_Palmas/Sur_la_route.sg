@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sur la route}
-  [by=Gérald De Palmas,cov=la-derniere-annee,album=La dernière année]
+  [by={Gérald De Palmas},cov={la-derniere-annee},album={La dernière année}]
 
   \cover
   \capo{2}

@@ -31,6 +31,7 @@ word_dic = {
 ##: Punctuation
 "’": "'",
 "‘": "'",
+"´": "'",
 "Ca ": "Ça ",
 "...": "{\\dots}",
 "…": "{\\dots}",
@@ -168,6 +169,8 @@ def language_rules(string):
       string = re.sub("(?P<last_char>\S)(?P<symbol>[!?;:])","\g<last_char> \g<symbol>", string)
       #... except for gtabs macros with capos
       string = re.sub("(?P<gtab>tab.?{.*)\s:","\g<gtab>:", string)
+      #... and for urls
+      string = re.sub("http\s:","http:", string)
       #and apply a second time for cases like \gtab{Gm}{10:X02210:}
       string = re.sub("(?P<gtab>tab.?{.*)\s:","\g<gtab>:", string)
       #ensure no spaces after symbols (

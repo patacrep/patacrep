@@ -64,12 +64,15 @@
 \definecolor{tango-blue-3}{HTML}{204a87}
 \RequirePackage[bookmarks,
   bookmarksopen,
+  hyperfigures=true,
   colorlinks=true,
   linkcolor=tango-green-3,
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
 \RequirePackage{licence}
 \RequirePackage{xstring}
+\RequirePackage{ifthen}
+\RequirePackage{framed}
 
 \iflyric%
   \tabsfalse%
@@ -189,9 +192,6 @@
  \@footer
 
  \thispagestyle{empty}
- \newpage
- \@licence
- \newpage
 }
 
 \makeatletter
@@ -204,6 +204,8 @@
 \newcommand{\songalbum}{}
 \newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
+\newsongkey{url}{\let\songurl\@empty}{\def\songurl{#1}}
+\newsongkey{original}{\let\songoriginal\@empty}{\def\songoriginal{#1}}
 \newcommand\cover{%
   \ifpictures%
     \ifx\songcover\@empty\else%
@@ -213,6 +215,23 @@
       }%
     \fi%
   \fi%
+}
+
+% display album in song header
+\renewcommand{\extendprelude}{
+  {\bfseries\showauthors}
+  {\footnotesize\it\songalbum}
+  \IfStrEq{\songurl}{}{}{
+    \href{\songurl}{\includegraphics[width=.3cm]{internet}}
+  }
+}
+\renewcommand{\extendpostlude}{
+  {\footnotesize%
+    \IfStrEq{\songoriginal}{}{}{
+      \IfStrEq{\@lang}{english}{Original song:}{Chanson originale :}
+      \songoriginal
+    }
+  }
 }
 
 \newlength{\capoheight}
@@ -338,10 +357,10 @@
 % Horizontal space reserved to verse number
 \setlength{\versenumwidth}{1em}
 % Modifier to the space between consecutive lines of lyrics
-\baselineadj=-2pt plus 1pt minus 1pt
+\baselineadj=-6pt plus 0pt minus 2pt
 % Space between verses and chorus
 \versesep=6pt plus 2pt minus 2pt
-%lyrics font
+% lyrics font
 \renewcommand{\lyricfont}{\normalfont\normalsize}
 
 
@@ -429,38 +448,41 @@
 \fi%
 %% End of tabs.sty file
 
-\newcommand{\Intro}{
-  \IfStrEq{\@lang}{english}{intro}{}
-  \IfStrEq{\@lang}{french}{intro}{}
-}
-\newcommand{\Outro}{
-  \IfStrEq{\@lang}{english}{outro}{}
-  \IfStrEq{\@lang}{french}{outro}{}
-}
-\newcommand{\Bridge}{
-  \IfStrEq{\@lang}{english}{bridge}{}
-  \IfStrEq{\@lang}{french}{pont}{}
-}
-\newcommand{\Chorus}{
-  \IfStrEq{\@lang}{english}{chorus}{}
-  \IfStrEq{\@lang}{french}{refrain}{}
-}
-\newcommand{\Verse}{
-  \IfStrEq{\@lang}{english}{verse}{}
-  \IfStrEq{\@lang}{french}{couplet}{}
-}
-\newcommand{\Solo}{
-  \IfStrEq{\@lang}{english}{solo}{}
-  \IfStrEq{\@lang}{french}{solo}{}
-}
-\newcommand{\Pattern}{
-  \IfStrEq{\@lang}{english}{pattern}{}
-  \IfStrEq{\@lang}{french}{motif}{}
-}
-\newcommand{\Rythm}{
-  \IfStrEq{\@lang}{english}{rythm}{}
-  \IfStrEq{\@lang}{french}{rythme}{}
-}
+\newcommand*{\Intro}{%
+  \IfStrEq{\@lang}{english}{intro}{}%
+  \IfStrEq{\@lang}{french}{intro}{}%
+}%
+\newcommand*{\Outro}{%
+  \IfStrEq{\@lang}{english}{outro}{}%
+  \IfStrEq{\@lang}{french}{outro}{}%
+}%
+\newcommand*{\Bridge}{%
+  \IfStrEq{\@lang}{english}{bridge}{}%
+  \IfStrEq{\@lang}{french}{pont}{}%
+}%
+\newcommand*{\Chorus}{%
+  \IfStrEq{\@lang}{english}{chorus}{}%
+  \IfStrEq{\@lang}{french}{refrain}{}%
+}%
+\newcommand*{\Verse}{%
+  \IfStrEq{\@lang}{english}{verse}{}%
+  \IfStrEq{\@lang}{french}{couplet}{}%
+}%
+\newcommand*{\Solo}{%
+  \IfStrEq{\@lang}{english}{solo}{}%
+  \IfStrEq{\@lang}{french}{solo}{}%
+}%
+\newcommand*{\Pattern}{%
+  \IfStrEq{\@lang}{english}{pattern}{}%
+  \IfStrEq{\@lang}{french}{motif}{}%
+}%
+\newcommand*{\Rythm}{%
+  \IfStrEq{\@lang}{english}{rythm}{}%
+  \IfStrEq{\@lang}{french}{rythme}{}%
+}%
+\newcommand*{\Adlib}{%
+  \emph{ad~lib.}%
+}%
 
 \let\musicnoteORIG\musicnote
 \renewcommand{\musicnote}[2][]{%
@@ -478,12 +500,25 @@
   }
 }
 
+\renewcommand{\FrameCommand}[1]{
+  \begin{tikzpicture}
+    \node[rectangle] (rect) {
+      \begin{minipage}{.8\textwidth}
+        #1
+      \end{minipage}
+    };
+    \draw[very thick, dashed] (rect.north west) -- (rect.south west);
+  \end{tikzpicture}
+}
+
 \newenvironment{bridge}{%
-  \musicnote{\Bridge}%
-  \vspace{-.3cm}%
-  \begin{verse*}%
-}{%
-  \end{verse*}
+  \begin{framed}
+    \vspace{-.4cm}
+    \begin{verse*}
+}{
+    \end{verse*}
+    \vspace{-.2cm}
+  \end{framed}
 }
 
 %% \SB@chordsoff with a greater for the line spacing
@@ -522,4 +557,18 @@
     \fi%
   }
 \fi
+
+\def\removefirstch@r#1{}
+\newcommand{\transposition}[1]{%
+  \ifnorepeatchords%
+    \musicnote{%
+      \IfStrEq{\@lang}{english}{transposition:~}{}%
+      \IfStrEq{\@lang}{french}{transposition~:~}{}%
+      \ifthenelse{#1>0}{#1$\Uparrow$}{\removefirstch@r#1$\Downarrow$}%
+    }%
+  \else%
+    \transpose{#1}
+  \fi%
+}%
+
 \makeatother

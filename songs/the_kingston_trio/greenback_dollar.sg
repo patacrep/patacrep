@@ -1,0 +1,52 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Greenback Dollar}
+  [by=The Kingston Trio,cov=new-frontier,album=New Frontier]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{G}{320033}
+  \gtab{Gm}{310033}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \utab{Em}{0432}
+  \utab{G}{0232}
+  \utab{Gm}{0231}
+  \utab{D}{2220}
+  \utab{C}{0003}
+
+  \begin{verse}
+    \[Em]Some people say I'm a \[G]no count
+    \[Em]Others say I'm no \[G]good
+    But \[Gm]{I'm} just a natural born traveling man
+    \[D]Doin' what I think I \[Em]should, oh yeah
+    \[D]Doin' what I think I \[Em]should
+  \end{verse}
+
+  \begin{chorus}
+    And I \[G]{don't} give a \[C]damn about a \[G]greenback, a \[C]dollar
+    \[G]Spend it \[C]fast as I \[G]can \[C]
+    For a \[G]wailin' \[C]song and a \[G]good gui\[C]tar 
+    The \[D]only thing that I unders\[Em]tand, oh boy
+    The \[D]only thing that I unders\[Em]tand
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]When I was a little \[G]baby
+      My \[Em]Mama said: {\og}Hey \[G]Son
+      \[Gm]Travel where you will and grow to be a man
+      And \[D]sing what must be \[Em]sung, oh boy
+      \[D]Sing what must be \[Em]sung{\fg}
+    \end{verse}
+
+    \begin{verse}
+      \[Em]Now that I'm a \[G]grown man
+      I've \[Em]traveled here and \[G]there
+      I've \[Gm]learned that a bottle of brandy and a song
+      The \[D]only ones who ever \[Em]care, oh boy
+      The \[D]only ones who ever \[Em]care
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

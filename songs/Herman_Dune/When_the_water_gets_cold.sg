@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{When the water gets cold}
-  [by=Herman Düne,cov=giant,album=Giant]
+  [by={Herman Düne},cov={giant},album={Giant}]
 
   \cover
   \capo{4}

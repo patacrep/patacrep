@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Chanson pour l'Auvergnat}
-  [by=Georges Brassens,cov=chanson-pour-l-auvergnat,album=Chanson pour l'Auvergnat]
+  [by={Georges Brassens},cov={chanson-pour-l-auvergnat},album={Chanson pour l'Auvergnat}]
 
   \cover
   \gtab{Bm}{2:X02210}

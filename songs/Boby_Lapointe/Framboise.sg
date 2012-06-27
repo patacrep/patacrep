@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Framboise}
-  [by=Boby Lapointe,cov=l-integrale,album=L'intégrale]
+  [by={Boby Lapointe},cov={l-integrale},album={L'intégrale}]
 
   \cover
   \gtab{Dm}{5:X02210}

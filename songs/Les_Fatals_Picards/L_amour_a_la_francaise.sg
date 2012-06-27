@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'amour à la française}
-  [by=Les Fatals Picards,cov=pamplemousse-mecanique,album=Pamplemousse mécanique]
+  [by={Les Fatals Picards},cov={pamplemousse-mecanique},album={Pamplemousse mécanique}]
 
   \cover
   \gtab{C}{X32010}

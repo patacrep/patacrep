@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mélissa}
-  [by=Julien Clerc,cov=ce-n-est-rien,album=Ce n'est rien]
+  [by={Julien Clerc},cov={ce-n-est-rien},album={Ce n'est rien}]
 
   \cover
   \gtab{E}{022100}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Dragon Ball}
-  [by=Dessins Animés,cov=dragon-ball,album=Dragon Ball]
+  [by={Dessins Animés},cov={dragon-ball},album={Dragon Ball}]
 
   \cover
   \gtab{A}{X02220}

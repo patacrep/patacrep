@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mon p'tit loup}
-  [by=Pierre Perret,cov=pierrot-l-amour,album=L'amour]
+  [by={Pierre Perret},cov={pierrot-l-amour},album={L'amour}]
 
   \cover
   \gtab{Am}{X02210}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{La gare de Caen}
-  [by=Les Ogres de Barback,cov=un-air-deux-familles,album=Un air deux familles]
+  [by={Les Ogres de Barback},cov={un-air-deux-familles},album={Un air deux familles}]
 
   \cover
   \gtab{Dm}{5:X02210}

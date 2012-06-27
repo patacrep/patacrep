@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Tombé du ciel}
-  [by=Jacques Higelin,cov=preferences,album=Préférences]
+  [by={Jacques Higelin},cov={preferences},album={Préférences}]
 
   \cover
   \gtab{Dm}{XX0231}

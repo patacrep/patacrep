@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le jour de clarté}
-  [by=Graeme Allwright,cov=le-jour-de-clarte,album=Le jour de clarté]
+  [by={Graeme Allwright},cov={le-jour-de-clarte},album={Le jour de clarté},%
+  original={Peter Yarrow - Very last day}]
 
   \cover
   \gtab{Dm}{XX0231}
@@ -9,14 +10,14 @@
   \gtab{F}{1:022100}
   \gtab{B&}{X21202}
   \gtab{A7}{X02020}
-  \gtab{Em}{022000}
+  \gtab{Em7}{022030}
   \gtab{G}{320003}
 
   \begin{chorus}
     Quand tous les affamés\[Dm C Dm]
     Et tous les opprimés\[Dm C Dm]
     Entendront tous l'appel\[F C B&]
-    Le cri de liberté\[A7 Em A7]
+    Le cri de liberté\[A7 Em7 A7]
     Toutes les chaînes brisées\[Dm]
     Tom\[C]beront \[B&]pour l'éternité\[Dm C Dm]
   \end{chorus}
@@ -31,45 +32,47 @@
     \[Dm] Il \[F]faut, mes \[G]frères, prépa\[A7]rer
   \end{verse}
 
-  \begin{chorus}
-    Le jour de clarté\[Dm C Dm]
-    Quand tous les affamés\[Dm C Dm]
-    Entendront tous l'appel\[F C B&]
-    \dots
-  \end{chorus}
+  \begin{repeatedchords}
+    \begin{chorus}
+      Le jour de clarté\[Dm C Dm]
+      Quand tous les affamés\[Dm C Dm]
+      Entendront tous l'appel\[F C B&]
+      \dots
+    \end{chorus}
 
-  \begin{verse}
-    On peut discuter sur les Droits de l'Homme
-    Et on peut parler de fraternité
-    Mais qu'les hommes soient jaunes ou blancs ou noirs
-    Ils ont tous la même destinée
-    Laissez vos préjugés
-    Rejetez vos vieilles idées
-    Apprenez seulement l'amitié
-  \end{verse}
+    \begin{verse}
+      On peut dis\[F]cuter sur les \[C]Droits de l'\[Dm]Homme
+      Et on peut \[F]parler de fra\[C]terni\[Dm]té
+      Mais qu'les \[F]hommes soient \[C]jaunes ou \[B&]blancs ou \[C]noirs
+      Ils ont tous \[F]la même desti\[A7]née
+      \[Dm] Lais\[F]sez vos \[G]préju\[A7]gés
+      \[Dm] Reje\[F]tez vos \[G]vieilles i\[A7]dées
+      \[Dm] Ap\[F]prenez \[G]seulement l'ami\[A7]tié
+    \end{verse}
 
-  \begin{verse}
-    Pour que les affamés
-    Et tous les opprimés
-    Entendent tous l'appel
-    \dots
-  \end{verse}
+    \begin{chorus}
+      Pour que les affamés\[Dm C Dm]
+      Et tous les opprimés\[Dm C Dm]
+      Entendent tous l'appel\[F C B&]
+      \dots
+    \end{chorus}
 
-  \begin{verse}
-    On ne veut plus parler de toutes vos guerres
-    Et on n'veut plus parler d'vos champs d'honneur
-    Et on n'veut plus rester les bras croisés
-    Comme de simples spectateurs
-    Dans ce monde divisé
-    Il faut des révoltés
-    Qui n'auront pas peur de crier
-  \end{verse}
+    \begin{verse}
+      On ne veut \[F]plus parler de \[C]toutes vos \[Dm]guerres
+      Et on n'veut \[F]plus parler d'vos \[C]champs d'hon\[Dm]neur
+      Et on n'veut \[F]plus res\[C]ter les \[B&]bras croi\[C]sés
+      Comme de \[F]simples specta\[A7]teurs
+      \[Dm] Dans \[F]ce monde \[G]divi\[A7]sé
+      \[Dm] Il \[F]faut des \[G]révol\[A7]tés
+      \[Dm] Qui \[F]{n'auront} \[G]pas peur de cri\[A7]er
+    \end{verse}
 
-  \begin{chorus}
-    Pour que les affamés
-    Et tous les opprimés
-    Entendent tous l'appel
-    \dots
-  \end{chorus}
+    \begin{chorus}
+      Pour que les affamés\[Dm C Dm]
+      Et tous les opprimés\[Dm C Dm]
+      Entendent tous l'appel\[F C B&]
+      \dots
+    \end{chorus}
+  \end{repeatedchords}
 
 \endsong

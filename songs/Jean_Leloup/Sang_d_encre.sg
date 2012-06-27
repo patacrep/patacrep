@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sang d'encre}
-  [by=Jean Leloup,cov=le-dome,album=Le Dôme]
+  [by={Jean Leloup},cov={le-dome},album={Le Dôme}]
 
   \cover
   \gtab{Em}{022000}

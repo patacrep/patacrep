@@ -1,7 +1,7 @@
 \selectlanguage{spanish}
 \songcolumns{2}
 \beginsong{La Bamba}
-  [by=Ritchie Valens,cov=la-bamba,album=La bamba]
+  [by={Ritchie Valens},cov={la-bamba},album={La bamba}]
 
   \cover
   \gtab{C}{X32010}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{En cloque}
-  [by=Renaud,cov=morgane-de-toi,album=Morgane de toi]
+  [by={Renaud},cov={morgane-de-toi},album={Morgane de toi}]
 
   \cover
   \gtab{C}{X32010}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Paris-Montréal}
-  [by=Les Cowboys Fringants,cov=que-du-vent,album=Que du vent]
+  [by={Les Cowboys Fringants},cov={que-du-vent},album={Que du vent}]
 
   \cover
   \gtab{Am}{X02210}

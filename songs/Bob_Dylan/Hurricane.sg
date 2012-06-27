@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Hurricane}
-  [by=Bob Dylan,cov=desire,album=Desire]
+  [by={Bob Dylan},cov={desire},album={Desire}]
 
   \cover
   \gtab{Am}{X02210}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Chocolat}
-  [by=Thomas Fersen,album=Trois petits tours,cov=trois-petits-tours]
+  [by={Thomas Fersen},album={Trois petits tours},cov={trois-petits-tours}]
 
   \cover
   \gtab{B}{2:X02220}

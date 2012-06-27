@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les vieux copains de la télé}
-  [by=François Corbier,cov=presque-des-hommes,album=Presque des hommes]
+  [by={François Corbier},cov={presque-des-hommes},album={Presque des hommes}]
 
   \cover
   \capo{6}

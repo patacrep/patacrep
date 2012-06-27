@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Russians}
-  [by=JCFrog,cov=pastiche-geek-circus,album=Pastiche geek circus]
+  [by={JCFrog},cov={pastiche-geek-circus},album={Pastiche geek circus},%
+  url={http://jcfrog.com/jcfrogmp3/},original={Sting - Russians}]
 
   \cover
   \capo{3}

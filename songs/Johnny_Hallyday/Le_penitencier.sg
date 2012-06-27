@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le pénitencier}
-  [by=Johnny Hallyday,cov=le-penitencier,album=Le pénitencier]
+  [by={Johnny Hallyday},cov={le-penitencier},album={Le pénitencier},%
+  original={The Animals - The house of the rising sun}]
 
   \cover
   \gtab{Am}{X02210}

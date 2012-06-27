@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Au café de la Paix}
-  [by=Thomas Fersen,cov=les-ronds-de-carotte,album=Les ronds de carotte]
+  [by={Thomas Fersen},cov={les-ronds-de-carotte},album={Les ronds de carotte}]
 
   \cover
   \gtab*{F6}{XX3231}
@@ -85,7 +85,7 @@
       L'an\[F6]nonce dans le jour\[B&]nal
       Est \[Gdim]parue y a un \[F6]mois
       Si \[F6]tu lis ce jour\[B&]nal
-      Tu \[Gdim]te reconnaî\[C7]tras,
+      Tu \[Gdim]te reconnaî\[C7]tras
     \end{chorus}
 
     \begin{verse}

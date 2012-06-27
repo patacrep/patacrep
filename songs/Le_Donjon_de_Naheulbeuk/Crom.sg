@@ -1,0 +1,125 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Crom}
+  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
+
+  \cover
+  \gtab{Em}{X02210}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{G6}{320000}
+
+  \begin{verse}
+    \[Em]Crom
+    C'est le dieu barbare de \[G]la baston
+    \[Em]Crom
+    Des mandales, des chtars, des \[G]gnons \echo{oh oh oh}
+    \[Am]Crom
+    Assis en haut de sa \[C]montagne
+    Quand \[F]les guerriers \[G]meurent, il ri\[Am]cane
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Crom
+      Devenu dieu de ses \[G]propres mains
+      \[Em]Crom
+      Avec des techniques de \[G]bourrin \echo{oh oh oh}
+      \[Am]Crom
+      Il a soloté tous \[C]les donjons
+      Sans \[F]armure et \[G]sans panta\[Am]lon
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Am]Stratégie, diplomatie
+    \[G]Crom n'a jamais rien com\[Am]pris
+    \[F]{C'est} la ba\[G]ston, et voi\[E]là !
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Crom
+      On en parle en mangeant \[G]du poulet \echo{piou \rep{7}}
+      \[Em]Crom
+      Dans les campements qui sentent \[G]les pieds \echo{oh oh oh}
+      \[Am]Crom
+      On le prie mais il n'é\[C]coute pas
+      Car \[F]il s'empiffre \[G]au Valhal\[Am]la
+    \end{verse}
+
+    \begin{chorus}
+      \[Am]{S'équiper} d'une grosse épée
+      \[G]Massacrer à tour de bras
+      \[Am]Écraser ses ennemis
+      \[G]Les voir mourir devant soi
+      \[F]Crom, c'est ce qu'il \[G]veut, et voi\[E]là !
+    \end{chorus}
+
+    \begin{verse}
+      \[Em]Crom
+      A les bras comme des cuisses \[G]de taureau \echo{oh oh oh}
+      \[Em]Crom
+      N'utilise pas trop son \[G]cerveau \echo{oh oh oh}
+      \[Am]Crom
+      A traversé la mer \[C]en nageant
+      A\[F]vec son glaive \[G]entre les \[Am]dents
+    \end{verse}
+
+    \begin{verse}
+      \[Em]Crom
+      A coupé la tête au \[G]Léviathan \echo{oh oh oh}
+      \[Em]Crom
+      A fait pleurer Lara \[G]Fabian \echo{oh oh oh}
+      \[Am]Crom
+      A toujours épaté \[C]Chuck Norris
+      Il \[F]va bien plus \[G]loin quand il \[Am]pisse !
+    \end{verse}
+  \end{repeatedchords}
+
+
+  \begin{bridge}
+    \[Am]Crom
+    A le torse huilé
+    \[Am]Crom
+    Ne s'est jamais peigné
+    \[C]Crom
+    D'un seul regard, il peut \[F]tuer \echo{oh oh oh}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{bridge}
+      \[Am]Crom
+      A des filles à ses pieds
+      \[Am]Crom
+      La main sur son épée
+      \[C]Crom
+      Boit sa bière dans un crâne \[F]éclaté \echo{oh oh oh}
+    \end{bridge}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[Am]Il t'attend \[G6]au Valhal\[E]la
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Crom
+      A gardé le secret \[G]de l'acier
+      \[Em]Crom
+      Et si tu viens lui de\[G]mander \echo{oh oh oh}
+      \[Am]Crom
+      Mais où est donc le se\[C]cret perdu ?
+      Il \[F]te répon\[G]dra : dans ton \[Am]cul !
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    Oh oui c'est Crom !
+  \end{verse*}
+
+\endsong

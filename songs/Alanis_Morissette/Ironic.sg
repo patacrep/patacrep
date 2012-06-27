@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Ironic}
-  [by=Alanis Morissette,cov=ironic,album=Ironic]
+  [by={Alanis Morissette},cov={ironic},album={Ironic}]
 
   \cover
   \capo{2}
@@ -42,11 +42,11 @@
     And everything's going \[E]right
   \end{bridge}
 
-  \begin{verse*}
+  \begin{bridge}
     And \[D]life has a funny \[E]way
     Of helping you out when you think everything's gone \[D]wrong
     And everything blows up in your \[A]face
-  \end{verse*}
+  \end{bridge}
 
 
   \begin{repeatedchords}

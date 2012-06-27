@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Petit Pierrot}
-  [by=Oldelaf et Monsieur~D.,cov=chansons-cons,album=Chansons cons]
+  [by={Oldelaf et Monsieur~D.},cov={chansons-cons},album={Chansons cons}]
 
   \cover
   \gtab{Am}{X02210}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Côté punk}
-  [by=Loic Lantoine,cov=badaboum,album=Badaboum]
+  [by={Loic Lantoine},cov={badaboum},album={Badaboum}]
 
   \cover
   \gtab{Am}{5:022000}

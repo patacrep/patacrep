@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La compagnie des lapins bleus}
-  [by=Philippe Chatel \& Robert Charlebois,cov=emilie-jolie,album=Émilie jolie]
+  [by={Philippe Chatel \& Robert Charlebois},cov={emilie-jolie},album={Émilie jolie}]
 
   \cover
   \gtab{F}{1:022100}

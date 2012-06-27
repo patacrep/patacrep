@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{House of the rising sun}
-  [by=The Animals,cov=the-animals,album=The animals]
+  [by={The Animals},cov={the-animals},album={The animals}]
 
   \cover
   \gtab{Am}{X02210}

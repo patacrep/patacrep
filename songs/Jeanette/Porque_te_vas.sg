@@ -1,7 +1,7 @@
 \selectlanguage{spanish}
 \songcolumns{2}
 \beginsong{Porque te vas}
-  [by=Jeanette,cov=jeanette,album=Jeanette]
+  [by={Jeanette},cov={jeanette},album={Jeanette}]
 
   \cover
   \gtab{Gm}{3:022000}

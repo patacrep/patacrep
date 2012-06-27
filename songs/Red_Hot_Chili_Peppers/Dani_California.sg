@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Dani California}
-  [by=Red Hot Chili Peppers,cov=stadium-arcadium,album=Stadium Arcadium]
+  [by={Red Hot Chili Peppers},cov={stadium-arcadium},album={Stadium Arcadium}]
 
   \cover
   \gtab{Am}{X02210}

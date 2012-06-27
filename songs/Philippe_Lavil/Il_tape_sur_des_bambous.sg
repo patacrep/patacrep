@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Il tape sur des bambous}
-  [by=Philippe Lavil,cov=il-tape-sur-des-bambous,album=Il tape sur des bambous]
+  [by={Philippe Lavil},cov={il-tape-sur-des-bambous},album={Il tape sur des bambous}]
 
   \cover
   \gtab{Em}{022000}

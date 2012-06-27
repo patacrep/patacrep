@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{No milk today}
-  [by=Herman's Hermits,cov=original-hits,album=Original hits]
+  [by={Herman's Hermits},cov={original-hits},album={Original hits}]
 
   \cover
   \gtab{Am}{X02210}
@@ -41,7 +41,9 @@
   \begin{bridge}
     \[A]But all that's \[E]left is a \[D]place dark and \[E]lonely
     \[A]A terraced \[E]house in a \[D]mean street back of \[F#m]town
+  \end{bridge}
 
+  \begin{bridge}
     \[A]Becomes a \[E]shrine when I \[D]think of you \[E]only
     \[D]Just two up two \[E]down
   \end{bridge}

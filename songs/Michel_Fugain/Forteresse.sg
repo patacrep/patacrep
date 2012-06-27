@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Forteresse}
-  [by=Michel Fugain,cov=sucre-sale,album=Sucré-Salé]
+  [by={Michel Fugain},cov={sucre-sale},album={Sucré-Salé}]
 
   \cover
   \capo{3}

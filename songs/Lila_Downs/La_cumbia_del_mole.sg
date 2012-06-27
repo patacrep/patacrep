@@ -1,7 +1,7 @@
 \selectlanguage{spanish}
 \songcolumns{2}
 \beginsong{La cumbia del mole}
-  [by=Lila Downs,cov=la-cantina,album=La cantina]
+  [by={Lila Downs},cov={la-cantina},album={La cantina}]
 
   \cover
   \gtab{Em}{7:X0221}

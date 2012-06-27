@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Je t'emmène au vent}
-  [by=Louise Attaque,cov=louise-attaque,album=Louise Attaque]
+  [by={Louise Attaque},cov={louise-attaque},album={Louise Attaque}]
 
   \cover
   \capo{4}

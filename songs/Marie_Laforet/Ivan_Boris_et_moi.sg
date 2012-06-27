@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ivan, Boris et moi}
-  [by=Marie Laforêt,cov=succes,album=Succès]
+  [by={Marie Laforêt},cov={succes},album={Succès}]
 
   \cover
   \gtab{Gm}{3:022000}

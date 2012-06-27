@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Sad Lisa}
-  [by=Cat Stevens,cov=tea-for-the-tillerman,album=Tea for the tillerman]
+  [by={Cat Stevens},cov={tea-for-the-tillerman},album={Tea for the tillerman}]
 
   \cover
   \gtab{Em}{022000}

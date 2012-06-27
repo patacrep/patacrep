@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mes emmerdes}
-  [by=Charles Aznavour,cov=40-chansons-d-or,album=40 chansons d'or]
+  [by={Charles Aznavour},cov={40-chansons-d-or},album={40 chansons d'or}]
 
   \cover
   \capo{3}

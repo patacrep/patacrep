@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Zaza}
-  [by=Thomas Fersen,cov=le-pavillon-des-fous,album=Le pavillon des fous]
+  [by={Thomas Fersen},cov={le-pavillon-des-fous},album={Le pavillon des fous}]
 
   \cover
   \gtab{Em}{022000}

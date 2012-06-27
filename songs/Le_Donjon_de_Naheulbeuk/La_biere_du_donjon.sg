@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La bière du donjon}
-  [by=Le Donjon de Naheulbeuk,cov=a-poil-dans-la-foret,album=À poil dans la forêt]
+  [by={Le Donjon de Naheulbeuk},cov={a-poil-dans-la-foret},album={À poil dans la forêt},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
   \gtab{Am}{X02210}
@@ -19,43 +20,44 @@
 
   \lilypond{La_biere_du_donjon}
 
-  \begin{verse}
-    La bière du donjon, c'est nous qui la servaine
-    La bière du donjon, c'est nous qui la servons
-    Servons, servons la bière du donjaine
-    Servons, servons la bière du donjon
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      La \[Am]bière du donjon, c'est \[G]nous qui la ser\[Am]vaine
+      La \[Am]bière du donjon, c'est \[G]nous qui la ser\[Am]vons
+      Ser\[Em]vons, servons la \[Em]bière du don\[Am]jaine
+      Ser\[Em]vons, servons la \[F]bière du \[E]don\[Am]jon
+    \end{verse}
 
-  \begin{verse}
-    La bière du donjon, c'est nous qui la vendaine
-    La bière du donjon, c'est nous qui la vendons \dots
-  \end{verse}
+    \begin{verse}
+      La \[Am]bière du donjon, c'est \[G]nous qui la ven\[Am]daine
+      La \[Am]bière du donjon, c'est \[G]nous qui la ven\[Am]dons \dots
+    \end{verse}
 
-  \begin{verse}
-    La bière du donjon, c'est nous qui la buvaine
-    La bière du donjon, c'est nous qui la buvons \dots
-  \end{verse}
+    \begin{verse}
+      La \[Am]bière du donjon, c'est \[G]nous qui la bu\[Am]vaine
+      La \[Am]bière du donjon, c'est \[G]nous qui la bu\[Am]vons \dots
+    \end{verse}
 
-  \begin{verse}
-    La bière du donjon, c'est nous qui la rotaine
-    La bière du donjon, c'est nous qui la rotons \dots
-  \end{verse}
+    \begin{verse}
+      La \[Am]bière du donjon, c'est \[G]nous qui la ro\[Am]taine
+      La \[Am]bière du donjon, c'est \[G]nous qui la ro\[Am]tons \dots
+    \end{verse}
 
-  \begin{verse}
-    La bière du donjon, c'est nous qui la pissaine
-    La bière du donjon, c'est nous qui la pissons \dots
-  \end{verse}
+    \begin{verse}
+      La \[Am]bière du donjon, c'est \[G]nous qui la pi\[Am]ssaine
+      La \[Am]bière du donjon, c'est \[G]nous qui la pi\[Am]ssons \dots
+    \end{verse}
 
-  \begin{verse}
-    La bière du donjon, c'est nous qui la chantaine
-    La bière du donjon, c'est nous qui la chantons \dots
-  \end{verse}
+    \begin{verse}
+      La \[Am]bière du donjon, c'est \[G]nous qui la chan\[Am]taine
+      La \[Am]bière du donjon, c'est \[G]nous qui la chan\[Am]tons \dots
+    \end{verse}
 
-  \begin{verse}
-    La bière du donjon, c'est nous qui la gerbaine
-    La bière du donjon, c'est nous qui la gerbons \dots
-    \echo{Et même qu'après, eh bien on en r'prend !}
-  \end{verse}
-
+    \begin{verse}
+      La \[Am]bière du donjon, c'est \[G]nous qui la ger\[Am]baine
+      La \[Am]bière du donjon, c'est \[G]nous qui la ger\[Am]bons \dots
+      \echo{Et même qu'après, eh bien on en r'prend !}
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

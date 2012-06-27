@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Just the two of us}
-  [by=Bill Withers,album=Greatest hits,cov=greatest-hits]
+  [by={Bill Withers},album={Greatest hits},cov={greatest-hits}]
 
   \cover
   \capo{1}

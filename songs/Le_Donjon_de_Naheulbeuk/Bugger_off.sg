@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Bugger off}
-  [by=Le Donjon de Naheulbeuk,cov=grimoire-audio,album=Grimoire audio]
+  [by={Le Donjon de Naheulbeuk},cov={grimoire-audio},album={Grimoire audio},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
   \capo{5}
@@ -14,35 +15,37 @@
     So bugger \[C]off, you bastards, \[G]bugger \[C]off! \echo{Fuck You!}
     Bugger \[Am]off, you bastards, bugger \[G]off! \echo{Fuck You!}
     Like a \[C]herd of bloody swine who re\[F]fuse to leave the \[G]trough
-    You'll \[C]get no more this \[F]evening so you \[G]bastards bugger \[C]off
+    You'll \[C]get no more this \[F]evening so you \[C]bastards \[G]bugger \[C]off
   \end{chorus}
 
   \begin{verse}
     You've \[C]been a splendid audience but \[G]{oh the} time does \[C]pass
-    Now don't you all be \[F]let the door to hit you in the \[G]ass
+    Now \[C]don't you all be \[F]let the door to hit you in the \[G]ass
     \[Am]You've been a lovely audience but \[G]enough is e\[C]nough
-    We'd take it very \[F]kindly if you'd \[C]all just \[G]bugger \[C]off
+    We'd \[C]take it very \[F]kindly if you'd \[C]all just \[G]bugger \[C]off
   \end{verse}
 
-  \begin{verse}
-    Here's to all the waitresses who've been servin' you your beers
-    And put up with your noxious breath and your stupid drunken leers
-    Be leavin' all your money on the table when you go
-    Tomorrow you'll have a sorry head and nothin' else to show
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]Here's to all the waitresses who've been \[G]servin' you your \[C]beers
+      And \[C]put up with your \[F]noxious breath and your stupid drunken \[G]leers
+      Be \[Am]leavin' all your money on the \[F]table when you \[G]go
+      To\[C]morrow you'll have a \[F]sorry head and \[G]nothin' else to \[C]show
+    \end{verse}
 
-  \begin{verse}
-    Here's to all the ladies who might be waitin' for the band
-    And thinkin' one of them might make a charming one night stand
-    Please don't be offended girls this song is not for you
-    We'll be happy to oblige you when this nasty job is through
-  \end{verse}
+    \begin{verse}
+      \[C]Here's to all the ladies who might be \[G]waitin' for the \[C]band
+      And \[C]thinkin' one of \[F]them might make a charming one night \[G]stand
+      \[Am]Please don't be offended girls this \[F]song is not for \[G]you
+      We'll \[C]be happy to o\[F]blige you when this \[G]nasty job is \[C]through
+    \end{verse}
 
-  \begin{verse}
-    So now you promise the ladies a night of lovin' bliss
-    But truth be told you're far too drunk to stand up straight and piss
-    Givin' up you bloody sods, you'll not be getting laid
-    And the sooner you're out the door, the sooner we'll be paid
-  \end{verse}
+    \begin{verse}
+      So \[C]now you promise the ladies a \[G]night of lovin' \[C]bliss
+      But \[C]truth be told you're \[F]far too drunk to stand up straight and \[G]piss
+      \[Am]Givin' up you bloody sods, you'll \[F]not be getting \[G]laid
+      And the \[C]sooner you're \[F]out the door, the \[G]sooner we'll be \[C]paid
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

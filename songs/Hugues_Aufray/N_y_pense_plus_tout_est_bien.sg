@@ -1,8 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{N'y pense plus, tout est bien}
-  [by=Hugues Aufray,cov=la-terre-est-si-belle,album=La Terre est si belle]
-
+  [by={Hugues Aufray},cov={la-terre-est-si-belle},album={La Terre est si belle},%
+  original={Bob Dylan - Don't think twice, it's all right}]
 
   \cover
   \gtab{C}{X32010}

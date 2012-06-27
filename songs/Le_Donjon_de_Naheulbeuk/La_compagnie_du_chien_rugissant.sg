@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La compagnie du chien rugissant}
-  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne,album=Machins de taverne]
+  [by={Le Donjon de Naheulbeuk},cov={machins-de-taverne},album={Machins de taverne},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
   \capo{3}
@@ -14,59 +15,61 @@
 
   \begin{verse}
     \[Am]Nous étions \[C]quatre as\[G]sis dans l'au\[Am]berge
-    Buvant une \[C]chope de nos \[Em]maigres de\[Am]niers
+    Buvant une \[C]chope de nos \[G]maigres de\[Em]niers
     La \[Am]bourse était \[C]vide, tout \[G]comme notre \[Em]{sac à dos}
-    \[Am]La compa\[Em]gnie a\[G]ttend un bou\[Am]lot
+    \[Am]La compa\[G]gnie a\[Em]ttend un bou\[Am]lot
   \end{verse}
 
-  \begin{verse}
-    Un magicien, une guerrière farouche
-    Un voleur, une ogre et moi l'elfe noir
-    C'était notre groupe au nom déjà éloquent
-    La compagnie du chien rugissant
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]Un magi\[C]cien, une \[G]guerrière fa\[Am]rouche
+      Un voleur, une \[C]ogre et \[G]moi l'elfe \[Em]noir
+      C'é\[Am]tait notre \[C]groupe au \[G]nom déjà \[Em]éloquent
+      \[Am]La compa\[G]gnie du \[Em]chien rugis\[Am]sant
+    \end{verse}
 
-  \begin{verse}
-    Il est sorti des ombres mouvantes
-    Grande silhouette encapuchonnée
-    Avec l'air méfiant de ceux qui sont avisés
-    La compagnie salue l'étranger
-  \end{verse}
+    \begin{verse}
+      \[Am]Il est sor\[C]ti des \[G]ombres mou\[Am]vantes
+      Grande sil\[C]houette en\[G]capuchon\[Em]née
+      A\[Am]vec l'air mé\[C]fiant de \[G]ceux qui sont \[Em]avisés
+      \[Am]La compa\[G]gnie sa\[Em]lue l'étran\[Am]ger
+    \end{verse}
 
-  \begin{verse}
-    {\og}Braves amis, cherchez-vous l'escapade ?{\fg}
-    Dit-il en se joignant à notre tablée
-    {\og}J'ai besoin urgent d'un parti d'aventuriers{\fg}
-    La compagnie commence à l'aimer
-  \end{verse}
+    \begin{verse}
+      {\og}\[Am]Braves a\[C]mis, cherchez-\[G]vous l'esca\[Am]pade ?{\fg}
+      Dit-il en \[C]se joignant à \[G]notre ta\[Em]blée
+      {\og}J'ai \[Am]besoin ur\[C]gent d'un \[G]parti d'a\[Em]venturiers{\fg}
+      \[Am]La compa\[G]gnie com\[Em]mence à l'ai\[Am]mer
+    \end{verse}
 
-  \begin{verse}
-    {\og}Je vous envoie retrouver mon grimoire
-    Chez les brigands vous irez le chercher
-    --- L'affaire est plaisante mais y serons-nous gagnants ?{\fg}
-    La compagnie a besoin d'argent
-  \end{verse}
+    \begin{verse}
+      {\og}\[Am]Je vous en\[C]voie retrou\[G]ver mon gri\[Am]moire
+      Chez les bri\[C]gands vous i\[G]rez le cher\[Em]cher
+      --- L'af\[Am]faire est plai\[C]sante mais \[G]{y serons}-\[Em]nous gagnants ?{\fg}
+      \[Am]La compa\[G]gnie a \[Em]besoin d'ar\[Am]gent
+    \end{verse}
 
-  \begin{verse}
-    {\og}Trente pièces d'or pour le groupe entier
-    Vous ne semblez pas d'un bon niveau{\fg}
-    Pour qui se prit-il, cet espèce de sac à vin
-    La compagnie va lui mettre un pain
-  \end{verse}
+    \begin{verse}
+      {\og}\[Am]Trente pièces \[C]{d'or} pour \[G]le groupe en\[Am]tier
+      Vous ne sem\[C]blez pas \[G]{d'un} bon ni\[Em]veau{\fg}
+      Pour \[Am]qui se prit-\[C]il, cet \[G]espèce de \[Em]sac à vin
+      \[Am]La compa\[G]gnie va \[Em]lui mettre un \[Am]pain
+    \end{verse}
 
-  \begin{verse}
-    {\og}Fils de chien !{\fg} rugit la guerrière
-    Et son épée lui mit dans l'œil droit
-    {\og}Adieu étranger, rendez vous dans l'Au-Delà{\fg}
-    La compagnie doit quitter l'endroit
-  \end{verse}
+    \begin{verse}
+      {\og}\[Am]Fils de \[C]chien !{\fg} ru\[G]git la guer\[Am]rière
+      Et son é\[C]pée lui \[G]mit dans l'œil \[Em]droit
+      {\og}A\[Am]dieu étran\[C]ger, ren\[G]dez-vous dans l'\[Em]Au-Delà{\fg}
+      \[Am]La compa\[G]gnie doit \[Em]quitter l'en\[Am]droit
+    \end{verse}
 
-  \begin{verse}
-    Nous étions quatre assis dans la neige
-    {\og}Qu'ai-je dont fait ?{\fg} maudit la guerrière
-    Notre première quête, expédiée dans le ruisseau
-    La compagnie attend un boulot
-  \end{verse}
+    \begin{verse}
+      \[Am]Nous étions \[C]quatre as\[G]sis dans la \[Am]neige
+      {\og}Qu'ai-je donc \[C]fait ?{\fg} mau\[G]dit la guer\[Em]rière
+      No\[Am]tre première \[C]quête, ex\[G]pédiée dans \[Em]le ruisseau
+      \[Am]La compa\[G]gnie at\[Em]tend un bou\[Am]lot
+    \end{verse}
+  \end{repeatedchords}
 
   \image[width=5cm]{nb_elf_01}
 

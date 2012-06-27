@@ -1,0 +1,41 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Tralala du nain}
+  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+
+  \begin{chorus}
+    \[D]Moi c'que j'aime dans \[Bm]les tavernes
+    C'est qu'on \[G]peut aller pio\[D]cher
+    \[D]On peut extraire \[Bm]du minerai
+    Et des \[G]pierres pour les tai\[D]ller
+  \end{chorus}
+
+  \begin{verse}
+    On est \[G]jamais emmer\[D]dé
+    Par les \[G]animaux cré\[D]tins
+    Des fois \[G]on peut baston\[D]ner
+    Quand on \[Bm]tombe sur des gobe\[D]lins
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Puis on \[G]court à la ta\[D]verne
+      Parce qu'on \[G]a bien travai\[D]llé
+      Et on s'\[G]enfile quarante \[D]bières
+      Pour fi\[Bm]nir en train d'ger\[D]ber !
+    \end{verse}
+
+    \begin{chorus}
+      \[D]Tralala la \[Bm]lalala
+      Tra \[G]la lalala\[D]la
+      \rep{2}
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

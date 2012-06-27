@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Dumb}
-  [by=Nirvana,cov=in-utero,album=In Utero]
+  [by={Nirvana},cov={in-utero},album={In Utero}]
 
   \cover
   \capo{2}
@@ -76,7 +76,7 @@
   \begin{verse}
     \[Em] \[Am]{I think} I'm du\[G]mb
     \[C]{I think} I'm du\[Em]mb
-    \musicnote{Ad libidum}
+    \musicnote{\Adlib}
   \end{verse}
 
 \endsong

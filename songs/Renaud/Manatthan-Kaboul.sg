@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Manatthan-Kaboul}
-  [by=Renaud,cov=boucan-d-enfer,album=Boucan d'enfer]
+  [by={Renaud},cov={boucan-d-enfer},album={Boucan d'enfer}]
 
   \cover
   \gtab{C}{X32010}
@@ -20,14 +20,14 @@
 
   \begin{verse}
     \[C]Petit \[F]Portori\[G]cain\[F]
-    \[C]Bien inté\[F]gré, quasiment New \[G]Yorkais,\[F]
-    \[C]Dans mon buil\[F]ding tout de verre \[G]et d'acier,\[Am]
+    \[C]Bien inté\[F]gré, quasiment New \[G]Yorkais\[F]
+    \[C]Dans mon buil\[F]ding tout de verre \[G]et d'acier\[Am]
     \[F]Je prends mon \[Dm7]job, un rail de \[E]coke, un café
   \end{verse}
 
   \begin{verse*}
-    \[C]Peti\[F]te fille af\[G]ghane,\[F]
-    \[C]De l'autre \[F]côté de la \[G]Terre,\[F]
+    \[C]Peti\[F]te fille af\[G]ghane\[F]
+    \[C]De l'autre \[F]côté de la \[G]Terre\[F]
     \[C]Jamais en\[F]tendu parler \[G]de Manhat\[Am]tan
     \[E*]Mon quoti\[E/D]dien c'est la mis\[E/C]ère et la \[E/B]guerre
   \end{verse*}

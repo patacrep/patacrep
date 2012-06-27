@@ -1,0 +1,23 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le petit gobelin}
+  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{G7}{320001}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \[C]{C'était} un petit gobelin qui s'en \[G]allait \[G7]à la \[C]plage
+    \[C]Mais il n'savait pas nager et il y \[G]avait \[G7]des re\[C]quins
+    \[F]Plouf, plouf, le \[C]gobelin !
+    Il s'est \[G7]noyé dans les \[C]vagues
+    \[F]Miam, miam, a \[C]dit l'requin
+    Tu finis \[G7]dans mon œso\[C]phage
+    Voilà c'qu'ar\[F]rive si \[G7]{t'es} pas \[C]sage !
+  \end{verse}
+
+\endsong

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{La malle}
-  [by=Thomas Fersen,album=Trois petits tours,cov=trois-petits-tours]
+  [by={Thomas Fersen},album={Trois petits tours},cov={trois-petits-tours}]
 
   \cover
   \gtab{C#m}{4:X02210}
@@ -129,7 +129,7 @@
     J'ai con\[G#]tinué la fête
     Jus\[A]{qu'au} petit matin
     J'ai con\[G#]tinué la fête
-    {\nolyrics \[A] \[G#]} (ad lib)
+    {\nolyrics \[A] \[G#]} \Adlib
   \end{chorus}
 
 \endsong

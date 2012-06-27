@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le coureur}
-  [by=Jean-Jacques Goldman,cov=en-passant,album=En passant]
+  [by={Jean-Jacques Goldman},cov={en-passant},album={En passant}]
 
   \cover
   \gtab{Em}{022000}

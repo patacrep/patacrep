@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La chance}
-  [by=La Rue Kétanou,cov=ouvert-a-double-tour,album=Ouvert à double tour]
+  [by={La Rue Kétanou},cov={ouvert-a-double-tour},album={Ouvert à double tour}]
 
   \cover
   \gtab{C}{3:X02220}

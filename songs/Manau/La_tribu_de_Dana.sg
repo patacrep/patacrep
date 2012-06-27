@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{La tribu de Dana}
-  [by=Manau,cov=panique-celtique,album=Panique celtique]
+  [by={Manau},cov={panique-celtique},album={Panique celtique}]
 
   \cover
   \gtab{Am}{X02210}

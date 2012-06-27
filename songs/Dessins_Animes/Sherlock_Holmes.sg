@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sherlock Holmes}
-  [by=Dessins Animés,cov=sherlock-holmes,album=Sherlock Holmes]
+  [by={Dessins Animés},cov={sherlock-holmes},album={Sherlock Holmes}]
 
   \cover
   \capo{1}

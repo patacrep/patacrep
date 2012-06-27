@@ -1,0 +1,54 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Hé, la petite dame}
+  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
+
+  \cover
+  \capo{3}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{C}{X32010}
+
+  \begin{chorus}
+    \[Am]Hélas ma\[E]dame, je n'ai plus de mer\[Am]lan
+    \[Am] Hier en\[E]core, ben j'en avais pour\[Am]tant
+    Nous \[Am]autres on n'y peut \[C]rien, vous savez comment c'est
+    \[C]Les arri\[E]vages, ça \[C]dépend d'\[E]la ma\[Am]rée
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]Hé, la p'tite \[E]dame, elle veut pas du flé\[Am]tan
+      C'est du fi\[E]let, y'a pas d'arêtes de\[Am]dans
+      C'est \[Am]un poisson tout \[C]plat qu'a les yeux sur l'côté
+      \[C]{C'est} pas pour \[E]ça, qu'ça \[C]doit vous \[E]dégoû\[Am]ter
+    \end{verse}
+
+    \begin{verse}
+      \[Am]Hé non ma\[E]dame, y'a pas d'rosbif chez \[Am]moi
+      \[Am] J'suis poisson\[E]nier mais vous n'y perdez \[Am]pas
+      J'peux \[Am]vous donner du \[C]thon qui vient du Pacifique
+      \[C]Un tour à la \[E]poêle, faut \[C]dire que \[E]{c'est} pra\[Am]tique
+    \end{verse}
+
+    \begin{verse}
+      \[Am]Hé, la p'tite \[E]dame, elle veut pas du sau\[Am]mon
+      \[Am] C'est des pa\[E]vés, c'est vrai que c'est vachement \[Am]bon
+      Si \[Am]vous m'en prenez \[C]deux, j'vous offre le troisième
+      \[C]Ça c'est vrai\[E]ment la \[C]promo\[E]tion d'la s'\[Am]maine
+    \end{verse}
+
+    \begin{verse}
+      \[Am]{J'ai} du mer\[E]lu, j'ai du filet d'co\[Am]lin
+      \[Am] J'ai des sar\[E]dines et du rouget gron\[Am]din
+      J'ai \[Am]même de l'espa\[C]don, du bar, des éperlans
+      \[C]Mais c'que j'ai \[E]pas, vous \[C]en d'man\[E]dez tout l'\[Am]temps
+    \end{verse}
+
+    \begin{verse*}
+      \[Am]Hélas ma\[E]dame, je n'ai plus de mer\[Am]lan
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

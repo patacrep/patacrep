@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les filles de Redon}
-  [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
+  [by={Tri Yann},cov={le-meilleur-de-tri-yann},album={Le meilleur de Tri Yann}]
 
   \capo{3}
   \gtab{G}{320003}

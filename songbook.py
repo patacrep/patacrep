@@ -8,8 +8,21 @@ import glob
 import re
 import json
 import locale
-import sortindex
 import shutil
+import locale
+
+reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')
+reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
+reAlbum  = re.compile('(?<=album=)(.(?<![,\\]\\}]))+')
+
+class Song:
+   def __init__(self, title, artist, album, path):
+      self.title  = title
+      self.artist = artist
+      self.album  = album
+      self.path   = path
+   def __repr__(self):
+      return repr((self.title, self.artist, self.album, self.path))
 
 def copyCovers():
    '''
@@ -33,9 +46,26 @@ def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
 
 def songslist(songs):
-    directories = set(["img/"] + map(lambda x: "songs/" + os.path.dirname(x), songs))
-    result = [ '\\input{{songs/{0}}}'.format(s.replace("\\","/").strip()) for s in songs ]
-    return '\n'.join(result)
+   song_objects = []
+   for s in songs:
+      path = 'songs/'+s
+      with open(path, 'r+') as f:
+         data   = f.read()
+         title  = reTitle.search(data).group(0)
+         artist = reArtist.search(data.replace("{","")).group(0)
+         match  = reAlbum.search(data.replace("{",""))
+         if match:
+            album = match.group(0)
+         else:
+            album = ''
+         song_objects.append(Song(title, artist, album, path))
+
+   song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.title))
+   song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.album))
+   song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.artist))
+
+   result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in song_objects ]
+   return '\n'.join(result)
 
 def parseTemplate(template):
     embeddedJsonPattern = re.compile(r"^%%:")
@@ -116,7 +146,6 @@ def makeTexFile(sb, output):
     if songs == "all":
         songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
 
-    songs.sort(key=sortindex.sortkey)
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(songs)))
     out.write('\\makeatother\n')

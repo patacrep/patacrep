@@ -1,6 +1,7 @@
 \selectlanguage{french}
+\songcolumns{2}
 \beginsong{Le Lacrymal Circus}
-  [by=Renan Luce,cov=repenti,album=Repenti]
+  [by={Renan Luce},cov={repenti},album={Repenti}]
 
   \cover
   \gtab{Dm}{XX0231}
@@ -20,14 +21,14 @@
     Une vieille deux chevaux qui \[Dm]tousse
     Déversait des prospec\[B&]tus
     {\og}Ce soir vingt heures, venez \[A]tous
-    Entrez au Lacrymal Cir\[Dm]cus !{\fg}  \[A - Dm]
+    Entrez au Lacrymal Cir\[Dm]cus !{\fg} \[A - Dm]
   \end{verse}
 
   \begin{verse*}
     J'étais seul et je cher\[A]chais
     Un abri contre la \[Dm]bruine
-    J’ai pris ma place au gui\[A]chet
-    D’une roulotte qui tombe en \[Dm]ruine \[A - Dm]
+    J'ai pris ma place au gui\[A]chet
+    D'une roulotte qui tombe en \[Dm]ruine \[A - Dm]
   \end{verse*}
 
   \begin{chorus}

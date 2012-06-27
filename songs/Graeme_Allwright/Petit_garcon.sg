@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Petit garçon}
-  [by=Graeme Allwright,cov=emmene-moi,album=Emmène-moi]
+  [by={Graeme Allwright},cov={emmene-moi},album={Emmène-moi},%
+  original={Roger Miller - Old toy trains}]
 
   \cover
   \gtab{D}{XX0232}

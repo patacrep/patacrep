@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Que l'on est bête}
-  [by=Thomas Fersen,cov=le-jour-du-poisson,album=Le jour du poisson]
+  [by={Thomas Fersen},cov={le-jour-du-poisson},album={Le jour du poisson}]
 
   \cover
   \gtab{Gm}{3:022000}

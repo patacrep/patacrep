@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{\dots~Baby one more time}
-  [by=Britney Spears,cov=baby-one-more-time,album=Baby one more time]
+  [by={Britney Spears},cov={baby-one-more-time},album={Baby one more time}]
 
   \cover
   \gtab{F#}{2:022100}

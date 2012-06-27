@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Lucky Luke}
-  [by=Dessins Animés,cov=lucky-luke,album=Lucky Luke]
+  [by={Dessins Animés},cov={lucky-luke},album={Lucky Luke}]
 
   \cover
   \gtab{Am}{X02210}

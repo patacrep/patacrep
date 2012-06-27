@@ -1,0 +1,54 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{La hache Durandil}
+  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
+
+  \cover
+  \gtab{B&}{1:X02220}
+  \gtab{Gm}{3:022000}
+  \gtab{Cm}{3:X02210}
+  \gtab{F}{1:022100}
+  \gtab{E&}{6:X02220}
+
+  \begin{verse}
+    \[B&] J'ai trouvé une super hache \[Gm]Durandil
+    \[Cm] En farfouillant dans un p'tit \[F]magasin
+    \[B&] J'ai marchandé au gars, c'é\[Gm]tait facile
+    \[Cm] C'était moins \[F]cher et ça c'est \[B&]bien
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[B&] J'vais pouvoir la planter dans \[Gm]tout c'qui bouge \echo{ou dans mon dos}
+      \[Cm] J'vais massacrer les orcs et \[F] les gobelins \echo{et tes amis}
+      \[B&] Et leur sang va couler tout \[Gm]rouge \echo{c'est la misère}
+      \[Cm] La hache de \[F]jet, c'est vachement \[B&]bien \echo{c'n'est pas mon avis mais tant pis}
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[E&]Ouais, ma hache \[F]Duran\[E&]dil \echo{c'est foutu}
+    \[B&] Ma hache de jet qu'était pas chère \echo{c'est d'la merde et voilà}
+    \[E&]Ouais, ma hache \[F]Duran\[E&]dil
+    \[B&] Elle est super \echo{c'est tout perrave}
+    Et \[F]elle est pas \[B&]chère
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[B&] J'ai vu des elfes avec des \[Gm]arcs pourris \echo{ça c'est bien dit}
+      \[Cm] J'ai vu des types avec des \[F]vieilles épées \echo{c'était pas moi}
+      \[B&] Des ogres avec des vieux gour\[Gm]dins moisis \echo{ou du jambon}
+      \[Cm] Mais ça vaut \[F]pas ma hache de \[B&]jet \echo{c'est toi qui l'dit mais t'es tout p'tit}
+    \end{verse}
+
+    \begin{verse}
+      \[B&] C'est pas la peine de dépen\[Gm]ser tes pièces \echo{je fais c'que j'veux}
+      \[Cm] Dans des épées rouillées qui \[F]servent à rien \echo{c'est même pas vrai}
+      \[B&] Au lieu d'ça tu devrais t'bou\[Gm]ger les fesses \echo{va donc crever}
+      \[Cm] Et acheter \[F]une vraie arme de \[B&]Nain \echo{c'n'est pas mon avis mais tant pis}
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Plus rien}
-  [by=Les Cowboys Fringants,cov=la-grand-messe,album=La grand messe]
+  [by={Les Cowboys Fringants},cov={la-grand-messe},album={La grand messe}]
 
   \cover
   \gtab{Dm}{XX0231}

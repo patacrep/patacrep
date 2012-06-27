@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le gorille}
-  [by=Georges Brassens,cov=la-mauvaise-reputation,album=La mauvaise réputation]
+  [by={Georges Brassens},cov={la-mauvaise-reputation},album={La mauvaise réputation}]
 
   \cover
   \gtab{D}{XX0232}

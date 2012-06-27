@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Roulette}
-  [by=System of a Down,cov=steal-this-album,album=Steal this album]
+  [by={System of a Down},cov={steal-this-album},album={Steal this album}]
 
   \cover
   \gtab{Cm}{3:X02210}

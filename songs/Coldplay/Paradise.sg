@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Paradise}
-  [by=Coldplay,cov=mylo-xyloto,album=Mylo Xyloto]
+  [by={Coldplay},cov={mylo-xyloto},album={Mylo Xyloto}]
 
   \cover
   \gtab{Dm}{XX0231}

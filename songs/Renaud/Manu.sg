@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Manu}
-  [by=Renaud,cov=le-retour-gerard-lambert,album=Le retour de Gérard Lambert]
+  [by={Renaud},cov={le-retour-gerard-lambert},album={Le retour de Gérard Lambert}]
 
   \cover
   \gtab{Am}{X02210}

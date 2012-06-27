@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les nuits parisiennes}
-  [by=Louise Attaque,cov=louise-attaque,album=Louise Attaque]
+  [by={Louise Attaque},cov={louise-attaque},album={Louise Attaque}]
 
   \cover
   \gtab{G}{320003}

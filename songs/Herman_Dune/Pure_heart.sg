@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Pure heart}
-  [by=Herman Düne,cov=giant,album=Giant]
+  [by={Herman Düne},cov={giant},album={Giant}]
 
   \cover
   \gtab{E}{022100}

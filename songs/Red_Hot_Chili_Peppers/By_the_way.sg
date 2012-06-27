@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{By the way}
-  [by=Red Hot Chili Peppers,cov=by-the-way,album=By the way]
+  [by={Red Hot Chili Peppers},cov={by-the-way},album={By the way}]
 
   \cover
   \gtab{F}{1:022100}

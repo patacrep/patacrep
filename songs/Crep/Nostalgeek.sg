@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Nostalgeek}
-  [by=Crep,cov=mon-voisin-le-manchot,album=Mon voisin le manchot]
+  [by={Crep},cov={mon-voisin-le-manchot},album={Mon voisin le manchot},%
+  url={http://www.patacrep.com/static3/audio}]
 
   \cover
   \gtab{C}{X32010}

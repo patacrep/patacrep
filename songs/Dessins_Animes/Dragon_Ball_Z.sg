@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Dragon Ball Z}
-  [by=Dessins Animés,cov=dragon-ball-z,album=Dragon Ball Z]
+  [by={Dessins Animés},cov={dragon-ball-z},album={Dragon Ball Z}]
 
   \cover
   \gtab{C}{X32010}

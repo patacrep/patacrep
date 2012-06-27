@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ma mémoire sale}
-  [by=Alex Beaupain,cov=les-chansons-d-amour,album=Les chansons d'amour]
+  [by={Alex Beaupain},cov={les-chansons-d-amour},album={Les chansons d'amour}]
 
   \cover
   \capo{1}

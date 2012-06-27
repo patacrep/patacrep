@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Rititi, ratata (il paraît qu'elles aiment)}
-  [by=Thomas Fersen,cov=piece-montee-des-grands-jours,album=Pièce montée des grands jours]
+  [by={Thomas Fersen},cov={piece-montee-des-grands-jours},album={Pièce montée des grands jours}]
 
   \cover
 
@@ -131,7 +131,7 @@
   \begin{verse*}
     \musicnote {\Outro :}
     \musicnote {\nolyrics \[E{\flt}m B A{\flt}m G{\flt} B{\flt}7] \rep{2}}
-    \musicnote {\nolyrics \[E{\flt}m B{\flt}7] \rep{2} (ad lib)}
+    \musicnote {\nolyrics \[E{\flt}m B{\flt}7] \rep{2} \Adlib}
   \end{verse*}
 
 \endsong

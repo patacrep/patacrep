@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Come as you are}
-  [by=Nirvana,cov=nevermind,album=Nevermind]
+  [by={Nirvana},cov={nevermind},album={Nevermind}]
 
   \cover
   \gtab{F#m}{2:022000}

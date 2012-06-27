@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{The old revolution}
-  [by=Leonard Cohen,cov=songs-from-a-room,album=Songs from a room]
+  [by={Leonard Cohen},cov={songs-from-a-room},album={Songs from a room}]
 
   \cover
   \gtab{E}{022100}

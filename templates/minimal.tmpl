@@ -19,7 +19,7 @@
 % The latest version of this program can be obtained from
 % http://songs.sourceforge.net.
 %
-% Modified to serve personnal purposes. Newer versions can be 
+% Modified to serve personnal purposes. Newer versions can be
 % obtained from http://www.lohrun.net.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Template parameters
@@ -33,7 +33,8 @@
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
-\documentclass[\getbooktype,\getinstruments,\getbookoptions,\getmainfontsize,noshading]{tex/crepbook}
+\makeatletter\def\input@path{{tex/}}
+\documentclass[\getbooktype,\getinstruments,\getbookoptions,\getmainfontsize,noshading]{crepbook}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}

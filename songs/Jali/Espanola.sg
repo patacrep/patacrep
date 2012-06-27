@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Española}
-  [by=Jali,cov=des-jours-et-des-lunes,album=Des jours et des lunes]
+  [by={Jali},cov={des-jours-et-des-lunes},album={Des jours et des lunes}]
 
   \cover
   \gtab{Am}{X02210}

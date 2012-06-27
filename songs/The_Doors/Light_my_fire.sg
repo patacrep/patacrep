@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Light my fire}
-  [by=The Doors,cov=the-doors,album=The doors]
+  [by={The Doors},cov={the-doors},album={The doors}]
 
   \cover
   \gtab{Am7}{X02010}

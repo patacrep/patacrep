@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Crossroad}
-  [by=Calvin Russell,cov=sounds_from_the_fourth_world,album=Sounds from the fourth world]
+  [by={Calvin Russell},cov={sounds_from_the_fourth_world},album={Sounds from the fourth world}]
 
   \cover
   \gtab{Am}{X02210}

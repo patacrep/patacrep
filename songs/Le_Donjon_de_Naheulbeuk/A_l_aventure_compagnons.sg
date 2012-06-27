@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{À l'aventure, compagnons !}
-  [by=Le Donjon de Naheulbeuk,cov=grimoire-audio,album=Grimoire audio]
+  [by={Le Donjon de Naheulbeuk},cov={grimoire-audio},album={Grimoire audio},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
   \capo{3}
@@ -14,7 +15,7 @@
   \begin{verse}
     J'é\[C]tais dans mon village, à répa\[G]rer des chaises en bois
     Mais l'\[F]aventure m'appelait, l'en\[C]nui était en moi
-    J'avais ouï d'une \[F]tour, sié\[C]geant un peu plus \[G]loin
+    J'a\[C]vais ouï d'une \[F]tour, sié\[C]geant un peu plus \[G]loin
     J'ai \[C]attrapé mon canasson, mes \[F]bottes et mon gour\[G]din
   \end{verse}
 
@@ -25,54 +26,56 @@
     La \[C]suite vous \[G]le di\[C]ra
   \end{chorus}
 
-  \begin{verse}
-    Je suis arrivé au lieu-dit, trempé par un orage
-    Ma monture s'est enfuie, mais j'ai gardé mon courage
-    Contournant l'édifice, dont la porte était fermée
-    J'ai glissé dans la boue et puis les chiens sont arrivés
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Je \[C]suis arrivé au lieu-dit, trem\[G]pé par un orage
+      Ma \[F]monture s'est enfuie, mais j'ai \[C]gardé mon courage
+      Con\[C]tournant l'édi\[F]fice, dont la \[C]porte était fer\[G]mée
+      J'ai \[C]glissé dans la boue et puis les \[F]chiens sont arri\[G]vés
+    \end{verse}
 
-  \begin{chorus}
-    À l'aventure, compagnons
-    Je suis parti vers l'horizon
-    J'aurais mieux fait de rester au lit
-    Ce donjon, il est pourri
-  \end{chorus}
+    \begin{chorus}
+      À l'aven\[C]ture, compagnons
+      Je suis par\[F]ti vers l'hori\[G]zon
+      J'au\[C]rais mieux fait de res\[F]ter au lit
+      Ce don\[C]jon, il \[G]est pour\[C]ri
+    \end{chorus}
 
-  \begin{verse}
-    Ils ont bouffé ma cape, mes sandwiches et mon boudin
-    J'ai dû abandonner mon sac et fuir comme un vilain
-    Poursuivi par les bêtes, je suis tombé dans un trou
-    C'était l'entrée secrète qui passait par les égouts
-  \end{verse}
+    \begin{verse}
+      Ils \[C]ont bouffé ma cape, mes sand\[G]wiches et mon boudin
+      J'ai \[F]dû abandonner mon sac et \[C]fuir comme un vilain
+      Pour\[C]suivi par les \[F]bêtes, je suis \[C]tombé dans un \[G]trou
+      C'é\[C]tait l'entrée secrète qui pas\[F]sait par les é\[G]gouts
+    \end{verse}
 
-  \begin{verse}
-    J'ai rampé dans la fange, les vermines et les sangsues
-    J'ai atterri dans un cachot, où vivaient trois bossus
-    Ils ont piqué ma veste, mes bottes et mon gourdin
-    Et ils m'ont balancé dehors à grands coups de pied dans l'train
-  \end{verse}
+    \begin{verse}
+      J'ai \[C]rampé dans la fange, les ver\[G]mines et les sangsues
+      J'ai \[F]atterri dans un cachot, où \[C]vivaient trois bossus
+      Ils \[C]ont piqué ma \[F]veste, mes \[C]bottes et mon gour\[G]din
+      Et \[C]ils m'ont balancé dehors à \[F]grands coups de pied dans l'\[G]train
+    \end{verse}
 
-  \begin{verse}
-    J'ai traîné dans les corridors, sans arme et déprimé
-    Égaré dans la tour, je suis revenu à l'entrée
-    Les orques m'ont vu passer, courant vers la sortie
-    Ils se demandent encore qui était cet abruti
-  \end{verse}
+    \begin{verse}
+      J'ai \[C]traîné dans les corridors, sans \[G]arme et déprimé
+      É\[F]garé dans la tour, je suis \[C]revenu à l'entrée
+      Les \[C]orques m'ont vu pas\[F]ser, cou\[C]rant vers la sor\[G]tie
+      Ils \[C]se demandent encore qui é\[F]tait cet abru\[G]ti
+    \end{verse}
 
-  \begin{verse}
-    L'histoire était finie et j'ai voulu rentrer chez moi
-    En courant sous la pluie, boitant comme un vieux rat
-    Cherchant pour une auberge, une paillasse et un cruchon
-    Je m'suis dit : {\og}L'aventure, c'est pas fait pour les couillons{\fg}
-  \end{verse}
+    \begin{verse}
+      L'his\[C]toire était finie et j'ai vou\[G]lu rentrer chez moi
+      En \[F]courant sous la pluie, boi\[C]tant comme un vieux rat
+      Cher\[C]chant pour une au\[F]berge, une pail\[C]lasse et un cru\[G]chon
+      Je m'\[C]suis dit : {\og}L'aventure, c'est pas \[F]fait pour les couil\[G]lons{\fg}
+    \end{verse}
 
-  \begin{chorus}
-    À l'aventure, nom d'un chien
-    Je n'irai plus faire le malin
-    J'aurais mieux fait de rester chez moi
-    À faire des chaises en bois !
-  \end{chorus}
+    \begin{chorus}
+      À l'aven\[C]ture, nom d'un chien
+      Je n'irai \[F]plus faire le ma\[G]lin
+      J'au\[C]rais mieux fait de res\[F]ter chez moi
+      À \[C]faire des \[G]chaises en \[C]bois !
+    \end{chorus}
+  \end{repeatedchords}
 
   \image[width=4cm]{nb_ranger}
 

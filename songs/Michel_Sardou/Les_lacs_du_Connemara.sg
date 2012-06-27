@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les lacs du Connemara}
-  [by=Michel Sardou, cov=les-grandes-chansons,album=Les grandes chansons]
+  [by={Michel Sardou},cov={les-grandes-chansons},album={Les grandes chansons}]
 
   \cover
   \gtab{F}{1:022100}
@@ -10,6 +10,8 @@
   \gtab{Dm}{XX0231}
   \gtab{Gm}{1:022000}
   \gtab{D7}{XX0212}
+  \ifnorepeatchords%
+  \else%
   \gtab{Gm7}{1:022030}
   \gtab{G#}{3:022100}
   \gtab{C#}{1:X32010}
@@ -19,6 +21,7 @@
   \gtab{B&m}{1:X02210}
   \gtab{B7}{X21202}
   \gtab{E}{022100}
+  \fi%
   \gtab{C#7}{1:032000}
   \gtab{F#m}{2:022000}
   \gtab{G#7}{4:020100}
@@ -31,7 +34,6 @@
   \gtab{B&7}{1:X02020}
   \gtab{E&m}{001342}
 
-
   \begin{verse}
     \[F]Terre brûlée, au vent des \[B&]landes de \[F]pierre
     Autour des lacs, c'est \[C]pour les vi\[Dm]vants
@@ -41,6 +43,7 @@
     C'est le décor du Connema\[C]ra
   \end{verse}
 
+  \begin{repeatedchords}
   \begin{verse*}
     \[F]Au printemps suivant le \[B&]ciel irlan\[F]dais
     Était en paix Mau\[C]reen a plon\[Dm]gé
@@ -50,6 +53,7 @@
     De \[D7]Lime\[Gm]rick, Mau\[Gm7]reen a dit \[C]oui
   \end{verse*}
 
+  \transposition{3}
   \begin{verse*}
     \[G#]De Tipperrary Ba\[C#]lly Connelly
     Et de Galway, ils \[E&]sont arri\[Fm]vés
@@ -58,6 +62,7 @@
     Les Flaherty du \[F7]Ring of Ke\[B&m]rry
     Et de quoi boire trois jours et deux \[E&]nuits \[B7]
   \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
     Là-\[E]bas, au Connema\[C#7]ra
@@ -67,15 +72,16 @@
     \[C#m]Et que la fo\[F#m]lie, ça se \[E]dan\[B7]se
   \end{chorus}
 
-  \begin{verse*}
-    \[D]Terre brûlée, au vent des\[G]landes de \[D]pierre
+  \begin{verse}
+    \[D]Terre brûlée, au vent des \[G]landes de \[D]pierre
     Autour des lacs, c'est \[A]pour les vi\[Bm]vants
     Un peu d'enfer le Connema\[A]ra
     \[Em]Des nuages noirs qui \[B7]viennent du \[Em]nord
     Colorent la terre, les \[B7]lacs les ri\[Em]vières
     C'est le décor du Connema\[A]ra
-  \end{verse*}
+  \end{verse}
 
+  \begin{repeatedchords}
   \begin{verse*}
     \[D]On y vit encore au \[G]temps des Ga\[D]els
     Et de Cromwell, au \[A]rythme des \[Bm]pluies
@@ -85,6 +91,8 @@
     Et \[B7]replon\[Em]ger pour l'éterni\[A]té
   \end{verse*}
 
+  \transposition{3}
+
   \begin{verse*}
     \[F]On y voit encore des \[B&]hommes d'aill\[F]eurs
     Venus chercher le \[C]repos de \[Dm]l'âme
@@ -93,6 +101,7 @@
     Il est tout près, où \[D7]les Irlan\[Gm]dais
     Feront la paix autour de la \[C]croix \[G#7]
   \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
     Là-\[C#]bas, au Connema\[B&7]ra
@@ -103,4 +112,3 @@
   \end{chorus}
 
 \endsong
-

@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Bring 'em home}
-  [by=Bruce Springsteen,cov=we-shall-overcome,album=We shall overcome]
+  [by={Bruce Springsteen},cov={we-shall-overcome},album={We shall overcome}]
 
   \cover
   \capo{3}
@@ -17,46 +17,48 @@
     Bring 'em \[G]home, bring 'em \[C]home
   \end{verse}
 
-  \begin{verse}
-    It will make the politicians sad, I know
-    Bring 'em home, bring 'em home
-    They wanna tangle with their foe
-    Bring 'em home, bring 'em home
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      It will \[C]make the politicians sad, I know
+      Bring 'em \[Am]home, bring 'em home
+      They wanna \[F]tangle with their \[C]foe
+      Bring 'em \[G]home, bring 'em \[C]home
+    \end{verse}
 
-  \begin{verse}
-    They wanna test their grand theories
-    Bring 'em home, bring 'em home
-    With the blood of you and me
-    Bring 'em home, bring 'em home
-  \end{verse}
+    \begin{verse}
+      They wanna \[C]test their grand theories
+      Bring 'em \[Am]home, bring 'em home
+      With the \[F]blood of you and \[C]me
+      Bring 'em \[G]home, bring 'em \[C]home
+    \end{verse}
 
-  \begin{verse}
-    Now we'll give no more brave young lives
-    Bring 'em home, bring 'em home
-    For the gleam in someone's eyes
-    Bring 'em home, bring 'em home
-  \end{verse}
+    \begin{verse}
+      Now we'll \[C]give no more brave young lives
+      Bring 'em \[Am]home, bring 'em home
+      For the \[F]gleam in someone's \[C]eyes
+      Bring 'em \[G]home, bring 'em \[C]home
+    \end{verse}
 
-  \begin{verse}
-    The men will cheer and the boys will shout
-    Bring 'em home, bring 'em home
-    Yeah and we will all turn out
-    Bring 'em home, bring 'em home
-  \end{verse}
+    \begin{verse}
+      The men will \[C]cheer and the boys will shout
+      Bring 'em \[Am]home, bring 'em home
+      Yeah and we \[F]will all turn \[C]out
+      Bring 'em \[G]home, bring 'em \[C]home
+    \end{verse}
 
-  \begin{verse}
-    The church bells will ring with joy
-    Bring 'em home, bring 'em home
-    To welcome our darlin', girls and boys
-    Bring 'em home, bring 'em home
-  \end{verse}
+    \begin{verse}
+      The church \[C]bells will ring with joy
+      Bring 'em \[Am]home, bring 'em home
+      To welcome our \[F]darlin', girls and \[C]boys
+      Bring 'em \[G]home, bring 'em \[C]home
+    \end{verse}
 
-  \begin{verse}
-    We will lift their voice and song
-    Bring 'em home, bring 'em home
-    When Johnny comes marching home
-    Bring 'em home, bring 'em home
-  \end{verse}
+    \begin{verse}
+      We will \[C]lift their voice and song
+      Bring 'em \[Am]home, bring 'em home
+      When John\[F]ny comes marching \[C]home
+      Bring 'em \[G]home, bring 'em \[C]home
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

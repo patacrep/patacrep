@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{A Horse With No Name}
-  [by=America,cov=America,album=America]
+\beginsong{A horse with no name}
+  [by={America},cov={America},album={America}]
 
   \cover
   \gtab{Em}{022000}
@@ -38,7 +38,9 @@
       My \[Em]skin began to turn \[D6/9]red
       After \[Em]three days in the \[D6/9]desert fun
       I was \[Em]looking at a river \[D6/9]bed
+    \end{bridge}
 
+    \begin{bridge}
       And the \[Em]story it told of a \[D6/9]river that flowed
       Made me \[Em]sad to think it was \[D6/9]dead
     \end{bridge}

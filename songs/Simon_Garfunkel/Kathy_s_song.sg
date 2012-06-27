@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Kathy's song}
-  [by=Simon \& Garfunkel,cov=the-definitive,album=The definitive]
+  [by={Simon \& Garfunkel},cov={the-definitive},album={The definitive}]
 
   \cover
   \gtab{G}{320003}

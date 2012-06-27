@@ -1,7 +1,7 @@
 \selectlanguage{spanish}
 \songcolumns{2}
 \beginsong{Clandestino}
-  [by=Manu Chao,cov=clandestino,album=Clandestino]
+  [by={Manu Chao},cov={clandestino},album={Clandestino}]
 
   \cover
   \gtab{F#m}{2:022000}

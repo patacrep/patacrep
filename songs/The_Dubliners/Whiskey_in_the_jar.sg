@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Whiskey in the jar}
-  [by=The Dubliners,cov=irish-pub-songs,album=Irish pub songs]
+  [by={The Dubliners},cov={irish-pub-songs},album={Irish pub songs}]
 
   \cover
   \capo{2}

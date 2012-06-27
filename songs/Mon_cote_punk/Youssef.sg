@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Youssef}
-  [by=Mon côté punk,cov=mon-cote-punk,album=Mon côté punk]
+  [by={Mon côté punk},cov={mon-cote-punk},album={Mon côté punk}]
 
   \cover
   \gtab{Gm}{3:022000}

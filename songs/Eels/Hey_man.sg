@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Hey man}
-  [by=Eels,cov=blinking-lights,album=Blinking lights]
+  [by={Eels},cov={blinking-lights},album={Blinking lights}]
 
   \cover
   \gtab{G}{320003}

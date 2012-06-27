@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Dans tes yeux}
-  [by=Anis,cov=rodeo-boulevard,album=Rodéo Boulevard]
+  [by={Anis},cov={rodeo-boulevard},album={Rodéo Boulevard}]
 
   \cover
   \gtab{Dm}{5:X02210}
@@ -84,7 +84,7 @@
   \end{repeatedchords}
 
   \begin{verse*}
-    \musicnote {\Outro : \nolyrics \[A{\shrp} C7 A Dm A{\shrp} Gm6 A Dm] \echo{adlib}}
+    \musicnote {\Outro : \nolyrics \[A{\shrp} C7 A Dm A{\shrp} Gm6 A Dm] \Adlib}
   \end{verse*}
 
 \endsong

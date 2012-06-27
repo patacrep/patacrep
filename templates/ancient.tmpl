@@ -19,7 +19,7 @@
 % The latest version of this program can be obtained from
 % http://songs.sourceforge.net.
 %
-% Modified to serve personnal purposes. Newer versions can be 
+% Modified to serve personnal purposes. Newer versions can be
 % obtained from http://www.lohrun.net.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Template parameters
@@ -31,14 +31,14 @@
 %%:  {"name":"lang", "description":"Language", "default":"english"},
 %%:  {"name":"instruments", "description":"Instruments", "type":"flag", "values":["guitar","ukulele"], "join":",", "mandatory":true, "default":["guitar"]},
 %%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["diagram","pictures"]},
-%%:  {"name":"version", "description":"Version", "default":"3.6.0"},
+%%:  {"name":"version", "description":"Version", "default":"3.6.1"},
 %%:  {"name":"subtitle", "description":"Subtitle"},
 %%:  {"name":"web", "description":"Web", "default":"http://www.patacrep.com"},
 %%:  {"name":"mail", "description":"Email", "default":"crep@team-on-fire.com"},
 %%:  {"name":"picture", "description":"Picture", "type":"file", "default":"feel-the-music"},
 %%:  {"name":"picturecopyright", "description":"Copyright", "default":"foxygamergirl@deviantart.com"},
 %%:  {"name":"footer", "description":"Footer", "default":"\\begin{flushleft}\\includegraphics[width=3cm]{on-fire}\\end{flushleft}"},
-%%:  {"name":"license", "description":"License", "default":"\\input{license.tex}"},
+%%:  {"name":"license", "description":"License", "type":"file", "default":"license.tex"},
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
 %%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#FFFDB3"},
@@ -46,7 +46,8 @@
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
-\documentclass[\getbooktype,\getinstruments,\getbookoptions,\getmainfontsize]{tex/crepbook}
+\makeatletter\def\input@path{{tex/}}
+\documentclass[\getbooktype,\getinstruments,\getbookoptions,\getmainfontsize]{crepbook}
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese,english,spanish,french]{babel}
 \usepackage[T1]{fontenc}
@@ -78,18 +79,25 @@
 \renewcommand{\idxbgcolor}{IndexBgColor}
 
 \renewcommand{\printchord}[1]{\mdseries\ttfamily\upshape#1}
+
 \pagestyle{empty}
 
 \begin{document}
 
 \maketitle
 
+% licence
+\newpage
+\input{\getlicense}
+\newpage
+
 \showindex{Index des chansons}{titleidx}
 
 \notenamesin{A}{B}{C}{D}{E}{F}{G}
 \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
 
-\songsection{Liste des chansons}
+\phantomsection
+\addcontentsline{toc}{section}{Liste des chansons}
 \begin{songs}{titleidx,authidx}
   \getsongslist
 \end{songs}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Almarita}
-  [by=La Rue Kétanou,cov=y-a-des-cigales-dans-la-fourmiliere,album=Y'a des cigales dans la fourmilière]
+  [by={La Rue Kétanou},cov={y-a-des-cigales-dans-la-fourmiliere},album={Y'a des cigales dans la fourmilière}]
 
   \cover
   \gtab{B&m}{6:022000}

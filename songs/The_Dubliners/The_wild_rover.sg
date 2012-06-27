@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{The wild rover}
-  [by=The Dubliners,cov=irish-pub-songs,album=Irish pub songs]
+  [by={The Dubliners},cov={irish-pub-songs},album={Irish pub songs}]
 
   \cover
   \gtab{G}{320003}

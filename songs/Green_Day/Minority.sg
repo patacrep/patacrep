@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Minority}
-  [by=Green Day,cov=greenday-warning,album=Warning]
+  [by={Green Day},cov={greenday-warning},album={Warning}]
 
   \cover
   \gtab{C}{X32010}
@@ -24,9 +24,9 @@
   \end{verse}
 
   \begin{bridge}
-    \[Am]Stepped out of the \[F]line,\[C]
+    \[Am]Stepped out of the \[F]line\[C]
     \[Am]Like a sheep runs \[F]from the \[G]herd
-    \[Am]Marching out of \[F]time,\[C]
+    \[Am]Marching out of \[F]time\[C]
     \[Am]To my own \[F]beat \[G]now
   \end{bridge}
 

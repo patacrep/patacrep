@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Les épées Durandil}
-  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne,album=Machins de taverne]
+  [by={Le Donjon de Naheulbeuk},cov={machins-de-taverne},album={Machins de taverne},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
   \capo{5}

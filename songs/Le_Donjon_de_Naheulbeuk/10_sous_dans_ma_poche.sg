@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{10 sous dans ma poche}
-  [by=Le Donjon de Naheulbeuk,cov=machins-de-taverne,album=Machins de taverne]
+  [by={Le Donjon de Naheulbeuk},cov={machins-de-taverne},album={Machins de taverne},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
   \gtab{Am}{X02210}
@@ -22,40 +23,42 @@
   \begin{chorus}
     Et tou\[Am]jours gai gai
     Et tou\[Em]jours gaiement
-    \[F]Y'a bien des gens
+    \[F]{Y'a} bien des gens
     Dans \[G]mon village
     Qui n'en \[C]ont \[E7]pas \[Am]tant
     \rep{2}
   \end{chorus}
 
-  \begin{verse}
-    J'ai 8 sous dans ma poche{\ldots}
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      J'ai 8 sous dans ma poche{\ldots}
+    \end{verse}
 
-  \begin{verse}
-    J'ai 6 sous dans ma poche{\ldots}
-  \end{verse}
+    \begin{verse}
+      J'ai 6 sous dans ma poche{\ldots}
+    \end{verse}
 
-  \begin{verse}
-    J'ai 4 sous dans ma poche{\ldots}
-  \end{verse}
+    \begin{verse}
+      J'ai 4 sous dans ma poche{\ldots}
+    \end{verse}
 
-  \begin{verse}
-    J'ai 2 sous dans ma poche{\ldots}
-  \end{verse}
+    \begin{verse}
+      J'ai 2 sous dans ma poche{\ldots}
+    \end{verse}
 
-  \begin{verse}
-    J'ai pas d'sous dans ma poche
-    J'ai aucun argent
-  \end{verse}
+    \begin{verse}
+      J'ai pas d'sous dans ma poche
+      J'ai aucun argent
+    \end{verse}
 
-  \begin{chorus}
-    Et mes poches sont vides
-    Et oui c'est emmerdant
-    Car c'est le nain
-    Dans mon village
-    Qui a tout l'argent
-  \end{chorus}
+    \begin{chorus}
+      Et mes \[Am]poches sont vides
+      Et oui c'est \[Em]emmerdant
+      \[F]Car c'est le nain
+      Dans \[G]mon village
+      Qui a \[C]tout \[E7]{l'ar}\[Am]gent
+    \end{chorus}
+  \end{repeatedchords}
 
   \lilypond{10_sous_dans_ma_poche-2}
 

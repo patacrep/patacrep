@@ -1,0 +1,222 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Chicken quest}
+  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
+  url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
+
+  \cover
+  \capo{2}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab{Dm}{XX0231}
+  \gtab{G#}{4:022100}
+  \ifnorepeatchords%
+  \gtab*{G6}{320000}
+  \gtab{F#7}{2:020100}
+  \else%
+  \gtab{Cm}{3:X02210}
+  \gtab{E&}{3:X32010}
+  \gtab{B&}{1:X02220}
+  \gtab{A&}{4:022100}
+  \gtab*{B&6}{3:020000}
+  \gtab{A7}{X02020}
+  \fi%
+
+  \textnote{\Intro}
+  \begin{verse*}
+    \[Am]Oyez, o\[G]yez damoi\[C]selles, damoi\[G]seaux
+    Lais\[C]sez-vous con\[F]ter la quê\[Am]te des pou\[E]lets
+    \[Am]Voici l'his\[G]toire d'un va\[C]leureux hé\[G]ros
+    \[C]Frais comme \[F]{l'aube}, aussi \[E]preux qu'un na\[Am]vet
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Am]Né à Lou\[G]bet, non loin \[C]de Valto\[G]rdu
+      F\[C]meux pour ses \[F]chaises et son \[Am]fromage \[E]cru
+      Au \[Am]lait de fu\[G]ret, affi\[C]né sous les \[G]pieds
+      On \[C]sait qu'il est \[F]bon quand poussent \[E]les champi\[Am]gnons
+    \end{verse*}
+
+    \begin{verse*}
+      \[Am]Avec un \[G]pain aux ai\[C]relles, j'vous dis \[G]pas
+      Le muns\[C]ter à cô\[F]té c'est \[Am]fade comme du nou\[E]gat
+      {\og}Et \[Am]alors, \[G]personne ne m'met une \[C]baffe pour les bêtises que \[G]{j'dis} ?
+      Ah d'ac\[C]cord, tout l'monde se bouche les \[F]oreilles et ils n'\[E]écoutent pas. Bon ben tant \[Am]pis, j'vais continuer à raconter n'importe quoi{\fg}
+    \end{verse*}
+
+    \begin{verse*}
+      Rem\[Am]pailleurs de \[G]chaises, ses \[C]parents é\[G]taient
+      \[C]Et son grand-\[F]père des vo\[Am]lailles éle\[E]vait
+      \[Am]Par un ma\[G]tin un drame \[C]est surve\[G]nu :
+      \[C]Dans la basse-\[F]cour, les pou\[E]lets n'étaient \[Am]plus
+    \end{verse*}
+
+    \begin{verse*}
+      \[Am]{L'enfant} per\[G]çu un si\[C]gne du de\[G]stin
+      Au \[C]fond de son \[F]cœur et de \[E]ses inte\[Am]stins
+    \end{verse*}
+  \end{repeatedchords}
+
+
+  \begin{chorus}
+    Voi\[Am]ci le ranger du chaos
+    Le \[G]pourfendeur des sept pou\[F]lets
+    S'en \[Am]allant par monts et par vaux
+    Par-\[G]delà les granges à fu\[F]mier
+  \end{chorus}
+
+  \begin{chorus}
+    \nolyrics{\[C Am F G] \rep{2}}
+  \end{chorus}
+
+
+  \begin{verse}
+    À \[Am]dix pas d'la volière
+    Son premier adversaire
+    A\[C]dorateur de Dlul
+    Il \[G]le trouva par terre
+    Ron\[F]flant à faire des bulles
+  \end{verse}
+
+  \begin{verse*}
+    \[F]{C'est} \[E]nul, \[F]{c'est} \[E]nul, \[F]{c'est} \[E]nul, \[F]{c'est} \[E]nul
+    Ça démarre très très mal, c'est nul
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Le \[Am]deuxième dans la lice
+      Tout un champ de maïs
+      Ve\[C]nait de picorer
+      Bour\[G]souflé de délices
+      Se \[F]laissa ramasser
+    \end{verse}
+
+    \begin{verse*}
+      \[F]Mau\[E]vais, \[F]mau\[E]vais, \[F]mau\[E]vais, \[F]mau\[E]vais
+      Au fond ton héros n'a rien fait !
+    \end{verse*}
+
+
+    \begin{chorus}
+      Voi\[Am]ci le ranger du chaos
+      Le \[G]pourfendeur des sept pou\[F]lets
+      S'en \[Am]allant par monts et par vaux
+      Par-\[G]delà les granges à fu\[F]mier
+    \end{chorus}
+
+    \begin{chorus}
+      Plus \[C]fort, si l'ennemi est mort
+      Plus \[Am]grand, monté sur un banc
+      Plus \[F]beau, pour ceux qui le voient de \[G]dos
+      Plus \[C]bleu, quand c'est dangereux
+      Plus \[Am]plein, de rêves que d'entrain
+      Plus \[F]gras, qu'une charrette de confit \[G]{d'oie}
+    \end{chorus}
+
+
+    \begin{verse}
+      Au \[Am]sommet du clocher
+      Se croyait bien caché
+      Le \[C]troisième volatile
+      Mais \[G]le vent a soufflé
+      Il \[F]tomba comme une tuile
+    \end{verse}
+
+    \begin{verse*}
+      \[F]Dé\[E]bile, \[F]dé\[E]bile, \[F]dé\[E]bile, \[F]dé\[E]bile
+      Tu parles d'une quête c'est trop facile
+    \end{verse*}
+
+   \transposition{3}
+   \begin{verse}
+      Le \[Am]quatrième fuyard
+      De loin le plus fêtard
+      D'hor\[C]mones s'était farci
+      Le \[G]ranger s'en empare
+      En \[F]pleine betterave party
+    \end{verse}
+
+    \begin{verse*}
+      \[F]Pou\[E]rri, \[F]pou\[E]rri, \[F]pou\[E]rri, \[F]pou\[E]rri
+      Ton héros il est trop moisi
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse}
+    \musicnote{\Bridge 1}
+    \[Am]Pour le plus joueur il dû \[F]faire des fouilles
+    Dans \[C]chaque maison se prendre \[E]des coups d'pied
+    Mais \[Am]à la taverne il en\[F]tendit : {\og}Ouille{\fg}
+    L'a\[C]nimal venait de se \[E]faire plumer
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Sur \[Am]la grand' route le vainqueur \[F]était fier
+      Quand \[C]le sixième poulet sur\[E]git furieux
+      Si \[Am]aveuglé d'vouloir ven\[F]ger ses frères
+      Qu'il \[C]ne vit pas du champ sor\[E]tir les bœufs
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse}
+    \musicnote{\Bridge 2}
+    \[A]Le septième ce fut le \[G6]coq
+    Sei\[D]gneur glorieux de la basse-\[F#7]cour
+    Ra\[A]pide, paré à tous les \[G6]chocs
+    Son \[D]seul point faible, c'est l'a\[F#7]mour
+  \end{verse}
+
+  \begin{repeatedchords}
+    \transposition{-3}
+    \begin{verse}
+      \musicnote{\Bridge 1}
+      \[Am]Alors le ranger s'est \[F]déguisé :
+      D'un \[C]bec et de plumes, il s'est \[E]encollé
+      Puis \[Am]il s'approcha du gal\[F]linacé
+      Par \[C]ses charmes il tenta de l'\[E]appâter
+    \end{verse}
+
+    \begin{verse*}
+      \[Am]Messire le Coq fut aussi\[F]tôt séduit
+      Et \[C]sur cette poule, enthousiaste, \[E]il fondit
+      Dans \[Am]la cohue de plumes \[F]qui suivit
+      On \[C]ne sut plus du tout qui \[E]était qui !
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse}
+    \musicnote{\Bridge 3}
+    \[Am]La la la la, la la la la la la la
+    \[F]La la la la, la la la la la la la
+    \[Dm]La la la la, la la la la la la \[C]la
+    La la \[E]la
+    \rep{2}
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      Je \[Am]suis le ranger du chaos
+      Je \[G]fus pris pour une pou\[F]lette
+      Et \[Am]mon grand-père qu'était miro
+      M'em\[G]brocha d'un coup d'arba\[F]lète
+    \end{chorus}
+
+    \begin{chorus}
+      Ble\[C]ssé, c'est bien fait pour toi
+      Per\[Am]cé, mais à quel endroit ?
+      San\[F]glant, va pleurer chez ta ma\[G]man
+      Cham\[C]pion, t'auras un biberon
+      Ga\[Am]gnant, ou alors du flan
+      Guer\[F]rier, ou alors \dots du \[G]riz
+      \[G#]Du \[G]riz, \[G#]du \[G]riz, \[G#]du \[G]riz, \[G#]du \[G]riz
+      \[G]Au \[C]lait
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

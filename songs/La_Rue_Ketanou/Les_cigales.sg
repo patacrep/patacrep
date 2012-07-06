@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les cigales}
-  [by={La Rue Kétanou},cov={y-a-des-cigales-dans-la-fourmiliere},album={Y'a des cigales dans la fourmilière}]
+  [by={La Rue Kétanou},cov={y-a-des-cigales-dans-la-fourmiliere},album={Y'a des cigales dans la fourmilière},%
+  url={http://www.larueketanou.com}]
 
   \cover
   \gtab{Dm}{XX0231}
@@ -10,7 +11,6 @@
   \gtab{Am}{X02210}
   \gtab{F}{1:022100}
   \gtab{C}{X32010}
-
 
   \begin{verse}
     Eh bour\[Dm]geois entends \[E]tu ?

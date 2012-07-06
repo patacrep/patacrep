@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La déclaration}
-  [by={Debout sur le Zinc},cov={les-promesses},album={Les promesses}]
+  [by={Debout sur le Zinc},cov={les-promesses},album={Les promesses},%
+  url={http://www.dslz.org}]
 
   \cover
   \gtab{Em}{022000}

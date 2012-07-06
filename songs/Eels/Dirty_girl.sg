@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Dirty girl}
-  [by={Eels},cov={shootenanny},album={Shootenanny}]
+  [by={Eels},cov={shootenanny},album={Shootenanny},%
+  url={http://www.eelstheband.com}]
 
   \cover
   \gtab{C}{X32010}

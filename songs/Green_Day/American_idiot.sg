@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{American idiot}
-  [by={Green Day},cov={american-idiot},album={American idiot}]
+  [by={Green Day},cov={american-idiot},album={American idiot},%
+  url={http://www.greenday.com}]
 
   \cover
   \gtab*{A&5}{4:022XXX}

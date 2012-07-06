@@ -1,14 +1,13 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Poèmes}
-  [by={Les Hurlements d'Léo},cov={la-belle-affaire},album={La belle affaire}]
-
+  [by={Les Hurlements d'Léo},cov={la-belle-affaire},album={La belle affaire},%
+  url={http://www.hurlements.com}]
 
   \cover
   \gtab{C#m}{4:X02210}
   \gtab{F#m}{2:022000}
   \gtab{G#}{4:022100}
-
 
   \begin{verse}
     \[C#m]Elle m'appelle toutes les nuits

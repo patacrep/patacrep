@@ -1,8 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Contes, vents et marées}
-  [by={Les Ogres de Barback},cov={irfan-le-heros},album={Irfan le héros}]
-
+  [by={Les Ogres de Barback},cov={irfan-le-heros},album={Irfan le héros},%
+  url={http://www.lesogres.com}]
 
   \cover
   \gtab{E&}{6:X02220}
@@ -10,7 +10,6 @@
   \gtab{Cm}{3:X02210}
   \gtab{Gm}{3:022000}
   \gtab{G#}{4:022100}
-
 
   \begin{verse}
     \[E&]Sait-on jamais où les vents nous \[B&]mènent ?

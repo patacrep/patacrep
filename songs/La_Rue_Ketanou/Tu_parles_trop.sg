@@ -1,14 +1,14 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tu parles trop}
-  [by={La Rue Kétanou},cov={en-attendant-les-caravanes},album={En attendant les caravanes}]
+  [by={La Rue Kétanou},cov={en-attendant-les-caravanes},album={En attendant les caravanes},%
+  url={http://www.larueketanou.com}]
 
   \cover
   \gtab{Em}{7:X02210}
   \gtab{Am}{5:022000}
   \gtab{D}{5:X02220}
   \gtab{G}{3:022100}
-
 
   \begin{chorus}
     Tu parles \[Em]trop, tu parles \[Am]trop

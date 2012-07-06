@@ -1,14 +1,14 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{En pleine mer}
-  [by={Karpatt},cov={dans-le-caillou},album={Dans le caillou}]
+  [by={Karpatt},cov={dans-le-caillou},album={Dans le caillou},%
+  url={http://www.karpatt.net}]
 
   \cover
   \gtab{Bm}{2:X02210}
   \gtab{F#7}{2:022100}
   \gtab{A}{X02220}
   \gtab{Em}{022000}
-
 
   \begin{verse*}
     \musicnote{\Intro}

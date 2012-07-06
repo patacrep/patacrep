@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ma petite chérie}
-  [by={Debout sur le Zinc},cov={debout-sur-le-zinc},album={Debout sur le zinc}]
+  [by={Debout sur le Zinc},cov={debout-sur-le-zinc},album={Debout sur le zinc},%
+  url={http://www.dslz.org}]
 
   \cover
   \gtab{C}{3:X02220}

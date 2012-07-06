@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Bristol}
-  [by={Herman Düne},cov={giant},album={Giant}]
+  [by={Herman Düne},cov={giant},album={Giant},%
+  url={http://www.hermandune.com}]
 
   \cover
   \gtab{Em}{7:X02210}

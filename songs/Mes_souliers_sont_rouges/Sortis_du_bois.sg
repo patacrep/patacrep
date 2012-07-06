@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sortis du bois}
-  [by={Mes souliers sont rouges},cov={5},album={5}]
+  [by={Mes souliers sont rouges},cov={5},album={5},%
+  url={http://www.messoulierssontrouges.com}]
 
   \cover
   \capo{2}

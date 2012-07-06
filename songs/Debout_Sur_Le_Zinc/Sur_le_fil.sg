@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sur le fil}
-  [by={Debout sur le Zinc},cov={la-fuite-en-avant},album={La fuite en avant}]
+  [by={Debout sur le Zinc},cov={la-fuite-en-avant},album={La fuite en avant},%
+  url={http://www.dslz.org}]
 
   \cover
   \gtab{F}{1:022100}
@@ -121,4 +122,5 @@
       \nolyrics \[D Am G C E7]
     \end{chorus}
   \end{repeatedchords}
+
 \endsong

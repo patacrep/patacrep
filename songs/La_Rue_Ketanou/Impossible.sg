@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Impossible}
-  [by={La Rue Kétanou},cov={ouvert-a-double-tour},album={Ouvert à double tour}]
+  [by={La Rue Kétanou},cov={ouvert-a-double-tour},album={Ouvert à double tour},%
+  url={http://www.larueketanou.com}]
 
   \cover
   \gtab{Am}{X02210}
@@ -9,7 +10,6 @@
   \gtab{E7}{020100}
   \gtab{Dm}{XX0231}
   \gtab{G}{320003}
-
 
   \begin{verse}
     \[Am] C'était bien à Ménilmon\[C]tant

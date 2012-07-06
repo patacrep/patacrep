@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Alcohol}
-  [by={Gogol Bordello},cov={super-taranta},album={Super Taranta!}]
+  [by={Gogol Bordello},cov={super-taranta},album={Super Taranta!},%
+  url={http://www.gogolbordello.com}]
 
   \cover
   \gtab{Am}{5:022000}

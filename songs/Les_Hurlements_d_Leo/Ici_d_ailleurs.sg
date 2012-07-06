@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ici, d'ailleurs}
-  [by={Les Hurlements d'Léo},cov={la-belle-affaire},album={La belle affaire}]
+  [by={Les Hurlements d'Léo},cov={la-belle-affaire},album={La belle affaire},%
+  url={http://www.hurlements.com}]
 
   \cover
   \gtab{Bm}{2:X02210}

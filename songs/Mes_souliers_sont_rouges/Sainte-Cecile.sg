@@ -1,8 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sainte Cécile}
-  [by={Mes souliers sont rouges},cov={proches},album={Proches}]
-
+  [by={Mes souliers sont rouges},cov={proches},album={Proches},%
+  url={http://www.messoulierssontrouges.com}]
 
   \cover
   \gtab{Dm}{5:X02210}
@@ -106,10 +106,9 @@
   \end{chorus}
 
 \endsong
-
-\beginscripture{Les Souliers}
+\beginscripture{Les Souliers}%
   Celle-ci n'est pas une chanson traditionnelle, elle s'apparente plutôt %
   au répertoire réaliste -- hélas !. {\og}Pour le salut de nos âmes %
   tourmentées et de nos foies malades, mes frères, prions !{\fg} Extrait %
   d'un cantique du père Ludo.%
-\endscripture
+\endscripture%

@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Chanson d'amur}
-  [by={As de Trêfle},cov={haut-les-nains},album={Haut les nains}]
+  [by={As de Trêfle},cov={haut-les-nains},album={Haut les nains},%
+  url={http://www.as-de-trefle.com}]
 
   \cover
   \gtab{Cm}{3:X02210}
@@ -60,4 +61,5 @@
       \[Cm]Quand je t'ai \[Dm]prise sur le \[Gm]fur
     \end{verse*}
   \end{repeatedchords}
+
 \endsong

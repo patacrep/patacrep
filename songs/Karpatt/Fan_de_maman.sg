@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Fan de maman}
-  [by={Karpatt},cov={dans-d-beaux-draps},album={Dans d'beaux draps}]
+  [by={Karpatt},cov={dans-d-beaux-draps},album={Dans d'beaux draps},%
+  url={http://www.karpatt.net}]
 
   \cover
   \gtab{Em}{7:X02210}

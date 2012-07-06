@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Scylla}
-  [by={Debout sur le Zinc},cov={de-charybde-en-scylla},album={De Charybde en Scylla}]
+  [by={Debout sur le Zinc},cov={de-charybde-en-scylla},album={De Charybde en Scylla},%
+  url={http://www.dslz.org}]
 
   \cover
   \gtab{Dm}{XX0231}
@@ -84,4 +85,5 @@
       \nolyrics \[B{\flt} A B{\flt} A]
     \end{chorus}
   \end{repeatedchords}
+
 \endsong

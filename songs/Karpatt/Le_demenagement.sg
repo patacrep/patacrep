@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Le déménagement}
-  [by={Karpatt},cov={dans-le-caillou},album={Dans le caillou}]
+  [by={Karpatt},cov={dans-le-caillou},album={Dans le caillou},%
+  url={http://www.karpatt.net}]
 
   \cover
   \gtab{Bm}{2:X02210}

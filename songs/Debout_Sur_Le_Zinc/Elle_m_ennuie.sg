@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Elle m'ennuie}
-  [by={Debout sur le Zinc},album={Des singes et des moutons},cov={des-singes-et-des-moutons}]
+  [by={Debout sur le Zinc},cov={des-singes-et-des-moutons},album={Des singes et des moutons},%
+  url={http://www.dslz.org}]
 
   \cover
   \gtab{Dm}{XX0231}
@@ -84,4 +85,5 @@
   \begin{verse*}
     \musicnote {\Outro : \nolyrics \[Dm]}
   \end{verse*}
+
 \endsong

@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Packing blankets}
-  [by={Eels},cov={daisies-of-the-galaxy},album={Daisies of the galaxy}]
+  [by={Eels},cov={daisies-of-the-galaxy},album={Daisies of the galaxy},%
+  url={http://www.eelstheband.com}]
 
   \cover
   \capo{3}

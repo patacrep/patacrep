@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La révolution}
-  [by={As de Trêfle},cov={houlala},album={Houlala}]
+  [by={As de Trêfle},cov={houlala},album={Houlala},%
+  url={http://www.as-de-trefle.com/}]
 
   \cover
   \gtab{B&m}{1:X02210}
@@ -72,4 +73,5 @@
       À \[G&]rouler des galoches
     \end{verse*}
   \end{repeatedchords}
+
 \endsong

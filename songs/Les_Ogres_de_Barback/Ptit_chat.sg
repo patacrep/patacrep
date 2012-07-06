@@ -1,8 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{P'tit chat}
-  [by={Les Ogres de Barback},cov={pitt-ocha},album={Pitt Ocha}]
-
+  [by={Les Ogres de Barback},cov={pitt-ocha},album={Pitt Ocha},%
+  url={http://www.lesogres.com}]
 
   \cover
   \gtab{C}{3:X02220}

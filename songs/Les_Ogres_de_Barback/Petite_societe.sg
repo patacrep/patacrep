@@ -1,8 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Petite société}
-  [by={Les Ogres de Barback},cov={la-fanfare-du-belgistan},album={La fanfare du Belgistan}]
-
+  [by={Les Ogres de Barback},cov={la-fanfare-du-belgistan},album={La fanfare du Belgistan},%
+  url={http://www.lesogres.com}]
 
   \cover
   \gtab{Dm}{5:X02210}
@@ -10,7 +10,6 @@
   \gtab{C}{3:X02220}
   \gtab{B&}{6:022100}
   \gtab{A}{5:022100}
-
 
   \begin{verse}
     \[Dm]{Il y a} des fan\[F]tômes dans ma ville

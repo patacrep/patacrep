@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mélisande}
-  [by={Karpatt},cov={dans-d-beaux-draps},album={Dans d'beaux draps}]
+  [by={Karpatt},cov={dans-d-beaux-draps},album={Dans d'beaux draps},%
+  url={http://www.karpatt.net}]
 
   \cover
   \capo{5}

@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Nuit humide}
-  [by={Mes souliers sont rouges},cov={tape-la-galoche},album={Tape la galoche}]
+  [by={Mes souliers sont rouges},cov={tape-la-galoche},album={Tape la galoche},%
+  url={http://www.messoulierssontrouges.com}]
 
   \cover
   \capo{7}
@@ -51,9 +52,8 @@
   \end{verse}
 
 \endsong
-
-\beginscripture{Les Souliers}
+\beginscripture{Les Souliers}%
   Une chanson d'amour entre rêve et réalité. %
   Que celui qui n'a jamais connu pareille mésaventure %
   nous lance la première pomme.%
-\endscripture
+\endscripture%

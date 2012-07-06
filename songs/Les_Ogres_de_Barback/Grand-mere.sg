@@ -1,8 +1,8 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Grand-mère}
-  [by={Les Ogres de Barback},cov={la-fanfare-du-belgistan},album={La fanfare du Belgistan}]
-
+  [by={Les Ogres de Barback},cov={la-fanfare-du-belgistan},album={La fanfare du Belgistan},%
+  url={http://www.lesogres.com}]
 
   \cover
   \gtab{D}{5:X02220}
@@ -11,7 +11,6 @@
   \gtab{Bm}{2:X02210}
   \gtab{F#}{2:022100}
   \gtab{G}{3:022100}
-
 
   \begin{verse}
     J'vous pré\[D]viens qu'si y'a la guerre

@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tape la galoche}
-  [by={Mes souliers sont rouges},cov={tape-la-galoche},album={Tape la galoche}]
+  [by={Mes souliers sont rouges},cov={tape-la-galoche},album={Tape la galoche},%
+  url={http://www.messoulierssontrouges.com}]
 
   \cover
   \gtab{G}{320003}
@@ -102,10 +103,9 @@
   \end{verse*}
 
 \endsong
-
-\beginscripture{Les Souliers}
+\beginscripture{Les Souliers}%
   Chanson {\og}casse-cou{\fg} à jouer au grand galop, %
   \emph{Tape la Galoche} a été composée sur mesure pour les Souliers par %
   Benoît -- {\og}Bebeu l'énervant{\fg} précise Denys qui doit la chanter sans %
   assistance respiratoire.%
-\endscripture
+\endscripture%

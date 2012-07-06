@@ -1,7 +1,8 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Oh no}
-  [by={Gogol Bordello},cov={gypsy-punks},album={Gypsy punks}]
+  [by={Gogol Bordello},cov={gypsy-punks},album={Gypsy punks},%
+  url={http://www.gogolbordello.com}]
 
   \cover
   \gtab{Em}{7:X02210}

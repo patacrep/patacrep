@@ -1,15 +1,14 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{I wish I could see you soon}
-  [by={Herman Düne},cov={giant},album={Giant}]
-
+  [by={Herman Düne},cov={giant},album={Giant},%
+  url={http://www.hermandune.com}]
 
   \cover
   \gtab{C}{X32010}
   \gtab{F}{1:022100}
   \gtab{G7}{320001}
   \gtab{G}{320003}
-
 
   \begin{verse}
     I \[C]had to leave you and go \[F]away

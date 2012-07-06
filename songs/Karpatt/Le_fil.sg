@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Le fil}
-  [by={Karpatt},cov={dans-d-beaux-draps},album={Dans d'beaux draps}]
+  [by={Karpatt},cov={dans-d-beaux-draps},album={Dans d'beaux draps},%
+  url={http://www.karpatt.net}]
 
   \cover
   \gtab{Gm}{3:022000}

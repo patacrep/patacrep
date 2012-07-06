@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les mots d'amour}
-  [by={Debout sur le Zinc},cov={les-promesses},album={Les promesses}]
+  [by={Debout sur le Zinc},cov={les-promesses},album={Les promesses},%
+  url={http://www.dslz.org}]
 
   \cover
   \capo{2}

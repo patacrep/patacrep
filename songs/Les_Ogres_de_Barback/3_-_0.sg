@@ -1,15 +1,14 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{3 -- 0}
-  [by={Les Ogres de Barback},cov={terrain-vague},album={Terrain vague}]
-
+  [by={Les Ogres de Barback},cov={terrain-vague},album={Terrain vague},%
+  url={http://www.lesogres.com}]
 
   \cover
   \gtab{C}{3:X02220}
   \gtab{Dm}{5:X02210}
   \gtab{G7}{3:020100}
   \gtab{Am}{5:022000}
-
 
   \begin{verse}
     Y'a Pa\[C]ris, la capi\[Dm]tale

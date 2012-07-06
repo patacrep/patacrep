@@ -1,8 +1,8 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Accordéon pour les cons}
-  [by={Les Ogres de Barback},cov={la-fanfare-du-belgistan},album={La fanfare du Belgistan}]
-
+  [by={Les Ogres de Barback},cov={la-fanfare-du-belgistan},album={La fanfare du Belgistan},%
+  url={http://www.lesogres.com}]
 
   \cover
   \gtab{Dm}{5:X02210}
@@ -11,7 +11,6 @@
   \gtab{A}{5:022100}
   \gtab{C}{3:X02220}
   \gtab{A#}{6:022100}
-
 
   \begin{verse}
     \[Dm]Nous on adore les vo\[A7]yages bien qu'on ne voyage pas sou\[Dm]vent, an\[A7]han, an\[Dm]han

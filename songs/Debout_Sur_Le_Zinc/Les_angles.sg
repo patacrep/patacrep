@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les angles}
-  [by={Debout sur le Zinc},cov={des-singes-et-des-moutons},album={Des singes et des moutons}]
+  [by={Debout sur le Zinc},cov={des-singes-et-des-moutons},album={Des singes et des moutons},%
+  url={http://www.dslz.org}]
 
   \cover
   \gtab{Dm}{XX0231}
@@ -107,4 +108,5 @@
       \[B]Et une bonne dose \[E]de mauvaise foi
     \end{verse*}
   \end{repeatedchords}
+
 \endsong

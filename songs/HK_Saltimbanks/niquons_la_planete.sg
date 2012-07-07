@@ -1,0 +1,91 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Niquons la planète}
+  [by={HK \& Les Saltimbanks},cov={citoyen-du-monde},album={Citoyen du monde},%
+  url={http://www.saltimbanks.fr}]
+
+  \cover
+  \gtab{Dm}{5:X02210}
+  \gtab{Am}{5:022000}
+  \gtab{Gm}{3:022000}
+  \gtab{B&}{6:022100}
+  \gtab{A}{5:022100}
+  \gtab{Cm}{3:X02210}
+
+  \begin{verse}
+    Devant mon \[Dm]poste de télé
+    J'les vois m' ra\[Am]conter des salades
+    Ils disent que la \[Dm]Terre est en danger
+    Ils disent qu'notre \[Am]planète est malade
+    Ils font flip\[Gm]per ces écolos
+    À nous dire \[Dm]{qu'on} va tous crever
+    Faudrait qu'on \[B&]roule tous à vélo
+    Et pourquoi \[A]pas voter Bové ?
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Moi j'préfère \[Dm]rouler en Hummer
+      Manger des \[Am]sandwichs OGM
+      Clim à \[Dm]fond, trois cent à l'heure
+      Total, G\[Am]PS, GSM
+      Vu qu'on \[Gm]doit tous y passer
+      Alors allons-\[Dm]y tous en même temps
+      Faisons pas \[B&]les choses à moitié
+      Profitons-\[A]en
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Niquons la pla\[Gm]nète \[Cm Dm] \rep{3}
+    Niquons la pla\[B&]nète \[A]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      I have a \[Dm]dream, j'ai fait un rêve
+      D'une guerre \[Am]mondiale nucléaire
+      Où les en\[Dm]fants d'Adam et Ève
+      S'entre\[Am]tueraient comme des frères
+      I have a \[Gm]dream, oui j'ai rêvé
+      D'un tsunami, \[Dm]tremblement de terre
+      Qui détrui\[B&]rait l'humanité
+      Nous enver\[A]rait tous en enfer
+    \end{verse}
+
+    \begin{verse*}
+      Faisons \[Dm]péter la couche d'ozone
+      Rasons tout, \[Am] faisons place nette
+      Ne laissons \[Dm]surtout pas à nos mômes
+      Le plaisir \[Am]de payer nos dettes
+      I have a \[Gm]dream, je vous le dis
+      I have a \[Dm]dream, alléluia
+      Et quand vien\[B&]dra ce jour béni
+      Prions pour voir \[A]ça
+    \end{verse*}
+
+    \begin{chorus}
+      Et tant qu'à faire, faisons le \[Gm]bien \[Cm Dm]
+      Faisons pas les choses à moi\[Gm]tié \[Cm Dm]
+      Vu qu'toute façon, on va tous cre\[Gm]ver \[Cm Dm]
+      Un seul objectif en \[B&]tête : niquons la pla\[A]nète
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    Faisons l'amour à la \[Dm]terre \[Am]
+    Des tonnes de pétrole dans la \[Dm]mer \[Am]
+    Du $CO_2$ dans l'atmos\[Gm]phère \[Dm]
+    Et du phosphore dans nos rivi\[B&]ères \[A]
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{bridge}
+      De la dioxine dans nos des\[Dm]serts \[Am]
+      Des piscines en plein dé\[Dm]sert \[Am]
+      Cinquante degrés en plein hi\[Gm]ver \[Dm]
+      Et tant pis pour l'ours po\[B&]laire : un ours ? À quoi ça \[A]sert ?
+    \end{bridge}
+  \end{repeatedchords}
+
+\endsong

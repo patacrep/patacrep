@@ -1,0 +1,63 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Aller simple}
+  [by={Debout sur le Zinc},cov={de-charybde-en-scylla},album={De Charybde en Scylla},%
+  url={http://www.dslz.org}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{B&m}{1:X02210}
+  \gtab{G#}{4:022100}
+  \gtab{C#}{4:X02220}
+  \gtab{F#}{2:022100}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \[Am] Tu me lais\[Em]ses le choix, \[C] tu me laisses dé\[D]cider
+    \[Am] Au risque \[Em]de te perdre, \[C] au risque de te \[D]garder
+    \[Am] Te garder \[Em]près de moi, ça \[C]{n'est} pas sans \[D]danger
+    \[Am] Je m'en veux \[Em]quelques fois de l'ou\[D]blier
+  \end{verse}
+
+  \begin{verse*}
+    \[Am] Tu ne fais \[Em]pas le poids, \[C] tu te laisses di\[D]riger
+    \[Am] À force \[Em]de te taire, à \[C]force de t'écou\[D]ter
+    \[Am] Tu n'en as \[Em]que pour toi, de \[C]la suite dans les \[D]idées
+    \[Am] Je t'en veux \[Em]quelques fois de l'ou\[D]blier, de m'ou\[F]blier
+  \end{verse*}
+
+  \begin{chorus}
+    Tu m'avais \[B&m]dit : {\og}Je te \[G#]donnerai le so\[C#]leil{\fg}
+    Aujourd'\[F#]hui com\[F]ment croire à \[B&m]des histoires pa\[F]reilles ?
+    Tu m'avais \[B&m]promis au \[G#]ciel milles é\[C#]toiles
+    À pré\[F#]sent, j'ai \[F]bien peur que \[F#]ce monde idé\[F]al
+    Soit loin de \[F#]mon i\[F]déal
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am] Tu te lais\[Em]ses le temps, \[C] tu te laisses dé\[D]river
+      \[Am] Au gré de \[Em]tes humeurs, de \[C]ton manque d'humani\[D]té
+      \[Am] Tu joues et \[Em]je me noie dans \[C]{le flot} de tes actes \[D]manqués
+      \[Am] Ne me de\[Em]mande pas de te \[D]pardonner
+    \end{verse}
+
+    \begin{verse*}
+      \[Am] Ce que j'at\[Em]tends de toi, \[C] ce que j'ose es\[D]pérer
+      \[Am] Ça n'est pas \[Em]{c'que} tu crois mais \[C]ça n'est pas com\[D]pliqué
+      \[Am] Je rève d'un \[Em]autre toi qui \[C]donne sans arrière-\[D]pensée
+      \[Am] Il m'en faut \[Em]plus que ça pour te \[D]pardonner de m'ou\[F]blier
+    \end{verse*}
+
+    \begin{verse}
+      \[Am] C'est un bien \[Em]triste effort \[C] et c'est lourd à \[D]porter
+      \[Am] Que de t'ai\[Em]mer encore main\[C]tenant que je te \[D]connais
+      \[Am] Tu as pris \[Em]tout de moi, même \[C]{l'espoir} in\[D]sensé
+      \[Am] De m'enfuir \[Em]loin de toi sans me \[D]retourner, de t'ou\[F]blier
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

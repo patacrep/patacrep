@@ -1,0 +1,80 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je cherche encore}
+  [by={Debout sur le Zinc},cov={de-charybde-en-scylla},album={De Charybde en Scylla},%
+  url={http://www.dslz.org}]
+
+  \cover
+  \capo{2}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{B7}{X21202}
+
+  \begin{verse}
+    \[Em] Je suis par\[Am]{ti ce} ma\[G]tin
+    J'ai juste eu \[B7]à prendre le \[Em]train
+    Qui m'emmè\[Am]ne loin de chez \[G]moi \[B7]
+    \[Em] Un petit \[Am]pas de tra\[G]vers
+    Et tout une \[B7]vie est à l'en\[Em]vers
+    Je n'avais \[Am]pas compris, je \[G]crois \[B7]
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Em] On passe \[Am]son temps à mou\[G]rir
+      À petit \[B7]feu et sans rien \[Em]dire
+      Toujours op\[Am]timiste tu \[G]vois \[B7]
+      \[Em] J'ai lâché \[Am]la bonde au cha\[G]grin
+      Je pleure\[B7]rai jusqu'à de\[Em]main
+      Comme les \[Am]hommes pleurent par\[G]fois \[B7]
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Je cherche en\[Em]core
+    \[Am]Je cherche en\[G]core
+    \[B7]Tout n'est pas mort
+    \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em] Une fe\[Am]nêtre sur le \[G]nez
+      Je remue \[B7]un peu le pas\[Em]sé
+      Grands sou\[Am]venirs, petits \[G]combats \[B7]
+      \[Em] Mais je \[Am]ne vois que ma\[G]man
+      Les bras ou\[B7]verts et moi de\[Em]vant
+      Les bras ou\[Am]verts et moi de\[G]vant \[B7]
+    \end{verse}
+
+    \begin{verse*}
+      \[Em] Les grosses bas\[Am]tons avec mon \[G]frère
+      Qui me lais\[B7]saient ce goût a\[Em]mer
+      De défaite \[Am]et des bleus au \[G]bras \[B7]
+      \[Em] Pour une \[Am]cassette vo\[G]lée
+      Pour un pro\[B7]gramme à la té\[Em]lé
+      Ça c'est à \[Am]moi, ça c'est à \[G]moi \[B7]
+    \end{verse*}
+
+
+    \begin{verse}
+      \[Em] Je suis par\[Am]ti ce ma\[G]tin
+      J'ai juste eu \[B7]à prendre le \[Em]train
+      Qui m'emmè\[Am]ne loin de chez \[G]moi \[B7]
+      \[Em] Un petit \[Am]pas de tra\[G]vers
+      Et tout une \[B7]vie est à l'en\[Em]vers
+      Je n'avais \[Am]rien compris, je \[G]crois \[B7]
+    \end{verse}
+
+    \begin{verse*}
+      \[Em] Mais qu'est-ce qui \[Am]{a bien} pu clo\[G]cher ?
+      Pourquoi est-ce-\[B7]que j'ai tant chan\[Em]gé ?
+      Pourquoi \[Am]maintenant et pourquoi \[G]moi ? \[B7]
+      \[Em] Je croyais \[Am]le chemin tra\[G]cé
+      Je disais \[B7]les dés sont je\[Em]tés
+      Je sais \[Am]maintenant que je ne sais \[G]pas \[B7]
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

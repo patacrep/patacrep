@@ -1,0 +1,41 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Surfin' USA}
+  [by={The Beach Boys},cov={very-best-of-beach-boys},album={The very best-of}]
+
+  \cover
+  \gtab{B&}{6:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{A&}{4:022100}
+
+  \begin{verse}
+    If everybody had an \[B&]ocean, across the US\[E&]A
+    Then everybody'd be \[B&]surfin' like California \[E&]yeah
+    You'd see them wearin' their \[A&]baggies, huarachi sandals \[E&]too
+    A bushy bushy blond \[B&]hairdo, \[A&] surfin' US\[E&]A
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      You'll catch 'em surfin' at \[B&]Del Mar, Ventura County \[E&]Line
+      Santa Cruz and \[B&]Tressels, Australia's Nara\[E&]bine
+      All over Manh\[A&]attan and down Doheny \[E&]Way
+      Everybody's gone \[B&]surfin', \[A&] surfin' US\[E&]A
+    \end{verse}
+
+    \begin{verse}
+      Well all be plannin' out a \[B&]route, we're gonna take real \[E&]soon
+      We're waxin' down out \[B&]surfboards, we can't wait for \[E&]June
+      We'll all be gone for the \[A&]summer, we're on safari to \[E&]stay
+      Tell the teacher we're \[B&]surfin', \[A&] surfin' US\[E&]A
+    \end{verse}
+
+    \begin{verse}
+      At Haggarty's and \[B&]Swami's, Pacific Palis\[E&]ades
+      San Onofree and \[B&]Sunset, Redondo Beach, L.\[E&]A.~
+      All over La \[A&]Jolla, at Waiamea \[E&]Bay
+      Everybody's gone \[B&]surfin', \[A&] surfin' US\[E&]A
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

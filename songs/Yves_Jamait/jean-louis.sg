@@ -1,0 +1,150 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Jean-Louis}
+  [by={Yves Jamait},cov={le-coquelicot},album={Le coquelicot},%
+  url={http://www.jamait.fr}]
+
+  \cover
+  \gtab{Dm}{5:X02210}
+  \gtab{Am}{5:022000}
+  \gtab{Gm}{3:022000}
+  \gtab{E7}{5:X2120X}
+  \gtab{A}{5:022100}
+
+  \begin{verse}
+    Vois-\[Dm]tu mon vieux Jean-Louis
+    \[Am] J'ai comme des langueurs
+    C'est \[Dm]semblable à des cris
+    Ça vient \[Am] de l'intérieur
+    Ça \[Gm]me déchire un peu
+    Jus\[Dm]que dans les artères
+    Comme \[E7]ce vin trop vieux
+    Qu't'au\[A]rais laissé ouvert
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Ce \[Dm]monde-là m'écœure
+      \[Am] Regarde-les, nos chefs
+      Qui \[Dm]font pousser des fleurs
+      Au bord \[Am] des SDF
+      On \[Gm]les emmerde tous
+      Sers-\[Dm]moi n'importe quoi
+      J'm'en \[E7]fous, pourvu qu'ça mousse !
+      Et toi ? \[A] Qu'est ce que tu bois ?
+    \end{verse*}
+
+    \begin{verse*}
+      S'ils \[Dm]nous prennent pour des cons
+      \[Am] Ne fait-on pas tout pour ?
+      Y'a \[Dm]plus d'révolutions mais
+      \[Am] Y'a toujours une cour
+      Ils \[Gm]nous fliquent, ils nous guettent
+      Nous \[Dm]brident et nous contemplent
+      Moi j'\[E7]veux bien être honnête
+      Mais \[A]je manque d'exemple
+    \end{verse*}
+
+    \begin{verse*}
+      Ils \[Dm]{n'en} ont pas fini
+      \[Am] De nous laisser pour dupes
+      Pra\[Dm]tiquant l'alchimie
+      Celle, celle \[Am] du parachute
+      Tan\[Gm]dis qu'on se bat pour
+      Ra\[Dm]masser quelques miettes
+      Ces \[E7]coqs de basse-cour
+      Enfoi\[A]ré, ils nous raquettent
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    On \[Dm]parle, on parle \[Am]mais il se fait \[Dm]tard
+    C'est bien\[Am]tôt la \[Dm]fin du monde et \[Am]{j'ai} plus rien à \[Dm]boire
+  \end{chorus}
+
+  \transposition{1}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Ce \[Dm]monde nous échappe
+      On \[Am]{n'est} plus que des cons
+      À \[Dm]passer à la trappe
+      Celle \[Am] des générations
+      Je \[Gm]regarde mon ombre
+      Elle ne \[Dm]me ressemble pas
+      Elle \[E7]est plus grande que moi
+      Tiendra-\[A]{t-elle} dans ma tombe ?
+    \end{verse}
+
+    \begin{verse*}
+      En \[Dm]attendant ce jour
+      Qui \[Am]{s'ra} peut-être une nuit
+      J'vou\[Dm]drais un peu l'amour
+      D'une \[Am]femme jolie
+      Qui \[Gm]oublierait mon âge
+      Et \[Dm]serait amoureuse
+      En\[E7]fin, même de passage
+      Que je \[A]rendrais heureuse
+    \end{verse*}
+
+    \begin{verse*}
+      Je \[Dm]voudrais de son corps
+      Par\[Am]courir les silences
+      Ne \[Dm]faire en m'approchant
+      Pas plus \[Am]de bruit qu'une ombre
+      Qu'el\[Gm]{le m'ouvre} les bras
+      Et \[Dm]accepte la danse
+      D'un \[E7]sourire éclairant
+      Son vi\[A]sage trop sombre
+    \end{verse*}
+
+    \begin{verse*}
+      Vois-\[Dm]tu, j'ai mal aimé
+      Tu \[Am]vois, j'ai mal au corps
+      Et \[Dm]{j'en} ai mal encore
+      Telle\[Am]ment j'ai mal aimé
+      Mais \[Gm]{j'en} ai vu passer
+      Des \[Dm]pachydermes roses
+      Bien \[E7]plus souvent, c'est vrai
+      Que j'l'ai \[A]cueillie, la rose
+    \end{verse*}
+  \end{repeatedchords}
+
+  \transposition{1}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Je \[Dm]me sens tellement seul
+      Que \[Am]{j'en} ai le vertige
+      Je \[Dm]sais, je suis pas l'seul
+      Mais \[Am]toi, au moins, tu piges
+      De \[Gm]cette solitude
+      J'ai \[Dm]fait mon ordinaire
+      Pour \[E7]prendre l'habitude
+      J'ai lais\[A]sé le temps faire
+    \end{verse}
+
+    \begin{verse*}
+      Vois-\[Dm]tu, mon vieux Jean-Louis
+      Là-\[Am]haut, la Lune est pleine
+      Je \[Dm]sens bien qu'moi aussi
+      Mais j'ai \[Am]tellement de peine
+      Boire, \[Gm]ça réchauffe le cœur
+      Même \[Dm]si ça nique le foie
+      Pour \[E7]sortir d'la torpeur
+      Que veux-\[A]tu ? Je bois
+    \end{verse*}
+
+    \begin{verse*}
+      Al\[Dm]lez mon vieux Jean-Louis
+      Sers \[Am]{m'en} donc une dernière
+      Je m'\[Dm]sens un peu aigri
+      Pour tout \[Am]dire, j'suis amer
+      Nos \[Gm]vies se recroquevillent
+      Il \[Dm]va falloir s'y faire
+      Le \[E7]monde part en vrille
+      Mais qu'il ail\[A]le donc se faire{\dots}
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

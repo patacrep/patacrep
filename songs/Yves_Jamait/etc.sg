@@ -1,0 +1,75 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Etc.}
+  [by={Yves Jamait},cov={je-passais-par-hasard},album={Le coquelicot},%
+  url={http://www.jamait.fr}]
+
+  \cover
+  \gtab{F#m}{2:022000}
+  \gtab{C#7}{2:X2120X}
+  \gtab{F#7}{2:020100}
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+
+  \begin{verse}
+    Il faudrait \[F#m]que j'arrête de \[C#7]ne pas faire de \[F#m]sport
+    Que je fasse \[F#m]une escale dans \[F#7]mes vagabon\[Bm]dages
+    Je me donne trop \[Bm]en spectacle, il faut qu' je \[F#m]fasse relâche
+    Et que \[C#7]je coupe enfin ce poil que j'ai dans la main
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Il faudrait \[F#m]que je cesse de \[C#7]boire plus que conve\[F#m]nu
+      Que je tienne \[F#m]mes promesses sans \[F#7]qu'elles ne se di\[Bm]luent
+      Dans le rouge \[Bm]attrayant de ce vin \[F#m]délectable
+      Qui ré\[C#7]duit à néant mon côté respectable
+    \end{verse*}
+
+    \begin{verse*}
+      Il faudrait \[F#m]que j'arrête de \[C#7]trousser la fée \[F#m]verte
+      Qui ne me \[F#m]transformera \[F#7]jamais en po\[Bm]ète
+      Et les pen\[Bm]sées profondes dans lesquelles \[F#m]je me noie
+      Je de\[C#7]vrais les cerner avec un regard froid
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[A]Mais je remets au lendemain ce que j'ai \[E]pas su faire hi\[F#m]er
+    Et je vais feignant l'effort, je ne peux pas \[Bm]dire que j'en sois \[C#7]fier
+    À chaque jour suffit sa \[F#m]peine
+    Et cetera
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Faut-il être \[F#m]un peu con pour \[C#7]vivre sans la \[F#m]mode
+      Et osten\[F#m]siblement en \[F#7]ignorer les \[Bm]codes ?
+      À partir \[Bm]de bientôt, en bon con\[F#m]sommateur
+      Je fe\[C#7]rai de toutes marques la base de mes valeurs
+    \end{verse}
+
+    \begin{verse*}
+      Je tire sur \[F#m]le mégot trop \[C#7]souvent, je l'a\[F#m]voue
+      Aux croisées \[F#m]du tabac qui \[F#7]se soucie de \[Bm]nous ?
+      Je prends u\[Bm]ne bouffée, une pen\[F#m]sée m'effleure
+      Les cou\[C#7]loirs de la mort seront-ils non-fumeurs ?
+    \end{verse*}
+
+    \begin{verse}
+      Pour être un \[F#m]vrai winner, un \[C#7]battant, un kil\[F#m]ler
+      Il faudrait \[F#m]que j'me lève aux \[F#7]aurores, comme une \[Bm]fleur
+      La nuit por\[Bm]tant conseil, je la suis \[F#m]jusqu'à tard
+      Et quand \[C#7]je me réveille, je suis déjà en r'tard
+    \end{verse}
+
+    \begin{verse*}
+      Le temps sa\[F#m]le mes tempes et \[C#7]tend à me prou\[F#m]ver
+      Que j'vais mou\[F#m]rir, c'est sûr, d'ar\[F#7]rêter d'respi\[Bm]rer
+      J'ai beau me \[Bm]dire que vivre c'est mou\[F#m]rir quand même
+      J'ai du \[C#7]mal quant à la perspective du chrysanthème
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

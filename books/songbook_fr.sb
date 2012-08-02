@@ -1,0 +1,10 @@
+{
+"template" : "patacrep.tmpl",
+"lang" : "french",
+"bookoptions" : [
+    "diagram",
+    "lilypond",
+    "pictures"
+  ],
+"songs" : "all"
+}

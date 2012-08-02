@@ -62,7 +62,8 @@ make volume-4.pdf
 make volume-5.pdf 
 make english.pdf 
 make french.pdf 
-make songbook.pdf 
+make songbook_fr.pdf 
+make songbook_en.pdf 
 make lyricbook.pdf 
 
 git status 

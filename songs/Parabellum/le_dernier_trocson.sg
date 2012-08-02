@@ -1,0 +1,51 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Le dernier trocson}
+  [by=Parabellum,cov=in-vivo-veritas,album=In vivo veritas]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G5}{3:022XXX}
+  \gtab{C5}{3:X022XX}
+  \gtab{B&}{1:X0222X}
+  \gtab{E&}{6:X0222X}
+  \gtab{B&*}{6:022100}
+  \gtab{F*}{9:X1333X}
+
+  \begin{verse}
+    \[Dm]Au bout d'la \[C]nuit quand \[F]les bons \[C]bourgeois sont \[Dm]au plume \[C] \[F] \[C]
+    \[Dm]Les vieux buv\[C]eurs, les \[F]affreux, \[C]les hiboux \[Dm] \[C] \[F] \[C]
+    \[Dm]S'en vont à l'\[C]heure claqu\[F]er fissa l\[C]eurs dern\[Dm]ières thun\[C]es \[F] \[C]
+    \[Dm]Dans un boui-bou\[C]i, un \[F]repaire \[C]de grigous \[Dm] \[C] \[F] \[C]
+  \end{verse}
+
+  \begin{chorus}
+    \[G5]Rond, c'est rond, que tous \[C5]les poch'trons
+    \[F]Vont se \[B&]finir \[E&]au dernier \[B&*]trocson
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm]Là c'est entre \[C]eux à \[F]éclus\[C]er sec la \[Dm]bibine \[C] \[F] \[C]
+      \[Dm]Pour faire la \[C]nique aux \[F]toubibs \[C]de mes d\[Dm]eux \[C] \[F] \[C]
+      \[Dm]Qu'ils se reta\[C]pent la \[F]vie à grands \[C]coups de \[Dm]chopines \[C] \[F] \[C]
+      \[Dm]Et lèvent la \[C]patte en \[F]l'honneur \[C]des vére\[Dm]ux \[C] \[F] \[C]
+    \end{verse}
+
+    \lilypond{Le_dernier_troscon}
+
+    \begin{verse}
+      \[Dm]C'est à Nant\[C]erre qu'un \[F]jour s'ach\[C]èvera cette \[Dm]histoire \[C] \[F] \[C]
+      \[Dm]Et ils fe\[C]ront le m\[F]ur en l\[C]oucedé pour s'\[Dm]offrir \[C] \[F] \[C]
+      \[Dm]Un dernier v\[C]erre et \[F]puis pisser\[C]ont sur le m\[Dm]ouroir \[C] \[F] \[C]
+      \[Dm]À la sant\[C]é de \[F]tous les \[C]ivrognes \[Dm]à venir \[C] \[F] \[C]
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{Outro : | \[Dm] \[C] | \[F] \[C] | \[Dm] \[C] | \[E\flt] \[F*]} }
+  \end{verse*}
+
+\endsong

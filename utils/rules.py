@@ -68,7 +68,7 @@ word_dic = {
 "Mi7sus4": "E7sus4",
 "Fa ": "F ",
 "Fa}": "F}",
-"Fa\\": "F\\",
+"[Fa\\": "[F\\",
 "Fam ": "Fm ",
 "Fa7": "F7",
 "Sol ": "G ",

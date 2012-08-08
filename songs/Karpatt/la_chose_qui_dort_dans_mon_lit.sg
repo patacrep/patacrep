@@ -1,0 +1,60 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La chose qui dort dans mon lit}
+  [by={Karpatt},cov={dans-le-caillou},album={Dans le caillou},%
+  url={http://www.karpatt.net}]
+
+  \cover
+  \gtab{Am}{5:022000}
+  \gtab{Dm}{5:X02210}
+  \gtab{E7}{5:X2120X}
+
+  \begin{verse}
+    \[Am] Elle court même pas au ralenti sur la plage
+    Quand elle s'endort elle a même pas de bigoudis
+    Elle est pas maquillée quand elle se réveille
+    J'ai des doutes \[E7] sur la chose qui dort dans mon \[Am]lit
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Am] Elle passe pas ses après-midis chez l'coiffeur
+      Elle a jamais rendez-vous chez son psy
+      Elle m'raconte pas les dépressions de ses copines
+      J'ai des doutes \[E7] sur la chose qui dort dans mon \[Am]lit
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Elle s'est pas \[Dm]fait refaire les seins
+    Elle s'est pas \[Am]fait liposucer
+    Elle s'est \[Dm]pas fait lifter et elle a \[Am]jamais fait d'UV
+    Elle passe pas \[Dm]deux heures aux waters et elle \[Am]parle jamais de mariage
+    Même mes co\[E7]pains \dots elle les aime \[Am]bien
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am] Elle mange jamais d'yaourts sans sucres
+      Elle fait jamais d'régime, elle supporte pas les fruits
+      Elle aime le steack saignant, les frites, la confiture
+      J'ai des doutes \[E7] sur la chose qui dort dans mon \[Am]lit
+    \end{verse}
+
+    \begin{verse*}
+      \[Am] Elle passe pas ses après-midis dans les magasins
+      Pendant les soldes, aucun symptôme d'hystérie
+      Elle a pas dix mille paires de pompes qui servent à rien
+      J'ai des doutes \[E7] sur la chose qui dort dans mon \[Am]lit
+    \end{verse*}
+
+    \begin{chorus}
+      Elle est pas \[Dm]abonnée a \emph{Elle}
+      Elle est pas \[Am]fan de George Clooney
+      Elle lit \[Dm]pas Alexandre Jardin, elle passe pas \[Am]deux heures à zapper
+      Elle est pas \[Dm]accro de ménage et elle trouve \[Am] que j'cuisine bien
+      Et même au \[E7]pieu \dots tu sais quoi ? Ça se passe \[Am]bien \dots
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

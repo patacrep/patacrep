@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Cayenne}
-  [by={Les amis d'ta femme},cov={font-la-difference},album={Font la différence}]
+  [by={Les amis d'ta femme},cov={lave-toi-la-bouche},album={Lave-toi la bouche}]
 
   \cover
   \gtab{Em}{022000}
@@ -14,12 +14,14 @@
     De \[B]ma première \[Em]femme
     Elle s'appelait Nina
     Une \[B]vraie putain dans l'\[Em]âme
+  \end{verse}
+
+  \begin{verse*}
     La \[C]reine des mo\[G]rues
     De \[C]la plaine St-\[G]Denis
     Elle \[C]faisait le \[G]tapin
     Près d'la rue \[B]Ri\[Em]voli
-  \end{verse}
-
+  \end{verse*}
 
   \begin{chorus}
     \[Em]Mort aux vaches
@@ -28,60 +30,90 @@
     À bas ceux d'\[G]la \[B]sûre\[Em]té
   \end{chorus}
 
-  \begin{verse}
-    Elle aguichait l'client
-    Quand mon destin d'bagnard
-    Vint frapper à sa porte
-    Sous forme d'un richard
-    Il lui cracha dessus
-    Rempli de son dédain
-    Lui mit la main au cul
-    Et la traita d'putain
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Elle \[Em]aguichait l'client
+      Quand \[B]mon destin d'ba\[Em]gnard
+      Vint frapper à sa porte
+      Sous \[B]forme d'un ri\[Em]chard
+    \end{verse}
 
-  \begin{verse}
-    Moi qui était son homme
-    Et pas une peau de vache
-    Acquis dans ma jeunesse
-    Les principes d'un apache
-    Sorti mon 6.35
-    Et d'une balle en plein cœur
-    Je l'étendit raide mort
-    Et fut serré sur l'heure
-  \end{verse}
+    \begin{verse*}
+      Il \[C]lui cracha des\[G]sus
+      Rem\[C]pli de son dé\[G]dain
+      Lui \[C]mit la main au \[G]cul
+      Et la trai\[B]ta d'pu\[Em]tain
+    \end{verse*}
+
+    \begin{verse}
+      Moi \[Em]qui étais son homme
+      Et \[B]pas une peau de \[Em]vache
+      Acquis dans ma jeunesse
+      Les \[B]principes d'un a\[Em]pache
+    \end{verse}
+
+    \begin{verse*}
+      Sor\[C]tis mon 6.3\[G]5
+      Et d'\[C]une balle en plein \[G]cœur
+      Je l'\[C]étendit raide \[G]mort
+      Et fut ser\[B]ré sur l'\[Em]heure
+    \end{verse*}
+  \end{repeatedchords}
 
   \begin{verse*}
     Une seule solution : la révolution !
   \end{verse*}
 
-  \begin{verse}
-    Aussitôt arrêté
-    Fut mené a Cayenne
-    C'est là que j'ai purgé
-    Les forces de ma peine
-    Jeunesse d'aujourd'hui
-    Ne faites plus les cons
-    Car pour une seule connerie
-    On vous jette en zonzon
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Aus\[Em]sitôt arrêté
+      Fut \[B]mené à Ca\[Em]yenne
+      C'est là que j'ai purgé
+      Les \[B]forces de ma \[Em]peine
+    \end{verse}
 
-  \begin{chorus}
-    Pas de grâce
-    Pas de pitié
-    Pour toutes ces bandes de lâches
-    Et ces bandes d'enculés
-  \end{chorus}
+    \begin{verse*}
+      Jeu\[C]nesse d'aujourd'\[G]hui
+      Ne \[C]faites plus les \[G]cons
+      Car \[C]pour une seule conne\[G]rie
+      On vous jette \[B]en zon\[Em]zon
+    \end{verse*}
+
+    \begin{chorus}
+      \[Em]Pas de grâce
+      Pas de pi\[B]tié
+      Pour toutes ces bandes de lâches
+      Et ces bandes d'\[G]en\[B]cu\[Em]lés
+    \end{chorus}
 
 
-  \begin{verse}
-    Si je viens a mourir
-    Je veux que l'on m'enterre
-    Dans un tout p'tit cimetière
-    Près de la porte Saint-Martin
-    400 putains à poil
-    Viendront crier très haut
-    C'est le roi des Jules
-    Que l'on mène au tombeau
-  \end{verse}
+    \begin{verse}
+      Si \[Em]je viens à mourir
+      Je \[B]veux que l'on m'en\[Em]terre
+      Dans un tout p'tit cimetière
+      Près d'\[B]la porte Saint-Mar\[Em]tin
+    \end{verse}
+
+    \begin{verse*}
+      Quatre \[C]cents putains à \[G]poil
+      Vien\[C]dront crier très \[G]haut
+      C'est \[C]le roi des Ju\[G]les
+      Que l'on mène \[B]au tom\[Em]beau
+    \end{verse*}
+
+    \begin{verse}
+      Sur \[Em]mon tombeau y'aura
+      Cet\[B]te glorieuse \[Em]phrase
+      Écrite par les truants
+      D'u\[B]ne très haute \[Em]classe
+    \end{verse}
+
+    \begin{verse*}
+      {\og}Hon\[C]neur à la pu\[G]tain
+      Qui \[C]{m'a} donné sa \[G]main
+      Si \[C]je n'étais pas \[G]mort
+      Je te baise\[B]rais en\[Em]core{\fg}
+    \end{verse*}
+  \end{repeatedchords}
 
 \endsong

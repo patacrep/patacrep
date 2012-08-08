@@ -1,0 +1,73 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Lola}
+  [by=Noir Désir,cov=ou-veux-tu-que-je-regarde,album=Où veux tu que je regarde]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{F#m}{1:022000}
+  \gtab{D}{XX0232}
+  \gtab{G#}{4:022100}
+  \gtab{E}{022100}
+
+  \begin{chorus}
+    \[Bm]Home ag\[A]ain
+    \[Bm]Sing that song of \[A]pain
+    That \[G]follows \[F#m]me \dots
+  \end{chorus}
+
+  \begin{verse}
+    \[F#m]Oh I try to \[D]find her
+    \[F#m]Oh I try to \[D]answer
+    \[F#m]I touch her hand and \[D]death smiles
+    \[F#m]She really wants to \[D]take me
+    \[F#m]I've seen the door and the \[D]walls cry
+    \[F#m]Let it drain, \[D]static blood
+    \[F#m]And kiss the fallen \[D]angel
+    \[F#m]Down in the heart of \[D]hell
+    Or
+    \[F#m]I will \[D]find the outside
+    \[F#m]I will \[D]try to run
+    \[F#m]I will \[D]find the outside
+    \[F#m]I will \dots
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[F#m]Oh I try to \[D]kill her
+      \[F#m]And I read the \[D]prayer
+      \[F#m]How to have the \[D]whole
+      \[F#m]Let it drain \[D]your soul !
+      \[F#m]I will \[D]find the outside
+      \[F#m]I will \[D]try to run
+      \[F#m]I will \[D]find the outside
+      \[F#m]I will \dots \[D]{ and then she say}
+    \end{verse}
+  \end{repeatedchords}
+
+
+  \begin{bridge}
+    \[A] All \[G#]night, und\[D]er red tavern lights
+    \[A] You can ask to \[G#]see, \[F#m]Lola, Lola
+    \[A]All \[G#]night \[D]singing blood and soul
+    \[A] You can ask to \[G#]see, \[F#m]Lola, Lola
+    \[A]All \[G#]night, \[D]spitting blood and soul
+    \[A] You can scream \[G#]it, \[F#m]Lola, Lola
+    \[A]All \[G#]night, \[D]bleeding blood and soul
+    \[A] You can scream \[G#]it, \[D]Lola, Lola \[E] \[D]
+  \end{bridge}
+
+  \begin{verse}
+    Give us your \[E]magic
+    You can have my \[D]madness
+    Show me the r\[E]isk
+    Leave me the \[D]rest I know
+    Don't leave me c\[E]old as
+    Dead fish \[D]eyes
+    Just go aw\[E]ay
+    Please go aw\[D]ay \[F#m] \[D]
+  \end{verse}
+
+\endsong

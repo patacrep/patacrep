@@ -1,0 +1,57 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{The holy economic war}
+  [by=Noir Désir,cov=du-ciment-sous-les-plaines,album=Du ciment sous les plaines]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+
+  \lilypond{Holy_economic_war}
+  \begin{verse}
+    \[C]Woke up \[G]on the \[C]ground, I've thought ``the \[G]earth is \[Am]round''
+    \[C]So what ab\[G]out this \[C]new day \[G]on my \[Am]way
+    Is \[C]there anything \[D]new, \[G]what are we gonna \[Am]do?
+    \[C]Woke up \[G]in the \[C]silence then I've \[G]heard that \[Am]song
+  \end{verse}
+
+  \begin{chorus}
+    And a voice said
+    \[G]This is not a \[D]bad \[Am]joke
+    This \[G]messages's \[D]done for \[Am]you
+    You've got to \[G]work hard \[D]more and \[Am]more
+    For the \[G]holy eco\[D]nomic \[Am]war
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]But it \[G]couldn't \[C]be no hallu\[G]cinati\[Am]ons
+      \[C]Then I've \[G]read the \[C]story of the \[G]new nati\[Am]ons
+      \[C]Lord it's just as you \[D]please, I \[G]get down my \[Am]knees
+      \[C]God it's \[C]wonderful to \[C]find the \[G]meaning of \[Am]life
+    \end{verse}
+
+    \begin{chorus}
+      And a voice said
+      \[G]This is not a \[D]bad \[Am]joke
+      This \[G]messages's \[D]done for \[Am]you
+      \[G]Invade the \[D]whole \[Am]world
+      Don't \[G]forget the \[D]new passw\[Am]ord everybody sings you have
+      \[G]No choice in \[D]the matter \[Am]
+      I'll become \[G]your blessed \[D]manager \[Am]
+      You've got to \[G]produce \[D]more and \[Am]more
+      For the \[G]holy eco\[D]nomic \[Am]war
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \[C]Busin\[G]ess force\[Am] \dots
+    \[C]Mark\[G]eting\[Am] \dots
+    \[C] \[G] \[Am]Careers \dots
+    \[C] \[G] \[Am]Success \dots
+    Oh \[C]hol\[G]y y\[Am]eld
+    Oh \[C]hol\[G]y h\[Am]ell \dots
+  \end{verse*}
+
+\endsong

@@ -10,7 +10,7 @@
   \gtab{B&}{1:X02220}
   \gtab{F7}{1:020100}
   \gtab{Gm}{3:022000}
-
+  \gtab{E&}{6:X02220}
 
   \begin{verse}
     Hey \[F]Jude, don't make it \[C]bad
@@ -19,41 +19,50 @@
     Then you can \[C7]start to make it \[F]better
   \end{verse}
 
-  \begin{verse}
-    Hey Jude, don't be afraid
-    You were made to go out and get her
-    The minute you let her under your skin
-    Then you begin to make it better
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Hey \[F]Jude, don't be a\[C]fraid
+      You were \[C7]made to go out and \[F]get her
+      The \[B&]minute you let her under your \[F]skin
+      Then you be\[C7]gin to make it \[F]better
+    \end{verse}
+  \end{repeatedchords}
 
-  \begin{verse}
+  \begin{chorus}
     \[F7]And anytime you feel the \[B&]pain, hey Jude, re\[Gm]frain
     Don't carry the \[C7]world upon your \[F]shoulders
     \[F7]For well you know that it's a \[B&]fool who plays it \[Gm]cool
     By making his \[C7]world a little \[F]colder
     Da da \[F7]da da, \[C7]da da da da da da
-  \end{verse}
+  \end{chorus}
 
-  \begin{verse}
-    Hey Jude, don't let me down
-    You have found her, now go and get her
-    Remember to let her into your heart
-    Then you can start to make it better
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Hey \[F]Jude, don't let me \[C]down
+      You have \[C7]found her, now go and \[F]get her
+      Re\[B&]member to let her into your \[F]heart
+      Then you can \[C7]start to make it \[F]better
+    \end{verse}
 
-  \begin{verse}
-    So let it out and let it in, hey Jude, begin
-    You're waiting for someone to perform with
-    And don't you know that it's just you, hey Jude, you'll do
-    The movement you need is on your shoulder
-  \end{verse}
+    \begin{chorus}
+      \[F7]So let it out and let it \[B&]in, hey Jude, be\[Gm]gin
+      You're waiting for \[C7]someone to per\[F]form with
+      \[F7]And don't you know that it's just \[B&]you, hey Jude, you'll \[Gm]do
+      The movement you \[C7]need is on your \[F]shoulder
+    \end{chorus}
 
-  \begin{verse}
-    Hey Jude, don't make it bad
-    Take a sad song and make it better
-    Remember to let her under your skin
-    Then you'll begin to make it
-    Better better better better better better, oh
-  \end{verse}
+    \begin{verse}
+      Hey \[F]Jude, don't make it \[C]bad
+      Take a \[C7]sad song and make it \[F]better
+      Re\[B&]member to let her under your \[F]skin
+      Then you'll be\[C7]gin to make it \[F]better, better, better, better, better, better, oh
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[F]La la la, \[E&]la la la la
+    \[B&]La la la la
+    Hey \[F]Jude
+  \end{bridge}
 
 \endsong

@@ -4,6 +4,10 @@
   [by=Pink Floyd,cov=the-wall,album=The Wall]
 
   \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
 
   \begin{verse}
     \meter{5}{8}

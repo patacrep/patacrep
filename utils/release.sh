@@ -64,7 +64,8 @@ make english.pdf
 make french.pdf 
 make songbook_fr.pdf 
 make songbook_en.pdf 
-make lyricbook.pdf 
+make lyricbook_fr.pdf
+make lyricbook_en.pdf
 
 git status 
 

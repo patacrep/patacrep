@@ -1,0 +1,86 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Au suivant}
+  [by={Jacques Brel},cov={les-bonbons},album={Les bonbons}]
+
+  \cover
+  \gtab{G#m}{4:022000}
+  \gtab{D#7}{4:X2120X}
+  \gtab{C#m}{4:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{B}{2:X02220}
+
+  \begin{verse}
+    Tout nu dans ma serv\[G#m]iette qui me servait de pagne
+    J'avais le rouge au front et le savon à la \[D#7]main
+    Au suivant, au suivant
+  \end{verse}
+
+  \begin{verse*}
+    J'avais juste vingt ans et nous étions cent vingt
+    À être le suivant de celui qu'on sui\[G#m]vait
+    Au suivant, au suivant
+  \end{verse*}
+
+  \begin{verse*} J'avais juste vingt \[C#m]ans et \[F#]je me dé\[B]niaisais
+    Au bordel ambu\[C#m]lant d'une armée en cam\[D#7]pagne
+    Au suivant, au suivant
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Moi j'aurais bien ai\[G#m]mé un peu plus de tendresse
+      Ou alors un sourire ou bien avoir le \[D#7]temps
+      Mais au suivant, au suivant
+    \end{verse}
+
+    \begin{verse*}
+      Ce ne fut pas Waterloo mais ce ne fut pas Arcole
+      Ce fut l'heure où l'on regrette d'avoir manqué l'é\[G#m]cole
+      Au suivant, au suivant
+    \end{verse*}
+
+    \begin{verse*}
+      Mais je jure que d'en\[C#m]tendre cet \[F#]adjudant de mes \[B]fesses
+      C'est des coups à vous \[C#m]faire des armées d'im\[D#7]puissants
+      Au suivant, au suivant
+    \end{verse*}
+
+    \begin{verse}
+      Je jure sur la \[G#m]tête de ma première vérole
+      Que cette voix, depuis, je l'entends tout le \[D#7]temps
+      Au suivant, au suivant
+    \end{verse}
+
+    \begin{verse*}
+      Cette voix qui sentait l'ail et le mauvais alcool
+      C'est la voix des nations et c'est la voix du \[G#m]sang
+      Au suivant, au suivant
+    \end{verse*}
+
+    \begin{verse*}
+      Et depuis chaque \[C#m]femme, à \[F#]{l'heure} de succom\[B]ber
+      Entre mes bras trop \[C#m]maigres, semble me \[D#7]murmurer
+      Au suivant, au suivant
+    \end{verse*}
+
+    \begin{verse}
+      Tous les suivants du \[G#m]monde devraient s'donner la main
+      Voilà ce que la nuit je crie dans mon \[D#7]délire
+      Au suivant, au suivant
+    \end{verse}
+
+    \begin{verse*}
+      Et quand je n'délire pas, j'en arrive à me dire
+      Qu'il est plus humiliant d'être suivi que sui\[G#m]vant
+      Au suivant, au suivant
+    \end{verse*}
+
+    \begin{verse*}
+      Un jour je m'ferai \[C#m]cul-de-jatte ou \[F#]bonne sœur ou \[B]pendu
+      Enfin un d'ces \[C#m]machins où je ne serai \[D#7]jamais plus
+      Le suivant, \[G#m]le suivant
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

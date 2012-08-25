@@ -1,0 +1,62 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{In the death car}
+  [by={Iggy Pop},cov={arizona-dream},album={Arizona dream}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+
+  \lilypond{in_the_death_car}
+
+  \begin{verse}
+    \[Em] A howling wind is whistling \[Am] in the night
+    \[B7] My dog is growling in the \[Em]dark
+    \[Em]Something's pulling me \[Am] outside
+    \[B7] To ride around in \[Em]circles
+  \end{verse}
+
+  \begin{verse*}
+    \[Em] I know that you have \[Am] got the time
+    \[B7] Cause anything I want, \[Em] you do
+    \[Em] You'll take a ride through the \[Am]strangers
+    Who \[B7]{don't} understand how to \[Em]feel
+  \end{verse*}
+
+  \begin{chorus}
+    \[Em]In the deathcar, we're alive \[Am B7]
+    \[Em]In the deathcar, we're alive \[Am B7]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em] I'll let some air come \[Am] in the window
+      \[B7] It kind of wakes me up \[Em] a little
+      \[Em] I don't turn on the \[Am]radio
+      \[B7] Cause they play shit, like \[Em]\dots, you know
+    \end{verse}
+
+    \begin{verse*}
+      \[Em] When your hand was \[Am] down on my dick
+      \[B7] It felt quite a\[Em]mazing
+      \[Em] And now that, that is \[Am] all over
+      \[B7] All we've got is the \[Em]silence
+    \end{verse*}
+
+    \begin{verse}
+      \[Em] When I touched you \[Am] I felt that
+      \[B7] You still had your \[Em]baby fat
+      \[Em] And a little taste of \[Am]baby's breath
+      \[B7] Makes me for\[Em]get about death
+    \end{verse}
+
+    \begin{verse*}
+      \[Em] At your age \[Am] you're still joking
+      \[B7] It ain't time yet \[Em] for the choking
+      \[Em] So now we can \[Am] own the movie
+      \[B7] And know each other \[Em] truly
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

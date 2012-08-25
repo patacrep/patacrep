@@ -10,15 +10,15 @@
 "booktype" : "chorded",
 "subtitle" : "Matteo's songs",
 "songs" : [
-    "Hubert-Felix_Thiefaine/Sentiments_numeriques_revisites.sg",
-    "Jean_Leloup/Promeneur.sg",
-    "Maxime_Le_Forestier/Parachutiste.sg",
-    "Yves_Simon/Les_bateaux_du_metro.sg",
-    "Soldat_Louis/Du_rhum_des_femmes.sg",
-    "Soldat_Louis/Tirer_des_caisses.sg",
-    "Soldat_Louis/Savannah.sg",
-    "Leonard_Cohen/Winter_lady.sg",
-    "Leonard_Cohen/A_bunch_of_lonesome_heroes.sg",
-    "Leonard_Cohen/The_old_revolution.sg",
-    "Jacques_Higelin/Je_ne_peux_plus_dire_je_t_aime.sg"]
+    "hubert-felix_thiefaine/sentiments_numeriques_revisites.sg",
+    "jean_leloup/promeneur.sg",
+    "maxime_le_forestier/parachutiste.sg",
+    "yves_simon/les_bateaux_du_metro.sg",
+    "soldat_louis/du_rhum_des_femmes.sg",
+    "soldat_louis/tirer_des_caisses.sg",
+    "soldat_louis/savannah.sg",
+    "leonard_cohen/winter_lady.sg",
+    "leonard_cohen/a_bunch_of_lonesome_heroes.sg",
+    "leonard_cohen/the_old_revolution.sg",
+    "jacques_higelin/je_ne_peux_plus_dire_je_t_aime.sg"]
 }

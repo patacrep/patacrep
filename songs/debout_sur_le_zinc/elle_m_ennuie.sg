@@ -5,12 +5,14 @@
   url={http://www.dslz.org}]
 
   \cover
-  \gtab{Dm}{XX0231}
+  \gtab{Dm}{5:X02210}
   \gtab{Gm}{3:022000}
-  \gtab{A7}{X02020}
+  \gtab{A7}{5:020100}
+  \gtab{B&}{6:022100}
   \utab{Dm}{2210}
   \utab{Gm}{0231}
   \utab{A7}{0100}
+  \utab{B&}{1:2100}
 
   \begin{verse*}
     \musicnote{\Intro :}
@@ -30,7 +32,7 @@
       Des \[Dm]fesses made in tungstène
       Un \[Gm]goût parfum roudoudou
       \[A7]Une peau terre de Sienne
-      Une voix qui \[Dm]fait : {\og}Ah doudou, ah doudoudoudou{\fg}
+      Une voix qui \[Dm]fait : {\og}Ah doudou, ah poupoupidou{\fg}
     \end{verse*}
 
     \begin{verse*}
@@ -49,15 +51,17 @@
   \end{repeatedchords}
 
   \begin{chorus}
-    Elle \[Gm]{m'ennuie}, m'ennuie, m'ennuie
+    Elle \[B&]{m'ennuie}, m'ennuie, m'ennuie
     Elle \[Dm]{m'ennuie}, m'ennuie, m'ennuie
-    Elle \[Gm]{m'ennuie} du \[A7]lundi jusqu'au lundi
-    Elle \[Gm]{m'ennuie}, m'ennuie, m'ennuie
+    Elle \[B&]{m'ennuie} du \[A7]lundi jusqu'au lun\[Dm]di
+    Elle \[B&]{m'ennuie}, m'ennuie, m'ennuie
     Elle \[Dm]{m'ennuie}, m'ennuie, m'ennuie
-    Elle \[Gm]{m'ennuie} même \[A7]pendant la \[Dm]nuit
+    Elle \[B&]{m'ennuie} même \[A7]pendant la \[Dm]nuit
   \end{chorus}
 
-  \musicnote{\Bridge : \nolyrics \[Dm Gm A7 Dm \rep{2}]}
+  \begin{verse*}
+    \musicnote{\Bridge : \nolyrics \[Dm Gm A7 Dm] \rep{2}}
+  \end{verse*}
 
   \begin{repeatedchords}
     \begin{verse}

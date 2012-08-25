@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La ligne Holworth}
+  [by={Graeme Allwright},cov={le-jour-de-clarte},album={Le jour de clarté}]
+
+  \cover
+  \capo{2}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{E7}{020100}
+
+  \begin{verse}
+    Tad \[Am]Holworth était un notable
+    Dont l'\[G]argent venait \[Am]de la mer
+    Tous \[Am]les paroissiens respectables
+    Ad\[G]miraient sa pié\[Am]té de fer \rep{2}
+  \end{verse}
+
+  \begin{verse*}
+    Sans \[Am]doute il ne confondait guère
+    Les \[G]affaires et les senti\[E7]ments
+    Mais \[Am]sa parole était sincère
+    C'est \[G]du moins c'que di\[E7]saient les gens
+    C'est \[G]du moins c'que di\[Am]saient les gens
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Il a\[Am]vait tout d'un homme honnête
+      Mais il \[G]faut vous dire la \[Am]vérité
+      Il \[Am]était noir sous l'étiquette
+      Et \[G]ses bateaux é\[Am]taient damnés \rep{2}
+    \end{verse}
+
+    \begin{verse*}
+      Il \[Am]transportait aux antipodes
+      Des \[G]hommes attachés \[E7]par le pied
+      Ba\[Am]gnards de sang ou de maraude
+      Et \[G]criminels de \[E7]majesté
+      \[G]Criminels de \[Am]majesté
+    \end{verse*}
+
+    \begin{verse}
+      Ils \[Am]avaient offensé la reine
+      Ou \[G]bien massacré \[Am]pour voler
+      Mais \[Am]ils tiraient à la même chaîne
+      Qu'des \[G]innocents hu\[Am]miliés \rep{2}
+    \end{verse}
+
+    \begin{verse*}
+      Ceux-\[Am]là s'en allaient vers l'enfer
+      \[G]Pour un crime a\[E7]bominé
+      Ils \[Am]{n'avaient} pas voulu se taire
+      Par \[G]amour de la \[E7]vérité
+      \[G]Amour de la \[Am]vérité
+    \end{verse*}
+
+    \begin{verse}
+      La \[Am]coque était puante et noire
+      Les \[G]gardiens comme des \[E7]loups
+      Tant \[Am]de misère, de désespoir
+      A\[G]vait de quoi vous \[E7]rendre fou
+      A\[G]vait de quoi vous \[Am]rendre fou
+    \end{verse}
+
+    \begin{verse}
+      De\[Am]puis le monde a bien changé
+      La \[G]ligne Holworth a \[Am]fait peau neuve
+      Elle \[Am]est très bien considérée
+      Sa \[G]réussite est \[Am]un chef d'œuvre \rep{2}
+    \end{verse}
+
+    \begin{verse*}
+      Il n'y a \[Am]plus de bagnards dans les cales
+      Et \[G]les marins crient \[Am]comme avant
+      Sous \[Am]son pavillon triomphal
+      \[G]Elle transporte des \[E7]émigrants
+      \[G]Elle transporte des \[Am]émigrants
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

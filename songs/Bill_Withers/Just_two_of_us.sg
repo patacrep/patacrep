@@ -1,15 +1,15 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Just two of us}[by=Bill Withers]
+\beginsong{Just two of us}
+  [by={Bill Withers}]
 
   \capo{1}
-  \gtab{G*}{X23230}
+  \gtab*{G*}{X23230}
   \gtab{C}{032010}
   \gtab{B7}{0212020}
   \gtab{A7}{002020}
   \gtab{Cm}{3:002210}
-  \gtab{G7}
-  \gtab{}
+  \gtab{G7}{320001}
 
   \musicnote{intro}
 
@@ -35,10 +35,13 @@
     Just the \[C]two of us\[B7],   you and \[Em]I
   \endchorus
 
+
+  \begin{verse}
   \musicnote{bridge}
-  \beginverse
-    \[C]\[B7]\[G*]\[A7] \[Cm] \[G7] \[Em]\[Em7]\rep{2}
-  \endverse
+  \[C]\[B7]\[G*]\[A7] \[Cm] \[G7] \[Em]\[Em7]\rep{2}
+  \end{verse}
+
+
 
   \beginverse
     We look for love
@@ -60,6 +63,5 @@
     And I see the morning sun
     I want to be the one with you
   \endverse
-
 
 \endsong

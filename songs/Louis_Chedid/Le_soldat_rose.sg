@@ -1,80 +1,73 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Le soldat rose}[by=Louis Chedid,album=Le soldat rose]
+\beginsong{Le soldat rose}
+  [by={Louis Chedid},album={Le soldat rose}]
 
-\capo{7}
-
-\gtab{A}{}
-\gtab{Bm}{X24432}
-\gtab{B7}{X21202}
-\gtab{B7*}{X21000}
-\gtab{C}{X32010}
-\gtab{C#}{}
-\gtab{D}{X0023X}
-\gtab{Dsus4}{XX0233}
-\gtab{Eb}{}
-\gtab{Em}{022000}
-\gtab{Em/C#}{X42000}
-\gtab{Em7}{020000}
-\gtab{G}{3200XX}
-\gtab{G7}{320001}
+  \capo{7}
+  \gtab{A}{002220}
+  \gtab{Bm}{X24432}
+  \gtab{B7}{X21202}
+  \gtab{B7*}{X21000}
+  \gtab{C}{X32010}
+  \gtab{D}{X00232}
+  \gtab{Dsus4}{XX0233}
+  \gtab{Em}{022000}
+  \gtab{Em/C#}{X42000}
+  \gtab{Em7}{020000}
+  \gtab{G}{320003}
+  \gtab{G7}{320001}
 
 
-\beginverse
-\[Em]J'en con\[Bm]nais0 \[C]un ra\[G]yon
-\[C]Sur ce \[G]grand maga\[Dsus4]sin  
-J'attends sur  ce rayon
-depuis la Saint-Glinglin
-\[Em]Personne\[B7*] ne veut de moi\[Em7]   et pour \[Em/C#]cause
-\[E]Qui vou\[E&]drait \[D]d'un sol\[C#]dat  \[C]  \[D]    \[G] rose \rep{2}
-\endverse
+  \beginverse
+    \[Em]J'en con\[Bm]nais0 \[C]un ra\[G]yon
+    \[C]Sur ce \[G]grand maga\[Dsus4]sin  
+    J'attends sur  ce rayon
+    depuis la Saint-Glinglin
+    \[Em]Personne\[B7*] ne veut de moi\[Em7]   et pour \[Em/C#]cause
+    \[E]Qui vou\[E&]drait \[D]d'un sol\[C#]dat  \[C]  \[D]    \[G] rose \rep{2}
+  \endverse
 
 
 
-\beginverse
-Les garçons n'aiment pas
-Ma couleur de danseuse
-Et les filles disent "Pouah !"  
-Devant ma mitrailleuse
-Bienvenue mon p'tit gars, faut qu'te dise quelque chose
-On m'appelle le soldat        rose \rep{2}
-\endverse
+  \beginverse
+    Les garçons n'aiment pas
+    Ma couleur de danseuse
+    Et les filles disent "Pouah !"  
+    Devant ma mitrailleuse
+    Bienvenue mon p'tit gars, faut qu'te dise quelque chose
+    On m'appelle le soldat        rose \rep{2}
+  \endverse
 
 
 
 
-\beginchorus
-  J'me né\[G]vrose, m'enqui\[B7]lose, me sclé\[Em]rose, quelle psy\[G7]chose
-  Tout \[C]n'est pas vraiment rose dans la \[B7]vie d'un soldat,\[C] \[D]soldat \[G]rose
-  Over\[G]dose d'équi\[B7]moses, rend ma \[Em]prose bien mo\[G7]rose
-  Tout \[C]est gris, tout est noir dans ma \[B7]vie de soldat,\[C]     \[D]soldat \[G]rose
-\endchorus
+  \beginchorus
+    J'me né\[G]vrose, m'enqui\[B7]lose, me sclé\[Em]rose, quelle psy\[G7]chose
+    Tout \[C]n'est pas vraiment rose dans la \[B7]vie d'un soldat,\[C] \[D]soldat \[G]rose
+    Over\[G]dose d'équi\[B7]moses, rend ma \[Em]prose bien mo\[G7]rose
+    Tout \[C]est gris, tout est noir dans ma \[B7]vie de soldat,\[C]     \[D]soldat \[G]rose
+  \endchorus
 
 
 
 
 
-\beginverse
-J'en connais un rayon
-Sur ce grand magasin
-Les poupées de chiffon   
-les puzzles et les trains
-Tout là-bas la peluche   et comble du grandiose
-Un flamand comme moi :  rose\rep{2}
-\endverse
+  \beginverse
+    J'en connais un rayon
+    Sur ce grand magasin
+    Les poupées de chiffon   
+    les puzzles et les trains
+    Tout là-bas la peluche   et comble du grandiose
+    Un flamand comme moi :  rose\rep{2}
+  \endverse
 
 
 
-\beginverse
+  \beginverse
 
-Personne ne veut de moi   et pour cause)
-Qui voudrait d'un soldat        rose ? 
-Qui voudrait d'un soldat     d'un soldat rose ?     
-\endverse
-
-
-
-
-
+    Personne ne veut de moi   et pour cause)
+    Qui voudrait d'un soldat        rose ? 
+    Qui voudrait d'un soldat     d'un soldat rose ?     
+  \endverse
 
 \endsong

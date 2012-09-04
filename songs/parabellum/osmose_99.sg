@@ -1,0 +1,77 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Osmose 99}
+  [by=Parabellum,cov=in-vivo-veritas,album=In vivo veritas]
+
+  \cover
+  \gtab{C}{3:X02220}
+  \gtab{A&}{4:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{B&}{6:022100}
+  \gtab{D&}{4:X02220}
+  \gtab{G}{3:022100}
+  \gtab{C5}{3:X02XXX}
+  \gtab{A&5}{4:02XXXX}
+  \gtab{E&5}{6:X02XXX}
+  \gtab{B&5}{6:02XXXX}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{\Intro : | C | A\flt | E\flt | B\flt } }
+  \end{verse*}
+
+  \begin{verse}
+    Dix \[A&]neuf cent quatre v\[E&]ingt dix neuf
+    Auc\[B&]une raison de f\[D&]aire la \[A&]teuf
+    Dans dix minutes c'est l'\[E&]an deux mille
+    Y'a \[B&]pas qu'mon foie qui s'f\[D&]ait d'la \[A&]bile
+    Sur \[B&]la seule chaîne \[G]nazionale
+    Qui n'\[C]émet plus qu'en noir et pâle
+    L'ét\[A&]at va présent\[E&]er ses vœux
+    A \[B&]cent millions de chômeurs heureux
+  \end{verse}
+
+  \begin{chorus}
+    \[C] T'as joué \[A&] gagné\dots
+    \[E&]T'as tiré un \[B&]as de pique
+    \[C] T'as cru \[A&] perdu\dots
+    \[E&]Tout ça c'est d'la \[B&]politique\dots
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[A&]Pour le troisième \[E&]millénaire
+      La d\[B&]émocratie \[D&]est en \[A&]fer
+      Le président du part\[E&]i unique
+      N\[B&]ous a promis \[D&]plus de \[A&]flics
+      \[B&]Qu'on doit êtr' content d'\[G]constater
+      Qu'les \[C]immigrés ont émigré
+      Ils \[A&]ne nous fabriquent \[E&]plus de voitures\dots
+      \[B&]Et Paris est un tas d'ordures
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    A l\[C5]a fin d'sa décl\[A&5]aration
+    Le \[E&5]président de l'\[B&5]extrème con
+    \[C5]A dit qu'il fall\[A&5]ait tenir
+    Même \[E&5]si la crise fais\[B&5]ait maigrir
+    Qu'\[C5]les impôts sont \[A&5]quadruplés
+    \[E&5]Ça d'vrait pas trop \[B&5]déranger
+    De \[C5]toutes façons on n'\[A&5]a plus rien
+    On \[E&5]a d'jà bouffé \[B&5]tous les chiens \[B&]
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Tu v\[A&]ois et à part \[E&]ça ça va
+      Je n'\[B&]fais plus qu'des conc\[D&]erts pour \[A&]moi\dots
+      Le public n'ex\[E&]iste plus
+      Je n'\[B&]sais même pas c'qu'il est \[D&]deven\[A&]u
+      \[B&]Pour faire marcher \[G]ma sono
+      \[C]J'ai trouvé une dynamo
+      Je péd\[A&]ale en jouant d'\[E&]la guitare
+      J'\[B&]espère au moins une fois te revoir\dots
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

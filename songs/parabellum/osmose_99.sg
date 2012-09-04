@@ -16,7 +16,7 @@
   \gtab{B&5}{6:02XXXX}
 
   \begin{verse*}
-    \musicnote{\nolyrics{\Intro : | C | A\flt | E\flt | B\flt } }
+    \musicnote{\nolyrics{\Intro : | \[C] | \[A\flt] | \[E\flt] | \[B\flt] } }
   \end{verse*}
 
   \begin{verse}
@@ -27,7 +27,7 @@
     Sur \[B&]la seule chaîne \[G]nazionale
     Qui n'\[C]émet plus qu'en noir et pâle
     L'ét\[A&]at va présent\[E&]er ses vœux
-    A \[B&]cent millions de chômeurs heureux
+    À \[B&]cent millions de chômeurs heureux
   \end{verse}
 
   \begin{chorus}
@@ -51,8 +51,8 @@
   \end{repeatedchords}
 
   \begin{bridge}
-    A l\[C5]a fin d'sa décl\[A&5]aration
-    Le \[E&5]président de l'\[B&5]extrème con
+    À l\[C5]a fin d'sa décl\[A&5]aration
+    Le \[E&5]président de l'\[B&5]extrême con
     \[C5]A dit qu'il fall\[A&5]ait tenir
     Même \[E&5]si la crise fais\[B&5]ait maigrir
     Qu'\[C5]les impôts sont \[A&5]quadruplés

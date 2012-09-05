@@ -1,0 +1,115 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Bad Bili}
+  [by={Vincent Malone},cov={le-roi-des-papas},album={Le roi des Papas}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{F7}{1:020100}
+  \gtab{G7}{3:020100}
+  \gtab{D7}{3:X2120X}
+
+  \begin{verse*}
+    \[Am]{C'était} par un beau jour de septembre
+    Ils étaient tranquillement assis à jouer aux cubes dans leur \[G]chambre avec leur petite sœur ché\[Am]rie
+    \[Am]{Elle} serrait bien fort sa poupée, tendrement, dans ses jolis bras
+    {\og}Au fond, me dis-je, quelle belle journée{\fg}, quand soudain on frappa \[G]
+  \end{verse*}
+
+  \begin{verse*}
+    \echo{Mais qu'est-ce que c'est ?}
+  \end{verse*}
+
+  \begin{chorus}
+    \[C]Victor et son cheval blanc
+    \[F7]Félix et son revol\[C]ver
+    \[C]Victor, lui, galope devant
+    Mais Fé\[D7]lix est juste der\[G7]rière
+  \end{chorus}
+
+  \begin{chorus}
+    \[C]Victor et son cheval blanc
+    \[F7]Félix et son revol\[C]ver
+    \[C]Et Bad Bili, le bandit, le méchant
+    Qui \[G]entre sans ma\[C]nières
+  \end{chorus}
+
+  \begin{verse}
+    {\og}Ah, ah, cornebidouille ! \[Am] dit Bad Bili
+    En entrant dans la chambre
+    Voila deux garçons bien gentils
+    Et une petite \[G]fille qui m'a l'air \[Am]tendre{\fg}
+    Puis, sans plus de manières, il s'enfuit
+    Emportant les cubes, la poupée, en enlevant leur petite sœur chérie
+    Alors Félix a \[G]dit :
+  \end{verse}
+
+  \begin{verse*}
+    {\og}En voilà assez, tu vas \[Am]voir et \[G]na{\fg}
+    Il peut faire \[Am]sa prière \[G]
+    D'un coup de \[Am]revolver \[G]
+    En plein dans \[Am]le derrière \[G]
+  \end{verse*}
+
+  \begin{verse*}
+    {\og}Je vais te transformer en gru\[G]yère{\fg}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[C]Victor et son cheval blanc
+      \[F7]Félix et son revol\[C]ver
+      \[C]Victor, lui, galope devant
+      Mais Fé\[D7]lix est juste der\[G7]rière
+    \end{chorus}
+
+    \begin{chorus}
+      \[C]Victor et son cheval blanc
+      \[F7]Félix et son revol\[C]ver
+      \[C]Et Bad Bili qui les attend
+      Ta\[G]pi dans sa ta\[C]nière
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      {\og}Ah, ah, je vous attends, tapi dans ma tanière{\fg}
+      Ouais, bon, voyons la suite
+      \[Am]Après une longue course dans la prairie
+      Ils allèrent en rampant comme des scolopendres
+      Encercler le repère de Bili, sans faire de \[G]bruit, pour le sur\[Am]prendre
+      Patiemment, ils attendirent la nuit et puis Félix passa par la cheminée
+      Pendant que Victor, lui, criait au bandit :
+    \end{verse}
+
+    \begin{verse*}
+      {\og}Sors d'i\[G]ci si tu l'oses ! Es\[Am]pèce de pue-des-pieds !{\fg} \[G]
+      Bili é\[Am]teint la lumière \[G]
+      Félix lui \[Am]tombe dessus par derrière \[G]
+      Victor le \[Am]cogne sur la cafetière \[G]
+    \end{verse*}
+
+    \begin{verse*}
+      Et Bili tombe par \[G]terre
+      {\og}Te voilà libre petite sœur chérie !
+      --- Oh merci, que vous êtes bons et généreux !{\fg}
+    \end{verse*}
+
+    \begin{chorus}
+      \[C]Victor et son cheval blanc
+      \[F7]Félix et son revol\[C]ver
+      \[C]Victor, lui, galope devant
+      Mais Fé\[D7]lix est juste der\[G7]rière
+    \end{chorus}
+
+    \begin{chorus}
+      \[C]Victor et son cheval blanc
+      \[F7]Félix et son revol\[C]ver
+      \[C]Et Bad Bili, tout tremblant
+      Qui \[G]se frotte le derr\[C]ière
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

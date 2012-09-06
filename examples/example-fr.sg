@@ -15,7 +15,7 @@
 
 % Vous trouverez des informations complémentations dans le fichier de
 % documentation sur Patacrep
-% http://www.patacrep.com/data/documents/doc.pdf
+% http://www.patacrep.com/data/documents/doc_fr.pdf
 % *******************************************************************************
 
 \selectlanguage{english} % définit la langue principale de la chanson
@@ -26,7 +26,7 @@
 % 8-bit-lagerfeuer : le fichier "8-bit-lagerfeuer.jpg" correspondant à la pochette de l'album
 % 8 bit lagerfeuer : le nom de l'album dont la chanson est extraite
 \beginsong{Sad robot}
-  [by=Pornophonique,cov=8-bit-lagerfeuer,album=8 bit lagerfeuer]
+  [by={Pornophonique},cov={8-bit-lagerfeuer},album={8 bit lagerfeuer}]
 
   % insère la pochette de l'album (8-bit-lagerfeuer.jpg)
   \cover
@@ -36,44 +36,47 @@
   % <cordes> : série de 6 symboles, un pour chaque corde, de la plus grave à la plus aigue
   % Ces symboles sont : X si la corde ne doit pas être jouée, 0 si la corde est jouée à vide,
   % un chiffre de 1 à 9 indiquant la fret adéquate
-  \gtab{Rém}{XX0231}
-  \gtab{Fa}{1:022100}
-  \gtab{Do}{X32010}
+  \gtab{Dm}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
 
-  % proposez l'information minimale pour rejouer la chanson (ne pas répeter les accords)
-  % insérer chaque accord avant la syllable correspondante (pas d'espace)
-  % mettez un couplet entre \beginverse et \endverse
-  % mettez un refrain entre \beginchorus et \endchorus
-  % \beginverse* est un couplet non numéroté
+  % insérez chaque accord avant la syllable correspondante (pas d'espace)
+  % mettez un couplet entre \begin{verse} et \end{verse}
+  % mettez un refrain entre \begin{chorus} et \end{chorus}
+  % \begin{verse*} est un couplet non numéroté
   % utilisez la macro \rep{n} pour une phrase répétée n fois
   % utilisez la macro \echo{text} pour les phrases chantées en arrière plan
 
   \lilypond{Sad_robot} % insère la partition correspondant au fichier Sad_robot.ly du répertoire ./lilypond
 
-  \beginverse
-    His \[Rém]steely skin is covered
-    By \[Fa]centuries of dust
-    \[Do]Once he was a great one
-    \[Rém]Now he's dull and rust
-  \endverse
+  \begin{verse}
+    His \[Dm]steely skin is covered
+    By \[F]centuries of dust
+    \[C]Once he was a great one
+    \[Dm]Now he's dull and rust
+  \end{verse}
 
-  \beginverse*
-    An oily tear he's crying
-    Can you feel the pain
-    Of the sad, sad robot
-    And it's driving him insane
-  \endverse
+  % l'environnement repeatedchords permet d'afficher (exhaustivité)
+  % ou de masquer (lisibilité) les accords répétés
+  \begin{repeatedchords}
+    \begin{verse*}
+      An \[Dm]oily tear he's crying
+      \[F]Can you feel the pain
+      Of the \[C]sad, sad robot
+      And it's \[Dm]driving him insane
+    \end{verse}
 
-  \beginverse*
-    He can't turn back time nor history
-    So his life became a misery
-    He has to face the destiny
-    Nobody cares anymore
-  \endverse
+    \begin{verse*}
+      He can't \[Dm]turn back time nor history
+      So his \[F]life became a misery
+      He \[C]has to face the destiny
+      Nobody \[Dm]cares anymore
+    \end{verse}
+  \end{repeatedchords}
 
-  \beginchorus
+  \begin{chorus}
     Sad, sad robot \rep{3}
     All alone
-  \endchorus
+  \end{chorus}
   
 \endsong

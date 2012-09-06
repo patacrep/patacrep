@@ -1,0 +1,62 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Super Héros}
+  [by={Balbino Medellin},cov={le-soleil-et-l-ouvrier},album={Le soleil et l'ouvrier}]
+
+  \cover
+
+  \begin{verse}
+    \[Bm]je suis l'homme qui valait trois milliards 
+    et quatre centimes d'eu\[F\shrp]ros super héros d'comptoir                                                                             
+    \[Bm]moitié Steve Austin et moitié Bruce Banner 
+    j'deviens tout \[F\shrp]vert après dix picons d’bière
+    \[Am]j'ai les doigts palmés comme l'homme de l'Atlantide
+    à marée \[Em]basse quand mon verre se vide
+    \[Am]je dérive au fond du pacifique
+    seul avec ma \[D]trique bionique
+  \end{verse}
+
+  \begin{chorus}
+    \[G]on veut tous toucher le soleil 
+    et sauter tran\[Em]quille par dessus les grattes ciels
+    \[Am]s'envoler en costume rouge moulant 
+    et être beau gosse \[D]dedans
+    ouais mais c'est pas fait pour nos \[Em]gueules  ohohoh\[D]oh 
+    dans cette série on est tout \[Em]seul ohohoh\[D]oh
+    non non c'est pas fait pour nos \[Em]gueules ohohoh\[D]oh
+    notre seul pouvoir c'est d'faire la \[Em]gueule \[Bm]
+    où bien de s'ai\[Em]mer \[Bm]
+    pour ceux qui \[Em]veulent \[Bm]
+    \[Em] \[F\shrp m] \[G] \[A]
+  \end{chorus}
+
+  \begin{verse}
+    Je suis X-Or et Sankukai
+    mon vaisseau spatial a des sièges en sky
+    Après la deuxième bouteille de blanc
+    tous les mecs du bar m'appellent Ken le survivant
+    J'm'imagine sauver la planète
+    croiser Wonder Woman et lui faire sa fête
+    Avoir des amis des vrais copains,
+    fidèles comme flipper le dauphin
+  \end{verse}
+
+
+  \begin{chorus}
+    \musicnote[french]{Refrain}
+    \musicnote[english]{Chorus}
+  \end{chorus}
+
+  \begin{bridge}
+    \[Em]na na \[Em]na na na \[C]na na \[B]na.... 
+    super heros na na na...
+    je suis un super heros nana nanana na na...
+    \[C]
+  \end{bridge}
+
+  \begin{chorus}
+    \musicnote[french]{Refrain}
+    \musicnote[english]{Chorus}
+  \end{chorus}
+
+\endsong

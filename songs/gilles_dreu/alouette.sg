@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Alouette}
-  [by={Hugues Aufray}]
+  [by={Gilles Dreu},cov={alouette},album={Alouette}]
 
+  \cover
   \gtab{Em}{022000}
   \gtab*{Am7}{002212}
   \gtab{G7}{320001}

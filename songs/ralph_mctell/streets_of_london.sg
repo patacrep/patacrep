@@ -1,0 +1,53 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Streets of London}
+  [by={Ralph McTell},cov={spiral_staircase},album={Spiral Staircase}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{G7}{320001}
+  \gtab{D7}{XX0212}
+
+  \begin{verse}
+    \[C]Have you seen the \[G]old man, \[Am]in the closed-down \[Em]market
+    \[Em]picking up the \[C]papers, with his \[D7]worn-out \[G7]shoes?
+    \[C]In his eyes you \[G]see no pride, \[Am]and held loosely \[Em]by his side
+    \[F]yesterday's \[C]papers, telling \[G7]yesterday's \[C]news
+  \end{verse}
+
+  \begin{chorus}
+    \[C] So \[F]how can you \[Em]tell me, you're \[C]lo - ne - \[Am]ly
+    \[D7] and say for \[D7]you that the sun don't \[G]shine? \[G7]
+    \[C]Let me take you \[G]by the hand, and \[Am]lead you through the \[Em]streets of London
+    \[F] I'll show you \[C]something, to \[G7]make you change your \[C]mind
+
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Have you seen the old gal, who walks the streets of London
+      dirt in her hair, and her clothes in rags?
+      She's no time for talking, she just keeps right on walking
+      Carrying her home, in two carrier bags
+    \end{verse}
+
+    \begin{verse}
+      And in the all-night cafe, at a quarter past eleven
+      some old man sitting there, all on his own
+      Looking at the world, over the rim of his tea-cup
+      Each day lasts an hour, then he wanders home alone
+    \end{verse}
+
+    \begin{verse}
+      And have you seen the old man, outside the seaman's mission?
+      His memory's fading, with those medal ribbons that he wears
+      And in our winter city, the rain cries little pity
+      For one more forgotten hero, and a world that doesn't care
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

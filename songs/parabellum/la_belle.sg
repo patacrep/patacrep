@@ -1,13 +1,13 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{La belle}
-  [by=Parabellum,cov=in-vivo-veritas,album=In vivo veritas]
+  [by={Parabellum},cov={in-vivo-veritas},album={In vivo veritas}]
 
   \cover
   \gtab{Am}{X02210}
   \gtab{G}{320003}
-  \gtab{Dm}{XX0231}
-  \gtab{Em}{022000}
+  \gtab{D}{XX0231}
+  \gtab{E}{022000}
   \gtab{F}{1:022100}
   \gtab{A}{X02220}
   \gtab{E}{022100}
@@ -18,11 +18,11 @@
   \begin{verse}
     \[Am]Le Loire a \[G]quitté La Pal\[Am]ic\[G]e
     \[Am]Maintenant \[G]tout est bien f\[Am]ini \[G]
-    \[Am]On s'en va \[G]vers le \[Dm]Mar\[Em]on\[Am]i
-    \[Am]Où les re\[G]quins font la pol\[Em]ic\[Am]e
+    \[Am]On s'en va \[G]vers le \[D]Mar\[E]on\[Am]i
+    \[Am]Où les re\[G]quins font la pol\[E]ic\[Am]e
     \[Am]On est sans \[F]nom \[Am]on n'est plus \[F]rien
     \[Am]La loi nous \[F]chasse \[Am]de la \[F]ville
-    \[Em]On n'est plus qu'un bateau de chiens
+    \[E]On n'est plus qu'un bateau de chiens
     Qu'on mène crever dans une île
   \end{verse}
 
@@ -36,9 +36,9 @@
 
   \begin{verse*}
     \musicnote{\nolyrics{| \[Am] \[G] | \[Am] \[G] | \[Am] \[G] | \[Am] \[G]} }
-    \musicnote{\nolyrics{| \[Am] \[G] | \[Dm]\[Em] \[Am] | \[Am] \[G] | \[Em] \[Am]} }
+    \musicnote{\nolyrics{| \[Am] \[G] | \[D]\[E] \[Am] | \[Am] \[G] | \[E] \[Am]} }
     \musicnote{\nolyrics{| \[Am] \[F] | \[Am] \[F] | \[Am] \[F] | \[Am] \[F]} }
-    \musicnote{\nolyrics{| \[Em] | \[Em] | \[Em] | \[Em] } }
+    \musicnote{\nolyrics{| \[E] | \[E] | \[E] | \[E] } }
   \end{verse*}
 
 
@@ -49,8 +49,8 @@
       \[D]Le coup de \[E]poing des pays \[A]chauds
       \[F#m]Rien ne ser\[Bm]a trop beau pour \[E]elle
     \end{repeatedchords}
-    \[Am]Pour la liberté les re\[G]quins
-    \[Am]Auront notre chair de co\[G]quins
+    \[D]Pour la liberté les re\[A]quins
+    \[D]Auront notre chair de co\[A]quins
   \end{chorus}
 
   \begin{repeatedchords}

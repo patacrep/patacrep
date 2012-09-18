@@ -1,9 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Comme on dit}
-  [by={Le Colporteur},%
-  url={http://www.lecolporteur.org}]
+  [by={Walz},,cov={marie_claire},album={Marie-Claire}, url={http://www.lecolporteur.org}]
 
+  \cover
   \gtab{G#m}{4:022000}
   \gtab{E}{7:X02220}
   \gtab{D#}{6:X02220}

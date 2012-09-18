@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La sorcière Grabouilla}
-  [by={Francine Pohl}]
+  [by={Gérard Dalton},cov={100_chansons_et_comptines},album={100 chansons et comptines à l'école maternelle},original={Francine Pohl (paroles et musique)}]
 
+  \cover
   \gtab{Em}{022000}
   \gtab{B7}{X21202}
   \gtab{Am}{X02210}

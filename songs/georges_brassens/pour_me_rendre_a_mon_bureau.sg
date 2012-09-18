@@ -1,10 +1,10 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Pour me rendre à mon bureau}
-  [by={Jean Boyer},cov={},album={}]
+  [by={Georges Brassens},cov={jeunesse},album={Georges Brassens chante les chansons de sa jeunesse},original={Jean Boyer (paroles et musique)}]
 
 
-  %\cover
+  \cover
   \gtab{Bm}{2:X02210}
   \gtab{F#}{2:022100}
   \gtab{Em}{022000}

@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Émilie}
-  [by={Les Vieilles Valises}]
+  [by={Les Vieilles Valises},cov={on-verra-bien},album={On verra bien{\dots}}]
 
+  \cover
   \gtab{Am}{X02210}
   \gtab{G}{320003}
   \gtab{Dm}{XX0231}

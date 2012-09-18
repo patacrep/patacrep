@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{V'la l'bon vent}
-  [by={Traditionnel}]
+  [by={Traditionnel},cov={traditionnel},album={France}]
 
+  \cover
   \gtab{Am}{X02210}
   \gtab{C}{X32010}
   \gtab{E7}{020100}

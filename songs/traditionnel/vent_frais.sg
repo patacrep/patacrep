@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Vent frais}
-  [by={Traditionnel}]
+  [by={Traditionnel},cov={traditionnel},album={France}]
 
+  \cover
   \gtab{Dm}{XX0231}
   \gtab{Am}{X02210}
 

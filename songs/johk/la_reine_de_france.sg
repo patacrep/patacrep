@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La reine de France}
-  [by={Johk}]
+  [by={Johk},cov={matiere_grise},album={0 de matière grise}]
 
+  \cover
   \gtab{A}{X02220}
   \gtab{E}{022100}
   \gtab{F#m}{1:022000}

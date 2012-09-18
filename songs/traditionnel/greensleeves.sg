@@ -1,8 +1,9 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Greensleeves}
-  [by={Traditionel}]
+  [by={Traditionnel},cov={traditionnel},album={Angleterre}]
 
+  \cover
   \gtab{Am}{X02210}
   \gtab{G}{320003}
   \gtab{E}{022100}

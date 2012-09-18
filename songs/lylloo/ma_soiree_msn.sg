@@ -1,10 +1,10 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ma soirée MSN}
-  [by={Lylloo}]
+  [by={Lylloo},cov={lol_com},album={lol.com}]
 
-  \capo{2}
   \cover
+  \capo{2}
   \gtab{Em}{022000}
   \gtab{C}{X32010}
   \gtab{G}{320003}

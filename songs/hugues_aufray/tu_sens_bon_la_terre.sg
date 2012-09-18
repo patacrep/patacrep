@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tu sens bon la terre}
-  [by={Hugues Aufray}]
+  [by={Hugues Aufray},cov={gold},album={Gold}]
 
+  \cover
   \gtab{Dm}{5:X02210}
   \gtab{A7}{5:020100}
   \gtab{C}{3:X02220}

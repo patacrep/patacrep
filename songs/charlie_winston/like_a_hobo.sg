@@ -1,0 +1,60 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Like a hobo}
+  [by={Charlie Winston},cov={hobo},album={Hobo}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{FM7}{00321X}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+  \gtab*{G13}{303210}
+  \gtab*{G14}{323010}
+  \gtab*{B7&9}{020210}
+
+  \begin{verse*}
+    \musicnote{\Intro: \nolyrics{\[Am FM7 Am Am FM7 Am G F E]}}
+  \end{verse*}
+
+  \begin{verse}
+    I've always \[Am]known \[FM7]since I was a young boy \[Am FM7]
+    In this \[Am]world, \[FM7]everything's as good as \[Am]bad
+    Now my \[Am]father told me \[FM7]always speak a true word \[Am FM7]
+    And I \[Am]have to say that is the \[FM7]best advice I've \[Am]had
+  \end{verse}
+
+  \begin{verse*}
+    Because \[Dm]something burns inside of \[Am]me
+    It's \[Dm]everything I long to \[Am]be
+    And \[Dm]lies they only \[C]stop me from feeling \[E]free
+  \end{verse*}
+
+  \begin{chorus}
+    \[Am]Like a hobo from a \[FM7]broken home
+    \[G13]Nothing's gonna stop me \[G14]
+    \[Dm]Like a hobo from a \[Am]broken home
+    \[B7&9]Nothing's gonna stop me \[E]
+  \end{chorus}
+
+  \begin{chorus}
+    \[Am]Ah ahah ahah\[FM7]ah, ahah ah \[Am FM7]
+    \[Am]Ah ahah ahah\[FM7]ah, ahah ah \[Am G F E]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      I've never \[Am]yearned for \[FM7]anybody's fortune \[Am FM7]
+      The less I \[Am]have the \[FM7]more I am a happy \[Am]man
+      Now my \[Am]mother told me \[FM7]always keep your head on \[Am FM7]
+      Because \[Am]some may praise you \[FM7]just to get what they \[Am]want
+    \end{verse}
+
+    \begin{verse*}
+      And I said, ``\[Dm]Mama, I am not a\[Am]fraid
+      \[Dm]They will take what they will \[Am]take
+      And \[Dm]what would life be \[C]like without a few mis\[E]takes''
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

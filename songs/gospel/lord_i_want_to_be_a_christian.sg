@@ -1,8 +1,9 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Lord I want}
-  [by={Negro Spiritual}]
+\beginsong{Lord, I want to be a Christian}
+  [by={Gospel},cov={gospel},album={États-Unis}]
 
+  \cover
   \gtab{C}{X32010}
   \gtab{G7}{320001}
   \gtab{F}{1:022100}

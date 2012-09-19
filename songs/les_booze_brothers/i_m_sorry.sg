@@ -1,0 +1,53 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{I'm sorry}
+  [by={Booze Brothers},cov={elevator},album={Elevator}]
+
+  \cover
+  \capo{4}
+  \gtab*{G}{320033}
+  \gtab*{C}{X32033}
+  \gtab{D}{XX0232}
+  \gtab*{D4}{XX0233}
+  \gtab{Em}{022000}
+
+  \begin{verse}
+    The \[G]acting \[C]days are \[D]over \[D4]
+    I \[G]{can't} \[C]deny \[D]that \[D4]
+    I'm \[G]tired of \[C]playing \[D]the same \[D4]tune
+    Making \[G]sure \[C]you like \[D]that \[D4]
+    It \[G]hurts us \[C]all to \[D]leave it \[D4]deep
+    In\[G]side to \[C]rot and \[D]die \[D4]
+    \nolyrics{\[G C D D4]}
+  \end{verse}
+
+  \begin{chorus}
+    And \[Em]if your \[G]life \[D]
+    Is \[Em]tumbling \[G]down \[D]
+    \[Em]All I can \[G]say \[D]is
+    I'm \[Em]sorry \[C G D4] \rep{3}
+    \nolyrics{\[G C D D4]} \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Our \[G]lying \[C]days are \[D]over \[D4]
+      Or, I'd \[G]like \[C]to be\[D]lieve \[D4]
+      I'll \[G]try to \[C]be at \[D]peace one \[D4]day
+      Or, at \[G]least \[C]{I'll} \[D]try \[D4]
+      The \[G]human \[C]race is a \[D]selfish \[D4]one
+      I \[G]{can't} \[C]change \[D]that \[D4]
+      \nolyrics{\[G C D D4]}
+    \end{verse}
+
+    \begin{chorus}
+      And \[Em]if your \[G]hopes \[D]
+      Are \[Em]burning \[G]down \[D]
+      \[Em]All I wish is \[G]you'\[D]ll
+      For\[Em]give me \[C G D4]\rep{2}
+      I'm \[Em]sorry \[C G D4] \rep{3}
+      \nolyrics{\[G C D D4]} \rep{2}
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

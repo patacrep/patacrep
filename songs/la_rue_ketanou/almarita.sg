@@ -1,5 +1,5 @@
 \selectlanguage{french}
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{Almarita}
   [by={La Rue Kétanou},cov={y-a-des-cigales-dans-la-fourmiliere},album={Y'a des cigales dans la fourmilière},%
   url={http://www.larueketanou.com}]
@@ -10,53 +10,89 @@
   \gtab{Fm}{8:X02210}
   \gtab{A&}{4:022100}
 
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Fm B{\flt}m E{\flt} Fm Fm B{\flt}m E{\flt} A{\flt} B{\flt}m E{\flt} Fm]}
+  \end{verse*}
+
   \begin{verse}
-    Elles sont peut-être les \[B&]folles de Ne\[E&]vers ou de Sé\[Fm]ville
-    \[Fm]Des bracelets qui faran\[B&]dolent, des boucles d'\[E&]oreilles qui sour\[Fm]ient
-    \[Fm]À une robe de gi\[B&]tane, une gi\[E&]tane que l'on ren\[Fm]contre
-    \[Fm]Sur une scène à maca\[B&m]dam, une his\[E&]toire que l'on ra\[A&]conte
-    \[B&m]La musique, c'est elle et la \[E&]fête fait son en\[Fm]trée
+    \[Fm] Elles sont peut-être les \[B&m]folles
+    De Ne\[E&]vers ou de Sé\[Fm]ville
+    Des bracelets qui faran\[B&m]dolent
+    Des boucles d'\[E&]oreilles qui sour\[Fm]ient
   \end{verse}
 
+  \begin{verse*}
+    \[Fm] À une robe de gi\[B&m]tane
+    Une gi\[E&]tane que l'on ren\[Fm]contre
+    Sur une scène à maca\[B&m]dam
+    Une his\[E&]toire que l'on ra\[A&]conte
+  \end{verse*}
+
+  \begin{verse*}
+    \[B&m]La musique, c'est elle et la \[E&]fête fait son en\[Fm]trée
+  \end{verse*}
+
   \begin{chorus}
-    \[Fm]Almarita \[B&m]danse, chante \[E&]pour les gi\[Fm]tans
+    \[Fm] Almarita \[B&m]danse, chante \[E&]pour les gi\[Fm]tans
     Et que ton cœur \[B&m]vole au vent, ton \[E&]âme en cara\[Fm]vane
-    \[Fm]Almarita \[B&m]danse, chante \[E&]pour les gi\[Fm]tans
+    \[Fm] Almarita \[B&m]danse, chante \[E&]pour les gi\[Fm]tans
     Et que ton cœur \[B&m]vole au vent, ton \[E&]âme en cara\[A&]vane
   \end{chorus}
 
-  \begin{verse}
-    Elles chantent pour tous les printemps
-    Tant de vie et ces gros temps
-    Mais elles ne peuvent y rester
-    L'âme gitane ne fait que passer
-    Elles se suicident cent fois par jour
-    Pour dire : {\og}On n'brade pas l'Algérie ou bien l'amour
-    Ces choses-là ne repoussent pas{\fg}
-    La musique, c'est elle et la fête fait son entrée
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Fm] Elles chantent pour tous \[B&m]les printemps
+      Tant de \[E&]vie et ces gros \[Fm]temps
+      Mais elles ne peuvent y res\[B&m]ter
+      L'âme gi\[E&]tane ne fait que pas\[Fm]ser
+    \end{verse}
 
-  \begin{verse}
-    Elles portent des marques du voyage
-    Et savent très bien nous y faire croire
-    Rien qu'à les regarder danser
-    Cherche pas à comprendre, t'as qu'à y aller
-    Ni femme de marin, ni putain
-    Je sais qu'elles repartiront
-    Des joies de gens dans une main
-    Et une valise pleine de chansons
-    Oh la musique, c'est elle et la fête fait son entrée
-  \end{verse}
+    \begin{verse*}
+      \[Fm] Elles se suicident cent \[B&m]fois par jour
+      Pour dire : {\og}\[E&] On n'brade \[Fm]pas
+      L'Algérie ou bien l'a\[B&m]mour
+      Ces choses-\[E&]là ne repoussent \[A&]pas{\fg}
+    \end{verse*}
 
-  \begin{verse}
-    Il y'en a qui travaillent comme des fous
-    Pour se payer des clous
-    À clouer sur leur feuilles de vie
-    Mais la mort est sans bagages
-    Moi de tous cela, je ne veux rien
-    Les poches vides et le cœur plein d'amour
-    Qu'une gitane m'a laissés
-    La musique, c'est elle et la fête fait son entrée
-  \end{verse}
+    \begin{verse*}
+      \[B&m]La musique, c'est elle et la \[E&]fête fait son en\[Fm]trée
+    \end{verse*}
+
+    \begin{verse}
+      \[Fm] Elles portent des marques \[B&m]du voyage
+      Et savent \[E&]très bien nous y faire \[Fm]croire
+      Rien qu'à les regarder dan\[B&m]ser
+      Cherche pas à \[E&]comprendre, t'as qu'à y al\[Fm]ler
+    \end{verse}
+
+    \begin{verse*}
+      \[Fm] Ni femme de marin, \[B&m]ni putain
+      Je sais \[E&]{qu'elles} reparti\[Fm]ront
+      Des joies de gens dans une \[B&m]main
+      Et une \[E&]valise pleine de chan\[A&]sons
+    \end{verse*}
+
+    \begin{verse*}
+      Oh \[B&m]la musique, c'est elle et la \[E&]fête fait son en\[Fm]trée
+    \end{verse*}
+
+    \begin{verse}
+      \[Fm] Il y'en a qui travaillent \[B&m]comme des fous
+      Pour \[E&]se payer des \[Fm]clous
+      À clouer sur leur \[B&m]feuilles de vie
+      Mais la \[E&]mort est sans ba\[Fm]gages
+    \end{verse}
+
+    \begin{verse*}
+      \[Fm] Moi de tout cela, \[B&m]je ne veux rien
+      Les poches \[E&]vides et le cœur \[Fm]plein
+      D'amour qu'une gi\[B&m]tane m'a laissé
+      \nolyrics{\[E& A&]}
+    \end{verse*}
+
+    \begin{verse*}
+      \[B&m]La musique, c'est elle et la \[E&]fête fait son en\[Fm]trée
+    \end{verse*}
+  \end{repeatedchords}
 
 \endsong

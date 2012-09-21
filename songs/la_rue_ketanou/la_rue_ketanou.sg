@@ -12,7 +12,7 @@
   \gtab{D#}{6:X02220}
 
   \begin{chorus}
-    \[Fm]C'est pas nous qui sommes à la rue
+    \[Fm]{C'est} pas nous qui sommes à la rue
     C'est la rue qu'est à \[A&]nous
     \[B&m]Nao son en que son da rua
     É a rua que é nossa \[C# D#]
@@ -21,58 +21,60 @@
 
   \begin{verse}
     \[Fm]Crevons la sourde oreille\[A&]
-    En a\[B&m]vant la musique
-    Chauffe, chauffe, chauffe le soleil
-    Souffle un vent de panique
+    En a\[B&m]vant la mu\[Fm]sique
+    Chauffe, \[Fm]chauffe, chauffe le so\[A&]leil
+    Souffle \[B&m]un vent de pa\[Fm]nique
   \end{verse}
 
-  \begin{verse*}
-    Gagnons les causes perdues
-    Déployons notre jeunesse
-    Sa fougue et son chahut
-    Sa rage et sa tendresse
-  \end{verse*}
+  \begin{repeatedchords}
+    \begin{verse*}
+      Ga\[Fm]gnons les causes per\[A&]dues
+      Déplo\[B&m]yons notre jeu\[Fm]nesse
+      Sa \[Fm]fougue et son cha\[A&]hut
+      Sa \[B&m]rage et sa ten\[Fm]dresse
+    \end{verse*}
 
-  \begin{verse}
-    Abracadabra le miracle
-    On va transformer cette salle
-    En grande scène de spectacle
-    Mesdames et messieurs, on joue pour vous ce soir
-  \end{verse}
+    \begin{verse}
+      A\[Fm]bracadabra le \[A&]miracle
+      On va \[B&m]transformer cette \[Fm]salle
+      En \[Fm]grande scène de spec\[A&]tacle
+      Mesdames et messieurs, on \[B&m]joue pour vous ce \[Fm]soir
+    \end{verse}
 
-  \begin{verse*}
-    Entrée libre pour tout le monde
-    Chacun aura sa place
-    Là, dans la dernière ronde
-    Sans première ni deuxième classe
-  \end{verse*}
+    \begin{verse*}
+      Entrée \[Fm]libre pour tout le \[A&]monde
+      Cha\[B&m]cun aura sa \[Fm]place
+      Là, dans \[Fm]la dernière \[A&]ronde
+      Sans pre\[B&m]mière ni deuxième \[Fm]classe
+    \end{verse*}
 
-  \begin{verse}
-    Les gosses sur les épaules
-    Les filles par la main
-    On s'ra triste, on s'ra drôle
-    Partagez notre chemin
-  \end{verse}
+    \begin{verse}
+      Les \[Fm]gosses sur les é\[A&]paules
+      Les \[B&m]filles par la \[Fm]main
+      On s'ra \[Fm]triste, on s'ra \[A&]drôle
+      Parta\[B&m]gez notre che\[Fm]min
+    \end{verse}
 
-  \begin{verse*}
-    Et vive la bohème
-    Et vive les voyages
-    Leurs réponses, leurs problèmes
-    Peut-être leurs dérapages
-  \end{verse*}
+    \begin{verse*}
+      Et \[Fm]vive la bo\[A&]hème
+      Et \[B&m]vive les vo\[Fm]yages
+      Leurs ré\[Fm]ponses, leurs pro\[A&]blèmes
+      Peut-\[B&m]être leurs déra\[Fm]pages
+    \end{verse*}
 
-  \begin{verse}
-    Nous couchons si souvent
-    Avec la belle étoile
-    Son amour est vivant
-    Gonfle notre grande voile
-  \end{verse}
+    \begin{verse}
+      Nous \[Fm]couchons si sou\[A&]vent
+      A\[B&m]vec la belle é\[Fm]toile
+      Son a\[Fm]mour est vi\[A&]vant
+      Gon\[B&m]fle notre grande \[Fm]voile
+    \end{verse}
 
-  \begin{verse*}
-    Et grave dans notre voix
-    L'empreinte des gouttes de pluie
-    La chaleur et le froid
-    L'enfer, le paradis
-  \end{verse*}
+    \begin{verse*}
+      Et \[Fm]grave dans notre \[A&]voix
+      L'em\[B&m]preinte des gouttes de \[Fm]pluie
+      La \[Fm]chaleur et le \[A&]froid
+      L'en\[B&m]fer, le para\[Fm]dis
+    \end{verse*}
+  \end{repeatedchords}
 
 \endsong

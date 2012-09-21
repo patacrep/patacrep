@@ -7,57 +7,66 @@
   \cover
   \gtab{F#}{2:022100}
   \gtab{Bm}{2:X02210}
-  \gtab{A}{5:X22100}
-  \gtab{D}{5:X02220}
-  \gtab{Em}{7:X02210}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{G}{3:022100}
+  \gtab{Em}{022000}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics{ \[Bm F{\shrp}] } \rep{4}}
+  \end{verse*}
 
   \begin{verse}
-    J'\[F#]avais 14 \[Bm]ans comme mon cou\[F#]sin et le cœur en \[Bm]fièvre \[F#]
+    J'avais 14 \[Bm]ans comme mon cou\[F#]sin et le cœur en \[Bm]fièvre \[F#]
     Pour ces deux jo\[Bm]lies filles qui de\[A]vinrent nos cava\[D]lières
     Après un bai\[G]ser, bien vite vo\[A]lé, peu de bavar\[D]dages
     Furent néce\[Em]ssaires pour en voir davan\[F#]tage
   \end{verse}
 
-  \begin{verse}
-    Tous deux débutants, il fallut user, bien de manigances
-    D'imagination pour ne pas trahir notre inexpérience
-    Nous nous escrimions pleins de bonne volonté, de courage
-    Et elles apprécièrent notre cafouillage
-  \end{verse}
+  \begin{verse*}
+    Tous deux débu\[Bm]tants, il fallut u\[F#]ser, bien de mani\[Bm]gances \[F#]
+    D'imagina\[Bm]tion pour ne pas tra\[A]hir notre inexpé\[D]rience
+    Nous nous escri\[G]mions pleins de bonne \[A]volonté, de cou\[D]rage
+    Et elles appré\[F#]cièrent notre cafouil\[Bm]lage \[F# Bm F#]
+  \end{verse*}
 
-  \begin{verse}
-    Tout se compliqua quand le lendemain pour les retrouver
-    Deux heures de vélo furent nécessaires, à peine arrivés
-    Elles nous désarçonnèrent et en guise de récompense
-    Elles se démenèrent en conséquence
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Tout se compli\[Bm]qua quand le lende\[F#]main pour les retrou\[Bm]ver \[F#]
+      Deux heures de vé\[Bm]lo furent néces\[A]saires, à peine arri\[D]vés
+      Elles nous désar\[G]çonnèrent et en \[A]guise de récom\[D]pense
+      Elles se déme\[Em]nèrent en consé\[F#]quence
+    \end{verse}
 
-  \begin{verse}
-    Le soleil tombait, il fallait rentrer à notre village
-    Tous deux le sourire accroché, la tête dans les nuages
-    La route montait aussi sûrement que notre tristesse
-    En nous éloignant, loin de nos princesses
-  \end{verse}
+    \begin{verse*}
+      Le soleil tom\[Bm]bait, il fallait ren\[F#]trer à notre vil\[Bm]lage \[F#]
+      Tous deux le sou\[Bm]rire accroché, la \[A]tête dans les nu\[D]ages
+      La route mon\[G]tait aussi sûre\[A]ment que notre tris\[D]tesse
+      En nous éloi\[F#]gnant, loin de nos prin\[Bm]cesses \[F# Bm F#]
+    \end{verse*}
 
-  \begin{verse}
-    Et puis fatigués par la pente et par notre gymnastique
-    Mettant pied à terre pour faire reposer nos cages thoraciques
-    Nous vîmes arriver sur leurs mobylettes, les jeunes du village
-    De nos fiancées qui faisaient barrage
-  \end{verse}
+    \begin{verse}
+      Et puis fati\[Bm]gués par la pente et \[F#]par notre gymnas\[Bm]tique \[F#]
+      Mettant pied à \[Bm]terre pour faire repo\[A]ser nos cages thora\[D]ciques
+      Nous vîmes arri\[G]ver sur leurs moby\[A]lettes, les jeunes du vil\[D]lage
+      De nos fian\[Em]cées qui faisaient bar\[F#]rage
+    \end{verse}
 
-  \begin{verse}
-    Vous les coustougiens, les mérovingiens, faiseurs d'espadrilles
-    Vous qui venaient chez nous la gueule en cœur, nous piquer les filles
-    Venez dans le pré, on va vous apprendre à faire pénitence
-    On va vous montrer ce que l'on en pense
-  \end{verse}
+    \begin{verse*}
+      Vous les coustou\[Bm]giens, les mérovin\[F#]giens, faiseurs d'espa\[Bm]drilles \[F#]
+      Vous qui venaient \[Bm]chez nous, la gueule en \[A]cœur, nous piquer les \[D]filles
+      Venez dans le \[G]pré, on va vous ap\[A]prendre à faire péni\[D]tence
+      On va vous mon\[F#]trer ce que l'on en \[Bm]pense \[F# Bm F#]
+    \end{verse*}
 
-  \begin{verse}
-    De retour chez nous, il fût bien difficile d'expliquer
-    Les marrons, le retard, les trous dans le pantalon déchiré
-    Nous fûmes punis et plus jamais nous ne vîmes les belles
-    Qui avaient valu, des gnons pour des pelles \rep{2}
-  \end{verse}
+    \begin{verse}
+      De retour chez \[Bm]nous, il fût bien dif\[F#]ficile d'expli\[Bm]quer \[F#]
+      Les marrons, le re\[Bm]tard, les trous dans le \[A]pantalon déchi\[D]ré
+      Nous fûmes pu\[G]nis et plus jamais \[A]nous ne vîmes les \[D]belles
+      Qui avaient va\[Em]lu, des gnons pour des \[F#]pelles
+      Nous fûmes pu\[G]nis et plus jamais \[A]nous ne vîmes les \[D]belles
+      Qui avaient va\[F#]lu, des gnons pour des \[Bm]pelles \[F# Bm F# Bm F# Bm F# Bm]
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

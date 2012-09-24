@@ -1,0 +1,87 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Super pouvoir d'achat}
+  [by={La chanson du dimanche},cov={plante-un-arbre},album={Plante un arbre},%
+  url={http://www.lachansondudimanche.com}]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+
+  \begin{verse}
+    \[Dm] Si j'avais le pouvoir d'a\[B&]chat \echo{Ah ah ah \[F]ah}
+    J'achèterais plein d'objets sans \[C]fil \echo{Ah ah ah \[Dm]ah}
+    J'achèterais un écran \[B&]plat \echo{Ah ah ah \[F]ah}
+    La vie serait plus fa\[C]cile \echo{Ah ah ah \[Dm]ah}
+  \end{verse}
+
+  \begin{verse*}
+    Je t'a\[Dm]chèterais un stylo
+    Je t'a\[B&]chèterais un cahier
+    Peut-être même \[F]que je pourrais payer
+    L'\[C]université
+  \end{verse*}
+
+  \begin{chorus}
+    Donnez, donnez-\[Dm]moi, le pouvoir d'a\[B&]chat
+    Donnez, donnez-\[F]moi, le super mar\[C]ché
+    Le super pou\[Dm]voir de pouvoir mar\[B&]cher
+    Tout en ache\[F]tant du lait UH\[C]T
+  \end{chorus}
+
+  \begin{chorus}
+    Donnez, donnez-\[Dm]moi \[B&]
+    Le pouvoir d'a\[F]chat \[C]
+    \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm] Si j'avais le pouvoir d'a\[B&]chat \echo{Ah ah ah \[F]ah}
+      J'achèterais des boites en plas\[C]tique \echo{Ah ah ah \[Dm]ah}
+      J'achèterais une tente Que\[B&]chua \echo{Ah ah ah \[F]ah}
+      Aujourd'hui on ne sait ja\[C]mais \echo{Ah ah ah \[Dm]ah}
+    \end{verse}
+
+    \begin{verse*}
+      Je t'offri\[Dm]rais le TER
+      Je t'emmène\[B&]rais jusqu'à Beauvais
+      Peut-être même \[F]que je pourrais payer
+      L'\[C]hospice de mémé
+    \end{verse*}
+
+  \begin{verse}
+    \[Dm] Si j'avais le pouvoir d'a\[B&]chat, je devrais payer plus d'im\[F]pôts
+    Mais en fait je paierais moins d'im\[C]pôts, parce que les impôts c'est bien \[Dm]fait
+    J'achèterais un camembert Prési\[B&]dent, celui qui sent des \[F]pieds
+    Le prési\[C]dent, il sent des \[Dm]pieds
+  \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    J'm'abonnerais à la pis\[B&]cine puis j'irais chez le podo\[F]logue
+    Me faire enlever une ver\[C]rue, je f'rai des heures de vé\[Dm]lib
+    J'm'achèterais un barbe\[B&]cue, avec un allume-barbe\[F]cue
+    Je m'achèterais un rottweil\[C]ler pour protéger mon barbe\[Dm]cue
+    \nolyrics{\[B{\flt} F C Dm]}
+  \end{verse*}
+
+  \begin{verse}
+    Puis je place\[Dm]rais 1\,000 eu\[B&]ros
+    À l'excellent \[F]taux de \[C]{4\%}
+    Ce qui me fe\[Dm]ra, au bout de dix \[B&]ans
+    La coquette \[F]somme de 400 eu\[C]ros
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      400 eu\[Dm]ros, c'est très impor\[B&]tant
+      Je pourrai m'ache\[F]ter une brosse à \[C]dent
+      Du jus d'ana\[Dm]nas, et un télé\[B&]phone
+      Pour pouvoir ra\[F]quer encore un peu \[C]plus
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

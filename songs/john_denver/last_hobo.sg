@@ -1,0 +1,75 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{The last hobo}
+  [by={John Denver},cov={all-aboard},album={All aboard!}]
+
+  \cover
+  \capo{2}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+
+  \begin{verse}
+    He was \[D]born in International Falls
+    A \[G]long, long time ago
+    He \[A]moved to Tucumcari
+    When the \[G]ironwork got \[D]slow
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      He was \[D]cornbread and hard scrabble
+      And \[G]scratching for every dime
+      'til he \[A]threw it in and he hit the road
+      To \[G]walk that endless \[D]line
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Now he's the \[A]last hobo
+    Riding the \[D]last boxcar
+    On the \[A]last freight train
+    Leaving \[D]here
+    \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      He \[D]tried his hands at lots of jobs
+      And he \[G]did them all with pride
+      From \[A]shoeing mules to driving trucks
+      He \[G]mastered what he \[D]tried
+    \end{verse}
+
+    \begin{verse*}
+      It \[D]must have been Ramona
+      She was \[G]all he cared about
+      When she \[A]ran away and left him
+      You could \[G]see the fire go \[D]out
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    We \[G]hardly ever see him
+    Once or twice and he would stay a day or \[D]two
+    He'd \[G]ask about Ramona
+    Then he'd say that he was only passing \[A]through
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Now \[D]he knows every railroad bull
+      A\[G]long the right of way
+      And \[A]every hobo jungle
+      From \[G]New York to Santa \[D]Fe
+    \end{verse}
+
+    \begin{verse*}
+      He's \[D]looked for his Ramona
+      On the \[G]far side of the hill
+      Now his \[A]sun is sinking lower
+      And he's \[G]looking for her \[D]still
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

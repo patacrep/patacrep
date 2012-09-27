@@ -1,0 +1,40 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je ne t'aime plus}
+  [by={Manu Chao},cov={clandestino},album={Clandestino}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320033}
+  \utab{Am}{2000}
+  \utab{Dm}{2210}
+  \utab{G}{0232}
+
+  \begin{chorus}
+    \[Am]Je ne t'aime plus mon amour
+    \[Dm]Je ne t'aime plus \[G]tous les jours
+    \rep{2}
+  \end{chorus}
+
+  \begin{verse}
+    \[Am]Parfois j'aimerais mourir
+    Telle\[Am]ment j'ai voulu croire
+    \[Dm]Parfois j'aimerais mourir
+    Pour \[G]ne plus rien avoir
+    \[Am]Parfois j'aimerais mourir
+    Pour \[Am]plus jamais te voir
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]Parfois j'aimerais mourir
+      Telle\[Am]ment y'a plus d'espoir
+      \[Dm]Parfois j'aimerais mourir
+      Pour \[G]plus jamais te revoir
+      \[Am]Parfois j'aimerais mourir
+      Pour \[Am]ne plus rien savoir
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

@@ -23,3 +23,5 @@ french.sb
 english.sb
 tmp.sb
 utils/version.sh
+/*.tex
+/covers/

@@ -1,0 +1,96 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Morgane de toi}
+  [by={Renaud},cov={morgane-de-toi},album={Morgane de toi}]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{Em}{022000}
+  \gtab{G}{320033}
+  \utab{D}{2220}
+  \utab{A}{2100}
+  \utab{Em}{0432}
+  \utab{G}{0232}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{ \[D] \[A] \[Em] \[G] } }
+    \lilypond{Morgane_de_toi}
+  \end{verse*}
+
+  \begin{verse}
+    \[D] {Y'a} un mariole, il a \[A]au moins quatre ans
+    \[Em] Il veut t'piquer ta pelle \[G]et ton seau
+    \[D] Ta couche-culotte avec tes \[A]bonbecs dedans
+    Loli\[Em]ta, défends-toi, fous-y \[G]un coup d'râteau dans l'dos
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[D] Attend un peu avant d'te \[A]faire emmerder
+      \[Em] Par ces p'tits machos qui \[G]pensent qu'à une chose
+      \[D] Jouer au docteur non \[A]conventionné
+      \[Em] J'y ai joué aussi, je \[G]sais de quoi j'cause
+    \end{verse*}
+
+    \begin{verse*}
+      \[D] J'les connais bien les play-boys \[A]des bacs à sable
+      \[Em] J'draguais leur mère avant d'\[G]connaître la tienne
+      \[D] Si tu les écoutes ils t'feront por\[A]ter leurs cartables
+      \[Em] Heureusement qu'j'suis là, que j'te re\[G]garde et que j't'aime
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \nolyrics{\[D] \[A] \[Em] \[G]}
+    Lo\[D]la \[A]
+    J'suis \[Em]{qu'un} fantôme quand \[G]tu vas où j'suis \[D]pas \[A]
+    Tu \[Em]sais ma môme
+    Que \[G]{j'suis} mor\[A]gane de \[D]toi \[A] \[Em] \[G]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D] Comme j'en ai marre de m'faire ta\[A]touer des machins
+      \[Em] Qui m'font comme une bande dessi\[G]née sur la peau
+      \[D] J'ai écrit ton nom avec \[A]des clous dorés
+      Un par \[Em]un, plantés dans le cuir \[G]de mon blouson dans l'dos
+    \end{verse}
+
+    \begin{verse*}
+      \[D] T'es la seule gonzesse que j'peux \[A]{t'nir} dans mes bras
+      Sans m'dé\[Em]mettre une épaule, sans pli\[G]er sous ton poids
+      \[D] Tu pèses moins lourd qu'un moi\[A]neau qui mange pas
+      Déploie \[Em]jamais tes ailes, Loli\[G]ta t'envole pas
+    \end{verse*}
+
+    \begin{verse*}
+      Avec \[D]tes miches de rat qu'on di\[A]rait des noisettes
+      Et ta \[Em]peau plus sucrée qu'un pain \[G]au chocolat
+      Tu risques \[D]de donner faim à un \[A]tas de p'tits mecs
+      Quand t'i\[Em]ras à l'école, si \[G]jamais t'y vas
+    \end{verse*}
+
+    \begin{verse}
+      \[D] Qu'est-ce tu m'racontes tu veux \[A]un p'tit frangin
+      \[Em] Tu veux qu'j't'achète un a\[G]mi Pierrot
+      Eh les \[D]bébés ça s'trouve pas dans \[A]les magasins
+      Puis j'crois \[Em]pas que ta mère voudra \[G]{qu'j'lui} fasse un p'tit dans l'dos
+    \end{verse}
+
+    \begin{verse*}
+      \[D] Ben quoi Lola on n'est \[A]pas bien ensemble
+      Tu crois \[Em]pas qu'on est déjà bien \[G]assez nombreux
+      \[D] T'entends pas c'bruit, c'est le \[A]monde qui tremble
+      Sous les \[Em]cris des enfants qui sont \[G]malheureux
+    \end{verse*}
+
+    \begin{verse*}
+      Allez \[D]viens avec moi, j't'embarque \[A]dans ma galère
+      Dans mon \[Em]arche y'a d'la place pour tous \[G]les marmots
+      \[D] Avant qu'ce monde devienne \[A]un grand cimetière
+      Faut pro\[Em]fiter un peu du \[G]vent qu'on a dans l'dos
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

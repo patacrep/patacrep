@@ -1,0 +1,98 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Bongo Bong}
+  [by={Manu Chao},cov={clandestino},album={Clandestino}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320033}
+  \utab{Am}{2000}
+  \utab{Dm}{2210}
+  \utab{G}{0232}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics \[Am] \[Am] \[Dm] \[G]}
+  \end{verse*}
+
+  \begin{verse}
+    \[Am]Mama was queen of the mambo
+    \[Am]Papa was king of the Congo
+    \[Dm]Deep down in the jungle
+    I started \[G]banging my first bongo
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Am]Every monkey'd like to be
+      \[Am]In my place instead of me
+      Cause \[Dm]{I'm} the king of bongo, baby
+      \[G]{I'm} the king of bongo bong
+    \end{verse*}
+
+    \begin{verse}
+      I \[Am]went to the big town
+      Where there \[Am]is a lot of sound
+      From the \[Dm]jungle to the city
+      Looking for a bigger crown
+      So I \[Am]play my boogie
+      For the \[Am]people of big city
+      But they \[Dm]{don't} go crazy
+      When I bangin'on my boogie, I'm the 
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[Am] King of the bongo, king of the bongo \[Dm]bong
+    \[G]Hear me when I come baby
+    \[Am] King of the bongo, king of the bongo \[Dm]bong
+    \[G]Hear me when I come
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      No\[Am]body'd like to be
+      In my \[Am]place instead of me
+      Cause no\[Dm]body go crazy
+      When I'm \[G]banging on my boogie
+      I'm a \[Am]king without a crown
+      Hanging \[Am]loose in a big town
+      But \[Dm]{I'm} the king of bongo, baby
+      \[G]{I'm} the king of bongo bong
+    \end{verse}
+
+    \begin{verse}
+      They \[Am]say that I'm a clown
+      Making \[Am]too much dirty sound
+      They \[Dm]say there is no place
+      For little \[G]monkey in this town
+      No\[Am]body'd like to be
+      In my \[Am]place instead of me
+      Cause no\[Dm]body go crazy
+      When I'm \[G]banging on my boogie, I'm the
+    \end{verse}
+
+    \begin{verse}
+      \[Am]Banging on my bongo
+      All that \[Am]swing belongs to me
+      I'm so \[Dm]happy there's nobody
+      In my \[G]place instead of me
+      I'm a \[Am]king without a crown
+      Hanging \[Am]loose in a big town
+      But \[Dm]{I'm} the king of bongo, baby
+      \[G]{I'm} the king of bongo bong
+    \end{verse}
+
+    \begin{verse}
+      \[Am]Mama was queen of the mambo
+      \[Am]Papa was king of the Congo
+      \[Dm]Deep down in the jungle
+      I started \[G]banging my first bongo
+      \[Am]Every monkey 'd like to be
+      \[Am]In my place instead of me
+      Cause \[Dm]{I'm} the king of bongo, baby
+      \[G]{I'm} the king of bongo bong
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

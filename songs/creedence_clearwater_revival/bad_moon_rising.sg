@@ -1,0 +1,58 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Bad moon rising}
+  [by={Creedence Clearwater Revival},cov={green-river},album={Green River}]
+
+  \cover
+  \gtab*{D}{X00232}
+  \gtab*{A}{002220}
+  \gtab*{G}{320003}
+
+  \begin{verse}
+    \[D]I see a \[A]bad \[G]moon a \[D]rising
+    \[D]I see \[A]trouble \[G]on the way\[D]
+    \[D]I see \[A]earth\[G]quakes and \[D]lightnings
+    \[D]I see \[A]bad \[G]times to\[D]day
+  \end{verse}
+
+  \begin{chorus}
+    \[G]Don't go around tonight
+    Well, it's \[D]bound to take your life
+    \[A]There's a \[G]bad moon on the rise\[D]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]I hear hur\[A]ri\[G]canes blowing\[D]
+      \[D]I know the \[A]end is \[G]coming soon\[D]
+      \[D]I fell \[A]rivers \[G]over flowing\[D]
+      \[D]I hear the \[A]voice from \[G]rage and ruin\[D]
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[G]Don't go around tonight
+      Well, it's \[D]bound to take your life
+      \[A]There's a \[G]bad moon on the rise\[D]
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Hope you \[A]got your \[G]things together\[D]
+      \[D]Hope you are \[A]quite \[G]prepared to die\[D]
+      \[D]Looks like we're \[A]in for \[G]nasty weather\[D]
+      \[D]One eye is \[A]thaking \[G]for an eye\[D]
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[G]Don't go around tonight
+      Well, it's \[D]bound to take your life
+      \[A]There's a \[G]bad moon on the rise\[D]
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

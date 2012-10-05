@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Le voyageur}
+  [by={Les Ogres de Barback},cov={rue-du-temps},album={Rue du temps}]
+
+  \cover
+  \gtab{Cm}{3:X02210}
+  \gtab{G}{320003}
+  \gtab{G#}{4:022100}
+  \gtab{Bb}{1:X02220}
+  \utab{Cm}{3:2000}
+  \utab{G}{2:2010}
+  \utab{G#}{3:2010}
+  \utab{Bb}{1:2100}
+
+  \begin{verse}
+    Sois \[Cm]fier de toi mon \[G]frère, tu t’en reviens de \[Cm]loin
+    Tout autour de la \[G]Terre, la mort était au \[Cm]coin
+    De toutes tes \[G#]aven\[Cm]tures, de \[Bb]tous les conti\[Cm]nents
+    Ton \[G#]retour est très \[Cm]dur mais sois fier \[G#]à \[G]pré\[Cm]sent
+  \end{verse}
+  \begin{verse*}
+    Ne regrette pas mon \[Bb]frère, t’as choisi et c’est \[Cm]tout
+    Eh bien t’as su le \[Bb]faire, courageux et sans \[Cm]sou
+    Dans ton p’tit \[G#]sac à \[Cm]puces, on n’\[Bb]voyait pas très \[Cm]bien
+    D’où \[G#]venait ton as\[Cm]tuce mais ne re\[G#]gret\[G]te \[Cm]rien
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      N’aie pas honte mon \[G]frère, je sais, t’étais pas \[Cm]là
+      A l’enterrement du \[G]père, c’est pas si grave que \[Cm]ça
+      Bien sûr, lui, il \[G#]aurait vou\[Cm]lu qu’tu \[Bb]sois à ses cô\[Cm]tés
+      Mais \[G#]tout n’est pas per\[Cm]du, n’aie pas honte \[G#]de \[G]pleu\[Cm]rer
+    \end{verse}
+    \begin{verse*}
+      Sois pas triste mon \[Bb]frère, la vie, ici c’est \[Cm]tout
+      C’qu’il y a d’plus ordi\[Bb]naire, parfois j’en deviens \[Cm]fou
+      Et je pas\[G#]se du \[Cm]rire aux \[Bb]larmes sur ma \[Cm]joue
+      Il \[G#]{m’arrive} ton souve\[Cm]nir, sois pas triste \[G#]et \[G]{c’est} \[Cm]tout
+    \end{verse*}
+
+    \begin{verse}
+      Ne regarde pas, mon \[G]frère, c’qu’on est devenus i\[Cm]ci
+      Mais le bonheur se \[G]perd, et l’espoir s’en\[Cm]fuit
+      Tu sais, t’as \[G#]rien lou\[Cm]pé, tout \[Bb]est toujours en \[Cm]place
+      De\[G#]hors, rien n’a chan\[Cm]gé, ne regarde \[G#]pas \[G]en \[Cm]face
+    \end{verse}
+    \begin{verse*}
+      Ne repars pas, mon \[Bb]frère, tu es ici chez \[Cm]toi
+      Et pense à notre \[Bb]mère qui n’le supporterait \[Cm]pas
+      Bois encore \[G#]deux ou trois \[Cm]verres et \[Bb]dors ici ce \[Cm]soir\dots
+      Excuse-\[G#]moi, à quoi ça \[Cm]sert ? Tu repars, \[G#]au-\[G]re\[Cm]voir
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{\Outro : \nolyrics \[Cm Bb Cm Bb]}
+  \end{verse*}
+
+\endsong

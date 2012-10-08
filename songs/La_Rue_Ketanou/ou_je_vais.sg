@@ -1,0 +1,66 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Où je vais}
+  [by={La Rue Kétanou},cov={en-attendant-les-caravanes},album={En attendant les caravanes}]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{Bb}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{Gm}{4:022000}
+  \utab{Dm}{2210}
+  \utab{Bb}{1:2100}
+  \utab{F}{2010}
+  \utab{Gm}{0231}
+
+  \begin{chorus}
+  \nolyrics \[Dm Bb F Gm] \rep{4}
+  \lilypond{Ou_je_vais}
+  \[Dm]Je n'sais \[Bb]pas \[F]où je \[Gm]vais
+  \end{chorus}
+  \begin{repeatedchords}
+  \begin{chorus}
+  Oh \[Dm]ça je \[Bb]{n'l'ai} ja\[F]mais bien \[Gm]su
+  Mais \[Dm]si ja\[Bb]mais je \[F]le sa\[Gm]vais
+  \[Dm]Je crois \[Bb]bien que je \[F]{n'irais} \[Gm]plus
+  \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse}
+  Aujour\[Dm]{d'hui} je \[Bb]{t'aime}, oui \[F]mais de\[Gm]main ?
+  \end{verse}
+  \begin{repeatedchords}
+  \begin{verse*}
+  On ne \[Dm]peut ja\[Bb]mais être \[F]sûr de \[Gm]rien
+  On \[Dm]va tou\[Bb]jours seul \[F]sur la \[Gm]route
+  Je \[Dm]conti\[Bb]nue coû\[F]te que \[Gm]coûte
+  Et \[Dm]puis une \[Bb]route en \[F]croise une \[Gm]autre
+  Et \[Dm]puis une \[Bb]autre et en\[F]core une \[Gm]autre
+  Pourvu \[Dm]que la \[Bb]tienne, oh \[F]mon a\[Gm]mour
+  Croi\[Dm]se la \[Bb]mienne \[F]tous les \[Gm]jours
+  \end{verse*}
+
+  \begin{verse}
+  Et \[Dm]oui je \[Bb]suis u\[F]ne ci\[Gm]gale
+  T'in\[Dm]quiète four\[Bb]mi j'crève \[F]pas la \[Gm]dalle
+  La \[Dm]musique \[Bb]{c'est} un \[F]bon gagne-\[Gm]pain
+  Où \[Dm]que je \[Bb]sois, je n'\[F]manque de \[Gm]rien
+  Je \[Dm]chante tou\[Bb]jours de \[F]quoi grail\[Gm]ler
+  De \[Dm]quoi trin\[Bb]quer, de \[F]quoi cau\[Gm]ser
+  Je \[Dm]{m'endors} \[Bb]où il \[F]fait som\[Gm]meil
+  Et \[Dm]je passe \[Bb]{l'été} \[F]au so\[Gm]leil
+  \end{verse}
+
+  \begin{verse}
+  Un \[Dm]jour i\[Bb]ci, l'au\[F]tre là-\[Gm]bas
+  La S\[Dm]NC\[Bb]F ne \[F]{m'aura} \[Gm]pas
+  Et \[Dm]toi qui \[Bb]{n'a} qu'une \[F]seule a\[Gm]dresse
+  Oh \[Dm]pauvre \[Bb]si tu \[F]veux j't'en \[Gm]laisse
+  Mais \[Dm]échange \[Bb]de bons \[F]procé\[Gm]dés
+  \[Dm]Si tu \[Bb]veux bien \[F]{m'héber}\[Gm]ger
+  Ben \[Dm]je se\[Bb]rai le \[F]bienve\[Gm]nu
+  Ben \[Dm]nous se\[Bb]rons les \[F]bienve\[Gm]nus
+  \end{verse}
+  \end{repeatedchords}
+
+\endsong

@@ -8,6 +8,10 @@
   \gtab{G}{320003}
   \gtab{Em}{022000}
   \gtab{F}{1:022100}
+  \utab{Am}{2000}
+  \utab{G}{0232}
+  \utab{Em}{0432}
+  \utab{F}{2010}
 
   \lilypond{Etoiles_filantes-1}
 

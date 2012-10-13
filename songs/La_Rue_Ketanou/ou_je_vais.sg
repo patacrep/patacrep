@@ -14,53 +14,53 @@
   \utab{Gm}{0231}
 
   \begin{chorus}
-  \nolyrics \[Dm Bb F Gm] \rep{4}
-  \lilypond{Ou_je_vais}
-  \[Dm]Je n'sais \[B&]pas \[F]où je \[Gm]vais
+    \nolyrics \[Dm Bb F Gm] \rep{4}
+    \lilypond{Ou_je_vais}
+    \[Dm]Je n'sais \[B&]pas \[F]où je \[Gm]vais
   \end{chorus}
   \begin{repeatedchords}
-  \begin{chorus}
-  Oh \[Dm]ça je \[B&]{n'l'ai} ja\[F]mais bien \[Gm]su
-  Mais \[Dm]si ja\[B&]mais je \[F]le sa\[Gm]vais
-  \[Dm]Je crois \[B&]bien que je \[F]{n'irais} \[Gm]plus
-  \end{chorus}
+    \begin{chorus}
+      Oh \[Dm]ça je \[B&]{n'l'ai} ja\[F]mais bien \[Gm]su
+      Mais \[Dm]si ja\[B&]mais je \[F]le sa\[Gm]vais
+      \[Dm]Je crois \[B&]bien que je \[F]{n'irais} \[Gm]plus
+    \end{chorus}
   \end{repeatedchords}
 
   \begin{verse}
-  Aujour\[Dm]{d'hui} je \[B&]{t'aime}, oui \[F]mais de\[Gm]main ?
+    Aujour\[Dm]{d'hui} je \[B&]{t'aime}, oui \[F]mais de\[Gm]main ?
   \end{verse}
   \begin{repeatedchords}
-  \begin{verse*}
-  On ne \[Dm]peut ja\[B&]mais être \[F]sûr de \[Gm]rien
-  On \[Dm]va tou\[B&]jours seul \[F]sur la \[Gm]route
-  Je \[Dm]conti\[B&]nue coû\[F]te que \[Gm]coûte
-  Et \[Dm]puis une \[B&]route en \[F]croise une \[Gm]autre
-  Et \[Dm]puis une \[B&]autre et en\[F]core une \[Gm]autre
-  Pourvu \[Dm]que la \[B&]tienne, oh \[F]mon a\[Gm]mour
-  Croi\[Dm]se la \[B&]mienne \[F]tous les \[Gm]jours
-  \end{verse*}
+    \begin{verse*}
+      On ne \[Dm]peut ja\[B&]mais être \[F]sûr de \[Gm]rien
+      On \[Dm]va tou\[B&]jours seul \[F]sur la \[Gm]route
+      Je \[Dm]conti\[B&]nue coû\[F]te que \[Gm]coûte
+      Et \[Dm]puis une \[B&]route en \[F]croise une \[Gm]autre
+      Et \[Dm]puis une \[B&]autre et en\[F]core une \[Gm]autre
+      Pourvu \[Dm]que la \[B&]tienne, oh \[F]mon a\[Gm]mour
+      Croi\[Dm]se la \[B&]mienne \[F]tous les \[Gm]jours
+    \end{verse*}
 
-  \begin{verse}
-  Et \[Dm]oui je \[B&]suis u\[F]ne ci\[Gm]gale
-  T'in\[Dm]quiète four\[B&]mi j'crève \[F]pas la \[Gm]dalle
-  La \[Dm]musique \[B&]{c'est} un \[F]bon gagne-\[Gm]pain
-  Où \[Dm]que je \[B&]sois, je n'\[F]manque de \[Gm]rien
-  Je \[Dm]chante tou\[B&]jours de \[F]quoi grail\[Gm]ler
-  De \[Dm]quoi trin\[B&]quer, de \[F]quoi cau\[Gm]ser
-  Je \[Dm]{m'endors} \[B&]où il \[F]fait som\[Gm]meil
-  Et \[Dm]je passe \[B&]{l'été} \[F]au so\[Gm]leil
-  \end{verse}
+    \begin{verse}
+      Et \[Dm]oui je \[B&]suis u\[F]ne ci\[Gm]gale
+      T'in\[Dm]quiète four\[B&]mi j'crève \[F]pas la \[Gm]dalle
+      La \[Dm]musique \[B&]{c'est} un \[F]bon gagne-\[Gm]pain
+      Où \[Dm]que je \[B&]sois, je n'\[F]manque de \[Gm]rien
+      Je \[Dm]chante tou\[B&]jours de \[F]quoi grail\[Gm]ler
+      De \[Dm]quoi trin\[B&]quer, de \[F]quoi cau\[Gm]ser
+      Je \[Dm]{m'endors} \[B&]où il \[F]fait som\[Gm]meil
+      Et \[Dm]je passe \[B&]{l'été} \[F]au so\[Gm]leil
+    \end{verse}
 
-  \begin{verse}
-  Un \[Dm]jour i\[B&]ci, l'au\[F]tre là-\[Gm]bas
-  La S\[Dm]NC\[B&]F ne \[F]{m'aura} \[Gm]pas
-  Et \[Dm]toi qui \[B&]{n'a} qu'une \[F]seule a\[Gm]dresse
-  Oh \[Dm]pauvre \[B&]si tu \[F]veux j't'en \[Gm]laisse
-  Mais \[Dm]échange \[B&]de bons \[F]procé\[Gm]dés
-  \[Dm]Si tu \[B&]veux bien \[F]{m'héber}\[Gm]ger
-  Ben \[Dm]je se\[B&]rai le \[F]bienve\[Gm]nu
-  Ben \[Dm]nous se\[B&]rons les \[F]bienve\[Gm]nus
-  \end{verse}
+    \begin{verse}
+      Un \[Dm]jour i\[B&]ci, l'au\[F]tre là-\[Gm]bas
+      La S\[Dm]NC\[B&]F ne \[F]{m'aura} \[Gm]pas
+      Et \[Dm]toi qui \[B&]{n'a} qu'une \[F]seule a\[Gm]dresse
+      Oh \[Dm]pauvre \[B&]si tu \[F]veux j't'en \[Gm]laisse
+      Mais \[Dm]échange \[B&]de bons \[F]procé\[Gm]dés
+      \[Dm]Si tu \[B&]veux bien \[F]{m'héber}\[Gm]ger
+      Ben \[Dm]je se\[B&]rai le \[F]bienve\[Gm]nu
+      Ben \[Dm]nous se\[B&]rons les \[F]bienve\[Gm]nus
+    \end{verse}
   \end{repeatedchords}
 
 \endsong

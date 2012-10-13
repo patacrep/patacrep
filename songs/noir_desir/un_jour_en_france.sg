@@ -4,10 +4,10 @@
   [by={Noir Désir},cov={666-667-club},album={666.667 Club~}]
 
   \cover
-  \gtab{A5}{5:133XXX}
-  \gtab{B&5}{6:133XXX}
-  \gtab{D5}{9:244XXX}
-  \gtab{F5}{133XXX}
+  \gtab*{A5}{5:022XXX}
+  \gtab*{B&5}{6:022XXX}
+  \gtab*{D5}{10:022XXX:}
+  \gtab*{F5}{1:022XXX}
 
   \begin{verse}
     \[A5]Au bis\[B&5]tro comme toujours il y a les \[A5]beaux discours

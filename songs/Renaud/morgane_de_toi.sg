@@ -14,7 +14,7 @@
   \utab{G}{0232}
 
   \begin{verse*}
-    \musicnote{\Intro : \nolyrics{ \[D] \[A] \[Em] \[G] } }
+    \musicnote{\Intro : \nolyrics \[D] \[A] \[Em] \[G]  }
     \lilypond{Morgane_de_toi}
   \end{verse*}
 
@@ -42,7 +42,7 @@
   \end{repeatedchords}
 
   \begin{chorus}
-    \nolyrics{\[D] \[A] \[Em] \[G]}
+    {\nolyrics \[D] \[A] \[Em] \[G]}
     Lo\[D]la \[A]
     J'suis \[Em]{qu'un} fantôme quand \[G]tu vas où j'suis \[D]pas \[A]
     Tu \[Em]sais ma môme

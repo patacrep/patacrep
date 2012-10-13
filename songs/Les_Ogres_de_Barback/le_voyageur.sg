@@ -7,11 +7,11 @@
   \gtab{Cm}{3:X02210}
   \gtab{G}{320003}
   \gtab{G#}{4:022100}
-  \gtab{Bb}{1:X02220}
+  \gtab{B&}{1:X02220}
   \utab{Cm}{3:2000}
   \utab{G}{2:2010}
   \utab{G#}{3:2010}
-  \utab{Bb}{1:2100}
+  \utab{B&}{1:2100}
 
   \begin{verse}
     Sois \[Cm]fier de toi mon \[G]frère, tu t'en reviens de \[Cm]loin
@@ -29,7 +29,7 @@
   \begin{repeatedchords}
     \begin{verse}
       N'aie pas honte mon \[G]frère, je sais, t'étais pas \[Cm]là
-      A l'enterrement du \[G]père, c'est pas si grave que \[Cm]ça
+      À l'enterrement du \[G]père, c'est pas si grave que \[Cm]ça
       Bien sûr, lui, il \[G#]aurait vou\[Cm]lu qu'tu \[B&]sois à ses cô\[Cm]tés
       Mais \[G#]tout n'est pas per\[Cm]du, n'aie pas honte \[G#]de \[G]pleu\[Cm]rer
     \end{verse}
@@ -55,7 +55,7 @@
   \end{repeatedchords}
 
   \begin{verse*}
-    \musicnote{\Outro : \nolyrics \[Cm Bb Cm B&]}
+    \musicnote{\Outro : \nolyrics \[Cm B& Cm B&]}
   \end{verse*}
 
 \endsong

@@ -1,0 +1,91 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Quatre-vingt-quinze pour cent}
+  [by={Georges Brassens},cov={fernande},album={Fernande}]
+
+  \cover
+  \capo{2}
+  \gtab{G}{320003}
+  \gtab{A7}{X02020}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{Em}{022000}
+  \gtab{F#7}{2:020100}
+  \gtab{C#7}{4:X02020}
+
+  \begin{verse}
+    La \[G]femme qui pos\[A7]sède tout en \[D]el\[Bm]le
+    \[Em]Pour donner le goût \[F#7]des fêtes char\[Bm]nelles
+    \[Em]La femme qui sus\[F#7]cite en nous tant \[Bm]de passion brutale
+    \[C#7]La femme est avant tout sentimen\[F#7]tale
+  \end{verse}
+
+  \begin{verse*}
+    \[G]Main dans la main les \[A7]longues prome\[D]na\[Bm]des
+    \[Em]Les fleurs, les billets \[F#7]doux, les séré\[Bm]nades
+    \[Em]Les crimes, les fo\[F#7]lies que pour ses \[Bm]beaux yeux l'on commet
+    \[C#7]La trans\[F#7]porte, \[Bm]mais \[A7]
+  \end{verse*}
+
+
+  \begin{chorus}
+    \[D]Quatre-vingt-quin\[A7]ze fois sur cent
+    \[D]La femme s'em\[F#7]merde en baisant
+    \[Bm]Qu'elle le taise \[F#7]ou qu'elle le confesse
+    \[Bm]{C'est} pas tous les jours qu'on lui déride les fesses
+    \[D]Les pauvres bou\[A7]gres convaincus
+    \[D]Du contraire \[F#7]sont des cocus
+    \[G]À l'heure de l'œu\[A7]vre de \[D]chair
+    \[Bm]Elle est souvent tris\[Em]te, \[A7]peu \[B7]chère
+    \[Em]S'il n'entend le \[A7]cœur qui \[D]bat
+    \[Bm]Le corps non plus ne \[Em]bron\[A7]che \[D]pas
+  \end{chorus}
+
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[G]Sauf quand elle aime un \[A7]homme avec ten\[D]dres\[Bm]se
+      \[Em]Toujours sensible a\[F#7]lors à ses ca\[Bm]resses
+      \[Em]Toujours bien dispo\[F#7]sée, toujours en\[Bm]cline à s'émouvoir
+      \[C#7]Elle s'emmerde sans s'en aperce\[F#7]voir
+    \end{verse}
+
+    \begin{verse*}
+      \[G]Ou quand elle a des \[A7]besoins tyran\[D]ni\[Bm]ques
+      \[Em]{Qu'elle} souffre de nym\[F#7]phomanie chro\[Bm]nique
+      \[Em]{C'est} elle qui fait a\[F#7]lors passer à \[Bm]ses adorateurs
+      \[C#7]De fi\[F#7]chus quarts d'\[Bm]heure \[A7]
+    \end{verse*}
+
+
+    \begin{verse}
+      \[G]Les {\og}encore{\fg}, les {\og}c'est \[A7]bon{\fg}, les {\og}conti\[D]nu\[Bm]e{\fg}
+      \[Em]{Qu'elle} crie pour simu\[F#7]ler qu'elle monte aux \[Bm]nues
+      \[Em]{C'est} pure chari\[F#7]té, les soupirs \[Bm]des anges ne sont
+      \[C#7]En général que de pieux men\[F#7]songes
+    \end{verse}
+
+    \begin{verse*}
+      \[G]C'est à seule fin \[A7]que son parte\[D]nai\[Bm]re
+      \[Em]Se croit un amant \[F#7]extraordi\[Bm]naire
+      \[Em]Que le coq imbé\[F#7]cile et préten\[Bm]tieux perché dessus
+      \[C#7]Ne soit \[F#7]pas dé\[Bm]çu \[A7]
+    \end{verse*}
+
+
+    \begin{verse}
+      \[G]{J'entends} aller de bon \[A7]train les commen\[D]tai\[Bm]res
+      \[Em]De ceux qui font des \[F#7]châteaux à Cy\[Bm]thère
+      {\og}\[Em]{C'est} parce que tu \[F#7]{n'es} qu'un malha\[Bm]bile, un maladroit
+      \[C#7]{Qu'elle} conserve toujours son sang-\[F#7]froid{\fg}
+    \end{verse}
+
+    \begin{verse*}
+      Peut-\[G]être, mais si \[A7]les assauts vous \[D]pè\[Bm]sent
+      \[Em]De ces petits m'as-\[F#7]tu-vu-quand-je-\[Bm]baise
+      Mes\[Em]dames, en vous lais\[F#7]sant manger le \[Bm]plaisir sur le dos
+      \[C#7]Chantez \[F#7]in pet\[Bm]to \[A7]{\dots}
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

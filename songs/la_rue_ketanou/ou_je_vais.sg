@@ -15,7 +15,7 @@
   \utab{Gm}{0231}
 
   \begin{chorus}
-    \nolyrics \[Dm Bb F Gm] \rep{4}
+    \nolyrics \[Dm B& F Gm] \rep{4}
     \lilypond{Ou_je_vais}
     \[Dm]Je n'sais \[B&]pas \[F]où je \[Gm]vais
   \end{chorus}

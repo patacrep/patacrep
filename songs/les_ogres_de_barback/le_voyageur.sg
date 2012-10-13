@@ -56,7 +56,7 @@
   \end{repeatedchords}
 
   \begin{verse*}
-    \musicnote{\Outro : \nolyrics \[Cm B& Cm B&]}
+    \musicnote{\Outro : \nolyrics \[Cm B{\flt} Cm B{\flt}]}
   \end{verse*}
 
 \endsong

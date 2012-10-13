@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Le voyageur}
-  [by={Les Ogres de Barback},cov={rue-du-temps},album={Rue du temps}]
+  [by={Les Ogres de Barback},cov={rue-du-temps},album={Rue du temps},%
+  url={http://www.lesogres.com}]
 
   \cover
   \gtab{Cm}{3:X02210}

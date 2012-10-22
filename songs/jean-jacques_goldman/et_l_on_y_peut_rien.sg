@@ -1,0 +1,135 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Et l'on y peut rien}
+  [by={Jean-Jacques Goldman},cov={pieds},album={Chansons pour les pieds}]
+
+  \cover
+  \capo{1}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+
+  \ifchorded
+  \begin{chorus}
+    {\nolyrics \[G C D G]}
+    {\nolyrics \[Em D Em D]}
+    {\nolyrics \[G C D G]}
+    {\nolyrics \[Em D C D G]}
+  \end{chorus}
+  \fi
+
+  \ifchorded
+  \begin{chorus}
+    {\nolyrics \[C G C G]}
+    {\nolyrics \[C G Em D]}
+    {\nolyrics \[C G C G]}
+    {\nolyrics \[C Em C D G]}
+  \end{chorus}
+  \fi
+
+  \begin{verse}
+    \[G]Comme un \[C]fil ent\[D]re l'autre et \[G]l'un
+    \[Em]Invi\[D]sible il \[Em]pose \[D]ses liens
+    \[G]Dans les \[C]méandres des \[D]des inc\[G]onscients
+    \[Em]Il se \[D]promène im\[C]puné\[G]ment
+  \end{verse}
+
+  \begin{chorus}
+    Et \[C]tout un peu \[G]tremble
+    Et le \[C]reste s'é\[G]teint
+    Jus\[C]te dans nos \[G]ventres
+    Un \[Em]nœud, une \[D]faim
+    Il \[C]fait roi l'es\[G]clave
+    Et peut \[C]damner les \[G]saints
+    L'honn\[C]ête ou le \[Em]sage
+    Et l'on \[C]n'y \[D]peut \[G]rien
+  \end{chorus}
+
+  \ifchorded
+  \begin{chorus}
+    {\nolyrics \[G C D G]}
+    {\nolyrics \[Em D Em D]}
+    {\nolyrics \[G C D G]}
+    {\nolyrics \[Em D C D G]}
+  \end{chorus}
+  \fi
+
+  \begin{verse}
+    Et l'on résiste on bâtit des murs
+    Des bonheurs, photos bien rangées
+    Terroriste, il fend les armures
+    Un instant tout est balayé
+  \end{verse}
+
+  \begin{chorus}
+    Tu rampes et tu guettes
+    Et tu mendies des mots
+    Tu lis ses poètes
+    Aimes ses tableaux
+    Et tu cherches à la croiser
+    T'as quinze ans soudain
+    Tout change de base
+    Et l'on n'y peut rien
+  \end{chorus}
+
+  \ifchorded
+  \begin{chorus}
+    {\nolyrics \[G C D G]}
+    {\nolyrics \[Em D D]}
+  \end{chorus}
+  \fi
+
+  \begin{verse}
+  \[A] Il s'in\[D]vite quand on \[E]ne l'att\[A]end pas
+  \[F{\shrp}m] Quand on \[E]y croit, il \[F{\shrp}m] s'enfuit \[E]déjà
+  \[A]Frère \[D]qui un \[E]jour y goû\[A]ta
+  \[F{\shrp}m]Jamais \[E]plus tu ne \[D]guéri\[A]ras
+  \end{verse}
+
+  \begin{chorus}
+    Il \[D]nous laisse \[A]vide
+    Et plus \[D]mort que \[A]vivant
+    C'est \[D]lui qui \[A]décide
+    On ne \[F{\shrp}m]fait que sem\[E]blant
+    Lui, \[D]choisit ses \[A]tours
+    Et ses \[D]va et ses \[A]vient
+    Ain\[D]si fait l'a\[F{\shrp}m]mour
+    Et l'on \[D]n'y \[E]peut \[A]rien
+  \end{chorus}
+
+  \ifchorded
+  \begin{chorus}
+    {\nolyrics \[A D E A]}
+    {\nolyrics \[F#m E F#m E]}
+    {\nolyrics \[A D E A]}
+    {\nolyrics \[F#m E D E A]}
+  \end{chorus}
+  \fi
+
+  \ifchorded
+  \begin{chorus}
+    {\nolyrics \[D A D A]}
+    {\nolyrics \[D A F#m E]}
+    {\nolyrics \[D A D A]}
+    {\nolyrics \[D F#m D E A]}
+  \end{chorus}
+  \fi
+
+  \ifchorded
+  \begin{chorus}
+    {\nolyrics \[A D E A]}
+    {\nolyrics \[F#m E F#m E]}
+    {\nolyrics \[A D E A]}
+    {\nolyrics \[F#m E D E A]}
+  \end{chorus}
+  \fi
+
+
+\endsong
+
+
+

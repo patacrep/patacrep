@@ -1,0 +1,68 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Mother's little helper}
+  [by={The Rolling Stones},cov={aftermath},album={Aftermath},%
+  url={http://www.rollingstones.com/}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+
+  \lilypond{mothers_little_helper}
+  \begin{verse*}
+  Wh\[Am]at a dr\[C]ag it i\[D]s getting \[Em]old
+  \end{verse*}
+
+  \begin{verse}
+  \[Em]Kids are different today I hear every mother say
+  Mother needs something today to calm her \[F]down \[D]
+  And though \[G]she's not really ill there's a \[C]little yellow \[Am]pill
+  She goes running for the shelt\[D]er of her mother's little helper
+  And it \[Em]helps her on her way gets her through her busy day
+  \end{verse}
+
+  \begin{verse}
+  \begin{repeatedchords}
+  \[Em]Things are different today I hear every mother say
+  Cooking fresh food for a husband's just a \[F]drag \[D]
+  So she \[G]buys an instant cake and she \[C]burns a frozen \[Am]steak
+  And goes running for the shelt\[D]er of her mother's little helper
+  And to \[Em]helps her on her way get her through her busy day
+  \end{repeatedchords}
+  \end{verse}
+
+  \begin{chorus}
+  \[C]Doctor please some \[D]more of these
+  Outside the \[G]door she took four \[C]more
+  \[Am]What a d\[C]rag it i\[D]s getting \[Em]old
+  \end{chorus}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[Em]Men just aren't the same today I hear every mother say
+  They just don't appreciate that you get \[F]tired \[D]
+  They're so \[G]hard to satisfy you can \[C]tranquilize your \[Am]mind
+  So go running for the shelt\[D]er of your mother's little helper
+  And for to \[Em]help you through the night help to minimise your plight
+  \end{verse}
+
+  \begin{chorus}
+  \[C]Doctor please some \[D]more of these
+  Outside the \[G]door she took four \[C]more
+  \[Am]What a d\[C]rag it i\[D]s getting \[Em]old
+  \end{chorus}
+
+  \begin{verse}
+  \[Em]Life's just much too hard today I hear every mother say
+  The pursuit of happiness just seems a \[F]bore \[D]
+  And if \[G]you take more of those you will \[C]get an over\[Am]dose
+  No more running for the shelter \[D]of a mother's little helper
+  They just \[Em]helped you on your way through your busy dying day
+  \end{verse}
+  \end{repeatedchords}
+
+\endsong

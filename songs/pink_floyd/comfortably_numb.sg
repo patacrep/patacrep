@@ -1,0 +1,87 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Comfortably numb}
+  [by={Pink Floyd},cov={the-wall},album={The Wall},%
+  url={http://www.pinkfloyd.com/}]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+
+  \lilypond{comfortably_numb}
+  \begin{verse}
+    \[Bm]Hello
+    Is there anybody \[A]in there? 
+    Just nod if you can \[G]hear me \[Em]
+    Is there \[Bm]anyone home? 
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Bm]Come on now 
+      I hear you're\[A] feeling down 
+      Well \[G]I can ease your \[Em]pain 
+      And \[Bm]get you on your feet again 
+    \end{verse}
+
+    \begin{verse}
+      \[Bm]Relax 
+      I'll need some inform\[A]ation first 
+      \[G]Just the basic f\[Em]acts 
+      Can you \[Bm]show me where it hurts? 
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[D] There is no pain you are \[A]receding 
+    \[D] A distant ship's smoke on the \[A]horizon 
+    \[C] You are only coming through in \[G]waves 
+    Your \[C]lips move but I can't hear what you're s\[G]aying 
+    When \[D]I was a child I had a f\[A]ever 
+    My \[D]hands felt just like two ball\[A]oons 
+    \[C] Now I've got that feeling once ag\[G]ain 
+    I can't explain you would not \[C]understand 
+    This is not how I \[G]am 
+    \[A]I \[C] have bec\[G]ome comfortably nu\[D]mb 
+    \musicnote{\nolyrics{ | \[D] | \[A] | \[D] | \[A] | \[C] | \[G] | \[C] | \[G] |}}
+    \[A]I \[C] have bec\[G]ome comfortably nu\[D]mb 
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Bm]O.K. 
+      Just a little \[A]pinprick 
+      There'll be no more \[G]Aaaaa\[Em]h 
+      But you \[Bm]may feel a little sick 
+    \end{verse}
+
+    \begin{verse}
+      Can you st\[Bm]and up? 
+      I do believe it's w\[A]orking good 
+      That'll keep you g\[G]oing through the sh\[Em]ow 
+      Co\[Bm]me on it's time to go 
+    \end{verse}
+
+    \begin{chorus}
+      \[D] There is no pain you are \[A]receding 
+      \[D] A distant ship's smoke on the \[A]horizon 
+      \[C] You are only coming through in \[G]waves 
+      Your \[C]lips move but I can't hear what you're s\[G]aying 
+      When \[D]I was a child I caught a fl\[A]eeting glimpse 
+      \[D] Out of the corner of my ey\[A]e 
+      \[C] I turned to look but it was g\[G]one 
+      I cannot put my finger \[C]on it now 
+      The child is grown the dr\[G]eam is gone 
+      \[A]I \[C] have bec\[G]ome comfortably nu\[D]mb 
+    \end{chorus}
+  \end{repeatedchords}
+
+    \begin{verse*}
+      \musicnote{\nolyrics{\[Bm] | \[A] | \[G] \[Em] | \[Bm] } \rep{8}}
+    \end{verse*}
+
+\endsong

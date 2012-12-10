@@ -1,0 +1,56 @@
+\selectlanguage{spanish}
+\songcolumns{2}
+\beginsong{El viento}
+  [by={Manu Chao},cov={clandestino},album={Clandestino}]
+
+  \cover
+
+  \begin{verse*}
+    \musicnote {\Intro \nolyrics \[G#m] \[F#] \[G#m] \[F#]}
+  \end{verse*}
+
+  \begin{verse}
+    El \[G#m]viento viene
+    El \[F#]viento se va
+    \[G#m]Por la fron\[F#]tera
+    El \[G#m]viento viene
+    El \[F#]viento se va
+    \nolyrics{\[G#m] \[F#]}
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      El \[G#m]hombre viene
+      El \[F#]hombre se va
+      \[G#m]Sin más ra\[F#]zon
+      El \[G#m]hombre viene
+      El \[F#]hombre se va
+      \[G#m]Ruta Baby\[F#]lon
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[G#m]Por la carretera \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      La \[G#m]suerte viene
+      La \[F#]suerte se va
+      \[G#m]Por la fron\[F#]tera
+      La \[G#m]suerte viene
+      La \[F#]suerte se va
+      \nolyrics {\[G#m] \[F#]}
+    \end{verse}
+
+    \begin{verse*}
+      El \[G#m]hombre viene
+      El \[F#]hombre se va
+      \[G#m]Sin más ra\[F#]zon
+      El \[G#m]hombre viene
+      El \[F#]hombre se va
+      \[G#m]Cuando volve\[F#]ra ?
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

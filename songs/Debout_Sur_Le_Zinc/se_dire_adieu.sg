@@ -1,0 +1,47 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Se dire adieu}
+  [by={Debout sur le Zinc},cov={recreations},album={Récréations},%
+  url={http://www.dslz.org}]
+
+  \cover
+  \gtab{Cm}{3:X02210}
+  \gtab{G}{3:022100}
+  \gtab{A&}{4:022100}
+
+  \begin{chorus}
+    Ce s'rait dom\[Cm]mage de s'dire adieu
+    Sur une valse, les yeux dans les \[G]yeux
+    Au bal musette qu'on n'trouve qu'à Paris
+    Où nos gambettes s'emmêlent sans un \[Cm]pli
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      Faudrait tour\[Cm]ner au son des canettes
+      Dont les poivrots se remplissent la \[G]tête
+      Ou bien virevolter jusqu'à l'accordéon
+      Qui nous joue cette belle chan\[Cm]son
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse}
+    Il faut \[A&]bien que l'on se re\[G]voie
+    On n'peut \[A&]pas s'quitter comme \[G]ça
+  \end{verse}
+
+  \begin{verse*}
+    Le son \[A&]fait des tours dans ma tête
+    La bière \[G]tourne dans mon sang
+    Et la \[A&]danse qui s'arrête
+    Et qui reprend dans son é\[G]lan de trois temps
+  \end{verse*}
+
+  \begin{verse*}
+    On se \[A&]serre la panse sur la ginette et la ginette \[G]montre des dents
+    Faudrait \[A&]pas qu'ma femme rentre entre temps
+    Ou nos amours se\[G]raient pour toujours entre le remord d'une vie
+    Et \[A&]les frissons d'un jour bien qu'il fasse toujours nuit et qu'\[G]elle m'ennuie
+  \end{verse*}
+
+\endsong

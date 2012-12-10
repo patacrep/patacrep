@@ -1,0 +1,45 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Diabolo menthe}
+  [by={Yves Simon},cov={demain-je-t-aime},album={Demain je t'aime}]
+
+  \cover
+  \capo{3}
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    \[Dm]Dans tes classeurs de \[Am]lycée
+    \[C]Y'a tes rêves et tes se\[F]crets
+    Tous ces mots que tu n'dis \[C]jamais
+    Des mots d'amour et de \[G]tendresse, des mots \[Am]de femme
+    Que tu caches et qu'on con\[F]damne
+    Que tu caches petite \[C]Anne
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm]Dans tes classeurs de \[Am]lycée
+      \[C]Y'a du sang et y'a des \[F]pleurs
+      Les premières blessures de \[C]ton cœur
+      Les premières blessures, les \[G]premières dé\[Am]chirures
+      Qui font des bleus à ton \[F]âme
+      Qui font des bleus peti\[C]te Anne
+    \end{verse}
+
+    \begin{verse}
+      \[Dm]Dans les cafés du \[Am]lycée
+      \[C]Faut que tu bluffes, que tu \[F]mentes
+      Autour des diabo\[C]los menthe
+      Quand tu racontes les \[G]nuits du dernier \[Am]été
+      Et des tout premiers a\[F]mants
+      Que tu n'as eus qu'en \[C]rêvant
+    \end{verse}
+  \end{repeatedchords}
+
+  \textnote{\Verse 1}
+
+\endsong

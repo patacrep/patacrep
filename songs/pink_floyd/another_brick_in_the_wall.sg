@@ -1,0 +1,23 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Another brick in the wall}
+  [by={Pink Floyd},cov={the-wall},album={The Wall}]
+
+  \cover
+  \gtab{Dm}{5:X02210}
+  \gtab{G}{3:022100}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \[Dm]We don't need no education
+    \[Dm]We don't need no thought control
+    \[Dm]No dark sarcasm in the classroom
+    \[Dm]Teacher leave them kids alone \[G]
+    \[G]Hey, teacher! \[G]Leave them kids a\[Dm]lone
+  \end{verse}
+
+  \begin{chorus}
+    \[F]All in all it's just an\[C]-other brick in the \[Dm]wall \rep{2}
+  \end{chorus}
+
+\endsong

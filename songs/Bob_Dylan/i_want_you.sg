@@ -1,0 +1,86 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{I want you}
+  [by={Bob Dylan},cov={blonde-on-blonde},album={Blonde on blonde}]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{B&}{1:X02220}
+
+  \begin{verse}
+    The \[F]guilty undertaker sighs
+    The \[Am]lonesome organ grinder cries
+    The \[Dm]silver saxophones say
+    I \[C]should refuse you
+  \end{verse}
+
+  \begin{verse*}
+    The \[B&]cracked bells and washed-out horns
+    \[C]Blow into my face with scorn
+    But \[Dm]{it's} not that way
+    I wasn't born to \[C]lose you
+  \end{verse*}
+
+  \begin{chorus}
+    I \[F]want you, I \[Am]want you
+    I \[Dm]want you so \[C]bad
+    Honey, I \[F]want you
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      The \[F]drunken politician leaps
+      U\[Am]pon the street where mothers weep
+      And the \[Dm]saviors who are fast asleep
+      They \[C]wait for you
+    \end{verse}
+
+    \begin{verse*}
+      And \[B&]{I wait} for them to interrupt
+      Me \[C]drinkin' from my broken cup
+      And \[Dm]ask me to
+      Open up the \[C]gate for you
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    Now \[Am]all my fathers, they've gone down
+    \[Dm]True love they've been without it
+    But \[Am]all their daughters put me down
+    'Cause \[B&]{I don't} think a\[C]bout it
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Well, I re\[F]turn to the Queen of Spades
+      And \[Am]talk with my chambermaid
+      \[Dm]She knows that I'm not afraid
+      To \[C]look at her
+    \end{verse}
+
+    \begin{verse*}
+      \[B&]She is good to me
+      And \[C]there's nothing she doesn't see
+      She \[Dm]knows where I'd like to be
+      But it doesn't \[C]matter
+    \end{verse*}
+
+    \begin{verse}
+      Now your \[F]dancing child with his Chinese suit
+      He \[Am]spoke to me, I took his flute
+      \[Dm]No, I wasn't very cute to him
+      \[C]Was I?
+    \end{verse}
+
+    \begin{verse*}
+      But \[B&]{I did} it, though, because he lied
+      \[C]Because he took you for a ride
+      \[Dm]And because time was on his side
+      \[C]And because I{\dots}
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

@@ -1,0 +1,74 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Mother}
+  [by=Pink Floyd,cov=the-wall,album=The Wall]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \meter{5}{8}
+    |\[G]Mother do you think they'll drop the \meter{4}{4}|\[C]bomb? \[G]
+    \meter{5}{8}
+    |\[G]Mother do you think they'll like this \meter{4}{4}|\[C]song? \[G]
+    \[C]Mother do you think they'll try to break my \[G]balls?
+    \[D]Ohhh\dots \meter{3}{4}|\[C]Ahhh\dots Mother should I build the \meter{4}{4}|\[G]wall?
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \meter{5}{8}
+      |\[G]Mother should I run for presi\meter{4}{4}|\[C]dent? \[G]
+      \meter{5}{8}
+      |\[G]Mother should I trust the govern\meter{4}{4}|\[C]ment? \[G]
+      \[C]Mother will they put me in the firing \[G]line?
+      \[D]Ohhh\dots \meter{3}{4}|\[C]Ahhh\dots Mother is it just a waste of \meter{4}{4}|\[G]time?
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[G]Hush now baby don't you \meter{12}{8}|\[C]cry
+    \meter{6}{8}
+    |\[F]Mama's gonna make all of your \[C] nightmares come true
+    \[F]Mama's gonna put all of her \[C]fears into you
+    \[F]Mama's gonna keep you right here \[C]under her wing
+    She \[F]won't let you fly but she \[C]might let you sing
+    \[F]Mama's gonna keep baby \meter{3}{8}|\[C]cozy and \meter{12}{8}|\[G]warm
+    \meter{6}{8}|\[D]Ohhh\dots \[C]babe \[D]Ohhh\dots \[C]babe
+    \[D]Oh\dots babe of \[C]course mama's gonna help build the \meter{4}{4}|\[G]wall
+    \musicnote{\nolyrics{ | \[C] | \[G] | \[C] | \[G] | \[C] | \[D] | \[C] | \[G] }}
+  \end{chorus}
+
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \meter{5}{8}
+      |\[G]Mother do you think she's good en\meter{4}{4}|\[C]ough\dots { for} \[G]me?
+      \meter{5}{8}
+      |\[G]Mother do you think she's danger\meter{4}{4}|\[C]ous\dots { to }\[G]me?
+      \[C]Mother will she tear your little boy a\[G]part?
+      \[D]Ohhh\dots \meter{3}{4}|\[C]Ahhh\dots Mother will she break my \meter{4}{4}|\[G]heart?
+    \end{verse}
+  \end{repeatedchords}
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[G]Hush now baby baby don't you \meter{12}{8}|\[C]cry
+      \meter{6}{8}
+      |\[F]Mama's gonna check out all of your \[C]girlfriends for you
+      \[F]Mama won't let anyone d\[C]irty get through
+      \[F]Mama's gonna wait up unt\[C]il you get in
+      \[F]Mama's will always find out \[C] where you've been
+      \[F]Mama's gonna keep baby \meter{3}{8}|\[C]healthy and \meter{12}{8}|\[G]clean
+      \meter{6}{8}|\[D]Ohhh\dots \[C]baby \[D]Ohhh\dots \[C]baby
+      \[D]Oh\dots baby you'll \[C] always by baby to \meter{4}{4}|\[G]me
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \meter{5}{8}|Mother did it need to be so \[C]high?
+  \end{verse*}
+
+\endsong

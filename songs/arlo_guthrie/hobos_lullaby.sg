@@ -1,0 +1,49 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Hobo's lullaby}
+  [by={Arlo Guthrie},cov={hobos_lullaby},album={Hobo's lullaby}]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{A7}{X02020}
+
+  \begin{verse}
+    \[D]Go to sleep you weary \[G]hobo
+    \[A]Let the towns drift slowly \[D]by
+    \[D]Can't you hear the steel rail \[G]humming
+    \[A]That's a \[A7]hobo's lulla\[D]by
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Do not think about tomorrow
+      Let tomorrow come and go
+      Tonight you're in a nice warm boxcar
+      Safe from all the wind and snow
+    \end{verse}
+
+    \begin{verse}
+      I know the police cause you trouble
+      They cause trouble everywhere
+      But when you die and go to heaven
+      You won't find no policemen there
+    \end{verse}
+
+    \begin{verse}
+      I know your clothes are torn and ragged
+      And your hair is turning grey
+      Lift your head and smile at trouble
+      You'll find happiness some day
+    \end{verse}
+
+    \begin{verse}
+      \[D]Go to sleep you weary \[G]hobo
+      \[A]Let the towns drift slowly \[D]by
+      \[D]Don't you feel the steel rail \[G]humming
+      \[A]That's a \[A7]hobo's lulla\[D]by
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

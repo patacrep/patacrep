@@ -1,0 +1,75 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Losing my religion}
+  [by=R.E.M,cov=out-of-time,album=Out of time]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+
+  \lilypond{Losing_my_religion_intro}
+
+  \begin{verse}
+    Oh l\[Am]ife is bigger \[Em] it's bigger than you
+    And you are \[Am]not me the lengths that I will \[Em]go to
+    The distance in your \[Am]eyes
+    \[Em] Oh no I've said too \[Dm]much I've said en\[G]ough
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      That's me in the cor\[Am]ner that's me in the \[Em]spot light
+      Losing my religi\[Am]on trying to \[Am]keep up with you
+      And I \[Am]don't know if I can do it
+      \[Em] Oh no I've said too \[Dm]much I haven't said en\[G]ough
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    I thought that I heard you \[F]laughing
+    I thought that I \[G]heard you \[Am]sing
+    I \[F]think I thought I saw \[G]you \[Am]try \[G]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Every whisper \[Am]
+      Every waking \[Em]hour I'm choosing my conf\[Am]essions
+      Trying to \[Em]keep eye on you
+      Like a \[Am]hurt lost and blinded fool fool
+      \[Em] Oh no I've said too m\[Dm]uch I said en\[G]ough
+    \end{verse}
+
+    \begin{verse}
+      Consider th\[Am]is consider this \[Em]hint of the century
+      Consider th\[Am]is the slip that \[Em]brought me to my knees pale
+      \[Am]What if all these fantasies come \[Em] flaming aground
+      Now I've s\[Dm]aid too m\[G]uch
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \lilypond{Losing_my_religion_bridge}
+    \[C]That was just a \[Am]dream \rep{2}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      That's me in the cor\[Am]ner
+      That's me in the \[Em]spot light losing my rel\[Am]igion
+      Trying to k\[Em]eep up with you and I d\[Am]on't know if I can do it
+      \[Em] Oh no I've said too m\[Dm]uch
+      I haven't said en\[G]ough
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    But \[F]that was just a dream \[G] \[Am]try cry why try
+    \[F]That was just a dream \[G]just a \[Am]dream just a \[G]dream dream
+  \end{verse*}
+
+\endsong

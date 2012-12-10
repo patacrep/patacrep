@@ -1,0 +1,63 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Caravane}
+  [by={Raphaël},cov={caravane},album={Caravane}]
+
+  \cover
+  \capo{7}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \[Am]Puisque j'en ai les larmes aux \[C]yeux
+    Que nos mains ne tiennent plus \[G]ensembles
+    \[Am]Que moi aussi je tremble un \[C]peu
+    \[G]Parce que je ne vais plus att\[F]endre
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Puisqu'on va reprendre la route
+      Puisque nous sommes proches de la nuit
+      Et puisque ce monde a le vertige
+      Puisque l'on sera un jour puni
+    \end{verse}
+
+    \begin{verse}
+      Puisque je rampe comme un enfant
+      Puisque je n'ai plus de chemise
+      Que c'est le bon dieu qui nous fait
+      Et c'est le bon dieu qui nous brise
+    \end{verse}
+
+    \begin{verse}
+      Parce que rien ne peut arriver
+      Puisqu'il faut qu'il y ait une justice
+      Je suis né dans cette caravane
+      Et nous partons allez viens
+      Allez viens
+    \end{verse}
+
+    \begin{verse}
+      Touloutoutou Touloutoutou Touloutoutou
+      Touloutoutou Touloutoutou Touloutoutou
+      Touloutoutou Touloutoutou Touloutoutou
+      Touloutoutou Touloutoutou Touloutoutou
+    \end{verse}
+
+    \begin{verse}
+      Parce que ma peau est la seule que j'ai
+      Que bientôt mes os seront dans le vent
+      Je suis né dans cette caravane
+      Et nous partons allez viens
+    \end{verse}
+
+    \begin{verse*}
+      Touloutoutou{\dots}
+    \end{verse*}
+
+  \end{repeatedchords}
+
+\endsong

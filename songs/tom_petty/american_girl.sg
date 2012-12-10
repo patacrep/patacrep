@@ -1,0 +1,49 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{American girl}
+  [by={Tom Petty \& The Heartbreakers},cov={tom-petty-and-the-heartbreakers},album={Tom Petty \& The Heartbreakers}]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{E7}{020100}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+
+  \begin{verse}
+    \[D] Well she was an A\[E7]merican girl
+    \[G] Raised on \[A]promises
+    \[D] She couldn't help \[E7]thinking that there was
+    A \[G]little more to life \[A]somewhere else
+  \end{verse}
+
+  \begin{verse*}
+    After all it was a \[D]great big world
+    \[G] With lots of places to \[Em]run to
+    \[A]And if she had to die tryin' she had one little promise she was gonna keep
+  \end{verse*}
+
+  \begin{chorus}
+    \[G] Oh yeah, \[A] allright
+    \[D] Take it easy baby
+    \[Bm] Make it last all night
+    \[G] She was \[A] an American \[D]girl
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D] Well it was kinda \[E7]cold that night
+      \[G]She stood alone on the \[A]balcony
+      \[D] Yeah, she could hear the \[E7]cars roll by
+      Out on \[G]four forty one like \[A]waves crashing on the beach
+    \end{verse}
+
+    \begin{verse*}
+      And for one desperate \[D]moment there
+      \[G]He crept back in her \[Em]memory
+      \[A]God it's so painful when something that's so close is still so far to reach
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

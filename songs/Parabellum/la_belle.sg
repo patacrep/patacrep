@@ -1,0 +1,66 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{La belle}
+  [by={Parabellum},cov={in-vivo-veritas},album={In vivo veritas}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{D}{XX0231}
+  \gtab{E}{022000}
+  \gtab{F}{1:022100}
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{D}{XX0232}
+  \gtab{F#m}{2:022000}
+  \gtab{Bm}{2:X02210}
+
+  \begin{verse}
+    \[Am]Le Loire a \[G]quitté La Pal\[Am]ic\[G]e
+    \[Am]Maintenant \[G]tout est bien f\[Am]ini \[G]
+    \[Am]On s'en va \[G]vers le \[D]Mar\[E]on\[Am]i
+    \[Am]Où les re\[G]quins font la pol\[E]ic\[Am]e
+    \[Am]On est sans \[F]nom \[Am]on n'est plus \[F]rien
+    \[Am]La loi nous \[F]chasse \[Am]de la \[F]ville
+    \[E]On n'est plus qu'un bateau de chiens
+    Qu'on mène crever dans une île
+  \end{verse}
+
+  \begin{chorus}
+    \[A]Mais alors \[D]apparaît la \[A]bell\[E]e
+    \[A]La faim la l\[D]èpre le cach\[A]ot
+    \[D]Le coup de \[E]poing des pays \[A]chauds
+    \[F#m]Rien ne ser\[Bm]a trop beau pour \[E]elle
+    \nolyrics{\[Am] \[G]}
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{| \[Am] \[G] | \[Am] \[G] | \[Am] \[G] | \[Am] \[G]} }
+    \musicnote{\nolyrics{| \[Am] \[G] | \[D]\[E] \[Am] | \[Am] \[G] | \[E] \[Am]} }
+    \musicnote{\nolyrics{| \[Am] \[F] | \[Am] \[F] | \[Am] \[F] | \[Am] \[F]} }
+    \musicnote{\nolyrics{| \[E] | \[E] | \[E] | \[E] } }
+  \end{verse*}
+
+
+  \begin{chorus}
+    \begin{repeatedchords}
+      \[A]Mais alors \[D]apparaît la \[A]bell\[E]e
+      \[A]La faim la l\[D]èpre le cach\[A]ot
+      \[D]Le coup de \[E]poing des pays \[A]chauds
+      \[F#m]Rien ne ser\[Bm]a trop beau pour \[E]elle
+    \end{repeatedchords}
+    \[D]Pour la liberté les re\[A]quins
+    \[D]Auront notre chair de co\[A]quins
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[A]Et dans la \[D]forêt solenn\[A]ell\[E]e
+      \[A]Où la mort \[D]sonne à chaque \[A]pas
+      \[D]Même lorsqu\[E]e tu ne viens \[A]pas
+      \[F#m]C'est toi qu'on \[Bm]adore la \[E]belle !
+      \nolyrics{\[Am] \[G]}
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

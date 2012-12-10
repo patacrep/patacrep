@@ -1,0 +1,71 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Here without you}
+  [by={3 Doors Down},cov={away_from_the_sun},album={Away from the sun}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+
+  \begin{verse*}
+    \musicnote{\Intro: \nolyrics \[Am F G]}
+  \end{verse*}
+
+  \begin{verse}
+    A hundred \[Am]days have made me older
+    Since the last\[G] time that I saw your pretty face \[Am F G]
+    A thousand \[Am]lies have made me colder
+    And I \[G]don't think I can look at this the same\[Am F G]
+    \[Am] All the miles that sepa\[G]rate
+    \[Am] Disappear now when I'm d\[F]reamin' of y\[G]our face
+  \end{verse}
+
+  \begin{chorus}
+    \[C] I'm here without you baby\[G]
+    But you're still on my lonely m\[Am]ind
+    I think about you baby
+    \[F]And I dream a\[G]bout you all the time
+  \end{chorus}
+
+  \begin{chorus}
+    \[C] I'm here without you baby
+    \[G] But you're still with me in my d\[Am]reams
+    And t\[F]onight, there's \[G]only you and me
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[Am G Am F G]}
+  \end{verse*}
+
+  \begin{verse}
+    The \[Am]miles just keep rollin'
+    As the \[G]people leave their way to say he\[Am]llo \[F G]
+    I've heard this \[Am]life is overrated
+    But I \[G]hope that it gets better as we \[Am]go \[F G]
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[C] I'm here without you baby\[G]
+      But you're still on my lonely m\[Am]ind
+      I think about you baby
+      \[F]And I dream a\[G]bout you all the time
+    \end{chorus}
+
+    \begin{chorus}
+      \[C] I'm here without you baby
+      \[G] But you're still with me in my d\[Am]reams
+      And t\[F]onight, there's \[G]only you and me
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse}
+    \[Am] Everything I know,\[C] and anywhere I go
+    \[G] It gets hard but it won't \[F]take away my love
+    \[Am] And when the last one falls,\[C] when it's all said and \[G]done
+    It gets hard but it won't \[F]take away my \[F]love \[C G Am F G]
+  \end{verse}
+
+\endsong

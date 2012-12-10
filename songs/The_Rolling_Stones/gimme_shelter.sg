@@ -1,0 +1,74 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Gimme shelter}
+  [by=The Rolling Stones,cov=let-it-bleed,album=Let it bleed]
+
+  \cover
+  \capo{2}
+  \gtab{B}{2:X02220}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+
+  \lilypond{gimme_shelter_rythm}
+  \begin{verse*}
+    \[B]Ooh \[A]Ooh \[G]Ooh \rep{4}
+  \end{verse*}
+
+  \begin{verse}
+    \[B] Oh, a storm is threat'ning
+    My very life today
+    If I don't get some shelter
+    Oh yeah, I'm gonna fade away
+  \end{verse}
+
+  \begin{chorus}
+    \[B] War, chil\[A]dren, \[G]it's just a shot away
+    It's just a shot \[A]away
+    \rep{2}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[B] Ooh, see the fire is sweepin'
+      Our very street today
+      Burns like a red coal carpet
+      Mad bull lost its way
+    \end{verse}
+
+    \begin{chorus}
+      \[B] War, chil\[A]dren, \[G]it's just a shot away
+      It's just a shot away
+      \rep{2}
+    \end{chorus}
+
+    \begin{chorus}
+      \[B] Rape, \[A]murder! \[G]It's just a shot away
+      It's just a shot \[A]away
+      \rep{3}
+    \end{chorus}
+
+    \begin{verse}
+      \[B] Mmm the flood is threat'ning
+      My very life today
+      Gimme, gimme shelter
+      Or I'm gonna fade away
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[B] War, chil\[A]dren, \[G]it's just a shot away
+    It's just a shot \[A]away
+    \[B] It's just a shot away
+    \[B] It's just a shot away
+    \[A] It's just a shot away \[A]I tell you
+    \begin{repeatedchords}
+      \[B] Love, sis\[A]ter, \[G]it's just a kiss away
+      It's just a kiss \[A]away
+      \[B] It's just a kiss away
+      \[A] It's just a kiss away
+      \[G] It's just a kiss away
+      Kiss away, kiss \[A]away
+    \end{repeatedchords}
+  \end{chorus}
+
+\endsong

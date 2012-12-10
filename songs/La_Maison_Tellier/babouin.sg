@@ -1,0 +1,54 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Babouin}
+  [by={La Maison Tellier},cov={la-maison-tellier},album={La maison Tellier}]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{Dm}{XX0231}
+
+  \begin{verse*}
+    \musicnote{\Intro :\nolyrics{ \[F C Dm] } \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    \[F] Babouin, il \[C]parait que t'as mai\[Dm]gri
+    \[F] Quelqu'un qu'tu \[C]connais m'a préve\[Dm]nu
+    \[F] Que depuis que \[C]tu t'étais sor\[Dm]ti
+    \[F C] On te voyait \[Dm]plus
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[F] Babouin, c'é\[C]tait il y a \[Dm]longtemps
+      \[F] Qu'on a \[C]fait tout un tas de conne\[Dm]ries
+      \[F] Je me suis lais\[C]sé dire que mainte\[Dm]nant
+      \[F C] T'avais fi\[Dm]ni
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[G] Tu étais devant, \[Dm] assez souvent
+    \[G] Moi je suivais, \[Dm] toi qu'étais devant
+    \[G] Là, t'as pris une méchante a\[Dm]vance
+    \[G] J'tarde à entrer dans la \[Dm]danse
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[F] Babouin, elles \[C]me démangent en\[Dm]core
+      \[F] Les cica\[C]trices au creux des \[Dm]mains
+      \[F] Elles me disent \[C]que tu n'es pas \[Dm]mort
+      \[F C] Que tout va \[Dm]bien
+    \end{verse}
+
+    \begin{verse}
+      \[F] Babouin, tu t'\[C]souviens qu'y a \[Dm]dix ans
+      \[F] Y'avait qu'une \[C]seule chose qui \[Dm]comptait
+      \[F] C'était d'\[C]vieillir pour être \[Dm]plus grand
+      \[F C] Hé bien, c'est \[Dm]fait
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

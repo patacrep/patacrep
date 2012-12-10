@@ -1,0 +1,62 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Super héros}
+  [by={Balbino Medellin},cov={le-soleil-et-l-ouvrier},album={Le soleil et l'ouvrier}]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{F#m}{2:022000}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{C}{X32010}
+  \gtab{B}{2:X02220}
+
+  \begin{verse}
+    \[Bm]Je suis l'homme qui valait trois milliards
+    Et quatre centimes d'eu\[F#]ros super héros d'comptoir
+    \[Bm]Moitié Steve Austin et moitié Bruce Banner
+    J'deviens tout \[F#]vert après dix picons d'bière
+    \[Am]J'ai les doigts palmés comme l'homme de l'Atlantide
+    À marée \[Em]basse quand mon verre se vide
+    \[Am]Je dérive au fond du pacifique
+    Seul avec ma \[D]trique bionique
+  \end{verse}
+
+  \begin{chorus}
+    \[G]On veut tous toucher le soleil
+    Et sauter tran\[Em]quille par dessus les grattes ciels
+    \[Am]S'envoler en costume rouge moulant
+    Et être beau gosse \[D]dedans
+    Ouais mais c'est pas fait pour nos \[Em]gueules ohohoh\[D]oh
+    Dans cette série on est tout \[Em]seul ohohoh\[D]oh
+    Non non c'est pas fait pour nos \[Em]gueules ohohoh\[D]oh
+    Notre seul pouvoir c'est d'faire la \[Em]gueule \[Bm]
+    Ou bien de s'ai\[Em]mer \[Bm]
+    Pour ceux qui \[Em]veulent \[Bm]
+    \nolyrics{\[Em] \[F#m] \[G] \[A]}
+  \end{chorus}
+
+  \begin{verse}
+    Je suis X-Or et Sankukai
+    Mon vaisseau spatial a des sièges en sky
+    Après la deuxième bouteille de blanc
+    Tous les mecs du bar m'appellent Ken le survivant
+    J'm'imagine sauver la planète
+    Croiser Wonder Woman et lui faire sa fête
+    Avoir des amis, des vrais copains
+    Fidèles comme Flipper le dauphin
+  \end{verse}
+
+
+  \begin{bridge}
+    \[Em]Na na \[Em]na na na \[C]na na \[B]na{\dots}
+    Super héros na na na{\dots}
+    Je suis un super héros nana nanana na na{\dots}
+    \[C]
+  \end{bridge}
+
+\endsong

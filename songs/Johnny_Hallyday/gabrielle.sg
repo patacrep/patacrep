@@ -1,0 +1,76 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Gabrielle}
+  [by={Johnny Hallyday},cov={derriere-l-amour},album={Derrière l'amour},%
+  original={Tony Cole - The king is dead}]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{B}{2:X02220}
+  \gtab*{B7+5}{X21203}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{\Intro : \[E A E]} \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    Gabri\[E]elle, \[A E]
+    Tu \[A]brûles mon esprit
+    Ton amour étrangle \[E]ma vie \[A E]
+  \end{verse}
+
+  \begin{verse*}
+    Et l'en\[E]fer, \[A E]
+    De\[A]vient comme un espoir
+    Car dans tes mains, je meurs cha\[E]que soir \[A E]
+  \end{verse*}
+
+  \begin{verse*}
+    Je \[A]veux partager autre chose que l'amour dans \[E]ton lit \[A E]
+    Et \[A]entendre la vie et ne plus m'essouffler sous \[E]tes cris \[A E]
+  \end{verse*}
+
+  \begin{verse*}
+    \[D]Oh, fi\[A]ni, fini pour \[E]moi \[A E]
+    Je ne \[D]veux plus voir mon \[A]image dans tes \[B]yeux
+  \end{verse*}
+
+  \begin{chorus}
+    \[E]Dix ans de chaînes sans voir le jour
+    C'était ma \[A]peine forçat de l'amour
+    \[B]Et bonne chance à celui qui veut \[E]ma place \[A E]
+  \end{chorus}
+
+  \begin{chorus}
+    \[E]Dix ans de chaînes sans voir le jour
+    C'était ma \[A]peine forçat de l'amour
+    \[B]{J'ai} refusé \[B7+5]mourir d'amour enchaî\[E]né \[A E]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Gabri\[E]elle \[A E]
+      Tu \[A]flottes dans mon cœur
+      C'est une illusion de \[E]douceur \[A E]
+    \end{verse}
+
+    \begin{verse*}
+      Et tu \[E]chantes \[A E]
+      C'est \[A]la voix d'une enfant
+      Avec laquelle tu glaces \[E]mon sang \[A E]
+    \end{verse*}
+
+    \begin{verse*}
+      Je \[A]veux t'expliquer, tu confonds et le jour et \[E]la nuit \[A E]
+      Je \[A]veux t'approcher mais tu tournes le dos, tu \[E]{t'enfuis} \[A E]
+    \end{verse*}
+
+    \begin{verse*}
+      \[D]Oh, sais-tu vrai\[A]ment ce que tu veux \[E]faire ? \[A E]
+      Je ne \[D]serai plus l'es\[A]clave de ta \[B]chair
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

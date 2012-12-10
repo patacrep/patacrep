@@ -1,0 +1,90 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Against the wind}
+  [by={Bob Seger},cov={against-the-wind},album={Against the wind}]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+
+  \begin{verse}
+    \[G] It seems like yesterday
+    \[Bm] But it was long ago
+    \[C] Janey was lovely, she was the \[G]queen of my nights
+    \[D]There in the darkness with the ra\[C]dio, playing low
+  \end{verse}
+
+  \begin{verse*}
+    \[G] And the secrets that we shared
+    \[Bm] The mountains that we moved
+    \[C] Caught like wildfire \[G]out of control
+    Till there was \[C]nothing left to burn and nothing left to \[D]prove
+  \end{verse*}
+
+  \begin{verse*}
+    And I re\[Em]member \[D]what she said to \[G]me
+    How she \[Em]swore that it \[C]never would \[G]end
+    I re\[Em]member how she held \[D]me, oh \[C]so tight
+    \[C]Wish I didn't know now what I \[D]{didn't} know then
+  \end{verse*}
+
+
+  \begin{chorus}
+    \[G] Against the wind \[Bm]
+    \[C] We were running against the \[G]wind
+    We were \[C]young and \[Bm]strong
+    We were \[Am]running a\[C]gainst the \[G]wind
+  \end{chorus}
+
+
+  \begin{verse}
+    \[G] And the years rolled slowly past
+    \[Bm] And I found myself alone
+    \[C] Surrounded by strangers I \[G]thought were my friends
+    I \[D]found myself further and \[C]further from my home
+  \end{verse}
+
+  \begin{verse*}
+    \[G] And I guess I lost my way
+    \[Bm] There were oh, so many roads
+    I was \[C]living to run, and \[G]running to live
+    Never wor\[D]rying about paying, or even how \[C]much I owed
+  \end{verse*}
+
+  \begin{verse*}
+    Runnin' \[Em]8 miles a \[D]minute for months at a \[G]time
+    Breaking \[Em]all of the \[C]rules that would \[G]bend
+    \[Em] I begin to \[D]find myself just \[C]searching
+    \[C]Searching for shelter a\[D]gain and again
+  \end{verse*}
+
+
+  \begin{chorus}
+    \[G] Against the wind \[Bm]
+    \[C] A little something against the \[G]wind
+    I \[C]found my\[Bm]self
+    Seeking \[Am]shelter a\[C]gainst the \[G]wind
+  \end{chorus}
+
+  \textnote[english]{First and second stanzas instrumental}
+  \textnote[french]{Première et seconde strophes instrumentales}
+
+  \begin{verse}
+    Well those \[Em]drifter's \[D]days are past \[G]me now
+    I've got \[Em]so much \[C]more to think a\[G]bout
+    \[Em] Dead\[D]lines and commit\[C]ments
+    \[C] What to leave in? \[D] What to leave out?
+  \end{verse}
+
+
+  \begin{chorus}
+    \[G] Against the wind \[Bm]
+    \[C] I'm still running against the \[G]wind
+    I'm \[C]older \[Bm]now
+    but still \[Am]running a\[C]gainst the \[G]wind
+  \end{chorus}
+
+\endsong

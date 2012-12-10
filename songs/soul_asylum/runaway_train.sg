@@ -1,0 +1,81 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Runaway train}
+  [by={Soul Asylum},cov={grave_dancers_union},album={Grave dancers union}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \[C] Call you up in the middle of the night
+    \[Em] Like a firefly without a light
+    \[Am] You were there like a slow torch burning
+    \[G] I was a key that could use a little turning
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[C] So tired that I couldn't even sleep
+      \[Em] So many secrets I couldn't keep
+      \[Am] Promised myself I wouldn't weep
+      \[G] One more promise I couldn't keep
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    It \[F]seems no one can \[G]help me now
+    I'm \[C]in too deep
+    There's \[Am]no way out
+    \[F]This time I have \[Em]really led my\[G]self astray
+  \end{verse*}
+
+
+  \begin{chorus}
+    \[C] Runaway train never going back
+    \[Em] Wrong way on a one way track
+    \[Am] Seems like I should be getting somewhere
+    \[G] Somehow I'm neither here nor there
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C] Can you help me remember how to smile
+      \[Em] Make it somehow all seem worthwhile
+      \[Am] How on earth did I get so jaded
+      \[G] Life's mystery seems so faded
+    \end{verse}
+
+    \begin{verse*}
+      \[C] I can go where no one else can go
+      \[Em] I know what no one else knows
+      \[Am] Here I am just drownin' in the rain
+      \[G] With a ticket for a runaway train
+    \end{verse*}
+
+    \begin{verse*}
+      \[F]Everything is \[G]cut and dry
+      \[C]Day and night
+      \[Am]Eearth and sky
+      \[F]Somehow I \[Em]just don't be\[G]lieve it
+    \end{verse*}
+
+    \begin{verse}
+      \[C] Bought a ticket for a runaway train
+      \[Em] Like a madman laughin' at the rain
+      \[Am] Little out of touch, little insane
+      \[G] Just easier than dealing with the pain
+    \end{verse}
+
+    \begin{verse*}
+      \[C] Runaway train never comin' back
+      \[Em] Runaway train tearin' up the track
+      \[Am] Runaway train burnin' in my veins
+      \[G] Runaway but it always seems the same
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

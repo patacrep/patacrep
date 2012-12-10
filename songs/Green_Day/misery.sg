@@ -1,0 +1,88 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Misery}
+  [by={Green Day},cov={greenday-warning},album={Warning},%
+  url={http://www.greenday.com}]
+
+  \cover
+  \gtab{B&m}{1:X02210}
+  \gtab{F}{1:022100}
+  \gtab{E&m}{6:X02210}
+  \gtab{F#}{2:022100}
+
+  \begin{verse}
+    Vir\[B&m]ginia was a lot lizard from F.L.A.%
+    She had a compound fracture in the \[F]trunk
+    It \[B&m]started when she ran away
+    \[E&m]Thumbs out on the \[F#]interstate
+    She \[F]hitched a ride to mise\[B&m]ry
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Mr. \[B&m]Whirly had a catastrophic incident
+      He fell into the city by the \[F]bay
+      He \[B&m]liquidated his estate
+      \[E&m]Now he sleeps upon the \[F#]Haight
+      \[F]Panhandling mise\[B&m]ry
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    And he's gonna get \[F]high, high, high
+    When he's \[B&m]low, low, low
+    The \[F]fire burns from better \[B&m]days
+    And she screams, {\og}\[F]Why, oh why ?{\fg}
+    I said, {\og}\[B&m]{I don't} know{\fg}
+    The \[E&m]catastrophic \[F#]hymns from yester\[F]day
+    Of mise\[B&m]ry
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[B&m]Vinnie was a hustler out of Amsterdam
+      He ran the drug cartel in Tinsel \[F]town
+      They \[B&m]found him in a cadillac
+      \[E&m]Bludgeoned with a \[F#]baseball bat
+      \[F]In the name of mise\[B&m]ry
+    \end{verse}
+
+    \begin{verse}
+      \[B&m]Gina hit the road to New York City
+      Mysteriously the night Vinnie \[F]croaked
+      She \[B&m]stopped in Vegas to elope
+      \[E&m]With Virginia \[F#]and the dope
+      And \[F]kissed the bride eternal\[B&m]ly
+    \end{verse}
+
+
+    \begin{chorus}
+      And they're gonna get \[F]high, high, high
+      When they're \[B&m]low, low, low
+      The \[F]fire burns from better \[B&m]days
+      And she screams, {\og}\[F]Why, oh why ?{\fg}
+      I said, {\og}\[B&m]{I don't} know{\fg}
+      The \[E&m]catastrophic \[F#]hymns from yester\[F]day
+      Of mise\[B&m]ry
+    \end{chorus}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[F#]Hell hounds on your \[F]trail now once a\[B&m]gain boy
+    It's \[F#]groping on your \[F]leg until it \[B&m]sleeps
+    The \[F#]emptiness will \[F]fill your soul with \[B&m]sorrow
+    'Cause \[F#]{it's} not what you make, it's what you \[F]leave
+  \end{bridge}
+
+
+  \begin{chorus}
+    And we're gonna get \[F]high, high, high
+    When we're \[B&m]low, low, low
+    The \[F]fire burns from better \[B&m]days
+    And she screams, {\og}\[F]Why, oh why ?{\fg}
+    I said, {\og}\[B&m]{I don't} know{\fg}
+    The \[E&m]catastrophic \[F#]hymns from yester\[F]day
+    Of mise\[B&m]ry
+  \end{chorus}
+
+\endsong

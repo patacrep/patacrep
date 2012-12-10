@@ -1,0 +1,57 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Achy breaky heart}
+  [by={Billy Ray Cyrus},cov={some-gave-all},album={Some gave all}]
+
+  \cover
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+
+  \begin{verse}
+    \[A]You can tell the world
+    You know there was no girl
+    You can burn my clothes when I am \[E]gone
+    Or \[E]you can tell your friends
+    Just what a fool I've been
+    And laugh and joke about me on the \[A]phone
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[A]You can tell my arms
+      Go back into the farm
+      You can tell my feet to hit the \[E]floor
+      Or \[E]you can tell my lips
+      To tell my fingertips
+      They won't be reaching out for you no \[A]more
+    \end{verse}
+
+    \begin{chorus}
+      But \[A]don't tell my heart
+      My achy breaky heart
+      I just don't think it'd under\[E]stand
+      And \[E]if you tell my heart
+      My achy breaky heart
+      He might blow up and kill this \[A]man
+    \end{chorus}
+
+    \begin{verse}
+      \[A]You can tell your maw
+      I moved to Arcansas
+      You can tell your dog that bit my \[E]leg
+      Or \[E]tell your brother Cliff
+      Who's fist can tell my lip
+      He never really liked me any\[A]way
+    \end{verse}
+
+    \begin{verse}
+      Go \[A]tell your aunt Louise
+      Tell anything you please
+      That sell already knows I'm not o\[E]kay
+      Or \[E]you can tell my eye
+      Whatch out for my mind
+      It might be walkin' out on me one \[A]day
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

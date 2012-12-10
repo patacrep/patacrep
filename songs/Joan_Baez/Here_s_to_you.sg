@@ -1,8 +1,9 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Here's to you}
-  [by={Joan Baez}]
+  [by={Joan Baez},cov={sacco_vanzetti},album={Sacco et Vanzetti}]
 
+  \cover
   \gtab{C}{X32010}
   \gtab{G7}{320001}
   \gtab{Am}{X02210}

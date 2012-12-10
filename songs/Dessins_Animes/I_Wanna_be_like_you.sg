@@ -1,87 +1,91 @@
 \selectlanguage{english}
 \songcolumns{2}
-\beginsong{Le livre de la jungle: I wanna be like you}
+\beginsong{The jungle book: I wanna be like you}
   [by={Dessins Animés},cov={the-jungle-book},album={The jungle book}]
 
   \cover
-  \gtab{Em}{7:X02210}
-  \gtab{B7}{7:020100}
-  \gtab{D7}{5:X02020}
-  \gtab{G}{3:022100}
-  \gtab{E7}{5:X2120X}
-  \gtab{A7}{5:020100}
+  \gtab{Cm}{3:X02210}
+  \gtab{G7}{3:020100}
+  \gtab{B&7}{1:X02020}
+  \gtab{E&7}{6:X02020}
+  \gtab{C7}{X32310}
+  \gtab{F7}{1:020100}
 
   \begin{verse}
-    Now \[Em]{I'm} the king of the swingers
-    Oh, the jungle \[B7]VIP
+    Now \[Cm]{I'm} the king of the swingers, oh
+    The jungle \[G7]VIP
     I've reached the top and had to stop
-    And that's what botherin' \[Em]me
+    And that's what botherin' \[Cm]me \[G7]
   \end{verse}
 
-  \begin{verse*}
-    I wanna be a man, mancub
-    And stroll right into town
-    And be just like the other men
-    I'm tired of monkeyin' around!
-  \end{verse*}
+  \begin{repeatedchords}
+    \begin{verse*}
+      I \[Cm]wanna be a man, mancub
+      And stroll right into \[G7]town
+      And be just like the other men
+      I'm tired of monkeyin' a\[Cm]round, \[B&7]oh
+    \end{verse*}
+  \end{repeatedchords}
 
   \begin{chorus}
-    \[D7]Oh, \[G]oo bee doo
-    I wanna be like \[E7]you
-    I wanna \[A7]walk like you
-    \[D7]Talk like you, \[G]too
+    \[E&7]Oo bee doo
+    I wanna be like \[C7]you
+    I wanna \[F7]walk like you
+    \[B&7]Talk like you, \[E&7]too \[B&7]
   \end{chorus}
 
   \begin{chorus}
-    \[D7]You'll see it's \[G]true
-    An \[E7]ape like me
-    Can \[A7]learn to be
-    \[D7]Human \[G]too \[B7]
+    You'll see it's \[E&7]true
+    An ape like \[C7]me
+    Can \[F7]learn to be
+    \[B&7]Human \[E&7]too \[G7]
   \end{chorus}
 
   \textnote[english]{spoken}
   \textnote[french]{parlé}
   \begin{verse*}
     ``Gee, cousin Louie
-    You're doin' real good!
-    -Now here's your part of the deal, cuz
-    Lay the secret on me of man's red fire
-    -But I don't know how to make fire!''
+    You're doin' real good!''
+    ``Now here's your part of the deal, cuz
+    Lay the secret on me of man's red fire''
+    ``But I don't know how to make fire!''
   \end{verse*}
 
-  \begin{verse}
-    Now don't try to kid me, mancub
-    I made a deal with you
-    What I desire is man's red fire
-    To make my dream come true
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      Now \[Cm]{don't} try to kid me, mancub
+      I made a deal with \[G7]you
+      What I desire is man's red fire
+      To make my dream come \[Cm]true \[G7]
+    \end{verse}
 
-  \begin{verse*}
-    Give me the secret, mancub
-    Clue me what to do
-    Give me the power of man's red flower
-    So I can be like you
-  \end{verse*}
+    \begin{verse*}
+      Now, \[Cm]give me the secret, mancub
+      Come on, clue me what to \[G7]do
+      Give me the power of man's red flower
+      So I can be like \[Cm]you \[B&7]
+    \end{verse*}
+
+    \begin{chorus}
+      \[E&7]You!
+      I wanna be like \[C7]you
+      I wanna \[F7]walk like you
+      \[B&7]Talk like you, \[E&7]too \[B&7]
+    \end{chorus}
+
+    \begin{chorus}
+      You'll see it's \[E&7]true
+      Someone like \[C7]me
+      Can \[F7]learn to be
+      \[B&7]Like someone like \[E&7]me!
+    \end{chorus}
+  \end{repeatedchords}
 
   \begin{chorus}
-    You!
-    I wanna be like you
-    I wanna talk like you
-    Walk like you, too
-  \end{chorus}
-
-  \begin{chorus}
-    You'll see it's true
-    Someone like me
-    Can learn to be
-    Like someone like me
-  \end{chorus}
-
-  \begin{chorus}
-    Can learn to be
-    Like someone like you
-    Can learn to be
-    Like someone like me!
+    Can \[F7]learn to be
+    \[B&7]Like someone like \[E&7]you \echo{One more time! Yeah!}
+    Can \[F7]learn to be
+    \[B&7]Like someone like \[E&7]me!
   \end{chorus}
 
 \endsong

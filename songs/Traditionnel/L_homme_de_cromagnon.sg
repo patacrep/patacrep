@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'homme de Cro-Magnon}
-  [by={Traditionel}]
+  [by={Traditionnel},cov={traditionnel},album={France}]
 
+  \cover
   \gtab{C}{X32010}
   \gtab{G7}{320001}
   \gtab{G}{320003}

@@ -5,35 +5,37 @@
 
   \cover
   \gtab{F}{1:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{C}{3:X02220}
   \gtab{D7}{XX0212}
-  \gtab{B&}{1:X02220}
-  \gtab{C}{X32010}
 
   \begin{verse}
     \[F]{C'est} nous la compagnie des lapins bleus
-    Aux oreilles tendues et aux yeux mali\[D7]cieux
-    Notre \[B&]fleuve préféré, c'est le Da\[C]nube
+    Aux oreilles tendues et aux yeux mali\[Gm]cieux
+    Notre fleuve préféré, c'est le Da\[C]nube
     Mais no\[F]tre problème inso\[D7]luble
-    \[B&]C'est qu'on devient tout \[C]rouge
+    \[Gm]C'est qu'on devient tout \[C]rouge
     Quand on attrape un \[F]rhume
   \end{verse}
 
-  \begin{verse}
-    On se cache tous les jours dans des mouchoirs
-    À carreaux le matin et à rayures le soir
-    Notre ennemi mortel, c'est l'hiver
-    Mais notre ami, c'est le soleil
-    On redevient tout bleu
-    Quand il brille dans le ciel
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      \[F]On se cache tous les jours dans des mouchoirs
+      À carreaux le matin et à rayures le \[Gm]soir
+      Notre ennemi mortel, c'est l'hi\[C]ver
+      Mais \[F]notre ami, c'est le so\[D7]leil
+      \[Gm]On redevient tout \[C]bleu
+      Quand il brille dans le \[F]ciel
+    \end{verse}
 
-  \begin{verse}
-    C'est nous la compagnie des lapins bleus
-    Aux oreilles tendues et aux yeux malicieux
-    Mais que viennent la pluie et l'orage
-    Notre bonheur fait naufrage
-    Quand les lapins bleus sont rouges
-    Rien ne va plus dans la page
-  \end{verse}
+    \begin{verse}
+      \[F]{C'est} nous la compagnie des lapins bleus
+      Aux oreilles tendues et aux yeux mali\[Gm]cieux
+      Mais que viennent la pluie et l'o\[C]rage
+      No\[F]tre bonheur fait nau\[D7]frage
+      Quand \[Gm]les lapins bleus sont \[C]rouges
+      Rien ne va plus dans la \[F]page
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

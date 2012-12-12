@@ -1,0 +1,54 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{We are the world}
+  [by={Michael Jackson},cov={we-are-the-world},album={We are the world}]
+
+  \cover
+  \capo{4}
+  \gtab{C}{3:X02220}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{E&}{6:X02220}
+
+  \begin{verse}
+    \[C]There comes a time when we \[F]heed a \[G]certain \[C]call
+    When the \[F]world must \[G]come together as \[C]one
+    There are \[Am]people dying oh, and it's \[Em]time to lend a hand
+    To \[F]life, the greatest gift of \[G]all
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[C]We can't go on pre\[F]tending \[G]day by \[C]day
+      That some\[F]one, some\[G]where will soon make a \[C]change
+      We're \[Am]all a part of \[Em]God's great big family
+      And the \[F]truth, you know love is all we \[G]need
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    We are the \[F]world, \[G] we are the \[C]children
+    We are the \[F]ones who make a brighter \[G]day so let's start \[C]giving
+    There's a \[Am]choice we're making, we're \[Em]saving our own lives
+    It's \[F]true we'll make a better \[G]day just you and \[C]me
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Well, \[C]send them your heart so they \[F]know that \[G]someone \[C]cares
+      And their \[F]lives will \[G]be stronger and \[C]free
+      As \[Am]God has shown us by \[Em]turning stone to bread
+      And so we \[F]all must lend a helping \[G]hand
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{bridge}
+    When you're \[E&]down and out there \[F]seems no hope at \[C]all
+    But if you \[E&]just believe there's \[F]no way we can \[C]fall
+    Well, well, well, let's \[Am]realize that a \[Em]change can only come
+    When \[F]we stand together as \[G]one
+  \end{bridge}
+
+\endsong

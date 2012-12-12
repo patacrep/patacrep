@@ -1,0 +1,60 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Rolling in the deep}
+  [by={Adele},cov={21},album={21}]
+
+  \cover
+  \capo{3}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
+
+  \begin{verse}
+    \[Am]There's a fire \[E]starting in my heart
+    \[G]Reaching a fever pitch and it's \[E]bringing me out the dark
+    \[Am]Finally, I can \[E]see you crystal clear
+    \[G]Go ahead and sell me out and \[E]{I'll} lay your ship bare
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      \[Am]See how I leave with \[E]every piece of you
+      \[G]Don't underestimate the \[E]things that I will do
+      \[Am]There's a fire \[E]starting in my heart
+      \[G]Reaching a fever pitch and it's \[E]bringing me out the dark
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[F] The scars of \[G]your love, remind me \[Em]of us
+    They keep me \[F]thinking that we almost had it all
+    \[F] The scars of \[G]your love, they leave me \[Em]breathless
+    I can't help \[E]feeling
+  \end{chorus}
+
+  \begin{chorus}
+    \[E] We could have had it \[Am]all\[G]
+    Rolling in the \[F]deep\[G]
+    Your had my heart in\[Am]side of your \[G]hand
+    And you \[F]played it to the \[G]beat
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]Baby I have no \[E]story to be told
+      But \[G]{I've} heard one of you and I'm \[E]gonna make your head burn
+      \[Am]Think of me in the \[E]depths of your despair
+      \[G]Making a home down there, as mine \[E]sure won't be shared
+    \end{verse}
+
+    \begin{verse*}
+      \[Am]Throw your soul through \[E]every open door
+      \[G]Count your blessings to \[E]find what you look for
+      \[Am]Turn my sorrow \[E]into treasured gold
+      You'll \[G]pay me back in kind and \[E]reap just what you've sown
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Kiss the children for me Mary}
-  [by=Tri Yann,cov=le-meilleur-de-tri-yann,album=Le meilleur de Tri Yann]
+  [by={Tri Yann},cov={le-meilleur-de-tri-yann},album={Le meilleur de Tri Yann}]
 
   \cover
   \gtab{C}{X32010}
@@ -29,5 +29,51 @@
     Serai près de vous en Novembre
     Quand reviendrai de campagne
   \endverse
+
+
+
+  \begin{verse}
+
+    Kiss the children for me Mary
+    Don't let them pine or grieve
+    Tell them it's hard I'm working for them
+    Though it breaks my heart to leave.
+
+  \end{verse}
+
+
+  \begin{verse}
+    Don't forget hard the work
+    and long the day
+    I'll be thinking of you Mary
+    Though I'm many miles away
+
+  \end{verse}
+
+
+  \begin{verse}
+    Kiss the children for me Mary
+    Don't let them pine or grieve
+    Tell them it's hard I'm working for them
+    Though it breaks my heart to leave.
+
+  \end{verse}
+
+
+  \begin{verse}
+    Building dams ere fields and factories
+    Shifting mountains by the load
+    I'll be with you in November
+    When I'm finished on the road.
+
+  \end{verse}
+
+
+  \begin{verse}
+    Kiss the children for me Mary
+    Don't let them pine or grieve
+    Tell them it's hard I'm working for them
+    Though it breaks my heart to leave.
+  \end{verse}
 
 \endsong

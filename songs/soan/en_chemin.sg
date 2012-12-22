@@ -1,0 +1,54 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{En chemin}
+  [by={Soan},cov={tant-pis},album={Tant pis},%
+  url={http://www.soan-officiel.fr/}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab{D}{XX0232}
+  \gtab{B}{2:X02220}
+
+  \nolyrics{\lilypond{en_chemin}}
+
+  \begin{verse}
+    \[Em]Dire qu'il y a tout à l'heure cinq ans
+    Mille mots amnésiques à mes yeux privés de toi
+    \[Em]Pire il y a les fleurs en passant nos instants bucoliques
+    Ton cœur à d'autres que moi\dots
+    J'ai m\[G]ême aimé d'autres f\[F]emmes
+    D'ères vaines en instants p\[G]urs
+    Chanté d'autres lou\[F]anges
+    \[G]En \[Em]pleine possession de mon âme
+    Et de l'aube à la rupture j'ai même aimé un ange\dots
+  \end{verse}
+
+
+  \begin{chorus}
+    En chem\[G]in pour nulle p\[D]art
+    Et ce so\[Em]ir je me souvi\[B]ens\dots
+    En ret\[G]ard pour le \[D]train
+    J'ai march\[Em]é de gare en \[B]gare
+    Et ta voix me revi\[Em]ent
+    Leaving is easy with eyes \[B]closed
+    Ta voix me revi\[Em]ent
+    Misunderstanding all you \[B]see
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Dire qu'il y a des clous sur le fil
+      Et des villes à genoux de n'avoir su trouver leur rêve
+      \[Em]Pire il y a la mort tout au bout de nos humeurs cycliques
+      Il y a les amours qu'on achève
+      Et m\[G]ême qu'ils ont pris plais\[F]ir
+      A regarder crev\[G]er
+      Chaque métempsyc\[F]ose
+      \[G]Obsc\[Em]ène en possession de mon drame
+      En flammes les écorchures en panne les envies d'overdose
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

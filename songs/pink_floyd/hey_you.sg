@@ -1,0 +1,64 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Hey you}
+  [by={Pink Floyd},cov={the-wall},album={The Wall}]
+
+  \cover
+  \gtab{Em*}{7:X02210}
+  \gtab{Dm*}{5:X02210}
+  \gtab{Bm*}{7:022000}
+  \gtab{D*}{5:X02220}
+  \gtab{G*}{7:XXX232}
+  \gtab{C*}{3:X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{G**}{3:022100}
+
+  \lilypond{hey_you}
+  \begin{verse*}
+    \musicnote{\nolyrics{\Intro: | \[Em*] | \[Dm*] | } \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    Hey \[Em*]you! out there in the cold 
+    Getting lonely getting old, can you \[Bm*]feel me 
+    Hey \[Em*]you! Standing in the aisles 
+    With itchy feet and fading smiles, can you \[Bm*]feel me 
+    \[D*] Hey you! don't help them to bury the l\[G*]\[D*]i\[C*]ght 
+    \[Bm] Don't give in \[Am] without a f\[Em]ight  
+  \end{verse}
+
+  \begin{verse}
+    Hey \[Em]you! out there on your own 
+    Sitting naked by the phone would you \[Bm]touch me 
+    Hey \[Em]you! with your ear against the wall 
+    Waiting for someone to call out would you \[Bm]touch me 
+    \[D] Hey you! would you help me to carry the st\[G]\[D]o\[C]ne 
+    \[Bm]Open your heart \[Am] I'm coming \[Em]home 
+  \end{verse}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{ | \[Em] | \[Em] | \[Am] | \[Am]| } \rep{4} | \[Em] | \[Em] | }
+  \end{verse*}
+
+  \begin{chorus}
+    \[C] But it was \[D]only a \meter{2}{4}|\[G]fan\[D]ta\meter{4}{4}|\[C]sy 
+    The wall was too high as \meter{2}{4}|\[G]you \[D]can \meter{4}{4}|\[C]see 
+    No matter how he tr\[D]ied he could \meter{2}{4}|\[G]not \[D]break \meter{4}{4}|\[C]free 
+    And the worms ate \[D*]into his \[Em*]brain \[Dm*]
+  \end{chorus}
+
+  \begin{verse}
+    Hey \[Em*]you! out there on the road 
+    Always doing what you're told, can you \[Bm*]help me 
+    Hey \[Em*]you! out there beyond the wall 
+    Breaking bottles in the hall, can you \[Bm*]help me 
+    \[D*] Hey you! don't tell me there's no hope at \[G**]\[D*]a\[C*]ll 
+    \[Bm]Together we stand \[Am] divided we f\[Em]all
+  \end{verse}
+
+\endsong

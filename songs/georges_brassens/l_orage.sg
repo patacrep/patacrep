@@ -5,26 +5,26 @@
 
   \cover
   \gtab{Em}{022000}
-  \gtab{A7}{002020}
-  \gtab{D}{X00232}
+  \gtab{A7}{X02020}
+  \gtab{D}{XX0232}
   \gtab{F#7}{2:020100}
-  \gtab{Bm}{2:002210}
+  \gtab{Bm}{2:X02210}
   \gtab{C#7}{X4342X}
 
   \begin{verse}
     Parlez-moi \[Em]{de la pluie} et non pas du beau temps
-    Le beau temps \[A7]{me dégoute} et m'fait grincer les dents
+    Le beau temps \[A7]{me dégoûte} et m'fait grincer les dents
     \textnote[french]{pont sur la corde de La --0--2--4 et on renchaîne}
-    \textnote[french]{direct sur la corde de Ré pour reprendre en accord}
+    \textnote[french]{direct sur la corde de D pour reprendre en accord}
     Le \[D]{bel azur} me met en rage
-    Car \[F#7]{le plus} grand amour qui m'fut donné sur terr'
+    Car \[F#7]{le plus} grand amour qui m'fut donné sur terre
     Je l'dois \[Bm]{au mauvais temps}, je \[C#7]{l'dois} à Jupi\[F#7]{ter}\[Bm]
     Il me tomba \[Em]{d'un ciel} \[A7]{d'o}\[Em]{ra}\[F#7]{a}\[Bm]{ge}
   \end{verse}
 
   \begin{verse}
     Par un soir de novembre, à cheval sur les toits
-    Un vrai tonnerr' de Brest, avec des cris d'putois
+    Un vrai tonnerre de Brest, avec des cris d'putois
     Allumait ses feux d'artifice
     Bondissant de sa couche en costume de nuit
     Ma voisine affolée vint cogner à mon huis
@@ -32,19 +32,19 @@
   \end{verse}
 
   \begin{verse}
-    « Je suis seule et j'ai peur, ouvrez-moi, par pitié
+    {\og}Je suis seule et j'ai peur, ouvrez-moi, par pitié
     Mon époux vient d'partir faire son dur métier
     Pauvre malheureux mercenaire
     Contraint d'coucher dehors quand il fait mauvais temps
     Pour la bonne raison qu'il est représentant
-    D'un' maison de paratonnerres »
+    D'une maison de paratonnerres{\fg}
   \end{verse}
 
   \begin{verse}
     En bénissant le nom de Benjamin Franklin
     Je l'ai mise en lieu sûr entre mes bras câlins
     Et puis l'amour a fait le reste
-    Toi qui sèmes des paratonnerr's à foison
+    Toi qui sèmes des paratonnerres à foison
     Que n'en as-tu planté sur ta propre maison
     Erreur on ne peut plus funeste
   \end{verse}
@@ -53,35 +53,36 @@
     Quand Jupiter alla se faire entendre ailleurs
     La belle, ayant enfin conjuré sa frayeur
     Et recouvré tout son courage
-    Rentra dans ses foyers fair' sécher son mari
+    Rentra dans ses foyers faire sécher son mari
     En m'donnant rendez-vous les jours d'intempérie
     Rendez-vous au prochain orage
   \end{verse}
 
   \begin{verse}
-    A partir de ce jour j'n'ai plus baissé les yeux
+    À partir de ce jour j'n'ai plus baissé les yeux
     J'ai consacré mon temps à contempler les cieux
-    A regarder passer les nues
-    A guetter les stratus, à lorgner les nimbus
-    A faire les yeux doux aux moindres cumulus
+    À regarder passer les nues
+    À guetter les stratus, à lorgner les nimbus
+    À faire les yeux doux aux moindres cumulus
     Mais elle n'est pas revenue
   \end{verse}
 
   \begin{verse}
-    Son bonhomm' de mari avait tant fait d'affair's
+    Son bonhomm' de mari avait tant fait d'affaires
     Tant vendu ce soir-là de petits bouts de fer
     Qu'il était dev'nu millionnaire
     Et l'avait emmenée vers des cieux toujours bleus
-    Des pays imbécil's où jamais il ne pleut
+    Des pays imbéciles où jamais il ne pleut
     Où l'on ne sait rien du tonnerre
   \end{verse}
 
   \begin{verse}
-    Dieu fass' que ma complainte aille, tambour battant
+    Dieu fasse que ma complainte aille, tambour battant
     Lui parler de la pluie, lui parler du gros temps
     Auxquels on a t'nu tête ensemble
     Lui conter qu'un certain coup de foudre assassin
-    Dans le mill' de mon coeur a laissé le dessin  D'un' petit' fleur qui lui ressemble
+    Dans le mille de mon cœur a laissé le dessin
+    D'une petite fleur qui lui ressemble
   \end{verse}
 
 \endsong

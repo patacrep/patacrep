@@ -1,4 +1,4 @@
-\selectlanguage{french}
+\selectlanguage{english}
 \songcolumns{2}
 \beginsong{Bongo Bong}
   [by={Manu Chao},cov={clandestino},album={Clandestino}]
@@ -12,7 +12,7 @@
   \utab{G}{0232}
 
   \begin{verse*}
-    \musicnote{\Intro : \nolyrics \[Am] \[Am] \[Dm] \[G]}
+    \musicnote{\Intro: \nolyrics \[Am] \[Am] \[Dm] \[G]}
   \end{verse*}
 
   \begin{verse}

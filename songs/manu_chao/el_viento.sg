@@ -4,9 +4,11 @@
   [by={Manu Chao},cov={clandestino},album={Clandestino}]
 
   \cover
+  \gtab{G#m}{4:022000}
+  \gtab{F#}{2:022100}
 
   \begin{verse*}
-    \musicnote {\Intro \nolyrics \[G#m] \[F#] \[G#m] \[F#]}
+    \musicnote {\Intro \nolyrics \[G{\shrp}m] \[F{\shrp}] \[G{\shrp}m] \[F{\shrp}]}
   \end{verse*}
 
   \begin{verse}
@@ -49,7 +51,7 @@
       \[G#m]Sin más ra\[F#]zon
       El \[G#m]hombre viene
       El \[F#]hombre se va
-      \[G#m]Cuando volve\[F#]ra ?
+      \[G#m]¿Cuando volve\[F#]ra?
     \end{verse*}
   \end{repeatedchords}
 

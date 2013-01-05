@@ -24,23 +24,30 @@ class Song:
    def __repr__(self):
       return repr((self.title, self.artist, self.album, self.path))
 
-def copyCovers():
-   '''
-   Copy all covers found in songs/ hierarchy into a same folder.  This
-   allows a much faster search for pdflatex since the \graphicspath
-   macro now only contains a single directory instead of quite a long
-   list to search through.
-   '''
-   #create "covers/" directory if it does not exist
-   d = os.path.dirname("covers/")
-   if not os.path.exists(d):
-      os.makedirs(d)
+from xdg.BaseDirectory import *
 
-   covers = list(set(glob.glob('songs/*/*.jpg')))
+print 'xdg_data_home: %s' % xdg_data_home
+print 'xdg_data_dirs: %s' % xdg_data_dirs
+print 'xdg_config_home: %s' % xdg_config_home
+print 'xdg_config_dirs: %s' % xdg_config_dirs
+print 'xdg_cache_home: %s' % xdg_cache_home
+
+songbook_cache_home = os.path.join(xdg_cache_home, 'songbook')
+
+def makeCoverCache(cachePath):
+   '''
+   Copy all pictures found in the libraries into a unique cache
+   folder.
+   '''
+   # create the cache directory if it does not exist
+   if not os.path.exists(cachePath):
+      os.makedirs(cachePath)
+
+   # copy pictures file into the cache directory
+   covers = glob.glob('songs/*/*.jpg')
    for cover in covers:
-      f = "covers/" + os.path.basename(cover)
-      if(os.path.exists(f) == False):
-         shutil.copy(cover, f)
+      coverPath = os.path.join(cachePath, os.path.basename(cover))
+      shutil.copy(cover, coverPath)
 
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
@@ -144,7 +151,7 @@ def makeTexFile(sb, output):
             out.write(formatDefinition(name, toValue(parameters[name],value)))
     # output songslist
     if songs == "all":
-        songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
+       songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
 
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(songs)))
@@ -161,12 +168,10 @@ def makeTexFile(sb, output):
 def makeDepend(sb, output):
     name = output[:-2]
 
-    #dependsPattern = re.compile(r"^[^%]*(?:include|input)\{(.*?)\}")
     indexPattern = re.compile(r"^[^%]*\\(?:newauthor|new)index\{.*\}\{(.*?)\}")
     lilypondPattern = re.compile(r"^[^%]*\\(?:lilypond)\{(.*?)\}")
 
     # check for deps (in sb data)
-    #deps = matchRegexp(dependsPattern, [ v for v in sb.itervalues() if type(v) is not list ])
     deps = [];
     if sb["songs"] == "all":
         deps += glob.glob('songs/*/*.sg')
@@ -206,7 +211,7 @@ def main():
     try:
         opts, args = getopt.getopt(sys.argv[1:], 
                                    "hs:o:d", 
-                                   ["help","songbook=","output=","depend"])
+                                   ["help","songbook=","output=","depend","cache"])
     except getopt.GetoptError, err:
         # print help and exit
         print str(err)
@@ -216,11 +221,14 @@ def main():
     songbook = None
     depend = False
     output = None
+    cache = False
 
     for o, a in opts:
         if o in ("-h", "--help"):
             usage()
             sys.exit()
+        elif o in ("--cache"):
+           cache = True
         elif o in ("-s", "--songbook"):
             songbook = a
         elif o in ("-d", "--depend"):
@@ -230,12 +238,12 @@ def main():
         else:
             assert False, "unhandled option"
 
-    if songbook and output:
+    if cache:
+       makeCoverCache(os.path.join(songbook_cache_home, 'images'))
+    elif songbook and output:
         f = open(songbook)
         sb = json.load(f)
         f.close()
-
-        copyCovers()
 
         if depend:
             makeDepend(sb, output)

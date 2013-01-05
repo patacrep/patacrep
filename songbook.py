@@ -21,8 +21,8 @@ class Song:
         self.artist = artist
         self.album  = album
         self.path   = path
-        def __repr__(self):
-            return repr((self.title, self.artist, self.album, self.path))
+    def __repr__(self):
+        return repr((self.title, self.artist, self.album, self.path))
 
 from xdg.BaseDirectory import *
 

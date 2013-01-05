@@ -1,0 +1,56 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Eteins la lumière}
+  [by={Axel Bauer},cov={sentinelles},album={Sentinelles},%
+  url={www.axelbauer.com/}]
+
+  \cover
+  \gtab{A5}{X022XX}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{B}{2:X02220}
+
+  \lilypond{Eteins_la_lumiere}
+
+  \begin{verse}
+    A \[A5]force de se voir on ne se voyait \[D]plus
+    A \[A5]tant vouloir y croire on n'y croyait \[D]plus
+    Mais \[A5]ne me laisse pas \[D]si tu n'es pas sûre
+    \[A5]Loin loin de toi tu me dis tout \[D]bas
+  \end{verse}
+
+  \begin{chorus}
+    Cette \[F]petite avent\[Am]ure
+    \[F] Va tourner en \[Am]déconfiture
+    \[F] Ecl\[Am]aire moi \[B]
+    \[F] Eteins la \[Am]lumière
+    \[F] Montre-moi ton \[Am]coté sombre
+    \[F] Regarde les \[Am]ombres
+    Qui \[B]errent
+    Cherche un peu de l\[F]umière
+    Tout s'éc\[A5]laire
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[A5]Maintenant que le ciel n'a plus de \[D]mur
+      \[A5]Laissons nous glisser dans l'ouvert\[D]ure
+      Le c\[A5]oeur est si léger \[D]là où je t'emmène
+      \[A5]D'autres sont allés dans ce dom\[D]aine
+    \end{verse}
+
+    \begin{chorus}
+      \[F] Eteins la lu\[Am]mière
+      \[F] Nettoie ce qui \[Am]n'est pas toi
+      \[F] Souffle la \[Am]poussière sur \[B]toi
+      \[F] Eteins la \[Am]lumière
+      \[F] Montre-moi ton \[Am]coté sombre
+      \[F] Regarde les \[Am]ombres
+      Qui \[B]errent
+      Cherche un peu de l\[F]umière
+      Tout s'éc\[A5]laire
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

@@ -16,13 +16,13 @@ reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
 reAlbum  = re.compile('(?<=album=)(.(?<![,\\]\\}]))+')
 
 class Song:
-   def __init__(self, title, artist, album, path):
-      self.title  = title
-      self.artist = artist
-      self.album  = album
-      self.path   = path
-   def __repr__(self):
-      return repr((self.title, self.artist, self.album, self.path))
+    def __init__(self, title, artist, album, path):
+        self.title  = title
+        self.artist = artist
+        self.album  = album
+        self.path   = path
+        def __repr__(self):
+            return repr((self.title, self.artist, self.album, self.path))
 
 from xdg.BaseDirectory import *
 
@@ -35,44 +35,44 @@ print 'xdg_cache_home: %s' % xdg_cache_home
 songbook_cache_home = os.path.join(xdg_cache_home, 'songbook')
 
 def makeCoverCache(cachePath):
-   '''
-   Copy all pictures found in the libraries into a unique cache
-   folder.
-   '''
-   # create the cache directory if it does not exist
-   if not os.path.exists(cachePath):
-      os.makedirs(cachePath)
+    '''
+    Copy all pictures found in the libraries into a unique cache
+    folder.
+    '''
+    # create the cache directory if it does not exist
+    if not os.path.exists(cachePath):
+        os.makedirs(cachePath)
 
-   # copy pictures file into the cache directory
-   covers = glob.glob('songs/*/*.jpg')
-   for cover in covers:
-      coverPath = os.path.join(cachePath, os.path.basename(cover))
-      shutil.copy(cover, coverPath)
+    # copy pictures file into the cache directory
+    covers = glob.glob('songs/*/*.jpg')
+    for cover in covers:
+        coverPath = os.path.join(cachePath, os.path.basename(cover))
+        shutil.copy(cover, coverPath)
 
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
 
 def songslist(songs):
-   song_objects = []
-   for s in songs:
-      path = 'songs/'+s
-      with open(path, 'r+') as f:
-         data   = f.read()
-         title  = reTitle.search(data).group(0)
-         artist = reArtist.search(data.replace("{","")).group(0)
-         match  = reAlbum.search(data.replace("{",""))
-         if match:
-            album = match.group(0)
-         else:
-            album = ''
-         song_objects.append(Song(title, artist, album, path))
+    song_objects = []
+    for s in songs:
+        path = 'songs/'+s
+        with open(path, 'r+') as f:
+            data   = f.read()
+            title  = reTitle.search(data).group(0)
+            artist = reArtist.search(data.replace("{","")).group(0)
+            match  = reAlbum.search(data.replace("{",""))
+            if match:
+                album = match.group(0)
+            else:
+                album = ''
+            song_objects.append(Song(title, artist, album, path))
 
-   song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.title))
-   song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.album))
-   song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.artist))
+    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.title))
+    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.album))
+    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.artist))
 
-   result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in song_objects ]
-   return '\n'.join(result)
+    result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in song_objects ]
+    return '\n'.join(result)
 
 def parseTemplate(template):
     embeddedJsonPattern = re.compile(r"^%%:")
@@ -151,7 +151,7 @@ def makeTexFile(sb, output):
             out.write(formatDefinition(name, toValue(parameters[name],value)))
     # output songslist
     if songs == "all":
-       songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
+        songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
 
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(songs)))
@@ -228,7 +228,7 @@ def main():
             usage()
             sys.exit()
         elif o in ("--cache"):
-           cache = True
+            cache = True
         elif o in ("-s", "--songbook"):
             songbook = a
         elif o in ("-d", "--depend"):
@@ -239,7 +239,7 @@ def main():
             assert False, "unhandled option"
 
     if cache:
-       makeCoverCache(os.path.join(songbook_cache_home, 'images'))
+        makeCoverCache(os.path.join(songbook_cache_home, 'images'))
     elif songbook and output:
         f = open(songbook)
         sb = json.load(f)

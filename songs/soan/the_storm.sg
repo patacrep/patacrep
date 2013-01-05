@@ -1,4 +1,4 @@
-\selectlanguage{french}
+\selectlanguage{english}
 \songcolumns{2}
 \beginsong{The storm}
   [by={Soan},cov={tant-pis},album={Tant pis},%
@@ -11,39 +11,39 @@
   \gtab{G}{320003}
 
   \begin{verse}
-  I \[C]thought she was a hurricane
-  She said I am a storm
-  Whispering \[Am]old fairytales
-  I'm turning on my own
-  Would you c\[C]ome and blow with me
-  Forever and a day
-  I'm so \[Am]glad to cross your way
-  Said I but I'm a tree
+    I \[C]thought she was a hurricane
+    She said I am a storm
+    Whispering \[Am]old fairytales
+    I'm turning on my own
+    Would you c\[C]ome and blow with me
+    Forever and a day
+    I'm so \[Am]glad to cross your way
+    Said I but I'm a tree
   \end{verse}
 
   \begin{chorus}
-  \[F]Sorry please kill me I ne\[G]ed you
+    \[F]Sorry please kill me I ne\[G]ed you
   \end{chorus}
 
   \begin{verse}
-  \begin{repeatedchords}
-  And \[C]anyway tomorrow comes
-  The season of the witch
-  I'll be pr\[Am]aying thunderstorms
-  If you don't call the beast
-  I'm the \[C]one to disappear
-  She said I love you so
-  But l\[Am]ove isn't everything
-  So "Shut !" said I and blow
-  \end{repeatedchords}
+    \begin{repeatedchords}
+      And \[C]anyway tomorrow comes
+      The season of the witch
+      I'll be pr\[Am]aying thunderstorms
+      If you don't call the beast
+      I'm the \[C]one to disappear
+      She said I love you so
+      But l\[Am]ove isn't everything
+      So ``Shut!'' said I and blow
+    \end{repeatedchords}
   \end{verse}
 
   \begin{chorus}
-  \[F]Sorry please kill me I ne\[G]ed you
-  If you \[F]missed me I could m\[G]iss you
-  \[F]I've been sober for a \[G]week
-  \[F] I don't need to grow \[G]older \[C]
-  \[F] Sober and \[C]over \rep{3}
+    \[F]Sorry please kill me I ne\[G]ed you
+    If you \[F]missed me I could m\[G]iss you
+    \[F]I've been sober for a \[G]week
+    \[F] I don't need to grow \[G]older \[C]
+    \[F] Sober and \[C]over \rep{3}
   \end{chorus}
 
 \endsong

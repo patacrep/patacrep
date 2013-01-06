@@ -34,7 +34,7 @@ print 'xdg_cache_home: %s' % xdg_cache_home
 
 songbook_cache_home = os.path.join(xdg_cache_home, 'songbook')
 
-def makeCoverCache(cachePath):
+def makeCoverCache(library, cachePath):
     '''
     Copy all pictures found in the libraries into a unique cache
     folder.
@@ -44,7 +44,7 @@ def makeCoverCache(cachePath):
         os.makedirs(cachePath)
 
     # copy pictures file into the cache directory
-    covers = glob.glob('songs/*/*.jpg')
+    covers = glob.glob(library + 'songs/*/*.jpg')
     for cover in covers:
         coverPath = os.path.join(cachePath, os.path.basename(cover))
         shutil.copy(cover, coverPath)
@@ -52,10 +52,10 @@ def makeCoverCache(cachePath):
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
 
-def songslist(songs):
+def songslist(library, songs):
     song_objects = []
     for s in songs:
-        path = 'songs/'+s
+        path = library + 'songs/' + s
         with open(path, 'r+') as f:
             data   = f.read()
             title  = reTitle.search(data).group(0)
@@ -118,7 +118,7 @@ def formatDeclaration(name, parameter):
 def formatDefinition(name, value):
     return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
 
-def makeTexFile(sb, output):
+def makeTexFile(sb, library, output):
     name = output[:-4]
 
     # default value
@@ -151,11 +151,14 @@ def makeTexFile(sb, output):
             out.write(formatDefinition(name, toValue(parameters[name],value)))
     # output songslist
     if songs == "all":
-        songs = map(lambda x: x[6:], glob.glob('songs/*/*.sg'))
+        songs = map(lambda x: x[6:], glob.glob(library + 'songs/*/*.sg'))
 
     if len(songs) > 0:
-        out.write(formatDefinition('songslist', songslist(songs)))
+        out.write(formatDefinition('songslist', songslist(library, songs)))
     out.write('\\makeatother\n')
+
+    # output grapihcs path
+    #out.write('\\graphicspath{ {img/}, {' + songbook_cache_home + '/images/} }\n')
 
     # output template
     commentPattern = re.compile(r"^\s*%")
@@ -163,9 +166,10 @@ def makeTexFile(sb, output):
     content = [ line for line in f if not commentPattern.match(line) ]
     f.close()
     out.write(''.join(content))
+
     out.close()
 
-def makeDepend(sb, output):
+def makeDepend(sb, library, output):
     name = output[:-2]
 
     indexPattern = re.compile(r"^[^%]*\\(?:newauthor|new)index\{.*\}\{(.*?)\}")
@@ -174,9 +178,9 @@ def makeDepend(sb, output):
     # check for deps (in sb data)
     deps = [];
     if sb["songs"] == "all":
-        deps += glob.glob('songs/*/*.sg')
+        deps += glob.glob(library + 'songs/*/*.sg')
     else:
-        deps += map(lambda x: "songs/" + x, sb["songs"])
+        deps += map(lambda x: library + "songs/" + x, sb["songs"])
 
     # check for lilypond deps (in songs data) if necessary
     lilypond = []
@@ -210,8 +214,8 @@ def main():
     locale.setlocale(locale.LC_ALL, '') # set script locale to match user's
     try:
         opts, args = getopt.getopt(sys.argv[1:], 
-                                   "hs:o:d", 
-                                   ["help","songbook=","output=","depend","cache"])
+                                   "hs:o:d:l",
+                                   ["help","songbook=","output=","depend","cache","library="])
     except getopt.GetoptError, err:
         # print help and exit
         print str(err)
@@ -222,6 +226,7 @@ def main():
     depend = False
     output = None
     cache = False
+    library = './'
 
     for o, a in opts:
         if o in ("-h", "--help"):
@@ -235,6 +240,8 @@ def main():
             depend = True
         elif o in ("-o", "--output"):
             output = a
+        elif o in ("-l", "--library"):
+            library = a
         else:
             assert False, "unhandled option"
 
@@ -246,9 +253,9 @@ def main():
         f.close()
 
         if depend:
-            makeDepend(sb, output)
+            makeDepend(sb, library, output)
         else:
-            makeTexFile(sb, output)
+            makeTexFile(sb, library, output)
 
 if __name__ == '__main__':
     main()

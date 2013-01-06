@@ -245,9 +245,8 @@ def main():
         else:
             assert False, "unhandled option"
 
-    if cache:
-        makeCoverCache(os.path.join(songbook_cache_home, 'images'))
-    elif songbook and output:
+    makeCoverCache(library, os.path.join(songbook_cache_home, 'images'))
+    if songbook and output:
         f = open(songbook)
         sb = json.load(f)
         f.close()

@@ -81,10 +81,10 @@ $(PDF): %.pdf: %.tex %.aux
 	$(MAKE_INDEX) $< > $@
 
 %.tex: $(BOOKS_DIR)/%.sb
-	$(MAKE_SONGBOOK) -s $< -o $@
+	$(MAKE_SONGBOOK) --cache -s $< -o $@
 
 %.d: $(BOOKS_DIR)/%.sb
-	$(MAKE_SONGBOOK) -s $< -d -o $@
+	$(MAKE_SONGBOOK) --cache -s $< -d -o $@
 
 %.pdf: %.ly
 	@$(LILYPOND) --format=pdf -e '(define-public songbookstaff "$(SONGBOOKSTAFF)")' --output=$(@:%.pdf=%) $<

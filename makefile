@@ -18,6 +18,7 @@
 BOOKS_DIR=books/
 SONGBOOKS := $(wildcard $(BOOKS_DIR)/*.sb)
 TARGETS = $(SONGBOOKS:$(BOOKS_DIR)/%.sb=%)
+LIBRARY=./
 
 PDF = $(TARGETS:%=%.pdf)
 
@@ -78,13 +79,13 @@ $(PDF): %.pdf: %.tex %.aux
 	$(LATEX) $< 
 
 %.sbx: %.sxd
-	$(MAKE_INDEX) $< > $@
+	$(MAKE_INDEX) --library=$(LIBRARY) $< > $@
 
 %.tex: $(BOOKS_DIR)/%.sb
-	$(MAKE_SONGBOOK) --cache -s $< -o $@
+	$(MAKE_SONGBOOK) --cache --library=$(LIBRARY) -s $< -o $@
 
 %.d: $(BOOKS_DIR)/%.sb
-	$(MAKE_SONGBOOK) --cache -s $< -d -o $@
+	$(MAKE_SONGBOOK) --cache --library=$(LIBRARY) -s $< -d -o $@
 
 %.pdf: %.ly
 	@$(LILYPOND) --format=pdf -e '(define-public songbookstaff "$(SONGBOOKSTAFF)")' --output=$(@:%.pdf=%) $<

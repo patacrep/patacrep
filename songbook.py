@@ -25,16 +25,9 @@ class Song:
         return repr((self.title, self.artist, self.album, self.path))
 
 from xdg.BaseDirectory import *
+cachePath = os.path.join(xdg_cache_home, 'songbook')
 
-print 'xdg_data_home: %s' % xdg_data_home
-print 'xdg_data_dirs: %s' % xdg_data_dirs
-print 'xdg_config_home: %s' % xdg_config_home
-print 'xdg_config_dirs: %s' % xdg_config_dirs
-print 'xdg_cache_home: %s' % xdg_cache_home
-
-songbook_cache_home = os.path.join(xdg_cache_home, 'songbook')
-
-def makeCoverCache(library, cachePath):
+def makeCoverCache(library):
     '''
     Copy all pictures found in the libraries into a unique cache
     folder.
@@ -157,13 +150,16 @@ def makeTexFile(sb, library, output):
         out.write(formatDefinition('songslist', songslist(library, songs)))
     out.write('\\makeatother\n')
 
-    # output grapihcs path
-    #out.write('\\graphicspath{ {img/}, {' + songbook_cache_home + '/images/} }\n')
-
     # output template
     commentPattern = re.compile(r"^\s*%")
     f = open("templates/"+template)
     content = [ line for line in f if not commentPattern.match(line) ]
+
+    for index, line in enumerate(content):
+        if re.compile("getcachedirectory").search(line):
+            line = line.replace("\\getcachedirectory", cachePath + "/")
+            content[index] = line
+
     f.close()
     out.write(''.join(content))
 
@@ -215,7 +211,7 @@ def main():
     try:
         opts, args = getopt.getopt(sys.argv[1:], 
                                    "hs:o:d:l",
-                                   ["help","songbook=","output=","depend","cache","library="])
+                                   ["help","songbook=","output=","depend","library="])
     except getopt.GetoptError, err:
         # print help and exit
         print str(err)
@@ -225,15 +221,12 @@ def main():
     songbook = None
     depend = False
     output = None
-    cache = False
     library = './'
 
     for o, a in opts:
         if o in ("-h", "--help"):
             usage()
             sys.exit()
-        elif o in ("--cache"):
-            cache = True
         elif o in ("-s", "--songbook"):
             songbook = a
         elif o in ("-d", "--depend"):
@@ -245,7 +238,7 @@ def main():
         else:
             assert False, "unhandled option"
 
-    makeCoverCache(library, os.path.join(songbook_cache_home, 'images'))
+    makeCoverCache(library)
     if songbook and output:
         f = open(songbook)
         sb = json.load(f)

@@ -39,7 +39,7 @@ ifeq ($(shell which lilypond),)
   LILYFILE=''
 else
   LILYPOND=lilypond
-  LILY_SRC=$(wildcard lilypond/*.ly)
+  LILY_SRC:=$(wildcard $(LIBRARY)/lilypond/*.ly)
   LILYFILE=$(LILY_SRC:%.ly=%.pdf)
 endif
 

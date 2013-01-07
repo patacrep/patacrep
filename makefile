@@ -79,7 +79,7 @@ $(PDF): %.pdf: %.tex %.aux
 	$(LATEX) $< 
 
 %.sbx: %.sxd
-	$(MAKE_INDEX) --library=$(LIBRARY) $< > $@
+	$(MAKE_INDEX) $< > $@
 
 %.tex: $(BOOKS_DIR)/%.sb
 	$(MAKE_SONGBOOK) --library=$(LIBRARY) -s $< -o $@

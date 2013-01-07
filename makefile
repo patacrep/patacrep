@@ -22,8 +22,8 @@ LIBRARY=./
 
 PDF = $(TARGETS:%=%.pdf)
 
-CHORDS = chords.tex
-CHORDS_SRC = $(shell ls songs/*/*.sg)
+#CHORDS = chords.tex
+#CHORDS_SRC = $(shell ls $(LIBRARY)/songs/*/*.sg)
 
 DATE = $(shell date +%d)-$(shell date +%m)-$(shell date +%Y)
 
@@ -90,8 +90,8 @@ $(PDF): %.pdf: %.tex %.aux
 %.pdf: %.ly
 	@$(LILYPOND) --format=pdf -e '(define-public songbookstaff "$(SONGBOOKSTAFF)")' --output=$(@:%.pdf=%) $<
 
-$(CHORDS): $(CHORDS_SRC)
-	$(MAKE_CHORDS) -o $@
+#$(CHORDS): $(CHORDS_SRC)
+#	$(MAKE_CHORDS) -o $@
 
 archive: cleanall
 	tar -czvf songbook.tar.gz \

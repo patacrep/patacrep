@@ -156,11 +156,14 @@ def makeTexFile(sb, library, output):
     content = [ line for line in f if not commentPattern.match(line) ]
 
     for index, line in enumerate(content):
-        if re.compile("getcachedirectory").search(line):
-            line = line.replace("\\getcachedirectory", cachePath + "/")
+        if re.compile("getCacheDirectory").search(line):
+            line = line.replace("\\getCacheDirectory", cachePath + "/")
             content[index] = line
-        if re.compile("getlibraryimgdirectory").search(line):
-            line = line.replace("\\getlibraryimgdirectory", library + "img/")
+        if re.compile("getLibraryImgDirectory").search(line):
+            line = line.replace("\\getLibraryImgDirectory", library + "img/")
+            content[index] = line
+        if re.compile("getLibraryLilypondDirectory").search(line):
+            line = line.replace("\\getLibraryLilypondDirectory", library + "lilypond/")
             content[index] = line
 
     f.close()

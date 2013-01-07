@@ -310,7 +310,7 @@
 
 \newcommand{\lilypond}[1]{%
   \iflilypond%
-  \IfFileExists{./lilypond/#1.pdf}{\includegraphics{./lilypond/#1}}{}%
+  \includegraphics{#1}%
   \fi%
 }
 

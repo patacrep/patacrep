@@ -159,6 +159,9 @@ def makeTexFile(sb, library, output):
         if re.compile("getcachedirectory").search(line):
             line = line.replace("\\getcachedirectory", cachePath + "/")
             content[index] = line
+        if re.compile("getlibraryimgdirectory").search(line):
+            line = line.replace("\\getlibraryimgdirectory", library + "img/")
+            content[index] = line
 
     f.close()
     out.write(''.join(content))
@@ -198,7 +201,7 @@ def makeDepend(sb, library, output):
     # write .d file
     out = open(output, 'w')
     out.write('{0} {1} : {2}\n'.format(output, name+".tex", ' '.join(deps)))
-    out.write('{0} : {1}\n'.format(name+".pdf", ' '.join(map(lambda x: x+".sbx",idx)+map(lambda x: "lilypond/"+x+".pdf", lilypond))))
+    out.write('{0} : {1}\n'.format(name+".pdf", ' '.join(map(lambda x: x+".sbx",idx)+map(lambda x: library+"lilypond/"+x+".pdf", lilypond))))
     out.write('\t$(LATEX) {0}\n'.format(name+".tex"))
     out.write('{0} : {1}\n'.format(' '.join(map(lambda x: x+".sxd",idx)), name+".aux"))
     out.close()

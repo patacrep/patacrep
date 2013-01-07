@@ -213,7 +213,7 @@ def main():
     locale.setlocale(locale.LC_ALL, '') # set script locale to match user's
     try:
         opts, args = getopt.getopt(sys.argv[1:], 
-                                   "hs:o:d:l",
+                                   "hs:o:l:d",
                                    ["help","songbook=","output=","depend","library="])
     except getopt.GetoptError, err:
         # print help and exit

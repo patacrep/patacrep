@@ -2,7 +2,7 @@
 \songcolumns{2}
 \beginsong{Les p'tits chemins}
   [by={Crep},cov={mon-voisin-le-manchot},album={Mon voisin le manchot},%
-  url={http://www.patacrep.com/static3/audio}]
+  url={http://www.patacrep.com/fr/static3/audio}]
 
   \cover
   \gtab{C}{X32010}
@@ -77,4 +77,3 @@
   \end{verse}
 
 \endsong
-

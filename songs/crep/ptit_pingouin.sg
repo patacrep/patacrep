@@ -2,7 +2,7 @@
 \songcolumns{2}
 \beginsong{Ptit pingouin}
   [by={Crep},cov={mon-voisin-le-manchot},album={Mon voisin le manchot},%
-  url={http://www.patacrep.com/static3/audio}]
+  url={http://www.patacrep.com/fr/static3/audio}]
 
   \cover
   \gtab{D}{XX0232}
@@ -92,4 +92,5 @@
       Plus on est d'fous et moins y'a d'\[D]riz
     \end{verse}
   \end{repeatedchords}
+
 \endsong

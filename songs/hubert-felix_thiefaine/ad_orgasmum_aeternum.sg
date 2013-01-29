@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Ad orgasmum aeternum}
-  [by=Hubert-Félix Thiéfaine,cov=soleil-cherche-futur,album=Soleil cherche futur]
+  [by={Hubert-Félix Thiéfaine},cov={soleil-cherche-futur},album={Soleil cherche futur}]
 
   \cover
   \gtab{Bm}{2:X02210}
@@ -19,12 +19,12 @@
   \end{verse*}
 
   \begin{verse}
-    Dans cité X y a une barmaid
+    Dans cité X y'a une barmaid
     Qui lave mon linge entre deux raids
     Si un jour elle apprend mon tilt
     Au bout d'un flipp tourné trop vite
     Je veux pas qu'on lui renvoie mes scores
-    Ni ma loterie ni mon passeport
+    Ni ma loterie, ni mon passeport
     Mais je veux qu'on lui rende ses lasers
     Avec mes cendres et mes poussières
     Et j'aimerais qu'elle tire la chasse d'eau

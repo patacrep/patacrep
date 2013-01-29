@@ -1,0 +1,54 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Le chant du fou}
+  [by={Hubert-Félix Thiéfaine},cov={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+  \gtab{Bm}{2:X02210}
+
+  \begin{verse}
+    \[D]Le fou a chanté dix-sept \[Em]fois
+    \[C]Les yeux croisés sur son perchoir
+    \[Am]Une vérité au bout des doigts
+    Une lampe entre les mâcho\[E]ires
+  \end{verse}
+
+  \begin{verse}
+    \[D]Le fou a chanté dix-sept \[Em]fois
+    \[C]Puis il est mort de désespoir
+    \[Am]Dans un champ de labiales carnivo\[E]res
+    \[F#m]Tous les tombeaux se sont ouve\[Bm]rts
+    Pour voir p\[F#m]asser le mort vainqu\[A]eur
+    \[F#m]L'alcool s'est figé sur ton v\[Bm]erre
+    Ta ciga\[Em]rette tombe sur ton co\[A]eur
+    \[C]Et tu cherches une \[Am]vérité par-delà l'esp\[E]ace
+    \[C]Ouais, tu cherches une \[Am]vérité par-delà l'esp\[E]ace
+  \end{verse}
+
+  \begin{verse}
+    \[D]Un autre fou sort de son \[Em]trou
+    \[C]Les yeux recouverts de poussière
+    \[Am]De trois siècles passés chez Luci\[E]fer
+  \end{verse}
+
+  \begin{verse}
+    \[D]Un autre fou sort de son tr\[Em]ou
+    \[C]Et vient respirer la lumière
+    \[Am]Qui gerce les murs d'Hangui-Tcheou
+    Comme un grand coup de cimete\[E]rre
+    \[F#m]Les feuilles tombent des co\[Bm]cas
+    Et se répan\[Em]dent sur l'Occid\[A]ent
+    \[F#m]Demain tu \[F#m]verras tous ces \[Bm]petits alchimis\[Bm]tes
+    Pulvéri\[Em]ser un contin\[A]ent
+    \[C]Et ta tête tombe \[Am]de son socle de rê\[E]ves
+    \[C]Ouais ta tête tombe \[Am]de son socle de rê\[E]ves
+  \end{verse}
+
+\endsong

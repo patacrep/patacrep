@@ -1,0 +1,93 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La môme kaléidoscope}
+  [by=Hubert-Félix Thiéfaine,cov=autorisation-de-delirer,album=Autorisation de délirer]
+
+  \cover
+  \capo{1}
+  \gtab{G}{3:022100}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
+  \gtab{Em}{022000}
+  \gtab{Am}{X02210}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[G]}
+  \end{verse*}
+
+  \begin{verse}
+    \[D]J'suis la môme kaléidoscope
+    \[D]Celle qui faisait son numéro
+    Tous les soirs \[F]devant le juke-box
+    Pour les beaux dollars des \[D]gogos
+    \[D]J'avais tous les macs à mes pieds
+    \[D]Et tous les clients qui lorgnaient
+    J'étais la re\[F]ine du pavé
+    Et l'oseille, ça dégrin\[D]golait
+    \[Em]Mais l'ombre des plaisirs \[F]s'enfuit
+    \[Em]Toujours plus loin vers \[Am]l'inconnu
+    \[Em]On m'a reléguée dans la \[F]nuit
+    \[Em]Au milieu des vieux \[Am]tas d'inven\[G]dus
+  \end{verse}
+
+  \begin{verse}
+    J'suis la môme kaléidoscope
+    C'est moi qui f'sais l'trottoir d'en face
+    Du temps où j'avais dans l'carrosse
+    Une chatte qu'était pas radada
+    Et je carburais du siphon
+    A détraquer tous les gravos
+    Qui v'naient s'faire graisser leur oignon
+    Avant d'replonger au boulot
+    Mais la brume est tombée trop vite
+    En oubliant les chats perdus
+    On m'a reléguée dans la nuit
+    Au milieu des vieux tas d'invendus
+  \end{verse}
+
+  \begin{verse}
+    J'suis la môme kaléidoscope
+    J'avais des robes à 200 sacs
+    Et c'était pas dans le viandox
+    Qu'on pouvait m'voir planquer mon trac
+    J'en ai connu des gigolos
+    Qu'en pinçaient maxi pour mes miches
+    Qui m'offraient la vie de château
+    Et le foie gras dans mes sandwiches
+    Mais les pavots se sont flétris
+    Dans les champs du dernier salut
+    On m'a reléguée dans la nuit
+    Au milieu des vieux tas d'invendus
+  \end{verse}
+
+  \begin{verse}
+    J'suis la môme kaléidoscope
+    J'avais des actions dans l'bitume
+    Mais j'taillais même celle du clodo
+    Qu'avait jamais l'ombre d'une thune
+    J'étais la sainte Vierge des paumés
+    La p'tite infirmière des fantômes
+    J'raccommodais les yeux crevés
+    J'rafistolais les chromosomes
+    Mais le passé n'a pas d'amis
+    Quand il vient lécher les statues
+    On m'a reléguée dans la nuit
+    Au milieu des vieux tas d'invendus
+  \end{verse}
+
+  \begin{verse}
+    J'suis la môme kaléidoscope
+    Mais j'ai plus d'couleurs à la peau
+    Les mecs m'ont sucée jusqu'à l'os
+    Sans même me lâcher du magot
+    J'habite rue des Amours lynchées
+    Et je peux voir de mon grabat
+    D'autres mômes se faire défoncer
+    Pour des clopes et de la coca
+    Tu peux venir là où je suis
+    L'ennui c'est que je ne suis plus
+    On m'a reléguée dans la nuit
+    Au milieu des vieux tas d'invendus
+  \end{verse}
+
+\endsong

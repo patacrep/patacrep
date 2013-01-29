@@ -1,0 +1,78 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ad orgasmum aeternum}
+  [by=Hubert-Félix Thiéfaine,cov=soleil-cherche-futur,album=Soleil cherche futur]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{A}{5:022100}
+  \gtab{Em*}{2:XX3231}
+  \gtab{Em}{022000}
+  \gtab{C#m}{4:X02210}
+  \gtab{B}{7:022100}
+  \gtab{F#m}{2:022000}
+  \gtab{E&m}{6:X02210}
+  \gtab{G}{3:022100}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Em* Em F{\shrp}m]}
+  \end{verse*}
+
+  \begin{verse}
+    Dans cité X y a une barmaid
+    Qui lave mon linge entre deux raids
+    Si un jour elle apprend mon tilt
+    Au bout d'un flipp tourné trop vite
+    Je veux pas qu'on lui renvoie mes scores
+    Ni ma loterie ni mon passeport
+    Mais je veux qu'on lui rende ses lasers
+    Avec mes cendres et mes poussières
+    Et j'aimerais qu'elle tire la chasse d'eau
+    Pour que mes tripes et mon cerveau
+    Enfin redevenus lumière
+    Retournent baiser vers la mer
+  \end{verse}
+
+
+  \begin{verse}
+    Je \[Bm]r'viendrai comme un vieux junkie
+    M'é\[A]crouler dans ton alchimie
+    De\[Bm]lirium visions chromatiques
+    Am\[A]our no-limit éthylique
+    Je \[Em*]r'viendrai comme un vieux paria
+    Me \[Bm]déchirer dans ton karma
+    Re\[A]trouver nos mains androgynes
+    Dans \[Em]ta zone couleur benzédrine
+  \end{verse}
+
+  \begin{verse}
+    Je \[C#m]r'viendrai fixer ta chaleur
+    Dans \[B]la chambre au ventilateur
+    Où \[C#m]tes ombres sucent les paumés
+    En\[B]tre deux caisses de STP
+    Je \[F#m]r'viendrai te lécher les glandes
+    Dans \[C#m]la tendresse d'un no man's land
+    Et \[A]te jouer de l'harmonica
+    Sur \[F#m]un décapsuleur coma
+  \end{verse}
+
+  \begin{verse}
+    Je \[E&m]r'viendrai jouir sous ton volcan
+    Bat\[F#m]tre nos cartes avec le vent
+    Je \[C#m]r'viendrai taxer ta mémoire
+    Dans \[Em]la nuit du dernier espoir
+    Je \[E&m]r'viendrai chercher notre enfance
+    Assa\[F#m]ssinée par la démence
+    Et \[C#m]lui coller des lunettes noires
+    Le \[Em]blues est au fond du couloir
+    Le \[E&m]blues est au fond du couloir\[F#m] \[C#m] \[Em] \[G]
+  \end{verse}
+
+  \begin{verse}
+    Je \[Bm]reviendrai narguer tes dieux
+    Dé\[A]guisé en voleur de feu
+    Et \[G]crever d'un dernier amour
+    Le \[Em]foie bouffé par tes vaut\[Bm]ours
+  \end{verse}
+
+\endsong

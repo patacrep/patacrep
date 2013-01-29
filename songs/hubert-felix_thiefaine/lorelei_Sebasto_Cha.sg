@@ -1,0 +1,76 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Lorelei Sebasto Cha}
+  [by={Hubert-Félix Thiéfaine},cov={soleil-cherche-futur},album={Soleil cherche futur}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{C9}{X32333}
+  \gtab{G}{320003}
+  \gtab{C#dim}{X02323}
+  \gtab{Em6}{022020}
+  \gtab{Cm}{3:X02210}
+  \gtab{B*}{7:022100}
+  \gtab{B}{2:X02220}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[Em C Cm B Em C Cm Em]}
+  \end{verse*}
+
+  \begin{verse}
+    Mon blues a déjan\[Em]té sur ton corps ani\[C]mal
+    Dans cette chambre où les nu\[Am]its durent pas plus d'un quart d'he\[Em]ure
+    Juste après le péage assurer l'extra-\[C]ball
+    Et remettre à z\[Am]éro l'aiguille sur le compt\[Em]eur
+    Ton bl\[C9]ues a dérapé sur mon corps de cha\[G]cal
+    Dans cet \[C#dim]hôtel paumé aux murs glacés d'en\[C]nui
+    Et pen\[Em6]dant que le lit croise l'aéropos\[C]tale
+    Tu me dis \[Am]reprends ton fric aujourd'hui c'est \[Em]gratuit
+  \end{verse}
+
+  \begin{chorus}
+    Lorelei, Lore\[Em]lei
+    \[C]Ne me lâche pas \[Cm]j'ai mon train qui déraille
+    \[B*]Lorelei, Lore\[Em]lei
+    \[C]Et je suis comme un coba\[Cm]ye qui a sni\[B]ffé toute sa pai\[Em]lle
+  \end{chorus}
+
+  \begin{verse}
+    Tu m'arraches mon armure dans un geste un peu lourd
+    En me disant reviens maintenant je te connais
+    Tu me rappelles mes amants rue barrée à Hambourg
+    Quand j'étais l'orpheline aux yeux de feux follet
+    Tu me rappelles mes amants perdus dans la tempête
+    Avec le cœur-naufrage au bout des bars de nuit
+    Et tu me dis reviens je suis ton jour de fête
+    Reviens jouir mon amour dans bouche-agonie
+  \end{verse}
+
+  \begin{chorus}
+    Lorelei, Lorelei
+    Ne me lâche pas j'ai mon train qui déraille
+    Lorelei, Lorelei
+    Et je suis comme un cobaye qui a sniffé toute sa paille
+  \end{chorus}
+
+  \begin{verse}
+    Le blues a dégrafé nos cœurs de cannibales
+    Dans ce drame un peu triste où meurent tous les Shakespeare
+    Le rouge de nos viandes sur le noir sidéral
+    Le rouge de nos désirs sur l'envers de nos cuirs
+    Et je te dis reviens maintenant c'est mon tour
+    De t'offrir le voyage pour les Galapagos
+    Et je te dis reviens on s'en va mon amour
+    Recoller du soleil sur nos ailes d'albatros
+  \end{verse}
+
+  \begin{chorus}
+    Lorelei, Lorelei
+    Ne me lâche pas j'ai mon train qui déraille
+    Lorelei, Lorelei
+    Et je suis comme un cobaye qui a sniffé toute sa paille
+  \end{chorus}
+
+\endsong

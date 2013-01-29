@@ -43,6 +43,12 @@
 \lang{\getlang}
 \graphicspath{ {img/}, {\getLibraryImgDirectory}, {\getLibraryLilypondDirectory},  {\getCacheDirectory} }
 
+\renewcommand{\lilypond}[1]{%
+  \iflilypond%
+  \IfFileExists{\getLibraryLilypondDirectory/#1.pdf}{\includegraphics{#1}}{}%
+  \fi%
+}
+
 \nosongnumbers
 \pagestyle{empty}
 

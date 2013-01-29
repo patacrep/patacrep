@@ -70,6 +70,12 @@
 
 \graphicspath{ {img/}, {\getLibraryImgDirectory}, {\getLibraryLilypondDirectory},  {\getCacheDirectory} }
 
+\renewcommand{\lilypond}[1]{%
+  \iflilypond%
+  \IfFileExists{\getLibraryLilypondDirectory/#1.pdf}{\includegraphics{#1}}{}%
+  \fi%
+}
+
 \definecolor{SongNumberBgColor}{HTML}{\getsongnumberbgcolor}
 \definecolor{NoteBgColor}{HTML}{\getnotebgcolor}
 \definecolor{IndexBgColor}{HTML}{\getindexbgcolor}

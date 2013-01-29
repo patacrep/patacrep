@@ -144,7 +144,7 @@ def makeTexFile(sb, library, output):
             out.write(formatDefinition(name, toValue(parameters[name],value)))
     # output songslist
     if songs == "all":
-        songs = map(lambda x: x[6:], glob.glob(library + 'songs/*/*.sg'))
+        songs = map(lambda x: x[len(library) + 6:], glob.glob(library + 'songs/*/*.sg'))
 
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(library, songs)))

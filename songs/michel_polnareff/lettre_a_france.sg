@@ -1,0 +1,97 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Lettre à France}
+  [by={Michel Polnareff},cov={passe-present},album={Passé Présent }]
+
+  \cover
+  \gtab{E&M7}{XX1333}
+  \gtab{D4}{XX0233}
+  \gtab{D}{XX0232}
+  \gtab{Gm}{3:022000}
+  \gtab{Cm7}{3:X02010}
+  \gtab{f}{1:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{A7}{X02020}
+  \gtab{Dm7}{XX0211}
+  \gtab{F7}{1:020100}
+  \gtab{B&7M}{1:X02120}
+  \gtab{A}{X02220}
+  \gtab{D7}{XX0212}
+  \gtab{A&}{4:022100}
+  \gtab{Am7}{X02213}
+
+  \begin{chorus}
+    \[E&M7]Il était une \[D4]fois\[D]
+    Toi et \[Gm]moi\[D4 D]
+    \[E&M7]N'oublie jamais \[D4]ça\[D]
+    Toi et \[Gm]moi\[D4 D]
+  \end{chorus}
+
+  \begin{bridge}
+    \[Gm Cm7 F Dm EbM7 A7 D D4 D]
+    \[Gm Cm F Dm7 EbM7 A D7 Gm]
+  \end{bridge}
+
+  \begin{verse}
+    \[Gm]Depuis que je \[Cm7]suis loin de \[F7]toi
+    Je suis \[B&7M]comme loin de \[E&7M]moi
+    Et je \[A7]pense à \[D]toi tout \[D4]bas\[D]
+    \[Gm]Tu es à \[Cm7]six heures de \[F7]moi
+    Je suis à \[B&7M]des années de \[E&7M]toi
+    C'est \[A]ça \[D7]être \[Gm]là-bas
+  \end{verse}
+
+  \begin{chorus}
+    \[F]La \[G]différen\[Cm7]ce
+    \[F7]C'est ce silen\[B&]ce
+    Par\[A&]fois au \[Am7]fond de \[D7]moi
+  \end{chorus}
+
+  \begin{verse}
+    Tu vis toujours au bord de l'eau
+    Quelquefois dans les journaux
+    Je te vois sur des photos, et moi loin de toi
+    Je vis dans une boite à musique
+    Electrique et fantastisque
+    Je vis en Chimérique
+  \end{verse}
+
+  \begin{chorus}
+    La différence
+    C'est ce silence
+    Parfois au fond de moi
+  \end{chorus}
+
+  \begin{verse}
+
+    Tu n'es pas toujours la plus belle
+    Et je te reste infidèle
+    Mais qui peut dire l'avenir, de nos souvenirs
+    Oui, j'ai le mal de toi parfois
+    Même si je ne le dis pas
+    L'amour c'est fait de ça
+  \end{verse}
+
+
+  \begin{bridge}
+  \[Gm]
+  \end{bridge}
+
+
+  \begin{chorus}
+    Il était une fois
+    Toi et moi
+    N'oublie jamais ça
+    Toi et moi
+  \end{chorus}
+
+  \begin{verse}
+    Depuis que je suis loin de toi
+    Je suis comme loin de moi
+    Et je pense à toi là-bas
+    Oui j'ai le mal de toi parfois
+    Mêm' si je ne le dis pas
+    Je pense à toi tout bas
+  \end{verse}
+
+\endsong

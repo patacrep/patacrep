@@ -1,0 +1,53 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Maison Borniol}
+  [by={Hubert-Félix Thiéfaine},cov={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
+
+  \cover
+  \gtab{F#m}{2:022000}
+  \gtab{C#m}{4:X02210}
+  \gtab{A}{5:022100}
+  \gtab{B}{7:022100}
+  \gtab{E}{022100}
+
+  \begin{verse}
+    \[F#m]Hé y'a quelqu'un
+    Oh y'a quelqu'un
+    C'est moi Borniol
+    Et je viens livrer le cercueil
+    Si vous m'payez un coup d'alcool
+    Ben moi j'vous fais les clous à l'œil
+    Ouais c'est moi, Borniol
+    Service rapide et je contente
+    Même la veuve du guignol
+    Vu que je fais le service après-vente
+  \end{verse}
+
+  \begin{verse}
+    Les temps sont \[C#m]durs
+    C'est pas ma\[A]riole
+    Vivement que \[B]revienne le cho\[E]léra
+    Je pourrai \[F#m]changer de chig\[C#m]nole
+    Et me pa\[A]yer le cin\[F#m]éma
+    Et si le cho\[C#m]léra marche bi\[A]en
+    Je pourrai fa\[B]ire des fol\[E]ies
+    J'agran\[F#m]dirai mon maga\[C#m]sin
+    Et je pren\[A]drai des appre\[F#m]ntis \[A]\[E]\[F#m]
+    Je se\[F#m]rai la maison Bor\[A]niol
+    Le super\[E]marché de la m\[F#m]ort
+    Cercue\[F#m]ils à fleurs pour les pauvres mô\[A]mes
+    Et à roul\[E]ettes pour les vieil\[F#m]lards
+    Je ser\[F#m]ai la maison Borniol, Born\[A]iol, Borni\[E]ol \[F#m]
+  \end{verse}
+
+  \begin{verse}
+    \[F#m]Maison Borniol, maison Borniol
+    Bières, cercueils, catafalques
+    Maison Borniol, maison Borniol
+    Demandez notre catalogue automne/hiver
+    Maison Borniol, maison Borniol
+    15 pour cent de réduction sur suicide collectif
+    Maison Borniol, maison Borniol
+  \end{verse}
+
+\endsong

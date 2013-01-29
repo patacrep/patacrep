@@ -1,0 +1,94 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La fin du Saint Empire Romain-germanique}
+  [by={Hubert-Félix Thiéfaine},cov={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
+
+  \cover
+  \capo{1}
+  \gtab{F}{1:022100}
+  \gtab{G#}{4:022100}
+  \gtab{F#}{2:022100}
+  \gtab{G}{3:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{Am}{X02210}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[F G{\shrp} G{\shrp} G F{\shrp}] \[F G{\shrp} G{\shrp} G {\shrp} F] }
+  \end{verse*}
+
+  \begin{verse}
+    \[F]Je suis le fils d'une société
+    \[Gm]Fondamentalement épuisée
+    Passe moi ma pipe de marijane
+    Sinon je me shoote à la \[F]banane
+    Tout comme ses autres copains mon père
+    \[Gm]S'en revenait de Germany
+    Quand on leur a dit les petits pères
+    Faut nous faire de la \[F]démographie
+    \[Am]Moi c'est comme ça que j'ai débarqué
+    Par un beau matin aux auro\[Gm]res
+    \[Am]La guerre venait de se terminer
+    On revendait les mirad\[Gm]ors
+    \[F]Les miradors{\dots}
+  \end{verse}
+
+
+  \begin{verse}
+    Avec les germes de la guerre
+    On ne fabrique que des tarés
+    Moi j'ai le cœur qui tape à l'envers
+    Et le cerveau qui a des ratés
+    Pourtant on m'a donné l'enfance
+    D'un petit Français bien rassasié
+    Jusqu'à l'école où Mendès France
+    Venait nous donner la tétée
+    Mais si je fus un beau nourrisson
+    Répondant aux normes de Nestlé
+    Aujourd'hui j'ai l'air tellement con
+    Qu'on veut pas de moi même dans l'armée
+    Même dans l'armée{\dots}
+  \end{verse}
+
+
+  \begin{verse}
+    D'ailleurs je suis toujours mal foutu
+    J'ai mal aux seins, j'ai mal au{\dots}
+    Y'a guère que dans la naphtaline
+    Que je trouve un peu de vitamines
+    Et pour ce qui est des nanas
+    J'ai même plus le courage de draguer
+    Quand je les emmène au cinéma
+    Je m'endors aux actualités
+    Faut dire que maintenant les starlettes
+    Ça devient micheton à dégommer
+    Quand elles cartonnent pas MLF
+    Elles vous allongent au karaté
+    Au karaté{\dots}
+  \end{verse}
+
+
+  \begin{verse}
+    Arné sné connunu palome
+    Massasné masna en Sodome
+    Loukoum loukoum dé trougaga
+    Aro snavi rutabaga
+  \end{verse}
+
+
+  \begin{verse}
+    Je suis le fils d'une société
+    Fondamentalement épuisée
+    Refile moi mon dir-la-da-da
+    Sinon je me shoote au Banania
+    C'est la fin de mes éructations
+    J'ai pas le courage d'aller plus loin
+    Mieux vaut s'arrêter là sinon
+    Ça va se terminer en boudin
+    Ouais, en boudin{\dots}
+  \end{verse}
+
+  \begin{verse*}
+    \musicnote {\Outro : \nolyrics \[G{\shrp} G{\shrp} G F{\shrp} F] \[G{\shrp} G{\shrp} G F{\shrp} F F] }
+  \end{verse*}
+
+\endsong

@@ -1,0 +1,90 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La fille du coupeur de joints}
+  [by={Hubert-Félix Thiéfaine},cov={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
+
+  \cover
+  \capo{2}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+    \[Em]Elle descendait de la \[D]montagne
+    \[C]Sur un chariot chargé de \[G]paille
+    \[Am]Sur un chariot chargé de \[Em]foin
+    \[Am]La fille du coupeur de \[Em]joints
+    \[Am]La fille du coupeur de \[Em]joints
+  \end{verse}
+
+  \begin{verse*}
+    \musicnote {\nolyrics\[Em D C G Am Em Am Em]}
+  \end{verse*}
+
+  \begin{verse}
+    Elle descendait de la montagne
+    En chantant une chanson paillarde
+    Une chanson de collégien
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+  \begin{verse}
+    Mais nous on était cinq chômeurs
+    A se lamenter sur not'malheur
+    En se disant qu'on se taperait bien
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+  \begin{verse}
+    Elle descendait de la montagne
+    V'là qu'elle nous voit vers les murailles
+    Et qu'elle nous fait : coucou les gens !
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+  \begin{verse}
+    Ben, v'là qu'elle nous prend par la taille
+    Pis qu'elle nous emmène sur sa paille
+    Elle nous fait le coup du zeppelin
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+  \begin{verse}
+    Ben nous on était cinq chômeurs
+    A se payer une tranche de bonheur
+    Une tranche de tagada tsoin-tsoin
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+  \begin{verse}
+    Quand on eut passé la ferraille
+    Elle nous fit fumer de sa paille
+    Sacré bon dieu que c'était bien
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+  \begin{verse}
+    Plus question de chercher du travail
+    On pédalait dans les nuages
+    Au milieu des petits lapins
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+  \begin{verse}
+    Elle descendait de la montagne
+    En chantant une chanson paillarde
+    Une chanson de collégien
+    La fille du coupeur de joints
+    La fille du coupeur de joints
+  \end{verse}
+
+\endsong

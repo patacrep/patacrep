@@ -18,10 +18,12 @@
     Je suis \[Em]fou\[Em/D] de \[C]vous \[E&]
     Pour\[G]quoi vous mo\[Em]quez-vous chaque jour
     \[C]De mon \[D]pauvre a\[G]mour ?\[Em C D]
+  \end{chorus}
 
+  \begin{chorus}
     L\[G]ove me, please \[B7]love me
     Je suis \[Em]fou \[Em/D]de \[C]vous \[E&]
-    \[G]Vraiment \[Em]prennez-vous tant de plaisir
+    \[G]Vraiment \[Em]prenez-vous tant de plaisir
     \[C]A me \[D]voir sou\[G]ffrir ?\[C G G7]
   \end{chorus}
 
@@ -31,7 +33,7 @@
     \[C]Nul es\[D]poir n'est per\[G]mis\[G7]
     \[C7M]Pourtant, je veux jouer ma chance
     \[Bm7]Même si, même si
-    \[C]Je devais y \[D]rûler ma vie\[Daug]
+    \[C]Je devais y \[D]brûler ma vie\[Daug]
   \end{verse}
 
   \begin{chorus}
@@ -41,10 +43,7 @@
     De mon pauvre amour ?
   \end{chorus}
 
-  \begin{bridge}
-    Solo de piano : Accords du 2ème refrain avec fin en
-    \[G7]
-  \end{bridge}
+  \musicnote[french]{Solo de piano : Accords du 2ème refrain avec fin en G7}
 
   \begin{verse}
     Devant tant d'indifférence
@@ -60,7 +59,9 @@
     Je suis fou de vous
     Pourtant votre lointaine froideur
     Déchire mon cœur
+  \end{chorus}
 
+  \begin{chorus}
     Love me, please love me
     Je suis fou de vous
     Mais vous, vous moquerez-vous toujours
@@ -68,7 +69,7 @@
   \end{chorus}
 
   \begin{bridge}
-    \[G Em C D]
+    {\nolyrics \[G Em C D]}
   \end{bridge}
 
 \endsong

@@ -9,7 +9,7 @@
   \gtab{D}{XX0232}
   \gtab{Gm}{3:022000}
   \gtab{Cm7}{3:X02010}
-  \gtab{f}{1:022100}
+  \gtab{F}{1:022100}
   \gtab{Dm}{XX0231}
   \gtab{A7}{X02020}
   \gtab{Dm7}{XX0211}
@@ -52,7 +52,7 @@
     Quelquefois dans les journaux
     Je te vois sur des photos, et moi loin de toi
     Je vis dans une boite à musique
-    Electrique et fantastisque
+    Électrique et fantastique
     Je vis en Chimérique
   \end{verse}
 
@@ -63,7 +63,6 @@
   \end{chorus}
 
   \begin{verse}
-
     Tu n'es pas toujours la plus belle
     Et je te reste infidèle
     Mais qui peut dire l'avenir, de nos souvenirs
@@ -74,7 +73,7 @@
 
 
   \begin{bridge}
-  \[Gm]
+    {\nolyrics \[Gm]}
   \end{bridge}
 
 

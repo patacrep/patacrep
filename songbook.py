@@ -240,6 +240,8 @@ def main():
         elif o in ("-o", "--output"):
             output = a
         elif o in ("-l", "--library"):
+            if not a.endswith('/'):
+                a += '/'
             library = a
         else:
             assert False, "unhandled option"

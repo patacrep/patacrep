@@ -10,6 +10,7 @@ import json
 import locale
 import shutil
 import locale
+import platform
 
 reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')
 reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
@@ -24,8 +25,11 @@ class Song:
     def __repr__(self):
         return repr((self.title, self.artist, self.album, self.path))
 
-from xdg.BaseDirectory import *
-cachePath = os.path.join(xdg_cache_home, 'songbook')
+if platform.system() == "Linux":
+	from xdg.BaseDirectory import *
+	cachePath = os.path.join(xdg_cache_home, 'songbook')
+else:
+	cachePath = os.path.join('cache', 'songbook')
 
 def makeCoverCache(library):
     '''
@@ -157,7 +161,7 @@ def makeTexFile(sb, library, output):
 
     for index, line in enumerate(content):
         if re.compile("getCacheDirectory").search(line):
-            line = line.replace("\\getCacheDirectory", cachePath + "/")
+            line = line.replace("\\getCacheDirectory", cachePath.replace("\\","/") + "/")
             content[index] = line
         if re.compile("getLibraryImgDirectory").search(line):
             line = line.replace("\\getLibraryImgDirectory", library + "img/")

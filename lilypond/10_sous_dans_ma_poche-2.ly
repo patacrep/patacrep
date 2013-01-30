@@ -17,7 +17,7 @@
 
     \repeat volta 2
     {
-      c8 c b8.\trill a16 b16 a g f e4 
+      c8 c b8.\trill a16 b16 a g fis e4
       a8 a16 b g8 a16 b 
     }
     

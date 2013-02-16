@@ -58,19 +58,7 @@
     And I don't need no carrying \[A]on
   \end{bridge}
 
-  \begin{chorus}
-    You had a bad day
-    You're taking one down
-    You sing a sad song just to turn it around
-    You say you don't know
-    You tell me don't lie
-    You work at a smile and you go for a ride
-    You had a bad day
-    The camera don't lie
-    You're coming back down and you really don't mind
-    You had a bad day
-    Houuu{\dots}
-  \end{chorus}
+  \musicnote{\Chorus}
 
   \begin{bridge}
     \[F]Sometimes the system goes on the blink
@@ -78,7 +66,7 @@
     You \[F]might not make it back and you know
     That you could \[B&]be well oh that strong
     Well I'm not \[A]wrong
-    Yeahhhh{\dots}
+    Yeah!{\dots}
   \end{bridge}
 
   \begin{bridge}

@@ -13,22 +13,22 @@
   \gtab{F}{1:022100}
   \gtab{Bm7}{X20202}
   \gtab{Bm6}{X20102}
-  
+
   \begin{verse*}
     \musicnote{\Intro: \nolyrics \[D G A G]}
   \end{verse*}
-  
+
   \begin{verse}
-    \[D]Where is the \[G]moment when we need it the \[A]most  \[G]
-    \[D]You kick up the \[G]leaves and the magic is \[A]lost  \[G]
+    \[D]Where is the \[G]moment when we need it the \[A]most \[G]
+    \[D]You kick up the \[G]leaves and the magic is \[A]lost \[G]
     \[Bm]They tell me your \[A]blue sky's faded to \[G]grey
     They tell me your \[D]passion's gone a\[Em]way
     And I don't need no carrying \[A]on \[G] \[A]
   \end{verse}
 
   \begin{verse}
-    \[D]Stand in the \[G]line just ahead of the \[A]law  \[G]
-    \[D]You're faking a \[G]smile with the coffee you \[A]go  \[G]
+    \[D]Stand in the \[G]line just ahead of the \[A]law \[G]
+    \[D]You're faking a \[G]smile with the coffee you \[A]go \[G]
     \[Bm]You tell me your \[A]life's been way off \[G]line
     You're falling to \[D]pieces every\[Em]time
     And I don't need no carrying \[A]on
@@ -47,11 +47,11 @@
     You had a bad \[Em]day \[A]
     You had a bad \[D]day
   \end{chorus}
-  
+
   \begin{verse*}
     \musicnote{\nolyrics \[D G A G] \rep{2}}
   \end{verse*}
-  
+
   \begin{bridge}
     Well you need a \[A]blue sky holi\[G]day
     The point is they \[D]laugh at what you \[Em]say
@@ -69,18 +69,18 @@
     The camera don't lie
     You're coming back down and you really don't mind
     You had a bad day
-    Houuu...
+    Houuu{\dots}
   \end{chorus}
-  
+
   \begin{bridge}
     \[F]Sometimes the system goes on the blink
     And the \[B&]whole thing it turns out wrong
     You \[F]might not make it back and you know
     That you could \[B&]be well oh that strong
     Well I'm not \[A]wrong
-    Yeahhhh...
+    Yeahhhh{\dots}
   \end{bridge}
-  
+
   \begin{bridge}
     \[D]So where is the \[G]passion when you need it the \[A]most
     \[G]Oh you and I
@@ -100,7 +100,7 @@
     You had a bad \[A]day
     You had a bad \[D]day
   \end{chorus}
-  
+
   \begin{verse*}
     \musicnote{\Outro: \nolyrics \[D G Em A] \rep{4}}
   \end{verse*}

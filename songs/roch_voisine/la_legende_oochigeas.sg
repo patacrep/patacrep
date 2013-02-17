@@ -30,7 +30,7 @@
   \end{verse*}
 
   \begin{chorus}
-    (Elle s'appelait)
+    \echo{Elle s'appelait}
     \[Em]Oo-oo-oo-\[D]oo-oo-oo-\[C]oo-chige\[Em]as \rep{2}
   \end{chorus}
 
@@ -53,18 +53,8 @@
   \end{verse*}
 
   \begin{chorus}
-    (S'appelait)
+    \echo{S'appelait}
     Oo-oo-oo-oo-oo-oo-oo-chigeas \rep{2}
-  \end{chorus}
-
-  \begin{verse*}
-    Au temps des légendes anciennes
-    Avant que l'homme blanc ne vienne{\dots}
-    Vivait une orpheline{\dots} indienne
-  \end{verse*}
-
-  \begin{chorus}
-    Oo-oo-oo-oo-oo-oo-oo-chigeas \rep{4}
   \end{chorus}
 
   \begin{verse*}

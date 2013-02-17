@@ -1,13 +1,14 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Linger}
-  [by={The Cranberries},cov={Everybody-else-is-doing-it-so-why-cant-we},album={Everybody else is doing it so why can't we?}]
+  [by={The Cranberries},cov={Everybody-else-is-doing-it-so-why-cant-we},%
+  album={Everybody else is doing it so why can't we?}]
 
   \cover
   \gtab{D}{XX0232}
   \gtab{A}{X02220}
   \gtab{C}{X32010}
-  \gtab{G}{320030}
+  \gtab{G}{320003}
 
   \begin{verse*}
     \musicnote{\Intro: \nolyrics \[D]}

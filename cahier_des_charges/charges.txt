@@ -1,0 +1,152 @@
+# Index personnalisés
+
+Je veux être capable de créer mes propres index. Je ne veux pas choisir dans
+une liste prédéfinie, mais pouvoir les personnaliser. Je veux pouvoir leur
+donner le titre que je veux.
+
+## Proposition
+
+Dans le fichier general.sg, définition d'une liste :
+
+> indexes = [
+>     "auteur",
+>     ("pays", "Index par pays d'origine"),
+>     ]
+
+Ceci signifie que j'aurai deux index :
+
+- l'un utilisant le mot-clef "auteur", ayant pour titre "Index par auteur" ;
+- l'autre utilisant le mot-clef "pays", ayant pour titre "Index par pays d'origine".
+
+Pour chaque index, le mot clef sortas_nom est disponible, si l'on veut que le
+nom qui s'affiche ne soit pas le nom par lequel l'entrée est triée.
+
+# Découpage du document
+
+Je veux pouvoir personnaliser le document, à savoir : mettre ma propre page de
+titre, choisir l'ordre des éléments (index au début ou à la fin), ajouter des
+pages personnalisées, etc.
+
+## Proposition
+
+### Préambule
+
+Dans le fichier general.sg, définition de variables :
+
+> preambule = "\usepackage{yfonts}"
+
+Cette variable permet d'ajouter des choses au préambule. Pour intégrer un fichier complet, il suffit de mettre :
+
+> preambule = "\input{mon_preambule.tex}"
+
+### Document
+
+Dans le fichier general.sg, possibilité de définir la variable document :
+
+> document = [
+>   TITLE,
+>   INDEXES,
+>   SONGS,
+>   "appendice.tex",
+>   ]
+
+Ceci signifie que mon document comportera la page de titre, l'index, les textes
+des chansons par défaut, et à la fin, intégrera mon document "appendice.tex".
+
+# Emplacement des chansons
+
+Je veux pouvoir dire à quelles chansons aller chercher.
+
+## Proposition
+
+Dans le fichier general.sg, utilisation des variables SONG_ROOT et SONG_FILES.
+
+> SONG_ROOT = "~/chansons"
+> SONG_FILES = "*/*.tex"
+
+Il est possible de mettre une liste  dans SONG_FILES, pour dire de prendre tous
+les éléments de la liste.
+
+# Langue
+
+Je veux pouvoir dire dans quel langue est chaque chanson, et que ceci soit
+ajouté automatiquement à l'appel de Babel.
+
+# Référence
+
+Je veux pouvoir faire référence à des chansons (nom, page, etc.).
+
+## Proposition
+
+Faire en sorte que la commande \label fonctionne, ou ajouter un mot-clef
+"label" à \beginsong.
+
+Ensuite, avoir à disposition des commandes \songtitle{ref}, \songpage{ref},
+\songkeyword{ref}{keyword}.
+
+# Chansons de plusieurs auteurs
+
+Je veux pouvoir choisir l'ordre de mes chansons (classement par auteur par exemple).
+
+Je veux pouvoir attribuer des chansons à plusieurs auteurs, et décider dans la
+partie de quel auteur elle aparaisse, et qu'elle soit référencée dans d'autre.
+
+Exemple : Les Oiseaux de passage, de Richepin, chantée par Brassens. Je veux
+que le texte apparaisse avec les autres textes de Richepin, avec la mention «
+Mise en musique par Brassens », et qu'à un endroit dans la « partie » Brassens,
+apparaisse le texte « Voir aussi \songtitle{richepin_oiseau}, page
+\songpage{richepin_page} ». La chanson apparaitra pour les deux auteurs dans
+l'index par auteur.
+
+## Proposition
+
+> \beginsong{Chanson des cloches de baptême}[label=richepin_cloches, author=Richepin]
+> \comment{Chantée par \songauthor{brassens_philistins} sous le titre \songtitle{brassens_philistins}.}
+> ...
+> \endsong
+> 
+> \beginchildsong{Philistins}[parent=richepin_cloches, author=Brassens]
+> Voir \songtitle{richepin_cloches}, page \pagetitle{richepin_page}.
+> \endsong
+
+# Possibilité d'exporter en LaTeX ou PDF
+
+Je veux pouvoir, en ligne de commande, dire que je souhaite un export en LaTeX
+ou en PDF.
+
+# Partitions
+
+Je veux pouvoir placer mes partitions Lilypond dans le même répertoire que les
+chansons correspondantes.
+
+# PDF
+
+Je veux pouvoir intégrer des PDF comme chansons (partitions scannées).
+
+# Traductions
+
+Je pouvoir intégrer des traductions.
+
+## Proposition
+
+Dans le fichier general.sg, une variable avec la langue par défaut pour les
+traductions.
+
+> DEFAULT_TRANSLATION_LANGUAGE = "francais"
+
+Dans un fichier de chanson :
+
+> \begin[english]{translation}
+> Do not use your spoon with your left hand / etc.
+> \end{translation}
+
+# Commentaires
+
+Je veux pouvoir ajouter des commentaires dans les chansons, qui soient mis en
+valeur différement.
+
+# Langage du fichier de configuration
+
+Je propose que le fichier de configuration soit du Python : puisqu'un client
+texte existe, nous pouvons considérer que quelqu'un modifiant à la main ce
+fichier sait faire du Python.

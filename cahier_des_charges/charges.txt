@@ -150,3 +150,8 @@ valeur différement.
 Je propose que le fichier de configuration soit du Python : puisqu'un client
 texte existe, nous pouvons considérer que quelqu'un modifiant à la main ce
 fichier sait faire du Python.
+
+# Langues
+
+Pouvoir définir les langues dans le fichier de configuration general.sg, pour
+que babel ne soit pas bloqué.

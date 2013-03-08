@@ -54,7 +54,7 @@
 \ProcessOptions
 
 % Base class
-\LoadClass[a4paper]{article}
+\LoadClass{article}
 
 % Main packages
 \RequirePackage{graphicx,xcolor}
@@ -334,19 +334,6 @@
 \renewcommand{\idxauthfont}{\sffamily\bfseries}
 \renewcommand{\idxheadfont}{\sffamily\it\LARGE}
 \renewcommand{\idxrefsfont}{\bfseries}
-
-%
-% Customization of the page appearance
-%
-\RequirePackage[
-  a4paper % paper size
-  ,includeheadfoot % include header and footer into text size
-  ,hmarginratio=1:1 % ratio between inner and outer margin (default)
-  ,outer=1.8cm % outer margin (right)
-  ,vmarginratio=1:1 % ratio between top and bottom margin
-  ,bmargin=1.3cm % bottom margin
-% ,bindingoffset=1.7cm % space reserved to bound pages together
-  ]{geometry}
 
 % Paragraph indentation space
 \setlength{\parindent}{0.3cm}

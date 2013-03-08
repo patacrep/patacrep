@@ -21,6 +21,8 @@ Ceci signifie que j'aurai deux index :
 Pour chaque index, le mot clef sortas_nom est disponible, si l'on veut que le
 nom qui s'affiche ne soit pas le nom par lequel l'entrée est triée.
 
+Utiliser la commande \newsongkey : http://songs.sourceforge.net/songsdoc/songs.html#mac.newsongkey
+
 # Découpage du document
 
 Je veux pouvoir personnaliser le document, à savoir : mettre ma propre page de

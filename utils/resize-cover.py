@@ -6,10 +6,11 @@
 #Description: Resize all covers to 128,128 thumbnails
 
 import Image
-import glob
+
+from utils.utils import recursiveFind
 
 # Process song files
-covers = glob.glob('songs/*/*.jpg')
+covers = recursiveFind(os.path.join(library, 'songs'), '*.jpg')
 for filename in covers:
 
     source = Image.open(filename)

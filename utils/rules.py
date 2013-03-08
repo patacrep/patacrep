@@ -8,6 +8,8 @@ import logging
 import locale
 re.LOCALE
 
+from utils.utils import recursiveFind
+
 # the dictionary has target_word:replacement_word pairs
 word_dic = {
 ##: oe inclusion
@@ -236,7 +238,7 @@ def main():
       usage()
       sys.exit(2)
 
-   songfiles = glob.glob('songs/*/*.sg')
+   songfiles = recursiveFind(os.path.join(library, 'songs'), '*.sg')
    loglevel  = "warning"
 
    for option, arg in opts:

@@ -85,10 +85,13 @@ def processSXD(filename):
     type = data[0]
     i = 1
     idx = index()
-    while data[i].startswith('%'):
-        keywords = keywordPattern.match(data[i]).groups()
-        idx.keyword(keywords[0],keywords[1])
-        i += 1
+
+    if len(data) > 1:
+        while data[i].startswith('%'):
+            keywords = keywordPattern.match(data[i]).groups()
+            idx.keyword(keywords[0],keywords[1])
+            i += 1
+
     idx.compileKeywords()
     for i in range(i,len(data),3):
         entry = processSXDEntry(data[i:i+3])

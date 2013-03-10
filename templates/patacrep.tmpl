@@ -42,7 +42,8 @@
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
 %%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#D1E4AE"},
-%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"}
+%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"},
+%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
@@ -83,6 +84,8 @@
 \renewcommand{\snumbgcolor}{SongNumberBgColor}
 \renewcommand{\notebgcolor}{NoteBgColor}
 \renewcommand{\idxbgcolor}{IndexBgColor}
+
+\gettitleprefixwords
 
 \pagestyle{empty}
 

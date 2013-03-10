@@ -1,0 +1,75 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Cosmos}
+  [by={Thomas Fersen},cov={le-pavillon-des-fous},album={Le pavillon des fous}]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{C#m}{4:X02210}
+  \gtab{A}{X02220}
+  \gtab{F#m}{2:022000}
+  \gtab{B7}{2:X02020}
+  \gtab{G#m}{4:022000}
+
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[E C{\shrp}m A F{\shrp}m B7]}
+  \end{verse*}
+
+  \begin{verse}
+    Je \[E]jouais avec un scarabée
+    Vê\[C#m]tu comme un bourgeois cossu
+    Man\[A]quait un bras à ma poupée
+    Quel\[F#m]qu'un avait mar\[B7]ché dessus
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      Je \[E]berçais mon petit mannequin
+      J'y \[C#m]chantais dors mon p'tit quinquin
+      Le \[A]scarabée va faire dodo
+      Pen\[F#m]dant qu'maman fa\[B7]it du gâteau
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{ \nolyrics \[G{\shrp}m C{\shrp}m G{\shrp}m C{\shrp}m G{\shrp}m F{\shrp}m B7]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Mais \[E]c'est moi qui ne dormais plus
+      J'le \[C#m]voyais sortir de l'armoire
+      J'me \[A]grattais le cuir chevelu
+      J'all\[F#m]ais l'chercher d\[B7]ans son tiroir
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      J'lui \[E]chantais Colas mon p'tit frère
+      Ne \[C#m]fais pas enrager ta mère
+      Il \[A]est l'heure d'aller faire dodo
+      Et \[F#m]pis j'ai tiré la cha\[B7]sse d'eau
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{ \nolyrics \[G{\shrp}m C{\shrp}m G{\shrp}m C{\shrp}m G{\shrp}m F{\shrp}m B7]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Et \[E]pourtant mon petit dormeur
+      Sembl\[C#m]ait réapparaître ailleurs
+      Quand \[A]on le croyait dans la fosse
+      Ou que\[F#m]lque part d\[B7]ans le cosmos
+      Ou q\[B7]uelque part dans le cosmos
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{ \nolyrics \[G{\shrp}m C{\shrp}m G{\shrp}m C{\shrp}m G{\shrp}m F{\shrp}m B7]}
+  \end{verse*}
+
+\endsong

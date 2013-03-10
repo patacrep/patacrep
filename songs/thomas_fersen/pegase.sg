@@ -19,6 +19,10 @@
   \utab{D}{2220}
   \utab{B}{2:2100}
 
+  \begin{verse*}
+    \musicnote{\Intro :\nolyrics{ \[ C/Am Em/D]\rep{2}}}
+  \end{verse*}
+
   \begin{verse}
     Je vole\[Em]tais dans les ténèbres à l'allure d'un convoi funèbre
     Je goû\[G]tais l'air de la nuit, je ramais sans faire de bruit
@@ -33,6 +37,11 @@
       Les pa\[Em]pillons insomniaques y trouvent \[Bm]un aphrodi\[C]siaque
       La mort \[Am]est au rendez-\[Em]vous, au mieux \[D]tu deviendras \[B]fou{\fg}
     \end{verse}
+
+    \begin{verse*}
+      \musicnote{\nolyrics{ \[Em Em G G ] }}
+      \musicnote{\nolyrics{ \[Em Bm C Am Em D Bm] }}
+    \end{verse*}
 
     \begin{verse}
       {\og}Ne va \[Em]pas te consumer pour une de ces allumées{\fg}
@@ -55,5 +64,11 @@
       Jusqu'au \[Am]jour de ma nais\[Em]sance lorsque \[D]{l'ampoule} a gri\[B]llé
     \end{verse}
   \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{ \[Em Em G G ] }}
+    \musicnote{\nolyrics{ \[Em Bm C Am Em D Bm] }}
+    \musicnote{\nolyrics{ \[C/Am Em/D] \Adlib }}
+  \end{verse*}
 
 \endsong

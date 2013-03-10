@@ -4,13 +4,14 @@
 
 import getopt, sys
 import os.path
-import glob
 import re
 import json
 import locale
 import shutil
 import locale
 import platform
+
+from utils.utils import recursiveFind
 
 reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')
 reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
@@ -41,7 +42,7 @@ def makeCoverCache(library):
         os.makedirs(cachePath)
 
     # copy pictures file into the cache directory
-    covers = glob.glob(library + 'songs/*/*.jpg')
+    covers = recursiveFind(os.path.join(library, 'songs'), '*.jpg')
     for cover in covers:
         coverPath = os.path.join(cachePath, os.path.basename(cover))
         shutil.copy(cover, coverPath)
@@ -148,7 +149,7 @@ def makeTexFile(sb, library, output):
             out.write(formatDefinition(name, toValue(parameters[name],value)))
     # output songslist
     if songs == "all":
-        songs = map(lambda x: x[len(library) + 6:], glob.glob(library + 'songs/*/*.sg'))
+        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
 
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist(library, songs)))
@@ -184,7 +185,7 @@ def makeDepend(sb, library, output):
     # check for deps (in sb data)
     deps = [];
     if sb["songs"] == "all":
-        deps += glob.glob(library + 'songs/*/*.sg')
+        deps += recursiveFind(os.path.join(library, 'songs'), '*.sg')
     else:
         deps += map(lambda x: library + "songs/" + x, sb["songs"])
 

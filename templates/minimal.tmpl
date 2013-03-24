@@ -29,7 +29,8 @@
 %%:  {"name":"lang", "description":"Language", "default":"english"},
 %%:  {"name":"instruments", "description":"Instruments", "type":"flag", "values":["guitar","ukulele"], "join":",", "mandatory":true, "default":["guitar"]},
 %%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["pictures"]},
-%%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"}
+%%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
+%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
@@ -49,8 +50,23 @@
   \fi%
 }
 
+\gettitleprefixwords
+
 \nosongnumbers
 \pagestyle{empty}
+
+%
+% Customization of the page appearance
+%
+\RequirePackage[
+  a4paper % paper size
+  ,includeheadfoot % include header and footer into text size
+  ,hmarginratio=1:1 % ratio between inner and outer margin (default)
+  ,outer=1.8cm % outer margin (right)
+  ,vmarginratio=1:1 % ratio between top and bottom margin
+  ,bmargin=1.3cm % bottom margin
+% ,bindingoffset=1.7cm % space reserved to bound pages together
+  ]{geometry}
 
 \begin{document}
 

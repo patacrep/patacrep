@@ -18,7 +18,7 @@ import sortindex
 import locale
 
 # Pattern set to ignore latex command in title prefix
-keywordPattern = re.compile(r"^%(\w+)\s?(\w*)")
+keywordPattern = re.compile(r"^%(\w+)\s?(.*)$")
 firstLetterPattern = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)")
 
 class index:
@@ -37,9 +37,17 @@ class index:
         self.keywords[key].append(word)
 
     def compileKeywords(self):
-        pass
+        self.prefix_patterns = []
+        if 'prefix' in self.keywords:
+            for prefix in self.keywords['prefix']:
+                self.prefix_patterns.append(re.compile(r"^(%s)\b\s*(.*)$" % prefix))
 
     def add(self, key, number, link):
+        for pattern in self.prefix_patterns:
+            match = pattern.match(key)
+            if match:
+                key = "%s (%s)" % (match.group(2), match.group(1))
+                break # Only one match per key
         (first, key) = self.filter(key)
         if not self.data.has_key(first):
             self.data[first] = dict()
@@ -85,10 +93,11 @@ def processSXD(filename):
     type = data[0]
     i = 1
     idx = index()
-    while data[i].startswith('%'):
-        keywords = keywordPattern.match(data[i]).groups()
-        idx.keyword(keywords[0],keywords[1])
-        i += 1
+    if len(data) > 1:
+        while data[i].startswith('%'):
+            keywords = keywordPattern.match(data[i]).groups()
+            idx.keyword(keywords[0],keywords[1])
+            i += 1
     idx.compileKeywords()
     for i in range(i,len(data),3):
         entry = processSXDEntry(data[i:i+3])

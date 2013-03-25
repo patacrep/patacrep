@@ -83,9 +83,10 @@ def unprefixed(title, prefixes):
 class SongsList:
     """Manipulation et traitement de liste de chansons"""
 
-    def __init__(self, library, prefixes):
+    def __init__(self, library, prefixes, language):
         self._library = library
         self._prefixes = prefixes
+        self._language = language
 
         # Liste triée des chansons
         self.songs = []
@@ -124,6 +125,7 @@ class SongsList:
         """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.
         """
         result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in self.songs]
+        result.append('\\selectlanguage{%s}' % self._language)
         return '\n'.join(result)
 
     def languages(self):
@@ -195,6 +197,8 @@ def makeTexFile(sb, library, output):
         for prefix in sb["titleprefixwords"]:
             titleprefixwords += "\\titleprefixword{%s}\n" % prefix
         sb["titleprefixwords"] = titleprefixwords
+    if "lang" not in sb:
+        sb["lang"] = "french"
     if "sort" in sb:
         sort = sb["sort"]
         del sb["sort"]
@@ -208,7 +212,7 @@ def makeTexFile(sb, library, output):
     # compute songslist
     if songs == "all":
         songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
-    songslist = SongsList(library, prefixes)
+    songslist = SongsList(library, prefixes, sb["lang"])
     songslist.append_list(songs)
 
     sb["languages"] = ",".join(songslist.languages())

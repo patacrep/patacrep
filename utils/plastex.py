@@ -1,8 +1,30 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import plasTeX
 from plasTeX.TeX import TeX
+import codecs
+import copy
+
+from utils import songs
+
+class SongParser:
+    """Classe singleton, pour ne charger qu'une fois les modules LaTeX"""
+    _tex = None
+
+    @classmethod
+    def _create_TeX(cls):
+        cls._tex = TeX()
+        cls._tex.disableLogging()
+        cls._tex.ownerDocument.context.loadBaseMacros()
+        cls._tex.ownerDocument.context.loadPackage(cls._tex, "babel")
+
+    @classmethod
+    def parse(cls, filename):
+        if not cls._tex:
+            cls._create_TeX()
+        tex = copy.copy(cls._tex)
+        tex.input(codecs.open(filename, 'r+', 'utf-8', 'replace'))
+        return tex.parse()
 
 def parsetex(filename):
     """Analyse syntaxique d'un fichier .sg
@@ -12,13 +34,8 @@ def parsetex(filename):
     - languages: l'ensemble des langages utilisés (recherche des
       \selectlanguages{}).
     """
-    # Chargement du fichier .sg (.tex), et des modules nécessaires
-    tex = TeX(file = filename)
-    tex.disableLogging()
-    tex.ownerDocument.context.loadPackage(tex, "babel")
-
     # Analyse syntaxique
-    doc= tex.parse()
+    doc = SongParser.parse(filename)
 
     # Extraction des données
     data = {

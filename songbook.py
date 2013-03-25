@@ -12,17 +12,20 @@ import locale
 import platform
 
 from utils.utils import recursiveFind
+from utils.plastex import parsetex
 
 reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')
 reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
 reAlbum  = re.compile('(?<=album=)(.(?<![,\\]\\}]))+')
 
 class Song:
-    def __init__(self, title, artist, album, path):
+    def __init__(self, title, artist, album, path, languages):
         self.title  = title
         self.artist = artist
         self.album  = album
         self.path   = path
+        self.languages = languages
+
     def __repr__(self):
         return repr((self.title, self.artist, self.album, self.path))
 
@@ -71,7 +74,7 @@ class SongsList:
 
     def append(self, filename):
         """Ajout d'une chanson à la liste
-        
+
         Effets de bord : analyse syntaxique plus ou moins sommaire du fichier
         pour en extraire et traiter certaines information (titre, langue,
         album, etc.).
@@ -86,7 +89,11 @@ class SongsList:
                 album = match.group(0)
             else:
                 album = ''
-            self.songs.append(Song(title, artist, album, path))
+
+            # Exécution de PlasTeX
+            data = parsetex(path)
+
+            self.songs.append(Song(title, artist, album, path, **data))
 
     def append_list(self, filelist):
         """Ajoute une liste de chansons à la liste
@@ -112,6 +119,10 @@ class SongsList:
         self.sort()
         result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in self.songs ]
         return '\n'.join(result)
+
+    def languages(self):
+        """Renvoie la liste des langues utilisées par les chansons"""
+        return set().union(*[set(song.languages) for song in self.songs])
 
 def parseTemplate(template):
     embeddedJsonPattern = re.compile(r"^%%:")
@@ -187,6 +198,8 @@ def makeTexFile(sb, library, output):
         songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
     songslist = SongsList(library, prefixes)
     songslist.append_list(songs)
+
+    sb["languages"] = ",".join(songslist.languages())
 
     # output relevant fields
     out = open(output, 'w')

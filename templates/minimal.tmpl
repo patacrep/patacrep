@@ -30,7 +30,8 @@
 %%:  {"name":"instruments", "description":"Instruments", "type":"flag", "values":["guitar","ukulele"], "join":",", "mandatory":true, "default":["guitar"]},
 %%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["pictures"]},
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
-%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"}
+%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"},
+%%:  {"name":"languages", "description":"List of languages used by songs", "default":""}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
@@ -39,7 +40,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[italian,portuguese,spanish,english,french]{babel}
+\PassOptionsToPackage{\getlanguages}{babel}
+\PassOptionsToPackage{\getlang}{babel}
+\usepackage{babel}
 
 \lang{\getlang}
 \graphicspath{ {img/}, {\getLibraryImgDirectory}, {\getLibraryLilypondDirectory},  {\getCacheDirectory} }

@@ -43,7 +43,8 @@
 %%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"},
-%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"}
+%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"},
+%%:  {"name":"languages", "description":"List of languages used by songs", "default":""}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
@@ -52,7 +53,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[italian,portuguese,spanish,english,french]{babel}
+
+\PassOptionsToPackage{\getlanguages}{babel}
+\PassOptionsToPackage{\getlang}{babel}
+\usepackage{babel}
 
 \title{\gettitle}
 \author{\getauthor}

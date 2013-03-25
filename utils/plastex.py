@@ -33,7 +33,9 @@ def parsetex(filename):
     Renvoie un dictionnaire contenant les métadonnées lues dans le fichier. Les
     clefs sont :
     - languages: l'ensemble des langages utilisés (recherche des
-      \selectlanguages{}).
+      \selectlanguages{}) ;
+    - titles: la liste des titres ;
+    - args: le dictionnaire des paramètres passés à \\beginsong.
     """
     # Analyse syntaxique
     doc = SongParser.parse(filename)
@@ -47,5 +49,6 @@ def parsetex(filename):
             data["languages"].add(node.attributes['lang'])
         if node.nodeName == "beginsong":
             data["titles"] = node.attributes["titles"]
+            data["args"] = node.attributes["args"]
 
     return data

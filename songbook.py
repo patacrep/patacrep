@@ -14,19 +14,15 @@ import platform
 from utils import recursiveFind
 from utils.plastex import parsetex
 
-reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
-reAlbum  = re.compile('(?<=album=)(.(?<![,\\]\\}]))+')
-
 class Song:
-    def __init__(self, titles, artist, album, path, languages):
+    def __init__(self, path, languages, titles, args):
         self.titles  = titles
-        self.artist = artist
-        self.album  = album
+        self.args   = args
         self.path   = path
         self.languages = languages
 
     def __repr__(self):
-        return repr((self.titles, self.artist, self.album, self.path))
+        return repr((self.titles, self.args, self.path))
 
 if platform.system() == "Linux":
 	from xdg.BaseDirectory import *
@@ -79,19 +75,10 @@ class SongsList:
         album, etc.).
         """
         path = os.path.join(self._library, 'songs', filename)
-        with open(path, 'r+') as f:
-            data   = f.read()
-            artist = reArtist.search(data.replace("{","")).group(0)
-            match  = reAlbum.search(data.replace("{",""))
-            if match:
-                album = match.group(0)
-            else:
-                album = ''
+        # Exécution de PlasTeX
+        data = parsetex(path)
 
-            # Exécution de PlasTeX
-            data = parsetex(path)
-
-            self.songs.append(Song(artist = artist, album = album, path = path, **data))
+        self.songs.append(Song(path, data['languages'], data['titles'], data['args']))
 
     def append_list(self, filelist):
         """Ajoute une liste de chansons à la liste
@@ -108,8 +95,8 @@ class SongsList:
         configurer l'ordre de ce tri.
         """
         self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(unprefixed(x.titles[0], self._prefixes)))
-        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.album))
-        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.artist))
+        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.args.get("album", "")))
+        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.args.get("by", "")))
 
     def latex(self):
         """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.

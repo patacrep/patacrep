@@ -59,11 +59,24 @@ def unprefixed(title, prefixes):
             return match.group(2)
     return title
 
+class SongsList:
+    """Manipulation et traitement de liste de chansons"""
 
-def songslist(library, songs, prefixes):
-    song_objects = []
-    for s in songs:
-        path = library + 'songs/' + s
+    #: Liste des chansons
+    songs = []
+
+    def __init__(self, library, prefixes):
+        self._library = library
+        self._prefixes = prefixes
+
+    def append(self, filename):
+        """Ajout d'une chanson à la liste
+        
+        Effets de bord : analyse syntaxique plus ou moins sommaire du fichier
+        pour en extraire et traiter certaines information (titre, langue,
+        album, etc.).
+        """
+        path = os.path.join(self._library, 'songs', filename)
         with open(path, 'r+') as f:
             data   = f.read()
             title  = reTitle.search(data).group(0)
@@ -73,14 +86,32 @@ def songslist(library, songs, prefixes):
                 album = match.group(0)
             else:
                 album = ''
-            song_objects.append(Song(title, artist, album, path))
+            self.songs.append(Song(title, artist, album, path))
 
-    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(unprefixed(x.title, prefixes)))
-    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.album))
-    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.artist))
+    def append_list(self, filelist):
+        """Ajoute une liste de chansons à la liste
 
-    result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in song_objects ]
-    return '\n'.join(result)
+        L'argument est une liste de chaînes, représentant des noms de fichiers.
+        """
+        for filename in filelist:
+            self.append(filename)
+
+    def sort(self):
+        """Trie la liste des chansons selon l'ordre artiste/album/titre.
+
+        TODO : Un jour, il sera peut-être possible de laisser l'utilisateur
+        configurer l'ordre de ce tri.
+        """
+        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(unprefixed(x.title, self._prefixes)))
+        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.album))
+        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.artist))
+
+    def latex(self):
+        """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.
+        """
+        self.sort()
+        result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in self.songs ]
+        return '\n'.join(result)
 
 def parseTemplate(template):
     embeddedJsonPattern = re.compile(r"^%%:")
@@ -151,6 +182,12 @@ def makeTexFile(sb, library, output):
 
     parameters = parseTemplate("templates/"+template)
 
+    # compute songslist
+    if songs == "all":
+        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
+    songslist = SongsList(library, prefixes)
+    songslist.append_list(songs)
+
     # output relevant fields
     out = open(output, 'w')
     out.write('%% This file has been automatically generated, do not edit!\n')
@@ -165,12 +202,9 @@ def makeTexFile(sb, library, output):
     for name, value in sb.iteritems():
         if name in parameters:
             out.write(formatDefinition(name, toValue(parameters[name],value)))
-    # output songslist
-    if songs == "all":
-        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
 
     if len(songs) > 0:
-        out.write(formatDefinition('songslist', songslist(library, songs, prefixes)))
+        out.write(formatDefinition('songslist', songslist.latex()))
     out.write('\\makeatother\n')
 
     # output template

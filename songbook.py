@@ -4,13 +4,14 @@
 
 import getopt, sys
 import os.path
-import glob
 import re
 import json
 import locale
 import shutil
 import locale
 import platform
+
+from utils.utils import recursiveFind
 
 reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')
 reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
@@ -41,7 +42,7 @@ def makeCoverCache(library):
         os.makedirs(cachePath)
 
     # copy pictures file into the cache directory
-    covers = glob.glob(library + 'songs/*/*.jpg')
+    covers = recursiveFind(os.path.join(library, 'songs'), '*.jpg')
     for cover in covers:
         coverPath = os.path.join(cachePath, os.path.basename(cover))
         shutil.copy(cover, coverPath)
@@ -49,7 +50,17 @@ def makeCoverCache(library):
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
 
-def songslist(library, songs):
+def unprefixed(title, prefixes):
+    """Remove the first prefix of the list in the beginning of title (if any).
+    """
+    for prefix in prefixes:
+        match = re.compile(r"^(%s)\b\s*(.*)$" % prefix).match(title)
+        if match:
+            return match.group(2)
+    return title
+
+
+def songslist(library, songs, prefixes):
     song_objects = []
     for s in songs:
         path = library + 'songs/' + s
@@ -64,7 +75,7 @@ def songslist(library, songs):
                 album = ''
             song_objects.append(Song(title, artist, album, path))
 
-    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.title))
+    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(unprefixed(x.title, prefixes)))
     song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.album))
     song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.artist))
 
@@ -121,6 +132,8 @@ def makeTexFile(sb, library, output):
     # default value
     template = "patacrep.tmpl"
     songs = []
+    titleprefixwords = ""
+    prefixes = []
 
     # parse the songbook data
     if "template" in sb:
@@ -129,6 +142,12 @@ def makeTexFile(sb, library, output):
     if "songs" in sb:
         songs = sb["songs"]
         del sb["songs"]
+    if "titleprefixwords" in sb:
+        prefixes = sb["titleprefixwords"]
+        for prefix in sb["titleprefixwords"]:
+            titleprefixwords += "\\titleprefixword{%s}\n" % prefix
+        sb["titleprefixwords"] = titleprefixwords
+
 
     parameters = parseTemplate("templates/"+template)
 
@@ -148,10 +167,10 @@ def makeTexFile(sb, library, output):
             out.write(formatDefinition(name, toValue(parameters[name],value)))
     # output songslist
     if songs == "all":
-        songs = map(lambda x: x[len(library) + 6:], glob.glob(library + 'songs/*/*.sg'))
+        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
 
     if len(songs) > 0:
-        out.write(formatDefinition('songslist', songslist(library, songs)))
+        out.write(formatDefinition('songslist', songslist(library, songs, prefixes)))
     out.write('\\makeatother\n')
 
     # output template
@@ -184,7 +203,7 @@ def makeDepend(sb, library, output):
     # check for deps (in sb data)
     deps = [];
     if sb["songs"] == "all":
-        deps += glob.glob(library + 'songs/*/*.sg')
+        deps += recursiveFind(os.path.join(library, 'songs'), '*.sg')
     else:
         deps += map(lambda x: library + "songs/" + x, sb["songs"])
 

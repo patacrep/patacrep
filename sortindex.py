@@ -28,6 +28,7 @@ replacePattern = {
      '~n' : 'ñ',
      "c C" : 'Ç',
      "c c" : 'ç',
+     "textquoteright" : "'",
 }
 
 def sortkey(value):

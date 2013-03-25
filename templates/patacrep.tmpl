@@ -42,7 +42,8 @@
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
 %%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#D1E4AE"},
-%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"}
+%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"},
+%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
@@ -84,7 +85,22 @@
 \renewcommand{\notebgcolor}{NoteBgColor}
 \renewcommand{\idxbgcolor}{IndexBgColor}
 
+\gettitleprefixwords
+
 \pagestyle{empty}
+
+%
+% Customization of the page appearance
+%
+\RequirePackage[
+  a4paper % paper size
+  ,includeheadfoot % include header and footer into text size
+  ,hmarginratio=1:1 % ratio between inner and outer margin (default)
+  ,outer=1.8cm % outer margin (right)
+  ,vmarginratio=1:1 % ratio between top and bottom margin
+  ,bmargin=1.3cm % bottom margin
+% ,bindingoffset=1.7cm % space reserved to bound pages together
+  ]{geometry}
 
 \begin{document}
 

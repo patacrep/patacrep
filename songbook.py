@@ -11,7 +11,7 @@ import shutil
 import locale
 import platform
 
-from utils.utils import recursiveFind
+from utils import recursiveFind
 from utils.plastex import parsetex
 
 reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')

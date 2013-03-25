@@ -15,6 +15,9 @@ from utils import recursiveFind
 from utils.plastex import parsetex
 
 class Song:
+    #: Ordre de tri
+    sort = []
+
     def __init__(self, path, languages, titles, args):
         self.titles  = titles
         self.args   = args
@@ -23,6 +26,26 @@ class Song:
 
     def __repr__(self):
         return repr((self.titles, self.args, self.path))
+
+    def __cmp__(self, other):
+        if not isinstance(other, Song):
+            return NotImplemented
+        for key in self.sort:
+            if key == "@title":
+                self_key = [locale.strxfrm(title) for title in self.titles]
+                other_key = [locale.strxfrm(title) for title in other.titles]
+            elif key == "@path":
+                self.key = locale.strxfrm(self.path)
+                other_key = locale.strxfrm(other.path)
+            else:
+                self_key = locale.strxfrm(self.args.get(key, ""))
+                other_key = locale.strxfrm(other.args.get(key, ""))
+
+            if self_key < other_key:
+                return -1
+            elif self_key > other_key:
+                return 1
+        return 0
 
 if platform.system() == "Linux":
 	from xdg.BaseDirectory import *
@@ -60,12 +83,13 @@ def unprefixed(title, prefixes):
 class SongsList:
     """Manipulation et traitement de liste de chansons"""
 
-    #: Liste des chansons
-    songs = []
-
     def __init__(self, library, prefixes):
         self._library = library
         self._prefixes = prefixes
+
+        # Liste triée des chansons
+        self.songs = []
+
 
     def append(self, filename):
         """Ajout d'une chanson à la liste
@@ -78,7 +102,15 @@ class SongsList:
         # Exécution de PlasTeX
         data = parsetex(path)
 
-        self.songs.append(Song(path, data['languages'], data['titles'], data['args']))
+        song = Song(path, data['languages'], data['titles'], data['args'])
+        low, high = 0, len(self.songs)
+        while low != high:
+            middle = (low + high) / 2
+            if song < self.songs[middle]:
+                high = middle
+            else:
+                low = middle + 1
+        self.songs.insert(low, song)
 
     def append_list(self, filelist):
         """Ajoute une liste de chansons à la liste
@@ -88,21 +120,10 @@ class SongsList:
         for filename in filelist:
             self.append(filename)
 
-    def sort(self):
-        """Trie la liste des chansons selon l'ordre artiste/album/titre.
-
-        TODO : Un jour, il sera peut-être possible de laisser l'utilisateur
-        configurer l'ordre de ce tri.
-        """
-        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(unprefixed(x.titles[0], self._prefixes)))
-        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.args.get("album", "")))
-        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.args.get("by", "")))
-
     def latex(self):
         """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.
         """
-        self.sort()
-        result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in self.songs ]
+        result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in self.songs]
         return '\n'.join(result)
 
     def languages(self):
@@ -174,6 +195,12 @@ def makeTexFile(sb, library, output):
         for prefix in sb["titleprefixwords"]:
             titleprefixwords += "\\titleprefixword{%s}\n" % prefix
         sb["titleprefixwords"] = titleprefixwords
+    if "sort" in sb:
+        sort = sb["sort"]
+        del sb["sort"]
+    else:
+        sort = [u"by", u"album", u"@title"]
+    Song.sort = sort
 
 
     parameters = parseTemplate("templates/"+template)

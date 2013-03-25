@@ -4,25 +4,26 @@
 from plasTeX.TeX import TeX
 import codecs
 import copy
-
-from utils import songs
+import os
+import sys
 
 class SongParser:
-    """Classe singleton, pour ne charger qu'une fois les modules LaTeX"""
-    _tex = None
+    """Analyseur syntaxique de fichiers .sg"""
 
-    @classmethod
-    def _create_TeX(cls):
-        cls._tex = TeX()
-        cls._tex.disableLogging()
-        cls._tex.ownerDocument.context.loadBaseMacros()
-        cls._tex.ownerDocument.context.loadPackage(cls._tex, "babel")
+    @staticmethod
+    def _create_TeX():
+        tex = TeX()
+        tex.disableLogging()
+        tex.ownerDocument.context.loadBaseMacros()
+        tex.ownerDocument.context.loadPackage(tex, "babel")
+        sys.path.append(os.path.dirname(__file__))
+        tex.ownerDocument.context.loadPackage(tex, "songs")
+        sys.path.pop()
+        return tex
 
     @classmethod
     def parse(cls, filename):
-        if not cls._tex:
-            cls._create_TeX()
-        tex = copy.copy(cls._tex)
+        tex = cls._create_TeX()
         tex.input(codecs.open(filename, 'r+', 'utf-8', 'replace'))
         return tex.parse()
 
@@ -43,6 +44,8 @@ def parsetex(filename):
             }
     for node in doc.allChildNodes:
         if node.nodeName == "selectlanguage":
-            data["languages"].add(node.argSource)
+            data["languages"].add(node.attributes['lang'])
+        if node.nodeName == "beginsong":
+            data["titles"] = node.attributes["titles"]
 
     return data

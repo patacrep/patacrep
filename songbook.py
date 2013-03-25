@@ -14,20 +14,19 @@ import platform
 from utils import recursiveFind
 from utils.plastex import parsetex
 
-reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')
 reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
 reAlbum  = re.compile('(?<=album=)(.(?<![,\\]\\}]))+')
 
 class Song:
-    def __init__(self, title, artist, album, path, languages):
-        self.title  = title
+    def __init__(self, titles, artist, album, path, languages):
+        self.titles  = titles
         self.artist = artist
         self.album  = album
         self.path   = path
         self.languages = languages
 
     def __repr__(self):
-        return repr((self.title, self.artist, self.album, self.path))
+        return repr((self.titles, self.artist, self.album, self.path))
 
 if platform.system() == "Linux":
 	from xdg.BaseDirectory import *
@@ -82,7 +81,6 @@ class SongsList:
         path = os.path.join(self._library, 'songs', filename)
         with open(path, 'r+') as f:
             data   = f.read()
-            title  = reTitle.search(data).group(0)
             artist = reArtist.search(data.replace("{","")).group(0)
             match  = reAlbum.search(data.replace("{",""))
             if match:
@@ -93,7 +91,7 @@ class SongsList:
             # Exécution de PlasTeX
             data = parsetex(path)
 
-            self.songs.append(Song(title, artist, album, path, **data))
+            self.songs.append(Song(artist = artist, album = album, path = path, **data))
 
     def append_list(self, filelist):
         """Ajoute une liste de chansons à la liste
@@ -109,7 +107,7 @@ class SongsList:
         TODO : Un jour, il sera peut-être possible de laisser l'utilisateur
         configurer l'ordre de ce tri.
         """
-        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(unprefixed(x.title, self._prefixes)))
+        self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(unprefixed(x.titles[0], self._prefixes)))
         self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.album))
         self.songs = sorted(self.songs, key=lambda x: locale.strxfrm(x.artist))
 

@@ -15,8 +15,8 @@ class SongParser:
         tex = TeX()
         tex.disableLogging()
         tex.ownerDocument.context.loadBaseMacros()
-        tex.ownerDocument.context.loadPackage(tex, "babel")
         sys.path.append(os.path.dirname(__file__))
+        tex.ownerDocument.context.loadPackage(tex, "patchedbabel")
         tex.ownerDocument.context.loadPackage(tex, "songs")
         sys.path.pop()
         return tex

@@ -73,6 +73,7 @@
 \RequirePackage{xstring}
 \RequirePackage{ifthen}
 \RequirePackage{framed}
+\RequirePackage{currfile}
 
 \iflyric%
   \tabsfalse%
@@ -202,7 +203,7 @@
 \setlength{\coverspace}{0.1cm}
 \newcommand{\songcover}{}
 \newcommand{\songalbum}{}
-\newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
+\newsongkey{cov}{\let\songcover\@empty}{\def\songcover{\currfiledir#1}}
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{url}{\let\songurl\@empty}{\def\songurl{#1}}
 \newsongkey{original}{\let\songoriginal\@empty}{\def\songoriginal{#1}}

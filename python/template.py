@@ -4,22 +4,33 @@
 
 import getopt, sys
 import os.path
+import re
+import json
+import locale
+import shutil
 import locale
 import platform
-import shutil
-import json
-import re
-from subprocess import call
 
-from tools import recursiveFind
-from song import *
-from index import *
+from utils.utils import recursiveFind
+
+reTitle  = re.compile('(?<=beginsong\\{)(.(?<!\\}]))+')
+reArtist = re.compile('(?<=by=)(.(?<![,\\]\\}]))+')
+reAlbum  = re.compile('(?<=album=)(.(?<![,\\]\\}]))+')
+
+class Song:
+    def __init__(self, title, artist, album, path):
+        self.title  = title
+        self.artist = artist
+        self.album  = album
+        self.path   = path
+    def __repr__(self):
+        return repr((self.title, self.artist, self.album, self.path))
 
 if platform.system() == "Linux":
-    from xdg.BaseDirectory import *
-    cachePath = os.path.join(xdg_cache_home, 'songbook')
+	from xdg.BaseDirectory import *
+	cachePath = os.path.join(xdg_cache_home, 'songbook')
 else:
-    cachePath = os.path.join('cache', 'songbook')
+	cachePath = os.path.join('cache', 'songbook')
 
 def makeCoverCache(library):
     '''
@@ -226,15 +237,17 @@ def main():
     locale.setlocale(locale.LC_ALL, '') # set script locale to match user's
     try:
         opts, args = getopt.getopt(sys.argv[1:], 
-                                   "hs:l:",
-                                   ["help","songbook=","library="])
+                                   "hs:o:l:d",
+                                   ["help","songbook=","output=","depend","library="])
     except getopt.GetoptError, err:
         # print help and exit
         print str(err)
         usage()
         sys.exit(2)
 
-    sbFile = None
+    songbook = None
+    depend = False
+    output = None
     library = './'
 
     for o, a in opts:
@@ -242,7 +255,11 @@ def main():
             usage()
             sys.exit()
         elif o in ("-s", "--songbook"):
-            sbFile = a
+            songbook = a
+        elif o in ("-d", "--depend"):
+            depend = True
+        elif o in ("-o", "--output"):
+            output = a
         elif o in ("-l", "--library"):
             if not a.endswith('/'):
                 a += '/'
@@ -250,34 +267,16 @@ def main():
         else:
             assert False, "unhandled option"
 
-    basename = os.path.basename(sbFile)[:-3]
-    texFile  = basename + ".tex"
-    pdfFile  = basename + ".pdf"
-    
-    
     makeCoverCache(library)
-    f = open(sbFile)
-    sb = json.load(f)
-    f.close()
+    if songbook and output:
+        f = open(songbook)
+        sb = json.load(f)
+        f.close()
 
-    # Make TeX file
-    makeTexFile(sb, library, texFile)
-
-    # First pdflatex pass
-    call(["pdflatex", texFile])
-
-    # Make index
-    sxdFiles = recursiveFind(".", basename + "*.sxd")
-    print sxdFiles
-    for sxdFile in sxdFiles:
-        print "processing " + sxdFile
-        idx = processSXD(sxdFile)
-        indexFile = open(sxdFile[:-3]+"sbx", "w")
-        indexFile.write(idx.entriesToStr())
-        indexFile.close()
-
-    # Second pdflatex pass
-    call(["pdflatex", texFile])
+        if depend:
+            makeDepend(sb, library, output)
+        else:
+            makeTexFile(sb, library, output)
 
 if __name__ == '__main__':
     main()

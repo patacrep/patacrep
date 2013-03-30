@@ -1,8 +1,9 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sweet amanite phalloïde queen}
-  [by={Hubert-Félix Thiéfaine},album={Meteo fur nada}]
+  [by={Hubert-Félix Thiéfaine},album={Meteo fur nada},cov={meteo-fur-nada}]
 
+  \cover
   \gtab{F#}{2:022000}
   \gtab{B}{2:X02220}
   \gtab{Eb}{6:X02220}
@@ -18,7 +19,7 @@
 
 
   \begin{chorus}
-    O swe\[Eb]et a\[B]manite phal\[F#]loïde que\[C#]en (*3)
+    O swe\[E&]et a\[B]manite phal\[F#]loïde que\[C#]en \rep{3}
   \end{chorus}
 
 

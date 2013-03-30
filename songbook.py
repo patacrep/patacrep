@@ -26,27 +26,6 @@ class Song:
     def __repr__(self):
         return repr((self.title, self.artist, self.album, self.path))
 
-if platform.system() == "Linux":
-	from xdg.BaseDirectory import *
-	cachePath = os.path.join(xdg_cache_home, 'songbook')
-else:
-	cachePath = os.path.join('cache', 'songbook')
-
-def makeCoverCache(library):
-    '''
-    Copy all pictures found in the libraries into a unique cache
-    folder.
-    '''
-    # create the cache directory if it does not exist
-    if not os.path.exists(cachePath):
-        os.makedirs(cachePath)
-
-    # copy pictures file into the cache directory
-    covers = recursiveFind(os.path.join(library, 'songs'), '*.jpg')
-    for cover in covers:
-        coverPath = os.path.join(cachePath, os.path.basename(cover))
-        shutil.copy(cover, coverPath)
-
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
 
@@ -177,9 +156,6 @@ def makeTexFile(sb, library, output):
     content = [ line for line in f if not commentPattern.match(line) ]
 
     for index, line in enumerate(content):
-        if re.compile("getCacheDirectory").search(line):
-            line = line.replace("\\getCacheDirectory", cachePath.replace("\\","/") + "/")
-            content[index] = line
         if re.compile("getLibraryImgDirectory").search(line):
             line = line.replace("\\getLibraryImgDirectory", library + "img/")
             content[index] = line
@@ -267,7 +243,6 @@ def main():
         else:
             assert False, "unhandled option"
 
-    makeCoverCache(library)
     if songbook and output:
         f = open(songbook)
         sb = json.load(f)

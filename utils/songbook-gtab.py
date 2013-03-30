@@ -6,6 +6,8 @@ import re
 from optparse import OptionParser
 from utils.utils import recursiveFind
 
+from utils.utils import recursiveFind
+
 # Pattern set to ignore latex command in title prefix
 gtabPattern = re.compile(r"\\gtab\{(.*)\}\{(.*)\}");
 
@@ -27,6 +29,7 @@ def main():
     positions = dict()
 
     songfiles = recursiveFind(os.path.join(library, 'songs'), '*.sg')
+    
     for file in songfiles:
         for line in open(file):
             result = gtabPattern.match(line)

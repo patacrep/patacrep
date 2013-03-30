@@ -62,7 +62,6 @@ clean:
 	       $(TARGETS:%=%.nav) $(TARGETS:%=%.snm)
 	@rm -f *.sbx *.sxd *.sxc
 	@rm -f *.pyc
-	@rm -rf covers/
 
 cleanall: clean
 	@rm -f $(PDF)
@@ -99,7 +98,6 @@ archive: cleanall
 	--exclude=$(BOOKS_DIR)/default.sb \
 	--exclude=perso/* --exclude=perso \
 	--exclude=build/* --exclude=build \
-	--exclude=covers/* --exclude=covers \
 	--exclude=data/* --exclude=data \
 	--exclude=*tar.gz \
 	--transform 's/songbook/songbook-$(DATE)/1' \

@@ -1,0 +1,68 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Maybe tomorrow}
+  [by={Terry Bush},cov={the-littlest-hobo},album={The littlest hobo}]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+  \gtab{B&}{1:X02220}
+  \gtab{Am7}{002010}
+  \gtab{Gm}{3:022000}
+
+  \begin{verse*}
+    \musicnote{\Intro: \nolyrics \[F]}
+  \end{verse*}
+
+  \begin{verse}
+    There's a \[Dm]voice, that keeps on calling \[C]me
+    Down the \[Dm]road, that's where I'll always \[C]be
+    Every \[F]stop I make, I make a new \[Dm]friend
+    Can't stay for \[B&]long, just turn a\[C]round and I'm gone a\[F]gain
+    Maybe tomo\[Dm]rrow, I'll \[B&]want to settle \[F]down \[Am7] \[Dm]
+    Until tomo\[Gm]rrow, I'll \[B&]just keep movin' \[F]on
+  \end{verse}
+
+  \begin{verse}
+    Down this road, that never seems to end
+    Where new adventure, lies just around the bend
+    So if you wanna join me for a while
+    Just grab your hat, come travel light, that's hobo style
+    Maybe tomorrow, I'll want to settle down
+    Until tomorrow, the whole world is my home
+  \end{verse}
+
+  \begin{chorus}
+    So if you \[F]wanna join me for a \[Dm]while
+    Just grab your \[B&]hat, come travel \[C]light, that's hobo \[F]style
+    Maybe tomo\[Dm]rrow, I'll \[B&]want to settle \[F]down \[Am7] \[Dm]
+    Until tomo\[Gm]rrow, I'll \[B&]just keep movin' \[F]on
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Dm C Dm C F Dm B{\flt} C F]}
+  \end{verse*}
+
+  \begin{bridge}
+    Maybe tomo\[Dm]rrow, I'll \[B&]want to settle \[F]down \[Am7] \[Dm]
+    Until tomo\[Gm]rrow, I'll \[B&]just keep movin' \[F]on
+  \end{bridge}
+
+  \begin{verse}
+    There's a world, that's waiting to unfold
+    A brand new tale, no one has ever told
+    We've journey'd far, far, but now it won't be long
+    We're almost there and we've paid our fare with the hobo song
+    Maybe tomorrow, I'll want to settle down
+    Until tomorrow, I'll just keep movin' on
+  \end{verse}
+
+  \begin{chorus}
+    So if you wanna join me for a while
+    Just grab your hat, come travel light, that's hobo style
+    Maybe tomorrow, I'll find what I call home
+    Until tomorrow, you know I'm free to roam
+  \end{chorus}
+
+\endsong

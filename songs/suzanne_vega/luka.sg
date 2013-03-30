@@ -1,0 +1,83 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Luka}
+  [by={Suzanne Vega},cov={tried-and-true},album={Tried and true}]
+
+  \cover
+  \capo{2}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+
+  \begin{verse*}
+    \musicnote{\Intro: \nolyrics \[G D C D] \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    \[G] My name is \[D]Luka
+    \[C] I live on the \[D]second floor
+    \[G] I live ups\[D]tairs from you
+    \[C] Yes I think you've \[D]seen me before
+  \end{verse}
+
+  \begin{chorus}
+    \[Em] If you hear \[D]something late at night
+    \[Em] Some kind of \[D]trouble, some kind of fight
+    \[C] Just don't \[D]ask me what it was \rep{3}
+  \end{chorus}
+
+  \begin{verse}
+    I think it's because I'm clumsy
+    I try not to talk too loud
+    Maybe it's because I'm crazy
+    I try not to act too proud
+  \end{verse}
+
+  \begin{chorus}
+    They only hit until you cry
+    After that you don't ask why
+    You just don't argue anymore \rep{3}
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[G D C D] \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    Yes I think I'm okay
+    I walked into the door again
+    Well, if you ask that's what I'll say
+    And it's not your business anyway
+  \end{verse}
+
+  \begin{chorus}
+    I guess I'd like to be alone
+    With nothing broken, nothing thrown
+    Just don't ask me how I am \rep{3}
+  \end{chorus}
+
+  \begin{verse}
+    My name is Luka
+    I live on the second floor
+    I live upstairs from you
+    Yes I think you've seen me before
+  \end{verse}
+
+  \begin{chorus}
+    If you hear something late at night
+    Some kind of trouble, some kind of fight
+    Just don't ask me what it was \rep{3}
+  \end{chorus}
+
+  \begin{chorus}
+    They only hit until you cry
+    After that you don't ask why
+    You just don't argue anymore \rep{3}
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\Outro: \nolyrics \[G D C D] \rep{2}}
+  \end{verse*}
+
+\endsong

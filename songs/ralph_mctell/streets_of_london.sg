@@ -4,6 +4,7 @@
   [by={Ralph McTell},cov={spiral_staircase},album={Spiral Staircase}]
 
   \cover
+  \capo{2}
   \gtab{C}{X32010}
   \gtab{G}{320003}
   \gtab{Am}{X02210}
@@ -14,38 +15,38 @@
 
   \begin{verse}
     \[C]Have you seen the \[G]old man, \[Am]in the closed-down \[Em]market
-    \[Em]Picking up the \[C]papers, with his \[D7]worn-out \[G7]shoes?
+    \[F]picking up the \[C]papers, with his \[D7]worn-out \[G7]shoes?
     \[C]In his eyes you \[G]see no pride, \[Am]and held loosely \[Em]by his side
-    \[F]Yesterday's \[C]papers, telling \[G7]yesterday's \[C]news
+    \[F]yesterday's \[C]papers, telling \[G7]yesterday's \[C]news
   \end{verse}
 
   \begin{chorus}
     \[C] So \[F]how can you \[Em]tell me, you're \[C]lo - ne - \[Am]ly
-    \[D7] And say for \[D7]you that the sun don't \[G]shine? \[G7]
+    \[D7] and say for \[D7]you that the sun don't \[G]shine? \[G7]
     \[C]Let me take you \[G]by the hand, and \[Am]lead you through the \[Em]streets of London
     \[F] I'll show you \[C]something, to \[G7]make you change your \[C]mind
   \end{chorus}
 
   \begin{repeatedchords}
     \begin{verse}
-      Have you seen the old gal, who walks the streets of London
-      Dirt in her hair, and her clothes in rags?
-      She's no time for talking, she just keeps right on walking
-      Carrying her home, in two carrier bags
+      \[C]Have you seen the \[G]old gal, \[Am]who walks the streets of \[Em]London
+      \[Em]dirt in her \[C]hair, and her \[D7]clothes in \[G7]rags?
+      \[C]She's no time for \[G]talking, she \[Am]just keeps right on \[Em]walking
+      \[F]Carrying her \[C]home, in \[G7]two carrier \[C]bags
     \end{verse}
 
     \begin{verse}
-      And in the all-night cafe, at a quarter past eleven
-      Some old man sitting there, all on his own
-      Looking at the world, over the rim of his tea-cup
-      Each day lasts an hour, then he wanders home alone
+      \[C]In the all-night \[G]cafe, at a \[Am]quarter past el\[Em]even
+      \[Em]same old \[C]man sitting \[D7]there, on his \[G7]own
+      \[C]Looking at the \[G]world, over the \[Am]rim of his \[Em]tea-cup
+      \[F]Each day lasts an \[C]hour, then he \[G7]wanders home a\[C]lone
     \end{verse}
 
     \begin{verse}
-      And have you seen the old man, outside the seaman's mission?
-      His memory's fading, with those medal ribbons that he wears
-      And in our winter city, the rain cries little pity
-      For one more forgotten hero, and a world that doesn't care
+      \[C]Have you seen the \[G]old man, \[Am]outside the seaman's \[Em]mission?
+      \[Em]His memory's \[C]fading, with those \[D7]medal ribbons that he \[G7]wears
+      \[C]And in our winter \[G]city, the rain \[Am]cries little \[Em]pity
+      \[F]For one more forgotten \[C]hero, and a \[G7]world that doesn't \[C]care
     \end{verse}
   \end{repeatedchords}
 

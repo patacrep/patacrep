@@ -1,0 +1,47 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{The reason}
+  [by={Hoobastank},cov={the-reason},album={The reason}]
+
+  \cover
+  \capo{2}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+
+  \begin{verse}
+    \[D]I'm not a perfect per\[Bm]son
+    There's many things I wish I didn't \[D]do
+    But I continue lear\[Bm]ning
+    I never meant to do those things to \[G]you
+    And so I have to say before I \[A]go
+    That I just want you to k\[D]now
+  \end{verse}
+
+  \begin{chorus}
+    I've found a reason for \[Bm]me
+    To change who I used to \[G]be
+    A reason to start over \[A]new
+    And the reason is \[D]you
+  \end{chorus}
+
+  \begin{verse}
+    I'm sorry that I hurt you
+    It's something I must live with everyday
+    And all the pain I put you through
+    I wish that I could take it all away
+    And be the one who catches all your tears
+    That's why I need you to hear
+  \end{verse}
+
+  \begin{verse}
+    I'm not a perfect person
+    There's many things I wish I didn't do
+    But I continue learning
+    I never meant to do those things to you
+    And so I have to say before I go
+    That I just want you to know
+  \end{verse}
+
+\endsong

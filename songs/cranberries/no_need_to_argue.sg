@@ -1,0 +1,42 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{No need to argue}
+  [by={The Cranberries},cov={no-need-to-argue},album={No need to argue}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320030}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+    \[C] There's no \[F]need to ar\[G]gue any\[C]more
+    I gave \[F]all I could but it \[G]left me so \[C]sore
+    And the thing that makes me \[G]mad
+    Is the \[C]one thing that I \[Am]had
+    I \[F]knew, I \[G]knew, I'd lose you \[C]
+    You'll always \[Am]{be special} to \[F]me, special to \[G]me, to \[C]me
+  \end{verse}
+
+  \begin{verse}
+    And I remember all the things we once shared
+    Watching TV movies on the living room armchair
+    But they say it will work out fine
+    Was it all a waste of time
+    'Cause I knew, I knew, I'd lose you
+    You'll always be special to me, special to me, to me
+  \end{verse}
+
+  \begin{verse}
+    \[Am] Will I forget in \[G]time? \echo{Ah-\[Am]aa-aa}
+    You said I was on your \[G]mind
+    \[Am]There's no need to argue\[F]
+    No need to ar\[G]gue any\[C]more \[Am]
+    There's no \[F]need to ar\[G]gue any\[C]more
+  \end{verse}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[Am F G C Am F G --- C]}
+  \end{verse*}
+
+\endsong

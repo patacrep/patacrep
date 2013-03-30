@@ -1,0 +1,80 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La dernière séance}
+  [by={Eddy Mitchell},cov={la-derniere-seance},album={La dernière séance}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{Em}{022000}
+  \gtab{F}{1:022100}
+  \gtab{A7}{X02020}
+  \gtab{Fm}{1:022000}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+  \gtab{B&7}{1:X02020}
+  \gtab{C7}{X32310}
+
+  \begin{verse}
+    \[C] La lumière revient déjà
+    \[Em] Et le film est terminé
+    \[F] Je réveille mon voisin
+    \[Em] Il dort comme un \[A7]nouveau-né
+    \[Fm] Je relève mon strapontin
+    \[Em] J'ai une envie \[Am]de bailler
+    \[Dm] C'était la dernière séquence
+    \[G] C'était la dernière séance
+    \[Dm] Et le rideau \[G]sur l'écran est \[C]tombé
+  \end{verse}
+
+  \begin{verse}
+    La photo sur le mot fin
+    Peut faire sourire ou pleurer
+    Mais je connais le destin
+    D'un cinéma de quartier
+    Il finira en garage
+    En building, supermarché
+    Il n'a plus aucune chance
+    C'était sa dernière séance
+    Et le rideau sur l'écran est tombé
+  \end{verse}
+
+  \begin{chorus}
+    Bye \[Fm]bye, les héros que j'ai\[B&7]mais
+    L'entracte est termi\[C7]née
+    Bye \[Fm]bye, rendez-vous à ja\[B&7]mais
+    Mes chocolats gla\[Em]cés, gla\[G]cés
+  \end{chorus}
+
+  \begin{verse}
+    J'allais rue des Solitaires
+    À l'école de mon quartier
+    À cinq heure j'étais sorti
+    Mon père venait me chercher
+    On voyait Gary Cooper
+    Qui défendait l'opprimé
+    C'était vraiment bien l'enfance
+    Mais c'est la dernière séquence
+    Et le rideau sur l'écran est tombé
+  \end{verse}
+
+  \begin{chorus}
+    Bye bye, les filles qui tremblaient
+    Pour les jeunes premiers
+    Bye bye, rendez-vous à jamais
+    Mes chocolats glacés, glacés
+  \end{chorus}
+
+  \begin{verse}
+    La lumière s'éteint déjà
+    La salle est vide à pleurer
+    Mon voisin détend ses bras
+    Il s'en va boire un café
+    Un vieux pleure dans un coin
+    Son cinéma est fermé
+    C'était la dernière séquence
+    C'était sa dernière séance
+    Et le rideau sur l'écran est tombé
+  \end{verse}
+
+\endsong

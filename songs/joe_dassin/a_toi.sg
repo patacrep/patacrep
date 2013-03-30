@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{À toi}
+  [by={Joe Dassin},cov={eternel},album={Éternel}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G7}{320001}
+  \gtab{C}{X32010}
+  \gtab{E7}{020100}
+  \gtab{E}{022100}
+
+  \begin{verse}
+    À \[Am]toi
+    À la façon que tu as d'\[Dm]être belle
+    À la façon que tu as d'\[G7]être à moi
+    À tes mots tendres un peu ar\[C]tificiels
+    Quelques \[E7]fois
+  \end{verse}
+
+  \begin{verse*}
+    À toi
+    À la petite fille que tu étais
+    À celle que tu es encore souvent
+    À ton passé, à tes secrets
+    À tes anciens princes charmants
+  \end{verse*}
+
+  \begin{chorus}
+    À la \[Am]vie, à l'amour
+    À nos nuits, à nos jours
+    À l'é\[E7]ternel retour de la \[Am]chance
+    À l'enfant qui viendra
+    Qui nous ressemblera
+    Qui s\[G7]era à la fois toi et \[E]moi \[E7]
+  \end{chorus}
+
+  \begin{verse}
+    À moi
+    À la folie dont tu es la raison
+    À mes colères sans savoir pourquoi
+    À mes silences et à mes trahisons
+    Quelques fois
+  \end{verse}
+
+  \begin{verse*}
+    À moi
+    Au temps que j'ai passé à te chercher
+    Aux qualités dont tu te moques bien
+    Aux défauts que je t'ai cachés
+    À mes idées de baladin
+  \end{verse*}
+
+  \begin{verse}
+    À nous
+    Aux souvenirs que nous allons nous faire
+    À l'avenir et au présent surtout
+    À la santé de cette vieille Terre
+    Qui s'en fout
+  \end{verse}
+
+  \begin{verse*}
+    À nous
+    À nos espoirs et à nos illusions
+    À notre prochain premier rendez-vous
+    À la santé de ces millions d'amoureux
+    Qui sont comme nous
+  \end{verse*}
+
+\endsong

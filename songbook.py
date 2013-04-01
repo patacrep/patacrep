@@ -10,6 +10,7 @@ import locale
 import shutil
 import locale
 import platform
+from unidecode import unidecode
 
 from utils import recursiveFind
 from utils.plastex import parsetex
@@ -17,9 +18,12 @@ from utils.plastex import parsetex
 class Song:
     #: Ordre de tri
     sort = []
+    #: Préfixes à ignorer pour le tri
+    prefixes = []
 
     def __init__(self, path, languages, titles, args):
         self.titles  = titles
+        self.normalized_titles = [locale.strxfrm(unprefixed(unidecode(unicode(title, "utf-8")), self.prefixes)) for title in titles]
         self.args   = args
         self.path   = path
         self.languages = languages
@@ -32,8 +36,8 @@ class Song:
             return NotImplemented
         for key in self.sort:
             if key == "@title":
-                self_key = [locale.strxfrm(title) for title in self.titles]
-                other_key = [locale.strxfrm(title) for title in other.titles]
+                self_key = self.normalized_titles
+                other_key = other.normalized_titles
             elif key == "@path":
                 self.key = locale.strxfrm(self.path)
                 other_key = locale.strxfrm(other.path)
@@ -83,9 +87,8 @@ def unprefixed(title, prefixes):
 class SongsList:
     """Manipulation et traitement de liste de chansons"""
 
-    def __init__(self, library, prefixes, language):
+    def __init__(self, library, language):
         self._library = library
-        self._prefixes = prefixes
         self._language = language
 
         # Liste triée des chansons
@@ -205,6 +208,7 @@ def makeTexFile(sb, library, output):
     else:
         sort = [u"by", u"album", u"@title"]
     Song.sort = sort
+    Song.prefixes = prefixes
 
 
     parameters = parseTemplate("templates/"+template)
@@ -212,7 +216,7 @@ def makeTexFile(sb, library, output):
     # compute songslist
     if songs == "all":
         songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
-    songslist = SongsList(library, prefixes, sb["lang"])
+    songslist = SongsList(library, sb["lang"])
     songslist.append_list(songs)
 
     sb["languages"] = ",".join(songslist.languages())

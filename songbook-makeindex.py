@@ -40,13 +40,13 @@ class index:
         self.prefix_patterns = []
         if 'prefix' in self.keywords:
             for prefix in self.keywords['prefix']:
-                self.prefix_patterns.append(re.compile(r"^(%s)\b\s*(.*)$" % prefix))
+                self.prefix_patterns.append(re.compile(r"^(%s)(\b|\\)(\s*.*)$" % prefix))
 
     def add(self, key, number, link):
         for pattern in self.prefix_patterns:
             match = pattern.match(key)
             if match:
-                key = "%s (%s)" % (match.group(2), match.group(1))
+                key = "%s (%s)" % (match.group(2) + match.group(3), match.group(1))
                 break # Only one match per key
         (first, key) = self.filter(key)
         if not self.data.has_key(first):

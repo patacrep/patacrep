@@ -1,0 +1,47 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Sweet amanite phalloïde queen}
+  [by={Hubert-Félix Thiéfaine},album={Meteo fur nada},cov={meteo-fur-nada}]
+
+  \cover
+  \gtab{F#}{2:022000}
+  \gtab{B}{2:X02220}
+  \gtab{Eb}{6:X02220}
+  \gtab{C#}{4:X02220}
+  \gtab{B&m}{6:022000}
+
+  \begin{verse}
+    \[F#] Pilote aux yeux de gélatine
+    Dans ce \[B] vieux satellite-usine
+    \[G#m] Manufacture de recyclage
+    Des mélancolies hors d'us\[C#]age
+  \end{verse}
+
+
+  \begin{chorus}
+    O swe\[E&]et a\[B]manite phal\[F#]loïde que\[C#]en \rep{3}
+  \end{chorus}
+
+
+  \begin{verse}
+    Je suis le \[B&m]Captain M' Acchab \[F#]\[B&m]
+    Aux ordres d'une beau\[F#]té na\[B&m]bab \[F#]\[B&m]
+    \[F#]Prima bel\[B]ladona made in
+    Moloch-city destroy-ma\[F#]chine
+  \end{verse}
+
+  \begin{verse}
+    Amour-amok and paradise
+    Quand elle fumivore ses King Size
+    Dans son antichambre d'azur
+    Avant la séance de torture
+  \end{verse}
+
+  \begin{verse}
+    Je suis le rebelle éclaté
+    Au service de Sa Majesté
+    La reine aux désirs écarlates
+    Des galaxies d'amour-pirate
+  \end{verse}
+
+\endsong

@@ -1,0 +1,69 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Everyday}
+  [by={Buddy Holly},cov={the-very-best-of-buddy-holly},album={The very best of}]
+
+  \cover
+  \capo{1}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{A7}{X02020}
+  \gtab{D7}{XX0212}
+  \gtab{F}{1:022100}
+  \gtab{B&}{1:X02220}
+  \gtab{A}{X02220}
+
+  \begin{verse}
+    \[D]Everyday, \[G]it's a gettin' \[A7]closer
+    \[D]Goin' faster \[G]than a roller \[A7]coaster
+    \[D]Love like yours will \[G]surely come my \[D]way, (\[G]A-hey, \[D]A-hey \[A7]hey)
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Everyday, \[G]it's a gettin' \[A7]faster
+      \[D]Everyone says \[G]go ahead and \[A7]ask her
+      \[D]Love like yours will \[G]surely come my \[D]way, (\[G]A-hey, \[D]A-hey \[A7]hey)
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[G]Everyday, seems a little longer
+    \[C]Every way, love's a little stronger
+    \[D]Come that way, do you ever long for \[B&]true love from\[A] m\[A7]e
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[D]Everyday, \[G]it's a gettin' \[A7]closer
+      \[D]Goin' faster \[G]than a roller \[A7]coaster
+      \[D]Love like yours will \[G]surely come my \[D]way, (\[G]A-hey, \[D]A-hey \[A7]hey)
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[D G A7] \rep{2}}
+    \musicnote {\nolyrics \[D G A7 D G D A7]}
+    \musicnote {\nolyrics \[D G A7] \rep{2}}
+    \musicnote {\nolyrics \[D G A7 D G D A7]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      \[G]Everyday, seems a little longer
+      \[C]Every way, love's a little stronger
+      \[D]Come that way, do you ever long for \[B&]true love from \[A] m\[A7]e
+    \end{chorus}
+
+    \begin{verse}
+      \[D]Everyday, \[G]it's a gettin' \[A7]closer
+      \[D]Goin' faster \[G]than a roller \[A7]coaster
+      \[D]Love like yours will \[G]surely come my \[D]way \echo{\[G]A-hey, \[D]A-hey \[A7]hey}
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \[D]Love like yours will \[G]surely \[A7]come my \[D]way \[G]
+  \end{verse*}
+
+\endsong

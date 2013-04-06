@@ -1,0 +1,72 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{The greatest}
+  [by={Kenny Rogers},cov={she-rides-wild-horses},album={She rides wild horses}]
+
+  \cover
+  \capo{1}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{Bm}{2:X02210}
+
+  \begin{verse}
+    \[D]Little boy, in a baseball hat
+    Stands \[A]in the field, with his \[G]ball and \[D]bat
+    \[D]Says, ``I am the greatest, player of them all''
+    Puts his \[A]bat on his shoulder, and he \[G]tosses up his \[D]ball
+  \end{verse}
+
+  \begin{chorus}
+    And the \[A]ball goes up, and the ball comes down
+    \[G]Swings his bat all the \[D]way around
+    The \[A]world's so still you can hear the sound
+    The \[G]baseball falls{\dots} to the ground \[D]
+  \end{chorus}
+
+  \begin{verse}
+    Now the little boy, doesn't say a word
+    Picks up his ball, he is undeterred
+    Says, ``I am the greatest, there has ever been''
+    And he grits his teeth, and he tries it again
+  \end{verse}
+
+  \begin{chorus}
+    And the ball goes up, and the ball comes down
+    Swings his bat all the way around
+    The world's so still you can hear the sound
+    The baseball falls{\dots} to the ground
+  \end{chorus}
+
+  \begin{bridge}
+    He \[Bm]makes no excuses, he \[G]shows no fear
+    He just \[D]closes his eyes, and \[A]listens to the cheers
+  \end{bridge}
+
+  \begin{verse}
+    Little boy, he adjusts his hat
+    Picks up his ball, stares at his bat
+    Says, ``I am the greatest, the game is on the line''
+    And he gives his all, one last time
+  \end{verse}
+
+  \begin{chorus}
+    And the ball goes up, like the moon so bright
+    Swings his bat with all his might
+    And the world's so still as still can be
+    And the baseball falls{\dots} that's strike three
+  \end{chorus}
+
+  \begin{verse}
+    Now it's supper time, and his mama calls
+    Little boy starts home, with his bat and ball
+    Says, ``I am the greatest, that is a fact
+    But even I didn't know, I could pitch like that''
+  \end{verse}
+
+  \begin{verse*}
+    Says, ``I am the greatest, that is understood
+    But even I didn't know, I could pitch that good''
+  \end{verse*}
+
+\endsong

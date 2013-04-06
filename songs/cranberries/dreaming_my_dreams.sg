@@ -1,0 +1,64 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Dreaming my dreams}
+  [by={The Cranberries},cov={no-need-to-argue},album={No need to argue}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    Al\[C]{l the} th\[G]ings you sa\[Am]{id to} me toda\[F]y
+    Ch\[C]ange my\[G]{ perspectiv}\[Am]{e in} every wa\[F]y
+    Th\[C]ese thin\[G]gs{ count} to\[Am]{ mean} so m\[F]uch to me
+    In\[C]{to my} fa\[G]ith, you and\[Am]{ your} bab\[F]y
+  \end{verse}
+
+  \begin{bridge}
+    \[C]It's out{ the}\[G]{re, }\[Am]{it's out} the\[F]re
+    \[C]It's out the\[G]re{ if} \[Am]{you want} me I'll be \[F]here
+    \[C]It's out the\[G]re, \[Am]{it's out} the\[F]re
+    \[C]It's out the\[G]re{ if} \[Am]{you want} me I'll be \[F]here
+  \end{bridge}
+
+  \begin{chorus}
+    I'\[C]{ll be} drea\[G]ming my dreams\[Am]{ with} you \[F]
+    I'\[C]{ll be} drea\[G]ming my dreams\[Am]{ with} you \[F]
+    And\[C]{ there}'s\[G]{ no} other p\[Am]lace, that I'd lay d\[F]own my face
+    D\[C]reaming \[G]my dreams w\[Am]{ith you} \[F]
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[C G Am F]}
+  \end{verse*}
+
+  \begin{bridge}
+    It's out there, it's out there
+    It's out there if you want me I'll be here
+    It's out there, it's out there
+    It's out there if you want me I'll be here
+  \end{bridge}
+
+  \begin{chorus}
+    I'll be dreaming my dreams with you
+    I'll be dreaming my dreams with you
+    And there's no other place
+    That I'd lay down my face
+    I'll be dreaming my dreams with you
+  \end{chorus}
+
+  \begin{chorus}
+    Dreaming my dreams with you
+    I'll be dreaming my dreams with you
+    And there's no other place
+    That I'd lay down my face
+    I'll be dreaming my dreams with you
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[C]}
+  \end{verse*}
+
+\endsong

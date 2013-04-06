@@ -1,0 +1,70 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Toi + Moi}
+  [by={Grégoire},cov={toi-moi},album={Toi + Moi}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+
+  \begin{chorus}
+    \[Am]Toi, plus moi, plus eux, plus tous ceux qui le \[F]veulent
+    Plus lui, plus elle, et tous ceux qui sont \[C]seuls
+    Allez, venez, et entrez dans la \[G]danse
+    Allez, venez, laissez faire l'insou\[Am]ciance
+  \end{chorus}
+
+  \begin{verse}
+    \[Am]À deux, à mille, je sais qu'on est ca\[F]pables
+    Tout est possible, tout est réali\[C]sable
+    On peut s'enfuir bien plus haut que nos \[G]rêves
+    On peut partir bien plus loin que la \[Am]grève
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      Oh toi, plus moi, plus tous ceux qui le veulent
+      Plus lui, plus elle, plus tous ceux qui sont seuls
+      Allez, venez, et entrez dans la danse
+      Allez, venez, c'est notre jour de chance
+    \end{chorus}
+
+    \begin{verse}
+      Avec l'envie, la force et le courage
+      Le froid, la peur, ne sont que des mirages
+      Laissez tomber les malheurs pour une fois
+      Allez, venez, reprenez avec moi
+    \end{verse}
+
+    \begin{chorus}
+      Oh toi, plus moi, plus tous ceux qui le veulent
+      Plus lui, plus elle, et tous ceux qui sont seuls
+      Allez, venez, et entrez dans la danse
+      Allez, venez, laissez faire l'insouciance
+    \end{chorus}
+
+    \begin{verse}
+      Je sais, c'est vrai, ma chanson est naïve
+      Même un peu bête, mais bien inoffensive
+      Et même si elle ne change pas le monde
+      Elle vous invite à entrer dans la ronde
+    \end{verse}
+
+    \begin{chorus}
+      Oh toi, plus moi, plus tous ceux qui le veulent
+      Plus lui, plus elle, et tous ceux qui sont seuls
+      Allez, venez, et entrez dans la danse
+      Allez, venez, c'est notre jour de chance
+    \end{chorus}
+
+    \begin{verse}
+      L'espoir, l'ardeur, prends tout ce qu'il te faut
+      Mes bras, mon cœur, mes épaules et mon dos
+      Je veux te voir des étoiles dans les yeux
+      Je veux nous voir insoumis et heureux
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

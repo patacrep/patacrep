@@ -1,0 +1,66 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La légende Oochigeas}
+  [by={Roch Voisine},cov={ill-always-be-there},album={I'll always be there}]
+
+  \cover
+  \capo{2}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{B7}{X21202}
+
+  \begin{verse}
+    \[Em] Au temps des légendes an\[D]ciennes
+    Avant que l'homme blanc ne \[C]vienne
+    Vivait une jeune orphe\[Em]line \[D] \[C] \[Em]
+  \end{verse}
+
+  \begin{verse*}
+    \[Em] Un jour une flamme trop \[D]vive
+    Que le vent souffla de la \[C]rive
+    Lui vola sa beauté di\[Em]vine \[D] \[C] \[G]
+  \end{verse*}
+
+  \begin{verse*}
+    \[G] Son cri résonna dans la \[D]plaine
+    La terre et le vent se sou\[C]viennent
+    De son courage et de sa \[B7]peine
+  \end{verse*}
+
+  \begin{chorus}
+    \echo{Elle s'appelait}
+    \[Em]Oo-oo-oo-\[D]oo-oo-oo-\[C]oo-chige\[Em]as \rep{2}
+  \end{chorus}
+
+  \begin{verse}
+    Dans un des villages voisins
+    Vivait un prince magicien
+    Qui fit la promesse impossible
+  \end{verse}
+
+  \begin{verse*}
+    D'unir sa vie et son histoire
+    À celle qui saurait le voir
+    Lui, que l'on savait invisible
+  \end{verse*}
+
+  \begin{verse*}
+    Toutes les filles du village
+    Ne virent là-bas que son mirage
+    Et la seule à voir son visage
+  \end{verse*}
+
+  \begin{chorus}
+    \echo{S'appelait}
+    Oo-oo-oo-oo-oo-oo-oo-chigeas \rep{2}
+  \end{chorus}
+
+  \begin{verse*}
+    Au temps des légendes anciennes
+    Avant que l'homme blanc ne vienne{\dots}
+    Vivait une orpheline{\dots} indienne
+  \end{verse*}
+
+\endsong

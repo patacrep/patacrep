@@ -1,0 +1,43 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Sur le pont d'Avignon}
+  [by={Traditionnel},cov={traditionnel},album={France}]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+
+  \begin{chorus}
+    \[G]Sur le pont \[D]{d'Avignon}
+    \[G]L'on y danse, \[D]l'on y danse
+    \[G]Sur le pont \[D]{d'Avignon}
+    \[G]L'on y danse \[D]tous en \[G]rond
+  \end{chorus}
+
+  \begin{verse}
+    \[G]Les beaux Messieurs font \[D]comme \[G]ça
+    \[G]Et puis encore \[D]comme \[G]ça
+  \end{verse}
+
+  \begin{verse}
+    Les professeurs \dots
+  \end{verse}
+
+  \begin{verse}
+    Les écoliers \dots
+  \end{verse}
+
+  \begin{verse}
+    Les demoiselles \dots
+  \end{verse}
+
+  \begin{verse}
+    Les belles dames \dots
+  \end{verse}
+
+  \lilypond{Sur_le_pont_d_avignon}
+
+\endsong
+\beginscripture{}%
+  La chanson continue en citant des noms de profession.%
+\endscripture%

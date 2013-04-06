@@ -1,0 +1,57 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Il pleut bergère}
+  [by={Traditionnel},cov={traditionnel},album={France}]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+
+  \begin{verse}
+    Il \[G]pleut, il pleut bergère
+    Presse tes \[D]blancs mou\[G]tons
+    \[D]Allons sous ma chau\[G]mière
+    Bergère, vite, al\[D]lons
+  \end{verse}
+
+  \begin{verse*}
+    \[D]J'entends sur le feuil\[G]lage
+    \[C]L'eau qui tombe \[G]à grand \[D]bruit
+    Voi\[G]ci, voici l'o\[C]rage
+    \[G]Voilà l'é\[D]clair qui \[G]luit
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      En\[G]tends-tu le tonnerre ?
+      Il roule en \[D]appro\[G]chant
+      \[D]Prends un abri, ber\[G]gère
+      À ma droite, en mar\[D]chant
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Je vois notre ca\[G]bane
+      \[C]Et, tiens, voi\[G]ci ve\[D]nir
+      Ma \[G]mère et ma sœur \[C]Anne
+      \[G]Qui vont l'é\[D]table ouv\[G]rir
+    \end{verse*}
+
+    \begin{verse}
+      Bon\[G]soir, bonsoir, ma mère
+      Ma sœur \[D]Anne, bon\[G]soir
+      \[D]J'amène ma ber\[G]gère
+      Près de vous pour ce \[D]soir
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Va te sécher, ma \[G]mie
+      \[C]Auprès de \[G]nos ti\[D]sons
+      Soeur, \[G]fais-lui compa\[C]gnie
+      \[G]Entrez, pe\[D]tits mou\[G]tons
+    \end{verse*}
+  \end{repeatedchords}
+
+  \lilypond{Il_pleut_bergere}
+
+\endsong

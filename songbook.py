@@ -36,11 +36,12 @@ def songslist(library, songs, prefixes):
             title  = reTitle.search(data).group(0)
             artist = reArtist.search(data.replace("{","")).group(0)
             match  = reAlbum.search(data.replace("{",""))
+            lilypond = False
             if match:
                 album = match.group(0)
             else:
                 album = ''
-            song_objects.append(Song(title, artist, album, path))
+            song_objects.append(Song(title, artist, album, path, lilypond))
 
     song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(unprefixed(x.title, prefixes)))
     song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.album))

@@ -10,10 +10,46 @@ import shutil
 import json
 import re
 from subprocess import call
-
 from tools import recursiveFind
-from song import *
 from index import *
+from unidecode import unidecode
+from utils.plastex import parsetex
+
+class Song:
+    #: Ordre de tri
+    sort = []
+    #: Préfixes à ignorer pour le tri
+    prefixes = []
+
+    def __init__(self, path, languages, titles, args):
+        self.titles  = titles
+        self.normalized_titles = [locale.strxfrm(unprefixed(unidecode(unicode(title, "utf-8")), self.prefixes)) for title in titles]
+        self.args   = args
+        self.path   = path
+        self.languages = languages
+
+    def __repr__(self):
+        return repr((self.titles, self.args, self.path))
+
+    def __cmp__(self, other):
+        if not isinstance(other, Song):
+            return NotImplemented
+        for key in self.sort:
+            if key == "@title":
+                self_key = self.normalized_titles
+                other_key = other.normalized_titles
+            elif key == "@path":
+                self.key = locale.strxfrm(self.path)
+                other_key = locale.strxfrm(other.path)
+            else:
+                self_key = locale.strxfrm(self.args.get(key, ""))
+                other_key = locale.strxfrm(other.args.get(key, ""))
+
+            if self_key < other_key:
+                return -1
+            elif self_key > other_key:
+                return 1
+        return 0
 
 def matchRegexp(reg, iterable):
     return [ m.group(1) for m in (reg.match(l) for l in iterable) if m ]
@@ -27,28 +63,56 @@ def unprefixed(title, prefixes):
             return match.group(2)
     return title
 
-def songslist(library, songs, prefixes):
-    song_objects = []
-    for s in songs:
-        path = library + 'songs/' + s
-        with open(path, 'r+') as f:
-            data   = f.read()
-            title  = reTitle.search(data).group(0)
-            artist = reArtist.search(data.replace("{","")).group(0)
-            match  = reAlbum.search(data.replace("{",""))
-            lilypond = False
-            if match:
-                album = match.group(0)
+class SongsList:
+    """Manipulation et traitement de liste de chansons"""
+
+    def __init__(self, library, language):
+        self._library = library
+        self._language = language
+
+        # Liste triée des chansons
+        self.songs = []
+
+
+    def append(self, filename):
+        """Ajout d'une chanson à la liste
+
+        Effets de bord : analyse syntaxique plus ou moins sommaire du fichier
+        pour en extraire et traiter certaines information (titre, langue,
+        album, etc.).
+        """
+        path = os.path.join(self._library, 'songs', filename)
+        # Exécution de PlasTeX
+        data = parsetex(path)
+
+        song = Song(path, data['languages'], data['titles'], data['args'])
+        low, high = 0, len(self.songs)
+        while low != high:
+            middle = (low + high) / 2
+            if song < self.songs[middle]:
+                high = middle
             else:
-                album = ''
-            song_objects.append(Song(title, artist, album, path, lilypond))
+                low = middle + 1
+        self.songs.insert(low, song)
 
-    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(unprefixed(x.title, prefixes)))
-    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.album))
-    song_objects = sorted(song_objects, key=lambda x: locale.strxfrm(x.artist))
+    def append_list(self, filelist):
+        """Ajoute une liste de chansons à la liste
 
-    result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in song_objects ]
-    return '\n'.join(result)
+        L'argument est une liste de chaînes, représentant des noms de fichiers.
+        """
+        for filename in filelist:
+            self.append(filename)
+
+    def latex(self):
+        """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.
+        """
+        result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in self.songs]
+        result.append('\\selectlanguage{%s}' % self._language)
+        return '\n'.join(result)
+
+    def languages(self):
+        """Renvoie la liste des langues utilisées par les chansons"""
+        return set().union(*[set(song.languages) for song in self.songs])
 
 def parseTemplate(template):
     embeddedJsonPattern = re.compile(r"^%%:")
@@ -115,8 +179,25 @@ def makeTexFile(sb, library, output):
         for prefix in sb["titleprefixwords"]:
             titleprefixwords += "\\titleprefixword{%s}\n" % prefix
         sb["titleprefixwords"] = titleprefixwords
+    if "lang" not in sb:
+        sb["lang"] = "french"
+    if "sort" in sb:
+        sort = sb["sort"]
+        del sb["sort"]
+    else:
+        sort = [u"by", u"album", u"@title"]
+    Song.sort = sort
+    Song.prefixes = prefixes
 
     parameters = parseTemplate("templates/"+template)
+
+    # compute songslist
+    if songs == "all":
+        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
+    songslist = SongsList(library, sb["lang"])
+    songslist.append_list(songs)
+
+    sb["languages"] = ",".join(songslist.languages())
 
     # output relevant fields
     out = open(output, 'w')
@@ -132,12 +213,9 @@ def makeTexFile(sb, library, output):
     for name, value in sb.iteritems():
         if name in parameters:
             out.write(formatDefinition(name, toValue(parameters[name],value)))
-    # output songslist
-    if songs == "all":
-        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
 
     if len(songs) > 0:
-        out.write(formatDefinition('songslist', songslist(library, songs, prefixes)))
+        out.write(formatDefinition('songslist', songslist.latex()))
     out.write('\\makeatother\n')
 
     # output template

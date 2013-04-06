@@ -42,14 +42,17 @@
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
 %%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"#D1E4AE"},
 %%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"#FFFDB3"},
-%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"}
+%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"#D1E4AE"},
+%%:  {"name":"languages", "description":"List of languages used by songs", "default":""}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % begin document
 \makeatletter\def\input@path{{tex/}}
 \documentclass[\getbooktype,\getinstruments,\getbookoptions,\getmainfontsize]{crepbook}
 \usepackage[utf8]{inputenc}
-\usepackage[italian,portuguese,english,spanish,french]{babel}
+\PassOptionsToPackage{\getlanguages}{babel}
+\PassOptionsToPackage{\getlang}{babel}
+\usepackage{babel}
 \usepackage[T1]{fontenc}
 \usepackage{venturisold}
 

@@ -204,6 +204,7 @@
 \newcommand{\songcover}{}
 \newcommand{\songalbum}{}
 \newsongkey{cov}{\let\songcover\@empty}{\def\songcover{\currfiledir#1}}
+\newsongkey{vcov}{\let\songcover\@empty}{\def\songcover{#1}}
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{url}{\let\songurl\@empty}{\def\songurl{#1}}
 \newsongkey{original}{\let\songoriginal\@empty}{\def\songoriginal{#1}}

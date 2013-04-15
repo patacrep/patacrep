@@ -57,8 +57,9 @@ def processSXD(filename):
     return idx
 
 class index:
-    data = dict()
-    keywords = dict()
+    def __init__(self):
+        self.data = dict()
+        self.keywords = dict()
 
     def filter(self, key):
         letter = firstLetterPattern.match(key).group(1)

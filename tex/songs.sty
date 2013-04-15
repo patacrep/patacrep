@@ -3076,9 +3076,9 @@
 \newcommand\authignoreword[1]{}
 \newcommand\titleprefixword[1]{}
 {\catcode`\%=12
- \gdef\authsepword#1{\SB@idxcmd{}{%sep #1}{}}
- \gdef\authbyword#1{\SB@idxcmd{}{%after #1}{}}
- \gdef\authignoreword#1{\SB@idxcmd{}{%ignore #1}{}}
+ \gdef\authsepword#1{\SB@idxcmd{}{}{%sep #1}}
+ \gdef\authbyword#1{\SB@idxcmd{}{}{%after #1}}
+ \gdef\authignoreword#1{\SB@idxcmd{}{}{%ignore #1}}
  \gdef\titleprefixword#1{\SB@idxcmd{%prefix #1}{}{}}}
 \@onlypreamble\authsepword
 \@onlypreamble\authbyword

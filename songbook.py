@@ -8,6 +8,7 @@ import locale
 import platform
 import shutil
 import json
+import glob
 import re
 from subprocess import call
 from tools import recursiveFind
@@ -320,7 +321,7 @@ def main():
     call(["pdflatex", texFile])
 
     # Make index
-    sxdFiles = recursiveFind(".", basename + "*.sxd")
+    sxdFiles = glob.glob("%s_*.sxd" % basename)
     print sxdFiles
     for sxdFile in sxdFiles:
         print "processing " + sxdFile

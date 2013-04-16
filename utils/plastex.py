@@ -7,6 +7,14 @@ import copy
 import os
 import sys
 
+def simpleparse(text):
+    """Parse a simple LaTeX string.
+    """
+    tex = TeX()
+    tex.input(text)
+    doc = tex.parse()
+    return doc.textContent
+
 class SongParser:
     """Analyseur syntaxique de fichiers .sg"""
 

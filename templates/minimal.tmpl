@@ -31,6 +31,7 @@
 %%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["pictures"]},
 %%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
 %%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"},
+%%:  {"name":"authwords", "descriptipn":"Set of options to process author string (LaTeX commands authsepword, authignoreword, authbyword)"},
 %%:  {"name":"languages", "description":"List of languages used by songs", "default":""}
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -54,6 +55,7 @@
 }
 
 \gettitleprefixwords
+\getauthwords
 
 \nosongnumbers
 \pagestyle{empty}

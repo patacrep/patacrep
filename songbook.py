@@ -11,7 +11,7 @@ import json
 import glob
 import re
 from subprocess import call
-from tools import recursiveFind
+from tools import recursiveFind, processauthors
 from index import *
 from unidecode import unidecode
 from utils.plastex import parsetex
@@ -19,8 +19,10 @@ from utils.plastex import parsetex
 class Song:
     #: Ordre de tri
     sort = []
-    #: Préfixes à ignorer pour le tri
+    #: Préfixes à ignorer pour le tri par titres
     prefixes = []
+    #: Dictionnaire des options pour le traitement des auteurs
+    authwords = {"after": [], "ignore": [], "sep": []}
 
     def __init__(self, path, languages, titles, args):
         self.titles  = titles
@@ -28,6 +30,14 @@ class Song:
         self.args   = args
         self.path   = path
         self.languages = languages
+        if "by" in self.args.keys():
+            self.normalized_authors = [
+                locale.strxfrm(author)
+                for author
+                in processauthors(self.args["by"], **self.authwords)
+                ]
+        else:
+            self.normalized_authors = []
 
     def __repr__(self):
         return repr((self.titles, self.args, self.path))
@@ -40,8 +50,11 @@ class Song:
                 self_key = self.normalized_titles
                 other_key = other.normalized_titles
             elif key == "@path":
-                self.key = locale.strxfrm(self.path)
+                self_key = locale.strxfrm(self.path)
                 other_key = locale.strxfrm(other.path)
+            elif key == "by":
+                self_key = self.normalized_authors
+                other_key = other.normalized_authors
             else:
                 self_key = locale.strxfrm(self.args.get(key, ""))
                 other_key = locale.strxfrm(other.args.get(key, ""))
@@ -165,8 +178,12 @@ def makeTexFile(sb, library, output):
     # default value
     template = "patacrep.tmpl"
     songs = []
-    titleprefixwords = ""
+
+    prefixes_tex = ""
     prefixes = []
+
+    authwords_tex = ""
+    authwords = {"after": ["by"], "ignore": ["unknown"], "sep": ["and"]}
 
     # parse the songbook data
     if "template" in sb:
@@ -178,8 +195,28 @@ def makeTexFile(sb, library, output):
     if "titleprefixwords" in sb:
         prefixes = sb["titleprefixwords"]
         for prefix in sb["titleprefixwords"]:
-            titleprefixwords += "\\titleprefixword{%s}\n" % prefix
-        sb["titleprefixwords"] = titleprefixwords
+            prefixes_tex += "\\titleprefixword{%s}\n" % prefix
+        sb["titleprefixwords"] = prefixes_tex
+    if "authwords" in sb:
+        # Populating default value
+        for key in ["after", "sep", "ignore"]:
+            if key not in sb["authwords"]:
+                sb["authwords"][key] = authwords[key]
+        # Processing authwords values
+        authwords = sb["authwords"]
+        for key in ["after", "sep", "ignore"]:
+            for word in authwords[key]:
+                if key == "after":
+                    authwords_tex += "\\auth%sword{%s}\n" % ("by", word)
+                else:
+                    authwords_tex += "\\auth%sword{%s}\n" % (key, word)
+        sb["authwords"] = authwords_tex
+    if "after" in authwords:
+        authwords["after"] = [re.compile(r"^.*%s\b(.*)" % after) for after in authwords["after"]]
+    if "sep" in authwords:
+        authwords["sep"] = [" %s" % sep for sep in authwords["sep"]] + [","]
+        authwords["sep"] = [re.compile(r"^(.*)%s (.*)$" % sep) for sep in authwords["sep"] ]
+
     if "lang" not in sb:
         sb["lang"] = "french"
     if "sort" in sb:
@@ -189,6 +226,7 @@ def makeTexFile(sb, library, output):
         sort = [u"by", u"album", u"@title"]
     Song.sort = sort
     Song.prefixes = prefixes
+    Song.authwords = authwords
 
     parameters = parseTemplate("templates/"+template)
 
@@ -327,7 +365,7 @@ def main():
         print "processing " + sxdFile
         idx = processSXD(sxdFile)
         indexFile = open(sxdFile[:-3]+"sbx", "w")
-        indexFile.write(idx.entriesToStr())
+        indexFile.write(idx.entriesToStr().encode('utf8'))
         indexFile.close()
 
     # Second pdflatex pass

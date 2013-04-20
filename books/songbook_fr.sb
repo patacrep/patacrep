@@ -6,5 +6,8 @@
     "lilypond",
     "pictures"
   ],
-"songs" : "all"
+"songs" : "all",
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

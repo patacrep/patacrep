@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Brothers in arms}
-  [by={Dire Straits},cov={brothers-in-arms},album={Brothers in arms}]
+  [by={Dire\ Straits},cov={brothers-in-arms},album={Brothers in arms}]
 
   \cover
   \gtab{G#m}{4:022000}

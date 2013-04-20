@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tape la galoche}
-  [by={Mes souliers sont rouges},cov={tape-la-galoche},album={Tape la galoche},%
+  [by={Mes\ souliers\ sont\ rouges},cov={tape-la-galoche},album={Tape la galoche},%
   url={http://www.messoulierssontrouges.com}]
 
   \cover

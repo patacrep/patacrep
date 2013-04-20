@@ -6,5 +6,8 @@
 "author" : "Crep (R.Goffe) \\and Lohrun (A.Dupas)",
 "subtitle" : "parolier",
 "title" : "Recueil de chansons",
-"songs" : "all"
+"songs" : "all",
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

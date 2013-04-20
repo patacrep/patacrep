@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Petit bonhomme}
-  [by={La Tête à Toto},cov={la-tete-a-toto},album={La Tête à Toto},%
+  [by={La Tête\ à\ Toto},cov={la-tete-a-toto},album={La Tête à Toto},%
   url={http://www.lateteatoto.org}]
 
   \cover

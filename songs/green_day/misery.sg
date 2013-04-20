@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Misery}
-  [by={Green Day},cov={greenday-warning},album={Warning},%
+  [by={Green\ Day},cov={greenday-warning},album={Warning},%
   url={http://www.greenday.com}]
 
   \cover

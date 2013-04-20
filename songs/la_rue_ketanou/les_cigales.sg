@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les cigales}
-  [by={La Rue Kétanou},cov={y-a-des-cigales-dans-la-fourmiliere},album={Y'a des cigales dans la fourmilière},%
+  [by={La Rue\ Kétanou},cov={y-a-des-cigales-dans-la-fourmiliere},album={Y'a des cigales dans la fourmilière},%
   url={http://www.larueketanou.com}]
 
   \cover

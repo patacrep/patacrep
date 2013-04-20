@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Savannah}
-  [by={Soldat Louis},cov={pavillon-noir},album={Pavillon noir}]
+  [by={Soldat\ Louis},cov={pavillon-noir},album={Pavillon noir}]
 
   \cover
   \gtab{Am}{X02210}

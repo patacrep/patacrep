@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Une danseuse}
-  [by={Les Hurlements d'Léo},cov={le-cafe-des-jours-heureux},album={Le café des jours heureux},%
+  [by={Les Hurlements\ d'Léo},cov={le-cafe-des-jours-heureux},album={Le café des jours heureux},%
   url={http://www.hurlements.com}]
 
   \cover

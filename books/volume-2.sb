@@ -188,5 +188,8 @@
     "yuki_kajiura/jr.sg",
     "yuki_kajiura/vanity.sg",
     "edith_piaf/l_homme_a_la_moto.sg"
-  ]
+  ],
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

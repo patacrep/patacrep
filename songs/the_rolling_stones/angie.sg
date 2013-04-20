@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Angie}
-  [by={The Rolling Stones},cov={jump-back},album={Jump back}]
+  [by={The Rolling\ Stones},cov={jump-back},album={Jump back}]
 
   \cover
 

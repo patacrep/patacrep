@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{C'est un pays}
-  [by={Soldat Louis},cov={pavillon-noir},album={Pavillon noir}]
+  [by={Soldat\ Louis},cov={pavillon-noir},album={Pavillon noir}]
 
   \cover
   \gtab{G}{320003}

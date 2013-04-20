@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Bassin d'Irlande}
-  [by={Mes souliers sont rouges},cov={en-dehors-des-clous},album={En dehors des clous},%
+  [by={Mes\ souliers\ sont\ rouges},cov={en-dehors-des-clous},album={En dehors des clous},%
   url={http://www.messoulierssontrouges.com}]
 
   \cover

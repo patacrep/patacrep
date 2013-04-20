@@ -1,7 +1,7 @@
 \selectlanguage{spanish}
 \songcolumns{2}
 \beginsong{Bamboleo}
-  [by={Gipsy Kings},cov={gipsy-kings},album={Gipsy Kings}]
+  [by={Gipsy\ Kings},cov={gipsy-kings},album={Gipsy Kings}]
 
   \cover
   \capo{2}

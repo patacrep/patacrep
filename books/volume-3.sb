@@ -176,5 +176,8 @@
     "traditionnel/l_homme_de_cromagnon.sg",
     "tri_yann/kiss_the_cildren_for_me_mary.sg",
     "tri_yann/les_filles_de_redon.sg"
-  ]
+  ],
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

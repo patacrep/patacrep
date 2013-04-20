@@ -191,5 +191,8 @@
     "yves_jamait/etc.sg",
     "yves_jamait/jean-louis.sg",
     "yves_simon/diabolo_menthe.sg",
-    "yves_simon/les_bateaux_du_metro.sg"]
+    "yves_simon/les_bateaux_du_metro.sg"],
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

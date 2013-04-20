@@ -170,5 +170,8 @@
     "vincent_delerm/la_natation_synchronisee.sg",
     "william_balde/rayon_de_soleil.sg",
     "yves_duteil/le_petit_pont_de_bois.sg",
-    "yves_simon/les_bateaux_du_metro.sg"]
+    "yves_simon/les_bateaux_du_metro.sg"],
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

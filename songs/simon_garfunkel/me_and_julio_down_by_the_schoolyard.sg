@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Me and Julio down by the schoolyard}
-  [by={Simon \& Garfunkel},cov={concert-in-central-park},album={Concert in Central Park}]
+  [by={Simon\ \&\ Garfunkel},cov={concert-in-central-park},album={Concert in Central Park}]
 
   \cover
   \capo{2}

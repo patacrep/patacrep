@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les tit's ballades}
-  [by={Les Tit's Nassels},cov={pareil},album={Pareil}]
+  [by={Les Tit's\ Nassels},cov={pareil},album={Pareil}]
 
   \cover
   \gtab{Em}{7:X02210}

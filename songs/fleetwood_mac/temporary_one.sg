@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Temporary one}
-  [by={Fleetwood Mac},cov={the-dance},album={The Dance}]
+  [by={Fleetwood\ Mac},cov={the-dance},album={The Dance}]
 
   \cover
   \gtab*{G5}{XXX033}

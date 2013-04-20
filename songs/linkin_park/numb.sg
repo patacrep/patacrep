@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Numb}
-  [by={Linkin Park},cov={meteora},album={Meteora}]
+  [by={Linkin\ Park},cov={meteora},album={Meteora}]
 
   \cover
   \capo{2}

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Cayenne}
-  [by={Les amis d'ta femme},cov={lave-toi-la-bouche},album={Lave-toi la bouche}]
+  [by={Les amis\ d'ta\ femme},cov={lave-toi-la-bouche},album={Lave-toi la bouche}]
 
   \cover
   \gtab{Em}{022000}

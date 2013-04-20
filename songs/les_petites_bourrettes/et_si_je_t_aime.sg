@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Et si je t'aime}
-  [by={Les Petites Bourrettes},cov={comme-des-rois},album={Comme des rois}]
+  [by={Les Petites\ Bourrettes},cov={comme-des-rois},album={Comme des rois}]
 
   \cover
   \gtab{C}{3:X02220}

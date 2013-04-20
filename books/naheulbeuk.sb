@@ -47,5 +47,8 @@
     "le_donjon_de_naheulbeuk/troll_farceur_et_elfe_farci.sg",
     "le_donjon_de_naheulbeuk/un_boulet_dans_le_groupe.sg",
     "le_donjon_de_naheulbeuk/a_l_aventure_compagnons.sg"
-  ]
+  ],
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

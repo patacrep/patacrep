@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La complainte du phoque en Alaska}
-  [by={Beau Dommage},cov={le-meilleur-de-beau-dommage},album={Le meilleur de Beau Dommage}]
+  [by={Beau\ Dommage},cov={le-meilleur-de-beau-dommage},album={Le meilleur de Beau Dommage}]
 
   \cover
   \capo{3}

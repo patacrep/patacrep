@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Route 66}
-  [by={The Rolling Stones},cov={the-rolling-stones},album={The Rolling Stones}]
+  [by={The Rolling\ Stones},cov={the-rolling-stones},album={The Rolling Stones}]
 
   \cover
   \gtab{E7}{022030}

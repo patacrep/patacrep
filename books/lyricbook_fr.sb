@@ -5,5 +5,8 @@
 "booktype" : "lyric",
 "author" : "Crep (R.Goffe) \\and Lohrun (A.Dupas)",
 "subtitle" : "parolier",
-"songs" : "all"
+"songs" : "all",
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

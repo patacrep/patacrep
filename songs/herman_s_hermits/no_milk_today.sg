@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{No milk today}
-  [by={Herman's Hermits},cov={original-hits},album={Original hits}]
+  [by={Herman's\ Hermits},cov={original-hits},album={Original hits}]
 
   \cover
   \gtab{Am}{X02210}

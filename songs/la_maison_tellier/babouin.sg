@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Babouin}
-  [by={La Maison Tellier},cov={la-maison-tellier},album={La maison Tellier}]
+  [by={La Maison\ Tellier},cov={la-maison-tellier},album={La maison Tellier}]
 
   \cover
   \gtab{F}{1:022100}

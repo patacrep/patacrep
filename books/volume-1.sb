@@ -181,5 +181,8 @@
     "yves_jamait/et_je_bois.sg",
     "yvon_etienne/chemise_rouge.sg",
     "yvon_etienne/y_a_des_nouilles_et_du_nougat.sg"
-  ]
+  ],
+"authwords" : {
+  "sep" : ["and", "et"]
+  }
 }

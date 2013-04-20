@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Surfin' USA}
-  [by={The Beach Boys},cov={very-best-of-beach-boys},album={The very best-of}]
+  [by={The Beach\ Boys},cov={very-best-of-beach-boys},album={The very best-of}]
 
   \cover
   \gtab{B&}{6:022100}

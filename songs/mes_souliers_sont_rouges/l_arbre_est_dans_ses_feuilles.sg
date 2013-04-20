@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{L'arbre dans ses feuilles}
-  [by={Mes souliers sont rouges},cov={proches},album={Proches},%
+  [by={Mes\ souliers\ sont\ rouges},cov={proches},album={Proches},%
   url={http://www.messoulierssontrouges.com}]
 
   \cover

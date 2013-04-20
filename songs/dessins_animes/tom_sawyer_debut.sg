@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Tom Sawyer (début)}
-  [by={Dessins Animés},cov={tom-sawyer-debut},album={Tom Sawyer}]
+  [by={Dessins\ Animés},cov={tom-sawyer-debut},album={Tom Sawyer}]
 
   \cover
   \capo{1}

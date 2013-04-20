@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le steak}
-  [by={Maxime Le Forestier},cov={le-steak},album={Le steak}]
+  [by={Maxime Le\ Forestier},cov={le-steak},album={Le steak}]
 
   \cover
   \gtab{D}{XX0232}

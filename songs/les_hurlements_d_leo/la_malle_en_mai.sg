@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La malle en mai}
-  [by={Les Hurlements d'Léo},cov={la-belle-affaire},album={La belle affaire},%
+  [by={Les Hurlements\ d'Léo},cov={la-belle-affaire},album={La belle affaire},%
   url={http://www.hurlements.com}]
 
   \cover

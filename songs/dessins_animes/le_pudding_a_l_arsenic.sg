@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Astérix et Cléopâtre : Le pudding à l'arsenic}
-  [by={Dessins Animés},cov={asterix},album={Astérix et Cléopâtre}]
+  [by={Dessins\ Animés},cov={asterix},album={Astérix et Cléopâtre}]
 
   \cover
   \gtab{Am}{5:022000}

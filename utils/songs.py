@@ -30,5 +30,8 @@ class beginsong(plasTeX.Command):
         # Parsing keyval arguments
         args = {}
         for (key, val) in self.attributes['args'].iteritems():
-            args[key] = val.textContent.encode('utf-8')
+            if type(val) == unicode:
+                args[key] = val.encode('utf-8')
+            else:
+                args[key] = val.textContent.encode('utf-8')
         self.attributes['args'] = args

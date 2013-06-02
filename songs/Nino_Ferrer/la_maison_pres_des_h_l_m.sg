@@ -1,0 +1,70 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La maison près de la fontaine}
+  [by={Nino Ferrer}]
+
+  \gtab{Gm}{3:022000}
+  \gtab{Gm7M}{3:021000}
+  \gtab{Gm7}{3:0X0000}
+  \gtab{Gm6}{3X2333}
+  \gtab{Cm}{8:022000}
+  \gtab{Cm7M}{8:021000}
+  \gtab{Cm7}{8:0X0000}
+  \gtab{Cm6}{7:1X0111}
+  \gtab{D7}{3:2X120X}
+  \gtab{Gdim}{3:01202X}
+  \gtab{F7}{6:2X120X}
+  \gtab{E&7}{8:002020}
+  \gtab{A#6}{6:022120}
+  \gtab{D#7M}{6:002120}
+  \gtab{A7}{5:0X010X}
+  \gtab{D}{5:002220}
+  \gtab{D5+}{3:X2100X}
+  \gtab{F#7}{2:0X010X}
+  \gtab{G6}{3:02212X}
+  \gtab{Am7}{5:0X0000}
+  \gtab{B7}{7:0X010X}
+  \gtab{C#m}{9:022000}
+  \gtab{C#m7M}{9:021000}
+  \gtab{C#m7}{9:0X0000}
+  \gtab{C#m6}{8:1X0111}
+  \gtab{D9+}{22123X}
+  \gtab{Gm9}{3:0X0002}
+
+  \begin{verse}
+
+    La mai\[Gm]son \[Gm7M]près de la fon\[Gm7]taine
+    Cou\[Gm6]verte de vigne \[Cm]vierge et de \[Cm7M]toiles d'arai\[Cm7]gnée
+    \[Cm6]Sentait la confi\[D7]ture
+    Et \[Cm]le dé\[Gdim]sordre et l'\[D7]obscuri\[Gm]té
+    \[Cm]L'au\[C7m]tomne\[E&7], \[A#6]l'enfance \[D#7M],  l'\[A7]éterni\[D D7 D5+ D7]té
+
+
+
+  \end{verse}
+
+  \begin{bridge}
+    Au\[F#]tour il y avait le si\[G6]lence
+    Les \[F#]guêpes et les nids des oi\[D7]seaux
+    \[G6]On allait à la pêche aux écre\[B7]visses avec monsieur le curé
+    On \[Cm]se bai\[Cm7M]gnait tout \[Cm7]nu, tout \[Cm6]noir
+    A\[Cm]vec les \[Cm7M]petites \[Cm7]filles et les \[Cm6]ca\[A7]nards \[D7 D5+]
+  \end{bridge}
+
+
+  \begin{verse}
+    La maison près des H.L.M.
+    A fait place à l'usine et au supermarché
+    Les arbres ont disparu
+    Mais ça sent l'hydrogène sulfuré
+    L'essence, la guerre, la société
+  \end{verse}
+
+
+  \begin{bridge}
+    Ce n'est pas si mal \[Gm D9+]
+    Et c'est normal\[Gm D9+]
+    C'est le progrès \[Gm Gm9]
+  \end{bridge}
+
+\endsong

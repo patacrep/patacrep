@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{C'est si bon comme ça}
+  [by={Sinclair},album={Benoit}]
+
+  \gtab{C9}{X3233X}
+  \gtab{E7/9+}{6:X1012X}
+  \gtab{G#13dim}{4:0X011X}
+  \gtab{G7}{3:0X010X}
+  \gtab{C/G}{3:0X222X}
+  \gtab{C/G#}{4:0X111X}
+  \gtab{C7}{8:020100}
+  \gtab{F9}{6:X2122X}
+
+  \begin{chorus}
+    \[C7]Si c'est bon comme ça\[F9 E7 Am7 B&7 B7 C7]
+    C'est si bon comme ça
+  \end{chorus}
+
+  \begin{verse}
+
+
+    \[E7/9+]Elle est très maladroite\[F9]
+    Il est un peu fêlé\[E7/9+]
+    Elle n'est pas diplomate\[F9]
+    Il n'est pas diplômé\[Am7]
+    Elle fume de gros cigares\[G#13dim]
+    \[G7]Quand elle sèche la fac\[C7 C/G C/G# Am7]
+    Il abuse des pétards\[G#13dim]
+    \[G7]Mais bosse comme un maniaque\[C7]
+
+
+  \end{verse}
+
+  \begin{chorus}
+    Refrain : Si c'est bon comme ça
+    Il ne faut pas que ça change
+    C'est si bon comme ça
+    Quand tout se mélange
+    Ca donne un goût étrange
+
+  \end{chorus}
+
+
+  \begin{verse}
+    Elle regarde la télé
+    Et parle au téléphone
+    Il aime le franc parler
+    Mais ne parle à personne
+    Ils sont souvent chics
+    Mais rarement en même temps
+    Ils n'ont jamais de fric
+    Mais en dépensent pourtant
+
+  \end{verse}
+
+
+  \begin{verse}
+
+    Elle aime se maquiller
+    Avoir l'air naturel
+    Il aime se débrouiller
+    Tout seul mais pas sans elle
+    Elle écoute ses parents (la pauvre)
+    Mais ne croit que son mec
+    Il lui parle doucement
+    C'est ce qui lui cloue le bec
+
+  \end{verse}
+
+\endsong

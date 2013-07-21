@@ -1,0 +1,90 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{A tout moment la rue}
+  [by={Eiffel},cov={a-tout-momdent},album={A tout moment}]
+
+  \cover
+  \gtab{D&m}{4:X02210}
+  \gtab{E}{022100}
+  \gtab{B}{2:X02220}
+  \gtab{A}{X02220}
+  \gtab{D&}{4:X02220}
+  \gtab{A&}{4:022100}
+  \gtab{E&}{5:X02220}
+
+  \begin{verse}
+    \[D&m]A chacun de nos souffles
+    Au moindre murmure des bas fonds
+    C'est dans l'air comme un \[E]chant qui s'étr\[B]angle
+    Que d'un \[D&m]pavé de fortune
+    Contre le tintamarre du pognon
+    \[A]A tout moment \[E]la rue peut aussi dire \[D&]non
+  \end{verse}
+
+  \begin{verse*}
+    C'est un pincement de lèvres
+    Et la peur qui perle d'un front
+    La faune et la flore à cran en haillons
+    Et l'éclat de nos palpitants
+    Dans l'ombre du marteau pilon
+    A tout moment la rue peut aussi dire non
+  \end{verse*}
+
+  \begin{chorus}
+    Non comme un \[E]oui
+    Aux arbres cheve\[B]lus
+    A tout ce qui nous \[D&m]lie
+    Quand la nuit re\[A&]mue
+    Aux astres et aux \[A]Déesses
+    Qui peuplent nos \[E]rêves
+    Et quand le peuple \[E&]rêve
+    A tout moment la rue peut aussi dire...
+  \end{chorus}
+
+  \begin{bridge}
+    \[D&m]\[E]\[B]
+  \end{bridge}
+
+  \begin{verse}
+    Et si quelques points noirs
+    En cols blancs poivrent nos cieux
+    D'ondes occultes en tubes longs et creux
+    A bien compter le monde
+    Est x fois plus nombreux
+    Que ces trois cent familles qui sur la rue ont pignon
+    A tout moment elle peut aussi dire non
+  \end{verse}
+
+  \begin{chorus}
+    Comme un oui
+    Aux arbres chevelus
+    A tout ce qui nous lie
+    Quand la nuit remue
+    Aux astres et aux Déesses
+    Qui peuplent nos rêves
+    Et quand le peuple rêve il aime
+    Disposer de lui même
+  \end{chorus}
+
+  \begin{chorus}
+    Non comme un oui
+    Aux arbres chevelus
+    A toutes ces nuits qui nous lient
+    Et même si elles ont trop bu
+    C'est aux astres et aux Déesses
+    Qui peuplent nos rêves
+    Et quand le peuple crève
+    A tout moment la rue peut aussi dire...
+  \end{chorus}
+
+  \begin{verse*}
+    A chacun de nos souffles
+    Au moindre murmure des bas fonds
+    C'est dans l'air comme un chant qui s'étrangle
+    Que d'un pavé de fortune
+    Contre le tintamarre du pognon
+
+    A tout moment la rue peut aussi dire non
+  \end{verse*}
+
+\endsong

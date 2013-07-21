@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La ville que j'ai tant aimée}
-  [by={Tri\ Yann},cov={le-meilleur-de-tri-yann},album={Le meilleur de Tri Yann}]
+  [by={Tri Yann},cov={cafe-du-bon-coin},album={Café du bon coin},%
+  url={http://edoll.free.fr/}]
 
   \cover
   \capo{2}
@@ -19,45 +20,47 @@
   \end{verse}
 
   \begin{chorus}
-    Ils a\[G]vaient les moi\[D]ssons pour va\[Em]cances l'été
+    Ils avaient les moi\[D]ssons pour va\[Em]cances l'été
     Et les \[C]femmes sai\[Am]gnaient sur le lin \[D]des rouets
     Et la \[G]pluie tombait \[D]blanche sur les \[C]toits ardoi\[G]sés
     De la \[C]ville que j'ai \[G]tant aimée
   \end{chorus}
 
-  \begin{verse}
-    On y venait de Nantes, les dimanches d'été
-    Avant qu'elle ne soit grande, quand notre siècle est né
-    Chemises et robes blanches, les jardins ouvriers
-    Fleurissaient sous des ciels de pommiers
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      On y venait de \[D]Nantes, les di\[C]manches d'é\[G]té
+      Avant \[C]qu'elle ne soit \[G]grande, quand notre siècle est \[D]né
+      Chemises \[G]et robes \[D]blanches, les jar\[C]dins ouvri\[G]ers
+      Fleuri\[C]ssaient sous des \[G]ciels de pommiers
+    \end{verse}
 
-  \begin{chorus}
-    C'est la fin de l'enfance, et nous avons dansé
-    Dans l'école, un dimanche il y a six années
-    Le soleil a brillé sur les toits ardoisés
-    De la ville que j'ai tant aimée
-  \end{chorus}
+    \begin{chorus}
+      C'est la fin de l'en\[D]fance, et nous \[Em]avons dansé
+      Dans l'é\[C]cole, un di\[Am]manche il y a \[D]six années
+      Le so\[G]leil a bril\[D]lé sur les \[C]toits ardoi\[G]sés
+      De la \[C]ville que j'ai \[G]tant aimée
+    \end{chorus}
 
-  \begin{verse}
-    Et les filles riaient et les hommes buvaient
-    La ville était adulte et les arbres chantaient
-    Et puis une aube grise, un matin s'est levée
-    L'herbe rouille et l'aubier est gelé
-  \end{verse}
+    \begin{verse}
+      Et les filles ri\[D]aient et les \[C]hommes bu\[G]vaient
+      La ville \[C]était a\[G]dulte et les arbres chan\[D]taient
+      Et puis \[G]une aube \[D]grise, un ma\[C]tin s'est le\[G]vée
+      L'herbe \[C]rouille et l'au\[G]bier est gelé
+    \end{verse}
 
-  \begin{chorus}
-    Ils ont tout brisé, balayé et brûlé
-    Ils ont tout interdit, tout arraché
-    Et la pluie tombe noire sur les toits ardoisés
-    De la ville que j'ai tant aimée
-  \end{chorus}
+    \begin{chorus}
+      Ils ont tout bri\[D]sé, bala\[Em]yé et brûlé
+      Ils ont \[C]tout inter\[Am]dit, tout arr\[D]aché
+      Et la \[G]pluie tombe \[D]noire sur les \[C]toits ardoi\[G]sés
+      De la \[C]ville que j'ai \[G]tant aimée
+    \end{chorus}
 
-  \begin{verse}
-    J'y ai vu un gamin, en costume arlequin
-    Peindre un arbre bleuté dans un étang gelé
-    Nous avons su apprendre aux enfants à rêver
-    Dans la ville qu'ils ont tant aimée
-  \end{verse}
+    \begin{verse}
+      J'y ai vu un ga\[D]min, en cos\[C]tume arle\[G]quin
+      Peindre un \[C]arbre bleu\[G]té dans un étang ge\[D]lé
+      Nous a\[G]vons su ap\[D]prendre aux en\[C]fants à rê\[G]ver
+      Dans la \[C]ville qu'ils ont \[G]tant aimée
+    \end{verse}
+  \end{repeatedchords}
 
 \endsong

@@ -1,7 +1,8 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Kiss the children for me Mary}
-  [by={Tri\ Yann},cov={le-meilleur-de-tri-yann},album={Le meilleur de Tri Yann}]
+  [by={Tri Yann},cov={la-decouverte-ou-l-ignorance},album={La Découverte ou l'Ignorance},%
+  url={http://edoll.free.fr/}]
 
   \cover
   \gtab{C}{X32010}
@@ -12,22 +13,35 @@
 
   \begin{verse}
     Kiss the \[C]children \[B&]for me Ma\[C]ry
-    Ne \[C]les laisse \[B&]pas lan\[C]guir
-    Dis-leur com\[C]bien je tra\[B&]vaille pour \[F]eux
+    Ne les laisse \[B&]pas lan\[C]guir
+    Dis-leur combien je tra\[B&]vaille pour \[F]eux
     J'ai le \[C]cœur bri\[B&]sé de par\[C]tir
   \end{verse}
 
-  \begin{verse}
-    N'oublie pas ton ouvrage de la journée
-    Penserai fort à toi, Mary
-    À des milles de miles de toi
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      N'oublie pas ton ou\[B&]vrage de la jour\[C]née
+      Penserai fort à \[B&]toi, Ma\[F]ry
+      À des \[C]milles de \[B&]miles de \[C]toi
+    \end{verse}
 
-  \begin{verse}
-    Je construis des digues, des usines
-    Je transporte des montagnes
-    Serai près de vous en Novembre
-    Quand reviendrai de campagne
-  \end{verse}
+    \begin{verse}
+      Je construis des \[B&]digues, des u\[C]sines
+      Je transporte \[B&]des mon\[C]tagnes
+      Serai près de vous \[B&]en No\[F]vembre
+      Quand re\[C]viendrai \[B&]de cam\[C]pagne
+    \end{verse}
+
+    \begin{verse}
+      Kiss the \[C]children \[B&]for me Ma\[C]ry
+      Ne les laisse \[B&]pas lan\[C]guir
+      Dis-leur combien je tra\[B&]vaille pour \[F]eux
+      J'ai le \[C]cœur bri\[B&]sé de par\[C]tir
+    \end{verse}
+
+    \begin{verse*}
+      Kiss the \[C]children \[B&]for me Ma\[C]ry
+    \end{verse*}
+  \end{repeatedchords}
 
 \endsong

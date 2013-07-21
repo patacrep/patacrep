@@ -51,21 +51,31 @@ fi;
 ./utils/perms.sh
 
 #build all songbooks
-rm -f *.d 
-make archive
-make naheulbeuk.pdf 
-make volume-1.pdf 
-make volume-2.pdf 
-make volume-3.pdf 
-make volume-4.pdf 
-make volume-5.pdf 
-make english.pdf 
-make french.pdf 
-make songbook_fr.pdf 
-make songbook_en.pdf 
-make lyricbook_fr.pdf
-make lyricbook_en.pdf
-make clean
+rm -f *.d *.pdf *.log *.aux
+
+tar -czvf songbook.tar.gz \
+    --exclude-vcs \
+    --exclude=$(BOOKS_DIR)/default.sb \
+    --exclude=perso/* --exclude=perso \
+    --exclude=build/* --exclude=build \
+    --exclude=data/* --exclude=data \
+    --exclude=*tar.gz \
+    --transform 's/songbook/songbook-$(DATE)/1' \
+    ../songbook
+
+./songbook.py -s books/naheulbeuk.sb 
+./songbook.py -s books/volume-1.sb 
+./songbook.py -s books/volume-2.sb 
+./songbook.py -s books/volume-3.sb 
+./songbook.py -s books/volume-4.sb 
+./songbook.py -s books/volume-5.sb 
+./songbook.py -s books/english.sb 
+./songbook.py -s books/french.sb 
+./songbook.py -s books/songbook_fr.sb 
+./songbook.py -s books/songbook_en.sb 
+./songbook.py -s books/lyricbook_fr.sb
+./songbook.py -s books/lyricbook_en.sb
+#make clean
 
 git status 
 

@@ -3,12 +3,12 @@
 
 import glob
 import getopt, sys
-import re
+import re, os
 import logging
 import locale
 re.LOCALE
 
-from utils.utils import recursiveFind
+from utils import recursiveFind
 
 # the dictionary has target_word:replacement_word pairs
 word_dic = {
@@ -238,7 +238,7 @@ def main():
       usage()
       sys.exit(2)
 
-   songfiles = recursiveFind(os.path.join(library, 'songs'), '*.sg')
+   library = './'
    loglevel  = "warning"
 
    for option, arg in opts:
@@ -255,6 +255,8 @@ def main():
          logging.basicConfig(level=numeric_level, filename='rules.log', filemode='w')
       else:
          assert False, "unhandled option"
+
+   songfiles = recursiveFind(os.path.join(library, 'songs'), '*.sg')
 
    for filename in songfiles:
       with open(filename, 'r+') as songfile:

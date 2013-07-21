@@ -4,12 +4,13 @@
 #Author: Romain Goffe
 #Date: 28/12/2011
 #Description: Resize all covers to 128,128 thumbnails
-
+import os
 import Image
 
-from utils.utils import recursiveFind
+from utils import recursiveFind
 
 # Process song files
+library = "./"
 covers = recursiveFind(os.path.join(library, 'songs'), '*.jpg')
 for filename in covers:
 

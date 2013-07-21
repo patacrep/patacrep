@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Onde sensuelle}
+  [by={-M-},cov={je-dis-aime},album={Je dis aime}]
+
+  \cover
+  \gtab{C#7}{4:X02020}
+  \gtab{G7}{3:020100}
+  \gtab{D#7}{6:X02020}
+  \gtab{Gm7}{3:020000}
+
+  \begin{verse}
+    \[C#7]J'entends encore l'Onde \[G#7 G7]Sensuelle
+    \[C#7]De ta bouche sur la mienne\[G#7 G7]
+    \[C#7]C'était si fort, c'était si beau\[G#7 G7]
+	\[C#7]La philosophie de ton \[D#7]souffle
+	Entre mes mo\[G#7]ts\[G7]
+  \end{verse}
+\begin{repeatedchords} 
+  \begin{verse*}
+    Les plumes volent encerclées par tes ondes
+	Mes habits collent, faut qu'j'm'innonde
+	Mais je n'sais plus où donner du crâne
+	Ca n'répond plus, j'attends la panne\dots
+	Mais comment t'atteindre\dots
+  \end{verse*}
+\end{repeatedchords}  
+    \begin{chorus}
+      \[Fm7]Mais comment t'att\[G7 G#7]eindre
+	  Onde Sen\[G7 C7]suelle
+      \[Fm7]Toi qui me donne\[G7 G#7]
+	  des ailes\[C#7 C7]
+	  \[Fm7]Pourrais-je un \[G7 G#7]jour
+	  Te rendre é\[G7 C7]ternel
+	  \[Fm7]Pour nous li\[G7 G#7]er
+	  Jusqu'au c\[C#7 C7]iel
+    \end{chorus}
+	
+  \begin{verse*}
+    \musicnote{\nolyrics{\[C\shrp7 G\shrp7 G7] \rep{2} }}
+  \end{verse*}
+  
+  \begin{repeatedchords}
+    \begin{verse}
+      Tes doubles sens si romantiques
+	  M'ont troublé, Onde magique
+	  Y a-t-il un sens à ta venue
+	  As-tu un nom ? Moi non plus ! 
+	  Mais comment t'atteindre
+    \end{verse}
+	
+	\musicnote{\Chorus}
+
+  \end{repeatedchords}
+\endsong

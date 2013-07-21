@@ -13,6 +13,19 @@ to the CC-BY-SA licence.
 Other document are subject to the GNU GPLv2 except if another licence
 is precised in the header.
 
+# Run
+
+>     git clone git://github.com/crep4ever/songbook-client.git
+>     cd songbook
+>     ./songbook.py -s <songbook_file.sb>
+>     <pdfreader> <songbook_file.pdf>
+
+Look for existing songbook files in ./books. For example:
+
+>     ./songbook.py -s ./books/songbook_en.sb
+>     evince songbook_en.pdf
+
+
 # Documentation
    http://www.patacrep.com/data/documents/doc_en.pdf
 

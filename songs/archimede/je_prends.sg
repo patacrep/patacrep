@@ -1,14 +1,14 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Je prends (a envoyer)}
+\beginsong{Je prends}
   [by={Archimède},cov={trafalgar},album={Trafalgar}]
 
   \cover
   \capo{3}
   \gtab{G}{320033}
   \gtab{C9}{X32033}
-  \gtab{Am}{002210}
-  \gtab{C}{032010}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
   \gtab{D}{XX0232}
   \gtab{Em}{022000}
 
@@ -57,7 +57,7 @@
     Les lapins je les compte plus tellement j'en prends
     Elles m'en posent autant que je prends des gants
     Toutes ces vestes à mon actif
-    Ca confine au dressing tellement je prends
+    Ça confine au dressing tellement je prends
   \end{chorus}
 
   \begin{verse}

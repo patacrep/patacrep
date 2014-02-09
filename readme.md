@@ -13,6 +13,18 @@ to the CC-BY-SA licence.
 Other document are subject to the GNU GPLv2 except if another licence
 is precised in the header.
 
+# Clone Patacrep repos
+
+>     git clone git://github.com/crep4ever/songbook-core.git
+>     git clone git://github.com/crep4ever/songbook-data.git
+>     mv songbook-data songbook-core/songs
+
+# Run
+
+>     cd songbook-core
+>     make <songbook_file.pdf>
+>     <pdfreader> <songbook_file.pdf>
+
 # Documentation
    http://www.patacrep.com/data/documents/doc_en.pdf
 

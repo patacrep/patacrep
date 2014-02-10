@@ -4,8 +4,10 @@
 from plasTeX.TeX import TeX
 import codecs
 import copy
+import locale
 import os
 import sys
+
 
 def simpleparse(text):
     """Parse a simple LaTeX string.
@@ -24,8 +26,8 @@ class SongParser:
         tex.disableLogging()
         tex.ownerDocument.context.loadBaseMacros()
         sys.path.append(os.path.dirname(__file__))
-        tex.ownerDocument.context.loadPackage(tex, "patchedbabel")
-        tex.ownerDocument.context.loadPackage(tex, "songs")
+        tex.ownerDocument.context.loadPackage(tex, "plastex-patchedbabel")
+        tex.ownerDocument.context.loadPackage(tex, "plastex-songs")
         sys.path.pop()
         return tex
 
@@ -45,8 +47,22 @@ def parsetex(filename):
     - titles: la liste des titres ;
     - args: le dictionnaire des paramètres passés à \\beginsong.
     """
+    # /* BEGIN plasTeX patch
+    # The following lines, and another line a few lines later, are used to
+    # circumvent a plasTeX bug. It has been reported, with a patch.
+    # To see if you can delete those lines, set your LC_TIME locale to French,
+    # during a month containing diacritics (e.g. Février), and run songbook. If
+    # no plasTeX bug appears, it is safe to remove those lines.
+    oldlocale = locale.getlocale()
+    locale.setlocale(locale.LC_TIME, 'C')
+    # plasTeX patch END */
+
     # Analyse syntaxique
     doc = SongParser.parse(filename)
+
+    # /* BEGIN plasTeX patch
+    locale.setlocale(locale.LC_TIME, "%s.%s" % oldlocale)
+    # plasTeX patch END */
 
     # Extraction des données
     data = {

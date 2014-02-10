@@ -10,13 +10,13 @@
 #
 
 from unidecode import unidecode
-import sys
-import re
 import locale
+import re
+import sys
 import warnings
 
-from tools import processauthors
-from utils.plastex import simpleparse
+from songbook.authors import processauthors
+from songbook.plastex import simpleparse
 
 # Pattern set to ignore latex command in title prefix
 keywordPattern = re.compile(r"^%(\w+)\s?(.*)$")

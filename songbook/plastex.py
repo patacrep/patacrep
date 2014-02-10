@@ -26,8 +26,8 @@ class SongParser:
         tex.disableLogging()
         tex.ownerDocument.context.loadBaseMacros()
         sys.path.append(os.path.dirname(__file__))
-        tex.ownerDocument.context.loadPackage(tex, "patchedbabel")
-        tex.ownerDocument.context.loadPackage(tex, "songs")
+        tex.ownerDocument.context.loadPackage(tex, "plastex-patchedbabel")
+        tex.ownerDocument.context.loadPackage(tex, "plastex-songs")
         sys.path.pop()
         return tex
 

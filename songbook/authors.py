@@ -1,16 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#
-
-import fnmatch
-import os
-
-def recursiveFind(root_directory, pattern):
-   matches = []
-   for root, dirnames, filenames in os.walk(root_directory):
-      for filename in fnmatch.filter(filenames, pattern):
-         matches.append(os.path.join(root, filename))
-   return matches
 
 def split_author_names(string):
     """Split author between first and last name.

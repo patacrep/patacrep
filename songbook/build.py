@@ -55,9 +55,9 @@ def formatDeclaration(name, parameter):
 def formatDefinition(name, value):
     return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
 
-def makeTexFile(sb, library, output):
+def makeTexFile(sb, library, output, core_dir):
     name = output[:-4]
-
+    template_dir = core_dir+'templates/'
     # default value
     template = "patacrep.tmpl"
     songs = []
@@ -67,7 +67,7 @@ def makeTexFile(sb, library, output):
 
     authwords_tex = ""
     authwords = {"after": ["by"], "ignore": ["unknown"], "sep": ["and"]}
-
+    
     # parse the songbook data
     if "template" in sb:
         template = sb["template"]
@@ -111,7 +111,7 @@ def makeTexFile(sb, library, output):
     Song.prefixes = prefixes
     Song.authwords = authwords
 
-    parameters = parseTemplate("templates/"+template)
+    parameters = parseTemplate(template_dir+template)
 
     # compute songslist
     if songs == "all":
@@ -142,15 +142,15 @@ def makeTexFile(sb, library, output):
 
     # output template
     commentPattern = re.compile(r"^\s*%")
-    f = open("templates/"+template)
+    f = open(template_dir+template)
     content = [ line for line in f if not commentPattern.match(line) ]
 
     for index, line in enumerate(content):
         if re.compile("getLibraryImgDirectory").search(line):
-            line = line.replace("\\getLibraryImgDirectory", library + "img/")
+            line = line.replace("\\getLibraryImgDirectory", core_dir + "img/")
             content[index] = line
         if re.compile("getLibraryLilypondDirectory").search(line):
-            line = line.replace("\\getLibraryLilypondDirectory", library + "lilypond/")
+            line = line.replace("\\getLibraryLilypondDirectory", core_dir + "lilypond/")
             content[index] = line
 
     f.close()
@@ -168,12 +168,16 @@ def buildsongbook(sb, basename, library):
     - basename: basename of the songbook to be built.
     """
 
+    MOD_DIR = os.path.dirname(os.path.abspath(__file__))
+    CORE_DIR = MOD_DIR + '/../'
+
     texFile  = basename + ".tex"
     pdfFile  = basename + ".pdf"
 
     # Make TeX file
-    makeTexFile(sb, library, texFile)
-
+    makeTexFile(sb, library, texFile, CORE_DIR)
+    
+    os.environ['TEXMFHOME'] = MOD_DIR + '/../'
     # First pdflatex pass
     call(["pdflatex", texFile])
 

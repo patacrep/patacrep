@@ -53,7 +53,7 @@ def parsetex(filename):
     # To see if you can delete those lines, set your LC_TIME locale to French,
     # during a month containing diacritics (e.g. Février), and run songbook. If
     # no plasTeX bug appears, it is safe to remove those lines.
-    oldlocale = locale.getlocale()
+    oldlocale = locale.getlocale(locale.LC_TIME)
     locale.setlocale(locale.LC_TIME, 'C')
     # plasTeX patch END */
 

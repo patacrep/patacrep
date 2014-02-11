@@ -179,7 +179,6 @@ def buildsongbook(sb, basename, library):
 
     # Make index
     sxdFiles = glob.glob("%s_*.sxd" % basename)
-    print sxdFiles
     for sxdFile in sxdFiles:
         print "processing " + sxdFile
         idx = processSXD(sxdFile)

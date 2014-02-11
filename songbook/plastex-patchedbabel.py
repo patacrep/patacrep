@@ -4,7 +4,7 @@
 """Patch pour le paquet Babel de PlasTeX
 
 Un bug dans PlasTeX intervient lorsqu'on essaye d'analyser une commande LaTeX
-\selectlanguage{}, que nouv voulons utiliser ici. Un patch a été proposé aux
+\selectlanguage{}, que nous voulons utiliser ici. Un patch a été proposé aux
 développeurs de plasTeX, et accepté. Mais il faut que cette correction arrive
 en production. En attendant, nous utilisons cette version modifiée.
 

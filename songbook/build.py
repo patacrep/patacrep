@@ -142,20 +142,18 @@ def makeTexFile(sb, library, output, core_dir):
 
     # output template
     commentPattern = re.compile(r"^\s*%")
-    f = open(template_dir+template)
-    content = [ line for line in f if not commentPattern.match(line) ]
+    with open(template_dir+template) as f:
+        content = [ line for line in f if not commentPattern.match(line) ]
 
-    for index, line in enumerate(content):
-        if re.compile("getLibraryImgDirectory").search(line):
-            line = line.replace("\\getLibraryImgDirectory", core_dir + "img/")
-            content[index] = line
-        if re.compile("getLibraryLilypondDirectory").search(line):
-            line = line.replace("\\getLibraryLilypondDirectory", core_dir + "lilypond/")
-            content[index] = line
+        for index, line in enumerate(content):
+            if re.compile("getLibraryImgDirectory").search(line):
+                line = line.replace("\\getLibraryImgDirectory", core_dir + "img/")
+                content[index] = line
+            if re.compile("getLibraryLilypondDirectory").search(line):
+                line = line.replace("\\getLibraryLilypondDirectory", core_dir + "lilypond/")
+                content[index] = line
 
-    f.close()
     out.write(''.join(content))
-
     out.close()
 
 def buildsongbook(sb, basename, library):
@@ -172,7 +170,6 @@ def buildsongbook(sb, basename, library):
     CORE_DIR = MOD_DIR + '/../'
 
     texFile  = basename + ".tex"
-    pdfFile  = basename + ".pdf"
 
     # Make TeX file
     makeTexFile(sb, library, texFile, CORE_DIR)

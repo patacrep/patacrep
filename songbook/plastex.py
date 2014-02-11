@@ -13,7 +13,7 @@ def simpleparse(text):
     """Parse a simple LaTeX string.
     """
     tex = TeX()
-    tex.input(text)
+    tex.input(text.decode('utf8'))
     doc = tex.parse()
     return doc.textContent
 

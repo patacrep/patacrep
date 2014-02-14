@@ -70,7 +70,6 @@
   linkcolor=tango-green-3,
   urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{tikz}
-\RequirePackage{licence}
 \RequirePackage{xstring}
 \RequirePackage{ifthen}
 \RequirePackage{framed}
@@ -109,7 +108,6 @@
 \def\web#1{\gdef\@web{#1}}
 \def\mail#1{\gdef\@mail{#1}}
 \def\email#1{\gdef\@email{#1}}
-\def\licence#1{\gdef\@licence{#1}}
 \def\picture#1{\gdef\@picture{#1}}
 \def\picturecopyright#1{\gdef\@picturecopyright{#1}}
 \def\footer#1{\gdef\@footer{#1}}

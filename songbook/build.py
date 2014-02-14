@@ -173,7 +173,8 @@ def buildsongbook(sb, basename, library):
     
     os.environ['TEXMFHOME'] = MOD_DIR + '/../'
     # First pdflatex pass
-    call(["pdflatex", "--shell-escape", texFile])
+    if call(["pdflatex", "--shell-escape", texFile]):
+        sys.exit(1)
 
     # Make index
     sxdFiles = glob.glob("%s_*.sxd" % basename)
@@ -185,4 +186,5 @@ def buildsongbook(sb, basename, library):
         indexFile.close()
 
     # Second pdflatex pass
-    call(["pdflatex", "--shell-escape", texFile])
+    if call(["pdflatex", "--shell-escape", texFile]):
+        sys.exit(1)

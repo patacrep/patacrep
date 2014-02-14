@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*-
 
 from subprocess import call
+import codecs
 import glob
 import json
 import os.path
 import re
+import sys
 
 from songbook.files import recursiveFind
 from songbook.index import processSXD
@@ -55,9 +57,10 @@ def formatDeclaration(name, parameter):
 def formatDefinition(name, value):
     return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
 
-def makeTexFile(sb, library, output, core_dir):
+def makeTexFile(sb, output):
+    datadir = sb['datadir']
     name = output[:-4]
-    template_dir = core_dir+'templates/'
+    template_dir = os.path.join(datadir, 'templates')
     # default value
     template = "patacrep.tmpl"
     songs = []
@@ -111,18 +114,22 @@ def makeTexFile(sb, library, output, core_dir):
     Song.prefixes = prefixes
     Song.authwords = authwords
 
-    parameters = parseTemplate(template_dir+template)
+    parameters = parseTemplate(os.path.join(template_dir, template))
 
     # compute songslist
     if songs == "all":
-        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
-    songslist = SongsList(library, sb["lang"])
+        songs = [
+                os.path.relpath(filename, os.path.join(datadir, 'songs'))
+                for filename
+                in recursiveFind(os.path.join(datadir, 'songs'), '*.sg')
+                ]
+    songslist = SongsList(datadir, sb["lang"])
     songslist.append_list(songs)
 
     sb["languages"] = ",".join(songslist.languages())
 
     # output relevant fields
-    out = open(output, 'w')
+    out = codecs.open(output, 'w', 'utf-8')
     out.write('%% This file has been automatically generated, do not edit!\n')
     out.write('\\makeatletter\n')
     # output automatic parameters
@@ -142,36 +149,37 @@ def makeTexFile(sb, library, output, core_dir):
 
     # output template
     commentPattern = re.compile(r"^\s*%")
-    with open(template_dir+template) as f:
+    with codecs.open(os.path.join(template_dir, template), 'r', 'utf-8') as f:
         content = [ line for line in f if not commentPattern.match(line) ]
 
         for index, line in enumerate(content):
-            if re.compile("getLibraryImgDirectory").search(line):
-                line = line.replace("\\getLibraryImgDirectory", core_dir + "img/")
+            if re.compile("getDataImgDirectory").search(line):
+                if os.path.abspath(os.path.join(datadir, "img")).startswith(os.path.abspath(os.path.dirname(output))):
+                    imgdir = os.path.relpath(os.path.join(datadir, "img"), os.path.dirname(output))
+                else:
+                    imgdir = os.path.abspath(os.path.join(datadir, "img"))
+                line = line.replace("\\getDataImgDirectory", ' {%s/} ' % imgdir)
                 content[index] = line
 
-    out.write(''.join(content))
+    out.write(u''.join(content))
     out.close()
 
-def buildsongbook(sb, basename, library):
+def buildsongbook(sb, basename):
     """Build a songbook
 
     Arguments:
     - sb: Python representation of the .sb songbook configuration file.
-    - library: directory containing the "songs" directory, itself containing
-      songs.
     - basename: basename of the songbook to be built.
     """
-
-    MOD_DIR = os.path.dirname(os.path.abspath(__file__))
-    CORE_DIR = MOD_DIR + '/../'
 
     texFile  = basename + ".tex"
 
     # Make TeX file
-    makeTexFile(sb, library, texFile, CORE_DIR)
-    
-    os.environ['TEXMFHOME'] = MOD_DIR + '/../'
+    makeTexFile(sb, texFile)
+
+    os.environ['TEXINPUTS'] += os.pathsep + os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'latex')
+    os.environ['TEXINPUTS'] += os.pathsep + os.path.join(sb['datadir'], 'latex')
+
     # First pdflatex pass
     if call(["pdflatex", "--shell-escape", texFile]):
         sys.exit(1)

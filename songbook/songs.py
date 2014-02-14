@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from unidecode import unidecode
+import glob
 import locale
 import os.path
 import re
@@ -71,7 +72,7 @@ class SongsList:
     """Manipulation et traitement de liste de chansons"""
 
     def __init__(self, library, language):
-        self._library = library
+        self._songdir = os.path.join(library, 'songs')
         self._language = language
 
         # Liste triée des chansons
@@ -85,11 +86,10 @@ class SongsList:
         pour en extraire et traiter certaines information (titre, langue,
         album, etc.).
         """
-        path = os.path.join(self._library, 'songs', filename)
         # Exécution de PlasTeX
-        data = parsetex(path)
+        data = parsetex(filename)
 
-        song = Song(path, data['languages'], data['titles'], data['args'])
+        song = Song(filename, data['languages'], data['titles'], data['args'])
         low, high = 0, len(self.songs)
         while low != high:
             middle = (low + high) / 2
@@ -102,10 +102,13 @@ class SongsList:
     def append_list(self, filelist):
         """Ajoute une liste de chansons à la liste
 
-        L'argument est une liste de chaînes, représentant des noms de fichiers.
+        L'argument est une liste de chaînes, représentant des noms de fichiers
+        sous la forme d'expressions régulières destinées à être analysées avec
+        le module glob.
         """
-        for filename in filelist:
-            self.append(filename)
+        for regexp in filelist:
+            for filename in glob.iglob(os.path.join(self._songdir, regexp)):
+                self.append(filename)
 
     def latex(self):
         """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.

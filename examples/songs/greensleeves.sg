@@ -1,0 +1,150 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Greensleeves}
+  [by={Traditionnel},cov={traditionnel},album={Angleterre}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab{E}{022100}
+  \gtab{C}{X32010}
+
+  \lilypond{greensleeves}
+
+  \begin{verse}
+    A\[Am]las, my love, ye \[G]do me wrong
+    To \[Am]cast me oft dis\[E]curteously
+    And \[Am]{I have} loved \[G]you so long
+    De\[Am]lighting \[E]in your \[Am]companie
+  \end{verse}
+
+  \begin{chorus}
+    \[C]Greensleeves was \[G]all my joy
+    \[Am]Greensleeves was \[E]my delight
+    \[C]Greensleeves was my \[G]heart of gold
+    And \[Am]who but \[E]Ladie \[Am]Greensleeves
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      I \[Am]have been readie \[G]at your hand
+      To \[Am]grant what ever \[E]you would crave
+      I \[Am]have both waged \[G]life and land
+      Your \[Am]love and \[E]good will \[Am]for to have
+    \end{verse}
+
+    \begin{verse}
+      I \[Am]bought thee kerchers \[G]to thy head
+      That \[Am]were wrought fine and \[E]gallantly
+      I \[Am]kept thee both at \[G]boord and bed
+      Which \[Am]cost my \[E]purse well \[Am]favouredly
+    \end{verse}
+
+    \begin{verse}
+      I \[Am]bought thee peticotes \[G]of the best
+      The \[Am]cloth so fine as \[E]fine might be
+      I \[Am]gave thee jewels \[G]for thy chest
+      And \[Am]all this \[E]cost I \[Am]spent on thee
+    \end{verse}
+
+    \begin{verse}
+      Thy \[Am]smock of silke, both \[G]faire and white
+      With \[Am]gold embrodered \[E]gorgeously
+      Thy \[Am]peticote of \[G]sendall right
+      And \[Am]this I \[E]bought thee \[Am]gladly
+    \end{verse}
+
+    \begin{verse}
+      Thy \[Am]girdle of gold \[G]so red
+      With \[Am]pearles bed\[E]ecked sumtuously
+      The \[Am]like no other \[G]lasses had
+      And \[Am]yet thou \[E]wouldest not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      Thy \[Am]purse, and eke thy gay \[G]guilt knives
+      Thy \[Am]pincase, gallant \[E]to the eie
+      No \[Am]better wore the \[G]burgesse wives
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      Thy \[Am]crimson stockings, \[G]all of silk
+      With \[Am]golde all \[E]wrought above the knee
+      Thy \[Am]pumps, as white as \[G]was the milk
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      Thy \[Am]gown was of the \[G]grassie green
+      Thy \[Am]sleeves of satten \[E]hanging by
+      Which \[Am]made thee be our \[G]harvest queen
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      Thy \[Am]garters fringed \[G]with the golde
+      And \[Am]silver aglets \[E]hanging by
+      Which \[Am]made thee blithe for \[G]to beholde
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      My gayest gelding I thee gave
+      To ride where ever liked thee
+      No ladie ever was so brave
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+      And yet thou wouldst not love me
+    \end{verse}
+
+    \begin{verse}
+      My \[Am]men were clothed \[G]all in green
+      And \[Am]they did ever \[E]wait on thee
+      All \[Am]this was gallant \[G]to be seen
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      They \[Am]set thee up, they \[G]took thee downe
+      They \[Am]served thee with hu\[E]militie
+      Thy \[Am]foote might not once \[G]touch the ground
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      For \[Am]everie morning, \[G]when thou rose
+      I \[Am]sent thee dainties, \[E]orderly
+      To \[Am]cheare thy stomack from \[G]all woes
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      Thou \[Am]couldst desire no \[G]earthly thing
+      But \[Am]stil thou hadst it \[E]readily
+      Thy \[Am]musicke still to \[G]play and sing
+      And \[Am]yet thou \[E]wouldst not \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      And \[Am]who did pay for \[G]all this geare
+      That \[Am]thou didst spend when \[E]pleased thee?
+      Even \[Am]{I that} am re\[G]jected here
+      And \[Am]thou dis\[E]dainst to \[Am]love me
+    \end{verse}
+
+    \begin{verse}
+      Wei, \[Am]{I wil} pray to \[G]God on hie
+      That \[Am]thou my constancie \[E]maist see
+      And \[Am]that yet once be\[G]fore I die
+      Thou \[Am]will vouch\[E]safe to \[Am]love me
+    \end{verse}
+
+    \begin{chorus}
+      \[C]Greensleeves, now \[G]farewel, adue!
+      \[Am]God I pray to \[E]prosper thee
+      \[C]For I am stil thy \[G]lover true
+      Come \[Am]once a\[E]gaine, and \[Am]love me!
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

@@ -21,10 +21,10 @@
 
 % Sad robot: the song's title
 % Pornophonique : the artist's name
-% 8-bit-lagerfeuer : the file "8-bit-lagerfeuer.jpg" that corresponds to the album art
+% traditionnel : the file "8-bit-lagerfeuer.jpg" that corresponds to the album art
 % 8 bit lagerfeuer : the album whose song is extracted from 
 \beginsong{Sad robot}
-  [by={Pornophonique},cov={8-bit-lagerfeuer},album={8 bit lagerfeuer}]
+  [by={Pornophonique},cov={traditionnel},album={8 bit lagerfeuer}]
 
   % inserts the album art (8-bit-lagerfeuer.jpg)
   \cover
@@ -45,7 +45,7 @@
   % use the \rep{n} macro for a sentence repeated n times
   % use the \echo{text} macro for background singing lyrics
 
-  \lilypond{Sad_robot} % inserts the music sheet corresponding to the Sad_robot.ly file in the same directory as this .sg file.
+  %\lilypond{Sad_robot} % inserts the music sheet corresponding to the Sad_robot.ly file in the same directory as this .sg file.
 
   % verse environments are automatically numbered
   \begin{verse}

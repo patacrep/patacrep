@@ -1,0 +1,19 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Vent frais}
+  [by={Traditionnel},cov={traditionnel},album={France}]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+    \[Dm]Vent \[Am]frais
+    \[Dm]Vent du ma\[Am]tin
+    \[Dm]Vent qui \[Am]souffle
+    Au \[Dm]sommet des grands \[Am]pins
+    \[Dm]Joie du \[Am]vent qui \[Dm]souffle
+    A\[Am]llons dans le grand \dots
+  \end{verse}
+
+\endsong

@@ -23,10 +23,10 @@
 
 % Sad robot: le titre de la chanson
 % Pornophonique : le nom de l'artiste
-% 8-bit-lagerfeuer : le fichier "8-bit-lagerfeuer.jpg" correspondant à la pochette de l'album
+% traditionnel : le fichier "8-bit-lagerfeuer.jpg" correspondant à la pochette de l'album
 % 8 bit lagerfeuer : le nom de l'album dont la chanson est extraite
 \beginsong{Sad robot}
-  [by={Pornophonique},cov={8-bit-lagerfeuer},album={8 bit lagerfeuer}]
+  [by={Pornophonique},cov={traditionnel},album={8 bit lagerfeuer}]
 
   % insère la pochette de l'album (8-bit-lagerfeuer.jpg)
   \cover
@@ -47,7 +47,7 @@
   % utilisez la macro \rep{n} pour une phrase répétée n fois
   % utilisez la macro \echo{text} pour les phrases chantées en arrière plan
 
-  \lilypond{Sad_robot} % insère la partition correspondant au fichier Sad_robot.ly du répertoire de ce fichier .sg
+  %\lilypond{Sad_robot} % insère la partition correspondant au fichier Sad_robot.ly du répertoire de ce fichier .sg
 
   \begin{verse}
     His \[Dm]steely skin is covered
@@ -64,14 +64,14 @@
       \[F]Can you feel the pain
       Of the \[C]sad, sad robot
       And it's \[Dm]driving him insane
-    \end{verse}
+    \end{verse*}
 
     \begin{verse*}
       He can't \[Dm]turn back time nor history
       So his \[F]life became a misery
       He \[C]has to face the destiny
       Nobody \[Dm]cares anymore
-    \end{verse}
+    \end{verse*}
   \end{repeatedchords}
 
   \begin{chorus}

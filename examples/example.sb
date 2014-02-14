@@ -1,0 +1,16 @@
+{
+"template" : "default.tmpl",
+"bookoptions" : [
+    "importantdiagramonly",
+    "repeatchords",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"lang" : "french",
+"songs" : "all",
+"authwords" : {
+  "sep" : ["and", "et"]
+  },
+ "datadir" : "."
+}

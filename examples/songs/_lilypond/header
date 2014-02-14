@@ -1,0 +1,26 @@
+#(use-modules (guile-user))
+\version "2.14.2"
+
+\paper
+{
+  make-header=##f
+  %make-footer=##f
+  oddFooterMarkup = \markup { \fill-line {} }
+  page-top-space = 0\cm
+
+  head-separation = 0\cm
+  foot-separation = 0\cm
+
+  left-margin = 0\cm
+  top-margin = 0\cm
+  bottom-margin = 0\cm
+
+  indent = 0\cm
+  between-system-padding = 0\cm
+
+  paper-width = 7.5\cm
+  line-width = 7\cm
+  paper-height = 1\cm
+}
+
+#(set-global-staff-size 12)

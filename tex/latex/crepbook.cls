@@ -58,6 +58,7 @@
 
 % Main packages
 \RequirePackage{graphicx,xcolor}
+\RequirePackage{epstopdf}
 \RequirePackage{songs}
 \RequirePackage{fancybox}
 \definecolor{tango-green-3}{HTML}{4e9a06}
@@ -310,7 +311,16 @@
 }
 \fi%
 
+% On-the-fly compilation of lilypond files
+\epstopdfDeclareGraphicsRule{.ly}{pdf}{.pdf}{lilypond --format=pdf -e '(define-public songbookstaff "")' --output=\Gin@base\ETE@suffix\space #1}
+\AppendGraphicsExtensions{.ly}
+
 \newcommand{\lilypond}[1]{%
+  \iflilypond%
+  \includegraphics{\currfiledir#1}%
+  \fi%
+}
+\newcommand{\vlilypond}[1]{%
   \iflilypond%
   \includegraphics{#1}%
   \fi%

@@ -149,9 +149,6 @@ def makeTexFile(sb, library, output, core_dir):
             if re.compile("getLibraryImgDirectory").search(line):
                 line = line.replace("\\getLibraryImgDirectory", core_dir + "img/")
                 content[index] = line
-            if re.compile("getLibraryLilypondDirectory").search(line):
-                line = line.replace("\\getLibraryLilypondDirectory", core_dir + "lilypond/")
-                content[index] = line
 
     out.write(''.join(content))
     out.close()
@@ -176,7 +173,7 @@ def buildsongbook(sb, basename, library):
     
     os.environ['TEXMFHOME'] = MOD_DIR + '/../'
     # First pdflatex pass
-    call(["pdflatex", texFile])
+    call(["pdflatex", "--shell-escape", texFile])
 
     # Make index
     sxdFiles = glob.glob("%s_*.sxd" % basename)
@@ -188,4 +185,4 @@ def buildsongbook(sb, basename, library):
         indexFile.close()
 
     # Second pdflatex pass
-    call(["pdflatex", texFile])
+    call(["pdflatex", "--shell-escape", texFile])

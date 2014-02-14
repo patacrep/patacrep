@@ -45,7 +45,7 @@
   % use the \rep{n} macro for a sentence repeated n times
   % use the \echo{text} macro for background singing lyrics
 
-  \lilypond{Sad_robot} % inserts the music sheet corresponding to the Sad_robot.ly file in the ./lilypond directory
+  \lilypond{Sad_robot} % inserts the music sheet corresponding to the Sad_robot.ly file in the same directory as this .sg file.
 
   % verse environments are automatically numbered
   \begin{verse}

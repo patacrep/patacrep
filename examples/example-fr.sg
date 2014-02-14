@@ -47,7 +47,7 @@
   % utilisez la macro \rep{n} pour une phrase répétée n fois
   % utilisez la macro \echo{text} pour les phrases chantées en arrière plan
 
-  \lilypond{Sad_robot} % insère la partition correspondant au fichier Sad_robot.ly du répertoire ./lilypond
+  \lilypond{Sad_robot} % insère la partition correspondant au fichier Sad_robot.ly du répertoire de ce fichier .sg
 
   \begin{verse}
     His \[Dm]steely skin is covered

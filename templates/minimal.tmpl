@@ -46,13 +46,8 @@
 \usepackage{babel}
 
 \lang{\getlang}
-\graphicspath{ {img/}, {\getLibraryImgDirectory}, {\getLibraryLilypondDirectory} }
 
-\renewcommand{\lilypond}[1]{%
-  \iflilypond%
-  \IfFileExists{\getLibraryLilypondDirectory/#1.pdf}{\includegraphics{#1}}{}%
-  \fi%
-}
+\graphicspath{ {img/}, {\getLibraryImgDirectory} }
 
 \gettitleprefixwords
 \getauthwords
@@ -61,7 +56,7 @@
 \pagestyle{empty}
 
 % Customization of the page appearance
-\RequirePackage[
+\usepackage[
   a4paper % paper size
   ,includeheadfoot % include header and footer into text size
   ,hmarginratio=1:1 % ratio between inner and outer margin (default)

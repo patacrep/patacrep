@@ -43,11 +43,10 @@ def processSXD(filename):
     i = 1
     idx = index(data[0])
 
-    if len(data) > 1:
-        while data[i].startswith('%'):
-            keywords = keywordPattern.match(data[i]).groups()
-            idx.keyword(keywords[0],keywords[1])
-            i += 1
+    while len(data) > i and data[i].startswith('%'):
+        keywords = keywordPattern.match(data[i]).groups()
+        idx.keyword(keywords[0],keywords[1])
+        i += 1
 
     idx.compileKeywords()
     for i in range(i,len(data),3):

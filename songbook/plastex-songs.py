@@ -3,6 +3,8 @@
 
 import plasTeX
 
+from songbook.plastex import processUnbreakableSpace
+
 def split_linebreak(texlist):
     return_list = []
     current = []
@@ -11,7 +13,7 @@ def split_linebreak(texlist):
             return_list.append(current)
             current = []
         else:
-            current.append(token.textContent.encode('utf-8'))
+            current.append(processUnbreakableSpace(token).textContent.encode('utf-8'))
     if current:
         return_list.append(current)
     return return_list
@@ -31,7 +33,7 @@ class beginsong(plasTeX.Command):
         args = {}
         for (key, val) in self.attributes['args'].iteritems():
             if isinstance(val, plasTeX.DOM.Element):
-                args[key] = val.textContent.encode('utf-8')
+                args[key] = processUnbreakableSpace(val).textContent.encode('utf-8')
             elif isinstance(val, unicode):
                 args[key] = val.encode('utf-8')
             elif isinstance(val, str):

@@ -2,12 +2,25 @@
 # -*- coding: utf-8 -*-
 
 from plasTeX.TeX import TeX
+from plasTeX.Base.LaTeX import Sentences
+
 import codecs
 import copy
 import locale
 import os
 import sys
 
+def processUnbreakableSpace(node):
+    """Replace '~' and '\ ' in node by nodes that will be rendered as unbreakable space.
+
+    Return node object for convenience.
+    """
+    if type(node) == Sentences.InterWordSpace or (type(node) == Sentences.NoLineBreak and node.source == '~ '):
+        node.unicode = unichr(160)
+    for child in node.childNodes:
+        processUnbreakableSpace(child)
+
+    return node
 
 def simpleparse(text):
     """Parse a simple LaTeX string.
@@ -15,7 +28,7 @@ def simpleparse(text):
     tex = TeX()
     tex.input(text.decode('utf8'))
     doc = tex.parse()
-    return doc.textContent
+    return processUnbreakableSpace(doc.textContent)
 
 class SongParser:
     """Analyseur syntaxique de fichiers .sg"""

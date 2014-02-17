@@ -12,6 +12,7 @@ import sys
 from songbook.build import buildsongbook
 from songbook import __VERSION__
 
+
 def argument_parser(args):
     parser = argparse.ArgumentParser(description="A song book compiler")
 
@@ -24,34 +25,38 @@ def argument_parser(args):
 
     parser.add_argument('--datadir', '-d', nargs=1, type=str, action='store',
             help=textwrap.dedent("""\
-                    Data location. Expected (not necessarily required) subdirectories are 'songs', 'img', 'latex', 'templates'.
+                    Data location. Expected (not necessarily required)
+                    subdirectories are 'songs', 'img', 'latex', 'templates'.
             """))
 
     options = parser.parse_args(args)
 
     return options
 
+
 def main():
-    locale.setlocale(locale.LC_ALL, '') # set script locale to match user's
+    # set script locale to match user's
+    locale.setlocale(locale.LC_ALL, '')
 
     options = argument_parser(sys.argv[1:])
 
-    sbFile = options.book[0]
+    songbook_path = options.book[0]
 
-    basename = os.path.basename(sbFile)[:-3]
+    basename = os.path.basename(songbook_path)[:-3]
 
-    f = open(sbFile)
-    sb = json.load(f)
-    f.close()
+    with open(songbook_path) as songbook_file:
+        songbook = json.load(songbook_file)
 
     if options.datadir is not None:
-        sb['datadir'] = options.datadir
-    elif 'datadir' in sb.keys():
-        if not os.path.isabs(sb['datadir']):
-            sb['datadir'] = os.path.join(os.path.dirname(sbFile), sb['datadir'])
+        songbook['datadir'] = options.datadir
+    elif 'datadir' in songbook.keys():
+        if not os.path.isabs(songbook['datadir']):
+            songbook['datadir'] = os.path.join(os.path.dirname(songbook_path),
+                                               songbook['datadir']
+                                               )
     else:
-        sb['datadir'] = os.path.dirname(sbFile)
-    buildsongbook(sb, basename)
+        songbook['datadir'] = os.path.dirname(songbook_path)
+    buildsongbook(songbook, basename)
 
 if __name__ == '__main__':
     main()

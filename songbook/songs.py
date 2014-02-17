@@ -10,6 +10,7 @@ import re
 from songbook.authors import processauthors
 from songbook.plastex import parsetex
 
+
 class Song:
     #: Ordre de tri
     sort = []
@@ -19,10 +20,15 @@ class Song:
     authwords = {"after": [], "ignore": [], "sep": []}
 
     def __init__(self, path, languages, titles, args):
-        self.titles  = titles
-        self.normalized_titles = [locale.strxfrm(unprefixed_title(unidecode(unicode(title, "utf-8")), self.prefixes)) for title in titles]
-        self.args   = args
-        self.path   = path
+        self.titles = titles
+        self.normalized_titles = [locale.strxfrm(
+                                                 unprefixed_title(unidecode(unicode(title, "utf-8")),
+                                                                  self.prefixes
+                                                                  )
+                                                 )
+                                  for title in titles]
+        self.args = args
+        self.path = path
         self.languages = languages
         if "by" in self.args.keys():
             self.normalized_authors = [
@@ -59,6 +65,7 @@ class Song:
                 return 1
         return 0
 
+
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
@@ -67,6 +74,7 @@ def unprefixed_title(title, prefixes):
         if match:
             return match.group(2)
     return title
+
 
 class SongsList:
     """Manipulation et traitement de liste de chansons"""
@@ -77,7 +85,6 @@ class SongsList:
 
         # Liste triée des chansons
         self.songs = []
-
 
     def append(self, filename):
         """Ajout d'une chanson à la liste
@@ -113,7 +120,8 @@ class SongsList:
     def latex(self):
         """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.
         """
-        result = [ '\\input{{{0}}}'.format(song.path.replace("\\","/").strip()) for song in self.songs]
+        result = ['\\input{{{0}}}'.format(song.path.replace("\\", "/").strip())
+                  for song in self.songs]
         result.append('\\selectlanguage{%s}' % self._language)
         return '\n'.join(result)
 

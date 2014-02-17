@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 def split_author_names(string):
     """Split author between first and last name.
 
@@ -30,6 +31,7 @@ def split_author_names(string):
             brace_count -= 1
     return string[:last_space], string[last_space:]
 
+
 def split_sep_author(string, sep):
     authors = []
     match = sep.match(string)
@@ -40,12 +42,16 @@ def split_sep_author(string, sep):
     authors.append(string)
     return authors
 
-def processauthors(authors_string, after = [], ignore = [], sep = []):
+
+def processauthors(authors_string, after=[], ignore=[], sep=[]):
     """Return a list of authors
 
     For example, we are processing:
     # processauthors(
-    #   "Lyrics by William Blake (from Milton, 1808), music by Hubert Parry (1916), and sung by The Royal\ Choir~of~Nowhere (just here to show you how processing is done)",
+    #   "Lyrics by William Blake (from Milton, 1808),
+                    music by Hubert Parry (1916),
+                    and sung by The Royal\ Choir~of~Nowhere
+                    (just here to show you how processing is done)",
     #   after = ["by"],
     #   ignore = ["anonymous"],
     #   sep = ["and"]
@@ -54,10 +60,12 @@ def processauthors(authors_string, after = [], ignore = [], sep = []):
     The "authors_string" string is processed as:
 
     1) First, parenthesis (and its content) are removed.
-    # "Lyrics by William Blake, music by Hubert Parry, and sung by The Royal\ Choir~of~Nowhere"
+    # "Lyrics by William Blake, music by Hubert Parry,
+                and sung by The Royal\ Choir~of~Nowhere"
 
     2) String is split, separators being comma and words from "sep".
-    # ["Lyrics by William Blake", "music by Hubert Parry", "sung by The Royal\ Choir~of~Nowhere"]
+    # ["Lyrics by William Blake", "music by Hubert Parry",
+                "sung by The Royal\ Choir~of~Nowhere"]
 
     3) Everything before words in "after" is removed.
     # ["William Blake", "Hubert Parry", "The Royal\ Choir~of~Nowhere"]
@@ -113,7 +121,8 @@ def processauthors(authors_string, after = [], ignore = [], sep = []):
     authors_list = dest
 
     # Cleaning: removing empty authors and unnecessary spaces
-    authors_list = [author.lstrip() for author in authors_list if author.lstrip()]
+    authors_list = [author.lstrip()
+                    for author in authors_list if author.lstrip()]
 
     # Moving first names after last names
     dest = []

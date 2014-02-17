@@ -14,16 +14,18 @@ from songbook.index import processSXD
 from songbook.songs import Song, SongsList
 from songbook import __SHAREDIR__
 
+
 def parseTemplate(template):
     embeddedJsonPattern = re.compile(r"^%%:")
-    f = open(template)
-    code = [ line[3:-1] for line in f if embeddedJsonPattern.match(line) ]
-    f.close()
+    with open(template) as template_file:
+        code = [line[3:-1] for line in template_file if embeddedJsonPattern.match(line)]
+
     data = json.loads(''.join(code))
     parameters = dict()
     for param in data:
         parameters[param["name"]] = param
     return parameters
+
 
 def toValue(parameter, data):
     if "type" not in parameter:
@@ -37,7 +39,7 @@ def toValue(parameter, data):
     elif parameter["type"] == "color":
         return data[1:]
     elif parameter["type"] == "font":
-        return data+'pt'
+        return data + 'pt'
     elif parameter["type"] == "enum":
         return data
     elif parameter["type"] == "file":
@@ -49,14 +51,19 @@ def toValue(parameter, data):
             joinText = ''
         return joinText.join(data)
 
+
 def formatDeclaration(name, parameter):
     value = ""
     if "default" in parameter:
         value = parameter["default"]
-    return '\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name) + formatDefinition(name, toValue(parameter, value))
+    return ('\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name)
+            + formatDefinition(name, toValue(parameter, value))
+            )
+
 
 def formatDefinition(name, value):
     return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
+
 
 def clean(basename):
     generated_extensions = [
@@ -76,6 +83,7 @@ def clean(basename):
 
     return True
 
+
 def makeTexFile(sb, output):
     datadir = sb['datadir']
     name = output[:-4]
@@ -87,7 +95,7 @@ def makeTexFile(sb, output):
 
     authwords_tex = ""
     authwords = {"after": ["by"], "ignore": ["unknown"], "sep": ["and"]}
-    
+
     # parse the songbook data
     if "template" in sb:
         template = sb["template"]
@@ -117,10 +125,12 @@ def makeTexFile(sb, output):
                     authwords_tex += "\\auth%sword{%s}\n" % (key, word)
         sb["authwords"] = authwords_tex
     if "after" in authwords:
-        authwords["after"] = [re.compile(r"^.*%s\b(.*)" % after) for after in authwords["after"]]
+        authwords["after"] = [re.compile(r"^.*%s\b(.*)" % after)
+                              for after in authwords["after"]]
     if "sep" in authwords:
         authwords["sep"] = [" %s" % sep for sep in authwords["sep"]] + [","]
-        authwords["sep"] = [re.compile(r"^(.*)%s (.*)$" % sep) for sep in authwords["sep"] ]
+        authwords["sep"] = [re.compile(r"^(.*)%s (.*)$" % sep)
+                            for sep in authwords["sep"]]
 
     if "lang" not in sb:
         sb["lang"] = "french"
@@ -152,15 +162,15 @@ def makeTexFile(sb, output):
     out.write('%% This file has been automatically generated, do not edit!\n')
     out.write('\\makeatletter\n')
     # output automatic parameters
-    out.write(formatDeclaration("name", {"default":name}))
-    out.write(formatDeclaration("songslist", {"type":"stringlist"}))
+    out.write(formatDeclaration("name", {"default": name}))
+    out.write(formatDeclaration("songslist", {"type": "stringlist"}))
     # output template parameter command
     for name, parameter in parameters.iteritems():
         out.write(formatDeclaration(name, parameter))
     # output template parameter values
     for name, value in sb.iteritems():
         if name in parameters:
-            out.write(formatDefinition(name, toValue(parameters[name],value)))
+            out.write(formatDefinition(name, toValue(parameters[name], value)))
 
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist.latex()))
@@ -169,7 +179,7 @@ def makeTexFile(sb, output):
     # output template
     commentPattern = re.compile(r"^\s*%")
     with codecs.open(os.path.join(template_dir, template), 'r', 'utf-8') as f:
-        content = [ line for line in f if not commentPattern.match(line) ]
+        content = [line for line in f if not commentPattern.match(line)]
 
         for index, line in enumerate(content):
             if re.compile("getDataImgDirectory").search(line):
@@ -183,6 +193,7 @@ def makeTexFile(sb, output):
     out.write(u''.join(content))
     out.close()
 
+
 def buildsongbook(sb, basename):
     """Build a songbook
 
@@ -191,12 +202,12 @@ def buildsongbook(sb, basename):
     - basename: basename of the songbook to be built.
     """
 
-    texFile  = basename + ".tex"
+    texFile = basename + ".tex"
 
     # Make TeX file
     makeTexFile(sb, texFile)
 
-    if not os.environ.has_key('TEXINPUTS'):
+    if not 'TEXINPUTS' in os.environ.keys():
         os.environ['TEXINPUTS'] = ''
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(__SHAREDIR__, 'latex')
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(sb['datadir'], 'latex')
@@ -210,7 +221,7 @@ def buildsongbook(sb, basename):
     for sxdFile in sxdFiles:
         print "processing " + sxdFile
         idx = processSXD(sxdFile)
-        indexFile = open(sxdFile[:-3]+"sbx", "w")
+        indexFile = open(sxdFile[:-3] + "sbx", "w")
         indexFile.write(idx.entriesToStr().encode('utf8'))
         indexFile.close()
 

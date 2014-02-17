@@ -5,6 +5,7 @@ import plasTeX
 
 from songbook.plastex import processUnbreakableSpace
 
+
 def split_linebreak(texlist):
     return_list = []
     current = []
@@ -17,6 +18,7 @@ def split_linebreak(texlist):
     if current:
         return_list.append(current)
     return return_list
+
 
 class beginsong(plasTeX.Command):
     args = '{titles}[ args:dict ]'

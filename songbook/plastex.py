@@ -12,7 +12,7 @@ import sys
 
 
 def processUnbreakableSpace(node):
-    """Replace '~' and '\ ' in node by nodes that 
+    """Replace '~' and '\ ' in node by nodes that
     will be rendered as unbreakable space.
 
     Return node object for convenience.

@@ -178,8 +178,8 @@ def makeTexFile(sb, output):
 
     # output template
     commentPattern = re.compile(r"^\s*%")
-    with codecs.open(os.path.join(template_dir, template), 'r', 'utf-8') as f:
-        content = [line for line in f if not commentPattern.match(line)]
+    with codecs.open(os.path.join(template_dir, template), 'r', 'utf-8') as template_file:
+        content = [line for line in template_file if not commentPattern.match(line)]
 
         for index, line in enumerate(content):
             if re.compile("getDataImgDirectory").search(line):

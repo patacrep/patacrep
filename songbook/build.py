@@ -12,6 +12,7 @@ import sys
 from songbook.files import recursiveFind
 from songbook.index import processSXD
 from songbook.songs import Song, SongsList
+from songbook import __SHAREDIR__
 
 def parseTemplate(template):
     embeddedJsonPattern = re.compile(r"^%%:")
@@ -61,8 +62,6 @@ def makeTexFile(sb, output):
     datadir = sb['datadir']
     name = output[:-4]
     template_dir = os.path.join(datadir, 'templates')
-    # default value
-    template = "patacrep.tmpl"
     songs = []
 
     prefixes_tex = ""
@@ -75,6 +74,8 @@ def makeTexFile(sb, output):
     if "template" in sb:
         template = sb["template"]
         del sb["template"]
+    else:
+        template = os.path.join(__SHAREDIR__, "templates", "default.tmpl")
     if "songs" in sb:
         songs = sb["songs"]
         del sb["songs"]
@@ -179,7 +180,7 @@ def buildsongbook(sb, basename):
 
     if not os.environ.has_key('TEXINPUTS'):
         os.environ['TEXINPUTS'] = ''
-    os.environ['TEXINPUTS'] += os.pathsep + os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'latex')
+    os.environ['TEXINPUTS'] += os.pathsep + os.path.join(__SHAREDIR__, 'latex')
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(sb['datadir'], 'latex')
 
     # First pdflatex pass

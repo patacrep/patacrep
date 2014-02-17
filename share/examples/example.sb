@@ -1,5 +1,4 @@
 {
-"template" : "default.tmpl",
 "bookoptions" : [
     "importantdiagramonly",
     "repeatchords",

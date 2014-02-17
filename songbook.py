@@ -22,7 +22,7 @@ def argument_parser(args):
                     Book to compile.
             """))
 
-    parser.add_argument('--datadir', '-d', nargs=1, type=str, action='store', default=".",
+    parser.add_argument('--datadir', '-d', nargs=1, type=str, action='store',
             help=textwrap.dedent("""\
                     Data location. Expected (not necessarily required) subdirectories are 'songs', 'img', 'latex', 'templates'.
             """))
@@ -44,11 +44,13 @@ def main():
     sb = json.load(f)
     f.close()
 
-    if 'datadir' in sb.keys():
+    if options.datadir is not None:
+        sb['datadir'] = options.datadir
+    elif 'datadir' in sb.keys():
         if not os.path.isabs(sb['datadir']):
             sb['datadir'] = os.path.join(os.path.dirname(sbFile), sb['datadir'])
     else:
-        sb['datadir'] = options.datadir
+        sb['datadir'] = os.path.dirname(sbFile)
     buildsongbook(sb, basename)
 
 if __name__ == '__main__':

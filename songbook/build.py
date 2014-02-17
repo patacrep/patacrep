@@ -177,7 +177,9 @@ def buildsongbook(sb, basename):
     # Make TeX file
     makeTexFile(sb, texFile)
 
-    os.environ['TEXINPUTS'] = os.pathsep + os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'latex')
+    if not os.environ.has_key('TEXINPUTS'):
+        os.environ['TEXINPUTS'] = ''
+    os.environ['TEXINPUTS'] += os.pathsep + os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'latex')
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(sb['datadir'], 'latex')
 
     # First pdflatex pass

@@ -58,6 +58,24 @@ def formatDeclaration(name, parameter):
 def formatDefinition(name, value):
     return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
 
+def clean(basename):
+    generated_extensions = [
+            "_auth.sbx",
+            "_auth.sxd",
+            ".aux",
+            ".log",
+            ".out",
+            ".sxc",
+            ".tex",
+            "_title.sbx",
+            "_title.sxd",
+            ]
+
+    for ext in generated_extensions:
+        os.unlink(basename + ext)
+
+    return True
+
 def makeTexFile(sb, output):
     datadir = sb['datadir']
     name = output[:-4]
@@ -198,4 +216,8 @@ def buildsongbook(sb, basename):
 
     # Second pdflatex pass
     if call(["pdflatex", "--shell-escape", texFile]):
+        sys.exit(1)
+
+    # Cleaning
+    if not clean(basename):
         sys.exit(1)

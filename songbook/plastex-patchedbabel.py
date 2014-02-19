@@ -43,6 +43,9 @@ Louis <spalax(at)gresille.org>
 from plasTeX import Command
 
 class selectlanguage(Command):
+    """Patch of vanilla selectlanguage class.
+
+    See module docstring for more information."""
     args = 'lang:str'
 
     def invoke(self, tex):

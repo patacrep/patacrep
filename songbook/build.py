@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Build a songbook, according to parameters found in a .sb file."""
+
 from subprocess import call
 import codecs
 import glob
@@ -16,9 +18,15 @@ from songbook import __SHAREDIR__
 
 
 def parseTemplate(template):
+    """Return the list of parameters defined in the template."""
     embeddedJsonPattern = re.compile(r"^%%:")
     with open(template) as template_file:
-        code = [line[3:-1] for line in template_file if embeddedJsonPattern.match(line)]
+        code = [
+                line[3:-1]
+                for line
+                in template_file
+                if embeddedJsonPattern.match(line)
+                ]
 
     data = json.loads(''.join(code))
     parameters = dict()
@@ -56,7 +64,8 @@ def formatDeclaration(name, parameter):
     value = ""
     if "default" in parameter:
         value = parameter["default"]
-    return ('\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name)
+    return (
+            '\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name)
             + formatDefinition(name, toValue(parameter, value))
             )
 
@@ -66,6 +75,10 @@ def formatDefinition(name, value):
 
 
 def clean(basename):
+    """Clean (some) temporary files used during compilation.
+
+    Depending of the LaTeX modules used in the template, there may be others
+    that are note deleted by this function."""
     generated_extensions = [
             "_auth.sbx",
             "_auth.sxd",
@@ -85,6 +98,7 @@ def clean(basename):
 
 
 def makeTexFile(sb, output):
+    """Create the LaTeX file corresponding to the .sb file given in argument."""
     datadir = sb['datadir']
     name = output[:-4]
     template_dir = os.path.join(datadir, 'templates')
@@ -178,13 +192,25 @@ def makeTexFile(sb, output):
 
     # output template
     commentPattern = re.compile(r"^\s*%")
-    with codecs.open(os.path.join(template_dir, template), 'r', 'utf-8') as template_file:
-        content = [line for line in template_file if not commentPattern.match(line)]
+    with codecs.open(
+            os.path.join(template_dir, template), 'r', 'utf-8'
+            ) as template_file:
+        content = [
+                line
+                for line
+                in template_file
+                if not commentPattern.match(line)
+                ]
 
         for index, line in enumerate(content):
             if re.compile("getDataImgDirectory").search(line):
-                if os.path.abspath(os.path.join(datadir, "img")).startswith(os.path.abspath(os.path.dirname(output))):
-                    imgdir = os.path.relpath(os.path.join(datadir, "img"), os.path.dirname(output))
+                if os.path.abspath(os.path.join(datadir, "img")).startswith(
+                        os.path.abspath(os.path.dirname(output))
+                        ):
+                    imgdir = os.path.relpath(
+                            os.path.join(datadir, "img"),
+                            os.path.dirname(output)
+                            )
                 else:
                     imgdir = os.path.abspath(os.path.join(datadir, "img"))
                 line = line.replace("\\getDataImgDirectory", ' {%s/} ' % imgdir)

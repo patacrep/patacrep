@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""PlasTeX module to process song files."""
+
 from plasTeX.TeX import TeX
 from plasTeX.Base.LaTeX import Sentences
 
@@ -40,6 +42,7 @@ class SongParser:
 
     @staticmethod
     def _create_TeX():
+        """Create a TeX object, ready to parse a tex file."""
         tex = TeX()
         tex.disableLogging()
         tex.ownerDocument.context.loadBaseMacros()
@@ -51,6 +54,7 @@ class SongParser:
 
     @classmethod
     def parse(cls, filename):
+        """Parse a TeX file, and return its plasTeX representation."""
         tex = cls._create_TeX()
         tex.input(codecs.open(filename, 'r+', 'utf-8', 'replace'))
         return tex.parse()

@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Authors string management."""
 
 def split_author_names(string):
-    """Split author between first and last name.
+    r"""Split author between first and last name.
 
     The last space separates first and last name, but spaces following a
     backslash or a command are not separators.
@@ -33,6 +34,15 @@ def split_author_names(string):
 
 
 def split_sep_author(string, sep):
+    """Split authors string according to separators.
+
+    Arguments:
+    - string: string containing authors names ;
+    - sep: regexp matching a separator.
+
+    >>> split_sep_author("Tintin and Milou", '^(.*) and (.*)$')
+    ["Tintin", "Milou"]
+    """
     authors = []
     match = sep.match(string)
     while match:
@@ -44,7 +54,7 @@ def split_sep_author(string, sep):
 
 
 def processauthors(authors_string, after=[], ignore=[], sep=[]):
-    """Return a list of authors
+    r"""Return a list of authors
 
     For example, we are processing:
     # processauthors(
@@ -54,8 +64,9 @@ def processauthors(authors_string, after=[], ignore=[], sep=[]):
                     (just here to show you how processing is done)",
     #   after = ["by"],
     #   ignore = ["anonymous"],
-    #   sep = ["and"]
+    #   sep = [re.compile('^(.*) and (.*)$')],
     #   )
+
 
     The "authors_string" string is processed as:
 

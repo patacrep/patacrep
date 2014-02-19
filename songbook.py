@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 #
 
+"""Command line tool to compile songbooks using the songbook library."""
+
 import argparse
 import json
 import locale
@@ -14,6 +16,7 @@ from songbook import __VERSION__
 
 
 def argument_parser(args):
+    """Parse argumnts"""
     parser = argparse.ArgumentParser(description="A song book compiler")
 
     parser.add_argument('--version', help='Show version', action='version',
@@ -35,6 +38,8 @@ def argument_parser(args):
 
 
 def main():
+    """Main function:"""
+
     # set script locale to match user's
     try:
         locale.setlocale(locale.LC_ALL, '')

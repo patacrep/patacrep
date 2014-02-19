@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Song management."""
+
 from unidecode import unidecode
 import glob
 import locale
@@ -12,6 +14,8 @@ from songbook.plastex import parsetex
 
 
 class Song:
+    """Song management"""
+
     #: Ordre de tri
     sort = []
     #: Préfixes à ignorer pour le tri par titres

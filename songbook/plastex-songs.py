@@ -1,12 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Module to process song LaTeX environment.
+"""
+
 import plasTeX
 
 from songbook.plastex import processUnbreakableSpace
 
 
 def split_linebreak(texlist):
+    """Return a list of alternative title.
+
+    A title can be defined with alternative names :
+
+        A real name\\
+        Alternative name\\
+        Another alternative name
+
+    This function takes the object representation of a list of titles, and return a list of titles.
+    """
     return_list = []
     current = []
     for token in texlist:
@@ -21,8 +34,13 @@ def split_linebreak(texlist):
 
 
 class beginsong(plasTeX.Command):
+    """Class parsing the LaTeX song environment."""
+
     args = '{titles}[ args:dict ]'
+
     def invoke(self, tex):
+        """Parse an occurence of song environment."""
+
         plasTeX.Command.invoke(self, tex)
 
         # Parsing title

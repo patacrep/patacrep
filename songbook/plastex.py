@@ -80,7 +80,8 @@ def parsetex(filename):
     doc = SongParser.parse(filename)
 
     # /* BEGIN plasTeX patch
-    locale.setlocale(locale.LC_TIME, "%s.%s" % oldlocale)
+    if oldlocale[0] and oldlocale[1]:
+        locale.setlocale(locale.LC_TIME, "%s.%s" % oldlocale)
     # plasTeX patch END */
 
     # Extraction des données

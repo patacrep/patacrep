@@ -36,7 +36,11 @@ def argument_parser(args):
 
 def main():
     # set script locale to match user's
-    locale.setlocale(locale.LC_ALL, '')
+    try:
+        locale.setlocale(locale.LC_ALL, '')
+    except locale.Error as error:
+        # Locale is not installed on user's system, or wrongly configured.
+        sys.stderr.write("Locale error: {}\n".format(error.message))
 
     options = argument_parser(sys.argv[1:])
 

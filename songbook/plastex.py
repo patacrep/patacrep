@@ -7,14 +7,13 @@ from plasTeX.TeX import TeX
 from plasTeX.Base.LaTeX import Sentences
 
 import codecs
-#import copy
 import locale
 import os
 import sys
 
 
 def processUnbreakableSpace(node):
-    """Replace '~' and '\ ' in node by nodes that
+    r"""Replace '~' and '\ ' in node by nodes that
     will be rendered as unbreakable space.
 
     Return node object for convenience.

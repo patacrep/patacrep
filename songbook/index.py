@@ -35,7 +35,7 @@ def sortkey(value):
 def processSXD(filename):
     """Parse sxd file.
 
-    Return an index object.
+    Return an Index object.
     """
     index_file = open(filename)
     data = []
@@ -44,7 +44,7 @@ def processSXD(filename):
     index_file.close()
 
     i = 1
-    idx = index(data[0])
+    idx = Index(data[0])
 
     while len(data) > i and data[i].startswith('%'):
         keywords = keywordPattern.match(data[i]).groups()
@@ -59,8 +59,8 @@ def processSXD(filename):
     return idx
 
 
-class index:
-    """Title, author or scripture index representation."""
+class Index:
+    """Title, author or scripture Index representation."""
 
     def __init__(self, indextype):
         self.data = dict()
@@ -91,7 +91,9 @@ class index:
         if self.indextype == "TITLE":
             if 'prefix' in self.keywords:
                 for prefix in self.keywords['prefix']:
-                    self.prefix_patterns.append(re.compile(r"^(%s)(\b|\\)(\s*.*)$" % prefix))
+                    self.prefix_patterns.append(re.compile(
+                            r"^({prefix})(\b|\\)(\s*.*)$".format(prefix=prefix)
+                            ))
 
         if self.indextype == "AUTHOR":
             for key in self.keywords:
@@ -100,12 +102,18 @@ class index:
             for word in self.authwords.keys():
                 if word in self.keywords:
                     if word == "after":
-                        self.authwords[word] = [re.compile(r"^.*%s\b(.*)" % after)
-                                                for after in self.keywords[word]]
+                        self.authwords[word] = [
+                            re.compile(r"^.*{after}\b(.*)".format(after=after))
+                            for after in self.keywords[word]
+                            ]
                     elif word == "sep":
-                        self.authwords[word] = [" %s" % sep for sep in self.authwords[word]] + [","]
-                        self.authwords[word] = [re.compile(r"^(.*)%s (.*)$" % sep)
-                                                for sep in self.authwords[word]]
+                        self.authwords[word] = [" {sep}".format(sep=sep)
+                                            for sep in self.authwords[word]
+                                            ] + [","]
+                        self.authwords[word] = [
+                                re.compile(r"^(.*){sep} (.*)$".format(sep=sep))
+                                for sep in self.authwords[word]
+                                ]
                     else:
                         self.authwords[word] = self.keywords[word]
 
@@ -124,8 +132,10 @@ class index:
                 match = pattern.match(key)
                 if match:
                     self._raw_add(
-                            "%s (%s)" % (match.group(2) + match.group(3),
-                                         match.group(1)), number, link)
+                                  "{} ({})".format(
+                                        match.group(2) + match.group(3),
+                                        match.group(1)),
+                                  number, link)
                     return
             self._raw_add(key, number, link)
 

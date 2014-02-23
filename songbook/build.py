@@ -16,6 +16,8 @@ from songbook.index import processSXD
 from songbook.songs import Song, SongsList
 from songbook import __SHAREDIR__
 
+EOL = "\n"
+
 
 def parseTemplate(template):
     """Return the list of parameters defined in the template."""
@@ -65,13 +67,14 @@ def formatDeclaration(name, parameter):
     if "default" in parameter:
         value = parameter["default"]
     return (
-            '\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name)
+            r'\def\set@{name}#1{{\def\get{name}{{#1}}}}'.format(name=name)
+            + EOL
             + formatDefinition(name, toValue(parameter, value))
             )
 
 
 def formatDefinition(name, value):
-    return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
+    return r'\set@{name}{{{value}}'.format(name=name, value=value) + EOL
 
 
 def clean(basename):
@@ -122,7 +125,7 @@ def makeTexFile(sb, output):
     if "titleprefixwords" in sb:
         prefixes = sb["titleprefixwords"]
         for prefix in sb["titleprefixwords"]:
-            prefixes_tex += "\\titleprefixword{%s}\n" % prefix
+            prefixes_tex += r"\titleprefixword{%s}" % prefix +
         sb["titleprefixwords"] = prefixes_tex
     if "authwords" in sb:
         # Populating default value
@@ -134,9 +137,9 @@ def makeTexFile(sb, output):
         for key in ["after", "sep", "ignore"]:
             for word in authwords[key]:
                 if key == "after":
-                    authwords_tex += "\\auth%sword{%s}\n" % ("by", word)
+                    authwords_tex += r"\auth%sword{%s}" % ("by", word) + EOL
                 else:
-                    authwords_tex += "\\auth%sword{%s}\n" % (key, word)
+                    authwords_tex += r"\auth%sword{%s}" % (key, word) + EOL
         sb["authwords"] = authwords_tex
     if "after" in authwords:
         authwords["after"] = [re.compile(r"^.*%s\b(.*)" % after)
@@ -174,7 +177,7 @@ def makeTexFile(sb, output):
     # output relevant fields
     out = codecs.open(output, 'w', 'utf-8')
     out.write('%% This file has been automatically generated, do not edit!\n')
-    out.write('\\makeatletter\n')
+    out.write(r'\makeatletter' + EOL)
     # output automatic parameters
     out.write(formatDeclaration("name", {"default": name}))
     out.write(formatDeclaration("songslist", {"type": "stringlist"}))
@@ -188,7 +191,7 @@ def makeTexFile(sb, output):
 
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist.latex()))
-    out.write('\\makeatother\n')
+    out.write(r'\makeatother' + EOL)
 
     # output template
     commentPattern = re.compile(r"^\s*%")
@@ -213,7 +216,7 @@ def makeTexFile(sb, output):
                             )
                 else:
                     imgdir = os.path.abspath(os.path.join(datadir, "img"))
-                line = line.replace("\\getDataImgDirectory", ' {%s/} ' % imgdir)
+                line = line.replace(r"\getDataImgDirectory", ' {%s/} ' % imgdir)
                 content[index] = line
 
     out.write(u''.join(content))

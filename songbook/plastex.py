@@ -61,14 +61,14 @@ class SongParser:
 
 
 def parsetex(filename):
-    """Analyse syntaxique d'un fichier .sg
+    r"""Analyse syntaxique d'un fichier .sg
 
     Renvoie un dictionnaire contenant les métadonnées lues dans le fichier. Les
     clefs sont :
     - languages: l'ensemble des langages utilisés (recherche des
       \selectlanguages{}) ;
     - titles: la liste des titres ;
-    - args: le dictionnaire des paramètres passés à \\beginsong.
+    - args: le dictionnaire des paramètres passés à \beginsong.
     """
     # /* BEGIN plasTeX patch
     # The following lines, and another line a few lines later, are used to

@@ -12,10 +12,11 @@ from unidecode import unidecode
 import locale
 import re
 import sys
-#import warnings
 
 from songbook.authors import processauthors
 from songbook.plastex import simpleparse
+
+EOL = "\n"
 
 # Pattern set to ignore latex command in title prefix
 keywordPattern = re.compile(r"^%(\w+)\s?(.*)$")
@@ -137,21 +138,21 @@ class index:
 
     def refToStr(self, ref):
         if sys.version_info >= (2, 6):
-            return '\\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
+            return r'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
         else:
-            return '\\hyperlink{%(link)s}{%(num)s}' % ref
+            return r'\hyperlink{%(link)s}{%(num)s}' % ref
 
     def entryToStr(self, key, entry):
         if sys.version_info >= (2, 6):
-            return unicode('\\idxentry{{{0}}}{{{1}}}\n').format(key, '\\\\'.join(map(self.refToStr, entry)))
+            return unicode(r'\idxentry{{{0}}}{{{1}}}' + EOL).format(key, r'\\'.join(map(self.refToStr, entry)))
         else:
-            return unicode('\\idxentry{%s}{%s}\n') % (key, '\\\\'.join(map(self.refToStr, entry)))
+            return unicode(r'\idxentry{%s}{%s}' + EOL) % (key, r'\\'.join(map(self.refToStr, entry)))
 
     def idxBlockToStr(self, letter, entries):
-        string = '\\begin{idxblock}{' + letter + '}' + '\n'
+        string = r'\begin{idxblock}{' + letter + '}' + EOL
         for key in sorted(entries.keys(), key=sortkey):
             string += self.entryToStr(key, entries[key])
-        string += '\\end{idxblock}' + '\n'
+        string += r'\end{idxblock}' + EOL
         return string
 
     def entriesToStr(self):

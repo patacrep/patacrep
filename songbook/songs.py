@@ -124,9 +124,9 @@ class SongsList:
     def latex(self):
         """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.
         """
-        result = ['\\input{{{0}}}'.format(song.path.replace("\\", "/").strip())
+        result = [r'\input{{{0}}}'.format(song.path.replace("\\", "/").strip())
                   for song in self.songs]
-        result.append('\\selectlanguage{%s}' % self._language)
+        result.append(r'\selectlanguage{%s}' % self._language)
         return '\n'.join(result)
 
     def languages(self):

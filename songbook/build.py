@@ -74,7 +74,7 @@ def formatDeclaration(name, parameter):
 
 
 def formatDefinition(name, value):
-    return r'\set@{name}{{{value}}'.format(name=name, value=value) + EOL
+    return r'\set@{name}{{{value}}}'.format(name=name, value=value) + EOL
 
 
 def clean(basename):
@@ -125,7 +125,7 @@ def makeTexFile(sb, output):
     if "titleprefixwords" in sb:
         prefixes = sb["titleprefixwords"]
         for prefix in sb["titleprefixwords"]:
-            prefixes_tex += r"\titleprefixword{%s}" % prefix +
+            prefixes_tex += r"\titleprefixword{%s}" % prefix + EOL
         sb["titleprefixwords"] = prefixes_tex
     if "authwords" in sb:
         # Populating default value

@@ -1,9 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Module to process song LaTeX environment.
+"""
+
 import plasTeX
 
+from songbook.plastex import processUnbreakableSpace
+
+
 def split_linebreak(texlist):
+    """Return a list of alternative title.
+
+    A title can be defined with alternative names :
+
+        A real name\\
+        Alternative name\\
+        Another alternative name
+
+    This function takes the object representation of a list of titles, and return a list of titles.
+    """
     return_list = []
     current = []
     for token in texlist:
@@ -11,14 +27,20 @@ def split_linebreak(texlist):
             return_list.append(current)
             current = []
         else:
-            current.append(token.textContent.encode('utf-8'))
+            current.append(processUnbreakableSpace(token).textContent.encode('utf-8'))
     if current:
         return_list.append(current)
     return return_list
 
+
 class beginsong(plasTeX.Command):
+    """Class parsing the LaTeX song environment."""
+
     args = '{titles}[ args:dict ]'
+
     def invoke(self, tex):
+        """Parse an occurence of song environment."""
+
         plasTeX.Command.invoke(self, tex)
 
         # Parsing title
@@ -30,8 +52,12 @@ class beginsong(plasTeX.Command):
         # Parsing keyval arguments
         args = {}
         for (key, val) in self.attributes['args'].iteritems():
-            if type(val) == unicode:
+            if isinstance(val, plasTeX.DOM.Element):
+                args[key] = processUnbreakableSpace(val).textContent.encode('utf-8')
+            elif isinstance(val, unicode):
+                args[key] = val.encode('utf-8')
+            elif isinstance(val, str):
                 args[key] = val.encode('utf-8')
             else:
-                args[key] = val.textContent.encode('utf-8')
+                args[key] = unicode(val)
         self.attributes['args'] = args

@@ -1,0 +1,327 @@
+% Chords package for patacrep songbook
+% define commands for chord display : guitar chords (\gtab) and ukulele chords (\utab)
+\ProvidesPackage{chords}
+\newcommand*{\Sharp}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small\bf \#}}
+\newcommand*{\Flat}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small$\mathbf{\flat}$}}
+\newcommand*{\chordrule}{\mbox{\hspace{1cm}\rule[0.5cm]{15cm}{0.02cm}}\vspace{-.4cm}}
+\newcommand*{\chordname}[2]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{\IfStrEq{\getlang}{english}{#1}{#2}}}}}
+
+\newcommand{\chords}{
+  \begin{songs}{}
+    %hide song number
+    \definecolor{SongNumberBgColor}{HTML}{FFFFFF}
+    \renewcommand{\snumbgcolor}{SongNumberBgColor}
+    \renewcommand{\printsongnum}[1]{}
+    \setlength{\songnumwidth}{0.1cm}
+    \songcolumns{1}
+
+    \ifguitar
+    \IfStrEq{\getlang}{english}{\beginsong{Guitar chords}}{\beginsong{Accords de guitare}}
+    \chordname{C}{Do}
+    \gtab{C}{~:X32010}
+    \gtab{C7}{~:X32310}
+    \gtab{Cm}{3:X02210}
+    \gtab{Cm7}{3:X02010}
+    \hspace{1cm}
+    \gtab*{C7M}{~:332000}
+    \gtab*{C4}{~:X32011}
+    \gtab*{C7}{1:X2120X}
+    \gtab*{C6}{~:XX2213}
+    \chordrule
+
+    \chordname{C\Sharp = D\Flat}{Do\Sharp = Ré\Flat}
+    \gtab{C\#}{4:X02220}
+    \gtab{C\#7}{4:X02020}
+    \gtab{C\#m}{4:X02210}
+    \gtab{C\#m7}{5:XX2213}
+    \hspace{1cm}
+    \gtab*{C\#7M}{1:X32000}
+    \gtab*{C\#4}{2:X21000}
+    \gtab*{C\#7}{2:X2120X}
+    \gtab*{C\#6}{1:X02010}
+    \chordrule
+
+    \chordname{D}{Ré}
+    \gtab{D}{~:XX0232}
+    \gtab{D7}{~:XX0212}
+    \gtab{Dm}{~:XX0231}
+    \gtab{Dm7}{~:XX0211}
+    \hspace{1cm}
+    \gtab*{D7M}{~:X00222}
+    \gtab*{D4}{~:X00233}
+    \gtab*{D7}{3:X2120X}
+    \gtab*{D6}{~:X00202}
+    \chordrule
+
+    \chordname{D\Sharp = E\Flat}{Ré\Sharp = Mi\Flat}
+    \gtab{D\#}{6:X02220}
+    \gtab{D\#7}{6:X02020}
+    \gtab{D\#m}{6:X02210}
+    \gtab{D\#m7}{~:XX1322}
+    \hspace{1cm}
+    \gtab*{D\#7M}{3:022010}
+    \gtab*{D\#4}{4:X21000}
+    \gtab*{D\#7}{4:X2120X}
+    \gtab*{D\#6}{1:X00202}
+    \chordrule
+
+    \chordname{E}{Mi}
+    \gtab{E}{~:022100}
+    \gtab{E7}{~:020100}
+    \gtab{Em}{~:022000}
+    \gtab{Em7}{~:022030}
+    \hspace{1cm}
+    \gtab*{E7M}{~:021100}
+    \gtab*{E4}{~:02220}
+    \gtab*{E7}{5:X2120X}
+    \gtab*{E6}{~:022120}
+    \chordrule
+
+    \chordname{F}{Fa}
+    \gtab{F}{1:022100}
+    \gtab{F7}{1:020100}
+    \gtab{Fm}{1:022000}
+    \gtab{Fm7}{1:020000}
+    \hspace{1cm}
+    \gtab*{F7M}{~:XX3210}
+    \gtab*{F4}{1:022200}
+    \gtab*{F7}{6:X2120X}
+    \gtab*{F6}{~:XX0211}
+    \chordrule
+
+    \chordname{F\Sharp = G\Flat}{Fa\Sharp = Sol\Flat}
+    \gtab{F\#}{2:022100}
+    \gtab{F\#7}{2:020100}
+    \gtab{F\#m}{2:022000}
+    \gtab{F\#m7}{2:020000}
+    \hspace{1cm}
+    \gtab*{F\#7M}{~:XX4321}
+    \gtab*{F\#4}{2:022200}
+    \gtab*{F\#7}{7:X2120X}
+    \gtab*{F\#6}{~:XX1322}
+    \chordrule
+
+    \chordname{G}{Sol}
+    \gtab{G}{~:320003}
+    \gtab{G7}{~:320001}
+    \gtab{Gm}{3:022000}
+    \gtab{Gm7}{3:020000}
+    \hspace{1cm}
+    \gtab*{G7M}{~:XX0002}
+    \gtab*{G4}{3:022200}
+    \gtab*{G7}{3:020200}
+    \gtab*{G6}{~:320000}
+    \chordrule
+
+    \chordname{G\Sharp = A\Flat}{Sol\Sharp = La\Flat}
+    \gtab{G\#}{4:022100}
+    \gtab{G\#7}{4:020100}
+    \gtab{G\#m}{4:022000}
+    \gtab{G\#m7}{4:020000}
+    \hspace{1cm}
+    \gtab*{G\#7M}{3:XX4321}
+    \gtab*{G\#4}{4:022200}
+    \gtab*{G\#7}{~:XX1122}
+    \gtab*{G\#6}{~:XX1111}
+    \chordrule
+
+    \chordname{A}{La}
+    \gtab{A}{~:X02220}
+    \gtab{A7}{~:X02020}
+    \gtab{Am}{~:X02210}
+    \gtab{Am7}{~:X02213}
+    \hspace{1cm}
+    \gtab*{A7M}{~:X02120}
+    \gtab*{A4}{~:X02230}
+    \gtab*{A7}{~:X02233}
+    \gtab*{A6}{~:XX2222}
+    \chordrule
+
+    \chordname{A\Sharp = B\Flat}{La\Sharp = Si\Flat}
+    \gtab{A\#}{1:X02220}
+    \gtab{A\#7}{1:X02020}
+    \gtab{A\#m}{1:X02210}
+    \gtab{A\#m7}{1:X02010}
+    \hspace{1cm}
+    \gtab*{A\#7M}{1:X02120}
+    \gtab*{A\#4}{1:X02230}
+    \gtab*{A\#7}{~:XX3344}
+    \gtab*{A\#6}{~:XX3333}
+    \chordrule
+
+    \chordname{B}{Si}
+    \gtab{B}{2:X02220}
+    \gtab{B7}{X21202}
+    \gtab{Bm}{2:X02210}
+    \gtab{Bm7}{~:X00202}
+    \hspace{1cm}
+    \gtab*{B7M}{2:X02120}
+    \gtab*{B4}{2:X02230}
+    \gtab*{B7}{~:X22202}
+    \gtab*{B6}{~:XX4444}
+
+    \begin{verse*}
+      \musicnote[french]{Accordage standard : {\nolyrics \[E A D G B E]}}
+      \musicnote[english]{Standard tuning: {\nolyrics \[E A D G B E]}}
+    \end{verse*}
+
+    \endsong
+    \fi
+
+    \ifukulele
+    \IfStrEq{\getlang}{english}{\beginsong{Ukulele chords}}{\beginsong{Accords de ukulélé}}
+
+    \chordname{C}{Do}
+    \utab{C}{~:0003}
+    \utab{C7}{~:0001}
+    \utab{Cm}{~:0333}
+    \utab{Cm7}{3:0000}
+    \hspace{1cm}
+    \utab*{C7M}{~:0002}
+    \utab*{C6}{~:0000}
+    \utab*{Caug}{~:1003}
+    \utab*{Cdim}{2:3101}
+    \chordrule
+
+    \chordname{C\Sharp = D\Flat}{Do\Sharp = Ré\Flat}
+    \utab{C\#}{1:0003}
+    \utab{C\#7}{1:0001}
+    \utab{C\#m}{~:1104}
+    \utab{C\#m7}{4:0000}
+    \hspace{1cm}
+    \utab*{C\#7M}{1:0002}
+    \utab*{C\#6}{1:0000}
+    \utab*{C\#aug}{~:2110}
+    \utab*{C\#dim}{~:0104}
+    \chordrule
+
+    \chordname{D}{Ré}
+    \utab{D}{~:2220}
+    \utab{D7}{2:0001}
+    \utab{Dm}{~:2210}
+    \utab{Dm7}{1:1102}
+    \hspace{1cm}
+    \utab*{D7M}{2:0002}
+    \utab*{D6}{2:0000}
+    \utab*{Daug}{1:2110}
+    \utab*{Ddim}{1:0104}
+    \chordrule
+
+    \chordname{D\Sharp = E\Flat}{Ré\Sharp = Mi\Flat}
+    \utab{D\#}{1:2220}
+    \utab{D\#7}{3:0001}
+    \utab{D\#m}{1:2210}
+    \utab{D\#m7}{2:1102}
+    \hspace{1cm}
+    \utab*{D\#7M}{3:0002}
+    \utab*{D\#6}{3:0000}
+    \utab*{D\#aug}{~:0332}
+    \utab*{D\#dim}{~:2320}
+    \chordrule
+
+    \chordname{E}{Mi}
+    \utab{E}{2:2220}
+    \utab{E7}{~:1202}
+    \utab{Em}{~:0432}
+    \utab{Em7}{~:0202}
+    \hspace{1cm}
+    \utab*{E7M}{~:1302}
+    \utab*{E6}{~:1102}
+    \utab*{Eaug}{1:0000}
+    \utab*{Edim}{1:2320}
+    \chordrule
+
+    \chordname{F}{Fa}
+    \utab{F}{~:2010}
+    \utab{F7}{~:2310}
+    \utab{Fm}{~:1013}
+    \utab{Fm7}{1:0202}
+    \hspace{1cm}
+    \utab*{F7M}{1:1302}
+    \utab*{F6}{1:1102}
+    \utab*{Faug}{~:2110}
+    \utab*{Fdim}{2:2320}
+    \chordrule
+
+    \chordname{F\Sharp = G\Flat}{Fa\Sharp = Sol\Flat}
+    \utab{F\#}{1:2010}
+    \utab{F\#7}{1:2310}
+    \utab{F\#m}{~:2120}
+    \utab{F\#m7}{2:0202}
+    \hspace{1cm}
+    \utab*{F\#7M}{2:1302}
+    \utab*{F\#6}{~:0202}
+    \utab*{F\#aug}{1:2110}
+    \utab*{F\#dim}{~:2020}
+    \chordrule
+
+    \chordname{G}{Sol}
+    \utab{G}{~:0232}
+    \utab{G7}{~:0212}
+    \utab{Gm}{~:0231}
+    \utab{Gm7}{~:0211}
+    \hspace{1cm}
+    \utab*{G7M}{~:0222}
+    \utab*{G6}{~:0202}
+    \utab*{Gaug}{~:0332}
+    \utab*{Gdim}{~:0131}
+    \chordrule
+
+    \chordname{G\Sharp = A\Flat}{Sol\Sharp = La\Flat}
+    \utab{G\#}{3:2010}
+    \utab{G\#7}{1:0212}
+    \utab{G\#m}{1:0231}
+    \utab{G\#m7}{1:0211}
+    \hspace{1cm}
+    \utab*{G\#7M}{1:0222}
+    \utab*{G\#6}{1:0202}
+    \utab*{G\#aug}{~:1003}
+    \utab*{G\#dim}{1:0131}
+    \chordrule
+
+    \chordname{A}{La}
+    \utab{A}{~:2100}
+    \utab{A7}{~:0100}
+    \utab{Am}{~:2000}
+    \utab{Am7}{~:0000}
+    \hspace{1cm}
+    \utab*{A7M}{~:1100}
+    \utab*{A6}{2:0202}
+    \utab*{Aaug}{~:2110}
+    \utab*{Adim}{2:0131}
+    \chordrule
+
+    \chordname{A\Sharp = B\Flat}{La\Sharp = Si\Flat}
+    \utab{A\#}{1:2100}
+    \utab{A\#7}{1:0100}
+    \utab{A\#m}{1:2000}
+    \utab{A\#m7}{1:0000}
+    \hspace{1cm}
+    \utab*{A\#7M}{1:1100}
+    \utab*{A\#6}{~:0211}
+    \utab*{A\#aug}{1:2110}
+    \utab*{A\#dim}{~:3101}
+    \chordrule
+
+    \chordname{B}{Si}
+    \utab{B}{2:2100}
+    \utab{B7}{2:0100}
+    \utab{Bm}{2:2000}
+    \utab{Bm7}{2:0000}
+    \hspace{1cm}
+    \utab*{B7M}{2:1100}
+    \utab*{B6}{1:0211}
+    \utab*{Baug}{~:0332}
+    \utab*{Bdim}{1:3101}
+
+    \begin{verse*}
+      \musicnote[french]{Accordage standard : {\nolyrics \[G C E A]}}
+      \musicnote[english]{Standard tuning: {\nolyrics \[G C E A]}}
+    \end{verse*}
+
+    \endsong
+    \fi
+
+  \end{songs}
+}
+\endinput

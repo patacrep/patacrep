@@ -1,0 +1,3 @@
+Run the following command to build an example song book.
+
+$ PATH/TO/songbook.py example.sb

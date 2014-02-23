@@ -17,18 +17,16 @@ is precised in the header.
 
 >     git clone git://github.com/crep4ever/songbook-core.git
 >     git clone git://github.com/crep4ever/songbook-data.git
->     mv songbook-data songbook-core/songs
 
 # Run
 
->     cd songbook-core
->     ./songbook.py -s <songbook_file.sb>
+>     <songbook-core>/songbook.py <songbook_file.sb>
 >     <pdfreader> <songbook_file.pdf>
 
-Look for existing songbook files in ./books. For example:
+Look for existing songbook files in <songbook-data>/books. For example:
 
->     ./songbook.py -s ./books/songbook_en.sb
->     evince songbook_en.pdf
+>     <songbook-core>/songbook.py <songbook-data>/books/songbook_en.sb
+>     <pdfreader> songbook_en.pdf
 
 
 # Documentation

@@ -1,0 +1,3 @@
+This repository is automatically included as LaTeX graphics path. That is, any
+image in this directory can be included in your LaTeX document specifying only
+its base name.

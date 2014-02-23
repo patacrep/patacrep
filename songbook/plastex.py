@@ -1,12 +1,31 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""PlasTeX module to process song files."""
+
 from plasTeX.TeX import TeX
+from plasTeX.Base.LaTeX import Sentences
+
 import codecs
-import copy
+#import copy
 import locale
 import os
 import sys
+
+
+def processUnbreakableSpace(node):
+    """Replace '~' and '\ ' in node by nodes that
+    will be rendered as unbreakable space.
+
+    Return node object for convenience.
+    """
+    if (type(node) == Sentences.InterWordSpace or
+        (type(node) == Sentences.NoLineBreak and node.source == '~ ')):
+        node.unicode = unichr(160)
+    for child in node.childNodes:
+        processUnbreakableSpace(child)
+
+    return node
 
 
 def simpleparse(text):
@@ -15,13 +34,15 @@ def simpleparse(text):
     tex = TeX()
     tex.input(text.decode('utf8'))
     doc = tex.parse()
-    return doc.textContent
+    return processUnbreakableSpace(doc.textContent)
+
 
 class SongParser:
     """Analyseur syntaxique de fichiers .sg"""
 
     @staticmethod
     def _create_TeX():
+        """Create a TeX object, ready to parse a tex file."""
         tex = TeX()
         tex.disableLogging()
         tex.ownerDocument.context.loadBaseMacros()
@@ -33,9 +54,11 @@ class SongParser:
 
     @classmethod
     def parse(cls, filename):
+        """Parse a TeX file, and return its plasTeX representation."""
         tex = cls._create_TeX()
         tex.input(codecs.open(filename, 'r+', 'utf-8', 'replace'))
         return tex.parse()
+
 
 def parsetex(filename):
     """Analyse syntaxique d'un fichier .sg
@@ -61,7 +84,8 @@ def parsetex(filename):
     doc = SongParser.parse(filename)
 
     # /* BEGIN plasTeX patch
-    locale.setlocale(locale.LC_TIME, "%s.%s" % oldlocale)
+    if oldlocale[0] and oldlocale[1]:
+        locale.setlocale(locale.LC_TIME, "%s.%s" % oldlocale)
     # plasTeX patch END */
 
     # Extraction des données

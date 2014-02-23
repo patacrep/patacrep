@@ -1,26 +1,39 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Build a songbook, according to parameters found in a .sb file."""
+
 from subprocess import call
+import codecs
 import glob
 import json
 import os.path
 import re
+import sys
 
 from songbook.files import recursiveFind
 from songbook.index import processSXD
 from songbook.songs import Song, SongsList
+from songbook import __SHAREDIR__
+
 
 def parseTemplate(template):
+    """Return the list of parameters defined in the template."""
     embeddedJsonPattern = re.compile(r"^%%:")
-    f = open(template)
-    code = [ line[3:-1] for line in f if embeddedJsonPattern.match(line) ]
-    f.close()
+    with open(template) as template_file:
+        code = [
+                line[3:-1]
+                for line
+                in template_file
+                if embeddedJsonPattern.match(line)
+                ]
+
     data = json.loads(''.join(code))
     parameters = dict()
     for param in data:
         parameters[param["name"]] = param
     return parameters
+
 
 def toValue(parameter, data):
     if "type" not in parameter:
@@ -34,7 +47,7 @@ def toValue(parameter, data):
     elif parameter["type"] == "color":
         return data[1:]
     elif parameter["type"] == "font":
-        return data+'pt'
+        return data + 'pt'
     elif parameter["type"] == "enum":
         return data
     elif parameter["type"] == "file":
@@ -46,20 +59,49 @@ def toValue(parameter, data):
             joinText = ''
         return joinText.join(data)
 
+
 def formatDeclaration(name, parameter):
     value = ""
     if "default" in parameter:
         value = parameter["default"]
-    return '\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name) + formatDefinition(name, toValue(parameter, value))
+    return (
+            '\\def\\set@{name}#1{{\\def\\get{name}{{#1}}}}\n'.format(name=name)
+            + formatDefinition(name, toValue(parameter, value))
+            )
+
 
 def formatDefinition(name, value):
     return '\\set@{name}{{{value}}}\n'.format(name=name, value=value)
 
-def makeTexFile(sb, library, output, core_dir):
+
+def clean(basename):
+    """Clean (some) temporary files used during compilation.
+
+    Depending of the LaTeX modules used in the template, there may be others
+    that are note deleted by this function."""
+    generated_extensions = [
+            "_auth.sbx",
+            "_auth.sxd",
+            ".aux",
+            ".log",
+            ".out",
+            ".sxc",
+            ".tex",
+            "_title.sbx",
+            "_title.sxd",
+            ]
+
+    for ext in generated_extensions:
+        os.unlink(basename + ext)
+
+    return True
+
+
+def makeTexFile(sb, output):
+    """Create the LaTeX file corresponding to the .sb file given in argument."""
+    datadir = sb['datadir']
     name = output[:-4]
-    template_dir = core_dir+'templates/'
-    # default value
-    template = "patacrep.tmpl"
+    template_dir = os.path.join(datadir, 'templates')
     songs = []
 
     prefixes_tex = ""
@@ -67,11 +109,13 @@ def makeTexFile(sb, library, output, core_dir):
 
     authwords_tex = ""
     authwords = {"after": ["by"], "ignore": ["unknown"], "sep": ["and"]}
-    
+
     # parse the songbook data
     if "template" in sb:
         template = sb["template"]
         del sb["template"]
+    else:
+        template = os.path.join(__SHAREDIR__, "templates", "default.tmpl")
     if "songs" in sb:
         songs = sb["songs"]
         del sb["songs"]
@@ -95,10 +139,12 @@ def makeTexFile(sb, library, output, core_dir):
                     authwords_tex += "\\auth%sword{%s}\n" % (key, word)
         sb["authwords"] = authwords_tex
     if "after" in authwords:
-        authwords["after"] = [re.compile(r"^.*%s\b(.*)" % after) for after in authwords["after"]]
+        authwords["after"] = [re.compile(r"^.*%s\b(.*)" % after)
+                              for after in authwords["after"]]
     if "sep" in authwords:
         authwords["sep"] = [" %s" % sep for sep in authwords["sep"]] + [","]
-        authwords["sep"] = [re.compile(r"^(.*)%s (.*)$" % sep) for sep in authwords["sep"] ]
+        authwords["sep"] = [re.compile(r"^(.*)%s (.*)$" % sep)
+                            for sep in authwords["sep"]]
 
     if "lang" not in sb:
         sb["lang"] = "french"
@@ -111,30 +157,34 @@ def makeTexFile(sb, library, output, core_dir):
     Song.prefixes = prefixes
     Song.authwords = authwords
 
-    parameters = parseTemplate(template_dir+template)
+    parameters = parseTemplate(os.path.join(template_dir, template))
 
     # compute songslist
     if songs == "all":
-        songs = map(lambda x: x[len(library) + 6:], recursiveFind(os.path.join(library, 'songs'), '*.sg'))
-    songslist = SongsList(library, sb["lang"])
+        songs = [
+                os.path.relpath(filename, os.path.join(datadir, 'songs'))
+                for filename
+                in recursiveFind(os.path.join(datadir, 'songs'), '*.sg')
+                ]
+    songslist = SongsList(datadir, sb["lang"])
     songslist.append_list(songs)
 
     sb["languages"] = ",".join(songslist.languages())
 
     # output relevant fields
-    out = open(output, 'w')
+    out = codecs.open(output, 'w', 'utf-8')
     out.write('%% This file has been automatically generated, do not edit!\n')
     out.write('\\makeatletter\n')
     # output automatic parameters
-    out.write(formatDeclaration("name", {"default":name}))
-    out.write(formatDeclaration("songslist", {"type":"stringlist"}))
+    out.write(formatDeclaration("name", {"default": name}))
+    out.write(formatDeclaration("songslist", {"type": "stringlist"}))
     # output template parameter command
     for name, parameter in parameters.iteritems():
         out.write(formatDeclaration(name, parameter))
     # output template parameter values
     for name, value in sb.iteritems():
         if name in parameters:
-            out.write(formatDefinition(name, toValue(parameters[name],value)))
+            out.write(formatDefinition(name, toValue(parameters[name], value)))
 
     if len(songs) > 0:
         out.write(formatDefinition('songslist', songslist.latex()))
@@ -142,50 +192,69 @@ def makeTexFile(sb, library, output, core_dir):
 
     # output template
     commentPattern = re.compile(r"^\s*%")
-    with open(template_dir+template) as f:
-        content = [ line for line in f if not commentPattern.match(line) ]
+    with codecs.open(
+            os.path.join(template_dir, template), 'r', 'utf-8'
+            ) as template_file:
+        content = [
+                line
+                for line
+                in template_file
+                if not commentPattern.match(line)
+                ]
 
         for index, line in enumerate(content):
-            if re.compile("getLibraryImgDirectory").search(line):
-                line = line.replace("\\getLibraryImgDirectory", core_dir + "img/")
-                content[index] = line
-            if re.compile("getLibraryLilypondDirectory").search(line):
-                line = line.replace("\\getLibraryLilypondDirectory", core_dir + "lilypond/")
+            if re.compile("getDataImgDirectory").search(line):
+                if os.path.abspath(os.path.join(datadir, "img")).startswith(
+                        os.path.abspath(os.path.dirname(output))
+                        ):
+                    imgdir = os.path.relpath(
+                            os.path.join(datadir, "img"),
+                            os.path.dirname(output)
+                            )
+                else:
+                    imgdir = os.path.abspath(os.path.join(datadir, "img"))
+                line = line.replace("\\getDataImgDirectory", ' {%s/} ' % imgdir)
                 content[index] = line
 
-    out.write(''.join(content))
+    out.write(u''.join(content))
     out.close()
 
-def buildsongbook(sb, basename, library):
+
+def buildsongbook(sb, basename):
     """Build a songbook
 
     Arguments:
     - sb: Python representation of the .sb songbook configuration file.
-    - library: directory containing the "songs" directory, itself containing
-      songs.
     - basename: basename of the songbook to be built.
     """
 
-    MOD_DIR = os.path.dirname(os.path.abspath(__file__))
-    CORE_DIR = MOD_DIR + '/../'
-
-    texFile  = basename + ".tex"
+    texFile = basename + ".tex"
 
     # Make TeX file
-    makeTexFile(sb, library, texFile, CORE_DIR)
-    
-    os.environ['TEXMFHOME'] = MOD_DIR + '/../'
+    makeTexFile(sb, texFile)
+
+    if not 'TEXINPUTS' in os.environ.keys():
+        os.environ['TEXINPUTS'] = ''
+    os.environ['TEXINPUTS'] += os.pathsep + os.path.join(__SHAREDIR__, 'latex')
+    os.environ['TEXINPUTS'] += os.pathsep + os.path.join(sb['datadir'], 'latex')
+
     # First pdflatex pass
-    call(["pdflatex", texFile])
+    if call(["pdflatex", "--shell-escape", texFile]):
+        sys.exit(1)
 
     # Make index
     sxdFiles = glob.glob("%s_*.sxd" % basename)
     for sxdFile in sxdFiles:
         print "processing " + sxdFile
         idx = processSXD(sxdFile)
-        indexFile = open(sxdFile[:-3]+"sbx", "w")
+        indexFile = open(sxdFile[:-3] + "sbx", "w")
         indexFile.write(idx.entriesToStr().encode('utf8'))
         indexFile.close()
 
     # Second pdflatex pass
-    call(["pdflatex", texFile])
+    if call(["pdflatex", "--shell-escape", texFile]):
+        sys.exit(1)
+
+    # Cleaning
+    if not clean(basename):
+        sys.exit(1)

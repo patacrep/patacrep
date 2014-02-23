@@ -57,7 +57,7 @@ def main():
         songbook = json.load(songbook_file)
 
     if options.datadir is not None:
-        songbook['datadir'] = options.datadir
+        songbook['datadir'] = options.datadir[0]
     elif 'datadir' in songbook.keys():
         if not os.path.isabs(songbook['datadir']):
             songbook['datadir'] = os.path.join(os.path.dirname(songbook_path),

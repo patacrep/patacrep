@@ -11,10 +11,11 @@ import os.path
 import re
 import sys
 
+from songbook import __SHAREDIR__
+from songbook import errors
 from songbook.files import recursiveFind
 from songbook.index import processSXD
 from songbook.songs import Song, SongsList
-from songbook import __SHAREDIR__
 
 EOL = "\n"
 
@@ -95,9 +96,10 @@ def clean(basename):
             ]
 
     for ext in generated_extensions:
-        os.unlink(basename + ext)
-
-    return True
+        try:
+            os.unlink(basename + ext)
+        except Exception as exception:
+            raise errors.CleaningError(basename + ext, exception)
 
 
 def makeTexFile(sb, output):
@@ -243,7 +245,7 @@ def buildsongbook(sb, basename):
 
     # First pdflatex pass
     if call(["pdflatex", "--shell-escape", texFile]):
-        sys.exit(1)
+        raise errors.LatexCompilationError(basename)
 
     # Make index
     sxdFiles = glob.glob("%s_*.sxd" % basename)
@@ -256,8 +258,7 @@ def buildsongbook(sb, basename):
 
     # Second pdflatex pass
     if call(["pdflatex", "--shell-escape", texFile]):
-        sys.exit(1)
+        raise errors.LatexCompilationError(basename)
 
     # Cleaning
-    if not clean(basename):
-        sys.exit(1)
+    clean(basename)

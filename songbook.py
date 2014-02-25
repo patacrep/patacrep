@@ -13,6 +13,7 @@ import sys
 
 from songbook.build import buildsongbook
 from songbook import __VERSION__
+from songbook import errors
 
 
 def argument_parser(args):
@@ -65,7 +66,13 @@ def main():
                                                )
     else:
         songbook['datadir'] = os.path.dirname(songbook_path)
-    buildsongbook(songbook, basename)
+    try:
+        buildsongbook(songbook, basename)
+    except errors.SongbookError as error:
+        print(error)
+        sys.exit(1)
+
+    sys.exit(0)
 
 if __name__ == '__main__':
     main()

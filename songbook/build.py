@@ -3,12 +3,13 @@
 
 """Build a songbook, according to parameters found in a .sb file."""
 
-from subprocess import call
 import codecs
 import glob
 import json
+import logging
 import os.path
 import re
+import subprocess
 import sys
 
 from songbook import __SHAREDIR__
@@ -224,13 +225,13 @@ def makeTexFile(sb, output):
     out.write(u''.join(content))
     out.close()
 
-
-def buildsongbook(sb, basename):
+def buildsongbook(sb, basename, interactive = False, logger = logging.getLogger()):
     """Build a songbook
 
     Arguments:
     - sb: Python representation of the .sb songbook configuration file.
     - basename: basename of the songbook to be built.
+    - interactive: in False, do not expect anything from stdin.
     """
 
     texFile = basename + ".tex"
@@ -243,21 +244,27 @@ def buildsongbook(sb, basename):
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(__SHAREDIR__, 'latex')
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(sb['datadir'], 'latex')
 
+    # pdflatex options
+    pdflatex_options = []
+    pdflatex_options.append("--shell-escape") # Lilypond compilation
+    if not interactive:
+        pdflatex_options.append("-halt-on-error")
+
     # First pdflatex pass
-    if call(["pdflatex", "--shell-escape", texFile]):
+    if subprocess.call(["pdflatex"] + pdflatex_options + [texFile]):
         raise errors.LatexCompilationError(basename)
 
     # Make index
     sxdFiles = glob.glob("%s_*.sxd" % basename)
     for sxdFile in sxdFiles:
-        print "processing " + sxdFile
+        logger.info("processing " + sxdFile)
         idx = processSXD(sxdFile)
         indexFile = open(sxdFile[:-3] + "sbx", "w")
         indexFile.write(idx.entriesToStr().encode('utf8'))
         indexFile.close()
 
     # Second pdflatex pass
-    if call(["pdflatex", "--shell-escape", texFile]):
+    if subprocess.call(["pdflatex"] + pdflatex_options + [texFile]):
         raise errors.LatexCompilationError(basename)
 
     # Cleaning

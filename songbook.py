@@ -7,6 +7,7 @@
 import argparse
 import json
 import locale
+import logging
 import os.path
 import textwrap
 import sys
@@ -41,6 +42,10 @@ def argument_parser(args):
 def main():
     """Main function:"""
 
+    # Logging configuration
+    logging.basicConfig(name = 'songbook')
+    logger = logging.getLogger('songbook')
+
     # set script locale to match user's
     try:
         locale.setlocale(locale.LC_ALL, '')
@@ -67,9 +72,9 @@ def main():
     else:
         songbook['datadir'] = os.path.dirname(songbook_path)
     try:
-        buildsongbook(songbook, basename)
+        buildsongbook(songbook, basename, interactive = True, logger = logger)
     except errors.SongbookError as error:
-        print(error)
+        logger.error(error)
         sys.exit(1)
 
     sys.exit(0)

@@ -1,95 +1,11 @@
-version 3.7.2
+songbook 3.7.2
 
-Louis:
-  Undocumented bug corrections and improvements.
+  (Louis) Undocumented bug corrections and improvements.
 
-version 3.7.1
+songbook 3.4.7 to 3.7.1
 
-  Undocumented.
-
-version 3.7.0
-
-  Undocumented.
-
-version 3.6.7
-
-  Undocumented.
-
-version 3.6.6
-
-  Undocumented.
-
-version 3.6.5
-
-  Undocumented.
-
-version 3.6.4
-
-  Undocumented.
-
-version 3.6.3
-
-  Undocumented
-
-version 3.6.2
-
-  Undocumented.
-
-version 3.6.1
-
-  Undocumented.
-
-version 3.6.0
-
-  Undocumented.
-
-version 3.5.9
-
-  Undocumented.
-
-version 3.5.8
-
-  Undocumented.
-
-version 3.5.7
-
-  Undocumented.
-
-version 3.5.6
-
-  Undocumented.
-
-version 3.5.5
-
-  Undocumented.
-
-version 3.5.4
-
-  Undocumented.
-
-version 3.5.3
-
-  Undocumented.
-
-version 3.5.2
-
-  Undocumented.
-
-version 3.5.1
-
-  Undocumented.
-
-version 3.5.0
-
-  Undocumented.
-
-version 3.4.8
-
-  Undocumented.
-
-version 3.4.7
-
-  Undocumented.
+  Mainly new songs in the data (which was included in songbook-core at this
+  time), and a few undocumented bug corrections and improvements.
 
 songbook (v0.8)
 

@@ -1,3 +1,5 @@
+"""Global variables."""
+
 import os
 
 __VERSION__ = "3.7.2"

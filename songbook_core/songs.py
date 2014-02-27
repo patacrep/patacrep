@@ -9,11 +9,12 @@ import locale
 import os.path
 import re
 
-from songbook.authors import processauthors
-from songbook.plastex import parsetex
+from songbook_core.authors import processauthors
+from songbook_core.plastex import parsetex
 
 
-class Song:
+# pylint: disable=too-few-public-methods
+class Song(object):
     """Song management"""
 
     #: Ordre de tri
@@ -25,12 +26,16 @@ class Song:
 
     def __init__(self, path, languages, titles, args):
         self.titles = titles
-        self.normalized_titles = [locale.strxfrm(
-                                                 unprefixed_title(unidecode(unicode(title, "utf-8")),
-                                                                  self.prefixes
-                                                                  )
-                                                 )
-                                  for title in titles]
+        self.normalized_titles = [
+                locale.strxfrm(
+                    unprefixed_title(
+                        unidecode(unicode(title, "utf-8")),
+                        self.prefixes
+                        )
+                    )
+                for title
+                in titles
+                ]
         self.args = args
         self.path = path
         self.languages = languages
@@ -80,7 +85,7 @@ def unprefixed_title(title, prefixes):
     return title
 
 
-class SongsList:
+class SongsList(object):
     """Manipulation et traitement de liste de chansons"""
 
     def __init__(self, library, language):

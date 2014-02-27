@@ -12,7 +12,7 @@ import os
 import sys
 
 
-def processUnbreakableSpace(node):
+def process_unbr_spaces(node):
     r"""Replace '~' and '\ ' in node by nodes that
     will be rendered as unbreakable space.
 
@@ -22,7 +22,7 @@ def processUnbreakableSpace(node):
         (type(node) == Sentences.NoLineBreak and node.source == '~ ')):
         node.unicode = unichr(160)
     for child in node.childNodes:
-        processUnbreakableSpace(child)
+        process_unbr_spaces(child)
 
     return node
 
@@ -33,28 +33,31 @@ def simpleparse(text):
     tex = TeX()
     tex.input(text.decode('utf8'))
     doc = tex.parse()
-    return processUnbreakableSpace(doc.textContent)
+    return process_unbr_spaces(doc.textContent)
 
 
-class SongParser:
+class SongParser(object):
     """Analyseur syntaxique de fichiers .sg"""
 
+    def __init__(self):
+        pass
+
     @staticmethod
-    def _create_TeX():
+    def create_tex():
         """Create a TeX object, ready to parse a tex file."""
         tex = TeX()
         tex.disableLogging()
         tex.ownerDocument.context.loadBaseMacros()
         sys.path.append(os.path.dirname(__file__))
-        tex.ownerDocument.context.loadPackage(tex, "plastex-patchedbabel")
-        tex.ownerDocument.context.loadPackage(tex, "plastex-songs")
+        tex.ownerDocument.context.loadPackage(tex, "plastex_patchedbabel")
+        tex.ownerDocument.context.loadPackage(tex, "plastex_songs")
         sys.path.pop()
         return tex
 
     @classmethod
     def parse(cls, filename):
         """Parse a TeX file, and return its plasTeX representation."""
-        tex = cls._create_TeX()
+        tex = cls.create_tex()
         tex.input(codecs.open(filename, 'r+', 'utf-8', 'replace'))
         return tex.parse()
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Patch pour le paquet Babel de PlasTeX
+r"""Patch pour le paquet Babel de PlasTeX
 
 Un bug dans PlasTeX intervient lorsqu'on essaye d'analyser une commande LaTeX
 \selectlanguage{}, que nous voulons utiliser ici. Un patch a été proposé aux
@@ -27,8 +27,8 @@ trop gros.
 
 > Traceback (most recent call last):
 >     [...]
-> File "/usr/lib/pymodules/python2.7/plasTeX/Packages/babel.py", line 18, in invoke
->     context.loadLanguage(self.attributes['lang'], self.ownerDocument)
+> File "/usr/lib/pymodules/python2.7/plasTeX/Packages/babel.py", line 18, in
+>     invoke context.loadLanguage(self.attributes['lang'], self.ownerDocument)
 > NameError: global name 'context' is not defined
 
 3 bis) Si elle n'apparait pas : youpi ! Supprimez ce fichier !
@@ -42,6 +42,7 @@ Louis <spalax(at)gresille.org>
 
 from plasTeX import Command
 
+# pylint: disable=invalid-name,too-many-public-methods
 class selectlanguage(Command):
     """Patch of vanilla selectlanguage class.
 
@@ -50,5 +51,8 @@ class selectlanguage(Command):
 
     def invoke(self, tex):
         res = Command.invoke(self, tex)
-        self.ownerDocument.context.loadLanguage(self.attributes['lang'], self.ownerDocument)
+        self.ownerDocument.context.loadLanguage( # pylint: disable=no-member
+                self.attributes['lang'],
+                self.ownerDocument
+                )
         return res

@@ -12,9 +12,9 @@ import os.path
 import textwrap
 import sys
 
-from songbook.build import buildsongbook
-from songbook import __VERSION__
-from songbook import errors
+from songbook_core.build import buildsongbook
+from songbook_core import __VERSION__
+from songbook_core import errors
 
 
 def argument_parser(args):
@@ -43,7 +43,7 @@ def main():
     """Main function:"""
 
     # Logging configuration
-    logging.basicConfig(name = 'songbook')
+    logging.basicConfig(name='songbook')
     logger = logging.getLogger('songbook')
 
     # set script locale to match user's
@@ -72,7 +72,7 @@ def main():
     else:
         songbook['datadir'] = os.path.dirname(songbook_path)
     try:
-        buildsongbook(songbook, basename, interactive = True, logger = logger)
+        buildsongbook(songbook, basename, interactive=True, logger=logger)
     except errors.SongbookError as error:
         logger.error(error)
         sys.exit(1)

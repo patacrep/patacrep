@@ -13,14 +13,14 @@ import locale
 import re
 import sys
 
-from songbook.authors import processauthors
-from songbook.plastex import simpleparse
+from songbook_core.authors import processauthors
+from songbook_core.plastex import simpleparse
 
 EOL = "\n"
 
 # Pattern set to ignore latex command in title prefix
-keywordPattern = re.compile(r"^%(\w+)\s?(.*)$")
-firstLetterPattern = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)")
+KEYWORD_PATTERN = re.compile(r"^%(\w+)\s?(.*)$")
+FIRST_LETTER_PATTERN = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)")
 
 
 def sortkey(value):
@@ -32,7 +32,7 @@ def sortkey(value):
     return locale.strxfrm(unidecode(simpleparse(value).replace(' ', 'A')))
 
 
-def processSXD(filename):
+def process_sxd(filename):
     """Parse sxd file.
 
     Return an Index object.
@@ -47,11 +47,11 @@ def processSXD(filename):
     idx = Index(data[0])
 
     while len(data) > i and data[i].startswith('%'):
-        keywords = keywordPattern.match(data[i]).groups()
+        keywords = KEYWORD_PATTERN.match(data[i]).groups()
         idx.keyword(keywords[0], keywords[1])
         i += 1
 
-    idx.compileKeywords()
+    idx.compile_keywords()
     for i in range(i, len(data), 3):
         entry = data[i:i + 3]
         idx.add(entry[0], entry[1], entry[2])
@@ -59,7 +59,7 @@ def processSXD(filename):
     return idx
 
 
-class Index:
+class Index(object):
     """Title, author or scripture Index representation."""
 
     def __init__(self, indextype):
@@ -76,9 +76,10 @@ class Index:
         else:
             self.indextype = ""
 
-    def filter(self, key):
-        letter = firstLetterPattern.match(key).group(1)
-        if re.match('\d', letter):
+    @staticmethod
+    def filter(key):
+        letter = FIRST_LETTER_PATTERN.match(key).group(1)
+        if re.match(r'\d', letter):
             letter = '0-9'
         return (letter.upper(), key)
 
@@ -87,7 +88,7 @@ class Index:
             self.keywords[key] = []
         self.keywords[key].append(word)
 
-    def compileKeywords(self):
+    def compile_keywords(self):
         if self.indextype == "TITLE":
             if 'prefix' in self.keywords:
                 for prefix in self.keywords['prefix']:
@@ -146,27 +147,34 @@ class Index:
                     **self.authwords):
                 self._raw_add(author, number, link)
 
-    def refToStr(self, ref):
+    @staticmethod
+    def ref_to_str(ref):
         if sys.version_info >= (2, 6):
             return r'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
         else:
             return r'\hyperlink{%(link)s}{%(num)s}' % ref
 
-    def entryToStr(self, key, entry):
+    def entry_to_str(self, key, entry):
         if sys.version_info >= (2, 6):
-            return unicode(r'\idxentry{{{0}}}{{{1}}}' + EOL).format(key, r'\\'.join(map(self.refToStr, entry)))
+            return unicode(r'\idxentry{{{0}}}{{{1}}}' + EOL).format(
+                    key,
+                    r'\\'.join([self.ref_to_str(ref) for ref in entry]),
+                    )
         else:
-            return unicode(r'\idxentry{%s}{%s}' + EOL) % (key, r'\\'.join(map(self.refToStr, entry)))
+            return unicode(r'\idxentry{%s}{%s}' + EOL) % (
+                    key,
+                    r'\\'.join([self.ref_to_str(ref) for ref in  entry]),
+                    )
 
-    def idxBlockToStr(self, letter, entries):
+    def idxblock_to_str(self, letter, entries):
         string = r'\begin{idxblock}{' + letter + '}' + EOL
         for key in sorted(entries.keys(), key=sortkey):
-            string += self.entryToStr(key, entries[key])
+            string += self.entry_to_str(key, entries[key])
         string += r'\end{idxblock}' + EOL
         return string
 
-    def entriesToStr(self):
+    def entries_to_str(self):
         string = ""
         for letter in sorted(self.data.keys()):
-            string += self.idxBlockToStr(letter, self.data[letter])
+            string += self.idxblock_to_str(letter, self.data[letter])
         return string

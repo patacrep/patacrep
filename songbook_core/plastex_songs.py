@@ -6,7 +6,7 @@
 
 import plasTeX
 
-from songbook.plastex import processUnbreakableSpace
+from songbook_core.plastex import process_unbr_spaces
 
 
 def split_linebreak(texlist):
@@ -18,7 +18,8 @@ def split_linebreak(texlist):
         Alternative name\\
         Another alternative name
 
-    This function takes the object representation of a list of titles, and return a list of titles.
+    This function takes the object representation of a list of titles, and
+    return a list of titles.
     """
     return_list = []
     current = []
@@ -27,13 +28,14 @@ def split_linebreak(texlist):
             return_list.append(current)
             current = []
         else:
-            current.append(processUnbreakableSpace(token).textContent.encode('utf-8'))
+            current.append(
+                    process_unbr_spaces(token).textContent.encode('utf-8'))
     if current:
         return_list.append(current)
     return return_list
 
 
-class beginsong(plasTeX.Command):
+class beginsong(plasTeX.Command): # pylint: disable=invalid-name,too-many-public-methods
     """Class parsing the LaTeX song environment."""
 
     args = '{titles}[ args:dict ]'
@@ -53,7 +55,7 @@ class beginsong(plasTeX.Command):
         args = {}
         for (key, val) in self.attributes['args'].iteritems():
             if isinstance(val, plasTeX.DOM.Element):
-                args[key] = processUnbreakableSpace(val).textContent.encode('utf-8')
+                args[key] = process_unbr_spaces(val).textContent.encode('utf-8')
             elif isinstance(val, unicode):
                 args[key] = val.encode('utf-8')
             elif isinstance(val, str):

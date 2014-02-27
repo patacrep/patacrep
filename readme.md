@@ -20,12 +20,12 @@ is precised in the header.
 
 # Run
 
->     <songbook-core>/songbook.py <songbook_file.sb>
+>     <songbook-core>/songbook <songbook_file.sb>
 >     <pdfreader> <songbook_file.pdf>
 
 Look for existing songbook files in <songbook-data>/books. For example:
 
->     <songbook-core>/songbook.py <songbook-data>/books/songbook_en.sb
+>     <songbook-core>/songbook <songbook-data>/books/songbook_en.sb
 >     <pdfreader> songbook_en.pdf
 
 

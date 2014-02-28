@@ -40,6 +40,10 @@ def parse_template(template):
 
 # pylint: disable=too-many-return-statements
 def to_value(parameter, data):
+    """Convert 'data' to a LaTeX string.
+
+    Conversion is done according to the template parameter it corresponds to.
+    """
     if "type" not in parameter:
         return data
     elif parameter["type"] == "stringlist":
@@ -65,6 +69,7 @@ def to_value(parameter, data):
 
 
 def format_declaration(name, parameter):
+    """Write LaTeX code to declare a variable"""
     value = ""
     if "default" in parameter:
         value = parameter["default"]
@@ -76,6 +81,7 @@ def format_declaration(name, parameter):
 
 
 def format_definition(name, value):
+    """Write LaTeX code to set a value to a variable"""
     return r'\set@{name}{{{value}}}'.format(name=name, value=value) + EOL
 
 

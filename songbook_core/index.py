@@ -24,11 +24,12 @@ FIRST_LETTER_PATTERN = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)")
 
 
 def sortkey(value):
-    '''
-    From a title, return something usable for sorting. It handles locale (but
+    """From a title, return something usable for sorting.
+
+    It handles locale (but
     don't forget to call locale.setlocale(locale.LC_ALL, '')). It also handles
     the sort with  latex escape sequences.
-    '''
+    """
     return locale.strxfrm(unidecode(simpleparse(value).replace(' ', 'A')))
 
 
@@ -48,7 +49,7 @@ def process_sxd(filename):
 
     while len(data) > i and data[i].startswith('%'):
         keywords = KEYWORD_PATTERN.match(data[i]).groups()
-        idx.keyword(keywords[0], keywords[1])
+        idx.add_keyword(keywords[0], keywords[1])
         i += 1
 
     idx.compile_keywords()
@@ -77,18 +78,21 @@ class Index(object):
             self.indextype = ""
 
     @staticmethod
-    def filter(key):
+    def get_first_letter(key):
+        """Return the uppercase first letter of key."""
         letter = FIRST_LETTER_PATTERN.match(key).group(1)
         if re.match(r'\d', letter):
             letter = '0-9'
-        return (letter.upper(), key)
+        return letter.upper()
 
-    def keyword(self, key, word):
+    def add_keyword(self, key, word):
+        """Add 'word' to self.keywords[key]."""
         if not key in self.keywords.keys():
             self.keywords[key] = []
         self.keywords[key].append(word)
 
     def compile_keywords(self):
+        """Turn keywords (self.keywords) into regular expressions."""
         if self.indextype == "TITLE":
             if 'prefix' in self.keywords:
                 for prefix in self.keywords['prefix']:
@@ -119,7 +123,12 @@ class Index(object):
                         self.authwords[word] = self.keywords[word]
 
     def _raw_add(self, key, number, link):
-        (first, key) = self.filter(key)
+        """Add a song to the list.
+
+        No processing is done one data. It is added raw. See add() for a
+        similar method with processing.
+        """
+        first = self.get_first_letter(key)
         if not first in self.data.keys():
             self.data[first] = dict()
         if not key in self.data[first].keys():
@@ -127,6 +136,10 @@ class Index(object):
         self.data[first][key].append({'num': number, 'link': link})
 
     def add(self, key, number, link):
+        """Add a song to the list.
+
+        Process data before adding it.
+        """
         if self.indextype == "TITLE":
             # Removing prefixes before titles
             for pattern in self.prefix_patterns:
@@ -149,12 +162,14 @@ class Index(object):
 
     @staticmethod
     def ref_to_str(ref):
+        """Return the LaTeX code corresponding to the reference."""
         if sys.version_info >= (2, 6):
             return r'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
         else:
             return r'\hyperlink{%(link)s}{%(num)s}' % ref
 
     def entry_to_str(self, key, entry):
+        """Return the LaTeX code corresponding to the entry."""
         if sys.version_info >= (2, 6):
             return unicode(r'\idxentry{{{0}}}{{{1}}}' + EOL).format(
                     key,
@@ -167,6 +182,11 @@ class Index(object):
                     )
 
     def idxblock_to_str(self, letter, entries):
+        """Return the LaTeX code corresponding to an index block.
+
+        Here, an index block is a letter, and all data beginning with this
+        letter.
+        """
         string = r'\begin{idxblock}{' + letter + '}' + EOL
         for key in sorted(entries.keys(), key=sortkey):
             string += self.entry_to_str(key, entries[key])
@@ -174,6 +194,7 @@ class Index(object):
         return string
 
     def entries_to_str(self):
+        """Return the LaTeX code corresponding to the index."""
         string = ""
         for letter in sorted(self.data.keys()):
             string += self.idxblock_to_str(letter, self.data[letter])

@@ -65,6 +65,11 @@ def to_value(parameter, data):
 
 
 def format_declaration(name, parameter):
+    """Return LaTeX code to declare variale 'name'.
+
+    'parameter' is the corresponding line of the template (which can provide
+    default value).
+    """
     value = ""
     if "default" in parameter:
         value = parameter["default"]
@@ -76,6 +81,7 @@ def format_declaration(name, parameter):
 
 
 def format_definition(name, value):
+    """Return LaTeX code to define and set default value of variable 'name'"""
     return r'\set@{name}{{{value}}}'.format(name=name, value=value) + EOL
 
 
@@ -102,134 +108,180 @@ def clean(basename):
         except Exception as exception:
             raise errors.CleaningError(basename + ext, exception)
 
+DEFAULT_AUTHWORDS = {
+        "after": ["by"],
+        "ignore": ["unknown"],
+        "sep": ["and"],
+        }
 
-def make_tex_file(songbook, output):
-    """Create the LaTeX file corresponding to the .sb file given in argument."""
-    datadir = songbook['datadir']
-    name = output[:-4]
-    template_dir = os.path.join(datadir, 'templates')
-    songs = []
+# pylint: disable=too-few-public-methods
+class Songbook(object):
+    """Reprensent a songbook (.sb) file.
 
-    prefixes_tex = ""
-    prefixes = []
+    - Low level: provide a Python representation of the values stored in the
+      '.sb' file.
+    - High level: provide some utility functions to manipulate these data.
+    """
 
-    authwords_tex = ""
-    authwords = {"after": ["by"], "ignore": ["unknown"], "sep": ["and"]}
+    def __init__(self, raw_songbook, basename):
+        super(Songbook, self).__init__()
+        self.basename = basename
+        # Default values: will be updated while parsing raw_songbook
+        self.config = {
+                'template': os.path.join(
+                    __SHAREDIR__,
+                    "templates",
+                    "default.tmpl",
+                    ),
+                'titleprefixwords': [],
+                'authwords': {},
+                'lang': 'french',
+                'sort': [u"by", u"album", u"@title"],
+                'songs': None,
+                'datadir': os.path.abspath('.'),
+                }
+        self.songslist = None
+        self._parse(raw_songbook)
+        self._set_songs_default()
 
-    # parse the songbook data
-    if "template" in songbook:
-        template = songbook["template"]
-        del songbook["template"]
-    else:
-        template = os.path.join(__SHAREDIR__, "templates", "default.tmpl")
-    if "songs" in songbook:
-        songs = songbook["songs"]
-        del songbook["songs"]
-    if "titleprefixwords" in songbook:
-        prefixes = songbook["titleprefixwords"]
-        for prefix in songbook["titleprefixwords"]:
-            prefixes_tex += r"\titleprefixword{%s}" % prefix + EOL
-        songbook["titleprefixwords"] = prefixes_tex
-    if "authwords" in songbook:
-        # Populating default value
-        for key in ["after", "sep", "ignore"]:
-            if key not in songbook["authwords"]:
-                songbook["authwords"][key] = authwords[key]
-        # Processing authwords values
-        authwords = songbook["authwords"]
-        for key in ["after", "sep", "ignore"]:
-            for word in authwords[key]:
-                if key == "after":
-                    authwords_tex += r"\auth%sword{%s}" % ("by", word) + EOL
-                else:
-                    authwords_tex += r"\auth%sword{%s}" % (key, word) + EOL
-        songbook["authwords"] = authwords_tex
-    if "after" in authwords:
-        authwords["after"] = [re.compile(r"^.*%s\b(.*)" % after)
-                              for after in authwords["after"]]
-    if "sep" in authwords:
-        authwords["sep"] = [" %s" % sep for sep in authwords["sep"]] + [","]
-        authwords["sep"] = [re.compile(r"^(.*)%s (.*)$" % sep)
-                            for sep in authwords["sep"]]
-
-    if "lang" not in songbook:
-        songbook["lang"] = "french"
-    if "sort" in songbook:
-        sort = songbook["sort"]
-        del songbook["sort"]
-    else:
-        sort = [u"by", u"album", u"@title"]
-    Song.sort = sort
-    Song.prefixes = prefixes
-    Song.authwords = authwords
-
-    parameters = parse_template(os.path.join(template_dir, template))
-
-    # compute songslist
-    if songs == "all":
-        songs = [
-                os.path.relpath(filename, os.path.join(datadir, 'songs'))
-                for filename
-                in recursive_find(os.path.join(datadir, 'songs'), '*.sg')
+    def _set_songs_default(self):
+        """Set the default values for the Song() class."""
+        Song.sort = self.config['sort']
+        Song.prefixes = self.config['titleprefixwords']
+        Song.authwords['after'] = [
+                re.compile(r"^.*%s\b(.*)" % after)
+                for after
+                in self.config['authwords']["after"]
                 ]
-    songslist = SongsList(datadir, songbook["lang"])
-    songslist.append_list(songs)
-
-    songbook["languages"] = ",".join(songslist.languages())
-
-    # output relevant fields
-    out = codecs.open(output, 'w', 'utf-8')
-    out.write('%% This file has been automatically generated, do not edit!\n')
-    out.write(r'\makeatletter' + EOL)
-    # output automatic parameters
-    out.write(format_declaration("name", {"default": name}))
-    out.write(format_declaration("songslist", {"type": "stringlist"}))
-    # output template parameter command
-    for name, parameter in parameters.iteritems():
-        out.write(format_declaration(name, parameter))
-    # output template parameter values
-    for name, value in songbook.iteritems():
-        if name in parameters:
-            out.write(format_definition(
-                name,
-                to_value(parameters[name], value),
-                ))
-
-    if len(songs) > 0:
-        out.write(format_definition('songslist', songslist.latex()))
-    out.write(r'\makeatother' + EOL)
-
-    # output template
-    comment_pattern = re.compile(r"^\s*%")
-    with codecs.open(
-            os.path.join(template_dir, template), 'r', 'utf-8'
-            ) as template_file:
-        content = [
-                line
-                for line
-                in template_file
-                if not comment_pattern.match(line)
+        Song.authwords['ignore'] = self.config['authwords']['ignore']
+        Song.authwords['sep'] = [
+                re.compile(r"^(.*)%s (.*)$" % sep)
+                for sep
+                in ([
+                    " %s" % sep
+                    for sep
+                    in self.config['authwords']["sep"]
+                    ] + [','])
                 ]
 
-        for index, line in enumerate(content):
-            if re.compile("getDataImgDirectory").search(line):
-                if os.path.abspath(os.path.join(datadir, "img")).startswith(
-                        os.path.abspath(os.path.dirname(output))
-                        ):
-                    imgdir = os.path.relpath(
-                            os.path.join(datadir, "img"),
-                            os.path.dirname(output)
-                            )
-                else:
-                    imgdir = os.path.abspath(os.path.join(datadir, "img"))
-                line = line.replace(r"\getDataImgDirectory", ' {%s/} ' % imgdir)
-                content[index] = line
 
-    out.write(u''.join(content))
-    out.close()
+    def _parse(self, raw_songbook):
+        """Parse raw_songbook.
+
+        The principle is: some special keys have their value processed; others
+        are stored verbatim in self.config.
+        """
+        self.config.update(raw_songbook)
+
+        ### Some post-processing
+        # Compute song list
+        if self.config['songs'] is None:
+            self.config['songs'] = [
+                    os.path.relpath(
+                        filename,
+                        os.path.join(self.config['datadir'], 'songs'),
+                        )
+                    for filename
+                    in recursive_find(
+                        os.path.join(self.config['datadir'], 'songs'),
+                        '*.sg',
+                        )
+                    ]
+        self.songslist = SongsList(self.config['datadir'], self.config["lang"])
+        self.songslist.append_list(self.config['songs'])
+
+        # Ensure self.config['authwords'] contains all entries
+        for (key, value) in DEFAULT_AUTHWORDS.items():
+            if key not in self.config['authwords']:
+                self.config['authwords'][key] = value
+
+    def write_tex(self, output):
+        r"""Build the '.tex' file corresponding to self.
+
+        Arguments:
+        - output: a file object, in which the file will be written.
+
+
+        TODO: Update this.
+
+        Quelques notes concernant le rendu
+        - self.config['titleprefixwords']
+          > return EOL.join([
+          >     r"\titleprefixwords{%s}" % prefix
+          >     for prefix
+          >     in self.config['titleprefixwords']
+          >     ])
+
+        - self.config['authwords']:
+          > # Processing authwords values
+          > tex = []
+          > for key in ["after", "sep", "ignore"]:
+          >     for word in self.config['authwords'][key]:
+          >         if key == "after":
+          >             tex.append(r"\auth%sword{%s}" % ("by", word))
+          >         else:
+          >             tex.append(r"\auth%sword{%s}" % (key, word))
+          > return EOL.join(tex)
+
+        - Liste des langues utilisées (pour chargement par babel):
+          self.songlist.languages(). Donc la commande pour Babel peut
+          ressembler à :
+          > r"\PassOptionsToPackage{%s}{babel}" % ",".join(
+          >     self.songslist.languages()
+          >     )
+        """
+        parameters = parse_template(os.path.join(
+            self.config['datadir'],
+            'templates',
+            self.config['template']
+            ))
+        output.write((
+            '%% This file has been automatically '
+            'generated, do not edit!\n'
+            ))
+        output.write(r'\makeatletter' + EOL)
+        # output automatic parameters
+        output.write(format_declaration("name", {"default": self.basename}))
+        output.write(format_declaration("songslist", {"type": "stringlist"}))
+        # output template parameter command
+        for name, parameter in parameters.iteritems():
+            output.write(format_declaration(name, parameter))
+        # output template parameter values
+        for name, value in self.config.iteritems():
+            if name in parameters:
+                output.write(format_definition(
+                    name,
+                    to_value(parameters[name], value),
+                    ))
+
+        if len(self.config['songs']) > 0:
+            output.write(format_definition('songslist', self.songslist.latex()))
+        output.write(r'\makeatother' + EOL)
+
+        # output template
+        comment_pattern = re.compile(r"^\s*%")
+        with codecs.open(
+                os.path.join(
+                    self.config['datadir'],
+                    'templates',
+                    self.config['template']
+                    ),
+                'r',
+                'utf-8',
+                ) as template_file:
+            content = [
+                    line
+                    for line
+                    in template_file
+                    if not comment_pattern.match(line)
+                    ]
+
+        output.write(u''.join(content))
+
+
 
 def buildsongbook(
-        songbook,
+        raw_songbook,
         basename,
         interactive=False,
         logger=logging.getLogger()
@@ -237,15 +289,15 @@ def buildsongbook(
     """Build a songbook
 
     Arguments:
-    - songbook: Python representation of the .sb songbook configuration file.
+    - raw_songbook: Python representation of the .sb songbook configuration
+      file.
     - basename: basename of the songbook to be built.
     - interactive: in False, do not expect anything from stdin.
     """
 
-    tex_file = basename + ".tex"
-
-    # Make TeX file
-    make_tex_file(songbook, tex_file)
+    songbook = Songbook(raw_songbook, basename)
+    with codecs.open("{}.tex".format(basename), 'w', 'utf-8') as output:
+        songbook.write_tex(output)
 
     if not 'TEXINPUTS' in os.environ.keys():
         os.environ['TEXINPUTS'] = ''
@@ -254,7 +306,7 @@ def buildsongbook(
             'latex',
             )
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(
-            songbook['datadir'],
+            songbook.config['datadir'],
             'latex',
             )
 
@@ -265,7 +317,7 @@ def buildsongbook(
         pdflatex_options.append("-halt-on-error")
 
     # First pdflatex pass
-    if subprocess.call(["pdflatex"] + pdflatex_options + [tex_file]):
+    if subprocess.call(["pdflatex"] + pdflatex_options + [basename]):
         raise errors.LatexCompilationError(basename)
 
     # Make index
@@ -278,7 +330,7 @@ def buildsongbook(
         index_file.close()
 
     # Second pdflatex pass
-    if subprocess.call(["pdflatex"] + pdflatex_options + [tex_file]):
+    if subprocess.call(["pdflatex"] + pdflatex_options + [basename]):
         raise errors.LatexCompilationError(basename)
 
     # Cleaning

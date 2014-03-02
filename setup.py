@@ -4,7 +4,6 @@
 
 $ python setup.py install
 """
-
 from distutils.core import setup
 
 import songbook_core
@@ -23,7 +22,15 @@ setup(name='songbook-core',
             "textwrap", "unidecode"
             ],
         packages=['songbook_core'],
-        package_data={'songbook_core': ['*', '*/*', '*/*/*']},
+        package_data={'songbook_core': ['data/latex/*',
+                                        'data/templates/*',
+                                        'data/examples/*.sb',
+                                        'data/examples/*/*.sg',
+                                        'data/examples/*/*.ly',
+                                        'data/examples/*/*.jpg',
+                                        'data/examples/*/*.png',
+                                        'data/examples/*/*.png',
+                                        'data/examples/*/*/header']},
         classifiers=[
             "Environment :: Console",
             "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",

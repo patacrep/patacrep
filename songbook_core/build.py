@@ -11,7 +11,7 @@ import os.path
 import re
 import subprocess
 
-from songbook_core import __SHAREDIR__
+from songbook_core import __DATADIR__
 from songbook_core import errors
 from songbook_core.files import recursive_find
 from songbook_core.index import process_sxd
@@ -306,7 +306,7 @@ def buildsongbook(
     if not 'TEXINPUTS' in os.environ.keys():
         os.environ['TEXINPUTS'] = ''
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(
-            __SHAREDIR__,
+            __DATADIR__,
             'latex',
             )
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(

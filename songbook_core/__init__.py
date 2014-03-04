@@ -1,11 +1,14 @@
 """Global variables."""
 
+from pkg_resources import resource_filename
 import os
 
-__VERSION__ = "3.7.2"
+# Version
+
+__VERSION__ = (3, 7, 2)
+__STR_VERSION__ = '.'.join([str(number) for number in __VERSION__])
 
 # Directory containing shared data (default templates, custom LaTeX packages,
 # etc.)
-__SHAREDIR__ = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "share")
-        )
+
+__DATADIR__ = os.path.abspath(resource_filename(__name__, 'data'))

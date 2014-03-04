@@ -13,7 +13,7 @@ import textwrap
 import sys
 
 from songbook_core.build import buildsongbook
-from songbook_core import __VERSION__
+from songbook_core import __STR_VERSION__
 from songbook_core import errors
 
 
@@ -22,7 +22,7 @@ def argument_parser(args):
     parser = argparse.ArgumentParser(description="A song book compiler")
 
     parser.add_argument('--version', help='Show version', action='version',
-            version='%(prog)s ' + __VERSION__)
+            version='%(prog)s ' + __STR_VERSION__)
 
     parser.add_argument('book', nargs=1, help=textwrap.dedent("""\
                     Book to compile.

@@ -310,7 +310,7 @@
 \fi%
 
 % On-the-fly compilation of lilypond files
-\epstopdfDeclareGraphicsRule{.ly}{pdf}{.pdf}{lilypond --format=pdf -e '(define-public songbookstaff "")' --output=\Gin@base\ETE@suffix\space #1}
+\epstopdfDeclareGraphicsRule{.ly}{pdf}{.pdf}{lilypond --format=pdf --output=\Gin@base\ETE@suffix\space #1}
 \AppendGraphicsExtensions{.ly}
 
 \newcommand{\lilypond}[1]{%

@@ -163,22 +163,13 @@ class Index(object):
     @staticmethod
     def ref_to_str(ref):
         """Return the LaTeX code corresponding to the reference."""
-        if sys.version_info >= (2, 6):
-            return r'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
-        else:
-            return r'\hyperlink{%(link)s}{%(num)s}' % ref
+        return r'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
 
     def entry_to_str(self, key, entry):
         """Return the LaTeX code corresponding to the entry."""
-        if sys.version_info >= (2, 6):
             return unicode(r'\idxentry{{{0}}}{{{1}}}' + EOL).format(
                     key,
                     r'\\'.join([self.ref_to_str(ref) for ref in entry]),
-                    )
-        else:
-            return unicode(r'\idxentry{%s}{%s}' + EOL) % (
-                    key,
-                    r'\\'.join([self.ref_to_str(ref) for ref in  entry]),
                     )
 
     def idxblock_to_str(self, letter, entries):

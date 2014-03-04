@@ -167,10 +167,10 @@ class Index(object):
 
     def entry_to_str(self, key, entry):
         """Return the LaTeX code corresponding to the entry."""
-            return unicode(r'\idxentry{{{0}}}{{{1}}}' + EOL).format(
-                    key,
-                    r'\\'.join([self.ref_to_str(ref) for ref in entry]),
-                    )
+        return unicode(r'\idxentry{{{0}}}{{{1}}}' + EOL).format(
+                key,
+                r'\\'.join([self.ref_to_str(ref) for ref in entry]),
+                )
 
     def idxblock_to_str(self, letter, entries):
         """Return the LaTeX code corresponding to an index block.

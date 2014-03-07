@@ -1,0 +1,123 @@
+(% comment %)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%:[
+%%:  {"name":"title", "description":"Title", "default":"Recueil de chansons pour guitare", "mandatory":true},
+%%:  {"name":"author", "description":"Author", "default":"The Songbook Team", "mandatory":true},
+%%:  {"name":"booktype", "description":"Type", "type":"enum", "values":["chorded","lyric"], "default":"chorded", "mandatory":true},
+%%:  {"name":"lang", "description":"Language", "default":"english"},
+%%:  {"name":"instruments", "description":"Instruments", "type":"flag", "values":["guitar","ukulele"], "join":",", "mandatory":true, "default":["guitar"]},
+%%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["diagram","pictures"]},
+%%:  {"name":"version", "description":"Version", "default":"unknown"},
+%%:  {"name":"subtitle", "description":"Subtitle"},
+%%:  {"name":"web", "description":"Web", "default":"http://www.patacrep.com"},
+%%:  {"name":"mail", "description":"Email", "default":"crep@team-on-fire.com"},
+%%:  {"name":"picture", "description":"Picture", "type":"file", "default":"treble_a"},
+%%:  {"name":"picturecopyright", "description":"Copyright", "default":"Dbolton \\url{http://commons.wikimedia.org/wiki/User:Dbolton}"},
+%%:  {"name":"footer", "description":"Footer", "default":"\\begin{flushright}Generated using Songbook (\\url{http://www.patacrep.com})\\end{flushright}"},
+%%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
+%%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"D1E4AE"},
+%%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"D1E4AE"},
+%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"D1E4AE"},
+%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"},
+%%:  {"name":"authwords", "descriptipn":"Set of options to process author string (LaTeX commands authsepword, authignoreword, authbyword)"},
+%%:  {"name":"languages", "description":"List of languages used by songs", "default":""}
+%%:]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(% endcomment %)
+(* extends "layout.tex" *)
+(* block extrapackages *)
+   \usepackage[
+     a4paper % paper size
+     ,includeheadfoot % include header and footer into text size
+     ,hmarginratio=1:1 % ratio between inner and outer margin (default)
+     ,outer=1.8cm % outer margin (right)
+     ,vmarginratio=1:1 % ratio between top and bottom margin
+     ,bmargin=1.3cm % bottom margin
+     ]{geometry}
+  \usepackage{chords}
+(* endblock extrapackages *)
+
+(* block header *)
+
+   \title{((title))}
+   \author{((author))}
+   \subtitle{((subtitle))}
+   (* if version!="unknown" *)
+      \version{((version))}
+   (* endif *)
+   \mail{((mail))}
+   \web{((web))}
+   \picture{((picture))}
+   \picturecopyright{((picturecopyright))}
+   \footer{((footer))}
+   \lang{((mainlang))}
+
+   \newindex{titleidx}{((filename))_title}
+   \newauthorindex{authidx}{((filename))_auth}
+
+   (* for prefix in titleprefixwords *)
+   \titleprefixwords{((prefix))}
+   (* endfor*)
+   (* for key in titleprefixkeys *)
+      (* for word in authwords.key *)
+      (* if key=="after" *)
+      \authbyword{((word))}
+      (* else *)
+      \auth((key))word{((word))}
+      (* endif *)
+      (* endfor *)
+   (* endfor*)
+
+   \graphicspath{{((datadir))/img/}}
+   \pagestyle{empty}
+(* endblock header *)
+
+(* block preface *)
+   \definecolor{SongNumberBgColor}{HTML}{((songnumberbgcolor))}
+   \definecolor{NoteBgColor}{HTML}{((notebgcolor))}
+   \definecolor{IndexBgColor}{HTML}{((indexbgcolor))}
+
+   \renewcommand{\snumbgcolor}{SongNumberBgColor}
+   \renewcommand{\notebgcolor}{NoteBgColor}
+   \renewcommand{\idxbgcolor}{IndexBgColor}
+
+   (* if mainlang==english *)
+     \showindex{Songs Index}{titleidx}
+     \showindex{Authors Index}{authidx}
+   (* else *)
+     \showindex{Index des chansons}{titleidx}
+     \showindex{Index des auteurs}{authidx}
+   (* endif *)
+   (* if mainlang==french *)
+      \notenamesin{A}{B}{C}{D}{E}{F}{G}
+      \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
+   (* endif *)
+
+   % list of chords
+   \ifchorded
+   \phantomsection
+   (* if mainlang==english *)
+     \addcontentsline{toc}{section}{Chords list}
+   (* else *)
+     \addcontentsline{toc}{section}{Liste des accords}
+   (* endif *)
+%   \chords
+   \fi
+(* endblock *)
+
+(* block content *)
+   \phantomsection
+   (* if mainlang==english *)
+     \addcontentsline{toc}{section}{Songs list}
+   (* else *)
+     \addcontentsline{toc}{section}{Liste des chansons}
+   (* endif *)
+
+   \begin{songs}{titleidx,authidx}
+      (* for song in songlist.songs *)
+      \input{((song.path))}
+      (* endfor *)
+   \end{songs}
+(* endblock *)

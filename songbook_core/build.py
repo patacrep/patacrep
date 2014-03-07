@@ -16,12 +16,18 @@ from songbook_core import errors
 from songbook_core.files import recursive_find
 from songbook_core.index import process_sxd
 from songbook_core.songs import Song, SongsList
+from songbook_core.templates import render_tex
 
 EOL = "\n"
+DEFAULT_AUTHWORDS = {
+        "after": ["by"],
+        "ignore": ["unknown"],
+        "sep": ["and"],
+        }
 
 
 def parse_template(template):
-    """Return the list of parameters defined in the template."""
+    """Return the list of default parameters defined in the template."""
     embedded_json_pattern = re.compile(r"^%%:")
     with open(template) as template_file:
         code = [
@@ -34,93 +40,15 @@ def parse_template(template):
     data = json.loads(''.join(code))
     parameters = dict()
     for param in data:
-        parameters[param["name"]] = param
+        try:
+            parameters[param["name"]] = param["default"]
+        except KeyError:
+            parameters[param["name"]] = None
     return parameters
 
 
-# pylint: disable=too-many-return-statements
-def to_value(parameter, data):
-    """Convert 'data' to a LaTeX string.
-
-    Conversion is done according to the template parameter it corresponds to.
-    """
-    if "type" not in parameter:
-        return data
-    elif parameter["type"] == "stringlist":
-        if "join" in parameter:
-            join_text = parameter["join"]
-        else:
-            join_text = ''
-        return join_text.join(data)
-    elif parameter["type"] == "color":
-        return data[1:]
-    elif parameter["type"] == "font":
-        return data + 'pt'
-    elif parameter["type"] == "enum":
-        return data
-    elif parameter["type"] == "file":
-        return data
-    elif parameter["type"] == "flag":
-        if "join" in parameter:
-            join_text = parameter["join"]
-        else:
-            join_text = ''
-        return join_text.join(data)
-
-
-def format_declaration(name, parameter):
-    """Return LaTeX code to declare variale 'name'.
-
-    'parameter' is the corresponding line of the template (which can provide
-    default value).
-    """
-    value = ""
-    if "default" in parameter:
-        value = parameter["default"]
-    return (
-            r'\def\set@{name}#1{{\def\get{name}{{#1}}}}'.format(name=name)
-            + EOL
-            + format_definition(name, to_value(parameter, value))
-            )
-
-
-def format_definition(name, value):
-    """Write LaTeX code to set a value to a variable"""
-    return r'\set@{name}{{{value}}}'.format(name=name, value=value) + EOL
-
-
-def clean(basename):
-    """Clean (some) temporary files used during compilation.
-
-    Depending of the LaTeX modules used in the template, there may be others
-    that are note deleted by this function."""
-    generated_extensions = [
-            "_auth.sbx",
-            "_auth.sxd",
-            ".aux",
-            ".log",
-            ".out",
-            ".sxc",
-            ".tex",
-            "_title.sbx",
-            "_title.sxd",
-            ]
-
-    for ext in generated_extensions:
-        try:
-            os.unlink(basename + ext)
-        except Exception as exception:
-            raise errors.CleaningError(basename + ext, exception)
-
-DEFAULT_AUTHWORDS = {
-        "after": ["by"],
-        "ignore": ["unknown"],
-        "sep": ["and"],
-        }
-
-# pylint: disable=too-few-public-methods
 class Songbook(object):
-    """Reprensent a songbook (.sb) file.
+    """Represent a songbook (.sb) file.
 
     - Low level: provide a Python representation of the values stored in the
       '.sb' file.
@@ -132,11 +60,7 @@ class Songbook(object):
         self.basename = basename
         # Default values: will be updated while parsing raw_songbook
         self.config = {
-                'template': os.path.join(
-                    __SHAREDIR__,
-                    "templates",
-                    "default.tmpl",
-                    ),
+                'template': "default.tex",
                 'titleprefixwords': [],
                 'authwords': {},
                 'lang': 'french',
@@ -168,7 +92,6 @@ class Songbook(object):
                     ] + [','])
                 ]
 
-
     def _parse(self, raw_songbook):
         """Parse raw_songbook.
 
@@ -176,7 +99,7 @@ class Songbook(object):
         are stored verbatim in self.config.
         """
         self.config.update(raw_songbook)
-
+        self.config['datadir'] = os.path.abspath(self.config['datadir'])
         ### Some post-processing
         # Compute song list
         if self.config['songs'] is None:
@@ -187,9 +110,9 @@ class Songbook(object):
                         )
                     for filename
                     in recursive_find(
-                        os.path.join(self.config['datadir'], 'songs'),
-                        '*.sg',
-                        )
+                                os.path.join(self.config['datadir'], 'songs'),
+                                '*.sg',
+                                )
                     ]
         self.songslist = SongsList(self.config['datadir'], self.config["lang"])
         self.songslist.append_list(self.config['songs'])
@@ -200,88 +123,46 @@ class Songbook(object):
                 self.config['authwords'][key] = value
 
     def write_tex(self, output):
-        r"""Build the '.tex' file corresponding to self.
+        """Build the '.tex' file corresponding to self.
 
         Arguments:
         - output: a file object, in which the file will be written.
-
-
-        TODO: Update this.
-
-        Quelques notes concernant le rendu
-        - self.config['titleprefixwords']
-          > return EOL.join([
-          >     r"\titleprefixwords{%s}" % prefix
-          >     for prefix
-          >     in self.config['titleprefixwords']
-          >     ])
-
-        - self.config['authwords']:
-          > # Processing authwords values
-          > tex = []
-          > for key in ["after", "sep", "ignore"]:
-          >     for word in self.config['authwords'][key]:
-          >         if key == "after":
-          >             tex.append(r"\auth%sword{%s}" % ("by", word))
-          >         else:
-          >             tex.append(r"\auth%sword{%s}" % (key, word))
-          > return EOL.join(tex)
-
-        - Liste des langues utilisées (pour chargement par babel):
-          self.songlist.languages(). Donc la commande pour Babel peut
-          ressembler à :
-          > r"\PassOptionsToPackage{%s}{babel}" % ",".join(
-          >     self.songslist.languages()
-          >     )
         """
-        parameters = parse_template(os.path.join(
-            self.config['datadir'],
-            'templates',
-            self.config['template']
-            ))
-        output.write((
-            '%% This file has been automatically '
-            'generated, do not edit!\n'
-            ))
-        output.write(r'\makeatletter' + EOL)
-        # output automatic parameters
-        output.write(format_declaration("name", {"default": self.basename}))
-        output.write(format_declaration("songslist", {"type": "stringlist"}))
-        # output template parameter command
-        for name, parameter in parameters.iteritems():
-            output.write(format_declaration(name, parameter))
-        # output template parameter values
-        for name, value in self.config.iteritems():
-            if name in parameters:
-                output.write(format_definition(
-                    name,
-                    to_value(parameters[name], value),
-                    ))
+        context = parse_template(os.path.join(
+                            self.config['datadir'],
+                            'templates',
+                            self.config['template']
+                            ))
 
-        if len(self.config['songs']) > 0:
-            output.write(format_definition('songslist', self.songslist.latex()))
-        output.write(r'\makeatother' + EOL)
+        context.update(self.config)
+        context['titleprefixkeys'] = ["after", "sep", "ignore"]
+        context['songlist'] = self.songslist
+        context['filename'] = output.name[:-4]
+        render_tex(output, context, self.config['datadir'])
 
-        # output template
-        comment_pattern = re.compile(r"^\s*%")
-        with codecs.open(
-                os.path.join(
-                    self.config['datadir'],
-                    'templates',
-                    self.config['template']
-                    ),
-                'r',
-                'utf-8',
-                ) as template_file:
-            content = [
-                    line
-                    for line
-                    in template_file
-                    if not comment_pattern.match(line)
-                    ]
 
-        output.write(u''.join(content))
+def clean(basename):
+    """Clean (some) temporary files used during compilation.
 
+    Depending of the LaTeX modules used in the template, there may be others
+    that are not deleted by this function."""
+    generated_extensions = [
+            "_auth.sbx",
+            "_auth.sxd",
+            ".aux",
+            ".log",
+            ".out",
+            ".sxc",
+            ".tex",
+            "_title.sbx",
+            "_title.sxd",
+            ]
+
+    for ext in generated_extensions:
+        try:
+            os.unlink(basename + ext)
+        except Exception as exception:
+            raise errors.CleaningError(basename + ext, exception)
 
 
 def buildsongbook(
@@ -302,6 +183,12 @@ def buildsongbook(
     songbook = Songbook(raw_songbook, basename)
     with codecs.open("{}.tex".format(basename), 'w', 'utf-8') as output:
         songbook.write_tex(output)
+##############################################################################
+##############################################################################
+#     import sys
+#     sys.exit(0)
+##############################################################################
+##############################################################################
 
     if not 'TEXINPUTS' in os.environ.keys():
         os.environ['TEXINPUTS'] = ''
@@ -316,7 +203,7 @@ def buildsongbook(
 
     # pdflatex options
     pdflatex_options = []
-    pdflatex_options.append("--shell-escape") # Lilypond compilation
+    pdflatex_options.append("--shell-escape")  # Lilypond compilation
     if not interactive:
         pdflatex_options.append("-halt-on-error")
 

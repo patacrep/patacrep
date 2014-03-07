@@ -126,14 +126,6 @@ class SongsList(object):
             for filename in glob.iglob(os.path.join(self._songdir, regexp)):
                 self.append(filename)
 
-    def latex(self):
-        """Renvoie le code LaTeX nécessaire pour intégrer la liste de chansons.
-        """
-        result = [r'\input{{{0}}}'.format(song.path.replace("\\", "/").strip())
-                  for song in self.songs]
-        result.append(r'\selectlanguage{%s}' % self._language)
-        return '\n'.join(result)
-
     def languages(self):
         """Renvoie la liste des langues utilisées par les chansons"""
         return set().union(*[set(song.languages) for song in self.songs])

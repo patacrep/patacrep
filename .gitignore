@@ -1,5 +1,6 @@
 deb_dist
 build
+dist
 .gitignore
 *~
 *.aux

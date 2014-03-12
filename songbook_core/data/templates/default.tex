@@ -26,7 +26,9 @@
 %%:]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 (% endcomment %)
+
 (* extends "layout.tex" *)
+
 (* block extrapackages *)
    \usepackage[
      a4paper % paper size
@@ -39,8 +41,7 @@
   \usepackage{chords}
 (* endblock extrapackages *)
 
-(* block header *)
-
+(* block songbookpreambule *)
    \title{((title))}
    \author{((author))}
    \subtitle{((subtitle))}
@@ -72,9 +73,7 @@
 
    \graphicspath{{((datadir))/img/}}
    \pagestyle{empty}
-(* endblock header *)
 
-(* block preface *)
    \definecolor{SongNumberBgColor}{HTML}{((songnumberbgcolor))}
    \definecolor{NoteBgColor}{HTML}{((notebgcolor))}
    \definecolor{IndexBgColor}{HTML}{((indexbgcolor))}
@@ -82,7 +81,9 @@
    \renewcommand{\snumbgcolor}{SongNumberBgColor}
    \renewcommand{\notebgcolor}{NoteBgColor}
    \renewcommand{\idxbgcolor}{IndexBgColor}
+(* endblock *)
 
+(* block index *)
    (* if mainlang==english *)
      \showindex{Songs Index}{titleidx}
      \showindex{Authors Index}{authidx}
@@ -94,7 +95,9 @@
       \notenamesin{A}{B}{C}{D}{E}{F}{G}
       \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
    (* endif *)
+(* endblock *)
 
+(* block chords *)
    % list of chords
    \ifchorded
    \phantomsection
@@ -103,7 +106,7 @@
    (* else *)
      \addcontentsline{toc}{section}{Liste des accords}
    (* endif *)
-%   \chords
+   \chords
    \fi
 (* endblock *)
 

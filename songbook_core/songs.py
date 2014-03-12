@@ -128,4 +128,8 @@ class SongsList(object):
 
     def languages(self):
         """Renvoie la liste des langues utilisées par les chansons"""
-        return set().union(*[set(song.languages) for song in self.songs])
+        languages = set().union(*[set(song.languages) for song in self.songs])
+        if languages:
+            return languages
+        else:
+            return set(['english'])

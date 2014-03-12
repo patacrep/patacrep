@@ -16,7 +16,7 @@ from songbook_core import errors
 from songbook_core.files import recursive_find
 from songbook_core.index import process_sxd
 from songbook_core.songs import Song, SongsList
-from songbook_core.templates import render_tex
+from songbook_core.templates import TexRenderer
 
 EOL = "\n"
 DEFAULT_AUTHWORDS = {
@@ -129,17 +129,19 @@ class Songbook(object):
         Arguments:
         - output: a file object, in which the file will be written.
         """
-        context = parse_template(os.path.join(
-                            self.config['datadir'],
-                            'templates',
-                            self.config['template']
-                            ))
+        renderer = TexRenderer(
+                self.config['template'],
+                self.config['datadir'],
+                )
+
+        context = parse_template(renderer.file_template())
 
         context.update(self.config)
         context['titleprefixkeys'] = ["after", "sep", "ignore"]
         context['songlist'] = self.songslist
         context['filename'] = output.name[:-4]
-        render_tex(output, context, self.config['datadir'])
+
+        renderer.render_tex(output, context)
 
 
 def clean(basename):

@@ -27,7 +27,7 @@ DEFAULT_AUTHWORDS = {
 
 
 def parse_template(template):
-    """Return the list of default parameters defined in the template."""
+    """Return the dict of default parameters defined in the template."""
     embedded_json_pattern = re.compile(r"^%%:")
     with open(template) as template_file:
         code = [
@@ -183,12 +183,6 @@ def buildsongbook(
     songbook = Songbook(raw_songbook, basename)
     with codecs.open("{}.tex".format(basename), 'w', 'utf-8') as output:
         songbook.write_tex(output)
-##############################################################################
-##############################################################################
-#     import sys
-#     sys.exit(0)
-##############################################################################
-##############################################################################
 
     if not 'TEXINPUTS' in os.environ.keys():
         os.environ['TEXINPUTS'] = ''

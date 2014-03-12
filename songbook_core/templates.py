@@ -54,6 +54,7 @@ def render_tex(output, context, datadir=''):
     env = _init_tex_env(datadir=datadir)
     template = env.get_template(context['template'])
 
-    content = template.render(**context)
+    content = template.render(**context) #pylint: disable=star-args
     output.write(content)
-    return None # TODO: gestion des erreurs
+
+    return None

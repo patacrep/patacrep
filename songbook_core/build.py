@@ -47,6 +47,7 @@ def parse_template(template):
     return parameters
 
 
+# pylint: disable=too-few-public-methods
 class Songbook(object):
     """Represent a songbook (.sb) file.
 

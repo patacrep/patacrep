@@ -4,7 +4,7 @@
 \newcommand*{\Sharp}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small\bf \#}}
 \newcommand*{\Flat}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small$\mathbf{\flat}$}}
 \newcommand*{\chordrule}{\mbox{\hspace{1cm}\rule[0.5cm]{15cm}{0.02cm}}\vspace{-.4cm}}
-\newcommand*{\chordname}[2]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{\IfStrEq{\getlang}{english}{#1}{#2}}}}}
+\newcommand*{\chordname}[2]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{\iflanguage{english}{#1}{#2}}}}}
 
 \newcommand{\chords}{
   \begin{songs}{}
@@ -16,7 +16,7 @@
     \songcolumns{1}
 
     \ifguitar
-    \IfStrEq{\getlang}{english}{\beginsong{Guitar chords}}{\beginsong{Accords de guitare}}
+    \iflanguage{english}{\beginsong{Guitar chords}}{\beginsong{Accords de guitare}}
     \chordname{C}{Do}
     \gtab{C}{~:X32010}
     \gtab{C7}{~:X32310}
@@ -169,7 +169,7 @@
     \fi
 
     \ifukulele
-    \IfStrEq{\getlang}{english}{\beginsong{Ukulele chords}}{\beginsong{Accords de ukulélé}}
+    \iflanguage{english}{\beginsong{Ukulele chords}}{\beginsong{Accords de ukulélé}}
 
     \chordname{C}{Do}
     \utab{C}{~:0003}

@@ -41,14 +41,9 @@
 (* endblock *)
 
 (* block index *)
-   (* if mainlang==english *)
-     \showindex{Songs Index}{titleidx}
-     \showindex{Authors Index}{authidx}
-   (* else *)
-     \showindex{Index des chansons}{titleidx}
-     \showindex{Index des auteurs}{authidx}
-   (* endif *)
-   (* if mainlang==french *)
+    \showindex{TODOsongindexname}{titleidx}
+    \showindex{TODOauthorindexname}{authidx}
+   (* if lang==french *)
       \notenamesin{A}{B}{C}{D}{E}{F}{G}
       \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
    (* endif *)
@@ -58,11 +53,7 @@
    % list of chords
    \ifchorded
    \phantomsection
-   (* if mainlang==english *)
-     \addcontentsline{toc}{section}{Chords list}
-   (* else *)
-     \addcontentsline{toc}{section}{Liste des accords}
-   (* endif *)
+   \addcontentsline{toc}{section}{TODOchordlistname}
    \chords
    \fi
 (* endblock *)

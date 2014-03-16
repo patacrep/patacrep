@@ -4,7 +4,71 @@
 \newcommand*{\Sharp}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small\bf \#}}
 \newcommand*{\Flat}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small$\mathbf{\flat}$}}
 \newcommand*{\chordrule}{\mbox{\hspace{1cm}\rule[0.5cm]{15cm}{0.02cm}}\vspace{-.4cm}}
-\newcommand*{\chordname}[2]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{\iflanguage{english}{#1}{#2}}}}}
+\newcommand*{\chordname}[1]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multilanguage management
+
+\newcommand{\guitarchordsname}{
+  \IfStrEq{\mainlanguage}{english}{Guitar chords}{}
+  \IfStrEq{\mainlanguage}{french}{Accords de guitare}{}
+}
+\newcommand{\ukulelechordsname}{
+  \IfStrEq{\mainlanguage}{english}{Ukulele chords}{}
+  \IfStrEq{\mainlanguage}{french}{Accords de ukulélé}{}
+}
+\newcommand{\chordnameAsharp}{
+  \IfStrEq{\mainlanguage}{english}{A\Sharp = B\Flat}{}
+  \IfStrEq{\mainlanguage}{french}{La\Sharp = Si\Flat}{}
+}
+\newcommand{\chordnameA}{
+  \IfStrEq{\mainlanguage}{english}{A}{}
+  \IfStrEq{\mainlanguage}{french}{La}{}
+}
+\newcommand{\chordnameB}{
+  \IfStrEq{\mainlanguage}{english}{B}{}
+  \IfStrEq{\mainlanguage}{french}{Si}{}
+}
+\newcommand{\chordnameCsharp}{
+  \IfStrEq{\mainlanguage}{english}{C\Sharp = D\Flat}{}
+  \IfStrEq{\mainlanguage}{french}{Do\Sharp = Ré\Flat}{}
+}
+\newcommand{\chordnameC}{
+  \IfStrEq{\mainlanguage}{english}{C}{}
+  \IfStrEq{\mainlanguage}{french}{Do}{}
+}
+\newcommand{\chordnameDsharp}{
+  \IfStrEq{\mainlanguage}{english}{D\Sharp = E\Flat}{}
+  \IfStrEq{\mainlanguage}{french}{Ré\Sharp = Mi\Flat}{}
+}
+\newcommand{\chordnameD}{
+  \IfStrEq{\mainlanguage}{english}{D}{}
+  \IfStrEq{\mainlanguage}{french}{Ré}{}
+}
+\newcommand{\chordnameE}{
+  \IfStrEq{\mainlanguage}{english}{E}{}
+  \IfStrEq{\mainlanguage}{french}{Mi}{}
+}
+\newcommand{\chordnameFsharp}{
+  \IfStrEq{\mainlanguage}{english}{F\Sharp = G\Flat}{}
+  \IfStrEq{\mainlanguage}{french}{Fa\Sharp = Sol\Flat}{}
+}
+\newcommand{\chordnameF}{
+  \IfStrEq{\mainlanguage}{english}{F}{}
+  \IfStrEq{\mainlanguage}{french}{Fa}{}
+}
+\newcommand{\chordnameGsharp}{
+  \IfStrEq{\mainlanguage}{english}{G\Sharp = A\Flat}{}
+  \IfStrEq{\mainlanguage}{french}{Sol\Sharp = La\Flat}{}
+}
+\newcommand{\chordnameG}{
+  \IfStrEq{\mainlanguage}{english}{G}{}
+  \IfStrEq{\mainlanguage}{french}{Sol}{}
+}
+
+% End of multilanguage management
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \newcommand{\chords}{
   \begin{songs}{}
@@ -16,8 +80,8 @@
     \songcolumns{1}
 
     \ifguitar
-    \iflanguage{english}{\beginsong{Guitar chords}}{\beginsong{Accords de guitare}}
-    \chordname{C}{Do}
+    \beginsong{\guitarchordsname}
+    \chordname{\chordnameC}
     \gtab{C}{~:X32010}
     \gtab{C7}{~:X32310}
     \gtab{Cm}{3:X02210}
@@ -29,7 +93,7 @@
     \gtab*{C6}{~:XX2213}
     \chordrule
 
-    \chordname{C\Sharp = D\Flat}{Do\Sharp = Ré\Flat}
+    \chordname{\chordnameCsharp}
     \gtab{C\#}{4:X02220}
     \gtab{C\#7}{4:X02020}
     \gtab{C\#m}{4:X02210}
@@ -41,7 +105,7 @@
     \gtab*{C\#6}{1:X02010}
     \chordrule
 
-    \chordname{D}{Ré}
+    \chordname{\chordnameD}
     \gtab{D}{~:XX0232}
     \gtab{D7}{~:XX0212}
     \gtab{Dm}{~:XX0231}
@@ -53,7 +117,7 @@
     \gtab*{D6}{~:X00202}
     \chordrule
 
-    \chordname{D\Sharp = E\Flat}{Ré\Sharp = Mi\Flat}
+    \chordname{\chordnameDsharp}
     \gtab{D\#}{6:X02220}
     \gtab{D\#7}{6:X02020}
     \gtab{D\#m}{6:X02210}
@@ -65,7 +129,7 @@
     \gtab*{D\#6}{1:X00202}
     \chordrule
 
-    \chordname{E}{Mi}
+    \chordname{\chordnameE}
     \gtab{E}{~:022100}
     \gtab{E7}{~:020100}
     \gtab{Em}{~:022000}
@@ -77,7 +141,7 @@
     \gtab*{E6}{~:022120}
     \chordrule
 
-    \chordname{F}{Fa}
+    \chordname{\chordnameF}
     \gtab{F}{1:022100}
     \gtab{F7}{1:020100}
     \gtab{Fm}{1:022000}
@@ -89,7 +153,7 @@
     \gtab*{F6}{~:XX0211}
     \chordrule
 
-    \chordname{F\Sharp = G\Flat}{Fa\Sharp = Sol\Flat}
+    \chordname{\chordnameFsharp}
     \gtab{F\#}{2:022100}
     \gtab{F\#7}{2:020100}
     \gtab{F\#m}{2:022000}
@@ -101,7 +165,7 @@
     \gtab*{F\#6}{~:XX1322}
     \chordrule
 
-    \chordname{G}{Sol}
+    \chordname{\chordnameG}
     \gtab{G}{~:320003}
     \gtab{G7}{~:320001}
     \gtab{Gm}{3:022000}
@@ -113,7 +177,7 @@
     \gtab*{G6}{~:320000}
     \chordrule
 
-    \chordname{G\Sharp = A\Flat}{Sol\Sharp = La\Flat}
+    \chordname{\chordnameGsharp}
     \gtab{G\#}{4:022100}
     \gtab{G\#7}{4:020100}
     \gtab{G\#m}{4:022000}
@@ -125,7 +189,7 @@
     \gtab*{G\#6}{~:XX1111}
     \chordrule
 
-    \chordname{A}{La}
+    \chordname{\chordnameA}
     \gtab{A}{~:X02220}
     \gtab{A7}{~:X02020}
     \gtab{Am}{~:X02210}
@@ -137,7 +201,7 @@
     \gtab*{A6}{~:XX2222}
     \chordrule
 
-    \chordname{A\Sharp = B\Flat}{La\Sharp = Si\Flat}
+    \chordname{\chordnameAsharp}
     \gtab{A\#}{1:X02220}
     \gtab{A\#7}{1:X02020}
     \gtab{A\#m}{1:X02210}
@@ -149,7 +213,7 @@
     \gtab*{A\#6}{~:XX3333}
     \chordrule
 
-    \chordname{B}{Si}
+    \chordname{\chordnameB}
     \gtab{B}{2:X02220}
     \gtab{B7}{X21202}
     \gtab{Bm}{2:X02210}
@@ -169,9 +233,9 @@
     \fi
 
     \ifukulele
-    \iflanguage{english}{\beginsong{Ukulele chords}}{\beginsong{Accords de ukulélé}}
+    \beginsong{\ukulelechordsname}
 
-    \chordname{C}{Do}
+    \chordname{\chordnameC}
     \utab{C}{~:0003}
     \utab{C7}{~:0001}
     \utab{Cm}{~:0333}
@@ -183,7 +247,7 @@
     \utab*{Cdim}{2:3101}
     \chordrule
 
-    \chordname{C\Sharp = D\Flat}{Do\Sharp = Ré\Flat}
+    \chordname{\chordnameCsharp}
     \utab{C\#}{1:0003}
     \utab{C\#7}{1:0001}
     \utab{C\#m}{~:1104}
@@ -195,7 +259,7 @@
     \utab*{C\#dim}{~:0104}
     \chordrule
 
-    \chordname{D}{Ré}
+    \chordname{\chordnameD}
     \utab{D}{~:2220}
     \utab{D7}{2:0001}
     \utab{Dm}{~:2210}
@@ -207,7 +271,7 @@
     \utab*{Ddim}{1:0104}
     \chordrule
 
-    \chordname{D\Sharp = E\Flat}{Ré\Sharp = Mi\Flat}
+    \chordname{\chordnameDsharp}
     \utab{D\#}{1:2220}
     \utab{D\#7}{3:0001}
     \utab{D\#m}{1:2210}
@@ -219,7 +283,7 @@
     \utab*{D\#dim}{~:2320}
     \chordrule
 
-    \chordname{E}{Mi}
+    \chordname{\chordnameE}
     \utab{E}{2:2220}
     \utab{E7}{~:1202}
     \utab{Em}{~:0432}
@@ -231,7 +295,7 @@
     \utab*{Edim}{1:2320}
     \chordrule
 
-    \chordname{F}{Fa}
+    \chordname{\chordnameF}
     \utab{F}{~:2010}
     \utab{F7}{~:2310}
     \utab{Fm}{~:1013}
@@ -243,7 +307,7 @@
     \utab*{Fdim}{2:2320}
     \chordrule
 
-    \chordname{F\Sharp = G\Flat}{Fa\Sharp = Sol\Flat}
+    \chordname{\chordnameFsharp}
     \utab{F\#}{1:2010}
     \utab{F\#7}{1:2310}
     \utab{F\#m}{~:2120}
@@ -255,7 +319,7 @@
     \utab*{F\#dim}{~:2020}
     \chordrule
 
-    \chordname{G}{Sol}
+    \chordname{\chordnameG}
     \utab{G}{~:0232}
     \utab{G7}{~:0212}
     \utab{Gm}{~:0231}
@@ -267,7 +331,7 @@
     \utab*{Gdim}{~:0131}
     \chordrule
 
-    \chordname{G\Sharp = A\Flat}{Sol\Sharp = La\Flat}
+    \chordname{\chordnameGsharp}
     \utab{G\#}{3:2010}
     \utab{G\#7}{1:0212}
     \utab{G\#m}{1:0231}
@@ -279,7 +343,7 @@
     \utab*{G\#dim}{1:0131}
     \chordrule
 
-    \chordname{A}{La}
+    \chordname{\chordnameA}
     \utab{A}{~:2100}
     \utab{A7}{~:0100}
     \utab{Am}{~:2000}
@@ -291,7 +355,7 @@
     \utab*{Adim}{2:0131}
     \chordrule
 
-    \chordname{A\Sharp = B\Flat}{La\Sharp = Si\Flat}
+    \chordname{\chordnameAsharp}
     \utab{A\#}{1:2100}
     \utab{A\#7}{1:0100}
     \utab{A\#m}{1:2000}
@@ -303,7 +367,7 @@
     \utab*{A\#dim}{~:3101}
     \chordrule
 
-    \chordname{B}{Si}
+    \chordname{\chordnameB}
     \utab{B}{2:2100}
     \utab{B7}{2:0100}
     \utab{Bm}{2:2000}

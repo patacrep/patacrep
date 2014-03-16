@@ -3,21 +3,19 @@
 (* block songbookpreambule *)
    (( super() ))
 
+
    (* for lang in songlist.languages() *)
    \PassOptionsToPackage{((lang))}{babel}
    (* endfor *)
    \usepackage[((lang))]{babel}
+   \lang{((lang))}
 
    \graphicspath{{((datadir))/img/}}
 (* endblock *)
 
 (* block songs *)
    \phantomsection
-   (* if mainlang==english *)
-     \addcontentsline{toc}{section}{Songs list}
-   (* else *)
-     \addcontentsline{toc}{section}{Liste des chansons}
-   (* endif *)
+   \addcontentsline{toc}{section}{TODOsonglistname}
 
    \begin{songs}{((indexes|default('')))}
       (* for song in songlist.songs *)

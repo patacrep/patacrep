@@ -111,28 +111,27 @@
 \def\picture#1{\gdef\@picture{#1}}
 \def\picturecopyright#1{\gdef\@picturecopyright{#1}}
 \def\footer#1{\gdef\@footer{#1}}
-\def\lang#1{\gdef\@lang{#1}}
 \clearheadinfo
 
 \newcommand{\l@belVersion}{
-  \IfStrEq{\@lang}{english}{\bf version:}{}
-  \IfStrEq{\@lang}{french}{\bf version :}{}
+  \iflanguage{english}{\bf version:}{}
+  \iflanguage{french}{\bf version :}{}
 }
 \newcommand{\l@belDate}{
-  \IfStrEq{\@lang}{english}{\bf date:}{}
-  \IfStrEq{\@lang}{french}{\bf date :}{}
+  \iflanguage{english}{\bf date:}{}
+  \iflanguage{french}{\bf date :}{}
 }
 \newcommand{\l@belAuthor}{
-  \IfStrEq{\@lang}{english}{\bf authors:}{}
-  \IfStrEq{\@lang}{french}{\bf auteurs :}{}
+  \iflanguage{english}{\bf authors:}{}
+  \iflanguage{french}{\bf auteurs :}{}
 }
 \newcommand{\l@belWeb}{
-  \IfStrEq{\@lang}{english}{\bf web:}{}
-  \IfStrEq{\@lang}{french}{\bf web :}{}
+  \iflanguage{english}{\bf web:}{}
+  \iflanguage{french}{\bf web :}{}
 }
 \newcommand{\l@belMail}{
-  \IfStrEq{\@lang}{english}{\bf mail:}{}
-  \IfStrEq{\@lang}{french}{\bf mail :}{}
+  \iflanguage{english}{\bf mail:}{}
+  \iflanguage{french}{\bf mail :}{}
 }
 
 \renewcommand\maketitle{
@@ -229,7 +228,7 @@
 \renewcommand{\extendpostlude}{
   {\footnotesize%
     \IfStrEq{\songoriginal}{}{}{
-      \IfStrEq{\@lang}{english}{Original song:}{Chanson originale :}
+      \iflanguage{english}{Original song:}{Chanson originale :}
       \songoriginal
     }
   }
@@ -446,36 +445,36 @@
 %% End of tabs.sty file
 
 \newcommand*{\Intro}{%
-  \IfStrEq{\@lang}{english}{intro}{}%
-  \IfStrEq{\@lang}{french}{intro}{}%
+  \iflanguage{english}{intro}{}%
+  \iflanguage{french}{intro}{}%
 }%
 \newcommand*{\Outro}{%
-  \IfStrEq{\@lang}{english}{outro}{}%
-  \IfStrEq{\@lang}{french}{outro}{}%
+  \iflanguage{english}{outro}{}%
+  \iflanguage{french}{outro}{}%
 }%
 \newcommand*{\Bridge}{%
-  \IfStrEq{\@lang}{english}{bridge}{}%
-  \IfStrEq{\@lang}{french}{pont}{}%
+  \iflanguage{english}{bridge}{}%
+  \iflanguage{french}{pont}{}%
 }%
 \newcommand*{\Chorus}{%
-  \IfStrEq{\@lang}{english}{chorus}{}%
-  \IfStrEq{\@lang}{french}{refrain}{}%
+  \iflanguage{english}{chorus}{}%
+  \iflanguage{french}{refrain}{}%
 }%
 \newcommand*{\Verse}{%
-  \IfStrEq{\@lang}{english}{verse}{}%
-  \IfStrEq{\@lang}{french}{couplet}{}%
+  \iflanguage{english}{verse}{}%
+  \iflanguage{french}{couplet}{}%
 }%
 \newcommand*{\Solo}{%
-  \IfStrEq{\@lang}{english}{solo}{}%
-  \IfStrEq{\@lang}{french}{solo}{}%
+  \iflanguage{english}{solo}{}%
+  \iflanguage{french}{solo}{}%
 }%
 \newcommand*{\Pattern}{%
-  \IfStrEq{\@lang}{english}{pattern}{}%
-  \IfStrEq{\@lang}{french}{motif}{}%
+  \iflanguage{english}{pattern}{}%
+  \iflanguage{french}{motif}{}%
 }%
 \newcommand*{\Rythm}{%
-  \IfStrEq{\@lang}{english}{rythm}{}%
-  \IfStrEq{\@lang}{french}{rythme}{}%
+  \iflanguage{english}{rythm}{}%
+  \iflanguage{french}{rythme}{}%
 }%
 \newcommand*{\Adlib}{%
   \emph{ad~lib.}%
@@ -485,7 +484,7 @@
 \renewcommand{\musicnote}[2][]{%
   \vspace{.1cm}
   \IfStrEq{}{#1}{\musicnoteORIG{#2}}{
-    \IfStrEq{\@lang}{#1}{\musicnoteORIG{#2}}{}
+    \iflanguage{#1}{\musicnoteORIG{#2}}{}
   }
 }
 
@@ -493,7 +492,7 @@
 \renewcommand{\textnote}[2][]{%
   \vspace{.1cm}
   \IfStrEq{}{#1}{\textnoteORIG{#2}}{
-    \IfStrEq{\@lang}{#1}{\textnoteORIG{#2}}{}
+    \iflanguage{#1}{\textnoteORIG{#2}}{}
   }
 }
 
@@ -559,8 +558,8 @@
 \newcommand{\transposition}[1]{%
   \ifnorepeatchords%
     \musicnote{%
-      \IfStrEq{\@lang}{english}{transposition:~}{}%
-      \IfStrEq{\@lang}{french}{transposition~:~}{}%
+      \iflanguage{english}{transposition:~}{}%
+      \iflanguage{french}{transposition~:~}{}%
       \ifthenelse{#1>0}{#1$\Uparrow$}{\removefirstch@r#1$\Downarrow$}%
     }%
   \else%

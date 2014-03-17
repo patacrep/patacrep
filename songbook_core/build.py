@@ -37,13 +37,14 @@ def parse_template(template):
                 if embedded_json_pattern.match(line)
                 ]
 
-    data = json.loads(''.join(code))
     parameters = dict()
-    for param in data:
-        try:
-            parameters[param["name"]] = param["default"]
-        except KeyError:
-            parameters[param["name"]] = None
+    if code:
+        data = json.loads(''.join(code))
+        for param in data:
+            try:
+                parameters[param["name"]] = param["default"]
+            except KeyError:
+                parameters[param["name"]] = None
     return parameters
 
 

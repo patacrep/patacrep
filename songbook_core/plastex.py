@@ -74,7 +74,8 @@ def parsetex(filename):
     """
     # /* BEGIN plasTeX patch
     # The following lines, and another line a few lines later, are used to
-    # circumvent a plasTeX bug. It has been reported, with a patch.
+    # circumvent a plasTeX bug. It has been reported and corrected :
+    # https://github.com/tiarno/plastex/commit/8f4e5a385f3cb6a04d5863f731ce24a7e856f2a4
     # To see if you can delete those lines, set your LC_TIME locale to French,
     # during a month containing diacritics (e.g. Février), and run songbook. If
     # no plasTeX bug appears, it is safe to remove those lines.

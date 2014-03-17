@@ -9,61 +9,40 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Multilanguage management
 
-\newcommand{\guitarchordsname}{
-  \IfStrEq{\mainlanguage}{english}{Guitar chords}{}
-  \IfStrEq{\mainlanguage}{french}{Accords de guitare}{}
-}
-\newcommand{\ukulelechordsname}{
-  \IfStrEq{\mainlanguage}{english}{Ukulele chords}{}
-  \IfStrEq{\mainlanguage}{french}{Accords de ukulélé}{}
-}
-\newcommand{\chordnameAsharp}{
-  \IfStrEq{\mainlanguage}{english}{A\Sharp = B\Flat}{}
-  \IfStrEq{\mainlanguage}{french}{La\Sharp = Si\Flat}{}
-}
-\newcommand{\chordnameA}{
-  \IfStrEq{\mainlanguage}{english}{A}{}
-  \IfStrEq{\mainlanguage}{french}{La}{}
-}
-\newcommand{\chordnameB}{
-  \IfStrEq{\mainlanguage}{english}{B}{}
-  \IfStrEq{\mainlanguage}{french}{Si}{}
-}
-\newcommand{\chordnameCsharp}{
-  \IfStrEq{\mainlanguage}{english}{C\Sharp = D\Flat}{}
-  \IfStrEq{\mainlanguage}{french}{Do\Sharp = Ré\Flat}{}
-}
-\newcommand{\chordnameC}{
-  \IfStrEq{\mainlanguage}{english}{C}{}
-  \IfStrEq{\mainlanguage}{french}{Do}{}
-}
-\newcommand{\chordnameDsharp}{
-  \IfStrEq{\mainlanguage}{english}{D\Sharp = E\Flat}{}
-  \IfStrEq{\mainlanguage}{french}{Ré\Sharp = Mi\Flat}{}
-}
-\newcommand{\chordnameD}{
-  \IfStrEq{\mainlanguage}{english}{D}{}
-  \IfStrEq{\mainlanguage}{french}{Ré}{}
-}
-\newcommand{\chordnameE}{
-  \IfStrEq{\mainlanguage}{english}{E}{}
-  \IfStrEq{\mainlanguage}{french}{Mi}{}
-}
-\newcommand{\chordnameFsharp}{
-  \IfStrEq{\mainlanguage}{english}{F\Sharp = G\Flat}{}
-  \IfStrEq{\mainlanguage}{french}{Fa\Sharp = Sol\Flat}{}
-}
-\newcommand{\chordnameF}{
-  \IfStrEq{\mainlanguage}{english}{F}{}
-  \IfStrEq{\mainlanguage}{french}{Fa}{}
-}
-\newcommand{\chordnameGsharp}{
-  \IfStrEq{\mainlanguage}{english}{G\Sharp = A\Flat}{}
-  \IfStrEq{\mainlanguage}{french}{Sol\Sharp = La\Flat}{}
-}
-\newcommand{\chordnameG}{
-  \IfStrEq{\mainlanguage}{english}{G}{}
-  \IfStrEq{\mainlanguage}{french}{Sol}{}
+\AtBeginDocument{
+    % Default names (english)
+    \newcommand{\guitarchordsname}{Guitar chords}
+    \newcommand{\ukulelechordsname}{Ukulele chords}
+    \newcommand{\chordnameAsharp}{A\Sharp = B\Flat}
+    \newcommand{\chordnameA}{A}
+    \newcommand{\chordnameB}{B}
+    \newcommand{\chordnameCsharp}{C\Sharp = D\Flat}
+    \newcommand{\chordnameC}{C}
+    \newcommand{\chordnameDsharp}{D\Sharp = E\Flat}
+    \newcommand{\chordnameD}{D}
+    \newcommand{\chordnameE}{E}
+    \newcommand{\chordnameFsharp}{F\Sharp = G\Flat}
+    \newcommand{\chordnameF}{F}
+    \newcommand{\chordnameGsharp}{G\Sharp = A\Flat}
+    \newcommand{\chordnameG}{G}
+
+    \IfStrEq{\mainlanguage}{french}{
+        % French names
+        \renewcommand{\guitarchordsname}{Accords de guitare}
+        \renewcommand{\ukulelechordsname}{Accords de ukulélé}
+        \renewcommand{\chordnameAsharp}{La\Sharp = Si\Flat}
+        \renewcommand{\chordnameA}{La}
+        \renewcommand{\chordnameB}{Si}
+        \renewcommand{\chordnameCsharp}{Do\Sharp = Ré\Flat}
+        \renewcommand{\chordnameC}{Do}
+        \renewcommand{\chordnameDsharp}{Ré\Sharp = Mi\Flat}
+        \renewcommand{\chordnameD}{Ré}
+        \renewcommand{\chordnameE}{Mi}
+        \renewcommand{\chordnameFsharp}{Fa\Sharp = Sol\Flat}
+        \renewcommand{\chordnameF}{Fa}
+        \renewcommand{\chordnameGsharp}{Sol\Sharp = La\Flat}
+        \renewcommand{\chordnameG}{Sol}
+    }{}
 }
 
 % End of multilanguage management

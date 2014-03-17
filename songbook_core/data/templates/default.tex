@@ -41,8 +41,8 @@
 (* endblock *)
 
 (* block index *)
-    \showindex{TODOsongindexname}{titleidx}
-    \showindex{TODOauthorindexname}{authidx}
+    \showindex{\songindexname}{titleidx}
+    \showindex{\authorindexname}{authidx}
    (* if lang==french *)
       \notenamesin{A}{B}{C}{D}{E}{F}{G}
       \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
@@ -53,7 +53,7 @@
    % list of chords
    \ifchorded
    \phantomsection
-   \addcontentsline{toc}{section}{TODOchordlistname}
+   \addcontentsline{toc}{section}{\chordlistname}
    \chords
    \fi
 (* endblock *)

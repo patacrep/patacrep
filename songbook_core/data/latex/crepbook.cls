@@ -89,81 +89,50 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Multilanguage management
 
-\newcommand{\labelversionname}{%
-  \IfStrEq{\mainlanguage}{english}{version:}{}%
-  \IfStrEq{\mainlanguage}{french}{version :}{}%
-}
-\newcommand{\labeldatename}{%
-  \IfStrEq{\mainlanguage}{english}{date:}{}%
-  \IfStrEq{\mainlanguage}{french}{date :}{}%
-}
-\newcommand{\labelauthorname}{%
-  \IfStrEq{\mainlanguage}{english}{authors:}{}%
-  \IfStrEq{\mainlanguage}{french}{auteurs :}{}%
-}
-\newcommand{\labelwebname}{%
-  \IfStrEq{\mainlanguage}{english}{web:}{}%
-  \IfStrEq{\mainlanguage}{french}{web :}{}%
-}
-\newcommand{\labelmailname}{%
-  \IfStrEq{\mainlanguage}{english}{mail:}{}%
-  \IfStrEq{\mainlanguage}{french}{mail :}{}%
-}
-\newcommand{\originalsongname}{%
-  \IfStrEq{\mainlanguage}{english}{Original song:}{}%
-  \IfStrEq{\mainlanguage}{french}{Chanson originale :}{}%
-}
-\newcommand{\introname}{%
-  \IfStrEq{\mainlanguage}{english}{intro}{}%
-  \IfStrEq{\mainlanguage}{french}{intro}{}%
-}
-\newcommand{\outroname}{%
-  \IfStrEq{\mainlanguage}{english}{outro}{}%
-  \IfStrEq{\mainlanguage}{french}{outro}{}%
-}
-\newcommand{\bridgename}{%
-  \IfStrEq{\mainlanguage}{english}{bridge}{}%
-  \IfStrEq{\mainlanguage}{french}{pont}{}%
-}
-\newcommand{\chorusname}{%
-  \IfStrEq{\mainlanguage}{english}{chorus}{}%
-  \IfStrEq{\mainlanguage}{french}{refrain}{}%
-}
-\newcommand{\versename}{%
-  \IfStrEq{\mainlanguage}{english}{verse}{}%
-  \IfStrEq{\mainlanguage}{french}{couple}{}%
-}
-\newcommand{\soloname}{%
-  \IfStrEq{\mainlanguage}{english}{solo}{}%
-  \IfStrEq{\mainlanguage}{french}{solo}{}%
-}
-\newcommand{\patternname}{%
-  \IfStrEq{\mainlanguage}{english}{pattern}{}%
-  \IfStrEq{\mainlanguage}{french}{motif}{}%
-}
-\newcommand{\rythmname}{%
-  \IfStrEq{\mainlanguage}{english}{rythm}{}%
-  \IfStrEq{\mainlanguage}{french}{rythme}{}%
-}
-\newcommand{\transpositionname}{%
-  \IfStrEq{\mainlanguage}{english}{transposition:}{}%
-  \IfStrEq{\mainlanguage}{french}{transposition :}{}%
-}
-\newcommand{\songindexname}{%
-  \IfStrEq{\mainlanguage}{english}{Songs Index}{}%
-  \IfStrEq{\mainlanguage}{french}{Index des chansons}{}%
-}
-\newcommand{\authorindexname}{%
-  \IfStrEq{\mainlanguage}{english}{Authors Index}{}%
-  \IfStrEq{\mainlanguage}{french}{Index des auteurs}{}%
-}
-\newcommand{\songlistname}{%
-  \IfStrEq{\mainlanguage}{english}{Songs list}{}%
-  \IfStrEq{\mainlanguage}{french}{Liste des chansons}{}%
-}
-\newcommand{\chordlistname}{%
-  \IfStrEq{\mainlanguage}{english}{Chords list}{}%
-  \IfStrEq{\mainlanguage}{french}{Liste des accords}{}%
+\AtBeginDocument{
+  % Default names (english)
+  \newcommand{\songlistname}{Songs list}
+  \newcommand{\labelversionname}{version:}
+  \newcommand{\labeldatename}{date:}
+  \newcommand{\labelauthorname}{authors:}
+  \newcommand{\labelwebname}{web:}
+  \newcommand{\labelmailname}{mail:}
+  \newcommand{\originalsongname}{Original song:}
+  \newcommand{\introname}{intro}
+  \newcommand{\outroname}{outro}
+  \newcommand{\bridgename}{bridge}
+  \newcommand{\chorusname}{chorus}
+  \newcommand{\versename}{verse}
+  \newcommand{\soloname}{solo}
+  \newcommand{\patternname}{pattern}
+  \newcommand{\rythmname}{rythm}
+  \newcommand{\transpositionname}{transposition:}
+  \newcommand{\songindexname}{Songs Index}
+  \newcommand{\authorindexname}{Authors Index}
+  \newcommand{\chordlistname}{Chords list}
+
+  \IfStrEq{\mainlanguage}{french}{
+    % French names
+    \renewcommand{\songlistname}{Liste des chansons}{}
+    \renewcommand{\labelversionname}{version :}
+    \renewcommand{\labeldatename}{date :}
+    \renewcommand{\labelauthorname}{auteurs :}
+    \renewcommand{\labelwebname}{web :}
+    \renewcommand{\labelmailname}{mail :}
+    \renewcommand{\originalsongname}{Chanson originale :}
+    \renewcommand{\introname}{intro}
+    \renewcommand{\outroname}{outro}
+    \renewcommand{\bridgename}{pont}
+    \renewcommand{\chorusname}{refrain}
+    \renewcommand{\versename}{couplet}
+    \renewcommand{\soloname}{solo}
+    \renewcommand{\patternname}{motif}
+    \renewcommand{\rythmname}{rythme}
+    \renewcommand{\transpositionname}{transposition :}
+    \renewcommand{\songindexname}{Index des chansons}
+    \renewcommand{\authorindexname}{Index des auteurs}
+    \renewcommand{\chordlistname}{Liste des accords}
+  }{}
 }
 
 % End of multilanguage management

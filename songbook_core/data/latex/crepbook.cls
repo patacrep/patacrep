@@ -84,6 +84,60 @@
 \fi
 
 % Start
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multilanguage management
+
+\AtBeginDocument{
+  % Default names (english)
+  \newcommand{\songlistname}{Songs list}
+  \newcommand{\labelversionname}{version:}
+  \newcommand{\labeldatename}{date:}
+  \newcommand{\labelauthorname}{authors:}
+  \newcommand{\labelwebname}{web:}
+  \newcommand{\labelmailname}{mail:}
+  \newcommand{\originalsongname}{Original song:}
+  \newcommand{\introname}{intro}
+  \newcommand{\outroname}{outro}
+  \newcommand{\bridgename}{bridge}
+  \newcommand{\chorusname}{chorus}
+  \newcommand{\versename}{verse}
+  \newcommand{\soloname}{solo}
+  \newcommand{\patternname}{pattern}
+  \newcommand{\rythmname}{rythm}
+  \newcommand{\transpositionname}{transposition:}
+  \newcommand{\songindexname}{Songs Index}
+  \newcommand{\authorindexname}{Authors Index}
+  \newcommand{\chordlistname}{Chords list}
+
+  \IfStrEq{\mainlanguage}{french}{
+    % French names
+    \renewcommand{\songlistname}{Liste des chansons}{}
+    \renewcommand{\labelversionname}{version :}
+    \renewcommand{\labeldatename}{date :}
+    \renewcommand{\labelauthorname}{auteurs :}
+    \renewcommand{\labelwebname}{web :}
+    \renewcommand{\labelmailname}{mail :}
+    \renewcommand{\originalsongname}{Chanson originale :}
+    \renewcommand{\introname}{intro}
+    \renewcommand{\outroname}{outro}
+    \renewcommand{\bridgename}{pont}
+    \renewcommand{\chorusname}{refrain}
+    \renewcommand{\versename}{couplet}
+    \renewcommand{\soloname}{solo}
+    \renewcommand{\patternname}{motif}
+    \renewcommand{\rythmname}{rythme}
+    \renewcommand{\transpositionname}{transposition :}
+    \renewcommand{\songindexname}{Index des chansons}
+    \renewcommand{\authorindexname}{Index des auteurs}
+    \renewcommand{\chordlistname}{Liste des accords}
+  }{}
+}
+
+% End of multilanguage management
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \def\andname{and}
 \def\lastandname{\unskip, and}
 
@@ -111,29 +165,8 @@
 \def\picture#1{\gdef\@picture{#1}}
 \def\picturecopyright#1{\gdef\@picturecopyright{#1}}
 \def\footer#1{\gdef\@footer{#1}}
-\def\lang#1{\gdef\@lang{#1}}
+\def\lang#1{\gdef\mainlanguage{#1}}
 \clearheadinfo
-
-\newcommand{\l@belVersion}{
-  \IfStrEq{\@lang}{english}{\bf version:}{}
-  \IfStrEq{\@lang}{french}{\bf version :}{}
-}
-\newcommand{\l@belDate}{
-  \IfStrEq{\@lang}{english}{\bf date:}{}
-  \IfStrEq{\@lang}{french}{\bf date :}{}
-}
-\newcommand{\l@belAuthor}{
-  \IfStrEq{\@lang}{english}{\bf authors:}{}
-  \IfStrEq{\@lang}{french}{\bf auteurs :}{}
-}
-\newcommand{\l@belWeb}{
-  \IfStrEq{\@lang}{english}{\bf web:}{}
-  \IfStrEq{\@lang}{french}{\bf web :}{}
-}
-\newcommand{\l@belMail}{
-  \IfStrEq{\@lang}{english}{\bf mail:}{}
-  \IfStrEq{\@lang}{french}{\bf mail :}{}
-}
 
 \renewcommand\maketitle{
   \@maketitle
@@ -172,11 +205,11 @@
 
  \begin{flushleft}
    \begin{tabular}{l l}
-     \if!\@version!\else{\l@belVersion} & \@version \\ \fi
-     \if!\@date!\else{\l@belDate} &   \@date \\ \fi
-     \if!\@author!\else{\l@belAuthor} & \@author \\ \fi
-     \if!\@web!\else{\l@belWeb} &  \url{\@web} \\ \fi
-     \if!\@mail!\else{\l@belMail} &  \url{\@mail} \\ \fi
+     \if!\@version!\else{\textbf{\labelversionname}} & \@version \\ \fi
+     \if!\@date!\else{\textbf{\labeldatename}} &   \@date \\ \fi
+     \if!\@author!\else{\textbf{\labelauthorname}} & \@author \\ \fi
+     \if!\@web!\else{\textbf{\labelwebname}} &  \url{\@web} \\ \fi
+     \if!\@mail!\else{\textbf{\labelmailname}} &  \url{\@mail} \\ \fi
    \end{tabular}
  \end{flushleft}
 
@@ -193,8 +226,6 @@
 
  \thispagestyle{empty}
 }
-
-\makeatletter
 
 \newlength{\coverheight}
 \setlength{\coverheight}{2cm}
@@ -229,7 +260,7 @@
 \renewcommand{\extendpostlude}{
   {\footnotesize%
     \IfStrEq{\songoriginal}{}{}{
-      \IfStrEq{\@lang}{english}{Original song:}{Chanson originale :}
+      \originalsongname
       \songoriginal
     }
   }
@@ -446,36 +477,28 @@
 %% End of tabs.sty file
 
 \newcommand*{\Intro}{%
-  \IfStrEq{\@lang}{english}{intro}{}%
-  \IfStrEq{\@lang}{french}{intro}{}%
+  \introname%
 }%
 \newcommand*{\Outro}{%
-  \IfStrEq{\@lang}{english}{outro}{}%
-  \IfStrEq{\@lang}{french}{outro}{}%
+  \outroname%
 }%
 \newcommand*{\Bridge}{%
-  \IfStrEq{\@lang}{english}{bridge}{}%
-  \IfStrEq{\@lang}{french}{pont}{}%
+  \bridgename%
 }%
 \newcommand*{\Chorus}{%
-  \IfStrEq{\@lang}{english}{chorus}{}%
-  \IfStrEq{\@lang}{french}{refrain}{}%
+  \chorusname%
 }%
 \newcommand*{\Verse}{%
-  \IfStrEq{\@lang}{english}{verse}{}%
-  \IfStrEq{\@lang}{french}{couplet}{}%
+  \versename%
 }%
 \newcommand*{\Solo}{%
-  \IfStrEq{\@lang}{english}{solo}{}%
-  \IfStrEq{\@lang}{french}{solo}{}%
+  \soloname%
 }%
 \newcommand*{\Pattern}{%
-  \IfStrEq{\@lang}{english}{pattern}{}%
-  \IfStrEq{\@lang}{french}{motif}{}%
+  \patternname%
 }%
 \newcommand*{\Rythm}{%
-  \IfStrEq{\@lang}{english}{rythm}{}%
-  \IfStrEq{\@lang}{french}{rythme}{}%
+  \rythmname%
 }%
 \newcommand*{\Adlib}{%
   \emph{ad~lib.}%
@@ -485,7 +508,7 @@
 \renewcommand{\musicnote}[2][]{%
   \vspace{.1cm}
   \IfStrEq{}{#1}{\musicnoteORIG{#2}}{
-    \IfStrEq{\@lang}{#1}{\musicnoteORIG{#2}}{}
+    \iflanguage{#1}{\musicnoteORIG{#2}}{}
   }
 }
 
@@ -493,7 +516,7 @@
 \renewcommand{\textnote}[2][]{%
   \vspace{.1cm}
   \IfStrEq{}{#1}{\textnoteORIG{#2}}{
-    \IfStrEq{\@lang}{#1}{\textnoteORIG{#2}}{}
+    \iflanguage{#1}{\textnoteORIG{#2}}{}
   }
 }
 
@@ -559,8 +582,7 @@
 \newcommand{\transposition}[1]{%
   \ifnorepeatchords%
     \musicnote{%
-      \IfStrEq{\@lang}{english}{transposition:~}{}%
-      \IfStrEq{\@lang}{french}{transposition~:~}{}%
+      \transpositionname~
       \ifthenelse{#1>0}{#1$\Uparrow$}{\removefirstch@r#1$\Downarrow$}%
     }%
   \else%

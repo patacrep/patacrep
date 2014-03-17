@@ -11,8 +11,9 @@ en production. En attendant, nous utilisons cette version modifiée.
 Dés que la correction sera entrée en production, il faudra supprimer ce
 fichier, et remplater l'occurence à "patchedbabel" par "babel" dans le fichier
 "plastex.py".
-La correction à suveiller est la révision 1.3 du fichier babel.py :
-http://plastex.cvs.sourceforge.net/viewvc/plastex/plastex/plasTeX/Packages/babel.py?view=log
+La correction à suveiller est la révision
+41a48c0c229dd46b69fb0e3720595000a71b17d8 du fichier babel.py :
+https://github.com/tiarno/plastex/commit/41a48c0c229dd46b69fb0e3720595000a71b17d8
 
 # Comment vérifier si on peut supprimer ce fichier ?
 

@@ -19,7 +19,7 @@ setup(name='songbook-core',
         requires=[
             "argparse", "codecs", "distutils", "fnmatch", "glob", "json",
             "locale", "logging", "os", "plasTeX", "re", "subprocess", "sys",
-            "textwrap", "unidecode"
+            "textwrap", "unidecode", "jinja2"
             ],
         packages=['songbook_core'],
         package_data={'songbook_core': ['data/latex/*',

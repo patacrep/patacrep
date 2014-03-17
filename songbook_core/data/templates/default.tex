@@ -1,0 +1,60 @@
+(* set indexes = "titleidx,authidx" *)
+
+(* extends "songs.tex" *)
+
+(* block songbookpreambule *)
+   (( super() ))
+
+  \usepackage{chords}
+
+   \title{((title))}
+   \author{((author))}
+   \subtitle{((subtitle))}
+   (* if version!="unknown" *)
+      \version{((version))}
+   (* endif *)
+   \mail{((mail))}
+   \web{((web))}
+   \picture{((picture))}
+   \picturecopyright{((picturecopyright))}
+   \footer{((footer))}
+
+   \newindex{titleidx}{((filename))_title}
+   \newauthorindex{authidx}{((filename))_auth}
+
+   (* for prefix in titleprefixwords *)
+   \titleprefixwords{((prefix))}
+   (* endfor*)
+   (* for key in titleprefixkeys *)
+      (* for word in authwords.key *)
+      (* if key=="after" *)
+      \authbyword{((word))}
+      (* else *)
+      \auth((key))word{((word))}
+      (* endif *)
+      (* endfor *)
+   (* endfor*)
+(* endblock *)
+
+(* block title *)
+\maketitle
+(* endblock *)
+
+(* block index *)
+    \showindex{\songindexname}{titleidx}
+    \showindex{\authorindexname}{authidx}
+   (* if lang==french *)
+      \notenamesin{A}{B}{C}{D}{E}{F}{G}
+      \notenamesout{La}{Si}{Do}{Ré}{Mi}{Fa}{Sol}
+   (* endif *)
+(* endblock *)
+
+(* block chords *)
+   % list of chords
+   \ifchorded
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
+   \fi
+(* endblock *)
+

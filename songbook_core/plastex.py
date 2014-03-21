@@ -17,6 +17,13 @@ def process_unbr_spaces(node):
     will be rendered as unbreakable space.
 
     Return node object for convenience.
+
+    This function is a workaround to a bug that has been solved since:
+    - https://github.com/tiarno/plastex/commit/76bb78d5fbaac48e68025a3545286cc63cb4e7ad
+    - https://github.com/tiarno/plastex/commit/682a0d223b99d6b949bacf1c974d24dc9bb1d18e
+
+    It can be deleted once this bug has been merged in production version of
+    PlasTeX.
     """
     if (type(node) == Sentences.InterWordSpace or
         (type(node) == Sentences.NoLineBreak and node.source == '~ ')):

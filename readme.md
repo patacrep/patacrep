@@ -14,6 +14,11 @@ to the CC-BY-SA licence.
 Other document are subject to the GNU GPLv2 except if another licence
 is precised in the header.
 
+# Python version
+
+Songbook is compatible with Python 2.7 (no Python3 since [one of the
+library](http://plastex.sourceforge.net/) we are using is not).
+
 # Download
 
 Clone Patacrep repos:

@@ -1,0 +1,25 @@
+(* extends "layout.tex" *)
+
+(* block songbookpreambule *)
+   (( super() ))
+
+
+   (* for lang in songlist.languages() *)
+   \PassOptionsToPackage{((lang))}{babel}
+   (* endfor *)
+   \usepackage[((lang))]{babel}
+   \lang{((lang))}
+
+   \graphicspath{{((datadir))/img/}}
+(* endblock *)
+
+(* block songs *)
+   \phantomsection
+   \addcontentsline{toc}{section}{\songlistname}
+
+   \begin{songs}{((indexes|default('')))}
+      (* for song in songlist.songs *)
+      \input{((song.path))}
+      (* endfor *)
+   \end{songs}
+(* endblock *)

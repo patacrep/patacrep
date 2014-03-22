@@ -23,27 +23,19 @@
 
 % Copyright (C) 2014 The Songbook team (www.patacrep.com)
 
+(* block documentclass *)
 \documentclass[((booktype)),
     (* for option in bookoptions *)((option)),
     (* endfor *)
     (* for instrument in instruments *)((instrument)),
     (* endfor *)
     ((mainfontsize))pt]{crepbook}
+(* endblock *)
 
-(* block packages *)
+(* block songbookpreambule *)
    \usepackage[utf8]{inputenc}
    \usepackage[T1]{fontenc}
    \usepackage{lmodern}
-   (* for lang in songlist.languages() *)
-   \PassOptionsToPackage{((lang))}{babel}
-   (* endfor *)
-   \usepackage{babel}
-
-   (* block extrapackages *)
-   (* endblock extrapackages *)
-(* endblock packages *)
-
-(* block songbookpreambule *)
 (* endblock songbookpreambule *)
 
 (* block preambule *)
@@ -52,7 +44,6 @@
 \begin{document}
 
 (* block title *)
-\maketitle
 (* endblock *)
 
 (* block preface *)
@@ -64,7 +55,7 @@
 (* block chords *)
 (* endblock *)
 
-(* block content *)
+(* block songs *)
 (* endblock *)
 
 (* block postface *)

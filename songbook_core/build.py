@@ -5,7 +5,6 @@
 
 import codecs
 import glob
-import json
 import logging
 import os.path
 import re
@@ -24,27 +23,6 @@ DEFAULT_AUTHWORDS = {
         "ignore": ["unknown"],
         "sep": ["and"],
         }
-
-
-def parse_template(template):
-    """Return the dict of default parameters defined in the template."""
-    embedded_json_pattern = re.compile(r"^%%:")
-    with open(template) as template_file:
-        code = [
-                line[3:-1]
-                for line
-                in template_file
-                if embedded_json_pattern.match(line)
-                ]
-
-    data = json.loads(''.join(code))
-    parameters = dict()
-    for param in data:
-        try:
-            parameters[param["name"]] = param["default"]
-        except KeyError:
-            parameters[param["name"]] = None
-    return parameters
 
 
 # pylint: disable=too-few-public-methods
@@ -85,12 +63,9 @@ class Songbook(object):
         Song.authwords['ignore'] = self.config['authwords']['ignore']
         Song.authwords['sep'] = [
                 re.compile(r"^(.*)%s (.*)$" % sep)
-                for sep
-                in ([
-                    " %s" % sep
-                    for sep
-                    in self.config['authwords']["sep"]
-                    ] + [','])
+                for sep in ([
+                    " %s" % sep for sep in self.config['authwords']["sep"]
+                            ] + [','])
                 ]
 
     def _parse(self, raw_songbook):
@@ -134,7 +109,7 @@ class Songbook(object):
                 self.config['datadir'],
                 )
 
-        context = parse_template(renderer.file_template())
+        context = renderer.get_variables()
 
         context.update(self.config)
         context['titleprefixkeys'] = ["after", "sep", "ignore"]

@@ -17,6 +17,13 @@ def process_unbr_spaces(node):
     will be rendered as unbreakable space.
 
     Return node object for convenience.
+
+    This function is a workaround to a bug that has been solved since:
+    - https://github.com/tiarno/plastex/commit/76bb78d5fbaac48e68025a3545286cc63cb4e7ad
+    - https://github.com/tiarno/plastex/commit/682a0d223b99d6b949bacf1c974d24dc9bb1d18e
+
+    It can be deleted once this bug has been merged in production version of
+    PlasTeX.
     """
     if (type(node) == Sentences.InterWordSpace or
         (type(node) == Sentences.NoLineBreak and node.source == '~ ')):
@@ -74,7 +81,8 @@ def parsetex(filename):
     """
     # /* BEGIN plasTeX patch
     # The following lines, and another line a few lines later, are used to
-    # circumvent a plasTeX bug. It has been reported, with a patch.
+    # circumvent a plasTeX bug. It has been reported and corrected :
+    # https://github.com/tiarno/plastex/commit/8f4e5a385f3cb6a04d5863f731ce24a7e856f2a4
     # To see if you can delete those lines, set your LC_TIME locale to French,
     # during a month containing diacritics (e.g. Février), and run songbook. If
     # no plasTeX bug appears, it is safe to remove those lines.

@@ -1,31 +1,27 @@
-(% comment %)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Template parameters
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%:[
-%%:  {"name":"title", "description":"Title", "default":"Recueil de chansons pour guitare", "mandatory":true},
-%%:  {"name":"author", "description":"Author", "default":"The Songbook Team", "mandatory":true},
-%%:  {"name":"booktype", "description":"Type", "type":"enum", "values":["chorded","lyric"], "default":"chorded", "mandatory":true},
-%%:  {"name":"lang", "description":"Language", "default":"english"},
-%%:  {"name":"instruments", "description":"Instruments", "type":"flag", "values":["guitar","ukulele"], "join":",", "mandatory":true, "default":["guitar"]},
-%%:  {"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["diagram","pictures"]},
-%%:  {"name":"version", "description":"Version", "default":"unknown"},
-%%:  {"name":"subtitle", "description":"Subtitle"},
-%%:  {"name":"web", "description":"Web", "default":"http://www.patacrep.com"},
-%%:  {"name":"mail", "description":"Email", "default":"crep@team-on-fire.com"},
-%%:  {"name":"picture", "description":"Picture", "type":"file", "default":"treble_a"},
-%%:  {"name":"picturecopyright", "description":"Copyright", "default":"Dbolton \\url{http://commons.wikimedia.org/wiki/User:Dbolton}"},
-%%:  {"name":"footer", "description":"Footer", "default":"\\begin{flushright}Generated using Songbook (\\url{http://www.patacrep.com})\\end{flushright}"},
-%%:  {"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
-%%:  {"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"D1E4AE"},
-%%:  {"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"D1E4AE"},
-%%:  {"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"D1E4AE"},
-%%:  {"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"},
-%%:  {"name":"authwords", "descriptipn":"Set of options to process author string (LaTeX commands authsepword, authignoreword, authbyword)"},
-%%:  {"name":"languages", "description":"List of languages used by songs", "default":"english"}
-%%:]
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-(% endcomment %)
+(% variables %)
+[
+{"name":"title", "description":"Title", "default":"Recueil de chansons pour guitare", "mandatory":true},
+{"name":"author", "description":"Author", "default":"The Songbook Team", "mandatory":true},
+{"name":"booktype", "description":"Type", "type":"enum", "values":["chorded","lyric"], "default":"chorded", "mandatory":true},
+{"name":"lang", "description":"Language", "default":"english"},
+{"name":"instruments", "description":"Instruments", "type":"flag", "values":["guitar","ukulele"], "join":",", "mandatory":true, "default":["guitar"]},
+{"name":"bookoptions", "description":"Options", "type":"flag", "values":["diagram","importantdiagramonly","lilypond","pictures","tabs","repeatchords","onesongperpage"], "join":",", "mandatory":true, "default":["diagram","pictures"]},
+{"name":"version", "description":"Version", "default":"unknown"},
+{"name":"subtitle", "description":"Subtitle"},
+{"name":"web", "description":"Web", "default":"http://www.patacrep.com"},
+{"name":"mail", "description":"Email", "default":"crep@team-on-fire.com"},
+{"name":"picture", "description":"Picture", "type":"file", "default":"treble_a"},
+{"name":"picturecopyright", "description":"Copyright", "default":"Dbolton \\url{http://commons.wikimedia.org/wiki/User:Dbolton}"},
+{"name":"footer", "description":"Footer", "default":"\\begin{flushright}Generated using Songbook (\\url{http://www.patacrep.com})\\end{flushright}"},
+{"name":"mainfontsize", "description":"Font Size", "type":"font", "default":"10"},
+{"name":"songnumberbgcolor", "description":"Number Shade", "type":"color", "default":"D1E4AE"},
+{"name":"notebgcolor", "description":"Note Shade", "type":"color", "default":"D1E4AE"},
+{"name":"indexbgcolor", "description":"Index Shade", "type":"color", "default":"D1E4AE"},
+{"name":"titleprefixwords", "description":"Ignore some words in the beginning of song titles"},
+{"name":"authwords", "descriptipn":"Set of options to process author string (LaTeX commands authsepword, authignoreword, authbyword)"},
+{"name":"languages", "description":"List of languages used by songs", "default":"english"}
+]
+(% endvariables %)
 
 (* extends "default.tex" *)
 

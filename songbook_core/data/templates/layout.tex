@@ -23,6 +23,46 @@
 
 % Copyright (C) 2014 The Songbook team (www.patacrep.com)
 
+(% variables %)
+{
+"instruments": {"description": {"en": "Instruments", "fr": "Instruments"},
+               "type": "flag",
+               "values": {"guitar": {"en": "Guitare", "fr": "Guitare"},
+                          "ukulele": {"en": "Ukulele", "fr": "Ukulele"}
+                         },
+               "join": ",",
+               "mandatory": true,
+               "default": {"default":["guitar"]}
+            },
+"bookoptions": {"description": {"en": "Options", "fr": "Options"},
+               "type": "flag",
+               "values": {"diagram": {"en": "Chords diagrams", "fr": "Diagrammes d'accords"},
+                          "importantdiagramonly": {"en": "Only importants diagrames", "fr": "Diagrammes importants uniquement"},
+                          "lilypond": {"en": "Lilypond music sheets", "fr": "Partitions lilypond"},
+                          "pictures": {"en": "Cover pictures", "fr": "Couvertures d'albums"},
+                          "tabs": {"en": "Tablatures", "fr": "Tablatures"},
+                          "repeatchords": {"en": "Repeat chords", "fr": "Répéter les accords"},
+                          "onesongperpage": {"en": "One song per page", "fr": "Une chanson par page"}
+                       },
+               "join": ",",
+               "mandatory": true,
+               "default": {"default":["diagram","pictures"]}
+            },
+"booktype": {"description": {"en": "Type", "fr": "Type"},
+            "type": "enum",
+            "values": {"chorded": {"en": "With guitar chords", "fr": "Avec accords de guitare" },
+                                   "lyric": {"en": "Lyrics only", "fr": "Paroles uniquement"}
+                     },
+            "default": {"default":"chorded"}, 
+            "mandatory": true
+            },
+"mainfontsize": {"description": {"en": "Font Size", "fr": "Taille de police"},
+               "type":"font",
+               "default":{"default": "10"}
+            }
+}
+(% endvariables %)
+
 (* block documentclass *)
 \documentclass[((booktype)),
     (* for option in bookoptions *)((option)),

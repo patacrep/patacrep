@@ -7,6 +7,7 @@ from jinja2.meta import find_referenced_templates as find_templates
 import os
 import re
 import json
+import locale
 
 _LATEX_SUBS = (
     (re.compile(r'\\'), r'\\textbackslash'),
@@ -59,30 +60,59 @@ class TexRenderer(object):
         # TODO: catch the TemplateNotFound
         self.template = self.texenv.get_template(template)
 
+        # Trick to get the language code
+        self.lang = locale.getdefaultlocale()[0].split('-')[0].split('_')[0]
+
     def get_variables(self):
+        '''Get and return a dictionary with the default values
+         for all the variables
+        '''
         data = self.parse_templates()
         variables = dict()
-        for param in data:
-            try:
-                variables[param["name"]] = param["default"]
-            except KeyError:
-                variables[param["name"]] = None
+        for name, param in data.items():
+            variables[name] = self._get_default(param)
         return variables
 
+    def _get_default(self, parameter):
+        '''Get the default value for the parameter, according to the language.
+        '''
+        default = None
+        try:
+            default = parameter['default']
+        except KeyError:
+            return None
+
+        if self.lang in default:
+            variable = default[self.lang]
+        elif "default" in default:
+            variable = default["default"]
+        elif "en" in default:
+            variable = default["en"]
+        elif len(default > 0):
+            variable = default.popitem()[1]
+        else:
+            variable = None
+
+        return variable
+
     def parse_templates(self):
+        '''Recursively parse all the used templates to extract all the
+        variables as a dictionary.
+        '''
         templates = self.get_templates(self.template)
         templates |= set([self.template.name])
-        variables = []
-        regex = re.compile(r'\(% variables %\)(?P<variables>.*)'
+        variables = {}
+        regex = re.compile(r'\(% variables %\)\n(?P<variables>.*)'
                             '\(% endvariables %\)', re.DOTALL)
         for template_name in templates:
             filename = self.texenv.get_template(template_name).filename
+            print filename
             with open(filename, 'r') as template_file:
                 content = template_file.read()
             match = re.search(regex, content)
             if match:
                 content = match.group('variables')
-                variables += json.loads(content)
+                variables.update(json.loads(content))
         return variables
 
     def get_templates(self, template):

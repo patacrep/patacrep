@@ -23,6 +23,7 @@ DEFAULT_AUTHWORDS = {
         "ignore": ["unknown"],
         "sep": ["and"],
         }
+DEFAULT_STEPS = ['tex', 'pdf', 'sbx', 'pdf', 'clean']
 
 
 # pylint: disable=too-few-public-methods
@@ -137,31 +138,38 @@ def clean(basename):
             ]
 
     for ext in generated_extensions:
-        try:
-            os.unlink(basename + ext)
-        except Exception as exception:
-            raise errors.CleaningError(basename + ext, exception)
+        if os.path.isfile(basename + ext):
+            try:
+                os.unlink(basename + ext)
+            except Exception as exception:
+                raise errors.CleaningError(basename + ext, exception)
 
 
 def buildsongbook(
         raw_songbook,
         basename,
+        steps=None,
         interactive=False,
-        logger=logging.getLogger()
+        logger=logging.getLogger(),
         ):
     """Build a songbook
 
     Arguments:
     - raw_songbook: Python representation of the .sb songbook configuration
       file.
+    - steps: list of steps to perform to compile songbook. Available steps are:
+      - tex: build .tex file from templates;
+      - pdf: compile .tex using pdflatex;
+      - sbx: compile song and author indexes;
+      - clean: remove temporary files.
     - basename: basename of the songbook to be built.
     - interactive: in False, do not expect anything from stdin.
     """
 
-    songbook = Songbook(raw_songbook, basename)
-    with codecs.open("{}.tex".format(basename), 'w', 'utf-8') as output:
-        songbook.write_tex(output)
+    if steps is None:
+        steps = DEFAULT_STEPS
 
+    songbook = Songbook(raw_songbook, basename)
     if not 'TEXINPUTS' in os.environ.keys():
         os.environ['TEXINPUTS'] = ''
     os.environ['TEXINPUTS'] += os.pathsep + os.path.join(
@@ -179,22 +187,27 @@ def buildsongbook(
     if not interactive:
         pdflatex_options.append("-halt-on-error")
 
-    # First pdflatex pass
-    if subprocess.call(["pdflatex"] + pdflatex_options + [basename]):
-        raise errors.LatexCompilationError(basename)
-
-    # Make index
-    sxd_files = glob.glob("%s_*.sxd" % basename)
-    for sxd_file in sxd_files:
-        logger.info("processing " + sxd_file)
-        idx = process_sxd(sxd_file)
-        index_file = open(sxd_file[:-3] + "sbx", "w")
-        index_file.write(idx.entries_to_str().encode('utf8'))
-        index_file.close()
-
-    # Second pdflatex pass
-    if subprocess.call(["pdflatex"] + pdflatex_options + [basename]):
-        raise errors.LatexCompilationError(basename)
-
-    # Cleaning
-    clean(basename)
+    # Compilation
+    for step in steps:
+        if step == 'tex':
+            # Building .tex file from templates
+            with codecs.open("{}.tex".format(basename), 'w', 'utf-8') as output:
+                songbook.write_tex(output)
+        elif step == 'pdf':
+            if subprocess.call(["pdflatex"] + pdflatex_options + [basename]):
+                raise errors.LatexCompilationError(basename)
+        elif step == 'sbx':
+            # Make index
+            sxd_files = glob.glob("%s_*.sxd" % basename)
+            for sxd_file in sxd_files:
+                logger.info("processing " + sxd_file)
+                idx = process_sxd(sxd_file)
+                index_file = open(sxd_file[:-3] + "sbx", "w")
+                index_file.write(idx.entries_to_str().encode('utf8'))
+                index_file.close()
+        elif step == 'clean':
+            # Cleaning
+            clean(basename)
+        else:
+            # Unknown step name
+            raise errors.UnknownStep(step)

@@ -36,3 +36,14 @@ class CleaningError(SongbookError):
                 filename=self.filename,
                 exception=str(self.exception)
                 )
+
+class UnknownStep(SongbookError):
+    """Unknown compilation step."""
+
+    def __init__(self, step):
+        super(UnknownStep, self).__init__()
+        self.step = step
+
+    def __str__(self):
+        return """Compilation step "{step}" unknown.""".format(step=self.step)
+

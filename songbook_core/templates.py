@@ -106,7 +106,6 @@ class TexRenderer(object):
                             '\(% endvariables %\)', re.DOTALL)
         for template_name in templates:
             filename = self.texenv.get_template(template_name).filename
-            print filename
             with open(filename, 'r') as template_file:
                 content = template_file.read()
             match = re.search(regex, content)

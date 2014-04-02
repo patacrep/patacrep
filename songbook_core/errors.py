@@ -32,10 +32,21 @@ class LatexCompilationError(SongbookError):
         self.basename = basename
 
     def __str__(self):
-        return (
-                """Error while pdfLaTeX compilation of "{basename}.tex"
-                (see {basename}.log for more information)."""
+        return ("""Error while pdfLaTeX compilation of "{basename}.tex" """
+                """(see {basename}.log for more information)."""
                 ).format(basename=self.basename)
+
+class StepCommandError(SongbookError):
+    """Error during LaTeX compilation."""
+
+    def __init__(self, command, code):
+        super(StepCommandError, self).__init__()
+        self.command = command
+        self.code = code
+
+    def __str__(self):
+        return ("""Error while running custom command "{command}": got return"""
+                " code {code}.").format(command=self.command, code=self.code)
 
 class CleaningError(SongbookError):
     """Error during cleaning of LaTeX auxiliary files."""
@@ -50,3 +61,14 @@ class CleaningError(SongbookError):
                 filename=self.filename,
                 exception=str(self.exception)
                 )
+
+class UnknownStep(SongbookError):
+    """Unknown compilation step."""
+
+    def __init__(self, step):
+        super(UnknownStep, self).__init__()
+        self.step = step
+
+    def __str__(self):
+        return """Compilation step "{step}" unknown.""".format(step=self.step)
+

@@ -2,12 +2,14 @@
 # -*- coding: utf-8 -*-
 """Template for .tex generation settings and utilities"""
 
-from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader
+from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, TemplateNotFound
 from jinja2.meta import find_referenced_templates as find_templates
 import os
 import re
 import json
 import locale
+
+from songbook_core import errors
 
 _LATEX_SUBS = (
     (re.compile(r'\\'), r'\\textbackslash'),
@@ -57,8 +59,15 @@ class TexRenderer(object):
         self.texenv.trim_blocks = True
         self.texenv.lstrip_blocks = True
 
-        # TODO: catch the TemplateNotFound
-        self.template = self.texenv.get_template(template)
+        try:
+            self.template = self.texenv.get_template(template)
+        except TemplateNotFound as exception:
+            raise errors.TemplateError(
+                    exception,
+                    """Template "{template}" not found.""".format(
+                        template=exception.name
+                        ),
+                    )
 
         # Trick to get the language code
         self.lang = locale.getdefaultlocale()[0].split('-')[0].split('_')[0]

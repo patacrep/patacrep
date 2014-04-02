@@ -10,6 +10,20 @@ class SongbookError(Exception):
     """
     pass
 
+class TemplateError(SongbookError):
+    """Error during template generation"""
+
+    def __init__(self, original, message = None):
+        super(TemplateError, self).__init__()
+        self.original = original
+        self.message = message
+
+    def __str__(self):
+        if self.message is None:
+            return str(self.original)
+        else:
+            return self.message
+
 class LatexCompilationError(SongbookError):
     """Error during LaTeX compilation."""
 

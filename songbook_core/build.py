@@ -90,7 +90,7 @@ class Songbook(object):
                                 '*.sg',
                                 )
                     ]
-        self.songslist = SongsList(self.config['datadir'], self.config["lang"])
+        self.songslist = SongsList(self.config['datadir'])
         self.songslist.append_list(self.config['songs'])
 
         # Ensure self.config['authwords'] contains all entries

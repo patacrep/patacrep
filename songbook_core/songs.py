@@ -88,9 +88,8 @@ def unprefixed_title(title, prefixes):
 class SongsList(object):
     """Manipulation et traitement de liste de chansons"""
 
-    def __init__(self, library, language):
+    def __init__(self, library):
         self._songdir = os.path.join(library, 'songs')
-        self._language = language
 
         # Liste triée des chansons
         self.songs = []
@@ -128,8 +127,4 @@ class SongsList(object):
 
     def languages(self):
         """Renvoie la liste des langues utilisées par les chansons"""
-        languages = set().union(*[set(song.languages) for song in self.songs])
-        if languages:
-            return languages
-        else:
-            return set(['english'])
+        return set().union(*[set(song.languages) for song in self.songs])

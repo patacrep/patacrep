@@ -59,7 +59,10 @@
 "mainfontsize": {"description": {"en": "Font Size", "fr": "Taille de police"},
                "type":"font",
                "default":{"default": "10"}
-            }
+            },
+"lang": {"description": {"en": "Language", "fr": "Langue"},
+         "default": {"en": "english", "fr": "french"}
+      }
 }
 (% endvariables %)
 
@@ -76,6 +79,8 @@
    \usepackage[utf8]{inputenc}
    \usepackage[T1]{fontenc}
    \usepackage{lmodern}
+
+   \lang{((lang))}
 (* endblock songbookpreambule *)
 
 (* block preambule *)

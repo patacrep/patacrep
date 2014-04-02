@@ -1,14 +1,3 @@
-(% variables %)
-{
-"languages": {"description": {"en": "List of languages used by songs", "fr": "Liste des langues utilisées par les chansons"},
-              "default": {"en": "english", "fr": "french"}
-           },
-"lang": {"description": {"en": "Language", "fr": "Langue"},
-         "default": {"en": "english", "fr": "french"}
-      }
-}
-(% endvariables %)
-
 (* extends "layout.tex" *)
 
 (* block songbookpreambule *)
@@ -19,7 +8,6 @@
    \PassOptionsToPackage{((lang))}{babel}
    (* endfor *)
    \usepackage[((lang))]{babel}
-   \lang{((lang))}
 
    \graphicspath{{((datadir))/img/}}
 (* endblock *)

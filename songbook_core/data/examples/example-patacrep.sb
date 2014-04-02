@@ -1,0 +1,15 @@
+{
+"template" : "patacrep.tex",
+"bookoptions" : [
+    "importantdiagramonly",
+    "repeatchords",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"lang" : "french",
+"authwords" : {
+  "sep" : ["and", "et"]
+  },
+ "datadir" : "."
+}

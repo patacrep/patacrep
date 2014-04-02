@@ -7,7 +7,6 @@ from jinja2.meta import find_referenced_templates as find_templates
 import os
 import re
 import json
-import locale
 
 from songbook_core import errors
 
@@ -32,12 +31,16 @@ def _escape_tex(value):
 class TexRenderer(object):
     """Render a template to a LaTeX file."""
 
-    def __init__(self, template, datadir=''):
+    def __init__(self, template, datadir, lang):
         '''Start a new jinja2 environment for .tex creation.
 
         Arguments:
-        - datadir: location of the user-defined templates
+        - template: name of the template to use.
+        - datadir: location of the data directory (which max contain
+          file <datadir>/templates/<template>).
+        - lang: main language of songbook.
         '''
+        self.lang = lang
         self.texenv = Environment(
                 loader=ChoiceLoader([
                     FileSystemLoader(
@@ -68,9 +71,6 @@ class TexRenderer(object):
                         template=exception.name
                         ),
                     )
-
-        # Trick to get the language code
-        self.lang = locale.getdefaultlocale()[0].split('-')[0].split('_')[0]
 
     def get_variables(self):
         '''Get and return a dictionary with the default values

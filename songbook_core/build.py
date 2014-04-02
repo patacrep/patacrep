@@ -108,6 +108,7 @@ class Songbook(object):
         renderer = TexRenderer(
                 self.config['template'],
                 self.config['datadir'],
+                self.config['lang'],
                 )
 
         context = renderer.get_variables()

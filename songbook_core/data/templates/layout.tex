@@ -25,43 +25,43 @@
 
 (% variables %)
 {
-"instruments": {"description": {"en": "Instruments", "fr": "Instruments"},
+"instruments": {"description": {"english": "Instruments", "french": "Instruments"},
                "type": "flag",
-               "values": {"guitar": {"en": "Guitare", "fr": "Guitare"},
-                          "ukulele": {"en": "Ukulele", "fr": "Ukulele"}
+               "values": {"guitar": {"english": "Guitare", "french": "Guitare"},
+                          "ukulele": {"english": "Ukulele", "french": "Ukulele"}
                          },
                "join": ",",
                "mandatory": true,
                "default": {"default":["guitar"]}
             },
-"bookoptions": {"description": {"en": "Options", "fr": "Options"},
+"bookoptions": {"description": {"english": "Options", "french": "Options"},
                "type": "flag",
-               "values": {"diagram": {"en": "Chords diagrams", "fr": "Diagrammes d'accords"},
-                          "importantdiagramonly": {"en": "Only importants diagrames", "fr": "Diagrammes importants uniquement"},
-                          "lilypond": {"en": "Lilypond music sheets", "fr": "Partitions lilypond"},
-                          "pictures": {"en": "Cover pictures", "fr": "Couvertures d'albums"},
-                          "tabs": {"en": "Tablatures", "fr": "Tablatures"},
-                          "repeatchords": {"en": "Repeat chords", "fr": "Répéter les accords"},
-                          "onesongperpage": {"en": "One song per page", "fr": "Une chanson par page"}
+               "values": {"diagram": {"english": "Chords diagrams", "french": "Diagrammes d'accords"},
+                          "importantdiagramonly": {"english": "Only importants diagrames", "french": "Diagrammes importants uniquement"},
+                          "lilypond": {"english": "Lilypond music sheets", "french": "Partitions lilypond"},
+                          "pictures": {"english": "Cover pictures", "french": "Couvertures d'albums"},
+                          "tabs": {"english": "Tablatures", "french": "Tablatures"},
+                          "repeatchords": {"english": "Repeat chords", "french": "Répéter les accords"},
+                          "onesongperpage": {"english": "One song per page", "french": "Une chanson par page"}
                        },
                "join": ",",
                "mandatory": true,
                "default": {"default":["diagram","pictures"]}
             },
-"booktype": {"description": {"en": "Type", "fr": "Type"},
+"booktype": {"description": {"english": "Type", "french": "Type"},
             "type": "enum",
-            "values": {"chorded": {"en": "With guitar chords", "fr": "Avec accords de guitare" },
-                                   "lyric": {"en": "Lyrics only", "fr": "Paroles uniquement"}
+            "values": {"chorded": {"english": "With guitar chords", "french": "Avec accords de guitare" },
+                                   "lyric": {"english": "Lyrics only", "french": "Paroles uniquement"}
                      },
             "default": {"default":"chorded"}, 
             "mandatory": true
             },
-"mainfontsize": {"description": {"en": "Font Size", "fr": "Taille de police"},
+"mainfontsize": {"description": {"english": "Font Size", "french": "Taille de police"},
                "type":"font",
                "default":{"default": "10"}
             },
-"lang": {"description": {"en": "Language", "fr": "Langue"},
-         "default": {"en": "english", "fr": "french"}
+"lang": {"description": {"english": "Language", "french": "Langue"},
+         "default": {"english": "english", "french": "french"}
       }
 }
 (% endvariables %)

@@ -208,6 +208,12 @@ def buildsongbook(
         elif step == 'clean':
             # Cleaning
             clean(basename)
+        elif step.startswith("%"):
+            # Shell command
+            command = step[1:]
+            exit_code = subprocess.call(command, shell=True)
+            if exit_code:
+                raise errors.StepCommandError(command, exit_code)
         else:
             # Unknown step name
             raise errors.UnknownStep(step)

@@ -21,10 +21,15 @@ from songbook_core import errors
 class ParseStepsAction(argparse.Action):
     """Argparse action to split a string into a list."""
     def __call__(self, __parser, namespace, values, __option_string=None):
+        if not getattr(namespace, self.dest):
+            setattr(namespace, self.dest, [])
         setattr(
                 namespace,
                 self.dest,
-                [value.strip() for value in values[0].split(',')],
+                (
+                    getattr(namespace, self.dest)
+                    + [value.strip() for value in values[0].split(',')]
+                ),
                 )
 
 def argument_parser(args):
@@ -52,9 +57,13 @@ def argument_parser(args):
                     "tex" produce .tex file from templates;
                     "pdf" compile .tex file;
                     "sbx" compile index files;
-                    "clean" remove temporary files.
+                    "clean" remove temporary files;
+                    any string beginning with '%%' (in this case, it will be run
+                    in a shell). Several steps (excepted the custom shell
+                    command) can be combinend in one --steps argument, as a
+                    comma separated string.
             """.format(steps=','.join(DEFAULT_STEPS))),
-            default=DEFAULT_STEPS,
+            default=None,
             )
 
     options = parser.parse_args(args)

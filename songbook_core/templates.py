@@ -3,6 +3,7 @@
 """Template for .tex generation settings and utilities"""
 
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, TemplateNotFound
+from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
 import os
 import re
@@ -19,6 +20,16 @@ _LATEX_SUBS = (
     (re.compile(r'\.\.\.+'), r'\\ldots'),
 )
 
+class VariablesExtension(Extension):
+
+    tags = set(['variables'])
+
+    def parse(self, parser):
+        parser.stream.next()
+
+        parser.parse_statements(end_tokens=['name:endvariables'], drop_needle=True)
+
+        return nodes.Const("")
 
 def _escape_tex(value):
     '''Escape TeX special characters'''
@@ -50,13 +61,14 @@ class TexRenderer(object):
                         'songbook_core', os.path.join('data', 'templates')
                         ),
                     ]),
+                extensions=[VariablesExtension],
                 )
         self.texenv.block_start_string = '(*'
         self.texenv.block_end_string = '*)'
         self.texenv.variable_start_string = '(('
         self.texenv.variable_end_string = '))'
-        self.texenv.comment_start_string = '(% variables %)'
-        self.texenv.comment_end_string = '(% endvariables %)'
+        self.texenv.comment_start_string = '(#'
+        self.texenv.comment_end_string = '#)'
         self.texenv.line_comment_prefix = '(%%)'
         self.texenv.filters['escape_tex'] = _escape_tex
         self.texenv.trim_blocks = True

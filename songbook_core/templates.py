@@ -123,8 +123,8 @@ class TexRenderer(object):
         templates = self.get_templates(self.template)
         templates |= set([self.template.name])
         variables = {}
-        regex = re.compile(r'\(% variables %\)\n(?P<variables>.*)'
-                            '\(% endvariables %\)', re.DOTALL)
+        regex = re.compile(r'\(* variables *\)\n(?P<variables>.*)'
+                            '\(* endvariables *\)', re.DOTALL)
         for template_name in templates:
             filename = self.texenv.get_template(template_name).filename
             with open(filename, 'r') as template_file:

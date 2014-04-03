@@ -69,7 +69,7 @@ class TexRenderer(object):
         self.texenv.variable_end_string = '))'
         self.texenv.comment_start_string = '(#'
         self.texenv.comment_end_string = '#)'
-        self.texenv.line_comment_prefix = '(%%)'
+        self.texenv.line_comment_prefix = '%!'
         self.texenv.filters['escape_tex'] = _escape_tex
         self.texenv.trim_blocks = True
         self.texenv.lstrip_blocks = True

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Template for .tex generation settings and utilities"""
 
-from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, TemplateNotFound
+from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
 import os

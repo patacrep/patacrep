@@ -45,7 +45,7 @@ class Songbook(object):
                 'authwords': {},
                 'lang': 'french',
                 'sort': [u"by", u"album", u"@title"],
-                'songs': None,
+                'content': None,
                 'datadir': os.path.abspath('.'),
                 }
         self.songslist = None
@@ -79,8 +79,8 @@ class Songbook(object):
         self.config['datadir'] = os.path.abspath(self.config['datadir'])
         ### Some post-processing
         # Compute song list
-        if self.config['songs'] is None:
-            self.config['songs'] = [
+        if self.config['content'] is None:
+            self.config['content'] = [
                     os.path.relpath(
                         filename,
                         os.path.join(self.config['datadir'], 'songs'),
@@ -92,7 +92,7 @@ class Songbook(object):
                                 )
                     ]
         self.songslist = SongsList(self.config['datadir'])
-        self.songslist.append_list(self.config['songs'])
+        self.songslist.append_list(self.config['content'])
 
         # Ensure self.config['authwords'] contains all entries
         for (key, value) in DEFAULT_AUTHWORDS.items():

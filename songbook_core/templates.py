@@ -6,6 +6,7 @@ from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
+import codecs
 import os
 import re
 import json
@@ -20,6 +21,25 @@ _LATEX_SUBS = (
     (re.compile(r'"'), r"''"),
     (re.compile(r'\.\.\.+'), r'\\ldots'),
 )
+
+VARIABLE_REGEXP = re.compile(r"""
+    \(\*\ *variables\ *\*\)    # Match (* variables *)
+    (                          # Match and capture the following:
+    (?:                        # Start of non-capturing group, used to match a single character
+    (?!                        # only if it's impossible to match the following:
+    \(\*\ *                    # - a literal (*
+    (?:                        # Inner non-capturing group, used for the following alternation:
+    variables                  # - Either match the word variables
+    |                          # or
+    endvariables               # - the word endvariables
+    )                          # End of inner non-capturing group
+    \ *\*\)                    # - a literal *)
+    )                          # End of negative lookahead assertion
+    .                          # Match any single character
+    )*                         # Repeat as often as possible
+    )                          # End of capturing group 1
+    \(\*\ *endvariables\ *\*\) # until (* endvariables *) is matched.""",
+    re.VERBOSE|re.DOTALL)
 
 class VariablesExtension(Extension):
     """Extension to jinja2 to silently ignore variable block.
@@ -96,7 +116,7 @@ class TexRenderer(object):
         '''Get and return a dictionary with the default values
          for all the variables
         '''
-        data = self.parse_templates()
+        data = self.get_template_variables(self.template)
         variables = dict()
         for name, param in data.items():
             variables[name] = self._get_default(param)
@@ -124,39 +144,57 @@ class TexRenderer(object):
 
         return variable
 
-    def parse_templates(self):
-        '''Recursively parse all the used templates to extract all the
-        variables as a dictionary.
-        '''
-        templates = self.get_templates(self.template)
-        templates |= set([self.template.name])
+    def get_template_variables(self, template, skip=None):
+        """Parse the template to extract the variables as a dictionary.
+
+        If the template includes or extends other templates, load them as well.
+
+        Arguments:
+        - template: the name of the template, as a string.
+        - skip: a list of templates (as strings) to skip: if they are included
+          in 'template' (or one of its subtemplates), it is not parsed.
+        """
+        if not skip:
+            skip = []
         variables = {}
-        regex = re.compile(r'\(\* variables \*\)\n(?P<variables>.*)'
-                            '\(\* endvariables \*\)', re.DOTALL)
-        for template_name in templates:
-            filename = self.texenv.get_template(template_name).filename
-            with open(filename, 'r') as template_file:
-                content = template_file.read()
-            match = re.search(regex, content)
-            if match:
-                content = match.group('variables')
-                variables.update(json.loads(content))
+        (current, templates) = self.parse_template(template)
+        for subtemplate in templates:
+            if subtemplate in skip:
+                continue
+            variables.update(
+                    self.get_template_variables(
+                        subtemplate,
+                        skip + templates
+                        )
+                    )
+        variables.update(current)
         return variables
 
-    def get_templates(self, template):
-        '''Recursively get a set of all the templates used
-        by a particular template.
-        '''
-        with open(template.filename, 'r') as template_file:
-            content = template_file.readlines()
-        new_templates = list(find_templates(self.texenv.parse(content)))
-        all_templates = set(new_templates)
-        if len(new_templates) > 0:
-            for new_template_name in new_templates:
-                new_template = self.texenv.get_template(new_template_name)
-                # union of the sets
-                all_templates |= self.get_templates(new_template)
-        return all_templates
+    def parse_template(self, template):
+        """Return (variables, templates).
+
+        Argument:
+        - template: name of the template to parse.
+
+        Return values:
+        - variables: a dictionary of variables contained in 'template', NOT
+          recursively (included templates are not parsed).
+        - templates: list of included temlates, NOT recursively.
+        """
+
+        subvariables = {}
+        with codecs.open(
+                self.texenv.get_template(template).filename,
+                'r',
+                'utf-8'
+                ) as template_file:
+            content = template_file.read()
+            subtemplates = list(find_templates(self.texenv.parse(content)))
+            match = re.findall(VARIABLE_REGEXP, content)
+            if match:
+                for var in match:
+                    subvariables.update(json.loads(var))
+        return (subvariables, subtemplates)
 
     def render_tex(self, output, context):
         '''Render a template into a .tex file

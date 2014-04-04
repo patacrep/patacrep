@@ -162,7 +162,9 @@ def buildsongbook(
       - tex: build .tex file from templates;
       - pdf: compile .tex using pdflatex;
       - sbx: compile song and author indexes;
-      - clean: remove temporary files.
+      - clean: remove temporary files,
+      - any string beginning with a sharp sign (#): it is interpreted as a
+        command to run in a shell.
     - basename: basename of the songbook to be built.
     - interactive: in False, do not expect anything from stdin.
     """

@@ -183,8 +183,9 @@ class TexRenderer(object):
         """
 
         subvariables = {}
+        templatename = self.texenv.get_template(template).filename
         with codecs.open(
-                self.texenv.get_template(template).filename,
+                templatename,
                 'r',
                 'utf-8'
                 ) as template_file:
@@ -193,7 +194,21 @@ class TexRenderer(object):
             match = re.findall(VARIABLE_REGEXP, content)
             if match:
                 for var in match:
-                    subvariables.update(json.loads(var))
+                    try:
+                        subvariables.update(json.loads(var))
+                    except ValueError as exception:
+                        raise errors.TemplateError(
+                                exception,
+                                (
+                                    "Error while parsing json in file "
+                                    "{filename}. The json string was:"
+                                    "\n'''\n{jsonstring}\n'''"
+                                ).format(
+                                    filename=templatename,
+                                    jsonstring=var,
+                                    )
+                                )
+
         return (subvariables, subtemplates)
 
     def render_tex(self, output, context):

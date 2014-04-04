@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """Template for .tex generation settings and utilities"""
 
-from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, TemplateNotFound, nodes
+from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, \
+        TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
 import os
@@ -21,13 +22,20 @@ _LATEX_SUBS = (
 )
 
 class VariablesExtension(Extension):
+    """Extension to jinja2 to silently ignore variable block.
+
+    Instead, they are parsed by this module.
+    """
 
     tags = set(['variables'])
 
     def parse(self, parser):
         parser.stream.next()
 
-        parser.parse_statements(end_tokens=['name:endvariables'], drop_needle=True)
+        parser.parse_statements(
+                end_tokens=['name:endvariables'],
+                drop_needle=True,
+                )
 
         return nodes.Const("")
 

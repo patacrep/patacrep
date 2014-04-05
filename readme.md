@@ -40,8 +40,8 @@ Look for existing songbook files in <songbook-data>/books. For example:
 
 Install `python-stdeb`, then:
 
->    python setup.py --command-packages=stdeb.command bdist_deb
->    sudo dpkg -i deb_dist/python-songbook-core_<version>-1_all.deb
+>     python setup.py --command-packages=stdeb.command bdist_deb
+>     sudo dpkg -i deb_dist/python-songbook-core_<version>-1_all.deb
 
 # Documentation
 

@@ -41,31 +41,32 @@ class Songbook(object):
         # Default values: will be updated while parsing raw_songbook
         self.config = {
                 'template': "default.tex",
-                'titleprefixwords': [],
-                'authwords': {},
-                'lang': 'french',
+                'lang': 'english',
                 'sort': [u"by", u"album", u"@title"],
                 'content': None,
                 'datadir': os.path.abspath('.'),
                 }
         self.songslist = None
         self._parse(raw_songbook)
-        self._set_songs_default()
 
-    def _set_songs_default(self):
-        """Set the default values for the Song() class."""
-        Song.sort = self.config['sort']
-        Song.prefixes = self.config['titleprefixwords']
+    def _set_songs_default(self, config):
+        """Set the default values for the Song() class.
+
+        Argument:
+            - config : a dictionary containing the configuration
+        """
+        Song.sort = config['sort']
+        Song.prefixes = config['titleprefixwords']
         Song.authwords['after'] = [
                 re.compile(r"^.*%s\b(.*)" % after)
                 for after
-                in self.config['authwords']["after"]
+                in config['authwords']["after"]
                 ]
-        Song.authwords['ignore'] = self.config['authwords']['ignore']
+        Song.authwords['ignore'] = config['authwords']['ignore']
         Song.authwords['sep'] = [
                 re.compile(r"^(.*)%s (.*)$" % sep)
                 for sep in ([
-                    " %s" % sep for sep in self.config['authwords']["sep"]
+                    " %s" % sep for sep in config['authwords']["sep"]
                             ] + [','])
                 ]
 
@@ -112,11 +113,12 @@ class Songbook(object):
                 )
 
         context = renderer.get_variables()
-
         context.update(self.config)
         context['titleprefixkeys'] = ["after", "sep", "ignore"]
         context['songlist'] = self.songslist
         context['filename'] = output.name[:-4]
+
+        self._set_songs_default(context)
 
         renderer.render_tex(output, context)
 

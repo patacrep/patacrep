@@ -22,7 +22,7 @@ _LATEX_SUBS = (
     (re.compile(r'\.\.\.+'), r'\\ldots'),
 )
 
-VARIABLE_REGEXP = re.compile(r"""
+_VARIABLE_REGEXP = re.compile(r"""
     \(\*\ *variables\ *\*\)    # Match (* variables *)
     (                          # Match and capture the following:
     (?:                        # Start of non-capturing group, used to match a single character
@@ -41,23 +41,21 @@ VARIABLE_REGEXP = re.compile(r"""
     \(\*\ *endvariables\ *\*\) # until (* endvariables *) is matched.""",
     re.VERBOSE|re.DOTALL)
 
+
 class VariablesExtension(Extension):
     """Extension to jinja2 to silently ignore variable block.
-
     Instead, they are parsed by this module.
     """
-
     tags = set(['variables'])
 
     def parse(self, parser):
         parser.stream.next()
-
         parser.parse_statements(
                 end_tokens=['name:endvariables'],
                 drop_needle=True,
                 )
-
         return nodes.Const("")
+
 
 def _escape_tex(value):
     '''Escape TeX special characters'''
@@ -95,8 +93,8 @@ class TexRenderer(object):
         self.texenv.block_end_string = '*)'
         self.texenv.variable_start_string = '(('
         self.texenv.variable_end_string = '))'
-        self.texenv.comment_start_string = '(#'
-        self.texenv.comment_end_string = '#)'
+        self.texenv.comment_start_string = '(% comment %)'
+        self.texenv.comment_end_string = '(% endcomment %)'
         self.texenv.line_comment_prefix = '%!'
         self.texenv.filters['escape_tex'] = _escape_tex
         self.texenv.trim_blocks = True
@@ -191,7 +189,7 @@ class TexRenderer(object):
                 ) as template_file:
             content = template_file.read()
             subtemplates = list(find_templates(self.texenv.parse(content)))
-            match = re.findall(VARIABLE_REGEXP, content)
+            match = re.findall(_VARIABLE_REGEXP, content)
             if match:
                 for var in match:
                     try:

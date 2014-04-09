@@ -5,7 +5,6 @@
 
 import codecs
 import glob
-import logging
 import os.path
 import re
 import subprocess
@@ -61,7 +60,8 @@ class Songbook(object):
         self.songslist = None
         self._parse(raw_songbook)
 
-    def _set_songs_default(self, config):
+    @staticmethod
+    def _set_songs_default(config):
         """Set the default values for the Song() class.
 
         Argument:

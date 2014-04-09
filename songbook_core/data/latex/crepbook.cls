@@ -85,6 +85,9 @@
 
 % Start
 
+% Patch for Debian TeXLive 2012
+% A bug may produce corrupted PDF
+\pdfobjcompresslevel=0
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Multilanguage management
@@ -192,11 +195,11 @@
    {\rule{\textwidth}{1mm}}
 
    {\Huge \bfseries\boldmath\@title \par}
-       
+
    \if!\@subtitle!\else {\begin{flushright}\large \bfseries\boldmath
        \@subtitle \par \end{flushright}}
    \fi
-   
+
    {\rule{\textwidth}{1mm}}
 
  \end{center}%
@@ -455,7 +458,7 @@
   \renewcommand{\bar}{
     \draw[xshift=-0.5cm] (\value{tab-tempo},\value{tab-line}+1) --+(0,5);
   }
-  
+
   \hspace{-\parindent}
   \begin{tikzpicture}[
     single/.style={},

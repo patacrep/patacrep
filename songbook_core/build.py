@@ -142,10 +142,6 @@ class Songbook(object):
 class SongbookBuilder(object):
     """Provide methods to compile a songbook."""
 
-    # Representation of the .sb songbook configuration file.
-    songbook = {}
-    # Basename of the songbook to be built.
-    basename = None
     # if False, do not expect anything from stdin.
     interactive = False
     # if True, allow unsafe option, like adding the --shell-escape to pdflatex
@@ -157,8 +153,11 @@ class SongbookBuilder(object):
     _called_functions = {}
 
     def __init__(self, raw_songbook, basename, logger):
+        # Representation of the .sb songbook configuration file.
         self.songbook = Songbook(raw_songbook, basename)
+        # Basename of the songbook to be built.
         self.basename = basename
+        # logging object to use
         self.logger = logger
 
     def _run_once(self, function, *args, **kwargs):

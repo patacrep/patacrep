@@ -7,7 +7,7 @@ import codecs
 import glob
 import os.path
 import re
-import subprocess
+from subprocess import Popen, PIPE, call
 
 from songbook_core import __DATADIR__
 from songbook_core import errors
@@ -228,13 +228,6 @@ class SongbookBuilder(object):
     def build_pdf(self):
         """Build .pdf file from .tex file"""
         self._run_once(self._set_latex)
-        from subprocess import Popen, PIPE
-
-        #if self.logger:
-        #    out = self.logger.stream
-        #else:
-        #    out = None
-
         p = Popen(
                 ["pdflatex"] + self._pdflatex_options + [self.basename],
                 stdout=PIPE,
@@ -262,7 +255,7 @@ class SongbookBuilder(object):
     @staticmethod
     def build_custom(command):
         """Run a shell command"""
-        exit_code = subprocess.call(command, shell=True)
+        exit_code = call(command, shell=True)
         if exit_code:
             raise errors.StepCommandError(command, exit_code)
 

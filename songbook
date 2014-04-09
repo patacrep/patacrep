@@ -75,7 +75,7 @@ def main():
     """Main function:"""
 
     # Logging configuration
-    logging.basicConfig(name='songbook')
+    logging.basicConfig(name='songbook', level=logging.INFO)
     logger = logging.getLogger('songbook')
 
     # set script locale to match user's

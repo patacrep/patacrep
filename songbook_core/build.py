@@ -228,9 +228,25 @@ class SongbookBuilder(object):
     def build_pdf(self):
         """Build .pdf file from .tex file"""
         self._run_once(self._set_latex)
-        if subprocess.call(
-                ["pdflatex"] + self._pdflatex_options + [self.basename]
-                ):
+        from subprocess import Popen, PIPE
+
+        #if self.logger:
+        #    out = self.logger.stream
+        #else:
+        #    out = None
+
+        p = Popen(
+                ["pdflatex"] + self._pdflatex_options + [self.basename],
+                stdout=PIPE,
+                stderr=PIPE)
+        log = ''
+        line = p.stdout.readline()
+        while line:
+            log += line
+            line = p.stdout.readline()
+        self.logger.info(log)
+
+        if p.returncode:
             raise errors.LatexCompilationError(self.basename)
 
     def build_sbx(self):

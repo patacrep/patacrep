@@ -152,7 +152,7 @@ class SongbookBuilder(object):
     # are function; values are return values of functions.
     _called_functions = {}
 
-    def __init__(self, raw_songbook, basename, logger):
+    def __init__(self, raw_songbook, basename, logger=None):
         # Representation of the .sb songbook configuration file.
         self.songbook = Songbook(raw_songbook, basename)
         # Basename of the songbook to be built.
@@ -237,7 +237,8 @@ class SongbookBuilder(object):
         """Make index"""
         sxd_files = glob.glob("%s_*.sxd" % self.basename)
         for sxd_file in sxd_files:
-            self.logger.info("processing " + sxd_file)
+            if self.logger:
+                self.logger.info("processing " + sxd_file)
             idx = process_sxd(sxd_file)
             with open(sxd_file[:-3] + "sbx", "w") as index_file:
                 index_file.write(idx.entries_to_str().encode('utf8'))

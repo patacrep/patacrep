@@ -58,7 +58,7 @@ class Songbook(object):
                 'datadir': os.path.abspath('.'),
                 }
         self.songslist = None
-        self._parse(raw_songbook)
+        self._parse_raw(raw_songbook)
 
     @staticmethod
     def _set_songs_default(config):
@@ -82,7 +82,7 @@ class Songbook(object):
                             ] + [','])
                 ]
 
-    def _parse(self, raw_songbook):
+    def _parse_raw(self, raw_songbook):
         """Parse raw_songbook.
 
         The principle is: some special keys have their value processed; others
@@ -90,7 +90,7 @@ class Songbook(object):
         """
         self.config.update(raw_songbook)
         self.config['datadir'] = os.path.abspath(self.config['datadir'])
-        ### Some post-processing
+
         # Compute song list
         if self.config['content'] is None:
             self.config['content'] = [
@@ -104,13 +104,16 @@ class Songbook(object):
                                 '*.sg',
                                 )
                     ]
-        self.songslist = SongsList(self.config['datadir'])
-        self.songslist.append_list(self.config['content'])
 
         # Ensure self.config['authwords'] contains all entries
         for (key, value) in DEFAULT_AUTHWORDS.items():
             if key not in self.config['authwords']:
                 self.config['authwords'][key] = value
+
+    def _parse_songs(self):
+        """Parse songs included in songbook."""
+        self.songslist = SongsList(self.config['datadir'])
+        self.songslist.append_list(self.config['content'])
 
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
@@ -118,6 +121,7 @@ class Songbook(object):
         Arguments:
         - output: a file object, in which the file will be written.
         """
+        self._parse_songs()
         renderer = TexRenderer(
                 self.config['template'],
                 self.config['datadir'],
@@ -217,7 +221,6 @@ class SongbookBuilder(object):
 
     def build_tex(self):
         """Build .tex file from templates"""
-        self._run_once(self._set_latex)
         with codecs.open(
                 "{}.tex".format(self.basename), 'w', 'utf-8',
                 ) as output:
@@ -225,6 +228,7 @@ class SongbookBuilder(object):
 
     def build_pdf(self):
         """Build .pdf file from .tex file"""
+        self._run_once(self._set_latex)
         if subprocess.call(
                 ["pdflatex"] + self._pdflatex_options + [self.basename]
                 ):

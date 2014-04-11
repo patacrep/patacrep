@@ -241,6 +241,8 @@ class SongbookBuilder(object):
             line = p.stdout.readline()
         LOGGER.debug(log)
 
+        p.wait()
+
         if p.returncode:
             raise errors.LatexCompilationError(self.basename)
 

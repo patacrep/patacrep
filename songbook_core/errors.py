@@ -13,7 +13,7 @@ class SongbookError(Exception):
 class TemplateError(SongbookError):
     """Error during template generation"""
 
-    def __init__(self, original, message = None):
+    def __init__(self, original, message=None):
         super(TemplateError, self).__init__()
         self.original = original
         self.message = message

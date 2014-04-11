@@ -12,7 +12,7 @@ import os.path
 import textwrap
 import sys
 
-from songbook_core.build import buildsongbook, DEFAULT_STEPS
+from songbook_core.build import SongbookBuilder, DEFAULT_STEPS
 from songbook_core import __STR_VERSION__
 from songbook_core import errors
 
@@ -75,7 +75,7 @@ def main():
     """Main function:"""
 
     # Logging configuration
-    logging.basicConfig(name='songbook')
+    logging.basicConfig(name='songbook', level=logging.INFO)
     logger = logging.getLogger('songbook')
 
     # set script locale to match user's
@@ -105,13 +105,11 @@ def main():
         songbook['datadir'] = os.path.dirname(songbook_path)
 
     try:
-        buildsongbook(
-                songbook,
-                basename,
-                steps=options.steps,
-                interactive=True,
-                logger=logger,
-                )
+        sb_builder = SongbookBuilder(songbook, basename, logger=logger)
+        sb_builder.interactive = True
+        sb_builder.unsafe = True
+
+        sb_builder.build_steps(options.steps)
     except errors.SongbookError as error:
         logger.error(error)
         sys.exit(1)

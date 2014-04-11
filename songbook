@@ -76,7 +76,7 @@ def main():
 
     # Logging configuration
     logging.basicConfig(name='songbook', level=logging.INFO)
-    logger = logging.getLogger('songbook')
+    logger = logging.getLogger(__name__)
 
     # set script locale to match user's
     try:
@@ -105,7 +105,7 @@ def main():
         songbook['datadir'] = os.path.dirname(songbook_path)
 
     try:
-        sb_builder = SongbookBuilder(songbook, basename, logger=logger)
+        sb_builder = SongbookBuilder(songbook, basename)
         sb_builder.interactive = True
         sb_builder.unsafe = True
 

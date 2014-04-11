@@ -5,6 +5,7 @@
 
 import codecs
 import glob
+import logging
 import os.path
 import re
 from subprocess import Popen, PIPE, call
@@ -16,6 +17,7 @@ from songbook_core.index import process_sxd
 from songbook_core.songs import Song, SongsList
 from songbook_core.templates import TexRenderer
 
+LOGGER = logging.getLogger(__name__)
 EOL = "\n"
 DEFAULT_AUTHWORDS = {
         "after": ["by"],
@@ -152,13 +154,11 @@ class SongbookBuilder(object):
     # are function; values are return values of functions.
     _called_functions = {}
 
-    def __init__(self, raw_songbook, basename, logger=None):
+    def __init__(self, raw_songbook, basename):
         # Representation of the .sb songbook configuration file.
         self.songbook = Songbook(raw_songbook, basename)
         # Basename of the songbook to be built.
         self.basename = basename
-        # logging object to use
-        self.logger = logger
 
     def _run_once(self, function, *args, **kwargs):
         """Run function if it has not been run yet.
@@ -237,7 +237,7 @@ class SongbookBuilder(object):
         while line:
             log += line
             line = p.stdout.readline()
-        self.logger.info(log)
+        LOGGER.info(log)
 
         if p.returncode:
             raise errors.LatexCompilationError(self.basename)
@@ -246,8 +246,7 @@ class SongbookBuilder(object):
         """Make index"""
         sxd_files = glob.glob("%s_*.sxd" % self.basename)
         for sxd_file in sxd_files:
-            if self.logger:
-                self.logger.info("processing " + sxd_file)
+            LOGGER.info("processing " + sxd_file)
             idx = process_sxd(sxd_file)
             with open(sxd_file[:-3] + "sbx", "w") as index_file:
                 index_file.write(idx.entries_to_str().encode('utf8'))

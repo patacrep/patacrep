@@ -103,6 +103,7 @@ class SongsList(object):
         pour en extraire et traiter certaines information (titre, langue,
         album, etc.).
         """
+        LOGGER.debug('Parsing file "{}"…'.format(filename))
         # Exécution de PlasTeX
         data = parsetex(filename)
 

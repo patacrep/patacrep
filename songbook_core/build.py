@@ -220,6 +220,7 @@ class SongbookBuilder(object):
 
     def build_tex(self):
         """Build .tex file from templates"""
+        LOGGER.info("Building '{}.tex'…".format(self.basename))
         with codecs.open(
                 "{}.tex".format(self.basename), 'w', 'utf-8',
                 ) as output:
@@ -227,6 +228,7 @@ class SongbookBuilder(object):
 
     def build_pdf(self):
         """Build .pdf file from .tex file"""
+        LOGGER.info("Building '{}.pdf'…".format(self.basename))
         self._run_once(self._set_latex)
         p = Popen(
                 ["pdflatex"] + self._pdflatex_options + [self.basename],
@@ -237,16 +239,17 @@ class SongbookBuilder(object):
         while line:
             log += line
             line = p.stdout.readline()
-        LOGGER.info(log)
+        LOGGER.debug(log)
 
         if p.returncode:
             raise errors.LatexCompilationError(self.basename)
 
     def build_sbx(self):
         """Make index"""
+        LOGGER.info("Building indexes…")
         sxd_files = glob.glob("%s_*.sxd" % self.basename)
         for sxd_file in sxd_files:
-            LOGGER.info("processing " + sxd_file)
+            LOGGER.debug("Processing " + sxd_file)
             idx = process_sxd(sxd_file)
             with open(sxd_file[:-3] + "sbx", "w") as index_file:
                 index_file.write(idx.entries_to_str().encode('utf8'))
@@ -254,6 +257,7 @@ class SongbookBuilder(object):
     @staticmethod
     def build_custom(command):
         """Run a shell command"""
+        LOGGER.info("Running '{}'…".format(command))
         exit_code = call(command, shell=True)
         if exit_code:
             raise errors.StepCommandError(command, exit_code)
@@ -263,6 +267,7 @@ class SongbookBuilder(object):
 
         Depending of the LaTeX modules used in the template, there may be others
         that are not deleted by this function."""
+        LOGGER.info("Cleaning…")
         for ext in GENERATED_EXTENSIONS:
             if os.path.isfile(self.basename + ext):
                 try:

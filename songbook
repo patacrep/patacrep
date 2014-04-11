@@ -114,7 +114,6 @@ def main():
 
     try:
         sb_builder = SongbookBuilder(songbook, basename)
-        sb_builder.interactive = True
         sb_builder.unsafe = True
 
         sb_builder.build_steps(options.steps)

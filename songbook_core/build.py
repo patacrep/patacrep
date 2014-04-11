@@ -212,7 +212,7 @@ class SongbookBuilder(object):
                 self.build_sbx()
             elif step == 'clean':
                 self.clean()
-            elif step.startswith("%"):
+            elif step.startswith("#"):
                 self.build_custom(step[1:])
             else:
                 # Unknown step name

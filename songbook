@@ -36,6 +36,7 @@ class ParseStepsAction(argparse.Action):
                 )
 
 class VerboseAction(argparse.Action):
+    """Set verbosity level with option --verbose."""
     def __call__(self, *_args, **_kwargs):
         LOGGER.setLevel(logging.DEBUG)
 

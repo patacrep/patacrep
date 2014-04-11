@@ -230,20 +230,20 @@ class SongbookBuilder(object):
         """Build .pdf file from .tex file"""
         LOGGER.info("Building '{}.pdf'…".format(self.basename))
         self._run_once(self._set_latex)
-        p = Popen(
+        process = Popen(
                 ["pdflatex"] + self._pdflatex_options + [self.basename],
                 stdout=PIPE,
                 stderr=PIPE)
         log = ''
-        line = p.stdout.readline()
+        line = process.stdout.readline()
         while line:
             log += line
-            line = p.stdout.readline()
+            line = process.stdout.readline()
         LOGGER.debug(log)
 
-        p.wait()
+        process.wait()
 
-        if p.returncode:
+        if process.returncode:
             raise errors.LatexCompilationError(self.basename)
 
     def build_sbx(self):

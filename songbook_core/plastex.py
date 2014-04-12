@@ -65,7 +65,7 @@ class SongParser(object):
     def parse(cls, filename):
         """Parse a TeX file, and return its plasTeX representation."""
         tex = cls.create_tex()
-        tex.input(codecs.open(filename, 'r+', 'utf-8', 'replace'))
+        tex.input(codecs.open(filename, 'r', 'utf-8', 'replace'))
         return tex.parse()
 
 

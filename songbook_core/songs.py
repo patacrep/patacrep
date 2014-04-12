@@ -8,10 +8,12 @@ import glob
 import locale
 import os.path
 import re
+import logging
 
 from songbook_core.authors import processauthors
 from songbook_core.plastex import parsetex
 
+LOGGER = logging.getLogger(__name__)
 
 # pylint: disable=too-few-public-methods
 class Song(object):
@@ -101,6 +103,7 @@ class SongsList(object):
         pour en extraire et traiter certaines information (titre, langue,
         album, etc.).
         """
+        LOGGER.debug('Parsing file "{}"…'.format(filename))
         # Exécution de PlasTeX
         data = parsetex(filename)
 
@@ -122,8 +125,14 @@ class SongsList(object):
         le module glob.
         """
         for regexp in filelist:
+            before = len(self.songs)
             for filename in glob.iglob(os.path.join(self._songdir, regexp)):
                 self.append(filename)
+            if len(self.songs) == before:
+                # No songs were added
+                LOGGER.warning(
+                        "Expression '{}' did not match any file".format(regexp)
+                        )
 
     def languages(self):
         """Renvoie la liste des langues utilisées par les chansons"""

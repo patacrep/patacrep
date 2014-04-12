@@ -12,10 +12,13 @@ import os.path
 import textwrap
 import sys
 
-from songbook_core.build import buildsongbook, DEFAULT_STEPS
+from songbook_core.build import SongbookBuilder, DEFAULT_STEPS
 from songbook_core import __STR_VERSION__
 from songbook_core import errors
 
+# Logging configuration
+logging.basicConfig(level=logging.INFO)
+LOGGER = logging.getLogger()
 
 # pylint: disable=too-few-public-methods
 class ParseStepsAction(argparse.Action):
@@ -32,6 +35,11 @@ class ParseStepsAction(argparse.Action):
                 ),
                 )
 
+class VerboseAction(argparse.Action):
+    """Set verbosity level with option --verbose."""
+    def __call__(self, *_args, **_kwargs):
+        LOGGER.setLevel(logging.DEBUG)
+
 def argument_parser(args):
     """Parse argumnts"""
     parser = argparse.ArgumentParser(description="A song book compiler")
@@ -47,6 +55,11 @@ def argument_parser(args):
             help=textwrap.dedent("""\
                     Data location. Expected (not necessarily required)
                     subdirectories are 'songs', 'img', 'latex', 'templates'.
+            """))
+
+    parser.add_argument('--verbose', '-v', nargs=0, action=VerboseAction,
+            help=textwrap.dedent("""\
+                    Show details about the compilation process.
             """))
 
     parser.add_argument('--steps', '-s', nargs=1, type=str,
@@ -73,10 +86,6 @@ def argument_parser(args):
 
 def main():
     """Main function:"""
-
-    # Logging configuration
-    logging.basicConfig(name='songbook')
-    logger = logging.getLogger('songbook')
 
     # set script locale to match user's
     try:
@@ -105,15 +114,15 @@ def main():
         songbook['datadir'] = os.path.dirname(songbook_path)
 
     try:
-        buildsongbook(
-                songbook,
-                basename,
-                steps=options.steps,
-                interactive=True,
-                logger=logger,
-                )
+        sb_builder = SongbookBuilder(songbook, basename)
+        sb_builder.unsafe = True
+
+        sb_builder.build_steps(options.steps)
     except errors.SongbookError as error:
-        logger.error(error)
+        LOGGER.error(error)
+        LOGGER.error(
+                "Running again with option '-v' may give more information."
+                )
         sys.exit(1)
 
     sys.exit(0)

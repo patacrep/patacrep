@@ -253,8 +253,8 @@ class SongbookBuilder(object):
         for sxd_file in sxd_files:
             LOGGER.debug("Processing " + sxd_file)
             idx = process_sxd(sxd_file)
-            with open(sxd_file[:-3] + "sbx", "w") as index_file:
-                index_file.write(idx.entries_to_str().encode('utf8'))
+            with codecs.open(sxd_file[:-3] + "sbx", "w", "utf-8") as index_file:
+                index_file.write(idx.entries_to_str())
 
     @staticmethod
     def build_custom(command):

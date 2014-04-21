@@ -38,7 +38,9 @@ def simpleparse(text):
     """Parse a simple LaTeX string.
     """
     tex = TeX()
-    tex.input(text.decode('utf8'))
+    if not isinstance(text, unicode):
+        text = text.decode("utf-8")
+    tex.input(text)
     doc = tex.parse()
     return process_unbr_spaces(doc.textContent)
 

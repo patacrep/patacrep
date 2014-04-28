@@ -40,7 +40,7 @@ def process_sxd(filename):
     """
     data = []
     with codecs.open(filename, 'r', 'utf-8') as index_file:
-	for line in index_file:
+        for line in index_file:
             data.append(line.strip())
 
     i = 1
@@ -148,10 +148,10 @@ class Index(object):
                                   "{} ({})".format(
                                         match.group(2) + match.group(3),
                                         match.group(1)
-						                            ),
+                                        ),
                                     number,
-				                    link
-				                    )
+                                    link
+                                    )
                     return
             self._raw_add(key, number, link)
 
@@ -165,13 +165,13 @@ class Index(object):
     @staticmethod
     def ref_to_str(ref):
         """Return the LaTeX code corresponding to the reference."""
-	return r'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
+        return r'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
 
     def entry_to_str(self, key, entry):
         """Return the LaTeX code corresponding to the entry."""
-	if not isinstance(key, unicode):
-              key = unicode(key, "UTF-8")
-	return unicode(ur'\idxentry{{{0}}}{{{1}}}' + EOL).format(
+        if not isinstance(key, unicode):
+            key = unicode(key, "UTF-8")
+        return unicode(ur'\idxentry{{{0}}}{{{1}}}' + EOL).format(
                 key,
                 ur'\\'.join([self.ref_to_str(ref) for ref in entry]),
                 )

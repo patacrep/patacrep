@@ -59,6 +59,7 @@ class SongParser(object):
         tex.ownerDocument.context.loadBaseMacros()
         sys.path.append(os.path.dirname(__file__))
         tex.ownerDocument.context.loadPackage(tex, "plastex_patchedbabel")
+        tex.ownerDocument.context.loadPackage(tex, "plastex_chord")
         tex.ownerDocument.context.loadPackage(tex, "plastex_songs")
         sys.path.pop()
         return tex

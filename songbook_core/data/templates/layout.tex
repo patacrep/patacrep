@@ -70,12 +70,13 @@
 (* endvariables *)
 
 (* block documentclass *)
-\documentclass[((booktype)),
-    (* for option in bookoptions *)((option)),
-    (* endfor *)
-    (* for instrument in instruments *)((instrument)),
-    (* endfor *)
-    ((mainfontsize))pt]{crepbook}
+\documentclass[((mainfontsize))pt]{article}
+
+\usepackage[((booktype)),
+            (* for option in bookoptions *)((option)),
+            (* endfor *)
+            (* for instrument in instruments *)((instrument)),
+            (* endfor *)]{crepbook}
 (* endblock *)
 
 (* block songbookpreambule *)

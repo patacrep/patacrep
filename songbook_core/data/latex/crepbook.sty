@@ -1,0 +1,170 @@
+% Crepbook Package -- version 0.1 for LaTeX2e
+%
+% This package is intend to use with the songbook package.
+% It defines some layout for automatic songbook generation.
+% See http://github.com/patacrep/songbook-core/
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{crepbook}[2014/04/13 Crepbook Package, version 0.1]
+
+\RequirePackage{SongbookUtils}
+
+\newif{\iffancycapo}
+\DeclareOption{fancy-capo}{\iffancycapotrue}
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{SongbookUtils}}
+
+
+\ProcessOptions\relax
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multilanguage management
+
+\AtBeginDocument{
+    % Default names (english)
+    \def\labelversionname{Version:}
+    \def\labeldatename{dDate:}
+    \def\labelauthorname{aAuthors:}
+    \def\labelwebname{Web:}
+    \def\labelmailname{Email:}
+    
+    \IfStrEq{\mainlanguage}{french}{
+        % French names
+        \def\labelversionname{Version :}
+        \def\labeldatename{Date :}
+        \def\labelauthorname{Auteurs :}
+        \def\labelwebname{Web :}
+        \def\labelmailname{Mail :}
+    }{}
+}
+
+\def\andname{and}
+\def\lastandname{\unskip, and}
+
+% End of multilanguage management
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Title page
+\def\clearheadinfo{
+    \gdef\@author{No Author Given}%
+    \gdef\@title{No Title Given}%
+    \gdef\@subtitle{}
+    \gdef\@version{}
+    \gdef\@web{}
+    \gdef\@mail{}
+    \gdef\@email{}
+    \gdef\@picture{}
+    \gdef\@picturecopyright{}
+}
+
+\def\subtitle#1{\gdef\@subtitle{#1}}
+\def\version#1{\gdef\@version{#1}}
+\def\web#1{\gdef\@web{#1}}
+\def\mail#1{\gdef\@mail{#1}}
+\def\email#1{\gdef\@email{#1}}
+\def\picture#1{\gdef\@picture{#1}}
+\def\picturecopyright#1{\gdef\@picturecopyright{#1}}
+\def\footer#1{\gdef\@footer{#1}}
+\def\lang#1{\gdef\mainlanguage{#1}}
+\clearheadinfo
+
+\def\maketitle{
+    \@maketitle
+    \clearheadinfo
+}
+
+
+\newcounter{@inst}
+\newcounter{@auth}
+\newcounter{auco}
+
+\def\@titlefont{\Huge\bfseries\boldmath}
+\def\@subtitlefont{\large\bfseries\boldmath}
+
+\def\@maketitle{
+    \begin{titlepage}
+    \thispagestyle{empty}
+%    \markboth{}{}%
+%    \def\lastand{\ifnum\value{@inst}=2\relax
+%        \unskip{} \andname\
+%        \else
+%        \unskip \lastandname\
+%        \fi}%
+%    \def\and{\stepcounter{@auth}\relax
+%        \ifnum\value{@auth}=\value{@inst}%
+%        \lastand
+%        \else
+%        \unskip,
+%        \fi}%
+    \begin{center}%
+        {\rule{\textwidth}{1mm}}
+        {\@titlefont\@title\par}
+        \if!\@subtitle!\else 
+            {\hfil\@subtitlefont\@subtitle\par}
+        \fi
+        {\rule{\textwidth}{1mm}}
+    \end{center}%
+    
+    \vfil
+    
+    \begin{flushleft}
+        \begin{tabular}{l l}
+            \if!\@version!\else{\textbf{\labelversionname}} & \@version \\ \fi
+            \if!\@date!\else{\textbf{\labeldatename}} &   \@date \\ \fi
+            \if!\@author!\else{\textbf{\labelauthorname}} & \@author \\ \fi
+            \if!\@web!\else{\textbf{\labelwebname}} &  \url{\@web} \\ \fi
+            \if!\@mail!\else{\textbf{\labelmailname}} &  \url{\@mail} \\ \fi
+        \end{tabular}
+    \end{flushleft}
+    
+    \vfil
+    
+    \begin{center}
+        \includegraphics[keepaspectratio=true, width=12cm, height=12cm]{\@picture}
+        {\hfil \small \@picturecopyright}
+    \end{center}
+    
+    \@footer
+    \end{titlepage}
+}
+
+% Fancy capo
+\iffancycapo %
+    \newlength{\capoheight}
+    \setlength{\capoheight}{1.5cm}
+    \renewcommand\capo[1]{%
+    \iftranscapos%
+        \transpose{#1}%
+    \fi%
+    \mbox{%
+        \includegraphics[height=\capoheight]{capodastre}%
+        \put(-22,8){\Large #1}
+    }%
+\fi
+
+% Fonts definitions
+\def\chordfont#1{\gdef\@chordfont{#1}}
+\def\@chordfont{\small\it}
+
+\renewcommand{\idxtitlefont}{\sffamily\bfseries}
+\renewcommand{\idxauthfont}{\sffamily\bfseries}
+\renewcommand{\idxheadfont}{\sffamily\it\LARGE}
+\renewcommand{\idxrefsfont}{\bfseries}
+
+
+% Configuration of the songs package
+\titleprefixword{}
+\renewcommand{\stitlefont}{\LARGE\bf}
+\renewcommand{\printchord}[1]{\@chordfont #1}
+\renewcommand{\chorusfont}{\it}
+\renewcommand{\lyricfont}{\normalfont\normalsize}
+\renewcommand{\showauthors}{%
+    \hbox{\normalsize\songauthors}%
+}
+
+
+% color used to shade song numbers.
+%\definecolor{SongbookShade}{HTML}{d1e4ae}
+
+
+\endinput

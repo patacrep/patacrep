@@ -232,8 +232,11 @@ class SongbookBuilder(object):
         self._run_once(self._set_latex)
         process = Popen(
                 ["pdflatex"] + self._pdflatex_options + [self.basename],
+                stdin=PIPE,
                 stdout=PIPE,
                 stderr=PIPE)
+        if not self.interactive:
+            process.stdin.close()
         log = ''
         line = process.stdout.readline()
         while line:

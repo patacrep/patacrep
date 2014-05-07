@@ -69,7 +69,7 @@
 \iflyric
     \tabsfalse %
     \lilypondfalse%
-    \nodiagramtrue%
+    \diagramfalse%
     \picturesfalse%
     \renewcommand{\colbotglue}{0pt plus .5\textheight minus 0pt}%
 \fi
@@ -180,35 +180,35 @@
 \let\gtab@Original\gtab
 \newcommand{\gtab@Hidden}[2]{}%
 
-\ifnodiagram%
-\renewcommand{\gtab}{\@ifstar
-    \gtab@Hidden%
-    \gtab@Hidden%
-}
-\renewcommand{\utab}{\@ifstar
-    \utab@Hidden%
-    \utab@Hidden%
-}
+\ifdiagram%
+    \ifimportantdiagramonly%
+    \renewcommand{\gtab}{\@ifstar
+                        \gtab@Original%
+                        \gtab@Hidden%
+    }
+    \renewcommand{\utab}{\@ifstar
+                        \utab@Original%
+                        \utab@Hidden%
+    }
+    \else%
+    \renewcommand{\gtab}{\@ifstar
+                        \gtab@Original%
+                        \gtab@Original%
+                        }
+    \renewcommand{\utab}{\@ifstar
+                        \utab@Original%
+                        \utab@Original%
+                        }
+    \fi%
 \else%
-\ifimportantdiagramonly%
-\renewcommand{\gtab}{\@ifstar
-    \gtab@Original%
-    \gtab@Hidden%
-}
-\renewcommand{\utab}{\@ifstar
-    \utab@Original%
-    \utab@Hidden%
-}
-\else%
-\renewcommand{\gtab}{\@ifstar
-    \gtab@Original%
-    \gtab@Original%
-}
-\renewcommand{\utab}{\@ifstar
-    \utab@Original%
-    \utab@Original%
-}
-\fi%
+    \renewcommand{\gtab}{\@ifstar
+                        \gtab@Hidden%
+                        \gtab@Hidden%
+                        }
+    \renewcommand{\utab}{\@ifstar
+                         \utab@Hidden%
+                         \utab@Hidden%
+                        }
 \fi%
 
 \ifguitar%
@@ -330,8 +330,9 @@
 }
 
 \newenvironment{repeatedchords}{%
-    \ifnorepeatchords%
-    \CB@chordshidden%
+    \ifrepeatchords%
+    \else%
+        \CB@chordshidden%
     \fi
 }{}%
 
@@ -357,7 +358,7 @@
     \fi%
 }%
 
-\iftab
+\iftabs
     \RequirePackage{tabs}
 \fi
 

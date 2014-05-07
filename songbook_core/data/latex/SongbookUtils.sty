@@ -23,6 +23,8 @@
 \RequirePackage{xstring}
 \RequirePackage{framed}
 \RequirePackage{currfile}
+\RequirePackage{ifthen}
+\RequirePackage{tikz}
 
 \newif{\iftabs}
 \DeclareOption{tabs}{\tabstrue}
@@ -336,30 +338,55 @@
     \fi
 }{}%
 
-\newenvironment{bridge}{%
+
+% Use a new framed command for bridges
+\renewcommand{\FrameCommand}[1]{
+  \begin{tikzpicture}
+    \node[rectangle] (rect) {
+      \begin{minipage}{.8\textwidth}
+        #1
+      \end{minipage}
+    };
+    \draw[very thick, dashed] (rect.north west) -- (rect.south west);
+  \end{tikzpicture}
+}
+\newenvironment{bridge}
+{%
     \begin{framed}
-        \vspace{-.4cm}
-        \begin{verse*}
-        }{
+    \vspace{-.4cm}
+    \begin{verse*}
+}
+{%
     \end{verse*}
     \vspace{-.2cm}
-\end{framed}
+    \end{framed}
 }
 
 \def\removefirstch@r#1{}
 \newcommand{\transposition}[1]{%
-    \ifnorepeatchords%
+    \ifrepeatchords%
+    \transpose{#1}
+    \else%
     \musicnote{%
         \transpositionname~
         \ifthenelse{#1>0}{#1$\Uparrow$}{\removefirstch@r#1$\Downarrow$}%
     }%
-    \else%
-    \transpose{#1}
     \fi%
 }%
 
 \iftabs
     \RequirePackage{tabs}
+\else
+    \RequirePackage{verbatim}
+    \newenvironment{tab}{\comment}{\endcomment}
 \fi
+
+\let\@textnoteold\textnote
+\renewcommand{\textnote}[2][]{%
+  \vspace{.1cm}
+  \IfStrEq{}{#1}{\@textnoteold{#2}}{
+    \iflanguage{#1}{\@textnoteold{#2}}{}
+  }
+}
 
 \endinput

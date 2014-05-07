@@ -40,32 +40,35 @@
 \def\andname{and}
 \def\lastandname{\unskip, and}
 
+
+\def\lang#1{\def\mainlanguage{#1}}
+
 % End of multilanguage management
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 % Title page
+\long\def\subtitle#1{\long\def\@subtitle{#1}}
+\def\version#1{\def\@version{#1}}
+\def\web#1{\def\@web{#1}}
+\def\mail#1{\def\@mail{#1}}
+\def\email#1{\def\@email{#1}}
+\def\picture#1{\def\@picture{#1}}
+\def\picturecopyright#1{\def\@picturecopyright{#1}}
+\def\footer#1{\def\@footer{#1}}
+
+
 \def\clearheadinfo{
-    \gdef\@author{No Author Given}%
-    \gdef\@title{No Title Given}%
-    \gdef\@subtitle{}
-    \gdef\@version{}
-    \gdef\@web{}
-    \gdef\@mail{}
-    \gdef\@email{}
-    \gdef\@picture{}
-    \gdef\@picturecopyright{}
+    \author{No Author Given}%
+    \title{No Title Given}%
+    \subtitle{}%
+    \version{}%
+    \web{}%
+    \mail{}%
+    \email{}%
+    \picture{}%
+    \picturecopyright{}%
 }
 
-\def\subtitle#1{\gdef\@subtitle{#1}}
-\def\version#1{\gdef\@version{#1}}
-\def\web#1{\gdef\@web{#1}}
-\def\mail#1{\gdef\@mail{#1}}
-\def\email#1{\gdef\@email{#1}}
-\def\picture#1{\gdef\@picture{#1}}
-\def\picturecopyright#1{\gdef\@picturecopyright{#1}}
-\def\footer#1{\gdef\@footer{#1}}
-\def\lang#1{\gdef\mainlanguage{#1}}
 \clearheadinfo
 
 \def\maketitle{
@@ -83,48 +86,31 @@
 
 \def\@maketitle{
     \begin{titlepage}
-    \thispagestyle{empty}
-%    \markboth{}{}%
-%    \def\lastand{\ifnum\value{@inst}=2\relax
-%        \unskip{} \andname\
-%        \else
-%        \unskip \lastandname\
-%        \fi}%
-%    \def\and{\stepcounter{@auth}\relax
-%        \ifnum\value{@auth}=\value{@inst}%
-%        \lastand
-%        \else
-%        \unskip,
-%        \fi}%
-    \begin{center}%
-        {\rule{\textwidth}{1mm}}
-        {\@titlefont\@title\par}
-        \if!\@subtitle!\else 
-            {\hfil\@subtitlefont\@subtitle\par}
-        \fi
-        {\rule{\textwidth}{1mm}}
-    \end{center}%
-    
-    \vfil
-    
-    \begin{flushleft}
-        \begin{tabular}{l l}
-            \if!\@version!\else{\textbf{\labelversionname}} & \@version \\ \fi
-            \if!\@date!\else{\textbf{\labeldatename}} &   \@date \\ \fi
-            \if!\@author!\else{\textbf{\labelauthorname}} & \@author \\ \fi
-            \if!\@web!\else{\textbf{\labelwebname}} &  \url{\@web} \\ \fi
-            \if!\@mail!\else{\textbf{\labelmailname}} &  \url{\@mail} \\ \fi
-        \end{tabular}
-    \end{flushleft}
-    
-    \vfil
-    
-    \begin{center}
-        \includegraphics[keepaspectratio=true, width=12cm, height=12cm]{\@picture}
-        {\hfil \small \@picturecopyright}
-    \end{center}
-    
-    \@footer
+        \thispagestyle{empty}
+        \hfil%
+            {\rule{\textwidth}{1mm}}
+            {\@titlefont\@title\par}
+            \if!\@subtitle!\else 
+                {\hfil\@subtitlefont\@subtitle\par}
+            \fi
+            {\rule{\textwidth}{1mm}}
+        \hfil%
+        \vfil
+        \begin{flushleft}
+            \begin{tabular}{l l}
+                \if!\@version!\else{\textbf{\labelversionname}} & \@version \\ \fi
+                \if!\@date!\else{\textbf{\labeldatename}} &   \@date \\ \fi
+                \if!\@author!\else{\textbf{\labelauthorname}} & \@author \\ \fi
+                \if!\@web!\else{\textbf{\labelwebname}} &  \url{\@web} \\ \fi
+                \if!\@mail!\else{\textbf{\labelmailname}} &  \url{\@mail} \\ \fi
+            \end{tabular}
+        \end{flushleft}
+        \vfil
+        \begin{center}
+            \includegraphics[keepaspectratio=true, width=12cm, height=12cm]{\@picture}
+            {\hfil \small \@picturecopyright}
+        \end{center}
+        \@footer
     \end{titlepage}
 }
 
@@ -161,10 +147,5 @@
 \renewcommand{\showauthors}{%
     \hbox{\normalsize\songauthors}%
 }
-
-
-% color used to shade song numbers.
-%\definecolor{SongbookShade}{HTML}{d1e4ae}
-
 
 \endinput

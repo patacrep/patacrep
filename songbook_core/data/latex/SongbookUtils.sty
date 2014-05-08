@@ -6,8 +6,6 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{SongbookUtils}[2014/04/13 Songbook Package, version 0.1]
 
-
-
 \RequirePackage{graphicx,xcolor} %
 \RequirePackage{epstopdf} %
 \RequirePackage{songs} %
@@ -28,38 +26,30 @@
 
 \newif{\iftabs}
 \DeclareOption{tabs}{\tabstrue}
-%\DeclareOption{notabs}{\tabsfalse} % This is the default.
 
 \newif{\iflilypond}
 \DeclareOption{lilypond}{\lilypondtrue}
-%\DeclareOption{nolilypond}{\lilypondfalse}
 
 \newif{\iflilypondauto}
 \DeclareOption{lilypond}{\lilypondautotrue\lilypondtrue}
 
 \newif{\ifdiagram}
 \DeclareOption{diagram}{\diagramtrue}
-%\DeclareOption{nodiagram}{\diagramfalse}
-
 
 \newif{\ifimportantdiagramonly}
 \DeclareOption{importantdiagramonly}{\importantdiagramonlytrue\diagramtrue}
 
 \newif{\ifpictures}
 \DeclareOption{pictures}{\picturestrue}
-%\DeclareOption{nopictures}{\picturesfalse}
 
 \newif{\ifrepeatchords}
 \DeclareOption{repeatchords}{\repeatchordstrue}
-%\DeclareOption{norepeatchords}{\repeatchordsfalse}
 
 \newif{\ifukulele}
 \DeclareOption{ukulele}{\ukuleletrue}
-%\DeclareOption{noukulele}{\ukulelefalse}
 
 \newif{\ifguitar}
 \DeclareOption{guitar}{\guitartrue}
-%\DeclareOption{noguitar}{\guitarfalse}
 
 \newif{\ifonesongperpage}
 \DeclareOption{onesongperpage}{\onesongperpagetrue}

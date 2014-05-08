@@ -7,14 +7,17 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{crepbook}[2014/04/13 Crepbook Package, version 0.1]
 
-\RequirePackage{SongbookUtils}
-
 \newif{\iffancycapo}
-\DeclareOption{fancy-capo}{\iffancycapotrue}
+\DeclareOption{fancy-capo}{\fancycapotrue}
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{SongbookUtils}}
 
-
 \ProcessOptions\relax
+
+\RequirePackage{SongbookUtils}
+
+\ifpictures
+    \fancycapotrue
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Multilanguage management
@@ -119,13 +122,14 @@
     \newlength{\capoheight}
     \setlength{\capoheight}{1.5cm}
     \renewcommand\capo[1]{%
-    \iftranscapos%
-        \transpose{#1}%
-    \fi%
-    \mbox{%
-        \includegraphics[height=\capoheight]{capodastre}%
-        \put(-22,8){\Large #1}
-    }%
+        \iftranscapos%
+            \transpose{#1}%
+        \fi%
+        \mbox{%
+            \includegraphics[height=\capoheight]{capodastre}%
+            \put(-22,8){\Large #1}
+            }%
+    }
 \fi
 
 % Fonts definitions

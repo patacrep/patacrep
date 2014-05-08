@@ -379,4 +379,12 @@
   }
 }
 
+\let\@musicnoteold\musicnote
+\renewcommand{\musicnote}[2][]{%
+  \vspace{.1cm}
+  \IfStrEq{}{#1}{\@musicnoteold{#2}}{
+    \iflanguage{#1}{\@musicnoteold{#2}}{}
+  }
+}
+
 \endinput

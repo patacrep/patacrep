@@ -59,10 +59,11 @@
 \def\picturecopyright#1{\def\@picturecopyright{#1}}
 \def\footer#1{\def\@footer{#1}}
 
+\long\def\author#1{\long\def\@author{#1}}
 
 \def\clearheadinfo{
-    \author{No Author Given}%
-    \title{No Title Given}%
+    \author{}%
+    \title{No title}%
     \subtitle{}%
     \version{}%
     \web{}%
@@ -90,19 +91,19 @@
 \def\@maketitle{
     \begin{titlepage}
         \thispagestyle{empty}
-        \hfil%
+        \begin{center}
             {\rule{\textwidth}{1mm}}
             {\@titlefont\@title\par}
             \if!\@subtitle!\else 
                 {\hfil\@subtitlefont\@subtitle\par}
             \fi
             {\rule{\textwidth}{1mm}}
-        \hfil%
+        \end{center}
         \vfil
         \begin{flushleft}
             \begin{tabular}{l l}
                 \if!\@version!\else{\textbf{\labelversionname}} & \@version \\ \fi
-                \if!\@date!\else{\textbf{\labeldatename}} &   \@date \\ \fi
+                \if!\@date!\else{\textbf{\labeldatename}} & \@date \\ \fi
                 \if!\@author!\else{\textbf{\labelauthorname}} & \@author \\ \fi
                 \if!\@web!\else{\textbf{\labelwebname}} &  \url{\@web} \\ \fi
                 \if!\@mail!\else{\textbf{\labelmailname}} &  \url{\@mail} \\ \fi
@@ -111,10 +112,16 @@
         \vfil
         \begin{center}
             \includegraphics[keepaspectratio=true, width=12cm, height=12cm]{\@picture}
-            {\hfil \small \@picturecopyright}
+            \vskip1em
+            {\hfil\hbox{\small \@picturecopyright}}
         \end{center}
+        \begin{flushright}
+        \vfil
+        {\hfil\rule{.4\textwidth}{.75pt}\par}
         \@footer
+        \end{flushright}
     \end{titlepage}
+    \newpage
 }
 
 % Fancy capo

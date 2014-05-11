@@ -25,7 +25,7 @@
    (( super() ))
 
 
-   (* for lang in songlist.languages() *)
+   (* for lang in content.languages() *)
    \PassOptionsToPackage{((lang))}{babel}
    (* endfor *)
    \usepackage[((lang))]{babel}
@@ -38,8 +38,14 @@
    \addcontentsline{toc}{section}{\songlistname}
 
    \begin{songs}{((indexes|default('')))}
-      (* for song in songlist.songs *)
-      \input{((song.path))}
+      (* for type, elem in content.content *)
+      (* if type=="song" *)
+        \input{((elem.path))}
+      (* elif type=="section" *)
+        \end{songs}
+        \songsection{((elem))}
+        \begin{songs}{((indexes|default('')))}
+      (* endif *)
       (* endfor *)
    \end{songs}
 (* endblock *)

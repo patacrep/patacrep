@@ -87,16 +87,16 @@ def unprefixed_title(title, prefixes):
     return title
 
 
-class SongsList(object):
+class SongbookContent(object):
     """Manipulation et traitement de liste de chansons"""
 
     def __init__(self, library):
         self._songdir = os.path.join(library, 'songs')
 
-        # Liste triée des chansons
-        self.songs = []
+        # Sorted list of the content
+        self.content = []
 
-    def append(self, filename):
+    def append_song(self, filename):
         """Ajout d'une chanson à la liste
 
         Effets de bord : analyse syntaxique plus ou moins sommaire du fichier
@@ -104,36 +104,36 @@ class SongsList(object):
         album, etc.).
         """
         LOGGER.debug('Parsing file "{}"…'.format(filename))
-        # Exécution de PlasTeX
+        # Data extraction from the song with plastex
         data = parsetex(filename)
-
         song = Song(filename, data['languages'], data['titles'], data['args'])
-        low, high = 0, len(self.songs)
-        while low != high:
-            middle = (low + high) / 2
-            if song < self.songs[middle]:
-                high = middle
-            else:
-                low = middle + 1
-        self.songs.insert(low, song)
+        self.content.append(("song", song))
+    
+    def append(self, type, value):
+        """ Append a generic element to the content list"""
+        self.content.append((type, value))
 
-    def append_list(self, filelist):
+    def append_list(self, contentlist):
         """Ajoute une liste de chansons à la liste
 
         L'argument est une liste de chaînes, représentant des noms de fichiers
         sous la forme d'expressions régulières destinées à être analysées avec
         le module glob.
         """
-        for regexp in filelist:
-            before = len(self.songs)
-            for filename in glob.iglob(os.path.join(self._songdir, regexp)):
-                self.append(filename)
-            if len(self.songs) == before:
-                # No songs were added
-                LOGGER.warning(
-                        "Expression '{}' did not match any file".format(regexp)
-                        )
+        for type, elem in contentlist:
+            if type == "song":
+                # Add all the songs matching the regex
+                before = len(self.content)
+                for filename in glob.iglob(os.path.join(self._songdir, elem)):
+                    self.append_song(filename)
+                if len(self.content) == before:
+                    # No songs were added
+                    LOGGER.warning(
+                            "Expression '{}' did not match any file".format(regexp)
+                            )
+            else:
+                self.append(type, elem)
 
     def languages(self):
         """Renvoie la liste des langues utilisées par les chansons"""
-        return set().union(*[set(song.languages) for song in self.songs])
+        return set().union(*[set(song.languages) for type, song in self.content if type=="song"])

@@ -58,7 +58,11 @@
 "authwords": {"description": {"english": "Set of options to process author string (LaTeX commands authsepword, authignoreword, authbyword)",
                               "french": "Options pour traiter les noms d'auteurs (commandes LaTeX authsepword, authignoreword, authbyword)"},
                "default": {"default": {}}
-               }
+               },
+"alphascale": {"description": {"english": "Use alphabetic notes names (A B C ...) in french songbooks",
+                              "french": "Utiliser la notation anglo-saxonne (A B C ...) pour les accords"},
+                  "default": {"default": false}
+                  }
 }
 (* endvariables *)
 
@@ -97,6 +101,11 @@
       (* endif *)
       (* endfor *)
    (* endfor*)
+   
+   %! lang is defined in layout.tex
+   (* if lang=="french" and not alphascale *)
+      \notenamesout{La}{Si}{Do}{R\'e}{Mi}{Fa}{Sol}
+   (* endif *)
 (* endblock *)
 
 (* block title *)

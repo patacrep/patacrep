@@ -116,6 +116,7 @@
 
   \IfStrEq{\mainlanguage}{french}{
     % French names
+    \notenamesout{La}{Si}{Do}{R\'e}{Mi}{Fa}{Sol}
     \renewcommand{\songlistname}{Liste des chansons}{}
     \renewcommand{\labelversionname}{version :}
     \renewcommand{\labeldatename}{date :}

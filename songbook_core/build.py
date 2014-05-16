@@ -70,7 +70,10 @@ class Songbook(object):
             - config : a dictionary containing the configuration
         """
         Song.sort = config['sort']
-        Song.prefixes = config['titleprefixwords']
+        if 'titleprefixwords' in config:
+            Song.prefixes = config['titleprefixwords']
+        else:
+            Song.prefixes = []
         Song.authwords['after'] = [
                 re.compile(r"^.*%s\b(.*)" % after)
                 for after

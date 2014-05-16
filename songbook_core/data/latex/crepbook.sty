@@ -59,8 +59,6 @@
 \def\picturecopyright#1{\def\@picturecopyright{#1}}
 \def\footer#1{\def\@footer{#1}}
 
-\long\def\author#1{\long\def\@author{#1}}
-
 \def\clearheadinfo{
     \author{}%
     \title{No title}%
@@ -104,7 +102,7 @@
             \begin{tabular}{l l}
                 \if!\@version!\else{\textbf{\labelversionname}} & \@version \\ \fi
                 \if!\@date!\else{\textbf{\labeldatename}} & \@date \\ \fi
-                \if!\@author!\else{\textbf{\labelauthorname}} & \@author \\ \fi
+                \if!\@author!\else{\textbf{\labelauthorname}} & \begin{tabular}[t]{c}\@author\end{tabular} \\ \fi
                 \if!\@web!\else{\textbf{\labelwebname}} &  \url{\@web} \\ \fi
                 \if!\@mail!\else{\textbf{\labelmailname}} &  \url{\@mail} \\ \fi
             \end{tabular}

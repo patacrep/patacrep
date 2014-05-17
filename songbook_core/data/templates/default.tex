@@ -69,10 +69,14 @@
 (* extends "songs.tex" *)
 (* set indexes = "titleidx,authidx" *)
 
-(* block songbookpreambule *)
+(* block songbookpackages *)
    (( super() ))
 
   \usepackage{chords}
+(* endblock *)
+
+(* block songbookpreambule *)
+   (( super() ))
 
    \title{((title))}
    \author{((author))}

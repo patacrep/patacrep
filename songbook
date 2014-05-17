@@ -100,8 +100,14 @@ def main():
 
     basename = os.path.basename(songbook_path)[:-3]
 
-    with open(songbook_path) as songbook_file:
-        songbook = json.load(songbook_file)
+    try:
+        with open(songbook_path) as songbook_file:
+            songbook = json.load(songbook_file)
+    except Exception as error: # pylint: disable=broad-except
+        LOGGER.error(error)
+        LOGGER.error("Error while loading file '{}'.".format(songbook_path))
+        sys.exit(1)
+
 
     if options.datadir is not None:
         songbook['datadir'] = options.datadir[0]

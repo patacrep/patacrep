@@ -223,12 +223,16 @@
 % End of the new informations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lilypond
+
 % On-the-fly compilation of lilypond files
 \iflilypondauto
     \epstopdfDeclareGraphicsRule{.ly}{pdf}{.pdf}{lilypond --format=pdf --output=\Gin@base\ETE@suffix\space #1}
     \AppendGraphicsExtensions{.ly}
 \fi
 
+% Conditional inclusion of lilypond sheet music.
 \newcommand{\lilypond}[1]{%
     \iflilypond%
     \includegraphics{\currfiledir#1}%
@@ -239,7 +243,10 @@
     \includegraphics{#1}%
     \fi%
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Useful commands
 \newcommand{\image}[2][]{%
     \ifpictures%
     \begin{flushright}%
@@ -276,60 +283,6 @@
     \emph{ad~lib.}%
 }%
 
-
-% Configuration of the songs package
-% Horizontal space reserved to verse number
-\setlength{\versenumwidth}{1em}
-% Modifier to the space between consecutive lines of lyrics
-\baselineadj=-6pt plus 0pt minus 2pt
-% Space between verses and chorus
-\versesep=6pt plus 2pt minus 2pt
-
-
-
-% Paragraph indentation space
-\setlength{\parindent}{0.3cm}
-
-
-\ifonesongperpage%
-\renewcommand\songcolumns[1]{%
-    \SB@cnt#1\relax%
-    \ifSB@preamble\else{\SB@clearpage}\fi%
-    \SB@numcols\SB@cnt%
-    \ifnum\SB@numcols>\z@%
-    \SB@colwidth-\columnsep%
-    \multiply\SB@colwidth\SB@numcols%
-    \advance\SB@colwidth\columnsep%
-    \advance\SB@colwidth\textwidth%
-    \divide\SB@colwidth\SB@numcols%
-    \else%
-    \ifrepchorus\SB@warnrc\fi%
-    \fi%
-}
-\fi
-
-%% \SB@chordsoff with a greater for the line spacing
-\newcommand{\CB@chordshidden}{%
-    \def\SB@bracket##1]{\ignorespaces}%
-    \let\SB@rechord\relax%
-    \let\SB@ch\SB@ch@off%
-    \ifSB@measurespec%
-    \ifmeasures\SB@measureson\else\SB@measuresoff\fi%
-    \else%
-    \SB@measuresoff%
-    \fi%
-    \ifSB@preamble\let\colbotglue{\z@\@plus.5\textheight}\fi%
-    \SB@setbaselineskip%
-}
-
-\newenvironment{repeatedchords}{%
-    \ifrepeatchords%
-    \else%
-        \CB@chordshidden%
-    \fi
-}{}%
-
-
 % Use a new framed command for bridges
 \renewcommand{\FrameCommand}[1]{
   \begin{tikzpicture}
@@ -353,6 +306,27 @@
     \end{framed}
 }
 
+%% \SB@chordsoff with a greater for the line spacing
+\newcommand{\CB@chordshidden}{%
+    \def\SB@bracket##1]{\ignorespaces}%
+    \let\SB@rechord\relax%
+    \let\SB@ch\SB@ch@off%
+    \ifSB@measurespec%
+    \ifmeasures\SB@measureson\else\SB@measuresoff\fi%
+    \else%
+    \SB@measuresoff%
+    \fi%
+    \ifSB@preamble\let\colbotglue{\z@\@plus.5\textheight}\fi%
+    \SB@setbaselineskip%
+}
+
+\newenvironment{repeatedchords}{%
+    \ifrepeatchords%
+    \else%
+        \CB@chordshidden%
+    \fi
+}{}%
+
 \def\removefirstch@r#1{}
 \newcommand{\transposition}[1]{%
     \ifrepeatchords%
@@ -365,12 +339,58 @@
     \fi%
 }%
 
+% Definition of environment "tab"
 \iftabs
     \RequirePackage{tabs}
 \else
     \RequirePackage{verbatim}
     \newenvironment{tab}{\comment}{\endcomment}
 \fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Layout tweaks
+
+% Configuration of the songs package
+% Horizontal space reserved to verse number
+\setlength{\versenumwidth}{1em}
+% Modifier to the space between consecutive lines of lyrics
+\baselineadj=-6pt plus 0pt minus 2pt
+% Space between verses and chorus
+\versesep=6pt plus 2pt minus 2pt
+
+
+
+% Paragraph indentation space
+\setlength{\parindent}{0.3cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One song per page?
+
+\ifonesongperpage%
+\renewcommand\songcolumns[1]{%
+    \SB@cnt#1\relax%
+    \ifSB@preamble\else{\SB@clearpage}\fi%
+    \SB@numcols\SB@cnt%
+    \ifnum\SB@numcols>\z@%
+    \SB@colwidth-\columnsep%
+    \multiply\SB@colwidth\SB@numcols%
+    \advance\SB@colwidth\columnsep%
+    \advance\SB@colwidth\textwidth%
+    \divide\SB@colwidth\SB@numcols%
+    \else%
+    \ifrepchorus\SB@warnrc\fi%
+    \fi%
+}
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO: Move this stuff to crepbook.sty? -- spalax
 
 \let\@textnoteold\textnote
 \renewcommand{\textnote}[2][]{%
@@ -387,5 +407,6 @@
     \iflanguage{#1}{\@musicnoteold{#2}}{}
   }
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \endinput

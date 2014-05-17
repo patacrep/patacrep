@@ -1,14 +1,11 @@
 % Chords package for patacrep songbook
-% define commands for chord display : guitar chords (\gtab) and ukulele chords (\utab)
+% Define command \chords to display list of chords, for guitar or ukulele
 \ProvidesPackage{chords}
 \RequirePackage{songs}
 \newcommand*{\Sharp}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small\bf \#}}
 \newcommand*{\Flat}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small$\mathbf{\flat}$}}
 \newcommand*{\chordrule}{\mbox{\hspace{1cm}\rule[0.5cm]{15cm}{0.02cm}}\vspace{-.4cm}}
 \newcommand*{\chordname}[1]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{#1}}}}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Multilanguage management
 
 \newcommand{\chordnameAsharp}{\printnoteA{}\Sharp = \printnoteB{}\Flat}
 \newcommand{\chordnameA}{\printnoteA{}}
@@ -34,9 +31,6 @@
         \renewcommand{\ukulelechordsname}{Accords de ukulélé}
     }{}
 }
-
-% End of multilanguage management
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \newcommand{\chords}{

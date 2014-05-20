@@ -1,6 +1,7 @@
 % Crepbook Package -- version 0.1 for LaTeX2e
 %
-% This package is intended to be used with the songbook package.
+% This package is intended to be used with the songbook Python program (and its
+% interfaces).
 % It defines some layout for automatic songbook generation.
 % See http://github.com/patacrep/songbook-core/
 
@@ -18,6 +19,36 @@
 \ifpictures
     \fancycapotrue
 \fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Custom hyperref options
+\definecolor{tango-green-3}{HTML}{4e9a06}
+\definecolor{tango-blue-3}{HTML}{204a87}
+\RequirePackage[bookmarks,
+                bookmarksopen,
+                hyperfigures=true,
+                colorlinks=true,
+                linkcolor=tango-green-3,
+                urlcolor=tango-blue-3]{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Layout tweaks
+
+% Configuration of the songs package
+% Horizontal space reserved to verse number
+\setlength{\versenumwidth}{1em}
+% Modifier to the space between consecutive lines of lyrics
+\baselineadj=-6pt plus 0pt minus 2pt
+% Space between verses and chorus
+\versesep=6pt plus 2pt minus 2pt
+
+
+
+% Paragraph indentation space
+\setlength{\parindent}{0.3cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Multilanguage management
@@ -39,9 +70,6 @@
         \def\labelmailname{Mail~:}
     }{}
 }
-
-
-\def\lang#1{\def\mainlanguage{#1}}
 
 % End of multilanguage management
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

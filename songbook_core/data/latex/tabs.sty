@@ -77,40 +77,6 @@
 {
   \end{tikzpicture}
 }
-\else%
-\newenvironment{tab}{%
-  \newcommand{\single}[2]{}%
-  \renewcommand{\bar}{}%
-}{}%
 \fi%
-
-
-
-\let\musicnoteORIG\musicnote
-\renewcommand{\musicnote}[2][]{%
-  \vspace{.1cm}
-  \IfStrEq{}{#1}{\musicnoteORIG{#2}}{
-    \iflanguage{#1}{\musicnoteORIG{#2}}{}
-  }
-}
-
-\let\textnoteORIG\textnote
-\renewcommand{\textnote}[2][]{%
-  \vspace{.1cm}
-  \IfStrEq{}{#1}{\textnoteORIG{#2}}{
-    \iflanguage{#1}{\textnoteORIG{#2}}{}
-  }
-}
-
-\renewcommand{\FrameCommand}[1]{
-  \begin{tikzpicture}
-    \node[rectangle] (rect) {
-      \begin{minipage}{.8\textwidth}
-        #1
-      \end{minipage}
-    };
-    \draw[very thick, dashed] (rect.north west) -- (rect.south west);
-  \end{tikzpicture}
-}
 
 \endinput

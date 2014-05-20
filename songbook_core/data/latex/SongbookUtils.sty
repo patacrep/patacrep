@@ -9,14 +9,6 @@
 \RequirePackage{graphicx,xcolor} %
 \RequirePackage{epstopdf} %
 \RequirePackage{fancybox}
-\definecolor{tango-green-3}{HTML}{4e9a06}
-\definecolor{tango-blue-3}{HTML}{204a87}
-\RequirePackage[bookmarks,
-                bookmarksopen,
-                hyperfigures=true,
-                colorlinks=true,
-                linkcolor=tango-green-3,
-                urlcolor=tango-blue-3]{hyperref}
 \RequirePackage{xstring}
 \RequirePackage{framed}
 \RequirePackage{currfile}
@@ -75,6 +67,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Multilanguage management
 
+\def\lang#1{\def\mainlanguage{#1}}
+
 \AtBeginDocument{
     % Default names (english)
     \def\songlistname{Songs list}
@@ -91,7 +85,7 @@
     \def\songindexname{Songs Index}
     \def\authorindexname{Authors Index}
     \def\chordlistname{Chords list}
-    
+
 \IfStrEq{\mainlanguage}{french}{
     % French names
     \def\songlistname{Liste des chansons}
@@ -347,24 +341,6 @@
     \newenvironment{tab}{\comment}{\endcomment}
 \fi
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Layout tweaks
-
-% Configuration of the songs package
-% Horizontal space reserved to verse number
-\setlength{\versenumwidth}{1em}
-% Modifier to the space between consecutive lines of lyrics
-\baselineadj=-6pt plus 0pt minus 2pt
-% Space between verses and chorus
-\versesep=6pt plus 2pt minus 2pt
-
-
-
-% Paragraph indentation space
-\setlength{\parindent}{0.3cm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 

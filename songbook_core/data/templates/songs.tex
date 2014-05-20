@@ -21,16 +21,31 @@
 
 (* extends "layout.tex" *)
 
-(* block songbookpreambule *)
+(* block songbookpackages *)
    (( super() ))
 
+\usepackage[((booktype)),
+            (* for option in bookoptions *)((option)),
+            (* endfor *)
+            (* for instrument in instruments *)((instrument)),
+            (* endfor *)]{SongbookUtils}
+(* endblock *)
+
+(* block songbookpreambule *)
+   (( super() ))
 
    (* for lang in content.languages() *)
    \PassOptionsToPackage{((lang))}{babel}
    (* endfor *)
    \usepackage[((lang))]{babel}
+   \lang{((lang))}
 
+   \usepackage{graphicx}
    \graphicspath{{((datadir))/img/}}
+
+   \makeatletter
+   \@ifpackageloaded{hyperref}{}{\newcommand{\phantomsection}{}}
+   \makeatother
 (* endblock *)
 
 (* block songs *)

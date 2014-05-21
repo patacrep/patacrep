@@ -12,6 +12,11 @@
 \newif{\iffancycapo}
 \DeclareOption{fancy-capo}{\fancycapotrue}
 
+% nocustomtitle: Disable title page fancy definition (back to LaTeX default)
+\newif{\ifcustomtitle}
+\customtitletrue
+\DeclareOption{nocustomtitle}{\customtitlefalse}
+
 % Remaining options are passed to the SongbookUtils package
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{SongbookUtils}}
 
@@ -90,63 +95,67 @@
 
 \clearheadinfo
 
-\def\maketitle{
-    \@maketitle
-    \clearheadinfo
-}
+\ifcustomtitle
+  \def\maketitle{
+      \@maketitle
+      \clearheadinfo
+  }
+\fi
 
 
 \newcounter{@inst}
 \newcounter{@auth}
 \newcounter{auco}
 
-\def\@titlefont{\Huge\bfseries\boldmath}
-\def\@subtitlefont{\large\bfseries\boldmath}
+\ifcustomtitle
+  \def\@titlefont{\Huge\bfseries\boldmath}
+  \def\@subtitlefont{\large\bfseries\boldmath}
 
 
-\def\@getelement#1{\csname @#1\endcsname}
-\def\@labelelement#1{\csname label#1name\endcsname}
-\def\@insertelement#1{\if!\@getelement{#1}!
-                      \else %
-                      \@labelelement{#1}& %
-                      \@getelement{#1} \cr %
-                      \fi %
-                      }
+  \def\@getelement#1{\csname @#1\endcsname}
+  \def\@labelelement#1{\csname label#1name\endcsname}
+  \def\@insertelement#1{\if!\@getelement{#1}!
+                        \else %
+                        \@labelelement{#1}& %
+                        \@getelement{#1} \cr %
+                        \fi %
+                        }
 
-\def\@maketitle{
-    \def\and{\unskip,\cr&}
-    \begin{titlepage}
-        \thispagestyle{empty}
-        \begin{center}
-            {\rule{\textwidth}{1mm}}
-            {\@titlefont\@title\par}
-            \if!\@subtitle!\else 
-                {\hfil\@subtitlefont\@subtitle\par}
-            \fi
-            {\rule{\textwidth}{1mm}}
-        \end{center}
-        \vfil
-        \ialign{
-            \bf{##} \hfil & ## \hfil \cr % Lines definition
-            \@insertelement{version} %
-            \@insertelement{date} %
-            \@insertelement{author} %
-            \@insertelement{web} %
-            \@insertelement{mail} %
-        }
-        \vfil
-        \begin{center}
-            \includegraphics[keepaspectratio=true, width=12cm, height=12cm]{\@picture}
-            \vskip1em
-            {\hfil\hbox{\small \@picturecopyright}}
-        \end{center}
-        \begin{flushright}
-        \vfil
-        {\hfil\rule{.4\textwidth}{.75pt}\par}
-        \@footer
-        \end{flushright}
-    \end{titlepage}
-}
+  \def\@maketitle{
+      \def\and{\unskip,\cr&}
+      \begin{titlepage}
+          \thispagestyle{empty}
+          \begin{center}
+              {\rule{\textwidth}{1mm}}
+              {\@titlefont\@title\par}
+              \if!\@subtitle!\else 
+                  {\hfil\@subtitlefont\@subtitle\par}
+              \fi
+              {\rule{\textwidth}{1mm}}
+          \end{center}
+          \vfil
+          \ialign{
+              \bf{##} \hfil & ## \hfil \cr % Lines definition
+              \@insertelement{version} %
+              \@insertelement{date} %
+              \@insertelement{author} %
+              \@insertelement{web} %
+              \@insertelement{mail} %
+          }
+          \vfil
+          \begin{center}
+              \includegraphics[keepaspectratio=true, width=12cm, height=12cm]{\@picture}
+              \vskip1em
+              {\hfil\hbox{\small \@picturecopyright}}
+          \end{center}
+          \begin{flushright}
+          \vfil
+          {\hfil\rule{.4\textwidth}{.75pt}\par}
+          \@footer
+          \end{flushright}
+      \end{titlepage}
+  }
+\fi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

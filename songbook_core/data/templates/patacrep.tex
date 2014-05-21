@@ -43,6 +43,14 @@
 
 (* extends "default.tex" *)
 
+(* block songbookpackages *)
+\usepackage[((booktype)),
+            (* for option in bookoptions *)((option)),
+            (* endfor *)
+            (* for instrument in instruments *)((instrument)),
+            (* endfor *)]{crepbook}
+(* endblock *)
+
 (* block songbookpreambule *)
    \usepackage[
      a4paper % paper size
@@ -64,4 +72,24 @@
    \renewcommand{\snumbgcolor}{SongNumberBgColor}
    \renewcommand{\notebgcolor}{NoteBgColor}
    \renewcommand{\idxbgcolor}{IndexBgColor}
+
+  \definecolor{tango-green-3}{HTML}{4e9a06}
+  \definecolor{tango-blue-3}{HTML}{204a87}
+  \usepackage[bookmarks,
+                  bookmarksopen,
+                  hyperfigures=true,
+                  colorlinks=true,
+                  linkcolor=tango-green-3,
+                  urlcolor=tango-blue-3]{hyperref}
+
+
+   \subtitle{((subtitle))}
+   (* if version!="unknown" *)
+      \version{((version))}
+   (* endif *)
+   \mail{((mail))}
+   \web{((web))}
+   \picture{((picture))}
+   \picturecopyright{((picturecopyright))}
+   \footer{((footer))}
 (* endblock *)

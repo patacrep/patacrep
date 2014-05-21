@@ -1,0 +1,399 @@
+% Songbook Package -- version 0.1 for LaTeX2e
+%
+% This package provides macro for automatic songbook
+% generation. See http://github.com/patacrep/songbook-core/
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{SongbookUtils}[2014/04/13 Songbook Package, version 0.1]
+
+\RequirePackage{graphicx,xcolor} %
+\RequirePackage{epstopdf} %
+\RequirePackage{fancybox}
+\RequirePackage{xstring}
+\RequirePackage{framed}
+\RequirePackage{currfile}
+\RequirePackage{ifthen}
+\RequirePackage{tikz}
+
+% tabs: display the guitar tabs
+\newif{\iftabs}
+\DeclareOption{tabs}{\tabstrue}
+
+% lilypond: display Lilypond music sheets
+\newif{\iflilypond}
+\DeclareOption{lilypond}{\lilypondtrue}
+
+\newif{\iflilypondauto}
+\DeclareOption{lilypond}{\lilypondautotrue\lilypondtrue}
+
+% diagram: display chord diagrams at the beginning
+\newif{\ifdiagram}
+\DeclareOption{diagram}{\diagramtrue}
+
+% importantdiagramonly: only display important chords
+\newif{\ifimportantdiagramonly}
+\DeclareOption{importantdiagramonly}{\importantdiagramonlytrue\diagramtrue}
+
+% pictures: display song covers and songbook titlepage picture
+\newif{\ifpictures}
+\DeclareOption{pictures}{\picturestrue}
+
+% repeatchords: display chords in every verse if the song allows it
+\newif{\ifrepeatchords}
+\DeclareOption{repeatchords}{\repeatchordstrue}
+
+% onesongperpage: force single page for each song
+\newif{\ifonesongperpage}
+\DeclareOption{onesongperpage}{\onesongperpagetrue}
+
+%%% Instruments
+% ukulele: display ukulele tabs
+\newif{\ifukulele}
+\DeclareOption{ukulele}{\ukuleletrue}
+
+% guitar: display guitar tabs
+\newif{\ifguitar}
+\DeclareOption{guitar}{\guitartrue}
+
+% Remaining options are passed to the songs package
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{songs}}
+
+\ProcessOptions\relax
+
+\RequirePackage{songs} %
+
+\iflyric
+    \tabsfalse %
+    \lilypondfalse%
+    \diagramfalse%
+    \picturesfalse%
+    \renewcommand{\colbotglue}{0pt plus .5\textheight minus 0pt}%
+\fi
+
+% Patch for Debian TeXLive 2012
+% A bug may produce corrupted PDF
+\pdfobjcompresslevel=0
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multilanguage management
+
+\def\lang#1{\def\mainlanguage{#1}}
+
+\AtBeginDocument{
+    % Default names (english)
+    \def\songlistname{Songs list}
+    \def\originalsongname{Original song:}
+    \def\introname{intro}
+    \def\outroname{outro}
+    \def\bridgename{bridge}
+    \def\chorusname{chorus}
+    \def\versename{verse}
+    \def\soloname{solo}
+    \def\patternname{pattern}
+    \def\rythmname{rythm}
+    \def\transpositionname{transposition:}
+    \def\songindexname{Songs Index}
+    \def\authorindexname{Authors Index}
+    \def\chordlistname{Chords list}
+
+\IfStrEq{\mainlanguage}{french}{
+    % French names
+    \def\songlistname{Liste des chansons}
+    \def\originalsongname{Chanson originale :}
+    \def\introname{intro}
+    \def\outroname{outro}
+    \def\bridgename{pont}
+    \def\chorusname{refrain}
+    \def\versename{couplet}
+    \def\soloname{solo}
+    \def\patternname{motif}
+    \def\rythmname{rythme}
+    \def\transpositionname{transposition :}
+    \def\songindexname{Index des chansons}
+    \def\authorindexname{Index des auteurs}
+    \def\chordlistname{Liste des accords}
+    }{}
+}
+
+\def\andname{and}
+\def\lastandname{\unskip, and}
+
+% End of multilanguage management
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Add some informations to the songs
+\newlength{\coverheight}
+\setlength{\coverheight}{2cm}
+\newlength{\coverspace}
+\setlength{\coverspace}{0.1cm}
+\newcommand{\songcover}{}
+\newcommand{\songalbum}{}
+\newsongkey{cov}{\let\songcover\@empty}{\def\songcover{\currfiledir#1}}
+\newsongkey{vcov}{\let\songcover\@empty}{\def\songcover{#1}}
+\newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
+\newsongkey{url}{\let\songurl\@empty}{\def\songurl{#1}}
+\newsongkey{original}{\let\songoriginal\@empty}{\def\songoriginal{#1}}
+
+% Insert cover pictures
+\newcommand\cover{%
+    \ifpictures%
+        \ifx\songcover\@empty\else%
+        \mbox{%
+            \includegraphics[width=\coverheight]{\songcover}%
+            \hspace{\coverspace}%
+        }%
+        \fi%
+    \fi%
+}
+
+% display album in song header
+\renewcommand{\extendprelude}{
+    {\bfseries\showauthors}
+    {\footnotesize\it\songalbum}
+    \IfStrEq{\songurl}{}{}{
+        \href{\songurl}{\includegraphics[width=.3cm]{internet}}
+    }
+}
+
+% display original song name in the postlude
+\renewcommand{\extendpostlude}{
+    {\footnotesize%
+        \IfStrEq{\songoriginal}{}{}{
+            \originalsongname
+            \songoriginal
+        }
+    }
+}
+
+\let\utab\gtab
+\let\utab@Original\utab
+\newcommand{\utab@Hidden}[2]{}%
+
+\let\gtab@Original\gtab
+\newcommand{\gtab@Hidden}[2]{}%
+
+\ifdiagram%
+    \ifimportantdiagramonly%
+    \renewcommand{\gtab}{\@ifstar
+                        \gtab@Original%
+                        \gtab@Hidden%
+    }
+    \renewcommand{\utab}{\@ifstar
+                        \utab@Original%
+                        \utab@Hidden%
+    }
+    \else%
+    \renewcommand{\gtab}{\@ifstar
+                        \gtab@Original%
+                        \gtab@Original%
+                        }
+    \renewcommand{\utab}{\@ifstar
+                        \utab@Original%
+                        \utab@Original%
+                        }
+    \fi%
+\else%
+    \renewcommand{\gtab}{\@ifstar
+                        \gtab@Hidden%
+                        \gtab@Hidden%
+                        }
+    \renewcommand{\utab}{\@ifstar
+                         \utab@Hidden%
+                         \utab@Hidden%
+                        }
+\fi%
+
+\ifguitar%
+\else
+    \renewcommand{\gtab}{\@ifstar
+        \gtab@Hidden%
+        \gtab@Hidden%
+    }
+\fi%
+
+\ifukulele%
+\else
+    \renewcommand{\utab}{\@ifstar
+        \utab@Hidden%
+        \utab@Hidden%
+    }
+\fi%
+
+% End of the new informations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lilypond
+
+% On-the-fly compilation of lilypond files
+\iflilypondauto
+    \epstopdfDeclareGraphicsRule{.ly}{pdf}{.pdf}{lilypond --format=pdf --output=\Gin@base\ETE@suffix\space #1}
+    \AppendGraphicsExtensions{.ly}
+\fi
+
+% Conditional inclusion of lilypond sheet music.
+\newcommand{\lilypond}[1]{%
+    \iflilypond%
+    \includegraphics{\currfiledir#1}%
+    \fi%
+}
+\newcommand{\vlilypond}[1]{%
+    \iflilypond%
+    \includegraphics{#1}%
+    \fi%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Useful commands
+\newcommand{\image}[2][]{%
+    \ifpictures%
+    \begin{flushright}%
+        \includegraphics[#1]{#2}%
+    \end{flushright}%
+    \fi%
+}
+
+\newcommand*{\Intro}{%
+    \introname%
+}%
+\newcommand*{\Outro}{%
+    \outroname%
+}%
+\newcommand*{\Bridge}{%
+    \bridgename%
+}%
+\newcommand*{\Chorus}{%
+    \chorusname%
+}%
+\newcommand*{\Verse}{%
+    \versename%
+}%
+\newcommand*{\Solo}{%
+    \soloname%
+}%
+\newcommand*{\Pattern}{%
+    \patternname%
+}%
+\newcommand*{\Rythm}{%
+    \rythmname%
+}%
+\newcommand*{\Adlib}{%
+    \emph{ad~lib.}%
+}%
+
+% Use a new framed command for bridges
+\renewcommand{\FrameCommand}[1]{
+  \begin{tikzpicture}
+    \node[rectangle] (rect) {
+      \begin{minipage}{.8\textwidth}
+        #1
+      \end{minipage}
+    };
+    \draw[very thick, dashed] (rect.north west) -- (rect.south west);
+  \end{tikzpicture}
+}
+\newenvironment{bridge}
+{%
+    \begin{framed}
+    \vspace{-.4cm}
+    \begin{verse*}
+}
+{%
+    \end{verse*}
+    \vspace{-.2cm}
+    \end{framed}
+}
+
+%% \SB@chordsoff with a greater for the line spacing
+\newcommand{\CB@chordshidden}{%
+    \def\SB@bracket##1]{\ignorespaces}%
+    \let\SB@rechord\relax%
+    \let\SB@ch\SB@ch@off%
+    \ifSB@measurespec%
+    \ifmeasures\SB@measureson\else\SB@measuresoff\fi%
+    \else%
+    \SB@measuresoff%
+    \fi%
+    \ifSB@preamble\let\colbotglue{\z@\@plus.5\textheight}\fi%
+    \SB@setbaselineskip%
+}
+
+\newenvironment{repeatedchords}{%
+    \ifrepeatchords%
+    \else%
+        \CB@chordshidden%
+    \fi
+}{}%
+
+\def\removefirstch@r#1{}
+\newcommand{\transposition}[1]{%
+    \ifrepeatchords%
+    \transpose{#1}
+    \else%
+    \musicnote{%
+        \transpositionname~
+        \ifthenelse{#1>0}{#1$\Uparrow$}{\removefirstch@r#1$\Downarrow$}%
+    }%
+    \fi%
+}%
+
+% Definition of environment "tab"
+\iftabs
+    \RequirePackage{tabs}
+\else
+    \RequirePackage{verbatim}
+    \newenvironment{tab}{\comment}{\endcomment}
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One song per page?
+
+\ifonesongperpage%
+\renewcommand\songcolumns[1]{%
+    \SB@cnt#1\relax%
+    \ifSB@preamble\else{\SB@clearpage}\fi%
+    \SB@numcols\SB@cnt%
+    \ifnum\SB@numcols>\z@%
+    \SB@colwidth-\columnsep%
+    \multiply\SB@colwidth\SB@numcols%
+    \advance\SB@colwidth\columnsep%
+    \advance\SB@colwidth\textwidth%
+    \divide\SB@colwidth\SB@numcols%
+    \else%
+    \ifrepchorus\SB@warnrc\fi%
+    \fi%
+}
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Enhance \textnote and \musicnote, to display them according to the current language.
+
+\let\@textnoteold\textnote
+\renewcommand{\textnote}[2][]{%
+  \vspace{.1cm}
+  \IfStrEq{}{#1}{\@textnoteold{#2}}{
+    \iflanguage{#1}{\@textnoteold{#2}}{}
+  }
+}
+
+\let\@musicnoteold\musicnote
+\renewcommand{\musicnote}[2][]{%
+  \vspace{.1cm}
+  \IfStrEq{}{#1}{\@musicnoteold{#2}}{
+    \iflanguage{#1}{\@musicnoteold{#2}}{}
+  }
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\endinput

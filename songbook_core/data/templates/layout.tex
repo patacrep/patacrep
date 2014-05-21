@@ -70,20 +70,16 @@
 (* endvariables *)
 
 (* block documentclass *)
-\documentclass[((booktype)),
-    (* for option in bookoptions *)((option)),
-    (* endfor *)
-    (* for instrument in instruments *)((instrument)),
-    (* endfor *)
-    ((mainfontsize))pt]{crepbook}
+\documentclass[((mainfontsize))pt]{article}
+(* endblock *)
+
+(* block songbookpackages *)
 (* endblock *)
 
 (* block songbookpreambule *)
    \usepackage[utf8]{inputenc}
    \usepackage[T1]{fontenc}
    \usepackage{lmodern}
-
-   \lang{((lang))}
 (* endblock songbookpreambule *)
 
 (* block preambule *)

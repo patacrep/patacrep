@@ -49,7 +49,7 @@
                      "default": {"default": "Dbolton \\url{http://commons.wikimedia.org/wiki/User:Dbolton}"}
                   },
 "footer": {"description": {"english": "Footer", "french": "Pied de page"},
-           "default": {"default": "\\begin{flushright}Generated using Songbook (\\url{http://www.patacrep.com})\\end{flushright}"}
+           "default": {"default": "Generated using Songbook (\\url{http://www.patacrep.com})"}
         },
 "titleprefixwords": {"description": {"english": "Ignore some words in the beginning of song titles",
                                      "french": "Ignore des mots dans le classement des chansons"},
@@ -69,6 +69,7 @@
 (* extends "songs.tex" *)
 (* set indexes = "titleidx,authidx" *)
 
+
 (* block songbookpreambule *)
    (( super() ))
 
@@ -76,15 +77,6 @@
 
    \title{((title))}
    \author{((author))}
-   \subtitle{((subtitle))}
-   (* if version!="unknown" *)
-      \version{((version))}
-   (* endif *)
-   \mail{((mail))}
-   \web{((web))}
-   \picture{((picture))}
-   \picturecopyright{((picturecopyright))}
-   \footer{((footer))}
 
    \newindex{titleidx}{((filename))_title}
    \newauthorindex{authidx}{((filename))_auth}

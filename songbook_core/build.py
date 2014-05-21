@@ -14,7 +14,7 @@ from songbook_core import __DATADIR__
 from songbook_core import errors
 from songbook_core.files import recursive_find
 from songbook_core.index import process_sxd
-from songbook_core.songs import Song, SongsList
+from songbook_core.songs import Song, SongbookContent
 from songbook_core.templates import TexRenderer
 
 LOGGER = logging.getLogger(__name__)
@@ -70,7 +70,10 @@ class Songbook(object):
             - config : a dictionary containing the configuration
         """
         Song.sort = config['sort']
-        Song.prefixes = config['titleprefixwords']
+        if 'titleprefixwords' in config:
+            Song.prefixes = config['titleprefixwords']
+        else:
+            Song.prefixes = []
         Song.authwords['after'] = [
                 re.compile(r"^.*%s\b(.*)" % after)
                 for after
@@ -95,17 +98,26 @@ class Songbook(object):
 
         # Compute song list
         if self.config['content'] is None:
-            self.config['content'] = [
+            self.config['content'] = [(
+                    "song",
                     os.path.relpath(
                         filename,
                         os.path.join(self.config['datadir'], 'songs'),
-                        )
+                        ))
                     for filename
                     in recursive_find(
                                 os.path.join(self.config['datadir'], 'songs'),
                                 '*.sg',
                                 )
                     ]
+        else:
+            content = self.config["content"]
+            self.config["content"] = []
+            for elem in content:
+                if isinstance(elem, unicode):
+                    self.config["content"].append(("song", elem))
+                else:
+                    self.config["content"].append((elem[0], elem[1]))
 
         # Ensure self.config['authwords'] contains all entries
         for (key, value) in DEFAULT_AUTHWORDS.items():
@@ -113,9 +125,9 @@ class Songbook(object):
                 self.config['authwords'][key] = value
 
     def _parse_songs(self):
-        """Parse songs included in songbook."""
-        self.songslist = SongsList(self.config['datadir'])
-        self.songslist.append_list(self.config['content'])
+        """Parse content included in songbook."""
+        self.contentlist = SongbookContent(self.config['datadir'])        
+        self.contentlist.append_list(self.config['content'])
 
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
@@ -133,7 +145,7 @@ class Songbook(object):
         context = renderer.get_variables()
         context.update(self.config)
         context['titleprefixkeys'] = ["after", "sep", "ignore"]
-        context['songlist'] = self.songslist
+        context['content'] = self.contentlist
         context['filename'] = output.name[:-4]
 
         self._set_songs_default(context)

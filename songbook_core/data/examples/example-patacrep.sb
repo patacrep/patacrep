@@ -11,5 +11,12 @@
 "authwords" : {
   "sep" : ["and", "et"]
   },
- "datadir" : "."
+ "datadir" : ".",
+ "content" : [["section", "Traditional"],
+                "chevaliers_de_la_table_ronde.sg",
+                "greensleeves.sg",
+                "vent_frais.sg",
+                ["section", "Example"],
+                "example-fr.sg",
+                "example-en.sg"]
 }

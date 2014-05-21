@@ -21,16 +21,29 @@
 
 (* extends "layout.tex" *)
 
+(* block songbookpackages *)
+\usepackage[((booktype)),
+            (* for option in bookoptions *)((option)),
+            (* endfor *)
+            (* for instrument in instruments *)((instrument)),
+            (* endfor *)]{SongbookUtils}
+(* endblock *)
+
 (* block songbookpreambule *)
    (( super() ))
 
-
-   (* for lang in songlist.languages() *)
+   (* for lang in content.languages() *)
    \PassOptionsToPackage{((lang))}{babel}
    (* endfor *)
    \usepackage[((lang))]{babel}
+   \lang{((lang))}
 
+   \usepackage{graphicx}
    \graphicspath{{((datadir))/img/}}
+
+   \makeatletter
+   \@ifpackageloaded{hyperref}{}{\newcommand{\phantomsection}{}}
+   \makeatother
 (* endblock *)
 
 (* block songs *)
@@ -38,8 +51,14 @@
    \addcontentsline{toc}{section}{\songlistname}
 
    \begin{songs}{((indexes|default('')))}
-      (* for song in songlist.songs *)
-      \input{((song.path))}
+      (* for type, elem in content.content *)
+      (* if type=="song" *)
+        \input{((elem.path))}
+      (* elif type=="section" *)
+        \end{songs}
+        \songsection{((elem))}
+        \begin{songs}{((indexes|default('')))}
+      (* endif *)
       (* endfor *)
    \end{songs}
 (* endblock *)

@@ -17,6 +17,11 @@
 \customtitletrue
 \DeclareOption{nocustomtitle}{\customtitlefalse}
 
+% nocustomfonts: Disable fancy fonts definition (back to LaTeX default)
+\newif{\ifcustomfonts}
+\customfontstrue
+\DeclareOption{nocustomfonts}{\customfontsfalse}
+
 % Remaining options are passed to the SongbookUtils package
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{SongbookUtils}}
 
@@ -177,20 +182,22 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Fonts definitions
-\def\chordfont#1{\gdef\@chordfont{#1}}
-\def\@chordfont{\small\it}
+\ifcustomfonts
+  \def\chordfont#1{\gdef\@chordfont{#1}}
+  \def\@chordfont{\small\it}
 
-\renewcommand{\idxtitlefont}{\sffamily\bfseries}
-\renewcommand{\idxauthfont}{\sffamily\bfseries}
-\renewcommand{\idxheadfont}{\sffamily\it\LARGE}
-\renewcommand{\idxrefsfont}{\bfseries}
-\renewcommand{\stitlefont}{\LARGE\bf}
-\renewcommand{\printchord}[1]{\@chordfont #1}
-\renewcommand{\chorusfont}{\it}
-\renewcommand{\lyricfont}{\normalfont\normalsize}
-\renewcommand{\showauthors}{%
-    \hbox{\normalsize\songauthors}%
-}
+  \renewcommand{\idxtitlefont}{\sffamily\bfseries}
+  \renewcommand{\idxauthfont}{\sffamily\bfseries}
+  \renewcommand{\idxheadfont}{\sffamily\it\LARGE}
+  \renewcommand{\idxrefsfont}{\bfseries}
+  \renewcommand{\stitlefont}{\LARGE\bf}
+  \renewcommand{\printchord}[1]{\@chordfont #1}
+  \renewcommand{\chorusfont}{\it}
+  \renewcommand{\lyricfont}{\normalfont\normalsize}
+  \renewcommand{\showauthors}{%
+      \hbox{\normalsize\songauthors}%
+  }
+\fi
 
 \titleprefixword{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

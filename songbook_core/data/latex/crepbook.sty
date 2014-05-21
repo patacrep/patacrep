@@ -8,8 +8,11 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{crepbook}[2014/04/13 Crepbook Package, version 0.1]
 
+% fancy-capo: TODO
 \newif{\iffancycapo}
 \DeclareOption{fancy-capo}{\fancycapotrue}
+
+% Remaining options are passed to the SongbookUtils package
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{SongbookUtils}}
 
 \ProcessOptions\relax

@@ -15,36 +15,47 @@
 \RequirePackage{ifthen}
 \RequirePackage{tikz}
 
+% tabs: display the guitar tabs
 \newif{\iftabs}
 \DeclareOption{tabs}{\tabstrue}
 
+% lilypond: display Lilypond music sheets
 \newif{\iflilypond}
 \DeclareOption{lilypond}{\lilypondtrue}
 
 \newif{\iflilypondauto}
 \DeclareOption{lilypond}{\lilypondautotrue\lilypondtrue}
 
+% diagram: display chord diagrams at the beginning
 \newif{\ifdiagram}
 \DeclareOption{diagram}{\diagramtrue}
 
+% importantdiagramonly: only display important chords
 \newif{\ifimportantdiagramonly}
 \DeclareOption{importantdiagramonly}{\importantdiagramonlytrue\diagramtrue}
 
+% pictures: display song covers and songbook titlepage picture
 \newif{\ifpictures}
 \DeclareOption{pictures}{\picturestrue}
 
+% repeatchords: display chords in every verse if the song allows it
 \newif{\ifrepeatchords}
 \DeclareOption{repeatchords}{\repeatchordstrue}
 
-\newif{\ifukulele}
-\DeclareOption{ukulele}{\ukuleletrue}
-
-\newif{\ifguitar}
-\DeclareOption{guitar}{\guitartrue}
-
+% onesongperpage: force single page for each song
 \newif{\ifonesongperpage}
 \DeclareOption{onesongperpage}{\onesongperpagetrue}
 
+%%% Instruments
+% ukulele: display ukulele tabs
+\newif{\ifukulele}
+\DeclareOption{ukulele}{\ukuleletrue}
+
+% guitar: display guitar tabs
+\newif{\ifguitar}
+\DeclareOption{guitar}{\guitartrue}
+
+% Remaining options are passed to the songs package
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{songs}}
 
 \ProcessOptions\relax

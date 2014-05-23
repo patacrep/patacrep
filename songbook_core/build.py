@@ -114,10 +114,15 @@ class Songbook(object):
             content = self.config["content"]
             self.config["content"] = []
             for elem in content:
-                if isinstance(elem, unicode):
+                if isinstance(elem, str) or isinstance(elem, unicode):
                     self.config["content"].append(("song", elem))
-                else:
+                elif isinstance(elem, list):
                     self.config["content"].append((elem[0], elem[1]))
+                else:
+                    raise errors.SBFileError(
+                                 "Syntax error: could not decode the content "
+                                 "of {0}".format(self.basename)
+                                 )
 
         # Ensure self.config['authwords'] contains all entries
         for (key, value) in DEFAULT_AUTHWORDS.items():
@@ -126,7 +131,7 @@ class Songbook(object):
 
     def _parse_songs(self):
         """Parse content included in songbook."""
-        self.contentlist = SongbookContent(self.config['datadir'])        
+        self.contentlist = SongbookContent(self.config['datadir'])
         self.contentlist.append_list(self.config['content'])
 
     def write_tex(self, output):
@@ -149,7 +154,7 @@ class Songbook(object):
         context['filename'] = output.name[:-4]
 
         self._set_songs_default(context)
-
+        print(self.contentlist.content)
         renderer.render_tex(output, context)
 
 

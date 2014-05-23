@@ -10,6 +10,19 @@ class SongbookError(Exception):
     """
     pass
 
+class SBFileError(SongbookError):
+    """Error during songbook file decoding"""
+
+    def __init__(self, message=None):
+        super(SBFileError, self).__init__()
+        self.message = message
+
+    def __str__(self):
+        if self.message is None:
+            return str(self.original)
+        else:
+            return self.message
+
 class TemplateError(SongbookError):
     """Error during template generation"""
 

@@ -154,7 +154,6 @@ class Songbook(object):
         context['filename'] = output.name[:-4]
 
         self._set_songs_default(context)
-        print(self.contentlist.content)
         renderer.render_tex(output, context)
 
 

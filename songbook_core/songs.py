@@ -108,7 +108,7 @@ class SongbookContent(object):
         data = parsetex(filename)
         song = Song(filename, data['languages'], data['titles'], data['args'])
         self.content.append(("song", song))
-    
+
     def append(self, type, value):
         """ Append a generic element to the content list"""
         self.content.append((type, value))

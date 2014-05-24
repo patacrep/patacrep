@@ -10,12 +10,6 @@ import songbook.content
 class Example(songbook.content.Content):
     """Content item of type 'example'."""
 
-    def __init__(self):
-        """Initialization.
-
-        No signature is imposed."""
-        pass
-
     def render(self, TODO):
         """Render this content item.
 
@@ -52,6 +46,7 @@ class Example(songbook.content.Content):
 
     def end_block(self, TODO):
         """Return the string to end a block."""
+        return ""
 
 
 def parse(keyword, arguments):

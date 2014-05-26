@@ -41,15 +41,9 @@
    \usepackage{graphicx}
    \graphicspath{{((datadir))/img/}}
 
-
-   \definecolor{tango-green-3}{HTML}{4e9a06}
-   \definecolor{tango-blue-3}{HTML}{204a87}
-   \usepackage[bookmarks,
-                   bookmarksopen,
-                   hyperfigures=true,
-                   colorlinks=true,
-                   linkcolor=tango-green-3,
-                   urlcolor=tango-blue-3]{hyperref}
+   \makeatletter
+   \@ifpackageloaded{hyperref}{}{\newcommand{\phantomsection}{}}
+   \makeatother
 (* endblock *)
 
 (* block songs *)

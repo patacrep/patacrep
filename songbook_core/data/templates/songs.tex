@@ -81,6 +81,7 @@
 
    \makeatletter
    \@ifpackageloaded{hyperref}{}{\newcommand{\phantomsection}{}}
+   \@ifpackageloaded{hyperref}{}{\newcommand{\hyperlink}[2]{#2}}
    \makeatother
 (* endblock *)
 

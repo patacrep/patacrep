@@ -1,0 +1,354 @@
+% Chords package for patacrep songbook
+% Define command \chords to display list of chords, for guitar or ukulele
+\ProvidesPackage{chords}
+\RequirePackage{songs}
+\newcommand*{\Sharp}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small\bf \#}}
+\newcommand*{\Flat}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small$\mathbf{\flat}$}}
+\newcommand*{\chordrule}{\mbox{\hspace{1cm}\rule[0.5cm]{15cm}{0.02cm}}\vspace{-.4cm}}
+\newcommand*{\chordname}[1]{\makebox[3cm]{\raisebox{.5cm}{\large \textbf{#1}}}}
+
+\newcommand{\chordnameAsharp}{\printnoteA{}\Sharp = \printnoteB{}\Flat}
+\newcommand{\chordnameA}{\printnoteA{}}
+\newcommand{\chordnameB}{\printnoteB{}}
+\newcommand{\chordnameCsharp}{\printnoteC{}\Sharp = \printnoteD{}\Flat}
+\newcommand{\chordnameC}{\printnoteC{}}
+\newcommand{\chordnameDsharp}{\printnoteD{}\Sharp = \printnoteE{}\Flat}
+\newcommand{\chordnameD}{\printnoteD{}}
+\newcommand{\chordnameE}{\printnoteE{}}
+\newcommand{\chordnameFsharp}{\printnoteF{}\Sharp = \printnoteG{}\Flat}
+\newcommand{\chordnameF}{\printnoteF{}}
+\newcommand{\chordnameGsharp}{\printnoteG{}\Sharp = \printnoteA{}\Flat}
+\newcommand{\chordnameG}{\printnoteG{}}
+
+\AtBeginDocument{
+    % Default names (english)
+    \newcommand{\guitarchordsname}{Guitar chords}
+    \newcommand{\ukulelechordsname}{Ukulele chords}
+
+    \IfStrEq{\mainlanguage}{french}{
+        % French names
+        \renewcommand{\guitarchordsname}{Accords de guitare}
+        \renewcommand{\ukulelechordsname}{Accords de ukulélé}
+    }{}
+}
+
+
+\newcommand{\chords}{
+  \begin{songs}{}
+    %hide song number
+    \definecolor{SongNumberBgColor}{HTML}{FFFFFF}
+    \renewcommand{\snumbgcolor}{SongNumberBgColor}
+    \renewcommand{\printsongnum}[1]{}
+    \setlength{\songnumwidth}{0.1cm}
+    \songcolumns{1}
+
+    \ifguitar
+    \beginsong{\guitarchordsname}
+    \chordname{\chordnameC}
+    \gtab{\printnoteC{}}{~:X32010}
+    \gtab{\printnoteC{}7}{~:X32310}
+    \gtab{\printnoteC{}m}{3:X02210}
+    \gtab{\printnoteC{}m7}{3:X02010}
+    \hspace{1cm}
+    \gtab*{\printnoteC{}7M}{~:332000}
+    \gtab*{\printnoteC{}4}{~:X32011}
+    \gtab*{\printnoteC{}7}{1:X2120X}
+    \gtab*{\printnoteC{}6}{~:XX2213}
+    \chordrule
+
+    \chordname{\chordnameCsharp}
+    \gtab{\printnoteC{}\#}{4:X02220}
+    \gtab{\printnoteC{}\#7}{4:X02020}
+    \gtab{\printnoteC{}\#m}{4:X02210}
+    \gtab{\printnoteC{}\#m7}{5:XX2213}
+    \hspace{1cm}
+    \gtab*{\printnoteC{}\#7M}{1:X32000}
+    \gtab*{\printnoteC{}\#4}{2:X21000}
+    \gtab*{\printnoteC{}\#7}{2:X2120X}
+    \gtab*{\printnoteC{}\#6}{1:X02010}
+    \chordrule
+
+    \chordname{\chordnameD}
+    \gtab{\printnoteD{}}{~:XX0232}
+    \gtab{\printnoteD{}7}{~:XX0212}
+    \gtab{\printnoteD{}m}{~:XX0231}
+    \gtab{\printnoteD{}m7}{~:XX0211}
+    \hspace{1cm}
+    \gtab*{\printnoteD{}7M}{~:X00222}
+    \gtab*{\printnoteD{}4}{~:X00233}
+    \gtab*{\printnoteD{}7}{3:X2120X}
+    \gtab*{\printnoteD{}6}{~:X00202}
+    \chordrule
+
+    \chordname{\chordnameDsharp}
+    \gtab{\printnoteD{}\#}{6:X02220}
+    \gtab{\printnoteD{}\#7}{6:X02020}
+    \gtab{\printnoteD{}\#m}{6:X02210}
+    \gtab{\printnoteD{}\#m7}{~:XX1322}
+    \hspace{1cm}
+    \gtab*{\printnoteD{}\#7M}{3:022010}
+    \gtab*{\printnoteD{}\#4}{4:X21000}
+    \gtab*{\printnoteD{}\#7}{4:X2120X}
+    \gtab*{\printnoteD{}\#6}{1:X00202}
+    \chordrule
+
+    \chordname{\chordnameE}
+    \gtab{\printnoteE{}}{~:022100}
+    \gtab{\printnoteE{}7}{~:020100}
+    \gtab{\printnoteE{}m}{~:022000}
+    \gtab{\printnoteE{}m7}{~:022030}
+    \hspace{1cm}
+    \gtab*{\printnoteE{}7M}{~:021100}
+    \gtab*{\printnoteE{}4}{~:02220}
+    \gtab*{\printnoteE{}7}{5:X2120X}
+    \gtab*{\printnoteE{}6}{~:022120}
+    \chordrule
+
+    \chordname{\chordnameF}
+    \gtab{\printnoteF{}}{1:022100}
+    \gtab{\printnoteF{}7}{1:020100}
+    \gtab{\printnoteF{}m}{1:022000}
+    \gtab{\printnoteF{}m7}{1:020000}
+    \hspace{1cm}
+    \gtab*{\printnoteF{}7M}{~:XX3210}
+    \gtab*{\printnoteF{}4}{1:022200}
+    \gtab*{\printnoteF{}7}{6:X2120X}
+    \gtab*{\printnoteF{}6}{~:XX0211}
+    \chordrule
+
+    \chordname{\chordnameFsharp}
+    \gtab{\printnoteF{}\#}{2:022100}
+    \gtab{\printnoteF{}\#7}{2:020100}
+    \gtab{\printnoteF{}\#m}{2:022000}
+    \gtab{\printnoteF{}\#m7}{2:020000}
+    \hspace{1cm}
+    \gtab*{\printnoteF{}\#7M}{~:XX4321}
+    \gtab*{\printnoteF{}\#4}{2:022200}
+    \gtab*{\printnoteF{}\#7}{7:X2120X}
+    \gtab*{\printnoteF{}\#6}{~:XX1322}
+    \chordrule
+
+    \chordname{\chordnameG}
+    \gtab{\printnoteG{}}{~:320003}
+    \gtab{\printnoteG{}7}{~:320001}
+    \gtab{\printnoteG{}m}{3:022000}
+    \gtab{\printnoteG{}m7}{3:020000}
+    \hspace{1cm}
+    \gtab*{\printnoteG{}7M}{~:XX0002}
+    \gtab*{\printnoteG{}4}{3:022200}
+    \gtab*{\printnoteG{}7}{3:020200}
+    \gtab*{\printnoteG{}6}{~:320000}
+    \chordrule
+
+    \chordname{\chordnameGsharp}
+    \gtab{\printnoteG{}\#}{4:022100}
+    \gtab{\printnoteG{}\#7}{4:020100}
+    \gtab{\printnoteG{}\#m}{4:022000}
+    \gtab{\printnoteG{}\#m7}{4:020000}
+    \hspace{1cm}
+    \gtab*{\printnoteG{}\#7M}{3:XX4321}
+    \gtab*{\printnoteG{}\#4}{4:022200}
+    \gtab*{\printnoteG{}\#7}{~:XX1122}
+    \gtab*{\printnoteG{}\#6}{~:XX1111}
+    \chordrule
+
+    \chordname{\chordnameA}
+    \gtab{\printnoteA{}}{~:X02220}
+    \gtab{\printnoteA{}7}{~:X02020}
+    \gtab{\printnoteA{}m}{~:X02210}
+    \gtab{\printnoteA{}m7}{~:X02213}
+    \hspace{1cm}
+    \gtab*{\printnoteA{}7M}{~:X02120}
+    \gtab*{\printnoteA{}4}{~:X02230}
+    \gtab*{\printnoteA{}7}{~:X02233}
+    \gtab*{\printnoteA{}6}{~:XX2222}
+    \chordrule
+
+    \chordname{\chordnameAsharp}
+    \gtab{\printnoteA{}\#}{1:X02220}
+    \gtab{\printnoteA{}\#7}{1:X02020}
+    \gtab{\printnoteA{}\#m}{1:X02210}
+    \gtab{\printnoteA{}\#m7}{1:X02010}
+    \hspace{1cm}
+    \gtab*{\printnoteA{}\#7M}{1:X02120}
+    \gtab*{\printnoteA{}\#4}{1:X02230}
+    \gtab*{\printnoteA{}\#7}{~:XX3344}
+    \gtab*{\printnoteA{}\#6}{~:XX3333}
+    \chordrule
+
+    \chordname{\chordnameB}
+    \gtab{\printnoteB{}}{2:X02220}
+    \gtab{\printnoteB{}7}{X21202}
+    \gtab{\printnoteB{}m}{2:X02210}
+    \gtab{\printnoteB{}m7}{~:X00202}
+    \hspace{1cm}
+    \gtab*{\printnoteB{}7M}{2:X02120}
+    \gtab*{\printnoteB{}4}{2:X02230}
+    \gtab*{\printnoteB{}7}{~:X22202}
+    \gtab*{\printnoteB{}6}{~:XX4444}
+
+    \begin{verse*}
+      \musicnote[french]{Accordage standard : {\nolyrics \[\printnoteE{} \printnoteA{} \printnoteD{} \printnoteG{} \printnoteB{} \printnoteE{}]}}
+      \musicnote[english]{Standard tuning: {\nolyrics \[\printnoteE{} \printnoteA{} \printnoteD{} \printnoteG{} \printnoteB{} \printnoteE{}]}}
+    \end{verse*}
+
+    \endsong
+    \fi
+
+    \ifukulele
+    \beginsong{\ukulelechordsname}
+
+    \chordname{\chordnameC}
+    \utab{\printnoteC{}}{~:0003}
+    \utab{\printnoteC{}7}{~:0001}
+    \utab{\printnoteC{}m}{~:0333}
+    \utab{\printnoteC{}m7}{3:0000}
+    \hspace{1cm}
+    \utab*{\printnoteC{}7M}{~:0002}
+    \utab*{\printnoteC{}6}{~:0000}
+    \utab*{\printnoteC{}aug}{~:1003}
+    \utab*{\printnoteC{}dim}{2:3101}
+    \chordrule
+
+    \chordname{\chordnameCsharp}
+    \utab{\printnoteC{}\#}{1:0003}
+    \utab{\printnoteC{}\#7}{1:0001}
+    \utab{\printnoteC{}\#m}{~:1104}
+    \utab{\printnoteC{}\#m7}{4:0000}
+    \hspace{1cm}
+    \utab*{\printnoteC{}\#7M}{1:0002}
+    \utab*{\printnoteC{}\#6}{1:0000}
+    \utab*{\printnoteC{}\#aug}{~:2110}
+    \utab*{\printnoteC{}\#dim}{~:0104}
+    \chordrule
+
+    \chordname{\chordnameD}
+    \utab{\printnoteD{}}{~:2220}
+    \utab{\printnoteD{}7}{2:0001}
+    \utab{\printnoteD{}m}{~:2210}
+    \utab{\printnoteD{}m7}{1:1102}
+    \hspace{1cm}
+    \utab*{\printnoteD{}7M}{2:0002}
+    \utab*{\printnoteD{}6}{2:0000}
+    \utab*{\printnoteD{}aug}{1:2110}
+    \utab*{\printnoteD{}dim}{1:0104}
+    \chordrule
+
+    \chordname{\chordnameDsharp}
+    \utab{\printnoteD{}\#}{1:2220}
+    \utab{\printnoteD{}\#7}{3:0001}
+    \utab{\printnoteD{}\#m}{1:2210}
+    \utab{\printnoteD{}\#m7}{2:1102}
+    \hspace{1cm}
+    \utab*{\printnoteD{}\#7M}{3:0002}
+    \utab*{\printnoteD{}\#6}{3:0000}
+    \utab*{\printnoteD{}\#aug}{~:0332}
+    \utab*{\printnoteD{}\#dim}{~:2320}
+    \chordrule
+
+    \chordname{\chordnameE}
+    \utab{\printnoteE{}}{2:2220}
+    \utab{\printnoteE{}7}{~:1202}
+    \utab{\printnoteE{}m}{~:0432}
+    \utab{\printnoteE{}m7}{~:0202}
+    \hspace{1cm}
+    \utab*{\printnoteE{}7M}{~:1302}
+    \utab*{\printnoteE{}6}{~:1102}
+    \utab*{\printnoteE{}aug}{1:0000}
+    \utab*{\printnoteE{}dim}{1:2320}
+    \chordrule
+
+    \chordname{\chordnameF}
+    \utab{\printnoteF{}}{~:2010}
+    \utab{\printnoteF{}7}{~:2310}
+    \utab{\printnoteF{}m}{~:1013}
+    \utab{\printnoteF{}m7}{1:0202}
+    \hspace{1cm}
+    \utab*{\printnoteF{}7M}{1:1302}
+    \utab*{\printnoteF{}6}{1:1102}
+    \utab*{\printnoteF{}aug}{~:2110}
+    \utab*{\printnoteF{}dim}{2:2320}
+    \chordrule
+
+    \chordname{\chordnameFsharp}
+    \utab{\printnoteF{}\#}{1:2010}
+    \utab{\printnoteF{}\#7}{1:2310}
+    \utab{\printnoteF{}\#m}{~:2120}
+    \utab{\printnoteF{}\#m7}{2:0202}
+    \hspace{1cm}
+    \utab*{\printnoteF{}\#7M}{2:1302}
+    \utab*{\printnoteF{}\#6}{~:0202}
+    \utab*{\printnoteF{}\#aug}{1:2110}
+    \utab*{\printnoteF{}\#dim}{~:2020}
+    \chordrule
+
+    \chordname{\chordnameG}
+    \utab{\printnoteG{}}{~:0232}
+    \utab{\printnoteG{}7}{~:0212}
+    \utab{\printnoteG{}m}{~:0231}
+    \utab{\printnoteG{}m7}{~:0211}
+    \hspace{1cm}
+    \utab*{\printnoteG{}7M}{~:0222}
+    \utab*{\printnoteG{}6}{~:0202}
+    \utab*{\printnoteG{}aug}{~:0332}
+    \utab*{\printnoteG{}dim}{~:0131}
+    \chordrule
+
+    \chordname{\chordnameGsharp}
+    \utab{\printnoteG{}\#}{3:2010}
+    \utab{\printnoteG{}\#7}{1:0212}
+    \utab{\printnoteG{}\#m}{1:0231}
+    \utab{\printnoteG{}\#m7}{1:0211}
+    \hspace{1cm}
+    \utab*{\printnoteG{}\#7M}{1:0222}
+    \utab*{\printnoteG{}\#6}{1:0202}
+    \utab*{\printnoteG{}\#aug}{~:1003}
+    \utab*{\printnoteG{}\#dim}{1:0131}
+    \chordrule
+
+    \chordname{\chordnameA}
+    \utab{\printnoteA{}}{~:2100}
+    \utab{\printnoteA{}7}{~:0100}
+    \utab{\printnoteA{}m}{~:2000}
+    \utab{\printnoteA{}m7}{~:0000}
+    \hspace{1cm}
+    \utab*{\printnoteA{}7M}{~:1100}
+    \utab*{\printnoteA{}6}{2:0202}
+    \utab*{\printnoteA{}aug}{~:2110}
+    \utab*{\printnoteA{}dim}{2:0131}
+    \chordrule
+
+    \chordname{\chordnameAsharp}
+    \utab{\printnoteA{}\#}{1:2100}
+    \utab{\printnoteA{}\#7}{1:0100}
+    \utab{\printnoteA{}\#m}{1:2000}
+    \utab{\printnoteA{}\#m7}{1:0000}
+    \hspace{1cm}
+    \utab*{\printnoteA{}\#7M}{1:1100}
+    \utab*{\printnoteA{}\#6}{~:0211}
+    \utab*{\printnoteA{}\#aug}{1:2110}
+    \utab*{\printnoteA{}\#dim}{~:3101}
+    \chordrule
+
+    \chordname{\chordnameB}
+    \utab{\printnoteB{}}{2:2100}
+    \utab{\printnoteB{}7}{2:0100}
+    \utab{\printnoteB{}m}{2:2000}
+    \utab{\printnoteB{}m7}{2:0000}
+    \hspace{1cm}
+    \utab*{\printnoteB{}7M}{2:1100}
+    \utab*{\printnoteB{}6}{1:0211}
+    \utab*{\printnoteB{}aug}{~:0332}
+    \utab*{\printnoteB{}dim}{1:3101}
+
+    \begin{verse*}
+      \musicnote[french]{Accordage standard : {\nolyrics \[\printnoteG{} \printnoteC{} \printnoteE{} \printnoteA{}]}}
+      \musicnote[english]{Standard tuning: {\nolyrics \[\printnoteG{} \printnoteC{} \printnoteE{} \printnoteA{}]}}
+    \end{verse*}
+
+    \endsong
+    \fi
+
+  \end{songs}
+}
+\endinput

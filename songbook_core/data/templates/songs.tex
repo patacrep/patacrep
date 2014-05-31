@@ -1,0 +1,103 @@
+%! Copyright (C) 2014 The Songbook team (www.patacrep.com)
+%!
+%! This program is free software; you can redistribute it and/or
+%! modify it under the terms of the GNU General Public License
+%! as published by the Free Software Foundation; either version 2
+%! of the License, or (at your option) any later version.
+%!
+%! This program is distributed in the hope that it will be useful,
+%! but WITHOUT ANY WARRANTY; without even the implied warranty of
+%! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%! GNU General Public License for more details.
+%!
+%! You should have received a copy of the GNU General Public License
+%! along with this program; if not, write to the Free Software
+%! Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+%! MA  02110-1301, USA.
+%!
+%! The latest version of this program can be obtained from
+%! https://github.com/patacrep/
+
+(* variables *)
+{
+"instruments": {"description": {"english": "Instruments", "french": "Instruments"},
+               "type": "flag",
+               "values": {"guitar": {"english": "Guitare", "french": "Guitare"},
+                          "ukulele": {"english": "Ukulele", "french": "Ukulele"}
+                         },
+               "join": ",",
+               "mandatory": true,
+               "default": {"default":["guitar"]}
+            },
+"bookoptions": {"description": {"english": "Options", "french": "Options"},
+               "type": "flag",
+               "values": {"diagram": {"english": "Chords diagrams", "french": "Diagrammes d'accords"},
+                          "importantdiagramonly": {"english": "Only importants diagrames", "french": "Diagrammes importants uniquement"},
+                          "lilypond": {"english": "Lilypond music sheets", "french": "Partitions lilypond"},
+                          "pictures": {"english": "Cover pictures", "french": "Couvertures d'albums"},
+                          "tabs": {"english": "Tablatures", "french": "Tablatures"},
+                          "repeatchords": {"english": "Repeat chords", "french": "Répéter les accords"},
+                          "onesongperpage": {"english": "One song per page", "french": "Une chanson par page"}
+                       },
+               "join": ",",
+               "mandatory": true,
+               "default": {"default":["diagram","pictures"]}
+            },
+"booktype": {"description": {"english": "Type", "french": "Type"},
+            "type": "enum",
+            "values": {"chorded": {"english": "With guitar chords", "french": "Avec accords de guitare" },
+                                   "lyric": {"english": "Lyrics only", "french": "Paroles uniquement"}
+                     },
+            "default": {"default":"chorded"}, 
+            "mandatory": true
+            },
+"lang": {"description": {"english": "Language", "french": "Langue"},
+         "default": {"english": "english", "french": "french"}
+      }
+}
+(* endvariables *)
+
+(* extends "layout.tex" *)
+
+(* block songbookpackages *)
+\usepackage[((booktype)),
+            (* for option in bookoptions *)((option)),
+            (* endfor *)
+            (* for instrument in instruments *)((instrument)),
+            (* endfor *)]{SongbookUtils}
+(* endblock *)
+
+(* block songbookpreambule *)
+   (( super() ))
+
+   (* for lang in content.languages() *)
+   \PassOptionsToPackage{((lang))}{babel}
+   (* endfor *)
+   \usepackage[((lang))]{babel}
+   \lang{((lang))}
+
+   \usepackage{graphicx}
+   \graphicspath{{((datadir))/img/}}
+
+   \makeatletter
+   \@ifpackageloaded{hyperref}{}{\newcommand{\phantomsection}{}}
+   \@ifpackageloaded{hyperref}{}{\newcommand{\hyperlink}[2]{#2}}
+   \makeatother
+(* endblock *)
+
+(* block songs *)
+   \phantomsection
+   \addcontentsline{toc}{section}{\songlistname}
+
+   \begin{songs}{((indexes|default('')))}
+      (* for type, elem in content.content *)
+      (* if type=="song" *)
+        \input{((elem.path))}
+      (* elif type=="section" *)
+        \end{songs}
+        \songsection{((elem))}
+        \begin{songs}{((indexes|default('')))}
+      (* endif *)
+      (* endfor *)
+   \end{songs}
+(* endblock *)

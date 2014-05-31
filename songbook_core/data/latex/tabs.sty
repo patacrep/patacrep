@@ -1,0 +1,82 @@
+% Tabs Package -- version 0.1 for LaTeX2e
+%
+% This package provide macros for tablatures creations
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{tabs}[2014/04/13 Tabs Package, version 0.1]
+
+\RequirePackage{tikz}
+
+% Counters
+\newcounter{tab-string}
+\newcounter{tab-tempo}
+\newcounter{tab-line}
+% Length
+\newlength{\tablen}
+% Variables
+\def\chordtuning{E,A,D,G,B,e}
+\def\xunit{0.35}
+\def\yunit{0.2}
+% The tab environmant
+% \begin{tab}
+\newenvironment{tab}
+{
+  \normalsize
+  \setcounter{tab-line}{0}
+  \setcounter{tab-tempo}{0}
+
+  \setlength{\tablen}{\xunit cm}
+
+  % A single note
+  % \single <string> <fret>
+  \newcommand{\single}[2]{
+    % draw tuning if we are at the beginining of a new tab line
+    \ifnum\value{tab-tempo}=0
+     \setcounter{tab-string}{6}
+     \foreach \tuning in \chordtuning
+     {
+       \node at (-1,\value{tab-line}+\value{tab-string}) {\tuning};
+       \addtocounter{tab-string}{-1}
+     }
+    \fi
+
+    % draw the 6 strings
+    \foreach \string in {1,...,6}
+    {
+      \draw[xshift=-0.5cm] (\value{tab-tempo},\value{tab-line}+\string) -- +(1,0);
+    }
+    \draw node[single] at (\value{tab-tempo},\value{tab-line}+##1) {##2};
+    \addtocounter{tab-tempo}{1}
+    \addtolength{\tablen}{\xunit cm}
+    \ifnum\hsize<\tablen
+      \addtocounter{tab-line}{8}
+      \setlength{\tablen}{\xunit cm}
+      \setcounter{tab-tempo}{0}
+      \end{tikzpicture}
+      \begin{tikzpicture}[
+        single/.style={},
+        cm={\xunit,0,0,-\yunit,(0,0)}
+      ]
+    \fi
+  }
+  % A mesure bar
+  % \bar
+  \renewcommand{\bar}{
+    \draw[xshift=-0.5cm] (\value{tab-tempo},\value{tab-line}+1) --+(0,5);
+  }
+
+  \hspace{-\parindent}
+  \begin{tikzpicture}[
+    single/.style={},
+    cm={\xunit,0,0,-\yunit,(0,0)}
+  ]
+
+  % draw the first bar
+  \draw[xshift=-0.5cm] (0,1) --+(0,5);
+}
+{
+  \end{tikzpicture}
+}
+\fi%
+
+\endinput

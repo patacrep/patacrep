@@ -1,0 +1,81 @@
+% *******************************************************************************
+% Example file to write an sg file.
+
+% Every line starting with a % is a comment that 
+% will not appear in the final pdf
+
+% Neither use special characters nor spaces for file names
+% Use the song title to name the .sg file (words separated by an _)
+% Use the album name for the file .jpg of the cover (words separated by an -)
+% Place ".sg" and ".jpg" files in a subdirectory named from artist name in ./songs
+
+% Refer to the Songs LaTeX Package documentation for advanced configuration
+% http://songs.sourceforge.net/songsdoc/songs.html
+
+% You may find complementary information in the Patacrep documentation file 
+% http://www.patacrep.com/data/documents/doc_en.pdf
+% *******************************************************************************
+
+\selectlanguage{english} %defines the song main language
+\songcolumns{2} %defines the number of columns
+
+% Sad robot: the song's title
+% Pornophonique : the artist's name
+% traditionnel : the file "8-bit-lagerfeuer.jpg" that corresponds to the album art
+% 8 bit lagerfeuer : the album whose song is extracted from 
+\beginsong{Sad robot}
+  [by={Pornophonique},cov={traditionnel},album={8 bit lagerfeuer}]
+
+  % inserts the album art (8-bit-lagerfeuer.jpg)
+  \cover
+  % \gtab{<chord>}{<fret>:<strings>} inserts a guitar chord diagram
+  % <chord> : the chord name to be placed above the diagram.
+  % <fret>  : represents the top fret of the diagram (any number from 1 to 9).
+  % <strings> : series of six symbols, one for each string of the guitar from lowest pitch to highest. 
+  % Each symbol should be one of: X if that string is not to be played, 0 (zero or the letter O) if that 
+  % string is to be played open, or one of 1 through 9 if that string is to be played on the given numbered fret.
+  \gtab{D}{XX0231}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+
+  % insert a chord right before the corresponding syllabe (no space)
+  % put a verse between \begin{verse} and \end{verse}
+  % put a chorus between \begin{chorus} and \end{chorus}
+  % \begin{verse*} defines a not numbered verse
+  % use the \rep{n} macro for a sentence repeated n times
+  % use the \echo{text} macro for background singing lyrics
+
+  %\lilypond{Sad_robot} % inserts the music sheet corresponding to the Sad_robot.ly file in the same directory as this .sg file.
+
+  % verse environments are automatically numbered
+  \begin{verse}
+    His \[Dm]steely skin is covered
+    By \[F]centuries of dust
+    \[C]Once he was a great one
+    \[Dm]Now he's dull and rust
+  \end{verse}
+
+  % repeatedchords environments allow to show (for sufficiency)
+  % or hide (for readability) duplicated chords
+  \begin{repeatedchords}
+    \begin{verse*}
+      An \[Dm]oily tear he's crying
+      \[F]Can you feel the pain
+      Of the \[C]sad, sad robot
+      And it's \[Dm]driving him insane
+    \end{verse*}
+
+    \begin{verse*}
+      He can't \[Dm]turn back time nor history
+      So his \[F]life became a misery
+      He \[C]has to face the destiny
+      Nobody \[Dm]cares anymore
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Sad, sad robot \rep{3}
+    All alone
+  \end{chorus}
+  
+\endsong

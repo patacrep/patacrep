@@ -1,0 +1,96 @@
+%! Copyright (C) 2014 The Songbook team (www.patacrep.com)
+%!
+%! This program is free software; you can redistribute it and/or
+%! modify it under the terms of the GNU General Public License
+%! as published by the Free Software Foundation; either version 2
+%! of the License, or (at your option) any later version.
+%!
+%! This program is distributed in the hope that it will be useful,
+%! but WITHOUT ANY WARRANTY; without even the implied warranty of
+%! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%! GNU General Public License for more details.
+%!
+%! You should have received a copy of the GNU General Public License
+%! along with this program; if not, write to the Free Software
+%! Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+%! MA  02110-1301, USA.
+%!
+%! The latest version of this program can be obtained from
+%! https://github.com/patacrep/
+
+
+(* variables *)
+{
+"songnumberbgcolor": {"description": {"english": "Number Shade", "french": "Couleur des numéros"},
+                     "type": "color",
+                     "default": {"default": "D1E4AE"}
+                  },
+"notebgcolor": {"description": {"english": "Note Shade", "french": "Couleur des notes"},
+               "type": "color",
+               "default": {"default": "D1E4AE"}
+            },
+"indexbgcolor": {"description": {"english": "Index Shade", "french": "Couleur d'index"},
+               "type": "color",
+               "default": {"default": "D1E4AE"}
+            },
+"titleprefixwords": {"description": {"english": "Ignore some words in the beginning of song titles",
+                                     "french": "Ignore des mots dans le classement des chansons"},
+                     "default": {"default": ["The", "Le", "La", "L'", "A", "Au", "Ces", "De",
+                     						 "Des", "El", "Les", "Ma", "Mon", "Un"]}
+                     }
+}
+(* endvariables *)
+
+(* extends "default.tex" *)
+
+(* block songbookpackages *)
+%! booktype, bookoptions and instruments are defined in "songs.tex"
+\usepackage[((booktype)),
+            (* for option in bookoptions *)((option)),
+            (* endfor *)
+            (* for instrument in instruments *)((instrument)),
+            (* endfor *)]{crepbook}
+(* endblock *)
+
+(* block songbookpreambule *)
+   \usepackage[
+     a4paper % paper size
+     ,includeheadfoot % include header and footer into text size
+     ,hmarginratio=1:1 % ratio between inner and outer margin (default)
+     ,outer=1.8cm % outer margin (right)
+     ,vmarginratio=1:1 % ratio between top and bottom margin
+     ,bmargin=1.3cm % bottom margin
+     ]{geometry}
+
+  (( super() ))
+
+   \pagestyle{empty}
+
+   \definecolor{SongNumberBgColor}{HTML}{((songnumberbgcolor))}
+   \definecolor{NoteBgColor}{HTML}{((notebgcolor))}
+   \definecolor{IndexBgColor}{HTML}{((indexbgcolor))}
+
+   \renewcommand{\snumbgcolor}{SongNumberBgColor}
+   \renewcommand{\notebgcolor}{NoteBgColor}
+   \renewcommand{\idxbgcolor}{IndexBgColor}
+
+  \definecolor{tango-green-3}{HTML}{4e9a06}
+  \definecolor{tango-blue-3}{HTML}{204a87}
+  \usepackage[bookmarks,
+                  bookmarksopen,
+                  hyperfigures=true,
+                  colorlinks=true,
+                  linkcolor=tango-green-3,
+                  urlcolor=tango-blue-3]{hyperref}
+
+
+   \subtitle{((subtitle))}
+   (* if version!="unknown" *)
+      \version{((version))}
+   (* endif *)
+   \mail{((mail))}
+   \web{((web))}
+   \picture{((picture))}
+   \picturecopyright{((picturecopyright))}
+   \footer{((footer))}
+(* endblock *)

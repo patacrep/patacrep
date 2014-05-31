@@ -1,0 +1,22 @@
+{
+"template" : "patacrep.tex",
+"bookoptions" : [
+    "importantdiagramonly",
+    "repeatchords",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"lang" : "french",
+"authwords" : {
+  "sep" : ["and", "et"]
+  },
+ "datadir" : ".",
+ "content" : [["section", "Traditional"],
+                "chevaliers_de_la_table_ronde.sg",
+                "greensleeves.sg",
+                "vent_frais.sg",
+                ["section", "Example"],
+                "example-fr.sg",
+                "example-en.sg"]
+}

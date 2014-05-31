@@ -1,0 +1,221 @@
+% Crepbook Package -- version 0.1 for LaTeX2e
+%
+% This package is intended to be used with the songbook Python program (and its
+% interfaces).
+% It defines some layout for automatic songbook generation.
+% See http://github.com/patacrep/songbook-core/
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{crepbook}[2014/04/13 Crepbook Package, version 0.1]
+
+% fancy-capo: When a capo is necessary, use a picture instead of text.
+\newif{\iffancycapo}
+\DeclareOption{fancy-capo}{\fancycapotrue}
+
+% nocustomtitle: Disable title page fancy definition (back to LaTeX default)
+\newif{\ifcustomtitle}
+\customtitletrue
+\DeclareOption{nocustomtitle}{\customtitlefalse}
+
+% nocustomfonts: Disable fancy fonts definition (back to LaTeX default)
+\newif{\ifcustomfonts}
+\customfontstrue
+\DeclareOption{nocustomfonts}{\customfontsfalse}
+
+% Remaining options are passed to the SongbookUtils package
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{SongbookUtils}}
+
+\ProcessOptions\relax
+
+\RequirePackage{SongbookUtils}
+
+\ifpictures
+    \fancycapotrue
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Layout tweaks
+
+% Configuration of the songs package
+% Horizontal space reserved to verse number
+\setlength{\versenumwidth}{1em}
+% Modifier to the space between consecutive lines of lyrics
+\baselineadj=-6pt plus 0pt minus 2pt
+% Space between verses and chorus
+\versesep=6pt plus 2pt minus 2pt
+
+
+
+% Paragraph indentation space
+\setlength{\parindent}{0.3cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multilanguage management
+
+\AtBeginDocument{
+    % Default names (english)
+    \def\labelversionname{Version:}
+    \def\labeldatename{Date:}
+    \def\labelauthorname{Authors:}
+    \def\labelwebname{Web:}
+    \def\labelmailname{Email:}
+    
+    \IfStrEq{\mainlanguage}{french}{
+        % French names
+        \def\labelversionname{Version~:}
+        \def\labeldatename{Date~:}
+        \def\labelauthorname{Auteurs~:}
+        \def\labelwebname{Web~:}
+        \def\labelmailname{Mail~:}
+    }{}
+}
+
+% End of multilanguage management
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+\long\def\subtitle#1{\long\def\@subtitle{#1}}
+\def\version#1{\def\@version{#1}}
+\def\web#1{\def\@web{#1}}
+\def\mail#1{\def\@mail{#1}}
+\def\email#1{\def\@email{#1}}
+\def\picture#1{\def\@picture{#1}}
+\def\picturecopyright#1{\def\@picturecopyright{#1}}
+\def\footer#1{\def\@footer{#1}}
+
+\def\clearheadinfo{
+    \author{}%
+    \title{No title}%
+    \subtitle{}%
+    \version{}%
+    \web{}%
+    \mail{}%
+    \email{}%
+    \picture{}%
+    \picturecopyright{}%
+}
+
+\clearheadinfo
+
+\ifcustomtitle
+  \def\maketitle{
+      \@maketitle
+      \clearheadinfo
+  }
+\fi
+
+
+\newcounter{@inst}
+\newcounter{@auth}
+\newcounter{auco}
+
+\ifcustomtitle
+  \def\@titlefont{\Huge\bfseries\boldmath}
+  \def\@subtitlefont{\large\bfseries\boldmath}
+
+
+  \def\@getelement#1{\csname @#1\endcsname}
+  \def\@labelelement#1{\csname label#1name\endcsname}
+  \def\@insertelement#1{\if!\@getelement{#1}!
+                        \else %
+                        \@labelelement{#1}& %
+                        \@getelement{#1} \cr %
+                        \fi %
+  }
+  \def\@metainfos{%
+      \ialign{%
+          \bf{##} \hfil & ## \hfil \cr % Lines definition
+          \@insertelement{version} %
+          \@insertelement{date} %
+          \@insertelement{author} %
+          \@insertelement{web} %
+          \@insertelement{mail} %
+      }
+  }
+  \def\@placepicture[#1, #2]{%
+          \includegraphics[keepaspectratio=true, #1, #2]{\@picture}
+          \vskip1em
+          {\hfil\hbox{\small \@picturecopyright}}
+  }
+
+  \def\@maketitle{
+      \def\and{\unskip,\cr&}
+      \begin{titlepage}
+          \thispagestyle{empty}
+          \begin{center}
+              {\rule{\textwidth}{1mm}}
+              {\@titlefont\@title\par}
+              \if!\@subtitle!\else 
+                  {\hfil\@subtitlefont\@subtitle\par}
+              \fi
+              {\rule{\textwidth}{1mm}}
+          \end{center}
+          \vfil
+          \ifdim \paperwidth < \paperheight
+             \@metainfos
+             \vfill
+             \begin{center}
+                 \@placepicture[width=.8\textwidth, height=.5\textheight]
+             \end{center}
+          \else
+             \begin{minipage}{.3\textwidth}
+                \@metainfos
+             \end{minipage}
+             \begin{minipage}{.7\textwidth}
+                \hfill%
+                \@placepicture[width=\textwidth, height=.6\textheight]
+             \end{minipage}
+          \fi
+          \vfil
+          \begin{flushright}
+          {\hfil\rule{.4\textwidth}{.75pt}\par}
+          \@footer
+          \end{flushright}
+      \end{titlepage}
+  }
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancy capo
+\iffancycapo %
+    \newlength{\capoheight}
+    \setlength{\capoheight}{1.5cm}
+    \renewcommand\capo[1]{%
+        \iftranscapos%
+            \transpose{#1}%
+        \fi%
+        \mbox{%
+            \includegraphics[height=\capoheight]{capodastre}%
+            \put(-22,8){\Large #1}
+            }%
+    }
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fonts definitions
+\ifcustomfonts
+  \def\chordfont#1{\gdef\@chordfont{#1}}
+  \def\@chordfont{\small\it}
+
+  \renewcommand{\idxtitlefont}{\sffamily\bfseries}
+  \renewcommand{\idxauthfont}{\sffamily\bfseries}
+  \renewcommand{\idxheadfont}{\sffamily\it\LARGE}
+  \renewcommand{\idxrefsfont}{\bfseries}
+  \renewcommand{\stitlefont}{\LARGE\bf}
+  \renewcommand{\printchord}[1]{\@chordfont #1}
+  \renewcommand{\chorusfont}{\it}
+  \renewcommand{\lyricfont}{\normalfont\normalsize}
+  \renewcommand{\showauthors}{%
+      \hbox{\normalsize\songauthors}%
+  }
+\fi
+
+\titleprefixword{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\endinput

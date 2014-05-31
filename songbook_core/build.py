@@ -250,7 +250,8 @@ class SongbookBuilder(object):
                 ["pdflatex"] + self._pdflatex_options + [self.basename],
                 stdin=PIPE,
                 stdout=PIPE,
-                stderr=PIPE)
+                stderr=PIPE,
+                env=os.environ)
         if not self.interactive:
             process.stdin.close()
         log = ''

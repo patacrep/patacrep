@@ -57,9 +57,7 @@ class Songbook(object):
                 'lang': 'english',
                 'sort': [u"by", u"album", u"@title"],
                 'content': None,
-                'datadir': os.path.abspath('.'),
                 }
-        self.songslist = None
         self._parse_raw(raw_songbook)
 
     @staticmethod
@@ -94,7 +92,7 @@ class Songbook(object):
         are stored verbatim in self.config.
         """
         self.config.update(raw_songbook)
-        self.config['datadir'] = os.path.abspath(self.config['datadir'])
+        self._set_datadir()
 
         # Compute song list
         if self.config['content'] is None:
@@ -128,6 +126,23 @@ class Songbook(object):
         for (key, value) in DEFAULT_AUTHWORDS.items():
             if key not in self.config['authwords']:
                 self.config['authwords'][key] = value
+
+    def _set_datadir(self):
+        """Set the default values for datadir"""
+        try:
+            if isinstance(self.config['datadir'], str) or \
+               isinstance(self.config['datadir'], unicode):
+                self.config['datadir'] = [self.config['datadir']]
+        except KeyError:  # No datadir in the raw_songbook
+            self.config['datadir'] = [os.path.abspath('.')]
+
+        abs_datadir = []
+        for path in self.config['datadir']:
+            abs_datadir.append(os.path.abspath(path))
+
+        abs_datadir.append(__DATADIR__)
+
+        self.config['datadir'] = abs_datadir
 
     def _parse_songs(self):
         """Parse content included in songbook."""
@@ -186,18 +201,7 @@ class SongbookBuilder(object):
         return self._called_functions[function]
 
     def _set_latex(self):
-        """Set TEXINPUTS and LaTeX options."""
-        if not 'TEXINPUTS' in os.environ.keys():
-            os.environ['TEXINPUTS'] = ''
-        os.environ['TEXINPUTS'] += os.pathsep + os.path.join(
-                __DATADIR__,
-                'latex',
-                )
-        os.environ['TEXINPUTS'] += os.pathsep + os.path.join(
-                self.songbook.config['datadir'],
-                'latex',
-                )
-
+        """Set LaTeX options."""
         if self.unsafe:
             self._pdflatex_options.append("--shell-escape")
         if not self.interactive:

@@ -108,16 +108,22 @@ def main():
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))
         sys.exit(1)
 
+    datadirs = []
+    try:
+        for path in songbook['datadir']:
+            if not os.path.isabs(path):
+                datadirs.append(os.path.join(os.path.dirname(songbook_path),
+                                             path
+                                             )
+                                )
+    except KeyError:
+        datadirs = [os.path.dirname(songbook_path)]
 
     if options.datadir is not None:
-        songbook['datadir'] = options.datadir[0]
-    elif 'datadir' in songbook.keys():
-        if not os.path.isabs(songbook['datadir']):
-            songbook['datadir'] = os.path.join(os.path.dirname(songbook_path),
-                                               songbook['datadir']
-                                               )
-    else:
-        songbook['datadir'] = os.path.dirname(songbook_path)
+        datadirs = [options.datadir[0]].extend(datadirs)
+
+    songbook['datadir'] = datadirs
+
 
     try:
         sb_builder = SongbookBuilder(songbook, basename)

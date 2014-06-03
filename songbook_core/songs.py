@@ -131,7 +131,7 @@ class SongbookContent(object):
                 if len(self.content) == before:
                     # No songs were added
                     LOGGER.warning(
-                            "Expression '{}' did not match any file".format(regexp)
+                            "Expression '{}' did not match any file".format(elem)
                             )
             else:
                 self.append(type, elem)

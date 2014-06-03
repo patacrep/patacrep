@@ -116,6 +116,8 @@ def main():
                                              path
                                              )
                                 )
+            else:
+                datadirs.append(path)
     except KeyError:
         datadirs = [os.path.dirname(songbook_path)]
 

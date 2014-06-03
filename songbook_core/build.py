@@ -112,7 +112,7 @@ class Songbook(object):
             content = self.config["content"]
             self.config["content"] = []
             for elem in content:
-                if isinstance(elem, str) or isinstance(elem, unicode):
+                if isinstance(elem, basestring):
                     self.config["content"].append(("song", elem))
                 elif isinstance(elem, list):
                     self.config["content"].append((elem[0], elem[1]))
@@ -130,8 +130,7 @@ class Songbook(object):
     def _set_datadir(self):
         """Set the default values for datadir"""
         try:
-            if isinstance(self.config['datadir'], str) or \
-               isinstance(self.config['datadir'], unicode):
+            if isinstance(self.config['datadir'], basestring):
                 self.config['datadir'] = [self.config['datadir']]
         except KeyError:  # No datadir in the raw_songbook
             self.config['datadir'] = [os.path.abspath('.')]

@@ -26,23 +26,15 @@
 %%
 %% Generated using Songbook <http://www.patacrep.com>
 
-(* variables *)
-{
-"mainfontsize": {"description": {"english": "Font Size", "french": "Taille de police"},
-               "type":"font",
-               "default":{"default": "10"}
-            }
-}
-(* endvariables *)
-
-(* block documentclass *)
-\documentclass[((mainfontsize))pt]{article}
 \makeatletter
 \def\input@path{(* for dir in datadir *)
                  {((dir))/latex/} %
                  (* endfor *)
                  }
 \makeatother
+
+(* block documentclass *)
+\documentclass{article}
 (* endblock *)
 
 (* block songbookpackages *)

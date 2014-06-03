@@ -21,6 +21,12 @@
 
 (* variables *)
 {
+"classoptions": {"description": {"english": "LaTeX class options", "french": "Options de la classe LaTeX"},
+               "type": "flag",
+               "join": ",",
+               "mandatory": true,
+               "default": {"default":[]}
+            },
 "title": {"description": {"english": "Title", "french": "Titre"},
             "default": {"english": "Guitar songbook", "french": "Recueil de chansons pour guitare"},
             "mandatory":true
@@ -68,6 +74,12 @@
 
 (* extends "songs.tex" *)
 (* set indexes = "titleidx,authidx" *)
+
+(* block documentclass *)
+\documentclass[(* for option in classoptions *)
+            ((option)),
+          (* endfor *)]{article}
+(* endblock *)
 
 
 (* block songbookpreambule *)

@@ -90,11 +90,10 @@ def unprefixed_title(title, prefixes):
 class SongbookContent(object):
     """Manipulation et traitement de liste de chansons"""
 
-    def __init__(self, library):
-        self._songdir = os.path.join(library, 'songs')
-
-        # Sorted list of the content
-        self.content = []
+    def __init__(self, datadirs):
+        self.songdirs = [os.path.join(d, 'songs')
+                         for d in datadirs]
+        self.content = []  # Sorted list of the content
 
     def append_song(self, filename):
         """Ajout d'une chanson à la liste
@@ -124,12 +123,15 @@ class SongbookContent(object):
             if type == "song":
                 # Add all the songs matching the regex
                 before = len(self.content)
-                for filename in glob.iglob(os.path.join(self._songdir, elem)):
-                    self.append_song(filename)
+                for songdir in self.songdirs:
+                    for filename in glob.iglob(os.path.join(songdir, elem)):
+                        self.append_song(filename)
+                    if len(self.content) > before:
+                        break
                 if len(self.content) == before:
                     # No songs were added
                     LOGGER.warning(
-                            "Expression '{}' did not match any file".format(regexp)
+                            "Expression '{}' did not match any file".format(elem)
                             )
             else:
                 self.append(type, elem)

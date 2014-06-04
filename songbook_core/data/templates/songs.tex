@@ -48,7 +48,7 @@
             "values": {"chorded": {"english": "With guitar chords", "french": "Avec accords de guitare" },
                                    "lyric": {"english": "Lyrics only", "french": "Paroles uniquement"}
                      },
-            "default": {"default":"chorded"}, 
+            "default": {"default":"chorded"},
             "mandatory": true
             },
 "lang": {"description": {"english": "Language", "french": "Langue"},
@@ -77,7 +77,11 @@
    \lang{((lang))}
 
    \usepackage{graphicx}
-   \graphicspath{{((datadir))/img/}}
+   \graphicspath{(* for dir in datadir *)
+                 {((dir))/img/} %
+                 (* endfor *)
+                 }
+
 
    \makeatletter
    \@ifpackageloaded{hyperref}{}{\newcommand{\phantomsection}{}}

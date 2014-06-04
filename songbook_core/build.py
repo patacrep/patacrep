@@ -137,7 +137,10 @@ class Songbook(object):
 
         abs_datadir = []
         for path in self.config['datadir']:
-            abs_datadir.append(os.path.abspath(path))
+            if os.path.exists(path) and os.path.isdir(path):
+                abs_datadir.append(os.path.abspath(path))
+            else:
+                LOGGER.warning("Ignoring non-existent datadir '{}'.".format(path))
 
         abs_datadir.append(__DATADIR__)
 

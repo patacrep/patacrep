@@ -81,10 +81,6 @@ class TexRenderer(object):
         # Load templates in filesystem ...
         loaders = [FileSystemLoader(os.path.join(datadir, 'templates'))
                       for datadir in datadirs]
-        # or in the main package
-        loaders.append(PackageLoader(
-                         'songbook_core', os.path.join('data', 'templates')
-                      ))
         self.texenv = Environment(
                 loader=ChoiceLoader(loaders),
                 extensions=[VariablesExtension],

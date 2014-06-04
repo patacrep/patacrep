@@ -74,7 +74,7 @@ class TexRenderer(object):
         Arguments:
         - template: name of the template to use.
         - datadirs: list of locations of the data directory
-          (which max contain file <datadir>/templates/<template>).
+          (which may contain file <datadir>/templates/<template>).
         - lang: main language of songbook.
         '''
         self.lang = lang

@@ -110,6 +110,8 @@ def main():
 
     datadirs = []
     try:
+        if isinstance(songbook['datadir'], basestring):
+            songbook['datadir'] = [songbook['datadir']]
         for path in songbook['datadir']:
             if not os.path.isabs(path):
                 datadirs.append(os.path.join(os.path.dirname(songbook_path),

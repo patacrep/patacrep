@@ -100,11 +100,11 @@ class Songbook(object):
                     "song",
                     os.path.relpath(
                         filename,
-                        os.path.join(self.config['datadir'], 'songs'),
+                        os.path.join(self.config['datadir'][0], 'songs'),
                         ))
                     for filename
                     in recursive_find(
-                                os.path.join(self.config['datadir'], 'songs'),
+                                os.path.join(self.config['datadir'][0], 'songs'),
                                 '*.sg',
                                 )
                     ]

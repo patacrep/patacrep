@@ -51,7 +51,7 @@ def argument_parser(args):
                     Book to compile.
             """))
 
-    parser.add_argument('--datadir', '-d', nargs=1, type=str, action='store',
+    parser.add_argument('--datadir', '-d', nargs='+', type=str, action='append',
             help=textwrap.dedent("""\
                     Data location. Expected (not necessarily required)
                     subdirectories are 'songs', 'img', 'latex', 'templates'.
@@ -108,16 +108,23 @@ def main():
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))
         sys.exit(1)
 
-
-    if options.datadir is not None:
-        songbook['datadir'] = options.datadir[0]
-    elif 'datadir' in songbook.keys():
-        if not os.path.isabs(songbook['datadir']):
-            songbook['datadir'] = os.path.join(os.path.dirname(songbook_path),
-                                               songbook['datadir']
-                                               )
-    else:
-        songbook['datadir'] = os.path.dirname(songbook_path)
+    # Gathering datadirs
+    datadirs = []
+    if options.datadir:
+        # Command line options
+        datadirs += [item[0] for item in options.datadir]
+    if 'datadir' in songbook:
+        # .sg file
+        if isinstance(songbook['datadir'], basestring):
+            songbook['datadir'] = [songbook['datadir']]
+        datadirs += [
+                os.path.join(os.path.dirname(songbook_path), path)
+                for path in songbook['datadir']
+                ]
+    if not datadirs:
+        # Default value
+        datadirs = [os.path.dirname(songbook_path)]
+    songbook['datadir'] = datadirs
 
     try:
         sb_builder = SongbookBuilder(songbook, basename)

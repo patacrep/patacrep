@@ -68,25 +68,21 @@ def _escape_tex(value):
 class TexRenderer(object):
     """Render a template to a LaTeX file."""
 
-    def __init__(self, template, datadir, lang):
+    def __init__(self, template, datadirs, lang):
         '''Start a new jinja2 environment for .tex creation.
 
         Arguments:
         - template: name of the template to use.
-        - datadir: location of the data directory (which max contain
-          file <datadir>/templates/<template>).
+        - datadirs: list of locations of the data directory
+          (which may contain file <datadir>/templates/<template>).
         - lang: main language of songbook.
         '''
         self.lang = lang
+        # Load templates in filesystem ...
+        loaders = [FileSystemLoader(os.path.join(datadir, 'templates'))
+                      for datadir in datadirs]
         self.texenv = Environment(
-                loader=ChoiceLoader([
-                    FileSystemLoader(
-                        os.path.join(datadir, 'templates')
-                        ),
-                    PackageLoader(
-                        'songbook_core', os.path.join('data', 'templates')
-                        ),
-                    ]),
+                loader=ChoiceLoader(loaders),
                 extensions=[VariablesExtension],
                 )
         self.texenv.block_start_string = '(*'

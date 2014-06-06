@@ -56,9 +56,7 @@ class beginsong(plasTeX.Command): # pylint: disable=invalid-name,too-many-public
         for (key, val) in self.attributes['args'].iteritems():
             if isinstance(val, plasTeX.DOM.Element):
                 args[key] = process_unbr_spaces(val).textContent.encode('utf-8')
-            elif isinstance(val, unicode):
-                args[key] = val.encode('utf-8')
-            elif isinstance(val, str):
+            elif isinstance(val, basestring):
                 args[key] = val.encode('utf-8')
             else:
                 args[key] = unicode(val)

@@ -233,7 +233,13 @@
 
 % On-the-fly compilation of lilypond files
 \iflilypondauto
-    \epstopdfDeclareGraphicsRule{.ly}{pdf}{.pdf}{lilypond --format=pdf --output=\Gin@base\ETE@suffix\space #1}
+   \def\HSizeInPT{\strip@pt\hsize\space pt}
+    \epstopdfDeclareGraphicsRule{.ly}{pdf}{.pdf}{%
+          lilypond -e "(set! paper-alist (cons '(\@backslashchar"patasize\@backslashchar" . %
+                             (cons (* \HSizeInPT) (* 1 cm) )) paper-alist))" %
+          -dpaper-size=\@backslashchar"patasize\@backslashchar" %
+          --format=pdf --output=\Gin@base\ETE@suffix\space %
+           #1 }
     \AppendGraphicsExtensions{.ly}
 \fi
 

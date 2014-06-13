@@ -124,7 +124,22 @@
                         \@labelelement{#1}& %
                         \@getelement{#1} \cr %
                         \fi %
-                        }
+  }
+  \def\@metainfos{%
+      \ialign{%
+          \bf{##} \hfil & ## \hfil \cr % Lines definition
+          \@insertelement{version} %
+          \@insertelement{date} %
+          \@insertelement{author} %
+          \@insertelement{web} %
+          \@insertelement{mail} %
+      }
+  }
+  \def\@placepicture[#1, #2]{%
+          \includegraphics[keepaspectratio=true, #1, #2]{\@picture}
+          \vskip1em
+          {\hfil\hbox{\small \@picturecopyright}}
+  }
 
   \def\@maketitle{
       \def\and{\unskip,\cr&}
@@ -139,22 +154,23 @@
               {\rule{\textwidth}{1mm}}
           \end{center}
           \vfil
-          \ialign{
-              \bf{##} \hfil & ## \hfil \cr % Lines definition
-              \@insertelement{version} %
-              \@insertelement{date} %
-              \@insertelement{author} %
-              \@insertelement{web} %
-              \@insertelement{mail} %
-          }
+          \ifdim \paperwidth < \paperheight
+             \@metainfos
+             \vfill
+             \begin{center}
+                 \@placepicture[width=.8\textwidth, height=.5\textheight]
+             \end{center}
+          \else
+             \begin{minipage}{.3\textwidth}
+                \@metainfos
+             \end{minipage}
+             \begin{minipage}{.7\textwidth}
+                \hfill%
+                \@placepicture[width=\textwidth, height=.6\textheight]
+             \end{minipage}
+          \fi
           \vfil
-          \begin{center}
-              \includegraphics[keepaspectratio=true, width=12cm, height=12cm]{\@picture}
-              \vskip1em
-              {\hfil\hbox{\small \@picturecopyright}}
-          \end{center}
           \begin{flushright}
-          \vfil
           {\hfil\rule{.4\textwidth}{.75pt}\par}
           \@footer
           \end{flushright}

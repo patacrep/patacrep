@@ -57,9 +57,7 @@ class Songbook(object):
                 'lang': 'english',
                 'sort': [u"by", u"album", u"@title"],
                 'content': None,
-                'datadir': os.path.abspath('.'),
                 }
-        self.songslist = None
         self._parse_raw(raw_songbook)
 
     @staticmethod
@@ -94,7 +92,7 @@ class Songbook(object):
         are stored verbatim in self.config.
         """
         self.config.update(raw_songbook)
-        self.config['datadir'] = os.path.abspath(self.config['datadir'])
+        self._set_datadir()
 
         # Compute song list
         if self.config['content'] is None:
@@ -102,11 +100,11 @@ class Songbook(object):
                     "song",
                     os.path.relpath(
                         filename,
-                        os.path.join(self.config['datadir'], 'songs'),
+                        os.path.join(self.config['datadir'][0], 'songs'),
                         ))
                     for filename
                     in recursive_find(
-                                os.path.join(self.config['datadir'], 'songs'),
+                                os.path.join(self.config['datadir'][0], 'songs'),
                                 '*.sg',
                                 )
                     ]
@@ -114,7 +112,7 @@ class Songbook(object):
             content = self.config["content"]
             self.config["content"] = []
             for elem in content:
-                if isinstance(elem, str) or isinstance(elem, unicode):
+                if isinstance(elem, basestring):
                     self.config["content"].append(("song", elem))
                 elif isinstance(elem, list):
                     self.config["content"].append((elem[0], elem[1]))
@@ -128,6 +126,25 @@ class Songbook(object):
         for (key, value) in DEFAULT_AUTHWORDS.items():
             if key not in self.config['authwords']:
                 self.config['authwords'][key] = value
+
+    def _set_datadir(self):
+        """Set the default values for datadir"""
+        try:
+            if isinstance(self.config['datadir'], basestring):
+                self.config['datadir'] = [self.config['datadir']]
+        except KeyError:  # No datadir in the raw_songbook
+            self.config['datadir'] = [os.path.abspath('.')]
+
+        abs_datadir = []
+        for path in self.config['datadir']:
+            if os.path.exists(path) and os.path.isdir(path):
+                abs_datadir.append(os.path.abspath(path))
+            else:
+                LOGGER.warning("Ignoring non-existent datadir '{}'.".format(path))
+
+        abs_datadir.append(__DATADIR__)
+
+        self.config['datadir'] = abs_datadir
 
     def _parse_songs(self):
         """Parse content included in songbook."""
@@ -186,18 +203,7 @@ class SongbookBuilder(object):
         return self._called_functions[function]
 
     def _set_latex(self):
-        """Set TEXINPUTS and LaTeX options."""
-        if not 'TEXINPUTS' in os.environ.keys():
-            os.environ['TEXINPUTS'] = ''
-        os.environ['TEXINPUTS'] += os.pathsep + os.path.join(
-                __DATADIR__,
-                'latex',
-                )
-        os.environ['TEXINPUTS'] += os.pathsep + os.path.join(
-                self.songbook.config['datadir'],
-                'latex',
-                )
-
+        """Set LaTeX options."""
         if self.unsafe:
             self._pdflatex_options.append("--shell-escape")
         if not self.interactive:
@@ -250,7 +256,8 @@ class SongbookBuilder(object):
                 ["pdflatex"] + self._pdflatex_options + [self.basename],
                 stdin=PIPE,
                 stdout=PIPE,
-                stderr=PIPE)
+                stderr=PIPE,
+                env=os.environ)
         if not self.interactive:
             process.stdin.close()
         log = ''

@@ -26,51 +26,15 @@
 %%
 %% Generated using Songbook <http://www.patacrep.com>
 
-(* variables *)
-{
-"instruments": {"description": {"english": "Instruments", "french": "Instruments"},
-               "type": "flag",
-               "values": {"guitar": {"english": "Guitare", "french": "Guitare"},
-                          "ukulele": {"english": "Ukulele", "french": "Ukulele"}
-                         },
-               "join": ",",
-               "mandatory": true,
-               "default": {"default":["guitar"]}
-            },
-"bookoptions": {"description": {"english": "Options", "french": "Options"},
-               "type": "flag",
-               "values": {"diagram": {"english": "Chords diagrams", "french": "Diagrammes d'accords"},
-                          "importantdiagramonly": {"english": "Only importants diagrames", "french": "Diagrammes importants uniquement"},
-                          "lilypond": {"english": "Lilypond music sheets", "french": "Partitions lilypond"},
-                          "pictures": {"english": "Cover pictures", "french": "Couvertures d'albums"},
-                          "tabs": {"english": "Tablatures", "french": "Tablatures"},
-                          "repeatchords": {"english": "Repeat chords", "french": "Répéter les accords"},
-                          "onesongperpage": {"english": "One song per page", "french": "Une chanson par page"}
-                       },
-               "join": ",",
-               "mandatory": true,
-               "default": {"default":["diagram","pictures"]}
-            },
-"booktype": {"description": {"english": "Type", "french": "Type"},
-            "type": "enum",
-            "values": {"chorded": {"english": "With guitar chords", "french": "Avec accords de guitare" },
-                                   "lyric": {"english": "Lyrics only", "french": "Paroles uniquement"}
-                     },
-            "default": {"default":"chorded"}, 
-            "mandatory": true
-            },
-"mainfontsize": {"description": {"english": "Font Size", "french": "Taille de police"},
-               "type":"font",
-               "default":{"default": "10"}
-            },
-"lang": {"description": {"english": "Language", "french": "Langue"},
-         "default": {"english": "english", "french": "french"}
-      }
-}
-(* endvariables *)
+\makeatletter
+\def\input@path{(* for dir in datadir *)
+                 {((dir))/latex/} %
+                 (* endfor *)
+                 }
+\makeatother
 
 (* block documentclass *)
-\documentclass[((mainfontsize))pt]{article}
+\documentclass{article}
 (* endblock *)
 
 (* block songbookpackages *)

@@ -9,6 +9,7 @@ import os
 from songbook_core.errors import SongbookError
 
 LOGGER = logging.getLogger(__name__)
+EOL = '\n'
 
 class Content:
     """Content item of type 'example'."""
@@ -77,3 +78,64 @@ def load_plugins():
                     continue
                 plugins[key] = value
     return plugins
+
+def render_content(content):
+    rendered = ""
+    previous = None
+    last = None
+    for elem in content:
+        if not isinstance(elem, Content):
+            LOGGER.error("Ignoring bad content item '{}'.".format(elem))
+            continue
+
+        last = elem
+        if elem.begin_new_block(previous):
+            if previous:
+                rendered += previous.end_block() + EOL
+            rendered += elem.begin_block() + EOL
+        rendered += elem.render() + EOL
+
+    if isinstance(last, Content):
+        rendered += last.end_block() + EOL
+
+    return rendered
+
+def process_content(content, config = None):
+    contentlist = []
+    plugins = load_plugins()
+    for elem in content:
+        if isinstance(elem, basestring):
+            TODO
+        if len(content) == 0:
+            TODO
+        if elem[0] not in plugins:
+            raise ContentError(elem[0], "Unknown content type.")
+        contentlist.extend(plugins[elem[0]](*elem))
+    return contentlist
+        ## Compute song list
+        #if self.config['content'] is None:
+        #    self.config['content'] = [(
+        #            "song",
+        #            os.path.relpath(
+        #                filename,
+        #                os.path.join(self.config['datadir'][0], 'songs'),
+        #                ))
+        #            for filename
+        #            in recursive_find(
+        #                        os.path.join(self.config['datadir'][0], 'songs'),
+        #                        '*.sg',
+        #                        )
+        #            ]
+        #else:
+        #    content = self.config["content"]
+        #    self.config["content"] = []
+        #    for elem in content:
+        #        if isinstance(elem, basestring):
+        #            self.config["content"].append(("song", elem))
+        #        elif isinstance(elem, list):
+        #            self.config["content"].append((elem[0], elem[1]))
+        #        else:
+        #            raise errors.SBFileError(
+        #                         "Syntax error: could not decode the content "
+        #                         "of {0}".format(self.basename)
+        #                         )

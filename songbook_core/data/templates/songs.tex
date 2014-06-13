@@ -70,9 +70,10 @@
 (* block songbookpreambule *)
    (( super() ))
 
-   (* for lang in content.languages() *)
-   \PassOptionsToPackage{((lang))}{babel}
-   (* endfor *)
+   %!TODO
+   %!(* for lang in content.languages() *)
+   %!\PassOptionsToPackage{((lang))}{babel}
+   %!(* endfor *)
    \usepackage[((lang))]{babel}
    \lang{((lang))}
 
@@ -93,15 +94,18 @@
    \phantomsection
    \addcontentsline{toc}{section}{\songlistname}
 
-   \begin{songs}{((indexes|default('')))}
-      (* for type, elem in content.content *)
-      (* if type=="song" *)
-        \input{((elem.path))}
-      (* elif type=="section" *)
-        \end{songs}
-        \songsection{((elem))}
-        \begin{songs}{((indexes|default('')))}
-      (* endif *)
-      (* endfor *)
-   \end{songs}
+   %!TODO
+   %!\begin{songs}{((indexes|default('')))}
+   %!   (* for type, elem in content.content *)
+   %!   (* if type=="song" *)
+   %!     \input{((elem.path))}
+   %!   (* elif type=="section" *)
+   %!     \end{songs}
+   %!     \songsection{((elem))}
+   %!     \begin{songs}{((indexes|default('')))}
+   %!   (* endif *)
+   %!   (* endfor *)
+   %!\end{songs}
+   (( render_content(content) ))
+
 (* endblock *)

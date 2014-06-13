@@ -21,12 +21,12 @@ class Section(Content):
         self.short = short
 
     def render(self):
-        if (short is None):
+        if (self.short is None):
             return r'\{}{{{}}}'.format(self.keyword, self.name)
         else:
             return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
-def parse(keyword, arguments):
+def parse(keyword, *arguments):
     if (keyword not in KEYWORDS) and (len(arguments) != 1):
         raise ContentError(keyword, "Starred section names must have exactly one argument.")
     if (len(arguments) not in [1, 2]):

@@ -11,6 +11,7 @@ import re
 from subprocess import Popen, PIPE, call
 
 from songbook_core import __DATADIR__
+from songbook_core import content
 from songbook_core import errors
 from songbook_core.files import recursive_find
 from songbook_core.index import process_sxd
@@ -66,6 +67,8 @@ class Songbook(object):
 
         Argument:
             - config : a dictionary containing the configuration
+
+        TODO Move this function elsewhere
         """
         Song.sort = config['sort']
         if 'titleprefixwords' in config:
@@ -94,34 +97,7 @@ class Songbook(object):
         self.config.update(raw_songbook)
         self._set_datadir()
 
-        # Compute song list
-        if self.config['content'] is None:
-            self.config['content'] = [(
-                    "song",
-                    os.path.relpath(
-                        filename,
-                        os.path.join(self.config['datadir'][0], 'songs'),
-                        ))
-                    for filename
-                    in recursive_find(
-                                os.path.join(self.config['datadir'][0], 'songs'),
-                                '*.sg',
-                                )
-                    ]
-        else:
-            content = self.config["content"]
-            self.config["content"] = []
-            for elem in content:
-                if isinstance(elem, basestring):
-                    self.config["content"].append(("song", elem))
-                elif isinstance(elem, list):
-                    self.config["content"].append((elem[0], elem[1]))
-                else:
-                    raise errors.SBFileError(
-                                 "Syntax error: could not decode the content "
-                                 "of {0}".format(self.basename)
-                                 )
-
+        # TODO This should be moved elsewhere
         # Ensure self.config['authwords'] contains all entries
         for (key, value) in DEFAULT_AUTHWORDS.items():
             if key not in self.config['authwords']:
@@ -146,18 +122,15 @@ class Songbook(object):
 
         self.config['datadir'] = abs_datadir
 
-    def _parse_songs(self):
-        """Parse content included in songbook."""
-        self.contentlist = SongbookContent(self.config['datadir'])
-        self.contentlist.append_list(self.config['content'])
-
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
 
         Arguments:
         - output: a file object, in which the file will be written.
         """
-        self._parse_songs()
+        self.contentlist = content.process_content(self.config['content'], self.config)
+        #TODO self.contentlist = SongbookContent(self.config['datadir'])
+        #TODO self.contentlist.append_list(self.config['content'])
         renderer = TexRenderer(
                 self.config['template'],
                 self.config['datadir'],
@@ -166,6 +139,7 @@ class Songbook(object):
 
         context = renderer.get_variables()
         context.update(self.config)
+        context['render_content'] = content.render_content
         context['titleprefixkeys'] = ["after", "sep", "ignore"]
         context['content'] = self.contentlist
         context['filename'] = output.name[:-4]

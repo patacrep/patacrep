@@ -6,10 +6,10 @@ import os
 from songbook_core.content import process_content
 
 def parse(keyword, config, argument, contentlist):
-    config['songdir'] = (
+    config['_songdir'] = (
             [os.path.relpath(argument)] +
-            [os.path.join(path, argument) for path in config['songdir']] +
-            config['songdir']
+            [os.path.join(path, argument) for path in config['_songdir']] +
+            config['_songdir']
             )
     return process_content(contentlist, config)
 

@@ -75,7 +75,7 @@ class Songbook(object):
         abs_datadir.append(__DATADIR__)
 
         self.config['datadir'] = abs_datadir
-        self.config['songdir'] = [os.path.join(path, 'songs') for path in self.config['datadir']]
+        self.config['_songdir'] = [os.path.join(path, 'songs') for path in self.config['datadir']]
 
     def build_config(self, from_templates):
         config = DEFAULT_CONFIG

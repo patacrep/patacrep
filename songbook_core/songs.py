@@ -14,8 +14,6 @@ from songbook_core.plastex import parsetex
 class Song(object):
     """Song management"""
 
-    #: Ordre de tri
-    sort = []
     #: Dictionnaire des options pour le traitement des auteurs
     authwords = {"after": [], "ignore": [], "sep": []}
 
@@ -47,30 +45,6 @@ class Song(object):
 
     def __repr__(self):
         return repr((self.titles, self.args, self.path))
-
-    def __cmp__(self, other):
-        if not isinstance(other, Song):
-            return NotImplemented
-        for key in self.sort:
-            if key == "@title":
-                self_key = self.normalized_titles
-                other_key = other.normalized_titles
-            elif key == "@path":
-                self_key = locale.strxfrm(self.path)
-                other_key = locale.strxfrm(other.path)
-            elif key == "by":
-                self_key = self.normalized_authors
-                other_key = other.normalized_authors
-            else:
-                self_key = locale.strxfrm(self.args.get(key, ""))
-                other_key = locale.strxfrm(other.args.get(key, ""))
-
-            if self_key < other_key:
-                return -1
-            elif self_key > other_key:
-                return 1
-        return 0
-
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

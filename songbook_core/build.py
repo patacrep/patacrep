@@ -62,23 +62,6 @@ class Songbook(object):
         self._parse_raw(raw_songbook)
 
 
-
-
-
-    def __TODO(self):
-        Song.authwords['after'] = [
-                re.compile(r"^.*%s\b(.*)" % after)
-                for after
-                in config['authwords']["after"]
-                ]
-        Song.authwords['ignore'] = config['authwords']['ignore']
-        Song.authwords['sep'] = [
-                re.compile(r"^(.*)%s (.*)$" % sep)
-                for sep in ([
-                    " %s" % sep for sep in config['authwords']["sep"]
-                            ] + [','])
-                ]
-
     def _parse_raw(self, raw_songbook):
         """Parse raw_songbook.
 
@@ -87,12 +70,26 @@ class Songbook(object):
         """
         self.config.update(raw_songbook)
         self._set_datadir()
+        self._set_authwords()
 
-        # TODO This should be moved elsewhere
+
+    def _set_authwords(self):
         # Ensure self.config['authwords'] contains all entries
         for (key, value) in DEFAULT_AUTHWORDS.items():
             if key not in self.config['authwords']:
                 self.config['authwords'][key] = value
+        # Convert strings to regular expressions
+        self.config["authwords"]['after'] = [
+                re.compile(r"^.*%s\b(.*)" % after)
+                for after
+                in self.config['authwords']["after"]
+                ]
+        self.config["authwords"]['sep'] = [
+                re.compile(r"^(.*)%s (.*)$" % sep)
+                for sep in ([
+                    " %s" % sep for sep in self.config['authwords']["sep"]
+                            ] + [','])
+                ]
 
     def _set_datadir(self):
         """Set the default values for datadir"""

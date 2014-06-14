@@ -14,9 +14,6 @@ from songbook_core.plastex import parsetex
 class Song(object):
     """Song management"""
 
-    #: Dictionnaire des options pour le traitement des auteurs
-    authwords = {"after": [], "ignore": [], "sep": []}
-
     def __init__(self, filename, config):
         # Data extraction from the song with plastex
         data = parsetex(filename)
@@ -38,7 +35,7 @@ class Song(object):
             self.normalized_authors = [
                 locale.strxfrm(author)
                 for author
-                in processauthors(self.args["by"], **self.authwords)
+                in processauthors(self.args["by"], **config["authwords"])
                 ]
         else:
             self.normalized_authors = []

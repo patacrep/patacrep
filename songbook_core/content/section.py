@@ -26,7 +26,7 @@ class Section(Content):
         else:
             return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
-def parse(keyword, *arguments):
+def parse(keyword, config, *arguments):
     if (keyword not in KEYWORDS) and (len(arguments) != 1):
         raise ContentError(keyword, "Starred section names must have exactly one argument.")
     if (len(arguments) not in [1, 2]):

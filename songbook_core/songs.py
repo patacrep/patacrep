@@ -107,35 +107,3 @@ class SongbookContent(object):
         data = parsetex(filename)
         song = Song(filename, data['languages'], data['titles'], data['args'])
         self.content.append(("song", song))
-
-    def append(self, type, value):
-        """ Append a generic element to the content list"""
-        self.content.append((type, value))
-
-    def append_list(self, contentlist):
-        """Ajoute une liste de chansons à la liste
-
-        L'argument est une liste de chaînes, représentant des noms de fichiers
-        sous la forme d'expressions régulières destinées à être analysées avec
-        le module glob.
-        """
-        for type, elem in contentlist:
-            if type == "song":
-                # Add all the songs matching the regex
-                before = len(self.content)
-                for songdir in self.songdirs:
-                    for filename in glob.iglob(os.path.join(songdir, elem)):
-                        self.append_song(filename)
-                    if len(self.content) > before:
-                        break
-                if len(self.content) == before:
-                    # No songs were added
-                    LOGGER.warning(
-                            "Expression '{}' did not match any file".format(elem)
-                            )
-            else:
-                self.append(type, elem)
-
-    def languages(self):
-        """Renvoie la liste des langues utilisées par les chansons"""
-        return set().union(*[set(song.languages) for type, song in self.content if type=="song"])

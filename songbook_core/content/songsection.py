@@ -16,7 +16,7 @@ class SongSection(Content):
     def render(self):
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 
-def parse(keyword, *arguments):
+def parse(keyword, config, *arguments):
     if (keyword not in KEYWORDS) and (len(arguments) != 1):
         raise ContentError(keyword, "Starred section names must have exactly one argument.")
     return [SongSection(keyword, *arguments)]

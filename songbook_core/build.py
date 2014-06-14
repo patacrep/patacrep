@@ -13,7 +13,6 @@ from subprocess import Popen, PIPE, call
 from songbook_core import __DATADIR__
 from songbook_core import content
 from songbook_core import errors
-from songbook_core.files import recursive_find
 from songbook_core.index import process_sxd
 from songbook_core.songs import Song, SongbookContent
 from songbook_core.templates import TexRenderer
@@ -129,8 +128,6 @@ class Songbook(object):
         - output: a file object, in which the file will be written.
         """
         self.contentlist = content.process_content(self.config['content'], self.config)
-        #TODO self.contentlist = SongbookContent(self.config['datadir'])
-        #TODO self.contentlist.append_list(self.config['content'])
         renderer = TexRenderer(
                 self.config['template'],
                 self.config['datadir'],

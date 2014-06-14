@@ -34,14 +34,8 @@ class Content:
 
         True if the renderer has to close previous block, and begin a new one,
         False otherwise.
-
-        # Default
-
-        The default behavior of this method (if not defined in this child
-        class) is: begin a new block if the previous item is not an instance of
-        the same class.
         """
-        return False
+        return True
 
     def begin_block(self):
         """Return the string to begin a block."""
@@ -94,6 +88,7 @@ def render_content(content):
                 rendered += previous.end_block() + EOL
             rendered += elem.begin_block() + EOL
         rendered += elem.render() + EOL
+        previous = elem
 
     if isinstance(last, Content):
         rendered += last.end_block() + EOL
@@ -105,37 +100,10 @@ def process_content(content, config = None):
     plugins = load_plugins()
     for elem in content:
         if isinstance(elem, basestring):
-            TODO
+            elem = ["song", elem]
         if len(content) == 0:
-            TODO
+            content = ["song"]
         if elem[0] not in plugins:
             raise ContentError(elem[0], "Unknown content type.")
-        contentlist.extend(plugins[elem[0]](*elem))
+        contentlist.extend(plugins[elem[0]](elem[0], config, *elem[1:]))
     return contentlist
-        ## Compute song list
-        #if self.config['content'] is None:
-        #    self.config['content'] = [(
-        #            "song",
-        #            os.path.relpath(
-        #                filename,
-        #                os.path.join(self.config['datadir'][0], 'songs'),
-        #                ))
-        #            for filename
-        #            in recursive_find(
-        #                        os.path.join(self.config['datadir'][0], 'songs'),
-        #                        '*.sg',
-        #                        )
-        #            ]
-        #else:
-        #    content = self.config["content"]
-        #    self.config["content"] = []
-        #    for elem in content:
-        #        if isinstance(elem, basestring):
-        #            self.config["content"].append(("song", elem))
-        #        elif isinstance(elem, list):
-        #            self.config["content"].append((elem[0], elem[1]))
-        #        else:
-        #            raise errors.SBFileError(
-        #                         "Syntax error: could not decode the content "
-        #                         "of {0}".format(self.basename)
-        #                         )

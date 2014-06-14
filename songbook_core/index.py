@@ -30,7 +30,7 @@ def sortkey(value):
     don't forget to call locale.setlocale(locale.LC_ALL, '')). It also handles
     the sort with  latex escape sequences.
     """
-    return locale.strxfrm(unidecode(simpleparse(value).replace(' ', 'A')))
+    return locale.strxfrm(unidecode(simpleparse(value).replace(' ', 'A')).lower())
 
 
 def process_sxd(filename):

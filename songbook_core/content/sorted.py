@@ -7,18 +7,28 @@ from songbook_core.content.song import OnlySongsError, process_songs
 
 DEFAULT_SORT = ['by', 'album', '@title']
 
+def normalize_string(string):
+    return locale.strxfrm(string.lower().strip())
+
+def normalize_field(field):
+    if isinstance(field, basestring):
+        return normalize_string(field)
+    elif isinstance(field, list):
+        return [normalize_string(string) for string in field]
+
 def key_generator(sort):
     def ordered_song_keys(song):
         songkey = []
         for key in sort:
             if key == "@title":
-                songkey.append(song.normalized_titles)
+                field = song.unprefixed_titles
             elif key == "@path":
-                songkey.append(locale.strxfrm(song.path))
+                field = song.path
             elif key == "by":
-                songkey.append(song.normalized_authors)
+                field = song.authors
             else:
-                songkey.append(locale.strxfrm(song.args.get(key, "")))
+                field = song.args.get(key, "")
+            songkey.append(normalize_field(field))
         return songkey
     return ordered_song_keys
 

@@ -18,12 +18,10 @@ class Song(object):
         # Data extraction from the song with plastex
         data = parsetex(filename)
         self.titles = data['titles']
-        self.normalized_titles = [
-                locale.strxfrm(
-                    unprefixed_title(
-                        unidecode(unicode(title, "utf-8")),
-                        config['titleprefixwords']
-                        )
+        self.unprefixed_titles = [
+                unprefixed_title(
+                    unidecode(unicode(title, "utf-8")),
+                    config['titleprefixwords']
                     )
                 for title
                 in self.titles
@@ -32,13 +30,9 @@ class Song(object):
         self.path = filename
         self.languages = data['languages']
         if "by" in self.args.keys():
-            self.normalized_authors = [
-                locale.strxfrm(author)
-                for author
-                in processauthors(self.args["by"], **config["authwords"])
-                ]
+            self.authors = processauthors(self.args["by"], **config["authwords"])
         else:
-            self.normalized_authors = []
+            self.authors = []
 
     def __repr__(self):
         return repr((self.titles, self.args, self.path))

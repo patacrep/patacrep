@@ -20,7 +20,7 @@ class Section(Content):
         self.name = name
         self.short = short
 
-    def render(self):
+    def render(self, __context):
         if (self.short is None):
             return r'\{}{{{}}}'.format(self.keyword, self.name)
         else:

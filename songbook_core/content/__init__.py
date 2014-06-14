@@ -3,6 +3,7 @@
 
 import glob
 import importlib
+import jinja2
 import logging
 import os
 
@@ -14,7 +15,7 @@ EOL = '\n'
 class Content:
     """Content item of type 'example'."""
 
-    def render(self):
+    def render(self, context):
         """Render this content item.
 
         Returns a string, to be placed verbatim in the generated .tex file.
@@ -23,12 +24,13 @@ class Content:
 
     # Block management
 
-    def begin_new_block(self, previous):
+    def begin_new_block(self, previous, context):
         """Return a boolean stating if a new block is to be created.
 
         # Arguments
 
         - previous: the songbook.content.Content object of the previous item.
+        - context: TODO
 
         # Return
 
@@ -37,11 +39,11 @@ class Content:
         """
         return True
 
-    def begin_block(self):
+    def begin_block(self, context):
         """Return the string to begin a block."""
         return ""
 
-    def end_block(self):
+    def end_block(self, context):
         """Return the string to end a block."""
         return ""
 
@@ -73,7 +75,8 @@ def load_plugins():
                 plugins[key] = value
     return plugins
 
-def render_content(content):
+@jinja2.contextfunction
+def render_content(context, content):
     rendered = ""
     previous = None
     last = None
@@ -83,15 +86,15 @@ def render_content(content):
             continue
 
         last = elem
-        if elem.begin_new_block(previous):
+        if elem.begin_new_block(previous, context):
             if previous:
-                rendered += previous.end_block() + EOL
-            rendered += elem.begin_block() + EOL
-        rendered += elem.render() + EOL
+                rendered += previous.end_block(context) + EOL
+            rendered += elem.begin_block(context) + EOL
+        rendered += elem.render(context) + EOL
         previous = elem
 
     if isinstance(last, Content):
-        rendered += last.end_block() + EOL
+        rendered += last.end_block(context) + EOL
 
     return rendered
 

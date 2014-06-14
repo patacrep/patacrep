@@ -13,7 +13,7 @@ class SongSection(Content):
         self.keyword = keyword
         self.name = name
 
-    def render(self):
+    def render(self, __context):
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 
 def parse(keyword, config, *arguments):

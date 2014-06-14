@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import glob
+import jinja2
 import os
 
 from songbook_core.content import Content
@@ -11,23 +12,24 @@ class Song(Content):
     def __init__(self, filename):
         self.filename = filename
 
-    def begin_new_block(self, previous):
+    def begin_new_block(self, previous, __context):
         return not isinstance(previous, Song)
 
-    def begin_block(self):
-       #TODO index return r'\begin{songs}{((indexes|default("")))}'
-       return r'\begin{songs}{titleidx,authidx}'
+    def begin_block(self, context):
+        indexes = context.resolve("indexes")
+        if isinstance(indexes, jinja2.runtime.Undefined):
+            indexes = ""
+        return r'\begin{songs}{%s}' % indexes
 
-    def end_block(self):
+    def end_block(self, __context):
         return r'\end{songs}'
 
-    def render(self):
+    def render(self, __context):
         return r'\input{{{}}}'.format(self.filename)
 
 def parse(keyword, config, *arguments):
     songlist = []
     if not arguments:
-        import ipdb; ipdb.set_trace()
         arguments = [
                 os.path.relpath(
                     filename,

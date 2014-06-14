@@ -6,6 +6,7 @@ import importlib
 import jinja2
 import logging
 import os
+import re
 
 from songbook_core.errors import SongbookError
 
@@ -101,6 +102,7 @@ def render_content(context, content):
 def process_content(content, config = None):
     contentlist = []
     plugins = load_plugins()
+    keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]
     for elem in content:
@@ -108,7 +110,17 @@ def process_content(content, config = None):
             elem = ["song", elem]
         if len(content) == 0:
             content = ["song"]
-        if elem[0] not in plugins:
-            raise ContentError(elem[0], "Unknown content type.")
-        contentlist.extend(plugins[elem[0]](elem[0], config, *elem[1:]))
+        try:
+            match = keyword_re.match(elem[0]).groupdict()
+        except AttributeError:
+            raise ContentError(elem[0], "Cannot parse content type.")
+        (keyword, argument) = (match['keyword'], match['argument'])
+        if keyword not in plugins:
+            raise ContentError(keyword, "Unknown content type.")
+        contentlist.extend(plugins[keyword](
+            keyword,
+            argument = argument,
+            contentlist = elem[1:],
+            config = config,
+            ))
     return contentlist

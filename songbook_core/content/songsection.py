@@ -16,10 +16,10 @@ class SongSection(Content):
     def render(self, __context):
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 
-def parse(keyword, config, *arguments):
-    if (keyword not in KEYWORDS) and (len(arguments) != 1):
+def parse(keyword, argument, contentlist, config):
+    if (keyword not in KEYWORDS) and (len(contentlist) != 1):
         raise ContentError(keyword, "Starred section names must have exactly one argument.")
-    return [SongSection(keyword, *arguments)]
+    return [SongSection(keyword, *contentlist)]
 
 
 CONTENT_PLUGINS = dict([(keyword, parse) for keyword in KEYWORDS])

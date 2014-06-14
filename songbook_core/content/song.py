@@ -6,7 +6,7 @@ import jinja2
 import logging
 import os
 
-from songbook_core.content import Content
+from songbook_core.content import Content, process_content, ContentError
 from songbook_core.files import recursive_find
 from songbook_core.songs import Song
 
@@ -33,12 +33,12 @@ class SongRenderer(Content, Song):
             path = os.path.abspath(self.path)
         return r'\input{{{}}}'.format(path)
 
-def parse(keyword, config, *arguments):
+def parse(keyword, argument, contentlist, config):
     if 'languages' not in config:
         config['languages'] = set()
     songlist = []
-    if not arguments:
-        arguments = [
+    if not contentlist:
+        contentlist = [
                 os.path.relpath(
                     filename,
                     os.path.join(config['datadir'][0], 'songs'),
@@ -49,7 +49,7 @@ def parse(keyword, config, *arguments):
                     "*.sg"
                     )
                 ]
-    for elem in arguments:
+    for elem in contentlist:
         before = len(songlist)
         for songdir in [os.path.join(d, 'songs') for d in config['datadir']]:
             for filename in glob.iglob(os.path.join(songdir, elem)):
@@ -68,3 +68,18 @@ def parse(keyword, config, *arguments):
 
 
 CONTENT_PLUGINS = {'song': parse}
+
+
+class OnlySongsError(ContentError):
+    def __init__(self, not_songs):
+        self.not_songs = not_songs
+
+    def __str__(self):
+        return "Only songs are allowed, and the following items are not:" + str(not_songs)
+
+def process_songs(content, config = None):
+    contentlist = process_content(content, config)
+    not_songs = [item for item in contentlist if not isinstance(item, SongRenderer)]
+    if not_songs:
+        raise OnlySongsError(not_songs)
+    return contentlist

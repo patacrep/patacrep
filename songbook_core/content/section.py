@@ -26,12 +26,12 @@ class Section(Content):
         else:
             return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
-def parse(keyword, config, *arguments):
-    if (keyword not in KEYWORDS) and (len(arguments) != 1):
+def parse(keyword, argument, contentlist, config):
+    if (keyword not in KEYWORDS) and (len(contentlist) != 1):
         raise ContentError(keyword, "Starred section names must have exactly one argument.")
-    if (len(arguments) not in [1, 2]):
+    if (len(contentlist) not in [1, 2]):
         raise ContentError(keyword, "Section can have one or two arguments.")
-    return [Section(keyword, *arguments)]
+    return [Section(keyword, *contentlist)]
 
 
 CONTENT_PLUGINS = dict([(keyword, parse) for keyword in FULL_KEYWORDS])

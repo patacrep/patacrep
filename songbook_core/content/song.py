@@ -37,21 +37,17 @@ def parse(keyword, argument, contentlist, config):
     if 'languages' not in config:
         config['languages'] = set()
     songlist = []
-    if not contentlist:
+    for songdir in config['songdir']:
+        if contentlist:
+            break
         contentlist = [
-                os.path.relpath(
-                    filename,
-                    os.path.join(config['datadir'][0], 'songs'),
-                    )
+                os.path.relpath(filename, songdir)
                 for filename
-                in recursive_find(
-                    os.path.join(config['datadir'][0], 'songs'),
-                    "*.sg"
-                    )
+                in recursive_find(songdir, "*.sg")
                 ]
     for elem in contentlist:
         before = len(songlist)
-        for songdir in [os.path.join(d, 'songs') for d in config['datadir']]:
+        for songdir in config['songdir']:
             for filename in glob.iglob(os.path.join(songdir, elem)):
                 LOGGER.debug('Parsing file "{}"…'.format(filename))
                 song = SongRenderer(filename, config)

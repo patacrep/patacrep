@@ -57,24 +57,15 @@ class Songbook(object):
                 'lang': 'english',
                 'sort': [u"by", u"album", u"@title"],
                 'content': None,
+                'titleprefixwords': [],
                 }
         self._parse_raw(raw_songbook)
 
-    @staticmethod
-    def _set_songs_default(config):
-        """Set the default values for the Song() class.
 
-        Argument:
-            - config : a dictionary containing the configuration
 
-        TODO Move this function elsewhere
-        """
-        return
-        Song.sort = config['sort']
-        if 'titleprefixwords' in config:
-            Song.prefixes = config['titleprefixwords']
-        else:
-            Song.prefixes = []
+
+
+    def __TODO(self):
         Song.authwords['after'] = [
                 re.compile(r"^.*%s\b(.*)" % after)
                 for after
@@ -142,7 +133,6 @@ class Songbook(object):
         context['content'] = self.contentlist
         context['filename'] = output.name[:-4]
 
-        self._set_songs_default(context)
         renderer.render_tex(output, context)
 
 

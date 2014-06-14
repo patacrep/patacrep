@@ -16,12 +16,10 @@ class Song(object):
 
     #: Ordre de tri
     sort = []
-    #: Préfixes à ignorer pour le tri par titres
-    prefixes = []
     #: Dictionnaire des options pour le traitement des auteurs
     authwords = {"after": [], "ignore": [], "sep": []}
 
-    def __init__(self, filename):
+    def __init__(self, filename, config):
         # Data extraction from the song with plastex
         data = parsetex(filename)
         self.titles = data['titles']
@@ -29,7 +27,7 @@ class Song(object):
                 locale.strxfrm(
                     unprefixed_title(
                         unidecode(unicode(title, "utf-8")),
-                        self.prefixes
+                        config['titleprefixwords']
                         )
                     )
                 for title

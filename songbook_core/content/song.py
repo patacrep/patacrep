@@ -54,7 +54,7 @@ def parse(keyword, config, *arguments):
         for songdir in [os.path.join(d, 'songs') for d in config['datadir']]:
             for filename in glob.iglob(os.path.join(songdir, elem)):
                 LOGGER.debug('Parsing file "{}"…'.format(filename))
-                song = SongRenderer(filename)
+                song = SongRenderer(filename, config)
                 songlist.append(song)
                 config["languages"].update(song.languages)
             if len(songlist) > before:

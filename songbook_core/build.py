@@ -7,7 +7,6 @@ import codecs
 import glob
 import logging
 import os.path
-import re
 from subprocess import Popen, PIPE, call
 
 from songbook_core import __DATADIR__
@@ -15,7 +14,6 @@ from songbook_core import authors
 from songbook_core import content
 from songbook_core import errors
 from songbook_core.index import process_sxd
-from songbook_core.songs import Song
 from songbook_core.templates import TexRenderer
 
 LOGGER = logging.getLogger(__name__)
@@ -54,6 +52,7 @@ class Songbook(object):
         super(Songbook, self).__init__()
         self.config = raw_songbook
         self.basename = basename
+        self.contentlist = []
         # Some special keys have their value processed.
         self._set_datadir()
 
@@ -70,14 +69,26 @@ class Songbook(object):
             if os.path.exists(path) and os.path.isdir(path):
                 abs_datadir.append(os.path.abspath(path))
             else:
-                LOGGER.warning("Ignoring non-existent datadir '{}'.".format(path))
+                LOGGER.warning(
+                        "Ignoring non-existent datadir '{}'.".format(path)
+                        )
 
         abs_datadir.append(__DATADIR__)
 
         self.config['datadir'] = abs_datadir
-        self.config['_songdir'] = [os.path.join(path, 'songs') for path in self.config['datadir']]
+        self.config['_songdir'] = [
+                os.path.join(path, 'songs')
+                for path in self.config['datadir']
+                ]
 
     def build_config(self, from_templates):
+        """Build configuration dictionary
+
+        This dictionary is assembled using (by order of least precedence):
+            - the hard-coded default;
+            - the values read from templates;
+            - the values read from .sb file.
+            """
         config = DEFAULT_CONFIG
         config.update(from_templates)
         config.update(self.config)
@@ -100,7 +111,10 @@ class Songbook(object):
                 )
 
         context = self.build_config(renderer.get_variables())
-        self.contentlist = content.process_content(self.config.get('content', []), context)
+        self.contentlist = content.process_content(
+                self.config.get('content', []),
+                context,
+                )
         context['render_content'] = content.render_content
         context['titleprefixkeys'] = ["after", "sep", "ignore"]
         context['content'] = self.contentlist

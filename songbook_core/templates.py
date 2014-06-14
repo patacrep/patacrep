@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Template for .tex generation settings and utilities"""
 
-from jinja2 import Environment, FileSystemLoader, ChoiceLoader, PackageLoader, \
+from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
@@ -54,7 +54,7 @@ class VariablesExtension(Extension):
                 end_tokens=['name:endvariables'],
                 drop_needle=True,
                 )
-        return nodes.Const("")
+        return nodes.Const("") # pylint: disable=no-value-for-parameter
 
 
 def _escape_tex(value):

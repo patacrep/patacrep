@@ -30,7 +30,9 @@ def sortkey(value):
     don't forget to call locale.setlocale(locale.LC_ALL, '')). It also handles
     the sort with  latex escape sequences.
     """
-    return locale.strxfrm(unidecode(simpleparse(value).replace(' ', 'A')).lower())
+    return locale.strxfrm(
+            unidecode(simpleparse(value).replace(' ', 'A')).lower()
+            )
 
 
 def process_sxd(filename):
@@ -65,6 +67,7 @@ class Index(object):
     def __init__(self, indextype):
         self.data = dict()
         self.keywords = dict()
+        self.authwords = dict()
         self.prefix_patterns = []
         if indextype == "TITLE INDEX DATA FILE":
             self.indextype = "TITLE"

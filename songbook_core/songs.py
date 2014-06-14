@@ -4,7 +4,6 @@
 """Song management."""
 
 from unidecode import unidecode
-import locale
 import re
 
 from songbook_core.authors import processauthors
@@ -30,7 +29,10 @@ class Song(object):
         self.path = filename
         self.languages = data['languages']
         if "by" in self.args.keys():
-            self.authors = processauthors(self.args["by"], **config["authwords"])
+            self.authors = processauthors(
+                    self.args["by"],
+                    **config["authwords"]
+                    )
         else:
             self.authors = []
 

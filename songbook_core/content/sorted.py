@@ -1,23 +1,45 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Sorted list of songs.
+
+This plugin provides keyword 'sorted', used to include a sorted list of songs
+to a songbook.
+"""
+
 import locale
 
+from songbook_core.content import ContentError
 from songbook_core.content.song import OnlySongsError, process_songs
 
 DEFAULT_SORT = ['by', 'album', '@title']
 
 def normalize_string(string):
+    """Return a normalized string.
+
+    Normalized means:
+    - no surrounding spaces;
+    - lower case;
+    - passed through locale.strxfrm().
+    """
     return locale.strxfrm(string.lower().strip())
 
 def normalize_field(field):
+    """Return a normalized field, it being a string or a list of strings."""
     if isinstance(field, basestring):
         return normalize_string(field)
     elif isinstance(field, list):
         return [normalize_string(string) for string in field]
 
 def key_generator(sort):
+    """Return a function that returns the list of values used to sort the song.
+
+    Arguments:
+        - sort: the list of keys used to sort.
+    """
+
     def ordered_song_keys(song):
+        """Return the list of values used to sort the song."""
         songkey = []
         for key in sort:
             if key == "@title":
@@ -32,7 +54,18 @@ def key_generator(sort):
         return songkey
     return ordered_song_keys
 
+#pylint: disable=unused-argument
 def parse(keyword, config, argument, contentlist):
+    """Return a sorted list of songs contained in 'contentlist'.
+
+    Arguments:
+        - keyword: the string 'sorted';
+        - config: the current songbook configuration dictionary;
+        - argument: the list of the fields used to sort songs, as strings
+          separated by commas (e.g. "by, album, @title");
+        - contentlist: the list of content to be sorted. If this content
+          contain something else than a song, an exception is raised.
+    """
     if argument:
         sort = [key.strip() for key in argument.split(",")]
     else:
@@ -40,7 +73,11 @@ def parse(keyword, config, argument, contentlist):
     try:
         songlist = process_songs(contentlist, config)
     except OnlySongsError as error:
-        raise ContentError(keyword, "Content list of this keyword can bo only songs (or content that result into songs), and the following are not:" + str(error.not_songs))
+        raise ContentError(keyword, (
+            "Content list of this keyword can bo only songs (or content "
+            "that result into songs), and the following are not:" +
+            str(error.not_songs)
+            ))
     return sorted(songlist, key=key_generator(sort))
 
 CONTENT_PLUGINS = {'sorted': parse}

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Plugin to include songs to the songbook."""
+
 import glob
 import jinja2
 import logging
@@ -13,19 +15,25 @@ from songbook_core.songs import Song
 LOGGER = logging.getLogger(__name__)
 
 class SongRenderer(Content, Song):
+    """Render a song in the .tex file."""
+
     def begin_new_block(self, previous, __context):
+        """Return a boolean stating if a new block is to be created."""
         return not isinstance(previous, SongRenderer)
 
     def begin_block(self, context):
+        """Return the string to begin a block."""
         indexes = context.resolve("indexes")
         if isinstance(indexes, jinja2.runtime.Undefined):
             indexes = ""
         return r'\begin{songs}{%s}' % indexes
 
     def end_block(self, __context):
+        """Return the string to end a block."""
         return r'\end{songs}'
 
     def render(self, context):
+        """Return the string that will render the song."""
         outdir = os.path.dirname(context['filename'])
         if os.path.abspath(self.path).startswith(os.path.abspath(outdir)):
             path = os.path.relpath(self.path, outdir)
@@ -33,7 +41,19 @@ class SongRenderer(Content, Song):
             path = os.path.abspath(self.path)
         return r'\input{{{}}}'.format(path)
 
+#pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):
+    """Parse data associated with keyword 'song'.
+
+    Arguments:
+    - keyword: unused;
+    - argument: unused;
+    - contentlist: a list of strings, which are interpreted as regular
+      expressions (interpreted using the glob module), referring to songs.
+    - config: the current songbook configuration dictionary.
+
+    Return a list of SongRenderer() instances.
+    """
     if 'languages' not in config:
         config['_languages'] = set()
     songlist = []
@@ -67,15 +87,30 @@ CONTENT_PLUGINS = {'song': parse}
 
 
 class OnlySongsError(ContentError):
+    "A list that should contain only songs also contain other type of content."
     def __init__(self, not_songs):
+        super(OnlySongsError, self).__init__()
         self.not_songs = not_songs
 
     def __str__(self):
-        return "Only songs are allowed, and the following items are not:" + str(not_songs)
+        return (
+                "Only songs are allowed, and the following items are not:" +
+                str(self.not_songs)
+                )
 
-def process_songs(content, config = None):
+def process_songs(content, config=None):
+    """Process content that containt only songs.
+
+    Call songbook_core.content.process_content(), checks if the returned list
+    contains only songs, and raise an exception if not.
+    """
     contentlist = process_content(content, config)
-    not_songs = [item for item in contentlist if not isinstance(item, SongRenderer)]
+    not_songs = [
+            item
+            for item
+            in contentlist
+            if not isinstance(item, SongRenderer)
+            ]
     if not_songs:
         raise OnlySongsError(not_songs)
     return contentlist

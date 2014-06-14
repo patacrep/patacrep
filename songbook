@@ -32,7 +32,7 @@ class ParseStepsAction(argparse.Action):
                 (
                     getattr(namespace, self.dest)
                     + [value.strip() for value in values[0].split(',')]
-                ),
+                    ),
                 )
 
 class VerboseAction(argparse.Action):

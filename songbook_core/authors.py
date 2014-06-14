@@ -12,8 +12,11 @@ DEFAULT_AUTHWORDS = {
         }
 
 def compile_authwords(authwords):
-    # Convert strings to regular expressions
-    # Fill holes
+    """Convert strings of authwords to compiled regular expressions.
+
+    This regexp will later be used to match these words in authors strings.
+    """
+    # Fill missing values
     for (key, value) in DEFAULT_AUTHWORDS.items():
         if key not in authwords:
             authwords[key] = value

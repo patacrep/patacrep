@@ -4,16 +4,11 @@
 """Song management."""
 
 from unidecode import unidecode
-import glob
 import locale
-import os.path
 import re
-import logging
 
 from songbook_core.authors import processauthors
 from songbook_core.plastex import parsetex
-
-LOGGER = logging.getLogger(__name__)
 
 # pylint: disable=too-few-public-methods
 class Song(object):
@@ -26,8 +21,10 @@ class Song(object):
     #: Dictionnaire des options pour le traitement des auteurs
     authwords = {"after": [], "ignore": [], "sep": []}
 
-    def __init__(self, path, languages, titles, args):
-        self.titles = titles
+    def __init__(self, filename):
+        # Data extraction from the song with plastex
+        data = parsetex(filename)
+        self.titles = data['titles']
         self.normalized_titles = [
                 locale.strxfrm(
                     unprefixed_title(
@@ -36,11 +33,11 @@ class Song(object):
                         )
                     )
                 for title
-                in titles
+                in self.titles
                 ]
-        self.args = args
-        self.path = path
-        self.languages = languages
+        self.args = data['args']
+        self.path = filename
+        self.languages = data['languages']
         if "by" in self.args.keys():
             self.normalized_authors = [
                 locale.strxfrm(author)
@@ -87,23 +84,3 @@ def unprefixed_title(title, prefixes):
     return title
 
 
-class SongbookContent(object):
-    """Manipulation et traitement de liste de chansons"""
-
-    def __init__(self, datadirs):
-        self.songdirs = [os.path.join(d, 'songs')
-                         for d in datadirs]
-        self.content = []  # Sorted list of the content
-
-    def append_song(self, filename):
-        """Ajout d'une chanson à la liste
-
-        Effets de bord : analyse syntaxique plus ou moins sommaire du fichier
-        pour en extraire et traiter certaines information (titre, langue,
-        album, etc.).
-        """
-        LOGGER.debug('Parsing file "{}"…'.format(filename))
-        # Data extraction from the song with plastex
-        data = parsetex(filename)
-        song = Song(filename, data['languages'], data['titles'], data['args'])
-        self.content.append(("song", song))

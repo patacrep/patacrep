@@ -14,7 +14,7 @@ from songbook_core import __DATADIR__
 from songbook_core import content
 from songbook_core import errors
 from songbook_core.index import process_sxd
-from songbook_core.songs import Song, SongbookContent
+from songbook_core.songs import Song
 from songbook_core.templates import TexRenderer
 
 LOGGER = logging.getLogger(__name__)
@@ -69,6 +69,7 @@ class Songbook(object):
 
         TODO Move this function elsewhere
         """
+        return
         Song.sort = config['sort']
         if 'titleprefixwords' in config:
             Song.prefixes = config['titleprefixwords']

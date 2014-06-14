@@ -3,17 +3,18 @@
 
 import glob
 import jinja2
+import logging
 import os
 
 from songbook_core.content import Content
 from songbook_core.files import recursive_find
+from songbook_core.songs import Song
 
-class Song(Content):
-    def __init__(self, filename):
-        self.filename = filename
+LOGGER = logging.getLogger(__name__)
 
+class SongRenderer(Content, Song):
     def begin_new_block(self, previous, __context):
-        return not isinstance(previous, Song)
+        return not isinstance(previous, SongRenderer)
 
     def begin_block(self, context):
         indexes = context.resolve("indexes")
@@ -24,8 +25,13 @@ class Song(Content):
     def end_block(self, __context):
         return r'\end{songs}'
 
-    def render(self, __context):
-        return r'\input{{{}}}'.format(self.filename)
+    def render(self, context):
+        outdir = os.path.dirname(context['filename'])
+        if os.path.abspath(self.path).startswith(os.path.abspath(outdir)):
+            path = os.path.relpath(self.path, outdir)
+        else:
+            path = os.path.abspath(self.path)
+        return r'\input{{{}}}'.format(path)
 
 def parse(keyword, config, *arguments):
     songlist = []
@@ -45,7 +51,8 @@ def parse(keyword, config, *arguments):
         before = len(songlist)
         for songdir in [os.path.join(d, 'songs') for d in config['datadir']]:
             for filename in glob.iglob(os.path.join(songdir, elem)):
-                songlist.append(Song(filename))
+                LOGGER.debug('Parsing file "{}"…'.format(filename))
+                songlist.append(SongRenderer(filename))
             if len(songlist) > before:
                 break
         if len(songlist) == before:

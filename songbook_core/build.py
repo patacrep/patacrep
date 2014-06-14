@@ -99,7 +99,7 @@ class Songbook(object):
                 )
 
         context = self.build_config(renderer.get_variables())
-        self.contentlist = content.process_content(self.config['content'], context)
+        self.contentlist = content.process_content(self.config.get('content', []), context)
         context['render_content'] = content.render_content
         context['titleprefixkeys'] = ["after", "sep", "ignore"]
         context['content'] = self.contentlist

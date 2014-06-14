@@ -101,6 +101,8 @@ def render_content(context, content):
 def process_content(content, config = None):
     contentlist = []
     plugins = load_plugins()
+    if not content:
+        content = [["song"]]
     for elem in content:
         if isinstance(elem, basestring):
             elem = ["song", elem]

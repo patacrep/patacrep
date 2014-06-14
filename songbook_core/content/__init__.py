@@ -30,7 +30,7 @@ class Content:
         # Arguments
 
         - previous: the songbook.content.Content object of the previous item.
-        - context: TODO
+        - context: current jinja2.runtime.Context.
 
         # Return
 

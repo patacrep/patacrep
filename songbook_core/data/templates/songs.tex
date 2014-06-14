@@ -70,10 +70,9 @@
 (* block songbookpreambule *)
    (( super() ))
 
-   %!TODO
-   %!(* for lang in content.languages() *)
-   %!\PassOptionsToPackage{((lang))}{babel}
-   %!(* endfor *)
+   (* for lang in languages *)
+   \PassOptionsToPackage{((lang))}{babel}
+   (* endfor *)
    \usepackage[((lang))]{babel}
    \lang{((lang))}
 

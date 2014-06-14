@@ -34,6 +34,8 @@ class SongRenderer(Content, Song):
         return r'\input{{{}}}'.format(path)
 
 def parse(keyword, config, *arguments):
+    if 'languages' not in config:
+        config['languages'] = set()
     songlist = []
     if not arguments:
         arguments = [
@@ -52,7 +54,9 @@ def parse(keyword, config, *arguments):
         for songdir in [os.path.join(d, 'songs') for d in config['datadir']]:
             for filename in glob.iglob(os.path.join(songdir, elem)):
                 LOGGER.debug('Parsing file "{}"…'.format(filename))
-                songlist.append(SongRenderer(filename))
+                song = SongRenderer(filename)
+                songlist.append(song)
+                config["languages"].update(song.languages)
             if len(songlist) > before:
                 break
         if len(songlist) == before:

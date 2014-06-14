@@ -11,6 +11,7 @@ import re
 from subprocess import Popen, PIPE, call
 
 from songbook_core import __DATADIR__
+from songbook_core import authors
 from songbook_core import content
 from songbook_core import errors
 from songbook_core.index import process_sxd
@@ -19,11 +20,6 @@ from songbook_core.templates import TexRenderer
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
-DEFAULT_AUTHWORDS = {
-        "after": ["by"],
-        "ignore": ["unknown"],
-        "sep": ["and"],
-        }
 DEFAULT_STEPS = ['tex', 'pdf', 'sbx', 'pdf', 'clean']
 GENERATED_EXTENSIONS = [
         "_auth.sbx",
@@ -36,6 +32,12 @@ GENERATED_EXTENSIONS = [
         "_title.sbx",
         "_title.sxd",
         ]
+DEFAULT_CONFIG = {
+        'template': "default.tex",
+        'lang': 'english',
+        'content': [],
+        'titleprefixwords': [],
+        }
 
 
 
@@ -50,46 +52,10 @@ class Songbook(object):
 
     def __init__(self, raw_songbook, basename):
         super(Songbook, self).__init__()
+        self.config = raw_songbook
         self.basename = basename
-        # Default values: will be updated while parsing raw_songbook
-        self.config = {
-                'template': "default.tex",
-                'lang': 'english',
-                'sort': [u"by", u"album", u"@title"],
-                'content': None,
-                'titleprefixwords': [],
-                }
-        self._parse_raw(raw_songbook)
-
-
-    def _parse_raw(self, raw_songbook):
-        """Parse raw_songbook.
-
-        The principle is: some special keys have their value processed; others
-        are stored verbatim in self.config.
-        """
-        self.config.update(raw_songbook)
+        # Some special keys have their value processed.
         self._set_datadir()
-        self._set_authwords()
-
-
-    def _set_authwords(self):
-        # Ensure self.config['authwords'] contains all entries
-        for (key, value) in DEFAULT_AUTHWORDS.items():
-            if key not in self.config['authwords']:
-                self.config['authwords'][key] = value
-        # Convert strings to regular expressions
-        self.config["authwords"]['after'] = [
-                re.compile(r"^.*%s\b(.*)" % after)
-                for after
-                in self.config['authwords']["after"]
-                ]
-        self.config["authwords"]['sep'] = [
-                re.compile(r"^(.*)%s (.*)$" % sep)
-                for sep in ([
-                    " %s" % sep for sep in self.config['authwords']["sep"]
-                            ] + [','])
-                ]
 
     def _set_datadir(self):
         """Set the default values for datadir"""
@@ -110,21 +76,30 @@ class Songbook(object):
 
         self.config['datadir'] = abs_datadir
 
+    def build_config(self, from_templates):
+        config = DEFAULT_CONFIG
+        config.update(from_templates)
+        config.update(self.config)
+
+        # Post-processing
+        config['authwords'] = authors.compile_authwords(config['authwords'])
+
+        return config
+
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
 
         Arguments:
         - output: a file object, in which the file will be written.
         """
-        self.contentlist = content.process_content(self.config['content'], self.config)
         renderer = TexRenderer(
                 self.config['template'],
                 self.config['datadir'],
                 self.config['lang'],
                 )
 
-        context = renderer.get_variables()
-        context.update(self.config)
+        context = self.build_config(renderer.get_variables())
+        self.contentlist = content.process_content(self.config['content'], context)
         context['render_content'] = content.render_content
         context['titleprefixkeys'] = ["after", "sep", "ignore"]
         context['content'] = self.contentlist

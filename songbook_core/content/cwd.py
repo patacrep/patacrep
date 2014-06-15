@@ -26,11 +26,14 @@ def parse(keyword, config, argument, contentlist):
     - then as a relative path to every path already present in
       config['songdir'].
     """
+    old_songdir = config['_songdir']
     config['_songdir'] = (
             [os.path.relpath(argument)] +
             [os.path.join(path, argument) for path in config['_songdir']] +
             config['_songdir']
             )
-    return process_content(contentlist, config)
+    processed_content = process_content(contentlist, config)
+    config['_songdir'] = old_songdir
+    return processed_content
 
 CONTENT_PLUGINS = {'cwd': parse}

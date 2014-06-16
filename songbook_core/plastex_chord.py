@@ -33,8 +33,11 @@ def wrap_displaymath(cls):
             """Wrapper to invoke() to update global variable IN_VERSE."""
             global IN_VERSE
             if self.macroMode == Macro.MODE_BEGIN:
+                self.ownerDocument.context.push()
+                self.ownerDocument.context.catcode("\n", 13)
                 IN_VERSE += 1
             else:
+                self.ownerDocument.context.pop()
                 IN_VERSE -= 1
             super(WrappedClass, self).invoke(tex)
     return WrappedClass

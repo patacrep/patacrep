@@ -81,46 +81,38 @@ class Songbook(object):
                 for path in self.config['datadir']
                 ]
 
-    def build_config(self, from_templates):
-        """Build configuration dictionary
-
-        This dictionary is assembled using (by order of least precedence):
-            - the hard-coded default;
-            - the values read from templates;
-            - the values read from .sb file.
-            """
-        config = DEFAULT_CONFIG
-        config.update(from_templates)
-        config.update(self.config)
-
-        # Post-processing
-        config['authwords'] = authors.compile_authwords(config['authwords'])
-
-        return config
-
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
 
         Arguments:
         - output: a file object, in which the file will be written.
         """
+        # Updating configuration
+        config = DEFAULT_CONFIG
+        config.update(self.config)
         renderer = TexRenderer(
-                self.config['template'],
-                self.config['datadir'],
-                self.config['lang'],
+                config['template'],
+                config['datadir'],
+                config['lang'],
                 )
+        config.update(self.config)
+        config.update(renderer.get_variables())
 
-        context = self.build_config(renderer.get_variables())
+        config['authwords'] = authors.compile_authwords(config['authwords'])
+
+        self.config = config
+        # Configuration set
+
         self.contentlist = content.process_content(
                 self.config.get('content', []),
-                context,
+                self.config,
                 )
-        context['render_content'] = content.render_content
-        context['titleprefixkeys'] = ["after", "sep", "ignore"]
-        context['content'] = self.contentlist
-        context['filename'] = output.name[:-4]
+        self.config['render_content'] = content.render_content
+        self.config['titleprefixkeys'] = ["after", "sep", "ignore"]
+        self.config['content'] = self.contentlist
+        self.config['filename'] = output.name[:-4]
 
-        renderer.render_tex(output, context)
+        renderer.render_tex(output, self.config)
 
 
 class SongbookBuilder(object):

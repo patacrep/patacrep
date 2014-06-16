@@ -133,9 +133,10 @@ def main():
         sb_builder.build_steps(options.steps)
     except errors.SongbookError as error:
         LOGGER.error(error)
-        LOGGER.error(
-                "Running again with option '-v' may give more information."
-                )
+        if LOGGER.level >= logging.INFO:
+            LOGGER.error(
+                    "Running again with option '-v' may give more information."
+                    )
         sys.exit(1)
 
     sys.exit(0)

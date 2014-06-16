@@ -50,7 +50,7 @@ class LatexCompilationError(SongbookError):
                 ).format(basename=self.basename)
 
 class StepCommandError(SongbookError):
-    """Error during LaTeX compilation."""
+    """Error during custom command compilation."""
 
     def __init__(self, command, code):
         super(StepCommandError, self).__init__()

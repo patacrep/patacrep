@@ -25,7 +25,7 @@ def wrap_displaymath(cls):
     """
 
     # pylint: disable=no-init,too-few-public-methods
-    class DisplayMath(cls):
+    class WrappedClass(cls):
         """Wrapper to LaTeX environment updating IN_VERSE"""
         blockType = True
         # pylint: disable=super-on-old-class,global-statement,no-member
@@ -36,8 +36,8 @@ def wrap_displaymath(cls):
                 IN_VERSE += 1
             else:
                 IN_VERSE -= 1
-            super(DisplayMath, self).invoke(tex)
-    return DisplayMath
+            super(WrappedClass, self).invoke(tex)
+    return WrappedClass
 
 # pylint: disable=too-many-public-methods
 @wrap_displaymath

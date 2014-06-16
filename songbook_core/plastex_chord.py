@@ -83,16 +83,6 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
     """
     macroName = '['
 
-    def digest(self, tokens):
-        """Consume the tokens corresponding to the arguments of this macro"""
-        if IN_VERSE:
-            for item in tokens:
-                if item.nodeType == item.TEXT_NODE and item.nodeValue == ']':
-                    break
-                self.appendChild(item)
-        else:
-            return super(BeginChordOrDisplayMath, self).digest(tokens)
-
     def invoke(self, tex):
         """Process this macro"""
         if IN_VERSE:

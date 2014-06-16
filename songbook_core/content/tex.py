@@ -6,7 +6,7 @@
 import logging
 import os
 
-from songbook_core.content import Content, ContentError
+from songbook_core.content import Content
 
 LOGGER = logging.getLogger(__name__)
 
@@ -46,13 +46,11 @@ def parse(keyword, argument, contentlist, config):
                 checked_file = os.path.relpath(os.path.join(path, filename))
                 break
         if not checked_file:
-            raise ContentError(
-                    keyword,
-                    "Cannot find file '{}' in '{}'.".format(
-                        filename,
-                        str(config['_songdir']),
-                        )
+            LOGGER.warning(
+                    ("Cannot find file '{}' in '{}'. Compilation may fail "
+                    "later.").format( filename, str(config['_songdir']))
                     )
+            continue
         filelist.append(LaTeX(checked_file))
 
     return filelist

@@ -85,15 +85,3 @@ class UnknownStep(SongbookError):
     def __str__(self):
         return """Compilation step "{step}" unknown.""".format(step=self.step)
 
-
-class LatexImportError(SongbookError):
-    """Could not import package."""
-
-    def __init__(self, package):
-        super(LatexImportError, self).__init__()
-        self.package = package
-
-    def __str__(self):
-        return """Error while importing LaTeX package "{}".""".format(
-                self.package
-                )

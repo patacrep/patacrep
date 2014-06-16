@@ -11,9 +11,6 @@ import locale
 import os
 import sys
 
-from songbook_core import __DATADIR__
-from songbook_core import errors
-
 
 def process_unbr_spaces(node):
     r"""Replace '~' and '\ ' in node by nodes that
@@ -52,37 +49,16 @@ class SongParser(object):
     """Analyseur syntaxique de fichiers .sg"""
 
     @staticmethod
-    def load_package(tex, package):
-        """Wrapper to 'tex.ownerDocument.context.loadPackage' catching errors.
-        """
-        if not tex.ownerDocument.context.loadPackage(tex, package):
-            raise errors.LatexImportError(package)
-
-    @classmethod
-    def create_tex(cls):
+    def create_tex():
         """Create a TeX object, ready to parse a tex file."""
         tex = TeX()
         tex.disableLogging()
         tex.ownerDocument.context.loadBaseMacros()
-
-        # Setting paths
         sys.path.append(os.path.dirname(__file__))
-        old_texinputs = os.environ.get("TEXINPUTS", '')
-        os.environ["TEXINPUTS"] = "{}:{}".format(
-                old_texinputs,
-                os.path.join(__DATADIR__, "latex"),
-                )
-
-        # Loading packages
-        cls.load_package(tex, "plastex_patchedbabel")
-        cls.load_package(tex, "plastex_chord")
-        cls.load_package(tex, "plastex_songs")
-        cls.load_package(tex, "songs_minimal.sty")
-
-        # Unsetting paths
+        tex.ownerDocument.context.loadPackage(tex, "plastex_patchedbabel")
+        tex.ownerDocument.context.loadPackage(tex, "plastex_chord")
+        tex.ownerDocument.context.loadPackage(tex, "plastex_songs")
         sys.path.pop()
-        os.environ["TEXINPUTS"] = old_texinputs
-
         return tex
 
     @classmethod

@@ -48,9 +48,6 @@ def simpleparse(text):
 class SongParser(object):
     """Analyseur syntaxique de fichiers .sg"""
 
-    def __init__(self):
-        pass
-
     @staticmethod
     def create_tex():
         """Create a TeX object, ready to parse a tex file."""

@@ -32,7 +32,7 @@ class ParseStepsAction(argparse.Action):
                 (
                     getattr(namespace, self.dest)
                     + [value.strip() for value in values[0].split(',')]
-                ),
+                    ),
                 )
 
 class VerboseAction(argparse.Action):
@@ -133,9 +133,10 @@ def main():
         sb_builder.build_steps(options.steps)
     except errors.SongbookError as error:
         LOGGER.error(error)
-        LOGGER.error(
-                "Running again with option '-v' may give more information."
-                )
+        if LOGGER.level >= logging.INFO:
+            LOGGER.error(
+                    "Running again with option '-v' may give more information."
+                    )
         sys.exit(1)
 
     sys.exit(0)

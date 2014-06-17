@@ -7,23 +7,14 @@ import codecs
 import glob
 import logging
 import os.path
-import re
 from subprocess import Popen, PIPE, call
 
-from patacrep import __DATADIR__
-from patacrep import errors
-from patacrep.files import recursive_find
+from patacrep import __DATADIR__, authors, content, errors
 from patacrep.index import process_sxd
-from patacrep.songs import Song, SongbookContent
 from patacrep.templates import TexRenderer
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
-DEFAULT_AUTHWORDS = {
-        "after": ["by"],
-        "ignore": ["unknown"],
-        "sep": ["and"],
-        }
 DEFAULT_STEPS = ['tex', 'pdf', 'sbx', 'pdf', 'clean']
 GENERATED_EXTENSIONS = [
         "_auth.sbx",
@@ -36,6 +27,12 @@ GENERATED_EXTENSIONS = [
         "_title.sbx",
         "_title.sxd",
         ]
+DEFAULT_CONFIG = {
+        'template': "default.tex",
+        'lang': 'english',
+        'content': [],
+        'titleprefixwords': [],
+        }
 
 
 
@@ -50,82 +47,11 @@ class Songbook(object):
 
     def __init__(self, raw_songbook, basename):
         super(Songbook, self).__init__()
+        self.config = raw_songbook
         self.basename = basename
-        # Default values: will be updated while parsing raw_songbook
-        self.config = {
-                'template': "default.tex",
-                'lang': 'english',
-                'sort': [u"by", u"album", u"@title"],
-                'content': None,
-                }
-        self._parse_raw(raw_songbook)
-
-    @staticmethod
-    def _set_songs_default(config):
-        """Set the default values for the Song() class.
-
-        Argument:
-            - config : a dictionary containing the configuration
-        """
-        Song.sort = config['sort']
-        if 'titleprefixwords' in config:
-            Song.prefixes = config['titleprefixwords']
-        else:
-            Song.prefixes = []
-        Song.authwords['after'] = [
-                re.compile(r"^.*%s\b(.*)" % after)
-                for after
-                in config['authwords']["after"]
-                ]
-        Song.authwords['ignore'] = config['authwords']['ignore']
-        Song.authwords['sep'] = [
-                re.compile(r"^(.*)%s (.*)$" % sep)
-                for sep in ([
-                    " %s" % sep for sep in config['authwords']["sep"]
-                            ] + [','])
-                ]
-
-    def _parse_raw(self, raw_songbook):
-        """Parse raw_songbook.
-
-        The principle is: some special keys have their value processed; others
-        are stored verbatim in self.config.
-        """
-        self.config.update(raw_songbook)
+        self.contentlist = []
+        # Some special keys have their value processed.
         self._set_datadir()
-
-        # Compute song list
-        if self.config['content'] is None:
-            self.config['content'] = [(
-                    "song",
-                    os.path.relpath(
-                        filename,
-                        os.path.join(self.config['datadir'][0], 'songs'),
-                        ))
-                    for filename
-                    in recursive_find(
-                                os.path.join(self.config['datadir'][0], 'songs'),
-                                '*.sg',
-                                )
-                    ]
-        else:
-            content = self.config["content"]
-            self.config["content"] = []
-            for elem in content:
-                if isinstance(elem, basestring):
-                    self.config["content"].append(("song", elem))
-                elif isinstance(elem, list):
-                    self.config["content"].append((elem[0], elem[1]))
-                else:
-                    raise errors.SBFileError(
-                                 "Syntax error: could not decode the content "
-                                 "of {0}".format(self.basename)
-                                 )
-
-        # Ensure self.config['authwords'] contains all entries
-        for (key, value) in DEFAULT_AUTHWORDS.items():
-            if key not in self.config['authwords']:
-                self.config['authwords'][key] = value
 
     def _set_datadir(self):
         """Set the default values for datadir"""
@@ -140,16 +66,17 @@ class Songbook(object):
             if os.path.exists(path) and os.path.isdir(path):
                 abs_datadir.append(os.path.abspath(path))
             else:
-                LOGGER.warning("Ignoring non-existent datadir '{}'.".format(path))
+                LOGGER.warning(
+                        "Ignoring non-existent datadir '{}'.".format(path)
+                        )
 
         abs_datadir.append(__DATADIR__)
 
         self.config['datadir'] = abs_datadir
-
-    def _parse_songs(self):
-        """Parse content included in songbook."""
-        self.contentlist = SongbookContent(self.config['datadir'])
-        self.contentlist.append_list(self.config['content'])
+        self.config['_songdir'] = [
+                os.path.join(path, 'songs')
+                for path in self.config['datadir']
+                ]
 
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
@@ -157,21 +84,32 @@ class Songbook(object):
         Arguments:
         - output: a file object, in which the file will be written.
         """
-        self._parse_songs()
+        # Updating configuration
+        config = DEFAULT_CONFIG
+        config.update(self.config)
         renderer = TexRenderer(
-                self.config['template'],
-                self.config['datadir'],
-                self.config['lang'],
+                config['template'],
+                config['datadir'],
+                config['lang'],
                 )
+        config.update(self.config)
+        config.update(renderer.get_variables())
 
-        context = renderer.get_variables()
-        context.update(self.config)
-        context['titleprefixkeys'] = ["after", "sep", "ignore"]
-        context['content'] = self.contentlist
-        context['filename'] = output.name[:-4]
+        config['authwords'] = authors.compile_authwords(config['authwords'])
 
-        self._set_songs_default(context)
-        renderer.render_tex(output, context)
+        self.config = config
+        # Configuration set
+
+        self.contentlist = content.process_content(
+                self.config.get('content', []),
+                self.config,
+                )
+        self.config['render_content'] = content.render_content
+        self.config['titleprefixkeys'] = ["after", "sep", "ignore"]
+        self.config['content'] = self.contentlist
+        self.config['filename'] = output.name[:-4]
+
+        renderer.render_tex(output, self.config)
 
 
 class SongbookBuilder(object):

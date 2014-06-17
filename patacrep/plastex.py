@@ -13,6 +13,7 @@ import sys
 
 
 def process_unbr_spaces(node):
+    #pylint: disable=line-too-long
     r"""Replace '~' and '\ ' in node by nodes that
     will be rendered as unbreakable space.
 
@@ -47,9 +48,6 @@ def simpleparse(text):
 
 class SongParser(object):
     """Analyseur syntaxique de fichiers .sg"""
-
-    def __init__(self):
-        pass
 
     @staticmethod
     def create_tex():

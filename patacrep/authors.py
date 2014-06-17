@@ -3,6 +3,37 @@
 
 """Authors string management."""
 
+import re
+
+DEFAULT_AUTHWORDS = {
+        "after": ["by"],
+        "ignore": ["unknown"],
+        "sep": ["and"],
+        }
+
+def compile_authwords(authwords):
+    """Convert strings of authwords to compiled regular expressions.
+
+    This regexp will later be used to match these words in authors strings.
+    """
+    # Fill missing values
+    for (key, value) in DEFAULT_AUTHWORDS.items():
+        if key not in authwords:
+            authwords[key] = value
+
+    # Compilation
+    authwords['after'] = [
+            re.compile(r"^.*%s\b(.*)" % word)
+            for word in authwords['after']
+            ]
+    authwords['sep'] = [
+            re.compile(r"^(.*)%s (.*)$" % word)
+            for word in ([" %s" % word for word in authwords['sep']] + [','])
+            ]
+
+    return authwords
+
+
 def split_author_names(string):
     r"""Split author between first and last name.
 

@@ -5,8 +5,12 @@ r"""PlasTeX module to deal with chords commands of the songs LaTeX package
 Chords are set using commands like \[C]. This package parses those commands.
 """
 
+import logging
+
 from plasTeX import Command, Environment, Macro
 from plasTeX.Base.LaTeX.Math import BeginDisplayMath
+
+LOGGER = logging.getLogger(__name__)
 
 # Count the number of levels of 'verse' environment: IN_VERSE==1 means that we
 # are in a 'verse' environment; IN_VERSE==2 means that we are in two included
@@ -21,7 +25,7 @@ def wrap_displaymath(cls):
     """
 
     # pylint: disable=no-init,too-few-public-methods
-    class DisplayMath(cls):
+    class WrappedClass(cls):
         """Wrapper to LaTeX environment updating IN_VERSE"""
         blockType = True
         # pylint: disable=super-on-old-class,global-statement,no-member
@@ -29,11 +33,14 @@ def wrap_displaymath(cls):
             """Wrapper to invoke() to update global variable IN_VERSE."""
             global IN_VERSE
             if self.macroMode == Macro.MODE_BEGIN:
+                self.ownerDocument.context.push()
+                self.ownerDocument.context.catcode("\n", 13)
                 IN_VERSE += 1
             else:
+                self.ownerDocument.context.pop()
                 IN_VERSE -= 1
-            super(DisplayMath, self).invoke(tex)
-    return DisplayMath
+            super(WrappedClass, self).invoke(tex)
+    return WrappedClass
 
 # pylint: disable=too-many-public-methods
 @wrap_displaymath
@@ -55,19 +62,19 @@ class Chorus(Environment):
 
 
 
-class BeginChord(Command):
+class Chord(Command):
     """Beginning of a chord notation"""
     macroName = 'chord'
-    macroMode = Command.MODE_BEGIN
+    macroMode = Command.MODE_NONE
+
+    def __init__(self, *args, **kwargs):
+        super(Chord, self).__init__(*args, **kwargs)
+        self.chord = ""
 
     @property
     def source(self):
         """Return chord LaTeX code."""
-        return r'\[{}]'.format(''.join([str(item) for item in self.childNodes]))
-
-class EndChord(Command):
-    """End of a chord notation"""
-    macroMode = Command.MODE_END
+        return r'\[{}]'.format(self.chord)
 
 class BeginChordOrDisplayMath(BeginDisplayMath):
     r"""Wrapper to BeginDisplayMath
@@ -79,32 +86,28 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
     """
     macroName = '['
 
-    def digest(self, tokens):
-        """Consume the tokens corresponding to the arguments of this macro"""
-        if IN_VERSE:
-            for item in tokens:
-                if item.nodeType == item.TEXT_NODE and item.nodeValue == ']':
-                    break
-                self.appendChild(item)
-        else:
-            return super(BeginChordOrDisplayMath, self).digest(tokens)
-
     def invoke(self, tex):
         """Process this macro"""
         if IN_VERSE:
-            begin = BeginChord()
-            self.ownerDocument.context.push(begin) # pylint: disable=no-member
-            self.parse(tex)
+            chord = Chord()
 
             for token in tex:
                 if token.nodeType == token.TEXT_NODE and token.nodeValue == ']':
                     break
                 else:
-                    begin.appendChild(token)
+                    if token.nodeName == '#text':
+                        chord.chord += str(token)
+                    elif token.nodeName == "active::&":
+                        chord.chord += '&'
+                    else:
+                        LOGGER.warning((
+                            "{}: Unexpected character '{}' in chord "
+                            "argument. Continuing anyway.").format(
+                                tex.filename,
+                                token.source,
+                                ))
+                        break
 
-            end = EndChord()
-            self.ownerDocument.context.push(end) # pylint: disable=no-member
-
-            return [begin]
+            return [chord]
         else:
             return super(BeginChordOrDisplayMath, self).invoke(tex)

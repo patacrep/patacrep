@@ -74,7 +74,7 @@ def parse(keyword, config, argument, contentlist):
         songlist = process_songs(contentlist, config)
     except OnlySongsError as error:
         raise ContentError(keyword, (
-            "Content list of this keyword can bo only songs (or content "
+            "Content list of this keyword can be only songs (or content "
             "that result into songs), and the following are not:" +
             str(error.not_songs)
             ))

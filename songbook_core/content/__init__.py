@@ -74,6 +74,7 @@ import logging
 import os
 import re
 
+from songbook_core import files
 from songbook_core.errors import SongbookError
 
 LOGGER = logging.getLogger(__name__)
@@ -150,7 +151,7 @@ def load_plugins():
                 if key in plugins:
                     LOGGER.warning(
                             "File %s: Keyword '%s' is already used. Ignored.",
-                            os.path.relpath(name),
+                            files.relpath(name),
                             key,
                             )
                     continue

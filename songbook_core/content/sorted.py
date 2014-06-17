@@ -9,8 +9,8 @@ to a songbook.
 
 import locale
 import logging
-import os
 
+from songbook_core import files
 from songbook_core.content import ContentError
 from songbook_core.content.song import OnlySongsError, process_songs
 
@@ -57,9 +57,9 @@ def key_generator(sort):
                     field = song.args[key]
                 except KeyError:
                     LOGGER.debug(
-                            "Ignoring non-existent key '{}' for song {}.".format(
+                            "Ignoring unknown key '{}' for song {}.".format(
                                 key,
-                                os.path.relpath(song.path),
+                                files.relpath(song.path),
                                 )
                             )
                     field = ""

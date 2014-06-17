@@ -6,6 +6,7 @@
 import logging
 import os
 
+from songbook_core import files
 from songbook_core.content import Content
 
 LOGGER = logging.getLogger(__name__)
@@ -17,12 +18,10 @@ class LaTeX(Content):
         self.filename = filename
 
     def render(self, context):
-        outdir = os.path.dirname(context['filename'])
-        if os.path.abspath(self.filename).startswith(os.path.abspath(outdir)):
-            filename = os.path.relpath(self.filename, outdir)
-        else:
-            filename = os.path.abspath(self.filename)
-        return r'\input{{{}}}'.format(filename)
+        return r'\input{{{}}}'.format(files.relpath(
+            self.filename,
+            os.path.dirname(context['filename']),
+            ))
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):
@@ -48,7 +47,7 @@ def parse(keyword, argument, contentlist, config):
         if not checked_file:
             LOGGER.warning(
                     ("Cannot find file '{}' in '{}'. Compilation may fail "
-                    "later.").format( filename, str(config['_songdir']))
+                    "later.").format(filename, str(config['_songdir']))
                     )
             continue
         filelist.append(LaTeX(checked_file))

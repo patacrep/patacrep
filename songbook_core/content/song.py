@@ -9,7 +9,7 @@ import logging
 import os
 
 from songbook_core.content import Content, process_content, ContentError
-from songbook_core.files import recursive_find
+from songbook_core import files
 from songbook_core.songs import Song
 
 LOGGER = logging.getLogger(__name__)
@@ -34,12 +34,10 @@ class SongRenderer(Content, Song):
 
     def render(self, context):
         """Return the string that will render the song."""
-        outdir = os.path.dirname(context['filename'])
-        if os.path.abspath(self.path).startswith(os.path.abspath(outdir)):
-            path = os.path.relpath(self.path, outdir)
-        else:
-            path = os.path.abspath(self.path)
-        return r'\input{{{}}}'.format(path)
+        return r'\input{{{}}}'.format(files.relpath(
+            self.path,
+            os.path.dirname(context['filename'])
+            ))
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):
@@ -61,9 +59,9 @@ def parse(keyword, argument, contentlist, config):
         if contentlist:
             break
         contentlist = [
-                os.path.relpath(filename, songdir)
+                files.relpath(filename, songdir)
                 for filename
-                in recursive_find(songdir, "*.sg")
+                in files.recursive_find(songdir, "*.sg")
                 ]
     for elem in contentlist:
         before = len(songlist)

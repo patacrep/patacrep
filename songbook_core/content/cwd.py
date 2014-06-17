@@ -28,7 +28,7 @@ def parse(keyword, config, argument, contentlist):
     """
     old_songdir = config['_songdir']
     config['_songdir'] = (
-            [os.path.relpath(argument)] +
+            [argument] +
             [os.path.join(path, argument) for path in config['_songdir']] +
             config['_songdir']
             )

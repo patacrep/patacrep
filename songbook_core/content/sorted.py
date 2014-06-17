@@ -8,9 +8,13 @@ to a songbook.
 """
 
 import locale
+import logging
+import os
 
 from songbook_core.content import ContentError
 from songbook_core.content.song import OnlySongsError, process_songs
+
+LOGGER = logging.getLogger(__name__)
 
 DEFAULT_SORT = ['by', 'album', '@title']
 
@@ -49,7 +53,16 @@ def key_generator(sort):
             elif key == "by":
                 field = song.authors
             else:
-                field = song.args.get(key, "")
+                try:
+                    field = song.args[key]
+                except KeyError:
+                    LOGGER.debug(
+                            "Ignoring non-existent key '{}' for song {}.".format(
+                                key,
+                                os.path.relpath(song.path),
+                                )
+                            )
+                    field = ""
             songkey.append(normalize_field(field))
         return songkey
     return ordered_song_keys

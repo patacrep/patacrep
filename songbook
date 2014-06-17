@@ -12,9 +12,9 @@ import os.path
 import textwrap
 import sys
 
-from songbook_core.build import SongbookBuilder, DEFAULT_STEPS
-from songbook_core import __STR_VERSION__
-from songbook_core import errors
+from patacrep.build import SongbookBuilder, DEFAULT_STEPS
+from patacrep import __STR_VERSION__
+from patacrep import errors
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)

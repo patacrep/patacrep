@@ -13,8 +13,8 @@ import locale
 import re
 import codecs
 
-from songbook_core.authors import processauthors
-from songbook_core.plastex import simpleparse
+from patacrep.authors import processauthors
+from patacrep.plastex import simpleparse
 
 EOL = u"\n"
 

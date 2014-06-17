@@ -10,12 +10,12 @@ import os.path
 import re
 from subprocess import Popen, PIPE, call
 
-from songbook_core import __DATADIR__
-from songbook_core import errors
-from songbook_core.files import recursive_find
-from songbook_core.index import process_sxd
-from songbook_core.songs import Song, SongbookContent
-from songbook_core.templates import TexRenderer
+from patacrep import __DATADIR__
+from patacrep import errors
+from patacrep.files import recursive_find
+from patacrep.index import process_sxd
+from patacrep.songs import Song, SongbookContent
+from patacrep.templates import TexRenderer
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"

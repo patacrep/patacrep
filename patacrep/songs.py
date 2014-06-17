@@ -10,8 +10,8 @@ import os.path
 import re
 import logging
 
-from songbook_core.authors import processauthors
-from songbook_core.plastex import parsetex
+from patacrep.authors import processauthors
+from patacrep.plastex import parsetex
 
 LOGGER = logging.getLogger(__name__)
 

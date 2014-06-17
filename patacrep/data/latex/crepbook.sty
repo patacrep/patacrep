@@ -3,10 +3,10 @@
 % This package is intended to be used with the songbook Python program (and its
 % interfaces).
 % It defines some layout for automatic songbook generation.
-% See http://github.com/patacrep/songbook-core/
+% See http://github.com/patacrep/patacrep/
 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
-\ProvidesPackage{crepbook}[2014/04/13 Crepbook Package, version 0.1]
+\ProvidesPackage{crepbook}[2014/06/17 Crepbook Package, version 1]
 
 % fancy-capo: When a capo is necessary, use a picture instead of text.
 \newif{\iffancycapo}
@@ -22,12 +22,12 @@
 \customfontstrue
 \DeclareOption{nocustomfonts}{\customfontsfalse}
 
-% Remaining options are passed to the SongbookUtils package
-\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{SongbookUtils}}
+% Remaining options are passed to the main Patacrep package
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{patacrep}}
 
 \ProcessOptions\relax
 
-\RequirePackage{SongbookUtils}
+\RequirePackage{patacrep}
 
 \ifpictures
     \fancycapotrue

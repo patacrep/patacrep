@@ -16,24 +16,24 @@ is precised in the header.
 
 # Python version
 
-Songbook is compatible with Python 2.7 (no Python3 since [one of the
+Patacrep is compatible with Python 2.7 (no Python3 since [one of the
 library](http://plastex.sourceforge.net/) we are using is not).
 
 # Download
 
 Clone Patacrep repos:
 
->     git clone git://github.com/crep4ever/songbook-core.git
->     git clone git://github.com/crep4ever/songbook-data.git
+>     git clone git://github.com/patacrep/patacrep.git
+>     git clone git://github.com/patacrep/patadata.git
 
 # Run
 
->     <songbook-core>/songbook <songbook_file.sb>
+>     <patacrep>/songbook <songbook_file.sb>
 >     <pdfreader> <songbook_file.pdf>
 
-Look for existing songbook files in <songbook-data>/books. For example:
+Look for existing songbook files in `<patadata>/books/`. For example:
 
->     <songbook-core>/songbook <songbook-data>/books/songbook_en.sb
+>     <patacrep>/songbook <patadata>/books/songbook_en.sb
 >     <pdfreader> songbook_en.pdf
 
 # Quick and dirty deb packages

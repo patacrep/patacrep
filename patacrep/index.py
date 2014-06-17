@@ -13,6 +13,7 @@ import locale
 import re
 import codecs
 
+from patacrep import authors
 from patacrep.plastex import simpleparse
 
 EOL = u"\n"

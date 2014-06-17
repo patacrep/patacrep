@@ -13,6 +13,7 @@ import sys
 
 
 def process_unbr_spaces(node):
+    #pylint: disable=line-too-long
     r"""Replace '~' and '\ ' in node by nodes that
     will be rendered as unbreakable space.
 

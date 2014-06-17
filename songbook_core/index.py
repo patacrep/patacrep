@@ -13,7 +13,7 @@ import locale
 import re
 import codecs
 
-from songbook_core.authors import processauthors
+from songbook_core import authors
 from songbook_core.plastex import simpleparse
 
 EOL = u"\n"
@@ -30,7 +30,9 @@ def sortkey(value):
     don't forget to call locale.setlocale(locale.LC_ALL, '')). It also handles
     the sort with  latex escape sequences.
     """
-    return locale.strxfrm(unidecode(simpleparse(value).replace(' ', 'A')))
+    return locale.strxfrm(
+            unidecode(simpleparse(value).replace(' ', 'A')).lower()
+            )
 
 
 def process_sxd(filename):
@@ -65,8 +67,8 @@ class Index(object):
     def __init__(self, indextype):
         self.data = dict()
         self.keywords = dict()
+        self.authwords = dict()
         self.prefix_patterns = []
-        self.authwords = {"after": [], "ignore": [], "sep": []}
         if indextype == "TITLE INDEX DATA FILE":
             self.indextype = "TITLE"
         elif indextype == "SCRIPTURE INDEX DATA FILE":
@@ -100,26 +102,7 @@ class Index(object):
                             ))
 
         if self.indextype == "AUTHOR":
-            for key in self.keywords:
-                if key in self.authwords:
-                    self.authwords[key] = self.keywords[key]
-            for word in self.authwords.keys():
-                if word in self.keywords:
-                    if word == "after":
-                        self.authwords[word] = [
-                            re.compile(r"^.*{after}\b(.*)".format(after=after))
-                            for after in self.keywords[word]
-                            ]
-                    elif word == "sep":
-                        self.authwords[word] = [" {sep}".format(sep=sep)
-                                            for sep in self.authwords[word]
-                                            ] + [","]
-                        self.authwords[word] = [
-                                re.compile(r"^(.*){sep} (.*)$".format(sep=sep))
-                                for sep in self.authwords[word]
-                                ]
-                    else:
-                        self.authwords[word] = self.keywords[word]
+            self.authwords = authors.compile_authwords(self.keywords)
 
     def _raw_add(self, key, number, link):
         """Add a song to the list.
@@ -157,7 +140,7 @@ class Index(object):
 
         if self.indextype == "AUTHOR":
             # Processing authors
-            for author in processauthors(
+            for author in authors.processauthors(
                     key,
                     **self.authwords):
                 self._raw_add(author, number, link)

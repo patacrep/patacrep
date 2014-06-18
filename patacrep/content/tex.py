@@ -6,8 +6,8 @@
 import logging
 import os
 
-from songbook_core import files
-from songbook_core.content import Content
+from patacrep import files
+from patacrep.content import Content
 
 LOGGER = logging.getLogger(__name__)
 

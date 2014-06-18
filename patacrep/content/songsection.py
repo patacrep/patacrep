@@ -3,7 +3,7 @@
 
 """Allow 'songchapter' and 'songsection' as content of a songbook."""
 
-from songbook_core.content import Content, ContentError
+from patacrep.content import Content, ContentError
 
 KEYWORDS = [
         "songchapter",

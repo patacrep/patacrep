@@ -11,7 +11,7 @@ import os
 import re
 import json
 
-from songbook_core import errors
+from patacrep import errors
 
 _LATEX_SUBS = (
     (re.compile(r'\\'), r'\\textbackslash'),

@@ -5,7 +5,7 @@
 
 import os
 
-from songbook_core.content import process_content
+from patacrep.content import process_content
 
 #pylint: disable=unused-argument
 def parse(keyword, config, argument, contentlist):
@@ -16,7 +16,7 @@ def parse(keyword, config, argument, contentlist):
     - config: the current songbook configuration dictionary;
     - argument: a directory;
     - contentlist: songbook content, that is parsed by
-      songbook_core.content.process_content().
+      patacrep.content.process_content().
 
     This function adds 'argument' to the directories where songs are searched
     for, and then processes the content.

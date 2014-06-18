@@ -9,12 +9,9 @@ import logging
 import os.path
 from subprocess import Popen, PIPE, call
 
-from songbook_core import __DATADIR__
-from songbook_core import authors
-from songbook_core import content
-from songbook_core import errors
-from songbook_core.index import process_sxd
-from songbook_core.templates import TexRenderer
+from patacrep import __DATADIR__, authors, content, errors
+from patacrep.index import process_sxd
+from patacrep.templates import TexRenderer
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"

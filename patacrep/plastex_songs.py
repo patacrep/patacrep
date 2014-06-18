@@ -6,7 +6,7 @@
 
 import plasTeX
 
-from songbook_core.plastex import process_unbr_spaces
+from patacrep.plastex import process_unbr_spaces
 
 
 def split_linebreak(texlist):

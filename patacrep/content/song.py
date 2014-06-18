@@ -8,9 +8,9 @@ import jinja2
 import logging
 import os
 
-from songbook_core.content import Content, process_content, ContentError
-from songbook_core import files
-from songbook_core.songs import Song
+from patacrep.content import Content, process_content, ContentError
+from patacrep import files
+from patacrep.songs import Song
 
 LOGGER = logging.getLogger(__name__)
 
@@ -99,7 +99,7 @@ class OnlySongsError(ContentError):
 def process_songs(content, config=None):
     """Process content that containt only songs.
 
-    Call songbook_core.content.process_content(), checks if the returned list
+    Call patacrep.content.process_content(), checks if the returned list
     contains only songs, and raise an exception if not.
     """
     contentlist = process_content(content, config)

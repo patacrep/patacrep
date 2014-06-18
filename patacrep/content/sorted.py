@@ -10,9 +10,9 @@ to a songbook.
 import locale
 import logging
 
-from songbook_core import files
-from songbook_core.content import ContentError
-from songbook_core.content.song import OnlySongsError, process_songs
+from patacrep import files
+from patacrep.content import ContentError
+from patacrep.content.song import OnlySongsError, process_songs
 
 LOGGER = logging.getLogger(__name__)
 

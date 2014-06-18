@@ -6,8 +6,8 @@
 from unidecode import unidecode
 import re
 
-from songbook_core.authors import processauthors
-from songbook_core.plastex import parsetex
+from patacrep.authors import processauthors
+from patacrep.plastex import parsetex
 
 # pylint: disable=too-few-public-methods
 class Song(object):

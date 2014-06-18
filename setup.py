@@ -6,7 +6,7 @@ $ python setup.py install
 """
 from distutils.core import setup
 from distutils.command.install import install as _install
-from songbook_core import __STR_VERSION__
+from patacrep import __STR_VERSION__
 
 import sys
 import os
@@ -44,13 +44,13 @@ class install(_install):
 
 
 setup(cmdclass={'install': install},
-        name='songbook-core',
+        name='patacrep',
         version=__STR_VERSION__,
         description='Songbook compilation chain',
-        author='The Songbook team',
+        author='The Patacrep team',
         author_email='crep@team-on-fire.com',
-        url='https://github.com/patacrep/songbook-core',
-        packages=['songbook_core'],
+        url='https://github.com/patacrep/patacrep',
+        packages=['patacrep'],
         license="GPLv2 or any later version",
         scripts=['songbook'],
         requires=[
@@ -58,7 +58,7 @@ setup(cmdclass={'install': install},
             "locale", "logging", "os", "plasTeX", "re", "subprocess", "sys",
             "textwrap", "unidecode", "jinja2"
             ],
-        package_data={'songbook_core': ['data/latex/*',
+        package_data={'patacrep': ['data/latex/*',
                                         'data/templates/*',
                                         'data/examples/*.sb',
                                         'data/examples/*/*.sg',

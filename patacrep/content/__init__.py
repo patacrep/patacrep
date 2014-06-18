@@ -74,8 +74,8 @@ import logging
 import os
 import re
 
-from songbook_core import files
-from songbook_core.errors import SongbookError
+from patacrep import files
+from patacrep.errors import SongbookError
 
 LOGGER = logging.getLogger(__name__)
 EOL = '\n'
@@ -143,7 +143,7 @@ def load_plugins():
     for name in glob.glob(os.path.join(os.path.dirname(__file__), "*.py")):
         if name.endswith(".py") and os.path.basename(name) != "__init__.py":
             plugin = importlib.import_module(
-                    'songbook_core.content.{}'.format(
+                    'patacrep.content.{}'.format(
                         os.path.basename(name[:-len('.py')])
                         )
                     )

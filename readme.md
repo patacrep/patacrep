@@ -45,7 +45,8 @@ Install `python-stdeb`, then:
 
 # Documentation
 
-   http://www.patacrep.com/data/documents/doc_en.pdf
+- Compiled, but may be outdated: http://www.patacrep.com/data/documents/doc_en.pdf
+- Documentation repository (to update the previous one): [patacrep-doc](http://github.com/patacrep/patacrep-doc)
 
 # Contact & Forums
 

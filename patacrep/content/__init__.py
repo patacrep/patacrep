@@ -11,8 +11,9 @@ Content class.
 
 # Plugin definition
 
-A plugin is a submodule of this module, which have a variable
-CONTENT_PLUGINS, which is a dictionary where:
+A plugin is a submodule of this module, (or a python file in directory
+<datadir>/python/content), which have a variable CONTENT_PLUGINS, which is a
+dictionary where:
     - keys are keywords,
     - values are parsers (see below).
 
@@ -73,6 +74,7 @@ import jinja2
 import logging
 import os
 import re
+import sys
 
 from patacrep import files
 from patacrep.errors import SongbookError
@@ -132,7 +134,7 @@ class ContentError(SongbookError):
     def __str__(self):
         return "Content: {}: {}".format(self.keyword, self.message)
 
-def load_plugins():
+def load_plugins(config):
     """Load all content plugins, and return a dictionary of those plugins.
 
     Return value: a dictionary where:
@@ -140,22 +142,43 @@ def load_plugins():
     - values are functions triggered when this keyword is met.
     """
     plugins = {}
-    for name in glob.glob(os.path.join(os.path.dirname(__file__), "*.py")):
-        if name.endswith(".py") and os.path.basename(name) != "__init__.py":
-            plugin = importlib.import_module(
-                    'patacrep.content.{}'.format(
-                        os.path.basename(name[:-len('.py')])
-                        )
+    directory_list = (
+            [
+                os.path.join(datadir, "python", "content")
+                for datadir in config.get('datadir', [])
+            ]
+            + [os.path.dirname(__file__)]
+            )
+    for directory in directory_list:
+        if not os.path.exists(directory):
+            LOGGER.debug(
+                    "Ignoring non-existent directory '%s'.",
+                    directory
                     )
-            for (key, value) in plugin.CONTENT_PLUGINS.items():
-                if key in plugins:
-                    LOGGER.warning(
+            continue
+        sys.path.append(directory)
+        for name in glob.glob(os.path.join(directory, '*.py')):
+            if name.endswith(".py") and os.path.basename(name) != "__init__.py":
+                if directory == os.path.dirname(__file__):
+                    plugin = importlib.import_module(
+                            'patacrep.content.{}'.format(
+                                os.path.basename(name[:-len('.py')])
+                                )
+                            )
+                else:
+                    plugin = importlib.import_module(
+                                os.path.basename(name[:-len('.py')])
+                                )
+                for (key, value) in plugin.CONTENT_PLUGINS.items():
+                    if key in plugins:
+                        LOGGER.warning(
                             "File %s: Keyword '%s' is already used. Ignored.",
                             files.relpath(name),
                             key,
                             )
-                    continue
-                plugins[key] = value
+                        continue
+                    plugins[key] = value
+        del sys.path[-1]
     return plugins
 
 @jinja2.contextfunction
@@ -201,7 +224,7 @@ def process_content(content, config=None):
     included in the .tex file.
     """
     contentlist = []
-    plugins = load_plugins()
+    plugins = load_plugins(config)
     keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]

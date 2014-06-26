@@ -92,8 +92,8 @@ class Songbook(object):
                 config['datadir'],
                 config['lang'],
                 )
-        config.update(self.config)
         config.update(renderer.get_variables())
+        config.update(self.config)
 
         config['authwords'] = authors.compile_authwords(config['authwords'])
 

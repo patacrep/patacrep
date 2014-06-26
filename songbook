@@ -118,12 +118,12 @@ def main():
         if isinstance(songbook['datadir'], basestring):
             songbook['datadir'] = [songbook['datadir']]
         datadirs += [
-                os.path.join(os.path.dirname(songbook_path), path)
+                os.path.join(os.path.dirname(os.path.abspath(songbook_path)), path)
                 for path in songbook['datadir']
                 ]
     if not datadirs:
         # Default value
-        datadirs = [os.path.dirname(songbook_path)]
+        datadirs = [os.path.dirname(os.path.abspath(songbook_path))]
     songbook['datadir'] = datadirs
 
     try:

@@ -402,4 +402,17 @@
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title and author rendering in the index
+
+% Usage: \indexauthor{First name}{Last name}
+% Example: \indexauthor{Edgar Allan}{Poe}
+\newcommand{\indexauthor}[2]{#2, #1} 
+
+% Usage: \indextitle{Article}{Main part}
+% Example: \indextitle{The}{Raven}
+\newcommand{\indextitle}[2]{#2 (#1)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \endinput

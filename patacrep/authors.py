@@ -168,10 +168,10 @@ def processauthors_invert_names(authors_list):
     for author in authors_list:
         first, last = split_author_names(author)
         if first:
-            dest.append("%(last)s, %(first)s" % {
-                'first': first.lstrip(),
-                'last': last.lstrip(),
-                })
+            dest.append(r"\indexauthor{{{first}}}{{{last}}}".format(
+                first=first.strip(),
+                last=last.strip(),
+                ))
         else:
             dest.append(last.lstrip())
     return dest

@@ -128,13 +128,13 @@ class Index(object):
                 match = pattern.match(key.encode('utf-8'))
                 if match:
                     self._raw_add(
-                                  "{} ({})".format(
-                                        match.group(2) + match.group(3),
-                                        match.group(1)
-                                        ),
-                                    number,
-                                    link
-                                    )
+                            r"\indextitle{{{}}}{{{}}}".format(
+                                match.group(1).strip(),
+                                (match.group(2) + match.group(3)).strip(),
+                                ),
+                            number,
+                            link
+                            )
                     return
             self._raw_add(key, number, link)
 

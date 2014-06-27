@@ -61,7 +61,10 @@ def parse(keyword, argument, contentlist, config):
         contentlist = [
                 files.relpath(filename, songdir)
                 for filename
-                in files.recursive_find(songdir, "*.sg")
+                in (
+                    files.recursive_find(songdir, "*.sg")
+                    + files.recursive_find(songdir, "*.is")
+                    )
                 ]
     for elem in contentlist:
         before = len(songlist)

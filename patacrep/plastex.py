@@ -106,7 +106,7 @@ def parsetex(filename):
     for node in doc.allChildNodes:
         if node.nodeName == "selectlanguage":
             data["languages"].add(node.attributes['lang'])
-        if node.nodeName == "beginsong":
+        if node.nodeName in ["beginsong", "sortassong"]:
             data["titles"] = node.attributes["titles"]
             data["args"] = node.attributes["args"]
 

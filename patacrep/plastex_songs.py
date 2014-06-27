@@ -61,3 +61,7 @@ class beginsong(plasTeX.Command): # pylint: disable=invalid-name,too-many-public
             else:
                 args[key] = unicode(val)
         self.attributes['args'] = args
+
+class sortassong(beginsong): # pylint: disable=invalid-name,too-many-public-methods
+    r"""Treat '\sortassong' exactly as if it were a '\beginsong'."""
+    pass

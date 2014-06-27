@@ -71,7 +71,7 @@ def split_sep_author(string, sep):
     - string: string containing authors names ;
     - sep: regexp matching a separator.
 
-    >>> split_sep_author("Tintin and Milou", '^(.*) and (.*)$')
+    >>> split_sep_author("Tintin and Milou", re.compile('^(.*) and (.*)$'))
     ["Tintin", "Milou"]
     """
     authors = []

@@ -52,7 +52,7 @@ def parse(keyword, argument, contentlist, config):
 
     Return a list of SongRenderer() instances.
     """
-    if 'languages' not in config:
+    if '_languages' not in config:
         config['_languages'] = set()
     songlist = []
     for songdir in config['_songdir']:

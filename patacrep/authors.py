@@ -207,8 +207,10 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
     4) Strings containing words of "ignore" are dropped.
     # ["William Blake", "Hubert Parry", The Royal\ Choir~of~Nowhere"]
 
-    5) First names are moved after last names
-    # ["Blake, William", "Parry, Hubert", Royal\ Choir~of~Nowhere, The"]
+    5) First and last names are processed through LaTeX command \indexauthor
+        (which will, by default, invert first and last names).
+    # ["\indexauthor{William}{Blake}", "\indexauthor{Hubert}{Parry}",
+    # \indexthaor{The}{Royal\ Choir~of~Nowhere}"]
     """
 
     if not sep:

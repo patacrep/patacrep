@@ -19,8 +19,8 @@ from patacrep.plastex import simpleparse
 EOL = u"\n"
 
 # Pattern set to ignore latex command in title prefix
-KEYWORD_PATTERN = re.compile(r"^%(\w+)\s?(.*)$")
-FIRST_LETTER_PATTERN = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)")
+KEYWORD_PATTERN = re.compile(r"^%(\w+)\s?(.*)$", re.LOCALE)
+FIRST_LETTER_PATTERN = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)", re.LOCALE)
 
 
 def sortkey(value):
@@ -98,7 +98,8 @@ class Index(object):
             if 'prefix' in self.keywords:
                 for prefix in self.keywords['prefix']:
                     self.prefix_patterns.append(re.compile(
-                            r"^({prefix})(\b|\\)(\s*.*)$".format(prefix=prefix)
+                            r"^({prefix})(\b|\\)(\s*.*)$".format(prefix=prefix),
+                            re.LOCALE
                             ))
 
         if self.indextype == "AUTHOR":

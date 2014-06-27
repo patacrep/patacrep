@@ -23,11 +23,11 @@ def compile_authwords(authwords):
 
     # Compilation
     authwords['after'] = [
-            re.compile(r"^.*%s\b(.*)" % word)
+            re.compile(r"^.*\b%s\b(.*)$" % word, re.LOCALE)
             for word in authwords['after']
             ]
     authwords['sep'] = [
-            re.compile(r"^(.*)%s (.*)$" % word)
+            re.compile(r"^(.*)%s +(.*)$" % word, re.LOCALE)
             for word in ([" %s" % word for word in authwords['sep']] + [','])
             ]
 

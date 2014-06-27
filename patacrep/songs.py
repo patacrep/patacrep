@@ -43,7 +43,7 @@ def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
     for prefix in prefixes:
-        match = re.compile(r"^(%s)\b\s*(.*)$" % prefix).match(title)
+        match = re.compile(r"^(%s)\b\s*(.*)$" % prefix, re.LOCALE).match(title)
         if match:
             return match.group(2)
     return title

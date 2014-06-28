@@ -31,7 +31,7 @@ class Song(object):
         if "by" in self.args.keys():
             self.authors = processauthors(
                     self.args["by"],
-                    **config["authwords"]
+                    **config["_compiled_authwords"]
                     )
         else:
             self.authors = []

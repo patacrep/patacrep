@@ -48,7 +48,7 @@ def split_author_names(string):
     ignore_space = False
     last_space = index = 0
     brace_count = 0
-    for char in string:
+    for char in string.strip():
         index += 1
         if brace_count == 0:
             if char == "\\":

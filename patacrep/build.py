@@ -4,6 +4,7 @@
 """Build a songbook, according to parameters found in a .sb file."""
 
 import codecs
+import copy
 import glob
 import logging
 import os.path
@@ -95,7 +96,9 @@ class Songbook(object):
         config.update(renderer.get_variables())
         config.update(self.config)
 
-        config['authwords'] = authors.compile_authwords(config['authwords'])
+        config['_compiled_authwords'] = authors.compile_authwords(
+                copy.deepcopy(config['authwords'])
+                )
 
         self.config = config
         # Configuration set
@@ -105,7 +108,6 @@ class Songbook(object):
                 self.config,
                 )
         self.config['render_content'] = content.render_content
-        self.config['titleprefixkeys'] = ["after", "sep", "ignore"]
         self.config['content'] = self.contentlist
         self.config['filename'] = output.name[:-4]
 

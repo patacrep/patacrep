@@ -41,9 +41,9 @@ def process_sxd(filename):
     Return an Index object.
     """
     data = []
-    with codecs.open(filename, 'r', 'utf-8') as index_file:
+    with codecs.open(filename, 'r', 'iso-8859-1') as index_file:
         for line in index_file:
-            data.append(line.strip())
+            data.append(line.strip().encode('utf-8'))
 
     i = 1
     idx = Index(data[0])

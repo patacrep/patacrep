@@ -1,0 +1,3 @@
+Jinja2==2.7.3
+argparse==1.2.1
+-e git+https://github.com/tiarno/plastex#egg=plasTeX

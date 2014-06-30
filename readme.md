@@ -22,6 +22,13 @@ Clone Patacrep repos:
 >     git clone git://github.com/patacrep/patacrep.git
 >     git clone git://github.com/patacrep/patadata.git
 
+# Installation from source
+
+Make sure you have [pip](https://pip.pypa.io/en/latest/) installed, and then run
+
+>     pip install -r Requirements.txt
+>     python setup.py install
+
 # Run
 
 >     <patacrep>/songbook <songbook_file.sb>

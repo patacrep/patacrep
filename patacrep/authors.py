@@ -43,7 +43,10 @@ def compile_authwords(authwords):
             re.compile(r"^(.*)%s +(.*)$" % word, re.LOCALE)
             for word in ([" %s" % word for word in authwords['sep']] + [','])
             ]
-    authwords['ignore'] = [to_utf8(word) for word in authwords['ignore'] if to_utf8(word)]
+    authwords['ignore'] = [
+            to_utf8(word)
+            for word in authwords['ignore'] if to_utf8(word)
+            ]
 
     return authwords
 

@@ -4,10 +4,14 @@
 """Song management."""
 
 from unidecode import unidecode
-import cPickle
 import hashlib
 import os
 import re
+
+try:
+        import cPickle as pickle
+except ImportError:
+        import pickle
 
 from patacrep.authors import processauthors
 from patacrep.plastex import parsetex
@@ -39,7 +43,7 @@ class Song(object):
     def __init__(self, filename, config):
         self._filehash = hashlib.md5(open(filename, 'rb').read()).hexdigest()
         if os.path.exists(cached_name(filename)):
-            cached = cPickle.load(open(cached_name(filename), 'rb'))
+            cached = pickle.load(open(cached_name(filename), 'rb'))
             if (
                     cached['_filehash'] == self._filehash
                     and cached['_version'] == self.CACHE_VERSION
@@ -78,7 +82,7 @@ class Song(object):
         cached = {}
         for attribute in self.cached_attributes:
             cached[attribute] = getattr(self, attribute)
-        cPickle.dump(cached, open(cached_name(self.path), 'wb'))
+        pickle.dump(cached, open(cached_name(self.path), 'wb'))
 
     def __repr__(self):
         return repr((self.titles, self.args, self.path))

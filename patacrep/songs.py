@@ -4,16 +4,50 @@
 """Song management."""
 
 from unidecode import unidecode
+import cPickle
+import hashlib
+import os
 import re
 
 from patacrep.authors import processauthors
 from patacrep.plastex import parsetex
 
-# pylint: disable=too-few-public-methods
+
+def cached_name(filename):
+    """Return the filename of the cache version of the file."""
+    return filename + ".cache"
+
+# pylint: disable=too-few-public-methods, too-many-instance-attributes
 class Song(object):
     """Song management"""
 
+    # Version format of cached song.
+    CACHE_VERSION = 0
+
+    # List of attributes to cache
+    cached_attributes = [
+            "titles",
+            "unprefixed_titles",
+            "args",
+            "path",
+            "languages",
+            "authors",
+            "_filehash",
+            "_version",
+            ]
+
     def __init__(self, filename, config):
+        self._filehash = hashlib.md5(open(filename, 'rb').read()).hexdigest()
+        if os.path.exists(cached_name(filename)):
+            cached = cPickle.load(open(cached_name(filename), 'rb'))
+            if (
+                    cached['_filehash'] == self._filehash
+                    and cached['_version'] == self.CACHE_VERSION
+                    ):
+                for attribute in self.cached_attributes:
+                    setattr(self, attribute, cached[attribute])
+                return
+
         # Data extraction from the song with plastex
         data = parsetex(filename)
         self.titles = data['titles']
@@ -35,6 +69,16 @@ class Song(object):
                     )
         else:
             self.authors = []
+
+        self._version = self.CACHE_VERSION
+        self._write_cache()
+
+    def _write_cache(self):
+        """Write a dumbed down version of self to the cache."""
+        cached = {}
+        for attribute in self.cached_attributes:
+            cached[attribute] = getattr(self, attribute)
+        cPickle.dump(cached, open(cached_name(self.path), 'wb'))
 
     def __repr__(self):
         return repr((self.titles, self.args, self.path))

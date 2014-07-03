@@ -20,7 +20,7 @@ def parse(keyword, config, argument, contentlist):
     """Include an external file content.
 
     Arguments:
-        - keyword: the string 'sorted';
+        - keyword: the string 'include';
         - config: the current songbook configuration dictionary;
         - argument: None;
         - contentlist: a list of file paths to be included.

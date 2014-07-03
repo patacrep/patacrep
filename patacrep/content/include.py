@@ -26,6 +26,11 @@ def parse(keyword, config, argument, contentlist):
         - contentlist: a list of file paths to be included.
     """
     new_contentlist = []
+
+    if not os.path.isdir(config.get("_songbook_dir", "")):
+        LOGGER.warning("No songbook directory in configuration. 'include' "
+                        "keyword may fail.")
+
     for path in contentlist:
         filepath = os.path.join(config["_songbook_dir"], path)
         try:

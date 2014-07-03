@@ -108,6 +108,8 @@ def main():
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))
         sys.exit(1)
 
+    songbook["_songbook_dir"] = os.path.abspath(os.path.dirname(songbook_path))
+
     # Gathering datadirs
     datadirs = []
     if options.datadir:

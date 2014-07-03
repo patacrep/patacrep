@@ -26,16 +26,15 @@ def parse(keyword, config, argument, contentlist):
         - contentlist: a list of file paths to be included.
     """
     new_contentlist = []
-
-    if not os.path.isdir(config.get("_songbook_dir", "")):
+    songbook_dir = config.get("_songbook_dir", "")
+    if not os.path.isdir(songbook_dir):
         LOGGER.warning("No songbook directory in configuration. 'include' "
                         "keyword may fail.")
 
     for path in contentlist:
-        filepath = os.path.join(config["_songbook_dir"], path)
+        filepath = os.path.join(songbook_dir, path)
         try:
             with open(filepath, "r") as content_file:
-                old_songbook_dir = config["_songbook_dir"]
                 new_content = json.load(content_file)
         except Exception as error: # pylint: disable=broad-except
             LOGGER.error(error)
@@ -47,7 +46,7 @@ def parse(keyword, config, argument, contentlist):
                                     )
 
         new_contentlist += process_content(new_content, config)
-        config["_songbook_dir"] = old_songbook_dir
+    config["_songbook_dir"] = songbook_dir
 
     return new_contentlist
 

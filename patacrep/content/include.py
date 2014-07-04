@@ -16,10 +16,7 @@ from patacrep.content import process_content, ContentError
 LOGGER = logging.getLogger(__name__)
 
 def load_from_datadirs(path, config=None):
-    if not config or not config["datadir"]:
-        LOGGER.error("No datadir in the configuration.")
-        sys.exit(1)
-    for datadir in config["datadir"]:
+    for datadir in config.get("datadir", []):
         filepath = os.path.join(datadir, path)
         if os.path.exists(filepath):
             return filepath

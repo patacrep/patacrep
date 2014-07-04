@@ -12,6 +12,7 @@ import sys
 import logging
 
 from patacrep.content import process_content, ContentError
+from patacrep import encoding
 
 LOGGER = logging.getLogger(__name__)
 
@@ -38,13 +39,17 @@ def parse(keyword, config, argument, contentlist):
 
     for path in contentlist:
         filepath = load_from_datadirs(path, config)
+        content_file = None
         try:
-            with open(filepath, "r") as content_file:
-                new_content = json.load(content_file)
+            content_file = encoding.open_read(filepath, 'r')
+            new_content = json.load(content_file)
         except Exception as error: # pylint: disable=broad-except
             LOGGER.error(error)
             LOGGER.error("Error while loading file '{}'.".format(filepath))
             sys.exit(1)
+        finally:
+            if content_file:
+                content_file.close()
 
         config["datadir"].append(os.path.abspath(os.path.dirname(filepath)))
         new_contentlist += process_content(new_content, config)

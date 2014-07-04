@@ -19,7 +19,7 @@ class SongSection(Content):
 
     def render(self, __context):
         """Render this section or chapter."""
-        return r'\{}{{{}}}'.format(self.keyword, self.name)
+        return ur'\{}{{{}}}'.format(self.keyword, self.name)
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

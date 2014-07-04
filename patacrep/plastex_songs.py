@@ -6,6 +6,7 @@
 
 import plasTeX
 
+from patacrep import encoding
 from patacrep.plastex import process_unbr_spaces
 
 
@@ -28,8 +29,9 @@ def split_linebreak(texlist):
             return_list.append(current)
             current = []
         else:
-            current.append(
-                    process_unbr_spaces(token).textContent.encode('utf-8'))
+            current.append(encoding.basestring2unicode(
+                process_unbr_spaces(token).textContent
+                ))
     if current:
         return_list.append(current)
     return return_list
@@ -49,15 +51,17 @@ class beginsong(plasTeX.Command): # pylint: disable=invalid-name,too-many-public
         titles = []
         for tokens in split_linebreak(self.attributes['titles'].allChildNodes):
             titles.append("".join(tokens))
-        self.attributes['titles'] = titles
+        self.attributes['titles'] = encoding.list2unicode(titles)
 
         # Parsing keyval arguments
         args = {}
         for (key, val) in self.attributes['args'].iteritems():
             if isinstance(val, plasTeX.DOM.Element):
-                args[key] = process_unbr_spaces(val).textContent.encode('utf-8')
+                args[key] = encoding.basestring2unicode(
+                        process_unbr_spaces(val).textContent
+                        )
             elif isinstance(val, basestring):
-                args[key] = val.encode('utf-8')
+                args[key] = encoding.basestring2unicode(val)
             else:
                 args[key] = unicode(val)
         self.attributes['args'] = args

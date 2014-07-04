@@ -26,9 +26,9 @@ class Section(Content):
 
     def render(self, __context):
         if self.short is None:
-            return r'\{}{{{}}}'.format(self.keyword, self.name)
+            return ur'\{}{{{}}}'.format(self.keyword, self.name)
         else:
-            return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
+            return ur'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

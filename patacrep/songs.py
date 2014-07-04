@@ -3,7 +3,6 @@
 
 """Song management."""
 
-from unidecode import unidecode
 import re
 
 from patacrep.authors import processauthors
@@ -19,7 +18,7 @@ class Song(object):
         self.titles = data['titles']
         self.unprefixed_titles = [
                 unprefixed_title(
-                    unidecode(unicode(title, "utf-8")),
+                    title,
                     config['titleprefixwords']
                     )
                 for title
@@ -43,7 +42,7 @@ def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
     for prefix in prefixes:
-        match = re.compile(r"^(%s)\b\s*(.*)$" % prefix, re.LOCALE).match(title)
+        match = re.compile(ur"^(%s)\b\s*(.*)$" % prefix, re.LOCALE).match(title)
         if match:
             return match.group(2)
     return title

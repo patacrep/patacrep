@@ -11,9 +11,21 @@ import os
 import sys
 import logging
 
-from patacrep.content import process_content
+from patacrep.content import process_content, ContentError
 
 LOGGER = logging.getLogger(__name__)
+
+def load_from_datadirs(path, config=None):
+    if not config or not config["datadir"]:
+        LOGGER.error("No datadir in the configuration.")
+        sys.exit(1)
+    for datadir in config["datadir"]:
+        filepath = os.path.join(datadir, path)
+        if os.path.exists(filepath):
+            return filepath
+    # File not found
+    raise ContentError("include", "The file '{0}' was not found in the "
+                        "datadirs.".format(path))
 
 #pylint: disable=unused-argument
 def parse(keyword, config, argument, contentlist):
@@ -26,13 +38,9 @@ def parse(keyword, config, argument, contentlist):
         - contentlist: a list of file paths to be included.
     """
     new_contentlist = []
-    songbook_dir = config.get("_songbook_dir", "")
-    if not os.path.isdir(songbook_dir):
-        LOGGER.warning("No songbook directory in configuration. 'include' "
-                        "keyword may fail.")
 
     for path in contentlist:
-        filepath = os.path.join(songbook_dir, path)
+        filepath = load_from_datadirs(path, config)
         try:
             with open(filepath, "r") as content_file:
                 new_content = json.load(content_file)
@@ -41,12 +49,9 @@ def parse(keyword, config, argument, contentlist):
             LOGGER.error("Error while loading file '{}'.".format(filepath))
             sys.exit(1)
 
-        config["_songbook_dir"] = os.path.abspath(
-                                        os.path.dirname(filepath)
-                                    )
-
+        config["datadir"].append(os.path.abspath(os.path.dirname(filepath)))
         new_contentlist += process_content(new_content, config)
-    config["_songbook_dir"] = songbook_dir
+        config["datadir"].pop()
 
     return new_contentlist
 

@@ -21,8 +21,11 @@ def to_utf8(string):
     elif type(string) is str:
         return string.decode('iso-8859-1').encode('utf-8')
     else:
-        LOGGER.warning("Ignoring a word I can not decode...")
-        return None
+        try:
+            return string.encode('utf-8')
+        except:
+            LOGGER.warning("Ignoring a word I can not decode...")
+            return ""
 
 def compile_authwords(authwords):
     """Convert strings of authwords to compiled regular expressions.

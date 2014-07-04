@@ -6,11 +6,11 @@
 from plasTeX.TeX import TeX
 from plasTeX.Base.LaTeX import Sentences
 
-import codecs
 import locale
 import os
 import sys
 
+from patacrep import encoding
 
 def process_unbr_spaces(node):
     #pylint: disable=line-too-long
@@ -39,8 +39,6 @@ def simpleparse(text):
     """Parse a simple LaTeX string.
     """
     tex = TeX()
-    if not isinstance(text, unicode):
-        text = text.decode("utf-8")
     tex.input(text)
     doc = tex.parse()
     return process_unbr_spaces(doc.textContent)
@@ -66,7 +64,7 @@ class SongParser(object):
     def parse(cls, filename):
         """Parse a TeX file, and return its plasTeX representation."""
         tex = cls.create_tex()
-        tex.input(codecs.open(filename, 'r', 'utf-8', 'replace'))
+        tex.input(encoding.open_read(filename, 'r'))
         return tex.parse()
 
 

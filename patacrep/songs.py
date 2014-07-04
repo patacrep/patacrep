@@ -25,7 +25,8 @@ def cached_name(filename):
 class Song(object):
     """Song management"""
 
-    # Version format of cached song.
+    # Version format of cached song. Increment this number if we update
+    # information stored in cache.
     CACHE_VERSION = 0
 
     # List of attributes to cache

@@ -127,8 +127,8 @@ def main():
                     )
                 for path in songbook['datadir']
                 ]
-        # Default value
-        datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
+    # Default value
+    datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
 
     songbook['datadir'] = datadirs
 

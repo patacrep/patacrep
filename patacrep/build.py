@@ -13,6 +13,7 @@ from subprocess import Popen, PIPE, call
 from patacrep import __DATADIR__, authors, content, errors
 from patacrep.index import process_sxd
 from patacrep.templates import TexRenderer
+from patacrep.songs import DataSubpath
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
@@ -75,7 +76,7 @@ class Songbook(object):
 
         self.config['datadir'] = abs_datadir
         self.config['_songdir'] = [
-                os.path.join(path, 'songs')
+                DataSubpath(path, 'songs')
                 for path in self.config['datadir']
                 ]
 

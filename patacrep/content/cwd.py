@@ -3,9 +3,8 @@
 
 """Change base directory before importing songs."""
 
-import os
-
 from patacrep.content import process_content
+from patacrep.songs import DataSubpath
 
 #pylint: disable=unused-argument
 def parse(keyword, config, argument, contentlist):
@@ -28,8 +27,8 @@ def parse(keyword, config, argument, contentlist):
     """
     old_songdir = config['_songdir']
     config['_songdir'] = (
-            [argument] +
-            [os.path.join(path, argument) for path in config['_songdir']] +
+            [DataSubpath("", argument)] +
+            [path.clone().join(argument) for path in config['_songdir']] +
             config['_songdir']
             )
     processed_content = process_content(contentlist, config)

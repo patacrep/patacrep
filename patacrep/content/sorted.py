@@ -49,7 +49,7 @@ def key_generator(sort):
             if key == "@title":
                 field = song.unprefixed_titles
             elif key == "@path":
-                field = song.path
+                field = song.fullpath
             elif key == "by":
                 field = song.authors
             else:
@@ -59,7 +59,7 @@ def key_generator(sort):
                     LOGGER.debug(
                             "Ignoring unknown key '{}' for song {}.".format(
                                 key,
-                                files.relpath(song.path),
+                                files.relpath(song.fullpath),
                                 )
                             )
                     field = ""

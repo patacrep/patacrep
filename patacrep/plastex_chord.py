@@ -74,7 +74,7 @@ class Chord(Command):
     @property
     def source(self):
         """Return chord LaTeX code."""
-        return r'\[{}]'.format(self.chord)
+        return ur'\[{}]'.format(self.chord)
 
 class BeginChordOrDisplayMath(BeginDisplayMath):
     r"""Wrapper to BeginDisplayMath

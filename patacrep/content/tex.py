@@ -18,7 +18,7 @@ class LaTeX(Content):
         self.filename = filename
 
     def render(self, context):
-        return r'\input{{{}}}'.format(files.relpath(
+        return ur'\input{{{}}}'.format(files.relpath(
             self.filename,
             os.path.dirname(context['filename']),
             ))

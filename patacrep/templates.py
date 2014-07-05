@@ -6,23 +6,23 @@ from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
-import codecs
 import os
 import re
 import json
 
+from patacrep import encoding
 from patacrep import errors
 
 _LATEX_SUBS = (
-    (re.compile(r'\\'), r'\\textbackslash'),
-    (re.compile(r'([{}_#%&$])'), r'\\\1'),
-    (re.compile(r'~'), r'\~{}'),
-    (re.compile(r'\^'), r'\^{}'),
-    (re.compile(r'"'), r"''"),
-    (re.compile(r'\.\.\.+'), r'\\ldots'),
+    (re.compile(ur'\\'), ur'\\textbackslash'),
+    (re.compile(ur'([{}_#%&$])'), ur'\\\1'),
+    (re.compile(ur'~'), ur'\~{}'),
+    (re.compile(ur'\^'), ur'\^{}'),
+    (re.compile(ur'"'), ur"''"),
+    (re.compile(ur'\.\.\.+'), ur'\\ldots'),
 )
 
-_VARIABLE_REGEXP = re.compile(r"""
+_VARIABLE_REGEXP = re.compile(ur"""
     \(\*\ *variables\ *\*\)    # Match (* variables *)
     (                          # Match and capture the following:
     (?:                        # Start of non-capturing group, used to match a single character
@@ -177,12 +177,10 @@ class TexRenderer(object):
         """
 
         subvariables = {}
+        template_file = None
         templatename = self.texenv.get_template(template).filename
-        with codecs.open(
-                templatename,
-                'r',
-                'utf-8'
-                ) as template_file:
+        try:
+            template_file = encoding.open_read(templatename, 'r')
             content = template_file.read()
             subtemplates = list(find_templates(self.texenv.parse(content)))
             match = re.findall(_VARIABLE_REGEXP, content)
@@ -202,6 +200,9 @@ class TexRenderer(object):
                                     jsonstring=var,
                                     )
                                 )
+        finally:
+            if template_file:
+                template_file.close()
 
         return (subvariables, subtemplates)
 

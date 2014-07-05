@@ -14,16 +14,6 @@ DEFAULT_AUTHWORDS = {
         "sep": ["and"],
         }
 
-def to_utf8(string):
-    """Convert a string (encoded in unicode or iso-8859-1 to utf-8"""
-    if type(string) is unicode:
-        return string.encode('utf-8')
-    elif type(string) is str:
-        return string.decode('iso-8859-1').encode('utf-8')
-    else:
-        LOGGER.warning("Ignoring a word I can not decode...")
-        return None
-
 def compile_authwords(authwords):
     """Convert strings of authwords to compiled regular expressions.
 
@@ -43,7 +33,6 @@ def compile_authwords(authwords):
             re.compile(r"^(.*)%s +(.*)$" % word, re.LOCALE)
             for word in ([" %s" % word for word in authwords['sep']] + [','])
             ]
-    authwords['ignore'] = [to_utf8(word) for word in authwords['ignore'] if to_utf8(word)]
 
     return authwords
 
@@ -154,7 +143,7 @@ def processauthors_ignore_authors(authors_list, ignore):
     for author in authors_list:
         ignored = False
         for ignoreword in ignore:
-            if author.find(str(ignoreword)) != -1:
+            if author.find(ignoreword) != -1:
                 ignored = True
                 break
         if not ignored:
@@ -182,7 +171,7 @@ def processauthors_invert_names(authors_list):
     for author in authors_list:
         first, last = split_author_names(author)
         if first:
-            dest.append(r"\indexauthor{{{first}}}{{{last}}}".format(
+            dest.append(ur"\indexauthor{{{first}}}{{{last}}}".format(
                 first=first.strip(),
                 last=last.strip(),
                 ))

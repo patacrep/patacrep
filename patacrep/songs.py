@@ -3,9 +3,9 @@
 
 """Song management."""
 
-from unidecode import unidecode
 import errno
 import hashlib
+import logging
 import os
 import re
 
@@ -17,10 +17,11 @@ except ImportError:
 from patacrep.authors import processauthors
 from patacrep.plastex import parsetex
 
+LOGGER = logging.getLogger(__name__)
 
 def cached_name(datadir, filename):
     """Return the filename of the cache version of the file."""
-    fullpath = os.path.join(datadir, '.cache', filename)
+    fullpath = os.path.abspath(os.path.join(datadir, '.cache', filename))
     directory = os.path.dirname(fullpath)
     try:
         os.makedirs(directory)
@@ -96,14 +97,22 @@ class Song(object):
                     open(self.fullpath, 'rb').read()
                     ).hexdigest()
             if os.path.exists(cached_name(datadir, subpath)):
-                cached = pickle.load(open(cached_name(datadir, subpath), 'rb'))
-                if (
-                        cached['_filehash'] == self._filehash
-                        and cached['_version'] == self.CACHE_VERSION
-                        ):
-                    for attribute in self.cached_attributes:
-                        setattr(self, attribute, cached[attribute])
-                    return
+                try:
+                    cached = pickle.load(open(
+                        cached_name(datadir, subpath),
+                        'rb',
+                        ))
+                    if (
+                            cached['_filehash'] == self._filehash
+                            and cached['_version'] == self.CACHE_VERSION
+                            ):
+                        for attribute in self.cached_attributes:
+                            setattr(self, attribute, cached[attribute])
+                        return
+                except: # pylint: disable=bare-except
+                    LOGGER.warning("Could not use cached version of {}.".format(
+                        self.fullpath
+                        ))
 
         # Data extraction from the song with plastex
         data = parsetex(self.fullpath)
@@ -111,7 +120,7 @@ class Song(object):
         self.datadir = datadir
         self.unprefixed_titles = [
                 unprefixed_title(
-                    unidecode(unicode(title, "utf-8")),
+                    title,
                     config['titleprefixwords']
                     )
                 for title
@@ -136,7 +145,14 @@ class Song(object):
         if self.datadir:
             cached = {}
             for attribute in self.cached_attributes:
-                cached[attribute] = getattr(self, attribute)
+                if attribute == "args":
+                    cached[attribute] = dict([
+                        (key, u"{}".format(value)) # Force conversion to unicode
+                        for (key, value)
+                        in self.args.iteritems()
+                        ])
+                else:
+                    cached[attribute] = getattr(self, attribute)
             pickle.dump(
                     cached,
                     open(cached_name(self.datadir, self.subpath), 'wb'),
@@ -149,7 +165,7 @@ def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
     for prefix in prefixes:
-        match = re.compile(r"^(%s)\b\s*(.*)$" % prefix, re.LOCALE).match(title)
+        match = re.compile(ur"^(%s)\b\s*(.*)$" % prefix, re.LOCALE).match(title)
         if match:
             return match.group(2)
     return title

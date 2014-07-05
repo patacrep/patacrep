@@ -11,6 +11,7 @@ import locale
 import logging
 
 from patacrep import files
+from patacrep import encoding
 from patacrep.content import ContentError
 from patacrep.content.song import OnlySongsError, process_songs
 
@@ -26,7 +27,7 @@ def normalize_string(string):
     - lower case;
     - passed through locale.strxfrm().
     """
-    return locale.strxfrm(string.lower().strip())
+    return locale.strxfrm(encoding.unidecode(string.lower().strip()))
 
 def normalize_field(field):
     """Return a normalized field, it being a string or a list of strings."""
@@ -62,7 +63,7 @@ def key_generator(sort):
                                 files.relpath(song.fullpath),
                                 )
                             )
-                    field = ""
+                    field = u""
             songkey.append(normalize_field(field))
         return songkey
     return ordered_song_keys

@@ -26,15 +26,15 @@ class SongRenderer(Content, Song):
         indexes = context.resolve("indexes")
         if isinstance(indexes, jinja2.runtime.Undefined):
             indexes = ""
-        return r'\begin{songs}{%s}' % indexes
+        return ur'\begin{songs}{%s}' % indexes
 
     def end_block(self, __context):
         """Return the string to end a block."""
-        return r'\end{songs}'
+        return ur'\end{songs}'
 
     def render(self, context):
         """Return the string that will render the song."""
-        return r'\input{{{}}}'.format(files.relpath(
+        return ur'\input{{{}}}'.format(files.relpath(
             self.fullpath,
             os.path.dirname(context['filename'])
             ))

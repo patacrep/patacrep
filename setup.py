@@ -11,12 +11,12 @@ import os
 import site
 
 
-SETUP = {"name": 'songbook-core',
+SETUP = {"name": 'patacrep',
         "version": __STR_VERSION__,
         "description": 'Songbook compilation chain',
         "author": 'The Songbook team',
         "author_email": 'crep@team-on-fire.com',
-        "url": 'https://github.com/patacrep/songbook-core',
+        "url": 'https://github.com/patacrep/patacrep',
         "packages": ['patacrep'],
         "license": "GPLv2 or any later version",
         "scripts": ['songbook'],

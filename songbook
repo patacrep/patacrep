@@ -129,9 +129,9 @@ def main():
                     )
                 for path in songbook['datadir']
                 ]
-    if not datadirs:
-        # Default value
-        datadirs = [os.path.dirname(os.path.abspath(songbook_path))]
+    # Default value
+    datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
+
     songbook['datadir'] = datadirs
 
     try:

@@ -117,9 +117,11 @@
 (* block chords *)
    % list of chords
    \ifchorded
-   \phantomsection
-   \addcontentsline{toc}{section}{\chordlistname}
-   \chords
+      \ifdiagram
+         \phantomsection
+         \addcontentsline{toc}{section}{\chordlistname}
+         \chords
+      \fi
    \fi
 (* endblock *)
 

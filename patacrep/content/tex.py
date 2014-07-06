@@ -41,8 +41,11 @@ def parse(keyword, argument, contentlist, config):
     for filename in contentlist:
         checked_file = None
         for path in config['_songdir']:
-            if os.path.exists(os.path.join(path, filename)):
-                checked_file = os.path.relpath(os.path.join(path, filename))
+            if os.path.exists(os.path.join(path.fullpath, filename)):
+                checked_file = os.path.relpath(os.path.join(
+                    path.fullpath,
+                    filename,
+                    ))
                 break
         if not checked_file:
             LOGGER.warning(

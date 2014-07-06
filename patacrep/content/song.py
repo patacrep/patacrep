@@ -35,7 +35,7 @@ class SongRenderer(Content, Song):
     def render(self, context):
         """Return the string that will render the song."""
         return ur'\input{{{}}}'.format(files.relpath(
-            self.path,
+            self.fullpath,
             os.path.dirname(context['filename'])
             ))
 
@@ -59,21 +59,28 @@ def parse(keyword, argument, contentlist, config):
         if contentlist:
             break
         contentlist = [
-                files.relpath(filename, songdir)
+                filename
                 for filename
                 in (
-                    files.recursive_find(songdir, "*.sg")
-                    + files.recursive_find(songdir, "*.is")
+                    files.recursive_find(songdir.fullpath, "*.sg")
+                    + files.recursive_find(songdir.fullpath, "*.is")
                     )
                 ]
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:
-            for filename in glob.iglob(os.path.join(songdir, elem)):
-                LOGGER.debug('Parsing file "{}"…'.format(filename))
-                song = SongRenderer(filename, config)
-                songlist.append(song)
-                config["_languages"].update(song.languages)
+            if songdir.datadir and not os.path.isdir(songdir.datadir):
+                continue
+            with files.chdir(songdir.datadir):
+                for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
+                    LOGGER.debug('Parsing file "{}"…'.format(filename))
+                    song = SongRenderer(
+                            songdir.datadir,
+                            filename,
+                            config,
+                            )
+                    songlist.append(song)
+                    config["_languages"].update(song.languages)
             if len(songlist) > before:
                 break
         if len(songlist) == before:

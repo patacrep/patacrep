@@ -64,7 +64,7 @@ def split_author_names(string):
             brace_count += 1
         if char == "{":
             brace_count -= 1
-    return string[:last_space], string[last_space:]
+    return string[last_space:], string[:last_space]
 
 
 def split_sep_author(string, sep):
@@ -162,23 +162,6 @@ def processauthors_clean_authors(authors_list):
             if author.lstrip()
             ]
 
-def processauthors_invert_names(authors_list):
-    """Move first names after last names
-
-    See docstring of processauthors() for more information.
-    """
-    dest = []
-    for author in authors_list:
-        first, last = split_author_names(author)
-        if first:
-            dest.append(ur"\indexauthor{{{first}}}{{{last}}}".format(
-                first=first.strip(),
-                last=last.strip(),
-                ))
-        else:
-            dest.append(last.lstrip())
-    return dest
-
 def processauthors(authors_string, after=None, ignore=None, sep=None):
     r"""Return a list of authors
 
@@ -210,10 +193,12 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
     4) Strings containing words of "ignore" are dropped.
     # ["William Blake", "Hubert Parry", The Royal\ Choir~of~Nowhere"]
 
-    5) First and last names are processed through LaTeX command \indexauthor
-        (which will, by default, invert first and last names).
-    # ["\indexauthor{William}{Blake}", "\indexauthor{Hubert}{Parry}",
-    # \indexthaor{The}{Royal\ Choir~of~Nowhere}"]
+    5) First and last names are splitted
+    # [
+    #   ("Blake", "William"),
+    #   ("Parry", "Hubert"),
+    #   ("Royal\ Choir~of~Nowhere", "The"),
+    # ]
     """
 
     if not sep:
@@ -223,8 +208,10 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
     if not ignore:
         ignore = []
 
-    return processauthors_invert_names(
-            processauthors_clean_authors(
+    return [
+            split_author_names(author)
+            for author
+            in processauthors_clean_authors(
                 processauthors_ignore_authors(
                     processauthors_remove_after(
                         processauthors_split_string(
@@ -235,5 +222,4 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
                         after),
                     ignore)
                 )
-            )
-
+            ]

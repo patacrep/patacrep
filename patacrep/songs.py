@@ -156,7 +156,7 @@ class Song(object):
             pickle.dump(
                     cached,
                     open(cached_name(self.datadir, self.subpath), 'wb'),
-                    protocol = -1
+                    protocol=-1
                     )
 
     def __repr__(self):

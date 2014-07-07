@@ -42,7 +42,7 @@ class VerboseAction(argparse.Action):
         LOGGER.setLevel(logging.DEBUG)
 
 def argument_parser(args):
-    """Parse argumnts"""
+    """Parse arguments"""
     parser = argparse.ArgumentParser(description="A song book compiler")
 
     parser.add_argument('--version', help='Show version', action='version',

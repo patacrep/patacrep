@@ -407,11 +407,25 @@
 
 % Usage: \indexauthor{First name}{Last name}
 % Example: \indexauthor{Edgar Allan}{Poe}
-\newcommand{\indexauthor}[2]{#2, #1} 
+% First name can be empty.
+\newcommand{\indexauthor}[2]{%
+    \IfStrEq{#1}{}{%
+        #2%
+    }{%
+        #2, #1%
+    }%
+}
 
 % Usage: \indextitle{Article}{Main part}
 % Example: \indextitle{The}{Raven}
-\newcommand{\indextitle}[2]{#2 (#1)}
+% Article can be empty
+\newcommand{\indextitle}[2]{%
+    \IfStrEq{#1}{}{%
+        #2%
+    }{%
+        #2 (#1)%
+    }%
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

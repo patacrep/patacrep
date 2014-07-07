@@ -23,6 +23,6 @@ def relpath(path, start=None):
     if start is None:
         start = os.curdir
     if os.path.abspath(path).startswith(os.path.abspath(start)):
-        return os.path.relpath(path, start).replace("\\", "/")
+        return os.path.relpath(path, start)
     else:
-        return os.path.abspath(path).replace("\\", "/")
+        return os.path.abspath(path)

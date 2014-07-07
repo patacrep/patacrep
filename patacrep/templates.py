@@ -10,8 +10,7 @@ import os
 import re
 import json
 
-from patacrep import encoding
-from patacrep import errors
+from patacrep import encoding, errors, files
 
 _LATEX_SUBS = (
     (re.compile(ur'\\'), ur'\\textbackslash'),
@@ -38,7 +37,8 @@ _VARIABLE_REGEXP = re.compile(ur"""
     .                          # Match any single character
     )*                         # Repeat as often as possible
     )                          # End of capturing group 1
-    \(\*\ *endvariables\ *\*\) # until (* endvariables *) is matched.""",
+    \(\*\ *endvariables\ *\*\) # until (* endvariables *) is matched.
+    """,
     re.VERBOSE|re.DOTALL)
 
 
@@ -95,6 +95,8 @@ class TexRenderer(object):
         self.texenv.filters['escape_tex'] = _escape_tex
         self.texenv.trim_blocks = True
         self.texenv.lstrip_blocks = True
+
+        self.texenv.globals["path2posix"] = files.path2posix
 
         try:
             self.template = self.texenv.get_template(template)

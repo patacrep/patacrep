@@ -34,10 +34,11 @@ class SongRenderer(Content, Song):
 
     def render(self, context):
         """Return the string that will render the song."""
-        return ur'\input{{{}}}'.format(files.relpath(
-            self.path,
-            os.path.dirname(context['filename'])
-            ))
+        return ur'\input{{{}}}'.format(files.path2posix(
+                                    files.relpath(
+                                        self.path,
+                                        os.path.dirname(context['filename'])
+                                        )))
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

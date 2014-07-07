@@ -86,7 +86,7 @@
 
    \usepackage{graphicx}
    \graphicspath{(* for dir in datadir *)
-                 {((dir))/img/} %
+                 {(( path2posix(dir) ))/img/} %
                  (* endfor *)
                  }
 

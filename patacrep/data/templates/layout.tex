@@ -28,7 +28,7 @@
 
 \makeatletter
 \def\input@path{(* for dir in datadir *)
-                 {((dir))/latex/} %
+                 {(( path2posix(dir) ))/latex/} %
                  (* endfor *)
                  }
 \makeatother

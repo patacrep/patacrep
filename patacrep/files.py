@@ -5,7 +5,8 @@
 """File system utilities."""
 
 import fnmatch
-import os
+import os.path
+import posixpath
 
 def recursive_find(root_directory, pattern):
     """Recursively find files matching a pattern, from a root_directory.
@@ -26,3 +27,15 @@ def relpath(path, start=None):
         return os.path.relpath(path, start)
     else:
         return os.path.abspath(path)
+
+def path2posix(string):
+    """"Convert path from local format to posix format."""
+    if not string or string == "/":
+        return string
+    if os.path.splitdrive(string)[1] == "\\":
+        # Assuming DRIVE:\
+        return string[0:-1]
+    (head, tail) = os.path.split(string)
+    return posixpath.join(
+            path2posix(head),
+            tail)

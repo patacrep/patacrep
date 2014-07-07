@@ -39,6 +39,7 @@ def simpleparse(text):
     """Parse a simple LaTeX string.
     """
     tex = TeX()
+    tex.disableLogging()
     tex.input(text)
     doc = tex.parse()
     return process_unbr_spaces(doc.textContent)

@@ -22,30 +22,20 @@ KEYWORD_PATTERN = re.compile(ur"^%(\w+)\s?(.*)$", re.LOCALE)
 FIRST_LETTER_PATTERN = re.compile(ur"^(?:\{?\\\w+\}?)*[^\w]*(\w)", re.LOCALE)
 
 
-def sortkey(value):
-    """From a title, return something usable for sorting.
-
-    It handles locale (but
-    don't forget to call locale.setlocale(locale.LC_ALL, '')). It also handles
-    the sort with  latex escape sequences.
-    """
-    return locale.strxfrm(
-            encoding.unidecode(simpleparse(value).replace(' ', 'A')).lower()
-            )
-
-
 def process_sxd(filename):
     """Parse sxd file.
 
     Return an Index object.
     """
     data = []
+    index_file = None
     try:
         index_file = encoding.open_read(filename, 'r')
         for line in index_file:
             data.append(line.strip())
     finally:
-        index_file.close()
+        if index_file:
+            index_file.close()
 
     i = 1
     idx = Index(data[0])
@@ -113,12 +103,18 @@ class Index(object):
         No processing is done on data. It is added raw. See add() for a
         similar method with processing.
         """
-        first = self.get_first_letter(key)
+        first = self.get_first_letter(key[0])
         if not first in self.data.keys():
             self.data[first] = dict()
         if not key in self.data[first].keys():
-            self.data[first][key] = []
-        self.data[first][key].append({'num': number, 'link': link})
+            self.data[first][key] = {
+                    'sortingkey': [
+                        encoding.unidecode(simpleparse(item)).lower()
+                        for item in key
+                        ],
+                    'entries': [],
+                    }
+        self.data[first][key]['entries'].append({'num': number, 'link': link})
 
     def add(self, key, number, link):
         """Add a song to the list.
@@ -131,15 +127,15 @@ class Index(object):
                 match = pattern.match(key)
                 if match:
                     self._raw_add(
-                            ur"\indextitle{{{}}}{{{}}}".format(
+                            (
                                 match.group(1).strip(),
-                                (match.group(2) + match.group(3)).strip(),
-                                ),
+                                (match.group(2) + match.group(3)).strip()
+                            ),
                             number,
                             link
                             )
                     return
-            self._raw_add(key, number, link)
+            self._raw_add((key, ""), number, link)
 
         if self.indextype == "AUTHOR":
             # Processing authors
@@ -153,10 +149,26 @@ class Index(object):
         """Return the LaTeX code corresponding to the reference."""
         return ur'\hyperlink{{{0[link]}}}{{{0[num]}}}'.format(ref)
 
+    def key_to_str(self, key):
+        """Convert the key (title or author) to the LaTeX command rendering it.
+
+        """
+        if self.indextype == "AUTHOR":
+            if key[1]:
+                return ur"\indexauthor{{{first}}}{{{last}}}".format(
+                    first=key[1],
+                    last=key[0],
+                    )
+            else:
+                return key[0]
+
+        if self.indextype == "TITLE":
+            return ur"\indextitle{{{0[0]}}}{{{0[1]}}}".format(key)
+
     def entry_to_str(self, key, entry):
         """Return the LaTeX code corresponding to the entry."""
         return unicode(ur'\idxentry{{{0}}}{{{1}}}' + EOL).format(
-                key,
+                self.key_to_str(key),
                 ur'\\'.join([self.ref_to_str(ref) for ref in entry]),
                 )
 
@@ -166,9 +178,16 @@ class Index(object):
         Here, an index block is a letter, and all data beginning with this
         letter.
         """
+        def sortkey(key):
+            """Return something sortable for `entries[key]`."""
+            return [
+                    locale.strxfrm(item)
+                    for item
+                    in entries[key]['sortingkey']
+                    ]
         string = ur'\begin{idxblock}{' + letter + '}' + EOL
-        for key in sorted(entries.keys(), key=sortkey):
-            string += self.entry_to_str(key, entries[key])
+        for key in sorted(entries, key=sortkey):
+            string += self.entry_to_str(key, entries[key]['entries'])
         string += ur'\end{idxblock}' + EOL
         return string
 

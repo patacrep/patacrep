@@ -101,6 +101,7 @@ def main():
 
     basename = os.path.basename(songbook_path)[:-3]
 
+    songbook_file = None
     try:
         songbook_file = encoding.open_read(songbook_path)
         songbook = json.load(songbook_file)
@@ -109,7 +110,8 @@ def main():
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))
         sys.exit(1)
     finally:
-        songbook_file.close()
+        if songbook_file:
+            songbook_file.close()
 
     # Gathering datadirs
     datadirs = []

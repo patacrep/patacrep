@@ -4,8 +4,9 @@
 
 """File system utilities."""
 
+from contextlib import contextmanager
 import fnmatch
-import os.path
+import os
 import posixpath
 
 def recursive_find(root_directory, pattern):
@@ -13,10 +14,14 @@ def recursive_find(root_directory, pattern):
 
     Return a list of files matching the pattern.
     """
+    if not os.path.isdir(root_directory):
+        return []
+
     matches = []
-    for root, _, filenames in os.walk(root_directory):
-        for filename in fnmatch.filter(filenames, pattern):
-            matches.append(os.path.join(root, filename))
+    with chdir(root_directory):
+        for root, _, filenames in os.walk(os.curdir):
+            for filename in fnmatch.filter(filenames, pattern):
+                matches.append(os.path.join(root, filename))
     return matches
 
 def relpath(path, start=None):
@@ -27,6 +32,7 @@ def relpath(path, start=None):
         return os.path.relpath(path, start)
     else:
         return os.path.abspath(path)
+
 
 def path2posix(string):
     """"Convert path from local format to posix format."""
@@ -39,3 +45,20 @@ def path2posix(string):
     return posixpath.join(
             path2posix(head),
             tail)
+
+@contextmanager
+def chdir(path):
+    """Locally change dir
+
+    Can be used as:
+
+        with chdir("some/directory"):
+            do_stuff()
+    """
+    olddir = os.getcwd()
+    if path:
+        os.chdir(path)
+        yield
+        os.chdir(olddir)
+    else:
+        yield

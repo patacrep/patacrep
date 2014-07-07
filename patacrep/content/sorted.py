@@ -33,8 +33,8 @@ def normalize_field(field):
     """Return a normalized field, it being a string or a list of strings."""
     if isinstance(field, basestring):
         return normalize_string(field)
-    elif isinstance(field, list):
-        return [normalize_string(string) for string in field]
+    elif isinstance(field, list) or isinstance(field, tuple):
+        return [normalize_field(string) for string in field]
 
 def key_generator(sort):
     """Return a function that returns the list of values used to sort the song.
@@ -50,7 +50,7 @@ def key_generator(sort):
             if key == "@title":
                 field = song.unprefixed_titles
             elif key == "@path":
-                field = song.path
+                field = song.fullpath
             elif key == "by":
                 field = song.authors
             else:
@@ -60,7 +60,7 @@ def key_generator(sort):
                     LOGGER.debug(
                             "Ignoring unknown key '{}' for song {}.".format(
                                 key,
-                                files.relpath(song.path),
+                                files.relpath(song.fullpath),
                                 )
                             )
                     field = u""

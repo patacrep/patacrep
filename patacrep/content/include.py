@@ -17,6 +17,10 @@ from patacrep import encoding
 LOGGER = logging.getLogger(__name__)
 
 def load_from_datadirs(path, config=None):
+    """Load 'path' from one of the datadirs.
+
+    Raise an exception if it was found if none of the datadirs of 'config'.
+    """
     for datadir in config.get("datadir", []):
         filepath = os.path.join(datadir, path)
         if os.path.exists(filepath):

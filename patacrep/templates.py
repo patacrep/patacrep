@@ -179,6 +179,7 @@ class TexRenderer(object):
         """
 
         subvariables = {}
+        template_file = None
         templatename = self.texenv.get_template(template).filename
         try:
             template_file = encoding.open_read(templatename, 'r')
@@ -202,7 +203,8 @@ class TexRenderer(object):
                                     )
                                 )
         finally:
-            template_file.close()
+            if template_file:
+                template_file.close()
 
         return (subvariables, subtemplates)
 

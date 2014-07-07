@@ -6,6 +6,8 @@ $ python setup.py install
 """
 from patacrep import __STR_VERSION__
 
+from distutils.core import setup
+
 import sys
 import os
 import site
@@ -17,7 +19,7 @@ SETUP = {"name": 'patacrep',
         "author": 'The Songbook team',
         "author_email": 'crep@team-on-fire.com',
         "url": 'https://github.com/patacrep/patacrep',
-        "packages": ['patacrep'],
+        "packages": ['patacrep', 'patacrep.content'],
         "license": "GPLv2 or any later version",
         "scripts": ['songbook'],
         "requires": [
@@ -48,24 +50,8 @@ SETUP = {"name": 'patacrep',
 }
 
 if sys.platform.startswith('win32'):
-    try:
-        from cx_Freeze import setup, Executable
-        exe = Executable(script="songbook")
-    except ImportError:
-        # Only a source installation will be possible
-        from distutils.core import setup
-        exe = None
-    build_options = {'build_exe': {
-                        "include_files": ["plasTeX/", "patacrep/"],
-                        "excludes": ["plasTeX"],
-                        "includes": ["UserList", "UserString", "new", "ConfigParser"]
-                    }}
-    SETUP.update({"options": build_options,
-                "executables": [exe],
-                "package_data": {},
-            })
-else:
-    from distutils.core import setup
-
+    from shutil import copy
+    copy("songbook", "songbook.py")
+    SETUP["scripts"] = ['songbook.py']
 
 setup(**SETUP)

@@ -148,6 +148,8 @@ class SongbookBuilder(object):
             self._pdflatex_options.append("--shell-escape")
         if not self.interactive:
             self._pdflatex_options.append("-halt-on-error")
+        for datadir in self.songbook.config["datadir"]:
+            self._pdflatex_options.append('--include-directory="{}"'.format(datadir))
 
     def build_steps(self, steps=None):
         """Perform steps on the songbook by calling relevant self.build_*()
@@ -192,12 +194,18 @@ class SongbookBuilder(object):
         """Build .pdf file from .tex file"""
         LOGGER.info("Building '{}.pdf'…".format(self.basename))
         self._run_once(self._set_latex)
-        process = Popen(
-                ["pdflatex"] + self._pdflatex_options + [self.basename],
-                stdin=PIPE,
-                stdout=PIPE,
-                stderr=PIPE,
-                env=os.environ)
+
+        try:
+            process = Popen(
+                    ["pdflatex"] + self._pdflatex_options + [self.basename],
+                    stdin=PIPE,
+                    stdout=PIPE,
+                    stderr=PIPE,
+                    env=os.environ)
+        except Exception as e:
+            LOGGER.debug(e)
+            raise errors.LatexCompilationError(self.basename)
+
         if not self.interactive:
             process.stdin.close()
         log = ''

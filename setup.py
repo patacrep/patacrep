@@ -4,61 +4,30 @@
 
 $ python setup.py install
 """
-from distutils.core import setup
-from distutils.command.install import install as _install
 from patacrep import __STR_VERSION__
+
+from distutils.core import setup
 
 import sys
 import os
 import site
 
 
-def link_songbook():
-    if sys.platform.startswith('darwin'):
-        source = os.path.join(site.PREFIXES[0],
-                              'bin',
-                              'songbook')
-        dest = '/usr/local/bin/songbook'
-        if os.path.isfile(dest):
-            print("File {dest} already exist, skipping.".format(dest=dest))
-        else:
-            os.symlink(source, dest)
-    elif sys.platform.startswith('win32'):
-        script = os.path.join(site.PREFIXES[0],
-                              'Scripts',
-                              'songbook')
-        dest = script + '.py'
-        bat_name = script + '.bat'
-        if os.path.isfile(dest):
-            os.unlink(dest)
-        os.rename(script, dest)
-        content = "python {songbook} %* \n".format(songbook=dest)
-        with open(bat_name, 'w') as bat_file:
-            bat_file.write(content)
-
-
-class install(_install):
-    def run(self):
-        _install.run(self)
-        link_songbook()
-
-
-setup(cmdclass={'install': install},
-        name='patacrep',
-        version=__STR_VERSION__,
-        description='Songbook compilation chain',
-        author='The Patacrep team',
-        author_email='crep@team-on-fire.com',
-        url='https://github.com/patacrep/patacrep',
-        packages=['patacrep', 'patacrep.content'],
-        license="GPLv2 or any later version",
-        scripts=['songbook'],
-        requires=[
+SETUP = {"name": 'patacrep',
+        "version": __STR_VERSION__,
+        "description": 'Songbook compilation chain',
+        "author": 'The Songbook team',
+        "author_email": 'crep@team-on-fire.com',
+        "url": 'https://github.com/patacrep/patacrep',
+        "packages": ['patacrep', 'patacrep.content'],
+        "license": "GPLv2 or any later version",
+        "scripts": ['songbook'],
+        "requires": [
             "argparse", "codecs", "distutils", "fnmatch", "glob", "json",
             "locale", "logging", "os", "plasTeX", "re", "subprocess", "sys",
-            "textwrap", "unidecode", "jinja2"
+            "textwrap", "unidecode", "jinja2", "chardet"
             ],
-        package_data={'patacrep': ['data/latex/*',
+        "package_data": {'patacrep': [  'data/latex/*',
                                         'data/templates/*',
                                         'data/examples/*.sb',
                                         'data/examples/*/*.sg',
@@ -67,7 +36,7 @@ setup(cmdclass={'install': install},
                                         'data/examples/*/*.png',
                                         'data/examples/*/*.png',
                                         'data/examples/*/*/header']},
-        classifiers=[
+        "classifiers": [
             "Environment :: Console",
             "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
             "Natural Language :: English",
@@ -77,5 +46,12 @@ setup(cmdclass={'install': install},
             "Programming Language :: Python :: 2.7",
             "Topic :: Utilities",
             ],
-        platforms=["GNU/Linux", "Windows", "MacOsX"],
-)
+        "platforms": ["GNU/Linux", "Windows", "MacOsX"]
+}
+
+if sys.platform.startswith('win32'):
+    from shutil import copy
+    copy("songbook", "songbook.py")
+    SETUP["scripts"] = ['songbook.py']
+
+setup(**SETUP)

@@ -1,4 +1,5 @@
 Jinja2==2.7.3
 argparse==1.2.1
 chardet==2.2.1
+unidecode>=0.04.16
 https://github.com/tiarno/plastex/archive/master.zip

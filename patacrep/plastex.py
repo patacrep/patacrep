@@ -95,7 +95,10 @@ def parsetex(filename):
 
     # /* BEGIN plasTeX patch
     if oldlocale[0] and oldlocale[1]:
-        locale.setlocale(locale.LC_TIME, "%s.%s" % oldlocale)
+        try:
+            locale.setlocale(locale.LC_TIME, "%s.%s" % oldlocale)
+        except locale.Error:
+            pass  # Workaround a bug on windows
     # plasTeX patch END */
 
     # Extraction des données

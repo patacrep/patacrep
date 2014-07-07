@@ -128,8 +128,8 @@ class Index(object):
                 if match:
                     self._raw_add(
                             (
+                                (match.group(2) + match.group(3)).strip(),
                                 match.group(1).strip(),
-                                (match.group(2) + match.group(3)).strip()
                             ),
                             number,
                             link
@@ -154,16 +154,13 @@ class Index(object):
 
         """
         if self.indextype == "AUTHOR":
-            if key[1]:
-                return ur"\indexauthor{{{first}}}{{{last}}}".format(
-                    first=key[1],
-                    last=key[0],
-                    )
-            else:
-                return key[0]
+            return ur"\indexauthor{{{first}}}{{{last}}}".format(
+                first=key[1],
+                last=key[0],
+                )
 
         if self.indextype == "TITLE":
-            return ur"\indextitle{{{0[0]}}}{{{0[1]}}}".format(key)
+            return ur"\indextitle{{{0[1]}}}{{{0[0]}}}".format(key)
 
     def entry_to_str(self, key, entry):
         """Return the LaTeX code corresponding to the entry."""

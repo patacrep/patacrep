@@ -73,7 +73,11 @@ class Index(object):
     @staticmethod
     def get_first_letter(key):
         """Return the uppercase first letter of key."""
-        letter = FIRST_LETTER_PATTERN.match(key).group(1)
+        try:
+            letter = FIRST_LETTER_PATTERN.match(key).group(1)
+        except AttributeError:
+            # classify as number all the non letter characters 
+            letter = "0"
         if re.match(ur'\d', letter):
             letter = '0-9'
         return letter.upper()

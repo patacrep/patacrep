@@ -50,7 +50,7 @@ def parse(keyword, argument, contentlist, config):
         if not checked_file:
             LOGGER.warning(
                     ("Cannot find file '{}' in '{}'. Compilation may fail "
-                    "later.").format(filename, str(config['_songdir']))
+                    "later.").format(filename, [str(i) for i in config['_songdir']])
                     )
             continue
         filelist.append(LaTeX(checked_file))

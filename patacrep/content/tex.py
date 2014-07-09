@@ -38,19 +38,22 @@ def parse(keyword, argument, contentlist, config):
                 "Useless 'tex' content: list of files to include is empty."
                 )
     filelist = []
+    basefolders = [path.fullpath for path in config['_songdir']] +\
+                  config['datadir'] + \
+                  [ os.path.join(path, "latex") for path in config['datadir']]
     for filename in contentlist:
         checked_file = None
-        for path in config['_songdir']:
-            if os.path.exists(os.path.join(path.fullpath, filename)):
+        for path in basefolders:
+            if os.path.exists(os.path.join(path, filename)):
                 checked_file = os.path.relpath(os.path.join(
-                    path.fullpath,
+                    path,
                     filename,
                     ))
                 break
         if not checked_file:
             LOGGER.warning(
                     ("Cannot find file '{}' in '{}'. Compilation may fail "
-                    "later.").format(filename, [str(i) for i in config['_songdir']])
+                    "later.").format(filename, [str(i) for i in basefolders])
                     )
             continue
         filelist.append(LaTeX(checked_file))

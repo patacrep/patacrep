@@ -52,9 +52,13 @@ def parse(keyword, argument, contentlist, config):
                 break
         if not checked_file:
             LOGGER.warning(
-                    ("Cannot find file '{}' in '{}'. Compilation may fail "
-                    "later.").format(filename, [str(i) for i in basefolders])
-                    )
+                ('Cannot find file "{}" in {}. Compilation may fail '
+                'later.').format(
+                    filename,
+                    ", ".join(
+                        ['"{}"'.format(folder) for folder in basefolders]
+                    ))
+                )
             continue
         filelist.append(LaTeX(checked_file))
 

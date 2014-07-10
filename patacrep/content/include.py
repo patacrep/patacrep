@@ -13,6 +13,7 @@ import logging
 
 from patacrep.content import process_content, ContentError
 from patacrep import encoding
+from patacrep import errors
 
 LOGGER = logging.getLogger(__name__)
 
@@ -26,8 +27,10 @@ def load_from_datadirs(path, config=None):
         if os.path.exists(filepath):
             return filepath
     # File not found
-    raise ContentError("include", "The file '{0}' was not found in the "
-                        "datadirs.".format(path))
+    raise ContentError(
+            "include",
+            errors.notfound(path, config.get("datadir", [])),
+            )
 
 #pylint: disable=unused-argument
 def parse(keyword, config, argument, contentlist):

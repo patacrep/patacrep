@@ -6,7 +6,7 @@
 import logging
 import os
 
-from patacrep import files
+from patacrep import files, errors
 from patacrep.content import Content
 
 LOGGER = logging.getLogger(__name__)
@@ -51,13 +51,8 @@ def parse(keyword, argument, contentlist, config):
                     ))
                 break
         if not checked_file:
-            LOGGER.warning(
-                ('Cannot find file "{}" in {}. Compilation may fail '
-                'later.').format(
-                    filename,
-                    ", ".join(
-                        ['"{}"'.format(folder) for folder in basefolders]
-                    ))
+            LOGGER.warning("{} Compilation may fail later.".format(
+                errors.notfound(filename, basefolders))
                 )
             continue
         filelist.append(LaTeX(checked_file))

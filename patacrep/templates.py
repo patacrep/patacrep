@@ -100,10 +100,18 @@ class TexRenderer(object):
         try:
             self.template = self.texenv.get_template(template)
         except TemplateNotFound as exception:
+            # Only works if all loaders are FileSystemLoader().
+            paths = [
+                    item
+                    for loader in self.texenv.loader.loaders
+                    for item in loader.searchpath
+                    ]
             raise errors.TemplateError(
                     exception,
-                    """Template "{template}" not found.""".format(
-                        template=exception.name
+                    errors.notfound(
+                        exception.name,
+                        paths,
+                        message='Template "{name}" not found in {paths}.'
                         ),
                     )
 

@@ -9,7 +9,7 @@ import logging
 import os
 
 from patacrep.content import Content, process_content, ContentError
-from patacrep import files
+from patacrep import files, errors
 from patacrep.songs import Song
 
 LOGGER = logging.getLogger(__name__)
@@ -86,9 +86,11 @@ def parse(keyword, argument, contentlist, config):
                 break
         if len(songlist) == before:
             # No songs were added
-            LOGGER.warning(
-                    "Expression '{}' did not match any file".format(elem)
-                    )
+            LOGGER.warning(errors.notfound(
+                elem,
+                [item.fullpath for item in config['_songdir']],
+                message='Ignoring "{name}": did not match any file in {paths}.',
+                ))
     return songlist
 
 

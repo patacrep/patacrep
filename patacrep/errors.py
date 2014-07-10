@@ -84,3 +84,14 @@ class UnknownStep(SongbookError):
     def __str__(self):
         return """Compilation step "{step}" unknown.""".format(step=self.step)
 
+def notfound(filename, paths, message=None):
+    """Return a string saying that file was not found in paths."""
+    if message is None:
+        message = 'File "{name}" not found in directories {paths}.'
+    unique_paths = []
+    #pylint: disable=expression-not-assigned
+    [unique_paths.append(item) for item in paths if item not in unique_paths]
+    return message.format(
+            name=filename,
+            paths=", ".join(['"{}"'.format(item) for item in unique_paths]),
+            )

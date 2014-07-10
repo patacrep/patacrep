@@ -149,7 +149,9 @@ class SongbookBuilder(object):
         if not self.interactive:
             self._pdflatex_options.append("-halt-on-error")
         for datadir in self.songbook.config["datadir"]:
-            self._pdflatex_options.append('--include-directory="{}"'.format(datadir))
+            self._pdflatex_options.append(
+                    '--include-directory="{}"'.format(datadir)
+                    )
 
     def build_steps(self, steps=None):
         """Perform steps on the songbook by calling relevant self.build_*()
@@ -202,8 +204,8 @@ class SongbookBuilder(object):
                     stdout=PIPE,
                     stderr=PIPE,
                     env=os.environ)
-        except Exception as e:
-            LOGGER.debug(e)
+        except Exception as error:
+            LOGGER.debug(error)
             raise errors.LatexCompilationError(self.basename)
 
         if not self.interactive:

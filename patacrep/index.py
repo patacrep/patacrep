@@ -75,7 +75,7 @@ class Index(object):
         try:
             letter = FIRST_LETTER_PATTERN.match(key).group(1)
         except AttributeError:
-            # classify as number all the non letter characters 
+            # classify as number all the non letter characters
             letter = "0"
         if re.match(ur'\d', letter):
             letter = '0-9'

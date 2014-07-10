@@ -40,7 +40,7 @@ def parse(keyword, argument, contentlist, config):
     filelist = []
     basefolders = [path.fullpath for path in config['_songdir']] +\
                   config['datadir'] + \
-                  [ os.path.join(path, "latex") for path in config['datadir']]
+                  [os.path.join(path, "latex") for path in config['datadir']]
     for filename in contentlist:
         checked_file = None
         for path in basefolders:

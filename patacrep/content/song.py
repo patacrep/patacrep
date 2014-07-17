@@ -74,6 +74,15 @@ def parse(keyword, argument, contentlist, config):
                 continue
             with files.chdir(songdir.datadir):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
+                    if not (
+                            filename.endswith('.sg') or
+                            filename.endswith('.is')
+                            ):
+                        LOGGER.warning((
+                            'File "{}" is not a ".sg" or ".is" file. Ignored.'
+                            ).format(os.path.join(songdir.datadir, filename))
+                            )
+                        continue
                     LOGGER.debug('Parsing file "{}"…'.format(filename))
                     song = SongRenderer(
                             songdir.datadir,

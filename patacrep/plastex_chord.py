@@ -67,15 +67,6 @@ class Chord(Command):
     macroName = 'chord'
     macroMode = Command.MODE_NONE
 
-    def __init__(self, *args, **kwargs):
-        super(Chord, self).__init__(*args, **kwargs)
-        self.chord = ""
-
-    @property
-    def source(self):
-        """Return chord LaTeX code."""
-        return ur'\[{}]'.format(self.chord)
-
 class BeginChordOrDisplayMath(BeginDisplayMath):
     r"""Wrapper to BeginDisplayMath
 
@@ -91,22 +82,14 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
         if IN_VERSE:
             chord = Chord()
 
+            self.ownerDocument.context.push()
+            self.ownerDocument.context.catcode("&", 13)
             for token in tex:
                 if token.nodeType == token.TEXT_NODE and token.nodeValue == ']':
+                    self.ownerDocument.context.pop()
                     break
                 else:
-                    if token.nodeName == '#text':
-                        chord.chord += str(token)
-                    elif token.nodeName == "active::&":
-                        chord.chord += '&'
-                    else:
-                        LOGGER.warning((
-                            "{}: Unexpected character '{}' in chord "
-                            "argument. Continuing anyway.").format(
-                                tex.filename,
-                                token.source,
-                                ))
-                        break
+                    chord.appendChild(token)
 
             return [chord]
         else:

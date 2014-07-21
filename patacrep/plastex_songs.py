@@ -39,7 +39,7 @@ def split_linebreak(texlist):
 class beginsong(plasTeX.Command): # pylint: disable=invalid-name,too-many-public-methods
     """Class parsing the LaTeX song environment."""
 
-    args = '{titles}[ args:dict ]'
+    args = '{titles}[args:dict]'
 
     def invoke(self, tex):
         """Parse an occurence of song environment."""

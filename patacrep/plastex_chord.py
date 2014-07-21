@@ -82,11 +82,11 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
         if IN_VERSE:
             chord = Chord()
 
-            self.ownerDocument.context.push()
-            self.ownerDocument.context.catcode("&", 13)
+            self.ownerDocument.context.push() #pylint: disable=no-member
+            self.ownerDocument.context.catcode("&", 13) #pylint: disable=no-member
             for token in tex:
                 if token.nodeType == token.TEXT_NODE and token.nodeValue == ']':
-                    self.ownerDocument.context.pop()
+                    self.ownerDocument.context.pop() #pylint: disable=no-member
                     break
                 else:
                     chord.appendChild(token)

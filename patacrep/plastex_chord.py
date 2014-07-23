@@ -7,6 +7,7 @@ Chords are set using commands like \[C]. This package parses those commands.
 
 import logging
 
+import plasTeX
 from plasTeX import Command, Environment, Macro
 from plasTeX.Base.LaTeX.Math import BeginDisplayMath
 
@@ -60,6 +61,43 @@ class Chorus(Environment):
     """LaTeX 'chorus' environment"""
     macroName = 'chorus'
 
+def match_space(token):
+    """Return True if token is a space or newline character."""
+    return (
+            isinstance(token, plasTeX.Tokenizer.Space)
+            or token.nodeName == 'active::\n'
+            )
+
+def match_closing_square_bracket(token):
+    """Return True if token is character ']'."""
+    return token.nodeType == token.TEXT_NODE and token.nodeValue == ']'
+
+def match_egroup(token):
+    """Return True if token is of type `egroup` (end of group)."""
+    return isinstance(token, plasTeX.Base.Text.egroup) #pylint: disable=no-member
+
+def parse_until(tex, end=lambda x: False, discard_last=True):
+    """Parse `tex` until condition `end`, or `egroup` is met.
+
+    Arguments:
+    - tex: object to parse
+    - end: function taking a token in argument, and returning a boolean.
+      Parsing stops when this function returns True, or an `egroup` is met.
+    - discard_last: if True, does not return last token.
+
+    Return: the list of parsed tokens.
+    """
+    parsed = []
+    for token in tex:
+        if end(token) or match_egroup(token):
+            if not discard_last:
+                parsed.append(token)
+            break
+        elif isinstance(token, plasTeX.Base.Text.bgroup): #pylint: disable=no-member
+            # pylint: disable=expression-not-assigned
+            [token.appendChild(item) for item in parse_until(tex, match_egroup)]
+        parsed.append(token)
+    return parsed
 
 
 class Chord(Command):
@@ -84,13 +122,48 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
 
             self.ownerDocument.context.push() #pylint: disable=no-member
             self.ownerDocument.context.catcode("&", 13) #pylint: disable=no-member
-            for token in tex:
-                if token.nodeType == token.TEXT_NODE and token.nodeValue == ']':
-                    self.ownerDocument.context.pop() #pylint: disable=no-member
-                    break
-                else:
-                    chord.appendChild(token)
+            chord.setAttribute(
+                    'name',
+                    parse_until(tex, match_closing_square_bracket),
+                    )
+            self.ownerDocument.context.pop() #pylint: disable=no-member
 
-            return [chord]
+            token = None
+            for token in tex:
+                end = True
+                if not match_space(token):
+                    end = False
+                    break
+            if end:
+                return [chord]
+            elif (
+                    isinstance(token, Verse)
+                    or isinstance(token, VerseStar)
+                    or isinstance(token, Chorus)
+                    ):
+                LOGGER.warning((
+                    "{} L{}: '\\end{{verse}}' (or 'verse*' or 'chorus') not "
+                    "allowed directly after '\\['."
+                    ).format(tex.filename, tex.lineNumber)
+                    )
+                return [chord]
+            elif isinstance(token, Chord):
+                token.attributes['name'] = (
+                        chord.attributes['name']
+                        + token.attributes['name']
+                        )
+                chord = token
+                return [chord]
+            elif isinstance(token, plasTeX.Base.Text.bgroup): #pylint: disable=no-member
+                # pylint: disable=expression-not-assigned
+                [chord.appendChild(item) for item in parse_until(tex)]
+                return [chord]
+            else:
+                chord.appendChild(token)
+                parsed = parse_until(tex, match_space, discard_last=False)
+                # pylint: disable=expression-not-assigned
+                [chord.appendChild(item) for item in parsed[:-1]]
+                return [chord]
         else:
             return super(BeginChordOrDisplayMath, self).invoke(tex)
+

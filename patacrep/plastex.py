@@ -104,6 +104,8 @@ def parsetex(filename):
     # Extraction des données
     data = {
             "languages": set(),
+            "_doc": doc,
+            "_filename": filename,
             }
     for node in doc.allChildNodes:
         if node.nodeName == "selectlanguage":

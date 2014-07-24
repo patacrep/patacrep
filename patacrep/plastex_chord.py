@@ -128,13 +128,11 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
                     )
             self.ownerDocument.context.pop() #pylint: disable=no-member
 
-            token = None
-            for token in tex:
-                end = True
-                if not match_space(token):
-                    end = False
-                    break
-            if end:
+            token = next(iter(tex), None)
+            if token is None:
+                return [chord]
+            elif match_space(token):
+                chord.appendChild(token)
                 return [chord]
             elif (
                     isinstance(token, Verse)

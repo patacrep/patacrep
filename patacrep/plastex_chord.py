@@ -76,28 +76,30 @@ def match_egroup(token):
     """Return True if token is of type `egroup` (end of group)."""
     return isinstance(token, plasTeX.Base.Text.egroup) #pylint: disable=no-member
 
-def parse_until(tex, end=lambda x: False, discard_last=True):
+def parse_until(tex, end=lambda x: False):
     """Parse `tex` until condition `end`, or `egroup` is met.
 
     Arguments:
     - tex: object to parse
     - end: function taking a token in argument, and returning a boolean.
       Parsing stops when this function returns True, or an `egroup` is met.
-    - discard_last: if True, does not return last token.
 
-    Return: the list of parsed tokens.
+    Return: a tuple of two items (the list of parsed tokens, last token). This
+    is done so that caller can decide whether they want to discard it or not.
+    Last token can be None if everything has been parsed without the end
+    condition being met.
     """
     parsed = []
+    last = None
     for token in tex:
         if end(token) or match_egroup(token):
-            if not discard_last:
-                parsed.append(token)
+            last = token
             break
         elif isinstance(token, plasTeX.Base.Text.bgroup): #pylint: disable=no-member
             # pylint: disable=expression-not-assigned
             [token.appendChild(item) for item in parse_until(tex, match_egroup)]
         parsed.append(token)
-    return parsed
+    return (parsed, last)
 
 
 class Chord(Command):
@@ -124,7 +126,7 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
             self.ownerDocument.context.catcode("&", 13) #pylint: disable=no-member
             chord.setAttribute(
                     'name',
-                    parse_until(tex, match_closing_square_bracket),
+                    parse_until(tex, match_closing_square_bracket)[0],
                     )
             self.ownerDocument.context.pop() #pylint: disable=no-member
 
@@ -154,11 +156,12 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
                 return [chord]
             elif isinstance(token, plasTeX.Base.Text.bgroup): #pylint: disable=no-member
                 # pylint: disable=expression-not-assigned
-                [chord.appendChild(item) for item in parse_until(tex)]
+                [chord.appendChild(item) for item in parse_until(tex)[0]]
                 return [chord]
             else:
                 chord.appendChild(token)
-                parsed = parse_until(tex, match_space, discard_last=False)
+                (parsed, last) = parse_until(tex, match_space)
+                parsed.append(last)
                 # pylint: disable=expression-not-assigned
                 [chord.appendChild(item) for item in parsed[:-1]]
                 return [chord]

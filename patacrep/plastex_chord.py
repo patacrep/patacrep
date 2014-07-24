@@ -76,6 +76,10 @@ def match_egroup(token):
     """Return True if token is of type `egroup` (end of group)."""
     return isinstance(token, plasTeX.Base.Text.egroup) #pylint: disable=no-member
 
+def match_space_or_chord(token):
+    """Return True if token is a space or a chord."""
+    return match_space(token) or isinstance(token, Chord)
+
 def parse_until(tex, end=lambda x: False):
     """Parse `tex` until condition `end`, or `egroup` is met.
 
@@ -160,11 +164,14 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
                 return [chord]
             else:
                 chord.appendChild(token)
-                (parsed, last) = parse_until(tex, match_space)
-                parsed.append(last)
+                (parsed, last) = parse_until(tex, match_space_or_chord)
                 # pylint: disable=expression-not-assigned
-                [chord.appendChild(item) for item in parsed[:-1]]
-                return [chord]
+                [chord.appendChild(item) for item in parsed]
+                if isinstance(last, Chord):
+                    return [chord, last]
+                else:
+                    chord.appendChild(last)
+                    return [chord]
         else:
             return super(BeginChordOrDisplayMath, self).invoke(tex)
 

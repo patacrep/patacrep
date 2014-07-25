@@ -37,6 +37,15 @@ def wrap_displaymath(cls):
                 self.ownerDocument.context.push()
                 self.ownerDocument.context.catcode("\n", 13)
                 IN_VERSE += 1
+
+                # Removing spaces and line breaks at the beginning of verse
+                token = None
+                for token in tex:
+                    if not match_space(token):
+                        break
+                if token is not None:
+                    tex.pushToken(token)
+
             else:
                 self.ownerDocument.context.pop()
                 IN_VERSE -= 1

@@ -1,0 +1,28 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Test plasTeX}
+  [by={Traditionnel},cov={traditionnel},album={France}]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+  \end{verse}
+
+  \begin{verse}Salut\[A]
+  \end{verse}
+
+  \begin{verse}\[A]Salut
+  \end{verse}
+
+  \begin{verse}
+    \[A] après\[A]{plop
+    }
+    \[B]Vent après
+    \[C]\^Eplop après
+    {\[D]J}après
+    \[E]Vent\[A] après
+  \end{verse}
+
+\endsong

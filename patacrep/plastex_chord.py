@@ -147,8 +147,7 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
             if token is None:
                 return [chord]
             elif match_space(token):
-                chord.appendChild(token)
-                return [chord]
+                return [chord, token]
             elif (
                     isinstance(token, Verse)
                     or isinstance(token, VerseStar)
@@ -176,11 +175,7 @@ class BeginChordOrDisplayMath(BeginDisplayMath):
                 (parsed, last) = parse_until(tex, match_space_or_chord)
                 # pylint: disable=expression-not-assigned
                 [chord.appendChild(item) for item in parsed]
-                if isinstance(last, Chord):
-                    return [chord, last]
-                else:
-                    chord.appendChild(last)
-                    return [chord]
+                return [chord, last]
         else:
             return super(BeginChordOrDisplayMath, self).invoke(tex)
 

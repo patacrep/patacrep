@@ -49,7 +49,7 @@ def wrap_displaymath(cls):
             else:
                 self.ownerDocument.context.pop()
                 IN_VERSE -= 1
-            super(WrappedClass, self).invoke(tex)
+            return super(WrappedClass, self).invoke(tex)
     return WrappedClass
 
 # pylint: disable=too-many-public-methods

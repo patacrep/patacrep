@@ -110,7 +110,7 @@ def parse_until(tex, end=lambda x: False):
             break
         elif isinstance(token, plasTeX.Base.Text.bgroup): #pylint: disable=no-member
             # pylint: disable=expression-not-assigned
-            [token.appendChild(item) for item in parse_until(tex, match_egroup)]
+            [token.appendChild(item) for item in parse_until(tex, match_egroup)[0]]
         parsed.append(token)
     return (parsed, last)
 

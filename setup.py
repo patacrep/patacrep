@@ -6,7 +6,7 @@ $ python setup.py install
 """
 from patacrep import __STR_VERSION__
 
-from distutils.core import setup
+from setuptools import setup
 
 import sys
 import os

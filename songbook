@@ -12,7 +12,7 @@ import textwrap
 import sys
 
 from patacrep.build import SongbookBuilder, DEFAULT_STEPS
-from patacrep import __STR_VERSION__
+from patacrep import __version__
 from patacrep import errors
 from patacrep import encoding
 
@@ -45,7 +45,7 @@ def argument_parser(args):
     parser = argparse.ArgumentParser(description="A song book compiler")
 
     parser.add_argument('--version', help='Show version', action='version',
-            version='%(prog)s ' + __STR_VERSION__)
+            version='%(prog)s ' + __version__)
 
     parser.add_argument('book', nargs=1, help=textwrap.dedent("""\
                     Book to compile.

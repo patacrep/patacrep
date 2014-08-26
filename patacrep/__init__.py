@@ -5,8 +5,8 @@ import os
 
 # Version
 
-__VERSION__ = (3, 7, 2)
-__STR_VERSION__ = '.'.join([str(number) for number in __VERSION__])
+__TUPLE_VERSION__ = (3, 7, 2)
+__version__ = '.'.join([str(number) for number in __TUPLE_VERSION__])
 
 # Directory containing shared data (default templates, custom LaTeX packages,
 # etc.)

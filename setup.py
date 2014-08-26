@@ -4,7 +4,7 @@
 
 $ python setup.py install
 """
-from patacrep import __STR_VERSION__
+from patacrep import __version__
 
 from setuptools import setup
 
@@ -14,7 +14,7 @@ import site
 
 
 SETUP = {"name": 'patacrep',
-        "version": __STR_VERSION__,
+        "version": __version__,
         "description": 'Songbook compilation chain',
         "author": 'The Songbook team',
         "author_email": 'crep@team-on-fire.com',

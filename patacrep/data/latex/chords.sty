@@ -2,26 +2,49 @@
 % Define command \chords to display list of chords, for guitar or ukulele
 \ProvidesPackage{chords}
 \RequirePackage{songs}
-\RequirePackage{tabularx}
-\RequirePackage{multirow}
 \newcommand*{\Sharp}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small\bf \#}}
 \newcommand*{\Flat}{\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\,\small$\mathbf{\flat}$}}
 \newcommand*{\chordname}[1]{\large \textbf{#1}}
 
-% Centering columns of tabulars
-\newcolumntype{C}{>{\centering}X}
-\renewcommand{\tabularxcolumn}[1]{m{#1}}
+% Temporary boxes and length
+\newsavebox{\@chordgroupbox@i}
+\newsavebox{\@chordgroupbox@ii}
+\newlength{\@chordgrouplength@i}
+\newlength{\@chordgrouplength@ii}
 
 \newcommand{\chordtabs}[3]{
+  % Saving chords groups in boxes
+  \sbox{\@chordgroupbox@i}{#2}%
+  \settowidth{\@chordgrouplength@i}{\usebox{\@chordgroupbox@i}}%
+  \sbox{\@chordgroupbox@ii}{#3}%
+  \settowidth{\@chordgrouplength@ii}{\usebox{\@chordgroupbox@ii}}%
+  % Local command
+  \def\pl@cechord##1{%
+     \vskip.2ex%
+     \raisebox{2em}{\chordname{##1}} %
+     } %
+  % Placing boxes
   \ifimportantdiagramonly%
-    \begin{tabularx}{\linewidth}{cX}%
-      \chordname{#1} & #3 \\\hline%
-    \end{tabularx}%
+       \pl@cechord{#1}%
+       \hspace{\stretch{1}}%
+       \usebox{\@chordgroupbox@ii}%
+       \hspace{\stretch{1}}%
+       \vskip.2ex%
+       \hrule%
   \else%
-    \begin{tabularx}{\linewidth}{cX}%
-      \multirow{2}{*}{{\chordname{#1}}} & #2 \\%
-                                        & #3 \\\hline%
-    \end{tabularx}%
+      \pl@cechord{#1}%
+      \hspace{\stretch{1}}%
+      \ifdim \dimexpr\@chordgrouplength@i+\@chordgrouplength@ii\relax > .8\textwidth
+         \vbox{\hbox{\usebox{\@chordgroupbox@i}}%
+               \hbox{\usebox{\@chordgroupbox@ii}}
+               }%
+      \else
+         \hbox{\usebox{\@chordgroupbox@i}%
+               \usebox{\@chordgroupbox@ii}%
+               }%
+      \fi
+      \vskip.2ex%
+      \hrule%
   \fi%
 }
 

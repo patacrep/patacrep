@@ -27,6 +27,9 @@ SETUP = {"name": 'patacrep',
             "locale", "logging", "os", "plasTeX", "re", "subprocess", "sys",
             "textwrap", "unidecode", "jinja2", "chardet"
             ],
+        "install_requires": [
+            "argparse", "plasTeX", "unidecode", "jinja2", "chardet"
+            ],
         "package_data": {'patacrep': [  'data/latex/*',
                                         'data/templates/*',
                                         'data/examples/*.sb',

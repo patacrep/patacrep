@@ -42,7 +42,7 @@ SETUP = {"name": 'patacrep',
             "Natural Language :: English",
             "Operating System :: POSIX :: Linux",
             "Operating System :: Microsoft :: Windows",
-            "Operating System :: MacOS :: MacOS X"
+            "Operating System :: MacOS :: MacOS X",
             "Programming Language :: Python :: 2.7",
             "Topic :: Utilities",
             ],

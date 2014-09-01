@@ -246,6 +246,7 @@
 % Conditional inclusion of lilypond sheet music.
 \newcommand{\lilypond}[1]{%
     \iflilypond%
+    \epstopdfsetup{suffix=-\the\hsize-converted}
     \includegraphics{\currfiledir#1}%
     \fi%
 }

@@ -92,8 +92,12 @@
 
 
    \makeatletter
-   \@ifpackageloaded{hyperref}{}{\newcommand{\phantomsection}{}}
-   \@ifpackageloaded{hyperref}{}{\newcommand{\hyperlink}[2]{#2}}
+   \@ifpackageloaded{hyperref}{}{
+       \usepackage{url}
+       \newcommand{\phantomsection}{}
+       \newcommand{\hyperlink}[2]{#2}
+       \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+   }
    \makeatother
 (* endblock *)
 

@@ -12,7 +12,7 @@ import re
 
 from patacrep import authors
 from patacrep import encoding
-from patacrep.plastex import simpleparse
+from patacrep.latex import latex2unicode
 
 EOL = u"\n"
 
@@ -112,7 +112,7 @@ class Index(object):
         if not key in self.data[first].keys():
             self.data[first][key] = {
                     'sortingkey': [
-                        encoding.unidecode(simpleparse(item)).lower()
+                        encoding.unidecode(latex2unicode(item)).lower()
                         for item in key
                         ],
                     'entries': [],

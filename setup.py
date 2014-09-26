@@ -24,11 +24,11 @@ SETUP = {"name": 'patacrep',
         "scripts": ['songbook'],
         "requires": [
             "argparse", "codecs", "distutils", "fnmatch", "glob", "json",
-            "locale", "logging", "os", "plasTeX", "re", "subprocess", "sys",
+            "locale", "logging", "os", "re", "subprocess", "sys",
             "textwrap", "unidecode", "jinja2", "chardet"
             ],
         "install_requires": [
-            "argparse", "plasTeX", "unidecode", "jinja2", "chardet"
+            "argparse", "unidecode", "jinja2", "chardet"
             ],
         "package_data": {'patacrep': [  'data/latex/*',
                                         'data/templates/*',

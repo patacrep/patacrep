@@ -14,7 +14,7 @@ except ImportError:
     import pickle
 
 from patacrep.authors import processauthors
-from patacrep.plastex import parsetex
+from patacrep.latex import parsetex
 
 LOGGER = logging.getLogger(__name__)
 
@@ -113,7 +113,7 @@ class Song(object):
                         self.fullpath
                         ))
 
-        # Data extraction from the song with plastex
+        # Data extraction from the latex song
         data = parsetex(self.fullpath)
         self.titles = data['titles']
         self.datadir = datadir

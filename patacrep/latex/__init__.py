@@ -18,6 +18,6 @@ def parsetex(path):
     return {
             'titles': ["TODO"],
             'args': {},
-            'languages': ['french'],
+            'languages': ['french', 'english', 'portuguese', 'spanish'],
             }
 

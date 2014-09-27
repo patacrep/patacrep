@@ -1,4 +1,4 @@
-#! /usr/bin/env python2
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Command line tool to compile songbooks using the songbook library."""
@@ -92,7 +92,7 @@ def main():
         locale.setlocale(locale.LC_ALL, '')
     except locale.Error as error:
         # Locale is not installed on user's system, or wrongly configured.
-        sys.stderr.write("Locale error: {}\n".format(error.message))
+        sys.stderr.write("Locale error: {}\n".format(str(error)))
 
     options = argument_parser(sys.argv[1:])
 
@@ -119,7 +119,7 @@ def main():
         datadirs += [item[0] for item in options.datadir]
     if 'datadir' in songbook:
         # .sg file
-        if isinstance(songbook['datadir'], basestring):
+        if isinstance(songbook['datadir'], str):
             songbook['datadir'] = [songbook['datadir']]
         datadirs += [
                 os.path.join(

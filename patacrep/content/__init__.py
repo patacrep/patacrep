@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Content plugin management.
@@ -225,11 +225,11 @@ def process_content(content, config=None):
     """
     contentlist = []
     plugins = load_plugins(config)
-    keyword_re = re.compile(ur'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
+    keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]
     for elem in content:
-        if isinstance(elem, basestring):
+        if isinstance(elem, str):
             elem = ["song", elem]
         if len(content) == 0:
             content = ["song"]

@@ -12,7 +12,7 @@ is precised in the header.
 
 # Python version
 
-Patacrep is compatible with Python 2.7 (no Python3 yet).
+Patacrep is compatible with Python 3.
 
 # Download
 
@@ -26,7 +26,7 @@ Clone Patacrep repos:
 Make sure you have [pip](https://pip.pypa.io/en/latest/) installed, and then run
 
 >     pip install -r Requirements.txt
->     python setup.py install
+>     python3 setup.py install
 
 # Run
 
@@ -40,10 +40,10 @@ Look for existing songbook files in `<patadata>/books/`. For example:
 
 # Quick and dirty deb packages
 
-Install `python-stdeb`, then:
+Install `python3-stdeb`, then:
 
->     python setup.py --command-packages=stdeb.command bdist_deb
->     sudo dpkg -i deb_dist/python-patacrep_<version>-1_all.deb
+>     python3 setup.py --command-packages=stdeb.command bdist_deb
+>     sudo dpkg -i deb_dist/python3-patacrep_<version>-1_all.deb
 
 # Documentation
 

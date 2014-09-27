@@ -6,12 +6,8 @@ import errno
 import hashlib
 import logging
 import os
+import pickle
 import re
-
-try:
-    import cPickle as pickle
-except ImportError:
-    import pickle
 
 from patacrep.authors import processauthors
 from patacrep.latex import parsetex
@@ -128,7 +124,7 @@ class Song(object):
         self.args = data['args']
         self.subpath = subpath
         self.languages = data['languages']
-        if "by" in self.args.keys():
+        if "by" in self.args:
             self.authors = processauthors(
                     self.args["by"],
                     **config["_compiled_authwords"]
@@ -144,14 +140,7 @@ class Song(object):
         if self.datadir:
             cached = {}
             for attribute in self.cached_attributes:
-                if attribute == "args":
-                    cached[attribute] = dict([
-                        (key, u"{}".format(value)) # Force conversion to unicode
-                        for (key, value)
-                        in self.args.iteritems()
-                        ])
-                else:
-                    cached[attribute] = getattr(self, attribute)
+                cached[attribute] = getattr(self, attribute)
             pickle.dump(
                     cached,
                     open(cached_name(self.datadir, self.subpath), 'wb'),
@@ -165,7 +154,7 @@ def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
     for prefix in prefixes:
-        match = re.compile(ur"^(%s)\b\s*(.*)$" % prefix, re.LOCALE).match(title)
+        match = re.compile(r"^(%s)\b\s*(.*)$" % prefix, re.LOCALE).match(title)
         if match:
             return match.group(2)
     return title

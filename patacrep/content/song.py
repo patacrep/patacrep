@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Plugin to include songs to the songbook."""
@@ -26,15 +26,15 @@ class SongRenderer(Content, Song):
         indexes = context.resolve("indexes")
         if isinstance(indexes, jinja2.runtime.Undefined):
             indexes = ""
-        return ur'\begin{songs}{%s}' % indexes
+        return r'\begin{songs}{%s}' % indexes
 
     def end_block(self, __context):
         """Return the string to end a block."""
-        return ur'\end{songs}'
+        return r'\end{songs}'
 
     def render(self, context):
         """Return the string that will render the song."""
-        return ur'\input{{{}}}'.format(files.path2posix(
+        return r'\input{{{}}}'.format(files.path2posix(
                                     files.relpath(
                                         self.fullpath,
                                         os.path.dirname(context['filename'])

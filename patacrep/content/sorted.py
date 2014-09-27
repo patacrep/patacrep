@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Sorted list of songs.
@@ -9,9 +9,9 @@ to a songbook.
 
 import locale
 import logging
+import unidecode
 
 from patacrep import files
-from patacrep import encoding
 from patacrep.content import ContentError
 from patacrep.content.song import OnlySongsError, process_songs
 
@@ -27,11 +27,11 @@ def normalize_string(string):
     - lower case;
     - passed through locale.strxfrm().
     """
-    return locale.strxfrm(encoding.unidecode(string.lower().strip()))
+    return locale.strxfrm(unidecode.unidecode(string.lower().strip()))
 
 def normalize_field(field):
     """Return a normalized field, it being a string or a list of strings."""
-    if isinstance(field, basestring):
+    if isinstance(field, str):
         return normalize_string(field)
     elif isinstance(field, list) or isinstance(field, tuple):
         return [normalize_field(string) for string in field]
@@ -63,7 +63,7 @@ def key_generator(sort):
                                 files.relpath(song.fullpath),
                                 )
                             )
-                    field = u""
+                    field = ""
             songkey.append(normalize_field(field))
         return songkey
     return ordered_song_keys

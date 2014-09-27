@@ -4,7 +4,7 @@
 
 def latex2unicode(string):
     """Convert LaTeX string to unicode"""
-    return u"TODO"
+    return "TODO"
 
 def parsetex(path):
     """Return a dictonary of data read from the latex file `path`.

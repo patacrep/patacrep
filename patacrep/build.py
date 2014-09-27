@@ -57,7 +57,7 @@ class Songbook(object):
     def _set_datadir(self):
         """Set the default values for datadir"""
         try:
-            if isinstance(self.config['datadir'], basestring):
+            if isinstance(self.config['datadir'], str):
                 self.config['datadir'] = [self.config['datadir']]
         except KeyError:  # No datadir in the raw_songbook
             self.config['datadir'] = [os.path.abspath('.')]
@@ -213,7 +213,7 @@ class SongbookBuilder(object):
         log = ''
         line = process.stdout.readline()
         while line:
-            log += line
+            log += str(line)
             line = process.stdout.readline()
         LOGGER.debug(log)
 

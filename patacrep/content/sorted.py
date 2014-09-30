@@ -55,7 +55,7 @@ def key_generator(sort):
                 field = song.authors
             else:
                 try:
-                    field = song.args[key]
+                    field = song.data[key]
                 except KeyError:
                     LOGGER.debug(
                             "Ignoring unknown key '{}' for song {}.".format(

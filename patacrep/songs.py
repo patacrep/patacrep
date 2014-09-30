@@ -10,7 +10,7 @@ import pickle
 import re
 
 from patacrep.authors import processauthors
-from patacrep.latex import parsetex
+from patacrep.latex import parsesong
 
 LOGGER = logging.getLogger(__name__)
 
@@ -74,7 +74,7 @@ class Song(object):
     cached_attributes = [
             "titles",
             "unprefixed_titles",
-            "args",
+            "data",
             "datadir",
             "fullpath",
             "subpath",
@@ -110,8 +110,9 @@ class Song(object):
                         ))
 
         # Data extraction from the latex song
-        data = parsetex(self.fullpath)
-        self.titles = data['titles']
+        self.data = parsesong(self.fullpath)
+        self.titles = self.data['@titles']
+        self.languages = self.data['@languages']
         self.datadir = datadir
         self.unprefixed_titles = [
                 unprefixed_title(
@@ -121,12 +122,10 @@ class Song(object):
                 for title
                 in self.titles
                 ]
-        self.args = data['args']
         self.subpath = subpath
-        self.languages = data['languages']
-        if "by" in self.args:
+        if "by" in self.data:
             self.authors = processauthors(
-                    self.args["by"],
+                    self.data["by"],
                     **config["_compiled_authwords"]
                     )
         else:
@@ -148,7 +147,7 @@ class Song(object):
                     )
 
     def __repr__(self):
-        return repr((self.titles, self.args, self.fullpath))
+        return repr((self.titles, self.data, self.fullpath))
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

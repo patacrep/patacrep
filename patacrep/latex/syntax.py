@@ -1,11 +1,28 @@
+"""Very simple LaTeX parser"""
+
+import logging
 import ply.yacc as yacc
-import inspect # TODO supprimer
 
 from patacrep.latex.lexer import tokens, SimpleLexer, SongLexer
 from patacrep.latex import ast
+from patacrep.errors import SongbookError
 from patacrep.latex.detex import detex
 
+LOGGER = logging.getLogger()
+
+class ParsingError(SongbookError):
+    """Parsing error."""
+
+    def __init__(self, message):
+        super().__init__(self)
+        self.message = message
+
+    def __str__(self):
+        return self.message
+
+# pylint: disable=line-too-long
 class Parser:
+    """LaTeX parser."""
 
     def __init__(self, filename=None):
         self.tokens = tokens
@@ -13,22 +30,26 @@ class Parser:
         self.ast.init_metadata()
         self.filename = filename
 
-    def __find_column(self, token):
-        last_cr = token.lexer.lexdata.rfind('\n',0,token.lexpos)
+    @staticmethod
+    def __find_column(token):
+        """Return the column of ``token``."""
+        last_cr = token.lexer.lexdata.rfind('\n', 0, token.lexpos)
         if last_cr < 0:
             last_cr = 0
         column = (token.lexpos - last_cr) + 1
         return column
 
-    def p_error(self, p):
-        print("Erreur fichier {}, ligne {}, position {}.".format( # TODO
+    def p_error(self, token):
+        """Manage parsing errors."""
+        LOGGER.error("Erreur fichier {}, ligne {}, position {}.".format(
             str(self.filename),
-            p.lineno,
-            self.__find_column(p),
+            token.lineno,
+            self.__find_column(token),
             )
             )
 
-    def p_expression(self, p):
+    @staticmethod
+    def p_expression(symbols):
         """expression : brackets expression
                       | braces expression
                       | command expression
@@ -38,138 +59,155 @@ class Parser:
                       | SPACE expression
                       | empty
         """
-        if len(p) == 3:
-            if p[2] is None:
-                p[0] = ast.Expression(p[1])
+        if len(symbols) == 3:
+            if symbols[2] is None:
+                symbols[0] = ast.Expression(symbols[1])
             else:
-                p[0] = p[2].prepend(p[1])
+                symbols[0] = symbols[2].prepend(symbols[1])
         else:
-            p[0] = None
+            symbols[0] = None
 
-    def p_empty(self, p):
+    @staticmethod
+    def p_empty(__symbols):
         """empty :"""
         return None
 
-    def p_brackets(self, p):
+    @staticmethod
+    def p_brackets(symbols):
         """brackets : LBRACKET expression RBRACKET"""
-        p[0] = p[2]
+        symbols[0] = symbols[2]
 
-    def p_braces(self, p):
+    @staticmethod
+    def p_braces(symbols):
         """braces : LBRACE expression RBRACE"""
-        p[0] = p[2]
+        symbols[0] = symbols[2]
 
-    def p_command(self, p):
+    @staticmethod
+    def p_command(symbols):
         """command : COMMAND brackets_list braces_list"""
-        p[0] = ast.Command(p[1], p[2], p[3])
+        symbols[0] = ast.Command(symbols[1], symbols[2], symbols[3])
 
-    def p_brackets_list(self, p):
+    @staticmethod
+    def p_brackets_list(symbols):
         """brackets_list : brackets brackets_list
                          | empty
         """
-        if len(p) == 3:
-            p[0] = p[2]
-            p[0].insert(0, p[1])
+        if len(symbols) == 3:
+            symbols[0] = symbols[2]
+            symbols[0].insert(0, symbols[1])
         else:
-            p[0] = []
+            symbols[0] = []
 
-    def p_braces_list(self, p):
+    @staticmethod
+    def p_braces_list(symbols):
         """braces_list : braces braces_list
                        | empty
         """
-        if len(p) == 3:
-            p[0] = p[2]
-            p[0].insert(0, p[1])
+        if len(symbols) == 3:
+            symbols[0] = symbols[2]
+            symbols[0].insert(0, symbols[1])
         else:
-            p[0] = []
+            symbols[0] = []
 
-    def p_word(self, p):
+    @staticmethod
+    def p_word(symbols):
         """word : CHARACTER word_next
                 | COMMA word_next
                 | EQUAL word_next
         """
-        p[0] = p[1] + p[2]
+        symbols[0] = symbols[1] + symbols[2]
 
-    def p_word_next(self, p):
+    @staticmethod
+    def p_word_next(symbols):
         """word_next : CHARACTER word_next
                      | empty
         """
-        if len(p) == 2:
-            p[0] = ""
+        if len(symbols) == 2:
+            symbols[0] = ""
         else:
-            p[0] = p[1] + p[2]
+            symbols[0] = symbols[1] + symbols[2]
 
-    def p_beginsong(self, p):
+    def p_beginsong(self, symbols):
         """beginsong : BEGINSONG separator songbraces separator songbrackets"""
-        self.ast.metadata["@titles"] = p[3]
-        self.ast.metadata.update(p[5])
+        self.ast.metadata["@titles"] = symbols[3]
+        self.ast.metadata.update(symbols[5])
 
-    def p_songbrackets(self, p):
+    @staticmethod
+    def p_songbrackets(symbols):
         """songbrackets : SONG_LOPTIONS separator dictionary separator SONG_ROPTIONS
                         | empty
         """
-        if len(p) == 6:
-            p[0] = p[3]
+        if len(symbols) == 6:
+            symbols[0] = symbols[3]
         else:
-            p[0] = {}
+            symbols[0] = {}
 
-    def p_songbraces(self, p):
+    @staticmethod
+    def p_songbraces(symbols):
         """songbraces : SONG_LTITLE separator titles separator SONG_RTITLE
                       | empty
         """
-        if len(p) == 6:
-            p[0] = p[3]
+        if len(symbols) == 6:
+            symbols[0] = symbols[3]
         else:
-            p[0] = []
+            symbols[0] = []
 
-    def p_dictionary(self, p):
+    @staticmethod
+    def p_dictionary(symbols):
         """dictionary : identifier EQUAL braces dictionary_next
                       | identifier EQUAL error dictionary_next
         """
-        if isinstance(p[3], ast.Expression):
-            p[0] = {}
-            p[0][p[1]] = p[3]
-            p[0].update(p[4])
+        if isinstance(symbols[3], ast.Expression):
+            symbols[0] = {}
+            symbols[0][symbols[1]] = symbols[3]
+            symbols[0].update(symbols[4])
         else:
-            raise Exception("Do enclose arguments between braces.") # TODO
+            raise ParsingError("Do enclose arguments between braces.")
 
-    def p_identifier(self, p):
+    @staticmethod
+    def p_identifier(symbols):
         """identifier : CHARACTER identifier
                       | empty
         """
-        if len(p) == 2:
-            p[0] = ""
+        if len(symbols) == 2:
+            symbols[0] = ""
         else:
-            p[0] = p[1] + p[2]
+            symbols[0] = symbols[1] + symbols[2]
 
-    def p_separator(self, p):
+    @staticmethod
+    def p_separator(symbols):
         """separator : SPACE
                      | empty
         """
-        p[0] = None
+        symbols[0] = None
 
-    def p_dictonary_next(self, p):
+    @staticmethod
+    def p_dictonary_next(symbols):
         """dictionary_next : separator COMMA separator dictionary
                            | empty
         """
-        if len(p) == 5:
-            p[0] = p[4]
+        if len(symbols) == 5:
+            symbols[0] = symbols[4]
         else:
-            p[0] = {}
+            symbols[0] = {}
 
-    def p_titles(self, p):
+    @staticmethod
+    def p_titles(symbols):
         """titles : title titles_next"""
-        p[0] = [p[1]] + p[2]
+        symbols[0] = [symbols[1]] + symbols[2]
 
-    def p_titles_next(self, p):
+    @staticmethod
+    def p_titles_next(symbols):
         """titles_next : NEWLINE title titles_next
                        | empty
         """
-        if len(p) == 2:
-            p[0] = []
+        if len(symbols) == 2:
+            symbols[0] = []
         else:
-            p[0] = [p[2]] + p[3]
+            symbols[0] = [symbols[2]] + symbols[3]
 
-    def p_title(self, p):
+    @staticmethod
+    def p_title(symbols):
         """title : brackets title
                  | braces title
                  | command title
@@ -177,18 +215,30 @@ class Parser:
                  | SPACE title
                  | empty
         """
-        if len(p) == 2:
-            p[0] = None
+        if len(symbols) == 2:
+            symbols[0] = None
         else:
-            if p[2] is None:
-                p[0] = ast.Expression(p[1])
+            if symbols[2] is None:
+                symbols[0] = ast.Expression(symbols[1])
             else:
-                p[0] = p[2].prepend(p[1])
+                symbols[0] = symbols[2].prepend(symbols[1])
 
 
 def tex2plain(string):
-    return detex(yacc.yacc(module = Parser()).parse(string, lexer = SimpleLexer().lexer))
+    """Parse string and return its plain text version."""
+    return detex(
+            yacc.yacc(module=Parser()).parse(
+                string,
+                lexer=SimpleLexer().lexer,
+                )
+            )
 
 def parsesong(string, filename=None):
-    return detex(yacc.yacc(module = Parser(filename)).parse(string, lexer = SongLexer().lexer).metadata)
+    """Parse song and return its metadata."""
+    return detex(
+            yacc.yacc(module=Parser(filename)).parse(
+                string,
+                lexer=SongLexer().lexer,
+                ).metadata
+            )
 

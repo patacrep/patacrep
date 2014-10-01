@@ -1,3 +1,9 @@
+"""Render `very simple` TeX commands in a simple TeX code."""
+
+import logging
+
+LOGGER = logging.getLogger()
+
 MATCH = [
     # Diacritics: a
     (r"\'a", "á"),
@@ -85,6 +91,12 @@ MATCH = [
 
 
 def detex(arg):
+    """Render very simple TeX commands from argument.
+
+    Argument can be:
+    - a string: it is processed;
+    - a list, dict or set: its values are processed.
+    """
     if isinstance(arg, dict):
         return dict([
             (key, detex(value))
@@ -104,7 +116,7 @@ def detex(arg):
         for (latex, plain) in MATCH:
             string = string.replace(latex, plain)
         if '\\' in string:
-            print("WARNING: Remaining command in string '{}'.".format(string))
+            LOGGER.warning("Remaining command in string '{}'.".format(string))
         return string.strip()
     else:
         return detex(str(arg))

@@ -1,5 +1,11 @@
+"""Very simple LaTeX lexer."""
+
+import logging
 import ply.lex as lex
 
+LOGGER = logging.getLogger()
+
+#pylint: disable=invalid-name
 tokens = (
    'LBRACKET',
    'RBRACKET',
@@ -19,10 +25,10 @@ tokens = (
 )
 
 class SimpleLexer:
+    """Very simple LaTeX lexer."""
 
     tokens = tokens
 
-    # Regular expression rules for simple tokens
     t_LBRACKET = r'\['
     t_RBRACKET = r'\]'
     t_LBRACE = r'{'
@@ -49,76 +55,96 @@ class SimpleLexer:
     t_SPACE = r'[ \t\n\r]+'
 
     def __init__(self):
-        self.__class__.lexer = lex.lex(module = self)
+        self.__class__.lexer = lex.lex(module=self)
 
     # Define a rule so we can track line numbers
-    def t_newline(self, t):
+    @staticmethod
+    def t_newline(token):
         r'\n+'
-        t.lexer.lineno += len(t.value)
+        token.lexer.lineno += len(token.value)
 
-    def t_comment(self, t):
+    @staticmethod
+    def t_comment(token):
         r'%.*'
         pass
 
     # Error handling rule
-    def t_error(self, t):
-        print("Illegal character '%s'" % t.value[0]) # TODO log
-        t.lexer.skip(1)
+    @staticmethod
+    def t_error(token):
+        """Manage errors"""
+        LOGGER.error("Illegal character '{}'".format(token.value[0]))
+        token.lexer.skip(1)
 
 class SongLexer(SimpleLexer):
+    r"""Very simple song lexer.
+
+    In the context of this class, a "song" is some LaTeX code containing the
+    ``\beginsong`` (or ``\sortassong``) command.
+    """
 
     states = (
         ('beginsong', 'inclusive'),
         )
 
     # State beginsong
-    def t_INITIAL_BEGINSONG(self, t):
-        r'\\beginsong'
-        t.lexer.push_state('beginsong')
-        t.lexer.open_brackets = 0
-        t.lexer.open_braces = 0
-        return t
+    @staticmethod
+    def t_INITIAL_BEGINSONG(token):
+        r'(\\beginsong|\\sortassong)'
+        token.lexer.push_state('beginsong')
+        token.lexer.open_brackets = 0
+        token.lexer.open_braces = 0
+        return token
 
-    def t_beginsong_LBRACKET(self, t):
+    @staticmethod
+    def t_beginsong_LBRACKET(token):
         r'\['
-        if t.lexer.open_brackets == 0:
-            t.type = 'SONG_LOPTIONS'
-            t.lexer.open_braces += 1 # TODO Explain
-        t.lexer.open_brackets += 1
-        return t
+        if token.lexer.open_brackets == 0:
+            token.type = 'SONG_LOPTIONS'
 
-    def t_beginsong_RBRACKET(self, t):
+            # Count opening and closing braces to know when to leave the
+            # `beginsong` state.
+            token.lexer.open_braces += 1
+        token.lexer.open_brackets += 1
+        return token
+
+    @staticmethod
+    def t_beginsong_RBRACKET(token):
         r'\]'
-        t.lexer.open_brackets -= 1
-        if t.lexer.open_brackets == 0:
-            t.type = 'SONG_ROPTIONS'
-            t.lexer.open_braces -= 1 # TODO Explain
-            t.lexer.pop_state()
-            for __ignored in t.lexer: # TODO Explain
+        token.lexer.open_brackets -= 1
+        if token.lexer.open_brackets == 0:
+            token.type = 'SONG_ROPTIONS'
+            token.lexer.open_braces -= 1
+            token.lexer.pop_state()
+            for __ignored in token.lexer:
+                # In this parser, we only want to read metadata. So, after the
+                # first ``\beginsong`` command, we can stop parsing.
                 pass
-        return t
+        return token
 
-    def t_beginsong_LBRACE(self, t):
+    @staticmethod
+    def t_beginsong_LBRACE(token):
         r'{'
-        if t.lexer.open_braces == 0:
-            t.type = 'SONG_LTITLE'
-        t.lexer.open_braces += 1
-        return t
+        if token.lexer.open_braces == 0:
+            token.type = 'SONG_LTITLE'
+        token.lexer.open_braces += 1
+        return token
 
-    def t_beginsong_RBRACE1(self, t):
+    @staticmethod
+    def t_beginsong_RBRACE1(token):
         r'}(?![ \t\r\n]*\[)'
-        t.lexer.open_braces -= 1
-        t.type = 'RBRACE'
-        if t.lexer.open_braces == 0:
-            t.lexer.pop_state()
-            t.type = 'SONG_RTITLE'
-        return t
+        token.lexer.open_braces -= 1
+        token.type = 'RBRACE'
+        if token.lexer.open_braces == 0:
+            token.lexer.pop_state()
+            token.type = 'SONG_RTITLE'
+        return token
 
-    def t_beginsong_RBRACE2(self, t):
+    @staticmethod
+    def t_beginsong_RBRACE2(token):
         r'}(?=[ \t\r\n]*\[)'
-        t.lexer.open_braces -= 1
-        t.type = 'RBRACE'
-        if t.lexer.open_braces == 0:
-            t.type = 'SONG_RTITLE'
-        return t
+        token.lexer.open_braces -= 1
+        token.type = 'RBRACE'
+        if token.lexer.open_braces == 0:
+            token.type = 'SONG_RTITLE'
+        return token
 

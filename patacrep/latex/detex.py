@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Render `very simple` TeX commands in a simple TeX code."""
 
 import logging

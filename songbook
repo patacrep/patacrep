@@ -145,6 +145,9 @@ def main():
                     "Running again with option '-v' may give more information."
                     )
         sys.exit(1)
+    except KeyboardInterrupt:
+        LOGGER.warning("Aborted by user.")
+        sys.exit(1)
 
     sys.exit(0)
 

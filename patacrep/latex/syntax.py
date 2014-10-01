@@ -227,11 +227,15 @@ class Parser:
 def tex2plain(string):
     """Parse string and return its plain text version."""
     return detex(
-            yacc.yacc(module=Parser()).parse(
-                string,
-                lexer=SimpleLexer().lexer,
+            yacc.yacc(
+                write_tables=0,
+                debug=0,
+                module=Parser(),
+                ).parse(
+                    string,
+                    lexer=SimpleLexer().lexer,
+                    )
                 )
-            )
 
 def parsesong(string, filename=None):
     """Parse song and return its metadata."""

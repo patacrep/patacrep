@@ -92,7 +92,7 @@ def main():
         locale.setlocale(locale.LC_ALL, '')
     except locale.Error as error:
         # Locale is not installed on user's system, or wrongly configured.
-        sys.stderr.write("Locale error: {}\n".format(str(error)))
+        LOGGER.error("Locale error: {}\n".format(str(error)))
 
     options = argument_parser(sys.argv[1:])
 

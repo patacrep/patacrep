@@ -19,7 +19,7 @@ SETUP = {"name": 'patacrep',
         "author": 'The Songbook team',
         "author_email": 'crep@team-on-fire.com',
         "url": 'https://github.com/patacrep/patacrep',
-        "packages": ['patacrep', 'patacrep.content'],
+        "packages": ['patacrep', 'patacrep.content', 'patacrep.latex'],
         "license": "GPLv2 or any later version",
         "scripts": ['songbook'],
         "requires": [
@@ -28,7 +28,7 @@ SETUP = {"name": 'patacrep',
             "textwrap", "unidecode", "jinja2", "chardet"
             ],
         "install_requires": [
-            "argparse", "unidecode", "jinja2", "chardet"
+            "argparse", "unidecode", "jinja2", "chardet", "ply"
             ],
         "package_data": {'patacrep': [  'data/latex/*',
                                         'data/templates/*',
@@ -47,6 +47,8 @@ SETUP = {"name": 'patacrep',
             "Operating System :: Microsoft :: Windows",
             "Operating System :: MacOS :: MacOS X",
             "Programming Language :: Python :: 2.7",
+            "Programming Language :: Python :: 3.3",
+            "Programming Language :: Python :: 3.4",
             "Topic :: Utilities",
             ],
         "platforms": ["GNU/Linux", "Windows", "MacOsX"]

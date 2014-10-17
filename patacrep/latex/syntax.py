@@ -41,7 +41,7 @@ class Parser:
 
     def p_error(self, token):
         """Manage parsing errors."""
-        LOGGER.error("Erreur fichier {}, ligne {}, position {}.".format(
+        LOGGER.error("Error in file {}, line {} at position {}.".format(
             str(self.filename),
             token.lineno,
             self.__find_column(token),

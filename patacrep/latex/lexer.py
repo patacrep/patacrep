@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Very simple LaTeX lexer."""
 
 import logging

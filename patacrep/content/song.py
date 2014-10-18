@@ -4,41 +4,14 @@
 """Plugin to include songs to the songbook."""
 
 import glob
-import jinja2
 import logging
 import os
 
-from patacrep.content import Content, process_content, ContentError
+from patacrep.content import process_content, ContentError
 from patacrep import files, errors
 from patacrep.songs import Song
 
 LOGGER = logging.getLogger(__name__)
-
-class SongRenderer(Content, Song):
-    """Render a song in the .tex file."""
-
-    def begin_new_block(self, previous, __context):
-        """Return a boolean stating if a new block is to be created."""
-        return not isinstance(previous, SongRenderer)
-
-    def begin_block(self, context):
-        """Return the string to begin a block."""
-        indexes = context.resolve("indexes")
-        if isinstance(indexes, jinja2.runtime.Undefined):
-            indexes = ""
-        return r'\begin{songs}{%s}' % indexes
-
-    def end_block(self, __context):
-        """Return the string to end a block."""
-        return r'\end{songs}'
-
-    def render(self, context):
-        """Return the string that will render the song."""
-        return r'\input{{{}}}'.format(files.path2posix(
-                                    files.relpath(
-                                        self.fullpath,
-                                        os.path.dirname(context['filename'])
-                                    )))
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):
@@ -51,22 +24,17 @@ def parse(keyword, argument, contentlist, config):
       expressions (interpreted using the glob module), referring to songs.
     - config: the current songbook configuration dictionary.
 
-    Return a list of SongRenderer() instances.
+    Return a list of Song() instances.
     """
     if '_languages' not in config:
         config['_languages'] = set()
     songlist = []
+    plugins = config.get('_file_plugins', {})
     for songdir in config['_songdir']:
         if contentlist:
             break
-        contentlist = [
-                filename
-                for filename
-                in (
-                    files.recursive_find(songdir.fullpath, "*.sg")
-                    + files.recursive_find(songdir.fullpath, "*.is")
-                    )
-                ]
+        contentlist = files.recursive_find(songdir.fullpath, plugins.keys())
+
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:
@@ -74,21 +42,16 @@ def parse(keyword, argument, contentlist, config):
                 continue
             with files.chdir(songdir.datadir):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
-                    if not (
-                            filename.endswith('.sg') or
-                            filename.endswith('.is')
-                            ):
+                    LOGGER.debug('Parsing file "{}"…'.format(filename))
+                    try:
+                        renderer = plugins[filename.split('.')[-1]]
+                    except KeyError:
                         LOGGER.warning((
-                            'File "{}" is not a ".sg" or ".is" file. Ignored.'
+                            'I do not know how to parse file "{}". Ignored.'
                             ).format(os.path.join(songdir.datadir, filename))
                             )
                         continue
-                    LOGGER.debug('Parsing file "{}"…'.format(filename))
-                    song = SongRenderer(
-                            songdir.datadir,
-                            filename,
-                            config,
-                            )
+                    song = renderer(songdir.datadir, filename, config)
                     songlist.append(song)
                     config["_languages"].update(song.languages)
             if len(songlist) > before:
@@ -129,7 +92,7 @@ def process_songs(content, config=None):
             item
             for item
             in contentlist
-            if not isinstance(item, SongRenderer)
+            if not isinstance(item, Song)
             ]
     if not_songs:
         raise OnlySongsError(not_songs)

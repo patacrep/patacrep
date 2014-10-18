@@ -9,7 +9,7 @@ import logging
 import os.path
 from subprocess import Popen, PIPE, call
 
-from patacrep import __DATADIR__, authors, content, errors
+from patacrep import __DATADIR__, authors, content, errors, files
 from patacrep.index import process_sxd
 from patacrep.templates import TexRenderer
 from patacrep.songs import DataSubpath
@@ -99,8 +99,25 @@ class Songbook(object):
                 copy.deepcopy(config['authwords'])
                 )
 
-        # Configuration set
+        # Loading custom plugins
+        config['_content_plugins'] = files.load_plugins(
+            datadirs=config.get('datadir', []),
+            subdir=['content'],
+            variable='CONTENT_PLUGINS',
+            error=(
+                "File {filename}: Keyword '{keyword}' is already used. Ignored."
+                ),
+            )
+        config['_file_plugins'] = files.load_plugins(
+            datadirs=config.get('datadir', []),
+            subdir=['songs'],
+            variable='FILE_PLUGINS',
+            error=(
+                "File {filename}: Keyword '{keyword}' is already used. Ignored."
+                ),
+            )
 
+        # Configuration set
         config['render_content'] = content.render_content
         config['content'] = content.process_content(
                 config.get('content', []),

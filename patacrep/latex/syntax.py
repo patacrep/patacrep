@@ -224,26 +224,33 @@ class Parser:
             else:
                 symbols[0] = symbols[2].prepend(symbols[1])
 
+def silent_yacc(*args, **kwargs):
+    """Call yacc, suppressing (as far as possible) output and generated files.
+    """
+    return yacc.yacc(
+        write_tables=0,
+        debug=0,
+        *args,
+        **kwargs
+        )
 
 def tex2plain(string):
     """Parse string and return its plain text version."""
     return detex(
-            yacc.yacc(
-                write_tables=0,
-                debug=0,
-                module=Parser(),
-                ).parse(
-                    string,
-                    lexer=SimpleLexer().lexer,
-                    )
+        silent_yacc(
+            module=Parser(),
+            ).parse(
+                string,
+                lexer=SimpleLexer().lexer,
                 )
+        )
 
 def parsesong(string, filename=None):
     """Parse song and return its metadata."""
     return detex(
-            yacc.yacc(module=Parser(filename)).parse(
-                string,
-                lexer=SongLexer().lexer,
-                ).metadata
-            )
+        silent_yacc(module=Parser(filename)).parse(
+            string,
+            lexer=SongLexer().lexer,
+            ).metadata
+        )
 

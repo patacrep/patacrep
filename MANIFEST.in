@@ -1,0 +1,2 @@
+include LICENSE NEWS readme.md Requirements.txt stdeb.cfg
+recursive-include patacrep/data *

@@ -17,10 +17,7 @@ class SBFileError(SongbookError):
         self.message = message
 
     def __str__(self):
-        if self.message is None:
-            return str(self.original)
-        else:
-            return self.message
+        return self.message
 
 class TemplateError(SongbookError):
     """Error during template generation"""

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Allow LaTeX sections (starred or not) as content of a songbook."""
@@ -26,9 +26,9 @@ class Section(Content):
 
     def render(self, __context):
         if self.short is None:
-            return ur'\{}{{{}}}'.format(self.keyword, self.name)
+            return r'\{}{{{}}}'.format(self.keyword, self.name)
         else:
-            return ur'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
+            return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

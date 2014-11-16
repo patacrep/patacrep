@@ -2,23 +2,35 @@
 """File system utilities."""
 
 from contextlib import contextmanager
-import fnmatch
+import glob
+import importlib
+import logging
 import os
 import posixpath
+import re
+import sys
 
-def recursive_find(root_directory, pattern):
-    """Recursively find files matching a pattern, from a root_directory.
+LOGGER = logging.getLogger(__name__)
 
-    Return a list of files matching the pattern.
+def recursive_find(root_directory, extensions):
+    """Recursively find files with some extension, from a root_directory.
+
+    Return a list of files matching those conditions.
+
+    Arguments:
+    - `extensions`: list of accepted extensions.
+    - `root_directory`: root directory of the search.
     """
     if not os.path.isdir(root_directory):
         return []
 
     matches = []
+    pattern = re.compile(r'.*\.({})$'.format('|'.join(extensions)))
     with chdir(root_directory):
-        for root, _, filenames in os.walk(os.curdir):
-            for filename in fnmatch.filter(filenames, pattern):
-                matches.append(os.path.join(root, filename))
+        for root, __ignored, filenames in os.walk(os.curdir):
+            for filename in filenames:
+                if pattern.match(filename):
+                    matches.append(os.path.join(root, filename))
     return matches
 
 def relpath(path, start=None):
@@ -59,3 +71,63 @@ def chdir(path):
         os.chdir(olddir)
     else:
         yield
+
+def load_plugins(datadirs, subdir, variable, error):
+    """Load all content plugins, and return a dictionary of those plugins.
+
+    A plugin is a .py file, submodule of `subdir`, located in one of the
+    directories of `datadirs`. It contains a dictionary `variable`. The return
+    value is the union of the dictionaries of the loaded plugins.
+
+    Arguments:
+    - datadirs: list of directories (as strings) in which files has to be
+      searched.
+    - subdir: modules (as a list of strings) files has to be submodules of
+      (e.g. if `subdir` is `['first', 'second']`, search files are of the form
+      `first/second/*.py`.
+    - variable: Name of the variable holding the dictionary.
+    - error: Error message raised if a key appears several times.
+    """
+    plugins = {}
+    directory_list = (
+            [
+                os.path.join(datadir, "python", *subdir) #pylint: disable=star-args
+                for datadir in datadirs
+            ]
+            + [os.path.dirname(__file__)]
+            )
+    for directory in directory_list:
+        if not os.path.exists(directory):
+            LOGGER.debug(
+                    "Ignoring non-existent directory '%s'.",
+                    directory
+                    )
+            continue
+        sys.path.append(directory)
+        for name in glob.glob(os.path.join(directory, *(subdir + ['*.py']))):
+            if name.endswith(".py") and os.path.basename(name) != "__init__.py":
+                if directory == os.path.dirname(__file__):
+                    plugin = importlib.import_module(
+                            'patacrep.{}.{}'.format(
+                                ".".join(subdir),
+                                os.path.basename(name[:-len('.py')])
+                                )
+                            )
+                else:
+                    plugin = importlib.import_module(
+                                os.path.basename(name[:-len('.py')])
+                                )
+                for (key, value) in getattr(plugin, variable, {}).items():
+                    if key in plugins:
+                        LOGGER.warning(
+                                error.format(
+                                filename=relpath(name),
+                                key=key,
+                                )
+                                )
+                        continue
+                    plugins[key] = value
+        del sys.path[-1]
+    return plugins
+
+

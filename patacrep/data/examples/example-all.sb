@@ -10,5 +10,7 @@
 "authwords" : {
   "sep" : ["and", "et"]
   },
- "datadir" : "."
+ "datadir" : ".",
+ "content": [["sorted"]]
+
 }

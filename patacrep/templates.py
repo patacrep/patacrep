@@ -12,15 +12,15 @@ import json
 from patacrep import encoding, errors, files
 
 _LATEX_SUBS = (
-    (re.compile(ur'\\'), ur'\\textbackslash'),
-    (re.compile(ur'([{}_#%&$])'), ur'\\\1'),
-    (re.compile(ur'~'), ur'\~{}'),
-    (re.compile(ur'\^'), ur'\^{}'),
-    (re.compile(ur'"'), ur"''"),
-    (re.compile(ur'\.\.\.+'), ur'\\ldots'),
+    (re.compile(r'\\'), r'\\textbackslash'),
+    (re.compile(r'([{}_#%&$])'), r'\\\1'),
+    (re.compile(r'~'), r'\~{}'),
+    (re.compile(r'\^'), r'\^{}'),
+    (re.compile(r'"'), r"''"),
+    (re.compile(r'\.\.\.+'), r'\\ldots'),
 )
 
-_VARIABLE_REGEXP = re.compile(ur"""
+_VARIABLE_REGEXP = re.compile(r"""
     \(\*\ *variables\ *\*\)    # Match (* variables *)
     (                          # Match and capture the following:
     (?:                        # Start of non-capturing group, used to match a single character
@@ -48,7 +48,7 @@ class VariablesExtension(Extension):
     tags = set(['variables'])
 
     def parse(self, parser):
-        parser.stream.next()
+        next(parser.stream)
         parser.parse_statements(
                 end_tokens=['name:endvariables'],
                 drop_needle=True,

@@ -9,7 +9,7 @@ import logging
 import os.path
 from subprocess import Popen, PIPE, call
 
-from patacrep import __DATADIR__, authors, content, errors
+from patacrep import __DATADIR__, authors, content, errors, files
 from patacrep.index import process_sxd
 from patacrep.templates import TexRenderer
 from patacrep.songs import DataSubpath
@@ -50,14 +50,13 @@ class Songbook(object):
         super(Songbook, self).__init__()
         self.config = raw_songbook
         self.basename = basename
-        self.contentlist = []
         # Some special keys have their value processed.
         self._set_datadir()
 
     def _set_datadir(self):
         """Set the default values for datadir"""
         try:
-            if isinstance(self.config['datadir'], basestring):
+            if isinstance(self.config['datadir'], str):
                 self.config['datadir'] = [self.config['datadir']]
         except KeyError:  # No datadir in the raw_songbook
             self.config['datadir'] = [os.path.abspath('.')]
@@ -86,7 +85,7 @@ class Songbook(object):
         - output: a file object, in which the file will be written.
         """
         # Updating configuration
-        config = DEFAULT_CONFIG
+        config = DEFAULT_CONFIG.copy()
         config.update(self.config)
         renderer = TexRenderer(
                 config['template'],
@@ -100,18 +99,33 @@ class Songbook(object):
                 copy.deepcopy(config['authwords'])
                 )
 
-        self.config = config
+        # Loading custom plugins
+        config['_content_plugins'] = files.load_plugins(
+            datadirs=config.get('datadir', []),
+            subdir=['content'],
+            variable='CONTENT_PLUGINS',
+            error=(
+                "File {filename}: Keyword '{keyword}' is already used. Ignored."
+                ),
+            )
+        config['_file_plugins'] = files.load_plugins(
+            datadirs=config.get('datadir', []),
+            subdir=['songs'],
+            variable='FILE_PLUGINS',
+            error=(
+                "File {filename}: Keyword '{keyword}' is already used. Ignored."
+                ),
+            )
+
         # Configuration set
-
-        self.contentlist = content.process_content(
-                self.config.get('content', []),
-                self.config,
+        config['render_content'] = content.render_content
+        config['content'] = content.process_content(
+                config.get('content', []),
+                config,
                 )
-        self.config['render_content'] = content.render_content
-        self.config['content'] = self.contentlist
-        self.config['filename'] = output.name[:-4]
+        config['filename'] = output.name[:-4]
 
-        renderer.render_tex(output, self.config)
+        renderer.render_tex(output, config)
 
 
 class SongbookBuilder(object):
@@ -213,7 +227,7 @@ class SongbookBuilder(object):
         log = ''
         line = process.stdout.readline()
         while line:
-            log += line
+            log += str(line)
             line = process.stdout.readline()
         LOGGER.debug(log)
 

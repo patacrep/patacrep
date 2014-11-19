@@ -38,13 +38,6 @@ Look for existing songbook files in `<patadata>/books/`. For example:
 >     <patacrep>/songbook <patadata>/books/songbook_en.sb
 >     <pdfreader> songbook_en.pdf
 
-# Quick and dirty deb packages
-
-Install `python3-stdeb`, then:
-
->     python3 setup.py --command-packages=stdeb.command bdist_deb
->     sudo dpkg -i deb_dist/python3-patacrep_<version>-1_all.deb
-
 # Documentation
 
 - Compiled, but may be outdated: http://www.patacrep.com/data/documents/doc_en.pdf

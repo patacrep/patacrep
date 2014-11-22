@@ -15,6 +15,7 @@ def parsesong(path):
     """Return a dictonary of data read from the latex file `path`.
 
     """
-    data = syntax_parsesong(encoding.open_read(path).read(), path)
+    with encoding.open_read(path) as songfile:
+        data = syntax_parsesong(songfile.read(), path)
     data['@path'] = path
     return data

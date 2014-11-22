@@ -186,32 +186,27 @@ class TexRenderer(object):
         """
 
         subvariables = {}
-        template_file = None
         templatename = self.texenv.get_template(template).filename
-        try:
-            template_file = encoding.open_read(templatename, 'r')
+        with encoding.open_read(templatename, 'r') as template_file:
             content = template_file.read()
-            subtemplates = list(find_templates(self.texenv.parse(content)))
-            match = re.findall(_VARIABLE_REGEXP, content)
-            if match:
-                for var in match:
-                    try:
-                        subvariables.update(json.loads(var))
-                    except ValueError as exception:
-                        raise errors.TemplateError(
-                                exception,
-                                (
-                                    "Error while parsing json in file "
-                                    "{filename}. The json string was:"
-                                    "\n'''\n{jsonstring}\n'''"
-                                ).format(
-                                    filename=templatename,
-                                    jsonstring=var,
-                                    )
+        subtemplates = list(find_templates(self.texenv.parse(content)))
+        match = re.findall(_VARIABLE_REGEXP, content)
+        if match:
+            for var in match:
+                try:
+                    subvariables.update(json.loads(var))
+                except ValueError as exception:
+                    raise errors.TemplateError(
+                            exception,
+                            (
+                                "Error while parsing json in file "
+                                "{filename}. The json string was:"
+                                "\n'''\n{jsonstring}\n'''"
+                            ).format(
+                                filename=templatename,
+                                jsonstring=var,
                                 )
-        finally:
-            if template_file:
-                template_file.close()
+                            )
 
         return (subvariables, subtemplates)
 

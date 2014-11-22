@@ -90,8 +90,6 @@ class Song(Content):
             "unprefixed_titles",
             "cached",
             "data",
-            "datadir",
-            "fullpath",
             "subpath",
             "languages",
             "authors",
@@ -101,6 +99,7 @@ class Song(Content):
 
     def __init__(self, datadir, subpath, config):
         self.fullpath = os.path.join(datadir, subpath)
+        self.datadir = datadir
         if datadir:
             # Only songs in datadirs are cached
             self._filehash = hashlib.md5(

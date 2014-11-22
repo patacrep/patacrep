@@ -33,6 +33,7 @@ DEFAULT_CONFIG = {
         'lang': 'english',
         'content': [],
         'titleprefixwords': [],
+        'encoding': None,
         }
 
 
@@ -91,6 +92,7 @@ class Songbook(object):
                 config['template'],
                 config['datadir'],
                 config['lang'],
+                config['encoding'],
                 )
         config.update(renderer.get_variables())
         config.update(self.config)

@@ -9,7 +9,8 @@ import os
 import re
 import json
 
-from patacrep import encoding, errors, files
+from patacrep import errors, files
+import patacrep.encoding
 
 _LATEX_SUBS = (
     (re.compile(r'\\'), r'\\textbackslash'),
@@ -67,7 +68,7 @@ def _escape_tex(value):
 class TexRenderer(object):
     """Render a template to a LaTeX file."""
 
-    def __init__(self, template, datadirs, lang):
+    def __init__(self, template, datadirs, lang, encoding=None):
         '''Start a new jinja2 environment for .tex creation.
 
         Arguments:
@@ -75,8 +76,10 @@ class TexRenderer(object):
         - datadirs: list of locations of the data directory
           (which may contain file <datadir>/templates/<template>).
         - lang: main language of songbook.
+        - encoding: if set, encoding of the template.
         '''
         self.lang = lang
+        self.encoding = encoding
         # Load templates in filesystem ...
         loaders = [FileSystemLoader(os.path.join(datadir, 'templates'))
                       for datadir in datadirs]
@@ -187,7 +190,10 @@ class TexRenderer(object):
 
         subvariables = {}
         templatename = self.texenv.get_template(template).filename
-        with encoding.open_read(templatename, 'r') as template_file:
+        with patacrep.encoding.open_read(
+            templatename,
+            encoding=self.encoding
+            ) as template_file:
             content = template_file.read()
         subtemplates = list(find_templates(self.texenv.parse(content)))
         match = re.findall(_VARIABLE_REGEXP, content)

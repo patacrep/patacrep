@@ -29,7 +29,7 @@ def process_sxd(filename):
     """
     data = []
     index_file = None
-    with encoding.open_read(filename, 'r') as index_file:
+    with encoding.open_read(filename) as index_file:
         for line in index_file:
             data.append(line.strip())
 

@@ -11,10 +11,11 @@ from patacrep.latex.syntax import tex2plain
 from patacrep.latex.syntax import parsesong as syntax_parsesong
 from patacrep import encoding
 
-def parsesong(path):
+def parsesong(path, fileencoding=None):
     """Return a dictonary of data read from the latex file `path`.
 
     """
-    data = syntax_parsesong(encoding.open_read(path).read(), path)
+    with encoding.open_read(path, encoding=fileencoding) as songfile:
+        data = syntax_parsesong(songfile.read(), path)
     data['@path'] = path
     return data

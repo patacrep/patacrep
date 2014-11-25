@@ -14,7 +14,7 @@ import sys
 from patacrep.build import SongbookBuilder, DEFAULT_STEPS
 from patacrep import __version__
 from patacrep import errors
-from patacrep import encoding
+import patacrep.encoding
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -100,17 +100,19 @@ def main():
 
     basename = os.path.basename(songbook_path)[:-3]
 
-    songbook_file = None
     try:
-        songbook_file = encoding.open_read(songbook_path)
-        songbook = json.load(songbook_file)
+        with patacrep.encoding.open_read(songbook_path) as songbook_file:
+            songbook = json.load(songbook_file)
+        if 'encoding' in songbook:
+            with patacrep.encoding.open_read(
+                    songbook_path,
+                    encoding=songbook['encoding']
+                    ) as songbook_file:
+                songbook = json.load(songbook_file)
     except Exception as error: # pylint: disable=broad-except
         LOGGER.error(error)
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))
         sys.exit(1)
-    finally:
-        if songbook_file:
-            songbook_file.close()
 
     # Gathering datadirs
     datadirs = []

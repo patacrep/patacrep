@@ -13,7 +13,7 @@ class TexRenderer(Song):
 
     def parse(self):
         """Parse song and set metadata."""
-        self.data = parsesong(self.fullpath)
+        self.data = parsesong(self.fullpath, self.encoding)
         self.titles = self.data['@titles']
         self.languages = self.data['@languages']
         self.authors = self.data['by']

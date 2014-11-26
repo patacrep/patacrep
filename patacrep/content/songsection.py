@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Allow 'songchapter' and 'songsection' as content of a songbook."""
@@ -19,7 +19,7 @@ class SongSection(Content):
 
     def render(self, __context):
         """Render this section or chapter."""
-        return ur'\{}{{{}}}'.format(self.keyword, self.name)
+        return r'\{}{{{}}}'.format(self.keyword, self.name)
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

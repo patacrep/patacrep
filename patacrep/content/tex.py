@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Include LaTeX raw code in the songbook."""
@@ -18,7 +18,7 @@ class LaTeX(Content):
         self.filename = filename
 
     def render(self, context):
-        return ur'\input{{{}}}'.format(files.relpath(
+        return r'\input{{{}}}'.format(files.relpath(
             self.filename,
             os.path.dirname(context['filename']),
             ))

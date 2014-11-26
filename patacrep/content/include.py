@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Include an external list of songs
 
 This plugin provides keyword 'include', used to include an external list of

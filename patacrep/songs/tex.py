@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Very simple LaTeX parsing."""
 
 import os

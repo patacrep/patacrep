@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Very simple LaTeX parser
 
 This module uses an LALR parser to try to parse LaTeX code. LaTeX language

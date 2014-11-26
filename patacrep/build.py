@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Build a songbook, according to parameters found in a .sb file."""
 
 import codecs

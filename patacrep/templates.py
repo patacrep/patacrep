@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Template for .tex generation settings and utilities"""
 
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \

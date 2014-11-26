@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Authors string management."""
 
 import logging

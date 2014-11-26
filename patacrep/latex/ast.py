@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Abstract Syntax Tree for LaTeX code."""
 
 # pylint: disable=too-few-public-methods

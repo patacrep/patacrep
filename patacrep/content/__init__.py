@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Content plugin management.
 
 Content that can be included in a songbook is controlled by plugins. From the

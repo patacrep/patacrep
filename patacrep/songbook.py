@@ -1,6 +1,3 @@
-#! /usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Command line tool to compile songbooks using the songbook library."""
 
 import argparse

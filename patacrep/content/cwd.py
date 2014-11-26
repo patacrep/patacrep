@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Change base directory before importing songs."""
 
 from patacrep.content import process_content

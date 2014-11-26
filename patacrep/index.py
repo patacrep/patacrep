@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Manage indexes.
 
 Generate indexes files for the songbook compilation. This is a replacement for

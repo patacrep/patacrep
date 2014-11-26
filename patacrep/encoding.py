@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Dealing with encoding problems."""
 
 import codecs

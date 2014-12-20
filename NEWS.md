@@ -1,7 +1,7 @@
 # patacrep 4.0.0
 
 * Project gestion
-  * Name change [#39](http://github.com/patacrep/patacrep/issues/39
+  * Name change [#39](http://github.com/patacrep/patacrep/issues/39)
   * Renew of the developement team
   * Separation engine/data
     * The engine is the [current poject](http://github.com/patacrep/patacrep)

@@ -4,6 +4,7 @@ import codecs
 import copy
 import glob
 import logging
+import threading
 import os.path
 from subprocess import Popen, PIPE, call
 
@@ -127,6 +128,13 @@ class Songbook(object):
 
         renderer.render_tex(output, config)
 
+def _log_pipe(pipe):
+    """Log content from `pipe`."""
+    while 1:
+        line = pipe.readline()
+        if not bool(line):
+            break
+        LOGGER.debug(line.strip())
 
 class SongbookBuilder(object):
     """Provide methods to compile a songbook."""
@@ -217,6 +225,7 @@ class SongbookBuilder(object):
                     stdin=PIPE,
                     stdout=PIPE,
                     stderr=PIPE,
+                    universal_newlines=True,
                     env=os.environ)
         except Exception as error:
             LOGGER.debug(error)
@@ -224,13 +233,25 @@ class SongbookBuilder(object):
 
         if not self.interactive:
             process.stdin.close()
-        log = ''
-        line = process.stdout.readline()
-        while line:
-            log += str(line)
-            line = process.stdout.readline()
-        LOGGER.debug(log)
 
+        standard_output = threading.Thread(
+            target=_log_pipe,
+            kwargs={
+                'pipe' : process.stdout,
+                }
+            )
+        standard_error = threading.Thread(
+            target=_log_pipe,
+            kwargs={
+                'pipe' : process.stderr,
+                }
+            )
+        standard_output.daemon = True
+        standard_error.daemon = True
+        standard_error.start()
+        standard_output.start()
+        standard_error.join()
+        standard_output.join()
         process.wait()
 
         if process.returncode:

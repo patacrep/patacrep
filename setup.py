@@ -17,13 +17,8 @@ setup(
     url='https://github.com/patacrep/patacrep',
     packages=find_packages(),
     license="GPLv2 or any later version",
-    requires=[
-        "argparse", "codecs", "distutils", "fnmatch", "glob", "json",
-        "locale", "logging", "os", "re", "subprocess", "sys",
-        "textwrap", "unidecode", "jinja2", "chardet"
-        ],
     install_requires=[
-        "argparse", "unidecode", "jinja2", "chardet", "ply"
+        "unidecode", "jinja2", "chardet", "ply",
         ],
     include_package_data=True,
     entry_points={

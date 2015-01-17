@@ -20,6 +20,7 @@ setup(
     install_requires=[
         "unidecode", "jinja2", "chardet", "ply",
         ],
+    setup_requires=["hgtools"],
     include_package_data=True,
     entry_points={
         'console_scripts': [
@@ -38,6 +39,5 @@ setup(
         "Topic :: Utilities",
         ],
     platforms=["GNU/Linux", "Windows", "MacOsX"]
-    platforms=["GNU/Linux", "Windows", "MacOsX"],
     long_description = open("README.rst", "r").read(),
 )

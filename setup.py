@@ -25,6 +25,7 @@ setup(
     install_requires=[
         "argparse", "unidecode", "jinja2", "chardet", "ply"
         ],
+    setup_requires=["hgtools"],
     include_package_data=True,
     entry_points={
         'console_scripts': [

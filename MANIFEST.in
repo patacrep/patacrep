@@ -1,2 +1,0 @@
-include LICENSE NEWS readme.md Requirements.txt
-recursive-include patacrep/data *

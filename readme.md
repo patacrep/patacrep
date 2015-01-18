@@ -33,6 +33,16 @@ pip3 install -r Requirements.txt
 python3 setup.py install
 ```
 
+## Quick and dirty Debian (and Ubuntu?) package
+
+This requires [stdeb](https://github.com/astraw/stdeb) to be installed.
+
+```
+python setup.py --command-packages=stdeb.command bdist_deb
+sudo dpkg -i deb_dist/python3-patacrep_4.0.0-1_all.deb
+```
+
+
 # Run
 
 ```

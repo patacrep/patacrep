@@ -29,7 +29,6 @@ class ChordProLexer:
     t_RBRACE = r'}'
     t_SPACE = r'[ \t]+'
     t_COLON = r':'
-    t_WORD = r'[a-zA-Z_]+'  #TODO: handle unicode
 
     def __init__(self):
         self.__class__.lexer = lex.lex(module=self)
@@ -45,7 +44,12 @@ class ChordProLexer:
     def t_comment(token):
         r'\#.*'
         pass
-    
+
+    @staticmethod
+    def t_WORD(token):
+        r'[a-zA-Z_]+[.,;:!?]?'
+        return token
+
     @staticmethod
     def t_NUMBER(token):
         r'[0-9]+'

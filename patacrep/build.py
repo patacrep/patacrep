@@ -225,8 +225,9 @@ class SongbookBuilder(object):
                     stdin=PIPE,
                     stdout=PIPE,
                     stderr=PIPE,
+                    env=os.environ,
                     universal_newlines=True,
-                    env=os.environ)
+                    )
         except Exception as error:
             LOGGER.debug(error)
             raise errors.LatexCompilationError(self.basename)

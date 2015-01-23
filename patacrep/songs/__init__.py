@@ -10,7 +10,7 @@ import pickle
 import re
 
 from patacrep.authors import processauthors
-from patacrep.latex import parsesong
+from patacrep import files, encoding
 
 LOGGER = logging.getLogger(__name__)
 
@@ -84,6 +84,12 @@ class Song(object):
             "_version",
             ]
 
+    # Default data
+    DEFAULT_DATA = {
+            '@titles': [],
+            '@languages': [],
+            }
+
     def __init__(self, datadir, subpath, config):
         self.fullpath = os.path.join(datadir, subpath)
         if datadir:
@@ -110,7 +116,11 @@ class Song(object):
                         ))
 
         # Data extraction from the latex song
-        self.data = parsesong(self.fullpath)
+        self.data = self.DEFAULT_DATA
+        self.data['@path'] = self.fullpath
+        self.data.update(self.parse(
+                encoding.open_read(self.fullpath).read()
+                ))
         self.titles = self.data['@titles']
         self.languages = self.data['@languages']
         self.datadir = datadir
@@ -149,6 +159,18 @@ class Song(object):
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
+    def tex(self, output): # pylint: disable=no-self-use, unused-argument
+        """Return the LaTeX code rendering this song.
+
+        Arguments:
+        - output: Name of the output file.
+        """
+        return NotImplementedError()
+
+    def parse(self, content): # pylint: disable=no-self-use, unused-argument
+        """Parse song, and return a dictionary of its data."""
+        return NotImplementedError()
+
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
@@ -157,5 +179,3 @@ def unprefixed_title(title, prefixes):
         if match:
             return match.group(2)
     return title
-
-

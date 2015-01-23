@@ -10,12 +10,15 @@ import os
 
 from patacrep.content import Content, process_content, ContentError
 from patacrep import files, errors
-from patacrep.songs import Song
 
 LOGGER = logging.getLogger(__name__)
 
-class SongRenderer(Content, Song):
-    """Render a song in the .tex file."""
+class SongRenderer(Content):
+    """Render a song in as a tex code."""
+
+    def __init__(self, song):
+        super().__init__()
+        self.song = song
 
     def begin_new_block(self, previous, __context):
         """Return a boolean stating if a new block is to be created."""
@@ -34,11 +37,7 @@ class SongRenderer(Content, Song):
 
     def render(self, context):
         """Return the string that will render the song."""
-        return r'\input{{{}}}'.format(files.path2posix(
-                                    files.relpath(
-                                        self.fullpath,
-                                        os.path.dirname(context['filename'])
-                                    )))
+        return self.song.tex(output=context['filename'])
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):
@@ -53,6 +52,7 @@ def parse(keyword, argument, contentlist, config):
 
     Return a list of SongRenderer() instances.
     """
+    plugins = files.load_plugins(config, ["songs"], "SONG_PARSERS")
     if '_languages' not in config:
         config['_languages'] = set()
     songlist = []
@@ -60,13 +60,10 @@ def parse(keyword, argument, contentlist, config):
         if contentlist:
             break
         contentlist = [
-                filename
-                for filename
-                in (
-                    files.recursive_find(songdir.fullpath, "*.sg")
-                    + files.recursive_find(songdir.fullpath, "*.is")
-                    )
-                ]
+            filename
+            for filename
+            in files.recursive_find(songdir.fullpath, plugins.keys())
+            ]
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:
@@ -74,23 +71,24 @@ def parse(keyword, argument, contentlist, config):
                 continue
             with files.chdir(songdir.datadir):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
-                    if not (
-                            filename.endswith('.sg') or
-                            filename.endswith('.is')
-                            ):
+                    extension = filename.split(".")[-1]
+                    if extension not in plugins:
                         LOGGER.warning((
-                            'File "{}" is not a ".sg" or ".is" file. Ignored.'
-                            ).format(os.path.join(songdir.datadir, filename))
+                            'File "{}" does not end with one of {}. Ignored.'
+                            ).format(
+                                os.path.join(songdir.datadir, filename),
+                                ", ".join(["'.{}'".format(key) for key in plugins.keys()]),
+                                )
                             )
                         continue
                     LOGGER.debug('Parsing file "{}"…'.format(filename))
-                    song = SongRenderer(
+                    renderer = SongRenderer(plugins[extension](
                             songdir.datadir,
                             filename,
                             config,
-                            )
-                    songlist.append(song)
-                    config["_languages"].update(song.languages)
+                            ))
+                    songlist.append(renderer)
+                    config["_languages"].update(renderer.song.languages)
             if len(songlist) > before:
                 break
         if len(songlist) == before:
@@ -109,8 +107,8 @@ CONTENT_PLUGINS = {'song': parse}
 class OnlySongsError(ContentError):
     "A list that should contain only songs also contain other type of content."
     def __init__(self, not_songs):
-        super(OnlySongsError, self).__init__()
         self.not_songs = not_songs
+        super().__init__('song', str(self))
 
     def __str__(self):
         return (

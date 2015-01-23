@@ -3,13 +3,17 @@
 
 from contextlib import contextmanager
 import fnmatch
+import importlib
+import logging
 import os
 import posixpath
 
-def recursive_find(root_directory, pattern):
-    """Recursively find files matching a pattern, from a root_directory.
+LOGGER = logging.getLogger(__name__)
 
-    Return a list of files matching the pattern.
+def recursive_find(root_directory, patterns):
+    """Recursively find files matching one of the patterns, from a root_directory.
+
+    Return a list of files matching one of the patterns.
     """
     if not os.path.isdir(root_directory):
         return []
@@ -17,8 +21,12 @@ def recursive_find(root_directory, pattern):
     matches = []
     with chdir(root_directory):
         for root, __ignored, filenames in os.walk(os.curdir):
-            for filename in fnmatch.filter(filenames, pattern):
-                matches.append(os.path.join(root, filename))
+            for pattern in patterns:
+                for filename in fnmatch.filter(
+                        filenames,
+                        "*.{}".format(pattern),
+                    ):
+                    matches.append(os.path.join(root, filename))
     return matches
 
 def relpath(path, start=None):
@@ -59,3 +67,61 @@ def chdir(path):
         os.chdir(olddir)
     else:
         yield
+
+def load_plugins(config, root_modules, keyword):
+    """Load all plugins, and return a dictionary of those plugins.
+
+    Arguments:
+    - config: the configuration dictionary of the songbook
+    - root_modules: the submodule in which plugins are to be searched, as a
+      list of modules (e.g. ["some", "deep", "module"] for
+      "some.deep.module").
+    - keyword: attribute containing plugin information.
+
+    Return value: a dictionary where:
+    - keys are the keywords ;
+    - values are functions triggered when this keyword is met.
+    """
+    # pylint: disable=star-args
+    plugins = {}
+    directory_list = (
+            [
+                os.path.join(datadir, "python", *root_modules)
+                for datadir in config.get('datadir', [])
+            ]
+            + [os.path.join(
+                os.path.dirname(__file__),
+                *root_modules
+                )]
+            )
+    for directory in directory_list:
+        if not os.path.exists(directory):
+            LOGGER.debug(
+                    "Ignoring non-existent directory '%s'.",
+                    directory
+                    )
+            continue
+        for (dirpath, __ignored, filenames) in os.walk(directory):
+            modules = ["patacrep"] + root_modules
+            if os.path.relpath(dirpath, directory) != ".":
+                modules.extend(os.path.relpath(dirpath, directory).split("/"))
+            for name in filenames:
+                if name == "__init__.py":
+                    modulename = []
+                elif name.endswith(".py"):
+                    modulename = [name[:-len('.py')]]
+                else:
+                    continue
+                plugin = importlib.import_module(".".join(modules + modulename))
+                if hasattr(plugin, keyword):
+                    for (key, value) in getattr(plugin, keyword).items():
+                        if key in plugins:
+                            LOGGER.warning(
+                                "File %s: Keyword '%s' is already used. Ignored.",
+                                relpath(os.path.join(dirpath, name)),
+                                key,
+                                )
+                            continue
+                        plugins[key] = value
+    return plugins
+

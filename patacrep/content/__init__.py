@@ -134,53 +134,6 @@ class ContentError(SongbookError):
     def __str__(self):
         return "Content: {}: {}".format(self.keyword, self.message)
 
-def load_plugins(config):
-    """Load all content plugins, and return a dictionary of those plugins.
-
-    Return value: a dictionary where:
-    - keys are the keywords ;
-    - values are functions triggered when this keyword is met.
-    """
-    plugins = {}
-    directory_list = (
-            [
-                os.path.join(datadir, "python", "content")
-                for datadir in config.get('datadir', [])
-            ]
-            + [os.path.dirname(__file__)]
-            )
-    for directory in directory_list:
-        if not os.path.exists(directory):
-            LOGGER.debug(
-                    "Ignoring non-existent directory '%s'.",
-                    directory
-                    )
-            continue
-        sys.path.append(directory)
-        for name in glob.glob(os.path.join(directory, '*.py')):
-            if name.endswith(".py") and os.path.basename(name) != "__init__.py":
-                if directory == os.path.dirname(__file__):
-                    plugin = importlib.import_module(
-                            'patacrep.content.{}'.format(
-                                os.path.basename(name[:-len('.py')])
-                                )
-                            )
-                else:
-                    plugin = importlib.import_module(
-                                os.path.basename(name[:-len('.py')])
-                                )
-                for (key, value) in plugin.CONTENT_PLUGINS.items():
-                    if key in plugins:
-                        LOGGER.warning(
-                            "File %s: Keyword '%s' is already used. Ignored.",
-                            files.relpath(name),
-                            key,
-                            )
-                        continue
-                    plugins[key] = value
-        del sys.path[-1]
-    return plugins
-
 @jinja2.contextfunction
 def render_content(context, content):
     """Render the content of the songbook as a LaTeX code.
@@ -224,7 +177,7 @@ def process_content(content, config=None):
     included in the .tex file.
     """
     contentlist = []
-    plugins = load_plugins(config)
+    plugins = files.load_plugins(config, ["content"], "CONTENT_PLUGINS")
     keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]

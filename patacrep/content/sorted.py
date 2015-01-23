@@ -43,8 +43,9 @@ def key_generator(sort):
         - sort: the list of keys used to sort.
     """
 
-    def ordered_song_keys(song):
+    def ordered_song_keys(songrenderer):
         """Return the list of values used to sort the song."""
+        song = songrenderer.song
         songkey = []
         for key in sort:
             if key == "@title":

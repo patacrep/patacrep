@@ -4,8 +4,8 @@
 import logging
 import ply.yacc as yacc
 
-from patacrep.chordpro.lexer import tokens, ChordProLexer
-from patacrep.chordpro import ast
+from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
+from patacrep.songs.chordpro import ast
 from patacrep.errors import SongbookError
 
 LOGGER = logging.getLogger()

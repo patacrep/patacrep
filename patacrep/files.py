@@ -1,7 +1,7 @@
 """File system utilities."""
 
 from contextlib import contextmanager
-import glob
+import fnmatch
 import importlib
 import logging
 import os
@@ -11,14 +11,10 @@ import sys
 
 LOGGER = logging.getLogger(__name__)
 
-def recursive_find(root_directory, extensions):
-    """Recursively find files with some extension, from a root_directory.
+def recursive_find(root_directory, patterns):
+    """Recursively find files matching one of the patterns, from a root_directory.
 
-    Return a list of files matching those conditions.
-
-    Arguments:
-    - `extensions`: list of accepted extensions.
-    - `root_directory`: root directory of the search.
+    Return a list of files matching one of the patterns.
     """
     if not os.path.isdir(root_directory):
         return []
@@ -27,8 +23,11 @@ def recursive_find(root_directory, extensions):
     pattern = re.compile(r'.*\.({})$'.format('|'.join(extensions)))
     with chdir(root_directory):
         for root, __ignored, filenames in os.walk(os.curdir):
-            for filename in filenames:
-                if pattern.match(filename):
+            for pattern in patterns:
+                for filename in fnmatch.filter(
+                        filenames,
+                        "*.{}".format(pattern),
+                    ):
                     matches.append(os.path.join(root, filename))
     return matches
 
@@ -71,29 +70,31 @@ def chdir(path):
     else:
         yield
 
-def load_plugins(datadirs, subdir, variable, error):
-    """Load all content plugins, and return a dictionary of those plugins.
-
-    A plugin is a .py file, submodule of `subdir`, located in one of the
-    directories of `datadirs`. It contains a dictionary `variable`. The return
-    value is the union of the dictionaries of the loaded plugins.
+def load_plugins(config, root_modules, keyword):
+    """Load all plugins, and return a dictionary of those plugins.
 
     Arguments:
-    - datadirs: list of directories (as strings) in which files has to be
-      searched.
-    - subdir: modules (as a list of strings) files has to be submodules of
-      (e.g. if `subdir` is `['first', 'second']`, search files are of the form
-      `first/second/*.py`.
-    - variable: Name of the variable holding the dictionary.
-    - error: Error message raised if a key appears several times.
+    - config: the configuration dictionary of the songbook
+    - root_modules: the submodule in which plugins are to be searched, as a
+      list of modules (e.g. ["some", "deep", "module"] for
+      "some.deep.module").
+    - keyword: attribute containing plugin information.
+
+    Return value: a dictionary where:
+    - keys are the keywords ;
+    - values are functions triggered when this keyword is met.
     """
+    # pylint: disable=star-args
     plugins = {}
     directory_list = (
             [
-                os.path.join(datadir, "python", *subdir) #pylint: disable=star-args
-                for datadir in datadirs
+                os.path.join(datadir, "python", *root_modules)
+                for datadir in config.get('datadir', [])
             ]
-            + [os.path.dirname(__file__)]
+            + [os.path.join(
+                os.path.dirname(__file__),
+                *root_modules
+                )]
             )
     for directory in directory_list:
         if not os.path.exists(directory):
@@ -102,31 +103,26 @@ def load_plugins(datadirs, subdir, variable, error):
                     directory
                     )
             continue
-        sys.path.append(directory)
-        for name in glob.glob(os.path.join(directory, *(subdir + ['*.py']))):
-            if name.endswith(".py") and os.path.basename(name) != "__init__.py":
-                if directory == os.path.dirname(__file__):
-                    plugin = importlib.import_module(
-                            'patacrep.{}.{}'.format(
-                                ".".join(subdir),
-                                os.path.basename(name[:-len('.py')])
-                                )
-                            )
+        for (dirpath, __ignored, filenames) in os.walk(directory):
+            modules = ["patacrep"] + root_modules
+            if os.path.relpath(dirpath, directory) != ".":
+                modules.extend(os.path.relpath(dirpath, directory).split("/"))
+            for name in filenames:
+                if name == "__init__.py":
+                    modulename = []
+                elif name.endswith(".py"):
+                    modulename = [name[:-len('.py')]]
                 else:
-                    plugin = importlib.import_module(
-                                os.path.basename(name[:-len('.py')])
+                    continue
+                plugin = importlib.import_module(".".join(modules + modulename))
+                if hasattr(plugin, keyword):
+                    for (key, value) in getattr(plugin, keyword).items():
+                        if key in plugins:
+                            LOGGER.warning(
+                                "File %s: Keyword '%s' is already used. Ignored.",
+                                relpath(os.path.join(dirpath, name)),
+                                key,
                                 )
-                for (key, value) in getattr(plugin, variable, {}).items():
-                    if key in plugins:
-                        LOGGER.warning(
-                                error.format(
-                                filename=relpath(name),
-                                key=key,
-                                )
-                                )
-                        continue
-                    plugins[key] = value
-        del sys.path[-1]
+                            continue
+                        plugins[key] = value
     return plugins
-
-

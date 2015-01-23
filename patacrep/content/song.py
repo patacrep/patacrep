@@ -6,9 +6,34 @@ import os
 
 from patacrep.content import process_content, ContentError
 from patacrep import files, errors
-from patacrep.songs import Song
 
 LOGGER = logging.getLogger(__name__)
+
+class SongRenderer(Content):
+    """Render a song in as a tex code."""
+
+    def __init__(self, song):
+        super().__init__()
+        self.song = song
+
+    def begin_new_block(self, previous, __context):
+        """Return a boolean stating if a new block is to be created."""
+        return not isinstance(previous, SongRenderer)
+
+    def begin_block(self, context):
+        """Return the string to begin a block."""
+        indexes = context.resolve("indexes")
+        if isinstance(indexes, jinja2.runtime.Undefined):
+            indexes = ""
+        return r'\begin{songs}{%s}' % indexes
+
+    def end_block(self, __context):
+        """Return the string to end a block."""
+        return r'\end{songs}'
+
+    def render(self, context):
+        """Return the string that will render the song."""
+        return self.song.tex(output=context['filename'])
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):
@@ -23,6 +48,7 @@ def parse(keyword, argument, contentlist, config):
 
     Return a list of Song() instances.
     """
+    plugins = files.load_plugins(config, ["songs"], "SONG_PARSERS")
     if '_languages' not in config:
         config['_languages'] = set()
     songlist = []
@@ -30,8 +56,11 @@ def parse(keyword, argument, contentlist, config):
     for songdir in config['_songdir']:
         if contentlist:
             break
-        contentlist = files.recursive_find(songdir.fullpath, plugins.keys())
-
+        contentlist = [
+            filename
+            for filename
+            in files.recursive_find(songdir.fullpath, plugins.keys())
+            ]
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:
@@ -39,18 +68,24 @@ def parse(keyword, argument, contentlist, config):
                 continue
             with files.chdir(songdir.datadir):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
-                    LOGGER.debug('Parsing file "{}"…'.format(filename))
-                    try:
-                        renderer = plugins[filename.split('.')[-1]]
-                    except KeyError:
+                    extension = filename.split(".")[-1]
+                    if extension not in plugins:
                         LOGGER.warning((
-                            'I do not know how to parse file "{}". Ignored.'
-                            ).format(os.path.join(songdir.datadir, filename))
+                            'File "{}" does not end with one of {}. Ignored.'
+                            ).format(
+                                os.path.join(songdir.datadir, filename),
+                                ", ".join(["'.{}'".format(key) for key in plugins.keys()]),
+                                )
                             )
                         continue
-                    song = renderer(songdir.datadir, filename, config)
-                    songlist.append(song)
-                    config["_languages"].update(song.languages)
+                    LOGGER.debug('Parsing file "{}"…'.format(filename))
+                    renderer = SongRenderer(plugins[extension](
+                            songdir.datadir,
+                            filename,
+                            config,
+                            ))
+                    songlist.append(renderer)
+                    config["_languages"].update(renderer.song.languages)
             if len(songlist) > before:
                 break
         if len(songlist) == before:
@@ -69,8 +104,8 @@ CONTENT_PLUGINS = {'song': parse}
 class OnlySongsError(ContentError):
     "A list that should contain only songs also contain other type of content."
     def __init__(self, not_songs):
-        super(OnlySongsError, self).__init__()
         self.not_songs = not_songs
+        super().__init__('song', str(self))
 
     def __str__(self):
         return (

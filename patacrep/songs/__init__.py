@@ -9,7 +9,7 @@ import pickle
 import re
 
 from patacrep.authors import processauthors
-from patacrep.content import Content
+from patacrep import files, encoding
 
 LOGGER = logging.getLogger(__name__)
 
@@ -95,6 +95,12 @@ class Song(Content):
             "_version",
             ]
 
+    # Default data
+    DEFAULT_DATA = {
+            '@titles': [],
+            '@languages': [],
+            }
+
     def __init__(self, datadir, subpath, config):
         self.fullpath = os.path.join(datadir, subpath)
         self.datadir = datadir
@@ -123,14 +129,14 @@ class Song(Content):
                         self.fullpath
                         ))
 
-        # Default values
-        self.data = {}
-        self.titles = []
-        self.languages = []
-        self.authors = []
-
-        # Parsing and data processing
-        self.parse()
+        # Data extraction from the latex song
+        self.data = self.DEFAULT_DATA
+        self.data['@path'] = self.fullpath
+        self.data.update(self.parse(
+                encoding.open_read(self.fullpath).read()
+                ))
+        self.titles = self.data['@titles']
+        self.languages = self.data['@languages']
         self.datadir = datadir
         self.unprefixed_titles = [
                 unprefixed_title(
@@ -169,49 +175,17 @@ class Song(Content):
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def begin_new_block(self, previous, __context):
-        """Return a boolean stating if a new block is to be created."""
-        return not isinstance(previous, Song)
+    def tex(self, output): # pylint: disable=no-self-use, unused-argument
+        """Return the LaTeX code rendering this song.
 
-    def begin_block(self, context):
-        """Return the string to begin a block."""
-        indexes = context.resolve("indexes")
-        if isinstance(indexes, jinja2.runtime.Undefined):
-            indexes = ""
-        return r'\begin{songs}{%s}' % indexes
-
-    def end_block(self, __context):
-        """Return the string to end a block."""
-        return r'\end{songs}'
-
-    def render(self, __context):
-        """Returns the TeX code rendering the song.
-
-        This function is to be defined by subclasses.
+        Arguments:
+        - output: Name of the output file.
         """
-        return ''
+        return NotImplementedError()
 
-    def parse(self):
-        """Parse file `self.fullpath`.
-
-        This function is to be defined by subclasses.
-
-        It set the following attributes:
-
-        - titles: the list of (raw) titles. This list will be processed to
-          remove prefixes.
-        - languages: the list of languages used in the song, as languages
-          recognized by the LaTeX babel package.
-        - authors: the list of (raw) authors. This list will be processed to
-          'clean' it (see function :func:`patacrep.authors.processauthors`).
-        - data: song metadata. Used (among others) to sort the songs.
-        - cached: additional data that will be cached. Thus, data stored in
-          this attribute must be picklable.
-        """
-        self.data = {}
-        self.titles = []
-        self.languages = []
-        self.authors = []
+    def parse(self, content): # pylint: disable=no-self-use, unused-argument
+        """Parse song, and return a dictionary of its data."""
+        return NotImplementedError()
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
@@ -221,4 +195,3 @@ def unprefixed_title(title, prefixes):
         if match:
             return match.group(2)
     return title
-

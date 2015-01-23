@@ -173,8 +173,7 @@ def process_content(content, config=None):
     included in the .tex file.
     """
     contentlist = []
-    plugins = config.get('_content_plugins', {})
-
+    plugins = files.load_plugins(config, ["content"], "CONTENT_PLUGINS")
     keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]

@@ -1,15 +1,14 @@
-# -*- coding: utf-8 -*-
-
 """Build a songbook, according to parameters found in a .sb file."""
 
 import codecs
 import copy
 import glob
 import logging
+import threading
 import os.path
 from subprocess import Popen, PIPE, call
 
-from patacrep import __DATADIR__, authors, content, errors
+from patacrep import __DATADIR__, authors, content, errors, files
 from patacrep.index import process_sxd
 from patacrep.templates import TexRenderer
 from patacrep.songs import DataSubpath
@@ -33,6 +32,7 @@ DEFAULT_CONFIG = {
         'lang': 'english',
         'content': [],
         'titleprefixwords': [],
+        'encoding': None,
         }
 
 
@@ -91,6 +91,7 @@ class Songbook(object):
                 config['template'],
                 config['datadir'],
                 config['lang'],
+                config['encoding'],
                 )
         config.update(renderer.get_variables())
         config.update(self.config)
@@ -99,8 +100,19 @@ class Songbook(object):
                 copy.deepcopy(config['authwords'])
                 )
 
-        # Configuration set
+        # Loading custom plugins
+        config['_content_plugins'] = files.load_plugins(
+            datadirs=config.get('datadir', []),
+            root_modules=['content'],
+            keyword='CONTENT_PLUGINS',
+            )
+        config['_song_plugins'] = files.load_plugins(
+            datadirs=config.get('datadir', []),
+            root_modules=['songs'],
+            keyword='SONG_PARSERS',
+            )
 
+        # Configuration set
         config['render_content'] = content.render_content
         config['content'] = content.process_content(
                 config.get('content', []),
@@ -110,6 +122,13 @@ class Songbook(object):
 
         renderer.render_tex(output, config)
 
+def _log_pipe(pipe):
+    """Log content from `pipe`."""
+    while 1:
+        line = pipe.readline()
+        if not bool(line):
+            break
+        LOGGER.debug(line.strip())
 
 class SongbookBuilder(object):
     """Provide methods to compile a songbook."""
@@ -200,22 +219,33 @@ class SongbookBuilder(object):
                     stdin=PIPE,
                     stdout=PIPE,
                     stderr=PIPE,
-                    env=os.environ,
                     universal_newlines=True,
-                    )
+                    env=os.environ)
         except Exception as error:
             LOGGER.debug(error)
             raise errors.LatexCompilationError(self.basename)
 
         if not self.interactive:
             process.stdin.close()
-        log = ''
-        line = process.stdout.readline()
-        while line:
-            log += str(line)
-            line = process.stdout.readline()
-        LOGGER.debug(log)
 
+        standard_output = threading.Thread(
+            target=_log_pipe,
+            kwargs={
+                'pipe' : process.stdout,
+                }
+            )
+        standard_error = threading.Thread(
+            target=_log_pipe,
+            kwargs={
+                'pipe' : process.stderr,
+                }
+            )
+        standard_output.daemon = True
+        standard_error.daemon = True
+        standard_error.start()
+        standard_output.start()
+        standard_error.join()
+        standard_output.join()
         process.wait()
 
         if process.returncode:

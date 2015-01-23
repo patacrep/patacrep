@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Sorted list of songs.
 
 This plugin provides keyword 'sorted', used to include a sorted list of songs

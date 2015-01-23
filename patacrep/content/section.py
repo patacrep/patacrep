@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Allow LaTeX sections (starred or not) as content of a songbook."""
 
 from patacrep.content import Content, ContentError

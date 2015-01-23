@@ -1,6 +1,4 @@
-Songbook Compilation Chain
-
-# Description
+# Patacrep, a songbook compilation chain
 
 This package provides a compilation toolchain that produce LaTeX
 songbook using the LaTeX songs package. A new LaTeX document class is
@@ -12,45 +10,52 @@ is precised in the header.
 
 # Python version
 
-Patacrep is compatible with Python 3.
+Patacrep is only compatible with Python > 3.3.
 
-# Download
+# Installation
+
+## Using pip
+
+As simple as
+
+```
+pip3 install patacrep
+```
+
+## For developement
 
 Clone Patacrep repos:
 
->     git clone git://github.com/patacrep/patacrep.git
->     git clone git://github.com/patacrep/patadata.git
+```
+git clone git://github.com/patacrep/patacrep.git
+cd patacrep
+pip3 install -r Requirements.txt
+python3 setup.py install
+```
 
-# Installation from source
+## Quick and dirty Debian (and Ubuntu?) package
 
-Make sure you have [pip](https://pip.pypa.io/en/latest/) installed, and then run
+This requires [stdeb](https://github.com/astraw/stdeb) to be installed.
 
->     pip install -r Requirements.txt
->     python3 setup.py install
+```
+python setup.py --command-packages=stdeb.command bdist_deb
+sudo dpkg -i deb_dist/python3-patacrep_4.0.0-1_all.deb
+```
+
 
 # Run
 
->     <patacrep>/songbook <songbook_file.sb>
->     <pdfreader> <songbook_file.pdf>
+```
+songbook <songbook_file.sb>
+<pdfreader> <songbook_file.pdf>
+```
 
-Look for existing songbook files in `<patadata>/books/`. For example:
+Look for existing songbook files in [patadata](http://github.com/patacrep/patadata)
 
->     <patacrep>/songbook <patadata>/books/songbook_en.sb
->     <pdfreader> songbook_en.pdf
+# More informations
 
-# Quick and dirty deb packages
-
-Install `python3-stdeb`, then:
-
->     python3 setup.py --command-packages=stdeb.command bdist_deb
->     sudo dpkg -i deb_dist/python3-patacrep_<version>-1_all.deb
-
-# Documentation
-
-- Compiled, but may be outdated: http://www.patacrep.com/data/documents/doc_en.pdf
-- Documentation repository (to update the previous one): [patacrep-doc](http://github.com/patacrep/patacrep-doc)
+The full documentation is hosted by readthedoc, here : http://patacrep.readthedocs.org/
 
 # Contact & Forums
 
-* http://www.patacrep.com
-* crep@team-on-fire.com
+* http://www.patacrep.com/forum

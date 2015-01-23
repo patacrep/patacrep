@@ -1,31 +1,32 @@
-# -*- coding: utf-8 -*-
 """File system utilities."""
 
 from contextlib import contextmanager
-import fnmatch
 import importlib
 import logging
 import os
 import posixpath
+import re
 
 LOGGER = logging.getLogger(__name__)
 
-def recursive_find(root_directory, patterns):
-    """Recursively find files matching one of the patterns, from a root_directory.
+def recursive_find(root_directory, extensions):
+    """Recursively find files with some extension, from a root_directory.
 
-    Return a list of files matching one of the patterns.
+    Return a list of files matching those conditions.
+
+    Arguments:
+    - `extensions`: list of accepted extensions.
+    - `root_directory`: root directory of the search.
     """
     if not os.path.isdir(root_directory):
         return []
 
     matches = []
+    pattern = re.compile(r'.*\.({})$'.format('|'.join(extensions)))
     with chdir(root_directory):
         for root, __ignored, filenames in os.walk(os.curdir):
-            for pattern in patterns:
-                for filename in fnmatch.filter(
-                        filenames,
-                        "*.{}".format(pattern),
-                    ):
+            for filename in filenames:
+                if pattern.match(filename):
                     matches.append(os.path.join(root, filename))
     return matches
 
@@ -68,11 +69,15 @@ def chdir(path):
     else:
         yield
 
-def load_plugins(config, root_modules, keyword):
+def load_plugins(datadirs, root_modules, keyword):
     """Load all plugins, and return a dictionary of those plugins.
 
+    A plugin is a .py file, submodule of `subdir`, located in one of the
+    directories of `datadirs`. It contains a dictionary `keyword`. The return
+    value is the union of the dictionaries of the loaded plugins.
+
     Arguments:
-    - config: the configuration dictionary of the songbook
+    - datadirs: List of directories in which plugins are to be searched.
     - root_modules: the submodule in which plugins are to be searched, as a
       list of modules (e.g. ["some", "deep", "module"] for
       "some.deep.module").
@@ -87,7 +92,7 @@ def load_plugins(config, root_modules, keyword):
     directory_list = (
             [
                 os.path.join(datadir, "python", *root_modules)
-                for datadir in config.get('datadir', [])
+                for datadir in datadirs
             ]
             + [os.path.join(
                 os.path.dirname(__file__),
@@ -124,4 +129,3 @@ def load_plugins(config, root_modules, keyword):
                             continue
                         plugins[key] = value
     return plugins
-

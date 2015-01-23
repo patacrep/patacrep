@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Songbook exceptions and errors."""
 
 class SongbookError(Exception):

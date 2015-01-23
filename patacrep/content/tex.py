@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Include LaTeX raw code in the songbook."""
 
 import logging

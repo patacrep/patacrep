@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Manage indexes.
 
 Generate indexes files for the songbook compilation. This is a replacement for
@@ -29,13 +27,9 @@ def process_sxd(filename):
     """
     data = []
     index_file = None
-    try:
-        index_file = encoding.open_read(filename, 'r')
+    with encoding.open_read(filename) as index_file:
         for line in index_file:
             data.append(line.strip())
-    finally:
-        if index_file:
-            index_file.close()
 
     i = 1
     idx = Index(data[0])

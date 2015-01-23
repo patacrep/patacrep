@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Content plugin management.
 
 Content that can be included in a songbook is controlled by plugins. From the
@@ -69,7 +66,6 @@ More documentation in the docstring of Content.
 """
 
 import glob
-import importlib
 import jinja2
 import logging
 import os
@@ -177,7 +173,7 @@ def process_content(content, config=None):
     included in the .tex file.
     """
     contentlist = []
-    plugins = files.load_plugins(config, ["content"], "CONTENT_PLUGINS")
+    plugins = config.get('_content_plugins', {})
     keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]

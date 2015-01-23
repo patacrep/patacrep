@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Plugin to include songs to the songbook."""
 
 import glob
@@ -8,7 +5,7 @@ import jinja2
 import logging
 import os
 
-from patacrep.content import Content, process_content, ContentError
+from patacrep.content import process_content, ContentError, Content
 from patacrep import files, errors
 
 LOGGER = logging.getLogger(__name__)
@@ -50,20 +47,17 @@ def parse(keyword, argument, contentlist, config):
       expressions (interpreted using the glob module), referring to songs.
     - config: the current songbook configuration dictionary.
 
-    Return a list of SongRenderer() instances.
+    Return a list of Song() instances.
     """
-    plugins = files.load_plugins(config, ["songs"], "SONG_PARSERS")
+    plugins = config['_song_plugins']
     if '_languages' not in config:
         config['_languages'] = set()
     songlist = []
     for songdir in config['_songdir']:
         if contentlist:
             break
-        contentlist = [
-            filename
-            for filename
-            in files.recursive_find(songdir.fullpath, plugins.keys())
-            ]
+        contentlist = files.recursive_find(songdir.fullpath, plugins.keys())
+
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:
@@ -71,22 +65,22 @@ def parse(keyword, argument, contentlist, config):
                 continue
             with files.chdir(songdir.datadir):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
+                    LOGGER.debug('Parsing file "{}"…'.format(filename))
                     extension = filename.split(".")[-1]
-                    if extension not in plugins:
+                    try:
+                        renderer = SongRenderer(plugins[extension](
+                                songdir.datadir,
+                                filename,
+                                config,
+                                ))
+                    except KeyError:
                         LOGGER.warning((
-                            'File "{}" does not end with one of {}. Ignored.'
+                            'I do not know how to parse "{}". Ignored.'
                             ).format(
                                 os.path.join(songdir.datadir, filename),
-                                ", ".join(["'.{}'".format(key) for key in plugins.keys()]),
                                 )
                             )
                         continue
-                    LOGGER.debug('Parsing file "{}"…'.format(filename))
-                    renderer = SongRenderer(plugins[extension](
-                            songdir.datadir,
-                            filename,
-                            config,
-                            ))
                     songlist.append(renderer)
                     config["_languages"].update(renderer.song.languages)
             if len(songlist) > before:

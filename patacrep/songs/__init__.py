@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-
 """Song management."""
 
 import errno
 import hashlib
+import jinja2
 import logging
 import os
 import pickle
@@ -11,6 +10,7 @@ import re
 
 from patacrep.authors import processauthors
 from patacrep import files, encoding
+from patacrep.content import Content
 
 LOGGER = logging.getLogger(__name__)
 
@@ -62,21 +62,33 @@ class DataSubpath(object):
         self.subpath = os.path.join(self.subpath, path)
         return self
 
-# pylint: disable=too-few-public-methods, too-many-instance-attributes
-class Song(object):
-    """Song management"""
+# pylint: disable=too-many-instance-attributes
+class Song(Content):
+    """Song (or song metadata)
+
+    This class represents a song, bound to a file.
+
+    - It can parse the file given in arguments.
+    - It can render the song as some LaTeX code.
+    - Its content is cached, so that if the file has not been changed, the
+      file is not parsed again.
+
+    This class is inherited by classes implementing song management for
+    several file formats. Those subclasses must implement:
+    - `parse()` to parse the file;
+    - `render()` to render the song as LaTeX code.
+    """
 
     # Version format of cached song. Increment this number if we update
     # information stored in cache.
-    CACHE_VERSION = 0
+    CACHE_VERSION = 1
 
     # List of attributes to cache
     cached_attributes = [
             "titles",
             "unprefixed_titles",
+            "cached",
             "data",
-            "datadir",
-            "fullpath",
             "subpath",
             "languages",
             "authors",
@@ -84,14 +96,11 @@ class Song(object):
             "_version",
             ]
 
-    # Default data
-    DEFAULT_DATA = {
-            '@titles': [],
-            '@languages': [],
-            }
-
     def __init__(self, datadir, subpath, config):
         self.fullpath = os.path.join(datadir, subpath)
+        self.datadir = datadir
+        self.encoding = config["encoding"]
+
         if datadir:
             # Only songs in datadirs are cached
             self._filehash = hashlib.md5(
@@ -116,14 +125,13 @@ class Song(object):
                         ))
 
         # Data extraction from the latex song
-        self.data = self.DEFAULT_DATA
-        self.data['@path'] = self.fullpath
-        self.data.update(self.parse(
-                encoding.open_read(self.fullpath).read()
-                ))
-        self.titles = self.data['@titles']
-        self.languages = self.data['@languages']
+        self.titles = []
+        self.data = {}
+        self.parse()
+
+        # Post processing of data
         self.datadir = datadir
+        self.subpath = subpath
         self.unprefixed_titles = [
                 unprefixed_title(
                     title,
@@ -132,14 +140,15 @@ class Song(object):
                 for title
                 in self.titles
                 ]
-        self.subpath = subpath
-        if "by" in self.data:
-            self.authors = processauthors(
-                    self.data["by"],
-                    **config["_compiled_authwords"]
-                    )
-        else:
-            self.authors = []
+        self.authors = processauthors(
+                self.authors,
+                **config["_compiled_authwords"]
+                )
+
+        # Cache management
+
+        #: Special attribute to allow plugins to store cached data
+        self.cached = None
 
         self._version = self.CACHE_VERSION
         self._write_cache()
@@ -165,11 +174,24 @@ class Song(object):
         Arguments:
         - output: Name of the output file.
         """
-        return NotImplementedError()
+        raise NotImplementedError()
 
-    def parse(self, content): # pylint: disable=no-self-use, unused-argument
-        """Parse song, and return a dictionary of its data."""
-        return NotImplementedError()
+    def parse(self): # pylint: disable=no-self-use
+        """Parse song.
+
+        It set the following attributes:
+
+        - titles: the list of (raw) titles. This list will be processed to
+          remove prefixes.
+        - languages: the list of languages used in the song, as languages
+          recognized by the LaTeX babel package.
+        - authors: the list of (raw) authors. This list will be processed to
+          'clean' it (see function :func:`patacrep.authors.processauthors`).
+        - data: song metadata. Used (among others) to sort the songs.
+        - cached: additional data that will be cached. Thus, data stored in
+          this attribute must be picklable.
+        """
+        raise NotImplementedError()
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

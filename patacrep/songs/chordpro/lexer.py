@@ -7,15 +7,16 @@ LOGGER = logging.getLogger()
 
 #pylint: disable=invalid-name
 tokens = (
-   'LBRACKET',
-   'RBRACKET',
+   #'LBRACKET',
+   #'RBRACKET',
+   'CHORD',
    'LBRACE',
    'RBRACE',
    'NEWLINE',
-   'COLON',
+   #'COLON',
    'WORD',
    'SPACE',
-   'NUMBER'
+   #'NUMBER',
 )
 
 class ChordProLexer:
@@ -23,12 +24,15 @@ class ChordProLexer:
 
     tokens = tokens
 
-    t_LBRACKET = r'\['
-    t_RBRACKET = r'\]'
+    states = (
+        ('chord', 'exclusive'),
+        )
+
     t_LBRACE = r'{'
     t_RBRACE = r'}'
     t_SPACE = r'[ \t]+'
-    t_COLON = r':'
+    #t_COLON = r':'
+    t_chord_CHORD = r'[A-G7#m]+' # TODO This can be refined
 
     def __init__(self):
         self.__class__.lexer = lex.lex(module=self)
@@ -41,23 +45,37 @@ class ChordProLexer:
         return token
 
     @staticmethod
-    def t_comment(token):
+    def t_COMMENT(token):
         r'\#.*'
         pass
 
     @staticmethod
     def t_WORD(token):
-        r'[a-zA-Z_]+[.,;:!?]?'
+        r'[^\n\][\t ]+'
         return token
 
-    @staticmethod
-    def t_NUMBER(token):
-        r'[0-9]+'
-        token.value = int(token.value)
-        return token
+    def t_LBRACKET(self, token):
+        r'\['
+        self.lexer.push_state('chord')
+
+    def t_chord_RBRACKET(self, token):
+        r'\]'
+        self.lexer.pop_state()
+
+    #@staticmethod
+    #def t_NUMBER(token):
+    #    r'[0-9]+'
+    #    token.value = int(token.value)
+    #    return token
 
     @staticmethod
     def t_error(token):
         """Manage errors"""
         LOGGER.error("Illegal character '{}'".format(token.value[0]))
+        token.lexer.skip(1)
+
+    @staticmethod
+    def t_chord_error(token):
+        """Manage errors"""
+        LOGGER.error("Illegal character '{}' in chord..".format(token.value[0]))
         token.lexer.skip(1)

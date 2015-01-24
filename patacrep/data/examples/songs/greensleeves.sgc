@@ -1,7 +1,9 @@
 {language : english}
 {columns :  2}
 { title : Greensleeves}
+{ title : Un sous titre}
 {artist: Traditionnel}
+{artist: Prénom Nom}
 {cover : traditionnel }
 {album :Angleterre}
 
@@ -10,7 +12,7 @@
 
 A[Am]las, my love, ye [G]do me wrong
 To [Am]cast me oft dis[E]curteously
-And [Am]{I have} loved [G]you so long
+And [Am]I have loved [G]you so long
 De[Am]lighting [E]in your [Am]companie
 
 {start_of_chorus}
@@ -35,8 +37,15 @@ The [Am]cloth so fine as [E]fine might be
 I [Am]gave thee jewels [G]for thy chest
 And [Am]all this [E]cost I [Am]spent on thee
 
+{c:test of comment}
+
+{gc: test of guitar comment}
+
+{image: traditionnel}
 
 Thy [Am]smock of silke, both [G]faire and white
 With [Am]gold embrodered [E]gorgeously
 Thy [Am]peticote of [G]sendall right
 And [Am]this I [E]bought thee [Am]gladly
+
+

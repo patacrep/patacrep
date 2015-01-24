@@ -14,7 +14,7 @@ from patacrep.songs import Song
 class LatexSong(Song):
     """LaTeX song parser."""
 
-    def parse(self, content):
+    def parse(self, __config):
         """Parse content, and return the dictinory of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             self.data = parse_song(song.read(), self.fullpath)

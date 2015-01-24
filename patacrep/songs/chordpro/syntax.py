@@ -6,7 +6,6 @@ import ply.yacc as yacc
 
 from patacrep.errors import SongbookError
 from patacrep.songs.chordpro import ast
-from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
 LOGGER = logging.getLogger()
@@ -50,14 +49,13 @@ class Parser:
                 )
                 )
 
-    @staticmethod
-    def p_song(symbols):
+    def p_song(self, symbols):
         """song : block song
                 | empty
         """
         #if isinstance(symbols[1], str):
         if len(symbols) == 2:
-            symbols[0] = ast.Song()
+            symbols[0] = ast.Song(self.filename)
         else:
             symbols[0] = symbols[2].add(symbols[1])
 
@@ -249,19 +247,13 @@ class Parser:
         """empty :"""
         symbols[0] = None
 
-def lex_song(content):
-    # TODO delete
-    lex = ChordProLexer().lexer
-    lex.input(content)
-    while 1:
-        tok = lex.token()
-        if not tok: break
-        print(tok)
-
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
-    return yacc.yacc(module=Parser(filename)).parse(
-                     content,
+    return yacc.yacc(
+            module=Parser(filename),
                      debug=0,
+                     write_tables=0,
+            ).parse(
+                     content,
                      lexer=ChordProLexer().lexer,
                      )

@@ -8,7 +8,7 @@ import os
 import pickle
 import re
 
-from patacrep.authors import processauthors
+from patacrep.authors import process_listauthors
 from patacrep import files, encoding
 
 LOGGER = logging.getLogger(__name__)
@@ -130,13 +130,12 @@ class Song(Content):
                         ))
 
         # Data extraction from the latex song
-        self.data = self.DEFAULT_DATA
-        self.data['@path'] = self.fullpath
-        self.data.update(self.parse(
-                encoding.open_read(self.fullpath).read()
-                ))
-        self.titles = self.data['@titles']
-        self.languages = self.data['@languages']
+        self.titles = []
+        self.data = {}
+        self.cached = None
+        self.parse(config)
+
+        # Post processing of data
         self.datadir = datadir
         self.unprefixed_titles = [
                 unprefixed_title(
@@ -146,17 +145,12 @@ class Song(Content):
                 for title
                 in self.titles
                 ]
-        self.subpath = subpath
-        self.authors = processauthors(
+        self.authors = process_listauthors(
                 self.authors,
                 **config["_compiled_authwords"]
                 )
 
         # Cache management
-
-        #: Special attribute to allow plugins to store cached data
-        self.cached = None
-
         self._version = self.CACHE_VERSION
         self._write_cache()
 
@@ -181,11 +175,24 @@ class Song(Content):
         Arguments:
         - output: Name of the output file.
         """
-        return NotImplementedError()
+        raise NotImplementedError()
 
-    def parse(self, content): # pylint: disable=no-self-use, unused-argument
-        """Parse song, and return a dictionary of its data."""
-        return NotImplementedError()
+    def parse(self, config): # pylint: disable=no-self-use
+        """Parse song.
+
+        It set the following attributes:
+
+        - titles: the list of (raw) titles. This list will be processed to
+          remove prefixes.
+        - languages: the list of languages used in the song, as languages
+          recognized by the LaTeX babel package.
+        - authors: the list of (raw) authors. This list will be processed to
+          'clean' it (see function :func:`patacrep.authors.processauthors`).
+        - data: song metadata. Used (among others) to sort the songs.
+        - cached: additional data that will be cached. Thus, data stored in
+          this attribute must be picklable.
+        """
+        raise NotImplementedError()
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

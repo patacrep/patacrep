@@ -16,7 +16,14 @@ class LatexSong(Song):
 
     def parse(self, content):
         """Parse content, and return the dictinory of song data."""
-        return parse_song(content, self.fullpath)
+        with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
+            self.data = parse_song(song.read(), self.fullpath)
+        self.titles = self.data['@titles']
+        del self.data['@titles']
+        self.languages = self.data['@languages']
+        del self.data['@languages']
+        self.authors = [self.data['by']]
+        del self.data['by']
 
     def tex(self, output):
         """Return the LaTeX code rendering the song."""

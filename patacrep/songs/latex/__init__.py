@@ -22,7 +22,7 @@ class LatexSong(Song):
         del self.data['@titles']
         self.languages = self.data['@languages']
         del self.data['@languages']
-        self.authors = self.data['by']
+        self.authors = [self.data['by']]
         del self.data['by']
 
     def tex(self, output):

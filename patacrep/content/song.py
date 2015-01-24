@@ -67,13 +67,7 @@ def parse(keyword, argument, contentlist, config):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
                     LOGGER.debug('Parsing file "{}"…'.format(filename))
                     extension = filename.split(".")[-1]
-                    try:
-                        renderer = SongRenderer(plugins[extension](
-                                songdir.datadir,
-                                filename,
-                                config,
-                                ))
-                    except KeyError:
+                    if extension not in plugins:
                         LOGGER.warning((
                             'I do not know how to parse "{}". Ignored.'
                             ).format(
@@ -81,6 +75,11 @@ def parse(keyword, argument, contentlist, config):
                                 )
                             )
                         continue
+                    renderer = SongRenderer(plugins[extension](
+                            songdir.datadir,
+                            filename,
+                            config,
+                            ))
                     songlist.append(renderer)
                     config["_languages"].update(renderer.song.languages)
             if len(songlist) > before:

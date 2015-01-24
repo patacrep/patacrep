@@ -1,0 +1,4 @@
+========
+{start_of_bridge}
+  A one line bridge
+{end_of_bridge}

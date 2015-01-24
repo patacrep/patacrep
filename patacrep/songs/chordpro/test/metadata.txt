@@ -1,0 +1,21 @@
+{title: Title}
+{title: Subtitle1}
+{title: Subtitle2}
+{title: Subtitle3}
+{title: Subtitle4}
+{title: Subtitle5}
+{language: english}
+{language: french}
+{by: Author1}
+{by: Author2}
+{album: Albom}
+{capo: Capo}
+{copyright: Copyright}
+{cover: Cover}
+{foo: Foo}
+{vcover: VCover}
+========
+{comment: Comment}
+{guitar_comment: GuitarComment}
+{image: Image}
+{lilypond: Lilypond}

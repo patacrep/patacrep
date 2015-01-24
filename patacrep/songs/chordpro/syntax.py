@@ -4,9 +4,10 @@
 import logging
 import ply.yacc as yacc
 
-from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
-from patacrep.songs.chordpro import ast
 from patacrep.errors import SongbookError
+from patacrep.songs.chordpro import ast
+from patacrep.songs.chordpro import ast
+from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
 LOGGER = logging.getLogger()
 
@@ -24,6 +25,8 @@ class ParsingError(SongbookError):
 class Parser:
     """ChordPro parser class"""
 
+    start = "song"
+
     def __init__(self, filename=None):
         self.tokens = tokens
         self.filename = filename
@@ -39,7 +42,7 @@ class Parser:
 
     def p_error(self, token):
         """Manage parsing errors."""
-        if token: # TODO remove this test
+        if token:
             LOGGER.error("Error in file {}, line {}:{}.".format(
                 str(self.filename),
                 token.lineno,
@@ -52,85 +55,213 @@ class Parser:
         """song : block song
                 | empty
         """
+        #if isinstance(symbols[1], str):
         if len(symbols) == 2:
-            symbols[0] = ('song')
+            symbols[0] = ast.Song()
         else:
-            symbols[0] = ('song', symbols[1], symbols[2])
+            symbols[0] = symbols[2].add(symbols[1])
+
+    #@staticmethod
+    #def p_song_next(symbols):
+    #    """song_next : block song_next
+    #                 | empty
+    #    """
+    #    if len(symbols) == 2:
+    #        symbols[0] = ast.Song()
+    #    else:
+    #        symbols[0] = symbols[2].add(symbols[1])
 
     @staticmethod
     def p_block(symbols):
-        """block : directive NEWLINE newlines
-                 | stanza NEWLINE newlines
+        """block : SPACE block
+                 | directive NEWLINE
+                 | line NEWLINE
+                 | chorus NEWLINE
+                 | tab NEWLINE
+                 | bridge NEWLINE
+                 | NEWLINE
         """
-        symbols[0] = ('block', symbols[1])
+        if len(symbols) == 3 and isinstance(symbols[1], str):
+            symbols[0] = symbols[2]
+        elif (symbols[1] is None) or (len(symbols) == 2):
+            symbols[0] = None
+        else:
+            symbols[0] = symbols[1]
 
     @staticmethod
-    def p_newlines(symbols):
-        """newlines : NEWLINE newlines
-                    | empty"""
-        symbols[0] = ('newlines')
+    def p_maybespace(symbols):
+        """maybespace : SPACE
+                      | empty
+        """
+        symbols[0] = None
+
+    #@staticmethod
+    #def p_newlines(symbols):
+    #    """newlines : NEWLINE newlines
+    #                | empty"""
+    #    symbols[0] = ('newlines')
 
     @staticmethod
     def p_directive(symbols):
-        """directive : LBRACE WORD RBRACE"""
-        symbols[0] = ('directive', symbols[1])
+        """directive : LBRACE KEYWORD directive_next RBRACE
+                     | LBRACE SPACE KEYWORD directive_next RBRACE
+        """
+        if len(symbols) == 5:
+            symbols[3].keyword = symbols[2]
+            symbols[0] = symbols[3]
+        else:
+            symbols[4].keyword = symbols[3]
+            symbols[0] = symbols[4]
+
+    @staticmethod
+    def p_directive_next(symbols):
+        """directive_next : SPACE COLON TEXT
+                          | COLON TEXT
+                          | empty
+        """
+        symbols[0] = ast.Directive()
+        if len(symbols) == 3:
+            symbols[0].argument = symbols[2].strip()
+        elif len(symbols) == 4:
+            symbols[0].argument = symbols[3].strip()
 
     @staticmethod
     def p_line(symbols):
-        """line : WORD line_next
-                | CHORD line_next
-                | SPACE line_next
+        """line : word line_next
+                | chord line_next
         """
-        symbols[0] = ('line', symbols[1], symbols[2])
+        symbols[0] = symbols[2].prepend(symbols[1])
 
     @staticmethod
     def p_line_next(symbols):
-        """line_next : WORD line_next
-                     | SPACE line_next
-                     | CHORD line_next
+        """line_next : word line_next
+                     | space line_next
+                     | chord line_next
                      | empty
         """
         if len(symbols) == 2:
-            symbols[0] = ('line-next')
+            symbols[0] = ast.Line()
         else:
-            symbols[0] = ('line-next', symbols[1], symbols[2])
+            symbols[0] = symbols[2].prepend(symbols[1])
 
     @staticmethod
-    def p_stanza(symbols):
-        """stanza : line NEWLINE stanza_next
+    def p_word(symbols):
+        """word : WORD"""
+        symbols[0] = ast.Word(symbols[1])
+
+    @staticmethod
+    def p_space(symbols):
+        """space : SPACE"""
+        symbols[0] = ast.Space()
+
+    @staticmethod
+    def p_chord(symbols):
+        """chord : CHORD"""
+        symbols[0] = ast.Chord(symbols[1])
+
+    #@staticmethod
+    #def p_verse(symbols):
+    #    """verse : line NEWLINE verse_next
+    #    """
+    #    symbols[0] = symbols[3].prepend(symbols[1])
+
+    #@staticmethod
+    #def p_verse_next(symbols):
+    #    """verse_next : line NEWLINE verse_next
+    #                  | empty
+    #    """
+    #    if len(symbols) == 2:
+    #        symbols[0] = ast.Verse()
+    #    else:
+    #        symbols[0] = symbols[3].prepend(symbols[1])
+
+    @staticmethod
+    def p_chorus(symbols):
+        """chorus : SOC maybespace NEWLINE chorus_content EOC maybespace
         """
-        symbols[0] = ('stanza', symbols[1], symbols[3])
+        symbols[0] = symbols[4]
 
     @staticmethod
-    def p_stanza_next(symbols):
-        """stanza_next : line NEWLINE stanza_next
+    def p_chorus_content(symbols):
+        """chorus_content : line NEWLINE chorus_content
+                          | SPACE chorus_content
+                          | empty
+        """
+        if len(symbols) == 2:
+            symbols[0] = ast.Chorus()
+        elif len(symbols) == 3:
+            symbols[0] = symbols[2]
+        else:
+            symbols[0] = symbols[3].prepend(symbols[1])
+
+    @staticmethod
+    def p_bridge(symbols):
+        """bridge : SOB maybespace NEWLINE bridge_content EOB maybespace
+        """
+        symbols[0] = symbols[4]
+
+    @staticmethod
+    def p_bridge_content(symbols):
+        """bridge_content : line NEWLINE bridge_content
+                          | SPACE bridge_content
+                          | empty
+        """
+        if len(symbols) == 2:
+            symbols[0] = ast.Bridge()
+        elif len(symbols) == 3:
+            symbols[0] = symbols[2]
+        else:
+            symbols[0] = symbols[3].prepend(symbols[1])
+
+
+    #@staticmethod
+    #def p_bridge_next(symbols):
+    #    """bridge_next : line NEWLINE bridge_next
+    #                  | empty
+    #    """
+    #    if len(symbols) == 2:
+    #        symbols[0] = ast.Bridge()
+    #    else:
+    #        symbols[0] = symbols[3].prepend(symbols[1])
+
+    @staticmethod
+    def p_tab(symbols):
+        """tab : SOT maybespace NEWLINE tab_content EOT maybespace
+        """
+        symbols[0] = symbols[4]
+
+    @staticmethod
+    def p_tab_content(symbols):
+        """tab_content : NEWLINE tab_content
+                       | TEXT tab_content
+                       | SPACE tab_content
                        | empty
         """
         if len(symbols) == 2:
-            symbols[0] = ('stanza-next')
+            symbols[0] = ast.Tab()
         else:
-            symbols[0] = ('stanza-next', symbols[1], symbols[3])
-
-    #@staticmethod
-    #def p_braces(symbols):
-    #    """braces : LBRACE expression COLON expression RBRACE"""
-    #    symbols[0] = symbols[2]
+            if symbols[1].strip():
+                symbols[2].prepend(symbols[1])
+            symbols[0] = symbols[2]
 
     @staticmethod
     def p_empty(symbols):
         """empty :"""
         symbols[0] = None
 
-    #@staticmethod
-    #def p_comment(symbols):
-    #    """comment : COMMENT"""
-    #    symbols[0] = ('comment', symbols[1])
-
-
+def lex_song(content):
+    # TODO delete
+    lex = ChordProLexer().lexer
+    lex.input(content)
+    while 1:
+        tok = lex.token()
+        if not tok: break
+        print(tok)
 
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
     return yacc.yacc(module=Parser(filename)).parse(
                      content,
+                     debug=0,
                      lexer=ChordProLexer().lexer,
                      )

@@ -10,7 +10,7 @@ from subprocess import Popen, PIPE, call
 
 from patacrep import __DATADIR__, authors, content, errors, files
 from patacrep.index import process_sxd
-from patacrep.templates import TexRenderer
+from patacrep.templates import TexBookRenderer
 from patacrep.songs import DataSubpath
 
 LOGGER = logging.getLogger(__name__)
@@ -87,7 +87,7 @@ class Songbook(object):
         # Updating configuration
         config = DEFAULT_CONFIG.copy()
         config.update(self.config)
-        renderer = TexRenderer(
+        renderer = TexBookRenderer(
                 config['template'],
                 config['datadir'],
                 config['lang'],

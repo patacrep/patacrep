@@ -37,5 +37,6 @@ setup(
         "Programming Language :: Python :: 3.4",
         "Topic :: Utilities",
         ],
-    platforms=["GNU/Linux", "Windows", "MacOsX"]
+    platforms=["GNU/Linux", "Windows", "MacOsX"],
+    test_suite="patacrep.test.suite",
 )

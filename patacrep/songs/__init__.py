@@ -8,7 +8,7 @@ import os
 import pickle
 import re
 
-from patacrep.authors import processauthors
+from patacrep.authors import process_listauthors
 from patacrep import files, encoding
 from patacrep.content import Content
 
@@ -127,7 +127,8 @@ class Song(Content):
         # Data extraction from the latex song
         self.titles = []
         self.data = {}
-        self.parse()
+        self.cached = None
+        self.parse(config)
 
         # Post processing of data
         self.datadir = datadir
@@ -140,16 +141,12 @@ class Song(Content):
                 for title
                 in self.titles
                 ]
-        self.authors = processauthors(
+        self.authors = process_listauthors(
                 self.authors,
                 **config["_compiled_authwords"]
                 )
 
         # Cache management
-
-        #: Special attribute to allow plugins to store cached data
-        self.cached = None
-
         self._version = self.CACHE_VERSION
         self._write_cache()
 
@@ -176,7 +173,7 @@ class Song(Content):
         """
         raise NotImplementedError()
 
-    def parse(self): # pylint: disable=no-self-use
+    def parse(self, config): # pylint: disable=no-self-use
         """Parse song.
 
         It set the following attributes:

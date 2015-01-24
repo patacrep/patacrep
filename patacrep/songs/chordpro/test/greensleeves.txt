@@ -1,13 +1,14 @@
 {title: Greensleeves}
 {title: Un autre sous-titre}
 {title: Un sous titre}
-{language: english}
 {by: Traditionnel}
 {album: Angleterre}
 {columns: 2}
-{cover: traditionnel}
-{partition: greensleeves.ly}
+{cov: DIRNAME/traditionnel}
+{language: english}
 ========
+{partition: DIRNAME/greensleeves.ly}
+
 {start_of_verse}
   A[Am]las, my love, ye [G]do me wrong
   To [Am]cast me oft dis[E]curteously

@@ -13,8 +13,8 @@
 {cover: Cover}
 {vcover: VCover}
 {capo: Capo}
-{foo: Foo}
+{key: foo: Foo}
 {comment: Comment}
 {guitar_comment: GuitarComment}
 {image: Image}
-{lilypond: Lilypond}
+{partition: Lilypond}

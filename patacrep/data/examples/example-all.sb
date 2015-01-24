@@ -7,6 +7,7 @@
   ],
 "booktype" : "chorded",
 "lang" : "french",
+"encoding": "utf8",
 "authwords" : {
   "sep" : ["and", "et"]
   },

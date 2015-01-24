@@ -4,18 +4,18 @@
 {title: Subtitle3}
 {title: Subtitle4}
 {title: Subtitle5}
-{language: english}
-{language: french}
 {by: Author1}
 {by: Author2}
+{key: {foo: Foo}}
 {album: Albom}
 {capo: Capo}
 {copyright: Copyright}
-{cover: Cover}
-{foo: Foo}
-{vcover: VCover}
+{cov: DIRNAME/Cover}
+{language: english}
+{language: french}
+{vcov: VCover}
 ========
 {comment: Comment}
 {guitar_comment: GuitarComment}
-{image: Image}
-{lilypond: Lilypond}
+{image: DIRNAME/Image}
+{partition: DIRNAME/Lilypond}

@@ -225,9 +225,12 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
                 )
             ]
 
-def process_listauthors(authors_list):
+def process_listauthors(authors_list, after=None, ignore=None, sep=None):
     """Process a list of authors, and return the list of resulting authors."""
-    return sum([
-        processauthors(string)
-        for string in authors_list
-        ])
+    authors = []
+    for sublist in [
+            processauthors(string, after, ignore, sep)
+            for string in authors_list
+        ]:
+        authors.extend(sublist)
+    return authors

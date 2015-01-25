@@ -38,4 +38,6 @@ setup(
         "Topic :: Utilities",
         ],
     platforms=["GNU/Linux", "Windows", "MacOsX"]
+    platforms=["GNU/Linux", "Windows", "MacOsX"],
+    long_description = open("README.rst", "r").read(),
 )

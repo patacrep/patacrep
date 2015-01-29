@@ -10,7 +10,7 @@ from subprocess import Popen, PIPE, call
 
 from patacrep import __DATADIR__, authors, content, errors, files
 from patacrep.index import process_sxd
-from patacrep.templates import TexRenderer
+from patacrep.templates import TexBookRenderer
 from patacrep.songs import DataSubpath
 
 LOGGER = logging.getLogger(__name__)
@@ -87,7 +87,7 @@ class Songbook(object):
         # Updating configuration
         config = DEFAULT_CONFIG.copy()
         config.update(self.config)
-        renderer = TexRenderer(
+        renderer = TexBookRenderer(
                 config['template'],
                 config['datadir'],
                 config['lang'],
@@ -103,19 +103,13 @@ class Songbook(object):
         # Loading custom plugins
         config['_content_plugins'] = files.load_plugins(
             datadirs=config.get('datadir', []),
-            subdir=['content'],
-            variable='CONTENT_PLUGINS',
-            error=(
-                "File {filename}: Keyword '{keyword}' is already used. Ignored."
-                ),
+            root_modules=['content'],
+            keyword='CONTENT_PLUGINS',
             )
-        config['_file_plugins'] = files.load_plugins(
+        config['_song_plugins'] = files.load_plugins(
             datadirs=config.get('datadir', []),
-            subdir=['songs'],
-            variable='FILE_PLUGINS',
-            error=(
-                "File {filename}: Keyword '{keyword}' is already used. Ignored."
-                ),
+            root_modules=['songs'],
+            keyword='SONG_PARSERS',
             )
 
         # Configuration set
@@ -225,8 +219,9 @@ class SongbookBuilder(object):
                     stdin=PIPE,
                     stdout=PIPE,
                     stderr=PIPE,
+                    env=os.environ,
                     universal_newlines=True,
-                    env=os.environ)
+                    )
         except Exception as error:
             LOGGER.debug(error)
             raise errors.LatexCompilationError(self.basename)

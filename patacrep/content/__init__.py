@@ -174,7 +174,6 @@ def process_content(content, config=None):
     """
     contentlist = []
     plugins = config.get('_content_plugins', {})
-
     keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]

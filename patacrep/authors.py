@@ -164,17 +164,21 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
 
     For example, we are processing:
     # processauthors(
-    #   "Lyrics by William Blake (from Milton, 1808),
-                    music by Hubert Parry (1916),
-                    and sung by The Royal\ Choir~of~Nowhere
-                    (just here to show you how processing is done)",
+    #    [
+    #        "
+    #            Lyrics by William Blake (from Milton, 1808),
+    #            music by Hubert Parry (1916),
+    #            and sung by The Royal\ Choir~of~Nowhere
+    #            (just here to show you how processing is done)
+    #        ",
+    #    ],
     #   after = ["by"],
     #   ignore = ["anonymous"],
     #   sep = [re.compile('^(.*) and (.*)$')],
     #   )
 
 
-    The "authors_string" string is processed as:
+    The "authors_string" is processed as:
 
     1) First, parenthesis (and its content) are removed.
     # "Lyrics by William Blake, music by Hubert Parry,
@@ -220,3 +224,13 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
                     ignore)
                 )
             ]
+
+def process_listauthors(authors_list, after=None, ignore=None, sep=None):
+    """Process a list of authors, and return the list of resulting authors."""
+    authors = []
+    for sublist in [
+            processauthors(string, after, ignore, sep)
+            for string in authors_list
+        ]:
+        authors.extend(sublist)
+    return authors

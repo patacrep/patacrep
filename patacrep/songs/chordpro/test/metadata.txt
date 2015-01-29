@@ -1,0 +1,21 @@
+{title: Title}
+{title: Subtitle1}
+{title: Subtitle2}
+{title: Subtitle3}
+{title: Subtitle4}
+{title: Subtitle5}
+{by: Author1}
+{by: Author2}
+{key: {foo: Foo}}
+{album: Albom}
+{capo: Capo}
+{copyright: Copyright}
+{cov: DIRNAME/Cover}
+{language: english}
+{language: french}
+{vcov: VCover}
+========
+{comment: Comment}
+{guitar_comment: GuitarComment}
+{image: DIRNAME/Image}
+{partition: DIRNAME/Lilypond}

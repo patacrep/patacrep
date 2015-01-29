@@ -64,8 +64,28 @@ def _escape_tex(value):
     return newval
 
 
-class TexRenderer(object):
+class TexRenderer:
     """Render a template to a LaTeX file."""
+
+    def __init__(self, template, texenv, encoding=None):
+        self.encoding = encoding
+        self.texenv = texenv
+        self.texenv.block_start_string = '(*'
+        self.texenv.block_end_string = '*)'
+        self.texenv.variable_start_string = '(('
+        self.texenv.variable_end_string = '))'
+        self.texenv.comment_start_string = '(% comment %)'
+        self.texenv.comment_end_string = '(% endcomment %)'
+        self.texenv.line_comment_prefix = '%!'
+        self.texenv.filters['escape_tex'] = _escape_tex
+        self.texenv.trim_blocks = True
+        self.texenv.lstrip_blocks = True
+        self.texenv.globals["path2posix"] = files.path2posix
+        self.template = self.texenv.get_template(template)
+
+
+class TexBookRenderer(TexRenderer):
+    """Tex renderer for the whole songbook"""
 
     def __init__(self, template, datadirs, lang, encoding=None):
         '''Start a new jinja2 environment for .tex creation.
@@ -78,29 +98,15 @@ class TexRenderer(object):
         - encoding: if set, encoding of the template.
         '''
         self.lang = lang
-        self.encoding = encoding
         # Load templates in filesystem ...
         loaders = [FileSystemLoader(os.path.join(datadir, 'templates'))
                       for datadir in datadirs]
-        self.texenv = Environment(
+        texenv = Environment(
                 loader=ChoiceLoader(loaders),
                 extensions=[VariablesExtension],
                 )
-        self.texenv.block_start_string = '(*'
-        self.texenv.block_end_string = '*)'
-        self.texenv.variable_start_string = '(('
-        self.texenv.variable_end_string = '))'
-        self.texenv.comment_start_string = '(% comment %)'
-        self.texenv.comment_end_string = '(% endcomment %)'
-        self.texenv.line_comment_prefix = '%!'
-        self.texenv.filters['escape_tex'] = _escape_tex
-        self.texenv.trim_blocks = True
-        self.texenv.lstrip_blocks = True
-
-        self.texenv.globals["path2posix"] = files.path2posix
-
         try:
-            self.template = self.texenv.get_template(template)
+            super().__init__(template, texenv, encoding)
         except TemplateNotFound as exception:
             # Only works if all loaders are FileSystemLoader().
             paths = [

@@ -19,7 +19,6 @@ EOL = "\n"
 KEYWORD_PATTERN = re.compile(r"^%(\w+)\s?(.*)$", re.LOCALE)
 FIRST_LETTER_PATTERN = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)", re.LOCALE)
 
-
 def process_sxd(filename):
     """Parse sxd file.
 
@@ -162,7 +161,11 @@ class Index(object):
 
     def entry_to_str(self, key, entry):
         """Return the LaTeX code corresponding to the entry."""
-        return (r'\idxentry{{{0}}}{{{1}}}' + EOL).format(
+        return r"""\idxentry{{
+                {0}
+            }}{{
+                {1}
+            }}""".format(
                 self.key_to_str(key),
                 r'\\'.join([self.ref_to_str(ref) for ref in entry]),
                 )
@@ -182,13 +185,13 @@ class Index(object):
                     ]
         string = r'\begin{idxblock}{' + letter + '}' + EOL
         for key in sorted(entries, key=sortkey):
-            string += self.entry_to_str(key, entries[key]['entries'])
-        string += r'\end{idxblock}' + EOL
+            string += "  " + self.entry_to_str(key, entries[key]['entries'])
+        string += EOL + r'\end{idxblock}'
         return string
 
     def entries_to_str(self):
         """Return the LaTeX code corresponding to the index."""
         string = ""
         for letter in sorted(self.data.keys()):
-            string += self.idxblock_to_str(letter, self.data[letter])
+            string += self.idxblock_to_str(letter, self.data[letter]) + EOL
         return string

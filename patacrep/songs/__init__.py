@@ -8,7 +8,8 @@ import os
 import pickle
 import re
 
-from patacrep.authors import processauthors
+from patacrep.authors import process_listauthors
+from patacrep import files, encoding
 from patacrep.content import Content
 
 LOGGER = logging.getLogger(__name__)
@@ -99,6 +100,7 @@ class Song(Content):
         self.fullpath = os.path.join(datadir, subpath)
         self.datadir = datadir
         self.encoding = config["encoding"]
+        self.config = config
 
         if datadir:
             # Only songs in datadirs are cached
@@ -123,15 +125,15 @@ class Song(Content):
                         self.fullpath
                         ))
 
-        # Default values
-        self.data = {}
+        # Data extraction from the latex song
         self.titles = []
-        self.languages = []
-        self.authors = []
+        self.data = {}
+        self.cached = None
+        self.parse(config)
 
-        # Parsing and data processing
-        self.parse()
+        # Post processing of data
         self.datadir = datadir
+        self.subpath = subpath
         self.unprefixed_titles = [
                 unprefixed_title(
                     title,
@@ -140,17 +142,12 @@ class Song(Content):
                 for title
                 in self.titles
                 ]
-        self.subpath = subpath
-        self.authors = processauthors(
+        self.authors = process_listauthors(
                 self.authors,
                 **config["_compiled_authwords"]
                 )
 
         # Cache management
-
-        #: Special attribute to allow plugins to store cached data
-        self.cached = None
-
         self._version = self.CACHE_VERSION
         self._write_cache()
 
@@ -169,32 +166,16 @@ class Song(Content):
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def begin_new_block(self, previous, __context):
-        """Return a boolean stating if a new block is to be created."""
-        return not isinstance(previous, Song)
+    def tex(self, output): # pylint: disable=no-self-use, unused-argument
+        """Return the LaTeX code rendering this song.
 
-    def begin_block(self, context):
-        """Return the string to begin a block."""
-        indexes = context.resolve("indexes")
-        if isinstance(indexes, jinja2.runtime.Undefined):
-            indexes = ""
-        return r'\begin{songs}{%s}' % indexes
-
-    def end_block(self, __context):
-        """Return the string to end a block."""
-        return r'\end{songs}'
-
-    def render(self, __context):
-        """Returns the TeX code rendering the song.
-
-        This function is to be defined by subclasses.
+        Arguments:
+        - output: Name of the output file.
         """
-        return ''
+        raise NotImplementedError()
 
-    def parse(self):
-        """Parse file `self.fullpath`.
-
-        This function is to be defined by subclasses.
+    def parse(self, config): # pylint: disable=no-self-use
+        """Parse song.
 
         It set the following attributes:
 
@@ -208,10 +189,7 @@ class Song(Content):
         - cached: additional data that will be cached. Thus, data stored in
           this attribute must be picklable.
         """
-        self.data = {}
-        self.titles = []
-        self.languages = []
-        self.authors = []
+        raise NotImplementedError()
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
@@ -221,4 +199,3 @@ def unprefixed_title(title, prefixes):
         if match:
             return match.group(2)
     return title
-

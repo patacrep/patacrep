@@ -245,12 +245,17 @@ def tex2plain(string):
                 )
         )
 
-def parsesong(string, filename=None):
-    """Parse song and return its metadata."""
+def parse_song(content, filename=None):
+    """Parse some LaTeX code, expected to be a song.
+
+    Arguments:
+    - content: the code to parse.
+    - filename: the name of file where content was read from. Used only to
+      display error messages.
+    """
     return detex(
         silent_yacc(module=Parser(filename)).parse(
-            string,
+            content,
             lexer=SongLexer().lexer,
             ).metadata
         )
-

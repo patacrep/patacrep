@@ -59,16 +59,6 @@ class Parser:
         else:
             symbols[0] = symbols[2].add(symbols[1])
 
-    #@staticmethod
-    #def p_song_next(symbols):
-    #    """song_next : block song_next
-    #                 | empty
-    #    """
-    #    if len(symbols) == 2:
-    #        symbols[0] = ast.Song()
-    #    else:
-    #        symbols[0] = symbols[2].add(symbols[1])
-
     @staticmethod
     def p_block(symbols):
         """block : SPACE block
@@ -92,12 +82,6 @@ class Parser:
                       | empty
         """
         symbols[0] = None
-
-    #@staticmethod
-    #def p_newlines(symbols):
-    #    """newlines : NEWLINE newlines
-    #                | empty"""
-    #    symbols[0] = ('newlines')
 
     @staticmethod
     def p_directive(symbols):
@@ -157,22 +141,6 @@ class Parser:
         """chord : CHORD"""
         symbols[0] = ast.Chord(symbols[1])
 
-    #@staticmethod
-    #def p_verse(symbols):
-    #    """verse : line NEWLINE verse_next
-    #    """
-    #    symbols[0] = symbols[3].prepend(symbols[1])
-
-    #@staticmethod
-    #def p_verse_next(symbols):
-    #    """verse_next : line NEWLINE verse_next
-    #                  | empty
-    #    """
-    #    if len(symbols) == 2:
-    #        symbols[0] = ast.Verse()
-    #    else:
-    #        symbols[0] = symbols[3].prepend(symbols[1])
-
     @staticmethod
     def p_chorus(symbols):
         """chorus : SOC maybespace NEWLINE chorus_content EOC maybespace
@@ -211,16 +179,6 @@ class Parser:
         else:
             symbols[0] = symbols[3].prepend(symbols[1])
 
-
-    #@staticmethod
-    #def p_bridge_next(symbols):
-    #    """bridge_next : line NEWLINE bridge_next
-    #                  | empty
-    #    """
-    #    if len(symbols) == 2:
-    #        symbols[0] = ast.Bridge()
-    #    else:
-    #        symbols[0] = symbols[3].prepend(symbols[1])
 
     @staticmethod
     def p_tab(symbols):

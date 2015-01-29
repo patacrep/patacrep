@@ -96,12 +96,6 @@ class Song(Content):
             "_version",
             ]
 
-    # Default data
-    DEFAULT_DATA = {
-            '@titles': [],
-            '@languages': [],
-            }
-
     def __init__(self, datadir, subpath, config):
         self.fullpath = os.path.join(datadir, subpath)
         self.datadir = datadir

@@ -57,7 +57,6 @@ def parse(keyword, argument, contentlist, config):
         if contentlist:
             break
         contentlist = files.recursive_find(songdir.fullpath, plugins.keys())
-
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:
@@ -65,16 +64,16 @@ def parse(keyword, argument, contentlist, config):
                 continue
             with files.chdir(songdir.datadir):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
-                    LOGGER.debug('Parsing file "{}"…'.format(filename))
                     extension = filename.split(".")[-1]
                     if extension not in plugins:
-                        LOGGER.warning((
-                            'I do not know how to parse "{}". Ignored.'
+                        LOGGER.warning(
+                            'File "{}" does not end with one of {}. Ignored.'
                             ).format(
                                 os.path.join(songdir.datadir, filename),
+                                ", ".join(["'.{}'".format(key) for key in plugins.keys()]),
                                 )
-                            )
                         continue
+                    LOGGER.debug('Parsing file "{}"…'.format(filename))
                     renderer = SongRenderer(plugins[extension](
                             songdir.datadir,
                             filename,

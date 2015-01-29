@@ -20,6 +20,7 @@ setup(
     install_requires=[
         "unidecode", "jinja2", "chardet", "ply",
         ],
+    setup_requires=["hgtools"],
     include_package_data=True,
     entry_points={
         'console_scripts': [
@@ -39,4 +40,5 @@ setup(
         ],
     platforms=["GNU/Linux", "Windows", "MacOsX"],
     test_suite="patacrep.test.suite",
+    long_description = open("README.rst", "r").read(),
 )

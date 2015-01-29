@@ -96,10 +96,17 @@ class Song(Content):
             "_version",
             ]
 
+    # Default data
+    DEFAULT_DATA = {
+            '@titles': [],
+            '@languages': [],
+            }
+
     def __init__(self, datadir, subpath, config):
         self.fullpath = os.path.join(datadir, subpath)
         self.datadir = datadir
         self.encoding = config["encoding"]
+        self.config = config
 
         if datadir:
             # Only songs in datadirs are cached

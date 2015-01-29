@@ -1,6 +1,7 @@
 """File system utilities."""
 
 from contextlib import contextmanager
+import fnmatch
 import importlib
 import logging
 import os
@@ -10,13 +11,9 @@ import re
 LOGGER = logging.getLogger(__name__)
 
 def recursive_find(root_directory, extensions):
-    """Recursively find files with some extension, from a root_directory.
+    """Recursively find files with the given extensions, from a root_directory.
 
-    Return a list of files matching those conditions.
-
-    Arguments:
-    - `extensions`: list of accepted extensions.
-    - `root_directory`: root directory of the search.
+    Return a list of files ending with one of the given extensions.
     """
     if not os.path.isdir(root_directory):
         return []

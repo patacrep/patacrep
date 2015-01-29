@@ -23,12 +23,10 @@ class ChordproSong(Song):
         self.cached = {
                 'song': song,
                 }
-        #: Main language
-        self.language = song.get_directive('language', config['lang'])
 
     def tex(self, output):
         context = {
-            'language': self.language,
+            'language': self.cached['song'].get_directive('language', self.config['lang']),
             'columns': self.cached['song'].get_directive('columns', 1),
             "path": files.relpath(self.fullpath, os.path.dirname(output)),
             "titles": r"\\".join(self.titles),

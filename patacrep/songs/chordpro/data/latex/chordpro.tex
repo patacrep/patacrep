@@ -18,8 +18,8 @@
   \cover
   (* endif *)
 
-  (* for content in content *)
-        (* include content.template("tex") *)
+  (* for item in content *)
+        (( render(item) ))
   (* endfor *)
 
 \endsong

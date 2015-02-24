@@ -1,6 +1,6 @@
 """Chordpro parser"""
 
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, contextfunction
 import pkg_resources
 import os
 
@@ -12,8 +12,12 @@ from patacrep.templates import TexRenderer
 class ChordproSong(Song):
     """Chordpros song parser."""
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.texenv = None
+
     def parse(self, config):
-        """Parse content, and return the dictinory of song data."""
+        """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
@@ -33,15 +37,27 @@ class ChordproSong(Song):
             "authors": ", ".join(["{} {}".format(name[1], name[0]) for name in self.authors]),
             "metadata": self.data,
             "beginsong": self.cached['song'].meta_beginsong(),
-            "content": self.cached['song'].content,
+            "render": self.render_tex,
             }
+        self.texenv = Environment(loader=FileSystemLoader(os.path.join(
+                os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
+                'latex'
+            )))
+        return self.render_tex(context, self.cached['song'].content, template="chordpro.tex")
+
+    @contextfunction
+    def render_tex(self, context, content, template=None):
+        """Render ``content`` as tex."""
+        if isinstance(context, dict):
+            context['content'] = content
+        else:
+            context.vars['content'] = content
+        if template is None:
+            template = content.template('tex')
         return TexRenderer(
-                template="chordpro.tex",
+                template=template,
                 encoding='utf8',
-                texenv=Environment(loader=FileSystemLoader(os.path.join(
-                        os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
-                        'latex'
-                    ))),
+                texenv=self.texenv,
                 ).template.render(context)
 
 SONG_PARSERS = {

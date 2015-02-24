@@ -1,7 +1,7 @@
 {language : english}
 {columns :  2}
 { title : Greensleeves}
-{ title : Un sous titre}
+{subtitle: Test of the chordpro format}
 {artist: Traditionnel}
 {artist: Prénom Nom}
 {cover : traditionnel }

@@ -1,7 +1,6 @@
 \begin{(( content.type ))}
-    (* for content in content.lines *)
-        (* include content.template("tex") *)
-
+    (* for line in content.lines *)
+        (( render(line) ))
     (* endfor *)
 \end{(( content.type ))}
 

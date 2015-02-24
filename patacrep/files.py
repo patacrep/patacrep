@@ -1,7 +1,6 @@
 """File system utilities."""
 
 from contextlib import contextmanager
-import fnmatch
 import importlib
 import logging
 import os

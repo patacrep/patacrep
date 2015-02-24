@@ -15,6 +15,7 @@ FULL_KEYWORDS = KEYWORDS + ["{}*".format(word) for word in KEYWORDS]
 
 class Section(Content):
     """A LaTeX section."""
+    # pylint: disable=too-few-public-methods
 
     def __init__(self, keyword, name, short=None):
         self.keyword = keyword

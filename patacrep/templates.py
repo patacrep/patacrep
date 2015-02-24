@@ -45,6 +45,7 @@ class VariablesExtension(Extension):
     """Extension to jinja2 to silently ignore variable block.
     Instead, they are parsed by this module.
     """
+    # pylint: disable=too-few-public-methods
     tags = set(['variables'])
 
     def parse(self, parser):
@@ -66,6 +67,7 @@ def _escape_tex(value):
 
 class TexRenderer:
     """Render a template to a LaTeX file."""
+    # pylint: disable=too-few-public-methods
 
     def __init__(self, template, texenv, encoding=None):
         self.encoding = encoding

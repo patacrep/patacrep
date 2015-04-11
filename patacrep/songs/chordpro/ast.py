@@ -146,9 +146,9 @@ class Verse(AST):
 
     def __str__(self):
         return '{{start_of_{type}}}\n{content}\n{{end_of_{type}}}'.format(
-                type=self.type,
-                content=_indent("\n".join([str(line) for line in self.lines])),
-                )
+            type=self.type,
+            content=_indent("\n".join([str(line) for line in self.lines])),
+            )
 
 class Chorus(Verse):
     """Chorus"""
@@ -182,10 +182,10 @@ class Song(AST):
 
     #: Some directives have to be processed before being considered.
     PROCESS_DIRECTIVE = {
-            "cov": "_process_relative",
-            "partition": "_process_relative",
-            "image": "_process_relative",
-            }
+        "cov": "_process_relative",
+        "partition": "_process_relative",
+        "image": "_process_relative",
+        }
 
     def __init__(self, filename):
         super().__init__()
@@ -242,12 +242,12 @@ class Song(AST):
 
     def __str__(self):
         return (
-                "\n".join(self.str_meta()).strip()
-                +
-                "\n========\n"
-                +
-                "\n".join([str(item) for item in self.content]).strip()
-                )
+            "\n".join(self.str_meta()).strip()
+            +
+            "\n========\n"
+            +
+            "\n".join([str(item) for item in self.content]).strip()
+            )
 
 
     def add_title(self, __ignored, title):
@@ -372,9 +372,9 @@ class Directive(AST):
     def __str__(self):
         if self.argument is not None:
             return "{{{}: {}}}".format(
-                    self.keyword,
-                    self.argument,
-                    )
+                self.keyword,
+                self.argument,
+                )
         else:
             return "{{{}}}".format(self.keyword)
 
@@ -405,6 +405,6 @@ class Tab(AST):
 
     def __str__(self):
         return '{{start_of_tab}}\n{}\n{{end_of_tab}}'.format(
-                _indent("\n".join(self.content)),
-                )
+            _indent("\n".join(self.content)),
+            )
 

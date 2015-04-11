@@ -26,9 +26,9 @@ def load_from_datadirs(path, config=None):
             return filepath
     # File not found
     raise ContentError(
-            "include",
-            errors.notfound(path, config.get("datadir", [])),
-            )
+        "include",
+        errors.notfound(path, config.get("datadir", [])),
+        )
 
 #pylint: disable=unused-argument
 def parse(keyword, config, argument, contentlist):
@@ -47,9 +47,9 @@ def parse(keyword, config, argument, contentlist):
         content_file = None
         try:
             with encoding.open_read(
-                    filepath,
-                    encoding=config['encoding']
-                    ) as content_file:
+                filepath,
+                encoding=config['encoding']
+                ) as content_file:
                 new_content = json.load(content_file)
         except Exception as error: # pylint: disable=broad-except
             LOGGER.error(error)

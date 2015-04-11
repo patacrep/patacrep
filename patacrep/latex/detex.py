@@ -105,10 +105,10 @@ def detex(arg):
             ])
     elif isinstance(arg, list):
         return [
-                detex(item)
-                for item
-                in arg
-                ]
+            detex(item)
+            for item
+            in arg
+            ]
     elif isinstance(arg, set):
         return set(detex(list(arg)))
     elif isinstance(arg, str):

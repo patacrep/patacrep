@@ -105,12 +105,12 @@ class Index(object):
             self.data[first] = dict()
         if not key in self.data[first]:
             self.data[first][key] = {
-                    'sortingkey': [
-                        unidecode.unidecode(tex2plain(item)).lower()
-                        for item in key
-                        ],
-                    'entries': [],
-                    }
+                'sortingkey': [
+                    unidecode.unidecode(tex2plain(item)).lower()
+                    for item in key
+                    ],
+                'entries': [],
+                }
         self.data[first][key]['entries'].append({'num': number, 'link': link})
 
     def add(self, key, number, link):
@@ -124,13 +124,13 @@ class Index(object):
                 match = pattern.match(key)
                 if match:
                     self._raw_add(
-                            (
-                                (match.group(2) + match.group(3)).strip(),
-                                match.group(1).strip(),
-                            ),
-                            number,
-                            link
-                            )
+                        (
+                            (match.group(2) + match.group(3)).strip(),
+                            match.group(1).strip(),
+                        ),
+                        number,
+                        link
+                        )
                     return
             self._raw_add((key, ""), number, link)
 
@@ -179,10 +179,10 @@ class Index(object):
         def sortkey(key):
             """Return something sortable for `entries[key]`."""
             return [
-                    locale.strxfrm(item)
-                    for item
-                    in entries[key]['sortingkey']
-                    ]
+                locale.strxfrm(item)
+                for item
+                in entries[key]['sortingkey']
+                ]
         string = r'\begin{idxblock}{' + letter + '}' + EOL
         for key in sorted(entries, key=sortkey):
             string += "  " + self.entry_to_str(key, entries[key]['entries'])

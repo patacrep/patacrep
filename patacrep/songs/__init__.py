@@ -85,16 +85,16 @@ class Song(Content):
 
     # List of attributes to cache
     cached_attributes = [
-            "titles",
-            "unprefixed_titles",
-            "cached",
-            "data",
-            "subpath",
-            "languages",
-            "authors",
-            "_filehash",
-            "_version",
-            ]
+        "titles",
+        "unprefixed_titles",
+        "cached",
+        "data",
+        "subpath",
+        "languages",
+        "authors",
+        "_filehash",
+        "_version",
+        ]
 
     def __init__(self, datadir, subpath, config):
         self.fullpath = os.path.join(datadir, subpath)
@@ -105,8 +105,8 @@ class Song(Content):
         if datadir:
             # Only songs in datadirs are cached
             self._filehash = hashlib.md5(
-                    open(self.fullpath, 'rb').read()
-                    ).hexdigest()
+                open(self.fullpath, 'rb').read()
+                ).hexdigest()
             if os.path.exists(cached_name(datadir, subpath)):
                 try:
                     cached = pickle.load(open(
@@ -116,7 +116,7 @@ class Song(Content):
                     if (
                             cached['_filehash'] == self._filehash
                             and cached['_version'] == self.CACHE_VERSION
-                            ):
+                    ):
                         for attribute in self.cached_attributes:
                             setattr(self, attribute, cached[attribute])
                         return
@@ -135,17 +135,17 @@ class Song(Content):
         self.datadir = datadir
         self.subpath = subpath
         self.unprefixed_titles = [
-                unprefixed_title(
-                    title,
-                    config['titleprefixwords']
-                    )
-                for title
-                in self.titles
-                ]
-        self.authors = process_listauthors(
-                self.authors,
-                **config["_compiled_authwords"]
+            unprefixed_title(
+                title,
+                config['titleprefixwords']
                 )
+            for title
+            in self.titles
+            ]
+        self.authors = process_listauthors(
+            self.authors,
+            **config["_compiled_authwords"]
+            )
 
         # Cache management
         self._version = self.CACHE_VERSION
@@ -158,10 +158,10 @@ class Song(Content):
             for attribute in self.cached_attributes:
                 cached[attribute] = getattr(self, attribute)
             pickle.dump(
-                    cached,
-                    open(cached_name(self.datadir, self.subpath), 'wb'),
-                    protocol=-1
-                    )
+                cached,
+                open(cached_name(self.datadir, self.subpath), 'wb'),
+                protocol=-1
+                )
 
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))

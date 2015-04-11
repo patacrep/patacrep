@@ -3,51 +3,24 @@
 import logging
 import ply.yacc as yacc
 
+from patacrep.songs.syntax import Parser
 from patacrep.latex.lexer import tokens, SimpleLexer, SongLexer
 from patacrep.latex import ast
-from patacrep.errors import SongbookError
+from patacrep.errors import ParsingError
 from patacrep.latex.detex import detex
 
 LOGGER = logging.getLogger()
 
-class ParsingError(SongbookError):
-    """Parsing error."""
-
-    def __init__(self, message):
-        super().__init__(self)
-        self.message = message
-
-    def __str__(self):
-        return self.message
-
 # pylint: disable=line-too-long
-class Parser:
+class LatexParser(Parser):
     """LaTeX parser."""
 
     def __init__(self, filename=None):
+        super().__init__()
         self.tokens = tokens
         self.ast = ast.AST
         self.ast.init_metadata()
         self.filename = filename
-
-    @staticmethod
-    def __find_column(token):
-        """Return the column of ``token``."""
-        last_cr = token.lexer.lexdata.rfind('\n', 0, token.lexpos)
-        if last_cr < 0:
-            last_cr = 0
-        column = (token.lexpos - last_cr) + 1
-        return column
-
-    def p_error(self, token):
-        """Manage parsing errors."""
-        LOGGER.error(
-            "Error in file {}, line {} at position {}.".format(
-                str(self.filename),
-                token.lineno,
-                self.__find_column(token),
-                )
-            )
 
     @staticmethod
     def p_expression(symbols):
@@ -238,7 +211,7 @@ def tex2plain(string):
     """Parse string and return its plain text version."""
     return detex(
         silent_yacc(
-            module=Parser(),
+            module=LatexParser(),
             ).parse(
                 string,
                 lexer=SimpleLexer().lexer,
@@ -254,7 +227,7 @@ def parse_song(content, filename=None):
       display error messages.
     """
     return detex(
-        silent_yacc(module=Parser(filename)).parse(
+        silent_yacc(module=LatexParser(filename)).parse(
             content,
             lexer=SongLexer().lexer,
             ).metadata

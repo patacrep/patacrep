@@ -24,13 +24,13 @@ class ParseStepsAction(argparse.Action):
         if not getattr(namespace, self.dest):
             setattr(namespace, self.dest, [])
         setattr(
-                namespace,
-                self.dest,
-                (
-                    getattr(namespace, self.dest)
-                    + [value.strip() for value in values[0].split(',')]
-                    ),
-                )
+            namespace,
+            self.dest,
+            (
+                getattr(namespace, self.dest)
+                + [value.strip() for value in values[0].split(',')]
+                ),
+            )
 
 class VerboseAction(argparse.Action):
     """Set verbosity level with option --verbose."""
@@ -41,40 +41,47 @@ def argument_parser(args):
     """Parse arguments"""
     parser = argparse.ArgumentParser(description="A song book compiler")
 
-    parser.add_argument('--version', help='Show version', action='version',
-            version='%(prog)s ' + __version__)
+    parser.add_argument(
+        '--version', help='Show version', action='version',
+        version='%(prog)s ' + __version__,
+        )
 
-    parser.add_argument('book', nargs=1, help=textwrap.dedent("""\
-                    Book to compile.
-            """))
+    parser.add_argument(
+        'book', nargs=1, help=textwrap.dedent("Book to compile.")
+        )
 
-    parser.add_argument('--datadir', '-d', nargs='+', type=str, action='append',
-            help=textwrap.dedent("""\
-                    Data location. Expected (not necessarily required)
-                    subdirectories are 'songs', 'img', 'latex', 'templates'.
-            """))
+    parser.add_argument(
+        '--datadir', '-d', nargs='+', type=str, action='append',
+        help=textwrap.dedent("""\
+                Data location. Expected (not necessarily required)
+                subdirectories are 'songs', 'img', 'latex', 'templates'.
+        """)
+        )
 
-    parser.add_argument('--verbose', '-v', nargs=0, action=VerboseAction,
-            help=textwrap.dedent("""\
-                    Show details about the compilation process.
-            """))
+    parser.add_argument(
+        '--verbose', '-v', nargs=0, action=VerboseAction,
+        help=textwrap.dedent("""\
+                Show details about the compilation process.
+        """)
+        )
 
-    parser.add_argument('--steps', '-s', nargs=1, type=str,
-            action=ParseStepsAction,
-            help=textwrap.dedent("""\
-                    Steps to run. Default is "{steps}".
-                    Available steps are:
-                    "tex" produce .tex file from templates;
-                    "pdf" compile .tex file;
-                    "sbx" compile index files;
-                    "clean" remove temporary files;
-                    any string beginning with '%%' (in this case, it will be run
-                    in a shell). Several steps (excepted the custom shell
-                    command) can be combinend in one --steps argument, as a
-                    comma separated string.
-            """.format(steps=','.join(DEFAULT_STEPS))),
-            default=None,
-            )
+    parser.add_argument(
+        '--steps', '-s', nargs=1, type=str,
+        action=ParseStepsAction,
+        help=textwrap.dedent("""\
+                Steps to run. Default is "{steps}".
+                Available steps are:
+                "tex" produce .tex file from templates;
+                "pdf" compile .tex file;
+                "sbx" compile index files;
+                "clean" remove temporary files;
+                any string beginning with '%%' (in this case, it will be run
+                in a shell). Several steps (excepted the custom shell
+                command) can be combinend in one --steps argument, as a
+                comma separated string.
+        """.format(steps=','.join(DEFAULT_STEPS))),
+        default=None,
+        )
 
     options = parser.parse_args(args)
 
@@ -102,9 +109,9 @@ def main():
             songbook = json.load(songbook_file)
         if 'encoding' in songbook:
             with patacrep.encoding.open_read(
-                    songbook_path,
-                    encoding=songbook['encoding']
-                    ) as songbook_file:
+                songbook_path,
+                encoding=songbook['encoding']
+                ) as songbook_file:
                 songbook = json.load(songbook_file)
     except Exception as error: # pylint: disable=broad-except
         LOGGER.error(error)
@@ -121,12 +128,12 @@ def main():
         if isinstance(songbook['datadir'], str):
             songbook['datadir'] = [songbook['datadir']]
         datadirs += [
-                os.path.join(
-                    os.path.dirname(os.path.abspath(songbook_path)),
-                    path
-                    )
-                for path in songbook['datadir']
-                ]
+            os.path.join(
+                os.path.dirname(os.path.abspath(songbook_path)),
+                path
+                )
+            for path in songbook['datadir']
+            ]
     # Default value
     datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
 
@@ -141,8 +148,8 @@ def main():
         LOGGER.error(error)
         if LOGGER.level >= logging.INFO:
             LOGGER.error(
-                    "Running again with option '-v' may give more information."
-                    )
+                "Running again with option '-v' may give more information."
+                )
         sys.exit(1)
     except KeyboardInterrupt:
         LOGGER.warning("Aborted by user.")

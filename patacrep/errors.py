@@ -39,9 +39,10 @@ class LatexCompilationError(SongbookError):
         self.basename = basename
 
     def __str__(self):
-        return ("""Error while pdfLaTeX compilation of "{basename}.tex" """
-                """(see {basename}.log for more information)."""
-                ).format(basename=self.basename)
+        return (
+            """Error while pdfLaTeX compilation of "{basename}.tex" """
+            """(see {basename}.log for more information)."""
+            ).format(basename=self.basename)
 
 class StepCommandError(SongbookError):
     """Error during custom command compilation."""
@@ -65,9 +66,9 @@ class CleaningError(SongbookError):
 
     def __str__(self):
         return """Error while removing "{filename}": {exception}.""".format(
-                filename=self.filename,
-                exception=str(self.exception)
-                )
+            filename=self.filename,
+            exception=str(self.exception)
+            )
 
 class UnknownStep(SongbookError):
     """Unknown compilation step."""
@@ -79,6 +80,16 @@ class UnknownStep(SongbookError):
     def __str__(self):
         return """Compilation step "{step}" unknown.""".format(step=self.step)
 
+class ParsingError(SongbookError):
+    """Parsing error."""
+
+    def __init__(self, message):
+        super().__init__(self)
+        self.message = message
+
+    def __str__(self):
+        return self.message
+
 def notfound(filename, paths, message=None):
     """Return a string saying that file was not found in paths."""
     if message is None:
@@ -87,6 +98,6 @@ def notfound(filename, paths, message=None):
     #pylint: disable=expression-not-assigned
     [unique_paths.append(item) for item in paths if item not in unique_paths]
     return message.format(
-            name=filename,
-            paths=", ".join(['"{}"'.format(item) for item in unique_paths]),
-            )
+        name=filename,
+        paths=", ".join(['"{}"'.format(item) for item in unique_paths]),
+        )

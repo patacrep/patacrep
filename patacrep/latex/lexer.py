@@ -7,21 +7,21 @@ LOGGER = logging.getLogger()
 
 #pylint: disable=invalid-name
 tokens = (
-   'LBRACKET',
-   'RBRACKET',
-   'LBRACE',
-   'RBRACE',
-   'COMMAND',
-   'NEWLINE',
-   'COMMA',
-   'EQUAL',
-   'CHARACTER',
-   'SPACE',
-   'BEGINSONG',
-   'SONG_LTITLE',
-   'SONG_RTITLE',
-   'SONG_LOPTIONS',
-   'SONG_ROPTIONS',
+    'LBRACKET',
+    'RBRACKET',
+    'LBRACE',
+    'RBRACE',
+    'COMMAND',
+    'NEWLINE',
+    'COMMA',
+    'EQUAL',
+    'CHARACTER',
+    'SPACE',
+    'BEGINSONG',
+    'SONG_LTITLE',
+    'SONG_RTITLE',
+    'SONG_LOPTIONS',
+    'SONG_ROPTIONS',
 )
 
 class SimpleLexer:
@@ -36,18 +36,18 @@ class SimpleLexer:
     t_COMMAND = r'\\([@a-zA-Z]+|[^\\])'
     t_NEWLINE = r'\\\\'
     SPECIAL_CHARACTERS = (
-            t_LBRACKET +
-            t_RBRACKET +
-            t_RBRACE +
-            t_LBRACE +
-            r"\\" +
-            r" " +
-            r"\n" +
-            r"\r" +
-            r"%" +
-            r"=" +
-            r","
-            )
+        t_LBRACKET +
+        t_RBRACKET +
+        t_RBRACE +
+        t_LBRACE +
+        r"\\" +
+        r" " +
+        r"\n" +
+        r"\r" +
+        r"%" +
+        r"=" +
+        r","
+        )
     t_CHARACTER = r'[^{}]'.format(SPECIAL_CHARACTERS)
     t_EQUAL = r'='
     t_COMMA = r','

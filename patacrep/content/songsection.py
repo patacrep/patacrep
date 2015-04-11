@@ -3,9 +3,9 @@
 from patacrep.content import Content, ContentError
 
 KEYWORDS = [
-        "songchapter",
-        "songsection",
-        ]
+    "songchapter",
+    "songsection",
+    ]
 
 class SongSection(Content):
     """A songsection or songchapter."""
@@ -31,9 +31,9 @@ def parse(keyword, argument, contentlist, config):
     """
     if (keyword not in KEYWORDS) and (len(contentlist) != 1):
         raise ContentError(
-                keyword,
-                "Starred section names must have exactly one argument.",
-                )
+            keyword,
+            "Starred section names must have exactly one argument.",
+            )
     return [SongSection(keyword, contentlist[0])]
 
 

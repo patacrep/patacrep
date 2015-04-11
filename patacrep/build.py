@@ -17,23 +17,23 @@ LOGGER = logging.getLogger(__name__)
 EOL = "\n"
 DEFAULT_STEPS = ['tex', 'pdf', 'sbx', 'pdf', 'clean']
 GENERATED_EXTENSIONS = [
-        "_auth.sbx",
-        "_auth.sxd",
-        ".aux",
-        ".log",
-        ".out",
-        ".sxc",
-        ".tex",
-        "_title.sbx",
-        "_title.sxd",
-        ]
+    "_auth.sbx",
+    "_auth.sxd",
+    ".aux",
+    ".log",
+    ".out",
+    ".sxc",
+    ".tex",
+    "_title.sbx",
+    "_title.sxd",
+    ]
 DEFAULT_CONFIG = {
-        'template': "default.tex",
-        'lang': 'english',
-        'content': [],
-        'titleprefixwords': [],
-        'encoding': None,
-        }
+    'template': "default.tex",
+    'lang': 'english',
+    'content': [],
+    'titleprefixwords': [],
+    'encoding': None,
+    }
 
 
 
@@ -67,16 +67,16 @@ class Songbook(object):
                 abs_datadir.append(os.path.abspath(path))
             else:
                 LOGGER.warning(
-                        "Ignoring non-existent datadir '{}'.".format(path)
-                        )
+                    "Ignoring non-existent datadir '{}'.".format(path)
+                    )
 
         abs_datadir.append(__DATADIR__)
 
         self.config['datadir'] = abs_datadir
         self.config['_songdir'] = [
-                DataSubpath(path, 'songs')
-                for path in self.config['datadir']
-                ]
+            DataSubpath(path, 'songs')
+            for path in self.config['datadir']
+            ]
 
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
@@ -88,17 +88,17 @@ class Songbook(object):
         config = DEFAULT_CONFIG.copy()
         config.update(self.config)
         renderer = TexBookRenderer(
-                config['template'],
-                config['datadir'],
-                config['lang'],
-                config['encoding'],
-                )
+            config['template'],
+            config['datadir'],
+            config['lang'],
+            config['encoding'],
+            )
         config.update(renderer.get_variables())
         config.update(self.config)
 
         config['_compiled_authwords'] = authors.compile_authwords(
-                copy.deepcopy(config['authwords'])
-                )
+            copy.deepcopy(config['authwords'])
+            )
 
         # Loading custom plugins
         config['_content_plugins'] = files.load_plugins(
@@ -115,9 +115,9 @@ class Songbook(object):
         # Configuration set
         config['render_content'] = content.render_content
         config['content'] = content.process_content(
-                config.get('content', []),
-                config,
-                )
+            config.get('content', []),
+            config,
+            )
         config['filename'] = output.name[:-4]
 
         renderer.render_tex(output, config)
@@ -166,8 +166,8 @@ class SongbookBuilder(object):
             self._pdflatex_options.append("-halt-on-error")
         for datadir in self.songbook.config["datadir"]:
             self._pdflatex_options.append(
-                    '--include-directory="{}"'.format(datadir)
-                    )
+                '--include-directory="{}"'.format(datadir)
+                )
 
     def build_steps(self, steps=None):
         """Perform steps on the songbook by calling relevant self.build_*()
@@ -204,8 +204,8 @@ class SongbookBuilder(object):
         """Build .tex file from templates"""
         LOGGER.info("Building '{}.tex'…".format(self.basename))
         with codecs.open(
-                "{}.tex".format(self.basename), 'w', 'utf-8',
-                ) as output:
+            "{}.tex".format(self.basename), 'w', 'utf-8',
+            ) as output:
             self.songbook.write_tex(output)
 
     def build_pdf(self):
@@ -215,13 +215,13 @@ class SongbookBuilder(object):
 
         try:
             process = Popen(
-                    ["pdflatex"] + self._pdflatex_options + [self.basename],
-                    stdin=PIPE,
-                    stdout=PIPE,
-                    stderr=PIPE,
-                    env=os.environ,
-                    universal_newlines=True,
-                    )
+                ["pdflatex"] + self._pdflatex_options + [self.basename],
+                stdin=PIPE,
+                stdout=PIPE,
+                stderr=PIPE,
+                env=os.environ,
+                universal_newlines=True,
+                )
         except Exception as error:
             LOGGER.debug(error)
             raise errors.LatexCompilationError(self.basename)

@@ -71,6 +71,6 @@ Contact & Forums
 .. |license| image:: https://img.shields.io/pypi/l/patacrep.svg
   :target: http://www.gnu.org/licenses/gpl-3.0.html
 .. |sources| image:: https://img.shields.io/badge/sources-patacrep-brightgreen.svg
-  :target: http://git.framasoft.org/spalax/patacrep
+  :target: http://git.framasoft.org/patacrep/patacrep
 .. |build| image:: https://travis-ci.org/patacrep/patacrep.svg?branch=master
   :target: https://travis-ci.org/patacrep/patacrep

@@ -1,6 +1,8 @@
 Patacrep, a songbook compilation chain
 ======================================
 
+.. image:: https://travis-ci.org/patacrep/patacrep.svg?branch=master
+
 This package provides a compilation toolchain that produce LaTeX
 songbook using the LaTeX songs package. A new LaTeX document class is
 provided to allow specific customisation and new command like embedded

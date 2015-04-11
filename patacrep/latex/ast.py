@@ -16,8 +16,8 @@ class AST:
         parsing.
         """
         cls.metadata = {
-                '@languages': set(),
-                }
+            '@languages': set(),
+            }
 
 class Expression(AST):
     """LaTeX expression"""
@@ -50,10 +50,10 @@ class Command(AST):
         if self.name in [r'\emph']:
             return str(self.mandatory[0])
         return "{}{}{}".format(
-                self.name,
-                "".join(["[{}]".format(item) for item in self.optional]),
-                "".join(["{{{}}}".format(item) for item in self.mandatory]),
-                )
+            self.name,
+            "".join(["[{}]".format(item) for item in self.optional]),
+            "".join(["{{{}}}".format(item) for item in self.mandatory]),
+            )
 
 
 class BeginSong(AST):

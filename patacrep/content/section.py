@@ -3,14 +3,14 @@
 from patacrep.content import Content, ContentError
 
 KEYWORDS = [
-        "part",
-        "chapter",
-        "section",
-        "subsection",
-        "subsubsection",
-        "paragraph",
-        "subparagraph",
-        ]
+    "part",
+    "chapter",
+    "section",
+    "subsection",
+    "subsubsection",
+    "paragraph",
+    "subparagraph",
+    ]
 FULL_KEYWORDS = KEYWORDS + ["{}*".format(word) for word in KEYWORDS]
 
 class Section(Content):
@@ -43,12 +43,12 @@ def parse(keyword, argument, contentlist, config):
     """
     if (keyword not in KEYWORDS) and (len(contentlist) != 1):
         raise ContentError(
-                keyword,
-                "Starred section names must have exactly one argument."
-                )
+            keyword,
+            "Starred section names must have exactly one argument."
+            )
     if (len(contentlist) not in [1, 2]):
         raise ContentError(keyword, "Section can have one or two arguments.")
-    return [Section(keyword, *contentlist)] #pylint: disable=star-args
+    return [Section(keyword, *contentlist)]
 
 
 CONTENT_PLUGINS = dict([

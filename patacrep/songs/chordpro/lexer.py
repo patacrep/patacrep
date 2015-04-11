@@ -39,7 +39,7 @@ class ChordProLexer:
 
     t_SPACE = r'[ \t]+'
 
-    t_chord_CHORD = r'[A-G7#m]+' # TODO This can be refined
+    t_chord_CHORD = r'[A-G7#m]+'
 
     t_directive_SPACE = r'[ \t]+'
     t_directive_KEYWORD = r'[a-zA-Z_]+'

@@ -20,7 +20,8 @@ _LATEX_SUBS = (
     (re.compile(r'\.\.\.+'), r'\\ldots'),
 )
 
-_VARIABLE_REGEXP = re.compile(r"""
+_VARIABLE_REGEXP = re.compile(
+    r"""
     \(\*\ *variables\ *\*\)    # Match (* variables *)
     (                          # Match and capture the following:
     (?:                        # Start of non-capturing group, used to match a single character
@@ -51,9 +52,9 @@ class VariablesExtension(Extension):
     def parse(self, parser):
         next(parser.stream)
         parser.parse_statements(
-                end_tokens=['name:endvariables'],
-                drop_needle=True,
-                )
+            end_tokens=['name:endvariables'],
+            drop_needle=True,
+            )
         return nodes.Const("") # pylint: disable=no-value-for-parameter
 
 
@@ -101,29 +102,31 @@ class TexBookRenderer(TexRenderer):
         '''
         self.lang = lang
         # Load templates in filesystem ...
-        loaders = [FileSystemLoader(os.path.join(datadir, 'templates'))
-                      for datadir in datadirs]
+        loaders = [
+            FileSystemLoader(os.path.join(datadir, 'templates'))
+            for datadir in datadirs
+            ]
         texenv = Environment(
-                loader=ChoiceLoader(loaders),
-                extensions=[VariablesExtension],
-                )
+            loader=ChoiceLoader(loaders),
+            extensions=[VariablesExtension],
+            )
         try:
             super().__init__(template, texenv, encoding)
         except TemplateNotFound as exception:
             # Only works if all loaders are FileSystemLoader().
             paths = [
-                    item
-                    for loader in self.texenv.loader.loaders
-                    for item in loader.searchpath
-                    ]
+                item
+                for loader in self.texenv.loader.loaders
+                for item in loader.searchpath
+                ]
             raise errors.TemplateError(
-                    exception,
-                    errors.notfound(
-                        exception.name,
-                        paths,
-                        message='Template "{name}" not found in {paths}.'
-                        ),
-                    )
+                exception,
+                errors.notfound(
+                    exception.name,
+                    paths,
+                    message='Template "{name}" not found in {paths}.'
+                    ),
+                )
 
     def get_variables(self):
         '''Get and return a dictionary with the default values
@@ -175,11 +178,11 @@ class TexBookRenderer(TexRenderer):
             if subtemplate in skip:
                 continue
             variables.update(
-                    self.get_template_variables(
-                        subtemplate,
-                        skip + templates
-                        )
+                self.get_template_variables(
+                    subtemplate,
+                    skip + templates
                     )
+                )
         variables.update(current)
         return variables
 
@@ -210,16 +213,16 @@ class TexBookRenderer(TexRenderer):
                     subvariables.update(json.loads(var))
                 except ValueError as exception:
                     raise errors.TemplateError(
-                            exception,
-                            (
-                                "Error while parsing json in file "
-                                "{filename}. The json string was:"
-                                "\n'''\n{jsonstring}\n'''"
-                            ).format(
-                                filename=templatename,
-                                jsonstring=var,
-                                )
+                        exception,
+                        (
+                            "Error while parsing json in file "
+                            "{filename}. The json string was:"
+                            "\n'''\n{jsonstring}\n'''"
+                        ).format(
+                            filename=templatename,
+                            jsonstring=var,
                             )
+                        )
 
         return (subvariables, subtemplates)
 

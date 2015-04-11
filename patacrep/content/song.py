@@ -67,7 +67,8 @@ def parse(keyword, argument, contentlist, config):
                     LOGGER.debug('Parsing file "{}"…'.format(filename))
                     extension = filename.split(".")[-1]
                     if extension not in plugins:
-                        LOGGER.warning((
+                        LOGGER.warning(
+                            (
                                 'I do not know how to parse "{}": name does '
                                 'not end with one of {}. Ignored.'
                             ).format(
@@ -76,10 +77,10 @@ def parse(keyword, argument, contentlist, config):
                                 ))
                         continue
                     renderer = SongRenderer(plugins[extension](
-                            songdir.datadir,
-                            filename,
-                            config,
-                            ))
+                        songdir.datadir,
+                        filename,
+                        config,
+                        ))
                     songlist.append(renderer)
                     config["_languages"].update(renderer.song.languages)
             if len(songlist) > before:
@@ -105,9 +106,9 @@ class OnlySongsError(ContentError):
 
     def __str__(self):
         return (
-                "Only songs are allowed, and the following items are not:" +
-                str(self.not_songs)
-                )
+            "Only songs are allowed, and the following items are not:" +
+            str(self.not_songs)
+            )
 
 def process_songs(content, config=None):
     """Process content that containt only songs.
@@ -117,11 +118,11 @@ def process_songs(content, config=None):
     """
     contentlist = process_content(content, config)
     not_songs = [
-            item
-            for item
-            in contentlist
-            if not isinstance(item, SongRenderer)
-            ]
+        item
+        for item
+        in contentlist
+        if not isinstance(item, SongRenderer)
+        ]
     if not_songs:
         raise OnlySongsError(not_songs)
     return contentlist

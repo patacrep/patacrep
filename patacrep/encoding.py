@@ -21,9 +21,9 @@ def open_read(filename, mode='r', encoding=None):
         fileencoding = encoding
 
     with codecs.open(
-            filename,
-            mode=mode,
-            encoding=fileencoding,
-            errors='replace',
-            ) as fileobject:
+        filename,
+        mode=mode,
+        encoding=fileencoding,
+        errors='replace',
+        ) as fileobject:
         yield fileobject

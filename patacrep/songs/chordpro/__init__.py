@@ -25,8 +25,8 @@ class ChordproSong(Song):
         self.languages = song.get_directives('language')
         self.data = dict([meta.as_tuple for meta in song.meta])
         self.cached = {
-                'song': song,
-                }
+            'song': song,
+            }
 
     def tex(self, output):
         context = {
@@ -40,8 +40,8 @@ class ChordproSong(Song):
             "render": self.render_tex,
             }
         self.texenv = Environment(loader=FileSystemLoader(os.path.join(
-                os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
-                'latex'
+            os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
+            'latex'
             )))
         return self.render_tex(context, self.cached['song'].content, template="chordpro.tex")
 
@@ -55,10 +55,10 @@ class ChordproSong(Song):
         if template is None:
             template = content.template('tex')
         return TexRenderer(
-                template=template,
-                encoding='utf8',
-                texenv=self.texenv,
-                ).template.render(context)
+            template=template,
+            encoding='utf8',
+            texenv=self.texenv,
+            ).template.render(context)
 
 SONG_PARSERS = {
     'sgc': ChordproSong,

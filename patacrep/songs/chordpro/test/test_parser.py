@@ -49,8 +49,8 @@ def load_tests(__loader, tests, __pattern):
     """Load several tests given test files present in the directory."""
     # Load all txt files as tests
     for txt in sorted(glob.glob(os.path.join(
-        os.path.dirname(__file__),
-        '*.txt',
+            os.path.dirname(__file__),
+            '*.txt',
         ))):
         tests.addTest(ParserTxtRenderer(basename=txt[:-len('.txt')]))
     return tests

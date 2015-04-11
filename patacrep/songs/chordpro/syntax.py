@@ -1,53 +1,23 @@
-# -*- coding: utf-8 -*-
 """ChordPro parser"""
 
 import logging
 import ply.yacc as yacc
 
-from patacrep.errors import SongbookError
+from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
 LOGGER = logging.getLogger()
 
-class ParsingError(SongbookError):
-    """Parsing error."""
-
-    def __init__(self, message):
-        super().__init__(self)
-        self.message = message
-
-    def __str__(self):
-        return self.message
-
-
-class Parser:
+class ChordproParser(Parser):
     """ChordPro parser class"""
 
     start = "song"
 
     def __init__(self, filename=None):
+        super().__init__()
         self.tokens = tokens
         self.filename = filename
-
-    @staticmethod
-    def __find_column(token):
-        """Return the column of ``token``."""
-        last_cr = token.lexer.lexdata.rfind('\n', 0, token.lexpos)
-        if last_cr < 0:
-            last_cr = 0
-        column = (token.lexpos - last_cr) + 1
-        return column
-
-    def p_error(self, token):
-        """Manage parsing errors."""
-        if token:
-            LOGGER.error("Error in file {}, line {}:{}.".format(
-                str(self.filename),
-                token.lineno,
-                self.__find_column(token),
-                )
-                )
 
     def p_song(self, symbols):
         """song : block song
@@ -208,10 +178,10 @@ class Parser:
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
     return yacc.yacc(
-            module=Parser(filename),
-                     debug=0,
-                     write_tables=0,
-            ).parse(
-                     content,
-                     lexer=ChordProLexer().lexer,
-                     )
+        module=ChordproParser(filename),
+        debug=0,
+        write_tables=0,
+        ).parse(
+            content,
+            lexer=ChordProLexer().lexer,
+            )

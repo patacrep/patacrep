@@ -28,10 +28,10 @@ class LatexSong(Song):
     def tex(self, output):
         """Return the LaTeX code rendering the song."""
         return r'\input{{{}}}'.format(files.path2posix(
-                                    files.relpath(
-                                        self.fullpath,
-                                        os.path.dirname(output)
-                                    )))
+            files.relpath(
+                self.fullpath,
+                os.path.dirname(output)
+            )))
 
 SONG_PARSERS = {
     'is': LatexSong,

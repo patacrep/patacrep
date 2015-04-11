@@ -49,8 +49,9 @@ def path2posix(string):
         return string[0:-1]
     (head, tail) = os.path.split(string)
     return posixpath.join(
-            path2posix(head),
-            tail)
+        path2posix(head),
+        tail,
+        )
 
 @contextmanager
 def chdir(path):
@@ -87,24 +88,23 @@ def load_plugins(datadirs, root_modules, keyword):
     - keys are the keywords ;
     - values are functions triggered when this keyword is met.
     """
-    # pylint: disable=star-args
     plugins = {}
     directory_list = (
-            [
-                os.path.join(datadir, "python", *root_modules)
-                for datadir in datadirs
-            ]
-            + [os.path.join(
-                os.path.dirname(__file__),
-                *root_modules
-                )]
-            )
+        [
+            os.path.join(datadir, "python", *root_modules)
+            for datadir in datadirs
+        ]
+        + [os.path.join(
+            os.path.dirname(__file__),
+            *root_modules
+            )]
+        )
     for directory in directory_list:
         if not os.path.exists(directory):
             LOGGER.debug(
-                    "Ignoring non-existent directory '%s'.",
-                    directory
-                    )
+                "Ignoring non-existent directory '%s'.",
+                directory
+                )
             continue
         for (dirpath, __ignored, filenames) in os.walk(directory):
             modules = ["patacrep"] + root_modules

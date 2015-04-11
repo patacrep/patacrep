@@ -24,10 +24,10 @@ def parse(keyword, config, argument, contentlist):
     """
     old_songdir = config['_songdir']
     config['_songdir'] = (
-            [DataSubpath("", argument)] +
-            [path.clone().join(argument) for path in config['_songdir']] +
-            config['_songdir']
-            )
+        [DataSubpath("", argument)] +
+        [path.clone().join(argument) for path in config['_songdir']] +
+        config['_songdir']
+        )
     processed_content = process_content(contentlist, config)
     config['_songdir'] = old_songdir
     return processed_content

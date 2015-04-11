@@ -1,6 +1,8 @@
 Patacrep, a songbook compilation chain
 ======================================
 
+|sources| |build| |pypi| |documentation| |license|
+
 This package provides a compilation toolchain that produce LaTeX
 songbook using the LaTeX songs package. A new LaTeX document class is
 provided to allow specific customisation and new command like embedded
@@ -61,3 +63,14 @@ Contact & Forums
 ----------------
 
 * http://www.patacrep.com/forum
+
+.. |documentation| image:: http://readthedocs.org/projects/patacrep/badge
+  :target: http://patacrep.readthedocs.org
+.. |pypi| image:: https://img.shields.io/pypi/v/patacrep.svg
+  :target: http://pypi.python.org/pypi/patacrep
+.. |license| image:: https://img.shields.io/pypi/l/patacrep.svg
+  :target: http://www.gnu.org/licenses/gpl-2.0.html
+.. |sources| image:: https://img.shields.io/badge/sources-patacrep-brightgreen.svg
+  :target: http://github.com/patacrep/patacrep
+.. |build| image:: https://travis-ci.org/patacrep/patacrep.svg?branch=master
+  :target: https://travis-ci.org/patacrep/patacrep

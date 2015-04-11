@@ -6,10 +6,10 @@ import re
 LOGGER = logging.getLogger(__name__)
 
 DEFAULT_AUTHWORDS = {
-        "after": ["by"],
-        "ignore": ["unknown"],
-        "sep": ["and"],
-        }
+    "after": ["by"],
+    "ignore": ["unknown"],
+    "sep": ["and"],
+    }
 
 def compile_authwords(authwords):
     """Convert strings of authwords to compiled regular expressions.
@@ -23,13 +23,13 @@ def compile_authwords(authwords):
 
     # Compilation
     authwords['after'] = [
-            re.compile(r"^.*\b%s\b(.*)$" % word, re.LOCALE)
-            for word in authwords['after']
-            ]
+        re.compile(r"^.*\b%s\b(.*)$" % word, re.LOCALE)
+        for word in authwords['after']
+        ]
     authwords['sep'] = [
-            re.compile(r"^(.*)%s +(.*)$" % word, re.LOCALE)
-            for word in ([" %s" % word for word in authwords['sep']] + [','])
-            ]
+        re.compile(r"^(.*)%s +(.*)$" % word, re.LOCALE)
+        for word in ([" %s" % word for word in authwords['sep']] + [','])
+        ]
 
     return authwords
 
@@ -153,11 +153,11 @@ def processauthors_clean_authors(authors_list):
     See docstring of processauthors() for more information.
     """
     return [
-            author.lstrip()
-            for author
-            in authors_list
-            if author.lstrip()
-            ]
+        author.lstrip()
+        for author
+        in authors_list
+        if author.lstrip()
+        ]
 
 def processauthors(authors_string, after=None, ignore=None, sep=None):
     r"""Return a list of authors
@@ -210,20 +210,20 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
         ignore = []
 
     return [
-            split_author_names(author)
-            for author
-            in processauthors_clean_authors(
-                processauthors_ignore_authors(
-                    processauthors_remove_after(
-                        processauthors_split_string(
-                            processauthors_removeparen(
-                                authors_string
-                                ),
-                            sep),
-                        after),
-                    ignore)
-                )
-            ]
+        split_author_names(author)
+        for author
+        in processauthors_clean_authors(
+            processauthors_ignore_authors(
+                processauthors_remove_after(
+                    processauthors_split_string(
+                        processauthors_removeparen(
+                            authors_string
+                            ),
+                        sep),
+                    after),
+                ignore)
+            )
+        ]
 
 def process_listauthors(authors_list, after=None, ignore=None, sep=None):
     """Process a list of authors, and return the list of resulting authors."""

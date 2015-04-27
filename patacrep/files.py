@@ -6,6 +6,7 @@ import logging
 import os
 import posixpath
 import re
+import sys
 
 LOGGER = logging.getLogger(__name__)
 
@@ -100,6 +101,7 @@ def load_plugins(datadirs, root_modules, keyword):
             )]
         )
     for directory in directory_list:
+        sys.path.append(directory)
         if not os.path.exists(directory):
             LOGGER.debug(
                 "Ignoring non-existent directory '%s'.",
@@ -107,17 +109,19 @@ def load_plugins(datadirs, root_modules, keyword):
                 )
             continue
         for (dirpath, __ignored, filenames) in os.walk(directory):
-            modules = ["patacrep"] + root_modules
-            if os.path.relpath(dirpath, directory) != ".":
-                modules.extend(os.path.relpath(dirpath, directory).split("/"))
+            modules = []
             for name in filenames:
                 if name == "__init__.py":
-                    modulename = []
+                    new_module = os.path.relpath(dirpath, directory)
+                    if new_module != ".":
+                        modules.extend(new_module.split("/"))
+                    continue
                 elif name.endswith(".py"):
-                    modulename = [name[:-len('.py')]]
+                    modulename = name[:-len('.py')]
                 else:
                     continue
-                plugin = importlib.import_module(".".join(modules + modulename))
+                modulename = ".".join(modules + [modulename])
+                plugin = importlib.import_module(modulename)
                 if hasattr(plugin, keyword):
                     for (key, value) in getattr(plugin, keyword).items():
                         if key in plugins:
@@ -128,4 +132,5 @@ def load_plugins(datadirs, root_modules, keyword):
                                 )
                             continue
                         plugins[key] = value
+        sys.path.pop()
     return plugins

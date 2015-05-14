@@ -1,11 +1,12 @@
 """File system utilities."""
 
 from contextlib import contextmanager
-import importlib
 import logging
 import os
+import pkgutil
 import posixpath
 import re
+import sys
 
 LOGGER = logging.getLogger(__name__)
 
@@ -89,43 +90,37 @@ def load_plugins(datadirs, root_modules, keyword):
     - values are functions triggered when this keyword is met.
     """
     plugins = {}
-    directory_list = (
-        [
-            os.path.join(datadir, "python", *root_modules)
-            for datadir in datadirs
+
+    datadir_path = [
+        os.path.join(datadir, "python", *root_modules)
+        for datadir
+        in datadirs
         ]
-        + [os.path.join(
-            os.path.dirname(__file__),
-            *root_modules
-            )]
-        )
-    for directory in directory_list:
-        if not os.path.exists(directory):
-            LOGGER.debug(
-                "Ignoring non-existent directory '%s'.",
-                directory
-                )
-            continue
-        for (dirpath, __ignored, filenames) in os.walk(directory):
-            modules = ["patacrep"] + root_modules
-            if os.path.relpath(dirpath, directory) != ".":
-                modules.extend(os.path.relpath(dirpath, directory).split("/"))
-            for name in filenames:
-                if name == "__init__.py":
-                    modulename = []
-                elif name.endswith(".py"):
-                    modulename = [name[:-len('.py')]]
-                else:
+    sys_path = [
+        os.path.join(path, "patacrep", *root_modules)
+        for path
+        in sys.path
+        ]
+    for module_finder, name, __is_pkg in pkgutil.walk_packages(
+            datadir_path + sys_path,
+            prefix="patacrep.{}.".format(".".join(root_modules))
+        ):
+        if name in sys.modules:
+            module = sys.modules[name]
+        else:
+            try:
+                module = module_finder.find_spec(name).loader.load_module()
+            except ImportError as error:
+                LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
+                continue
+        if hasattr(module, keyword):
+            for (key, value) in getattr(module, keyword).items():
+                if key in plugins:
+                    LOGGER.warning(
+                        "File %s: Keyword '%s' is already used. Ignored.",
+                        module.__file__,
+                        key,
+                        )
                     continue
-                plugin = importlib.import_module(".".join(modules + modulename))
-                if hasattr(plugin, keyword):
-                    for (key, value) in getattr(plugin, keyword).items():
-                        if key in plugins:
-                            LOGGER.warning(
-                                "File %s: Keyword '%s' is already used. Ignored.",
-                                relpath(os.path.join(dirpath, name)),
-                                key,
-                                )
-                            continue
-                        plugins[key] = value
+                plugins[key] = value
     return plugins

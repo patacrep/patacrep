@@ -28,7 +28,7 @@ def compile_authwords(authwords):
         ]
     authwords['sep'] = [
         re.compile(r"^(.*)%s +(.*)$" % word, re.LOCALE)
-        for word in ([" %s" % word for word in authwords['sep']] + [','])
+        for word in ([" %s" % word for word in authwords['sep']] + [',', ';'])
         ]
 
     return authwords

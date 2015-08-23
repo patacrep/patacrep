@@ -28,15 +28,6 @@ class ParserTxtRenderer(unittest.TestCase):
             return
         with open("{}.sgc".format(self.basename), 'r', encoding='utf8') as sourcefile:
             with open("{}.txt".format(self.basename), 'r', encoding='utf8') as expectfile:
-                #print(os.path.basename(sourcefile.name))
-                #with open("{}.txt.diff".format(self.basename), 'w', encoding='utf8') as difffile:
-                #    difffile.write(
-                #        str(chordpro.parse_song(
-                #            sourcefile.read(),
-                #            os.path.basename(sourcefile.name),
-                #            )).strip()
-                #        )
-                #    sourcefile.seek(0)
                 self.assertMultiLineEqual(
                     str(chordpro.parse_song(
                         sourcefile.read(),

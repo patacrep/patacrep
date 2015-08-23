@@ -9,7 +9,11 @@ LOGGER = logging.getLogger()
 tokens = (
     'LBRACE',
     'RBRACE',
-    'CHORD',
+    'TODONOTE',
+    'TODODIESEBEMOL',
+    'TODOMDIMMAJSUS',
+    'TODOCHIFFRE',
+    'TODOSLASH',
     'NEWLINE',
     'COLON',
     'WORD',
@@ -39,7 +43,11 @@ class ChordProLexer:
 
     t_SPACE = r'[ \t]+'
 
-    t_chord_CHORD = r'[A-G7#m]+'
+    t_chord_TODONOTE = r'[A-G]'
+    t_chord_TODODIESEBEMOL = r'[#b]'
+    t_chord_TODOMDIMMAJSUS = r'(maj|dim|m|sus)'
+    t_chord_TODOCHIFFRE = r'[2-9]'
+    t_chord_TODOSLASH = r'/'
 
     t_directive_SPACE = r'[ \t]+'
     t_directive_KEYWORD = r'[a-zA-Z_]+'

@@ -11,6 +11,7 @@ LOGGER = logging.getLogger()
 
 class ChordproParser(Parser):
     """ChordPro parser class"""
+    # pylint: disable=too-many-public-methods
 
     start = "song"
 
@@ -23,7 +24,6 @@ class ChordproParser(Parser):
         """song : block song
                 | empty
         """
-        #if isinstance(symbols[1], str):
         if len(symbols) == 2:
             symbols[0] = ast.Song(self.filename)
         else:
@@ -108,8 +108,48 @@ class ChordproParser(Parser):
 
     @staticmethod
     def p_chord(symbols):
-        """chord : CHORD"""
-        symbols[0] = ast.Chord(symbols[1])
+        """chord : TODONOTE chordtododiesebemol chordtodomdimmajsus chordtodochiffre chordtodoautre"""
+        symbols[0] = ast.Chord(
+            symbols[1],
+            symbols[2],
+            symbols[3],
+            symbols[4],
+            symbols[5],
+            )
+
+    @staticmethod
+    def p_chordtododiesebemol(symbols):
+        """chordtododiesebemol : TODODIESEBEMOL
+                               | empty
+        """
+        symbols[0] = symbols[1]
+
+    @staticmethod
+    def p_chordtodomdimmajsus(symbols):
+        """chordtodomdimmajsus : TODOMDIMMAJSUS
+                               | empty
+        """
+        symbols[0] = symbols[1]
+
+    @staticmethod
+    def p_chordtodochiffre(symbols):
+        """chordtodochiffre : TODOCHIFFRE
+                            | empty
+        """
+        if symbols[1] is None:
+            symbols[0] = symbols[1]
+        else:
+            symbols[0] = int(symbols[1])
+
+    @staticmethod
+    def p_chordtodoautre(symbols):
+        """chordtodoautre : TODOSLASH TODONOTE chordtododiesebemol
+                          | empty
+        """
+        if len(symbols) == 2:
+            symbols[0] = None
+        else:
+            symbols[0] = (symbols[2], symbols[3])
 
     @staticmethod
     def p_chorus(symbols):

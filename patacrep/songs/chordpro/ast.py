@@ -122,12 +122,28 @@ class Chord(LineElement):
 
     _template = "chord"
 
-    def __init__(self, value):
+    def __init__(self, todo_note, todo_diesebemol, todo_mdimmajsus, todo_chiffre, todo_chordbis):
         super().__init__()
-        self.value = value
+        self.todo_note = todo_note
+        self.todo_diesebemol = todo_diesebemol
+        self.todo_mdimmajsus = todo_mdimmajsus
+        self.todo_chiffre = todo_chiffre
+        self.todo_chordbis = todo_chordbis
 
     def __str__(self):
-        return "[{}]".format(self.value)
+        text = ""
+        text += self.todo_note
+        if self.todo_diesebemol is not None:
+            text += self.todo_diesebemol
+        if self.todo_mdimmajsus is not None:
+            text += self.todo_mdimmajsus
+        if self.todo_chiffre is not None:
+            text += str(self.todo_chiffre)
+        if self.todo_chordbis is not None:
+            text += "/" + self.todo_chordbis[0]
+            if self.todo_chordbis[1] is not None:
+                text += self.todo_chordbis[1]
+        return "[{}]".format(text)
 
 class Verse(AST):
     """A verse (or bridge, or chorus)"""

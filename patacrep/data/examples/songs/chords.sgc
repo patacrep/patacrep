@@ -1,0 +1,17 @@
+{language: english}
+{columns:  1}
+{title: Chords testing}
+{subtitle: Test of the chords specification and LaTeX translation}
+
+[A]Simple
+[Bb]Bémol
+[C#]Dièse
+[Adim]dim
+[Dmaj]maj
+[Em3]m chiffre
+[G4]Nombre
+[Emaj3]maj et nombre
+[Absus8]bémol, sus et nombre
+[A/A]Deux notes
+[F/Fb]Deux notes, bémol
+[B/C#]Deux notes, dièse

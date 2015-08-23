@@ -75,7 +75,7 @@ def argument_parser(args):
                 "pdf" compile .tex file;
                 "sbx" compile index files;
                 "clean" remove temporary files;
-                any string beginning with '%%' (in this case, it will be run
+                any string beginning with '#' (in this case, it will be run
                 in a shell). Several steps (excepted the custom shell
                 command) can be combinend in one --steps argument, as a
                 comma separated string.

@@ -123,6 +123,7 @@ class Chord(LineElement):
     _template = "chord"
 
     def __init__(self, key, alteration, modifier, add_note, bass):
+        # pylint: disable=too-many-arguments
         super().__init__()
         self.key = key
         self.alteration = alteration

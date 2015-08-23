@@ -81,7 +81,7 @@ class Song(Content):
 
     # Version format of cached song. Increment this number if we update
     # information stored in cache.
-    CACHE_VERSION = 1
+    CACHE_VERSION = 2
 
     # List of attributes to cache
     cached_attributes = [

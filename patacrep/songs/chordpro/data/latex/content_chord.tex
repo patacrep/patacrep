@@ -1,13 +1,13 @@
 \[
-    ((- content.todo_note -))
-    (* if content.todo_diesebemol == '#' *)#(* endif -*)
-    (* if content.todo_diesebemol == 'b' *)&(* endif -*)
-    (* if content.todo_mdimmajsus *)((content.todo_mdimmajsus))(* endif -*)
-    (* if content.todo_chiffre *)((content.todo_chiffre))(* endif -*)
-    (* if content.todo_chordbis -*)
+    ((- content.key -))
+    (* if content.alteration == '#' *)#(* endif -*)
+    (* if content.alteration == 'b' *)&(* endif -*)
+    (* if content.modifier *)((content.modifier))(* endif -*)
+    (* if content.add_note *)((content.add_note))(* endif -*)
+    (* if content.bass -*)
         /
-        ((- content.todo_chordbis[0] -))
-        (* if content.todo_chordbis[1] == '#' *)#(* endif -*)
-        (* if content.todo_chordbis[1] == 'b' *)&(* endif -*)
+        ((- content.bass[0] -))
+        (* if content.bass[1] == '#' *)#(* endif -*)
+        (* if content.bass[1] == 'b' *)&(* endif -*)
     (* endif -*)
 ]

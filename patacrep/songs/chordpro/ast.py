@@ -122,27 +122,27 @@ class Chord(LineElement):
 
     _template = "chord"
 
-    def __init__(self, todo_note, todo_diesebemol, todo_mdimmajsus, todo_chiffre, todo_chordbis):
+    def __init__(self, key, alteration, modifier, add_note, bass):
         super().__init__()
-        self.todo_note = todo_note
-        self.todo_diesebemol = todo_diesebemol
-        self.todo_mdimmajsus = todo_mdimmajsus
-        self.todo_chiffre = todo_chiffre
-        self.todo_chordbis = todo_chordbis
+        self.key = key
+        self.alteration = alteration
+        self.modifier = modifier
+        self.add_note = add_note
+        self.bass = bass
 
     def __str__(self):
         text = ""
-        text += self.todo_note
-        if self.todo_diesebemol is not None:
-            text += self.todo_diesebemol
-        if self.todo_mdimmajsus is not None:
-            text += self.todo_mdimmajsus
-        if self.todo_chiffre is not None:
-            text += str(self.todo_chiffre)
-        if self.todo_chordbis is not None:
-            text += "/" + self.todo_chordbis[0]
-            if self.todo_chordbis[1] is not None:
-                text += self.todo_chordbis[1]
+        text += self.key
+        if self.alteration is not None:
+            text += self.alteration
+        if self.modifier is not None:
+            text += self.modifier
+        if self.add_note is not None:
+            text += str(self.add_note)
+        if self.bass is not None:
+            text += "/" + self.bass[0]
+            if self.bass[1] is not None:
+                text += self.bass[1]
         return "[{}]".format(text)
 
 class Verse(AST):

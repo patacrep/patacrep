@@ -108,7 +108,7 @@ class ChordproParser(Parser):
 
     @staticmethod
     def p_chord(symbols):
-        """chord : TODONOTE chordtododiesebemol chordtodomdimmajsus chordtodochiffre chordtodoautre"""
+        """chord : KEY chordalteration chordmodifier chordaddnote chordbass"""
         symbols[0] = ast.Chord(
             symbols[1],
             symbols[2],
@@ -118,23 +118,23 @@ class ChordproParser(Parser):
             )
 
     @staticmethod
-    def p_chordtododiesebemol(symbols):
-        """chordtododiesebemol : TODODIESEBEMOL
-                               | empty
+    def p_chordalteration(symbols):
+        """chordalteration : ALTERATION
+                           | empty
         """
         symbols[0] = symbols[1]
 
     @staticmethod
-    def p_chordtodomdimmajsus(symbols):
-        """chordtodomdimmajsus : TODOMDIMMAJSUS
-                               | empty
+    def p_chordmodifier(symbols):
+        """chordmodifier : MODIFIER
+                         | empty
         """
         symbols[0] = symbols[1]
 
     @staticmethod
-    def p_chordtodochiffre(symbols):
-        """chordtodochiffre : TODOCHIFFRE
-                            | empty
+    def p_chordaddnote(symbols):
+        """chordaddnote : ADDNOTE
+                        | empty
         """
         if symbols[1] is None:
             symbols[0] = symbols[1]
@@ -142,9 +142,9 @@ class ChordproParser(Parser):
             symbols[0] = int(symbols[1])
 
     @staticmethod
-    def p_chordtodoautre(symbols):
-        """chordtodoautre : TODOSLASH TODONOTE chordtododiesebemol
-                          | empty
+    def p_chordbass(symbols):
+        """chordbass : SLASH KEY chordalteration
+                        | empty
         """
         if len(symbols) == 2:
             symbols[0] = None

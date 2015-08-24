@@ -117,19 +117,37 @@ class Space(LineElement):
     def __str__(self):
         return " "
 
-class Chord(LineElement):
-    """A chord."""
-
+class ChordList(LineElement):
+    """A list of chords."""
     _template = "chord"
 
-    def __init__(self, key, alteration, modifier, add_note, bass):
+    def __init__(self, *chords):
+        self.chords = chords
+
+    def __str__(self):
+        return "[{}]".format(" ".join(
+            [str(chord) for chord in self.chords]
+            ))
+
+class Chord:
+    """A chord."""
+
+    def __init__(
+            self,
+            key,
+            alteration=None,
+            modifier=None,
+            addnote=None,
+            basskey=None,
+            bassalteration=None,
+        ):
         # pylint: disable=too-many-arguments
-        super().__init__()
         self.key = key
         self.alteration = alteration
         self.modifier = modifier
-        self.add_note = add_note
-        self.bass = bass
+        self.addnote = addnote
+        self.basskey = basskey
+        self.bassalteration = bassalteration
 
     def __str__(self):
         text = ""
@@ -138,13 +156,13 @@ class Chord(LineElement):
             text += self.alteration
         if self.modifier is not None:
             text += self.modifier
-        if self.add_note is not None:
-            text += str(self.add_note)
-        if self.bass is not None:
-            text += "/" + self.bass[0]
-            if self.bass[1] is not None:
-                text += self.bass[1]
-        return "[{}]".format(text)
+        if self.addnote is not None:
+            text += str(self.addnote)
+        if self.basskey is not None:
+            text += "/" + self.basskey
+            if self.bassalteration is not None:
+                text += self.bassalteration
+        return text
 
 class Verse(AST):
     """A verse (or bridge, or chorus)"""

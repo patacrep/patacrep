@@ -1,13 +1,16 @@
 \[
-    ((- content.key -))
-    (* if content.alteration == '#' *)#(* endif -*)
-    (* if content.alteration == 'b' *)&(* endif -*)
-    (* if content.modifier *)((content.modifier))(* endif -*)
-    (* if content.add_note *)((content.add_note))(* endif -*)
-    (* if content.bass -*)
-        /
-        ((- content.bass[0] -))
-        (* if content.bass[1] == '#' *)#(* endif -*)
-        (* if content.bass[1] == 'b' *)&(* endif -*)
-    (* endif -*)
+    (*- for chord in content.chords -*)
+        (* if not loop.first *) (* endif *)
+        ((- chord.key -))
+        (* if chord.alteration == '#' *)#(* endif -*)
+        (* if chord.alteration == 'b' *)&(* endif -*)
+        (* if chord.modifier *)((chord.modifier))(* endif -*)
+        (* if chord.add_note *)((chord.add_note))(* endif -*)
+        (* if chord.basskey -*)
+            /
+            ((- chord.basskey -))
+            (* if chord.bassalteration == '#' *)#(* endif -*)
+            (* if chord.bassalteration == 'b' *)&(* endif -*)
+        (* endif -*)
+    (* endfor -*)
 ]

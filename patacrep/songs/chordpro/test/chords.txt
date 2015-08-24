@@ -12,4 +12,5 @@
   [A/A]Deux notes
   [F/Fb]Deux notes, bémol
   [B/C#]Deux notes, dièse
+  [Ab B#/A]Plusieurs notes à la suite
 {end_of_verse}

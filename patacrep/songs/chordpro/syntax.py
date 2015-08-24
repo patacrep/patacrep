@@ -2,12 +2,39 @@
 
 import logging
 import ply.yacc as yacc
+import re
 
 from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
 LOGGER = logging.getLogger()
+
+CHORD_RE = re.compile(
+    r"""
+        (?P<key>[A-G])
+        (?P<alteration>[b#])?
+        (?P<modifier>(maj|sus|dim|m))?
+        (?P<addnote>[2-9])?
+        (
+            /
+            (?P<basskey>[A-G])
+            (?P<bassalteration>[b#])?
+        )?
+    """,
+    re.VERBOSE
+    )
+
+def _parse_chords(string):
+    """Parse a list of chords.
+
+    Iterate over :class:`ast.Chord` objects.
+    """
+    for chord in string.split():
+        match = CHORD_RE.match(chord)
+        if match is None:
+            TODO
+        yield ast.Chord(**match.groupdict())
 
 class ChordproParser(Parser):
     """ChordPro parser class"""
@@ -108,48 +135,8 @@ class ChordproParser(Parser):
 
     @staticmethod
     def p_chord(symbols):
-        """chord : KEY chordalteration chordmodifier chordaddnote chordbass"""
-        symbols[0] = ast.Chord(
-            symbols[1],
-            symbols[2],
-            symbols[3],
-            symbols[4],
-            symbols[5],
-            )
-
-    @staticmethod
-    def p_chordalteration(symbols):
-        """chordalteration : ALTERATION
-                           | empty
-        """
-        symbols[0] = symbols[1]
-
-    @staticmethod
-    def p_chordmodifier(symbols):
-        """chordmodifier : MODIFIER
-                         | empty
-        """
-        symbols[0] = symbols[1]
-
-    @staticmethod
-    def p_chordaddnote(symbols):
-        """chordaddnote : ADDNOTE
-                        | empty
-        """
-        if symbols[1] is None:
-            symbols[0] = symbols[1]
-        else:
-            symbols[0] = int(symbols[1])
-
-    @staticmethod
-    def p_chordbass(symbols):
-        """chordbass : SLASH KEY chordalteration
-                        | empty
-        """
-        if len(symbols) == 2:
-            symbols[0] = None
-        else:
-            symbols[0] = (symbols[2], symbols[3])
+        """chord : CHORD"""
+        symbols[0] = ast.ChordList(*_parse_chords(symbols[1]))
 
     @staticmethod
     def p_chorus(symbols):

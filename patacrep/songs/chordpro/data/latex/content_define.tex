@@ -1,0 +1,24 @@
+\gtab{
+    ((- render(content.key) -))
+}{
+    (*- if content.basefret -*)
+        ((content.basefret)):
+    (*- endif -*)
+    (*- for string in content.frets -*)
+        (*- if string is none -*)
+            X
+        (*- else -*)
+            (( string -))
+        (* endif -*)
+    (* endfor -*)
+    (* if content.fingers -*)
+        :
+        (*- for finger in content.fingers -*)
+            (* if finger is none -*)
+                0
+            (*- else -*)
+                (( finger -))
+            (* endif -*)
+        (* endfor -*)
+    (* endif -*)
+}

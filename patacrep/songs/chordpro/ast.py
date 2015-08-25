@@ -119,7 +119,7 @@ class Space(LineElement):
 
 class ChordList(LineElement):
     """A list of chords."""
-    _template = "chord"
+    _template = "chordlist"
 
     def __init__(self, *chords):
         self.chords = chords
@@ -129,8 +129,10 @@ class ChordList(LineElement):
             [str(chord) for chord in self.chords]
             ))
 
-class Chord:
+class Chord(AST):
     """A chord."""
+
+    _template = "chord"
 
     def __init__(
             self,
@@ -163,6 +165,50 @@ class Chord:
             if self.bassalteration is not None:
                 text += self.bassalteration
         return text
+
+class Define(AST):
+    """A chord definition.
+
+    Attributes:
+
+    .. attribute:: key
+        The key, as a :class:`Chord` object.
+    .. attribute:: basefret
+        The base fret, as an integer. Can be `None` if no base fret is defined.
+    .. attribute:: frets
+        The list of frets, as a list of integers, or `None`, if this fret is not to be played.
+    .. attribute:: fingers
+        The list of fingers to use on frets, as a list of integers, or `None`
+        if no information is given (this string is not played, or is played
+        open). Can be `None` if not defined.
+    """
+    _template = "define"
+    inline = True
+
+    def __init__(self, key, basefret, frets, fingers):
+        self.key = key
+        self.basefret = basefret # Can be None
+        self.frets = frets
+        self.fingers = fingers # Can be None
+
+    def __str__(self):
+        text = str(self.key)
+        if self.basefret is not None:
+            text += " base-fret " + str(self.basefret)
+        text += " frets"
+        for fret in self.frets:
+            if fret is None:
+                text += " x"
+            else:
+                text += " " + str(fret)
+        if self.fingers:
+            text += " fingers"
+            for finger in self.fingers:
+                if finger is None:
+                    text += " -"
+                else:
+                    text += " " + str(finger)
+        return "{{define: {}}}".format(text)
 
 class Verse(AST):
     """A verse (or bridge, or chorus)"""

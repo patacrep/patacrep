@@ -36,6 +36,50 @@ def _parse_chords(string):
             TODO
         yield ast.Chord(**match.groupdict())
 
+def _parse_define(key, basefret, frets, fingers):
+    """Parse a `{define: KEY base-fret BASE frets FRETS fingers FINGERS}` directive
+
+    Return a :class:`ast.Define` object.
+    """
+    # pylint: disable=too-many-branches
+    key = list(_parse_chords(key))
+    if len(key) != 1:
+        TODO
+    else:
+        processed_key = key[0]
+
+    if basefret is None:
+        processed_basefret = None
+    else:
+        processed_basefret = int(basefret)
+
+    if frets is None:
+        processed_frets = None
+    else:
+        processed_frets = []
+        for fret in frets.split():
+            if fret == "x":
+                processed_frets.append(None)
+            else:
+                processed_frets.append(int(fret))
+
+    if fingers is None:
+        processed_fingers = None
+    else:
+        processed_fingers = []
+        for finger in fingers.split():
+            if finger == '-':
+                processed_fingers.append(None)
+            else:
+                processed_fingers.append(int(finger))
+
+    return ast.Define(
+        key=processed_key,
+        basefret=processed_basefret,
+        frets=processed_frets,
+        fingers=processed_fingers,
+        )
+
 class ChordproParser(Parser):
     """ChordPro parser class"""
     # pylint: disable=too-many-public-methods
@@ -91,6 +135,21 @@ class ChordproParser(Parser):
         else:
             symbols[4].keyword = symbols[3]
             symbols[0] = symbols[4]
+        if symbols[0].keyword == 'define':
+            match = re.compile(
+                r"""
+                    (?P<key>[^\ ]*)\ *
+                    (base-fret\ *(?P<basefret>[2-9]))?\ *
+                    frets\ *(?P<frets>((\d+|x)\ *)+)\ *
+                    (fingers\ *(?P<fingers>(([0-4-])\ *)*))?
+                """,
+                re.VERBOSE
+                ).match(symbols[0].argument)
+
+            if match is None:
+                TODO
+
+            symbols[0] = _parse_define(**match.groupdict())
 
     @staticmethod
     def p_directive_next(symbols):

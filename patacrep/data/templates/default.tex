@@ -1,23 +1,22 @@
-%! Copyright (C) 2014 The Patacrep team (www.patacrep.com)
-%!
-%! This program is free software; you can redistribute it and/or
-%! modify it under the terms of the GNU General Public License
-%! as published by the Free Software Foundation; either version 2
-%! of the License, or (at your option) any later version.
-%!
-%! This program is distributed in the hope that it will be useful,
-%! but WITHOUT ANY WARRANTY; without even the implied warranty of
-%! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-%! GNU General Public License for more details.
-%!
-%! You should have received a copy of the GNU General Public License
-%! along with this program; if not, write to the Free Software
-%! Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-%! MA  02110-1301, USA.
-%!
-%! The latest version of this program can be obtained from
-%! https://github.com/patacrep/
-
+%!- Copyright (C) 2014 The Patacrep team (www.patacrep.com)
+%!-
+%!- This program is free software; you can redistribute it and/or
+%!- modify it under the terms of the GNU General Public License
+%!- as published by the Free Software Foundation; either version 2
+%!- of the License, or (at your option) any later version.
+%!-
+%!- This program is distributed in the hope that it will be useful,
+%!- but WITHOUT ANY WARRANTY; without even the implied warranty of
+%!- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%!- GNU General Public License for more details.
+%!-
+%!- You should have received a copy of the GNU General Public License
+%!- along with this program; if not, write to the Free Software
+%!- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+%!- MA  02110-1301, USA.
+%!-
+%!- The latest version of this program can be obtained from
+%!- https://github.com/patacrep/
 
 (* variables *)
 {
@@ -40,47 +39,49 @@
                   "default": {"default": "alphascale", "french": "solfedge"}
                   }
 }
-(* endvariables *)
+(* endvariables -*)
 
-(* extends "songs.tex" *)
-(* set indexes = "titleidx,authidx" *)
+(*- extends "songs.tex" -*)
+(*- set indexes = "titleidx,authidx" -*)
 
 (* block documentclass *)
-\documentclass[(* for option in classoptions *)
-            ((option)),
-          (* endfor *)]{article}
+\documentclass[
+    (* for option in classoptions *)
+    ((option)),
+    (* endfor *)
+    ]{article}
 (* endblock *)
 
 
 (* block songbookpreambule *)
-   (( super() ))
+(( super() ))
 
-  \usepackage{chords}
+\usepackage{chords}
 
-   \title{((title))}
-   \author{((author))}
+\title{((title))}
+\author{((author))}
 
-   \newindex{titleidx}{((filename))_title}
-   \newauthorindex{authidx}{((filename))_auth}
+\newindex{titleidx}{((filename))_title}
+\newauthorindex{authidx}{((filename))_auth}
 
-   (* for prefix in titleprefixwords *)
-       \titleprefixword{((prefix))}
-   (* endfor*)
-   (* for word in authwords.ignore *)
-       \authignoreword{((word))}
-   (* endfor *)
-   (* for word in authwords.after *)
-       \authbyword{((word))}
-   (* endfor *)
-   (* for word in authwords.sep *)
-       \authsepword{((word))}
-   (* endfor *)
+(* for prefix in titleprefixwords -*)
+   \titleprefixword{((prefix))}
+(* endfor*)
+(* for word in authwords.ignore -*)
+   \authignoreword{((word))}
+(* endfor *)
+(* for word in authwords.after -*)
+   \authbyword{((word))}
+(* endfor *)
+(* for word in authwords.sep -*)
+   \authsepword{((word))}
+(* endfor *)
 
-   (* if notenamesout=="alphascale" *)
-      \notenamesout{A}{B}{C}{D}{E}{F}{G}
-    (* else *)
-      \notenamesout{La}{Si}{Do}{R\'e}{Mi}{Fa}{Sol}
-   (* endif *)
+(* if notenamesout=="alphascale" -*)
+  \notenamesout{A}{B}{C}{D}{E}{F}{G}
+(* else -*)
+  \notenamesout{La}{Si}{Do}{R\'e}{Mi}{Fa}{Sol}
+(* endif *)
 (* endblock *)
 
 (* block title *)
@@ -88,18 +89,18 @@
 (* endblock *)
 
 (* block index *)
-    \showindex{\songindexname}{titleidx}
-    \showindex{\authorindexname}{authidx}
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
 (* endblock *)
 
 (* block chords *)
-   % list of chords
-   \ifchorded
-      \ifdiagram
-         \phantomsection
-         \addcontentsline{toc}{section}{\chordlistname}
-         \chords
-      \fi
-   \fi
+% list of chords
+\ifchorded
+  \ifdiagram
+     \phantomsection
+     \addcontentsline{toc}{section}{\chordlistname}
+     \chords
+  \fi
+\fi
 (* endblock *)
 

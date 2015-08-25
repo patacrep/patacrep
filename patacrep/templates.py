@@ -22,22 +22,22 @@ _LATEX_SUBS = (
 
 _VARIABLE_REGEXP = re.compile(
     r"""
-    \(\*\ *variables\ *\*\)    # Match (* variables *)
-    (                          # Match and capture the following:
-    (?:                        # Start of non-capturing group, used to match a single character
-    (?!                        # only if it's impossible to match the following:
-    \(\*\ *                    # - a literal (*
-    (?:                        # Inner non-capturing group, used for the following alternation:
-    variables                  # - Either match the word variables
-    |                          # or
-    endvariables               # - the word endvariables
-    )                          # End of inner non-capturing group
-    \ *\*\)                    # - a literal *)
-    )                          # End of negative lookahead assertion
-    .                          # Match any single character
-    )*                         # Repeat as often as possible
-    )                          # End of capturing group 1
-    \(\*\ *endvariables\ *\*\) # until (* endvariables *) is matched.
+    \(\*-?\ *variables\ *\*\)    # Match (* variables *) or (*- variables *)
+    (                            # Match and capture the following:
+    (?:                          # Start of non-capturing group, used to match a single character
+    (?!                          # only if it's impossible to match the following:
+    \(\*-?\ *                    # - a literal (* or (*-
+    (?:                          # Inner non-capturing group, used for the following alternation:
+    variables                    # - Either match the word variables
+    |                            # or
+    endvariables                 # - the word endvariables
+    )                            # End of inner non-capturing group
+    \ *-?\*\)                    # - a literal *) or -*)
+    )                            # End of negative lookahead assertion
+    .                            # Match any single character
+    )*                           # Repeat as often as possible
+    )                            # End of capturing group 1
+    \(\*\ *endvariables\ *-?\*\) # until (* endvariables *) or (* endvariables -*) is matched.
     """,
     re.VERBOSE|re.DOTALL)
 

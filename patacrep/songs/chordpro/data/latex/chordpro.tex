@@ -1,26 +1,27 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ((path))
 
-(* if language is defined *)
-\selectlanguage{((language))}
+(* if language is defined -*)
+    \selectlanguage{((language))}
 (* endif *)
 \songcolumns{((metadata.columns))}
 
 \beginsong{((titles))}[
   by={((authors))},
   (* for (key, argument) in beginsong *)
-    ((key))={((argument))},
+  ((key))={((argument))},
   (* endfor *)
-  ]
+]
 
-  (* if (metadata.cov is defined) or (metadata.vcov is defined) *)
-  \cover
-  (* endif *)
+(* if (metadata.cov is defined) or (metadata.vcov is defined) *)
+\cover
+(* endif -*)
 
-  (* for item in content *)
-        (( render(item) ))
-  (* endfor *)
+(* for item in content -*)
+    (( render(item) ))
+(* endfor *)
 
 \endsong
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

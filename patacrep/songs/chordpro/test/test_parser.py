@@ -29,10 +29,10 @@ class ParserTxtRenderer(unittest.TestCase):
         with open("{}.sgc".format(self.basename), 'r', encoding='utf8') as sourcefile:
             with open("{}.txt".format(self.basename), 'r', encoding='utf8') as expectfile:
                 self.assertMultiLineEqual(
-                    str(chordpro.parse_song(
+                    chordpro.parse_song(
                         sourcefile.read(),
                         os.path.abspath(sourcefile.name),
-                        )).strip(),
+                        ).chordpro().strip(),
                     expectfile.read().strip().replace("DIRNAME", os.path.dirname(self.basename)),
                     )
 

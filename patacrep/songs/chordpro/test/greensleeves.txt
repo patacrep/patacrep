@@ -2,11 +2,11 @@
 {title: Un autre sous-titre}
 {title: Un sous titre}
 {by: Traditionnel}
-{album: Angleterre}
+{language: english}
 {columns: 2}
 {cov: DIRNAME/traditionnel}
-{language: english}
-========
+{album: Angleterre}
+
 {partition: DIRNAME/greensleeves.ly}
 
 {start_of_verse}

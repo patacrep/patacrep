@@ -6,18 +6,24 @@
 (* if language is defined -*)
     \selectlanguage{((language))}
 (* endif *)
-\songcolumns{((metadata.columns))}
+\songcolumns{(( metadata.columns ))}
 
 \beginsong{((titles))}[
   by={((authors))},
-  (* for (key, argument) in beginsong *)
-  ((key))={((argument))},
+  (* for key in ['album', 'copyright', 'cov', 'vcov', 'tag'] *)
+  (* if key in metadata *)
+  (( key ))={(( metadata[key] ))},
+  (* endif *)
   (* endfor *)
 ]
 
 (* if (metadata.cov is defined) or (metadata.vcov is defined) *)
 \cover
 (* endif -*)
+
+(* for chord in metadata['define'] *)
+  (( render(chord) ))
+(* endfor *)
 
 (* for item in content -*)
     (( render(item) ))

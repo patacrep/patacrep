@@ -1,4 +1,4 @@
-========
+
 {start_of_tab}
   A table
   wit many # weir [

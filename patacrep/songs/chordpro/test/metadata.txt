@@ -7,14 +7,14 @@
 {by: Author1}
 {by: Author2}
 {key: {foo: Foo}}
+{language: french}
+{language: english}
 {album: Albom}
-{capo: Capo}
 {copyright: Copyright}
 {cov: DIRNAME/Cover}
-{language: english}
-{language: french}
 {vcov: VCover}
-========
+{capo: Capo}
+
 {comment: Comment}
 {guitar_comment: GuitarComment}
 {image: DIRNAME/Image}

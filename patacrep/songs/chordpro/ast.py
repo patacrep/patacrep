@@ -2,11 +2,40 @@
 
 # pylint: disable=too-few-public-methods
 
-import functools
 import logging
 import os
 
 LOGGER = logging.getLogger()
+
+class OrderedLifoDict:
+    """Ordered (LIFO) dictionary.
+
+    Mimics the :class:`dict` dictionary, with:
+    - dictionary is ordered: the order the keys are kept (as with
+      :class:`collections.OrderedDict`), excepted that:
+    - LIFO: the last item is reterned first when iterating.
+    """
+
+    def __init__(self):
+        self._keys = []
+        self._values = {}
+
+    def values(self):
+        """Same as :meth:`dict.values`."""
+        for key in self:
+            yield self._values[key]
+
+    def __iter__(self):
+        yield from self._keys
+
+    def __setitem__(self, key, value):
+        if key not in self._keys:
+            self._keys.insert(0, key)
+        self._values[key] = value
+
+    def __getitem__(self, key):
+        return self._values[key]
+
 
 def _indent(string):
     """Return and indented version of argument."""
@@ -19,15 +48,6 @@ INLINE_PROPERTIES = {
     "comment",
     "guitar_comment",
     "image",
-    }
-
-#: List of properties that are listed in the `\beginsong` LaTeX directive.
-BEGINSONG_PROPERTIES = {
-    "album",
-    "copyright",
-    "cov",
-    "vcov",
-    "tag",
     }
 
 #: Some directive have alternative names. For instance `{title: Foo}` and `{t:
@@ -62,6 +82,10 @@ class AST:
             base = self._template
         return "content_{}.{}".format(base, extension)
 
+    def chordpro(self):
+        """Return the chordpro string corresponding to this object."""
+        raise NotImplementedError()
+
 class Line(AST):
     """A line is a sequence of (possibly truncated) words, spaces and chords."""
 
@@ -76,8 +100,8 @@ class Line(AST):
         self.line.insert(0, data)
         return self
 
-    def __str__(self):
-        return "".join([str(item) for item in self.line])
+    def chordpro(self):
+        return "".join([item.chordpro() for item in self.line])
 
     def strip(self):
         """Remove spaces at the beginning and end of line."""
@@ -94,6 +118,7 @@ class Line(AST):
 
 class LineElement(AST):
     """Something present on a line."""
+    # pylint: disable=abstract-method
     pass
 
 class Word(LineElement):
@@ -104,7 +129,7 @@ class Word(LineElement):
         super().__init__()
         self.value = value
 
-    def __str__(self):
+    def chordpro(self):
         return self.value
 
 class Space(LineElement):
@@ -114,7 +139,7 @@ class Space(LineElement):
     def __init__(self):
         super().__init__()
 
-    def __str__(self):
+    def chordpro(self):
         return " "
 
 class ChordList(LineElement):
@@ -124,9 +149,9 @@ class ChordList(LineElement):
     def __init__(self, *chords):
         self.chords = chords
 
-    def __str__(self):
+    def chordpro(self):
         return "[{}]".format(" ".join(
-            [str(chord) for chord in self.chords]
+            [chord.chordpro() for chord in self.chords]
             ))
 
 class Chord(AST):
@@ -151,7 +176,7 @@ class Chord(AST):
         self.basskey = basskey
         self.bassalteration = bassalteration
 
-    def __str__(self):
+    def chordpro(self):
         text = ""
         text += self.key
         if self.alteration is not None:
@@ -165,50 +190,6 @@ class Chord(AST):
             if self.bassalteration is not None:
                 text += self.bassalteration
         return text
-
-class Define(AST):
-    """A chord definition.
-
-    Attributes:
-
-    .. attribute:: key
-        The key, as a :class:`Chord` object.
-    .. attribute:: basefret
-        The base fret, as an integer. Can be `None` if no base fret is defined.
-    .. attribute:: frets
-        The list of frets, as a list of integers, or `None`, if this fret is not to be played.
-    .. attribute:: fingers
-        The list of fingers to use on frets, as a list of integers, or `None`
-        if no information is given (this string is not played, or is played
-        open). Can be `None` if not defined.
-    """
-    _template = "define"
-    inline = True
-
-    def __init__(self, key, basefret, frets, fingers):
-        self.key = key
-        self.basefret = basefret # Can be None
-        self.frets = frets
-        self.fingers = fingers # Can be None
-
-    def __str__(self):
-        text = str(self.key)
-        if self.basefret is not None:
-            text += " base-fret " + str(self.basefret)
-        text += " frets"
-        for fret in self.frets:
-            if fret is None:
-                text += " x"
-            else:
-                text += " " + str(fret)
-        if self.fingers:
-            text += " fingers"
-            for finger in self.fingers:
-                if finger is None:
-                    text += " -"
-                else:
-                    text += " " + str(finger)
-        return "{{define: {}}}".format(text)
 
 class Verse(AST):
     """A verse (or bridge, or chorus)"""
@@ -225,10 +206,10 @@ class Verse(AST):
         self.lines.insert(0, data)
         return self
 
-    def __str__(self):
+    def chordpro(self):
         return '{{start_of_{type}}}\n{content}\n{{end_of_{type}}}'.format(
             type=self.type,
-            content=_indent("\n".join([str(line) for line in self.lines])),
+            content=_indent("\n".join([line.chordpro() for line in self.lines])),
             )
 
 class Chorus(Verse):
@@ -248,17 +229,17 @@ class Song(AST):
         - titles: The list of titles
         - language: The language (if set), None otherwise
         - authors: The list of authors
-        - meta_beginsong: The list of directives that are to be set in the
-          `\beginsong{}` LaTeX directive.
         - meta: Every other metadata.
         """
 
     #: Some directives are added to the song using special methods.
-    METADATA_TYPE = {
+    METADATA_ADD = {
         "title": "add_title",
         "subtitle": "add_subtitle",
         "artist": "add_author",
         "key": "add_key",
+        "define": "add_cumulative",
+        "language": "add_cumulative",
         }
 
     #: Some directives have to be processed before being considered.
@@ -271,7 +252,7 @@ class Song(AST):
     def __init__(self, filename):
         super().__init__()
         self.content = []
-        self.meta = []
+        self.meta = OrderedLifoDict()
         self._authors = []
         self._titles = []
         self._subtitles = []
@@ -282,9 +263,8 @@ class Song(AST):
         """Add an element to the song"""
         if isinstance(data, Directive):
             # Some directives are preprocessed
-            name = directive_name(data.keyword)
-            if name in self.PROCESS_DIRECTIVE:
-                data = getattr(self, self.PROCESS_DIRECTIVE[name])(data)
+            if data.keyword in self.PROCESS_DIRECTIVE:
+                data = getattr(self, self.PROCESS_DIRECTIVE[data.keyword])(data)
 
         if data is None:
             # New line
@@ -300,12 +280,11 @@ class Song(AST):
             self.content.insert(0, data)
         elif isinstance(data, Directive):
             # Add a metadata directive. Some of them are added using special
-            # methods listed in ``METADATA_TYPE``.
-            name = directive_name(data.keyword)
-            if name in self.METADATA_TYPE:
-                getattr(self, self.METADATA_TYPE[name])(*data.as_tuple)
+            # methods listed in ``METADATA_ADD``.
+            if data.keyword in self.METADATA_ADD:
+                getattr(self, self.METADATA_ADD[data.keyword])(data)
             else:
-                self.meta.append(data)
+                self.meta[data.keyword] = data
         else:
             raise Exception()
         return self
@@ -316,62 +295,71 @@ class Song(AST):
             yield "{{title: {}}}".format(title)
         for author in self.authors:
             yield "{{by: {}}}".format(author)
-        for key in sorted(self.keys):
-            yield "{{key: {}}}".format(str(key))
-        for key in sorted(self.meta):
-            yield str(key)
+        for key in self.keys:
+            yield "{{key: {}}}".format(key.chordpro())
+        for value in self.meta.values():
+            if isinstance(value, list):
+                yield "\n".join([item.chordpro() for item in value])
+            else:
+                yield value.chordpro()
 
-    def __str__(self):
+    def chordpro(self):
         return (
             "\n".join(self.str_meta()).strip()
             +
-            "\n========\n"
+            "\n\n"
             +
-            "\n".join([str(item) for item in self.content]).strip()
+            "\n".join([item.chordpro() for item in self.content]).strip()
             )
 
 
-    def add_title(self, __ignored, title):
+    def add_title(self, data):
         """Add a title"""
-        self._titles.insert(0, title)
+        self._titles.insert(0, data.argument)
 
-    def add_subtitle(self, __ignored, title):
+    def add_cumulative(self, data):
+        """Add a cumulative argument into metadata"""
+        if data.keyword not in self.meta:
+            self.meta[data.keyword] = []
+        self.meta[data.keyword].insert(0, data)
+
+    def get_data_argument(self, keyword, default):
+        """Return `self.meta[keyword].argument`.
+
+        Return `default` if `self.meta[keyword]` does not exist.
+
+        If `self.meta[keyword]` is a list, return the list of `item.argument`
+        for each item in the list.
+        """
+        if keyword not in self.meta:
+            return default
+        if isinstance(self.meta[keyword], list):
+            return [item.argument for item in self.meta[keyword]]
+        else:
+            return self.meta[keyword].argument
+
+    def add_subtitle(self, data):
         """Add a subtitle"""
-        self._subtitles.insert(0, title)
+        self._subtitles.insert(0, data.argument)
 
     @property
     def titles(self):
         """Return the list of titles (and subtitles)."""
         return self._titles + self._subtitles
 
-    def add_author(self, __ignored, title):
+    def add_author(self, data):
         """Add an auhor."""
-        self._authors.insert(0, title)
+        self._authors.insert(0, data.argument)
 
     @property
     def authors(self):
         """Return the list of (raw) authors."""
         return self._authors
 
-    def get_directive(self, key, default=None):
-        """Return the first directive with a given key."""
-        for directive in self.meta:
-            if directive.keyword == directive_name(key):
-                return directive.argument
-        return default
-
-    def get_directives(self, key):
-        """Return the list of directives with a given key."""
-        values = []
-        for directive in self.meta:
-            if directive.keyword == directive_name(key):
-                values.append(directive.argument)
-        return values
-
-    def add_key(self, __ignored, argument):
+    def add_key(self, data):
         """Add a new {key: foo: bar} directive."""
-        key, *argument = argument.split(":")
-        self._keys.append(Directive(
+        key, *argument = data.argument.split(":")
+        self._keys.insert(0, Directive(
             key.strip(),
             ":".join(argument).strip(),
             ))
@@ -383,15 +371,6 @@ class Song(AST):
         That is, directive that where given of the form ``{key: foo: bar}``.
         """
         return self._keys
-
-    def meta_beginsong(self):
-        r"""Return the meta information to be put in \beginsong."""
-        for directive in BEGINSONG_PROPERTIES:
-            if self.get_directive(directive) is not None:
-                yield (directive, self.get_directive(directive))
-        for (key, value) in self.keys:
-            yield (key, value)
-
 
     def _process_relative(self, directive):
         """Return the directive, in which the argument is given relative to file
@@ -410,17 +389,15 @@ class Newline(AST):
     """New line"""
     _template = "newline"
 
-    def __str__(self):
+    def chordpro(self):
         return ""
 
-@functools.total_ordering
 class Directive(AST):
     """A directive"""
 
-    def __init__(self, keyword="", argument=None):
+    def __init__(self, keyword, argument=None):
         super().__init__()
-        self._keyword = None
-        self.keyword = keyword
+        self.keyword = directive_name(keyword.strip())
         self.argument = argument
 
     @property
@@ -432,25 +409,12 @@ class Directive(AST):
         return self.keyword
 
     @property
-    def keyword(self):
-        """Keyword of the directive."""
-        return self._keyword
-
-    @property
     def inline(self):
         """True iff this directive is to be rendered in the flow on the song.
         """
         return self.keyword in INLINE_PROPERTIES
 
-    @keyword.setter
-    def keyword(self, value):
-        """self.keyword setter
-
-        Replace keyword by its canonical name if it is a shortcut.
-        """
-        self._keyword = directive_name(value.strip())
-
-    def __str__(self):
+    def chordpro(self):
         if self.argument is not None:
             return "{{{}: {}}}".format(
                 self.keyword,
@@ -459,16 +423,54 @@ class Directive(AST):
         else:
             return "{{{}}}".format(self.keyword)
 
-    @property
-    def as_tuple(self):
-        """Return the directive as a tuple."""
-        return (self.keyword, self.argument)
+    def __str__(self):
+        return self.argument
 
-    def __eq__(self, other):
-        return self.as_tuple == other.as_tuple
+class Define(Directive):
+    """A chord definition.
 
-    def __lt__(self, other):
-        return self.as_tuple < other.as_tuple
+    Attributes:
+
+    .. attribute:: key
+        The key, as a :class:`Chord` object.
+    .. attribute:: basefret
+        The base fret, as an integer. Can be `None` if no base fret is defined.
+    .. attribute:: frets
+        The list of frets, as a list of integers, or `None`, if this fret is not to be played.
+    .. attribute:: fingers
+        The list of fingers to use on frets, as a list of integers, or `None`
+        if no information is given (this string is not played, or is played
+        open). Can be `None` if not defined.
+    """
+
+    def __init__(self, key, basefret, frets, fingers):
+        self.key = key
+        self.basefret = basefret # Can be None
+        self.frets = frets
+        self.fingers = fingers # Can be None
+        super().__init__("define", None)
+
+    def chordpro(self):
+        text = self.key.chordpro()
+        if self.basefret is not None:
+            text += " base-fret " + str(self.basefret)
+        text += " frets"
+        for fret in self.frets:
+            if fret is None:
+                text += " x"
+            else:
+                text += " " + str(fret)
+        if self.fingers:
+            text += " fingers"
+            for finger in self.fingers:
+                if finger is None:
+                    text += " -"
+                else:
+                    text += " " + str(finger)
+        return "{{define: {}}}".format(text)
+
+    def __str__(self):
+        return None
 
 class Tab(AST):
     """Tablature"""
@@ -484,7 +486,7 @@ class Tab(AST):
         self.content.insert(0, data)
         return self
 
-    def __str__(self):
+    def chordpro(self):
         return '{{start_of_tab}}\n{}\n{{end_of_tab}}'.format(
             _indent("\n".join(self.content)),
             )

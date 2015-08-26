@@ -22,28 +22,30 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.languages = song.get_directives('language')
-        self.data = dict([meta.as_tuple for meta in song.meta])
+        self.languages = song.get_data_argument('language', [self.config['lang']])
+        self.data = song.meta
         self.cached = {
             'song': song,
             }
 
     def tex(self, output):
         context = {
-            'language': self.cached['song'].get_directive('language', self.config['lang']),
-            'columns': self.cached['song'].get_directive('columns', 1),
+            'language': self.config.get(
+                'lang',
+                self.cached['song'].get_data_argument('language', 'english'),
+                ),
+            #'columns': self.cached['song'].get_data_argument('columns', 1),
             "path": files.relpath(self.fullpath, os.path.dirname(output)),
             "titles": r"\\".join(self.titles),
             "authors": ", ".join(["{} {}".format(name[1], name[0]) for name in self.authors]),
             "metadata": self.data,
-            "beginsong": self.cached['song'].meta_beginsong(),
             "render": self.render_tex,
             }
         self.texenv = Environment(loader=FileSystemLoader(os.path.join(
             os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
             'latex'
             )))
-        return self.render_tex(context, self.cached['song'].content, template="chordpro.tex")
+        return self.render_tex(context, self.cached['song'].content, template="song.tex")
 
     @contextfunction
     def render_tex(self, context, content, template=None):

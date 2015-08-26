@@ -1,4 +1,4 @@
-========
+
 {start_of_tab}
   A tab
 {end_of_tab}

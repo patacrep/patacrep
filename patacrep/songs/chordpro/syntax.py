@@ -130,12 +130,13 @@ class ChordproParser(Parser):
                      | LBRACE SPACE KEYWORD directive_next RBRACE
         """
         if len(symbols) == 5:
-            symbols[3].keyword = symbols[2]
-            symbols[0] = symbols[3]
+            keyword = symbols[2]
+            argument = symbols[3]
         else:
-            symbols[4].keyword = symbols[3]
-            symbols[0] = symbols[4]
-        if symbols[0].keyword == 'define':
+            keyword = symbols[3]
+            argument = symbols[4]
+
+        if keyword == "define":
             match = re.compile(
                 r"""
                     (?P<key>[^\ ]*)\ *
@@ -144,12 +145,14 @@ class ChordproParser(Parser):
                     (fingers\ *(?P<fingers>(([0-4-])\ *)*))?
                 """,
                 re.VERBOSE
-                ).match(symbols[0].argument)
+                ).match(argument)
 
             if match is None:
                 TODO
 
             symbols[0] = _parse_define(**match.groupdict())
+        else:
+            symbols[0] = ast.Directive(keyword, argument)
 
     @staticmethod
     def p_directive_next(symbols):
@@ -157,11 +160,12 @@ class ChordproParser(Parser):
                           | COLON TEXT
                           | empty
         """
-        symbols[0] = ast.Directive()
         if len(symbols) == 3:
-            symbols[0].argument = symbols[2].strip()
+            symbols[0] = symbols[2].strip()
         elif len(symbols) == 4:
-            symbols[0].argument = symbols[3].strip()
+            symbols[0] = symbols[3].strip()
+        else:
+            symbols[0] = None
 
     @staticmethod
     def p_line(symbols):

@@ -1,0 +1,6 @@
+
+{start_of_verse}
+  This is  invalid.
+  This [A]too.
+  And []as well.
+{end_of_verse}

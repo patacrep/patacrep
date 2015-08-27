@@ -86,6 +86,12 @@ class AST:
         """Return the chordpro string corresponding to this object."""
         raise NotImplementedError()
 
+class Error(AST):
+    """Parsing error. To be ignored."""
+
+    def chordpro(self):
+        return ""
+
 class Line(AST):
     """A line is a sequence of (possibly truncated) words, spaces and chords."""
 
@@ -266,7 +272,9 @@ class Song(AST):
             if data.keyword in self.PROCESS_DIRECTIVE:
                 data = getattr(self, self.PROCESS_DIRECTIVE[data.keyword])(data)
 
-        if data is None:
+        if isinstance(data, Error):
+            return self
+        elif data is None:
             # New line
             if not (self.content and isinstance(self.content[0], Newline)):
                 self.content.insert(0, Newline())

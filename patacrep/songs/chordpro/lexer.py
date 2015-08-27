@@ -133,28 +133,32 @@ class ChordProLexer:
         return token
 
     @staticmethod
-    def t_error(token):
-        """Manage errors"""
-        LOGGER.error("Illegal character '{}'".format(token.value[0]))
+    def error(token, more=""):
+        """Display error message, and skip illegal token."""
+        LOGGER.error(
+            "Line {line}: Illegal character '{char}'{more}.".format(
+                line=token.lexer.lineno,
+                char=token.value[0],
+                more=more,
+                )
+            )
         token.lexer.skip(1)
 
-    @staticmethod
-    def t_chord_error(token):
+    def t_error(self, token):
         """Manage errors"""
-        LOGGER.error("Illegal character '{}' in chord..".format(token.value[0]))
-        token.lexer.skip(1)
+        self.error(token)
 
-    @staticmethod
-    def t_tablature_error(token):
+    def t_chord_error(self, token):
         """Manage errors"""
-        LOGGER.error("Illegal character '{}' in tablature..".format(token.value[0]))
-        token.lexer.skip(1)
+        self.error(token, more=" in chord")
 
-    @staticmethod
-    def t_directive_error(token):
+    def t_tablature_error(self, token):
         """Manage errors"""
-        LOGGER.error("Illegal character '{}' in directive..".format(token.value[0]))
-        token.lexer.skip(1)
+        self.error(token, more=" in tablature")
+
+    def t_directive_error(self, token):
+        """Manage errors"""
+        self.error(token, more=" in directive")
 
     def t_directiveargument_error(self, token):
         """Manage errors"""

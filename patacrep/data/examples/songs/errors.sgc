@@ -1,0 +1,13 @@
+{language : english}
+{columns :  2}
+{ title : Error}
+{subtitle: A chordpro file with many errors}
+{artist: Traditionnel}
+
+{define: H4 base-fret 7 frets 2}
+{define:}
+
+Bla []bla
+Bla [H]bla
+
+

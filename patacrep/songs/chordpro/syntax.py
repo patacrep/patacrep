@@ -1,6 +1,5 @@
 """ChordPro parser"""
 
-import logging
 import ply.yacc as yacc
 import re
 
@@ -8,10 +7,9 @@ from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
-LOGGER = logging.getLogger()
-
 CHORD_RE = re.compile(
     r"""
+        ^
         (?P<key>[A-G])
         (?P<alteration>[b#])?
         (?P<modifier>(maj|sus|dim|m))?
@@ -21,64 +19,10 @@ CHORD_RE = re.compile(
             (?P<basskey>[A-G])
             (?P<bassalteration>[b#])?
         )?
+        $
     """,
     re.VERBOSE
     )
-
-def _parse_chords(string):
-    """Parse a list of chords.
-
-    Iterate over :class:`ast.Chord` objects.
-    """
-    for chord in string.split():
-        match = CHORD_RE.match(chord)
-        if match is None:
-            TODO
-        yield ast.Chord(**match.groupdict())
-
-def _parse_define(key, basefret, frets, fingers):
-    """Parse a `{define: KEY base-fret BASE frets FRETS fingers FINGERS}` directive
-
-    Return a :class:`ast.Define` object.
-    """
-    # pylint: disable=too-many-branches
-    key = list(_parse_chords(key))
-    if len(key) != 1:
-        TODO
-    else:
-        processed_key = key[0]
-
-    if basefret is None:
-        processed_basefret = None
-    else:
-        processed_basefret = int(basefret)
-
-    if frets is None:
-        processed_frets = None
-    else:
-        processed_frets = []
-        for fret in frets.split():
-            if fret == "x":
-                processed_frets.append(None)
-            else:
-                processed_frets.append(int(fret))
-
-    if fingers is None:
-        processed_fingers = None
-    else:
-        processed_fingers = []
-        for finger in fingers.split():
-            if finger == '-':
-                processed_fingers.append(None)
-            else:
-                processed_fingers.append(int(finger))
-
-    return ast.Define(
-        key=processed_key,
-        basefret=processed_basefret,
-        frets=processed_frets,
-        fingers=processed_fingers,
-        )
 
 class ChordproParser(Parser):
     """ChordPro parser class"""
@@ -124,8 +68,51 @@ class ChordproParser(Parser):
         """
         symbols[0] = None
 
-    @staticmethod
-    def p_directive(symbols):
+    def _parse_define(self, groups, *, symbols):
+        """Parse a `{define: KEY base-fret BASE frets FRETS fingers FINGERS}` directive
+
+        Return a :class:`ast.Define` object.
+        """
+        # pylint: disable=too-many-branches
+        key = list(self._parse_chords(groups['key'], symbols=symbols))
+        if len(key) != 1:
+            return None
+        else:
+            key = key[0]
+
+        if groups['basefret'] is None:
+            basefret = None
+        else:
+            basefret = int(groups['basefret'])
+
+        if groups['frets'] is None:
+            frets = None
+        else:
+            frets = []
+            for fret in groups['frets'].split():
+                if fret == "x":
+                    frets.append(None)
+                else:
+                    frets.append(int(fret))
+
+        if groups['fingers'] is None:
+            fingers = None
+        else:
+            fingers = []
+            for finger in groups['fingers'].split():
+                if finger == '-':
+                    fingers.append(None)
+                else:
+                    fingers.append(int(finger))
+
+        return ast.Define(
+            key=key,
+            basefret=basefret,
+            frets=frets,
+            fingers=fingers,
+            )
+
+    def p_directive(self, symbols):
         """directive : LBRACE KEYWORD directive_next RBRACE
                      | LBRACE SPACE KEYWORD directive_next RBRACE
         """
@@ -139,18 +126,38 @@ class ChordproParser(Parser):
         if keyword == "define":
             match = re.compile(
                 r"""
+                    ^
                     (?P<key>[^\ ]*)\ *
                     (base-fret\ *(?P<basefret>[2-9]))?\ *
                     frets\ *(?P<frets>((\d+|x)\ *)+)\ *
                     (fingers\ *(?P<fingers>(([0-4-])\ *)*))?
+                    $
                 """,
                 re.VERBOSE
                 ).match(argument)
 
             if match is None:
-                TODO
+                if argument.strip():
+                    self.error(
+                        line=symbols.lexer.lineno,
+                        message="Invalid chord definition '{}'.".format(argument),
+                        )
+                else:
+                    self.error(
+                        line=symbols.lexer.lineno,
+                        message="Invalid empty chord definition.",
+                        )
+                symbols[0] = ast.Error()
+                return
 
-            symbols[0] = _parse_define(**match.groupdict())
+            symbols[0] = self._parse_define(match.groupdict(), symbols=symbols)
+            if symbols[0] is None:
+                self.error(
+                    line=symbols.lexer.lineno,
+                    message="Invalid chord definition '{}'.".format(argument),
+                    )
+                symbols[0] = ast.Error()
+
         else:
             symbols[0] = ast.Directive(keyword, argument)
 
@@ -158,12 +165,15 @@ class ChordproParser(Parser):
     def p_directive_next(symbols):
         """directive_next : SPACE COLON TEXT
                           | COLON TEXT
+                          | COLON
                           | empty
         """
         if len(symbols) == 3:
             symbols[0] = symbols[2].strip()
         elif len(symbols) == 4:
             symbols[0] = symbols[3].strip()
+        elif len(symbols) == 2 and symbols[1] == ":":
+            symbols[0] = ""
         else:
             symbols[0] = None
 
@@ -196,10 +206,24 @@ class ChordproParser(Parser):
         """space : SPACE"""
         symbols[0] = ast.Space()
 
-    @staticmethod
-    def p_chord(symbols):
+    def _parse_chords(self, string, *, symbols):
+        """Parse a list of chords.
+
+        Iterate over :class:`ast.Chord` objects.
+        """
+        for chord in string.split():
+            match = CHORD_RE.match(chord)
+            if match is None:
+                self.error(
+                    line=symbols.lexer.lineno,
+                    message="Invalid chord '{}'.".format(chord),
+                    )
+                continue
+            yield ast.Chord(**match.groupdict())
+
+    def p_chord(self, symbols):
         """chord : CHORD"""
-        symbols[0] = ast.ChordList(*_parse_chords(symbols[1]))
+        symbols[0] = ast.ChordList(*self._parse_chords(symbols[1], symbols=symbols))
 
     @staticmethod
     def p_chorus(symbols):

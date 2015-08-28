@@ -8,8 +8,22 @@
 (* endif *)
 \songcolumns{(( metadata.columns ))}
 
-\beginsong{((titles))}[
-  by={((authors))},
+\beginsong{
+    (*- for title in titles -*)
+        (( title ))
+        (*- if not loop.last -*)
+            \\
+        (* endif *)
+    (* endfor -*)
+}[
+  by={
+      (* for author in authors *)
+        (( author[1] )) (( author[0] ))
+        (*- if not loop.last -*)
+        ,
+        (* endif *)
+      (* endfor *)
+  },
   (* for key in ['album', 'copyright', 'cov', 'vcov', 'tag'] *)
   (* if key in metadata *)
   (( key ))={(( metadata[key] ))},

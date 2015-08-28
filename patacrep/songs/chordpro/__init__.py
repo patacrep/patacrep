@@ -34,10 +34,9 @@ class ChordproSong(Song):
                 'lang',
                 self.cached['song'].get_data_argument('language', 'english'),
                 ),
-            #'columns': self.cached['song'].get_data_argument('columns', 1),
             "path": files.relpath(self.fullpath, os.path.dirname(output)),
-            "titles": r"\\".join(self.titles),
-            "authors": ", ".join(["{} {}".format(name[1], name[0]) for name in self.authors]),
+            "titles": self.titles,
+            "authors": self.authors,
             "metadata": self.data,
             "render": self.render_tex,
             }

@@ -66,28 +66,28 @@ def _escape_tex(value):
     return newval
 
 
-class TexRenderer:
+class Renderer:
     """Render a template to a LaTeX file."""
     # pylint: disable=too-few-public-methods
 
-    def __init__(self, template, texenv, encoding=None):
+    def __init__(self, template, jinjaenv, encoding=None):
         self.encoding = encoding
-        self.texenv = texenv
-        self.texenv.block_start_string = '(*'
-        self.texenv.block_end_string = '*)'
-        self.texenv.variable_start_string = '(('
-        self.texenv.variable_end_string = '))'
-        self.texenv.comment_start_string = '(% comment %)'
-        self.texenv.comment_end_string = '(% endcomment %)'
-        self.texenv.line_comment_prefix = '%!'
-        self.texenv.filters['escape_tex'] = _escape_tex
-        self.texenv.trim_blocks = True
-        self.texenv.lstrip_blocks = True
-        self.texenv.globals["path2posix"] = files.path2posix
-        self.template = self.texenv.get_template(template)
+        self.jinjaenv = jinjaenv
+        self.jinjaenv.block_start_string = '(*'
+        self.jinjaenv.block_end_string = '*)'
+        self.jinjaenv.variable_start_string = '(('
+        self.jinjaenv.variable_end_string = '))'
+        self.jinjaenv.comment_start_string = '(% comment %)'
+        self.jinjaenv.comment_end_string = '(% endcomment %)'
+        self.jinjaenv.line_comment_prefix = '%!'
+        self.jinjaenv.filters['escape_tex'] = _escape_tex
+        self.jinjaenv.trim_blocks = True
+        self.jinjaenv.lstrip_blocks = True
+        self.jinjaenv.globals["path2posix"] = files.path2posix
+        self.template = self.jinjaenv.get_template(template)
 
 
-class TexBookRenderer(TexRenderer):
+class TexBookRenderer(Renderer):
     """Tex renderer for the whole songbook"""
 
     def __init__(self, template, datadirs, lang, encoding=None):
@@ -106,17 +106,17 @@ class TexBookRenderer(TexRenderer):
             FileSystemLoader(os.path.join(datadir, 'templates'))
             for datadir in datadirs
             ]
-        texenv = Environment(
+        jinjaenv = Environment(
             loader=ChoiceLoader(loaders),
             extensions=[VariablesExtension],
             )
         try:
-            super().__init__(template, texenv, encoding)
+            super().__init__(template, jinjaenv, encoding)
         except TemplateNotFound as exception:
             # Only works if all loaders are FileSystemLoader().
             paths = [
                 item
-                for loader in self.texenv.loader.loaders
+                for loader in self.jinjaenv.loader.loaders
                 for item in loader.searchpath
                 ]
             raise errors.TemplateError(
@@ -199,13 +199,13 @@ class TexBookRenderer(TexRenderer):
         """
 
         subvariables = {}
-        templatename = self.texenv.get_template(template).filename
+        templatename = self.jinjaenv.get_template(template).filename
         with patacrep.encoding.open_read(
             templatename,
             encoding=self.encoding
             ) as template_file:
             content = template_file.read()
-        subtemplates = list(find_templates(self.texenv.parse(content)))
+        subtemplates = list(find_templates(self.jinjaenv.parse(content)))
         match = re.findall(_VARIABLE_REGEXP, content)
         if match:
             for var in match:

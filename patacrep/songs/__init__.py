@@ -10,7 +10,6 @@ import re
 
 from patacrep.authors import process_listauthors
 from patacrep import files, encoding
-from patacrep.content import Content
 
 LOGGER = logging.getLogger(__name__)
 
@@ -63,20 +62,20 @@ class DataSubpath(object):
         return self
 
 # pylint: disable=too-many-instance-attributes
-class Song(Content):
+class Song:
     """Song (or song metadata)
 
     This class represents a song, bound to a file.
 
     - It can parse the file given in arguments.
-    - It can render the song as some LaTeX code.
+    - It can render the song as some code (LaTeX, chordpro, depending on subclasses implemetation).
     - Its content is cached, so that if the file has not been changed, the
       file is not parsed again.
 
     This class is inherited by classes implementing song management for
     several file formats. Those subclasses must implement:
     - `parse()` to parse the file;
-    - `render()` to render the song as LaTeX code.
+    - `render()` to render the song as code.
     """
 
     # Version format of cached song. Increment this number if we update
@@ -166,12 +165,16 @@ class Song(Content):
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def tex(self, output): # pylint: disable=no-self-use, unused-argument
-        """Return the LaTeX code rendering this song.
+    def render(self, output, output_format):
+        """Return the code rendering this song.
 
         Arguments:
         - output: Name of the output file.
+        - output_format: Format of the output file (latex, chordpro...)
         """
+        method = "render_{}".format(output_format)
+        if hasattr(self, method):
+            return getattr(self, method)(output)
         raise NotImplementedError()
 
     def parse(self, config): # pylint: disable=no-self-use

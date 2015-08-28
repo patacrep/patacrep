@@ -34,7 +34,7 @@ class SongRenderer(Content):
 
     def render(self, context):
         """Return the string that will render the song."""
-        return self.song.tex(output=context['filename'])
+        return self.song.render(output=context['filename'], output_format="latex")
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

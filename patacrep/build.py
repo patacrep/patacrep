@@ -113,7 +113,7 @@ class Songbook(object):
             )
 
         # Configuration set
-        config['render_content'] = content.render_content
+        config['render'] = content.render
         config['content'] = content.process_content(
             config.get('content', []),
             config,

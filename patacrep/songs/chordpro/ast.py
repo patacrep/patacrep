@@ -73,14 +73,14 @@ class AST:
     _template = None
     inline = False
 
-    def template(self, extension):
+    def template(self):
         """Return the template to be used to render this object."""
         if self._template is None:
             LOGGER.warning("No template defined for {}.".format(self.__class__))
             base = "error"
         else:
             base = self._template
-        return "content_{}.{}".format(base, extension)
+        return "content_{}".format(base)
 
     def chordpro(self):
         """Return the chordpro string corresponding to this object."""

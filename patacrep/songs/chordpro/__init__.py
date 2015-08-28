@@ -7,14 +7,14 @@ import os
 from patacrep import encoding, files
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
-from patacrep.templates import TexRenderer
+from patacrep.templates import Renderer
 
 class ChordproSong(Song):
     """Chordpros song parser."""
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.texenv = None
+        self.jinjaenv = None
 
     def parse(self, config):
         """Parse content, and return the dictionary of song data."""
@@ -28,7 +28,7 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def tex(self, output):
+    def render(self, output, output_format):
         context = {
             'language': self.config.get(
                 'lang',
@@ -38,27 +38,31 @@ class ChordproSong(Song):
             "titles": self.titles,
             "authors": self.authors,
             "metadata": self.data,
-            "render": self.render_tex,
+            "render": self._render_ast,
             }
-        self.texenv = Environment(loader=FileSystemLoader(os.path.join(
+        self.jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
             os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
-            'latex'
+            output_format,
             )))
-        return self.render_tex(context, self.cached['song'].content, template="song.tex")
+        return self._render_ast(
+            context,
+            self.cached['song'].content,
+            template="song",
+            )
 
     @contextfunction
-    def render_tex(self, context, content, template=None):
-        """Render ``content`` as tex."""
+    def _render_ast(self, context, content, template=None):
+        """Render ``content``."""
         if isinstance(context, dict):
             context['content'] = content
         else:
             context.vars['content'] = content
         if template is None:
-            template = content.template('tex')
-        return TexRenderer(
+            template = content.template()
+        return Renderer(
             template=template,
             encoding='utf8',
-            texenv=self.texenv,
+            jinjaenv=self.jinjaenv,
             ).template.render(context)
 
 SONG_PARSERS = {

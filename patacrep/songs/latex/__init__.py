@@ -25,8 +25,8 @@ class LatexSong(Song):
         self.authors = [self.data['by']]
         del self.data['by']
 
-    def tex(self, output):
-        """Return the LaTeX code rendering the song."""
+    def render_latex(self, output):
+        """Return the code rendering the song."""
         return r'\input{{{}}}'.format(files.path2posix(
             files.relpath(
                 self.fullpath,

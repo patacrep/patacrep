@@ -1,0 +1,34 @@
+(* if language is defined -*)
+  {language: (( language ))}
+(* endif *)
+(* if metadata.columns is defined -*)
+  {columns: (( metadata.columns ))}
+(* endif *)
+(* if metadata.capo is defined -*)
+  {capo: (( metadata.capo ))}
+(* endif *)
+
+(*- for title in titles -*)
+  {title: (( title ))}
+(* endfor -*)
+(* for author in authors -*)
+  {artist: (( author[1] )) (( author[0] ))}
+(* endfor *)
+
+(*- for key in ['album', 'copyright', 'cov', 'vcov', 'tag'] *)
+  (* if key in metadata -*)
+    {(( key )): (( metadata[key] ))}
+  (* endif *)
+(* endfor *)
+
+(*- for key in metadata.keys -*)
+  {key: (( key.keyword )): (( key.argument ))}
+(* endfor *)
+
+(*- for chord in metadata['define'] *)
+  ((- render(chord) ))
+(* endfor *)
+
+(* for item in content -*)
+    (( render(item) ))
+(* endfor *)

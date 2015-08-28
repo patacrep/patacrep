@@ -30,10 +30,7 @@ class ChordproSong(Song):
 
     def render(self, output, output_format):
         context = {
-            'language': self.config.get(
-                'lang',
-                self.cached['song'].get_data_argument('language', 'english'),
-                ),
+            'language': self.languages[0],
             "path": files.relpath(self.fullpath, os.path.dirname(output)),
             "titles": self.titles,
             "authors": self.authors,

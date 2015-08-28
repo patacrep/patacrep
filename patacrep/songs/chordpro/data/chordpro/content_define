@@ -1,0 +1,25 @@
+{define: (( render(content.key) ))
+(*- if content.basefret *)
+ base-fret ((content.basefret))
+(*- endif *)
+ frets
+(*- for string in content.frets -*)
+  (( " " -))
+  (*- if string is none -*)
+      x
+  (*- else -*)
+      (( string -))
+  (*- endif -*)
+(*- endfor -*)
+(* if content.fingers *)
+ fingers
+ (*- for finger in content.fingers -*)
+   (( " " -))
+   (* if finger is none -*)
+     -
+   (*- else -*)
+     (( finger -))
+   (* endif -*)
+ (* endfor -*)
+(* endif -*)
+}

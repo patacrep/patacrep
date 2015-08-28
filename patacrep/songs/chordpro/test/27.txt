@@ -1,4 +1,5 @@
+{language: english}
 
 {start_of_tab}
-  A tab
+    A tab
 {end_of_tab}

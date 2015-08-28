@@ -367,18 +367,12 @@ class Song(AST):
     def add_key(self, data):
         """Add a new {key: foo: bar} directive."""
         key, *argument = data.argument.split(":")
-        self._keys.insert(0, Directive(
+        if 'keys' not in self.meta:
+            self.meta['keys'] = []
+        self.meta['keys'].insert(0, Directive(
             key.strip(),
             ":".join(argument).strip(),
             ))
-
-    @property
-    def keys(self):
-        """Return the list of keys.
-
-        That is, directive that where given of the form ``{key: foo: bar}``.
-        """
-        return self._keys
 
     def _process_relative(self, directive):
         """Return the directive, in which the argument is given relative to file
@@ -484,6 +478,7 @@ class Tab(AST):
     """Tablature"""
 
     inline = True
+    _template = "tablature"
 
     def __init__(self):
         super().__init__()

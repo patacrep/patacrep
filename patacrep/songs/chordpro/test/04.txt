@@ -1,4 +1,5 @@
+{language: english}
 
 {start_of_chorus}
-  A one line chorus
+    A one line chorus
 {end_of_chorus}

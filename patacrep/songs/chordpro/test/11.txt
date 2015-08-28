@@ -1,4 +1,5 @@
+{language: english}
 
 {start_of_verse}
-  A line ending with a chord[A]
+    A line ending with a chord[A]
 {end_of_verse}

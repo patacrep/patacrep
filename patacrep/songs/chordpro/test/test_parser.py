@@ -6,7 +6,8 @@ import glob
 import os
 import unittest
 
-from patacrep.songs.chordpro import syntax as chordpro
+from patacrep.build import DEFAULT_CONFIG
+from patacrep.songs.chordpro import ChordproSong
 
 class ParserTxtRenderer(unittest.TestCase):
     """Test parser, and renderer as a txt file."""
@@ -26,15 +27,17 @@ class ParserTxtRenderer(unittest.TestCase):
 
         if self.basename is None:
             return
-        with open("{}.sgc".format(self.basename), 'r', encoding='utf8') as sourcefile:
-            with open("{}.txt".format(self.basename), 'r', encoding='utf8') as expectfile:
-                self.assertMultiLineEqual(
-                    chordpro.parse_song(
-                        sourcefile.read(),
-                        os.path.abspath(sourcefile.name),
-                        ).chordpro().strip(),
-                    expectfile.read().strip().replace("DIRNAME", os.path.dirname(self.basename)),
-                    )
+        config = DEFAULT_CONFIG.copy()
+        config.update({
+            'encoding': 'utf8',
+            '_compiled_authwords': {},
+            })
+        with open("{}.txt".format(self.basename), 'r', encoding='utf8') as expectfile:
+            chordproname = "{}.sgc".format(self.basename)
+            self.assertMultiLineEqual(
+                ChordproSong(None, chordproname, config).render(output=chordproname, output_format="chordpro").strip(),
+                expectfile.read().strip().replace("DIRNAME", os.path.dirname(self.basename)).strip(),
+                )
 
 def load_tests(__loader, tests, __pattern):
     """Load several tests given test files present in the directory."""

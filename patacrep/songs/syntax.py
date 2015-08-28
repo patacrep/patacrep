@@ -21,13 +21,18 @@ class Parser:
         return column
 
     @staticmethod
-    def error(*, line, column=None, message=""):
+    def error(*, line=None, column=None, message=""):
         """Display an error message"""
-        text = "Line {}".format(line)
+        coordinates = []
+        if line is not None:
+            coordinates.append("line {}".format(line))
         if column is not None:
-            text += ", column {}".format(column)
-        if message:
+            coordinates.append("column {}".format(column))
+        text = ", ".join(coordinates)
+        if message and text:
             text += ": " + message
+        elif message:
+            text += message
         else:
             text += "."
         LOGGER.error(text)
@@ -36,7 +41,6 @@ class Parser:
         """Manage parsing errors."""
         if token is None:
             self.error(
-                line=token.lineno,
                 message="Unexpected end of file.",
                 )
         else:

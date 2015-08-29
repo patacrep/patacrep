@@ -11,7 +11,8 @@
 (*- for title in titles -*)
   {title: (( title ))}
 (* endfor -*)
-(* for author in authors -*)
+
+(*- for author in authors -*)
   {artist: (( author[1] )) (( author[0] ))}
 (* endfor *)
 

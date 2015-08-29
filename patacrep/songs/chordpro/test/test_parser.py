@@ -35,8 +35,14 @@ class ParserTxtRenderer(unittest.TestCase):
         with open("{}.txt".format(self.basename), 'r', encoding='utf8') as expectfile:
             chordproname = "{}.sgc".format(self.basename)
             self.assertMultiLineEqual(
-                ChordproSong(None, chordproname, config).render(output=chordproname, output_format="chordpro").strip(),
-                expectfile.read().strip().replace("DIRNAME", os.path.dirname(self.basename)).strip(),
+                ChordproSong(None, chordproname, config).render(
+                    output=chordproname,
+                    output_format="chordpro",
+                    ).strip(),
+                expectfile.read().replace(
+                    "DIRNAME",
+                    os.path.dirname(self.basename),
+                    ).strip(),
                 )
 
 def load_tests(__loader, tests, __pattern):

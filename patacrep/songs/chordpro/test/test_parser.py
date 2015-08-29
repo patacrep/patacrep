@@ -10,6 +10,10 @@ from patacrep.build import DEFAULT_CONFIG
 from patacrep.songs.chordpro import ChordproSong
 from patacrep.test import disable_logging
 
+LANGUAGES = {
+    'tex': 'latex',
+    'sgc': 'chordpro',
+}
 
 class TestParsingRendering(unittest.TestCase):
     """Test parsing and rendering"""
@@ -26,17 +30,21 @@ class TestParsingRendering(unittest.TestCase):
                 '*.source',
             ))):
             base = source[:-len(".source")]
-            with open("{}.sgc".format(base), 'r', encoding='utf8') as expectfile:
-                chordproname = "{}.source".format(base)
-                with disable_logging():
-                    with self.subTest(base=os.path.basename(base)):
-                        self.assertMultiLineEqual(
-                            ChordproSong(None, chordproname, config).render(
-                                output=chordproname,
-                                output_format="chordpro",
-                                ).strip(),
-                            expectfile.read().replace(
-                                "DIRNAME",
-                                os.path.dirname(base),
-                                ).strip(),
-                            )
+            for dest in LANGUAGES:
+                destname = "{}.{}".format(base, dest)
+                if not os.path.exists(destname):
+                    continue
+                with open(destname, 'r', encoding='utf8') as expectfile:
+                    chordproname = "{}.source".format(base)
+                    with disable_logging():
+                        with self.subTest(base=os.path.basename(base), format=dest):
+                            self.assertMultiLineEqual(
+                                ChordproSong(None, chordproname, config).render(
+                                    output=chordproname,
+                                    output_format=LANGUAGES[dest],
+                                    ).strip(),
+                                expectfile.read().replace(
+                                    "DIRNAME",
+                                    os.path.dirname(base),
+                                    ).strip(),
+                                )

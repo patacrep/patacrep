@@ -1,12 +1,10 @@
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ((path))
-
 (* if language is defined -*)
     \selectlanguage{((language))}
 (* endif *)
+
+(*- if metadata.columns is defined *)
 \songcolumns{(( metadata.columns ))}
+(* endif *)
 
 \beginsong{
     (*- for title in titles -*)
@@ -33,9 +31,9 @@
 
 (* if (metadata.cov is defined) or (metadata.vcov is defined) *)
 \cover
-(* endif -*)
+(* endif *)
 
-(* for chord in metadata['define'] *)
+(*- for chord in metadata['define'] *)
   (( render(chord) ))
 (* endfor *)
 
@@ -44,5 +42,3 @@
 (* endfor *)
 
 \endsong
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-

@@ -82,15 +82,8 @@ class AST:
             base = self._template
         return "content_{}".format(base)
 
-    def chordpro(self):
-        """Return the chordpro string corresponding to this object."""
-        raise NotImplementedError()
-
 class Error(AST):
     """Parsing error. To be ignored."""
-
-    def chordpro(self):
-        return ""
 
 class Line(AST):
     """A line is a sequence of (possibly truncated) words, spaces and chords."""
@@ -105,9 +98,6 @@ class Line(AST):
         """Add an object at the beginning of line."""
         self.line.insert(0, data)
         return self
-
-    def chordpro(self):
-        return "".join([item.chordpro() for item in self.line])
 
     def strip(self):
         """Remove spaces at the beginning and end of line."""
@@ -135,9 +125,6 @@ class Word(LineElement):
         super().__init__()
         self.value = value
 
-    def chordpro(self):
-        return self.value
-
 class Space(LineElement):
     """A space between words"""
     _template = "space"
@@ -145,20 +132,12 @@ class Space(LineElement):
     def __init__(self):
         super().__init__()
 
-    def chordpro(self):
-        return " "
-
 class ChordList(LineElement):
     """A list of chords."""
     _template = "chordlist"
 
     def __init__(self, *chords):
         self.chords = chords
-
-    def chordpro(self):
-        return "[{}]".format(" ".join(
-            [chord.chordpro() for chord in self.chords]
-            ))
 
 class Chord(AST):
     """A chord."""
@@ -182,21 +161,6 @@ class Chord(AST):
         self.basskey = basskey
         self.bassalteration = bassalteration
 
-    def chordpro(self):
-        text = ""
-        text += self.key
-        if self.alteration is not None:
-            text += self.alteration
-        if self.modifier is not None:
-            text += self.modifier
-        if self.addnote is not None:
-            text += str(self.addnote)
-        if self.basskey is not None:
-            text += "/" + self.basskey
-            if self.bassalteration is not None:
-                text += self.bassalteration
-        return text
-
 class Verse(AST):
     """A verse (or bridge, or chorus)"""
     _template = "verse"
@@ -211,12 +175,6 @@ class Verse(AST):
         """Add data at the beginning of verse."""
         self.lines.insert(0, data)
         return self
-
-    def chordpro(self):
-        return '{{start_of_{type}}}\n{content}\n{{end_of_{type}}}'.format(
-            type=self.type,
-            content=_indent("\n".join([line.chordpro() for line in self.lines])),
-            )
 
 class Chorus(Verse):
     """Chorus"""
@@ -297,30 +255,6 @@ class Song(AST):
             raise Exception()
         return self
 
-    def str_meta(self):
-        """Return an iterator over *all* metadata, as strings."""
-        for title in self.titles:
-            yield "{{title: {}}}".format(title)
-        for author in self.authors:
-            yield "{{by: {}}}".format(author)
-        for key in self.keys:
-            yield "{{key: {}}}".format(key.chordpro())
-        for value in self.meta.values():
-            if isinstance(value, list):
-                yield "\n".join([item.chordpro() for item in value])
-            else:
-                yield value.chordpro()
-
-    def chordpro(self):
-        return (
-            "\n".join(self.str_meta()).strip()
-            +
-            "\n\n"
-            +
-            "\n".join([item.chordpro() for item in self.content]).strip()
-            )
-
-
     def add_title(self, data):
         """Add a title"""
         self._titles.insert(0, data.argument)
@@ -391,9 +325,6 @@ class Newline(AST):
     """New line"""
     _template = "newline"
 
-    def chordpro(self):
-        return ""
-
 class Directive(AST):
     """A directive"""
 
@@ -415,15 +346,6 @@ class Directive(AST):
         """True iff this directive is to be rendered in the flow on the song.
         """
         return self.keyword in INLINE_PROPERTIES
-
-    def chordpro(self):
-        if self.argument is not None:
-            return "{{{}: {}}}".format(
-                self.keyword,
-                self.argument,
-                )
-        else:
-            return "{{{}}}".format(self.keyword)
 
     def __str__(self):
         return self.argument
@@ -452,25 +374,6 @@ class Define(Directive):
         self.fingers = fingers # Can be None
         super().__init__("define", None)
 
-    def chordpro(self):
-        text = self.key.chordpro()
-        if self.basefret is not None:
-            text += " base-fret " + str(self.basefret)
-        text += " frets"
-        for fret in self.frets:
-            if fret is None:
-                text += " x"
-            else:
-                text += " " + str(fret)
-        if self.fingers:
-            text += " fingers"
-            for finger in self.fingers:
-                if finger is None:
-                    text += " -"
-                else:
-                    text += " " + str(finger)
-        return "{{define: {}}}".format(text)
-
     def __str__(self):
         return None
 
@@ -488,9 +391,3 @@ class Tab(AST):
         """Add an element at the beginning of content."""
         self.content.insert(0, data)
         return self
-
-    def chordpro(self):
-        return '{{start_of_tab}}\n{}\n{{end_of_tab}}'.format(
-            _indent("\n".join(self.content)),
-            )
-

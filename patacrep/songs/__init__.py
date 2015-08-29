@@ -143,7 +143,7 @@ class Song:
             ]
         self.authors = process_listauthors(
             self.authors,
-            **config["_compiled_authwords"]
+            **config.get("_compiled_authwords", {})
             )
 
         # Cache management

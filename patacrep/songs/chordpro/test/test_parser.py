@@ -20,7 +20,6 @@ class TestParsingRendering(unittest.TestCase):
         config = DEFAULT_CONFIG.copy()
         config.update({
             'encoding': 'utf8',
-            '_compiled_authwords': {},
             })
         for source in sorted(glob.glob(os.path.join(
                 os.path.dirname(__file__),

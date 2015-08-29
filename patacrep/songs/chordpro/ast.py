@@ -16,9 +16,13 @@ class OrderedLifoDict:
     - LIFO: the last item is reterned first when iterating.
     """
 
-    def __init__(self):
-        self._keys = []
-        self._values = {}
+    def __init__(self, default=None):
+        if default is None:
+            self._keys = []
+            self._values = {}
+        else:
+            self._keys = list(default.keys())
+            self._values = default.copy()
 
     def values(self):
         """Same as :meth:`dict.values`."""
@@ -35,7 +39,6 @@ class OrderedLifoDict:
 
     def __getitem__(self, key):
         return self._values[key]
-
 
 def _indent(string):
     """Return and indented version of argument."""

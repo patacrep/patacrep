@@ -41,10 +41,10 @@ class SongRenderer(Content):
 
                 {song}
                 """).format(
-            separator="%"*80,
-            path=self.song.subpath,
-            song=self.song.render(output=context['filename'], output_format="latex"),
-            )
+                    separator="%"*80,
+                    path=self.song.subpath,
+                    song=self.song.render(output=context['filename'], output_format="latex"),
+                )
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

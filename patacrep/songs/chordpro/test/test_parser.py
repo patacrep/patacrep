@@ -21,6 +21,12 @@ class TestParsingRendering(unittest.TestCase):
     maxDiff = None
 
     def test_all(self):
+        """Test all `*.source` files.
+
+        For any given `foo.source`, it is parsed as a chordpro file, and
+        should be rendered as `foo.sgc` with the chordpro renderer, and
+        `foo.tex` with the latex renderer.
+        """
         config = DEFAULT_CONFIG.copy()
         config.update({
             'encoding': 'utf8',

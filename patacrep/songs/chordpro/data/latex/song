@@ -27,6 +27,9 @@
   (( key ))={(( metadata[key] ))},
   (* endif *)
   (* endfor *)
+  (* for key in metadata.keys *)
+  (( key.keyword ))={(( key.argument ))},
+  (* endfor *)
 ]
 
 (* if (metadata.cov is defined) or (metadata.vcov is defined) *)

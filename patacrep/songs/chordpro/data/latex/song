@@ -33,7 +33,7 @@
 \cover
 (* endif *)
 
-(*- for chord in metadata['define'] *)
+(*- for chord in metadata['define'] -*)
   (( render(chord) ))
 (* endfor *)
 

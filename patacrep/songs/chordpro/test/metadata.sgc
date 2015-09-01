@@ -10,11 +10,10 @@
 {artist:  Author2}
 {album: Album}
 {copyright: Copyright}
-{cov: DIRNAME/Cover}
-{vcov: VCover}
+{cov: Cover}
 {key: foo: Foo}
 
 {comment: Comment}
 {guitar_comment: GuitarComment}
-{image: DIRNAME/Image}
-{partition: DIRNAME/Lilypond}
+{image: Image}
+{partition: Lilypond}

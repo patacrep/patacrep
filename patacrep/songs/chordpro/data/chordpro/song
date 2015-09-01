@@ -16,7 +16,7 @@
   {artist: (( author[1] )) (( author[0] ))}
 (* endfor *)
 
-(*- for key in ['album', 'copyright', 'cov', 'vcov', 'tag'] *)
+(*- for key in ['album', 'copyright', 'cov', 'tag'] *)
   (* if key in metadata -*)
     {(( key )): (( metadata[key] ))}
   (* endif *)

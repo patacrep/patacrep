@@ -202,3 +202,39 @@ def unprefixed_title(title, prefixes):
         if match:
             return match.group(2)
     return title
+
+def search_image(image, chordprofile, config):
+    """Return the file name of an image, so that LaTeX will find it.
+
+    :param str image: The name, as provided in the chordpro file.
+    :param str chordprofile: The name of the file including this image.
+    :param dict config: Songbook configuration dictionary.
+
+    The image can be:
+
+    - in the same directory as the including song file;
+    - in the same directory as the main LaTeX file;
+    - in some of the `DATADIR/img` directories.
+
+    If image is not found, the `image` argument is returned.
+    """
+    # Image is in the same folder as its song
+    texdir = os.path.dirname(chordprofile)
+    if os.path.exists(os.path.join(texdir, image)):
+        return os.path.join(texdir, image)
+
+    # Image is in the same directory as the main tex file
+    rootdir = os.path.dirname(os.path.join(
+        os.getcwd(),
+        config['filename'],
+        ))
+    if os.path.exists(os.path.join(rootdir, image)):
+        return image
+
+    # Image is in a datadir
+    for directory in config['datadir']:
+        if os.path.exists(os.path.join(directory, 'img', image)):
+            return os.path.join(directory, 'img', image)
+
+    # Could not find image
+    return image

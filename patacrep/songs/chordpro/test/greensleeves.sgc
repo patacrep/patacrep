@@ -5,11 +5,11 @@
 {title: Un sous titre}
 {artist:  Traditionnel}
 {album: Angleterre}
-{cov: DIRNAME/traditionnel}
+{cov: traditionnel}
 
 
 
-{partition: DIRNAME/greensleeves.ly}
+{partition: greensleeves.ly}
 
 
 {start_of_verse}

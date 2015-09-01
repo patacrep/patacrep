@@ -1,0 +1,10 @@
+\beginsong{Image included from root directory\\\LaTeX}
+  [cov={root}]
+
+  \cover
+
+  \lilypond{root.ly}
+
+  \image{root}
+
+\endsong

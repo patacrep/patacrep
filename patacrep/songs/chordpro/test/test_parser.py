@@ -42,6 +42,7 @@ class TestParsingRendering(unittest.TestCase):
                     continue
                 with open(destname, 'r', encoding='utf8') as expectfile:
                     chordproname = "{}.source".format(base)
+                    config['filename'] = chordproname
                     with disable_logging():
                         with self.subTest(base=os.path.basename(base), format=dest):
                             self.assertMultiLineEqual(
@@ -49,8 +50,5 @@ class TestParsingRendering(unittest.TestCase):
                                     output=chordproname,
                                     output_format=LANGUAGES[dest],
                                     ).strip(),
-                                expectfile.read().replace(
-                                    "DIRNAME",
-                                    os.path.dirname(base),
-                                    ).strip(),
+                                expectfile.read().strip(),
                                 )

@@ -1,1 +1,1 @@
-\lilypond{((content.argument))}
+\lilypond{ ((- content.argument|search_image(path, config) -)) }

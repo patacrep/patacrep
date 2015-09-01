@@ -1,1 +1,1 @@
-\image{(( content.argument ))}
+\image{(( content.argument|search_image(path, config) ))}

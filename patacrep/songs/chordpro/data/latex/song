@@ -22,17 +22,20 @@
         (* endif *)
       (* endfor *)
   },
-  (* for key in ['album', 'copyright', 'cov', 'vcov', 'tag'] *)
+  (* for key in ['album', 'copyright', 'tag'] *)
   (* if key in metadata *)
   (( key ))={(( metadata[key] ))},
   (* endif *)
   (* endfor *)
+  (* if 'cov' in metadata *)
+  cov={(( metadata["cov"].argument|search_image(path, config) ))},
+  (* endif *)
   (* for key in metadata.keys *)
   (( key.keyword ))={(( key.argument ))},
   (* endfor *)
 ]
 
-(* if (metadata.cov is defined) or (metadata.vcov is defined) *)
+(* if (metadata.cov is defined) *)
 \cover
 (* endif *)
 

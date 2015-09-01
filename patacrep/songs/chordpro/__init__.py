@@ -5,7 +5,7 @@ import pkg_resources
 import os
 
 from patacrep import encoding, files
-from patacrep.songs import Song
+from patacrep.songs import Song, search_image
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
 
@@ -36,11 +36,13 @@ class ChordproSong(Song):
             "authors": self.authors,
             "metadata": self.data,
             "render": self._render_ast,
+            "config": self.config,
             }
         self.jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
             os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
             output_format,
             )))
+        self.jinjaenv.filters['search_image'] = search_image
         return self._render_ast(
             context,
             self.cached['song'].content,

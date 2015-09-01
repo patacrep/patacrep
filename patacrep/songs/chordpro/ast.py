@@ -3,7 +3,6 @@
 # pylint: disable=too-few-public-methods
 
 import logging
-import os
 
 LOGGER = logging.getLogger()
 
@@ -63,7 +62,6 @@ DIRECTIVE_SHORTCUTS = {
     "c": "comment",
     "gc": "guitar_comment",
     "cover": "cov",
-    "vcover": "vcov",
     }
 
 def directive_name(text):
@@ -209,13 +207,6 @@ class Song(AST):
         "language": "add_cumulative",
         }
 
-    #: Some directives have to be processed before being considered.
-    PROCESS_DIRECTIVE = {
-        "cov": "_process_relative",
-        "partition": "_process_relative",
-        "image": "_process_relative",
-        }
-
     def __init__(self, filename):
         super().__init__()
         self.content = []
@@ -228,11 +219,6 @@ class Song(AST):
 
     def add(self, data):
         """Add an element to the song"""
-        if isinstance(data, Directive):
-            # Some directives are preprocessed
-            if data.keyword in self.PROCESS_DIRECTIVE:
-                data = getattr(self, self.PROCESS_DIRECTIVE[data.keyword])(data)
-
         if isinstance(data, Error):
             return self
         elif data is None:
@@ -310,19 +296,6 @@ class Song(AST):
             key.strip(),
             ":".join(argument).strip(),
             ))
-
-    def _process_relative(self, directive):
-        """Return the directive, in which the argument is given relative to file
-
-        This argument is expected to be a path (as a string).
-        """
-        return Directive(
-            directive.keyword,
-            os.path.join(
-                os.path.dirname(self.filename),
-                directive.argument,
-                ),
-            )
 
 class Newline(AST):
     """New line"""

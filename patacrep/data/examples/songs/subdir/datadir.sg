@@ -1,0 +1,10 @@
+\beginsong{Image included from datadir\\\LaTeX}
+  [cov={datadir}]
+
+  \cover
+
+  \lilypond{datadir.ly}
+
+  \image{datadir}
+
+\endsong

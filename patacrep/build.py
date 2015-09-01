@@ -33,6 +33,7 @@ DEFAULT_CONFIG = {
     'content': [],
     'titleprefixwords': [],
     'encoding': None,
+    'datadir': [],
     }
 
 

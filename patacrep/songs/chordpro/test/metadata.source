@@ -11,7 +11,6 @@
 {album: Album}
 {copyright: Copyright}
 {cover: Cover}
-{vcover: VCover}
 {capo: Capo}
 {key: foo: Foo}
 {comment: Comment}

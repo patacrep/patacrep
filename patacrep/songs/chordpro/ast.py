@@ -153,6 +153,7 @@ class Chord(AST):
             addnote=None,
             basskey=None,
             bassalteration=None,
+            star=None,
         ):
         # pylint: disable=too-many-arguments
         self.key = key
@@ -161,6 +162,7 @@ class Chord(AST):
         self.addnote = addnote
         self.basskey = basskey
         self.bassalteration = bassalteration
+        self.star = star
 
 class Verse(AST):
     """A verse (or bridge, or chorus)"""

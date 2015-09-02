@@ -8,4 +8,5 @@
     ((- content.basskey -))
     (* if content.bassalteration == '#' *)#(* endif -*)
     (* if content.bassalteration == 'b' *)&(* endif -*)
+(* if content.star *)*(* endif -*)
 (* endif -*)

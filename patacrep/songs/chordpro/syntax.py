@@ -12,13 +12,14 @@ CHORD_RE = re.compile(
         ^
         (?P<key>[A-G])
         (?P<alteration>[b#])?
-        (?P<modifier>(maj|sus|dim|m))?
+        (?P<modifier>(maj|sus|dim|m|\+))?
         (?P<addnote>[2-9])?
         (
             /
             (?P<basskey>[A-G])
             (?P<bassalteration>[b#])?
         )?
+        (?P<star>\*)?
         $
     """,
     re.VERBOSE
@@ -223,7 +224,7 @@ class ChordproParser(Parser):
 
     def p_chord(self, symbols):
         """chord : CHORD"""
-        symbols[0] = ast.ChordList(*self._parse_chords(symbols[1], symbols=symbols))
+        symbols[0] = ast.ChordList(*list(self._parse_chords(symbols[1], symbols=symbols)))
 
     @staticmethod
     def p_chorus(symbols):

@@ -39,7 +39,7 @@ class ChordProLexer:
 
     t_SPACE = r'[ \t]+'
 
-    t_chord_CHORD = r'[A-G#bmajdisus2-9/ ]+'
+    t_chord_CHORD = r'[A-G#bmajdisus+*2-9/ ]+'
 
     t_directive_SPACE = r'[ \t]+'
     t_directive_KEYWORD = r'[a-zA-Z_]+'

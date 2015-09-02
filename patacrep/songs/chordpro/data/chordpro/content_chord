@@ -1,10 +1,1 @@
-((- content.key -))
-(* if content.alteration *)(( content.alteration ))(* endif -*)
-(* if content.modifier *)((content.modifier))(* endif -*)
-(* if content.addnote *)((content.addnote))(* endif -*)
-(* if content.basskey -*)
-    /
-    ((- content.basskey -))
-    (* if content.bassalteration *)(( content.bassalteration ))(* endif -*)
-(* if content.star *)*(* endif -*)
-(* endif -*)
+((- content.chord -))

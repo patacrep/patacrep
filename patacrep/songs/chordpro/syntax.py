@@ -7,24 +7,6 @@ from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
-CHORD_RE = re.compile(
-    r"""
-        ^
-        (?P<key>[A-G])
-        (?P<alteration>[b#])?
-        (?P<modifier>(maj|sus|dim|m|\+))?
-        (?P<addnote>[2-9])?
-        (
-            /
-            (?P<basskey>[A-G])
-            (?P<bassalteration>[b#])?
-        )?
-        (?P<star>\*)?
-        $
-    """,
-    re.VERBOSE
-    )
-
 class ChordproParser(Parser):
     """ChordPro parser class"""
     # pylint: disable=too-many-public-methods
@@ -69,17 +51,17 @@ class ChordproParser(Parser):
         """
         symbols[0] = None
 
-    def _parse_define(self, groups, *, symbols):
+    @staticmethod
+    def _parse_define(groups):
         """Parse a `{define: KEY base-fret BASE frets FRETS fingers FINGERS}` directive
 
         Return a :class:`ast.Define` object.
         """
         # pylint: disable=too-many-branches
-        key = list(self._parse_chords(groups['key'], symbols=symbols))
-        if len(key) != 1:
+        if not groups['key'].strip():
             return None
         else:
-            key = key[0]
+            key = ast.Chord(groups['key'].strip())
 
         if groups['basefret'] is None:
             basefret = None
@@ -151,7 +133,7 @@ class ChordproParser(Parser):
                 symbols[0] = ast.Error()
                 return
 
-            symbols[0] = self._parse_define(match.groupdict(), symbols=symbols)
+            symbols[0] = self._parse_define(match.groupdict())
             if symbols[0] is None:
                 self.error(
                     line=symbols.lexer.lineno,
@@ -207,24 +189,10 @@ class ChordproParser(Parser):
         """space : SPACE"""
         symbols[0] = ast.Space()
 
-    def _parse_chords(self, string, *, symbols):
-        """Parse a list of chords.
-
-        Iterate over :class:`ast.Chord` objects.
-        """
-        for chord in string.split():
-            match = CHORD_RE.match(chord)
-            if match is None:
-                self.error(
-                    line=symbols.lexer.lineno,
-                    message="Invalid chord '{}'.".format(chord),
-                    )
-                continue
-            yield ast.Chord(**match.groupdict())
-
-    def p_chord(self, symbols):
+    @staticmethod
+    def p_chord(symbols):
         """chord : CHORD"""
-        symbols[0] = ast.ChordList(*list(self._parse_chords(symbols[1], symbols=symbols)))
+        symbols[0] = ast.ChordList(*[ast.Chord(chord) for chord in symbols[1].split()])
 
     @staticmethod
     def p_chorus(symbols):

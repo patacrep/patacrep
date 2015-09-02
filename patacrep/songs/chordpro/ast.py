@@ -145,24 +145,9 @@ class Chord(AST):
 
     _template = "chord"
 
-    def __init__(
-            self,
-            key,
-            alteration=None,
-            modifier=None,
-            addnote=None,
-            basskey=None,
-            bassalteration=None,
-            star=None,
-        ):
+    def __init__(self, chord):
         # pylint: disable=too-many-arguments
-        self.key = key
-        self.alteration = alteration
-        self.modifier = modifier
-        self.addnote = addnote
-        self.basskey = basskey
-        self.bassalteration = bassalteration
-        self.star = star
+        self.chord = chord
 
 class Verse(AST):
     """A verse (or bridge, or chorus)"""

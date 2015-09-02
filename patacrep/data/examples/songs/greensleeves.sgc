@@ -4,7 +4,7 @@
 {subtitle: Test of the chordpro format}
 {artist: Traditionnel}
 {artist: Prénom Nom}
-{cover : traditionnel }
+{cover : traditionnel.jpg }
 {album :Angleterre}
 
 {partition : greensleeves.ly}
@@ -41,7 +41,7 @@ And [Am]all this [E]cost I [Am]spent on thee
 
 {gc: test of guitar comment}
 
-{image: traditionnel}
+{image: traditionnel.jpg}
 
 Thy [Am]smock of silke, both [G]faire and white
 With [Am]gold embrodered [E]gorgeously

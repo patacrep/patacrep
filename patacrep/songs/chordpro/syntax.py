@@ -73,7 +73,7 @@ class ChordproParser(Parser):
         else:
             frets = []
             for fret in groups['frets'].split():
-                if fret == "x":
+                if fret in "xX":
                     frets.append(None)
                 else:
                     frets.append(int(fret))
@@ -112,7 +112,7 @@ class ChordproParser(Parser):
                     ^
                     (?P<key>[^\ ]*)\ *
                     (base-fret\ *(?P<basefret>[2-9]))?\ *
-                    frets\ *(?P<frets>((\d+|x)\ *)+)\ *
+                    frets\ *(?P<frets>((\d+|x|X)\ *)+)\ *
                     (fingers\ *(?P<fingers>(([0-4-])\ *)*))?
                     $
                 """,

@@ -111,7 +111,7 @@ class ChordproParser(Parser):
                 r"""
                     ^
                     (?P<key>[^\ ]*)\ *
-                    (base-fret\ *(?P<basefret>[1-9]\d*))?\ *
+                    (base-fret\ *(?P<basefret>\d{2}))?\ *
                     frets\ *(?P<frets>((\d+|x|X)\ *)+)\ *
                     (fingers\ *(?P<fingers>(([0-4-])\ *)*))?
                     $

@@ -1,4 +1,5 @@
-% TODO TABLATURE
-% (* for foo in content.content *)
-%   (( foo ))
-% (* endfor *)
+\begin{verbatim}
+(* for content in content.content *)
+  ((- content ))
+(* endfor *)
+\end{verbatim}

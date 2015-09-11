@@ -20,14 +20,31 @@ class Parser:
         column = (token.lexpos - last_cr) + 1
         return column
 
+    @staticmethod
+    def error(*, line=None, column=None, message=""):
+        """Display an error message"""
+        coordinates = []
+        if line is not None:
+            coordinates.append("line {}".format(line))
+        if column is not None:
+            coordinates.append("column {}".format(column))
+        text = ", ".join(coordinates)
+        if message and text:
+            text += ": " + message
+        elif message:
+            text += message
+        else:
+            text += "."
+        LOGGER.error(text)
+
     def p_error(self, token):
         """Manage parsing errors."""
-        if token:
-            LOGGER.error(
-                "Error in file {}, line {}:{}.".format(
-                    str(self.filename),
-                    token.lineno,
-                    self.__find_column(token),
-                    )
+        if token is None:
+            self.error(
+                message="Unexpected end of file.",
                 )
-
+        else:
+            self.error(
+                line=token.lineno,
+                column=self.__find_column(token),
+                )

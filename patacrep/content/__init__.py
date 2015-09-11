@@ -131,7 +131,7 @@ class ContentError(SongbookError):
         return "Content: {}: {}".format(self.keyword, self.message)
 
 @jinja2.contextfunction
-def render_content(context, content):
+def render(context, content):
     """Render the content of the songbook as a LaTeX code.
 
     Arguments:

@@ -1,0 +1,17 @@
+{
+"bookoptions" : [
+    "diagram",
+    "repeatchords",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"template" : "patacrep.tex",
+"lang" : "french",
+"encoding": "utf8",
+"authwords" : {
+  "sep" : ["and", "et"]
+  },
+ "content": [["sorted", "subdir/*.sg", "subdir/*.sgc"]]
+
+}

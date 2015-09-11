@@ -4,6 +4,7 @@ import glob
 import jinja2
 import logging
 import os
+import textwrap
 
 from patacrep.content import process_content, ContentError, Content
 from patacrep import files, errors
@@ -34,7 +35,16 @@ class SongRenderer(Content):
 
     def render(self, context):
         """Return the string that will render the song."""
-        return self.song.tex(output=context['filename'])
+        return textwrap.dedent("""\
+                {separator}
+                %% {path}
+
+                {song}
+                """).format(
+                    separator="%"*80,
+                    path=self.song.subpath,
+                    song=self.song.render(output=context['filename'], output_format="latex"),
+                )
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

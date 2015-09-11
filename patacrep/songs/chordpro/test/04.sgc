@@ -1,3 +1,5 @@
-{soc}
-A one line chorus
-{eoc}
+{language: english}
+
+{start_of_chorus}
+    A one line chorus
+{end_of_chorus}

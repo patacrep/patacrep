@@ -1,0 +1,5 @@
+{define : }
+{define: base-fret 7 frets 0 1 3 3 x x}
+{define: E4 base-fret frets 0 1 3 3 x x}
+{define: E4 base-fret H frets 0 1 3 3 x A}
+{define: E5 base-fret 7 frets 0 1 3 3 x x fingers - 1 2 3 - A}

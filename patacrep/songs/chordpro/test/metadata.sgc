@@ -1,19 +1,18 @@
-{subtitle: Subtitle3}
+{language: french}
+{capo: Capo}
 {title: Title}
 {title: Subtitle1}
-{subtitle: Subtitle4}
-{t: Subtitle2}
-{st: Subtitle5}
-{language: french}
-{language: english}
-{by: Author1}
-{artist: Author2}
-{album: Albom}
+{title: Subtitle2}
+{title: Subtitle3}
+{title: Subtitle4}
+{title: Subtitle5}
+{artist:  Author1}
+{artist:  Author2}
+{album: Album}
 {copyright: Copyright}
-{cover: Cover}
-{vcover: VCover}
-{capo: Capo}
+{cov: Cover}
 {key: foo: Foo}
+
 {comment: Comment}
 {guitar_comment: GuitarComment}
 {image: Image}

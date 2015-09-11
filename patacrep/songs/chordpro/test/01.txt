@@ -1,4 +1,0 @@
-========
-{start_of_verse}
-  A verse line
-{end_of_verse}

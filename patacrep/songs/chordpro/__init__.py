@@ -5,16 +5,16 @@ import pkg_resources
 import os
 
 from patacrep import encoding, files
-from patacrep.songs import Song
+from patacrep.songs import Song, search_image
 from patacrep.songs.chordpro.syntax import parse_song
-from patacrep.templates import TexRenderer
+from patacrep.templates import Renderer
 
 class ChordproSong(Song):
     """Chordpros song parser."""
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.texenv = None
+        self.jinjaenv = None
 
     def parse(self, config):
         """Parse content, and return the dictionary of song data."""
@@ -22,42 +22,46 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.languages = song.get_directives('language')
-        self.data = dict([meta.as_tuple for meta in song.meta])
+        self.languages = song.get_data_argument('language', [self.config['lang']])
+        self.data = song.meta
         self.cached = {
             'song': song,
             }
 
-    def tex(self, output):
+    def render(self, output, output_format):
         context = {
-            'language': self.cached['song'].get_directive('language', self.config['lang']),
-            'columns': self.cached['song'].get_directive('columns', 1),
+            'language': self.languages[0],
             "path": files.relpath(self.fullpath, os.path.dirname(output)),
-            "titles": r"\\".join(self.titles),
-            "authors": ", ".join(["{} {}".format(name[1], name[0]) for name in self.authors]),
+            "titles": self.titles,
+            "authors": self.authors,
             "metadata": self.data,
-            "beginsong": self.cached['song'].meta_beginsong(),
-            "render": self.render_tex,
+            "render": self._render_ast,
+            "config": self.config,
             }
-        self.texenv = Environment(loader=FileSystemLoader(os.path.join(
+        self.jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
             os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
-            'latex'
+            output_format,
             )))
-        return self.render_tex(context, self.cached['song'].content, template="chordpro.tex")
+        self.jinjaenv.filters['search_image'] = search_image
+        return self._render_ast(
+            context,
+            self.cached['song'].content,
+            template="song",
+            )
 
     @contextfunction
-    def render_tex(self, context, content, template=None):
-        """Render ``content`` as tex."""
+    def _render_ast(self, context, content, template=None):
+        """Render ``content``."""
         if isinstance(context, dict):
             context['content'] = content
         else:
             context.vars['content'] = content
         if template is None:
-            template = content.template('tex')
-        return TexRenderer(
+            template = content.template()
+        return Renderer(
             template=template,
             encoding='utf8',
-            texenv=self.texenv,
+            jinjaenv=self.jinjaenv,
             ).template.render(context)
 
 SONG_PARSERS = {

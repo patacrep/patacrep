@@ -1,15 +1,8 @@
-
-
-
-# comment
-# comment
-
-
-A lot of new lines
-
-# comment
-
+{language: english}
 {title: and a directive}
 
-# comment
 
+
+{start_of_verse}
+    A lot of new lines
+{end_of_verse}

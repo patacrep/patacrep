@@ -22,16 +22,19 @@ class LatexSong(Song):
         del self.data['@titles']
         self.languages = self.data['@languages']
         del self.data['@languages']
-        self.authors = [self.data['by']]
-        del self.data['by']
+        if "by" in self.data:
+            self.authors = [self.data['by']]
+            del self.data['by']
+        else:
+            self.authors = []
 
-    def tex(self, output):
-        """Return the LaTeX code rendering the song."""
-        return r'\input{{{}}}'.format(files.path2posix(
-            files.relpath(
-                self.fullpath,
-                os.path.dirname(output)
-            )))
+    def render_latex(self, output):
+        """Return the code rendering the song."""
+        path = files.path2posix(files.relpath(
+            self.fullpath,
+            os.path.dirname(output)
+        ))
+        return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
 
 SONG_PARSERS = {
     'is': LatexSong,

@@ -1,10 +1,19 @@
 """Tests"""
 
+import contextlib
 import doctest
+import logging
 import os
 import unittest
 
 import patacrep
+
+@contextlib.contextmanager
+def disable_logging():
+    """Context locally disabling logging."""
+    logging.disable(logging.CRITICAL)
+    yield
+    logging.disable(logging.NOTSET)
 
 def suite():
     """Return a TestSuite object, to test whole `patacrep` package.
@@ -24,3 +33,4 @@ def load_tests(__loader, tests, __pattern):
 
 if __name__ == "__main__":
     unittest.TextTestRunner().run(suite())
+

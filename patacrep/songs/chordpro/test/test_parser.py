@@ -6,51 +6,49 @@ import glob
 import os
 import unittest
 
-from patacrep.songs.chordpro import syntax as chordpro
+from patacrep.build import DEFAULT_CONFIG
+from patacrep.songs.chordpro import ChordproSong
+from patacrep.test import disable_logging
 
-class ParserTxtRenderer(unittest.TestCase):
-    """Test parser, and renderer as a txt file."""
+LANGUAGES = {
+    'tex': 'latex',
+    'sgc': 'chordpro',
+}
+
+class TestParsingRendering(unittest.TestCase):
+    """Test parsing and rendering"""
 
     maxDiff = None
 
-    def __init__(self, methodname="runTest", basename=None):
-        super().__init__(methodname)
-        self.basename = basename
+    def test_all(self):
+        """Test all `*.source` files.
 
-    def shortDescription(self):
-        return "Parsing file '{}.txt'.".format(self.basename)
-
-    def runTest(self):
-        """Test txt output (default, debug output)."""
-        # pylint: disable=invalid-name
-
-        if self.basename is None:
-            return
-        with open("{}.sgc".format(self.basename), 'r', encoding='utf8') as sourcefile:
-            with open("{}.txt".format(self.basename), 'r', encoding='utf8') as expectfile:
-                #print(os.path.basename(sourcefile.name))
-                #with open("{}.txt.diff".format(self.basename), 'w', encoding='utf8') as difffile:
-                #    difffile.write(
-                #        str(chordpro.parse_song(
-                #            sourcefile.read(),
-                #            os.path.basename(sourcefile.name),
-                #            )).strip()
-                #        )
-                #    sourcefile.seek(0)
-                self.assertMultiLineEqual(
-                    str(chordpro.parse_song(
-                        sourcefile.read(),
-                        os.path.abspath(sourcefile.name),
-                        )).strip(),
-                    expectfile.read().strip().replace("DIRNAME", os.path.dirname(self.basename)),
-                    )
-
-def load_tests(__loader, tests, __pattern):
-    """Load several tests given test files present in the directory."""
-    # Load all txt files as tests
-    for txt in sorted(glob.glob(os.path.join(
-            os.path.dirname(__file__),
-            '*.txt',
-        ))):
-        tests.addTest(ParserTxtRenderer(basename=txt[:-len('.txt')]))
-    return tests
+        For any given `foo.source`, it is parsed as a chordpro file, and
+        should be rendered as `foo.sgc` with the chordpro renderer, and
+        `foo.tex` with the latex renderer.
+        """
+        config = DEFAULT_CONFIG.copy()
+        config.update({
+            'encoding': 'utf8',
+            })
+        for source in sorted(glob.glob(os.path.join(
+                os.path.dirname(__file__),
+                '*.source',
+            ))):
+            base = source[:-len(".source")]
+            for dest in LANGUAGES:
+                destname = "{}.{}".format(base, dest)
+                if not os.path.exists(destname):
+                    continue
+                with open(destname, 'r', encoding='utf8') as expectfile:
+                    chordproname = "{}.source".format(base)
+                    config['filename'] = chordproname
+                    with disable_logging():
+                        with self.subTest(base=os.path.basename(base), format=dest):
+                            self.assertMultiLineEqual(
+                                ChordproSong(None, chordproname, config).render(
+                                    output=chordproname,
+                                    output_format=LANGUAGES[dest],
+                                    ).strip(),
+                                expectfile.read().strip(),
+                                )

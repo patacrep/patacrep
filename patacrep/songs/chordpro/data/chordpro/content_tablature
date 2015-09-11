@@ -1,0 +1,5 @@
+{start_of_tab}
+  (* for content in content.content *)
+    ((- content ))
+  (* endfor *)
+{end_of_tab}

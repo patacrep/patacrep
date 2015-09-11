@@ -1,10 +1,7 @@
-
-  
-
-  # comment
-# comment
+{language: english}
 
 
-  A lot of new lines  
 
-# comment
+{start_of_verse}
+    A lot of new lines
+{end_of_verse}

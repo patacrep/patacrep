@@ -1,0 +1,5 @@
+{start_of_(( content.type ))}
+  (* for line in content.lines *)
+    (( render(line) ))
+  (* endfor *)
+{end_of_(( content.type ))}

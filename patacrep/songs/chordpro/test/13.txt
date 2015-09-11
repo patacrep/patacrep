@@ -1,6 +1,0 @@
-========
-{start_of_tab}
-  A table
-  wit many # weir [
-  [ symbols
-{end_of_tab}

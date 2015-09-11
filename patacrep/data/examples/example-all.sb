@@ -1,11 +1,12 @@
 {
 "bookoptions" : [
-    "importantdiagramonly",
+    "diagram",
     "repeatchords",
     "lilypond",
     "pictures"
   ],
 "booktype" : "chorded",
+"template" : "patacrep.tex",
 "lang" : "french",
 "encoding": "utf8",
 "authwords" : {

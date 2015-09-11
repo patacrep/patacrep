@@ -1,16 +1,15 @@
 """ChordPro parser"""
 
-import logging
 import ply.yacc as yacc
+import re
 
 from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
-LOGGER = logging.getLogger()
-
 class ChordproParser(Parser):
     """ChordPro parser class"""
+    # pylint: disable=too-many-public-methods
 
     start = "song"
 
@@ -23,7 +22,6 @@ class ChordproParser(Parser):
         """song : block song
                 | empty
         """
-        #if isinstance(symbols[1], str):
         if len(symbols) == 2:
             symbols[0] = ast.Song(self.filename)
         else:
@@ -54,28 +52,113 @@ class ChordproParser(Parser):
         symbols[0] = None
 
     @staticmethod
-    def p_directive(symbols):
+    def _parse_define(groups):
+        """Parse a `{define: KEY base-fret BASE frets FRETS fingers FINGERS}` directive
+
+        Return a :class:`ast.Define` object.
+        """
+        # pylint: disable=too-many-branches
+        if not groups['key'].strip():
+            return None
+        else:
+            key = ast.Chord(groups['key'].strip())
+
+        if groups['basefret'] is None:
+            basefret = None
+        else:
+            basefret = int(groups['basefret'])
+
+        if groups['frets'] is None:
+            frets = None
+        else:
+            frets = []
+            for fret in groups['frets'].split():
+                if fret in "xX":
+                    frets.append(None)
+                else:
+                    frets.append(int(fret))
+
+        if groups['fingers'] is None:
+            fingers = None
+        else:
+            fingers = []
+            for finger in groups['fingers'].split():
+                if finger == '-':
+                    fingers.append(None)
+                else:
+                    fingers.append(int(finger))
+
+        return ast.Define(
+            key=key,
+            basefret=basefret,
+            frets=frets,
+            fingers=fingers,
+            )
+
+    def p_directive(self, symbols):
         """directive : LBRACE KEYWORD directive_next RBRACE
                      | LBRACE SPACE KEYWORD directive_next RBRACE
         """
         if len(symbols) == 5:
-            symbols[3].keyword = symbols[2]
-            symbols[0] = symbols[3]
+            keyword = symbols[2]
+            argument = symbols[3]
         else:
-            symbols[4].keyword = symbols[3]
-            symbols[0] = symbols[4]
+            keyword = symbols[3]
+            argument = symbols[4]
+
+        if keyword == "define":
+            match = re.compile(
+                r"""
+                    ^
+                    (?P<key>[^\ ]*)\ *
+                    (base-fret\ *(?P<basefret>\d{1,2}))?\ *
+                    frets\ *(?P<frets>((\d+|x|X)\ *)+)\ *
+                    (fingers\ *(?P<fingers>(([0-4-])\ *)*))?
+                    $
+                """,
+                re.VERBOSE
+                ).match(argument)
+
+            if match is None:
+                if argument.strip():
+                    self.error(
+                        line=symbols.lexer.lineno,
+                        message="Invalid chord definition '{}'.".format(argument),
+                        )
+                else:
+                    self.error(
+                        line=symbols.lexer.lineno,
+                        message="Invalid empty chord definition.",
+                        )
+                symbols[0] = ast.Error()
+                return
+
+            symbols[0] = self._parse_define(match.groupdict())
+            if symbols[0] is None:
+                self.error(
+                    line=symbols.lexer.lineno,
+                    message="Invalid chord definition '{}'.".format(argument),
+                    )
+                symbols[0] = ast.Error()
+
+        else:
+            symbols[0] = ast.Directive(keyword, argument)
 
     @staticmethod
     def p_directive_next(symbols):
         """directive_next : SPACE COLON TEXT
                           | COLON TEXT
+                          | COLON
                           | empty
         """
-        symbols[0] = ast.Directive()
         if len(symbols) == 3:
-            symbols[0].argument = symbols[2].strip()
+            symbols[0] = symbols[2].strip()
         elif len(symbols) == 4:
-            symbols[0].argument = symbols[3].strip()
+            symbols[0] = symbols[3].strip()
+        elif len(symbols) == 2 and symbols[1] == ":":
+            symbols[0] = ""
+        else:
+            symbols[0] = None
 
     @staticmethod
     def p_line(symbols):
@@ -109,7 +192,7 @@ class ChordproParser(Parser):
     @staticmethod
     def p_chord(symbols):
         """chord : CHORD"""
-        symbols[0] = ast.Chord(symbols[1])
+        symbols[0] = ast.ChordList(*[ast.Chord(chord) for chord in symbols[1].split()])
 
     @staticmethod
     def p_chorus(symbols):

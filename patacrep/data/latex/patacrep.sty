@@ -11,9 +11,9 @@
 \RequirePackage{fancybox}
 \RequirePackage{xstring}
 \RequirePackage{framed}
-\RequirePackage{currfile}
 \RequirePackage{ifthen}
 \RequirePackage{tikz}
+\RequirePackage{import}
 
 % tabs: display the guitar tabs
 \newif{\iftabs}
@@ -134,8 +134,7 @@
 \setlength{\coverspace}{0.1cm}
 \newcommand{\songcover}{}
 \newcommand{\songalbum}{}
-\newsongkey{cov}{\let\songcover\@empty}{\def\songcover{\currfiledir#1}}
-\newsongkey{vcov}{\let\songcover\@empty}{\def\songcover{#1}}
+\newsongkey{cov}{\let\songcover\@empty}{\def\songcover{#1}}
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{url}{\let\songurl\@empty}{\def\songurl{#1}}
 \newsongkey{original}{\let\songoriginal\@empty}{\def\songoriginal{#1}}
@@ -247,11 +246,6 @@
 \newcommand{\lilypond}[1]{%
     \iflilypond%
     \epstopdfsetup{suffix=-\the\hsize-converted}
-    \includegraphics{\currfiledir#1}%
-    \fi%
-}
-\newcommand{\vlilypond}[1]{%
-    \iflilypond%
     \includegraphics{#1}%
     \fi%
 }

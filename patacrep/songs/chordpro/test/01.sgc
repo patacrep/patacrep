@@ -1,1 +1,5 @@
-A verse line
+{language: english}
+
+{start_of_verse}
+    A verse line
+{end_of_verse}

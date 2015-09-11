@@ -1,0 +1,50 @@
+(* if language is defined -*)
+    \selectlanguage{((language))}
+(* endif *)
+
+(*- if metadata.columns is defined *)
+\songcolumns{(( metadata.columns ))}
+(* endif *)
+
+\beginsong{
+    (*- for title in titles -*)
+        (( title ))
+        (*- if not loop.last -*)
+            \\
+        (* endif *)
+    (* endfor -*)
+}[
+  by={
+      (* for author in authors *)
+        (( author[1] )) (( author[0] ))
+        (*- if not loop.last -*)
+        ,
+        (* endif *)
+      (* endfor *)
+  },
+  (* for key in ['album', 'copyright', 'tag'] *)
+  (* if key in metadata *)
+  (( key ))={(( metadata[key] ))},
+  (* endif *)
+  (* endfor *)
+  (* if 'cov' in metadata *)
+  cov={(( metadata["cov"].argument|search_image(path, config) ))},
+  (* endif *)
+  (* for key in metadata.keys *)
+  (( key.keyword ))={(( key.argument ))},
+  (* endfor *)
+]
+
+(* if (metadata.cov is defined) *)
+\cover
+(* endif *)
+
+(*- for chord in metadata['define'] -*)
+  (( render(chord) ))
+(* endfor *)
+
+(* for item in content -*)
+    (( render(item) ))
+(* endfor *)
+
+\endsong

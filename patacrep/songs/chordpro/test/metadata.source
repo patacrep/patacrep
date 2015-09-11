@@ -1,0 +1,19 @@
+{subtitle: Subtitle3}
+{title: Title}
+{title: Subtitle1}
+{subtitle: Subtitle4}
+{t: Subtitle2}
+{st: Subtitle5}
+{language: french}
+{language: english}
+{by: Author1}
+{artist: Author2}
+{album: Album}
+{copyright: Copyright}
+{cover: Cover}
+{capo: Capo}
+{key: foo: Foo}
+{comment: Comment}
+{guitar_comment: GuitarComment}
+{image: Image}
+{partition: Lilypond}

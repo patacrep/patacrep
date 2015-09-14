@@ -16,7 +16,7 @@
 }[
   by={
       (* for author in authors *)
-        (( author[1] )) (( author[0] ))
+        (( author[1] ))(( author[0] ))
         (*- if not loop.last -*)
         ,
         (* endif *)

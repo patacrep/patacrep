@@ -15,6 +15,9 @@ LANGUAGES = {
     'sgc': 'chordpro',
 }
 
+# Set to True if you want to create missing rendered files
+CREATE_MISSING_RENDERED_FILE = False
+
 class TestParsingRendering(unittest.TestCase):
     """Test parsing and rendering"""
 
@@ -39,6 +42,17 @@ class TestParsingRendering(unittest.TestCase):
             for dest in LANGUAGES:
                 destname = "{}.{}".format(base, dest)
                 if not os.path.exists(destname):
+                    if CREATE_MISSING_RENDERED_FILE:
+                        print("Creating " + destname)
+                        with open(destname, 'w', encoding='utf8') as expectfile:
+                            chordproname = "{}.source".format(base)
+                            config['filename'] = chordproname
+                            expectfile.write(
+                                        ChordproSong(None, chordproname, config).render(
+                                            output=chordproname,
+                                            output_format=LANGUAGES[dest],
+                                            )
+                                        )
                     continue
                 with open(destname, 'r', encoding='utf8') as expectfile:
                     chordproname = "{}.source".format(base)

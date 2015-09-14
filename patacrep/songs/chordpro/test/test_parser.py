@@ -21,7 +21,7 @@ class TestParsingRendering(unittest.TestCase):
     maxDiff = None
 
     def test_all(self):
-        """Test all `*.source` files.
+        """Test of chorpro parser, and several renderers.
 
         For any given `foo.source`, it is parsed as a chordpro file, and
         should be rendered as `foo.sgc` with the chordpro renderer, and

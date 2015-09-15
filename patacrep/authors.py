@@ -72,7 +72,7 @@ def split_sep_author(string, sep):
     - sep: regexp matching a separator.
 
     >>> split_sep_author("Tintin and Milou", re.compile('^(.*) and (.*)$'))
-    ["Tintin", "Milou"]
+    ['Tintin', 'Milou']
     """
     authors = []
     match = sep.match(string)
@@ -80,7 +80,7 @@ def split_sep_author(string, sep):
         authors.append(match.group(2))
         string = match.group(1)
         match = sep.match(string)
-    authors.append(string)
+    authors.insert(0, string)
     return authors
 
 ################################################################################

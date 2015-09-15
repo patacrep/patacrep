@@ -71,6 +71,21 @@ def chdir(path):
     else:
         yield
 
+def iter_modules(path, prefix):
+    """Iterate over modules located in list of `path`.
+
+    Prefix is a prefix appended to all module names.
+    """
+    for module_finder, name, __is_pkg in pkgutil.walk_packages(path, prefix):
+        if name in sys.modules:
+            yield sys.modules[name]
+        else:
+            try:
+                yield module_finder.find_spec(name).loader.load_module()
+            except ImportError as error:
+                LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
+                continue
+
 def load_plugins(datadirs, root_modules, keyword):
     """Load all plugins, and return a dictionary of those plugins.
 
@@ -101,18 +116,10 @@ def load_plugins(datadirs, root_modules, keyword):
         for path
         in sys.path
         ]
-    for module_finder, name, __is_pkg in pkgutil.walk_packages(
+    for module in iter_modules(
             datadir_path + sys_path,
             prefix="patacrep.{}.".format(".".join(root_modules))
         ):
-        if name in sys.modules:
-            module = sys.modules[name]
-        else:
-            try:
-                module = module_finder.find_spec(name).loader.load_module()
-            except ImportError as error:
-                LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
-                continue
         if hasattr(module, keyword):
             for (key, value) in getattr(module, keyword).items():
                 if key in plugins:

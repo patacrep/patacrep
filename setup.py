@@ -15,7 +15,7 @@ setup(
     author='The Songbook team',
     author_email='crep@team-on-fire.com',
     url='https://github.com/patacrep/patacrep',
-    packages=find_packages(),
+    packages=find_packages(exclude=["test*"]),
     license="GPLv2 or any later version",
     install_requires=[
         "unidecode", "jinja2", "chardet", "ply",
@@ -39,6 +39,6 @@ setup(
         "Topic :: Utilities",
         ],
     platforms=["GNU/Linux", "Windows", "MacOsX"],
-    test_suite="patacrep.test.suite",
+    test_suite="test.suite",
     long_description = open("README.rst", "r").read(),
 )

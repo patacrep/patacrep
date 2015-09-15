@@ -8,7 +8,8 @@ import unittest
 
 from patacrep.build import DEFAULT_CONFIG
 from patacrep.songs.chordpro import ChordproSong
-from patacrep.test import disable_logging
+
+from .. import disable_logging
 
 LANGUAGES = {
     'tex': 'latex',

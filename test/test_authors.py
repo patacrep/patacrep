@@ -13,6 +13,9 @@ SPLIT_AUTHORS_DATA = [
     ("Georges Brassens", ("Brassens", "Georges")),
     ("The Who", ("Who", "The")),
     ("Cher", ("Cher", "")),
+    ("Red~Hot~Chili~Peppers", ("Red~Hot~Chili~Peppers", "")),
+    ("The mamas~and~the~papas", ("mamas~and~the~papas", "The")),
+    ("The mamas\ and\ the\ papas", ("mamas\ and\ the\ papas", "The")),
     ]
 
 PROCESS_AUTHORS_DATA = [

@@ -194,20 +194,23 @@ class Song:
         """
         raise NotImplementedError()
 
-    def get_cover_fullpath(self, default=None):
+    def get_cover_fullpath(self, datadir, default=None):
         """Return the fullpath of the cover file if found"""
-        filename = self.data.get('cov')
+        filename = str(self.data.get('cov', ''))
         if not filename:
             return default
 
-        dirname = os.path.dirname(self.fullpath)
-        filepath = os.path.join(dirname, str(filename))
-        filepath += '.'
+        # Temporary hack: what should it contain exactly?
+        config = {
+            'datadir': datadir,
+            'filename': '',
+        }
 
-        extensions = ['jpg', 'png']
+        extensions = ['', '.jpg', '.png']
         for extension in extensions:
-            if os.path.isfile(filepath + extension):
-                return filepath + extension
+            fullpath = search_image(filename + extension, self.fullpath, config)
+            if fullpath:
+                return fullpath
 
         # How to handle when the cover should have been there ?
         # raise FileNotFoundError()

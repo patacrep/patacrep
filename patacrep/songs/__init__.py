@@ -195,6 +195,7 @@ class Song:
         raise NotImplementedError()
 
     def get_cover_fullpath(self, default=None):
+        """Return the fullpath of the cover file if found"""
         filename = self.data.get('cov')
         if not filename:
             return default

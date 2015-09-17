@@ -40,6 +40,7 @@ class OrderedLifoDict:
         return self._values[key]
 
     def get(self, key, default=None):
+        """Same as :meth:`dict.get`."""
         return self._values.get(key, default)
 
 def _indent(string):

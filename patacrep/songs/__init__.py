@@ -194,6 +194,24 @@ class Song:
         """
         raise NotImplementedError()
 
+    def get_cover_fullpath(self, default=None):
+        filename = self.data.get('cov')
+        if not filename:
+            return default
+
+        dirname = os.path.dirname(self.fullpath)
+        filepath = os.path.join(dirname, str(filename))
+        filepath += '.'
+
+        extensions = ['jpg', 'png']
+        for extension in extensions:
+            if os.path.isfile(filepath + extension):
+                return filepath + extension
+
+        # How to handle when the cover should have been there ?
+        # raise FileNotFoundError()
+        return default
+
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """

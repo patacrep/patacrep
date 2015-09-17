@@ -15,19 +15,39 @@ SPLIT_AUTHORS_DATA = [
     ("Cher", ("Cher", "")),
     ("Red~Hot~Chili~Peppers", ("Red~Hot~Chili~Peppers", "")),
     ("The mamas~and~the~papas", ("mamas~and~the~papas", "The")),
-    ("The mamas\ and\ the\ papas", ("mamas\ and\ the\ papas", "The")),
+    ("The mamas and the papas", ("mamas and the papas", "The")), # Unbreakable spaces
+    (r"\LaTeX command", ("command", r"\LaTeX")), # LaTeX commands are ignored
+    (r"\emph{Some braces}", ("braces}", r"\emph{Some")), # LaTeX commands are ignored
+    (r"The Rolling\ Stones", (r"The Rolling\\", "Stones")), # LaTeX commands are ignored
     ]
 
 PROCESS_AUTHORS_DATA = [
         (
-            "Lyrics by William Blake (from Milton, 1808), music by Hubert Parry (1916), and sung by The Royal\ Choir~of~FooBar (just here to show you how processing is done)",
+            "Lyrics by William Blake (from Milton, 1808), music by Hubert Parry (1916), and sung by The Royal~Choir~of~FooBar (just here to show you how processing is done)",
             [
                 ("Blake", "William"),
                 ("Parry", "Hubert"),
-                ("Royal\ Choir~of~FooBar", "The"),
-                ]
-            ),
+                ("Royal~Choir~of~FooBar", "The"),
+            ]
+        ),
+        (
+            "Anonyme (1967)",
+            [],
+        ),
+        (
+            "Lucky Luke et Jolly Jumper",
+            [
+                ("Luke", "Lucky"),
+                ("Jumper", "Jolly"),
+            ],
+        ),
         ]
+
+AUTHWORDS = authors.compile_authwords({
+    "after": ["by"],
+    "ignore": ["anonymous", "Anonyme", "anonyme"],
+    "sep": ['and', 'et'],
+    })
 
 class TestAutors(unittest.TestCase):
     """Test of author parsing."""
@@ -41,13 +61,8 @@ class TestAutors(unittest.TestCase):
         for argument, expected in PROCESS_AUTHORS_DATA:
             with self.subTest(argument=argument, expected=expected):
                 self.assertEqual(
-                    authors.processauthors(
-                        argument,
-                        **authors.compile_authwords({
-                            "after": ["by"],
-                            "ignore": ["anonymous"],
-                            "sep": ['and'],
-                            })
+                    set(
+                        authors.processauthors(argument, **AUTHWORDS)
                     ),
-                    expected
+                    set(expected)
                     )

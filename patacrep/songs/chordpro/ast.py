@@ -39,6 +39,11 @@ class OrderedLifoDict:
     def __getitem__(self, key):
         return self._values[key]
 
+    def get(self, key, default=None):
+        if key not in self._keys:
+            return default
+        return self._values[key]
+
 def _indent(string):
     """Return and indented version of argument."""
     return "\n".join(["  {}".format(line) for line in string.split('\n')])

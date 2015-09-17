@@ -341,6 +341,11 @@ class Define(Directive):
         self.fingers = fingers # Can be None
         super().__init__("define", None)
 
+    @property
+    def pretty_key(self):
+        """Return the key with nicer (utf8) alteration"""
+        return self.key.chord.replace('&', '♭').replace('#', '♯')
+
     def __str__(self):
         return None
 

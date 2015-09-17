@@ -222,7 +222,7 @@ def unprefixed_title(title, prefixes):
             return match.group(2)
     return title
 
-def search_image(image, chordprofile, config):
+def search_image(image, chordprofile, config, default=None):
     """Return the file name of an image, so that LaTeX will find it.
 
     :param str image: The name, as provided in the chordpro file.
@@ -256,4 +256,4 @@ def search_image(image, chordprofile, config):
             return os.path.join(directory, 'img', image)
 
     # Could not find image
-    return image
+    return default

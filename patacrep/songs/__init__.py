@@ -194,6 +194,58 @@ class Song:
         """
         raise NotImplementedError()
 
+    def get_datadirs(self, subdir=None):
+        """Return an iterator of existing datadirs (with eventually a subdir)
+        """
+        for directory in self.config['datadir']:
+            fullpath = os.path.join(directory, subdir)
+            if os.path.isdir(fullpath):
+                yield fullpath
+
+    def search_file(self, filename, extensions=None, directories=None):
+        """Search for a file name.
+
+        :param str filename: The name, as provided in the chordpro file (with or without extension).
+        :param list extensions: Possible extensions (with '.')
+        :param iterator directories: Other directories where to search for the file
+                                The directory where the Song file is stored is added to the list.
+
+        Returns None if nothing found.
+        """
+        if extensions is None:
+            extensions = ['']
+        if directories is None:
+            directories = []
+
+        songdir = os.path.dirname(self.fullpath)
+
+        for directory in [songdir] + list(directories):
+            for extension in extensions:
+                fullpath = os.path.join(directory, filename + extension)
+                if os.path.isfile(fullpath):
+                    return fullpath
+        return None
+
+    def search_image(self, filename):
+        """Search for an image file"""
+        datadir_img = self.get_datadirs('img')
+        filepath = self.search_file(filename, ['', '.jpg', '.png'], datadir_img)
+        return filepath if filepath else filename
+
+    @property
+    def cover_filepath(self):
+        """Get the path to the cover file (or None if not found)"""
+        filename = str(self.data.get('cov', ''))
+        if not filename:
+            return None
+        datadir_img = self.get_datadirs('img')
+        return self.search_file(filename, ['', '.jpg', '.png'], datadir_img)
+
+    def search_partition(self, filename):
+        """Search for a lilypond file"""
+        filepath = self.search_file(filename, ['', '.ly'])
+        return filepath if filepath else filename
+
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
@@ -202,39 +254,3 @@ def unprefixed_title(title, prefixes):
         if match:
             return match.group(2)
     return title
-
-def search_image(image, chordprofile, config):
-    """Return the file name of an image, so that LaTeX will find it.
-
-    :param str image: The name, as provided in the chordpro file.
-    :param str chordprofile: The name of the file including this image.
-    :param dict config: Songbook configuration dictionary.
-
-    The image can be:
-
-    - in the same directory as the including song file;
-    - in the same directory as the main LaTeX file;
-    - in some of the `DATADIR/img` directories.
-
-    If image is not found, the `image` argument is returned.
-    """
-    # Image is in the same folder as its song
-    texdir = os.path.dirname(chordprofile)
-    if os.path.exists(os.path.join(texdir, image)):
-        return os.path.join(texdir, image)
-
-    # Image is in the same directory as the main tex file
-    rootdir = os.path.dirname(os.path.join(
-        os.getcwd(),
-        config['filename'],
-        ))
-    if os.path.exists(os.path.join(rootdir, image)):
-        return image
-
-    # Image is in a datadir
-    for directory in config['datadir']:
-        if os.path.exists(os.path.join(directory, 'img', image)):
-            return os.path.join(directory, 'img', image)
-
-    # Could not find image
-    return image

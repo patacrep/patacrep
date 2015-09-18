@@ -1,1 +1,1 @@
-\lilypond{ ((- content.argument|search_image(path, config) -)) }
+\lilypond{ ((- content.argument|search_partition -)) }

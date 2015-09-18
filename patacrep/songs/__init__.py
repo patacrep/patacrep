@@ -216,6 +216,31 @@ class Song:
         # raise FileNotFoundError()
         return default
 
+    def search_file(self, filename, extensions=None, directories=None):
+        """Search for a file name.
+
+        :param str filename: The name, as provided in the chordpro file (with or without extension).
+        :param list extensions: Possible extensions (with '.')
+        :param list directories: Other directories where to search for the file
+                                The directory where the Song file is stored is added to the list.
+
+        Returns None if nothing found.
+        """
+        if extensions is None:
+            extensions = ['']
+        if directories is None:
+            directories = []
+
+        songdir = os.path.dirname(self.fullpath)
+        directories.insert(0, songdir)
+
+        for directory in directories:
+            for extension in extensions:
+                fullpath = os.path.join(directory, filename + extension)
+                if os.path.isfile(fullpath):
+                    return fullpath
+        return None
+
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """

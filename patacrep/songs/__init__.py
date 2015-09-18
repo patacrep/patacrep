@@ -195,22 +195,19 @@ class Song:
         raise NotImplementedError()
 
     def get_datadirs(self, subdir=None):
-        """Return a list of existing datadirs (with eventually a subdir)
+        """Return an iterator of existing datadirs (with eventually a subdir)
         """
-        directories = []
-
         for directory in self.config['datadir']:
             fullpath = os.path.join(directory, subdir)
             if os.path.isdir(fullpath):
-                directories.append(fullpath)
-        return directories
+                yield fullpath
 
     def search_file(self, filename, extensions=None, directories=None):
         """Search for a file name.
 
         :param str filename: The name, as provided in the chordpro file (with or without extension).
         :param list extensions: Possible extensions (with '.')
-        :param list directories: Other directories where to search for the file
+        :param iterator directories: Other directories where to search for the file
                                 The directory where the Song file is stored is added to the list.
 
         Returns None if nothing found.
@@ -221,9 +218,8 @@ class Song:
             directories = []
 
         songdir = os.path.dirname(self.fullpath)
-        directories.insert(0, songdir)
 
-        for directory in directories:
+        for directory in [songdir] + list(directories):
             for extension in extensions:
                 fullpath = os.path.join(directory, filename + extension)
                 if os.path.isfile(fullpath):

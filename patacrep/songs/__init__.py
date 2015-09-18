@@ -216,6 +216,17 @@ class Song:
         # raise FileNotFoundError()
         return default
 
+    def get_datadirs(self, subdir=None):
+        """Return a list of existing datadirs (with eventually a subdir)
+        """
+        directories = []
+
+        for directory in self.config['datadir']:
+            fullpath = os.path.join(directory, subdir)
+            if os.path.isdir(fullpath):
+                directories.append(fullpath)
+        return directories
+
     def search_file(self, filename, extensions=None, directories=None):
         """Search for a file name.
 

@@ -252,6 +252,17 @@ class Song:
                     return fullpath
         return None
 
+    def search_image(self, filename):
+        """Search for an image file"""
+        datadir_img = self.get_datadirs('img')
+        filepath = self.search_file(filename, ['', '.jpg', '.png'], datadir_img)
+        return filepath if filepath else filename
+
+    def search_partition(self, filename):
+        """Search for a lilypond file"""
+        filepath = self.search_file(filename, ['', '.ly'])
+        return filepath if filepath else filename
+
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """

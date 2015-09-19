@@ -28,7 +28,7 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output, output_format):
+    def render(self, output, output_format, template="song"):
         context = {
             'language': self.languages[0],
             "path": files.relpath(self.fullpath, os.path.dirname(output)),
@@ -50,7 +50,7 @@ class ChordproSong(Song):
         return self._render_ast(
             context,
             self.cached['song'].content,
-            template="song",
+            template=template,
             )
 
     @contextfunction

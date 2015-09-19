@@ -1,0 +1,5 @@
+<p class="(( content.type ))">
+  (*- for line in content.lines -*)
+    (( render(line) ))
+  (* endfor -*)
+</p>

@@ -1,0 +1,3 @@
+
+ERROR : Template not found for "(( content.__class__.__name__ ))". See the logs for details.
+

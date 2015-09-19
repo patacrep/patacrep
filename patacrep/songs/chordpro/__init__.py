@@ -14,7 +14,6 @@ class ChordproSong(Song):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.jinjaenv = None
 
     def parse(self, config):
         """Parse content, and return the dictionary of song data."""
@@ -37,36 +36,27 @@ class ChordproSong(Song):
             "metadata": self.data,
             "render": self._render_ast,
             "config": self.config,
+            "content": self.cached['song'].content,
             }
-        self.jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
+        jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
             os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
             output_format,
             )))
+        jinjaenv.filters['search_image'] = self.search_image
+        jinjaenv.filters['search_partition'] = self.search_partition
 
-        self.jinjaenv.filters['search_image'] = self.search_image
-
-        self.jinjaenv.filters['search_partition'] = self.search_partition
-
-        return self._render_ast(
-            context,
-            self.cached['song'].content,
-            template=template,
-            )
-
-    @contextfunction
-    def _render_ast(self, context, content, template=None):
-        """Render ``content``."""
-        if isinstance(context, dict):
-            context['content'] = content
-        else:
-            context.vars['content'] = content
-        if template is None:
-            template = content.template()
         return Renderer(
             template=template,
             encoding='utf8',
-            jinjaenv=self.jinjaenv,
+            jinjaenv=jinjaenv,
             ).template.render(context)
+
+    @staticmethod
+    @contextfunction
+    def _render_ast(context, content):
+        """Render ``content``."""
+        context.vars['content'] = content
+        return context.environment.get_template(content.template()).render(context)
 
 SONG_PARSERS = {
     'sgc': ChordproSong,

@@ -28,7 +28,7 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output, output_format, template="song"):
+    def render(self, output, output_format, template="song"): # pylint: disable=arguments-differ
         context = {
             'language': self.languages[0],
             "path": files.relpath(self.fullpath, os.path.dirname(output)),

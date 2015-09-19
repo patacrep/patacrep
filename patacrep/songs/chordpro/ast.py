@@ -153,6 +153,11 @@ class Chord(AST):
         # pylint: disable=too-many-arguments
         self.chord = chord
 
+    @property
+    def pretty_chord(self):
+        """Return the chord with nicer (utf8) alteration"""
+        return self.chord.replace('b', '♭').replace('#', '♯')
+
 class Verse(AST):
     """A verse (or bridge, or chorus)"""
     _template = "verse"

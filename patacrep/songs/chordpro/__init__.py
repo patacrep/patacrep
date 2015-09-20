@@ -27,7 +27,9 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output, output_format, template="song"): # pylint: disable=arguments-differ
+    def render(self, output, output_format, content=None, template="song"): # pylint: disable=arguments-differ
+        if content is None:
+            content = self.cached['song'].content
         context = {
             'language': self.languages[0],
             "path": files.relpath(self.fullpath, os.path.dirname(output)),
@@ -36,7 +38,7 @@ class ChordproSong(Song):
             "metadata": self.data,
             "render": self._render_ast,
             "config": self.config,
-            "content": self.cached['song'].content,
+            "content": content,
             }
         jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
             os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),

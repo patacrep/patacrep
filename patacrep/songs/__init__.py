@@ -223,7 +223,7 @@ class Song:
             for extension in extensions:
                 fullpath = os.path.join(directory, filename + extension)
                 if os.path.isfile(fullpath):
-                    return fullpath
+                    return os.path.abspath(fullpath)
         return None
 
     def search_image(self, filename):

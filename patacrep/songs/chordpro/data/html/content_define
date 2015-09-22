@@ -1,25 +1,31 @@
-{define: (( render(content.key) ))
-(*- if content.basefret *)
- base-fret ((content.basefret))
-(*- endif *)
- frets
-(*- for string in content.frets -*)
-  (( " " -))
-  (*- if string is none -*)
-      x
-  (*- else -*)
-      (( string -))
-  (*- endif -*)
-(*- endfor -*)
-(* if content.fingers *)
- fingers
- (*- for finger in content.fingers -*)
-   (( " " -))
-   (* if finger is none -*)
-     -
-   (*- else -*)
-     (( finger -))
-   (* endif -*)
- (* endfor -*)
-(* endif -*)
-}
+<div(( " " -))
+    class="chord-diagram"(( " " -))
+    data-shift="
+      (*- if content.basefret -*)
+        ((content.basefret))
+      (*- else -*)
+        0
+      (*- endif *)
+    ((- '" ' -))
+    data-frets="
+      (*- for fret in content.frets -*)
+       (* if fret is none -*)
+         x
+       (*- else -*)
+         (( fret -))
+       (* endif -*)
+      (* endfor -*)
+    ((- '" ' -))
+    (* if content.fingers -*)
+      data-fingers="
+      (*- for finger in content.fingers -*)
+       (* if finger is none -*)
+         -
+       (*- else -*)
+         (( finger -))
+       (* endif -*)
+      (* endfor -*)
+      ((- '" ' -))
+    (* endif -*)
+    data-name="(( content.pretty_key ))"(( " " -))
+></div>

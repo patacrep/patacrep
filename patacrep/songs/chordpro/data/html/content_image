@@ -1,1 +1,1 @@
-{image: (( content.argument ))}
+<img src="(( content.argument ))">

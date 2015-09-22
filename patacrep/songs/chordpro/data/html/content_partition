@@ -1,1 +1,1 @@
-{partition: ((content.argument))}
+<a class="song-partition" href="((content.argument))">((content.argument))</a>

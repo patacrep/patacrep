@@ -1,0 +1,3 @@
+(* if 'cov' in metadata -*)
+  <img src="(( metadata['cov'].argument|search_image ))"><br>
+(* endif *)

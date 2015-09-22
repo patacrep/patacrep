@@ -1,1 +1,1 @@
-<img src="(( content.argument ))">
+<img src="(( content.argument|search_image ))">

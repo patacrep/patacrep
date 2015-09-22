@@ -14,6 +14,15 @@ class ChordproSong(Song):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.template_paths = [os.path.abspath(pkg_resources.resource_filename(__name__, 'data'))]
+
+    def add_template_path(self, absolute_path):
+        """Add a template path (at the beginning, so that it's choosen first)."""
+        self.template_paths.insert(0, absolute_path)
+
+    def get_template_paths(self, output_format):
+        """Get the template path for a given output_format."""
+        return [os.path.join(path, output_format) for path in self.template_paths]
 
     def parse(self, config):
         """Parse content, and return the dictionary of song data."""
@@ -40,10 +49,9 @@ class ChordproSong(Song):
             "config": self.config,
             "content": content,
             }
-        jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
-            os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
-            output_format,
-            )))
+        jinjaenv = Environment(loader=FileSystemLoader(
+            self.get_template_paths(output_format)
+            ))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
 

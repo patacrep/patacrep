@@ -17,9 +17,19 @@ class ChordproSong(Song):
 
     @staticmethod
     def iter_template_paths(templatedirs, output_format):
+        """Iterate over paths in which templates are to be searched.
+
+        :param iterator templatedirs: Iterators of additional directories (the
+            default hard-coded template directory is returned last).
+        :param str output_format: Song output format, which is appended to
+            each directory.
+        """
         for directory in templatedirs:
             yield os.path.join(directory, output_format)
-        yield os.path.join(os.path.abspath(pkg_resources.resource_filename(__name__, 'data')), output_format)
+        yield os.path.join(
+            os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
+            output_format,
+            )
 
     def _parse(self, config):
         """Parse content, and return the dictionary of song data."""
@@ -33,7 +43,7 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output_format, output=None, template="song", templatedirs=None):
+    def render(self, output_format, output=None, template="song", templatedirs=None): # pylint: disable=arguments-differ
         if templatedirs is None:
             templatedirs = []
 

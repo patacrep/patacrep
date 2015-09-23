@@ -24,7 +24,7 @@ class ChordproSong(Song):
         """Get the template path for a given output_format."""
         return [os.path.join(path, output_format) for path in self.template_paths]
 
-    def parse(self, config):
+    def _parse(self, config):
         """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             song = parse_song(song.read(), self.fullpath)

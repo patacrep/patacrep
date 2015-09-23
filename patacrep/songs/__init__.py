@@ -128,7 +128,7 @@ class Song:
         self.titles = []
         self.data = {}
         self.cached = None
-        self.parse(config)
+        self._parse(config)
 
         # Post processing of data
         self.datadir = datadir
@@ -177,7 +177,7 @@ class Song:
             return getattr(self, method)(output)
         raise NotImplementedError()
 
-    def parse(self, config): # pylint: disable=no-self-use
+    def _parse(self, config): # pylint: disable=no-self-use
         """Parse song.
 
         It set the following attributes:

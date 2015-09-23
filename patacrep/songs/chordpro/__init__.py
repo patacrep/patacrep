@@ -14,15 +14,12 @@ class ChordproSong(Song):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.template_paths = [os.path.abspath(pkg_resources.resource_filename(__name__, 'data'))]
 
-    def add_template_path(self, absolute_path):
-        """Add a template path (at the beginning, so that it's choosen first)."""
-        self.template_paths.insert(0, absolute_path)
-
-    def get_template_paths(self, output_format):
-        """Get the template path for a given output_format."""
-        return [os.path.join(path, output_format) for path in self.template_paths]
+    @staticmethod
+    def iter_template_paths(templatedirs, output_format):
+        for directory in templatedirs:
+            yield os.path.join(directory, output_format)
+        yield os.path.join(os.path.abspath(pkg_resources.resource_filename(__name__, 'data')), output_format)
 
     def _parse(self, config):
         """Parse content, and return the dictionary of song data."""
@@ -36,7 +33,10 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output_format, output=None, template="song"):
+    def render(self, output_format, output=None, template="song", templatedirs=None):
+        if templatedirs is None:
+            templatedirs = []
+
         context = {
             'language': self.languages[0],
             "titles": self.titles,
@@ -48,7 +48,7 @@ class ChordproSong(Song):
             }
 
         jinjaenv = Environment(loader=FileSystemLoader(
-            self.get_template_paths(output_format)
+            self.iter_template_paths(templatedirs, output_format)
             ))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition

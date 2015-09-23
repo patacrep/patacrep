@@ -165,16 +165,16 @@ class Song:
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def render(self, output, output_format):
+    def render(self, output_format, output=None, *args, **kwargs):
         """Return the code rendering this song.
 
         Arguments:
-        - output: Name of the output file.
         - output_format: Format of the output file (latex, chordpro...)
+        - output: Name of the output file, or `None` if irrelevant.
         """
         method = "render_{}".format(output_format)
         if hasattr(self, method):
-            return getattr(self, method)(output)
+            return getattr(self, method)(output, *args, **kwargs)
         raise NotImplementedError()
 
     def _parse(self, config): # pylint: disable=no-self-use

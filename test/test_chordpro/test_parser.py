@@ -48,7 +48,6 @@ class TestParsingRendering(unittest.TestCase):
                         with self.subTest(base=os.path.basename(base), format=dest):
                             self.assertMultiLineEqual(
                                 ChordproSong(None, chordproname, config).render(
-                                    output=chordproname,
                                     output_format=LANGUAGES[dest],
                                     ).strip(),
                                 expectfile.read().strip(),

@@ -30,6 +30,8 @@ class LatexSong(Song):
 
     def render_latex(self, output):
         """Return the code rendering the song."""
+        if output is None:
+            raise ValueError(output)
         path = files.path2posix(files.relpath(
             self.fullpath,
             os.path.dirname(output)

@@ -1,1 +1,1 @@
-{partition: ((content.argument))}
+{partition: ((content.argument|search_partition))}

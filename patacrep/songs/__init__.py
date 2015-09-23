@@ -206,16 +206,20 @@ class Song:
         """Search for a file name.
 
         :param str filename: The name, as provided in the chordpro file (with or without extension).
-        :param list extensions: Possible extensions (with '.')
+        :param list extensions: Possible extensions (with '.'). Default is no extension.
         :param iterator directories: Other directories where to search for the file
                                 The directory where the Song file is stored is added to the list.
 
         Returns None if nothing found.
+
+        This function can also be used as a preprocessor for a renderer: for
+        instance, it can compile a file, place it in a temporary folder, and
+        return the path to the compiled file.
         """
         if extensions is None:
             extensions = ['']
         if directories is None:
-            directories = []
+            directories = self.config['datadir']
 
         songdir = os.path.dirname(self.fullpath)
 
@@ -228,8 +232,16 @@ class Song:
 
     def search_image(self, filename):
         """Search for an image file"""
-        datadir_img = self.get_datadirs('img')
-        filepath = self.search_file(filename, ['', '.jpg', '.png'], datadir_img)
+        filepath = self.search_file(
+            filename,
+            ['', '.jpg', '.png'],
+            self.get_datadirs('img'),
+            )
+        return filepath if filepath else filename
+
+    def search_partition(self, filename):
+        """Search for a lilypond file"""
+        filepath = self.search_file(filename, ['', '.ly'])
         return filepath if filepath else filename
 
     @property
@@ -240,11 +252,6 @@ class Song:
             return None
         datadir_img = self.get_datadirs('img')
         return self.search_file(filename, ['', '.jpg', '.png'], datadir_img)
-
-    def search_partition(self, filename):
-        """Search for a lilypond file"""
-        filepath = self.search_file(filename, ['', '.ly'])
-        return filepath if filepath else filename
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

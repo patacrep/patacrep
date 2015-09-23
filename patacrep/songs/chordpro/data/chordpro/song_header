@@ -16,11 +16,14 @@
   {artist: (( author[1] ))(( author[0] ))}
 (* endfor *)
 
-(*- for key in ['album', 'copyright', 'cov', 'tag'] *)
+(*- for key in ['album', 'copyright', 'tag'] *)
   (* if key in metadata -*)
     {(( key )): (( metadata[key] ))}
   (* endif *)
 (* endfor *)
+(* if 'cov' in metadata -*)
+  {(( 'cov' )): (( metadata['cov'].argument|search_image ))}
+(* endif *)
 
 (*- for key in metadata.keys -*)
   {key: (( key.keyword )): (( key.argument ))}

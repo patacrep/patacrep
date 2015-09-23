@@ -244,15 +244,6 @@ class Song:
         filepath = self.search_file(filename, ['', '.ly'])
         return filepath if filepath else filename
 
-    @property
-    def cover_filepath(self):
-        """Get the path to the cover file (or None if not found)"""
-        filename = str(self.data.get('cov', ''))
-        if not filename:
-            return None
-        datadir_img = self.get_datadirs('img')
-        return self.search_file(filename, ['', '.jpg', '.png'], datadir_img)
-
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """

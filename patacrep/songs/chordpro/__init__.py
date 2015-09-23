@@ -41,7 +41,6 @@ class ChordproSong(Song):
             content = self.cached['song'].content
         context = {
             'language': self.languages[0],
-            "path": files.relpath(self.fullpath, os.path.dirname(output)),
             "titles": self.titles,
             "authors": self.authors,
             "metadata": self.data,
@@ -49,6 +48,7 @@ class ChordproSong(Song):
             "config": self.config,
             "content": content,
             }
+
         jinjaenv = Environment(loader=FileSystemLoader(
             self.get_template_paths(output_format)
             ))

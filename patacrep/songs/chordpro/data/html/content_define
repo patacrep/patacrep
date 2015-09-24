@@ -1,0 +1,31 @@
+<div(( " " -))
+    class="chord-diagram"(( " " -))
+    data-shift="
+      (*- if content.basefret -*)
+        ((content.basefret))
+      (*- else -*)
+        0
+      (*- endif *)
+    ((- '" ' -))
+    data-frets="
+      (*- for fret in content.frets -*)
+       (* if fret is none -*)
+         x
+       (*- else -*)
+         (( fret -))
+       (* endif -*)
+      (* endfor -*)
+    ((- '" ' -))
+    (* if content.fingers -*)
+      data-fingers="
+      (*- for finger in content.fingers -*)
+       (* if finger is none -*)
+         -
+       (*- else -*)
+         (( finger -))
+       (* endif -*)
+      (* endfor -*)
+      ((- '" ' -))
+    (* endif -*)
+    data-name="(( content.pretty_key ))"(( " " -))
+></div>

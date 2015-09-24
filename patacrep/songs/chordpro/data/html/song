@@ -1,3 +1,5 @@
 (* include 'song_header' *)
 
+<div class="song_content">
 (* include 'song_body' *)
+</div>

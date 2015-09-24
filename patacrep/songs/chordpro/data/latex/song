@@ -43,8 +43,6 @@
   (( render(chord) ))
 (* endfor *)
 
-(* for item in content -*)
-    (( render(item) ))
-(* endfor *)
+(* include 'song_body' *)
 
 \endsong

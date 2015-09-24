@@ -14,9 +14,24 @@ class ChordproSong(Song):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.jinjaenv = None
 
-    def parse(self, config):
+    @staticmethod
+    def iter_template_paths(templatedirs, output_format):
+        """Iterate over paths in which templates are to be searched.
+
+        :param iterator templatedirs: Iterators of additional directories (the
+            default hard-coded template directory is returned last).
+        :param str output_format: Song output format, which is appended to
+            each directory.
+        """
+        for directory in templatedirs:
+            yield os.path.join(directory, output_format)
+        yield os.path.join(
+            os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
+            output_format,
+            )
+
+    def _parse(self, config):
         """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             song = parse_song(song.read(), self.fullpath)
@@ -28,45 +43,38 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output, output_format):
+    def render(self, output_format, output=None, template="song", templatedirs=None): # pylint: disable=arguments-differ
+        if templatedirs is None:
+            templatedirs = []
+
         context = {
             'language': self.languages[0],
-            "path": files.relpath(self.fullpath, os.path.dirname(output)),
             "titles": self.titles,
             "authors": self.authors,
             "metadata": self.data,
             "render": self._render_ast,
             "config": self.config,
+            "content": self.cached['song'].content,
             }
-        self.jinjaenv = Environment(loader=FileSystemLoader(os.path.join(
-            os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
-            output_format,
-            )))
 
-        self.jinjaenv.filters['search_image'] = self.search_image
+        jinjaenv = Environment(loader=FileSystemLoader(
+            self.iter_template_paths(templatedirs, output_format)
+            ))
+        jinjaenv.filters['search_image'] = self.search_image
+        jinjaenv.filters['search_partition'] = self.search_partition
 
-        self.jinjaenv.filters['search_partition'] = self.search_partition
-
-        return self._render_ast(
-            context,
-            self.cached['song'].content,
-            template="song",
-            )
-
-    @contextfunction
-    def _render_ast(self, context, content, template=None):
-        """Render ``content``."""
-        if isinstance(context, dict):
-            context['content'] = content
-        else:
-            context.vars['content'] = content
-        if template is None:
-            template = content.template()
         return Renderer(
             template=template,
             encoding='utf8',
-            jinjaenv=self.jinjaenv,
+            jinjaenv=jinjaenv,
             ).template.render(context)
+
+    @staticmethod
+    @contextfunction
+    def _render_ast(context, content):
+        """Render ``content``."""
+        context.vars['content'] = content
+        return context.environment.get_template(content.template()).render(context)
 
 SONG_PARSERS = {
     'sgc': ChordproSong,

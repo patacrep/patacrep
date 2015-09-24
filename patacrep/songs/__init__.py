@@ -230,19 +230,19 @@ class Song:
                     return os.path.abspath(fullpath)
         return None
 
-    def search_image(self, filename):
+    def search_image(self, filename, none_if_not_found=False):
         """Search for an image file"""
         filepath = self.search_file(
             filename,
             ['', '.jpg', '.png'],
             self.get_datadirs('img'),
             )
-        return filepath if filepath else filename
+        return filepath if none_if_not_found or filepath else filename
 
-    def search_partition(self, filename):
+    def search_partition(self, filename, none_if_not_found=False):
         """Search for a lilypond file"""
         filepath = self.search_file(filename, ['', '.ly'])
-        return filepath if filepath else filename
+        return filepath if none_if_not_found or filepath else filename
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

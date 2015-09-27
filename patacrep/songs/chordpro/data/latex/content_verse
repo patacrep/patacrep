@@ -1,5 +1,12 @@
+(*- if content.nolyrics -*)
+    TODO NOLYRICS
+    (* for line in content.lines *)
+        (( render(line) ))
+    (* endfor *)
+(*- else *)
 \begin{(( content.type ))}
   (* for line in content.lines *)
     (( render(line) ))
   (* endfor *)
 \end{(( content.type ))}
+(*- endif *)

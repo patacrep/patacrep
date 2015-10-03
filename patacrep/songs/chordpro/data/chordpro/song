@@ -13,7 +13,7 @@
 (* endfor -*)
 
 (*- for author in authors -*)
-  {artist: (( author[1] ))(( author[0] ))}
+  {artist: (( author[1] )) (( author[0] ))}
 (* endfor *)
 
 (*- for key in ['album', 'copyright', 'cov', 'tag'] *)

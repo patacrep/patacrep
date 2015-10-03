@@ -10,6 +10,8 @@ DEFAULT_AUTHWORDS = {
     "ignore": ["unknown"],
     "sep": ["and"],
     }
+RE_AFTER = r"^.*\b{}\b(.*)$"
+RE_SEPARATOR = r"^(.*)\b *{} *(\b.*)?$"
 
 def compile_authwords(authwords):
     """Convert strings of authwords to compiled regular expressions.
@@ -23,11 +25,11 @@ def compile_authwords(authwords):
 
     # Compilation
     authwords['after'] = [
-        re.compile(r"^.*\b%s\b(.*)$" % word, re.LOCALE)
+        re.compile(RE_AFTER.format(word), re.LOCALE)
         for word in authwords['after']
         ]
     authwords['sep'] = [
-        re.compile(r"^(.*)%s +(.*)$" % word, re.LOCALE)
+        re.compile(RE_SEPARATOR.format(word), re.LOCALE)
         for word in ([" %s" % word for word in authwords['sep']] + [',', ';'])
         ]
 
@@ -37,31 +39,23 @@ def compile_authwords(authwords):
 def split_author_names(string):
     r"""Split author between first and last name.
 
-    The last space separates first and last name, but spaces following a
-    backslash or a command are not separators.
-    Examples:
-    - Edgar Allan Poe => Poe, Edgar Allan
-    - Edgar Allan \emph {Poe} => \emph {Poe}, Edgar Allan
-    - The Rolling\ Stones => Rolling\ Stones, The
-    - The {Rolling Stones} => {Rolling Stones}, The
+    The last space separates first and last name. LaTeX commands are ignored.
+
+    >>> split_author_names("Edgar Allan Poe")
+    ('Poe', 'Edgar Allan')
+    >>> split_author_names("Edgar Allan \emph {Poe}")
+    ('{Poe}', 'Edgar Allan \\emph')
+    >>> split_author_names(r"The Rolling\ Stones")
+    ('Stones', 'The Rolling\\')
+    >>> split_author_names("The {Rolling Stones}")
+    ('Stones}', 'The {Rolling')
+    >>> split_author_names("The Rolling Stones")
+    ('Rolling\xa0Stones', 'The')
+    >>> split_author_names("   John   Doe  ")
+    ('Doe', 'John')
     """
-    ignore_space = False
-    last_space = index = 0
-    brace_count = 0
-    for char in string.strip():
-        index += 1
-        if brace_count == 0:
-            if char == "\\":
-                ignore_space = True
-            elif not char.isalnum() and ignore_space:
-                ignore_space = False
-            elif char == " ":
-                last_space = index
-        if char == "}":
-            brace_count += 1
-        if char == "{":
-            brace_count -= 1
-    return string[last_space:], string[:last_space]
+    chunks = string.strip().split(" ")
+    return (chunks[-1].strip(), " ".join(chunks[:-1]).strip())
 
 
 def split_sep_author(string, sep):
@@ -71,16 +65,19 @@ def split_sep_author(string, sep):
     - string: string containing authors names ;
     - sep: regexp matching a separator.
 
-    >>> split_sep_author("Tintin and Milou", re.compile('^(.*) and (.*)$'))
+    >>> split_sep_author("Tintin and Milou", re.compile(RE_SEPARATOR.format("and")))
     ['Tintin', 'Milou']
+    >>> split_sep_author("Tintin,", re.compile(RE_SEPARATOR.format(",")))
+    ['Tintin']
     """
     authors = []
     match = sep.match(string)
     while match:
-        authors.append(match.group(2))
+        if match.group(2) is not None:
+            authors.append(match.group(2).strip())
         string = match.group(1)
         match = sep.match(string)
-    authors.insert(0, string)
+    authors.insert(0, string.strip())
     return authors
 
 ################################################################################
@@ -91,6 +88,9 @@ def processauthors_removeparen(authors_string):
     """Remove parentheses
 
     See docstring of processauthors() for more information.
+
+    >>> processauthors_removeparen("This (foo) string (bar) contains (baz) parenthesis")
+    'This  string  contains  parenthesis'
     """
     opening = 0
     dest = ""
@@ -107,6 +107,16 @@ def processauthors_split_string(authors_string, sep):
     """Split strings
 
     See docstring of processauthors() for more information.
+
+    >>> processauthors_split_string("Tintin and Milou", [re.compile(RE_SEPARATOR.format("and"))])
+    ['Tintin', 'Milou']
+    >>> processauthors_split_string("Tintin, Milou", [re.compile(RE_SEPARATOR.format(","))])
+    ['Tintin', 'Milou']
+    >>> processauthors_split_string(
+    ...     "Tintin, and Milou",
+    ...     [re.compile(RE_SEPARATOR.format(word)) for word in ['and', ',']]
+    ... )
+    ['Tintin', 'Milou']
     """
     authors_list = [authors_string]
     for sepword in sep:
@@ -160,45 +170,47 @@ def processauthors_clean_authors(authors_list):
         ]
 
 def processauthors(authors_string, after=None, ignore=None, sep=None):
-    r"""Return a list of authors
+    r"""Return an iterator of authors
 
-    For example, we are processing:
-    # processauthors(
-    #    [
-    #        "
-    #            Lyrics by William Blake (from Milton, 1808),
-    #            music by Hubert Parry (1916),
-    #            and sung by The Royal\ Choir~of~Nowhere
-    #            (just here to show you how processing is done)
-    #        ",
-    #    ],
-    #   after = ["by"],
-    #   ignore = ["anonymous"],
-    #   sep = [re.compile('^(.*) and (.*)$')],
-    #   )
+    For example, in the following call:
+
+    >>> set(processauthors(
+    ...   (
+    ...       "Lyrics by William Blake (from Milton, 1808), "
+    ...       "music by Hubert Parry (1916), "
+    ...       "and sung by The Royal~Choir~of~FooBar "
+    ...       "(just here to show you how processing is done)"
+    ...   ),
+    ...   **compile_authwords({
+    ...         'after': ["by"],
+    ...         'ignore': ["anonymous"],
+    ...         'sep': ["and", ","],
+    ...         })
+    ...   )) == {("Blake", "William"), ("Parry", "Hubert"), ("Royal~Choir~of~FooBar", "The")}
+    True
 
 
     The "authors_string" is processed as:
 
     1) First, parenthesis (and its content) are removed.
     # "Lyrics by William Blake, music by Hubert Parry,
-                and sung by The Royal\ Choir~of~Nowhere"
+                and sung by The Royal~Choir~of~FooBar"
 
     2) String is split, separators being comma and words from "sep".
     # ["Lyrics by William Blake", "music by Hubert Parry",
-                "sung by The Royal\ Choir~of~Nowhere"]
+                "sung by The Royal~Choir~of~FooBar"]
 
     3) Everything before words in "after" is removed.
-    # ["William Blake", "Hubert Parry", "The Royal\ Choir~of~Nowhere"]
+    # ["William Blake", "Hubert Parry", "The Royal~Choir~of~FooBar"]
 
     4) Strings containing words of "ignore" are dropped.
-    # ["William Blake", "Hubert Parry", The Royal\ Choir~of~Nowhere"]
+    # ["William Blake", "Hubert Parry", The Royal~Choir~of~FooBar"]
 
     5) First and last names are splitted
     # [
     #   ("Blake", "William"),
     #   ("Parry", "Hubert"),
-    #   ("Royal\ Choir~of~Nowhere", "The"),
+    #   ("Royal~Choir~of~FooBar", "The"),
     # ]
     """
 
@@ -209,10 +221,7 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
     if not ignore:
         ignore = []
 
-    return [
-        split_author_names(author)
-        for author
-        in processauthors_clean_authors(
+    for author in processauthors_clean_authors(
             processauthors_ignore_authors(
                 processauthors_remove_after(
                     processauthors_split_string(
@@ -222,8 +231,8 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
                         sep),
                     after),
                 ignore)
-            )
-        ]
+        ):
+        yield split_author_names(author)
 
 def process_listauthors(authors_list, after=None, ignore=None, sep=None):
     """Process a list of authors, and return the list of resulting authors."""

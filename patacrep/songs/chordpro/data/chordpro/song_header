@@ -25,7 +25,7 @@
   {(( 'cov' )): (( metadata['cov'].argument|search_image ))}
 (* endif *)
 
-(*- for key in metadata.keys -*)
+(*- for key in metadata.morekeys -*)
   {key: (( key.keyword )): (( key.argument ))}
 (* endfor *)
 

@@ -9,7 +9,7 @@ LOGGER = logging.getLogger()
 tokens = (
     'LBRACE',
     'RBRACE',
-    'NEWLINE',
+    'ENDOFLINE',
     'COLON',
     'WORD',
     'SPACE',
@@ -81,14 +81,14 @@ class ChordProLexer:
         return token
 
     t_tablature_TEXT = r'[^\n]+'
-    t_tablature_NEWLINE = r'\n'
+    t_tablature_ENDOFLINE = r'\n'
 
     def __init__(self):
         self.__class__.lexer = lex.lex(module=self)
 
     # Define a rule so we can track line numbers
     @staticmethod
-    def t_NEWLINE(token):
+    def t_ENDOFLINE(token):
         r'[\n\r]'
         token.lexer.lineno += 1
         return token

@@ -16,26 +16,25 @@ class ChordproParser(Parser):
     def __init__(self, filename=None):
         super().__init__()
         self.tokens = tokens
-        self.filename = filename
+        self.song = ast.Song(filename)
 
     def p_song(self, symbols):
         """song : block song
                 | empty
         """
         if len(symbols) == 2:
-            symbols[0] = ast.Song(self.filename)
+            symbols[0] = self.song
         else:
             symbols[0] = symbols[2].add(symbols[1])
 
     @staticmethod
     def p_block(symbols):
         """block : SPACE block
-                 | directive NEWLINE
-                 | line NEWLINE
-                 | chorus NEWLINE
-                 | tab NEWLINE
-                 | bridge NEWLINE
-                 | NEWLINE
+                 | line ENDOFLINE
+                 | chorus ENDOFLINE
+                 | tab ENDOFLINE
+                 | bridge ENDOFLINE
+                 | ENDOFLINE
         """
         if len(symbols) == 3 and isinstance(symbols[1], str):
             symbols[0] = symbols[2]
@@ -133,16 +132,22 @@ class ChordproParser(Parser):
                 symbols[0] = ast.Error()
                 return
 
-            symbols[0] = self._parse_define(match.groupdict())
-            if symbols[0] is None:
+            define = self._parse_define(match.groupdict())
+            if define is None:
                 self.error(
                     line=symbols.lexer.lineno,
                     message="Invalid chord definition '{}'.".format(argument),
                     )
                 symbols[0] = ast.Error()
+                return
+            self.song.add(define)
 
         else:
-            symbols[0] = ast.Directive(keyword, argument)
+            directive = ast.Directive.create(keyword, argument)
+            if directive.meta:
+                self.song.add(directive)
+            else:
+                symbols[0] = directive
 
     @staticmethod
     def p_directive_next(symbols):
@@ -164,6 +169,7 @@ class ChordproParser(Parser):
     def p_line(symbols):
         """line : word line_next
                 | chord line_next
+                | directive line_next
         """
         symbols[0] = symbols[2].prepend(symbols[1])
 
@@ -172,6 +178,7 @@ class ChordproParser(Parser):
         """line_next : word line_next
                      | space line_next
                      | chord line_next
+                     | directive line_next
                      | empty
         """
         if len(symbols) == 2:
@@ -196,13 +203,13 @@ class ChordproParser(Parser):
 
     @staticmethod
     def p_chorus(symbols):
-        """chorus : SOC maybespace NEWLINE chorus_content EOC maybespace
+        """chorus : SOC maybespace ENDOFLINE chorus_content EOC maybespace
         """
         symbols[0] = symbols[4]
 
     @staticmethod
     def p_chorus_content(symbols):
-        """chorus_content : line NEWLINE chorus_content
+        """chorus_content : line ENDOFLINE chorus_content
                           | SPACE chorus_content
                           | empty
         """
@@ -215,13 +222,13 @@ class ChordproParser(Parser):
 
     @staticmethod
     def p_bridge(symbols):
-        """bridge : SOB maybespace NEWLINE bridge_content EOB maybespace
+        """bridge : SOB maybespace ENDOFLINE bridge_content EOB maybespace
         """
         symbols[0] = symbols[4]
 
     @staticmethod
     def p_bridge_content(symbols):
-        """bridge_content : line NEWLINE bridge_content
+        """bridge_content : line ENDOFLINE bridge_content
                           | SPACE bridge_content
                           | empty
         """
@@ -235,13 +242,13 @@ class ChordproParser(Parser):
 
     @staticmethod
     def p_tab(symbols):
-        """tab : SOT maybespace NEWLINE tab_content EOT maybespace
+        """tab : SOT maybespace ENDOFLINE tab_content EOT maybespace
         """
         symbols[0] = symbols[4]
 
     @staticmethod
     def p_tab_content(symbols):
-        """tab_content : NEWLINE tab_content
+        """tab_content : ENDOFLINE tab_content
                        | TEXT tab_content
                        | SPACE tab_content
                        | empty

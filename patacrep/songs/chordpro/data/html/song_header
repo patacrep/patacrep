@@ -23,7 +23,7 @@
 
 (* include 'content_metadata_cover' *)
 
-(*- for key in metadata.keys -*)
+(*- for key in metadata.morekeys -*)
   {key: (( key.keyword )): (( key.argument ))}
 (* endfor *)
 

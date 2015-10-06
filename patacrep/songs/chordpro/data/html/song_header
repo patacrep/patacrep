@@ -1,0 +1,30 @@
+(*- for title in titles -*)
+  (* if loop.first *)
+    <h1 class="song-title">(( title ))</h1>
+  (* else *)
+    <h2 class="song-title">(( title ))</h2>
+  (* endif *)
+(* endfor -*)
+
+(*- for author in authors -*)
+  <h2 class="song-artist">(( author[1] )) (( author[0] ))</h2>
+(* endfor *)
+
+
+(*- for key in ['album', 'copyright', 'tag', 'columns', 'capo'] *)
+  (* if key in metadata -*)
+    <span class="song-(( key ))">(( key|capitalize )): (( metadata[key] ))</span><br/>
+  (* endif *)
+(* endfor *)
+
+(* if language is defined -*)
+  <span class="song-language">Language: (( language ))</span><br>
+(* endif *)
+
+(* include 'content_metadata_cover' *)
+
+(*- for key in metadata.keys -*)
+  {key: (( key.keyword )): (( key.argument ))}
+(* endfor *)
+
+(* include 'content_define_list' *)

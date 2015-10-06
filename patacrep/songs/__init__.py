@@ -128,7 +128,7 @@ class Song:
         self.titles = []
         self.data = {}
         self.cached = None
-        self.parse(config)
+        self._parse(config)
 
         # Post processing of data
         self.datadir = datadir
@@ -165,19 +165,19 @@ class Song:
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def render(self, output, output_format):
+    def render(self, output_format, output=None, *args, **kwargs):
         """Return the code rendering this song.
 
         Arguments:
-        - output: Name of the output file.
         - output_format: Format of the output file (latex, chordpro...)
+        - output: Name of the output file, or `None` if irrelevant.
         """
         method = "render_{}".format(output_format)
         if hasattr(self, method):
-            return getattr(self, method)(output)
+            return getattr(self, method)(output, *args, **kwargs)
         raise NotImplementedError()
 
-    def parse(self, config): # pylint: disable=no-self-use
+    def _parse(self, config): # pylint: disable=no-self-use
         """Parse song.
 
         It set the following attributes:
@@ -194,6 +194,56 @@ class Song:
         """
         raise NotImplementedError()
 
+    def get_datadirs(self, subdir=None):
+        """Return an iterator of existing datadirs (with eventually a subdir)
+        """
+        for directory in self.config['datadir']:
+            fullpath = os.path.join(directory, subdir)
+            if os.path.isdir(fullpath):
+                yield fullpath
+
+    def search_file(self, filename, extensions=None, directories=None):
+        """Search for a file name.
+
+        :param str filename: The name, as provided in the chordpro file (with or without extension).
+        :param list extensions: Possible extensions (with '.'). Default is no extension.
+        :param iterator directories: Other directories where to search for the file
+                                The directory where the Song file is stored is added to the list.
+
+        Returns None if nothing found.
+
+        This function can also be used as a preprocessor for a renderer: for
+        instance, it can compile a file, place it in a temporary folder, and
+        return the path to the compiled file.
+        """
+        if extensions is None:
+            extensions = ['']
+        if directories is None:
+            directories = self.config['datadir']
+
+        songdir = os.path.dirname(self.fullpath)
+
+        for directory in [songdir] + list(directories):
+            for extension in extensions:
+                fullpath = os.path.join(directory, filename + extension)
+                if os.path.isfile(fullpath):
+                    return os.path.abspath(fullpath)
+        return None
+
+    def search_image(self, filename, none_if_not_found=False):
+        """Search for an image file"""
+        filepath = self.search_file(
+            filename,
+            ['', '.jpg', '.png'],
+            self.get_datadirs('img'),
+            )
+        return filepath if none_if_not_found or filepath else filename
+
+    def search_partition(self, filename, none_if_not_found=False):
+        """Search for a lilypond file"""
+        filepath = self.search_file(filename, ['', '.ly'])
+        return filepath if none_if_not_found or filepath else filename
+
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).
     """
@@ -202,39 +252,3 @@ def unprefixed_title(title, prefixes):
         if match:
             return match.group(2)
     return title
-
-def search_image(image, chordprofile, config):
-    """Return the file name of an image, so that LaTeX will find it.
-
-    :param str image: The name, as provided in the chordpro file.
-    :param str chordprofile: The name of the file including this image.
-    :param dict config: Songbook configuration dictionary.
-
-    The image can be:
-
-    - in the same directory as the including song file;
-    - in the same directory as the main LaTeX file;
-    - in some of the `DATADIR/img` directories.
-
-    If image is not found, the `image` argument is returned.
-    """
-    # Image is in the same folder as its song
-    texdir = os.path.dirname(chordprofile)
-    if os.path.exists(os.path.join(texdir, image)):
-        return os.path.join(texdir, image)
-
-    # Image is in the same directory as the main tex file
-    rootdir = os.path.dirname(os.path.join(
-        os.getcwd(),
-        config['filename'],
-        ))
-    if os.path.exists(os.path.join(rootdir, image)):
-        return image
-
-    # Image is in a datadir
-    for directory in config['datadir']:
-        if os.path.exists(os.path.join(directory, 'img', image)):
-            return os.path.join(directory, 'img', image)
-
-    # Could not find image
-    return image

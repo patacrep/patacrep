@@ -1,4 +1,8 @@
+(*- if content.frets|length == 4 -*)
+\utab{
+(*- else -*)
 \gtab{
+(*- endif -*)
     ((- render(content.key) -))
 }{
     (*- if content.basefret -*)

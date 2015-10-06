@@ -1,0 +1,3 @@
+(*- for chord in metadata['define'] *)
+  ((- render(chord) ))
+(* endfor *)

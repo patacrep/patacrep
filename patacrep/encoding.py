@@ -16,7 +16,8 @@ def open_read(filename, mode='r', encoding=None):
     If `encoding` is set, use it as the encoding (do not guess).
     """
     if encoding is None:
-        fileencoding = chardet.detect(open(filename, 'rb').read())['encoding']
+        with open(filename, 'rb') as file:
+            fileencoding = chardet.detect(file.read())['encoding']
     else:
         fileencoding = encoding
 

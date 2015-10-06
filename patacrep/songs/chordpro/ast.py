@@ -39,6 +39,10 @@ class OrderedLifoDict:
     def __getitem__(self, key):
         return self._values[key]
 
+    def get(self, key, default=None):
+        """Same as :meth:`dict.get`."""
+        return self._values.get(key, default)
+
 def _indent(string):
     """Return and indented version of argument."""
     return "\n".join(["  {}".format(line) for line in string.split('\n')])
@@ -148,6 +152,11 @@ class Chord(AST):
     def __init__(self, chord):
         # pylint: disable=too-many-arguments
         self.chord = chord
+
+    @property
+    def pretty_chord(self):
+        """Return the chord with nicer (utf8) alteration"""
+        return self.chord.replace('b', '♭').replace('#', '♯')
 
 class Verse(AST):
     """A verse (or bridge, or chorus)"""
@@ -336,6 +345,11 @@ class Define(Directive):
         self.frets = frets
         self.fingers = fingers # Can be None
         super().__init__("define", None)
+
+    @property
+    def pretty_key(self):
+        """Return the key with nicer (utf8) alteration"""
+        return self.key.chord.replace('&', '♭').replace('#', '♯')
 
     def __str__(self):
         return None

@@ -1,0 +1,3 @@
+(* for item in content -*)
+    (( render(item) ))
+(* endfor *)

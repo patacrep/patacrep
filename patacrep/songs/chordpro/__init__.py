@@ -1,8 +1,9 @@
 """Chordpro parser"""
 
 from jinja2 import Environment, FileSystemLoader, contextfunction
-import pkg_resources
+import jinja2
 import os
+import pkg_resources
 
 from patacrep import encoding, files
 from patacrep.songs import Song
@@ -63,11 +64,14 @@ class ChordproSong(Song):
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
 
-        return Renderer(
-            template=template,
-            encoding='utf8',
-            jinjaenv=jinjaenv,
-            ).template.render(context)
+        try:
+            return Renderer(
+                template=template,
+                encoding='utf8',
+                jinjaenv=jinjaenv,
+                ).template.render(context)
+        except jinja2.exceptions.TemplateNotFound:
+            raise NotImplementedError()
 
     @staticmethod
     @contextfunction

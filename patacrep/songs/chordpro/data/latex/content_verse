@@ -1,4 +1,5 @@
 (*- if content.nolyrics -*)
+\ifchorded
 \begin{verse*}
 \musicnote{\nolyrics
   (* for line in content.lines *)
@@ -8,6 +9,7 @@
   (* endfor *)
 }
 \end{verse*}
+\fi
 (*- else *)
 \begin{(( content.type ))}
   (* for line in content.lines *)

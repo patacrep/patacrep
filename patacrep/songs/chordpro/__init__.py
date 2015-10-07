@@ -71,7 +71,7 @@ class ChordproSong(Song):
                 jinjaenv=jinjaenv,
                 ).template.render(context)
         except jinja2.exceptions.TemplateNotFound:
-            raise NotImplementedError()
+            raise NotImplementedError("Cannot convert to format '{}'.".format(output_format))
 
     @staticmethod
     @contextfunction

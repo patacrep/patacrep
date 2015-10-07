@@ -1,5 +1,15 @@
+(*- if content.nolyrics -*)
+\begin{verse*}
+\musicnote{\nolyrics
+  (* for line in content.lines *)
+    (( render(line) ))
+  (* endfor *)
+}
+\end{verse*}
+(*- else *)
 \begin{(( content.type ))}
   (* for line in content.lines *)
     (( render(line) ))
   (* endfor *)
 \end{(( content.type ))}
+(*- endif *)

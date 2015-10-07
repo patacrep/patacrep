@@ -3,6 +3,8 @@
 \musicnote{\nolyrics
   (* for line in content.lines *)
     (( render(line) ))
+    (*- if not loop.last *)\newline(* endif *)
+
   (* endfor *)
 }
 \end{verse*}

@@ -1,13 +1,9 @@
 (*- if content.nolyrics -*)
 \ifchorded
 \begin{verse*}
-\musicnote{\nolyrics
   (* for line in content.lines *)
-    (( render(line) ))
-    (*- if not loop.last *)\newline(* endif *)
-
+    \musicnote {\nolyrics (( render(line) ))}
   (* endfor *)
-}
 \end{verse*}
 \fi
 (*- else *)

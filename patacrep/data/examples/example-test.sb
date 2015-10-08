@@ -1,0 +1,13 @@
+{
+"bookoptions" : [
+    "diagram",
+    "repeatchords",
+    "lilypond",
+    "pictures"
+  ],
+"booktype" : "chorded",
+"template" : "patacrep.tex",
+"encoding": "utf8",
+ "content": ["tests/*.sg", "tests/*.sgc"]
+
+}

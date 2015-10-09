@@ -31,30 +31,36 @@ class TemplateError(SongbookError):
         else:
             return self.message
 
-class LatexCompilationError(SongbookError):
+class StepError(SongbookError):
+    """Error during execution of one compilation step."""
+
+    def __init__(self, message):
+        super(StepError, self).__init__()
+        self.message = message
+
+    def __str__(self):
+        return self.message
+
+class LatexCompilationError(StepError):
     """Error during LaTeX compilation."""
 
     def __init__(self, basename):
-        super(LatexCompilationError, self).__init__()
-        self.basename = basename
+        super(LatexCompilationError, self).__init__(
+            (
+                """Error while pdfLaTeX compilation of "{basename}.tex" """
+                """(see {basename}.log for more information)."""
+                ).format(basename=basename)
+            )
 
-    def __str__(self):
-        return (
-            """Error while pdfLaTeX compilation of "{basename}.tex" """
-            """(see {basename}.log for more information)."""
-            ).format(basename=self.basename)
-
-class StepCommandError(SongbookError):
+class StepCommandError(StepError):
     """Error during custom command compilation."""
 
     def __init__(self, command, code):
-        super(StepCommandError, self).__init__()
-        self.command = command
-        self.code = code
+        super(StepCommandError, self).__init__((
+            """Error while running custom command "{command}": got return"""
+            " code {code}."
+            ).format(command=command, code=code))
 
-    def __str__(self):
-        return ("""Error while running custom command "{command}": got return"""
-                " code {code}.").format(command=self.command, code=self.code)
 
 class CleaningError(SongbookError):
     """Error during cleaning of LaTeX auxiliary files."""
@@ -70,15 +76,13 @@ class CleaningError(SongbookError):
             exception=str(self.exception)
             )
 
-class UnknownStep(SongbookError):
+class UnknownStep(StepError):
     """Unknown compilation step."""
 
     def __init__(self, step):
-        super(UnknownStep, self).__init__()
-        self.step = step
-
-    def __str__(self):
-        return """Compilation step "{step}" unknown.""".format(step=self.step)
+        super(UnknownStep, self).__init__(
+            """Compilation step "{step}" unknown.""".format(step=step)
+        )
 
 class ParsingError(SongbookError):
     """Parsing error."""

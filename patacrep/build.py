@@ -263,13 +263,30 @@ class SongbookBuilder(object):
             with codecs.open(sxd_file[:-3] + "sbx", "w", "utf-8") as index_file:
                 index_file.write(idx.entries_to_str())
 
-    @staticmethod
-    def build_custom(command):
+    def build_custom(self, command):
         """Run a shell command"""
-        LOGGER.info("Running '{}'…".format(command))
-        exit_code = call(command, shell=True)
+        interpolation = {
+            "basename": self.basename,
+            }
+        for index in ['title', 'auth']:
+            interpolation.update({
+                '{}_{}'.format(index, extension): '{}_{}.{}'.format(self.basename, index, extension)
+                for extension in ['sbx', 'sxd']
+                })
+        interpolation.update({
+            extension: '{}.{}'.format(self.basename, extension)
+            for extension in ["aux", "log", "out", "pdf", "sxc", "tex"]
+            })
+        try:
+            formatted_command = command.format(**interpolation)
+        except KeyError as error:
+            raise errors.StepError((
+                'Custom step: Unknown key "{{{error}}}" in command "{command}".'
+                ).format(error=error.args[0], command=command))
+        LOGGER.info("Running '{}'…".format(formatted_command))
+        exit_code = call(formatted_command, shell=True)
         if exit_code:
-            raise errors.StepCommandError(command, exit_code)
+            raise errors.StepCommandError(formatted_command, exit_code)
 
     def clean(self):
         """Clean (some) temporary files used during compilation.

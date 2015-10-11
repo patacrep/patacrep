@@ -154,6 +154,9 @@ class SongbookBuilder(object):
         """Run function if it has not been run yet.
 
         If it as, return the previous return value.
+
+        Warning: several function calls with different arguments return the
+        same value.
         """
         if function not in self._called_functions:
             self._called_functions[function] = function(*args, **kwargs)
@@ -263,8 +266,7 @@ class SongbookBuilder(object):
             with codecs.open(sxd_file[:-3] + "sbx", "w", "utf-8") as index_file:
                 index_file.write(idx.entries_to_str())
 
-    def build_custom(self, command):
-        """Run a shell command"""
+    def _set_interpolation(self, command):
         interpolation = {
             "basename": self.basename,
             }
@@ -277,6 +279,11 @@ class SongbookBuilder(object):
             extension: '{}.{}'.format(self.basename, extension)
             for extension in ["aux", "log", "out", "pdf", "sxc", "tex"]
             })
+        return interpolation
+
+    def build_custom(self, command):
+        """Run a shell command"""
+        interpolation = self._run_once(self._set_interpolation, command)
         try:
             formatted_command = command.format(**interpolation)
         except KeyError as error:

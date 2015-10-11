@@ -5,6 +5,7 @@
     "lilypond",
     "pictures"
   ],
+"datadir": ["datadir2"],
 "booktype" : "chorded",
 "template" : "patacrep.tex",
 "lang" : "french",

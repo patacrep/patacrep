@@ -83,8 +83,9 @@ class ChordProLexer:
     t_tablature_TEXT = r'[^\n]+'
     t_tablature_ENDOFLINE = r'\n'
 
-    def __init__(self):
+    def __init__(self, *, filename=None):
         self.__class__.lexer = lex.lex(module=self)
+        self.filename = filename
 
     # Define a rule so we can track line numbers
     @staticmethod
@@ -132,16 +133,16 @@ class ChordProLexer:
         self.lexer.push_state('directiveargument')
         return token
 
-    @staticmethod
-    def error(token, more=""):
+    def error(self, token, more=""):
         """Display error message, and skip illegal token."""
-        LOGGER.error(
-            "Line {line}: Illegal character '{char}'{more}.".format(
-                line=token.lexer.lineno,
-                char=token.value[0],
-                more=more,
-                )
+        message = "Line {line}: Illegal character '{char}'{more}.".format(
+            line=token.lexer.lineno,
+            char=token.value[0],
+            more=more,
             )
+        if self.filename is not None:
+            message = "File {}: {}".format(self.filename, message)
+        LOGGER.error(message)
         token.lexer.skip(1)
 
     def t_error(self, token):

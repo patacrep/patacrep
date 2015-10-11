@@ -13,11 +13,12 @@ def _indent(string):
 
 #: List of properties that are to be displayed in the flow of the song (not as
 #: metadata at the beginning or end of song.
-INLINE_PROPERTIES = {
+INLINE_DIRECTIVES = {
     "partition",
     "comment",
     "guitar_comment",
     "image",
+    "newline",
     }
 
 #: Some directive have alternative names. For instance `{title: Foo}` and `{t:
@@ -63,6 +64,9 @@ class Line(AST):
         super().__init__()
         self.line = []
 
+    def __iter__(self):
+        yield from self.line
+
     def prepend(self, data):
         """Add an object at the beginning of line.
 
@@ -86,6 +90,7 @@ class Line(AST):
             return self
 
     def is_empty(self):
+        """Return `True` iff line is empty."""
         return len(self.strip().line) == 0
 
 class LineElement(AST):
@@ -144,6 +149,14 @@ class Verse(AST):
         self.lines.insert(0, data)
         return self
 
+    def directive(self):
+        """Return `True` iff the verse is composed only of directives."""
+        for line in self.lines:
+            for element in line:
+                if not isinstance(element, Directive):
+                    return False
+        return True
+
 class Chorus(Verse):
     """Chorus"""
     type = 'chorus'
@@ -191,7 +204,7 @@ class Song(AST):
             # New line
             if not (self.content and isinstance(self.content[0], EndOfLine)):
                 self.content.insert(0, EndOfLine())
-        elif isinstance(data, Line) or isinstance(data, NewLine):
+        elif isinstance(data, Line):
             # Add a new line, maybe in the current verse.
             if not data.is_empty():
                 if not (self.content and isinstance(self.content[0], Verse)):
@@ -273,7 +286,7 @@ class EndOfLine(AST):
 
 class Directive(AST):
     """A directive"""
-    meta = True
+    inline = False
 
     def __init__(self, keyword, argument=None):
         super().__init__()
@@ -288,29 +301,23 @@ class Directive(AST):
         """
         return self.keyword
 
-    @property
-    def inline(self):
-        """True iff this directive is to be rendered in the flow on the song.
-        """
-        return self.keyword in INLINE_PROPERTIES
-
     def __str__(self):
         return self.argument
 
     @classmethod
     def create(cls, keyword, argument=None):
-        if keyword == "newline":
-            return NewLine(keyword, argument)
+        """Create a :class:`Directive` or :class:`InlineDirective`.
+
+        Depending on the keyword.
+        """
+        if keyword in INLINE_DIRECTIVES:
+            return InlineDirective(keyword, argument)
         else:
             return cls(keyword, argument)
 
-class NewLine(Directive):
-    keyword = "newline"
-    _template = "newline"
-    meta = False
-
-    def strip(self):
-        return self
+class InlineDirective(Directive):
+    """Directive displayed in the flow of the song"""
+    inline = True
 
 class Define(Directive):
     """A chord definition.

@@ -17,6 +17,7 @@ class ChordproParser(Parser):
         super().__init__()
         self.tokens = tokens
         self.song = ast.Song(filename)
+        self.filename = filename
 
     def p_song(self, symbols):
         """song : block song
@@ -144,10 +145,11 @@ class ChordproParser(Parser):
 
         else:
             directive = ast.Directive.create(keyword, argument)
-            if directive.meta:
-                self.song.add(directive)
-            else:
+            if directive.inline:
                 symbols[0] = directive
+            else:
+                self.song.add(directive)
+
 
     @staticmethod
     def p_directive_next(symbols):
@@ -273,5 +275,5 @@ def parse_song(content, filename=None):
         write_tables=0,
         ).parse(
             content,
-            lexer=ChordProLexer().lexer,
+            lexer=ChordProLexer(filename=filename).lexer,
             )

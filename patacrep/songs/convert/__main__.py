@@ -17,7 +17,7 @@ def __usage():
 
 def yesno(prompt):
     while True:
-        answer = input("{} [yn](folllow with * to remember) ".format(prompt)).strip().lower()
+        answer = input("{} [yn](append * to remember) ".format(prompt)).strip().lower()
         remember = (answer[-1] == "*")
         if remember:
             answer = answer[0:-1]

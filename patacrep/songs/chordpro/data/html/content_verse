@@ -1,6 +1,8 @@
 <p class="(( content.type ))">
-  (*- for line in content.lines -*)
-    (* if not loop.first *)<br>(* endif -*)
+  (* for line in content.lines *)
     (( render(line) ))
-  (* endfor -*)
+    (*- if not loop.last *)<br>
+    (* endif *)
+  (* endfor *)
+
 </p>

@@ -12,7 +12,7 @@ tokens = (
     'LBRACE',
     'RBRACE',
     'COMMAND',
-    'NEWLINE',
+    'ENDOFLINE',
     'COMMA',
     'EQUAL',
     'CHARACTER',
@@ -34,7 +34,7 @@ class SimpleLexer:
     t_LBRACE = r'{'
     t_RBRACE = r'}'
     t_COMMAND = r'\\([@a-zA-Z]+|[^\\])'
-    t_NEWLINE = r'\\\\'
+    t_ENDOFLINE = r'\\\\'
     SPECIAL_CHARACTERS = (
         t_LBRACKET +
         t_RBRACKET +
@@ -59,7 +59,7 @@ class SimpleLexer:
 
     # Define a rule so we can track line numbers
     @staticmethod
-    def t_newline(token):
+    def t_endofline(token):
         r'\n+'
         token.lexer.lineno += len(token.value)
 

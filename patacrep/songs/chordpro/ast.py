@@ -2,46 +2,10 @@
 
 # pylint: disable=too-few-public-methods
 
+from collections import OrderedDict
 import logging
 
 LOGGER = logging.getLogger()
-
-class OrderedLifoDict:
-    """Ordered (LIFO) dictionary.
-
-    Mimics the :class:`dict` dictionary, with:
-    - dictionary is ordered: the order the keys are kept (as with
-      :class:`collections.OrderedDict`), excepted that:
-    - LIFO: the last item is reterned first when iterating.
-    """
-
-    def __init__(self, default=None):
-        if default is None:
-            self._keys = []
-            self._values = {}
-        else:
-            self._keys = list(default.keys())
-            self._values = default.copy()
-
-    def values(self):
-        """Same as :meth:`dict.values`."""
-        for key in self:
-            yield self._values[key]
-
-    def __iter__(self):
-        yield from self._keys
-
-    def __setitem__(self, key, value):
-        if key not in self._keys:
-            self._keys.insert(0, key)
-        self._values[key] = value
-
-    def __getitem__(self, key):
-        return self._values[key]
-
-    def get(self, key, default=None):
-        """Same as :meth:`dict.get`."""
-        return self._values.get(key, default)
 
 def _indent(string):
     """Return and indented version of argument."""
@@ -49,11 +13,12 @@ def _indent(string):
 
 #: List of properties that are to be displayed in the flow of the song (not as
 #: metadata at the beginning or end of song.
-INLINE_PROPERTIES = {
+INLINE_DIRECTIVES = {
     "partition",
     "comment",
     "guitar_comment",
     "image",
+    "newline",
     }
 
 #: Some directive have alternative names. For instance `{title: Foo}` and `{t:
@@ -95,13 +60,20 @@ class Line(AST):
 
     _template = "line"
 
-    def __init__(self):
+    def __init__(self, *items):
         super().__init__()
-        self.line = []
+        self.line = list(items)
+
+    def __iter__(self):
+        yield from self.line
 
     def prepend(self, data):
-        """Add an object at the beginning of line."""
-        self.line.insert(0, data)
+        """Add an object at the beginning of line.
+
+        Does nothing if argument is `None`.
+        """
+        if data is not None:
+            self.line.insert(0, data)
         return self
 
     def strip(self):
@@ -109,13 +81,17 @@ class Line(AST):
         while True:
             if not self.line:
                 return self
-            if isinstance(self.line[0], Space):
+            if isinstance(self.line[0], Space) or isinstance(self.line[0], Error):
                 del self.line[0]
                 continue
-            if isinstance(self.line[-1], Space):
+            if isinstance(self.line[-1], Space) or isinstance(self.line[-1], Error):
                 del self.line[-1]
                 continue
             return self
+
+    def is_empty(self):
+        """Return `True` iff line is empty."""
+        return len(self.strip().line) == 0
 
 class LineElement(AST):
     """Something present on a line."""
@@ -173,6 +149,14 @@ class Verse(AST):
         self.lines.insert(0, data)
         return self
 
+    def directive(self):
+        """Return `True` iff the verse is composed only of directives."""
+        for line in self.lines:
+            for element in line:
+                if not isinstance(element, Directive):
+                    return False
+        return True
+
     @property
     def nolyrics(self):
         """Return `True` iff verse contains only notes (no lyrics)"""
@@ -215,26 +199,29 @@ class Song(AST):
     def __init__(self, filename):
         super().__init__()
         self.content = []
-        self.meta = OrderedLifoDict()
+        self.meta = OrderedDict()
         self._authors = []
         self._titles = []
         self._subtitles = []
-        self._keys = []
         self.filename = filename
 
     def add(self, data):
         """Add an element to the song"""
         if isinstance(data, Error):
-            return self
+            pass
         elif data is None:
             # New line
-            if not (self.content and isinstance(self.content[0], Newline)):
-                self.content.insert(0, Newline())
+            if not (self.content and isinstance(self.content[0], EndOfLine)):
+                self.content.insert(0, EndOfLine())
         elif isinstance(data, Line):
             # Add a new line, maybe in the current verse.
-            if not (self.content and isinstance(self.content[0], Verse)):
-                self.content.insert(0, Verse())
-            self.content[0].prepend(data.strip())
+            if not data.is_empty():
+                if not (self.content and isinstance(self.content[0], Verse)):
+                    self.content.insert(0, Verse())
+                self.content[0].prepend(data.strip())
+        elif isinstance(data, Directive) and data.inline:
+            # Add a directive in the content of the song.
+            self.content.append(data)
         elif data.inline:
             # Add an object in the content of the song.
             self.content.insert(0, data)
@@ -251,13 +238,13 @@ class Song(AST):
 
     def add_title(self, data):
         """Add a title"""
-        self._titles.insert(0, data.argument)
+        self._titles.append(data.argument)
 
     def add_cumulative(self, data):
         """Add a cumulative argument into metadata"""
         if data.keyword not in self.meta:
             self.meta[data.keyword] = []
-        self.meta[data.keyword].insert(0, data)
+        self.meta[data.keyword].append(data)
 
     def get_data_argument(self, keyword, default):
         """Return `self.meta[keyword].argument`.
@@ -276,7 +263,7 @@ class Song(AST):
 
     def add_subtitle(self, data):
         """Add a subtitle"""
-        self._subtitles.insert(0, data.argument)
+        self._subtitles.append(data.argument)
 
     @property
     def titles(self):
@@ -285,7 +272,7 @@ class Song(AST):
 
     def add_author(self, data):
         """Add an auhor."""
-        self._authors.insert(0, data.argument)
+        self._authors.append(data.argument)
 
     @property
     def authors(self):
@@ -295,16 +282,16 @@ class Song(AST):
     def add_key(self, data):
         """Add a new {key: foo: bar} directive."""
         key, *argument = data.argument.split(":")
-        if 'keys' not in self.meta:
-            self.meta['keys'] = []
-        self.meta['keys'].insert(0, Directive(
+        if 'morekeys' not in self.meta:
+            self.meta['morekeys'] = []
+        self.meta['morekeys'].append(Directive(
             key.strip(),
             ":".join(argument).strip(),
             ))
 
-class Newline(AST):
+class EndOfLine(AST):
     """New line"""
-    _template = "newline"
+    _template = "endofline"
 
 class Directive(AST):
     """A directive"""
@@ -322,14 +309,13 @@ class Directive(AST):
         """
         return self.keyword
 
+    def __str__(self):
+        return str(self.argument)
+
     @property
     def inline(self):
-        """True iff this directive is to be rendered in the flow on the song.
-        """
-        return self.keyword in INLINE_PROPERTIES
-
-    def __str__(self):
-        return self.argument
+        """Return `True` iff `self` is an inline directive."""
+        return self.keyword in INLINE_DIRECTIVES
 
 class Define(Directive):
     """A chord definition.

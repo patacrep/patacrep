@@ -30,7 +30,7 @@
   (* if 'cov' in metadata *)
   cov={(( metadata["cov"].argument|search_image ))},
   (* endif *)
-  (* for key in metadata.keys *)
+  (* for key in metadata.morekeys *)
   (( key.keyword ))={(( key.argument ))},
   (* endfor *)
 ]

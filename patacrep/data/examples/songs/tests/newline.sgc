@@ -1,0 +1,39 @@
+{title: Newline}
+{subtitle: Test of "newline" directive}
+
+This is a verse
+With a new line
+{newline}
+The second part of the verse
+Is this line
+
+Here is a new line at the end
+{newline}
+
+Foo bar
+
+{newline}
+And a new line
+At the beginning
+
+{soc}
+New lines can also
+{newline}
+Be in chorus
+{eoc}
+
+{sob}
+New lines can also
+{newline}
+Be in bridges
+{eob}
+
+New lines can also
+    {newline}    
+Be surrounded by spaces
+
+New lines cannot have text before them {newline}
+
+{newline} New lines cannot have text after them
+
+New lines cannot be {newline} surrounded by text.

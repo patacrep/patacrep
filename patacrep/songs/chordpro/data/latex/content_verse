@@ -1,4 +1,8 @@
-(*- if content.nolyrics -*)
+(* if content.directive() *)
+  (* for line in content.lines -*)
+    ((- render(line) ))
+  (* endfor -*)
+(*- elif content.nolyrics -*)
 \ifchorded
 \begin{verse*}
   (* for line in content.lines *)

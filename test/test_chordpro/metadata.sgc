@@ -15,5 +15,8 @@
 
 {comment: Comment}
 {guitar_comment: GuitarComment}
-{image: Image}
 {partition: Lilypond}
+{image: Image}
+
+
+Foo

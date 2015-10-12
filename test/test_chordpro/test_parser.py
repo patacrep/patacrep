@@ -14,6 +14,7 @@ from .. import disable_logging
 LANGUAGES = {
     'tex': 'latex',
     'sgc': 'chordpro',
+    'html': 'html',
 }
 
 class FileTestMeta(type):

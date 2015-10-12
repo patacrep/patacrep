@@ -27,7 +27,7 @@ class LatexParser(Parser):
         """expression : brackets expression
                       | braces expression
                       | command expression
-                      | NEWLINE expression
+                      | ENDOFLINE expression
                       | beginsong expression
                       | word expression
                       | SPACE expression
@@ -172,7 +172,7 @@ class LatexParser(Parser):
 
     @staticmethod
     def p_titles_next(symbols):
-        """titles_next : NEWLINE title titles_next
+        """titles_next : ENDOFLINE title titles_next
                        | empty
         """
         if len(symbols) == 2:

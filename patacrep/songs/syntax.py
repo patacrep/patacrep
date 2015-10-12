@@ -20,8 +20,7 @@ class Parser:
         column = (token.lexpos - last_cr) + 1
         return column
 
-    @staticmethod
-    def error(*, line=None, column=None, message=""):
+    def error(self, *, line=None, column=None, message=""):
         """Display an error message"""
         coordinates = []
         if line is not None:
@@ -35,7 +34,10 @@ class Parser:
             text += message
         else:
             text += "."
-        LOGGER.error(text)
+        if self.filename is None:
+            LOGGER.error(text)
+        else:
+            LOGGER.error("File {}: {}".format(self.filename, text))
 
     def p_error(self, token):
         """Manage parsing errors."""

@@ -79,6 +79,10 @@ def argument_parser(args):
                 in a shell). Several steps (excepted the custom shell
                 command) can be combinend in one --steps argument, as a
                 comma separated string.
+
+                Substring {{basename}} is replaced by the basename of the song
+                book, and substrings {{aux}}, {{log}}, {{out}}, {{pdf}}, {{sxc}}, {{tex}}
+                are replaced by "<BASENAME>.aux", "<BASENAME>.log", and so on.
         """.format(steps=','.join(DEFAULT_STEPS))),
         default=None,
         )

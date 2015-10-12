@@ -58,9 +58,10 @@ if __name__ == "__main__":
         song = song_parsers[source]("", file, DEFAULT_CONFIG)
         try:
             destname = "{}.{}".format(".".join(file.split(".")[:-1]), dest)
-            if os.path.exists(destname) and not remember:
+            dest_exists = os.path.exists(destname)
+            if dest_exists and not remember:
                 overwrite, remember = confirm(destname)
-            if not overwrite:
+            if dest_exists and not overwrite:
                 continue
             converted = song.render(dest)
             with open(destname, "w") as destfile:

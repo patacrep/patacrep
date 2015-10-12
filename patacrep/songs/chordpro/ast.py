@@ -60,9 +60,9 @@ class Line(AST):
 
     _template = "line"
 
-    def __init__(self):
+    def __init__(self, *items):
         super().__init__()
-        self.line = []
+        self.line = list(items)
 
     def __iter__(self):
         yield from self.line
@@ -310,7 +310,7 @@ class Directive(AST):
         return self.keyword
 
     def __str__(self):
-        return self.argument
+        return str(self.argument)
 
     @property
     def inline(self):

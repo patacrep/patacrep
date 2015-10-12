@@ -1,11 +1,14 @@
 """ChordPro parser"""
 
+import logging
 import ply.yacc as yacc
 import re
 
 from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
+
+LOGGER = logging.getLogger()
 
 class ChordproParser(Parser):
     """ChordPro parser class"""
@@ -18,6 +21,19 @@ class ChordproParser(Parser):
         self.tokens = tokens
         self.song = ast.Song(filename)
         self.filename = filename
+        self.parser = yacc.yacc(
+            module=self,
+            debug=0,
+            write_tables=0,
+            )
+
+    def parse(self, *args, **kwargs):
+        """Parse file
+
+        This is a shortcut to `yacc.yacc(...).parse()`. The arguments are
+        transmitted to this method.
+        """
+        return self.parser.parse(*args, **kwargs)
 
     def p_song(self, symbols):
         """song : block song
@@ -32,6 +48,7 @@ class ChordproParser(Parser):
     def p_block(symbols):
         """block : SPACE block
                  | line ENDOFLINE
+                 | line_error ENDOFLINE
                  | chorus ENDOFLINE
                  | tab ENDOFLINE
                  | bridge ENDOFLINE
@@ -168,19 +185,34 @@ class ChordproParser(Parser):
             symbols[0] = None
 
     @staticmethod
+    def p_line_error(symbols):
+        """line_error : error directive"""
+        LOGGER.error("Directive can only be preceded or followed by spaces")
+        symbols[0] = ast.Line()
+
+    @staticmethod
     def p_line(symbols):
         """line : word line_next
                 | chord line_next
-                | directive line_next
+                | directive maybespace
         """
-        symbols[0] = symbols[2].prepend(symbols[1])
+        if isinstance(symbols[2], ast.Line):
+            # Line with words, etc.
+            symbols[0] = symbols[2].prepend(symbols[1])
+        else:
+            # Directive
+            if symbols[1] is None:
+                # Meta directive. Nothing to do
+                symbols[0] = ast.Line()
+            else:
+                # Inline directive
+                symbols[0] = ast.Line(symbols[1])
 
     @staticmethod
     def p_line_next(symbols):
         """line_next : word line_next
                      | space line_next
                      | chord line_next
-                     | directive line_next
                      | empty
         """
         if len(symbols) == 2:
@@ -212,6 +244,7 @@ class ChordproParser(Parser):
     @staticmethod
     def p_chorus_content(symbols):
         """chorus_content : line ENDOFLINE chorus_content
+                          | line_error ENDOFLINE chorus_content
                           | SPACE chorus_content
                           | empty
         """
@@ -231,6 +264,7 @@ class ChordproParser(Parser):
     @staticmethod
     def p_bridge_content(symbols):
         """bridge_content : line ENDOFLINE bridge_content
+                          | line_error ENDOFLINE bridge_content
                           | SPACE bridge_content
                           | empty
         """
@@ -267,13 +301,18 @@ class ChordproParser(Parser):
         """empty :"""
         symbols[0] = None
 
+    def p_error(self, token):
+        super().p_error(token)
+        while True:
+            token = self.parser.token()
+            if not token or token.type == "ENDOFLINE":
+                break
+        self.parser.errok()
+        return token
+
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
-    return yacc.yacc(
-        module=ChordproParser(filename),
-        debug=0,
-        write_tables=0,
-        ).parse(
-            content,
-            lexer=ChordProLexer(filename=filename).lexer,
-            )
+    return ChordproParser(filename).parse(
+        content,
+        lexer=ChordProLexer(filename=filename).lexer,
+        )

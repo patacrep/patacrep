@@ -29,4 +29,4 @@ New lines can also
     {newline}    
 Be surrounded by spaces
 
-New lines can {newline} appear in the middle of a line
+New lines cannot {newline} appear in the middle of a line

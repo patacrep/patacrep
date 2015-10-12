@@ -32,4 +32,8 @@ New lines can also
     {newline}    
 Be surrounded by spaces
 
-New lines can {newline} appear in the middle of a line
+New lines cannot have text before them {newline}
+
+{newline} New lines cannot have text after them
+
+New lines cannot be {newline} surrounded by text.

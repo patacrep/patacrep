@@ -1,0 +1,6 @@
+{title : Image included from a different datadir}
+{subtitle: Chordpro}
+{cover: datadir2.png}
+
+{partition: datadir2.ly}
+{image: datadir2.png}

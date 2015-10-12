@@ -5,14 +5,9 @@
     "lilypond",
     "pictures"
   ],
-"datadir": ["datadir2"],
 "booktype" : "chorded",
 "template" : "patacrep.tex",
-"lang" : "french",
 "encoding": "utf8",
-"authwords" : {
-  "sep" : ["and", "et"]
-  },
- "content": [["sorted", "subdir/*.sg", "subdir/*.sgc"]]
+ "content": ["tests/*.sg", "tests/*.sgc"]
 
 }

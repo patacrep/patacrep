@@ -157,6 +157,15 @@ class Verse(AST):
                     return False
         return True
 
+    @property
+    def nolyrics(self):
+        """Return `True` iff verse contains only notes (no lyrics)"""
+        for line in self.lines:
+            for item in line.line:
+                if not (isinstance(item, Space) or isinstance(item, ChordList)):
+                    return False
+        return True
+
 class Chorus(Verse):
     """Chorus"""
     type = 'chorus'

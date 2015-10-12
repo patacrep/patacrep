@@ -51,7 +51,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     for file in song_files:
-        song = song_parsers[source](".", file, DEFAULT_CONFIG)
+        song = song_parsers[source]("", file, DEFAULT_CONFIG)
         try:
             converted = song.render(dest)
             destname = "{}.{}".format(".".join(file.split(".")[:-1]), dest)

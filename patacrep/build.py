@@ -266,7 +266,8 @@ class SongbookBuilder(object):
             with codecs.open(sxd_file[:-3] + "sbx", "w", "utf-8") as index_file:
                 index_file.write(idx.entries_to_str())
 
-    def _set_interpolation(self, command):
+    def _get_interpolation(self):
+        """Return the interpolation values for a custom command."""
         interpolation = {
             "basename": self.basename,
             }
@@ -283,7 +284,7 @@ class SongbookBuilder(object):
 
     def build_custom(self, command):
         """Run a shell command"""
-        interpolation = self._run_once(self._set_interpolation, command)
+        interpolation = self._run_once(self._get_interpolation)
         try:
             formatted_command = command.format(**interpolation)
         except KeyError as error:

@@ -144,7 +144,7 @@ class ChordproParser(Parser):
             self.song.add(define)
 
         else:
-            directive = ast.Directive.create(keyword, argument)
+            directive = ast.Directive(keyword, argument)
             if directive.inline:
                 symbols[0] = directive
             else:

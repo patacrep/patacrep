@@ -286,7 +286,6 @@ class EndOfLine(AST):
 
 class Directive(AST):
     """A directive"""
-    inline = False
 
     def __init__(self, keyword, argument=None):
         super().__init__()
@@ -304,20 +303,10 @@ class Directive(AST):
     def __str__(self):
         return self.argument
 
-    @classmethod
-    def create(cls, keyword, argument=None):
-        """Create a :class:`Directive` or :class:`InlineDirective`.
-
-        Depending on the keyword.
-        """
-        if keyword in INLINE_DIRECTIVES:
-            return InlineDirective(keyword, argument)
-        else:
-            return cls(keyword, argument)
-
-class InlineDirective(Directive):
-    """Directive displayed in the flow of the song"""
-    inline = True
+    @property
+    def inline(self):
+        """Return `True` iff `self` is an inline directive."""
+        return self.keyword in INLINE_DIRECTIVES
 
 class Define(Directive):
     """A chord definition.

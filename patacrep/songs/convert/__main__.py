@@ -17,14 +17,11 @@ def __usage():
 
 def yesno(prompt):
     while True:
-        answer = input("{} [yn](append * to remember) ".format(prompt)).strip().lower()
-        remember = (answer[-1] == "*")
-        if remember:
-            answer = answer[0:-1]
-        if answer == "y":
-            return True, remember
-        if answer == "n":
-            return False, remember
+        answer = input("{} [yn] ".format(prompt))
+        if answer.strip().lower() == "y":
+            return True
+        if answer.strip().lower() == "n":
+            return False
 
 def confirm(destname):
     return yesno("File '{}' already exist. Overwrite?".format(destname))
@@ -53,19 +50,15 @@ if __name__ == "__main__":
             )
         sys.exit(1)
 
-    remember = False
     for file in song_files:
         song = song_parsers[source]("", file, DEFAULT_CONFIG)
         try:
             destname = "{}.{}".format(".".join(file.split(".")[:-1]), dest)
-            dest_exists = os.path.exists(destname)
-            if dest_exists and not remember:
-                overwrite, remember = confirm(destname)
-            if dest_exists and not overwrite:
-                continue
-            converted = song.render(dest)
+            if os.path.exists(destname):
+                if not confirm(destname):
+                    continue
             with open(destname, "w") as destfile:
-                destfile.write(converted)
+                destfile.write(song.render(dest))
 
         except NotImplementedError:
             LOGGER.error("Cannot convert to format '%s'.", dest)

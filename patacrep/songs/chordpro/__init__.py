@@ -38,7 +38,7 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.languages = song.get_data_argument('language', [self.config['lang']])
+        self.language = song.get_data_argument('language', self.config['lang'])
         self.data = song.meta
         self.cached = {
             'song': song,
@@ -49,7 +49,7 @@ class ChordproSong(Song):
             templatedirs = []
 
         context = {
-            'language': self.languages[0],
+            'language': self.language,
             "titles": self.titles,
             "authors": self.authors,
             "metadata": self.data,

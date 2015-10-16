@@ -20,8 +20,8 @@ class LatexSong(Song):
             self.data = parse_song(song.read(), self.fullpath)
         self.titles = self.data['@titles']
         del self.data['@titles']
-        self.languages = self.data['@languages']
-        del self.data['@languages']
+        self.language = self.data['@language']
+        del self.data['@language']
         if "by" in self.data:
             self.authors = [self.data['by']]
             del self.data['by']

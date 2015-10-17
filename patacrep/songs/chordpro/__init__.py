@@ -13,9 +13,6 @@ from patacrep.templates import Renderer
 class ChordproSong(Song):
     """Chordpros song parser."""
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
     @staticmethod
     def iter_template_paths(templatedirs, output_format):
         """Iterate over paths in which templates are to be searched.

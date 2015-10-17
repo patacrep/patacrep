@@ -55,7 +55,7 @@ class FileTestMeta(type):
                 chordproname = "{}.source".format(base)
                 with disable_logging():
                     self.assertMultiLineEqual(
-                        ChordproSong(None, chordproname, DEFAULT_CONFIG).render(
+                        ChordproSong(chordproname, DEFAULT_CONFIG).render(
                             output=chordproname,
                             output_format=LANGUAGES[dest],
                             ).strip(),

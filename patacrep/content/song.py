@@ -87,9 +87,9 @@ def parse(keyword, argument, contentlist, config):
                                 ))
                         continue
                     renderer = SongRenderer(plugins[extension](
-                        songdir.datadir,
                         filename,
                         config,
+                        datadir=songdir.datadir,
                         ))
                     songlist.append(renderer)
                     config["_languages"].update(renderer.song.languages)

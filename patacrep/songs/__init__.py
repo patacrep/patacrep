@@ -95,9 +95,12 @@ class Song:
         "_version",
         ]
 
-    def __init__(self, datadir, subpath, config):
-        self.fullpath = os.path.join(datadir, subpath)
-        self.datadir = datadir
+    def __init__(self, subpath, config, *, datadir=None):
+        if datadir is None:
+            self.datadir = ""
+        else:
+            self.datadir = datadir
+        self.fullpath = os.path.join(self.datadir, subpath)
         self.encoding = config["encoding"]
         self.config = config
 
@@ -131,7 +134,6 @@ class Song:
         self._parse(config)
 
         # Post processing of data
-        self.datadir = datadir
         self.subpath = subpath
         self.unprefixed_titles = [
             unprefixed_title(

@@ -1,0 +1,180 @@
+
+
+
+
+
+
+%% Automatically generated document.
+%% You may edit this file but all changes will be overwritten.
+%% If you want to change this document, have a look at
+%% the templating system.
+%%
+%% Generated using Songbook <http://www.patacrep.com>
+
+\makeatletter
+\def\input@path{ %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/latex/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/latex/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/latex/} %
+        {/home/louis/projets/patacrep/patacrep/patacrep/data/latex/} %
+}
+\makeatother
+
+\documentclass[
+    ]{article}
+
+\usepackage[
+    chorded,
+lilypond,
+pictures,
+guitar,
+    ]{patacrep}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+
+\PassOptionsToPackage{french}{babel}
+\usepackage[english]{babel}
+\lang{english}
+
+\usepackage{graphicx}
+\graphicspath{ %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/img/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/img/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/img/} %
+        {/home/louis/projets/patacrep/patacrep/patacrep/data/img/} %
+}
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{
+   \usepackage{url}
+   \newcommand{\phantomsection}{}
+   \newcommand{\hyperlink}[2]{#2}
+   \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+}
+\makeatother
+
+
+\usepackage{chords}
+
+\title{Guitar songbook}
+\author{The Patacrep Team}
+
+\newindex{titleidx}{subdir_title}
+\newauthorindex{authidx}{subdir_auth}
+
+
+\notenamesout{A}{B}{C}{D}{E}{F}{G}
+
+
+\begin{document}
+
+\maketitle
+
+
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
+
+% list of chords
+\ifchorded
+  \ifdiagram
+     \phantomsection
+     \addcontentsline{toc}{section}{\chordlistname}
+     \chords
+  \fi
+\fi
+
+\phantomsection
+\addcontentsline{toc}{section}{\songlistname}
+
+\begin{songs}{titleidx,authidx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir2.sgc
+
+\selectlanguage{french}
+
+\beginsong{Image included from a different datadir\\
+Chordpro}[
+  by={
+  },
+  cov={/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/img/datadir2.png},
+]
+
+\cover
+
+
+
+\lilypond{datadir2.ly}
+\image{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/img/datadir2.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir2.sg
+
+\import{subdir_datadir/songs/}{datadir2.sg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./relative.sgc
+
+\selectlanguage{french}
+
+\beginsong{Image included from song directory\\
+Chordpro}[
+  by={
+  },
+  cov={/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.png},
+]
+
+\cover
+
+
+
+\lilypond{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.ly}
+\image{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir.sgc
+
+\selectlanguage{french}
+
+\beginsong{Image included from datadir\\
+Chordpro}[
+  by={
+  },
+  cov={/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/img/datadir.png},
+]
+
+\cover
+
+
+
+\lilypond{datadir.ly}
+\image{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/img/datadir.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./relative.sg
+
+\import{subdir_datadir/songs/}{relative.sg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir.sg
+
+\import{subdir_datadir/songs/}{datadir.sg}
+
+\end{songs}
+
+
+
+
+\end{document}

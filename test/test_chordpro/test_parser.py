@@ -10,6 +10,7 @@ from patacrep.build import DEFAULT_CONFIG
 from patacrep.songs.chordpro import ChordproSong
 
 from .. import disable_logging
+from .. import dynamic # pylint: disable=unused-import
 
 LANGUAGES = {
     'tex': 'latex',
@@ -17,15 +18,22 @@ LANGUAGES = {
     'html': 'html',
 }
 
-class FileTestMeta(type):
-    """Metaclass that creates on-the-fly test function according to files.
+class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
+    """Test of chorpro parser, and several renderers.
 
-    See the :class:`FileTest` documentation for more information.
+    For any given `foo.source`, it is parsed as a chordpro file, and should be
+    rendered as `foo.sgc` with the chordpro renderer, and `foo.tex` with the
+    latex renderer.
+
+    This class does nothing by itself, but its metaclass populates it with test
+    methods testing parser and renderers.
     """
 
-    def __init__(cls, name, bases, nmspc):
-        super().__init__(name, bases, nmspc)
+    maxDiff = None
 
+    @classmethod
+    def _iter_testmethods(cls):
+        """Iterate over song files to test."""
         for source in sorted(glob.glob(os.path.join(
                 os.path.dirname(__file__),
                 '*.source',
@@ -35,14 +43,13 @@ class FileTestMeta(type):
                 destname = "{}.{}".format(base, dest)
                 if not os.path.exists(destname):
                     continue
-                setattr(
-                    cls,
+                yield (
                     "test_{}_{}".format(os.path.basename(base), dest),
-                    cls._create_test(base, dest),
+                    [base, dest],
                     )
 
-    @staticmethod
-    def _create_test(base, dest):
+    @classmethod
+    def _create_test(cls, base, dest):
         """Return a function testing that `base` compilation in `dest` format.
         """
 
@@ -67,15 +74,3 @@ class FileTestMeta(type):
             ).format(base=os.path.basename(base), format=dest)
         return test_parse_render
 
-class FileTest(unittest.TestCase, metaclass=FileTestMeta):
-    """Test of chorpro parser, and several renderers.
-
-    For any given `foo.source`, it is parsed as a chordpro file, and should be
-    rendered as `foo.sgc` with the chordpro renderer, and `foo.tex` with the
-    latex renderer.
-
-    This class does nothing by itself, but its metaclass populates it with test
-    methods testing parser and renderers.
-    """
-
-    maxDiff = None

@@ -24,7 +24,7 @@ setup(
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            "songbook = patacrep.songbook:main",
+            "songbook = patacrep.songbook.__main__:main",
             ],
         },
     classifiers=[

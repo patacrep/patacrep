@@ -1,0 +1,7 @@
+{
+"bookoptions" : [
+    "lilypond",
+    "pictures"
+  ],
+"datadir": ["subdir_datadir", "subdir_datadir2"]
+}

@@ -92,7 +92,7 @@ def parse(keyword, argument, contentlist, config):
                         config,
                         ))
                     songlist.append(renderer)
-                    config["_languages"].update(renderer.song.language)
+                    config["_languages"].add(renderer.song.language)
             if len(songlist) > before:
                 break
         if len(songlist) == before:

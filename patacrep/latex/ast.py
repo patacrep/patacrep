@@ -46,7 +46,7 @@ class Command(AST):
         self.optional = optional
 
         if name == r'\selectlanguage':
-            self.metadata['@language'] = self.mandatory
+            self.metadata['@language'] = self.mandatory[0]
 
     def __str__(self):
         if self.name in [r'\emph']:

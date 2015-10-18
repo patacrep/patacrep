@@ -6,6 +6,7 @@
     "pictures"
   ],
 "booktype" : "chorded",
+"datadir": ["datadir2"],
 "template" : "patacrep.tex",
 "lang" : "french",
 "encoding": "utf8",

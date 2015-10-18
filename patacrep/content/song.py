@@ -92,7 +92,7 @@ def parse(keyword, argument, contentlist, config):
                         datadir=songdir.datadir,
                         ))
                     songlist.append(renderer)
-                    config["_languages"].update(renderer.song.languages)
+                    config["_languages"].add(renderer.song.language)
             if len(songlist) > before:
                 break
         if len(songlist) == before:

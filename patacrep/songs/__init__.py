@@ -89,7 +89,7 @@ class Song:
         "cached",
         "data",
         "subpath",
-        "languages",
+        "language",
         "authors",
         "_filehash",
         "_version",
@@ -186,8 +186,8 @@ class Song:
 
         - titles: the list of (raw) titles. This list will be processed to
           remove prefixes.
-        - languages: the list of languages used in the song, as languages
-          recognized by the LaTeX babel package.
+        - language: the main language of the song, as language recognized by
+          the LaTeX babel package.
         - authors: the list of (raw) authors. This list will be processed to
           'clean' it (see function :func:`patacrep.authors.processauthors`).
         - data: song metadata. Used (among others) to sort the songs.

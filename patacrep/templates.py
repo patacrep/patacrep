@@ -8,7 +8,7 @@ import os
 import re
 import json
 
-from patacrep import errors, files
+from patacrep import errors, files, songs
 import patacrep.encoding
 
 _LATEX_SUBS = (
@@ -84,6 +84,7 @@ class Renderer:
         self.jinjaenv.trim_blocks = True
         self.jinjaenv.lstrip_blocks = True
         self.jinjaenv.globals["path2posix"] = files.path2posix
+        self.jinjaenv.globals["lang2language"] = songs.lang2language
         self.template = self.jinjaenv.get_template(template)
 
 

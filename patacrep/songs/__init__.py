@@ -7,11 +7,26 @@ import logging
 import os
 import pickle
 import re
+from collections import OrderedDict
 
 from patacrep.authors import process_listauthors
 from patacrep import files, encoding
 
 LOGGER = logging.getLogger(__name__)
+
+BABEL_LANGUAGES = OrderedDict((
+    ('fr', 'french'),
+    ('en', 'english'),
+    ('de', 'german'),
+))
+
+def lang2language(lang):
+    try:
+        return BABEL_LANGUAGES[lang]
+    except KeyError:
+        # TODO: raise a nice error
+        print('Unknown lang:' + lang)
+        return 'english'
 
 def cached_name(datadir, filename):
     """Return the filename of the cache version of the file."""
@@ -245,6 +260,21 @@ class Song:
         """Search for a lilypond file"""
         filepath = self.search_file(filename, ['', '.ly'])
         return filepath if none_if_not_found or filepath else filename
+
+    @property
+    def language(self):
+        """Return the string corresponding to the babel (LaTeX) language"""
+        return lang2language(self.lang)
+
+    @language.setter
+    def language(self, language):
+        """Set the language code"""
+        for lang, babel_language in BABEL_LANGUAGES.items():
+            if language == babel_language:
+                self.lang = lang
+                return
+        # TODO: raise a nice error
+        print('Unsupported language:' + language)
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

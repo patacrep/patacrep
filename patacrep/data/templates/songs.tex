@@ -52,7 +52,7 @@
             "mandatory": true
             },
 "lang": {"description": {"english": "Language", "french": "Langue"},
-         "default": {"english": "english", "french": "french"}
+         "default": {"en": "english", "fr": "french"}
       },
 "titleprefixwords": {"description": {"english": "Ignore some words in the beginning of song titles",
                                      "french": "Ignore des mots dans le classement des chansons"},
@@ -80,11 +80,11 @@
 (* block songbookpreambule *)
 (( super() ))
 
-(* for lang in _languages -*)
-    \PassOptionsToPackage{((lang))}{babel}
+(* for language in _languages -*)
+    \PassOptionsToPackage{((language))}{babel}
 (* endfor *)
-\usepackage[((lang))]{babel}
-\lang{((lang))}
+\usepackage[(( lang2language(lang) ))]{babel}
+\lang{(( lang2language(lang) ))}
 
 \usepackage{graphicx}
 \graphicspath{ %

@@ -27,8 +27,8 @@ def lang2language(lang):
     try:
         return BABEL_LANGUAGES[lang]
     except KeyError:
-        # TODO: raise a nice error
-        print('Unknown lang:' + lang)
+        available = ", ".join(BABEL_LANGUAGES.keys())
+        LOGGER.error('Unknown lang code: ' + lang + '. Supported: ' + available)
         return 'english'
 
 def cached_name(datadir, filename):

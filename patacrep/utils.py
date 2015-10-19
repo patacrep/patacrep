@@ -1,11 +1,15 @@
+"""Some utility functions"""
+
 from collections import UserDict
 
 class DictOfDict(UserDict):
-    """Dictionary, with a smart :meth:`update` method.
+    """Dictionary, with a recursive :meth:`update` method.
 
-    By "smart", we mean: if `self.update(other)` is called, and for some key
-    both `self[key]` and `other[key]` are dictionary, then `self[key]` is not
-    replaced by `other[key]`, but instead is updated.
+    By "recursive", we mean: if `self.update(other)` is called, and for some
+    key both `self[key]` and `other[key]` are dictionary, then `self[key]` is
+    not replaced by `other[key]`, but instead is updated. This is done
+    recursively (that is, `self[foo][bar][baz]` is updated with
+    `other[foo][bar][baz]`, if the corresponding objects are dictionaries).
 
     >>> ordinal = DictOfDict({
     ... "francais": {
@@ -42,10 +46,15 @@ class DictOfDict(UserDict):
     """
 
     def update(self, other):
-        for key in other:
-            if key not in self:
-                self[key] = other[key]
-            elif isinstance(self[key], dict) and isinstance(other[key], dict):
-                self[key].update(other[key])
+        # pylint: disable=arguments-differ
+        self._update(self, other)
+
+    def _update(self, left, right):
+        """Equivalent to `left.update(right)`, with recursive update."""
+        for key in right:
+            if key not in left:
+                left[key] = right[key]
+            elif isinstance(left[key], dict) and isinstance(right[key], dict):
+                self._update(left[key], right[key])
             else:
-                self[key] = other[key]
+                left[key] = right[key]

@@ -11,8 +11,9 @@ from patacrep import files, encoding
 from patacrep.latex import parse_song
 from patacrep.songs import Song
 
-class LatexSong(Song):
-    """LaTeX song parser."""
+class Latex2LatexSong(Song):
+    """Song written in LaTeX, rendered in LaTeX"""
+    # pylint: disable=abstract-method
 
     def _parse(self, __config):
         """Parse content, and return the dictinory of song data."""
@@ -28,8 +29,9 @@ class LatexSong(Song):
         else:
             self.authors = []
 
-    def render_latex(self, output):
+    def render(self, output):
         """Return the code rendering the song."""
+        # pylint: disable=signature-differs
         if output is None:
             raise ValueError(output)
         path = files.path2posix(files.relpath(
@@ -38,7 +40,9 @@ class LatexSong(Song):
         ))
         return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
 
-SONG_PARSERS = {
-    'is': LatexSong,
-    'sg': LatexSong,
-    }
+SONG_RENDERERS = {
+    "latex": {
+        'is': Latex2LatexSong,
+        'sg': Latex2LatexSong,
+    },
+}

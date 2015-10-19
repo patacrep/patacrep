@@ -1,9 +1,9 @@
 """Chordpro parser"""
 
-from jinja2 import Environment, FileSystemLoader, contextfunction
+from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
 import jinja2
 import os
-import pkg_resources
+from pkg_resources import resource_filename
 
 from patacrep import encoding, files
 from patacrep.songs import Song
@@ -11,23 +11,10 @@ from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
 
 class ChordproSong(Song):
-    """Chordpros song parser."""
+    """Chordpro song parser"""
+    # pylint: disable=abstract-method
 
-    @staticmethod
-    def iter_template_paths(templatedirs, output_format):
-        """Iterate over paths in which templates are to be searched.
-
-        :param iterator templatedirs: Iterators of additional directories (the
-            default hard-coded template directory is returned last).
-        :param str output_format: Song output format, which is appended to
-            each directory.
-        """
-        for directory in templatedirs:
-            yield os.path.join(directory, output_format)
-        yield os.path.join(
-            os.path.abspath(pkg_resources.resource_filename(__name__, 'data')),
-            output_format,
-            )
+    output_language = None
 
     def _parse(self, config):
         """Parse content, and return the dictionary of song data."""
@@ -41,10 +28,7 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output_format, output=None, template="song", templatedirs=None): # pylint: disable=arguments-differ
-        if templatedirs is None:
-            templatedirs = []
-
+    def render(self, output=None, template="song"): # pylint: disable=arguments-differ
         context = {
             'language': self.languages[0],
             "titles": self.titles,
@@ -55,9 +39,14 @@ class ChordproSong(Song):
             "content": self.cached['song'].content,
             }
 
-        jinjaenv = Environment(loader=FileSystemLoader(
-            self.iter_template_paths(templatedirs, output_format)
-            ))
+        jinjaenv = Environment(loader=ChoiceLoader([
+            FileSystemLoader(
+                self.get_datadirs(os.path.join("templates", self.output_language))
+            ),
+            FileSystemLoader(
+                os.path.join(resource_filename(__name__, 'data'), self.output_language)
+            ),
+            ]))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
 
@@ -68,7 +57,7 @@ class ChordproSong(Song):
                 jinjaenv=jinjaenv,
                 ).template.render(context)
         except jinja2.exceptions.TemplateNotFound:
-            raise NotImplementedError("Cannot convert to format '{}'.".format(output_format))
+            raise NotImplementedError("Cannot convert to format '{}'.".format(self.output_language))
 
     @staticmethod
     @contextfunction
@@ -77,6 +66,51 @@ class ChordproSong(Song):
         context.vars['content'] = content
         return context.environment.get_template(content.template()).render(context)
 
-SONG_PARSERS = {
-    'sgc': ChordproSong,
+class Chordpro2HtmlSong(ChordproSong):
+    """Render chordpro song to html code"""
+
+    output_language = "html"
+
+    def search_file(self, filename, extensions=None, *, datadirs=None):
+        try:
+            datadir, filename, extensions = self.search_datadir_file(filename, extensions, datadirs)
+            return os.path.join(datadir, filename + extensions)
+        except FileNotFoundError:
+            return None
+
+class Chordpro2LatexSong(ChordproSong):
+    """Render chordpro song to latex code"""
+
+    output_language = "latex"
+
+    def search_file(self, filename, extensions=None, *, datadirs=None):
+        try:
+            _datadir, filename, _extension = self.search_datadir_file(
+                filename,
+                extensions,
+                datadirs,
+                )
+            return filename
+        except FileNotFoundError:
+            return None
+
+class Chordpro2ChordproSong(ChordproSong):
+    """Render chordpro song to chordpro code"""
+
+    output_language = "chordpro"
+
+    def search_file(self, filename, extensions=None, *, datadirs=None):
+        # pylint: disable=unused-variable
+        return filename
+
+SONG_RENDERERS = {
+    "latex": {
+        'sgc': Chordpro2LatexSong,
+        },
+    "html": {
+        'sgc': Chordpro2HtmlSong,
+        },
+    "chordpro": {
+        'sgc': Chordpro2ChordproSong,
+        },
     }

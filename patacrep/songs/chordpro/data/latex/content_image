@@ -1,1 +1,6 @@
-\image{(( content.argument|search_image ))}
+(* block image *)
+(* set image = content.argument|search_image *)
+(* if image *)
+\image{(( image ))}
+(*- endif *)
+(*- endblock *)

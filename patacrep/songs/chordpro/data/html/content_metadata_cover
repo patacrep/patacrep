@@ -1,3 +1,8 @@
+(* block cov *)
 (* if 'cov' in metadata -*)
-  <img src="(( metadata['cov'].argument|search_image ))"><br>
+  (* set cov = metadatad['cov'].argument|search_image *)
+  (* if cov *)
+    <img src="(( cov ))"><br>
+  (* endif *)
 (* endif *)
+(* endblock *)

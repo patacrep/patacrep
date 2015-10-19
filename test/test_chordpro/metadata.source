@@ -10,12 +10,12 @@
 {artist: Author2}
 {album: Album}
 {copyright: Copyright}
-{cover: Cover}
+{cover: metadata_cover}
 {capo: Capo}
 {key: foo: Foo}
 {comment: Comment}
 {guitar_comment: GuitarComment}
-{partition: Lilypond}
-{image: Image}
+{partition: metadata_lilypond}
+{image: metadata_image}
 
 Foo

@@ -18,6 +18,9 @@ BABEL_LANGUAGES = OrderedDict((
     ('fr', 'french'),
     ('en', 'english'),
     ('de', 'german'),
+    ('es', 'spanish'),
+    ('it', 'italian'),
+    ('pt', 'portuguese'),
 ))
 
 def lang2language(lang):

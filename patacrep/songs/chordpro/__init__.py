@@ -35,9 +35,18 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        #language and lang are synomyms in the directives
-        language = song.get_data_argument('language', self.config['lang'])
-        self.lang = song.get_data_argument('lang', language)
+
+        # Lang inverted priority (last one is preferred):
+        #   config['lang']
+        #   song.language
+        #   song.lang
+        self.lang = self.config['lang']
+        language = song.get_data_argument('language')
+        if language:
+            # self.lang is automatically updated
+            self.language = language
+        self.lang = song.get_data_argument('lang', self.lang)
+
         self.data = song.meta
         self.cached = {
             'song': song,

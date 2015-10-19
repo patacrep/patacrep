@@ -245,7 +245,7 @@ class Song(AST):
             self.meta[data.keyword] = []
         self.meta[data.keyword].append(data)
 
-    def get_data_argument(self, keyword, default):
+    def get_data_argument(self, keyword, default=None):
         """Return `self.meta[keyword].argument`.
 
         Return `default` if `self.meta[keyword]` does not exist.

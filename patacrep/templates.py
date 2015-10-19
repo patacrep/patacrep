@@ -153,7 +153,7 @@ class TexBookRenderer(Renderer):
             variable = default["default"]
         elif "en" in default:
             variable = default["en"]
-        elif len(default > 0):
+        elif len(default):
             variable = default.popitem()[1]
         else:
             variable = None

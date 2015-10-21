@@ -49,12 +49,13 @@ class DictOfDict(UserDict):
         # pylint: disable=arguments-differ
         self._update(self, other)
 
-    def _update(self, left, right):
+    @staticmethod
+    def _update(left, right):
         """Equivalent to `left.update(right)`, with recursive update."""
         for key in right:
             if key not in left:
                 left[key] = right[key]
             elif isinstance(left[key], dict) and isinstance(right[key], dict):
-                self._update(left[key], right[key])
+                DictOfDict._update(left[key], right[key])
             else:
                 left[key] = right[key]

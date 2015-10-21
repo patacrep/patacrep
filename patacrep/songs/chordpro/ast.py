@@ -31,6 +31,7 @@ DIRECTIVE_SHORTCUTS = {
     "c": "comment",
     "gc": "guitar_comment",
     "cover": "cov",
+    "language": "lang",
     }
 
 def directive_name(text):
@@ -181,7 +182,7 @@ class Song(AST):
         - content: the song content, as a list of objects `foo` such that
           `foo.inline` is True.
         - titles: The list of titles
-        - language: The language (if set), None otherwise
+        - lang: The language code (if set), None otherwise
         - authors: The list of authors
         - meta: Every other metadata.
         """

@@ -17,8 +17,8 @@
   (* endif *)
 (* endfor *)
 
-(* if language is defined -*)
-  <span class="song-language">Language: (( language ))</span><br>
+(* if lang is defined -*)
+  <span class="song-language">Lang: (( lang ))</span><br>
 (* endif *)
 
 (* include 'content_metadata_cover' *)

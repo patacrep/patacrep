@@ -29,7 +29,7 @@ GENERATED_EXTENSIONS = [
     ]
 DEFAULT_CONFIG = {
     'template': "default.tex",
-    'lang': 'english',
+    'lang': 'en',
     'content': [],
     'titleprefixwords': [],
     'encoding': None,

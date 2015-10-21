@@ -89,7 +89,7 @@ class Song:
         "cached",
         "data",
         "subpath",
-        "language",
+        "lang",
         "authors",
         "_filehash",
         "_version",
@@ -131,6 +131,7 @@ class Song:
         self.titles = []
         self.data = {}
         self.cached = None
+        self.lang = None
         self._parse(config)
 
         # Post processing of data
@@ -186,8 +187,7 @@ class Song:
 
         - titles: the list of (raw) titles. This list will be processed to
           remove prefixes.
-        - language: the main language of the song, as language recognized by
-          the LaTeX babel package.
+        - lang: the main language of the song, as language code..
         - authors: the list of (raw) authors. This list will be processed to
           'clean' it (see function :func:`patacrep.authors.processauthors`).
         - data: song metadata. Used (among others) to sort the songs.

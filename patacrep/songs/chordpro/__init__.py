@@ -2,6 +2,7 @@
 
 from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
 import jinja2
+import logging
 import os
 from pkg_resources import resource_filename
 
@@ -9,6 +10,8 @@ from patacrep import encoding, files
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
+
+LOGGER = logging.getLogger(__name__)
 
 class ChordproSong(Song):
     """Chordpro song parser"""
@@ -76,6 +79,7 @@ class Chordpro2HtmlSong(ChordproSong):
             datadir, filename, extensions = self.search_datadir_file(filename, extensions, datadirs)
             return os.path.join(datadir, filename + extensions)
         except FileNotFoundError:
+            LOGGER.warning("Song '%s' (datadir '%s'): File '%s' not found.", self.subpath, self.datadir, filename)
             return None
 
 class Chordpro2LatexSong(ChordproSong):
@@ -92,6 +96,7 @@ class Chordpro2LatexSong(ChordproSong):
                 )
             return filename
         except FileNotFoundError:
+            LOGGER.warning("Song '%s' (datadir '%s'): File '%s' not found.", self.subpath, self.datadir, filename)
             return None
 
 class Chordpro2ChordproSong(ChordproSong):

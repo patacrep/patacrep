@@ -78,8 +78,8 @@ class Chordpro2HtmlSong(ChordproSong):
 
     def search_file(self, filename, extensions=None, *, datadirs=None):
         try:
-            datadir, filename, extensions = self.search_datadir_file(filename, extensions, datadirs)
-            return os.path.join(datadir, filename + extensions)
+            datadir, filename, extension = self.search_datadir_file(filename, extensions, datadirs)
+            return os.path.join(datadir, filename + extension)
         except FileNotFoundError:
             LOGGER.warning(
                 "Song '%s' (datadir '%s'): File '%s' not found.",

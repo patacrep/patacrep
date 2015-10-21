@@ -22,6 +22,7 @@ BABEL_LANGUAGES = OrderedDict((
 ))
 
 def lang2babel(lang):
+    """Return the language used by babel, corresponding to the language code"""
     try:
         return BABEL_LANGUAGES[lang]
     except KeyError:

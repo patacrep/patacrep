@@ -131,6 +131,7 @@ class Song:
         self.titles = []
         self.data = {}
         self.cached = None
+        self.lang = None
         self._parse(config)
 
         # Post processing of data

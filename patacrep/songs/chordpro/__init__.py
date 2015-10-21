@@ -81,7 +81,10 @@ class Chordpro2HtmlSong(ChordproSong):
             datadir, filename, extensions = self.search_datadir_file(filename, extensions, datadirs)
             return os.path.join(datadir, filename + extensions)
         except FileNotFoundError:
-            LOGGER.warning("Song '%s' (datadir '%s'): File '%s' not found.", self.subpath, self.datadir, filename)
+            LOGGER.warning(
+                "Song '%s' (datadir '%s'): File '%s' not found.",
+                self.subpath, self.datadir, filename,
+                )
             return None
 
 class Chordpro2LatexSong(ChordproSong):
@@ -98,7 +101,10 @@ class Chordpro2LatexSong(ChordproSong):
                 )
             return filename
         except FileNotFoundError:
-            LOGGER.warning("Song '%s' (datadir '%s'): File '%s' not found.", self.subpath, self.datadir, filename)
+            LOGGER.warning(
+                "Song '%s' (datadir '%s'): File '%s' not found.",
+                self.subpath, self.datadir, filename,
+                )
             return None
 
 class Chordpro2ChordproSong(ChordproSong):

@@ -36,17 +36,7 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-
-        # Lang inverted priority (last one is preferred):
-        #   config['lang']
-        #   song.language
-        #   song.lang
-        self.lang = self.config['lang']
-        language = song.get_data_argument('language')
-        if language:
-            # self.lang is automatically updated
-            self.language = language
-        self.lang = song.get_data_argument('lang', self.lang)
+        self.lang = song.get_data_argument('lang', self.config['lang'])
 
         self.data = song.meta
         self.cached = {

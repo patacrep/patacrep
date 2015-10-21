@@ -44,8 +44,11 @@ class LatexSong(Song):
             if language == babel_language:
                 self.lang = lang
                 return
-        # TODO: add as custom language
-        LOGGER.error('Unsupported language:' + language)
+
+        # Add a custom language to the babel dictionary (language is not officially supported)
+        custom_lang = '_' + language
+        BABEL_LANGUAGES[custom_lang] = language
+        self.lang = custom_lang
 
 SONG_PARSERS = {
     'is': LatexSong,

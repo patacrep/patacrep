@@ -9,6 +9,7 @@ from patacrep import encoding, files
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
+from patacrep.latex import lang2babel
 
 class ChordproSong(Song):
     """Chordpros song parser."""
@@ -57,7 +58,6 @@ class ChordproSong(Song):
             templatedirs = []
 
         context = {
-            'language': self.language,
             'lang': self.lang,
             "titles": self.titles,
             "authors": self.authors,
@@ -72,6 +72,7 @@ class ChordproSong(Song):
             ))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
+        jinjaenv.filters['lang2babel'] = lang2babel
 
         try:
             return Renderer(

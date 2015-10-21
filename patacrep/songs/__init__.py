@@ -7,29 +7,11 @@ import logging
 import os
 import pickle
 import re
-from collections import OrderedDict
 
 from patacrep.authors import process_listauthors
 from patacrep import files, encoding
 
 LOGGER = logging.getLogger(__name__)
-
-BABEL_LANGUAGES = OrderedDict((
-    ('fr', 'french'),
-    ('en', 'english'),
-    ('de', 'german'),
-    ('es', 'spanish'),
-    ('it', 'italian'),
-    ('pt', 'portuguese'),
-))
-
-def lang2language(lang):
-    try:
-        return BABEL_LANGUAGES[lang]
-    except KeyError:
-        available = ", ".join(BABEL_LANGUAGES.keys())
-        LOGGER.error('Unknown lang code: ' + lang + '. Supported: ' + available)
-        return 'english'
 
 def cached_name(datadir, filename):
     """Return the filename of the cache version of the file."""
@@ -107,7 +89,7 @@ class Song:
         "cached",
         "data",
         "subpath",
-        "language",
+        "lang",
         "authors",
         "_filehash",
         "_version",
@@ -204,8 +186,7 @@ class Song:
 
         - titles: the list of (raw) titles. This list will be processed to
           remove prefixes.
-        - language: the main language of the song, as language recognized by
-          the LaTeX babel package.
+        - lang: the main language of the song, as language code..
         - authors: the list of (raw) authors. This list will be processed to
           'clean' it (see function :func:`patacrep.authors.processauthors`).
         - data: song metadata. Used (among others) to sort the songs.
@@ -263,21 +244,6 @@ class Song:
         """Search for a lilypond file"""
         filepath = self.search_file(filename, ['', '.ly'])
         return filepath if none_if_not_found or filepath else filename
-
-    @property
-    def language(self):
-        """Return the string corresponding to the babel (LaTeX) language"""
-        return lang2language(self.lang)
-
-    @language.setter
-    def language(self, language):
-        """Set the language code"""
-        for lang, babel_language in BABEL_LANGUAGES.items():
-            if language == babel_language:
-                self.lang = lang
-                return
-        # TODO: raise a nice error
-        print('Unsupported language:' + language)
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

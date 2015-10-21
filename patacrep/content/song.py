@@ -60,8 +60,8 @@ def parse(keyword, argument, contentlist, config):
     Return a list of Song() instances.
     """
     plugins = config['_song_plugins']
-    if '_languages' not in config:
-        config['_languages'] = set()
+    if '_langs' not in config:
+        config['_langs'] = set()
     songlist = []
     for songdir in config['_songdir']:
         if contentlist:
@@ -92,7 +92,7 @@ def parse(keyword, argument, contentlist, config):
                         datadir=songdir.datadir,
                         ))
                     songlist.append(renderer)
-                    config["_languages"].add(renderer.song.language)
+                    config["_langs"].add(renderer.song.lang)
             if len(songlist) > before:
                 break
         if len(songlist) == before:

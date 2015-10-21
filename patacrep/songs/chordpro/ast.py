@@ -31,6 +31,7 @@ DIRECTIVE_SHORTCUTS = {
     "c": "comment",
     "gc": "guitar_comment",
     "cover": "cov",
+    "language": "lang",
     }
 
 def directive_name(text):

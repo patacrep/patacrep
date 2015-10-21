@@ -8,19 +8,19 @@ will work on simple cases, but not on complex ones.
 import os
 
 from patacrep import files, encoding
-from patacrep.latex import parse_song
+from patacrep.latex import parse_song, BABEL_LANGUAGES
 from patacrep.songs import Song
 
 class LatexSong(Song):
     """LaTeX song parser."""
 
     def _parse(self, __config):
-        """Parse content, and return the dictinory of song data."""
+        """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             self.data = parse_song(song.read(), self.fullpath)
         self.titles = self.data['@titles']
         del self.data['@titles']
-        self.language = self.data['@language']
+        self.set_lang(self.data['@language'])
         del self.data['@language']
         if "by" in self.data:
             self.authors = [self.data['by']]
@@ -37,6 +37,15 @@ class LatexSong(Song):
             os.path.dirname(output)
         ))
         return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
+
+    def set_lang(self, language):
+        """Set the language code"""
+        for lang, babel_language in BABEL_LANGUAGES.items():
+            if language == babel_language:
+                self.lang = lang
+                return
+        # TODO: add as custom language
+        LOGGER.error('Unsupported language:' + language)
 
 SONG_PARSERS = {
     'is': LatexSong,

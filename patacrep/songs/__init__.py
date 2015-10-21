@@ -228,15 +228,15 @@ class Song:
         if directories is None:
             directories = self.config['datadir']
 
-        for directory in directories:
-            for extension in extensions:
-                if os.path.isfile(os.path.join(directory, filename + extension)):
-                    return directory, filename, extension
-
         songdir = os.path.dirname(self.fullpath)
         for extension in extensions:
             if os.path.isfile(os.path.join(songdir, filename + extension)):
                 return "", os.path.join(songdir, filename), extension
+
+        for directory in directories:
+            for extension in extensions:
+                if os.path.isfile(os.path.join(directory, filename + extension)):
+                    return directory, filename, extension
 
         raise FileNotFoundError(filename)
 

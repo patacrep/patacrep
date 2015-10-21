@@ -4,8 +4,8 @@
 {subtitle: Subtitle4}
 {t: Subtitle2}
 {st: Subtitle5}
-{language: french}
-{language: english}
+{lang: en}
+{lang: fr}
 {by: Author1}
 {artist: Author2}
 {album: Album}

@@ -2,6 +2,8 @@
 
 # pylint: disable=too-few-public-methods
 
+DEFAULT_LANGUAGE = "english"
+
 class AST:
     """Base class for the tree."""
     # pylint: disable=no-init
@@ -16,7 +18,7 @@ class AST:
         parsing.
         """
         cls.metadata = {
-            '@languages': set(),
+            '@language': DEFAULT_LANGUAGE,
             }
 
 class Expression(AST):
@@ -44,7 +46,7 @@ class Command(AST):
         self.optional = optional
 
         if name == r'\selectlanguage':
-            self.metadata['@languages'] |= set(self.mandatory)
+            self.metadata['@language'] = self.mandatory[0]
 
     def __str__(self):
         if self.name in [r'\emph']:

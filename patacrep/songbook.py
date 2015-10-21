@@ -105,6 +105,8 @@ def main():
     options = argument_parser(sys.argv[1:])
 
     songbook_path = options.book[0]
+    if os.path.exists(songbook_path + ".sb") and not os.path.exists(songbook_path):
+        songbook_path += ".sb"
 
     basename = os.path.basename(songbook_path)[:-3]
 

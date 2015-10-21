@@ -10,6 +10,7 @@ from patacrep import encoding, files
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
+from patacrep.latex import lang2babel
 
 LOGGER = logging.getLogger(__name__)
 
@@ -25,7 +26,7 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.languages = song.get_data_argument('language', [self.config['lang']])
+        self.lang = song.get_data_argument('lang', self.config['lang'])
         self.data = song.meta
         self.cached = {
             'song': song,
@@ -33,7 +34,7 @@ class ChordproSong(Song):
 
     def render(self, output=None, template="song"): # pylint: disable=arguments-differ
         context = {
-            'language': self.languages[0],
+            'lang': self.lang,
             "titles": self.titles,
             "authors": self.authors,
             "metadata": self.data,
@@ -52,6 +53,7 @@ class ChordproSong(Song):
             ]))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
+        jinjaenv.filters['lang2babel'] = lang2babel
 
         try:
             return Renderer(

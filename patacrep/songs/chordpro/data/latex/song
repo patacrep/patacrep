@@ -1,5 +1,5 @@
-(* if language is defined -*)
-    \selectlanguage{((language))}
+(* if lang is defined -*)
+    \selectlanguage{(( lang2babel(lang) ))}
 (* endif *)
 
 (*- if metadata.columns is defined *)

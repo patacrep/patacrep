@@ -37,7 +37,6 @@ class ChordproSong(Song):
         self.authors = song.authors
         self.titles = song.titles
         self.lang = song.get_data_argument('lang', self.config['lang'])
-
         self.data = song.meta
         self.cached = {
             'song': song,

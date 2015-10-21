@@ -8,7 +8,7 @@ import os
 import re
 import json
 
-from patacrep import errors, files, songs
+from patacrep import errors, files
 from patacrep.latex import lang2babel
 import patacrep.encoding
 

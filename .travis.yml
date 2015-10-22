@@ -12,3 +12,4 @@ addons:
   apt:
     packages:
     - texlive-latex-base
+    - latex-xcolor

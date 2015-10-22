@@ -80,7 +80,7 @@
 (* block songbookpreambule *)
 (( super() ))
 
-(* for lang in _langs -*)
+(* for lang in _langs|sort -*)
     \PassOptionsToPackage{(( lang2babel(lang) ))}{babel}
 (* endfor *)
 \usepackage[(( lang2babel(lang) ))]{babel}

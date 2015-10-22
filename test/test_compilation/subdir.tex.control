@@ -25,7 +25,6 @@
 
 \usepackage[
     chorded,
-lilypond,
 pictures,
 guitar,
     ]{patacrep}

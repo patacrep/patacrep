@@ -90,8 +90,15 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             )
 
     def assertMultiLineEqual(self, result, expected):
-        """Replace the paths with the local paths"""
+        """Replace the placeholder paths with the local paths"""
+
         placeholder = "@TEST_FOLDER@"
         localpath = os.path.dirname(__file__)
         expected = expected.replace(placeholder, localpath)
+
+        import patacrep
+        placeholder = "@PACKAGE_FOLDER@"
+        localpath = os.path.dirname(patacrep.__file__)
+        expected = expected.replace(placeholder, localpath)
+
         return super().assertMultiLineEqual(result, expected)

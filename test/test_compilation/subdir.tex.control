@@ -16,7 +16,7 @@
         {@TEST_FOLDER@/subdir_datadir/latex/} %
         {@TEST_FOLDER@/subdir_datadir2/latex/} %
         {@TEST_FOLDER@/latex/} %
-        {/home/travis/build/patacrep/patacrep/patacrep/data/latex/} %
+        {@PACKAGE_FOLDER@/data/latex/} %
 }
 \makeatother
 
@@ -45,7 +45,7 @@ guitar,
         {@TEST_FOLDER@/subdir_datadir/} %
         {@TEST_FOLDER@/subdir_datadir2/} %
         {@TEST_FOLDER@/} %
-        {/home/travis/build/patacrep/patacrep/patacrep/data/} %
+        {@PACKAGE_FOLDER@/data/} %
 }
 
 

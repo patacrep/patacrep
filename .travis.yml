@@ -16,3 +16,4 @@ addons:
     - texlive-latex-extra
     - pgf
     - lmodern
+    - lilypond

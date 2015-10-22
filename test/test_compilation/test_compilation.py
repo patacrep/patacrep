@@ -90,7 +90,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             cwd=os.path.dirname(songbook),
             )
 
-    def assertMultiLineEqual(self, result, expected):
+    def assertMultiLineEqual(self, result, expected, msg=None):
         """Replace the placeholder paths with the local paths"""
 
         placeholder = "@TEST_FOLDER@"
@@ -102,4 +102,4 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         localpath = os.path.abspath(resource_filename(patacrep.__name__, ''))
         expected = expected.replace(placeholder, localpath)
 
-        return super().assertMultiLineEqual(result, expected)
+        return super().assertMultiLineEqual(result, expected, msg)

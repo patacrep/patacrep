@@ -17,3 +17,5 @@ addons:
     - pgf
     - lmodern
     - lilypond
+notifications:
+  email: false

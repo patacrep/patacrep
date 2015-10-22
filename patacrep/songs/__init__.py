@@ -263,7 +263,7 @@ class Song:
         return self.search_file(
             filename,
             ['', '.ly'],
-            datadirs=self.get_datadirs('img'),
+            datadirs=self.get_datadirs('scores'),
             )
 
 def unprefixed_title(title, prefixes):

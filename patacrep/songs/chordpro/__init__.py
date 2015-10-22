@@ -93,16 +93,29 @@ class Chordpro2LatexSong(ChordproSong):
     output_language = "latex"
 
     def search_file(self, filename, extensions=None, *, datadirs=None):
+        _datadir, filename, _extension = self.search_datadir_file(
+            filename,
+            extensions,
+            datadirs,
+            )
+        return filename
+
+    def search_partition(self, filename):
         try:
-            _datadir, filename, _extension = self.search_datadir_file(
-                filename,
-                extensions,
-                datadirs,
-                )
-            return filename
+            return os.path.join("scores", super().search_partition(filename))
         except FileNotFoundError:
             LOGGER.warning(
-                "Song '%s' (datadir '%s'): File '%s' not found.",
+                "Song '%s' (datadir '%s'): Score '%s' not found.",
+                self.subpath, self.datadir, filename,
+                )
+            return None
+
+    def search_image(self, filename):
+        try:
+            return os.path.join("img", super().search_image(filename))
+        except FileNotFoundError:
+            LOGGER.warning(
+                "Song '%s' (datadir '%s'): Image '%s' not found.",
                 self.subpath, self.datadir, filename,
                 )
             return None

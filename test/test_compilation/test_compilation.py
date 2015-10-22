@@ -2,14 +2,13 @@
 
 # pylint: disable=too-few-public-methods
 
-from pkg_resources import resource_filename
 import glob
 import os
 import subprocess
 import unittest
 
 from patacrep.encoding import open_read
-import patacrep
+from patacrep import __DATADIR__
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -101,7 +100,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         expected = expected.replace(
             "@DATA_FOLDER@",
-            os.path.abspath(resource_filename(patacrep.__name__, 'data')),
+            __DATADIR__,
             )
 
         return super().assertMultiLineEqual(result, expected, msg)

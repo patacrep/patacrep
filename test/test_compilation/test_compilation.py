@@ -2,13 +2,14 @@
 
 # pylint: disable=too-few-public-methods
 
+from pkg_resources import resource_filename
 import glob
 import os
 import subprocess
 import unittest
 
 from patacrep.encoding import open_read
-from pkg_resources import resource_filename
+import patacrep
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -93,13 +94,14 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def assertMultiLineEqual(self, result, expected, msg=None):
         """Replace the placeholder paths with the local paths"""
 
-        placeholder = "@TEST_FOLDER@"
-        localpath = os.path.dirname(__file__)
-        expected = expected.replace(placeholder, localpath)
+        expected = expected.replace(
+            "@TEST_FOLDER@",
+            os.path.dirname(__file__),
+            )
 
-        import patacrep
-        placeholder = "@PACKAGE_FOLDER@"
-        localpath = os.path.abspath(resource_filename(patacrep.__name__, ''))
-        expected = expected.replace(placeholder, localpath)
+        expected = expected.replace(
+            "@DATA_FOLDER@",
+            os.path.abspath(resource_filename(patacrep.__name__, 'data')),
+            )
 
         return super().assertMultiLineEqual(result, expected, msg)

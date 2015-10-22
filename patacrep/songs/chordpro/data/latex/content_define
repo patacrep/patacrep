@@ -1,7 +1,13 @@
 (*- if content.frets|length == 4 -*)
-\utab{
+\utab
+(*- if content.is_special -*)
+  *
+(*- endif -*){
 (*- else -*)
-\gtab{
+\gtab
+(*- if content.is_special -*)
+  *
+(*- endif -*){
 (*- endif -*)
     ((- render(content.key) -))
 }{

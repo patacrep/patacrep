@@ -334,11 +334,12 @@ class Define(Directive):
         open). Can be `None` if not defined.
     """
 
-    def __init__(self, key, basefret, frets, fingers):
+    def __init__(self, key, basefret, frets, fingers, is_special):
         self.key = key
         self.basefret = basefret # Can be None
         self.frets = frets
         self.fingers = fingers # Can be None
+        self.is_special = is_special
         super().__init__("define", None)
 
     @property

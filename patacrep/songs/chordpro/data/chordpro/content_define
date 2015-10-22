@@ -1,4 +1,8 @@
-{define: (( render(content.key) ))
+{define
+(*- if content.is_special -*)
+  _special
+(*- endif -*)
+: (( render(content.key) ))
 (*- if content.basefret *)
  base-fret ((content.basefret))
 (*- endif *)

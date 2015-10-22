@@ -6,7 +6,7 @@
     "pictures"
   ],
 "booktype" : "chorded",
-"lang" : "french",
+"lang" : "fr",
 "authwords" : {
   "sep" : ["and", "et", "À"],
   "ignore" : ["À"],

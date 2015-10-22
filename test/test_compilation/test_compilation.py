@@ -6,11 +6,13 @@ import glob
 import os
 import subprocess
 import unittest
+import logging
 
 from patacrep.encoding import open_read
 
 from .. import dynamic # pylint: disable=unused-import
 
+LOGGER = logging.getLogger(__name__)
 
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of songbook compilation.
@@ -96,24 +98,14 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
-            return subprocess.check_call(
-                command,
-                stdin=subprocess.DEVNULL,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
-                cwd=os.path.dirname(songbook),
-                )
-        #temp fix for travis tests
         try:
-            val = subprocess.check_output(
+            subprocess.check_output(
                 command,
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
                 cwd=os.path.dirname(songbook),
                 )
-            print("###ok")
-            print(val)
-            print("ok###")
+            return 0
         except subprocess.CalledProcessError as e:
-            print(e.output)
-        return 1
+            LOGGER.warning(e.output)
+            return e.returncode

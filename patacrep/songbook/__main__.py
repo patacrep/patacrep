@@ -39,7 +39,10 @@ class VerboseAction(argparse.Action):
 
 def argument_parser(args):
     """Parse arguments"""
-    parser = argparse.ArgumentParser(description="A song book compiler")
+    parser = argparse.ArgumentParser(
+        prog="songbook",
+        description="A song book compiler",
+        )
 
     parser.add_argument(
         '--version', help='Show version', action='version',

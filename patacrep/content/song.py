@@ -46,6 +46,10 @@ class SongRenderer(Content):
                     song=self.song.render(output=context['filename']),
                 )
 
+    def __lt__(self, other):
+        """Order by song path"""
+        return self.song.fullpath < other.song.fullpath
+
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):
     """Parse data associated with keyword 'song'.
@@ -102,7 +106,7 @@ def parse(keyword, argument, contentlist, config):
                 [item.fullpath for item in config['_songdir']],
                 message='Ignoring "{name}": did not match any file in {paths}.',
                 ))
-    return songlist
+    return sorted(songlist)
 
 
 CONTENT_PLUGINS = {'song': parse}

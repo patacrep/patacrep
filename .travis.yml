@@ -7,3 +7,13 @@ install:
   - pip install tox
 script:
   - tox
+sudo: false
+addons:
+  apt:
+    packages:
+    - texlive-latex-base
+    - latex-xcolor
+    - texlive-latex-extra
+    - pgf
+    - lmodern
+    - lilypond

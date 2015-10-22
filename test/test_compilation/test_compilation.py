@@ -63,9 +63,24 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             tex = "{}.tex".format(base)
             with open_read(control) as expectfile:
                 with open_read(tex) as latexfile:
+                    expected = expectfile.read().strip()
+                    expected = expected.replace(
+                        "@TEST_FOLDER@",
+                        os.path.dirname(__file__),
+                        )
+
+                    expected = expected.replace(
+                        "@DATA_FOLDER@",
+                        subprocess.check_output(
+                            ["python", "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'],
+                            universal_newlines=True,
+                            cwd=os.path.dirname(songbook),
+                            ).strip(),
+                        )
+
                     self.assertMultiLineEqual(
                         latexfile.read().strip(),
-                        expectfile.read().strip(),
+                        expected,
                         )
 
             # Check compilation
@@ -90,18 +105,3 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             stderr=subprocess.DEVNULL,
             cwd=os.path.dirname(songbook),
             )
-
-    def assertMultiLineEqual(self, result, expected, msg=None):
-        """Replace the placeholder paths with the local paths"""
-
-        expected = expected.replace(
-            "@TEST_FOLDER@",
-            os.path.dirname(__file__),
-            )
-
-        expected = expected.replace(
-            "@DATA_FOLDER@",
-            os.path.abspath(resource_filename(patacrep.__name__, 'data')),
-            )
-
-        return super().assertMultiLineEqual(result, expected, msg)

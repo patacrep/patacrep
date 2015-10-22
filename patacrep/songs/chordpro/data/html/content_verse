@@ -1,5 +1,11 @@
+(* if content.directive() *)
+<p class="directives">
+(*- elif content.nolyrics -*)
+<p class="nolyrics">
+(*- else *)
 <p class="(( content.type ))">
-  (* for line in content.lines *)
+(*- endif *)
+  (* for line in content.lines -*)
     (( render(line) ))
     (*- if not loop.last *)<br>
     (* endif *)

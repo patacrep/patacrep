@@ -35,8 +35,8 @@ guitar,
 \usepackage{lmodern}
 
 
-\PassOptionsToPackage{french}{babel}
 \PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{french}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
@@ -144,7 +144,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir.sgc
 
-\selectlanguage{french}
+\selectlanguage{english}
 
 \beginsong{Image included from datadir\\
 Chordpro}[

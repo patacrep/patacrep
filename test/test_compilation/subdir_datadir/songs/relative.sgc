@@ -1,6 +1,7 @@
 {title : Image included from song directory}
 {subtitle: Chordpro}
 {cover: relative.png}
+{lang: fr}
 
 {partition: relative.ly}
 {image: relative.png}

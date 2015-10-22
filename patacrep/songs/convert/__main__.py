@@ -36,22 +36,29 @@ if __name__ == "__main__":
     dest = sys.argv[2]
     song_files = sys.argv[3:]
 
-    song_parsers = files.load_plugins(
+    renderers = files.load_plugins(
         datadirs=DEFAULT_CONFIG.get('datadir', []),
         root_modules=['songs'],
-        keyword='SONG_PARSERS',
+        keyword='SONG_RENDERERS',
         )
 
-    if source not in song_parsers:
+    if dest not in renderers:
         LOGGER.error(
-            "Unknown file format '%s'. Available ones are %s.",
+            "Unknown destination file format '%s'. Available ones are %s.",
             source,
-            ", ".join(["'{}'".format(key) for key in song_parsers.keys()])
+            ", ".join(["'{}'".format(key) for key in renderers.keys()])
+            )
+        sys.exit(1)
+    if source not in renderers[dest]:
+        LOGGER.error(
+            "Unknown source file format '%s'. Available ones are %s.",
+            source,
+            ", ".join(["'{}'".format(key) for key in renderers[dest].keys()])
             )
         sys.exit(1)
 
     for file in song_files:
-        song = song_parsers[source](file, DEFAULT_CONFIG)
+        song = renderers[dest][source](file, DEFAULT_CONFIG)
         try:
             destname = "{}.{}".format(".".join(file.split(".")[:-1]), dest)
             if os.path.exists(destname):

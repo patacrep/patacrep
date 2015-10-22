@@ -43,7 +43,7 @@ class SongRenderer(Content):
                 """).format(
                     separator="%"*80,
                     path=self.song.subpath,
-                    song=self.song.render(output=context['filename'], output_format="latex"),
+                    song=self.song.render(output=context['filename']),
                 )
 
 #pylint: disable=unused-argument

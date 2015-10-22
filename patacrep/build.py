@@ -110,8 +110,8 @@ class Songbook(object):
         config['_song_plugins'] = files.load_plugins(
             datadirs=config.get('datadir', []),
             root_modules=['songs'],
-            keyword='SONG_PARSERS',
-            )
+            keyword='SONG_RENDERERS',
+            )['latex']
 
         # Configuration set
         config['render'] = content.render

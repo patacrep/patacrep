@@ -168,16 +168,12 @@ class Song:
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def render(self, output_format, output=None, *args, **kwargs):
+    def render(self, output=None, *args, **kwargs):
         """Return the code rendering this song.
 
         Arguments:
-        - output_format: Format of the output file (latex, chordpro...)
         - output: Name of the output file, or `None` if irrelevant.
         """
-        method = "render_{}".format(output_format)
-        if hasattr(self, method):
-            return getattr(self, method)(output, *args, **kwargs)
         raise NotImplementedError()
 
     def _parse(self, config): # pylint: disable=no-self-use
@@ -204,15 +200,24 @@ class Song:
             if os.path.isdir(fullpath):
                 yield fullpath
 
-    def search_file(self, filename, extensions=None, directories=None):
+    def search_datadir_file(self, filename, extensions=None, directories=None):
         """Search for a file name.
 
         :param str filename: The name, as provided in the chordpro file (with or without extension).
         :param list extensions: Possible extensions (with '.'). Default is no extension.
         :param iterator directories: Other directories where to search for the file
                                 The directory where the Song file is stored is added to the list.
+        :return: A tuple `(datadir, filename, extension)` if file has been
+            found. It is guaranteed that `os.path.join(datadir,
+            filename+extension)` is a (relative or absolute) valid path to an
+            existing filename.
+            * `datadir` is the datadir in which the file has been found. Can be
+                the empty string.
+            * `filename` is the filename, relative to the datadir.
+            * `extension` is the extension that is to be appended to the
+                filename to get the real filename. Can be the empty string.
 
-        Returns None if nothing found.
+        Raise `FileNotFoundError` if nothing found.
 
         This function can also be used as a preprocessor for a renderer: for
         instance, it can compile a file, place it in a temporary folder, and
@@ -224,27 +229,42 @@ class Song:
             directories = self.config['datadir']
 
         songdir = os.path.dirname(self.fullpath)
+        for extension in extensions:
+            if os.path.isfile(os.path.join(songdir, filename + extension)):
+                return "", os.path.join(songdir, filename), extension
 
-        for directory in [songdir] + list(directories):
+        for directory in directories:
             for extension in extensions:
-                fullpath = os.path.join(directory, filename + extension)
-                if os.path.isfile(fullpath):
-                    return os.path.abspath(fullpath)
-        return None
+                if os.path.isfile(os.path.join(directory, filename + extension)):
+                    return directory, filename, extension
 
-    def search_image(self, filename, none_if_not_found=False):
+        raise FileNotFoundError(filename)
+
+    def search_file(self, filename, extensions=None, *, datadirs=None):
+        """Return the path to a file present in a datadir.
+
+        Implementation is specific to each renderer, as:
+        - some renderers can preprocess files;
+        - some renderers can return the absolute path, other can return something else;
+        - etc.
+        """
+        raise NotImplementedError()
+
+    def search_image(self, filename):
         """Search for an image file"""
-        filepath = self.search_file(
+        return self.search_file(
             filename,
             ['', '.jpg', '.png'],
-            self.get_datadirs('img'),
+            datadirs=self.get_datadirs('img'),
             )
-        return filepath if none_if_not_found or filepath else filename
 
-    def search_partition(self, filename, none_if_not_found=False):
+    def search_partition(self, filename):
         """Search for a lilypond file"""
-        filepath = self.search_file(filename, ['', '.ly'])
-        return filepath if none_if_not_found or filepath else filename
+        return self.search_file(
+            filename,
+            ['', '.ly'],
+            datadirs=self.get_datadirs('scores'),
+            )
 
 def unprefixed_title(title, prefixes):
     """Remove the first prefix of the list in the beginning of title (if any).

@@ -5,9 +5,10 @@
 import glob
 import os
 import unittest
+from pkg_resources import resource_filename
 
+from patacrep import files
 from patacrep.build import DEFAULT_CONFIG
-from patacrep.songs.chordpro import ChordproSong
 
 from .. import disable_logging
 
@@ -26,11 +27,22 @@ class FileTestMeta(type):
     def __init__(cls, name, bases, nmspc):
         super().__init__(name, bases, nmspc)
 
+        # Setting datadir
+        cls.config = DEFAULT_CONFIG
+        if 'datadir' not in cls.config:
+            cls.config['datadir'] = []
+        cls.config['datadir'].append(resource_filename(__name__, 'datadir'))
+
+        cls.song_plugins = files.load_plugins(
+            datadirs=cls.config['datadir'],
+            root_modules=['songs'],
+            keyword='SONG_RENDERERS',
+            )
         for source in sorted(glob.glob(os.path.join(
                 os.path.dirname(__file__),
                 '*.source',
             ))):
-            base = source[:-len(".source")]
+            base = os.path.relpath(source, os.getcwd())[:-len(".source")]
             for dest in LANGUAGES:
                 destname = "{}.{}".format(base, dest)
                 if not os.path.exists(destname):
@@ -55,9 +67,8 @@ class FileTestMeta(type):
                 chordproname = "{}.source".format(base)
                 with disable_logging():
                     self.assertMultiLineEqual(
-                        ChordproSong(chordproname, DEFAULT_CONFIG).render(
+                        self.song_plugins[LANGUAGES[dest]]['sgc'](chordproname, self.config).render(
                             output=chordproname,
-                            output_format=LANGUAGES[dest],
                             ).strip(),
                         expectfile.read().strip(),
                         )

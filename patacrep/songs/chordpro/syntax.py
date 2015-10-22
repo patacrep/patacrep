@@ -69,7 +69,7 @@ class ChordproParser(Parser):
         symbols[0] = None
 
     @staticmethod
-    def _parse_define(groups):
+    def _parse_define(groups, is_special=False):
         """Parse a `{define: KEY base-fret BASE frets FRETS fingers FINGERS}` directive
 
         Return a :class:`ast.Define` object.
@@ -110,6 +110,7 @@ class ChordproParser(Parser):
             basefret=basefret,
             frets=frets,
             fingers=fingers,
+            is_special=is_special,
             )
 
     def p_directive(self, symbols):
@@ -123,7 +124,7 @@ class ChordproParser(Parser):
             keyword = symbols[3]
             argument = symbols[4]
 
-        if keyword == "define":
+        if keyword == "define" or keyword == "define_special":
             match = re.compile(
                 r"""
                     ^
@@ -150,7 +151,7 @@ class ChordproParser(Parser):
                 symbols[0] = ast.Error()
                 return
 
-            define = self._parse_define(match.groupdict())
+            define = self._parse_define(match.groupdict(), keyword == "define_special")
             if define is None:
                 self.error(
                     line=symbols.lexer.lineno,

@@ -93,53 +93,9 @@ guitar,
 
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir2.sgc
+%% songs/./datadir.sg
 
-\selectlanguage{french}
-
-\beginsong{Image included from a different datadir\\
-Chordpro}[
-  by={
-  },
-    cov={img/datadir2.png},
-]
-
-\cover
-
-
-
-\lilypond{scores/datadir2.ly}
-\image{img/datadir2.png}
-
-
-\endsong
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir2.sg
-
-\import{subdir_datadir/songs/}{datadir2.sg}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./relative.sgc
-
-\selectlanguage{french}
-
-\beginsong{Image included from song directory\\
-Chordpro}[
-  by={
-  },
-  cov={/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.png},
-]
-
-\cover
-
-
-
-\lilypond{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.ly}
-\image{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.png}
-
-
-\endsong
+\import{subdir_datadir/songs/}{datadir.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir.sgc
@@ -164,14 +120,58 @@ Chordpro}[
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir2.sg
+
+\import{subdir_datadir/songs/}{datadir2.sg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir2.sgc
+
+\selectlanguage{french}
+
+\beginsong{Image included from a different datadir\\
+Chordpro}[
+  by={
+  },
+    cov={img/datadir2.png},
+]
+
+\cover
+
+
+
+\lilypond{scores/datadir2.ly}
+\image{img/datadir2.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./relative.sg
 
 \import{subdir_datadir/songs/}{relative.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir.sg
+%% songs/./relative.sgc
 
-\import{subdir_datadir/songs/}{datadir.sg}
+\selectlanguage{french}
+
+\beginsong{Image included from song directory\\
+Chordpro}[
+  by={
+  },
+  cov={/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.png},
+]
+
+\cover
+
+
+
+\lilypond{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.ly}
+\image{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/songs/relative.png}
+
+
+\endsong
 
 \end{songs}
 

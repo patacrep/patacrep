@@ -7,3 +7,4 @@ install:
   - pip install tox
 script:
   - tox
+sudo: false

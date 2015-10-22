@@ -42,10 +42,10 @@ guitar,
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/img/} %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/img/} %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/img/} %
-        {/home/louis/projets/patacrep/patacrep/patacrep/data/img/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/} %
+        {/home/louis/projets/patacrep/patacrep/patacrep/data/} %
 }
 
 

@@ -9,6 +9,7 @@ import re
 import json
 
 from patacrep import errors, files
+from patacrep.latex import lang2babel
 import patacrep.encoding
 
 _LATEX_SUBS = (
@@ -84,6 +85,7 @@ class Renderer:
         self.jinjaenv.trim_blocks = True
         self.jinjaenv.lstrip_blocks = True
         self.jinjaenv.globals["path2posix"] = files.path2posix
+        self.jinjaenv.globals["lang2babel"] = lang2babel
         self.template = self.jinjaenv.get_template(template)
 
 
@@ -153,7 +155,7 @@ class TexBookRenderer(Renderer):
             variable = default["default"]
         elif "en" in default:
             variable = default["en"]
-        elif len(default > 0):
+        elif len(default):
             variable = default.popitem()[1]
         else:
             variable = None

@@ -1,1 +1,6 @@
-<a class="song-partition" href="(( content.argument|search_partition ))">((content.argument))</a>
+(* block partition *)
+(* set partition = content.argument|search_partition *)
+(* if partition *)
+<a class="song-partition" href="(( partition ))">((content.argument))</a>
+(* endif *)
+(* endblock *)

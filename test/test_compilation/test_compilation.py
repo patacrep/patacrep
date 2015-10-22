@@ -7,6 +7,8 @@ import os
 import subprocess
 import unittest
 
+from patacrep.encoding import open_read
+
 from .. import dynamic # pylint: disable=unused-import
 
 
@@ -57,11 +59,11 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             # Check generated tex
             control = "{}.tex.control".format(base)
             tex = "{}.tex".format(base)
-            with open(control, 'r', encoding='utf8') as expectfile:
-                with open(tex, 'r', encoding='utf8') as latexfile:
+            with open_read(control) as expectfile:
+                with open_read(tex) as latexfile:
                     self.assertMultiLineEqual(
-                        latexfile.read(),
-                        expectfile.read(),
+                        latexfile.read().strip(),
+                        expectfile.read().strip(),
                         )
 
             # Check compilation

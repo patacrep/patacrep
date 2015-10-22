@@ -1,4 +1,4 @@
-{language: english}
+{lang: en}
 {define: G frets 0 2 3 2}
 {define: D7 frets 2 2 2 3 fingers 1 1 1 2}
 {define: G frets 3 2 0 0 0 3}

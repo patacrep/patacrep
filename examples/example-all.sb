@@ -6,8 +6,9 @@
     "pictures"
   ],
 "booktype" : "chorded",
+"datadir": ["datadir2"],
 "template" : "patacrep.tex",
-"lang" : "french",
+"lang" : "fr",
 "encoding": "utf8",
 "authwords" : {
   "sep" : ["and", "et"]

@@ -1,21 +1,21 @@
 {subtitle: Subtitle3}
-{title: Title}
+{title: Je t'ai Manqué}
 {title: Subtitle1}
 {subtitle: Subtitle4}
 {t: Subtitle2}
 {st: Subtitle5}
-{language: french}
-{language: english}
+{lang: en}
+{lang: fr}
 {by: Author1}
-{artist: Author2}
+{artist: Texte de Jean Richepin, chanté par Georges Brassens}
 {album: Album}
 {copyright: Copyright}
-{cover: Cover}
+{cover: metadata_cover}
 {capo: Capo}
 {key: foo: Foo}
 {comment: Comment}
 {guitar_comment: GuitarComment}
-{partition: Lilypond}
-{image: Image}
+{partition: metadata_lilypond}
+{image: metadata_image}
 
 Foo

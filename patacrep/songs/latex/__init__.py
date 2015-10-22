@@ -8,28 +8,30 @@ will work on simple cases, but not on complex ones.
 import os
 
 from patacrep import files, encoding
-from patacrep.latex import parse_song
+from patacrep.latex import parse_song, BABEL_LANGUAGES
 from patacrep.songs import Song
 
-class LatexSong(Song):
-    """LaTeX song parser."""
+class Latex2LatexSong(Song):
+    """Song written in LaTeX, rendered in LaTeX"""
+    # pylint: disable=abstract-method
 
     def _parse(self, __config):
-        """Parse content, and return the dictinory of song data."""
+        """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             self.data = parse_song(song.read(), self.fullpath)
         self.titles = self.data['@titles']
         del self.data['@titles']
-        self.languages = self.data['@languages']
-        del self.data['@languages']
+        self.set_lang(self.data['@language'])
+        del self.data['@language']
         if "by" in self.data:
             self.authors = [self.data['by']]
             del self.data['by']
         else:
             self.authors = []
 
-    def render_latex(self, output):
+    def render(self, output):
         """Return the code rendering the song."""
+        # pylint: disable=signature-differs
         if output is None:
             raise ValueError(output)
         path = files.path2posix(files.relpath(
@@ -38,7 +40,22 @@ class LatexSong(Song):
         ))
         return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
 
-SONG_PARSERS = {
-    'is': LatexSong,
-    'sg': LatexSong,
-    }
+    def set_lang(self, language):
+        """Set the language code"""
+        for lang, babel_language in BABEL_LANGUAGES.items():
+            if language == babel_language:
+                self.lang = lang
+                return
+
+        # Add a custom language to the babel dictionary (language is not officially supported)
+        custom_lang = '_' + language
+        BABEL_LANGUAGES[custom_lang] = language
+        self.lang = custom_lang
+
+SONG_RENDERERS = {
+    "latex": {
+        'is': Latex2LatexSong,
+        'sg': Latex2LatexSong,
+    },
+}
+

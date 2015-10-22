@@ -8,6 +8,8 @@ import posixpath
 import re
 import sys
 
+from patacrep import utils
+
 LOGGER = logging.getLogger(__name__)
 
 def recursive_find(root_directory, extensions):
@@ -104,7 +106,7 @@ def load_plugins(datadirs, root_modules, keyword):
     - keys are the keywords ;
     - values are functions triggered when this keyword is met.
     """
-    plugins = {}
+    plugins = utils.DictOfDict()
 
     datadir_path = [
         os.path.join(datadir, "python", *root_modules)
@@ -121,13 +123,5 @@ def load_plugins(datadirs, root_modules, keyword):
             prefix="patacrep.{}.".format(".".join(root_modules))
         ):
         if hasattr(module, keyword):
-            for (key, value) in getattr(module, keyword).items():
-                if key in plugins:
-                    LOGGER.warning(
-                        "File %s: Keyword '%s' is already used. Ignored.",
-                        module.__file__,
-                        key,
-                        )
-                    continue
-                plugins[key] = value
+            plugins.update(getattr(module, keyword))
     return plugins

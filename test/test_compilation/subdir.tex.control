@@ -36,6 +36,7 @@ guitar,
 
 
 \PassOptionsToPackage{french}{babel}
+\PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
@@ -100,15 +101,15 @@ guitar,
 Chordpro}[
   by={
   },
-  cov={/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/img/datadir2.png},
+    cov={img/datadir2.png},
 ]
 
 \cover
 
 
 
-\lilypond{datadir2.ly}
-\image{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir2/img/datadir2.png}
+\lilypond{scores/datadir2.ly}
+\image{img/datadir2.png}
 
 
 \endsong
@@ -149,15 +150,15 @@ Chordpro}[
 Chordpro}[
   by={
   },
-  cov={/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/img/datadir.png},
+    cov={img/datadir.png},
 ]
 
 \cover
 
 
 
-\lilypond{datadir.ly}
-\image{/home/louis/projets/patacrep/patacrep/test/test_compilation/subdir_datadir/img/datadir.png}
+\lilypond{scores/datadir.ly}
+\image{img/datadir.png}
 
 
 \endsong

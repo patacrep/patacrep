@@ -5,9 +5,11 @@
 import glob
 import os
 import unittest
+from pkg_resources import resource_filename
 
+from patacrep import files
 from patacrep.build import DEFAULT_CONFIG
-from patacrep.songs.chordpro import ChordproSong
+from patacrep.encoding import open_read
 
 from .. import disable_logging
 from .. import dynamic # pylint: disable=unused-import
@@ -34,11 +36,22 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @classmethod
     def _iter_testmethods(cls):
         """Iterate over song files to test."""
+        # Setting datadir
+        cls.config = DEFAULT_CONFIG
+        if 'datadir' not in cls.config:
+            cls.config['datadir'] = []
+        cls.config['datadir'].append(resource_filename(__name__, 'datadir'))
+
+        cls.song_plugins = files.load_plugins(
+            datadirs=cls.config['datadir'],
+            root_modules=['songs'],
+            keyword='SONG_RENDERERS',
+            )
         for source in sorted(glob.glob(os.path.join(
                 os.path.dirname(__file__),
                 '*.source',
             ))):
-            base = source[:-len(".source")]
+            base = os.path.relpath(source, os.getcwd())[:-len(".source")]
             for dest in LANGUAGES:
                 destname = "{}.{}".format(base, dest)
                 if not os.path.exists(destname):
@@ -58,13 +71,12 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             if base is None or dest is None:
                 return
             destname = "{}.{}".format(base, dest)
-            with open(destname, 'r', encoding='utf8') as expectfile:
+            with open_read(destname) as expectfile:
                 chordproname = "{}.source".format(base)
                 with disable_logging():
                     self.assertMultiLineEqual(
-                        ChordproSong(chordproname, DEFAULT_CONFIG).render(
+                        self.song_plugins[LANGUAGES[dest]]['sgc'](chordproname, self.config).render(
                             output=chordproname,
-                            output_format=LANGUAGES[dest],
                             ).strip(),
                         expectfile.read().strip(),
                         )

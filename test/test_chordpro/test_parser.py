@@ -9,6 +9,7 @@ from pkg_resources import resource_filename
 
 from patacrep import files
 from patacrep.build import DEFAULT_CONFIG
+from patacrep.encoding import open_read
 
 from .. import disable_logging
 
@@ -63,7 +64,7 @@ class FileTestMeta(type):
             if base is None or dest is None:
                 return
             destname = "{}.{}".format(base, dest)
-            with open(destname, 'r', encoding='utf8') as expectfile:
+            with open_read(destname) as expectfile:
                 chordproname = "{}.source".format(base)
                 with disable_logging():
                     self.assertMultiLineEqual(

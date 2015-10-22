@@ -14,3 +14,4 @@ addons:
     - texlive-latex-base
     - latex-xcolor
     - texlive-latex-extra
+    - pgf

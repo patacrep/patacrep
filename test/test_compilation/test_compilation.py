@@ -106,6 +106,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 cwd=os.path.dirname(songbook),
                 )
             return 0
-        except subprocess.CalledProcessError as e:
-            LOGGER.warning(e.output)
-            return e.returncode
+        except subprocess.CalledProcessError as error:
+            LOGGER.warning(error.output)
+            return error.returncode

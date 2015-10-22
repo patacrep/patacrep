@@ -8,7 +8,6 @@ import subprocess
 import unittest
 
 from patacrep.encoding import open_read
-from patacrep import __DATADIR__
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -98,9 +97,13 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             os.path.dirname(__file__),
             )
 
+        datadir_command = ['python', '-c', 'from patacrep import __DATADIR__; print(__DATADIR__)']
+        stdout = subprocess.check_output(datadir_command)
+        datadir = stdout.decode("utf-8").strip()
+
         expected = expected.replace(
             "@DATA_FOLDER@",
-            __DATADIR__,
+            datadir,
             )
 
         return super().assertMultiLineEqual(result, expected, msg)

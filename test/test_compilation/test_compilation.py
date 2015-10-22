@@ -8,6 +8,7 @@ import subprocess
 import unittest
 
 from patacrep.encoding import open_read
+from pkg_resources import resource_filename
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -98,7 +99,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         import patacrep
         placeholder = "@PACKAGE_FOLDER@"
-        localpath = os.path.dirname(patacrep.__file__)
+        localpath = os.path.abspath(resource_filename(patacrep.__name__, ''))
         expected = expected.replace(placeholder, localpath)
 
         return super().assertMultiLineEqual(result, expected)

@@ -36,7 +36,6 @@ guitar,
 
 
 \PassOptionsToPackage{english}{babel}
-\PassOptionsToPackage{french}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
@@ -127,7 +126,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir2.sgc
 
-\selectlanguage{french}
+\selectlanguage{english}
 
 \beginsong{Image included from a different datadir\\
 Chordpro}[
@@ -154,7 +153,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./relative.sgc
 
-\selectlanguage{french}
+\selectlanguage{english}
 
 \beginsong{Image included from song directory\\
 Chordpro}[

@@ -14,7 +14,7 @@ from patacrep import errors
 import patacrep.encoding
 
 # Logging configuration
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 LOGGER = logging.getLogger()
 
 # pylint: disable=too-few-public-methods

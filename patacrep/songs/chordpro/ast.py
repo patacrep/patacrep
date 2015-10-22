@@ -335,6 +335,7 @@ class Define(Directive):
     """
 
     def __init__(self, key, basefret, frets, fingers, is_special):
+        # pylint: disable=too-many-arguments
         self.key = key
         self.basefret = basefret # Can be None
         self.frets = frets

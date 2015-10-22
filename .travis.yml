@@ -13,3 +13,4 @@ addons:
     packages:
     - texlive-latex-base
     - latex-xcolor
+    - texlive-latex-extra

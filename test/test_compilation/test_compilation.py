@@ -70,7 +70,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     expected = expected.replace(
                         "@DATA_FOLDER@",
                         subprocess.check_output(
-                            ["python", "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'],
+                            ["python", "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'], # pylint: disable=line-too-long
                             universal_newlines=True,
                             cwd=os.path.dirname(songbook),
                             ).strip(),

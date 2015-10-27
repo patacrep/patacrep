@@ -135,6 +135,9 @@ class Index(object):
             self._raw_add((key, ""), number, link)
 
         if self.indextype == "AUTHOR":
+
+            # \IeC {} is included by LaTeX and must not be split (because of the space)
+            key = key.replace('\\IeC {', '\\IeC{')
             # Processing authors
             for author in authors.processauthors(
                     key,

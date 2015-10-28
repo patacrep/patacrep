@@ -1,6 +1,6 @@
 {title : Image included from a different datadir}
 {subtitle: Chordpro}
-{by: Le Donjon de Naheulbeuk}
+{by: Le Donjon de Naheulbeuk} #Test non-breaking-space characters
 {cover: datadir2.png}
 {lang: en}
 

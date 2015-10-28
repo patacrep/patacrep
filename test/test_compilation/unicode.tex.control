@@ -13,9 +13,9 @@
 
 \makeatletter
 \def\input@path{ %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/unicode_datadir/latex/} %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/latex/} %
-        {/home/louis/projets/patacrep/patacrep/patacrep/data/latex/} %
+        {@TEST_FOLDER@/unicode_datadir/latex/} %
+        {@TEST_FOLDER@/latex/} %
+        {@DATA_FOLDER@/latex/} %
 }
 \makeatother
 
@@ -38,9 +38,9 @@ guitar,
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/unicode_datadir/} %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/} %
-        {/home/louis/projets/patacrep/patacrep/patacrep/data/} %
+        {@TEST_FOLDER@/unicode_datadir/} %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
 }
 
 

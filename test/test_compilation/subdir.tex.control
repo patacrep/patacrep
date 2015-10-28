@@ -131,7 +131,7 @@ Chordpro}[
 \beginsong{Image included from a different datadir\\
 Chordpro}[
   by={
-        Le Donjon de Naheulbeuk  },
+        Author with non breaking space chars  },
     cov={img/datadir2.png},
 ]
 

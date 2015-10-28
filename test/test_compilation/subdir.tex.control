@@ -55,7 +55,6 @@ guitar,
    \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
 }
 \makeatother
-\DeclareUnicodeCharacter{00A0}{~}
 
 
 \usepackage{chords}

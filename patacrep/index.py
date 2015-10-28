@@ -136,8 +136,6 @@ class Index(object):
 
         if self.indextype == "AUTHOR":
 
-            # \IeC {} is included by LaTeX and must not be split (because of the space)
-            key = key.replace('\\IeC {', '\\IeC{')
             # Processing authors
             for author in authors.processauthors(
                     key,

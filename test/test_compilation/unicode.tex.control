@@ -1,0 +1,117 @@
+
+
+
+
+
+
+%% Automatically generated document.
+%% You may edit this file but all changes will be overwritten.
+%% If you want to change this document, have a look at
+%% the templating system.
+%%
+%% Generated using Songbook <http://www.patacrep.com>
+
+\makeatletter
+\def\input@path{ %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/unicode_datadir/latex/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/latex/} %
+        {/home/louis/projets/patacrep/patacrep/patacrep/data/latex/} %
+}
+\makeatother
+
+\documentclass[
+    ]{article}
+
+\usepackage[
+    chorded,
+diagram,
+pictures,
+guitar,
+    ]{patacrep}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+
+\PassOptionsToPackage{english}{babel}
+\usepackage[english]{babel}
+\lang{english}
+
+\usepackage{graphicx}
+\graphicspath{ %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/unicode_datadir/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/} %
+        {/home/louis/projets/patacrep/patacrep/patacrep/data/} %
+}
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{
+   \usepackage{url}
+   \newcommand{\phantomsection}{}
+   \newcommand{\hyperlink}[2]{#2}
+   \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+}
+\makeatother
+\DeclareUnicodeCharacter{00A0}{~}
+
+
+\usepackage{chords}
+
+\title{Guitar songbook}
+\author{The Patacrep Team}
+
+\newindex{titleidx}{unicode_title}
+\newauthorindex{authidx}{unicode_auth}
+
+
+\notenamesout{A}{B}{C}{D}{E}{F}{G}
+
+
+\begin{document}
+
+\maketitle
+
+
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
+
+% list of chords
+\ifchorded
+  \ifdiagram
+     \phantomsection
+     \addcontentsline{toc}{section}{\chordlistname}
+     \chords
+  \fi
+\fi
+
+\phantomsection
+\addcontentsline{toc}{section}{\songlistname}
+
+\begin{songs}{titleidx,authidx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./nonbreak.sgc
+
+\selectlanguage{english}
+
+\beginsong{Song with non breakable space}[
+  by={
+        Author with non breaking space chars  },
+]
+
+
+
+
+\begin{verse}
+    Non break
+\end{verse}
+
+\endsong
+
+\end{songs}
+
+
+
+
+\end{document}

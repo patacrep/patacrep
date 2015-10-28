@@ -117,7 +117,7 @@ Chordpro}[
 
 \ifchorded
 \begin{verse*}
-    \musicnote {\nolyrics \[Am C#m]}
+    \musicnote {\nolyrics \[Am C{\shrp}m]}
 \end{verse*}
 \fi
 

@@ -91,9 +91,19 @@ def lang2babel(lang):
         language = lang.lower().split("_")[0]
         for babel in BABEL_LANGUAGES:
             if babel.startswith(language):
-                LOGGER.error("Unknown country code '{}'. Using default '{}' instead.".format(lang, babel))
+                LOGGER.error(
+                    "Unknown country code '{}'. Using default '{}' instead.".format(
+                        lang,
+                        babel
+                    )
+                )
                 return BABEL_LANGUAGES[babel]
     except KeyError:
         available = ", ".join(BABEL_LANGUAGES.keys())
-        LOGGER.error("Unknown language code '{}' (supported: {}). Using default 'english' instead.".format(lang, available))
+        LOGGER.error(
+            "Unknown language code '{}' (supported: {}). Using default 'english' instead.".format(
+                lang,
+                available
+            )
+        )
         return 'english'

@@ -2,6 +2,6 @@
 "bookoptions" : [
     "pictures"
   ],
-"datadir": ["subdir_datadir", "subdir_datadir2"],
+"datadir": ["datadir_datadir", "datadir_datadir2"],
 "lang": "en"
 }

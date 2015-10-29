@@ -13,8 +13,8 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/subdir_datadir/latex/} %
-        {@TEST_FOLDER@/subdir_datadir2/latex/} %
+        {@TEST_FOLDER@/datadir_datadir/latex/} %
+        {@TEST_FOLDER@/datadir_datadir2/latex/} %
         {@TEST_FOLDER@/latex/} %
         {@DATA_FOLDER@/latex/} %
 }
@@ -33,13 +33,14 @@ guitar,
 
 
 \PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {@TEST_FOLDER@/subdir_datadir/} %
-        {@TEST_FOLDER@/subdir_datadir2/} %
+        {@TEST_FOLDER@/datadir_datadir/} %
+        {@TEST_FOLDER@/datadir_datadir2/} %
         {@TEST_FOLDER@/} %
         {@DATA_FOLDER@/} %
 }
@@ -60,8 +61,8 @@ guitar,
 \title{Guitar songbook}
 \author{The Patacrep Team}
 
-\newindex{titleidx}{subdir_title}
-\newauthorindex{authidx}{subdir_auth}
+\newindex{titleidx}{datadir_title}
+\newauthorindex{authidx}{datadir_auth}
 
 
 \notenamesout{A}{B}{C}{D}{E}{F}{G}
@@ -91,7 +92,7 @@ guitar,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir.sg
 
-\import{subdir_datadir/songs/}{datadir.sg}
+\import{datadir_datadir/songs/}{datadir.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir.sgc
@@ -118,7 +119,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir2.sg
 
-\import{subdir_datadir/songs/}{datadir2.sg}
+\import{datadir_datadir/songs/}{datadir2.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir2.sgc
@@ -145,7 +146,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./relative.sg
 
-\import{subdir_datadir/songs/}{relative.sg}
+\import{datadir_datadir/songs/}{relative.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./relative.sgc
@@ -156,15 +157,15 @@ Chordpro}[
 Chordpro}[
   by={
   },
-    cov={@TEST_FOLDER@/subdir_datadir/songs/./relative.png},
+    cov={@TEST_FOLDER@/datadir_datadir/songs/./relative.png},
 ]
 
 \cover
 
 
 
-\lilypond{@TEST_FOLDER@/subdir_datadir/songs/./relative.ly}
-\image{@TEST_FOLDER@/subdir_datadir/songs/./relative.png}
+\lilypond{@TEST_FOLDER@/datadir_datadir/songs/./relative.ly}
+\image{@TEST_FOLDER@/datadir_datadir/songs/./relative.png}
 
 
 \endsong

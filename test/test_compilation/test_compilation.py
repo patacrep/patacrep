@@ -109,7 +109,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         print(sys.path)
 
         print("## sys.path (external)")
-        syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'])
+        syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'],
+                stderr=subprocess.STDOUT,
+                cwd=os.path.dirname(songbook))
         print(syspath)
 
         print("## import (external)")

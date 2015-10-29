@@ -102,10 +102,13 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             command.extend(['--steps', steps])
 
         syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'])
-        print("###")
+        dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])
+        print("## sys.path (internal)")
         print(sys.path)
-        print("#####")
+        print("## sys.path (external)")
         print(syspath)
+        print("### dir site-packages")
+        print(dirres)
         print("#######")
 
         try:

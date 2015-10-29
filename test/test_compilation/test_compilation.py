@@ -101,6 +101,13 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
+        syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'])
+        print("###")
+        print(sys.path)
+        print("#####")
+        print(syspath)
+        print("#######")
+
         try:
             subprocess.check_output(
                 command,

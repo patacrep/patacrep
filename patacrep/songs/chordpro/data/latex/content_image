@@ -1,5 +1,5 @@
 (* block image *)
-(* set image = content.argument|search_image *)
+(* set image = content.argument|search_image|latexpath *)
 (* if image *)
 \image{(( image ))}
 (*- endif *)

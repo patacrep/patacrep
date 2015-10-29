@@ -170,6 +170,33 @@ Chordpro}[
 
 \endsong
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./subdir/subdir.sg
+
+\import{datadir_datadir/songs/subdir/}{subdir.sg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./subdir/subdir.sgc
+
+\selectlanguage{english}
+
+\beginsong{Image included from a nested song directory\\
+Chordpro}[
+  by={
+  },
+    cov={@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png},
+]
+
+\cover
+
+
+
+\lilypond{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.ly}
+\image{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png}
+
+
+\endsong
+
 \end{songs}
 
 

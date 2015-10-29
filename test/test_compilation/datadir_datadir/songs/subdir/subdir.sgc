@@ -1,0 +1,7 @@
+{title : Image included from a nested song directory}
+{subtitle: Chordpro}
+{cover: subdir.png}
+{lang: en}
+
+{partition: subdir.ly}
+{image: subdir.png}

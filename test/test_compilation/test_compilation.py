@@ -48,6 +48,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def _create_test(cls, base):
         """Return a function testing that `base` compiles."""
 
+        @unittest.skipIf('TRAVIS' in os.environ,
+                     "Travis does not support lualatex compilation yet")
         def test_compile(self):
             """Test that `base` is correctly compiled."""
             if base is None:

@@ -101,6 +101,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
+        print("#######")
+        print(command)
+        print("#######")
+
         print("## sys.path (internal)")
         print(sys.path)
 
@@ -120,9 +124,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])
         print(dirres)
 
-        print("#######")
-        print(command)
-        print("#######")
 
         try:
             subprocess.check_output(

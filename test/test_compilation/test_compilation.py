@@ -125,20 +125,18 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             emptymod = subprocess.check_output(
                 [sys.executable, "-m", 'patacrep.songbook', 'cwd.sb'],
                 stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook),
-                env=current_env
+                cwd=os.path.dirname(songbook)
                 )
             print(emptymod)
         except subprocess.CalledProcessError as error:
             print(error.output)
 
-        print("### import cwd")
+        print("### dir module")
         try:
             importcwd = subprocess.check_output(
-                [sys.executable, "-c", 'import sys;print(sys.executable)'],
+                [sys.executable, "-c", 'import patacrep.songbook;import pkgutil;mo=[name for _, name, _ in pkgutil.iter_modules(patacrep.__path__)];print(mo)'],
                 stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook),
-                env=current_env
+                cwd=os.path.dirname(songbook)
                 )
             print(importcwd)
         except subprocess.CalledProcessError as error:

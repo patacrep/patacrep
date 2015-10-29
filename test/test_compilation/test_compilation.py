@@ -137,6 +137,17 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         except subprocess.CalledProcessError as error:
             print(error.output)
 
+        print("### import cwd")
+        try:
+            importcwd = subprocess.check_output(
+                [sys.executable, "-c", 'import patacrep.songbook as sb;print(sb)'],
+                stderr=subprocess.STDOUT,
+                cwd=os.path.dirname(songbook)
+                )
+            print(importcwd)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
+
         print("### dir site-packages")
         dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])
         print(dirres)

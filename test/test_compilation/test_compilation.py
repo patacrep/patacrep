@@ -108,7 +108,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             # On windows, we need to pass the current env as argument
             current_env = os.environ.copy()
             # Force the pythonpath for AppVeyor
-            current_env['PYTHONPATH'] = 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\'
+            #current_env['PYTHONPATH'] = 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\'
         else:
             current_env = None
         

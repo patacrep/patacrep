@@ -101,6 +101,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
+        current_env = os.environ.copy()
+        current_env['PYTHONPATH'] = ':'.join(sys.path)
         print("#######")
         print(command)
         print("#######")
@@ -131,7 +133,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             emptymod = subprocess.check_output(
                 [sys.executable, "-m", 'patacrep.songbook', 'cwd.sb'],
                 stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook)
+                cwd=os.path.dirname(songbook),
+                env=current_env
                 )
             print(emptymod)
         except subprocess.CalledProcessError as error:
@@ -142,7 +145,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             importcwd = subprocess.check_output(
                 [sys.executable, "-c", 'import patacrep.songbook as sb;print(sb)'],
                 stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook)
+                cwd=os.path.dirname(songbook),
+                env=current_env
                 )
             print(importcwd)
         except subprocess.CalledProcessError as error:

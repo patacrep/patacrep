@@ -1,0 +1,195 @@
+
+
+
+
+
+
+%% Automatically generated document.
+%% You may edit this file but all changes will be overwritten.
+%% If you want to change this document, have a look at
+%% the templating system.
+%%
+%% Generated using Songbook <http://www.patacrep.com>
+
+\makeatletter
+\def\input@path{ %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/languages_datadir/latex/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/latex/} %
+        {/home/louis/projets/patacrep/patacrep/patacrep/data/latex/} %
+}
+\makeatother
+
+\documentclass[
+    ]{article}
+
+\usepackage[
+    chorded,
+diagram,
+pictures,
+guitar,
+    ]{patacrep}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+
+\PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{spanish}{babel}
+\PassOptionsToPackage{french}{babel}
+\PassOptionsToPackage{english}{babel}
+\usepackage[english]{babel}
+\lang{english}
+
+\usepackage{graphicx}
+\graphicspath{ %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/languages_datadir/} %
+        {/home/louis/projets/patacrep/patacrep/test/test_compilation/} %
+        {/home/louis/projets/patacrep/patacrep/patacrep/data/} %
+}
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{
+   \usepackage{url}
+   \newcommand{\phantomsection}{}
+   \newcommand{\hyperlink}[2]{#2}
+   \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+}
+\makeatother
+
+
+\usepackage{chords}
+
+\title{Guitar songbook}
+\author{The Patacrep Team}
+
+\newindex{titleidx}{languages_title}
+\newauthorindex{authidx}{languages_auth}
+
+
+\notenamesout{A}{B}{C}{D}{E}{F}{G}
+
+
+\begin{document}
+
+\maketitle
+
+
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
+
+% list of chords
+\ifchorded
+  \ifdiagram
+     \phantomsection
+     \addcontentsline{toc}{section}{\chordlistname}
+     \chords
+  \fi
+\fi
+
+\phantomsection
+\addcontentsline{toc}{section}{\songlistname}
+
+\begin{songs}{titleidx,authidx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./language.sgc
+
+\selectlanguage{english}
+
+\beginsong{Language only}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./language_location.sgc
+
+\selectlanguage{french}
+
+\beginsong{Full language specification}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./no_language.sgc
+
+\selectlanguage{english}
+
+\beginsong{No language}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./wrong_language.sgc
+
+\selectlanguage{english}
+
+\beginsong{Wrong language}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./wrong_location.sgc
+
+\selectlanguage{spanish}
+
+\beginsong{Wrong location}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
+
+\end{songs}
+
+
+
+
+\end{document}

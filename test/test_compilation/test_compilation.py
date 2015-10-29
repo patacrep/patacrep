@@ -112,6 +112,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         extimport = subprocess.check_output([sys.executable, "-c", 'import patacrep.songbook as sb;print(sb)'])
         print(extimport)
 
+        print("### empty module")
+        emptymod = subprocess.check_output([sys.executable, "-m", 'patacrep.songbook'])
+        print(emptymod)
+
         print("### dir site-packages")
         dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])
         print(dirres)

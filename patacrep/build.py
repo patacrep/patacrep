@@ -224,6 +224,7 @@ class SongbookBuilder(object):
                 stdout=PIPE,
                 stderr=PIPE,
                 env=os.environ,
+                cwd=os.getcwd(),
                 universal_newlines=True,
                 )
         except Exception as error:

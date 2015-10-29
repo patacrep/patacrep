@@ -1,6 +1,6 @@
 (* block partition *)
-(* set partition = content.argument|search_partition *)
+(* set partition = content.argument|search_partition|latexpath *)
 (* if partition *)
-\lilypond{ ((- content.argument|search_partition|latexpath -)) }
+\lilypond{ ((- partition -)) }
 (*- endif -*)
 (*- endblock -*)

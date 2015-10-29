@@ -118,7 +118,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         print("### empty module")
         try:
-            emptymod = subprocess.check_output([sys.executable, "-m", 'patacrep.songbook', 'test.sb'])
+            emptymod = subprocess.check_output([sys.executable, "-m", 'patacrep.songbook', 'empty.sb'],
+                stderr=subprocess.STDOUT)
             print(emptymod)
         except subprocess.CalledProcessError as error:
             print(error.output)
@@ -126,7 +127,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         print("### cwd module")
         try:
             emptymod = subprocess.check_output(
-                [sys.executable, "-m", 'patacrep.songbook', 'test.sb'],
+                [sys.executable, "-m", 'patacrep.songbook', 'cwd.sb'],
+                stderr=subprocess.STDOUT,
                 cwd=os.path.dirname(songbook)
                 )
             print(emptymod)

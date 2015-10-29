@@ -74,7 +74,7 @@ def parse(keyword, argument, contentlist, config):
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:
-            if songdir.datadir and not os.path.isdir(songdir.datadir):
+            if not os.path.isdir(songdir.datadir):
                 continue
             with files.chdir(songdir.datadir):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):

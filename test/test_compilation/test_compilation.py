@@ -102,7 +102,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             command.extend(['--steps', steps])
 
         current_env = os.environ.copy()
-        #current_env['PYTHONPATH'] = ':'.join(sys.path)
+        current_env['PYTHONPATH'] = ':'.join(sys.path[1:])
         print("#######")
         print(command)
         print("#######")

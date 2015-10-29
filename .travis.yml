@@ -15,6 +15,7 @@ addons:
     - latex-xcolor
     - texlive-latex-extra
     - texlive-luatex
+    - texlive-xetex
     - pgf
     - lmodern
     - lilypond

@@ -29,7 +29,7 @@
   (* endfor *)
   (* if 'cov' in metadata *)
     (* block cov *)
-      (* set cov = metadata["cov"].argument|search_image|latexpath *)
+      (* set cov = metadata["cov"].argument|search_image|path2posix *)
       (* if cov *)
     cov={(( cov ))},
       (* endif *)

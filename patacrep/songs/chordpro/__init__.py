@@ -10,7 +10,8 @@ from patacrep import encoding, files
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
-from patacrep.latex import lang2babel, latexpath
+from patacrep.latex import lang2babel
+from patacrep.files import path2posix
 
 LOGGER = logging.getLogger(__name__)
 
@@ -54,7 +55,7 @@ class ChordproSong(Song):
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
         jinjaenv.filters['lang2babel'] = lang2babel
-        jinjaenv.filters['latexpath'] = latexpath
+        jinjaenv.filters['path2posix'] = path2posix
 
         try:
             return Renderer(

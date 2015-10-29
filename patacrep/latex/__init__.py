@@ -29,7 +29,3 @@ def lang2babel(lang):
         available = ", ".join(BABEL_LANGUAGES.keys())
         LOGGER.error('Unknown lang code: ' + lang + '. Supported: ' + available)
         return 'english'
-
-def latexpath(path):
-    """In LaTeX paths use '/' even on windows"""
-    return path.replace('\\', '/')

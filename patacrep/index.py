@@ -135,7 +135,6 @@ class Index(object):
             self._raw_add((key, ""), number, link)
 
         if self.indextype == "AUTHOR":
-
             # Processing authors
             for author in authors.processauthors(
                     key,

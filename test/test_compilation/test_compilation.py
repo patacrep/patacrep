@@ -112,7 +112,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         print("#####")
         try:
             cmd = subprocess.check_output(
-                ['dir', 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\'],
+                ['dir', 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\patacrep\\data\\templates'],
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
                 cwd=os.path.dirname(songbook),

@@ -101,14 +101,21 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
-        syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'])
-        dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])
         print("## sys.path (internal)")
         print(sys.path)
+
         print("## sys.path (external)")
+        syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'])
         print(syspath)
+
+        print("## import (external)")
+        extimport = subprocess.check_output([sys.executable, "-c", 'import patacrep.songbook as sb;print(sb)'])
+        print(extimport)
+
         print("### dir site-packages")
+        dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])
         print(dirres)
+
         print("#######")
 
         try:

@@ -109,6 +109,17 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         else:
             current_env = None
 
+        print("### root module")
+        try:
+            emptymod = subprocess.check_output(
+                [sys.executable, "-m", 'patacrep', 'test'],
+                stderr=subprocess.STDOUT,
+                cwd=os.path.dirname(songbook)
+                )
+            print(emptymod)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
+
         print("### cwd module")
         try:
             emptymod = subprocess.check_output(

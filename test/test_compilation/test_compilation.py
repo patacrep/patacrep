@@ -112,7 +112,33 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         print("#####")
         try:
             cmd = subprocess.check_output(
-                ['dir', 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\patacrep\\data\\templates'],
+                ['dir', 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\patacrep\\'],
+                stderr=subprocess.STDOUT,
+                universal_newlines=True,
+                cwd=os.path.dirname(songbook),
+                env=current_env
+                )
+            print(cmd)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
+
+        print("######")
+        try:
+            cmd = subprocess.check_output(
+                ['dir', 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\patacrep\\data\\'],
+                stderr=subprocess.STDOUT,
+                universal_newlines=True,
+                cwd=os.path.dirname(songbook),
+                env=current_env
+                )
+            print(cmd)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
+        
+        print("########")
+        try:
+            cmd = subprocess.check_output(
+                ['dir', 'c:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\patacrep\\data\\templates\\'],
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
                 cwd=os.path.dirname(songbook),

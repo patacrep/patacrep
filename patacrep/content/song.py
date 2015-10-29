@@ -42,7 +42,7 @@ class SongRenderer(Content):
                 {song}
                 """).format(
                     separator="%"*80,
-                    path=self.song.subpath,
+                    path=files.path2posix(self.song.subpath),
                     song=self.song.render(output=context['filename']),
                 )
 

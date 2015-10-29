@@ -31,7 +31,7 @@ install:
 build: false  # Not a C# project, build stuff at the test step instead.
 
 before_test:
-  - "python pip install tox"
+  - "pip install tox"
 
 test_script:
-  - "python tox"
+  - "tox"

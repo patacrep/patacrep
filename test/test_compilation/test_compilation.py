@@ -101,62 +101,13 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
-        current_env = os.environ.copy()
-        current_env['PYTHONPATH'] = ';'.join(sys.path[1:])
-        print("#######")
-        print(command)
-        print("#######")
-
-        print("## sys.path (internal)")
-        print(sys.path)
-
-        print("## sys.path (external)")
-        syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'],
-                stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook),
-                env=current_env)
-        print(syspath)
-
-        print("## import (external)")
-        extimport = subprocess.check_output([sys.executable, "-c", 'import patacrep.songbook as sb;print(sb)'])
-        print(extimport)
-
-        print("### empty module")
-        try:
-            emptymod = subprocess.check_output([sys.executable, "-m", 'patacrep.songbook', 'empty.sb'],
-                stderr=subprocess.STDOUT)
-            print(emptymod)
-        except subprocess.CalledProcessError as error:
-            print(error.output)
-
-        print("### cwd module")
-        try:
-            emptymod = subprocess.check_output(
-                [sys.executable, "-m", 'patacrep.songbook', 'cwd.sb'],
-                stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook),
-                env=current_env
-                )
-            print(emptymod)
-        except subprocess.CalledProcessError as error:
-            print(error.output)
-
-        print("### import cwd")
-        try:
-            importcwd = subprocess.check_output(
-                [sys.executable, "-c", 'import patacrep.songbook as sb;print(sb)'],
-                stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook),
-                env=current_env
-                )
-            print(importcwd)
-        except subprocess.CalledProcessError as error:
-            print(error.output)
-
-        print("### dir site-packages")
-        dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])
-        print(dirres)
-
+        if os.name == 'nt':
+            # On windows, we need to pass the current env as argument
+            current_env = os.environ.copy()
+            # and duplicate the current PythontPath
+            current_env['PYTHONPATH'] = ';'.join(sys.path[1:])
+        else:
+            current_env = None
 
         try:
             subprocess.check_output(
@@ -164,6 +115,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
                 cwd=os.path.dirname(songbook),
+                env=current_env
                 )
             return 0
         except subprocess.CalledProcessError as error:

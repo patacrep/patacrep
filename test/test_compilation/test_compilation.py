@@ -3,11 +3,11 @@
 # pylint: disable=too-few-public-methods
 
 import glob
+import logging
 import os
 import sys
 import subprocess
 import unittest
-import logging
 
 from patacrep.encoding import open_read
 from patacrep.files import path2posix
@@ -32,7 +32,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     @classmethod
     def _iter_testmethods(cls):
-        """Iterate over songbook files to test."""
+        """Iterate over dynamically generated test methods."""
         for songbook in sorted(glob.glob(os.path.join(
                 os.path.dirname(__file__),
                 '*.sb',
@@ -42,19 +42,20 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             if not os.path.exists(control):
                 continue
             yield (
-                "test_{}".format(os.path.basename(base)),
-                [base],
+                "test_generation_{}".format(os.path.basename(base)),
+                cls._create_generation_test(base),
+                )
+            yield (
+                "test_compilation_{}".format(os.path.basename(base)),
+                cls._create_compilation_test(base),
                 )
 
     @classmethod
-    def _create_test(cls, base):
-        """Return a function testing that `base` compiles."""
+    def _create_generation_test(cls, base):
+        """Return a function testing that `base.tex` is correctly generated."""
 
-        def test_compile(self):
-            """Test that `base` is correctly compiled."""
-            if base is None:
-                return
-
+        def test_generation(self):
+            """Test that `base.tex` is correctly generated."""
             songbook = "{}.sb".format(base)
 
             # Check tex generation
@@ -87,15 +88,26 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         expected,
                         )
 
-            # Check compilation
-            if 'TRAVIS' not in os.environ:
-                # Travis does not support lualatex compilation yet
-                self.assertEqual(0, self.compile_songbook(songbook))
+        test_generation.__doc__ = (
+            "Test that '{base}' is correctly generated."
+            ).format(base=os.path.basename(base))
+        return test_generation
 
-        test_compile.__doc__ = (
+    @classmethod
+    def _create_compilation_test(cls, base):
+        """Return a function testing that `base.tex` is correctly compiled."""
+        @unittest.skipIf('TRAVIS' in os.environ,
+                         "Travis does not support lualatex compilation yet")
+        def test_compilation(self):
+            """Test that `base` is rendered to pdf."""
+            # Check compilation
+            songbook = "{}.sb".format(base)
+            self.assertEqual(0, self.compile_songbook(songbook))
+
+        test_compilation.__doc__ = (
             "Test that '{base}' is correctly compiled."
             ).format(base=os.path.basename(base))
-        return test_compile
+        return test_compilation
 
     @staticmethod
     def compile_songbook(songbook, steps=None):

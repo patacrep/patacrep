@@ -58,7 +58,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     continue
                 yield (
                     "test_{}_{}".format(os.path.basename(base), dest),
-                    [base, dest],
+                    cls._create_test(base, dest),
                     )
 
     @classmethod

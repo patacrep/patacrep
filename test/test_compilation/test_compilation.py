@@ -117,8 +117,21 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         print(extimport)
 
         print("### empty module")
-        emptymod = subprocess.check_output([sys.executable, "-m", 'patacrep.songbook'])
-        print(emptymod)
+        try:
+            emptymod = subprocess.check_output([sys.executable, "-m", 'patacrep.songbook', 'test.sb'])
+            print(emptymod)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
+
+        print("### cwd module")
+        try:
+            emptymod = subprocess.check_output(
+                [sys.executable, "-m", 'patacrep.songbook', 'test.sb'],
+                cwd=os.path.dirname(songbook)
+                )
+            print(emptymod)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
 
         print("### dir site-packages")
         dirres = subprocess.check_output(["dir", 'C:\projects\patacrep\.tox\py34\lib\site-packages'])

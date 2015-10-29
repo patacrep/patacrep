@@ -6,10 +6,6 @@ environment:
   TOX_ENV: "pywin"
 
   matrix:
-    - PYTHON: "C:\\Python27"
-      PYTHON_VERSION: "2.7.8"
-      PYTHON_ARCH: "32"
-
     - PYTHON: "C:\\Python34"
       PYTHON_VERSION: "3.4.x" # currently 3.4.3
       PYTHON_ARCH: "32"
@@ -38,4 +34,4 @@ before_test:
   - "%CMD_IN_ENV% pip install tox"
 
 test_script:
-  - "%CMD_IN_ENV% tox -e %TOX_ENV%"
+  - "%CMD_IN_ENV% tox"

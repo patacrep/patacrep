@@ -229,6 +229,13 @@ class SongbookBuilder(object):
                 )
         except Exception as error:
             LOGGER.debug(error)
+            LOGGER.debug(os.getcwd())
+            import subprocess
+            LOGGER.debug(subprocess.check_output(
+                ['dir', os.getcwd()],
+                stderr=subprocess.STDOUT,
+                universal_newlines=True
+                ))
             raise errors.LatexCompilationError(self.basename)
 
         if not self.interactive:

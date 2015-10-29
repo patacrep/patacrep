@@ -79,31 +79,30 @@ BABEL_LANGUAGES = OrderedDict((
 
 def lang2babel(lang):
     """Return the language used by babel, corresponding to the language code"""
-    try:
-        # Exact match
-        if lang.lower() in BABEL_LANGUAGES:
-            return BABEL_LANGUAGES[lang.lower()]
-        # Only language code is provided (e.g. 'fr')
-        for babel in BABEL_LANGUAGES:
-            if babel.startswith(lang.lower()):
-                return BABEL_LANGUAGES[babel]
-        # A non existent country code is provided (e.g. 'fr_CD').
-        language = lang.lower().split("_")[0]
-        for babel in BABEL_LANGUAGES:
-            if babel.startswith(language):
-                LOGGER.error(
-                    "Unknown country code '{}'. Using default '{}' instead.".format(
-                        lang,
-                        babel
-                    )
+    # Exact match
+    if lang.lower() in BABEL_LANGUAGES:
+        return BABEL_LANGUAGES[lang.lower()]
+    # Only language code is provided (e.g. 'fr')
+    for babel in BABEL_LANGUAGES:
+        if babel.startswith(lang.lower()):
+            return BABEL_LANGUAGES[babel]
+    # A non existent country code is provided (e.g. 'fr_CD').
+    language = lang.lower().split("_")[0]
+    for babel in BABEL_LANGUAGES:
+        if babel.startswith(language):
+            LOGGER.error(
+                "Unknown country code '{}'. Using default '{}' instead.".format(
+                    lang,
+                    babel
                 )
-                return BABEL_LANGUAGES[babel]
-    except KeyError:
-        available = ", ".join(BABEL_LANGUAGES.keys())
-        LOGGER.error(
-            "Unknown language code '{}' (supported: {}). Using default 'english' instead.".format(
-                lang,
-                available
             )
+            return BABEL_LANGUAGES[babel]
+    # Error: no (exact or approximate) match found
+    available = ", ".join(BABEL_LANGUAGES.keys())
+    LOGGER.error(
+        "Unknown language code '{}' (supported: {}). Using default 'english' instead.".format(
+            lang,
+            available
         )
-        return 'english'
+    )
+    return 'english'

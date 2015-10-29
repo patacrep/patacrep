@@ -4,6 +4,7 @@
 
 import glob
 import os
+import sys
 import subprocess
 import unittest
 import logging
@@ -96,12 +97,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @staticmethod
     def compile_songbook(songbook, steps=None):
         """Compile songbook, and return the command return code."""
-        command = ['python', '-m', 'patacrep.songbook', songbook, '-v']
-        #Windows debugging
-        python_path = subprocess.check_output(['where', 'python'])
-        print(python_path)
-        python_version = subprocess.check_output(['python', '-V'])
-        print(python_version)
+        command = [sys.executable, '-m', 'patacrep.songbook', songbook, '-v']
         if steps:
             command.extend(['--steps', steps])
 

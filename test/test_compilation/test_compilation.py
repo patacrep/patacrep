@@ -97,6 +97,11 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def compile_songbook(songbook, steps=None):
         """Compile songbook, and return the command return code."""
         command = ['python', '-m', 'patacrep.songbook', songbook, '-v']
+        #Windows debugging
+        python_path = subprocess.check_output(['where', 'python'])
+        print(python_path)
+        python_version = subprocess.check_output(['python', '-V'])
+        print(python_version)
         if steps:
             command.extend(['--steps', steps])
 

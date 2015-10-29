@@ -121,6 +121,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         print(dirres)
 
         print("#######")
+        print(command)
+        print("#######")
 
         try:
             subprocess.check_output(

@@ -84,7 +84,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         )
 
             # Check compilation
-            if not 'TRAVIS' in os.environ:
+            if 'TRAVIS' not in os.environ:
                 # Travis does not support lualatex compilation yet
                 self.assertEqual(0, self.compile_songbook(songbook))
 

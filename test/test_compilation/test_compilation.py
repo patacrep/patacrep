@@ -101,54 +101,12 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
-        if os.name == 'nt' and 'APPVEYOR' in os.environ:
-            # On windows, we need to pass the current env as argument
-            current_env = os.environ.copy()
-            # Force the pythonpath for AppVeyor
-            current_env['PYTHONPATH'] = ';'.join(sys.path[1:])
-        else:
-            current_env = None
-
-        print("### root module")
-        try:
-            emptymod = subprocess.check_output(
-                [sys.executable, "-m", 'patacrep', 'test'],
-                stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook)
-                )
-            print(emptymod)
-        except subprocess.CalledProcessError as error:
-            print(error.output)
-
-        print("### cwd module")
-        try:
-            emptymod = subprocess.check_output(
-                [sys.executable, "-m", 'patacrep.songbook', 'cwd.sb'],
-                stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook)
-                )
-            print(emptymod)
-        except subprocess.CalledProcessError as error:
-            print(error.output)
-
-        print("### dir module")
-        try:
-            importcwd = subprocess.check_output(
-                [sys.executable, "-c", 'import patacrep.songbook;import pkgutil;mo=[name for _, name, _ in pkgutil.iter_modules(patacrep.__path__)];print(mo)'],
-                stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook)
-                )
-            print(importcwd)
-        except subprocess.CalledProcessError as error:
-            print(error.output)
-
         try:
             subprocess.check_output(
                 command,
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
                 cwd=os.path.dirname(songbook),
-                env=current_env
                 )
             return 0
         except subprocess.CalledProcessError as error:

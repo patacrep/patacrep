@@ -14,6 +14,7 @@ addons:
     - texlive-latex-base
     - latex-xcolor
     - texlive-latex-extra
+    - texlive-xetex
     - pgf
     - lmodern
     - lilypond

@@ -101,12 +101,21 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if steps:
             command.extend(['--steps', steps])
 
+        if os.name == 'nt' and 'APPVEYOR' in os.environ:
+            # On windows, we need to pass the current env as argument
+            current_env = os.environ.copy()
+            # Force the pythonpath for AppVeyor
+            current_env['PYTHONPATH'] = 'C:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\'
+        else:
+            current_env = None
+
         try:
             subprocess.check_output(
                 command,
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
                 cwd=os.path.dirname(songbook),
+                env=current_env
                 )
             return 0
         except subprocess.CalledProcessError as error:

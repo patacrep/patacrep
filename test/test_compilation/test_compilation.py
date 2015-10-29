@@ -105,9 +105,33 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             # On windows, we need to pass the current env as argument
             current_env = os.environ.copy()
             # Force the pythonpath for AppVeyor
-            current_env['PYTHONPATH'] = 'C:\\projects\\patacrep\\.tox\\py34\\lib\\site-packages\\'
+            current_env['PYTHONPATH'] = ';'.join(sys.path[1:])
         else:
             current_env = None
+
+        print("### cwd module")
+        try:
+            emptymod = subprocess.check_output(
+                [sys.executable, "-m", 'patacrep.songbook', 'cwd.sb'],
+                stderr=subprocess.STDOUT,
+                cwd=os.path.dirname(songbook),
+                env=current_env
+                )
+            print(emptymod)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
+
+        print("### import cwd")
+        try:
+            importcwd = subprocess.check_output(
+                [sys.executable, "-c", 'import sys;print(sys.executable)'],
+                stderr=subprocess.STDOUT,
+                cwd=os.path.dirname(songbook),
+                env=current_env
+                )
+            print(importcwd)
+        except subprocess.CalledProcessError as error:
+            print(error.output)
 
         try:
             subprocess.check_output(

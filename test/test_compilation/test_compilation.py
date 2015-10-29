@@ -102,7 +102,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             command.extend(['--steps', steps])
 
         current_env = os.environ.copy()
-        current_env['PYTHONPATH'] = ':'.join(sys.path)
+        #current_env['PYTHONPATH'] = ':'.join(sys.path)
         print("#######")
         print(command)
         print("#######")
@@ -113,7 +113,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         print("## sys.path (external)")
         syspath = subprocess.check_output([sys.executable, "-c", 'import sys;print(sys.path)'],
                 stderr=subprocess.STDOUT,
-                cwd=os.path.dirname(songbook))
+                cwd=os.path.dirname(songbook),
+                env=current_env)
         print(syspath)
 
         print("## import (external)")

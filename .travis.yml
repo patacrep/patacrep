@@ -1,3 +1,6 @@
+os:
+  - linux
+  - osx
 git:
   depth: 1
 language: python

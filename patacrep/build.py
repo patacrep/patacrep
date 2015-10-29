@@ -164,6 +164,7 @@ class SongbookBuilder(object):
 
     def _set_latex(self):
         """Set LaTeX options."""
+        self._lualatex_options.append("--file-line-error")
         if self.unsafe:
             self._lualatex_options.append("--shell-escape")
         if not self.interactive:

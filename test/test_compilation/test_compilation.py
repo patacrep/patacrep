@@ -121,7 +121,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 command,
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
-                cwd=os.path.dirname(songbook)
+                cwd=os.path.dirname(songbook),
                 )
             return 0
         except subprocess.CalledProcessError as error:

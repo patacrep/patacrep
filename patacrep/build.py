@@ -164,7 +164,6 @@ class SongbookBuilder(object):
 
     def _set_latex(self):
         """Set LaTeX options."""
-        self._lualatex_options.append("--file-line-error")
         if self.unsafe:
             self._lualatex_options.append("--shell-escape")
         if not self.interactive:
@@ -218,25 +217,32 @@ class SongbookBuilder(object):
         LOGGER.info("Building '{}.pdf'…".format(self.basename))
         self._run_once(self._set_latex)
 
+        compiler = "lualatex"
+
+        # test if the LaTeX compiler is accessible
         try:
             process = Popen(
-                ["lualatex"] + self._lualatex_options + [self.basename],
+                [compiler, "--version"],
                 stdin=PIPE,
                 stdout=PIPE,
                 stderr=PIPE,
                 env=os.environ,
-                cwd=os.getcwd(),
+                universal_newlines=True,
+                )
+        except Exception as error:
+            raise errors.ExecutableNotFound(compiler)
+
+        try:
+            process = Popen(
+                [compiler] + self._lualatex_options + [self.basename],
+                stdin=PIPE,
+                stdout=PIPE,
+                stderr=PIPE,
+                env=os.environ,
                 universal_newlines=True,
                 )
         except Exception as error:
             LOGGER.debug(error)
-            LOGGER.debug(os.getcwd())
-            import subprocess
-            LOGGER.debug(subprocess.check_output(
-                ['dir', os.getcwd()],
-                stderr=subprocess.STDOUT,
-                universal_newlines=True
-                ))
             raise errors.LatexCompilationError(self.basename)
 
         if not self.interactive:

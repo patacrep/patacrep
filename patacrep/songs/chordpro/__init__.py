@@ -53,7 +53,7 @@ class ChordproSong(Song):
                 self.get_datadirs(os.path.join("templates", self.output_language))
             ),
             FileSystemLoader(
-                os.path.join(pkg_datapath('ast_templates'), 'chordpro', self.output_language)
+                pkg_datapath('ast_templates', 'chordpro', self.output_language)
             ),
             ]))
         jinjaenv.filters['search_image'] = self.search_image

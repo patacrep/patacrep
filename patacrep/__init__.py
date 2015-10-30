@@ -17,8 +17,8 @@ __version__ = '.'.join([str(number) for number in __TUPLE_VERSION__])
 # etc.)
 
 _ROOT = os.path.abspath(resource_filename(__name__, 'data'))
-def pkg_datapath(path=''):
+def pkg_datapath(*path):
     """Return the package data path"""
-    return os.path.join(_ROOT, path)
+    return os.path.join(_ROOT, *path)
 
 __DATADIR__ = os.path.abspath(pkg_datapath())

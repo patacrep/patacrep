@@ -1,0 +1,6 @@
+(* block partition *)
+(* set partition = content.argument|search_partition|path2posix *)
+(* if partition *)
+\lilypond{ ((- partition -)) }
+(*- endif -*)
+(*- endblock -*)

@@ -13,8 +13,7 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/datadir_datadir/latex/} %
-        {@TEST_FOLDER@/datadir_datadir2/latex/} %
+        {@TEST_FOLDER@/languages_datadir/latex/} %
         {@TEST_FOLDER@/latex/} %
         {@DATA_FOLDER@/latex/} %
 }
@@ -25,6 +24,7 @@
 
 \usepackage[
     chorded,
+diagram,
 pictures,
 guitar,
     ]{patacrep}
@@ -33,14 +33,15 @@ guitar,
 
 
 \PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{spanish}{babel}
+\PassOptionsToPackage{french}{babel}
 \PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {@TEST_FOLDER@/datadir_datadir/} %
-        {@TEST_FOLDER@/datadir_datadir2/} %
+        {@TEST_FOLDER@/languages_datadir/} %
         {@TEST_FOLDER@/} %
         {@DATA_FOLDER@/} %
 }
@@ -61,8 +62,8 @@ guitar,
 \title{Guitar songbook}
 \author{The Patacrep Team}
 
-\newindex{titleidx}{datadir_title}
-\newauthorindex{authidx}{datadir_auth}
+\newindex{titleidx}{languages_title}
+\newauthorindex{authidx}{languages_auth}
 
 
 \notenamesout{A}{B}{C}{D}{E}{F}{G}
@@ -90,110 +91,97 @@ guitar,
 
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir.sg
-
-\import{datadir_datadir/songs/}{datadir.sg}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir.sgc
+%% songs/./language.sgc
 
 \selectlanguage{english}
 
-\beginsong{Image included from datadir\\
-Chordpro}[
+\beginsong{Language only}[
   by={
   },
-    cov={img/datadir.png},
 ]
 
-\cover
 
 
 
-\lilypond{scores/datadir.ly}
-\image{img/datadir.png}
-
+\begin{verse}
+    Foo
+\end{verse}
 
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir2.sg
+%% songs/./language_location.sgc
 
-\import{datadir_datadir/songs/}{datadir2.sg}
+\selectlanguage{french}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir2.sgc
-
-\selectlanguage{english}
-
-\beginsong{Image included from a different datadir\\
-Chordpro}[
+\beginsong{Full language specification}[
   by={
   },
-    cov={img/datadir2.png},
 ]
 
-\cover
 
 
 
-\lilypond{scores/datadir2.ly}
-\image{img/datadir2.png}
-
+\begin{verse}
+    Foo
+\end{verse}
 
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./relative.sg
-
-\import{datadir_datadir/songs/}{relative.sg}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./relative.sgc
+%% songs/./no_language.sgc
 
 \selectlanguage{english}
 
-\beginsong{Image included from song directory\\
-Chordpro}[
+\beginsong{No language}[
   by={
   },
-    cov={@TEST_FOLDER@/datadir_datadir/songs/./relative.png},
 ]
 
-\cover
 
 
 
-\lilypond{@TEST_FOLDER@/datadir_datadir/songs/./relative.ly}
-\image{@TEST_FOLDER@/datadir_datadir/songs/./relative.png}
-
+\begin{verse}
+    Foo
+\end{verse}
 
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./subdir/subdir.sg
-
-\import{datadir_datadir/songs/subdir/}{subdir.sg}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./subdir/subdir.sgc
+%% songs/./wrong_language.sgc
 
 \selectlanguage{english}
 
-\beginsong{Image included from a nested song directory\\
-Chordpro}[
+\beginsong{Wrong language}[
   by={
   },
-    cov={@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png},
 ]
 
-\cover
 
 
 
-\lilypond{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.ly}
-\image{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png}
+\begin{verse}
+    Foo
+\end{verse}
 
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./wrong_location.sgc
+
+\selectlanguage{spanish}
+
+\beginsong{Wrong location}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
 
 \endsong
 

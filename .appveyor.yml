@@ -25,7 +25,7 @@ install:
 
   # Download and install MikTeX
   - ps: "wget http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex-2.9.5721.exe -OutFile ./basic-miktex.exe"
-  - "basic-miktex.exe"
+  - "basic-miktex.exe --unattended"
 
 
 build: false  # Not a C# project, build stuff at the test step instead.

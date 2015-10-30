@@ -24,11 +24,10 @@ install:
 
   # Install Chocolatey packages (miktex)
   - cmd: C:\projects\patacrep\.appveyor.choco.cmd
-  - cmd: dir C:\ProgramData\chocolatey\bin
   - cmd: dir C:\ProgramData\chocolatey\lib
-  - cmd: dir %APPDATA%
-  - cmd: dir %APPDATA%\MiKTeX
-  - cmd: dir %APPDATA%\MiKTeX\2.9
+  - cmd: dir C:\ProgramData\chocolatey\lib\miktex
+  - cmd: dir C:\ProgramData\chocolatey\lib\miktex\bin
+  - cmd: doskey lualatex=C:\ProgramData\chocolatey\lib\miktex\bin\lualatex.exe $*
   - "lualatex --version"
 
 build: false  # Not a C# project, build stuff at the test step instead.

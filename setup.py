@@ -21,12 +21,7 @@ setup(
         "unidecode", "jinja2", "chardet", "ply",
         ],
     setup_requires=["hgtools"],
-    package_data={'patacrep': [
-        'data/ast_templates/*/*/*',
-        'data/img/*',
-        'data/latex/*',
-        'data/templates/*',
-        ]},
+    include_package_data=True,
     entry_points={
         'console_scripts': [
             "songbook = patacrep.songbook.__main__:main",

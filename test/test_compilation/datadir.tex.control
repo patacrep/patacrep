@@ -33,6 +33,7 @@ guitar,
 
 
 \PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
 

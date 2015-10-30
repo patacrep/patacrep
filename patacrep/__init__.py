@@ -31,3 +31,12 @@ print("DEBUG: DIR RESOURCE_FILENAME:", subprocess.check_output(
                     stderr=subprocess.STDOUT,
                     universal_newlines=True
                 ))
+print("DEBUG: EXPAND VAR", [(var, os.path.expandvars(var)) for var in ['APPDATA', '$APPDATA', '%APPDATA%', '<APPDATA>']])
+try:
+    print("DEBUG: DIR APPDATA:", subprocess.check_output(
+                        ['dir', os.path.expandvars('%APPDATA%')],
+                        stderr=subprocess.STDOUT,
+                        universal_newlines=True
+                    ))
+except Exception as error:
+    print(error)

@@ -9,6 +9,7 @@ import subprocess
 import unittest
 
 from patacrep.encoding import open_read
+from patacrep.files import path2posix
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -67,16 +68,18 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     expected = expectfile.read().strip()
                     expected = expected.replace(
                         "@TEST_FOLDER@",
-                        os.path.dirname(__file__),
+                        path2posix(os.path.dirname(__file__)),
                         )
 
                     expected = expected.replace(
                         "@DATA_FOLDER@",
-                        subprocess.check_output(
-                            ["python", "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'], # pylint: disable=line-too-long
-                            universal_newlines=True,
-                            cwd=os.path.dirname(songbook),
-                            ).strip(),
+                        path2posix(
+                            subprocess.check_output(
+                                ["python", "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'], # pylint: disable=line-too-long
+                                universal_newlines=True,
+                                cwd=os.path.dirname(songbook),
+                                ).strip()
+                        ),
                         )
 
                     self.assertMultiLineEqual(

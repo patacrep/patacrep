@@ -28,12 +28,11 @@ install:
 
   - cmd: dir .\miktex\miktex\bin
 
-  #- cmd: doskey lualatex=.\miktex\miktex\bin\lualatex.exe $*
-  - cmd: set PATH=%PATH%;C:\Users\appveyor\miktex\miktex\bin
+  - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\miktex\bin
   - cmd: echo %PATH%
 
+  - cmd: C:\projects\patacrep\miktex\miktex\bin\lualatex.exe --version
   - cmd: lualatex.exe --version
-  - cmd: C:\Users\appveyor\miktex\miktex\bin\lualatex.exe --version
 
 build: false  # Not a C# project, build stuff at the test step instead.
 
@@ -43,6 +42,6 @@ before_test:
 test_script:
   - "tox"
 
-# Cache Miktex install
+# Cache Miktex zip install
 cache:
-- C:\Users\appveyor\miktex -> .appveyor.yml
+- C:\projects\patacrep\miktex-portable.exe -> .appveyor.yml

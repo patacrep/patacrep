@@ -217,9 +217,24 @@ class SongbookBuilder(object):
         LOGGER.info("Building '{}.pdf'…".format(self.basename))
         self._run_once(self._set_latex)
 
+        compiler = "lualatex"
+
+        # test if the LaTeX compiler is accessible
         try:
             process = Popen(
-                ["lualatex"] + self._lualatex_options + [self.basename],
+                [compiler, "--version"],
+                stdin=PIPE,
+                stdout=PIPE,
+                stderr=PIPE,
+                env=os.environ,
+                universal_newlines=True,
+                )
+        except Exception as error:
+            raise errors.ExecutableNotFound(compiler)
+
+        try:
+            process = Popen(
+                [compiler] + self._lualatex_options + [self.basename],
                 stdin=PIPE,
                 stdout=PIPE,
                 stderr=PIPE,

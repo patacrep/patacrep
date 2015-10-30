@@ -23,7 +23,7 @@ install:
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
   # Install miktex portable
-  - ps: "wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5719.exe -OutFile ./miktex-portable.exe"
+  - ps: "If (!(Test-Path miktex-portable.exe)){wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5719.exe -OutFile ./miktex-portable.exe}"
   - "7z x miktex-portable.exe * -aot -omiktex > nul"
 
   #- cmd: dir .\miktex\miktex\bin
@@ -41,7 +41,9 @@ before_test:
 
 test_script:
   - "tox"
+  # The following compilation hangs forever...
+  #- cmd: lualatex.exe --include-directory="C:\\projects\\patacrep\\test\\test_compilation\\unicode_datadir" --include-directory="C:\\projects\\patacrep\\test\\test_compilation" --include-directory="C:\\projects\\patacrep\\patacrep\\data" C:\\projects\\patacrep\\test\\test_compilation\\datadir.tex
 
 # Cache Miktex zip install
 cache:
-- C:\projects\patacrep\miktex-portable.exe -> .appveyor.yml
+- C:\projects\patacrep\miktex-portable.exe

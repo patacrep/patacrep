@@ -45,4 +45,4 @@ test_script:
 
 # Cache Miktex zip install
 cache:
-- C:\projects\patacrep\miktex-portable.exe -> .appveyor.yml
+- C:\projects\patacrep\miktex-portable.exe

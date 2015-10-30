@@ -23,14 +23,13 @@ install:
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
   # Install miktex
-  - ps: "wget http://ctan.math.washington.edu/tex-archive/systems/win32/miktex/setup/basic-miktex-2.9.5721-x64.exe -OutFile ./basic-miktex.exe"
-  - cmd: basic-miktex.exe --unattended --portable --user-config=%LOCALAPPDATA%\MiKTeX\2.9 --user-data=%LOCALAPPDATA%\MiKTeX\2.9 --user-install=%LOCALAPPDATA%\MiKTeX\2.9
+  - ps: "wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5719.exe -OutFile ./basic-miktex.exe"
+  - "7z e basic-miktex.exe * -omiktex"
+  #- cmd: basic-miktex.exe --unattended --portable --user-config=%LOCALAPPDATA%\MiKTeX\2.9 --user-data=%LOCALAPPDATA%\MiKTeX\2.9 --user-install=%LOCALAPPDATA%\MiKTeX\2.9
 
-  - cmd: dir %LOCALAPPDATA%
-  - cmd: dir %LOCALAPPDATA%\MiKTeX
-  - cmd: dir %LOCALAPPDATA%\MiKTeX\2.9
-  - cmd: dir %LOCALAPPDATA%\MiKTeX\2.9\miktex
-  - cmd: dir %LOCALAPPDATA%\MiKTeX\2.9\miktex\bin
+  - cmd: dir .
+  - cmd: dir .\miktex
+  - cmd: dir .\miktex\bin
 
   - cmd: doskey lualatex=%LOCALAPPDATA%\MiKTeX\2.9\miktex\bin\lualatex.exe $*
 
@@ -46,4 +45,4 @@ test_script:
 
 # Cache Miktex install
 cache:
-- C:\Users\appveyor\AppData\Local\MiKTeX\2.9 -> .appveyor.yml
+- C:\Users\appveyor\miktex -> .appveyor.yml

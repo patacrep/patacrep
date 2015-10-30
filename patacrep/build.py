@@ -168,10 +168,11 @@ class SongbookBuilder(object):
             self._lualatex_options.append("--shell-escape")
         if not self.interactive:
             self._lualatex_options.append("-halt-on-error")
-        for datadir in self.songbook.config["datadir"]:
+        for datadir in self.songbook.config["datadir"]: # TODO Is this really necessary?
             self._lualatex_options.append(
                 '--include-directory="{}"'.format(datadir)
                 )
+        self._lualatex_options.append("--disable-installer") # TODO Windows only http://docs.miktex.org/manual/texfeatures.html#autoinstalloptions
 
     def build_steps(self, steps=None):
         """Perform steps on the songbook by calling relevant self.build_*()

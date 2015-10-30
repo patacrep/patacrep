@@ -22,3 +22,21 @@ def pkg_datapath(path=''):
     return os.path.join(_ROOT, path)
 
 __DATADIR__ = os.path.abspath(pkg_datapath())
+
+### DEBUG ###
+import subprocess
+print("DEBUG: RESOURCE_FILENAME:", os.path.abspath(resource_filename(__name__, 'data')))
+print("DEBUG: DIR RESOURCE_FILENAME:", subprocess.check_output(
+                    ['dir', os.path.abspath(resource_filename(__name__, 'data'))],
+                    stderr=subprocess.STDOUT,
+                    universal_newlines=True
+                ))
+print("DEBUG: EXPAND VAR", [(var, os.path.expandvars(var)) for var in ['APPDATA', '$APPDATA', '%APPDATA%', '<APPDATA>']])
+try:
+    print("DEBUG: DIR APPDATA:", subprocess.check_output(
+                        ['dir', os.path.expandvars('%APPDATA%')],
+                        stderr=subprocess.STDOUT,
+                        universal_newlines=True
+                    ))
+except Exception as error:
+    print(error)

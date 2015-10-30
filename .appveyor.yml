@@ -31,3 +31,4 @@ before_test:
 
 test_script:
   - "tox -r -v -e py34"
+  - "type 'C:\\projects\\patacrep\\.tox\\log\\tox-0.log'"

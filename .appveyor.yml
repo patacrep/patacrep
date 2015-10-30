@@ -30,5 +30,5 @@ before_test:
   - "pip install tox"
 
 test_script:
+  - "type C:\\projects\\patacrep\\.tox\\log\\tox-*.log"
   - "tox -r -v -e py34"
-  - "type 'C:\\projects\\patacrep\\.tox\\log\\tox-0.log'"

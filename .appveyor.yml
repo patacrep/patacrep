@@ -22,10 +22,12 @@ install:
   - "python --version"
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
+  - "pip --version"
+
 build: false  # Not a C# project, build stuff at the test step instead.
 
 before_test:
   - "pip install tox"
 
 test_script:
-  - "tox"
+  - "tox -r -v -e py34"

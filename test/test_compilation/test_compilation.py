@@ -5,6 +5,7 @@
 import glob
 import logging
 import os
+import sys
 import subprocess
 import unittest
 
@@ -75,7 +76,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         "@DATA_FOLDER@",
                         path2posix(
                             subprocess.check_output(
-                                ["python", "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'], # pylint: disable=line-too-long
+                                [sys.executable, "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'], # pylint: disable=line-too-long
                                 universal_newlines=True,
                                 cwd=os.path.dirname(songbook),
                                 ).strip()
@@ -111,7 +112,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @staticmethod
     def compile_songbook(songbook, steps=None):
         """Compile songbook, and return the command return code."""
-        command = ['python', '-m', 'patacrep.songbook', songbook, '-v']
+        command = [sys.executable, '-m', 'patacrep.songbook', songbook, '-v']
         if steps:
             command.extend(['--steps', steps])
 

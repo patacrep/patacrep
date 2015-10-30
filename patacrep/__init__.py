@@ -16,4 +16,9 @@ __version__ = '.'.join([str(number) for number in __TUPLE_VERSION__])
 # Directory containing shared data (default templates, custom LaTeX packages,
 # etc.)
 
-__DATADIR__ = os.path.abspath(resource_filename(__name__, 'data'))
+_ROOT = os.path.abspath(os.path.dirname(__file__))
+def pkg_datapath(path=''):
+    """Return the package data path"""
+    return os.path.join(_ROOT, 'data', path)
+
+__DATADIR__ = os.path.abspath(pkg_datapath())

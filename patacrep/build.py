@@ -164,6 +164,7 @@ class SongbookBuilder(object):
 
     def _set_latex(self):
         """Set LaTeX options."""
+        self._lualatex_options.append("--file-line-error")
         if self.unsafe:
             self._lualatex_options.append("--shell-escape")
         if not self.interactive:
@@ -224,10 +225,18 @@ class SongbookBuilder(object):
                 stdout=PIPE,
                 stderr=PIPE,
                 env=os.environ,
+                cwd=os.getcwd(),
                 universal_newlines=True,
                 )
         except Exception as error:
             LOGGER.debug(error)
+            LOGGER.debug(os.getcwd())
+            import subprocess
+            LOGGER.debug(subprocess.check_output(
+                ['dir', os.getcwd()],
+                stderr=subprocess.STDOUT,
+                universal_newlines=True
+                ))
             raise errors.LatexCompilationError(self.basename)
 
         if not self.interactive:

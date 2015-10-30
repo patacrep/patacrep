@@ -1,0 +1,37 @@
+environment:
+  matrix:
+    - PYTHON: "C:\\Python34"
+      PYTHON_VERSION: "3.4.x" # currently 3.4.3
+      PYTHON_ARCH: "32"
+
+install:
+  # Download setup scripts and unzip
+  - ps: "wget https://github.com/cloudify-cosmo/appveyor-utils/archive/master.zip -OutFile ./master.zip"
+  - "7z e master.zip */appveyor/* -oappveyor"
+
+  # Install Python (from the official .msi of http://python.org) and pip when
+  # not already installed.
+  - "powershell ./appveyor/install.ps1"
+
+  # Prepend newly installed Python to the PATH of this build (this cannot be
+  # done from inside the powershell script as it would require to restart
+  # the parent CMD process).
+  - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
+
+  # Check that we have the expected version and architecture for Python
+  - "python --version"
+  - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
+  - "pip --version"
+
+  # Download and install MikTeX
+  - ps: "wget http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex-2.9.5721.exe -OutFile ./basic-miktex.exe"
+  - "basic-miktex.exe"
+
+
+build: false  # Not a C# project, build stuff at the test step instead.
+
+before_test:
+  - "pip install tox"
+
+test_script:
+  - "tox"

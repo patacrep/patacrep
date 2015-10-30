@@ -30,5 +30,5 @@ before_test:
   - "pip install tox"
 
 test_script:
+  - "tox -e py34 -v --sdistonly -r"
   - "type C:\\projects\\patacrep\\.tox\\log\\tox-*.log"
-  - "tox -r -v -e py34"

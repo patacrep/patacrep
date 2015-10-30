@@ -29,11 +29,11 @@ install:
   - cmd: dir .\miktex\miktex\bin
 
   #- cmd: doskey lualatex=.\miktex\miktex\bin\lualatex.exe $*
-  - cmd: set PATH=%PATH%;C:\Users\appveyor\miktex\miktex\bin\lualatex
-  - cmd: C:\Users\appveyor\miktex\miktex\bin\lualatex.exe --version
+  - cmd: set PATH=%PATH%;C:\Users\appveyor\miktex\miktex\bin
   - cmd: echo %PATH%
 
   - cmd: lualatex.exe --version
+  - cmd: C:\Users\appveyor\miktex\miktex\bin\lualatex.exe --version
 
 build: false  # Not a C# project, build stuff at the test step instead.
 

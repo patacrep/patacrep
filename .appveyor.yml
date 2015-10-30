@@ -45,4 +45,4 @@ test_script:
 
 # Cache Miktex install
 cache:
-  - %LOCALAPPDATA%\MiKTeX\2.9 -> .appveyor.miktex.ps
+- C:\Users\appveyor\AppData\Local\MiKTeX\2.9 -> .appveyor.miktex.ps

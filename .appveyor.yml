@@ -24,12 +24,13 @@ install:
 
   # Install miktex
   - ps: "wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5719.exe -OutFile ./miktex-portable.exe"
-  - "7z x miktex-portable.exe * -aot"
+  - "7z x miktex-portable.exe * -aot -omiktex"
   #- cmd: basic-miktex.exe --unattended --portable --user-config=%LOCALAPPDATA%\MiKTeX\2.9 --user-data=%LOCALAPPDATA%\MiKTeX\2.9 --user-install=%LOCALAPPDATA%\MiKTeX\2.9
 
   - cmd: dir .
-  - cmd: dir .\miktex-portable
-  - cmd: dir .\miktex-portable\bin
+  - cmd: dir .\miktex
+  - cmd: dir .\miktex\miktex
+  - cmd: dir .\miktex\miktex\bin
 
   - cmd: doskey lualatex=%LOCALAPPDATA%\MiKTeX\2.9\miktex\bin\lualatex.exe $*
 

@@ -22,18 +22,17 @@ install:
   - "python --version"
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
-  # Install Chocolatey packages (miktex)
-  - cmd: C:\projects\patacrep\.appveyor.choco.cmd
-  - cmd: dir %APPDATA%\MiKTeX\2.9
+  # Install miktex
+  - ps: C:\projects\patacrep\.appveyor.miktex.ps
+
   - cmd: dir %LOCALAPPDATA%
   - cmd: dir %LOCALAPPDATA%\MiKTeX
   - cmd: dir %LOCALAPPDATA%\MiKTeX\2.9
   - cmd: dir %LOCALAPPDATA%\MiKTeX\2.9\miktex
   - cmd: dir %LOCALAPPDATA%\MiKTeX\2.9\miktex\bin
-  - cmd: dir C:\ProgramData\chocolatey\lib
-  - cmd: dir C:\ProgramData\chocolatey\lib\miktex
-  #- cmd: dir C:\ProgramData\chocolatey\lib\miktex\bin
+
   - cmd: doskey lualatex=%LOCALAPPDATA%\MiKTeX\2.9\miktex\bin\lualatex.exe $*
+
   - "lualatex --version"
 
 build: false  # Not a C# project, build stuff at the test step instead.
@@ -44,7 +43,6 @@ before_test:
 test_script:
   - "tox"
 
-# Cache Chocolatey packages
+# Cache Miktex install
 cache:
-- C:\ProgramData\chocolatey\bin -> .appveyor.choch.cmd
-- C:\ProgramData\chocolatey\lib -> .appveyor.choch.cmd
+- %LOCALAPPDATA%\MiKTeX\2.9 -> .appveyor.miktex.ps

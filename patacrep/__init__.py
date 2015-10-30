@@ -34,6 +34,7 @@ LOGGER.error(("DIR RESOURCE_FILENAME:", subprocess.check_output(
                     universal_newlines=True
                 )))
 LOGGER.error(("EXPAND VAR", [(var, os.path.expandvars(var)) for var in ['APPDATA', '$APPDATA', '%APPDATA%', '<APPDATA>', '$HOME']]))
+LOGGER.error(str(os.environ))
 try:
     LOGGER.error(("DIR APPDATA:", subprocess.check_output(
                         ['dir', os.path.expandvars('%APPDATA%')],

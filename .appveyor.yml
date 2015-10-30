@@ -23,7 +23,7 @@ install:
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
   # Install miktex
-  - ps: C:\projects\patacrep\.appveyor.miktex.ps
+  - "powershell C:\projects\patacrep\.appveyor.miktex.ps"
 
   - cmd: dir %LOCALAPPDATA%
   - cmd: dir %LOCALAPPDATA%\MiKTeX

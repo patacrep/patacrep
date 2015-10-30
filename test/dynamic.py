@@ -13,13 +13,9 @@ class DynamicTest(type):
 
     def __init__(cls, name, bases, nmspc):
         super().__init__(name, bases, nmspc)
-        for methodname, args in cls._iter_testmethods():
-            setattr(cls, methodname, cls._create_test(*args))
+        for methodname, testmethod in cls._iter_testmethods():
+            setattr(cls, methodname, testmethod)
 
     def _iter_testmethods(cls):
-        """Iterate over test methods."""
-        raise NotImplementedError()
-
-    def _create_test(cls, *args, **kwargs):
-        """Create and return a test method."""
+        """Iterate over dynamically generated test methods."""
         raise NotImplementedError()

@@ -136,10 +136,10 @@ class SongbookBuilder(object):
 
     # if False, do not expect anything from stdin.
     interactive = False
-    # if True, allow unsafe option, like adding the --shell-escape to pdflatex
+    # if True, allow unsafe option, like adding the --shell-escape to lualatex
     unsafe = False
-    # Options to add to pdflatex
-    _pdflatex_options = []
+    # Options to add to lualatex
+    _lualatex_options = []
     # Dictionary of functions that have been called by self._run_once(). Keys
     # are function; values are return values of functions.
     _called_functions = {}
@@ -165,11 +165,11 @@ class SongbookBuilder(object):
     def _set_latex(self):
         """Set LaTeX options."""
         if self.unsafe:
-            self._pdflatex_options.append("--shell-escape")
+            self._lualatex_options.append("--shell-escape")
         if not self.interactive:
-            self._pdflatex_options.append("-halt-on-error")
+            self._lualatex_options.append("-halt-on-error")
         for datadir in self.songbook.config["datadir"]:
-            self._pdflatex_options.append(
+            self._lualatex_options.append(
                 '--include-directory="{}"'.format(datadir)
                 )
 
@@ -180,7 +180,7 @@ class SongbookBuilder(object):
         - steps: list of steps to perform to compile songbook. Available steps
           are:
           - tex: build .tex file from templates;
-          - pdf: compile .tex using pdflatex;
+          - pdf: compile .tex using lualatex;
           - sbx: compile song and author indexes;
           - clean: remove temporary files,
           - any string beginning with a sharp sign (#): it is interpreted as a
@@ -219,7 +219,7 @@ class SongbookBuilder(object):
 
         try:
             process = Popen(
-                ["pdflatex"] + self._pdflatex_options + [self.basename],
+                ["lualatex"] + self._lualatex_options + [self.basename],
                 stdin=PIPE,
                 stdout=PIPE,
                 stderr=PIPE,

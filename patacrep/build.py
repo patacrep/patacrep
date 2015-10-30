@@ -6,7 +6,7 @@ import glob
 import logging
 import threading
 import os.path
-from subprocess import Popen, PIPE, call
+from subprocess import Popen, PIPE, call, check_call
 
 from patacrep import __DATADIR__, authors, content, errors, files
 from patacrep.index import process_sxd
@@ -219,26 +219,25 @@ class SongbookBuilder(object):
 
         compiler = "lualatex"
 
-        # test if the LaTeX compiler is accessible
+        # Test if the LaTeX compiler is accessible
         try:
-            process = Popen(
+            check_call(
                 [compiler, "--version"],
                 stdin=PIPE,
                 stdout=PIPE,
                 stderr=PIPE,
-                env=os.environ,
                 universal_newlines=True,
                 )
         except Exception as error:
             raise errors.ExecutableNotFound(compiler)
 
+        # Perform compilation
         try:
             process = Popen(
                 [compiler] + self._lualatex_options + [self.basename],
                 stdin=PIPE,
                 stdout=PIPE,
                 stderr=PIPE,
-                env=os.environ,
                 universal_newlines=True,
                 )
         except Exception as error:

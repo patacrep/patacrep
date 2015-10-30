@@ -76,7 +76,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         "@DATA_FOLDER@",
                         path2posix(
                             subprocess.check_output(
-                                [sys.executable, "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'], # pylint: disable=line-too-long
+                                [sys.executable, "-c", 'import patacrep; print(patacrep.__DATADIR__)'], # pylint: disable=line-too-long
                                 universal_newlines=True,
                                 cwd=os.path.dirname(songbook),
                                 ).strip()
@@ -117,7 +117,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             command.extend(['--steps', steps])
 
         try:
-            subprocess.check_output(
+            subprocess.check_call(
                 command,
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,

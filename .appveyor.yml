@@ -22,8 +22,8 @@ install:
   - "python --version"
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
-  # Install miktex
-  - cmd: choco install miktex
+  # Install Chocolatey packages (miktex)
+  - cmd: C:\projects\patacrep\.appveyor.choco.cmd
   - cmd: dir C:\ProgramData\chocolatey\bin
   - cmd: dir C:\ProgramData\chocolatey\lib
   - cmd: dir %APPDATA%
@@ -38,3 +38,8 @@ before_test:
 
 test_script:
   - "tox"
+
+# Cache Chocolatey packages
+cache:
+- C:\ProgramData\chocolatey\bin -> .appveyor.choch.cmd
+- C:\ProgramData\chocolatey\lib -> .appveyor.choch.cmd

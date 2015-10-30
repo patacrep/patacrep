@@ -22,18 +22,6 @@ install:
   - "python --version"
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
-  # Install miktex portable
-  - ps: "wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5719.exe -OutFile ./miktex-portable.exe"
-  - "7z x miktex-portable.exe * -aot -omiktex > nul"
-
-  #- cmd: dir .\miktex\miktex\bin
-
-  - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\miktex\bin
-  #- cmd: echo %PATH%
-
-  #- cmd: C:\projects\patacrep\miktex\miktex\bin\lualatex.exe --version
-  - cmd: lualatex.exe --version
-
 build: false  # Not a C# project, build stuff at the test step instead.
 
 before_test:
@@ -41,7 +29,3 @@ before_test:
 
 test_script:
   - "tox"
-
-# Cache Miktex zip install
-cache:
-- C:\projects\patacrep\miktex-portable.exe -> .appveyor.yml

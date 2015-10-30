@@ -24,6 +24,11 @@ install:
 
   # Install miktex
   - cmd: choco install miktex
+  - cmd: dir C:\ProgramData\chocolatey\bin
+  - cmd: dir C:\ProgramData\chocolatey\lib
+  - cmd: dir %APPDATA%
+  - cmd: dir %APPDATA%\MiKTeX
+  - cmd: dir %APPDATA%\MiKTeX\2.9
   - "lualatex --version"
 
 build: false  # Not a C# project, build stuff at the test step instead.

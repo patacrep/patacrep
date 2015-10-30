@@ -41,6 +41,7 @@ before_test:
 
 test_script:
   - "tox"
+  - cmd: lualatex.exe --include-directory="C:\\projects\\patacrep\\test\\test_compilation\\unicode_datadir" --include-directory="C:\\projects\\patacrep\\test\\test_compilation" --include-directory="C:\\projects\\patacrep\\patacrep\\data" C:\\projects\\patacrep\\test\\test_compilation\\datadir.tex
 
 # Cache Miktex zip install
 cache:

@@ -30,9 +30,13 @@ install:
 
   - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\miktex\bin
   #- cmd: echo %PATH%
+  #- cmd: lualatex.exe --version
 
-  #- cmd: C:\projects\patacrep\miktex\miktex\bin\lualatex.exe --version
-  - cmd: lualatex.exe --version
+  # Update fonts
+  - cmd: luaotfload-tool.exe --update
+
+  # Manually install required texlive packages
+  - cmd: mpm.exe --install-some texlive_packages.txt
 
 build: false  # Not a C# project, build stuff at the test step instead.
 

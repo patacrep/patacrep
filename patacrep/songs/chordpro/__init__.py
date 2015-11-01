@@ -3,6 +3,7 @@
 from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
 import jinja2
 import logging
+import operator
 import os
 from pkg_resources import resource_filename
 
@@ -13,6 +14,10 @@ from patacrep.templates import Renderer
 from patacrep.latex import lang2babel
 
 LOGGER = logging.getLogger(__name__)
+
+def sort_directive_argument(directives):
+    """Sort directives by their argument."""
+    return sorted(directives, key=operator.attrgetter("argument"))
 
 class ChordproSong(Song):
     """Chordpro song parser"""
@@ -54,6 +59,7 @@ class ChordproSong(Song):
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
         jinjaenv.filters['lang2babel'] = lang2babel
+        jinjaenv.filters['sortargs'] = sort_directive_argument
 
         try:
             return Renderer(

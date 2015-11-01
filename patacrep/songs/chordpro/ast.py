@@ -24,7 +24,7 @@ AVAILABLE_DIRECTIVES = [
     "guitar_comment",
     "image",
     "key",
-    "lang",
+    "language",
     "newline",
     "partition",
     "subtitle",
@@ -51,8 +51,8 @@ DIRECTIVE_SHORTCUTS = {
     "by": "artist",
     "c": "comment",
     "gc": "guitar_comment",
-    "cover": "cov",
-    "language": "lang",
+    "cov": "cover",
+    "lang": "language",
     }
 
 def directive_name(text):

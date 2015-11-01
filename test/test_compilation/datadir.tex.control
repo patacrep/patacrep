@@ -103,7 +103,7 @@ guitar,
 Chordpro}[
   by={
   },
-    cov={img/datadir.png},
+    cover={img/datadir.png},
 ]
 
 \cover
@@ -130,7 +130,7 @@ Chordpro}[
 Chordpro}[
   by={
   },
-    cov={img/datadir2.png},
+    cover={img/datadir2.png},
 ]
 
 \cover
@@ -157,7 +157,7 @@ Chordpro}[
 Chordpro}[
   by={
   },
-    cov={@TEST_FOLDER@/datadir_datadir/songs/./relative.png},
+    cover={@TEST_FOLDER@/datadir_datadir/songs/./relative.png},
 ]
 
 \cover
@@ -184,7 +184,7 @@ Chordpro}[
 Chordpro}[
   by={
   },
-    cov={@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png},
+    cover={@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png},
 ]
 
 \cover

@@ -194,6 +194,7 @@ class Song(AST):
         "artist": "add_author",
         "key": "add_key",
         "define": "add_cumulative",
+        "tag": "add_cumulative",
         }
 
     def __init__(self, filename):

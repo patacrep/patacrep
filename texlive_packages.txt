@@ -1,4 +1,9 @@
 babel-english
+ba­bel-es­peranto
+babel-french
+babel-german
+babel-latin
+babel-spanish
 fancybox
 framed
 import

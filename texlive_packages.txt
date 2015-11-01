@@ -1,5 +1,5 @@
 babel-english
-ba­bel-es­peranto
+babel-esperanto
 babel-french
 babel-german
 babel-latin

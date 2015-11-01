@@ -21,8 +21,8 @@
     {(( key )): (( metadata[key] ))}
   (* endif *)
 (* endfor *)
-(* if 'cov' in metadata -*)
-  {(( 'cov' )): (( metadata['cov'].argument|search_image ))}
+(* if 'cover' in metadata -*)
+  {(( 'cover' )): (( metadata['cover'].argument|search_image ))}
 (* endif -*)
 
 (* for tag in metadata.get("tag", [])|sortargs -*)

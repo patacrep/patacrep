@@ -24,7 +24,7 @@
 % traditionnel : the file "8-bit-lagerfeuer.jpg" that corresponds to the album art
 % 8 bit lagerfeuer : the album whose song is extracted from 
 \beginsong{Sad robot}
-  [by={Pornophonique},cov={traditionnel},album={8 bit lagerfeuer}]
+  [by={Pornophonique},cover={traditionnel},album={8 bit lagerfeuer}]
 
   % inserts the album art (8-bit-lagerfeuer.jpg)
   \cover

@@ -26,7 +26,7 @@
 % traditionnel : le fichier "8-bit-lagerfeuer.jpg" correspondant à la pochette de l'album
 % 8 bit lagerfeuer : le nom de l'album dont la chanson est extraite
 \beginsong{Sad robot}
-  [by={Pornophonique},cov={traditionnel},album={8 bit lagerfeuer}]
+  [by={Pornophonique},cover={traditionnel},album={8 bit lagerfeuer}]
 
   % insère la pochette de l'album (8-bit-lagerfeuer.jpg)
   \cover

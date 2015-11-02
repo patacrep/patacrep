@@ -22,16 +22,16 @@
         (* endif *)
       (* endfor *)
   },
-  (* for key in ['album', 'copyright', 'tag'] *)
+  (* for key in ['album', 'copyright'] *)
   (* if key in metadata *)
   (( key ))={(( metadata[key] ))},
   (* endif *)
   (* endfor *)
-  (* if 'cov' in metadata *)
-    (* block cov *)
-      (* set cov = metadata["cov"].argument|search_image *)
-      (* if cov *)
-    cov={(( cov ))},
+  (* if 'cover' in metadata *)
+    (* block cover *)
+      (* set cover = metadata["cover"].argument|search_image|path2posix *)
+      (* if cover *)
+    cover={(( cover ))},
       (* endif *)
     (* endblock *)
   (* endif *)
@@ -40,7 +40,7 @@
   (* endfor *)
 ]
 
-(* if (metadata.cov is defined) *)
+(* if (metadata.cover is defined) *)
 \cover
 (* endif *)
 

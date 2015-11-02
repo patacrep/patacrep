@@ -3,16 +3,21 @@
 from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
 import jinja2
 import logging
+import operator
 import os
-from pkg_resources import resource_filename
 
-from patacrep import encoding, files
+from patacrep import encoding, files, pkg_datapath
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
 from patacrep.latex import lang2babel
+from patacrep.files import path2posix
 
 LOGGER = logging.getLogger(__name__)
+
+def sort_directive_argument(directives):
+    """Sort directives by their argument."""
+    return sorted(directives, key=operator.attrgetter("argument"))
 
 class ChordproSong(Song):
     """Chordpro song parser"""
@@ -26,7 +31,7 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.lang = song.get_data_argument('lang', self.config['lang'])
+        self.lang = song.get_data_argument('language', self.config['lang'])
         self.data = song.meta
         self.cached = {
             'song': song,
@@ -48,12 +53,14 @@ class ChordproSong(Song):
                 self.get_datadirs(os.path.join("templates", self.output_language))
             ),
             FileSystemLoader(
-                os.path.join(resource_filename(__name__, 'data'), self.output_language)
+                pkg_datapath('ast_templates', 'chordpro', self.output_language)
             ),
             ]))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
         jinjaenv.filters['lang2babel'] = lang2babel
+        jinjaenv.filters['sortargs'] = sort_directive_argument
+        jinjaenv.filters['path2posix'] = path2posix
 
         try:
             return Renderer(

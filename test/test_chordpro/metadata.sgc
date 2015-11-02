@@ -10,7 +10,7 @@
 {artist: Texte de Jean Richepin, chanté par Georges Brassens}
 {album: Album}
 {copyright: Copyright}
-{cov: metadata_cover}
+{cover: metadata_cover}
 {key: foo: Foo}
 
 {comment: Comment}

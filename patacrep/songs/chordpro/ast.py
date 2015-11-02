@@ -11,6 +11,27 @@ def _indent(string):
     """Return and indented version of argument."""
     return "\n".join(["  {}".format(line) for line in string.split('\n')])
 
+#: Available directives, that is, directives that we know how to deal with
+AVAILABLE_DIRECTIVES = [
+    "album",
+    "artist",
+    "capo",
+    "comment",
+    "copyright",
+    "columns",
+    "cov",
+    "define",
+    "guitar_comment",
+    "image",
+    "key",
+    "language",
+    "newline",
+    "partition",
+    "subtitle",
+    "tag",
+    "title",
+    ]
+
 #: List of properties that are to be displayed in the flow of the song (not as
 #: metadata at the beginning or end of song.
 INLINE_DIRECTIVES = {
@@ -30,8 +51,8 @@ DIRECTIVE_SHORTCUTS = {
     "by": "artist",
     "c": "comment",
     "gc": "guitar_comment",
-    "cover": "cov",
-    "language": "lang",
+    "cov": "cover",
+    "lang": "language",
     }
 
 def directive_name(text):
@@ -194,6 +215,7 @@ class Song(AST):
         "artist": "add_author",
         "key": "add_key",
         "define": "add_cumulative",
+        "tag": "add_cumulative",
         }
 
     def __init__(self, filename):
@@ -207,6 +229,7 @@ class Song(AST):
 
     def add(self, data):
         """Add an element to the song"""
+        # pylint: disable=too-many-branches
         if isinstance(data, Error):
             pass
         elif data is None:
@@ -221,6 +244,8 @@ class Song(AST):
                 self.content[0].prepend(data.strip())
         elif isinstance(data, Directive) and data.inline:
             # Add a directive in the content of the song.
+            # It is useless to check if directive is in AVAILABLE_DIRECTIVES,
+            # since it is in INLINE_DIRECTIVES.
             self.content.append(data)
         elif data.inline:
             # Add an object in the content of the song.
@@ -228,6 +253,8 @@ class Song(AST):
         elif isinstance(data, Directive):
             # Add a metadata directive. Some of them are added using special
             # methods listed in ``METADATA_ADD``.
+            if data.keyword not in AVAILABLE_DIRECTIVES:
+                LOGGER.warning("Ignoring unknown directive '{}'.".format(data.keyword))
             if data.keyword in self.METADATA_ADD:
                 getattr(self, self.METADATA_ADD[data.keyword])(data)
             else:

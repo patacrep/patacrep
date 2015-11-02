@@ -14,16 +14,20 @@
 
 (*- for author in authors -*)
   {artist: (( author[1] )) (( author[0] ))}
-(* endfor *)
+(* endfor -*)
 
-(*- for key in ['album', 'copyright', 'tag'] *)
+(*- for key in ['album', 'copyright'] *)
   (* if key in metadata -*)
     {(( key )): (( metadata[key] ))}
   (* endif *)
 (* endfor *)
-(* if 'cov' in metadata -*)
-  {(( 'cov' )): (( metadata['cov'].argument|search_image ))}
-(* endif *)
+(* if 'cover' in metadata -*)
+  {(( 'cover' )): (( metadata['cover'].argument|search_image ))}
+(* endif -*)
+
+(* for tag in metadata.get("tag", [])|sortargs -*)
+  {tag: (( tag.argument ))}
+(* endfor -*)
 
 (*- for key in metadata.morekeys -*)
   {key: (( key.keyword )): (( key.argument ))}

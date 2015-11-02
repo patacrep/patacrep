@@ -1,5 +1,5 @@
 \beginsong{Image included from a nested song directory\\\LaTeX}
-  [cov={subdir}]
+  [cover={subdir}]
 
   \cover
 

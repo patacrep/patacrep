@@ -22,15 +22,14 @@ install:
   - "python --version"
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
-  # Install miktex portable
+  # Download miktex portable (if not cached)
   - ps: "If (!(Test-Path miktex-portable.exe)){wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5719.exe -OutFile ./miktex-portable.exe}"
+
+  # Unzip miktex portable
   - "7z x miktex-portable.exe * -aot -omiktex > nul"
 
-  #- cmd: dir .\miktex\miktex\bin
-
+  # Let the binaries be directly callable
   - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\miktex\bin
-  #- cmd: echo %PATH%
-  #- cmd: lualatex.exe --version
 
   # Update fonts
   - cmd: luaotfload-tool.exe --update
@@ -46,6 +45,6 @@ before_test:
 test_script:
   - "tox"
 
-# Cache Miktex zip install
+# Cache Miktex Portable file
 cache:
 - C:\projects\patacrep\miktex-portable.exe

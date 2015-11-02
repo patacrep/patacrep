@@ -1,6 +1,0 @@
-(* block partition *)
-(* set partition = content.argument|search_partition *)
-(* if partition *)
-\lilypond{ ((- content.argument|search_partition -)) }
-(*- endif -*)
-(*- endblock -*)

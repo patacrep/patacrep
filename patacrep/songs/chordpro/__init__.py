@@ -5,13 +5,13 @@ import jinja2
 import logging
 import operator
 import os
-from pkg_resources import resource_filename
 
-from patacrep import encoding, files
+from patacrep import encoding, files, pkg_datapath
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
 from patacrep.latex import lang2babel
+from patacrep.files import path2posix
 
 LOGGER = logging.getLogger(__name__)
 
@@ -53,13 +53,14 @@ class ChordproSong(Song):
                 self.get_datadirs(os.path.join("templates", self.output_language))
             ),
             FileSystemLoader(
-                os.path.join(resource_filename(__name__, 'data'), self.output_language)
+                pkg_datapath('ast_templates', 'chordpro', self.output_language)
             ),
             ]))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
         jinjaenv.filters['lang2babel'] = lang2babel
         jinjaenv.filters['sortargs'] = sort_directive_argument
+        jinjaenv.filters['path2posix'] = path2posix
 
         try:
             return Renderer(

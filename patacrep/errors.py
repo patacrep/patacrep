@@ -31,6 +31,16 @@ class TemplateError(SongbookError):
         else:
             return self.message
 
+class ExecutableNotFound(SongbookError):
+    """Couldn't find a LaTeX executable."""
+
+    def __init__(self, executable):
+        super(ExecutableNotFound, self).__init__(
+            (
+                """Could not find the following executable: {executable}"""
+                ).format(executable=executable)
+            )
+
 class StepError(SongbookError):
     """Error during execution of one compilation step."""
 
@@ -47,7 +57,7 @@ class LatexCompilationError(StepError):
     def __init__(self, basename):
         super(LatexCompilationError, self).__init__(
             (
-                """Error while pdfLaTeX compilation of "{basename}.tex" """
+                """Error while LaTeX compilation of "{basename}.tex" """
                 """(see {basename}.log for more information)."""
                 ).format(basename=basename)
             )

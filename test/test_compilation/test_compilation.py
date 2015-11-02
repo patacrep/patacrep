@@ -5,10 +5,12 @@
 import glob
 import logging
 import os
+import sys
 import subprocess
 import unittest
 
 from patacrep.encoding import open_read
+from patacrep.files import path2posix
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -67,16 +69,18 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     expected = expectfile.read().strip()
                     expected = expected.replace(
                         "@TEST_FOLDER@",
-                        os.path.dirname(__file__),
+                        path2posix(os.path.dirname(__file__)),
                         )
 
                     expected = expected.replace(
                         "@DATA_FOLDER@",
-                        subprocess.check_output(
-                            ["python", "-c", 'import patacrep, pkg_resources; print(pkg_resources.resource_filename(patacrep.__name__, "data"))'], # pylint: disable=line-too-long
-                            universal_newlines=True,
-                            cwd=os.path.dirname(songbook),
-                            ).strip(),
+                        path2posix(
+                            subprocess.check_output(
+                                [sys.executable, "-c", 'import patacrep; print(patacrep.__DATADIR__)'], # pylint: disable=line-too-long
+                                universal_newlines=True,
+                                cwd=os.path.dirname(songbook),
+                                ).strip()
+                        ),
                         )
 
                     self.assertMultiLineEqual(
@@ -108,12 +112,16 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @staticmethod
     def compile_songbook(songbook, steps=None):
         """Compile songbook, and return the command return code."""
-        command = ['python', '-m', 'patacrep.songbook', songbook, '-v']
+        command = [sys.executable, '-m', 'patacrep.songbook', songbook]
         if steps:
             command.extend(['--steps', steps])
 
+        # Continuous Integration will be verbose
+        if 'CI' in os.environ:
+            command.append('-v')
+
         try:
-            subprocess.check_output(
+            subprocess.check_call(
                 command,
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,

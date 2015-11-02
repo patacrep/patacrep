@@ -112,9 +112,13 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @staticmethod
     def compile_songbook(songbook, steps=None):
         """Compile songbook, and return the command return code."""
-        command = [sys.executable, '-m', 'patacrep.songbook', songbook, '-v']
+        command = [sys.executable, '-m', 'patacrep.songbook', songbook]
         if steps:
             command.extend(['--steps', steps])
+
+        # Continuous Integration will be verbose
+        if 'CI' in os.environ:
+            command.append('-v')
 
         try:
             subprocess.check_call(

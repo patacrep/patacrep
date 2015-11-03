@@ -1,14 +1,14 @@
 Patacrep, a songbook compilation chain
 ======================================
 
+|sources| |pypi| |documentation| |license|
+
 |build-travis| |build-appveyor|
 
 This package provides a compilation toolchain that produce LaTeX
 songbook using the LaTeX songs package. A new LaTeX document class is
 provided to allow specific customisation and new command like embedded
 guitar tabs or lilypond sheets.
-
-|license|
 
 Document are subject to the GNU GPLv2 except if another licence
 is precised in the header.
@@ -21,8 +21,8 @@ Patacrep is only compatible with Python > 3.3.
 Installation
 ------------
 
-Using pip |pypi|
-^^^^^^^^^^^^^^^^
+Using pip
+^^^^^^^^^
 
 For the stable version, as simple as::
 
@@ -32,8 +32,8 @@ Or for the latest version::
 
     pip3 install https://github.com/patacrep/patacrep/archive/master.zip
 
-For developement |sources|
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+For developement
+^^^^^^^^^^^^^^^^
 
 Clone Patacrep repos::
 
@@ -60,8 +60,8 @@ Run
 
 Look for existing songbook files in `patadata <http://github.com/patacrep/patadata>`_.
 
-Documentation |documentation|
------------------------------
+Documentation
+-------------
 
 The full documentation is hosted by readthedoc, here : http://patacrep.readthedocs.org/.
 

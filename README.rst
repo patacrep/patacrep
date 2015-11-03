@@ -24,9 +24,13 @@ Installation
 Using pip |pypi|
 ^^^^^^^^^^^^^^^^
 
-As simple as::
+For the stable version, as simple as::
 
     pip3 install patacrep
+
+Or for the latest version::
+
+    pip3 install https://github.com/patacrep/patacrep/archive/master.zip
 
 For developement |sources|
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -36,7 +40,7 @@ Clone Patacrep repos::
     git clone git://github.com/patacrep/patacrep.git
     cd patacrep
     pip3 install -r Requirements.txt
-    python3 setup.py install
+    python3 setup.py develop
 
 Quick and dirty Debian (and Ubuntu?) package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,8 +1,7 @@
 Patacrep, a songbook compilation chain
 ======================================
 
-|sources| |pypi| |license|
-
+|license|
 |build-travis| |build-appveyor|
 
 This package provides a compilation toolchain that produce LaTeX
@@ -21,15 +20,15 @@ Patacrep is only compatible with Python > 3.3.
 Installation
 ------------
 
-Using pip
-^^^^^^^^^
+Using pip |pypi|
+^^^^^^^^^^^^^^^^
 
 As simple as::
 
     pip3 install patacrep
 
-For developement
-^^^^^^^^^^^^^^^^
+For developement |sources|
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Clone Patacrep repos::
 
@@ -56,8 +55,8 @@ Run
 
 Look for existing songbook files in `patadata <http://github.com/patacrep/patadata>`_.
 
-More informations
------------------
+Documentation |documentation|
+-----------------------------
 
 The full documentation is hosted by readthedoc, here : http://patacrep.readthedocs.org/.
 

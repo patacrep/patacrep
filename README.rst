@@ -1,13 +1,14 @@
 Patacrep, a songbook compilation chain
 ======================================
 
-|license|
 |build-travis| |build-appveyor|
 
 This package provides a compilation toolchain that produce LaTeX
 songbook using the LaTeX songs package. A new LaTeX document class is
 provided to allow specific customisation and new command like embedded
 guitar tabs or lilypond sheets.
+
+|license|
 
 Document are subject to the GNU GPLv2 except if another licence
 is precised in the header.

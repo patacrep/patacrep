@@ -74,7 +74,7 @@ Contact & Forums
   :target: http://www.gnu.org/licenses/gpl-2.0.html
 .. |sources| image:: https://img.shields.io/badge/sources-patacrep-brightgreen.svg
   :target: http://github.com/patacrep/patacrep
-.. |build-travis| image:: https://img.shields.io/travis-ci/patacrep/patacrep.svg?branch=master&label=GNU/Linux
+.. |build-travis| image:: https://img.shields.io/travis-ci/patacrep/patacrep/master.svg?label=GNU/Linux
   :target: https://travis-ci.org/patacrep/patacrep
-.. |build-appveyor| image:: https://img.shields.io/appveyor/ci/oliverpool/patacrep.svg?branch=master&label=Windows
+.. |build-appveyor| image:: https://img.shields.io/appveyor/ci/oliverpool/patacrep/master.svg?label=Windows
   :target: https://ci.appveyor.com/project/oliverpool/patacrep

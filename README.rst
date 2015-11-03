@@ -76,5 +76,5 @@ Contact & Forums
   :target: http://github.com/patacrep/patacrep
 .. |build-travis| image:: https://travis-ci.org/patacrep/patacrep.svg?branch=master
   :target: https://travis-ci.org/patacrep/patacrep
-.. |build-appveyor| image:: https://img.shields.io/appveyor/ci/patacrep/patacrep.svg
+.. |build-appveyor| image:: https://img.shields.io/appveyor/ci/oliverpool/patacrep.svg
   :target: https://ci.appveyor.com/project/oliverpool/patacrep

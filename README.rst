@@ -75,6 +75,6 @@ Contact & Forums
 .. |sources| image:: https://img.shields.io/badge/sources-patacrep-brightgreen.svg
   :target: http://github.com/patacrep/patacrep
 .. |build-travis| image:: https://img.shields.io/travis-ci/patacrep/patacrep/master.svg?label=GNU/Linux
-  :target: https://travis-ci.org/patacrep/patacrep
+  :target: https://travis-ci.org/patacrep/patacrep/branches
 .. |build-appveyor| image:: https://img.shields.io/appveyor/ci/oliverpool/patacrep/master.svg?label=Windows
-  :target: https://ci.appveyor.com/project/oliverpool/patacrep
+  :target: https://ci.appveyor.com/project/oliverpool/patacrep/branch/master

@@ -1,7 +1,9 @@
 Patacrep, a songbook compilation chain
 ======================================
 
-|sources| |build| |pypi| |documentation| |license|
+|sources| |pypi| |documentation| |license|
+
+|build-travis| |build-appveyor|
 
 This package provides a compilation toolchain that produce LaTeX
 songbook using the LaTeX songs package. A new LaTeX document class is
@@ -22,9 +24,13 @@ Installation
 Using pip
 ^^^^^^^^^
 
-As simple as::
+For the stable version, as simple as::
 
     pip3 install patacrep
+
+Or for the latest version::
+
+    pip3 install https://github.com/patacrep/patacrep/archive/master.zip
 
 For developement
 ^^^^^^^^^^^^^^^^
@@ -34,7 +40,7 @@ Clone Patacrep repos::
     git clone git://github.com/patacrep/patacrep.git
     cd patacrep
     pip3 install -r Requirements.txt
-    python3 setup.py install
+    python3 setup.py develop
 
 Quick and dirty Debian (and Ubuntu?) package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -54,8 +60,8 @@ Run
 
 Look for existing songbook files in `patadata <http://github.com/patacrep/patadata>`_.
 
-More informations
------------------
+Documentation
+-------------
 
 The full documentation is hosted by readthedoc, here : http://patacrep.readthedocs.org/.
 
@@ -72,5 +78,7 @@ Contact & Forums
   :target: http://www.gnu.org/licenses/gpl-2.0.html
 .. |sources| image:: https://img.shields.io/badge/sources-patacrep-brightgreen.svg
   :target: http://github.com/patacrep/patacrep
-.. |build| image:: https://travis-ci.org/patacrep/patacrep.svg?branch=master
-  :target: https://travis-ci.org/patacrep/patacrep
+.. |build-travis| image:: https://img.shields.io/travis-ci/patacrep/patacrep/master.svg?label=GNU/Linux
+  :target: https://travis-ci.org/patacrep/patacrep/branches
+.. |build-appveyor| image:: https://img.shields.io/appveyor/ci/oliverpool/patacrep/master.svg?label=Windows
+  :target: https://ci.appveyor.com/project/oliverpool/patacrep/branch/master

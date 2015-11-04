@@ -39,11 +39,11 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             ))):
             base = songbook[:-len(".sb")]
             yield (
-                "test_generation_{}".format(os.path.basename(base)),
+                "test_latex_generation_{}".format(os.path.basename(base)),
                 cls._create_generation_test(base),
                 )
             yield (
-                "test_compilation_{}".format(os.path.basename(base)),
+                "test_pdf_compilation_{}".format(os.path.basename(base)),
                 cls._create_compilation_test(base),
                 )
 

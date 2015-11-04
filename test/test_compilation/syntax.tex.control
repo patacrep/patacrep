@@ -1,0 +1,116 @@
+
+
+
+
+
+
+%% Automatically generated document.
+%% You may edit this file but all changes will be overwritten.
+%% If you want to change this document, have a look at
+%% the templating system.
+%%
+%% Generated using Songbook <http://www.patacrep.com>
+
+\makeatletter
+\def\input@path{ %
+        {@TEST_FOLDER@/syntax_datadir/latex/} %
+        {@TEST_FOLDER@/latex/} %
+        {@DATA_FOLDER@/latex/} %
+}
+\makeatother
+
+\documentclass[
+    ]{article}
+
+\usepackage[
+    chorded,
+diagram,
+pictures,
+guitar,
+    ]{patacrep}
+
+\usepackage{lmodern}
+
+
+\PassOptionsToPackage{english}{babel}
+\usepackage[english]{babel}
+\lang{english}
+
+\usepackage{graphicx}
+\graphicspath{ %
+        {@TEST_FOLDER@/syntax_datadir/} %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
+}
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{
+   \usepackage{url}
+   \newcommand{\phantomsection}{}
+   \newcommand{\hyperlink}[2]{#2}
+   \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+}
+\makeatother
+
+
+\usepackage{chords}
+
+\title{Guitar songbook}
+\author{The Patacrep Team}
+
+\newindex{titleidx}{syntax_title}
+\newauthorindex{authidx}{syntax_auth}
+
+
+\notenamesout{A}{B}{C}{D}{E}{F}{G}
+
+
+\begin{document}
+
+\maketitle
+
+
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
+
+% list of chords
+\ifchorded
+  \ifdiagram
+     \phantomsection
+     \addcontentsline{toc}{section}{\chordlistname}
+     \chords
+  \fi
+\fi
+
+\phantomsection
+\addcontentsline{toc}{section}{\songlistname}
+
+\begin{songs}{titleidx,authidx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./musicnote.sgc
+
+\selectlanguage{english}
+
+\beginsong{SongÂ withÂ Sharp in musicnote}[
+  by={
+  },
+]
+
+
+
+
+\ifchorded
+\begin{verse*}
+    \musicnote {\nolyrics \[Am C{\shrp}m]}
+\end{verse*}
+\fi
+
+\endsong
+
+\end{songs}
+
+
+
+
+\end{document}

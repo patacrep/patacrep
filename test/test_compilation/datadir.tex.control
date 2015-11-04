@@ -114,13 +114,6 @@ Chordpro}[
 \image{img/datadir.png}
 
 
-
-\ifchorded
-\begin{verse*}
-    \musicnote {\nolyrics \[Am C{\shrp}m]}
-\end{verse*}
-\fi
-
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

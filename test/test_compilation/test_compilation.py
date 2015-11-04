@@ -38,9 +38,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 '*.sb',
             ))):
             base = songbook[:-len(".sb")]
-            control = "{}.tex.control".format(base)
-            if not os.path.exists(control):
-                continue
             yield (
                 "test_generation_{}".format(os.path.basename(base)),
                 cls._create_generation_test(base),
@@ -63,6 +60,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
             # Check generated tex
             control = "{}.tex.control".format(base)
+            if not os.path.exists(control):
+                raise unittest.SkipTest('No control file for {}'.format(songbook))
+
             tex = "{}.tex".format(base)
             with open_read(control) as expectfile:
                 with open_read(tex) as latexfile:

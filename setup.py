@@ -22,7 +22,7 @@ setup(
         ],
     setup_requires=["hgtools"],
     package_data={'patacrep': [
-        'data/ast_templates/*/*/*',
+        'data/chordpro/*/*',
         'data/img/*',
         'data/latex/*',
         'data/templates/*',

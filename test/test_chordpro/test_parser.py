@@ -7,7 +7,7 @@ import os
 import unittest
 from pkg_resources import resource_filename
 
-from patacrep import files
+from patacrep import files, __DATADIR__
 from patacrep.build import DEFAULT_CONFIG
 from patacrep.encoding import open_read
 
@@ -41,6 +41,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         if 'datadir' not in cls.config:
             cls.config['datadir'] = []
         cls.config['datadir'].append(resource_filename(__name__, 'datadir'))
+        cls.config['datadir'].append(__DATADIR__)
 
         cls.song_plugins = files.load_plugins(
             datadirs=cls.config['datadir'],

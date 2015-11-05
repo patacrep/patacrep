@@ -48,14 +48,9 @@ class ChordproSong(Song):
             "content": self.cached['song'].content,
             }
 
-        jinjaenv = Environment(loader=ChoiceLoader([
-            FileSystemLoader(
-                self.iter_datadirs("templates", self.output_language)
-            ),
-            FileSystemLoader(
-                pkg_datapath('ast_templates', 'chordpro', self.output_language)
-            ),
-            ]))
+        jinjaenv = Environment(loader=FileSystemLoader(
+            self.iter_datadirs("chordpro", self.output_language)
+            ))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
         jinjaenv.filters['lang2babel'] = lang2babel

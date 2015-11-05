@@ -9,6 +9,7 @@ import textwrap
 import sys
 
 from patacrep.build import SongbookBuilder, DEFAULT_STEPS
+from patacrep.utils import yesno
 from patacrep import __version__
 from patacrep import errors
 import patacrep.encoding
@@ -36,6 +37,12 @@ class VerboseAction(argparse.Action):
     """Set verbosity level with option --verbose."""
     def __call__(self, *_args, **_kwargs):
         LOGGER.setLevel(logging.DEBUG)
+
+def yesno_type(string):
+    try:
+        return yesno(string)
+    except ValueError as error:
+        raise argparse.ArgumentTypeError(str(error))
 
 def argument_parser(args):
     """Parse arguments"""
@@ -66,6 +73,14 @@ def argument_parser(args):
         help=textwrap.dedent("""\
                 Show details about the compilation process.
         """)
+        )
+
+    parser.add_argument(
+        '--cache', '-c', nargs=1,
+        help=textwrap.dedent("""\
+                Enable song cache.
+        """),
+        type=yesno_type,
         )
 
     parser.add_argument(
@@ -147,6 +162,7 @@ def main():
     datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
 
     songbook['datadir'] = datadirs
+    songbook['_cache'] = options.cache[0]
 
     try:
         sb_builder = SongbookBuilder(songbook, basename)

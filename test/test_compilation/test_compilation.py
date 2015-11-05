@@ -108,7 +108,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @staticmethod
     def compile_songbook(songbook, steps=None):
         """Compile songbook, and return the command return code."""
-        command = ['python', '-m', 'patacrep.songbook', songbook, '-v']
+        command = ['python', '-m', 'patacrep.songbook', '--cache=no', songbook, '-v']
         if steps:
             command.extend(['--steps', steps])
 

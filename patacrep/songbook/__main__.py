@@ -39,6 +39,10 @@ class VerboseAction(argparse.Action):
         LOGGER.setLevel(logging.DEBUG)
 
 def yesno_type(string):
+    """Interpret argument as a "yes" or a "no".
+
+    Raise `argparse.ArgumentTypeError` if string cannot be analysed.
+    """
     try:
         return yesno(string)
     except ValueError as error:

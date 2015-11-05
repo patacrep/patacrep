@@ -50,7 +50,7 @@ class ChordproSong(Song):
 
         jinjaenv = Environment(loader=ChoiceLoader([
             FileSystemLoader(
-                self.get_datadirs(os.path.join("templates", self.output_language))
+                self.iter_datadirs("templates", self.output_language)
             ),
             FileSystemLoader(
                 pkg_datapath('ast_templates', 'chordpro', self.output_language)

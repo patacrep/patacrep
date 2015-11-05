@@ -192,11 +192,11 @@ class Song:
         """
         raise NotImplementedError()
 
-    def get_datadirs(self, subdir=None):
-        """Return an iterator of existing datadirs (with eventually a subdir)
+    def iter_datadirs(self, *subpath):
+        """Return an iterator of existing datadirs (with an optionnal subpath)
         """
         for directory in self.config['datadir']:
-            fullpath = os.path.join(directory, subdir)
+            fullpath = os.path.join(directory, *subpath)
             if os.path.isdir(fullpath):
                 yield fullpath
 
@@ -255,7 +255,7 @@ class Song:
         return self.search_file(
             filename,
             ['', '.jpg', '.png'],
-            datadirs=self.get_datadirs('img'),
+            datadirs=self.iter_datadirs('img'),
             )
 
     def search_partition(self, filename):
@@ -263,7 +263,7 @@ class Song:
         return self.search_file(
             filename,
             ['', '.ly'],
-            datadirs=self.get_datadirs('scores'),
+            datadirs=self.iter_datadirs('scores'),
             )
 
 def unprefixed_title(title, prefixes):

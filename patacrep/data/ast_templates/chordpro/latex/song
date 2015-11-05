@@ -22,14 +22,14 @@
         (* endif *)
       (* endfor *)
   },
-  (* for key in ['album', 'copyright', 'tag'] *)
+  (* for key in ['album', 'copyright'] *)
   (* if key in metadata *)
   (( key ))={(( metadata[key] ))},
   (* endif *)
   (* endfor *)
   (* if 'cover' in metadata *)
     (* block cover *)
-      (* set cover = metadata["cover"].argument|search_image *)
+      (* set cover = metadata["cover"].argument|search_image|path2posix *)
       (* if cover *)
     cover={(( cover ))},
       (* endif *)

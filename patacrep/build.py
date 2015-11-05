@@ -6,7 +6,7 @@ import glob
 import logging
 import threading
 import os.path
-from subprocess import Popen, PIPE, call
+from subprocess import Popen, PIPE, call, check_call
 
 from patacrep import __DATADIR__, authors, content, errors, files
 from patacrep.index import process_sxd
@@ -168,10 +168,6 @@ class SongbookBuilder(object):
             self._lualatex_options.append("--shell-escape")
         if not self.interactive:
             self._lualatex_options.append("-halt-on-error")
-        for datadir in self.songbook.config["datadir"]:
-            self._lualatex_options.append(
-                '--include-directory="{}"'.format(datadir)
-                )
 
     def build_steps(self, steps=None):
         """Perform steps on the songbook by calling relevant self.build_*()
@@ -217,13 +213,27 @@ class SongbookBuilder(object):
         LOGGER.info("Building '{}.pdf'…".format(self.basename))
         self._run_once(self._set_latex)
 
+        compiler = "lualatex"
+
+        # Test if the LaTeX compiler is accessible
         try:
-            process = Popen(
-                ["lualatex"] + self._lualatex_options + [self.basename],
+            check_call(
+                [compiler, "--version"],
                 stdin=PIPE,
                 stdout=PIPE,
                 stderr=PIPE,
-                env=os.environ,
+                universal_newlines=True,
+                )
+        except Exception as error:
+            raise errors.ExecutableNotFound(compiler)
+
+        # Perform compilation
+        try:
+            process = Popen(
+                [compiler] + self._lualatex_options + [self.basename],
+                stdin=PIPE,
+                stdout=PIPE,
+                stderr=PIPE,
                 universal_newlines=True,
                 )
         except Exception as error:

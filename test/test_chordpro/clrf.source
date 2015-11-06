@@ -1,0 +1,32 @@
+This is a verse
+With a new line
+{newline}
+The second part of the verse
+Is this line
+
+Here is a new line at the end
+{newline}
+
+Foo bar
+
+{newline}
+And a new line
+At the beginning
+
+{soc}
+New lines can also
+{newline}
+Be in chorus
+{eoc}
+
+{sob}
+New lines can also
+{newline}
+Be in bridges
+{eob}
+
+New lines can also
+    {newline}    
+Be surrounded by spaces
+
+New lines cannot {newline} appear in the middle of a line

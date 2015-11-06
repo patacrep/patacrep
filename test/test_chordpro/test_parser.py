@@ -60,12 +60,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     "test_{}_{}".format(os.path.basename(base), dest),
                     cls._create_test(base, dest),
                     )
-                if os.path.basename(base) == 'newline':
-                    yield (
-                        "test_crlf_{}_{}".format(os.path.basename(base), dest),
-                        cls._create_crlf_test(base, dest),
-                        )
-
 
     @classmethod
     def _create_test(cls, base, dest):
@@ -91,36 +85,3 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             "Test that '{base}' is correctly parsed and rendererd into '{format}' format."
             ).format(base=os.path.basename(base), format=dest)
         return test_parse_render
-
-    @classmethod
-    def _create_crlf_test(cls, base, dest):
-        """Transform the `base` line endings into CRLF and test the compilation.
-        """
-
-        def test_parse_render(self):
-            """Test that `base` is correctly parsed and rendered when line endings are CRLF.
-            """
-            if base is None or dest is None:
-                return
-            originalname = "{}.source".format(base)
-            chordproname = "{}.crlf.source".format(base)
-            with open_read(originalname) as originalfile:
-                with open(chordproname, 'w') as chordprofile:
-                    for line in originalfile:
-                        chordprofile.write(line.replace('\n', '\r\n'))
-            destname = "{}.{}".format(base, dest)
-            with open_read(destname) as expectfile:
-                with disable_logging():
-                    self.assertMultiLineEqual(
-                        self.song_plugins[LANGUAGES[dest]]['sgc'](chordproname, self.config).render(
-                            output=chordproname,
-                            ).strip(),
-                        expectfile.read().strip(),
-                        )
-            os.remove(chordproname)
-
-        test_parse_render.__doc__ = (
-            "Test that '{base}' is correctly parsed and rendererd into '{format}' format with CRLF."
-            ).format(base=os.path.basename(base), format=dest)
-        return test_parse_render
-

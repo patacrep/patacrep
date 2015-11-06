@@ -49,7 +49,7 @@ class ChordproSong(Song):
             }
 
         jinjaenv = Environment(loader=FileSystemLoader(
-            self.iter_datadirs("chordpro", self.output_language)
+            self.iter_datadirs("templates", "songs", "chordpro", self.output_language)
             ))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition

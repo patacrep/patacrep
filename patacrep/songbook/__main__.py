@@ -85,6 +85,7 @@ def argument_parser(args):
                 Enable song cache.
         """),
         type=yesno_type,
+        default=[True],
         )
 
     parser.add_argument(
@@ -126,7 +127,7 @@ def main():
 
     options = argument_parser(sys.argv[1:])
 
-    songbook_path = options.book[0]
+    songbook_path = options.book[-1]
     if os.path.exists(songbook_path + ".sb") and not os.path.exists(songbook_path):
         songbook_path += ".sb"
 

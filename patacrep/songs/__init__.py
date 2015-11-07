@@ -98,10 +98,10 @@ class Song:
     def __init__(self, subpath, config, *, datadir=None):
         if datadir is None:
             self.datadir = ""
+            # Only songs in datadirs may be cached
             self.use_cache = False
         else:
             self.datadir = datadir
-            # Only songs in datadirs are cached
             self.use_cache = ('_cache' in config)
 
         self.fullpath = os.path.join(self.datadir, subpath)
@@ -145,27 +145,26 @@ class Song:
 
     def _cache_retrieved(self):
         """If relevant, retrieve self from the cache."""
-        if self.use_cache:
+        if self.use_cache and os.path.exists(self.cached_name):
             self._filehash = hashlib.md5(
                 open(self.fullpath, 'rb').read()
                 ).hexdigest()
-            if os.path.exists(self.cached_name):
-                try:
-                    cached = pickle.load(open(
-                        self.cached_name,
-                        'rb',
-                        ))
-                    if (
-                            cached['_filehash'] == self._filehash
-                            and cached['_version'] == self.CACHE_VERSION
-                    ):
-                        for attribute in self.cached_attributes:
-                            setattr(self, attribute, cached[attribute])
-                        return True
-                except: # pylint: disable=bare-except
-                    LOGGER.warning("Could not use cached version of {}.".format(
-                        self.fullpath
-                        ))
+            try:
+                cached = pickle.load(open(
+                    self.cached_name,
+                    'rb',
+                    ))
+                if (
+                        cached['_filehash'] == self._filehash
+                        and cached['_version'] == self.CACHE_VERSION
+                ):
+                    for attribute in self.cached_attributes:
+                        setattr(self, attribute, cached[attribute])
+                    return True
+            except: # pylint: disable=bare-except
+                LOGGER.warning("Could not use cached version of {}.".format(
+                    self.fullpath
+                    ))
         return False
 
     def _write_cache(self):

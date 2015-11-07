@@ -102,28 +102,8 @@ class Song:
         self.default_lang = config["lang"]
         self.config = config
 
-        if self.datadir and self.config['_cache']:
-            # Only songs in datadirs are cached
-            self._filehash = hashlib.md5(
-                open(self.fullpath, 'rb').read()
-                ).hexdigest()
-            if os.path.exists(cached_name(datadir, subpath)):
-                try:
-                    cached = pickle.load(open(
-                        cached_name(datadir, subpath),
-                        'rb',
-                        ))
-                    if (
-                            cached['_filehash'] == self._filehash
-                            and cached['_version'] == self.CACHE_VERSION
-                    ):
-                        for attribute in self.cached_attributes:
-                            setattr(self, attribute, cached[attribute])
-                        return
-                except: # pylint: disable=bare-except
-                    LOGGER.warning("Could not use cached version of {}.".format(
-                        self.fullpath
-                        ))
+        if self.config['_cache'] and self._cache_retrieved():
+            return
 
         # Data extraction from the latex song
         self.titles = []
@@ -149,11 +129,39 @@ class Song:
 
         # Cache management
         self._version = self.CACHE_VERSION
-        self._write_cache()
+        if self.config['_cache']:
+            self._write_cache()
+
+    def _cache_retrieved(self):
+        """If relevant, retrieve self from the cache."""
+        if self.datadir:
+            # Only songs in datadirs are cached
+            self._filehash = hashlib.md5(
+                open(self.fullpath, 'rb').read()
+                ).hexdigest()
+            if os.path.exists(cached_name(datadir, subpath)):
+                try:
+                    cached = pickle.load(open(
+                        cached_name(datadir, subpath),
+                        'rb',
+                        ))
+                    if (
+                            cached['_filehash'] == self._filehash
+                            and cached['_version'] == self.CACHE_VERSION
+                    ):
+                        for attribute in self.cached_attributes:
+                            setattr(self, attribute, cached[attribute])
+                        return True
+                except: # pylint: disable=bare-except
+                    LOGGER.warning("Could not use cached version of {}.".format(
+                        self.fullpath
+                        ))
+        return False
 
     def _write_cache(self):
         """If relevant, write a dumbed down version of self to the cache."""
-        if self.datadir and self.config['_cache']:
+        if self.datadir:
+            # Only songs in datadirs can be cached
             cached = {}
             for attribute in self.cached_attributes:
                 cached[attribute] = getattr(self, attribute)

@@ -138,16 +138,21 @@ class Song:
         self._version = self.CACHE_VERSION
         self._write_cache()
 
+    @property
+    def cached_name(self):
+        """Name of the file used for the cache"""
+        return cached_name(self.datadir, self.subpath)
+
     def _cache_retrieved(self):
         """If relevant, retrieve self from the cache."""
         if self.use_cache:
             self._filehash = hashlib.md5(
                 open(self.fullpath, 'rb').read()
                 ).hexdigest()
-            if os.path.exists(cached_name(self.datadir, self.subpath)):
+            if os.path.exists(self.cached_name):
                 try:
                     cached = pickle.load(open(
-                        cached_name(self.datadir, self.subpath),
+                        self.cached_name,
                         'rb',
                         ))
                     if (
@@ -172,7 +177,7 @@ class Song:
                 cached[attribute] = getattr(self, attribute)
             pickle.dump(
                 cached,
-                open(cached_name(self.datadir, self.subpath), 'wb'),
+                open(self.cached_name, 'wb'),
                 protocol=-1
                 )
 

@@ -9,7 +9,6 @@ import sys
 import subprocess
 import unittest
 
-from patacrep.encoding import open_read
 from patacrep.files import path2posix
 
 from .. import dynamic # pylint: disable=unused-import
@@ -64,8 +63,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 raise unittest.SkipTest('No control file for {}'.format(songbook))
 
             tex = "{}.tex".format(base)
-            with open_read(control) as expectfile:
-                with open_read(tex) as latexfile:
+            with open(control, mode="r", encoding="utf8") as expectfile:
+                with open(tex, mode="r", encoding="utf8") as latexfile:
                     expected = expectfile.read().strip()
                     expected = expected.replace(
                         "@TEST_FOLDER@",

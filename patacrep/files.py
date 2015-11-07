@@ -25,12 +25,15 @@ def recursive_find(root_directory, extensions=None):
         return []
 
     matches = []
-    if extensions:
+    if extensions is None:
+        pattern = re.compile('.*')
+    else:
         pattern = re.compile(r'.*\.({})$'.format('|'.join(extensions)))
+
     with chdir(root_directory):
         for root, __ignored, filenames in os.walk(os.curdir):
             for filename in filenames:
-                if not extensions or pattern.match(filename):
+                if pattern.match(filename):
                     matches.append(os.path.join(root, filename))
     return matches
 

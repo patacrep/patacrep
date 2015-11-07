@@ -101,7 +101,7 @@ class Song:
             self.use_cache = False
         else:
             self.datadir = datadir
-            self.use_cache = ('_cache' in config) and config['_cache']
+            self.use_cache = config.get('_cache', False)
 
         self.fullpath = os.path.join(self.datadir, subpath)
         self.subpath = subpath

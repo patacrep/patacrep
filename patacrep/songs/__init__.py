@@ -96,13 +96,21 @@ class Song:
         ]
 
     def __init__(self, subpath, config, *, datadir=None):
-        self.datadir = datadir or ""
+        if datadir is None:
+            self.datadir = ""
+            self.use_cache = False
+        else:
+            self.datadir = datadir
+            # Only songs in datadirs are cached
+            self.use_cache = ('_cache' in config)
+
         self.fullpath = os.path.join(self.datadir, subpath)
+        self.subpath = subpath
         self.encoding = config["encoding"]
         self.default_lang = config["lang"]
         self.config = config
 
-        if self.config['_cache'] and self._cache_retrieved():
+        if self._cache_retrieved():
             return
 
         # Data extraction from the latex song
@@ -113,7 +121,6 @@ class Song:
         self._parse()
 
         # Post processing of data
-        self.subpath = subpath
         self.unprefixed_titles = [
             unprefixed_title(
                 title,
@@ -129,20 +136,18 @@ class Song:
 
         # Cache management
         self._version = self.CACHE_VERSION
-        if self.config['_cache']:
-            self._write_cache()
+        self._write_cache()
 
     def _cache_retrieved(self):
         """If relevant, retrieve self from the cache."""
-        if self.datadir:
-            # Only songs in datadirs are cached
+        if self.use_cache:
             self._filehash = hashlib.md5(
                 open(self.fullpath, 'rb').read()
                 ).hexdigest()
-            if os.path.exists(cached_name(datadir, subpath)):
+            if os.path.exists(cached_name(self.datadir, self.subpath)):
                 try:
                     cached = pickle.load(open(
-                        cached_name(datadir, subpath),
+                        cached_name(self.datadir, self.subpath),
                         'rb',
                         ))
                     if (
@@ -160,7 +165,7 @@ class Song:
 
     def _write_cache(self):
         """If relevant, write a dumbed down version of self to the cache."""
-        if self.datadir:
+        if self.use_cache:
             # Only songs in datadirs can be cached
             cached = {}
             for attribute in self.cached_attributes:

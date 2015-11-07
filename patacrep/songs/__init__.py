@@ -132,7 +132,7 @@ class Song:
         self.data = {}
         self.cached = None
         self.lang = None
-        self._parse(config)
+        self._parse()
 
         # Post processing of data
         self.subpath = subpath
@@ -176,14 +176,14 @@ class Song:
         """
         raise NotImplementedError()
 
-    def _parse(self, config): # pylint: disable=no-self-use
+    def _parse(self): # pylint: disable=no-self-use
         """Parse song.
 
         It set the following attributes:
 
         - titles: the list of (raw) titles. This list will be processed to
           remove prefixes.
-        - lang: the main language of the song, as language code..
+        - lang: the main language of the song, as language code.
         - authors: the list of (raw) authors. This list will be processed to
           'clean' it (see function :func:`patacrep.authors.processauthors`).
         - data: song metadata. Used (among others) to sort the songs.

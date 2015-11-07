@@ -15,7 +15,7 @@ class Latex2LatexSong(Song):
     """Song written in LaTeX, rendered in LaTeX"""
     # pylint: disable=abstract-method
 
-    def _parse(self, __config):
+    def _parse(self):
         """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             self.data = parse_song(song.read(), self.fullpath)

@@ -37,7 +37,7 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    def render(self, output=None, template="song"): # pylint: disable=arguments-differ
+    def render(self, template="song"): # pylint: disable=arguments-differ
         context = {
             'lang': self.lang,
             "titles": self.titles,

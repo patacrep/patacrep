@@ -33,6 +33,7 @@ class SongRenderer(Content):
         """Return the string to end a block."""
         return r'\end{songs}'
 
+    #pylint: disable=unused-argument
     def render(self, context):
         """Return the string that will render the song."""
         return textwrap.dedent("""\
@@ -43,7 +44,7 @@ class SongRenderer(Content):
                 """).format(
                     separator="%"*80,
                     path=files.path2posix(self.song.subpath),
-                    song=self.song.render(output=context['filename']),
+                    song=self.song.render(),
                 )
 
     def __lt__(self, other):

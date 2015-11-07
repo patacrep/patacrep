@@ -62,7 +62,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 with disable_logging():
                     song = self.song_plugins[LANGUAGES[destformat]]['sgc'](sourcename, self.config)
                     self.assertMultiLineEqual(
-                        song.render(output=sourcename).strip(),
+                        song.render().strip(),
                         expectfile.read().strip(),
                         )
 

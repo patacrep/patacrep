@@ -29,14 +29,14 @@ class Latex2LatexSong(Song):
         else:
             self.authors = []
 
-    def render(self, output):
+    def render(self):
         """Return the code rendering the song."""
         # pylint: disable=signature-differs
-        if output is None:
-            raise ValueError(output)
+        if not self.datadir:
+            raise ValueError(self.datadir)
         path = files.path2posix(files.relpath(
             self.fullpath,
-            os.path.dirname(output)
+            os.path.dirname(self.datadir)
         ))
         return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
 

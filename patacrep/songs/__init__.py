@@ -168,7 +168,7 @@ class Song:
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def render(self, output=None, *args, **kwargs):
+    def render(self, *args, **kwargs):
         """Return the code rendering this song.
 
         Arguments:

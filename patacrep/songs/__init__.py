@@ -173,10 +173,7 @@ class Song:
     def _write_cache(self):
         """If relevant, write a dumbed down version of self to the cache."""
         if self.use_cache:
-            # Only songs in datadirs can be cached
-            cached = {}
-            for attribute in self.cached_attributes:
-                cached[attribute] = getattr(self, attribute)
+            cached = {attr: getattr(self, attr) for attr in self.cached_attributes}
             pickle.dump(
                 cached,
                 open(self.cached_name, 'wb'),

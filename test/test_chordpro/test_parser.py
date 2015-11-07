@@ -2,6 +2,7 @@
 
 # pylint: disable=too-few-public-methods
 
+import contextlib
 import glob
 import os
 import unittest
@@ -33,6 +34,28 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     maxDiff = None
 
+    @staticmethod
+    @contextlib.contextmanager
+    def chdir():
+        """Context to temporarry change current directory to this file directory
+        """
+        olddir = os.getcwd()
+        os.chdir(resource_filename(__name__, ""))
+        yield
+        os.chdir(olddir)
+
+    def assertRender(self, destformat, sourcename, destname): # pylint: disable=invalid-name
+        """Assert that `sourcename` is correctly rendered as `destname` in `destformat`.
+        """
+        with self.chdir():
+            with open_read(destname) as expectfile:
+                with disable_logging():
+                    song = self.song_plugins[LANGUAGES[destformat]]['sgc'](sourcename, self.config)
+                    self.assertMultiLineEqual(
+                        song.render(output=sourcename).strip(),
+                        expectfile.read().strip(),
+                        )
+
     @classmethod
     def _iter_testmethods(cls):
         """Iterate over song files to test."""
@@ -40,32 +63,24 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         cls.config = DEFAULT_CONFIG
         if 'datadir' not in cls.config:
             cls.config['datadir'] = []
-        cls.config['datadir'].append(resource_filename(__name__, 'datadir'))
+        cls.config['datadir'].append('datadir')
 
         cls.song_plugins = files.load_plugins(
             datadirs=cls.config['datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )
-        for source in sorted(glob.glob(os.path.join(
-                os.path.dirname(__file__),
-                '*.source',
-            ))):
-            base = os.path.relpath(source, os.getcwd())[:-len(".source")]
-            for dest in LANGUAGES:
-                destname = "{}.{}".format(base, dest)
-                if not os.path.exists(destname):
-                    continue
-                yield (
-                    "test_{}_{}".format(os.path.basename(base), dest),
-                    cls._create_test(base, dest),
-                    )
-                if os.path.basename(base) == 'newline':
+        with cls.chdir():
+            for source in sorted(glob.glob('*.source')):
+                base = source[:-len(".source")]
+                for dest in LANGUAGES:
+                    destname = "{}.{}".format(base, dest)
+                    if not os.path.exists(destname):
+                        continue
                     yield (
-                        "test_crlf_{}_{}".format(os.path.basename(base), dest),
-                        cls._create_crlf_test(base, dest),
+                        "test_{}_{}".format(base, dest),
+                        cls._create_test(base, dest),
                         )
-
 
     @classmethod
     def _create_test(cls, base, dest):
@@ -76,51 +91,24 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base` is correctly parsed and rendered."""
             if base is None or dest is None:
                 return
-            destname = "{}.{}".format(base, dest)
-            with open_read(destname) as expectfile:
-                chordproname = "{}.source".format(base)
-                with disable_logging():
-                    self.assertMultiLineEqual(
-                        self.song_plugins[LANGUAGES[dest]]['sgc'](chordproname, self.config).render(
-                            output=chordproname,
-                            ).strip(),
-                        expectfile.read().strip(),
-                        )
+            self.assertRender(dest, "{}.source".format(base), "{}.{}".format(base, dest))
 
         test_parse_render.__doc__ = (
             "Test that '{base}' is correctly parsed and rendererd into '{format}' format."
             ).format(base=os.path.basename(base), format=dest)
         return test_parse_render
 
-    @classmethod
-    def _create_crlf_test(cls, base, dest):
-        """Transform the `base` line endings into CRLF and test the compilation.
+    def test_clrf(self):
+        """Test that source is correctly parsed and rendered when line endings are CRLF.
         """
-
-        def test_parse_render(self):
-            """Test that `base` is correctly parsed and rendered when line endings are CRLF.
-            """
-            if base is None or dest is None:
-                return
-            originalname = "{}.source".format(base)
-            chordproname = "{}.crlf.source".format(base)
+        originalname = "newline.source"
+        chordproname = "newline.crlf.source"
+        with self.chdir():
             with open_read(originalname) as originalfile:
                 with open(chordproname, 'w') as chordprofile:
                     for line in originalfile:
                         chordprofile.write(line.replace('\n', '\r\n'))
-            destname = "{}.{}".format(base, dest)
-            with open_read(destname) as expectfile:
-                with disable_logging():
-                    self.assertMultiLineEqual(
-                        self.song_plugins[LANGUAGES[dest]]['sgc'](chordproname, self.config).render(
-                            output=chordproname,
-                            ).strip(),
-                        expectfile.read().strip(),
-                        )
+            for dest in LANGUAGES:
+                with self.subTest(dest):
+                    self.assertRender(dest, chordproname, "newline.{}".format(dest))
             os.remove(chordproname)
-
-        test_parse_render.__doc__ = (
-            "Test that '{base}' is correctly parsed and rendererd into '{format}' format with CRLF."
-            ).format(base=os.path.basename(base), format=dest)
-        return test_parse_render
-

@@ -19,7 +19,7 @@ AVAILABLE_DIRECTIVES = [
     "comment",
     "copyright",
     "columns",
-    "cov",
+    "cover",
     "define",
     "guitar_comment",
     "image",

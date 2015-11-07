@@ -12,20 +12,24 @@ from patacrep import utils
 
 LOGGER = logging.getLogger(__name__)
 
-def recursive_find(root_directory, extensions):
+def recursive_find(root_directory, extensions=None):
     """Recursively find files with the given extensions, from a root_directory.
 
     Return a list of files matching those conditions.
 
     Arguments:
-    - `extensions`: list of accepted extensions.
+    - `extensions`: list of accepted extensions (None means every file).
     - `root_directory`: root directory of the search.
     """
     if not os.path.isdir(root_directory):
         return []
 
     matches = []
-    pattern = re.compile(r'.*\.({})$'.format('|'.join(extensions)))
+    if extensions is None:
+        pattern = re.compile('.*')
+    else:
+        pattern = re.compile(r'.*\.({})$'.format('|'.join(extensions)))
+
     with chdir(root_directory):
         for root, __ignored, filenames in os.walk(os.curdir):
             for filename in filenames:

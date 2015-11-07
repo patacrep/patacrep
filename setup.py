@@ -4,9 +4,13 @@
 
 $ python setup.py install
 """
-from patacrep import __version__
+from patacrep import __version__, __DATADIR__, files
 
 from setuptools import setup, find_packages
+
+# List the data files
+data_files = files.recursive_find(__DATADIR__)
+data_files = ["data/" + d for d in data_files]
 
 setup(
     name='patacrep',
@@ -21,12 +25,7 @@ setup(
         "unidecode", "jinja2", "chardet", "ply",
         ],
     setup_requires=["hgtools"],
-    package_data={'patacrep': [
-        'data/ast_templates/*/*/*',
-        'data/img/*',
-        'data/latex/*',
-        'data/templates/*',
-        ]},
+    package_data={'patacrep': data_files},
     entry_points={
         'console_scripts': [
             "songbook = patacrep.songbook.__main__:main",

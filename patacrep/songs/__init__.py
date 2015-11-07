@@ -102,6 +102,7 @@ class Song:
             self.datadir = datadir
         self.fullpath = os.path.join(self.datadir, subpath)
         self.encoding = config["encoding"]
+        self.default_lang = config["lang"]
         self.config = config
 
         if self.datadir and self.config['_cache']:

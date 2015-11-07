@@ -44,7 +44,6 @@ class ChordproSong(Song):
             "authors": self.authors,
             "metadata": self.data,
             "render": self._render_ast,
-            "config": self.config,
             "content": self.cached['song'].content,
             }
 

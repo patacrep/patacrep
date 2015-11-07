@@ -34,6 +34,14 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     maxDiff = None
 
+    @classmethod
+    def setUpClass(cls):
+        cls._overwrite_clrf()
+
+    @classmethod
+    def tearDownClass(cls):
+        cls._reset_clrf()
+
     @staticmethod
     @contextlib.contextmanager
     def chdir():
@@ -44,9 +52,11 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         yield
         os.chdir(olddir)
 
-    def assertRender(self, destformat, sourcename, destname): # pylint: disable=invalid-name
-        """Assert that `sourcename` is correctly rendered as `destname` in `destformat`.
+    def assertRender(self, base, destformat): # pylint: disable=invalid-name
+        """Assert that `{base}.source` is correctly rendered in the `destformat`.
         """
+        sourcename = "{}.source".format(base)
+        destname = "{}.{}".format(base, destformat)
         with self.chdir():
             with open_read(destname) as expectfile:
                 with disable_logging():
@@ -91,24 +101,35 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base` is correctly parsed and rendered."""
             if base is None or dest is None:
                 return
-            self.assertRender(dest, "{}.source".format(base), "{}.{}".format(base, dest))
+            self.assertRender(base, dest)
 
         test_parse_render.__doc__ = (
             "Test that '{base}' is correctly parsed and rendererd into '{format}' format."
             ).format(base=os.path.basename(base), format=dest)
         return test_parse_render
 
-    def test_clrf(self):
-        """Test that source is correctly parsed and rendered when line endings are CRLF.
+    @classmethod
+    def _overwrite_clrf(cls):
+        """Overwrite `*.crlf.source` files to force the CRLF line endings.
         """
-        originalname = "newline.source"
-        chordproname = "newline.crlf.source"
-        with self.chdir():
-            with open_read(originalname) as originalfile:
-                with open(chordproname, 'w') as chordprofile:
-                    for line in originalfile:
-                        chordprofile.write(line.replace('\n', '\r\n'))
-            for dest in LANGUAGES:
-                with self.subTest(dest):
-                    self.assertRender(dest, chordproname, "newline.{}".format(dest))
-            os.remove(chordproname)
+        with cls.chdir():
+            for crlfname in sorted(glob.glob('*.crlf.source')):
+                base = crlfname[:-len(".crlf.source")]
+                sourcename = base + ".source"
+                with open_read(sourcename) as sourcefile:
+                    with open(crlfname, 'w') as crlffile:
+                        for line in sourcefile:
+                            crlffile.write(line.replace('\n', '\r\n'))
+
+    @classmethod
+    def _reset_clrf(cls):
+        """Reset `*.crlf.source` files.
+        """
+        crlf_msg = """# This content will be overwritten with `{}.source` content
+# with windows line endings (CRLF) - for testing purposes
+"""
+        with cls.chdir():
+            for crlfname in sorted(glob.glob('*.crlf.source')):
+                base = crlfname[:-len(".crlf.source")]
+                with open(crlfname, 'w') as crlffile:
+                    crlffile.write(crlf_msg.format(base))

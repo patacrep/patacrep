@@ -88,7 +88,6 @@ class Song:
         "unprefixed_titles",
         "cached",
         "data",
-        "subpath",
         "lang",
         "authors",
         "_filehash",
@@ -106,6 +105,7 @@ class Song:
 
         self.fullpath = os.path.join(self.datadir, subpath)
         self.subpath = subpath
+        self._filehash = None
         self.encoding = config["encoding"]
         self.default_lang = config["lang"]
         self.config = config
@@ -143,19 +143,25 @@ class Song:
         """Name of the file used for the cache"""
         return cached_name(self.datadir, self.subpath)
 
-    def _cache_retrieved(self):
-        """If relevant, retrieve self from the cache."""
-        if self.use_cache and os.path.exists(self.cached_name):
+    @property
+    def filehash(self):
+        """Compute (and cache) the md5 hash of the file"""
+        if self._filehash is None:
             self._filehash = hashlib.md5(
                 open(self.fullpath, 'rb').read()
                 ).hexdigest()
+        return self._filehash
+
+    def _cache_retrieved(self):
+        """If relevant, retrieve self from the cache."""
+        if self.use_cache and os.path.exists(self.cached_name):
             try:
                 cached = pickle.load(open(
                     self.cached_name,
                     'rb',
                     ))
                 if (
-                        cached['_filehash'] == self._filehash
+                        cached['_filehash'] == self.filehash
                         and cached['_version'] == self.CACHE_VERSION
                 ):
                     for attribute in self.cached_attributes:

@@ -42,5 +42,4 @@ def detect_encoding(filename):
             return encoding
         finally:
             filehandler.close()
-
-    raise UnicodeDecodeError('Not suitable encoding found for {}'.format(filename))
+    raise UnicodeError('Not suitable encoding found for {}'.format(filename))

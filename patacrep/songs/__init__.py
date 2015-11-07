@@ -80,7 +80,7 @@ class Song:
 
     # Version format of cached song. Increment this number if we update
     # information stored in cache.
-    CACHE_VERSION = 2
+    CACHE_VERSION = 3
 
     # List of attributes to cache
     cached_attributes = [
@@ -156,10 +156,7 @@ class Song:
         """If relevant, retrieve self from the cache."""
         if self.use_cache and os.path.exists(self.cached_name):
             try:
-                cached = pickle.load(open(
-                    self.cached_name,
-                    'rb',
-                    ))
+                cached = pickle.load(open(self.cached_name, 'rb',))
                 if (
                         cached['_filehash'] == self.filehash
                         and cached['_version'] == self.CACHE_VERSION

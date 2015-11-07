@@ -81,7 +81,7 @@ class ChordProLexer:
         return token
 
     t_tablature_TEXT = r'[^\n\r]+'
-    t_tablature_ENDOFLINE = r'(\r\n)|\r|\n'
+    t_tablature_ENDOFLINE = r'\r?\n'
 
     def __init__(self, *, filename=None):
         self.__class__.lexer = lex.lex(module=self)
@@ -90,7 +90,7 @@ class ChordProLexer:
     # Define a rule so we can track line numbers
     @staticmethod
     def t_ENDOFLINE(token):
-        r'(\r\n)|\r|\n'
+        r'\r?\n'
         token.lexer.lineno += 1
         return token
 

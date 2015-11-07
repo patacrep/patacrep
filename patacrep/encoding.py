@@ -29,18 +29,18 @@ def detect_encoding(filename):
     """Return the most likely encoding of the file
     """
     encodings = ['utf-8', 'windows-1250', 'windows-1252']
-    for e in encodings:
+    for encoding in encodings:
         try:
-            fh = codecs.open(filename, 'r', encoding=e)
-            fh.readlines()
-            fh.seek(0)
+            filehandler = codecs.open(filename, 'r', encoding=encoding)
+            filehandler.readlines()
+            filehandler.seek(0)
         except UnicodeDecodeError:
             pass
         else:
-            if e != 'utf-8':
-                print('Opening `%s` with `%s` encoding' % (filename, e))
-            return e
+            if encoding != 'utf-8':
+                print('Opening `%s` with `%s` encoding' % (filename, encoding))
+            return encoding
         finally:
-            fh.close()
+            filehandler.close()
 
     raise Exception('Not suitable encoding found for {}'.format(filename))

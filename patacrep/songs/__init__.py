@@ -96,10 +96,7 @@ class Song:
         ]
 
     def __init__(self, subpath, config, *, datadir=None):
-        if datadir is None:
-            self.datadir = ""
-        else:
-            self.datadir = datadir
+        self.datadir = datadir or ""
         self.fullpath = os.path.join(self.datadir, subpath)
         self.encoding = config["encoding"]
         self.default_lang = config["lang"]

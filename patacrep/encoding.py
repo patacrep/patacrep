@@ -38,7 +38,7 @@ def detect_encoding(filename):
             pass
         else:
             if encoding != 'utf-8':
-                print('Opening `%s` with `%s` encoding' % (filename, encoding))
+                LOGGER.info('Opening `%s` with `%s` encoding' % (filename, encoding))
             return encoding
         finally:
             filehandler.close()

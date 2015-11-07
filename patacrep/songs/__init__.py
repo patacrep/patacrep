@@ -104,7 +104,7 @@ class Song:
         self.encoding = config["encoding"]
         self.config = config
 
-        if datadir:
+        if self.datadir and self.config['_cache']:
             # Only songs in datadirs are cached
             self._filehash = hashlib.md5(
                 open(self.fullpath, 'rb').read()
@@ -155,7 +155,7 @@ class Song:
 
     def _write_cache(self):
         """If relevant, write a dumbed down version of self to the cache."""
-        if self.datadir:
+        if self.datadir and self.config['_cache']:
             cached = {}
             for attribute in self.cached_attributes:
                 cached[attribute] = getattr(self, attribute)

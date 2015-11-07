@@ -9,7 +9,6 @@ import sys
 import subprocess
 import unittest
 
-from patacrep.encoding import open_read
 from patacrep.files import path2posix
 
 from .. import dynamic # pylint: disable=unused-import
@@ -38,15 +37,12 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 '*.sb',
             ))):
             base = songbook[:-len(".sb")]
-            control = "{}.tex.control".format(base)
-            if not os.path.exists(control):
-                continue
             yield (
-                "test_generation_{}".format(os.path.basename(base)),
+                "test_latex_generation_{}".format(os.path.basename(base)),
                 cls._create_generation_test(base),
                 )
             yield (
-                "test_compilation_{}".format(os.path.basename(base)),
+                "test_pdf_compilation_{}".format(os.path.basename(base)),
                 cls._create_compilation_test(base),
                 )
 
@@ -63,9 +59,12 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
             # Check generated tex
             control = "{}.tex.control".format(base)
+            if not os.path.exists(control):
+                raise unittest.SkipTest('No control file for {}'.format(songbook))
+
             tex = "{}.tex".format(base)
-            with open_read(control) as expectfile:
-                with open_read(tex) as latexfile:
+            with open(control, mode="r", encoding="utf8") as expectfile:
+                with open(tex, mode="r", encoding="utf8") as latexfile:
                     expected = expectfile.read().strip()
                     expected = expected.replace(
                         "@TEST_FOLDER@",
@@ -112,7 +111,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @staticmethod
     def compile_songbook(songbook, steps=None):
         """Compile songbook, and return the command return code."""
-        command = [sys.executable, '-m', 'patacrep.songbook', songbook]
+        command = [sys.executable, '-m', 'patacrep.songbook', '--cache=no', songbook, '-v']
         if steps:
             command.extend(['--steps', steps])
 

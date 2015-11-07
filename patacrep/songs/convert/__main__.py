@@ -7,24 +7,21 @@ import os
 import logging
 import sys
 
-from patacrep.build import DEFAULT_CONFIG
 from patacrep import files
+from patacrep.build import DEFAULT_CONFIG
+from patacrep.utils import yesno
 
 LOGGER = logging.getLogger(__name__)
 
 def __usage():
     return "python3 -m patacrep.songs.convert INPUTFORMAT OUTPUTFORMAT FILES"
 
-def yesno(prompt):
-    while True:
-        answer = input("{} [yn] ".format(prompt))
-        if answer.strip().lower() == "y":
-            return True
-        if answer.strip().lower() == "n":
-            return False
-
 def confirm(destname):
-    return yesno("File '{}' already exist. Overwrite?".format(destname))
+    while True
+        try:
+            return yesno(input("File '{}' already exist. Overwrite? [yn] ".format(destname)))
+        except ValueError:
+            continue
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:

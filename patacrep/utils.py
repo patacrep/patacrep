@@ -59,3 +59,19 @@ class DictOfDict(UserDict):
                 DictOfDict._update(left[key], right[key])
             else:
                 left[key] = right[key]
+
+def yesno(string):
+    """Interpret string argument as a boolean.
+
+    May raise `ValueError` if argument cannot be interpreted.
+    """
+    yes_strings = ["y", "yes", "true", "1"]
+    no_strings = ["n", "no", "false", "0"]
+    if string.lower() in yes_strings:
+        return True
+    if string.lower() in no_strings:
+        return False
+    raise ValueError("'{}' is supposed to be one of {}.".format(
+        string,
+        ", ".join(["'{}'".format(string) for string in yes_strings + no_strings]),
+        ))

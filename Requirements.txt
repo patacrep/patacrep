@@ -1,4 +1,3 @@
 ply
 Jinja2==2.7.3
-chardet==2.2.1
 unidecode>=0.04.16

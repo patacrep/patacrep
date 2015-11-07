@@ -1,7 +1,6 @@
 """Dealing with encoding problems."""
 
 import codecs
-import chardet
 import logging
 import contextlib
 

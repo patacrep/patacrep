@@ -18,7 +18,7 @@ setup(
     packages=find_packages(exclude=["test*"]),
     license="GPLv2 or any later version",
     install_requires=[
-        "unidecode", "jinja2", "chardet", "ply",
+        "unidecode", "jinja2", "ply",
         ],
     setup_requires=["hgtools"],
     package_data={'patacrep': [

@@ -1,7 +1,6 @@
 """Dealing with encoding problems."""
 
 import codecs
-import chardet
 import logging
 import contextlib
 
@@ -16,15 +15,31 @@ def open_read(filename, mode='r', encoding=None):
     If `encoding` is set, use it as the encoding (do not guess).
     """
     if encoding is None:
-        with open(filename, 'rb') as file:
-            fileencoding = chardet.detect(file.read())['encoding']
-    else:
-        fileencoding = encoding
+        encoding = detect_encoding(filename)
 
     with codecs.open(
         filename,
         mode=mode,
-        encoding=fileencoding,
+        encoding=encoding,
         errors='replace',
         ) as fileobject:
         yield fileobject
+
+def detect_encoding(filename):
+    """Return the most likely encoding of the file
+    """
+    encodings = ['utf-8', 'windows-1250', 'windows-1252']
+    for encoding in encodings:
+        try:
+            filehandler = codecs.open(filename, 'r', encoding=encoding)
+            filehandler.readlines()
+            filehandler.seek(0)
+        except UnicodeDecodeError:
+            pass
+        else:
+            if encoding != 'utf-8':
+                LOGGER.info('Opening `{}` with `{}` encoding'.format(filename, encoding))
+            return encoding
+        finally:
+            filehandler.close()
+    raise UnicodeError('Not suitable encoding found for {}'.format(filename))

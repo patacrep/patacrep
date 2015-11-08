@@ -39,14 +39,15 @@ def compile_authwords(authwords):
 def split_author_names(string):
     r"""Split author between first and last name.
 
-    The last space separates first and last name. LaTeX commands are ignored.
+    The last space separates first and last name.
+    LaTeX commands are ignored, escaped spaces are converted to ~.
 
     >>> split_author_names("Edgar Allan Poe")
     ('Poe', 'Edgar Allan')
     >>> split_author_names("Edgar Allan \emph {Poe}")
     ('{Poe}', 'Edgar Allan \\emph')
     >>> split_author_names(r"The Rolling\ Stones")
-    ('Stones', 'The Rolling\\')
+    ('Rolling~Stones', 'The')
     >>> split_author_names("The {Rolling Stones}")
     ('Stones}', 'The {Rolling')
     >>> split_author_names("The Rolling Stones")
@@ -54,7 +55,8 @@ def split_author_names(string):
     >>> split_author_names("   John   Doe  ")
     ('Doe', 'John')
     """
-    chunks = string.strip().split(" ")
+    chunks = string.strip().replace("\\ ", "~")
+    chunks = chunks.split(" ")
     return (chunks[-1].strip(), " ".join(chunks[:-1]).strip())
 
 

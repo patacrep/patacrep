@@ -1,9 +1,9 @@
 # patacrep 4.0.0
 
-* Project gestion
-  * Name change [#39](http://github.com/patacrep/patacrep/issues/39)
+* Project management
+  * Change nawe [#39](http://github.com/patacrep/patacrep/issues/39)
   * Renew of the developement team
-  * Separation engine/data
+  * Separation of engine and data
     * The engine is the [current poject](http://github.com/patacrep/patacrep)
     * Data have their [own project](http://github.com/patacrep/patadata)
     * And so does [various tools](http://github.com/patacrep/pataextra)
@@ -17,30 +17,30 @@
   * [PEP8](http://legacy.python.org/dev/peps/pep-0008/) conformity
   * Better LaTeX Packages
   * Better langages handling
-  * Better errors handling
+  * Better error handling
   * Better code documentation (in comments)
-  * Caching song AST, which gave an improvement of 45s for the compilation of all patadata [#51](http://github.com/patacrep/patacrep/issues/51)
+  * Cache song AST, which gives an improvement of 45s for the compilation of all patadata [#51](http://github.com/patacrep/patacrep/issues/51)
   * Lot of small improvements
 
 * Installation
-  * All from PyPi ! You can now use pip to install/update/remove patacrep
+  * All from PyPi ! Can now use pip to install/update/remove patacrep
 
-* Fonctionnalities
+* Features
   * Change the template engine [#9](http://github.com/patacrep/patacrep/issues/9)
   * Ability to add user variables [#18](http://github.com/patacrep/patacrep/issues/18)
-  * Change the song inclusion syntaxe [#47](http://github.com/patacrep/patacrep/issues/47)
-    * It is now possible to include other things than songs
-    * You can write a plugins to include your own type of content
-  * Personalisaitons of the songbook is easier with patadata templates (font, paper, colors, column, ...) [#41](http://github.com/patacrep/patacrep/issues/41)
-  * You can change the number of columns [#41](http://github.com/patacrep/patacrep/issues/41)
+  * Change the song inclusion syntax [#47](http://github.com/patacrep/patacrep/issues/47)
+    * Now possible to include content that is not song (raw tex file, for instance)
+    * Can write plugins to include custom type of content
+  * Songbook customization made easy with patadata templates (font, paper, colors, column, ...) [#41](http://github.com/patacrep/patacrep/issues/41)
+  * Can change columns number [#41](http://github.com/patacrep/patacrep/issues/41)
   * Lilypond
     * On the fly lylipond files compilation
     * Adapt partition size to the paper size [#19](http://github.com/patacrep/patacrep/issues/19)
-  * You can choos how to sort the songs [#36](http://github.com/patacrep/patacrep/issues/36)
+  * Can choose song ordering [#36](http://github.com/patacrep/patacrep/issues/36)
   * Easier song repertories management [#43](http://github.com/patacrep/patacrep/issues/43) and  [#45](http://github.com/patacrep/patacrep/issues/45)
-    * You can have more than one data folder
-  * Better index customisation
-  * Better gestion of files encoding [#62](http://github.com/patacrep/patacrep/issues/62).
+    * Can have more than one data folder
+  * Better index customization
+  * Better file encoding management [#62](http://github.com/patacrep/patacrep/issues/62).
 
 
 # songbook 3.7.2

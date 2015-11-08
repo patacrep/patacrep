@@ -29,6 +29,7 @@ def detect_encoding(filename):
     """Return the most likely encoding of the file
     """
     encodings = ['utf-8', 'windows-1250', 'windows-1252']
+    filehandler = None
     for encoding in encodings:
         try:
             filehandler = codecs.open(filename, 'r', encoding=encoding)
@@ -41,5 +42,6 @@ def detect_encoding(filename):
                 LOGGER.info('Opening `{}` with `{}` encoding'.format(filename, encoding))
             return encoding
         finally:
-            filehandler.close()
+            if filehandler:
+                filehandler.close()
     raise UnicodeError('Not suitable encoding found for {}'.format(filename))

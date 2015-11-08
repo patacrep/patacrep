@@ -32,13 +32,9 @@ class Latex2LatexSong(Song):
     def render(self):
         """Return the code rendering the song."""
         # pylint: disable=signature-differs
-        if not self.datadir:
-            raise ValueError(self.datadir)
-        path = files.path2posix(files.relpath(
-            self.fullpath,
-            self.datadir
-        ))
-        return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
+        filename = os.path.basename(self.fullpath)
+        path = os.path.abspath(os.path.dirname(self.fullpath))
+        return r'\import{{{}/}}{{{}}}'.format(files.path2posix(path), filename)
 
     def set_lang(self, language):
         """Set the language code"""

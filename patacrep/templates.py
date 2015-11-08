@@ -84,8 +84,8 @@ class Renderer:
         self.jinjaenv.filters['escape_tex'] = _escape_tex
         self.jinjaenv.trim_blocks = True
         self.jinjaenv.lstrip_blocks = True
-        self.jinjaenv.globals["path2posix"] = files.path2posix
-        self.jinjaenv.globals["lang2babel"] = lang2babel
+        self.jinjaenv.filters["path2posix"] = files.path2posix
+        self.jinjaenv.filters["lang2babel"] = lang2babel
         self.template = self.jinjaenv.get_template(template)
 
 

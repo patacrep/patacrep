@@ -36,7 +36,7 @@ class Latex2LatexSong(Song):
             raise ValueError(self.datadir)
         path = files.path2posix(files.relpath(
             self.fullpath,
-            os.path.dirname(self.datadir)
+            self.datadir
         ))
         return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
 

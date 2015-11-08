@@ -27,8 +27,13 @@
 
 \makeatletter
 \def\input@path{ %
+    % include .sty folders
     (* for dir in datadir *)
         {(( path2posix(dir) ))/latex/} %
+    (* endfor *)
+    % include datadir folders (for \import)
+    (* for dir in datadir *)
+        {(( path2posix(dir) ))/} %
     (* endfor *)
 }
 \makeatother

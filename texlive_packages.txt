@@ -6,6 +6,7 @@ babel-italian
 babel-latin
 babel-portuges
 babel-spanish
+etoolbox
 fancybox
 framed
 import

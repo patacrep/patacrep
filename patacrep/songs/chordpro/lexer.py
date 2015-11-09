@@ -101,7 +101,7 @@ class ChordProLexer:
 
     @staticmethod
     def t_WORD(token):
-        r'[^{}\r\n\][\t ]+'
+        r'[^{}\r\n\]\[\t ]+'
         return token
 
     def t_LBRACKET(self, __token):

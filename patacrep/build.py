@@ -232,8 +232,8 @@ class SongbookBuilder(object):
             raise errors.ExecutableNotFound(compiler)
 
         # Test if lilypond compiler is accessible
-        lilypond_compiler = 'lilypond'
         if self.songbook.requires_lilypond():
+            lilypond_compiler = 'lilypond'
             try:
                 check_call(
                     [lilypond_compiler, "--version"],

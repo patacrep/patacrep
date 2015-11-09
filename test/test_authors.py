@@ -17,7 +17,7 @@ SPLIT_AUTHORS_DATA = [
     ("The mamas and the papas", ("mamas and the papas", "The")), # Unbreakable spaces
     (r"\LaTeX command", ("command", r"\LaTeX")), # LaTeX commands are ignored
     (r"\emph{Some braces}", ("braces}", r"\emph{Some")), # LaTeX commands are ignored
-    (r"The Rolling\ Stones", ("Stones", 'The Rolling\\')), # LaTeX commands are ignored
+    (r"The Rolling\ Stones", ("Rolling~Stones", 'The')), # Escaped spaces are converted
     ]
 
 PROCESS_AUTHORS_DATA = [

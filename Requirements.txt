@@ -1,3 +1,2 @@
-ply
-Jinja2==2.7.3
-unidecode>=0.04.16
+# See https://caremad.io/2013/07/setup-vs-requirement/
+-e .

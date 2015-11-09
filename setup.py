@@ -4,13 +4,25 @@
 
 $ python setup.py install
 """
-from patacrep import __version__, __DATADIR__, files
+from patacrep import __version__
 
 from setuptools import setup, find_packages
+import sys
 
-# List the data files
-data_files = files.recursive_find(__DATADIR__)
-data_files = ["data/" + d for d in data_files]
+setup_kwargs = {
+    'setup_requires': [],
+    }
+
+if sys.platform[0:3] == 'win':
+    from patacrep import __DATADIR__, files
+
+    # List the data files
+    data_files = files.recursive_find(__DATADIR__)
+    data_files = ["data/" + d for d in data_files]
+    setup_kwargs['package_data'] = {'patacrep': data_files}
+else:
+    setup_kwargs['setup_requires'].append('hgtools')
+    setup_kwargs['include_package_data'] = True
 
 setup(
     name='patacrep',
@@ -24,8 +36,6 @@ setup(
     install_requires=[
         "unidecode", "jinja2", "ply",
         ],
-    setup_requires=["hgtools"],
-    package_data={'patacrep': data_files},
     entry_points={
         'console_scripts': [
             "songbook = patacrep.songbook.__main__:main",
@@ -45,4 +55,5 @@ setup(
     platforms=["GNU/Linux", "Windows", "MacOsX"],
     test_suite="test.suite",
     long_description = open("README.rst", "r").read(),
+    **setup_kwargs
 )

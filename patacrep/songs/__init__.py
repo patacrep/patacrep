@@ -80,7 +80,7 @@ class Song:
 
     # Version format of cached song. Increment this number if we update
     # information stored in cache.
-    CACHE_VERSION = 2
+    CACHE_VERSION = 3
 
     # List of attributes to cache
     cached_attributes = [
@@ -88,7 +88,6 @@ class Song:
         "unprefixed_titles",
         "cached",
         "data",
-        "subpath",
         "lang",
         "authors",
         "_filehash",
@@ -98,44 +97,30 @@ class Song:
     def __init__(self, subpath, config, *, datadir=None):
         if datadir is None:
             self.datadir = ""
+            # Only songs in datadirs may be cached
+            self.use_cache = False
         else:
             self.datadir = datadir
+            self.use_cache = config.get('_cache', False)
+
         self.fullpath = os.path.join(self.datadir, subpath)
+        self.subpath = subpath
+        self._filehash = None
         self.encoding = config["encoding"]
+        self.default_lang = config["lang"]
         self.config = config
 
-        if self.datadir and self.config['_cache']:
-            # Only songs in datadirs are cached
-            self._filehash = hashlib.md5(
-                open(self.fullpath, 'rb').read()
-                ).hexdigest()
-            if os.path.exists(cached_name(datadir, subpath)):
-                try:
-                    cached = pickle.load(open(
-                        cached_name(datadir, subpath),
-                        'rb',
-                        ))
-                    if (
-                            cached['_filehash'] == self._filehash
-                            and cached['_version'] == self.CACHE_VERSION
-                    ):
-                        for attribute in self.cached_attributes:
-                            setattr(self, attribute, cached[attribute])
-                        return
-                except: # pylint: disable=bare-except
-                    LOGGER.warning("Could not use cached version of {}.".format(
-                        self.fullpath
-                        ))
+        if self._cache_retrieved():
+            return
 
         # Data extraction from the latex song
         self.titles = []
         self.data = {}
         self.cached = None
         self.lang = None
-        self._parse(config)
+        self._parse()
 
         # Post processing of data
-        self.subpath = subpath
         self.unprefixed_titles = [
             unprefixed_title(
                 title,
@@ -153,22 +138,52 @@ class Song:
         self._version = self.CACHE_VERSION
         self._write_cache()
 
+    @property
+    def cached_name(self):
+        """Name of the file used for the cache"""
+        return cached_name(self.datadir, self.subpath)
+
+    @property
+    def filehash(self):
+        """Compute (and cache) the md5 hash of the file"""
+        if self._filehash is None:
+            self._filehash = hashlib.md5(
+                open(self.fullpath, 'rb').read()
+                ).hexdigest()
+        return self._filehash
+
+    def _cache_retrieved(self):
+        """If relevant, retrieve self from the cache."""
+        if self.use_cache and os.path.exists(self.cached_name):
+            try:
+                cached = pickle.load(open(self.cached_name, 'rb',))
+                if (
+                        cached['_filehash'] == self.filehash
+                        and cached['_version'] == self.CACHE_VERSION
+                ):
+                    for attribute in self.cached_attributes:
+                        setattr(self, attribute, cached[attribute])
+                    return True
+            except: # pylint: disable=bare-except
+                LOGGER.warning("Could not use cached version of {}.".format(
+                    self.fullpath
+                    ))
+        return False
+
     def _write_cache(self):
         """If relevant, write a dumbed down version of self to the cache."""
-        if self.datadir and self.config['_cache']:
-            cached = {}
-            for attribute in self.cached_attributes:
-                cached[attribute] = getattr(self, attribute)
+        if self.use_cache:
+            cached = {attr: getattr(self, attr) for attr in self.cached_attributes}
             pickle.dump(
                 cached,
-                open(cached_name(self.datadir, self.subpath), 'wb'),
+                open(self.cached_name, 'wb'),
                 protocol=-1
                 )
 
     def __repr__(self):
         return repr((self.titles, self.data, self.fullpath))
 
-    def render(self, output=None, *args, **kwargs):
+    def render(self, *args, **kwargs):
         """Return the code rendering this song.
 
         Arguments:
@@ -176,14 +191,14 @@ class Song:
         """
         raise NotImplementedError()
 
-    def _parse(self, config): # pylint: disable=no-self-use
+    def _parse(self): # pylint: disable=no-self-use
         """Parse song.
 
         It set the following attributes:
 
         - titles: the list of (raw) titles. This list will be processed to
           remove prefixes.
-        - lang: the main language of the song, as language code..
+        - lang: the main language of the song, as language code.
         - authors: the list of (raw) authors. This list will be processed to
           'clean' it (see function :func:`patacrep.authors.processauthors`).
         - data: song metadata. Used (among others) to sort the songs.

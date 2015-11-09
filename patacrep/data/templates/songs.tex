@@ -81,15 +81,15 @@
 (( super() ))
 
 (* for lang in _langs|sort -*)
-    \PassOptionsToPackage{(( lang2babel(lang) ))}{babel}
+    \PassOptionsToPackage{(( lang | lang2babel ))}{babel}
 (* endfor *)
-\usepackage[(( lang2babel(lang) ))]{babel}
-\lang{(( lang2babel(lang) ))}
+\usepackage[(( lang | lang2babel ))]{babel}
+\lang{(( lang | lang2babel ))}
 
 \usepackage{graphicx}
 \graphicspath{ %
     (* for dir in datadir *)
-        {(( path2posix(dir) ))/} %
+        {(( dir | path2posix ))/} %
     (* endfor *)
 }
 

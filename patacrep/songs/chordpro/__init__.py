@@ -25,26 +25,25 @@ class ChordproSong(Song):
 
     output_language = None
 
-    def _parse(self, config):
+    def _parse(self):
         """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.lang = song.get_data_argument('language', self.config['lang'])
+        self.lang = song.get_data_argument('language', self.default_lang)
         self.data = song.meta
         self.cached = {
             'song': song,
             }
 
-    def render(self, output=None, template="song"): # pylint: disable=arguments-differ
+    def render(self, template="song"): # pylint: disable=arguments-differ
         context = {
             'lang': self.lang,
             "titles": self.titles,
             "authors": self.authors,
             "metadata": self.data,
             "render": self._render_ast,
-            "config": self.config,
             "content": self.cached['song'].content,
             }
 

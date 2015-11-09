@@ -15,7 +15,7 @@ class Latex2LatexSong(Song):
     """Song written in LaTeX, rendered in LaTeX"""
     # pylint: disable=abstract-method
 
-    def _parse(self, __config):
+    def _parse(self):
         """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
             self.data = parse_song(song.read(), self.fullpath)
@@ -29,16 +29,12 @@ class Latex2LatexSong(Song):
         else:
             self.authors = []
 
-    def render(self, output):
+    def render(self):
         """Return the code rendering the song."""
         # pylint: disable=signature-differs
-        if output is None:
-            raise ValueError(output)
-        path = files.path2posix(files.relpath(
-            self.fullpath,
-            os.path.dirname(output)
-        ))
-        return r'\import{{{}/}}{{{}}}'.format(os.path.dirname(path), os.path.basename(path))
+        filename = os.path.basename(self.fullpath)
+        path = os.path.abspath(os.path.dirname(self.fullpath))
+        return r'\import{{{}/}}{{{}}}'.format(files.path2posix(path), filename)
 
     def set_lang(self, language):
         """Set the language code"""

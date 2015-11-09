@@ -92,7 +92,7 @@ guitar,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir.sg
 
-\import{datadir_datadir/songs/}{datadir.sg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir.sgc
@@ -119,7 +119,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir2.sg
 
-\import{datadir_datadir/songs/}{datadir2.sg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir2.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./datadir2.sgc
@@ -146,7 +146,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./relative.sg
 
-\import{datadir_datadir/songs/}{relative.sg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{relative.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./relative.sgc
@@ -173,7 +173,7 @@ Chordpro}[
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./subdir/subdir.sg
 
-\import{datadir_datadir/songs/subdir/}{subdir.sg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/subdir/}{subdir.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./subdir/subdir.sgc

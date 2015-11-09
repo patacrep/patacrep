@@ -124,6 +124,7 @@ class Songbook(object):
         renderer.render_tex(output, config)
 
     def requires_lilypond(self):
+        """Tell if lilypond is part of the bookoptions"""
         return 'lilypond' in self.config.get('bookoptions', [])
 
 def _log_pipe(pipe):

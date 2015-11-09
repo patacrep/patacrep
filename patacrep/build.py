@@ -123,6 +123,9 @@ class Songbook(object):
 
         renderer.render_tex(output, config)
 
+    def requires_lilypond(self):
+        return 'lilypond' in self.config.get('bookoptions', [])
+
 def _log_pipe(pipe):
     """Log content from `pipe`."""
     while 1:
@@ -226,6 +229,20 @@ class SongbookBuilder(object):
                 )
         except Exception as error:
             raise errors.ExecutableNotFound(compiler)
+
+        # Test if lilypond compiler is accessible
+        lilypond_compiler = 'lilypond'
+        if self.songbook.requires_lilypond():
+            try:
+                check_call(
+                    [lilypond_compiler, "--version"],
+                    stdin=PIPE,
+                    stdout=PIPE,
+                    stderr=PIPE,
+                    universal_newlines=True,
+                    )
+            except Exception as error:
+                raise errors.ExecutableNotFound(lilypond_compiler)
 
         # Perform compilation
         try:

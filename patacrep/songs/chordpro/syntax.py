@@ -303,15 +303,12 @@ class ChordproParser(Parser):
 
     def p_error(self, token):
         super().p_error(token)
-        if not token:
-            # End of file
-            # Maybe it should raise an error ?
-            return token
         while True:
             token = self.parser.token()
             if not token or token.type == "ENDOFLINE":
                 break
-        self.parser.errok()
+        if token:
+            self.parser.errok()
         return token
 
 def parse_song(content, filename=None):

@@ -2,14 +2,13 @@
 
 import errno
 import hashlib
-import jinja2
 import logging
 import os
 import pickle
 import re
 
-from patacrep.authors import process_listauthors
 from patacrep import files, encoding
+from patacrep.authors import process_listauthors
 
 LOGGER = logging.getLogger(__name__)
 
@@ -210,10 +209,7 @@ class Song:
     def iter_datadirs(self, *subpath):
         """Return an iterator of existing datadirs (with an optionnal subpath)
         """
-        for directory in self.config['datadir']:
-            fullpath = os.path.join(directory, *subpath)
-            if os.path.isdir(fullpath):
-                yield fullpath
+        yield from files.iter_datadirs(self.config['datadir'], *subpath)
 
     def search_datadir_file(self, filename, extensions=None, directories=None):
         """Search for a file name.

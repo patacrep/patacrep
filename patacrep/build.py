@@ -8,7 +8,7 @@ import threading
 import os.path
 from subprocess import Popen, PIPE, call, check_call
 
-from patacrep import __DATADIR__, authors, content, errors, files
+from patacrep import authors, content, errors, files
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer
 from patacrep.songs import DataSubpath
@@ -70,8 +70,6 @@ class Songbook(object):
                 LOGGER.warning(
                     "Ignoring non-existent datadir '{}'.".format(path)
                     )
-
-        abs_datadir.append(__DATADIR__)
 
         self.config['datadir'] = abs_datadir
         self.config['_songdir'] = [

@@ -9,6 +9,7 @@ import re
 import sys
 
 from patacrep import utils
+from patacrep import __DATADIR__
 
 LOGGER = logging.getLogger(__name__)
 
@@ -129,3 +130,14 @@ def load_plugins(datadirs, root_modules, keyword):
         if hasattr(module, keyword):
             plugins.update(getattr(module, keyword))
     return plugins
+
+def iter_datadirs(datadirs, *subpath):
+    """Iterate over datadirs.
+
+    The default datadir is returned last.
+
+    Subpath are appended after each datadir.
+    """
+    for path in datadirs:
+        yield os.path.join(path, *subpath)
+    yield os.path.join(__DATADIR__, *subpath)

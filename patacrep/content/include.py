@@ -10,24 +10,22 @@ import sys
 import logging
 
 from patacrep.content import process_content, ContentError
-from patacrep import encoding
-from patacrep import errors
+from patacrep import encoding, errors, files
 
 LOGGER = logging.getLogger(__name__)
 
-def load_from_datadirs(path, config=None):
+def load_from_datadirs(path, datadirs):
     """Load 'path' from one of the datadirs.
 
     Raise an exception if it was found if none of the datadirs of 'config'.
     """
-    for datadir in config.get("datadir", []):
-        filepath = os.path.join(datadir, path)
+    for filepath in files.iter_datadirs(datadirs, path):
         if os.path.exists(filepath):
             return filepath
     # File not found
     raise ContentError(
         "include",
-        errors.notfound(path, config.get("datadir", [])),
+        errors.notfound(path, list(files.iter_datadirs(datadirs)))
         )
 
 #pylint: disable=unused-argument
@@ -43,7 +41,7 @@ def parse(keyword, config, argument, contentlist):
     new_contentlist = []
 
     for path in contentlist:
-        filepath = load_from_datadirs(path, config)
+        filepath = load_from_datadirs(path, config.get('datadir', []))
         content_file = None
         try:
             with encoding.open_read(

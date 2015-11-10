@@ -4,7 +4,6 @@ from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
-import os
 import re
 import json
 
@@ -85,6 +84,7 @@ class Renderer:
         self.jinjaenv.trim_blocks = True
         self.jinjaenv.lstrip_blocks = True
         self.jinjaenv.filters["path2posix"] = files.path2posix
+        self.jinjaenv.filters["iter_datadirs"] = files.iter_datadirs
         self.jinjaenv.filters["lang2babel"] = lang2babel
         self.template = self.jinjaenv.get_template(template)
 
@@ -105,8 +105,8 @@ class TexBookRenderer(Renderer):
         self.lang = lang
         # Load templates in filesystem ...
         loaders = [
-            FileSystemLoader(os.path.join(datadir, 'templates'))
-            for datadir in datadirs
+            FileSystemLoader(datadir)
+            for datadir in files.iter_datadirs(datadirs, 'templates')
             ]
         jinjaenv = Environment(
             loader=ChoiceLoader(loaders),

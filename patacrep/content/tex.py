@@ -37,7 +37,7 @@ def parse(keyword, argument, contentlist, config):
             )
     filelist = []
     basefolders = itertools.chain(
-        [path.fullpath for path in config['_songdir']],
+        (path.fullpath for path in config['_songdir']),
         files.iter_datadirs(config['datadir']),
         files.iter_datadirs(config['datadir'], 'latex'),
         )

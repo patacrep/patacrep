@@ -313,7 +313,13 @@ class ChordproParser(Parser):
 
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
-    return ChordproParser(filename).parse(
+    parser = ChordproParser(filename)
+    parsed_content = parser.parse(
         content,
         lexer=ChordProLexer(filename=filename).lexer,
         )
+    if parsed_content is None:
+        # There was a fatal error parsing the content
+        # TODO: implement error handling by looking into parser
+        raise Exception('The song could not be parsed')
+    return parsed_content

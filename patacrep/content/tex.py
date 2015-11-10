@@ -1,5 +1,6 @@
 """Include LaTeX raw code in the songbook."""
 
+import itertools
 import logging
 import os
 
@@ -35,9 +36,11 @@ def parse(keyword, argument, contentlist, config):
             "Useless 'tex' content: list of files to include is empty."
             )
     filelist = []
-    basefolders = [path.fullpath for path in config['_songdir']] +\
-                  list(files.iter_datadirs(config['datadir'])) + \
-                  list(files.iter_datadirs(config['datadir'], 'latex'))
+    basefolders = itertools.chain(
+        [path.fullpath for path in config['_songdir']],
+        files.iter_datadirs(config['datadir']),
+        files.iter_datadirs(config['datadir'], 'latex'),
+        )
     for filename in contentlist:
         checked_file = None
         for path in basefolders:

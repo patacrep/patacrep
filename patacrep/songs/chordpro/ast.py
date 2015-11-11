@@ -64,6 +64,10 @@ class AST:
     """Generic object representing elements of the song."""
     _template = None
     inline = False
+    lexer = None
+
+    def __init__(self):
+        self.lineno = self.lexer.lineno
 
     def template(self):
         """Return the template to be used to render this object."""
@@ -140,6 +144,7 @@ class ChordList(LineElement):
     _template = "chordlist"
 
     def __init__(self, *chords):
+        super().__init__()
         self.chords = chords
 
 class Chord(AST):
@@ -148,7 +153,7 @@ class Chord(AST):
     _template = "chord"
 
     def __init__(self, chord):
-        # pylint: disable=too-many-arguments
+        super().__init__()
         self.chord = chord
 
     @property
@@ -218,7 +223,7 @@ class Song(AST):
         "tag": "add_cumulative",
         }
 
-    def __init__(self, filename):
+    def __init__(self, filename, directives):
         super().__init__()
         self.content = []
         self.meta = OrderedDict()
@@ -226,6 +231,8 @@ class Song(AST):
         self._titles = []
         self._subtitles = []
         self.filename = filename
+        for directive in directives:
+            self.add(directive)
 
     def add(self, data):
         """Add an element to the song"""

@@ -44,13 +44,11 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     @staticmethod
     @contextlib.contextmanager
-    def chdir():
-        """Context to temporarry change current directory to this file directory
+    def chdir(*path):
+        """Context to temporarry change current directory, relative to this file directory
         """
-        olddir = os.getcwd()
-        os.chdir(resource_filename(__name__, ""))
-        yield
-        os.chdir(olddir)
+        with files.chdir(resource_filename(__name__, ""), *path):
+            yield
 
     def assertRender(self, base, destformat): # pylint: disable=invalid-name
         """Assert that `{base}.source` is correctly rendered in the `destformat`.
@@ -92,21 +90,40 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         cls._create_test(base, dest),
                         )
 
+            with cls.chdir('errors'):
+                for source in sorted(glob.glob('*.source')):
+                    base = source[:-len(".source")]
+                    yield (
+                        "test_{}_failure".format(base),
+                        cls._create_failure(base),
+                        )
+
     @classmethod
     def _create_test(cls, base, dest):
         """Return a function testing that `base` compilation in `dest` format.
         """
-
-        def test_parse_render(self):
-            """Test that `base` is correctly parsed and rendered."""
-            if base is None or dest is None:
-                return
-            self.assertRender(base, dest)
-
+        test_parse_render = lambda self: self.assertRender(base, dest)
         test_parse_render.__doc__ = (
             "Test that '{base}' is correctly parsed and rendererd into '{format}' format."
             ).format(base=os.path.basename(base), format=dest)
         return test_parse_render
+
+    @classmethod
+    def _create_failure(cls, base):
+        """Return a function testing that `base` parsing fails.
+        """
+
+        def test_parse_failure(self):
+            """Test that `base` parsing fails."""
+            sourcename = "{}.source".format(base)
+            with self.chdir('errors'):
+                parser = self.song_plugins[LANGUAGES['sgc']]['sgc']
+                self.assertRaises(SyntaxError, parser, sourcename, self.config)
+
+        test_parse_failure.__doc__ = (
+            "Test that '{base}' parsing fails."
+            ).format(base=os.path.basename(base))
+        return test_parse_failure
 
     @classmethod
     def _overwrite_clrf(cls):

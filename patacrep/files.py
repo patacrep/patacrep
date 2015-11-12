@@ -62,17 +62,17 @@ def path2posix(string):
         )
 
 @contextmanager
-def chdir(path):
+def chdir(*path):
     """Locally change dir
 
     Can be used as:
 
-        with chdir("some/directory"):
+        with chdir("some", "directory"):
             do_stuff()
     """
     olddir = os.getcwd()
     if path:
-        os.chdir(path)
+        os.chdir(os.path.join(*path))
         yield
         os.chdir(olddir)
     else:

@@ -44,10 +44,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     @staticmethod
     @contextlib.contextmanager
-    def chdir():
-        """Context to temporarry change current directory to this file directory
+    def chdir(*path):
+        """Context to temporarry change current directory, relative to this file directory
         """
-        with files.chdir(resource_filename(__name__, "")):
+        with files.chdir(resource_filename(__name__, ""), *path):
             yield
 
     def assertRender(self, base, destformat): # pylint: disable=invalid-name
@@ -91,7 +91,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         cls._create_test(base, dest),
                         )
 
-            with files.chdir('errors'):
+            with cls.chdir('errors'):
                 for source in sorted(glob.glob('*.source')):
                     base = source[:-len(".source")]
                     yield (
@@ -117,10 +117,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         def test_parse_failure(self):
             """Test that `base` parsing fails."""
             sourcename = "{}.source".format(base)
-            with self.chdir():
-                with files.chdir('errors'):
-                    parser = self.song_plugins[LANGUAGES['sgc']]['sgc']
-                    self.assertRaises(SyntaxError, parser, sourcename, self.config)
+            with self.chdir('errors'):
+                parser = self.song_plugins[LANGUAGES['sgc']]['sgc']
+                self.assertRaises(SyntaxError, parser, sourcename, self.config)
 
         test_parse_failure.__doc__ = (
             "Test that '{base}' parsing fails."

@@ -319,6 +319,5 @@ def parse_song(content, filename=None):
         lexer=ChordProLexer(filename=filename).lexer,
         )
     if parsed_content is None:
-        # There was a fatal error parsing the content
         raise SyntaxError('Fatal error during song parsing: {}'.format(filename))
     return parsed_content

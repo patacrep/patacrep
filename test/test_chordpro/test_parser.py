@@ -103,11 +103,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def _create_test(cls, base, dest):
         """Return a function testing that `base` compilation in `dest` format.
         """
-
-        def test_parse_render(self):
-            """Test that `base` is correctly parsed and rendered."""
-            self.assertRender(base, dest)
-
+        test_parse_render = lambda self: self.assertRender(base, dest)
         test_parse_render.__doc__ = (
             "Test that '{base}' is correctly parsed and rendererd into '{format}' format."
             ).format(base=os.path.basename(base), format=dest)
@@ -115,7 +111,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     @classmethod
     def _create_failure(cls, base):
-        """Return a function testing that `base` fails.
+        """Return a function testing that `base` parsing fails.
         """
 
         def test_parse_render(self):

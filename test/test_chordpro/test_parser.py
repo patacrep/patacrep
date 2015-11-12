@@ -98,8 +98,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         def test_parse_render(self):
             """Test that `base` is correctly parsed and rendered."""
-            if base is None or dest is None:
-                return
             self.assertRender(base, dest)
 
         test_parse_render.__doc__ = (

@@ -91,6 +91,14 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         cls._create_test(base, dest),
                         )
 
+            with files.chdir('errors'):
+                for source in sorted(glob.glob('*.source')):
+                    base = source[:-len(".source")]
+                    yield (
+                        "test_{}_failure".format(base),
+                        cls._create_failure(base),
+                        )
+
     @classmethod
     def _create_test(cls, base, dest):
         """Return a function testing that `base` compilation in `dest` format.
@@ -103,6 +111,24 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         test_parse_render.__doc__ = (
             "Test that '{base}' is correctly parsed and rendererd into '{format}' format."
             ).format(base=os.path.basename(base), format=dest)
+        return test_parse_render
+
+    @classmethod
+    def _create_failure(cls, base):
+        """Return a function testing that `base` fails.
+        """
+
+        def test_parse_render(self):
+            """Test that `base` parsing fails."""
+            sourcename = "{}.source".format(base)
+            with self.chdir():
+                with files.chdir('errors'):
+                    parser = self.song_plugins[LANGUAGES['sgc']]['sgc']
+                    self.assertRaises(SyntaxError, parser, sourcename, self.config)
+
+        test_parse_render.__doc__ = (
+            "Test that '{base}' parsing fails."
+            ).format(base=os.path.basename(base))
         return test_parse_render
 
     @classmethod

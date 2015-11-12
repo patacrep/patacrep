@@ -320,6 +320,5 @@ def parse_song(content, filename=None):
         )
     if parsed_content is None:
         # There was a fatal error parsing the content
-        # TODO: implement error handling by looking into parser
-        raise Exception('The song could not be parsed')
+        raise SyntaxError('Fatal error during song parsing: {}'.format(filename))
     return parsed_content

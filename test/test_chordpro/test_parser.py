@@ -47,10 +47,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def chdir():
         """Context to temporarry change current directory to this file directory
         """
-        olddir = os.getcwd()
-        os.chdir(resource_filename(__name__, ""))
-        yield
-        os.chdir(olddir)
+        with files.chdir(resource_filename(__name__, "")):
+            yield
 
     def assertRender(self, base, destformat): # pylint: disable=invalid-name
         """Assert that `{base}.source` is correctly rendered in the `destformat`.

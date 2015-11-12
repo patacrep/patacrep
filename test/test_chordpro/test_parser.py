@@ -114,7 +114,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Return a function testing that `base` parsing fails.
         """
 
-        def test_parse_render(self):
+        def test_parse_failure(self):
             """Test that `base` parsing fails."""
             sourcename = "{}.source".format(base)
             with self.chdir():
@@ -122,10 +122,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     parser = self.song_plugins[LANGUAGES['sgc']]['sgc']
                     self.assertRaises(SyntaxError, parser, sourcename, self.config)
 
-        test_parse_render.__doc__ = (
+        test_parse_failure.__doc__ = (
             "Test that '{base}' parsing fails."
             ).format(base=os.path.basename(base))
-        return test_parse_render
+        return test_parse_failure
 
     @classmethod
     def _overwrite_clrf(cls):

@@ -52,6 +52,9 @@ SONG_RENDERERS = {
     "tsg": {
         'tis': Latex2LatexSong,
         'tsg': Latex2LatexSong,
+
+        # For backward compatibility
+        'sg': Latex2LatexSong,
     },
 }
 

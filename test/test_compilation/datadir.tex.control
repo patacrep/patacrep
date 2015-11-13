@@ -139,9 +139,9 @@ Chordpro}[
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir2.tsg
+%% songs/./datadir2.sg
 
-\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir2.tsg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir2.sg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./relative.csg

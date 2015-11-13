@@ -15,7 +15,10 @@ from patacrep.encoding import open_read
 from .. import disable_logging
 from .. import dynamic # pylint: disable=unused-import
 
-OUTPUTS = ['csg', 'tsg', 'html']
+OUTPUTS = {
+    'csg': ['csg', 'tsg', 'html'],
+    'tsg': ['tsg'],
+}
 
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of chorpro parser, and several renderers.
@@ -81,7 +84,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             for source in sorted(glob.glob('*.*.source')):
                 [*base, in_format, _] = source.split('.')
                 base = '.'.join(base)
-                for out_format in OUTPUTS:
+                for out_format in OUTPUTS[in_format]:
                     outname = "{}.{}".format(base, out_format)
                     if not os.path.exists(outname):
                         continue

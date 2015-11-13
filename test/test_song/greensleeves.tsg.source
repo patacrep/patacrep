@@ -1,0 +1,68 @@
+\selectlanguage{english}
+\songcolumns{2}
+
+\beginsong{Greensleeves\\
+Un autre sous-titre\\
+Un sous titre}[
+  by={
+         Traditionnel  },
+  album={Angleterre},
+    cover={img/traditionnel},
+]
+
+\cover
+
+
+
+\lilypond{scores/greensleeves.ly}
+
+
+
+\begin{verse}
+    A\[Am]las, my love, ye \[G]do me wrong
+    To \[Am]cast me oft dis\[E]curteously
+    And \[Am]I have loved \[G]you so long
+    De\[Am]lighting \[E]in your \[Am]companie
+\end{verse}
+
+
+\begin{chorus}
+    \[C]Green\[B]sleeves was \[G]all my joy
+    \[Am]Greensleeves was \[E]my delight
+    \[C]Greensleeves was my \[G]heart of gold
+    And \[Am]who but \[E]Ladie \[Am]Greensleeves
+\end{chorus}
+
+
+\begin{verse}
+    I \[Am]have been ready \[G]at your hand
+    To \[Am]grant what ever \[E]you would crave
+    I \[Am]have both waged \[G]life and land
+    Your \[Am]love and \[E]good will \[Am]for to have
+\end{verse}
+
+
+\begin{verse}
+    I \[Am]bought thee kerchers \[G]to thy head
+    That \[Am]were wrought fine and \[E]gallantly
+    I \[Am]kept thee both at \[G]boord and bed
+    Which \[Am]cost my \[E]purse well \[Am]favouredly
+\end{verse}
+
+
+\begin{verse}
+    I \[Am]bought thee peticotes \[G]of the best
+    The \[Am]cloth so fine as \[E]fine might be
+    I \[Am]gave thee jewels \[G]for thy chest
+    And \[Am]all this \[E]cost I \[Am]spent on thee
+\end{verse}
+
+
+\begin{verse}
+    Thy \[Am]smock of silke, both \[G]faire and white
+    With \[Am]gold embrodered \[E]gorgeously
+    Thy \[Am]peticote of \[G]sendall right
+    And \[Am]this I \[E]bought thee \[Am]gladly
+\end{verse}
+
+\endsong

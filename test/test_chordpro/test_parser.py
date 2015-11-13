@@ -145,7 +145,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 """
         with cls.chdir():
             for crlfname in sorted(glob.glob('*.crlf.*.source')):
-                [*base, crlf, in_format, _] = crlfname.split('.')
+                [*base, _crlf, in_format, _] = crlfname.split('.')
                 base = '.'.join(base + [in_format])
                 with open(crlfname, 'w') as crlffile:
                     crlffile.write(crlf_msg.format(base))

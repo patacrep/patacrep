@@ -20,9 +20,12 @@ OUTPUTS = ['csg', 'tsg', 'html']
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of chorpro parser, and several renderers.
 
-    For any given `foo.source`, it is parsed as a chordpro file, and should be
-    rendered as `foo.csg` with the chordpro renderer, and `foo.tsg` with the
-    latex renderer.
+    For any given `foo.input_format.source`, the file is parsed as `input_format` and
+    rendered as many times as a `foo.out_format` exists (if `out_format` is a supported
+    output format).
+
+    For instance `foo.csg.source` (chordpro song) will be rendered as LaTeX, if a file
+    `foo.tsg` exitsts. The result of the rendering will be compared with the `foo.tsg` file.
 
     This class does nothing by itself, but its metaclass populates it with test
     methods testing parser and renderers.
@@ -47,7 +50,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             yield
 
     def assertRender(self, base, in_format, out_format): # pylint: disable=invalid-name
-        """Assert that `{base}.source` is correctly rendered in the `out_format`.
+        """Assert that `{base}.{in_format}.source` is correctly rendered in the `out_format`.
         """
         sourcename = "{}.{}.source".format(base, in_format)
         destname = "{}.{}".format(base, out_format)

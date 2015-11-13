@@ -17,7 +17,7 @@ def __usage():
     return "python3 -m patacrep.songs.convert INPUTFORMAT OUTPUTFORMAT FILES"
 
 def confirm(destname):
-    while True
+    while True:
         try:
             return yesno(input("File '{}' already exist. Overwrite? [yn] ".format(destname)))
         except ValueError:
@@ -62,7 +62,7 @@ if __name__ == "__main__":
                 if not confirm(destname):
                     continue
             with open(destname, "w") as destfile:
-                destfile.write(song.render(dest))
+                destfile.write(song.render('song'))
 
         except NotImplementedError:
             LOGGER.error("Cannot convert to format '%s'.", dest)

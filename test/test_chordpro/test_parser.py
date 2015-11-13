@@ -15,17 +15,13 @@ from patacrep.encoding import open_read
 from .. import disable_logging
 from .. import dynamic # pylint: disable=unused-import
 
-LANGUAGES = {
-    'tex': 'latex',
-    'sgc': 'chordpro',
-    'html': 'html',
-}
+OUTPUTS = ['csg', 'tsg', 'html']
 
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of chorpro parser, and several renderers.
 
     For any given `foo.source`, it is parsed as a chordpro file, and should be
-    rendered as `foo.sgc` with the chordpro renderer, and `foo.tex` with the
+    rendered as `foo.csg` with the chordpro renderer, and `foo.tsg` with the
     latex renderer.
 
     This class does nothing by itself, but its metaclass populates it with test
@@ -50,15 +46,15 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         with files.chdir(resource_filename(__name__, ""), *path):
             yield
 
-    def assertRender(self, base, destformat): # pylint: disable=invalid-name
-        """Assert that `{base}.source` is correctly rendered in the `destformat`.
+    def assertRender(self, base, in_format, out_format): # pylint: disable=invalid-name
+        """Assert that `{base}.source` is correctly rendered in the `out_format`.
         """
-        sourcename = "{}.source".format(base)
-        destname = "{}.{}".format(base, destformat)
+        sourcename = "{}.{}.source".format(base, in_format)
+        destname = "{}.{}".format(base, out_format)
         with self.chdir():
             with open_read(destname) as expectfile:
                 with disable_logging():
-                    song = self.song_plugins[LANGUAGES[destformat]]['sgc'](sourcename, self.config)
+                    song = self.song_plugins[out_format][in_format](sourcename, self.config)
                     self.assertMultiLineEqual(
                         song.render().strip(),
                         expectfile.read().strip(),
@@ -79,45 +75,47 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             keyword='SONG_RENDERERS',
             )
         with cls.chdir():
-            for source in sorted(glob.glob('*.source')):
-                base = source[:-len(".source")]
-                for dest in LANGUAGES:
-                    destname = "{}.{}".format(base, dest)
-                    if not os.path.exists(destname):
+            for source in sorted(glob.glob('*.*.source')):
+                [*base, in_format, _] = source.split('.')
+                base = '.'.join(base)
+                for out_format in OUTPUTS:
+                    outname = "{}.{}".format(base, out_format)
+                    if not os.path.exists(outname):
                         continue
                     yield (
-                        "test_{}_{}".format(base, dest),
-                        cls._create_test(base, dest),
+                        "test_{}_{}_2_{}".format(base, in_format, out_format),
+                        cls._create_test(base, in_format, out_format),
                         )
 
             with cls.chdir('errors'):
-                for source in sorted(glob.glob('*.source')):
-                    base = source[:-len(".source")]
+                for source in sorted(glob.glob('*.*.source')):
+                    [*base, in_format, _] = source.split('.')
+                    base = '.'.join(base)
                     yield (
-                        "test_{}_failure".format(base),
-                        cls._create_failure(base),
+                        "test_{}_{}_failure".format(base, in_format),
+                        cls._create_failure(base, in_format),
                         )
 
     @classmethod
-    def _create_test(cls, base, dest):
-        """Return a function testing that `base` compilation in `dest` format.
+    def _create_test(cls, base, in_format, out_format):
+        """Return a function testing that `base` compilation in `out_format` format.
         """
-        test_parse_render = lambda self: self.assertRender(base, dest)
+        test_parse_render = lambda self: self.assertRender(base, in_format, out_format)
         test_parse_render.__doc__ = (
-            "Test that '{base}' is correctly parsed and rendererd into '{format}' format."
-            ).format(base=os.path.basename(base), format=dest)
+            "Test that '{base}.{in_format}' is correctly parsed and rendererd into '{out_format}'."
+            ).format(base=os.path.basename(base), in_format=in_format, out_format=out_format)
         return test_parse_render
 
     @classmethod
-    def _create_failure(cls, base):
+    def _create_failure(cls, base, in_format, out_format='tsg'):
         """Return a function testing that `base` parsing fails.
         """
 
         def test_parse_failure(self):
             """Test that `base` parsing fails."""
-            sourcename = "{}.source".format(base)
+            sourcename = "{}.{}.source".format(base, in_format)
             with self.chdir('errors'):
-                parser = self.song_plugins[LANGUAGES['sgc']]['sgc']
+                parser = self.song_plugins[out_format][in_format]
                 self.assertRaises(SyntaxError, parser, sourcename, self.config)
 
         test_parse_failure.__doc__ = (
@@ -130,9 +128,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Overwrite `*.crlf.source` files to force the CRLF line endings.
         """
         with cls.chdir():
-            for crlfname in sorted(glob.glob('*.crlf.source')):
-                base = crlfname[:-len(".crlf.source")]
-                sourcename = base + ".source"
+            for crlfname in sorted(glob.glob('*.crlf.*.source')):
+                [*base, _, in_format, source] = crlfname.split('.')
+                sourcename = '.'.join(base + [in_format, source])
                 with open_read(sourcename) as sourcefile:
                     with open(crlfname, 'w') as crlffile:
                         for line in sourcefile:
@@ -146,7 +144,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 # with windows line endings (CRLF) - for testing purposes
 """
         with cls.chdir():
-            for crlfname in sorted(glob.glob('*.crlf.source')):
-                base = crlfname[:-len(".crlf.source")]
+            for crlfname in sorted(glob.glob('*.crlf.*.source')):
+                [*base, crlf, in_format, _] = crlfname.split('.')
+                base = '.'.join(base + [in_format])
                 with open(crlfname, 'w') as crlffile:
                     crlffile.write(crlf_msg.format(base))

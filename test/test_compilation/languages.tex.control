@@ -91,7 +91,7 @@ guitar,
 
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./language.sgc
+%% songs/./language.csg
 
 \selectlanguage{english}
 
@@ -110,7 +110,7 @@ guitar,
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./language_location.sgc
+%% songs/./language_location.csg
 
 \selectlanguage{french}
 
@@ -129,7 +129,7 @@ guitar,
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./no_language.sgc
+%% songs/./no_language.csg
 
 \selectlanguage{english}
 
@@ -148,7 +148,7 @@ guitar,
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./wrong_language.sgc
+%% songs/./wrong_language.csg
 
 \selectlanguage{english}
 
@@ -167,7 +167,7 @@ guitar,
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./wrong_location.sgc
+%% songs/./wrong_location.csg
 
 \selectlanguage{spanish}
 

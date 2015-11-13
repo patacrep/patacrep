@@ -131,13 +131,13 @@ class Chordpro2ChordproSong(ChordproSong):
         return filename
 
 SONG_RENDERERS = {
-    "latex": {
-        'sgc': Chordpro2LatexSong,
+    "tsg": {
+        'csg': Chordpro2LatexSong,
         },
     "html": {
-        'sgc': Chordpro2HtmlSong,
+        'csg': Chordpro2HtmlSong,
         },
-    "chordpro": {
-        'sgc': Chordpro2ChordproSong,
+    "csg": {
+        'csg': Chordpro2ChordproSong,
         },
     }

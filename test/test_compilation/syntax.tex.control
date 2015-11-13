@@ -88,7 +88,7 @@ guitar,
 
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./musicnote.sgc
+%% songs/./musicnote.csg
 
 \selectlanguage{english}
 

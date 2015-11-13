@@ -33,7 +33,7 @@ def parse(keyword, argument, contentlist, config):
     """
     if not contentlist:
         LOGGER.warning(
-            "Useless 'tsg' content: list of files to include is empty."
+            "Useless 'tex' content: list of files to include is empty."
             )
     filelist = []
     basefolders = itertools.chain(
@@ -62,4 +62,4 @@ def parse(keyword, argument, contentlist, config):
     return filelist
 
 
-CONTENT_PLUGINS = {'tsg': parse}
+CONTENT_PLUGINS = {'tex': parse}

@@ -109,7 +109,7 @@ class Songbook(object):
             datadirs=config.get('datadir', []),
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
-            )['latex']
+            )['tsg']
 
         # Configuration set
         config['render'] = content.render

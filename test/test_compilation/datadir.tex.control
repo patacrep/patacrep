@@ -90,12 +90,7 @@ guitar,
 
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir.sg
-
-\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir.sg}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir.sgc
+%% songs/./datadir.csg
 
 \selectlanguage{english}
 
@@ -117,12 +112,12 @@ Chordpro}[
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir2.sg
+%% songs/./datadir.tsg
 
-\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir2.sg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir.tsg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./datadir2.sgc
+%% songs/./datadir2.csg
 
 \selectlanguage{english}
 
@@ -144,12 +139,12 @@ Chordpro}[
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./relative.sg
+%% songs/./datadir2.tsg
 
-\import{@TEST_FOLDER@/datadir_datadir/songs/}{relative.sg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir2.tsg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./relative.sgc
+%% songs/./relative.csg
 
 \selectlanguage{english}
 
@@ -171,12 +166,12 @@ Chordpro}[
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./subdir/subdir.sg
+%% songs/./relative.tsg
 
-\import{@TEST_FOLDER@/datadir_datadir/songs/subdir/}{subdir.sg}
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{relative.tsg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./subdir/subdir.sgc
+%% songs/./subdir/subdir.csg
 
 \selectlanguage{english}
 
@@ -196,6 +191,11 @@ Chordpro}[
 
 
 \endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./subdir/subdir.tsg
+
+\import{@TEST_FOLDER@/datadir_datadir/songs/subdir/}{subdir.tsg}
 
 \end{songs}
 

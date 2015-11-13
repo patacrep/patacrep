@@ -49,9 +49,9 @@ class Latex2LatexSong(Song):
         self.lang = custom_lang
 
 SONG_RENDERERS = {
-    "latex": {
-        'is': Latex2LatexSong,
-        'sg': Latex2LatexSong,
+    "tsg": {
+        'tis': Latex2LatexSong,
+        'tsg': Latex2LatexSong,
     },
 }
 

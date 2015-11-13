@@ -62,7 +62,7 @@ if __name__ == "__main__":
                 if not confirm(destname):
                     continue
             with open(destname, "w") as destfile:
-                destfile.write(song.render('song'))
+                destfile.write(song.render())
 
         except NotImplementedError:
             LOGGER.error("Cannot convert to format '%s'.", dest)

@@ -153,7 +153,6 @@ def main():
         # Command line options
         datadirs += [item[0] for item in options.datadir]
     if 'datadir' in songbook:
-        # .sg file
         if isinstance(songbook['datadir'], str):
             songbook['datadir'] = [songbook['datadir']]
         datadirs += [

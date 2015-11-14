@@ -27,7 +27,7 @@ class ChordproParser(Parser):
             write_tables=0,
             )
 
-    def parse(self, content):
+    def parse(self, content, *, lexer):
         """Parse file
 
         This is a shortcut to `yacc.yacc(...).parse()`. The arguments are
@@ -309,9 +309,17 @@ class ChordproParser(Parser):
             token = self.parser.token()
             if not token or token.type == "ENDOFLINE":
                 break
-        self.parser.errok()
+        if token:
+            self.parser.errok()
         return token
 
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
-    return ChordproParser(filename).parse(content)
+    parser = ChordproParser(filename)
+    parsed_content = parser.parse(
+        content,
+        lexer=ChordProLexer(filename=filename).lexer,
+        )
+    if parsed_content is None:
+        raise SyntaxError('Fatal error during song parsing: {}'.format(filename))
+    return parsed_content

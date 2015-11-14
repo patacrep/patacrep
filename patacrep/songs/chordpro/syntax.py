@@ -19,28 +19,30 @@ class ChordproParser(Parser):
     def __init__(self, filename=None):
         super().__init__()
         self.tokens = tokens
-        self.song = ast.Song(filename)
         self.filename = filename
+        self._directives = []
         self.parser = yacc.yacc(
             module=self,
             debug=0,
             write_tables=0,
             )
 
-    def parse(self, *args, **kwargs):
+    def parse(self, content, *, lexer):
         """Parse file
 
         This is a shortcut to `yacc.yacc(...).parse()`. The arguments are
         transmitted to this method.
         """
-        return self.parser.parse(*args, **kwargs)
+        lexer = ChordProLexer(filename=self.filename).lexer
+        ast.AST.lexer = lexer
+        return self.parser.parse(content, lexer=lexer)
 
     def p_song(self, symbols):
         """song : block song
                 | empty
         """
         if len(symbols) == 2:
-            symbols[0] = self.song
+            symbols[0] = ast.Song(self.filename, self._directives)
         else:
             symbols[0] = symbols[2].add(symbols[1])
 
@@ -158,14 +160,14 @@ class ChordproParser(Parser):
                     )
                 symbols[0] = ast.Error()
                 return
-            self.song.add(define)
+            self._directives.append(define)
 
         else:
             directive = ast.Directive(keyword, argument)
             if directive.inline:
                 symbols[0] = directive
             else:
-                self.song.add(directive)
+                self._directives.append(directive)
 
 
     @staticmethod

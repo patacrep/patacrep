@@ -2,6 +2,8 @@
 
 import logging
 
+from patacrep.songs import errors
+
 LOGGER = logging.getLogger()
 
 class Parser:
@@ -10,6 +12,7 @@ class Parser:
 
     def __init__(self):
         self.filename = "" # Will be overloaded
+        self._errors = []
 
     @staticmethod
     def __find_column(token):
@@ -42,11 +45,17 @@ class Parser:
     def p_error(self, token):
         """Manage parsing errors."""
         if token is None:
-            self.error(
+            error = errors.SongSyntaxError(
+                line=None,
                 message="Unexpected end of file.",
                 )
+            self.error(message=error.message)
         else:
-            self.error(
+            error = errors.SongSyntaxError(
                 line=token.lineno,
+                message="Syntax error",
+                )
+            self.error(
+                line=error.line,
                 column=self.__find_column(token),
                 )

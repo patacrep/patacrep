@@ -223,7 +223,7 @@ class Song(AST):
         "tag": "add_cumulative",
         }
 
-    def __init__(self, filename, directives):
+    def __init__(self, filename, directives, *, errors=None):
         super().__init__()
         self.content = []
         self.meta = OrderedDict()
@@ -231,6 +231,10 @@ class Song(AST):
         self._titles = []
         self._subtitles = []
         self.filename = filename
+        if errors is None:
+            self.errors = []
+        else:
+            self.errors = errors
         for directive in directives:
             self.add(directive)
 

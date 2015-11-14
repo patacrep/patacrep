@@ -108,6 +108,7 @@ class Song:
         self.encoding = config["encoding"]
         self.default_lang = config["lang"]
         self.config = config
+        self.errors = []
 
         if self._cache_retrieved():
             return

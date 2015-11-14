@@ -5,6 +5,7 @@ import ply.yacc as yacc
 import re
 
 from patacrep.songs.syntax import Parser
+from patacrep.songs import errors
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
@@ -42,7 +43,11 @@ class ChordproParser(Parser):
                 | empty
         """
         if len(symbols) == 2:
-            symbols[0] = ast.Song(self.filename, self._directives)
+            symbols[0] = ast.Song(
+                self.filename,
+                directives=self._directives,
+                errors=self._errors,
+                )
         else:
             symbols[0] = symbols[2].add(symbols[1])
 
@@ -140,24 +145,29 @@ class ChordproParser(Parser):
 
             if match is None:
                 if argument.strip():
-                    self.error(
+                    error = errors.SongSyntaxError(
                         line=symbols.lexer.lineno,
                         message="Invalid chord definition '{}'.".format(argument),
                         )
+                    self.error(line=error.line, message=error.message)
                 else:
-                    self.error(
+                    error = errors.SongSyntaxError(
                         line=symbols.lexer.lineno,
                         message="Invalid empty chord definition.",
                         )
+                    self.error(line=error.line, message=error.message)
+                self._errors.append(error)
                 symbols[0] = ast.Error()
                 return
 
             define = self._parse_define(match.groupdict())
             if define is None:
-                self.error(
+                error = errors.SongSyntaxError(
                     line=symbols.lexer.lineno,
                     message="Invalid chord definition '{}'.".format(argument),
                     )
+                self.error(line=error.line, message=error.message)
+                self._errors.append(error)
                 symbols[0] = ast.Error()
                 return
             self._directives.append(define)
@@ -186,10 +196,14 @@ class ChordproParser(Parser):
         else:
             symbols[0] = None
 
-    @staticmethod
-    def p_line_error(symbols):
+    def p_line_error(self, symbols):
         """line_error : error directive"""
-        LOGGER.error("Directive can only be preceded or followed by spaces")
+        error = errors.SongSyntaxError(
+            line=symbols.lexer.lineno,
+            message="Directive can only be preceded or followed by spaces",
+            )
+        self._errors.append(error)
+        LOGGER.error(error.message)
         symbols[0] = ast.Line()
 
     @staticmethod
@@ -321,5 +335,8 @@ def parse_song(content, filename=None):
         lexer=ChordProLexer(filename=filename).lexer,
         )
     if parsed_content is None:
+        # pylint: disable=fixme
+        # TODO: Provide a nicer error (an empty song?)
+        # TODO: Add an error to the song.errors list.
         raise SyntaxError('Fatal error during song parsing: {}'.format(filename))
     return parsed_content

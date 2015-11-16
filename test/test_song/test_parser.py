@@ -61,9 +61,13 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             with open_read(destname) as expectfile:
                 with disable_logging():
                     song = self.song_plugins[out_format][in_format](sourcename, self.config)
+                    expected = expectfile.read().strip().replace(
+                        "@TEST_FOLDER@",
+                        files.path2posix(resource_filename(__name__, "")),
+                        )
                     self.assertMultiLineEqual(
                         song.render().strip(),
-                        expectfile.read().strip(),
+                        expected,
                         )
 
     @classmethod

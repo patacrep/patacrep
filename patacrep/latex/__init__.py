@@ -90,7 +90,7 @@ class UnknownLanguage(Exception):
 def checklanguage(lang):
     """Check that `lang` is a known language.
 
-    Raise an :class:`UnknownLanguage` excetipn if not.
+    Raise an :class:`UnknownLanguage` exception if not.
     """
     # Exact match
     if lang.lower() in BABEL_LANGUAGES:
@@ -118,7 +118,7 @@ def checklanguage(lang):
         fallback="en_us",
         message=(
             "Unknown language code '{}' (supported: {}). Using "
-            "default 'english' instead."
+            "default 'en_us' instead."
             ).format(
                 lang,
                 available

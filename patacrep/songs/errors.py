@@ -1,12 +1,13 @@
 """Errors in song definition (syntax errors, and so on)"""
 
-class SongError:
+class SongError(Exception):
     """Generic song error"""
     # pylint: disable=too-few-public-methods
 
     type = "generic"
 
     def __init__(self, message):
+        super().__init__()
         self.message = message
 
     def __str__(self):

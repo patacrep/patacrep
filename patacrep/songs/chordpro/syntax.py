@@ -7,6 +7,7 @@ import re
 from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
+from patacrep.songs import errors
 
 LOGGER = logging.getLogger()
 
@@ -331,5 +332,15 @@ def parse_song(content, filename=None):
         # TODO: Provide a nicer error (an empty song?)
         # TODO: Add an error to the song.errors list.
         #       using parser._errors
-        raise SyntaxError('Fatal error during song parsing: {}'.format(filename))
+
+        # pylint: disable=protected-access
+        if parser._errors:
+            # The line where it started to go wrong
+            lineno = parser._errors[-1].line
+        else:
+            lineno = None
+        raise errors.SongSyntaxError(
+            message='Fatal error during song parsing: {}'.format(filename),
+            line=lineno,
+            )
     return parsed_content

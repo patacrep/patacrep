@@ -24,7 +24,14 @@ class Parser:
         return column
 
     def error(self, *, line=None, column=None, message=""):
-        """Display an error message"""
+        """Record and display an error message"""
+        self._errors.append(
+            errors.SongSyntaxError(
+                line=line,
+                message=message,
+            )
+        )
+
         coordinates = []
         if line is not None:
             coordinates.append("line {}".format(line))
@@ -45,17 +52,10 @@ class Parser:
     def p_error(self, token):
         """Manage parsing errors."""
         if token is None:
-            error = errors.SongSyntaxError(
-                line=None,
-                message="Unexpected end of file.",
-                )
-            self.error(message=error.message)
+            self.error(message="Unexpected end of file.")
         else:
-            error = errors.SongSyntaxError(
-                line=token.lineno,
-                message="Syntax error",
-                )
             self.error(
-                line=error.line,
+                message="Syntax error",
+                line=token.lineno,
                 column=self.__find_column(token),
                 )

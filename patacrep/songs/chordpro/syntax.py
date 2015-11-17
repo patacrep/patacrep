@@ -5,7 +5,6 @@ import ply.yacc as yacc
 import re
 
 from patacrep.songs.syntax import Parser
-from patacrep.songs import errors
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 
@@ -145,29 +144,24 @@ class ChordproParser(Parser):
 
             if match is None:
                 if argument.strip():
-                    error = errors.SongSyntaxError(
+                    self.error(
                         line=symbols.lexer.lineno,
                         message="Invalid chord definition '{}'.".format(argument),
                         )
-                    self.error(line=error.line, message=error.message)
                 else:
-                    error = errors.SongSyntaxError(
+                    self.error(
                         line=symbols.lexer.lineno,
                         message="Invalid empty chord definition.",
                         )
-                    self.error(line=error.line, message=error.message)
-                self._errors.append(error)
                 symbols[0] = ast.Error()
                 return
 
             define = self._parse_define(match.groupdict())
             if define is None:
-                error = errors.SongSyntaxError(
+                self.error(
                     line=symbols.lexer.lineno,
                     message="Invalid chord definition '{}'.".format(argument),
                     )
-                self.error(line=error.line, message=error.message)
-                self._errors.append(error)
                 symbols[0] = ast.Error()
                 return
             self._directives.append(define)
@@ -198,12 +192,10 @@ class ChordproParser(Parser):
 
     def p_line_error(self, symbols):
         """line_error : error directive"""
-        error = errors.SongSyntaxError(
+        self.error(
             line=symbols.lexer.lineno,
             message="Directive can only be preceded or followed by spaces",
             )
-        self._errors.append(error)
-        LOGGER.error(error.message)
         symbols[0] = ast.Line()
 
     @staticmethod

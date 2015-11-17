@@ -330,5 +330,6 @@ def parse_song(content, filename=None):
         # pylint: disable=fixme
         # TODO: Provide a nicer error (an empty song?)
         # TODO: Add an error to the song.errors list.
+        #       using parser._errors
         raise SyntaxError('Fatal error during song parsing: {}'.format(filename))
     return parsed_content

@@ -24,7 +24,10 @@ class SongSyntaxError(SongError):
         self.line = line
 
     def __str__(self):
-        return "Line {}: {}".format(self.line, self.message)
+        if self.line is not None:
+            return "Line {}: {}".format(self.line, self.message)
+        else:
+            return self.message
 
 # class FileError(SongError):
 #     type = "file"

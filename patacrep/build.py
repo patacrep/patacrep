@@ -11,7 +11,7 @@ from subprocess import Popen, PIPE, call, check_call
 from patacrep import authors, content, errors, files
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer
-from patacrep.songs import DataSubpath
+from patacrep.songs import DataSubpath, DEFAULT_CONFIG
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
@@ -27,14 +27,6 @@ GENERATED_EXTENSIONS = [
     "_title.sbx",
     "_title.sxd",
     ]
-DEFAULT_CONFIG = {
-    'template': "default.tex",
-    'lang': 'en',
-    'content': [],
-    'titleprefixwords': [],
-    'encoding': None,
-    'datadir': [],
-    }
 
 
 

@@ -9,7 +9,7 @@ import unittest
 from pkg_resources import resource_filename
 
 from patacrep import files
-from patacrep.build import DEFAULT_CONFIG
+from patacrep.songs import DEFAULT_CONFIG
 from patacrep.encoding import open_read
 
 from .. import disable_logging

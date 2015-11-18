@@ -8,7 +8,7 @@ import logging
 import sys
 
 from patacrep import files
-from patacrep.build import DEFAULT_CONFIG
+from patacrep.songs import DEFAULT_CONFIG
 from patacrep.utils import yesno
 
 LOGGER = logging.getLogger(__name__)

@@ -130,8 +130,11 @@ class LatexParser(Parser):
     def p_dictionary(symbols):
         """dictionary : identifier EQUAL braces dictionary_next
                       | identifier EQUAL error dictionary_next
+                      | empty
         """
-        if isinstance(symbols[3], ast.Expression):
+        if len(symbols) == 2:
+            symbols[0] = {}
+        elif isinstance(symbols[3], ast.Expression):
             symbols[0] = {}
             symbols[0][symbols[1]] = symbols[3]
             symbols[0].update(symbols[4])

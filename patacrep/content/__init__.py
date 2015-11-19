@@ -180,8 +180,6 @@ def process_content(content, config=None):
     for elem in content:
         if isinstance(elem, str):
             elem = ["song", elem]
-        if len(content) == 0:
-            content = ["song"]
         try:
             match = keyword_re.match(elem[0]).groupdict()
         except AttributeError:

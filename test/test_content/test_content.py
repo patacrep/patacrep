@@ -85,21 +85,21 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         config = DEFAULT_CONFIG.copy()
 
-        datadirpath = os.path.join(os.path.dirname(__file__), 'datadir')
+        datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
 
-        config['datadir'] = [datadirpath]
+        config['datadir'] = datadirpaths
 
         config['_songdir'] = [
             DataSubpath(path, 'songs')
-            for path in config['datadir']
+            for path in datadirpaths
             ]
         config['_content_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+            datadirs=datadirpaths,
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
         config['_song_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+            datadirs=datadirpaths,
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']

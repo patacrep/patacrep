@@ -53,11 +53,11 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 sbcontent = json.load(sourcefile)
 
             expandedlist = content.process_content(sbcontent, cls.config.copy())
-            sourcelist = list(map(cls._clean_path, expandedlist))
+            sourcelist = [cls._clean_path(elem) for elem in expandedlist]
 
             controlname = "{}.control".format(base)
             if not os.path.exists(controlname):
-                raise Exception("Missing control:" + str(sourcelist).replace("'",'"'))
+                raise Exception("Missing control:" + str(sourcelist).replace("'", '"'))
             with open(controlname, mode="r", encoding="utf8") as controlfile:
                 controllist = json.load(controlfile)
 

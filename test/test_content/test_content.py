@@ -73,7 +73,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Shorten the path relative to the `songs` directory"""
         if isinstance(elem, SongRenderer):
             songpath = os.path.join(os.path.dirname(__file__), 'datadir', 'songs')
-            return os.path.normpath(files.relpath(elem.song.fullpath, songpath))
+            return files.path2posix(files.relpath(elem.song.fullpath, songpath))
         elif isinstance(elem, Section):
             return "{}:{}".format(elem.keyword, elem.name)
         else:

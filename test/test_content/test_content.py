@@ -84,7 +84,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             return "{}:{}".format(elem.keyword, elem.name)
 
         elif isinstance(elem, tex.LaTeX):
-            return elem.filename
+            return files.path2posix(elem.filename)
 
         else:
             raise Exception(elem)

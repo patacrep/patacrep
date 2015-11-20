@@ -75,7 +75,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             songpath = os.path.join(os.path.dirname(__file__), 'datadir', 'songs')
             return files.path2posix(files.relpath(elem.song.fullpath, songpath))
         elif isinstance(elem, Section):
-            return "{}:{}".format(elem.keyword, elem.name)
+            if elem.short is None:
+                return "{}:{}".format(elem.keyword, elem.name)
+            else:
+                return "{}:({}){}".format(elem.keyword, elem.short, elem.name)
         else:
             raise Exception(elem)
 

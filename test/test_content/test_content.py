@@ -9,8 +9,7 @@ import json
 
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
 from patacrep import content, files
-from patacrep.content.song import SongRenderer
-from patacrep.content.section import Section
+from patacrep.content import song, section, songsection
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -71,14 +70,19 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @classmethod
     def _clean_path(cls, elem):
         """Shorten the path relative to the `songs` directory"""
-        if isinstance(elem, SongRenderer):
+        if isinstance(elem, song.SongRenderer):
             songpath = os.path.join(os.path.dirname(__file__), 'datadir', 'songs')
             return files.path2posix(files.relpath(elem.song.fullpath, songpath))
-        elif isinstance(elem, Section):
+
+        elif isinstance(elem, section.Section):
             if elem.short is None:
                 return "{}:{}".format(elem.keyword, elem.name)
             else:
                 return "{}:({}){}".format(elem.keyword, elem.short, elem.name)
+
+        elif isinstance(elem, songsection.SongSection):
+            return "{}:{}".format(elem.keyword, elem.name)
+
         else:
             raise Exception(elem)
 

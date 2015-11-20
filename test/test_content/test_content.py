@@ -9,7 +9,7 @@ import json
 
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
 from patacrep import content, files
-from patacrep.content import song, section, songsection
+from patacrep.content import song, section, songsection, tex
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -82,6 +82,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         elif isinstance(elem, songsection.SongSection):
             return "{}:{}".format(elem.keyword, elem.name)
+
+        elif isinstance(elem, tex.LaTeX):
+            return elem.filename
 
         else:
             raise Exception(elem)

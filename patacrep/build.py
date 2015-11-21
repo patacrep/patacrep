@@ -40,7 +40,7 @@ class Songbook(object):
     """
 
     def __init__(self, raw_songbook, basename):
-        super(Songbook, self).__init__()
+        super().__init__()
         self.config = raw_songbook
         self.basename = basename
         # Some special keys have their value processed.

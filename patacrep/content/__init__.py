@@ -123,7 +123,7 @@ class Content(object):
 class ContentError(SongbookError):
     """Error in a content plugin."""
     def __init__(self, keyword, message):
-        super(ContentError, self).__init__()
+        super().__init__()
         self.keyword = keyword
         self.message = message
 

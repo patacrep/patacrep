@@ -228,7 +228,7 @@ class SongbookBuilder(object):
                 stderr=PIPE,
                 universal_newlines=True,
                 )
-        except Exception as error:
+        except FileNotFoundError as error:
             raise errors.ExecutableNotFound(compiler)
 
         # Test if lilypond compiler is accessible
@@ -242,7 +242,7 @@ class SongbookBuilder(object):
                     stderr=PIPE,
                     universal_newlines=True,
                     )
-            except Exception as error:
+            except FileNotFoundError as error:
                 raise errors.ExecutableNotFound(lilypond_compiler)
 
         # Perform compilation

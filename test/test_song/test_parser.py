@@ -12,7 +12,7 @@ from patacrep import files
 from patacrep.songs import DEFAULT_CONFIG
 from patacrep.encoding import open_read
 
-from .. import disable_logging
+from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
 
 OUTPUTS = {
@@ -59,7 +59,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         destname = "{}.{}".format(base, out_format)
         with self.chdir():
             with open_read(destname) as expectfile:
-                with disable_logging():
+                with logging_reduced():
                     song = self.song_plugins[out_format][in_format](sourcename, self.config)
                     expected = expectfile.read().strip().replace(
                         "@TEST_FOLDER@",

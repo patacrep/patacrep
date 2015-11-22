@@ -10,8 +10,8 @@ import json
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
 from patacrep import content, files
 from patacrep.content import song, section, songsection, tex
-from patacrep.utils import logging_reduced
 
+from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
 
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):

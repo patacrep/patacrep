@@ -80,9 +80,9 @@ def yesno(string):
         ))
 
 @contextlib.contextmanager
-def logging_reduced(module_name):
+def logging_reduced(module_name, tmp_level=logging.CRITICAL):
     logger = logging.getLogger(module_name)
-    previous_loglevel = logger.getEffectiveLevel()
-    logger.setLevel(logging.CRITICAL)
+    old_level = logger.getEffectiveLevel()
+    logger.setLevel(tmp_level)
     yield
-    logger.setLevel(previous_loglevel)
+    logger.setLevel(old_level)

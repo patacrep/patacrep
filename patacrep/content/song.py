@@ -78,7 +78,7 @@ def parse(keyword, argument, contentlist, config):
             if not os.path.isdir(songdir.datadir):
                 continue
             with files.chdir(songdir.datadir):
-                # Starting with Python 3.5 glog can be recursive: **/*.csg for instance
+                # Starting with Python 3.5 glob can be recursive: **/*.csg for instance
                 # for filename in glob.iglob(os.path.join(songdir.subpath, elem), recursive=True):
                 for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
                     LOGGER.debug('Parsing file "{}"…'.format(filename))

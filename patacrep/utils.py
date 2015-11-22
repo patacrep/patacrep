@@ -1,5 +1,8 @@
 """Some utility functions"""
 
+import contextlib
+import logging
+
 from collections import UserDict
 
 class DictOfDict(UserDict):
@@ -75,3 +78,11 @@ def yesno(string):
         string,
         ", ".join(["'{}'".format(string) for string in yes_strings + no_strings]),
         ))
+
+@contextlib.contextmanager
+def logging_reduced(module_name):
+    logger = logging.getLogger(module_name)
+    previous_loglevel = logger.getEffectiveLevel()
+    logger.setLevel(logging.CRITICAL)
+    yield
+    logger.setLevel(previous_loglevel)

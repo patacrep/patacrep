@@ -10,6 +10,7 @@ import json
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
 from patacrep import content, files
 from patacrep.content import song, section, songsection, tex
+from patacrep.utils import logging_reduced
 
 from .. import dynamic # pylint: disable=unused-import
 
@@ -51,7 +52,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             with open(sourcename, mode="r", encoding="utf8") as sourcefile:
                 sbcontent = json.load(sourcefile)
 
-            expandedlist = content.process_content(sbcontent, cls.config.copy())
+            with logging_reduced('patacrep.content.song'):
+                expandedlist = content.process_content(sbcontent, cls.config.copy())
             sourcelist = [cls._clean_path(elem) for elem in expandedlist]
 
             controlname = "{}.control".format(base)

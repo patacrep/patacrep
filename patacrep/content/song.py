@@ -78,7 +78,7 @@ def parse(keyword, argument, contentlist, config):
             if not os.path.isdir(songdir.datadir):
                 continue
             with files.chdir(songdir.datadir):
-                for filename in glob.iglob(os.path.join(songdir.subpath, elem)):
+                for filename in glob.iglob(os.path.join(songdir.subpath, elem), recursive=True):
                     LOGGER.debug('Parsing file "{}"…'.format(filename))
                     extension = filename.split(".")[-1]
                     if extension not in plugins:

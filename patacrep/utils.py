@@ -81,6 +81,8 @@ def yesno(string):
 
 @contextlib.contextmanager
 def logging_reduced(module_name, tmp_level=logging.CRITICAL):
+    """Temporarly reduce the logging level of a specific module
+    """
     logger = logging.getLogger(module_name)
     old_level = logger.getEffectiveLevel()
     logger.setLevel(tmp_level)

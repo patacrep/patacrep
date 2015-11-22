@@ -1,0 +1,10 @@
+\beginsong{Image included from a different datadir\\\LaTeX}
+  [cover={img/datadir2}]
+
+  \cover
+
+  \lilypond{scores/datadir2.ly}
+
+  \image{img/datadir2}
+
+\endsong

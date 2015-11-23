@@ -9,20 +9,15 @@ import unittest
 import patacrep
 
 @contextlib.contextmanager
-def logging_reduced(module_name=None, tmp_level=logging.CRITICAL):
-    """Temporarly reduce the logging level of a specific module
-    or globally if None
+def logging_reduced(module_name=None, level=logging.CRITICAL):
+    """Temporarly reduce the logging level of a specific module or globally if None
     """
-    if module_name:
-        logger = logging.getLogger(module_name)
-        old_level = logger.getEffectiveLevel()
-        logger.setLevel(tmp_level)
-        yield
-        logger.setLevel(old_level)
-    else:
-        logging.disable(logging.CRITICAL)
-        yield
-        logging.disable(logging.NOTSET)
+    logger = logging.getLogger(module_name)
+    old_level = logger.getEffectiveLevel()
+
+    logger.setLevel(level)
+    yield
+    logger.setLevel(old_level)
 
 def suite():
     """Return a :class:`TestSuite` object, testing all module :mod:`patacrep`.

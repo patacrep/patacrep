@@ -25,7 +25,7 @@ def cached_name(datadir, filename):
             raise
     return fullpath
 
-class DataSubpath(object):
+class DataSubpath:
     """A path divided in two path: a datadir, and its subpath.
 
     - This object can represent either a file or directory.

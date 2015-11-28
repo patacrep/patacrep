@@ -79,7 +79,7 @@ LOGGER = logging.getLogger(__name__)
 EOL = '\n'
 
 #pylint: disable=no-self-use
-class Content(object):
+class Content:
     """Content item. Will render to something in the .tex file.
 
     The current jinja2.runtime.Context is passed to all function defined

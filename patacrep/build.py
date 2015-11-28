@@ -39,7 +39,7 @@ DEFAULT_CONFIG = {
 
 
 # pylint: disable=too-few-public-methods
-class Songbook(object):
+class Songbook:
     """Represent a songbook (.sb) file.
 
     - Low level: provide a Python representation of the values stored in the
@@ -48,7 +48,6 @@ class Songbook(object):
     """
 
     def __init__(self, raw_songbook, basename):
-        super(Songbook, self).__init__()
         self.config = raw_songbook
         self.basename = basename
         # Some special keys have their value processed.
@@ -129,7 +128,7 @@ def _log_pipe(pipe):
             break
         LOGGER.debug(line.strip())
 
-class SongbookBuilder(object):
+class SongbookBuilder:
     """Provide methods to compile a songbook."""
 
     # if False, do not expect anything from stdin.

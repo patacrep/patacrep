@@ -48,21 +48,23 @@ class Songbook:
     """
 
     def __init__(self, raw_songbook, basename):
-        self.config = raw_songbook
+        self._raw_config = raw_songbook
         self.basename = basename
+        self._errors = list()
+        self._config = dict()
         # Some special keys have their value processed.
         self._set_datadir()
 
     def _set_datadir(self):
         """Set the default values for datadir"""
         try:
-            if isinstance(self.config['datadir'], str):
-                self.config['datadir'] = [self.config['datadir']]
+            if isinstance(self._raw_config['datadir'], str):
+                self._raw_config['datadir'] = [self._raw_config['datadir']]
         except KeyError:  # No datadir in the raw_songbook
-            self.config['datadir'] = [os.path.abspath('.')]
+            self._raw_config['datadir'] = [os.path.abspath('.')]
 
         abs_datadir = []
-        for path in self.config['datadir']:
+        for path in self._raw_config['datadir']:
             if os.path.exists(path) and os.path.isdir(path):
                 abs_datadir.append(os.path.abspath(path))
             else:
@@ -70,10 +72,10 @@ class Songbook:
                     "Ignoring non-existent datadir '{}'.".format(path)
                     )
 
-        self.config['datadir'] = abs_datadir
-        self.config['_songdir'] = [
+        self._raw_config['datadir'] = abs_datadir
+        self._raw_config['_songdir'] = [
             DataSubpath(path, 'songs')
-            for path in self.config['datadir']
+            for path in self._raw_config['datadir']
             ]
 
     def write_tex(self, output):
@@ -83,42 +85,60 @@ class Songbook:
         - output: a file object, in which the file will be written.
         """
         # Updating configuration
-        config = DEFAULT_CONFIG.copy()
-        config.update(self.config)
+        self._config = DEFAULT_CONFIG.copy()
+        self._config.update(self._raw_config)
         renderer = TexBookRenderer(
-            config['template'],
-            config['datadir'],
-            config['lang'],
-            config['encoding'],
+            self._config['template'],
+            self._config['datadir'],
+            self._config['lang'],
+            self._config['encoding'],
             )
-        config.update(renderer.get_variables())
-        config.update(self.config)
+        self._config.update(renderer.get_variables())
+        self._config.update(self._raw_config)
 
-        config['_compiled_authwords'] = authors.compile_authwords(
-            copy.deepcopy(config['authwords'])
+        self._config['_compiled_authwords'] = authors.compile_authwords(
+            copy.deepcopy(self._config['authwords'])
             )
 
         # Loading custom plugins
-        config['_content_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+        self._config['_content_plugins'] = files.load_plugins(
+            datadirs=self._config.get('datadir', []),
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
-        config['_song_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+        self._config['_song_plugins'] = files.load_plugins(
+            datadirs=self._config.get('datadir', []),
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']
 
         # Configuration set
-        config['render'] = content.render
-        config['content'] = content.process_content(
-            config.get('content', []),
-            config,
+        self._config['render'] = content.render
+        self._config['content'] = content.process_content(
+            self._config.get('content', []),
+            self._config,
             )
-        config['filename'] = output.name[:-4]
+        self._config['filename'] = output.name[:-4]
 
-        renderer.render_tex(output, config)
+        renderer.render_tex(output, self._config)
+
+    def has_errors(self):
+        """Return `True` iff errors have been encountered in the book.
+
+        Note that `foo.has_errors() == False` does not means that the book has
+        not any errors: it does only mean that no error has been found yet.
+        """
+        for i in self.iter_errors():
+            return True
+        return False
+
+    def iter_errors(self):
+        """Iterate over errors of book and book content."""
+        yield from self._errors
+        for content in self._config.get('content', list()):
+            if not hasattr(content, "iter_errors"):
+                continue
+            yield from content.iter_errors()
 
 def _log_pipe(pipe):
     """Log content from `pipe`."""

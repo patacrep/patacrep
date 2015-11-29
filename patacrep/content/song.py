@@ -18,6 +18,10 @@ class SongRenderer(Content):
         super().__init__()
         self.song = song
 
+    def iter_errors(self):
+        """Iterate over song errors."""
+        yield from self.song.errors
+
     def begin_new_block(self, previous, __context):
         """Return a boolean stating if a new block is to be created."""
         return not isinstance(previous, SongRenderer)

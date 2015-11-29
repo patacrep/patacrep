@@ -128,17 +128,17 @@ class Songbook:
         Note that `foo.has_errors() == False` does not means that the book has
         not any errors: it does only mean that no error has been found yet.
         """
-        for i in self.iter_errors():
+        for _ in self.iter_errors():
             return True
         return False
 
     def iter_errors(self):
         """Iterate over errors of book and book content."""
         yield from self._errors
-        for content in self._config.get('content', list()):
-            if not hasattr(content, "iter_errors"):
+        for item in self._config.get('content', list()):
+            if not hasattr(item, "iter_errors"):
                 continue
-            yield from content.iter_errors()
+            yield from item.iter_errors()
 
 def _log_pipe(pipe):
     """Log content from `pipe`."""

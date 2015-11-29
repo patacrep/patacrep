@@ -142,7 +142,7 @@ class ChordProLexer:
             )
         if self.filename is not None:
             message = "File {}: {}".format(self.filename, message)
-        LOGGER.error(message)
+        LOGGER.warning(message)
         token.lexer.skip(1)
 
     def t_error(self, token):

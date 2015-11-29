@@ -45,9 +45,9 @@ class Parser:
         else:
             text += "."
         if self.filename is None:
-            LOGGER.error(text)
+            LOGGER.warning(text)
         else:
-            LOGGER.error("File {}: {}".format(self.filename, text))
+            LOGGER.warning("File {}: {}".format(self.filename, text))
 
     def p_error(self, token):
         """Manage parsing errors."""

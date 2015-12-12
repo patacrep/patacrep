@@ -33,7 +33,7 @@ class ChordproSong(Song):
         self.titles = song.titles
         self.lang = song.get_data_argument('language', self.default_lang)
         self.data = song.meta
-        self.errors = song.errors
+        self.errors = [error(song=self) for error in song.error_builders]
         self.cached = {
             'song': song,
             }

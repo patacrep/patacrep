@@ -232,9 +232,9 @@ class Song(AST):
         self._subtitles = []
         self.filename = filename
         if errors is None:
-            self.errors = []
+            self.error_builders = []
         else:
-            self.errors = errors
+            self.error_builders = errors
         for directive in directives:
             self.add(directive)
 

@@ -136,6 +136,7 @@ class LatexParser(Parser):
             symbols[0][symbols[1]] = symbols[3]
             symbols[0].update(symbols[4])
         else:
+            # TODO put error in self.errors
             raise ParsingError("Do enclose arguments between braces.")
 
     @staticmethod

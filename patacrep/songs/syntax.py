@@ -1,5 +1,6 @@
 """Generic parsing classes and methods"""
 
+import functools
 import logging
 
 from patacrep.songs import errors
@@ -25,12 +26,11 @@ class Parser:
 
     def error(self, *, line=None, column=None, message=""):
         """Record and display an error message"""
-        self._errors.append(
-            errors.SongSyntaxError(
-                line=line,
-                message=message,
-            )
-        )
+        self._errors.append(functools.partial(
+            errors.SongSyntaxError,
+            line=line,
+            message=message,
+        ))
 
         coordinates = []
         if line is not None:

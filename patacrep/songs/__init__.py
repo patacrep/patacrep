@@ -180,8 +180,8 @@ class Song:
                 protocol=-1
                 )
 
-    def __repr__(self):
-        return repr((self.titles, self.data, self.fullpath))
+    def __str__(self):
+        return str(self.fullpath)
 
     def render(self, *args, **kwargs):
         """Return the code rendering this song.

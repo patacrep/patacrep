@@ -50,8 +50,8 @@ def parse(keyword, config, argument, contentlist):
                 ) as content_file:
                 new_content = json.load(content_file)
         except Exception as error: # pylint: disable=broad-except
-            LOGGER.error(error)
-            LOGGER.error("Error while loading file '{}'.".format(filepath))
+            LOGGER.warning(error)
+            LOGGER.warning("Error while loading file '{}'.".format(filepath))
             sys.exit(1)
 
         config["datadir"].append(os.path.abspath(os.path.dirname(filepath)))

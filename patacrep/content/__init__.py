@@ -145,7 +145,7 @@ def render(context, content):
     last = None
     for elem in content:
         if not isinstance(elem, Content):
-            LOGGER.error("Ignoring bad content item '{}'.".format(elem))
+            LOGGER.warning("Ignoring bad content item '{}'.".format(elem))
             continue
 
         last = elem

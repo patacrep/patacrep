@@ -7,8 +7,10 @@ import os
 import pickle
 import re
 
+from patacrep import errors as book_errors
 from patacrep import files, encoding
 from patacrep.authors import process_listauthors
+from patacrep.songs import errors as song_errors
 
 LOGGER = logging.getLogger(__name__)
 
@@ -106,7 +108,7 @@ class Song:
         self.subpath = subpath
         self._filehash = None
         self.encoding = config["encoding"]
-        self.default_lang = config["lang"]
+        self.lang = config["lang"]
         self.config = config
         self.errors = []
 
@@ -116,8 +118,7 @@ class Song:
         # Data extraction from the latex song
         self.titles = []
         self.data = {}
-        self.cached = None
-        self.lang = None
+        self.cached = {}
         self._parse()
 
         # Post processing of data

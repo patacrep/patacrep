@@ -1,13 +1,14 @@
 """ChordPro parser"""
 
+import functools
 import logging
 import ply.yacc as yacc
 import re
 
-from patacrep.songs.syntax import Parser
+from patacrep.songs import errors
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
-from patacrep.songs import errors
+from patacrep.songs.syntax import Parser
 
 LOGGER = logging.getLogger()
 
@@ -328,19 +329,13 @@ def parse_song(content, filename=None):
         lexer=ChordProLexer(filename=filename).lexer,
         )
     if parsed_content is None:
-        # pylint: disable=fixme
-        # TODO: Provide a nicer error (an empty song?)
-        # TODO: Add an error to the song.errors list.
-        #       using parser._errors
-
-        # pylint: disable=protected-access
-        if parser._errors:
-            # The line where it started to go wrong
-            lineno = parser._errors[-1].line
-        else:
-            lineno = None
-        raise errors.SongSyntaxError(
-            message='Fatal error during song parsing: {}'.format(filename),
-            line=lineno,
+        return ast.Song(
+            filename,
+            [],
+            errors=[functools.partial(
+                errors.SongSyntaxError,
+                line=parser._errors[-1].keywords['line'],
+                message='Fatal error during song parsing.',
+                )]
             )
     return parsed_content

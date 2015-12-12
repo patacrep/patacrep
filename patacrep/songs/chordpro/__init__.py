@@ -31,7 +31,7 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.lang = song.get_data_argument('language', self.default_lang)
+        self.lang = song.get_data_argument('language', self.lang)
         self.data = song.meta
         self.errors = [error(song=self) for error in song.error_builders]
         self.cached = {

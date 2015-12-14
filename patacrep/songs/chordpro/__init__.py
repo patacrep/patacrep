@@ -1,10 +1,11 @@
 """Chordpro parser"""
 
-from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
-import jinja2
 import logging
 import operator
 import os
+
+from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
+import jinja2
 
 from patacrep import encoding, files, pkg_datapath
 from patacrep.songs import Song

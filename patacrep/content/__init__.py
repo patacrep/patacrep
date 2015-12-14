@@ -66,11 +66,12 @@ More documentation in the docstring of Content.
 """
 
 import glob
-import jinja2
 import logging
 import os
 import re
 import sys
+
+import jinja2
 
 from patacrep import files
 from patacrep.errors import SongbookError

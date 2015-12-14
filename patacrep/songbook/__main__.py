@@ -1,12 +1,12 @@
 """Command line tool to compile songbooks using the songbook library."""
 
 import argparse
-import yaml
 import locale
 import logging
 import os.path
 import textwrap
 import sys
+import yaml
 
 from patacrep.build import SongbookBuilder, DEFAULT_STEPS
 from patacrep.utils import yesno

@@ -1,7 +1,7 @@
 """Command line tool to compile songbooks using the songbook library."""
 
 import argparse
-import json
+import yaml
 import locale
 import logging
 import os.path
@@ -135,13 +135,13 @@ def main():
 
     try:
         with patacrep.encoding.open_read(songbook_path) as songbook_file:
-            songbook = json.load(songbook_file)
+            songbook = yaml.load(songbook_file)
         if 'encoding' in songbook:
             with patacrep.encoding.open_read(
                 songbook_path,
                 encoding=songbook['encoding']
                 ) as songbook_file:
-                songbook = json.load(songbook_file)
+                songbook = yaml.load(songbook_file)
     except Exception as error: # pylint: disable=broad-except
         LOGGER.error(error)
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))

@@ -1,10 +1,11 @@
 """Global variables."""
 
-from pkg_resources import resource_filename
 import os
+import sys
+
+from pkg_resources import resource_filename
 
 # Check Python version
-import sys
 if sys.version_info < (3, 3):
     print("ERROR: Your Python version is too old. Please use a Python version > 3.3.")
     sys.exit(1)

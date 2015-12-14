@@ -1,8 +1,9 @@
 """ChordPro parser"""
 
 import logging
-import ply.yacc as yacc
 import re
+
+import ply.yacc as yacc
 
 from patacrep.songs.syntax import Parser
 from patacrep.songs.chordpro import ast

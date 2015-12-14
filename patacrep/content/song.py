@@ -1,10 +1,11 @@
 """Plugin to include songs to the songbook."""
 
 import glob
-import jinja2
 import logging
 import os
 import textwrap
+
+import jinja2
 
 from patacrep.content import process_content, ContentError, Content
 from patacrep import files, errors

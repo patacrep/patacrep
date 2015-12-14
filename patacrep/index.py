@@ -77,7 +77,7 @@ class Index(object):
 
     def add_keyword(self, key, word):
         """Add 'word' to self.keywords[key]."""
-        if not key in self.keywords:
+        if key not in self.keywords:
             self.keywords[key] = []
         self.keywords[key].append(word)
 
@@ -101,9 +101,9 @@ class Index(object):
         similar method with processing.
         """
         first = self.get_first_letter(key[0])
-        if not first in self.data:
+        if first not in self.data:
             self.data[first] = dict()
-        if not key in self.data[first]:
+        if key not in self.data[first]:
             self.data[first][key] = {
                 'sortingkey': [
                     unidecode.unidecode(tex2plain(item)).lower()

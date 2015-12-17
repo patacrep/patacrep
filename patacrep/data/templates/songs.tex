@@ -83,8 +83,8 @@
 (* for lang in _langs|sort -*)
     \PassOptionsToPackage{(( lang | lang2babel ))}{babel}
 (* endfor *)
-\usepackage[(( lang | lang2babel ))]{babel}
-\lang{(( lang | lang2babel ))}
+\usepackage[(( book.lang | lang2babel ))]{babel}
+\lang{(( book.lang | lang2babel ))}
 
 \usepackage{graphicx}
 \graphicspath{ %

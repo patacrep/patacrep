@@ -6,7 +6,6 @@
 #pylint: skip-file
 
 import re
-from six import string_types # for 2-3 compatibility
 import types
 from numbers import Number
 
@@ -146,7 +145,7 @@ class Factory(object):
     self.type_registry[uri] = { 'schema': schema }
 
   def make_schema(self, schema):
-    if isinstance(schema, string_types):
+    if isinstance(schema, str):
       schema = { 'type': schema }
 
     if not isinstance(schema, dict):
@@ -418,7 +417,7 @@ class OneType(_CoreType):
   def subname(): return 'one'
 
   def validate(self, value, name='value'):
-    if not isinstance(value, (Number, string_types)):
+    if not isinstance(value, (Number, str)):
       raise SchemaTypeMismatch(name, 'number or string')
 
 class RecType(_CoreType):
@@ -544,7 +543,7 @@ class StrType(_CoreType):
 
     self.value = None
     if 'value' in schema:
-      if not isinstance(schema['value'], string_types):
+      if not isinstance(schema['value'], str):
         raise SchemaError('invalid value parameter for //str')
       self.value = schema['value']
 
@@ -553,7 +552,7 @@ class StrType(_CoreType):
       self.length = Util.make_range_validator(schema['length'])
 
   def validate(self, value, name='value'):
-    if not isinstance(value, string_types):
+    if not isinstance(value, str):
       raise SchemaTypeMismatch(name, 'string')
     if self.value is not None and value != self.value:
       raise SchemaValueMismatch(name, '"{0}"'.format(self.value))

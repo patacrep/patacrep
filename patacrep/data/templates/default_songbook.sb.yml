@@ -15,14 +15,11 @@ chords: # Options relatives aux accords
 
 authors: # Comment sont analysés les auteurs
   separators:
-  - To
-  - Do
+  - and
   ignore:
-  - To
-  - Do
-  by:
-  - To
-  - Do
+  - unknown
+  after:
+  - by
 
 titles: # Comment sont analysés les titres
   prefix:

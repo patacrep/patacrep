@@ -59,7 +59,7 @@ required:
           - type: //arr
             contents: //str
           - type: //nil
-      by:
+      after:
         type: //any
         of:
           - type: //arr

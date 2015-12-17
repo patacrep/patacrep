@@ -5,11 +5,8 @@ import re
 
 LOGGER = logging.getLogger(__name__)
 
-DEFAULT_AUTHWORDS = {
-    "after": ["by"],
-    "ignore": ["unknown"],
-    "sep": ["and"],
-    }
+AUTHWORDS_KEYS = ["after", "ignore", "separators"]
+
 RE_AFTER = r"^.*\b{}\b(.*)$"
 RE_SEPARATOR = r"^(.*)\b *{} *(\b.*)?$"
 
@@ -19,18 +16,18 @@ def compile_authwords(authwords):
     This regexp will later be used to match these words in authors strings.
     """
     # Fill missing values
-    for (key, value) in DEFAULT_AUTHWORDS.items():
+    for key in AUTHWORDS_KEYS:
         if key not in authwords:
-            authwords[key] = value
+            authwords[key] = []
 
     # Compilation
     authwords['after'] = [
         re.compile(RE_AFTER.format(word), re.LOCALE)
         for word in authwords['after']
         ]
-    authwords['sep'] = [
+    authwords['separators'] = [
         re.compile(RE_SEPARATOR.format(word), re.LOCALE)
-        for word in ([" %s" % word for word in authwords['sep']] + [',', ';'])
+        for word in ([" %s" % word for word in authwords['separators']] + [',', ';'])
         ]
 
     return authwords
@@ -60,12 +57,12 @@ def split_author_names(string):
     return (chunks[-1].strip(), " ".join(chunks[:-1]).strip())
 
 
-def split_sep_author(string, sep):
+def split_sep_author(string, separators):
     """Split authors string according to separators.
 
     Arguments:
     - string: string containing authors names ;
-    - sep: regexp matching a separator.
+    - separators: regexp matching a separator.
 
     >>> split_sep_author("Tintin and Milou", re.compile(RE_SEPARATOR.format("and")))
     ['Tintin', 'Milou']
@@ -73,12 +70,12 @@ def split_sep_author(string, sep):
     ['Tintin']
     """
     authors = []
-    match = sep.match(string)
+    match = separators.match(string)
     while match:
         if match.group(2) is not None:
             authors.append(match.group(2).strip())
         string = match.group(1)
-        match = sep.match(string)
+        match = separators.match(string)
     authors.insert(0, string.strip())
     return authors
 
@@ -105,7 +102,7 @@ def processauthors_removeparen(authors_string):
             dest += char
     return dest
 
-def processauthors_split_string(authors_string, sep):
+def processauthors_split_string(authors_string, separators):
     """Split strings
 
     See docstring of processauthors() for more information.
@@ -121,7 +118,7 @@ def processauthors_split_string(authors_string, sep):
     ['Tintin', 'Milou']
     """
     authors_list = [authors_string]
-    for sepword in sep:
+    for sepword in separators:
         dest = []
         for author in authors_list:
             dest.extend(split_sep_author(author, sepword))
@@ -171,7 +168,7 @@ def processauthors_clean_authors(authors_list):
         if author.lstrip()
         ]
 
-def processauthors(authors_string, after=None, ignore=None, sep=None):
+def processauthors(authors_string, after=None, ignore=None, separators=None):
     r"""Return an iterator of authors
 
     For example, in the following call:
@@ -186,7 +183,7 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
     ...   **compile_authwords({
     ...         'after': ["by"],
     ...         'ignore': ["anonymous"],
-    ...         'sep': ["and", ","],
+    ...         'separators': ["and", ","],
     ...         })
     ...   )) == {("Blake", "William"), ("Parry", "Hubert"), ("Royal~Choir~of~FooBar", "The")}
     True
@@ -198,7 +195,7 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
     # "Lyrics by William Blake, music by Hubert Parry,
                 and sung by The Royal~Choir~of~FooBar"
 
-    2) String is split, separators being comma and words from "sep".
+    2) String is split, separators being comma and words from "separators".
     # ["Lyrics by William Blake", "music by Hubert Parry",
                 "sung by The Royal~Choir~of~FooBar"]
 
@@ -216,8 +213,8 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
     # ]
     """
 
-    if not sep:
-        sep = []
+    if not separators:
+        separators = []
     if not after:
         after = []
     if not ignore:
@@ -230,17 +227,17 @@ def processauthors(authors_string, after=None, ignore=None, sep=None):
                         processauthors_removeparen(
                             authors_string
                             ),
-                        sep),
+                        separators),
                     after),
                 ignore)
         ):
         yield split_author_names(author)
 
-def process_listauthors(authors_list, after=None, ignore=None, sep=None):
+def process_listauthors(authors_list, after=None, ignore=None, separators=None):
     """Process a list of authors, and return the list of resulting authors."""
     authors = []
     for sublist in [
-            processauthors(string, after, ignore, sep)
+            processauthors(string, after, ignore, separators)
             for string in authors_list
         ]:
         authors.extend(sublist)

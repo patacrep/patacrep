@@ -7,8 +7,10 @@ import os
 import unittest
 import json
 
+import yaml
+
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
-from patacrep import content, files
+from patacrep import content, encoding, files, pkg_datapath
 from patacrep.content import song, section, songsection, tex
 
 from .. import logging_reduced
@@ -95,10 +97,16 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def _generate_config(cls):
         """Generate the config to process the content"""
 
-        config = DEFAULT_CONFIG.copy()
+        # Load the default songbook config
+        default_songbook_path = pkg_datapath('templates', 'default_songbook.sb.yml')
+        with encoding.open_read(default_songbook_path) as default_songbook_file:
+            config = yaml.load(default_songbook_file)
+
+        #config = DEFAULT_CONFIG.copy()
 
         datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
 
+        # todo : yaml and testing?
         config['datadir'] = datadirpaths
 
         config['_songdir'] = [

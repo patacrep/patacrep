@@ -10,7 +10,7 @@ from subprocess import Popen, PIPE, call, check_call
 
 import yaml
 
-from patacrep import authors, content, errors, encoding, files, pkg_datapath, Rx, utils
+from patacrep import authors, content, errors, encoding, files, utils
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
@@ -43,7 +43,8 @@ class Songbook(object):
 
     def __init__(self, raw_songbook, basename):
         super().__init__()
-        self.config = check_config_schema(raw_songbook)
+        self.config = raw_songbook
+        utils.validate_config_schema(raw_songbook)
         self.basename = basename
         # Some special keys have their value processed.
         self._set_datadir()
@@ -328,20 +329,3 @@ class SongbookBuilder(object):
                     os.unlink(self.basename + ext)
                 except Exception as exception:
                     raise errors.CleaningError(self.basename + ext, exception)
-
-
-def check_config_schema(data):
-    """
-    Check that the data respect the excepted songbook schema
-
-    """
-    rx_checker = Rx.Factory({"register_core_types": True})
-    schema_path = pkg_datapath('templates', 'songbook_schema.yml')
-    with encoding.open_read(schema_path) as schema_file:
-        schema_struct = yaml.load(schema_file)
-    schema_struct = utils.remove_keys(schema_struct, ['_default', '_description'])
-    schema = rx_checker.make_schema(schema_struct)
-
-    if schema.check(data):
-        return data
-    raise errors.SBFileError('The songbook file does not respect the schema')

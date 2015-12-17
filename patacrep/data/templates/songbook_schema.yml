@@ -1,2 +1,89 @@
-type: //any
-_default: "test"
+type: //rec
+optional:
+  content: //str
+  book:
+    type: //rec
+    optional:
+      encoding: //str
+      lang: //str
+      pictures: //bool
+      datadir:
+        type: //arr
+        contents: //str
+  chords:
+    type: //rec
+    optional:
+      show: //bool
+      diagrampage: //bool
+      repeatchords: //bool
+      lilypond: //bool
+      diagramreminder:
+        type: //any
+        of:
+          - type: //str
+            value: "none"
+          - type: //str
+            value: "important"
+          - type: //str
+            value: "all"
+      instruments:
+        type: //any
+        of:
+          - type: //str
+            value: "guitar"
+          - type: //str
+            value: "ukulele"
+      notation:
+        type: //any
+        of:
+          - type: //str
+            value: "alphascale"
+          - type: //str
+            value: "solfedge"
+  authors:
+    _description: "Comment sont analysés les auteurs"
+    type: //rec
+    optional:
+      separators:
+        type: //arr
+        contents: //str
+      ignore:
+        type: //arr
+        contents: //str
+      by:
+        type: //arr
+        contents: //str
+  titles:
+    _description: "Comment sont analysés les titres"
+    type: //rec
+    optional:
+      prefix:
+        type: //arr
+        contents: //str
+  template:
+    _description: "Des choses spécifiques au template"
+    type: //rec
+    optional:
+      file: //str
+      latex:
+        type: //rec
+        optional:
+          classoptions: //str
+      color:
+        type: //rec
+        optional:
+          songnumber: //str
+          notebg: //str
+          indexbg: //str
+      titlepage:
+        type: //rec
+        optional:
+          title: //str
+          author: //str
+          subtitle: //str
+          version: //str
+          url: //str
+          email: //str
+          picture: //str
+          picturecopyright: //str
+          footer: //str

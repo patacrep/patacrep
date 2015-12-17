@@ -2,6 +2,10 @@
 
 from collections import UserDict
 
+import yaml
+
+from patacrep import encoding, errors, pkg_datapath, Rx
+
 class DictOfDict(UserDict):
     """Dictionary, with a recursive :meth:`update` method.
 
@@ -91,3 +95,25 @@ def remove_keys(data, keys=None, recursive=True):
     elif isinstance(data, list) and recursive:
         return [remove_keys(elt, keys, True) for elt in data]
     return data
+
+def validate_config_schema(config):
+    """
+    Check that the songbook config respects the excepted songbook schema
+
+    """
+    data = config.copy()
+    data = remove_keys(data, ['_cache'])
+
+    rx_checker = Rx.Factory({"register_core_types": True})
+    schema_path = pkg_datapath('templates', 'songbook_schema.yml')
+    with encoding.open_read(schema_path) as schema_file:
+        schema_struct = yaml.load(schema_file)
+    schema_struct = remove_keys(schema_struct, ['_description'])
+    schema = rx_checker.make_schema(schema_struct)
+
+    try:
+        schema.validate(data)
+    except Rx.SchemaMismatch as exception:
+        msg = 'Could not parse songbook file:\n' + str(exception)
+        raise errors.SBFileError(msg)
+    return True

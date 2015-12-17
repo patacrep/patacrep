@@ -1,17 +1,23 @@
-bookoptions: 
-  - "diagram"
-  - "repeatchords"
-  - "lilypond"
-  - "pictures"
-booktype: "chorded"
-datadir: "."
-template: "patacrep.tex"
-lang: "fr"
-encoding: "utf8"
-authwords: 
-  sep: 
+# bookoptions: 
+#   - "diagram"
+#   - "repeatchords"
+#   - "pictures"
+# booktype: "chorded"
+# datadir: "."
+# template: "patacrep.tex"
+# lang: "fr"
+# encoding: "utf8"
+book:
+  lang: fr
+  datadir: "."
+  pictures: yes
+  #type: chorded
+chords:
+  show: true
+  diagramreminder: none
+
+authors:
+  separators:
     - "and"
     - "et"
-content: 
-  - 
-    - "sorted"
+content: '[["sorted"]]'

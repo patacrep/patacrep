@@ -54,9 +54,9 @@ def parse(keyword, config, argument, contentlist):
             LOGGER.error("Error while loading file '{}'.".format(filepath))
             sys.exit(1)
 
-        config["datadir"].append(os.path.abspath(os.path.dirname(filepath)))
+        config["_datadir"].append(os.path.abspath(os.path.dirname(filepath)))
         new_contentlist += process_content(new_content, config)
-        config["datadir"].pop()
+        config["_datadir"].pop()
 
     return new_contentlist
 

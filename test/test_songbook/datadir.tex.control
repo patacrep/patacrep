@@ -66,6 +66,9 @@ guitar,
 \newindex{titleidx}{datadir_title}
 \newauthorindex{authidx}{datadir_auth}
 
+\authignoreword{unknown}
+\authbyword{by}
+\authsepword{and}
 
 \notenamesout{A}{B}{C}{D}{E}{F}{G}
 

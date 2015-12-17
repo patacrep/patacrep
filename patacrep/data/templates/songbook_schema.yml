@@ -1,9 +1,10 @@
 type: //rec
 optional:
   content: //str
+required:
   book:
     type: //rec
-    optional:
+    required:
       encoding: //str
       lang: //str
       pictures: //bool
@@ -12,7 +13,7 @@ optional:
         contents: //str
   chords:
     type: //rec
-    optional:
+    required:
       show: //bool
       diagrampage: //bool
       repeatchords: //bool
@@ -43,41 +44,54 @@ optional:
   authors:
     _description: "Comment sont analysés les auteurs"
     type: //rec
-    optional:
+    required:
       separators:
-        type: //arr
-        contents: //str
+        type: //any
+        of:
+          - type: //arr
+            contents: //str
+          - type: //nil
       ignore:
-        type: //arr
-        contents: //str
+        type: //any
+        of:
+          - type: //arr
+            contents: //str
+          - type: //nil
       by:
-        type: //arr
-        contents: //str
+        type: //any
+        of:
+          - type: //arr
+            contents: //str
+          - type: //nil
   titles:
     _description: "Comment sont analysés les titres"
     type: //rec
-    optional:
+    required:
       prefix:
-        type: //arr
-        contents: //str
+        type: //any
+        of:
+          - type: //arr
+            contents: //str
+          - type: //nil
   template:
     _description: "Des choses spécifiques au template"
     type: //rec
-    optional:
+    required:
       file: //str
+    optional:
       latex:
         type: //rec
-        optional:
+        required:
           classoptions: //str
       color:
         type: //rec
-        optional:
+        required:
           songnumber: //str
           notebg: //str
           indexbg: //str
       titlepage:
         type: //rec
-        optional:
+        required:
           title: //str
           author: //str
           subtitle: //str

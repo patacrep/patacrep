@@ -1,46 +1,51 @@
-content:
-
 book: 
   lang: en
-  datadir: 
   encoding: utf-8
   pictures: yes
 
 chords: # Options relatives aux accords
-  diagramreminder: ENUM[important, none, all] (anciennement importantdiagramonly)
-  diagrampage: BOOLEAN Montrer la page d'accords
-  repeatchords: BOOLEAN
-  lilypond: BOOLEAN
-  instruments: ENUM[guitar, ukulele]
-  show: BOOLEAN (anciennement booktype=chorded ou booktype=lyrics)
-  notation: ENUM[alphascale, solfedge]
+  show: yes
+  diagramreminder: all
+  diagrampage: yes
+  repeatchords: yes
+  lilypond: yes
+  instruments: guitar
+  notation: alphascale
 
 authors: # Comment sont analysés les auteurs
-  separators: LISTE
-  ignore: LISTE
-  by: LISTE
+  separators:
+  - To
+  - Do
+  ignore:
+  - To
+  - Do
+  by:
+  - To
+  - Do
 
 titles: # Comment sont analysés les titres
-  prefix: LISTE
+  prefix:
+  - To
+  - Do
 
 template: # Des choses spécifiques au template
   file: STRING
-  latex: # Des choses spécifiques au LaTeX
-    classoptions: STRING
+  # latex: # Des choses spécifiques au LaTeX
+  #   classoptions: STRING
 
-  # Peut dépendre fortement du template
-  color: # Des couleurs
-    songnumber: STRING
-    notebg: STRING
-    indexbg: STRING
+  # # Peut dépendre fortement du template
+  # color: # Des couleurs
+  #   songnumber: STRING
+  #   notebg: STRING
+  #   indexbg: STRING
 
-  titlepage: #Configuration de la page de garde
-    title: STRING
-    author: STRING
-    subtitle: STRING
-    version: STRING
-    url: STRING
-    email: STRING
-    picture: STRING
-    picturecopyright: STRING
-    footer: STRING
+  # titlepage: #Configuration de la page de garde
+  #   title: STRING
+  #   author: STRING
+  #   subtitle: STRING
+  #   version: STRING
+  #   url: STRING
+  #   email: STRING
+  #   picture: STRING
+  #   picturecopyright: STRING
+  #   footer: STRING

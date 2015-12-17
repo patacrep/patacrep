@@ -41,7 +41,7 @@ def parse(keyword, config, argument, contentlist):
     new_contentlist = []
 
     for path in contentlist:
-        filepath = load_from_datadirs(path, config.get('datadir', []))
+        filepath = load_from_datadirs(path, config['_datadir'])
         content_file = None
         try:
             with encoding.open_read(

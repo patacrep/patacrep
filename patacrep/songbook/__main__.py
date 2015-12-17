@@ -175,7 +175,8 @@ def main():
     # Default value
     datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
 
-    songbook['book']['datadir'] = datadirs
+    del songbook['book']['datadir']
+    songbook['_datadir'] = datadirs
     songbook['_cache'] = options.cache[0]
 
     try:

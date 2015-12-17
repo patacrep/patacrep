@@ -2,6 +2,7 @@ book:
   lang: en
   encoding: utf-8
   pictures: yes
+  template: default.tex
 
 chords: # Options relatives aux accords
   show: yes
@@ -28,8 +29,7 @@ titles: # Comment sont analysés les titres
   - To
   - Do
 
-template: # Des choses spécifiques au template
-  file: STRING
+#template: # Des choses spécifiques au template
   # latex: # Des choses spécifiques au LaTeX
   #   classoptions: STRING
 

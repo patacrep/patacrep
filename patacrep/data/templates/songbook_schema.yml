@@ -2,15 +2,17 @@ type: //rec
 optional:
   content: //str
 required:
+  _cache: //bool
+  _datadir:
+    type: //arr
+    contents: //str
   book:
     type: //rec
     required:
       encoding: //str
       lang: //str
       pictures: //bool
-      datadir:
-        type: //arr
-        contents: //str
+      template: //str
   chords:
     type: //rec
     required:
@@ -73,31 +75,31 @@ required:
           - type: //arr
             contents: //str
           - type: //nil
-  template:
-    _description: "Des choses spécifiques au template"
-    type: //rec
-    required:
-      file: //str
-    optional:
-      latex:
-        type: //rec
-        required:
-          classoptions: //str
-      color:
-        type: //rec
-        required:
-          songnumber: //str
-          notebg: //str
-          indexbg: //str
-      titlepage:
-        type: //rec
-        required:
-          title: //str
-          author: //str
-          subtitle: //str
-          version: //str
-          url: //str
-          email: //str
-          picture: //str
-          picturecopyright: //str
-          footer: //str
+  # template:
+  #   _description: "Des choses spécifiques au template"
+  #   type: //rec
+  #   required:
+  #     file: //str
+  #   optional:
+  #     latex:
+  #       type: //rec
+  #       required:
+  #         classoptions: //str
+  #     color:
+  #       type: //rec
+  #       required:
+  #         songnumber: //str
+  #         notebg: //str
+  #         indexbg: //str
+  #     titlepage:
+  #       type: //rec
+  #       required:
+  #         title: //str
+  #         author: //str
+  #         subtitle: //str
+  #         version: //str
+  #         url: //str
+  #         email: //str
+  #         picture: //str
+  #         picturecopyright: //str
+  #         footer: //str

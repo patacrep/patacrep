@@ -12,14 +12,7 @@ from patacrep.authors import process_listauthors
 
 LOGGER = logging.getLogger(__name__)
 
-DEFAULT_CONFIG = {
-    'template': "default.tex",
-    'lang': 'en',
-    'content': [],
-    'titleprefixwords': [],
-    'encoding': None,
-    'datadir': [],
-    }
+DEFAULT_CONFIG = {}
 
 def cached_name(datadir, filename):
     """Return the filename of the cache version of the file."""
@@ -117,8 +110,8 @@ class Song:
         self.fullpath = os.path.join(self.datadir, subpath)
         self.subpath = subpath
         self._filehash = None
-        self.encoding = config["encoding"]
-        self.default_lang = config["lang"]
+        self.encoding = config['book']["encoding"]
+        self.default_lang = config['book']["lang"]
         self.config = config
 
         if self._cache_retrieved():
@@ -135,7 +128,7 @@ class Song:
         self.unprefixed_titles = [
             unprefixed_title(
                 title,
-                config['titleprefixwords']
+                config['titles']['prefix']
                 )
             for title
             in self.titles
@@ -221,7 +214,7 @@ class Song:
     def iter_datadirs(self, *subpath):
         """Return an iterator of existing datadirs (with an optionnal subpath)
         """
-        yield from files.iter_datadirs(self.config['datadir'], *subpath)
+        yield from files.iter_datadirs(self.config['_datadir'], *subpath)
 
     def search_datadir_file(self, filename, extensions=None, directories=None):
         """Search for a file name.
@@ -249,7 +242,7 @@ class Song:
         if extensions is None:
             extensions = ['']
         if directories is None:
-            directories = self.config['datadir']
+            directories = self.config['_datadir']
 
         songdir = os.path.dirname(self.fullpath)
         for extension in extensions:

@@ -51,14 +51,8 @@ class Songbook(object):
 
     def _set_datadir(self):
         """Set the default values for datadir"""
-        try:
-            if isinstance(self.config['datadir'], str):
-                self.config['datadir'] = [self.config['datadir']]
-        except KeyError:  # No datadir in the raw_songbook
-            self.config['datadir'] = [os.path.abspath('.')]
-
         abs_datadir = []
-        for path in self.config['datadir']:
+        for path in self.config['_datadir']:
             if os.path.exists(path) and os.path.isdir(path):
                 abs_datadir.append(os.path.abspath(path))
             else:
@@ -66,10 +60,10 @@ class Songbook(object):
                     "Ignoring non-existent datadir '{}'.".format(path)
                     )
 
-        self.config['datadir'] = abs_datadir
+        self.config['_datadir'] = abs_datadir
         self.config['_songdir'] = [
             DataSubpath(path, 'songs')
-            for path in self.config['datadir']
+            for path in self.config['_datadir']
             ]
 
     def write_tex(self, output):
@@ -82,26 +76,26 @@ class Songbook(object):
         config = DEFAULT_CONFIG.copy()
         config.update(self.config)
         renderer = TexBookRenderer(
-            config['template'],
-            config['datadir'],
-            config['lang'],
-            config['encoding'],
+            config['book']['template'],
+            config['_datadir'],
+            config['book']['lang'],
+            config['book']['encoding'],
             )
         config.update(renderer.get_variables())
         config.update(self.config)
 
         config['_compiled_authwords'] = authors.compile_authwords(
-            copy.deepcopy(config['authwords'])
+            copy.deepcopy(config['authors'])
             )
 
         # Loading custom plugins
         config['_content_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+            datadirs=config['_datadir'],
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
         config['_song_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+            datadirs=config['_datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']

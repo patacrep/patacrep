@@ -81,8 +81,9 @@ class Songbook(object):
             config['book']['lang'],
             config['book']['encoding'],
             )
-        config.update(renderer.get_variables())
-        config.update(self.config)
+        # todo: better management of template variables
+        #config.update(renderer.get_variables())
+        #config.update(self.config)
 
         config['_compiled_authwords'] = authors.compile_authwords(
             copy.deepcopy(config['authors'])

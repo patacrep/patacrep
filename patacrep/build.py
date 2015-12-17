@@ -12,7 +12,7 @@ import yaml
 
 from patacrep import authors, content, errors, encoding, files, utils
 from patacrep.index import process_sxd
-from patacrep.templates import TexBookRenderer
+from patacrep.templates import TexBookRenderer, iter_bookoptions
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
 
 LOGGER = logging.getLogger(__name__)
@@ -108,6 +108,8 @@ class Songbook(object):
             config,
             )
         config['filename'] = output.name[:-4]
+
+        config['bookoptions'] = iter_bookoptions(config)
 
         renderer.render_tex(output, config)
 

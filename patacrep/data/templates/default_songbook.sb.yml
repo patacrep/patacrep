@@ -3,14 +3,16 @@ book:
   encoding: utf-8
   pictures: yes
   template: default.tex
+  onesongperpage: no
 
 chords: # Options relatives aux accords
   show: yes
-  diagramreminder: all
+  diagramreminder: important
   diagrampage: yes
   repeatchords: yes
-  lilypond: yes
-  instruments: guitar
+  lilypond: no
+  tablatures: no
+  instrument: guitar
   notation: alphascale
 
 authors: # Comment sont analysés les auteurs

@@ -24,8 +24,10 @@
     ]{article}
 
 \usepackage[
-    chorded,
+chorded,
 pictures,
+repeatchords,
+importantdiagramonly,
 guitar,
     ]{patacrep}
 

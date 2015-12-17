@@ -13,6 +13,7 @@ required:
       lang: //str
       pictures: //bool
       template: //str
+      onesongperpage: //bool
   chords:
     type: //rec
     required:
@@ -20,6 +21,7 @@ required:
       diagrampage: //bool
       repeatchords: //bool
       lilypond: //bool
+      tablatures: //bool
       diagramreminder:
         type: //any
         of:
@@ -29,7 +31,7 @@ required:
             value: "important"
           - type: //str
             value: "all"
-      instruments:
+      instrument:
         type: //any
         of:
           - type: //str

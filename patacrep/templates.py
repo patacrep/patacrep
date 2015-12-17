@@ -238,3 +238,42 @@ class TexBookRenderer(Renderer):
         '''
 
         output.write(self.template.render(context))
+
+
+def transform_options(config, equivalents):
+    """
+    Get the equivalent name of the checked options
+    """
+    for option in config:
+        if config[option] and option in equivalents:
+            yield equivalents[option]
+
+def iter_bookoptions(config):
+    """
+    Extract the bookoptions from the config structure
+    """
+    if config['chords']['show']:
+        yield 'chorded'
+    else:
+        yield 'lyrics'
+
+    book_equivalents = {
+        'pictures':         'pictures',
+        'onesongperpage':   'onesongperpage',
+    }
+    yield from transform_options(config['book'], book_equivalents)
+
+    chords_equivalents = {
+        'lilypond':     'lilypond',
+        'tablatures':   'tabs',
+        'repeatchords': 'repeatchords',
+    }
+    yield from transform_options(config['chords'], chords_equivalents)
+
+    if config['chords']['show']:
+        if config['chords']['diagramreminder'] == "important":
+            yield 'importantdiagramonly'
+        elif config['chords']['diagramreminder'] == "all":
+            yield 'diagram'
+
+        yield config['chords']['instrument']

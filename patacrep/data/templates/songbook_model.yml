@@ -1,7 +1,7 @@
 schema:
   type: //rec
   optional:
-    content: //str
+    content: //any
     template: //any
   required:
     _cache: //bool

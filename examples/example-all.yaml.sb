@@ -1,23 +1,16 @@
-# bookoptions: 
-#   - "diagram"
-#   - "repeatchords"
-#   - "pictures"
-# booktype: "chorded"
-# datadir: "."
-# template: "patacrep.tex"
-# lang: "fr"
-# encoding: "utf8"
 book:
   lang: fr
+  encoding: utf8
+  template: patacrep.tex
   datadir: "."
   pictures: yes
-  #type: chorded
 chords:
-  show: true
-  diagramreminder: none
+  show: yes
+  diagramreminder: all
+  repeatchords: yes
 
 authors:
   separators:
     - "and"
     - "et"
-content: '[["sorted"]]'
+content: [["sorted"]]

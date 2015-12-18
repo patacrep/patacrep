@@ -12,6 +12,7 @@ import yaml
 
 from patacrep import files, pkg_datapath
 from patacrep.encoding import open_read
+from patacrep.build import config_model
 
 from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
@@ -76,9 +77,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Iterate over song files to test."""
         # Setting datadir
         # Load the default songbook config
-        default_songbook_path = pkg_datapath('templates', 'default_songbook.sb.yml')
-        with open_read(default_songbook_path) as default_songbook_file:
-            cls.config = yaml.load(default_songbook_file)
+        cls.config = config_model('default')
 
         if '_datadir' not in cls.config:
             cls.config['_datadir'] = []

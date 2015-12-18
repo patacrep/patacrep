@@ -44,20 +44,14 @@ class Songbook(object):
     def __init__(self, raw_songbook, basename):
         super().__init__()
         self.config = raw_songbook
-        self.validate_config_schema(raw_songbook)
+
+        # Validate config
+        schema = config_model('schema')
+        utils.validate_yaml_schema(raw_songbook, schema)
+
         self.basename = basename
         # Some special keys have their value processed.
         self._set_datadir()
-
-    @staticmethod
-    def validate_config_schema(raw_songbook):
-        """
-        Check that the songbook config respects the excepted songbook schema
-        """
-        schema_path = pkg_datapath('templates', 'songbook_schema.yml')
-        with encoding.open_read(schema_path) as schema_file:
-            schema_struct = yaml.load(schema_file)
-        utils.validate_yaml_schema(raw_songbook, schema_struct)
 
     def _set_datadir(self):
         """Set the default values for datadir"""
@@ -335,3 +329,15 @@ class SongbookBuilder(object):
                     os.unlink(self.basename + ext)
                 except Exception as exception:
                     raise errors.CleaningError(self.basename + ext, exception)
+
+
+def config_model(*args):
+    """Get the model structure with schema and default options"""
+    model_path = pkg_datapath('templates', 'songbook_model.yml')
+    with encoding.open_read(model_path) as model_file:
+        data = yaml.load(model_file)
+
+    while data and args:
+        name, *args = args
+        data = data.get(name)
+    return data

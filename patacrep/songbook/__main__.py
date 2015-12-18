@@ -8,10 +8,10 @@ import textwrap
 import sys
 import yaml
 
-from patacrep.build import SongbookBuilder, DEFAULT_STEPS
+from patacrep.build import SongbookBuilder, DEFAULT_STEPS, config_model
 from patacrep.utils import yesno, DictOfDict
 from patacrep import __version__
-from patacrep import errors, pkg_datapath
+from patacrep import errors
 import patacrep.encoding
 
 # Logging configuration
@@ -133,11 +133,6 @@ def main():
 
     basename = os.path.basename(songbook_path)[:-3]
 
-    # Load the default songbook config
-    default_songbook_path = pkg_datapath('templates', 'default_songbook.sb.yml')
-    with patacrep.encoding.open_read(default_songbook_path) as default_songbook_file:
-        default_songbook = DictOfDict(yaml.load(default_songbook_file))
-
     # Load the user songbook config
     try:
         with patacrep.encoding.open_read(songbook_path) as songbook_file:
@@ -154,6 +149,7 @@ def main():
         sys.exit(1)
 
     # Merge the default and user configs
+    default_songbook = DictOfDict(config_model('default'))
     default_songbook.update(user_songbook)
     songbook = dict(default_songbook)
 

@@ -176,11 +176,12 @@ class TexBookRenderer(Renderer):
             if subtemplate in skip:
                 continue
             subtemplate = self.jinjaenv.get_template(subtemplate)
-            variables.update(self.get_template_variables(
-                subtemplate,
-                skip + templates
+            variables.update(
+                self.get_template_variables(
+                    subtemplate,
+                    skip + templates
+                    )
                 )
-                            )
         return variables
 
     def parse_template(self, template):

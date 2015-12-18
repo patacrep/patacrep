@@ -2,8 +2,6 @@
 
 # pylint: disable=too-few-public-methods
 
-#pylint: skip-file
-
 import glob
 import os
 import unittest
@@ -11,9 +9,10 @@ import json
 
 import yaml
 
-from patacrep.songs import DataSubpath, DEFAULT_CONFIG
+from patacrep.songs import DataSubpath
 from patacrep import content, encoding, files, pkg_datapath
 from patacrep.content import song, section, songsection, tex
+from patacrep.build import config_model
 
 from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
@@ -35,7 +34,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     @classmethod
     def _iter_testmethods(cls):
-        return
         """Iterate over dynamically generated test methods"""
         for source in sorted(glob.glob(os.path.join(
                 os.path.dirname(__file__),
@@ -101,14 +99,12 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Generate the config to process the content"""
 
         # Load the default songbook config
-        default_songbook_path = pkg_datapath('templates', 'default_songbook.sb.yml')
-        with encoding.open_read(default_songbook_path) as default_songbook_file:
-            config = yaml.load(default_songbook_file)
+        config = config_model('default')
 
         datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
 
         # todo : yaml and testing?
-        config['datadir'] = datadirpaths
+        config['_datadir'] = datadirpaths
 
         config['_songdir'] = [
             DataSubpath(path, 'songs')

@@ -46,7 +46,7 @@ def parse(keyword, config, argument, contentlist):
         try:
             with encoding.open_read(
                 filepath,
-                encoding=config['encoding']
+                encoding=config['book']['encoding']
                 ) as content_file:
                 new_content = json.load(content_file)
         except Exception as error: # pylint: disable=broad-except

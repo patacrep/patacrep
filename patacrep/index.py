@@ -77,6 +77,8 @@ class Index(object):
 
     def add_keyword(self, key, word):
         """Add 'word' to self.keywords[key]."""
+        if key == 'sep':
+            key = 'separators'
         if key not in self.keywords:
             self.keywords[key] = []
         self.keywords[key].append(word)

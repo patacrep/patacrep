@@ -2,8 +2,6 @@
 
 from collections import UserDict
 
-import yaml
-
 from patacrep import encoding, errors, pkg_datapath, Rx
 
 class DictOfDict(UserDict):
@@ -103,6 +101,7 @@ def validate_config_schema(config):
     data = config.copy()
 
     schema_path = pkg_datapath('templates', 'songbook_schema.yml')
+    import yaml
     with encoding.open_read(schema_path) as schema_file:
         schema_struct = yaml.load(schema_file)
     schema_struct = remove_keys(schema_struct, ['_description'])

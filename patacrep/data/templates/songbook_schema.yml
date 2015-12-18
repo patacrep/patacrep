@@ -1,6 +1,7 @@
 type: //rec
 optional:
   content: //str
+  template: //any
 required:
   _cache: //bool
   _datadir:

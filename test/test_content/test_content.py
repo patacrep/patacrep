@@ -105,8 +105,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         with encoding.open_read(default_songbook_path) as default_songbook_file:
             config = yaml.load(default_songbook_file)
 
-        #config = DEFAULT_CONFIG.copy()
-
         datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
 
         # todo : yaml and testing?

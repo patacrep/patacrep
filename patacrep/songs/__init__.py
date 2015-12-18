@@ -12,8 +12,6 @@ from patacrep.authors import process_listauthors
 
 LOGGER = logging.getLogger(__name__)
 
-DEFAULT_CONFIG = {}
-
 def cached_name(datadir, filename):
     """Return the filename of the cache version of the file."""
     fullpath = os.path.abspath(os.path.join(datadir, '.cache', filename))
@@ -97,7 +95,7 @@ class Song:
 
     def __init__(self, subpath, config=None, *, datadir=None):
         if config is None:
-            config = DEFAULT_CONFIG.copy()
+            config = {}
 
         if datadir is None:
             self.datadir = ""

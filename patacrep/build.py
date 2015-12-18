@@ -13,7 +13,7 @@ import yaml
 from patacrep import authors, content, encoding, errors, files, pkg_datapath, utils
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer, iter_bookoptions
-from patacrep.songs import DataSubpath, DEFAULT_CONFIG
+from patacrep.songs import DataSubpath
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
@@ -76,9 +76,7 @@ class Songbook(object):
         Arguments:
         - output: a file object, in which the file will be written.
         """
-        # Updating configuration
-        config = DEFAULT_CONFIG.copy()
-        config.update(self.config)
+        config = self.config.copy()
         renderer = TexBookRenderer(
             config['book']['template'],
             config['_datadir'],

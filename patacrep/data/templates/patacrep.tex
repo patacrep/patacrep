@@ -30,6 +30,11 @@ schema:
     picture: //str
     picturecopyright: //str
     footer: //str
+    color:
+      type: //rec
+      required:
+        songlink: //str
+        hyperlink: //str
     bgcolor:
       type: //rec
       required:
@@ -45,6 +50,9 @@ default:
   picture: img/treble_a
   picturecopyright: "Dbolton \\url{http://commons.wikimedia.org/wiki/User:Dbolton}"
   footer: "Generated using Songbook (\\url{http://www.patacrep.com})"
+  color:
+    songlink: 4e9a06
+    hyperlink: 204a87
   bgcolor:
     songnumber: D1E4AE
     note: D1E4AE
@@ -84,8 +92,8 @@ default:
 \renewcommand{\notebgcolor}{NoteBgColor}
 \renewcommand{\idxbgcolor}{IndexBgColor}
 
-\definecolor{tango-green-3}{HTML}{4e9a06}
-\definecolor{tango-blue-3}{HTML}{204a87}
+\definecolor{tango-green-3}{HTML}{(( template_var.color.songlink ))}
+\definecolor{tango-blue-3}{HTML}{(( template_var.color.hyperlink ))}
 \usepackage[
     bookmarks,
     bookmarksopen,

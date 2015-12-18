@@ -14,3 +14,13 @@ authors:
     - "and"
     - "et"
 content: [["sorted"]]
+
+template:
+  patacrep.tex:
+    color:
+      songlink: FF0000
+      hyperlink: 0000FF
+    bgcolor:
+      note: D1E4AE
+      songnumber: AED1E4
+      index: E4AED1 #not enough songs to see it

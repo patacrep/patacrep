@@ -78,22 +78,6 @@ def yesno(string):
         ", ".join(["'{}'".format(string) for string in yes_strings + no_strings]),
         ))
 
-def remove_keys(data, keys=None, recursive=True):
-    """
-    Remove the keys of the dict
-    """
-    if isinstance(data, dict):
-        for key in keys:
-            if key in data:
-                del data[key]
-        if recursive:
-            for key in data:
-                data[key] = remove_keys(data[key], keys, True)
-        return data
-    elif isinstance(data, list) and recursive:
-        return [remove_keys(elt, keys, True) for elt in data]
-    return data
-
 def validate_yaml_schema(data, schema):
     """
     Check that the data respects the schema

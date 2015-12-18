@@ -1,14 +1,15 @@
 """Template for .tex generation settings and utilities"""
 
 import re
-import json
+
+import yaml
 
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
 
-from patacrep import errors, files
+from patacrep import errors, files, utils, Rx
 from patacrep.latex import lang2babel
 import patacrep.encoding
 
@@ -131,37 +132,28 @@ class TexBookRenderer(Renderer):
                     ),
                 )
 
-    def get_variables(self):
-        '''Get and return a dictionary with the default values
-         for all the variables
+    def get_all_variables(self, user_config):
+        '''
+        Validate template variables (and set defaults when needed)
         '''
         data = self.get_template_variables(self.template)
         variables = dict()
         for name, param in data.items():
-            variables[name] = self._get_default(param)
+            template_config = user_config.get(name, {})
+            variables[name] = self._get_variables(param, template_config)
         return variables
 
-    def _get_default(self, parameter):
+    def _get_variables(self, parameter, user_config):
         '''Get the default value for the parameter, according to the language.
         '''
-        default = None
-        try:
-            default = parameter['default']
-        except KeyError:
-            return None
+        schema = parameter.get('schema', {}).copy()
+        schema = utils.remove_keys(schema, ['_description'])
 
-        if self.lang in default:
-            variable = default[self.lang]
-        elif "default" in default:
-            variable = default["default"]
-        elif "en" in default:
-            variable = default["en"]
-        elif len(default):
-            variable = default.popitem()[1]
-        else:
-            variable = None
+        data = utils.DictOfDict(parameter.get('default', {}))
+        data.update(user_config)
 
-        return variable
+        utils.validate_yaml_schema(data, schema)
+        return data
 
     def get_template_variables(self, template, skip=None):
         """Parse the template to extract the variables as a dictionary.
@@ -177,16 +169,18 @@ class TexBookRenderer(Renderer):
             skip = []
         variables = {}
         (current, templates) = self.parse_template(template)
+        if current:
+            variables[template.name] = current
+
         for subtemplate in templates:
             if subtemplate in skip:
                 continue
-            variables.update(
-                self.get_template_variables(
+            subtemplate = self.jinjaenv.get_template(subtemplate)
+            variables.update(self.get_template_variables(
                     subtemplate,
                     skip + templates
                     )
-                )
-        variables.update(current)
+            )
         return variables
 
     def parse_template(self, template):
@@ -213,17 +207,17 @@ class TexBookRenderer(Renderer):
         if match:
             for var in match:
                 try:
-                    subvariables.update(json.loads(var))
+                    subvariables.update(yaml.load(var))
                 except ValueError as exception:
                     raise errors.TemplateError(
                         exception,
                         (
-                            "Error while parsing json in file "
-                            "{filename}. The json string was:"
-                            "\n'''\n{jsonstring}\n'''"
+                            "Error while parsing yaml in file "
+                            "{filename}. The yaml string was:"
+                            "\n'''\n{yamlstring}\n'''"
                         ).format(
                             filename=templatename,
-                            jsonstring=var,
+                            yamlstring=var,
                             )
                         )
 

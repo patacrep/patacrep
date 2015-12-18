@@ -99,7 +99,6 @@ def remove_keys(data, keys=None, recursive=True):
 def validate_config_schema(config):
     """
     Check that the songbook config respects the excepted songbook schema
-
     """
     data = config.copy()
 
@@ -108,11 +107,20 @@ def validate_config_schema(config):
     with encoding.open_read(schema_path) as schema_file:
         schema_struct = yaml.load(schema_file)
     schema_struct = remove_keys(schema_struct, ['_description'])
-    schema = rx_checker.make_schema(schema_struct)
+    validate_yaml_schema(data, schema_struct)
+
+def validate_yaml_schema(data, schema):
+    """
+    Check that the data respects the schema
+    """
+    rx_checker = Rx.Factory({"register_core_types": True})
+    schema = rx_checker.make_schema(schema)
+
+    if not isinstance(data, dict):
+        data = dict(data)
 
     try:
         schema.validate(data)
     except Rx.SchemaMismatch as exception:
         msg = 'Could not parse songbook file:\n' + str(exception)
         raise errors.SBFileError(msg)
-    return True

@@ -1,3 +1,4 @@
-datadir:
-- unicode_datadir
-lang: en
+book:
+  datadir:
+  - unicode_datadir
+  lang: en

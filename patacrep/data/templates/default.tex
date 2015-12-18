@@ -34,7 +34,7 @@ schema:
       type: //arr
       contents: //str
 default:
-  title: "Guitar songook"
+  title: "Guitar songbook"
   author: "The Patacrep Team"
 (* endvariables -*)
 
@@ -55,8 +55,8 @@ default:
 
 \usepackage{chords}
 
-\title{((title))}
-\author{((author))}
+\title{(( _template["default.tex"].title ))}
+\author{(( _template["default.tex"].author ))}
 
 \newindex{titleidx}{((filename))_title}
 \newauthorindex{authidx}{((filename))_auth}

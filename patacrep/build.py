@@ -82,7 +82,7 @@ class Songbook(object):
             config['book']['encoding'],
             )
 
-        self.config['template'] = renderer.get_all_variables(self.config.get('template', {}))
+        config['_template'] = renderer.get_all_variables(self.config.get('template', {}))
 
         config['_compiled_authwords'] = authors.compile_authwords(
             copy.deepcopy(config['authors'])

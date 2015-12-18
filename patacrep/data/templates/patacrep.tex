@@ -74,9 +74,11 @@ default:
 
 \pagestyle{empty}
 
-\definecolor{SongNumberBgColor}{HTML}{(( _template["patacrep.tex"].bgcolor.songnumber ))}
-\definecolor{NoteBgColor}{HTML}{(( _template["patacrep.tex"].bgcolor.note ))}
-\definecolor{IndexBgColor}{HTML}{(( _template["patacrep.tex"].bgcolor.index ))}
+(*- set template_var = _template["patacrep.tex"] -*)
+
+\definecolor{SongNumberBgColor}{HTML}{(( template_var.bgcolor.songnumber ))}
+\definecolor{NoteBgColor}{HTML}{(( template_var.bgcolor.note ))}
+\definecolor{IndexBgColor}{HTML}{(( template_var.bgcolor.index ))}
 
 \renewcommand{\snumbgcolor}{SongNumberBgColor}
 \renewcommand{\notebgcolor}{NoteBgColor}
@@ -94,13 +96,13 @@ default:
     ]{hyperref}
 
 
-\subtitle{(( _template["patacrep.tex"].subtitle ))}
-(* if _template["patacrep.tex"].version -*)
-    \version{(( _template["patacrep.tex"].version ))}
+\subtitle{(( template_var.subtitle ))}
+(* if template_var.version -*)
+    \version{(( template_var.version ))}
 (* endif *)
-\mail{(( _template["patacrep.tex"].email ))}
-\web{(( _template["patacrep.tex"].url ))}
-\picture{(( _template["patacrep.tex"].picture ))}
-\picturecopyright{(( _template["patacrep.tex"].picturecopyright ))}
-\footer{(( _template["patacrep.tex"].footer ))}
+\mail{(( template_var.email ))}
+\web{(( template_var.url ))}
+\picture{(( template_var.picture ))}
+\picturecopyright{(( template_var.picturecopyright ))}
+\footer{(( template_var.footer ))}
 (* endblock *)

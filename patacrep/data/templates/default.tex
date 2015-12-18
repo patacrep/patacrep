@@ -41,10 +41,11 @@ description.en:
 
 (*- extends "songs.tex" -*)
 (*- set indexes = "titleidx,authidx" -*)
+(*- set template_var = _template["default.tex"] -*)
 
 (* block documentclass *)
 \documentclass[
-    (* for option in _template["default.tex"].classoptions *)
+    (* for option in template_var.classoptions *)
     ((option)),
     (* endfor *)
     ]{article}
@@ -56,8 +57,8 @@ description.en:
 
 \usepackage{chords}
 
-\title{(( _template["default.tex"].title ))}
-\author{(( _template["default.tex"].author ))}
+\title{(( template_var.title ))}
+\author{(( template_var.author ))}
 
 \newindex{titleidx}{((filename))_title}
 \newauthorindex{authidx}{((filename))_auth}

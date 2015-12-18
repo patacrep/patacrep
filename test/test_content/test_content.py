@@ -7,10 +7,8 @@ import os
 import unittest
 import json
 
-import yaml
-
 from patacrep.songs import DataSubpath
-from patacrep import content, encoding, files, pkg_datapath
+from patacrep import content, files
 from patacrep.content import song, section, songsection, tex
 from patacrep.build import config_model
 

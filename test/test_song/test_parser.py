@@ -8,9 +8,7 @@ import os
 import unittest
 from pkg_resources import resource_filename
 
-import yaml
-
-from patacrep import files, pkg_datapath
+from patacrep import files
 from patacrep.encoding import open_read
 from patacrep.build import config_model
 

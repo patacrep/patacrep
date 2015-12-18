@@ -101,7 +101,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
 
-        # todo : yaml and testing?
         config['_datadir'] = datadirpaths
 
         config['_songdir'] = [

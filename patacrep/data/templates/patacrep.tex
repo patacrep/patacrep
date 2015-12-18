@@ -19,60 +19,43 @@
 %!- https://github.com/patacrep/
 
 (* variables *)
-{
-"subtitle": {"description": {"en": "Subtitle", "fr": "Sous-titre"},
-            "default": {"default": ""}
-            },
-"version":{ "description": {"en": "Version", "fr": "Version"},
-            "default": {"default": "undefined"}
-         },
-"web": {"description": {"en": "Website", "fr": "Site web"},
-         "default": {"default": "http://www.patacrep.com"}
-      },
-"mail": {"description": {"en": "Email", "fr": "Adresse électronique"},
-         "default": {"default": "crep@team-on-fire.com"}
-      },
-"picture": {"description": {"en": "Cover picture", "fr": "Image de couverture"},
-            "type": "file",
-            "default": {"default": "img/treble_a"}
-         },
-"picturecopyright": {"description": {"en": "Copyright for the cover picture", "fr": "Copyright pour l'image de couverture"},
-                     "default": {"default": "Dbolton \\url{http://commons.wikimedia.org/wiki/User:Dbolton}"}
-                  },
-"footer": {"description": {"en": "Footer", "fr": "Pied de page"},
-           "default": {"default": "Generated using Songbook (\\url{http://www.patacrep.com})"}
-        },
-"songnumberbgcolor": {"description": {"en": "Number Shade", "fr": "Couleur des numéros"},
-                     "type": "color",
-                     "default": {"default": "D1E4AE"}
-                  },
-"notebgcolor": {"description": {"en": "Note Shade", "fr": "Couleur des notes"},
-               "type": "color",
-               "default": {"default": "D1E4AE"}
-            },
-"indexbgcolor": {"description": {"en": "Index Shade", "fr": "Couleur d'index"},
-               "type": "color",
-               "default": {"default": "D1E4AE"}
-            },
-"titleprefixwords": {"description": {"en": "Ignore some words in the beginning of song titles",
-                                     "fr": "Ignore des mots dans le classement des chansons"},
-                     "default": {"default": ["The", "Le", "La", "L'", "A", "Au", "Ces", "De",
-                     						 "Des", "El", "Les", "Ma", "Mon", "Un"]}
-                     }
-}
+schema:
+  type: //rec
+  optional:
+    version: //str
+  required:
+    subtitle: //str
+    url: //str
+    email: //str
+    picture: //str
+    picturecopyright: //str
+    footer: //str
+    bgcolor:
+      type: //rec
+      required:
+        songnumber: //str
+        note: //str
+        index: //str
+
+default:
+  subtitle: ""
+  version: ""
+  url: http://www.patacrep.com"
+  email: crep@team-on-fire.com
+  picture: img/treble_a
+  picturecopyright: "Dbolton \\url{http://commons.wikimedia.org/wiki/User:Dbolton}"
+  footer: "Generated using Songbook (\\url{http://www.patacrep.com})"
+  bgcolor:
+    songnumber: D1E4AE
+    note: D1E4AE
+    index: D1E4AE
 (* endvariables -*)
 
 (*- extends "default.tex" -*)
 
 (* block songbookpackages *)
-%! booktype, bookoptions and instruments are defined in "songs.tex"
 \usepackage[
-    ((booktype)),
-    (* for option in bookoptions *)
-    ((option)),
-    (* endfor *)
-    (* for instrument in instruments *)
-    ((instrument)),
+    (* for option in bookoptions *)((option)),
     (* endfor *)
     ]{crepbook}
 (* endblock *)
@@ -91,9 +74,9 @@
 
 \pagestyle{empty}
 
-\definecolor{SongNumberBgColor}{HTML}{((songnumberbgcolor))}
-\definecolor{NoteBgColor}{HTML}{((notebgcolor))}
-\definecolor{IndexBgColor}{HTML}{((indexbgcolor))}
+\definecolor{SongNumberBgColor}{HTML}{(( _template["patacrep.tex"].bgcolor.songnumber ))}
+\definecolor{NoteBgColor}{HTML}{(( _template["patacrep.tex"].bgcolor.note ))}
+\definecolor{IndexBgColor}{HTML}{(( _template["patacrep.tex"].bgcolor.index ))}
 
 \renewcommand{\snumbgcolor}{SongNumberBgColor}
 \renewcommand{\notebgcolor}{NoteBgColor}
@@ -111,13 +94,13 @@
     ]{hyperref}
 
 
-\subtitle{((subtitle))}
-(* if version!="undefined" -*)
-    \version{((version))}
+\subtitle{(( _template["patacrep.tex"].subtitle ))}
+(* if _template["patacrep.tex"].version -*)
+    \version{(( _template["patacrep.tex"].version ))}
 (* endif *)
-\mail{((mail))}
-\web{((web))}
-\picture{((picture))}
-\picturecopyright{((picturecopyright))}
-\footer{((footer))}
+\mail{(( _template["patacrep.tex"].email ))}
+\web{(( _template["patacrep.tex"].url ))}
+\picture{(( _template["patacrep.tex"].picture ))}
+\picturecopyright{(( _template["patacrep.tex"].picturecopyright ))}
+\footer{(( _template["patacrep.tex"].footer ))}
 (* endblock *)

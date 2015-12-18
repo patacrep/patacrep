@@ -25,8 +25,20 @@ authors: # Comment sont analysés les auteurs
 
 titles: # Comment sont analysés les titres
   prefix:
-  - To
-  - Do
+  - The
+  - Le
+  - La
+  - "L'"
+  - A
+  - Au
+  - Ces
+  - De
+  - Des
+  - El
+  - Les
+  - Ma
+  - Mon
+  - Un
 
 #template: # Des choses spécifiques au template
   # latex: # Des choses spécifiques au LaTeX

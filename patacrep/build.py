@@ -43,12 +43,11 @@ class Songbook(object):
 
     def __init__(self, raw_songbook, basename):
         super().__init__()
-        self.config = raw_songbook
-
         # Validate config
         schema = config_model('schema')
         utils.validate_yaml_schema(raw_songbook, schema)
 
+        self.config = raw_songbook
         self.basename = basename
         # Some special keys have their value processed.
         self._set_datadir()

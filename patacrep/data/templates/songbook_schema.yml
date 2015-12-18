@@ -47,7 +47,6 @@ required:
           - type: //str
             value: "solfedge"
   authors:
-    _description: "Comment sont analysés les auteurs"
     type: //rec
     required:
       separators:
@@ -69,7 +68,6 @@ required:
             contents: //str
           - type: //nil
   titles:
-    _description: "Comment sont analysés les titres"
     type: //rec
     required:
       prefix:

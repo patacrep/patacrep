@@ -23,19 +23,20 @@ schema:
   type: //rec
   required:
     title:
-      _description: _("Title")
       type: //str
     author:
-      _description: _("Author")
       type: //str
   optional:
     classoptions:
-      _description: _("LaTeX class options")
       type: //arr
       contents: //str
 default:
   title: "Guitar songbook"
   author: "The Patacrep Team"
+description.en:
+  title: "Title"
+  author: "Author"
+  classoptions: "LaTeX class options"
 (* endvariables -*)
 
 (*- extends "songs.tex" -*)

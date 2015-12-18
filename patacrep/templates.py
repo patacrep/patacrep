@@ -148,7 +148,6 @@ class TexBookRenderer(Renderer):
         '''Get the default value for the parameter, according to the language.
         '''
         schema = parameter.get('schema', {}).copy()
-        schema = utils.remove_keys(schema, ['_description'])
 
         data = utils.DictOfDict(parameter.get('default', {}))
         data.update(user_config)

@@ -57,7 +57,6 @@ class Songbook(object):
         schema_path = pkg_datapath('templates', 'songbook_schema.yml')
         with encoding.open_read(schema_path) as schema_file:
             schema_struct = yaml.load(schema_file)
-        schema_struct = utils.remove_keys(schema_struct, ['_description'])
         utils.validate_yaml_schema(raw_songbook, schema_struct)
 
     def _set_datadir(self):

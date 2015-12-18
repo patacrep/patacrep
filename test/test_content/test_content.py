@@ -2,6 +2,8 @@
 
 # pylint: disable=too-few-public-methods
 
+#pylint: skip-file
+
 import glob
 import os
 import unittest

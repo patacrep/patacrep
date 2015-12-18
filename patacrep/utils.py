@@ -2,7 +2,7 @@
 
 from collections import UserDict
 
-from patacrep import encoding, errors, pkg_datapath, Rx
+from patacrep import errors, Rx
 
 class DictOfDict(UserDict):
     """Dictionary, with a recursive :meth:`update` method.
@@ -93,19 +93,6 @@ def remove_keys(data, keys=None, recursive=True):
     elif isinstance(data, list) and recursive:
         return [remove_keys(elt, keys, True) for elt in data]
     return data
-
-def validate_config_schema(config):
-    """
-    Check that the songbook config respects the excepted songbook schema
-    """
-    data = config.copy()
-
-    schema_path = pkg_datapath('templates', 'songbook_schema.yml')
-    import yaml
-    with encoding.open_read(schema_path) as schema_file:
-        schema_struct = yaml.load(schema_file)
-    schema_struct = remove_keys(schema_struct, ['_description'])
-    validate_yaml_schema(data, schema_struct)
 
 def validate_yaml_schema(data, schema):
     """

@@ -8,7 +8,9 @@ import threading
 import os.path
 from subprocess import Popen, PIPE, call, check_call
 
-from patacrep import authors, content, errors, files, utils
+import yaml
+
+from patacrep import authors, content, encoding, errors, files, pkg_datapath, utils
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer, iter_bookoptions
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG
@@ -42,10 +44,21 @@ class Songbook(object):
     def __init__(self, raw_songbook, basename):
         super().__init__()
         self.config = raw_songbook
-        utils.validate_config_schema(raw_songbook)
+        self.validate_config_schema(raw_songbook)
         self.basename = basename
         # Some special keys have their value processed.
         self._set_datadir()
+
+    @staticmethod
+    def validate_config_schema(raw_songbook):
+        """
+        Check that the songbook config respects the excepted songbook schema
+        """
+        schema_path = pkg_datapath('templates', 'songbook_schema.yml')
+        with encoding.open_read(schema_path) as schema_file:
+            schema_struct = yaml.load(schema_file)
+        schema_struct = utils.remove_keys(schema_struct, ['_description'])
+        utils.validate_yaml_schema(raw_songbook, schema_struct)
 
     def _set_datadir(self):
         """Set the default values for datadir"""

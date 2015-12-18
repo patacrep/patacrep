@@ -11,7 +11,6 @@ from pkg_resources import resource_filename
 import yaml
 
 from patacrep import files, pkg_datapath
-from patacrep.songs import DEFAULT_CONFIG
 from patacrep.encoding import open_read
 
 from .. import logging_reduced

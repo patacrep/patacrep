@@ -102,7 +102,6 @@ def validate_config_schema(config):
     """
     data = config.copy()
 
-    rx_checker = Rx.Factory({"register_core_types": True})
     schema_path = pkg_datapath('templates', 'songbook_schema.yml')
     with encoding.open_read(schema_path) as schema_file:
         schema_struct = yaml.load(schema_file)

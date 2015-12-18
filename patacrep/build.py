@@ -8,9 +8,7 @@ import threading
 import os.path
 from subprocess import Popen, PIPE, call, check_call
 
-import yaml
-
-from patacrep import authors, content, errors, encoding, files, utils
+from patacrep import authors, content, errors, files, utils
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer, iter_bookoptions
 from patacrep.songs import DataSubpath, DEFAULT_CONFIG

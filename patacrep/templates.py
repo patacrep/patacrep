@@ -9,7 +9,7 @@ from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
 
-from patacrep import errors, files, utils, Rx
+from patacrep import errors, files, utils
 from patacrep.latex import lang2babel
 import patacrep.encoding
 
@@ -143,7 +143,8 @@ class TexBookRenderer(Renderer):
             variables[name] = self._get_variables(param, template_config)
         return variables
 
-    def _get_variables(self, parameter, user_config):
+    @staticmethod
+    def _get_variables(parameter, user_config):
         '''Get the default value for the parameter, according to the language.
         '''
         schema = parameter.get('schema', {}).copy()
@@ -177,10 +178,10 @@ class TexBookRenderer(Renderer):
                 continue
             subtemplate = self.jinjaenv.get_template(subtemplate)
             variables.update(self.get_template_variables(
-                    subtemplate,
-                    skip + templates
-                    )
-            )
+                subtemplate,
+                skip + templates
+                )
+                            )
         return variables
 
     def parse_template(self, template):

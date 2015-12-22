@@ -1,7 +1,6 @@
 """Build a songbook, according to parameters found in a .sb file."""
 
 import codecs
-import copy
 import glob
 import logging
 import threading
@@ -85,9 +84,7 @@ class Songbook(object):
 
         config['_template'] = renderer.get_all_variables(self.config.get('template', {}))
 
-        config['_compiled_authwords'] = authors.compile_authwords(
-            copy.deepcopy(config['authors'])
-            )
+        config['_compiled_authwords'] = authors.compile_authwords(config['authors'])
 
         # Loading custom plugins
         config['_content_plugins'] = files.load_plugins(

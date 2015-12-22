@@ -5,8 +5,6 @@ import re
 
 LOGGER = logging.getLogger(__name__)
 
-AUTHWORDS_KEYS = ["after", "ignore", "separators"]
-
 RE_AFTER = r"^.*\b{}\b(.*)$"
 RE_SEPARATOR = r"^(.*)\b *{} *(\b.*)?$"
 
@@ -15,23 +13,17 @@ def compile_authwords(authwords):
 
     This regexp will later be used to match these words in authors strings.
     """
-    # Fill missing values
-    for key in AUTHWORDS_KEYS:
-        if key not in authwords:
-            authwords[key] = []
-
-    # Compilation
-    authwords['after'] = [
-        re.compile(RE_AFTER.format(word), re.LOCALE)
-        for word in authwords['after']
-        ]
-    authwords['separators'] = [
-        re.compile(RE_SEPARATOR.format(word), re.LOCALE)
-        for word in ([" %s" % word for word in authwords['separators']] + [',', ';'])
-        ]
-
-    return authwords
-
+    return {
+        'ignore': authwords.get('ignore', []),
+        'after': [
+            re.compile(RE_AFTER.format(word), re.LOCALE)
+            for word in authwords['after']
+            ],
+        'separators': [
+            re.compile(RE_SEPARATOR.format(word), re.LOCALE)
+            for word in ([" %s" % word for word in authwords['separators']] + [',', ';'])
+            ],
+        }
 
 def split_author_names(string):
     r"""Split author between first and last name.

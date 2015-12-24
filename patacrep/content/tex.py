@@ -51,11 +51,12 @@ def parse(keyword, argument, contentlist, config):
                     ))
                 break
         if not checked_file:
-            filelist.append_error(ContentError(
-                keyword="tex",
-                message=errors.notfound(filename, basefolders),
+            filelist.append_error(
+                ContentError(
+                    keyword="tex",
+                    message=errors.notfound(filename, basefolders),
+                    )
                 )
-            )
             continue
         filelist.append(LaTeX(checked_file))
 

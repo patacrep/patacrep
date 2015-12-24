@@ -41,7 +41,7 @@ def parse(keyword, argument, contentlist, config):
 
 
 CONTENT_PLUGINS = dict([
-    (word, parse)
-    for word
+    (keyword, parse)
+    for keyword
     in KEYWORDS
     ])

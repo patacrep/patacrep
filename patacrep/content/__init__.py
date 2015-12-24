@@ -147,28 +147,38 @@ class ContentList:
         yield from self._content
 
     def extend(self, iterator):
+        """Extend content list with an iterator.
+
+        If the argument is of the same type, the list of errors is
+        also extended.
+        """
         self._content.extend(iterator)
-        if isinstance(iterator, self.__class__):
-            self._errors.extend(iterator._errors)
+        if isinstance(iterator, ContentList):
+            self._errors.extend(iterator.iter_errors())
 
     def append(self, item):
+        """Append an item to the content list."""
         return self._content.append(item)
 
     def __len__(self):
         return len(self._content)
 
     def append_error(self, error):
+        """Log and append an error to the error list."""
         LOGGER.warning(error)
         self._errors.append(error)
 
     def extend_error(self, errors):
+        """Extend the error list with the argument, which is logged."""
         for error in errors:
             self.append_error(error)
 
     def iter_errors(self):
+        """Iterate over errors."""
         yield from self._errors
 
 class EmptyContentList(ContentList):
+    """Empty content list: contain only errors."""
     def __init__(self, *, errors):
         super().__init__()
         for error in errors:

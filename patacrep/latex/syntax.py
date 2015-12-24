@@ -3,11 +3,10 @@
 import logging
 import ply.yacc as yacc
 
-from patacrep.songs.syntax import Parser
-from patacrep.latex.lexer import tokens, SimpleLexer, SongLexer
 from patacrep.latex import ast
-from patacrep.errors import ParsingError
 from patacrep.latex.detex import detex
+from patacrep.latex.lexer import tokens, SimpleLexer, SongLexer
+from patacrep.songs.syntax import Parser
 
 LOGGER = logging.getLogger()
 
@@ -126,8 +125,7 @@ class LatexParser(Parser):
         else:
             symbols[0] = []
 
-    @staticmethod
-    def p_dictionary(symbols):
+    def p_dictionary(self, symbols):
         """dictionary : identifier EQUAL braces dictionary_next
                       | identifier EQUAL error dictionary_next
                       | empty

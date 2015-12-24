@@ -6,7 +6,6 @@ songs in JSON format.
 
 import json
 import os
-import sys
 import logging
 
 from patacrep.content import process_content, ContentError, ContentList

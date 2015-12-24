@@ -9,7 +9,7 @@ import logging
 import unidecode
 
 from patacrep import files
-from patacrep.content import ContentError, ContentList, EmptyContentList
+from patacrep.content import ContentError, EmptyContentList
 from patacrep.content import process_content
 from patacrep.content.song import OnlySongsError
 

@@ -1,6 +1,5 @@
 """ChordPro parser"""
 
-import functools
 import logging
 import re
 

@@ -131,13 +131,15 @@ class LatexParser(Parser):
         """dictionary : identifier EQUAL braces dictionary_next
                       | identifier EQUAL error dictionary_next
         """
+        symbols[0] = {}
         if isinstance(symbols[3], ast.Expression):
-            symbols[0] = {}
             symbols[0][symbols[1]] = symbols[3]
             symbols[0].update(symbols[4])
         else:
-            # TODO put error in self.errors
-            raise ParsingError("Do enclose arguments between braces.")
+            self.error(
+                line=symbols.lexer.lineno,
+                message="Argument '{}' should be enclosed between braces.".format(symbols[1]),
+                )
 
     @staticmethod
     def p_identifier(symbols):

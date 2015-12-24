@@ -5,7 +5,7 @@ import logging
 import os
 
 from patacrep import files, errors
-from patacrep.content import ContentItem, ContentList
+from patacrep.content import ContentItem, ContentList, ContentError
 
 LOGGER = logging.getLogger(__name__)
 
@@ -35,7 +35,7 @@ def parse(keyword, argument, contentlist, config):
         LOGGER.warning(
             "Useless 'tex' content: list of files to include is empty."
             )
-    filelist = ContentList
+    filelist = ContentList()
     basefolders = itertools.chain(
         (path.fullpath for path in config['_songdir']),
         files.iter_datadirs(config['datadir']),
@@ -51,9 +51,9 @@ def parse(keyword, argument, contentlist, config):
                     ))
                 break
         if not checked_file:
-            LOGGER.warning(
-                "{} Compilation may fail later.".format(
-                    errors.notfound(filename, basefolders)
+            filelist.append_error(ContentError(
+                keyword="tex",
+                message=errors.notfound(filename, basefolders),
                 )
             )
             continue

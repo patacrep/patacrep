@@ -9,7 +9,7 @@ import logging
 import unidecode
 
 from patacrep import files
-from patacrep.content import ContentError
+from patacrep.content import ContentError, ContentList
 from patacrep.content.song import OnlySongsError, process_songs
 
 LOGGER = logging.getLogger(__name__)
@@ -85,11 +85,11 @@ def parse(keyword, config, argument, contentlist):
     try:
         songlist = process_songs(contentlist, config)
     except OnlySongsError as error:
-        raise ContentError(keyword, (
+        return EmptyContentError(errors=[ContentError(keyword, (
             "Content list of this keyword can be only songs (or content "
             "that result into songs), and the following are not:" +
             str(error.not_songs)
-            ))
+            ))])
     return sorted(songlist, key=key_generator(sort))
 
 CONTENT_PLUGINS = {'sorted': parse}

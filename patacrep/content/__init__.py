@@ -73,7 +73,7 @@ import re
 import sys
 
 from patacrep import files
-from patacrep.errors import SongbookError
+from patacrep.errors import SharedError
 
 LOGGER = logging.getLogger(__name__)
 EOL = '\n'
@@ -120,7 +120,7 @@ class ContentItem:
         """Return the string to end a block."""
         return ""
 
-class ContentError(SongbookError):
+class ContentError(SharedError):
     """Error in a content plugin."""
     def __init__(self, keyword=None, message=None):
         super(ContentError, self).__init__()
@@ -140,19 +140,38 @@ class ContentList:
 
     def __init__(self, *args, **kwargs):
         self._content = list(*args, **kwargs)
-        self.errors = []
+        self._errors = []
 
     def __iter__(self):
         yield from self._content
 
     def extend(self, iterator):
-        return self._content.extend(iterator)
+        self._content.extend(iterator)
+        if isinstance(iterator, self.__class__):
+            self._errors.extend(iterator._errors)
 
     def append(self, item):
         return self._content.append(item)
 
     def __len__(self):
         return len(self._content)
+
+    def append_error(self, error):
+        LOGGER.warning(error)
+        self._errors.append(error)
+
+    def extend_error(self, errors):
+        for error in errors:
+            self.append_error(error)
+
+    def iter_errors(self):
+        yield from self._errors
+
+class EmptyContentList(ContentList):
+    def __init__(self, *, errors):
+        super().__init__()
+        for error in errors:
+            self.append_error(error)
 
 @jinja2.contextfunction
 def render(context, content):
@@ -209,11 +228,11 @@ def process_content(content, config=None):
         try:
             match = keyword_re.match(elem[0]).groupdict()
         except AttributeError:
-            contentlist.errors.append(ContentError(elem[0], "Cannot parse content type."))
+            contentlist.append_error(ContentError(elem[0], "Cannot parse content type."))
             continue
         (keyword, argument) = (match['keyword'], match['argument'])
         if keyword not in plugins:
-            contentlist.errors.append(ContentError(keyword, "Unknown content type."))
+            contentlist.append_error(ContentError(keyword, "Unknown content type."))
             continue
         contentlist.extend(plugins[keyword](
             keyword,

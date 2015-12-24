@@ -1,6 +1,6 @@
 """Allow 'songchapter' and 'songsection' as content of a songbook."""
 
-from patacrep.content import ContentItem, ContentError
+from patacrep.content import ContentItem, ContentError, ContentList, EmptyContentList
 
 KEYWORDS = [
     "songchapter",
@@ -29,12 +29,15 @@ def parse(keyword, argument, contentlist, config):
     - contentlist: a list of one string, which is the name of the section;
     - config: configuration dictionary of the current songbook.
     """
-    if (keyword not in KEYWORDS) and (len(contentlist) != 1):
-        raise ContentError(
-            keyword,
-            "Starred section names must have exactly one argument.",
-            )
-    return ContentList(SongSection(keyword, contentlist[0]))
+    try:
+        if (keyword not in KEYWORDS) and (len(contentlist) != 1):
+            raise ContentError(
+                keyword,
+                "Starred section names must have exactly one argument.",
+                )
+        return ContentList([SongSection(keyword, contentlist[0])])
+    except ContentError as error:
+        return EmptyContentList(errors=[error])
 
 
 CONTENT_PLUGINS = dict([

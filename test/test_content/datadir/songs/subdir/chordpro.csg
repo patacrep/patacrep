@@ -1,0 +1,51 @@
+{lang : en}
+{columns :  2}
+{ title : Greensleeves}
+{subtitle: Test of the chordpro format}
+{artist: Traditionnel}
+{artist: Prénom Nom}
+{cover : traditionnel.jpg }
+{album :Angleterre}
+
+{partition : greensleeves.ly}
+
+
+A[Am]las, my love, ye [G]do me wrong
+To [Am]cast me oft dis[E]curteously
+And [Am]I have loved [G]you so long
+De[Am]lighting [E]in your [Am]companie
+
+{start_of_chorus}
+   [C]Greensleeves was [G]all my joy
+   [Am]Greensleeves was [E]my delight
+   [C]Greensleeves was my [G]heart of gold
+   And [Am]who but [E]Ladie [Am]Greensleeves
+{end_of_chorus}
+
+I [Am]have been ready [G]at your hand
+To [Am]grant what ever [E]you would crave
+I [Am]have both waged [G]life and land
+Your [Am]love and [E]good will [Am]for to have
+
+I [Am]bought thee kerchers [G]to thy head
+That [Am]were wrought fine and [E]gallantly
+I [Am]kept thee both at [G]boord and bed
+Which [Am]cost my [E]purse well [Am]favouredly
+
+I [Am]bought thee peticotes [G]of the best
+The [Am]cloth so fine as [E]fine might be
+I [Am]gave thee jewels [G]for thy chest
+And [Am]all this [E]cost I [Am]spent on thee
+
+{c:test of comment}
+
+{gc: test of guitar comment}
+
+{image: traditionnel.jpg}
+
+Thy [Am]smock of silke, both [G]faire and white
+With [Am]gold embrodered [E]gorgeously
+Thy [Am]peticote of [G]sendall right
+And [Am]this I [E]bought thee [Am]gladly
+
+

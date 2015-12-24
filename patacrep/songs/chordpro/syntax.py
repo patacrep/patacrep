@@ -2,11 +2,11 @@
 
 import functools
 import logging
-import ply.yacc as yacc
 import re
 
+import ply.yacc as yacc
+
 from patacrep.content import ContentError
-from patacrep.songs import errors
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
 from patacrep.songs.syntax import Parser

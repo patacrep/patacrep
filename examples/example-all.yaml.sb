@@ -1,0 +1,17 @@
+bookoptions: 
+  - "diagram"
+  - "repeatchords"
+  - "lilypond"
+  - "pictures"
+booktype: "chorded"
+datadir: "."
+template: "patacrep.tex"
+lang: "fr"
+encoding: "utf8"
+authwords: 
+  sep: 
+    - "and"
+    - "et"
+content: 
+  - 
+    - "sorted"

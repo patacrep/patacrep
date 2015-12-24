@@ -1,4 +1,4 @@
-"""Tests for the chordpro parser."""
+"""Tests for the songbook compilation."""
 
 # pylint: disable=too-few-public-methods
 

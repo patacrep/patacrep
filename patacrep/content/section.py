@@ -37,8 +37,8 @@ def parse(keyword, argument, contentlist, config):
       their starred versions "part*", "chapter*", ... , "subparagraph*"): the
       section to use;
     - argument: unused;
-    - contentlist: a list of one or two strings, which are the names (short
-      and long) of the section;
+    - contentlist: a list of one or two strings, which are the names (long
+      and short) of the section;
     - config: configuration dictionary of the current songbook.
     """
     try:

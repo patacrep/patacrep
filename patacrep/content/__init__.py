@@ -66,11 +66,12 @@ More documentation in the docstring of ContentItem.
 """
 
 import glob
-import jinja2
 import logging
 import os
 import re
 import sys
+
+import jinja2
 
 from patacrep import files
 from patacrep.errors import SharedError
@@ -123,7 +124,7 @@ class ContentItem:
 class ContentError(SharedError):
     """Error in a content plugin."""
     def __init__(self, keyword=None, message=None):
-        super(ContentError, self).__init__()
+        super().__init__()
         self.keyword = keyword
         self.message = message
 
@@ -217,14 +218,12 @@ def process_content(content, config=None):
     """
     contentlist = ContentList()
     plugins = config.get('_content_plugins', {})
-    keyword_re = re.compile(r'^ *(?P<keyword>\w*) *(\((?P<argument>.*)\))? *$')
+    keyword_re = re.compile(r'^ *(?P<keyword>[\w\*]*) *(\((?P<argument>.*)\))? *$')
     if not content:
         content = [["song"]]
     for elem in content:
         if isinstance(elem, str):
             elem = ["song", elem]
-        if len(content) == 0:
-            content = ["song"]
         try:
             match = keyword_re.match(elem[0]).groupdict()
         except AttributeError:

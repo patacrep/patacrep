@@ -14,6 +14,15 @@ from patacrep.songs import errors as song_errors
 
 LOGGER = logging.getLogger(__name__)
 
+DEFAULT_CONFIG = {
+    'template': "default.tex",
+    'lang': 'en',
+    'content': [],
+    'titleprefixwords': [],
+    'encoding': None,
+    'datadir': [],
+    }
+
 def cached_name(datadir, filename):
     """Return the filename of the cache version of the file."""
     fullpath = os.path.abspath(os.path.join(datadir, '.cache', filename))
@@ -95,7 +104,10 @@ class Song:
         "_version",
         ]
 
-    def __init__(self, subpath, config, *, datadir=None):
+    def __init__(self, subpath, config=None, *, datadir=None):
+        if config is None:
+            config = DEFAULT_CONFIG.copy()
+
         if datadir is None:
             self.datadir = ""
             # Only songs in datadirs may be cached

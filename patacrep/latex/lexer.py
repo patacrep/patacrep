@@ -60,7 +60,7 @@ class SimpleLexer:
     # Define a rule so we can track line numbers
     @staticmethod
     def t_endofline(token):
-        r'\n+'
+        r'(\r?\n)+'
         token.lexer.lineno += len(token.value)
 
     @staticmethod

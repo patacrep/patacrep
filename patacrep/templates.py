@@ -1,11 +1,12 @@
 """Template for .tex generation settings and utilities"""
 
+import re
+import json
+
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
-import re
-import json
 
 from patacrep import errors, files
 from patacrep.latex import lang2babel

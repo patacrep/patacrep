@@ -11,7 +11,7 @@ from subprocess import Popen, PIPE, call, check_call
 from patacrep import authors, content, errors, files
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer
-from patacrep.songs import DataSubpath
+from patacrep.songs import DataSubpath, DEFAULT_CONFIG
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
@@ -27,14 +27,6 @@ GENERATED_EXTENSIONS = [
     "_title.sbx",
     "_title.sxd",
     ]
-DEFAULT_CONFIG = {
-    'template': "default.tex",
-    'lang': 'en',
-    'content': [],
-    'titleprefixwords': [],
-    'encoding': None,
-    'datadir': [],
-    }
 
 
 
@@ -49,6 +41,7 @@ class Songbook:
 
     def __init__(self, raw_songbook, basename):
         self._raw_config = raw_songbook
+        self.config = raw_songbook
         self.basename = basename
         self._errors = list()
         self._config = dict()
@@ -141,6 +134,10 @@ class Songbook:
             if not hasattr(item, "iter_errors"):
                 continue
             yield from item.iter_errors()
+
+    def requires_lilypond(self):
+        """Tell if lilypond is part of the bookoptions"""
+        return 'lilypond' in self.config.get('bookoptions', [])
 
 def _log_pipe(pipe):
     """Log content from `pipe`."""
@@ -243,8 +240,22 @@ class SongbookBuilder:
                 stderr=PIPE,
                 universal_newlines=True,
                 )
-        except Exception as error:
+        except FileNotFoundError as error:
             raise errors.ExecutableNotFound(compiler)
+
+        # Test if lilypond compiler is accessible
+        if self.songbook.requires_lilypond():
+            lilypond_compiler = 'lilypond'
+            try:
+                check_call(
+                    [lilypond_compiler, "--version"],
+                    stdin=PIPE,
+                    stdout=PIPE,
+                    stderr=PIPE,
+                    universal_newlines=True,
+                    )
+            except FileNotFoundError as error:
+                raise errors.ExecutableNotFound(lilypond_compiler)
 
         # Perform compilation
         try:

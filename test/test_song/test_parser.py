@@ -9,14 +9,17 @@ import unittest
 from pkg_resources import resource_filename
 
 from patacrep import files
-from patacrep.build import DEFAULT_CONFIG
+from patacrep.songs import DEFAULT_CONFIG
 from patacrep.encoding import open_read
 from patacrep.songs import errors
 
-from .. import disable_logging
+from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
 
-OUTPUTS = ['csg', 'tsg', 'html']
+OUTPUTS = {
+    'csg': ['csg', 'tsg', 'html'],
+    'tsg': ['tsg'],
+}
 
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of chorpro parser, and several renderers.
@@ -57,11 +60,15 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         destname = "{}.{}".format(base, out_format)
         with self.chdir():
             with open_read(destname) as expectfile:
-                with disable_logging():
+                with logging_reduced():
                     song = self.song_plugins[out_format][in_format](sourcename, self.config)
+                    expected = expectfile.read().strip().replace(
+                        "@TEST_FOLDER@",
+                        files.path2posix(resource_filename(__name__, "")),
+                        )
                     self.assertMultiLineEqual(
                         song.render().strip(),
-                        expectfile.read().strip(),
+                        expected,
                         )
 
     @classmethod
@@ -82,7 +89,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             for source in sorted(glob.glob('*.*.source')):
                 [*base, in_format, _] = source.split('.')
                 base = '.'.join(base)
-                for out_format in OUTPUTS:
+                for out_format in OUTPUTS[in_format]:
                     outname = "{}.{}".format(base, out_format)
                     if not os.path.exists(outname):
                         continue

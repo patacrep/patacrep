@@ -9,11 +9,15 @@ import unittest
 import patacrep
 
 @contextlib.contextmanager
-def disable_logging():
-    """Context locally disabling logging."""
-    logging.disable(logging.CRITICAL)
+def logging_reduced(module_name=None, level=logging.CRITICAL):
+    """Temporarly reduce the logging level of a specific module or globally if None
+    """
+    logger = logging.getLogger(module_name)
+    old_level = logger.getEffectiveLevel()
+
+    logger.setLevel(level)
     yield
-    logging.disable(logging.NOTSET)
+    logger.setLevel(old_level)
 
 def suite():
     """Return a :class:`TestSuite` object, testing all module :mod:`patacrep`.

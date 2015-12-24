@@ -79,8 +79,9 @@ def yesno(string):
         ))
 
 def validate_yaml_schema(data, schema):
-    """
-    Check that the data respects the schema
+    """Check that the data respects the schema
+
+    Will raise `SBFileError` if the schema is not respected.
     """
     rx_checker = Rx.Factory({"register_core_types": True})
     schema = rx_checker.make_schema(schema)

@@ -1,13 +1,13 @@
 """Allow 'songchapter' and 'songsection' as content of a songbook."""
 
-from patacrep.content import Content, ContentError
+from patacrep.content import ContentItem, ContentError
 
 KEYWORDS = [
     "songchapter",
     "songsection",
     ]
 
-class SongSection(Content):
+class SongSection(ContentItem):
     """A songsection or songchapter."""
     # pylint: disable=too-few-public-methods
 
@@ -34,7 +34,7 @@ def parse(keyword, argument, contentlist, config):
             keyword,
             "Starred section names must have exactly one argument.",
             )
-    return [SongSection(keyword, contentlist[0])]
+    return ContentList(SongSection(keyword, contentlist[0]))
 
 
 CONTENT_PLUGINS = dict([

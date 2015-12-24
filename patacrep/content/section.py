@@ -1,6 +1,6 @@
 """Allow LaTeX sections (starred or not) as content of a songbook."""
 
-from patacrep.content import Content, ContentError
+from patacrep.content import ContentItem, ContentError
 
 KEYWORDS = [
     "part",
@@ -13,7 +13,7 @@ KEYWORDS = [
     ]
 FULL_KEYWORDS = KEYWORDS + ["{}*".format(word) for word in KEYWORDS]
 
-class Section(Content):
+class Section(ContentItem):
     """A LaTeX section."""
     # pylint: disable=too-few-public-methods
 
@@ -48,7 +48,7 @@ def parse(keyword, argument, contentlist, config):
             )
     if (len(contentlist) not in [1, 2]):
         raise ContentError(keyword, "Section can have one or two arguments.")
-    return [Section(keyword, *contentlist)]
+    return ContentList(Section(keyword, *contentlist))
 
 
 CONTENT_PLUGINS = dict([

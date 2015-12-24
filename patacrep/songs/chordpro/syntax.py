@@ -5,6 +5,7 @@ import logging
 import ply.yacc as yacc
 import re
 
+from patacrep.content import ContentError
 from patacrep.songs import errors
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
@@ -329,13 +330,5 @@ def parse_song(content, filename=None):
         lexer=ChordProLexer(filename=filename).lexer,
         )
     if parsed_content is None:
-        return ast.Song(
-            filename,
-            [],
-            errors=[functools.partial(
-                errors.SongSyntaxError,
-                line=parser._errors[-1].keywords['line'],
-                message='Fatal error during song parsing.',
-                )]
-            )
+        raise ContentError(message='Fatal error during song parsing.')
     return parsed_content

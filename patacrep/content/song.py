@@ -6,12 +6,13 @@ import logging
 import os
 import textwrap
 
-from patacrep.content import process_content, ContentError, Content
+from patacrep.content import process_content
+from patacrep.content import ContentError, ContentItem, ContentList
 from patacrep import files, errors
 
 LOGGER = logging.getLogger(__name__)
 
-class SongRenderer(Content):
+class SongRenderer(ContentItem):
     """Render a song in as a tex code."""
 
     def __init__(self, song):
@@ -71,7 +72,7 @@ def parse(keyword, argument, contentlist, config):
     plugins = config['_song_plugins']
     if '_langs' not in config:
         config['_langs'] = set()
-    songlist = []
+    songlist = ContentList()
     for songdir in config['_songdir']:
         if contentlist:
             break
@@ -95,11 +96,16 @@ def parse(keyword, argument, contentlist, config):
                                 ", ".join(["'.{}'".format(key) for key in plugins.keys()]),
                                 ))
                         continue
-                    renderer = SongRenderer(plugins[extension](
-                        filename,
-                        config,
-                        datadir=songdir.datadir,
-                        ))
+                    try:
+                        renderer = SongRenderer(plugins[extension](
+                            filename,
+                            config,
+                            datadir=songdir.datadir,
+                            ))
+                    except ContentError as error:
+                        # TODO
+                        songlist.errors.append(error)
+                        continue
                     songlist.append(renderer)
                     config["_langs"].add(renderer.song.lang)
             if len(songlist) > before:

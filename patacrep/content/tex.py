@@ -5,11 +5,11 @@ import logging
 import os
 
 from patacrep import files, errors
-from patacrep.content import Content
+from patacrep.content import ContentItem, ContentList
 
 LOGGER = logging.getLogger(__name__)
 
-class LaTeX(Content):
+class LaTeX(ContentItem):
     """Inclusion of LaTeX code"""
 
     def __init__(self, filename):
@@ -35,7 +35,7 @@ def parse(keyword, argument, contentlist, config):
         LOGGER.warning(
             "Useless 'tex' content: list of files to include is empty."
             )
-    filelist = []
+    filelist = ContentList
     basefolders = itertools.chain(
         (path.fullpath for path in config['_songdir']),
         files.iter_datadirs(config['datadir']),

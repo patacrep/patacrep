@@ -91,14 +91,15 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         cls._create_test(base, in_format, out_format),
                         )
 
-            with cls.chdir('errors'):
-                for source in sorted(glob.glob('*.*.source')):
-                    [*base, in_format, _] = source.split('.')
-                    base = '.'.join(base)
-                    yield (
-                        "test_{}_{}_failure".format(base, in_format),
-                        cls._create_failure(base, in_format),
-                        )
+            if os.path.isdir("errors"):
+                with cls.chdir('errors'):
+                    for source in sorted(glob.glob('*.*.source')):
+                        [*base, in_format, _] = source.split('.')
+                        base = '.'.join(base)
+                        yield (
+                            "test_{}_{}_failure".format(base, in_format),
+                            cls._create_failure(base, in_format),
+                            )
 
     @classmethod
     def _create_test(cls, base, in_format, out_format):

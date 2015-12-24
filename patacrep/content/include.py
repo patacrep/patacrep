@@ -19,7 +19,7 @@ def load_from_datadirs(path, datadirs):
 
     Raise an exception if it was found if none of the datadirs of 'config'.
     """
-    for filepath in files.iter_datadirs(datadirs, path):
+    for filepath in files.iter_datadirs(datadirs, "songs", path):
         if os.path.exists(filepath):
             return filepath
     # File not found

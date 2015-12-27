@@ -49,7 +49,7 @@ class ChordproParser(Parser):
             symbols[0] = ast.Song(
                 self.filename,
                 directives=self._directives,
-                errors=self._errors,
+                error_builders=self._errors,
                 )
         else:
             symbols[0] = symbols[2].add(symbols[1])

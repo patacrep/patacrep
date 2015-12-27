@@ -3,7 +3,10 @@
 # pylint: disable=too-few-public-methods
 
 from collections import OrderedDict
+import functools
 import logging
+
+from patacrep.songs import errors
 
 LOGGER = logging.getLogger()
 
@@ -223,7 +226,7 @@ class Song(AST):
         "tag": "add_cumulative",
         }
 
-    def __init__(self, filename, directives, *, errors=None):
+    def __init__(self, filename, directives, *, error_builders=None):
         super().__init__()
         self.content = []
         self.meta = OrderedDict()
@@ -231,10 +234,10 @@ class Song(AST):
         self._titles = []
         self._subtitles = []
         self.filename = filename
-        if errors is None:
+        if error_builders is None:
             self.error_builders = []
         else:
-            self.error_builders = errors
+            self.error_builders = error_builders
         for directive in directives:
             self.add(directive)
 
@@ -265,7 +268,13 @@ class Song(AST):
             # Add a metadata directive. Some of them are added using special
             # methods listed in ``METADATA_ADD``.
             if data.keyword not in AVAILABLE_DIRECTIVES:
-                LOGGER.warning("Ignoring unknown directive '{}'.".format(data.keyword))
+                message = "Ignoring unknown directive '{}'.".format(data.keyword)
+                LOGGER.warning("File {}, line {}: {}".format(self.filename, data.lineno, message))
+                self.error_builders.append(functools.partial(
+                    errors.SongSyntaxError,
+                    line=data.lineno,
+                    message=message,
+                    ))
             if data.keyword in self.METADATA_ADD:
                 getattr(self, self.METADATA_ADD[data.keyword])(data)
             else:

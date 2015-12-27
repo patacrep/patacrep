@@ -269,7 +269,7 @@ class Song(AST):
             # methods listed in ``METADATA_ADD``.
             if data.keyword not in AVAILABLE_DIRECTIVES:
                 message = "Ignoring unknown directive '{}'.".format(data.keyword)
-                LOGGER.warning("File {}, line {}: {}".format(self.filename, data.lineno, message))
+                LOGGER.warning("Song {}, line {}: {}".format(self.filename, data.lineno, message))
                 self.error_builders.append(functools.partial(
                     errors.SongSyntaxError,
                     line=data.lineno,

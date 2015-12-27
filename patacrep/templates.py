@@ -1,5 +1,6 @@
 """Template for .tex generation settings and utilities"""
 
+import logging
 import re
 import json
 
@@ -11,6 +12,8 @@ from jinja2.meta import find_referenced_templates as find_templates
 from patacrep import errors, files
 from patacrep.latex import lang2babel, UnknownLanguage
 import patacrep.encoding
+
+LOGGER = logging.getLogger(__name__)
 
 _LATEX_SUBS = (
     (re.compile(r'\\'), r'\\textbackslash'),
@@ -107,6 +110,7 @@ class Renderer:
             return lang2babel(lang, raise_unknown=True)
         except UnknownLanguage as error:
             error.message = "Songbook: {}".format(error.message)
+            LOGGER.warning(error.message)
             self.errors.append(error)
             return error.babel
 

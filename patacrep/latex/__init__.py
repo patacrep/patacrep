@@ -138,7 +138,6 @@ def lang2babel(lang, *, raise_unknown=False):
     try:
         return BABEL_LANGUAGES[checklanguage(lang)]
     except UnknownLanguage as error:
-        LOGGER.warning(str(error))
         if raise_unknown:
             raise
         return error.babel

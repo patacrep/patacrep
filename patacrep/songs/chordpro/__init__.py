@@ -11,7 +11,7 @@ import jinja2
 from patacrep import encoding, files, pkg_datapath
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
-from patacrep.songs.errors import FileNotFound
+from patacrep.songs.errors import FileNotFound, SongUnknownLanguage
 from patacrep.templates import Renderer
 from patacrep.latex import lang2babel, UnknownLanguage
 from patacrep.files import path2posix
@@ -145,11 +145,14 @@ class Chordpro2LatexSong(ChordproSong):
         try:
             return lang2babel(lang, raise_unknown=True)
         except UnknownLanguage as error:
-            error.message = "Song {}: {}".format(
-                self.fullpath,
+            new_error = SongUnknownLanguage(
+                self,
+                error.original,
+                error.fallback,
                 error.message,
                 )
-            self.errors.append(error)
+            LOGGER.warning(new_error)
+            self.errors.append(new_error)
             return error.babel
 
 class Chordpro2ChordproSong(ChordproSong):

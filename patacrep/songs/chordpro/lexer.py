@@ -150,7 +150,7 @@ class ChordProLexer:
             message=message,
         ))
         if self.filename is not None:
-            message = "File {}, line {}: {}".format(self.filename, token.lexer.lineno, message)
+            message = "Song {}, line {}: {}".format(self.filename, token.lexer.lineno, message)
         else:
             message = "Line {}: {}".format(token.lexer.lineno, message)
         LOGGER.warning(message)

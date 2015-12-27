@@ -12,7 +12,13 @@ class SongError(SharedError):
         self.message = message
 
     def __str__(self):
-        return "Song {}: {}".format(self.song, self.message)
+        return "{}: {}".format(self._human_song(), self.message)
+
+    def _human_song(self):
+        return "Datadir '{}', song '{}'".format(
+            self.song.datadir,
+            self.song.subpath,
+            )
 
 class SongSyntaxError(SongError):
     """Syntax error"""
@@ -25,12 +31,20 @@ class SongSyntaxError(SongError):
 
     def __str__(self):
         if self.line is not None:
-            return "Song {}, line {}: {}".format(self.song, self.line, self.message)
+            return "{}, line {}: {}".format(self._human_song(), self.line, self.message)
         else:
-            return "Song {}: {}".format(self.song, self.message)
+            return "{}: {}".format(self._human_song(), self.message)
 
 class FileNotFound(SongError):
     """File not found error"""
 
     def __init__(self, song, filename):
         super().__init__(song, "File '{}' not found.".format(filename))
+
+class SongUnknownLanguage(SongError):
+    """Song language is not known."""
+
+    def __init__(self, song, original, fallback, message):
+        super().__init__(song, message)
+        self.original = original
+        self.fallback = fallback

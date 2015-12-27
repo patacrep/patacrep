@@ -5,9 +5,10 @@
     "lilypond",
     "pictures"
   ],
+"lang": "ERROR",
 "booktype" : "chorded",
 "template" : "patacrep.tex",
 "encoding": "utf8",
- "content": ["tests/*.sg", "tests/*.sgc"]
+ "content": ["tests/*.csg", "tests/*.tsg"]
 
 }

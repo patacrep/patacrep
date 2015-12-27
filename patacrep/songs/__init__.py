@@ -90,7 +90,7 @@ class Song:
 
     # Version format of cached song. Increment this number if we update
     # information stored in cache.
-    CACHE_VERSION = 3
+    CACHE_VERSION = 4
 
     # List of attributes to cache
     cached_attributes = [
@@ -98,6 +98,7 @@ class Song:
         "unprefixed_titles",
         "cached",
         "data",
+        "errors",
         "lang",
         "authors",
         "_filehash",
@@ -185,13 +186,19 @@ class Song:
 
     def _write_cache(self):
         """If relevant, write a dumbed down version of self to the cache."""
-        if self.use_cache:
-            cached = {attr: getattr(self, attr) for attr in self.cached_attributes}
-            pickle.dump(
-                cached,
-                open(self.cached_name, 'wb'),
-                protocol=-1
-                )
+        if not self.use_cache:
+            return
+        if self.errors:
+            # As errors are exceptions, we cannot cache them because of a Python
+            # bug. When this bug is fixed, we will cache errors.
+            # https://bugs.python.org/issue1692335
+            return
+        cached = {attr: getattr(self, attr) for attr in self.cached_attributes}
+        pickle.dump(
+            cached,
+            open(self.cached_name, 'wb'),
+            protocol=-1
+            )
 
     def __str__(self):
         return str(self.fullpath)

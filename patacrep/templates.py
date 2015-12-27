@@ -9,7 +9,7 @@ from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
 
 from patacrep import errors, files
-from patacrep.latex import lang2babel
+from patacrep.latex import lang2babel, UnknownLanguage
 import patacrep.encoding
 
 _LATEX_SUBS = (
@@ -72,6 +72,7 @@ class Renderer:
     # pylint: disable=too-few-public-methods
 
     def __init__(self, template, jinjaenv, encoding=None):
+        self.errors = []
         self.encoding = encoding
         self.jinjaenv = jinjaenv
         self.jinjaenv.block_start_string = '(*'
@@ -92,11 +93,22 @@ class Renderer:
         for key, value in [
                 ("path2posix", files.path2posix),
                 ("iter_datadirs", files.iter_datadirs),
-                ("lang2babel", lang2babel),
+                ("lang2babel", self.lang2babel),
             ]:
             if key not in self.jinjaenv.filters:
                 self.jinjaenv.filters[key] = value
 
+    def lang2babel(self, lang):
+        """Return the LaTeX babel code corresponding to `lang`.
+
+        Add an error to the list of errors if argument is invalid.
+        """
+        try:
+            return lang2babel(lang, raise_unknown=True)
+        except UnknownLanguage as error:
+            error.message = "Songbook: {}".format(error.message)
+            self.errors.append(error)
+            return error.babel
 
 class TexBookRenderer(Renderer):
     """Tex renderer for the whole songbook"""

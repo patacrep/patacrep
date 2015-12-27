@@ -78,7 +78,7 @@ BABEL_LANGUAGES = OrderedDict((
     # ('??_??', 'welsh'),
 ))
 
-class UnknownLanguage(Exception):
+class UnknownLanguage(errors.SharedError):
     """Error: Unknown language."""
 
     def __init__(self, *, original, fallback, message):
@@ -86,6 +86,11 @@ class UnknownLanguage(Exception):
         self.original = original
         self.fallback = fallback
         self.message = message
+
+    @property
+    def babel(self):
+        """Return the fallback babel language."""
+        return BABEL_LANGUAGES[self.fallback]
 
     def __str__(self):
         return self.message
@@ -128,10 +133,12 @@ def checklanguage(lang):
             )
     )
 
-def lang2babel(lang):
+def lang2babel(lang, *, raise_unknown=False):
     """Return the language used by babel, corresponding to the language code"""
     try:
         return BABEL_LANGUAGES[checklanguage(lang)]
     except UnknownLanguage as error:
         LOGGER.warning(str(error))
-        return BABEL_LANGUAGES[error.fallback]
+        if raise_unknown:
+            raise
+        return error.babel

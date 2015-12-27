@@ -84,10 +84,18 @@ class Renderer:
         self.jinjaenv.filters['escape_tex'] = _escape_tex
         self.jinjaenv.trim_blocks = True
         self.jinjaenv.lstrip_blocks = True
-        self.jinjaenv.filters["path2posix"] = files.path2posix
-        self.jinjaenv.filters["iter_datadirs"] = files.iter_datadirs
-        self.jinjaenv.filters["lang2babel"] = lang2babel
+        self._fill_filters()
         self.template = self.jinjaenv.get_template(template)
+
+    def _fill_filters(self):
+        """Define some jinja2 filters, if not set yet."""
+        for key, value in [
+                ("path2posix", files.path2posix),
+                ("iter_datadirs", files.iter_datadirs),
+                ("lang2babel", lang2babel),
+            ]:
+            if key not in self.jinjaenv.filters:
+                self.jinjaenv.filters[key] = value
 
 
 class TexBookRenderer(Renderer):

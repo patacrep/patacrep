@@ -4,14 +4,15 @@ import logging
 import operator
 import os
 
-from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
+from jinja2 import Environment, FileSystemLoader, ChoiceLoader
+from jinja2 import contextfunction
 import jinja2
 
 from patacrep import encoding, files, pkg_datapath
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.templates import Renderer
-from patacrep.latex import lang2babel
+from patacrep.latex import lang2babel, UnknownLanguage
 from patacrep.files import path2posix
 
 LOGGER = logging.getLogger(__name__)
@@ -39,6 +40,11 @@ class ChordproSong(Song):
             'song': song,
             }
 
+    @staticmethod
+    def _jinja2_filters():
+        """Return additional jinja2 filters."""
+        return {}
+
     def render(self, template="song"): # pylint: disable=arguments-differ
         context = {
             'lang': self.lang,
@@ -54,9 +60,9 @@ class ChordproSong(Song):
             ))
         jinjaenv.filters['search_image'] = self.search_image
         jinjaenv.filters['search_partition'] = self.search_partition
-        jinjaenv.filters['lang2babel'] = lang2babel
         jinjaenv.filters['sortargs'] = sort_directive_argument
         jinjaenv.filters['path2posix'] = path2posix
+        jinjaenv.filters.update(self._jinja2_filters())
 
         try:
             return Renderer(
@@ -122,6 +128,26 @@ class Chordpro2LatexSong(ChordproSong):
                 self.subpath, self.datadir, filename,
                 )
             return None
+
+    def _jinja2_filters(self):
+        return {
+            'lang2babel': self.lang2babel,
+            }
+
+    def lang2babel(self, lang):
+        """Return the LaTeX babel code corresponding to `lang`.
+
+        Add an error to the list of errors if argument is invalid.
+        """
+        try:
+            return lang2babel(lang, raise_unknown=True)
+        except UnknownLanguage as error:
+            error.message = "Song {}: {}".format(
+                self.fullpath,
+                error.message,
+                )
+            self.errors.append(error)
+            return error.babel
 
 class Chordpro2ChordproSong(ChordproSong):
     """Render chordpro song to chordpro code"""

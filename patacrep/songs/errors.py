@@ -31,5 +31,3 @@ class SongSyntaxError(SongError):
 
 # class FileError(SongError):
 #     type = "file"
-#
-# class LanguageError(SongError):

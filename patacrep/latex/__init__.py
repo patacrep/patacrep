@@ -87,6 +87,9 @@ class UnknownLanguage(Exception):
         self.fallback = fallback
         self.message = message
 
+    def __str__(self):
+        return self.message
+
 def checklanguage(lang):
     """Check that `lang` is a known language.
 

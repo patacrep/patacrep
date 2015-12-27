@@ -11,6 +11,7 @@ import jinja2
 from patacrep import encoding, files, pkg_datapath
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
+from patacrep.songs.errors import FileNotFound
 from patacrep.templates import Renderer
 from patacrep.latex import lang2babel, UnknownLanguage
 from patacrep.files import path2posix
@@ -113,20 +114,22 @@ class Chordpro2LatexSong(ChordproSong):
         try:
             return os.path.join("scores", super().search_partition(filename))
         except FileNotFoundError:
-            LOGGER.warning(
-                "Song '%s' (datadir '%s'): Score '%s' not found.",
-                self.subpath, self.datadir, filename,
+            message = "Song '{}' (datadir '{}'): Score '{}' not found.".format(
+                self.subpath, self.datadir, filename
                 )
+            self.errors.append(FileNotFound(self, filename))
+            LOGGER.warning(message)
             return None
 
     def search_image(self, filename):
         try:
             return os.path.join("img", super().search_image(filename))
         except FileNotFoundError:
-            LOGGER.warning(
-                "Song '%s' (datadir '%s'): Image '%s' not found.",
-                self.subpath, self.datadir, filename,
+            message = "Song '{}' (datadir '{}'): Image '{}' not found.".format(
+                self.subpath, self.datadir, filename
                 )
+            self.errors.append(FileNotFound(self, filename))
+            LOGGER.warning(message)
             return None
 
     def _jinja2_filters(self):

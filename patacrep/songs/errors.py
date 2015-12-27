@@ -29,5 +29,8 @@ class SongSyntaxError(SongError):
         else:
             return "Song {}: {}".format(self.song, self.message)
 
-# class FileError(SongError):
-#     type = "file"
+class FileNotFound(SongError):
+    """File not found error"""
+
+    def __init__(self, song, filename):
+        super().__init__(song, "File '{}' not found.".format(filename))

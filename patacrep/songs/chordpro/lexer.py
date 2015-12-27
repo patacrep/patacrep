@@ -140,8 +140,7 @@ class ChordProLexer:
 
     def error(self, token, more=""):
         """Display error message, and skip illegal token."""
-        message = "Line {line}: Illegal character '{char}'{more}.".format(
-            line=token.lexer.lineno,
+        message = "Illegal character '{char}'{more}.".format(
             char=token.value[0],
             more=more,
             )
@@ -151,7 +150,9 @@ class ChordProLexer:
             message=message,
         ))
         if self.filename is not None:
-            message = "File {}: {}".format(self.filename, message)
+            message = "File {}, line {}: {}".format(self.filename, token.lexer.lineno, message)
+        else:
+            message = "Line {}: {}".format(token.lexer.lineno, message)
         LOGGER.warning(message)
         token.lexer.skip(1)
 

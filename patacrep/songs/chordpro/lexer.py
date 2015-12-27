@@ -1,7 +1,11 @@
 """ChordPro lexer"""
 
+import functools
 import logging
+
 import ply.lex as lex
+
+from patacrep.songs import errors
 
 LOGGER = logging.getLogger()
 
@@ -85,6 +89,7 @@ class ChordProLexer:
 
     def __init__(self, *, filename=None):
         self.__class__.lexer = lex.lex(module=self)
+        self.error_builders = []
         self.filename = filename
 
     # Define a rule so we can track line numbers
@@ -140,6 +145,11 @@ class ChordProLexer:
             char=token.value[0],
             more=more,
             )
+        self.error_builders.append(functools.partial(
+            errors.SongSyntaxError,
+            line=token.lexer.lineno,
+            message=message,
+        ))
         if self.filename is not None:
             message = "File {}: {}".format(self.filename, message)
         LOGGER.warning(message)

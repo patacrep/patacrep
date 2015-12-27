@@ -29,15 +29,17 @@ class ChordproParser(Parser):
             write_tables=0,
             )
 
-    def parse(self, content, *, lexer):
+    def parse(self, content):
         """Parse file
 
         This is a shortcut to `yacc.yacc(...).parse()`. The arguments are
         transmitted to this method.
         """
-        lexer = ChordProLexer(filename=self.filename).lexer
-        ast.AST.lexer = lexer
-        return self.parser.parse(content, lexer=lexer)
+        lexer = ChordProLexer(filename=self.filename)
+        ast.AST.lexer = lexer.lexer
+        parsed = self.parser.parse(content, lexer=lexer.lexer)
+        parsed.error_builders.extend(lexer.error_builders)
+        return parsed
 
     def p_song(self, symbols):
         """song : block song
@@ -324,10 +326,7 @@ class ChordproParser(Parser):
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
     parser = ChordproParser(filename)
-    parsed_content = parser.parse(
-        content,
-        lexer=ChordProLexer(filename=filename).lexer,
-        )
+    parsed_content = parser.parse(content)
     if parsed_content is None:
         raise ContentError(message='Fatal error during song parsing.')
     return parsed_content

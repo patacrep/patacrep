@@ -90,13 +90,14 @@ def parse(keyword, argument, contentlist, config):
                     LOGGER.debug('Parsing file "{}"…'.format(filename))
                     extension = filename.split(".")[-1]
                     if extension not in plugins:
-                        songlist.append_error(ContentError(message=(
-                            'I do not know how to parse "{}": name does '
-                            'not end with one of {}. Ignored.'
-                            ).format(
-                                os.path.join(songdir.datadir, filename),
-                                ", ".join(["'.{}'".format(key) for key in plugins.keys()]),
-                                )))
+                        LOGGER.info(
+                            (
+                                'I do not know how to parse "%s": name does '
+                                'not end with one of %s. Ignored.'
+                            ),
+                            os.path.join(songdir.datadir, filename),
+                            ", ".join(["'.{}'".format(key) for key in plugins.keys()])
+                        )
                         continue
                     try:
                         renderer = SongRenderer(plugins[extension](

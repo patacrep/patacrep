@@ -95,6 +95,15 @@ class UnknownLanguage(errors.SharedError):
     def __str__(self):
         return self.message
 
+    @property
+    def __dict__(self):
+        parent = vars(super())
+        parent.update({
+            'original': self.original,
+            'fallback': self.fallback,
+            })
+        return parent
+
 def checklanguage(lang):
     """Check that `lang` is a known language.
 

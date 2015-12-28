@@ -20,6 +20,17 @@ class SongError(SharedError):
             self.song.subpath,
             )
 
+    @property
+    def __dict__(self):
+        parent = vars(super())
+        parent.update({
+            'datadir': self.song.datadir,
+            'subpath': self.song.subpath,
+            'message': self.message,
+            'full_message': str(self),
+            })
+        return parent
+
 class SongSyntaxError(SongError):
     """Syntax error"""
     # pylint: disable=too-few-public-methods
@@ -35,11 +46,29 @@ class SongSyntaxError(SongError):
         else:
             return "{}: {}".format(self._human_song(), self.message)
 
+    @property
+    def __dict__(self):
+        parent = vars(super())
+        if self.line is not None:
+            parent.update({
+                'line': self.line,
+                })
+        return parent
+
 class FileNotFound(SongError):
     """File not found error"""
 
     def __init__(self, song, filename):
         super().__init__(song, "File '{}' not found.".format(filename))
+        self.filename = filename
+
+    @property
+    def __dict__(self):
+        parent = vars(super())
+        parent.update({
+            'filename': self.filename,
+            })
+        return parent
 
 class SongUnknownLanguage(SongError):
     """Song language is not known."""
@@ -48,3 +77,12 @@ class SongUnknownLanguage(SongError):
         super().__init__(song, message)
         self.original = original
         self.fallback = fallback
+
+    @property
+    def __dict__(self):
+        parent = vars(super())
+        parent.update({
+            'original': self.original,
+            'fallback': self.fallback,
+            })
+        return parent

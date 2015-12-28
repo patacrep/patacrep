@@ -110,6 +110,14 @@ class SharedError(SongbookError):
     def __str__(self):
         raise NotImplementedError()
 
+    @property
+    def __dict__(self):
+        return {
+            'type': self.__class__.__name__,
+            'message': str(self),
+            'full_message': str(self),
+            }
+
 def notfound(filename, paths, message=None):
     """Return a string saying that file was not found in paths."""
     if message is None:

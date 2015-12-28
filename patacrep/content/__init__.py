@@ -136,6 +136,15 @@ class ContentError(SharedError):
             text += ": " + self.message
         return text
 
+    @property
+    def __dict__(self):
+        parent = vars(super())
+        parent.update({
+            'keyword': self.keyword,
+            'message': self.message,
+            })
+        return parent
+
 class ContentList:
     """List of content items"""
 

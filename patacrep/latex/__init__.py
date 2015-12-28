@@ -99,8 +99,8 @@ class UnknownLanguage(errors.SharedError):
     def __dict__(self):
         parent = vars(super())
         parent.update({
-            'original': self.original,
             'fallback': self.fallback,
+            'original': self.original,
             })
         return parent
 

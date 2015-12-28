@@ -129,7 +129,7 @@ class Songbook:
     def iter_errors(self):
         """Iterate over errors of book and book content."""
         yield from self._errors
-        contentlist = self._config.get('content', list())
+        contentlist = self._config.get('content', content.ContentList())
         yield from contentlist.iter_errors()
         for item in contentlist:
             if not hasattr(item, "iter_errors"):

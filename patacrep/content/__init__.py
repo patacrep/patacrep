@@ -185,6 +185,10 @@ class ContentList:
     def iter_errors(self):
         """Iterate over errors."""
         yield from self._errors
+        for item in self:
+            if not hasattr(item, "iter_errors"):
+                continue
+            yield from item.iter_errors()
 
 class EmptyContentList(ContentList):
     """Empty content list: contain only errors."""

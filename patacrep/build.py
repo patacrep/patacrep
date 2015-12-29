@@ -131,10 +131,6 @@ class Songbook:
         yield from self._errors
         contentlist = self._config.get('content', content.ContentList())
         yield from contentlist.iter_errors()
-        for item in contentlist:
-            if not hasattr(item, "iter_errors"):
-                continue
-            yield from item.iter_errors()
 
     def requires_lilypond(self):
         """Tell if lilypond is part of the bookoptions"""

@@ -13,9 +13,9 @@
 
 \makeatletter
 \def\input@path{ %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/content_datadir/latex/} %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/latex/} %
-        {/home/louis/projets/patacrep/patacrep/patacrep/data/latex/} %
+        {@TEST_FOLDER@/content_datadir/latex/} %
+        {@TEST_FOLDER@/latex/} %
+        {@DATA_FOLDER@/latex/} %
 }
 \makeatother
 
@@ -39,9 +39,9 @@ guitar,
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/content_datadir/} %
-        {/home/louis/projets/patacrep/patacrep/test/test_compilation/} %
-        {/home/louis/projets/patacrep/patacrep/patacrep/data/} %
+        {@TEST_FOLDER@/content_datadir/} %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
 }
 
 
@@ -94,7 +94,7 @@ guitar,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./song.tsg
 
-\import{/home/louis/projets/patacrep/patacrep/test/test_compilation/content_datadir/songs/}{song.tsg}
+\import{@TEST_FOLDER@/content_datadir/songs/}{song.tsg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./song.csg
@@ -140,7 +140,7 @@ guitar,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% content_datadir/content/song.tsg
 
-\import{/home/louis/projets/patacrep/patacrep/test/test_compilation/content_datadir/content/}{song.tsg}
+\import{@TEST_FOLDER@/content_datadir/content/}{song.tsg}
 
 \end{songs}
 

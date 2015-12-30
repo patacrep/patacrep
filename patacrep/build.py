@@ -132,6 +132,21 @@ class Songbook:
         contentlist = self._config.get('content', content.ContentList())
         yield from contentlist.iter_errors()
 
+    def iter_flat_errors(self):
+        """Iterate over errors, in an exportable format.
+
+        This function does the same job as :func:`iter_errors`, exepted that
+        the errors are represented as dictionaries of standard python types.
+
+        Each error (dictionary) contains the following keys:
+        - `type`: the error type (as the class name of the error);
+        - `message`: Error message, that does not include the error location (datadir, song, etc.);
+        - `full_message`: Error message, containing the full error location;
+        - depending on the error type, more keys may be present in the error.
+        """
+        for error in self.iter_errors():
+            yield vars(error)
+
     def requires_lilypond(self):
         """Tell if lilypond is part of the bookoptions"""
         return 'lilypond' in self.config.get('bookoptions', [])

@@ -92,8 +92,8 @@ def parse(keyword, argument, contentlist, config):
                     if extension not in plugins:
                         LOGGER.info(
                             (
-                                'I do not know how to parse "%s": name does '
-                                'not end with one of %s. Ignored.'
+                                'Cannot parse "%s": name does not end with one '
+                                'of %s. Ignored.'
                             ),
                             os.path.join(songdir.datadir, filename),
                             ", ".join(["'.{}'".format(key) for key in plugins.keys()])

@@ -13,6 +13,8 @@ from patacrep.latex.syntax import tex2plain, parse_song
 
 LOGGER = logging.getLogger(__name__)
 
+DEFAULT_LANGUAGE = "en_us"
+
 BABEL_LANGUAGES = OrderedDict((
     ('de_de', 'german'),
     ('de_at', 'austrian'),
@@ -132,13 +134,14 @@ def checklanguage(lang):
     available = ", ".join(BABEL_LANGUAGES.keys())
     raise UnknownLanguage(
         original=lang,
-        fallback="en_us",
+        fallback=DEFAULT_LANGUAGE,
         message=(
             "Unknown language code '{}' (supported: {}). Using "
-            "default 'en_us' instead."
+            "default '{}' instead."
             ).format(
                 lang,
-                available
+                available,
+                DEFAULT_LANGUAGE,
             )
     )
 

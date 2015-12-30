@@ -145,11 +145,11 @@ def checklanguage(lang):
             )
     )
 
-def lang2babel(lang, *, raise_unknown=False):
-    """Return the language used by babel, corresponding to the language code"""
-    try:
-        return BABEL_LANGUAGES[checklanguage(lang)]
-    except UnknownLanguage as error:
-        if raise_unknown:
-            raise
-        return error.babel
+def lang2babel(lang):
+    """Return the language used by babel, corresponding to the language code
+
+    Raises an `UnknownLanguage` exception if the `lang` argument is not known,
+    the :attr:`fallback` attribute of the exception being the existing
+    alternative language that can be used instead.
+    """
+    return BABEL_LANGUAGES[checklanguage(lang)]

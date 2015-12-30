@@ -223,7 +223,7 @@ def render(context, content):
         rendered += elem.render(context) + EOL
         previous = elem
 
-    if isinstance(last, ContentItem):
+    if last is not None:
         rendered += last.end_block(context) + EOL
 
     return rendered

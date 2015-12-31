@@ -143,7 +143,7 @@ class Chordpro2LatexSong(ChordproSong):
         Add an error to the list of errors if argument is invalid.
         """
         try:
-            return lang2babel(lang, raise_unknown=True)
+            return lang2babel(lang)
         except UnknownLanguage as error:
             new_error = SongUnknownLanguage(
                 self,

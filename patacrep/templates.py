@@ -45,6 +45,18 @@ _VARIABLE_REGEXP = re.compile(
     """,
     re.VERBOSE|re.DOTALL)
 
+def _escape_tex(value):
+    '''Escape TeX special characters'''
+    newval = value
+    for pattern, replacement in _LATEX_SUBS:
+        newval = pattern.sub(replacement, newval)
+    return newval
+
+DEFAULT_FILTERS = {
+    "escape_tex": _escape_tex,
+    "iter_datadirs": files.iter_datadirs,
+    "path2posix": files.path2posix,
+    }
 
 class VariablesExtension(Extension):
     """Extension to jinja2 to silently ignore variable block.
@@ -62,14 +74,6 @@ class VariablesExtension(Extension):
         return nodes.Const("") # pylint: disable=no-value-for-parameter
 
 
-def _escape_tex(value):
-    '''Escape TeX special characters'''
-    newval = value
-    for pattern, replacement in _LATEX_SUBS:
-        newval = pattern.sub(replacement, newval)
-    return newval
-
-
 class Renderer:
     """Render a template to a LaTeX file."""
     # pylint: disable=too-few-public-methods
@@ -85,21 +89,22 @@ class Renderer:
         self.jinjaenv.comment_start_string = '(% comment %)'
         self.jinjaenv.comment_end_string = '(% endcomment %)'
         self.jinjaenv.line_comment_prefix = '%!'
-        self.jinjaenv.filters['escape_tex'] = _escape_tex
         self.jinjaenv.trim_blocks = True
         self.jinjaenv.lstrip_blocks = True
-        self._fill_filters()
-        self.template = self.jinjaenv.get_template(template)
-
-    def _fill_filters(self):
-        """Define some jinja2 filters, if not set yet."""
-        for key, value in [
-                ("path2posix", files.path2posix),
-                ("iter_datadirs", files.iter_datadirs),
-                ("lang2babel", self.lang2babel),
-            ]:
+        # Fill default filters
+        for key, value in self.filters().items():
             if key not in self.jinjaenv.filters:
                 self.jinjaenv.filters[key] = value
+
+        self.template = self.jinjaenv.get_template(template)
+
+    def filters(self):
+        """Return a dictionary of jinja2 filters."""
+        filters = DEFAULT_FILTERS.copy()
+        filters.update({
+            "lang2babel": self.lang2babel,
+            })
+        return filters
 
     def lang2babel(self, lang):
         """Return the LaTeX babel code corresponding to `lang`.

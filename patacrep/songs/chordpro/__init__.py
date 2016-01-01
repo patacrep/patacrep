@@ -14,13 +14,16 @@ from patacrep.songs.chordpro.syntax import parse_song
 from patacrep.songs.errors import FileNotFound, SongUnknownLanguage
 from patacrep.templates import Renderer
 from patacrep.latex import lang2babel, UnknownLanguage
-from patacrep.files import path2posix
 
 LOGGER = logging.getLogger(__name__)
 
 def sort_directive_argument(directives):
     """Sort directives by their argument."""
     return sorted(directives, key=operator.attrgetter("argument"))
+
+DEFAULT_FILTERS = {
+    'sortargs': sort_directive_argument,
+    }
 
 class ChordproSong(Song):
     """Chordpro song parser"""
@@ -41,10 +44,14 @@ class ChordproSong(Song):
             'song': song,
             }
 
-    @staticmethod
-    def _jinja2_filters():
+    def _filters(self):
         """Return additional jinja2 filters."""
-        return {}
+        filters = DEFAULT_FILTERS.copy()
+        filters.update({
+            'search_image': self.search_image,
+            'search_partition': self.search_partition,
+        })
+        return filters
 
     def render(self, template="song"): # pylint: disable=arguments-differ
         context = {
@@ -59,11 +66,7 @@ class ChordproSong(Song):
         jinjaenv = Environment(loader=FileSystemLoader(
             self.iter_datadirs("templates", "songs", "chordpro", self.output_language)
             ))
-        jinjaenv.filters['search_image'] = self.search_image
-        jinjaenv.filters['search_partition'] = self.search_partition
-        jinjaenv.filters['sortargs'] = sort_directive_argument
-        jinjaenv.filters['path2posix'] = path2posix
-        jinjaenv.filters.update(self._jinja2_filters())
+        jinjaenv.filters.update(self._filters())
 
         try:
             return Renderer(
@@ -132,10 +135,12 @@ class Chordpro2LatexSong(ChordproSong):
             LOGGER.warning(message)
             return None
 
-    def _jinja2_filters(self):
-        return {
+    def _filters(self):
+        parent = super()._filters()
+        parent.update({
             'lang2babel': self.lang2babel,
-            }
+            })
+        return parent
 
     def lang2babel(self, lang):
         """Return the LaTeX babel code corresponding to `lang`.

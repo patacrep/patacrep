@@ -38,7 +38,7 @@ install:
   - cmd: mpm.exe --install-some texlive_packages.txt
 
   # Update all packages
-  - cmd: mpm.exe --update-db --update --verbose || cat C:/projects/patacrep/miktex/miktex/log/mpmcli.log
+  - cmd: mpm.exe --admin --update --verbose || cat C:/projects/patacrep/miktex/miktex/log/mpmcli.log
 
 build: false  # Not a C# project, build stuff at the test step instead.
 

@@ -1,2 +1,10 @@
-luatexbase
+fontspec
 ltxbase
+lualibs
+luamplib
+luaotfload
+luatexbase
+
+miktex-lua52-bin-2.9
+miktex-luatex-base
+miktex-luatex-bin-2.9

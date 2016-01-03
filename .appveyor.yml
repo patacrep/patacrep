@@ -38,7 +38,7 @@ install:
   - cmd: mpm.exe --install-some texlive_packages.txt
 
   # Update all packages
-  - cmd: mpm.exe --update
+  - cmd: mpm.exe --update-db --update --verbose
 
 build: false  # Not a C# project, build stuff at the test step instead.
 

@@ -7,8 +7,10 @@ import os
 import pickle
 import re
 
+from patacrep import errors as book_errors
 from patacrep import files, encoding
 from patacrep.authors import process_listauthors
+from patacrep.songs import errors as song_errors
 
 LOGGER = logging.getLogger(__name__)
 
@@ -34,7 +36,7 @@ def cached_name(datadir, filename):
             raise
     return fullpath
 
-class DataSubpath(object):
+class DataSubpath:
     """A path divided in two path: a datadir, and its subpath.
 
     - This object can represent either a file or directory.
@@ -88,7 +90,7 @@ class Song:
 
     # Version format of cached song. Increment this number if we update
     # information stored in cache.
-    CACHE_VERSION = 3
+    CACHE_VERSION = 4
 
     # List of attributes to cache
     cached_attributes = [
@@ -96,6 +98,7 @@ class Song:
         "unprefixed_titles",
         "cached",
         "data",
+        "errors",
         "lang",
         "authors",
         "_filehash",
@@ -118,8 +121,9 @@ class Song:
         self.subpath = subpath
         self._filehash = None
         self.encoding = config["encoding"]
-        self.default_lang = config["lang"]
+        self.lang = config["lang"]
         self.config = config
+        self.errors = []
 
         if self._cache_retrieved():
             return
@@ -127,8 +131,7 @@ class Song:
         # Data extraction from the latex song
         self.titles = []
         self.data = {}
-        self.cached = None
-        self.lang = None
+        self.cached = {}
         self._parse()
 
         # Post processing of data
@@ -183,16 +186,22 @@ class Song:
 
     def _write_cache(self):
         """If relevant, write a dumbed down version of self to the cache."""
-        if self.use_cache:
-            cached = {attr: getattr(self, attr) for attr in self.cached_attributes}
-            pickle.dump(
-                cached,
-                open(self.cached_name, 'wb'),
-                protocol=-1
-                )
+        if not self.use_cache:
+            return
+        if self.errors:
+            # As errors are exceptions, we cannot cache them because of a Python
+            # bug. When this bug is fixed, we will cache errors.
+            # https://bugs.python.org/issue1692335
+            return
+        cached = {attr: getattr(self, attr) for attr in self.cached_attributes}
+        pickle.dump(
+            cached,
+            open(self.cached_name, 'wb'),
+            protocol=-1
+            )
 
-    def __repr__(self):
-        return repr((self.titles, self.data, self.fullpath))
+    def __str__(self):
+        return str(self.fullpath)
 
     def render(self, *args, **kwargs):
         """Return the code rendering this song.

@@ -11,6 +11,7 @@ from pkg_resources import resource_filename
 from patacrep import files
 from patacrep.songs import DEFAULT_CONFIG
 from patacrep.encoding import open_read
+from patacrep.songs import errors
 
 from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
@@ -97,14 +98,15 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         cls._create_test(base, in_format, out_format),
                         )
 
-            with cls.chdir('errors'):
-                for source in sorted(glob.glob('*.*.source')):
-                    [*base, in_format, _] = source.split('.')
-                    base = '.'.join(base)
-                    yield (
-                        "test_{}_{}_failure".format(base, in_format),
-                        cls._create_failure(base, in_format),
-                        )
+            if os.path.isdir("errors"):
+                with cls.chdir('errors'):
+                    for source in sorted(glob.glob('*.*.source')):
+                        [*base, in_format, _] = source.split('.')
+                        base = '.'.join(base)
+                        yield (
+                            "test_{}_{}_failure".format(base, in_format),
+                            cls._create_failure(base, in_format),
+                            )
 
     @classmethod
     def _create_test(cls, base, in_format, out_format):
@@ -126,7 +128,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             sourcename = "{}.{}.source".format(base, in_format)
             with self.chdir('errors'):
                 parser = self.song_plugins[out_format][in_format]
-                self.assertRaises(SyntaxError, parser, sourcename, self.config)
+                self.assertRaises(errors.SongSyntaxError, parser, sourcename, self.config)
 
         test_parse_failure.__doc__ = (
             "Test that '{base}' parsing fails."

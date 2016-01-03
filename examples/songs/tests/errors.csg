@@ -1,4 +1,4 @@
-{lang : en}
+{lang : xx_XX}
 {columns :  2}
 { title : Error}
 {subtitle: A chordpro file with many errors}
@@ -12,4 +12,5 @@ Bla [H]bla
 
 {fo#: bar}
 
-
+{image: foo}
+{partition: bar}

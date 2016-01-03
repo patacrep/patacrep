@@ -31,7 +31,7 @@ GENERATED_EXTENSIONS = [
 
 
 # pylint: disable=too-few-public-methods
-class Songbook(object):
+class Songbook:
     """Represent a songbook (.sb) file.
 
     - Low level: provide a Python representation of the values stored in the
@@ -40,22 +40,24 @@ class Songbook(object):
     """
 
     def __init__(self, raw_songbook, basename):
-        super().__init__()
+        self._raw_config = raw_songbook
         self.config = raw_songbook
         self.basename = basename
+        self._errors = list()
+        self._config = dict()
         # Some special keys have their value processed.
         self._set_datadir()
 
     def _set_datadir(self):
         """Set the default values for datadir"""
         try:
-            if isinstance(self.config['datadir'], str):
-                self.config['datadir'] = [self.config['datadir']]
+            if isinstance(self._raw_config['datadir'], str):
+                self._raw_config['datadir'] = [self._raw_config['datadir']]
         except KeyError:  # No datadir in the raw_songbook
-            self.config['datadir'] = [os.path.abspath('.')]
+            self._raw_config['datadir'] = [os.path.abspath('.')]
 
         abs_datadir = []
-        for path in self.config['datadir']:
+        for path in self._raw_config['datadir']:
             if os.path.exists(path) and os.path.isdir(path):
                 abs_datadir.append(os.path.abspath(path))
             else:
@@ -63,10 +65,10 @@ class Songbook(object):
                     "Ignoring non-existent datadir '{}'.".format(path)
                     )
 
-        self.config['datadir'] = abs_datadir
-        self.config['_songdir'] = [
+        self._raw_config['datadir'] = abs_datadir
+        self._raw_config['_songdir'] = [
             DataSubpath(path, 'songs')
-            for path in self.config['datadir']
+            for path in self._raw_config['datadir']
             ]
 
     def write_tex(self, output):
@@ -76,42 +78,74 @@ class Songbook(object):
         - output: a file object, in which the file will be written.
         """
         # Updating configuration
-        config = DEFAULT_CONFIG.copy()
-        config.update(self.config)
+        self._config = DEFAULT_CONFIG.copy()
+        self._config.update(self._raw_config)
         renderer = TexBookRenderer(
-            config['template'],
-            config['datadir'],
-            config['lang'],
-            config['encoding'],
+            self._config['template'],
+            self._config['datadir'],
+            self._config['lang'],
+            self._config['encoding'],
             )
-        config.update(renderer.get_variables())
-        config.update(self.config)
+        self._config.update(renderer.get_variables())
+        self._config.update(self._raw_config)
 
-        config['_compiled_authwords'] = authors.compile_authwords(
-            copy.deepcopy(config['authwords'])
+        self._config['_compiled_authwords'] = authors.compile_authwords(
+            copy.deepcopy(self._config['authwords'])
             )
 
         # Loading custom plugins
-        config['_content_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+        self._config['_content_plugins'] = files.load_plugins(
+            datadirs=self._config.get('datadir', []),
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
-        config['_song_plugins'] = files.load_plugins(
-            datadirs=config.get('datadir', []),
+        self._config['_song_plugins'] = files.load_plugins(
+            datadirs=self._config.get('datadir', []),
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']
 
         # Configuration set
-        config['render'] = content.render
-        config['content'] = content.process_content(
-            config.get('content', []),
-            config,
+        self._config['render'] = content.render
+        self._config['content'] = content.process_content(
+            self._config.get('content', []),
+            self._config,
             )
-        config['filename'] = output.name[:-4]
+        self._config['filename'] = output.name[:-4]
 
-        renderer.render_tex(output, config)
+        renderer.render_tex(output, self._config)
+        self._errors.extend(renderer.errors)
+
+    def has_errors(self):
+        """Return `True` iff errors have been encountered in the book.
+
+        Note that `foo.has_errors() == False` does not means that the book has
+        not any errors: it does only mean that no error has been found yet.
+        """
+        for _ in self.iter_errors():
+            return True
+        return False
+
+    def iter_errors(self):
+        """Iterate over errors of book and book content."""
+        yield from self._errors
+        contentlist = self._config.get('content', content.ContentList())
+        yield from contentlist.iter_errors()
+
+    def iter_flat_errors(self):
+        """Iterate over errors, in an exportable format.
+
+        This function does the same job as :func:`iter_errors`, exepted that
+        the errors are represented as dictionaries of standard python types.
+
+        Each error (dictionary) contains the following keys:
+        - `type`: the error type (as the class name of the error);
+        - `message`: Error message, that does not include the error location (datadir, song, etc.);
+        - `full_message`: Error message, containing the full error location;
+        - depending on the error type, more keys may be present in the error.
+        """
+        for error in self.iter_errors():
+            yield vars(error)
 
     def requires_lilypond(self):
         """Tell if lilypond is part of the bookoptions"""
@@ -125,7 +159,7 @@ def _log_pipe(pipe):
             break
         LOGGER.debug(line.strip())
 
-class SongbookBuilder(object):
+class SongbookBuilder:
     """Provide methods to compile a songbook."""
 
     # if False, do not expect anything from stdin.

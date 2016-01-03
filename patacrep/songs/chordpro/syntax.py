@@ -5,9 +5,10 @@ import re
 
 import ply.yacc as yacc
 
-from patacrep.songs.syntax import Parser
+from patacrep.content import ContentError
 from patacrep.songs.chordpro import ast
 from patacrep.songs.chordpro.lexer import tokens, ChordProLexer
+from patacrep.songs.syntax import Parser
 
 LOGGER = logging.getLogger()
 
@@ -28,22 +29,28 @@ class ChordproParser(Parser):
             write_tables=0,
             )
 
-    def parse(self, content, *, lexer):
+    def parse(self, content):
         """Parse file
 
         This is a shortcut to `yacc.yacc(...).parse()`. The arguments are
         transmitted to this method.
         """
-        lexer = ChordProLexer(filename=self.filename).lexer
-        ast.AST.lexer = lexer
-        return self.parser.parse(content, lexer=lexer)
+        lexer = ChordProLexer(filename=self.filename)
+        ast.AST.lexer = lexer.lexer
+        parsed = self.parser.parse(content, lexer=lexer.lexer)
+        parsed.error_builders.extend(lexer.error_builders)
+        return parsed
 
     def p_song(self, symbols):
         """song : block song
                 | empty
         """
         if len(symbols) == 2:
-            symbols[0] = ast.Song(self.filename, self._directives)
+            symbols[0] = ast.Song(
+                self.filename,
+                directives=self._directives,
+                error_builders=self._errors,
+                )
         else:
             symbols[0] = symbols[2].add(symbols[1])
 
@@ -187,10 +194,12 @@ class ChordproParser(Parser):
         else:
             symbols[0] = None
 
-    @staticmethod
-    def p_line_error(symbols):
+    def p_line_error(self, symbols):
         """line_error : error directive"""
-        LOGGER.error("Directive can only be preceded or followed by spaces")
+        self.error(
+            line=symbols.lexer.lineno,
+            message="Directive can only be preceded or followed by spaces",
+            )
         symbols[0] = ast.Line()
 
     @staticmethod
@@ -317,10 +326,7 @@ class ChordproParser(Parser):
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
     parser = ChordproParser(filename)
-    parsed_content = parser.parse(
-        content,
-        lexer=ChordProLexer(filename=filename).lexer,
-        )
+    parsed_content = parser.parse(content)
     if parsed_content is None:
-        raise SyntaxError('Fatal error during song parsing: {}'.format(filename))
+        raise ContentError(message='Fatal error during song parsing.')
     return parsed_content

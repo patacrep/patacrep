@@ -34,11 +34,11 @@ install:
   # Update fonts
   - cmd: luaotfload-tool.exe --update
 
-  # Manually install required texlive packages
-  - cmd: mpm.exe --install-some texlive_packages.txt
-
   # Update some packages
   - cmd: mpm.exe --update-some texlive_packages_updates.txt
+
+  # Manually install required texlive packages
+  - cmd: mpm.exe --install-some texlive_packages.txt
 
 build: false  # Not a C# project, build stuff at the test step instead.
 

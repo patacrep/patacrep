@@ -37,8 +37,8 @@ install:
   # Manually install required texlive packages
   - cmd: mpm.exe --install-some texlive_packages.txt
 
-  # Update all packages
-  - cmd: mpm.exe --find-updates --verbose || cat C:/projects/patacrep/miktex/miktex/log/mpmcli.log
+  # Update some packages
+  - cmd: mpm.exe --update-some texlive_packages_updates.txt
 
 build: false  # Not a C# project, build stuff at the test step instead.
 

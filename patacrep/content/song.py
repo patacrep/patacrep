@@ -7,17 +7,22 @@ import textwrap
 
 import jinja2
 
-from patacrep.content import process_content, ContentError, Content
+from patacrep.content import process_content
+from patacrep.content import ContentError, ContentItem, ContentList
 from patacrep import files, errors
 
 LOGGER = logging.getLogger(__name__)
 
-class SongRenderer(Content):
+class SongRenderer(ContentItem):
     """Render a song in as a tex code."""
 
     def __init__(self, song):
         super().__init__()
         self.song = song
+
+    def iter_errors(self):
+        """Iterate over song errors."""
+        yield from self.song.errors
 
     def begin_new_block(self, previous, __context):
         """Return a boolean stating if a new block is to be created."""
@@ -68,7 +73,7 @@ def parse(keyword, argument, contentlist, config):
     plugins = config['_song_plugins']
     if '_langs' not in config:
         config['_langs'] = set()
-    songlist = []
+    songlist = ContentList()
     for songdir in config['_songdir']:
         if contentlist:
             break
@@ -85,20 +90,24 @@ def parse(keyword, argument, contentlist, config):
                     LOGGER.debug('Parsing file "{}"…'.format(filename))
                     extension = filename.split(".")[-1]
                     if extension not in plugins:
-                        LOGGER.warning(
+                        LOGGER.info(
                             (
-                                'I do not know how to parse "{}": name does '
-                                'not end with one of {}. Ignored.'
-                            ).format(
-                                os.path.join(songdir.datadir, filename),
-                                ", ".join(["'.{}'".format(key) for key in plugins.keys()]),
-                                ))
+                                'Cannot parse "%s": name does not end with one '
+                                'of %s. Ignored.'
+                            ),
+                            os.path.join(songdir.datadir, filename),
+                            ", ".join(["'.{}'".format(key) for key in plugins.keys()])
+                        )
                         continue
-                    renderer = SongRenderer(plugins[extension](
-                        filename,
-                        config,
-                        datadir=songdir.datadir,
-                        ))
+                    try:
+                        renderer = SongRenderer(plugins[extension](
+                            filename,
+                            config,
+                            datadir=songdir.datadir,
+                            ))
+                    except ContentError as error:
+                        songlist.append_error(error)
+                        continue
                     songlist.append(renderer)
                     config["_langs"].add(renderer.song.lang)
             if len(songlist) > before:

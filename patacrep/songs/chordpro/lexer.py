@@ -1,7 +1,11 @@
 """ChordPro lexer"""
 
+import functools
 import logging
+
 import ply.lex as lex
+
+from patacrep.songs import errors
 
 LOGGER = logging.getLogger()
 
@@ -85,6 +89,7 @@ class ChordProLexer:
 
     def __init__(self, *, filename=None):
         self.__class__.lexer = lex.lex(module=self)
+        self.error_builders = []
         self.filename = filename
 
     # Define a rule so we can track line numbers
@@ -135,14 +140,20 @@ class ChordProLexer:
 
     def error(self, token, more=""):
         """Display error message, and skip illegal token."""
-        message = "Line {line}: Illegal character '{char}'{more}.".format(
-            line=token.lexer.lineno,
+        message = "Illegal character '{char}'{more}.".format(
             char=token.value[0],
             more=more,
             )
+        self.error_builders.append(functools.partial(
+            errors.SongSyntaxError,
+            line=token.lexer.lineno,
+            message=message,
+        ))
         if self.filename is not None:
-            message = "File {}: {}".format(self.filename, message)
-        LOGGER.error(message)
+            message = "Song {}, line {}: {}".format(self.filename, token.lexer.lineno, message)
+        else:
+            message = "Line {}: {}".format(token.lexer.lineno, message)
+        LOGGER.warning(message)
         token.lexer.skip(1)
 
     def t_error(self, token):

@@ -72,7 +72,7 @@ class SimpleLexer:
     @staticmethod
     def t_error(token):
         """Manage errors"""
-        LOGGER.error("Illegal character '{}'".format(token.value[0]))
+        LOGGER.warning("Illegal character '{}'".format(token.value[0]))
         token.lexer.skip(1)
 
 class SongLexer(SimpleLexer):

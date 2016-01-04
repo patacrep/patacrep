@@ -8,9 +8,12 @@ will work on simple cases, but not on complex ones.
 import logging
 from collections import OrderedDict
 
+from patacrep import errors
 from patacrep.latex.syntax import tex2plain, parse_song
 
 LOGGER = logging.getLogger(__name__)
+
+DEFAULT_LANGUAGE = "en_us"
 
 BABEL_LANGUAGES = OrderedDict((
     ('de_de', 'german'),
@@ -77,32 +80,76 @@ BABEL_LANGUAGES = OrderedDict((
     # ('??_??', 'welsh'),
 ))
 
-def lang2babel(lang):
-    """Return the language used by babel, corresponding to the language code"""
+class UnknownLanguage(errors.SharedError):
+    """Error: Unknown language."""
+
+    def __init__(self, *, original, fallback, message):
+        super().__init__()
+        self.original = original
+        self.fallback = fallback
+        self.message = message
+
+    @property
+    def babel(self):
+        """Return the fallback babel language."""
+        return BABEL_LANGUAGES[self.fallback]
+
+    def __str__(self):
+        return self.message
+
+    @property
+    def __dict__(self):
+        parent = vars(super())
+        parent.update({
+            'fallback': self.fallback,
+            'original': self.original,
+            })
+        return parent
+
+def checklanguage(lang):
+    """Check that `lang` is a known language.
+
+    Raise an :class:`UnknownLanguage` exception if not.
+    """
     # Exact match
     if lang.lower() in BABEL_LANGUAGES:
-        return BABEL_LANGUAGES[lang.lower()]
+        return lang.lower()
     # Only language code is provided (e.g. 'fr')
     for babel in BABEL_LANGUAGES:
         if babel.startswith(lang.lower()):
-            return BABEL_LANGUAGES[babel]
+            return babel
     # A non existent country code is provided (e.g. 'fr_CD').
     language = lang.lower().split("_")[0]
     for babel in BABEL_LANGUAGES:
         if babel.startswith(language):
-            LOGGER.error(
-                "Unknown country code '{}'. Using default '{}' instead.".format(
+            raise UnknownLanguage(
+                original=lang,
+                fallback=babel,
+                message="Unknown country code '{}'. Using default '{}' instead.".format(
                     lang,
                     babel
                 )
             )
-            return BABEL_LANGUAGES[babel]
     # Error: no (exact or approximate) match found
     available = ", ".join(BABEL_LANGUAGES.keys())
-    LOGGER.error(
-        "Unknown language code '{}' (supported: {}). Using default 'english' instead.".format(
-            lang,
-            available
-        )
+    raise UnknownLanguage(
+        original=lang,
+        fallback=DEFAULT_LANGUAGE,
+        message=(
+            "Unknown language code '{}' (supported: {}). Using "
+            "default '{}' instead."
+            ).format(
+                lang,
+                available,
+                DEFAULT_LANGUAGE,
+            )
     )
-    return 'english'
+
+def lang2babel(lang):
+    """Return the language used by babel, corresponding to the language code
+
+    Raises an `UnknownLanguage` exception if the `lang` argument is not known,
+    the :attr:`fallback` attribute of the exception being the existing
+    alternative language that can be used instead.
+    """
+    return BABEL_LANGUAGES[checklanguage(lang)]

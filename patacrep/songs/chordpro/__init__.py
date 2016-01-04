@@ -4,21 +4,26 @@ import logging
 import operator
 import os
 
-from jinja2 import Environment, FileSystemLoader, contextfunction, ChoiceLoader
+from jinja2 import Environment, FileSystemLoader, ChoiceLoader
+from jinja2 import contextfunction
 import jinja2
 
 from patacrep import encoding, files, pkg_datapath
 from patacrep.songs import Song
 from patacrep.songs.chordpro.syntax import parse_song
+from patacrep.songs.errors import FileNotFound, SongUnknownLanguage
 from patacrep.templates import Renderer
-from patacrep.latex import lang2babel
-from patacrep.files import path2posix
+from patacrep.latex import lang2babel, UnknownLanguage
 
 LOGGER = logging.getLogger(__name__)
 
 def sort_directive_argument(directives):
     """Sort directives by their argument."""
     return sorted(directives, key=operator.attrgetter("argument"))
+
+DEFAULT_FILTERS = {
+    'sortargs': sort_directive_argument,
+    }
 
 class ChordproSong(Song):
     """Chordpro song parser"""
@@ -32,11 +37,21 @@ class ChordproSong(Song):
             song = parse_song(song.read(), self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
-        self.lang = song.get_data_argument('language', self.default_lang)
+        self.lang = song.get_data_argument('language', self.lang)
         self.data = song.meta
+        self.errors = [error(song=self) for error in song.error_builders]
         self.cached = {
             'song': song,
             }
+
+    def _filters(self):
+        """Return additional jinja2 filters."""
+        filters = DEFAULT_FILTERS.copy()
+        filters.update({
+            'search_image': self.search_image,
+            'search_partition': self.search_partition,
+        })
+        return filters
 
     def render(self, template="song"): # pylint: disable=arguments-differ
         context = {
@@ -51,11 +66,7 @@ class ChordproSong(Song):
         jinjaenv = Environment(loader=FileSystemLoader(
             self.iter_datadirs("templates", "songs", "chordpro", self.output_language)
             ))
-        jinjaenv.filters['search_image'] = self.search_image
-        jinjaenv.filters['search_partition'] = self.search_partition
-        jinjaenv.filters['lang2babel'] = lang2babel
-        jinjaenv.filters['sortargs'] = sort_directive_argument
-        jinjaenv.filters['path2posix'] = path2posix
+        jinjaenv.filters.update(self._filters())
 
         try:
             return Renderer(
@@ -106,21 +117,48 @@ class Chordpro2LatexSong(ChordproSong):
         try:
             return os.path.join("scores", super().search_partition(filename))
         except FileNotFoundError:
-            LOGGER.warning(
-                "Song '%s' (datadir '%s'): Score '%s' not found.",
-                self.subpath, self.datadir, filename,
+            message = "Song '{}' (datadir '{}'): Score '{}' not found.".format(
+                self.subpath, self.datadir, filename
                 )
+            self.errors.append(FileNotFound(self, filename))
+            LOGGER.warning(message)
             return None
 
     def search_image(self, filename):
         try:
             return os.path.join("img", super().search_image(filename))
         except FileNotFoundError:
-            LOGGER.warning(
-                "Song '%s' (datadir '%s'): Image '%s' not found.",
-                self.subpath, self.datadir, filename,
+            message = "Song '{}' (datadir '{}'): Image '{}' not found.".format(
+                self.subpath, self.datadir, filename
                 )
+            self.errors.append(FileNotFound(self, filename))
+            LOGGER.warning(message)
             return None
+
+    def _filters(self):
+        parent = super()._filters()
+        parent.update({
+            'lang2babel': self.lang2babel,
+            })
+        return parent
+
+    def lang2babel(self, lang):
+        """Return the LaTeX babel code corresponding to `lang`.
+
+        Add an error to the list of errors if argument is invalid.
+        """
+        try:
+            return lang2babel(lang)
+        except UnknownLanguage as error:
+            new_error = SongUnknownLanguage(
+                self,
+                error.original,
+                error.fallback,
+                error.message,
+                )
+            LOGGER.warning(new_error)
+            self.errors.append(new_error)
+            return error.babel
 
 class Chordpro2ChordproSong(ChordproSong):
     """Render chordpro song to chordpro code"""

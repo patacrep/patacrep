@@ -3,11 +3,10 @@
 import logging
 import ply.yacc as yacc
 
-from patacrep.songs.syntax import Parser
-from patacrep.latex.lexer import tokens, SimpleLexer, SongLexer
 from patacrep.latex import ast
-from patacrep.errors import ParsingError
 from patacrep.latex.detex import detex
+from patacrep.latex.lexer import tokens, SimpleLexer, SongLexer
+from patacrep.songs.syntax import Parser
 
 LOGGER = logging.getLogger()
 
@@ -126,20 +125,22 @@ class LatexParser(Parser):
         else:
             symbols[0] = []
 
-    @staticmethod
-    def p_dictionary(symbols):
+    def p_dictionary(self, symbols):
         """dictionary : identifier EQUAL braces dictionary_next
                       | identifier EQUAL error dictionary_next
                       | empty
         """
+        symbols[0] = {}
         if len(symbols) == 2:
-            symbols[0] = {}
+            pass
         elif isinstance(symbols[3], ast.Expression):
-            symbols[0] = {}
             symbols[0][symbols[1]] = symbols[3]
             symbols[0].update(symbols[4])
         else:
-            raise ParsingError("Do enclose arguments between braces.")
+            self.error(
+                line=symbols.lexer.lineno,
+                message="Argument '{}' should be enclosed between braces.".format(symbols[1]),
+                )
 
     @staticmethod
     def p_identifier(symbols):

@@ -6,6 +6,7 @@ babel-italian
 babel-latin
 babel-portuges
 babel-spanish
+ctablestack
 etoolbox
 fancybox
 framed
@@ -16,6 +17,7 @@ mptopdf
 ms
 pgf
 tipa
+unicode-data
 url
 xcolor
 xstring

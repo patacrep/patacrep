@@ -1,6 +1,7 @@
 """Build a songbook, according to parameters found in a .sb file."""
 
 import codecs
+import copy
 import glob
 import logging
 import threading
@@ -32,7 +33,7 @@ GENERATED_EXTENSIONS = [
 
 
 # pylint: disable=too-few-public-methods
-class Songbook(object):
+class Songbook:
     """Represent a songbook (.sb) file.
 
     - Low level: provide a Python representation of the values stored in the
@@ -41,20 +42,21 @@ class Songbook(object):
     """
 
     def __init__(self, raw_songbook, basename):
-        super().__init__()
         # Validate config
         schema = config_model('schema')
         utils.validate_yaml_schema(raw_songbook, schema)
 
-        self.config = raw_songbook
+        self._raw_config = raw_songbook
         self.basename = basename
+        self._errors = list()
+        self._config = dict()
         # Some special keys have their value processed.
         self._set_datadir()
 
     def _set_datadir(self):
         """Set the default values for datadir"""
         abs_datadir = []
-        for path in self.config['_datadir']:
+        for path in self._raw_config['_datadir']:
             if os.path.exists(path) and os.path.isdir(path):
                 abs_datadir.append(os.path.abspath(path))
             else:
@@ -62,10 +64,10 @@ class Songbook(object):
                     "Ignoring non-existent datadir '{}'.".format(path)
                     )
 
-        self.config['_datadir'] = abs_datadir
-        self.config['_songdir'] = [
+        self._raw_config['_datadir'] = abs_datadir
+        self._raw_config['_songdir'] = [
             DataSubpath(path, 'songs')
-            for path in self.config['_datadir']
+            for path in self._raw_config['_datadir']
             ]
 
     def write_tex(self, output):
@@ -74,45 +76,81 @@ class Songbook(object):
         Arguments:
         - output: a file object, in which the file will be written.
         """
-        config = self.config.copy()
+        # Updating configuration
+        self._config = self._raw_config.copy()
         renderer = TexBookRenderer(
-            config['book']['template'],
-            config['_datadir'],
-            config['book']['lang'],
-            config['book']['encoding'],
+            self._config['book']['template'],
+            self._config['_datadir'],
+            self._config['book']['lang'],
+            self._config['book']['encoding'],
+            )
+        self._config['_template'] = renderer.get_all_variables(self._config.get('template', {}))
+
+        self._config['_compiled_authwords'] = authors.compile_authwords(
+            copy.deepcopy(self._config['authors'])
             )
 
-        config['_template'] = renderer.get_all_variables(self.config.get('template', {}))
-
-        config['_compiled_authwords'] = authors.compile_authwords(config['authors'])
-
         # Loading custom plugins
-        config['_content_plugins'] = files.load_plugins(
-            datadirs=config['_datadir'],
+        self._config['_content_plugins'] = files.load_plugins(
+            datadirs=self._config['_datadir'],
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
-        config['_song_plugins'] = files.load_plugins(
-            datadirs=config['_datadir'],
+        self._config['_song_plugins'] = files.load_plugins(
+            datadirs=self._config['_datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']
 
         # Configuration set
-        config['render'] = content.render
-        config['content'] = content.process_content(
-            config.get('content', []),
-            config,
+        self._config['render'] = content.render
+        self._config['content'] = content.process_content(
+            self._config.get('content', []),
+            self._config,
             )
-        config['filename'] = output.name[:-4]
+        self._config['filename'] = output.name[:-4]
 
-        config['bookoptions'] = iter_bookoptions(config)
+        self._config['bookoptions'] = iter_bookoptions(self._config)
 
-        renderer.render_tex(output, config)
+        renderer.render_tex(output, self._config)
+        self._errors.extend(renderer.errors)
+
+    def has_errors(self):
+        """Return `True` iff errors have been encountered in the book.
+
+        Note that `foo.has_errors() == False` does not means that the book has
+        not any errors: it does only mean that no error has been found yet.
+        """
+        for _ in self.iter_errors():
+            return True
+        return False
+
+    def iter_errors(self):
+        """Iterate over errors of book and book content."""
+        yield from self._errors
+        contentlist = self._config.get('content', content.ContentList())
+        yield from contentlist.iter_errors()
+
+    def iter_flat_errors(self):
+        """Iterate over errors, in an exportable format.
+
+        This function does the same job as :func:`iter_errors`, exepted that
+        the errors are represented as dictionaries of standard python types.
+
+        Each error (dictionary) contains the following keys:
+        - `type`: the error type (as the class name of the error);
+        - `message`: Error message, that does not include the error location (datadir, song, etc.);
+        - `full_message`: Error message, containing the full error location;
+        - depending on the error type, more keys may be present in the error.
+        """
+        for error in self.iter_errors():
+            yield vars(error)
 
     def requires_lilypond(self):
         """Tell if lilypond is part of the bookoptions"""
-        return 'lilypond' in self.config.get('bookoptions', [])
+        return ('chords' in self._config
+                and 'lilypond' in self._config['chords']
+                and self._config['chords']['lilypond'])
 
 def _log_pipe(pipe):
     """Log content from `pipe`."""
@@ -122,7 +160,7 @@ def _log_pipe(pipe):
             break
         LOGGER.debug(line.strip())
 
-class SongbookBuilder(object):
+class SongbookBuilder:
     """Provide methods to compile a songbook."""
 
     # if False, do not expect anything from stdin.

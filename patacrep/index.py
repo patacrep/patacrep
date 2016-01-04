@@ -46,7 +46,7 @@ def process_sxd(filename):
     return idx
 
 
-class Index(object):
+class Index:
     """Title, author or scripture Index representation."""
 
     def __init__(self, indextype):

@@ -1,5 +1,6 @@
 """Template for .tex generation settings and utilities"""
 
+import logging
 import re
 
 import yaml
@@ -10,8 +11,10 @@ from jinja2.ext import Extension
 from jinja2.meta import find_referenced_templates as find_templates
 
 from patacrep import errors, files, utils
-from patacrep.latex import lang2babel
+from patacrep.latex import lang2babel, UnknownLanguage
 import patacrep.encoding
+
+LOGGER = logging.getLogger(__name__)
 
 _LATEX_SUBS = (
     (re.compile(r'\\'), r'\\textbackslash'),
@@ -43,6 +46,18 @@ _VARIABLE_REGEXP = re.compile(
     """,
     re.VERBOSE|re.DOTALL)
 
+def _escape_tex(value):
+    '''Escape TeX special characters'''
+    newval = value
+    for pattern, replacement in _LATEX_SUBS:
+        newval = pattern.sub(replacement, newval)
+    return newval
+
+DEFAULT_FILTERS = {
+    "escape_tex": _escape_tex,
+    "iter_datadirs": files.iter_datadirs,
+    "path2posix": files.path2posix,
+    }
 
 class VariablesExtension(Extension):
     """Extension to jinja2 to silently ignore variable block.
@@ -60,19 +75,12 @@ class VariablesExtension(Extension):
         return nodes.Const("") # pylint: disable=no-value-for-parameter
 
 
-def _escape_tex(value):
-    '''Escape TeX special characters'''
-    newval = value
-    for pattern, replacement in _LATEX_SUBS:
-        newval = pattern.sub(replacement, newval)
-    return newval
-
-
 class Renderer:
     """Render a template to a LaTeX file."""
     # pylint: disable=too-few-public-methods
 
     def __init__(self, template, jinjaenv, encoding=None):
+        self.errors = []
         self.encoding = encoding
         self.jinjaenv = jinjaenv
         self.jinjaenv.block_start_string = '(*'
@@ -82,14 +90,35 @@ class Renderer:
         self.jinjaenv.comment_start_string = '(% comment %)'
         self.jinjaenv.comment_end_string = '(% endcomment %)'
         self.jinjaenv.line_comment_prefix = '%!'
-        self.jinjaenv.filters['escape_tex'] = _escape_tex
         self.jinjaenv.trim_blocks = True
         self.jinjaenv.lstrip_blocks = True
-        self.jinjaenv.filters["path2posix"] = files.path2posix
-        self.jinjaenv.filters["iter_datadirs"] = files.iter_datadirs
-        self.jinjaenv.filters["lang2babel"] = lang2babel
+        # Fill default filters
+        for key, value in self.filters().items():
+            if key not in self.jinjaenv.filters:
+                self.jinjaenv.filters[key] = value
+
         self.template = self.jinjaenv.get_template(template)
 
+    def filters(self):
+        """Return a dictionary of jinja2 filters."""
+        filters = DEFAULT_FILTERS.copy()
+        filters.update({
+            "lang2babel": self.lang2babel,
+            })
+        return filters
+
+    def lang2babel(self, lang):
+        """Return the LaTeX babel code corresponding to `lang`.
+
+        Add an error to the list of errors if argument is invalid.
+        """
+        try:
+            return lang2babel(lang)
+        except UnknownLanguage as error:
+            error.message = "Songbook: {}".format(error.message)
+            LOGGER.warning(error.message)
+            self.errors.append(error)
+            return error.babel
 
 class TexBookRenderer(Renderer):
     """Tex renderer for the whole songbook"""

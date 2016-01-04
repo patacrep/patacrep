@@ -16,10 +16,10 @@ class LaTeX(ContentItem):
         self.filename = filename
 
     def render(self, context):
-        return r'\input{{{}}}'.format(files.relpath(
+        return r'\input{{{}}}'.format(files.path2posix(files.relpath(
             self.filename,
             os.path.dirname(context['filename']),
-            ))
+            )))
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, contentlist, config):

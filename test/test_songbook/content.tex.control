@@ -92,11 +92,6 @@ guitar,
 
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./song.tsg
-
-\import{@TEST_FOLDER@/content_datadir/songs/}{song.tsg}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./song.csg
 
 \selectlanguage{english}
@@ -114,6 +109,11 @@ guitar,
 \end{verse}
 
 \endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./song.tsg
+
+\import{@TEST_FOLDER@/content_datadir/songs/}{song.tsg}
 
 \end{songs}
 

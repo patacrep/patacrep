@@ -33,7 +33,7 @@ install:
 
   # Update some packages to prevent ltluatex bug
   - cmd: mpm.exe --update=miktex-bin-2.9
-  - cmd: mpm.exe --update=ltxbase --update=luatexbase --update=luaotfload
+  - cmd: mpm.exe --update=ltxbase --update=luatexbase --update=luaotfload --update=miktex-luatex-base
 
   # Manually install required texlive packages
   - cmd: mpm.exe --install-some texlive_packages.txt

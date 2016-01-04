@@ -34,8 +34,9 @@ install:
   # Update fonts
   - cmd: luaotfload-tool.exe --update
 
-  # Update some packages
-  - cmd: mpm.exe --update-some texlive_packages_updates.txt
+  # Update some packages to prevent ltluatex bug
+  - cmd: mpm.exe --update=miktex-bin-2.9
+  - cmd: mpm.exe --update=ltxbase --update=luatexbase
 
   # Manually install required texlive packages
   - cmd: mpm.exe --install-some texlive_packages.txt

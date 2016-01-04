@@ -31,15 +31,15 @@ install:
   # Let the binaries be directly callable
   - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\miktex\bin
 
-  # Update fonts
-  - cmd: luaotfload-tool.exe --update
-
   # Update some packages to prevent ltluatex bug
   - cmd: mpm.exe --update=miktex-bin-2.9
-  - cmd: mpm.exe --update=ltxbase --update=luatexbase
+  - cmd: mpm.exe --update=ltxbase --update=luatexbase --update=luaotfload
 
   # Manually install required texlive packages
   - cmd: mpm.exe --install-some texlive_packages.txt
+
+  # Update fonts
+  - cmd: luaotfload-tool.exe --update
 
 build: false  # Not a C# project, build stuff at the test step instead.
 

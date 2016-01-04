@@ -4,7 +4,6 @@ This plugin provides keyword 'sorted', used to include a sorted list of songs
 to a songbook.
 """
 
-import locale
 import logging
 import unidecode
 
@@ -23,9 +22,9 @@ def normalize_string(string):
     Normalized means:
     - no surrounding spaces;
     - lower case;
-    - passed through locale.strxfrm().
+    - passed through unidecode.unidecode().
     """
-    return locale.strxfrm(unidecode.unidecode(string.lower().strip()))
+    return unidecode.unidecode(string.lower().strip())
 
 def normalize_field(field):
     """Return a normalized field, it being a string or a list of strings."""

@@ -7,7 +7,7 @@ class SongbookError(Exception):
     """
     pass
 
-class SBFileError(SongbookError):
+class YAMLError(SongbookError):
     """Error during songbook file decoding"""
 
     def __init__(self, message=None):

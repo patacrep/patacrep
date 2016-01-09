@@ -3,20 +3,18 @@
 import argparse
 import locale
 import logging
-import os.path
-import textwrap
 import sys
-import yaml
+import textwrap
 
-from patacrep.build import SongbookBuilder, DEFAULT_STEPS
-from patacrep.utils import yesno
 from patacrep import __version__
 from patacrep import errors
+from patacrep.build import SongbookBuilder, DEFAULT_STEPS
+from patacrep.utils import yesno
 import patacrep.encoding
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)
-LOGGER = logging.getLogger()
+LOGGER = logging.getLogger("patatools")
 
 # pylint: disable=too-few-public-methods
 class ParseStepsAction(argparse.Action):
@@ -127,49 +125,16 @@ def main():
 
     options = argument_parser(sys.argv[1:])
 
-    songbook_path = options.book[-1]
-    if os.path.exists(songbook_path + ".sb") and not os.path.exists(songbook_path):
-        songbook_path += ".sb"
-
-    basename = os.path.basename(songbook_path)[:-3]
-
     try:
-        with patacrep.encoding.open_read(songbook_path) as songbook_file:
-            songbook = yaml.load(songbook_file)
-        if 'encoding' in songbook:
-            with patacrep.encoding.open_read(
-                songbook_path,
-                encoding=songbook['encoding']
-                ) as songbook_file:
-                songbook = yaml.load(songbook_file)
-    except Exception as error: # pylint: disable=broad-except
-        LOGGER.error(error)
-        LOGGER.error("Error while loading file '{}'.".format(songbook_path))
-        sys.exit(1)
+        songbook = patacrep.songbook.open_songbook(options.book[-1])
 
-    # Gathering datadirs
-    datadirs = []
-    if options.datadir:
         # Command line options
-        datadirs += [item[0] for item in options.datadir]
-    if 'datadir' in songbook:
-        if isinstance(songbook['datadir'], str):
-            songbook['datadir'] = [songbook['datadir']]
-        datadirs += [
-            os.path.join(
-                os.path.dirname(os.path.abspath(songbook_path)),
-                path
-                )
-            for path in songbook['datadir']
-            ]
-    # Default value
-    datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
+        if options.datadir:
+            for datadir in reversed(options.datadir):
+                songbook['datadir'].insert(0, datadir)
+        songbook['_cache'] = options.cache[0]
 
-    songbook['datadir'] = datadirs
-    songbook['_cache'] = options.cache[0]
-
-    try:
-        sb_builder = SongbookBuilder(songbook, basename)
+        sb_builder = SongbookBuilder(songbook)
         sb_builder.unsafe = True
 
         sb_builder.build_steps(options.steps)

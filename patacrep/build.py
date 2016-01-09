@@ -172,11 +172,11 @@ class SongbookBuilder:
     # are function; values are return values of functions.
     _called_functions = {}
 
-    def __init__(self, raw_songbook, basename):
-        # Representation of the .sb songbook configuration file.
-        self.songbook = Songbook(raw_songbook, basename)
+    def __init__(self, raw_songbook):
         # Basename of the songbook to be built.
-        self.basename = basename
+        self.basename = raw_songbook['_basename']
+        # Representation of the .sb songbook configuration file.
+        self.songbook = Songbook(raw_songbook, self.basename)
 
     def _run_once(self, function, *args, **kwargs):
         """Run function if it has not been run yet.

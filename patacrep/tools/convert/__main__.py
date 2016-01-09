@@ -1,7 +1,4 @@
-"""Conversion between formats
-
-See the :meth:`__usage` method for more information.
-"""
+"""`patatools.convent` command: convert between song formats"""
 
 import os
 import logging
@@ -11,27 +8,32 @@ from patacrep import files
 from patacrep.songs import DEFAULT_CONFIG
 from patacrep.utils import yesno
 
-LOGGER = logging.getLogger(__name__)
+LOGGER = logging.getLogger("patatools.convert")
+SUBCOMMAND_DESCRIPTION = "Convert between song formats"
 
-def __usage():
-    return "python3 -m patacrep.songs.convert INPUTFORMAT OUTPUTFORMAT FILES"
+def _usage():
+    return "patatools convert INPUTFORMAT OUTPUTFORMAT FILES"
 
 def confirm(destname):
+    """Ask whether destination name should be overwrited."""
     while True:
         try:
             return yesno(input("File '{}' already exist. Overwrite? [yn] ".format(destname)))
         except ValueError:
             continue
 
-if __name__ == "__main__":
-    if len(sys.argv) < 4:
+def main(args=None):
+    """Main function: run from command line."""
+    if args is None:
+        args = sys.argv[1:]
+    if len(args) < 3:
         LOGGER.error("Invalid number of arguments.")
-        LOGGER.error("Usage: %s", __usage())
+        LOGGER.error("Usage: %s", _usage())
         sys.exit(1)
 
-    source = sys.argv[1]
-    dest = sys.argv[2]
-    song_files = sys.argv[3:]
+    source = args[0]
+    dest = args[1]
+    song_files = args[2:]
 
     renderers = files.load_plugins(
         datadirs=DEFAULT_CONFIG.get('datadir', []),
@@ -73,3 +75,6 @@ if __name__ == "__main__":
             sys.exit(0)
 
     sys.exit(0)
+
+if __name__ == "__main__":
+    main()

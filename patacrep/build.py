@@ -8,10 +8,12 @@ import threading
 import os.path
 from subprocess import Popen, PIPE, call, check_call
 
-from patacrep import authors, content, errors, files
+import yaml
+
+from patacrep import authors, content, encoding, errors, files, pkg_datapath, utils
 from patacrep.index import process_sxd
-from patacrep.templates import TexBookRenderer
-from patacrep.songs import DataSubpath, DEFAULT_CONFIG
+from patacrep.templates import TexBookRenderer, iter_bookoptions
+from patacrep.songs import DataSubpath
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
@@ -40,8 +42,11 @@ class Songbook:
     """
 
     def __init__(self, raw_songbook, basename):
+        # Validate config
+        schema = config_model('schema')
+        utils.validate_yaml_schema(raw_songbook, schema)
+
         self._raw_config = raw_songbook
-        self.config = raw_songbook
         self.basename = basename
         self._errors = list()
         self._config = dict()
@@ -50,14 +55,8 @@ class Songbook:
 
     def _set_datadir(self):
         """Set the default values for datadir"""
-        try:
-            if isinstance(self._raw_config['datadir'], str):
-                self._raw_config['datadir'] = [self._raw_config['datadir']]
-        except KeyError:  # No datadir in the raw_songbook
-            self._raw_config['datadir'] = [os.path.abspath('.')]
-
         abs_datadir = []
-        for path in self._raw_config['datadir']:
+        for path in self._raw_config['_datadir']:
             if os.path.exists(path) and os.path.isdir(path):
                 abs_datadir.append(os.path.abspath(path))
             else:
@@ -65,10 +64,10 @@ class Songbook:
                     "Ignoring non-existent datadir '{}'.".format(path)
                     )
 
-        self._raw_config['datadir'] = abs_datadir
+        self._raw_config['_datadir'] = abs_datadir
         self._raw_config['_songdir'] = [
             DataSubpath(path, 'songs')
-            for path in self._raw_config['datadir']
+            for path in self._raw_config['_datadir']
             ]
 
     def write_tex(self, output):
@@ -78,29 +77,27 @@ class Songbook:
         - output: a file object, in which the file will be written.
         """
         # Updating configuration
-        self._config = DEFAULT_CONFIG.copy()
-        self._config.update(self._raw_config)
+        self._config = self._raw_config.copy()
         renderer = TexBookRenderer(
-            self._config['template'],
-            self._config['datadir'],
-            self._config['lang'],
-            self._config['encoding'],
+            self._config['book']['template'],
+            self._config['_datadir'],
+            self._config['book']['lang'],
+            self._config['book']['encoding'],
             )
-        self._config.update(renderer.get_variables())
-        self._config.update(self._raw_config)
+        self._config['_template'] = renderer.get_all_variables(self._config.get('template', {}))
 
         self._config['_compiled_authwords'] = authors.compile_authwords(
-            copy.deepcopy(self._config['authwords'])
+            copy.deepcopy(self._config['authors'])
             )
 
         # Loading custom plugins
         self._config['_content_plugins'] = files.load_plugins(
-            datadirs=self._config.get('datadir', []),
+            datadirs=self._config['_datadir'],
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
         self._config['_song_plugins'] = files.load_plugins(
-            datadirs=self._config.get('datadir', []),
+            datadirs=self._config['_datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']
@@ -112,6 +109,8 @@ class Songbook:
             self._config,
             )
         self._config['filename'] = output.name[:-4]
+
+        self._config['bookoptions'] = iter_bookoptions(self._config)
 
         renderer.render_tex(output, self._config)
         self._errors.extend(renderer.errors)
@@ -149,7 +148,7 @@ class Songbook:
 
     def requires_lilypond(self):
         """Tell if lilypond is part of the bookoptions"""
-        return 'lilypond' in self.config.get('bookoptions', [])
+        return 'lilypond' in iter_bookoptions(self._config)
 
 def _log_pipe(pipe):
     """Log content from `pipe`."""
@@ -360,3 +359,15 @@ class SongbookBuilder:
                     os.unlink(self.basename + ext)
                 except Exception as exception:
                     raise errors.CleaningError(self.basename + ext, exception)
+
+
+def config_model(*args):
+    """Get the model structure with schema and default options"""
+    model_path = pkg_datapath('templates', 'songbook_model.yml')
+    with encoding.open_read(model_path) as model_file:
+        data = yaml.load(model_file)
+
+    while data and args:
+        name, *args = args
+        data = data.get(name)
+    return data

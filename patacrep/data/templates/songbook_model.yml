@@ -1,0 +1,121 @@
+schema:
+  type: //rec
+  optional:
+    content: //any
+    template: //any
+  required:
+    _cache: //bool
+    _datadir:
+      type: //arr
+      contents: //str
+    book:
+      type: //rec
+      required:
+        encoding: //str
+        lang: //str
+        pictures: //bool
+        template: //str
+        onesongperpage: //bool
+    chords:
+      type: //rec
+      required:
+        show: //bool
+        diagrampage: //bool
+        repeatchords: //bool
+        lilypond: //bool
+        tablatures: //bool
+        diagramreminder:
+          type: //any
+          of:
+            - type: //str
+              value: "none"
+            - type: //str
+              value: "important"
+            - type: //str
+              value: "all"
+        instrument:
+          type: //any
+          of:
+            - type: //str
+              value: "guitar"
+            - type: //str
+              value: "ukulele"
+        notation:
+          type: //any
+          of:
+            - type: //str
+              value: "alphascale"
+            - type: //str
+              value: "solfedge"
+    authors:
+      type: //rec
+      required:
+        separators:
+          type: //any
+          of:
+            - type: //arr
+              contents: //str
+            - type: //nil
+        ignore:
+          type: //any
+          of:
+            - type: //arr
+              contents: //str
+            - type: //nil
+        after:
+          type: //any
+          of:
+            - type: //arr
+              contents: //str
+            - type: //nil
+    titles:
+      type: //rec
+      required:
+        prefix:
+          type: //any
+          of:
+            - type: //arr
+              contents: //str
+            - type: //nil
+default:
+  book:
+    lang: en
+    encoding: utf-8
+    pictures: yes
+    template: default.tex
+    onesongperpage: no
+
+  chords: # Options relatives aux accords
+    show: yes
+    diagramreminder: important
+    diagrampage: yes
+    repeatchords: yes
+    lilypond: no
+    tablatures: no
+    instrument: guitar
+    notation: alphascale
+
+  authors: # Comment sont analysés les auteurs
+    separators:
+    - and
+    ignore:
+    - unknown
+    after:
+    - by
+
+  titles: # Comment sont analysés les titres
+    prefix:
+    - The
+    - Le
+    - La
+    - "L'"
+    - A
+    - Au
+    - Ces
+    - De
+    - Des
+    - El
+    - Les
+    - Ma
+    - Mon
+    - Un

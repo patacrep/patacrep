@@ -1,6 +1,12 @@
-{
-"datadir": ["content_datadir"],
-"content": [
+book:
+  pictures: yes
+  datadir: content_datadir
+  lang: en
+chords:
+  repeatchords: no
+  diagramreminder: all
+
+content: [
   ["section", "Test of section"],
   ["sorted"],
   ["songsection", "Test of song section"],
@@ -10,4 +16,3 @@
   ],
   ["include", "include.sbc"]
   ]
-}

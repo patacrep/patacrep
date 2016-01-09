@@ -38,8 +38,8 @@ def parse(keyword, argument, contentlist, config):
     filelist = ContentList()
     basefolders = itertools.chain(
         (path.fullpath for path in config['_songdir']),
-        files.iter_datadirs(config['datadir']),
-        files.iter_datadirs(config['datadir'], 'latex'),
+        files.iter_datadirs(config['_datadir']),
+        files.iter_datadirs(config['_datadir'], 'latex'),
         )
     for filename in contentlist:
         checked_file = None

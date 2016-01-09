@@ -7,9 +7,10 @@ import os
 import unittest
 import json
 
-from patacrep.songs import DataSubpath, DEFAULT_CONFIG
+from patacrep.songs import DataSubpath
 from patacrep import content, files
 from patacrep.content import song, section, songsection, tex
+from patacrep.build import config_model
 
 from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
@@ -95,11 +96,12 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def _generate_config(cls):
         """Generate the config to process the content"""
 
-        config = DEFAULT_CONFIG.copy()
+        # Load the default songbook config
+        config = config_model('default')
 
         datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
 
-        config['datadir'] = datadirpaths
+        config['_datadir'] = datadirpaths
 
         config['_songdir'] = [
             DataSubpath(path, 'songs')

@@ -33,6 +33,7 @@ if __name__ == "__main__":
     dest = sys.argv[2]
     song_files = sys.argv[3:]
 
+    # todo : what is the datadir argument used for?
     renderers = files.load_plugins(
         datadirs=DEFAULT_CONFIG.get('datadir', []),
         root_modules=['songs'],

@@ -77,6 +77,9 @@ class Index:
 
     def add_keyword(self, key, word):
         """Add 'word' to self.keywords[key]."""
+        # Because LaTeX uses 'sep'
+        if key == 'sep':
+            key = 'separators'
         if key not in self.keywords:
             self.keywords[key] = []
         self.keywords[key].append(word)

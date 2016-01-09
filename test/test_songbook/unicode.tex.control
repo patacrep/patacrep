@@ -23,9 +23,10 @@
     ]{article}
 
 \usepackage[
-    chorded,
-diagram,
+chorded,
 pictures,
+repeatchords,
+importantdiagramonly,
 guitar,
     ]{patacrep}
 
@@ -62,6 +63,9 @@ guitar,
 \newindex{titleidx}{unicode_title}
 \newauthorindex{authidx}{unicode_auth}
 
+\authignoreword{unknown}
+\authbyword{by}
+\authsepword{and}
 
 \notenamesout{A}{B}{C}{D}{E}{F}{G}
 

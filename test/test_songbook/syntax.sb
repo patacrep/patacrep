@@ -1,3 +1,4 @@
-datadir:
-- syntax_datadir
-lang: en
+book:
+  datadir:
+  - syntax_datadir
+  lang: en

@@ -8,8 +8,8 @@ import textwrap
 import sys
 import yaml
 
-from patacrep.build import SongbookBuilder, DEFAULT_STEPS
-from patacrep.utils import yesno
+from patacrep.build import SongbookBuilder, DEFAULT_STEPS, config_model
+from patacrep.utils import yesno, DictOfDict
 from patacrep import __version__
 from patacrep import errors
 import patacrep.encoding
@@ -133,39 +133,46 @@ def main():
 
     basename = os.path.basename(songbook_path)[:-3]
 
+    # Load the user songbook config
     try:
         with patacrep.encoding.open_read(songbook_path) as songbook_file:
-            songbook = yaml.load(songbook_file)
-        if 'encoding' in songbook:
+            user_songbook = yaml.load(songbook_file)
+        if 'encoding' in user_songbook:
             with patacrep.encoding.open_read(
                 songbook_path,
-                encoding=songbook['encoding']
+                encoding=user_songbook['encoding']
                 ) as songbook_file:
-                songbook = yaml.load(songbook_file)
+                user_songbook = yaml.load(songbook_file)
     except Exception as error: # pylint: disable=broad-except
         LOGGER.error(error)
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))
         sys.exit(1)
+
+    # Merge the default and user configs
+    default_songbook = DictOfDict(config_model('default'))
+    default_songbook.update(user_songbook)
+    songbook = dict(default_songbook)
 
     # Gathering datadirs
     datadirs = []
     if options.datadir:
         # Command line options
         datadirs += [item[0] for item in options.datadir]
-    if 'datadir' in songbook:
-        if isinstance(songbook['datadir'], str):
-            songbook['datadir'] = [songbook['datadir']]
+    if 'book' in songbook and 'datadir' in songbook['book']:
+        if isinstance(songbook['book']['datadir'], str):
+            songbook['book']['datadir'] = [songbook['book']['datadir']]
         datadirs += [
             os.path.join(
                 os.path.dirname(os.path.abspath(songbook_path)),
                 path
                 )
-            for path in songbook['datadir']
+            for path in songbook['book']['datadir']
             ]
+        del songbook['book']['datadir']
+
     # Default value
     datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
-
-    songbook['datadir'] = datadirs
+    songbook['_datadir'] = datadirs
     songbook['_cache'] = options.cache[0]
 
     try:

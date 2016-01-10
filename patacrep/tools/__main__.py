@@ -94,6 +94,8 @@ def commandline_parser():
         title="Subcommands",
         description="List of available subcommands.",
         )
+    subparsers.required = True
+    subparsers.dest = "subcommand"
 
     for command, message, function in sorted(_iter_subcommands(), key=operator.itemgetter(0)):
         sub1 = subparsers.add_parser(command, help=message, add_help=False)
@@ -107,10 +109,7 @@ def main():
 
     parser = commandline_parser()
     args = parser.parse_args()
-    if hasattr(args, "function"):
-        args.function(args.remainder)
-    else:
-        parser.error("Missing command.")
+    args.function(args.remainder)
 
 if __name__ == "__main__":
     main()

@@ -232,8 +232,8 @@ def process_content(content, config=None):
     """Process content, and return a list of ContentItem() objects.
 
     Arguments are:
-    - content: the content field of the .sb file, which should be a list, and
-      describe what is to be included in the songbook;
+    - content: the content field of the .sb file, which should be an imbricated list
+    and describe what is to be included in the songbook;
     - config: the configuration dictionary of the current songbook.
 
     Return: a list of ContentItem objects, corresponding to the content to be
@@ -245,21 +245,34 @@ def process_content(content, config=None):
     if not content:
         content = [["song"]]
     for elem in content:
-        if isinstance(elem, str):
-            elem = ["song", elem]
-        try:
-            match = keyword_re.match(elem[0]).groupdict()
-        except AttributeError:
-            contentlist.append_error(ContentError(elem[0], "Cannot parse content type."))
-            continue
-        (keyword, argument) = (match['keyword'], match['argument'])
-        if keyword not in plugins:
-            contentlist.append_error(ContentError(keyword, "Unknown content type."))
-            continue
-        contentlist.extend(plugins[keyword](
-            keyword,
-            argument=argument,
-            contentlist=elem[1:],
-            config=config,
-            ))
+        if isinstance(elem, dict):
+            # new way
+            for keyword, argument in elem.items():
+                if keyword not in plugins:
+                    contentlist.append_error(ContentError(keyword, "Unknown content type."))
+                    continue
+                contentlist.extend(plugins[keyword](
+                    keyword,
+                    argument=argument,
+                    config=config,
+                    ))
+        else:
+            # old way
+            if isinstance(elem, str):
+                elem = ["song", elem]
+            try:
+                match = keyword_re.match(elem[0]).groupdict()
+            except AttributeError:
+                contentlist.append_error(ContentError(elem[0], "Cannot parse content type."))
+                continue
+            (keyword, argument) = (match['keyword'], match['argument'])
+            if keyword not in plugins:
+                contentlist.append_error(ContentError(keyword, "Unknown content type."))
+                continue
+            contentlist.extend(plugins[keyword](
+                keyword,
+                argument=argument,
+                contentlist=elem[1:],
+                config=config,
+                ))
     return contentlist

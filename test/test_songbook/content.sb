@@ -6,13 +6,12 @@ chords:
   repeatchords: no
   diagramreminder: all
 
-content: [
-  ["section", "Test of section"],
-  ["sorted"],
-  ["songsection", "Test of song section"],
-  ["cwd(content_datadir/content)",
+content:
+  - section: Test of section
+  - ["sorted"]
+  - ["songsection", "Test of song section"]
+  - ["cwd(content_datadir/content)",
     "song.csg", "song.tsg",
     ["tex", "foo.tex"]
-  ],
-  ["include", "include.sbc"]
   ]
+  - ["include", "include.sbc"]

@@ -1,6 +1,8 @@
-[["section", "Traditional", "tradi"],
-                "exsong.sg",
-                ["section*", "Example"],
-                "texsong.tsg",
-                "chordpro.csg",
-                "exsong.sg"]
+- section:
+    name: Traditional
+    short: tradi
+- "exsong.sg"
+- section*: Example
+- "texsong.tsg"
+- "chordpro.csg"
+- "exsong.sg"

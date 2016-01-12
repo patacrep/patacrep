@@ -5,7 +5,7 @@
 import glob
 import os
 import unittest
-import json
+import yaml
 
 from patacrep.songs import DataSubpath
 from patacrep import content, files
@@ -18,7 +18,7 @@ from .. import dynamic # pylint: disable=unused-import
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of the content plugins.
 
-    For any given `foo.source`, it parses the content as a json "content"
+    For any given `foo.source`, it parses the content as a yaml "content"
     argument of a .sb file.
     It controls that the generated file list is equal to the one in `foo.control`.
     """
@@ -51,7 +51,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base.source` produces the correct file list"""
             sourcename = "{}.source".format(base)
             with open(sourcename, mode="r", encoding="utf8") as sourcefile:
-                sbcontent = json.load(sourcefile)
+                sbcontent = yaml.load(sourcefile)
 
             with logging_reduced('patacrep.content.song'):
                 expandedlist = content.process_content(sbcontent, cls.config.copy())
@@ -61,7 +61,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             if not os.path.exists(controlname):
                 raise Exception("Missing control:" + str(sourcelist).replace("'", '"'))
             with open(controlname, mode="r", encoding="utf8") as controlfile:
-                controllist = json.load(controlfile)
+                controllist = yaml.load(controlfile)
 
             self.assertEqual(controllist, sourcelist)
 

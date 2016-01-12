@@ -10,8 +10,10 @@ content:
   - section: Test of section
   - ["sorted"]
   - songsection: Test of song section
-  - ["cwd(content_datadir/content)",
-    "song.csg", "song.tsg",
-    ["tex", "foo.tex"]
-  ]
+  - cwd:
+      path: content_datadir/content
+      content:
+        - "song.csg"
+        - "song.tsg"
+        - ["tex", "foo.tex"]
   - ["include", "include.sbc"]

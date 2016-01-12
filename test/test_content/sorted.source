@@ -1,1 +1,4 @@
-[["sorted(fullpath)"]]
+- sorted:
+    key: "@title"
+- sorted:
+    key: [by, "@title"]

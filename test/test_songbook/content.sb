@@ -8,7 +8,7 @@ chords:
 
 content:
   - section: Test of section
-  - ["sorted"]
+  - sorted:
   - songsection: Test of song section
   - cwd:
       path: content_datadir/content

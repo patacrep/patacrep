@@ -67,23 +67,25 @@ def key_generator(sort):
     return ordered_song_keys
 
 #pylint: disable=unused-argument
-def parse(keyword, config, argument, contentlist):
-    """Return a sorted list of songs contained in 'contentlist'.
+def parse(keyword, config, argument):
+    """Return a sorted list of songs.
 
     Arguments:
         - keyword: the string 'sorted';
         - config: the current songbook configuration dictionary;
-        - argument: the list of the fields used to sort songs, as strings
-          separated by commas (e.g. "by, album, @title");
-        - contentlist: the list of content to be sorted. If this content
-          contain something else than a song, an exception is raised.
+        - argument: a dict of:
+            key: the list of the fields used to sort songs (e.g. "by", "album", "@title")
+                a minus mean reverse order: "-@title"
+            content: content to be sorted. If this content
+                contain something else than a song, an exception is raised.
     """
-    if argument:
-        sort = [key.strip() for key in argument.split(",")]
-    else:
-        sort = DEFAULT_SORT
+    if argument is None:
+        argument = {}
+    sort = argument.get('key', DEFAULT_SORT)
+    if isinstance(sort, str):
+        sort = [sort]
     try:
-        songlist = process_content(contentlist, config)
+        songlist = process_content(argument.get('content'), config)
     except OnlySongsError as error:
         return EmptyContentList(errors=[ContentError(keyword, (
             "Content list of this keyword can be only songs (or content "

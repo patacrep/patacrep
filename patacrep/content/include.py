@@ -69,4 +69,12 @@ def parse(keyword, config, argument):
 
     return new_contentlist
 
+parse.rxschema = """
+type: //any
+of:
+  - type: //str
+  - type: //arr
+    contents: //str
+"""
+
 CONTENT_PLUGINS = {'include': parse}

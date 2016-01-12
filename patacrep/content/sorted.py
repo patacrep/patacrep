@@ -94,4 +94,19 @@ def parse(keyword, config, argument):
             ))])
     return sorted(songlist, key=key_generator(sort))
 
+parse.rxschema = """
+type: //any
+of:
+  - type: //nil
+  - type: //rec
+    optional:
+      key:
+        type: //any
+        of:
+          - //str
+          - type: //arr
+            contents: //str
+      content: //any
+"""
+
 CONTENT_PLUGINS = {'sorted': parse}

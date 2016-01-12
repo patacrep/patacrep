@@ -30,6 +30,9 @@ def parse(keyword, argument, config):
     """
     return ContentList([SongSection(keyword, argument)])
 
+parse.rxschema = """
+//str
+"""
 
 CONTENT_PLUGINS = dict([
     (keyword, parse)

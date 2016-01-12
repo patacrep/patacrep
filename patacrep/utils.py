@@ -86,7 +86,7 @@ def validate_yaml_schema(data, schema):
     rx_checker = Rx.Factory({"register_core_types": True})
     schema = rx_checker.make_schema(schema)
 
-    if not isinstance(data, dict):
+    if isinstance(data, DictOfDict):
         data = dict(data)
 
     try:

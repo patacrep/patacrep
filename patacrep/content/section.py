@@ -47,6 +47,16 @@ def parse(keyword, argument, config):
         argument = {'name': argument}
     return ContentList([Section(keyword, **argument)])
 
+parse.rxschema = """
+type: //any
+of:
+  - type: //str
+  - type: //rec
+    required:
+      name: //str
+    optional:
+      short: //str
+"""
 
 CONTENT_PLUGINS = dict([
     (word, parse)

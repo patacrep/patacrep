@@ -62,5 +62,12 @@ def parse(keyword, argument, config):
 
     return filelist
 
+parse.rxschema = """
+type: //any
+of:
+  - type: //arr
+    contents: //str
+  - type: //str
+"""
 
 CONTENT_PLUGINS = {'tex': parse}

@@ -121,6 +121,9 @@ def parse(keyword, argument, config):
                 ))
     return sorted(songlist)
 
+parse.rxschema = """
+type: //str
+"""
 
 CONTENT_PLUGINS = {'song': parse}
 

@@ -33,4 +33,11 @@ def parse(keyword, config, argument):
     config['_songdir'] = old_songdir
     return processed_content
 
+parse.rxschema = """
+type: //rec
+required:
+  path: //str
+  content: //any
+"""
+
 CONTENT_PLUGINS = {'cwd': parse}

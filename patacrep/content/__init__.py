@@ -72,9 +72,10 @@ import re
 import sys
 
 import jinja2
+import yaml
 
-from patacrep import files
-from patacrep.errors import SharedError
+from patacrep import files, utils
+from patacrep.errors import SBFileError, SharedError
 
 LOGGER = logging.getLogger(__name__)
 EOL = '\n'
@@ -228,6 +229,38 @@ def render(context, content):
 
     return rendered
 
+def build_plugin_schema(plugins):
+    """Builds the Rx schema for the ContentItem"""
+    plugin_schemas = {}
+    for keyword, parser in plugins.items():
+        subschema = getattr(parser, 'rxschema', '//any')
+        plugin_schemas[keyword] = yaml.load(subschema)
+    plugin_schema = [{
+        'type': '//rec',
+        'optional': plugin_schemas,
+    }]
+    song_schema = {
+        'type': '//str',
+    }
+    plugin_schema.append(song_schema)
+    return {
+        'type': '//any',
+        'of': plugin_schema,
+    }
+
+def validate_content(content, plugins):
+    """Validate the content against the Rx content schema"""
+    plugin_schema = build_plugin_schema(plugins)
+    content_schema = {
+        'type': '//any',
+        'of': [
+            plugin_schema,
+            {'type': '//arr', 'contents':plugin_schema},
+            #{'type': '//nil'},
+        ]
+    }
+    utils.validate_yaml_schema(content, content_schema)
+
 def process_content(content, config=None):
     """Process content, and return a list of ContentItem() objects.
 
@@ -242,7 +275,12 @@ def process_content(content, config=None):
     contentlist = ContentList()
     plugins = config.get('_content_plugins', {})
     if not content:
-        content = [{'song': None}]
+        content = [{'song': ""}]
+    try:
+        validate_content(content, plugins)
+    except SBFileError as error:
+        contentlist.append_error(ContentError("Invalid content", str(error)))
+        return contentlist
     for elem in content:
         if isinstance(elem, str):
             elem = {'song': [elem]}

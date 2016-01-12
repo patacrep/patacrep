@@ -16,4 +16,4 @@ content:
         - "song.csg"
         - "song.tsg"
         - ["tex", "foo.tex"]
-  - ["include", "include.sbc"]
+  - include: include.sbc

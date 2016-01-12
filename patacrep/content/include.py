@@ -28,18 +28,22 @@ def load_from_datadirs(path, datadirs):
         )
 
 #pylint: disable=unused-argument
-def parse(keyword, config, argument, contentlist):
+def parse(keyword, config, argument):
     """Include an external file content.
 
     Arguments:
         - keyword: the string 'include';
         - config: the current songbook configuration dictionary;
-        - argument: None;
-        - contentlist: a list of file paths to be included.
+        - argument:
+            a list of file paths to be included
+            or a string of the file to include
+
     """
     new_contentlist = ContentList()
+    if isinstance(argument, str):
+        argument = [argument]
 
-    for path in contentlist:
+    for path in argument:
         try:
             filepath = load_from_datadirs(path, config['_datadir'])
         except ContentError as error:

@@ -241,12 +241,11 @@ def process_content(content, config=None):
     """
     contentlist = ContentList()
     plugins = config.get('_content_plugins', {})
-    keyword_re = re.compile(r'^ *(?P<keyword>[\w\*]*) *(\((?P<argument>.*)\))? *$')
     if not content:
-        content = [ { 'song': None} ]
+        content = [{'song': None}]
     for elem in content:
         if isinstance(elem, str):
-            elem = { 'song': [elem] }
+            elem = {'song': [elem]}
         if isinstance(elem, dict):
             for keyword, argument in elem.items():
                 if keyword not in plugins:

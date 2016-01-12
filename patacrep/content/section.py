@@ -1,6 +1,6 @@
 """Allow LaTeX sections (starred or not) as content of a songbook."""
 
-from patacrep.content import ContentItem, ContentError, ContentList, EmptyContentList
+from patacrep.content import ContentItem, ContentList
 
 KEYWORDS = [
     "part",

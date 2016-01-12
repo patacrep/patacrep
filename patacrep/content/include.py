@@ -41,7 +41,7 @@ def parse(keyword, config, argument, contentlist):
 
     for path in contentlist:
         try:
-            filepath = load_from_datadirs(path, config.get('datadir', []))
+            filepath = load_from_datadirs(path, config['_datadir'])
         except ContentError as error:
             new_contentlist.append_error(error)
             continue
@@ -49,7 +49,7 @@ def parse(keyword, config, argument, contentlist):
         try:
             with encoding.open_read(
                 filepath,
-                encoding=config['encoding']
+                encoding=config['book']['encoding']
                 ) as content_file:
                 new_content = json.load(content_file)
         except Exception as error: # pylint: disable=broad-except
@@ -59,9 +59,9 @@ def parse(keyword, config, argument, contentlist):
                 ))
             continue
 
-        config["datadir"].append(os.path.abspath(os.path.dirname(filepath)))
+        config['_datadir'].append(os.path.abspath(os.path.dirname(filepath)))
         new_contentlist.extend(process_content(new_content, config))
-        config["datadir"].pop()
+        config['_datadir'].pop()
 
     return new_contentlist
 

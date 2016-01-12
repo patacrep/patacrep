@@ -2,6 +2,8 @@
 
 from collections import UserDict
 
+from patacrep import errors, Rx
+
 class DictOfDict(UserDict):
     """Dictionary, with a recursive :meth:`update` method.
 
@@ -75,3 +77,20 @@ def yesno(string):
         string,
         ", ".join(["'{}'".format(string) for string in yes_strings + no_strings]),
         ))
+
+def validate_yaml_schema(data, schema):
+    """Check that the data respects the schema
+
+    Will raise `SBFileError` if the schema is not respected.
+    """
+    rx_checker = Rx.Factory({"register_core_types": True})
+    schema = rx_checker.make_schema(schema)
+
+    if not isinstance(data, dict):
+        data = dict(data)
+
+    try:
+        schema.validate(data)
+    except Rx.SchemaMismatch as exception:
+        msg = 'Could not parse songbook file:\n' + str(exception)
+        raise errors.SBFileError(msg)

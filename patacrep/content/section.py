@@ -30,7 +30,7 @@ class Section(ContentItem):
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, config):
-    """Parse the contentlist.
+    """Parse the section.
 
     Arguments:
     - keyword (one of "part", "chapter", "section", ... , "subparagraph", and

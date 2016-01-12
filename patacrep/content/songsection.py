@@ -21,7 +21,7 @@ class SongSection(ContentItem):
 
 #pylint: disable=unused-argument
 def parse(keyword, argument, config):
-    """Parse the contentlist.
+    """Parse the songsection.
 
     Arguments:
     - keyword ("songsection" or "songchapter"): the section to use;

@@ -243,10 +243,11 @@ def process_content(content, config=None):
     plugins = config.get('_content_plugins', {})
     keyword_re = re.compile(r'^ *(?P<keyword>[\w\*]*) *(\((?P<argument>.*)\))? *$')
     if not content:
-        content = [["song"]]
+        content = [ { 'song': None} ]
     for elem in content:
+        if isinstance(elem, str):
+            elem = { 'song': [elem] }
         if isinstance(elem, dict):
-            # new way
             for keyword, argument in elem.items():
                 if keyword not in plugins:
                     contentlist.append_error(ContentError(keyword, "Unknown content type."))
@@ -257,22 +258,5 @@ def process_content(content, config=None):
                     config=config,
                     ))
         else:
-            # old way
-            if isinstance(elem, str):
-                elem = ["song", elem]
-            try:
-                match = keyword_re.match(elem[0]).groupdict()
-            except AttributeError:
-                contentlist.append_error(ContentError(elem[0], "Cannot parse content type."))
-                continue
-            (keyword, argument) = (match['keyword'], match['argument'])
-            if keyword not in plugins:
-                contentlist.append_error(ContentError(keyword, "Unknown content type."))
-                continue
-            contentlist.extend(plugins[keyword](
-                keyword,
-                argument=argument,
-                contentlist=elem[1:],
-                config=config,
-                ))
+            contentlist.append_error(ContentError(elem, "Unknown content type."))
     return contentlist

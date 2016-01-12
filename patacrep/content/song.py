@@ -58,18 +58,18 @@ class SongRenderer(ContentItem):
         return self.song.fullpath < other.song.fullpath
 
 #pylint: disable=unused-argument
-def parse(keyword, argument, contentlist, config):
+def parse(keyword, argument, config):
     """Parse data associated with keyword 'song'.
 
     Arguments:
     - keyword: unused;
-    - argument: unused;
-    - contentlist: a list of strings, which are interpreted as regular
+    - argument: a list of strings, which are interpreted as regular
       expressions (interpreted using the glob module), referring to songs.
     - config: the current songbook configuration dictionary.
 
     Return a list of Song() instances.
     """
+    contentlist = argument
     plugins = config['_song_plugins']
     if '_langs' not in config:
         config['_langs'] = set()

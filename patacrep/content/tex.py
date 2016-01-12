@@ -22,26 +22,26 @@ class LaTeX(ContentItem):
             )))
 
 #pylint: disable=unused-argument
-def parse(keyword, argument, contentlist, config):
-    """Parse the contentlist.
+def parse(keyword, argument, config):
+    """Parse the tex files.
 
     Arguments:
     - keyword: unused;
-    - argument: unused;
-    - contentlist: a list of name of tex files;
+    - argument:
+        a list of tex files to include
+        or a string of the tex file to include;
     - config: configuration dictionary of the current songbook.
     """
-    if not contentlist:
-        LOGGER.warning(
-            "Useless 'tex' content: list of files to include is empty."
-            )
+    if isinstance(argument, str):
+        argument = [argument]
+
     filelist = ContentList()
     basefolders = itertools.chain(
         (path.fullpath for path in config['_songdir']),
         files.iter_datadirs(config['_datadir']),
         files.iter_datadirs(config['_datadir'], 'latex'),
         )
-    for filename in contentlist:
+    for filename in argument:
         checked_file = None
         for path in basefolders:
             if os.path.exists(os.path.join(path, filename)):

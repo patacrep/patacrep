@@ -268,10 +268,9 @@ def process_content(content, config=None):
             elem = {'song': elem}
         if isinstance(elem, dict):
             for keyword, argument in elem.items():
-                if keyword not in plugins:
-                    contentlist.append_error(ContentError(keyword, "Unknown content keyword."))
-                    continue
                 try:
+                    if keyword not in plugins:
+                        raise ContentError(keyword, "Unknown content keyword.")
                     contentlist.extend(plugins[keyword](
                         keyword,
                         argument=argument,

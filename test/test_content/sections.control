@@ -1,1 +1,11 @@
-["section:Traditional", "exsong.sg", "section:Example", "texsong.tsg", "chordpro.csg", "exsong.sg"]
+- "section{First Section!}"
+- "section{Named section}"
+- "section[section_short_name]{Section with short name}"
+- "section*{Section* with short name}"
+- "part{part section test}"
+- "chapter{chapter section test}"
+- "section{section section test}"
+- "subsection{subsection section test}"
+- "subsubsection{subsubsection section test}"
+- "paragraph{paragraph section test}"
+- "subparagraph{subparagraph section test}"

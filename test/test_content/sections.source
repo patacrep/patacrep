@@ -1,6 +1,16 @@
-- section: Traditional
-- "exsong.sg"
-- section: Example
-- "texsong.tsg"
-- "chordpro.csg"
-- "exsong.sg"
+- section: First Section!
+- section:
+    name: Named section
+- section:
+    name: Section with short name
+    short: section_short_name
+- section*:
+    name: Section* with short name
+    short: section_star_short_name
+- part: part section test
+- chapter: chapter section test
+- section: section section test
+- subsection: subsection section test
+- subsubsection: subsubsection section test
+- paragraph: paragraph section test
+- subparagraph: subparagraph section test

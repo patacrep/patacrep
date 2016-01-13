@@ -78,10 +78,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             return files.path2posix(files.relpath(elem.song.fullpath, songpath))
 
         elif isinstance(elem, section.Section):
-            if elem.short is None:
-                return "{}:{}".format(elem.keyword, elem.name)
-            else:
-                return "{}:({}){}".format(elem.keyword, elem.short, elem.name)
+            return elem.render(None)[1:]
 
         elif isinstance(elem, songsection.SongSection):
             return "{}:{}".format(elem.keyword, elem.name)

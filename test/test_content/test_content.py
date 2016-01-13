@@ -81,7 +81,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             return elem.render(None)[1:]
 
         elif isinstance(elem, songsection.SongSection):
-            return "{}:{}".format(elem.keyword, elem.name)
+            return elem.render(None)[1:]
 
         elif isinstance(elem, tex.LaTeX):
             return files.path2posix(elem.filename)

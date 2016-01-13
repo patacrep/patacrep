@@ -1,10 +1,10 @@
 """Include an external list of songs
 
 This plugin provides keyword 'include', used to include an external list of
-songs in JSON format.
+songs in JSON or YAML format.
 """
 
-import json
+import yaml
 import os
 import logging
 
@@ -62,7 +62,7 @@ def parse(keyword, config, argument):
                 filepath,
                 encoding=config['book']['encoding']
                 ) as content_file:
-                new_content = json.load(content_file)
+                new_content = yaml.load(content_file)
         except Exception as error: # pylint: disable=broad-except
             new_contentlist.append_error(ContentError(
                 keyword="include",

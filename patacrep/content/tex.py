@@ -5,7 +5,7 @@ import logging
 import os
 
 from patacrep import files, errors
-from patacrep.content import ContentItem, ContentList, ContentError
+from patacrep.content import ContentItem, ContentList, ContentError, validate_parser_argument
 
 LOGGER = logging.getLogger(__name__)
 
@@ -22,6 +22,13 @@ class LaTeX(ContentItem):
             )))
 
 #pylint: disable=unused-argument
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //arr
+    contents: //str
+  - type: //str
+""")
 def parse(keyword, argument, config):
     """Parse the tex files.
 
@@ -61,13 +68,5 @@ def parse(keyword, argument, config):
         filelist.append(LaTeX(checked_file))
 
     return filelist
-
-parse.rxschema = """
-type: //any
-of:
-  - type: //arr
-    contents: //str
-  - type: //str
-"""
 
 CONTENT_PLUGINS = {'tex': parse}

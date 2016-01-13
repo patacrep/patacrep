@@ -7,7 +7,7 @@ import textwrap
 
 import jinja2
 
-from patacrep.content import process_content
+from patacrep.content import process_content, validate_parser_argument
 from patacrep.content import ContentError, ContentItem, ContentList
 from patacrep import files, errors
 
@@ -58,6 +58,14 @@ class SongRenderer(ContentItem):
         return self.song.fullpath < other.song.fullpath
 
 #pylint: disable=unused-argument
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //nil
+  - type: //str
+  - type: //arr
+    contents: //str
+""")
 def parse(keyword, argument, config):
     """Parse data associated with keyword 'song'.
 
@@ -120,10 +128,6 @@ def parse(keyword, argument, config):
                 message='Ignoring "{name}": did not match any file in {paths}.',
                 ))
     return sorted(songlist)
-
-parse.rxschema = """
-type: //str
-"""
 
 CONTENT_PLUGINS = {'song': parse}
 

@@ -1,9 +1,15 @@
 """Change base directory before importing songs."""
 
-from patacrep.content import process_content
+from patacrep.content import process_content, validate_parser_argument
 from patacrep.songs import DataSubpath
 
 #pylint: disable=unused-argument
+@validate_parser_argument("""
+type: //rec
+required:
+  path: //str
+  content: //any
+""")
 def parse(keyword, config, argument):
     """Return a list songs, whith a different base path.
 
@@ -32,12 +38,5 @@ def parse(keyword, config, argument):
     processed_content = process_content(argument['content'], config)
     config['_songdir'] = old_songdir
     return processed_content
-
-parse.rxschema = """
-type: //rec
-required:
-  path: //str
-  content: //any
-"""
 
 CONTENT_PLUGINS = {'cwd': parse}

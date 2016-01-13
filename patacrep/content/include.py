@@ -8,7 +8,7 @@ import json
 import os
 import logging
 
-from patacrep.content import process_content, ContentError, ContentList
+from patacrep.content import process_content, ContentError, ContentList, validate_parser_argument
 from patacrep import encoding, errors, files
 
 LOGGER = logging.getLogger(__name__)
@@ -28,6 +28,13 @@ def load_from_datadirs(path, datadirs):
         )
 
 #pylint: disable=unused-argument
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //str
+  - type: //arr
+    contents: //str
+""")
 def parse(keyword, config, argument):
     """Include an external file content.
 
@@ -68,13 +75,5 @@ def parse(keyword, config, argument):
         config['_datadir'].pop()
 
     return new_contentlist
-
-parse.rxschema = """
-type: //any
-of:
-  - type: //str
-  - type: //arr
-    contents: //str
-"""
 
 CONTENT_PLUGINS = {'include': parse}

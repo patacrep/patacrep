@@ -68,7 +68,7 @@ import sys
 import jinja2
 import yaml
 
-from patacrep import files, utils
+from patacrep import files, Rx, utils
 from patacrep.errors import SBFileError, SharedError
 
 LOGGER = logging.getLogger(__name__)
@@ -223,37 +223,31 @@ def render(context, content):
 
     return rendered
 
-def build_plugin_schema(plugins):
-    """Builds the Rx schema for the ContentItem"""
-    plugin_schemas = {}
-    for keyword, parser in plugins.items():
-        subschema = getattr(parser, 'rxschema', '//any')
-        plugin_schemas[keyword] = yaml.load(subschema)
-    plugin_schema = [{
-        'type': '//rec',
-        'optional': plugin_schemas,
-    }]
-    song_schema = {
-        'type': '//str',
-    }
-    plugin_schema.append(song_schema)
-    return {
-        'type': '//any',
-        'of': plugin_schema,
-    }
+def validate_parser_argument(raw_schema):
+    """Check that the parser argument respects the schema
 
-def validate_content(content, plugins):
-    """Validate the content against the Rx content schema"""
-    plugin_schema = build_plugin_schema(plugins)
-    content_schema = {
-        'type': '//any',
-        'of': [
-            plugin_schema,
-            {'type': '//arr', 'contents':plugin_schema},
-            #{'type': '//nil'},
-        ]
-    }
-    utils.validate_yaml_schema(content, content_schema)
+    Will raise `SBFileError` if the schema is not respected.
+    """
+    rx_checker = Rx.Factory({"register_core_types": True})
+    schema = rx_checker.make_schema(yaml.load(raw_schema))
+
+    def wrap(parse):
+        """Wrap the parse function"""
+        def wrapped(keyword, argument, config):
+            """Check the argument schema before calling the plugin parser"""
+            try:
+                schema.validate(argument)
+            except Rx.SchemaMismatch as exception:
+                msg = 'Invalid `{}` syntax:\n---\n{}---\n{}'.format(
+                    keyword,
+                    yaml.dump({keyword: argument}, default_flow_style=False),
+                    str(exception)
+                )
+                raise SBFileError(msg)
+            return parse(keyword, argument=argument, config=config)
+        return wrapped
+    return wrap
+
 
 def process_content(content, config=None):
     """Process content, and return a list of ContentItem() objects.
@@ -269,19 +263,14 @@ def process_content(content, config=None):
     contentlist = ContentList()
     plugins = config.get('_content_plugins', {})
     if not content:
-        content = [{'song': ""}]
-    try:
-        validate_content(content, plugins)
-    except SBFileError as error:
-        contentlist.append_error(ContentError("Invalid content", str(error)))
-        return contentlist
+        content = [{'song': None}]
     for elem in content:
         if isinstance(elem, str):
             elem = {'song': [elem]}
         if isinstance(elem, dict):
             for keyword, argument in elem.items():
                 if keyword not in plugins:
-                    contentlist.append_error(ContentError(keyword, "Unknown content type."))
+                    contentlist.append_error(ContentError(keyword, "Unknown content keyword."))
                     continue
                 contentlist.extend(plugins[keyword](
                     keyword,

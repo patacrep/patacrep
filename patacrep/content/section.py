@@ -1,6 +1,6 @@
 """Allow LaTeX sections (starred or not) as content of a songbook."""
 
-from patacrep.content import ContentItem, ContentList
+from patacrep.content import ContentItem, ContentList, validate_parser_argument
 
 KEYWORDS = [
     "part",
@@ -29,6 +29,16 @@ class Section(ContentItem):
             return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
 #pylint: disable=unused-argument
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //str
+  - type: //rec
+    required:
+      name: //str
+    optional:
+      short: //str
+""")
 def parse(keyword, argument, config):
     """Parse the section.
 
@@ -46,17 +56,6 @@ def parse(keyword, argument, config):
     if isinstance(argument, str):
         argument = {'name': argument}
     return ContentList([Section(keyword, **argument)])
-
-parse.rxschema = """
-type: //any
-of:
-  - type: //str
-  - type: //rec
-    required:
-      name: //str
-    optional:
-      short: //str
-"""
 
 CONTENT_PLUGINS = dict([
     (word, parse)

@@ -9,7 +9,7 @@ import unidecode
 
 from patacrep import files
 from patacrep.content import ContentError, EmptyContentList
-from patacrep.content import process_content
+from patacrep.content import process_content, validate_parser_argument
 from patacrep.content.song import OnlySongsError
 
 LOGGER = logging.getLogger(__name__)
@@ -67,6 +67,20 @@ def key_generator(sort):
     return ordered_song_keys
 
 #pylint: disable=unused-argument
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //nil
+  - type: //rec
+    optional:
+      key:
+        type: //any
+        of:
+          - //str
+          - type: //arr
+            contents: //str
+      content: //any
+""")
 def parse(keyword, config, argument):
     """Return a sorted list of songs.
 
@@ -93,20 +107,5 @@ def parse(keyword, config, argument):
             str(error.not_songs)
             ))])
     return sorted(songlist, key=key_generator(sort))
-
-parse.rxschema = """
-type: //any
-of:
-  - type: //nil
-  - type: //rec
-    optional:
-      key:
-        type: //any
-        of:
-          - //str
-          - type: //arr
-            contents: //str
-      content: //any
-"""
 
 CONTENT_PLUGINS = {'sorted': parse}

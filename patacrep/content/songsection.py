@@ -1,6 +1,6 @@
 """Allow 'songchapter' and 'songsection' as content of a songbook."""
 
-from patacrep.content import ContentItem, ContentList
+from patacrep.content import ContentItem, ContentList, validate_parser_argument
 
 KEYWORDS = [
     "songchapter",
@@ -20,6 +20,9 @@ class SongSection(ContentItem):
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 
 #pylint: disable=unused-argument
+@validate_parser_argument("""
+//str
+""")
 def parse(keyword, argument, config):
     """Parse the songsection.
 
@@ -29,10 +32,6 @@ def parse(keyword, argument, config):
     - config: configuration dictionary of the current songbook.
     """
     return ContentList([SongSection(keyword, argument)])
-
-parse.rxschema = """
-//str
-"""
 
 CONTENT_PLUGINS = dict([
     (keyword, parse)

@@ -69,7 +69,7 @@ import jinja2
 import yaml
 
 from patacrep import files, Rx
-from patacrep.errors import SBFileError, SharedError
+from patacrep.errors import SharedError
 
 LOGGER = logging.getLogger(__name__)
 EOL = '\n'
@@ -226,7 +226,7 @@ def render(context, content):
 def validate_parser_argument(raw_schema):
     """Check that the parser argument respects the schema
 
-    Will raise `SBFileError` if the schema is not respected.
+    Will raise `ContentError` if the schema is not respected.
     """
     rx_checker = Rx.Factory({"register_core_types": True})
     schema = rx_checker.make_schema(yaml.load(raw_schema))

@@ -238,12 +238,11 @@ def validate_parser_argument(raw_schema):
             try:
                 schema.validate(argument)
             except Rx.SchemaMismatch as exception:
-                msg = 'Invalid `{}` syntax:\n---\n{}---\n{}'.format(
-                    keyword,
+                msg = 'Invalid syntax:\n---\n{}---\n{}'.format(
                     yaml.dump({keyword: argument}, default_flow_style=False),
                     str(exception)
                 )
-                raise SBFileError(msg)
+                raise ContentError(keyword, msg)
             return parse(keyword, argument=argument, config=config)
         return wrapped
     return wrap
@@ -272,11 +271,14 @@ def process_content(content, config=None):
                 if keyword not in plugins:
                     contentlist.append_error(ContentError(keyword, "Unknown content keyword."))
                     continue
-                contentlist.extend(plugins[keyword](
-                    keyword,
-                    argument=argument,
-                    config=config,
-                    ))
+                try:
+                    contentlist.extend(plugins[keyword](
+                        keyword,
+                        argument=argument,
+                        config=config,
+                        ))
+                except ContentError as error:
+                    contentlist.append_error(error)
         else:
-            contentlist.append_error(ContentError(elem, "Unknown content type."))
+            contentlist.append_error(ContentError(str(elem), "Unknown content type."))
     return contentlist

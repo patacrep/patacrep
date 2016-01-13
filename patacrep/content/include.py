@@ -4,9 +4,10 @@ This plugin provides keyword 'include', used to include an external list of
 songs in JSON or YAML format.
 """
 
-import yaml
 import os
 import logging
+
+import yaml
 
 from patacrep.content import process_content, ContentError, ContentList, validate_parser_argument
 from patacrep import encoding, errors, files

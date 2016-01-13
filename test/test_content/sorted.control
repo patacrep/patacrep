@@ -1,4 +1,9 @@
-[
-"texsong.tsg", "chordpro.csg", "subdir/chordpro.csg", "exsong.sg",
-"exsong.sg", "texsong.tsg", "chordpro.csg", "subdir/chordpro.csg"
-]
+- texsong.tsg
+- chordpro.csg
+- subdir/chordpro.csg
+- exsong.sg
+
+- exsong.sg
+- texsong.tsg
+- chordpro.csg
+- subdir/chordpro.csg

@@ -78,6 +78,8 @@ def parse(keyword, argument, config):
     Return a list of Song() instances.
     """
     contentlist = argument
+    if isinstance(contentlist, str):
+        contentlist = [contentlist]
     plugins = config['_song_plugins']
     if '_langs' not in config:
         config['_langs'] = set()

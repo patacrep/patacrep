@@ -68,7 +68,7 @@ import sys
 import jinja2
 import yaml
 
-from patacrep import files, Rx, utils
+from patacrep import files, Rx
 from patacrep.errors import SBFileError, SharedError
 
 LOGGER = logging.getLogger(__name__)
@@ -266,7 +266,7 @@ def process_content(content, config=None):
         content = [{'song': None}]
     for elem in content:
         if isinstance(elem, str):
-            elem = {'song': [elem]}
+            elem = {'song': elem}
         if isinstance(elem, dict):
             for keyword, argument in elem.items():
                 if keyword not in plugins:

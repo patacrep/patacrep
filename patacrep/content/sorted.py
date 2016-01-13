@@ -8,7 +8,7 @@ import logging
 import unidecode
 
 from patacrep import files
-from patacrep.content import ContentError, EmptyContentList
+from patacrep.content import ContentError
 from patacrep.content import process_content, validate_parser_argument
 from patacrep.content.song import OnlySongsError
 
@@ -101,11 +101,11 @@ def parse(keyword, config, argument):
     try:
         songlist = process_content(argument.get('content'), config)
     except OnlySongsError as error:
-        return EmptyContentList(errors=[ContentError(keyword, (
+        raise ContentError(keyword, (
             "Content list of this keyword can be only songs (or content "
             "that result into songs), and the following are not:" +
             str(error.not_songs)
-            ))])
+            ))
     return sorted(songlist, key=key_generator(sort))
 
 CONTENT_PLUGINS = {'sorted': parse}

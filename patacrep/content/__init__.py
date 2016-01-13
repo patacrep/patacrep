@@ -17,13 +17,17 @@ dictionary where:
 When analysing the content field of the .sb file, when those keywords are
 met, the corresponding parser is called.
 
+# Keyword examples
+
+    - sorted
+    - section*
+    - cwd
+
 # Parsers
 
 A parser is a function which takes as arguments:
     - keyword: the keyword triggering this function;
     - argument: the argument of the keyword (see below);
-    - contentlist: the list of content, that is, the part of the list
-      following the keyword (see example below);
     - config: the configuration object of the current songbook. Plugins can
       change it.
 
@@ -31,29 +35,19 @@ A parser returns a ContentList object (a list of instances of the ContentItem
 class), defined in this module (or of subclasses of this class).
 
 Example: When the following piece of content is met
-
-    ["sorted(author, @title)", "a_song.sg", "another_song.sg"]
+    sorted:
+      key: ["author", "@title"]
+      content:
+        - "a_song.sg"
+        - "another_song.sg"
 
 the parser associated to keyword 'sorted' get the arguments:
     - keyword = "sorted"
-    - argument = "author, @title"
-    - contentlist = ["a_song.sg", "another_song.sg"]
+    - argument = {
+        'key': ["author", "@title"],
+        'content': ["a_song.sg", "another_song.sg"],
+    }
     - config = <the config file of the current songbook>.
-
-# Keyword
-
-A keyword is either an identifier (alphanumeric characters, and underscore),
-or such an identifier, with some text surrounded by parenthesis (like a
-function definition); this text is called the argument to the keyword.
-Examples:
-    - sorted
-    - sorted(author, @title)
-    - cwd(some/path)
-
-If the keyword has an argument, it can be anything, given that it is
-surrounded by parenthesis. It is up to the plugin to parse this argument. For
-intance, keyword "foo()(( bar()" is a perfectly valid keyword, and the parser
-associated to "foo" will get as argument the string ")(( bar(".
 
 # ContentItem class
 

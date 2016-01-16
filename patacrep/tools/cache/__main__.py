@@ -45,7 +45,7 @@ def commandline_parser():
     clear.add_argument(
         'songbook',
         metavar="SONGBOOK",
-        help=textwrap.dedent("""Songbook file to used to look for cache path."""),
+        help=textwrap.dedent("""Songbook file to be used to look for cache path."""),
         type=filename,
         )
     clear.set_defaults(command=do_clear)

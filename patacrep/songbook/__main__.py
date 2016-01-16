@@ -14,7 +14,7 @@ import patacrep.encoding
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)
-LOGGER = logging.getLogger("patatools")
+LOGGER = logging.getLogger()
 
 # pylint: disable=too-few-public-methods
 class ParseStepsAction(argparse.Action):

@@ -14,7 +14,7 @@ import patacrep
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)
-LOGGER = logging.getLogger()
+LOGGER = logging.getLogger("patatools")
 
 def _execlp(program, args):
     """Call :func:`os.execlp`, adding `program` as the first argument to itself."""

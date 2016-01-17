@@ -37,32 +37,32 @@ def commandline_parser():
         )
     subparsers.required = True
 
-    clear = subparsers.add_parser(
-        "clear",
+    clean = subparsers.add_parser(
+        "clean",
         description="Delete cache.",
         help="Delete cache.",
         )
-    clear.add_argument(
+    clean.add_argument(
         'songbook',
         metavar="SONGBOOK",
         help=textwrap.dedent("""Songbook file to be used to look for cache path."""),
         type=filename,
         )
-    clear.set_defaults(command=do_clear)
+    clean.set_defaults(command=do_clean)
 
     return parser
 
-def do_clear(namespace):
-    """Execute the `patatools cache clear` command."""
+def do_clean(namespace):
+    """Execute the `patatools cache clean` command."""
     for datadir in songbook.open_songbook(namespace.songbook)['datadir']:
         cachedir = os.path.join(datadir, ".cache")
         LOGGER.info("Deleting cache directory '{}'...".format(cachedir))
         if os.path.isdir(cachedir):
             shutil.rmtree(cachedir)
 
-def main(args=None):
+def main(args):
     """Main function: run from command line."""
-    options = commandline_parser().parse_args(args)
+    options = commandline_parser().parse_args(args[1:])
     try:
         options.command(options)
     except errors.SongbookError as error:
@@ -70,4 +70,4 @@ def main(args=None):
         sys.exit(1)
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv)

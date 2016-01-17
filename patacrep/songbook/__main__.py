@@ -113,9 +113,8 @@ def argument_parser(args):
     return options
 
 
-def main():
+def main(args):
     """Main function:"""
-
     # set script locale to match user's
     try:
         locale.setlocale(locale.LC_ALL, '')
@@ -123,7 +122,7 @@ def main():
         # Locale is not installed on user's system, or wrongly configured.
         LOGGER.error("Locale error: {}\n".format(str(error)))
 
-    options = argument_parser(sys.argv[1:])
+    options = argument_parser(args[1:])
 
     try:
         songbook = patacrep.songbook.open_songbook(options.book[-1])
@@ -152,4 +151,4 @@ def main():
     sys.exit(0)
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv)

@@ -46,7 +46,7 @@ class TestCache(unittest.TestCase):
             ]:
             with self.subTest(main=main, args=args):
                 # First compilation. Ensure that cache exists afterwards
-                self._system(songbook_main, ["songbook", "test_cache.sb"])
+                self._system(songbook_main, ["songbook", "--steps", "tex,clean", "test_cache.sb"])
                 self.assertTrue(os.path.exists(CACHEDIR))
 
                 # Clean cache

@@ -1,4 +1,4 @@
-"""`patatools.convent` command: convert between song formats"""
+"""`patatools.convert` command: convert between song formats"""
 
 import os
 import logging

@@ -6,8 +6,7 @@ python:
 install:
   - pip install tox
 script:
-  - tox -e lint
-  - tox -e py35
+  - tox -e lint,py35
 sudo: false
 # addons:
 #   apt:

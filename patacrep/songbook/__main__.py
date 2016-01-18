@@ -8,6 +8,7 @@ import textwrap
 
 from patacrep import __version__
 from patacrep import errors
+from patacrep.songbook import open_songbook
 from patacrep.build import SongbookBuilder, DEFAULT_STEPS
 from patacrep.utils import yesno
 import patacrep.encoding
@@ -125,7 +126,7 @@ def main(args):
     options = argument_parser(args[1:])
 
     try:
-        songbook = patacrep.songbook.open_songbook(options.book[-1])
+        songbook = open_songbook(options.book[-1])
 
         # Command line options
         if options.datadir:

@@ -8,7 +8,7 @@ import sys
 import textwrap
 
 from patacrep import errors
-from patacrep import songbook
+from patacrep.songbook import open_songbook
 
 LOGGER = logging.getLogger("patatools.cache")
 SUBCOMMAND_DESCRIPTION = "Perform operations on cache."
@@ -54,7 +54,7 @@ def commandline_parser():
 
 def do_clean(namespace):
     """Execute the `patatools cache clean` command."""
-    for datadir in songbook.open_songbook(namespace.songbook)['datadir']:
+    for datadir in open_songbook(namespace.songbook)['datadir']:
         cachedir = os.path.join(datadir, ".cache")
         LOGGER.info("Deleting cache directory '{}'...".format(cachedir))
         if os.path.isdir(cachedir):

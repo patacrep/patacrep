@@ -11,7 +11,6 @@ from patacrep import errors
 from patacrep.songbook import open_songbook
 from patacrep.build import SongbookBuilder, DEFAULT_STEPS
 from patacrep.utils import yesno
-import patacrep.encoding
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)

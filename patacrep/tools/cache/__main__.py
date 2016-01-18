@@ -64,6 +64,8 @@ def main(args):
     """Main function: run from command line."""
     options = commandline_parser().parse_args(args[1:])
     try:
+        print(80*"#")
+        print(options.command, type(options.command))
         options.command(options)
     except errors.SongbookError as error:
         LOGGER.error(str(error))

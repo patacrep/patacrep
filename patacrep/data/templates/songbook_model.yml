@@ -83,7 +83,7 @@ default:
     lang: en
     encoding: utf-8
     pictures: yes
-    template: default.tex
+    template: patacrep.tex
     onesongperpage: no
 
   chords: # Options relatives aux accords

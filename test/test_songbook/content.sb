@@ -2,6 +2,7 @@ book:
   pictures: yes
   datadir: content_datadir
   lang: en
+  template: default.tex
 chords:
   repeatchords: no
   diagramreminder: all

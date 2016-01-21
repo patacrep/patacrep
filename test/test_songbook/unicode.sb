@@ -1,4 +1,5 @@
 book:
+  template: default.tex
   datadir:
   - unicode_datadir
   lang: en

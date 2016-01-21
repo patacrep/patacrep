@@ -23,7 +23,7 @@ install:
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
   # Download miktex portable (if not cached)
-  - ps: "If (!(Test-Path miktex-portable.exe)){wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5719.exe -OutFile ./miktex-portable.exe}"
+  - ps: "If (!(Test-Path miktex-portable.ex)){wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.5857.exe -OutFile ./miktex-portable.exe}"
 
   # Unzip miktex portable
   - "7z x miktex-portable.exe * -aot -omiktex > nul"
@@ -32,8 +32,8 @@ install:
   - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\miktex\bin
 
   # Update some packages to prevent ltluatex bug
-  - cmd: mpm.exe --update=miktex-bin-2.9
-  - cmd: mpm.exe --update=ltxbase --update=luatexbase --update=luaotfload --update=miktex-luatex-base --update=fontspec
+  # - cmd: mpm.exe --update=miktex-bin-2.9 --verbose
+  # - cmd: mpm.exe --update=ltxbase --update=luatexbase --update=luaotfload --update=miktex-luatex-base --update=fontspec
 
   # Manually install required texlive packages
   - cmd: mpm.exe --install-some texlive_packages.txt

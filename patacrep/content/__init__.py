@@ -263,6 +263,8 @@ def process_content(content, config=None):
     plugins = config.get('_content_plugins', {})
     if not content:
         content = [{'song': None}]
+    elif isinstance(content, dict):
+        content = [content]
     for elem in content:
         if isinstance(elem, str):
             elem = {'song': elem}

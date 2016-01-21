@@ -11,9 +11,14 @@ content:
   - sorted:
   - songsection: Test of song section
   - cwd:
+      # relative to sg file
       path: content_datadir/content
       content:
         - "song.csg"
         - "song.tsg"
+  - cwd:
+      # relative to datadir
+      path: ../content
+      content:
         - tex: foo.tex
   - include: include.sbc

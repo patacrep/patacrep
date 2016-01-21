@@ -1,5 +1,7 @@
 """Change base directory before importing songs."""
 
+import os
+
 from patacrep.content import process_content, validate_parser_argument
 from patacrep.songs import DataSubpath
 
@@ -26,14 +28,16 @@ def parse(keyword, config, argument):
     for, and then processes the content.
 
     The 'path' is added:
-    - first as a relative path to the current directory;
+    - first as a relative path to the *.sb file directory;
     - then as a relative path to every path already present in
       config['songdir'].
     """
     subpath = argument['path']
     old_songdir = config['_songdir']
+    sbdir = os.path.dirname(config['_filepath'])
+
     config['_songdir'] = (
-        [DataSubpath(".", subpath)] +
+        [DataSubpath(sbdir, subpath)] +
         [path.clone().join(subpath) for path in config['_songdir']]
         )
     processed_content = process_content(argument.get('content'), config)

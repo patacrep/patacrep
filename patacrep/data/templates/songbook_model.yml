@@ -5,6 +5,7 @@ schema:
     template: //any
   required:
     _cache: //bool
+    _filepath: //str
     _datadir:
       type: //arr
       contents: //str

@@ -53,8 +53,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             with open(sourcename, mode="r", encoding="utf8") as sourcefile:
                 sbcontent = yaml.load(sourcefile)
 
+            config = cls.config.copy()
+            config['_filepath'] = base
             with logging_reduced('patacrep.content.song'):
-                expandedlist = content.process_content(sbcontent, cls.config.copy())
+                expandedlist = content.process_content(sbcontent, config)
             sourcelist = [cls._clean_path(elem) for elem in expandedlist]
 
             controlname = "{}.control".format(base)

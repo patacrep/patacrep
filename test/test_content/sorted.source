@@ -2,3 +2,6 @@
     key: "@title"
 - sorted:
     key: [by, "@title"]
+    content:
+        cwd:
+            path: "./"

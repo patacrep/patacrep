@@ -8,6 +8,7 @@ from patacrep.songs import DataSubpath
 type: //rec
 required:
   path: //str
+optional:
   content: //any
 """)
 def parse(keyword, config, argument):
@@ -35,7 +36,7 @@ def parse(keyword, config, argument):
         [DataSubpath(".", subpath)] +
         [path.clone().join(subpath) for path in config['_songdir']]
         )
-    processed_content = process_content(argument['content'], config)
+    processed_content = process_content(argument.get('content'), config)
     config['_songdir'] = old_songdir
     return processed_content
 

@@ -1,4 +1,4 @@
-"""Tests of the patatools-convert command."""
+"""Tests of the patatools-cache command."""
 
 # pylint: disable=too-few-public-methods
 

@@ -1,11 +1,7 @@
-babel-english
 babel-esperanto
-babel-french
-babel-german
 babel-italian
 babel-latin
 babel-portuges
-babel-spanish
 ctablestack
 etoolbox
 fancybox

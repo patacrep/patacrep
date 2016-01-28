@@ -1,0 +1,122 @@
+\selectlanguage{english}
+
+\beginsong{}[
+  by={
+  },
+]
+
+
+\begin{verse}
+    \selectlanguage
+    \songcolumns
+    \beginsong
+    \[&y={Traditionnel},cover={traditionnel},al&um={France}]
+\end{verse}
+
+
+\begin{verse}
+    \cover
+    \gtab
+    \gtab
+    \gtab
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Cheva\\[C]liers de la Table Ronde
+    Goûtons \\[G7]voir si le vin est \\[C]bon
+    \rep
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Goûtons \\[F]voir, \echo
+    Goûtons \\[C]voir, \echo
+    Goûtons \\[G7]voir si le vin est bon
+    \rep
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    S'il est bon, s'il est agréable
+    J'en boirai jusqu'à mon plaisir
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    J'en boirai cinq à six bouteilles
+    Et encore, ce n'est pas beaucoup
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Si je meurs, je veux qu'on m'enterre
+    Dans une cave où il y a du bon vin
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Les deux pieds contre la muraille
+    Et la tête sous le robinet
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Et les quatre plus grands ivrognes
+    Porteront les quatre coins du drap
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Pour donner le discours d'usage
+    On prendra le bistrot du coin
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Et si le tonneau se débouche
+    J'en boirai jusqu'à mon plaisir
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Et s'il en reste quelques gouttes
+    Ce sera pour nous rafraîchir
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \begin
+    Sur ma tombe, je veux qu'on inscrive
+    \emph
+    \end
+\end{verse}
+
+
+\begin{verse}
+    \endsong
+\end{verse}
+
+
+
+\endsong

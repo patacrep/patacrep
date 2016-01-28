@@ -43,7 +43,10 @@ class TestConvert(unittest.TestCase, metaclass=dynamic.DynamicTest):
                         with logging_reduced():
                             if os.path.exists(destname):
                                 os.remove(destname)
-                            self._system(main, args + [in_format, out_format, sourcename])
+                            self.assertEqual(
+                                self._system(main, args + [in_format, out_format, sourcename]),
+                                0,
+                                )
                             expected = controlfile.read().strip().replace(
                                 "@TEST_FOLDER@",
                                 files.path2posix(resource_filename(__name__, "")),
@@ -53,6 +56,26 @@ class TestConvert(unittest.TestCase, metaclass=dynamic.DynamicTest):
                                     destfile.read().strip(),
                                     expected,
                                     )
+
+    def assertFailConvert(self, basename, in_format, out_format):
+        """Test of the "patatools convert" subcommand"""
+        sourcename = "{}.{}".format(basename, in_format)
+        destname = "{}.{}".format(basename, out_format)
+        controlname = "{}.{}.control".format(sourcename, out_format)
+        for main, args in [
+                (tools_main, ["patatools", "convert"]),
+                (convert_main, ["patatools-convert"]),
+            ]:
+            with self.subTest(main=main, args=args):
+                with self.chdir("test_convert_failure"):
+                    with open_read(controlname) as controlfile:
+                        with logging_reduced():
+                            if os.path.exists(destname):
+                                os.remove(destname)
+                            self.assertEqual(
+                                self._system(main, args + [in_format, out_format, sourcename]),
+                                1,
+                                )
 
     @staticmethod
     @contextlib.contextmanager
@@ -65,21 +88,35 @@ class TestConvert(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @classmethod
     def _iter_testmethods(cls):
         """Iterate over song files to test."""
-        with cls.chdir("test_convert_success"):
-            for control in sorted(glob.glob('*.*.*.control')):
-                [*base, in_format, out_format, _] = control.split('.')
-                base = '.'.join(base)
-                yield (
-                    "test_{}_{}_{}".format(base, in_format, out_format),
-                    cls._create_test(base, in_format, out_format),
-                    )
+        for directory, create_test in [
+                ("test_convert_success", cls._create_test_success),
+                ("test_convert_failure", cls._create_test_failure),
+            ]:
+            with cls.chdir(directory):
+                for control in sorted(glob.glob('*.*.*.control')):
+                    [*base, in_format, out_format, _] = control.split('.')
+                    base = '.'.join(base)
+                    yield (
+                        "test_{}_{}_{}".format(base, in_format, out_format),
+                        create_test(base, in_format, out_format),
+                        )
 
     @classmethod
-    def _create_test(cls, base, in_format, out_format):
+    def _create_test_success(cls, base, in_format, out_format):
         """Return a function testing that `base` compilation from `in_format` to `out_format` format.
         """
         test_parse_render = lambda self: self.assertConvert(base, in_format, out_format)
         test_parse_render.__doc__ = (
             "Test that '{base}.{in_format}' is correctly converted to '{out_format}'."
+            ).format(base=os.path.basename(base), in_format=in_format, out_format=out_format)
+        return test_parse_render
+
+    @classmethod
+    def _create_test_failure(cls, base, in_format, out_format):
+        """Return a function testing that `base` compilation from `in_format` to `out_format` format.
+        """
+        test_parse_render = lambda self: self.assertFailConvert(base, in_format, out_format)
+        test_parse_render.__doc__ = (
+            "Test that '{base}.{in_format}' raises an error when trying to convert it to '{out_format}'."
             ).format(base=os.path.basename(base), in_format=in_format, out_format=out_format)
         return test_parse_render

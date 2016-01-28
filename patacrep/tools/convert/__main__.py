@@ -5,6 +5,7 @@ import logging
 import sys
 
 from patacrep import files
+from patacrep.content import ContentError
 from patacrep.songs import DEFAULT_CONFIG
 from patacrep.utils import yesno
 
@@ -57,8 +58,8 @@ def main(args=None):
         sys.exit(1)
 
     for file in song_files:
-        song = renderers[dest][source](file, DEFAULT_CONFIG)
         try:
+            song = renderers[dest][source](file, DEFAULT_CONFIG)
             destname = "{}.{}".format(".".join(file.split(".")[:-1]), dest)
             if os.path.exists(destname):
                 if not confirm(destname):
@@ -66,6 +67,9 @@ def main(args=None):
             with open(destname, "w") as destfile:
                 destfile.write(song.render())
 
+        except ContentError as error:
+            LOGGER.error("Cannot parse file '%s'.", file)
+            sys.exit(1)
         except NotImplementedError:
             LOGGER.error("Cannot convert to format '%s'.", dest)
             sys.exit(1)

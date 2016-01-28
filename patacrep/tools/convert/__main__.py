@@ -25,15 +25,15 @@ def confirm(destname):
 def main(args=None):
     """Main function: run from command line."""
     if args is None:
-        args = sys.argv[1:]
-    if len(args) < 3:
+        args = sys.argv
+    if len(args) < 4:
         LOGGER.error("Invalid number of arguments.")
         LOGGER.error("Usage: %s", _usage())
         sys.exit(1)
 
-    source = args[0]
-    dest = args[1]
-    song_files = args[2:]
+    source = args[1]
+    dest = args[2]
+    song_files = args[3:]
 
     renderers = files.load_plugins(
         datadirs=DEFAULT_CONFIG.get('datadir', []),

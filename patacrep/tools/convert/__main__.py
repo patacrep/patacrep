@@ -67,7 +67,7 @@ def main(args=None):
             with open(destname, "w") as destfile:
                 destfile.write(song.render())
 
-        except ContentError as error:
+        except ContentError:
             LOGGER.error("Cannot parse file '%s'.", file)
             sys.exit(1)
         except NotImplementedError:

@@ -53,8 +53,8 @@ class TestConvert(unittest.TestCase, metaclass=dynamic.DynamicTest):
                                 )
                             with open_read(destname) as destfile:
                                 self.assertMultiLineEqual(
-                                    destfile.read().strip(),
-                                    expected.replace(r'\r\n', r'\n').strip(),
+                                    destfile.read().replace(r'\r\n', r'\n').strip(),
+                                    expected.strip(),
                                     )
 
     def assertFailConvert(self, basename, in_format, out_format): # pylint: disable=invalid-name

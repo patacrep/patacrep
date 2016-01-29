@@ -194,11 +194,12 @@ class Song:
             # https://bugs.python.org/issue1692335
             return
         cached = {attr: getattr(self, attr) for attr in self.cached_attributes}
-        pickle.dump(
-            cached,
-            open(self.cached_name, 'wb'),
-            protocol=-1
-            )
+        with open(self.cached_name, 'wb') as cache_file:
+            pickle.dump(
+                cached,
+                cache_file,
+                protocol=-1
+                )
 
     def __str__(self):
         return str(self.fullpath)

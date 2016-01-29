@@ -38,6 +38,8 @@ class ChordproParser(Parser):
         lexer = ChordProLexer(filename=self.filename)
         ast.AST.lexer = lexer.lexer
         parsed = self.parser.parse(content, lexer=lexer.lexer)
+        if parsed is None:
+            raise ContentError(message='Fatal error during song parsing.')
         parsed.error_builders.extend(lexer.error_builders)
         return parsed
 
@@ -325,8 +327,4 @@ class ChordproParser(Parser):
 
 def parse_song(content, filename=None):
     """Parse song and return its metadata."""
-    parser = ChordproParser(filename)
-    parsed_content = parser.parse(content)
-    if parsed_content is None:
-        raise ContentError(message='Fatal error during song parsing.')
-    return parsed_content
+    return ChordproParser(filename).parse(content)

@@ -14,6 +14,6 @@
   "sep" : ["and", "et"]
   },
  "datadir" : ".",
- "content": [["sorted"]]
+ "content": [["sort"]]
 
 }

@@ -1,6 +1,6 @@
 """Sorted list of songs.
 
-This plugin provides keyword 'sorted', used to include a sorted list of songs
+This plugin provides keyword 'sort', used to include a sorted list of songs
 to a songbook.
 """
 
@@ -85,7 +85,7 @@ def parse(keyword, config, argument):
     """Return a sorted list of songs.
 
     Arguments:
-        - keyword: the string 'sorted';
+        - keyword: the string 'sort';
         - config: the current songbook configuration dictionary;
         - argument: a dict of:
             key: the list of the fields used to sort songs (e.g. "by", "album", "title")
@@ -108,4 +108,4 @@ def parse(keyword, config, argument):
             ))
     return sorted(songlist, key=key_generator(sort))
 
-CONTENT_PLUGINS = {'sorted': parse}
+CONTENT_PLUGINS = {'sort': parse}

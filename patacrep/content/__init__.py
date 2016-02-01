@@ -19,7 +19,7 @@ met, the corresponding parser is called.
 
 # Keyword examples
 
-    - sorted
+    - sort
     - section*
     - cwd
 
@@ -35,14 +35,14 @@ A parser returns a ContentList object (a list of instances of the ContentItem
 class), defined in this module (or of subclasses of this class).
 
 Example: When the following piece of content is met
-    sorted:
+    sort:
       key: ["author", "title"]
       content:
         - "a_song.sg"
         - "another_song.sg"
 
-the parser associated to keyword 'sorted' get the arguments:
-    - keyword = "sorted"
+the parser associated to keyword 'sort' get the arguments:
+    - keyword = "sort"
     - argument = {
         'key': ["author", "title"],
         'content': ["a_song.sg", "another_song.sg"],

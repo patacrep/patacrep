@@ -9,7 +9,7 @@ chords:
 
 content:
   - section: Test of section
-  - sorted:
+  - sort:
   - songsection: Test of song section
   - cwd:
       # relative to sg file

@@ -1,5 +1,5 @@
 - sorted:
-    key: "@title"
+    key: "title"
     content:
       - exsong.sg
       - chordpro.csg

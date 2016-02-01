@@ -7,6 +7,8 @@ import os
 import unittest
 import yaml
 
+from pkg_resources import resource_filename
+
 from patacrep.songs import DataSubpath
 from patacrep import content, files
 from patacrep.content import song, section, songsection, tex
@@ -63,7 +65,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             if not os.path.exists(controlname):
                 raise Exception("Missing control:" + str(sourcelist).replace("'", '"'))
             with open(controlname, mode="r", encoding="utf8") as controlfile:
-                controllist = yaml.load(controlfile)
+                controllist = [
+                    elem.replace("@TEST_FOLDER@", files.path2posix(resource_filename(__name__, "")))
+                    for elem in yaml.load(controlfile)
+                    ]
 
             self.assertEqual(controllist, sourcelist)
 

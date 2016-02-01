@@ -1,7 +1,15 @@
-- sorted:
-    key: "@title"
-- sorted:
-    key: [by, "@title"]
+- cwd:
+    path: "datadir_sorted"
     content:
-        cwd:
-            path: "./"
+      - section:
+          name: "Title"
+      - sorted:
+          key: title
+      - section:
+          name: "Author, Title"
+      - sorted:
+          key: [by, title]
+      - section:
+          name: "Path, Title"
+      - sorted:
+          key: [path, title]

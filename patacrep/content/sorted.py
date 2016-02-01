@@ -14,7 +14,7 @@ from patacrep.content.song import OnlySongsError
 
 LOGGER = logging.getLogger(__name__)
 
-DEFAULT_SORT = ['by', 'album', '@title']
+DEFAULT_SORT = ['by', 'album', 'title']
 
 def normalize_string(string):
     """Return a normalized string.
@@ -45,9 +45,9 @@ def key_generator(sort):
         song = songrenderer.song
         songkey = []
         for key in sort:
-            if key == "@title":
+            if key == "title":
                 field = song.unprefixed_titles
-            elif key == "@path":
+            elif key == "path":
                 field = song.fullpath
             elif key == "by":
                 field = song.authors
@@ -88,8 +88,8 @@ def parse(keyword, config, argument):
         - keyword: the string 'sorted';
         - config: the current songbook configuration dictionary;
         - argument: a dict of:
-            key: the list of the fields used to sort songs (e.g. "by", "album", "@title")
-                a minus mean reverse order: "-@title"
+            key: the list of the fields used to sort songs (e.g. "by", "album", "title")
+                a minus mean reverse order: "-title"
             content: content to be sorted. If this content
                 contain something else than a song, an exception is raised.
     """

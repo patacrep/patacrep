@@ -36,7 +36,7 @@ class), defined in this module (or of subclasses of this class).
 
 Example: When the following piece of content is met
     sorted:
-      key: ["author", "@title"]
+      key: ["author", "title"]
       content:
         - "a_song.sg"
         - "another_song.sg"
@@ -44,7 +44,7 @@ Example: When the following piece of content is met
 the parser associated to keyword 'sorted' get the arguments:
     - keyword = "sorted"
     - argument = {
-        'key': ["author", "@title"],
+        'key': ["author", "title"],
         'content': ["a_song.sg", "another_song.sg"],
     }
     - config = <the config file of the current songbook>.

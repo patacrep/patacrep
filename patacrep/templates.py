@@ -193,23 +193,25 @@ class TexBookRenderer(Renderer):
         utils.validate_yaml_schema(data, schema)
         return data
 
-    def get_template_variables(self, templatename):
+    def get_template_variables(self, basetemplate):
         """Parse the template to extract the variables as a dictionary.
 
         If the template includes or extends other templates, load them as well.
 
         Arguments:
-        - templatename: the name of the template, as a string.
+        - basetemplate: the name of the template, as a string.
           in 'template' (or one of its subtemplates), it is not parsed.
         """
         variables = {}
-        for template in self._iter_template_content(templatename):
+        for templatename, template in self._iter_template_content(basetemplate):
             match = re.findall(_VARIABLE_REGEXP, template)
             if not match:
                 continue
+            if templatename not in variables:
+                variables[templatename] = {}
             for variables_string in match:
                 try:
-                    variables.update(yaml.load(variables_string))
+                    variables[templatename].update(yaml.load(variables_string))
                 except ValueError as exception:
                     raise errors.TemplateError(
                         exception,
@@ -240,7 +242,7 @@ class TexBookRenderer(Renderer):
                         subtemplatename,
                         skip=skip + [templatename],
                         )
-            yield content
+            yield template.name, content
 
     def render_tex(self, output, context):
         '''Render a template into a .tex file

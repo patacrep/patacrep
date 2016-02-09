@@ -17,7 +17,7 @@ class SchemaError(SongbookError):
 
     def __str__(self):
         if self.rx_exception:
-            return self.message + "\n" + str(self.rx_exception)
+            return self.message + str(self.rx_exception)
         else:
             return self.message
 

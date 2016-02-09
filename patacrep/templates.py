@@ -173,8 +173,7 @@ class TexBookRenderer(Renderer):
             try:
                 variables[templatename] = self._get_variables(param, template_config)
             except errors.SchemaError as exception:
-                exception.message = "The songbook file is not valid\n"
-                exception.message += "'template' > '{}' >".format(templatename)
+                exception.message += "'template' > '{}' > ".format(templatename)
                 raise exception
         return variables
 

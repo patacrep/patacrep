@@ -48,7 +48,7 @@ class Songbook:
         try:
             utils.validate_yaml_schema(raw_songbook, schema)
         except errors.SchemaError as exception:
-            exception.message = "The songbook file '{}' is not valid".format(basename)
+            exception.message = "The songbook file '{}' is not valid\n".format(basename)
             raise exception
 
         self._raw_config = raw_songbook
@@ -89,7 +89,13 @@ class Songbook:
             self._config['book']['lang'],
             self._config['book']['encoding'],
             )
-        self._config['_template'] = renderer.get_all_variables(self._config.get('template', {}))
+
+        try:
+            self._config['_template'] = renderer.get_all_variables(self._config.get('template', {}))
+        except errors.SchemaError as exception:
+            exception.message = "The songbook file '{}' is not valid\n{}".format(
+                self.basename, exception.message)
+            raise exception
 
         self._config['_compiled_authwords'] = authors.compile_authwords(
             copy.deepcopy(self._config['authors'])

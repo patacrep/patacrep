@@ -89,7 +89,6 @@ def parse(keyword, config, argument):
         - config: the current songbook configuration dictionary;
         - argument: a dict of:
             key: the list of the fields used to sort songs (e.g. "by", "album", "title")
-                a minus mean reverse order: "-title"
             content: content to be sorted. If this content
                 contain something else than a song, an exception is raised.
     """

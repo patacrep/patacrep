@@ -12,7 +12,7 @@ content:
   - sort:
   - songsection: Test of song section
   - cwd:
-      # relative to sg file
+      # relative to sb file
       path: content_datadir/content
       content:
         - "song.csg"

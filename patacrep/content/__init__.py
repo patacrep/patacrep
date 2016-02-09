@@ -252,7 +252,7 @@ def process_content(content, config=None):
     """Process content, and return a list of ContentItem() objects.
 
     Arguments are:
-    - content: the content field of the .sb file, which should be an imbricated list
+    - content: the content field of the .sb file, which should be a nested list
     and describe what is to be included in the songbook;
     - config: the configuration dictionary of the current songbook.
 

@@ -24,6 +24,12 @@ class SongRenderer(ContentItem):
         """Iterate over song errors."""
         yield from self.song.errors
 
+    def has_errors(self):
+        """Return `True` iff errors has been found."""
+        for _ in self.iter_errors():
+            return True
+        return False
+
     def begin_new_block(self, previous, __context):
         """Return a boolean stating if a new block is to be created."""
         return not isinstance(previous, SongRenderer)
@@ -57,7 +63,7 @@ class SongRenderer(ContentItem):
         """Order by song path"""
         return self.song.fullpath < other.song.fullpath
 
-#pylint: disable=unused-argument
+#pylint: disable=unused-argument, too-many-branches
 def parse(keyword, argument, contentlist, config):
     """Parse data associated with keyword 'song'.
 
@@ -107,7 +113,17 @@ def parse(keyword, argument, contentlist, config):
                             ))
                     except ContentError as error:
                         songlist.append_error(error)
+                        if config['_error'] == "failonsong":
+                            raise errors.SongbookError(
+                                "Error in song '{}'. Stopping as requested."
+                                .format(os.path.join(songdir.fullpath, filename))
+                                )
                         continue
+                    if renderer.has_errors() and config['_error'] == "failonsong":
+                        raise errors.SongbookError(
+                            "Error in song '{}'. Stopping as requested."
+                            .format(os.path.join(songdir.fullpath, filename))
+                            )
                     songlist.append(renderer)
                     config["_langs"].add(renderer.song.lang)
             if len(songlist) > before:

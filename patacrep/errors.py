@@ -5,17 +5,17 @@ class SongbookError(Exception):
 
     Songbook errors should inherit from this one.
     """
-    pass
-
-class YAMLError(SongbookError):
-    """Error during songbook file decoding"""
-
     def __init__(self, message=None):
         super().__init__()
         self.message = message
 
     def __str__(self):
         return self.message
+
+
+class YAMLError(SongbookError):
+    """Error during songbook file decoding"""
+    pass
 
 class TemplateError(SongbookError):
     """Error during template generation"""

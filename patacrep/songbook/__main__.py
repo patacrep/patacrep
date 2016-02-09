@@ -131,7 +131,7 @@ def main():
     if os.path.exists(songbook_path + ".yaml") and not os.path.exists(songbook_path):
         songbook_path += ".yaml"
 
-    basename = os.path.basename(songbook_path)[:-3]
+    basename = os.path.basename(songbook_path)[:-len(".yaml")]
 
     # Load the user songbook config
     try:

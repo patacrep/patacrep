@@ -166,31 +166,23 @@ class TexBookRenderer(Renderer):
         '''
         data = self.get_template_variables(self.template)
         variables = dict()
-        for name, param in data.items():
-            print("*"*30, "DEBUG", "*"*30) # TODO DELETE THIS
-            from pprint import pprint
-            print("Data:"); pprint(data)
-            print("Name:", name)
-            print("Param:", param)
-            template_config = user_config.get(name, {})
-            variables[name] = self._get_variables(param, template_config)
+        for templatename, param in data.items():
+            template_config = user_config.get(templatename, {})
+            variables[templatename] = self._get_variables(param, template_config)
         return variables
 
     @staticmethod
     def _get_variables(parameter, user_config):
         '''Get the default value for the parameter, according to the language.
-        '''
-        schema = parameter.get('schema', {})
 
+        May raise an errors.SBFileError if the data does not respect the schema
+        '''
         data = utils.DictOfDict(parameter.get('default', {}))
         data.update(user_config)
 
-        print("*"*30, "DEBUG", "*"*30) # TODO DELETE THIS
-        from pprint import pprint
-        print("Parameter", parameter)
-        print("Data"); pprint(data)
-        print("Schema"); pprint(schema)
+        schema = parameter.get('schema', {})
         utils.validate_yaml_schema(data, schema)
+
         return data
 
     def get_template_variables(self, basetemplate):

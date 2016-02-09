@@ -1,6 +1,6 @@
 """Allow 'songchapter' and 'songsection' as content of a songbook."""
 
-from patacrep.content import ContentItem, ContentError, ContentList, EmptyContentList
+from patacrep.content import ContentItem, ContentList, validate_parser_argument
 
 KEYWORDS = [
     "songchapter",
@@ -20,25 +20,18 @@ class SongSection(ContentItem):
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 
 #pylint: disable=unused-argument
-def parse(keyword, argument, contentlist, config):
-    """Parse the contentlist.
+@validate_parser_argument("""
+//str
+""")
+def parse(keyword, argument, config):
+    """Parse the songsection.
 
     Arguments:
     - keyword ("songsection" or "songchapter"): the section to use;
-    - argument: unused;
-    - contentlist: a list of one string, which is the name of the section;
+    - argument: name of the section;
     - config: configuration dictionary of the current songbook.
     """
-    try:
-        if (keyword not in KEYWORDS) and (len(contentlist) != 1):
-            raise ContentError(
-                keyword,
-                "Starred section names must have exactly one argument.",
-                )
-        return ContentList([SongSection(keyword, contentlist[0])])
-    except ContentError as error:
-        return EmptyContentList(errors=[error])
-
+    return ContentList([SongSection(keyword, argument)])
 
 CONTENT_PLUGINS = dict([
     (keyword, parse)

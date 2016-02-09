@@ -7,7 +7,7 @@ import textwrap
 
 import jinja2
 
-from patacrep.content import process_content
+from patacrep.content import process_content, validate_parser_argument
 from patacrep.content import ContentError, ContentItem, ContentList
 from patacrep import files, errors
 
@@ -58,18 +58,28 @@ class SongRenderer(ContentItem):
         return self.song.fullpath < other.song.fullpath
 
 #pylint: disable=unused-argument
-def parse(keyword, argument, contentlist, config):
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //nil
+  - type: //str
+  - type: //arr
+    contents: //str
+""")
+def parse(keyword, argument, config):
     """Parse data associated with keyword 'song'.
 
     Arguments:
     - keyword: unused;
-    - argument: unused;
-    - contentlist: a list of strings, which are interpreted as regular
+    - argument: a list of strings, which are interpreted as regular
       expressions (interpreted using the glob module), referring to songs.
     - config: the current songbook configuration dictionary.
 
     Return a list of Song() instances.
     """
+    contentlist = argument
+    if isinstance(contentlist, str):
+        contentlist = [contentlist]
     plugins = config['_song_plugins']
     if '_langs' not in config:
         config['_langs'] = set()
@@ -120,7 +130,6 @@ def parse(keyword, argument, contentlist, config):
                 message='Ignoring "{name}": did not match any file in {paths}.',
                 ))
     return sorted(songlist)
-
 
 CONTENT_PLUGINS = {'song': parse}
 

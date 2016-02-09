@@ -5,7 +5,9 @@
 import glob
 import os
 import unittest
-import json
+import yaml
+
+from pkg_resources import resource_filename
 
 from patacrep.songs import DataSubpath
 from patacrep import content, files
@@ -18,7 +20,7 @@ from .. import dynamic # pylint: disable=unused-import
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of the content plugins.
 
-    For any given `foo.source`, it parses the content as a json "content"
+    For any given `foo.source`, it parses the content as a yaml "content"
     argument of a .sb file.
     It controls that the generated file list is equal to the one in `foo.control`.
     """
@@ -51,17 +53,22 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base.source` produces the correct file list"""
             sourcename = "{}.source".format(base)
             with open(sourcename, mode="r", encoding="utf8") as sourcefile:
-                sbcontent = json.load(sourcefile)
+                sbcontent = yaml.load(sourcefile)
 
+            config = cls.config.copy()
+            config['_filepath'] = base
             with logging_reduced('patacrep.content.song'):
-                expandedlist = content.process_content(sbcontent, cls.config.copy())
+                expandedlist = content.process_content(sbcontent, config)
             sourcelist = [cls._clean_path(elem) for elem in expandedlist]
 
             controlname = "{}.control".format(base)
             if not os.path.exists(controlname):
                 raise Exception("Missing control:" + str(sourcelist).replace("'", '"'))
             with open(controlname, mode="r", encoding="utf8") as controlfile:
-                controllist = json.load(controlfile)
+                controllist = [
+                    elem.replace("@TEST_FOLDER@", files.path2posix(resource_filename(__name__, "")))
+                    for elem in yaml.load(controlfile)
+                    ]
 
             self.assertEqual(controllist, sourcelist)
 
@@ -78,13 +85,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             return files.path2posix(files.relpath(elem.song.fullpath, songpath))
 
         elif isinstance(elem, section.Section):
-            if elem.short is None:
-                return "{}:{}".format(elem.keyword, elem.name)
-            else:
-                return "{}:({}){}".format(elem.keyword, elem.short, elem.name)
+            return elem.render(None)[1:]
 
         elif isinstance(elem, songsection.SongSection):
-            return "{}:{}".format(elem.keyword, elem.name)
+            return elem.render(None)[1:]
 
         elif isinstance(elem, tex.LaTeX):
             return files.path2posix(elem.filename)

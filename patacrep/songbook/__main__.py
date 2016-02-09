@@ -153,6 +153,9 @@ def main():
     default_songbook.update(user_songbook)
     songbook = dict(default_songbook)
 
+    songbook['_filepath'] = os.path.abspath(songbook_path)
+    sbdir = os.path.dirname(songbook['_filepath'])
+
     # Gathering datadirs
     datadirs = []
     if options.datadir:
@@ -162,16 +165,13 @@ def main():
         if isinstance(songbook['book']['datadir'], str):
             songbook['book']['datadir'] = [songbook['book']['datadir']]
         datadirs += [
-            os.path.join(
-                os.path.dirname(os.path.abspath(songbook_path)),
-                path
-                )
+            os.path.join(sbdir, path)
             for path in songbook['book']['datadir']
             ]
         del songbook['book']['datadir']
 
     # Default value
-    datadirs.append(os.path.dirname(os.path.abspath(songbook_path)))
+    datadirs.append(sbdir)
     songbook['_datadir'] = datadirs
     songbook['_cache'] = options.cache[0]
 

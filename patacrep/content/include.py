@@ -1,14 +1,15 @@
 """Include an external list of songs
 
 This plugin provides keyword 'include', used to include an external list of
-songs in JSON format.
+songs in JSON or YAML format.
 """
 
-import json
 import os
 import logging
 
-from patacrep.content import process_content, ContentError, ContentList
+import yaml
+
+from patacrep.content import process_content, ContentError, ContentList, validate_parser_argument
 from patacrep import encoding, errors, files
 
 LOGGER = logging.getLogger(__name__)
@@ -28,18 +29,29 @@ def load_from_datadirs(path, datadirs):
         )
 
 #pylint: disable=unused-argument
-def parse(keyword, config, argument, contentlist):
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //str
+  - type: //arr
+    contents: //str
+""")
+def parse(keyword, config, argument):
     """Include an external file content.
 
     Arguments:
         - keyword: the string 'include';
         - config: the current songbook configuration dictionary;
-        - argument: None;
-        - contentlist: a list of file paths to be included.
+        - argument:
+            a list of file paths to be included
+            or a string of the file to include
+
     """
     new_contentlist = ContentList()
+    if isinstance(argument, str):
+        argument = [argument]
 
-    for path in contentlist:
+    for path in argument:
         try:
             filepath = load_from_datadirs(path, config['_datadir'])
         except ContentError as error:
@@ -51,7 +63,7 @@ def parse(keyword, config, argument, contentlist):
                 filepath,
                 encoding=config['book']['encoding']
                 ) as content_file:
-                new_content = json.load(content_file)
+                new_content = yaml.load(content_file)
         except Exception as error: # pylint: disable=broad-except
             new_contentlist.append_error(ContentError(
                 keyword="include",

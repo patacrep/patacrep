@@ -1,4 +1,4 @@
-"""Build a songbook, according to parameters found in a .sb file."""
+"""Build a songbook, according to parameters found in a .yaml file."""
 
 import codecs
 import copy
@@ -34,10 +34,10 @@ GENERATED_EXTENSIONS = [
 
 # pylint: disable=too-few-public-methods
 class Songbook:
-    """Represent a songbook (.sb) file.
+    """Represent a songbook (.yaml) file.
 
     - Low level: provide a Python representation of the values stored in the
-      '.sb' file.
+      '.yaml' file.
     - High level: provide some utility functions to manipulate these data.
     """
 
@@ -183,7 +183,7 @@ class SongbookBuilder:
     _called_functions = {}
 
     def __init__(self, raw_songbook, basename):
-        # Representation of the .sb songbook configuration file.
+        # Representation of the .yaml songbook configuration file.
         self.songbook = Songbook(raw_songbook, basename)
         # Basename of the songbook to be built.
         self.basename = basename

@@ -28,7 +28,7 @@ def parse(keyword, config, argument):
     for, and then processes the content.
 
     The 'path' is added:
-    - first as a relative path to the *.sb file directory;
+    - first as a relative path to the *.yaml file directory;
     - then as a relative path to every path already present in
       config['songdir'].
     """

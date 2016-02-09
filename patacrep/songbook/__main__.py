@@ -128,8 +128,8 @@ def main():
     options = argument_parser(sys.argv[1:])
 
     songbook_path = options.book[-1]
-    if os.path.exists(songbook_path + ".sb") and not os.path.exists(songbook_path):
-        songbook_path += ".sb"
+    if os.path.exists(songbook_path + ".yaml") and not os.path.exists(songbook_path):
+        songbook_path += ".yaml"
 
     basename = os.path.basename(songbook_path)[:-3]
 

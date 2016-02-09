@@ -1,7 +1,7 @@
 """Content plugin management.
 
 Content that can be included in a songbook is controlled by plugins. From the
-user (or .sb file) point of view, each piece of content is introduced by a
+user (or .yaml file) point of view, each piece of content is introduced by a
 keyword. This keywold is associated with a plugin (a submodule of this very
 module), which parses the content, and return a ContentList object, which is
 little more than a list of instances of the ContentItem class.
@@ -14,7 +14,7 @@ dictionary where:
     - keys are keywords,
     - values are parsers (see below).
 
-When analysing the content field of the .sb file, when those keywords are
+When analysing the content field of the .yaml file, when those keywords are
 met, the corresponding parser is called.
 
 # Keyword examples
@@ -252,7 +252,7 @@ def process_content(content, config=None):
     """Process content, and return a list of ContentItem() objects.
 
     Arguments are:
-    - content: the content field of the .sb file, which should be a nested list
+    - content: the content field of the .yaml file, which should be a nested list
     and describe what is to be included in the songbook;
     - config: the configuration dictionary of the current songbook.
 

@@ -21,7 +21,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of the content plugins.
 
     For any given `foo.source`, it parses the content as a yaml "content"
-    argument of a .sb file.
+    argument of a .yaml file.
     It controls that the generated file list is equal to the one in `foo.control`.
     """
 

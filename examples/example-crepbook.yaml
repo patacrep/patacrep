@@ -1,22 +1,24 @@
-{
-"template" : "patacrep.tex",
-"bookoptions" : [
-    "importantdiagramonly",
-    "repeatchords",
-    "lilypond",
-    "pictures"
-  ],
-"booktype" : "chorded",
-"lang" : "fr",
-"authwords" : {
-  "sep" : ["and", "et"]
-  },
- "datadir" : ".",
- "content" : [["section", "Traditional"],
-                "chevaliers_de_la_table_ronde.sg",
-                "greensleeves.sg",
-                "vent_frais.sg",
-                ["section", "Example"],
-                "example-fr.sg",
-                "example-en.sg"]
-}
+book:
+  lang: fr
+  encoding: utf8
+  template: patacrep.tex
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: important
+  repeatchords: yes
+  lilypond: yes
+
+authors:
+  separators:
+    - "and"
+    - "et"
+content:
+  - section: "Traditional"
+  - "chevaliers_de_la_table_ronde.tsg"
+  - "greensleeves.csg"
+  - "vent_frais.tsg"
+  - section: Example
+  - "example-fr.tsg"
+  - "example-en.tsg"

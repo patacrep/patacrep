@@ -7,15 +7,19 @@ class SongbookError(Exception):
     """
     pass
 
-class SBFileError(SongbookError):
-    """Error during songbook file decoding"""
+class SchemaError(SongbookError):
+    """Error on the songbook schema"""
 
-    def __init__(self, message=None):
+    def __init__(self, message='', rx_exception=None):
         super().__init__()
         self.message = message
+        self.rx_exception = rx_exception
 
     def __str__(self):
-        return self.message
+        if self.rx_exception:
+            return self.message + "\n" + str(self.rx_exception)
+        else:
+            return self.message
 
 class TemplateError(SongbookError):
     """Error during template generation"""

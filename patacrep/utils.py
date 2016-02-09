@@ -81,7 +81,7 @@ def yesno(string):
 def validate_yaml_schema(data, schema):
     """Check that the data respects the schema
 
-    Will raise `SBFileError` if the schema is not respected.
+    Will raise `SchemaError` if the schema is not respected.
     """
     schema = Rx.make_schema(schema)
 
@@ -91,5 +91,4 @@ def validate_yaml_schema(data, schema):
     try:
         schema.validate(data)
     except Rx.SchemaMismatch as exception:
-        msg = 'Could not parse songbook file:\n' + str(exception)
-        raise errors.SBFileError(msg)
+        raise errors.SchemaError(rx_exception=exception)

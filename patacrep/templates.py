@@ -163,19 +163,26 @@ class TexBookRenderer(Renderer):
 
     def get_all_variables(self, user_config):
         '''Validate template variables (and set defaults when needed)
+
+        Will raise `SchemaError` if any data does not respect the schema
         '''
         data = self.get_template_variables(self.template)
         variables = dict()
         for templatename, param in data.items():
             template_config = user_config.get(templatename, {})
-            variables[templatename] = self._get_variables(param, template_config)
+            try:
+                variables[templatename] = self._get_variables(param, template_config)
+            except errors.SchemaError as exception:
+                exception.message = "The songbook file is not valid\n"
+                exception.message += "'template' > '{}' >".format(templatename)
+                raise exception
         return variables
 
     @staticmethod
     def _get_variables(parameter, user_config):
         '''Get the default value for the parameter, according to the language.
 
-        May raise an errors.SBFileError if the data does not respect the schema
+        Will raise `SchemaError` if the data does not respect the schema
         '''
         data = utils.DictOfDict(parameter.get('default', {}))
         data.update(user_config)

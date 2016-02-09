@@ -44,7 +44,12 @@ class Songbook:
     def __init__(self, raw_songbook, basename):
         # Validate config
         schema = config_model('schema')
-        utils.validate_yaml_schema(raw_songbook, schema)
+
+        try:
+            utils.validate_yaml_schema(raw_songbook, schema)
+        except errors.SchemaError as exception:
+            exception.message = "The songbook file '{}' is not valid".format(basename)
+            raise exception
 
         self._raw_config = raw_songbook
         self.basename = basename

@@ -114,7 +114,12 @@ class Songbook:
         self._config['filename'] = output.name[:-4]
 
         renderer.render_tex(output, self._config)
+
+        # Get all errors, and maybe exit program
         self._errors.extend(renderer.errors)
+        if self.config['_error'] == "failonbook":
+            if self.has_errors():
+                raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
 
     def has_errors(self):
         """Return `True` iff errors have been encountered in the book.

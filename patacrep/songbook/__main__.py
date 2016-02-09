@@ -87,6 +87,25 @@ def argument_parser(args):
         )
 
     parser.add_argument(
+        '--error', '-e', nargs=1,
+        help=textwrap.dedent("""\
+                By default, this program tries hard to fix or ignore song and book errors. This option changes this behaviour:
+                - failonsong: stop as soon as a song contains (at least) one error;
+                - failonbook: stop when all the songs have been parsed and rendered, if any error was met;
+                - fix: tries to fix (or ignore) errors.
+
+                Note that compilation *may* fail even with `--error=fix`.
+        """),
+        type=str,
+        choices=[
+            "failonsong",
+            "failonbook",
+            "fix",
+        ],
+        default=["fix"],
+        )
+
+    parser.add_argument(
         '--steps', '-s', nargs=1, type=str,
         action=ParseStepsAction,
         help=textwrap.dedent("""\
@@ -127,6 +146,7 @@ def main(args):
             for datadir in reversed(options.datadir):
                 songbook['datadir'].insert(0, datadir)
         songbook['_cache'] = options.cache[0]
+        songbook['_error'] = options.error[0]
 
         sb_builder = SongbookBuilder(songbook)
         sb_builder.unsafe = True

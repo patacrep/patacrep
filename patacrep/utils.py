@@ -83,8 +83,7 @@ def validate_yaml_schema(data, schema):
 
     Will raise `SBFileError` if the schema is not respected.
     """
-    rx_checker = Rx.Factory({"register_core_types": True})
-    schema = rx_checker.make_schema(schema)
+    schema = Rx.make_schema(schema)
 
     if isinstance(data, DictOfDict):
         data = dict(data)

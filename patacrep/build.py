@@ -110,7 +110,7 @@ class Songbook:
             )
         self._config['filename'] = output.name[:-4]
 
-        self._config['bookoptions'] = iter_bookoptions(self._config)
+        self._config['_bookoptions'] = iter_bookoptions(self._config)
 
         renderer.render_tex(output, self._config)
         self._errors.extend(renderer.errors)

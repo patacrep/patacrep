@@ -264,7 +264,7 @@ class TexBookRenderer(Renderer):
         output.write(self.template.render(context))
 
 
-def transform_options(config, equivalents):
+def _transform_options(config, equivalents):
     """
     Get the equivalent name of the checked options
     """
@@ -285,14 +285,14 @@ def iter_bookoptions(config):
         'pictures':         'pictures',
         'onesongperpage':   'onesongperpage',
     }
-    yield from transform_options(config['book'], book_equivalents)
+    yield from _transform_options(config['book'], book_equivalents)
 
     chords_equivalents = {
         'lilypond':     'lilypond',
         'tablatures':   'tabs',
         'repeatchords': 'repeatchords',
     }
-    yield from transform_options(config['chords'], chords_equivalents)
+    yield from _transform_options(config['chords'], chords_equivalents)
 
     if config['chords']['show']:
         if config['chords']['diagramreminder'] == "important":

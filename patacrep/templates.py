@@ -8,7 +8,7 @@ import yaml
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
-from jinja2.meta import find_referenced_templates as find_templates
+from jinja2.meta import find_referenced_templates
 
 from patacrep import errors, files, utils
 from patacrep.latex import lang2babel, UnknownLanguage
@@ -162,82 +162,48 @@ class TexBookRenderer(Renderer):
                 )
 
     def get_all_variables(self, user_config):
-        '''
-        Validate template variables (and set defaults when needed)
+        '''Validate template variables (and set defaults when needed)
         '''
         data = self.get_template_variables(self.template)
         variables = dict()
-        for name, param in data.items():
-            template_config = user_config.get(name, {})
-            variables[name] = self._get_variables(param, template_config)
+        for templatename, param in data.items():
+            template_config = user_config.get(templatename, {})
+            variables[templatename] = self._get_variables(param, template_config)
         return variables
 
     @staticmethod
     def _get_variables(parameter, user_config):
         '''Get the default value for the parameter, according to the language.
-        '''
-        schema = parameter.get('schema', {})
 
+        May raise an errors.SBFileError if the data does not respect the schema
+        '''
         data = utils.DictOfDict(parameter.get('default', {}))
         data.update(user_config)
 
+        schema = parameter.get('schema', {})
         utils.validate_yaml_schema(data, schema)
+
         return data
 
-    def get_template_variables(self, template, skip=None):
+    def get_template_variables(self, basetemplate):
         """Parse the template to extract the variables as a dictionary.
 
         If the template includes or extends other templates, load them as well.
 
         Arguments:
-        - template: the name of the template, as a string.
-        - skip: a list of templates (as strings) to skip: if they are included
+        - basetemplate: the name of the template, as a string.
           in 'template' (or one of its subtemplates), it is not parsed.
         """
-        if not skip:
-            skip = []
         variables = {}
-        (current, templates) = self.parse_template(template)
-        if current:
-            variables[template.name] = current
-
-        for subtemplate in templates:
-            if subtemplate in skip:
+        for templatename, template in self._iter_template_content(basetemplate):
+            match = re.findall(_VARIABLE_REGEXP, template)
+            if not match:
                 continue
-            subtemplate = self.jinjaenv.get_template(subtemplate)
-            variables.update(
-                self.get_template_variables(
-                    subtemplate,
-                    skip + templates
-                    )
-                )
-        return variables
-
-    def parse_template(self, template):
-        """Return (variables, templates).
-
-        Argument:
-        - template: name of the template to parse.
-
-        Return values:
-        - variables: a dictionary of variables contained in 'template', NOT
-          recursively (included templates are not parsed).
-        - templates: list of included temlates, NOT recursively.
-        """
-
-        subvariables = {}
-        templatename = self.jinjaenv.get_template(template).filename
-        with patacrep.encoding.open_read(
-            templatename,
-            encoding=self.encoding
-            ) as template_file:
-            content = template_file.read()
-        subtemplates = list(find_templates(self.jinjaenv.parse(content)))
-        match = re.findall(_VARIABLE_REGEXP, content)
-        if match:
-            for var in match:
+            if templatename not in variables:
+                variables[templatename] = {}
+            for variables_string in match:
                 try:
-                    subvariables.update(yaml.load(var))
+                    variables[templatename].update(yaml.load(variables_string))
                 except ValueError as exception:
                     raise errors.TemplateError(
                         exception,
@@ -246,12 +212,29 @@ class TexBookRenderer(Renderer):
                             "{filename}. The yaml string was:"
                             "\n'''\n{yamlstring}\n'''"
                         ).format(
-                            filename=templatename,
-                            yamlstring=var,
+                            filename=template.filename,
+                            yamlstring=variables_string,
                             )
                         )
+        return variables
 
-        return (subvariables, subtemplates)
+    def _iter_template_content(self, templatename, *, skip=None):
+        """Iterate over template (and subtemplate) content."""
+        if skip is None:
+            skip = []
+        template = self.jinjaenv.get_template(templatename)
+        with patacrep.encoding.open_read(
+            template.filename,
+            encoding=self.encoding
+            ) as contentfile:
+            content = contentfile.read()
+            for subtemplatename in find_referenced_templates(self.jinjaenv.parse(content)):
+                if subtemplatename not in skip:
+                    yield from self._iter_template_content(
+                        subtemplatename,
+                        skip=skip + [templatename],
+                        )
+            yield template.name, content
 
     def render_tex(self, output, context):
         '''Render a template into a .tex file

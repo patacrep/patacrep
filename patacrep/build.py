@@ -159,7 +159,7 @@ class Songbook:
 
     def requires_lilypond(self):
         """Tell if lilypond is part of the bookoptions"""
-        return 'lilypond' in iter_bookoptions(self._config)
+        return 'lilypond' in iter_bookoptions(self._raw_config)
 
 def _log_pipe(pipe):
     """Log content from `pipe`."""

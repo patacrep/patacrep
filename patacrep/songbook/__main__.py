@@ -127,7 +127,7 @@ def argument_parser(args):
     return options
 
 
-def main(args):
+def main():
     """Main function:"""
     # set script locale to match user's
     try:
@@ -136,7 +136,7 @@ def main(args):
         # Locale is not installed on user's system, or wrongly configured.
         LOGGER.error("Locale error: {}\n".format(str(error)))
 
-    options = argument_parser(args[1:])
+    options = argument_parser(sys.argv[1:])
 
     try:
         songbook = open_songbook(options.book[-1])
@@ -166,4 +166,4 @@ def main(args):
     sys.exit(0)
 
 if __name__ == '__main__':
-    main(sys.argv)
+    main()

@@ -18,7 +18,7 @@ LOGGER = logging.getLogger(__name__)
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of songbook compilation.
 
-    For any given `foo.sb`, it performs several checks:
+    For any given `foo.yaml`, it performs several checks:
     - the corresponding tex file is generated;
     - the generated tex file matches the `foo.tex.control` control file;
     - the compilation (tex, pdf, indexes) works without errors.
@@ -34,9 +34,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Iterate over dynamically generated test methods."""
         for songbook in sorted(glob.glob(os.path.join(
                 os.path.dirname(__file__),
-                '*.sb',
+                '*.yaml',
             ))):
-            base = songbook[:-len(".sb")]
+            base = songbook[:-len(".yaml")]
             yield (
                 "test_latex_generation_{}".format(os.path.basename(base)),
                 cls._create_generation_test(base),
@@ -52,7 +52,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         def test_generation(self):
             """Test that `base.tex` is correctly generated."""
-            songbook = "{}.sb".format(base)
+            songbook = "{}.yaml".format(base)
 
             # Check tex generation
             self.assertEqual(0, self.compile_songbook(songbook, "tex"))
@@ -100,7 +100,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         def test_compilation(self):
             """Test that `base` is rendered to pdf."""
             # Check compilation
-            songbook = "{}.sb".format(base)
+            songbook = "{}.yaml".format(base)
             self.assertEqual(0, self.compile_songbook(songbook))
 
         test_compilation.__doc__ = (

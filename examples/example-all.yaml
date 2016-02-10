@@ -13,7 +13,8 @@ authors:
   separators:
     - "and"
     - "et"
-content: {"sort"}
+content:
+    - sort:
 
 template:
   patacrep.tex:

@@ -1,0 +1,14 @@
+book:
+  lang: ERROR
+  encoding: utf8
+  template: patacrep.tex
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: all
+  repeatchords: yes
+
+content:
+  - "tests/*.csg"
+  - "tests/*.tsg"

@@ -1,0 +1,23 @@
+book:
+  lang: fr
+  encoding: utf8
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: important
+  repeatchords: yes
+  lilypond: yes
+
+authors:
+  separators:
+    - "and"
+    - "et"
+content:
+  - section: "Traditional"
+  - "chevaliers_de_la_table_ronde.tsg"
+  - "greensleeves.csg"
+  - "vent_frais.tsg"
+  - section: Example
+  - "example-fr.tsg"
+  - "example-en.tsg"

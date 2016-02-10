@@ -1,0 +1,32 @@
+book:
+  lang: fr
+  encoding: utf8
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: important
+  repeatchords: yes
+  lilypond: yes
+
+authors:
+  separators:
+    - "and"
+    - "et"
+    - "À"
+  ignore:
+    - "À"
+  after:
+    - "À"
+
+titles: # Comment sont analysés les titres
+  prefix:
+    - "À"
+content:
+  - section: "Traditionàl"
+  - "chevaliers_de_la_table_ronde.tsg"
+  - "greensleeves.csg"
+  - "vent_frais.tsg"
+  - section: Exâmple
+  - "example-fr.tsg"
+  - "example-en.tsg"

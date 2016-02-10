@@ -55,7 +55,7 @@ Run
 
 ::
 
-    songbook <songbook_file.sb>
+    songbook <songbook_file.yaml>
     <pdfreader> <songbook_file.pdf>
 
 Look for existing songbook files in `patadata <http://github.com/patacrep/patadata>`_.

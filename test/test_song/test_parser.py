@@ -48,8 +48,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @staticmethod
     @contextlib.contextmanager
     def chdir(*path):
-        """Context to temporarry change current directory, relative to this file directory
-        """
+        """Temporary change current directory, relative to this file directory"""
         with files.chdir(resource_filename(__name__, ""), *path):
             yield
 

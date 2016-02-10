@@ -13,7 +13,6 @@ import yaml
 from patacrep import authors, content, encoding, errors, files, pkg_datapath, utils
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer, iter_bookoptions
-from patacrep.songs import DataSubpath
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
@@ -55,25 +54,6 @@ class Songbook:
         self.basename = basename
         self._errors = list()
         self._config = dict()
-        # Some special keys have their value processed.
-        self._set_datadir()
-
-    def _set_datadir(self):
-        """Set the default values for datadir"""
-        abs_datadir = []
-        for path in self._raw_config['_datadir']:
-            if os.path.exists(path) and os.path.isdir(path):
-                abs_datadir.append(os.path.abspath(path))
-            else:
-                LOGGER.warning(
-                    "Ignoring non-existent datadir '{}'.".format(path)
-                    )
-
-        self._raw_config['_datadir'] = abs_datadir
-        self._raw_config['_songdir'] = [
-            DataSubpath(path, 'songs')
-            for path in self._raw_config['_datadir']
-            ]
 
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
@@ -124,7 +104,12 @@ class Songbook:
         self._config['_bookoptions'] = iter_bookoptions(self._config)
 
         renderer.render_tex(output, self._config)
+
+        # Get all errors, and maybe exit program
         self._errors.extend(renderer.errors)
+        if self._config['_error'] == "failonbook":
+            if self.has_errors():
+                raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
 
     def has_errors(self):
         """Return `True` iff errors have been encountered in the book.
@@ -182,11 +167,11 @@ class SongbookBuilder:
     # are function; values are return values of functions.
     _called_functions = {}
 
-    def __init__(self, raw_songbook, basename):
-        # Representation of the .yaml songbook configuration file.
-        self.songbook = Songbook(raw_songbook, basename)
+    def __init__(self, raw_songbook):
         # Basename of the songbook to be built.
-        self.basename = basename
+        self.basename = raw_songbook['_basename']
+        # Representation of the .sb songbook configuration file.
+        self.songbook = Songbook(raw_songbook, self.basename)
 
     def _run_once(self, function, *args, **kwargs):
         """Run function if it has not been run yet.

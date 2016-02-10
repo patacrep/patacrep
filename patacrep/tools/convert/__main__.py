@@ -1,41 +1,44 @@
-"""Conversion between formats
-
-See the :meth:`__usage` method for more information.
-"""
+"""`patatools.convert` command: convert between song formats"""
 
 import os
 import logging
 import sys
 
 from patacrep import files
-from patacrep.songs import DEFAULT_CONFIG
+from patacrep.content import ContentError
 from patacrep.utils import yesno
+from patacrep.build import config_model
 
-LOGGER = logging.getLogger(__name__)
+LOGGER = logging.getLogger("patatools.convert")
+SUBCOMMAND_DESCRIPTION = "Convert between song formats"
 
-def __usage():
-    return "python3 -m patacrep.songs.convert INPUTFORMAT OUTPUTFORMAT FILES"
+def _usage():
+    return "patatools convert INPUTFORMAT OUTPUTFORMAT FILES"
 
 def confirm(destname):
+    """Ask whether destination name should be overwrited."""
     while True:
         try:
             return yesno(input("File '{}' already exist. Overwrite? [yn] ".format(destname)))
         except ValueError:
             continue
 
-if __name__ == "__main__":
-    if len(sys.argv) < 4:
+def main(args=None):
+    """Main function: run from command line."""
+    if args is None:
+        args = sys.argv
+    if len(args) < 4:
         LOGGER.error("Invalid number of arguments.")
-        LOGGER.error("Usage: %s", __usage())
+        LOGGER.error("Usage: %s", _usage())
         sys.exit(1)
 
-    source = sys.argv[1]
-    dest = sys.argv[2]
-    song_files = sys.argv[3:]
+    source = args[1]
+    dest = args[2]
+    song_files = args[3:]
 
     # todo : what is the datadir argument used for?
     renderers = files.load_plugins(
-        datadirs=DEFAULT_CONFIG.get('datadir', []),
+        datadirs=[],
         root_modules=['songs'],
         keyword='SONG_RENDERERS',
         )
@@ -56,8 +59,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     for file in song_files:
-        song = renderers[dest][source](file, DEFAULT_CONFIG)
         try:
+            song = renderers[dest][source](file, config_model('default')['en'])
             destname = "{}.{}".format(".".join(file.split(".")[:-1]), dest)
             if os.path.exists(destname):
                 if not confirm(destname):
@@ -65,6 +68,9 @@ if __name__ == "__main__":
             with open(destname, "w") as destfile:
                 destfile.write(song.render())
 
+        except ContentError:
+            LOGGER.error("Cannot parse file '%s'.", file)
+            sys.exit(1)
         except NotImplementedError:
             LOGGER.error("Cannot convert to format '%s'.", dest)
             sys.exit(1)
@@ -74,3 +80,6 @@ if __name__ == "__main__":
             sys.exit(0)
 
     sys.exit(0)
+
+if __name__ == "__main__":
+    main()

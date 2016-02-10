@@ -3,16 +3,14 @@
 import argparse
 import locale
 import logging
-import os.path
-import textwrap
 import sys
-import yaml
+import textwrap
 
-from patacrep.build import SongbookBuilder, DEFAULT_STEPS, config_model
-from patacrep.utils import yesno, DictOfDict
+from patacrep.build import SongbookBuilder, DEFAULT_STEPS
+from patacrep.utils import yesno
 from patacrep import __version__
 from patacrep import errors
-import patacrep.encoding
+from patacrep.songbook import open_songbook
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -53,6 +51,7 @@ def argument_parser(args):
     parser = argparse.ArgumentParser(
         prog="songbook",
         description="A song book compiler",
+        formatter_class=argparse.RawTextHelpFormatter,
         )
 
     parser.add_argument(
@@ -67,9 +66,8 @@ def argument_parser(args):
     parser.add_argument(
         '--datadir', '-d', nargs='+', type=str, action='append',
         help=textwrap.dedent("""\
-                Data location. Expected (not necessarily required)
-                subdirectories are 'songs', 'img', 'latex', 'templates'.
-        """)
+                Data location. Expected (not necessarily required) subdirectories are 'songs', 'img', 'latex', 'templates'.
+        """),
         )
 
     parser.add_argument(
@@ -89,23 +87,37 @@ def argument_parser(args):
         )
 
     parser.add_argument(
+        '--error', '-e', nargs=1,
+        help=textwrap.dedent("""\
+                By default, this program tries hard to fix or ignore song and book errors. This option changes this behaviour:
+                - failonsong: stop as soon as a song contains (at least) one error;
+                - failonbook: stop when all the songs have been parsed and rendered, if any error was met;
+                - fix: tries to fix (or ignore) errors.
+
+                Note that compilation *may* fail even with `--error=fix`.
+        """),
+        type=str,
+        choices=[
+            "failonsong",
+            "failonbook",
+            "fix",
+        ],
+        default=["fix"],
+        )
+
+    parser.add_argument(
         '--steps', '-s', nargs=1, type=str,
         action=ParseStepsAction,
         help=textwrap.dedent("""\
-                Steps to run. Default is "{steps}".
-                Available steps are:
-                "tex" produce .tex file from templates;
-                "pdf" compile .tex file;
-                "sbx" compile index files;
-                "clean" remove temporary files;
-                any string beginning with '#' (in this case, it will be run
-                in a shell). Several steps (excepted the custom shell
-                command) can be combinend in one --steps argument, as a
-                comma separated string.
+                Steps to run. Default is "{steps}".  Available steps are:
+                - "tex" produce .tex file from templates;
+                - "pdf" compile .tex file;
+                - "sbx" compile index files;
+                - "clean" remove temporary files;
+                - any string beginning with '#' (in this case, it will be run in a shell).
+                Several steps (excepted the custom shell command) can be combinend in one --steps argument, as a comma separated string.
 
-                Substring {{basename}} is replaced by the basename of the song
-                book, and substrings {{aux}}, {{log}}, {{out}}, {{pdf}}, {{sxc}}, {{tex}}
-                are replaced by "<BASENAME>.aux", "<BASENAME>.log", and so on.
+                Substring {{basename}} is replaced by the basename of the song book, and substrings {{aux}}, {{log}}, {{out}}, {{pdf}}, {{sxc}}, {{tex}} are replaced by "<BASENAME>.aux", "<BASENAME>.log", and so on.
         """.format(steps=','.join(DEFAULT_STEPS))),
         default=None,
         )
@@ -115,8 +127,10 @@ def argument_parser(args):
     return options
 
 
-def main():
+def main(args=None):
     """Main function:"""
+    if args is None:
+        args = sys.argv
 
     # set script locale to match user's
     try:
@@ -125,55 +139,22 @@ def main():
         # Locale is not installed on user's system, or wrongly configured.
         LOGGER.error("Locale error: {}\n".format(str(error)))
 
-    options = argument_parser(sys.argv[1:])
+    options = argument_parser(args[1:])
 
     songbook_path = options.book[-1]
-    if os.path.exists(songbook_path + ".yaml") and not os.path.exists(songbook_path):
-        songbook_path += ".yaml"
-
-    basename = os.path.basename(songbook_path)[:-len(".yaml")]
 
     # Load the user songbook config
     try:
-        with patacrep.encoding.open_read(songbook_path) as songbook_file:
-            user_songbook = yaml.load(songbook_file)
-        if 'encoding' in user_songbook.get('book', []):
-            with patacrep.encoding.open_read(
-                songbook_path,
-                encoding=user_songbook['book']['encoding']
-                ) as songbook_file:
-                user_songbook = yaml.load(songbook_file)
-    except Exception as error: # pylint: disable=broad-except
-        LOGGER.error(error)
-        LOGGER.error("Error while loading file '{}'.".format(songbook_path))
-        sys.exit(1)
+        songbook = open_songbook(songbook_path)
 
-    songbook = add_songbook_defaults(user_songbook)
-
-    songbook['_filepath'] = os.path.abspath(songbook_path)
-    sbdir = os.path.dirname(songbook['_filepath'])
-
-    # Gathering datadirs
-    datadirs = []
-    if options.datadir:
         # Command line options
-        datadirs += [item[0] for item in options.datadir]
-    if 'book' in songbook and 'datadir' in songbook['book']:
-        if isinstance(songbook['book']['datadir'], str):
-            songbook['book']['datadir'] = [songbook['book']['datadir']]
-        datadirs += [
-            os.path.join(sbdir, path)
-            for path in songbook['book']['datadir']
-            ]
-        del songbook['book']['datadir']
+        if options.datadir:
+            for datadir in reversed(options.datadir):
+                songbook['datadir'].insert(0, datadir)
+        songbook['_cache'] = options.cache[0]
+        songbook['_error'] = options.error[0]
 
-    # Default value
-    datadirs.append(sbdir)
-    songbook['_datadir'] = datadirs
-    songbook['_cache'] = options.cache[0]
-
-    try:
-        sb_builder = SongbookBuilder(songbook, basename)
+        sb_builder = SongbookBuilder(songbook)
         sb_builder.unsafe = True
 
         sb_builder.build_steps(options.steps)
@@ -189,31 +170,6 @@ def main():
         sys.exit(1)
 
     sys.exit(0)
-
-def add_songbook_defaults(user_songbook):
-    """ Adds the defaults values to the songbook if missing from
-    the user songbook
-
-    Priority:
-        - User values
-        - Default values of the user lang (if set)
-        - Default english values
-    """
-
-    # Merge the default and user configs
-    locale_default = config_model('default')
-    # Initialize with default in english
-    default_songbook = locale_default.get('en', {})
-    default_songbook = DictOfDict(default_songbook)
-
-    if 'lang' in user_songbook.get('book', []):
-        # Update default with current lang
-        lang = user_songbook['book']['lang']
-        default_songbook.update(locale_default.get(lang, {}))
-    # Update default with user_songbook
-    default_songbook.update(user_songbook)
-
-    return dict(default_songbook)
 
 if __name__ == '__main__':
     main()

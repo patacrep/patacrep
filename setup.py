@@ -39,6 +39,7 @@ setup(
     entry_points={
         'console_scripts': [
             "songbook = patacrep.songbook.__main__:main",
+            "patatools = patacrep.tools.__main__:main",
             ],
         },
     classifiers=[

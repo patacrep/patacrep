@@ -2,11 +2,11 @@ git:
   depth: 1
 language: python
 python:
-  - 3.4
+  - 3.5
 install:
   - pip install tox
 script:
-  - tox
+  - tox -e lint,py35
 sudo: false
 # addons:
 #   apt:

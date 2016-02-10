@@ -127,8 +127,11 @@ def argument_parser(args):
     return options
 
 
-def main(args):
+def main(args=None):
     """Main function:"""
+    if args is None:
+        args = sys.argv
+
     # set script locale to match user's
     try:
         locale.setlocale(locale.LC_ALL, '')
@@ -166,4 +169,4 @@ def main(args):
     sys.exit(0)
 
 if __name__ == '__main__':
-    main(sys.argv)
+    main()

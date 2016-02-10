@@ -149,7 +149,16 @@ def main():
         sys.exit(1)
 
     # Merge the default and user configs
-    default_songbook = DictOfDict(config_model('default'))
+    locale_default = config_model('default')
+    # Initialize with default in english
+    default_songbook = locale_default.get('en', {})
+    default_songbook = DictOfDict(default_songbook)
+
+    if 'lang' in user_songbook.get('book', []):
+        # Update default with current lang
+        lang = user_songbook['book']['lang']
+        default_songbook.update(locale_default.get(lang, {}))
+    # Update default with user_songbook
     default_songbook.update(user_songbook)
     songbook = dict(default_songbook)
 

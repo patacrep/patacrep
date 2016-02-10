@@ -76,7 +76,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Iterate over song files to test."""
         # Setting datadir
         # Load the default songbook config
-        cls.config = config_model('default')
+        cls.config = config_model('default')['en']
 
         if '_datadir' not in cls.config:
             cls.config['_datadir'] = []

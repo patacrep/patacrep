@@ -101,7 +101,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Generate the config to process the content"""
 
         # Load the default songbook config
-        config = config_model('default')
+        config = config_model('default')['en']
 
         datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
 

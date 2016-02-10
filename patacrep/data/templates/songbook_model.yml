@@ -79,44 +79,101 @@ schema:
               contents: //str
             - type: //nil
 default:
-  book:
-    lang: en
-    encoding: utf-8
-    pictures: yes
-    template: patacrep.tex
-    onesongperpage: no
+  en:
+    book:
+      lang: en
+      encoding: utf-8
+      pictures: yes
+      template: patacrep.tex
+      onesongperpage: no
 
-  chords: # Options relatives aux accords
-    show: yes
-    diagramreminder: important
-    diagrampage: yes
-    repeatchords: yes
-    lilypond: no
-    tablatures: no
-    instrument: guitar
-    notation: alphascale
+    chords:
+      show: yes
+      diagramreminder: important
+      diagrampage: yes
+      repeatchords: yes
+      lilypond: no
+      tablatures: no
+      instrument: guitar
+      notation: alphascale
 
-  authors: # Comment sont analysés les auteurs
-    separators:
-    - and
-    ignore:
-    - unknown
-    after:
-    - by
+    authors:
+      separators:
+      - and
+      ignore:
+      - unknown
+      after:
+      - by
 
-  titles: # Comment sont analysés les titres
-    prefix:
-    - The
-    - Le
-    - La
-    - "L'"
-    - A
-    - Au
-    - Ces
-    - De
-    - Des
-    - El
-    - Les
-    - Ma
-    - Mon
-    - Un
+    titles:
+      prefix:
+      - The
+      - Le
+      - La
+      - "L'"
+      - A
+      - Au
+      - Ces
+      - De
+      - Des
+      - El
+      - Les
+      - Ma
+      - Mon
+      - Un
+
+  fr:
+    chords:
+      notation: solfedge
+description:
+  en:
+    book:
+      lang: "Main language of the songbook"
+      encoding: "Encoding of the files"
+      pictures: "Display the album pictures"
+      template: "Main template to use"
+      onesongperpage: "Start every song on a new page"
+
+    chords:
+      show: "Display chords"
+      diagramreminder: "Display some diagram reminders before the songs"
+      diagrampage: "Add a diagram page"
+      repeatchords: "Repeat the chords inside the songs"
+      lilypond: "Display lilypond scores"
+      tablatures: "Display tablatures"
+      instrument: "Instrument for the diagrams"
+      notation: "Chord notation"
+
+    authors:
+      separators: "Separator words between artists"
+      ignore: "Artist names to ignore"
+      after: "Word preceding artist names"
+
+    titles:
+      prefix: "Words to ignore at the beginning of song titles for the index"
+
+  en:
+    book:
+      lang: "Langue principale"
+      encoding: "Encodage des fichiers"
+      pictures: "Afficher les illustrations d'albums"
+      template: "Template de base"
+      onesongperpage: "Commencer chaque chant sur une nouvelle page"
+
+    chords:
+      show: "Afficher les accords"
+      diagramreminder: "Afficher quelques diagrammes d'accords au début des chants"
+      diagrampage: "Inclure une page de rappel des accords"
+      repeatchords: "Répéter l'affichage des accords au sein des chants"
+      lilypond: "Inclure les partitions lilypond"
+      tablatures: "Inclure les tablatures"
+      instrument: "Instrument pour les diagrammes d'accords"
+      notation: "Notation des accords"
+
+    authors:
+      separators: "Mots de séparation entre les artistes"
+      ignore: "Noms d'artistes à ignorer"
+      after: "Mots précédents les noms d'artistes"
+
+    titles:
+      prefix: "Préfixes de chants à ignorer dans le classement"

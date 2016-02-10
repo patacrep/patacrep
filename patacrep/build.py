@@ -372,13 +372,16 @@ class SongbookBuilder:
                     raise errors.CleaningError(self.basename + ext, exception)
 
 
-def config_model(*args):
-    """Get the model structure with schema and default options"""
+def config_model(key):
+    """Get the model structure
+
+    key can be:
+        - schema
+        - default
+        - description
+    """
     model_path = pkg_datapath('templates', 'songbook_model.yml')
     with encoding.open_read(model_path) as model_file:
         data = yaml.load(model_file)
 
-    while data and args:
-        name, *args = args
-        data = data.get(name)
-    return data
+    return data.get(key, {})

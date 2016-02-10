@@ -9,6 +9,9 @@ class SongbookError(Exception):
         super().__init__()
         self.message = message
 
+    def __str__(self):
+        return self.message
+
 class SchemaError(SongbookError):
     """Error on the songbook schema"""
 
@@ -48,13 +51,7 @@ class ExecutableNotFound(SongbookError):
 
 class StepError(SongbookError):
     """Error during execution of one compilation step."""
-
-    def __init__(self, message):
-        super().__init__()
-        self.message = message
-
-    def __str__(self):
-        return self.message
+    pass
 
 class LatexCompilationError(StepError):
     """Error during LaTeX compilation."""
@@ -101,13 +98,7 @@ class UnknownStep(StepError):
 
 class ParsingError(SongbookError):
     """Parsing error."""
-
-    def __init__(self, message):
-        super().__init__(self)
-        self.message = message
-
-    def __str__(self):
-        return self.message
+    pass
 
 class SharedError(SongbookError):
     """Error that is meant to be shared to third party tools using patacrep."""

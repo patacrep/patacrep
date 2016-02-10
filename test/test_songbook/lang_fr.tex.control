@@ -66,8 +66,8 @@ guitar,
 \title{Recueil de chansons pour guitare}
 \author{L'équipe Patacrep}
 
-\newindex{titleidx}{french_title}
-\newauthorindex{authidx}{french_auth}
+\newindex{titleidx}{lang_fr_title}
+\newauthorindex{authidx}{lang_fr_auth}
 
 \authignoreword{unknown}
 \authbyword{by}

@@ -171,19 +171,26 @@ class TexBookRenderer(Renderer):
         for templatename, param in data.items():
             template_config = user_config.get(templatename, {})
             try:
-                variables[templatename] = self._get_variables(param, template_config)
+                variables[templatename] = self._get_variables(param, template_config, self.lang)
             except errors.SchemaError as exception:
                 exception.message += "'template' > '{}' > ".format(templatename)
                 raise exception
         return variables
 
     @staticmethod
-    def _get_variables(parameter, user_config):
+    def _get_variables(parameter, user_config, lang):
         '''Get the default value for the parameter, according to the language.
 
         Will raise `SchemaError` if the data does not respect the schema
         '''
-        data = utils.DictOfDict(parameter.get('default', {}))
+        locale_default = parameter.get('default', {})
+        # Initialize with default in english
+        data = locale_default.get('en', {})
+        data = utils.DictOfDict(data)
+
+        # Update default with current lang
+        data.update(locale_default.get(lang, {}))
+        # Update default with user_config
         data.update(user_config)
 
         schema = parameter.get('schema', {})

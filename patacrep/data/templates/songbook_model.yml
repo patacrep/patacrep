@@ -152,7 +152,7 @@ description:
     titles:
       prefix: "Words to ignore at the beginning of song titles for the index"
 
-  en:
+  fr:
     book:
       lang: "Langue principale"
       encoding: "Encodage des fichiers"

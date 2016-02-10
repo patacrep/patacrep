@@ -170,7 +170,7 @@ class SongbookBuilder:
     def __init__(self, raw_songbook):
         # Basename of the songbook to be built.
         self.basename = raw_songbook['_basename']
-        # Representation of the .sb songbook configuration file.
+        # Representation of the .yaml songbook configuration file.
         self.songbook = Songbook(raw_songbook, self.basename)
 
     def _run_once(self, function, *args, **kwargs):

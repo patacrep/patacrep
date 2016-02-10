@@ -13,8 +13,8 @@
 
 \makeatletter
 \def\input@path{ %
-        {/home/louis/projets/patacrep/patacrep/test/test_songbook/latex/} %
-        {/home/louis/projets/patacrep/patacrep/patacrep/data/latex/} %
+        {@TEST_FOLDER@/latex/} %
+        {@DATA_FOLDER@/latex/} %
 }
 \makeatother
 
@@ -46,8 +46,8 @@ guitar,
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {/home/louis/projets/patacrep/patacrep/test/test_songbook/} %
-        {/home/louis/projets/patacrep/patacrep/patacrep/data/} %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
 }
 
 

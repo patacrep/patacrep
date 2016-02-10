@@ -148,19 +148,7 @@ def main():
         LOGGER.error("Error while loading file '{}'.".format(songbook_path))
         sys.exit(1)
 
-    # Merge the default and user configs
-    locale_default = config_model('default')
-    # Initialize with default in english
-    default_songbook = locale_default.get('en', {})
-    default_songbook = DictOfDict(default_songbook)
-
-    if 'lang' in user_songbook.get('book', []):
-        # Update default with current lang
-        lang = user_songbook['book']['lang']
-        default_songbook.update(locale_default.get(lang, {}))
-    # Update default with user_songbook
-    default_songbook.update(user_songbook)
-    songbook = dict(default_songbook)
+    songbook = add_songbook_defaults(user_songbook)
 
     songbook['_filepath'] = os.path.abspath(songbook_path)
     sbdir = os.path.dirname(songbook['_filepath'])
@@ -201,6 +189,31 @@ def main():
         sys.exit(1)
 
     sys.exit(0)
+
+def add_songbook_defaults(user_songbook):
+    """ Adds the defaults values to the songbook if missing from
+    the user songbook
+
+    Priority:
+        - User values
+        - Default values of the user lang (if set)
+        - Default english values
+    """
+
+    # Merge the default and user configs
+    locale_default = config_model('default')
+    # Initialize with default in english
+    default_songbook = locale_default.get('en', {})
+    default_songbook = DictOfDict(default_songbook)
+
+    if 'lang' in user_songbook.get('book', []):
+        # Update default with current lang
+        lang = user_songbook['book']['lang']
+        default_songbook.update(locale_default.get(lang, {}))
+    # Update default with user_songbook
+    default_songbook.update(user_songbook)
+
+    return dict(default_songbook)
 
 if __name__ == '__main__':
     main()

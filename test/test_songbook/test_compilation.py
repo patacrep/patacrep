@@ -36,7 +36,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 os.path.dirname(__file__),
                 '*.yaml',
             ))):
-            base = songbook[:-len(".yaml")]
+            base = os.path.splitext(songbook)[0]
             yield (
                 "test_latex_generation_{}".format(os.path.basename(base)),
                 cls._create_generation_test(base),

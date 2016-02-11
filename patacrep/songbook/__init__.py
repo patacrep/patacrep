@@ -38,7 +38,7 @@ def open_songbook(filename):
     songbook = _add_songbook_defaults(user_songbook)
 
     songbook['_filepath'] = filename
-    songbook['_basename'] = os.path.basename(filename)[:-len(".yaml")]
+    songbook['_basename'] = os.path.splitext(os.path.basename(filename))[0]
 
     # Gathering datadirs
     songbook['_datadir'] = list(_iter_absolute_datadirs(songbook))

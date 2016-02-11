@@ -3,6 +3,7 @@ schema:
   optional:
     content: //any
     template: //any
+    _songbookfile_dir: //str
   required:
     _cache: //bool
     _outputdir: //str

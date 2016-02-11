@@ -55,13 +55,15 @@ def prepare_songbook(songbook, outputdir, outputname, songbookfile_dir=None, dat
     :rvalue: dict
     :return: Songbook, as a dictionary.
     """
+
+    songbook['_songbookfile_dir'] = songbookfile_dir
     songbook['_outputdir'] = outputdir
     songbook['_outputname'] = outputname
 
     songbook = _add_songbook_defaults(songbook)
 
     # Gathering datadirs
-    songbook['_datadir'] = list(_iter_absolute_datadirs(songbook, datadir_prefix, songbookfile_dir))
+    songbook['_datadir'] = list(_iter_absolute_datadirs(songbook, datadir_prefix))
     if 'datadir' in songbook['book']:
         del songbook['book']['datadir']
 
@@ -97,17 +99,19 @@ def _add_songbook_defaults(user_songbook):
 
     return dict(default_songbook)
 
-def _iter_absolute_datadirs(raw_songbook, datadir_prefix=None, songbookfile_dir=None):
+def _iter_absolute_datadirs(raw_songbook, datadir_prefix=None):
     """Iterate on the absolute datadirs of the raw songbook
 
     Appends the songfile dir at the end
     """
-    datadir = raw_songbook.get('book', {}).get('datadir')
+    songbookfile_dir = raw_songbook.get('_songbookfile_dir')
 
     if datadir_prefix is None:
         if songbookfile_dir is None:
             raise patacrep.errors.SongbookError('Please specify where the datadir are located')
         datadir_prefix = songbookfile_dir
+
+    datadir = raw_songbook.get('book', {}).get('datadir')
 
     if datadir is None:
         datadir = []

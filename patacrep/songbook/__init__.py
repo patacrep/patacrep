@@ -56,9 +56,10 @@ def prepare_songbook(songbook, outputdir, outputname, songbookfile_dir=None, dat
     :return: Songbook, as a dictionary.
     """
 
-    songbook['_songbookfile_dir'] = songbookfile_dir
     songbook['_outputdir'] = outputdir
     songbook['_outputname'] = outputname
+    if songbookfile_dir:
+        songbook['_songbookfile_dir'] = songbookfile_dir
 
     songbook = _add_songbook_defaults(songbook)
 

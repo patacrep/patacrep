@@ -26,18 +26,16 @@ def parse(keyword, config, argument):
     for, and then processes the content.
 
     The 'path' is added:
-    - first as a relative path to the *.yaml file directory;
-    - then as a relative path to every path already present in
-      config['songdir'].
+     - first as a relative path to the *.yaml file directory;
+     - then as a relative path to every path already present in
+       config['songdir'] (which are actuel song dir inside the datadir).
     """
     subpath = argument['path']
     old_songdir = config['_songdir']
 
-    songdirs = []
+    config['_songdir'] = [path.clone().join(subpath) for path in config['_songdir']]
     if '_songbookfile_dir' in config:
-        songdirs.extend([DataSubpath(config['_songbookfile_dir'], subpath)])
-    songdirs.extend(path.clone().join(subpath) for path in config['_songdir'])
-    config['_songdir'] = songdirs
+        config['_songdir'].insert(0, DataSubpath(config['_songbookfile_dir'], subpath))
 
     processed_content = process_content(argument.get('content'), config)
     config['_songdir'] = old_songdir

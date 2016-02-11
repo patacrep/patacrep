@@ -95,6 +95,8 @@ def parse(keyword, argument, config):
         if contentlist:
             break
         contentlist = files.recursive_find(songdir.fullpath, plugins.keys())
+    if contentlist is None:
+        contentlist = [] # No content was set or found
     for elem in contentlist:
         before = len(songlist)
         for songdir in config['_songdir']:

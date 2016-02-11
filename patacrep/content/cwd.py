@@ -34,7 +34,7 @@ def parse(keyword, config, argument):
     """
     subpath = argument['path']
     old_songdir = config['_songdir']
-    sbdir = os.path.dirname(config['_filepath'])
+    sbdir = config['_outputdir']
 
     config['_songdir'] = (
         [DataSubpath(sbdir, subpath)] +

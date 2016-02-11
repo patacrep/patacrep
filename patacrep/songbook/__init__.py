@@ -36,8 +36,8 @@ def open_songbook(filename):
     except Exception as error: # pylint: disable=broad-except
         raise patacrep.errors.SongbookError(str(error))
 
-    user_songbook['_filepath'] = filename
-    user_songbook['_basename'] = os.path.splitext(os.path.basename(filename))[0]
+    user_songbook['_outputdir'] = os.path.dirname(os.path.abspath(filename))
+    user_songbook['_outputname'] = os.path.splitext(os.path.basename(filename))[0]
 
     return prepare_songbook(user_songbook)
 
@@ -95,13 +95,12 @@ def _iter_absolute_datadirs(raw_songbook):
     Appends the songfile dir at the end
     """
     datadir = raw_songbook.get('book', {}).get('datadir')
-    filepath = raw_songbook['_filepath']
+    basedir = raw_songbook['_outputdir']
 
     if datadir is None:
         datadir = []
     elif isinstance(datadir, str):
         datadir = [datadir]
-    basedir = os.path.dirname(os.path.abspath(filepath))
 
     for path in datadir:
         abspath = os.path.join(basedir, path)

@@ -56,7 +56,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 sbcontent = yaml.load(sourcefile)
 
             config = cls.config.copy()
-            config['_filepath'] = base
+            config['_outputdir'] = os.path.dirname(base)
             with logging_reduced('patacrep.content.song'):
                 expandedlist = content.process_content(sbcontent, config)
             sourcelist = [cls._clean_path(elem) for elem in expandedlist]

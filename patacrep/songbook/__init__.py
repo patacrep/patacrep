@@ -14,7 +14,8 @@ import patacrep
 LOGGER = logging.getLogger()
 
 def open_songbook(filename):
-    """Open songbook, and return a raw songbook object.
+    """Open a songbook file, and prepare it to
+    return a raw songbook object.
 
     :param str filename: Filename of the yaml songbook.
     :rvalue: dict
@@ -35,10 +36,21 @@ def open_songbook(filename):
     except Exception as error: # pylint: disable=broad-except
         raise patacrep.errors.SongbookError(str(error))
 
-    songbook = _add_songbook_defaults(user_songbook)
+    user_songbook['_filepath'] = filename
+    user_songbook['_basename'] = os.path.splitext(os.path.basename(filename))[0]
 
-    songbook['_filepath'] = filename
-    songbook['_basename'] = os.path.splitext(os.path.basename(filename))[0]
+    return prepare_songbook(user_songbook)
+
+def prepare_songbook(songbook):
+    """Prepare a songbook by adding default values and datadirs
+    Returns a raw songbook object.
+
+    :param dict songbook: Initial yaml songbook.
+    :rvalue: dict
+    :return: Songbook, as a dictionary.
+    """
+    songbook = _add_songbook_defaults(songbook)
+
 
     # Gathering datadirs
     songbook['_datadir'] = list(_iter_absolute_datadirs(songbook))
@@ -49,7 +61,6 @@ def open_songbook(filename):
         DataSubpath(path, 'songs')
         for path in songbook['_datadir']
     ]
-
 
     return songbook
 

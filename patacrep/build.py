@@ -300,6 +300,10 @@ class SongbookBuilder:
         standard_output.join()
         process.wait()
 
+        # Close the stdout and stderr to prevent ResourceWarning:
+        process.stdout.close()
+        process.stderr.close()
+
         if process.returncode:
             raise errors.LatexCompilationError(self.basename)
 

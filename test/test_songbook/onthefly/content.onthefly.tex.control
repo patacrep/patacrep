@@ -14,7 +14,7 @@
 \makeatletter
 \def\input@path{ %
         {@TEST_FOLDER@/onthefly/../content_datadir/latex/} %
-        {@DATA_FOLDER@/latex/} %
+        {@LOCAL_DATA_FOLDER@/latex/} %
 }
 \makeatother
 
@@ -39,7 +39,7 @@ guitar,
 \usepackage{graphicx}
 \graphicspath{ %
         {@TEST_FOLDER@/onthefly/../content_datadir/} %
-        {@DATA_FOLDER@/} %
+        {@LOCAL_DATA_FOLDER@/} %
 }
 
 

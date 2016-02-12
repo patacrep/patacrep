@@ -14,6 +14,7 @@ import yaml
 from patacrep.files import path2posix, chdir
 from patacrep.songbook import prepare_songbook
 from patacrep.build import SongbookBuilder
+from patacrep import __DATADIR__
 
 from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
@@ -91,6 +92,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     expected = expected.replace(
                         "@TEST_FOLDER@",
                         path2posix(os.path.dirname(__file__)),
+                        )
+                    expected = expected.replace(
+                        "@LOCAL_DATA_FOLDER@",
+                        path2posix(__DATADIR__),
                         )
 
                     expected = expected.replace(

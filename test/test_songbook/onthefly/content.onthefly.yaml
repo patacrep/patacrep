@@ -1,6 +1,6 @@
 book:
   pictures: yes
-  datadir: ../content_datadir
+  datadir: content_datadir
   lang: en
   template: default.tex
 chords:
@@ -12,7 +12,7 @@ content:
   - sort:
   - songsection: Test of song section
   - cwd:
-      # relative to datadir
+      # relative to datadir 'song' dir
       path: ../content
       content:
         - tex: foo.tex

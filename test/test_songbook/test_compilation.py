@@ -165,7 +165,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         outputdir = os.path.dirname(base)
         outputname = os.path.basename(base)
-        songbook = prepare_songbook(sbyaml, outputdir, outputname, datadir_prefix=outputdir)
+        datadir_prefix = os.path.join(outputdir, '..')
+        songbook = prepare_songbook(sbyaml, outputdir, outputname, datadir_prefix=datadir_prefix)
         songbook['_error'] = "fix"
         songbook['_cache'] = True
 

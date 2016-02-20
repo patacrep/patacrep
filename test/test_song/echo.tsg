@@ -1,0 +1,49 @@
+\selectlanguage{english}
+
+\beginsong{}[
+  by={
+  },
+]
+
+
+\begin{verse}
+    Soon an echo \echo{with chords: \[C]cool \[A]isn't it?}
+\end{verse}
+
+
+\begin{verse}
+    Second example \echo{ surrounded with spaces } continuing
+\end{verse}
+
+
+\begin{verse}
+    Third example \echo{ on}
+    \echo{multiple lines ! } continuing
+\end{verse}
+
+
+\begin{verse}
+    \echo{Fourth example starting line } continuing
+\end{verse}
+
+
+\begin{verse}
+    Fifth example at the \echo{end}
+\end{verse}
+
+
+\begin{verse}
+    \echo{Sixth example: only me!}
+\end{verse}
+
+
+\begin{chorus}
+    \echo{Seventh example in a chorus}
+\end{chorus}
+
+
+\begin{bridge}
+    And in a \echo{bridge}
+\end{bridge}
+
+\endsong

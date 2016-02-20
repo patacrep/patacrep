@@ -122,6 +122,15 @@ class Line(AST):
         """Return `True` iff line is empty."""
         return len(self.strip().line) == 0
 
+class Echo(AST):
+    """An inline echo"""
+    _template = "echo"
+    type = 'echo'
+
+    def __init__(self, line):
+        super().__init__()
+        self.line = line
+
 class LineElement(AST):
     """Something present on a line."""
     # pylint: disable=abstract-method

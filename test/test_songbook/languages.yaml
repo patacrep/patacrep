@@ -1,0 +1,4 @@
+book:
+  template: default.tex
+  datadir:
+  - languages_datadir

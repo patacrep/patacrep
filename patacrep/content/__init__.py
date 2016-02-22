@@ -1,7 +1,7 @@
 """Content plugin management.
 
 Content that can be included in a songbook is controlled by plugins. From the
-user (or .sb file) point of view, each piece of content is introduced by a
+user (or .yaml file) point of view, each piece of content is introduced by a
 keyword. This keywold is associated with a plugin (a submodule of this very
 module), which parses the content, and return a ContentList object, which is
 little more than a list of instances of the ContentItem class.
@@ -14,16 +14,20 @@ dictionary where:
     - keys are keywords,
     - values are parsers (see below).
 
-When analysing the content field of the .sb file, when those keywords are
+When analysing the content field of the .yaml file, when those keywords are
 met, the corresponding parser is called.
+
+# Keyword examples
+
+    - sort
+    - section*
+    - cwd
 
 # Parsers
 
 A parser is a function which takes as arguments:
     - keyword: the keyword triggering this function;
     - argument: the argument of the keyword (see below);
-    - contentlist: the list of content, that is, the part of the list
-      following the keyword (see example below);
     - config: the configuration object of the current songbook. Plugins can
       change it.
 
@@ -31,29 +35,19 @@ A parser returns a ContentList object (a list of instances of the ContentItem
 class), defined in this module (or of subclasses of this class).
 
 Example: When the following piece of content is met
+    sort:
+      key: ["author", "title"]
+      content:
+        - "a_song.sg"
+        - "another_song.sg"
 
-    ["sorted(author, @title)", "a_song.sg", "another_song.sg"]
-
-the parser associated to keyword 'sorted' get the arguments:
-    - keyword = "sorted"
-    - argument = "author, @title"
-    - contentlist = ["a_song.sg", "another_song.sg"]
+the parser associated to keyword 'sort' get the arguments:
+    - keyword = "sort"
+    - argument = {
+        'key': ["author", "title"],
+        'content': ["a_song.sg", "another_song.sg"],
+    }
     - config = <the config file of the current songbook>.
-
-# Keyword
-
-A keyword is either an identifier (alphanumeric characters, and underscore),
-or such an identifier, with some text surrounded by parenthesis (like a
-function definition); this text is called the argument to the keyword.
-Examples:
-    - sorted
-    - sorted(author, @title)
-    - cwd(some/path)
-
-If the keyword has an argument, it can be anything, given that it is
-surrounded by parenthesis. It is up to the plugin to parse this argument. For
-intance, keyword "foo()(( bar()" is a perfectly valid keyword, and the parser
-associated to "foo" will get as argument the string ")(( bar(".
 
 # ContentItem class
 
@@ -72,8 +66,9 @@ import re
 import sys
 
 import jinja2
+import yaml
 
-from patacrep import files
+from patacrep import files, Rx
 from patacrep.errors import SharedError
 
 LOGGER = logging.getLogger(__name__)
@@ -228,12 +223,36 @@ def render(context, content):
 
     return rendered
 
+def validate_parser_argument(raw_schema):
+    """Check that the parser argument respects the schema
+
+    Will raise `ContentError` if the schema is not respected.
+    """
+    schema = Rx.make_schema(yaml.load(raw_schema))
+
+    def wrap(parse):
+        """Wrap the parse function"""
+        def wrapped(keyword, argument, config):
+            """Check the argument schema before calling the plugin parser"""
+            try:
+                schema.validate(argument)
+            except Rx.SchemaMismatch as exception:
+                msg = 'Invalid syntax:\n---\n{}---\n{}'.format(
+                    yaml.dump({keyword: argument}, default_flow_style=False),
+                    str(exception)
+                )
+                raise ContentError(keyword, msg)
+            return parse(keyword, argument=argument, config=config)
+        return wrapped
+    return wrap
+
+
 def process_content(content, config=None):
     """Process content, and return a list of ContentItem() objects.
 
     Arguments are:
-    - content: the content field of the .sb file, which should be a list, and
-      describe what is to be included in the songbook;
+    - content: the content field of the .yaml file, which should be a nested list
+    and describe what is to be included in the songbook;
     - config: the configuration dictionary of the current songbook.
 
     Return: a list of ContentItem objects, corresponding to the content to be
@@ -241,25 +260,25 @@ def process_content(content, config=None):
     """
     contentlist = ContentList()
     plugins = config.get('_content_plugins', {})
-    keyword_re = re.compile(r'^ *(?P<keyword>[\w\*]*) *(\((?P<argument>.*)\))? *$')
     if not content:
-        content = [["song"]]
+        content = [{'song': None}]
+    elif isinstance(content, dict):
+        content = [content]
     for elem in content:
         if isinstance(elem, str):
-            elem = ["song", elem]
-        try:
-            match = keyword_re.match(elem[0]).groupdict()
-        except AttributeError:
-            contentlist.append_error(ContentError(elem[0], "Cannot parse content type."))
-            continue
-        (keyword, argument) = (match['keyword'], match['argument'])
-        if keyword not in plugins:
-            contentlist.append_error(ContentError(keyword, "Unknown content type."))
-            continue
-        contentlist.extend(plugins[keyword](
-            keyword,
-            argument=argument,
-            contentlist=elem[1:],
-            config=config,
-            ))
+            elem = {'song': elem}
+        if isinstance(elem, dict):
+            for keyword, argument in elem.items():
+                try:
+                    if keyword not in plugins:
+                        raise ContentError(keyword, "Unknown content keyword.")
+                    contentlist.extend(plugins[keyword](
+                        keyword,
+                        argument=argument,
+                        config=config,
+                        ))
+                except ContentError as error:
+                    contentlist.append_error(error)
+        else:
+            contentlist.append_error(ContentError(str(elem), "Unknown content type."))
     return contentlist

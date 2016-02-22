@@ -12,10 +12,18 @@ class SongbookError(Exception):
     def __str__(self):
         return self.message
 
+class SchemaError(SongbookError):
+    """Error on the songbook schema"""
 
-class YAMLError(SongbookError):
-    """Error during songbook file decoding"""
-    pass
+    def __init__(self, message='', rx_exception=None):
+        super().__init__(message)
+        self.rx_exception = rx_exception
+
+    def __str__(self):
+        if self.rx_exception:
+            return self.message + str(self.rx_exception)
+        else:
+            return self.message
 
 class TemplateError(SongbookError):
     """Error during template generation"""
@@ -43,13 +51,7 @@ class ExecutableNotFound(SongbookError):
 
 class StepError(SongbookError):
     """Error during execution of one compilation step."""
-
-    def __init__(self, message):
-        super().__init__()
-        self.message = message
-
-    def __str__(self):
-        return self.message
+    pass
 
 class LatexCompilationError(StepError):
     """Error during LaTeX compilation."""
@@ -96,13 +98,7 @@ class UnknownStep(StepError):
 
 class ParsingError(SongbookError):
     """Parsing error."""
-
-    def __init__(self, message):
-        super().__init__(self)
-        self.message = message
-
-    def __str__(self):
-        return self.message
+    pass
 
 class SharedError(SongbookError):
     """Error that is meant to be shared to third party tools using patacrep."""

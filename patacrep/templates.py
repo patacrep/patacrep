@@ -2,14 +2,15 @@
 
 import logging
 import re
-import json
+
+import yaml
 
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader, \
         TemplateNotFound, nodes
 from jinja2.ext import Extension
-from jinja2.meta import find_referenced_templates as find_templates
+from jinja2.meta import find_referenced_templates
 
-from patacrep import errors, files
+from patacrep import errors, files, utils
 from patacrep.latex import lang2babel, UnknownLanguage
 import patacrep.encoding
 
@@ -160,103 +161,93 @@ class TexBookRenderer(Renderer):
                     ),
                 )
 
-    def get_variables(self):
-        '''Get and return a dictionary with the default values
-         for all the variables
+    def get_all_variables(self, user_config):
+        '''Validate template variables (and set defaults when needed)
+
+        Will raise `SchemaError` if any data does not respect the schema
         '''
         data = self.get_template_variables(self.template)
         variables = dict()
-        for name, param in data.items():
-            variables[name] = self._get_default(param)
+        for templatename, param in data.items():
+            template_config = user_config.get(templatename, {})
+            try:
+                variables[templatename] = self._get_variables(param, template_config, self.lang)
+            except errors.SchemaError as exception:
+                exception.message += "'template' > '{}' > ".format(templatename)
+                raise exception
         return variables
 
-    def _get_default(self, parameter):
+    @staticmethod
+    def _get_variables(parameter, user_config, lang):
         '''Get the default value for the parameter, according to the language.
+
+        Will raise `SchemaError` if the data does not respect the schema
         '''
-        default = None
-        try:
-            default = parameter['default']
-        except KeyError:
-            return None
+        locale_default = parameter.get('default', {})
+        # Initialize with default in english
+        data = locale_default.get('en', {})
+        data = utils.DictOfDict(data)
 
-        if self.lang in default:
-            variable = default[self.lang]
-        elif "default" in default:
-            variable = default["default"]
-        elif "en" in default:
-            variable = default["en"]
-        elif len(default):
-            variable = default.popitem()[1]
-        else:
-            variable = None
+        # Update default with current lang
+        data.update(locale_default.get(lang, {}))
+        # Update default with user_config
+        data.update(user_config)
 
-        return variable
+        schema = parameter.get('schema', {})
+        utils.validate_yaml_schema(data, schema)
 
-    def get_template_variables(self, template, skip=None):
+        return data
+
+    def get_template_variables(self, basetemplate):
         """Parse the template to extract the variables as a dictionary.
 
         If the template includes or extends other templates, load them as well.
 
         Arguments:
-        - template: the name of the template, as a string.
-        - skip: a list of templates (as strings) to skip: if they are included
+        - basetemplate: the name of the template, as a string.
           in 'template' (or one of its subtemplates), it is not parsed.
         """
-        if not skip:
-            skip = []
         variables = {}
-        (current, templates) = self.parse_template(template)
-        for subtemplate in templates:
-            if subtemplate in skip:
+        for templatename, template in self._iter_template_content(basetemplate):
+            match = re.findall(_VARIABLE_REGEXP, template)
+            if not match:
                 continue
-            variables.update(
-                self.get_template_variables(
-                    subtemplate,
-                    skip + templates
-                    )
-                )
-        variables.update(current)
-        return variables
-
-    def parse_template(self, template):
-        """Return (variables, templates).
-
-        Argument:
-        - template: name of the template to parse.
-
-        Return values:
-        - variables: a dictionary of variables contained in 'template', NOT
-          recursively (included templates are not parsed).
-        - templates: list of included temlates, NOT recursively.
-        """
-
-        subvariables = {}
-        templatename = self.jinjaenv.get_template(template).filename
-        with patacrep.encoding.open_read(
-            templatename,
-            encoding=self.encoding
-            ) as template_file:
-            content = template_file.read()
-        subtemplates = list(find_templates(self.jinjaenv.parse(content)))
-        match = re.findall(_VARIABLE_REGEXP, content)
-        if match:
-            for var in match:
+            if templatename not in variables:
+                variables[templatename] = {}
+            for variables_string in match:
                 try:
-                    subvariables.update(json.loads(var))
+                    variables[templatename].update(yaml.load(variables_string))
                 except ValueError as exception:
                     raise errors.TemplateError(
                         exception,
                         (
-                            "Error while parsing json in file "
-                            "{filename}. The json string was:"
-                            "\n'''\n{jsonstring}\n'''"
+                            "Error while parsing yaml in file "
+                            "{filename}. The yaml string was:"
+                            "\n'''\n{yamlstring}\n'''"
                         ).format(
-                            filename=templatename,
-                            jsonstring=var,
+                            filename=template.filename,
+                            yamlstring=variables_string,
                             )
                         )
+        return variables
 
-        return (subvariables, subtemplates)
+    def _iter_template_content(self, templatename, *, skip=None):
+        """Iterate over template (and subtemplate) content."""
+        if skip is None:
+            skip = []
+        template = self.jinjaenv.get_template(templatename)
+        with patacrep.encoding.open_read(
+            template.filename,
+            encoding=self.encoding
+            ) as contentfile:
+            content = contentfile.read()
+            for subtemplatename in find_referenced_templates(self.jinjaenv.parse(content)):
+                if subtemplatename not in skip:
+                    yield from self._iter_template_content(
+                        subtemplatename,
+                        skip=skip + [templatename],
+                        )
+            yield template.name, content
 
     def render_tex(self, output, context):
         '''Render a template into a .tex file
@@ -267,3 +258,42 @@ class TexBookRenderer(Renderer):
         '''
 
         output.write(self.template.render(context))
+
+
+def _transform_options(config, equivalents):
+    """
+    Get the equivalent name of the checked options
+    """
+    for option in config:
+        if config[option] and option in equivalents:
+            yield equivalents[option]
+
+def iter_bookoptions(config):
+    """
+    Extract the bookoptions from the config structure
+    """
+    if config['chords']['show']:
+        yield 'chorded'
+    else:
+        yield 'lyrics'
+
+    book_equivalents = {
+        'pictures':         'pictures',
+        'onesongperpage':   'onesongperpage',
+    }
+    yield from _transform_options(config['book'], book_equivalents)
+
+    chords_equivalents = {
+        'lilypond':     'lilypond',
+        'tablatures':   'tabs',
+        'repeatchords': 'repeatchords',
+    }
+    yield from _transform_options(config['chords'], chords_equivalents)
+
+    if config['chords']['show']:
+        if config['chords']['diagramreminder'] == "important":
+            yield 'importantdiagramonly'
+        elif config['chords']['diagramreminder'] == "all":
+            yield 'diagram'
+
+        yield config['chords']['instrument']

@@ -6,11 +6,11 @@ import logging
 import sys
 import textwrap
 
+from patacrep.build import SongbookBuilder, DEFAULT_STEPS
+from patacrep.utils import yesno
 from patacrep import __version__
 from patacrep import errors
 from patacrep.songbook import open_songbook
-from patacrep.build import SongbookBuilder, DEFAULT_STEPS
-from patacrep.utils import yesno
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -141,8 +141,11 @@ def main(args=None):
 
     options = argument_parser(args[1:])
 
+    songbook_path = options.book[-1]
+
+    # Load the user songbook config
     try:
-        songbook = open_songbook(options.book[-1])
+        songbook = open_songbook(songbook_path)
 
         # Command line options
         if options.datadir:

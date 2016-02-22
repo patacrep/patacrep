@@ -11,6 +11,8 @@ from patacrep.tools.__main__ import main as tools_main
 from patacrep.tools.cache.__main__ import main as cache_main
 from patacrep.songbook.__main__ import main as songbook_main
 
+from .. import logging_reduced
+
 CACHEDIR = os.path.join(os.path.dirname(__file__), "test_cache_datadir", ".cache")
 
 class TestCache(unittest.TestCase):
@@ -41,16 +43,21 @@ class TestCache(unittest.TestCase):
     def test_clean_exists(self):
         """Test of the "patatools cache clean" subcommand"""
         for main, args in [
-                (tools_main, ["patatools", "cache", "clean", "test_cache.sb"]),
-                (cache_main, ["patatools-cache", "clean", "test_cache.sb"]),
+                (tools_main, ["patatools", "cache", "clean", "test_cache.yaml"]),
+                (cache_main, ["patatools-cache", "clean", "test_cache.yaml"]),
             ]:
             with self.subTest(main=main, args=args):
                 # First compilation. Ensure that cache exists afterwards
-                self._system(songbook_main, ["songbook", "--steps", "tex,clean", "test_cache.sb"])
+                with logging_reduced('patacrep.build'):
+                    self._system(
+                        songbook_main,
+                        ["songbook", "--steps", "tex,clean", "test_cache.yaml"]
+                    )
                 self.assertTrue(os.path.exists(CACHEDIR))
 
                 # Clean cache
-                self._system(main, args)
+                with logging_reduced('patatools.cache'):
+                    self._system(main, args)
 
                 # Ensure that cache does not exist
                 self.assertFalse(os.path.exists(CACHEDIR))
@@ -59,9 +66,10 @@ class TestCache(unittest.TestCase):
         """Test of the "patatools cache clean" subcommand"""
         # Clean non-existent cache
         for main, args in [
-                (tools_main, ["patatools", "cache", "clean", "test_cache.sb"]),
-                (cache_main, ["patatools-cache", "clean", "test_cache.sb"]),
+                (tools_main, ["patatools", "cache", "clean", "test_cache.yaml"]),
+                (cache_main, ["patatools-cache", "clean", "test_cache.yaml"]),
             ]:
             with self.subTest(main=main, args=args):
                 # Clean cache
-                self._system(main, args)
+                with logging_reduced('patatools.cache'):
+                    self._system(main, args)

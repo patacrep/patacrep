@@ -2,6 +2,8 @@
 
 from collections import UserDict
 
+from patacrep import errors, Rx
+
 class DictOfDict(UserDict):
     """Dictionary, with a recursive :meth:`update` method.
 
@@ -75,3 +77,18 @@ def yesno(string):
         string,
         ", ".join(["'{}'".format(string) for string in yes_strings + no_strings]),
         ))
+
+def validate_yaml_schema(data, schema):
+    """Check that the data respects the schema
+
+    Will raise `SchemaError` if the schema is not respected.
+    """
+    schema = Rx.make_schema(schema)
+
+    if isinstance(data, DictOfDict):
+        data = dict(data)
+
+    try:
+        schema.validate(data)
+    except Rx.SchemaMismatch as exception:
+        raise errors.SchemaError(rx_exception=exception)

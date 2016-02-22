@@ -1,0 +1,27 @@
+book:
+  lang: fr
+  encoding: utf8
+  template: patacrep.tex
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: all
+  repeatchords: yes
+
+authors:
+  separators:
+    - "and"
+    - "et"
+content:
+    - sort:
+
+template:
+  patacrep.tex:
+    color:
+      songlink: FF0000
+      hyperlink: 0000FF
+    bgcolor:
+      note: D1E4AE
+      songnumber: AED1E4
+      index: E4AED1 #not enough songs to see it

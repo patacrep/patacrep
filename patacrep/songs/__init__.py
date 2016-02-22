@@ -14,15 +14,6 @@ from patacrep.songs import errors as song_errors
 
 LOGGER = logging.getLogger(__name__)
 
-DEFAULT_CONFIG = {
-    'template': "default.tex",
-    'lang': 'en',
-    'content': [],
-    'titleprefixwords': [],
-    'encoding': None,
-    'datadir': [],
-    }
-
 def cached_name(datadir, filename):
     """Return the filename of the cache version of the file."""
     fullpath = os.path.abspath(os.path.join(datadir, '.cache', filename))
@@ -107,7 +98,7 @@ class Song:
 
     def __init__(self, subpath, config=None, *, datadir=None):
         if config is None:
-            config = DEFAULT_CONFIG.copy()
+            config = {}
 
         if datadir is None:
             self.datadir = ""
@@ -120,8 +111,8 @@ class Song:
         self.fullpath = os.path.join(self.datadir, subpath)
         self.subpath = subpath
         self._filehash = None
-        self.encoding = config["encoding"]
-        self.lang = config["lang"]
+        self.encoding = config['book']["encoding"]
+        self.lang = config['book']["lang"]
         self.config = config
         self.errors = []
 
@@ -138,7 +129,7 @@ class Song:
         self.unprefixed_titles = [
             unprefixed_title(
                 title,
-                config['titleprefixwords']
+                config['titles']['prefix']
                 )
             for title
             in self.titles
@@ -161,16 +152,16 @@ class Song:
     def filehash(self):
         """Compute (and cache) the md5 hash of the file"""
         if self._filehash is None:
-            self._filehash = hashlib.md5(
-                open(self.fullpath, 'rb').read()
-                ).hexdigest()
+            with open(self.fullpath, 'rb') as songfile:
+                self._filehash = hashlib.md5(songfile.read()).hexdigest()
         return self._filehash
 
     def _cache_retrieved(self):
         """If relevant, retrieve self from the cache."""
         if self.use_cache and os.path.exists(self.cached_name):
             try:
-                cached = pickle.load(open(self.cached_name, 'rb',))
+                with open(self.cached_name, 'rb',) as cachefile:
+                    cached = pickle.load(cachefile)
                 if (
                         cached['_filehash'] == self.filehash
                         and cached['_version'] == self.CACHE_VERSION
@@ -231,7 +222,7 @@ class Song:
     def iter_datadirs(self, *subpath):
         """Return an iterator of existing datadirs (with an optionnal subpath)
         """
-        yield from files.iter_datadirs(self.config['datadir'], *subpath)
+        yield from files.iter_datadirs(self.config['_datadir'], *subpath)
 
     def search_datadir_file(self, filename, extensions=None, directories=None):
         """Search for a file name.
@@ -259,7 +250,7 @@ class Song:
         if extensions is None:
             extensions = ['']
         if directories is None:
-            directories = self.config['datadir']
+            directories = self.config['_datadir']
 
         songdir = os.path.dirname(self.fullpath)
         for extension in extensions:

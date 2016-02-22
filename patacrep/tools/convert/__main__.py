@@ -6,8 +6,8 @@ import sys
 
 from patacrep import files
 from patacrep.content import ContentError
-from patacrep.songs import DEFAULT_CONFIG
 from patacrep.utils import yesno
+from patacrep.build import config_model
 
 LOGGER = logging.getLogger("patatools.convert")
 SUBCOMMAND_DESCRIPTION = "Convert between song formats"
@@ -36,8 +36,9 @@ def main(args=None):
     dest = args[2]
     song_files = args[3:]
 
+    # todo : what is the datadir argument used for?
     renderers = files.load_plugins(
-        datadirs=DEFAULT_CONFIG.get('datadir', []),
+        datadirs=[],
         root_modules=['songs'],
         keyword='SONG_RENDERERS',
         )
@@ -59,7 +60,7 @@ def main(args=None):
 
     for file in song_files:
         try:
-            song = renderers[dest][source](file, DEFAULT_CONFIG)
+            song = renderers[dest][source](file, config_model('default')['en'])
             destname = "{}.{}".format(".".join(file.split(".")[:-1]), dest)
             if os.path.exists(destname):
                 if not confirm(destname):

@@ -49,7 +49,7 @@ PROCESS_AUTHORS_DATA = [
 AUTHWORDS = authors.compile_authwords({
     "after": ["by"],
     "ignore": ["anonymous", "Anonyme", "anonyme"],
-    "sep": ['and', 'et'],
+    "separators": ['and', 'et'],
     })
 
 class TestAutors(unittest.TestCase):

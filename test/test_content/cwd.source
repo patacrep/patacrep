@@ -1,1 +1,3 @@
-[["cwd(subdir)"]]
+- cwd:
+    path: subdir
+    content:

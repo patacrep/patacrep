@@ -5,11 +5,13 @@
 import glob
 import os
 import unittest
-import json
+import yaml
 
-from patacrep.songs import DataSubpath, DEFAULT_CONFIG
+from pkg_resources import resource_filename
+
 from patacrep import content, files
 from patacrep.content import song, section, songsection, tex
+from patacrep.songbook import prepare_songbook
 
 from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
@@ -17,17 +19,13 @@ from .. import dynamic # pylint: disable=unused-import
 class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     """Test of the content plugins.
 
-    For any given `foo.source`, it parses the content as a json "content"
-    argument of a .sb file.
+    For any given `foo.source`, it parses the content as a yaml "content"
+    argument of a .yaml file.
     It controls that the generated file list is equal to the one in `foo.control`.
     """
 
     maxDiff = None
     config = None
-
-    @classmethod
-    def setUpClass(cls):
-        cls._generate_config()
 
     @classmethod
     def _iter_testmethods(cls):
@@ -50,17 +48,23 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base.source` produces the correct file list"""
             sourcename = "{}.source".format(base)
             with open(sourcename, mode="r", encoding="utf8") as sourcefile:
-                sbcontent = json.load(sourcefile)
+                sbcontent = yaml.load(sourcefile)
+
+            outputdir = os.path.dirname(base)
+            config = cls._generate_config(sbcontent, outputdir, base)
 
             with logging_reduced('patacrep.content.song'):
-                expandedlist = content.process_content(sbcontent, cls.config.copy())
+                expandedlist = content.process_content(sbcontent, config)
             sourcelist = [cls._clean_path(elem) for elem in expandedlist]
 
             controlname = "{}.control".format(base)
             if not os.path.exists(controlname):
                 raise Exception("Missing control:" + str(sourcelist).replace("'", '"'))
             with open(controlname, mode="r", encoding="utf8") as controlfile:
-                controllist = json.load(controlfile)
+                controllist = [
+                    elem.replace("@TEST_FOLDER@", files.path2posix(resource_filename(__name__, "")))
+                    for elem in yaml.load(controlfile)
+                    ]
 
             self.assertEqual(controllist, sourcelist)
 
@@ -77,13 +81,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             return files.path2posix(files.relpath(elem.song.fullpath, songpath))
 
         elif isinstance(elem, section.Section):
-            if elem.short is None:
-                return "{}:{}".format(elem.keyword, elem.name)
-            else:
-                return "{}:({}){}".format(elem.keyword, elem.short, elem.name)
+            return elem.render(None)[1:]
 
         elif isinstance(elem, songsection.SongSection):
-            return "{}:{}".format(elem.keyword, elem.name)
+            return elem.render(None)[1:]
 
         elif isinstance(elem, tex.LaTeX):
             return files.path2posix(elem.filename)
@@ -92,27 +93,27 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             raise Exception(elem)
 
     @classmethod
-    def _generate_config(cls):
+    def _generate_config(cls, sbcontent, outputdir, base):
         """Generate the config to process the content"""
 
-        config = DEFAULT_CONFIG.copy()
+        # Load the default songbook config
+        config = prepare_songbook(
+            {'book':{'datadir':'datadir'}, 'content': sbcontent},
+            outputdir,
+            base,
+            outputdir
+            )
 
-        datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
-
-        config['datadir'] = datadirpaths
-
-        config['_songdir'] = [
-            DataSubpath(path, 'songs')
-            for path in datadirpaths
-            ]
+        # Load the plugins
         config['_content_plugins'] = files.load_plugins(
-            datadirs=datadirpaths,
+            datadirs=config['_datadir'],
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
         config['_song_plugins'] = files.load_plugins(
-            datadirs=datadirpaths,
+            datadirs=config['_datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']
-        cls.config = config
+
+        return config

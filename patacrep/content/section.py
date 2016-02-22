@@ -1,6 +1,6 @@
 """Allow LaTeX sections (starred or not) as content of a songbook."""
 
-from patacrep.content import ContentItem, ContentError, ContentList, EmptyContentList
+from patacrep.content import ContentItem, ContentList, validate_parser_argument
 
 KEYWORDS = [
     "part",
@@ -23,36 +23,39 @@ class Section(ContentItem):
         self.short = short
 
     def render(self, __context):
-        if self.short is None:
+        if self.short is None or self.keyword not in KEYWORDS:
             return r'\{}{{{}}}'.format(self.keyword, self.name)
         else:
             return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
 #pylint: disable=unused-argument
-def parse(keyword, argument, contentlist, config):
-    """Parse the contentlist.
+@validate_parser_argument("""
+type: //any
+of:
+  - type: //str
+  - type: //rec
+    required:
+      name: //str
+    optional:
+      short: //str
+""")
+def parse(keyword, argument, config):
+    """Parse the section.
 
     Arguments:
     - keyword (one of "part", "chapter", "section", ... , "subparagraph", and
       their starred versions "part*", "chapter*", ... , "subparagraph*"): the
       section to use;
-    - argument: unused;
-    - contentlist: a list of one or two strings, which are the names (long
-      and short) of the section;
+    - argument:
+        either a string describing the section name
+        or a dict
+            name: Name of the section
+            short: Shortname of the section (only for non starred sections)
     - config: configuration dictionary of the current songbook.
     """
-    try:
-        if (keyword not in KEYWORDS) and (len(contentlist) != 1):
-            raise ContentError(
-                keyword,
-                "Starred section names must have exactly one argument."
-                )
-        if (len(contentlist) not in [1, 2]):
-            raise ContentError(keyword, "Section can have one or two arguments.")
-        return ContentList([Section(keyword, *contentlist)])
-    except ContentError as error:
-        return EmptyContentList(errors=[error])
-
+    if isinstance(argument, str):
+        argument = {'name': argument}
+    return ContentList([Section(keyword, **argument)])
 
 CONTENT_PLUGINS = dict([
     (word, parse)

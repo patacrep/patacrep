@@ -1,0 +1,15 @@
+- cwd:
+    path: "datadir_sort"
+    content:
+      - section:
+          name: "Title"
+      - sort:
+          key: title
+      - section:
+          name: "Author, Title"
+      - sort:
+          key: [by, title]
+      - section:
+          name: "Path, Title"
+      - sort:
+          key: [path, title]

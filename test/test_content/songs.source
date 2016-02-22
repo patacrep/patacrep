@@ -1,1 +1,8 @@
-["exsong.sg", "intersong.is", "jsonlist.json", "texfile.tex", "texsong.tsg", "chordpro.csg", "subdir/chordpro.csg"]
+- exsong.sg
+- intersong.is
+- jsonlist.json
+- song:
+    - texfile.tex
+    - texsong.tsg
+- song: chordpro.csg
+- subdir/chordpro.csg

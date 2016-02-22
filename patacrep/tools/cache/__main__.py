@@ -54,7 +54,7 @@ def commandline_parser():
 
 def do_clean(namespace):
     """Execute the `patatools cache clean` command."""
-    for datadir in open_songbook(namespace.songbook)['datadir']:
+    for datadir in open_songbook(namespace.songbook)['_datadir']:
         cachedir = os.path.join(datadir, ".cache")
         LOGGER.info("Deleting cache directory '{}'...".format(cachedir))
         if os.path.isdir(cachedir):

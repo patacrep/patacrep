@@ -1,1 +1,11 @@
-[["cwd(subdir)", "exsong.sg", "intersong.is", "jsonlist.json", "texfile.tex", "texsong.tsg", "chordpro.csg", "subdir/chordpro.csg"], "exsong.sg"]
+- cwd:
+    path: subdir
+    content:
+        - "exsong.sg"
+        - "intersong.is"
+        - "jsonlist.json"
+        - "texfile.tex"
+        - "texsong.tsg"
+        - "chordpro.csg"
+        - "subdir/chordpro.csg"
+- "exsong.sg"

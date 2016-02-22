@@ -9,8 +9,8 @@ import unittest
 from pkg_resources import resource_filename
 
 from patacrep import files
-from patacrep.songs import DEFAULT_CONFIG
 from patacrep.encoding import open_read
+from patacrep.build import config_model
 from patacrep.songs import errors
 
 from .. import logging_reduced
@@ -74,13 +74,15 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     def _iter_testmethods(cls):
         """Iterate over song files to test."""
         # Setting datadir
-        cls.config = DEFAULT_CONFIG
-        if 'datadir' not in cls.config:
-            cls.config['datadir'] = []
-        cls.config['datadir'].append('datadir')
+        # Load the default songbook config
+        cls.config = config_model('default')['en']
+
+        if '_datadir' not in cls.config:
+            cls.config['_datadir'] = []
+        cls.config['_datadir'].append('datadir')
 
         cls.song_plugins = files.load_plugins(
-            datadirs=cls.config['datadir'],
+            datadirs=cls.config['_datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )

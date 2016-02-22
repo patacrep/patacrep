@@ -1,0 +1,7 @@
+book:
+  pictures: yes
+  datadir:
+    - datadir_datadir
+    - datadir_datadir2
+  lang: en
+  template: default.tex

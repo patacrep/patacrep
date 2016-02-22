@@ -1,4 +1,4 @@
-"""Build a songbook, according to parameters found in a .sb file."""
+"""Build a songbook, according to parameters found in a .yaml file."""
 
 import codecs
 import copy
@@ -8,10 +8,11 @@ import threading
 import os.path
 from subprocess import Popen, PIPE, call, check_call
 
-from patacrep import authors, content, errors, files
+import yaml
+
+from patacrep import authors, content, encoding, errors, files, pkg_datapath, utils
 from patacrep.index import process_sxd
-from patacrep.templates import TexBookRenderer
-from patacrep.songs import DataSubpath, DEFAULT_CONFIG
+from patacrep.templates import TexBookRenderer, iter_bookoptions
 
 LOGGER = logging.getLogger(__name__)
 EOL = "\n"
@@ -32,44 +33,27 @@ GENERATED_EXTENSIONS = [
 
 # pylint: disable=too-few-public-methods
 class Songbook:
-    """Represent a songbook (.sb) file.
+    """Represent a songbook (.yaml) file.
 
     - Low level: provide a Python representation of the values stored in the
-      '.sb' file.
+      '.yaml' file.
     - High level: provide some utility functions to manipulate these data.
     """
 
     def __init__(self, raw_songbook, basename):
+        # Validate config
+        schema = config_model('schema')
+
+        try:
+            utils.validate_yaml_schema(raw_songbook, schema)
+        except errors.SchemaError as exception:
+            exception.message = "The songbook file '{}' is not valid\n".format(basename)
+            raise exception
+
         self._raw_config = raw_songbook
-        self.config = raw_songbook
         self.basename = basename
         self._errors = list()
         self._config = dict()
-        # Some special keys have their value processed.
-        self._set_datadir()
-
-    def _set_datadir(self):
-        """Set the default values for datadir"""
-        try:
-            if isinstance(self._raw_config['datadir'], str):
-                self._raw_config['datadir'] = [self._raw_config['datadir']]
-        except KeyError:  # No datadir in the raw_songbook
-            self._raw_config['datadir'] = [os.path.abspath('.')]
-
-        abs_datadir = []
-        for path in self._raw_config['datadir']:
-            if os.path.exists(path) and os.path.isdir(path):
-                abs_datadir.append(os.path.abspath(path))
-            else:
-                LOGGER.warning(
-                    "Ignoring non-existent datadir '{}'.".format(path)
-                    )
-
-        self._raw_config['datadir'] = abs_datadir
-        self._raw_config['_songdir'] = [
-            DataSubpath(path, 'songs')
-            for path in self._raw_config['datadir']
-            ]
 
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
@@ -78,29 +62,33 @@ class Songbook:
         - output: a file object, in which the file will be written.
         """
         # Updating configuration
-        self._config = DEFAULT_CONFIG.copy()
-        self._config.update(self._raw_config)
+        self._config = self._raw_config.copy()
         renderer = TexBookRenderer(
-            self._config['template'],
-            self._config['datadir'],
-            self._config['lang'],
-            self._config['encoding'],
+            self._config['book']['template'],
+            self._config['_datadir'],
+            self._config['book']['lang'],
+            self._config['book']['encoding'],
             )
-        self._config.update(renderer.get_variables())
-        self._config.update(self._raw_config)
+
+        try:
+            self._config['_template'] = renderer.get_all_variables(self._config.get('template', {}))
+        except errors.SchemaError as exception:
+            exception.message = "The songbook file '{}' is not valid\n{}".format(
+                self.basename, exception.message)
+            raise exception
 
         self._config['_compiled_authwords'] = authors.compile_authwords(
-            copy.deepcopy(self._config['authwords'])
+            copy.deepcopy(self._config['authors'])
             )
 
         # Loading custom plugins
         self._config['_content_plugins'] = files.load_plugins(
-            datadirs=self._config.get('datadir', []),
+            datadirs=self._config['_datadir'],
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
         self._config['_song_plugins'] = files.load_plugins(
-            datadirs=self._config.get('datadir', []),
+            datadirs=self._config['_datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']
@@ -113,11 +101,13 @@ class Songbook:
             )
         self._config['filename'] = output.name[:-4]
 
+        self._config['_bookoptions'] = iter_bookoptions(self._config)
+
         renderer.render_tex(output, self._config)
 
         # Get all errors, and maybe exit program
         self._errors.extend(renderer.errors)
-        if self.config['_error'] == "failonbook":
+        if self._config['_error'] == "failonbook":
             if self.has_errors():
                 raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
 
@@ -154,7 +144,7 @@ class Songbook:
 
     def requires_lilypond(self):
         """Tell if lilypond is part of the bookoptions"""
-        return 'lilypond' in self.config.get('bookoptions', [])
+        return 'lilypond' in iter_bookoptions(self._raw_config)
 
 def _log_pipe(pipe):
     """Log content from `pipe`."""
@@ -179,8 +169,8 @@ class SongbookBuilder:
 
     def __init__(self, raw_songbook):
         # Basename of the songbook to be built.
-        self.basename = raw_songbook['_basename']
-        # Representation of the .sb songbook configuration file.
+        self.basename = raw_songbook['_outputname']
+        # Representation of the .yaml songbook configuration file.
         self.songbook = Songbook(raw_songbook, self.basename)
 
     def _run_once(self, function, *args, **kwargs):
@@ -310,6 +300,10 @@ class SongbookBuilder:
         standard_output.join()
         process.wait()
 
+        # Close the stdout and stderr to prevent ResourceWarning:
+        process.stdout.close()
+        process.stderr.close()
+
         if process.returncode:
             raise errors.LatexCompilationError(self.basename)
 
@@ -365,3 +359,18 @@ class SongbookBuilder:
                     os.unlink(self.basename + ext)
                 except Exception as exception:
                     raise errors.CleaningError(self.basename + ext, exception)
+
+
+def config_model(key):
+    """Get the model structure
+
+    key can be:
+        - schema
+        - default
+        - description
+    """
+    model_path = pkg_datapath('templates', 'songbook_model.yml')
+    with encoding.open_read(model_path) as model_file:
+        data = yaml.load(model_file)
+
+    return data.get(key, {})

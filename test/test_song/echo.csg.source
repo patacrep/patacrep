@@ -1,0 +1,20 @@
+Soon an echo {start_echo}with chords: [C]cool [A]isn't it?{end_echo}
+
+Second example {start_echo} surrounded with spaces {end_echo} continuing
+
+Third example {start_echo} on{end_echo}
+{start_echo}multiple lines ! {end_echo} continuing
+
+{start_echo}Fourth example starting line {end_echo} continuing
+
+Fifth example at the {start_echo}end{end_echo}
+
+{start_echo}Sixth example: only me!{end_echo}
+
+{soc}
+{start_echo}Seventh example in a chorus{end_echo}
+{eoc}
+
+{sob}
+And in a {start_echo}bridge{end_echo}
+{eob}

@@ -208,6 +208,7 @@ class ChordproParser(Parser):
     def p_line(symbols):
         """line : word line_next
                 | chord line_next
+                | echo line_next
                 | directive maybespace
         """
         if isinstance(symbols[2], ast.Line):
@@ -227,6 +228,7 @@ class ChordproParser(Parser):
         """line_next : word line_next
                      | space line_next
                      | chord line_next
+                     | echo line_next
                      | empty
         """
         if len(symbols) == 2:
@@ -289,6 +291,11 @@ class ChordproParser(Parser):
         else:
             symbols[0] = symbols[3].prepend(symbols[1])
 
+    @staticmethod
+    def p_echo(symbols):
+        """echo : SE line_next EE
+        """
+        symbols[0] = ast.Echo(symbols[2])
 
     @staticmethod
     def p_tab(symbols):

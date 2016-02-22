@@ -26,6 +26,8 @@ tokens = (
     'EOB',
     'SOT',
     'EOT',
+    'SE',
+    'EE',
 )
 
 class ChordProLexer:
@@ -67,6 +69,16 @@ class ChordProLexer:
     @staticmethod
     def t_EOB(token):
         r'{(eob|end_of_bridge)}'
+        return token
+
+    @staticmethod
+    def t_SE(token):
+        r'{(se|start_echo)}'
+        return token
+
+    @staticmethod
+    def t_EE(token):
+        r'{(ee|end_echo)}'
         return token
 
     def t_SOT(self, token):

@@ -11,6 +11,7 @@ l3kernel
 l3packages
 mptopdf
 ms
+newunicodechar
 pgf
 tipa
 unicode-data

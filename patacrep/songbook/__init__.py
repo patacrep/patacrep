@@ -14,7 +14,8 @@ import patacrep
 LOGGER = logging.getLogger()
 
 def open_songbook(filename):
-    """Open songbook, and return a raw songbook object.
+    """Open a songbook file, and prepare it to
+    return a raw songbook object.
 
     :param str filename: Filename of the yaml songbook.
     :rvalue: dict
@@ -35,13 +36,35 @@ def open_songbook(filename):
     except Exception as error: # pylint: disable=broad-except
         raise patacrep.errors.SongbookError(str(error))
 
-    songbook = _add_songbook_defaults(user_songbook)
+    songbookfile_dir = os.path.dirname(os.path.abspath(filename))
+    # Output at the same place as the songbook file
+    outputdir = songbookfile_dir
+    outputname = os.path.splitext(os.path.basename(filename))[0]
 
-    songbook['_filepath'] = filename
-    songbook['_basename'] = os.path.basename(filename)[:-len(".yaml")]
+    return prepare_songbook(user_songbook, outputdir, outputname, songbookfile_dir)
+
+def prepare_songbook(songbook, outputdir, outputname, songbookfile_dir=None, datadir_prefix=None):
+    """Prepare a songbook by adding default values and datadirs
+    Returns a raw songbook object.
+
+    :param dict songbook: Initial yaml songbook.
+    :param str outputdir: Folder to put the output (tex, pdf...)
+    :param str outputname: Filename for the outputs (tex, pdf...)
+    :param str songbookfile_dir: Folder of the original songbook file (if there is one)
+    :param str datadir_prefix: Prefix for the datadirs
+    :rvalue: dict
+    :return: Songbook, as a dictionary.
+    """
+
+    songbook['_outputdir'] = outputdir
+    songbook['_outputname'] = outputname
+    if songbookfile_dir:
+        songbook['_songbookfile_dir'] = songbookfile_dir
+
+    songbook = _add_songbook_defaults(songbook)
 
     # Gathering datadirs
-    songbook['_datadir'] = list(_iter_absolute_datadirs(songbook))
+    songbook['_datadir'] = list(_iter_absolute_datadirs(songbook, datadir_prefix))
     if 'datadir' in songbook['book']:
         del songbook['book']['datadir']
 
@@ -49,7 +72,6 @@ def open_songbook(filename):
         DataSubpath(path, 'songs')
         for path in songbook['_datadir']
     ]
-
 
     return songbook
 
@@ -78,26 +100,32 @@ def _add_songbook_defaults(user_songbook):
 
     return dict(default_songbook)
 
-def _iter_absolute_datadirs(raw_songbook):
+def _iter_absolute_datadirs(raw_songbook, datadir_prefix=None):
     """Iterate on the absolute datadirs of the raw songbook
 
     Appends the songfile dir at the end
     """
+    songbookfile_dir = raw_songbook.get('_songbookfile_dir')
+
+    if datadir_prefix is None:
+        if songbookfile_dir is None:
+            raise patacrep.errors.SongbookError('Please specify where the datadir are located')
+        datadir_prefix = songbookfile_dir
+
     datadir = raw_songbook.get('book', {}).get('datadir')
-    filepath = raw_songbook['_filepath']
 
     if datadir is None:
         datadir = []
     elif isinstance(datadir, str):
         datadir = [datadir]
-    basedir = os.path.dirname(os.path.abspath(filepath))
 
     for path in datadir:
-        abspath = os.path.join(basedir, path)
+        abspath = os.path.join(datadir_prefix, path)
         if os.path.exists(abspath) and os.path.isdir(abspath):
             yield abspath
         else:
             LOGGER.warning(
                 "Ignoring non-existent datadir '{}'.".format(path)
                 )
-    yield basedir
+    if songbookfile_dir:
+        yield songbookfile_dir

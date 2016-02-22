@@ -169,7 +169,7 @@ class SongbookBuilder:
 
     def __init__(self, raw_songbook):
         # Basename of the songbook to be built.
-        self.basename = raw_songbook['_basename']
+        self.basename = raw_songbook['_outputname']
         # Representation of the .yaml songbook configuration file.
         self.songbook = Songbook(raw_songbook, self.basename)
 
@@ -299,6 +299,10 @@ class SongbookBuilder:
         standard_error.join()
         standard_output.join()
         process.wait()
+
+        # Close the stdout and stderr to prevent ResourceWarning:
+        process.stdout.close()
+        process.stderr.close()
 
         if process.returncode:
             raise errors.LatexCompilationError(self.basename)

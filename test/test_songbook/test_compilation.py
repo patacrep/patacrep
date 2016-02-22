@@ -9,8 +9,14 @@ import sys
 import subprocess
 import unittest
 
-from patacrep.files import path2posix
+import yaml
 
+from patacrep.files import path2posix, chdir
+from patacrep.songbook import prepare_songbook
+from patacrep.build import SongbookBuilder
+from patacrep import __DATADIR__
+
+from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
 
 LOGGER = logging.getLogger(__name__)
@@ -36,7 +42,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 os.path.dirname(__file__),
                 '*.yaml',
             ))):
-            base = songbook[:-len(".yaml")]
+            base = os.path.splitext(songbook)[0]
             yield (
                 "test_latex_generation_{}".format(os.path.basename(base)),
                 cls._create_generation_test(base),
@@ -45,9 +51,23 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                 "test_pdf_compilation_{}".format(os.path.basename(base)),
                 cls._create_compilation_test(base),
                 )
+        for songbook in sorted(glob.glob(os.path.join(
+                os.path.dirname(__file__),
+                'onthefly',
+                '*.yaml',
+            ))):
+            base = os.path.splitext(songbook)[0]
+            yield (
+                "test_latex_generation_onthefly_{}".format(os.path.basename(base)),
+                cls._create_generation_test(base, True),
+                )
+            yield (
+                "test_pdf_compilation_onthefly_{}".format(os.path.basename(base)),
+                cls._create_compilation_test(base, True),
+                )
 
     @classmethod
-    def _create_generation_test(cls, base):
+    def _create_generation_test(cls, base, onthefly=False):
         """Return a function testing that `base.tex` is correctly generated."""
 
         def test_generation(self):
@@ -55,7 +75,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             songbook = "{}.yaml".format(base)
 
             # Check tex generation
-            self.assertEqual(0, self.compile_songbook(songbook, "tex"))
+            if onthefly:
+                self.compile_songbook_onthefly(base, ['tex'])
+            else:
+                self.assertEqual(0, self.compile_songbook(songbook, "tex"))
 
             # Check generated tex
             control = "{}.tex.control".format(base)
@@ -69,6 +92,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     expected = expected.replace(
                         "@TEST_FOLDER@",
                         path2posix(os.path.dirname(__file__)),
+                        )
+                    expected = expected.replace(
+                        "@LOCAL_DATA_FOLDER@",
+                        path2posix(__DATADIR__),
                         )
 
                     expected = expected.replace(
@@ -93,7 +120,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         return test_generation
 
     @classmethod
-    def _create_compilation_test(cls, base):
+    def _create_compilation_test(cls, base, onthefly=False):
         """Return a function testing that `base.tex` is correctly compiled."""
         @unittest.skipIf('TRAVIS' in os.environ,
                          "Travis does not support lualatex compilation yet")
@@ -101,7 +128,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base` is rendered to pdf."""
             # Check compilation
             songbook = "{}.yaml".format(base)
-            self.assertEqual(0, self.compile_songbook(songbook))
+            if onthefly:
+                self.compile_songbook_onthefly(base)
+            else:
+                self.assertEqual(0, self.compile_songbook(songbook))
 
         test_compilation.__doc__ = (
             "Test that '{base}' is correctly compiled."
@@ -130,3 +160,28 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         except subprocess.CalledProcessError as error:
             LOGGER.warning(error.output)
             return error.returncode
+
+    @staticmethod
+    def compile_songbook_onthefly(base, steps=None):
+        """Compile songbook "on the fly": without a physical songbook file."""
+
+        with open(base + ".yaml", mode="r", encoding="utf8") as sbfile:
+            sbyaml = yaml.load(sbfile)
+
+        outputdir = os.path.dirname(base)
+        outputname = os.path.basename(base)
+        datadir_prefix = os.path.join(outputdir, '..')
+        songbook = prepare_songbook(sbyaml, outputdir, outputname, datadir_prefix=datadir_prefix)
+        songbook['_error'] = "fix"
+        songbook['_cache'] = True
+
+        sb_builder = SongbookBuilder(songbook)
+        sb_builder.unsafe = True
+
+        with chdir(outputdir):
+            # Continuous Integration will be verbose
+            if 'CI' in os.environ:
+                with logging_reduced(level=logging.DEBUG):
+                    sb_builder.build_steps(steps)
+            else:
+                sb_builder.build_steps(steps)

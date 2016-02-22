@@ -9,10 +9,9 @@ import yaml
 
 from pkg_resources import resource_filename
 
-from patacrep.songs import DataSubpath
 from patacrep import content, files
 from patacrep.content import song, section, songsection, tex
-from patacrep.build import config_model
+from patacrep.songbook import prepare_songbook
 
 from .. import logging_reduced
 from .. import dynamic # pylint: disable=unused-import
@@ -27,10 +26,6 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     maxDiff = None
     config = None
-
-    @classmethod
-    def setUpClass(cls):
-        cls._generate_config()
 
     @classmethod
     def _iter_testmethods(cls):
@@ -55,8 +50,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             with open(sourcename, mode="r", encoding="utf8") as sourcefile:
                 sbcontent = yaml.load(sourcefile)
 
-            config = cls.config.copy()
-            config['_filepath'] = base
+            outputdir = os.path.dirname(base)
+            config = cls._generate_config(sbcontent, outputdir, base)
+
             with logging_reduced('patacrep.content.song'):
                 expandedlist = content.process_content(sbcontent, config)
             sourcelist = [cls._clean_path(elem) for elem in expandedlist]
@@ -97,28 +93,27 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             raise Exception(elem)
 
     @classmethod
-    def _generate_config(cls):
+    def _generate_config(cls, sbcontent, outputdir, base):
         """Generate the config to process the content"""
 
         # Load the default songbook config
-        config = config_model('default')['en']
+        config = prepare_songbook(
+            {'book':{'datadir':'datadir'}, 'content': sbcontent},
+            outputdir,
+            base,
+            outputdir
+            )
 
-        datadirpaths = [os.path.join(os.path.dirname(__file__), 'datadir')]
-
-        config['_datadir'] = datadirpaths
-
-        config['_songdir'] = [
-            DataSubpath(path, 'songs')
-            for path in datadirpaths
-            ]
+        # Load the plugins
         config['_content_plugins'] = files.load_plugins(
-            datadirs=datadirpaths,
+            datadirs=config['_datadir'],
             root_modules=['content'],
             keyword='CONTENT_PLUGINS',
             )
         config['_song_plugins'] = files.load_plugins(
-            datadirs=datadirpaths,
+            datadirs=config['_datadir'],
             root_modules=['songs'],
             keyword='SONG_RENDERERS',
             )['tsg']
-        cls.config = config
+
+        return config

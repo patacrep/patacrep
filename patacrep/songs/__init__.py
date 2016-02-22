@@ -152,16 +152,16 @@ class Song:
     def filehash(self):
         """Compute (and cache) the md5 hash of the file"""
         if self._filehash is None:
-            self._filehash = hashlib.md5(
-                open(self.fullpath, 'rb').read()
-                ).hexdigest()
+            with open(self.fullpath, 'rb') as songfile:
+                self._filehash = hashlib.md5(songfile.read()).hexdigest()
         return self._filehash
 
     def _cache_retrieved(self):
         """If relevant, retrieve self from the cache."""
         if self.use_cache and os.path.exists(self.cached_name):
             try:
-                cached = pickle.load(open(self.cached_name, 'rb',))
+                with open(self.cached_name, 'rb',) as cachefile:
+                    cached = pickle.load(cachefile)
                 if (
                         cached['_filehash'] == self.filehash
                         and cached['_version'] == self.CACHE_VERSION

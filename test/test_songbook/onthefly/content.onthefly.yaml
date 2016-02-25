@@ -11,8 +11,8 @@ content:
   - section: Test of section
   - sort:
   - songsection: Test of song section
-  - cwd:
-      # relative to datadir 'song' dir
+  - cd:
+      # relative to datadir 'songs' dir
       path: ../content
       content:
         - tex: foo.tex

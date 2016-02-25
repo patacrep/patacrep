@@ -1,5 +1,5 @@
-- cwd:
-    path: "datadir_sort"
+- cd:
+    path: "../../datadir_sort"
     content:
       - section:
           name: "Title"

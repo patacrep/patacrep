@@ -10,7 +10,7 @@ import logging
 import yaml
 
 from patacrep.content import process_content, ContentError, ContentList, validate_parser_argument
-from patacrep import encoding, errors, files
+from patacrep import encoding, errors
 
 LOGGER = logging.getLogger(__name__)
 

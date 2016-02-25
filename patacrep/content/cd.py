@@ -35,10 +35,11 @@ def parse(keyword, config, argument):
     folder to the `songdir` list.
     """
     subpath = argument['path']
-    old_songdir = list(config['_songdir']) # force list duplication
+    old_songdir = config['_songdir']
 
     if argument.get('yaml_as_root', False):
-        config['_songdir'].insert(0, DataSubpath(config['_songbookfile_dir'], subpath))
+        config['_songdir'] = [DataSubpath(config['_songbookfile_dir'], subpath)]
+        config['_songdir'].extend(old_songdir)
     else:
         config['_songdir'] = [path.clone().join(subpath) for path in config['_songdir']]
 

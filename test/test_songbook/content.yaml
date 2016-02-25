@@ -13,7 +13,8 @@ content:
   - songsection: Test of song section
   - cd:
       # relative to yaml songfile
-      path: /content_datadir/content
+      path: content_datadir/content
+      yaml_as_root: yes
       content:
         - "song.csg"
         - "song.tsg"

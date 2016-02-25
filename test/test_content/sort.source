@@ -1,5 +1,6 @@
 - cd:
-    path: "../../datadir_sort"
+    path: "datadir_sort"
+    yaml_as_root: yes
     content:
       - section:
           name: "Title"

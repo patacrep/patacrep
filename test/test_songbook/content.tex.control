@@ -122,6 +122,9 @@ guitar,
 
 \songsection{Test of song section}
 
+
+\setcounter{songnum}{101}
+
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% content_datadir/content/song.csg

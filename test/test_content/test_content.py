@@ -10,7 +10,7 @@ import yaml
 from pkg_resources import resource_filename
 
 from patacrep import content, files
-from patacrep.content import song, section, songsection, tex
+from patacrep.content import song, section, setcounter, songsection, tex
 from patacrep.songbook import prepare_songbook
 
 from .. import logging_reduced
@@ -88,6 +88,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         elif isinstance(elem, tex.LaTeX):
             return files.path2posix(elem.filename)
+
+        elif isinstance(elem, setcounter.CounterSetter):
+            return elem.render(None)[1:]
 
         else:
             raise Exception(elem)

@@ -31,11 +31,11 @@ def parse(keyword, config, argument):
     If 'yaml_as_root' is not set the 'path' is added as a relative path to
     every path already present in config['songdir'] (which are 'songs' dir
      inside the datadirs).
-    Otherwise only the 'path' folder of the yaml file is insert as first
-    folder to search into.
+    Otherwise only the 'path' folder of the yaml file is inserted as first
+    folder to the `songdir` list.
     """
     subpath = argument['path']
-    old_songdir = config['_songdir']
+    old_songdir = list(config['_songdir']) # force list duplication
 
     if argument.get('yaml_as_root', False):
         config['_songdir'].insert(0, DataSubpath(config['_songbookfile_dir'], subpath))

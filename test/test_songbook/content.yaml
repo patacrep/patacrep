@@ -11,10 +11,9 @@ content:
   - section: Test of section
   - sort:
   - songsection: Test of song section
-  - cd:
+  - addpath:
       # relative to yaml songfile
       path: content_datadir/content
-      yaml_as_root: yes
       content:
         - "song.csg"
         - "song.tsg"

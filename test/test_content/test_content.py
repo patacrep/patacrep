@@ -10,7 +10,7 @@ import yaml
 from pkg_resources import resource_filename
 
 from patacrep import content, files
-from patacrep.content import song, section, songsection, tex
+from patacrep.content import song, section, setcounter, songsection, tex
 from patacrep.songbook import prepare_songbook
 
 from .. import logging_reduced
@@ -76,15 +76,18 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @classmethod
     def _clean_path(cls, elem):
         """Shorten the path relative to the `songs` directory"""
-        if isinstance(elem, song.SongRenderer):
+
+        latex_command_classes = (
+            section.Section,
+            songsection.SongSection,
+            setcounter.CounterSetter,
+            )
+        if isinstance(elem, latex_command_classes):
+            return elem.render(None)[1:]
+
+        elif isinstance(elem, song.SongRenderer):
             songpath = os.path.join(os.path.dirname(__file__), 'datadir', 'songs')
             return files.path2posix(files.relpath(elem.song.fullpath, songpath))
-
-        elif isinstance(elem, section.Section):
-            return elem.render(None)[1:]
-
-        elif isinstance(elem, songsection.SongSection):
-            return elem.render(None)[1:]
 
         elif isinstance(elem, tex.LaTeX):
             return files.path2posix(elem.filename)

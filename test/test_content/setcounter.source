@@ -1,0 +1,7 @@
+- setcounter: 
+    value: 101
+- setcounter: 
+- setcounter: 5 
+- setcounter: 
+    name: counter_name
+    value: -1

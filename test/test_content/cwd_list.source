@@ -1,4 +1,4 @@
-- cwd:
+- cd:
     path: subdir
     content:
         - "exsong.sg"

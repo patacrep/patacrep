@@ -17,7 +17,7 @@ def compile_authwords(authwords):
         'ignore': authwords.get('ignore', []),
         'after': [
             re.compile(RE_AFTER.format(word), re.LOCALE)
-            for word in authwords['after']
+            for word in authwords.get('after')
             ],
         'separators': [
             re.compile(RE_SEPARATOR.format(word), re.LOCALE)

@@ -11,7 +11,7 @@ content:
   - section: Test of section
   - sort:
   - songsection: Test of song section
-  - addpath:
+  - addsongdir:
       # relative to yaml songfile
       path: content_datadir/content
       content:

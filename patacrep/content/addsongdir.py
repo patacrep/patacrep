@@ -37,4 +37,4 @@ def parse(keyword, config, argument):
     config['_songdir'] = old_songdir
     return processed_content
 
-CONTENT_PLUGINS = {'addpath': parse}
+CONTENT_PLUGINS = {'addsongdir': parse}

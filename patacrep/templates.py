@@ -275,7 +275,7 @@ def iter_bookoptions(config):
     if config['chords']['show']:
         yield 'chorded'
     else:
-        yield 'lyrics'
+        yield 'lyric'
 
     book_equivalents = {
         'pictures':         'pictures',

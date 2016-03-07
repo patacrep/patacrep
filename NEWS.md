@@ -1,3 +1,23 @@
+# patacrep 5.0.0
+
+* Songbook file
+  * Default extension is now `.yaml`
+  * Book options are now specified using the yaml markup
+    * `cd` behavior changed [#207](https://github.com/patacrep/patacrep/pull/207)
+
+* Song files
+  * Supported extensions [#174](http://github.com/patacrep/patacrep/pull/174)
+    * .csg: Chordpro
+    * .tsg: LaTeX song
+    * .sg: LaTeX song (unfavored)
+    * .tis: LaTeX intersong
+  * `start_echo` is now supported in chordpro songs [#205](https://github.com/patacrep/patacrep/pull/205)
+
+* Add a compilation option `--error` [#195](https://github.com/patacrep/patacrep/pull/195)
+
+* Template files also uses `yaml` markup
+
+
 # patacrep 4.0.0
 
 * Project management

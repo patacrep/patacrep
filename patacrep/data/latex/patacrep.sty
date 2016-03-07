@@ -443,4 +443,21 @@
 \def\@void[#1]{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Prevent numbering reset on new 'songs' environment
+\newcounter{tempsongnum}
+
+\let\oldsongs\songs
+\let\endoldsongs\endsongs
+
+\renewenvironment{songs}[1]{%
+    \setcounter{tempsongnum}{\thesongnum}%
+    \oldsongs{#1}%
+    \setcounter{songnum}{\thetempsongnum}%
+}{%
+    \endoldsongs\ignorespacesafterend%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \endinput

@@ -10,22 +10,23 @@ import logging
 import yaml
 
 from patacrep.content import process_content, ContentError, ContentList, validate_parser_argument
-from patacrep import encoding, errors, files
+from patacrep import encoding, errors
 
 LOGGER = logging.getLogger(__name__)
 
-def load_from_datadirs(path, datadirs):
-    """Load 'path' from one of the datadirs.
+def load_from_datadirs(filename, songdirs):
+    """Load 'filename' from one of the songdirs.
 
-    Raise an exception if it was found if none of the datadirs of 'config'.
+    Raise an exception if it was not found in any songdir.
     """
-    for filepath in files.iter_datadirs(datadirs, "songs", path):
-        if os.path.exists(filepath):
-            return filepath
+    for path in songdirs:
+        fullpath = os.path.join(path.fullpath, filename)
+        if os.path.exists(fullpath):
+            return fullpath
     # File not found
     raise ContentError(
         "include",
-        errors.notfound(path, list(files.iter_datadirs(datadirs)))
+        errors.notfound(filename, list(songdirs))
         )
 
 #pylint: disable=unused-argument
@@ -53,7 +54,7 @@ def parse(keyword, config, argument):
 
     for path in argument:
         try:
-            filepath = load_from_datadirs(path, config['_datadir'])
+            filepath = load_from_datadirs(path, config['_songdir'])
         except ContentError as error:
             new_contentlist.append_error(error)
             continue

@@ -11,14 +11,15 @@ content:
   - section: Test of section
   - sort:
   - songsection: Test of song section
-  - cwd:
+  - setcounter: 101
+  - addsongdir:
       # relative to yaml songfile
       path: content_datadir/content
       content:
         - "song.csg"
         - "song.tsg"
-  - cwd:
-      # relative to datadir
+  - cd:
+      # relative to datadir 'songs' dir
       path: ../content
       content:
         - tex: foo.tex

@@ -21,7 +21,7 @@ met, the corresponding parser is called.
 
     - sort
     - section*
-    - cwd
+    - cd
 
 # Parsers
 

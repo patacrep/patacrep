@@ -4,18 +4,28 @@
   * Default extension is now `.yaml`
   * Book options are now specified using the yaml markup
     * `cd` behavior changed [#207](https://github.com/patacrep/patacrep/pull/207)
+    * `addsongdir` and `setcounter` created
+    * `sorted` renamed to `sort`
 
 * Song files
+  * New song format supported: Chordpro
   * Supported extensions [#174](http://github.com/patacrep/patacrep/pull/174)
     * .csg: Chordpro
     * .tsg: LaTeX song
     * .sg: LaTeX song (unfavored)
     * .tis: LaTeX intersong
   * `start_echo` is now supported in chordpro songs [#205](https://github.com/patacrep/patacrep/pull/205)
+  * LaTeX songs
+    * `cov` renamed to `cover`
+    * `vcov` is deprecated
 
 * Add a compilation option `--error` [#195](https://github.com/patacrep/patacrep/pull/195)
 
 * Template files also uses `yaml` markup
+
+* Creation of a patatools utility
+
+* Many other improvements
 
 
 # patacrep 4.0.0

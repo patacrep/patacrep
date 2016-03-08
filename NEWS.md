@@ -10,7 +10,7 @@
 * Song files
   * New song format supported: Chordpro
   * Supported extensions [#174](http://github.com/patacrep/patacrep/pull/174)
-    * .csg: Chordpro
+    * .csg: Chordpro (recommmended)
     * .tsg: LaTeX song
     * .sg: LaTeX song (unfavored)
     * .tis: LaTeX intersong

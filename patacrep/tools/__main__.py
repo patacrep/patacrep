@@ -104,11 +104,13 @@ def commandline_parser():
 
     return parser
 
-def main(args):
+def main(args=None):
     """Main function"""
+    if args is None:
+        args = sys.argv
     parser = commandline_parser()
     args = parser.parse_args(args[1:])
     args.function(["patatools-{}".format(args.subcommand)] + args.remainder)
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()

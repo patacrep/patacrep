@@ -13,8 +13,8 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/onthefly/../content_datadir/latex/} %
-        {@LOCAL_DATA_FOLDER@/latex/} %
+        {@TEST_FOLDER@/onthefly/../content_datadir/templates/styles/} %
+        {@LOCAL_DATA_FOLDER@/templates/styles/} %
 }
 \makeatother
 

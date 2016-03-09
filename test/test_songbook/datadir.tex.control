@@ -13,10 +13,10 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/datadir_datadir/latex/} %
-        {@TEST_FOLDER@/datadir_datadir2/latex/} %
-        {@TEST_FOLDER@/latex/} %
-        {@DATA_FOLDER@/latex/} %
+        {@TEST_FOLDER@/datadir_datadir/templates/styles/} %
+        {@TEST_FOLDER@/datadir_datadir2/templates/styles/} %
+        {@TEST_FOLDER@/templates/styles/} %
+        {@DATA_FOLDER@/templates/styles/} %
 }
 \makeatother
 

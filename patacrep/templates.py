@@ -137,7 +137,7 @@ class TexBookRenderer(Renderer):
         # Load templates in filesystem ...
         loaders = [
             FileSystemLoader(datadir)
-            for datadir in files.iter_datadirs(datadirs, 'templates')
+            for datadir in files.iter_datadirs(datadirs, 'templates', 'songbook')
             ]
         jinjaenv = Environment(
             loader=ChoiceLoader(loaders),

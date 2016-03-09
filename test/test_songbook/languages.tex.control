@@ -13,9 +13,9 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/languages_datadir/latex/} %
-        {@TEST_FOLDER@/latex/} %
-        {@DATA_FOLDER@/latex/} %
+        {@TEST_FOLDER@/languages_datadir/templates/styles/} %
+        {@TEST_FOLDER@/templates/styles/} %
+        {@DATA_FOLDER@/templates/styles/} %
 }
 \makeatother
 

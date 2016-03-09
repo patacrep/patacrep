@@ -23,7 +23,7 @@
 
 * Template files also uses `yaml` markup
 
-* Creation of a patatools utility
+* Creation of a patatools utility [#189](https://github.com/patacrep/patacrep/pull/189)
 
 * Datadir reorganisation [#211](https://github.com/patacrep/patacrep/pull/211)
   * songbook templates are now located in `songbook` subfolder of the `templates`

@@ -25,6 +25,10 @@
 
 * Creation of a patatools utility
 
+* Datadir reorganisation [#211](https://github.com/patacrep/patacrep/pull/211)
+  * songbook templates are now located in `songbook` subfolder of the `templates`
+  * the LaTeX styles (previously in `/latex`) are now in `/templates/styles`
+
 * Many other improvements
 
 

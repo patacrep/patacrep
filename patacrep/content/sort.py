@@ -56,7 +56,7 @@ def key_generator(sort):
                     field = song.data[key]
                 except KeyError:
                     LOGGER.debug(
-                        "Ignoring unknown key '{}' for song {}.".format(
+                        "Ignoring missing key '{}' for song {}.".format(
                             key,
                             files.relpath(song.fullpath),
                             )

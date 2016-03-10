@@ -6,6 +6,7 @@
     * `cd` behavior changed [#207](https://github.com/patacrep/patacrep/pull/207)
     * `addsongdir` and `setcounter` created
     * `sorted` renamed to `sort`
+  * The song counter is no more reseted on `songsection` [#208](https://github.com/patacrep/patacrep/pull/208)
 
 * Song files
   * New song format supported: Chordpro

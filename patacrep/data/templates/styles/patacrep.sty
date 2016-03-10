@@ -26,6 +26,14 @@
 \newif{\iflilypondauto}
 \DeclareOption{lilypond}{\lilypondautotrue\lilypondtrue}
 
+% diagram: display chord page before the songs
+\newif{\ifdiagrampage}
+\DeclareOption{diagrampage}{\diagrampagetrue}
+
+% diagram: display chord page before the songs
+\newif{\ifdiagrampagereduced}
+\DeclareOption{diagrampagereduced}{\diagrampagereducedtrue\diagrampagetrue}
+
 % diagram: display chord diagrams at the beginning
 \newif{\ifdiagram}
 \DeclareOption{diagram}{\diagramtrue}

@@ -25,6 +25,7 @@
 chorded,
 pictures,
 diagram,
+diagrampage,
 guitar,
     ]{patacrep}
 
@@ -77,13 +78,12 @@ guitar,
 \showindex{\authorindexname}{authidx}
 
 % list of chords
-\ifchorded
-  \ifdiagram
-     \phantomsection
-     \addcontentsline{toc}{section}{\chordlistname}
-     \chords
-  \fi
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
 \fi
+\setcounter{songnum}{1}%
 
 \phantomsection
 \addcontentsline{toc}{section}{\songlistname}

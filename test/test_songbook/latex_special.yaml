@@ -1,0 +1,14 @@
+book:
+  datadir:
+  - latex_special_datadir
+
+template:
+  default.tex:
+    title: "TODO"
+    author: "TODO"
+  patacrep.tex:
+    subtitle: "TODO"
+    url: "TODO"
+    email: "TODO"
+    picture: "img/treble_a"
+

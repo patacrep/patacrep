@@ -4,11 +4,11 @@ book:
 
 template:
   default.tex:
-    title: "TODO"
-    author: "TODO"
+    title: "& % $ # _ } { ~ ^ \\"
+    author: "& % $ # _ } { ~ ^ \\"
   patacrep.tex:
-    subtitle: "TODO"
-    url: "TODO"
-    email: "TODO"
+    subtitle: "& % $ # _ } { ~ ^ \\"
+    url: "& % $ # _ } { ~ ^ \\"
+    email: "& % $ # _ } { ~ ^ \\"
     picture: "img/treble_a"
 

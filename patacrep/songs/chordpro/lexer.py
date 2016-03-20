@@ -154,7 +154,7 @@ class ChordProLexer:
 
     @staticmethod
     def t_literal(token):
-        r'\[{} \]'
+        r'\[{} \#]'
         t.type = t.type[1]
         return t
 

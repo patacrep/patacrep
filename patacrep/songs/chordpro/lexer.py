@@ -30,6 +30,8 @@ tokens = (
     'EE',
 )
 
+literals = [ '{', '}', "\\", ' ' ]
+
 class ChordProLexer:
     """ChordPro Lexer class"""
     # pylint: disable=too-many-public-methods
@@ -149,6 +151,12 @@ class ChordProLexer:
         r':'
         self.lexer.push_state('directiveargument')
         return token
+
+    @staticmethod
+    def t_literal(token):
+        r'\[{} \]'
+        t.type = t.type[1]
+        return t
 
     def error(self, token, more=""):
         """Display error message, and skip illegal token."""

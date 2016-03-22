@@ -16,8 +16,8 @@ from patacrep.latex import tex2plain
 EOL = "\n"
 
 # Pattern set to ignore latex command in title prefix
-KEYWORD_PATTERN = re.compile(r"^%(\w+)\s?(.*)$", re.LOCALE)
-FIRST_LETTER_PATTERN = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)", re.LOCALE)
+KEYWORD_PATTERN = re.compile(r"^%(\w+)\s?(.*)$")
+FIRST_LETTER_PATTERN = re.compile(r"^(?:\{?\\\w+\}?)*[^\w]*(\w)")
 
 def process_sxd(filename):
     """Parse sxd file.
@@ -90,8 +90,7 @@ class Index:
             if 'prefix' in self.keywords:
                 for prefix in self.keywords['prefix']:
                     self.prefix_patterns.append(re.compile(
-                        r"^({prefix})(\b|\\)(\s*.*)$".format(prefix=prefix),
-                        re.LOCALE
+                        r"^({prefix})(\b|\\)(\s*.*)$".format(prefix=prefix)
                         ))
 
         if self.indextype == "AUTHOR":

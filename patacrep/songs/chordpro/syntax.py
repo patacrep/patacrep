@@ -182,9 +182,8 @@ class ChordproParser(Parser):
 
     @staticmethod
     def p_directive_next(symbols):
-        """directive_next : SPACE COLON TEXT
-                          | COLON TEXT
-                          | COLON
+        """directive_next : SPACE COLON directive_argument
+                          | COLON directive_argument
                           | empty
         """
         if len(symbols) == 3:
@@ -195,6 +194,16 @@ class ChordproParser(Parser):
             symbols[0] = ""
         else:
             symbols[0] = None
+
+    @staticmethod
+    def p_directive_argument(symbols):
+        """directive_argument : TEXT directive_argument
+                              | empty
+        """
+        if len(symbols) == 3:
+            symbols[0] = symbols[1] + symbols[2]
+        else:
+            symbols[0] = ""
 
     def p_line_error(self, symbols):
         """line_error : error directive"""

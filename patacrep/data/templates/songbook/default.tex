@@ -103,12 +103,11 @@ description:
 
 (* block chords *)
 % list of chords
-\ifchorded
-  \ifdiagram
-     \phantomsection
-     \addcontentsline{toc}{section}{\chordlistname}
-     \chords
-  \fi
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
 \fi
+\setcounter{songnum}{1}%
 (* endblock *)
 

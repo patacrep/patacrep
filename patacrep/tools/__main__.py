@@ -2,13 +2,10 @@
 
 """Command line client to :mod:`tools`"""
 
-import argdispatch
 import logging
-import operator
-import os
-import pkgutil
-import re
 import sys
+
+import argdispatch
 
 import patacrep
 

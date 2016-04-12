@@ -39,6 +39,7 @@ def commandline_parser():
         description="List of available subcommands.",
         )
     subparsers.required = True
+    subparsers.dest = "subcommand"
     subparsers.add_submodules("patacrep.tools")
 
     return parser

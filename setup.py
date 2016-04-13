@@ -34,7 +34,7 @@ setup(
     packages=find_packages(exclude=["test*"]),
     license="GPLv2 or any later version",
     install_requires=[
-        "unidecode", "jinja2", "ply", "pyyaml",
+        "argdispatch", "unidecode", "jinja2", "ply", "pyyaml",
         ],
     entry_points={
         'console_scripts': [

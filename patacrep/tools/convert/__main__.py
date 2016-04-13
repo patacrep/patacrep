@@ -1,4 +1,4 @@
-"""`patatools.convert` command: convert between song formats"""
+"""Convert between song formats."""
 
 import os
 import logging
@@ -10,7 +10,6 @@ from patacrep.utils import yesno
 from patacrep.build import config_model
 
 LOGGER = logging.getLogger("patatools.convert")
-SUBCOMMAND_DESCRIPTION = "Convert between song formats"
 
 def _usage():
     return "patatools convert INPUTFORMAT OUTPUTFORMAT FILES"

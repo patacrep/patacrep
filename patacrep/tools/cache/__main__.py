@@ -1,4 +1,4 @@
-"""`patatools cache` command: cache manipulation."""
+"""Perform operations on cache."""
 
 import argparse
 import logging
@@ -11,7 +11,6 @@ from patacrep import errors
 from patacrep.songbook import open_songbook
 
 LOGGER = logging.getLogger("patatools.cache")
-SUBCOMMAND_DESCRIPTION = "Perform operations on cache."
 
 def filename(name):
     """Check that argument is an existing, readable file name.
@@ -27,7 +26,7 @@ def commandline_parser():
 
     parser = argparse.ArgumentParser(
         prog="patatools cache",
-        description=SUBCOMMAND_DESCRIPTION,
+        description="Convert between song formats.",
         formatter_class=argparse.RawTextHelpFormatter,
         )
 

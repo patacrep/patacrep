@@ -176,6 +176,33 @@ Chordpro}[
 \import{@TEST_FOLDER@/datadir_datadir/songs/}{relative.tsg}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./subdir with space/subdir.csg
+
+\selectlanguage{english}
+
+\beginsong{Image included from a nested song directory with a space\\
+Chordpro}[
+  by={
+  },
+    cover={/home/olivier/Home/Projects/patacrep/patacrep/test/test_songbook/datadir_datadir/songs/./subdir with space/subdir.png},
+]
+
+\cover
+
+
+
+\lilypond{/home/olivier/Home/Projects/patacrep/patacrep/test/test_songbook/datadir_datadir/songs/./subdir with space/subdir.ly}
+\image{/home/olivier/Home/Projects/patacrep/patacrep/test/test_songbook/datadir_datadir/songs/./subdir with space/subdir.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./subdir with space/subdir.tsg
+
+\import{/home/olivier/Home/Projects/patacrep/patacrep/test/test_songbook/datadir_datadir/songs/subdir with space/}{subdir.tsg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./subdir/subdir.csg
 
 \selectlanguage{english}

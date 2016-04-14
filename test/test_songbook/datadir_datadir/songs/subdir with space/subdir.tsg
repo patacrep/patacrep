@@ -1,0 +1,10 @@
+\beginsong{Image included from a nested song directory\\\LaTeX}
+  [cover={subdir}]
+
+  \cover
+
+  \lilypond{subdir.ly}
+
+  \image{subdir}
+
+\endsong

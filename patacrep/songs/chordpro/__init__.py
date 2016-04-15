@@ -30,6 +30,7 @@ class ChordproSong(Song):
     # pylint: disable=abstract-method
 
     output_language = None
+    _translation_map = {}
 
     def _parse(self):
         """Parse content, and return the dictionary of song data."""
@@ -50,6 +51,7 @@ class ChordproSong(Song):
         filters.update({
             'search_image': self.search_image,
             'search_partition': self.search_partition,
+            'escape_specials': self._escape_specials,
         })
         return filters
 
@@ -83,6 +85,13 @@ class ChordproSong(Song):
         """Render ``content``."""
         context.vars['content'] = content
         return context.environment.get_template(content.template()).render(context)
+
+    def _escape_specials(self, content, chars):
+        return str(content).translate(str.maketrans({
+            key: value
+            for key, value in self._translation_map.items()
+            if key in chars
+            }))
 
 class Chordpro2HtmlSong(ChordproSong):
     """Render chordpro song to html code"""
@@ -164,6 +173,12 @@ class Chordpro2ChordproSong(ChordproSong):
     """Render chordpro song to chordpro code"""
 
     output_language = "chordpro"
+    _translation_map = {
+        '{': r'\{',
+        '}': r'\}',
+        '\\': '\\\\',
+        '#': r'\#',
+    }
 
     def search_file(self, filename, extensions=None, *, datadirs=None):
         # pylint: disable=unused-variable

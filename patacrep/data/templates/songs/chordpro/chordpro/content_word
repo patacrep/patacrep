@@ -1,1 +1,1 @@
-(( content.value ))
+(( content.value|escape_specials('{}\\#') ))

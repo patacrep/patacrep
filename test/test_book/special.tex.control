@@ -101,8 +101,8 @@ guitar,
 
 
 \subtitle{\& \% \$ \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}}
-\mail{http://\%25\%20\%26\%24\%5C\%23_\%7E\%5E\%7B\%7D}
-\web{http://\%25\%20\%26\%24\%5C\%23_\%7E\%5E\%7B\%7D}
+\mail{http://\%25\%20\%26\%24\%5C\%23_\%7E\%5E\%7B\%7D} TODO Do not use encoded chars (%24, and so on). It is eventually a bad idea. Or as least as possible.
+\web{http://\%25\%20\%26\%24\%5C\%23_\%7E\%5E\%7B\%7D} TODO Idem
 
 \picture{img/treble_a}
 \picturecopyright{Dbolton \url{http://commons.wikimedia.org/wiki/User:Dbolton}}

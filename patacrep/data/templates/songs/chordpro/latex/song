@@ -8,7 +8,7 @@
 
 \beginsong{
     (*- for title in titles -*)
-        (( title ))
+        (( title|escape_specials('{}&#_^%~$\\') ))
         (*- if not loop.last -*)
             \\
         (* endif *)
@@ -16,7 +16,7 @@
 }[
   by={
       (* for author in authors *)
-        (( author[1] )) (( author[0] ))
+        (( author[1]|escape_specials('{}&#_^%~$\\') )) (( author[0]|escape_specials('{}&#_^%~$\\') ))
         (*- if not loop.last -*)
         ,
         (* endif *)
@@ -24,7 +24,7 @@
   },
   (* for key in ['album', 'copyright'] *)
   (* if key in metadata *)
-  (( key ))={(( metadata[key] ))},
+  (( key ))={(( metadata[key]|escape_specials('{}&#_^%~$\\') ))},
   (* endif *)
   (* endfor *)
   (* if 'cover' in metadata *)
@@ -36,7 +36,7 @@
     (* endblock *)
   (* endif *)
   (* for key in metadata.morekeys *)
-  (( key.keyword ))={(( key.argument ))},
+  (( key.keyword ))={(( key.argument|escape_specials('{}&#_^%~$\\') ))},
   (* endfor *)
 ]
 

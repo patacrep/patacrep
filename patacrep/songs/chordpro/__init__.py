@@ -113,6 +113,18 @@ class Chordpro2LatexSong(ChordproSong):
     """Render chordpro song to latex code"""
 
     output_language = "latex"
+    _translation_map = {
+        '{': r'\{',
+        '}': r'\}',
+        '\\': r'\textbackslash{}',
+        '^': r'\textasciicircum{}',
+        '~': r'\textasciitilde{}',
+        '#': r'\#',
+        '&': r'\&',
+        '$': r'\$',
+        '%': r'\%',
+        '_': r'\_',
+    }
 
     def search_file(self, filename, extensions=None, *, datadirs=None):
         _datadir, filename, _extension = self.search_datadir_file(

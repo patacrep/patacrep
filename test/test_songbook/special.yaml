@@ -1,6 +1,6 @@
 book:
   datadir:
-  - latex_special_datadir
+  - special_datadir
 
 template:
   default.tex:

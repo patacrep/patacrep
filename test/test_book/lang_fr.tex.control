@@ -26,6 +26,7 @@ chorded,
 pictures,
 repeatchords,
 importantdiagramonly,
+diagrampage,
 guitar,
     ]{crepbook}
 
@@ -41,8 +42,8 @@ guitar,
 \usepackage{lmodern}
 
 
-\usepackage[english]{babel}
-\lang{english}
+\usepackage[french]{babel}
+\lang{french}
 
 \usepackage{graphicx}
 \graphicspath{ %
@@ -63,17 +64,17 @@ guitar,
 
 \usepackage{chords}
 
-\title{Guitar songbook}
-\author{The Patacrep Team}
+\title{Recueil de chansons pour guitare}
+\author{L'équipe Patacrep}
 
-\newindex{titleidx}{lang_default_title}
-\newauthorindex{authidx}{lang_default_auth}
+\newindex{titleidx}{lang_fr_title}
+\newauthorindex{authidx}{lang_fr_auth}
 
 \authignoreword{unknown}
 \authbyword{by}
 \authsepword{and}
 
-\notenamesout{A}{B}{C}{D}{E}{F}{G}
+\notenamesout{La}{Si}{Do}{R\'e}{Mi}{Fa}{Sol}
 
 
 \pagestyle{empty}\definecolor{SongNumberBgColor}{HTML}{D1E4AE}
@@ -101,7 +102,7 @@ guitar,
 \web{http://www.patacrep.com}
 \picture{img/treble_a}
 \picturecopyright{Dbolton \url{http://commons.wikimedia.org/wiki/User:Dbolton}}
-\footer{Generated using Songbook (\url{http://www.patacrep.com})}
+\footer{Créé avec le programme Songbook (\url{http://www.patacrep.com})}
 
 
 \begin{document}
@@ -113,13 +114,12 @@ guitar,
 \showindex{\authorindexname}{authidx}
 
 % list of chords
-\ifchorded
-  \ifdiagram
-     \phantomsection
-     \addcontentsline{toc}{section}{\chordlistname}
-     \chords
-  \fi
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
 \fi
+\setcounter{songnum}{1}%
 
 \phantomsection
 \addcontentsline{toc}{section}{\songlistname}

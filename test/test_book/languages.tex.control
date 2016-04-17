@@ -13,7 +13,7 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/content_datadir/templates/styles/} %
+        {@TEST_FOLDER@/languages_datadir/templates/styles/} %
         {@TEST_FOLDER@/templates/styles/} %
         {@DATA_FOLDER@/templates/styles/} %
 }
@@ -25,7 +25,9 @@
 \usepackage[
 chorded,
 pictures,
-diagram,
+repeatchords,
+importantdiagramonly,
+diagrampage,
 guitar,
     ]{patacrep}
 
@@ -33,13 +35,15 @@ guitar,
 
 
 \PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{spanish}{babel}
+\PassOptionsToPackage{french}{babel}
 \PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {@TEST_FOLDER@/content_datadir/} %
+        {@TEST_FOLDER@/languages_datadir/} %
         {@TEST_FOLDER@/} %
         {@DATA_FOLDER@/} %
 }
@@ -60,8 +64,8 @@ guitar,
 \title{Guitar songbook}
 \author{The Patacrep Team}
 
-\newindex{titleidx}{content_title}
-\newauthorindex{authidx}{content_auth}
+\newindex{titleidx}{languages_title}
+\newauthorindex{authidx}{languages_auth}
 
 \authignoreword{unknown}
 \authbyword{by}
@@ -79,27 +83,23 @@ guitar,
 \showindex{\authorindexname}{authidx}
 
 % list of chords
-\ifchorded
-  \ifdiagram
-     \phantomsection
-     \addcontentsline{toc}{section}{\chordlistname}
-     \chords
-  \fi
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
 \fi
+\setcounter{songnum}{1}%
 
 \phantomsection
 \addcontentsline{toc}{section}{\songlistname}
 
-
-\section{Test of section}
-
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./song.csg
+%% songs/./language.csg
 
 \selectlanguage{english}
 
-\beginsong{This is a song}[
+\beginsong{Language only}[
   by={
   },
 ]
@@ -114,47 +114,82 @@ guitar,
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./song.tsg
+%% songs/./language_location.csg
 
-\import{@TEST_FOLDER@/content_datadir/songs/}{song.tsg}
+\selectlanguage{french}
 
-\end{songs}
-
-\songsection{Test of song section}
-
-
-\setcounter{songnum}{101}
-
-\begin{songs}{titleidx,authidx}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% content_datadir/content/song.csg
-
-\selectlanguage{english}
-
-\beginsong{Yet another song}[
+\beginsong{Full language specification}[
   by={
   },
 ]
 
 
+
+
 \begin{verse}
-    Baz
+    Foo
 \end{verse}
 
 \endsong
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% content_datadir/content/song.tsg
+%% songs/./no_language.csg
 
-\import{@TEST_FOLDER@/content_datadir/content/}{song.tsg}
+\selectlanguage{english}
+
+\beginsong{No language}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./wrong_language.csg
+
+\selectlanguage{english}
+
+\beginsong{Wrong language}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./wrong_location.csg
+
+\selectlanguage{spanish}
+
+\beginsong{Wrong location}[
+  by={
+  },
+]
+
+
+
+
+\begin{verse}
+    Foo
+\end{verse}
+
+\endsong
 
 \end{songs}
-
-\input{content_datadir/content/foo.tex}
-
-
-\section{This is an included section}
-
 
 
 

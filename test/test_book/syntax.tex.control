@@ -13,8 +13,9 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/onthefly/../content_datadir/templates/styles/} %
-        {@LOCAL_DATA_FOLDER@/templates/styles/} %
+        {@TEST_FOLDER@/syntax_datadir/templates/styles/} %
+        {@TEST_FOLDER@/templates/styles/} %
+        {@DATA_FOLDER@/templates/styles/} %
 }
 \makeatother
 
@@ -24,7 +25,9 @@
 \usepackage[
 chorded,
 pictures,
-diagram,
+repeatchords,
+importantdiagramonly,
+diagrampage,
 guitar,
     ]{patacrep}
 
@@ -32,14 +35,14 @@ guitar,
 
 
 \PassOptionsToPackage{english}{babel}
-\PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {@TEST_FOLDER@/onthefly/../content_datadir/} %
-        {@LOCAL_DATA_FOLDER@/} %
+        {@TEST_FOLDER@/syntax_datadir/} %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
 }
 
 
@@ -58,8 +61,8 @@ guitar,
 \title{Guitar songbook}
 \author{The Patacrep Team}
 
-\newindex{titleidx}{content.onthefly_title}
-\newauthorindex{authidx}{content.onthefly_auth}
+\newindex{titleidx}{syntax_title}
+\newauthorindex{authidx}{syntax_auth}
 
 \authignoreword{unknown}
 \authbyword{by}
@@ -77,27 +80,23 @@ guitar,
 \showindex{\authorindexname}{authidx}
 
 % list of chords
-\ifchorded
-  \ifdiagram
-     \phantomsection
-     \addcontentsline{toc}{section}{\chordlistname}
-     \chords
-  \fi
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
 \fi
+\setcounter{songnum}{1}%
 
 \phantomsection
 \addcontentsline{toc}{section}{\songlistname}
 
-
-\section{Test of section}
-
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./song.csg
+%% songs/./musicnote.csg
 
 \selectlanguage{english}
 
-\beginsong{This is a song}[
+\beginsong{Song with Sharp in musicnote}[
   by={
   },
 ]
@@ -105,27 +104,15 @@ guitar,
 
 
 
-\begin{verse}
-    Foo
-\end{verse}
+\ifchorded
+\begin{verse*}
+    \musicnote {\nolyrics \[Am C{\shrp}m]}
+\end{verse*}
+\fi
 
 \endsong
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./song.tsg
-
-\import{@TEST_FOLDER@/content_datadir/songs/}{song.tsg}
-
 \end{songs}
-
-\songsection{Test of song section}
-
-
-\input{@TEST_FOLDER@/content_datadir/content/foo.tex}
-
-
-\section{This is an included section}
-
 
 
 

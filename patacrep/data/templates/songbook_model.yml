@@ -27,7 +27,15 @@ schema:
       type: //rec
       required:
         show: //bool
-        diagrampage: //bool
+        diagrampage:
+          type: //any
+          of:
+            - type: //str
+              value: "none"
+            - type: //str
+              value: "important"
+            - type: //str
+              value: "all"
         repeatchords: //bool
         lilypond: //bool
         tablatures: //bool
@@ -97,7 +105,7 @@ default:
     chords:
       show: yes
       diagramreminder: important
-      diagrampage: yes
+      diagrampage: all
       repeatchords: yes
       lilypond: no
       tablatures: no

@@ -296,4 +296,9 @@ def iter_bookoptions(config):
         elif config['chords']['diagramreminder'] == "all":
             yield 'diagram'
 
+        if config['chords']['diagrampage'] == "important":
+            yield 'diagrampagereduced'
+        elif config['chords']['diagrampage'] == "all":
+            yield 'diagrampage'
+
         yield config['chords']['instrument']

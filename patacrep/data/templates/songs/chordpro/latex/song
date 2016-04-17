@@ -27,6 +27,9 @@
   (( key ))={(( metadata[key]|escape_specials('{}&#_^%~$\\') ))},
   (* endif *)
   (* endfor *)
+  (* if 'url' in metadata *)
+  url={(( metadata.url|escape_specials('%#') ))},
+  (* endif *)
   (* if 'cover' in metadata *)
     (* block cover *)
       (* set cover = metadata["cover"].argument|search_image|path2posix *)

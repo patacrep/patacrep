@@ -33,6 +33,10 @@
   {key: (( key.keyword )): (( key.argument|escape_specials('{}\\') ))}
 (* endfor *)
 
+(*- if 'url' in metadata -*)
+  {url: (( metadata.url ))}
+(* endif -*)
+
 (*- for chord in metadata['define'] *)
   ((- render(chord) ))
 (* endfor *)

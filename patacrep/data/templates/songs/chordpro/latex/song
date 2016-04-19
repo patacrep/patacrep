@@ -28,7 +28,7 @@
   (* endif *)
   (* endfor *)
   (* if 'url' in metadata *)
-  url={(( metadata.url|escape_specials('%#') ))},
+  url={(( metadata.url|escape_url ))},
   (* endif *)
   (* if 'cover' in metadata *)
     (* block cover *)

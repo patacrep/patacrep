@@ -67,8 +67,8 @@ guitar,
 
 \usepackage{chords}
 
-\title{\& \% \$ \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}  }
-\author{\& \% \$ \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}  }
+\title{\& \% \$ \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}}
+\author{\& \% \$ \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}}
 
 \newindex{titleidx}{special_title}
 \newauthorindex{authidx}{special_auth}
@@ -101,9 +101,8 @@ guitar,
 
 
 \subtitle{\& \% \$ \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}}
-\mail{http://\%25\%20\%26\%24\%5C\%23_\%7E\%5E\%7B\%7D} TODO Do not use encoded chars (%24, and so on). It is eventually a bad idea. Or as least as possible.
-\web{http://\%25\%20\%26\%24\%5C\%23_\%7E\%5E\%7B\%7D} TODO Idem
-
+\mail{foo@\\\%&$#_~^\%20\%7B\%7D}
+\web{http://\\\%&$#_~^\%20\%7B\%7D}
 \picture{img/treble_a}
 \picturecopyright{Dbolton \url{http://commons.wikimedia.org/wiki/User:Dbolton}}
 \footer{Generated using Songbook (\url{http://www.patacrep.com})}

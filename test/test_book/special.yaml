@@ -8,7 +8,7 @@ template:
     author: "& % $ # _ } { ~ ^ \\"
   patacrep.tex:
     subtitle: "& % $ # _ } { ~ ^ \\"
-    url: "http://% &$\\#_~^{}"
-    email: "% &$\\#_~^{}"
+    url: "http://\\%&$#_~^ {}"
+    email: "foo@\\%&$#_~^ {}"
     picture: "img/treble_a"
 

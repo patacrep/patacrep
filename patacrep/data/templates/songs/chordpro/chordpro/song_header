@@ -34,7 +34,7 @@
 (* endfor *)
 
 (*- if 'url' in metadata -*)
-  {url: (( metadata.url ))}
+  {url: (( metadata.url|escape_url ))}
 (* endif -*)
 
 (*- for chord in metadata['define'] *)

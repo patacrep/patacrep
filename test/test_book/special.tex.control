@@ -101,8 +101,8 @@ guitar,
 
 
 \subtitle{\& \% \$ \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}}
-\mail{foo@\\\%&$#_~^\%20\%7B\%7D}
-\web{http://\\\%&$#_~^\%20\%7B\%7D}
+\mail{foo@\\\%\&$\#_~^\%20\%7B\%7D}
+\web{http://\\\%\&$\#_~^\%20\%7B\%7D}
 \picture{img/treble_a}
 \picturecopyright{Dbolton \url{http://commons.wikimedia.org/wiki/User:Dbolton}}
 \footer{Generated using Songbook (\url{http://www.patacrep.com})}

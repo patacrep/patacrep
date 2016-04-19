@@ -56,6 +56,8 @@ TRANSLATION_MAP_URL = {
     '}': '\\' + urllib.parse.quote("}"),
     '%': '\\%',
     '\\': '\\\\',
+    '#': '\\#',
+    '&': '\\&',
     }
 
 def _escape_specials(text, *, chars=None, translation_map=None):

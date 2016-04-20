@@ -138,12 +138,12 @@ description:
     ]{hyperref}
 
 
-\subtitle{(( template_var.subtitle ))}
+\subtitle{(( template_var.subtitle|escape_specials ))}
 (* if template_var.version -*)
     \version{(( template_var.version ))}
 (* endif *)
-\mail{(( template_var.email ))}
-\web{(( template_var.url ))}
+\mail{(( template_var.email|escape_url ))}
+\web{(( template_var.url|escape_url ))}
 \picture{(( template_var.picture ))}
 \picturecopyright{(( template_var.picturecopyright ))}
 \footer{(( template_var.footer ))}

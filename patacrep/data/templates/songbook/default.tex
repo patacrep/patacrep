@@ -66,8 +66,8 @@ description:
 
 \usepackage{chords}
 
-\title{(( template_var.title ))}
-\author{(( template_var.author ))}
+\title{(( template_var.title|escape_specials() ))}
+\author{(( template_var.author|escape_specials() ))}
 
 \newindex{titleidx}{((filename))_title}
 \newauthorindex{authidx}{((filename))_auth}

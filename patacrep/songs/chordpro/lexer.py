@@ -49,7 +49,7 @@ class ChordProLexer:
 
     t_directive_SPACE = r'[ \t]+'
     t_directive_KEYWORD = r'[a-zA-Z_]+'
-    t_directiveargument_TEXT = r'[^}]+'
+    t_directiveargument_TEXT = r'[^\\}]+'
 
     @staticmethod
     def t_SOC(token):
@@ -118,7 +118,7 @@ class ChordProLexer:
 
     @staticmethod
     def t_WORD(token):
-        r'[^{}\r\n\]\[\t ]+'
+        r'[^{}\\\r\n\]\[\t ]+'
         return token
 
     def t_LBRACKET(self, __token):
@@ -148,6 +148,20 @@ class ChordProLexer:
     def t_directive_COLON(self, token):
         r':'
         self.lexer.push_state('directiveargument')
+        return token
+
+    @staticmethod
+    def t_ESCAPED(token):
+        r'\\[{} #\\]'
+        token.value = token.value[1]
+        token.type = "WORD"
+        return token
+
+    @staticmethod
+    def t_directiveargument_ESCAPED(token):
+        r'\\[{} #\\]'
+        token.value = token.value[1]
+        token.type = "TEXT"
         return token
 
     def error(self, token, more=""):

@@ -79,8 +79,8 @@
 % Title page
 \long\def\subtitle#1{\long\def\@subtitle{#1}}
 \def\version#1{\def\@version{#1}}
-\def\web#1{\def\@web{#1}}
-\def\mail#1{\def\@mail{#1}}
+\def\web#1{\def\@web{\url{#1}}}
+\def\mail#1{\def\@mail{\href{mailto:#1}{\nolinkurl{#1}}}}
 \def\email#1{\def\@email{#1}}
 \def\picture#1{\def\@picture{#1}}
 \def\picturecopyright#1{\def\@picturecopyright{#1}}

@@ -29,7 +29,15 @@ GENERATED_EXTENSIONS = [
     "_title.sxd",
     ]
 
+class BookError(errors.SharedError):
+    """Global book error."""
 
+    def __init__(self, message):
+        super().__init__()
+        self.message = message
+
+    def __str__(self):
+        return self.message
 
 # pylint: disable=too-few-public-methods
 class Songbook:
@@ -101,7 +109,11 @@ class Songbook:
             )
         self._config['filename'] = output.name[:-4]
 
+        # Processing special options
         self._config['_bookoptions'] = iter_bookoptions(self._config)
+        self._config['chords']['_notenames'] = self._process_chord_notation(
+            self._config['chords']['notation']
+            )
 
         renderer.render_tex(output, self._config)
 
@@ -110,6 +122,25 @@ class Songbook:
         if self._config['_error'] == "failonbook":
             if self.has_errors():
                 raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
+
+    def _process_chord_notation(self, notation):
+        notation = notation.strip()
+        if notation in ['solfedge', 'alphascale']:
+            return notation
+        names = notation.split(" ")
+        if len(names) == 7:
+            return names
+        error = BookError(
+            "Option `notation` of section `chords` must be `solfedge`, "
+            "`alphascale` or a space separated list of exactly seven note "
+            "names."
+            )
+        self._errors.append(error)
+        LOGGER.warning(str(error))
+        if len(names) < 7:
+            return names + ["?"] * (7-len(names))
+        else:
+            return names[:7]
 
     def has_errors(self):
         """Return `True` iff errors have been encountered in the book.

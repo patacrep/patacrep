@@ -85,10 +85,12 @@ description:
    \authsepword{((word))}
 (* endfor *)
 
-(* if chords.notation=="alphascale" -*)
+(* if chords._notenames == "alphascale" -*)
   \notenamesout{A}{B}{C}{D}{E}{F}{G}
-(* else -*)
+(* elif chords._notenames == "solfedge" -*)
   \notenamesout{La}{Si}{Do}{R\'e}{Mi}{Fa}{Sol}
+(* else -*)
+  \notenamesout{(( chords._notenames[0] ))}{(( chords._notenames[1] ))}{(( chords._notenames[2] ))}{(( chords._notenames[3] ))}{(( chords._notenames[4] ))}{(( chords._notenames[5] ))}{(( chords._notenames[6] ))}
 (* endif *)
 (* endblock *)
 

@@ -113,7 +113,8 @@ class Songbook:
             if self.has_errors():
                 raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
 
-    def _get_chord_names(self, notation):
+    @staticmethod
+    def _get_chord_names(notation):
         """Return a list of chord names, given the user option."""
         if notation == "alphascale":
             return ["A", "B", "C", "D", "E", "F", "G"]

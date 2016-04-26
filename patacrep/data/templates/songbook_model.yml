@@ -152,7 +152,7 @@ description:
       lilypond: "Display lilypond scores"
       tablatures: "Display tablatures"
       instrument: "Instrument for the diagrams"
-      notation: "Chord notation. Can be `solfedge`, `alphascale`, or a space separated list of note names."
+      notation: "Space separated list of chord names, with special values `solfedge` being an alias for `La Si Do Ré Mi Fa Sol`, and `alphascale` for `A B C D E F G`."
 
     authors:
       separators: "Separator words between artists"
@@ -178,7 +178,7 @@ description:
       lilypond: "Inclure les partitions lilypond"
       tablatures: "Inclure les tablatures"
       instrument: "Instrument pour les diagrammes d'accords"
-      notation: "Notation des accords. Peut être `solfedge` (DO RE MI...), `alphascale` (A B C...), ou une liste des noms de notes séparés par des espaces, en commençant par LA."
+      notation: "Liste des noms de notes, séparés par des espaces, en commençant par LA, sachant que `solfedge` est un alias pour `La Si Do Ré Mi Fa Sol`, et `alphascale` pour `A B C D E F G`."
 
     authors:
       separators: "Mots de séparation entre les artistes"

@@ -111,7 +111,7 @@ class Songbook:
 
         # Processing special options
         self._config['_bookoptions'] = iter_bookoptions(self._config)
-        self._config['chords']['_notenames'] = self._process_chord_notation(
+        self._config['chords']['_notenames'] = self._get_chord_names(
             self._config['chords']['notation']
             )
 
@@ -123,13 +123,17 @@ class Songbook:
             if self.has_errors():
                 raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
 
-    def _process_chord_notation(self, notation):
-        notation = notation.strip()
-        if notation in ['solfedge', 'alphascale']:
-            return notation
+    def _get_chord_names(self, notation):
+        """Return a list of chord names, given the user option."""
+        if notation == "alphascale":
+            return ["A", "B", "C", "D", "E", "F", "G"]
+        if notation == "solfedge":
+            return ["La", "Si", "Do", r"R\'e", "Mi", "Fa", "Sol"]
+
         names = notation.split(" ")
         if len(names) == 7:
             return names
+
         error = BookError(
             "Option `notation` of section `chords` must be `solfedge`, "
             "`alphascale` or a space separated list of exactly seven note "

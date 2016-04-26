@@ -29,16 +29,6 @@ GENERATED_EXTENSIONS = [
     "_title.sxd",
     ]
 
-class BookError(errors.SharedError):
-    """Global book error."""
-
-    def __init__(self, message):
-        super().__init__()
-        self.message = message
-
-    def __str__(self):
-        return self.message
-
 # pylint: disable=too-few-public-methods
 class Songbook:
     """Represent a songbook (.yaml) file.
@@ -129,22 +119,7 @@ class Songbook:
             return ["A", "B", "C", "D", "E", "F", "G"]
         if notation == "solfedge":
             return ["La", "Si", "Do", r"R\'e", "Mi", "Fa", "Sol"]
-
-        names = notation.split(" ")
-        if len(names) == 7:
-            return names
-
-        error = BookError(
-            "Option `notation` of section `chords` must be `solfedge`, "
-            "`alphascale` or a space separated list of exactly seven note "
-            "names."
-            )
-        self._errors.append(error)
-        LOGGER.warning(str(error))
-        if len(names) < 7:
-            return names + ["?"] * (7-len(names))
-        else:
-            return names[:7]
+        return notation
 
     def has_errors(self):
         """Return `True` iff errors have been encountered in the book.

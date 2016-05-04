@@ -1,0 +1,18 @@
+{image: dices.png}
+{image: "image with spaces.png"}
+
+{image: dices.png size=20%x}
+{image: "image with spaces.png" size=x20%}
+{image: dices.png size=20%x10%}
+
+{image: dices.png size=2cmx}
+{image: "image with spaces.png" size=x2cm}
+{image: dices.png size=2cmx1cm}
+
+{image: dices.png size=2emx}
+{image: "image with spaces.png" size=x2em}
+{image: dices.png size=2emx1em}
+
+{image: dices.png size=50ptx}
+{image: "image with spaces.png" size=x50pt}
+{image: dices.png size=50ptx100pt}

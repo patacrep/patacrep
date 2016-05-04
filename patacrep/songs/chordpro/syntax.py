@@ -2,6 +2,7 @@
 
 import logging
 import re
+import shlex
 
 import ply.yacc as yacc
 
@@ -171,7 +172,43 @@ class ChordproParser(Parser):
                 symbols[0] = ast.Error()
                 return
             self._directives.append(define)
-
+        elif keyword == "image":
+            splitted = shlex.split(argument)
+            if len(splitted) == 1:
+                symbols[0] = ast.Image(splitted[0])
+            elif len(splitted) == 2:
+                match = re.compile(
+                    r"""
+                    ^
+                    size=
+                    ((?P<widthvalue>\d*\.\d+|\d+)(?P<widthunit>%|cm|em|pt))?
+                    x
+                    ((?P<heightvalue>\d*\.\d+|\d+)(?P<heightunit>%|cm|em|pt))?
+                    $
+                    """,
+                    re.VERBOSE
+                    ).match(splitted[1])
+                if match is None:
+                    self.error(
+                        line=symbols.lexer.lineno,
+                        message="TODO1",
+                        )
+                    symbols[0] = ast.Error()
+                else:
+                    groupdict = match.groupdict()
+                    symbols[0] = ast.Image(
+                        splitted[0],
+                        (
+                            (groupdict['widthvalue'], groupdict['widthunit']),
+                            (groupdict['heightvalue'], groupdict['heightunit']),
+                        ),
+                    )
+            else:
+                self.error(
+                    line=symbols.lexer.lineno,
+                    message="TODO3",
+                    )
+                symbols[0] = ast.Error()
         else:
             directive = ast.Directive(keyword, argument)
             if directive.inline:

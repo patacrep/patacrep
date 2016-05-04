@@ -405,6 +405,26 @@ class Define(Directive):
     def __str__(self):
         return None
 
+class Image(Directive):
+    """An image
+
+    .. attribute:: filename
+        The filename of the image.
+    .. attribute:: size
+        A tuple of ``(width, height)`` of the image. Both can be ``None``.
+    """
+
+    def __init__(self, filename, size=None):
+        self.filename = filename
+        if size is None:
+            self.size = (None, None)
+        else:
+            self.size = size
+        super().__init__("image", None)
+
+    def __str__(self):
+        raise NotImplementedError("TODO4")
+
 class Tab(AST):
     """Tablature"""
 

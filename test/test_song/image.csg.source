@@ -17,6 +17,10 @@
 {image: "image with spaces.png" size=x50pt}
 {image: dices.png size=50ptx100pt}
 
+{image: dices.png size=2.5cmx}
+{image: "image with spaces.png" size=x2.5cm}
+{image: dices.png size=2.5cmx1.5cm}
+
 {image: dices.png size=3cmx10%}
 {image: "image with spaces.png" size=10%x3cm}
 {image: dices.png size=x}

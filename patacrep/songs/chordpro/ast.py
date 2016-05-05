@@ -422,9 +422,6 @@ class Image(Directive):
             self.size = size
         super().__init__("image", None)
 
-    def __str__(self):
-        raise NotImplementedError("TODO4")
-
 class Tab(AST):
     """Tablature"""
 

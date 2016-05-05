@@ -60,6 +60,7 @@ class ChordproSong(Song):
             'search_partition': self.search_partition,
             'escape_specials': self._escape_specials,
             'escape_url': self._escape_url,
+            'render_size': self._render_size,
         })
         return filters
 
@@ -93,6 +94,18 @@ class ChordproSong(Song):
         """Render ``content``."""
         context.vars['content'] = content
         return context.environment.get_template(content.template()).render(context)
+
+    @staticmethod
+    def _render_size(size):
+        if size == (None, None):
+            return ""
+        text = "size="
+        if size[0] != (None, None):
+            text += "".join(size[0])
+        text += "x"
+        if size[1] != (None, None):
+            text += "".join(size[1])
+        return text
 
     def _escape_specials(self, content, chars=None, *, translation_map=None):
         if translation_map is None:

@@ -191,7 +191,7 @@ class ChordproParser(Parser):
                 if match is None:
                     self.error(
                         line=symbols.lexer.lineno,
-                        message="TODO1",
+                        message="Cannot parse image size '{}'.".format(splitted[1]),
                         )
                     symbols[0] = ast.Error()
                 else:
@@ -206,7 +206,7 @@ class ChordproParser(Parser):
             else:
                 self.error(
                     line=symbols.lexer.lineno,
-                    message="TODO3",
+                    message="Too many arguments to 'image' directive.",
                     )
                 symbols[0] = ast.Error()
         else:

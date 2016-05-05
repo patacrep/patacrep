@@ -1,9 +1,9 @@
 {image: dices.png}
 {image: "image with spaces.png"}
 
-{image: dices.png size=20%x}
-{image: "image with spaces.png" size=x20%}
-{image: dices.png size=20%x10%}
+{image: dices.png size=20%x     }
+{image: "image with spaces.png"    size=x20%}
+{image:        dices.png size=20%x10%}
 
 {image: dices.png size=2cmx}
 {image: "image with spaces.png" size=x2cm}
@@ -16,3 +16,11 @@
 {image: dices.png size=50ptx}
 {image: "image with spaces.png" size=x50pt}
 {image: dices.png size=50ptx100pt}
+
+{image: dices.png size=3cmx10%}
+{image: "image with spaces.png" size=10%x3cm}
+{image: dices.png size=x}
+
+{image: dices.png error=foo}
+{image: "image with spaces.png" dices.png}
+{image: dices.png size=2exx3km}

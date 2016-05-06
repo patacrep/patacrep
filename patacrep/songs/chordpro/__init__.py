@@ -97,15 +97,7 @@ class ChordproSong(Song):
 
     @staticmethod
     def _render_size(size):
-        if size == (None, None):
-            return ""
-        text = "size="
-        if size[0] != (None, None):
-            text += "".join(size[0])
-        text += "x"
-        if size[1] != (None, None):
-            text += "".join(size[1])
-        return text
+        raise NotImplementedError()
 
     def _escape_specials(self, content, chars=None, *, translation_map=None):
         if translation_map is None:
@@ -216,6 +208,10 @@ class Chordpro2LatexSong(ChordproSong):
             self.errors.append(new_error)
             return error.babel
 
+    @staticmethod
+    def _render_size(size):
+        return "TODO"
+
 class Chordpro2ChordproSong(ChordproSong):
     """Render chordpro song to chordpro code"""
 
@@ -235,6 +231,22 @@ class Chordpro2ChordproSong(ChordproSong):
     def search_file(self, filename, extensions=None, *, datadirs=None):
         # pylint: disable=unused-variable
         return filename
+
+    @staticmethod
+    def _render_size(size):
+        if size is None:
+            return ""
+        if size[0] == "size":
+            text = "size="
+            if size[1] != (None, None):
+                text += "".join(size[1])
+            text += "x"
+            if size[2] != (None, None):
+                text += "".join(size[2])
+            return text
+        if size[0] == "scale":
+            return "scale=" + size[1]
+
 
 SONG_RENDERERS = {
     "tsg": {

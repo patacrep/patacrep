@@ -125,6 +125,57 @@ class ChordproParser(Parser):
             fingers=fingers,
             )
 
+    def _parse_image_size(self, argument, *, lineno):
+        if argument is None:
+            return None
+        if argument.startswith("size="):
+            match = re.compile(
+                r"""
+                ^
+                    size=
+                    ((?P<widthvalue>\d*\.\d+|\d+)(?P<widthunit>%|cm|em|pt))?
+                    x
+                    ((?P<heightvalue>\d*\.\d+|\d+)(?P<heightunit>%|cm|em|pt))?
+                $
+                """,
+                re.VERBOSE
+                ).match(argument)
+            if match is None:
+                self.error(
+                    line=lineno,
+                    message="Cannot parse image size '{}'.".format(argument),
+                    )
+                return None
+            groupdict = match.groupdict()
+            return (
+                'size',
+                (groupdict['widthvalue'], groupdict['widthunit']),
+                (groupdict['heightvalue'], groupdict['heightunit']),
+                )
+        elif argument.startswith("scale="):
+            match = re.compile(
+                r"""
+                ^
+                    scale=
+                    (?P<scale>\d*\.\d+|\d+)
+                $
+                """,
+                re.VERBOSE
+                ).match(argument)
+            if match is None:
+                self.error(
+                    line=lineno,
+                    message="Cannot parse image size '{}'.".format(argument),
+                    )
+                return None
+            return ('scale', match.groupdict()['scale'])
+        self.error(
+            line=lineno,
+            message="Cannot parse image size '{}'.".format(argument),
+            )
+        return None
+
+
     def p_directive(self, symbols):
         """directive : LBRACE KEYWORD directive_next RBRACE
                      | LBRACE SPACE KEYWORD directive_next RBRACE
@@ -174,41 +225,24 @@ class ChordproParser(Parser):
             self._directives.append(define)
         elif keyword == "image":
             splitted = shlex.split(argument)
-            if len(splitted) == 1:
-                symbols[0] = ast.Image(splitted[0])
-            elif len(splitted) == 2:
-                match = re.compile(
-                    r"""
-                    ^
-                    size=
-                    ((?P<widthvalue>\d*\.\d+|\d+)(?P<widthunit>%|cm|em|pt))?
-                    x
-                    ((?P<heightvalue>\d*\.\d+|\d+)(?P<heightunit>%|cm|em|pt))?
-                    $
-                    """,
-                    re.VERBOSE
-                    ).match(splitted[1])
-                if match is None:
-                    self.error(
-                        line=symbols.lexer.lineno,
-                        message="Cannot parse image size '{}'.".format(splitted[1]),
-                        )
-                    symbols[0] = ast.Error()
-                else:
-                    groupdict = match.groupdict()
-                    symbols[0] = ast.Image(
-                        splitted[0],
-                        (
-                            (groupdict['widthvalue'], groupdict['widthunit']),
-                            (groupdict['heightvalue'], groupdict['heightunit']),
-                        ),
-                    )
-            else:
+            if len(splitted) < 1:
                 self.error(
                     line=symbols.lexer.lineno,
-                    message="Too many arguments to 'image' directive.",
+                    message="Missing filename for image directive",
                     )
                 symbols[0] = ast.Error()
+            else:
+                if len(splitted) > 2:
+                    self.error(
+                        line=symbols.lexer.lineno,
+                        message="Ignoring extra arguments for image directive: " + " ".join(['"{}"'.format(arg) for arg in splitted[2:]]),
+                        )
+                if len(splitted) == 1:
+                    splitted.append(None)
+                symbols[0] = ast.Image(
+                    splitted[0],
+                    self._parse_image_size(splitted[1], lineno=symbols.lexer.lineno),
+                    )
         else:
             directive = ast.Directive(keyword, argument)
             if directive.inline:

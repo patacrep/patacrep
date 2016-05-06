@@ -416,10 +416,7 @@ class Image(Directive):
 
     def __init__(self, filename, size=None):
         self.filename = filename
-        if size is None:
-            self.size = (None, None)
-        else:
-            self.size = size
+        self.size = size
         super().__init__("image", None)
 
 class Tab(AST):

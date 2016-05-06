@@ -1,34 +1,40 @@
-{image: image.png }
+{lang: en}
+
+{image: "image.png" }
 {image: "image with spaces.png" }
 
 
-{image: image.png size=20%x}
-{image: "image with spaces.png" size=x20%}
-{image: image.png size=20%x10%}
+{image: "image.png" scale=.2}
+{image: "image with spaces.png" scale=.20}
+{image: "image.png" scale=1.2}
 
 
-{image: image.png size=2cmx}
+{image: "image.png" size=2cmx}
 {image: "image with spaces.png" size=x2cm}
-{image: image.png size=2cmx1cm}
+{image: "image.png" size=2cmx1cm}
 
 
-{image: image.png size=2emx}
+{image: "image.png" size=2emx}
 {image: "image with spaces.png" size=x2em}
-{image: image.png size=2emx1em}
+{image: "image.png" size=2emx1em}
 
 
-{image: image.png size=50ptx}
+{image: "image.png" size=50ptx}
 {image: "image with spaces.png" size=x50pt}
-{image: image.png size=50ptx100pt}
+{image: "image.png" size=50ptx100pt}
 
 
-{image: image.png size=2.5cmx}
+{image: "image.png" size=2.5cmx}
 {image: "image with spaces.png" size=x2.5cm}
-{image: image.png size=2.5cmx1.5cm}
+{image: "image.png" size=2.5cmx1.5cm}
 
 
-{image: image.png size=3cmx10%}
-{image: "image with spaces.png" size=10%x3cm}
-{image: image.png size=x}
+{image: "image.png" size=3cmx10pt}
+{image: "image with spaces.png" size=10ptx3cm}
+{image: "image.png" size=x}
 
+
+{image: "image.png" }
+{image: "image with spaces.png" }
+{image: "image with spaces.png" }
 

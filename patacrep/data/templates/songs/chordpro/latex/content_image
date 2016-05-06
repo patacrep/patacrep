@@ -1,6 +1,6 @@
 (* block image *)
 (* set image = content.filename|search_image|path2posix *)
 (* if image *)
-\image{(( image ))}
+\image[(( content.size|render_size ))]{(( image ))}
 (*- endif *)
 (*- endblock *)

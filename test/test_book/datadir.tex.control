@@ -111,7 +111,7 @@ Chordpro}[
 
 
 \lilypond{scores/datadir.ly}
-\image{img/datadir.png}
+\image[]{img/datadir.png}
 
 
 \endsong
@@ -138,7 +138,7 @@ Chordpro}[
 
 
 \lilypond{scores/datadir2.ly}
-\image{img/datadir2.png}
+\image[]{img/datadir2.png}
 
 
 \endsong
@@ -165,7 +165,7 @@ Chordpro}[
 
 
 \lilypond{@TEST_FOLDER@/datadir_datadir/songs/./relative.ly}
-\image{@TEST_FOLDER@/datadir_datadir/songs/./relative.png}
+\image[]{@TEST_FOLDER@/datadir_datadir/songs/./relative.png}
 
 
 \endsong
@@ -192,7 +192,7 @@ Chordpro}[
 
 
 \lilypond{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.ly}
-\image{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png}
+\image[]{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png}
 
 
 \endsong

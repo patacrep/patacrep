@@ -16,7 +16,7 @@
 {comment: Comment}
 {guitar_comment: GuitarComment}
 {partition: metadata_lilypond}
-{image: metadata_image}
+{image: "metadata_image" }
 
 
 Foo

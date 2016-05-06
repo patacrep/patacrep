@@ -180,6 +180,7 @@ class ChordproParser(Parser):
         """directive : LBRACE KEYWORD directive_next RBRACE
                      | LBRACE SPACE KEYWORD directive_next RBRACE
         """
+        # pylint: disable=too-many-branches
         if len(symbols) == 5:
             keyword = symbols[2]
             argument = symbols[3]
@@ -235,7 +236,10 @@ class ChordproParser(Parser):
                 if len(splitted) > 2:
                     self.error(
                         line=symbols.lexer.lineno,
-                        message="Ignoring extra arguments for image directive: " + " ".join(['"{}"'.format(arg) for arg in splitted[2:]]),
+                        message=(
+                            "Ignoring extra arguments for image directive: " +
+                            " ".join(['"{}"'.format(arg) for arg in splitted[2:]])
+                            ),
                         )
                 if len(splitted) == 1:
                     splitted.append(None)

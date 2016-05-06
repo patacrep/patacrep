@@ -129,6 +129,10 @@ class Chordpro2HtmlSong(ChordproSong):
                 )
             return None
 
+    @staticmethod
+    def _render_size(size):
+        return "TODO"
+
 class Chordpro2LatexSong(ChordproSong):
     """Render chordpro song to latex code"""
 

@@ -60,7 +60,6 @@ class ChordproSong(Song):
             'search_partition': self.search_partition,
             'escape_specials': self._escape_specials,
             'escape_url': self._escape_url,
-            'render_size': self._render_size,
         })
         return filters
 
@@ -95,10 +94,6 @@ class ChordproSong(Song):
         context.vars['content'] = content
         return context.environment.get_template(content.template()).render(context)
 
-    @staticmethod
-    def _render_size(size):
-        raise NotImplementedError()
-
     def _escape_specials(self, content, chars=None, *, translation_map=None):
         if translation_map is None:
             translation_map = self._translation_map
@@ -128,10 +123,6 @@ class Chordpro2HtmlSong(ChordproSong):
                 self.subpath, self.datadir, filename,
                 )
             return None
-
-    @staticmethod
-    def _render_size(size):
-        return "TODO"
 
 class Chordpro2LatexSong(ChordproSong):
     """Render chordpro song to latex code"""
@@ -191,6 +182,7 @@ class Chordpro2LatexSong(ChordproSong):
         parent = super()._filters()
         parent.update({
             'lang2babel': self.lang2babel,
+            'render_size': self._render_size,
             })
         return parent
 
@@ -241,6 +233,13 @@ class Chordpro2ChordproSong(ChordproSong):
         '}': r'\}',
         '\\': '\\\\',
     }
+
+    def _filters(self):
+        parent = super()._filters()
+        parent.update({
+            'render_size': self._render_size,
+            })
+        return parent
 
     def search_file(self, filename, extensions=None, *, datadirs=None):
         # pylint: disable=unused-variable

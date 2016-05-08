@@ -1,0 +1,26 @@
+\selectlanguage{german}
+
+\beginsong{Der kleine Troll}[
+  by={
+  },
+]
+
+
+\metacrep{liederbock}{ 292}
+
+
+
+\begin{verse}
+    Let's sing and test a
+\end{verse}
+
+
+\metacrep{undefined}{ whatever}
+
+
+
+\begin{verse}
+    directive between verses
+\end{verse}
+
+\endsong

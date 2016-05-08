@@ -210,10 +210,11 @@ class Chordpro2LatexSong(ChordproSong):
             return ""
         if size[0] == "size":
             sizelist = []
-            if size[1] != (None, None):
-                sizelist.append("width=" + "".join(size[1]))
-            if size[2] != (None, None):
-                sizelist.append("height=" + "".join(size[2]))
+            width, height = size[1:3]
+            if all(width):
+                sizelist.append("width=" + "".join(width))
+            if all(height):
+                sizelist.append("height=" + "".join(height))
             return ", ".join(sizelist)
         if size[0] == "scale":
             return "scale=" + size[1]
@@ -251,11 +252,12 @@ class Chordpro2ChordproSong(ChordproSong):
             return ""
         if size[0] == "size":
             text = "size="
-            if size[1] != (None, None):
-                text += "".join(size[1])
+            width, height = size[1:3]
+            if all(width):
+                text += "".join(width)
             text += "x"
-            if size[2] != (None, None):
-                text += "".join(size[2])
+            if all(height):
+                text += "".join(height)
             return text
         if size[0] == "scale":
             return "scale=" + size[1]

@@ -34,7 +34,6 @@ guitar,
 \usepackage{lmodern}
 
 
-\PassOptionsToPackage{french}{babel}
 \PassOptionsToPackage{english}{babel}
 \PassOptionsToPackage{spanish}{babel}
 \PassOptionsToPackage{french}{babel}

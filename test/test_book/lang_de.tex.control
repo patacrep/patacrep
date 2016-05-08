@@ -42,7 +42,6 @@ guitar,
 \usepackage{lmodern}
 
 
-\PassOptionsToPackage{french}{babel}
 \usepackage[ngerman]{babel}
 \lang{ngerman}
 

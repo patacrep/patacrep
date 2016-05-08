@@ -357,7 +357,7 @@ class Directive(AST):
         super().__init__()
         self.keyword = directive_name(keyword.strip())
         if keyword == 'meta':
-            argument = argument.split(':')
+            argument = argument.partition(':')
         self.argument = argument
 
     @property

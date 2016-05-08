@@ -1,1 +1,1 @@
-{meta: (( content.argument[0] )):(( content.argument[1] ))}
+{meta: (( content.argument[0] )):(( content.argument[2] ))}

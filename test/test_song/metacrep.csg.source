@@ -4,6 +4,8 @@
 
 Let's sing and test a
 
-{meta: undefined}
+{meta: emptyarg}
 
 directive between verses
+
+{meta: and: with: more: arguments}

@@ -15,12 +15,16 @@
 \end{verse}
 
 
-\metacrep{undefined}{}
+\metacrep{emptyarg}{}
 
 
 
 \begin{verse}
     directive between verses
 \end{verse}
+
+
+\metacrep{and}{ with: more: arguments}
+
 
 \endsong

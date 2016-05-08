@@ -42,6 +42,7 @@ guitar,
 \usepackage{lmodern}
 
 
+\PassOptionsToPackage{french}{babel}
 \usepackage[french]{babel}
 \lang{french}
 

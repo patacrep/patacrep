@@ -105,7 +105,7 @@ guitar,
 
 
 
-\image[scale=.2]{img/image.png}
+\image[scale=2]{img/image.png}
 \image[scale=.20]{img/image with spaces.png}
 \image[scale=1.2]{img/image.png}
 
@@ -137,14 +137,17 @@ guitar,
 
 \image[width=3cm, height=10pt]{img/image.png}
 \image[width=10pt, height=3cm]{img/image with spaces.png}
+
+
+
 \image[]{img/image.png}
-
-
-
 \image[]{img/image.png}
 \image[]{img/image with spaces.png}
 \image[]{img/image with spaces.png}
 \image[]{img/image.png}
+\image[width=2cm]{img/image.png}
+\image[width=2cm]{img/image.png}
+\image[width=2cm]{img/image.png}
 
 
 \endsong

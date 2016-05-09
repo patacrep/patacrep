@@ -125,56 +125,54 @@ class ChordproParser(Parser):
             fingers=fingers,
             )
 
-    def _parse_image_size(self, argument, *, lineno):
-        if argument is None:
-            return None
-        if argument.startswith("size="):
-            match = re.compile(
-                r"""
-                ^
-                    size=
-                    ((?P<widthvalue>\d*\.\d+|\d+)(?P<widthunit>%|cm|em|pt))?
-                    x
-                    ((?P<heightvalue>\d*\.\d+|\d+)(?P<heightunit>%|cm|em|pt))?
-                $
-                """,
-                re.VERBOSE
-                ).match(argument)
-            if match is None:
-                self.error(
-                    line=lineno,
-                    message="Cannot parse image size '{}'.".format(argument),
-                    )
-                return None
-            groupdict = match.groupdict()
-            return (
-                'size',
-                (groupdict['widthvalue'], groupdict['widthunit']),
-                (groupdict['heightvalue'], groupdict['heightunit']),
+    def _iter_raw_image_size_arguments(self, arguments, *, lineno):
+        for item in arguments:
+            prefix, _, suffix = item.partition("=")
+            if prefix in ['width', 'height']:
+                match = re.compile(
+                    r"^(?P<value>(\d*\.\d+|\d+))(?P<unit>cm|em|pt)$",
+                    re.VERBOSE,
+                    ).match(suffix)
+                if match is not None:
+                    yield (prefix, match.groupdict()['value'], match.groupdict()['unit'])
+                    continue
+            elif prefix in ['scale']:
+                match = re.compile(
+                    r"^(?P<value>(\d*\.\d+|\d+))$",
+                    re.VERBOSE,
+                    ).match(suffix)
+                if match is not None:
+                    yield (prefix, match.groupdict()['value'], "")
+                    continue
+            self.error(
+                line=lineno,
+                message="Image: Ignoring unparsable argument '{}'.".format(item),
                 )
-        elif argument.startswith("scale="):
-            match = re.compile(
-                r"""
-                ^
-                    scale=
-                    (?P<scale>\d*\.\d+|\d+)
-                $
-                """,
-                re.VERBOSE
-                ).match(argument)
-            if match is None:
+
+    def _iter_image_size_arguments(self, argument, *, lineno):
+        arguments = set()
+        for name, value, unit in self._iter_raw_image_size_arguments(argument, lineno=lineno):
+            if name in arguments:
                 self.error(
                     line=lineno,
-                    message="Cannot parse image size '{}'.".format(argument),
+                    message="Image: Ignoring extra {} argument.".format(name),
                     )
-                return None
-            return ('scale', match.groupdict()['scale'])
-        self.error(
-            line=lineno,
-            message="Cannot parse image size '{}'.".format(argument),
-            )
-        return None
-
+                continue
+            if (
+                    name == "scale" and ("width" in arguments or "height" in arguments)
+                ) or (
+                    name in ["width", "height"] and "scale" in arguments
+                ):
+                self.error(
+                    line=lineno,
+                    message=(
+                        "Image: Ignoring '{}' argument: Cannot mix scale and "
+                        "width or height argument."
+                        ).format(name),
+                    )
+                continue
+            arguments.add(name)
+            yield name, value, unit
 
     def p_directive(self, symbols):
         """directive : LBRACE KEYWORD directive_next RBRACE
@@ -233,19 +231,11 @@ class ChordproParser(Parser):
                     )
                 symbols[0] = ast.Error()
             else:
-                if len(splitted) > 2:
-                    self.error(
-                        line=symbols.lexer.lineno,
-                        message=(
-                            "Ignoring extra arguments for image directive: " +
-                            " ".join(['"{}"'.format(arg) for arg in splitted[2:]])
-                            ),
-                        )
-                if len(splitted) == 1:
-                    splitted.append(None)
                 symbols[0] = ast.Image(
                     splitted[0],
-                    self._parse_image_size(splitted[1], lineno=symbols.lexer.lineno),
+                    list(
+                        self._iter_image_size_arguments(splitted[1:], lineno=symbols.lexer.lineno)
+                        ),
                     )
         else:
             directive = ast.Directive(keyword, argument)

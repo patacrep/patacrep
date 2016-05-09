@@ -206,18 +206,10 @@ class Chordpro2LatexSong(ChordproSong):
 
     @staticmethod
     def _render_size(size):
-        if size is None:
-            return ""
-        if size[0] == "size":
-            sizelist = []
-            width, height = size[1:3]
-            if all(width):
-                sizelist.append("width=" + "".join(width))
-            if all(height):
-                sizelist.append("height=" + "".join(height))
-            return ", ".join(sizelist)
-        if size[0] == "scale":
-            return "scale=" + size[1]
+        items = []
+        for name, value, unit in size:
+            items.append(name + "=" + value + unit)
+        return ", ".join(items)
 
 class Chordpro2ChordproSong(ChordproSong):
     """Render chordpro song to chordpro code"""
@@ -248,19 +240,10 @@ class Chordpro2ChordproSong(ChordproSong):
 
     @staticmethod
     def _render_size(size):
-        if size is None:
-            return ""
-        if size[0] == "size":
-            text = "size="
-            width, height = size[1:3]
-            if all(width):
-                text += "".join(width)
-            text += "x"
-            if all(height):
-                text += "".join(height)
-            return text
-        if size[0] == "scale":
-            return "scale=" + size[1]
+        items = []
+        for name, value, unit in size:
+            items.append(name + "=" + value + unit)
+        return " ".join(items)
 
 
 SONG_RENDERERS = {

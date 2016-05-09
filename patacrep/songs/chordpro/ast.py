@@ -411,11 +411,13 @@ class Image(Directive):
     .. attribute:: filename
         The filename of the image.
     .. attribute:: size
-        A tuple of ``(width, height)`` of the image. Both can be ``None``.
+        An iterable of tuples ``(type, float, unit)``.
     """
 
     def __init__(self, filename, size=None):
         self.filename = filename
+        if size is None:
+            size = []
         self.size = size
         super().__init__("image", None)
 

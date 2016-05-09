@@ -157,7 +157,7 @@ class ChordproParser(Parser):
 
     def _iter_image_size_arguments(self, argument, *, lineno):
         arguments = set()
-        length_names = set(["width", "height"])
+        length_names = frozenset(["width", "height"])
         for name, value, unit in self._iter_raw_image_size_arguments(argument, lineno=lineno):
             if name in arguments:
                 self.error(
@@ -166,7 +166,7 @@ class ChordproParser(Parser):
                     )
                 continue
             if (
-                    name == "scale" and arguments.intersection(length_names)
+                    name == "scale" and not length_names.isdisjoint(arguments)
                 ) or (
                     name in length_names and "scale" in arguments
                 ):

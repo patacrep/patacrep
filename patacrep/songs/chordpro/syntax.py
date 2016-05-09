@@ -157,6 +157,7 @@ class ChordproParser(Parser):
 
     def _iter_image_size_arguments(self, argument, *, lineno):
         arguments = set()
+        length_names = set(["width", "height"])
         for name, value, unit in self._iter_raw_image_size_arguments(argument, lineno=lineno):
             if name in arguments:
                 self.error(
@@ -165,9 +166,9 @@ class ChordproParser(Parser):
                     )
                 continue
             if (
-                    name == "scale" and ("width" in arguments or "height" in arguments)
+                    name == "scale" and arguments.intersection(length_names)
                 ) or (
-                    name in ["width", "height"] and "scale" in arguments
+                    name in length_names and "scale" in arguments
                 ):
                 self.error(
                     line=lineno,

@@ -144,10 +144,16 @@ class ChordproParser(Parser):
                 if match is not None:
                     yield (prefix, match.groupdict()['value'], "")
                     continue
+            else:
+                self.error(
+                    line=lineno,
+                    message="Image: Unknown argument name '{}'.".format(prefix),
+                )
+                continue
             self.error(
                 line=lineno,
-                message="Image: Ignoring unparsable argument '{}'.".format(item),
-                )
+                message="Image: Unsupported {} value: '{}'.".format(prefix, suffix),
+            )
 
     def _iter_image_size_arguments(self, argument, *, lineno):
         arguments = set()
@@ -155,7 +161,7 @@ class ChordproParser(Parser):
             if name in arguments:
                 self.error(
                     line=lineno,
-                    message="Image: Ignoring extra {} argument.".format(name),
+                    message="Image: Ignoring repeated argument: {}.".format(name),
                     )
                 continue
             if (

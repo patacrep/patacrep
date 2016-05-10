@@ -1,0 +1,131 @@
+
+
+
+
+
+
+%% Automatically generated document.
+%% You may edit this file but all changes will be overwritten.
+%% If you want to change this document, have a look at
+%% the templating system.
+%%
+%% Generated using Songbook <http://www.patacrep.com>
+
+\makeatletter
+\def\input@path{ %
+        {@TEST_FOLDER@/templates/styles/} %
+        {@DATA_FOLDER@/templates/styles/} %
+}
+\makeatother
+
+\documentclass[
+    ]{article}
+
+\usepackage[
+chorded,
+pictures,
+repeatchords,
+importantdiagramonly,
+diagrampage,
+guitar,
+    ]{crepbook}
+
+\usepackage[
+     a4paper % paper size
+     ,includeheadfoot % include header and footer into text size
+     ,hmarginratio=1:1 % ratio between inner and outer margin (default)
+     ,outer=1.8cm % outer margin (right)
+     ,vmarginratio=1:1 % ratio between top and bottom margin
+     ,bmargin=1.3cm % bottom margin
+     ]{geometry}
+
+\usepackage{lmodern}
+
+
+\usepackage[ngerman]{babel}
+\lang{ngerman}
+
+\usepackage{graphicx}
+\graphicspath{ %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
+}
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{
+   \usepackage{url}
+   \newcommand{\phantomsection}{}
+   \newcommand{\hyperlink}[2]{#2}
+   \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+}
+\makeatother
+
+
+\usepackage{chords}
+
+\title{Guitar songbook}
+\author{The Patacrep Team}
+
+\newindex{titleidx}{lang_de_title}
+\newauthorindex{authidx}{lang_de_auth}
+
+\authignoreword{unknown}
+\authbyword{by}
+\authsepword{and}
+
+\notenamesout{A}{B}{C}{D}{E}{F}{G}
+
+
+\pagestyle{empty}\definecolor{SongNumberBgColor}{HTML}{D1E4AE}
+\definecolor{NoteBgColor}{HTML}{D1E4AE}
+\definecolor{IndexBgColor}{HTML}{D1E4AE}
+
+\renewcommand{\snumbgcolor}{SongNumberBgColor}
+\renewcommand{\notebgcolor}{NoteBgColor}
+\renewcommand{\idxbgcolor}{IndexBgColor}
+
+\definecolor{tango-green-3}{HTML}{4e9a06}
+\definecolor{tango-blue-3}{HTML}{204a87}
+\usepackage[
+    bookmarks,
+    bookmarksopen,
+    hyperfigures=true,
+    colorlinks=true,
+    linkcolor=tango-green-3,
+    urlcolor=tango-blue-3
+    ]{hyperref}
+
+
+\subtitle{}
+\mail{crep@team-on-fire.com}
+\web{http://www.patacrep.com}
+\picture{img/treble_a}
+\picturecopyright{Dbolton \url{http://commons.wikimedia.org/wiki/User:Dbolton}}
+\footer{Generated using Songbook (\url{http://www.patacrep.com})}
+
+
+\begin{document}
+
+\maketitle
+
+
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
+
+% list of chords
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
+\fi
+\setcounter{songnum}{1}%
+
+\phantomsection
+\addcontentsline{toc}{section}{\songlistname}
+
+
+
+
+
+\end{document}

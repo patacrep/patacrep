@@ -2,6 +2,7 @@
 
 import logging
 import re
+import urllib
 
 import yaml
 
@@ -15,15 +16,6 @@ from patacrep.latex import lang2babel, UnknownLanguage
 import patacrep.encoding
 
 LOGGER = logging.getLogger(__name__)
-
-_LATEX_SUBS = (
-    (re.compile(r'\\'), r'\\textbackslash'),
-    (re.compile(r'([{}_#%&$])'), r'\\\1'),
-    (re.compile(r'~'), r'\~{}'),
-    (re.compile(r'\^'), r'\^{}'),
-    (re.compile(r'"'), r"''"),
-    (re.compile(r'\.\.\.+'), r'\\ldots'),
-)
 
 _VARIABLE_REGEXP = re.compile(
     r"""
@@ -46,15 +38,47 @@ _VARIABLE_REGEXP = re.compile(
     """,
     re.VERBOSE|re.DOTALL)
 
-def _escape_tex(value):
+TRANSLATION_MAP = {
+    '{': r'\{',
+    '}': r'\}',
+    '\\': r'\textbackslash{}',
+    '^': r'\textasciicircum{}',
+    '~': r'\textasciitilde{}',
+    '#': r'\#',
+    '&': r'\&',
+    '$': r'\$',
+    '%': r'\%',
+    '_': r'\_',
+}
+TRANSLATION_MAP_URL = {
+    ' ': '\\' + urllib.parse.quote(" "),
+    '{': '\\' + urllib.parse.quote("{"),
+    '}': '\\' + urllib.parse.quote("}"),
+    '%': '\\%',
+    '\\': '\\\\',
+    '#': '\\#',
+    '&': '\\&',
+    }
+
+def _escape_specials(text, *, chars=None, translation_map=None):
     '''Escape TeX special characters'''
-    newval = value
-    for pattern, replacement in _LATEX_SUBS:
-        newval = pattern.sub(replacement, newval)
-    return newval
+    if translation_map is None:
+        translation_map = TRANSLATION_MAP
+    if chars is None:
+        chars = translation_map.keys()
+    return str(text).translate(str.maketrans({
+        key: value
+        for key, value in translation_map.items()
+        if key in chars
+        }))
+
+def _escape_url(text):
+    """Escape TeX special characters, in url."""
+    return _escape_specials(text, translation_map=TRANSLATION_MAP_URL)
 
 DEFAULT_FILTERS = {
-    "escape_tex": _escape_tex,
+    "escape_specials": _escape_specials,
+    "escape_url": _escape_url,
     "iter_datadirs": files.iter_datadirs,
     "path2posix": files.path2posix,
     }
@@ -295,5 +319,10 @@ def iter_bookoptions(config):
             yield 'importantdiagramonly'
         elif config['chords']['diagramreminder'] == "all":
             yield 'diagram'
+
+        if config['chords']['diagrampage'] == "important":
+            yield 'diagrampagereduced'
+        elif config['chords']['diagrampage'] == "all":
+            yield 'diagrampage'
 
         yield config['chords']['instrument']

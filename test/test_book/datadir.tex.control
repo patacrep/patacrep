@@ -1,0 +1,210 @@
+
+
+
+
+
+
+%% Automatically generated document.
+%% You may edit this file but all changes will be overwritten.
+%% If you want to change this document, have a look at
+%% the templating system.
+%%
+%% Generated using Songbook <http://www.patacrep.com>
+
+\makeatletter
+\def\input@path{ %
+        {@TEST_FOLDER@/datadir_datadir/templates/styles/} %
+        {@TEST_FOLDER@/datadir_datadir2/templates/styles/} %
+        {@TEST_FOLDER@/templates/styles/} %
+        {@DATA_FOLDER@/templates/styles/} %
+}
+\makeatother
+
+\documentclass[
+    ]{article}
+
+\usepackage[
+chorded,
+pictures,
+repeatchords,
+importantdiagramonly,
+diagrampage,
+guitar,
+    ]{patacrep}
+
+\usepackage{lmodern}
+
+
+\PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{english}{babel}
+\usepackage[english]{babel}
+\lang{english}
+
+\usepackage{graphicx}
+\graphicspath{ %
+        {@TEST_FOLDER@/datadir_datadir/} %
+        {@TEST_FOLDER@/datadir_datadir2/} %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
+}
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{
+   \usepackage{url}
+   \newcommand{\phantomsection}{}
+   \newcommand{\hyperlink}[2]{#2}
+   \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+}
+\makeatother
+
+
+\usepackage{chords}
+
+\title{Guitar songbook}
+\author{The Patacrep Team}
+
+\newindex{titleidx}{datadir_title}
+\newauthorindex{authidx}{datadir_auth}
+
+\authignoreword{unknown}
+\authbyword{by}
+\authsepword{and}
+
+\notenamesout{A}{B}{C}{D}{E}{F}{G}
+
+
+\begin{document}
+
+\maketitle
+
+
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
+
+% list of chords
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
+\fi
+\setcounter{songnum}{1}%
+
+\phantomsection
+\addcontentsline{toc}{section}{\songlistname}
+
+\begin{songs}{titleidx,authidx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir.csg
+
+\selectlanguage{english}
+
+\beginsong{Image included from datadir\\
+Chordpro}[
+  by={
+  },
+    cover={img/datadir.png},
+]
+
+\cover
+
+
+
+\lilypond{scores/datadir.ly}
+\image[]{img/datadir.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir.tsg
+
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir.tsg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir2.csg
+
+\selectlanguage{english}
+
+\beginsong{Image included from a different datadir\\
+Chordpro}[
+  by={
+  },
+    cover={img/datadir2.png},
+]
+
+\cover
+
+
+
+\lilypond{scores/datadir2.ly}
+\image[]{img/datadir2.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./datadir2.sg
+
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{datadir2.sg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./relative.csg
+
+\selectlanguage{english}
+
+\beginsong{Image included from song directory\\
+Chordpro}[
+  by={
+  },
+    cover={@TEST_FOLDER@/datadir_datadir/songs/./relative.png},
+]
+
+\cover
+
+
+
+\lilypond{@TEST_FOLDER@/datadir_datadir/songs/./relative.ly}
+\image[]{@TEST_FOLDER@/datadir_datadir/songs/./relative.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./relative.tsg
+
+\import{@TEST_FOLDER@/datadir_datadir/songs/}{relative.tsg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./subdir/subdir.csg
+
+\selectlanguage{english}
+
+\beginsong{Image included from a nested song directory\\
+Chordpro}[
+  by={
+  },
+    cover={@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png},
+]
+
+\cover
+
+
+
+\lilypond{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.ly}
+\image[]{@TEST_FOLDER@/datadir_datadir/songs/./subdir/subdir.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./subdir/subdir.tsg
+
+\import{@TEST_FOLDER@/datadir_datadir/songs/subdir/}{subdir.tsg}
+
+\end{songs}
+
+
+
+
+\end{document}

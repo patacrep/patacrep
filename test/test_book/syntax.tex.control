@@ -1,0 +1,181 @@
+
+
+
+
+%% Automatically generated document.
+%% You may edit this file but all changes will be overwritten.
+%% If you want to change this document, have a look at
+%% the templating system.
+%%
+%% Generated using Songbook <http://www.patacrep.com>
+
+\makeatletter
+\def\input@path{ %
+        {@TEST_FOLDER@/syntax_datadir/templates/styles/} %
+        {@TEST_FOLDER@/templates/styles/} %
+        {@DATA_FOLDER@/templates/styles/} %
+}
+\makeatother
+
+\documentclass[
+    ]{article}
+
+\usepackage[
+chorded,
+pictures,
+repeatchords,
+importantdiagramonly,
+diagrampage,
+guitar,
+    ]{patacrep}
+
+\usepackage{lmodern}
+
+
+\PassOptionsToPackage{english}{babel}
+\usepackage[english]{babel}
+\lang{english}
+
+\usepackage{graphicx}
+\graphicspath{ %
+        {@TEST_FOLDER@/syntax_datadir/} %
+        {@TEST_FOLDER@/} %
+        {@DATA_FOLDER@/} %
+}
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{
+   \usepackage{url}
+   \newcommand{\phantomsection}{}
+   \newcommand{\hyperlink}[2]{#2}
+   \newcommand{\href}[2]{\expandafter\url\expandafter{#1}}
+}
+\makeatother
+
+
+\usepackage{chords}
+
+\title{Guitar songbook}
+\author{The Patacrep Team}
+
+\newindex{titleidx}{syntax_title}
+\newauthorindex{authidx}{syntax_auth}
+
+\authignoreword{unknown}
+\authbyword{by}
+\authsepword{and}
+
+\notenamesout{A}{B}{C}{D}{E}{F}{G}
+
+
+\begin{document}
+
+\maketitle
+
+
+\showindex{\songindexname}{titleidx}
+\showindex{\authorindexname}{authidx}
+
+% list of chords
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
+\fi
+\setcounter{songnum}{1}%
+
+\phantomsection
+\addcontentsline{toc}{section}{\songlistname}
+
+\begin{songs}{titleidx,authidx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./images.csg
+
+\selectlanguage{english}
+
+\beginsong{}[
+  by={
+  },
+]
+
+
+\image[]{img/image.png}
+\image[]{img/image with spaces.png}
+
+
+
+\image[scale=2]{img/image.png}
+\image[scale=.20]{img/image with spaces.png}
+\image[scale=1.2]{img/image.png}
+
+
+
+\image[width=2cm]{img/image.png}
+\image[height=2cm]{img/image with spaces.png}
+\image[width=2cm, height=1cm]{img/image.png}
+
+
+
+\image[width=2em]{img/image.png}
+\image[height=2em]{img/image with spaces.png}
+\image[width=2em, height=1em]{img/image.png}
+
+
+
+\image[width=50pt]{img/image.png}
+\image[height=50pt]{img/image with spaces.png}
+\image[width=50pt, height=100pt]{img/image.png}
+
+
+
+\image[width=2.5cm]{img/image.png}
+\image[height=2.5cm]{img/image with spaces.png}
+\image[width=2.5cm, height=1.5cm]{img/image.png}
+
+
+
+\image[width=3cm, height=10pt]{img/image.png}
+\image[width=10pt, height=3cm]{img/image with spaces.png}
+
+
+
+\image[]{img/image.png}
+\image[]{img/image.png}
+\image[]{img/image with spaces.png}
+\image[]{img/image with spaces.png}
+\image[]{img/image.png}
+\image[width=2cm]{img/image.png}
+\image[width=2cm]{img/image.png}
+\image[width=2cm]{img/image.png}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./musicnote.csg
+
+\selectlanguage{english}
+
+\beginsong{Song with Sharp in musicnote}[
+  by={
+  },
+]
+
+
+
+
+\ifchorded
+\begin{verse*}
+    \musicnote {\nolyrics \[Am C{\shrp}m]}
+\end{verse*}
+\fi
+
+\endsong
+
+\end{songs}
+
+
+
+
+\end{document}

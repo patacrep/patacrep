@@ -13,9 +13,8 @@
 
 \makeatletter
 \def\input@path{ %
-        {@TEST_FOLDER@/unicode_datadir/templates/styles/} %
-        {@TEST_FOLDER@/templates/styles/} %
-        {@DATA_FOLDER@/templates/styles/} %
+        {@TEST_FOLDER@/onthefly/../content_datadir/templates/styles/} %
+        {@LOCAL_DATA_FOLDER@/templates/styles/} %
 }
 \makeatother
 
@@ -25,8 +24,8 @@
 \usepackage[
 chorded,
 pictures,
-repeatchords,
-importantdiagramonly,
+diagram,
+diagrampage,
 guitar,
     ]{patacrep}
 
@@ -34,14 +33,14 @@ guitar,
 
 
 \PassOptionsToPackage{english}{babel}
+\PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
 
 \usepackage{graphicx}
 \graphicspath{ %
-        {@TEST_FOLDER@/unicode_datadir/} %
-        {@TEST_FOLDER@/} %
-        {@DATA_FOLDER@/} %
+        {@TEST_FOLDER@/onthefly/../content_datadir/} %
+        {@LOCAL_DATA_FOLDER@/} %
 }
 
 
@@ -60,8 +59,8 @@ guitar,
 \title{Guitar songbook}
 \author{The Patacrep Team}
 
-\newindex{titleidx}{unicode_title}
-\newauthorindex{authidx}{unicode_auth}
+\newindex{titleidx}{content.onthefly_title}
+\newauthorindex{authidx}{content.onthefly_auth}
 
 \authignoreword{unknown}
 \authbyword{by}
@@ -79,38 +78,54 @@ guitar,
 \showindex{\authorindexname}{authidx}
 
 % list of chords
-\ifchorded
-  \ifdiagram
-     \phantomsection
-     \addcontentsline{toc}{section}{\chordlistname}
-     \chords
-  \fi
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
 \fi
+\setcounter{songnum}{1}%
 
 \phantomsection
 \addcontentsline{toc}{section}{\songlistname}
 
+
+\section{Test of section}
+
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% songs/./nonbreak.csg
+%% songs/./song.csg
 
 \selectlanguage{english}
 
-\beginsong{Song with non breakable space}[
+\beginsong{This is a song}[
   by={
-        Author with non breaking space chars  },
+  },
 ]
 
 
 
 
 \begin{verse}
-    Non break
+    Foo
 \end{verse}
 
 \endsong
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./song.tsg
+
+\import{@TEST_FOLDER@/content_datadir/songs/}{song.tsg}
+
 \end{songs}
+
+\songsection{Test of song section}
+
+
+\input{@TEST_FOLDER@/content_datadir/content/foo.tex}
+
+
+\section{This is an included section}
+
 
 
 

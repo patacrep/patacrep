@@ -3,6 +3,7 @@
 import logging
 import operator
 import os
+import urllib
 
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader
 from jinja2 import contextfunction
@@ -30,6 +31,13 @@ class ChordproSong(Song):
     # pylint: disable=abstract-method
 
     output_language = None
+    _translation_map = {}
+    _translation_map_url = None
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        if self._translation_map_url is None:
+            self._translation_map_url = self._translation_map
 
     def _parse(self):
         """Parse content, and return the dictionary of song data."""
@@ -50,6 +58,8 @@ class ChordproSong(Song):
         filters.update({
             'search_image': self.search_image,
             'search_partition': self.search_partition,
+            'escape_specials': self._escape_specials,
+            'escape_url': self._escape_url,
         })
         return filters
 
@@ -84,6 +94,20 @@ class ChordproSong(Song):
         context.vars['content'] = content
         return context.environment.get_template(content.template()).render(context)
 
+    def _escape_specials(self, content, chars=None, *, translation_map=None):
+        if translation_map is None:
+            translation_map = self._translation_map
+        if chars is None:
+            chars = translation_map.keys()
+        return str(content).translate(str.maketrans({
+            key: value
+            for key, value in translation_map.items()
+            if key in chars
+            }))
+
+    def _escape_url(self, content):
+        return self._escape_specials(content, translation_map=self._translation_map_url)
+
 class Chordpro2HtmlSong(ChordproSong):
     """Render chordpro song to html code"""
 
@@ -104,6 +128,25 @@ class Chordpro2LatexSong(ChordproSong):
     """Render chordpro song to latex code"""
 
     output_language = "latex"
+    _translation_map = {
+        '{': r'\{',
+        '}': r'\}',
+        '\\': r'\textbackslash{}',
+        '^': r'\textasciicircum{}',
+        '~': r'\textasciitilde{}',
+        '#': r'\#',
+        '&': r'\&',
+        '$': r'\$',
+        '%': r'\%',
+        '_': r'\_',
+    }
+    _translation_map_url = {
+        " ": urllib.parse.quote(" "),
+        "{": urllib.parse.quote("{"),
+        "}": urllib.parse.quote("}"),
+        '%': r'\%',
+        '#': r'\#',
+        }
 
     def search_file(self, filename, extensions=None, *, datadirs=None):
         _datadir, filename, _extension = self.search_datadir_file(
@@ -139,6 +182,7 @@ class Chordpro2LatexSong(ChordproSong):
         parent = super()._filters()
         parent.update({
             'lang2babel': self.lang2babel,
+            'render_size': self._render_size,
             })
         return parent
 
@@ -160,14 +204,47 @@ class Chordpro2LatexSong(ChordproSong):
             self.errors.append(new_error)
             return error.babel
 
+    @staticmethod
+    def _render_size(size):
+        items = []
+        for name, value, unit in size:
+            items.append(name + "=" + value + unit)
+        return ", ".join(items)
+
 class Chordpro2ChordproSong(ChordproSong):
     """Render chordpro song to chordpro code"""
 
     output_language = "chordpro"
+    _translation_map = {
+        '{': r'\{',
+        '}': r'\}',
+        '\\': '\\\\',
+        '#': r'\#',
+    }
+    _translation_map_url = {
+        '{': r'\{',
+        '}': r'\}',
+        '\\': '\\\\',
+    }
+
+    def _filters(self):
+        parent = super()._filters()
+        parent.update({
+            'render_size': self._render_size,
+            })
+        return parent
 
     def search_file(self, filename, extensions=None, *, datadirs=None):
         # pylint: disable=unused-variable
         return filename
+
+    @staticmethod
+    def _render_size(size):
+        items = []
+        for name, value, unit in size:
+            items.append(name + "=" + value + unit)
+        return " ".join(items)
+
 
 SONG_RENDERERS = {
     "tsg": {

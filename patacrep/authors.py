@@ -16,12 +16,12 @@ def compile_authwords(authwords):
     return {
         'ignore': authwords.get('ignore', []),
         'after': [
-            re.compile(RE_AFTER.format(word), re.LOCALE)
-            for word in authwords.get('after')
+            re.compile(RE_AFTER.format(word))
+            for word in authwords.get('after', [])
             ],
         'separators': [
-            re.compile(RE_SEPARATOR.format(word), re.LOCALE)
-            for word in ([" %s" % word for word in authwords['separators']] + [',', ';'])
+            re.compile(RE_SEPARATOR.format(word))
+            for word in ([" %s" % word for word in authwords.get('separators', [])] + [',', ';'])
             ],
         }
 

@@ -29,8 +29,6 @@ GENERATED_EXTENSIONS = [
     "_title.sxd",
     ]
 
-
-
 # pylint: disable=too-few-public-methods
 class Songbook:
     """Represent a songbook (.yaml) file.
@@ -101,7 +99,11 @@ class Songbook:
             )
         self._config['filename'] = output.name[:-4]
 
+        # Processing special options
         self._config['_bookoptions'] = iter_bookoptions(self._config)
+        self._config['chords']['_notenames'] = self._get_chord_names(
+            self._config['chords']['notation']
+            )
 
         renderer.render_tex(output, self._config)
 
@@ -110,6 +112,15 @@ class Songbook:
         if self._config['_error'] == "failonbook":
             if self.has_errors():
                 raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
+
+    @staticmethod
+    def _get_chord_names(notation):
+        """Return a list of chord names, given the user option."""
+        if notation == "alphascale":
+            return ["A", "B", "C", "D", "E", "F", "G"]
+        if notation == "solfedge":
+            return ["La", "Si", "Do", r"R\'e", "Mi", "Fa", "Sol"]
+        return notation
 
     def has_errors(self):
         """Return `True` iff errors have been encountered in the book.

@@ -1,0 +1,59 @@
+\selectlanguage{english}
+
+\beginsong{}[
+  by={
+  },
+]
+
+
+\image[]{img/image.png}
+\image[]{img/image with spaces.png}
+
+
+
+\image[scale=2]{img/image.png}
+\image[scale=.20]{img/image with spaces.png}
+\image[scale=1.2]{img/image.png}
+
+
+
+\image[width=2cm]{img/image.png}
+\image[height=2cm]{img/image with spaces.png}
+\image[width=2cm, height=1cm]{img/image.png}
+
+
+
+\image[width=2em]{img/image.png}
+\image[height=2em]{img/image with spaces.png}
+\image[width=2em, height=1em]{img/image.png}
+
+
+
+\image[width=50pt]{img/image.png}
+\image[height=50pt]{img/image with spaces.png}
+\image[width=50pt, height=100pt]{img/image.png}
+
+
+
+\image[width=2.5cm]{img/image.png}
+\image[height=2.5cm]{img/image with spaces.png}
+\image[width=2.5cm, height=1.5cm]{img/image.png}
+
+
+
+\image[width=3cm, height=10pt]{img/image.png}
+\image[width=10pt, height=3cm]{img/image with spaces.png}
+
+
+
+\image[]{img/image.png}
+\image[]{img/image.png}
+\image[]{img/image with spaces.png}
+\image[]{img/image with spaces.png}
+\image[]{img/image.png}
+\image[width=2cm]{img/image.png}
+\image[width=2cm]{img/image.png}
+\image[width=2cm]{img/image.png}
+
+
+\endsong

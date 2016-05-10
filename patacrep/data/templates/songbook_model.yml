@@ -27,7 +27,15 @@ schema:
       type: //rec
       required:
         show: //bool
-        diagrampage: //bool
+        diagrampage:
+          type: //any
+          of:
+            - type: //str
+              value: "none"
+            - type: //str
+              value: "important"
+            - type: //str
+              value: "all"
         repeatchords: //bool
         lilypond: //bool
         tablatures: //bool
@@ -48,12 +56,17 @@ schema:
             - type: //str
               value: "ukulele"
         notation:
-          type: //any
-          of:
-            - type: //str
-              value: "alphascale"
-            - type: //str
-              value: "solfedge"
+            type: //any
+            of:
+                - type: //str
+                  value: "alphascale"
+                - type: //str
+                  value: "solfedge"
+                - type: //arr
+                  contents: //str
+                  length:
+                      min: 7
+                      max: 7
     authors:
       type: //rec
       required:
@@ -97,7 +110,7 @@ default:
     chords:
       show: yes
       diagramreminder: important
-      diagrampage: yes
+      diagrampage: all
       repeatchords: yes
       lilypond: no
       tablatures: no
@@ -149,7 +162,7 @@ description:
       lilypond: "Display lilypond scores"
       tablatures: "Display tablatures"
       instrument: "Instrument for the diagrams"
-      notation: "Chord notation"
+      notation: "List of chord names, with special values `solfedge` being an alias for `['La', 'Si', 'Do', 'Ré', 'Mi', 'Fa', 'Sol']`, and `alphascale` for `['A', 'B', 'C', 'D', 'E', 'F', 'G']`."
 
     authors:
       separators: "Separator words between artists"
@@ -175,7 +188,7 @@ description:
       lilypond: "Inclure les partitions lilypond"
       tablatures: "Inclure les tablatures"
       instrument: "Instrument pour les diagrammes d'accords"
-      notation: "Notation des accords"
+      notation: "Liste des noms de notes, en commençant par LA, sachant que `solfedge` est un alias pour `['La', 'Si', 'Do', 'Ré', 'Mi', 'Fa', 'Sol']`, et `alphascale` pour `['A', 'B', 'C', 'D', 'E', 'F', 'G']`."
 
     authors:
       separators: "Mots de séparation entre les artistes"

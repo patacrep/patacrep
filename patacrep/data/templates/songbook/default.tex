@@ -66,8 +66,8 @@ description:
 
 \usepackage{chords}
 
-\title{(( template_var.title ))}
-\author{(( template_var.author ))}
+\title{(( template_var.title|escape_specials() ))}
+\author{(( template_var.author|escape_specials() ))}
 
 \newindex{titleidx}{((filename))_title}
 \newauthorindex{authidx}{((filename))_auth}
@@ -85,11 +85,7 @@ description:
    \authsepword{((word))}
 (* endfor *)
 
-(* if chords.notation=="alphascale" -*)
-  \notenamesout{A}{B}{C}{D}{E}{F}{G}
-(* else -*)
-  \notenamesout{La}{Si}{Do}{R\'e}{Mi}{Fa}{Sol}
-(* endif *)
+\notenamesout{(( chords._notenames[0] ))}{(( chords._notenames[1] ))}{(( chords._notenames[2] ))}{(( chords._notenames[3] ))}{(( chords._notenames[4] ))}{(( chords._notenames[5] ))}{(( chords._notenames[6] ))}
 (* endblock *)
 
 (* block title *)
@@ -103,12 +99,11 @@ description:
 
 (* block chords *)
 % list of chords
-\ifchorded
-  \ifdiagram
-     \phantomsection
-     \addcontentsline{toc}{section}{\chordlistname}
-     \chords
-  \fi
+\ifdiagrampage
+   \phantomsection
+   \addcontentsline{toc}{section}{\chordlistname}
+   \chords
 \fi
+\setcounter{songnum}{1}%
 (* endblock *)
 

@@ -24,7 +24,7 @@
      \raisebox{2em}{\chordname{##1}} %
      } %
   % Placing boxes
-  \ifimportantdiagramonly%
+  \ifdiagrampagereduced%
        \pl@cechord{#1}%
        \hspace{\stretch{1}}%
        \usebox{\@chordgroupbox@ii}%
@@ -75,7 +75,17 @@
 
 
 \newcommand{\chords}{
+  \ifdiagrampage
   \begin{songs}{}
+    %important diagrams are hidden by \chordtabs
+    \renewcommand{\gtab}{\@ifstar
+                        \gtab@Original%
+                        \gtab@Original%
+                        }
+    \renewcommand{\utab}{\@ifstar
+                        \utab@Original%
+                        \utab@Original%
+                        }
     %hide song number
     \definecolor{SongNumberBgColor}{HTML}{FFFFFF}
     \renewcommand{\snumbgcolor}{SongNumberBgColor}
@@ -391,5 +401,6 @@
     \fi
 
   \end{songs}
+  \fi
 }
 \endinput

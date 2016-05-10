@@ -182,6 +182,7 @@ class Chordpro2LatexSong(ChordproSong):
         parent = super()._filters()
         parent.update({
             'lang2babel': self.lang2babel,
+            'render_size': self._render_size,
             })
         return parent
 
@@ -203,6 +204,13 @@ class Chordpro2LatexSong(ChordproSong):
             self.errors.append(new_error)
             return error.babel
 
+    @staticmethod
+    def _render_size(size):
+        items = []
+        for name, value, unit in size:
+            items.append(name + "=" + value + unit)
+        return ", ".join(items)
+
 class Chordpro2ChordproSong(ChordproSong):
     """Render chordpro song to chordpro code"""
 
@@ -219,9 +227,24 @@ class Chordpro2ChordproSong(ChordproSong):
         '\\': '\\\\',
     }
 
+    def _filters(self):
+        parent = super()._filters()
+        parent.update({
+            'render_size': self._render_size,
+            })
+        return parent
+
     def search_file(self, filename, extensions=None, *, datadirs=None):
         # pylint: disable=unused-variable
         return filename
+
+    @staticmethod
+    def _render_size(size):
+        items = []
+        for name, value, unit in size:
+            items.append(name + "=" + value + unit)
+        return " ".join(items)
+
 
 SONG_RENDERERS = {
     "tsg": {

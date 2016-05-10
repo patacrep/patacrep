@@ -2,6 +2,7 @@
 
 import logging
 import re
+import shlex
 
 import ply.yacc as yacc
 
@@ -124,10 +125,67 @@ class ChordproParser(Parser):
             fingers=fingers,
             )
 
+    def _iter_raw_image_size_arguments(self, arguments, *, lineno):
+        for item in arguments:
+            prefix, _, suffix = item.partition("=")
+            if prefix in ['width', 'height']:
+                match = re.compile(
+                    r"^(?P<value>(\d*\.\d+|\d+))(?P<unit>cm|em|pt)$",
+                    re.VERBOSE,
+                    ).match(suffix)
+                if match is not None:
+                    yield (prefix, match.groupdict()['value'], match.groupdict()['unit'])
+                    continue
+            elif prefix in ['scale']:
+                match = re.compile(
+                    r"^(?P<value>(\d*\.\d+|\d+))$",
+                    re.VERBOSE,
+                    ).match(suffix)
+                if match is not None:
+                    yield (prefix, match.groupdict()['value'], "")
+                    continue
+            else:
+                self.error(
+                    line=lineno,
+                    message="Image: Unknown argument name '{}'.".format(prefix),
+                )
+                continue
+            self.error(
+                line=lineno,
+                message="Image: Unsupported {} value: '{}'.".format(prefix, suffix),
+            )
+
+    def _iter_image_size_arguments(self, argument, *, lineno):
+        arguments = set()
+        length_names = frozenset(["width", "height"])
+        for name, value, unit in self._iter_raw_image_size_arguments(argument, lineno=lineno):
+            if name in arguments:
+                self.error(
+                    line=lineno,
+                    message="Image: Ignoring repeated argument: {}.".format(name),
+                    )
+                continue
+            if (
+                    name == "scale" and not length_names.isdisjoint(arguments)
+                ) or (
+                    name in length_names and "scale" in arguments
+                ):
+                self.error(
+                    line=lineno,
+                    message=(
+                        "Image: Ignoring '{}' argument: Cannot mix scale and "
+                        "width or height argument."
+                        ).format(name),
+                    )
+                continue
+            arguments.add(name)
+            yield name, value, unit
+
     def p_directive(self, symbols):
         """directive : LBRACE KEYWORD directive_next RBRACE
                      | LBRACE SPACE KEYWORD directive_next RBRACE
         """
+        # pylint: disable=too-many-branches
         if len(symbols) == 5:
             keyword = symbols[2]
             argument = symbols[3]
@@ -171,7 +229,21 @@ class ChordproParser(Parser):
                 symbols[0] = ast.Error()
                 return
             self._directives.append(define)
-
+        elif keyword == "image":
+            splitted = shlex.split(argument)
+            if len(splitted) < 1:
+                self.error(
+                    line=symbols.lexer.lineno,
+                    message="Missing filename for image directive",
+                    )
+                symbols[0] = ast.Error()
+            else:
+                symbols[0] = ast.Image(
+                    splitted[0],
+                    list(
+                        self._iter_image_size_arguments(splitted[1:], lineno=symbols.lexer.lineno)
+                        ),
+                    )
         else:
             directive = ast.Directive(keyword, argument)
             if directive.inline:

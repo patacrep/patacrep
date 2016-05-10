@@ -1,1 +1,1 @@
-{image: (( content.argument|search_image ))}
+{image: "(( content.filename|search_image ))" ((content.size|render_size))}

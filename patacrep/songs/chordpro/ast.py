@@ -408,6 +408,22 @@ class Define(Directive):
     def __str__(self):
         return None
 
+class Image(Directive):
+    """An image
+
+    .. attribute:: filename
+        The filename of the image.
+    .. attribute:: size
+        An iterable of tuples ``(type, float, unit)``.
+    """
+
+    def __init__(self, filename, size=None):
+        self.filename = filename
+        if size is None:
+            size = []
+        self.size = size
+        super().__init__("image", None)
+
 class Tab(AST):
     """Tablature"""
 

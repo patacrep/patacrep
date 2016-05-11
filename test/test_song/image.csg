@@ -1,0 +1,44 @@
+{lang: en}
+
+{image: "image.png" }
+{image: "image with spaces.png" }
+
+
+{image: "image.png" scale=2}
+{image: "image with spaces.png" scale=.20}
+{image: "image.png" scale=1.2}
+
+
+{image: "image.png" width=2cm}
+{image: "image with spaces.png" height=2cm}
+{image: "image.png" width=2cm height=1cm}
+
+
+{image: "image.png" width=2em}
+{image: "image with spaces.png" height=2em}
+{image: "image.png" width=2em height=1em}
+
+
+{image: "image.png" width=50pt}
+{image: "image with spaces.png" height=50pt}
+{image: "image.png" width=50pt height=100pt}
+
+
+{image: "image.png" width=2.5cm}
+{image: "image with spaces.png" height=2.5cm}
+{image: "image.png" width=2.5cm height=1.5cm}
+
+
+{image: "image.png" width=3cm height=10pt}
+{image: "image with spaces.png" width=10pt height=3cm}
+
+
+{image: "image.png" }
+{image: "image.png" }
+{image: "image with spaces.png" }
+{image: "image with spaces.png" }
+{image: "image.png" }
+{image: "image.png" width=2cm}
+{image: "image.png" width=2cm}
+{image: "image.png" width=2cm}
+

@@ -6,6 +6,7 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{patacrep}[2014/06/17 Patacrep Package, version 1]
 
+\RequirePackage[space]{grffile}
 \RequirePackage{graphicx,xcolor} %
 \RequirePackage{epstopdf} %
 \RequirePackage{fancybox}
@@ -400,7 +401,9 @@
 \renewcommand{\textnote}[2][]{%
   \vspace{.1cm}
   \IfStrEq{}{#1}{\@textnoteold{#2}}{
-    \iflanguage{#1}{\@textnoteold{#2}}{}
+    \IfStrEq{\mainlanguage}{#1}{
+      \@textnoteold{#2}
+    }{}
   }
 }
 
@@ -408,7 +411,9 @@
 \renewcommand{\musicnote}[2][]{%
   \vspace{.1cm}
   \IfStrEq{}{#1}{\@musicnoteold{#2}}{
-    \iflanguage{#1}{\@musicnoteold{#2}}{}
+    \IfStrEq{\mainlanguage}{#1}{
+      \@musicnoteold{#2}
+    }{}
   }
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

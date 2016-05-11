@@ -16,7 +16,7 @@ LOGGER = logging.getLogger(__name__)
 DEFAULT_LANGUAGE = "en_us"
 
 BABEL_LANGUAGES = OrderedDict((
-    ('de_de', 'german'),
+    ('de_de', 'ngerman'), # german (old), germanb (like german)
     ('de_at', 'austrian'),
     ('eo_uy', 'esperanto'),
     ('en_us', 'english'), # USenglish, american
@@ -53,8 +53,6 @@ BABEL_LANGUAGES = OrderedDict((
     # ('??_??', 'finnish'),
     # ('??_??', 'acadian'),
     # ('??_??', 'galician'),
-    # ('??_??', 'germanb'),
-    # ('??_??', 'ngerman'),
     # ('??_??', 'naustrian'),
     # ('??_??', 'greek'),
     # ('??_??', 'polutonikogreek'),

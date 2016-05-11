@@ -20,7 +20,7 @@ Subtitle5}[
 \textnote{Comment}
 \musicnote{GuitarComment}
 \lilypond{scores/metadata_lilypond}
-\image{img/metadata_image}
+\image[]{img/metadata_image}
 
 
 

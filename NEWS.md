@@ -1,3 +1,41 @@
+# patacrep 5.0.0
+
+* Songbook file
+  * Default extension is now `.yaml`
+  * Book options are now specified using the yaml markup
+    * `cd` behavior changed [#207](https://github.com/patacrep/patacrep/pull/207)
+    * `addsongdir` and `setcounter` created
+    * `sorted` renamed to `sort`
+  * The song counter is no more reset on `songsection` [#208](https://github.com/patacrep/patacrep/pull/208)
+  * The names of notes can be explicitely defined (was limited to `solfedge` or `alphascale`) [#217](https://github.com/patacrep/patacrep/pull/217)
+
+* Song files
+  * New song format supported: Chordpro
+  * Supported extensions [#174](http://github.com/patacrep/patacrep/pull/174)
+    * .csg: Chordpro (recommmended)
+    * .tsg: LaTeX song
+    * .sg: LaTeX song (unfavored)
+    * .tis: LaTeX intersong
+  * `start_echo` is now supported in chordpro songs [#205](https://github.com/patacrep/patacrep/pull/205)
+  * LaTeX songs
+    * `cov` renamed to `cover`
+    * `vcov` is deprecated
+  * Image directive now accepts options to define its size [#218](https://github.com/patacrep/patacrep/pull/218)
+  * Better handling of special characters [#213](https://github.com/patacrep/patacrep/pull/213)
+
+* Add a compilation option `--error` [#195](https://github.com/patacrep/patacrep/pull/195)
+
+* Template files also uses `yaml` markup
+
+* Creation of a patatools utility [#189](https://github.com/patacrep/patacrep/pull/189)
+
+* Datadir reorganisation [#211](https://github.com/patacrep/patacrep/pull/211)
+  * songbook templates are now located in `songbook` subfolder of the `templates`
+  * the LaTeX styles (previously in `/latex`) are now in `/templates/styles`
+
+* Various fixes and improvements
+
+
 # patacrep 4.0.0
 
 * Project management

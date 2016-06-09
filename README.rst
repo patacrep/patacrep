@@ -28,6 +28,10 @@ For the stable version, as simple as::
 
     pip3 install patacrep
 
+And upgrade to the latest release::
+
+    pip3 install patacrep -U
+
 Or for the latest version::
 
     pip3 install https://github.com/patacrep/patacrep/archive/master.zip

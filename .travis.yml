@@ -21,3 +21,16 @@ sudo: false
 #     - lilypond
 notifications:
   email: false
+
+deploy:
+  - provider: pypi
+    distributions: sdist
+    server: https://testpypi.python.org/pypi
+    user: "Luthaf"
+    password:
+      secure: "ttS3bXfO1xxtUlUlcy2/UNdoGC7bKQoALKOjvusmg/4VycN8OfID+LBuSorY4L+TLYwBqcUQLvolnLkQHEwsxNPQoKh7dk6DdT0t4n2jM1AXzry6IxEBjeLNRS/eUXsPmv9dSvJMgoUGkn1TnW+DphZzqthFI5zO7DUtooPOCic="
+      #secure: NVTS+wQ55gy0w3ENlcJWBz6oKlI6k5+TwNinEl5EjxJXdxYU/rjH6D4Bm47q41hsd3IIPhTzexqCMB+sbuyQR8lIVLVVlFGQlqVw2hY8TZduFTPslnxgsna4zTG9aDwf1dJCI1ouRn6EybbAR0+DikXXTTnbB77n2/r8bJrKd2o=
+    on:
+      #tags: true
+      #branch: master
+      branch: travis_deploy

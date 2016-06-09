@@ -32,6 +32,7 @@ guitar,
 \usepackage{lmodern}
 
 
+\PassOptionsToPackage{ngerman}{babel}
 \PassOptionsToPackage{english}{babel}
 \usepackage[english]{babel}
 \lang{english}
@@ -149,6 +150,36 @@ guitar,
 \image[width=2cm]{img/image.png}
 \image[width=2cm]{img/image.png}
 
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./metacrep.csg
+
+\selectlanguage{ngerman}
+
+\beginsong{Der kleine Troll}[
+  by={
+  },
+]
+
+
+\metacrep{liederbock}{ 292}
+
+
+
+\begin{verse}
+    Let's sing and test a
+\end{verse}
+
+
+\metacrep{undefined}{ whatever}
+
+
+
+\begin{verse}
+    directive between verses
+\end{verse}
 
 \endsong
 

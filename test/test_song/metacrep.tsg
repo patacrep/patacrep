@@ -1,0 +1,30 @@
+\selectlanguage{ngerman}
+
+\beginsong{Der kleine Troll}[
+  by={
+  },
+]
+
+
+\metacrep{liederbock}{ 292}
+
+
+
+\begin{verse}
+    Let's sing and test a
+\end{verse}
+
+
+\metacrep{emptyarg}{}
+
+
+
+\begin{verse}
+    directive between verses
+\end{verse}
+
+
+\metacrep{and}{ with: more: arguments}
+
+
+\endsong

@@ -43,6 +43,7 @@ INLINE_DIRECTIVES = {
     "guitar_comment",
     "image",
     "newline",
+    "meta",
     }
 
 #: Some directive have alternative names. For instance `{title: Foo}` and `{t:
@@ -355,6 +356,8 @@ class Directive(AST):
     def __init__(self, keyword, argument=None):
         super().__init__()
         self.keyword = directive_name(keyword.strip())
+        if keyword == 'meta':
+            argument = argument.partition(':')
         self.argument = argument
 
     @property

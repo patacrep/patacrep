@@ -51,6 +51,10 @@
   (( render(chord) ))
 (* endfor *)
 
+(*- if metadata.capo is defined -*)
+  \capo{(( metadata.capo ))}
+(* endif *)
+
 (* include 'song_body' *)
 
 \endsong

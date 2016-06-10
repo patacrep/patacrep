@@ -1,7 +1,7 @@
 # patacrep {current_master}
 
 * Bugfixes
-  * The capo directive of the Chordpro files is now considered
+  * The capo directive of the Chordpro files is now considered [#224](https://github.com/patacrep/patacrep/pull/224)
   * Chordpro files don't need to end with a trailing line [#223](https://github.com/patacrep/patacrep/pull/223)
 
 # patacrep 5.0.0

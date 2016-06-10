@@ -1,3 +1,8 @@
+# patacrep {current_master}
+
+* Bugfixes
+  * The capo directive of the Chordpro files is now considered
+
 # patacrep 5.0.0
 
 * Songbook file

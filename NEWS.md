@@ -1,3 +1,8 @@
+# patacrep {current_master}
+
+* Bugfixes
+  * Chordpro files don't need to end with a trailing line [#223](https://github.com/patacrep/patacrep/pull/223)
+
 # patacrep 5.0.0
 
 * Songbook file

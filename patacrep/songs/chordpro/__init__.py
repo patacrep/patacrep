@@ -42,7 +42,7 @@ class ChordproSong(Song):
     def _parse(self):
         """Parse content, and return the dictionary of song data."""
         with encoding.open_read(self.fullpath, encoding=self.encoding) as song:
-            song = parse_song(song.read(), self.fullpath)
+            song = parse_song(song.read().strip()+"\n", self.fullpath)
         self.authors = song.authors
         self.titles = song.titles
         self.lang = song.get_data_argument('language', self.lang)

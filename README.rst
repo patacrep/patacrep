@@ -10,7 +10,7 @@ songbook using the LaTeX songs package. A new LaTeX document class is
 provided to allow specific customisation and new command like embedded
 guitar tabs or lilypond sheets.
 
-Document are subject to the GNU GPLv2 except if another licence
+Document are subject to the GNU GPLv2 except if another license
 is precised in the header.
 
 Python version

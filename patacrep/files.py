@@ -1,6 +1,7 @@
 """File system utilities."""
 
 from contextlib import contextmanager
+from functools import lru_cache
 import logging
 import os
 import pkgutil
@@ -96,7 +97,7 @@ def iter_modules(path, prefix):
 def load_plugins_content(datadirs=()):
     """Load the content plugins, and return a dictionary of those plugins."""
     return load_plugins(
-        datadirs=datadirs,
+        datadirs=tuple(datadirs),
         root_modules=('content',),
         keyword='CONTENT_PLUGINS',
         )
@@ -104,11 +105,12 @@ def load_plugins_content(datadirs=()):
 def load_plugins_songs(datadirs=()):
     """Load the song renderer plugins, and return a dictionary of those plugins."""
     return load_plugins(
-        datadirs=datadirs,
+        datadirs=tuple(datadirs),
         root_modules=('songs',),
         keyword='SONG_RENDERERS',
         )
 
+@lru_cache()
 def load_plugins(datadirs, root_modules, keyword):
     """Load all plugins, and return a dictionary of those plugins.
 

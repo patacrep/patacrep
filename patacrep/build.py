@@ -79,10 +79,6 @@ class Songbook:
             copy.deepcopy(self._config['authors'])
             )
 
-        # Loading custom plugins
-        self._config['_content_plugins'] = files.load_plugins_content(
-            datadirs=self._config['_datadir'],
-            )
         self._config['_song_plugins'] = files.load_plugins_songs(
             datadirs=self._config['_datadir'],
             )['tsg']

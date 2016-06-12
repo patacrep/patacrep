@@ -81,10 +81,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             cls.config['_datadir'] = []
         cls.config['_datadir'].append('datadir')
 
-        cls.song_plugins = files.load_plugins(
+        cls.song_plugins = files.load_plugins_songs(
             datadirs=cls.config['_datadir'],
-            root_modules=['songs'],
-            keyword='SONG_RENDERERS',
             )
         with cls.chdir():
             for source in sorted(glob.glob('*.*.source')):

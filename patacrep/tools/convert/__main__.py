@@ -35,12 +35,7 @@ def main(args=None):
     dest = args[2]
     song_files = args[3:]
 
-    # todo : what is the datadir argument used for?
-    renderers = files.load_plugins(
-        datadirs=[],
-        root_modules=['songs'],
-        keyword='SONG_RENDERERS',
-        )
+    renderers = files.load_plugins_songs()
 
     if dest not in renderers:
         LOGGER.error(

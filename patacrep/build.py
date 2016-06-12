@@ -80,15 +80,11 @@ class Songbook:
             )
 
         # Loading custom plugins
-        self._config['_content_plugins'] = files.load_plugins(
+        self._config['_content_plugins'] = files.load_plugins_content(
             datadirs=self._config['_datadir'],
-            root_modules=['content'],
-            keyword='CONTENT_PLUGINS',
             )
-        self._config['_song_plugins'] = files.load_plugins(
+        self._config['_song_plugins'] = files.load_plugins_songs(
             datadirs=self._config['_datadir'],
-            root_modules=['songs'],
-            keyword='SONG_RENDERERS',
             )['tsg']
 
         # Configuration set

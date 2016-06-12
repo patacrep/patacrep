@@ -108,15 +108,11 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             )
 
         # Load the plugins
-        config['_content_plugins'] = files.load_plugins(
+        config['_content_plugins'] = files.load_plugins_content(
             datadirs=config['_datadir'],
-            root_modules=['content'],
-            keyword='CONTENT_PLUGINS',
             )
-        config['_song_plugins'] = files.load_plugins(
+        config['_song_plugins'] = files.load_plugins_songs(
             datadirs=config['_datadir'],
-            root_modules=['songs'],
-            keyword='SONG_RENDERERS',
             )['tsg']
 
         return config

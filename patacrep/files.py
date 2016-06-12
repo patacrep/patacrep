@@ -93,6 +93,22 @@ def iter_modules(path, prefix):
                 LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
                 continue
 
+def load_plugins_content(datadirs=()):
+    """Load the content plugins, and return a dictionary of those plugins."""
+    return load_plugins(
+        datadirs=datadirs,
+        root_modules=('content',),
+        keyword='CONTENT_PLUGINS',
+        )
+
+def load_plugins_songs(datadirs=()):
+    """Load the song renderer plugins, and return a dictionary of those plugins."""
+    return load_plugins(
+        datadirs=datadirs,
+        root_modules=('songs',),
+        keyword='SONG_RENDERERS',
+        )
+
 def load_plugins(datadirs, root_modules, keyword):
     """Load all plugins, and return a dictionary of those plugins.
 
@@ -102,6 +118,7 @@ def load_plugins(datadirs, root_modules, keyword):
 
     Arguments:
     - datadirs: List of directories in which plugins are to be searched.
+      The plugins will also be searched in the patacrep modules.
     - root_modules: the submodule in which plugins are to be searched, as a
       list of modules (e.g. ["some", "deep", "module"] for
       "some.deep.module").

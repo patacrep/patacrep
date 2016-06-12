@@ -288,5 +288,7 @@ def process_content(content, config=None):
         else:
             contentlist.append_error(ContentError(str(elem), "Unknown content type."))
     if contentlist.has_errors() and config['_error'] in ("failonsong", "failonbook"):
-        raise ContentError("Error while parsing the 'content' section of the songbook. Stopping as requested.")
+        raise ContentError(
+            "Error while parsing the 'content' section of the songbook. Stopping as requested."
+        )
     return contentlist

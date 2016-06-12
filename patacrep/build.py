@@ -10,7 +10,7 @@ from subprocess import Popen, PIPE, call, check_call
 
 import yaml
 
-from patacrep import authors, content, encoding, errors, files, pkg_datapath, utils
+from patacrep import authors, content, encoding, errors, pkg_datapath, utils
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer, iter_bookoptions
 

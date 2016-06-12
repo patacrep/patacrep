@@ -87,7 +87,7 @@ def parse(keyword, argument, config):
     contentlist = argument
     if isinstance(contentlist, str):
         contentlist = [contentlist]
-    plugins = files.load_plugins_songs(config['_datadir'])['tsg']
+    plugins = files.load_renderer_plugins(config['_datadir'])['tsg']
     if '_langs' not in config:
         config['_langs'] = set()
     songlist = ContentList()

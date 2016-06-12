@@ -94,7 +94,7 @@ def iter_modules(path, prefix):
                 LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
                 continue
 
-def load_plugins_content(datadirs=()):
+def load_content_plugins(datadirs=()):
     """Load the content plugins, and return a dictionary of those plugins."""
     return load_plugins(
         datadirs=tuple(datadirs),
@@ -102,7 +102,7 @@ def load_plugins_content(datadirs=()):
         keyword='CONTENT_PLUGINS',
         )
 
-def load_plugins_songs(datadirs=()):
+def load_renderer_plugins(datadirs=()):
     """Load the song renderer plugins, and return a dictionary of those plugins."""
     return load_plugins(
         datadirs=tuple(datadirs),

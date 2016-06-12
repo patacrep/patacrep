@@ -259,7 +259,7 @@ def process_content(content, config=None):
     included in the .tex file.
     """
     contentlist = ContentList()
-    plugins = files.load_plugins_content(config['_datadir'])
+    plugins = files.load_content_plugins(config['_datadir'])
     if not content:
         content = [{'song': None}]
     elif isinstance(content, dict):

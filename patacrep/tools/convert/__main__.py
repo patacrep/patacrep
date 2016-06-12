@@ -35,7 +35,7 @@ def main(args=None):
     dest = args[2]
     song_files = args[3:]
 
-    renderers = files.load_plugins_songs()
+    renderers = files.load_renderer_plugins()
 
     if dest not in renderers:
         LOGGER.error(

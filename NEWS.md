@@ -5,7 +5,7 @@
     * The capo directive is now considered [#224](https://github.com/patacrep/patacrep/pull/224)
     * The files don't need to end with a trailing line [#223](https://github.com/patacrep/patacrep/pull/223)
   * PDF generation
-    * The bookmarks correctly uses the unicode encoding [#225](https://github.com/patacrep/patacrep/pull/225)
+    * The bookmarks correctly use the unicode encoding [#225](https://github.com/patacrep/patacrep/pull/225)
 
 # patacrep 5.0.0
 

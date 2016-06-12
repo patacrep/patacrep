@@ -107,9 +107,4 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             outputdir
             )
 
-        # Load the plugins
-        config['_song_plugins'] = files.load_plugins_songs(
-            datadirs=config['_datadir'],
-            )['tsg']
-
         return config

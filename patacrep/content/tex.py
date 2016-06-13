@@ -1,6 +1,5 @@
 """Include LaTeX raw code in the songbook."""
 
-import itertools
 import logging
 import os
 

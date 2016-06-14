@@ -1,4 +1,4 @@
 - tex:
     - texfile.tex
-    - chordpro.csg
+    - texfile.tex
 - tex: texfile.tex

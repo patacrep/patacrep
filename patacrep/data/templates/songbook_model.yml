@@ -99,6 +99,7 @@ schema:
             - type: //nil
 default:
   en:
+    _error: "fix"
     _datadir: [] # For test reasons
     book:
       lang: en

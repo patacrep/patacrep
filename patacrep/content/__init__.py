@@ -185,6 +185,12 @@ class ContentList:
                 continue
             yield from item.iter_errors()
 
+    def has_errors(self):
+        """Return `True` iff errors has been found."""
+        for _ in self.iter_errors():
+            return True
+        return False
+
 class EmptyContentList(ContentList):
     """Empty content list: contain only errors."""
     def __init__(self, *, errors):
@@ -281,4 +287,8 @@ def process_content(content, config=None):
                     contentlist.append_error(error)
         else:
             contentlist.append_error(ContentError(str(elem), "Unknown content type."))
+    if contentlist.has_errors() and config['_error'] in ("failonsong", "failonbook"):
+        raise ContentError(
+            "Error while parsing the 'content' section of the songbook. Stopping as requested."
+        )
     return contentlist

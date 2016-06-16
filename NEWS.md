@@ -1,11 +1,18 @@
 # patacrep {current_master}
 
 * Bugfixes
-  * The capo directive of the Chordpro files is now considered [#224](https://github.com/patacrep/patacrep/pull/224)
-  * Chordpro files don't need to end with a trailing line [#223](https://github.com/patacrep/patacrep/pull/223)
+  * Chordpro files
+    * The capo directive is now considered [#224](https://github.com/patacrep/patacrep/pull/224)
+    * The files don't need to end with a trailing line [#223](https://github.com/patacrep/patacrep/pull/223)
+  * Content files
+    * The `tex` keyword correctly includes all files of the list [#228](https://github.com/patacrep/patacrep/pull/228) 
 * Enhancements
   * Error management
     * The 'error' option is considered for contentlist errors (incorrect syntax for instance) [#226](https://github.com/patacrep/patacrep/pull/226)
+  * Chordpro songs
+    * The `meta` directive is now supported: `{meta: COMMANDNAME:arg}` [#220](https://github.com/patacrep/patacrep/pull/220)
+  * LaTeX songs
+    * The `meta` directive is now supported: `\metacrep{COMMANDNAME}{arg}` [#220](https://github.com/patacrep/patacrep/pull/220)
 
 # patacrep 5.0.0
 

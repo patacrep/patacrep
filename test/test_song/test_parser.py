@@ -60,7 +60,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         with self.chdir():
             with open_read(destname) as expectfile:
                 with logging_reduced():
-                    song = self.song_plugins[out_format][in_format](sourcename, self.config)
+                    song = self.song_renderer[out_format][in_format](sourcename, self.config)
                     expected = expectfile.read().strip().replace(
                         "@TEST_FOLDER@",
                         files.path2posix(resource_filename(__name__, "")),
@@ -76,16 +76,10 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         # Setting datadir
         # Load the default songbook config
         cls.config = config_model('default')['en']
+        cls.config['_datadir'] = ['datadir']
 
-        if '_datadir' not in cls.config:
-            cls.config['_datadir'] = []
-        cls.config['_datadir'].append('datadir')
+        cls.song_renderer = files.load_renderer_plugins()
 
-        cls.song_plugins = files.load_plugins(
-            datadirs=cls.config['_datadir'],
-            root_modules=['songs'],
-            keyword='SONG_RENDERERS',
-            )
         with cls.chdir():
             for source in sorted(glob.glob('*.*.source')):
                 [*base, in_format, _] = source.split('.')
@@ -128,7 +122,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base` parsing fails."""
             sourcename = "{}.{}.source".format(base, in_format)
             with self.chdir('errors'):
-                parser = self.song_plugins[out_format][in_format]
+                parser = self.song_renderer[out_format][in_format]
                 self.assertRaises(errors.SongSyntaxError, parser, sourcename, self.config)
 
         test_parse_failure.__doc__ = (

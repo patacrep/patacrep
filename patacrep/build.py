@@ -10,7 +10,7 @@ from subprocess import Popen, PIPE, call, check_call
 
 import yaml
 
-from patacrep import authors, content, encoding, errors, files, pkg_datapath, utils
+from patacrep import authors, content, encoding, errors, pkg_datapath, utils
 from patacrep.index import process_sxd
 from patacrep.templates import TexBookRenderer, iter_bookoptions
 
@@ -78,18 +78,6 @@ class Songbook:
         self._config['_compiled_authwords'] = authors.compile_authwords(
             copy.deepcopy(self._config['authors'])
             )
-
-        # Loading custom plugins
-        self._config['_content_plugins'] = files.load_plugins(
-            datadirs=self._config['_datadir'],
-            root_modules=['content'],
-            keyword='CONTENT_PLUGINS',
-            )
-        self._config['_song_plugins'] = files.load_plugins(
-            datadirs=self._config['_datadir'],
-            root_modules=['songs'],
-            keyword='SONG_RENDERERS',
-            )['tsg']
 
         # Configuration set
         self._config['render'] = content.render

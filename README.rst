@@ -36,6 +36,8 @@ Or for the latest version::
 
     pip3 install https://github.com/patacrep/patacrep/archive/master.zip
 
+Details about the dependecies are in the `documentation <#documentation>`_.
+
 For developement
 ^^^^^^^^^^^^^^^^
 
@@ -67,7 +69,7 @@ Look for existing songbook files in `patadata <http://github.com/patacrep/patada
 Documentation
 -------------
 
-The full documentation is hosted by readthedoc, here : http://patacrep.readthedocs.org/.
+The full documentation is hosted by readthedoc, here : http://patacrep.readthedocs.org/ (currently only in french).
 
 Contact & Forums
 ----------------

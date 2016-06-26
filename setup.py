@@ -7,6 +7,7 @@ $ python setup.py install
 from patacrep import __version__
 
 from setuptools import setup, find_packages
+import os
 import sys
 
 setup_kwargs = {

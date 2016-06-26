@@ -5,26 +5,16 @@ to a songbook.
 """
 
 import logging
-import unidecode
 
 from patacrep import files
 from patacrep.content import ContentError
 from patacrep.content import process_content, validate_parser_argument
 from patacrep.content.song import OnlySongsError
+from patacrep.utils import normalize_string
 
 LOGGER = logging.getLogger(__name__)
 
 DEFAULT_SORT = ['by', 'album', 'title']
-
-def normalize_string(string):
-    """Return a normalized string.
-
-    Normalized means:
-    - no surrounding spaces;
-    - lower case;
-    - passed through unidecode.unidecode().
-    """
-    return unidecode.unidecode(string.lower().strip())
 
 def normalize_field(field):
     """Return a normalized field, it being a string or a list of strings."""

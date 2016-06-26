@@ -1,6 +1,7 @@
 """Some utility functions"""
 
 from collections import UserDict
+import unidecode
 
 from patacrep import errors, Rx
 
@@ -92,3 +93,13 @@ def validate_yaml_schema(data, schema):
         schema.validate(data)
     except Rx.SchemaMismatch as exception:
         raise errors.SchemaError(rx_exception=exception)
+
+def normalize_string(string):
+    """Return a normalized string.
+
+    Normalized means:
+    - no surrounding spaces;
+    - lower case;
+    - passed through unidecode.unidecode().
+    """
+    return unidecode.unidecode(string.lower().strip())

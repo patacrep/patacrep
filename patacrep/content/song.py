@@ -63,6 +63,9 @@ class SongRenderer(ContentItem):
         """Order by song path"""
         return self.song.fullpath < other.song.fullpath
 
+    def file_entry(self):
+        return {'song': self.song.fullpath}
+
 #pylint: disable=unused-argument
 #pylint: disable=too-many-branches
 @validate_parser_argument("""

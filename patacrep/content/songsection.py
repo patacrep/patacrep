@@ -19,6 +19,9 @@ class SongSection(ContentItem):
         """Render this section or chapter."""
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 
+    def file_entry(self):
+        return {self.keyword: self.name}
+
 #pylint: disable=unused-argument
 @validate_parser_argument("""
 //str

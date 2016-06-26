@@ -28,6 +28,12 @@ class Section(ContentItem):
         else:
             return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
+    def file_entry(self):
+        if self.short is None or self.keyword not in KEYWORDS:
+            return {self.keyword: self.name}
+        else:
+            return {self.keyword: {'name': self.name, 'short': self.short}}
+
 #pylint: disable=unused-argument
 @validate_parser_argument("""
 type: //any

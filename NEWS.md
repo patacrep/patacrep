@@ -19,6 +19,9 @@
   * LaTeX songs
     * The `meta` directive is now supported: `\metacrep{COMMANDNAME}{arg}` [#220](https://github.com/patacrep/patacrep/pull/220)
   * Faster index generation [#233](https://github.com/patacrep/patacrep/pull/233)
+  * Patatools
+    * New command to generate the list of the content items (songs, sections...): `patatools content items <songbook>` [#232](https://github.com/patacrep/patacrep/pull/232)
+
 
 # patacrep 5.0.0
 

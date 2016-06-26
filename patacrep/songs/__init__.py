@@ -43,7 +43,7 @@ class DataSubpath:
         self.subpath = subpath
 
     def __str__(self):
-        return os.path.join(self.datadir, self.subpath)
+        return self.fullpath
 
     @property
     def fullpath(self):

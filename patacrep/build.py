@@ -53,6 +53,19 @@ class Songbook:
         self._errors = list()
         self._config = dict()
 
+    def get_content_items(self):
+        """Return: a list of ContentItem objects, corresponding to the content to be
+        included in the .tex file.
+        """
+        content_config = self._raw_config.copy()
+        # Updates the '_langs' key
+        content_items = content.process_content(
+            content_config.get('content', []),
+            content_config,
+            )
+        content_langs = content_config['_langs']
+        return content_langs, content_items
+
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
 
@@ -81,10 +94,7 @@ class Songbook:
 
         # Configuration set
         tex_config['render'] = content.render
-        tex_config['content'] = content.process_content(
-            tex_config.get('content', []),
-            tex_config,
-            )
+        tex_config['_langs'], tex_config['content'] = self.get_content_items()
         tex_config['filename'] = output.name[:-4]
 
         # Processing special options

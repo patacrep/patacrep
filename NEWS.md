@@ -5,7 +5,9 @@
     * The capo directive is now considered [#224](https://github.com/patacrep/patacrep/pull/224)
     * The files don't need to end with a trailing line [#223](https://github.com/patacrep/patacrep/pull/223)
   * Content files
-    * The `tex` keyword correctly includes all files of the list [#228](https://github.com/patacrep/patacrep/pull/228) 
+    * The `tex` keyword correctly includes all files of the list [#228](https://github.com/patacrep/patacrep/pull/228)
+  * PDF generation
+    * The bookmarks correctly use the unicode encoding [#225](https://github.com/patacrep/patacrep/pull/225)
 * Enhancements
   * Error management
     * The 'error' option is considered for contentlist errors (incorrect syntax for instance) [#226](https://github.com/patacrep/patacrep/pull/226)

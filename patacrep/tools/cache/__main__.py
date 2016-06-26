@@ -26,7 +26,7 @@ def commandline_parser():
 
     parser = argparse.ArgumentParser(
         prog="patatools cache",
-        description="Convert between song formats.",
+        description="Clean the caches related to a songbook.",
         formatter_class=argparse.RawTextHelpFormatter,
         )
 

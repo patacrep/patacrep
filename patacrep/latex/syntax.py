@@ -2,6 +2,7 @@
 
 import logging
 import ply.yacc as yacc
+from functools import lru_cache
 
 from patacrep.latex import ast
 from patacrep.latex.detex import detex
@@ -211,12 +212,17 @@ def silent_yacc(*args, **kwargs):
         **kwargs
         )
 
+@lru_cache()
+def latex_yacc(filename=None):
+    """Call the yacc with the LaTeX parser.
+    """
+    parser = silent_yacc(module=LatexParser(filename))
+    return parser
+
 def tex2plain(string):
     """Parse string and return its plain text version."""
     return detex(
-        silent_yacc(
-            module=LatexParser(),
-            ).parse(
+        latex_yacc().parse(
                 string,
                 lexer=SimpleLexer().lexer,
                 )
@@ -231,7 +237,7 @@ def parse_song(content, filename=None):
       display error messages.
     """
     return detex(
-        silent_yacc(module=LatexParser(filename)).parse(
+        latex_yacc(filename).parse(
             content,
             lexer=SongLexer().lexer,
             ).metadata

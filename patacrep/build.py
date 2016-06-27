@@ -307,8 +307,8 @@ class SongbookBuilder:
             raise errors.LatexCompilationError(self.basename)
 
     def build_sbx(self):
-        """Make index"""
-        LOGGER.info("Building indexes…")
+        """Make .sbx indexes from .sxd files"""
+        LOGGER.info("Building .sbx indexes…")
         sxd_files = glob.glob("%s_*.sxd" % self.basename)
         for sxd_file in sxd_files:
             LOGGER.debug("Processing " + sxd_file)

@@ -1,8 +1,8 @@
 """Very simple LaTeX parser"""
 
 import logging
-import ply.yacc as yacc
 from functools import lru_cache
+import ply.yacc as yacc
 
 from patacrep.latex import ast
 from patacrep.latex.detex import detex
@@ -223,9 +223,9 @@ def tex2plain(string):
     """Parse string and return its plain text version."""
     return detex(
         latex_yacc().parse(
-                string,
-                lexer=SimpleLexer().lexer,
-                )
+            string,
+            lexer=SimpleLexer().lexer,
+            )
         )
 
 def parse_song(content, filename=None):

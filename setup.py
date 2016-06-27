@@ -28,9 +28,12 @@ if sys.platform[0:3] == 'win':
         if not os.path.isdir(root_directory):
             return
 
-        for root, __ignored, filenames in os.walk(root_directory):
+        olddir = os.getcwd()
+        os.chdir(root_directory)
+        for root, __ignored, filenames in os.walk(os.curdir):
             for filename in filenames:
                 yield os.path.join(root, filename)
+        os.chdir(olddir)
 
     # List the data files
     data_files = recursive_find(__DATADIR__)

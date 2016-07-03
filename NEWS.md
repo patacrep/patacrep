@@ -15,6 +15,7 @@
     * The `meta` directive is now supported: `{meta: COMMANDNAME:arg}` [#220](https://github.com/patacrep/patacrep/pull/220)
   * LaTeX songs
     * The `meta` directive is now supported: `\metacrep{COMMANDNAME}{arg}` [#220](https://github.com/patacrep/patacrep/pull/220)
+  * Faster index generation [#233](https://github.com/patacrep/patacrep/pull/233)
 
 # patacrep 5.0.0
 

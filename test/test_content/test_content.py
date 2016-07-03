@@ -101,7 +101,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         # Load the default songbook config
         config = prepare_songbook(
-            {'book':{'datadir':'datadir'}, 'content': sbcontent},
+            {'book':{'datadir':['datadir', 'datadir_zippedcontent']}, 'content': sbcontent},
             outputdir,
             base,
             outputdir

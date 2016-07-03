@@ -8,6 +8,7 @@ import pkgutil
 import posixpath
 import re
 import sys
+from zipimport import ZipImportError
 
 from patacrep import utils
 from patacrep import __DATADIR__
@@ -90,6 +91,13 @@ def iter_modules(path, prefix):
         else:
             try:
                 yield module_finder.find_spec(name).loader.load_module()
+            except AttributeError:
+                # It is a zipimport.zipimporter object
+                try:
+                    yield module_finder.load_module(name)
+                except ZipImportError as error:
+                    LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
+                    continue
             except ImportError as error:
                 LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
                 continue

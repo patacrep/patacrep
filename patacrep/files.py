@@ -8,7 +8,7 @@ import pkgutil
 import posixpath
 import re
 import sys
-from zipimport import ZipImportError
+from zipimport import zipimporter
 
 from patacrep import utils
 from patacrep import __DATADIR__
@@ -80,6 +80,13 @@ def chdir(*path):
     else:
         yield
 
+def load_module(module_finder, name):
+    """Load a custom module, be it a zipimporter or a FileFinder"""
+    if isinstance(module_finder, zipimporter):
+        return module_finder.load_module(name)
+    else:
+        return module_finder.find_spec(name).loader.load_module()
+
 def iter_modules(path, prefix):
     """Iterate over modules located in list of `path`.
 
@@ -90,14 +97,7 @@ def iter_modules(path, prefix):
             yield sys.modules[name]
         else:
             try:
-                yield module_finder.find_spec(name).loader.load_module()
-            except AttributeError:
-                # It is a zipimport.zipimporter object
-                try:
-                    yield module_finder.load_module(name)
-                except ZipImportError as error:
-                    LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
-                    continue
+                yield load_module(module_finder, name)
             except ImportError as error:
                 LOGGER.debug("[plugins] Could not load module {}: {}".format(name, str(error)))
                 continue

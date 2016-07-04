@@ -1,7 +1,7 @@
 deb_dist
 build
 dist
-.gitignore
+#.gitignore
 *~
 *.aux
 *.sbd

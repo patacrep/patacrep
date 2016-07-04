@@ -7,6 +7,7 @@ $ python setup.py install
 from patacrep import __version__
 
 from setuptools import setup, find_packages
+import os
 import sys
 
 setup_kwargs = {
@@ -14,10 +15,28 @@ setup_kwargs = {
     }
 
 if sys.platform[0:3] == 'win':
-    from patacrep import __DATADIR__, files
+    from patacrep import __DATADIR__
+
+    def recursive_find(root_directory):
+        """Recursively find files from a root_directory.
+
+        Return a list of files matching those conditions.
+
+        Arguments:
+        - `root_directory`: root directory of the search.
+        """
+        if not os.path.isdir(root_directory):
+            return
+
+        olddir = os.getcwd()
+        os.chdir(root_directory)
+        for root, __ignored, filenames in os.walk(os.curdir):
+            for filename in filenames:
+                yield os.path.join(root, filename)
+        os.chdir(olddir)
 
     # List the data files
-    data_files = files.recursive_find(__DATADIR__)
+    data_files = recursive_find(__DATADIR__)
     data_files = ["data/" + d for d in data_files]
     setup_kwargs['package_data'] = {'patacrep': data_files}
 else:

@@ -9,6 +9,7 @@
     * Fix the import when the content folder is zipped [#235](https://github.com/patacrep/patacrep/pull/235)
   * PDF generation
     * The bookmarks correctly use the unicode encoding [#225](https://github.com/patacrep/patacrep/pull/225)
+    * The first letters of the index are "unidecoded" [#231](https://github.com/patacrep/patacrep/pull/231)
 * Enhancements
   * Error management
     * The 'error' option is considered for contentlist errors (incorrect syntax for instance) [#226](https://github.com/patacrep/patacrep/pull/226)

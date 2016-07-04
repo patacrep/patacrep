@@ -42,7 +42,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     @classmethod
     def _create_content_test(cls, base):
-        """Return a function that `base.source` produces the correct file list"""
+        """Return a function that tests that `base.source` produces the correct file list"""
 
         def test_content(self):
             """Test that `base.source` produces the correct file list"""

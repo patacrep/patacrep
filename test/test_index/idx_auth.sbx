@@ -1,0 +1,26 @@
+\begin{idxblock}{A}
+  \idxentry{
+                \indexauthor{}{Aba}
+            }{
+                \hyperlink{song1-4.2}{4}
+            }  \idxentry{
+                \indexauthor{}{Äbc}
+            }{
+                \hyperlink{song1-2.2}{2}
+            }  \idxentry{
+                \indexauthor{}{Abd}
+            }{
+                \hyperlink{song1-3.2}{3}
+            }
+\end{idxblock}
+\begin{idxblock}{J}
+  \idxentry{
+                \indexauthor{}{Jack}
+            }{
+                \hyperlink{song1-1.2}{1}
+            }  \idxentry{
+                \indexauthor{}{Johns}
+            }{
+                \hyperlink{song1-1.2}{1}
+            }
+\end{idxblock}

@@ -1,0 +1,22 @@
+\begin{idxblock}{C}
+  \idxentry{
+                \indextitle{}{Caa}
+            }{
+                \hyperlink{song1-3.2}{3}
+            }  \idxentry{
+                \indextitle{}{Çab}
+            }{
+                \hyperlink{song1-2.2}{2}
+            }  \idxentry{
+                \indextitle{}{Cac}
+            }{
+                \hyperlink{song1-4.2}{4}
+            }
+\end{idxblock}
+\begin{idxblock}{M}
+  \idxentry{
+                \indextitle{}{My song}
+            }{
+                \hyperlink{song1-1.2}{1}
+            }
+\end{idxblock}

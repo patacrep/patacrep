@@ -1,4 +1,1 @@
-- addsongdir:
-    path: "datadir_sort"
-    content:
-        - customzippedname:
+- customzippedname:

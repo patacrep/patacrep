@@ -93,7 +93,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             return files.path2posix(elem.filename)
 
         else:
-            raise Exception(elem)
+            return str(elem.file_entry())
 
     @classmethod
     def _generate_config(cls, sbcontent, outputdir, base):
@@ -101,7 +101,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
         # Load the default songbook config
         config = prepare_songbook(
-            {'book':{'datadir':'datadir'}, 'content': sbcontent},
+            {'book':{'datadir':['datadir', 'datadir_zippedcontent']}, 'content': sbcontent},
             outputdir,
             base,
             outputdir

@@ -14,7 +14,6 @@ ms
 newunicodechar
 pgf
 tipa
-unicode-data
 url
 xcolor
 xstring

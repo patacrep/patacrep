@@ -29,10 +29,6 @@ install:
   - "7z x miktex-portable.exe * -aot -omiktex"
 
   # Let the binaries be directly callable
-  - cmd: pwd
-  - cmd: dir .
-  - cmd: cd miktex\texmfs\install\miktex\bin
-  - cmd: dir .
   - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\texmfs\install\miktex\bin
 
   # Update some packages to prevent ltluatex bug
@@ -40,7 +36,7 @@ install:
   # - cmd: mpm.exe --update=ltxbase --update=luatexbase --update=luaotfload --update=miktex-luatex-base --update=fontspec
 
   # Manually install required texlive packages
-  - cmd: mpm.exe --install-some texlive_packages.txt
+  - cmd: mpm.exe --verbose --install-some texlive_packages.txt
 
   # Update fonts
   - cmd: luaotfload-tool.exe --update

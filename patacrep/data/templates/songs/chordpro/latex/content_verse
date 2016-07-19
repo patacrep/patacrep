@@ -6,7 +6,7 @@
 \ifchorded
 \begin{verse*}
   (* for line in content.lines *)
-    \musicnote {\nolyrics (( render(line)|replace("#", "{\shrp}") ))}
+    \musicnote {\nolyrics (( render(line)|replace("#", "{\\shrp}")|replace("&", "{\\flt}") ))}
   (* endfor *)
 \end{verse*}
 \fi

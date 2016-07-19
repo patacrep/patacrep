@@ -194,6 +194,6 @@ class Index:
     def entries_to_str(self):
         """Return the LaTeX code corresponding to the index."""
         string = ""
-        for letter in sorted(self.data.keys()):
+        for letter in sorted(self.data):
             string += self.idxblock_to_str(letter, self.data[letter]) + EOL
         return string

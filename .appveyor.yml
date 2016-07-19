@@ -29,6 +29,8 @@ install:
   - "7z x miktex-portable.exe * -aot -omiktex > nul"
 
   # Let the binaries be directly callable
+  - cmd: pwd
+  - cmd: dir C:\projects\patacrep\miktex\miktex\bin
   - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\miktex\bin
 
   # Update some packages to prevent ltluatex bug

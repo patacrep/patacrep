@@ -147,4 +147,3 @@ class SongLexer(SimpleLexer):
         if token.lexer.open_braces == 0:
             token.type = 'SONG_RTITLE'
         return token
-

@@ -57,4 +57,3 @@ SONG_RENDERERS = {
         'sg': Latex2LatexSong,
     },
 }
-

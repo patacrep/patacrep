@@ -31,9 +31,9 @@ install:
   # Let the binaries be directly callable
   - cmd: pwd
   - cmd: dir .
-  - cmd: cd miktex\temp\texmfs\install\miktex\bin
+  - cmd: cd miktex\texmfs\install\miktex\bin
   - cmd: dir .
-  - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\temp\texmfs\install\miktex\bin
+  - cmd: set PATH=%PATH%;C:\projects\patacrep\miktex\texmfs\install\miktex\bin
 
   # Update some packages to prevent ltluatex bug
   # - cmd: mpm.exe --update=miktex-bin-2.9 --verbose

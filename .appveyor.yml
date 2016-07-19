@@ -26,7 +26,7 @@ install:
   - ps: "If (!(Test-Path miktex-portable.exe)){wget http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable.exe -OutFile ./miktex-portable.exe}"
 
   # Unzip miktex portable
-  - "7z x miktex-portable.exe * -aot -omiktex > nul"
+  - "7z x miktex-portable.exe * -aot -omiktex"
 
   # Let the binaries be directly callable
   - cmd: pwd

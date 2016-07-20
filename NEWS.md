@@ -4,6 +4,7 @@
   * Chordpro files
     * The capo directive is now considered [#224](https://github.com/patacrep/patacrep/pull/224)
     * The files don't need to end with a trailing line [#223](https://github.com/patacrep/patacrep/pull/223)
+    * The '&' character is correctly escaped in nolyrics environment [#236](https://github.com/patacrep/patacrep/pull/236)
   * Content files
     * The `tex` keyword correctly includes all files of the list [#228](https://github.com/patacrep/patacrep/pull/228)
     * Fix the import when the content folder is zipped [#235](https://github.com/patacrep/patacrep/pull/235)

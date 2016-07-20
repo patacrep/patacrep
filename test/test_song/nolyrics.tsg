@@ -21,7 +21,7 @@
 
 \ifchorded
 \begin{verse*}
-    \musicnote {\nolyrics \[A] \[B]}
+    \musicnote {\nolyrics \[A] \[B{\flt}]}
     \musicnote {\nolyrics \[C]}
 \end{verse*}
 \fi

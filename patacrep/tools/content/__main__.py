@@ -60,8 +60,18 @@ def do_content_items(namespace):
     config['_error'] = "fix"
     songbook = Songbook(config, config['_outputname'])
     _, content_items = songbook.get_content_items()
-    content_items = [item.file_entry() for item in content_items]
+    yaml_dir = os.path.dirname(os.path.abspath(namespace.songbook))
+    ref_dir = os.path.join(yaml_dir, 'songs')
+    content_items = [
+        normalize_song_path(item.file_entry(), ref_dir)
+        for item in content_items
+    ]
     print(yaml.safe_dump(content_items, allow_unicode=True, default_flow_style=False))
+
+def normalize_song_path(file_entry, ref_dir):
+    if 'song' in file_entry:
+        file_entry['song'] = os.path.relpath(file_entry['song'], ref_dir)
+    return file_entry
 
 def main(args):
     """Main function: run from command line."""

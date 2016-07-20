@@ -3,7 +3,6 @@
 import argparse
 import logging
 import os
-import shutil
 import sys
 import textwrap
 import yaml
@@ -11,17 +10,9 @@ import yaml
 from patacrep import errors
 from patacrep.songbook import open_songbook
 from patacrep.build import Songbook
+from .. import existing_file
 
 LOGGER = logging.getLogger("patatools.content")
-
-def filename(name):
-    """Check that argument is an existing, readable file name.
-
-    Return the argument for convenience.
-    """
-    if os.path.isfile(name) and os.access(name, os.R_OK):
-        return name
-    raise argparse.ArgumentTypeError("Cannot read file '{}'.".format(name))
 
 def commandline_parser():
     """Return a command line parser."""
@@ -47,7 +38,7 @@ def commandline_parser():
         'songbook',
         metavar="SONGBOOK",
         help=textwrap.dedent("""Songbook file to be used to look for content items."""),
-        type=filename,
+        type=existing_file,
         )
     content_items.set_defaults(command=do_content_items)
 
@@ -69,6 +60,7 @@ def do_content_items(namespace):
     print(yaml.safe_dump(content_items, allow_unicode=True, default_flow_style=False))
 
 def normalize_song_path(file_entry, ref_dir):
+    """Normalize the 'song' value, relative to ref_dir"""
     if 'song' in file_entry:
         file_entry['song'] = os.path.relpath(file_entry['song'], ref_dir)
     return file_entry

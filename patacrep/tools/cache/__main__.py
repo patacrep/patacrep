@@ -9,17 +9,9 @@ import textwrap
 
 from patacrep import errors
 from patacrep.songbook import open_songbook
+from .. import existing_file
 
 LOGGER = logging.getLogger("patatools.cache")
-
-def filename(name):
-    """Check that argument is an existing, readable file name.
-
-    Return the argument for convenience.
-    """
-    if os.path.isfile(name) and os.access(name, os.R_OK):
-        return name
-    raise argparse.ArgumentTypeError("Cannot read file '{}'.".format(name))
 
 def commandline_parser():
     """Return a command line parser."""
@@ -45,7 +37,7 @@ def commandline_parser():
         'songbook',
         metavar="SONGBOOK",
         help=textwrap.dedent("""Songbook file to be used to look for cache path."""),
-        type=filename,
+        type=existing_file,
         )
     clean.set_defaults(command=do_clean)
 

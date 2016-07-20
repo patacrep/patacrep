@@ -7,17 +7,14 @@ install:
   - pip install tox
 script:
   - tox -e lint,py35
-sudo: false
+sudo: required
+dist: trusty
 addons:
   apt:
-    sources:
-    - debian-sid
     packages:
 #     - texlive-latex-base
 #     - latex-xcolor
 #     - texlive-latex-extra
-    - texlive-binaries
-    - texlive-base
     - texlive-luatex
 #     - texlive-xetex
 #     - pgf

@@ -63,7 +63,7 @@ class SongRenderer(ContentItem):
         """Order by song path"""
         return self.song.fullpath < other.song.fullpath
 
-    def file_entry(self):
+    def to_dict(self):
         return {'song': self.song.fullpath}
 
 #pylint: disable=unused-argument

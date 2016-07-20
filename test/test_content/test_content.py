@@ -54,7 +54,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
             with logging_reduced('patacrep.content.song'):
                 expandedlist = content.process_content(sbcontent, config)
-            sourcelist = [cls._clean_path(elem.file_entry()) for elem in expandedlist]
+            sourcelist = [cls._clean_path(elem.to_dict()) for elem in expandedlist]
 
             controlname = "{}.control".format(base)
             if not os.path.exists(controlname):

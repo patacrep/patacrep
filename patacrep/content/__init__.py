@@ -116,7 +116,7 @@ class ContentItem:
         """Return the string to end a block."""
         return ""
 
-    def file_entry(self):
+    def to_dict(self):
         """Return the dict representation (as in the yaml file)."""
         raise NotImplementedError()
 

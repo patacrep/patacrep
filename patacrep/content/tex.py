@@ -20,7 +20,7 @@ class LaTeX(ContentItem):
             os.path.dirname(context['filename']),
             )))
 
-    def file_entry(self):
+    def to_dict(self):
         return {'tex': self.filename}
 
 #pylint: disable=unused-argument

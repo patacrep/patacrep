@@ -28,7 +28,7 @@ class Section(ContentItem):
         else:
             return r'\{}[{}]{{{}}}'.format(self.keyword, self.short, self.name)
 
-    def file_entry(self):
+    def to_dict(self):
         if self.short is None or self.keyword not in KEYWORDS:
             return {self.keyword: self.name}
         else:

@@ -14,7 +14,7 @@ class CounterSetter(ContentItem):
         """Set the value of the counter."""
         return r'\setcounter{{{}}}{{{}}}'.format(self.name, self.value)
 
-    def file_entry(self):
+    def to_dict(self):
         return {'setcounter': {'name': self.name, 'value': self.value}}
 
 #pylint: disable=unused-argument

@@ -50,7 +50,7 @@ def do_content_items(namespace):
     yaml_dir = os.path.dirname(os.path.abspath(namespace.songbook))
     ref_dir = os.path.join(yaml_dir, 'songs')
     content_items = [
-        normalize_song_path(item.file_entry(), ref_dir)
+        normalize_song_path(item.to_dict(), ref_dir)
         for item in content_items
     ]
     sys.stdout.write(yaml.safe_dump(content_items, allow_unicode=True, default_flow_style=False))

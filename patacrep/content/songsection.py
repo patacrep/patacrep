@@ -19,7 +19,7 @@ class SongSection(ContentItem):
         """Render this section or chapter."""
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 
-    def file_entry(self):
+    def to_dict(self):
         return {self.keyword: self.name}
 
 #pylint: disable=unused-argument

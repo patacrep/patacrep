@@ -5,7 +5,7 @@ from patacrep.content import ContentItem, ContentList, validate_parser_argument
 class FakeContent(ContentItem):
     """Fake content."""
 
-    def file_entry(self):
+    def to_dict(self):
         return {'customname':''}
 
 def parse(keyword, argument, config):

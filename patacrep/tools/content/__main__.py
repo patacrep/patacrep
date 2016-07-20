@@ -7,7 +7,6 @@ import sys
 import textwrap
 import yaml
 
-from patacrep import errors
 from patacrep.songbook import open_songbook
 from patacrep.build import Songbook
 from .. import existing_file

@@ -18,7 +18,7 @@ addons:
     - pgf                 # package tikz
     - texlive-luatex      # package luaotfload
     - texlive-xetex       # package eu2enc
-#     - lmodern
+    - lmodern
 #     - lilypond
 notifications:
   email: false

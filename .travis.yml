@@ -16,6 +16,8 @@ addons:
 #     - texlive-latex-base
 #     - latex-xcolor
 #     - texlive-latex-extra
+    - texlive-binaries
+    - texlive-base
     - texlive-luatex
 #     - texlive-xetex
 #     - pgf

@@ -22,10 +22,7 @@ def commandline_parser():
         formatter_class=argparse.RawTextHelpFormatter,
         )
 
-    subparsers = parser.add_subparsers(
-        description="",
-        dest="command",
-        )
+    subparsers = parser.add_subparsers()
     subparsers.required = True
 
     clean = subparsers.add_parser(

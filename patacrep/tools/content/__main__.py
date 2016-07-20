@@ -23,10 +23,7 @@ def commandline_parser():
         formatter_class=argparse.RawTextHelpFormatter,
         )
 
-    subparsers = parser.add_subparsers(
-        description="",
-        dest="command",
-        )
+    subparsers = parser.add_subparsers()
     subparsers.required = True
 
     content_items = subparsers.add_parser(
@@ -57,7 +54,7 @@ def do_content_items(namespace):
         normalize_song_path(item.file_entry(), ref_dir)
         for item in content_items
     ]
-    print(yaml.safe_dump(content_items, allow_unicode=True, default_flow_style=False))
+    sys.stdout.write(yaml.safe_dump(content_items, allow_unicode=True, default_flow_style=False))
 
 def normalize_song_path(file_entry, ref_dir):
     """Normalize the 'song' value, relative to ref_dir"""
@@ -68,11 +65,7 @@ def normalize_song_path(file_entry, ref_dir):
 def main(args):
     """Main function: run from command line."""
     options = commandline_parser().parse_args(args[1:])
-    try:
-        options.command(options)
-    except errors.SongbookError as error:
-        LOGGER.error(str(error))
-        sys.exit(1)
+    options.command(options)
 
 if __name__ == "__main__":
     main(sys.argv)

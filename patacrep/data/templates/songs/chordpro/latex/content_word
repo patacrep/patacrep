@@ -1,1 +1,1 @@
-(( content.value|escape_specials('{}&#_^%~$\\') ))
+(( content.value|escape_specials('{}&#_%$\\') ))

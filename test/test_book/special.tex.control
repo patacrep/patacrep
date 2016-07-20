@@ -144,13 +144,20 @@ guitar,
 
 
 
+\ifchorded
+\begin{verse*}
+    \musicnote {\nolyrics \[A]}
+\end{verse*}
+\fi
+
+
 \begin{verse}
-    \& \$ \% \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}
+    \& \$ \% \# \_ \} \{ ~ ^ \textbackslash{}
 \end{verse}
 
 
 \begin{chorus}
-    \& \$ \% \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}
+    \& \$ \% \# \_ \} \{ ~ ^ \textbackslash{}
 \end{chorus}
 
 \endsong

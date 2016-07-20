@@ -13,8 +13,8 @@ addons:
   apt:
     packages:
     - texlive-latex-base
-    - latex-xcolor
-#     - texlive-latex-extra
+    - latex-xcolor        # package xcolor
+    - texlive-latex-extra # package xstring
 #    - texlive-luatex
 #     - texlive-xetex
 #     - pgf

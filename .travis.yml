@@ -11,13 +11,12 @@ sudo: false
 addons:
   apt:
     sources:
-      - sourceline: 'ppa:texlive-backports/ppa'
+    - debian-sid
     packages:
-      - luatex
 #     - texlive-latex-base
 #     - latex-xcolor
 #     - texlive-latex-extra
-#     - texlive-luatex
+    - texlive-luatex
 #     - texlive-xetex
 #     - pgf
 #     - lmodern

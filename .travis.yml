@@ -16,7 +16,7 @@ addons:
     - latex-xcolor        # package xcolor
     - texlive-latex-extra # package xstring
     - pgf                 # package tikz
-#    - texlive-luatex
+    - texlive-luatex      # package luaotfload
 #     - texlive-xetex
 #     - lmodern
 #     - lilypond

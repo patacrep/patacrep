@@ -15,9 +15,9 @@ addons:
     - texlive-latex-base
     - latex-xcolor        # package xcolor
     - texlive-latex-extra # package xstring
+    - pgf                 # package tikz
 #    - texlive-luatex
 #     - texlive-xetex
-#     - pgf
 #     - lmodern
 #     - lilypond
 notifications:

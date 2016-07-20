@@ -6,7 +6,7 @@ class FakeContent(ContentItem):
     """Fake content."""
 
     def file_entry(self):
-        return {'customname:':''}
+        return {'customname':''}
 
 def parse(keyword, argument, config):
     return ContentList([FakeContent()])

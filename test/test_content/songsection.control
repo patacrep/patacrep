@@ -1,6 +1,6 @@
-- songsection{Traditional}
-- exsong.sg
-- songchapter{English}
-- texsong.tsg
-- chordpro.csg
-- exsong.sg
+- songsection: Traditional
+- song: datadir/songs/exsong.sg
+- songchapter: English
+- song: datadir/songs/texsong.tsg
+- song: datadir/songs/chordpro.csg
+- song: datadir/songs/exsong.sg

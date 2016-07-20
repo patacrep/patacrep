@@ -1,4 +1,4 @@
-- exsong.sg
-- texsong.tsg
-- chordpro.csg
-- subdir/chordpro.csg
+- song: datadir/songs/exsong.sg
+- song: datadir/songs/texsong.tsg
+- song: datadir/songs/chordpro.csg
+- song: datadir/songs/subdir/chordpro.csg

@@ -19,6 +19,9 @@ addons:
     - texlive-luatex      # package luaotfload
     - texlive-xetex       # package eu2enc
     - lmodern
+    - texlive-lang-french
+    - texlive-lang-german
+    - texlive-lang-spanish
 #     - lilypond
 notifications:
   email: false

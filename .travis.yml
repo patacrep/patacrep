@@ -17,7 +17,7 @@ addons:
     - texlive-latex-extra # package xstring
     - pgf                 # package tikz
     - texlive-luatex      # package luaotfload
-#     - texlive-xetex
+    - texlive-xetex       # package eu2enc
 #     - lmodern
 #     - lilypond
 notifications:

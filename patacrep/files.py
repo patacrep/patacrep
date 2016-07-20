@@ -5,10 +5,10 @@ from functools import lru_cache
 import logging
 import os
 import pkgutil
-import posixpath
 import re
 import sys
 from zipimport import zipimporter
+import posixpath
 
 from patacrep import utils
 from patacrep import __DATADIR__

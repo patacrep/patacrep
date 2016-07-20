@@ -122,8 +122,8 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
     @classmethod
     def _create_compilation_test(cls, base, onthefly=False):
         """Return a function testing that `base.tex` is correctly compiled."""
-        @unittest.skipIf('TRAVIS' in os.environ,
-                         "Travis does not support lualatex compilation yet")
+        @unittest.skipIf('CI' in os.environ,
+                         "Travis or AppVeyor does not support lualatex compilation yet")
         def test_compilation(self):
             """Test that `base` is rendered to pdf."""
             # Check compilation

@@ -78,7 +78,9 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         test_path = files.path2posix(resource_filename(__name__, ""))+"/"
         for key in ['song', 'tex']:
             if key in elem:
-                elem[key] = os.path.normpath(elem[key]).replace(test_path, "")
+                elem[key] = files.path2posix(
+                    os.path.normpath(elem[key])
+                ).replace(test_path, "")
         return elem
 
     @classmethod

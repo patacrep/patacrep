@@ -12,10 +12,10 @@ dist: trusty
 addons:
   apt:
     packages:
-#     - texlive-latex-base
+    - texlive-latex-base
 #     - latex-xcolor
 #     - texlive-latex-extra
-    - texlive-luatex
+#    - texlive-luatex
 #     - texlive-xetex
 #     - pgf
 #     - lmodern

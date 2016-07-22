@@ -1,5 +1,7 @@
 # patacrep {current_master}
 
+# patacrep 5.1.0
+
 * Bugfixes
   * Chordpro files
     * The capo directive is now considered [#224](https://github.com/patacrep/patacrep/pull/224)

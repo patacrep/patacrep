@@ -16,6 +16,7 @@
     * The 'error' option is considered for contentlist errors (incorrect syntax for instance) [#226](https://github.com/patacrep/patacrep/pull/226)
   * Chordpro songs
     * The `meta` directive is now supported: `{meta: COMMANDNAME:arg}` [#220](https://github.com/patacrep/patacrep/pull/220)
+    * The `~` and `^` characters will not be escaped [#239](https://github.com/patacrep/patacrep/pull/239)
   * LaTeX songs
     * The `meta` directive is now supported: `\metacrep{COMMANDNAME}{arg}` [#220](https://github.com/patacrep/patacrep/pull/220)
   * Faster index generation [#233](https://github.com/patacrep/patacrep/pull/233)

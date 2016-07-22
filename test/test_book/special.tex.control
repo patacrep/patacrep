@@ -134,23 +134,30 @@ guitar,
 
 \selectlanguage{english}
 
-\beginsong{\& \$ \% \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}}[
+\beginsong{\& \$ \% \# \_ \} \{ ~ \textasciicircum{} \textbackslash{}}[
   by={
-        \& \$ \% \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}  },
-  album={\& \$ \% \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}},
+        \& \$ \% \# \_ \} \{ ~ \textasciicircum{} \textbackslash{}  },
+  album={\& \$ \% \# \_ \} \{ ~ \textasciicircum{} \textbackslash{}},
   url={http://&$\%\#_~^},
 ]
 
 
 
 
+\ifchorded
+\begin{verse*}
+    \musicnote {\nolyrics \[A]}
+\end{verse*}
+\fi
+
+
 \begin{verse}
-    \& \$ \% \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}
+    \& \$ \% \# \_ \} \{ ~ ^ \textbackslash{}
 \end{verse}
 
 
 \begin{chorus}
-    \& \$ \% \# \_ \} \{ \textasciitilde{} \textasciicircum{} \textbackslash{}
+    \& \$ \% \# \_ \} \{ ~ ^ \textbackslash{}
 \end{chorus}
 
 \endsong

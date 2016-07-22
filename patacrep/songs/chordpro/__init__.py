@@ -132,8 +132,8 @@ class Chordpro2LatexSong(ChordproSong):
         '{': r'\{',
         '}': r'\}',
         '\\': r'\textbackslash{}',
-        '^': r'\textasciicircum{}',
-        '~': r'\textasciitilde{}',
+        '^': r'\textasciicircum{}', # Has special meaning in songs package (repeat chord)
+        '~': r'\textasciitilde{}',  # Used for non-breaking space in LaTeX
         '#': r'\#',
         '&': r'\&',
         '$': r'\$',

@@ -1,5 +1,8 @@
 # patacrep {current_master}
 
+# patacrep 5.1.1
+* Fix the auto-release to pypy
+
 # patacrep 5.1.0
 
 * Bugfixes

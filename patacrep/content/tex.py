@@ -20,6 +20,9 @@ class LaTeX(ContentItem):
             os.path.dirname(context['filename']),
             )))
 
+    def to_dict(self):
+        return {'tex': self.filename}
+
 #pylint: disable=unused-argument
 @validate_parser_argument("""
 type: //any

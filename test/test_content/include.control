@@ -1,6 +1,6 @@
-- exsong.sg
-- chordpro.csg
-- subdir/chordpro.csg
-- chordpro.csg
-- subdir/chordpro.csg
-- exsong.sg
+- song: datadir/songs/exsong.sg
+- song: datadir/songs/chordpro.csg
+- song: datadir/songs/subdir/chordpro.csg
+- song: datadir/songs/chordpro.csg
+- song: datadir/songs/subdir/chordpro.csg
+- song: datadir/songs/exsong.sg

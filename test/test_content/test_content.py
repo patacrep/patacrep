@@ -10,7 +10,6 @@ import yaml
 from pkg_resources import resource_filename
 
 from patacrep import content, files
-from patacrep.content import song, section, setcounter, songsection, tex
 from patacrep.songbook import prepare_songbook
 
 from .. import logging_reduced
@@ -55,16 +54,13 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
             with logging_reduced('patacrep.content.song'):
                 expandedlist = content.process_content(sbcontent, config)
-            sourcelist = [cls._clean_path(elem) for elem in expandedlist]
+            sourcelist = [cls._clean_path(elem.to_dict()) for elem in expandedlist]
 
             controlname = "{}.control".format(base)
             if not os.path.exists(controlname):
-                raise Exception("Missing control:" + str(sourcelist).replace("'", '"'))
+                raise Exception("Missing control:" + str(controlname).replace("'", '"'))
             with open(controlname, mode="r", encoding="utf8") as controlfile:
-                controllist = [
-                    elem.replace("@TEST_FOLDER@", files.path2posix(resource_filename(__name__, "")))
-                    for elem in yaml.load(controlfile)
-                    ]
+                controllist = yaml.load(controlfile)
 
             self.assertEqual(controllist, sourcelist)
 
@@ -75,25 +71,17 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
 
     @classmethod
     def _clean_path(cls, elem):
-        """Shorten the path relative to the `songs` directory"""
+        """Shorten the path relative to the test directory"""
+        if not isinstance(elem, dict):
+            return elem
 
-        latex_command_classes = (
-            section.Section,
-            songsection.SongSection,
-            setcounter.CounterSetter,
-            )
-        if isinstance(elem, latex_command_classes):
-            return elem.render(None)[1:]
-
-        elif isinstance(elem, song.SongRenderer):
-            songpath = os.path.join(os.path.dirname(__file__), 'datadir', 'songs')
-            return files.path2posix(files.relpath(elem.song.fullpath, songpath))
-
-        elif isinstance(elem, tex.LaTeX):
-            return files.path2posix(elem.filename)
-
-        else:
-            return str(elem.file_entry())
+        test_path = files.path2posix(resource_filename(__name__, ""))+"/"
+        for key in ['song', 'tex']:
+            if key in elem:
+                elem[key] = files.path2posix(
+                    os.path.normpath(elem[key])
+                ).replace(test_path, "")
+        return elem
 
     @classmethod
     def _generate_config(cls, sbcontent, outputdir, base):

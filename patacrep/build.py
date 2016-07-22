@@ -53,6 +53,19 @@ class Songbook:
         self._errors = list()
         self._config = dict()
 
+    def get_content_items(self):
+        """Return: a list of ContentItem objects, corresponding to the content to be
+        included in the .tex file.
+        """
+        content_config = self._raw_config.copy()
+        # Updates the '_langs' key
+        content_items = content.process_content(
+            content_config.get('content', []),
+            content_config,
+            )
+        content_langs = content_config['_langs']
+        return content_langs, content_items
+
     def write_tex(self, output):
         """Build the '.tex' file corresponding to self.
 
@@ -60,44 +73,41 @@ class Songbook:
         - output: a file object, in which the file will be written.
         """
         # Updating configuration
-        self._config = self._raw_config.copy()
+        tex_config = self._raw_config.copy()
         renderer = TexBookRenderer(
-            self._config['book']['template'],
-            self._config['_datadir'],
-            self._config['book']['lang'],
-            self._config['book']['encoding'],
+            tex_config['book']['template'],
+            tex_config['_datadir'],
+            tex_config['book']['lang'],
+            tex_config['book']['encoding'],
             )
 
         try:
-            self._config['_template'] = renderer.get_all_variables(self._config.get('template', {}))
+            tex_config['_template'] = renderer.get_all_variables(tex_config.get('template', {}))
         except errors.SchemaError as exception:
             exception.message = "The songbook file '{}' is not valid\n{}".format(
                 self.basename, exception.message)
             raise exception
 
-        self._config['_compiled_authwords'] = authors.compile_authwords(
-            copy.deepcopy(self._config['authors'])
+        tex_config['_compiled_authwords'] = authors.compile_authwords(
+            copy.deepcopy(tex_config['authors'])
             )
 
         # Configuration set
-        self._config['render'] = content.render
-        self._config['content'] = content.process_content(
-            self._config.get('content', []),
-            self._config,
-            )
-        self._config['filename'] = output.name[:-4]
+        tex_config['render'] = content.render
+        tex_config['_langs'], tex_config['content'] = self.get_content_items()
+        tex_config['filename'] = output.name[:-4]
 
         # Processing special options
-        self._config['_bookoptions'] = iter_bookoptions(self._config)
-        self._config['chords']['_notenames'] = self._get_chord_names(
-            self._config['chords']['notation']
+        tex_config['_bookoptions'] = iter_bookoptions(tex_config)
+        tex_config['chords']['_notenames'] = self._get_chord_names(
+            tex_config['chords']['notation']
             )
 
-        renderer.render_tex(output, self._config)
+        renderer.render_tex(output, tex_config)
 
         # Get all errors, and maybe exit program
         self._errors.extend(renderer.errors)
-        if self._config['_error'] == "failonbook":
+        if tex_config['_error'] == "failonbook":
             if self.has_errors():
                 raise errors.SongbookError("Some songs contain errors. Stopping as requested.")
 

@@ -1,5 +1,7 @@
 # patacrep {current_master}
 
+* Fix `pdfobjcompresslevel` undefined control sequence [#243](https://github.com/patacrep/patacrep/pull/243)
+
 # patacrep 5.1.1
 * Fix the auto-release to pypy
 

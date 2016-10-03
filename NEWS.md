@@ -1,5 +1,7 @@
 # patacrep {current_master}
 
+# patacrep 5.1.2
+
 * Fix `pdfobjcompresslevel` undefined control sequence [#243](https://github.com/patacrep/patacrep/pull/243)
 
 # patacrep 5.1.1

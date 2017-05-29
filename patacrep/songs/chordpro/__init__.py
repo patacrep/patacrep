@@ -91,8 +91,10 @@ class ChordproSong(Song):
     @contextfunction
     def _render_ast(context, content):
         """Render ``content``."""
-        context.vars['content'] = content
-        return context.environment.get_template(content.template()).render(context)
+        # context is readonly: create a copy before overriding the 'content' key
+        new_context = context.get_all().copy()
+        new_context['content'] = content
+        return context.environment.get_template(content.template()).render(new_context)
 
     def _escape_specials(self, content, chars=None, *, translation_map=None):
         if translation_map is None:

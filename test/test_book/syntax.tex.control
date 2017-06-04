@@ -91,6 +91,25 @@ guitar,
 
 \begin{songs}{titleidx,authidx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% songs/./customchords.csg
+
+\selectlanguage{english}
+
+\beginsong{}[
+  by={
+  },
+]
+
+\gtab{E4}{7:0133XX}
+\gtab{E5}{7:0133XX:012300}
+\gtab{E5/A*}{7:0133XX:012300}
+\gtab{A#+2}{7:0133XX:012300}
+\utab{A}{2100}
+
+
+\endsong
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% songs/./images.csg
 
 \selectlanguage{english}

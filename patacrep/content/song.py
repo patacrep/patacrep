@@ -30,7 +30,7 @@ class SongRenderer(ContentItem):
             return True
         return False
 
-    def begin_new_block(self, previous, __context):
+    def begin_new_block(self, previous, context):
         """Return a boolean stating if a new block is to be created."""
         return not isinstance(previous, SongRenderer)
 
@@ -41,7 +41,7 @@ class SongRenderer(ContentItem):
             indexes = ""
         return r'\begin{songs}{%s}' % indexes
 
-    def end_block(self, __context):
+    def end_block(self, context):
         """Return the string to end a block."""
         return r'\end{songs}'
 

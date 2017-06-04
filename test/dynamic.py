@@ -13,7 +13,7 @@ class DynamicTest(type):
 
     def __init__(cls, name, bases, nmspc):
         super().__init__(name, bases, nmspc)
-        for methodname, testmethod in cls._iter_testmethods():
+        for methodname, testmethod in cls._iter_testmethods(): #pylint: disable=no-value-for-parameter
             setattr(cls, methodname, testmethod)
 
     def _iter_testmethods(cls):

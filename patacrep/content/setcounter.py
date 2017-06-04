@@ -10,7 +10,7 @@ class CounterSetter(ContentItem):
         self.name = name
         self.value = value
 
-    def render(self, __context):
+    def render(self, context):
         """Set the value of the counter."""
         return r'\setcounter{{{}}}{{{}}}'.format(self.name, self.value)
 

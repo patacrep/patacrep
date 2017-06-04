@@ -30,7 +30,7 @@ if sys.platform[0:3] == 'win':
 
         olddir = os.getcwd()
         os.chdir(root_directory)
-        for root, __ignored, filenames in os.walk(os.curdir):
+        for root, _, filenames in os.walk(os.curdir):
             for filename in filenames:
                 yield os.path.join(root, filename)
         os.chdir(olddir)

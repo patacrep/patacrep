@@ -121,11 +121,11 @@ class ChordProLexer:
         r'[^{}\\\r\n\]\[\t ]+'
         return token
 
-    def t_LBRACKET(self, __token):
+    def t_LBRACKET(self, token):
         r'\['
         self.lexer.push_state('chord')
 
-    def t_chord_RBRACKET(self, __token):
+    def t_chord_RBRACKET(self, token):
         r'\]'
         self.lexer.pop_state()
 

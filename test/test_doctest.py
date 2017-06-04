@@ -22,7 +22,7 @@ import doctest
 import patacrep
 from patacrep import files
 
-def load_tests(__loader, tests, __pattern):
+def load_tests(loader, tests, pattern):
     """Load tests (doctests).
     """
     # Loading doctests

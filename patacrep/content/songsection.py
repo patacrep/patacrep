@@ -15,7 +15,7 @@ class SongSection(ContentItem):
         self.keyword = keyword
         self.name = name
 
-    def render(self, __context):
+    def render(self, context):
         """Render this section or chapter."""
         return r'\{}{{{}}}'.format(self.keyword, self.name)
 

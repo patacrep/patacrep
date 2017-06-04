@@ -82,7 +82,7 @@ class ContentItem:
     here.
     """
 
-    def render(self, __context):
+    def render(self, context):
         """Render this content item.
 
         Returns a string, to be placed verbatim in the generated .tex file.
@@ -91,7 +91,7 @@ class ContentItem:
 
     # Block management
 
-    def begin_new_block(self, __previous, __context):
+    def begin_new_block(self, previous, context):
         """Return a boolean stating if a new block is to be created.
 
         # Arguments
@@ -108,11 +108,11 @@ class ContentItem:
         """
         return True
 
-    def begin_block(self, __context):
+    def begin_block(self, context):
         """Return the string to begin a block."""
         return ""
 
-    def end_block(self, __context):
+    def end_block(self, context):
         """Return the string to end a block."""
         return ""
 

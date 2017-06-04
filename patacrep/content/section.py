@@ -22,7 +22,7 @@ class Section(ContentItem):
         self.name = name
         self.short = short
 
-    def render(self, __context):
+    def render(self, context):
         if self.short is None or self.keyword not in KEYWORDS:
             return r'\{}{{{}}}'.format(self.keyword, self.name)
         else:

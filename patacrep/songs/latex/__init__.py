@@ -29,7 +29,7 @@ class Latex2LatexSong(Song):
         else:
             self.authors = []
 
-    def render(self):
+    def render(self, *args, **kwargs):
         """Return the code rendering the song."""
         # pylint: disable=signature-differs
         filename = os.path.basename(self.fullpath)

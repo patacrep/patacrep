@@ -19,7 +19,7 @@ LOGGER = logging.getLogger()
 # pylint: disable=too-few-public-methods
 class ParseStepsAction(argparse.Action):
     """Argparse action to split a string into a list."""
-    def __call__(self, __parser, namespace, values, __option_string=None):
+    def __call__(self, parser, namespace, values, option_string=None):
         if not getattr(namespace, self.dest):
             setattr(namespace, self.dest, [])
         setattr(
@@ -33,7 +33,7 @@ class ParseStepsAction(argparse.Action):
 
 class VerboseAction(argparse.Action):
     """Set verbosity level with option --verbose."""
-    def __call__(self, *_args, **_kwargs):
+    def __call__(self, parser, namespace, values, option_string=None):
         LOGGER.setLevel(logging.DEBUG)
 
 def yesno_type(string):

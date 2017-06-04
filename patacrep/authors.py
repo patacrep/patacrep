@@ -33,7 +33,7 @@ def split_author_names(string):
 
     >>> split_author_names("Edgar Allan Poe")
     ('Poe', 'Edgar Allan')
-    >>> split_author_names("Edgar Allan \emph {Poe}")
+    >>> split_author_names("Edgar Allan \\emph {Poe}")
     ('{Poe}', 'Edgar Allan \\emph')
     >>> split_author_names(r"The Rolling\ Stones")
     ('Rolling~Stones', 'The')

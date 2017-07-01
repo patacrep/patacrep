@@ -262,7 +262,8 @@ class ChordproParser(Parser):
             keyword = symbols[3]
             argument = symbols[4]
 
-        symbols[0] = ast.VerseDirective(keyword, argument)
+        if keyword != "newline":
+            symbols[0] = ast.VerseDirective(keyword, argument)
 
     @staticmethod
     def p_directive_next(symbols):

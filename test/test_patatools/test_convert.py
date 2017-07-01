@@ -70,10 +70,8 @@ class TestConvert(unittest.TestCase, metaclass=dynamic.DynamicTest):
                     with logging_reduced():
                         if os.path.exists(destname):
                             os.remove(destname)
-                        self.assertEqual(
-                            self._system(main, args + [in_format, out_format, sourcename]),
-                            1,
-                            )
+                        with self.assertRaises(Exception):
+                            self._system(main, args + [in_format, out_format, sourcename])
 
     @staticmethod
     @contextlib.contextmanager

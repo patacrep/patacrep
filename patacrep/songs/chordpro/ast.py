@@ -388,7 +388,7 @@ class VerseDirective(Directive):
     def __init__(self, keyword, argument=None):
         if keyword not in VERSE_DIRECTIVES:
             #TODO Raise better exception
-            raise Exception
+            raise Exception(keyword)
         super().__init__(keyword, argument)
 
     @property

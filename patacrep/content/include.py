@@ -14,13 +14,19 @@ from patacrep import encoding, errors
 
 LOGGER = logging.getLogger(__name__)
 
-def load_from_datadirs(filename, songdirs):
-    """Load 'filename' from one of the songdirs.
+def load_from_datadirs(filename, songdirs, songbookfile_dir=None):
+    """Load 'filename', relative to:
+        - or one of the songdirs
+        - the dir of the songbook file dir
 
-    Raise an exception if it was not found in any songdir.
+    Raise an exception if it was not found in any directory.
     """
     for path in songdirs:
         fullpath = os.path.join(path.fullpath, filename)
+        if os.path.exists(fullpath):
+            return fullpath
+    if songbookfile_dir:
+        fullpath = os.path.join(songbookfile_dir, filename)
         if os.path.exists(fullpath):
             return fullpath
     # File not found
@@ -52,9 +58,13 @@ def parse(keyword, config, argument):
     if isinstance(argument, str):
         argument = [argument]
 
-    for path in argument:
+    for filename in argument:
         try:
-            filepath = load_from_datadirs(path, config['_songdir'])
+            filepath = load_from_datadirs(
+                filename,
+                config['_songdir'],
+                config.get('_songbookfile_dir')
+            )
         except ContentError as error:
             new_contentlist.append_error(error)
             continue

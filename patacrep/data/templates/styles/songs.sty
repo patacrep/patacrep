@@ -8,7 +8,7 @@
 %% 
 %% This is a generated file.
 %% 
-%% Copyright (C) 2015 by Kevin W. Hamlen
+%% Copyright (C) 2017 by Kevin W. Hamlen
 %% 
 %% This file may be distributed and/or modified under the conditions of
 %% the LaTeX Project Public License, either version 1.3a of this license
@@ -22,7 +22,7 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{songs}
-  [2015/08/18 v2.18 Songs package]
+  [2017/07/16 v3.1a Songs package]
 \newif\ifSB@etex
 \ifx\eTeXversion\undefined\else
   \ifx\eTeXversion\relax\else
@@ -347,7 +347,7 @@
       \setbox\SB@temp\vsplit#2to#4\relax%
       \ifvoid#2%
         \ifnum#1=\z@%
-          \global\setbox#2\vbox{\unvbox\SB@tempii\unskip}%
+          \global\setbox#2\box\SB@tempii%
         \else%
           \SB@updatepage%
           \global\advance#3\@ne%
@@ -361,6 +361,7 @@
         \fi\fi%
       \fi%
     \repeat%
+    \ifnum#1=\z@\global\setbox#2\vbox{\unvbox#2\unskip}\fi%
   \endgroup\fi%
 }
 \newcommand\SB@migrate[1]{%
@@ -637,14 +638,10 @@
     \SB@styppage%
   \endgroup%
 }
-\newcommand\SB@songlistbrk{}
-\def\SB@songlistbrk{brk}
-\newcommand\SB@songlistnc{}
-\def\SB@songlistnc{nextcol}
-\newcommand\SB@songlistcp{}
-\def\SB@songlistcp{sclearpage}
-\newcommand\SB@songlistcdp{}
-\def\SB@songlistcdp{scleardpage}
+\newcommand*\SB@songlistbrk{brk}
+\newcommand*\SB@songlistnc{nextcol}
+\newcommand*\SB@songlistcp{sclearpage}
+\newcommand*\SB@songlistcdp{scleardpage}
 \newcommand\commitsongs{%
   \ifpartiallist%
     \ifnum\SB@numcols>\z@%
@@ -759,8 +756,7 @@
 \newcommand\SB@lop[1]{\expandafter\SB@@lop\the#1\SB@@lop#1}
 \newcommand\SB@@lop{}
 \def\SB@@lop\\#1\\#2\SB@@lop#3#4{\global#3{\\#2}\global#4{#1}}
-\newcommand\SB@emptylist{}
-\def\SB@emptylist{\\}
+\newcommand*\SB@emptylist{\\}
 \newcommand\SB@ifempty[3]{%
   \edef\SB@temp{\the#1}%
   \ifx\SB@temp\SB@emptylist#2\else#3\fi%
@@ -1354,12 +1350,9 @@
     \newmarks\SB@nocmarkclass
   }
 \fi
-\newcommand\SB@cmark{}
-\def\SB@cmark{SB@cmark}
-\newcommand\SB@lastcmark{}
-\def\SB@lastcmark{SB@lastcmark}
-\newcommand\SB@nocmark{}
-\def\SB@nocmark{SB@nocmark}
+\newcommand*\SB@cmark{SB@cmark}
+\newcommand*\SB@lastcmark{SB@lastcmark}
+\newcommand*\SB@nocmark{SB@nocmark}
 \newenvironment{chorus}{\beginchorus}{\SB@endchorus}
 \newcommand\beginchorus{%
   \ifSB@insong
@@ -2099,18 +2092,15 @@
 \newcommand\SB@setchord{}
 {
   \catcode`^\active
-  \catcode`!7
   \gdef\SB@setchord#1{%
     \SB@gettabindtrue\SB@nohattrue%
     \setbox\SB@chordbox\hbox{%
       \unhbox\SB@chordbox%
       \begingroup%
         \ifSB@trackch%
-          \def\SB@activehat{\ifmmode!\else\global\SB@nohatfalse\fi}%
+          \let\SB@activehat\SB@hat@tr%
         \else%
-          \def\SB@activehat{%
-            \ifmmode!\else\SB@lop\SB@ctail\SB@toks\the\SB@toks\fi%
-          }%
+          \let\SB@activehat\SB@hat@notr%
         \fi%
         \let^\SB@activehat%
         \printchord{%
@@ -2267,8 +2257,7 @@
 }
 \newcommand\SB@endcname{}
 \let\SB@endcname\endgroup
-\newcommand\SB@nbsp{}
-\def\SB@nbsp{\nobreakspace{}}
+\newcommand*\SB@nbsp{\nobreakspace{}}
 \newif\ifSB@firstchord\SB@firstchordtrue
 \newcommand*\SB@@chord{}
 \def\SB@@chord#1]{%
@@ -2600,7 +2589,8 @@
         \advance\SB@dimen.5em%
         \hbox to\SB@dimen{\unhbox\SB@chordbox\hfil}%
         \hbox to\SB@dimen{%
-          \unhcopy\SB@lyricbox\hfil\char\hyphenchar\font\hfil%
+          \unhcopy\SB@lyricbox\hfil
+          \ifnum\hyphenchar\font>\m@ne\char\hyphenchar\font\hfil\fi%
         }%
         \global\SB@cnt\@m%
         \gdef\SB@temp{\expandafter\SB@clearlig\SB@ligpost}%
@@ -2676,6 +2666,15 @@
 \newcommand\SB@activehat{%
   \ifmmode^\else\expandafter\SB@rechord\fi%
 }
+\newcommand\SB@hat@tr{%
+  \ifmmode^\else\global\SB@nohatfalse\fi%
+}
+\newcommand\SB@hat@notr{%
+  \ifmmode^\else%
+    \SB@lop\SB@ctail\SB@toks%
+    \expandafter\transposehere\expandafter{\the\SB@toks}%
+  \fi%
+}
 \newcommand\SB@loadactives{}
 {
   \catcode`&\active
@@ -2750,7 +2749,9 @@
   \sffamily\fontsize\@xpt\@xpt\selectfont#1%
 }}
 \newcommand\SB@onfret[1]{%
-  \rlap{\hbox to\SB@fretwidth{\hfil\vrule\@height6\p@\hfil}}%
+  \kern.5\SB@fretwidth\kern-.2\p@%
+  \vrule\@height6\p@%
+  \kern-.2\p@\kern-.5\SB@fretwidth%
   \hbox to\SB@fretwidth{\hfil#1\hfil}%
 }
 \newcommand\SB@atopfret[1]{%
@@ -2785,56 +2786,131 @@
     \fontsize\@xpt\@xpt\selectfont\char14%
   }%
 }}
-\newcommand\SB@fretempty{\SB@onfret\relax}
-\newcommand\SB@frethit{\SB@onfret{%
-  \hbox{%
+\newcommand\SB@do[1]{}
+\newcommand\SB@doify[2]{%
+  \SB@toks{}%
+  \edef#1{#2}%
+  \expandafter\SB@@doify#1\SB@@doify%
+  \edef#1{\the\SB@toks}%
+}
+\newcommand\SB@@doify[1]{%
+  \ifx#1\SB@@doify\else%
+    \SB@toks\expandafter{\the\SB@toks\SB@do{#1}}%
+    \expandafter\SB@@doify%
+  \fi%
+}
+\newcommand\SB@allbarres{}
+\newcommand\SB@dobarre{}
+\newcommand\SB@barreI{\noexpand\SB@barreI}
+\newcommand\SB@barreN{\noexpand\SB@barreN}
+\newcommand\SB@barreY{\noexpand\SB@barreY}
+\newcommand\SB@lowfret{%
+  \let\SB@dobarre\SB@@lowfret\SB@allbarres%
+  \SB@fretempty%
+}
+\newcommand\SB@@lowfret[3]{{%
+  \let\SB@barreI\SB@barreN%
+  \let\SB@barreY\SB@barreN%
+  \xdef#1{#1}%
+}}
+\newcommand\SB@bactivate[3]{{%
+  \let\SB@barreI\SB@barreY%
+  \xdef#1{#1}%
+}}
+\newcommand\SB@bbarre[1]{%
+  \xdef#1{\SB@barreI{\the\SB@cntii}#1}%
+}
+\newcommand\SB@ebarre[3]{%
+  \ifx#1\@empty%
+    \ifnum\SB@cnt=\@ne\SB@errebar#2#3\fi%
+  \else%
+    \expandafter\SB@@ebarre#1\SB@@ebarre#1%
+  \fi%
+}
+\newcommand\SB@@ebarre{}
+\def\SB@@ebarre#1#2#3\SB@@ebarre#4{{%
+  \gdef#4{#3}%
+  \let\SB@barreI\@gobble%
+  \let\SB@barreN\@gobble%
+  \let\SB@barreY\SB@barre%
+  #1{#2}%
+}}
+\newcommand\SB@barreson[3]{%
+  \def#2{\SB@bbarre#1}%
+  \def#3{\SB@ebarre#1#2#3}%
+}
+\newcommand\SB@barresoff[3]{\let#2\relax\let#3\relax}
+\newcommand\SB@fretempty{%
+  \advance\SB@cntii\@ne%
+  \SB@onfret\relax%
+}
+\newcommand\SB@fretdot{%
+  \advance\SB@cntii\@ne%
+  \let\SB@dobarre\SB@bactivate\SB@allbarres%
+  \SB@@fretdot%
+}
+\newcommand\SB@@fretdot{%
+  \SB@onfret{%
     \fontencoding{OMS}\fontfamily{cmsy}%
     \fontseries{m}\fontshape{n}%
     \fontsize\@xiipt\@xiipt\selectfont\char15%
   }%
+}
+\newcommand\SB@barre[1]{{%
+  \SB@dimen\SB@fretwidth%
+  \multiply\SB@dimen\SB@cntii%
+  \advance\SB@dimen-#1\SB@fretwidth%
+  \kern-\SB@dimen%
+  \SB@@fretdot%
+  \kern-.5\SB@fretwidth%
+  \advance\SB@dimen-\SB@fretwidth%
+  \raise.7pt\hbox{\vrule\@height4.6\p@\@width\SB@dimen}%
+  \kern-.5\SB@fretwidth%
+  \SB@@fretdot%
 }}
+\newcommand\SB@fretend{{%
+  \let\SB@barreI\@gobble%
+  \let\SB@barreN\@gobble%
+  \let\SB@barreY\SB@barre%
+  \def\SB@dobarre##1##2##3{##1\gdef##1{}}\SB@allbarres%
+}}
+\newcommand*\SB@X{X}
+\newcommand*\SB@Z{0}
+\newcommand*\SB@O{O}
 \newcommand\SB@finger[1]{%
-  \SB@atopfret{\sffamily\fontsize\@vipt\@vipt\selectfont#1}%
+  \def\SB@temp{#1}%
+  \ifx\SB@temp\SB@X\SB@topempty\else%
+  \ifx\SB@temp\SB@Z\SB@topempty\else%
+  \ifx\SB@temp\SB@O\SB@topempty\else%
+    \SB@atopfret{\sffamily\fontsize\@vipt\@vipt\selectfont#1}%
+  \fi\fi\fi%
 }
 \newif\ifSB@gettabind\SB@gettabindfalse
 \SB@newdimen\SB@tabindent
 \newcommand\SB@targfret{}
 \newcommand\SB@targstr{}
 \newcommand\SB@targfing{}
-\newcommand\SB@csify[2]{%
-  \SB@toks{}%
-  \SB@cnt\z@%
-  \SB@@csify#2\SB@@csify%
-  \edef#1{\the\SB@toks}%
-}
-\newcommand\SB@@csify[1]{%
-  \ifx#1\SB@@csify\else%
-    \advance\SB@cnt\@ne%
-    \SB@toks\expandafter{\the\SB@toks\csname#1\endcsname}%
-    \expandafter\SB@@csify%
-  \fi%
-}
-\newcommand\SB@gttop{%
-  \let\X\SB@topX\let\0\SB@topO\let\O\0\let\1\SB@topempty%
-  \let\2\1\let\3\1\let\4\1\let\5\1%
-  \let\6\1\let\7\1\let\8\1\let\9\1%
-}
 \newcommand\SB@gtinit{%
-  \let\X\SB@fretempty\let\0\X\let\O\X\let\1\SB@frethit%
-  \let\2\X\let\3\X\let\4\X\let\5\X%
-  \let\6\X\let\7\X\let\8\X\let\9\X%
+  \def\SB@do##1{\csname##1\endcsname}%
+  \let\O\0%
+  \let\3\2\let\4\2\let\5\2\let\6\2%
+  \let\7\2\let\8\2\let\9\2%
 }
 \newcommand\SB@gtinc{%
+  \advance\SB@cnt\@ne%
   \let\9\8\let\8\7\let\7\6\let\6\5\let\5\4%
-  \let\4\3\let\3\2\let\2\1\let\1\0%
+  \let\4\3\let\3\2\let\2\1\let\1\SB@lowfret%
 }
-\newcommand\SB@gtset[2]{%
-  \let\X#1\let\0\X\let\O\X%
-  \def\1{#21}\def\2{#22}\def\3{#23}%
-  \def\4{#24}\def\5{#25}\def\6{#26}%
-  \def\7{#27}\def\8{#28}\def\9{#29}%
+\newcommand\BarreDelims[2]{%
+  \expandafter\SB@bdelims\csname SB@bs@#1#2\expandafter\endcsname%
+    \csname#1\expandafter\endcsname\csname#2\endcsname%
 }
-\newcommand\SB@gtmax[1]{\ifnum\SB@cnt<#1\SB@cnt#1\fi}
+\newcommand\SB@bdelims[3]{%
+  \newcommand*#1{}%
+  \SB@app\def\SB@allbarres{\SB@dobarre#1#2#3}%
+}
+\BarreDelims()
+\BarreDelims[]
 \newcommand\gtab{\SB@begincname\SB@gtab}
 \newcommand*\SB@gtab[1]{%
   \SB@endcname%
@@ -2869,7 +2945,13 @@
       \thinspace{\printchord{\transposehere{#1}\strut}}\thinspace%
     }%
     \setbox\SB@boxii\hbox{\SB@fretnum{\SB@targfret}}%
-    \setbox\SB@boxiii\hbox{{\SB@gttop\SB@targstr}}%
+    \setbox\SB@boxiii\hbox{{%
+      \let\X\SB@topX\let\0\SB@topO%
+      \let\1\SB@topempty\let\2\1%
+      \SB@gtinit%
+      \let\SB@dobarre\SB@barresoff\SB@allbarres%
+      \SB@targstr%
+    }}%
     \hsize\wd\SB@box%
     \ifSB@gettabind%
       \global\SB@tabindent\wd\SB@boxii%
@@ -2894,18 +2976,20 @@
       \vtop{%
         \SB@dimen\wd\SB@boxiii%
         \box\SB@boxiii%
-        \SB@cnt\minfrets%
-        \SB@gtset\relax\SB@gtmax\SB@targstr%
+        \let\X\SB@fretempty\let\0\X%
+        \let\1\SB@fretdot\def\2{\SB@fretempty\global\SB@testtrue}%
         \SB@gtinit%
+        \let\SB@dobarre\SB@barreson\SB@allbarres%
+        \SB@cnt\@ne%
         \loop%
-          \SB@fretbar\hbox{\SB@targstr}%
-          \advance\SB@cnt\m@ne%
-        \ifnum\SB@cnt>\z@\SB@gtinc\repeat%
+          \SB@testfalse%
+          \SB@fretbar\hbox{\SB@cntii\z@\SB@targstr\SB@fretend}%
+          \ifnum\SB@cnt<\minfrets\SB@testtrue\fi%
+        \ifSB@test\SB@gtinc\repeat%
         \SB@fretbar%
         \ifx\SB@targsfing\@empty\else%
           \kern1.5\p@%
-          \SB@gtset\SB@topempty\SB@finger%
-          \hbox{\SB@targfing}%
+          \hbox{\let\SB@do\SB@finger\SB@targfing}%
         \fi%
       }%
       \hfil%
@@ -2919,23 +3003,24 @@
 \def\SB@tabargs#1:#2:#3:#4\SB@tabargs{%
   \def\SB@temp{#4}%
   \ifx\SB@temp\@empty%
-    \SB@csify\SB@targstr{#1}%
+    \SB@doify\SB@targstr{#1}%
   \else\ifx\SB@temp\SB@ctoken%
-    \SB@csify\SB@targstr{#1}%
-    \ifnum\SB@cnt>\@ne%
-      \SB@cntii\SB@cnt%
-      \SB@csify\SB@targfing{#2}%
-      \SB@cnt\SB@cntii%
-    \else%
+    \SB@@tabargs#1\SB@@tabargs%
+    \ifx\SB@temp\@empty%
       \def\SB@targfret{#1}%
-      \SB@csify\SB@targstr{#2}%
+      \SB@doify\SB@targstr{#2}%
+    \else%
+      \SB@doify\SB@targfing{#2}%
+      \SB@doify\SB@targstr{#1}%
     \fi%
   \else%
     \def\SB@targfret{#1}%
-    \SB@csify\SB@targfing{#3}%
-    \SB@csify\SB@targstr{#2}%
+    \SB@doify\SB@targfing{#3}%
+    \SB@doify\SB@targstr{#2}%
   \fi\fi%
 }
+\newcommand\SB@@tabargs{}
+\def\SB@@tabargs#1#2\SB@@tabargs{\def\SB@temp{#2}}
 \newcommand\songchapter{%
   \let\SB@temp\@seccntformat%
   \def\@seccntformat##1{}%
@@ -3662,10 +3747,10 @@
   d \protect\endverse, or between \protect\beginchorus\space%
   and \protect\endchorus.}%
 }
-\newcommand\SB@errtab{%
-  \SB@Error{Invalid argument to \protect\gtab\space macro. R%
-   eplacing it with \protect\0.}{Valid arguments consist onl%
-   y of: X, O, 0, 1, 2, 3, or 4.}%
+\newcommand\SB@errebar[2]{%
+  \SB@Error{Ignoring unbalanced \expandafter\@gobble\string#2 i%
+  n \protect\gtab}{Found no \expandafter\@gobble\string#1 to ma%
+  tch the \expandafter\@gobble\string#2.}%
 }
 \newcommand\SB@errnoidx[1]{%
   \SB@Error{Unknown index identifier: #1}{This index identifie%

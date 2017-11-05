@@ -7,6 +7,7 @@ import locale
 iecPattern = re.compile(r"\IeC {\\(.*?)}")
 replacePattern = {
      '`A': 'À',
+     '^A': 'Â',
      '`a': 'à',
      '^a': 'â',
      "'a": 'á',

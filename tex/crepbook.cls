@@ -13,6 +13,7 @@
 \newif{\ifimportantdiagramonly}
 \newif{\ifpictures}
 \newif{\ifnorepeatchords}
+\newif{\ifrepeatchords}
 \newif{\ifukulele}
 \newif{\ifguitar}
 \newif{\ifonesongperpage}

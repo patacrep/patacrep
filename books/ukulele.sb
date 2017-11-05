@@ -1,0 +1,11 @@
+{
+"template" : "patacrep.tmpl",
+"lang" : "french",
+"songs" : "all",
+"booktype" : "chorded",
+"instruments" : ["ukulele"],
+"bookoptions" : [
+    "diagram",
+    "pictures"
+  ]
+}

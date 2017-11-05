@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Light my fire}
-  [by={The Doors},cov={the-doors},album={The doors}]
+  [by={The Doors},cover={the-doors},album={The doors}]
 
   \cover
   \gtab{Am7}{X02010}
@@ -14,7 +14,7 @@
 
   \begin{verse}
     You \[Am7]know that it would be \[F#m7]untrue
-    You \[Am7]know that it would be a \[F#m7]liar
+    You \[Am7]know that I would be a \[F#m7]liar
     \[Am7]If I was to say to \[F#m7]you
     \[Am7]Girl we couldn't get much \[F#m7]higher
   \end{verse}
@@ -31,6 +31,8 @@
     Try now we can only loose
     And our love become a funeral pyre
   \end{verse}
+
+  \musicnote{\Chorus{}, instrumental, \Verse{} 2, \Chorus{}, \Verse{} 1}
 
   \begin{chorus}
     Come on baby light my fire \rep{2}

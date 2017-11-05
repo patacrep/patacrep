@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Mother}
-  [by=Pink Floyd,cov=the-wall,album=The Wall]
+  [by={Pink Floyd},cover={the-wall},album={The Wall}]
 
   \cover
   \gtab{G}{320003}

@@ -1,0 +1,62 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le petit âne gris}
+  [by={Hugues Aufray ft. SGDF},cover={la-terre-est-si-belle},%
+  album={La Terre est si belle}]
+
+  \cover
+
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+
+
+  \beginverse
+    É\[Em]coutez cette histoire, que \[D]l'on m'a racon\[Em]tée
+    Du fond de ma mémoire, je \[D]vais vous la chan\[Em]ter
+    Elle \[G]se passe en Pro\[D]vence, au \[C]milieu des mou\[D]tons
+    Dans \[Em]{le sud} de la France, au pays \[G]des \[D]san\[Em]tons \rep{2}
+  \endverse
+
+  \beginchorus
+    C'est bien fait, bien fait, bien fait pour lui
+    Ah\dots{} le petit âne gris!
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    Quand il vint au domaine, y'avait un beau troupeau
+    Les étables étaient pleines, de brebis et d'agneaux
+    Marchant toujours en tête, aux premières lueurs
+    Pour tirer sa charrette, il mettait tout son cœur \rep{2}
+  \endverse
+
+  \beginverse
+    Au temps des transhumances, il s'en allait heureux
+    Remontant la Durance, honnête et courageux
+    Mais un jour à Marseille, des messieurs sont venus
+    La ferme était bien vieille, alors on l'a vendue \rep{2}
+  \endverse
+
+  \beginverse
+    Il resta au village, tout le monde l'aimait bien
+    Vaillant malgré son âge, et malgré son chagrin
+    Image d'évangile, vivant d'humilité
+    Il se rendait utile, auprès du cantonnier \rep{2}
+  \endverse
+
+  \beginverse
+    Cette vie honorable, un soir s'est terminée
+    Dans le fond d'une étable, tout seul il s'est couché
+    Pauvre bête de somme, il a fermé ses yeux
+    Abandonné des hommes, il est mort sans adieux \rep{2}
+  \endverse
+
+  \beginverse
+    mm {\ldots} mm {\ldots} mm
+    Cette chanson sans gloire, vous racontait la vie
+    Vous racontait l'histoire, d'un petit âne gris \rep{2}
+  \endverse
+
+\endsong

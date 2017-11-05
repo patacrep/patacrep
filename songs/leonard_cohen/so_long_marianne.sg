@@ -1,0 +1,65 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{So long, Marianne}
+  [by={Leonard Cohen},cover={the-collection},album={The collection}]
+
+  \cover
+  \gtab{A}{002220}
+  \gtab*{Asus4}{002230}
+  \gtab{Bm}{2:002210}
+  \gtab{D}{X00232}
+  \gtab{G}{3:022100}
+  \gtab{F#m}{2:022000}
+  \gtab{E}{022100}
+  \gtab*{Esus4}{022200}
+
+  \begin{verse}
+    Come \[A]over to the window, my little \[Bm]darling
+    \[D] I'd like to try to read your pa\[A]lm
+    \[G] I used to think I was some kind of \[D]gypsy boy
+    \[F#m] Before I let you take me hom\[E]e \[Esus4 E E7]
+  \end{verse}
+
+  \begin{chorus}
+    (Now/Oh) \[A]{so long}, Marianne
+    \[F#m] It's time that we began to \[E]laugh
+    \[Esus4] And \[E]cry, \[E7] and \[E]cry
+    \[Esus4] And \[E]laugh a\[E7]bout it all \[A]again \[Asus4 A Asus4 A]
+  \end{chorus}
+
+  \begin{verse}
+    Well, you know that I love to live with you
+    But you make me forget so very much
+    I forget to pray for the angel
+    And then the angels forget to pray for us
+  \end{verse}
+
+  \begin{verse}
+    We met when we were almost young
+    Deep in the green lilac park
+    You held on to me like I was a crucifix
+    As we went kneeling through the dark
+  \end{verse}
+
+  \begin{verse}
+    Your letters they all say that you're beside me now
+    Then why do I feel alone?
+    I'm standing on a ledge and your fine spider web
+    Is fastening my ankle to a stone
+  \end{verse}
+
+  \begin{verse}
+    For now I need your hidden love
+    I'm cold as a new razor blade
+    You left when I told you I was curious
+    I never said that I was brave
+  \end{verse}
+
+  \begin{verse}
+    Oh, you are really such a pretty one
+    I see you've gone and changed your name again
+    And just when I climbed this whole mountainside
+    To wash my eyelids in the rain
+  \end{verse}
+
+\endsong

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Poèmes}
-  [by={Les Hurlements d'Léo},cov={la-belle-affaire},album={La belle affaire},%
+  [by={Les Hurlements\ d'Léo},cover={la-belle-affaire},album={La belle affaire},%
   url={http://www.hurlements.com}]
 
   \cover
@@ -47,7 +47,7 @@
   \begin{verse*}
     Elle me parle d'amours sincères
     Et de douces sensations
-    Alors quand viens le matin
+    Alors quand vient le matin
     J'ai oublié mon prénom
   \end{verse*}
 

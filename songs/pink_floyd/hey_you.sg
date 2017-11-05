@@ -1,22 +1,22 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Hey you}
-  [by={Pink Floyd},cov={the-wall},album={The Wall}]
+  [by={Pink Floyd},cover={the-wall},album={The Wall}]
 
   \cover
-  \gtab{Em*}{7:X02210}
-  \gtab{Dm*}{5:X02210}
-  \gtab{Bm*}{7:022000}
-  \gtab{D*}{5:X02220}
-  \gtab{G*}{7:XXX232}
-  \gtab{C*}{3:X02220}
+  \gtab*{Em*}{7:X02210}
+  \gtab*{Dm*}{5:X02210}
+  \gtab*{Bm*}{7:022000}
+  \gtab*{D*}{5:X02220}
+  \gtab*{G*}{7:XXX232}
+  \gtab*{C*}{3:X02220}
   \gtab{Bm}{2:X02210}
   \gtab{Am}{X02210}
   \gtab{Em}{022000}
   \gtab{D}{XX0232}
   \gtab{G}{320003}
   \gtab{C}{X32010}
-  \gtab{G**}{3:022100}
+  \gtab*{G**}{3:022100}
 
   \lilypond{hey_you}
   \begin{verse*}

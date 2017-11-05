@@ -1,0 +1,76 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Goodbye Marylou}
+  [by={Michel Polnareff},cover={passe-present},album={Passé Présent }]
+
+  \cover
+  \gtab{F}{1:022100}
+  \gtab{F4}{1:022200}
+  \gtab{C}{332010}
+  \gtab{Cm}{3:X02210}
+  \gtab{Gm}{3:022000}
+  \gtab{B&}{1:X02220}
+  \gtab{D4}{X00233}
+  \gtab{D}{XX0232}
+  \gtab{D7}{XX0212}
+  \gtab{C4}{X32011}
+
+  \begin{verse}
+    \[F]Quand l'écran s'all\[F4]ume je tape sur \[C]mon clavier\[F]
+    Tous les \[C]mots sans voix qu'on s'dit avec les doi\[Gm]gts
+    Et j'en\[B&]voie dans \[C]la nuit
+    Un me\[Cm]ssage pour celle qui \[D7]
+    Me répon\[Gm]dra OK \[C]pour un rendez-\[F]vous
+  \end{verse}
+
+  \begin{verse}
+    Message électrique quand elle m'électronique
+    Je reçois sur mon écran tout son roman
+    On s'approch' en multi
+    Et je l'attire en duo
+    Après OK elle me code Marylou
+  \end{verse}
+
+  \begin{chorus}
+    \[F]Good\[D4]bye\[D] Ma\[Gm]rylou
+    \[C4]Good\[C]bye Ma\[F]rylou
+    Good\[D4]bye\[D] Ma\[Gm]rylou
+    \[C4]Good\[C]bye \[F]
+  \end{chorus}
+
+  \begin{verse}
+    Quand j'ai caressé son nom sur mon écran
+    Je me tape Marylou sur mon clavier
+    \[Gm]Quand elle se déshabille
+    Je lui \[Cm]mets avec les \[F]doigts
+    \[B&]Message reçu \[C]OK code Mary\[F]lou
+  \end{verse}
+
+  \begin{bridge}
+    {\nolyrics \[F F B& C]}
+  \end{bridge}
+
+  \begin{verse}
+    Quand la nuit se lève et couche avec le jour
+    La lumière vient du clavier de Marylou
+    Je m'envoie son pseudo
+    Mais c'est elle qui me reçoit
+    Jusqu'au petit jour on se dit tout de nous
+  \end{verse}
+
+  \begin{chorus}
+    Goodbye Marylou, Goodbye Marylou
+    Goodbye Marylou, Goodbye Marylou
+    Goodbye Marylou, Goodbye
+    Goodbye Marylou, Goodbye{\dots}
+  \end{chorus}
+
+  \begin{verse}
+    Quand l'écran s'allume je tap' sur mon clavier
+    Tous les mots sans voix qu'on s'dit avec les doigts
+    Et j'envoie dans la nuit
+    Un message pour celle qui
+    A répondu OK pour un rendez-vous
+  \end{verse}
+
+\endsong

@@ -1,0 +1,83 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Lovesong}
+  [by={Adele},cover={21},album={21}]
+
+  \cover
+  \gtab{Cm}{3:X03320}
+  \gtab{A#}{5:033200}
+  \gtab{G#}{4:033200}
+  \gtab{G}{3:033200}
+  \gtab{D#}{6:X03330}
+
+  \begin{verse*} 
+    \musicnote {\Intro: \nolyrics \[Cm A\shrp G\shrp G]}
+  \end{verse*}
+
+  \begin{verse}
+    \[Cm]Whenever \[A#]I'm alone \[G#]with you \[G]
+    You make me feel like I am home again
+    Whenever I'm alone with you
+    You make me feel like I am whole again
+  \end{verse}
+
+  \begin{verse*} 
+    \musicnote {\nolyrics \[Cm A\shrp G\shrp G]}
+  \end{verse*}
+
+  \begin{verse}
+    Whenever I'm alone with you
+    You make me feel like I am young again
+    Whenever I'm alone with you
+    You make me feel like I am fun again
+  \end{verse}
+
+  \begin{chorus}
+    \[G#] However \[A#]far aw\[Cm]ay, 
+    I will \[D#]always love you
+    \[G#] However \[A#]long I \[Cm]stay,
+    I will \[D#]always love you
+    \[G#] Whatever \[A#]words I \[Cm]say,
+    \[D#]I will always love \[G#]you
+    I will \[A#]always love you
+  \end{chorus}
+
+  \begin{verse*} 
+    \musicnote {\nolyrics \[Cm A\shrp G\shrp G]}
+  \end{verse*}
+
+  \begin{verse}
+    Whenever I'm alone with you
+    You make me feel like I am free again
+    Whenever I'm alone with you
+    You make me feel like I am clean again
+  \end{verse}
+
+  \begin{chorus}
+    \[G#] However \[A#]far aw\[Cm]ay, 
+    I will \[D#]always love you
+    \[G#] However \[A#]long I \[Cm]stay,
+    I will \[D#]always love you
+    \[G#] Whatever \[A#]words I \[Cm]say,
+    \[D#]I will always love \[G#]you
+    I will \[A#]always love you
+  \end{chorus}
+
+    \textnote[french]{Solo sur les accords du couplet}
+
+  \begin{chorus}
+    \[G#] However \[A#]far aw\[Cm]ay, 
+    I will \[D#]always love you
+    \[G#] However \[A#]long I \[Cm]stay,
+    I will \[D#]always love you
+    \[G#] Whatever \[A#]words I \[Cm]say,
+    \[D#]I will always love \[G#]you
+    I will \[A#]always love you
+  \end{chorus}
+
+  \begin{bridge}
+    \[Cm]  'Cause I love you \[A#] \[G#] \[G] 
+    \textnote[french]{Ad Libitum sur les accords du couplet}
+  \end{bridge}
+
+\endsong

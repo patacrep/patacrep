@@ -1,0 +1,137 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{La bamba triste}
+  [by={Pierre Billon}]
+
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{B&}{6:022100}
+  \gtab{E&}{6:X02220}
+  \gtab{F}{8:X02220}
+  \gtab{C#}{4:X02220}
+  \gtab{F#}{2:022100}
+  \gtab{G#}{4:022100}
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{B}{2:X02220}
+
+  \begin{verse}
+    J'me \[G]sens \[C] \[D]
+    Comme une \[C]Bamba tr\[G]iste \[C] \[D]
+    Comme une Mar\[C]seillaise en mi\[G]neur jouée par un \[C]flûtiste auto\[D]didacte, \[C] sans \[G]tact \[C] \[D] \[C]
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      J'me ^sens ^ ^
+      Comme un pro^ducteur gros ci^gare qui lit le ^score à l'en^vers, et en plus^
+      Qui a perdu ^son chien poli^cier
+      Celui qui ^lui touche le pied^
+      Chaque fois que c'est ^l'premier temps ^ ^ ^
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    J'me ^sens ^ ^
+    ^Définitive^ment ^ ^
+    Comme une ^bamba tr^iste ^ ^
+    ^Définitive^ment ^ ^
+    Comme une ^bamba triste
+  \end{chorus}
+
+  \transposition{3}
+
+  \begin{verse}
+    J'me ^sens ^ ^
+    Comme un ac^cord yougo^slave auquel on ^aurait cruelle^ment interdit ^l'entrée de la Belle ^Ferronnière ^ ^ ^
+  \end{verse}
+  
+  \begin{repeatedchords}
+    \begin{verse}
+      J'me ^sens, ^ ^
+      Comme Pierre le ^preneur de ^son
+      Qui rit sans ^envie parce que ^le client lui ^dit «~écoutons ^hydrophilement~» ^ ^ ^
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    J'me ^sens ^ ^
+    ^Définitive^ment ^ ^
+    Comme une ^bamba tr^iste ^ ^
+    ^Définitive^ment ^ ^
+    Comme une ^bamba triste
+  \end{chorus}
+
+  \transposition{3}
+
+  \begin{verse}
+    J'me ^sens ^ ^
+    Comme un pu^bliciste range lo^den qui se dit «~^plutôt mour^ir que ^Pluto Mick^ey~» ^ ^ ^
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      J'me ^sens ^ ^
+      ^Comme un clip ^muet ^ ^
+      Où les seuls ^mots intelli^gents viennent d'un a^cadémicien^ qui dit
+      «~Je ^flippe, je fla^she, je suis cool ^ et j'ai les ^moules, ainsi qu'les ^boules maman~»
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    J'me ^sens ^ ^
+    ^Définitive^ment ^ ^
+    Comme une ^bamba tr^iste ^ ^
+    ^Définitive^ment ^ ^
+    Comme une ^bamba triste
+  \end{chorus}
+
+  \transposition{3}
+
+  \begin{chorus}
+    He ^feels ^ ^
+    ^Defini^tely ^ ^
+    Comme une ^bamba triste
+    He ^feels ^ ^
+    ^Defini^tely ^ ^
+    Como una ^bamba \transposition{3} tr\[G]ii-\[C]ii-\[D]ii-\[C]iiste
+  \end{chorus}
+
+  \transposition{3}
+
+  \begin{verse*}
+    \musicnote{instrumental : \nolyrics{\[G] \[C] \[D] \[C] \rep{3}}}
+  \end{verse*}
+
+  \transposition{3}
+
+  \begin{verse}
+    J'me ^sens ^ ^
+    Comme un ven^deur d'instruments ^d'musique auquel ^on vient
+    D'rappor^ter une gui^tare parce qu'elle sonne ^pas comme celle de ^Van Halen ^ ^
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      J'me ^sens ^ ^
+      Comme les ^Quatre Sai^sons de Vival^di après un ^compte donné ^ très fort et ^en Allemand
+      « ^eins zwei ^drei vier » ^
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Oh j'me \[G]sens \[C D]
+    \[C]Définitive\[G]ment \[C D]
+    Comme une \[C]bamba tr\[G]iste \[C D]
+    \begin{repeatedchords}
+      \[C]Définitive\[G]ment \[C D]
+      Comme une \[C]bamba tr\[G]iste \[C D]
+      \[C]Définitive\[G]ment \[C D]
+      Comme une \[C]bamba tr\[G]iste \[C D]
+      \[C]Définitive\[G]ment \[C D]
+      Comme une \[C]bamba tr\[G]iste ! \echo{parlé}
+    \end{repeatedchords}
+  \end{chorus}
+
+\endsong

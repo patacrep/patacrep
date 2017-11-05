@@ -1,0 +1,58 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Fais comme l'oiseau}
+  [by={Michel Fugain},cover={michel-fugain-et-le-big-bazar},album={Michel Fugain et Le Big Bazar}]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{Bm7}{2:X02010}
+  \gtab{F7}{1:020100}
+  \gtab{E7}{020100}
+  \gtab{Am7}{X02010}
+  \gtab{Cm7}{3:X02010}
+  \gtab{D7}{XX0212}
+  \gtab*{Gm7}{3X333X}
+  \gtab*{Gm7/F}{1X333X}
+  \gtab*{Bbmaj7}{1:X0212X}
+  \gtab*{Ebmaj7}{1:XX1333}
+  \gtab*{Am7b5}{X0101X}
+
+  \begin{chorus}
+    \[G]Fais \[Bm7]comme l'oi\[F7]seau \[E7]
+    Ça \[Am7]vit d'air pur et d'eau fraîche, un oi\[Cm7]seau \[D7]
+    D'un \[G]peu de chasse et de \[Bm7]pêche, un oi\[F7]seau \[E7]
+    Mais \[Am7]jamais rien ne l'empêche, l'oi\[Cm7]seau,
+    \[D7] d'aller plus \[Gm7]haut
+  \end{chorus}
+
+  \begin{verse}
+    Mais je suis \[Gm7/F]seul dans l'uni\[Cm7]vers
+    J'ai peur du \[F7]ciel et de l'hi\[Bbmaj7]ver
+    J'ai peur des \[Ebmaj7]fous et de la \[Am7b5]guerre
+    J'ai peur du \[D7]temps qui passe, \[Gm7]dis
+    Comment peut-\[Gm7/F]on vivre aujourd'\[Cm7]hui
+    Dans la fu\[F7]reur et dans le \[Bbmaj7]bruit
+    Je ne sais \[Ebmaj7]pas, je ne sais \[Am7b5]plus, je suis \[D7]perdu
+  \end{verse}
+
+  \begin{verse}
+    Mais l'amour dont on m'a parlé
+    Cet amour que l'on m'a chanté
+    Ce sauveur de l'humanité
+    Je n'en vois pas la trace, dis
+    Comment peut on vivre sans lui ?
+    Sous quelle étoile, dans quel pays ?
+    Je n'y crois pas, je n'y crois plus, je suis perdu
+  \end{verse}
+
+  \begin{verse}
+    Mais j'en ai marre d'être roulé
+    Par des marchands de liberté
+    Et d'écouter se lamenter
+    Ma gueule dans la glace, dis
+    Est-ce que je dois montrer les dents ?
+    Est-ce que je dois baisser les bras ?
+    Je ne sais pas, je ne sais plus, je suis perdu
+  \end{verse}
+
+\endsong

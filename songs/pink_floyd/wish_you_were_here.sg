@@ -1,0 +1,47 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Wish you were here}
+  [by={Pink Floyd},cover={wish-you-were-here},album={Wish you were here}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{\[Em G Em G Em A Em A G]}}
+  \end{verse*}
+
+  \begin{verse}
+    \[C]So, so you think you can te\[D]ll
+    Heaven from He\[Am]ll
+  Blue Skies from pai\[G]n
+  Can you tell a green fi\[D]eld
+  From a cold steel ra\[C]il
+  A smile from a ve\[Am]il
+    Do you think you can \[G]tell
+    Did they get you to tra\[C]de
+  Your heroes for ghos\[D]ts
+  Hot Ashes for tre\[Am]es
+  Hot air for a \[G]cool breeze
+  Cold comfort for \[D]change
+  Did you ex\[C]change ?
+  A walk on part in the \[Am]war
+  For a lead role in a \[G]cage
+  \end{verse}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{\[Em G Em G Em A Em A G]}}
+  \end{verse*}
+
+  \begin{chorus}
+    \[C]How I wish, how I wish you were \[D]here
+  We're just \[Am]two lost souls swimming in a fish bowl \[G]
+  Year after year \[D]
+  Running over the same old ground \[C]
+  What have we found the same old \[Am]fears
+  Wish you were \[G]here\dots
+  \end{chorus}
+
+\endsong

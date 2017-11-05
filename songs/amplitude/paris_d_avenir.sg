@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Paris d'avenir}
+  [by={Amplitude},cover={amplitubes},album={Amplitubes}]
+
+  \cover
+
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+
+  \beginverse
+    \nolyrics{\[Am] \[F] \[C] \[G] \[Am]}
+    L'inconnu ne me fait pas \[F]peur
+    M'ouvre les yeux, m'ouvre le \[C]c\oe ur
+    C'est grâce à \[G]toi 	
+    \[Am] Que je chemine vers la \[F]paix
+    Que je suis fort et abreu\[C]vé d'humani\[G]té
+  \endverse
+
+  \beginverse*
+    \[Am] Ouvrir les portes, briser les murs,
+    \[F] Fendre nos masques, nos armures
+    \[C] Nous sommes tous d'un même pays
+    \[G] Où l'homme se différen\[Am]cie
+    J'ai la soif de te connaître
+    \[F] J'ai la soif de te connaître
+    \[C] J'ai la soif de te con\[E]naître
+  \endverse
+
+  \beginchorus
+    \[Am]Paris, Paris, Pa\[F]ris d'Avenir
+    \[G]Pour le meilleur par ici mes frères
+    \[Am]Aux quatre coins du \[F]monde pour agir
+    \[G]Donnons du c\oe ur restons solidaires
+  \endchorus
+
+  \beginchorus
+    \[Am]Paris, Paris, Pa\[F]ris d'Avenir
+    \[G]Pour le meilleur par ici mes frères
+    \[Am]Aux quatre coins du \[F]monde pour agir
+    \[G]Paris\dots{}
+    Pour la \[Am]Terre
+  \endchorus
+
+  \beginverse
+    Le futur ne me fait pas peur
+    Il sera juste et en couleur
+    C'est pour demain
+    Que j'ai le désir de changer
+    D'offrir mes bras et mes idées
+    Pour avancer
+  \endverse
+
+  \beginverse*
+    Prendre le temps pour inventer
+    Une nouvelle façon d'habiter
+    Autant de temps pour innover
+    Que de temps passé à rêver
+    La Terre nous appelle à changer \rep{3}
+  \endverse
+
+  \beginverse
+    L'engagement ne me fait pas peur
+    Je fais des choix et des erreurs
+    Qui font de moi
+    Un homme avec identité
+    Pas celle des lois, ni des papiers
+    Bien tamponnés
+  \endverse
+
+  \beginverse*
+    Lâcher l'aiguille et ses quadrants
+    Les sabliers voleurs de temps
+    Oser la vie et les projets
+    Pour enfin me réaliser
+    Prendre un chemin de vérité \rep{3}
+  \endverse
+
+\endsong

@@ -1,0 +1,78 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Graines de diversité}
+  [by={Amplitude},cover={amplitubes},album={Amplitubes}]
+
+  \cover
+
+  \gtab{A}{X02220}
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+  \gtab{D}{XX0232}
+  \gtab{Dm}{XX0231}
+  \gtab{D#}{6:X02220}
+
+  \beginverse
+    \[A]Il y a la \[E]graine de l'ami\[F#m]tié \[D] \[E]
+    \[A]Celle qui fait \[E]lien entre les \[F#m]hommes \[D] \[E]
+    \[A]Il lui faut \[E]du temps pour ger\[F#m]mer \[D] \[E]
+    \[A]Elle appré\[E]cie quand on par\[F#m]donne \[D] \[E]
+  \endverse
+  \beginverse*
+    \[D]Ne reste pas là elle n'attend pas
+    \[E]Tu devrais faire le premier \[E]pas \[D#] \[D]
+    \[D]Pas de méfiance fais-toi confiance
+    \[Dm]Dépasse-toi elle germera
+  \endverse
+
+  \beginchorus
+    \[A]Graines de diversi\[E]té
+    Am\[F#m]bassadeur d'hu\[D]mani\[E]té
+    \[A]Graines de diversi\[E]té
+    Citoyen \[F#m]de la terre \[D] \[E]
+    \[A]Graines de diversi\[E]té
+    Un \[F#m]nouveau monde à \[D]faire ger\[E]mer
+    \[A]Graines de diversi\[E]té
+    Une terre \[B]pour mes frères \[D] \[D#] \[E]
+  \endchorus
+
+  \beginverse
+    Il y a la graine de tolérance
+    Celle qui accueille la différence
+    Elle ne rejette pas les croyances
+    Et donne à chacun une chance
+  \endverse
+  \beginverse*
+    Cette petite graine est si fragile
+    Connaît des jours si difficiles
+    Pas de barrières, brise tes frontières
+    Respecte la elle grandira
+  \endverse
+
+  \beginverse
+    Il y a la graine de l’espérance
+    Pareille à celle de sénevé
+    Elle peut paraître insignifiante
+    Mais conduit vers l’éternité
+  \endverse
+  \beginverse*
+    Garde la foi exprime la
+    Fais la grandir autour de toi
+    Malgré tes doutes reste à l’écoute
+    Célèbre la elle fleurira
+  \endverse
+
+  \beginverse
+    Il y a la graine de l‘engagement
+    Celle qui projette dans le temps
+    Elle donne du sens à notre vie
+    Au fil du temps elle l'enrichit
+  \endverse
+  \beginverse*
+    N’hésite pas affirme toi
+    Choisi ta voie pose tes choix
+    Prendre la route quoi qu’il t’en coûte
+    Les graines semées pourront pousser
+  \endverse
+\endsong

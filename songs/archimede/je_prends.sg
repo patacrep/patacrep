@@ -1,0 +1,62 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je prends}
+  [by={Archimède},cover={trafalgar},album={Trafalgar}]
+
+  \cover
+  \capo{3}
+  \gtab{G}{320033}
+  \gtab{C9}{X32033}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+
+  \begin{verse}
+    \[G]Lolitas acidulées, répliques d'héroïnes délurées
+    Je \[C9]prends, je \[G]prends
+    \[G]Les rombières énamourées, les mères, les grands-mères débridées
+    Je \[C9]prends, je \[G]prends
+  \end{verse}
+
+  \begin{verse*}
+    \[Am]Tout ce qui glousse en \[G]ma présence
+    Tout ce \[C]qui trépigne et tout ce qui danse
+    \[Am]Toutes celles qui bruissent \[G]de confidences
+    \[C]Je leur tends l'oreiller, je leur tends l'oreille et
+  \end{verse*}
+
+  \begin{chorus}
+    \[G]Je prends moult râ\[D]teaux, coups de massue plein les \[Em]dents
+    Les \[C]lapins je les compte \[D]plus tellement j'en \[G]prends
+    Elles \[D]m'en posent autant que je prends des \[Em]gants
+    Toutes \[C]ces vestes à mon actif
+    Ça \[D]confine au dressing
+    Tellement je \[G]prends
+  \end{chorus}
+
+  \begin{verse}
+    Les mégères apprivoisées
+    Les femmes adultères, leurs aînées
+    Je prends, je prends
+    Les cougars, les divorcées
+    Les exaltées, les timorées
+    Je prends, je prends
+  \end{verse}
+
+  \begin{verse*}
+    Tout ce qui glousse en ma présence
+    Tout ce qui trépigne et tout ce qui danse
+    Toutes celles qui bruissent de confidences
+    Je leur tends l'oreiller
+    Je leur tends l'oreille et
+  \end{verse*}
+
+  \begin{verse}
+    Si tu voulais de moi ce soir
+    Ça boosterait mon taux de réussite
+    Mon amour, à 1\%
+    Qui dit mieux
+  \end{verse}
+
+\endsong

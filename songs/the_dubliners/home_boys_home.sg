@@ -1,0 +1,63 @@
+\selectlanguage{english}
+\songcolumns{2}
+
+\beginsong{Home boys home}
+  [by={The Dubliners},cover={irish-pub-songs},album={Irish pub songs}]
+
+  \cover
+
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+
+  \begin{verse}
+    \[D]Well who wouldn't be a sailor lad, sailing on the main
+    \[A]To gain the good will of \[D]his captain's good name
+    He \[G]came ashore \[D]one evening for \[A]to be
+    And that was the beginning of me old true love \[D]and me
+  \end{verse}
+
+  \begin{chorus}
+    \[D]And it's home boys home, home I'd like to be
+    \[G] Home for \[D]a while in me \[A]own country
+    Where \[D]the Oak and \[G]the Ash
+    And \[D]the bonny Ro\[A]wan tree
+    Are all growing greener in the \[D]old country
+  \end{chorus}
+
+  \begin{verse}
+    Well I asked her for a candle for to light me way to bed
+    And likewise for a handkerchief to tie around me head
+    She tended to me needs like a young maid aught to do
+    And then I said to her now would you lep in with me too
+  \end{verse}
+
+  \begin{verse}
+    Well she jumped into bed making no alarm
+    Thinking a young sailor lad could do to her no harm
+    Well I hugged her and I kissed her the whole night long
+    Till she wished the short night, had been seven years long
+  \end{verse}
+
+  \begin{verse}
+    Well early next morning the sailor lad arose
+    And into Mary's apron threw a handful of gold
+    Saying ``take this me dear for the mischief that I've done
+    For tonight I fear I've left you with a daughter or a son
+  \end{verse}
+
+  \begin{verse}
+    Well if it be a girl child send her out to nurse
+    With gold in her pocket and silver in her purse
+    And if it be a boy child, he'll ware the jacket blue
+    And go climbing up the riggin' like his daddy used to do''
+  \end{verse}
+
+  \begin{verse}
+    Oh come all of you fair maidens, a warning take by me
+    And never let a sailor lad an inch above your knee
+    For I trusted one and he beguiled me
+    He left me with a pair of twins to dangle on me knee
+  \end{verse}
+
+\endsong

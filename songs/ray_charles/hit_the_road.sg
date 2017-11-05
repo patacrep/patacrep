@@ -1,0 +1,43 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{Hit the road}
+  [by={Ray\ Charles}]
+
+  \gtab{Am}{X02210}
+  \gtab{G}{3:022100}
+  \gtab{F}{1:022100}
+  \gtab{E}{022100}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{\[Am G F E]} \rep{2}}
+  \end{verse*}
+
+  \begin{chorus}
+    Hit the road Jack and don't you come back
+    No more, no more, no more, no more
+    Hit the road Jack and don't you come back
+    No more
+  \end{chorus}
+
+  \textnote{oh what you say?}
+
+  \begin{verse}
+    Old woman, old woman, oh you treat me so mean,
+    You're the meanest old woman that I ever have seen.
+    I guess if you said so
+    I'd have to pack my things and go.
+  \end{verse}
+
+  \textnote{That's right}
+
+  \begin{verse}
+    Now baby, listen baby, don't you treat me this way
+    'Cause I'll be back on my feet some day.
+    Don't care if you do 'cause it's understood
+    you got no money you just ain't no good.
+    Well, I guess if you say so
+    I'd have to pack my things and go.
+  \end{verse}
+
+  \textnote{That's right}
+\endsong

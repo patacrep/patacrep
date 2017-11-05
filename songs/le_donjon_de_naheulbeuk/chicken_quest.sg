@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Chicken quest}
-  [by={Le Donjon de Naheulbeuk},cov={t-as-pas-le-niveau},album={T'as pas le niveau},%
+  [by={Le Donjon\ de\ Naheulbeuk},cover={t-as-pas-le-niveau},album={T'as pas le niveau},%
   url={http://www.penofchaos.com/warham/donjon-groupe.htm}]
 
   \cover
@@ -13,16 +13,16 @@
   \gtab{E}{022100}
   \gtab{Dm}{XX0231}
   \gtab{G#}{4:022100}
-  \ifnorepeatchords%
-  \gtab*{G6}{320000}
-  \gtab{F#7}{2:020100}
-  \else%
+  \ifrepeatchords%
   \gtab{Cm}{3:X02210}
   \gtab{E&}{3:X32010}
   \gtab{B&}{1:X02220}
   \gtab{A&}{4:022100}
   \gtab*{B&6}{3:020000}
   \gtab{A7}{X02020}
+  \else%
+  \gtab*{G6}{320000}
+  \gtab{F#7}{2:020100}
   \fi%
 
   \textnote{\Intro}

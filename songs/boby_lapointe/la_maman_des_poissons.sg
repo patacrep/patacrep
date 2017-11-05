@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La maman des poissons}
-  [by={Boby Lapointe},cov={l-integrale},album={L'intégrale}]
+  [by={Boby Lapointe},cover={l-integrale},album={L'intégrale}]
 
   \cover
   \gtab{G}{320003}
@@ -61,18 +61,11 @@
     {\og}Ah ! Qu'est-ce que tu me fais, ma raie !{\fg}
   \end{verse}
 
-  \begin{verse}
-    Si l'on ne voit pas pleurer les poissons
-    Qui sont dans l'eau profonde
-    C'est que jamais quand ils sont polissons
-    Leur maman ne les gronde
-  \end{verse}
+  \musicnote{\Verse{} 1}
 
-  \begin{verse*}
-    Quand ils s'oublient à faire pipi au lit
-    Ou bien sur leurs chaussettes
-    Ou à cracher comme des pas polis
-    Elle reste muette
-  \end{verse*}
+  \begin{verse}
+    La maman des poissons
+    Elle est bien gentille
+  \end{verse}
 
 \endsong

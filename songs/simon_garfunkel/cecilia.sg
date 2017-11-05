@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Cecilia}
-  [by={Simon \& Garfunkel},cov={the-definitive},album={The definitive}]
+  [by={Simon\ \&\ Garfunkel},cover={the-definitive},album={The definitive}]
 
   \cover
   \gtab{D}{XX0232}
@@ -9,7 +9,7 @@
   \gtab{G}{320003}
 
   \begin{chorus}
-    Ce\[D]cilia, you're \[G]breaking my \[D]heart
+    \[D]Cilia, you're \[G]breaking my \[D]heart
     You're \[G]shaking my \[D]confidence \[A]daily
     Oh Ce\[G]cil-\[D]ia, I'm \[G]down on my \[D]knees
     I'm \[G]begging you \[D]please to come \[A]home
@@ -26,7 +26,7 @@
   \begin{verse}
     Jubi\[G]la\[D]tion
     She \[G]loves me \[D]again
-    I \[G]fall on the \[D]floor and I \[A]laughing
+    I \[G]fall on the \[D]floor and I'm \[A]laughing
     \rep{2}
   \end{verse}
 

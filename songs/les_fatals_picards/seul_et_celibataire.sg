@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Seul et célibataire}
-  [by={Les Fatals Picards},cov={pamplemousse-mecanique},album={Pamplemousse mécanique}]
+  [by={Les Fatals\ Picards},cover={pamplemousse-mecanique},album={Pamplemousse mécanique}]
 
   \cover
   \gtab{C}{X32010}
@@ -74,7 +74,7 @@
   \end{chorus}
 
   \begin{chorus}
-    Comme un slip dont se serait la fête
+    Comme un slip dont ce serait la fête
     Mickael Jackson dans une maison de retraite
     Comme un mec pressé à La Poste
     Comme un flic muté en Haute-Corse
@@ -89,7 +89,7 @@
 
   \begin{verse*}
     Je m'habitue à manger en avalant
-    Et sans mâcher
+    Mais sans mâcher
     Et ça c'est juste \echo{oh comme ça}
     Pour le plaisir d'essayer
   \end{verse*}
@@ -109,7 +109,7 @@
     Comme le journal d'avant-hier
     Comme une Macumba sans Mader
     Comme un rappeur sans le style
-    Comme un japonais Sankukai
+    Comme un japonais sans kookaï
   \end{chorus}
 
   \begin{chorus}

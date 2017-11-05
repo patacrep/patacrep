@@ -1,0 +1,99 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La tristitude}
+  [by={Oldelaf},cover={le-monde-est-beau},album={Le monde est beau}]
+
+  \cover
+  \capo{3}
+  \gtab{Em}{022000}
+  \gtab{D7}{XX0212}
+  \gtab{G}{320003}
+  \gtab{C}{332010}
+  \gtab{F#7}{2:020100}
+  \gtab{B7}{2:X02020}
+  \gtab{E}{022100}
+
+  \begin{verse}
+    La tristit\[Em]ude
+    C'est quand tu \[Am]viens juste d'avaler un \[D7]cure-dent
+    Quand tu te rends \[G]compte que ton père est Suisse-Alle\[C]mand
+    Quand un co\[F#7]pain t'appelle pour son déménage\[B7]ment
+    Et ça fait mal
+  \end{verse}
+
+  \begin{verse*}
+    La tristitude
+    C'est franchir le tunnel de Fourvière le 15 août
+    Quand tu dois allez vivre à Nogent-le-Rotrou
+    Quand ton coiffeur t'apprend que t'as des reflets roux
+    Et ça fait mal
+  \end{verse*}
+
+
+  \begin{chorus}
+    La tristi\[Am]tude
+    C'est \[D7]moi, c'\[G]est toi
+    C'est \[C]nous, c'\[Am]est quoi ?
+    C'est \[B7]un peu de détresse dans le \[Em]creux \[E]de la voix
+    La tristi\[Am]tude
+    C'est \[D7]woh, \[G]c'est wouh !
+    C'est \[C]eux, c'\[Am]est vous
+    C'est \[B7]la vie qui te crie que ça va \[Em]pas du tout
+  \end{chorus}
+
+  \begin{verse}
+    La tristitude
+    C'est quand t'es choisi pour être gardien au hand-ball
+    Quand t'es dans la Mercos de la Princesse de Galle
+    Quand le samedi soir c'est ta fille qui joue sur Canal
+    Et ça fait chier
+  \end{verse}
+
+  \begin{verse*}
+    La tristitude
+    C'est quand tu marches pieds nus sur un tout petit légo
+    C'est quand lors d'un voyage en Inde tu bois de l'eau
+    Quand ton voisin t'annonce qu'il se met au saxo
+    Et ça fait mal, mal, mal
+  \end{verse*}
+
+  \begin{verse}
+    La tristitude
+    C'est quand ton frère siamois t'apprend qu'il a le sida
+    Quand ta femme fait de l'échangisme un peu sans toi
+    Quand des jeunes t'appellent Monsieur pour la première fois
+    Et ça fait mal
+  \end{verse}
+
+  \begin{verse*}
+    La tristitude
+    C'est devenir styliste mais pour Eddy Mitchell
+    C'est conjuguer bouillir au subjonctif pluriel
+    C'est faire les courses le samedi d'avant Noël
+    Et ça fait mal, mal, mal
+  \end{verse*}
+
+
+  \begin{bridge}
+    Non, non, non
+    La tristitude
+    La tristitude
+    La tristide attitude
+    Te donne la tristitititititi tude
+
+    La tristitude
+    Te donne la triste attitude
+    La tristitude ouah ouah
+    La tristitititude
+
+    La tristitude
+    C'est un peu de tristesse et de solitude
+    C'est comme de la tristitude plus rien
+    En tout cas c'est
+    La tri la tri tri stitude
+    La tristitude
+    Te donnes la triste attitude
+    La tristitude
+  \end{bridge}
+
+\endsong

@@ -1,0 +1,74 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Envole-moi}
+  [by={Jean-Jacques Goldman},cover={positif},album={Positif}]
+
+  \cover
+
+  \gtab{Am}{X02210}
+  \gtab{A}{X02220}
+  \gtab{B&}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{B}{2:X02220}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{E}{022100}
+  \gtab{G}{320003}
+  \gtab{B7}{X21202}
+
+  \beginverse
+    Minuit se \[Bm]lève en \[B&]haut des \[Bm]tours
+    Les \[B&]voix se \[G]taisent et tout de\[B&]vient aveugle et \[Bm]sourd
+    La \[B&]nuit ca\[Bm]moufle pour \[B&]quelques \[Bm]heures
+    La \[B&]zone \[G]sale et les épaves et \[B&]la lai\[Bm]deur
+  \endverse
+  \beginverse*
+    \[A]J'ai pas choi\[Bm]si
+    De \[A]naître i\[Bm]ci
+    Entre l'i\[G]gnorance et la \[B&]violence et l'en\[Bm]nui
+    Je \[A]m'en sorti\[Bm]rai
+    Je \[A]me le pro\[Bm]mets
+    Et s'il le \[G]faut j'emploirai \[B&]des moyens \[B]légaux
+    \[A] \[E] \[B7]
+  \endverse
+
+  \beginchorus
+    Envole-\[Em]moi
+    Envole-\[C]moi
+    Envole-\[Am]moi
+    Loin de cette \[C]fatali\[D]té qui colle à \[Em]ma peau
+    Envole-\[C]moi
+    Envole-\[Am]moi
+    Remplis ma \[C]tête d'aut\[D]res horizons, d'aut\[Am]res mots
+    Envole-\[Em]moi \[B]
+  \endchorus
+
+  \beginverse
+    Pas de question ni rebellion
+    Règles du jeu fixées mais les dés sont pipés
+    L'hiver est glace, l'été est feu
+    Ici, y a jamais de saison pour être mieux
+  \endverse
+  \beginverse*
+    J'ai pas choisi de vivre ici
+    Entre la soumission, la peur ou l'abandon
+    J'm'en sortirai, je te le jure
+    A coup de livres, je franchirai tous ces murs
+  \endverse
+
+  \beginverse
+    Me laisse pas \[Em]là, emmène-\[C]moi, envole-\[Am]moi
+    Croiser d'au\[C]tres yeux qui \[D]ne se résigne\[Em]nt pas
+    Envole-\[C]moi, tire-moi \[Am]de là
+    Montre-moi \[C]ces aut\[D]res vies que je ne \[Am]sais pas
+    Envole-\[Em]moi \[B]
+    Envole-\[Em]moi, envole-\[C]moi, envole-\[Am]moi
+    Regarde-\[C]moi bien, je \[D]ne leur ressemb\[Em]le pas
+    Me laisse pas \[C]là, envole-\[Am]moi
+    Avec ou \[C]sans toi, \[D]je n'finirai pas com\[Am]me ça
+    Envole-\[Em]moi \[B]
+  \endverse
+
+\endsong

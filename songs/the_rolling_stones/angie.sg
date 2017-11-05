@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Angie}
-  [by={The Rolling Stones},cov={jump-back},album={Jump back}]
+  [by={The Rolling\ Stones},cover={jump-back},album={Jump back}]
 
   \cover
 
@@ -19,14 +19,14 @@
   \gtab{Dm}{XX0231}
 
   \begin{verse*}
-    \musicnote{\Intro: \nolyrics{ | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] | \[G4/B] \[Am] | }}
+    \musicnote{\Intro: \nolyrics | \[Am] | \[E7*] | \[G4] | \[F4] \[F] | \[C4] \[C] | \[G4/B] \[Am]}
   \end{verse*}
 
   \begin{verse}
     \[Am]Angie, \[E7]Angie
-    \[G]When will those \[F]clouds disap\[C4]pear\[C]?
+    \[G]When will those \[F]clouds all disap\[C4]pear? \[C]
     \[Am]Angie, \[E7]Angie
-    \[G]When will it \[F]lead us from \[C4]here\[C]?
+    \[G]Where will it \[F]lead us from \[C4]here? \[C]
     With no \[G]loving in our souls
     And no \[Dm]money in our \[Am]coats
     \[C]You can't \[F]say we're satis\[G]fied
@@ -38,7 +38,7 @@
     Angie, you're beautiful
     But ain't it time we said goodbye?
     Angie, I still love you
-    Remember all those night we cried
+    Remember all those nights we cried
     All the dreams we held so close
     Seemed to all go up in smoke
     Let me whisper in your ear
@@ -47,7 +47,7 @@
   \end{verse}
 
   \begin{verse*}
-    \musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
+    \musicnote{\nolyrics \[Am] | \[E7] | \[G F] | \[F C] \rep{2}}
   \end{verse*}
 
   \begin{verse}
@@ -59,7 +59,7 @@
   \end{verse}
 
   \begin{verse*}
-    \musicnote{\nolyrics{| \[Am] | \[E7] | \[G] | \[F] | \[Em7] | \[Am] | }}
+    \musicnote{\nolyrics \[Am] | \[E7] | \[G F] | \[F C]}
   \end{verse*}
 
   \begin{verse}
@@ -77,9 +77,9 @@
 
   \begin{verse}
     But \[Am]Angie, \[E7]Angie
-    \[G]Ain't it \[F]good to be al\[C4]ive\[C]?
+    \[G]Ain't it \[F]good to be al\[C4]ive? \[C]
     \[Am]Angie, \[E7]Angie
-    \[G]They can't say \[F]we never tr\[Am]ied
+    \[G]They can't say \[F]we never tr\[C]ied
   \end{verse}
 
 \endsong

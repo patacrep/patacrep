@@ -1,0 +1,63 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Le monsieur en chemise}
+  [by={Marc Durand},cover={scouts}]
+
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+
+  \beginverse
+    Je suis \[Am]jaune, j’ai 8 ans
+    Et j’ai peur sans ma ma\[C]man
+    J’sais rien faire, j’pleure tout le temps
+    Et j’me d’mande ce qui m’at\[F]tend
+    Y a un m’sieur qui m’regarde du haut de ses 19 \[C]ans
+    Qui me \[G]dit \og{}t’inquiète pas tu vas kiffer pour longtemps\fg{}
+\endverse
+
+  \beginchorus
+    Et il a\[F]vait \echo{*Clap*, *clap*!}
+    \[C]Raison \echo{*Clap*, *clap*!}
+    Le mon\[G]sieur, le monsieur en che\[C]mise
+    Et il a\[F]vait \echo{*Clap*, *clap*!}
+    \[C]Raison \echo{*Clap*, *clap*!}
+    De me \[G]faire un petit \[C]peu la leçon
+  \endchorus
+
+  \beginverse
+    Je suis bleu, j’ai 12 ans
+    Et j’ai plus peur sans maman
+    Entouré de copains, ils ne sont jamais bien loins
+    J'ai appris, j'ai grandi, j'ai découvert la vraie vie
+    Et l'monsieur qui me dit \og{}Tu vas voir, c'est pas fini\fg{}
+  \endverse
+
+  \beginverse
+    Je suis rouge, j’ai 15 ans
+    Et j’kiffe quand y a plus maman
+    Entouré des mêmes gens qui avait quand j’avais 8 ans
+    Y a un m’sieur qui m’regarde du haut de ses 25 ans
+    Qui me dit \og mon p’tit gars t’es en train de dev’nir grand \fg
+  \endverse
+
+  \beginverse
+    Je suis vert, j’suis majeur
+    Et j’pense même plus à ma mère
+    À bâtir des projets, à partir à l’étranger
+    Y a un m’sieur qui me dit \og{}après ça c’est terminé\fg{}
+    Je lui dis \og{}sûr’ment pas a mon tour de faire rêver\fg{}
+  \endverse
+
+  \beginchorus
+    Et maintenant \echo{*Clap*, *clap*!}
+    C'est moi \echo{*Clap*, *clap*!}
+    Le monsieur, le monsieur en chemise
+    Et maintenant \echo{*Clap*, *clap*!}
+    C'est moi \echo{*Clap*, *clap*!}
+    Qui me permets de faire un peu la leçon
+  \endchorus
+  
+\endsong

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'amour avec toi}
-  [by={Michel Polnareff},cov={passe-present},album={Passé Présent }]
+  [by={Michel Polnareff},cover={passe-present},album={Passé Présent }]
 
   \cover
   \gtab{D}{XX0232}
@@ -26,10 +26,10 @@
   \end{chorus}
 
   \begin{verse}
-  Bien sur moi je pourrais te dire
+  Bien sûr moi je pourrais te dire
   Que je ne vis que par ton sourire
   Que tes yeux sont de tous les yeux les plus bleus
-  la la la la la la {\dots}
+  La la la la la la {\dots}
   \end{verse}
 
   \begin{chorus}
@@ -40,7 +40,7 @@
   \end{chorus}
 
   \begin{verse}
-  D'aucun diront on ne peut pas
+  D'aucuns diront on ne peut pas
   Parler à une jeune fille comme ça
   Ceux là le font mais ne le disent pas
   Moi c'est un rêve et ce soir c'est pour ça

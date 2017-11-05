@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Je l'aime à mourir}
-  [by={Francis Cabrel},cov={les-chemins-de-traverse},album={Les chemins de traverse}]
+  [by={Francis Cabrel},cover={les-chemins-de-traverse},album={Les chemins de traverse}]
 
   \cover
   \capo{5}
@@ -34,7 +34,7 @@
   \end{verse}
 
   \begin{chorus}
-    Elle a dû \[E]faire toute les \[C]guerres
+    Elle a dû \[E]faire toute les \[Am]guerres
     \[G]Pour être si forte \[C]aujourd'hui
     Elle a dû \[E]faire toutes les \[Am]guerres
     \[F]De la vie \dots et l'a\[C]mour aussi

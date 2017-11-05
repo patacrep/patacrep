@@ -1,0 +1,79 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Quand plus rien ne va}
+  [by={Mes\ souliers\ sont\ rouges},cover={proches},album={Proches},%
+  url={http://www.messoulierssontrouges.com}]
+
+  \cover
+  \gtab{Dm}{XX231}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+    \[Dm]Quand plus rien ne \[C]va
+    Que tout ne \[Am]va pas
+    \[Dm]Quand plus rien n'est \[C]droit
+    Que tout est de \[Am]guingois
+  \end{verse}
+
+  \begin{verse*}
+    On \[Dm]peut essayer \[C]de souf\[Am]fler
+    Dans \[Dm]un joli ro\[C]seau per\[Am]cé
+    \[Dm]Jouer un petit \[C]air de \[Am]flûte
+    \[Dm]Ou bien faire une pe\[C]tite turlutte
+  \end{verse*}
+
+  \begin{chorus}
+    Tur\[Dm]lutte avant d'aller au lit fait passer bonne nuit \rep{2}
+  \end{chorus}
+
+  \begin{verse}
+    Quand plus rien ne va
+    Que tout ne va pas
+    Quand plus rien n'est droit
+    Que tout est de guingois
+  \end{verse}
+
+  \begin{verse*}
+    On peut aller dans la forêt
+    Et avec des branches coupées
+    Se construire une jolie cahute
+    Jouer un petit air de flûte
+    Ou bien faire une petite turlutte
+  \end{verse*}
+  
+  \begin{verse} 
+    Quand plus rien ne va
+    Que tout ne va pas
+    Quand plus rien n'est droit
+    Que tout est de guingois
+  \end{verse}
+
+  \begin{verse*}
+    On peut comme faisaient les trouvères
+    Sur quelques cordes jouer un air
+    En se grattant la peau du luth
+    Se construire une jolie cahute
+    Jouer un petit air de flûte
+    Ou bien faire une petite turlutte
+  \end{verse*}
+  
+  \begin{verse} 
+    Quand plus rien ne va
+    Que tout ne va pas
+    Quand plus rien n'est droit
+    Que tout est de guingois
+  \end{verse}
+
+  \begin{verse*}
+    On peut même s'asseoir n'importe où
+    Sur des bouts de verre ou sur des clous
+    Pour déchirer le fond de son calbute
+    En se grattant la peau du luth
+    Se construire une jolie cahute
+    Jouer un petit air de flûte
+    Et pourquoi pas une turlutte
+  \end{verse*}
+
+\endsong
+

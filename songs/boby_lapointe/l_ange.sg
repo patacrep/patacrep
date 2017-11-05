@@ -1,0 +1,82 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'ange}
+  [by={Boby Lapointe},cover={l-integrale},album={L'intégrale}]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D7}{X00212}
+  \gtab{Am7}{002010}
+
+  \begin{chorus}
+    \[G]{Su' l'trottoir,} j'ai \[C]rencontré
+    Un \[D7]ange descen\[G]{du des} cieux
+    \[G]{Su' l'trottoir,} j'ai \[C]rencontré
+    Un \[D7]{bel ange} aux yeux \[G]bleus
+  \end{chorus}
+
+  \begin{verse}
+    J'étais sorti dans la rue
+    Pour acheter des allumettes
+    Soudain, il m'est apparu
+    J'ai perdu la tête (bête)
+  \end{verse}
+
+  \begin{verse}
+    Quand j'ai vu dans ses grands yeux
+    Les doux reflets du paradis
+    Ses grands yeux d'un bleu si bleu
+    Le bleu du paradis
+  \end{verse}
+
+  \begin{verse}
+    Pour passer inaperçu
+    Il n'avait pas pris ses ailes
+    Et tout d'abord j'avais cru
+    Une demoiselle belle (belle)
+  \end{verse}
+
+  \begin{verse}
+    Mais j'ai vu dans ses grands yeux
+    Les doux reflets du paradis
+    Ses grands yeux d'un bleu si bleu
+    Le bleu du paradis
+  \end{verse}
+
+  \begin{verse}
+    Pour vêtir son corps mignon
+    Dans un bout de blanc nuage
+    Il s'etait taillé jupon
+    Et gentil corsage (sage)
+  \end{verse}
+
+  \musicnote{\Chorus}
+    
+  \begin{verse}
+    De sa radieuse auréole
+    S'était fait une ceinture
+    Mais autour de sa figure
+    Vol'taient boucles folles (drôles)
+  \end{verse}
+
+  \musicnote{\Chorus}
+
+  \begin{verse}
+    Sou\[G]dain passe un m\[Am7]onsieur bien
+    Bien vê\[D7]{tu mais} gueul' mi\[G]nable
+    L'ange a \[Am7]murmuré \og{} Tu viens ?
+    --- C\[D7]ombien ? --- Cinq cent balles
+    --- \[G]Diable \fg{}
+  \end{verse}
+
+  \musicnote{lentement :}
+
+  \begin{verse}
+    Et \[G]tous les deux ils \[Am7]{sont partis}
+    Mon \[D7]ange descen\[G]{du des} cieux
+    Mon ange bleu du \[Am7]paradis
+    Et \[D7]{le vilain} mon\[G]sieur
+  \end{verse}
+
+\endsong

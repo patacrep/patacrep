@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Caravane}
-  [by={Raphaël},cov={caravane},album={Caravane}]
+  [by={Raphaël},cover={caravane},album={Caravane}]
 
   \cover
   \capo{7}

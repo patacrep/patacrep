@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{L'aventurier}
-  [by={Indochine},cov={generation-indochine},album={Génération Indochine}]
+  [by={Indochine},cover={generation-indochine},album={Génération Indochine}]
 
   \cover
   \gtab{Am}{X02210}
@@ -48,8 +48,8 @@
   \end{chorus}
 
   \begin{verse}
-    Dérivant à bord du sampan
-    L'aventurier au parfum d'Ylalang
+    Dérivant à bord du sampang
+    L'aventure au parfum d'Ylalang
     Son surnom, Samouraï du Soleil
     En démantelant le gang de l'Archipel
   \end{verse}

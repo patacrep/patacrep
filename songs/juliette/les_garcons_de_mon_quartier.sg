@@ -1,0 +1,94 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Les garçons de mon quartier}
+  [by={Juliette},cover={mutatis-mutandis},album={Mutatis\ Mutandis}]
+
+  \cover
+
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{B7}{X21202}
+
+  \begin{verse*}
+    Intro: \nolyrics{\[Em Am B7 Em Em Am B7]}
+  \end{verse*}
+
+  \begin{verse}
+    \[Em]Ils ont le regard dur
+    \[B7]Dans de grands yeux de faon \[Em]
+    Une arme à la cein\[B7]ture
+    Et des gestes d'enfants\[Em]
+    Ils \[Em]portent le maillot\[B7]
+    De leur joueur préféré\[Em]
+    Et tatoué sur la \[B7]peau
+    Un Christ ensanglanté\[Em]
+    Nuit et jour en ma\[B7]raude
+    Ils vivent de fumée\[Em]
+    Et de diverses \[B7]fraudes
+    Les garçons de mon quar\[Em]tier
+  \end{verse}
+
+  \begin{chorus}
+    Et\[Em] moi je vais \[Am]prier
+    La Ma\[B7]donne aux yeux fermés\[Em]
+    Impassible sous les \[Am]fleurs
+    Et sous son \[B7]voile de douleur\[Em]
+    Ô Sainte Vierge des tu\[Am]eurs
+    \[B7]J'aime à croire que tes \[Em]pleurs
+    Sont pour tes fils abandon\[Am]nés
+    Les garçons de mon quar\[Em]tier
+    \nolyrics{\[Em Am B7 Em Em Am B7]}
+  \end{chorus}
+
+  \begin{verse}
+    Ils portent le prénom
+    D'acteurs américains
+    S'il suffisait d'un nom
+    Pour changer de destin
+    Mais Nelson ou Brian
+    Prendront à la sauvette
+    Ivres de Marie-Jeanne
+    Une balle dans la tête
+    S'ils disent que demain
+    Est un mot inventé
+    C'est qu'ils n'espèrent rien
+    Les garçons de mon quartier
+  \end{verse}
+
+  \begin{verse}
+    Parmi eux j'en aime un
+    Un ange de beauté
+    On dirait un gamin
+    S'il n'était dévoyé
+    Trafiquant et sicaire
+    Et parfois prostitué
+    Je ne donne pas cher
+    De sa peau adorée
+    Alors je serai veuve
+    Avant d'être mariée
+    C'est là la triste épreuve
+    Des filles de mon quartier
+  \end{verse}
+
+  \begin{chorus}
+    À quoi bon te prier
+    Belle Madonne au coeur fermé
+    Impassible sous les fleurs
+    Et sous son voile de douleur
+    Ô Sainte Vierge des tueurs
+    Combien faut-il qu'il en meure
+    Pour que tu daignes regarder
+    Les garçons de mon quartier
+    \nolyrics{\[Em Am B7 Em Em Am B7]}
+  \end{chorus}
+
+  \begin{chorus}
+    Ô Sainte Vierge des tueurs
+    Verse un peu de douceur
+    Sur les cadavres jeunes et beaux
+    De los chicos de mi barrio!
+    \nolyrics{\[Em Am B7 Em Em Am B7]} \rep{4}
+  \end{chorus}
+
+\endsong

@@ -1,19 +1,19 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Aux sombres héros de l'amer}
-  [by={Noir Désir},cov={veuillez-rendre-l-ame},album={Veuillez rendre l'âme}]
+  [by={Noir\ Désir},cover={veuillez-rendre-l-ame},album={Veuillez rendre l'âme}]
 
   \cover
   \gtab{Am}{X02210}
-  \gtab{F}{1:022100}
   \gtab{C}{X32010}
   \gtab{G}{320003}
+  \gtab{F}{1:022100}
   \gtab{Dm}{XX0231}
 
   \begin{verse}
-    \[Am]Aux sombres héros de l'a\[F]mer
-    Qui ont su traver\[C]ser
-    Les océ\[G]ans du \[F]vide
+    \[Am]Aux sombres héros de l'a\[C]mer
+    Qui ont su traver\[G]ser
+    Les océans du \[F]vide
   \end{verse}
 
   \begin{verse*}
@@ -23,7 +23,8 @@
   \end{verse*}
 
   \begin{chorus}
-    \[Am]Al\[C]ways \[Dm]lost in the \[F]sea \rep{2}
+    \[Am]Al\[C]ways \[G]lost in the \[F]sea
+    \[Am]Al\[C]ways \[Dm]lost in the \[F]sea
   \end{chorus}
 
   \begin{verse}

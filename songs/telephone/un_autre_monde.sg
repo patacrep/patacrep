@@ -1,0 +1,50 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Un autre monde}
+  [by={Téléphone},cover={un-autre-monde},album={Un autre monde}]
+
+  \cover
+
+  \begin{verse}
+    \[D] Je rê\[Bm]vais d'un autre \[F#]monde
+    \[D] Où la \[Bm]terre serait \[F#]ronde
+    \[D] Où la \[Bm]lune serait \[F#]blonde
+    \[D] Et la \[Bm]vie serait fé\[A]conde \[G]
+  \end{verse}
+
+  \begin{chorus}
+    \[A]Je dormais à poings \[G]fermés
+    \[A]Je ne voyais plus en \[G]pieds
+    \[A]Je rêvais \[G]réalité
+    \[A]Ma réalité
+  \end{chorus}
+
+  \begin{verse}
+    Je rêvais d'une autre terre
+    Qui resterait un mystère
+    Une terre moins terre-à-terre
+    Oui je voulais tout foutre en l'air
+  \end{verse}
+
+  \begin{chorus}
+    Je marchais les yeux fermés
+    Je ne voyais plus mes pieds
+    Je rêvais réalité
+    Ma réalité m'a alité
+  \end{chorus}
+
+  \begin{verse}
+    Oui je rêvais de notre monde
+    Et la terre est bien ronde
+    Et la lune est si blonde
+    Ce soir dansent les ombres du monde
+  \end{verse}
+
+  \begin{chorus}
+    À la rêver immobile
+    Elle m'a trouvé bien futile
+    Mais quand bouger l'a fait tourner
+    Ma réalité m'a pardonné
+  \end{chorus}
+
+\endsong

@@ -1,0 +1,67 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Présence}
+  [by={Félix Leclerc},cover={mes-premieres-chansons},album={Mes premières chansons}]
+
+  % Note : Pour la transcription, j'ai travaillé à partir de la reprise de
+  % François Béranger, sur l'album « 19 chansons de Félix chantées par
+  % Béranger » ; cela peut expliquer d'éventuelles erreurs apparentes.
+
+  \cover
+  \gtab{G}{320001}
+  \gtab{B7}{X21201}
+  \gtab{C}{X32010}
+  \gtab{D7}{XX0212}
+  \gtab{F#7}{2:020130}
+  \gtab{Bm7}{2:X02010}
+  \gtab{A7}{X02020}
+
+  \begin{verse}
+    Tu \[G]{dis que} le traî\[B7]neau de nos a\[C]mours est dans la \[G]cour
+    \[C] Je regarde de\[G]hors \[D7] et ne vois que la \[G]mort
+    Tu \[G]{dis qu'au} grand ga\[B7]lop notre che\[C]{val est} reve\[G]nu
+    \[C] Des bergers qui l'ont \[G]vu \[D7] l'ont ramené de \[G]mal
+
+    Ni \[D7]cheval, ni traî\[G]neau dehors, \[D7] ni foulard sur la \[G]neige
+    Pour\[F#7]{quoi troubler} mon \[Bm7]pauvre corps \[A7] avec tes sorti\[D7]lèges ?
+  \end{verse}
+
+  \begin{verse}
+    Tu dis que le gazon dessous la glace est resté vert
+    Je creuse cette place ce n'est que foin amer
+    Tu dis que la chaloupe, la nuit, fait des chansons
+    La chaloupe est au fond, chez les noyés, ma mie
+
+    Peut-être que les feux de bûches et notre maison blanche
+    Peut-être que le miel, la huche étaient de faux dimanches
+  \end{verse}
+
+  \begin{verse}
+    Tu t'obstines à trouver que les rosiers n'ont pas changé
+    L'hiver les a brisés, l'hiver les a gelés
+    Comme la feuille rouge que le vent a emportée
+    Les fées s'en sont allées sur un nuage blanc
+
+    Tu me dis que rien n'est fini et que tout recommence
+    Que le mois d'août est sur le lit entouré de silences
+  \end{verse}
+
+  \begin{verse}
+    Si je vois le printemps venir derrière mes rideaux
+    Je croirai ton traîneau, ton cheval et ta mer
+    Si les sources ramènent les grenouilles dans l'étang
+    Je prendrai deux quenouilles et ferai un serment
+
+    Le serment de l'aimer toujours malgré les poudreries
+    Le serment de croire en ce jour qu'ils soient d'or ou de gris
+  \end{verse}
+
+  \begin{verse}
+    Tu \[G]apportes dans \[B7]mon grenier le \[C]rêve qu'il me \[G]faut
+    \[C] Comme la douce \[G]sève \[D7] qui nourrit l'arbris\[G]seau
+
+    Si \[Am7]jamais tu t'en \[Bm7]{vas, ma} mie
+    \[Am7] Je m'en i\[D7]rai aus\[G]si
+  \end{verse}
+
+\endsong

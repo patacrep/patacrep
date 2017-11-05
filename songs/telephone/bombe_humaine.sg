@@ -1,0 +1,90 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La bombe humaine}
+  [by={Téléphone},cover={crache-ton-venin},album={Crache ton venin}]
+
+  \cover
+  \gtab{A}{X02220}
+  \gtab{A(aug)}{X03230}
+  \gtab{F#m}{2:022000}
+  \gtab{A7}{X02020}
+  \gtab{D}{XX0232}
+  \gtab{F}{133211}
+  \gtab{B7}{X21202}
+  \gtab{D7}{XX0212}
+  \gtab{Dm/A}{XX0231}
+  \gtab{G}{320002}
+  \gtab{F#}{2:022100}
+
+  \begin{verse}
+    Je \[A]veux vous parler de l'arme \[A(aug)]de demain
+    En\[F#m]fantée du monde
+    Elle en \[A7]sera la fin
+    Je veux vous \[D]parler de \[F]moi, de \[A]vous
+  \end{verse}
+
+  \begin{verse*}
+    Je \[A]vois à l'intérieur des i\[A(aug)]mages, des couleurs
+  Qui \[F#m]ne sont pas à moi
+    Qui parfoi\[A7]s me font peur
+    Sen\[D]sations \[F]qui peuvent me rendre fou\[A]
+    Nos \[B7]sens sont nos fils nous pauvre marionnettes
+  Nos \[D7]sens sont le chemin qui mène \[F7]à nos têtes
+  \end{verse*}
+
+  \begin{chorus}
+    La \[A]bombe humaine, tu la tiens \[F]dans ta main
+    Tu \[A]as l'dénonateur juste à \[F]côté du cœur
+    La \[A]bombe humaine, c'est toi elle \[F]t'appartient
+    Si \[D7]tu laisse quelqu'un prendre en main \[F7]ton destin
+    C'est la \[A]fin \[Dm/A]
+  Hum, la \[A]fin \[Dm/A]
+  Hum la \[A]fin \[Dm/A]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Mon \[A]père ne dort plus sans prendre \[A(aug)]ses calmants
+      Ma\[F#m]man ne travaille plus sans ses \[A7]excitants
+      Quelqu'un \[D]leur vend de quoi \[F]tenir le \[A]coup
+    \end{verse}
+
+    \begin{verse*}
+      Je \[A]suis un électron bombar\[A(aug)]dé de protons
+      Le \[F#m]rythme de la ville c'est ça \[A7]mon vrai patron
+      Je suis \[D]chargé \[F]d'électricité\[A]
+    Si \[B7]par malheur au cœur de l'accélérateur
+      J'ren\[D7]contre une particule qui m'mette de \[F7]sale humeur
+  \end{verse*}
+  \end{repeatedchords}
+
+    \begin{verse}
+      \[A]Oh \[G F# F/A]
+      Faudrait pas que j'me \[A]laisse aller \[G F# F/A]
+  \begin{repeatedchords}
+      Faudrait pas que j'me \[A]laisse aller \[G F# F/A]
+    Faudrait pas que j'me \[A]laisse aller \[G F# F/A]
+    Faudrait pas que j'me \[A]laisse aller \[G F# F/A]
+    Faudrait pas que j'me \[A]laisse aller \[G F# F/A]
+  \end{repeatedchords}
+    \end{verse}
+
+  \begin{repeatedchords}
+    \begin{chorus}
+      La \[A]bombe humaine c'est l'arme \[F]de demain
+      En\[A]fantée du monde, elle en \[F]sera la fin
+      La \[A]bombe humaine, c'est toi elle \[F]t'appartient
+      Si \[D7]tu laisse quelqu'un prendre en main \[F]ton destin \[G]
+  \end{chorus}
+
+  \begin{chorus}
+    C'est la \[A]bombe humaine, tu la tiens \[F]dans ta main
+    Tu \[A]as l'dénonateur juste à \[F]côté du cœur
+    La \[A]bombe humaine, c'est toi elle \[F]t'appartient
+    Si \[D7]tu laisse quelqu'un prendre en main \[F]ton destin \[G]
+    C'est la \[A]bombe humaine, tu la tiens \[F]dans ta main
+    Tu \[A]as l'dénonateur juste à \[F]côté du cœur\dots
+    \end{chorus}
+  \end{repeatedchords}
+
+\endsong

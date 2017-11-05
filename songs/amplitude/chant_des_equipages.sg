@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Chant des équipages}
+  [by={Amplitude},cover={amplitubes},album={Amplitubes}]
+
+  \cover
+
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{D4}{X00233}
+
+  \beginverse*
+    \nolyrics{\[Em] \[Bm] \[G] \[D] \[D4] \[D]}
+  \endverse
+
+  \beginverse
+    Quand la voile se gonfle et soufflent les rafales
+    Quand le vent nous repousse peu à peu nous éloigne
+    Quand le doute s’installe que je suis dans le noir
+    Il y a toujours un ami prêt à tenir la barre
+  \endverse
+
+  \beginchorus
+    Ohhhhhh avec mon équipage
+    Ohhhh ohhh ohhh ohhhh ohhh ohhh
+    On prend le large
+    Ohhh ohhh ohhh on prend le large
+    Ohhh ohhh ohhh on prend le large
+  \endchorus
+
+  \beginverse
+    Quand nos rêves sont loin, le chemin difficile
+    Quand pour avancer, il faut toujours savoir oser
+    Embarquons tous ensemble dans la joie d'l'équipage
+    A l'arrivée on sera tous remplis de fierté
+  \endverse
+
+  \beginverse
+    Quand je prends les chemins avec mon équipage
+    Alors je marche et je ris avec tous mes amis
+    Sous la tente le soir, ça chante et ça sourit
+    Ce sont des moments de joie, des moments de partage
+  \endverse
+
+  \beginverse
+    Quand tu as besoin d'aide, tu peux compter sur moi
+    Quand tu as fait ta promesse, la confiance est en toi
+    Quand tu souris tu offres la joie autour de toi
+    Il y a toujours les bleus pour cheminer vers Dieu
+  \endverse
+
+  \beginverse
+    Quand les Scouts et les Guides tous ensemble s'installent
+    Quand on joue comme des fous sans peur de se faire mal
+    Quand on est rassemblés le soir autour du feu
+    La bonne humeur et la joie effacent le brouillard 
+  \endverse
+\endsong

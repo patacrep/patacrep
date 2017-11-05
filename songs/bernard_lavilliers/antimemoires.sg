@@ -1,0 +1,75 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Antimemoires}
+  [by={Bernard Lavilliers},cover={le-stephanois},album={Le Stéphanois}]
+
+  \cover
+  \gtab{AM7}{X02120}
+  \gtab{Bb7}{X13131}
+  \gtab{Bm7}{X24232}
+  \gtab{E7}{022130}
+  \gtab{F#m7}{24222X}
+  \gtab{Am7}{X02010}
+  \gtab{D7}{XX0212}
+  \gtab{GM7}{3X443X}
+  \gtab{Gm7}{3X333X}
+  \gtab{C7/9}{X3233X}
+  \gtab{F7}{13121X}
+  \gtab{C#m7}{X4645X}
+  \gtab{C7}{X3X35X}
+  \gtab{B7/4}{X2X25X}
+  \gtab{Bb7b5}{X1213X}
+  \gtab{DM7}{XX0222}
+  \gtab{CM7}{X32000}
+  \gtab{BbM7}{X13231}
+
+  \begin{verse}
+    J'ai \[AM7]chanté pour des \[Bb7]dames aux \[Bm7]vertus pério\[E7]diques
+    J'ai \[AM7]chanté pour des \[F#m7]tables  j'ai \[Bm7]chanté pour des \[E7]briques
+    Chan\[Am7]té pour des po\[D7]ètes chan\[GM7]té pour des marchands
+    Chan\[Gm7]té pour des pro\[C7/9]phètes chanté \[F7]pour des tru\[E7]ands
+  \end{verse}
+
+  \begin{chorus}
+    J'ai \[C#m7]chanté dans des fêtes j'ai \[C7]chanté dans des champs
+    Chan\[B7/4]té des idées bêtes pour des \[E7]adolescents
+    J'ai \[C#m7]chanté des sornettes à des \[C7]vieux militants
+    Chan\[B7/4]té pour des bourgeois aux remords \[Bb7b5]languissants
+  \end{chorus}
+
+  \begin{verse}
+    Mais j'ai enfin compris qu'tout ça c'était du vent
+    Que pour gagner sa vie faut pas être exigeant
+    Elargir son public ne plus tourner en rond
+    Faire du panoramique à la télévision
+  \end{verse}
+
+  \begin{chorus}
+    C'est bien plus sympathique de chanter pour les cons
+    Faut bien les consoler de leurs vies symétriques
+    De leur manque d'idées de leur trouille chronique
+    J'aurai dans peu de temps ma gloire à prisunic
+  \end{chorus}
+
+  \begin{verse}
+    J'écris des phrases creuses pour combler les grands vides
+    Je souffre des valseuses et je grossis du bide
+    On m'adule on me fête on me chante on me cite
+    J'ai des amis partout et surtout chez les flics
+  \end{verse}
+
+  \begin{chorus}
+    La connerie s'étend au-delà des frontières
+    C'est surement pour cela que les hommes sont frères
+    Les cons se reproduisent contaminent et pullulent
+    Sur d'autres galaxies y a déjà des émules
+  \end{chorus}
+
+  \begin{bridge}
+    On \[DM7]n'est plus jamais seuls quand \[CM7]on est vraiment con
+    On \[BbM7]se sent très très fort on est \[AM7]une nation
+    Je \[DM7]suis le roi des cons je \[CM7]règne et j'en profite
+    Que \[BbM7]les intelligents se \[AM7]terrent dans l\[GM7]eurs \[AM7]mythes
+  \end{bridge}
+
+\endsong

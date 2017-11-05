@@ -1,0 +1,67 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Agathe}
+  [by={Amplitude},cover={amplitubes},album={Amplitubes}]
+
+  \cover
+
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+
+  \beginverse
+    \[G]T'es venue en deux-roues
+    \[D]Peu avant le mois d'août
+    \[Em]On cherchait un peu d'espoir
+    \[C]Dans ce monde fou \[D]
+    \[G]Au détour d'une veillée
+    \[D]Dans un amour immense
+    \[Em]Nos deux mains se rencontrèrent
+    \[C]Chantons à l'abondance \[D]
+  \endverse
+
+  \beginchorus
+    \[G]A\[D]gathe
+    Mon amour de Cité\[Em]Cap \[G]
+    Seras-tu \[C]l'an prochain \[Am]
+    \[C]Dans la même caravane \[D]
+  \endchorus
+  \beginchorus
+    \[G]A\[D]gathe
+    Ne dis pas non à Cus\[Em]sac \[Bm]
+    Grâce à \[C]qui
+    \[Am]Nos deux vies se \[G]déca\[D]pent \[G]
+  \endchorus
+
+  \beginverse
+    À la journée CitéCap
+    Dans les rues de Bordeaux
+    Je t'avais conté fleurette
+    Je t'ai même offert de l'eau
+    De retour pour la Célé
+    On nous a donné carte blanche
+    Nous on en a profité
+    Pour prier comme un dimanche
+  \endverse
+
+  \beginverse*
+    \echo{Parlé}
+    \og{}Alors vous pouvez prendre ce chant, bien sûr,
+    À la page 219 dans votre carnet de participant!\fg{}
+  \endverse
+
+  \beginverse
+    On a parlé comme des fous
+    De cap, d'écologie
+    De mes techniques de brolage
+    Et du sens de la vie
+    Tu m'as expliqué tes doutes
+    Sur tous ces sujets graves
+    Mais tu as repris ta route
+    Tu es loin et j'en bave
+  \endverse
+\endsong

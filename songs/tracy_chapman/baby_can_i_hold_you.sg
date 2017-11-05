@@ -1,0 +1,50 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Baby can I hold you}
+  [by={Tracy Chapman},cover={tracy-chapman},album={Tracy Chapman}]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab*{Dsus2}{XX0230}
+  \gtab*{A7sus4}{X02030}
+  \gtab{A7}{X02020}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#m}{2:022000}
+
+  \begin{verse}
+    Sor\[D]ry \[Dsus2] \[D]
+    Is \[A7sus4]all that \[A7]you can't \[Em]say
+    \[A7sus4]Years gone \[A7]by and \[D]still \[Dsus2] \[D]
+    \[A7sus4]Words don't \[A7]come easi\[Em]ly
+    \[G]Like sorry like \[A7]sorry \[A7sus4] \[A7]
+  \end{verse}
+
+  \begin{verse}
+    Forgive me
+    Is all that you can't say
+    Years gone by and still
+    Words don't come easily
+    Like forgive me forgive me
+  \end{verse}
+
+  \begin{bridge}
+    But you can say \[D]baby \[Dsus2] \[D]
+    \[Em]Baby can I \[G]hold you to\[D]night \[Dsus2] \[D]
+    \[Em]Maybe if I \[G]told you the \[Bm]right words
+    At the \[A7]right time you'd be \[D]mine \[Dsus2] \[D]
+  \end{bridge}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[Em F{\shrp}m G A]}
+  \end{verse*}
+
+  \begin{verse}
+    I love you
+    Is all that you can't say
+    Years gone by and still
+    Words don't come easily
+    Like I love you I love you
+  \end{verse}
+
+\endsong

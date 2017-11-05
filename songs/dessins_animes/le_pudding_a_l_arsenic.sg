@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Astérix et Cléopâtre : Le pudding à l'arsenic}
-  [by={Dessins Animés},cov={asterix},album={Astérix et Cléopâtre}]
+  [by={Dessins\ Animés},cover={asterix},album={Astérix et Cléopâtre}]
 
   \cover
   \gtab{Am}{5:022000}
@@ -19,18 +19,18 @@
   \end{verse*}
 
   \begin{verse}
-    \[Am]Dans un grand bol \[E7]de strychnine
-    \[Am]Délayez de \[E7]la morphine
-    \[G]Faites tiédir à \[C]la casserole
-    \[B7]Un bon verre \[E7]de pétrole
+    \[Am]Dans un grand bol \[E7]{de strychnine}
+    \[Am]Délayez de \[E7]{la morphine}
+    \[G]Faites tiédir à \[C]{la casserole}
+    \[B7]Un bon verre \[E7]{de pétrole}
     \echo{Oh, je vais en mettre deux !}
   \end{verse}
 
   \begin{verse}
-    \[Am]Quelques gouttes \[E7]de ciguë
-    \[Am]De la bave \[E7]de sangsue
-    \[G]Un scorpion cou\[C]pé très fin
-    {\og}\[G]Et un peu de poivre en grains
+    \[Am]Quelques gouttes \[E7]{de ciguë}
+    \[Am]{De la} bave \[E7]{de sangsue}
+    \[G]{Un scorpion} cou\[C]{pé très} fin
+    {\og}\[G]{Et un} peu de poivre en \[C]grains
     --- Non !
     --- Ah ? Bon{\dots}{\fg}
   \end{verse}
@@ -38,44 +38,44 @@
   \begin{repeatedchords}
     \begin{verse}
       \[Am]Émiettez votre \[E7]arsenic
-      \[Am]Dans un verre de narcotique
+      \[Am]Dans un verre de \[E7]narcotique
       \[G]Deux cuillères de \[C]purgatif
-      \[B7]{Qu'on} fait bouillir \[E7]à feu vif
+      \[B7]{Qu'on} fait bouillir \[E7]{à feu vif}
       \echo{Oh, je vais en mettre trois}
     \end{verse}
 
     \begin{verse}
-      \[Am]Dans un petit \[E7]plat à part
-      \[Am]Tiédir du sang \[E7]de lézard
-      \[G]La valeur d'un \[C]dé à coudre
-      {\og}\[G]Et un peu de sucre en poudre
+      \[Am]Dans un petit \[E7]{plat à} part
+      \[Am]Tiédir du sang \[E7]{de lézard}
+      \[G]{La valeur} d'un \[C]{dé à} coudre
+      {\og}\[G]{Et un} peu de sucre en \[C]poudre
       --- Non !
       --- Ah ? Bon{\dots}{\fg}
     \end{verse}
 
     \begin{verse}
       \[Am]Vous versez la \[E7]mort aux rats
-      \[Am]Dans du venin \[E7]de cobra
-      \[G]Pour adoucir \[C]le mélange
+      \[Am]Dans du venin \[E7]{de cobra}
+      \[G]Pour adoucir \[C]{le mélange}
       \[B7]Pressez trois quar\[E7]tiers d'orange
       \echo{Oh, je vais en mettre un seul}
     \end{verse}
 
     \begin{verse}
       \[Am]Décorez de \[E7]fruits confits
-      \[Am]Moisis dans du \[E7]vert de gris
+      \[Am]Moisis dans du \[E7]{vert de} gris
       \[G]Tant que votre \[C]pâte est molle
-      {\og}\[G]Et un peu de vitriol
+      {\og}\[G]Et un peu de vitri\[C]ol
       --- Non ! {\dots} Oui !
       --- Ah, je savais bien que ça serait bon{\fg}
     \end{verse}
   \end{repeatedchords}
 
   \begin{verse}
-    \[Am]Le pudding à \[AmM7]{l'arsenic}
-    \[Am7]Nous permet ce \[Am6]pronostic
+    \[Am]{Le pudding} à \[AmM7]{l'arsenic}
+    \[Am7]{Nous permet} ce \[Am6]pronostic
     \[Dm]Demain sur les \[Am]bords du Nil
-    \[E&7]Que mangeront les \[E7]crocodiles ?
+    \[E&7]{Que mangeront} les \[E7]crocodiles ?
     \[E7]Des \[E7]Gau\[Am]lois !
   \end{verse}
 

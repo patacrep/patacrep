@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Je te donne}
-  [by={Jean-Jacques Goldman},cov={non-homologue},album={Non homologué}]
+  [by={Jean-Jacques Goldman},cover={non-homologue},album={Non homologué}]
 
   \cover
   \gtab{Em}{022000}
@@ -66,7 +66,8 @@
   \end{verse}
 
   \begin{chorus}
-    Je te \[C]donne, \[F G] \rep{2}
+    Je te \[C]donne, \[F G Am]
+    Je te \[F]donne, \[C G]
     \[Am]Tout ce que je \[F]vaux
     Ce que je \[C]suis
     Mes \[G]dons, mes dé\[Am]fauts

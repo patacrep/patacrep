@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La malle en mai}
-  [by={Les Hurlements d'Léo},cov={la-belle-affaire},album={La belle affaire},%
+  [by={Les Hurlements\ d'Léo},cover={la-belle-affaire},album={La belle affaire},%
   url={http://www.hurlements.com}]
 
   \cover
@@ -50,7 +50,7 @@
   \begin{verse*}
     Sortir de l'enfer
     Je suis un insoumis
-    Chopé la belle à faire
+    Chopé la belle affaire
     Je vais rester dans mon lit
   \end{verse*}
 
@@ -69,7 +69,9 @@
   \end{verse*}
 
   \begin{verse*}
-    J'étais content de partir \dots
+    J'étais content de partir
   \end{verse*}
+
+  \musicnote{Reprendre au début}
 
 \endsong

@@ -1,0 +1,46 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Comme un appel}
+  [by={Amplitude},cover={amplitubes},album={Amplitubes}]
+
+  \cover
+
+  \gtab{F}{1:022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{Bm}{2:X02210}
+  \gtab{B}{2:X02220}
+
+  \beginchorus
+    \[G] Comme un appel \[D]
+    Résonne en toi \[Em]
+    Parmi le flot \[C] des ``comment'' des ``pour\[G]quoi''
+    Sauter le \[D]pas et entrer dans la \[Em]danse
+    \[F]Cet appel \[C]comme une \[G]chance
+  \endchorus
+
+  \beginverse
+    \[Em] Du nord au sud\[D], dessus des\[C]sous on me pille \[Em]
+    Je suis sur deux bé\[D]quilles \[C]
+    \[Em] Ton oxygène\[D], ton sel, ton \[C]sol ton eau claire \[Em]
+    Je suis ta \[D]terre \[C]
+    \nolyrics{\[Bm] \[B]}
+  \endverse
+
+  \beginverse
+    Éclat de rêve dans le sourire d'un enfant
+    Grandir chemin faisant
+    Cris d'injustice qui refusent de se taire
+    Je suis ton frère
+  \endverse
+
+  \beginverse
+    Caché au creux du vent, d'un souffle léger
+    Je suis ta liberté
+    Dans la tempête ma parole est un feu
+    Je suis ton Dieu
+  \endverse
+\endsong

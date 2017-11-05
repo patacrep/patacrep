@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le tanticide}
-  [by={Debout sur le Zinc},cov={recreations},album={Récréations},%
+  [by={Debout\ sur\ le\ Zinc},cover={recreations},album={Récréations},%
   url={http://www.dslz.org}]
 
   \cover
@@ -56,7 +56,11 @@
     Elle était vieille et folle
     Mais ne me jugez pas
     Car je suis encore jeune
-    J'ai zigouillé ma tante
+    \rep{2}
   \end{verse}
+
+  \begin{verse*}
+    J'ai zigouillé ma tante
+  \end{verse*}
 
 \endsong

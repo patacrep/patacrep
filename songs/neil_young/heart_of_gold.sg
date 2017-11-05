@@ -1,13 +1,15 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Heart of gold}
-  [by={Neil Young},cov={harvest-moon},album={Harvest moon}]
+  [by={Neil Young},cover={harvest-moon},album={Harvest moon}]
 
   \cover
   \gtab{Em}{022000}
   \gtab{C}{X32010}
   \gtab{D}{XX0232}
   \gtab{G}{320003}
+
+\musicnote{Harmonica : G}
 
   \lilypond{Heart_of_gold}
 

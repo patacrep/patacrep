@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La fille du coupeur de joints}
-  [by={Hubert-Félix Thiéfaine},cov={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
+  [by={Hubert-Félix Thiéfaine},cover={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
 
   \cover
   \capo{2}
@@ -12,10 +12,10 @@
   \gtab{Am}{X02210}
 
   \begin{verse}
-    \[Em]Elle descendait de la \[D]montagne
-    \[C]Sur un chariot chargé de \[G]paille
-    \[Am]Sur un chariot chargé de \[Em]foin
-    \[Am]La fille du coupeur de \[Em]joints \rep{2}
+    Elle \[Em]descendait de \[D]{la montagne}
+    Sur \[C]{un chariot} char\[G]{gé de} paille
+    Sur \[Am]{un chariot} char\[Em]{gé de} foin
+    La \[Am]{fille du} coupeur de \[Em]joints \rep{2}
   \end{verse}
 
   \begin{verse*}
@@ -71,11 +71,6 @@
     La fille du coupeur de joints \rep{2}
   \end{verse}
 
-  \begin{verse}
-    Elle descendait de la montagne
-    En chantant une chanson paillarde
-    Une chanson de collégien
-    La fille du coupeur de joints \rep{2}
-  \end{verse}
+  \musicnote{\Verse{} 1, dernier vers \Adlib{}}
 
 \endsong

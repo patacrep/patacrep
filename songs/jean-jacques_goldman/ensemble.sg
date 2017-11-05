@@ -1,0 +1,30 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ensemble}
+  [by={Jean-Jacques Goldman},cover={pieds},album={Chansons pour les pieds}]
+  
+  \cover
+  \gtab{B&}{1:X02220}
+  \gtab{F}{1:022100}
+  \gtab{Dm}{XX0231}
+  \gtab{C}{X32010}
+
+\begin{verse*}
+\[B&]Souviens-\[F]toi
+\[Dm]Était-ce \[C]mai, novembre
+\[B&]Ici ou \[F]là ?
+\[Dm]Était-ce un \[C]lundi ?
+Je \[B&]ne me sou\[F]viens que d'un \[Dm]mur im\[C]mense
+Mais nous \[B&]étions en\[F]semble
+En\[Dm]semble, nous \[C]l'avons fran\[B&]chi
+\end{verse*}
+\begin{verse*}
+Reviens-moi
+De tes voyages si loin
+Reviens-moi
+Tout s'ajoute à ma vie
+J'ai besoin de nos chemins qui se croisent
+Quand le temps nous rassemble
+Ensemble, tout est plus joli.
+\end{verse*}
+\endsong

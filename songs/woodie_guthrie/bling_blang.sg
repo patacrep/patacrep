@@ -1,0 +1,48 @@
+\selectlanguage{english}
+\songcolumns{2}
+
+\beginsong{Bling blang}
+  [by={Woodie Guthrie},album={Sing along with Putumayo}]
+
+%  \cover
+
+  \gtab{E}{022100}
+  \gtab{B7}{X21202}
+
+  \beginverse
+    \[E]You get a hammer an I'll get a nail
+    \[E]You catch a bird and I'll catch a snail
+    \[E]You bring a board and I'll bring a saw
+    And we'll build a house \[B7]for the \[E]baby-o
+  \endverse
+
+  \beginchorus
+    \[E]Bling, blang
+    \[E]Hammer with my hammer
+    \[B7]Zingo, zango
+    Cutting with \[E]my saw
+    \rep{2}
+  \endchorus
+
+  \beginverse
+    I'll grab some mud and you grab some clay
+    So when it rains it won't wash away
+    We'll build a house that will be so strong
+    The winds will sing my baby a song
+  \endverse
+
+  \beginverse
+    Run bring rocks and I'll bring bricks
+    A nice pretty house we'll build and fix
+    We'll jump inside when the cold wind blows
+    And kiss our pretty little baby-o
+  \endverse
+
+  \beginverse
+    You bring a ladder and I'll get a box
+    Build our house out of bricks and blocks
+    When the snowbird flies and the honeybee comes
+    We'll feed our baby on the honey in the comb
+  \endverse
+
+\endsong

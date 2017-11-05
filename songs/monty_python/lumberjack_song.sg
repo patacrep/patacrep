@@ -1,0 +1,49 @@
+\selectlanguage{english}
+\songcolumns{2}
+
+\beginsong{Lumberjack song}
+  [by={Monty Python},cover={live-at-drury-lane},album={Live at Drury Lane}]
+
+  \cover
+
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+
+  \begin{bridge}
+    \[G]Oh, I'm a lumberjack \[C]and I'm okay
+    I \[D]sleep all night and I \[G]work all day
+  \end{bridge}
+  \begin{chorus}
+    \[G]He's a lumberjack \[C]and he's okay
+    He \[D]sleeps all night and he \[G]works all day
+  \end{chorus}
+
+  \begin{verse}
+    I \[G]cut down trees, I \[C] eat my lunch
+    I \[D]go to the lavatory \[G]
+    On \[G] Wednesdays I \[C]go shopping
+    And \[D]have buttered \[G]scones for tea
+  \end{verse}
+  \begin{bridge}
+    He cuts down trees, he eats his lunch
+    He goes to the lavatory
+    On Wednesdays he goes shopping
+    And has buttered scones for tea
+  \end{bridge}
+
+  \begin{verse}
+    I cut down trees, I skip and jump
+    I like to press wildflowers
+    I put on womens clothing
+    And hang around in bars
+  \end{verse}
+
+  \begin{verse}
+    I cut down trees, I wear high-heels
+    Suspenders and a bra
+    I wish I'd been a girlie
+    Just like my dear papa
+  \end{verse}
+
+\endsong

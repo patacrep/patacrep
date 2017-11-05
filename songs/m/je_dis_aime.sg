@@ -1,0 +1,60 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je dis aime}
+  [by={-M-},cover={je-dis-aime},album={Je dis aime}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{G}{320002}
+  \gtab{Am}{X02210}
+  \gtab{C7}{X32310}
+  \gtab{B7/F#}{2X1202}
+  \gtab{D7}{X5453X}
+  \gtab{B7}{X21202}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{\[Em G Am B7/F\shrp, Em G Am C7] \rep{2} }}
+  \end{verse*}
+
+  \begin{verse}
+    \[Em]J'ai \[G]les mé\[Am]ninges no\[B7/F#]mades
+    \[Em]J'ai \[G]le mi\[Am]roir mau\[C7]ssade
+    \[Em]Tantôt mo\[G]bile tan\[Am]tôt tran\[B7/F#]quille
+    \[Em]Je moissonne\[G] sans \[Am]bouscu\[C7]lade
+  \end{verse}
+
+  \begin{chorus}
+    Je dis \[D7]aime
+    \[C7]Et je le \[G]sème
+    \[B7]Sur ma pla\[Em]nète \[Em F B7/F#]
+    Je dis \[D7]aime
+    \[C7]Comme un em\[G]blème
+  \[B7]La haine je la \[Em]jette \[Em F B7/F#]
+  Je dis \[D7]aime, \[C7]aime, \[B7]aime
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{\[Em G Am B7/F\shrp, Em G Am C7]}}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Du \[G]Sphinx dans \[Am]mon \[B7]Rimeur
+    \[Em]Paris \[G] au \[Am]fil du \[C7]Coeur
+    \[Em]Du \[G]nil dan-\[Am]ans mes \[B7]veines
+    \[Em]Dans mes ar\[G]tères \[Am]coule la \[C7]Seine
+    \end{verse}
+
+    \begin{verse}
+      \[Am7]Pour le dehors, \[G]le dedans
+      Pour l'après, pour \[B7]l'avant
+      Je dis \[E]aime \rep{2}
+  \end{verse}
+
+  \begin{verse*}
+    Aime aime \dots
+  \end{verse*}
+  \end{repeatedchords}
+
+
+\endsong

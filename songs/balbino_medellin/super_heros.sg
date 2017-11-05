@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Super héros}
-  [by={Balbino Medellin},cov={le-soleil-et-l-ouvrier},album={Le soleil et l'ouvrier}]
+  [by={Balbino Medellin},cover={le-soleil-et-l-ouvrier},album={Le soleil et l'ouvrier}]
 
   \cover
   \gtab{Bm}{2:X02210}

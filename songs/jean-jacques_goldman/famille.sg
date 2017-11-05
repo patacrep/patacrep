@@ -1,0 +1,97 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Famille}
+  [by={Jean-Jacques Goldman},cover={non-homologue},album={Non homologué}]
+
+  \cover
+
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+  \gtab{Bm}{2:X02210}
+  \gtab{G/B}{X2000X}
+  \gtab{D4}{X00233}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{Dm}{XX0231}
+  \gtab{Cm}{X35543}
+  \gtab{C9}{000210}
+  \gtab{D/F#}{200XXX}
+  \gtab{Am7}{X02010}
+  \gtab{E}{022100}
+  \gtab{E&}{XX1343}
+  \gtab{F}{1:022100}
+
+  \beginverse*
+    \nolyrics{\[G Bm C G]}
+    \nolyrics{\[Am G/B C D4 D]}
+  \endverse
+
+  \beginverse
+    \[G] Et crever le \[Bm]silence
+    Quand c'est \[C]à toi \[D]que je \[G]pense
+    Je suis \[Em]loin de tes \[D]mains
+    Loin de \[G]toi loin des tiens
+    Mais tous ça \[Am]n'a pas d'impor\[D4]tance \[D]
+  \endverse
+
+  \beginverse
+    \[G] J'connais pas ta \[Bm]maison
+    Ni ta \[C]ville, \[D]ni ton \[Em]nom
+    Pauvre \[C]riche ou bâ\[D]tard
+    Blanc tout \[G]noir ou bizare
+    Je re\[Am]connais ton re\[D4]gard \[D]
+  \endverse
+  \beginverse*
+    Et tu \[Dm]cherches une i\[E]mage
+    Et tu \[Am]cherches un endroit
+    Où je \[Cm]dérive par\[C9]fois
+  \endverse
+
+  \beginverse
+    \[G] Tu es de ma \[Bm]famille
+    De mon \[C]ordre et \[D]de mon \[G]rang
+    Celle \[Em]que j'ai choi\[D/F#]sie,
+    Celle \[G]que je ressens
+    Dans cette ar\[Am]mée de simples \[D4]gens \[D]
+  \endverse
+
+  \beginverse
+    \[G] Tu es de ma \[Bm]famille
+    Bien plus \[C]que \[D]celle du \[Em]sang
+    Des poi\[C]gnées de se\[D]condes
+    Dans cet \[G]étrange \[Am7]monde
+    Qu'il te pro\[C9]tège s'il entend
+  \endverse
+
+  \beginverse
+    \[G] Tu sais pas bien où tu \[Bm]vas
+    Ni bien \[C]comment \[D]ni pour\[G]quoi
+    Tu crois \[Em]pas a grand-\[D]chose
+    Ni tout \[G]gris ni tout rose
+    Mais ce que \[Am]tu crois, c'est à \[D4]toi \[D]
+  \endverse
+
+  \beginverse
+    \[G] T'es du parti des \[Bm]perdants
+    Consciem\[C]ment, \[D]viscérale\[Em]ment
+    Et tu \[C]regardes en \[D]bas
+    Mais tu \[G]tomberas pas
+    Tant qu'on au\[Am]ra besoin de \[D4]toi \[D]
+  \endverse
+  \beginverse*
+    Et tu \[Dm]prends les bon\[E]heurs
+    Comme \[Am]grains de raisin
+    Petits \[Cm]bouts de petits \[C9]riens
+  \endverse
+
+  \beginverse
+    \[G] Tu es de ma famille,\[Am7] tu es de ma famille \[E&]
+    Du même \[F]rang, du même \[G]vent
+    \[G]Tu es de ma famille,\[Am7] tu es de ma famille \[E&]
+    Même habi\[F]tant du même \[G]temps
+    \[G]Tu es de ma famille,\[Am7] tu es de ma famille \[E&]
+    Croisons nos \[F]vies de temps en \[G]temps
+  \endverse
+\endsong

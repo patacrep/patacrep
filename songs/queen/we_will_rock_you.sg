@@ -1,0 +1,39 @@
+\selectlanguage{english}
+\songcolumns{1}
+\beginsong{We will rock you}[
+  by={Queen}]
+  
+  \cover
+  \gtab{E}{022100}
+  \gtab{A}{X02220}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  
+\begin{verse}
+\[E]Buddy you're a boy make a big noise
+Playin' in the street gonna be a big \[A]man some day
+You got \[E]mud on you' face
+You \[A]big disgrace
+\[G]Kickin' your can all o\[A]ver the place
+Singin'
+\end{verse}
+\begin{chorus}
+\[G]We \[D]will, \[A]we \[D]will \[E]rock \[E]you
+We will, we will rock you
+\end{chorus}
+\begin{verse}
+Buddy you're a young man hard man
+Shoutin' in the street gonna take on the world some day
+You got blood on your face
+You big disgrace
+Wavin' your banner all over the place
+Singin'
+\end{verse}
+\begin{verse}
+Buddy you're an old man, poor man
+Pleadin' with your eyes gonna make you some peace some day
+You got mud on your face
+You big disgrace
+Somebody better put you back in your place
+\end{verse}
+\endsong

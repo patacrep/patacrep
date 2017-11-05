@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Dès que le vent soufflera}
-  [by={Renaud},cov={morgane-de-toi},album={Morgane de toi}]
+  [by={Renaud},cover={morgane-de-toi},album={Morgane de toi}]
 
   \cover
   \gtab{Em}{022000}
@@ -38,18 +38,18 @@
     Au dépourvu, tant pis
     J'ai eu si mal au cœur
     Sur la mer en furie
-    J'ai vomi mon quatre-heures
+    Que j'ai vomi mon quatre-heures
     Et mon minuit aussi
     J'me suis cogné partout
     J'ai dormi dans des draps mouillés
     Ça m'a coûté des sous
-    La plaisance, c'est l'pied
+    C'est de la plaisance, c'est l'pied
   \end{verse}
 
   \begin{verse}
     C'est pas l'homme qui prend la mer
     C'est la mer qui prend l'homme
-    Et elle prend pas la femme
+    Mais elle prend pas la femme
     Qui préfère la campagne
     La mienne m'attend au port
     Au bout de la jetée
@@ -85,7 +85,7 @@
     C'est un fameux trois mâts
     Fin comme un oiseau
     \echo{hisse et ho}
-    Si Tabarly, Pageot
+    Tabarly, Pageot
     Kersauzon et Riguidel
     Naviguent pas sur des cageots
     Ni sur des poubelles

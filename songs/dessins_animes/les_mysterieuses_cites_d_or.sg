@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Les mystérieuses cités d'or}
-  [by={Dessins Animés},cov={mysterieuses-cites-d-or},album={Les mystérieuses cités d'or}]
+  [by={Dessins\ Animés},cover={mysterieuses-cites-d-or},album={Les mystérieuses cités d'or}]
 
   \cover
   \gtab{C}{X32010}
@@ -20,17 +20,17 @@
   \begin{verse*}
     Et le jour, la nuit
     Avec tes deux meilleurs amis
-    À bord du Grand Condor
-    Tu recherches les Cités d'Or
+    À bord du grand condor
+    Tu recherches les cités d'or
   \end{verse*}
 
   \begin{chorus}
     \[Dm]Aaaah ah ah ah \[Am]ah
-    Esteban, \[G]Zia, \[E]Tao les Cités d'\[Am]O\[A]r
+    Esteban, \[G]Zia, \[E]Tao, les cités d'\[Am]o\[A]r
     \[Dm]Aaaah ah ah ah \[Am]ah
-    Esteban, \[G]Zia, \[E]Tao les Cités d'\[Am]Or
+    Esteban, \[G]Zia, \[E]Tao, les cités d'\[Am]or
     \[G]Tou-dou dou-dou dou, \[Am]{ah ah ah}
-    \[G]Tou-dou dou-dou dou, les Cités d'\[Am]Or
+    \[G]Tou-dou dou-dou dou, les cités d'\[Am]or
   \end{chorus}
 
   \begin{verse}

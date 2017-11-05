@@ -1,0 +1,67 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Scorbut}
+  [by={Hubert-Félix Thiéfaine},cover={amour-art-cochon},album={De l'amour, de l'art ou du cochon ?}]
+
+  \cover
+  \gtab{C}{3:X02220}
+  \gtab{Dm}{5:X02210}
+  \gtab{Em}{7:X02210}
+  \gtab{G}{3:022100}
+  \gtab{Am}{5:022000}
+  \gtab{F}{1:022100}
+
+  \begin{verse}
+    \[C]C'est l'histoire d'un pauvre gars courant la gueuse dans les ba\[Dm]luche
+    Quand t'as toute la s'maine dans l' baba, tu peux ben rêver d'une gre\[C]luche
+    Chevauchant sa motocyclette sur les chemins du samedi \[Dm]soir
+    Il dérapa sur ses rou\[Em]pettes en enten\[G]dant ce cri bi\[C]zoirre
+  \end{verse}
+
+  \begin{chorus}
+    Les \[C]filles de La Rochelle ont attrapé le scor\[G]but
+    Mignons, finie la bagatelle, la charen\[Am]taise ne \[G]répond \[F]plus, Oh \[G]gué
+  \end{chorus}
+
+  \begin{verse*}
+    Oh gué, oh gué \[C]{\dots} d'ailleurs
+  \end{verse*}
+
+  \begin{verse}
+    Le pauv'gars bloqua son engin en se croyant halluciné
+    Puis il tendit ses esgourdins, espérant bien s'être trompé
+    Oui, mais tout soudain derrière lui, il entendit le cri fatal
+    Qui semblait déchirer la nuit de toute son horreur sidérale
+  \end{verse}
+
+  \begin{verse}
+
+    Assis sur le rebord du trottoir avec sa tête entre ses mains
+    Le pauvre gars broyait du noir en triquant dur comme un vieux chien
+    Et d'ailleurs, à propos de chien, celui qui passait à c't'heure-là
+    Lui qui n'avait envie de rien, eût droit à ce qu'il n'attendait pas, Oh ? !
+  \end{verse}
+
+  \begin{bridge}
+    \[C] \[B] \[A] \[G] \[F] \[G]
+  \end{bridge}
+
+  \begin{verse}
+    Le chien repartit la queue basse sans avoir ben tout tout compris
+    Tandis que notre pauvre gars, lui, se sentait tout rajeuni
+    Il remonta sur sa moto et s'en retourna dans la nuit
+    Mais depuis, dans tous les hameaux, paraît qu'les chiens courent derrière lui
+  \end{verse}
+
+  \begin{verse}
+    La morale de ce cantique, pour ceux qui ne le sauraient pas
+    C'est qu'dans la vie, faut être pratique quand on veut ce que l'on a pas
+    Quant à vous les pauvres fillettes de La Rochelle ou bien d'ailleurs
+    Soyez donc un peu moins couillettes, voyez que les chiens nous font pas peur
+  \end{verse}
+
+  \begin{verse*}
+    Che - val - deux - trois
+  \end{verse*}
+
+\endsong

@@ -1,0 +1,107 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Aloïda}
+  [by={Tri Yann},cover={portraits},album={Portraits},%
+  url={http://edoll.free.fr/}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab*{F#m7}{2:020000}
+  \gtab{G}{320003}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{D}{XX0232}
+  \gtab{C}{X32010}
+
+  \musicnote{\Intro : \Verse}
+
+  \begin{verse}
+    \[Em]{C'était} à Vannes, l'an pa\[F#m7]{ssé au mois} de \[G]mai \[A]
+    \[Bm]Aloïda de l'I.\[G]U.T. \[A]reve\[Bm]nait
+    \[Em]Petite maure, cheveux \[F#m7]{de jais sur} le \[G]dos \[A]
+    \[Bm]Jean et T-shirt, sur le \[G]pont de \[A]Keri\[Bm]no
+  \end{verse}
+
+  \begin{verse*}
+    \[D]{S'en} viennent à moto ses trois \[C]frères
+    Et leurs yeux sont comme cou\[D]teaux
+    Ils l'encerclent elle a \[C]peur aussi\[A]tôt
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Hier on t'a vu main dans \[F#m7]{main d'un} étu\[G]diant \[A]
+      \[Bm]C'est déshonneur pour u\[G]ne maure \[A]de vingt \[Bm]ans
+      \[Em]Grand déshonneur pour tes \[F#m7]{frères et} tes pa\[G]rents \[A]
+      \[Bm]C'est, leur dit-elle, liber\[G]té d'ai\[A]mer pour\[Bm]tant
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Des trois frères l'ainé aussi\[C]tôt
+      Lui attache les mains dans le \[D]dos
+      Et la jette derrière \[C]sa mo\[A]to
+    \end{verse*}
+
+    \begin{verse}
+      \[Em]Frères ! Mes frères ! \[F#m7]{Vous me brisez} les \[G]os \[A]
+      \[Bm]Maudite sœur nous en \[G]fini\[A]ront bien\[Bm]tôt
+      \[Em]Frères ! Mes frères ! \[F#m7]{Vous déchirez ma} \[G]peau \[A]
+      \[Bm]Maudite sœur tu ga\[G]gnes ce \[A]que tu \[Bm]vaux
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Dans un entrepôt, ils la \[C]traînent
+      Et la saignent de leurs cou\[D]teaux
+      Et l'enterrent au fond \[C]du dé\[A]pôt
+    \end{verse*}
+
+    \musicnote{\Verse}
+
+    \begin{verse}
+      \[Em]Tombe sur Vannes grêle \[F#m7]{de caillots de} \[G]sang \[A]
+      \[Bm]Aloïda, ton a\[G]mi vient \[A]en cou\[Bm]rant
+      \[Em]Chercher refuge par ha\[F#m7]{sard dans }l'entre\[G]pôt \[A]
+      \[Bm]Voit dans l'entrée tes chaus\[G]sures et \[A]ton man\[Bm]teau
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Gendarmes qui dormez, accou\[C]rez
+      Morte mon amie est enter\[D]rée
+      Et de la terre dépas\[C]{se ses} \[A]pieds
+    \end{verse*}
+
+    \begin{verse}
+      \[Em]Sitôt s'en viennent capi\[F#m7]{taine et }briga\[G]diers \[A]
+      \[Bm]Dans l'entrepôt, pour la \[G]maure \[A]déter\[Bm]rer
+      \[Em]Mais là d'entendre sous la \[F#m7]{terre ses }san\[G]glots \[A]
+      \[Bm]Aloïda sortie \[G]s'éveille \[A]aussi\[Bm]tôt
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Entre ses seins bis, repo\[C]sant
+      Elle avait son petit en\[D]fant
+      Lui souriant, souri\[C]ant à la \[A]vie
+    \end{verse*}
+
+    \begin{verse}
+      \[Em]{Le jour} suivant, sur la \[F#m7]{route de }Lo\[G]rient \[A]
+      \[Bm]{On retrouva} les frè\[G]res tous \[A]trois gi\[Bm]sants
+      \[Em]{Le plus} âgé au fond \[F#m7]{d'un étang} no\[G]yé \[A]
+      \[Bm]{Et le} plus jeune sous sa \[G]moto \[A]écra\[Bm]sé
+    \end{verse}
+
+    \begin{verse*}
+      \[D]Le troisième brûlé, foudro\[C]yé
+      Et ses cendres égarées dans le \[D]vent
+      Tous trois gisants, tout près \[C]de Landé\[A]vant
+    \end{verse*}
+
+    \begin{verse}
+      \[Em]C'était à Vannes, le jour \[F#m7]{de la saint} Bren\[G]dan \[A]
+      \[Bm]Aloïda, jeune \[G]maure \[A]de vingt \[Bm]ans
+      \[Em]{Le lendemain}, sur la \[F#m7]{route de }Lo\[G]rient \[A]
+      \[Bm]{On retrouva} ses frè\[G]res tous \[A]trois gi\[Bm]sants
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

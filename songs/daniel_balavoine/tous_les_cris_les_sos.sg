@@ -1,0 +1,65 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Tous les cris les SOS}[
+  by={Daniel Balavoine}]
+  
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{E}{022100}
+  \gtab{E4}{022200}
+  \gtab{Dm}{XX0231}
+  
+\begin{verse}
+\[Am]Comme un fou va jeter à la \[F]mer
+Des bouteilles \[G]vides et puis espère
+Qu'on pou\[Em]rra lire à tra\[F]vers
+\[Am]S.O.S. écrit avec de \[F]l'air
+Pour te dire \[G]que je me sens seul
+Je de\[Em]ssine à l'encre \[F]vide
+Un désert
+\end{verse}
+\begin{chorus}
+\textbf{Refrain 1 :}
+Et je \[C]cours
+\[G]Je me raccroche à la \[Am]vie
+Je me \[F]saoule avec le \[C]bruit
+Des \[G]corps qui m'entou\[F]rent
+\[G]Comme des lianes nouées de \[F]tresses
+Sans com\[G]prendre la dét\[C]resse
+Des \[G]mots que j'en\[F]voie
+\end{chorus}
+\begin{verse}
+Difficile d'appeler au secours
+Quand tant de drames nous oppressent
+Et les larmes nouées de stress
+Étouffent un peu plus les cris d'amour
+De ceux qui sont dans la faiblesse
+Et dans un dernier espoir
+Disparaissent
+\end{verse}
+\textnote{Refrain 1}
+\begin{chorus}
+\textbf{Refrain 2 :}
+\[Dm]Tous les cris les S.O.S.
+\[E4]Partent dans les \[E]airs
+Dans l'eau \[Am]laissent une \[F]trace
+Dont \[G]les écumes font \[Em7]la beau\[F]té \newline
+Pris dans leur vaisseau de verre
+Les messages luttent
+Mais les vagues les ramènent
+En pierres d'étoile sur les rochers
+\end{chorus}
+\begin{verse}
+Et j'ai ramassé les bouts de verre
+J'ai recollé tous les morceaux
+Tout était clair comme de l'eau
+Contre le passé y a rien à faire
+Il faudrait changer les héros
+Dans un monde où le plus beau
+Reste à faire
+\end{verse}
+\textnote{Refrain 1 \& 2}
+\endsong

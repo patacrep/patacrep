@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Hotel California}
-  [by={Eagles},cov={hotel-california},album={Hotel California}]
+  [by={Eagles},cover={hotel-california},album={Hotel California}]
 
 
   \cover
@@ -41,7 +41,7 @@
   \begin{chorus}
     \[G]Welcome to the Hotel Cali\[D]fornia
     Such a \[Em]lovely place \echo{such a lovely place}
-    Such a \[F#]lovely face
+    Such a \[Bm]lovely face
     \[G]Plenty of room at the Hotel Cali\[D]fornia
     Any \[Em]time of year \echo{any time of year}
     You can \[F#]find it here

@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{La ferme}
-  [by={Les Fatals Picards},cov={picardia-independanza},album={Picardia Independanza}]
+  [by={Les Fatals\ Picards},cover={picardia-independanza},album={Picardia Independanza}]
 
 
   \cover
@@ -189,7 +189,7 @@
 
   \begin{verse*}
     Et Maurice, la génisse
-    Et Félidé, la mouche tsé-tsé
+    Et Felipe, la mouche tsé-tsé
     Et Dona, le boa
     Et Rocky, le poisson-scie
   \end{verse*}
@@ -201,7 +201,7 @@
 
   \begin{verse}
     Véronica, l'anaconda
-    Et Yvenne, la murène
+    Et Irène, la murène
     Et Milou, le hibou
     Et Paulo, le corbeau
   \end{verse}
@@ -227,7 +227,7 @@
 
   \begin{verse*}
     Et Alexis, l'otarie
-    Et puis Rock, le phoque
+    Et puis Roc, le phoque
     Et Annette, la crevette
     Et le loup, c'est le loup. \echo{oui c'est moi !}
   \end{verse*}
@@ -238,7 +238,7 @@
   \end{chorus}
 
   \begin{verse}
-    Béa, la routa
+    Béa, l'aoûtat
     Et Alban, le poisson
     Et Richard, le lézard
     Et Alain, le pangolin
@@ -277,22 +277,23 @@
 
   \begin{verse}
     Yvette, la belette
-    Et Albain, le petit lapin
-    Et puis Marthe, la Marthe
-    Et Jean-Sève, le microsel
+    Et Albin, le petit lapin
+    Et puis Marthe, la martre
+    Et Jean-Seb, le microcèbe
   \end{verse}
 
   \begin{verse*}
-    Et Loanna, le puma
+    Et Loana, le puma
     Et Isabelle, la coccinelle
     Et Mathieu, le lieu
     Et Léo, l'escargot
+    \echo{Mais dépêche-toi, Léo !}
   \end{verse*}
 
   \begin{chorus}
     Et ils repartent tous ensemble et arrivent chez \dots
     Günter, le chasseur
-    Ah bonjour monsieur Günter ! Non non, vous dérangez pas, on cherche la sortie 22 de l'autoroute
+    Ah bonjour monsieur Günter ! Non non, vous dérangez pas, on cherche la sortie 22 du péage de l'autoroute
     Vous l'auriez pas vue par hasard ? Et sinon, vous vendez pas des timbres non plus ? Et sinon, vous n'aimez pas les marionnettes ?
     Non mais on va y aller parce qu'on doit passer chez \dots
   \end{chorus}
@@ -339,7 +340,7 @@
   \begin{verse}
     Bérengère, le protozoaire
     Et Carlos, l'albatros
-    Et Abdoul, la moule
+    Et Abdul, la moule
     Et Barnabé, le scarabée
   \end{verse}
 
@@ -347,7 +348,7 @@
     Et Riton, le raton
     Et Théophile, la drosophile
     Et Caisse d'épargne, l'écureuil
-    Et Francis Huslter, le mauvais acteur
+    Et Francis Huster, le mauvais acteur
   \end{verse*}
 
   \begin{chorus}

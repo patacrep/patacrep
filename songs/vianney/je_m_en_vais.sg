@@ -1,0 +1,78 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je m'en vais}
+  [by={Vianney},cover={vianney-vianney},album={Vianney}]
+  
+  \cover
+  \capo{3}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D4}{X54030}
+  \gtab{Bm}{X13321}
+  [G]
+
+  \musicnote{\Intro :{\[Em C D4 Em C D4 Em}}
+  \begin{verse}
+	\[Em]J'ai troqué mes cliques et mes \[C]claques
+	\[D4]Contre des cloques et des \[Em]flaques
+	\[Em]Mon sac-à-dos pour oubl\[C]ier
+	\[D4]Qu'avant c'est toi qui me pe\[Em]sait  
+  \end{verse}
+  
+  \begin{verse*}
+	\[Em]Ce qui m'emmène	\[C]
+	Ce que m'entraîne	\[D4]
+	C'est ma peine,
+	Ma \[Em]peine plus que la haine
+	\[Em]Oh ma route	\[C]
+	Oh ma plaine	\[D4]
+	Dieu que je l'aime
+  \end{verse*}
+  
+  \musicnote{\nolyrics{\[Em C D4}}
+  
+  \begin{chorus}
+	\[Em]  Et tournent tournent dans ma \[C]tête
+	\[D4]Les images du long mé\[Em]trage
+	\[Em]  Où tu es belle et moi la \[C]bête
+	\[D4]Et la belle n'est jamais \[Em]sage
+	\[Em]  Quand tu diras que c'est ma \[C]faute
+	\[D4]Que je n'ai jamais su t'ai\[Em]mer
+	\[Em]  Au diable toi et tes apô\[C]tres	\[D4]
+	Je m'en vais  
+  \end{chorus}
+  
+  \musicnote{\nolyrics{\[Em C D4 Em}}
+  \musicnote{\nolyrics{\[Em C Bm Em}}
+  
+  \begin{verse}
+	\[Em]  Et ce qui perle sur mon \[C]front
+	\[D4]Gouttes de pluie gouttes de \[Em]froid
+	\[Em]  Donne des ailes donne \[C]donc
+	\[D4]  L'ennuie de m'éloigner de \[Em]toi 
+  \end{verse}
+  
+  \begin{verse*}
+	\[Em]  Et mes larmes	\[C]
+	Et mes armes	\[D4]
+	Sont ma peine,
+	Ma \[Em]peine plus que la haine
+	\[Em]  Et mes larmes	\[C]
+	Mes larmes	\[D4]
+	Dieu que j'ai mal
+  \end{verse*}
+  
+  \musicnote{\nolyrics{\[Em C D4 Em}}
+  \musicnote{\nolyrics{\[Em C Bm Em}}
+  
+  \musicnote{\Chorus}
+  
+  \begin{verse*}
+	Je m'en va\[C]is	\[Am]	\[D4]	\[G]
+	Je m'en va\[C]is	\[Am]	\[Bm]	\[Bm]
+  \end{verse*}
+  
+  \musicnote{\Chorus}
+  \musicnote{\nolyrics{\[Em C D4 Em}}
+  \musicnote{\nolyrics{\[Em C Bm Em}}
+\endsong

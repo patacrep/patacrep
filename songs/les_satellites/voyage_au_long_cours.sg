@@ -1,0 +1,53 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Voyage au long cours}
+  [by={Les Satellites},album={4},%
+  original={http://www.youtube.com/watch?v=o8qXfX\_aBsU}]
+
+  \gtab{F#m}{9:X02210}
+  \gtab{Bm}{9:X02213}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
+
+  \begin{verse}
+    \[F#m]Un jour ma \[Bm]belle
+    \[F#m]Nous irons voir de plus près ces jolies construc\[Bm]tions
+    Qu'on voit sur les pa\[F#m]quets de Ca\[Bm]mel
+    Et le sable du désert sera notre mai\[F#m]son
+    Notre \[Bm]horizon
+  \end{verse}
+
+  \begin{chorus}
+    \[D]C'est des voy\[E]ages, des par\[D]cours
+    Pay\[E]sages au long cours
+  \end{chorus}
+
+  \begin{verse}
+    Un jour ma brune
+    Nous irons en Somalie trafiquer des fusils
+    Nous passerons nos nuits sous la lune
+    Parcourant les continents et pourtant l'océan
+    C'est long, c'est lent
+  \end{verse}
+
+  \begin{chorus}
+    C'est des images, des carnets
+    De voyages et d'amour fou
+  \end{chorus}
+
+  \begin{verse}
+    Un jour magique
+    Nous irons perdre la vue sur des terres inconnues
+    Nous apprendrons des mots magnifiques
+    Dont la couleur et les sons seront presque aussi beaux
+    Que l'illusion
+  \end{verse}
+
+  \begin{chorus}
+    C'est des naufrages, des séjours, des images
+    Des paysages, des parcours
+    Des voyages au long cours
+    Des voyages au long cours
+  \end{chorus}
+
+\endsong

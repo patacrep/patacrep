@@ -1,0 +1,77 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Romeo and Juliet}
+  [by={Dire Straits},cover={making-movies},album={Making Movies}]
+
+  \cover
+  \gtab{F}{5:X32010}
+  \gtab{Dm}{5:X02210}
+  \gtab{C}{5:320003}
+  \gtab{B&}{6:022100}
+  \gtab{Gm}{5:XX0231}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{\[F Dm] \rep{4} }}
+  \end{verse*}
+
+  \begin{verse}
+    \[F]A lovestruck Rom\[C]eo \[Dm]sings the streets a serenad\[C]e \[F]
+    \[F]Laying everybody l\[C]ow \[Dm]with a love s\[C]ong that he \[B&]made
+    \[C]Finds a street li\[B&]ght \[C]steps out into the sh\[F]ade
+    Says som\[B&]ething like you and me babe, \[C]how about it ?
+  \end{verse}
+
+  \begin{verse*}
+    \[F]Juliet says hey it's Romeo, \[C]you \[Dm]nearly gave me a heart \[C]attac\[F]k
+    \[F]He's underneath the win\[C]dow, \[Dm]she's singing hey la my b\[C]oyfrie\[B&]nds back
+    \[C]you shouldn't come around he\[B&]re sin\[C]ging up to people like \[F]that
+    An\[B&]yway, what you gonna do a\[C]bout it ?
+  \end{verse*}
+
+  \begin{chorus}
+    \[F]Juliet \[C]the dice was l\[Dm]oaded\[C] from the st\[B&]art
+    \[F]And I bet, \[C]and you ex\[Dm]ploded\[C] in my hear\[B&]t
+    And I for\[F]get, I \[C]forget, \[Dm]the movie song\[B&]
+    \[Gm]When you gonna realize it \[F]was \[B&]just that \[C]the ti\[Dm]me was wrong \[C]Juliet ?\[F]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Come up on different streets, they both the streets of shame
+    Both dirty both mean, yes and even and dream was just the same
+    And I dreamed your dream for you and now your dream is real
+    How can you look at me as if I was just another part of your deal
+    \end{verse}
+
+    \begin{verse*}
+      Well you can fall for chains of silver, you can fall for chains of gold
+    you can fall for pretty strangers and the promises they hold
+    You promised me everything, you promised me thick and thin yeah
+    Now you just say oh Romeo yeah, I used to have a scene with him
+    \end{verse*}
+
+  \begin{chorus}
+      \[F]Juliet \[C]when we made l\[Dm]ove \[C]you used to c\[B&]ry
+      \[F]You said I love you like \[C]the stars above I'll \[Dm]love you \[C]till I \[B&]die
+      There's a \[F]place \[C]for \[Dm]us, you know the \[B&]movie song
+      \[Gm]When you gonna realize it \[F]was \[B&]just that \[C]the ti\[Dm]me was wrong \[C]Juliet ?\[F]
+    \end{chorus}
+
+  \begin{verse}
+      I can't do the talk, like they talk on the TV
+    I can't do a love song, like the way it's meant to be
+    I can't do anything, but I'd do anything for you
+    I cant't do anything but be in love with you
+    \end{verse}
+
+    \begin{verse*}
+      And all I do is miss you and the way we used to be
+    All I do is keep the beat and bad company
+    All I do is kiss you through the bars of a rhyme
+    Juliet I'd do the stars with you anytime
+    \end{verse*}
+  \end{repeatedchords}
+
+  \musicnote{Chorus, First verse, Outro : \[B\flt C \dots }
+
+\endsong

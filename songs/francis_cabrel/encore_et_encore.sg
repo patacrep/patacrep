@@ -1,0 +1,96 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Encore et encore}
+  [by={Francis Cabrel},cover={photos-de-voyages},album={Photos de voyages},%
+  url={http://www.franciscabrel.com/site/}]
+
+  \cover
+  \capo{1}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{D}{XX0232}
+  \gtab{B}{2:X02220}
+
+  \begin{verse}
+  \[Em]D'abord vos corps qui se séparent
+  T'es seule dans la lumière des phares
+  \[G]T'entends à chaque fois que tu respires
+  Comme un bout de tissu qui se déchire
+  \[C]Et ça continue encore et encore
+  \[Am]C'est que le début d'accord, d'accord \[Em]
+  \end{verse}
+
+  \begin{repeatedchords}
+  \begin{verse*}
+  \[Em]L'instant d'après le vent se déchaîne
+  Les heures s'allongent comme des semaines
+  \[G]Tu te retrouves seule assise par terre
+  A bondir à chaque bruit de portière
+  \[C]Mais ça continue encore et encore
+  \[Am]C'est que le début d'accord, d'accord \[Em]
+  \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+  \[G]Quelque chose vient de tomber
+  \[D]Sur les lames de ton plancher
+  \[Em]C'est toujours le même film qui passe \[C]
+  \[G]T'es toute seule au fond de l'espace
+  \[B]T'as personne devant \[Am]
+  \end{chorus}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[Em]La même nuit que la nuit d'avant
+  Les mêmes endroits deux fois trop grands
+  \[G]T'avances comme dans des couloirs
+  Tu t'arranges pour éviter les miroirs
+  \[C]Mais ça continue encore et encore
+  \[Am]C'est que le début d'accord, d'accord \[Em]
+  \end{verse}
+  \end{repeatedchords}
+
+  \musicnote{\Chorus}
+
+  \begin{bridge}
+  \[G]Faudrait que t'arrives à en \[D]parler au passé
+  \[Em]Faudrait que t'arrives à \[C]ne plus penser à \[G]ça
+  Faudrait que tu l'ou\[D]blies à longueur de jour\[Em]née
+  \[G]Dis-toi qu'il est de \[D]{l'autre} côté du pôle
+  \[Em]Dis-toi surtout \[C]qu'il ne reviendra \[G]pas
+  Et ça te fait \[D]marrer les oiseaux qui s'en\[C]volent
+  Les oiseaux qui s'en\[D]volent
+  Les oiseaux qui s'envolent
+  \end{bridge}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[Em]Tu comptes les chances qu'il te reste
+  Un peu de son parfum sur ta veste
+  \[G]Tu avais dû confondre les lumières
+  D'une étoile et d'un réverbère
+  \end{verse}
+
+  \begin{verse*}
+  Et ça continue encore et encore
+  C'est que le début d'accord, d'accord
+  \rep{2}
+  \end{verse*}
+
+  \begin{chorus}
+  Y'a des couples qui se défont
+  Sur les lames de son plafond
+  C'est toujours le même film qui passe
+  T'es toute seule au fond de l'espace
+  T'as personne devant
+  Personne
+  \end{chorus}
+  \end{repeatedchords}
+
+  \musicnote{\Chorus 1}
+
+  \musicnote{\Chorus 2}
+
+\endsong

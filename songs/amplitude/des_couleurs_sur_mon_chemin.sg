@@ -1,0 +1,59 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Des couleurs sur mon chemin}[
+  by={Amplitude}]
+
+  \gtab{F#m}{2:022000}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{B}{2:X02220}
+  \gtab{E}{022100}
+
+  \begin{verse}
+    \[F#m]Tant de moments parta\[A]gés
+    \[D]Les beaux jours passés en\[A]sem\[B]ble
+    \[F#m]Des sourires par mil\[A]liers
+    \[D]Des délires qui nous res\[A]sem\[E]blent
+
+    \[F#m]Des couleurs sur mon chemin
+    \[A]Des couleurs sur mon chemin
+    \[B]Des couleurs sur mon chemin
+    \[F#m]Des couleurs sur mon che\[A]min
+    \[F#m]Des couleurs sur mon chemin
+    \[A]Des couleurs sur mon chemin
+    \[B]Des couleurs sur mon chemin
+    \[F#m]Des couleurs sur mon che\[E]min
+  \end{verse}
+
+  \begin{chorus}
+    Une \[F#m]chemise, un fou\[D]lard et mon \[A]sac sur le \[C#m]dos
+    \[D]Ma pro\[A]messe, \[Bm]d'une main qui t'aide à \[Bm]passer la rivière
+    Une \[F#m]chemise, un fou\[D]lard et mon \[A]sac sur le \[C#m]dos
+    \[D]Le scou\[A]tisme dans la \[C#]peau
+  \end{chorus}
+
+  \begin{verse}
+    On échange nos trésors
+    Des rencontres sur la route
+    Une gourde au bout de l'effort
+    Les étoiles en clef de voûte
+    Des couleurs sur mon chemin \rep{8}
+  \end{verse}
+
+  \begin{verse}
+    Lorsque les épaules souffrent
+    On s’assoit près du chemin
+    L'amour donne un deuxième souffle
+    Quand on partage le pain
+    Des couleurs sur mon chemin \rep{8}
+  \end{verse}
+
+  \begin{verse}
+    Les yeux plongés dans le ciel
+    Une tente et de l'air pur
+    Une cour sans frontières
+    Généreuse est la nature
+    Des couleurs sur mon chemin \rep{8}
+  \end{verse}
+
+\endsong

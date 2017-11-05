@@ -1,0 +1,97 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Machistador}
+  [by={-M-},cover={le-bapteme},album={Le bapteme}]
+
+  \cover
+  \gtab{Gm}{3:022100}
+  \gtab{B&}{X13331}
+  \gtab{B}{X24442}
+  \gtab{C}{3:X02220}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{\[Gm B\flt B C]}}
+  \end{verse*}
+
+  \begin{verse}
+    \[Gm]Je suis un missionnaire de la drague, je l'a\[B&]voue\[B C]
+    \[Gm]Le kiki au toutou en espadrilles a c\[B&]lous\[B C]
+    \[Gm]Elle craquait sur les sièges, les penden\[B&]tifs\[B C]
+    \[Gm]J'ai la poupée d'E.T. dans ma golf G\[B&]TI\[B C]
+  \end{verse}
+
+  \begin{verse*}
+    Elle était émotive en parlant de Jean-Yves
+  Un amant incompris, qu'elle quitta pour Henri
+  Mais j'me foutais d'sa vie
+  Et surtout de son avis
+  Beaucoup moins de son envie
+  Tu veux pas{\dots} j'reste en vie
+  \end{verse*}
+
+  \begin{repeatedchords}
+
+    \begin{chorus}
+      Je suis un machistador
+      Et je crois qu'elle m'adore
+    Non, non, non
+    Y'a pas d'error
+    Machistador
+    \end{chorus}
+
+    \begin{verse}
+      Je me brise au Whisky-Glace
+    Mais je courtise avec classe
+    Je m'allume au Malibu
+    Malade, pas beau quand j'ai trop bu (berk !)
+    \end{verse}
+
+    \begin{verse*}
+      Les magazines nous contaminent
+    J'préfère encore les fanzines
+    Pour la télé y a pas photo
+    J'préfère Hervé l'idiot (Blblblbl !)
+    \end{verse*}
+
+  \begin{verse*}
+    Point d'vue image du monde
+    A votre âge c'est immonde
+    De vivre sur le cul de ces individus
+    Qui n'ont pas plus à dire
+    Que Raoul sur sa tire\dots
+  \end{verse*}
+
+  \musicnote{\Chorus}
+
+  \begin{verse}
+      Dans le mouvement d'approche
+    J'ai le mou membre en poche
+    Et d'un pas pragmatique
+    Je pratique la drague\dots
+    \end{verse}
+
+    \begin{verse*}
+      Mais ma poitrine est imberbe
+    Il faut y remédier
+    Pour jouer au salaud
+    Comme les fils de John Wayne
+    Avec un long manteau, un chapeau\dots
+    Non , pas la peine !
+  \end{verse*}
+
+  \begin{verse*}
+    Même les jours difficiles
+    J'ai toujours les mots piles
+    \end{verse*}
+
+  \musicnote{\Chorus}
+
+  \begin{verse}
+    Macho macho Machistador
+    Macho macho J'ADORE
+    Macho macho Machistador
+    Macho macho J'ADORE !
+  \end{verse}
+
+  \end{repeatedchords}
+\endsong

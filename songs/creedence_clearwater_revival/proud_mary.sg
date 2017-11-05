@@ -1,0 +1,57 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Proud Mary}
+  [by={Creedence Clearwater Revival},album={Bayou Country}]
+
+  \cover
+  \gtab{C}{032010}
+  \gtab{A}{002220}
+  \gtab{G}{355433}
+  \gtab{F}{133211}
+  \gtab{D}{X00232}
+  \gtab{Bm}{X24432}
+
+  \musicnote {\Intro: \nolyrics \[C A C A C A G F G D}
+
+
+  \begin{verse}
+   \[D]Left a good job in the city
+   Workin' for the man ev'ry night and day
+   And I never lost one minute of sleepin'
+   Worryin' 'bout the way things might have been
+   \[A]Big wheel keep on turnin'
+   \[Bm]Proud Mary keep on burnin'
+   \[D]Rollin', rollin', rollin' on the river
+  \end{verse}
+
+   \textnote[french]{reprendre l'intro}
+
+  \begin{verse}
+  Cleaned a lot of plates in Memphis
+  Pumped a lot of tane down in New Orleans
+  But I never saw the good side of the city
+  'Til I hitched a ride on a river boat queen
+  Big wheel keep on turnin'
+  Proud Mary keep on burnin'
+  Rollin', rollin', rollin' on the river \rep{2}
+  \end{verse}
+
+   \textnote[french]{reprendre l'intro}
+
+  \begin{verse}
+  If you come down to the river
+  Bet you gonna find some people who live
+  You don't have to worry 'cause you have [if you got] no money
+  People on the river are happy to give
+  Big wheel keep on turnin'
+  Proud Mary keep on burnin'
+  Rollin', rollin', rollin' on the river\rep{2}
+  \end{verse}
+
+   \textnote[french]{reprendre l'intro}
+
+  \begin{bridge}
+  Rollin', rollin', rollin' on the river\rep{3}
+  \end{bridge}
+
+\endsong

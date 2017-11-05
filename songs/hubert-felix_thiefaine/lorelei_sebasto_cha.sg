@@ -1,0 +1,75 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Lorelei Sebasto Cha}
+  [by={Hubert-Félix Thiéfaine},cover={soleil-cherche-futur},album={Soleil cherche futur}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{Cm}{3:X02210}
+  \gtab{B}{2:X02220}
+  \gtab{Am}{X02210}
+  \gtab{G}{320003}
+  \gtab*{A7/C#}{X42020}
+
+  \begin{verse*}
+    \musicnote {\Intro{}: \nolyrics \[Em C Cm B Em C Cm Em] \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+    Mon blues a déjan\[Em]{té sur} ton corps anima\[C]l
+    Dans cette chambre où les \[Am]nuits durent pas plus d'un quart d'heur\[Em]e
+    Juste après le péage assurer l'extra-bal\[C]l
+    Et remettre à zé\[Am]{ro l'aiguille} sur le compteu\[Em]r
+    Ton blues a déra\[Cm]{pé sur} mon corps de chaca\[G]l
+    Dans cet hôtel pau\[A7/C#]{mé aux murs} glacés d'ennui\[C]
+    Et pendant que le \[A7/C#]{lit croise l'aéropostal}\[C]e
+    Tu m'dis reprends ton \[Am]{fric aujourd'hui} c'est gratui\[Em]t
+  \end{verse}
+
+  \begin{chorus}
+    Lorelei, Lorel\[Em]ei
+    \[C] Ne me lâche pas
+    \[A7/C#] J'ai mon train qui déraille
+    \[C] Lorelei, Lore\[Em]lei
+    \[C] Et j'suis comme un cobaye
+    \[A7/C#] Qui a sniffé \[C]toute sa paille\[Em]
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Em C Cm B Em C Cm Em]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Tu m'arraches mon ar\[Em]mure dans un geste un peu lour\[C]d
+      En me disant re\[Am]viens maint'nant je te connai\[Em]s
+      Tu m'rappelles mes amants rue Barrée à Hambour\[C]g
+      Quand j'étais l'orphe\[Am]{line aux} yeux de feu folle\[Em]t
+      Tu m'rappelles mes a\[Cm]mants perdus dans la tempêt\[G]e
+      Avec le cœur nau\[A7/C#]{frage au bout} des bars de nui\[C]t
+      Et tu me dis re\[A7/C#]{viens je suis} ton jour de fêt\[C]e
+      Reviens jouir mon a\[Am]mour dans ma bouche agoni\[Em]e
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote {\nolyrics \[Em C Cm B Em C Cm Em]}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Le blues a dégra\[Em]{fé nos} cœurs de cannibale\[C]s
+      Dans ce drame un peu \[Am]triste où meurent tous les Shakespea\[Em]re
+      Le rouge de nos viandes sur le noir sidéra\[C]l
+      Le rouge de nos dé\[Am]{sirs sur} l'envers de nos cuir\[Em]s
+      Et je te dis re\[Cm]viens maintenant c'est mon tou\[G]r
+      De t'offrir le vo\[A7/C#]{yage pour} les Galapago\[C]s
+      Et je te dis re\[A7/C#]{viens on s'en} va mon amou\[C]r
+      Recoller du so\[Am]{leil sur} nos ailes d'albatro\[Em]s
+    \end{verse}
+  \end{repeatedchords}
+
+  \musicnote{\Chorus{} \Adlib{}}
+
+\endsong

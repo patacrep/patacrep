@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Céline}
-  [by={Hugues Aufray},cov={la-terre-est-si-belle},album={La Terre est si belle}]
+  [by={Hugues Aufray},cover={la-terre-est-si-belle},album={La Terre est si belle}]
 
   \cover
   \gtab{Am}{X02210}
@@ -9,6 +9,7 @@
   \gtab{G}{320003}
   \gtab{C}{X32010}
   \gtab{E}{022100}
+  \gtab{F}{1:022100}
 
   \begin{verse}
     Dis-\[Am]moi, Céline, les années ont passé

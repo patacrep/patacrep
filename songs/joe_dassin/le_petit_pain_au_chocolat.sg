@@ -1,0 +1,74 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le petit pain au chocolat}
+  [by={Joe Dassin},cover={le-meilleur-de-joe-dassin},album={Le meilleur de Joe Dassin}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{G7}{320001}
+  \gtab{C7}{X32310}
+  \gtab{F}{1:022100}
+  \gtab{Fm}{1:022000}
+
+  \begin{verse}
+    \[C]Tous les matins il achetait
+    Des petits pains au choco\[G]lat
+    \[G7]La boulangère lui souriait
+    Mais il ne la voyait \[C]pas
+    Et pour\[C7]tant, elle était belle
+    Les cli\[F]ents ne voyaient qu'elle
+
+    \[Fm]Il faut dire qu'elle
+    \[C]Était vraiment très croustil\[G7]lante
+    Autant que ses croiss\[C]ants
+    \[F]Et elle rêvait, mélanco\[C]lique
+    Le soir dans sa bou\[G]tique
+    À ce jeune homme dis\[C]tant
+  \end{verse}
+
+  \transpose{1}
+
+  \begin{verse}
+    Il était myope, voilà tout
+    Mais elle ne le savait pas
+    Il vivait dans un monde flou
+    Où les nuages volaient bas
+    Il ne voyait pas qu'elle était belle
+    Ne savait pas qu'elle était celle
+    Que le destin
+    Lui envoyait à l'aveuglette
+    Pour faire son bonheur
+    Mais la fille qui n'était pas bête
+    Acheta des lunettes
+    À l'élu de son cœur
+  \end{verse}
+
+  \begin{verse}
+    Dans l'odeur chaude des galettes
+    Des baguettes et des babas
+    Dans la boulangerie en fête
+    Un soir on les maria
+    Tout en blanc, qu'elle était belle
+    Les clients ne voyaient qu'elle
+    Et de leur union
+    Sont nés des tas de petits
+    Myopes comme papa
+    Gambadant parmi les brioches
+    Se remplissant les poches
+    De petits pains au chocolat
+  \end{verse}
+
+  \begin{verse}
+    Lalalalala \dots
+    Et pourtant, elle était belle
+    Les clients ne voyaient qu'elle
+    Et quand on y pense
+    La vie est très bien faite
+    Il suffit de si peu
+    D'une simple paire de lunettes
+    Pour accrocher deux êtres
+    Et pour qu'ils soient heureux
+  \end{verse}
+
+\endsong

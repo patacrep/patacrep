@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Dumb}
-  [by={Nirvana},cov={in-utero},album={In Utero}]
+  [by={Nirvana},cover={in-utero},album={In Utero}]
 
   \cover
   \capo{2}
@@ -11,8 +11,8 @@
   \gtab{C}{X32010}
   \gtab{E}{022100}
   \gtab{B}{2:X02220}
-  \gtab*{B*}{XX244X}
-  \gtab*{C*}{XX355X}
+  \gtab*{B*}{X244XX}
+  \gtab*{C*}{X355XX}
 
   \begin{verse}
     \[Em] \[Am]{I'm not} like the\[G]m
@@ -70,7 +70,7 @@
   \end{verse*}
 
   \begin{verse*}
-    \musicnote{\Verse \& \Chorus 1}
+    \musicnote{\Verse{} \& \Chorus{} 1}
   \end{verse*}
 
   \begin{verse}

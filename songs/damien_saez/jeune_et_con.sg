@@ -1,0 +1,77 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Jeune et con}
+  [by={Damien Saez},cover={jeune-et-con},album={Jeune et con}]
+
+  \cover
+
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+
+  \beginverse*
+    \musicnote{\nolyrics{\[Em C G D]}\rep{2}}
+    \musicnote{\nolyrics{\[Em]}}
+  \endverse
+
+  \beginverse
+    \[Em]Encore un jour \[C]se lève sur \[G]la planète France \[D]
+    Et je sors \[Em]doucement de mes \[C]rêves je \[G]rentre dans la \[D]danse
+    Comme toujours \[Em]il est huit \[C]heures du soir j'ai dor\[C]mi tout le \[D]jour
+    Je me suis \[Em]encore couché \[C]trop tard je me \[G]suis rendu \[G]sourd encore
+  \endverse
+
+  \beginverse*
+    Encore une soirée où la jeunesse France
+    Encore, elle va bien s'amuser puisqu'ici rien n'a de sens
+    Alors on va danser faire semblant d'être heureux
+    Pour aller gentiment se coucher mais demain rien n'ira mieux
+  \endverse
+  
+  \beginchorus
+    Puisqu'on est \[Em]jeune et \[C]con, puisqu'ils sont \[G]vieux et fous
+    Puisque des \[Em]hommes crèvent \[C]sous les ponts, \[G]mais ce monde s'en \[D]fout
+    Puisqu'on \[Em]est que des \[C]pions contents d'être \[G]à ge\[D]noux
+    Puisque je \[Em]sais qu'un jour nous \[C]gagnerons à \[G]devenir fous, devenir \[D]fous
+  \endchorus
+
+  \beginverse*
+    \musicnote{\nolyrics{\[Em C G D]}}
+  \endverse
+
+  \beginverse
+    Encore un jour se lève sur la planète France
+    Mais j'ai depuis longtemps perdu mes rêves je connais trop la danse
+    Comme toujours il est huit heures du soir j'ai dormi tout le jour
+    Mais je sais qu'on est quelques milliards à chercher l'amour encore
+  \endverse
+  
+  \beginverse*
+    Encore une soirée où la jeunesse France
+    Encore elle va bien s'amuser dans cet état d'urgence
+    Alors elle va danser faire semblant d'exister
+    Qui sait si l'on ferme les yeux on vivra vieux
+  \endverse
+  
+  \beginchorus
+    Puisqu'on est jeune et con, puisqu'ils sont vieux et fous
+    Puisque des hommes crèvent sous les ponts, mais ce monde s'en fout
+    Puisqu'on est que des pions contents d'être à genoux
+    Puisque je sais qu'un jour nous gagnerons à devenir fous, devenir fous
+  \endchorus
+
+  \beginverse*
+    \musicnote{\nolyrics{\[Em C G D]}\rep{8}}
+  \endverse
+
+  \beginverse
+    Encore un jour se lève sur la planète France
+    Où j'ai depuis longtemps perdu mes rêves je connais trop la danse
+    Comme toujours il est huit heures du soir j'ai dormi tout le jour
+    Mais je sais qu'on est quelques milliards
+    À chercher l'amour
+  \endverse
+
+\endsong

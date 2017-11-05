@@ -1,0 +1,91 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Someone like you}
+  [by={Adele},cover={21},album={21}]
+
+  \cover
+  \gtab{A}{X0X220}
+  \gtab{A&/A}{X4X220}
+  \gtab{F#m}{2XX222}
+  \gtab{D}{XX0232}
+  \gtab{E*}{4:XX2010}
+  \gtab{E}{0XX100}
+  \gtab{Bm}{224432}
+  \gtab{C#m}{4:002210}
+
+
+
+  \begin{verse*}
+    \textnote[french]{Jouer en arpèges P, M, I, M, A}   
+    \musicnote {\Intro: \nolyrics \[A Ab/A F\shrp m D]}
+  \end{verse*}
+
+  \begin{verse}
+    \[A]I heard that you're \[A&/A]settled down
+    That you \[F#m]found a girl and you're \[D]married now
+    \[A]I heard that your \[A&/A]dreams came true
+    Guess she \[F#m]gave you things I didn't \[D]give to you
+  \end{verse}
+  \begin{verse*}
+    Old friend, why are you so shy?
+    Ain't like you to hold back or hide from the light
+  \end{verse*}
+
+  \begin{bridge}
+    \[E]I hate to turn up out of the \[F#m]blue, uninvited
+    But I \[D]couldn't stay away, \[D]I couldn't fight it
+    \[E]I had hoped you'd see my face and \[F#m]that you'd be reminded
+    That for \[D]me, it isn't \[D]over \[E*]
+  \end{bridge}
+
+  \begin{chorus}
+    \[A]Never mind, I'll \[E]find someone \[F#m]like you \[D]
+    I wish \[A]nothing but the \[E]best for \[F#m]you, \[D]too
+    Don't \[A]forget me, I \[E]beg, I re\[F#m]member you \[D]said
+    Sometimes it \[A]lasts in love, but \[E]sometimes it \[F#m]hurts instead\[D] \rep{2}
+    \[D]
+  \end{chorus}
+
+  \begin{verse}
+    You know how the time flies
+    Only yesterday was the time of our lives
+    We were born and raised in a summer haze
+    Bound by the surprise of our glory days
+  \end{verse}
+
+  \begin{bridge}
+    \[E]I hate to turn up out of the \[F#m]blue, uninvited
+    But I \[D]couldn't stay away, \[D]I couldn't fight it
+    \[E]I had hoped you'd see my face and \[F#m]that you'd be reminded
+    That for \[D]me, it isn't \[D]over \[D] \[E*]
+  \end{bridge}
+
+  \begin{chorus}
+    Never mind, I'll find someone like you
+    I wish nothing but the best for you, too
+    Don't forget me, I beg, I remember you said
+    Sometimes it lasts in love, but sometimes it hurts instead, yeah
+  \end{chorus}
+
+  \begin{bridge}
+    \[E]Nothing compares, no \[E]worries or cares
+    \[F#m]Regrets and mistakes, they're \[F#m]memories made
+    \[D]Who would have known how bitter\[Bm]sweet \[Cm]this would \[D]taste?
+  \end{bridge}
+
+  \begin{chorus}
+    Never mind, I'll find someone like you
+    I wish nothing but the best for you
+    Don't forget me, I beg, I remember you said
+    Sometimes it lasts in love, but sometimes it hurts instead
+  \end{chorus}
+
+  \begin{chorus}
+    Never mind, I'll find someone like you
+    I wish nothing but the best for you, too
+    Don't forget me, I beg, I remember you said
+    Sometimes it lasts in love, but sometimes it hurts instead
+    Sometimes it lasts in love, but sometimes it hurts instead
+  \end{chorus}
+
+\endsong

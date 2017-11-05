@@ -1,49 +1,64 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Come as you are}
-  [by={Nirvana},cov={nevermind},album={Nevermind}]
+  [by={Nirvana},cover={nevermind},album={Nevermind}]
 
   \cover
-  \gtab{F#m}{2:022000}
-  \gtab{E}{022100}
-  \gtab{A}{X02220}
-  \gtab{B}{2:X02220}
-  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{D}{X00232}
+  \gtab{G}{320001}
+  \gtab{A}{002220}
+  \gtab{C}{X32010}
 
   \begin{verse}
-    \[F#m]Come as you \[E]are
-    As you \[F#m]were
-    As I \[E]want you to \[F#m]be
-    As a fri\[E]end
-    As a fri\[F#m]end
-    As an \[E]old ene\[F#m]my
+    \[Em]Come as you \[D]are
+    As you \[Em]were
+    As I \[D]want you to \[Em]be
+    As a fri\[D]end
+    As a fri\[Em]end
+    As an \[D]old ene\[Em]my
   \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Take your \[D]time
+      Hurry \[Em]up
+      The choice is \[D]yours
+      Don't be \[Em]late
+      Take a \[D]rest
+      As a \[Em]friend
+      As an \[D]old memo\[Em]ry
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    \[G]{A mem}\[Em]ory \rep{3}
+    \[G](A)
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Come doused in \[D]mud
+      Soaked in \[Em]bleach
+      As I \[D]want you to \[Em]be
+      As a \[D]trend
+      As a fri\[Em]end
+      As an \[D]old memo\[Em]ry
+    \end{verse}
+
+    \begin{chorus}
+      \[G]{A mem}\[Em]ory \rep{3}
+      \[G](A)
+    \end{chorus}
+  \end{repeatedchords}
 
   \begin{verse}
-    Take your time
-    Hurry up
-    The choice is yours
-    Don't be late
-    Take a rest
-    As a friend
-    As an old memory
-    \[A]A mem\[F#m]ory \rep{3}
+    \[A]And I \[C]swear
+    That I \[A]don't have a gun\[C]
+    No, I \[A]don't have a gun \[C] \rep{2}
   \end{verse}
 
-  \begin{verse}
-    Come doused in mud
-    Soaked in bleach
-    As I want you to be
-    As a trend
-    As a friend
-    As an old memory
-    A memory \rep{3}
-  \end{verse}
-
-  \begin{verse*}
-    \[B]And I \[D]swear
-    That I \[B]don't have a gun\[D]
-    No, I \[B]don't have a gun \[D] \rep{2}
-  \end{verse*}
+  \musicnote{solo sur les accords du \Verse{} 3 et du \Chorus{},
+  puis \Verse{} 4 chanté à nouveau}
 
 \endsong

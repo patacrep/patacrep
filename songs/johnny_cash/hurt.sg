@@ -1,0 +1,63 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Hurt}
+  [by={Johnny Cash},cover={american-four},album={American IV: The Man Comes Around}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{ \[Am C D Am C D Am] }}
+  \end{verse*}
+
+  \begin{verse}
+    I \[C]hurt my\[D]self to\[Am]day
+    To \[C]see if \[D]I still \[Am]feel
+    I \[C]focus \[D]on the \[Am]pain
+    The \[C]only \[D]thing that's \[Am]real
+    The \[C]needle \[D]tears a \[Am]hole
+    The \[C]old fa\[D]miliar \[Am]sting
+    Try to \[C]kill it \[D]all a\[Am]way
+    But I re\[C]member \[D]every\[G]thing
+  \end{verse}
+
+  \begin{chorus}
+    \[Am]What have I be\[F]come
+    \[C] My sweetest \[G]friend
+    \[Am]Everyone I \[F]know goes a\[C]way
+    In the \[G]end
+    And \[Am]you could have it \[F]all
+    \[C]My empire of dirt
+    \[Am]I will let you \[F]down
+    \[C]I will make you \[Am]hurt
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{ \[C D Am C D Am] }}
+  \end{verse*}
+
+  \begin{verse}
+    I wear this crown of thorns
+    Upon my liar's chair
+    Full of broken thoughts
+    I cannot repair
+    Beneath the stains of time
+    The feelings disappear
+    You are someone else
+    I am still right here
+  \end{verse}
+
+  \musicnote{\Chorus}
+
+  \begin{bridge}
+    If I could start again
+    A million miles away
+    I would keep myself	
+    I would find a way
+  \end{bridge}
+
+\endsong

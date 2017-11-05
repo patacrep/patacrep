@@ -1,0 +1,87 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Jolene}
+  [by={Dolly Parton},cover={jolene},album={Jolene}]
+
+  \cover
+  \capo{5}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+
+  \musicnote {\Intro: \nolyrics \[Am C G Am G Em Am Am}
+  \begin{chorus}
+    \[Am]Jolene, \[C]Jolene, \[G]Jolene, \[Am]Jolene
+    I'm \[G]begging of you \[Em]please don't \[Am]take my man \[Am]
+    \[Am]Jolene, \[C]Jolene, \[G]Jolene, \[Am]Jolene
+    \[G]Please don't take him \[Em]just because you \[Am]can \[Am]
+  \end{chorus}
+
+
+  \begin{verse}
+    Your \[Am]beauty is bey\[C]ond compare
+    With \[G]flaming locks of auburn \[Am]hair
+    With \[G]ivory skin and \[Em]eyes of emerald \[Am]green
+  \end{verse}
+
+
+
+  \begin{verse*}
+  Your smile is like a breath of spring
+  Your voice is soft like summer rain
+  And I cannot compete with you Jolene
+  \end{verse*}
+
+
+  \begin{verse*}
+  He talks about you in his sleep
+  And there's nothing I can do to keep
+  From crying when he calls your name Jolene
+  \end{verse*}
+
+
+  \begin{verse*}
+  And I can easily understand
+  How you could easily take my man
+  But you don't know what he means to me Jolene
+  \end{verse*}
+
+
+
+  \begin{chorus}
+  Jolene, Jolene, Jolene, Jolene
+  I'm begging of you please don't take my man
+  Jolene, Jolene, Jolene, Jolene
+  Please don't take him just because you can
+  \end{chorus}
+
+
+  \begin{verse}
+  You could have your choice of men
+  But I could never love again
+  He's the only one for me Jolene
+  \end{verse}
+
+
+  \begin{verse*}
+  I had to have this talk with you
+  My happiness depends on you
+  And whatever you decide to do Jolene
+  \end{verse*}
+
+
+  \begin{chorus}
+  Jolene, Jolene, Jolene, Jolene
+  I'm begging of you please don't take my man
+  Jolene, Jolene, Jolene, Jolene
+  Please don't take him even though you can
+  \end{chorus}
+
+
+
+  \begin{bridge}
+  \[Am]Jolene, Jolene
+  \end{bridge}
+
+\endsong

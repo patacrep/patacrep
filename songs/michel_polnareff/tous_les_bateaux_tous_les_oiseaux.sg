@@ -1,0 +1,68 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Tous les bateaux, tous les oiseaux}
+  [by={Michel Polnareff},cover={passe-present},album={Passé Présent}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{Bm7}{X00202}
+  \gtab{Am}{002210}
+  \gtab{Am7M}{1:X02110}
+  \gtab{F#dim}{XX2323}
+  \gtab{Dm6}{XX0201}
+  \gtab{E7}{030100}
+  \gtab{D9}{XX0210}
+
+  \MultiwordChords 
+  \begin{verse}
+  \[C]Je te donnerai
+  \[E7]Tous les bateaux, tous les oi\[Bm7]seaux, tous les soleils
+  \[E7]Toutes les roses, toutes les \[Am]choses qui t'émer\[Am7M]veillent
+  \[Am7]Petite \[F#dim]fille de ma \[Dm6]rue \dots\[E7] 
+  \[C]Tu n'as jamais vu
+  \[Am7]Tous les bateaux, tous les oi\[Bm7]seaux, tous les soleils
+  \[E7]L'île au trésor et les fruits \[Am]d'or et les a\[Am7M]beilles
+  \[Am7]Ne pleure \[F#dim]pas petite \[Dm6]fille\[E7]
+  \[C]Moi je t'ai rêvée
+  Tu \[Dm6]es venue
+  Ô mon enfant, mon \[Am]incon\[Am7M]nue
+  \[Am7]Je t'ai trou\[D9]vée
+  Dans \[Dm6]cette rue\dots \[E7]
+  \end{verse}
+
+  \begin{verse}
+  ^Je te donnerai
+  ^Tous les bateaux, tous les oi^seaux, tous les soleils
+  ^Je t'apprendrai le bruit des ^villes, le nom ^des îles
+  ^Petite ^fille de ma ^rue\dots^
+  ^Tu n'as jamais vu
+  ^Les goélands et les ^images de l'aurore
+  ^Quand l'océan n'est pas ^encore un paysa^ge
+  ^Ne pleure ^pas petite ^fille^
+  ^Viens\dots il y a des voiles
+  Sur ^les étoiles
+  Ô mon enfant, mon ^incon^nue
+  ^Il y a ^bal 
+  Loin ^de ta rue\dots^
+  \end{verse}
+
+  \begin{verse}
+  ^Je te donnerai
+  ^Tous les bateaux, tous les oi^seaux, tous les soleils
+  ^Toutes les ros's, toutes les ^choses qui t'émer^veillent
+  ^Petite ^fille de ma ^rue\dots^
+  ^Je te donnerai
+  ^Les océans, les ^goélands et les fruits d'or
+  ^L'île au trésor et les grands ^bals sur les ^étoiles
+  ^Ne pleure ^pas
+   Ô ^mon amour^
+  \end{verse}
+
+  \begin{verse}
+  ^La la la la la
+  ^La la la la la la ^la la la la la la
+  ^La la la la la la ^la la la la la ^la
+  ^La la ^la la ^la la la^
+  \end{verse}
+
+\endsong

@@ -1,0 +1,100 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{I hung my head}
+  [by={Johnny Cash},cover={american-four},album={American IV: The Man Comes Around}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{G}{320003}
+
+  \begin{verse*}
+    \musicnote{\nolyrics{ \[C F C F C C] }}
+  \end{verse*}
+
+  \begin{verse}
+    \[C]Early one morning
+    With \[F]time to kill
+    I \[Am]borrowed Jebb's rifle
+    And \[F]sat on the hill
+    I \[C]saw a lone rider
+    \[F]Crossing the plain
+    I \[Am]drew a bead on him
+    To \[F]practice my aim
+    \[Dm]My brother's rifle
+    Went \[G]off in my hand
+    A shot rang out
+    \[C]Across the land
+    The \[F]horse, he kept running
+    The \[Am]rider was dead
+    I \[C]hung my head
+    I \[F]hung my head
+    \[C]
+  \end{verse}
+
+  \begin{verse}
+    I set off running
+    To wake from the dream
+    My brother's rifle
+    Went into the sheen
+    I kept on running
+    Into the south lands
+    That's where they found me
+    My head in my hands
+    The sheriff he asked me
+    Why had I run
+    And then it came to me
+    Just what I had done
+    And all for no reason
+    Just one piece of lead
+    I hung my head
+    I hung my head
+  \end{verse}
+
+  \begin{verse}
+    Here in the court house
+    The whole town was there
+    I see the judge
+    High up in his chair
+    "Explain to the court room
+    What went through your mind.
+    And we'll ask the jury
+    What verdict they find."
+    I felt the power
+    Of death over life
+    I orphaned his children
+    I widowed his wife
+    I begged their forgiveness
+    I wish I was dead
+    I hung my head
+    I hung my head
+  \end{verse}
+
+  \begin{verse}
+    Early one morning
+    With time to kill
+    I see the gallows
+    Up on a hill
+    And out in the distance
+    A trick of the brain
+    I see a lone rider
+    Crossing the plain
+    And he'd come to fetch me
+    To see what they'd done
+    And we'd ride together
+    To kingdom come
+    I prayed for god's mercy
+    For soon I'd be dead
+    I hung my head
+    I hung my head
+  \end{verse}
+
+  \begin{bridge}
+    I hung my head
+    I hung my head 
+    I hung my head
+    I hung my head 
+  \end{bridge}
+\endsong

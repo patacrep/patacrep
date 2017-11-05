@@ -1,12 +1,15 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Il est libre Max}
-  [by={Hervé Cristiani},cov={libre-max},album={Il est libre Max}]
+  [by={Hervé Cristiani},cover={libre-max},album={Il est libre Max}]
 
   \cover
   \gtab{Em}{022000}
   \gtab{C}{X32010}
   \gtab{D}{XX0232}
+  
+  \musicnote[english]{This song can be played with a capo 6}
+  \musicnote[french]{Cette chanson peut se jouer avec un capo 6}
 
   \begin{verse}
     Il \[Em]met de la magie mine de rien \[C]dans tout c'qu'il fait

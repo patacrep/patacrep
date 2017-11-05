@@ -1,0 +1,43 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{San Tropez}
+  [by={Pink Floyd},cover={meedle},album={Meedle}]
+
+  \cover
+  \gtab{D7}{3:X2120X}
+  \gtab{GM7}{3:021100}
+  \gtab{Gm6}{312333}
+  \gtab{G7}{3:020100}
+  \gtab{C7}{X32310}
+  \gtab{A7}{X02020}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{\[D7]}}
+  \end{verse*}
+
+  \begin{verse}
+    As I rea\[GM7]ch for a peach slide a ride down behind the sofa in San Tropez\[Gm6]
+    \[Gm6]Breaking a stick with a brick on the sand riding a wave in the wake of an old sedan\[Gm6]
+  \[G7]Sleeping alone in the drone of the darkness \[A7]scratched by the sand that fell from our
+  \[C7]deep in my dreams and I still hear her calling
+  \[D]If you're alone I'll come home
+  \end{verse}
+
+\begin{repeatedchords}
+  \begin{verse}
+    \[GM7]Backwards and home-bound the pigeon, the dove \[Gm6]gone with the wind and the rain on an airplane
+  \[GM7]Owning a home with no silver spoon I'm \[Gm6]drinking champagne like a big tycoon
+  \[G7]Sooner than wait for a break in the weather I'll \[A7]gather my far-flung thoughts together
+  \[C7]Speeding away on a wind to a new day
+  \[D]If you're alone I'll come home
+  \end{verse}
+
+  \begin{verse}
+    \[GM7]And I pause for a while by a country stile and listen to things they \[Gm6]say
+  \[GM7]Digging for gold with a hoe in my hand hoping they'll take a look at the way things \[Gm6]stand
+  \[G7]Would you lead me down to the place by the sea ? \[A7]I hear your soft voice calling to me
+  \[C7]Making a date for later by phone
+  \[D]If you're alone I'll come home
+  \end{verse}
+\end{repeatedchords}
+\endsong

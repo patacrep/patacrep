@@ -1,7 +1,7 @@
 \selectlanguage{french}
-\songcolumns{1}
+\songcolumns{2}
 \beginsong{Maison Borniol}
-  [by={Hubert-Félix Thiéfaine},cov={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
+  [by={Hubert-Félix Thiéfaine},cover={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
 
   \cover
   \gtab{F#m}{2:022000}

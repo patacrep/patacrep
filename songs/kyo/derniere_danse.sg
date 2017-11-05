@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Dernière danse}
+  [by={Kyo},cover={le_chemin},album={Le chemin}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+
+  \beginverse*
+    J'ai longtemps \[Em]parcouru son \[C]corps
+    Effleuré \[G]cent fois son vi\[D]sage
+    J'ai trouvé de l'\[Em]or et même \[C]quelques étoiles
+    En \[G]essuyant ses \[D]larmes
+    Et j'ai ap\[Em]pris par c\oe ur la \[C]pureté de ses \[G]formes
+    Parfois je \[D]les dessine en\[Em]core
+    Elle fait \[C]partie de \[G]moi\dots\[D]
+  \endverse
+
+  \beginchorus
+    Je veux \[Em]juste une \[C]dernière \[G]danse\[D]
+    Avant l'\[Em]ombre et l'\[C]indiffé\[G]rence\[D]
+    Un ver\[Em]tige puis \[C]le si\[G]lence\[D]
+    Je veux \[Em]juste une \[C]dernière \[G]danse\[D]
+  \endchorus
+
+  \beginverse
+    Je l'ai \[Em]connue trop \[C]tôt
+    Mais \[C]c'est pas de ma faute
+    La \[D]flèche a traversé ma \[Em]peau
+    C'est une douleur qui se \[C]garde
+    Qui fait plus de \[C]bien que de \[D]mal
+    Mais je \[Em]connais l'histoire
+    \[C]Il est déjà trop tard
+    \[G]Dans son regard, \[D]on peut apercevoir
+    \[C]Qu'elle se prépare
+    \[G]Au long \[D]voyage
+  \endverse
+
+  \beginverse
+    Je peux mourir demain
+    Ça ne change rien
+    J'ai reçu de ses mains
+    Le bonheur ancré dans mon âme
+    C'est même trop pour un seul homme
+    Et je l'ai vue partir
+    Sans rien dire
+    Fallait seulement qu'elle respire
+    Merci\dots
+    D'avoir enchanté ma vie
+  \endverse
+
+\endsong

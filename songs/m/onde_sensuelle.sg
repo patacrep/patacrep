@@ -1,0 +1,64 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Onde sensuelle}
+  [by={-M-},cover={je-dis-aime},album={Je dis aime}]
+
+  \cover
+  \gtab{Db}{4:X02220}
+  \gtab{DbM7}{4:X02120}
+  \gtab{Ab}{4:022100}
+  \gtab{AbM7}{4:1X221X}
+  \gtab{G7}{3:020100}
+  \gtab{Eb7}{6:X02020}
+  \gtab{Fm7}{3:020000}
+  \gtab{C7}{X32310}
+  \gtab{Bbm7}{1:X02010}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[DbM7] \[AbM7] \[G7] \rep{2} }
+  \end{verse*}
+
+  \begin{verse}
+    J'en\[Db]tends encore l'Onde Sen\[Ab]suelle \[G7]
+    De \[Db]ta bouche sur la mienne \[Ab] \[G7]
+    C'é\[Db]tait si fort, c'était si beau \[Ab] \[G7]
+    La \[Db]philosophie de ton souf\[Eb7]fle
+    Entre mes mots \[Ab] \[G7]
+  \end{verse}
+
+\begin{repeatedchords}
+  \begin{verse*}
+  Les plumes volent encerclées par tes ondes
+  Mes habits collent, faut qu'j'm'innonde
+  Mais je n'sais plus où donner du crâne
+  Ça n'répond plus, j'attends la panne\dots
+  Mais comment t'atteindre\dots
+  \end{verse*}
+\end{repeatedchords}
+
+  \begin{chorus}
+    Mais comment t'att\[Fm7]eindre \[Ab]
+    Onde Sen\[G7]suelle \[C7]
+    Toi qui me \[Fm7]donne \[Ab] des ailes \[Bbm7] \[C7]
+    Pourrais-je te \[Fm7]rendre un jour \[Ab] éternel \[G7] \[C7]
+    Pour nous li\[Fm7]er \[Ab]
+    Jusqu'au ciel \[Bm7] \[C7]
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[DbM7] \[AbM7] \[G7] \rep{2} }
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Tes doubles sens si romantiques
+      M'ont troublé, Onde magique
+      Y'a-t-il un sens à ta venue
+      As-tu un nom ? Moi non plus !
+      Mais comment t'atteindre
+    \end{verse}
+
+  \musicnote{\Chorus}
+
+  \end{repeatedchords}
+\endsong

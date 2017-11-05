@@ -1,0 +1,63 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Aimer est plus fort que d'être aimé}
+  [by={Daniel Balavoine},cover={sauver-l-amour},album={Sauver l'amour}]
+
+  \cover
+  \gtab{Am7}{X02010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+  \gtab*{B&7}{1:X02020}
+  \gtab*{Dm7}{XX0211}
+  \gtab{G7}{210001}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+
+  \begin{verse}
+  \[Am7]{Toi qui} sais ce qu'est un rempart
+  Tu avances sous les regards \[G]courrou\[F]cés
+  \[G]Tu écris mais sur le buvard
+  Tous les mots se sont inver\[F]sés
+  \end{verse}
+
+  \begin{repeatedchords}
+  \begin{verse*}
+  \[Am7]Si tu parles il te faut savoir
+  Que ceux qui lancent des regards \[G]courrou\[F]cés
+  \[G]Ne voudront voir dans leur miroir
+  Que ce qui peut les arran\[F]ger
+  \end{verse*}
+  \end{repeatedchords}
+
+  \begin{bridge}
+  \[B&7]Toi qui as brisé la glace
+  Sais que rien ne remplace la véri\[F]té
+  \[Dm7]Et qu'il n'y a que deux races
+  Ou les faux, ou les \[G7]vrais
+  \end{bridge}
+
+  \begin{chorus}
+  L'a\[C]mour te porte dans tes \[Am]efforts
+  L'a\[F]mour de tout \[Dm]délie les se\[G]crets
+  Oh et \[C]face à tous ceux qui te \[Am]dévorent
+  Ai\[F]mer est plus fort \[Dm]que d'être ai\[G]mé
+  \end{chorus}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[Am7]{Toi qui} sais ce qu'est le blasphème
+  On ne récolte pas toujours \[G]ce qu'on \[F]sème
+  \[G]Tu connais l'ambition suprème
+  De ceux qui te vouent de la \[F]haine
+  \end{verse}
+
+  \begin{bridge}
+  \[B&7]Ils voudraient sous la menace
+  Te fondre dans la masse pour t'étouf\[F]fer
+  \[Dm7]Mais pour couler le brise-glace
+  Il faudrait un ro\[G7]cher
+  \end{bridge}
+  \end{repeatedchords}
+
+\endsong

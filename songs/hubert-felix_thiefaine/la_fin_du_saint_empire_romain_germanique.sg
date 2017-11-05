@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La fin du Saint Empire Romain-germanique}
-  [by={Hubert-Félix Thiéfaine},cov={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
+  [by={Hubert-Félix Thiéfaine},cover={tout-corps-vivant-branche-sur-le-secteur},album={Tout corps vivant branché sur le secteur\dots}]
 
   \cover
   \capo{1}
@@ -17,19 +17,19 @@
   \end{verse*}
 
   \begin{verse}
-    \[F]Je suis le fils d'une société
+    \[F]{Je suis} le fils d'une société
     \[Gm]Fondamentalement épuisée
     Passe-moi ma pipe de marijane
     Sinon je me shoote à la \[F]banane
     Tout comme ses autres copains mon père
-    \[Gm]S'en revenait de Germany
+    \[Gm]{S'en revenait} de Germanie
     Quand on leur a dit : {\og}Les petits pères
     Faut nous faire de la \[F]démographie{\fg}
     \[Am]Moi c'est comme ça que j'ai débarqué
     Par un beau matin aux auro\[Gm]res
     \[Am]La guerre venait de se terminer
     On revendait les mirad\[Gm]ors
-    \[F]Les miradors{\dots}
+    \[F]{Les miradors}{\dots}
   \end{verse}
 
 

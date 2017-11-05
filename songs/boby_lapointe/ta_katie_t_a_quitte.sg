@@ -1,0 +1,96 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ta Katie t'a quitté}
+  [by={Boby Lapointe},cover={l-integrale},album={L'intégrale}]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{G7}{320001}
+  \gtab{D7}{X00212}
+  \gtab{C}{X32010}
+
+  \begin{verse}
+    Ce soir au \[G]bar de la gare
+    Igor hagard est noir
+    Il n'arrête \[D7]guère de boire
+    Car sa Katia
+    Sa jolie Katia vient de le quit\[G]ter
+    \echo{Sa Katie l'a quitté}
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Il a fait chou blanc
+      Ce grand duc avec ses trucs
+      Ses astuces, ses ruses de \[D7]russe blanc
+      \og{} Ma tactique était toc \fg{}
+      Dit Igor qui s'endort
+      Ivre mort au compt\[G]oir du bar
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse}
+    \og{} Un Russe blanc qui est \[G7]noir
+    Quel bizarre hasard \fg{}, se marrent
+    Les fêtards paillards du \[C]bar
+    Car encore Igor y dort
+    Mais près d'son o\[D7]reille
+    Merveille, un réveil vermeil
+    Lui prodigue des con\[G]seils
+    Pendant son sommeil :
+  \end{verse}
+
+  \begin{chorus}
+    \echo{Tic tac, tic tac} ta Katie t'a quit\[G]té
+    \echo{Tic tac, tic tac} ta Katie t'a quit\[D7]té
+    \echo{Tic tac, tic tac} t'es cocu, qu'attends-tu ?
+    Cuite-toi, t'es co\[G]cu
+    T'as qu'à t'cui\[D7]ter
+    Et quitter ton quartier
+    Ta Katie t'a quitté
+    Ta tactique était toc
+    Ta tactique était \[G]toc
+    Ta Katie t'a quitté
+  \end{chorus}
+
+  \begin{chorus}
+    Ôte ta toque et \[D7]troque
+    Ton tricot tout crot\[G]té
+    Et ta croûte au cou\[D7]teau
+    Qu'on t'a tant atta\[G]qué
+    Contre un tacot co\[D7]té
+    Quatre écus tout comp\[G]té
+    Et quitte ton quar\[D7]tier
+    Ta Katie ta quit\[G]té
+    Ta Katie t'a quitté \rep{3}
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Tout à côté, des catins décaties
+      Taquinaient un coc\[D7]ker coquin
+      Et d'éthiques coquettes, tout en tricotant
+      Caque\[G]taient et discutaient et critiquaient
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse}
+    Un comte toqué qui comptait en tiquant
+    Tout un tas de tic\[D7]kets de quai
+    Quand tout à coup\dots{}
+    Tic tac tic\dots{} \echo{BRRRRRRRRRRR !}
+  \end{verse}
+
+  \begin{verse}
+    \og{} \[G]Au matin, quel réveil
+    Mâtin, quel réveille-matin \fg{}
+    S'écrit le \[C]Russe blanc de peur
+    \[D7]Pour une sonnerie
+    C'est une belle çonnerie ! \fg{} \[D7 G]
+    % Version du livret (mais qui semble moins correcte) :
+    % Oh, mâtin, quel réveil
+    % Mâtin quel réveille-matin s'écrit le russe blanc de peur
+    % Pour une sonnerie, c'est une belle sonnerie.
+  \end{verse}
+
+\endsong

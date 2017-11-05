@@ -1,0 +1,131 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{En chantant}
+  [by={Michel Sardou},cover={en-chantant},album={En chantant},%
+  url={http://michelsardou.artiste.universalmusic.fr/site/}]
+
+  \cover
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+  \gtab{A7}{X02020}
+  \gtab{F#}{2:022100}
+  \gtab{Bm}{2:X02210}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    \[D]Quand j'étais petit garçon
+    Je repassais mes leçons
+    En \[Em]chantant
+    Et bien des années plus \[A7]tard
+    Je chassais mes idées noires
+    En \[D]chantant
+  \end{verse}
+
+  \begin{verse*}
+    C'est beaucoup moins inquiétant
+    De parler du mauvais temps
+    En \[Em]chantant
+    Et c'est tellement plus mi\[A7]gnon
+    De se faire traiter de \[F#]con
+    En \[Bm]chanson
+  \end{verse*}
+
+  \begin{chorus}
+    \[G]La vie c'est plus mar\[D]rant
+    C'est moins dé\[A7]sespérant
+    En \[D]chantant
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      La première fille de ma vie
+      Dans la rue je l'ai suivie
+      En \[Em]chantant
+      Quand elle s'est déshabi\[A7]llée
+      J'ai joué le vieil habitué
+      En \[D]chantant
+    \end{verse}
+
+    \begin{verse*}
+      J'étais si content de moi
+      Que j'ai fait l'amour dix fois
+      En \[Em]chantant
+      Mais je n'peux pas m'expli\[A7]quer
+      Qu'au matin elle m'ait qui\[F#]tté
+      En\[Bm]chantée
+    \end{verse*}
+
+    \begin{chorus}
+      \[G]L'amour c'est plus mar\[D]rant
+      C'est moins dé\[A7]sespérant
+      En \[D]chantant
+    \end{chorus}
+
+    \begin{verse}
+      Tous les hommes vont en galère
+      À la pêche ou à la guerre
+      En \[Em]chantant
+      La fleur au bout du fu\[A7]sil
+      La victoire se gagne aussi
+      En \[D]chantant
+    \end{verse}
+
+    \begin{verse*}
+      On ne parle à Jéhovah
+      À Jupiter, à Bouddha
+      Qu'en \[Em]chantant
+      Qu'elles que soient nos opi\[A7]nions
+      On fait sa révolu\[F#]tion
+      En \[Bm]chanson
+    \end{verse*}
+
+    \begin{chorus}
+      \[G]Le monde est plus marrant
+      C'est moins dé\[A7]sespérant
+      En \[D]chantant
+    \end{chorus}
+
+    \begin{verse}
+      Puisqu'il faut mourir enfin
+      Que ce soit côté jardin
+      En \[Em]chantant
+      Si ma femme a de la \[A7]peine
+      Que mes enfants la soutiennent
+      En \[D]chantant
+    \end{verse}
+
+    \begin{verse*}
+      Quand j'irai revoir mon père
+      Qui m'attend les bras ouverts
+      En \[Em]chantant
+      J'aimerais que sur la \[A7]terre
+      Tous mes bons copains m'en\[F#]terrent
+      En \[Bm]chantant
+    \end{verse*}
+
+    \begin{chorus}
+      \[G]La mort c'est plus mar\[D]rant
+      C'est moins dé\[A7]sespérant
+      En \[D]chantant
+    \end{chorus}
+
+    \begin{verse}
+      Quand j'étais petit garçon
+      Je repassais mes leçons
+      En \[Em]chantant
+      Et bien des années plus \[A7]tard
+      Je chassais mes idées noires
+      En \[D]chantant
+    \end{verse}
+
+    \begin{verse*}
+      C'est beaucoup moins inquiétant
+      De parler du mauvais temps
+      En \[Em]chantant
+      Et c'est tellement plus mi\[A7]gnon
+      De se faire traiter de \[F#]con
+      En \[Bm]chanson
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

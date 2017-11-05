@@ -1,0 +1,54 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{J'veux du soleil}
+  [by={Au petit bonheur},cover={mal-de-vivre},album={Mal de vivre}]
+
+  \cover
+  \gtab{Bm}{2:X02210}
+  \gtab{F#}{2:022100}
+  \gtab{Em}{022000}
+
+  \begin{verse}
+    Je suis \[Bm]resté qu'un enfant
+    Qu'au\[F#]rait grandi trop vite
+    Dans \[Em]un monde en super plastique
+    Moi j'veux \[F#]retrouver \dots Maman !
+    Qu'elle m'\[Bm]raconte des histoires
+    De \[F#]Jane et de Tarzan
+    De \[Em]princesses et de cerfs-volants
+    J'veux du \[F#]soleil dans ma mémoire.
+  \end{verse}
+
+  \begin{chorus}
+    J'veux du \[Bm]soleil
+    J'veux du \[F#]soleil
+    J'veux du \[Em]soleil
+    J'veux du \[F#]soleil
+  \end{chorus}
+
+  \begin{verse}
+    J'veux traverser des océans
+    Et devenir Monte-Cristo
+    Au clair de lune
+    M'échapper de la citadelle
+    J'veux devenir roi des marécages
+    Me sortir de ma cage
+    Un Père Noël pour Cendrillon
+    Sans escarpin \dots
+  \end{verse}
+
+  \begin{verse}
+    J'veux faire danser Maman
+    Au son clair des grillons
+    J'veux retrouver mon sourire d'enfant
+    Perdu dans le tourbillon
+    Dans le tourbillon de la vie
+    Qui fait que l'on oublie
+    Que l'on est resté des mômes
+    Bien au fond de nos abris.
+  \end{verse}
+
+  \textnote[french]{premier couplet}
+  \textnote[english]{first verse}
+
+\endsong

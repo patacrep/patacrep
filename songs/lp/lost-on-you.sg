@@ -1,0 +1,102 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Lost on you}
+  [by={LP},cover={lost_on_you},album={Lost on you}]
+
+  \cover
+  \capo{1}
+  \gtab{Am}{X02210}
+  \gtab{D}{X00232}
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+
+
+  \musicnote{\Intro{\[Am D Em Em]}\rep{2}}
+  
+  \begin{verse}
+	  When you get \[Am]older, plainer, saner
+	  Will you re\[D]member all the danger we came \[Em]from	\[Em]
+	  Burning like \[Am]embers, falling, tender
+	  Longing for the \[D]days of no surrender
+	  Years \[Em]ago
+	  And\[Em] well you know
+  \end{verse}
+
+  \begin{chorus}
+	\[Am]Smoke 'em if you got them
+	'Cause it's \[D]going down
+	\[Em]All I ever wanted was you	\[Em]
+	I'll \[Am]never get to heaven
+	'Cause I \[D]don't know how
+	Let's \[Em]raise a glass or two
+  \end{chorus}
+  
+  \begin{chorus}
+	To \[C]all the things I \[Am]lost on you
+	Oh \[D]oh
+    Tell me are they \[Em]lost on you?
+	Oh \[C]oh
+	Just that you could \[Am]cut me loose
+	Oh \[D]oh
+	After everything I've \[Em]lost on you
+	Is that \[C]lost on you?
+	Oooo\[Am]oh oo\[D]oh
+	Ooo\[Em]ooh
+    Is that \[C]lost on you?
+	Oooo\[Am]oh oo\[D]oh
+	Baby is that \[Em]lost on you?
+	Is that \[C]lost on you?
+  \end{chorus}
+
+  \begin{verse}
+	Wishing I could \[Am]see the machinations
+	Understand the \[D]toil of expectations in your \[Em]mind	\[Em]
+	Hold me like you \[Am]never lost your patience
+	Tell me that you \[D]love me more than hate me all the tim\[Em]e
+	\[Em]And you're still mine
+  \end{verse}
+  
+  \begin{chorus}
+	\[Am]Smoke 'em if you got them
+	'Cause it's \[D]going down
+	\[Em]All I ever wanted was you	\[Em]
+	I'll \[Am]never get to heaven
+	'Cause I \[D]don't know how
+	Let's \[Em]raise a glass or two
+  \end{chorus}
+  
+  \begin{chorus}
+	To \[C]all the things I \[Am]lost on you
+	Oh \[D]oh
+    Tell me are they \[Em]lost on you?
+	Oh \[C]oh
+	Just that you could \[Am]cut me loose
+	Oh \[D]oh
+	After everything I've \[Em]lost on you
+	Is that \[C]lost on you?
+	Oooo\[Am]oh oo\[D]oh
+	Ooo\[Em]ooh
+    Is that \[C]lost on you?
+	Oooo\[Am]oh oo\[D]oh
+	Baby is that \[Em]lost on you?
+	Is that \[C]lost on you?
+	\[Am]Lost on you	\[D]
+	\[Em]oohoahoah	\[C]	\[Am]	\[D]
+	Let's \[Em]raise a glass or two
+	To \[C]all the things I've \[Am]lost on you
+	Oh \[D]oh
+	Tell me are they \[Em]lost on you?
+	Oh \[C]oh
+    Just that you could \[Am]cut me loose
+	Oh \[D]oh
+    After everything I've \[Em]lost on you
+    Is that \[C]lost on you?
+	Is that lost on you?
+  \end{chorus}
+  
+  \begin{verse*}
+    \musicnote {\Outro}
+	\[Am]oooh o\[D]oh   \[Em]oooooh  oo\[C]oh
+  \end{verse*}
+  
+\endsong

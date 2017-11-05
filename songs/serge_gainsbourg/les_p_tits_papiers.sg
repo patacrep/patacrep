@@ -1,0 +1,102 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les p'tits papiers}
+  [by={Serge Gainsbourg},album={Les lampions (Régine)},cover={regine-les-lampions}]
+
+  \cover
+  \gtab{Dm}{XX0231}
+  \gtab{A}{X02220}
+  \gtab{A7}{X02020}
+  \gtab{F}{1:022100}
+  \gtab{Gm}{3:022000}
+  \gtab{Em}{022000}
+  \gtab{B}{2:X02220}
+  \gtab{B7}{2:X02020}
+  \gtab{G}{320003}
+  \gtab{Am}{X02210}
+
+  \begin{verse}
+    \[Dm]Lais\[A]sez \[Dm]par\[A7]ler
+    Les p'tits papiers
+    À l'occa\[Dm]sion
+    Papier chiffon
+    Puissent-ils un \[A7]soir
+    Papier buvard
+    Vous conso\[Dm]ler
+  \end{verse}
+
+  \begin{verse*}
+    \[Dm]Lais\[F]sez \[Dm]brû\[Gm]ler
+    Les p'tits papiers
+    Papier de \[Dm]riz
+    Ou d'Arménie
+    Qu'un soir ils \[A7]puissent
+    Papier maïs
+    Vous réchauf\[Dm]fer
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Dm]Un \[A]peu \[Dm]d'a\[A7]mour
+      Papier velours
+      Et d'esthé\[Dm]tique
+      Papier musique
+      C'est du cha\[A7]grin
+      Papier dessin
+      Avant long\[Dm]temps
+    \end{verse}
+
+    \begin{verse*}
+      \[Dm]Lais\[F]sez \[Dm]glis\[Gm]ser
+      Papier glacé
+      Les senti\[Dm]ments
+      Papier collant
+      Ça impres\[A7]sionne
+      Papier carbone
+      Mais c'est du \[Dm]vent
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{verse}
+    \[Em]Ma\[B]chin \[Em]Ma\[B7]chine
+    Papier machine
+    Faut pas s'leur\[Em]rer
+    Papier doré
+    Celui qu'y \[B7]touche
+    Papier tue-mouches
+    Est moitié \[Em]fou
+  \end{verse}
+
+  \begin{verse*}
+    \[Em]C'est \[G]pas \[Em]bril\[Am]lant
+    Papier d'argent
+    C'est pas don\[Em]né
+    Papier-monnaie
+    Ou l'on en \[B7]meurt
+    Papier à fleurs
+    Ou l'on s'en \[Em]fout
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Em]Lais\[B]sez \[Em]par\[B7]ler
+      Les p'tits papiers
+      À l'occa\[Em]sion
+      Papier chiffon
+      Puissent-ils un \[B7]soir
+      Papier buvard
+      Vous conso\[Em]ler
+    \end{verse}
+
+    \begin{verse*}
+      \[Em]Lais\[G]sez \[Em]brû\[Am]ler
+      Les p'tits papiers
+      Papier de \[Em]riz
+      Ou d'Arménie
+      Qu'un soir ils \[B7]puissent
+      Papier maïs
+      Vous réchauf\[Em]fer
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

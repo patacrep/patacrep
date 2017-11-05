@@ -1,0 +1,73 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{Imagine}
+  [by={John Lennon},album={Imagine},cover={imagine}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab*{Cmaj7}{X32000}
+  \gtab{F}{1:022100}
+  \gtab{Am}{X02210}
+  \gtab{Dm7}{XX0211}
+  \gtab*{F/C}{X33111}
+  \gtab{G}{320003}
+  \gtab*{C/G}{332010}
+  \gtab{G7}{320001}
+  \gtab{E}{022100}
+  \gtab{E7}{020130}
+
+  \beginverse
+    \[C] Imagine there's \[Cmaj7]no heave\[F]n
+    \[C] It's easy if \[Cmaj7]you tr\[F]y
+    \[C] No hell \[Cmaj7]below us\[F]
+    \[C] Above us \[Cmaj7]only sk\[F]y
+  \endverse
+
+  \beginchorus
+    Imagine \[Am]all the peo\[Dm7]ple \[F/C]
+    \[G]Living for \[C/G]to\[G7]day
+  \endchorus
+
+  \begin{repeatedchords}
+    \beginverse
+      \[C] Imagine there's \[Cmaj7]no coun\[F]tries
+      \[C] It isn't \[Cmaj7]hard to d\[F]o
+      \[C] Nothing to \[Cmaj7]kill or d\[F]ie for
+      \[C] And no re\[Cmaj7]ligion t\[F]oo
+    \endverse
+
+    \beginchorus
+      Imagine \[Am]all the peo\[Dm7]ple \[F/C]
+      \[G]Living life \[C/G]in p\[G7]eace \echo{Yoo-hoo oohoo\[F]hoo}
+    \endchorus
+  \end{repeatedchords}
+
+  \begin{bridge}
+    \[F] You may \[G]say I'm a \[C]drea\[Cmaj7]mer \[E E7]
+    \[F] But I'm \[G]not the only \[C]one \[Cmaj7 E E7]
+    \[F] I hope some\[G]day you'll \[C]join us \[Cmaj7 E E7]
+    \[F] And the \[G]world will \[C]{be as one}
+  \end{bridge}
+
+  \begin{repeatedchords}
+    \beginverse
+      \[C] Imagine no po\[Cmaj7]ssessi\[F]ons
+      \[C] I wonder if yo\[Cmaj7]u ca\[F]n
+      \[C] No need for greed \[Cmaj7]or hun\[F]ger
+      \[C] A brotherhood \[Cmaj7]of ma\[F]n
+    \endverse
+
+    \beginchorus
+      Imagine \[Am]all the peo\[Dm7]ple \[F/C]
+      \[G]Sharing all \[C/G]the \[G7]world \echo{Yoo-hoo oohoo\[F]hoo}
+    \endchorus
+
+    \begin{bridge}
+      \[F] You may \[G]say I'm a \[C]drea\[Cmaj7]mer \[E E7]
+      \[F] But I'm \[G]not the only \[C]one \[Cmaj7 E E7]
+      \[F] I hope some\[G]day you'll \[C]join us \[Cmaj7 E E7]
+      \[F] And the \[G]world will \[C]{be as one}
+    \end{bridge}
+  \end{repeatedchords}
+
+\endsong

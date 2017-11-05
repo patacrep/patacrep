@@ -1,0 +1,73 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Sentimental bourreau}
+  [by={Boby Lapointe},cover={l-integrale},album={L'intégrale}]
+
+  \cover
+
+  \gtab{Dm}{XX0231}
+  \gtab{Gm}{355333}
+  \gtab{A7}{X02020}
+
+  \begin{verse}
+    \[Dm]Il était une fois un tout pe\[Gm]tit bour\[Dm]reau
+    Pas plus grand que trois noix
+    Et pas beaucoup \[A7]plus gros
+    Des \[Dm]hautes et basses œuvres était é\[Gm]xécu\[Dm]teur
+    Et pour les basses œuvres
+    É\[A7]tait à la hau\[Dm]teur
+  \end{verse}
+  \begin{verse*}
+    N'avait \[A7]jamais de trève
+    Et ja\[Dm]mais de re\[A7]pos
+    \[Dm]Car en pla\[A7]ce de Grève
+    Il faisait \[Dm]son \[A7]boulot \[Dm]
+  \end{verse*}
+
+  \begin{chorus}
+    \og{}Pour\[Gm]tant couper des \[Dm]têtes\fg{}
+    Di\[A7]sait-il, \og{}ça m'em\[Dm]bête
+    \[Gm]{C'est} un truc i\[Dm]diot
+    Ça \[A7]salit mon bil\[Dm]lot
+    Pour \[Gm]nourrir ma vieille \[Dm]mère
+    Je \[A7]saigne Paul ou \[Dm]Pierre
+    D'un \[Gm]geste un peu bru\[Dm]tal
+    Mais \[A7]sans penser à \[Dm]mal\fg{}
+    Sentimen\[Gm]tal \[A7]bour\[Dm]reau
+    \[A7]Aye aye aye aye aye aye
+    \[Dm]Aye aye aye aye aye aye
+    Aye, aye!
+  \end{chorus}
+
+  \begin{verse}
+    Un soir de sa fenêtre la femme du fossoyeur
+    Héla l'homme de tête
+    Et lui ouvrit son cœur
+    Depuis longtemps sevrée de transports amoureux
+    À vous veux me livrer
+    Ô bourreau vigoureux
+  \end{verse}
+  \begin{verse*}
+    Je vous lance une corde
+    Du haut de mon balcon
+    Grimpez-y c'est un ordre
+    Allons, éxécution
+  \end{verse*}
+
+  \begin{verse}
+    À partager sa couche la belle l'invita
+    En quelques coups de hache
+    Il la lui débita
+    L'époux au bruit du bris survint, un peu inquiet
+    Il partagea la mari
+    Pour garder sa moitié
+  \end{verse}
+  \begin{verse*}
+    Comme la belle, inquiète
+    Suggérait \og{}taillons-nous\fg{}
+    Il lui trancha la tête
+    Et se coupa le cou
+  \end{verse*}
+
+\endsong

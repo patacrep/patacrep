@@ -1,23 +1,22 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Hallelujah}
-  [by={Jeff Buckley},cov={grace},album={Grace}]
+  [by={Jeff Buckley},cover={grace},album={Grace}]
 
   \cover
-  \capo{5}
   \gtab{C}{X32010}
   \gtab{Am}{X02210}
   \gtab{F}{1:022100}
   \gtab{G}{320003}
-
+  \gtab{E}{022100}
 
   \begin{verse}
     I \[C]heard there was a \[Am]secret chord
     That \[C]David played and it \[Am]pleased the Lord
     But \[F]you don't really \[G]care for music, \[C]do you?\[G]
     And it \[C]goes like this: the \[F]fourth, the \[G]fifth
-    The \[Am]minor fall and the \[F]major \[G]lift
-    The \[G]baffled king com\[Em]posing Halle\[Am]lujah
+    The \[Am]minor fall and the \[F]major lift
+    The \[G]baffled king com\[E]posing Halle\[Am]lujah
   \end{verse}
 
   \begin{chorus}

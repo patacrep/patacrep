@@ -1,0 +1,52 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La caravane}[
+  by={Amplitude}]
+
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{F}{1:022100}
+  \gtab{G}{320003}
+
+  \begin{verse}
+    Dans \[Am]ce voyage \[C]
+    Aux \[Am]mille visages \[C]
+    Ren\[Am]contrer l’autre \[C]
+    \[Am]Sur sa route \[C]
+    Nos \[Am]différences \[C]
+    Ont \[Am]les partage \[C]
+    Par\[Am]tons ensembles \[C]
+    \[Am]Sans bagages \[C]
+  \end{verse}
+
+  \begin{chorus}
+    La \[F]caravane prend \[G]le départ
+    \[Am]Vers une desti\[F]nation bien con\[C]nue \[G]
+    \[Am]D’étapes en étapes, ex\[F]périences vé\[C]cues \[G]
+    \[Am]Sans toi il n’y \[F]aura pas d’his\[C]toi\[G]re
+    En \[Dsus2]route pour un nouveau voyage
+    \[F]Pour tracer ensemble notre sil\[Am]lage \[C]
+  \end{chorus}
+
+  \begin{verse}
+    Dans ce voyage aux mille visages
+    Allons plus loin chaque seconde
+    Prendre le temps, des paysages
+    Tendons nos mains vers le monde
+  \end{verse}
+
+  \begin{verse}
+    Dans ce voyage aux mille visages
+    Oser le doute, les questions
+    La vie avance à chaque virage
+    Nous affirmons nos passions
+  \end{verse}
+
+  \begin{verse}
+    Dans ce voyage aux mille visages
+    Posons  nos sacs pour l’étape
+    Vivons la fête, sous les étoiles
+    Demain commence un autre Cap
+  \end{verse}
+
+\endsong

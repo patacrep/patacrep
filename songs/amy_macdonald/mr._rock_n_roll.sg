@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Mr. Rock'n Roll}
-  [by={Amy MacDonald},cov={this-is-the-life},album={This is the life}]
+  [by={Amy MacDonald},cover={this-is-the-life},album={This is the life}]
 
   \cover
   \capo{7}
@@ -24,7 +24,7 @@
       \[D]Rock chic of the century is acting like she used to be
       Dancing like there's no one there before she ever seemed to care now
       \[G]She wouldn't dare, it's so rock 'n roll to be a\[D]lone
-      \nolyrics \[D D4 D6/9 D \rep{2}]
+      {\nolyrics \[D D4 D6/9 D] \rep{2}}
     \end{verse}
   \end{repeatedchords}
 
@@ -33,7 +33,7 @@
     \[Em7]{I wish} I was something more
     And they'll \[A4]meet one day far away and say
     \[Em7]{I wish} I knew you, I wish I knew you before
-    \nolyrics \[D D4 D6/9 D \rep{4}]
+    {\nolyrics \[D D4 D6/9 D] \rep{4}}
   \end{chorus}
 
   \begin{repeatedchords}
@@ -41,14 +41,14 @@
       \[D]Mrs. Black and White, she's never seen a shade of grey
       Always something on her mind, every single day
       But now she's \[G]lost her way, and where does she go from he\[D]re?
-      \nolyrics \[D D4 D6/9 D \rep{2}]
+      {\nolyrics \[D D4 D6/9 D] \rep{2}}
     \end{verse}
 
     \begin{verse}
       \[D]Mr. Multicultural sees all that one could see
       He's living proof of someone very different to me
       But now he \[G]wants to be free, free so he can se\[D]e
-      \nolyrics \[D D4 D6/9 D \rep{2}]
+      {\nolyrics \[D D4 D6/9 D] \rep{2}}
     \end{verse}
   \end{repeatedchords}
 
@@ -64,7 +64,7 @@
       And \[D]so they must be depart too many moral broken hearts
       But I've seen that all before in TV, books and films and more
       And there's \[G]a happy ending, every single day \[D]
-      \nolyrics \[D D4 D6/9 D \rep{2}]
+      {\nolyrics \[D D4 D6/9 D] \rep{2}}
     \end{verse}
   \end{repeatedchords}
 

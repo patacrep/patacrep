@@ -1,0 +1,90 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Sarbacane}
+  [by={Francis Cabrel},cover={sarbacane},album={Sarbacane},%
+  url={http://www.franciscabrel.com/site/}]
+
+  \cover
+  \capo{2}
+  \gtab{A}{X02220}
+  \gtab{D}{XX0232}
+  \gtab{E}{022100}
+  \gtab{A7}{X02020}
+  \gtab{C}{X32010}
+
+  \begin{verse*}
+  \musicnote{\Intro : \nolyrics{\[A]}}
+  \end{verse*}
+
+  \begin{verse}
+  \[A]On croyait savoir \[D]tout sur l'amour
+  Depuis \[A]toujours
+  Nos corps par coeur et nos coeurs au chaud 
+  Dans le \[E]velours
+  \end{verse}
+
+  \begin{verse*}
+  \[A]Et puis te voilà \[A7]bout de femme
+  Comme \[D]soufflée d'une sarbacane
+  \[A]Le ciel a même un \[E]autre éclat
+  De\[A]puis toi
+  \end{verse*}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[A]Les hommes poursuivent ce \[D]temps qui court
+  Depuis \[A]toujours
+  Voilà que t'arrives et que tout s'éclaire 
+  Sur mon \[E]parcours
+  \end{verse}
+
+  \begin{verse*}
+  \[A]Pendue à mon cou \[A7]comme une liane
+  \[D]Comme le roseau de la sarbacane
+  \[A]Le ciel s'est ouvert \[E]par endroits
+  De\[A]puis toi
+  \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+  \[D]Pas besoin de phrases 
+  Ni de longs dis\[A]cours
+  \[D]Ça change tout de\[C]dans
+  Ça change tout au\[E]tour
+
+  \[A]Finis les matins paupières en panne
+  \[D]Lourdes comme des bouteilles de butane
+  \[A]J'ai presque plus ma \[E]tête à moi
+  De\[A]puis toi
+  \end{chorus}
+
+  \musicnote{\Bridge}
+
+  \begin{repeatedchords}
+  \begin{chorus}
+  \[D]Pas besoin de faire 
+  De trop longs dis\[A]cours
+  \[D]Ça change tout de\[C]dans
+  Ça change tout au\[E]tour
+
+  \[A]Pourvu que jamais tu ne t'éloignes
+  \[D]Plus loin qu'un jet de sarbacane
+  \[A]J'ai presque plus ma \[E]tête à moi
+  De\[A]puis toi
+  \end{chorus}
+
+  \musicnote{\Bridge}
+
+  \begin{verse}
+  \[A]Alors te voilà \[A7]bout de femme
+  Comme \[D]soufflée d'une sarbacane
+  \[A]Le ciel s'est ouvert \[E]par endroits
+  De\[A]puis toi
+  \end{verse}
+
+  \begin{verse*}
+  \[A]Oh depuis toi
+  \end{verse*}
+  \end{repeatedchords}
+
+\endsong

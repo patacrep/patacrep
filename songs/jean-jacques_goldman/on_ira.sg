@@ -1,9 +1,10 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{On ira}
-  [by={Jean-Jacques Goldman},cov={en-passant},album={En passant}]
+  [by={Jean-Jacques Goldman},cover={en-passant},album={En passant}]
 
   \cover
+  \capo{1}
   \gtab{A}{X02220}
   \gtab{E}{022100}
   \gtab*{D/F#}{2X0232}

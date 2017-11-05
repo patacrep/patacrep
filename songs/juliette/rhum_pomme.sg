@@ -1,0 +1,125 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Rhum pomme}
+  [by={Juliette},cover={no-parano},album={No parano}]
+
+  \cover
+
+  \gtab{Cm}{X35543}
+  \gtab{D7}{XX0212}
+
+  \gtab{D#7}{XX1323}
+  \gtab{F#m (aug)}{9:X1432X}
+  \gtab{Gm}{355333}
+  \gtab{D&7}{4:X13131}
+
+  \begin{verse}
+    \[Gm]Dans mon p'tit bar qui \[Cm]paye pas d'mine
+    \[D7]J'étais tranquille \[Gm]j'étais pépère
+    \[Gm]Avec mes copains \[Cm]de rou\[D7]tine
+    \[D7]Percolateur et pompe à \[D#7]bière \[F#m (aug)]
+  \end{verse}
+
+  \begin{verse*}
+    Quand un beau soir ils sont entrés
+    Quatre playboys et trois donzelles
+    M'ont dit avec autorité
+    \og{}\[D7]Nous souhaiterions boire \[D#7]un cock\[Gm]tail!\fg{}
+  \end{verse*}
+
+  \begin{chorus}
+    On veut \[Gm]un rhum pomme, un \[Cm]Gin grenadine
+    Une \[D7]vodka Nutella, une \[Gm]tequila Tagada
+    Un Beaujo\[Gm]lais lait, un \[Cm]Sauvignon passion
+    Un \[D7]Baileys \[D&7]fraise, \[D7] un \[D#7]whisky \[D7]Kiri \[Gm]kiwi \[Gm]
+  \end{chorus}
+
+  \begin{verse}
+    Ils ont du se tromper d'adresse
+    On dirait qu'ils ne pigent pas
+    Où c'est qu'ils ont posé leurs fesses
+    Ici c'est pas le Lutetia
+  \end{verse}
+
+  \begin{verse*}
+    Seuleument voilà par ces temps d'crise
+    Faut pas r'fuser la clientèle
+    Ni une ni deux, hop ! j'improvise
+    J'vais leur en faire, moi, des cocktails!
+  \end{verse*}
+
+  \begin{chorus}
+    En v'là du rhum pomme, du Viandox on the rocks
+    Du Cinzano Tabasco, du Pernod Porto pruneau
+    Du Guignolet lait, du Bartissol Menthol
+    Du Ricard poire, du whisky Kiri kiwi
+  \end{chorus}
+
+  \begin{verse}
+    Vous me croirez, si vous voulez
+    Ils sont revenus dès le lendemain
+    Avec la gueule enfarinée
+    Et une brochette d'autres clampins
+  \end{verse}
+
+  \begin{verse*}
+    J'leur ai servi mes créations
+    Y'en a aucun qui a vomi
+    Y'en avait même pour dire: \og{}Ah! C'est bon!\fg{}
+    Et c'est vraiment \og{}the place to be\fg{}
+  \end{verse*}
+
+  \begin{verse}
+    Dans mon p'tit bar qui paye pas d'mine
+    C'est le défilé des vedettes
+    Je crois qu'j'ai trouvé la combine
+    Chaque jour une nouvelle recette:
+  \end{verse}
+
+  \begin{chorus}
+    Je fais des rhum pomme
+    Des Gins grenadine
+    Des vodkas Nutella
+    Des téquilas Tagada
+    Je fais du Kir Mir
+    Du pif avec du Cif
+    Du Destop Yop
+    Du whisky Kiri kiwi
+    Du Malibu Minidoux
+    Du Pomerol vitriol
+    De l'eau d'vaisselle Javel
+  \end{chorus}
+
+  \begin{verse*}
+    \echo{parlé}
+  \end{verse*}
+
+  \begin{verse*}
+    Et ça ça part comme des p'tits pains!
+  \end{verse*}
+
+  \begin{verse*}
+    Ce qui marche très très bien aussi
+    Le Redbull fioul
+    Le Mezcal gazoil
+    Et le Vermouth mazout
+    Ça c'est un peu\dots{} \echo{*tousse*}
+    Y'en a qui son resté coincé
+    Ils sont devenus aveugles
+  \end{verse*}
+
+  \begin{verse*}
+    Uhmm, bon.
+    Excusez-moi, est-ce que vous faites le Picon oignon goudron ?
+  \end{verse*}
+
+  \begin{verse*}
+    Hein ?
+  \end{verse*}
+
+  \begin{verse*}
+    C'est pas bon hein ?
+  \end{verse*}
+
+\endsong

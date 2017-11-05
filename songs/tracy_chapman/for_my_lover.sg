@@ -1,0 +1,77 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{For my lover}
+  [by={Tracy Chapman},cover={tracy-chapman},album={Tracy Chapman}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{A}{001110}
+  \gtab{C}{X32010}
+  \gtab*{Cmaj9}{3:X02120}
+
+  \begin{verse}
+    \[Em] Two weeks in a Vir\[G]ginia jail
+    \[D]For my lover \[A]for my lover
+    \[Em] Twenty thousand \[G]dollar bail
+    \[D]For my lover \[A]for my lover
+  \end{verse}
+
+  \begin{chorus}
+    \[C] And everybody thinks
+    \[A] That I'me the fool
+    \[D] But they don't get
+    Any \[C]love from you
+    \[Em] The things we won't do for \[A]love
+    I'd \[Em]climb a mountain if I had to
+    \[G] And risk my life so I could have 
+    \[D]You, you, you, you
+    \[A]You, you, you, you
+  \end{chorus}
+
+  \begin{verse}
+    Everyday I'm psychoanalyzed
+    For my lover for my lover
+    They dope me up and I tell them lies
+    For my lover for my lover
+  \end{verse}
+
+  \begin{verse*}
+    chorus
+  \end{verse*}
+
+  \begin{bridge}
+    \[Cmaj9] I follow my heart
+    \[Em] And leave my head to ponder
+    \[D] Deep in this love
+    No \[Cmaj9]man can shake
+    \[Cmaj9] I follow my heart
+    \[Em] And leave my mind to wonder	
+    \[D] Is this love worth
+    The \[Cmaj9]sacrifices I make 
+  \end{bridge}
+
+  \begin{verse}
+    Two weeks in a Virginia jail
+    For my lover for my lover
+    Twenty thousand dollar bail
+    For my lover for my lover
+  \end{verse}
+
+  \begin{verse*}
+    No chorus
+  \end{verse*}
+
+  \begin{verse}
+    Everyday I'm psychoanalyzed
+    For my lover for my lover
+    They dope me up and I tell them lies
+    For my lover for my lover
+  \end{verse}
+
+  \begin{verse*}
+    chorus
+  \end{verse*}
+
+\endsong

@@ -1,0 +1,65 @@
+\selectlanguage{french}
+\songcolumns{1}
+\beginsong{Âme câline}
+  [by={Michel Polnareff},cover={passe-present},album={Passé Présent}]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{F#m}{2:022000}
+  \gtab{G#m}{4:002200}
+  \gtab{B}{2:003330}
+  \gtab{G}{320003}
+  \gtab{A}{002220}
+  \gtab{C+5}{X32110}
+
+  \MultiwordChords 
+
+  \musicnote{\Intro : \nolyrics \[E F{\shrp}m G{\shrp}m B E G A B]}
+
+
+  \begin{verse}
+    \[E]Âme câline cherche cœur libre \[F#m]tous les jours
+    Toutes les \[G#m]nuits\[F#m]  
+    \[B]Pour \[E]{la vie}\[G]\[A] \[B] 
+    \[E]Âme câline offre nid tout près du \[F#m]soleil
+    Près des étoi\[G#m]les\[F#m]
+    \[B]Pour \[E]logis\[C+5]
+  \end{verse}
+
+  \begin{chorus}
+    \[C#m]{Pour la} \[C]vie
+    \[G]Ou peut-être \[B]plus
+    \[C#m]Pour la \[C]vie
+    \[G]Ou peut-être \[B]moins
+  \end{chorus}
+
+  \begin{verse}
+    ^Âme impatiente aimerait trouver âme ^sœur
+    Pour compagn^ie^
+    ^Pour ^amie^^
+  \end{verse}
+
+    \musicnote{\Bridge : \nolyrics \[E F{\shrp}m G{\shrp}m F{\shrp}m B E C+5]}
+
+  \begin{chorus}
+    \[C#m]Pour la \[C]vie
+    \[G]Ou peut-être \[B]plus
+    \[C#m]Pour la \[C]vie
+    \[G]Ou peut-être \[B]moins
+  \end{chorus}
+
+
+  \begin{verse}
+    ^Âme câline cherche cœur libre^tous les jours
+    Toutes les^nuits^
+    ^Pour ^la vie^^^
+    ^Âme câline offre nid tout près du ^soleil
+    Près des étoi^les^
+    ^Pour ^logis^
+    \[B]Toutes les \[E]nuits\[A]
+    \[B]Pour \[E]la vie\[A]
+    \[B]Toutes les \[E]nuits\[A]
+    \[B]Pour \[E]la vie\[A] \dots
+  \end{verse}
+
+\endsong

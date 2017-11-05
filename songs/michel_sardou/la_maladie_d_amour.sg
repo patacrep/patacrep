@@ -1,0 +1,60 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{La maladie d'amour}
+  [by={Michel Sardou},cover={la-maladie-d-amour},album={La maladie d'amour},%
+  url={http://michelsardou.artiste.universalmusic.fr/site/}]
+
+  \cover
+  \capo{1}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+  \gtab{Bm}{2:X02210}
+  \gtab{F#m}{2:022000}
+  \gtab{G}{320003}
+  \gtab{E7}{020100}
+
+  \begin{chorus}
+  Elle \[D]court, elle \[A]court
+  La \[Bm]maladie d'a\[F#m]mour
+  Dans \[G]le cœur des en\[D]fants
+  De sept à \[E7]soixante dix-sept \[A]ans
+  Elle \[D]chante, elle \[A]chante
+  La \[Bm]rivière inso\[F#m]lente
+  Qui \[G]unit dans son \[D]lit
+  Les cheveux \[A]blonds
+  Les cheveux \[G]gris \[D]
+  \end{chorus}
+
+  \begin{verse}
+  Elle fait chanter les \[A]hommes
+  \[Bm]Et s'agrandir le \[F#m]monde
+  \[G]Elle fait parfois souf\[D]frir
+  Tout \[E7]le long d'une \[A]vie
+  \end{verse}
+
+  \begin{verse*}
+  \[D]Elle fait pleurer les \[A]femmes
+  \[Bm]Elle fait crier dans \[F#m]{l'ombre}
+  \[G]Mais le plus doulou\[D]reux
+  C'est quand on \[E7]en gué\[A]rit
+  \end{verse*}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[D]Elle surprend l'éco\[A]lière
+  \[Bm]Sur le banc d'une \[F#m]classe
+  \[G]Par le charme inno\[D]cent
+  D'un \[E7]professeur d'an\[A]glais
+  \end{verse}
+
+  \begin{verse*}
+  \[D]Elle foudroie dans la \[A]rue
+  \[Bm]Cet inconnu qui \[F#m]passe
+  \[G]Et qui n'oubliera \[D]plus
+  Ce parfum \[E7]qui vo\[A]lait
+  \end{verse*}
+  \end{repeatedchords}
+
+  \musicnote{\Chorus \rep{2}}
+
+\endsong

@@ -1,0 +1,83 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Vis tes rêves}
+  [by={Amplitude},cover={amplitubes},album={Amplitubes}]
+
+  \cover
+
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{Em}{022000}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+
+  \beginverse
+    \nolyrics{\[Em] \[G] \[D] \[A4-7] \[Em]}
+    \[Em] Des questions compliquées \[G]
+    Des avis partagés \[D]
+    Moi au milieu des gens \[A4-7]
+    \[Em] La terre est effrayée \[G]
+    Les hommes ont gaspillé \[D]
+    Moi au milieu des gens \[A4-7]
+  \endverse
+  \beginverse*
+    \[Em]FIER\,! De savoir faire des choix \[G]
+    Qui déplaisent parfois \[D]
+    Je refuse de me taire \[A4-7]
+    \[Em]FIER\,! De donner mes idées \[G]
+    Je construis des projets \[D]
+    Un avenir pour la terre \[A4-7] 
+  \endverse
+  \beginverse*
+    \[Em]Vis tes rêves
+    Vis tes rêves
+  \endverse
+
+  \beginchorus
+    \[Em]Oser entrer dans \[C]la lumière
+    Se \[G]lever, agir et \[A]être \[B]fier
+    \[Em]Rêver avant \[C] que la nuit s'achève \[G]
+    \[A]Rassemblés on \[B]vit nos rêves\,! \[Em]
+  \endchorus
+
+  \beginverse
+    On reste mal éveillé
+    Devant notre télé
+    On s'évade sur une chaise
+    Et quand tout est chiffré
+    Les dollars, les idées
+    J'ai pas d'place pour le rêve
+  \endverse
+  \beginverse*
+    J'RÊVE\,! En couleur en HD
+    D'un monde plus coloré,
+    Et plein de décibels.
+    J'RÊVE\,! Avec tous mes amis
+    D'un futur ou la vie
+    Chaque jour est plus belle
+  \endverse
+  \beginverse*
+    Vis tes rêves\,! \rep{2}
+  \endverse
+
+  \beginverse
+    Des ombres qui se pressent
+    Des regards qui se baissent
+    Moi au milieu des gens
+    Des hommes comme des machines
+    Qui se suivent sur une ligne
+    Moi au milieu des gens
+  \endverse
+  \beginverse*
+    J'OSE\,! Interpeller les grands
+    Et sourire aux passants
+    Aussi tendre la main
+    J'OSE\,! Apprivoiser mes doutes
+    Et puis prendre la route
+    Guidé par mon instinct
+  \endverse
+  \beginverse*
+    Vis tes rêves\,! \rep{2}
+  \endverse
+\endsong

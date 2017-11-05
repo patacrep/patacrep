@@ -1,0 +1,56 @@
+\selectlanguage{english}
+\songcolumns{2}
+\beginsong{House of the rising sun}
+  [by={The Animals},cover={the-animals},album={The animals}]
+
+  \cover
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{F}{1:022100}
+  \gtab{E7}{020100}
+
+  \begin{verse}
+    \[Am]There is a \[C]house in \[D]New Orleans \[F]
+    They \[Am]call the \[C]Rising \[E7]Sun
+    And it's \[Am]been the \[C]ruin of \[D]many a poor \[F]boy
+    And \[Am]God, I \[E7]know, I'm \[Am]one
+    {\nolyrics \[C D F Am E7 Am E7]}
+  \end{verse}
+
+  \begin{verse}
+    My mother was a tailor
+    She sewed my new bluejeans
+    My father was a gamblin' man
+    Down in New Orleans
+  \end{verse}
+
+  \begin{verse}
+    Now the only thing a gambler needs
+    Is a suitcase and trunk
+    And the only time he's satisfied
+    Is when he's on a drunk
+  \end{verse}
+
+  \begin{verse}
+    Oh mother tell your children
+    Not to do what I have done
+    Spend your lives in sin and misery
+    In the House of the Rising Sun
+  \end{verse}
+
+  \begin{verse}
+    Well, I got one foot on the platform
+    The other foot on the train
+    I'm goin' back to New Orleans
+    To wear that ball and chain
+  \end{verse}
+
+  \begin{verse}
+    Well, there is a house in New Orleans
+    They call the Rising Sun
+    And it's been the ruin of many a poor boy
+    And God I know I'm one
+  \end{verse}
+
+\endsong

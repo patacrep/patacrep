@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La liste de Rose}
-  [by={Rose},cov={rose},album={Rose}]
+  [by={Rose},cover={rose},album={Rose}]
 
   \cover
   \capo{3}

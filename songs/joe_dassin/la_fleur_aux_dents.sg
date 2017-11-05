@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La fleur aux dents}
-  [by={Joe Dassin},cov={le-meilleur-de-joe-dassin},album={Le meilleur de Joe Dassin}]
+  [by={Joe Dassin},cover={le-meilleur-de-joe-dassin},album={Le meilleur de Joe Dassin}]
 
   \cover
   \gtab{C}{X32010}
@@ -18,15 +18,15 @@
 
   \begin{chorus}
     Il y a \[C]les filles dont on \[F]rêve
-    Et celles \[G]avec qui l'on \[Am]dort
-    Il y a \[F]les filles qu'on re\[G]grette
+    Et celles \[G]avec qui l'on \[C]dort
+    Il y a \[Dm]les filles qu'on re\[G]grette
     Et celles qui \[C]laissent des \[G]remords
   \end{chorus}
 
   \begin{chorus}
     Il y a \[C]les filles que l'on \[F]aime
     Et celles qu'on \[G]aurait pu ai\[Am]mer
-    Puis un \[F]jour il y a la \[G]femme
+    Puis un \[Dm]jour il y a la \[G]femme
     Qu'on atten\[C]dait
   \end{chorus}
 

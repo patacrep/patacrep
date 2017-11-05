@@ -1,85 +1,123 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Still alive}
-  [by={Jonathan Coulton},cov={portal},album={Portal}]
+  [by={Jonathan Coulton},cover={portal},album={Portal}]
 
   \cover
-  \gtab{Bm}{2:X02210}
-  \gtab{D}{2:X32010}
-  \gtab{Em}{022000}
   \gtab{A}{X02220}
-  \gtab{F}{1:022100}
+  \gtab*{F#m}{X4420X}
+  \gtab{Bm}{1:X02210}
+  \gtab{E7}{022130}
+  \gtab*{Fmaj7}{XX3210}
   \gtab{C}{X32010}
-  \gtab{B&}{1:X02220}
+  \gtab{G}{320001}
+  \gtab{F}{1:0221000}
   \gtab{Dm}{XX0231}
+  \gtab*{C/B*}{X20010}
+  \gtab{Am}{X02210}
+  \gtab{E}{022100}
+
+  \musicnote{En arpège jusqu'au début du 1\ier{} refrain.
+  3\ieme{} couplet en arpège jusqu'à «~Maybe Black Mesa~».
+  Cette transcription est celle utilisée par Coulton ; capo 5\ieme{} case
+  pour la tonalité de la bande originale de Portal.
+  Note : le vrai nom de Do/Si* est Sim\#5addb9add11, mais ça faisait un
+  peu long.}
+
+  \lilypond{Still_alive}
 
   \begin{verse}
-    This was a \[D]triumph \[Bm D]
-    I'm \[Bm]making a \[D]note here: \[Bm]huge succ\[D]ess \[Bm]
-    It's \[Em]hard to over\[A]state my satis\[D]faction \[Bm D]
+    This was a \[A]triumph. \[F#m A]
+    I'm \[F#m]making a \[A]note here:
+    \[F#m]HUGE SUCC\[A]ESS. \[F#m]
+    It's \[Bm]hard to over\[E7]state
+    my satis\[A]faction. \[F#m A]
   \end{verse}
 
   \begin{verse*}
-    \[Bm]Aperture \[D]Science \[Bm D]
-    We \[Bm]do what we \[D]must be\[Bm]cause we \[D]can \[Bm]
-    \[Em]For the good of \[A]all of us
-    Except the \[B&]ones who are dead
+    \[F#m]Aperture \[A]Science \[F#m A]
+    We \[F#m]{do what} we \[A]must
+    be\[F#m]cause we \[A]can. \[F#m]
+    \[Bm]{For the} good of \[E7]{all of} us.
+    Except the \[Fmaj7]{ones who} are dead.
   \end{verse*}
 
   \begin{chorus}
-    But there's \[F]no sense \[C]crying over \[B&]every mis\[F]take
-    You just \[F]keep on \[C]trying till you \[B&]run out of \[F]cake
-    And the \[B&]science gets \[C]done and you \[F]make a neat \[Dm]gun
-    For the \[B&]people who \[A]are still alive \[D Bm D]
+    But there's \[C]{no sense} \[G]crying
+    over \[F]every mis\[C]take.
+    You just \[C]keep on \[G]trying
+    till you \[F]run out of \[C]cake.
+    And the \[Dm]science gets \[G]done.
+    And you \[C]make a \[C/B*]neat \[Am]gum.
+    For the \[F]people who \[E]are
+    still a\[A]live. \[F#m A]
   \end{chorus}
 
+  \begin{repeatedchords}
+    \begin{verse}
+      I'm \[F#m]{not even} \[A]angry. \[F#m A]
+      \[F#m]{I'm being} \[A]{so sin}\[F#m]{cere right} \[A]now. \[F#m]
+      \[Bm]Even though you \[E7]broke my heart.
+      And \[A]killed me \[F#m A]
+    \end{verse}
+
+    \begin{verse*}
+      And \[F#m]{tore me} to \[A]pieces. \[F#m A]
+      And \[F#m]{threw every} \[A]piece in\[F#m]{to a} \[A]fire. \[F#m]
+      \[Bm]{As they} burned it \[E7]hurt because
+      I was so \[Fmaj7]{happy for} you!
+    \end{verse*}
+
+    \begin{chorus}
+      Now these \[C]points of \[G]data
+      make a \[F]beautiful \[C]line
+      And we're \[C]out of \[G]beta.
+      We're re\[F]leasing on \[C]time.
+      So I'm \[Dm]GLaD. I got \[G]burned.
+      Think of \[C]{all the} \[C/B*]things we \[Am]learned
+      for the \[F]people who \[E]are
+      still a\[A]live. \[F#m A]
+    \end{chorus}
+
+    \begin{verse}
+      \[F#m]{Go ahead} and \[A]leave me. \[F#m A]
+      I \[F#m]think I'd pre\[A]{fer to} \[F#m]stay in\[A]side. \[F#m]
+      \[Bm]{Maybe you'll} find \[E7]someone else
+      to \[A]help you. \[F#m A]
+    \end{verse}
+
+    \begin{verse*}
+      \[F#m]Maybe Black \[A]Mesa. \[F#m A]
+      \[F#m]THAT WAS A \[A]JOKE. Ha \[F#m]{ha, FAT} \[A]CHANCE. \[F#m]
+      \[Bm]Anyway this \[E7]cake is great.
+      It's so de\[Fmaj7]{licious and} moist.
+    \end{verse*}
+
+    \begin{chorus}
+      Look at \[C]{me still} \[G]talking
+      when there's \[F]Science to \[C]do.
+      When I \[C]look out \[G]there,
+      it makes me \[F]GLaD I'm not \[C]you.
+      I've ex\[Dm]periments to \[G]run.
+      There is \[C]research \[C/B*]{to be} \[Am]done.
+      On the \[F]people who \[E]are
+      still a\[A]live. \[F#m]
+    \end{chorus}
+  \end{repeatedchords}
+
   \begin{verse}
-    I'm not even angry
-    I'm being so sincere right now
-    Even though you broke my heart and killed me
-  \end{verse}
-
-  \begin{verse*}
-    And tore me to pieces
-    And threw every piece into a fire
-    As they burned it hurt because
-    I was so happy for you
-  \end{verse*}
-
-  \begin{chorus}
-    Now these points of data make a beautiful line
-    And we're out of beta, we're releasing on time
-    So I'm glad I got burned, think of all the things we learned
-    For the people who are still alive
-  \end{chorus}
-
-  \begin{verse}
-    Go ahead and leave me
-    I think I'd prefer to stay inside
-    Maybe you'll find someone else to help you
-  \end{verse}
-
-  \begin{verse*}
-    Maybe Black Mesa
-    That was a joke, ah ah, fat chance
-    Anyway this cake is great
-    It's so delicious and moist
-  \end{verse*}
-
-  \begin{chorus}
-    Look at me still talking when there's science to do
-    When I look out there it makes me glad I'm not you
-    I've experiments to run, there is research to be done
-    On the people who are still alive
-  \end{chorus}
-
-  \begin{verse}
-    \[Bm] And be\[D]lieve me I \[Bm]am still a\[D]live \[Bm]
-    I'm doing \[D]science and \[Bm]I'm still a\[D]live \[Bm]
-    I feel fan\[D]tastic and \[Bm]I'm still a\[D]live \[Bm]
-    And while you're \[D]dying I'll \[Bm]be still a\[D]live \[Bm]
-    And when you're \[D]dead I'll \[Bm]be still a\[D]live \[Bm]
-    Still a\[D]live \rep{2}
+    And be\[A]lieve me I \[F#m]am
+    still a\[A]live. \[F#m]
+    I'm doing \[A]science and \[F#m]I'm
+    still a\[A]live \[F#m]
+    I feel fan\[A]tastic and \[F#m]I'm
+    still a\[A]live \[F#m]
+    And while you're \[A]dying I'll \[F#m]be
+    still a\[A]live \[F#m]
+    And when you're \[A]dead I will \[F#m]be
+    still a\[A]live \[F#m]
+    STILL A\[A]LIVE \[F#m]
+    Still a\[A]live.
   \end{verse}
 
 \endsong

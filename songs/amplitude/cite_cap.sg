@@ -1,0 +1,95 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Cité cap}
+  [by={Amplitude},cover={amplitubes},album={Amplitubes}]
+
+  \cover
+
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{E}{022100}
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
+
+  \beginverse*
+    \nolyrics{\[Am Am Am Am]}
+    \nolyrics{\[Dm Dm Dm E]}
+  \endverse
+
+  \beginverse
+    Au c\oe ur du désert
+    La caravane
+    Soulève la poussière
+    Sous l’oiseau qui plane
+  \endverse
+
+  \beginverse*
+    Un nouveau départ
+    Une destination
+    Le même étendard
+    Une seule direction
+  \endverse
+
+  \beginverse*
+    Toi tu te soucies
+    De ta planète
+    Car tu ne veux pas
+    La laisser pourrir
+  \endverse
+
+  \beginverse*
+    Tu veux réagir
+    Maintenant ou jamais
+    Ça te fait souffrir
+    De voir comme elle est
+  \endverse
+
+  \beginchorus
+    \musicnote{\nolyrics{\[F G Am Am]}}
+    Tu sais qu’t’es pas seul sur terre
+    Ensemble on peut changer les choses
+    \musicnote{\nolyrics{\[F G C C]}}
+    Il suffit seulement qu’on ose
+  \endchorus
+
+  \beginchorus
+    \musicnote{\nolyrics{\[Am Dm/E]}}
+    Si t’es cap de changer le monde
+    \musicnote{\nolyrics{\[Am Dm/E]}}
+    Si t’es cap de défier les secondes
+    \musicnote{\nolyrics{\[Am Dm/E]}}
+    Si t’es cap de changer d’onde
+    \musicnote{\nolyrics{\[C G/G\shrp]}}
+    Alors t’es prêt à faire le tour du monde
+  \endchorus
+
+  \beginverse
+    Au lever du jour
+    L’orage est passé
+    Au loin les deux tours
+    Qui nous ont guidé
+  \endverse
+
+  \beginverse*
+    Nous mettons le cap
+    Vers la cité
+    La prochaine étape
+    De l’odyssée
+  \endverse
+
+  \beginverse*
+    Et toi tu souris
+    Face aux obstacles
+    Que t’offre la vie
+    Comme un miracle
+  \endverse
+
+  \beginverse*
+    Il faut affronter
+    Les difficultés
+    On ressort plus fort
+    De tous nos efforts
+  \endverse
+\endsong

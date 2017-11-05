@@ -1,0 +1,71 @@
+\selectlanguage{french}
+\songcolumns{2}
+
+\beginsong{Sur ma route}
+  [by={Black~M},cover={les-yeux-plus-gros-que-le-monde},%
+  album={Les yeux plus gros que le monde}]
+
+  \cover
+
+  \gtab{C}{X32010}
+  \gtab{G}{320003}
+  \gtab{D}{XX0232}
+  \gtab{Em}{022000}
+
+  \beginverse*
+    \musicnote{En boucle\,: \nolyrics{\[Em C G D]}}
+  \endverse
+
+  \beginchorus
+    Sur ma route, oui, il y a eu du move, oui
+    De l'aventure dans l'movie, une vie de roots
+    Sur ma route, oui, je n'comprends plus les soucis
+    De quoi devenir fou, oui, une vie de roots
+  \endchorus
+  \beginchorus
+    Sur ma route, sur ma route
+    Sur ma route, sur ma route
+  \endchorus
+
+  \beginverse
+    Sur ma route j'ai eu des moments de doute
+    J'marchais sans savoir vers ou
+    J'étais têtu rien à foutre
+  \endverse
+  \beginverse*
+    Sur ma route, j'avais pas de bagages en soute
+    Et dans ma poche pas un sous
+    Juste la famille entre nous
+  \endverse
+  \beginverse*
+    Sur ma route il y a eu un tas de bouchons
+    La vérité j'ai souvent trébuché
+    Est-ce que tu sais que quand tu touches le fond
+    Il y a des gens chez qui tu peux te réfugier
+    Tu peux compter que sur tes chers parents
+    Parce que les amis, eux, disparaissent un par un
+    Oui il m'arrive d'avoir le front au sol
+    Parce que dieu est grand, et on est seul, on meurt seul
+  \endverse
+
+  \beginverse
+    Sur ma route on m'a fait des coups en douce
+    L'impression que mon coeur en souffre
+    Mais je suis sous anesthésie
+    \endverse
+    \beginverse*
+    Sur mon chemin j'ai croisé pas mal d'anciens
+    Ils me parlaient du lendemain
+    Et que tout allait si vite
+  \endverse
+  \beginverse*
+    Ne me parle pas de nostalgie
+    Parce que je t'avoue que mon coeur est trop fragile
+    Je suis comme un pirate naufragé
+    Oui mon équipage est plus qu'endommagé
+    Je cherche mes larmes je baisse les armes
+    J'veux même plus savoir pourquoi ils me testent les autres
+    Si y'a plus rien à prendre je sais qu'il me reste une chose
+    Et ma route elle est trop longue pas le temps de faire une pause
+  \endverse
+\endsong

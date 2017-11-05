@@ -1,0 +1,97 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Petite fille des sombres rues}
+  [by={Renaud},cover={amoureux-de-paname},album={Amoureux de Paname}]
+
+  \cover
+  \capo{3}
+  \gtab{Am}{X02210}
+  \gtab{Dm}{XX0231}
+  \gtab{E7}{020100}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics{ \[Am] }}
+  \end{verse*}
+
+  \begin{verse}
+    Non, ne crois pas, fi\[Dm]llette
+    Me retenir en\[Am]core
+    Dans tes rues sans vio\[E7]lettes
+    Dans ton triste dé\[Am]cor
+  \end{verse}
+
+  \begin{repeatedchords}
+    \begin{verse*}
+      N'essaie pas de me \[Dm]suivre
+      Déserte mes ri\[Am]vages
+      Loin de toi, je veux \[E7]vivre
+      De plus beaux pay\[Am]sages
+    \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+    Petite \[Dm]fille des sombres \[Am]rues
+    É\[E7]loigne-\[Am]toi
+    Petite \[Dm]fille aux yeux \[Am]perdus
+    Tu \[E7]m'oublie\[Am]ras
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      \[Am]J'ai trop longtemps vé\[Dm]cu
+      Dans de pauvres ru\[Am]elles
+      Trop longtemps atten\[E7]du
+      Un petit arc-en-\[Am]ciel
+    \end{verse}
+
+    \begin{verse*}
+      J'ai besoin de so\[Dm]leil
+      Et d'horizons moins \[Am]gris
+      Je veux voir les mer\[E7]veilles
+      Que, près de toi, j'ou\[Am]blie
+    \end{verse*}
+
+    \begin{verse}
+      \[Am]Je ne suis pas de \[Dm]ceux
+      Que chasse la lumi\[Am]ère
+      Et qui vivent heu\[E7]reux
+      Un éternel hi\[Am]ver
+    \end{verse}
+
+    \begin{verse*}
+      De l'amour, je ne \[Dm]veux
+      Que les filles des rivi\[Am]ères
+      Lorsque j'aime les \[E7]yeux
+      J'aime aussi la chaumi\[Am]ère
+    \end{verse*}
+
+    \begin{verse}
+      Nos chemins se sé\[Dm]parent
+      Entends, la vie m'ap\[Am]pelle
+      Je quitte tes trot\[E7]toirs
+      Et tes grises den\[Am]telles
+    \end{verse}
+
+    \begin{verse*}
+      Je pars pour des ro\[Dm]yaumes
+      Où l'on m'attend peut-\[Am]être
+      Où le bonheur em\[E7]baume
+      Et donne un air de \[Am]fête
+    \end{verse*}
+
+    \begin{verse}
+      Laisse-moi m'en al\[Dm]ler
+      Je n'ai plus rien à \[Am]dire
+      Mais si tu veux pleu\[E7]rer
+      N'essaie pas de sou\[Am]rire
+    \end{verse}
+
+    \begin{verse*}
+      Retourne dans ta \[Dm]nuit
+      Au fond de tes fau\[Am]bourgs
+      Retourne dans l'en\[E7]nui
+      Qui habite tes \[Am]jours
+    \end{verse*}
+  \end{repeatedchords}
+
+\endsong

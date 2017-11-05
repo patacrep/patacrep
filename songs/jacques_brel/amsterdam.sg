@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{3}
 \beginsong{Amsterdam}
-  [by={Jacques Brel},cov={amsterdam},album={Amsterdam}]
+  [by={Jacques Brel},cover={amsterdam},album={Amsterdam}]
 
   \cover
   \gtab{Am}{X02210}
@@ -90,13 +90,14 @@
 
   \begin{verse*}
     Qui leur donnent leurs jolis corps
-    Qui leur donnent leurs vertus
+    Qui leur donnent leur vertu
     Pour une pièce en or
     Et quand ils ont bien bu
     Se plantent le nez au ciel
     Se mouchent dans les étoiles
     Et ils pissent comme je pleure
     Sur les femmes infidèles
+    Dans le port d'Amsterdam \rep{2}
   \end{verse*}
 
 \endsong

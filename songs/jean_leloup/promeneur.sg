@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Promeneur}
-  [by={Jean Leloup},cov={la-vallee-des-reputations},album={La vallée des réputations}]
+  [by={Jean Leloup},cover={la-vallee-des-reputations},album={La vallée des réputations}]
 
   \cover
   \gtab{Em}{022000}
@@ -18,6 +18,10 @@
     \[Em] \[B7] Le ciel se couvre plein d'orage
     Je ne marcherai pas davan\[Am]tage
   \end{verse}
+
+  \begin{verse*}
+    \nolyrics \[C G Am G]
+  \end{verse*}
 
   \begin{verse}
     \[C]On a beau \[G]dire

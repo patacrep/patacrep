@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{1}
 \beginsong{Sentiments numériques revisités}
-  [by={Hubert-Félix Thiéfaine},cov={la-tentation-du-bonheur},album={La tentation du bonheur}]
+  [by={Hubert-Félix Thiéfaine},cover={la-tentation-du-bonheur},album={La tentation du bonheur}]
 
   \cover
   \gtab{A}{X02220}
@@ -74,12 +74,16 @@
     Quand \[E]{les traces} de Rorschach sur la tôle ondulée
     Servent \[B]{aux maîtres} à tester l'autochtone humilié
     Quand \[C#m]{sur la} Moleskine des limousines en liesse
-    Ils \[B]{en rient} en fumant la mucho cojones
+    Ils \[B]{en rient} en fumant la \emph{mucho cojones}
     Quand \[A]{les cris} de l'amour croisent les crocs de la haine
     Dans \[C#m]l'encyclopédie des clameurs souterraines
     Quand \[B]{je rentre} amoché, fatigué, dézingué
     En \[C#m]rêvant de mourir sur ton ventre mouillé
   \end{verse}
+
+  \begin{chorus}
+    Je n'ai \[A]plus de \[E]mots assez \[B]durs pour \[A]{te dire} que je \[E]t'aime
+  \end{chorus}
 
   \begin{repeatedchords}
     \begin{verse}

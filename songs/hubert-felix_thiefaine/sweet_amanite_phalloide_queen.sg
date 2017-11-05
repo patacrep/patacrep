@@ -1,47 +1,70 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Sweet amanite phalloïde queen}
-  [by={Hubert-Félix Thiéfaine},album={Meteo fur nada},cov={meteo-fur-nada}]
+  [by={Hubert-Félix Thiéfaine},album={Météo für nada},cover={meteo-fur-nada}]
 
   \cover
-  \gtab{F#}{2:022000}
+  \gtab{F#}{2:022100}
   \gtab{B}{2:X02220}
-  \gtab{Eb}{6:X02220}
+  \gtab{G#m}{4:022000}
   \gtab{C#}{4:X02220}
+  \gtab{Ebm}{6:X02210}
   \gtab{B&m}{6:022000}
 
+  \begin{verse*}
+    \musicnote{\Intro{}: \nolyrics{\[F{\shrp}]}}
+  \end{verse*}
+
   \begin{verse}
-    \[F#] Pilote aux yeux de gélatine
-    Dans ce \[B] vieux satellite-usine
+    Pi\[F#]lote aux yeux de gélatine
+    Dans \[B]{ce vieux} satellite-usine
     \[G#m] Manufacture de recyclage
-    Des mélancolies hors d'us\[C#]age
+    Des mélancolies \[C#]{hors d'usage}
   \end{verse}
 
-
   \begin{chorus}
-    O swe\[E&]et a\[B]manite phal\[F#]loïde que\[C#]en \rep{3}
+    Ô \[E&m]sweet a\[B]manite phal\[F#]loïde \[C#]queen \rep{3}
   \end{chorus}
 
+  \begin{verse*}
+    \musicnote{\nolyrics{\[B F{\shrp} B] \rep{2}}}
+  \end{verse*}
 
   \begin{verse}
-    Je suis le \[B&m]Captain M' Acchab \[F#]\[B&m]
-    Aux ordres d'une beau\[F#]té na\[B&m]bab \[F#]\[B&m]
-    \[F#]Prima bel\[B]ladona made in
+    Je suis le \[B&m]Captain M'acchab \[F# B&m]
+    Aux ordres d'une beau\[F#]té na\[B&m]bab \[F# B&m]
+    Pri\[F#]{ma bel}\[B]ladona made in
     Moloch-city destroy-ma\[F#]chine
   \end{verse}
 
-  \begin{verse}
-    Amour-amok and paradise
-    Quand elle fumivore ses King Size
-    Dans son antichambre d'azur
-    Avant la séance de torture
-  \end{verse}
+  \begin{verse*}
+    \musicnote{\Chorus{}, \nolyrics{\[B F{\shrp} B]}}
+  \end{verse*}
 
-  \begin{verse}
-    Je suis le rebelle éclaté
-    Au service de Sa Majesté
-    La reine aux désirs écarlates
-    Des galaxies d'amour-pirate
-  \end{verse}
+  \begin{repeatedchords}
+    \begin{verse}
+      A\[F#]mour-amok and paradise
+      Quand \[B]elle fumivore ses king-size
+      \[G#m] Dans son antichambre d'azur
+      Avant la séance \[C#]{de torture}
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{\Chorus{}, \nolyrics{\[B B F{\shrp} F{\shrp}] \rep{2} \[B B]}}
+  \end{verse*}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Je suis le \[B&m]rebelle éclaté \[F# B&m]
+      Au service de Sa \[F#]Majes\[B&m]té \[F# B&m]
+      La \[F#]reine aux \[B]désirs écarlates
+      Des galaxies d'amour-pi\[F#]rate
+    \end{verse}
+  \end{repeatedchords}
+
+  \begin{verse*}
+    \musicnote{\Chorus{}, \nolyrics{\[B F{\shrp} B]}, \Chorus{} \Adlib{}}
+  \end{verse*}
 
 \endsong

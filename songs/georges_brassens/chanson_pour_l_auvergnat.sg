@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Chanson pour l'Auvergnat}
-  [by={Georges Brassens},cov={chanson-pour-l-auvergnat},album={Chanson pour l'Auvergnat}]
+  [by={Georges Brassens},cover={chanson-pour-l-auvergnat},album={Chanson pour l'Auvergnat}]
 
   \cover
   \gtab{Bm}{2:X02210}
@@ -41,8 +41,6 @@
     \[G]Au \[F#]père \[Bm]éternel
   \end{verse*}
 
-
-
   \begin{verse}
     Elle est à toi cette chanson
     Toi l'hôtesse qui sans façons
@@ -51,14 +49,14 @@
   \end{verse}
 
   \begin{verse*}
-    Toi qui m'ouvris ta hutte quand
+    Toi qui m'ouvris ta huche quand
     Les croquantes et les croquants
     Tous les gens bien intentionnés
     S'amusaient à me voir jeûner
   \end{verse*}
 
   \begin{verse*}
-    Ce n'était rien qu'un bout de pain
+    Ce n'était rien qu'un peu de pain
     Mais il m'avait chauffé le corps
     Et dans mon âme, il brûle encore
     À la manière d'un grand festin

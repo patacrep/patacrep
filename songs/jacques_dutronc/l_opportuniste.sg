@@ -1,0 +1,70 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{L'opportuniste}
+  [by={Jacques Dutronc},cover={l-opportuniste},album={L'opportuniste}]
+
+  \cover
+  \gtab{G}{320003}
+  \gtab{C}{X32010}
+  \gtab{Am}{X02210}
+  \gtab{Em}{022000}
+  \gtab{Bm}{2:X02210}
+
+  \begin{verse*}
+    \musicnote {\Intro : \nolyrics \[G]}
+  \end{verse*}
+
+  \begin{verse}
+    \[G]Je suis pour le \[C]communisme
+    Je \[Am]suis pour le social\[Em]isme
+    \[G]Et pour le ca\[C]pitalisme
+    Parce \[Am]que je suis opportun\[Em]iste \[Bm]
+  \end{verse}
+
+  \begin{chorus}
+    \[G]{Il y en a} \[C]qui contestent
+    Qui \[Am]revendiquent et qui \[G]protestent
+    \[G]Moi je ne fais \[C]qu'un seul geste
+    Je \[Am]retourne ma \[Em]veste, \[Am]{je retourne} ma \[Em]veste
+    Touj\[Bm]ours du bon cô\[Em]té \[G]
+  \end{chorus}
+
+  \begin{repeatedchords}
+    \begin{verse}
+      Je \[G]n'ai pas peur des \[C]profiteurs
+      Ni \[Am]même des agitat\[Em]eurs
+      \[G]J'fais confiance aux \[C]électeurs
+      Et \[Am]j'en profite pour faire mon \[Em]beurre \[Bm]
+    \end{verse}
+
+    \begin{verse}
+      \[G]Je suis de tous \[C]les partis
+      Je \[Am]suis de toutes les \[Em]patries
+      \[G]Je suis de toutes les \[C]coteries
+      Je suis le \[Am]roi des conver\[Em]tis \[Bm]
+    \end{verse}
+
+    \begin{verse}
+      \[G]Je crie vive la ré\[C]volution
+      Je crie \[Am]vive les institu\[Em]tions
+      \[G]Je crie vive les mani\[C]festations
+      Je crie \[Am]vive la collabora\[Em]tion \[Bm]
+    \end{verse}
+
+    \begin{chorus}
+      \[G]Non jamais je \[C]ne conteste
+      Ni \[Am]revendique ni ne \[G]proteste
+      \[G]Je ne sais faire \[C]qu'un seul geste
+      Ce\[Am]lui de retourner ma \[Em]veste, de \[Am]retourner ma \[Em]veste
+      Touj\[Bm]ours du bon cô\[Em]té \[G]
+    \end{chorus}
+
+    \begin{verse}
+      \[G]Je l'ai tellement \[C]retournée
+      Qu'elle \[Am]craque de tous cô\[Em]tés
+      À \[G]la prochaine ré\[C]volution
+      Je re\[Am]tourne mon panta\[Em]lon \[Bm]
+    \end{verse}
+  \end{repeatedchords}
+
+\endsong

@@ -1,0 +1,84 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Les vieux mariés}
+  [by={Michel Sardou},cover={les-vieux-maries},album={Les vieux mariés},%
+  url={http://michelsardou.artiste.universalmusic.fr/site/}]
+
+  \cover
+  \gtab{E}{022100}
+  \gtab{B}{2:X02220}
+  \gtab{A}{X02220}
+  \gtab{F#m}{2:022000}
+  \gtab*{G#7}{4:020100}
+  \gtab{C#m}{4:X02210}
+  \gtab*{F#7}{2:020100}
+  \gtab{G#m}{4:022000}
+  \gtab*{C#7}{4:X02020}
+  \gtab*{F#m7}{2:020000}
+  \gtab*{B7}{2:X02020}
+
+  \begin{verse}
+  \[E]On vient de \[B]marier le der\[E]nier \[B]
+  \[E]Tous nos en\[A]fants sont désor\[E]mais heureux sans \[B]nous
+  \[F#m]{Ce soir} il \[G#7]{me vient} une i\[C#m]dée
+  Si l'on pen\[A]sait un peu à \[E]nous
+  \[F#7]{Un peu} à \[B]nous
+  \end{verse}
+
+  \begin{verse*}
+  \begin{repeatedchords}
+  \[E]On s'est tou\[B]jours beaucoup ai\[E]mé \[B]
+  \[E]Mais sans un \[A]jour pour vraiment \[E]{s'occuper} de \[B]nous
+  \[F#m]Alors il \[G#7]me vient une i\[C#m]dée
+  Si l'on par\[A]tait comme deux vieux \[E]fous
+  \end{repeatedchords}
+  \[B]Comme deux vieux \[E]fous
+  \end{verse*}
+
+  \begin{chorus}
+  \[E]On habiterait à l'hô\[A]tel
+  On prendrait le café au \[G#m]lit
+  \[C#7]{On choisirait} un petit hô\[F#m7]tel
+  Dans un jo\[B7]{li coin} du mi\[G#7]di
+  Ce soir il me vient des i\[C#m]dées
+  Ce soir il \[F#7]{me vient} des i\[B]dées
+  \end{chorus}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[E]On a tou\[B]jours bien travai\[E]llé \[B]
+  \[E]On a sou\[A]vent eu peur de \[E]{n'pas} y arri\[B]ver
+  \[F#m]Maintenant \[G#7]{qu'on} est tous les \[C#m]deux
+  Si l'on pen\[A]sait à être heu\[E]reux
+  \[F#7]À être heu\[B]reux
+  \end{verse}
+
+  \begin{verse*}
+  \[E]Tu m'as do\[B]nné de beaux en\[E]fants \[B]
+  \[E]Tu as le \[A]droit de te re\[E]poser mainte\[B]nant
+  \[F#m]Alors il \[G#7]me vient une i\[C#m]dée
+  Comme eux j'ai\[A]merais voya\[E]ger
+  \[B]Hum{\dots} voya\[E]ger
+  \end{verse*}
+
+  \begin{chorus}
+  \[E]Mais on irait beaucoup moins \[A]loin
+  On n'partirait que quelques \[G#m]jours
+  \[C#7]Et si tu me tiens bien la \[F#m7]main
+  Je te re\[B7]parlerai d'a\[G#7]mour
+  Ce soir il me vient des i\[C#m]dées
+  Ce soir il \[F#7]me vient des i\[B]dées
+  \end{chorus}
+  \end{repeatedchords}
+
+  \begin{verse}
+  \begin{repeatedchords}
+  \[E]Nous revi\[B]vrons nos jours heu\[E]reux \[B]
+  \[E]Et jusqu'au \[A]bout moi je ne \[E]verrai plus que \[B]toi
+  \[F#m]Le temps qui \[G#7]nous a rendu \[C#m]vieux
+  N'a pas chan\[A]gé mon cœur pour \[E]ça
+  \end{repeatedchords}
+  \[B7]Mon cœur pour \[E]ça
+  \end{verse}
+
+\endsong

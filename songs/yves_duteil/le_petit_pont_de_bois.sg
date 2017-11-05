@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Le petit pont de bois}
-  [by={Yves Duteil},cov={la-tarantelle},album={La tarantelle}]
+  [by={Yves Duteil},cover={la-tarantelle},album={La tarantelle}]
 
   \cover
   \gtab{D}{XX0232}
@@ -24,7 +24,7 @@
     Le \[B7]petit pont de \[Em]bois
     Qui \[A7]ne tenait plus \[D]guère
     Que \[Bm]par un grand mys\[E7]tère
-    Et \[A7]deux piquets tout \[D]droits
+    Et \[E7]deux piquets tout \[A7]droits
   \end{verse*}
 
   \begin{verse*}

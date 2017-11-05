@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{2}
 \beginsong{Yesterday}
-  [by={The Beatles},cov={1},album={1}]
+  [by={The Beatles},cover={1},album={1}]
 
   \cover
   \gtab{C}{X32010}
@@ -9,12 +9,13 @@
   \gtab{Am}{X02210}
   \gtab{F}{1:022100}
   \gtab{G7}{320001}
+  \gtab{D}{XX0232}
 
   \begin{verse}
     \[C]Yesterday
-    \[E7]All my troubles seemed so \[Am]far away
+    \[Bm] All my \[E7]troubles seemed so \[Am]far away \[G]
     \[F]Now it \[G7]seems as though they're \[C]here to stay
-    Oh, \[Am]I be\[F]lieve in \[C]yesterday
+    Oh, \[Am]I be\[D]lieve in \[F]yester\[C]day
   \end{verse}
 
   \begin{verse}
@@ -25,9 +26,9 @@
   \end{verse}
 
   \begin{chorus}
-    \[E7]Why she \[Am]had \[E7]to g\[Am]o
+    \[E7]Why she \[Am]had \[G]to g\[F]o
     I don't \[G7]know, she wouldn't \[C]say
-    \[E7]I said \[Am]some\[E7]thing \[Am]wrong
+    \[E7]I said \[Am]some\[G]thing \[F]wrong
     Now I \[G7]long for yester\[C]day
   \end{chorus}
 
@@ -38,11 +39,10 @@
     Oh, I believe in yesterday
   \end{verse}
 
+  \musicnote{\Chorus, \Verse{} 3}
+
   \begin{verse}
-    Yesterday
-    Love was such an easy game to play
-    Now I need a place to hide away
-    Oh, I believe in yesterday
-  \end{verse}
+  \[C]hmmm hmmm \[D7]hmmm hmmm \[F]hmmm hmmm \[C]hmmm
+  \end{verse}  
 
 \endsong

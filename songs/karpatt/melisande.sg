@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mélisande}
-  [by={Karpatt},cov={dans-d-beaux-draps},album={Dans d'beaux draps},%
+  [by={Karpatt},cover={dans-d-beaux-draps},album={Dans d'beaux draps},%
   url={http://www.karpatt.net}]
 
   \cover
@@ -10,8 +10,6 @@
   \gtab{E7}{020100}
   \gtab{A7}{X02020}
   \gtab{Dm}{XX0231}
-  \gtab{D7}{XX0212}
-  \gtab{G7}{3:020100}
   \gtab{C}{X32010}
   \gtab{G}{320003}
   \gtab{F}{1:022100}
@@ -20,7 +18,7 @@
     Elle s'a\[Am]ppelait Mélisande
     Elle habitait p't être à Nantes
     À Bordeaux ou à Nan\[E7]cy
-    J'ai la mémoire qui flanche
+    J'ai \[E7]la mémoire qui flanche
     Les neurones pas étanches
     Mais j'me rappelle d'un détail pré\[Am]cis
   \end{verse}
@@ -31,13 +29,13 @@
     C'est \[A7]pas si mal, finalement j'me \[Dm]dis
     Il en reste quelque \[Am]chose
     Un \[E7]truc qui en im\[Am]pose
-    Un \[D7]chef d'œuvre de l'anato\[G7]mie
+    Un \[Dm]chef d'œuvre de l'\[B7]anato\[E7]mie
   \end{verse*}
 
   \begin{chorus}
     Elle avait des \[C]seins gros comme des melons
-    Et moi, j'tâtais et moi j'tâtais la marchan\[G]dise
-    Elle était \[F]belle comme un ca\[C]mion
+    Et moi, j'tâtais et moi j'tâtais la marchan\[Dm]dise
+    Elle était \[F]belle \[G]comme un ca\[C]mion
     Comme une guir\[G]lande, une frian\[C]dise
   \end{chorus}
 

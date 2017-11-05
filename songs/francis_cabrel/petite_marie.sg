@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Petite Marie}
-  [by={Francis Cabrel},cov={les-murs-de-poussiere},album={Les murs de poussière}]
+  [by={Francis Cabrel},cover={les-murs-de-poussiere},album={Les murs de poussière}]
 
   \cover
   \gtab{Em}{022000}
@@ -37,7 +37,7 @@
     Qui fait jouer ses \[A]mains
     Sur un morceau de \[F#m]bois
     De leur a\[G]mour
-    Plus bleu que \[A]le ciel autour\[Bm]
+    Plus bleu que \[A]le ciel autour\[Bm] \[F#] \[D] \[E]
   \end{chorus}
 
   \begin{verse}
@@ -58,7 +58,7 @@
 
   \begin{verse}
     Dans la \[Bm]pénombre de ta \[F#]rue
-    Petite \[D]Marie m'entends-\[Em]{tu ?}
+    Petite \[D]Marie m'entends-\[E]{tu ?}
     Je n'a\[G]ttends plus que \[D]toi, pour \[A]partir
   \end{verse}
 \endsong

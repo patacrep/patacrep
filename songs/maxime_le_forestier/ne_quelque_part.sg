@@ -1,0 +1,110 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Né quelque part}
+  [by={Maxime Le Forestier},cover={ne-quelque-part},album={Né quelque part},%
+  url={http://www.maximeleforestier.net/}]
+
+  \cover
+  \gtab{Em}{022000}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{Am}{X02210}
+  \gtab{A}{X02220}
+
+  \begin{verse*}
+  \musicnote{\Intro : \nolyrics{\[Em C D Am]} \rep{2}}
+  \end{verse*}
+
+  \begin{verse}
+  \[Em]On choisit pas ses pa\[C]rents
+  On choisit pas sa fa\[D]mille \[Am]
+  \[Em]On choisit pas non \[C]plus
+  Les trottoirs de Ma\[D]nille
+  De Paris ou d'Al\[Am]ger
+  Pour apprendre à mar\[Em]cher \[Am]
+  Être né quelque \[D]part \[Am]
+  \end{verse}
+
+  \begin{verse*}
+  \[Em]Être né quelque \[Am]part
+  Pour celui qui est né
+  \[D]C'est toujours un ha\[Am]sard
+  \[Em]Nom'inq\[A]wando yes qwag iqwaha\[Em]sa \[A] \rep{2}
+  \end{verse*}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[Em]Y'a des oiseaux de basse \[C]cour
+  Et des oiseaux de pas\[D]sage \[Am]
+  \[Em]Ils savent où sont leur \[C]nids
+  Qu'ils rentrent de vo\[D]yage
+  Ou qu'ils restent chez \[Am]eux
+  Ils savent où sont leur \[Em]œufs \[Am]
+  Être né quelque \[D]part \[Am]
+  \end{verse}
+
+  \begin{verse*}
+  \[Em]Être né quelque \[Am]part
+  C'est partir quand on veut
+  \[D]Revenir quand on \[Am]part
+  \[Em]Nom'inq\[A]wando yes qwag iqwaha\[Em]sa \[A] \rep{2}
+  \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+  \[Em]{Est-ce} que les gens \[A]naissent égaux en \[Em]droits
+  \[A]À l'endroit où il \[Em]naissent
+  \[Em]Nom'inq\[A]wando yes qwag iqwaha\[Em]sa \[A]
+  \end{chorus}
+
+  \begin{chorus}
+  \[Em]{Est-ce} que les gens \[A]naissent égaux en \[Em]droits
+  \[A]À l'endroit où il \[Em]naissent
+  Que les gens \[A]naissent pareils ou \[Em]pas ?
+  \[C]Abantwana ba\[Am]yagxu\[D]ma, \[C]becahse\[Am]lana be\[D]xoxa
+  \end{chorus}
+
+  \begin{repeatedchords}
+  \begin{verse}
+  \[Em]On choisit pas ses pa\[C]rents
+  On choisit pas sa fa\[D]mille \[Am]
+  \[Em]On choisit pas non \[C]plus
+  Les trottoirs de Ma\[D]nille
+  De Paris ou d'Al\[Am]ger
+  Pour apprendre à mar\[Em]cher \[Am]
+  Je suis né quelque \[D]part \[Am]
+  \end{verse}
+
+  \begin{verse*}
+  \[Em]Je suis né quelque \[Am]part
+  Laissez moi ce repère
+  \[D]Ou je perds la mé\[Am]moire
+  \[Em]Nom'inq\[A]wando yes qwag iqwaha\[Em]sa \[A] \rep{3}
+  \end{verse*}
+  \end{repeatedchords}
+
+  \begin{chorus}
+  \begin{repeatedchords}
+  \[Em]{Est-ce} que les gens \[A]naissent égaux en \[Em]droits
+  \[A]À l'endroit où il \[Em]naissent
+  Que les gens \[A]naissent pareils ou \[Em]pas ?
+  \end{repeatedchords}
+  Buka \[C]naba be\[D]xoshana
+  \begin{repeatedchords}
+  \[Em]Nom'inq\[A]wando yes qwag iqwaha\[Em]sa \[A] \rep{2}
+  \end{repeatedchords}
+  \end{chorus}
+
+  \begin{chorus}
+  \begin{repeatedchords}
+  \[Em]{Est-ce} que les gens \[A]naissent égaux en \[Em]droits
+  \[A]À l'endroits où il \[Em]naissent
+  Que les gens \[A]naissent pareils ou \[Em]pas ?
+  \end{repeatedchords}
+  Buka \[C]naba be\[D]xoshana
+  \begin{repeatedchords}
+  \[Em]Nom'inq\[A]wando yes qwag iqwaha\[Em]sa \[A] \rep{3}
+  \end{repeatedchords}
+  \end{chorus}
+
+\endsong

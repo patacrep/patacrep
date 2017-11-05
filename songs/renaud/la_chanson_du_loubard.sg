@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{La chanson du loubard}
-  [by={Renaud},album={Laisse Béton},cov={laisse-beton}]
+  [by={Renaud},album={Laisse Béton},cover={laisse-beton}]
 
   \cover
   \gtab{Em}{022000}

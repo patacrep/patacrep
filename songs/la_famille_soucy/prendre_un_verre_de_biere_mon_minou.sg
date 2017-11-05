@@ -1,0 +1,42 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Prendre un verre de bière mon minou}
+  [by={La famille Soucy},cover={la-famille-soucy},album={La famille Soucy}]
+
+  % Album : La Famille Soucy (1958, RCA Victor, LCP 3004)
+
+  \cover
+  \gtab{A}{002220}
+  \gtab{E}{022100}
+
+  \begin{chorus}
+    \[A]Prendre un verre de bière mon \[E]minou
+    Prendre un verre de bière ras'l'\[A]trou
+    Tu \[A]prends ta \[E]bière
+    Tu \[A]m'en donnes \[E]pas
+    J'te \[A]fais des belles fa\[E]çons
+    J'te \[A]chante des belles chan\[E]sons
+    Donne-moi en \[A]donc!
+  \end{chorus}
+
+  \begin{verse}
+    \[A]La vie est affreuse, remplie de cha\[E]grin
+    Pour la rendre heureuse, il faut boire un p'tit \[A]brin
+  \end{verse}
+
+  \begin{verse}
+    Saoûl hier à soir et pis saoûl l'soir d'avant
+    Saoûl encore à soir et pis saoûl tout le temps
+  \end{verse}
+
+  \begin{verse}
+    J'ai entendu dire, j'sais pas si c'est vrai
+    Qu'un homme qui prend d'la bière n'a pas besoin d'gob'let
+  \end{verse}
+
+  \begin{verse}
+    Ma femme a gueulé et pis elle m'a battu
+    Quand j'm'ai réveillé, j'y ai répondu
+  \end{verse}
+
+\endsong

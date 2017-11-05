@@ -1,0 +1,105 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Chanson cloche}
+  [by={Fred Pellerin},cover={c-est-un-monde},album={C'est un monde}]
+
+  \cover
+  \gtab{Dm}{5:002210}
+  \gtab{Gm}{3:022000}
+  \gtab{G#}{4:022100}
+  \gtab{A}{5:022100}
+  \gtab{A#}{6:022100}
+
+  \begin{verse*}
+    \musicnote{\Intro : \nolyrics \[Dm Dm A Dm] -- \[Dm Dm A] break}
+  \end{verse*}
+
+  \begin{verse}
+    \[Dm]{Il manquera} souvent d'un ingrédient
+    \[Gm]Pour réussir la re\[A]cette
+    \[Dm]{On oubliera} occasionnellement
+    D'ache\[Gm]ter \[G#]du \[A]sel, du pain, du poivre
+    De la mélasse, de la vinai\[Dm]grette \[Dm A Dm]
+
+    \musicnote{\nolyrics \[Dm Dm A] break}
+  \end{verse}
+
+  \begin{verse*}
+    \[Dm]{Il manquera} souvent une personne
+    \[Gm]{Au rendez-vous} fort impor\[A]tant
+    Et \[Dm]quand sonnera le téléphone
+    Ce \[Gm]se\[G#]ra \[A]elle qui vous dira j'm'excuse, hélas
+    Je manque toujours un peu de \[Dm]temps \[Dm A Dm]
+  \end{verse*}
+
+  \begin{chorus}
+    Y'a \[Dm]souvent un petit manque
+    Y'a \[Gm]souvent un petit quelque \[A#]cho\[A]se, qui \[A# A]
+    Y'a \[Dm]souvent un petit manque
+    Y'a \[Gm]souvent un petit quelque \[A#]cho\[A]se qui \[A#]clo\[A]che \[A# A]
+  \end{chorus}
+
+  \begin{verse*}
+    \musicnote{\nolyrics \[Dm Dm A Dm] -- \[Dm Dm A] break}
+  \end{verse*}
+
+  \begin{verse}
+    Et quand s'agitent les hormones
+    Il faut pas s'en faire un complexe
+    C'est sûr qu'au moindre souffle, on frissonne
+    Ce n'est pas un manque de drogue, ni d'alcool
+    C'est surtout z'un manque de sssssssss
+  \end{verse}
+
+  \begin{verse*}
+    Si après plusieurs nuits d'aventures
+    Des nuits de caresses et de velours
+    L'état de manque persiste et dure
+    Alors c'est pas un manque de peau, de fesses frivoles
+    C'est surtout z'un manque d'amour
+  \end{verse*}
+
+  \musicnote{\Chorus{} puis instrumental}
+
+  \begin{verse}
+    Quand on travaille pas, c'est bien connu
+    On dispose de beaucoup beaucoup de temps
+    Pour s'amuser, courir les rues
+    On ne manque pas d'soleil ni d'liberté
+    Non mais on manque souvent d'argent
+  \end{verse}
+
+  \begin{verse*}
+    Quand on s'est couché très tard la nuit
+    Sans se soucier du réveil
+    C'est sûr qu'au lendemain, y a quelqu'un qui t'dit
+    À t'voir les cernes sous les yeux, c'est évident
+    Tu manques de sommeil
+  \end{verse*}
+
+  \begin{verse}
+    Même avec désir et concentration
+    Même avec les prières de la bible
+    Qu'on soit prophète ou grand champion
+    Il y a souvent soudainement un p'tit coup de vent
+    Qui nous fait manquer la cible
+  \end{verse}
+
+  \begin{verse*}
+    Quand on détruit les essentiels
+    Pour les caprices de la finance
+    On crache du noir dans le bleu du ciel
+    On gueule avec une honteuse fierté
+    Notre manque de cohérence
+  \end{verse*}
+
+  \musicnote{\Chorus{} \rep{2}}
+
+  \begin{chorus}
+    Et c'est pour \[Dm]ça
+    Oui qu'ici-\[Gm]bas
+    La perfec\[A]tion
+    N'existe \[Dm]pas
+  \end{chorus}
+
+\endsong

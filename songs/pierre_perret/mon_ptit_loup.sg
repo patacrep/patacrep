@@ -1,29 +1,30 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Mon p'tit loup}
-  [by={Pierre Perret},cov={pierrot-l-amour},album={L'amour}]
+  [by={Pierre Perret},cover={pierrot-l-amour},album={L'amour}]
 
   \cover
+  \capo{1}
   \gtab{Am}{X02210}
   \gtab{Dm}{XX0231}
   \gtab{G}{320003}
 
   \begin{chorus}
-    \[Am]T'en fais pas, \[Dm]mon p'tit loup
-    \[G]C'est la vie, \[Dm]ne pleure pas
-    \[Am]Tu oublieras, \[Dm]mon p'tit loup
-    \[Am]Ne pleure pas
+    \[Am]T'en fais pas, \[Dm]{mon p'tit} loup
+    \[G]C'est la vie, \[Dm]{ne pleure} pas
+    \[Am]{Tu oublieras}, \[Dm]{mon p'tit} loup
+    \[Am]{Ne pleure} pas
   \end{chorus}
 
   \begin{verse}
-    \[Am] Je t'amènerai sécher tes larmes
-    Au vent des \[Dm]quatre points cardin\[Am]aux
-    Respirer la violette à Parme
-    Et les é\[Dm]pices à \[G]Colom\[C]bo
-    \[Am]On verra le fleuve Amaz\[Am]one
-    Et la vall\[Dm]ée des Orchi\[Am]dées
-    Et les enfants qui ne savonnent
-    Le ventre \[Dm]avec des fleurs coup\[Am]ées
+    \[Am] Je t'amènerai sécher tes \[Dm]larmes
+    Au vent des \[G]quatre points cardi\[Am]naux
+    Respirer la violette à \[Dm]Parme
+    Et les é\[G]pices à Colom\[C]bo
+    On ver\[Am]{ra le} fleuve Amaz\[Am]one
+    Et la vall\[Dm]{ée des} Orchi\[Am]dées
+    Et les enfants qui se sa\[Dm]vonnent
+    Le ventre \[G]avec des fleurs coup\[Am]ées
   \end{verse}
 
   \begin{verse}
@@ -78,7 +79,7 @@
   \end{chorus}
 
   \begin{chorus}
-    T'en tais pas, mon p'tit loup
+    T'en fais pas, mon p'tit loup
     C'est la vie, ne pleure pas
     J't'en supplie, mon p'tit loup
     Ne pleure pas

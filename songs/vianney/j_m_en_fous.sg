@@ -1,0 +1,63 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{J'm'en fous}
+  [by={Vianney},cover={vianney-vianney},album={Vianney}]
+
+  \cover
+  \capo{4}
+  \gtab{Am7}{X02010}
+  \gtab{Am}{X02210}
+  \gtab{C}{X32010}
+  \gtab{G}{320033}
+  \gtab{F}{133211}
+  \gtab{Em*}{022010}
+  \gtab{Em}{022000}
+
+  \musicnote{\Intro :{\[Am7 F C G}\rep{2}}
+  
+  \begin{verse}
+  \[F]	Il y a des mai\[G]sons qui ne s'assemblent \[C]pas	\[C]
+  \[F]	Il y a des mai\[G]sons qui ne se ressemblent \[C]pas	\[C]
+  \[F]	Et mille autres rai\[G]sons qui font que tu n'as \[Am]plus	\[Am]
+  \[F]	Le coeur à l'hori\[C]zon, à ce qu'on a vé\[G]cu	\[G]
+  \end{verse}
+
+  \begin{chorus}
+  J'm'en \[C]fous même si demain
+  Ne sera \[G]jamais aussi bien que \[Am]nous
+  Et que l'amour au ma\[Em*]tin	\[Em]
+  J'm'en \[F]fous car mille fois
+  J'ai pu \[C/G]serrer de mes doigts
+  Ta \[G]main	\[G]
+	
+  J'm'en \[C]fous puisque la mer
+  A pu \[G]me chanter des airs
+  Si \[Am]doux
+  Que le monde est un \[Em*]refra\[Em]in
+  Dont la \[F]beauté est un rêve 
+  Qui él\[C/G]oigne mes galères
+  Au \[G]loin  \[G]
+  \end{chorus}
+  \musicnote{\nolyrics{\[Am C G F]}\rep{2}}
+  \musicnote{\nolyrics{\[Am7 F C G]}\rep{2}}
+  \musicnote{\Chorus}
+  
+  \begin{verse}
+  \[F]	Il y a cette chan\[G]son qu'on ne finira \[C]pas	\[C]
+  \[F]	Laissée à l'aban\[G]don comme un cheval de \[C]bois	\[C]
+  \[F]	On a fait des bal\[G]ades et l'on fit les bal\[Am]ourts	\[Am]
+  \[F]	A déposer les \[C]armes avant le premier \[G]tour	\[G]
+  \end{verse}
+  
+  \musicnote{\Chorus}
+	
+  \begin{verse}
+  \[F]	On se fait des gren\[G]iers où ranger nos hist\[C]oires	\[C]
+  \[F]	Les chagrins les reg\[G]rets et notre faux-dé\[C]part	\[C]
+  \[F]	Et malgré la pouss\[G]ière qui viendra les couv\[Am]rir	\[Am]
+  \[F]	Nos moments reste\[C]ront jolis à en mou\[G]rir	\[G]
+  \end{verse}
+
+  \musicnote{\Chorus}
+
+\endsong

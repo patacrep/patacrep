@@ -1,7 +1,7 @@
 \selectlanguage{french}
 \songcolumns{2}
 \beginsong{Alouette}
-  [by={Gilles Dreu},cov={alouette},album={Alouette}]
+  [by={Gilles Dreu},cover={alouette},album={Alouette}]
 
   \cover
   \gtab{Em}{022000}

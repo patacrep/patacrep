@@ -1,0 +1,93 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{San Francisco}
+  [by={Maxime Le\ Forestier},cover={mon-frere},album={Mon frère}]
+
+
+  \cover
+  \capo{1}
+  \gtab{Em}{022000}
+  \gtab{G}{320003}
+  \gtab{Bm}{2:X02210}
+  \gtab{C}{X32010}
+  \gtab{D}{XX0232}
+  \gtab{A}{X02220}
+
+
+  \begin{verse}
+    \[Em] C'est une maison \[G]bleue
+    \[Bm] Adossée à la co\[C]lline
+    On y vient à pied
+    \[G]On ne frappe pas
+    \[D]Ceux qui vivent là
+    Ont jeté la \[C]clé \[Em]
+  \end{verse}
+
+  \begin{verse*}
+    \[Em] On se retrouve en\[G]semble
+    \[Bm] Après des années de \[C]route
+    Et on vient s'assoir
+    \[G]Autour d'un repas
+    \[D]Tout le monde est là
+    À cinq heures du \[A]soir \[Em]
+  \end{verse*}
+
+  \begin{chorus}
+    Quand \[Em]San Franci\[G]sco s'em\[A]brume
+    Quand \[A]San Franci\[C]sco s'a\[D]llu\[Em]me
+    San Franci\[Bm]sco
+    Où êtes-\[Em]vous
+    \[G]Luzon et \[A]Luc, \[C]Psylvia
+    \[D]Attendez-\[Em]moi
+  \end{chorus}
+
+  \begin{verse}
+    Nageant dans le brouillard
+    Enlacés roulant dans l'herbe
+    On écoutera
+    Tom à la guitare
+    Phil à la kéna
+    Jusqu'à la nuit noire
+  \end{verse}
+
+  \begin{verse*}
+    Un autre arrivera
+    Pour nous dire des nouvelles
+    D'un qui reviendra
+    Dans un an ou deux
+    Puisqu'il est heureux
+    On s'endormira
+  \end{verse*}
+
+  \begin{chorus}
+    Quand San Francisco se lève \rep{2}
+    \dots
+  \end{chorus}
+
+  \begin{verse}
+    C'est une maison bleue
+    Accrochée à ma mémoire
+    On y vient à pied
+    On ne frappe pas
+    Ceux qui vivent là
+    Ont jeté la clé
+  \end{verse}
+
+  \begin{verse*}
+    Peuplée de cheveux longs
+    De grands lits et de musique
+    Peuplée de lumière
+    Et peuplée de fous
+    Elle sera dernière
+    À rester debout
+  \end{verse*}
+
+  \begin{chorus}
+    Si San Francisco s'effondre \rep{2}
+    \dots
+  \end{chorus}
+
+\endsong
+
+
+

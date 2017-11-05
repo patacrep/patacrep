@@ -1,7 +1,7 @@
 \selectlanguage{english}
 \songcolumns{1}
 \beginsong{Always look on the bright side of life}
-  [by={Monty Python},cov={life-of-brian},album={Life of Brian}]
+  [by={Monty Python},cover={life-of-brian},album={Life of Brian}]
 
   \cover
   \gtab{Am}{X02210}

@@ -1,0 +1,68 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je t'ai manqué}
+  [by={Alain Bashung},album={Bleu Pétrole}]
+
+  \capo{5}
+  \gtab{Am}{002210}
+  \gtab{E}{022100}
+  \gtab{C}{032010}
+  \gtab{G}{320003}
+  \gtab{Dsus2}{002230}
+  \gtab{D9}{032030}
+
+  \begin{chorus}
+    \[Am]
+    \[E]Je t'ai manqué ?
+    \[C]Pourquoi \[G]tu me visais\[Am] \[Dsus2] \[C] \[D9]
+  \end{chorus}
+
+  \begin{verse}
+    \[Am]Tous nos échanges coulaient de source
+    \[C]Tous nos mélanges \[G]cotés en b\[Am]ourse \[Dsus2] \[C] \[D9]
+    \[Am]Tout est brutal, botté en touche
+    \[C]Tout à l'horizontal
+    \[G]Nos envies, nos amours, nos héros\[Am] \[Dsus2] \[C] \[D9]
+  \end{verse}
+
+\begin{repeatedchords}
+  \begin{verse}
+    \[Am]Tout est extrêmes limites et cônes glacés
+    \[C]Tout est idem, les vitrin\[G]es, les pôles opposés\[Am] \[Dsus2] \[C] \[D9]
+    \[Am]Dans les étoiles ou sous la douche
+    \[C]Tout à l'horizontal
+    \[G]Nos envies, nos amours, nos héros\[Am] \[Dsus2] \[C] \[D9]
+  \end{verse}
+\end{repeatedchords}
+
+  \begin{bridge}
+    \[Am]Et si l'on disait le \[G]contraire
+    Ou si l'on ne \[Am]disait rien
+    Si l'on construisait les \[G]phrases à l'envers
+    Ou si l'on \[Am]soulevait demain
+    Qui serait l'\[G]adversaire ?
+    Entre nous qui se\[Am]rait le plus malin ?
+    Et si l'on disait le c\[G]ontraire
+    Ou si l'on ne di\[Am]sait plus rien ? \[Dsus2] \[C] \[D9]
+  \end{bridge}
+
+  \begin{verse}
+    \[Am]Tout est brutal botté en touche
+    \[C]Tout à l'horizontal
+    \[G]Nos envies, nos amours, nos héros\[Am] \[Dsus2] \[C] \[D9]
+  \end{verse}
+
+\begin{repeatedchords}
+  \begin{bridge}
+    \[Am]Si l'on suivait les voies\[G] ferroviaires
+    Qui aurait le \[Am]pied marin ?
+    Si l'on sifflait le fond d\[G]es théières
+    Ou si l'on ne si\[Am]fflait plus !
+    Qui serait l'\[G]adversaire ?
+    Entre nous qui se\[Am]rait le plus malin ?
+    Et si l'on disait le con\[G]traire
+    Ou si l'on ne di\[Am]sait plus rien ? \[Dsus2] \[C] \[D9]
+  \end{bridge}
+\end{repeatedchords}
+
+\endsong

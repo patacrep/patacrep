@@ -325,4 +325,5 @@ def iter_bookoptions(config):
         elif config['chords']['diagrampage'] == "all":
             yield 'diagrampage'
 
-        yield config['chords']['instrument']
+        for instrument in config['chords']['instrument'].split("+"):
+            yield instrument

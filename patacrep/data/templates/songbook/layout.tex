@@ -25,6 +25,31 @@
 %%
 %% Generated using Songbook <http://www.patacrep.com>
 
+(* variables *)
+schema:
+  type: //rec
+  optional:
+    display:
+      type: //arr
+      contents: //str
+default:
+  en:
+    display:
+      - "Title"
+      - "Preface"
+      - "Index"
+      - "Chords"
+      - "Songs"
+      - "Postface"
+description:
+  en:
+    display: "Ordinate list of section to display"
+  fr:
+    display: "Liste ordonnée des sections à afficher"
+(* endvariables -*)
+
+(*- set layout_var = _template["layout.tex"] -*)
+
 \makeatletter
 \def\input@path{ %
     (* for dir in _datadir|iter_datadirs *)
@@ -47,25 +72,30 @@
 (* block preambule *)
 (* endblock preambule *)
 
+\gdef\LayoutTitle{%
+(* block title *)
+(* endblock *)}
+\gdef\LayoutPreface{%
+(* block preface *)
+(* endblock *)}
+\gdef\LayoutIndex{%
+(* block index *)
+(* endblock *)}
+\gdef\LayoutChords{%
+(* block chords *)
+(* endblock *)}
+\gdef\LayoutSongs{%
+(* block songs *)
+(* endblock *)}
+\gdef\LayoutPostface{%
+(* block postface *)
+(* endblock *)}
+
 \begin{document}
 
-(* block title *)
-(* endblock *)
-
-(* block preface *)
-(* endblock *)
-
-(* block index *)
-(* endblock *)
-
-(* block chords *)
-(* endblock *)
-
-(* block songs *)
-(* endblock *)
-
-(* block postface *)
-(* endblock *)
+(* for block in layout_var.display *)
+\Layout(( block ))
+(* endfor *)
 
 \end{document}
 

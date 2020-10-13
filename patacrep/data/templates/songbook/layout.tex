@@ -31,7 +31,21 @@ schema:
   optional:
     display:
       type: //arr
-      contents: //str
+      contents:
+        type: //any
+        of:
+          - type: //str
+            value: "Title"
+          - type: //str
+            value: "Preface"
+          - type: //str
+            value: "Index"
+          - type: //str
+            value: "Chords"
+          - type: //str
+            value: "Songs"
+          - type: //str
+            value: "Postface"
 default:
   en:
     display:
@@ -43,7 +57,7 @@ default:
       - "Postface"
 description:
   en:
-    display: "Ordinate list of section to display"
+    display: "Ordered list of section to display"
   fr:
     display: "Liste ordonnée des sections à afficher"
 (* endvariables -*)

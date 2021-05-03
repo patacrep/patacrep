@@ -74,7 +74,7 @@ def parse(keyword, config, argument):
                 filepath,
                 encoding=config['book']['encoding']
                 ) as content_file:
-                new_content = yaml.load(content_file)
+                new_content = yaml.safe_load(content_file)
         except Exception as error: # pylint: disable=broad-except
             new_contentlist.append_error(ContentError(
                 keyword="include",

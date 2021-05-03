@@ -238,7 +238,7 @@ def validate_parser_argument(raw_schema):
 
     Will raise `ContentError` if the schema is not respected.
     """
-    schema = Rx.make_schema(yaml.load(raw_schema))
+    schema = Rx.make_schema(yaml.safe_load(raw_schema))
 
     def wrap(parse):
         """Wrap the parse function"""

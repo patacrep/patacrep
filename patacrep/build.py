@@ -380,6 +380,6 @@ def config_model(key):
     """
     model_path = pkg_datapath('templates', 'songbook_model.yml')
     with encoding.open_read(model_path) as model_file:
-        data = yaml.load(model_file)
+        data = yaml.safe_load(model_file)
 
     return data.get(key, {})

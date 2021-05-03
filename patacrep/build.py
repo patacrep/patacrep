@@ -40,7 +40,7 @@ class Songbook:
 
     def __init__(self, raw_songbook, basename):
         # Validate config
-        schema = config_model('schema')
+        schema = config_model('schema', alt_dir=raw_songbook['_datadir'][0])
 
         try:
             utils.validate_yaml_schema(raw_songbook, schema)
@@ -370,16 +370,29 @@ class SongbookBuilder:
                     raise errors.CleaningError(self.basename + ext, exception)
 
 
-def config_model(key):
+def config_model(key, alt_dir=None):
     """Get the model structure
 
     key can be:
         - schema
         - default
         - description
+
+    If alt_dir is specified, the schema is loaded from
+    `alt_dir`/templates/songbook_model.yaml if found.
+
     """
+    # default songbook model
     model_path = pkg_datapath('templates', 'songbook_model.yml')
+
+    # when alt_dir is specified, try to load songbook model from there
+    alt_path = None
+    if alt_dir:
+        alt_path = os.path.join(alt_dir, 'templates', 'songbook_model.yml')
+        if os.path.isfile(alt_path):
+            model_path = alt_path
+
     with encoding.open_read(model_path) as model_file:
-        data = yaml.load(model_file)
+        data = yaml.safe_load(model_file)
 
     return data.get(key, {})

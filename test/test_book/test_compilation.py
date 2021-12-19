@@ -166,7 +166,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
         """Compile songbook "on the fly": without a physical songbook file."""
 
         with open(base + ".yaml", mode="r", encoding="utf8") as sbfile:
-            sbyaml = yaml.load(sbfile)
+            sbyaml = yaml.safe_load(sbfile)
 
         outputdir = os.path.dirname(base)
         outputname = os.path.basename(base)

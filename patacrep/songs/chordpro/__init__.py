@@ -6,7 +6,7 @@ import os
 import urllib
 
 from jinja2 import Environment, FileSystemLoader, ChoiceLoader
-from jinja2 import contextfunction
+from jinja2 import pass_context
 import jinja2
 
 from patacrep import encoding, files, pkg_datapath
@@ -88,7 +88,7 @@ class ChordproSong(Song):
             raise NotImplementedError("Cannot convert to format '{}'.".format(self.output_language))
 
     @staticmethod
-    @contextfunction
+    @pass_context
     def _render_ast(context, content):
         """Render ``content``."""
         # context is readonly: create a copy before overriding the 'content' key

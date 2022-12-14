@@ -47,7 +47,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             """Test that `base.source` produces the correct file list"""
             sourcename = "{}.source".format(base)
             with open(sourcename, mode="r", encoding="utf8") as sourcefile:
-                sbcontent = yaml.load(sourcefile)
+                sbcontent = yaml.safe_load(sourcefile)
 
             outputdir = os.path.dirname(base)
             config = cls._generate_config(sbcontent, outputdir, base)
@@ -60,7 +60,7 @@ class FileTest(unittest.TestCase, metaclass=dynamic.DynamicTest):
             if not os.path.exists(controlname):
                 raise Exception("Missing control:" + str(controlname).replace("'", '"'))
             with open(controlname, mode="r", encoding="utf8") as controlfile:
-                controllist = yaml.load(controlfile)
+                controllist = yaml.safe_load(controlfile)
 
             self.assertEqual(controllist, sourcelist)
 

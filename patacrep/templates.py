@@ -240,7 +240,8 @@ class TexBookRenderer(Renderer):
                 variables[templatename] = {}
             for variables_string in match:
                 try:
-                    variables[templatename].update(yaml.load(variables_string))
+                    variables[templatename].update(
+                        yaml.safe_load(variables_string))
                 except ValueError as exception:
                     raise errors.TemplateError(
                         exception,

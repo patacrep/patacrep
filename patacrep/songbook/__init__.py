@@ -26,13 +26,13 @@ def open_songbook(filename):
 
     try:
         with patacrep.encoding.open_read(filename) as songbook_file:
-            user_songbook = yaml.load(songbook_file)
+            user_songbook = yaml.safe_load(songbook_file)
         if 'encoding' in user_songbook.get('book', []):
             with encoding.open_read(
                 filename,
                 encoding=user_songbook['book']['encoding']
                 ) as songbook_file:
-                user_songbook = yaml.load(songbook_file)
+                user_songbook = yaml.safe_load(songbook_file)
     except Exception as error: # pylint: disable=broad-except
         raise patacrep.errors.SongbookError(str(error))
 

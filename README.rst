@@ -74,7 +74,7 @@ The full documentation is hosted by readthedoc, here : http://patacrep.readthedo
 Contact & Forums
 ----------------
 
-* http://www.patacrep.com/forum
+* https://github.com/patacrep/patacrep/issues
 
 .. |documentation| image:: http://readthedocs.org/projects/patacrep/badge
   :target: http://patacrep.readthedocs.org

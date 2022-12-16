@@ -202,7 +202,7 @@ class EmptyContentList(ContentList):
         for error in errors:
             self.append_error(error)
 
-@jinja2.contextfunction
+@jinja2.pass_context
 def render(context, content):
     """Render the content of the songbook as a LaTeX code.
 

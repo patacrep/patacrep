@@ -4,44 +4,41 @@
 
 $ python setup.py install
 """
-from patacrep import __version__
+from patacrep import __version__, __DATADIR__
 
 from setuptools import setup, find_packages
 import os
-import sys
+
 
 setup_kwargs = {
     'setup_requires': [],
     }
 
-if sys.platform[0:3] == 'win':
-    from patacrep import __DATADIR__
 
-    def recursive_find(root_directory):
-        """Recursively find files from a root_directory.
+def recursive_find(root_directory):
+    """Recursively find files from a root_directory.
 
-        Return a list of files matching those conditions.
+    Return a list of files matching those conditions.
 
-        Arguments:
-        - `root_directory`: root directory of the search.
-        """
-        if not os.path.isdir(root_directory):
-            return
+    Arguments:
+    - `root_directory`: root directory of the search.
+    """
+    if not os.path.isdir(root_directory):
+        return
 
-        olddir = os.getcwd()
-        os.chdir(root_directory)
-        for root, _, filenames in os.walk(os.curdir):
-            for filename in filenames:
-                yield os.path.join(root, filename)
-        os.chdir(olddir)
+    olddir = os.getcwd()
+    os.chdir(root_directory)
+    for root, _, filenames in os.walk(os.curdir):
+        for filename in filenames:
+            yield os.path.join(root, filename)
+    os.chdir(olddir)
 
-    # List the data files
-    data_files = recursive_find(__DATADIR__)
-    data_files = ["data/" + d for d in data_files]
-    setup_kwargs['package_data'] = {'patacrep': data_files}
-else:
-    setup_kwargs['setup_requires'].append('hgtools')
-    setup_kwargs['include_package_data'] = True
+
+# List the data files
+data_files = recursive_find(__DATADIR__)
+data_files = ["data/" + d for d in data_files]
+setup_kwargs['package_data'] = {'patacrep': data_files}
+
 
 setup(
     name='patacrep',
@@ -74,6 +71,6 @@ setup(
         ],
     platforms=["GNU/Linux", "Windows", "MacOsX"],
     test_suite="test.suite",
-    long_description = open("README.rst", "r").read(),
+    long_description=open("README.rst", "r").read(),
     **setup_kwargs
 )

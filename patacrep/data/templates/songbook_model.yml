@@ -55,6 +55,14 @@ schema:
               value: "guitar"
             - type: //str
               value: "ukulele"
+            - type: //arr
+              contents:
+                type: //any
+                of:
+                  - type: //str
+                    value: "guitar"
+                  - type: //str
+                    value: "ukulele"
         notation:
             type: //any
             of:

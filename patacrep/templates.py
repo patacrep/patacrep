@@ -326,4 +326,7 @@ def iter_bookoptions(config):
         elif config['chords']['diagrampage'] == "all":
             yield 'diagrampage'
 
-        yield config['chords']['instrument']
+        if isinstance(config['chords']['instrument'], str):
+            yield config['chords']['instrument']
+        else:
+            yield from config['chords']['instrument']

@@ -251,6 +251,19 @@ class ChordproParser(Parser):
             else:
                 self._directives.append(directive)
 
+    def p_verse_directive(self, symbols):
+        """verse_directive : LBRACE KEYWORD directive_next RBRACE
+                           | LBRACE SPACE KEYWORD directive_next RBRACE
+        """
+        if len(symbols) == 5:
+            keyword = symbols[2]
+            argument = symbols[3]
+        else:
+            keyword = symbols[3]
+            argument = symbols[4]
+
+        if keyword != "newline":
+            symbols[0] = ast.VerseDirective(keyword, argument)
 
     @staticmethod
     def p_directive_next(symbols):
@@ -310,6 +323,7 @@ class ChordproParser(Parser):
                      | space line_next
                      | chord line_next
                      | echo line_next
+                     | verse_directive line_next
                      | empty
         """
         if len(symbols) == 2:

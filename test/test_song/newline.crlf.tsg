@@ -55,7 +55,7 @@
 
 
 \begin{verse}
-    New lines cannot
+    New lines cannot  appear in the middle of a line
 \end{verse}
 
 \endsong

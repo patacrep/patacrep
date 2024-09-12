@@ -71,6 +71,17 @@ Documentation
 
 The full documentation is hosted by readthedoc, here : http://patacrep.readthedocs.org/ (currently only in french).
 
+Toolchain overview
+------------------
+
+The following steps happen by default (see [build.py](https://github.com/patacrep/patacrep/blob/master/patacrep/build.py#L19):
+
+1. `tex` generate a LaTeX file, based on the list of files mentionned in the songbook (a conversion to LaTeX formats happens for ChordPro files)
+2. `pdf` generates a pdf, using `lualatex`
+3. `sbx` make .sbx indexes from .sxd files
+4. `pdf` generate a pdf again, with the index
+5. `clean` removes the temporary files
+
 Contact & Forums
 ----------------
 

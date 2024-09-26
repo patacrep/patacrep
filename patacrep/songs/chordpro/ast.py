@@ -46,6 +46,12 @@ INLINE_DIRECTIVES = {
     "meta",
     }
 
+#: List of properties that are to be displayed in the flow of the song (not as
+#: metadata at the beginning or end of song.
+VERSE_DIRECTIVES = {
+    "repeat",
+    }
+
 #: Some directive have alternative names. For instance `{title: Foo}` and `{t:
 #: Foo}` are equivalent.
 DIRECTIVE_SHORTCUTS = {
@@ -375,6 +381,31 @@ class Directive(AST):
     def inline(self):
         """Return `True` iff `self` is an inline directive."""
         return self.keyword in INLINE_DIRECTIVES
+
+class VerseDirective(Directive):
+    """A verse directive (can be inside some text)"""
+
+    def __init__(self, keyword, argument=None):
+        if keyword not in VERSE_DIRECTIVES:
+            #TODO Raise better exception
+            raise Exception(keyword)
+        super().__init__(keyword, argument)
+
+    @property
+    def _template(self):
+        """Name of the template to use to render this keyword.
+
+        This only applies if ``self.inline == True``
+        """
+        return self.keyword
+
+    def __str__(self):
+        return str(self.argument)
+
+    @property
+    def inline(self):
+        """Return `True` iff `self` is an inline directive."""
+        return True
 
 class Define(Directive):
     """A chord definition.
